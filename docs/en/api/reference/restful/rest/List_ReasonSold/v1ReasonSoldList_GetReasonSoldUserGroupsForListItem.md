@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Grimes Inc and Sons",
-    "ToolTip": "Velit sint molestias qui occaecati vel omnis.",
-    "Deleted": true,
-    "Rank": 437,
-    "Type": "est",
-    "ColorBlock": 137,
-    "IconHint": "nulla",
+    "Id": 25,
+    "Name": "Bruen Inc and Sons",
+    "ToolTip": "Et facere quia magnam consequuntur esse sapiente dolore.",
+    "Deleted": false,
+    "Rank": 742,
+    "Type": "excepturi",
+    "ColorBlock": 57,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2007-04-07T03:40:57.0871054+02:00",
+    "LastChanged": "1999-10-05T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Connelly-Beer",
-        "ToolTip": "Aut est dolores asperiores architecto.",
-        "Deleted": true,
-        "Rank": 832,
-        "Type": "consequatur",
-        "ColorBlock": 364,
-        "IconHint": "possimus",
+        "Id": 959,
+        "Name": "Gerhold, Herman and O'Hara",
+        "ToolTip": "Veritatis adipisci.",
+        "Deleted": false,
+        "Rank": 949,
+        "Type": "fuga",
+        "ColorBlock": 141,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2012-07-22T03:40:57.0871054+02:00",
+        "LastChanged": "2010-01-13T02:30:53.4286352+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Anne Fay",
+        "ExtraInfo": "aut",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Dr. Prince Audreanne Rath IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 345
+            "FieldType": "System.String",
+            "FieldLength": 280
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "quia",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Neil Stroman",
+    "FullName": "Dr. Craig Nathaniel Hoeger V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 827
       }
     }
   }

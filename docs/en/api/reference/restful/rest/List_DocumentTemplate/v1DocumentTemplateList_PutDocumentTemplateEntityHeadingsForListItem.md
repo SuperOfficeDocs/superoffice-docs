@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Prosacco Group",
-    "ToolTip": "Veniam quas.",
+    "Id": 9,
+    "Name": "Sporer Inc and Sons",
+    "ToolTip": "Itaque adipisci vel atque quia aut.",
     "Deleted": false,
-    "Rank": 501,
-    "Type": "ducimus",
-    "ColorBlock": 925,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2003-06-14T03:40:56.8526098+02:00",
+    "Rank": 562,
+    "Type": "quo",
+    "ColorBlock": 298,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2018-01-09T02:30:53.288015+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Reichel, Sanford and Zemlak",
-        "ToolTip": "Omnis ea minus hic odio dolorem hic perferendis.",
-        "Deleted": false,
-        "Rank": 253,
-        "Type": "ut",
-        "ColorBlock": 363,
-        "IconHint": "est",
+        "Id": 256,
+        "Name": "Zemlak, Miller and Fritsch",
+        "ToolTip": "Ut exercitationem nisi voluptas molestias rem et.",
+        "Deleted": true,
+        "Rank": 905,
+        "Type": "quis",
+        "ColorBlock": 84,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2000-11-27T03:40:56.8526098+01:00",
+        "LastChanged": "2012-01-28T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dr. Dorthy Murazik PhD"
+        "ExtraInfo": "adipisci",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Hermina Timmothy Pfannerstill V"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "facilis",
+    "ExtraInfo": "quod",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Adrain Hickle"
+    "FullName": "Ms. Shanny Brad Keebler DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Treutel, Rogahn and Balistreri",
-    "ToolTip": "Velit quod molestiae asperiores iure nisi et dicta.",
-    "Deleted": true,
-    "Rank": 223,
-    "Type": "et",
-    "ColorBlock": 751,
-    "IconHint": "nihil",
+    "Id": 140,
+    "Name": "Olson, Lang and Moore",
+    "ToolTip": "Quasi ad nihil adipisci.",
+    "Deleted": false,
+    "Rank": 875,
+    "Type": "hic",
+    "ColorBlock": 285,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2020-10-17T03:40:56.8526098+02:00",
+    "LastChanged": "2009-04-25T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 493,
-        "Name": "Stroman Inc and Sons",
-        "ToolTip": "Aspernatur alias quo quia autem porro.",
+        "Id": 472,
+        "Name": "Jewess-Keebler",
+        "ToolTip": "Atque iste.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "voluptatem",
-        "ColorBlock": 66,
-        "IconHint": "numquam",
+        "Rank": 713,
+        "Type": "et",
+        "ColorBlock": 894,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2020-02-18T03:40:56.8526098+01:00",
+        "LastChanged": "2012-10-15T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "nemo",
+        "ExtraInfo": "nihil",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ms. Geovanny Stracke V",
+        "FullName": "Lillian Jannie Durgan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 331
+            "FieldType": "System.Int32",
+            "FieldLength": 965
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Ms. Jaydon Chauncey Wilderman DDS",
+    "ExtraInfo": "error",
+    "StyleHint": "voluptate",
+    "Hidden": true,
+    "FullName": "Pietro Antone Dibbert V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 389
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Murazik, VonRueden and Funk",
-    "ToolTip": "Perspiciatis veniam aut explicabo ut eos.",
+    "Id": 631,
+    "Name": "Satterfield LLC",
+    "ToolTip": "Accusamus quis aperiam expedita est voluptates.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "rem",
-    "ColorBlock": 808,
-    "IconHint": "ut",
+    "Rank": 261,
+    "Type": "soluta",
+    "ColorBlock": 307,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2003-04-03T03:40:56.790106+02:00",
+    "LastChanged": "2025-02-19T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Schumm LLC",
-        "ToolTip": "Qui harum laboriosam qui facere reiciendis placeat.",
+        "Id": 69,
+        "Name": "Harris-Pollich",
+        "ToolTip": "Qui ea reprehenderit dolores asperiores et neque fugiat.",
         "Deleted": false,
-        "Rank": 557,
-        "Type": "voluptas",
-        "ColorBlock": 480,
-        "IconHint": "quibusdam",
+        "Rank": 464,
+        "Type": "rerum",
+        "ColorBlock": 487,
+        "IconHint": "recusandae",
         "Selected": true,
-        "LastChanged": "2005-04-06T03:40:56.790106+02:00",
+        "LastChanged": "2005-07-21T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Jamel Mante"
+        "ExtraInfo": "animi",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Ms. Nasir Harvey"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Mrs. Rocio Lind IV"
+    "ExtraInfo": "eos",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Myrtie Padberg"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Stokes Inc and Sons",
-    "ToolTip": "Qui sint.",
-    "Deleted": false,
-    "Rank": 416,
-    "Type": "aut",
-    "ColorBlock": 224,
-    "IconHint": "vitae",
+    "Id": 696,
+    "Name": "Shanahan-Mayer",
+    "ToolTip": "Esse omnis amet laborum perferendis ex expedita ea.",
+    "Deleted": true,
+    "Rank": 519,
+    "Type": "nam",
+    "ColorBlock": 605,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2016-12-18T03:40:56.790106+01:00",
+    "LastChanged": "2022-06-16T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Crist LLC",
-        "ToolTip": "Nulla tenetur eum explicabo rerum consequatur dolorem.",
-        "Deleted": false,
-        "Rank": 52,
-        "Type": "ea",
-        "ColorBlock": 516,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2004-09-12T03:40:56.790106+02:00",
+        "Id": 479,
+        "Name": "Bradtke, Raynor and Terry",
+        "ToolTip": "Deleniti odio ut at omnis voluptas.",
+        "Deleted": true,
+        "Rank": 425,
+        "Type": "beatae",
+        "ColorBlock": 75,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2017-09-04T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "harum",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Joey Brekke",
+        "FullName": "Miss Anthony Clay Buckridge IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Prof. Katherine Candelario Bednar",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Halle Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 627
       }
     }
   }

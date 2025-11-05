@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "ipsa",
-  "ProgramName": "Rath Inc and Sons",
-  "Action": "architecto",
-  "ExtraParameters": "dignissimos"
+  "Language": "est",
+  "ProgramName": "Bartoletti LLC",
+  "Action": "corrupti",
+  "ExtraParameters": "ut"
 }
 ```
 

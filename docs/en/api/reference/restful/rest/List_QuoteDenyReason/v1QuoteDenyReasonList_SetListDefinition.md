@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 929,
-  "Name": "Wisozk, Hills and West",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 430,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": true
+  "Id": 113,
+  "Name": "Cormier LLC",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 18,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "Rank": 42,
-  "IsCustomList": false,
+  "Id": 526,
+  "Name": "Bailey-Reichert",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 734,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

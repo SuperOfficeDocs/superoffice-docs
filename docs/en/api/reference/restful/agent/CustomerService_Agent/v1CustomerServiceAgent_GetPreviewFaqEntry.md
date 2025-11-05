@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 720
+  "KbEntryId": 418
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "nihil",
-  "RegisteredByFullName": "Nettie Daniella Champlin Jr.",
-  "Updated": "2009-04-12T03:40:46.5468616+02:00",
-  "Question": "et",
-  "Answer": "quis",
+  "Title": "et",
+  "RegisteredByFullName": "Mrs. Carley Bergstrom Sr.",
+  "Updated": "2008-05-28T02:30:47.0538389+02:00",
+  "Question": "vel",
+  "Answer": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

@@ -25,10 +25,10 @@ NsApiSlow threshold: 5000 ms.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| taskMenuId | int32 | **Required** The identity of the TaskMenu |
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=675
+POST /api/v1/Agents/List/DeleteTaskMenu?$select=name,department,category/id
 ```
 
 
@@ -38,9 +38,17 @@ POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=675
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+## Request Body: request 
+
+TaskMenuId 
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| TaskMenuId | Integer |  |
 
 ## Response:
 
@@ -59,7 +67,12 @@ No Content
 POST /api/v1/Agents/List/DeleteTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
+Content-Type: application/json; charset=utf-8
+
+{
+  "TaskMenuId": 797
+}
 ```
 
 ## Sample response

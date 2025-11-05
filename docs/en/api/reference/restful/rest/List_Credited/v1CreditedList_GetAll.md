@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Denesik-West",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 233,
-    "Rank": 737,
+    "Id": 126,
+    "Name": "Hayes-Jaskolski",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 444,
+    "Rank": 958,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldLength": 4
       }
     }
   }

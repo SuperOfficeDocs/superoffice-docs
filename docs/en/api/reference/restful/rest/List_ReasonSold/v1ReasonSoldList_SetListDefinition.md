@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Larson-Windler",
-  "Tooltip": "est",
+  "Id": 414,
+  "Name": "Nicolas-Mohr",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 675,
+  "Rank": 333,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "Name": "Braun, Lynch and Durgan",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "Rank": 785,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 952,
+  "Name": "Stanton Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 363,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 870
     }
   }
 }

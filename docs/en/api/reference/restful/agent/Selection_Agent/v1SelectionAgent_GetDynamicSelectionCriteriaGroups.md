@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 838
+  "SelectionId": 366
 }
 ```
 
@@ -94,20 +94,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zboncak, Monahan and Lowe",
-    "Description": "Realigned reciprocal utilisation",
-    "Rank": 322,
+    "Name": "Weber-Grant",
+    "Description": "Sharable tertiary knowledge user",
+    "Rank": 624,
     "Restrictions": [
       {
-        "Name": "Dicki, Collins and Romaguera",
-        "Operator": "id",
+        "Name": "Lakin, Hilll and Beer",
+        "Operator": "et",
         "Values": [
-          "quae",
-          "enim"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "ipsam",
+          "esse"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -115,27 +115,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 62,
+        "InterParenthesis": 37,
         "InterOperator": "And",
-        "UniqueHash": 97
+        "UniqueHash": 756
       }
     ]
   },
   {
-    "Name": "Zboncak, Monahan and Lowe",
-    "Description": "Realigned reciprocal utilisation",
-    "Rank": 322,
+    "Name": "Weber-Grant",
+    "Description": "Sharable tertiary knowledge user",
+    "Rank": 624,
     "Restrictions": [
       {
-        "Name": "Dicki, Collins and Romaguera",
-        "Operator": "id",
+        "Name": "Lakin, Hilll and Beer",
+        "Operator": "et",
         "Values": [
-          "quae",
-          "enim"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "ipsam",
+          "esse"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -143,9 +143,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 62,
+        "InterParenthesis": 37,
         "InterOperator": "And",
-        "UniqueHash": 97
+        "UniqueHash": 756
       }
     ]
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 74,
-  "AttachmentId": "illo"
+  "MessageServerId": 570,
+  "AttachmentId": "id"
 }
 ```
 
@@ -106,21 +106,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total contextually-based policy",
-  "Filename": "quidem",
-  "Size": 662,
-  "Type": "porro",
-  "Encoding": "est",
-  "Id": "asperiores",
-  "Disposition": "illo",
-  "IsSafeFileExtension": true,
+  "Description": "Pre-emptive reciprocal budgetary management",
+  "Filename": "a",
+  "Size": 480,
+  "Type": "placeat",
+  "Encoding": "earum",
+  "Id": "iure",
+  "Disposition": "occaecati",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

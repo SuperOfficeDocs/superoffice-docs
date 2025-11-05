@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Kunze-Watsica",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 97
+    "Id": 760,
+    "Name": "Bogisich LLC",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 72,
+    "Rank": 389
   },
   {
-    "Id": 135,
-    "Name": "Kunze-Watsica",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 97
+    "Id": 760,
+    "Name": "Bogisich LLC",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 72,
+    "Rank": 389
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Hagenes Group",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 372,
-    "Rank": 8,
+    "Id": 893,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "UdListDefinitionId": 400,
+    "Rank": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 193
       }
     }
   }

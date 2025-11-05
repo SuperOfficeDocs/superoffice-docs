@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "Name": "Howe-Zulauf",
-  "Tooltip": "rerum",
+  "Id": 728,
+  "Name": "Schamberger, Kessler and Lebsack",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 797,
-  "Rank": 66,
+  "UdListDefinitionId": 542,
+  "Rank": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldType": "System.String",
+      "FieldLength": 101
     }
   }
 }

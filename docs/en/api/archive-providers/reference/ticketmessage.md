@@ -110,7 +110,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/createdBy/assocType|listAny|Request - Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/createdBy/ejUserId|int|Request - Created by - Service user ID: The database ID of a Service user|  |
 |ticket/createdBy/simultaneousEjUser|bool|Request - Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/createdBy/ejDisplayName|string|Request - Created by - Nick name: User's nick name in Service| x |
+|ticket/createdBy/ejDisplayName|string|Request - Created by - Nickname: User's nickname in Service| x |
 |ticket/createdBy/ejStatus|int|Request - Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/createdBy/credentialType| *None* |Request - Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/createdBy/credentialDisplayValue| *None* |Request - Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -147,7 +147,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ownedBy/assocType|listAny|Request - Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/ownedBy/ejUserId|int|Request - Owner - Service user ID: The database ID of a Service user|  |
 |ticket/ownedBy/simultaneousEjUser|bool|Request - Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/ownedBy/ejDisplayName|string|Request - Owner - Nick name: User's nick name in Service| x |
+|ticket/ownedBy/ejDisplayName|string|Request - Owner - Nickname: User's nickname in Service| x |
 |ticket/ownedBy/ejStatus|int|Request - Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/ownedBy/credentialType| *None* |Request - Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/ownedBy/credentialDisplayValue| *None* |Request - Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -208,8 +208,10 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personAssociateFullName|associate|Request - Our contact - Full name: Displays our contact| x |
 |ticket/person/personCategory|listAny|Request - Category| x |
 |ticket/person/personCategoryGroup|listAny|Request - Category group| x |
+|ticket/person/personCategoryRank|int|Request - !!Category rank| x |
 |ticket/person/personBusiness|listAny|Request - Business| x |
-|ticket/person/leadstatus|listAny|Request - Lead status| x |
+|ticket/person/leadStatus|listAny|Request - Lead status| x |
+|ticket/person/leadstatusRank|int|Request - !!Lead status RANK| x |
 |ticket/person/personDeletedDate|datetime|Request - Deleted date: Deleted date|  |
 |ticket/person/hasCompany|bool|Request - Has company: The contact is associated with a company| x |
 |ticket/person/isProjectMember|bool|Request - Is project member: This person is a project member| x |
@@ -223,12 +225,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personMobilePhone/formattedNumber|string|Request - Mobile - Phone: Displays phone number|  |
 |ticket/person/personMobilePhone/description|string|Request - Mobile - Description: Phone number description| x |
 |ticket/person/personPrivate/formattedNumber|string|Request - Private - Phone: Displays phone number|  |
-|ticket/person/personPrivate/description|string|Request - Private - Description: Phone number description| x |
-|ticket/person/personPager/formattedNumber|string|Request - Other - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/personPrivate/description|string|Request - Private - Description: Phone number description| x |
+|ticket/person/personPager/formattedNumber|string|Request - Other - Phone: Displays phone number|  |
 |ticket/person/personPager/description|string|Request - Other - Description: Phone number description| x |
 |ticket/person/personDirectFax/formattedNumber|string|Request - Fax - Phone: Displays phone number|  |
 |ticket/person/personDirectFax/description|string|Request - Fax - Description: Phone number description| x |
@@ -300,8 +302,8 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personExtra/x\_person\_appointment\_relation|stringorPK|Request - Extra appointment relation: Appointment relation on person| x |
 |ticket/person/personExtra/x\_person\_contact\_relation|stringorPK|Request - Extra company relation: Company relation on contact| x |
 |ticket/person/personExtra/y\_rental/id|int|Request - Rental - id: Displays the row's primary key (y\_rental)| x |
-|ticket/person/personExtra/y\_rental/x\_start|date|Request - Rental - Start rental| x |
-|ticket/person/personExtra/y\_rental/x\_end|date|Request - Rental - End| x |
+|ticket/person/personExtra/y\_rental/x\_start|date|Request - Rental - Start rental: Start rental| x |
+|ticket/person/personExtra/y\_rental/x\_end|date|Request - Rental - End: End| x |
 |ticket/person/personExtra/y\_rental/x\_amount|int|Request - Rental - Amount: Number to rent. Default = 1| x |
 |ticket/person/personExtra/y\_rental/x\_contact|stringorPK|Request - Rental - Renter: Company that rents equipment| x |
 |ticket/person/personExtra/y\_rental/y\_equipment/x\_name|string|Request - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -327,12 +329,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/person/personAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/person/personAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/person/personAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
-|ticket/person/personAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/personAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
+|ticket/person/personAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/person/personAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/person/personAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |ticket/person/personAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
@@ -364,7 +366,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/correspondingAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/person/correspondingAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/person/correspondingAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/person/correspondingAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/person/correspondingAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
 |ticket/person/correspondingAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/person/correspondingAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/person/correspondingAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -395,6 +397,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/associateId|associate|Request - Our contact: Displays our contact| x |
 |ticket/contact/category|listAny|Request - Category| x |
 |ticket/contact/categoryGroup|listAny|Request - Category group| x |
+|ticket/contact/companyCategoryRank|int|Request - Category rank| x |
 |ticket/contact/business|listAny|Request - Business| x |
 |ticket/contact/country|listAny|Request - Country: This criterion corresponds to the Country field on the Company card.| x |
 |ticket/contact/countryId|int|Request - Country ID: Country ID| x |
@@ -415,6 +418,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
 |ticket/contact/deletedDate|datetime|Request - Deleted date: Deleted date|  |
 |ticket/contact/mainContact| *None* |Request - Main contact: Main contact for this company| x |
+|ticket/contact/forceCompany|bool|Request - Dummy: Dummy|  |
 |ticket/contact/contactPhone/formattedNumber|string|Request - Telephone - Phone: Displays phone number|  |
 |ticket/contact/contactPhone/description|string|Request - Telephone - Description: Phone number description| x |
 |ticket/contact/contactFax/formattedNumber|string|Request - Fax - Phone: Displays phone number|  |
@@ -429,14 +433,14 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
 |ticket/contact/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
 |ticket/contact/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|ticket/contact/postAddress/addressId|int|Request - Postal address - Address ID: Database ID for the address record| x |
-|ticket/contact/postAddress/line1|string|Request - Postal address - Address 1: First line of the address| x |
-|ticket/contact/postAddress/line2|string|Request - Postal address - Address 2: Second line of the address| x |
-|ticket/contact/postAddress/line3|string|Request - Postal address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/contact/postAddress/addressId|int|Request - Postal address - Address ID: Database ID for the address record| x |
+|ticket/contact/postAddress/line1|string|Request - Postal address - Address 1: First line of the address| x |
+|ticket/contact/postAddress/line2|string|Request - Postal address - Address 2: Second line of the address| x |
+|ticket/contact/postAddress/line3|string|Request - Postal address - Address 3: Third line of the address| x |
 |ticket/contact/postAddress/county|string|Request - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |ticket/contact/postAddress/city|string|Request - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |ticket/contact/postAddress/zip|string|Request - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -492,7 +496,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/contact/contactAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/contact/contactAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/contact/contactAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/contact/contactAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
 |ticket/contact/contactAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/contact/contactAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/contact/contactAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -533,14 +537,14 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Request - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |ticket/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Request - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |ticket/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Request - Extra Request relation: Request relation on company| x |
-|ticket/contact/contactExtra/x\_contact\_contact|stringorPK|Request - Extra contact relation: Contact relation on company| x |
-|ticket/contact/contactExtra/y\_organization/x\_name|string|Request - Organization - Name| x |
-|ticket/contact/NumberOfActivities|int|Request - Number of activities|  |
-|ticket/contact/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/contact/contactExtra/x\_contact\_contact|stringorPK|Request - Extra contact relation: Contact relation on company| x |
+|ticket/contact/contactExtra/y\_organization/x\_name|string|Request - Organization - Name: Name| x |
+|ticket/contact/NumberOfActivities|int|Request - Number of activities|  |
+|ticket/contact/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
 |ticket/contact/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
 |ticket/contact/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
 |ticket/contact/LastActivity|date|Request - Date of last activity|  |
@@ -581,7 +585,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/extra/x\_ticket\_shorttext\_list|listAny|Request - Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |ticket/extra/x\_ticket\_timestamp|datetime|Request - Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |ticket/extra/x\_ticket\_project\_relation|stringorPK|Request - Extra project: Custom project relation on Request| x |
-|ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation| x |
+|ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation: Extra FAQ Relation| x |
 |ticket/extra/x\_ticket\_category\_relation|listAny|Request - Extra category relation: Category relation on request| x |
 |ticket/extra/y\_equipment/x\_name|string|Request - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |ticket/extra/y\_car/id|int|Request - Car - id: Displays the row's primary key (y\_car)| x |
@@ -617,7 +621,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/earning|decimal|Request - Profit: Gross profit (gross sales total - cost) for the sale| x |
 |ticket/sale/earningPercent|decimal|Request - Profit as %: The profit as a percentage of the gross sales total| x |
 |ticket/sale/probPercent|int|Request - Probability as %: Probability as %| x |
-|ticket/sale/originalStage|listAny|Request - Stage: Displays the stage of the sale| x |
+|ticket/sale/originalStage|listAny|Request - Stage when closed: Stage when closed| x |
 |ticket/sale/stage|listAny|Request - Stage: Displays the stage of the sale| x |
 |ticket/sale/stageName| *None* |Request - Stage name: Displays the stage of the sale| x |
 |ticket/sale/saleStatus|listAny|Request - Status: The status of the sale - open, lost or sold| x |
@@ -637,14 +641,14 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
 |ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
 |ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
-|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency): The gross sales total| x |
-|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
-|ticket/sale/visibleFor|listAny|Request - Visible for|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency): The gross sales total| x |
+|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
+|ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
 |ticket/sale/salePublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
@@ -672,7 +676,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/associate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/sale/associate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/sale/associate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/sale/associate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/sale/associate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
 |ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/sale/associate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -741,16 +745,16 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
-|ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
-|ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
-|ticket/project/projectAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/project/projectAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
+|ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
+|ticket/project/projectAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ticket/project/projectAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/project/projectAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/project/projectAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/project/projectAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
 |ticket/project/projectAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/project/projectAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/project/projectAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -839,20 +843,22 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Contact - Category| x |
 |person/personCategoryGroup|listAny|Contact - Category group| x |
+|person/personCategoryRank|int|Contact - !!Category rank| x |
 |person/personBusiness|listAny|Contact - Business| x |
-|person/leadstatus|listAny|Contact - Lead status| x |
+|person/leadStatus|listAny|Contact - Lead status| x |
+|person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
 |person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |ticketMessageExtra/x\_message\_integer|int|Extra integer: Custom integer on message. Hidden. Default 123| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticketMessageExtra/x\_message\_float|decimal|Extra float: Custom float on message. Hidden| x |
 |ticketMessageExtra/x\_message\_longtext|string|Extra long text: Custom long text on Message. Hidden, do not keep HTML| x |
 |ticketMessageExtra/x\_message\_date|date|Extra date: Custom date field on message. Hidden.| x |
@@ -866,7 +872,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/priorityId,ticket/timeToReply,ticket/ticketStatus/rank,ticket/person/personAssociate/isActiveText,ticket/contact/contactAssociate/isActive
+GET /api/v1/archive/TicketMessage?$select=ticket/priorityName,ticket/createdBy/locationAddress,ticket/person/ticketPriority,ticket/person/personExtra/x_person_datetime,ticket/person/personExtra/y_rental/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

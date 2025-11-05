@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Casper, Hilpert and Schroeder",
-    "ToolTip": "Voluptates ut et numquam vel est aspernatur aut.",
+    "Id": 687,
+    "Name": "Larkin-Price",
+    "ToolTip": "Eos quia libero exercitationem ipsam sed voluptas.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "dolores",
-    "ColorBlock": 634,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2018-09-16T03:40:57.040226+02:00",
+    "Rank": 151,
+    "Type": "adipisci",
+    "ColorBlock": 286,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2006-12-06T02:30:53.3817624+01:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Hintz, Renner and Koelpin",
-        "ToolTip": "Odit officiis rerum.",
-        "Deleted": true,
-        "Rank": 765,
-        "Type": "eligendi",
-        "ColorBlock": 846,
-        "IconHint": "debitis",
+        "Id": 168,
+        "Name": "Schumm, Douglas and Jast",
+        "ToolTip": "Tempora impedit eum.",
+        "Deleted": false,
+        "Rank": 92,
+        "Type": "saepe",
+        "ColorBlock": 357,
+        "IconHint": "voluptatibus",
         "Selected": true,
-        "LastChanged": "2002-11-03T03:40:57.040226+01:00",
+        "LastChanged": "2003-10-08T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Darwin Bednar",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quidem",
+        "Hidden": true,
+        "FullName": "Brown McDermott MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 30
+            "FieldLength": 21
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Coby Esperanza Watsica III",
+    "ExtraInfo": "tempora",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Mrs. Jadyn Stanton Wilkinson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 340
       }
     }
   }

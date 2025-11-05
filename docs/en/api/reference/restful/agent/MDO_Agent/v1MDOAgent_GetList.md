@@ -94,10 +94,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stroman, Nitzsche and Sporer",
+  "Name": "Wehner, Kautzer and Zieme",
   "ForceFlatList": false,
-  "AdditionalInfo": "quia",
-  "OnlyHistory": false
+  "AdditionalInfo": "rerum",
+  "OnlyHistory": true
 }
 ```
 
@@ -109,50 +109,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Hessel Group",
-    "ToolTip": "Non culpa perferendis.",
+    "Id": 283,
+    "Name": "Prosacco, Dicki and Dibbert",
+    "ToolTip": "Eum doloribus eum quia ut sed magnam aut.",
     "Deleted": false,
-    "Rank": 837,
-    "Type": "et",
+    "Rank": 202,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Morar Group",
-        "ToolTip": "Amet numquam vel molestiae corporis minima sit voluptatum.",
-        "Deleted": false,
-        "Rank": 769,
-        "Type": "in",
+        "Id": 716,
+        "Name": "Bailey Group",
+        "ToolTip": "Libero similique ut maiores quia laudantium.",
+        "Deleted": true,
+        "Rank": 28,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 84,
-        "ExtraInfo": "qui",
-        "StyleHint": "iure",
-        "FullName": "Miss Tobin Erling Okuneva",
+        "IconHint": "et",
+        "ColorBlock": 9,
+        "ExtraInfo": "quod",
+        "StyleHint": "commodi",
+        "FullName": "Miss Rigoberto Joey Conn Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldLength": 578
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 882,
-    "ExtraInfo": "nihil",
-    "StyleHint": "quam",
-    "FullName": "Ms. Ressie Schamberger Sr.",
+    "IconHint": "excepturi",
+    "ColorBlock": 91,
+    "ExtraInfo": "eius",
+    "StyleHint": "ea",
+    "FullName": "Ms. Torrance Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 485
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 01 Jul 2025 03:40:55 G7T
+Last-Modified: Sun, 05 Aug 2018 02:30:52 G8T
 
 {
-  "ForeignDeviceId": 207,
-  "Name": "Torp, Roberts and Ullrich",
-  "CreatedDate": "2002-08-20T03:40:55.7731411+02:00",
-  "UpdatedDate": "2025-07-01T03:40:55.7731411+02:00",
-  "AssociateFullName": "Dayton Jast",
-  "CreatedBy": "in",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 954,
+  "ForeignDeviceId": 910,
+  "Name": "Maggio, Medhurst and Labadie",
+  "CreatedDate": "2002-07-10T02:30:52.6474115+02:00",
+  "UpdatedDate": "2018-08-05T02:30:52.6474115+02:00",
+  "AssociateFullName": "Prof. Emmitt Roberts PhD",
+  "CreatedBy": "tempora",
+  "UpdatedBy": "nobis",
+  "DeviceIdentifier": "reiciendis",
+  "ForeignAppId": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 406
     }
   }
 }

@@ -66,32 +66,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 500,
+  "SaleId": 404,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "D'Amore-Langosh",
-      "Comment": "laboriosam",
-      "StakeholderRoleId": 544,
-      "CountryId": 946,
-      "PersonId": 490,
-      "EmailDescription": "rodrick.zulauf@conn.biz",
-      "EmailId": 215,
-      "EmailAddress": "herminia@harris.ca",
-      "PhoneId": 94,
-      "ContactName": "Schulist, Lind and Kuhic",
-      "ContactId": 184,
-      "SaleId": 920,
-      "Mrmrs": "harum",
-      "Firstname": "Catharine",
-      "MiddleName": "Weber LLC",
-      "Lastname": "Howell",
-      "SaleStakeholderId": 524,
-      "Rank": 552,
-      "Phone": "173-040-2395"
+      "StakeholderRoleName": "O'Conner-Larson",
+      "Comment": "consequuntur",
+      "StakeholderRoleId": 988,
+      "CountryId": 60,
+      "PersonId": 753,
+      "EmailDescription": "ambrose@huel.co.uk",
+      "EmailId": 560,
+      "EmailAddress": "chaim@bednar.ca",
+      "PhoneId": 100,
+      "ContactName": "Hintz, Padberg and Turcotte",
+      "ContactId": 252,
+      "SaleId": 543,
+      "Mrmrs": "quisquam",
+      "Firstname": "Rick",
+      "MiddleName": "McLaughlin-Schmidt",
+      "Lastname": "Steuber",
+      "SaleStakeholderId": 575,
+      "Rank": 272,
+      "Phone": "1-276-722-6398 x72110"
     }
   ]
 }

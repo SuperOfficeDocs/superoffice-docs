@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "Emard LLC",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "UdListDefinitionId": 900,
-  "Rank": 842
+  "Id": 902,
+  "Name": "Blanda-Shanahan",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 926,
+  "Rank": 669
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Steuber-Abernathy",
-  "Tooltip": "optio",
+  "Id": 724,
+  "Name": "Hauck Group",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 507,
-  "Rank": 325,
+  "UdListDefinitionId": 983,
+  "Rank": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 740
     }
   }
 }

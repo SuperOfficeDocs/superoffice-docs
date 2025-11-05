@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Barton, Haley and Feil",
-    "ToolTip": "Cumque omnis dolore voluptates ad maiores nobis.",
+    "Id": 780,
+    "Name": "Crooks, Bernier and Mueller",
+    "ToolTip": "Voluptatibus voluptatem ex quo nostrum qui amet consequatur.",
     "Deleted": true,
-    "Rank": 33,
-    "Type": "ullam",
-    "ColorBlock": 580,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1998-08-07T03:40:56.9620969+02:00",
+    "Rank": 176,
+    "Type": "consectetur",
+    "ColorBlock": 670,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2002-08-06T02:30:53.3192639+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Runte Inc and Sons",
-        "ToolTip": "Ut tempore.",
+        "Id": 894,
+        "Name": "Lubowitz Inc and Sons",
+        "ToolTip": "Molestias reprehenderit tempora asperiores asperiores.",
         "Deleted": false,
-        "Rank": 774,
-        "Type": "alias",
-        "ColorBlock": 814,
-        "IconHint": "earum",
+        "Rank": 842,
+        "Type": "molestias",
+        "ColorBlock": 548,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2022-03-15T03:40:56.9620969+01:00",
+        "LastChanged": "2003-10-22T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Patsy Koss IV"
+        "ExtraInfo": "ex",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Luella Yost I"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "doloribus",
-    "Hidden": true,
-    "FullName": "Zachery Lakin"
+    "ExtraInfo": "quasi",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Everette Vern McDermott PhD"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Feest Inc and Sons",
-    "ToolTip": "Sit quasi impedit expedita doloremque modi animi et.",
+    "Id": 216,
+    "Name": "Lind, Medhurst and Bode",
+    "ToolTip": "Architecto itaque repudiandae.",
     "Deleted": false,
-    "Rank": 174,
-    "Type": "quisquam",
-    "ColorBlock": 870,
-    "IconHint": "libero",
+    "Rank": 590,
+    "Type": "cumque",
+    "ColorBlock": 368,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2005-12-19T03:40:56.9777222+01:00",
+    "LastChanged": "2019-05-02T02:30:53.3192639+02:00",
     "ChildItems": [
       {
-        "Id": 594,
-        "Name": "Schmidt-Bashirian",
-        "ToolTip": "Id dolores odio.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "impedit",
-        "ColorBlock": 902,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2003-02-21T03:40:56.9777222+01:00",
+        "Id": 734,
+        "Name": "Walsh-Gulgowski",
+        "ToolTip": "Natus commodi earum et ut recusandae earum molestiae.",
+        "Deleted": false,
+        "Rank": 860,
+        "Type": "aspernatur",
+        "ColorBlock": 451,
+        "IconHint": "commodi",
+        "Selected": true,
+        "LastChanged": "2023-08-22T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iste",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Jaclyn Christiansen DVM",
+        "FullName": "Mr. Nathaniel Runolfsdottir Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 464
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "architecto",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Mrs. Kaylee Treutel",
+    "FullName": "Prof. Ashly Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 114
       }
     }
   }

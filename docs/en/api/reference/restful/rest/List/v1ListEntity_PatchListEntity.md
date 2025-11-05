@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -143,22 +143,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "Wolf Group",
-  "Tooltip": "sint",
+  "Id": 852,
+  "Name": "Feil, Corwin and Goodwin",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 581,
-  "IsCustomList": false,
+  "Rank": 877,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 304
     }
   },
   "_Links": {

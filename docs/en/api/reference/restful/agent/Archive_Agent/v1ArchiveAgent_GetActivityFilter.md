@@ -82,91 +82,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2008-08-15T03:40:46.0452033+02:00",
-  "ToDate": "2002-09-08T03:40:46.0452033+02:00",
+  "FromDate": "2003-08-14T02:30:46.7882228+02:00",
+  "ToDate": "2024-11-03T02:30:46.7882228+01:00",
   "AssociateList": [
     {
-      "Id": 905,
-      "Name": "Graham, Wilkinson and Mayert",
-      "ToolTip": "Possimus quia dolore dolorum.",
+      "Id": 570,
+      "Name": "Hand Group",
+      "ToolTip": "Facilis sint.",
       "Deleted": true,
-      "Rank": 128,
-      "Type": "in",
-      "ColorBlock": 640,
-      "IconHint": "aut",
-      "Selected": true,
-      "LastChanged": "2024-08-17T03:40:46.0452033+02:00",
+      "Rank": 733,
+      "Type": "reprehenderit",
+      "ColorBlock": 865,
+      "IconHint": "qui",
+      "Selected": false,
+      "LastChanged": "2022-05-13T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "ea",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "voluptas",
       "Hidden": false,
-      "FullName": "Rosalinda Monserrat Stanton DVM",
+      "FullName": "Mr. Mayra Brain Padberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 741
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 261,
-      "Name": "Jacobi, Kreiger and Kulas",
-      "ToolTip": "In necessitatibus eligendi suscipit.",
+      "Id": 394,
+      "Name": "Bode-Davis",
+      "ToolTip": "Provident voluptatem velit est aut.",
       "Deleted": false,
-      "Rank": 711,
-      "Type": "veritatis",
-      "ColorBlock": 60,
-      "IconHint": "occaecati",
-      "Selected": true,
-      "LastChanged": "2009-03-25T03:40:46.0452033+01:00",
+      "Rank": 802,
+      "Type": "temporibus",
+      "ColorBlock": 51,
+      "IconHint": "voluptas",
+      "Selected": false,
+      "LastChanged": "2007-05-03T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "rerum",
-      "Hidden": true,
-      "FullName": "Kacie Fritsch",
+      "ExtraInfo": "aliquid",
+      "StyleHint": "nihil",
+      "Hidden": false,
+      "FullName": "Ms. Lyric Francis Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 903
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 110,
-      "Name": "Kozey Inc and Sons",
-      "ToolTip": "Enim culpa quasi et voluptas sit.",
-      "Deleted": true,
-      "Rank": 298,
-      "Type": "voluptatem",
+      "Id": 737,
+      "Name": "O'Reilly-Cartwright",
+      "ToolTip": "Repellat temporibus pariatur amet ut placeat voluptates non.",
+      "Deleted": false,
+      "Rank": 10,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 526,
-      "ExtraInfo": "error",
-      "StyleHint": "doloremque",
-      "FullName": "Ms. Meta Sigrid Bayer",
+      "IconHint": "dolor",
+      "ColorBlock": 113,
+      "ExtraInfo": "adipisci",
+      "StyleHint": "deserunt",
+      "FullName": "Miss Gwen Lily Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 41
         }
       }
     }
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 705
     }
   }
 }

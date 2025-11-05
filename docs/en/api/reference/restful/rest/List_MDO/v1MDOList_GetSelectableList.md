@@ -31,7 +31,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=rem
+GET /api/v1/MDOList/{listname}/selectable?additional=nesciunt
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Little LLC",
-    "ToolTip": "Dolor et corrupti qui dolor dicta itaque.",
-    "Deleted": true,
-    "Rank": 97,
-    "Type": "incidunt",
-    "ColorBlock": 178,
-    "IconHint": "dolores",
+    "Id": 982,
+    "Name": "Marvin, Bogisich and Treutel",
+    "ToolTip": "Dolor soluta dolorum.",
+    "Deleted": false,
+    "Rank": 395,
+    "Type": "est",
+    "ColorBlock": 806,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2025-06-08T03:40:56.8682357+02:00",
+    "LastChanged": "2004-07-07T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Olson LLC",
-        "ToolTip": "Asperiores qui quasi et magni id quia saepe.",
+        "Id": 271,
+        "Name": "Schmeler-Schmeler",
+        "ToolTip": "Error occaecati nam.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "nostrum",
-        "ColorBlock": 884,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2012-02-15T03:40:56.8682357+01:00",
+        "Rank": 832,
+        "Type": "quasi",
+        "ColorBlock": 24,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2024-02-19T02:30:53.3036395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Price Gutkowski",
+        "ExtraInfo": "magnam",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Delaney Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 200
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "ab",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Maida Lowe",
+    "FullName": "Zoey Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

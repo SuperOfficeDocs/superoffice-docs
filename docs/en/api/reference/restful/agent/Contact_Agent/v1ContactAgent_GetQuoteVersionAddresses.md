@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 755
+  "QuoteVersionId": 596
 }
 ```
 
@@ -98,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 1692.36,
-    "Wgs84Longitude": 6565.73,
+    "Wgs84Latitude": 22868.798,
+    "Wgs84Longitude": 6991.954,
     "LocalizedAddress": [
       [
         {
-          "Name": "Walter Inc and Sons",
-          "Value": "quibusdam",
-          "Tooltip": "in",
-          "Label": "earum",
-          "ValueLength": 78,
-          "AddressType": "doloremque",
+          "Name": "Emmerich LLC",
+          "Value": "ullam",
+          "Tooltip": "omnis",
+          "Label": "provident",
+          "ValueLength": 643,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 870
+              "FieldLength": 991
             }
           }
         }
       ],
       [
         {
-          "Name": "Kuhic Group",
-          "Value": "et",
-          "Tooltip": "praesentium",
-          "Label": "et",
-          "ValueLength": 52,
-          "AddressType": "recusandae",
+          "Name": "Feest Group",
+          "Value": "non",
+          "Tooltip": "nobis",
+          "Label": "dolore",
+          "ValueLength": 325,
+          "AddressType": "praesentium",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 760
+              "FieldType": "System.String",
+              "FieldLength": 690
             }
           }
         }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "vero",
+    "Formatted": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldLength": 347
       }
     }
   }

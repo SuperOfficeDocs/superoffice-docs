@@ -100,28 +100,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 213,
-  "Section": "sequi",
-  "Key": "similique",
-  "Name": "Gleason-Volkman",
+  "PrefDescId": 883,
+  "Section": "eum",
+  "Key": "unde",
+  "Name": "Stanton-Cassin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive homogeneous middleware",
-  "IsBuiltin": true,
-  "TableName": "Gutmann-Lubowitz",
-  "UserDefinedListId": 264,
-  "Rank": 600,
-  "SubGroup": "ea",
-  "MinLevel": 361,
-  "MaxValue": 571,
-  "MinValue": 634,
-  "RequiredLicense": "occaecati"
+  "Description": "Horizontal dedicated hierarchy",
+  "IsBuiltin": false,
+  "TableName": "Dietrich, Quigley and Considine",
+  "UserDefinedListId": 525,
+  "Rank": 662,
+  "SubGroup": "consequatur",
+  "MinLevel": 24,
+  "MaxValue": 784,
+  "MinValue": 435,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -132,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 697,
-  "Section": "beatae",
-  "Key": "voluptatibus",
-  "Name": "Jones, Goyette and Pagac",
+  "PrefDescId": 821,
+  "Section": "doloribus",
+  "Key": "iste",
+  "Name": "Pollich, Nader and McLaughlin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic user-facing framework",
+  "Description": "Monitored optimizing migration",
   "IsBuiltin": false,
-  "TableName": "Klocko Inc and Sons",
-  "UserDefinedListId": 271,
-  "Rank": 436,
-  "SubGroup": "fugit",
-  "MinLevel": 477,
-  "MaxValue": 303,
-  "MinValue": 48,
-  "RequiredLicense": "recusandae",
+  "TableName": "Bechtelar LLC",
+  "UserDefinedListId": 678,
+  "Rank": 725,
+  "SubGroup": "laboriosam",
+  "MinLevel": 449,
+  "MaxValue": 174,
+  "MinValue": 473,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 196
     }
   }
 }

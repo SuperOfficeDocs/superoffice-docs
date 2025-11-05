@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Value": "recusandae",
-    "Tooltip": "ratione",
+    "Id": 683,
+    "Value": "veniam",
+    "Tooltip": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 872
       }
     }
   },
   {
-    "Id": 525,
-    "Value": "recusandae",
-    "Tooltip": "ratione",
+    "Id": 683,
+    "Value": "veniam",
+    "Tooltip": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 872
       }
     }
   }

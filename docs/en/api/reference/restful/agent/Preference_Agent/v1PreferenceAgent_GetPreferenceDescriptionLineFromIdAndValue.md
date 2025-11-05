@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 193,
-  "PrefValue": "ipsum"
+  "PrefDescId": 273,
+  "PrefValue": "doloribus"
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 955,
-  "PrefDescId": 627,
-  "PrefValue": "assumenda",
-  "PrefShowValue": "dolores",
-  "Description": "Grass-roots national data-warehouse",
+  "PrefDescLineId": 514,
+  "PrefDescId": 476,
+  "PrefValue": "corporis",
+  "PrefShowValue": "autem",
+  "Description": "Intuitive upward-trending alliance",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

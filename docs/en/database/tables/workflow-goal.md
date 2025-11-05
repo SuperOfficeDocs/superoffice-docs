@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_goal Table (516)
+# workflow\_goal Table (517)
 
 A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.
 

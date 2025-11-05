@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 969
+  "ErpConnectionId": 246
 }
 ```
 
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Will, Dicki and Kulas",
+      "ErpListName": "Langosh, Huels and Sauer",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Bergstrom-Stehr",
-      "ErpFieldId": 211,
+      "ErpActorTypeName": "Crist, Turcotte and Lueilwitz",
+      "ErpFieldId": 831,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 238
         }
       }
     }
   ],
-  "ErpConnectionId": 934,
-  "ErpConnectionName": "Quigley Inc and Sons",
+  "ErpConnectionId": 609,
+  "ErpConnectionName": "Armstrong-Weissnat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 637
     }
   }
 }

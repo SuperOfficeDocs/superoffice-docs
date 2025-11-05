@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 544,
-  "BlobId": 643
+  "ProductId": 688,
+  "BlobId": 337
 }
 ```
 

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Windler, Hermiston and Daugherty",
-  "DeviceName": "Herzog-Kunze"
+  "ApplicationName": "Tromp, Becker and Stroman",
+  "DeviceName": "Deckow, Collier and Ledner"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quis",
-    "Value": "rerum",
-    "RecordId": 738,
-    "CreatedDate": "2011-08-21T03:40:46.9999043+02:00",
-    "UpdatedDate": "2022-09-06T03:40:46.9999043+02:00",
-    "UpdatedBy": "vero",
-    "CreatedBy": "aliquam",
-    "TableName": "Lakin Inc and Sons",
+    "Key": "voluptatem",
+    "Value": "dicta",
+    "RecordId": 643,
+    "CreatedDate": "2007-03-04T02:30:47.366331+01:00",
+    "UpdatedDate": "2000-12-15T02:30:47.366331+01:00",
+    "UpdatedBy": "occaecati",
+    "CreatedBy": "voluptas",
+    "TableName": "McDermott Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 184
       }
     }
   }

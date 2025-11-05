@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 757,
-  "Name": "Pollich-Moore",
-  "Description": "Object-based multi-state firmware",
-  "DeltaJson": "occaecati",
+  "ConfigurableScreenDeltaId": 316,
+  "Name": "Yost-Runolfsdottir",
+  "Description": "Sharable incremental process improvement",
+  "DeltaJson": "consectetur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nam",
-  "UpdatedDate": "2001-12-01T03:40:46.2488145+01:00",
-  "CreatedDate": "2008-03-04T03:40:46.2488145+01:00",
+  "RecipeId": "aliquam",
+  "UpdatedDate": "2005-06-22T02:30:46.9288431+02:00",
+  "CreatedDate": "2012-03-21T02:30:46.9288431+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    32,
-    796
+    995,
+    139
   ],
-  "AppliesToKey": "minima",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

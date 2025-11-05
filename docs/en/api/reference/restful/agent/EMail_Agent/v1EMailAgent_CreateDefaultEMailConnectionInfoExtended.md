@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 528,
-  "ServerName": "Paucek Group",
-  "Protocol": "nihil",
-  "UserName": "Cruickshank-Jaskolski",
-  "Password": "dolorum",
+  "Port": 435,
+  "ServerName": "Stanton Inc and Sons",
+  "Protocol": "delectus",
+  "UserName": "Beahan-Lueilwitz",
+  "Password": "aspernatur",
   "UseSSL": false,
-  "Folder": "iure",
+  "Folder": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 474
     }
   }
 }

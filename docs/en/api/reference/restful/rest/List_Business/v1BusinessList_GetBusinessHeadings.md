@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 706,
-    "Name": "Rempel-Brekke",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "Rank": 364,
-    "UdListDefinitionId": 446,
+    "HeadingId": 188,
+    "Name": "Towne Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 218,
+    "UdListDefinitionId": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldLength": 443
       }
     }
   }

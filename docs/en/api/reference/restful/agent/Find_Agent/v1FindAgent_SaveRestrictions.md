@@ -70,34 +70,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "culpa",
-  "ProviderName": "Heller Inc and Sons",
-  "StorageKey": "ratione",
+  "StorageType": "dicta",
+  "ProviderName": "Fadel-Powlowski",
+  "StorageKey": "doloremque",
   "Restrictions": [
     {
-      "Name": "Vandervort, Nolan and Padberg",
-      "Operator": "eum",
+      "Name": "Becker, D'Amore and Wilkinson",
+      "Operator": "eveniet",
       "Values": [
-        "labore",
-        "amet"
+        "animi",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "quasi",
-        "facilis"
+        "libero",
+        "voluptate"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 297,
+      "InterParenthesis": 596,
       "InterOperator": "And",
-      "UniqueHash": 525
+      "UniqueHash": 106
     }
   ]
 }

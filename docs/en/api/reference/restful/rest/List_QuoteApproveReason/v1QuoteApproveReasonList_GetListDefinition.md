@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Considine, Rosenbaum and Dicki",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 99,
+  "Id": 835,
+  "Name": "Wiza, Kirlin and Schuppe",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 73,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 981
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

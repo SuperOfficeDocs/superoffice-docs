@@ -28,7 +28,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=aut
+GET /api/v1/List/Position/MDOItems?query=voluptatem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "O'Conner Group",
-    "ToolTip": "Non eaque nihil repellendus rem incidunt.",
-    "Deleted": true,
-    "Rank": 349,
-    "Type": "molestiae",
+    "Id": 433,
+    "Name": "Mohr-Swaniawski",
+    "ToolTip": "Quos architecto.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Stoltenberg-Bruen",
-        "ToolTip": "Perspiciatis saepe numquam.",
-        "Deleted": false,
-        "Rank": 324,
-        "Type": "accusamus",
+        "Id": 780,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Velit impedit aliquid ea id sint animi.",
+        "Deleted": true,
+        "Rank": 960,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 950,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptatem",
-        "FullName": "Samson Carroll",
+        "IconHint": "facere",
+        "ColorBlock": 314,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "magnam",
+        "FullName": "Dr. Alisha Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 958
+            "FieldType": "System.Int32",
+            "FieldLength": 393
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 794,
-    "ExtraInfo": "laborum",
-    "StyleHint": "accusamus",
-    "FullName": "Trinity Vandervort",
+    "IconHint": "deleniti",
+    "ColorBlock": 906,
+    "ExtraInfo": "numquam",
+    "StyleHint": "eos",
+    "FullName": "Jedidiah O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 790
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 916,
-    "ColumnId": 799,
-    "FieldDefault": "qui",
-    "FieldHeight": 744,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 176,
-    "FieldTop": 878,
+    "UDefFieldId": 938,
+    "ColumnId": 115,
+    "FieldDefault": "adipisci",
+    "FieldHeight": 719,
+    "FieldLabel": "magni",
+    "FieldLeft": 888,
+    "FieldTop": 538,
     "FieldType": "Checkbox",
-    "FieldWidth": 160,
-    "FormatMask": "id",
-    "HideLabel": true,
+    "FieldWidth": 554,
+    "FormatMask": "consequuntur",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 811,
-    "LabelLeft": 884,
-    "LabelTop": 272,
-    "LabelWidth": 217,
-    "LastVersionId": 718,
-    "ListTableId": 834,
+    "LabelHeight": 639,
+    "LabelLeft": 266,
+    "LabelTop": 532,
+    "LabelWidth": 75,
+    "LastVersionId": 60,
+    "ListTableId": 622,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 270,
-    "ProgId": "laboriosam",
-    "IsReadOnly": false,
-    "ShortLabel": "deserunt",
-    "TabOrder": 331,
-    "TextLength": 936,
-    "Tooltip": "quam",
-    "UdefIdentity": 564,
-    "UDListDefinitionId": 361,
+    "Page1LineNo": 246,
+    "ProgId": "magni",
+    "IsReadOnly": true,
+    "ShortLabel": "et",
+    "TabOrder": 588,
+    "TextLength": 763,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 301,
+    "UDListDefinitionId": 774,
     "Justification": "Center",
-    "Version": 412,
-    "TemplateVariableName": "Roberts-Stracke",
-    "HasBeenPublished": true,
-    "MdoListName": "Turcotte Group",
+    "Version": 51,
+    "TemplateVariableName": "Bechtelar, Jewess and Rosenbaum",
+    "HasBeenPublished": false,
+    "MdoListName": "Reichel, Gibson and Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

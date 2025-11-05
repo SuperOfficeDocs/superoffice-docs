@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=55
+POST /api/v1/Agents/Dash/GetDash?dashId=983
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 845,
-  "UniqueId": "rem",
-  "Name": "Stehr-Farrell",
-  "Description": "Streamlined motivating Graphic Interface",
-  "AssociateId": 742,
-  "Columns": 874,
+  "DashboardId": 647,
+  "UniqueId": "temporibus",
+  "Name": "Crona Inc and Sons",
+  "Description": "Synchronised zero defect hierarchy",
+  "AssociateId": 180,
+  "Columns": 380,
   "Theme": null,
-  "VisibleForAll": 331,
+  "VisibleForAll": 216,
   "VisibleForAssociates": [
-    771,
-    573
+    32,
+    15
   ],
   "VisibleForGroups": [
-    631,
-    257
+    382,
+    381
   ],
-  "PinForAll": 515,
+  "PinForAll": 835,
   "PinForAssociates": [
-    429,
-    152
+    162,
+    750
   ],
   "PinForGroups": [
-    57,
-    21
+    470,
+    953
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

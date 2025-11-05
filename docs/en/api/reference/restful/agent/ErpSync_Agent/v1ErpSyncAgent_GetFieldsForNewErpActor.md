@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 627,
+  "ErpConnectionId": 7,
   "ErpActorType": "Customer"
 }
 ```
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "dicta",
-    "Rank": 531,
-    "DisplayName": "Ortiz, Hodkiewicz and Kuvalis",
-    "DisplayDescription": "Front-line global extranet",
+    "FieldKey": "illum",
+    "Rank": 555,
+    "DisplayName": "Streich Group",
+    "DisplayDescription": "User-friendly neutral secured line",
     "FieldType": "Checkbox",
-    "ListName": "Weissnat-White",
-    "DefaultValue": "aliquid",
-    "MaxLength": 693,
+    "ListName": "Rosenbaum, Rutherford and Runolfsson",
+    "DefaultValue": "earum",
+    "MaxLength": 862,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 380
       }
     }
   }

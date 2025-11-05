@@ -91,7 +91,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 555,
-    "ColumnId": 505,
-    "FieldDefault": "in",
-    "FieldHeight": 334,
-    "FieldLabel": "nemo",
-    "FieldLeft": 664,
-    "FieldTop": 556,
+    "UDefFieldId": 844,
+    "ColumnId": 144,
+    "FieldDefault": "doloribus",
+    "FieldHeight": 33,
+    "FieldLabel": "occaecati",
+    "FieldLeft": 892,
+    "FieldTop": 496,
     "FieldType": "Checkbox",
-    "FieldWidth": 485,
-    "FormatMask": "est",
+    "FieldWidth": 924,
+    "FormatMask": "rerum",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 488,
-    "LabelLeft": 129,
-    "LabelTop": 827,
-    "LabelWidth": 101,
-    "LastVersionId": 544,
-    "ListTableId": 634,
-    "IsMandatory": false,
+    "LabelHeight": 902,
+    "LabelLeft": 966,
+    "LabelTop": 292,
+    "LabelWidth": 22,
+    "LastVersionId": 93,
+    "ListTableId": 229,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 157,
-    "ProgId": "accusantium",
+    "Page1LineNo": 342,
+    "ProgId": "inventore",
     "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 231,
-    "TextLength": 321,
-    "Tooltip": "amet",
-    "UdefIdentity": 932,
-    "UDListDefinitionId": 524,
+    "ShortLabel": "et",
+    "TabOrder": 920,
+    "TextLength": 220,
+    "Tooltip": "voluptate",
+    "UdefIdentity": 558,
+    "UDListDefinitionId": 717,
     "Justification": "Center",
-    "Version": 675,
-    "TemplateVariableName": "Murray-Nitzsche",
+    "Version": 663,
+    "TemplateVariableName": "Okuneva-Predovic",
     "HasBeenPublished": false,
-    "MdoListName": "Wisozk-Grimes",
+    "MdoListName": "Buckridge Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 589
       }
     }
   }

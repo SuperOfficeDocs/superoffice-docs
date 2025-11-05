@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 241
+  "ErpConnectionId": 32
 }
 ```
 
@@ -105,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 248,
-  "ErpConnectorId": 193,
-  "DisplayName": "Rempel, Heller and Kris",
-  "DisplayDescription": "Reduced fresh-thinking throughput",
-  "Active": true,
-  "ConnectionId": "repudiandae",
-  "MostRecentTimestamp": "aliquid",
+  "ErpConnectionId": 485,
+  "ErpConnectorId": 353,
+  "DisplayName": "Grady, Schimmel and O'Reilly",
+  "DisplayDescription": "Proactive bifurcated monitoring",
+  "Active": false,
+  "ConnectionId": "ut",
+  "MostRecentTimestamp": "molestias",
   "ConfigFields": {
-    "ConfigFields1": "illo",
-    "ConfigFields2": "eos"
+    "ConfigFields1": "officia",
+    "ConfigFields2": "dolor"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    69,
-    142
+    86,
+    882
   ],
   "AssociateAccessIds": [
-    589,
-    320
+    108,
+    468
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

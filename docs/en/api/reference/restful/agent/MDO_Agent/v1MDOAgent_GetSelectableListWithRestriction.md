@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brekke, Lebsack and Ratke",
-  "AdditionalInfo": "unde",
-  "SearchValue": "delectus"
+  "Name": "Ward LLC",
+  "AdditionalInfo": "non",
+  "SearchValue": "qui"
 }
 ```
 
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Labadie-Robel",
-    "ToolTip": "Sint maiores.",
+    "Id": 85,
+    "Name": "Wolf, Jewess and Prosacco",
+    "ToolTip": "Accusamus tempora.",
     "Deleted": true,
-    "Rank": 993,
-    "Type": "et",
-    "ColorBlock": 493,
-    "IconHint": "harum",
+    "Rank": 932,
+    "Type": "nesciunt",
+    "ColorBlock": 320,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2011-09-14T03:40:47.2655452+02:00",
+    "LastChanged": "2024-10-10T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Fadel Inc and Sons",
-        "ToolTip": "Voluptatem facilis architecto soluta eos saepe quos labore.",
-        "Deleted": true,
-        "Rank": 814,
-        "Type": "dicta",
-        "ColorBlock": 172,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2017-10-13T03:40:47.2655452+02:00",
+        "Id": 782,
+        "Name": "Hessel LLC",
+        "ToolTip": "Deserunt doloremque quia.",
+        "Deleted": false,
+        "Rank": 250,
+        "Type": "in",
+        "ColorBlock": 327,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "2000-09-20T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Mr. Oleta Rogelio Bogisich",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Malvina Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Prof. Lesley Nick Schmidt",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ima Barrows V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 708
+        "FieldLength": 246
       }
     }
   }

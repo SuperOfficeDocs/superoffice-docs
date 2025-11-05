@@ -90,34 +90,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 71,
-  "UniqueId": "et",
-  "Name": "Harvey, Jast and Abbott",
-  "Description": "Mandatory neutral collaboration",
-  "AssociateId": 875,
-  "Columns": 519,
+  "DashboardId": 616,
+  "UniqueId": "impedit",
+  "Name": "Schuppe, Fisher and Rodriguez",
+  "Description": "Profound 3rd generation definition",
+  "AssociateId": 982,
+  "Columns": 624,
   "Theme": null,
-  "VisibleForAll": 729,
+  "VisibleForAll": 566,
   "VisibleForAssociates": [
-    880,
-    176
+    155,
+    81
   ],
   "VisibleForGroups": [
-    445,
-    672
+    653,
+    45
   ],
-  "PinForAll": 164,
+  "PinForAll": 942,
   "PinForAssociates": [
-    954,
-    209
+    302,
+    882
   ],
   "PinForGroups": [
-    847,
-    58
+    295,
+    861
   ]
 }
 ```
@@ -129,37 +129,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 56,
-  "UniqueId": "ut",
-  "Name": "Denesik-Ryan",
-  "Description": "Configurable intermediate Graphic Interface",
-  "AssociateId": 485,
-  "Columns": 720,
+  "DashboardId": 540,
+  "UniqueId": "accusantium",
+  "Name": "Waters, Walter and Effertz",
+  "Description": "Assimilated national success",
+  "AssociateId": 13,
+  "Columns": 585,
   "Theme": null,
-  "VisibleForAll": 563,
+  "VisibleForAll": 318,
   "VisibleForAssociates": [
-    361,
-    373
+    145,
+    752
   ],
   "VisibleForGroups": [
-    750,
-    296
+    330,
+    142
   ],
-  "PinForAll": 651,
+  "PinForAll": 844,
   "PinForAssociates": [
-    714,
-    111
+    126,
+    588
   ],
   "PinForGroups": [
-    487,
-    52
+    378,
+    672
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 229
     }
   }
 }

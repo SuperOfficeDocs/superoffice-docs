@@ -118,33 +118,33 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 268,
-  "Name": "Schimmel LLC",
-  "Rank": 803,
-  "Tooltip": "aut",
-  "Icon": "vero",
-  "DefaultTicketStatus": 249,
+  "TicketTypeId": 251,
+  "Name": "Prohaska-Macejkovic",
+  "Rank": 700,
+  "Tooltip": "et",
+  "Icon": "exercitationem",
+  "DefaultTicketStatus": 654,
   "TicketStatuses": [
-    931,
-    915
+    145,
+    266
   ],
-  "DefaultTicketPriority": 536,
+  "DefaultTicketPriority": 662,
   "TicketPriorities": [
-    958,
-    837
+    481,
+    73
   ],
-  "ReplyTemplate": 483,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 981,
+  "IsExternalVisible": true,
   "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    532,
-    577
+    275,
+    762
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -156,40 +156,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 493,
-  "Name": "Harris-Kovacek",
-  "Rank": 956,
-  "Tooltip": "perspiciatis",
-  "Icon": "est",
-  "DefaultTicketStatus": 353,
+  "TicketTypeId": 182,
+  "Name": "Connelly, Marks and Prohaska",
+  "Rank": 762,
+  "Tooltip": "qui",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 455,
   "TicketStatuses": [
-    562,
-    635
+    534,
+    977
   ],
-  "DefaultTicketPriority": 666,
+  "DefaultTicketPriority": 327,
   "TicketPriorities": [
-    69,
-    576
+    668,
+    481
   ],
-  "ReplyTemplate": 553,
+  "ReplyTemplate": 153,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    360,
-    775
+    860,
+    437
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 35
     }
   },
   "_Links": {

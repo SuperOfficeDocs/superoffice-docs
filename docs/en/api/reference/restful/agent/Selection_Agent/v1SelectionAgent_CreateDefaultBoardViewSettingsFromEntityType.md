@@ -89,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "None"
+  "EntityType": "ContactPerson"
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 625,
-  "EntityType": "None",
-  "AssociateId": 173,
-  "SelectionId": 660,
-  "HideEmptyGroups": false,
+  "BoardViewSettingsId": 260,
+  "EntityType": "ContactPerson",
+  "AssociateId": 18,
+  "SelectionId": 123,
+  "HideEmptyGroups": true,
   "GroupBy": "qui",
-  "SubGroupBy": "rerum",
-  "SortBy": "natus",
+  "SubGroupBy": "repellendus",
+  "SortBy": "dolore",
   "SortDesc": false,
-  "SumBy": "accusantium",
-  "ColorBy": "aut",
-  "Filters": "placeat"
+  "SumBy": "excepturi",
+  "ColorBy": "et",
+  "Filters": "ut"
 }
 ```

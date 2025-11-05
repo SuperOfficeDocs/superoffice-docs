@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 899,
-    "Name": "Howell-Grady",
-    "Tooltip": "culpa",
-    "Rank": 521,
-    "Key": "libero",
-    "Deleted": true,
+    "LegalBaseId": 954,
+    "Name": "Mertz, Willms and Block",
+    "Tooltip": "in",
+    "Rank": 208,
+    "Key": "minima",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 267
       }
     }
   }

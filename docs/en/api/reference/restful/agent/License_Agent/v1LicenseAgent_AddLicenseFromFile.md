@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "unde"
+  "FileContent": "quia"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 631,
-      "NumberOfLicensesFree": 977,
-      "NumberOfLicensesAdded": 840,
-      "NumberOfLicensesNewTotal": 530,
-      "NumberOfLicensesNewFree": 538,
-      "NumberOfLicensesTotal": 961
+      "NumberOfLicensesInUse": 443,
+      "NumberOfLicensesFree": 802,
+      "NumberOfLicensesAdded": 584,
+      "NumberOfLicensesNewTotal": 632,
+      "NumberOfLicensesNewFree": 81,
+      "NumberOfLicensesTotal": 229
     }
   ],
-  "AccumulatedNextCheckDate": "2025-02-22T03:40:47.0155393+01:00"
+  "AccumulatedNextCheckDate": "2013-03-15T02:30:47.3819557+01:00"
 }
 ```

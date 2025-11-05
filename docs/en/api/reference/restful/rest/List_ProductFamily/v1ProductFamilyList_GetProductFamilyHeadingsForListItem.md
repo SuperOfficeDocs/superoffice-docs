@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Harvey-Schowalter",
-    "ToolTip": "Iste corrupti omnis esse quasi minima.",
+    "Id": 501,
+    "Name": "Howe LLC",
+    "ToolTip": "Soluta repellat.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "est",
-    "ColorBlock": 129,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2010-11-29T03:40:57.0089742+01:00",
+    "Rank": 394,
+    "Type": "ut",
+    "ColorBlock": 33,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2004-06-13T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Koch, Price and Wiza",
-        "ToolTip": "Molestias asperiores.",
+        "Id": 750,
+        "Name": "Larson, Lehner and Stanton",
+        "ToolTip": "Rem assumenda enim blanditiis.",
         "Deleted": false,
-        "Rank": 14,
-        "Type": "neque",
-        "ColorBlock": 73,
-        "IconHint": "sunt",
+        "Rank": 752,
+        "Type": "eveniet",
+        "ColorBlock": 93,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2020-11-02T03:40:57.0089742+01:00",
+        "LastChanged": "2015-12-05T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Virginie Wisoky",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Brielle Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Jena Goodwin Sr.",
+    "ExtraInfo": "error",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Jerel Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

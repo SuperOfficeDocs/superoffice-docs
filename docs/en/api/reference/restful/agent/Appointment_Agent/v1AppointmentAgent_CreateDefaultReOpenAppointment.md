@@ -139,7 +139,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 911
+  "SaleId": 838
 }
 ```
 
@@ -154,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-07-10T03:40:45.9825998+02:00",
-  "AppointmentId": 728,
-  "Description": "Organic background firmware",
-  "Title": "fugit",
-  "Agenda": "quo",
-  "InternalNotes": "aperiam",
-  "StartDate": "2014-03-25T03:40:45.9825998+01:00",
-  "EndDate": "2003-12-28T03:40:45.9825998+01:00",
+  "CreatedDate": "2009-05-17T02:30:46.6788509+02:00",
+  "AppointmentId": 800,
+  "Description": "Enterprise-wide bifurcated success",
+  "Title": "possimus",
+  "Agenda": "quia",
+  "InternalNotes": "modi",
+  "StartDate": "2024-09-08T02:30:46.6788509+02:00",
+  "EndDate": "2021-07-11T02:30:46.6788509+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 220,
+  "MotherId": 303,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-08-08T03:40:45.9825998+02:00",
+  "UpdatedDate": "2006-07-28T02:30:46.6944758+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 997,
+  "ActiveLinks": 314,
   "Links": [
     {
-      "EntityName": "Parker-Smitham",
-      "Id": 872,
-      "Description": "Universal demand-driven software",
-      "ExtraInfo": "soluta",
-      "LinkId": 423,
+      "EntityName": "Weissnat, Metz and Franecki",
+      "Id": 414,
+      "Description": "Re-engineered content-based leverage",
+      "ExtraInfo": "in",
+      "LinkId": 479,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 568
         }
       }
     }
   ],
-  "AlarmLeadTime": "aliquid",
+  "AlarmLeadTime": "nemo",
   "HasAlarm": false,
-  "ColorIndex": 702,
+  "ColorIndex": 379,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "id",
-  "LeadTime": "doloremque",
-  "Location": "dicta",
-  "RejectCounter": 637,
+  "LagTime": "non",
+  "LeadTime": "ut",
+  "Location": "et",
+  "RejectCounter": 128,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 571,
-      "PersonId": 645,
-      "ContactId": 590,
-      "EmailId": 799,
+      "AssociateId": 329,
+      "PersonId": 331,
+      "ContactId": 780,
+      "EmailId": 352,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "leopold_stokes@grimes.co.uk",
-      "Description": "Phased solution-oriented array"
+      "EmailAddress": "ansley.gutmann@stokes.com",
+      "Description": "Quality-focused discrete application"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-06-23T03:40:45.9825998+02:00",
+  "ActiveDate": "2018-10-29T02:30:46.6944758+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 125,
+  "PreferredTZLocation": 625,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 117,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 731,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "fuga",
+  "CentralserviceVideomeetId": "itaque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kailee Luettgen II",
-    "SuperOffice:2": "Salvador Kertzmann"
+    "SuperOffice:1": "1021366605",
+    "SuperOffice:2": "Adele Johns"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "inventore"
+    "CustomFields1": "sed",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2025-09-24T03:40:45.9825998+02:00",
-  "PublishTo": "2007-11-30T03:40:45.9825998+01:00",
-  "PublishFrom": "2001-12-26T03:40:45.9825998+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-05-15T02:30:46.6944758+02:00",
+  "PublishTo": "2024-08-19T02:30:46.6944758+02:00",
+  "PublishFrom": "1999-05-18T02:30:46.6944758+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 861,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 815
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 861,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 815
         }
       }
     }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

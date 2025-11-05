@@ -71,20 +71,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 538,
-    "DisplayName": "Gleichner Group",
-    "OngoingChats": 764,
+    "UserId": 644,
+    "DisplayName": "Breitenberg Group",
+    "OngoingChats": 638,
     "Present": false,
     "ChatTopics": [
-      530,
-      451
+      159,
+      887
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

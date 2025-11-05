@@ -169,19 +169,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Langosh Inc and Sons",
-  "Columns": "porro",
-  "SortOrder": "ullam",
-  "Restriction": "sint",
-  "Entities": "aut",
-  "Page": 951,
-  "PageSize": 360,
-  "Options": "nisi",
-  "Context": "accusantium"
+  "ProviderName": "Robel LLC",
+  "Columns": "ea",
+  "SortOrder": "odio",
+  "Restriction": "id",
+  "Entities": "in",
+  "Page": 268,
+  "PageSize": 579,
+  "Options": "sequi",
+  "Context": "tempore"
 }
 ```
 
@@ -192,26 +192,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 958,
+  "RowCount": 63,
   "Rows": [
     {
-      "EntityName": "Morissette-Funk",
-      "PrimaryKey": 891,
+      "EntityName": "Okuneva Group",
+      "PrimaryKey": 984,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ipsa",
-          "TooltipHint": "nobis",
-          "LinkHint": "quidem"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "assumenda",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "nemo",
+      "LinkHint": "cumque",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldLength": 236
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 243
     }
   }
 }

@@ -59,6 +59,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |created\_by\_workflow\_id|The workflow this sale was created by|FK [workflow](workflow.md)|&#x25CF;|
+|stage\_when\_closed\_id|The stage the sale was in when it was closed (sold or lost)|FK [Prob](prob.md)|&#x25CF;|
 
 
 ![sale table relationship diagram](./media/sale.png)

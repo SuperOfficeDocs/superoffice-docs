@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Kshlerin Group",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 272
+    "Id": 961,
+    "Name": "Schneider Group",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 662,
+    "Rank": 489
   },
   {
-    "Id": 116,
-    "Name": "Kshlerin Group",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 272
+    "Id": 961,
+    "Name": "Schneider Group",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 662,
+    "Rank": 489
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "O'Kon-Beier",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "UdListDefinitionId": 909,
-    "Rank": 508,
+    "Id": 518,
+    "Name": "Durgan LLC",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "UdListDefinitionId": 841,
+    "Rank": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

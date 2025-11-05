@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Pocket/SendPushNotification
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    308,
-    607
+    863,
+    69
   ],
   "Message": null
 }

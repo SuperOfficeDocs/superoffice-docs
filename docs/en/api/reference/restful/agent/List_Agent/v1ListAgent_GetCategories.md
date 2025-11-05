@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Value": "beatae",
-    "Tooltip": "laborum",
+    "Id": 991,
+    "Value": "sit",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   },
   {
-    "Id": 823,
-    "Value": "beatae",
-    "Tooltip": "laborum",
+    "Id": 991,
+    "Value": "sit",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

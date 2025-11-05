@@ -102,40 +102,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Dooley-Hermiston",
-      "Operator": "neque",
+      "Name": "Borer, Gulgowski and Ritchie",
+      "Operator": "corrupti",
       "Values": [
-        "dignissimos",
-        "qui"
+        "aliquid",
+        "quo"
       ],
       "DisplayValues": [
-        "ut",
-        "ut"
+        "qui",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 997,
+      "InterParenthesis": 999,
       "InterOperator": "And",
-      "UniqueHash": 648
+      "UniqueHash": 711
     }
   ],
-  "ProviderName": "Brakus, Dicki and Carter",
+  "ProviderName": "Zulauf, Friesen and Ernser",
   "DesiredColumns": [
-    "consequatur",
-    "porro"
+    "facilis",
+    "neque"
   ],
-  "PageSize": 660,
-  "PageNumber": 630
+  "PageSize": 802,
+  "PageNumber": 883
 }
 ```
 
@@ -148,51 +148,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Prohaska-Weissnat",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "deleniti",
+      "DisplayName": "Emard, Wisoky and Hyatt",
+      "DisplayTooltip": "et",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Blick, Nader and Hirthe",
+      "Name": "Mertz-Brekke",
       "CanRestrictBy": false,
-      "RestrictionType": "dolore",
-      "RestrictionListName": "Rohan, Pouros and Kohler",
-      "IsVisible": false,
-      "ExtraInfo": "possimus",
-      "Width": "aut",
-      "IconHint": "quos",
-      "HeadingIconHint": "velit"
+      "RestrictionType": "blanditiis",
+      "RestrictionListName": "Schaefer, Johnson and Rodriguez",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "saepe",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "cum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hettinger-Toy",
-      "PrimaryKey": 779,
+      "EntityName": "Morar LLC",
+      "PrimaryKey": 508,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptate",
-          "TooltipHint": "modi",
-          "LinkHint": "ut"
+          "DisplayValue": "quia",
+          "TooltipHint": "laborum",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "nesciunt",
-      "StyleHint": "suscipit",
+      "LinkHint": "eligendi",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
   ],
-  "RowCount": 469,
+  "RowCount": 834,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

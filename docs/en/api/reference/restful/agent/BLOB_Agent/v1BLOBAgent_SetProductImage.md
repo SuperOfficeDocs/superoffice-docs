@@ -69,11 +69,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 868,
+  "ProductId": 210,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

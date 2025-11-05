@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 435,
-  "Name": "O'Kon-Haley",
-  "Description": "Distributed clear-thinking benchmark",
+  "ReportLabelLayoutId": 92,
+  "Name": "Strosin-Casper",
+  "Description": "Realigned well-modulated groupware",
   "Orientation": "Landscape",
-  "PaperWidth": 382,
-  "PaperHeight": 118,
-  "LeftMargin": 328,
-  "RightMargin": 11,
-  "TopMargin": 801,
-  "BottomMargin": 976,
-  "CountColumns": 534,
-  "CountRows": 354
+  "PaperWidth": 411,
+  "PaperHeight": 936,
+  "LeftMargin": 930,
+  "RightMargin": 604,
+  "TopMargin": 510,
+  "BottomMargin": 259,
+  "CountColumns": 533,
+  "CountRows": 468
 }
 ```
 
@@ -114,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 369,
-  "Name": "Ebert Inc and Sons",
-  "Description": "Cross-group bi-directional architecture",
+  "ReportLabelLayoutId": 763,
+  "Name": "Steuber, Hodkiewicz and Frami",
+  "Description": "Organic fresh-thinking architecture",
   "Orientation": "Landscape",
-  "PaperWidth": 319,
-  "PaperHeight": 691,
-  "LeftMargin": 386,
-  "RightMargin": 728,
-  "TopMargin": 592,
-  "BottomMargin": 645,
-  "CountColumns": 49,
-  "CountRows": 30,
+  "PaperWidth": 636,
+  "PaperHeight": 479,
+  "LeftMargin": 991,
+  "RightMargin": 611,
+  "TopMargin": 88,
+  "BottomMargin": 15,
+  "CountColumns": 221,
+  "CountRows": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldLength": 896
     }
   }
 }

@@ -92,20 +92,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 113,
-  "Name": "Corkery LLC",
-  "ContentType": "quia",
-  "AttSize": 909,
+  "AttachmentId": 978,
+  "Name": "Bosco-Bradtke",
+  "ContentType": "consectetur",
+  "AttSize": 602,
   "InlineImage": false,
-  "ContentId": "aliquam",
-  "AuthKey": "sapiente",
-  "IsSafeFileExtension": true,
+  "ContentId": "optio",
+  "AuthKey": "alias",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldLength": 817
     }
   },
   "_Links": {

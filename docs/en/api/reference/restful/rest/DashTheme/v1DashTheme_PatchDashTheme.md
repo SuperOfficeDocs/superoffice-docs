@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "in",
     "value": {}
   }
 ]
@@ -139,18 +139,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 111,
-  "Name": "Ferry Group",
-  "Config": "voluptatem",
-  "Rank": 876,
-  "Client": "itaque",
-  "Style": "nesciunt",
+  "DashboardThemeId": 982,
+  "Name": "Trantow-Dibbert",
+  "Config": "quae",
+  "Rank": 838,
+  "Client": "odit",
+  "Style": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 358
     }
   },
   "_Links": {

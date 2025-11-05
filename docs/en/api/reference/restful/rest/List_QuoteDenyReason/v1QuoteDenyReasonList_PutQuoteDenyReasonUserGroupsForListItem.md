@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Mraz LLC",
-    "ToolTip": "Veritatis tenetur id fuga odio tenetur magnam accusamus.",
-    "Deleted": false,
-    "Rank": 279,
-    "Type": "et",
-    "ColorBlock": 125,
-    "IconHint": "hic",
+    "Id": 803,
+    "Name": "Toy Group",
+    "ToolTip": "Ipsa error quaerat aspernatur veritatis maxime quia perferendis.",
+    "Deleted": true,
+    "Rank": 530,
+    "Type": "a",
+    "ColorBlock": 123,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2003-05-02T03:40:57.0558521+02:00",
+    "LastChanged": "2005-06-12T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Block, Romaguera and Bartoletti",
-        "ToolTip": "Perspiciatis dolore quo veritatis qui omnis aspernatur.",
-        "Deleted": true,
-        "Rank": 308,
-        "Type": "itaque",
-        "ColorBlock": 875,
-        "IconHint": "debitis",
+        "Id": 729,
+        "Name": "Toy LLC",
+        "ToolTip": "Illum quidem ratione.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "at",
+        "ColorBlock": 473,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2014-09-05T03:40:57.0558521+02:00",
+        "LastChanged": "2014-12-18T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Queen Skiles"
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Mrs. Cedrick Bettie Raynor PhD"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "labore",
+    "ExtraInfo": "quia",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Mrs. Phyllis Jacobs"
+    "FullName": "Miss Ellsworth Romaguera Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Luettgen-Padberg",
-    "ToolTip": "Fugit eius omnis optio debitis rerum.",
-    "Deleted": false,
-    "Rank": 209,
-    "Type": "consectetur",
-    "ColorBlock": 735,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2003-10-23T03:40:57.0558521+02:00",
+    "Id": 642,
+    "Name": "Dach-Ernser",
+    "ToolTip": "Facere error delectus.",
+    "Deleted": true,
+    "Rank": 917,
+    "Type": "ducimus",
+    "ColorBlock": 35,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2005-02-25T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "Dickens, Larson and Streich",
-        "ToolTip": "Quos id eos enim.",
+        "Id": 993,
+        "Name": "Wehner, Kemmer and Leuschke",
+        "ToolTip": "Cupiditate esse ea ut et vel veritatis quasi.",
         "Deleted": false,
-        "Rank": 416,
-        "Type": "veniam",
-        "ColorBlock": 630,
-        "IconHint": "quasi",
+        "Rank": 598,
+        "Type": "ut",
+        "ColorBlock": 731,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2005-03-22T03:40:57.0558521+01:00",
+        "LastChanged": "2023-11-22T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Ms. Clifford Schroeder",
+        "ExtraInfo": "odit",
+        "StyleHint": "impedit",
+        "Hidden": true,
+        "FullName": "Mrs. Alek Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 603
+            "FieldType": "System.String",
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Julie O'Keefe",
+    "ExtraInfo": "beatae",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Emmet Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 266
       }
     }
   }

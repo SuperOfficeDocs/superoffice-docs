@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Armstrong-Stoltenberg",
-  "Tooltip": "non",
+  "Id": 762,
+  "Name": "Murray-Jacobs",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 443,
+  "Rank": 983,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "ListType": "labore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   },
   "_Links": {

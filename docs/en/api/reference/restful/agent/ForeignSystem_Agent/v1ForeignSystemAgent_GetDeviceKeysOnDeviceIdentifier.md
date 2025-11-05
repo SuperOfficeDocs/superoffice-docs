@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisozk Group",
-  "DeviceName": "Buckridge-Lind",
-  "DeviceIdentifier": "est"
+  "ApplicationName": "Kshlerin Inc and Sons",
+  "DeviceName": "Littel LLC",
+  "DeviceIdentifier": "ad"
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "adipisci",
-    "Value": "aperiam",
-    "RecordId": 995,
-    "CreatedDate": "2012-04-21T03:40:46.9999043+02:00",
-    "UpdatedDate": "1999-09-25T03:40:46.9999043+02:00",
+    "Key": "ducimus",
+    "Value": "et",
+    "RecordId": 405,
+    "CreatedDate": "2022-12-06T02:30:47.366331+01:00",
+    "UpdatedDate": "2009-08-22T02:30:47.366331+02:00",
     "UpdatedBy": "consectetur",
-    "CreatedBy": "sit",
-    "TableName": "Boehm, Abbott and Rowe",
+    "CreatedBy": "dicta",
+    "TableName": "Beahan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

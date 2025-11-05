@@ -92,14 +92,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2016-09-20T03:40:46.2644405+02:00",
+  "ActivityStartTime": "2021-07-03T02:30:46.9444678+02:00",
   "ContactCategories": [
-    241,
-    765
+    667,
+    295
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -113,26 +113,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 727,
+    "ContactId": 465,
     "Department": "",
-    "OrgNr": "1376866",
-    "Name": "Greenfelder-Brown",
+    "OrgNr": "1671635",
+    "Name": "Beatty Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Augustus Davis",
+    "AssociateFullName": "Dr. Marquis Huels",
     "Action": "ActivityCompleted",
-    "ActionTime": "2019-05-25T03:40:46.2644405+02:00",
+    "ActionTime": "2011-11-15T02:30:46.9444678+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Glover-Ledner",
-    "ActionId": 458,
-    "PersonId": 954,
-    "ActivityPersonId": 529,
-    "AssociateId": 651,
+    "ActivityPersonName": "Dach Group",
+    "ActionId": 128,
+    "PersonId": 315,
+    "ActivityPersonId": 506,
+    "AssociateId": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldLength": 205
       }
     }
   }

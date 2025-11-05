@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Langworth Group",
-    "ToolTip": "Enim aliquam autem rem nesciunt hic quae aperiam.",
+    "Id": 890,
+    "Name": "Luettgen-Beahan",
+    "ToolTip": "Eaque ipsum et eveniet et quod aut voluptas.",
     "Deleted": false,
-    "Rank": 715,
-    "Type": "laboriosam",
-    "ColorBlock": 821,
-    "IconHint": "culpa",
+    "Rank": 402,
+    "Type": "dolores",
+    "ColorBlock": 95,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2024-03-10T03:40:57.0246001+01:00",
+    "LastChanged": "2001-07-27T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Kling Inc and Sons",
-        "ToolTip": "Et velit porro.",
-        "Deleted": false,
-        "Rank": 571,
-        "Type": "culpa",
-        "ColorBlock": 708,
-        "IconHint": "dolore",
+        "Id": 339,
+        "Name": "Abbott-Bergstrom",
+        "ToolTip": "Porro magnam minima et provident.",
+        "Deleted": true,
+        "Rank": 773,
+        "Type": "molestias",
+        "ColorBlock": 98,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2021-07-02T03:40:57.0246001+02:00",
+        "LastChanged": "2021-12-04T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "similique",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Callie Corkery",
+        "FullName": "Magdalen Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 883
+            "FieldType": "System.String",
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Ms. Clay Prosacco",
+    "FullName": "Mr. Tyrese Maya Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 485
       }
     }
   }

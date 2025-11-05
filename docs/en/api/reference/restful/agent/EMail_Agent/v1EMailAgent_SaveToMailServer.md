@@ -121,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 984,
-      "ContactName": "Jakubowski Group",
-      "PersonId": 199,
-      "PersonName": "Weissnat LLC",
-      "AssociateId": 653,
-      "Address": "rerum",
-      "EmailId": 851,
+      "ContactId": 408,
+      "ContactName": "Bogisich LLC",
+      "PersonId": 457,
+      "PersonName": "Littel, Marquardt and Emard",
+      "AssociateId": 501,
+      "Address": "et",
+      "EmailId": 679,
       "DuplicatePersonIds": [
-        142,
-        290
+        952,
+        452
       ],
-      "Name": "Greenholt Group",
+      "Name": "Hagenes-Jacobson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 205
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 976,
-      "ContactName": "Legros-Gleichner",
-      "PersonId": 65,
-      "PersonName": "Smith, Kassulke and Hansen",
-      "AssociateId": 9,
-      "Address": "voluptas",
-      "EmailId": 594,
+      "ContactId": 516,
+      "ContactName": "Schumm LLC",
+      "PersonId": 484,
+      "PersonName": "Stamm LLC",
+      "AssociateId": 274,
+      "Address": "perferendis",
+      "EmailId": 830,
       "DuplicatePersonIds": [
-        935,
-        240
+        989,
+        857
       ],
-      "Name": "Bahringer-Schultz",
+      "Name": "Kihn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 59,
-      "ContactName": "Rau-Hoeger",
-      "PersonId": 743,
-      "PersonName": "Strosin, Fisher and Beer",
-      "AssociateId": 652,
-      "Address": "tempore",
-      "EmailId": 990,
+      "ContactId": 14,
+      "ContactName": "Walsh LLC",
+      "PersonId": 571,
+      "PersonName": "Zulauf-Rempel",
+      "AssociateId": 642,
+      "Address": "ducimus",
+      "EmailId": 349,
       "DuplicatePersonIds": [
-        555,
-        88
+        60,
+        885
       ],
-      "Name": "Thiel-Hills",
+      "Name": "Raynor Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 321
         }
       }
     }
   ],
-  "Subject": "repudiandae",
-  "HTMLBody": "et",
+  "Subject": "neque",
+  "HTMLBody": "impedit",
   "From": null,
-  "Sent": "2002-05-21T03:40:46.9061483+02:00",
-  "Size": 419,
+  "Sent": "2012-12-10T02:30:47.3194579+01:00",
+  "Size": 569,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "ipsa",
+  "MessageID": "sit",
+  "PlainBody": "laudantium",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 246,
+  "ServerId": 622,
   "Attachments": [
     {
-      "Description": "Synergized optimizing interface",
-      "Filename": "quidem",
-      "Size": 713,
-      "Type": "ut",
-      "Encoding": "sint",
-      "Id": "odit",
-      "Disposition": "consequatur",
-      "IsSafeFileExtension": false,
+      "Description": "Multi-lateral fault-tolerant concept",
+      "Filename": "est",
+      "Size": 751,
+      "Type": "libero",
+      "Encoding": "fuga",
+      "Id": "nemo",
+      "Disposition": "et",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 955
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bailey, Hudson and Goyette",
+      "Name": "Frami Inc and Sons",
       "Values": [
-        "possimus",
-        "voluptatibus"
+        "non",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     },
     {
-      "Name": "Bailey, Hudson and Goyette",
+      "Name": "Frami Inc and Sons",
       "Values": [
-        "possimus",
-        "voluptatibus"
+        "non",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
   ],
-  "FolderName": "Friesen, Mertz and Schmidt",
-  "EmailItemId": 950,
-  "AccountId": 181,
-  "ReceivedAt": "2018-09-09T03:40:46.9061483+02:00",
+  "FolderName": "Bins-Boyle",
+  "EmailItemId": 299,
+  "AccountId": 55,
+  "ReceivedAt": "2018-12-26T02:30:47.3194579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-02-13T03:40:46.9061483+01:00",
+  "RepliedAt": "2010-06-17T02:30:47.3194579+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "McClure-Koelpin",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 661,
+    "HeadingId": 225,
+    "Name": "Hand, Kohler and Beer",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 936,
+    "UdListDefinitionId": 928,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

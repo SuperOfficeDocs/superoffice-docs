@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Baumbach Group",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 670,
-  "IsCustomList": true,
+  "Id": 863,
+  "Name": "Cremin-Robel",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 71,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
+  "ListType": "in",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 844
     }
   },
   "_Links": {

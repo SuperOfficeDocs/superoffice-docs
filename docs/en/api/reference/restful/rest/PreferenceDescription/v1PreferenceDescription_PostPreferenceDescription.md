@@ -116,24 +116,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 710,
-  "Section": "nam",
-  "Key": "in",
-  "Name": "Bartoletti, Cruickshank and Rowe",
+  "PrefDescId": 663,
+  "Section": "et",
+  "Key": "tempora",
+  "Name": "Durgan-Morissette",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered explicit matrix",
-  "IsBuiltin": false,
-  "TableName": "Heller, Kemmer and Fay",
-  "UserDefinedListId": 534,
-  "Rank": 769,
-  "SubGroup": "qui",
-  "MinLevel": 923,
-  "MaxValue": 961,
-  "MinValue": 578,
-  "RequiredLicense": "distinctio"
+  "Description": "Business-focused real-time artificial intelligence",
+  "IsBuiltin": true,
+  "TableName": "Baumbach, Jakubowski and Leuschke",
+  "UserDefinedListId": 400,
+  "Rank": 740,
+  "SubGroup": "perferendis",
+  "MinLevel": 678,
+  "MaxValue": 816,
+  "MinValue": 124,
+  "RequiredLicense": "aut"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 763,
-  "Section": "blanditiis",
-  "Key": "autem",
-  "Name": "Stiedemann, Ankunding and West",
+  "PrefDescId": 958,
+  "Section": "impedit",
+  "Key": "eaque",
+  "Name": "Klocko Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused background definition",
+  "Description": "Multi-channelled dedicated conglomeration",
   "IsBuiltin": false,
-  "TableName": "Leannon-Wyman",
-  "UserDefinedListId": 483,
-  "Rank": 625,
-  "SubGroup": "culpa",
-  "MinLevel": 825,
-  "MaxValue": 748,
-  "MinValue": 774,
-  "RequiredLicense": "omnis",
+  "TableName": "Turner Group",
+  "UserDefinedListId": 381,
+  "Rank": 275,
+  "SubGroup": "veniam",
+  "MinLevel": 438,
+  "MaxValue": 38,
+  "MinValue": 369,
+  "RequiredLicense": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 703
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

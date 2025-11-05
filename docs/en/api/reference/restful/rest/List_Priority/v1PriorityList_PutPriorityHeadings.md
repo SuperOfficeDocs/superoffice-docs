@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 142,
-    "Name": "D'Amore Inc and Sons",
-    "Tooltip": "veritatis",
+    "HeadingId": 519,
+    "Name": "Gutkowski-Lueilwitz",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 772,
-    "UdListDefinitionId": 409
+    "Rank": 515,
+    "UdListDefinitionId": 391
   },
   {
-    "HeadingId": 142,
-    "Name": "D'Amore Inc and Sons",
-    "Tooltip": "veritatis",
+    "HeadingId": 519,
+    "Name": "Gutkowski-Lueilwitz",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 772,
-    "UdListDefinitionId": 409
+    "Rank": 515,
+    "UdListDefinitionId": 391
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 58,
-    "Name": "Boehm-Larson",
-    "Tooltip": "et",
+    "HeadingId": 781,
+    "Name": "Doyle, Marquardt and Murray",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 603,
-    "UdListDefinitionId": 916,
+    "Rank": 690,
+    "UdListDefinitionId": 992,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

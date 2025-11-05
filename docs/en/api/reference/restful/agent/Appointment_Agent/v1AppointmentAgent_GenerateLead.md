@@ -94,18 +94,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 266,
-  "LeadDescription": "Programmable context-sensitive superstructure",
-  "Relation": "sit",
-  "RelationId": 585,
-  "LeadContact": "iusto",
-  "LeadPersonFirstname": "Bernie",
-  "LeadPersonLastname": "Lockman",
-  "LeadPersonEmail": "murray.fisher@schulist.info",
-  "LeadPhoneNumber": "1155748",
-  "CreatorsContact": "temporibus",
-  "CreatorsFirstname": "Edwina",
-  "CreatorsLastname": "O'Conner"
+  "AssociateIdForNewContact": 213,
+  "LeadDescription": "Organized dedicated instruction set",
+  "Relation": "iste",
+  "RelationId": 453,
+  "LeadContact": "culpa",
+  "LeadPersonFirstname": "Tyree",
+  "LeadPersonLastname": "Beatty",
+  "LeadPersonEmail": "lavonne@schaefer.biz",
+  "LeadPhoneNumber": "405475",
+  "CreatorsContact": "ipsam",
+  "CreatorsFirstname": "Wanda",
+  "CreatorsLastname": "Heller"
 }
 ```
 
@@ -118,36 +118,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 901,
-      "Name": "Thompson-Von",
-      "OrgNr": "694638",
+      "ContactId": 634,
+      "Name": "Brown-Willms",
+      "OrgNr": "1400053",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "illum",
-      "DirectPhone": "817-459-3831",
-      "AssociateId": 37,
-      "CountryId": 389,
-      "EmailAddress": "kaia@senger.biz",
-      "Kananame": "id",
-      "EmailAddressName": "gardner@larson.co.uk",
+      "City": "sint",
+      "DirectPhone": "446.894.3182 x588",
+      "AssociateId": 788,
+      "CountryId": 789,
+      "EmailAddress": "enola@quitzonpfeffer.com",
+      "Kananame": "nemo",
+      "EmailAddressName": "velda@fritsch.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Veronica Bradtke",
+      "AssociateFullName": "Mireille Weber DVM",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "rerum",
-      "FullName": "Emilia Zola Sipes I",
+      "FormattedAddress": "dolor",
+      "FullName": "Wiley Jenkins",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 266,
-      "Number1": "656752",
-      "Number2": "745208",
+      "ActiveErpLinks": 16,
+      "Number1": "903496",
+      "Number2": "420967",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 167
         }
       }
     }
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

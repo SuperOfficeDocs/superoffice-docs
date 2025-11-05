@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Purdy Group",
+  "TableName": "Bogisich Inc and Sons",
   "Columns": [
-    "mollitia",
-    "deleniti"
+    "nihil",
+    "et"
   ],
   "Data": [
     [
@@ -111,41 +111,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "et",
-  "Inserts": 22,
-  "Updates": 225,
-  "Deletes": 856,
+  "Success": false,
+  "Message": "est",
+  "Inserts": 686,
+  "Updates": 251,
+  "Deletes": 430,
   "RowStatus": [
     {
-      "PrimaryKey": 525,
+      "PrimaryKey": 335,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "consectetur"
+        "hic",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 490
         }
       }
     },
     {
-      "PrimaryKey": 525,
+      "PrimaryKey": 335,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "consectetur"
+        "hic",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 490
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

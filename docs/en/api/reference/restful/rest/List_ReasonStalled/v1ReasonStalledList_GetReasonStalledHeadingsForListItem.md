@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Rodriguez Inc and Sons",
-    "ToolTip": "Nobis voluptatibus sed ratione corporis libero qui et.",
-    "Deleted": false,
-    "Rank": 658,
-    "Type": "atque",
-    "ColorBlock": 707,
-    "IconHint": "consequatur",
+    "Id": 171,
+    "Name": "Blanda Group",
+    "ToolTip": "Iste repellat accusantium cupiditate.",
+    "Deleted": true,
+    "Rank": 865,
+    "Type": "aut",
+    "ColorBlock": 259,
+    "IconHint": "nulla",
     "Selected": true,
-    "LastChanged": "2024-11-16T03:40:57.0871054+01:00",
+    "LastChanged": "1999-04-26T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Schowalter, Swaniawski and Schultz",
-        "ToolTip": "Totam ipsam et nam.",
+        "Id": 601,
+        "Name": "Sporer, Breitenberg and Moore",
+        "ToolTip": "Ut officiis.",
         "Deleted": false,
-        "Rank": 804,
-        "Type": "magnam",
-        "ColorBlock": 925,
-        "IconHint": "blanditiis",
+        "Rank": 931,
+        "Type": "harum",
+        "ColorBlock": 145,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2024-03-12T03:40:57.0871054+01:00",
+        "LastChanged": "2013-11-09T02:30:53.4286352+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "rerum",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Quentin Carter",
+        "FullName": "Cecil Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quam",
+    "ExtraInfo": "labore",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Mr. Reuben Koepp",
+    "FullName": "Rudolph Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 342
       }
     }
   }

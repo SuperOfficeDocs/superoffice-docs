@@ -32,7 +32,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=261
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=222
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,53 +101,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 282,
-  "UniqueIdentifier": "aut",
-  "Name": "Littel, Bradtke and Powlowski",
-  "Description": "Advanced static Graphical User Interface",
-  "IncludeId": "ut",
-  "AccessKey": "impedit",
-  "HierarchyId": 87,
-  "Source": "expedita",
-  "SourceCode": "ut",
+  "EjscriptId": 902,
+  "UniqueIdentifier": "minus",
+  "Name": "Wisoky LLC",
+  "Description": "Distributed local challenge",
+  "IncludeId": "est",
+  "AccessKey": "aliquam",
+  "HierarchyId": 103,
+  "Source": "pariatur",
+  "SourceCode": "hic",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 241,
+  "HtmlOutput": 506,
   "Includes": [
-    753,
-    109
+    642,
+    98
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 603,
-      "LineNumberTo": 253,
-      "Delta": 506,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 745,
+      "LineNumberTo": 269,
+      "Delta": 386,
+      "IncludeId": "reprehenderit",
       "IncludedFrom": [
-        "voluptatum",
-        "suscipit"
+        "nulla",
+        "facilis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldType": "System.Int32",
+          "FieldLength": 157
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-06-11T03:40:46.5149979+02:00",
-  "RegisteredAssociateId": 606,
-  "Updated": "2020-06-24T03:40:46.5149979+02:00",
-  "UpdatedAssociateId": 32,
+  "Registered": "2008-01-15T02:30:47.0382145+01:00",
+  "RegisteredAssociateId": 490,
+  "Updated": "2014-10-05T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 742,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 565
     }
   }
 }

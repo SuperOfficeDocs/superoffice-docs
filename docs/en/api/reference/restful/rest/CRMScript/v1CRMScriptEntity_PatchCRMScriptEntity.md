@@ -131,18 +131,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -155,58 +155,58 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 267,
-  "UniqueIdentifier": "iusto",
-  "Name": "O'Kon-Champlin",
-  "Description": "Networked disintermediate initiative",
-  "IncludeId": "rerum",
-  "AccessKey": "corporis",
-  "HierarchyId": 329,
-  "Source": "fugiat",
-  "SourceCode": "magnam",
+  "EjscriptId": 973,
+  "UniqueIdentifier": "ullam",
+  "Name": "Legros-Lemke",
+  "Description": "Open-source real-time flexibility",
+  "IncludeId": "ratione",
+  "AccessKey": "officia",
+  "HierarchyId": 682,
+  "Source": "repudiandae",
+  "SourceCode": "commodi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 411,
+  "HtmlOutput": 194,
   "Includes": [
-    230,
-    938
+    93,
+    255
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 674,
-      "LineNumberTo": 112,
-      "Delta": 255,
-      "IncludeId": "commodi",
+      "LineNumberFrom": 209,
+      "LineNumberTo": 387,
+      "Delta": 316,
+      "IncludeId": "voluptate",
       "IncludedFrom": [
-        "rerum",
-        "odio"
+        "qui",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2003-03-31T03:40:55.6162809+02:00",
-  "RegisteredAssociateId": 120,
-  "Updated": "2009-07-27T03:40:55.6162809+02:00",
-  "UpdatedAssociateId": 357,
+  "Registered": "2000-01-30T02:30:52.522416+01:00",
+  "RegisteredAssociateId": 363,
+  "Updated": "2007-04-14T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 4,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

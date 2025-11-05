@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 425,
-    "Name": "Luettgen, Spencer and Kassulke",
-    "Tooltip": "officia",
+    "Id": 739,
+    "Name": "Reilly LLC",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 40,
-    "Rank": 427
+    "UdListDefinitionId": 239,
+    "Rank": 951
   },
   {
-    "Id": 425,
-    "Name": "Luettgen, Spencer and Kassulke",
-    "Tooltip": "officia",
+    "Id": 739,
+    "Name": "Reilly LLC",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 40,
-    "Rank": 427
+    "UdListDefinitionId": 239,
+    "Rank": 951
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Mayert, Robel and Hettinger",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "UdListDefinitionId": 149,
-    "Rank": 690,
+    "Id": 146,
+    "Name": "Gulgowski LLC",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 923,
+    "Rank": 567,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 824
       }
     }
   }

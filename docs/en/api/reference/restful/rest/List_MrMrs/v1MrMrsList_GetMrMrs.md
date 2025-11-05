@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Emmerich, Stark and Ortiz",
-  "Tooltip": "ut",
+  "Id": 163,
+  "Name": "Nikolaus LLC",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 718,
-  "Rank": 841,
+  "UdListDefinitionId": 556,
+  "Rank": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

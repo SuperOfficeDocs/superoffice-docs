@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Brakus-Fay",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "Rank": 200,
-    "UdListDefinitionId": 993,
+    "HeadingId": 747,
+    "Name": "King Group",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 587,
+    "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

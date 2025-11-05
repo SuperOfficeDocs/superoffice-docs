@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Green Group",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 974,
-  "IsCustomList": true,
+  "Id": 274,
+  "Name": "Kling LLC",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 829,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Carter, Rempel and Reichel",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 860,
+  "Id": 275,
+  "Name": "Hagenes Group",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 223,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

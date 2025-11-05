@@ -80,12 +80,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 386,
-  "Name": "Ruecker-Runolfsdottir",
-  "Tooltip": "cum",
+  "HeadingId": 355,
+  "Name": "Pollich, Hane and DuBuque",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 232,
-  "UdListDefinitionId": 475
+  "Rank": 177,
+  "UdListDefinitionId": 984
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 435,
-  "Name": "Moore Inc and Sons",
-  "Tooltip": "vel",
+  "HeadingId": 520,
+  "Name": "Jerde, Dickinson and Ward",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 853,
-  "UdListDefinitionId": 981,
+  "Rank": 105,
+  "UdListDefinitionId": 752,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

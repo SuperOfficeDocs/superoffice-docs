@@ -79,10 +79,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "enim",
+  "CRMScriptIncludeId": "aliquid",
   "Parameters": {
-    "Parameters1": "quisquam",
-    "Parameters2": "nesciunt"
+    "Parameters1": "et",
+    "Parameters2": "at"
   }
 }
 ```
@@ -93,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"iure"
 ```

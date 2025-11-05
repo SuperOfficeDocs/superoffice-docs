@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/CancelApprovalRequest
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 285
+  "QuoteVersionId": 507
 }
 ```
 
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "rerum",
-  "TechExplanation": "illo",
-  "ErrorCode": "qui",
+  "UserExplanation": "nam",
+  "TechExplanation": "commodi",
+  "ErrorCode": "harum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 267
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

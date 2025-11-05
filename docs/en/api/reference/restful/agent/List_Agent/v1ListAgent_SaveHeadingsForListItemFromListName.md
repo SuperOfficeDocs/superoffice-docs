@@ -92,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "White-Considine",
-  "ListItemId": 388,
+  "UdListDefinitionName": "Baumbach-Reynolds",
+  "ListItemId": 86,
   "Headings": [
     {
-      "Id": 733,
-      "Name": "Aufderhar LLC",
-      "ToolTip": "Eum voluptas harum cum ea excepturi ex nesciunt.",
+      "Id": 324,
+      "Name": "Torp Group",
+      "ToolTip": "Dicta qui sed facilis consequuntur.",
       "Deleted": false,
-      "Rank": 636,
-      "Type": "in",
-      "ColorBlock": 799,
-      "IconHint": "excepturi",
-      "Selected": true,
-      "LastChanged": "2012-10-10T03:40:47.0936613+02:00",
+      "Rank": 260,
+      "Type": "inventore",
+      "ColorBlock": 223,
+      "IconHint": "maiores",
+      "Selected": false,
+      "LastChanged": "2008-05-02T02:30:47.4132046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "eveniet",
+      "ExtraInfo": "omnis",
+      "StyleHint": "similique",
       "Hidden": false,
-      "FullName": "Bert Gutkowski"
+      "FullName": "Prof. Kayden McDermott DDS"
     }
   ]
 }
@@ -131,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Hagenes-McClure",
-    "ToolTip": "Eos nemo asperiores mollitia quisquam quaerat libero dolor.",
-    "Deleted": false,
-    "Rank": 124,
-    "Type": "perspiciatis",
-    "ColorBlock": 126,
-    "IconHint": "veniam",
+    "Id": 273,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Sint nobis eveniet saepe ut illum.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "et",
+    "ColorBlock": 805,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2000-02-25T03:40:47.0936613+01:00",
+    "LastChanged": "2023-11-07T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Anderson Inc and Sons",
-        "ToolTip": "Dolorem incidunt sit id officiis maxime.",
-        "Deleted": false,
-        "Rank": 779,
-        "Type": "nulla",
-        "ColorBlock": 909,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "2021-05-19T03:40:47.0936613+02:00",
+        "Id": 436,
+        "Name": "Littel LLC",
+        "ToolTip": "Est commodi.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "velit",
+        "ColorBlock": 302,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2009-10-06T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Dr. Leon Schumm DDS",
+        "ExtraInfo": "quis",
+        "StyleHint": "inventore",
+        "Hidden": true,
+        "FullName": "Laurine Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 852
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Gordon Reilly",
+    "ExtraInfo": "rerum",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Bonita Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

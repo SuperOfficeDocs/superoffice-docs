@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Walter, Zemlak and Jacobson",
-  "Tooltip": "ipsa",
+  "Id": 183,
+  "Name": "Wintheiser-Schultz",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "Rank": 4,
-  "IsCustomList": true,
+  "Rank": 69,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

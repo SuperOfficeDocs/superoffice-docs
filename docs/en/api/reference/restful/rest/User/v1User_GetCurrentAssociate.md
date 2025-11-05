@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,32 +81,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 674,
-  "Name": "Howe-Jones",
-  "PersonId": 235,
-  "Rank": 316,
-  "Tooltip": "fuga",
+  "AssociateId": 424,
+  "Name": "Gibson Inc and Sons",
+  "PersonId": 960,
+  "Rank": 38,
+  "Tooltip": "quos",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 76,
-  "FullName": "Lamont Gutkowski PhD",
-  "FormalName": "Rice-Witting",
+  "GroupIdx": 660,
+  "FullName": "Jairo Collier",
+  "FormalName": "Graham Inc and Sons",
   "Deleted": true,
-  "EjUserId": 564,
-  "UserName": "Gutkowski, Schiller and Purdy",
+  "EjUserId": 88,
+  "UserName": "Hintz, Macejkovic and Batz",
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "veniam",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "est"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 217
     }
   }
 }

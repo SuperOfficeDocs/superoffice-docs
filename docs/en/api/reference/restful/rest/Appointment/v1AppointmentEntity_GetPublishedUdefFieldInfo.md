@@ -94,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 416,
-  "ColumnId": 333,
-  "FieldDefault": "autem",
-  "FieldHeight": 547,
-  "FieldLabel": "autem",
-  "FieldLeft": 338,
-  "FieldTop": 371,
+  "UDefFieldId": 954,
+  "ColumnId": 193,
+  "FieldDefault": "dolores",
+  "FieldHeight": 804,
+  "FieldLabel": "nulla",
+  "FieldLeft": 637,
+  "FieldTop": 572,
   "FieldType": "Checkbox",
-  "FieldWidth": 651,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 817,
-  "LabelLeft": 563,
-  "LabelTop": 617,
-  "LabelWidth": 843,
-  "LastVersionId": 711,
-  "ListTableId": 281,
-  "IsMandatory": true,
+  "FieldWidth": 499,
+  "FormatMask": "veniam",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 21,
+  "LabelLeft": 331,
+  "LabelTop": 594,
+  "LabelWidth": 472,
+  "LastVersionId": 638,
+  "ListTableId": 925,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 962,
-  "ProgId": "libero",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 936,
-  "TextLength": 326,
-  "Tooltip": "sed",
-  "UdefIdentity": 254,
-  "UDListDefinitionId": 42,
+  "Page1LineNo": 206,
+  "ProgId": "quis",
+  "IsReadOnly": false,
+  "ShortLabel": "est",
+  "TabOrder": 583,
+  "TextLength": 501,
+  "Tooltip": "numquam",
+  "UdefIdentity": 699,
+  "UDListDefinitionId": 657,
   "Justification": "Center",
-  "Version": 631,
-  "TemplateVariableName": "Crist LLC",
+  "Version": 135,
+  "TemplateVariableName": "Smith, Jewess and Wuckert",
   "HasBeenPublished": false,
-  "MdoListName": "Ruecker LLC",
+  "MdoListName": "Simonis-Tremblay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 333
     }
   }
 }

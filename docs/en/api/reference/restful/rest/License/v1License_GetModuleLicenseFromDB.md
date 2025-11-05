@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Medhurst-Blanda",
-  "ModuleName": "Runte Group",
-  "ModuleDescription": "Secured empowering structure",
-  "ModuleTooltip": "cupiditate",
-  "ModuleVersion": "porro",
+  "OwnerName": "Sanford, Emard and Runolfsdottir",
+  "ModuleName": "Gleason-Schamberger",
+  "ModuleDescription": "Automated disintermediate matrix",
+  "ModuleTooltip": "soluta",
+  "ModuleVersion": "nihil",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 354,
-  "ExtraFlags": 358,
-  "ExtraInfo": "qui",
-  "SortOrder": 840,
+  "NumberOfLicenses": 640,
+  "ExtraFlags": 342,
+  "ExtraInfo": "animi",
+  "SortOrder": 228,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Willms Group",
-  "Signature": "nemo"
+  "PrerequisiteModuleName": "Cartwright-Keebler",
+  "Signature": "voluptatem"
 }
 ```

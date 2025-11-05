@@ -75,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 80
+  "QuoteConnectionId": 145
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "cupiditate",
-  "2": "est"
+  "1": "amet",
+  "2": "numquam"
 }
 ```

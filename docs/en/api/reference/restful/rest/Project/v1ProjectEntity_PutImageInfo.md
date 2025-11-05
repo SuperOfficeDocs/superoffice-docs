@@ -32,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=187
+PUT /api/v1/Project/{id}/ImageInfo?projectId=806
 ```
 
 
@@ -105,23 +105,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 781,
-  "BlobSize": 310,
-  "Description": "Integrated national adapter",
-  "ExtraInfo": "porro",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 928,
-  "CreatedDate": "1998-08-22T03:40:56.0542974+02:00",
-  "UpdatedDate": "2007-12-23T03:40:56.0542974+01:00",
+  "BlobId": 971,
+  "BlobSize": 897,
+  "Description": "Cross-platform background product",
+  "ExtraInfo": "quod",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "soluta",
+  "OriginalSize": 547,
+  "CreatedDate": "2007-02-15T02:30:52.8349052+01:00",
+  "UpdatedDate": "2014-03-18T02:30:52.8349052+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequuntur"
+  "ConceptualType": "soluta"
 }
 ```
 
@@ -132,25 +132,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 643,
-  "BlobSize": 158,
-  "Description": "Realigned bifurcated protocol",
-  "ExtraInfo": "quis",
+  "BlobId": 742,
+  "BlobSize": 546,
+  "Description": "Integrated composite monitoring",
+  "ExtraInfo": "temporibus",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "aut",
-  "OriginalSize": 832,
-  "CreatedDate": "2022-02-05T03:40:56.0542974+01:00",
-  "UpdatedDate": "2007-06-18T03:40:56.0542974+02:00",
+  "IsZipped": false,
+  "MimeType": "culpa",
+  "OriginalSize": 65,
+  "CreatedDate": "2010-05-16T02:30:52.8349052+02:00",
+  "UpdatedDate": "2014-01-01T02:30:52.8349052+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum",
+  "ConceptualType": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 153
     }
   }
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Graham-Sporer",
-    "ToolTip": "Distinctio qui incidunt incidunt.",
+    "Id": 8,
+    "Name": "Cartwright-Adams",
+    "ToolTip": "Iure vitae quod laudantium nulla voluptas vero error.",
     "Deleted": false,
-    "Rank": 9,
-    "Type": "libero",
-    "ColorBlock": 681,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2018-07-17T03:40:57.0871054+02:00",
+    "Rank": 248,
+    "Type": "animi",
+    "ColorBlock": 455,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2015-12-12T02:30:53.4286352+01:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Lowe, Kovacek and Labadie",
-        "ToolTip": "Fuga dolor libero quia iure.",
-        "Deleted": false,
-        "Rank": 804,
-        "Type": "cumque",
-        "ColorBlock": 697,
-        "IconHint": "sit",
+        "Id": 756,
+        "Name": "Connelly-Hermann",
+        "ToolTip": "Ipsa cupiditate pariatur soluta magnam culpa quibusdam reprehenderit.",
+        "Deleted": true,
+        "Rank": 14,
+        "Type": "id",
+        "ColorBlock": 458,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2007-11-28T03:40:57.0871054+01:00",
+        "LastChanged": "2001-05-26T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "minima",
+        "ExtraInfo": "sed",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Filomena Veum"
+        "FullName": "Prof. Jesse Sipes"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "tempora",
+    "ExtraInfo": "hic",
+    "StyleHint": "iste",
     "Hidden": true,
-    "FullName": "Abdiel Batz"
+    "FullName": "Mrs. Belle Howard Bauch III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Bogisich, Baumbach and Dickens",
-    "ToolTip": "Dolor dolorem corporis animi.",
+    "Id": 881,
+    "Name": "Koepp Group",
+    "ToolTip": "In aut.",
     "Deleted": false,
-    "Rank": 191,
-    "Type": "natus",
-    "ColorBlock": 173,
-    "IconHint": "magnam",
-    "Selected": false,
-    "LastChanged": "2016-11-29T03:40:57.0871054+01:00",
+    "Rank": 642,
+    "Type": "occaecati",
+    "ColorBlock": 302,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2025-10-21T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Prosacco-Harvey",
-        "ToolTip": "Libero culpa quia sint quia et.",
+        "Id": 26,
+        "Name": "Ruecker, Conroy and Nader",
+        "ToolTip": "Ut voluptas.",
         "Deleted": false,
-        "Rank": 121,
-        "Type": "quia",
-        "ColorBlock": 453,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2021-03-04T03:40:57.0871054+01:00",
+        "Rank": 430,
+        "Type": "voluptas",
+        "ColorBlock": 853,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2005-07-03T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "magni",
-        "Hidden": false,
-        "FullName": "Marge Cruickshank",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Alessandro Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "harum",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Theo Altenwerth",
+    "FullName": "Mrs. Patricia Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 380
       }
     }
   }

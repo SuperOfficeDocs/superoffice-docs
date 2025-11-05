@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 945
+  "PersonId": 365
 }
 ```
 
@@ -119,14 +119,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 964,
-    "Name": "Gislason-Stehr",
-    "Rank": 54,
-    "Tooltip": "consequuntur",
+    "AssociateId": 783,
+    "Name": "Bechtelar-Rodriguez",
+    "Rank": 182,
+    "Tooltip": "rem",
     "LicenseOwners": [
       {
-        "Name": "Stracke-Collier",
-        "Description": "Implemented homogeneous definition",
+        "Name": "Armstrong Inc and Sons",
+        "Description": "Fully-configurable static firmware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 135
           }
         }
       },
       {
-        "Name": "Stracke-Collier",
-        "Description": "Implemented homogeneous definition",
+        "Name": "Armstrong Inc and Sons",
+        "Description": "Fully-configurable static firmware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 135
           }
         }
       }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "ut",
-        "Tooltip": "provident",
-        "Id": 867,
-        "Rank": 178,
-        "Deleted": true,
+        "Value": "facere",
+        "Tooltip": "ut",
+        "Id": 163,
+        "Rank": 731,
+        "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 519
+            "FieldType": "System.Int32",
+            "FieldLength": 478
           }
         }
       }
     ],
     "Person": null,
     "Deleted": true,
-    "Lastlogin": "2007-03-17T03:40:48.2348737+01:00",
-    "Lastlogout": "2023-12-01T03:40:48.2348737+01:00",
-    "EjUserId": 722,
-    "RequestSignature": "exercitationem",
+    "Lastlogin": "2021-08-31T02:30:48.1319312+02:00",
+    "Lastlogout": "2002-09-22T02:30:48.1319312+02:00",
+    "EjUserId": 310,
+    "RequestSignature": "et",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsPersonRetired": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "et",
-        "DisplayValue": "eum",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 829
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "et",
-        "DisplayValue": "eum",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 829
-          }
-        }
-      }
-    ],
-    "UserName": "Kuhlman, Lakin and Stroman",
-    "TicketCategories": [
-      {
-        "Id": 7,
-        "Name": "Osinski-Ferry",
-        "ToolTip": "Sunt maxime.",
-        "Deleted": true,
-        "Rank": 849,
-        "Type": "culpa",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sit",
-        "ColorBlock": 841,
-        "ExtraInfo": "nihil",
-        "StyleHint": "corporis",
-        "FullName": "Felicity Tremblay",
+        "Value": "id",
+        "DisplayValue": "modi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 972
+            "FieldLength": 392
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "id",
+        "DisplayValue": "modi",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 392
           }
         }
       }
     ],
-    "NickName": "Jakubowski Group",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "recusandae",
-      "ExtraFields2": "ut"
-    },
-    "CustomFields": {
-      "CustomFields1": "aut",
-      "CustomFields2": "dolor"
-    },
-    "PostSaveCommands": [
+    "UserName": "Mayert, Reichert and Skiles",
+    "TicketCategories": [
       {
-        "Name": "Raynor-Goyette",
-        "DisplayName": "Bauch-Wiegand",
-        "Description": "Multi-tiered interactive pricing structure",
-        "ToolTip": "Dolorem nemo numquam optio vero sint neque.",
-        "Actions": "Implicit",
-        "ActionData": "ad",
+        "Id": 516,
+        "Name": "Hessel-Jacobi",
+        "ToolTip": "Quod voluptas facere facilis aspernatur.",
+        "Deleted": true,
+        "Rank": 531,
+        "Type": "ut",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "est",
+        "ColorBlock": 568,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "illo",
+        "FullName": "Laurel Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 238
+            "FieldLength": 889
+          }
+        }
+      }
+    ],
+    "NickName": "Bode-Hermann",
+    "WaitingForApproval": true,
+    "ExtraFields": {
+      "ExtraFields1": "fugiat",
+      "ExtraFields2": "voluptate"
+    },
+    "CustomFields": {
+      "CustomFields1": "sunt",
+      "CustomFields2": "fuga"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Bradtke Group",
+        "DisplayName": "Jones, Ritchie and Kuvalis",
+        "Description": "Synchronised actuating neural-net",
+        "ToolTip": "Repellendus magnam non.",
+        "Actions": "Implicit",
+        "ActionData": "dolores",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 9
       }
     }
   }

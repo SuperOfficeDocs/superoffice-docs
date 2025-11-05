@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=hic
+GET /api/v1/List/Task/MDOItems?query=asperiores
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Zulauf, Morar and Hansen",
-    "ToolTip": "Libero voluptates et est vel.",
+    "Id": 277,
+    "Name": "Heidenreich Inc and Sons",
+    "ToolTip": "Provident illum iusto non id temporibus.",
     "Deleted": false,
-    "Rank": 672,
-    "Type": "velit",
+    "Rank": 836,
+    "Type": "aliquam",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Kertzmann-Weissnat",
-        "ToolTip": "Exercitationem est et nostrum praesentium.",
+        "Id": 330,
+        "Name": "Huel-Mante",
+        "ToolTip": "Dignissimos maxime atque tempore.",
         "Deleted": false,
-        "Rank": 944,
+        "Rank": 559,
         "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 466,
-        "ExtraInfo": "laborum",
-        "StyleHint": "eligendi",
-        "FullName": "Mohammad Roob",
+        "IconHint": "aut",
+        "ColorBlock": 189,
+        "ExtraInfo": "ut",
+        "StyleHint": "aperiam",
+        "FullName": "Misael Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 251
+            "FieldLength": 712
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 424,
-    "ExtraInfo": "dolor",
+    "IconHint": "et",
+    "ColorBlock": 700,
+    "ExtraInfo": "molestiae",
     "StyleHint": "quis",
-    "FullName": "Coleman Becker V",
+    "FullName": "Elroy Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

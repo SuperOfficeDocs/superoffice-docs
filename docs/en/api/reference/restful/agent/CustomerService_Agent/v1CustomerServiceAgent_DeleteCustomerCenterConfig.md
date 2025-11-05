@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | customerCenterConfigId | int32 | **Required** The identity of the CustomerCenterConfig |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=807
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=718
 ```
 
 

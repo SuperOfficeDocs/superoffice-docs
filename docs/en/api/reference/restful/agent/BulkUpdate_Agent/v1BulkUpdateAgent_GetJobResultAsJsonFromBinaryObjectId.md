@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Crooks Inc and Sons",
-  "BinaryObjectId": 957
+  "TableName": "Jerde, Welch and Kassulke",
+  "BinaryObjectId": 991
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"impedit"
+"deserunt"
 ```

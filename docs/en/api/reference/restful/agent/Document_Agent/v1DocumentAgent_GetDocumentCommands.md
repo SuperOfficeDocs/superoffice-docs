@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 29,
+  "DocumentId": 210,
   "AllowedReturnTypes": [
-    "quisquam",
-    "in"
+    "nam",
+    "quis"
   ]
 }
 ```
@@ -100,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kemmer, Schaden and Rohan",
-    "DisplayName": "Purdy-Dickinson",
-    "DisplayTooltip": "est",
-    "IconHint": "omnis",
+    "Name": "Jaskolski-Bogan",
+    "DisplayName": "Mueller Group",
+    "DisplayTooltip": "ex",
+    "IconHint": "dolor",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Kemmer, Schaden and Rohan",
-    "DisplayName": "Purdy-Dickinson",
-    "DisplayTooltip": "est",
-    "IconHint": "omnis",
+    "Name": "Jaskolski-Bogan",
+    "DisplayName": "Mueller Group",
+    "DisplayTooltip": "ex",
+    "IconHint": "dolor",
     "ReturnType": "CustomGui"
   }
 ]

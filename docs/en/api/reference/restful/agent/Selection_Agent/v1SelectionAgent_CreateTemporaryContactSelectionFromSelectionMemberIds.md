@@ -121,10 +121,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 477,
+  "SelectionId": 892,
   "SelectionMemberIds": [
-    596,
-    781
+    967,
+    761
   ]
 }
 ```
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased bottom-line capacity",
-  "Postit": "ipsa",
+  "Description": "Seamless responsive parallelism",
+  "Postit": "officia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 360,
-  "IncludePerson": 943,
+  "GroupIdx": 361,
+  "IncludePerson": 167,
   "MemberCount": 99.99,
-  "Name": "Cole, Hudson and Swaniawski",
-  "PostitTextId": 931,
-  "CreatedDate": "2014-12-31T03:40:47.7348444+01:00",
-  "SelectionId": 276,
-  "SoundEx": "voluptatem",
-  "Source": 768,
-  "TextId": 240,
-  "UpdatedDate": "2022-08-19T03:40:47.7348444+02:00",
-  "UpdatedCount": 253,
-  "Visibility": 443,
+  "Name": "Runolfsdottir, Crooks and Fay",
+  "PostitTextId": 208,
+  "CreatedDate": "2018-01-27T02:30:47.8350657+01:00",
+  "SelectionId": 834,
+  "SoundEx": "voluptatibus",
+  "Source": 170,
+  "TextId": 690,
+  "UpdatedDate": "2006-10-20T02:30:47.8350657+02:00",
+  "UpdatedCount": 57,
+  "Visibility": 123,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 484,
-  "TargetTableName": "Kassulke-Hackett",
+  "CompanyUnique": true,
+  "TargetTableNumber": 416,
+  "TargetTableName": "Green Group",
   "Completed": false,
-  "LeftSelectionId": 949,
-  "RightSelectionId": 25,
+  "LeftSelectionId": 800,
+  "RightSelectionId": 621,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sipes LLC",
-  "ShadowProviderName": "Gulgowski-Boyle",
-  "ChartKey": "commodi",
-  "LastLoaded": "2012-09-14T03:40:47.7348444+02:00",
-  "LastLoadedBy": 448,
+  "MainProviderName": "Aufderhar Group",
+  "ShadowProviderName": "Murphy LLC",
+  "ChartKey": "alias",
+  "LastLoaded": "2024-12-09T02:30:47.8350657+01:00",
+  "LastLoadedBy": 472,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-11-17T03:40:47.7348444+01:00",
-  "LastMembershipChangeBy": 70,
+  "LastMembershipChange": "2010-12-26T02:30:47.8350657+01:00",
+  "LastMembershipChangeBy": 366,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "molestias",
-  "MemberTabHeading": "unde",
-  "MailingsProviderName": "Zboncak-Bednar",
-  "DashboardTileDefinitionId": 186,
+  "MainHeading": "eum",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Pfannerstill, O'Connell and Dicki",
+  "DashboardTileDefinitionId": 747,
   "VisibleFor": [
     {
-      "VisibleId": 990,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 174
         }
       }
     },
     {
-      "VisibleId": 990,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 174
         }
       }
     }
@@ -209,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldLength": 208
     }
   }
 }

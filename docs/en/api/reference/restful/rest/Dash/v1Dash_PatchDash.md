@@ -122,18 +122,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -146,37 +146,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 67,
-  "UniqueId": "animi",
-  "Name": "Osinski-Koepp",
-  "Description": "Seamless coherent success",
-  "AssociateId": 283,
-  "Columns": 280,
+  "DashboardId": 535,
+  "UniqueId": "dolores",
+  "Name": "Hammes, Renner and Langworth",
+  "Description": "Reverse-engineered static moderator",
+  "AssociateId": 854,
+  "Columns": 527,
   "Theme": null,
-  "VisibleForAll": 934,
+  "VisibleForAll": 996,
   "VisibleForAssociates": [
-    284,
-    82
+    769,
+    612
   ],
   "VisibleForGroups": [
-    249,
-    409
+    588,
+    380
   ],
-  "PinForAll": 335,
+  "PinForAll": 126,
   "PinForAssociates": [
-    786,
-    122
+    855,
+    475
   ],
   "PinForGroups": [
-    509,
-    164
+    987,
+    147
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 370
     }
   },
   "_Links": {

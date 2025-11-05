@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Rolfson-Erdman",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 298
+    "Id": 801,
+    "Name": "Runolfsson-Grady",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 426,
+    "Rank": 325
   },
   {
-    "Id": 809,
-    "Name": "Rolfson-Erdman",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 298
+    "Id": 801,
+    "Name": "Runolfsson-Grady",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 426,
+    "Rank": 325
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Zieme, Lueilwitz and Goyette",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "UdListDefinitionId": 764,
-    "Rank": 147,
+    "Id": 772,
+    "Name": "Stamm Inc and Sons",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 570,
+    "Rank": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

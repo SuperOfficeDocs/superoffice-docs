@@ -71,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 585
+  "BoardViewSettingsId": 469
 }
 ```
 

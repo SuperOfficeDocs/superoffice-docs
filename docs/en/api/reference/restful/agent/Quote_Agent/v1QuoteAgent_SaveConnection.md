@@ -105,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 515,
-  "ERPName": "Dooley, Quitzon and Corkery",
-  "DisplayName": "O'Kon-Ward",
-  "DisplayDescription": "Fundamental local architecture",
-  "Rank": 99,
-  "ConnectorName": "Monahan, Harber and Lueilwitz",
-  "ErpConnectionId": 600,
-  "ExtraData": "dolor",
+  "QuoteConnectionId": 463,
+  "ERPName": "O'Kon, Crist and Jenkins",
+  "DisplayName": "Ebert Inc and Sons",
+  "DisplayDescription": "Reduced empowering encoding",
+  "Rank": 428,
+  "ConnectorName": "Pacocha Inc and Sons",
+  "ErpConnectionId": 406,
+  "ExtraData": "ut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 129,
-      "ERPPriceListKey": "facilis",
-      "QuoteConnectionId": 620,
-      "Name": "Lehner Inc and Sons",
-      "Description": "Triple-buffered multi-state extranet",
-      "Currency": "itaque",
-      "CurrencyName": "Bartoletti Group",
-      "ValidFrom": "2025-02-08T03:40:47.5629587+01:00",
-      "ValidTo": "1998-07-25T03:40:47.5629587+02:00",
+      "PriceListId": 16,
+      "ERPPriceListKey": "voluptatem",
+      "QuoteConnectionId": 605,
+      "Name": "Reinger Group",
+      "Description": "Intuitive value-added task-force",
+      "Currency": "doloribus",
+      "CurrencyName": "Block-Rosenbaum",
+      "ValidFrom": "2019-07-20T02:30:47.7256947+02:00",
+      "ValidTo": "2004-07-06T02:30:47.7256947+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 66
+          "FieldType": "System.Int32",
+          "FieldLength": 618
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": false,
+  "AllAccess": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    302,
-    827
+    325,
+    965
   ],
   "AssociateAccessIds": [
-    991,
-    960
+    785,
+    411
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 187
     }
   }
 }

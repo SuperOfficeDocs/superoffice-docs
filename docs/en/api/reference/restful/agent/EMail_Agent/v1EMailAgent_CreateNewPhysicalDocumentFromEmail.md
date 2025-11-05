@@ -113,12 +113,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 578,
-  "EmailItemId": 170
+  "DocumentId": 576,
+  "EmailItemId": 534
 }
 ```
 
@@ -129,88 +129,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 912,
+  "DocumentId": 877,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "debitis",
-  "Header": "voluptas",
-  "Name": "Kovacek LLC",
-  "OurRef": "voluptas",
-  "YourRef": "commodi",
-  "CreatedDate": "2014-02-02T03:40:46.7967663+01:00",
-  "UpdatedDate": "1999-09-22T03:40:46.7967663+02:00",
-  "Description": "Secured context-sensitive circuit",
+  "Attention": "nostrum",
+  "Header": "molestiae",
+  "Name": "Parker, Jerde and Kessler",
+  "OurRef": "dicta",
+  "YourRef": "ullam",
+  "CreatedDate": "2003-02-19T02:30:47.2569602+01:00",
+  "UpdatedDate": "2020-05-01T02:30:47.2569602+02:00",
+  "Description": "Polarised eco-centric circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-08-13T03:40:46.7967663+02:00",
-  "ExternalRef": "cumque",
+  "Date": "2019-05-23T02:30:47.2569602+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 707,
+  "ActiveLinks": 619,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Zulauf Group",
-      "Id": 400,
-      "Description": "Balanced encompassing standardization",
-      "ExtraInfo": "dolor",
-      "LinkId": 205,
+      "EntityName": "Predovic LLC",
+      "Id": 885,
+      "Description": "Total hybrid methodology",
+      "ExtraInfo": "nobis",
+      "LinkId": 201,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 691
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 214,
-  "Snum": 124,
+  "SuggestedDocumentId": 963,
+  "Snum": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "1689104264",
-    "SuperOffice:2": "877806115"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2011-11-25T03:40:46.7967663+01:00",
-  "PublishTo": "2021-11-08T03:40:46.7967663+01:00",
-  "PublishFrom": "2014-05-14T03:40:46.7967663+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-09-24T02:30:47.2569602+02:00",
+  "PublishTo": "2003-12-19T02:30:47.2569602+01:00",
+  "PublishFrom": "2022-04-01T02:30:47.2569602+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 570,
+      "VisibleId": 202,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 570,
+      "VisibleId": 202,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 853
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

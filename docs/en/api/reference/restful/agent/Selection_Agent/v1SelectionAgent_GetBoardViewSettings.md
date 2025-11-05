@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Selection/GetBoardViewSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 244
+  "BoardViewSettingsId": 786
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 49,
-  "EntityType": "None",
-  "AssociateId": 47,
-  "SelectionId": 875,
+  "BoardViewSettingsId": 845,
+  "EntityType": "ContactPerson",
+  "AssociateId": 259,
+  "SelectionId": 366,
   "HideEmptyGroups": false,
-  "GroupBy": "modi",
-  "SubGroupBy": "eum",
-  "SortBy": "qui",
+  "GroupBy": "deserunt",
+  "SubGroupBy": "temporibus",
+  "SortBy": "officia",
   "SortDesc": false,
   "SumBy": "et",
-  "ColorBy": "dolor",
-  "Filters": "nesciunt"
+  "ColorBy": "sed",
+  "Filters": "quam"
 }
 ```

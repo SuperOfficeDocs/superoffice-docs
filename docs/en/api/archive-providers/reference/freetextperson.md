@@ -82,8 +82,10 @@ as well as before any ORDER BY, are applied.
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
-|leadstatus|listAny|Lead status| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -132,12 +134,12 @@ as well as before any ORDER BY, are applied.
 |restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
-|restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
@@ -174,8 +176,8 @@ as well as before any ORDER BY, are applied.
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|personExtra/y\_rental/x\_end|date|Rental - End| x |
+|personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -223,8 +225,10 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory|listAny|Source - Category| x |
 |personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
+|personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
 |personSourceRelation/personBusiness|listAny|Source - Business| x |
-|personSourceRelation/leadstatus|listAny|Source - Lead status| x |
+|personSourceRelation/leadStatus|listAny|Source - Lead status| x |
+|personSourceRelation/leadstatusRank|int|Source - !!Lead status RANK| x |
 |personSourceRelation/personDeletedDate|datetime|Source - Deleted date: Deleted date|  |
 |personSourceRelation/hasCompany|bool|Source - Has company: The contact is associated with a company| x |
 |personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
@@ -234,14 +238,14 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/createdByForm|listAny|Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId|int|Source - Company ID: Database ID of company to fetch relations for|  |
-|personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
-|personSourceRelation/personPersonRelation|listAny|Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
-|personTargetRelation/personId|int|Target - DB ID: Displays the database ID of a contact| x |
-|personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
+|personSourceRelation/personPersonRelation|listAny|Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|personTargetRelation/personId|int|Target - DB ID: Displays the database ID of a contact| x |
+|personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
 |personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
@@ -283,8 +287,10 @@ as well as before any ORDER BY, are applied.
 |personTargetRelation/personAssociateFullName|associate|Target - Our contact - Full name: Displays our contact| x |
 |personTargetRelation/personCategory|listAny|Target - Category| x |
 |personTargetRelation/personCategoryGroup|listAny|Target - Category group| x |
+|personTargetRelation/personCategoryRank|int|Target - !!Category rank| x |
 |personTargetRelation/personBusiness|listAny|Target - Business| x |
-|personTargetRelation/leadstatus|listAny|Target - Lead status| x |
+|personTargetRelation/leadStatus|listAny|Target - Lead status| x |
+|personTargetRelation/leadstatusRank|int|Target - !!Lead status RANK| x |
 |personTargetRelation/personDeletedDate|datetime|Target - Deleted date: Deleted date|  |
 |personTargetRelation/hasCompany|bool|Target - Has company: The contact is associated with a company| x |
 |personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
@@ -319,7 +325,7 @@ as well as before any ORDER BY, are applied.
 |personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -336,16 +342,16 @@ as well as before any ORDER BY, are applied.
 |correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |correspondingAssociate/associateDbId|associate|ID| x |
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -356,7 +362,7 @@ as well as before any ORDER BY, are applied.
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -377,6 +383,7 @@ as well as before any ORDER BY, are applied.
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
 |personContact/categoryGroup|listAny|Category group| x |
+|personContact/companyCategoryRank|int|Category rank| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
@@ -397,6 +404,7 @@ as well as before any ORDER BY, are applied.
 |personContact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |personContact/deletedDate|datetime|Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company| x |
+|personContact/forceCompany|bool|Dummy: Dummy|  |
 |personContact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |personContact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |personContact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -438,6 +446,10 @@ as well as before any ORDER BY, are applied.
 |personContact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |personContact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |personContact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
 |personContact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |personContact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -446,10 +458,6 @@ as well as before any ORDER BY, are applied.
 |personContact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 |personContact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |personContact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |personContact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |personContact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
@@ -486,7 +494,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personContact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personContact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personContact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|personContact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personContact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personContact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personContact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -519,7 +527,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportAssociate/assocType|listAny|Our service contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |personContact/contactSupportAssociate/ejUserId|int|Our service contact - Service user ID: The database ID of a Service user|  |
 |personContact/contactSupportAssociate/simultaneousEjUser|bool|Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personContact/contactSupportAssociate/ejDisplayName|string|Our service contact - Nick name: User's nick name in Service| x |
+|personContact/contactSupportAssociate/ejDisplayName|string|Our service contact - Nickname: User's nickname in Service| x |
 |personContact/contactSupportAssociate/ejStatus|int|Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personContact/contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in| x |
 |personContact/contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -542,6 +550,10 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/personHasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/contactSupportPerson/mrMrs|string|User support contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personContact/contactSupportPerson/position|listAny|User support contact - Position| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactSupportPerson/personNumber|string|User support contact - Number: Displays the contact's number| x |
 |personContact/contactSupportPerson/title|string|User support contact - Title: Displays the contact's job title| x |
 |personContact/contactSupportPerson/personCountry|listAny|User support contact - Country: Country| x |
@@ -550,10 +562,6 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/rank|int|User support contact - Rank: Displays a contact's current rank| x |
 |personContact/contactSupportPerson/birthdate| *None* |User support contact - Birthdate: Displays the contact's date of birth|  |
 |personContact/contactSupportPerson/associateType| *None* |User support contact - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactSupportPerson/useAsMailingAddress|bool|User support contact - Use as postal address: Use as postal address| x |
 |personContact/contactSupportPerson/personSource|listAny|User support contact - Source: Source (Contact)| x |
 |personContact/contactSupportPerson/retired|bool|User support contact - Former employee: Indicates whether the contact has retired/left the company| x |
@@ -578,8 +586,10 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |personContact/contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |personContact/contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
+|personContact/contactSupportPerson/personCategoryRank|int|User support contact - !!Category rank| x |
 |personContact/contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|personContact/contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
+|personContact/contactSupportPerson/leadStatus|listAny|User support contact - Lead status| x |
+|personContact/contactSupportPerson/leadstatusRank|int|User support contact - !!Lead status RANK| x |
 |personContact/contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |personContact/contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |personContact/contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -619,8 +629,8 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|User support contact - Extra appointment relation: Appointment relation on person| x |
 |personContact/contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|User support contact - Extra company relation: Company relation on contact| x |
 |personContact/contactSupportPerson/personExtra/y\_rental/id|int|User support contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|personContact/contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental| x |
-|personContact/contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End| x |
+|personContact/contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental: Start rental| x |
+|personContact/contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End: End| x |
 |personContact/contactSupportPerson/personExtra/y\_rental/x\_amount|int|User support contact - Rental - Amount: Number to rent. Default = 1| x |
 |personContact/contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|User support contact - Rental - Renter: Company that rents equipment| x |
 |personContact/contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -644,6 +654,10 @@ as well as before any ORDER BY, are applied.
 |personContact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |personContact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |personContact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 |personContact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |personContact/contactUdef/SuperOffice:11|string|page1adminonly| x |
@@ -654,10 +668,6 @@ as well as before any ORDER BY, are applied.
 |personContact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |personContact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |personContact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |personContact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |personContact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
@@ -669,7 +679,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |personContact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |personContact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|personContact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|personContact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |personContact/NumberOfActivities|int|Number of activities|  |
 |personContact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |personContact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -748,6 +758,10 @@ as well as before any ORDER BY, are applied.
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
 |request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
 |request/realTimeToClose|timeSpan|Real time to close: Real time to close| x |
@@ -758,10 +772,6 @@ as well as before any ORDER BY, are applied.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/createdBy|ejUser|Created by: Created by| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -789,7 +799,7 @@ as well as before any ORDER BY, are applied.
 |request/createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
+|request/createdBy/ejDisplayName|string|Created by - Nickname: User's nickname in Service| x |
 |request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -822,7 +832,7 @@ as well as before any ORDER BY, are applied.
 |request/ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |request/ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|request/ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|request/ownedBy/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |request/ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |request/ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -852,7 +862,11 @@ as well as before any ORDER BY, are applied.
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-|request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |request/extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
@@ -862,10 +876,6 @@ as well as before any ORDER BY, are applied.
 |projectMembers/number|string|Number: Displays the project's number| x |
 |projectMembers/type|listAny|Project type: Displays the project's type| x |
 |projectMembers/status|listAny|Status: Displays the project's status| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
@@ -915,7 +925,7 @@ as well as before any ORDER BY, are applied.
 |projectMembers/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMembers/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMembers/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMembers/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMembers/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMembers/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -956,6 +966,10 @@ as well as before any ORDER BY, are applied.
 |projectMembers/saintAmountClass|listAny|Amount class|  |
 |projectMembers/saintActivityType|listAny|SAINT type|  |
 |projectMembers/saintDirection|listAny|Direction|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
@@ -966,10 +980,6 @@ as well as before any ORDER BY, are applied.
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
@@ -1042,7 +1052,7 @@ as well as before any ORDER BY, are applied.
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAppointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personAppointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personAppointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|personAppointment/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personAppointment/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAppointment/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAppointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -1060,6 +1070,10 @@ as well as before any ORDER BY, are applied.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
@@ -1067,7 +1081,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=retired,personPrivate/formattedNumber,restrictionAddress/city,personContact/restrictionAddress/line2,personContact/restrictionAddress/wgs84latitude
+GET /api/v1/archive/FreetextPerson?$select=personRegisteredDate,personSourceRelation/firstName,personSourceRelation/kanaFirstName,personTargetRelation/personActiveErpLinks,correspondingAssociate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

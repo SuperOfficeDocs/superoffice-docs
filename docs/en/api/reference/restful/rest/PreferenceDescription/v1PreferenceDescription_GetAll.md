@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 446,
-    "Section": "et",
-    "Key": "voluptas",
-    "Name": "Koch, Wilderman and Miller",
+    "PrefDescId": 349,
+    "Section": "dolorem",
+    "Key": "illo",
+    "Name": "Feil, Wiegand and Connelly",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Object-based global projection",
+    "Description": "Open-source value-added migration",
     "IsBuiltin": false,
-    "TableName": "Champlin, McKenzie and Kutch",
-    "UserDefinedListId": 41,
-    "Rank": 999,
-    "SubGroup": "tempore",
-    "MinLevel": 726,
-    "MaxValue": 424,
-    "MinValue": 337,
-    "RequiredLicense": "nisi",
+    "TableName": "Pacocha, Emard and Abbott",
+    "UserDefinedListId": 766,
+    "Rank": 668,
+    "SubGroup": "voluptas",
+    "MinLevel": 679,
+    "MaxValue": 647,
+    "MinValue": 303,
+    "RequiredLicense": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 566
       }
     }
   }

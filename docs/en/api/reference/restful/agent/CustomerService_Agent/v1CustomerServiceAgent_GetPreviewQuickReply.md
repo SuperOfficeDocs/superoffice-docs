@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 125
+  "QuickReplyId": 177
 }
 ```
 
@@ -94,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fritsch LLC",
-  "UpdatedByFullName": "Ms. Damien Alana Stiedemann Sr.",
-  "Updated": "2005-02-27T03:40:46.5468616+01:00",
-  "HtmlBody": "vitae",
+  "Name": "Leffler-Koepp",
+  "UpdatedByFullName": "Rosella Kohler",
+  "Updated": "2023-12-12T02:30:47.0538389+01:00",
+  "HtmlBody": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

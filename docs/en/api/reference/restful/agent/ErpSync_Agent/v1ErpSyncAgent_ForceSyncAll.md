@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "rerum",
-  "TechExplanation": "ipsa",
-  "ErrorCode": "distinctio",
+  "UserExplanation": "dolor",
+  "TechExplanation": "eligendi",
+  "ErrorCode": "eum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

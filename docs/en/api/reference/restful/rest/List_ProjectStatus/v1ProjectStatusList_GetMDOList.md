@@ -27,8 +27,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=aut
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=ea
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Dietrich, Schaefer and Walsh",
-    "ToolTip": "Distinctio dolorem asperiores.",
+    "Id": 440,
+    "Name": "Lowe LLC",
+    "ToolTip": "Odit tempora.",
     "Deleted": false,
-    "Rank": 997,
-    "Type": "cum",
+    "Rank": 319,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 118,
-        "Name": "Witting-Zboncak",
-        "ToolTip": "Sit tenetur.",
+        "Id": 209,
+        "Name": "Hickle Group",
+        "ToolTip": "Autem qui quis ab dolor fugit optio.",
         "Deleted": true,
-        "Rank": 406,
-        "Type": "corrupti",
+        "Rank": 689,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 565,
-        "ExtraInfo": "nihil",
-        "StyleHint": "repellendus",
-        "FullName": "Mr. Seth Fadel",
+        "IconHint": "ipsa",
+        "ColorBlock": 568,
+        "ExtraInfo": "possimus",
+        "StyleHint": "laborum",
+        "FullName": "Lexi Heaney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 61
+            "FieldLength": 59
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 270,
-    "ExtraInfo": "sit",
-    "StyleHint": "dolorem",
-    "FullName": "Edwardo Donnelly",
+    "IconHint": "necessitatibus",
+    "ColorBlock": 425,
+    "ExtraInfo": "rem",
+    "StyleHint": "ipsam",
+    "FullName": "Miss Willard Vesta Kihn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldLength": 37
       }
     }
   }

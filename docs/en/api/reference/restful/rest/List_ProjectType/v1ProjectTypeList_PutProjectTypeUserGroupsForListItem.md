@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Goyette Group",
-    "ToolTip": "Eius architecto sint nam atque.",
+    "Id": 807,
+    "Name": "Cremin, Koelpin and Pfannerstill",
+    "ToolTip": "Cumque repudiandae neque sit.",
     "Deleted": false,
-    "Rank": 381,
-    "Type": "sunt",
-    "ColorBlock": 531,
-    "IconHint": "adipisci",
+    "Rank": 469,
+    "Type": "iure",
+    "ColorBlock": 366,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2002-09-02T03:40:57.040226+02:00",
+    "LastChanged": "2023-10-17T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "McKenzie-Skiles",
-        "ToolTip": "A ab.",
-        "Deleted": true,
-        "Rank": 459,
-        "Type": "totam",
-        "ColorBlock": 367,
-        "IconHint": "quia",
+        "Id": 58,
+        "Name": "Kunde-Aufderhar",
+        "ToolTip": "Maxime facere.",
+        "Deleted": false,
+        "Rank": 327,
+        "Type": "distinctio",
+        "ColorBlock": 950,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2018-09-14T03:40:57.040226+02:00",
+        "LastChanged": "2008-06-14T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Florence Rohan"
+        "ExtraInfo": "aut",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Mr. Daniella Howe DVM"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "quam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quos",
     "Hidden": true,
-    "FullName": "Miss Taurean Littel I"
+    "FullName": "Ward Wolf"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "McKenzie-Lebsack",
-    "ToolTip": "Sit ipsam similique dolore recusandae laboriosam.",
+    "Id": 590,
+    "Name": "Langosh-Towne",
+    "ToolTip": "Recusandae consequatur ipsa voluptas illum.",
     "Deleted": true,
-    "Rank": 490,
-    "Type": "commodi",
-    "ColorBlock": 466,
-    "IconHint": "nisi",
+    "Rank": 152,
+    "Type": "nihil",
+    "ColorBlock": 225,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "1999-12-30T03:40:57.040226+01:00",
+    "LastChanged": "2021-09-08T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Kozey, Parisian and Terry",
-        "ToolTip": "Animi placeat eius.",
+        "Id": 224,
+        "Name": "Waters-Yundt",
+        "ToolTip": "Provident tenetur deleniti magnam sunt.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "ipsa",
-        "ColorBlock": 122,
-        "IconHint": "quasi",
+        "Rank": 519,
+        "Type": "maiores",
+        "ColorBlock": 186,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2006-09-10T03:40:57.040226+02:00",
+        "LastChanged": "2005-05-22T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "libero",
-        "Hidden": true,
-        "FullName": "Valentine Cole",
+        "ExtraInfo": "aut",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Verlie Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 505
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "amet",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Augustine Dibbert",
+    "FullName": "Reina Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldLength": 841
       }
     }
   }

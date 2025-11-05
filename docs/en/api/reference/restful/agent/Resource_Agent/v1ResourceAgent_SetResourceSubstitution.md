@@ -70,13 +70,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Huel, Price and Emard",
-  "ResourceValues": "quis",
-  "Culture": "corrupti",
+  "ResourceName": "Cummings, Altenwerth and King",
+  "ResourceValues": "est",
+  "Culture": "est",
   "IsActive": false
 }
 ```

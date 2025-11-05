@@ -109,8 +109,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "IncludeAttachments": false
+  "Id": 255,
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,156 +123,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 473,
-      "ContactName": "Wolff-Toy",
-      "PersonId": 472,
-      "PersonName": "Auer-Casper",
-      "AssociateId": 935,
-      "Address": "sed",
-      "EmailId": 328,
+      "ContactId": 975,
+      "ContactName": "Osinski, Stamm and Funk",
+      "PersonId": 605,
+      "PersonName": "Botsford LLC",
+      "AssociateId": 241,
+      "Address": "ullam",
+      "EmailId": 652,
       "DuplicatePersonIds": [
-        668,
-        236
+        901,
+        162
       ],
-      "Name": "Hagenes-Deckow",
+      "Name": "Rosenbaum-Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 112
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 35,
-      "ContactName": "Kulas Inc and Sons",
-      "PersonId": 12,
-      "PersonName": "Balistreri-Schoen",
-      "AssociateId": 162,
-      "Address": "molestiae",
-      "EmailId": 447,
+      "ContactId": 241,
+      "ContactName": "Zboncak, Wiza and Kihn",
+      "PersonId": 536,
+      "PersonName": "Konopelski-Rice",
+      "AssociateId": 691,
+      "Address": "quasi",
+      "EmailId": 355,
       "DuplicatePersonIds": [
-        374,
-        712
+        379,
+        225
       ],
-      "Name": "Jast Group",
+      "Name": "Gerhold, Wolff and Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 96
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 470,
-      "ContactName": "Towne, Nicolas and Quitzon",
-      "PersonId": 122,
-      "PersonName": "Reilly LLC",
-      "AssociateId": 511,
-      "Address": "qui",
-      "EmailId": 891,
+      "ContactId": 714,
+      "ContactName": "Padberg Group",
+      "PersonId": 701,
+      "PersonName": "Block Inc and Sons",
+      "AssociateId": 264,
+      "Address": "in",
+      "EmailId": 829,
       "DuplicatePersonIds": [
-        454,
-        776
+        512,
+        626
       ],
-      "Name": "Buckridge LLC",
+      "Name": "Leuschke-Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 709
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "aut",
+  "Subject": "voluptatem",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2007-05-01T03:40:46.9061483+02:00",
-  "Size": 818,
+  "Sent": "2023-02-02T02:30:47.3194579+01:00",
+  "Size": 997,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aspernatur",
-  "PlainBody": "asperiores",
+  "MessageID": "iusto",
+  "PlainBody": "id",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 149,
+  "ServerId": 826,
   "Attachments": [
     {
-      "Description": "Up-sized high-level flexibility",
-      "Filename": "non",
-      "Size": 666,
-      "Type": "iusto",
-      "Encoding": "molestiae",
-      "Id": "inventore",
-      "Disposition": "nobis",
-      "IsSafeFileExtension": true,
+      "Description": "Extended dedicated encoding",
+      "Filename": "optio",
+      "Size": 807,
+      "Type": "voluptate",
+      "Encoding": "magni",
+      "Id": "voluptates",
+      "Disposition": "illum",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 664
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lakin-Conn",
+      "Name": "Mosciski, Mosciski and Blanda",
       "Values": [
-        "aliquid",
-        "omnis"
+        "tempore",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     },
     {
-      "Name": "Lakin-Conn",
+      "Name": "Mosciski, Mosciski and Blanda",
       "Values": [
-        "aliquid",
-        "omnis"
+        "tempore",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     }
   ],
-  "FolderName": "Sauer LLC",
-  "EmailItemId": 803,
-  "AccountId": 96,
-  "ReceivedAt": "2007-02-21T03:40:46.9061483+01:00",
+  "FolderName": "Schmeler, Keebler and Kuvalis",
+  "EmailItemId": 14,
+  "AccountId": 584,
+  "ReceivedAt": "2025-09-16T02:30:47.3194579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-01-21T03:40:46.9061483+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-03-12T02:30:47.3194579+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

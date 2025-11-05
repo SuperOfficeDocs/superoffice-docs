@@ -100,36 +100,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 80,
+  "HierarchyId": 642,
   "Domain": "Dashboards",
-  "Name": "Weber, McClure and Lesch",
-  "Fullname": "recusandae",
-  "ParentId": 63,
+  "Name": "Witting Group",
+  "Fullname": "excepturi",
+  "ParentId": 777,
   "Children": [
     {
-      "HierarchyId": 155,
+      "HierarchyId": 541,
       "Domain": "Dashboards",
-      "Name": "Dibbert-Leannon",
-      "Fullname": "qui",
-      "ParentId": 324,
+      "Name": "Wilkinson-Hansen",
+      "Fullname": "nesciunt",
+      "ParentId": 841,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-07-30T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 342,
-      "Updated": "2018-11-17T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 127
+      "Registered": "2022-08-14T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 836,
+      "Updated": "1998-11-16T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 456
     }
   ],
-  "Registered": "2007-02-23T03:40:55.7886484+01:00",
-  "RegisteredAssociateId": 133,
-  "Updated": "2009-04-14T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 18
+  "Registered": "2021-05-11T02:30:52.6630355+02:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2023-06-14T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 784
 }
 ```
 
@@ -140,46 +140,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 69,
+  "HierarchyId": 115,
   "Domain": "Dashboards",
-  "Name": "Kuhlman-Wisozk",
-  "Fullname": "consequuntur",
-  "ParentId": 651,
+  "Name": "Conroy-Tromp",
+  "Fullname": "et",
+  "ParentId": 351,
   "Children": [
     {
-      "HierarchyId": 276,
+      "HierarchyId": 51,
       "Domain": "Dashboards",
-      "Name": "Hane Group",
-      "Fullname": "suscipit",
-      "ParentId": 2,
+      "Name": "Hudson, Nitzsche and Paucek",
+      "Fullname": "eaque",
+      "ParentId": 339,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-04-20T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 270,
-      "Updated": "2023-01-27T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 974,
+      "Registered": "2010-06-17T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 645,
+      "Updated": "2007-10-19T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 195,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 278
+          "FieldLength": 873
         }
       }
     }
   ],
-  "Registered": "2003-04-11T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 28,
-  "Updated": "1999-06-05T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 761,
+  "Registered": "2024-03-26T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 652,
+  "Updated": "2024-09-21T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 552
     }
   },
   "_Links": {

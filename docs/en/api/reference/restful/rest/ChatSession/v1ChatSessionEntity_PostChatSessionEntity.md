@@ -138,33 +138,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 517,
-  "TopicId": 470,
+  "ChatSessionId": 757,
+  "TopicId": 401,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eveniet",
-  "CustomerHost": "atque",
-  "CustomerName": "Zulauf-Bergstrom",
-  "CustomerEmail": "phyllis@predovicondricka.ca",
-  "CustomerPhone": "815.701.8159 x5940",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Cartwright Inc and Sons",
+  "CustomerAlias": "sint",
+  "CustomerHost": "aspernatur",
+  "CustomerName": "Barrows, Murray and Padberg",
+  "CustomerEmail": "vida@keeling.us",
+  "CustomerPhone": "762-248-2668",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Murphy, Kertzmann and Waters",
   "Status": "Closed",
-  "FirstMessage": "modi",
-  "LastMessage": "similique",
-  "WhenRequested": "2006-12-26T03:40:55.2411754+01:00",
-  "WhenStarted": "2022-12-28T03:40:55.2411754+01:00",
-  "WhenEnded": "2002-09-01T03:40:55.2411754+02:00",
-  "WhenIdle": "2006-12-04T03:40:55.2411754+01:00",
-  "WhenFetched": "2024-04-06T03:40:55.2411754+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 672,
-  "AlertLevel": 224,
-  "Rank": 193,
+  "FirstMessage": "ipsum",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2014-08-31T02:30:52.350546+02:00",
+  "WhenStarted": "1999-10-26T02:30:52.350546+02:00",
+  "WhenEnded": "2010-09-09T02:30:52.350546+02:00",
+  "WhenIdle": "2016-09-09T02:30:52.350546+02:00",
+  "WhenFetched": "2018-03-17T02:30:52.350546+01:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 41,
+  "AlertLevel": 365,
+  "Rank": 714,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 288
+  "Rating": 692
 }
 ```
 
@@ -183,29 +183,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 670,
-  "TopicId": 880,
+  "ChatSessionId": 341,
+  "TopicId": 551,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cum",
-  "CustomerHost": "et",
-  "CustomerName": "Halvorson-Goldner",
-  "CustomerEmail": "wade_littel@crookskilback.name",
-  "CustomerPhone": "869-705-8736 x190",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schultz-Harvey",
+  "CustomerAlias": "magni",
+  "CustomerHost": "quod",
+  "CustomerName": "Kris-Leannon",
+  "CustomerEmail": "america.gleichner@bailey.name",
+  "CustomerPhone": "(312)798-1353",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bayer-Bauch",
   "Status": "Closed",
-  "FirstMessage": "accusamus",
-  "LastMessage": "sit",
-  "WhenRequested": "2002-05-26T03:40:55.2568012+02:00",
-  "WhenStarted": "2006-11-02T03:40:55.2568012+01:00",
-  "WhenEnded": "2016-11-30T03:40:55.2568012+01:00",
-  "WhenIdle": "2023-07-16T03:40:55.2568012+02:00",
-  "WhenFetched": "2023-08-30T03:40:55.2568012+02:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 897,
-  "AlertLevel": 366,
-  "Rank": 906,
+  "FirstMessage": "possimus",
+  "LastMessage": "est",
+  "WhenRequested": "2025-02-10T02:30:52.350546+01:00",
+  "WhenStarted": "2011-12-11T02:30:52.350546+01:00",
+  "WhenEnded": "2000-08-17T02:30:52.350546+02:00",
+  "WhenIdle": "2010-09-26T02:30:52.350546+02:00",
+  "WhenFetched": "2002-11-20T02:30:52.350546+01:00",
+  "SessionKey": "amet",
+  "InitialQueuePos": 142,
+  "AlertLevel": 441,
+  "Rank": 730,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -213,18 +213,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 345,
+  "Rating": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 389
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

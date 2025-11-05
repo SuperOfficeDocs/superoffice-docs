@@ -135,7 +135,7 @@ Lists all email flow message content
 |shipment/emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |shipment/emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |shipment/emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|shipment/emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|shipment/emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |shipment/emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |shipment/emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |shipment/emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -206,7 +206,7 @@ Lists all email flow message content
 |shipment/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |shipment/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |shipment/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|shipment/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|shipment/project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |shipment/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |shipment/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |shipment/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -260,7 +260,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/recordTypeText,shipment/emailFlow/workflowInProgressCount,shipment/project/projectAssociate/mrMrs,shipment/project/projectAssociate/ejDisplayName,shipment/project/projectUdef/SuperOffice:10
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

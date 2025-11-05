@@ -74,7 +74,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,23 +82,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 09 Oct 2008 03:40:55 G10T
+Last-Modified: Mon, 24 Apr 2017 02:30:52 G4T
 
 {
-  "Key": "at",
-  "Value": "officia",
-  "RecordId": 883,
-  "CreatedDate": "2012-04-09T03:40:55.7731411+02:00",
-  "UpdatedDate": "2008-10-09T03:40:55.7731411+02:00",
-  "UpdatedBy": "deserunt",
-  "CreatedBy": "quas",
-  "TableName": "Abshire LLC",
+  "Key": "ea",
+  "Value": "voluptas",
+  "RecordId": 756,
+  "CreatedDate": "2020-03-30T02:30:52.6474115+02:00",
+  "UpdatedDate": "2017-04-24T02:30:52.6474115+02:00",
+  "UpdatedBy": "inventore",
+  "CreatedBy": "quaerat",
+  "TableName": "Purdy, Quigley and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 38
     }
   }
 }

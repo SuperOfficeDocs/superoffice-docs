@@ -28,7 +28,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=tenetur
+GET /api/v1/List/Category/MDOItems?query=corporis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Crona, Wuckert and Rempel",
-    "ToolTip": "Sed minima.",
-    "Deleted": false,
-    "Rank": 233,
-    "Type": "aut",
+    "Id": 25,
+    "Name": "Goyette, Reinger and Reinger",
+    "ToolTip": "Et sit sed sint recusandae et voluptatem maiores.",
+    "Deleted": true,
+    "Rank": 22,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Nostrum ut voluptatem quia tenetur quibusdam.",
-        "Deleted": false,
-        "Rank": 683,
-        "Type": "minus",
+        "Id": 69,
+        "Name": "Dickens Inc and Sons",
+        "ToolTip": "Alias nemo.",
+        "Deleted": true,
+        "Rank": 690,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reprehenderit",
-        "ColorBlock": 572,
-        "ExtraInfo": "et",
-        "StyleHint": "id",
-        "FullName": "Dr. Jamison Nicholaus Cummerata MD",
+        "IconHint": "suscipit",
+        "ColorBlock": 178,
+        "ExtraInfo": "quae",
+        "StyleHint": "nam",
+        "FullName": "Prof. Adah America Fadel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldLength": 264
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 262,
-    "ExtraInfo": "culpa",
-    "StyleHint": "numquam",
-    "FullName": "Maximillian Noe West Jr.",
+    "IconHint": "soluta",
+    "ColorBlock": 243,
+    "ExtraInfo": "quam",
+    "StyleHint": "ut",
+    "FullName": "Prudence Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 590
       }
     }
   }

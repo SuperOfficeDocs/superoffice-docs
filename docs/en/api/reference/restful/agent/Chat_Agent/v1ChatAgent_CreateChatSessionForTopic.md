@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 359
+  "ChatTopicId": 397
 }
 ```
 
@@ -121,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 975,
-  "TopicId": 105,
+  "ChatSessionId": 649,
+  "TopicId": 60,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fugit",
-  "CustomerHost": "distinctio",
-  "CustomerName": "Frami-Stiedemann",
-  "CustomerEmail": "jayda_mcclure@dickinson.info",
-  "CustomerPhone": "(226)683-0657 x968",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Swift LLC",
+  "CustomerAlias": "saepe",
+  "CustomerHost": "dolorum",
+  "CustomerName": "Lang-Kunde",
+  "CustomerEmail": "beatrice.klocko@leffler.info",
+  "CustomerPhone": "201-354-4025 x95796",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ankunding-Wehner",
   "Status": "Closed",
-  "FirstMessage": "voluptatibus",
-  "LastMessage": "qui",
-  "WhenRequested": "2018-02-19T03:40:46.2331872+01:00",
-  "WhenStarted": "2002-01-02T03:40:46.2331872+01:00",
-  "WhenEnded": "2024-03-24T03:40:46.2331872+01:00",
-  "WhenIdle": "2006-09-12T03:40:46.2331872+02:00",
-  "WhenFetched": "2022-04-17T03:40:46.2331872+02:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 746,
-  "AlertLevel": 466,
-  "Rank": 366,
+  "FirstMessage": "illum",
+  "LastMessage": "nihil",
+  "WhenRequested": "1998-11-25T02:30:46.9132188+01:00",
+  "WhenStarted": "2000-12-22T02:30:46.9132188+01:00",
+  "WhenEnded": "2022-01-06T02:30:46.9132188+01:00",
+  "WhenIdle": "1998-08-27T02:30:46.9132188+02:00",
+  "WhenFetched": "2021-08-20T02:30:46.9132188+02:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 74,
+  "AlertLevel": 468,
+  "Rank": 129,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 927,
+  "ChatbotIsActive": true,
+  "Rating": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 731
     }
   }
 }

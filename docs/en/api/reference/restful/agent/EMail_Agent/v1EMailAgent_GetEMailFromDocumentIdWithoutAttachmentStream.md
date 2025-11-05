@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 589
+  "DocumentId": 348
 }
 ```
 
@@ -121,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 392,
-      "ContactName": "Bartoletti Group",
-      "PersonId": 422,
-      "PersonName": "Schultz-Kessler",
-      "AssociateId": 318,
-      "Address": "dignissimos",
-      "EmailId": 684,
+      "ContactId": 967,
+      "ContactName": "Weissnat-Luettgen",
+      "PersonId": 617,
+      "PersonName": "Champlin Group",
+      "AssociateId": 661,
+      "Address": "sapiente",
+      "EmailId": 944,
       "DuplicatePersonIds": [
-        244,
-        930
+        536,
+        803
       ],
-      "Name": "Runolfsson Inc and Sons",
+      "Name": "Wolff Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 666
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 745,
-      "ContactName": "Walker-Hodkiewicz",
-      "PersonId": 453,
-      "PersonName": "Steuber Group",
-      "AssociateId": 443,
-      "Address": "distinctio",
-      "EmailId": 114,
+      "ContactId": 829,
+      "ContactName": "Dooley-Frami",
+      "PersonId": 916,
+      "PersonName": "Wyman Inc and Sons",
+      "AssociateId": 454,
+      "Address": "et",
+      "EmailId": 23,
       "DuplicatePersonIds": [
-        443,
-        466
+        701,
+        272
       ],
-      "Name": "Simonis-Schuster",
+      "Name": "Homenick-Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Friesen, Towne and Johnson",
-      "PersonId": 60,
-      "PersonName": "Schiller-Keebler",
-      "AssociateId": 16,
-      "Address": "laboriosam",
-      "EmailId": 40,
+      "ContactId": 838,
+      "ContactName": "Kirlin, Hudson and Abshire",
+      "PersonId": 115,
+      "PersonName": "Murray, Conroy and Fisher",
+      "AssociateId": 270,
+      "Address": "minima",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        650,
-        343
+        454,
+        235
       ],
-      "Name": "Bartell-Fisher",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 653
-        }
-      }
-    }
-  ],
-  "Subject": "enim",
-  "HTMLBody": "modi",
-  "From": null,
-  "Sent": "2002-01-25T03:40:46.7967663+01:00",
-  "Size": 471,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "sapiente",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 912,
-  "Attachments": [
-    {
-      "Description": "Multi-channelled context-sensitive portal",
-      "Filename": "enim",
-      "Size": 548,
-      "Type": "sit",
-      "Encoding": "repudiandae",
-      "Id": "eaque",
-      "Disposition": "enim",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Casper-Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 381
+        }
+      }
+    }
+  ],
+  "Subject": "cum",
+  "HTMLBody": "reprehenderit",
+  "From": null,
+  "Sent": "1998-06-25T02:30:47.2569602+02:00",
+  "Size": 702,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "eius",
+  "PlainBody": "et",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 899,
+  "Attachments": [
+    {
+      "Description": "Synchronised interactive open system",
+      "Filename": "sapiente",
+      "Size": 226,
+      "Type": "perspiciatis",
+      "Encoding": "qui",
+      "Id": "dolores",
+      "Disposition": "qui",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 307
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hauck, Hilll and Hudson",
+      "Name": "Jakubowski-Will",
       "Values": [
-        "fugit",
-        "quisquam"
+        "enim",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "Hauck, Hilll and Hudson",
+      "Name": "Jakubowski-Will",
       "Values": [
-        "fugit",
-        "quisquam"
+        "enim",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
   ],
-  "FolderName": "Schowalter, McKenzie and Marvin",
-  "EmailItemId": 280,
-  "AccountId": 311,
-  "ReceivedAt": "2016-07-15T03:40:46.7967663+02:00",
+  "FolderName": "Jakubowski-Lemke",
+  "EmailItemId": 161,
+  "AccountId": 852,
+  "ReceivedAt": "2015-11-08T02:30:47.2569602+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-08-19T03:40:46.7967663+02:00",
+  "RepliedAt": "2004-06-22T02:30:47.2569602+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldLength": 438
     }
   }
 }

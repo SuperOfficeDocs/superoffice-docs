@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=ut
+GET /api/v1/List/PaymentType/MDOItems?query=molestias
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Rempel-Kris",
-    "ToolTip": "Quis eaque mollitia aperiam.",
-    "Deleted": false,
-    "Rank": 42,
-    "Type": "in",
+    "Id": 18,
+    "Name": "Jacobson, Dietrich and Boyer",
+    "ToolTip": "Et fugiat.",
+    "Deleted": true,
+    "Rank": 461,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Pollich, Ankunding and Cummerata",
-        "ToolTip": "Consequatur dicta voluptatem sequi fugiat officia quas possimus.",
-        "Deleted": false,
-        "Rank": 713,
-        "Type": "incidunt",
+        "Id": 675,
+        "Name": "Towne LLC",
+        "ToolTip": "Quisquam et.",
+        "Deleted": true,
+        "Rank": 210,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 484,
-        "ExtraInfo": "odit",
-        "StyleHint": "aliquam",
-        "FullName": "Sylvester Koepp",
+        "IconHint": "voluptas",
+        "ColorBlock": 682,
+        "ExtraInfo": "natus",
+        "StyleHint": "dolorem",
+        "FullName": "Greta Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 634
+            "FieldLength": 151
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 460,
-    "ExtraInfo": "aut",
-    "StyleHint": "hic",
-    "FullName": "Mrs. Avery Ruecker",
+    "IconHint": "voluptates",
+    "ColorBlock": 67,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "debitis",
+    "FullName": "Ms. Gwen Rogahn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 203
       }
     }
   }

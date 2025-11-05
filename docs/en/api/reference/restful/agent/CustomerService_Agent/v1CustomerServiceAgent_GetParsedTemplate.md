@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 312,
-  "LanguageId": 224,
-  "PersonId": 864,
-  "TicketId": 501
+  "ReplyTemplateId": 790,
+  "LanguageId": 985,
+  "PersonId": 517,
+  "TicketId": 901
 }
 ```
 
@@ -101,36 +101,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 847,
-  "PlainParsed": "voluptatem",
-  "HtmlParsed": "inventore",
+  "ReplyTemplateId": 959,
+  "PlainParsed": "nesciunt",
+  "HtmlParsed": "architecto",
   "Attachments": [
     {
-      "AttachmentId": 112,
-      "Name": "Roob-Littel",
-      "ContentType": "beatae",
-      "AttSize": 760,
+      "AttachmentId": 533,
+      "Name": "Rosenbaum-Hahn",
+      "ContentType": "aut",
+      "AttSize": 144,
       "InlineImage": false,
-      "ContentId": "ipsam",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": true,
+      "ContentId": "rerum",
+      "AuthKey": "consequatur",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldLength": 580
         }
       }
     }
   ],
-  "Subject": "ipsa",
+  "Subject": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 454
     }
   }
 }

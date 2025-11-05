@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Mueller-Ward",
-    "ToolTip": "Placeat quia omnis repellat ad.",
-    "Deleted": true,
-    "Rank": 816,
-    "Type": "consequatur",
-    "ColorBlock": 839,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2014-11-02T03:40:56.7744799+01:00",
+    "Id": 542,
+    "Name": "Zemlak, Kulas and Windler",
+    "ToolTip": "Maiores occaecati beatae vero tenetur.",
+    "Deleted": false,
+    "Rank": 285,
+    "Type": "doloremque",
+    "ColorBlock": 806,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2009-12-24T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Streich Inc and Sons",
-        "ToolTip": "Aut reprehenderit cum nihil consectetur molestiae harum.",
+        "Id": 284,
+        "Name": "Hammes LLC",
+        "ToolTip": "Quibusdam magni quam atque.",
         "Deleted": true,
-        "Rank": 670,
-        "Type": "error",
-        "ColorBlock": 16,
-        "IconHint": "esse",
+        "Rank": 459,
+        "Type": "molestias",
+        "ColorBlock": 672,
+        "IconHint": "ad",
         "Selected": true,
-        "LastChanged": "2000-12-05T03:40:56.7744799+01:00",
+        "LastChanged": "2023-09-03T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Eunice Thiel"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Mckenzie Langosh"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "in",
+    "ExtraInfo": "ut",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Samson Emard DDS"
+    "FullName": "Leann Stroman"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Runolfsson, Berge and Effertz",
-    "ToolTip": "Voluptatem ullam sint possimus tempore doloremque eligendi.",
-    "Deleted": true,
-    "Rank": 270,
-    "Type": "labore",
-    "ColorBlock": 560,
-    "IconHint": "veritatis",
+    "Id": 344,
+    "Name": "Wyman-Raynor",
+    "ToolTip": "Perspiciatis labore doloribus non laudantium in quibusdam.",
+    "Deleted": false,
+    "Rank": 571,
+    "Type": "qui",
+    "ColorBlock": 455,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2016-07-21T03:40:56.7744799+02:00",
+    "LastChanged": "2024-02-14T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Lowe, Rolfson and Hegmann",
-        "ToolTip": "Rerum aut voluptas.",
+        "Id": 120,
+        "Name": "Spencer LLC",
+        "ToolTip": "Eos autem qui voluptas aliquam sed.",
         "Deleted": true,
-        "Rank": 896,
-        "Type": "vitae",
-        "ColorBlock": 933,
-        "IconHint": "ex",
+        "Rank": 351,
+        "Type": "aut",
+        "ColorBlock": 784,
+        "IconHint": "officia",
         "Selected": true,
-        "LastChanged": "2001-12-30T03:40:56.7744799+01:00",
+        "LastChanged": "2016-05-19T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "quo",
+        "ExtraInfo": "sed",
+        "StyleHint": "cum",
         "Hidden": true,
-        "FullName": "Miss Beryl Leffler Jr.",
+        "FullName": "Lupe Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 439
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "dolor",
+    "ExtraInfo": "nulla",
+    "StyleHint": "minima",
     "Hidden": true,
-    "FullName": "Kendra Gust Moen IV",
+    "FullName": "Santos Cheyanne Cassin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 937
+        "FieldType": "System.Int32",
+        "FieldLength": 827
       }
     }
   }

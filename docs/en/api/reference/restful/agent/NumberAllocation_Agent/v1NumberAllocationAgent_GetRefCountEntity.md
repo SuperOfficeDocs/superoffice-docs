@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=517
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=732
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -90,41 +90,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 339,
-  "Field": "magnam",
-  "RecordId": 296,
+  "RefCountsId": 714,
+  "Field": "ut",
+  "RecordId": 901,
   "SuggestedRecords": [
     {
-      "Id": 701,
-      "Name": "Hilpert, O'Hara and Koss",
-      "ToolTip": "Molestiae consequatur.",
-      "Deleted": true,
-      "Rank": 935,
-      "Type": "placeat",
+      "Id": 314,
+      "Name": "Balistreri LLC",
+      "ToolTip": "Voluptatum enim enim inventore.",
+      "Deleted": false,
+      "Rank": 174,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 780,
-      "ExtraInfo": "ad",
-      "StyleHint": "nostrum",
-      "FullName": "Jaylon Kirsten Schoen MD",
+      "IconHint": "esse",
+      "ColorBlock": 114,
+      "ExtraInfo": "voluptate",
+      "StyleHint": "in",
+      "FullName": "Adelle Beer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldType": "System.String",
+          "FieldLength": 514
         }
       }
     }
   ],
-  "CurrentValue": 986,
-  "TravelPrefix": 378,
-  "SatPrefix": 289,
-  "Allocate": false,
-  "Unique": true,
+  "CurrentValue": 855,
+  "TravelPrefix": 648,
+  "SatPrefix": 786,
+  "Allocate": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 64
     }
   }
 }

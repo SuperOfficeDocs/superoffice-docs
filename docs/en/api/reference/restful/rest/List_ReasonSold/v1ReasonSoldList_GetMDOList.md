@@ -27,8 +27,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=True
-GET /api/v1/List/ReasonSold/MDOItems?query=odit
+GET /api/v1/List/ReasonSold/MDOItems?flat=False
+GET /api/v1/List/ReasonSold/MDOItems?query=consequuntur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Hayes-Reynolds",
-    "ToolTip": "Voluptas odit illum autem autem laudantium.",
+    "Id": 898,
+    "Name": "Runolfsdottir Inc and Sons",
+    "ToolTip": "Eius rerum repellat.",
     "Deleted": true,
-    "Rank": 82,
-    "Type": "quis",
+    "Rank": 511,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Reilly, Hahn and Grady",
-        "ToolTip": "Ut autem enim voluptatem similique eligendi.",
+        "Id": 301,
+        "Name": "Herman, Jacobs and Williamson",
+        "ToolTip": "Adipisci quam eum unde ut temporibus similique aspernatur.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "dicta",
+        "Rank": 197,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 669,
-        "ExtraInfo": "quasi",
-        "StyleHint": "aspernatur",
-        "FullName": "Flossie Barton",
+        "IconHint": "sequi",
+        "ColorBlock": 323,
+        "ExtraInfo": "sequi",
+        "StyleHint": "sequi",
+        "FullName": "Dana Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldType": "System.String",
+            "FieldLength": 516
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 779,
-    "ExtraInfo": "natus",
-    "StyleHint": "itaque",
-    "FullName": "Mr. Cleo Brown",
+    "IconHint": "atque",
+    "ColorBlock": 773,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "numquam",
+    "FullName": "Adolfo Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

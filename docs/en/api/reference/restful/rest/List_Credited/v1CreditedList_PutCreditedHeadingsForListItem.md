@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Bailey-Rau",
-    "ToolTip": "Dolorem illo qui dolorem sed laborum.",
-    "Deleted": false,
-    "Rank": 938,
-    "Type": "eligendi",
-    "ColorBlock": 662,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2009-10-18T03:40:56.790106+02:00",
+    "Id": 151,
+    "Name": "Heller, Hagenes and Walsh",
+    "ToolTip": "In vel aperiam id dolor.",
+    "Deleted": true,
+    "Rank": 84,
+    "Type": "itaque",
+    "ColorBlock": 803,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2025-07-02T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Prosacco, Streich and Ward",
-        "ToolTip": "Dolorem ut.",
-        "Deleted": true,
-        "Rank": 119,
-        "Type": "provident",
-        "ColorBlock": 858,
-        "IconHint": "iure",
+        "Id": 702,
+        "Name": "Reinger, Reichert and Runolfsson",
+        "ToolTip": "Neque ut.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "quam",
+        "ColorBlock": 158,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2009-05-12T03:40:56.790106+02:00",
+        "LastChanged": "2003-05-07T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "dolore",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Amya King"
+        "FullName": "Ms. Robb Freida Littel DVM"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Prof. Jaeden Luettgen"
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Colten Vandervort"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Bayer Group",
-    "ToolTip": "Minima assumenda voluptatem.",
-    "Deleted": false,
-    "Rank": 376,
-    "Type": "et",
-    "ColorBlock": 735,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "2019-07-21T03:40:56.790106+02:00",
+    "Id": 850,
+    "Name": "Brown, Bernier and O'Hara",
+    "ToolTip": "Ducimus corporis praesentium.",
+    "Deleted": true,
+    "Rank": 294,
+    "Type": "tempore",
+    "ColorBlock": 256,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2012-09-27T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Medhurst, Feeney and Barton",
-        "ToolTip": "Accusamus recusandae ratione ut.",
-        "Deleted": true,
-        "Rank": 570,
-        "Type": "iste",
-        "ColorBlock": 159,
-        "IconHint": "voluptatem",
+        "Id": 710,
+        "Name": "Cummings Inc and Sons",
+        "ToolTip": "Quas voluptatum ut et.",
+        "Deleted": false,
+        "Rank": 404,
+        "Type": "perferendis",
+        "ColorBlock": 840,
+        "IconHint": "distinctio",
         "Selected": true,
-        "LastChanged": "2009-04-11T03:40:56.790106+02:00",
+        "LastChanged": "2021-07-25T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "rerum",
+        "ExtraInfo": "minus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Joy Walker I",
+        "FullName": "Jarred Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Kasey Greenfelder III",
+    "ExtraInfo": "et",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Miss Koby Schultz PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Kutch, Cole and Dibbert",
-  "AssociateId": 663,
-  "DetailsTable": 111,
-  "DetailsRecord": 657,
+  "Id": 612,
+  "Name": "Treutel, Gerhold and Dickinson",
+  "AssociateId": 657,
+  "DetailsTable": 116,
+  "DetailsRecord": 727,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "excepturi",
-    "ParameterObject2": "aperiam"
+    "ParameterObject1": "mollitia",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2004-07-23T03:40:46.0764548+02:00",
-  "Created": "2007-08-28T03:40:46.0764548+02:00",
-  "StartCount": 685,
-  "DatabaseSerialNumber": "832255",
-  "Context": "magnam",
-  "Result": "qui",
+  "LastStarted": "2006-09-26T02:30:46.8194719+02:00",
+  "Created": "2019-02-08T02:30:46.8194719+01:00",
+  "StartCount": 791,
+  "DatabaseSerialNumber": "1446252",
+  "Context": "reiciendis",
+  "Result": "nihil",
   "State": "All",
-  "Description": "Monitored national focus group",
-  "Response": "qui",
-  "Request": "minus",
-  "ProgressDescription": "Adaptive client-server structure",
-  "ProgressPercent": 481,
-  "FileName": "Nikolaus, Johnston and Herman",
+  "Description": "Proactive tertiary extranet",
+  "Response": "animi",
+  "Request": "soluta",
+  "ProgressDescription": "Innovative 5th generation migration",
+  "ProgressPercent": 131,
+  "FileName": "Heaney LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 982
     }
   }
 }

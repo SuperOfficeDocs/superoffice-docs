@@ -114,34 +114,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 492,
-  "Name": "Frami Inc and Sons",
-  "Tooltip": "exercitationem",
-  "SaveInDb": 306,
-  "Filename": "dolor",
-  "DefaultOref": "nulla",
+  "DocumentTemplateId": 470,
+  "Name": "Kunde-Bode",
+  "Tooltip": "aut",
+  "SaveInDb": 651,
+  "Filename": "omnis",
+  "DefaultOref": "id",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 954,
-  "IntentId": 786,
-  "IsDefaultPublished": false,
-  "Rank": 432,
-  "LoadTemplateFromPlugin": 26,
-  "MimeType": "aut",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 297,
+  "AutoeventId": 822,
+  "IntentId": 409,
+  "IsDefaultPublished": true,
+  "Rank": 329,
+  "LoadTemplateFromPlugin": 230,
+  "MimeType": "eos",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 87,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "emmy_medhurst@jones.us",
+  "EmailSubject": "delores_nitzsche@hickledaniel.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "keshawn@durgan.info",
+  "SenderEmailAddress": "antwan_mertz@ebert.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 178,
-  "Name": "Gottlieb, Ledner and Bode",
-  "Tooltip": "autem",
-  "SaveInDb": 234,
-  "Filename": "qui",
-  "DefaultOref": "libero",
+  "DocumentTemplateId": 827,
+  "Name": "Erdman-Jerde",
+  "Tooltip": "labore",
+  "SaveInDb": 396,
+  "Filename": "ad",
+  "DefaultOref": "dolorum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 202,
-  "IntentId": 615,
-  "IsDefaultPublished": true,
-  "Rank": 980,
-  "LoadTemplateFromPlugin": 553,
-  "MimeType": "aspernatur",
+  "AutoeventId": 205,
+  "IntentId": 274,
+  "IsDefaultPublished": false,
+  "Rank": 291,
+  "LoadTemplateFromPlugin": 353,
+  "MimeType": "cum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 27,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "keyon@mcdermott.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "royal@harber.ca",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sabryna.ryan@mraz.ca",
+  "SenderEmailAddress": "maximillia@wisokyzulauf.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 770
     }
   }
 }

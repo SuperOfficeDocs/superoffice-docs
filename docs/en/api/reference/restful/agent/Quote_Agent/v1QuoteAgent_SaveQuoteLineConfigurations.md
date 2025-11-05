@@ -91,14 +91,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 126,
-      "FieldName": "Leuschke, Dickens and Renner",
-      "Label": "necessitatibus",
-      "Tooltip": "quod",
+      "QuoteLineConfigurationId": 153,
+      "FieldName": "Batz Group",
+      "Label": "adipisci",
+      "Tooltip": "eos",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 2,
+      "Rank": 308,
       "RestrictEdit": false
     }
   ]
@@ -113,21 +113,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 117,
-    "FieldName": "Kunze-Hyatt",
-    "Label": "provident",
-    "Tooltip": "ut",
+    "QuoteLineConfigurationId": 173,
+    "FieldName": "Jakubowski-Abernathy",
+    "Label": "tempore",
+    "Tooltip": "neque",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": true,
-    "Rank": 582,
-    "RestrictEdit": false,
+    "InUse": false,
+    "Mandatory": false,
+    "Rank": 269,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 537
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 697,
-  "Name": "Daugherty Group",
-  "Tooltip": "ullam",
-  "SaveInDb": 639,
-  "Filename": "necessitatibus",
-  "DefaultOref": "labore",
+  "DocumentTemplateId": 617,
+  "Name": "Christiansen Group",
+  "Tooltip": "magni",
+  "SaveInDb": 782,
+  "Filename": "dignissimos",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 517,
-  "IntentId": 476,
+  "AutoeventId": 948,
+  "IntentId": 887,
   "IsDefaultPublished": true,
-  "Rank": 604,
-  "LoadTemplateFromPlugin": 484,
-  "MimeType": "eaque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 939,
+  "Rank": 839,
+  "LoadTemplateFromPlugin": 779,
+  "MimeType": "velit",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 765,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "aurelia.cummerata@gusikowski.com",
+  "EmailSubject": "hadley_price@cartwrightkunze.us",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hermina_conn@fahey.com",
+  "SenderEmailAddress": "barney@watersweimann.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldType": "System.Int32",
+      "FieldLength": 18
     }
   }
 }

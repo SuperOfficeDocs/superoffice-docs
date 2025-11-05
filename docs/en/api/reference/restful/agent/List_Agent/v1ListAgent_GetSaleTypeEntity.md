@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=947
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=163
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -101,53 +101,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 880,
-  "Name": "Reynolds-Murray",
-  "Tooltip": "sunt",
-  "Rank": 759,
+  "SaleTypeId": 895,
+  "Name": "Zulauf LLC",
+  "Tooltip": "tenetur",
+  "Rank": 978,
   "DurationUnit": "Century",
-  "SaleDuration": 835,
-  "SaleTypeCatId": 561,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 410,
+  "SaleTypeCatId": 274,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 348,
-  "QuoteLinesTemplate": 153,
-  "ConfirmationLinesTemplate": 455,
+  "DefaultQuoteValidity": 940,
+  "QuoteLinesTemplate": 541,
+  "ConfirmationLinesTemplate": 480,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 257,
-  "MinEarningPercent": 256,
-  "GroupQuoteLinesBy": 464,
-  "SortGroupLinesBy": 561,
+  "MaxDiscountPercent": 775,
+  "MinEarningPercent": 414,
+  "GroupQuoteLinesBy": 266,
+  "SortGroupLinesBy": 924,
   "Stages": [
     {
-      "Id": 248,
-      "Name": "Zulauf-Skiles",
-      "ToolTip": "Sed nemo exercitationem laudantium deserunt neque minima.",
-      "Deleted": true,
-      "Rank": 486,
-      "Type": "corporis",
-      "ColorBlock": 221,
-      "IconHint": "enim",
+      "Id": 325,
+      "Name": "Cruickshank-Cole",
+      "ToolTip": "Neque voluptas voluptatem quas quis non eum similique.",
+      "Deleted": false,
+      "Rank": 884,
+      "Type": "architecto",
+      "ColorBlock": 315,
+      "IconHint": "eveniet",
       "Selected": false,
-      "LastChanged": "2013-02-22T03:40:47.0780355+01:00",
+      "LastChanged": "2008-07-23T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "magnam",
       "Hidden": false,
-      "FullName": "Favian Koepp MD",
+      "FullName": "Mr. Davin Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldType": "System.Int32",
+          "FieldLength": 392
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

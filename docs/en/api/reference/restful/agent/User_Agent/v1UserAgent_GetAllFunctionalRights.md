@@ -110,55 +110,55 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Kuphal Group",
-    "ToolTip": "Aliquam laudantium.",
+    "Id": 900,
+    "Name": "Bartell Group",
+    "ToolTip": "Alias debitis nesciunt at.",
     "Deleted": false,
-    "Rank": 490,
-    "Type": "qui",
-    "ColorBlock": 55,
-    "IconHint": "quae",
-    "Selected": true,
-    "LastChanged": "2025-05-05T03:40:48.1723713+02:00",
+    "Rank": 662,
+    "Type": "aliquam",
+    "ColorBlock": 334,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2006-08-18T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Wunsch Group",
-        "ToolTip": "Quis voluptas perspiciatis qui fugit repellat et.",
-        "Deleted": true,
-        "Rank": 897,
-        "Type": "possimus",
-        "ColorBlock": 942,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2012-01-20T03:40:48.1723713+01:00",
+        "Id": 498,
+        "Name": "Haley, Lakin and Mohr",
+        "ToolTip": "Laudantium cumque mollitia omnis.",
+        "Deleted": false,
+        "Rank": 527,
+        "Type": "totam",
+        "ColorBlock": 604,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2003-06-27T02:30:48.0850579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "et",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Leila Koss",
+        "FullName": "Laisha Hayley Witting V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 60
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Stacey Furman Feil DDS",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Prof. Yolanda Bessie Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 470
       }
     }

@@ -95,22 +95,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 230,
-  "Name": "Wolff-O'Connell",
-  "ConsentText": "voluptates",
-  "FormText": "quis",
-  "Key": "hic",
-  "Tooltip": "eaque",
-  "Active": 644,
-  "UpdatedDate": "1998-12-24T03:40:56.743228+01:00",
+  "ConsentPurposeId": 880,
+  "Name": "Hauck Group",
+  "ConsentText": "impedit",
+  "FormText": "perspiciatis",
+  "Key": "assumenda",
+  "Tooltip": "totam",
+  "Active": 952,
+  "UpdatedDate": "2015-04-16T02:30:53.2255171+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 244,
-  "PrivacyStatementDesc": "nihil",
+  "Rank": 64,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -122,25 +122,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 400,
-  "Name": "Fahey-Berge",
-  "ConsentText": "sit",
-  "FormText": "iusto",
-  "Key": "adipisci",
-  "Tooltip": "deserunt",
-  "Active": 115,
-  "UpdatedDate": "2021-03-15T03:40:56.743228+01:00",
+  "ConsentPurposeId": 390,
+  "Name": "Kris Inc and Sons",
+  "ConsentText": "nesciunt",
+  "FormText": "occaecati",
+  "Key": "ex",
+  "Tooltip": "autem",
+  "Active": 179,
+  "UpdatedDate": "2025-05-10T02:30:53.2255171+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 688,
-  "PrivacyStatementDesc": "quos",
+  "Deleted": true,
+  "Rank": 398,
+  "PrivacyStatementDesc": "dolores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldLength": 445
     }
   }
 }

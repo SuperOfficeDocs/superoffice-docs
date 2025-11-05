@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Maggio-Morar",
-    "DisplayName": "Becker, Lind and Luettgen",
-    "DisplayTooltip": "quo",
-    "IsActive": true,
+    "Name": "Kuhlman Inc and Sons",
+    "DisplayName": "Price, Schowalter and Gulgowski",
+    "DisplayTooltip": "officiis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   },
   {
-    "Name": "Maggio-Morar",
-    "DisplayName": "Becker, Lind and Luettgen",
-    "DisplayTooltip": "quo",
-    "IsActive": true,
+    "Name": "Kuhlman Inc and Sons",
+    "DisplayName": "Price, Schowalter and Gulgowski",
+    "DisplayTooltip": "officiis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

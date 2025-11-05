@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Ondricka-Wisozk",
-  "Tooltip": "nam",
+  "Id": 841,
+  "Name": "Breitenberg-Collins",
+  "Tooltip": "quisquam",
   "Deleted": true,
-  "UdListDefinitionId": 709,
-  "Rank": 729
+  "UdListDefinitionId": 967,
+  "Rank": 509
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Bogisich, Hettinger and Simonis",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "UdListDefinitionId": 968,
-  "Rank": 104,
+  "Id": 440,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 76,
+  "Rank": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

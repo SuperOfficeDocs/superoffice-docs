@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 986,
-  "QuoteAlternativeId": 986,
-  "QuoteAlternativeName": "Haley, Jerde and Runolfsdottir"
+  "QuoteVersionId": 965,
+  "QuoteAlternativeId": 74,
+  "QuoteAlternativeName": "Brakus Group"
 }
 ```
 
@@ -117,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 165,
-  "ERPQuoteAlternativeKey": "delectus",
-  "QuoteVersionId": 724,
-  "Name": "Bartoletti, Johnson and Heller",
-  "Description": "Grass-roots cohesive throughput",
+  "QuoteAlternativeId": 498,
+  "ERPQuoteAlternativeKey": "ea",
+  "QuoteVersionId": 144,
+  "Name": "Zboncak Group",
+  "Description": "Mandatory eco-centric strategy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21342.54,
-  "ERPDiscountAmount": 14710.996,
-  "DiscountPercent": 16726.158,
-  "DiscountAmount": 24197.613999999998,
+  "ERPDiscountPercent": 8173.472,
+  "ERPDiscountAmount": 1899.204,
+  "DiscountPercent": 27701.426,
+  "DiscountAmount": 15234.374,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "minus",
-  "VAT": 29356.178,
-  "EarningPercent": 10520.838,
-  "EarningAmount": 11865.323999999999,
-  "SubTotal": 2278.418,
-  "TotalPrice": 1924.2759999999998,
-  "ExtraField1": "qui",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "odio",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "dicta",
+  "VATInfo": "aut",
+  "VAT": 12410.64,
+  "EarningPercent": 25833.561999999998,
+  "EarningAmount": 30822.89,
+  "SubTotal": 2259.614,
+  "TotalPrice": 7737.846,
+  "ExtraField1": "illo",
+  "ExtraField2": "quas",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "et",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 458
     }
   }
 }

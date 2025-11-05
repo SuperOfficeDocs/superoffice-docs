@@ -84,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 626,
-  "Name": "Herzog LLC",
-  "Tooltip": "ea",
-  "Rank": 169,
-  "Rate": 30428.005999999998,
-  "Units": 17964.088,
+  "CurrencyId": 856,
+  "Name": "Bernhard, Kovacek and Murray",
+  "Tooltip": "quos",
+  "Rank": 318,
+  "Rate": 16108.76,
+  "Units": 22561.666,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 578
     }
   }
 }

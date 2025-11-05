@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 559,
-    "Name": "Yundt, Kozey and Graham",
-    "Tooltip": "id",
+    "HeadingId": 158,
+    "Name": "Cole LLC",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 74,
-    "UdListDefinitionId": 121,
+    "Rank": 24,
+    "UdListDefinitionId": 582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

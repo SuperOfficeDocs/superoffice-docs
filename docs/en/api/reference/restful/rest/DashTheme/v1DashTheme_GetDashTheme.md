@@ -80,7 +80,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 603,
-  "Name": "Effertz Inc and Sons",
-  "Config": "quasi",
-  "Rank": 378,
-  "Client": "nostrum",
-  "Style": "et",
+  "DashboardThemeId": 490,
+  "Name": "Schmitt, Huel and Greenholt",
+  "Config": "quia",
+  "Rank": 966,
+  "Client": "quo",
+  "Style": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   },
   "_Links": {

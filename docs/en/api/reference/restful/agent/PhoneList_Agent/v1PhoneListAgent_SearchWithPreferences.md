@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ducimus",
+  "SearchString": "voluptatem",
   "Preferences": null
 }
 ```
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-575-802-1956 x5319",
-    "PersonCellPhone": "313-497-9554 x169",
-    "PersonPrivatePhone": "1-000-603-1763 x7010",
-    "PersonFaxNumber": "488578",
-    "PersonPagerNumber": "1264118",
-    "PersonEmail": "luella_pfannerstill@walker.co.uk",
-    "Id": 456,
-    "Name": "O'Conner Inc and Sons",
-    "Tooltip": "non",
-    "UniqueId": "est",
+    "PersonDirectPhone": "548.665.5133 x1811",
+    "PersonCellPhone": "(903)961-5377 x568",
+    "PersonPrivatePhone": "175-485-2882",
+    "PersonFaxNumber": "1229202",
+    "PersonPagerNumber": "1077283",
+    "PersonEmail": "barry@huelbraun.name",
+    "Id": 109,
+    "Name": "Abshire, King and Yundt",
+    "Tooltip": "qui",
+    "UniqueId": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 741
       }
     }
   }

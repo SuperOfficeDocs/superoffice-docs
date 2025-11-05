@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Yost Group",
-    "Tooltip": "nisi",
+    "Id": 140,
+    "Name": "Kling LLC",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 699,
-    "Rank": 224,
+    "UdListDefinitionId": 601,
+    "Rank": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   }

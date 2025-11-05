@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 728,
+  "TargetDimensionId": 737,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "mollitia",
-  "DimensionListName": "Romaguera-D'Amore",
-  "DimensionListId": 990,
-  "DimensionListLabel": "occaecati",
+  "DimensionListField": "dolorum",
+  "DimensionListName": "Stroman, Jenkins and Keeling",
+  "DimensionListId": 160,
+  "DimensionListLabel": "autem",
   "SelectedDimensions": [
-    836,
-    583
+    522,
+    986
   ]
 }
 ```
@@ -108,24 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 245,
+  "TargetDimensionId": 572,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quam",
-  "DimensionListName": "Dietrich-Marquardt",
-  "DimensionListId": 756,
-  "DimensionListLabel": "et",
+  "DimensionListField": "labore",
+  "DimensionListName": "Stamm-Abbott",
+  "DimensionListId": 908,
+  "DimensionListLabel": "ea",
   "SelectedDimensions": [
-    445,
-    299
+    631,
+    779
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 442
     }
   }
 }

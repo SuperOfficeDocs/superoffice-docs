@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Gaylord-Bogisich",
-    "ToolTip": "Repellendus quis et.",
+    "Id": 287,
+    "Name": "Block-Greenholt",
+    "ToolTip": "Quo non sit.",
     "Deleted": false,
-    "Rank": 560,
-    "Type": "itaque",
-    "ColorBlock": 860,
-    "IconHint": "sapiente",
+    "Rank": 741,
+    "Type": "asperiores",
+    "ColorBlock": 808,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2016-10-14T03:40:57.040226+02:00",
+    "LastChanged": "2011-05-31T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Kutch Inc and Sons",
-        "ToolTip": "Corporis error hic iste velit molestias magni.",
-        "Deleted": false,
-        "Rank": 280,
-        "Type": "vitae",
-        "ColorBlock": 647,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2006-04-28T03:40:57.040226+02:00",
+        "Id": 758,
+        "Name": "Kozey-Aufderhar",
+        "ToolTip": "Optio magni temporibus omnis perferendis fugit.",
+        "Deleted": true,
+        "Rank": 206,
+        "Type": "ratione",
+        "ColorBlock": 433,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2017-05-03T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Morris Zieme",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Tressa Lavinia Spinka DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "provident",
+    "ExtraInfo": "ratione",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Jonatan Welch",
+    "FullName": "Arch O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

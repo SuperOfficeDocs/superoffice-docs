@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=941
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=209
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -87,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 980,
+  "CustConfigId": 175,
   "Type": "Options",
-  "Config": "doloremque",
-  "CustLangId": 518,
-  "Registered": "2022-05-17T03:40:46.5468616+02:00",
-  "RegisteredAssociateId": 334,
-  "Updated": "2017-10-21T03:40:46.5468616+02:00",
-  "UpdatedAssociateId": 543,
+  "Config": "vero",
+  "CustLangId": 204,
+  "Registered": "2023-08-30T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "2012-07-01T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 443
     }
   }
 }

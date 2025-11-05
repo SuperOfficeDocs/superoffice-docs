@@ -88,41 +88,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "ut",
-  "IsoLangCode": "inventore",
-  "UserPrompt": "sint",
-  "DisplayValue": "eaque",
+  "ChatId": "quidem",
+  "IsoLangCode": "enim",
+  "UserPrompt": "nostrum",
+  "DisplayValue": "harum",
   "PreviousTurns": [
     {
-      "Timestamp": "2003-08-14T03:40:45.5762384+02:00",
-      "UserPrompt": "ipsa",
-      "UserDisplayText": "eveniet",
-      "BotResponse": "quae",
+      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "est",
+      "BotResponse": "quia",
       "BotActions": {
-        "BotActions1": "deserunt",
-        "BotActions2": "qui"
+        "BotActions1": "et",
+        "BotActions2": "ut"
       },
       "Attachments": [
-        "repudiandae",
-        "quis"
+        "nihil",
+        "velit"
       ]
     },
     {
-      "Timestamp": "2003-08-14T03:40:45.5762384+02:00",
-      "UserPrompt": "ipsa",
-      "UserDisplayText": "eveniet",
-      "BotResponse": "quae",
+      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "est",
+      "BotResponse": "quia",
       "BotActions": {
-        "BotActions1": "deserunt",
-        "BotActions2": "qui"
+        "BotActions1": "et",
+        "BotActions2": "ut"
       },
       "Attachments": [
-        "repudiandae",
-        "quis"
+        "nihil",
+        "velit"
       ]
     }
   ],
@@ -137,17 +137,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2002-12-02T03:40:45.5762384+01:00",
-  "UserPrompt": "qui",
-  "UserDisplayText": "voluptatem",
-  "BotResponse": "doloribus",
+  "Timestamp": "2005-01-29T02:30:46.4913585+01:00",
+  "UserPrompt": "veniam",
+  "UserDisplayText": "optio",
+  "BotResponse": "a",
   "BotActions": {
-    "BotActions1": "architecto",
-    "BotActions2": "sed"
+    "BotActions1": "eius",
+    "BotActions2": "veniam"
   },
   "Attachments": [
-    "exercitationem",
-    "veniam"
+    "amet",
+    "dolores"
   ]
 }
 ```

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | userDefinedFieldInfoId | int32 | **Required** The identity of the UserDefinedFieldInfo |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=922
+POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=593
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

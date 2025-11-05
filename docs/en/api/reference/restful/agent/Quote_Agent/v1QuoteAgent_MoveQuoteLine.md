@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/Quote/MoveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 358,
-  "Direction": false
+  "QuoteLineId": 879,
+  "Direction": true
 }
 ```
 

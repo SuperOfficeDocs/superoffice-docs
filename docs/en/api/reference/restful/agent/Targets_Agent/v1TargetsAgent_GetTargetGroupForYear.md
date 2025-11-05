@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 872,
+  "TargetYear": 369,
   "EntityType": "None"
 }
 ```
@@ -98,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 732,
-  "Year": 677,
+  "TargetGroupId": 44,
+  "Year": 305,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 834,
+      "TargetAssignmentInfoId": 313,
       "Values": [
-        635,
-        760
+        201,
+        175
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 565,
-      "DimensionListItemDisplayName": "Pfannerstill LLC",
+      "DimensionListItem": 41,
+      "DimensionListItemDisplayName": "Lindgren, Ziemann and Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 716
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 521,
-  "Name": "Emard LLC",
-  "ContentType": "nisi",
-  "AttSize": 565,
+  "AttachmentId": 732,
+  "Name": "Jones Inc and Sons",
+  "ContentType": "optio",
+  "AttSize": 309,
   "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "nobis",
-  "IsSafeFileExtension": false,
+  "ContentId": "odio",
+  "AuthKey": "sint",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 537
     }
   }
 }

@@ -74,15 +74,15 @@ OK
 POST /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptates",
-  "Tooltip": "voluptatem",
-  "Id": 411,
-  "Rank": 380,
-  "Deleted": false
+  "Value": "reprehenderit",
+  "Tooltip": "et",
+  "Id": 546,
+  "Rank": 52,
+  "Deleted": true
 }
 ```
 
@@ -93,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ut",
-  "Tooltip": "aspernatur",
-  "Id": 324,
-  "Rank": 199,
+  "Value": "est",
+  "Tooltip": "nobis",
+  "Id": 277,
+  "Rank": 67,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 778
     }
   }
 }

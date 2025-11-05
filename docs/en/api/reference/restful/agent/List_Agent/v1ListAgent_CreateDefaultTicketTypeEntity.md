@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 409,
-  "Name": "Stoltenberg Inc and Sons",
-  "Rank": 273,
-  "Tooltip": "est",
-  "Icon": "aut",
-  "DefaultTicketStatus": 409,
+  "TicketTypeId": 461,
+  "Name": "Huels-Bauch",
+  "Rank": 705,
+  "Tooltip": "vero",
+  "Icon": "sunt",
+  "DefaultTicketStatus": 280,
   "TicketStatuses": [
-    526,
-    596
+    179,
+    723
   ],
-  "DefaultTicketPriority": 115,
+  "DefaultTicketPriority": 678,
   "TicketPriorities": [
-    982,
-    911
+    141,
+    860
   ],
-  "ReplyTemplate": 668,
+  "ReplyTemplate": 276,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    139,
-    545
+    293,
+    348
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 341
     }
   }
 }

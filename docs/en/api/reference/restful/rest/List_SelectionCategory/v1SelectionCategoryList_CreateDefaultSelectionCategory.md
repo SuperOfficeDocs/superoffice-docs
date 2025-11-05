@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Hane, Barton and Konopelski",
-  "Tooltip": "incidunt",
+  "Id": 325,
+  "Name": "Macejkovic, Hilpert and Predovic",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "UdListDefinitionId": 8,
-  "Rank": 231,
+  "UdListDefinitionId": 99,
+  "Rank": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 736
     }
   }
 }

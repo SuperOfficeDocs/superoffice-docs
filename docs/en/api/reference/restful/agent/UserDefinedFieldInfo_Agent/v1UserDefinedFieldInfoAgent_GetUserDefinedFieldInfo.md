@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=225
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=933
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 13,
-  "ColumnId": 719,
-  "FieldDefault": "placeat",
-  "FieldHeight": 941,
-  "FieldLabel": "rerum",
-  "FieldLeft": 747,
-  "FieldTop": 168,
+  "UDefFieldId": 9,
+  "ColumnId": 154,
+  "FieldDefault": "deserunt",
+  "FieldHeight": 712,
+  "FieldLabel": "sit",
+  "FieldLeft": 100,
+  "FieldTop": 592,
   "FieldType": "Checkbox",
-  "FieldWidth": 730,
-  "FormatMask": "est",
+  "FieldWidth": 260,
+  "FormatMask": "fuga",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 169,
-  "LabelLeft": 547,
-  "LabelTop": 110,
-  "LabelWidth": 591,
-  "LastVersionId": 424,
-  "ListTableId": 344,
+  "LabelHeight": 958,
+  "LabelLeft": 827,
+  "LabelTop": 860,
+  "LabelWidth": 1000,
+  "LastVersionId": 599,
+  "ListTableId": 811,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 555,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 470,
+  "ProgId": "tempora",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 724,
-  "TextLength": 430,
-  "Tooltip": "dolores",
-  "UdefIdentity": 121,
-  "UDListDefinitionId": 987,
+  "ShortLabel": "atque",
+  "TabOrder": 690,
+  "TextLength": 419,
+  "Tooltip": "sunt",
+  "UdefIdentity": 638,
+  "UDListDefinitionId": 558,
   "Justification": "Center",
-  "Version": 715,
-  "TemplateVariableName": "Hegmann, Wyman and Champlin",
+  "Version": 277,
+  "TemplateVariableName": "Bartoletti, Swaniawski and Orn",
   "HasBeenPublished": false,
-  "MdoListName": "Cole-Borer",
+  "MdoListName": "Pagac-Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldLength": 185
     }
   }
 }

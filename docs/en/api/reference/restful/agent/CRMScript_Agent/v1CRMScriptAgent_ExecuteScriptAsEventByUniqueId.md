@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "qui",
+  "CRMScriptUniqueId": "molestiae",
   "EventData": null
 }
 ```
@@ -112,42 +112,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "facere"
+    "InputValues1": "est",
+    "InputValues2": "numquam"
   },
-  "BlockExecution": true,
-  "NavigateTo": "inventore",
+  "BlockExecution": false,
+  "NavigateTo": "sit",
   "Message": "laborum",
-  "ShowDialog": "sunt",
+  "ShowDialog": "autem",
   "OutputValues": {
-    "OutputValues1": "facere",
-    "OutputValues2": "unde"
+    "OutputValues1": "asperiores",
+    "OutputValues2": "voluptas"
   },
   "StateValues": {
-    "StateValues1": "sapiente",
-    "StateValues2": "numquam"
+    "StateValues1": "totam",
+    "StateValues2": "impedit"
   },
-  "Exception": "magnam",
+  "Exception": "minus",
   "ParserValues": {
-    "ParserValues1": "qui",
-    "ParserValues2": "provident"
+    "ParserValues1": "non",
+    "ParserValues2": "dolore"
   },
   "CgiVariables": {
-    "CgiVariables1": "pariatur",
-    "CgiVariables2": "corporis"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "ullam"
   },
-  "CgiContent": "tenetur",
+  "CgiContent": "aut",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "illo"
+    "Headers1": "sunt",
+    "Headers2": "ipsa"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2014-10-16T03:40:45.654368+02:00",
-  "EndDate": "2000-01-18T03:40:45.654368+01:00",
-  "AssociateId": 55
+  "StartDate": "2007-06-30T02:30:46.5382305+02:00",
+  "EndDate": "2016-07-05T02:30:46.5382305+02:00",
+  "AssociateId": 317
 }
 ```
 
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2001-11-06T03:40:45.654368+01:00",
+    "Date": "2014-02-01T02:30:46.5382305+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 590
       }
     }
   },
   {
-    "Date": "2001-11-06T03:40:45.654368+01:00",
+    "Date": "2014-02-01T02:30:46.5382305+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 590
       }
     }
   }

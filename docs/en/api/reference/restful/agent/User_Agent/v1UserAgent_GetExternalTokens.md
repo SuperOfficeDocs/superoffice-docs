@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut"
+  "Key": "beatae"
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "sunt",
-  "AccessToken": "reprehenderit",
-  "RefreshToken": "eos",
+  "Provider": "odit",
+  "AccessToken": "unde",
+  "RefreshToken": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 620
     }
   }
 }

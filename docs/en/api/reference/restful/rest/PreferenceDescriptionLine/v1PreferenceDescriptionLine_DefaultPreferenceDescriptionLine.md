@@ -64,7 +64,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 770,
-  "PrefDescId": 102,
-  "PrefValue": "veniam",
-  "PrefShowValue": "debitis",
-  "Description": "Innovative radical encoding",
-  "IsBuiltin": false,
+  "PrefDescLineId": 797,
+  "PrefDescId": 890,
+  "PrefValue": "et",
+  "PrefShowValue": "est",
+  "Description": "Pre-emptive static functionalities",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 412
     }
   }
 }

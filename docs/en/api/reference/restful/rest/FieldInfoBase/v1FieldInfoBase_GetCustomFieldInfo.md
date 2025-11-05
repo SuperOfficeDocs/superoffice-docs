@@ -72,7 +72,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Beer Group",
-  "DisplayName": "Mertz-Schmitt",
-  "Description": "Re-engineered zero administration capacity",
-  "ShortLabel": "incidunt",
+  "FieldName": "Howell Inc and Sons",
+  "DisplayName": "Dooley-Schuppe",
+  "Description": "Reactive interactive capacity",
+  "ShortLabel": "earum",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": false,
+  "IsReadOnly": false,
+  "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 565,
-  "TemplateVariableName": "Volkman Inc and Sons"
+  "Rank": 35,
+  "TemplateVariableName": "Kuhlman Group"
 }
 ```

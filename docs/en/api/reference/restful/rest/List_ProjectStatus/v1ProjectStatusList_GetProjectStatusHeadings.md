@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 388,
-    "Name": "Armstrong-Roberts",
-    "Tooltip": "quam",
+    "HeadingId": 812,
+    "Name": "Pollich, Hyatt and Schimmel",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 204,
-    "UdListDefinitionId": 211,
+    "Rank": 92,
+    "UdListDefinitionId": 55,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 376
       }
     }
   }

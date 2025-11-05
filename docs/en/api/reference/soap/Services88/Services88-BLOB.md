@@ -392,6 +392,20 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetRawPersonImage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRawPersonImageResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SetProjectImage">
         <xs:complexType>
           <xs:sequence>
@@ -1324,6 +1338,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetRawPersonImageRequest">
+    <wsdl:part name="parameters" element="tns:GetRawPersonImage" />
+  </wsdl:message>
+  <wsdl:message name="GetRawPersonImageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRawPersonImageResponse">
+    <wsdl:part name="parameters" element="tns:GetRawPersonImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRawPersonImageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SetProjectImageRequest">
     <wsdl:part name="parameters" element="tns:SetProjectImage" />
   </wsdl:message>
@@ -2062,6 +2093,10 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageAsStream" name="GetPersonImageAsStreamRequest" message="tns:GetPersonImageAsStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageAsStreamResponse" name="GetPersonImageAsStreamResponse" message="tns:GetPersonImageAsStreamResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetRawPersonImage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetRawPersonImage" name="GetRawPersonImageRequest" message="tns:GetRawPersonImageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetRawPersonImageResponse" name="GetRawPersonImageResponse" message="tns:GetRawPersonImageResponse" />
+    </wsdl:operation>
     <wsdl:operation name="SetProjectImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImage" name="SetProjectImageRequest" message="tns:SetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImageResponse" name="SetProjectImageResponse" message="tns:SetProjectImageResponse" />
@@ -2386,6 +2421,22 @@ content_type: reference
         <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRawPersonImage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetRawPersonImage" style="document" />
+      <wsdl:input name="GetRawPersonImageRequest">
+        <soap:header message="tns:GetRawPersonImageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetRawPersonImageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetRawPersonImageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetRawPersonImageResponse">
+        <soap:header message="tns:GetRawPersonImageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetRawPersonImageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetRawPersonImageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetRawPersonImageResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

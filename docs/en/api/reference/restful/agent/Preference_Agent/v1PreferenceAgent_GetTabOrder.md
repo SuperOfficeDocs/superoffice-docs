@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Quigley Inc and Sons"
+  "TabName": "Muller-Vandervort"
 }
 ```
 
@@ -94,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 720,
-  "TabName": "Marks, McDermott and Bednar",
-  "Order": "voluptatem",
-  "AssociateId": 181,
+  "TabOrderId": 857,
+  "TabName": "Wolff Inc and Sons",
+  "Order": "hic",
+  "AssociateId": 632,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

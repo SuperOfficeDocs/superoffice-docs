@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Vandervort LLC",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 102,
-  "IsCustomList": true,
+  "Id": 937,
+  "Name": "Ondricka-Huels",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 919,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   },
   "_Links": {

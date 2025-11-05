@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Nienow-Rodriguez",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 921,
+  "Id": 220,
+  "Name": "Schaden Inc and Sons",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "Rank": 793,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 938
     }
   },
   "_Links": {

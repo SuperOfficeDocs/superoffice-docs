@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 608
+  "TicketMessageEntityId": 713
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 923,
-    "Name": "Graham, Gerhold and Beahan",
-    "ContentType": "omnis",
-    "AttSize": 910,
+    "AttachmentId": 918,
+    "Name": "Schumm Inc and Sons",
+    "ContentType": "facilis",
+    "AttSize": 222,
     "InlineImage": false,
-    "ContentId": "nihil",
-    "AuthKey": "explicabo",
-    "IsSafeFileExtension": true,
+    "ContentId": "inventore",
+    "AuthKey": "nam",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 311
       }
     }
   }

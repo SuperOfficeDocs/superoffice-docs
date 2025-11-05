@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=163
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=968
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 475,
-  "Section": "praesentium",
-  "Key": "temporibus",
-  "Name": "Becker, Schulist and Satterfield",
+  "PrefDescId": 70,
+  "Section": "optio",
+  "Key": "quam",
+  "Name": "Kerluke-Durgan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized web-enabled help-desk",
+  "Description": "Quality-focused zero tolerance focus group",
   "IsBuiltin": true,
-  "TableName": "Sawayn-Schmidt",
-  "UserDefinedListId": 93,
-  "Rank": 793,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 477,
-  "MaxValue": 591,
-  "MinValue": 661,
-  "RequiredLicense": "ratione",
+  "TableName": "Altenwerth Group",
+  "UserDefinedListId": 717,
+  "Rank": 499,
+  "SubGroup": "officia",
+  "MinLevel": 447,
+  "MaxValue": 504,
+  "MinValue": 785,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 830
     }
   }
 }

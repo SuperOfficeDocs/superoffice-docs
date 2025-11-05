@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Armstrong LLC",
-      "Operator": "ut",
+      "Name": "Predovic LLC",
+      "Operator": "porro",
       "Values": [
-        "labore",
-        "quod"
+        "in",
+        "eius"
       ],
       "DisplayValues": [
-        "sequi",
-        "fugit"
+        "aut",
+        "quas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 97,
+      "InterParenthesis": 779,
       "InterOperator": "And",
-      "UniqueHash": 412
+      "UniqueHash": 330
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gulgowski-Eichmann",
-    "Operator": "sit",
+    "Name": "Mann, Monahan and Larkin",
+    "Operator": "ut",
     "Values": [
-      "et",
-      "labore"
+      "adipisci",
+      "aut"
     ],
     "DisplayValues": [
-      "sit",
-      "sequi"
+      "saepe",
+      "accusamus"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ledner LLC",
-        "Operator": "consequatur",
+        "Name": "Wilderman Inc and Sons",
+        "Operator": "assumenda",
         "Values": [
-          "animi",
-          "perspiciatis"
+          "omnis",
+          "ab"
         ],
         "DisplayValues": [
-          "labore",
-          "vel"
+          "porro",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 510,
+        "InterParenthesis": 553,
         "InterOperator": "And",
-        "UniqueHash": 242
+        "UniqueHash": 484
       }
     ],
-    "InterParenthesis": 711,
+    "InterParenthesis": 496,
     "InterOperator": "And",
-    "UniqueHash": 312
+    "UniqueHash": 666
   }
 ]
 ```

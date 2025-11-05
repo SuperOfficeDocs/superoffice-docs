@@ -79,8 +79,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Heidenreich-Ritchie",
-  "Password": "necessitatibus"
+  "AssociateName": "Streich, Beier and Hartmann",
+  "Password": "odio"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

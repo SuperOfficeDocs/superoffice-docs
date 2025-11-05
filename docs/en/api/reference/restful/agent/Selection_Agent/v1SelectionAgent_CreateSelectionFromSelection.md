@@ -123,10 +123,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 654,
-  "Name": "Kilback Inc and Sons",
+  "SelectionId": 132,
+  "Name": "Toy, Howe and McClure",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic systematic groupware",
-  "Postit": "minima",
+  "Description": "Centralized leading edge synergy",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 309,
-  "IncludePerson": 215,
+  "GroupIdx": 887,
+  "IncludePerson": 739,
   "MemberCount": 99.99,
-  "Name": "Stanton, Sanford and Walter",
-  "PostitTextId": 650,
-  "CreatedDate": "2009-01-15T03:40:47.7504701+01:00",
-  "SelectionId": 908,
-  "SoundEx": "id",
-  "Source": 8,
-  "TextId": 17,
-  "UpdatedDate": "2011-05-08T03:40:47.7504701+02:00",
-  "UpdatedCount": 724,
-  "Visibility": 459,
+  "Name": "Feeney LLC",
+  "PostitTextId": 692,
+  "CreatedDate": "2018-09-26T02:30:47.8350657+02:00",
+  "SelectionId": 314,
+  "SoundEx": "architecto",
+  "Source": 328,
+  "TextId": 293,
+  "UpdatedDate": "2003-02-12T02:30:47.8350657+01:00",
+  "UpdatedCount": 937,
+  "Visibility": 952,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 296,
-  "TargetTableName": "Rempel-Bins",
+  "CompanyUnique": false,
+  "TargetTableNumber": 898,
+  "TargetTableName": "Berge-Romaguera",
   "Completed": false,
-  "LeftSelectionId": 461,
-  "RightSelectionId": 44,
+  "LeftSelectionId": 778,
+  "RightSelectionId": 787,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Connelly Inc and Sons",
-  "ShadowProviderName": "Tromp Inc and Sons",
-  "ChartKey": "repudiandae",
-  "LastLoaded": "2000-05-03T03:40:47.7504701+02:00",
-  "LastLoadedBy": 445,
+  "MainProviderName": "Roob, Rodriguez and Kling",
+  "ShadowProviderName": "Howe-Rohan",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2020-07-24T02:30:47.8350657+02:00",
+  "LastLoadedBy": 93,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-11-01T03:40:47.7504701+01:00",
-  "LastMembershipChangeBy": 962,
+  "LastMembershipChange": "2015-12-29T02:30:47.8350657+01:00",
+  "LastMembershipChangeBy": 552,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "itaque",
-  "MailingsProviderName": "Zboncak-Upton",
-  "DashboardTileDefinitionId": 182,
+  "MainHeading": "debitis",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Cassin-Price",
+  "DashboardTileDefinitionId": 795,
   "VisibleFor": [
     {
-      "VisibleId": 8,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     },
     {
-      "VisibleId": 8,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

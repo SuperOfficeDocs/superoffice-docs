@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quos",
-    "Type": "nam",
-    "Description": "Open-source stable hardware",
+    "DisplayType": "eaque",
+    "Type": "placeat",
+    "Description": "Profound system-worthy success",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 597
       }
     }
   }

@@ -26,7 +26,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -124,67 +124,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 668,
+  "EjMessageId": 949,
   "Ticket": null,
-  "CreatedAt": "2015-12-15T03:40:56.3828469+01:00",
+  "CreatedAt": "2010-05-03T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "officia",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorem",
-  "TimeSpent": 929,
-  "Body": "quos",
-  "HtmlBody": "dolorum",
-  "EmailHeader": "minnie@koelpin.co.uk",
-  "DebugInfo": "perferendis",
-  "MailSorter": "reprehenderit",
+  "MessageId": "quia",
+  "TimeSpent": 1001,
+  "Body": "laudantium",
+  "HtmlBody": "id",
+  "EmailHeader": "nicholas.osinski@larson.uk",
+  "DebugInfo": "possimus",
+  "MailSorter": "repellat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquam",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 2,
-      "Name": "Kertzmann-Littel",
-      "Value": "et",
+      "Id": 631,
+      "Name": "Jones, Kovacek and Schimmel",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 2,
-      "Name": "Kertzmann-Littel",
-      "Value": "et",
+      "Id": 631,
+      "Name": "Jones, Kovacek and Schimmel",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "eaque",
-  "Sentiment": 716,
-  "SentimentConfidence": 382,
+  "Important": true,
+  "Language": "rerum",
+  "Sentiment": 180,
+  "SentimentConfidence": 510,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 464,
-      "Name": "Kshlerin Group",
-      "ContentType": "officia",
-      "AttSize": 418,
+      "AttachmentId": 540,
+      "Name": "Gutkowski, Lubowitz and Stark",
+      "ContentType": "dolorem",
+      "AttSize": 231,
       "InlineImage": false,
-      "ContentId": "nisi",
-      "AuthKey": "dignissimos",
+      "ContentId": "vitae",
+      "AuthKey": "nesciunt",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "minima",
+    "CustomFields2": "esse"
   }
 }
 ```
@@ -196,28 +196,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 778,
+  "EjMessageId": 413,
   "Ticket": null,
-  "CreatedAt": "2002-01-16T03:40:56.3828469+01:00",
+  "CreatedAt": "2000-08-14T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "eveniet",
+  "Author": "ab",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptates",
-  "TimeSpent": 711,
-  "Body": "nemo",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "coty_conn@wildermanankunding.ca",
-  "DebugInfo": "enim",
-  "MailSorter": "eligendi",
+  "MessageId": "et",
+  "TimeSpent": 484,
+  "Body": "sequi",
+  "HtmlBody": "et",
+  "EmailHeader": "reanna_damore@damore.us",
+  "DebugInfo": "quod",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "nemo",
   "MessageHeaders": [
     {
-      "Id": 972,
-      "Name": "Stoltenberg-Kerluke",
-      "Value": "recusandae",
+      "Id": 28,
+      "Name": "Walker LLC",
+      "Value": "laboriosam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 624
         }
       }
     }
   ],
   "Important": false,
-  "Language": "officia",
-  "Sentiment": 792,
-  "SentimentConfidence": 10,
+  "Language": "consequatur",
+  "Sentiment": 358,
+  "SentimentConfidence": 17,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 575,
-      "Name": "Mayert, Heathcote and Kihn",
-      "ContentType": "dolorum",
-      "AttSize": 941,
-      "InlineImage": true,
-      "ContentId": "labore",
-      "AuthKey": "et",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 139,
+      "Name": "Wyman-Dickinson",
+      "ContentType": "laboriosam",
+      "AttSize": 841,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "voluptatum",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldLength": 433
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "et"
+    "CustomFields1": "ea",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

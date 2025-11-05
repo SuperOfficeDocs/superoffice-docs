@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 76,
-    "Name": "Powlowski, Miller and Herzog",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 699,
-    "UdListDefinitionId": 455,
+    "HeadingId": 539,
+    "Name": "Bins, Metz and Fay",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 479,
+    "UdListDefinitionId": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 317
       }
     }
   }

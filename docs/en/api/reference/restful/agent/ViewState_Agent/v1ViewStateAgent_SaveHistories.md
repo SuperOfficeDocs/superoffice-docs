@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kub, Lakin and Strosin",
+  "HistoryName": "Kerluke-Zulauf",
   "History": [
     {
-      "Rank": 599,
-      "Id": 886,
-      "HistoryName": "Mante-Fisher",
-      "HistoryId": 359,
-      "AssociateId": 694,
-      "Name": "Bashirian-Hoppe",
-      "ItemInfo": "porro"
+      "Rank": 206,
+      "Id": 703,
+      "HistoryName": "Reichel-Tromp",
+      "HistoryId": 222,
+      "AssociateId": 970,
+      "Name": "Bogisich LLC",
+      "ItemInfo": "et"
     }
   ]
 }
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 951,
-    "Id": 312,
-    "HistoryName": "Welch-Thompson",
-    "HistoryId": 330,
-    "AssociateId": 403,
-    "Name": "Denesik-Kunze",
-    "ItemInfo": "facere",
+    "Rank": 36,
+    "Id": 623,
+    "HistoryName": "Gutmann-Jaskolski",
+    "HistoryId": 298,
+    "AssociateId": 331,
+    "Name": "Torp LLC",
+    "ItemInfo": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldType": "System.String",
+        "FieldLength": 383
       }
     }
   }

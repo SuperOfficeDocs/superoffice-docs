@@ -72,21 +72,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "quia",
   "Specification": null,
-  "DisplayValue": "sequi",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "quae",
+  "DisplayTooltip": "veritatis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 148,
-  "PrefDescId": 128,
-  "TableName": "Oberbrunner LLC",
-  "UserPreferenceId": 275
+  "TargetId": 407,
+  "PrefDescId": 830,
+  "TableName": "Swift, D'Amore and Trantow",
+  "UserPreferenceId": 239
 }
 ```
 

@@ -80,7 +80,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "IsoLangCode": "qui"
+  "IsoLangCode": "aut"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"nobis"
 ```

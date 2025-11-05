@@ -80,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "accusantium",
-  "PercentSmaller": 554,
-  "IsoLangCode": "mollitia"
+  "Text": "ipsum",
+  "PercentSmaller": 680,
+  "IsoLangCode": "enim"
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"fugiat"
 ```

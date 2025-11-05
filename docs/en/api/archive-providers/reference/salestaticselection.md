@@ -56,7 +56,7 @@ Static archive Provider for the Selection sale archive.
 |earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |probPercent|int|Probability as %: Probability as %| x |
-|originalStage|listAny|Stage: Displays the stage of the sale| x |
+|originalStage|listAny|Stage when closed: Stage when closed| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
 |stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -133,8 +133,10 @@ Static archive Provider for the Selection sale archive.
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -221,14 +223,14 @@ Static archive Provider for the Selection sale archive.
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
-|person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
-|person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -252,7 +254,7 @@ Static archive Provider for the Selection sale archive.
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -285,7 +287,7 @@ Static archive Provider for the Selection sale archive.
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -316,6 +318,7 @@ Static archive Provider for the Selection sale archive.
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ Static archive Provider for the Selection sale archive.
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|contact/registeredBy|associate|Registered by: The user who registered the data| x |
-|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -340,6 +343,7 @@ Static archive Provider for the Selection sale archive.
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -413,7 +417,7 @@ Static archive Provider for the Selection sale archive.
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -429,14 +433,14 @@ Static archive Provider for the Selection sale archive.
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contact/contactUdef/SuperOffice:3|int|companynumber| x |
-|contact/contactUdef/SuperOffice:4|date|companydate| x |
-|contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
-|contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
-|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:4|date|companydate| x |
+|contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
+|contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
+|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
 |contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 |contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
@@ -459,7 +463,7 @@ Static archive Provider for the Selection sale archive.
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -511,7 +515,7 @@ Static archive Provider for the Selection sale archive.
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -533,14 +537,14 @@ Static archive Provider for the Selection sale archive.
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |appointment/icon|listAny|Category: Displays the icon for an activity type| x |
-|appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|appointment/time| *None* |Time: Time|  |
-|appointment/type|listAny|Type: Displays the type of an activity| x |
-|appointment/recordType|string|Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|appointment/time| *None* |Time: Time|  |
+|appointment/type|listAny|Type: Displays the type of an activity| x |
+|appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
@@ -612,7 +616,7 @@ Static archive Provider for the Selection sale archive.
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointment/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |appointment/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointment/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -637,14 +641,14 @@ Static archive Provider for the Selection sale archive.
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
-|document/type|listAny|Type: Displays the type of an activity| x |
-|document/recordType|string|Record type : Shows the record type| x |
-|document/text|positiveString|Text: Displays a descriptive text for the item| x |
-|document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/type|listAny|Type: Displays the type of an activity| x |
+|document/recordType|string|Record type : Shows the record type| x |
+|document/text|positiveString|Text: Displays a descriptive text for the item| x |
+|document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |document/contactId|listAny|Company ID: Database ID of company| x |
 |document/personId|listAny|Contact ID: Database ID of the contact row| x |
 |document/projectId|listAny|Project ID: Database ID of project record| x |
@@ -696,7 +700,7 @@ Static archive Provider for the Selection sale archive.
 |document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|document/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -741,14 +745,14 @@ Static archive Provider for the Selection sale archive.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|project/projectPublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|project/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |project/projectEvent/eventDate|date|Event date: Event date| x |
 |project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
@@ -776,7 +780,7 @@ Static archive Provider for the Selection sale archive.
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -845,14 +849,14 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/personNoMail|bool|Stakeholder - No Mailings: Displays the contact's No Mailings checkbox| x |
 |saleStakeholder/person/rank|int|Stakeholder - Rank: Displays a contact's current rank| x |
 |saleStakeholder/person/birthdate| *None* |Stakeholder - Birthdate: Displays the contact's date of birth|  |
-|saleStakeholder/person/associateType| *None* |Stakeholder - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|saleStakeholder/person/useAsMailingAddress|bool|Stakeholder - Use as postal address: Use as postal address| x |
-|saleStakeholder/person/personSource|listAny|Stakeholder - Source: Source (Contact)| x |
-|saleStakeholder/person/retired|bool|Stakeholder - Former employee: Indicates whether the contact has retired/left the company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/associateType| *None* |Stakeholder - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|saleStakeholder/person/useAsMailingAddress|bool|Stakeholder - Use as postal address: Use as postal address| x |
+|saleStakeholder/person/personSource|listAny|Stakeholder - Source: Source (Contact)| x |
+|saleStakeholder/person/retired|bool|Stakeholder - Former employee: Indicates whether the contact has retired/left the company| x |
 |saleStakeholder/person/birthYear|int|Stakeholder - Birth year: Displays contact's birth year| x |
 |saleStakeholder/person/birthMonth|int|Stakeholder - Birth month: Displays contact's birth month| x |
 |saleStakeholder/person/birthDay|int|Stakeholder - Birth day: Displays contact's birth day (day of month)| x |
@@ -874,8 +878,10 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
 |saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group| x |
+|saleStakeholder/person/personCategoryRank|int|Stakeholder - !!Category rank| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
-|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status| x |
+|saleStakeholder/person/leadStatus|listAny|Stakeholder - Lead status| x |
+|saleStakeholder/person/leadstatusRank|int|Stakeholder - !!Lead status RANK| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
@@ -947,16 +953,16 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
 |saleStakeholder/person/personExtra/x\_person\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field that is hidden| x |
 |saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |saleStakeholder/person/personExtra/x\_person\_datetime|datetime|Stakeholder - Extra DateTime: Custom person date and time field. No default| x |
 |saleStakeholder/person/personExtra/x\_person\_time| *None* |Stakeholder - Extra time: Custom time field on person. Current time as default| x |
 |saleStakeholder/person/personExtra/x\_person\_boolean|bool|Stakeholder - Extra Boolean: Custom boolean field on person. Default checked| x |
 |saleStakeholder/person/personExtra/x\_person\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_shorttext|string|Stakeholder - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |saleStakeholder/person/personExtra/x\_person\_shorttext\_list|listAny|Stakeholder - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |saleStakeholder/person/personExtra/x\_person\_user\_relation|associate|Stakeholder - Extra user relation: Custom person-user relation field| x |
@@ -966,8 +972,8 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
 |saleStakeholder/person/personExtra/x\_person\_contact\_relation|stringorPK|Stakeholder - Extra company relation: Company relation on contact| x |
 |saleStakeholder/person/personExtra/y\_rental/id|int|Stakeholder - Rental - id: Displays the row's primary key (y\_rental)| x |
-|saleStakeholder/person/personExtra/y\_rental/x\_start|date|Stakeholder - Rental - Start rental| x |
-|saleStakeholder/person/personExtra/y\_rental/x\_end|date|Stakeholder - Rental - End| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_start|date|Stakeholder - Rental - Start rental: Start rental| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_end|date|Stakeholder - Rental - End: End| x |
 |saleStakeholder/person/personExtra/y\_rental/x\_amount|int|Stakeholder - Rental - Amount: Number to rent. Default = 1| x |
 |saleStakeholder/person/personExtra/y\_rental/x\_contact|stringorPK|Stakeholder - Rental - Renter: Company that rents equipment| x |
 |saleStakeholder/person/personExtra/y\_rental/y\_equipment/x\_name|string|Stakeholder - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -993,7 +999,7 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/personAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/personAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/personAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/personAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/personAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/personAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -1026,7 +1032,7 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/person/correspondingAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -1051,16 +1057,17 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/contact/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/contact/name|stringorPK|Stakeholder - Company name| x |
 |saleStakeholder/contact/department|string|Stakeholder - Department| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to| x |
 |saleStakeholder/contact/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
 |saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/companyCategoryRank|int|Stakeholder - Category rank| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
@@ -1081,6 +1088,7 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/contact/activeErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/contact/deletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/contact/mainContact| *None* |Stakeholder - Main contact: Main contact for this company| x |
+|saleStakeholder/contact/forceCompany|bool|Stakeholder - Dummy: Dummy|  |
 |saleStakeholder/contact/contactPhone/formattedNumber|string|Stakeholder - Telephone - Phone: Displays phone number|  |
 |saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description| x |
 |saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
@@ -1153,18 +1161,18 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/contact/contactAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
 |saleStakeholder/contact/contactAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/contact/contactAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/contact/contactAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/contact/contactAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/contact/contactAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |saleStakeholder/contact/contactAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
 |saleStakeholder/contact/contactAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 |saleStakeholder/contact/contactAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/contact/contactAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/contact/contactAssociate/personEmail|string|Stakeholder - E-mail| x |
@@ -1200,7 +1208,7 @@ Static archive Provider for the Selection sale archive.
 |saleStakeholder/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Stakeholder - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Stakeholder - Extra Request relation: Request relation on company| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_contact|stringorPK|Stakeholder - Extra contact relation: Contact relation on company| x |
-|saleStakeholder/contact/contactExtra/y\_organization/x\_name|string|Stakeholder - Organization - Name| x |
+|saleStakeholder/contact/contactExtra/y\_organization/x\_name|string|Stakeholder - Organization - Name: Name| x |
 |saleStakeholder/contact/NumberOfActivities|int|Stakeholder - Number of activities|  |
 |saleStakeholder/contact/NumberOfActivitiesInPeriod|int|Stakeholder - Number of activities in last 90 days|  |
 |saleStakeholder/contact/NumberOfNotCompletedActivities|int|Stakeholder - Number of non-completed activities|  |
@@ -1257,6 +1265,10 @@ Static archive Provider for the Selection sale archive.
 |quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
 |quote/version/alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/alternative/name|string|Name: Name of the quote alternative| x |
@@ -1265,10 +1277,6 @@ Static archive Provider for the Selection sale archive.
 |quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
 |quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
 |quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
 |quote/version/alternative/discountAmount|decimal|Discount: Enter total discount for entire alternative| x |
 |quote/version/alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
@@ -1337,7 +1345,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/personAssociate/mrMrs,person/hasStoreConsent,associate/assocTooltip,saleUdef/SuperOffice:3,project/projectUdef/SuperOffice:8
+GET /api/v1/archive/SaleStaticSelection?$select=contactId,person/personAssociate/ejStatus,person/correspondingAssociate/contactName,contact/contactAssociate/personId,contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

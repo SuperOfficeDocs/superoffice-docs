@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 972,
-  "Filter": "modi"
+  "SelectionId": 591,
+  "Filter": "voluptates"
 }
 ```
 
@@ -102,44 +102,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski-Hills",
-    "Operator": "veritatis",
+    "Name": "Rogahn-Zieme",
+    "Operator": "nesciunt",
     "Values": [
-      "laboriosam",
-      "dolorem"
+      "molestias",
+      "perferendis"
     ],
     "DisplayValues": [
-      "mollitia",
-      "commodi"
+      "maiores",
+      "sequi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Windler-Flatley",
-        "Operator": "accusantium",
+        "Name": "Senger, Eichmann and Quitzon",
+        "Operator": "ex",
         "Values": [
-          "eos",
-          "aut"
+          "et",
+          "in"
         ],
         "DisplayValues": [
-          "aliquid",
-          "ut"
+          "ratione",
+          "explicabo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 395,
+        "InterParenthesis": 968,
         "InterOperator": "And",
-        "UniqueHash": 428
+        "UniqueHash": 499
       }
     ],
-    "InterParenthesis": 695,
+    "InterParenthesis": 231,
     "InterOperator": "And",
-    "UniqueHash": 711
+    "UniqueHash": 575
   }
 ]
 ```

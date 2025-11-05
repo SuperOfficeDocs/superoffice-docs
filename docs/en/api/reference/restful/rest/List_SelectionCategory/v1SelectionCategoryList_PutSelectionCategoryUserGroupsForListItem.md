@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Pouros-Hamill",
-    "ToolTip": "Officiis beatae odit rerum sint vero laudantium.",
+    "Id": 504,
+    "Name": "Jast-Hermann",
+    "ToolTip": "Consequuntur vel mollitia.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "id",
-    "ColorBlock": 206,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2025-04-11T03:40:57.1189414+02:00",
+    "Rank": 788,
+    "Type": "repellat",
+    "ColorBlock": 164,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2013-09-17T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Johnston-Adams",
-        "ToolTip": "Dicta reprehenderit ipsum nobis veniam fugiat.",
+        "Id": 324,
+        "Name": "Franecki, Hills and Lockman",
+        "ToolTip": "Cumque aut occaecati.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "ut",
-        "ColorBlock": 660,
-        "IconHint": "aut",
+        "Rank": 215,
+        "Type": "recusandae",
+        "ColorBlock": 584,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2024-09-05T03:40:57.1189414+02:00",
+        "LastChanged": "2014-06-28T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Johanna Koch"
+        "FullName": "Dr. Wallace Fahey Jr."
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "corporis",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "praesentium",
     "Hidden": true,
-    "FullName": "Eloy Price"
+    "FullName": "Dr. Eleazar Mazie Bogisich"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Torp-Heathcote",
-    "ToolTip": "Et aperiam nisi eaque velit minus quidem.",
+    "Id": 82,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Vel veritatis odit qui accusantium vel.",
     "Deleted": false,
-    "Rank": 469,
-    "Type": "vero",
-    "ColorBlock": 565,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2003-09-21T03:40:57.1189414+02:00",
+    "Rank": 893,
+    "Type": "eum",
+    "ColorBlock": 684,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2024-01-02T02:30:53.4442597+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Bednar-Wisoky",
-        "ToolTip": "Non quia et sed.",
-        "Deleted": true,
-        "Rank": 971,
-        "Type": "deleniti",
-        "ColorBlock": 676,
-        "IconHint": "dolorum",
+        "Id": 512,
+        "Name": "Baumbach-Reinger",
+        "ToolTip": "Animi aliquam.",
+        "Deleted": false,
+        "Rank": 35,
+        "Type": "ut",
+        "ColorBlock": 953,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-10-04T03:40:57.1189414+02:00",
+        "LastChanged": "2016-09-09T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "eaque",
+        "ExtraInfo": "nobis",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Kiarra Baumbach III",
+        "FullName": "Maximillian Isaac Kilback PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Cynthia Koelpin",
+    "FullName": "Ms. Immanuel Devonte Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

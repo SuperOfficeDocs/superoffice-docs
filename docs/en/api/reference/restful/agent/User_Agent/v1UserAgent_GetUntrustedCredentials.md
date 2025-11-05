@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "expedita"
+  "Type": "est"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2012-06-30T03:40:48.2348737+02:00",
-    "ValidTo": "1999-03-17T03:40:48.2348737+01:00",
-    "Comment": "est",
-    "SecretValue": "mollitia",
-    "PublicValue": "laboriosam",
-    "IsActive": false,
+    "ValidFrom": "2011-01-25T02:30:48.1163068+01:00",
+    "ValidTo": "2007-10-29T02:30:48.1163068+01:00",
+    "Comment": "ut",
+    "SecretValue": "accusantium",
+    "PublicValue": "est",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 834
       }
     }
   }

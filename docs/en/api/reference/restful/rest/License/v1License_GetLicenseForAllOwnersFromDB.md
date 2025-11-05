@@ -59,7 +59,7 @@ OK
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "",
+    "Reason": "streamline front-end supply-chains",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 528,
-        "NumberOfLicensesFree": 339,
-        "NumberOfLicensesAdded": 305,
-        "NumberOfLicensesNewTotal": 722,
-        "NumberOfLicensesNewFree": 337,
-        "NumberOfLicensesTotal": 881
+        "NumberOfLicensesInUse": 324,
+        "NumberOfLicensesFree": 909,
+        "NumberOfLicensesAdded": 414,
+        "NumberOfLicensesNewTotal": 814,
+        "NumberOfLicensesNewFree": 460,
+        "NumberOfLicensesTotal": 116
       }
     ],
-    "AccumulatedNextCheckDate": "2002-06-09T03:40:56.4464449+02:00"
+    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
   },
   {
-    "Reason": "",
+    "Reason": "streamline front-end supply-chains",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 528,
-        "NumberOfLicensesFree": 339,
-        "NumberOfLicensesAdded": 305,
-        "NumberOfLicensesNewTotal": 722,
-        "NumberOfLicensesNewFree": 337,
-        "NumberOfLicensesTotal": 881
+        "NumberOfLicensesInUse": 324,
+        "NumberOfLicensesFree": 909,
+        "NumberOfLicensesAdded": 414,
+        "NumberOfLicensesNewTotal": 814,
+        "NumberOfLicensesNewFree": 460,
+        "NumberOfLicensesTotal": 116
       }
     ],
-    "AccumulatedNextCheckDate": "2002-06-09T03:40:56.4464449+02:00"
+    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
   }
 ]
 ```

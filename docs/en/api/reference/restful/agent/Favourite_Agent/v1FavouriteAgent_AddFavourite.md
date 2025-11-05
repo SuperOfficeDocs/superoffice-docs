@@ -70,14 +70,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feil, Langworth and Baumbach",
-  "RecordId": 674,
-  "AssociateId": 935,
-  "ExtraInfo": "maxime"
+  "TableName": "Reichert, Predovic and Prohaska",
+  "RecordId": 365,
+  "AssociateId": 593,
+  "ExtraInfo": "velit"
 }
 ```
 

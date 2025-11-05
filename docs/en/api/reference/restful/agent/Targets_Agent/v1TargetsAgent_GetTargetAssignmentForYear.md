@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 771,
+  "TargetYear": 456,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 789
+  "Id": 683
 }
 ```
 
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 270,
+  "TargetAssignmentInfoId": 535,
   "Values": [
-    867,
-    257
+    859,
+    635
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 963,
-  "DimensionListItemDisplayName": "Koepp Inc and Sons",
+  "DimensionListItem": 337,
+  "DimensionListItemDisplayName": "Franecki Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 728
     }
   }
 }

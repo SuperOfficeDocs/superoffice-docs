@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 718,
-    "DisplayName": "Kub Inc and Sons",
-    "OngoingChats": 246,
+    "UserId": 211,
+    "DisplayName": "Bode Group",
+    "OngoingChats": 982,
     "Present": false,
     "ChatTopics": [
-      846,
-      442
+      172,
+      996
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 950
       }
     }
   }

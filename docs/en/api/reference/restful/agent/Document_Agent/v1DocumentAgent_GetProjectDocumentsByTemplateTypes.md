@@ -100,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 483,
-  "StartTime": "2021-10-09T03:40:46.5936381+02:00",
-  "EndTime": "2000-05-21T03:40:46.5936381+02:00",
-  "Count": 129,
+  "ProjectId": 39,
+  "StartTime": "2004-08-25T02:30:47.0850878+02:00",
+  "EndTime": "2005-06-06T02:30:47.0850878+02:00",
+  "Count": 565,
   "DocumentTemplateIds": [
-    377,
-    195
+    750,
+    455
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 806,
-    "Attention": "eos",
-    "Header": "occaecati",
-    "Name": "Bahringer Group",
-    "OurRef": "autem",
-    "YourRef": "dolorum",
-    "Description": "Universal secondary moderator",
-    "DocumentTemplate": "consequuntur",
-    "IsPublished": false,
-    "PersonId": 415,
-    "PersonFullName": "Kayleigh Marietta Larkin Jr.",
-    "AssociateFullName": "Mrs. Ramiro Konopelski",
-    "ContactId": 236,
-    "ContactName": "Hirthe, Haley and Parker",
-    "ProjectId": 214,
-    "ProjectName": "Heathcote, Hodkiewicz and Harber",
-    "AssociateId": 133,
-    "Snum": 564,
-    "SaleId": 302,
-    "SaleName": "Koelpin Inc and Sons",
+    "DocumentId": 241,
+    "Attention": "ab",
+    "Header": "et",
+    "Name": "Hermiston-Bashirian",
+    "OurRef": "nulla",
+    "YourRef": "et",
+    "Description": "Triple-buffered dynamic solution",
+    "DocumentTemplate": "modi",
+    "IsPublished": true,
+    "PersonId": 39,
+    "PersonFullName": "Taylor Stark",
+    "AssociateFullName": "Francesco Wisozk",
+    "ContactId": 483,
+    "ContactName": "Luettgen Inc and Sons",
+    "ProjectId": 1000,
+    "ProjectName": "Wyman-Oberbrunner",
+    "AssociateId": 485,
+    "Snum": 888,
+    "SaleId": 421,
+    "SaleName": "Lakin-Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

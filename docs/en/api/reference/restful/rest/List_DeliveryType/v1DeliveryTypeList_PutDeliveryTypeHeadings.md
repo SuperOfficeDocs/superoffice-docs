@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 66,
-    "Name": "Goodwin-Oberbrunner",
-    "Tooltip": "quasi",
+    "HeadingId": 233,
+    "Name": "Schaden LLC",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "Rank": 466,
-    "UdListDefinitionId": 557
+    "Rank": 702,
+    "UdListDefinitionId": 587
   },
   {
-    "HeadingId": 66,
-    "Name": "Goodwin-Oberbrunner",
-    "Tooltip": "quasi",
+    "HeadingId": 233,
+    "Name": "Schaden LLC",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "Rank": 466,
-    "UdListDefinitionId": 557
+    "Rank": 702,
+    "UdListDefinitionId": 587
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 490,
-    "Name": "Schmitt-Friesen",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 617,
-    "UdListDefinitionId": 572,
+    "HeadingId": 269,
+    "Name": "Osinski, Kohler and Watsica",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 484,
+    "UdListDefinitionId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

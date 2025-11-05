@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Gottlieb-Bartoletti",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "UdListDefinitionId": 929,
-  "Rank": 403,
+  "Id": 706,
+  "Name": "VonRueden-Herzog",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "UdListDefinitionId": 91,
+  "Rank": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 253
     }
   }
 }

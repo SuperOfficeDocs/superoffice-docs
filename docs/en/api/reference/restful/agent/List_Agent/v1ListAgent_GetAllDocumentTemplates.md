@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 315,
-    "Name": "Raynor, Mills and Kohler",
-    "Tooltip": "saepe",
-    "SaveInDb": 570,
-    "Filename": "hic",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 589,
+    "Name": "Beahan-Treutel",
+    "Tooltip": "omnis",
+    "SaveInDb": 135,
+    "Filename": "aspernatur",
+    "DefaultOref": "natus",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 763,
-    "IntentId": 991,
+    "AutoeventId": 980,
+    "IntentId": 216,
     "IsDefaultPublished": false,
-    "Rank": 925,
-    "LoadTemplateFromPlugin": 486,
-    "MimeType": "illum",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 239,
+    "Rank": 591,
+    "LoadTemplateFromPlugin": 466,
+    "MimeType": "qui",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 911,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "merl@zieme.ca",
+    "EmailSubject": "luisa@kozeypadberg.biz",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "magali@hahn.info",
+    "SenderEmailAddress": "lisandro@kihn.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 107
       }
     }
   }

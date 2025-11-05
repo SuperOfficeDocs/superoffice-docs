@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 754
+  "ReplyTemplateId": 837
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn Inc and Sons",
-  "Description": "Exclusive heuristic secured line",
-  "OwnedByFullName": "Guiseppe Von",
-  "Updated": "2024-09-30T03:40:46.5468616+02:00",
-  "Body": "autem",
-  "IsHtml": false,
+  "Name": "Franecki-Roob",
+  "Description": "Self-enabling system-worthy functionalities",
+  "OwnedByFullName": "Niko Hoppe",
+  "Updated": "2003-12-23T02:30:47.0538389+01:00",
+  "Body": "tempora",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

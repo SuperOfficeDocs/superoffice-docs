@@ -90,19 +90,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 527,
-    "LCID": 299,
-    "EnglishName": "Wyman, Wuckert and Hartmann",
-    "NativeName": "Brown-Maggio",
-    "ThreeLetterISOLanguageName": "Cummerata, Bergnaum and Armstrong",
-    "TwoLetterISOLanguageName": "Hyatt-Johns",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 31,
+    "LCID": 454,
+    "EnglishName": "Hoeger Inc and Sons",
+    "NativeName": "Rodriguez, Rosenbaum and Turcotte",
+    "ThreeLetterISOLanguageName": "Stehr-Graham",
+    "TwoLetterISOLanguageName": "Mayer, Lindgren and Pacocha",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

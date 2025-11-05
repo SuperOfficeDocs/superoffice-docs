@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sit",
+  "UniqueIdentifier": "assumenda",
   "Crmscript": null
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "temporibus",
-  "Name": "Thompson Inc and Sons",
-  "Description": "Synchronised 5th generation intranet",
-  "IncludeId": "expedita",
-  "Source": "nihil",
-  "Registered": "1998-08-29T03:40:46.5149979+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2024-11-07T03:40:46.5149979+01:00",
-  "UpdatedBy": "eos",
-  "Path": "facere",
+  "UniqueIdentifier": "est",
+  "Name": "D'Amore, Kilback and Bergnaum",
+  "Description": "Proactive contextually-based pricing structure",
+  "IncludeId": "qui",
+  "Source": "earum",
+  "Registered": "2002-01-02T02:30:47.0382145+01:00",
+  "RegisteredBy": "quo",
+  "Updated": "2000-07-28T02:30:47.0382145+02:00",
+  "UpdatedBy": "facere",
+  "Path": "voluptatem",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 941
     }
   }
 }

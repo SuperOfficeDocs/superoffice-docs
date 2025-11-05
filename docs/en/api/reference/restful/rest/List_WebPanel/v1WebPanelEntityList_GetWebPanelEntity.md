@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,34 +94,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 227,
-  "Name": "Wehner Inc and Sons",
-  "Tooltip": "doloremque",
+  "WebPanelId": 58,
+  "Name": "Yost Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 949,
+  "Rank": 549,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Anderson Inc and Sons",
+  "WindowName": "Collier, Veum and Abernathy",
   "Url": "http://www.example.com/",
-  "ProgId": "facere",
-  "Icon": 790,
+  "ProgId": "repellendus",
+  "Icon": 137,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Kling Group",
-    "ToolTip": "Dicta aut eveniet repellendus qui voluptatum.",
+    "Id": 527,
+    "Name": "Jewess, West and Oberbrunner",
+    "ToolTip": "Occaecati commodi architecto nulla.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "esse",
-    "ColorBlock": 152,
-    "IconHint": "rerum",
+    "Rank": 640,
+    "Type": "qui",
+    "ColorBlock": 470,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2005-11-20T03:40:57.071478+01:00",
+    "LastChanged": "2024-03-21T02:30:53.4130107+01:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Purdy, Lindgren and Padberg",
-        "ToolTip": "Optio consequatur vitae et ullam.",
-        "Deleted": true,
-        "Rank": 365,
-        "Type": "enim",
-        "ColorBlock": 29,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "1999-04-02T03:40:57.071478+02:00",
+        "Id": 246,
+        "Name": "Grady-Bradtke",
+        "ToolTip": "Et officiis quod ea dignissimos.",
+        "Deleted": false,
+        "Rank": 159,
+        "Type": "sit",
+        "ColorBlock": 104,
+        "IconHint": "perferendis",
+        "Selected": false,
+        "LastChanged": "2010-11-19T02:30:53.4130107+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Humberto Reinger"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Miss Ozella Bednar"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "odio",
-    "Hidden": true,
-    "FullName": "Adah Wilkinson"
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Mr. Hailie Rowland Mante"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Reynolds, Flatley and Lehner",
-    "ToolTip": "Corporis quo.",
+    "Id": 167,
+    "Name": "Doyle LLC",
+    "ToolTip": "Suscipit sint eaque.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "inventore",
-    "ColorBlock": 950,
-    "IconHint": "provident",
+    "Rank": 374,
+    "Type": "iure",
+    "ColorBlock": 840,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2013-03-15T03:40:57.071478+01:00",
+    "LastChanged": "2009-05-04T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Roberts LLC",
-        "ToolTip": "Quae ea odio aspernatur sint rerum.",
+        "Id": 858,
+        "Name": "Beahan, Greenholt and Marquardt",
+        "ToolTip": "Impedit voluptates quam ut.",
         "Deleted": false,
-        "Rank": 155,
-        "Type": "sunt",
-        "ColorBlock": 479,
-        "IconHint": "dolor",
+        "Rank": 949,
+        "Type": "distinctio",
+        "ColorBlock": 916,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2007-09-03T03:40:57.071478+02:00",
+        "LastChanged": "2001-11-13T02:30:53.4130107+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Ottilie Veum",
+        "ExtraInfo": "hic",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Deion William Veum DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 10
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Samir Bergnaum",
+    "ExtraInfo": "nihil",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Darrel Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 231
       }
     }
   }

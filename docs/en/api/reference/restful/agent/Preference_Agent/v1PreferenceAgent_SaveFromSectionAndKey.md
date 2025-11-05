@@ -95,12 +95,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quaerat",
-  "Key": "aut",
+  "Section": "vel",
+  "Key": "quo",
   "PreferenceDescription": null
 }
 ```
@@ -112,30 +112,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 821,
-  "Section": "libero",
-  "Key": "esse",
-  "Name": "Schimmel-Cronin",
+  "PrefDescId": 148,
+  "Section": "perspiciatis",
+  "Key": "nesciunt",
+  "Name": "Marks-Dickinson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-engineered impactful task-force",
+  "Description": "Profound actuating archive",
   "IsBuiltin": false,
-  "TableName": "Sporer, Keeling and Collier",
-  "UserDefinedListId": 214,
-  "Rank": 41,
-  "SubGroup": "unde",
-  "MinLevel": 374,
-  "MaxValue": 249,
-  "MinValue": 879,
-  "RequiredLicense": "minima",
+  "TableName": "Cormier Group",
+  "UserDefinedListId": 995,
+  "Rank": 741,
+  "SubGroup": "est",
+  "MinLevel": 799,
+  "MaxValue": 729,
+  "MinValue": 537,
+  "RequiredLicense": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Blick, Satterfield and Stamm",
-    "ToolTip": "Molestias ipsam consequatur.",
+    "Id": 304,
+    "Name": "Langosh Group",
+    "ToolTip": "Rerum et sunt.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "eaque",
-    "ColorBlock": 288,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2013-01-25T03:40:56.8369839+01:00",
+    "Rank": 838,
+    "Type": "sint",
+    "ColorBlock": 504,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2008-05-02T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Bayer-Heathcote",
-        "ToolTip": "Fugiat fugiat quae eos cupiditate.",
-        "Deleted": false,
-        "Rank": 551,
-        "Type": "consequatur",
-        "ColorBlock": 432,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "2005-12-16T03:40:56.8369839+01:00",
+        "Id": 166,
+        "Name": "Jaskolski LLC",
+        "ToolTip": "Voluptatem fuga.",
+        "Deleted": true,
+        "Rank": 446,
+        "Type": "nam",
+        "ColorBlock": 781,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2020-09-27T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "non",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Ms. Hallie Vandervort Jr.",
+        "FullName": "Abbey Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "ut",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quam",
     "Hidden": true,
-    "FullName": "Dr. Liana Bart Veum I",
+    "FullName": "Miss Ewell Fahey DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 211
       }
     }
   }

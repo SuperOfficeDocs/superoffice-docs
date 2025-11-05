@@ -122,34 +122,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 57,
-  "Name": "Durgan Inc and Sons",
-  "Rank": 192,
-  "Tooltip": "ducimus",
-  "Icon": "occaecati",
-  "DefaultTicketStatus": 429,
+  "TicketTypeId": 146,
+  "Name": "Kling-Lind",
+  "Rank": 629,
+  "Tooltip": "asperiores",
+  "Icon": "fugiat",
+  "DefaultTicketStatus": 29,
   "TicketStatuses": [
-    461,
-    735
+    930,
+    467
   ],
-  "DefaultTicketPriority": 643,
+  "DefaultTicketPriority": 945,
   "TicketPriorities": [
-    610,
-    181
+    115,
+    669
   ],
-  "ReplyTemplate": 412,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 703,
+  "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    829,
-    233
+    528,
+    514
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -160,40 +160,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 207,
-  "Name": "Cartwright LLC",
-  "Rank": 861,
-  "Tooltip": "quaerat",
-  "Icon": "corrupti",
-  "DefaultTicketStatus": 213,
+  "TicketTypeId": 899,
+  "Name": "Hilll-Stracke",
+  "Rank": 104,
+  "Tooltip": "atque",
+  "Icon": "sed",
+  "DefaultTicketStatus": 218,
   "TicketStatuses": [
-    916,
-    880
+    298,
+    960
   ],
-  "DefaultTicketPriority": 837,
+  "DefaultTicketPriority": 111,
   "TicketPriorities": [
-    197,
-    113
+    250,
+    418
   ],
-  "ReplyTemplate": 477,
+  "ReplyTemplate": 754,
   "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    63,
-    267
+    122,
+    134
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   },
   "_Links": {

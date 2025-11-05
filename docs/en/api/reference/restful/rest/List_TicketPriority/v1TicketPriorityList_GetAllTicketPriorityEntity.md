@@ -28,7 +28,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -106,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 690,
-    "Name": "Ortiz Group",
+    "TicketPriorityId": 938,
+    "Name": "Breitenberg Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 623,
+    "SortOrder": 467,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 198,
-    "MonStart": "2023-02-26T03:40:57.1500758+01:00",
-    "MonStop": "2018-03-17T03:40:57.1500758+01:00",
-    "TueStart": "2019-08-08T03:40:57.1500758+02:00",
-    "TueStop": "2017-02-23T03:40:57.1500758+01:00",
-    "WedStart": "2012-12-13T03:40:57.1500758+01:00",
-    "WedStop": "2012-06-22T03:40:57.1500758+02:00",
-    "ThuStart": "1999-04-05T03:40:57.1500758+02:00",
-    "ThuStop": "2025-01-07T03:40:57.1500758+01:00",
-    "FriStart": "2022-05-27T03:40:57.1500758+02:00",
-    "FriStop": "2002-09-19T03:40:57.1500758+02:00",
-    "SatStart": "2024-04-19T03:40:57.1500758+02:00",
-    "SatStop": "2013-01-13T03:40:57.1500758+01:00",
-    "SunStart": "2022-10-06T03:40:57.1500758+02:00",
-    "SunStop": "2014-05-21T03:40:57.1500758+02:00",
+    "Deadline": 187,
+    "MonStart": "2022-11-16T02:30:53.5223788+01:00",
+    "MonStop": "2014-12-27T02:30:53.5223788+01:00",
+    "TueStart": "2003-10-13T02:30:53.5223788+02:00",
+    "TueStop": "2011-05-26T02:30:53.5223788+02:00",
+    "WedStart": "2001-03-12T02:30:53.5223788+01:00",
+    "WedStop": "2012-02-19T02:30:53.5223788+01:00",
+    "ThuStart": "2022-06-22T02:30:53.5223788+02:00",
+    "ThuStop": "2003-07-22T02:30:53.5223788+02:00",
+    "FriStart": "2008-01-08T02:30:53.5223788+01:00",
+    "FriStop": "2014-12-02T02:30:53.5223788+01:00",
+    "SatStart": "2011-02-02T02:30:53.5223788+01:00",
+    "SatStop": "2016-08-28T02:30:53.5223788+02:00",
+    "SunStart": "2024-08-28T02:30:53.5223788+02:00",
+    "SunStop": "2020-01-28T02:30:53.5223788+01:00",
     "NonDates": [
-      "ipsam",
-      "pariatur"
+      "animi",
+      "veritatis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 609,
-        "AlertLevel": 855,
-        "AlertTimeout": 659,
-        "Action": 530,
-        "DelegateTo": 62,
-        "ScriptId": 656,
-        "EmailTo": "theron_buckridge@crona.com",
-        "SmsTo": "fuga",
-        "ReplyTemplateIdCustomer": 2,
-        "ReplyTemplateIdUser": 732,
-        "ReplyTemplateIdCatmast": 159,
-        "ReplyTemplateIdEmail": 615,
-        "RtiCustomerSms": 644,
-        "ReplyTemplateIdUserSms": 280,
-        "ReplyTemplateIdCatmastSms": 161,
-        "ReplyTemplateIdSms": 536,
+        "TicketAlertId": 92,
+        "AlertLevel": 225,
+        "AlertTimeout": 733,
+        "Action": 51,
+        "DelegateTo": 453,
+        "ScriptId": 474,
+        "EmailTo": "miller@cassin.us",
+        "SmsTo": "quo",
+        "ReplyTemplateIdCustomer": 972,
+        "ReplyTemplateIdUser": 818,
+        "ReplyTemplateIdCatmast": 53,
+        "ReplyTemplateIdEmail": 527,
+        "RtiCustomerSms": 419,
+        "ReplyTemplateIdUserSms": 514,
+        "ReplyTemplateIdCatmastSms": 670,
+        "ReplyTemplateIdSms": 929,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 915
+            "FieldLength": 983
           }
         }
       }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 722
       }
     }
   }

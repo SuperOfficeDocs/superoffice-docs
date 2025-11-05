@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Ritchie, Skiles and Gibson",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "UdListDefinitionId": 922,
-    "Rank": 164
+    "Id": 883,
+    "Name": "Feeney Inc and Sons",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "UdListDefinitionId": 976,
+    "Rank": 479
   },
   {
-    "Id": 439,
-    "Name": "Ritchie, Skiles and Gibson",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "UdListDefinitionId": 922,
-    "Rank": 164
+    "Id": 883,
+    "Name": "Feeney Inc and Sons",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "UdListDefinitionId": 976,
+    "Rank": 479
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Hermann-Gerhold",
-    "Tooltip": "ut",
+    "Id": 211,
+    "Name": "Haley-Lynch",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "UdListDefinitionId": 365,
-    "Rank": 605,
+    "UdListDefinitionId": 578,
+    "Rank": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 584
       }
     }
   }

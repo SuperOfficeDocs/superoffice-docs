@@ -74,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Maggio-Schultz",
-  "StorageKey": "saepe",
-  "Restrictions": "sit"
+  "StorageType": "aliquam",
+  "ProviderName": "Gutmann Inc and Sons",
+  "StorageKey": "ea",
+  "Restrictions": "enim"
 }
 ```
 

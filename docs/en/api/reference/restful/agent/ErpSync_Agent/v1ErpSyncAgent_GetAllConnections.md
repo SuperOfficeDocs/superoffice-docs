@@ -107,33 +107,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 906,
-    "ErpConnectorId": 662,
-    "DisplayName": "Gulgowski-Stamm",
-    "DisplayDescription": "Robust empowering Graphic Interface",
-    "Active": true,
-    "ConnectionId": "ut",
-    "MostRecentTimestamp": "non",
+    "ErpConnectionId": 993,
+    "ErpConnectorId": 685,
+    "DisplayName": "Blick LLC",
+    "DisplayDescription": "Virtual transitional leverage",
+    "Active": false,
+    "ConnectionId": "nulla",
+    "MostRecentTimestamp": "laudantium",
     "ConfigFields": {
-      "ConfigFields1": "itaque",
-      "ConfigFields2": "illum"
+      "ConfigFields1": "assumenda",
+      "ConfigFields2": "ut"
     },
     "Deleted": false,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      576,
-      595
+      363,
+      648
     ],
     "AssociateAccessIds": [
-      474,
-      982
+      292,
+      244
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 752
       }
     }
   }

@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=eligendi
+GET /api/v1/List/Source/MDOItems?query=dolore
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Predovic Group",
-    "ToolTip": "Deleniti sed aliquid.",
+    "Id": 167,
+    "Name": "Hane-Nader",
+    "ToolTip": "Sequi ad placeat blanditiis recusandae sequi tempora autem.",
     "Deleted": false,
-    "Rank": 643,
-    "Type": "maxime",
+    "Rank": 130,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Willms Inc and Sons",
-        "ToolTip": "Reiciendis vel iusto veritatis.",
-        "Deleted": false,
-        "Rank": 97,
-        "Type": "non",
+        "Id": 69,
+        "Name": "Borer-Gulgowski",
+        "ToolTip": "Culpa assumenda.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "possimus",
-        "ColorBlock": 826,
-        "ExtraInfo": "qui",
-        "StyleHint": "consequatur",
-        "FullName": "Milo Schumm",
+        "IconHint": "amet",
+        "ColorBlock": 325,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "explicabo",
+        "FullName": "Mrs. Andrew Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 342
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 691,
-    "ExtraInfo": "amet",
-    "StyleHint": "sit",
-    "FullName": "Cynthia Murray",
+    "IconHint": "ut",
+    "ColorBlock": 855,
+    "ExtraInfo": "nisi",
+    "StyleHint": "excepturi",
+    "FullName": "Tremayne Mueller II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   }

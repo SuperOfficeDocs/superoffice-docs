@@ -96,36 +96,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 739,
+  "HierarchyId": 716,
   "Domain": "Dashboards",
-  "Name": "VonRueden-Boehm",
-  "Fullname": "sunt",
-  "ParentId": 449,
+  "Name": "Frami-Kunde",
+  "Fullname": "perferendis",
+  "ParentId": 611,
   "Children": [
     {
-      "HierarchyId": 463,
+      "HierarchyId": 888,
       "Domain": "Dashboards",
-      "Name": "Adams-Kulas",
-      "Fullname": "laudantium",
-      "ParentId": 611,
+      "Name": "Smith-Simonis",
+      "Fullname": "et",
+      "ParentId": 844,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2025-03-26T03:40:55.7886484+01:00",
-      "RegisteredAssociateId": 76,
-      "Updated": "2008-12-26T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 97
+      "Registered": "2025-01-18T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 747,
+      "Updated": "2019-03-13T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 366
     }
   ],
-  "Registered": "2020-09-23T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 57,
-  "Updated": "2005-07-20T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 894
+  "Registered": "2005-10-31T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 921,
+  "Updated": "2013-05-07T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 362
 }
 ```
 
@@ -136,46 +136,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 10,
+  "HierarchyId": 157,
   "Domain": "Dashboards",
-  "Name": "Lind-Kshlerin",
-  "Fullname": "quidem",
-  "ParentId": 959,
+  "Name": "Crooks-Durgan",
+  "Fullname": "officiis",
+  "ParentId": 315,
   "Children": [
     {
-      "HierarchyId": 973,
+      "HierarchyId": 103,
       "Domain": "Dashboards",
-      "Name": "Green Inc and Sons",
-      "Fullname": "sed",
-      "ParentId": 936,
+      "Name": "Dare, McCullough and Rippin",
+      "Fullname": "veniam",
+      "ParentId": 280,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-11-30T03:40:55.7886484+01:00",
-      "RegisteredAssociateId": 339,
-      "Updated": "2001-01-10T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 123,
+      "Registered": "2011-04-01T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 283,
+      "Updated": "2023-08-09T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 50,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 462
         }
       }
     }
   ],
-  "Registered": "2001-05-28T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 339,
-  "Updated": "2016-02-21T03:40:55.7886484+01:00",
-  "UpdatedAssociateId": 684,
+  "Registered": "2002-12-29T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 622,
+  "Updated": "2025-05-26T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 407
     }
   },
   "_Links": {

@@ -107,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 586,
-  "Name": "Boyer Group",
-  "Tooltip": "aspernatur",
+  "RoleId": 331,
+  "Name": "Runolfsson, Feeney and Schoen",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 29,
-  "Rank": 966,
-  "Created": "2004-06-01T03:40:56.0699234+02:00",
-  "UseCategories": 948,
+  "Deleted": 397,
+  "Rank": 893,
+  "Created": "2025-02-25T02:30:52.8349052+01:00",
+  "UseCategories": 598,
   "CreatedBy": null,
-  "Updated": "2000-07-15T03:40:56.0699234+02:00",
+  "Updated": "2016-06-01T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 812,
-  "Name": "Gislason, Considine and Murazik",
-  "Tooltip": "amet",
+  "RoleId": 205,
+  "Name": "Waters, Hauck and Mayert",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 427,
-  "Rank": 712,
-  "Created": "2016-10-16T03:40:56.0699234+02:00",
-  "UseCategories": 416,
+  "Deleted": 955,
+  "Rank": 433,
+  "Created": "2011-12-15T02:30:52.8349052+01:00",
+  "UseCategories": 451,
   "CreatedBy": null,
-  "Updated": "2005-03-29T03:40:56.0699234+02:00",
+  "Updated": "2019-05-13T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 70
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

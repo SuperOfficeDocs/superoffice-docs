@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fay Group"
+  "Name": "Kilback-Romaguera"
 }
 ```
 
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "Name": "Leuschke, Gerhold and Wiza",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 646,
+  "Id": 864,
+  "Name": "Jerde, Kihn and Walsh",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 32,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 590
     }
   }
 }

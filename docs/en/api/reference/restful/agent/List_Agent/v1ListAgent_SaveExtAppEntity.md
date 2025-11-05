@@ -108,32 +108,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 170,
-  "Name": "Rosenbaum-Treutel",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 732,
-  "Filename": "error",
+  "ExtAppId": 920,
+  "Name": "Mills, Kunze and Robel",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 975,
+  "Filename": "et",
   "Parameters": "velit",
-  "Workdir": "dignissimos",
+  "Workdir": "blanditiis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 466,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 464,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "est"
+  "Path": "eos"
 }
 ```
 
@@ -144,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 524,
-  "Name": "Kozey, Roberts and Greenfelder",
-  "Tooltip": "sed",
+  "ExtAppId": 763,
+  "Name": "Greenholt LLC",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 694,
-  "Filename": "est",
-  "Parameters": "eos",
-  "Workdir": "omnis",
+  "Rank": 357,
+  "Filename": "quidem",
+  "Parameters": "officiis",
+  "Workdir": "in",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 249,
+  "ShowInStatusBar": false,
+  "Icon": 643,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "blanditiis",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

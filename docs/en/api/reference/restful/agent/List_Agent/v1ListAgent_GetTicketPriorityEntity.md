@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=488
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=445
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -107,60 +107,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 308,
-  "Name": "Medhurst-Goodwin",
+  "TicketPriorityId": 243,
+  "Name": "Muller LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 506,
+  "SortOrder": 571,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 203,
-  "MonStart": "2017-12-31T03:40:47.0311652+01:00",
-  "MonStop": "2022-06-02T03:40:47.0311652+02:00",
-  "TueStart": "2007-10-10T03:40:47.0311652+02:00",
-  "TueStop": "2011-02-14T03:40:47.0311652+01:00",
-  "WedStart": "2002-08-25T03:40:47.0311652+02:00",
-  "WedStop": "2009-09-12T03:40:47.0311652+02:00",
-  "ThuStart": "2008-09-25T03:40:47.0311652+02:00",
-  "ThuStop": "1999-05-22T03:40:47.0311652+02:00",
-  "FriStart": "2003-01-21T03:40:47.0311652+01:00",
-  "FriStop": "2016-04-25T03:40:47.0311652+02:00",
-  "SatStart": "2022-08-21T03:40:47.0311652+02:00",
-  "SatStop": "2007-07-23T03:40:47.0311652+02:00",
-  "SunStart": "2018-01-22T03:40:47.0311652+01:00",
-  "SunStop": "2010-12-13T03:40:47.0311652+01:00",
+  "Deadline": 987,
+  "MonStart": "2004-06-25T02:30:47.3819557+02:00",
+  "MonStop": "2015-07-02T02:30:47.3819557+02:00",
+  "TueStart": "2018-06-04T02:30:47.3819557+02:00",
+  "TueStop": "2001-02-18T02:30:47.3819557+01:00",
+  "WedStart": "1998-10-24T02:30:47.3819557+02:00",
+  "WedStop": "2015-04-14T02:30:47.3819557+02:00",
+  "ThuStart": "2018-06-05T02:30:47.3819557+02:00",
+  "ThuStop": "2000-10-19T02:30:47.3819557+02:00",
+  "FriStart": "2004-02-26T02:30:47.3819557+01:00",
+  "FriStop": "2021-01-11T02:30:47.3819557+01:00",
+  "SatStart": "2008-10-22T02:30:47.3819557+02:00",
+  "SatStop": "2019-03-06T02:30:47.3819557+01:00",
+  "SunStart": "2004-03-10T02:30:47.3819557+01:00",
+  "SunStop": "2012-04-01T02:30:47.3819557+02:00",
   "NonDates": [
-    "accusamus",
-    "nesciunt"
+    "debitis",
+    "repudiandae"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 733,
-      "AlertLevel": 533,
-      "AlertTimeout": 229,
-      "Action": 590,
-      "DelegateTo": 38,
-      "ScriptId": 92,
-      "EmailTo": "freddie.tillman@rath.info",
-      "SmsTo": "libero",
-      "ReplyTemplateIdCustomer": 276,
-      "ReplyTemplateIdUser": 704,
-      "ReplyTemplateIdCatmast": 467,
-      "ReplyTemplateIdEmail": 600,
-      "RtiCustomerSms": 727,
-      "ReplyTemplateIdUserSms": 547,
-      "ReplyTemplateIdCatmastSms": 861,
-      "ReplyTemplateIdSms": 557,
+      "TicketAlertId": 602,
+      "AlertLevel": 70,
+      "AlertTimeout": 305,
+      "Action": 506,
+      "DelegateTo": 301,
+      "ScriptId": 530,
+      "EmailTo": "lia_morar@mcdermott.com",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 608,
+      "ReplyTemplateIdUser": 492,
+      "ReplyTemplateIdCatmast": 331,
+      "ReplyTemplateIdEmail": 779,
+      "RtiCustomerSms": 403,
+      "ReplyTemplateIdUserSms": 837,
+      "ReplyTemplateIdCatmastSms": 118,
+      "ReplyTemplateIdSms": 821,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 76
     }
   }
 }

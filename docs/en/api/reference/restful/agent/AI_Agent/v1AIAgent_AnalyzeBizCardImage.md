@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/AI/AnalyzeBizCardImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Image": "GIF89....File contents as raw bytes...",
-  "MergeWithDatabase": true
+  "MergeWithDatabase": false
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "accusamus",
-  "PhotoImage": "magnam"
+  "LogoImage": "laboriosam",
+  "PhotoImage": "et"
 }
 ```

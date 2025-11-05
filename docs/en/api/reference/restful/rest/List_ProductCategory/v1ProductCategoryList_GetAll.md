@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Lemke, Kirlin and Purdy",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "UdListDefinitionId": 997,
-    "Rank": 110,
+    "Id": 103,
+    "Name": "Bosco-Wuckert",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "UdListDefinitionId": 260,
+    "Rank": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

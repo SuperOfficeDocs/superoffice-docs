@@ -76,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 364,
+  "TargetDimensionId": 655,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "enim",
-  "DimensionListName": "Labadie, Reilly and Hayes",
-  "DimensionListId": 134,
-  "DimensionListLabel": "sunt",
+  "DimensionListField": "corrupti",
+  "DimensionListName": "Schulist, Kemmer and Daugherty",
+  "DimensionListId": 405,
+  "DimensionListLabel": "nihil",
   "SelectedDimensions": [
-    803,
-    608
+    849,
+    575
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

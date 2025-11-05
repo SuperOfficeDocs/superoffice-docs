@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Wisozk Inc and Sons",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "UdListDefinitionId": 708,
-  "Rank": 830
+  "Id": 768,
+  "Name": "McClure Group",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 23,
+  "Rank": 894
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Nicolas Inc and Sons",
-  "Tooltip": "impedit",
+  "Id": 345,
+  "Name": "Schuppe, Wiza and Jast",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 570,
-  "Rank": 680,
+  "UdListDefinitionId": 329,
+  "Rank": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 453
     }
   }
 }

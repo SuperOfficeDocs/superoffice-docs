@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "VonRueden, Boyer and Brown",
-    "Tooltip": "neque",
+    "Id": 155,
+    "Name": "Morar, Ruecker and Mayert",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 318,
-    "Rank": 151
+    "UdListDefinitionId": 922,
+    "Rank": 833
   },
   {
-    "Id": 350,
-    "Name": "VonRueden, Boyer and Brown",
-    "Tooltip": "neque",
+    "Id": 155,
+    "Name": "Morar, Ruecker and Mayert",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 318,
-    "Rank": 151
+    "UdListDefinitionId": 922,
+    "Rank": 833
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "UdListDefinitionId": 766,
-    "Rank": 568,
+    "Id": 830,
+    "Name": "Zulauf, Russel and Zieme",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "UdListDefinitionId": 664,
+    "Rank": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

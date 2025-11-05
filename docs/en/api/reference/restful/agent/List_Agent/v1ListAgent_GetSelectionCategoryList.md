@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetSelectionCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Value": "error",
-    "Tooltip": "quaerat",
+    "Id": 782,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 167
       }
     }
   },
   {
-    "Id": 305,
-    "Value": "error",
-    "Tooltip": "quaerat",
+    "Id": 782,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 167
       }
     }
   }

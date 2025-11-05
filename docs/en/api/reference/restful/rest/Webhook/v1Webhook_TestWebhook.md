@@ -80,32 +80,32 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 174,
-  "Name": "Senger Inc and Sons",
+  "WebhookId": 345,
+  "Name": "Goyette Group",
   "Events": [
-    "occaecati",
-    "quia"
+    "non",
+    "consectetur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "ut",
   "State": "Active",
-  "Type": "ea",
+  "Type": "blanditiis",
   "Headers": {
-    "Headers1": "recusandae",
-    "Headers2": "voluptatibus"
+    "Headers1": "ad",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-04-08T03:40:56.6650985+02:00",
+  "Registered": "2025-02-20T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-06-22T03:40:56.6650985+02:00",
+  "Updated": "2024-03-05T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "angel@haag.us"
+  "ErrorsEmail": "alan_orn@simonis.info"
 }
 ```
 
@@ -117,13 +117,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "delectus",
+  "Message": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldType": "System.Int32",
+      "FieldLength": 127
     }
   }
 }

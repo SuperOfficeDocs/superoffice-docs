@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Ferry, Buckridge and Nienow",
-    "Tooltip": "laboriosam",
+    "Id": 791,
+    "Name": "Spinka-Huels",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 818,
-    "Rank": 216
+    "UdListDefinitionId": 242,
+    "Rank": 227
   },
   {
-    "Id": 239,
-    "Name": "Ferry, Buckridge and Nienow",
-    "Tooltip": "laboriosam",
+    "Id": 791,
+    "Name": "Spinka-Huels",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 818,
-    "Rank": 216
+    "UdListDefinitionId": 242,
+    "Rank": 227
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Runolfsdottir Inc and Sons",
-    "Tooltip": "quod",
+    "Id": 689,
+    "Name": "Roberts Group",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "UdListDefinitionId": 142,
-    "Rank": 528,
+    "UdListDefinitionId": 755,
+    "Rank": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldLength": 525
       }
     }
   }

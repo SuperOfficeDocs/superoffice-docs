@@ -79,7 +79,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 6,
-    "Tooltip": "veritatis",
+    "Total": 384,
+    "Tooltip": "excepturi",
     "CanAssign": true,
-    "Free": 331,
-    "InUse": 553,
+    "Free": 467,
+    "InUse": 854,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 858,
-    "Name": "Haag LLC",
-    "Description": "Multi-layered dynamic help-desk",
-    "PrerequisiteModuleName": "McKenzie, Crooks and Breitenberg",
-    "SortOrder": 861,
-    "ExtraFlags": 823,
+    "Assigned": false,
+    "ModuleLicenseId": 517,
+    "Name": "Connelly LLC",
+    "Description": "Streamlined executive matrix",
+    "PrerequisiteModuleName": "Purdy Inc and Sons",
+    "SortOrder": 694,
+    "ExtraFlags": 883,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 594
       }
     }
   }

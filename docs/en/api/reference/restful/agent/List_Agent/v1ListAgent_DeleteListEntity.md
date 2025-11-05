@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | listEntityId | int32 | **Required** The identity of the ListEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteListEntity?listEntityId=113
+POST /api/v1/Agents/List/DeleteListEntity?listEntityId=970
 ```
 
 

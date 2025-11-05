@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Considine, Douglas and Huel",
-    "Tooltip": "accusantium",
+    "Id": 907,
+    "Name": "Buckridge-Orn",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "UdListDefinitionId": 257,
-    "Rank": 250,
+    "UdListDefinitionId": 69,
+    "Rank": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

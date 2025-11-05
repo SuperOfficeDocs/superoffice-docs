@@ -113,7 +113,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 763
+  "ProductId": 961
 }
 ```
 
@@ -124,73 +124,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 727,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "aut",
-  "Name": "Boehm Inc and Sons",
-  "Description": "Total disintermediate contingency",
-  "Code": "nesciunt",
-  "PriceUnit": "repellat",
-  "QuantityUnit": "quibusdam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nesciunt",
-  "DefaultSubscriptionQuantity": 30954.518,
-  "ItemNumber": "1619451",
+  "ProductId": 792,
+  "ERPProductKey": "minus",
+  "ERPPriceListKey": "culpa",
+  "Name": "Pagac-Schuppe",
+  "Description": "Mandatory zero defect workforce",
+  "Code": "eos",
+  "PriceUnit": "dolore",
+  "QuantityUnit": "ratione",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quidem",
+  "DefaultSubscriptionQuantity": 8242.42,
+  "ItemNumber": "1914753",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nobis",
-  "ProductTypeKey": "laborum",
-  "VAT": 15109.014,
-  "VATInfo": "ipsum",
-  "UnitCost": 12974.76,
-  "UnitMinimumPrice": 3416.06,
-  "UnitListPrice": 3544.554,
+  "ProductFamilyKey": "delectus",
+  "ProductTypeKey": "vero",
+  "VAT": 10884.382,
+  "VATInfo": "odio",
+  "UnitCost": 11956.21,
+  "UnitMinimumPrice": 30948.25,
+  "UnitListPrice": 22737.17,
   "InAssortment": false,
-  "Supplier": "expedita",
-  "SupplierCode": "perspiciatis",
-  "Rights": "doloribus",
-  "Rule": "dignissimos",
+  "Supplier": "autem",
+  "SupplierCode": "aut",
+  "Rights": "officiis",
+  "Rule": "ea",
   "ExtraInfo": [
     {
-      "Name": "Parker-Heaney",
-      "Value": "distinctio",
+      "Name": "Metz, Kub and Spencer",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 933
         }
       }
     },
     {
-      "Name": "Parker-Heaney",
-      "Value": "distinctio",
+      "Name": "Metz, Kub and Spencer",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 933
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "quia",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "illo",
-  "ExtraField4": "sunt",
-  "ExtraField5": "vitae",
-  "InStock": 23950.028,
+  "RawExtraInfo": "est",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "qui",
+  "ExtraField4": "veniam",
+  "ExtraField5": "aut",
+  "InStock": 28676.1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

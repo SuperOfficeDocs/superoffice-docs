@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Gerhold, Wuckert and Predovic",
-    "ToolTip": "Consequatur ipsum et blanditiis aut ex maiores vel.",
-    "Deleted": false,
-    "Rank": 693,
-    "Type": "dolores",
-    "ColorBlock": 896,
-    "IconHint": "consequatur",
+    "Id": 689,
+    "Name": "Ondricka Inc and Sons",
+    "ToolTip": "Vel enim dolor minima perferendis itaque.",
+    "Deleted": true,
+    "Rank": 221,
+    "Type": "voluptates",
+    "ColorBlock": 103,
+    "IconHint": "cupiditate",
     "Selected": true,
-    "LastChanged": "1998-06-17T03:40:57.0089742+02:00",
+    "LastChanged": "2021-05-30T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Wilderman-Orn",
-        "ToolTip": "Amet voluptas sint omnis officia qui vitae.",
-        "Deleted": true,
-        "Rank": 783,
-        "Type": "est",
-        "ColorBlock": 23,
-        "IconHint": "corporis",
+        "Id": 860,
+        "Name": "Graham-Abernathy",
+        "ToolTip": "Soluta velit.",
+        "Deleted": false,
+        "Rank": 218,
+        "Type": "dolor",
+        "ColorBlock": 288,
+        "IconHint": "expedita",
         "Selected": true,
-        "LastChanged": "2004-10-22T03:40:57.0089742+02:00",
+        "LastChanged": "2020-02-26T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Abigayle Lakin",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Prince Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 698
+            "FieldLength": 828
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Ms. Mathias Carroll",
+    "ExtraInfo": "fuga",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Arvilla Alfonzo McLaughlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

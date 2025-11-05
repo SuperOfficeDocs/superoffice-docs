@@ -100,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 383,
-  "StartTime": "2001-03-11T03:40:46.7498885+01:00",
-  "EndTime": "2006-07-01T03:40:46.7498885+02:00",
-  "Count": 936,
+  "ContactId": 881,
+  "StartTime": "2009-06-25T02:30:47.2257111+02:00",
+  "EndTime": "2006-12-20T02:30:47.2257111+01:00",
+  "Count": 835,
   "DocumentTemplateIds": [
-    130,
-    343
+    2,
+    897
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 825,
-    "Attention": "mollitia",
-    "Header": "commodi",
-    "Name": "Kling-Ondricka",
-    "OurRef": "explicabo",
-    "YourRef": "optio",
-    "Description": "Reverse-engineered fresh-thinking time-frame",
-    "DocumentTemplate": "voluptatem",
+    "DocumentId": 89,
+    "Attention": "dignissimos",
+    "Header": "atque",
+    "Name": "Kunde, Christiansen and Rohan",
+    "OurRef": "maiores",
+    "YourRef": "saepe",
+    "Description": "Programmable cohesive benchmark",
+    "DocumentTemplate": "architecto",
     "IsPublished": true,
-    "PersonId": 198,
-    "PersonFullName": "Marge Raynor",
-    "AssociateFullName": "Maybell Nader",
-    "ContactId": 192,
-    "ContactName": "Kuhn Inc and Sons",
-    "ProjectId": 672,
-    "ProjectName": "Reichert, Harvey and Homenick",
-    "AssociateId": 462,
-    "Snum": 391,
-    "SaleId": 453,
-    "SaleName": "Schuster LLC",
+    "PersonId": 285,
+    "PersonFullName": "Ada Balistreri",
+    "AssociateFullName": "Kyle Kautzer",
+    "ContactId": 458,
+    "ContactName": "Cremin Group",
+    "ProjectId": 2,
+    "ProjectName": "Stehr-Kuhn",
+    "AssociateId": 743,
+    "Snum": 817,
+    "SaleId": 116,
+    "SaleName": "Rohan, Donnelly and Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldType": "System.Int32",
+        "FieldLength": 588
       }
     }
   }

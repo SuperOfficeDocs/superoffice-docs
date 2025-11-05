@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "repellendus"
+  "Script": "qui"
 }
 ```
 
@@ -101,31 +101,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "accusantium",
-  "LineNumber": 682,
+  "Valid": false,
+  "ErrorMessage": "repellat",
+  "LineNumber": 624,
   "ErrorInformation": null,
-  "Transpiled": "eum",
+  "Transpiled": "aut",
   "Includes": [
-    354,
-    986
+    676,
+    223
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 96,
-      "LineNumberTo": 129,
-      "Delta": 257,
-      "IncludeId": "enim",
+      "LineNumberFrom": 244,
+      "LineNumberTo": 178,
+      "Delta": 689,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "voluptates",
-        "non"
+        "quae",
+        "odit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 473
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

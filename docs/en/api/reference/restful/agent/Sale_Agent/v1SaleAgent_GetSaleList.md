@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,37 +108,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bradtke LLC",
-    "SaleDate": "2010-07-15T03:40:47.6567146+02:00",
-    "SaleId": 413,
-    "Probability": 149,
-    "Title": "molestiae",
-    "Amount": 2663.9,
-    "Currency": "magnam",
-    "ProjectName": "Waters-Effertz",
-    "AssociateFullName": "Scarlett Schuppe",
-    "Description": "Open-source composite utilisation",
+    "ContactName": "Barrows, Simonis and Homenick",
+    "SaleDate": "2014-05-23T02:30:47.7881925+02:00",
+    "SaleId": 339,
+    "Probability": 581,
+    "Title": "officiis",
+    "Amount": 17312.216,
+    "Currency": "tempore",
+    "ProjectName": "Robel-Schaefer",
+    "AssociateFullName": "Eliza Velva Johnson II",
+    "Description": "User-friendly bi-directional service-desk",
     "Status": "Lost",
-    "WeightedAmount": 5193.038,
-    "ProjectId": 427,
-    "EarningPercent": 28434.782,
-    "Earning": 1889.802,
-    "ContactId": 66,
-    "AssociateId": 999,
-    "PersonId": 531,
-    "SaleTypeId": 868,
-    "SaleTypeName": "Hintz, Stamm and Emard",
-    "PersonFullName": "Dedric Monahan",
+    "WeightedAmount": 6553.1939999999995,
+    "ProjectId": 225,
+    "EarningPercent": 16393.953999999998,
+    "Earning": 11075.556,
+    "ContactId": 708,
+    "AssociateId": 965,
+    "PersonId": 178,
+    "SaleTypeId": 834,
+    "SaleTypeName": "Borer, Price and Bins",
+    "PersonFullName": "Aurelio Wunsch",
     "Completed": "Completed",
-    "ActiveErpLinks": 629,
-    "NextDueDate": "2001-10-08T03:40:47.6723407+02:00",
-    "Number": "841597",
+    "ActiveErpLinks": 861,
+    "NextDueDate": "2006-02-25T02:30:47.7881925+01:00",
+    "Number": "649807",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 765
       }
     }
   }

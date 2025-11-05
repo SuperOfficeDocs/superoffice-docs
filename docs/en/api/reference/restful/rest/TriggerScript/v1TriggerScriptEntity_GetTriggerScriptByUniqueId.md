@@ -71,7 +71,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 55,
-  "Name": "Macejkovic, Walker and Cormier",
+  "ScreenChooserId": 392,
+  "Name": "Brown-Cruickshank",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quos",
-  "Source": "excepturi",
-  "Registered": "2006-04-17T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 635,
-  "Updated": "2013-12-26T03:40:56.4140988+01:00",
-  "UpdatedAssociateId": 956,
+  "UniqueIdentifier": "provident",
+  "Source": "deleniti",
+  "Registered": "1998-07-24T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 16,
+  "Updated": "2018-10-18T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 588
     }
   }
 }

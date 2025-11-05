@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | saleEntityId | int32 | **Required** The identity of the SaleEntity |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?saleEntityId=442
+POST /api/v1/Agents/Sale/DeleteSaleEntity?saleEntityId=245
 ```
 
 

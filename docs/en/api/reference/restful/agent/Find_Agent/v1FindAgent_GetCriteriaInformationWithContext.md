@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugiat",
-  "ProviderName": "Bruen-Haag",
-  "StorageKey": "consequatur",
+  "StorageType": "aut",
+  "ProviderName": "Cartwright LLC",
+  "StorageKey": "ducimus",
   "StaticColumns": [
-    "repudiandae",
-    "accusantium"
+    "in",
+    "sit"
   ],
-  "Context": "accusamus"
+  "Context": "repellendus"
 }
 ```
 
@@ -108,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Durgan LLC",
-      "Operator": "id",
+      "Name": "Rempel-Kunze",
+      "Operator": "vitae",
       "Values": [
-        "tempore",
-        "voluptatem"
+        "inventore",
+        "est"
       ],
       "DisplayValues": [
-        "aut",
-        "est"
+        "necessitatibus",
+        "doloribus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -124,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 830,
+      "InterParenthesis": 466,
       "InterOperator": "And",
-      "UniqueHash": 595
+      "UniqueHash": 962
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lind LLC",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "est",
+      "DisplayName": "Predovic Group",
+      "DisplayTooltip": "accusamus",
+      "DisplayType": "rem",
       "CanOrderBy": false,
-      "Name": "Considine Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "ratione",
-      "RestrictionListName": "Block, Senger and Hirthe",
+      "Name": "Hagenes-Ryan",
+      "CanRestrictBy": true,
+      "RestrictionType": "est",
+      "RestrictionListName": "Yost, Pfannerstill and Huels",
       "IsVisible": false,
-      "ExtraInfo": "non",
-      "Width": "praesentium",
-      "IconHint": "cupiditate",
-      "HeadingIconHint": "rerum"
+      "ExtraInfo": "impedit",
+      "Width": "quae",
+      "IconHint": "iusto",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Haag Group",
-      "PrimaryKey": 89,
+      "EntityName": "VonRueden Inc and Sons",
+      "PrimaryKey": 48,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cupiditate",
-          "TooltipHint": "qui",
-          "LinkHint": "in"
+          "DisplayValue": "rem",
+          "TooltipHint": "omnis",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quia",
+      "LinkHint": "odit",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 987
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hackett Group",
-      "Description": "Programmable optimizing time-frame",
-      "Rank": 407,
+      "Name": "Lebsack, Kertzmann and Smith",
+      "Description": "Synergistic exuding initiative",
+      "Rank": 864,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hackett Group",
-      "Description": "Programmable optimizing time-frame",
-      "Rank": 407,
+      "Name": "Lebsack, Kertzmann and Smith",
+      "Description": "Synergistic exuding initiative",
+      "Rank": 864,
       "Restrictions": [
         {},
         {}
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 495
     }
   }
 }

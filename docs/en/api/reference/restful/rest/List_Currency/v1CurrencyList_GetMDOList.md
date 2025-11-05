@@ -28,7 +28,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=at
+GET /api/v1/List/Currency/MDOItems?query=aperiam
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Kovacek Inc and Sons",
-    "ToolTip": "Tempora molestias similique ea in labore.",
+    "Id": 87,
+    "Name": "Feeney-Dare",
+    "ToolTip": "Voluptatibus soluta nesciunt provident asperiores minus.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "explicabo",
+    "Rank": 966,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Larkin, Walker and Ledner",
-        "ToolTip": "Neque animi dolorem fuga et quia.",
+        "Id": 312,
+        "Name": "Fay LLC",
+        "ToolTip": "Minima voluptas.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "incidunt",
+        "Rank": 788,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 10,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "debitis",
-        "FullName": "Schuyler Stroman",
+        "IconHint": "saepe",
+        "ColorBlock": 907,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "laborum",
+        "FullName": "Mr. Fred Rolfson V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 401
+            "FieldLength": 119
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 106,
-    "ExtraInfo": "sunt",
-    "StyleHint": "eum",
-    "FullName": "Meredith Ward Sr.",
+    "IconHint": "soluta",
+    "ColorBlock": 68,
+    "ExtraInfo": "et",
+    "StyleHint": "sint",
+    "FullName": "Dr. Freddie Furman Bayer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldLength": 914
       }
     }
   }

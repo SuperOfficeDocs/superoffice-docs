@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 585,
-    "FieldName": "Rau-Pfannerstill",
-    "Label": "nemo",
-    "Tooltip": "incidunt",
-    "Editable": true,
-    "InUse": false,
+    "QuoteLineConfigurationId": 943,
+    "FieldName": "Balistreri Inc and Sons",
+    "Label": "non",
+    "Tooltip": "corporis",
+    "Editable": false,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 593,
-    "RestrictEdit": false,
+    "Rank": 209,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 583
       }
     }
   }

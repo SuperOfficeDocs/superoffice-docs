@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=290
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=834
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -90,23 +90,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 413,
-  "Name": "Kreiger Group",
-  "Tooltip": "dolore",
-  "SaveInDb": 335,
-  "Filename": "ut",
-  "DefaultOref": "consequatur",
+  "DocumentTemplateId": 687,
+  "Name": "Hayes-Watsica",
+  "Tooltip": "ut",
+  "SaveInDb": 990,
+  "Filename": "quia",
+  "DefaultOref": "quia",
   "RecordType": "Appointment",
-  "Deleted": 706,
+  "Deleted": 266,
   "Direction": "Incoming",
-  "AutoeventId": 204,
+  "AutoeventId": 309,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 958
     }
   }
 }

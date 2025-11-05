@@ -84,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 355,
+  "DocumentId": 18,
   "AllowedReturnTypes": [
-    "quod",
-    "dolore"
+    "quia",
+    "nihil"
   ]
 }
 ```
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ExternalReference": "et",
-  "VersionId": "consequatur",
+  "VersionId": "modi",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "fugiat",
-  "AdditionalInfo": "aspernatur"
+  "Value": "omnis",
+  "AdditionalInfo": "et"
 }
 ```

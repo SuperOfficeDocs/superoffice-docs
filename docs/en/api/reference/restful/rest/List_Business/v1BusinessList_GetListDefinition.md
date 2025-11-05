@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Sipes, Abernathy and Corkery",
-  "Tooltip": "minima",
+  "Id": 421,
+  "Name": "Kling-Leffler",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 79,
+  "Rank": 785,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 326
     }
   },
   "_Links": {

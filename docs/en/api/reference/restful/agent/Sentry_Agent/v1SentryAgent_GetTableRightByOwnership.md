@@ -81,9 +81,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn Inc and Sons",
-  "ContactGroupId": 964,
-  "ContactAssociateId": 764
+  "TableName": "Weimann, Grimes and Beier",
+  "ContactGroupId": 959,
+  "ContactAssociateId": 249
 }
 ```
 
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "ea",
+  "Mask": "ut",
   "Reason": ""
 }
 ```

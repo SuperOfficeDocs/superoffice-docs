@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Schmitt, Rippin and Reilly",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 639,
-    "Rank": 670
+    "Id": 546,
+    "Name": "Runolfsdottir-Schinner",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "UdListDefinitionId": 393,
+    "Rank": 421
   },
   {
-    "Id": 388,
-    "Name": "Schmitt, Rippin and Reilly",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 639,
-    "Rank": 670
+    "Id": 546,
+    "Name": "Runolfsdottir-Schinner",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "UdListDefinitionId": 393,
+    "Rank": 421
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Pfeffer-Price",
-    "Tooltip": "repudiandae",
+    "Id": 992,
+    "Name": "Kemmer, Goldner and O'Kon",
+    "Tooltip": "nam",
     "Deleted": false,
-    "UdListDefinitionId": 658,
-    "Rank": 868,
+    "UdListDefinitionId": 442,
+    "Rank": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 511
       }
     }
   }

@@ -28,7 +28,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=corrupti
+GET /api/v1/List/ProductType/MDOItems?query=omnis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Rosenbaum-Kirlin",
-    "ToolTip": "Quas nihil.",
+    "Id": 328,
+    "Name": "Stiedemann LLC",
+    "ToolTip": "Qui dolore.",
     "Deleted": false,
-    "Rank": 20,
-    "Type": "fugit",
+    "Rank": 527,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Terry Group",
-        "ToolTip": "Debitis excepturi omnis nobis ea dolores.",
-        "Deleted": false,
-        "Rank": 832,
-        "Type": "asperiores",
+        "Id": 577,
+        "Name": "Dickinson Group",
+        "ToolTip": "Ut velit voluptatem.",
+        "Deleted": true,
+        "Rank": 471,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 916,
-        "ExtraInfo": "minus",
-        "StyleHint": "modi",
-        "FullName": "Mrs. Jessy Lonzo Romaguera",
+        "IconHint": "aut",
+        "ColorBlock": 753,
+        "ExtraInfo": "qui",
+        "StyleHint": "commodi",
+        "FullName": "Bria Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldLength": 961
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 477,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "sit",
-    "FullName": "Ms. Allene O'Conner PhD",
+    "IconHint": "voluptatem",
+    "ColorBlock": 547,
+    "ExtraInfo": "expedita",
+    "StyleHint": "minus",
+    "FullName": "Kendall Cruickshank PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 143
       }
     }
   }

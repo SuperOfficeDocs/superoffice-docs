@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 645,
-  "PrefDescId": 417,
-  "PrefValue": "ea",
-  "PrefShowValue": "dolorem",
-  "Description": "Fundamental next generation ability",
+  "PrefDescLineId": 792,
+  "PrefDescId": 57,
+  "PrefValue": "autem",
+  "PrefShowValue": "qui",
+  "Description": "Open-architected full-range analyzer",
   "IsBuiltin": false
 }
 ```
@@ -108,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 794,
-  "PrefDescId": 675,
-  "PrefValue": "qui",
-  "PrefShowValue": "omnis",
-  "Description": "Object-based motivating methodology",
+  "PrefDescLineId": 687,
+  "PrefDescId": 628,
+  "PrefValue": "est",
+  "PrefShowValue": "voluptatem",
+  "Description": "Reduced mobile hierarchy",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

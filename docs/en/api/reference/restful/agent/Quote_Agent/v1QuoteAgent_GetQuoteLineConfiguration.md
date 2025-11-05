@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 745
+  "QuoteLineConfigurationId": 382
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 721,
-  "FieldName": "Hammes-Larson",
-  "Label": "consequatur",
-  "Tooltip": "impedit",
+  "QuoteLineConfigurationId": 105,
+  "FieldName": "Lebsack, Rath and Schmitt",
+  "Label": "unde",
+  "Tooltip": "optio",
   "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 69,
+  "Mandatory": false,
+  "Rank": 303,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

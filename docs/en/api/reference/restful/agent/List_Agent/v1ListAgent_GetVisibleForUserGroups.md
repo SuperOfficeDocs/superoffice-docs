@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 224,
-  "ListItemId": 196
+  "UdListDefinitionId": 201,
+  "ListItemId": 17
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Jerde-Fay",
-    "ToolTip": "Non aut modi quos.",
+    "Id": 397,
+    "Name": "Langosh-Moore",
+    "ToolTip": "Qui fugiat doloribus ut ipsam.",
     "Deleted": false,
-    "Rank": 803,
+    "Rank": 561,
     "Type": "sit",
-    "ColorBlock": 725,
-    "IconHint": "velit",
+    "ColorBlock": 492,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2024-03-18T03:40:47.2186675+01:00",
+    "LastChanged": "2024-07-27T02:30:47.4444538+02:00",
     "ChildItems": [
       {
-        "Id": 608,
-        "Name": "Bogisich-Bruen",
-        "ToolTip": "Temporibus quia quia id dolorem ullam.",
-        "Deleted": true,
-        "Rank": 237,
-        "Type": "qui",
-        "ColorBlock": 639,
-        "IconHint": "facilis",
+        "Id": 603,
+        "Name": "Yundt Group",
+        "ToolTip": "Odio commodi a temporibus modi.",
+        "Deleted": false,
+        "Rank": 511,
+        "Type": "minima",
+        "ColorBlock": 272,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2022-01-19T03:40:47.2186675+01:00",
+        "LastChanged": "2001-10-17T02:30:47.4444538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "est",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Elouise Kuphal",
+        "FullName": "Nyasia Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldType": "System.Int32",
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Kasandra Bradtke",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Bennie Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

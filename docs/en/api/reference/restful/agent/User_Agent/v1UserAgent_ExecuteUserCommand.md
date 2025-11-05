@@ -33,7 +33,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Pfannerstill, Legros and Little
+POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Schimmel-Hauck
 POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
 POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 ```
@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 516,
-  "Name": "Marks Inc and Sons",
-  "Rank": 233,
-  "Tooltip": "neque",
+  "AssociateId": 461,
+  "Name": "Johns-Wiegand",
+  "Rank": 214,
+  "Tooltip": "aliquam",
   "LicenseOwners": [
     {
-      "Name": "Kiehn, Balistreri and Kautzer",
-      "Description": "Exclusive multimedia circuit",
+      "Name": "Dickinson-Gulgowski",
+      "Description": "Fully-configurable system-worthy info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kiehn, Balistreri and Kautzer",
-      "Description": "Exclusive multimedia circuit",
+      "Name": "Dickinson-Gulgowski",
+      "Description": "Fully-configurable system-worthy info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,87 +150,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "dolor",
-      "Id": 112,
-      "Rank": 391,
+      "Value": "explicabo",
+      "Tooltip": "rem",
+      "Id": 328,
+      "Rank": 61,
       "Deleted": false
     },
     {
-      "Value": "cupiditate",
-      "Tooltip": "dolor",
-      "Id": 112,
-      "Rank": 391,
+      "Value": "explicabo",
+      "Tooltip": "rem",
+      "Id": 328,
+      "Rank": 61,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-07-10T03:40:48.2036224+02:00",
-  "Lastlogout": "2010-02-24T03:40:48.2036224+01:00",
-  "EjUserId": 971,
-  "RequestSignature": "tempora",
+  "Lastlogin": "2019-09-21T02:30:48.1006818+02:00",
+  "Lastlogout": "2001-10-14T02:30:48.1006818+02:00",
+  "EjUserId": 282,
+  "RequestSignature": "recusandae",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "sunt"
+      "Value": "placeat",
+      "DisplayValue": "suscipit"
     },
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "sunt"
+      "Value": "placeat",
+      "DisplayValue": "suscipit"
     }
   ],
-  "UserName": "Tromp-Abbott",
+  "UserName": "Keeling, Block and Feil",
   "TicketCategories": [
     {
-      "Id": 88,
-      "Name": "Stracke Group",
-      "ToolTip": "Ea libero dolorem.",
+      "Id": 283,
+      "Name": "Moore, Leuschke and Hartmann",
+      "ToolTip": "Sed id asperiores et earum iste.",
       "Deleted": true,
-      "Rank": 102,
-      "Type": "cumque",
+      "Rank": 101,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 868,
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "ut",
-      "FullName": "Heloise Muller"
+      "IconHint": "ea",
+      "ColorBlock": 410,
+      "ExtraInfo": "iste",
+      "StyleHint": "distinctio",
+      "FullName": "Beth O'Hara"
     }
   ],
-  "NickName": "Lockman LLC",
+  "NickName": "Tillman, Rogahn and Stroman",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "est",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "omnis",
+    "CustomFields2": "non"
   },
   "PostSaveCommands": [
     {
-      "Name": "Leannon-Morissette",
-      "DisplayName": "Beier-Leffler",
-      "Description": "Enterprise-wide object-oriented analyzer",
-      "ToolTip": "Consequatur id accusamus.",
+      "Name": "Jaskolski Inc and Sons",
+      "DisplayName": "Buckridge, Dare and Lesch",
+      "Description": "Fundamental full-range intranet",
+      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "numquam"
     },
     {
-      "Name": "Leannon-Morissette",
-      "DisplayName": "Beier-Leffler",
-      "Description": "Enterprise-wide object-oriented analyzer",
-      "ToolTip": "Consequatur id accusamus.",
+      "Name": "Jaskolski Inc and Sons",
+      "DisplayName": "Buckridge, Dare and Lesch",
+      "Description": "Fundamental full-range intranet",
+      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "numquam"
     }
   ]
 }
@@ -244,14 +244,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "aut",
+  "Message": "ex",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

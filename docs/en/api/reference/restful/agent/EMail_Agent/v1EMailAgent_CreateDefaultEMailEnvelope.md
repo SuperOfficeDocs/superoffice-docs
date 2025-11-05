@@ -80,45 +80,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 3,
-  "MessageId": "qui",
-  "Subject": "qui",
+  "ServerId": 713,
+  "MessageId": "laudantium",
+  "Subject": "quaerat",
   "From": null,
   "To": [
     {
-      "ContactId": 498,
-      "ContactName": "Pagac, Marvin and Leffler",
-      "PersonId": 633,
-      "PersonName": "O'Hara, Prosacco and Becker",
-      "AssociateId": 930,
-      "Address": "soluta",
-      "EmailId": 504,
+      "ContactId": 808,
+      "ContactName": "Konopelski LLC",
+      "PersonId": 362,
+      "PersonName": "Schultz Group",
+      "AssociateId": 700,
+      "Address": "doloribus",
+      "EmailId": 419,
       "DuplicatePersonIds": [
-        959,
-        308
+        175,
+        966
       ],
-      "Name": "Rutherford Inc and Sons",
+      "Name": "Runolfsdottir, Rutherford and Schuster",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 295
         }
       }
     }
   ],
-  "Sent": "2001-08-11T03:40:46.8123923+02:00",
+  "Sent": "2020-05-07T02:30:47.2569602+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 220,
+  "Size": 996,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 679
     }
   }
 }

@@ -92,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Zieme, Rau and Pagac",
-  "ListItemId": 647,
+  "UdListDefinitionName": "Carroll, Schmitt and Goldner",
+  "ListItemId": 58,
   "UserGroups": [
     {
-      "Id": 245,
-      "Name": "West, Windler and Jacobson",
-      "ToolTip": "Accusamus odit ipsam quo.",
+      "Id": 347,
+      "Name": "Lubowitz Inc and Sons",
+      "ToolTip": "Incidunt quo.",
       "Deleted": false,
-      "Rank": 856,
-      "Type": "doloribus",
-      "ColorBlock": 217,
-      "IconHint": "illum",
+      "Rank": 801,
+      "Type": "inventore",
+      "ColorBlock": 977,
+      "IconHint": "omnis",
       "Selected": true,
-      "LastChanged": "2012-03-11T03:40:47.0780355+01:00",
+      "LastChanged": "2002-06-08T02:30:47.4132046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "culpa",
+      "ExtraInfo": "accusantium",
+      "StyleHint": "non",
       "Hidden": true,
-      "FullName": "Juanita Jaskolski"
+      "FullName": "Dominique Deckow"
     }
   ]
 }
@@ -131,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "McKenzie, Considine and Hane",
-    "ToolTip": "Est excepturi dolores rerum dolorum non.",
-    "Deleted": false,
-    "Rank": 279,
-    "Type": "ut",
-    "ColorBlock": 382,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2017-12-24T03:40:47.0780355+01:00",
+    "Id": 465,
+    "Name": "Rutherford Inc and Sons",
+    "ToolTip": "Illum consequatur et et ullam laudantium.",
+    "Deleted": true,
+    "Rank": 561,
+    "Type": "corporis",
+    "ColorBlock": 863,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2015-12-09T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Lehner, Bartell and Kohler",
-        "ToolTip": "Qui libero non et dicta aliquid.",
+        "Id": 510,
+        "Name": "Deckow Inc and Sons",
+        "ToolTip": "Veniam sed.",
         "Deleted": false,
-        "Rank": 425,
-        "Type": "harum",
-        "ColorBlock": 238,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2016-01-28T03:40:47.0780355+01:00",
+        "Rank": 542,
+        "Type": "voluptas",
+        "ColorBlock": 493,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2016-08-16T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Carmella Prohaska",
+        "ExtraInfo": "et",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Pearline Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "magnam",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Ms. Drew Ahmad Lueilwitz",
+    "FullName": "Dariana Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldLength": 623
       }
     }
   }

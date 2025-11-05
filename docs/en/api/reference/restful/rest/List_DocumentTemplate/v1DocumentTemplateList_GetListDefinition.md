@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Murazik Inc and Sons",
-  "Tooltip": "quae",
+  "Id": 288,
+  "Name": "Bernier Group",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 877,
-  "IsCustomList": false,
+  "Rank": 497,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 891
     }
   },
   "_Links": {

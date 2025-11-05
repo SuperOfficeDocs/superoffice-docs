@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 376,
-  "Name": "Volkman Inc and Sons",
-  "Tooltip": "voluptas",
+  "HeadingId": 764,
+  "Name": "O'Conner, Spencer and Cruickshank",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 126,
-  "UdListDefinitionId": 633
+  "Rank": 540,
+  "UdListDefinitionId": 116
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 335,
-  "Name": "Legros, Mraz and Windler",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 742,
-  "UdListDefinitionId": 259,
+  "HeadingId": 514,
+  "Name": "Windler, Lebsack and Purdy",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 513,
+  "UdListDefinitionId": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

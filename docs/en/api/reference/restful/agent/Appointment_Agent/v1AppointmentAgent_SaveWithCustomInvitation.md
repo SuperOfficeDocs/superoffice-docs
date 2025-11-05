@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "christine@carrollbernier.ca",
-  "Subject": "atque",
-  "TemplateLanguage": "sint"
+  "EmailBody": "stephen@wuckert.name",
+  "Subject": "commodi",
+  "TemplateLanguage": "at"
 }
 ```
 
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 794
     }
   }
 }

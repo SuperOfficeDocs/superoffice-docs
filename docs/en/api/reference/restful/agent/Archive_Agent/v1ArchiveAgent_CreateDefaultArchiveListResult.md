@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,26 +69,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 910,
+  "RowCount": 990,
   "Rows": [
     {
-      "EntityName": "Reynolds, Bartell and Reynolds",
-      "PrimaryKey": 749,
+      "EntityName": "Hartmann, Huel and Lowe",
+      "PrimaryKey": 424,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "totam",
-          "LinkHint": "porro"
+          "DisplayValue": "quidem",
+          "TooltipHint": "nam",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "molestiae",
-      "StyleHint": "at",
+      "LinkHint": "et",
+      "StyleHint": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 315
         }
       }
     }
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 261
     }
   }
 }

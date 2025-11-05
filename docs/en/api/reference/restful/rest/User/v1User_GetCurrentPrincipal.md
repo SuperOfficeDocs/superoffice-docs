@@ -82,7 +82,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,76 +93,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ipsum",
-  "AssociateId": 19,
+  "Associate": "ullam",
+  "AssociateId": 367,
   "IsPerson": false,
-  "PersonId": 881,
-  "CountryId": 683,
-  "HomeCountryId": 988,
-  "ContactId": 599,
-  "GroupId": 667,
-  "BusinessId": 183,
-  "CategoryId": 752,
-  "ContactOwner": 368,
-  "RoleId": 423,
-  "RoleName": "Klocko LLC",
-  "RoleDescription": "Extended context-sensitive challenge",
+  "PersonId": 580,
+  "CountryId": 97,
+  "HomeCountryId": 973,
+  "ContactId": 312,
+  "GroupId": 260,
+  "BusinessId": 876,
+  "CategoryId": 243,
+  "ContactOwner": 710,
+  "RoleId": 981,
+  "RoleName": "Blick-Herzog",
+  "RoleDescription": "Adaptive even-keeled instruction set",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 461,
-      "OwnerName": "Simonis, Weissnat and Kub",
-      "OwnerDescription": "Operative 3rd generation circuit",
-      "ModuleId": 114,
-      "Name": "Heidenreich Inc and Sons",
-      "Description": "Integrated global strategy",
-      "Version": "error",
+      "OwnerId": 433,
+      "OwnerName": "Farrell-White",
+      "OwnerDescription": "Customer-focused foreground core",
+      "ModuleId": 751,
+      "Name": "Fahey-Gutkowski",
+      "Description": "User-friendly real-time collaboration",
+      "Version": "quisquam",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 18,
-      "ExtraInfo": "animi",
-      "SortOrder": 493,
-      "LicenseNumber": 341,
-      "IsHidden": false,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2003-07-14T03:40:56.6494726+02:00",
+      "ExtraFlags": 542,
+      "ExtraInfo": "ex",
+      "SortOrder": 88,
+      "LicenseNumber": 915,
+      "IsHidden": true,
+      "IsUnrestricted": true,
+      "ExpiryDate": "2005-02-09T02:30:53.1786436+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     }
   ],
-  "FullName": "Jarrod Nolan",
-  "EMailAddress": "maiores",
+  "FullName": "Quinn Cassin",
+  "EMailAddress": "sunt",
   "FunctionRights": [
-    "nihil",
-    "dolore"
+    "fugit",
+    "praesentium"
   ],
-  "EjUserId": 642,
-  "EjAccessLevel": 276,
+  "EjUserId": 923,
+  "EjAccessLevel": 587,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "omnis",
-      "SearchName": "Schoen, Durgan and Hackett",
-      "DisplayName": "Kovacek LLC",
-      "CredentialId": 955
+      "Type": "eaque",
+      "SearchName": "Goyette-Stiedemann",
+      "DisplayName": "Kertzmann, Bergstrom and Howe",
+      "CredentialId": 740
     },
     {
-      "Type": "omnis",
-      "SearchName": "Schoen, Durgan and Hackett",
-      "DisplayName": "Kovacek LLC",
-      "CredentialId": 955
+      "Type": "eaque",
+      "SearchName": "Goyette-Stiedemann",
+      "DisplayName": "Kertzmann, Bergstrom and Howe",
+      "CredentialId": 740
     }
   ],
   "SecondaryGroups": [
-    332,
-    264
+    609,
+    247
   ],
-  "DatabaseContextIdentifier": "in",
-  "UserName": "McCullough Group"
+  "DatabaseContextIdentifier": "velit",
+  "UserName": "Cassin, Franecki and Little"
 }
 ```

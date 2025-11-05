@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Doyle, Dickinson and O'Hara"
+  "ApplicationName": "Wyman, Jast and Schmeler"
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 197,
-  "Name": "Gottlieb LLC",
-  "CreatedDate": "2001-02-16T03:40:46.9842779+01:00",
-  "UpdatedDate": "2014-11-30T03:40:46.9842779+01:00",
+  "ForeignAppId": 358,
+  "Name": "Kuphal Group",
+  "CreatedDate": "2011-02-28T02:30:47.366331+01:00",
+  "UpdatedDate": "2017-01-10T02:30:47.366331+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 433,
-      "Name": "Boyle, Connelly and Hand",
-      "CreatedDate": "2002-03-12T03:40:46.9842779+01:00",
-      "UpdatedDate": "1998-09-14T03:40:46.9842779+02:00",
-      "AssociateFullName": "Brenden Blick",
-      "CreatedBy": "expedita",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 608,
+      "ForeignDeviceId": 231,
+      "Name": "Mertz, Satterfield and Walker",
+      "CreatedDate": "2014-01-30T02:30:47.366331+01:00",
+      "UpdatedDate": "2024-07-24T02:30:47.366331+02:00",
+      "AssociateFullName": "Golda Ankunding",
+      "CreatedBy": "tempore",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldType": "System.Int32",
+          "FieldLength": 13
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

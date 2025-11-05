@@ -67,7 +67,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,44 +78,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Halvorson LLC",
-    "Operator": "itaque",
+    "Name": "Schumm, Wintheiser and Lang",
+    "Operator": "dolor",
     "Values": [
-      "est",
-      "et"
+      "similique",
+      "est"
     ],
     "DisplayValues": [
-      "voluptas",
-      "doloremque"
+      "voluptates",
+      "error"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ruecker-Gerlach",
-        "Operator": "assumenda",
+        "Name": "Spinka-Langworth",
+        "Operator": "eligendi",
         "Values": [
-          "illum",
-          "corporis"
+          "animi",
+          "tenetur"
         ],
         "DisplayValues": [
-          "quae",
-          "architecto"
+          "magnam",
+          "consectetur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 98,
+        "InterParenthesis": 847,
         "InterOperator": "And",
-        "UniqueHash": 108
+        "UniqueHash": 197
       }
     ],
-    "InterParenthesis": 2,
+    "InterParenthesis": 649,
     "InterOperator": "And",
-    "UniqueHash": 746
+    "UniqueHash": 144
   }
 ]
 ```

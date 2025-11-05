@@ -74,63 +74,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Douglas, Jacobs and Kozey",
-    "Description": "Optimized upward-trending customer loyalty",
-    "Rank": 431,
+    "Name": "Stokes, Doyle and Sawayn",
+    "Description": "Distributed motivating utilisation",
+    "Rank": 386,
     "Restrictions": [
       {
-        "Name": "Lebsack Inc and Sons",
-        "Operator": "quam",
+        "Name": "Treutel Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "nam",
-          "temporibus"
+          "ut",
+          "nemo"
         ],
         "DisplayValues": [
-          "consequatur",
-          "qui"
+          "numquam",
+          "quod"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 796,
+        "InterParenthesis": 454,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 349
       }
     ]
   },
   {
-    "Name": "Douglas, Jacobs and Kozey",
-    "Description": "Optimized upward-trending customer loyalty",
-    "Rank": 431,
+    "Name": "Stokes, Doyle and Sawayn",
+    "Description": "Distributed motivating utilisation",
+    "Rank": 386,
     "Restrictions": [
       {
-        "Name": "Lebsack Inc and Sons",
-        "Operator": "quam",
+        "Name": "Treutel Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "nam",
-          "temporibus"
+          "ut",
+          "nemo"
         ],
         "DisplayValues": [
-          "consequatur",
-          "qui"
+          "numquam",
+          "quod"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 796,
+        "InterParenthesis": 454,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 349
       }
     ]
   }
@@ -145,58 +145,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Metz LLC",
-    "Description": "Optimized non-volatile website",
-    "Rank": 552,
+    "Name": "Wiegand-Larkin",
+    "Description": "De-engineered dedicated orchestration",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Ankunding, Schoen and Kris",
-        "Operator": "libero",
+        "Name": "Predovic, Christiansen and Rohan",
+        "Operator": "voluptates",
         "Values": [
-          "quidem",
-          "voluptatem"
+          "earum",
+          "non"
         ],
         "DisplayValues": [
-          "non",
-          "ut"
+          "ut",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 791,
+        "InterParenthesis": 792,
         "InterOperator": "And",
-        "UniqueHash": 213
+        "UniqueHash": 254
       }
     ]
   },
   {
-    "Name": "Metz LLC",
-    "Description": "Optimized non-volatile website",
-    "Rank": 552,
+    "Name": "Wiegand-Larkin",
+    "Description": "De-engineered dedicated orchestration",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Ankunding, Schoen and Kris",
-        "Operator": "libero",
+        "Name": "Predovic, Christiansen and Rohan",
+        "Operator": "voluptates",
         "Values": [
-          "quidem",
-          "voluptatem"
+          "earum",
+          "non"
         ],
         "DisplayValues": [
-          "non",
-          "ut"
+          "ut",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 791,
+        "InterParenthesis": 792,
         "InterOperator": "And",
-        "UniqueHash": 213
+        "UniqueHash": 254
       }
     ]
   }

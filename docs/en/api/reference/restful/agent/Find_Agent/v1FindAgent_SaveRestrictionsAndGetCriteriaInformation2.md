@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Dickens, Kshlerin and Abshire",
-  "StorageKey": "odit",
-  "Restrictions": "harum",
-  "StaticColumns": "magni"
+  "StorageType": "molestias",
+  "ProviderName": "Hilpert, Jacobs and Kuhic",
+  "StorageKey": "consectetur",
+  "Restrictions": "eaque",
+  "StaticColumns": "sint"
 }
 ```
 
@@ -105,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Spencer-Stamm",
-      "Operator": "voluptatem",
+      "Name": "Cummings Group",
+      "Operator": "distinctio",
       "Values": [
-        "amet",
-        "dolor"
+        "neque",
+        "nemo"
       ],
       "DisplayValues": [
-        "accusantium",
+        "rerum",
         "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 165,
+      "InterParenthesis": 786,
       "InterOperator": "And",
-      "UniqueHash": 36
+      "UniqueHash": 502
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Halvorson-Prosacco",
-      "DisplayTooltip": "nobis",
-      "DisplayType": "voluptatibus",
+      "DisplayName": "Senger-Grady",
+      "DisplayTooltip": "amet",
+      "DisplayType": "culpa",
       "CanOrderBy": false,
-      "Name": "Brakus-Bosco",
+      "Name": "Crooks-Lemke",
       "CanRestrictBy": true,
-      "RestrictionType": "maxime",
-      "RestrictionListName": "O'Kon Inc and Sons",
+      "RestrictionType": "dolore",
+      "RestrictionListName": "Senger, Johns and Lynch",
       "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "quos",
-      "IconHint": "fugit",
-      "HeadingIconHint": "repudiandae"
+      "ExtraInfo": "sed",
+      "Width": "omnis",
+      "IconHint": "laborum",
+      "HeadingIconHint": "dolorum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hyatt, Lubowitz and Nicolas",
-      "PrimaryKey": 84,
+      "EntityName": "Schuster Inc and Sons",
+      "PrimaryKey": 785,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laboriosam",
-          "TooltipHint": "adipisci",
-          "LinkHint": "exercitationem"
+          "DisplayValue": "deleniti",
+          "TooltipHint": "ut",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "repudiandae",
+      "LinkHint": "odit",
+      "StyleHint": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 103
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Erdman-Mayer",
-      "Description": "Distributed mobile internet solution",
-      "Rank": 978,
+      "Name": "Ebert-Trantow",
+      "Description": "Compatible web-enabled budgetary management",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Erdman-Mayer",
-      "Description": "Distributed mobile internet solution",
-      "Rank": 978,
+      "Name": "Ebert-Trantow",
+      "Description": "Compatible web-enabled budgetary management",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 380
     }
   }
 }

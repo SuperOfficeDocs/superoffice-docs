@@ -76,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 7,
+  "TargetAssignmentInfoId": 391,
   "Values": [
-    732,
-    724
+    730,
+    52
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 850,
-  "DimensionListItemDisplayName": "Kub LLC",
+  "DimensionListItem": 176,
+  "DimensionListItemDisplayName": "Lang-Klein",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

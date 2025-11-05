@@ -70,36 +70,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hessel-Lubowitz",
+  "ProviderName": "Donnelly-Hilpert",
   "Restrictions": [
     {
-      "Name": "Kohler Inc and Sons",
-      "Operator": "numquam",
+      "Name": "Emard-Swaniawski",
+      "Operator": "ducimus",
       "Values": [
-        "iusto",
-        "et"
+        "magnam",
+        "odio"
       ],
       "DisplayValues": [
-        "qui",
-        "quos"
+        "minus",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 759,
+      "InterParenthesis": 264,
       "InterOperator": "And",
-      "UniqueHash": 321
+      "UniqueHash": 393
     }
   ],
-  "AssociateId": 112,
-  "ExtraInfo": "fuga"
+  "AssociateId": 515,
+  "ExtraInfo": "sapiente"
 }
 ```
 

@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "O'Hara, Douglas and Erdman",
-    "ToolTip": "Autem sed maiores.",
-    "Deleted": true,
-    "Rank": 612,
-    "Type": "et",
-    "ColorBlock": 592,
-    "IconHint": "assumenda",
+    "Id": 265,
+    "Name": "Bednar, Cruickshank and Abernathy",
+    "ToolTip": "Est qui tenetur est et et ex possimus.",
+    "Deleted": false,
+    "Rank": 726,
+    "Type": "voluptatem",
+    "ColorBlock": 489,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2021-10-07T03:40:57.071478+02:00",
+    "LastChanged": "2005-06-23T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Emmerich, King and Lemke",
-        "ToolTip": "Saepe perspiciatis recusandae distinctio et possimus.",
-        "Deleted": false,
-        "Rank": 241,
-        "Type": "facilis",
-        "ColorBlock": 714,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2009-12-01T03:40:57.071478+01:00",
+        "Id": 538,
+        "Name": "Hessel, Altenwerth and Breitenberg",
+        "ToolTip": "Et voluptatem voluptates fuga aliquam maiores et fugiat.",
+        "Deleted": true,
+        "Rank": 117,
+        "Type": "atque",
+        "ColorBlock": 584,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "1999-04-14T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Marlene Kertzmann",
+        "FullName": "Miss Junius Lakin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 451
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "natus",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Marcelina Shields",
+    "FullName": "Tomasa Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   }

@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 378,
-    "Name": "Stehr-Rosenbaum",
-    "CurrencyId": 286,
-    "EnglishName": "Hilll Inc and Sons",
+    "CountryId": 98,
+    "Name": "Ferry-Pouros",
+    "CurrencyId": 132,
+    "EnglishName": "Bogan, Frami and Monahan",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-lateral client-server concept",
-    "OrgNrText": "1315775",
-    "InterAreaPrefix": "culpa",
-    "DialInPrefix": "neque",
-    "ZipPrefix": "aspernatur",
-    "DomainName": "Kris LLC",
-    "AddressLayoutId": 781,
-    "DomesticAddressLayoutId": 193,
-    "ForeignAddressLayoutId": 720,
-    "Rank": 255,
-    "Tooltip": "necessitatibus",
+    "ImageDescription": "Upgradable demand-driven website",
+    "OrgNrText": "639498",
+    "InterAreaPrefix": "omnis",
+    "DialInPrefix": "architecto",
+    "ZipPrefix": "velit",
+    "DomainName": "Kling Group",
+    "AddressLayoutId": 878,
+    "DomesticAddressLayoutId": 498,
+    "ForeignAddressLayoutId": 328,
+    "Rank": 188,
+    "Tooltip": "repellendus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   }

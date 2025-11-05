@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Homenick-Hilll",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "UdListDefinitionId": 639,
-  "Rank": 643,
+  "Id": 995,
+  "Name": "Champlin-Lind",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "UdListDefinitionId": 943,
+  "Rank": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

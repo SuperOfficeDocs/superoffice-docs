@@ -71,20 +71,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Pouros-Bahringer",
-      "Delimiter": "assumenda",
-      "Flags": "ipsam",
-      "TotalItems": 915,
-      "UnreadItems": 323,
-      "Subscribed": true,
-      "EmailFolderId": 245
+      "Name": "Windler-Spinka",
+      "Delimiter": "delectus",
+      "Flags": "et",
+      "TotalItems": 304,
+      "UnreadItems": 866,
+      "Subscribed": false,
+      "EmailFolderId": 97
     }
   ]
 }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Selection/SaveBoardViewSettingsForSelectionAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "BoardViewSettings": null,
-  "AssociateId": 144,
-  "SelectionId": 404
+  "AssociateId": 752,
+  "SelectionId": 341
 }
 ```
 
@@ -104,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 610,
-  "EntityType": "None",
-  "AssociateId": 328,
-  "SelectionId": 67,
+  "BoardViewSettingsId": 238,
+  "EntityType": "ContactPerson",
+  "AssociateId": 612,
+  "SelectionId": 472,
   "HideEmptyGroups": false,
-  "GroupBy": "optio",
-  "SubGroupBy": "quia",
-  "SortBy": "fuga",
-  "SortDesc": false,
-  "SumBy": "porro",
-  "ColorBy": "libero",
-  "Filters": "modi"
+  "GroupBy": "eveniet",
+  "SubGroupBy": "reiciendis",
+  "SortBy": "itaque",
+  "SortDesc": true,
+  "SumBy": "accusamus",
+  "ColorBy": "sit",
+  "Filters": "cupiditate"
 }
 ```

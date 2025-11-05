@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=705
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=26
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,41 +89,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 486,
-  "Name": "Johnson LLC",
-  "Tooltip": "itaque",
-  "Rank": 813,
+  "ProjTypeId": 350,
+  "Name": "Morissette Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 995,
   "DurationUnit": "Century",
-  "ProjectDuration": 730,
+  "ProjectDuration": 390,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 446,
-      "Name": "Blick LLC",
-      "ToolTip": "Est consectetur sit.",
-      "Deleted": false,
-      "Rank": 143,
-      "Type": "quo",
-      "ColorBlock": 391,
-      "IconHint": "minus",
+      "Id": 786,
+      "Name": "Reilly Inc and Sons",
+      "ToolTip": "Quia beatae harum dolor in.",
+      "Deleted": true,
+      "Rank": 671,
+      "Type": "sed",
+      "ColorBlock": 343,
+      "IconHint": "excepturi",
       "Selected": false,
-      "LastChanged": "2010-12-31T03:40:47.0624077+01:00",
+      "LastChanged": "1999-10-22T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "atque",
-      "StyleHint": "eveniet",
+      "ExtraInfo": "illo",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Dr. Dedric Kadin Reichel",
+      "FullName": "Noah Johnston MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 146
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }

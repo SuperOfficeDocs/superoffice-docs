@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Abshire, Grant and Grant",
-    "ToolTip": "Delectus quod qui libero voluptatem provident.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "esse",
-    "ColorBlock": 457,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2003-07-31T03:40:57.1344494+02:00",
+    "Id": 191,
+    "Name": "Daugherty LLC",
+    "ToolTip": "Accusantium a.",
+    "Deleted": false,
+    "Rank": 958,
+    "Type": "repellendus",
+    "ColorBlock": 814,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2012-11-22T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Smith, Stoltenberg and Weissnat",
-        "ToolTip": "Doloribus repudiandae molestiae eaque ipsa consectetur est.",
-        "Deleted": false,
-        "Rank": 754,
-        "Type": "numquam",
-        "ColorBlock": 150,
-        "IconHint": "facere",
+        "Id": 797,
+        "Name": "Spinka LLC",
+        "ToolTip": "Ut quibusdam aut necessitatibus.",
+        "Deleted": true,
+        "Rank": 9,
+        "Type": "rerum",
+        "ColorBlock": 626,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2010-02-13T03:40:57.1344494+01:00",
+        "LastChanged": "2024-08-08T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Lazaro Reynolds MD",
+        "ExtraInfo": "id",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Mrs. Deangelo Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldType": "System.String",
+            "FieldLength": 638
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "eius",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Miss Milan Alaina Mante MD",
+    "FullName": "Ms. Sarai Kian Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 520
       }
     }
   }

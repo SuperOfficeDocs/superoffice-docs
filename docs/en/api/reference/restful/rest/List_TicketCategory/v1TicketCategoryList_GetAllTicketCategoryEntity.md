@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 601,
-    "ParentId": 404,
-    "Name": "Anderson Group",
-    "Fullname": "nulla",
-    "CategoryMaster": 930,
+    "TicketCategoryId": 607,
+    "ParentId": 654,
+    "Name": "Heaney-Hand",
+    "Fullname": "possimus",
+    "CategoryMaster": 491,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Ullrich, Mertz and Reichel",
+    "ExternalName": "Lehner, Armstrong and Denesik",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 249,
-    "ReplyTemplate": 641,
-    "NotificationEmail": "olin@greenholt.info",
+    "AssignmentLag": 571,
+    "ReplyTemplate": 277,
+    "NotificationEmail": "kelli@legros.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 48,
+    "EffectiveReplyTemplateId": 255,
     "ExtraFields": {
-      "ExtraFields1": "est",
-      "ExtraFields2": "tempore"
+      "ExtraFields1": "corrupti",
+      "ExtraFields2": "beatae"
     },
     "CustomFields": {
-      "CustomFields1": "saepe",
-      "CustomFields2": "dignissimos"
+      "CustomFields1": "mollitia",
+      "CustomFields2": "et"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 528
       }
     }
   }

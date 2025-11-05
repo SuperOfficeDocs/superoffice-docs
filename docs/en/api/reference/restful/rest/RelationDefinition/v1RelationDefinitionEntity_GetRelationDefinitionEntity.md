@@ -82,7 +82,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,20 +92,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 552,
-  "Name": "Kreiger-Bailey",
-  "Tooltip": "sed",
-  "PassiveText": "repellat",
-  "Deleted": false,
-  "Rank": 350,
+  "ReldefId": 835,
+  "Name": "Wehner-Runolfsdottir",
+  "Tooltip": "non",
+  "PassiveText": "esse",
+  "Deleted": true,
+  "Rank": 998,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 324
     }
   },
   "_Links": {

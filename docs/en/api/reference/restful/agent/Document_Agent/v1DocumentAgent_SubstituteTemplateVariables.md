@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "porro",
+  "Source": "vero",
   "GeneratorEncoding": "Html",
-  "ContactId": 509,
-  "PersonId": 654,
-  "AppointmentId": 722,
-  "DocumentId": 329,
-  "SaleId": 96,
-  "SelectionId": 844,
-  "ProjectId": 464,
+  "ContactId": 5,
+  "PersonId": 207,
+  "AppointmentId": 486,
+  "DocumentId": 356,
+  "SaleId": 696,
+  "SelectionId": 419,
+  "ProjectId": 727,
   "CultureName": "sv"
 }
 ```
@@ -103,5 +103,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"similique"
+"optio"
 ```

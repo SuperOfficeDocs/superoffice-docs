@@ -90,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 171,
-    "Name": "Nicolas, Klocko and Ferry",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 202,
+    "WebPanelId": 933,
+    "Name": "O'Keefe Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 461,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
+    "OnCentral": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Dicki, Beatty and Homenick",
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Williamson, Boyle and Kertzmann",
     "Url": "http://www.example.com/",
-    "ProgId": "optio",
-    "Icon": 438,
+    "ProgId": "ipsam",
+    "Icon": 795,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

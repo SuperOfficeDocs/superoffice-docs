@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 685,
-    "Name": "Russel-Rippin",
-    "Tooltip": "sunt",
-    "Rank": 89,
-    "Key": "qui",
-    "MailTemplateId": 35,
+    "ConsentSourceId": 339,
+    "Name": "Nienow Inc and Sons",
+    "Tooltip": "quam",
+    "Rank": 753,
+    "Key": "quis",
+    "MailTemplateId": 254,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

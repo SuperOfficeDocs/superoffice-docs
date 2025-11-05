@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 890,
-  "Name": "Mayert LLC",
-  "Tooltip": "quod",
+  "HeadingId": 209,
+  "Name": "Simonis-Streich",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 911,
-  "UdListDefinitionId": 510
+  "Rank": 778,
+  "UdListDefinitionId": 261
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 948,
-  "Name": "Hansen LLC",
-  "Tooltip": "a",
+  "HeadingId": 650,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 486,
-  "UdListDefinitionId": 77,
+  "Rank": 114,
+  "UdListDefinitionId": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   }
 }

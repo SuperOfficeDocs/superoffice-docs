@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 634,
-  "NumDocumentsAlreadyMigrated": 285,
+  "NumDocumentsOmitted": 983,
+  "NumDocumentsAlreadyMigrated": 661,
   "Documents": [
     {
-      "DocumentId": 354,
-      "ContactId": 781,
-      "PersonId": 1000,
-      "SaleId": 614,
-      "ProjectId": 981,
-      "DocTmplId": 718,
-      "AssociateId": 868,
-      "UserGroupId": 169,
-      "VisibleForId": 629
+      "DocumentId": 764,
+      "ContactId": 796,
+      "PersonId": 816,
+      "SaleId": 791,
+      "ProjectId": 301,
+      "DocTmplId": 869,
+      "AssociateId": 16,
+      "UserGroupId": 448,
+      "VisibleForId": 729
     }
   ],
   "Associates": [
     {
-      "AssociateId": 252,
-      "EmailAddress": "jewell.greenfelder@carroll.name"
+      "AssociateId": 735,
+      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
     },
     {
-      "AssociateId": 252,
-      "EmailAddress": "jewell.greenfelder@carroll.name"
+      "AssociateId": 735,
+      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
     }
   ]
 }

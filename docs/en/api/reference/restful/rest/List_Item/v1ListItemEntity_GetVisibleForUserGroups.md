@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Luettgen, Mosciski and Hodkiewicz",
-    "ToolTip": "Nihil enim repellat.",
-    "Deleted": false,
-    "Rank": 448,
-    "Type": "reiciendis",
-    "ColorBlock": 598,
-    "IconHint": "ratione",
+    "Id": 863,
+    "Name": "Durgan-Conn",
+    "ToolTip": "Eius impedit.",
+    "Deleted": true,
+    "Rank": 515,
+    "Type": "sit",
+    "ColorBlock": 530,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2012-01-19T03:40:56.6807244+01:00",
+    "LastChanged": "2016-12-24T02:30:53.1786436+01:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Kuhlman-Fahey",
-        "ToolTip": "Placeat eum.",
-        "Deleted": false,
-        "Rank": 752,
-        "Type": "neque",
-        "ColorBlock": 887,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2013-05-06T03:40:56.6807244+02:00",
+        "Id": 20,
+        "Name": "Brown LLC",
+        "ToolTip": "Dicta ipsa.",
+        "Deleted": true,
+        "Rank": 496,
+        "Type": "dolor",
+        "ColorBlock": 54,
+        "IconHint": "nemo",
+        "Selected": true,
+        "LastChanged": "2003-04-17T02:30:53.1786436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "rem",
+        "ExtraInfo": "modi",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Alanis Bruen",
+        "FullName": "Courtney Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 905
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "aut",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Rozella Heathcote",
+    "FullName": "Selina D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 767
       }
     }
   }

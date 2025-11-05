@@ -94,7 +94,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 809
+  "QuoteConnectionId": 481
 }
 ```
 
@@ -105,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 211,
-  "ERPName": "Weissnat-Lindgren",
-  "DisplayName": "Ledner-Nader",
-  "DisplayDescription": "Versatile actuating access",
-  "Rank": 359,
-  "ConnectorName": "Stoltenberg Group",
-  "ErpConnectionId": 571,
-  "ExtraData": "voluptas",
+  "QuoteConnectionId": 939,
+  "ERPName": "Schaefer Group",
+  "DisplayName": "Wilderman-Beatty",
+  "DisplayDescription": "Synergized impactful function",
+  "Rank": 562,
+  "ConnectorName": "Cummerata, Mayert and Bechtelar",
+  "ErpConnectionId": 955,
+  "ExtraData": "et",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 991,
-      "ERPPriceListKey": "id",
-      "QuoteConnectionId": 272,
-      "Name": "Bartell-Gerhold",
-      "Description": "Centralized assymetric database",
-      "Currency": "nulla",
-      "CurrencyName": "Ortiz Inc and Sons",
-      "ValidFrom": "2006-02-11T03:40:47.5629587+01:00",
-      "ValidTo": "2012-06-21T03:40:47.5629587+02:00",
+      "PriceListId": 654,
+      "ERPPriceListKey": "laborum",
+      "QuoteConnectionId": 575,
+      "Name": "Jewess, Brekke and Aufderhar",
+      "Description": "Compatible local help-desk",
+      "Currency": "est",
+      "CurrencyName": "Rath Group",
+      "ValidFrom": "2024-01-29T02:30:47.7256947+01:00",
+      "ValidTo": "2008-06-02T02:30:47.7256947+02:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldLength": 273
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    33,
-    64
+    883,
+    210
   ],
   "AssociateAccessIds": [
-    382,
-    714
+    274,
+    781
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

@@ -103,20 +103,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 119,
-  "Name": "Labadie Group",
+  "ScreenChooserId": 118,
+  "Name": "Goyette-Tillman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "totam",
-  "Source": "tempore",
-  "Registered": "1998-06-06T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 907,
-  "Updated": "1999-01-19T03:40:56.4140988+01:00",
-  "UpdatedAssociateId": 174
+  "Enabled": true,
+  "UniqueIdentifier": "sunt",
+  "Source": "temporibus",
+  "Registered": "2014-05-20T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "2011-05-21T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 893
 }
 ```
 
@@ -127,22 +127,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 114,
-  "Name": "Wintheiser-Walter",
+  "ScreenChooserId": 310,
+  "Name": "Bahringer, Rempel and Russel",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "unde",
-  "Source": "est",
-  "Registered": "2006-07-15T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 104,
-  "Updated": "2025-07-22T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 758,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptatibus",
+  "Source": "perferendis",
+  "Registered": "2022-03-28T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "2015-06-14T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldLength": 381
     }
   },
   "_Links": {

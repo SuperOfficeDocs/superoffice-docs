@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -143,46 +143,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 303,
+  "HierarchyId": 152,
   "Domain": "Dashboards",
-  "Name": "Reichel, Pouros and Lynch",
-  "Fullname": "accusantium",
-  "ParentId": 825,
+  "Name": "Denesik LLC",
+  "Fullname": "quis",
+  "ParentId": 282,
   "Children": [
     {
-      "HierarchyId": 665,
+      "HierarchyId": 713,
       "Domain": "Dashboards",
-      "Name": "Schimmel LLC",
-      "Fullname": "eos",
-      "ParentId": 565,
+      "Name": "Rempel-Deckow",
+      "Fullname": "iusto",
+      "ParentId": 375,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-09-11T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 307,
-      "Updated": "2013-12-30T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 232,
+      "Registered": "2006-01-15T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 516,
+      "Updated": "2012-08-04T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 100,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 277
         }
       }
     }
   ],
-  "Registered": "2023-01-21T03:40:55.7886484+01:00",
-  "RegisteredAssociateId": 667,
-  "Updated": "2014-06-11T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 467,
+  "Registered": "2010-02-23T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 457,
+  "Updated": "2002-03-08T02:30:52.6630355+01:00",
+  "UpdatedAssociateId": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   },
   "_Links": {

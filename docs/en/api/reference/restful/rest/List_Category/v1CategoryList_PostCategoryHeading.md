@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 389,
-  "Name": "Skiles, Simonis and Monahan",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 683,
-  "UdListDefinitionId": 641
+  "HeadingId": 140,
+  "Name": "Dickens, Kiehn and Gulgowski",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "Rank": 676,
+  "UdListDefinitionId": 207
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 684,
-  "Name": "Kohler Inc and Sons",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 831,
-  "UdListDefinitionId": 983,
+  "HeadingId": 293,
+  "Name": "Reichel Inc and Sons",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 571,
+  "UdListDefinitionId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 940
     }
   }
 }

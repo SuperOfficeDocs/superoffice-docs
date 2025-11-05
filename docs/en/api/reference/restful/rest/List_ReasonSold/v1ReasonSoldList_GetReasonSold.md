@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Howell Inc and Sons",
-  "Tooltip": "dolorum",
+  "Id": 299,
+  "Name": "Torp, Murray and Sipes",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 585,
-  "Rank": 746,
+  "UdListDefinitionId": 315,
+  "Rank": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 992
     }
   }
 }

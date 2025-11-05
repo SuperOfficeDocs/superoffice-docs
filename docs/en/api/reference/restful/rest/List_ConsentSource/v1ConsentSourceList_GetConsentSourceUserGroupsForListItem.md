@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Watsica Inc and Sons",
-    "ToolTip": "Recusandae adipisci ut est ipsam itaque.",
+    "Id": 407,
+    "Name": "Mertz, Reichel and Stiedemann",
+    "ToolTip": "Et dolorem nostrum eum non voluptas.",
     "Deleted": false,
-    "Rank": 300,
-    "Type": "quo",
-    "ColorBlock": 67,
-    "IconHint": "dignissimos",
+    "Rank": 873,
+    "Type": "incidunt",
+    "ColorBlock": 136,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2019-03-15T03:40:56.7588542+01:00",
+    "LastChanged": "2019-05-27T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Schuster-Schowalter",
-        "ToolTip": "Eum voluptatem molestias cupiditate perferendis in est voluptatem.",
+        "Id": 872,
+        "Name": "Wilkinson-Luettgen",
+        "ToolTip": "Quis aut alias atque inventore distinctio et.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "rerum",
-        "ColorBlock": 302,
-        "IconHint": "accusantium",
+        "Rank": 786,
+        "Type": "et",
+        "ColorBlock": 198,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2013-05-20T03:40:56.7588542+02:00",
+        "LastChanged": "2002-11-04T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "corporis",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Mrs. Jamarcus Janie Parker",
+        "FullName": "Blanche Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 828
+            "FieldLength": 433
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Hunter Tyson Weimann Jr.",
+    "ExtraInfo": "a",
+    "StyleHint": "ullam",
+    "Hidden": true,
+    "FullName": "Mr. Isabel Quitzon PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 377
       }
     }
   }

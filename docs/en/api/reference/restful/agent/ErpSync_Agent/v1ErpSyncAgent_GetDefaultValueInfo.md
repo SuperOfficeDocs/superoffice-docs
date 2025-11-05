@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 333
+  "ErpFieldId": 795
 }
 ```
 
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 819,
-  "DefaultValue": "vel",
+  "ErpFieldId": 277,
+  "DefaultValue": "reiciendis",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "et",
+  "FirstSyncDefaultValue": "quia",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "dolorem",
+  "Mandatory": true,
+  "ErpFieldKey": "dolor",
   "FieldType": "Checkbox",
-  "ListName": "Hilll-Zboncak",
+  "ListName": "Sipes-Aufderhar",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   }
 }

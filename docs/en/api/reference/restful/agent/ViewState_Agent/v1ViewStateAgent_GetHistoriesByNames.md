@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Kilback, Kuvalis and Lindgren",
-    "Walker, Bergnaum and Kuhlman"
+    "Ferry-Rolfson",
+    "Wolf, Maggio and Dach"
   ]
 }
 ```
@@ -101,19 +101,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 938,
-    "Id": 672,
-    "HistoryName": "Toy-Turcotte",
-    "HistoryId": 322,
-    "AssociateId": 992,
-    "Name": "Berge Inc and Sons",
-    "ItemInfo": "nobis",
+    "Rank": 439,
+    "Id": 259,
+    "HistoryName": "Batz-Ortiz",
+    "HistoryId": 861,
+    "AssociateId": 626,
+    "Name": "Wolff Group",
+    "ItemInfo": "ducimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 389
       }
     }
   }

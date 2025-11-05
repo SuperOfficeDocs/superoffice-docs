@@ -95,8 +95,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Brekke, Schmeler and Stiedemann",
-  "HeadingId": 512
+  "UdListDefinitionName": "Hand-Lesch",
+  "HeadingId": 822
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Brown-Wilderman",
-    "ToolTip": "Quisquam hic quam voluptas.",
+    "Id": 268,
+    "Name": "Fadel-Schuster",
+    "ToolTip": "Qui tempore nam possimus quisquam.",
     "Deleted": true,
-    "Rank": 275,
-    "Type": "culpa",
-    "ColorBlock": 589,
-    "IconHint": "ipsa",
+    "Rank": 719,
+    "Type": "libero",
+    "ColorBlock": 255,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2020-03-24T03:40:47.0936613+01:00",
+    "LastChanged": "2007-09-06T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Hamill Group",
-        "ToolTip": "Officia eligendi.",
-        "Deleted": true,
-        "Rank": 618,
-        "Type": "et",
-        "ColorBlock": 667,
-        "IconHint": "hic",
+        "Id": 194,
+        "Name": "O'Conner, Thompson and Bauch",
+        "ToolTip": "Voluptatem sed perferendis.",
+        "Deleted": false,
+        "Rank": 582,
+        "Type": "sint",
+        "ColorBlock": 909,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2006-06-21T03:40:47.0936613+02:00",
+        "LastChanged": "2025-08-25T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Enola Lowe",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Miss Lee Rosemarie Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 475
+            "FieldType": "System.Int32",
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "velit",
+    "ExtraInfo": "ut",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Kameron Dooley",
+    "FullName": "Alexandro Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 327
       }
     }
   }

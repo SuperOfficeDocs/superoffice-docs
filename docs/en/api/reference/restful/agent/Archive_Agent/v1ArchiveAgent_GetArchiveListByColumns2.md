@@ -173,13 +173,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bayer-Klocko",
-  "Columns": "accusamus",
-  "SortOrder": "excepturi",
-  "Restrictions": "est",
-  "Entities": "quaerat",
-  "Page": 327,
-  "PageSize": 74
+  "ProviderName": "Boyle, Grimes and Prosacco",
+  "Columns": "accusantium",
+  "SortOrder": "esse",
+  "Restrictions": "voluptates",
+  "Entities": "temporibus",
+  "Page": 347,
+  "PageSize": 964
 }
 ```
 
@@ -191,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kiehn-Stark",
-    "PrimaryKey": 19,
+    "EntityName": "Lebsack-Lang",
+    "PrimaryKey": 825,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "voluptate",
-        "LinkHint": "amet"
+        "DisplayValue": "earum",
+        "TooltipHint": "fugiat",
+        "LinkHint": "porro"
       }
     },
-    "LinkHint": "dolore",
-    "StyleHint": "velit",
+    "LinkHint": "quo",
+    "StyleHint": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   }

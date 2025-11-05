@@ -70,7 +70,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Gusikowski, Halvorson and Murazik",
-    "ToolTip": "Voluptate quis.",
-    "Deleted": true,
-    "Rank": 294,
-    "Type": "laboriosam",
-    "ColorBlock": 692,
-    "IconHint": "hic",
+    "Id": 74,
+    "Name": "Metz Inc and Sons",
+    "ToolTip": "Sunt provident velit unde inventore.",
+    "Deleted": false,
+    "Rank": 779,
+    "Type": "ullam",
+    "ColorBlock": 675,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2015-10-27T03:40:56.4464449+01:00",
+    "LastChanged": "2005-08-10T02:30:53.0380235+02:00",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Hegmann-Runolfsson",
-        "ToolTip": "Enim pariatur sit quo magni architecto voluptas consequatur.",
+        "Id": 653,
+        "Name": "Collier Group",
+        "ToolTip": "Dolore quae aperiam.",
         "Deleted": true,
-        "Rank": 603,
-        "Type": "ex",
-        "ColorBlock": 224,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2015-12-05T03:40:56.4464449+01:00",
+        "Rank": 116,
+        "Type": "earum",
+        "ColorBlock": 424,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2016-06-30T02:30:53.0380235+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "est",
+        "ExtraInfo": "itaque",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Lilla Murphy Sr.",
+        "FullName": "Stacy Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Bernhard Von",
+    "ExtraInfo": "iste",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Prof. Joanny Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 770
       }
     }
   }

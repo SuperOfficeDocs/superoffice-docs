@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,79 +93,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 878,
+  "EjMessageId": 240,
   "Ticket": null,
-  "CreatedAt": "2006-01-29T03:40:48.0942399+01:00",
+  "CreatedAt": "2015-03-20T02:30:47.9756861+01:00",
   "CreatedBy": null,
-  "Author": "voluptatem",
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 376,
-  "Body": "at",
-  "HtmlBody": "nobis",
-  "EmailHeader": "darrell@auer.ca",
-  "DebugInfo": "veniam",
-  "MailSorter": "pariatur",
+  "MessageId": "cupiditate",
+  "TimeSpent": 569,
+  "Body": "dolores",
+  "HtmlBody": "culpa",
+  "EmailHeader": "donny_orn@mosciskilegros.info",
+  "DebugInfo": "quaerat",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempore",
+  "SearchTitle": "necessitatibus",
   "MessageHeaders": [
     {
-      "Id": 37,
-      "Name": "Nolan LLC",
-      "Value": "alias",
+      "Id": 826,
+      "Name": "Purdy Inc and Sons",
+      "Value": "quibusdam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 449
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     }
   ],
   "Important": false,
-  "Language": "in",
-  "Sentiment": 376,
-  "SentimentConfidence": 116,
+  "Language": "corporis",
+  "Sentiment": 226,
+  "SentimentConfidence": 11,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 28,
-      "Name": "Kerluke, Reinger and Fay",
-      "ContentType": "voluptatem",
-      "AttSize": 77,
+      "AttachmentId": 68,
+      "Name": "Rolfson, Ullrich and Gutkowski",
+      "ContentType": "magni",
+      "AttSize": 950,
       "InlineImage": false,
-      "ContentId": "quod",
-      "AuthKey": "at",
-      "IsSafeFileExtension": false,
+      "ContentId": "est",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 865
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "est",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "soluta"
+    "CustomFields1": "dolores",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 893,
-  "TableName": "Kuhn Inc and Sons",
+  "RoleId": 505,
+  "TableName": "Stracke-Renner",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -93,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"facilis"
+"animi"
 ```

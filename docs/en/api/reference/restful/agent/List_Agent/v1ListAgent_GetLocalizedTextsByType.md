@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "repudiandae",
-    "velit"
+    "reiciendis",
+    "accusantium"
   ]
 }
 ```
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 566,
-    "ResourceId": 261,
-    "Text": "laboriosam",
+    "LanguageId": 279,
+    "ResourceId": 565,
+    "Text": "quia",
     "Type": "Column",
-    "LocalizedTextId": 280,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 918,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

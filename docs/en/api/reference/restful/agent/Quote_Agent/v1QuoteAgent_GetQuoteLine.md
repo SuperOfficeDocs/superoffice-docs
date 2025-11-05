@@ -128,7 +128,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 555
+  "QuoteLineId": 439
 }
 ```
 
@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 743,
-  "ERPQuoteLineKey": "aut",
-  "QuoteAlternativeId": 255,
-  "ERPProductKey": "laudantium",
+  "QuoteLineId": 972,
+  "ERPQuoteLineKey": "ipsum",
+  "QuoteAlternativeId": 130,
+  "ERPProductKey": "quisquam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7267.746,
-  "DeliveredQuantity": 31333.732,
-  "Rank": 46,
-  "Name": "Carroll LLC",
-  "Description": "Organized systemic installation",
-  "Code": "dolores",
-  "QuantityUnit": "assumenda",
-  "PriceUnit": "eos",
-  "ItemNumber": "398908",
+  "Quantity": 15525.836,
+  "DeliveredQuantity": 18384.043999999998,
+  "Rank": 418,
+  "Name": "Pagac-Greenholt",
+  "Description": "Ameliorated 4th generation challenge",
+  "Code": "libero",
+  "QuantityUnit": "hic",
+  "PriceUnit": "voluptas",
+  "ItemNumber": "977056",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "doloremque",
-  "Supplier": "voluptate",
-  "SupplierCode": "dolorem",
-  "Thumbnail": "ut",
-  "VATInfo": "tempora",
-  "VAT": 23620.958,
-  "UnitCost": 26570.052,
-  "UnitMinimumPrice": 30440.541999999998,
-  "UnitListPrice": 17939.016,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "et",
+  "Supplier": "repellat",
+  "SupplierCode": "ad",
+  "Thumbnail": "fuga",
+  "VATInfo": "est",
+  "VAT": 24539.219999999998,
+  "UnitCost": 17089.702,
+  "UnitMinimumPrice": 16986.28,
+  "UnitListPrice": 3857.9539999999997,
   "ExtraInfo": [
     {
-      "Name": "Smitham LLC",
+      "Name": "Greenfelder Inc and Sons",
       "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 418
         }
       }
     },
     {
-      "Name": "Smitham LLC",
+      "Name": "Greenfelder Inc and Sons",
       "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 418
         }
       }
     }
   ],
-  "RawExtraInfo": "quas",
+  "RawExtraInfo": "ipsa",
   "IsSubscription": true,
-  "SubscriptionUnit": "cum",
-  "SubscriptionQuantity": 14989.921999999999,
-  "SubscriptionStart": "2008-05-02T03:40:47.5785846+02:00",
-  "ERPDiscountPercent": 25119.01,
-  "ERPDiscountAmount": 13253.686,
-  "DiscountPercent": 24865.156,
-  "DiscountAmount": 4177.622,
+  "SubscriptionUnit": "culpa",
+  "SubscriptionQuantity": 8019.906,
+  "SubscriptionStart": "2004-12-22T02:30:47.7413192+01:00",
+  "ERPDiscountPercent": 523.37799999999993,
+  "ERPDiscountAmount": 22060.226,
+  "DiscountPercent": 11401.492,
+  "DiscountAmount": 8295.698,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17566.07,
-  "EarningAmount": 19954.178,
-  "SubTotal": 14287.905999999999,
-  "TotalPrice": 9079.198,
-  "Rights": "odit",
-  "Rule": "ea",
-  "ExtraField1": "soluta",
-  "ExtraField2": "corporis",
-  "ExtraField3": "minima",
-  "ExtraField4": "quas",
-  "ExtraField5": "praesentium",
+  "EarningPercent": 12977.894,
+  "EarningAmount": 31236.577999999998,
+  "SubTotal": 27532.19,
+  "TotalPrice": 27438.17,
+  "Rights": "qui",
+  "Rule": "earum",
+  "ExtraField1": "quia",
+  "ExtraField2": "temporibus",
+  "ExtraField3": "eos",
+  "ExtraField4": "et",
+  "ExtraField5": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 234
     }
   }
 }

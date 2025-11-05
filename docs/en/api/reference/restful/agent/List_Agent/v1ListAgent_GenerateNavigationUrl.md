@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Crooks, Quitzon and Kuhn"
+  "WindowName": "Kunde LLC"
 }
 ```
 

@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 666,
+  "TicketMessageEntityId": 403,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -118,79 +118,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 800,
+  "EjMessageId": 124,
   "Ticket": null,
-  "CreatedAt": "2002-07-21T03:40:47.9067285+02:00",
+  "CreatedAt": "2015-07-10T02:30:47.8819394+02:00",
   "CreatedBy": null,
-  "Author": "possimus",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 78,
-  "Body": "reiciendis",
-  "HtmlBody": "hic",
-  "EmailHeader": "lilian@priceemard.us",
-  "DebugInfo": "eos",
-  "MailSorter": "quibusdam",
+  "MessageId": "similique",
+  "TimeSpent": 915,
+  "Body": "maxime",
+  "HtmlBody": "voluptatibus",
+  "EmailHeader": "diana.weissnat@ferrygislason.com",
+  "DebugInfo": "similique",
+  "MailSorter": "sit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odit",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 678,
-      "Name": "Kozey-Dickens",
-      "Value": "ut",
+      "Id": 569,
+      "Name": "Graham, Rogahn and Beer",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "eum",
-  "Sentiment": 247,
-  "SentimentConfidence": 159,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 703,
+  "SentimentConfidence": 744,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 574,
-      "Name": "Howell-Collier",
-      "ContentType": "illum",
-      "AttSize": 786,
+      "AttachmentId": 984,
+      "Name": "Mraz Inc and Sons",
+      "ContentType": "quos",
+      "AttSize": 736,
       "InlineImage": true,
-      "ContentId": "corporis",
-      "AuthKey": "assumenda",
-      "IsSafeFileExtension": false,
+      "ContentId": "officia",
+      "AuthKey": "maiores",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "sint"
+    "CustomFields1": "sint",
+    "CustomFields2": "illo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

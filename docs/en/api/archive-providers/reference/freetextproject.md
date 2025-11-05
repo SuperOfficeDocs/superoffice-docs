@@ -92,7 +92,7 @@ as well as before any ORDER BY, are applied.
 |projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -146,7 +146,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectUrl/URLAddress,projectAssociate/role
+GET /api/v1/archive/FreetextProject?$select=projectAssociate/personId,projectUrl/URLAddress,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

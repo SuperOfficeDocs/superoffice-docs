@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ullam"
+  "SearchString": "perspiciatis"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "064.568.5811 x3288",
-    "PersonCellPhone": "1-182-967-3962",
-    "PersonPrivatePhone": "959.638.0801 x6344",
-    "PersonFaxNumber": "1602804",
-    "PersonPagerNumber": "1467815",
-    "PersonEmail": "lavern@kunze.name",
-    "Id": 281,
-    "Name": "Gulgowski LLC",
+    "PersonDirectPhone": "(203)792-6309 x1236",
+    "PersonCellPhone": "1-333-327-1916 x83069",
+    "PersonPrivatePhone": "894.943.6274",
+    "PersonFaxNumber": "1619398",
+    "PersonPagerNumber": "367388",
+    "PersonEmail": "darion@okunevaerdman.biz",
+    "Id": 194,
+    "Name": "Lynch-Murphy",
     "Tooltip": "asperiores",
-    "UniqueId": "incidunt",
+    "UniqueId": "assumenda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 520
       }
     }
   }

@@ -32,7 +32,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=802
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=796
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 972,
-  "Name": "Maggio-Farrell",
-  "Tooltip": "maxime",
+  "RoleId": 249,
+  "Name": "Kuphal-Daugherty",
+  "Tooltip": "numquam",
   "RoleType": "Anonymous",
-  "Deleted": 428,
-  "Rank": 651,
-  "Created": "2013-04-27T03:40:48.1567456+02:00",
-  "UseCategories": 992,
+  "Deleted": 268,
+  "Rank": 286,
+  "Created": "2016-02-16T02:30:48.0850579+01:00",
+  "UseCategories": 463,
   "CreatedBy": null,
-  "Updated": "2016-01-22T03:40:48.1567456+01:00",
+  "Updated": "2022-08-26T02:30:48.0850579+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 202
     }
   }
 }

@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 663
+  "UserGroupId": 950
 }
 ```
 
@@ -127,46 +127,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 291,
-    "ColumnId": 700,
-    "FieldDefault": "deserunt",
-    "FieldHeight": 268,
-    "FieldLabel": "aspernatur",
-    "FieldLeft": 748,
-    "FieldTop": 333,
+    "UDefFieldId": 810,
+    "ColumnId": 592,
+    "FieldDefault": "et",
+    "FieldHeight": 483,
+    "FieldLabel": "repellendus",
+    "FieldLeft": 129,
+    "FieldTop": 870,
     "FieldType": "Checkbox",
-    "FieldWidth": 72,
-    "FormatMask": "nam",
+    "FieldWidth": 573,
+    "FormatMask": "necessitatibus",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 786,
-    "LabelLeft": 87,
-    "LabelTop": 819,
-    "LabelWidth": 892,
-    "LastVersionId": 936,
-    "ListTableId": 688,
+    "IsIndexed": false,
+    "LabelHeight": 120,
+    "LabelLeft": 257,
+    "LabelTop": 437,
+    "LabelWidth": 254,
+    "LastVersionId": 370,
+    "ListTableId": 87,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 503,
-    "ProgId": "atque",
-    "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 581,
-    "TextLength": 919,
-    "Tooltip": "culpa",
-    "UdefIdentity": 569,
-    "UDListDefinitionId": 492,
+    "Page1LineNo": 616,
+    "ProgId": "nesciunt",
+    "IsReadOnly": false,
+    "ShortLabel": "possimus",
+    "TabOrder": 732,
+    "TextLength": 232,
+    "Tooltip": "officia",
+    "UdefIdentity": 924,
+    "UDListDefinitionId": 597,
     "Justification": "Center",
-    "Version": 445,
-    "TemplateVariableName": "Legros, Boyle and O'Connell",
+    "Version": 601,
+    "TemplateVariableName": "Bins, Runolfsdottir and Satterfield",
     "HasBeenPublished": true,
-    "MdoListName": "Rath Group",
+    "MdoListName": "Gleichner, Cummings and Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldLength": 886
       }
     }
   }

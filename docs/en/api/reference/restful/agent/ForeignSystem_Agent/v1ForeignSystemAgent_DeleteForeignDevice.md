@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "McCullough Group"
+  "ApplicationName": "Ankunding, Kovacek and Friesen"
 }
 ```
 

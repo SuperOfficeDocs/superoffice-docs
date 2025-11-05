@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Paucek, Wilderman and Deckow",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "UdListDefinitionId": 26,
-  "Rank": 998
+  "Id": 636,
+  "Name": "Koelpin Group",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 505,
+  "Rank": 228
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "amet",
+  "Id": 517,
+  "Name": "Orn, Greenholt and Bartell",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 622,
-  "Rank": 455,
+  "UdListDefinitionId": 743,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 541
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Rippin Inc and Sons",
-  "NewSerialNumber": "974192"
+  "NewCompanyName": "Shields, Halvorson and Kohler",
+  "NewSerialNumber": "924756"
 }
 ```
 
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

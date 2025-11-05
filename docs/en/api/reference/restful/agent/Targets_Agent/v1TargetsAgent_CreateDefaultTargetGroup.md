@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 656,
-  "Year": 626,
+  "TargetGroupId": 886,
+  "Year": 216,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 415,
+      "TargetAssignmentInfoId": 739,
       "Values": [
-        593,
-        990
+        163,
+        558
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 709,
-      "DimensionListItemDisplayName": "Willms LLC",
+      "DimensionListItem": 682,
+      "DimensionListItemDisplayName": "Lang, Walker and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 589
         }
       }
     }
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 892
     }
   }
 }

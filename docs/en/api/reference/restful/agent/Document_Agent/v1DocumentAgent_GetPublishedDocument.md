@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 753
+  "DocumentId": 74
 }
 ```
 
@@ -110,32 +110,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 80,
-  "Attention": "culpa",
-  "Header": "perspiciatis",
-  "Name": "Bartell, Fay and Reilly",
-  "OurRef": "nostrum",
-  "YourRef": "nihil",
-  "Description": "Reactive hybrid database",
-  "DocumentTemplate": "doloribus",
-  "IsPublished": true,
-  "PersonId": 834,
-  "PersonFullName": "Ms. Noelia Josiah Pfannerstill II",
-  "AssociateFullName": "Tre Roberts",
-  "ContactId": 13,
-  "ContactName": "McLaughlin Inc and Sons",
-  "ProjectId": 383,
-  "ProjectName": "Casper Inc and Sons",
-  "AssociateId": 490,
-  "Snum": 758,
-  "SaleId": 787,
-  "SaleName": "Kessler, Schaden and Collins",
+  "DocumentId": 547,
+  "Attention": "magnam",
+  "Header": "sunt",
+  "Name": "Johnston-Wisoky",
+  "OurRef": "ea",
+  "YourRef": "amet",
+  "Description": "Automated composite array",
+  "DocumentTemplate": "quia",
+  "IsPublished": false,
+  "PersonId": 555,
+  "PersonFullName": "Mr. Alverta Oswald Watsica",
+  "AssociateFullName": "Mr. Liliana Terry IV",
+  "ContactId": 472,
+  "ContactName": "Gleason, Bahringer and Rohan",
+  "ProjectId": 17,
+  "ProjectName": "Dickens-Senger",
+  "AssociateId": 550,
+  "Snum": 489,
+  "SaleId": 66,
+  "SaleName": "Gorczany, Braun and Stark",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 528
     }
   }
 }

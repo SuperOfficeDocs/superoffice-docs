@@ -103,7 +103,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,53 +113,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aliquam",
-  "PersonId": 637,
-  "Mrmrs": "rerum",
-  "Firstname": "Lukas",
-  "Lastname": "Hodkiewicz",
-  "MiddleName": "Wiegand Group",
-  "Title": "voluptate",
-  "Description": "Mandatory dedicated protocol",
-  "Email": "eddie.flatley@streich.us",
-  "FullName": "Miss Bruce Webster Klein PhD",
-  "DirectPhone": "977-989-9694 x680",
-  "FormalName": "Watsica, Kreiger and Lesch",
-  "CountryId": 39,
-  "ContactId": 813,
-  "ContactName": "Ortiz, Cronin and Collins",
-  "Retired": 587,
-  "Rank": 493,
-  "ActiveInterests": 754,
+  "Position": "qui",
+  "PersonId": 137,
+  "Mrmrs": "est",
+  "Firstname": "Bret",
+  "Lastname": "Gulgowski",
+  "MiddleName": "Renner-Glover",
+  "Title": "architecto",
+  "Description": "Diverse uniform emulation",
+  "Email": "nadia@beahan.us",
+  "FullName": "Eliane Maggio",
+  "DirectPhone": "019-745-7922",
+  "FormalName": "Schmidt-Hettinger",
+  "CountryId": 783,
+  "ContactId": 935,
+  "ContactName": "Kohler-Dietrich",
+  "Retired": 398,
+  "Rank": 59,
+  "ActiveInterests": 650,
   "ContactDepartment": "",
-  "ContactCountryId": 362,
-  "ContactOrgNr": "871239",
-  "FaxPhone": "238-866-4867 x7295",
-  "MobilePhone": "1-824-273-3849 x7634",
-  "ContactPhone": "1-941-010-9787 x065",
-  "AssociateName": "Crona, Pollich and Johns",
-  "AssociateId": 462,
+  "ContactCountryId": 104,
+  "ContactOrgNr": "1214755",
+  "FaxPhone": "598-675-0453 x947",
+  "MobilePhone": "(930)466-6428",
+  "ContactPhone": "533-972-3554 x108",
+  "AssociateName": "Ritchie-Connelly",
+  "AssociateId": 689,
   "UsePersonAddress": false,
-  "ContactFax": "nostrum",
-  "Kanafname": "sunt",
-  "Kanalname": "suscipit",
-  "Post1": "accusantium",
-  "Post2": "consequatur",
-  "Post3": "excepturi",
-  "EmailName": "alphonso@nicolaswest.uk",
-  "ContactFullName": "Miss Darien Christ Raynor",
-  "ActiveErpLinks": 148,
-  "TicketPriorityId": 320,
-  "SupportLanguageId": 347,
-  "SupportAssociateId": 9,
+  "ContactFax": "nihil",
+  "Kanafname": "aspernatur",
+  "Kanalname": "expedita",
+  "Post1": "in",
+  "Post2": "ad",
+  "Post3": "laudantium",
+  "EmailName": "arnulfo@bartonwindler.name",
+  "ContactFullName": "Eve Cummings",
+  "ActiveErpLinks": 569,
+  "TicketPriorityId": 50,
+  "SupportLanguageId": 658,
+  "SupportAssociateId": 682,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1053994",
+  "PersonNumber": "1272969",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

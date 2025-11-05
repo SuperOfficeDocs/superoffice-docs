@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Wisoky-Heaney",
-    "AssociateId": 62,
-    "DetailsTable": 501,
-    "DetailsRecord": 399,
+    "Id": 768,
+    "Name": "Roob-Howe",
+    "AssociateId": 768,
+    "DetailsTable": 61,
+    "DetailsRecord": 695,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "perspiciatis"
+      "ParameterObject1": "saepe",
+      "ParameterObject2": "libero"
     },
-    "LastStarted": "2018-12-19T03:40:56.4303339+01:00",
-    "Created": "2003-09-01T03:40:56.4303339+02:00",
-    "StartCount": 576,
-    "DatabaseSerialNumber": "1029171",
-    "Context": "quasi",
-    "Result": "quo",
+    "LastStarted": "2013-04-11T02:30:53.0380235+02:00",
+    "Created": "2000-06-27T02:30:53.0380235+02:00",
+    "StartCount": 380,
+    "DatabaseSerialNumber": "305135",
+    "Context": "natus",
+    "Result": "magni",
     "State": "All",
-    "Description": "Digitized dynamic monitoring",
-    "Response": "dolores",
-    "Request": "explicabo",
-    "ProgressDescription": "Operative solution-oriented customer loyalty",
-    "ProgressPercent": 343,
-    "FileName": "Smith Inc and Sons",
+    "Description": "Reverse-engineered transitional internet solution",
+    "Response": "sapiente",
+    "Request": "numquam",
+    "ProgressDescription": "Mandatory executive model",
+    "ProgressPercent": 35,
+    "FileName": "Jenkins LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 390
       }
     }
   }

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
+  "Id": 616,
   "IncludeAttachments": true
 }
 ```
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 809,
-      "ContactName": "Jacobson-Gibson",
-      "PersonId": 690,
-      "PersonName": "Heaney-D'Amore",
-      "AssociateId": 494,
-      "Address": "iusto",
-      "EmailId": 871,
+      "ContactId": 117,
+      "ContactName": "Hagenes, Gibson and Purdy",
+      "PersonId": 967,
+      "PersonName": "Veum-Koelpin",
+      "AssociateId": 227,
+      "Address": "consequatur",
+      "EmailId": 660,
       "DuplicatePersonIds": [
-        824,
-        506
+        691,
+        925
       ],
-      "Name": "Torp Group",
+      "Name": "O'Hara-Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldLength": 828
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 987,
-      "ContactName": "Dicki-Conroy",
-      "PersonId": 42,
-      "PersonName": "Smith Inc and Sons",
-      "AssociateId": 517,
-      "Address": "impedit",
-      "EmailId": 538,
+      "ContactId": 950,
+      "ContactName": "Jacobs, Huel and Harvey",
+      "PersonId": 659,
+      "PersonName": "Zemlak Group",
+      "AssociateId": 928,
+      "Address": "eos",
+      "EmailId": 578,
       "DuplicatePersonIds": [
-        533,
-        375
+        284,
+        459
       ],
-      "Name": "Harvey-Hansen",
+      "Name": "Wiegand Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 310
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 389,
-      "ContactName": "Hessel-Johnston",
-      "PersonId": 376,
-      "PersonName": "Feest Inc and Sons",
-      "AssociateId": 561,
-      "Address": "ut",
-      "EmailId": 637,
+      "ContactId": 344,
+      "ContactName": "Barrows Group",
+      "PersonId": 624,
+      "PersonName": "Yost, Hansen and Spencer",
+      "AssociateId": 718,
+      "Address": "at",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        619,
-        879
+        376,
+        216
       ],
-      "Name": "Becker, Schiller and Schinner",
+      "Name": "Reynolds, Davis and Schultz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldType": "System.String",
+          "FieldLength": 89
         }
       }
     }
   ],
-  "Subject": "nulla",
-  "HTMLBody": "magnam",
+  "Subject": "in",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2006-05-04T03:40:46.9061483+02:00",
-  "Size": 516,
+  "Sent": "2005-06-10T02:30:47.3194579+02:00",
+  "Size": 640,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "placeat",
-  "PlainBody": "laudantium",
-  "IsSent": true,
+  "MessageID": "ipsum",
+  "PlainBody": "incidunt",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 188,
+  "ServerId": 568,
   "Attachments": [
     {
-      "Description": "Assimilated transitional access",
-      "Filename": "qui",
-      "Size": 270,
-      "Type": "doloremque",
-      "Encoding": "fuga",
-      "Id": "sit",
-      "Disposition": "placeat",
+      "Description": "Configurable impactful pricing structure",
+      "Filename": "aut",
+      "Size": 907,
+      "Type": "facilis",
+      "Encoding": "autem",
+      "Id": "eum",
+      "Disposition": "hic",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,50 +222,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 916
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Emard Inc and Sons",
+      "Name": "Mosciski, Skiles and Langosh",
       "Values": [
-        "corporis",
-        "ex"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldLength": 149
         }
       }
     },
     {
-      "Name": "Emard Inc and Sons",
+      "Name": "Mosciski, Skiles and Langosh",
       "Values": [
-        "corporis",
-        "ex"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldLength": 149
         }
       }
     }
   ],
-  "FolderName": "Pfannerstill-Adams",
-  "EmailItemId": 265,
-  "AccountId": 157,
-  "ReceivedAt": "2021-12-11T03:40:46.9061483+01:00",
+  "FolderName": "Windler LLC",
+  "EmailItemId": 789,
+  "AccountId": 931,
+  "ReceivedAt": "2010-11-20T02:30:47.3194579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-08-29T03:40:46.9061483+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2000-01-25T02:30:47.3194579+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 621
     }
   }
 }

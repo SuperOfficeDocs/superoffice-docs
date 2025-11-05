@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 216,
-  "Section": "nostrum",
-  "Key": "et",
-  "Name": "Hamill Group",
+  "PrefDescId": 858,
+  "Section": "quis",
+  "Key": "exercitationem",
+  "Name": "Fritsch, Bauch and Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering analyzing monitoring",
+  "Description": "User-centric national access",
   "IsBuiltin": false,
-  "TableName": "Schultz-Walker",
-  "UserDefinedListId": 818,
-  "Rank": 642,
-  "SubGroup": "sint",
-  "MinLevel": 180,
-  "MaxValue": 664,
-  "MinValue": 713,
-  "RequiredLicense": "voluptas",
+  "TableName": "Ferry-Lindgren",
+  "UserDefinedListId": 558,
+  "Rank": 74,
+  "SubGroup": "ab",
+  "MinLevel": 256,
+  "MaxValue": 766,
+  "MinValue": 194,
+  "RequiredLicense": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldLength": 143
     }
   }
 }

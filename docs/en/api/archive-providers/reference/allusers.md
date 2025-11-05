@@ -75,7 +75,7 @@ the actual functionality of the provider.
 |assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |ejUserId|int|Service user ID: The database ID of a Service user|  |
 |simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ejDisplayName|string|Nick name: User's nick name in Service| x |
+|ejDisplayName|string|Nickname: User's nickname in Service| x |
 |ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -91,7 +91,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=mrMrs,contactCategory,superoffice_outlook-synchronizer
+GET /api/v1/archive/AllUsers?$select=superoffice_reporter-studio-user,superoffice_outlook-synchronizer,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

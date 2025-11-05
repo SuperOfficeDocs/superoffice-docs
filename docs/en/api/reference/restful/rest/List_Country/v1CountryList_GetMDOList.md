@@ -28,7 +28,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=eligendi
+GET /api/v1/List/Country/MDOItems?query=laboriosam
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Balistreri LLC",
-    "ToolTip": "Voluptatum mollitia sed quia architecto necessitatibus quasi.",
+    "Id": 851,
+    "Name": "Mueller, Brakus and Walter",
+    "ToolTip": "Dolores reiciendis dolor.",
     "Deleted": false,
-    "Rank": 12,
-    "Type": "et",
+    "Rank": 585,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Baumbach Group",
-        "ToolTip": "Non quo at ratione.",
+        "Id": 190,
+        "Name": "Ward-Wisozk",
+        "ToolTip": "Similique doloremque.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "quo",
+        "Rank": 842,
+        "Type": "illo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 760,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "sed",
-        "FullName": "Manuel Greg Nicolas IV",
+        "IconHint": "sequi",
+        "ColorBlock": 721,
+        "ExtraInfo": "tempore",
+        "StyleHint": "eligendi",
+        "FullName": "Prof. Zakary Alta Moen II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 296,
-    "ExtraInfo": "ea",
-    "StyleHint": "sit",
-    "FullName": "Talon Williamson",
+    "IconHint": "quod",
+    "ColorBlock": 33,
+    "ExtraInfo": "molestias",
+    "StyleHint": "quae",
+    "FullName": "Mr. Patricia Matteo Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

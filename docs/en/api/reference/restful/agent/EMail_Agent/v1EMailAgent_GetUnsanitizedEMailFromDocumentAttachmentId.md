@@ -107,16 +107,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 335,
+  "DocId": 404,
   "AttachmentIds": [
-    "incidunt",
-    "eum"
+    "praesentium",
+    "quis"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -129,147 +129,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 44,
-      "ContactName": "Upton Inc and Sons",
-      "PersonId": 65,
-      "PersonName": "Rice-Hansen",
-      "AssociateId": 321,
-      "Address": "autem",
-      "EmailId": 405,
+      "ContactId": 157,
+      "ContactName": "Boehm, Hartmann and Vandervort",
+      "PersonId": 894,
+      "PersonName": "Cole Inc and Sons",
+      "AssociateId": 926,
+      "Address": "ut",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        362,
-        651
+        391,
+        189
       ],
-      "Name": "Rutherford-D'Amore",
+      "Name": "Wiza, Boyer and Hessel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldLength": 531
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 482,
-      "ContactName": "Gutmann, Shanahan and Hane",
-      "PersonId": 29,
-      "PersonName": "Abshire-Rath",
-      "AssociateId": 296,
-      "Address": "sequi",
-      "EmailId": 58,
+      "ContactId": 972,
+      "ContactName": "Grant, Fay and Hauck",
+      "PersonId": 111,
+      "PersonName": "Lubowitz, Heaney and Schaden",
+      "AssociateId": 660,
+      "Address": "quae",
+      "EmailId": 131,
       "DuplicatePersonIds": [
-        306,
-        679
+        2,
+        698
       ],
-      "Name": "Shields, Kilback and Hauck",
+      "Name": "Blanda Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldType": "System.Int32",
+          "FieldLength": 741
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 571,
-      "ContactName": "Durgan-Ziemann",
-      "PersonId": 817,
-      "PersonName": "Langosh Inc and Sons",
-      "AssociateId": 62,
-      "Address": "vel",
-      "EmailId": 922,
+      "ContactId": 495,
+      "ContactName": "Nikolaus-Friesen",
+      "PersonId": 122,
+      "PersonName": "Wyman Group",
+      "AssociateId": 10,
+      "Address": "repellat",
+      "EmailId": 733,
       "DuplicatePersonIds": [
-        530,
-        912
+        253,
+        690
       ],
-      "Name": "Boyle, Hayes and Johnston",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 355
-        }
-      }
-    }
-  ],
-  "Subject": "animi",
-  "HTMLBody": "debitis",
-  "From": null,
-  "Sent": "2007-07-23T03:40:46.8905223+02:00",
-  "Size": 103,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "et",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 307,
-  "Attachments": [
-    {
-      "Description": "Enhanced static application",
-      "Filename": "fugiat",
-      "Size": 95,
-      "Type": "pariatur",
-      "Encoding": "vitae",
-      "Id": "harum",
-      "Disposition": "voluptates",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Runolfsson, Jacobson and Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 164
+          "FieldLength": 969
+        }
+      }
+    }
+  ],
+  "Subject": "perspiciatis",
+  "HTMLBody": "harum",
+  "From": null,
+  "Sent": "2000-09-20T02:30:47.3038336+02:00",
+  "Size": 584,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "quisquam",
+  "PlainBody": "praesentium",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 768,
+  "Attachments": [
+    {
+      "Description": "Ameliorated solution-oriented intranet",
+      "Filename": "commodi",
+      "Size": 442,
+      "Type": "laboriosam",
+      "Encoding": "sed",
+      "Id": "consequatur",
+      "Disposition": "iure",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 79
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cummerata Group",
+      "Name": "Jones-Champlin",
       "Values": [
-        "et",
-        "praesentium"
+        "facilis",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     },
     {
-      "Name": "Cummerata Group",
+      "Name": "Jones-Champlin",
       "Values": [
-        "et",
-        "praesentium"
+        "facilis",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
-  "FolderName": "Hirthe Inc and Sons",
-  "EmailItemId": 588,
-  "AccountId": 311,
-  "ReceivedAt": "2018-04-19T03:40:46.8905223+02:00",
+  "FolderName": "Zulauf-Jacobson",
+  "EmailItemId": 644,
+  "AccountId": 1001,
+  "ReceivedAt": "2010-05-19T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-03-04T03:40:46.8905223+01:00",
+  "RepliedAt": "2023-05-22T02:30:47.3038336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldLength": 413
     }
   }
 }

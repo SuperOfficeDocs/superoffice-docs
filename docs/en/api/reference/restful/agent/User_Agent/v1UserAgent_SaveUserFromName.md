@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Hodkiewicz Group",
+  "UserName": "Nikolaus, Fahey and Russel",
   "User": null
 }
 ```
@@ -120,14 +120,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 405,
-  "Name": "Haag, Larkin and Bogisich",
-  "Rank": 191,
-  "Tooltip": "alias",
+  "AssociateId": 590,
+  "Name": "Daniel, Anderson and Emmerich",
+  "Rank": 241,
+  "Tooltip": "libero",
   "LicenseOwners": [
     {
-      "Name": "Dicki LLC",
-      "Description": "Devolved real-time adapter",
+      "Name": "Hettinger-Gislason",
+      "Description": "Front-line client-server orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 704
         }
       }
     },
     {
-      "Name": "Dicki LLC",
-      "Description": "Devolved real-time adapter",
+      "Name": "Hettinger-Gislason",
+      "Description": "Front-line client-server orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 704
         }
       }
     }
@@ -170,110 +170,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "rerum",
-      "Tooltip": "et",
-      "Id": 133,
-      "Rank": 489,
+      "Value": "est",
+      "Tooltip": "officiis",
+      "Id": 153,
+      "Rank": 839,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 900
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-08-25T03:40:48.2348737+02:00",
-  "Lastlogout": "2016-03-21T03:40:48.2348737+01:00",
-  "EjUserId": 377,
-  "RequestSignature": "sapiente",
+  "Lastlogin": "2008-11-03T02:30:48.1163068+01:00",
+  "Lastlogout": "2017-02-27T02:30:48.1163068+01:00",
+  "EjUserId": 15,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "soluta",
+      "Value": "officia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "soluta",
+      "Value": "officia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     }
   ],
-  "UserName": "Jaskolski, Boehm and Rogahn",
+  "UserName": "Kling-Graham",
   "TicketCategories": [
     {
-      "Id": 953,
-      "Name": "Wolff-Little",
-      "ToolTip": "Et voluptatem.",
-      "Deleted": true,
-      "Rank": 908,
-      "Type": "animi",
+      "Id": 638,
+      "Name": "Auer-O'Connell",
+      "ToolTip": "Tempore vel rerum dolorem.",
+      "Deleted": false,
+      "Rank": 796,
+      "Type": "ullam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 264,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "vel",
-      "FullName": "Prof. Jerod Jaydon Frami MD",
+      "IconHint": "dolores",
+      "ColorBlock": 271,
+      "ExtraInfo": "a",
+      "StyleHint": "aperiam",
+      "FullName": "Bradly Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldLength": 906
         }
       }
     }
   ],
-  "NickName": "Mills-Collier",
-  "WaitingForApproval": true,
+  "NickName": "Weissnat Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "rerum"
+    "CustomFields1": "rerum",
+    "CustomFields2": "porro"
   },
   "PostSaveCommands": [
     {
-      "Name": "Braun-Reichert",
-      "DisplayName": "Russel, O'Keefe and Ryan",
-      "Description": "Fundamental 4th generation attitude",
-      "ToolTip": "Sunt porro.",
+      "Name": "Davis, Murphy and Moore",
+      "DisplayName": "Hilll-Nolan",
+      "Description": "Synergized real-time secured line",
+      "ToolTip": "Voluptatem est illum suscipit dolor aliquid.",
       "Actions": "Implicit",
-      "ActionData": "porro",
+      "ActionData": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 639
         }
       }
     }
@@ -282,8 +282,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 713
     }
   }
 }

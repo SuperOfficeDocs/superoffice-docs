@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Prosacco-Kuhic",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 735,
-  "IsCustomList": false,
+  "Id": 60,
+  "Name": "Pacocha, McCullough and Anderson",
+  "Tooltip": "perspiciatis",
+  "Deleted": true,
+  "Rank": 899,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 425
     }
   },
   "_Links": {

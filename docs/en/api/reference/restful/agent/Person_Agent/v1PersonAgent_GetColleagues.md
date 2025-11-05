@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -119,53 +119,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 509,
-    "Mrmrs": "cum",
-    "Firstname": "Gregg",
-    "Lastname": "Johnston",
-    "MiddleName": "Borer-Lang",
-    "Title": "qui",
-    "Description": "Assimilated stable Graphical User Interface",
-    "Email": "viva.wehner@swaniawskisporer.uk",
-    "FullName": "Onie Barton",
-    "DirectPhone": "654.410.6248",
-    "FormalName": "Torp, Lesch and Sipes",
-    "CountryId": 377,
-    "ContactId": 235,
-    "ContactName": "Hartmann-Von",
-    "Retired": 382,
-    "Rank": 226,
-    "ActiveInterests": 589,
-    "ContactDepartment": "",
-    "ContactCountryId": 93,
-    "ContactOrgNr": "685584",
-    "FaxPhone": "(969)280-1723 x87879",
-    "MobilePhone": "465-680-3156 x172",
-    "ContactPhone": "139.334.1762 x173",
-    "AssociateName": "Fahey LLC",
-    "AssociateId": 845,
-    "UsePersonAddress": true,
-    "ContactFax": "eligendi",
-    "Kanafname": "dignissimos",
-    "Kanalname": "dolorum",
-    "Post1": "dolorum",
-    "Post2": "maiores",
-    "Post3": "ut",
-    "EmailName": "maybell.hessel@satterfield.info",
-    "ContactFullName": "Oral Shawn O'Keefe IV",
-    "ActiveErpLinks": 869,
-    "TicketPriorityId": 1000,
-    "SupportLanguageId": 718,
-    "SupportAssociateId": 946,
+    "Position": "architecto",
+    "PersonId": 118,
+    "Mrmrs": "aut",
+    "Firstname": "Cloyd",
+    "Lastname": "Wolf",
+    "MiddleName": "Tremblay-Flatley",
+    "Title": "et",
+    "Description": "Enhanced executive frame",
+    "Email": "brett@prohaska.info",
+    "FullName": "Josiane Bartell",
+    "DirectPhone": "835.738.0258 x946",
+    "FormalName": "Parker, Swaniawski and Bahringer",
+    "CountryId": 216,
+    "ContactId": 122,
+    "ContactName": "Hills, Willms and Smith",
+    "Retired": 461,
+    "Rank": 208,
+    "ActiveInterests": 417,
+    "ContactDepartment": "drive e-business platforms",
+    "ContactCountryId": 927,
+    "ContactOrgNr": "485939",
+    "FaxPhone": "1-024-164-2252 x6478",
+    "MobilePhone": "519.607.6515",
+    "ContactPhone": "1-071-802-6459 x7926",
+    "AssociateName": "Jewess, Wisozk and Hintz",
+    "AssociateId": 870,
+    "UsePersonAddress": false,
+    "ContactFax": "ipsum",
+    "Kanafname": "quam",
+    "Kanalname": "molestias",
+    "Post1": "fugiat",
+    "Post2": "pariatur",
+    "Post3": "vero",
+    "EmailName": "vincenzo@simonis.ca",
+    "ContactFullName": "Kevin Larson",
+    "ActiveErpLinks": 751,
+    "TicketPriorityId": 824,
+    "SupportLanguageId": 813,
+    "SupportAssociateId": 488,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "890348",
+    "PersonNumber": "1440490",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldLength": 374
       }
     }
   }

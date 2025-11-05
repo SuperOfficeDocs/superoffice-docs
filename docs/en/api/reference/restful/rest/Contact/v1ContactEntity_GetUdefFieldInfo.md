@@ -94,7 +94,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 572,
-  "ColumnId": 664,
-  "FieldDefault": "explicabo",
-  "FieldHeight": 285,
-  "FieldLabel": "quia",
-  "FieldLeft": 343,
-  "FieldTop": 121,
+  "UDefFieldId": 458,
+  "ColumnId": 150,
+  "FieldDefault": "commodi",
+  "FieldHeight": 901,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 925,
+  "FieldTop": 697,
   "FieldType": "Checkbox",
-  "FieldWidth": 568,
-  "FormatMask": "architecto",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 650,
-  "LabelLeft": 709,
-  "LabelTop": 400,
-  "LabelWidth": 789,
-  "LastVersionId": 60,
-  "ListTableId": 89,
-  "IsMandatory": false,
+  "FieldWidth": 692,
+  "FormatMask": "dolorum",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 413,
+  "LabelLeft": 438,
+  "LabelTop": 344,
+  "LabelWidth": 768,
+  "LastVersionId": 337,
+  "ListTableId": 284,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 26,
-  "ProgId": "illo",
-  "IsReadOnly": true,
-  "ShortLabel": "consequuntur",
-  "TabOrder": 963,
-  "TextLength": 988,
-  "Tooltip": "fugit",
-  "UdefIdentity": 846,
-  "UDListDefinitionId": 765,
+  "Page1LineNo": 411,
+  "ProgId": "eos",
+  "IsReadOnly": false,
+  "ShortLabel": "dicta",
+  "TabOrder": 47,
+  "TextLength": 59,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 343,
+  "UDListDefinitionId": 224,
   "Justification": "Center",
-  "Version": 790,
-  "TemplateVariableName": "Nitzsche-Koss",
-  "HasBeenPublished": false,
-  "MdoListName": "Ward Group",
+  "Version": 916,
+  "TemplateVariableName": "Halvorson Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Windler-Rowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 616
     }
   }
 }

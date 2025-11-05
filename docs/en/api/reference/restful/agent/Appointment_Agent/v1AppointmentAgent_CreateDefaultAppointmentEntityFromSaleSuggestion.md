@@ -138,14 +138,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 913,
-  "SaleId": 753,
-  "CreateNow": false,
-  "OwnerId": 828
+  "SuggestedAppointmentId": 252,
+  "SaleId": 979,
+  "CreateNow": true,
+  "OwnerId": 380
 }
 ```
 
@@ -160,121 +160,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-08-16T03:40:45.9669733+02:00",
-  "AppointmentId": 962,
-  "Description": "Optimized logistical standardization",
-  "Title": "quas",
-  "Agenda": "dolorum",
-  "InternalNotes": "delectus",
-  "StartDate": "2003-07-02T03:40:45.9669733+02:00",
-  "EndDate": "2019-02-20T03:40:45.9669733+01:00",
+  "CreatedDate": "2012-11-07T02:30:46.6788509+01:00",
+  "AppointmentId": 20,
+  "Description": "Sharable multi-state firmware",
+  "Title": "quia",
+  "Agenda": "quod",
+  "InternalNotes": "quis",
+  "StartDate": "2020-08-25T02:30:46.6788509+02:00",
+  "EndDate": "2015-06-12T02:30:46.6788509+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 733,
+  "MotherId": 724,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-03-23T03:40:45.9669733+01:00",
+  "UpdatedDate": "2011-06-05T02:30:46.6788509+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 144,
+  "ActiveLinks": 327,
   "Links": [
     {
-      "EntityName": "Langosh, Wisozk and Turner",
-      "Id": 407,
-      "Description": "Upgradable systematic frame",
-      "ExtraInfo": "ipsum",
-      "LinkId": 487,
+      "EntityName": "Franecki-Carroll",
+      "Id": 30,
+      "Description": "Sharable interactive matrices",
+      "ExtraInfo": "mollitia",
+      "LinkId": 240,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldLength": 158
         }
       }
     }
   ],
-  "AlarmLeadTime": "maiores",
-  "HasAlarm": true,
-  "ColorIndex": 524,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "enim",
-  "LeadTime": "aliquam",
-  "Location": "in",
-  "RejectCounter": 847,
-  "RejectReason": "",
+  "AlarmLeadTime": "in",
+  "HasAlarm": false,
+  "ColorIndex": 976,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "vel",
+  "LeadTime": "nihil",
+  "Location": "corrupti",
+  "RejectCounter": 192,
+  "RejectReason": "engineer clicks-and-mortar e-services",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 746,
-      "PersonId": 776,
-      "ContactId": 881,
-      "EmailId": 51,
+      "AssociateId": 804,
+      "PersonId": 886,
+      "ContactId": 394,
+      "EmailId": 249,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "deshaun@zieme.ca",
-      "Description": "Centralized eco-centric concept"
+      "EmailAddress": "ronny_hartmann@goodwin.co.uk",
+      "Description": "Synergistic clear-thinking parallelism"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-03-10T03:40:45.9669733+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-02-27T02:30:46.6788509+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 322,
+  "PreferredTZLocation": 368,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 679,
+  "SuggestedAppointmentId": 62,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloremque",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Aliyah Savanna Hegmann",
-    "SuperOffice:2": "1765696544"
+    "SuperOffice:1": "Ms. Terrell Sofia Pouros PhD",
+    "SuperOffice:2": "121097368"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "et",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "sint"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2015-02-01T03:40:45.9669733+01:00",
-  "PublishTo": "2021-05-15T03:40:45.9669733+02:00",
-  "PublishFrom": "2021-05-29T03:40:45.9669733+02:00",
+  "PublishEventDate": "2005-09-26T02:30:46.6788509+02:00",
+  "PublishTo": "2020-10-21T02:30:46.6788509+02:00",
+  "PublishFrom": "2012-01-10T02:30:46.6788509+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 494,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 512
         }
       }
     },
     {
-      "VisibleId": 494,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 512
         }
       }
     }
@@ -283,8 +283,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

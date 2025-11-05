@@ -71,13 +71,13 @@ No Content
 POST /api/v1/Agents/EMail/MarkEmailsAsRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    24,
-    749
+    963,
+    859
   ],
   "Read": true
 }

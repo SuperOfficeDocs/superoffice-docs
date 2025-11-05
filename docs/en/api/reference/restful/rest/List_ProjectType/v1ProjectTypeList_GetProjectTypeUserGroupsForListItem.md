@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Brown, Hoppe and Strosin",
-    "ToolTip": "Cupiditate reiciendis ut.",
-    "Deleted": true,
-    "Rank": 864,
-    "Type": "sequi",
-    "ColorBlock": 836,
-    "IconHint": "ea",
+    "Id": 44,
+    "Name": "Schroeder, Farrell and Weissnat",
+    "ToolTip": "Omnis eius sunt reiciendis mollitia.",
+    "Deleted": false,
+    "Rank": 136,
+    "Type": "aut",
+    "ColorBlock": 604,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2015-06-09T03:40:57.040226+02:00",
+    "LastChanged": "2000-01-14T02:30:53.3817624+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Parker LLC",
-        "ToolTip": "Temporibus quaerat et veritatis.",
+        "Id": 703,
+        "Name": "Dicki-Parker",
+        "ToolTip": "Est amet iste qui.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "ad",
-        "ColorBlock": 41,
-        "IconHint": "doloribus",
+        "Rank": 305,
+        "Type": "id",
+        "ColorBlock": 457,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2014-10-16T03:40:57.040226+02:00",
+        "LastChanged": "2025-01-06T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Ila Rutherford III",
+        "ExtraInfo": "esse",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Darius Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Joseph Hellen Erdman V",
+    "ExtraInfo": "amet",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Mrs. Dee Lon Schultz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldLength": 475
       }
     }
   }

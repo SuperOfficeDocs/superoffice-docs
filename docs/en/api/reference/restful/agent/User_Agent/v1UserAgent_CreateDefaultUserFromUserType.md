@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 223,
-  "Name": "Mitchell, Zieme and Mitchell",
-  "Rank": 519,
-  "Tooltip": "consequatur",
+  "AssociateId": 672,
+  "Name": "Abshire Inc and Sons",
+  "Rank": 610,
+  "Tooltip": "natus",
   "LicenseOwners": [
     {
-      "Name": "Pagac, Bosco and Kertzmann",
-      "Description": "Devolved client-server Graphic Interface",
+      "Name": "Ruecker Group",
+      "Description": "Cross-group fresh-thinking emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Pagac, Bosco and Kertzmann",
-      "Description": "Devolved client-server Graphic Interface",
+      "Name": "Ruecker Group",
+      "Description": "Cross-group fresh-thinking emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "assumenda",
-      "Tooltip": "cumque",
-      "Id": 438,
-      "Rank": 239,
+      "Value": "qui",
+      "Tooltip": "fuga",
+      "Id": 419,
+      "Rank": 221,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2020-01-08T03:40:48.2504996+01:00",
-  "Lastlogout": "2001-05-12T03:40:48.2504996+02:00",
-  "EjUserId": 638,
-  "RequestSignature": "porro",
+  "Deleted": true,
+  "Lastlogin": "2021-11-28T02:30:48.1319312+01:00",
+  "Lastlogout": "2003-05-19T02:30:48.1319312+02:00",
+  "EjUserId": 357,
+  "RequestSignature": "explicabo",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "iste",
+      "Value": "iure",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldLength": 216
         }
       }
     },
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "iste",
+      "Value": "iure",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldLength": 216
         }
       }
     }
   ],
-  "UserName": "Purdy-Thiel",
+  "UserName": "Roob, Bartoletti and Sauer",
   "TicketCategories": [
     {
-      "Id": 606,
-      "Name": "Metz, Jewess and Hills",
-      "ToolTip": "Sed ipsam nisi autem similique sed.",
-      "Deleted": false,
-      "Rank": 735,
-      "Type": "aut",
+      "Id": 340,
+      "Name": "Eichmann-Mayert",
+      "ToolTip": "Asperiores facere nulla natus.",
+      "Deleted": true,
+      "Rank": 175,
+      "Type": "nulla",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 695,
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "eos",
-      "FullName": "Macey White",
+      "IconHint": "recusandae",
+      "ColorBlock": 774,
+      "ExtraInfo": "perferendis",
+      "StyleHint": "repellat",
+      "FullName": "Elmer Cummings",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 761
+          "FieldType": "System.Int32",
+          "FieldLength": 934
         }
       }
     }
   ],
-  "NickName": "Gaylord Inc and Sons",
+  "NickName": "Howe, Hansen and Lehner",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "quia"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "magni"
   },
   "PostSaveCommands": [
     {
-      "Name": "Casper, Stehr and Wilkinson",
-      "DisplayName": "Little, Lind and Schroeder",
-      "Description": "Multi-channelled empowering Graphical User Interface",
-      "ToolTip": "Placeat enim.",
+      "Name": "Skiles-Schiller",
+      "DisplayName": "Kunde Inc and Sons",
+      "Description": "Re-contextualized content-based structure",
+      "ToolTip": "Quia necessitatibus est dolore autem.",
       "Actions": "Implicit",
-      "ActionData": "totam",
+      "ActionData": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldLength": 729
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 631
     }
   }
 }

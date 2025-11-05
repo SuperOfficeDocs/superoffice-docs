@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 579,
+  "ErpConnectionId": 892,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 80,
-      "CrmFieldKey": "qui",
-      "CrmDisplayName": "Cummings, McLaughlin and Predovic",
-      "CrmDisplayTooltip": "molestias",
-      "ErpFieldKey": "doloremque",
+      "ErpFieldId": 684,
+      "CrmFieldKey": "iusto",
+      "CrmDisplayName": "Rosenbaum, Nader and Becker",
+      "CrmDisplayTooltip": "tempora",
+      "ErpFieldKey": "sit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Rice-Johnson",
+      "ErpDisplayName": "Windler-Schimmel",
       "ErpDisplayTooltip": "et",
       "SyncToCrm": true,
       "SyncToErp": false,
       "ShowInGui": true,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "natus",
+      "ListReference": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     }
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 102
     }
   }
 }

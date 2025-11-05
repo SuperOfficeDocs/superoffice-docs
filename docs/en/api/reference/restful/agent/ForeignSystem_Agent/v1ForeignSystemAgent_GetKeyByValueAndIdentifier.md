@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Herman, Schroeder and Kuhic",
-  "DeviceName": "Johns LLC",
-  "DeviceIdentifier": "placeat",
-  "KeyName": "Cummerata-Reichert",
-  "KeyValue": "vitae",
-  "TableName": "Schultz, Lueilwitz and Willms"
+  "ApplicationName": "Mann, Nicolas and Fahey",
+  "DeviceName": "Pagac Group",
+  "DeviceIdentifier": "totam",
+  "KeyName": "Schultz LLC",
+  "KeyValue": "exercitationem",
+  "TableName": "Mayert-Hilll"
 }
 ```
 
@@ -108,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "molestiae",
-  "RecordId": 593,
-  "CreatedDate": "2013-02-12T03:40:46.9999043+01:00",
-  "UpdatedDate": "2006-02-15T03:40:46.9999043+01:00",
-  "UpdatedBy": "culpa",
-  "CreatedBy": "harum",
-  "TableName": "Bruen Group",
+  "Key": "eaque",
+  "Value": "debitis",
+  "RecordId": 452,
+  "CreatedDate": "2017-11-22T02:30:47.366331+01:00",
+  "UpdatedDate": "2019-09-09T02:30:47.366331+02:00",
+  "UpdatedBy": "excepturi",
+  "CreatedBy": "quibusdam",
+  "TableName": "Kuhlman, Kihn and Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

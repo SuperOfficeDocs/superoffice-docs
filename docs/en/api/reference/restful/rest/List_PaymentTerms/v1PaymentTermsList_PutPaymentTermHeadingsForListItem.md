@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Feest-McLaughlin",
-    "ToolTip": "Delectus repudiandae id officiis.",
+    "Id": 949,
+    "Name": "Marks Inc and Sons",
+    "ToolTip": "Velit excepturi.",
     "Deleted": true,
-    "Rank": 117,
-    "Type": "illum",
-    "ColorBlock": 313,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2012-05-02T03:40:56.9620969+02:00",
+    "Rank": 308,
+    "Type": "autem",
+    "ColorBlock": 640,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2025-01-06T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Hodkiewicz, Dietrich and Spencer",
-        "ToolTip": "Rerum ipsam et fuga deleniti voluptas.",
+        "Id": 677,
+        "Name": "Gleason Group",
+        "ToolTip": "Natus dolorum officiis.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "delectus",
-        "ColorBlock": 288,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2008-11-15T03:40:56.9620969+01:00",
+        "Rank": 205,
+        "Type": "facilis",
+        "ColorBlock": 362,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2016-05-06T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Ms. Gilda Ryan Koch"
+        "FullName": "Miss Baby Jarod Frami"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Trent Goodwin"
+    "ExtraInfo": "beatae",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Prof. Aglae Luther Marvin Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Price LLC",
-    "ToolTip": "Aliquid alias earum nihil rem illum.",
+    "Id": 41,
+    "Name": "Thompson Inc and Sons",
+    "ToolTip": "Voluptate illo quos explicabo ea.",
     "Deleted": false,
-    "Rank": 457,
-    "Type": "excepturi",
-    "ColorBlock": 8,
-    "IconHint": "voluptate",
+    "Rank": 170,
+    "Type": "omnis",
+    "ColorBlock": 853,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-02-24T03:40:56.9620969+01:00",
+    "LastChanged": "2018-11-26T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Kirlin-Jakubowski",
-        "ToolTip": "Dicta asperiores.",
-        "Deleted": false,
-        "Rank": 827,
-        "Type": "facilis",
-        "ColorBlock": 125,
-        "IconHint": "quas",
+        "Id": 863,
+        "Name": "Howe LLC",
+        "ToolTip": "Hic quam ducimus soluta.",
+        "Deleted": true,
+        "Rank": 917,
+        "Type": "aut",
+        "ColorBlock": 224,
+        "IconHint": "odio",
         "Selected": true,
-        "LastChanged": "2025-01-02T03:40:56.9620969+01:00",
+        "LastChanged": "2007-07-09T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Prof. Annalise Annabel Kuvalis PhD",
+        "ExtraInfo": "ullam",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Violette Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldType": "System.String",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Rachel Joanie Bergstrom II",
+    "ExtraInfo": "ut",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Ivah Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 257
       }
     }
   }

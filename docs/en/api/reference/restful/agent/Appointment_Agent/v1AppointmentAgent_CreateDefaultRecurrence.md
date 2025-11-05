@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,10 +87,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 329,
-  "StartDate": "2025-07-04T03:40:45.7793757+02:00",
-  "EndDate": "2023-10-20T03:40:45.7793757+02:00",
-  "RecurrenceCounter": 77,
+  "RecurrenceId": 524,
+  "StartDate": "2014-09-27T02:30:46.6163546+02:00",
+  "EndDate": "2010-03-04T02:30:46.6163546+01:00",
+  "RecurrenceCounter": 268,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-07-04T03:40:45.7793757+02:00",
+      "Date": "2007-06-03T02:30:46.6163546+02:00",
       "IsConflict": true,
-      "Description": "De-engineered zero defect process improvement",
-      "DescriptionStyleHint": "Monitored mobile strategy",
-      "Tooltip": "ut"
+      "Description": "Ameliorated fresh-thinking time-frame",
+      "DescriptionStyleHint": "Progressive tertiary extranet",
+      "Tooltip": "quis"
     },
     {
-      "Date": "1999-07-04T03:40:45.7793757+02:00",
+      "Date": "2007-06-03T02:30:46.6163546+02:00",
       "IsConflict": true,
-      "Description": "De-engineered zero defect process improvement",
-      "DescriptionStyleHint": "Monitored mobile strategy",
-      "Tooltip": "ut"
+      "Description": "Ameliorated fresh-thinking time-frame",
+      "DescriptionStyleHint": "Progressive tertiary extranet",
+      "Tooltip": "quis"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

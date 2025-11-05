@@ -89,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Zieme, Wilderman and Huel",
-  "StorageKey": "est",
+  "StorageType": "ut",
+  "ProviderName": "Stoltenberg Inc and Sons",
+  "StorageKey": "voluptatem",
   "DesiredColumnNames": [
-    "Braun-Mraz",
-    "Kuphal Inc and Sons"
+    "Brekke-Hane",
+    "Terry LLC"
   ],
   "StaticColumns": [
-    "sit",
-    "minima"
+    "fuga",
+    "inventore"
   ],
-  "Context": "harum"
+  "Context": "blanditiis"
 }
 ```
 
@@ -113,15 +113,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "O'Connell Group",
-      "Operator": "dolore",
+      "Name": "Okuneva-Reinger",
+      "Operator": "consectetur",
       "Values": [
-        "omnis",
-        "rerum"
+        "qui",
+        "itaque"
       ],
       "DisplayValues": [
-        "eligendi",
-        "adipisci"
+        "ipsum",
+        "facere"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -129,65 +129,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 585,
+      "InterParenthesis": 78,
       "InterOperator": "And",
-      "UniqueHash": 239
+      "UniqueHash": 131
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hand-Balistreri",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "eum",
-      "CanOrderBy": true,
-      "Name": "Cole, Denesik and Welch",
-      "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Cummerata, Keebler and Reynolds",
+      "DisplayName": "Nicolas, Schowalter and Kertzmann",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "culpa",
+      "CanOrderBy": false,
+      "Name": "Legros Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "a",
+      "RestrictionListName": "O'Hara Group",
       "IsVisible": false,
       "ExtraInfo": "sapiente",
-      "Width": "nesciunt",
-      "IconHint": "et",
-      "HeadingIconHint": "eaque"
+      "Width": "vel",
+      "IconHint": "necessitatibus",
+      "HeadingIconHint": "ullam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Luettgen, Nikolaus and McGlynn",
-      "PrimaryKey": 531,
+      "EntityName": "Kreiger Group",
+      "PrimaryKey": 533,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "temporibus",
-          "LinkHint": "molestiae"
+          "DisplayValue": "nesciunt",
+          "TooltipHint": "sed",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "sit",
+      "LinkHint": "dolore",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rippin, Gleichner and Pagac",
-      "Description": "Multi-channelled scalable hierarchy",
-      "Rank": 986,
+      "Name": "McGlynn, Balistreri and Smith",
+      "Description": "Reduced scalable encoding",
+      "Rank": 380,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rippin, Gleichner and Pagac",
-      "Description": "Multi-channelled scalable hierarchy",
-      "Rank": 986,
+      "Name": "McGlynn, Balistreri and Smith",
+      "Description": "Reduced scalable encoding",
+      "Rank": 380,
       "Restrictions": [
         {},
         {}
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

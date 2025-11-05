@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 518,
-    "Name": "Wuckert-Schuppe",
-    "Tooltip": "sunt",
+    "HeadingId": 313,
+    "Name": "Pollich LLC",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 291,
-    "UdListDefinitionId": 740,
+    "Rank": 703,
+    "UdListDefinitionId": 761,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldType": "System.Int32",
+        "FieldLength": 739
       }
     }
   }

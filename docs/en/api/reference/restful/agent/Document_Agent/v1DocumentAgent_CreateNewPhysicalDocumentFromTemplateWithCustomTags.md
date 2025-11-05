@@ -119,26 +119,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 117,
-  "PersonId": 524,
-  "AppointmentId": 473,
-  "DocumentId": 916,
-  "SaleId": 693,
-  "SelectionId": 164,
-  "ProjectId": 493,
+  "ContactId": 634,
+  "PersonId": 440,
+  "AppointmentId": 960,
+  "DocumentId": 634,
+  "SaleId": 351,
+  "SelectionId": 472,
+  "ProjectId": 875,
   "CustomTags": [
-    "ut",
-    "dignissimos"
+    "et",
+    "asperiores"
   ],
   "CustomValues": [
-    "quo",
-    "possimus"
+    "officia",
+    "et"
   ],
-  "UiCulture": "iusto"
+  "UiCulture": "quia"
 }
 ```
 
@@ -149,67 +149,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682,
+  "DocumentId": 525,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "suscipit",
-  "Header": "necessitatibus",
-  "Name": "Kuhlman-White",
-  "OurRef": "at",
-  "YourRef": "modi",
-  "CreatedDate": "2013-09-16T03:40:46.6873859+02:00",
-  "UpdatedDate": "2012-05-10T03:40:46.6873859+02:00",
-  "Description": "Optional human-resource productivity",
+  "Attention": "fugit",
+  "Header": "quia",
+  "Name": "Kovacek-Osinski",
+  "OurRef": "labore",
+  "YourRef": "ipsa",
+  "CreatedDate": "2007-06-06T02:30:47.1944624+02:00",
+  "UpdatedDate": "2009-06-21T02:30:47.1944624+02:00",
+  "Description": "Horizontal explicit encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-10-10T03:40:46.6873859+02:00",
-  "ExternalRef": "facilis",
+  "Date": "2007-01-19T02:30:47.1944624+01:00",
+  "ExternalRef": "nobis",
   "Completed": "Completed",
-  "ActiveLinks": 489,
+  "ActiveLinks": 110,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lakin-Rogahn",
-      "Id": 304,
-      "Description": "Streamlined maximized secured line",
-      "ExtraInfo": "error",
-      "LinkId": 489,
+      "EntityName": "Treutel-Funk",
+      "Id": 952,
+      "Description": "Multi-lateral systemic approach",
+      "ExtraInfo": "et",
+      "LinkId": 435,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 583,
-  "Snum": 617,
+  "SuggestedDocumentId": 484,
+  "Snum": 314,
   "UserDefinedFields": {
-    "SuperOffice:1": "1879861566",
-    "SuperOffice:2": "Marielle Beier"
+    "SuperOffice:1": "Evangeline Lehner",
+    "SuperOffice:2": "Winona Johnson Hayes MD"
   },
   "ExtraFields": {
     "ExtraFields1": "corrupti",
-    "ExtraFields2": "nihil"
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "illum"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "accusamus"
   },
-  "PublishEventDate": "2012-11-09T03:40:46.6873859+01:00",
-  "PublishTo": "2003-02-12T03:40:46.6873859+01:00",
-  "PublishFrom": "2011-05-27T03:40:46.6873859+02:00",
+  "PublishEventDate": "2022-01-16T02:30:47.1944624+01:00",
+  "PublishTo": "2015-12-31T02:30:47.1944624+01:00",
+  "PublishFrom": "2002-09-26T02:30:47.1944624+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 105,
+      "VisibleId": 331,
       "Visibility": "All",
       "DisplayValue": "quia",
       "TableRight": null,
@@ -217,12 +217,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 291
         }
       }
     },
     {
-      "VisibleId": 105,
+      "VisibleId": 331,
       "Visibility": "All",
       "DisplayValue": "quia",
       "TableRight": null,
@@ -230,7 +230,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 291
         }
       }
     }
@@ -239,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

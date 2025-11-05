@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 744,
-    "Name": "Stoltenberg LLC",
-    "Tooltip": "aut",
+    "HeadingId": 808,
+    "Name": "Feil, Mayer and Donnelly",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 350,
-    "UdListDefinitionId": 190
+    "Rank": 683,
+    "UdListDefinitionId": 20
   },
   {
-    "HeadingId": 744,
-    "Name": "Stoltenberg LLC",
-    "Tooltip": "aut",
+    "HeadingId": 808,
+    "Name": "Feil, Mayer and Donnelly",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 350,
-    "UdListDefinitionId": 190
+    "Rank": 683,
+    "UdListDefinitionId": 20
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Satterfield LLC",
-    "Tooltip": "ex",
+    "HeadingId": 101,
+    "Name": "Pollich Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 223,
-    "UdListDefinitionId": 796,
+    "Rank": 998,
+    "UdListDefinitionId": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 750
       }
     }
   }

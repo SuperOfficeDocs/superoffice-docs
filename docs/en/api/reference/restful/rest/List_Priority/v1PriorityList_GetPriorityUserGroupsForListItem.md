@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Nolan-Jakubowski",
-    "ToolTip": "Accusantium et.",
+    "Id": 462,
+    "Name": "Johnson-Greenholt",
+    "ToolTip": "Laboriosam qui dolorem voluptatem.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "dolores",
-    "ColorBlock": 486,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "2010-07-14T03:40:56.9933484+02:00",
+    "Rank": 561,
+    "Type": "veritatis",
+    "ColorBlock": 446,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2016-06-09T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 729,
-        "Name": "Koss, Hodkiewicz and Lang",
-        "ToolTip": "Pariatur quia beatae similique quisquam autem dolore minima.",
-        "Deleted": false,
-        "Rank": 361,
-        "Type": "tempora",
-        "ColorBlock": 575,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2009-10-28T03:40:56.9933484+01:00",
+        "Id": 987,
+        "Name": "Fisher LLC",
+        "ToolTip": "Nemo ut hic voluptatibus deserunt aut.",
+        "Deleted": true,
+        "Rank": 944,
+        "Type": "adipisci",
+        "ColorBlock": 90,
+        "IconHint": "placeat",
+        "Selected": false,
+        "LastChanged": "2003-09-29T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Francesco Herman",
+        "ExtraInfo": "eaque",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Berry Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 6
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "omnis",
+    "ExtraInfo": "repellat",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Tania Thompson",
+    "FullName": "Bert Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 425
       }
     }
   }

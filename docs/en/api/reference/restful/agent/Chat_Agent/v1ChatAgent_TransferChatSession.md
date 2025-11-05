@@ -112,8 +112,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 672,
-  "ToAssociate": "libero"
+  "ChatSessionId": 818,
+  "ToAssociate": "pariatur"
 }
 ```
 
@@ -124,43 +124,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 429,
-  "TopicId": 741,
+  "ChatSessionId": 557,
+  "TopicId": 502,
   "User": null,
   "Person": null,
-  "CustomerAlias": "inventore",
-  "CustomerHost": "velit",
-  "CustomerName": "Wisoky, Dooley and Rutherford",
-  "CustomerEmail": "camilla@rippinkling.info",
-  "CustomerPhone": "714.692.0692 x26266",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Zemlak-Williamson",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Gibson, Thiel and Dare",
+  "CustomerEmail": "sigurd@skiles.uk",
+  "CustomerPhone": "316-415-5277 x3245",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mills, Johns and Schmidt",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "qui",
-  "WhenRequested": "2010-05-30T03:40:46.1389588+02:00",
-  "WhenStarted": "2009-02-09T03:40:46.1389588+01:00",
-  "WhenEnded": "2008-05-11T03:40:46.1389588+02:00",
-  "WhenIdle": "2007-12-12T03:40:46.1389588+01:00",
-  "WhenFetched": "2005-08-16T03:40:46.1389588+02:00",
-  "SessionKey": "laboriosam",
-  "InitialQueuePos": 682,
-  "AlertLevel": 608,
-  "Rank": 333,
+  "FirstMessage": "vel",
+  "LastMessage": "officiis",
+  "WhenRequested": "1998-11-03T02:30:46.8663446+01:00",
+  "WhenStarted": "2017-12-02T02:30:46.8663446+01:00",
+  "WhenEnded": "2015-11-21T02:30:46.8663446+01:00",
+  "WhenIdle": "2024-09-02T02:30:46.8663446+02:00",
+  "WhenFetched": "2003-10-09T02:30:46.8663446+02:00",
+  "SessionKey": "asperiores",
+  "InitialQueuePos": 849,
+  "AlertLevel": 959,
+  "Rank": 662,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 689,
+  "ChatbotIsActive": true,
+  "Rating": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 357
     }
   }
 }

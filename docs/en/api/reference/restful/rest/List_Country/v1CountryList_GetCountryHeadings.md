@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 535,
-    "Name": "Marks-Friesen",
-    "Tooltip": "voluptas",
+    "HeadingId": 517,
+    "Name": "Koepp LLC",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 302,
+    "Rank": 11,
+    "UdListDefinitionId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

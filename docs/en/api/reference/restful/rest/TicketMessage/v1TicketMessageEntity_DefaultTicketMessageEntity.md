@@ -84,7 +84,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,79 +94,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 603,
+  "EjMessageId": 505,
   "Ticket": null,
-  "CreatedAt": "2011-04-11T03:40:56.3828469+02:00",
+  "CreatedAt": "2021-10-14T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "hic",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 930,
-  "Body": "soluta",
-  "HtmlBody": "et",
-  "EmailHeader": "derek@auer.us",
-  "DebugInfo": "officia",
-  "MailSorter": "qui",
+  "MessageId": "rerum",
+  "TimeSpent": 597,
+  "Body": "sit",
+  "HtmlBody": "nulla",
+  "EmailHeader": "casimir@dibbert.uk",
+  "DebugInfo": "quia",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quasi",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 862,
-      "Name": "Wolff, Wilkinson and Parisian",
-      "Value": "amet",
+      "Id": 446,
+      "Name": "Kemmer, Doyle and Kautzer",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 943
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "dolores",
-  "Sentiment": 682,
-  "SentimentConfidence": 912,
+  "Important": false,
+  "Language": "aut",
+  "Sentiment": 523,
+  "SentimentConfidence": 193,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 546,
-      "Name": "Bins, West and Brakus",
-      "ContentType": "doloremque",
-      "AttSize": 514,
+      "AttachmentId": 766,
+      "Name": "Gerhold Inc and Sons",
+      "ContentType": "similique",
+      "AttSize": 3,
       "InlineImage": false,
-      "ContentId": "placeat",
-      "AuthKey": "vero",
+      "ContentId": "rerum",
+      "AuthKey": "iure",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldType": "System.String",
+          "FieldLength": 422
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "quas"
+    "CustomFields1": "similique",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

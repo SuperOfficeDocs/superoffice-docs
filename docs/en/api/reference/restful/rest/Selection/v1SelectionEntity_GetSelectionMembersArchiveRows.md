@@ -76,7 +76,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsam",
+  "odata.nextLink": "praesentium",
   "value": [
     {
-      "PrimaryKey": 9613,
-      "EntityName": "person",
-      "personId": 9613,
-      "fullName": "Mrs. Jaren Dale Kub DVM"
+      "PrimaryKey": 944,
+      "EntityName": "sale",
+      "saleId": 944,
+      "contactId": 8768,
+      "name": "Boehm LLC"
     },
     {
-      "PrimaryKey": 9809,
-      "EntityName": "person",
-      "personId": 9809,
-      "fullName": "Molly Bogan"
+      "PrimaryKey": 9945,
+      "EntityName": "sale",
+      "saleId": 9945,
+      "contactId": 6878,
+      "name": "Feest-Boyer"
     }
   ]
 }

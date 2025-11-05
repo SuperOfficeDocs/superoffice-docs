@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 539,
-    "Name": "Reinger, Connelly and Smith",
-    "Tooltip": "sit",
-    "Rank": 323,
+    "SaleTypeId": 650,
+    "Name": "Hagenes-Weber",
+    "Tooltip": "molestias",
+    "Rank": 383,
     "DurationUnit": "Century",
-    "SaleDuration": 546,
-    "SaleTypeCatId": 784,
+    "SaleDuration": 390,
+    "SaleTypeCatId": 782,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 293,
-    "QuoteLinesTemplate": 996,
-    "ConfirmationLinesTemplate": 549,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 747,
-    "MinEarningPercent": 449,
-    "GroupQuoteLinesBy": 567,
-    "SortGroupLinesBy": 221,
+    "DefaultQuoteValidity": 73,
+    "QuoteLinesTemplate": 194,
+    "ConfirmationLinesTemplate": 225,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 914,
+    "MinEarningPercent": 350,
+    "GroupQuoteLinesBy": 788,
+    "SortGroupLinesBy": 450,
     "Stages": [
       {
-        "Id": 982,
-        "Name": "Homenick Group",
-        "ToolTip": "Reiciendis aut quaerat.",
+        "Id": 552,
+        "Name": "Hagenes LLC",
+        "ToolTip": "Voluptas corrupti quia tenetur nobis eligendi qui.",
         "Deleted": true,
-        "Rank": 622,
-        "Type": "tenetur",
-        "ColorBlock": 361,
-        "IconHint": "cupiditate",
-        "Selected": false,
-        "LastChanged": "2006-11-08T03:40:57.1027301+01:00",
+        "Rank": 764,
+        "Type": "quia",
+        "ColorBlock": 864,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2021-04-07T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "incidunt",
-        "Hidden": true,
-        "FullName": "Jacky Block",
+        "ExtraInfo": "ratione",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Miss Lisandro Leonel Stokes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldLength": 325
           }
         }
       }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

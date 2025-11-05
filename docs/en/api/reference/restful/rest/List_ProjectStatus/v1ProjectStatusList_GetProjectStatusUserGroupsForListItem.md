@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Hermann, Kassulke and Gleason",
-    "ToolTip": "Explicabo magni aliquid voluptas culpa iste quasi nulla.",
+    "Id": 514,
+    "Name": "Von-Leannon",
+    "ToolTip": "Incidunt voluptate et placeat animi.",
     "Deleted": true,
-    "Rank": 643,
-    "Type": "itaque",
-    "ColorBlock": 553,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2023-10-25T03:40:57.0246001+02:00",
+    "Rank": 310,
+    "Type": "vel",
+    "ColorBlock": 586,
+    "IconHint": "soluta",
+    "Selected": true,
+    "LastChanged": "2006-01-29T02:30:53.3817624+01:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Crona-Hand",
-        "ToolTip": "Pariatur nisi saepe.",
-        "Deleted": true,
-        "Rank": 137,
-        "Type": "enim",
-        "ColorBlock": 298,
-        "IconHint": "incidunt",
+        "Id": 496,
+        "Name": "Schimmel-Reilly",
+        "ToolTip": "Repudiandae sapiente atque.",
+        "Deleted": false,
+        "Rank": 73,
+        "Type": "laborum",
+        "ColorBlock": 606,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2016-04-23T03:40:57.0246001+02:00",
+        "LastChanged": "2022-04-07T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Javier Daniel",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Walter Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldType": "System.Int32",
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "laboriosam",
-    "Hidden": false,
-    "FullName": "Tito Pollich",
+    "ExtraInfo": "eum",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Gail Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

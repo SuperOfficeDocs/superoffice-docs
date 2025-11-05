@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=178
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=381
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,70 +120,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust encompassing model",
-  "Postit": "ipsam",
+  "Description": "Operative holistic hardware",
+  "Postit": "natus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 428,
-  "IncludePerson": 547,
+  "GroupIdx": 516,
+  "IncludePerson": 869,
   "MemberCount": 99.99,
-  "Name": "Goyette Inc and Sons",
-  "PostitTextId": 578,
-  "CreatedDate": "2025-02-26T03:40:47.7192182+01:00",
-  "SelectionId": 29,
-  "SoundEx": "quia",
-  "Source": 862,
-  "TextId": 615,
-  "UpdatedDate": "2010-04-29T03:40:47.7192182+02:00",
-  "UpdatedCount": 878,
-  "Visibility": 188,
+  "Name": "Jast, DuBuque and Mann",
+  "PostitTextId": 966,
+  "CreatedDate": "2000-02-17T02:30:47.819441+01:00",
+  "SelectionId": 721,
+  "SoundEx": "ut",
+  "Source": 682,
+  "TextId": 730,
+  "UpdatedDate": "2003-09-26T02:30:47.819441+02:00",
+  "UpdatedCount": 630,
+  "Visibility": 82,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 451,
-  "TargetTableName": "Weimann LLC",
+  "TargetTableNumber": 767,
+  "TargetTableName": "Zieme LLC",
   "Completed": false,
-  "LeftSelectionId": 631,
-  "RightSelectionId": 871,
+  "LeftSelectionId": 823,
+  "RightSelectionId": 1000,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koch, Rodriguez and Pouros",
-  "ShadowProviderName": "Rolfson, Welch and Feest",
-  "ChartKey": "debitis",
-  "LastLoaded": "2001-08-03T03:40:47.7192182+02:00",
-  "LastLoadedBy": 368,
+  "MainProviderName": "Franecki-Goyette",
+  "ShadowProviderName": "Gislason LLC",
+  "ChartKey": "inventore",
+  "LastLoaded": "2025-08-28T02:30:47.819441+02:00",
+  "LastLoadedBy": 953,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-10-01T03:40:47.7192182+02:00",
-  "LastMembershipChangeBy": 680,
+  "LastMembershipChange": "2019-10-20T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 165,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "nam",
-  "MailingsProviderName": "Huel-Abshire",
-  "DashboardTileDefinitionId": 641,
+  "MainHeading": "nobis",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Balistreri Group",
+  "DashboardTileDefinitionId": 180,
   "VisibleFor": [
     {
-      "VisibleId": 445,
+      "VisibleId": 932,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 781
         }
       }
     },
     {
-      "VisibleId": 445,
+      "VisibleId": 932,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 781
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   }
 }

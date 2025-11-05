@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 503,
-    "Value": "sit",
-    "Tooltip": "error",
-    "Probability": 286,
+    "SaleStageId": 43,
+    "Value": "iusto",
+    "Tooltip": "illo",
+    "Probability": 366,
     "Deleted": false,
-    "Rank": 21,
+    "Rank": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

@@ -79,25 +79,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 751,
+  "SelectionId": 130,
   "Criteria": [
     {
-      "Name": "Anderson-Green",
-      "Description": "Future-proofed well-modulated algorithm",
-      "Rank": 584,
+      "Name": "Nicolas-Pacocha",
+      "Description": "Multi-lateral attitude-oriented flexibility",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Anderson-Green",
-      "Description": "Future-proofed well-modulated algorithm",
-      "Rank": 584,
+      "Name": "Nicolas-Pacocha",
+      "Description": "Multi-lateral attitude-oriented flexibility",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
@@ -115,20 +115,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haag Inc and Sons",
-    "Description": "Re-engineered holistic emulation",
-    "Rank": 438,
+    "Name": "Lueilwitz-Steuber",
+    "Description": "Fully-configurable leading edge ability",
+    "Rank": 831,
     "Restrictions": [
       {
-        "Name": "Anderson Group",
-        "Operator": "quo",
+        "Name": "Langworth Group",
+        "Operator": "pariatur",
         "Values": [
-          "sit",
-          "delectus"
+          "debitis",
+          "amet"
         ],
         "DisplayValues": [
-          "est",
-          "doloribus"
+          "accusamus",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -136,27 +136,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 593,
+        "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 879
+        "UniqueHash": 588
       }
     ]
   },
   {
-    "Name": "Haag Inc and Sons",
-    "Description": "Re-engineered holistic emulation",
-    "Rank": 438,
+    "Name": "Lueilwitz-Steuber",
+    "Description": "Fully-configurable leading edge ability",
+    "Rank": 831,
     "Restrictions": [
       {
-        "Name": "Anderson Group",
-        "Operator": "quo",
+        "Name": "Langworth Group",
+        "Operator": "pariatur",
         "Values": [
-          "sit",
-          "delectus"
+          "debitis",
+          "amet"
         ],
         "DisplayValues": [
-          "est",
-          "doloribus"
+          "accusamus",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,9 +164,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 593,
+        "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 879
+        "UniqueHash": 588
       }
     ]
   }

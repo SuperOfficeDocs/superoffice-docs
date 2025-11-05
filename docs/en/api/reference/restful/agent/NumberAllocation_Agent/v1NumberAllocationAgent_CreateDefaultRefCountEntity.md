@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,49 +78,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 826,
-  "Field": "similique",
-  "RecordId": 657,
+  "RefCountsId": 236,
+  "Field": "delectus",
+  "RecordId": 554,
   "SuggestedRecords": [
     {
-      "Id": 133,
-      "Name": "Keebler, Dickens and Hayes",
-      "ToolTip": "Omnis quod quia id impedit saepe autem.",
+      "Id": 180,
+      "Name": "Bednar, Gusikowski and Feeney",
+      "ToolTip": "Omnis ea voluptates aut omnis magni.",
       "Deleted": false,
-      "Rank": 692,
-      "Type": "itaque",
+      "Rank": 739,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolor",
-      "ColorBlock": 671,
-      "ExtraInfo": "dolore",
-      "StyleHint": "laboriosam",
-      "FullName": "Makenzie Wisoky",
+      "IconHint": "recusandae",
+      "ColorBlock": 90,
+      "ExtraInfo": "delectus",
+      "StyleHint": "et",
+      "FullName": "Ettie Batz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 50
         }
       }
     }
   ],
-  "CurrentValue": 950,
-  "TravelPrefix": 586,
-  "SatPrefix": 754,
-  "Allocate": false,
-  "Unique": true,
+  "CurrentValue": 126,
+  "TravelPrefix": 783,
+  "SatPrefix": 213,
+  "Allocate": true,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 485
     }
   }
 }

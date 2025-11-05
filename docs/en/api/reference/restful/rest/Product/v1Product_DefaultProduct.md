@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 778,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "nulla",
-  "Name": "Hammes-Bergstrom",
-  "Description": "Virtual full-range protocol",
-  "Code": "et",
-  "PriceUnit": "reiciendis",
+  "ProductId": 893,
+  "ERPProductKey": "molestiae",
+  "ERPPriceListKey": "nihil",
+  "Name": "Walker Inc and Sons",
+  "Description": "Reverse-engineered zero defect definition",
+  "Code": "deleniti",
+  "PriceUnit": "soluta",
   "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "alias",
-  "DefaultSubscriptionQuantity": 25799.088,
-  "ItemNumber": "1152862",
+  "SubscriptionUnit": "inventore",
+  "DefaultSubscriptionQuantity": 11084.958,
+  "ItemNumber": "849371",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "adipisci",
-  "ProductTypeKey": "nemo",
-  "VAT": 27529.056,
-  "VATInfo": "similique",
-  "UnitCost": 25517.028,
-  "UnitMinimumPrice": 24532.951999999997,
-  "UnitListPrice": 15334.662,
-  "InAssortment": true,
-  "Supplier": "rerum",
-  "SupplierCode": "hic",
-  "Rights": "tempora",
-  "Rule": "quia",
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "tempore",
+  "VAT": 14642.047999999999,
+  "VATInfo": "nesciunt",
+  "UnitCost": 13748.858,
+  "UnitMinimumPrice": 22041.422,
+  "UnitListPrice": 10639.93,
+  "InAssortment": false,
+  "Supplier": "natus",
+  "SupplierCode": "et",
+  "Rights": "ad",
+  "Rule": "dolor",
   "ExtraInfo": [
     {
-      "Name": "Stiedemann, Bogisich and Kuhn",
-      "Value": "provident",
+      "Name": "Kilback Group",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 554
         }
       }
     },
     {
-      "Name": "Stiedemann, Bogisich and Kuhn",
-      "Value": "provident",
+      "Name": "Kilback Group",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 554
         }
       }
     }
   ],
-  "RawExtraInfo": "sapiente",
-  "ExtraField1": "dicta",
-  "ExtraField2": "nulla",
-  "ExtraField3": "nihil",
-  "ExtraField4": "quia",
-  "ExtraField5": "rerum",
-  "InStock": 15130.952,
+  "RawExtraInfo": "est",
+  "ExtraField1": "commodi",
+  "ExtraField2": "id",
+  "ExtraField3": "incidunt",
+  "ExtraField4": "inventore",
+  "ExtraField5": "eum",
+  "InStock": 15673.134,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldLength": 908
     }
   }
 }

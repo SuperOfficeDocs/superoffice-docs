@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 695,
-  "ColumnId": 116,
-  "FieldDefault": "nesciunt",
-  "FieldHeight": 664,
-  "FieldLabel": "reiciendis",
-  "FieldLeft": 149,
-  "FieldTop": 916,
+  "UDefFieldId": 948,
+  "ColumnId": 928,
+  "FieldDefault": "iste",
+  "FieldHeight": 708,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 843,
+  "FieldTop": 210,
   "FieldType": "Checkbox",
-  "FieldWidth": 791,
-  "FormatMask": "dolor",
-  "HideLabel": false,
+  "FieldWidth": 404,
+  "FormatMask": "similique",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 546,
-  "LabelLeft": 683,
-  "LabelTop": 970,
-  "LabelWidth": 475,
-  "LastVersionId": 839,
-  "ListTableId": 943,
-  "IsMandatory": true,
+  "LabelHeight": 931,
+  "LabelLeft": 1002,
+  "LabelTop": 991,
+  "LabelWidth": 853,
+  "LastVersionId": 413,
+  "ListTableId": 216,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 905,
-  "ProgId": "amet",
+  "Page1LineNo": 684,
+  "ProgId": "odio",
   "IsReadOnly": true,
-  "ShortLabel": "modi",
-  "TabOrder": 776,
-  "TextLength": 973,
-  "Tooltip": "distinctio",
-  "UdefIdentity": 985,
-  "UDListDefinitionId": 420,
+  "ShortLabel": "saepe",
+  "TabOrder": 375,
+  "TextLength": 754,
+  "Tooltip": "a",
+  "UdefIdentity": 286,
+  "UDListDefinitionId": 800,
   "Justification": "Center",
-  "Version": 252,
-  "TemplateVariableName": "Swift, Ruecker and Bahringer",
+  "Version": 756,
+  "TemplateVariableName": "Bartell Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Batz, Heidenreich and Smith",
+  "MdoListName": "Dare, Emmerich and Russel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

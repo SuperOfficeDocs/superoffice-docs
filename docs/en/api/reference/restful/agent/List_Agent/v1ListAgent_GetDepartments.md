@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDepartments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Value": "eos",
-    "Tooltip": "deleniti",
+    "Id": 893,
+    "Value": "natus",
+    "Tooltip": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 962
       }
     }
   },
   {
-    "Id": 252,
-    "Value": "eos",
-    "Tooltip": "deleniti",
+    "Id": 893,
+    "Value": "natus",
+    "Tooltip": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 962
       }
     }
   }

@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=provident
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Predovic Group",
-    "ToolTip": "Et illum inventore quae mollitia.",
+    "Id": 569,
+    "Name": "Harris-McLaughlin",
+    "ToolTip": "Quae minus quis quos repudiandae aliquam.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "aut",
+    "Rank": 672,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Pollich-Schuppe",
-        "ToolTip": "Aliquid officiis.",
-        "Deleted": false,
-        "Rank": 435,
-        "Type": "quisquam",
+        "Id": 660,
+        "Name": "Schaefer LLC",
+        "ToolTip": "Ratione earum voluptas quo aperiam.",
+        "Deleted": true,
+        "Rank": 31,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odio",
-        "ColorBlock": 420,
-        "ExtraInfo": "sit",
-        "StyleHint": "nostrum",
-        "FullName": "Lulu Rolfson",
+        "IconHint": "voluptatem",
+        "ColorBlock": 207,
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
+        "FullName": "Susanna Twila Dare II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 66
+            "FieldLength": 546
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 185,
-    "ExtraInfo": "eius",
-    "StyleHint": "ut",
-    "FullName": "Marquise Koelpin Jr.",
+    "IconHint": "quibusdam",
+    "ColorBlock": 627,
+    "ExtraInfo": "totam",
+    "StyleHint": "blanditiis",
+    "FullName": "Alexzander Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 186
       }
     }
   }

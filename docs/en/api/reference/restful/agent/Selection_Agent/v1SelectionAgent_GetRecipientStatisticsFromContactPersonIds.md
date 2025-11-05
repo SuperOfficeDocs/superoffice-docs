@@ -87,12 +87,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 963,
-      "ContactId": 38
+      "PersonId": 430,
+      "ContactId": 518
     },
     {
-      "PersonId": 963,
-      "ContactId": 38
+      "PersonId": 430,
+      "ContactId": 518
     }
   ]
 }
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 826,
-  "ValidPostalAddresses": 241,
-  "ValidEmailAddresses": 803,
-  "ValidFaxNumbers": 515,
-  "NoAddresses": 725,
-  "NoFaxOrEmails": 416,
+  "Total": 136,
+  "ValidPostalAddresses": 559,
+  "ValidEmailAddresses": 410,
+  "ValidFaxNumbers": 201,
+  "NoAddresses": 297,
+  "NoFaxOrEmails": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

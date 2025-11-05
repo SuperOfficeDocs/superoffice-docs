@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=asperiores
-GET /api/v1/Selection?$top=694
-GET /api/v1/Selection?$skip=362
+GET /api/v1/Selection?$entities=debitis
+GET /api/v1/Selection?$top=934
+GET /api/v1/Selection?$skip=534
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=fugit
+GET /api/v1/Selection?$context=soluta
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -133,16 +133,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "at",
   "value": [
     {
-      "PrimaryKey": 6883,
-      "EntityName": "person",
-      "personId": 6883,
-      "fullName": "Kylie Barrows IV"
+      "PrimaryKey": 4877,
+      "EntityName": "sale",
+      "saleId": 4877,
+      "contactId": 5513,
+      "name": "Schmidt-Gutkowski"
     },
     {
-      "PrimaryKey": 7189,
-      "EntityName": "person",
-      "personId": 7189,
-      "fullName": "Mrs. Harold Brakus"
+      "PrimaryKey": 1627,
+      "EntityName": "sale",
+      "saleId": 1627,
+      "contactId": 5727,
+      "name": "Terry-Vandervort"
     }
   ]
 }

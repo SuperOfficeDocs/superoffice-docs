@@ -126,41 +126,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 771,
-  "Name": "Hudson-Jacobi",
-  "Description": "Innovative eco-centric secured line",
-  "WelcomeMessage": "voluptatibus",
+  "ChatTopicId": 232,
+  "Name": "Grant-Stokes",
+  "Description": "Optimized mission-critical project",
+  "WelcomeMessage": "non",
   "Language": null,
-  "LastAccept": "2004-05-30T03:40:46.2014635+02:00",
-  "SecondsPrAccept": 719,
-  "AlertRecipient": "excepturi",
+  "LastAccept": "2001-02-16T02:30:46.8975935+01:00",
+  "SecondsPrAccept": 743,
+  "AlertRecipient": "molestiae",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "quis",
+  "CollectConsent": true,
+  "BadgeHeader": "quia",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "maiores",
-  "WarnNewChatMinutes": 879,
-  "WarnManagerNewChatMinutes": 440,
-  "TicketEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 248,
+  "WarnManagerNewChatMinutes": 882,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 602,
-  "WarnManagerChatMessageMinutes": 324,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 392,
+  "WarnManagerChatMessageMinutes": 558,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 525,
-  "OfflineFormQueueLength": 661,
+  "OfflineFormTimeLimit": 276,
+  "OfflineFormQueueLength": 945,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "optio"
+  "WidgetRatingText": "asperiores"
 }
 ```
 
@@ -171,43 +171,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 212,
-  "Name": "Gibson, Turner and Johnson",
-  "Description": "Organized 24 hour ability",
-  "WelcomeMessage": "officiis",
+  "ChatTopicId": 680,
+  "Name": "Hintz-Paucek",
+  "Description": "Reactive radical intranet",
+  "WelcomeMessage": "magni",
   "Language": null,
-  "LastAccept": "2014-03-13T03:40:46.2014635+01:00",
-  "SecondsPrAccept": 994,
-  "AlertRecipient": "sint",
+  "LastAccept": "2003-08-04T02:30:46.8975935+02:00",
+  "SecondsPrAccept": 569,
+  "AlertRecipient": "facere",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "facere",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "id",
-  "WarnNewChatMinutes": 7,
-  "WarnManagerNewChatMinutes": 802,
-  "TicketEnabled": true,
+  "CustomQueueText": "voluptate",
+  "WarnNewChatMinutes": 541,
+  "WarnManagerNewChatMinutes": 30,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 690,
-  "WarnManagerChatMessageMinutes": 176,
+  "WarnChatMessageMinutes": 969,
+  "WarnManagerChatMessageMinutes": 466,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 965,
-  "OfflineFormQueueLength": 359,
+  "OfflineFormTimeLimit": 154,
+  "OfflineFormQueueLength": 989,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "eum",
+  "WidgetRatingText": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 629
     }
   }
 }

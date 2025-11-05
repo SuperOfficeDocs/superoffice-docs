@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 853
+  "Count": 876
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Larkin LLC",
-    "SaleDate": "2007-09-21T03:40:47.6723407+02:00",
-    "SaleId": 12,
-    "Probability": 420,
-    "Title": "quos",
-    "Amount": 26961.802,
-    "Currency": "eius",
-    "ProjectName": "Reichert-Leannon",
-    "AssociateFullName": "Mr. Lourdes Parisian Sr.",
-    "Description": "Versatile empowering help-desk",
+    "ContactName": "Jast Inc and Sons",
+    "SaleDate": "2016-10-24T02:30:47.7881925+02:00",
+    "SaleId": 388,
+    "Probability": 460,
+    "Title": "et",
+    "Amount": 26620.196,
+    "Currency": "sapiente",
+    "ProjectName": "Kessler Group",
+    "AssociateFullName": "Collin Bechtelar",
+    "Description": "Customizable 24/7 superstructure",
     "Status": "Lost",
-    "WeightedAmount": 11153.905999999999,
-    "ProjectId": 912,
-    "EarningPercent": 24476.54,
-    "Earning": 29845.082,
-    "ContactId": 675,
-    "AssociateId": 625,
-    "PersonId": 971,
-    "SaleTypeId": 117,
-    "SaleTypeName": "Becker-Kshlerin",
-    "PersonFullName": "Taurean Jakubowski",
+    "WeightedAmount": 10320.261999999999,
+    "ProjectId": 568,
+    "EarningPercent": 13563.952,
+    "Earning": 4221.498,
+    "ContactId": 628,
+    "AssociateId": 393,
+    "PersonId": 424,
+    "SaleTypeId": 145,
+    "SaleTypeName": "Pollich, Keeling and Wiza",
+    "PersonFullName": "Johnny Koch",
     "Completed": "Completed",
-    "ActiveErpLinks": 550,
-    "NextDueDate": "2011-05-23T03:40:47.6723407+02:00",
-    "Number": "217298",
+    "ActiveErpLinks": 61,
+    "NextDueDate": "1999-12-06T02:30:47.7881925+01:00",
+    "Number": "754502",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 916
       }
     }
   }

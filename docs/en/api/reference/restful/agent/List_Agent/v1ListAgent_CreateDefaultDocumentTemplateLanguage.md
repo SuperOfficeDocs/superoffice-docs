@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 697,
-  "LanguageCode": "aliquid"
+  "DocumentTemplateId": 594,
+  "LanguageCode": "repudiandae"
 }
 ```
 

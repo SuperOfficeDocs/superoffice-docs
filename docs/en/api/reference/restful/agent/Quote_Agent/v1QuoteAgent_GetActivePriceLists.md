@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 166,
-  "Currency": "ipsa"
+  "QuoteConnectionId": 792,
+  "Currency": "cupiditate"
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 768,
-    "ERPPriceListKey": "dignissimos",
-    "QuoteConnectionId": 665,
-    "Name": "Effertz Group",
-    "Description": "Open-source human-resource algorithm",
-    "Currency": "et",
-    "CurrencyName": "Reynolds Inc and Sons",
-    "ValidFrom": "2020-02-06T03:40:47.5629587+01:00",
-    "ValidTo": "2022-07-22T03:40:47.5629587+02:00",
-    "IsActive": true,
+    "PriceListId": 60,
+    "ERPPriceListKey": "dolor",
+    "QuoteConnectionId": 835,
+    "Name": "Lehner-Haley",
+    "Description": "Integrated system-worthy alliance",
+    "Currency": "sit",
+    "CurrencyName": "Batz, Graham and Muller",
+    "ValidFrom": "2019-07-02T02:30:47.7256947+02:00",
+    "ValidTo": "2001-01-01T02:30:47.7256947+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

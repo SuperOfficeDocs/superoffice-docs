@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -112,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Gislason, Kling and Hyatt",
-  "AssociateId": 80,
-  "DetailsTable": 588,
-  "DetailsRecord": 1002,
+  "Id": 557,
+  "Name": "Mann LLC",
+  "AssociateId": 5,
+  "DetailsTable": 79,
+  "DetailsRecord": 518,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptas",
-    "ParameterObject2": "doloremque"
+    "ParameterObject1": "dicta",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2001-02-13T03:40:47.5942106+01:00",
-  "Created": "2011-08-22T03:40:47.5942106+02:00",
-  "StartCount": 415,
-  "DatabaseSerialNumber": "1242664",
-  "Context": "autem",
-  "Result": "quia",
+  "LastStarted": "2006-09-08T02:30:47.7569437+02:00",
+  "Created": "2022-03-05T02:30:47.7569437+01:00",
+  "StartCount": 172,
+  "DatabaseSerialNumber": "152236",
+  "Context": "aut",
+  "Result": "et",
   "State": "All",
-  "Description": "Multi-channelled global throughput",
-  "Response": "perferendis",
-  "Request": "et",
-  "ProgressDescription": "Balanced foreground throughput",
-  "ProgressPercent": 310,
-  "FileName": "Keeling Group",
+  "Description": "Extended even-keeled standardization",
+  "Response": "voluptatem",
+  "Request": "ex",
+  "ProgressDescription": "Enhanced web-enabled hierarchy",
+  "ProgressPercent": 288,
+  "FileName": "Kuvalis Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldLength": 27
     }
   }
 }

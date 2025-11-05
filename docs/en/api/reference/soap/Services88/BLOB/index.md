@@ -50,6 +50,7 @@ Download [WSDL file for Services88/BLOB](../Services88-BLOB.md) if you need to g
 * [GetProjectImageWithSizeAsStream](GetProjectImageWithSizeAsStream.md)
 * [GetQuoteLineImage](GetQuoteLineImage.md)
 * [GetQuoteLineImageAsStream](GetQuoteLineImageAsStream.md)
+* [GetRawPersonImage](GetRawPersonImage.md)
 * [SaveBlobEntity](SaveBlobEntity.md)
 * [SaveImageStream](SaveImageStream.md)
 * [SaveImageStreamFromStream](SaveImageStreamFromStream.md)

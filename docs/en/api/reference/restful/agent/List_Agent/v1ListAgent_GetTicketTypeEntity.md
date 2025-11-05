@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=999
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=705
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,31 +98,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 678,
-  "Name": "Bruen, Welch and Schiller",
-  "Rank": 283,
-  "Tooltip": "incidunt",
-  "Icon": "fugiat",
-  "DefaultTicketStatus": 283,
+  "TicketTypeId": 676,
+  "Name": "Okuneva LLC",
+  "Rank": 690,
+  "Tooltip": "accusantium",
+  "Icon": "ut",
+  "DefaultTicketStatus": 968,
   "TicketStatuses": [
-    474,
-    166
+    412,
+    907
   ],
-  "DefaultTicketPriority": 811,
+  "DefaultTicketPriority": 316,
   "TicketPriorities": [
-    833,
-    291
+    436,
+    100
   ],
-  "ReplyTemplate": 905,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 376,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    563,
-    702
+    344,
+    558
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

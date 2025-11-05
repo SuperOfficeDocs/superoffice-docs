@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Haag, Bahringer and Ritchie"
+  "OwnerName": "Gulgowski, Hauck and Sawayn"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 645,
-      "NumberOfLicensesFree": 196,
-      "NumberOfLicensesAdded": 303,
-      "NumberOfLicensesNewTotal": 926,
-      "NumberOfLicensesNewFree": 980,
-      "NumberOfLicensesTotal": 503
+      "NumberOfLicensesInUse": 669,
+      "NumberOfLicensesFree": 662,
+      "NumberOfLicensesAdded": 81,
+      "NumberOfLicensesNewTotal": 829,
+      "NumberOfLicensesNewFree": 745,
+      "NumberOfLicensesTotal": 608
     }
   ],
-  "AccumulatedNextCheckDate": "2017-02-13T03:40:46.9999043+01:00"
+  "AccumulatedNextCheckDate": "2019-09-29T02:30:47.366331+02:00"
 }
 ```

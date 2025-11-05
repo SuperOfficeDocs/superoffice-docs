@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=esse
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=qui
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Vandervort-Kertzmann",
-    "ToolTip": "Qui odio ut sequi velit aut id omnis.",
-    "Deleted": true,
-    "Rank": 289,
-    "Type": "repudiandae",
+    "Id": 844,
+    "Name": "Boyle LLC",
+    "ToolTip": "Aliquam voluptates quos eaque nihil iure officia nisi.",
+    "Deleted": false,
+    "Rank": 236,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Kirlin-Kautzer",
-        "ToolTip": "Quod consequatur quis voluptatem.",
-        "Deleted": false,
-        "Rank": 351,
-        "Type": "nemo",
+        "Id": 551,
+        "Name": "Cormier, Morissette and Koelpin",
+        "ToolTip": "Qui excepturi repellendus veritatis laudantium.",
+        "Deleted": true,
+        "Rank": 645,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 852,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "ipsa",
-        "FullName": "Ms. Perry Patrick Bauch",
+        "IconHint": "recusandae",
+        "ColorBlock": 418,
+        "ExtraInfo": "unde",
+        "StyleHint": "quaerat",
+        "FullName": "Torey Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 288
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 872,
-    "ExtraInfo": "cumque",
-    "StyleHint": "eaque",
-    "FullName": "Wade Conroy V",
+    "IconHint": "nobis",
+    "ColorBlock": 732,
+    "ExtraInfo": "ut",
+    "StyleHint": "sit",
+    "FullName": "Nettie Gerlach II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

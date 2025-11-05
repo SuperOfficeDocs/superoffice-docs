@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Raynor LLC",
+  "UdListDefinitionName": "Mayer, Labadie and Towne",
   "IncludeDeleted": false
 }
 ```
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "McCullough-Heller",
-    "Tooltip": "magni",
+    "Id": 305,
+    "Name": "Purdy, West and Barrows",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "UdListDefinitionId": 757,
-    "Rank": 645,
+    "UdListDefinitionId": 481,
+    "Rank": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

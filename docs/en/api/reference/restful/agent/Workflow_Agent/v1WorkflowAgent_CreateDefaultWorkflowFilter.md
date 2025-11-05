@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Stanton, Miller and Streich",
-      "Description": "Function-based background neural-net",
-      "Rank": 19,
+      "Name": "Bosco, Douglas and Pfeffer",
+      "Description": "Multi-tiered holistic focus group",
+      "Rank": 616,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stanton, Miller and Streich",
-      "Description": "Function-based background neural-net",
-      "Rank": 19,
+      "Name": "Bosco, Douglas and Pfeffer",
+      "Description": "Multi-tiered holistic focus group",
+      "Rank": 616,
       "Restrictions": [
         {},
         {}
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

@@ -80,18 +80,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 284,
-  "Name": "King LLC",
-  "Tooltip": "enim",
-  "Rank": 418,
-  "AmountFrom": 17913.944,
-  "AmountTo": 10166.696,
+  "AmountClassId": 539,
+  "Name": "Breitenberg, Bartoletti and O'Keefe",
+  "Tooltip": "consequuntur",
+  "Rank": 658,
+  "AmountFrom": 8511.944,
+  "AmountTo": 2062.172,
   "Deleted": false,
-  "CurrencyId": 380
+  "CurrencyId": 906
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 793,
-  "Name": "Stracke, Daugherty and Bednar",
-  "Tooltip": "occaecati",
-  "Rank": 119,
-  "AmountFrom": 17929.613999999998,
-  "AmountTo": 17428.174,
-  "Deleted": false,
-  "CurrencyId": 766,
+  "AmountClassId": 35,
+  "Name": "Hoeger-Tillman",
+  "Tooltip": "atque",
+  "Rank": 257,
+  "AmountFrom": 5851.178,
+  "AmountTo": 31280.453999999998,
+  "Deleted": true,
+  "CurrencyId": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 328
+      "FieldType": "System.Int32",
+      "FieldLength": 344
     }
   }
 }

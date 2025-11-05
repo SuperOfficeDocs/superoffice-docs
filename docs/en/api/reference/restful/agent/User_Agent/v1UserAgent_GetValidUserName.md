@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 998,
+  "AssociateId": 674,
   "Type": "AnonymousAssociate",
-  "PersonId": 419,
-  "UserName": "Larson Inc and Sons"
+  "PersonId": 263,
+  "UserName": "Johnson-Blick"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Swaniawski Group"
+"Farrell LLC"
 ```

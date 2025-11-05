@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 437
+  "DocumentId": 988
 }
 ```
 
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "molestiae",
-    "DocumentId": 907,
-    "VersionId": "non",
-    "CheckedInDate": "2014-09-27T03:40:46.7186366+02:00",
-    "CheckedInByName": "Rempel, Rau and Lockman",
-    "CheckedInByAssociateId": 987,
-    "Description": "Stand-alone secondary productivity",
-    "DisplayText": "autem",
+    "ExternalReference": "voluptate",
+    "DocumentId": 965,
+    "VersionId": "dolor",
+    "CheckedInDate": "2002-10-30T02:30:47.2100867+01:00",
+    "CheckedInByName": "Beahan Group",
+    "CheckedInByAssociateId": 487,
+    "Description": "Automated fresh-thinking database",
+    "DisplayText": "nesciunt",
     "ExtraFields": [
-      "officiis",
-      "consequatur"
+      "repellendus",
+      "provident"
     ]
   }
 ]

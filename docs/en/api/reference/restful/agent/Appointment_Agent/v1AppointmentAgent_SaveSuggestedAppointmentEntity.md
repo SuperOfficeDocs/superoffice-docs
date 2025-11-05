@@ -92,19 +92,19 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 315,
-  "Name": "Predovic, Goyette and Altenwerth",
-  "Tooltip": "ratione",
-  "Rank": 604,
-  "Deleted": true,
-  "DaysFuture": 554,
-  "Duration": "commodi",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 325,
+  "Name": "Wolf Inc and Sons",
+  "Tooltip": "earum",
+  "Rank": 424,
+  "Deleted": false,
+  "DaysFuture": 799,
+  "Duration": "nihil",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": false,
   "Text": "dolores",
   "ProjectTypeStatusLink": null,
@@ -120,17 +120,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 581,
-  "Name": "Mueller LLC",
-  "Tooltip": "eos",
-  "Rank": 788,
-  "Deleted": false,
-  "DaysFuture": 29,
-  "Duration": "numquam",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 525,
+  "Name": "Spinka Group",
+  "Tooltip": "praesentium",
+  "Rank": 778,
+  "Deleted": true,
+  "DaysFuture": 466,
+  "Duration": "voluptas",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "nulla",
+  "Text": "voluptatem",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

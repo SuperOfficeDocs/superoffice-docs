@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 607,
-  "CopyToSaleId": 776
+  "CopyFromSaleId": 144,
+  "CopyToSaleId": 673
 }
 ```
 
@@ -105,58 +105,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 892,
-  "SaleId": 697,
-  "QuoteConnectionId": 589,
-  "ERPQuoteKey": "voluptate",
-  "ERPOrderKey": "impedit",
-  "ActiveQuoteVersionId": 945,
-  "AcceptedQuoteAlternativeId": 421,
-  "UseValuesFromQuote": 637,
-  "DocumentId": 5,
-  "PoNumber": "809558",
-  "OrderComment": "rerum",
-  "PreferredEmailCulture": "clint_cummerata@hermanroberts.ca",
+  "QuoteId": 747,
+  "SaleId": 403,
+  "QuoteConnectionId": 645,
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "praesentium",
+  "ActiveQuoteVersionId": 521,
+  "AcceptedQuoteAlternativeId": 32,
+  "UseValuesFromQuote": 990,
+  "DocumentId": 533,
+  "PoNumber": "693119",
+  "OrderComment": "ea",
+  "PreferredEmailCulture": "maude.ullrich@funk.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 483,
-      "ERPQuoteVersionKey": "illo",
-      "QuoteId": 955,
-      "Description": "Sharable even-keeled matrix",
-      "Number": "1007345",
+      "QuoteVersionId": 244,
+      "ERPQuoteVersionKey": "odio",
+      "QuoteId": 184,
+      "Description": "Quality-focused demand-driven protocol",
+      "Number": "967878",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 352,
-      "SentDate": "2013-10-01T03:40:47.5785846+02:00",
-      "FollowupId": 24,
-      "ExpirationDate": "2001-12-13T03:40:47.5785846+01:00",
-      "DeliveryCountryId": 915,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 963,
+      "LikelyQuoteAlternativeId": 422,
+      "SentDate": "2002-04-15T02:30:47.7413192+02:00",
+      "FollowupId": 495,
+      "ExpirationDate": "2014-03-13T02:30:47.7413192+01:00",
+      "DeliveryCountryId": 100,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 966,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "unde",
-      "ERPPaymentTypeKey": "officia",
-      "ERPDeliveryTermsKey": "veniam",
-      "ERPDeliveryTypeKey": "quisquam",
-      "Rank": 102,
-      "ApprovedBy": 429,
-      "ApprovedText": "eos",
-      "ApprovedRegisteredBy": 522,
-      "ApprovedRegisteredDate": "2002-08-20T03:40:47.5785846+02:00",
-      "ExtraField1": "culpa",
+      "ERPPaymentTermsKey": "ipsa",
+      "ERPPaymentTypeKey": "laborum",
+      "ERPDeliveryTermsKey": "praesentium",
+      "ERPDeliveryTypeKey": "quibusdam",
+      "Rank": 661,
+      "ApprovedBy": 14,
+      "ApprovedText": "maxime",
+      "ApprovedRegisteredBy": 943,
+      "ApprovedRegisteredDate": "2015-02-19T02:30:47.7413192+01:00",
+      "ExtraField1": "quidem",
       "ExtraField2": "ut",
-      "ExtraField3": "est",
-      "ExtraField4": "quibusdam",
-      "ExtraField5": "blanditiis",
-      "LastRecalculated": "2008-07-24T03:40:47.5785846+02:00",
-      "Updated": "2021-09-13T03:40:47.5785846+02:00",
-      "UpdatedAssociateId": 899,
-      "Registered": "2010-10-31T03:40:47.5785846+01:00",
-      "RegisteredAssociateId": 953,
-      "RequestAssociateId": 270,
-      "RequestComment": "illum",
+      "ExtraField3": "itaque",
+      "ExtraField4": "at",
+      "ExtraField5": "qui",
+      "LastRecalculated": "2008-12-06T02:30:47.7413192+01:00",
+      "Updated": "2009-08-27T02:30:47.7413192+02:00",
+      "UpdatedAssociateId": 797,
+      "Registered": "2006-01-19T02:30:47.7413192+01:00",
+      "RegisteredAssociateId": 457,
+      "RequestAssociateId": 763,
+      "RequestComment": "sed",
       "QuoteAlternatives": [
         {},
         {}
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 113
         }
       }
     }
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 721
     }
   }
 }

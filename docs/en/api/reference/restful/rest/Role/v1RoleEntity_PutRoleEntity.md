@@ -111,16 +111,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 649,
-  "Name": "Cummerata-Bartell",
-  "Tooltip": "magni",
+  "RoleId": 718,
+  "Name": "Schamberger Group",
+  "Tooltip": "exercitationem",
   "RoleType": "Anonymous",
-  "Deleted": 931,
-  "Rank": 163,
-  "Created": "2001-01-26T03:40:56.0699234+01:00",
-  "UseCategories": 467,
+  "Deleted": 407,
+  "Rank": 920,
+  "Created": "2011-05-20T02:30:52.8349052+02:00",
+  "UseCategories": 794,
   "CreatedBy": null,
-  "Updated": "2024-01-04T03:40:56.0699234+01:00",
+  "Updated": "2017-03-05T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -133,29 +133,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 449,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "mollitia",
+  "RoleId": 997,
+  "Name": "Feest, Maggio and Vandervort",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 506,
-  "Rank": 223,
-  "Created": "2001-09-02T03:40:56.0699234+02:00",
-  "UseCategories": 696,
+  "Deleted": 710,
+  "Rank": 212,
+  "Created": "2020-12-20T02:30:52.8349052+01:00",
+  "UseCategories": 516,
   "CreatedBy": null,
-  "Updated": "2012-05-17T03:40:56.0699234+02:00",
+  "Updated": "1999-02-17T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

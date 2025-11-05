@@ -83,11 +83,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "id",
-  "Tooltip": "quidem",
-  "Id": 664,
-  "Rank": 473,
-  "Deleted": false
+  "Value": "et",
+  "Tooltip": "commodi",
+  "Id": 246,
+  "Rank": 326,
+  "Deleted": true
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "architecto",
-  "Tooltip": "eum",
-  "Id": 320,
-  "Rank": 856,
-  "Deleted": true,
+  "Value": "delectus",
+  "Tooltip": "aut",
+  "Id": 566,
+  "Rank": 145,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldLength": 608
     }
   }
 }

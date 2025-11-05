@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Carter Group",
-    "ToolTip": "Facilis distinctio sed.",
-    "Deleted": false,
-    "Rank": 185,
-    "Type": "rem",
-    "ColorBlock": 638,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2010-04-07T03:40:57.071478+02:00",
+    "Id": 688,
+    "Name": "Emmerich-Considine",
+    "ToolTip": "Dolor qui debitis id.",
+    "Deleted": true,
+    "Rank": 264,
+    "Type": "id",
+    "ColorBlock": 277,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "1999-05-14T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Schowalter, Legros and Altenwerth",
-        "ToolTip": "Est est eveniet qui a dolorem.",
+        "Id": 169,
+        "Name": "Toy, Hodkiewicz and Crist",
+        "ToolTip": "Rerum minus ea et.",
         "Deleted": false,
-        "Rank": 74,
-        "Type": "illo",
-        "ColorBlock": 909,
-        "IconHint": "odit",
+        "Rank": 65,
+        "Type": "dolore",
+        "ColorBlock": 252,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1998-09-09T03:40:57.071478+02:00",
+        "LastChanged": "2001-03-31T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Shaniya Gorczany",
+        "ExtraInfo": "nulla",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Dr. Chanelle Oral Prohaska IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "aut",
+    "ExtraInfo": "ad",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Marcel Kertzmann",
+    "FullName": "Allen Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 718
       }
     }
   }

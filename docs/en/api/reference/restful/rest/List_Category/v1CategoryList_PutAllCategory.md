@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Rice Group",
-    "Tooltip": "illum",
+    "Id": 157,
+    "Name": "Schaden-Klocko",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "UdListDefinitionId": 743,
-    "Rank": 856
+    "UdListDefinitionId": 561,
+    "Rank": 147
   },
   {
-    "Id": 656,
-    "Name": "Rice Group",
-    "Tooltip": "illum",
+    "Id": 157,
+    "Name": "Schaden-Klocko",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "UdListDefinitionId": 743,
-    "Rank": 856
+    "UdListDefinitionId": 561,
+    "Rank": 147
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Name": "Spinka-Braun",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 388,
-    "Rank": 192,
+    "Id": 866,
+    "Name": "Schumm LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 373,
+    "Rank": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldLength": 23
       }
     }
   }

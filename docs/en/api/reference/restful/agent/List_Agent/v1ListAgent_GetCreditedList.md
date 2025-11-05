@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Value": "autem",
-    "Tooltip": "nisi",
+    "Id": 693,
+    "Value": "perferendis",
+    "Tooltip": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 873
       }
     }
   },
   {
-    "Id": 672,
-    "Value": "autem",
-    "Tooltip": "nisi",
+    "Id": 693,
+    "Value": "perferendis",
+    "Tooltip": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 873
       }
     }
   }

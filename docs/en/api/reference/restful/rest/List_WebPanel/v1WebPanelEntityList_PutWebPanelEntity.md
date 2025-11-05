@@ -113,32 +113,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 97,
-  "Name": "Aufderhar, Zboncak and Halvorson",
-  "Tooltip": "nihil",
+  "WebPanelId": 575,
+  "Name": "Swift-Feil",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 215,
+  "Rank": 498,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Heller, Marvin and Breitenberg",
+  "ShowInStatusBar": false,
+  "WindowName": "Eichmann-Reinger",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 284,
+  "ProgId": "suscipit",
+  "Icon": 626,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -149,34 +149,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 421,
-  "Name": "Bins, Lueilwitz and Reynolds",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 689,
+  "WebPanelId": 976,
+  "Name": "Ebert Group",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "Rank": 582,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Skiles-Kirlin",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Renner Group",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 73,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "itaque",
+  "Icon": 881,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

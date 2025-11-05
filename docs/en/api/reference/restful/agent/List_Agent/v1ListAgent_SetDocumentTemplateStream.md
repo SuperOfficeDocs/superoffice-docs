@@ -104,14 +104,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "et",
-  "PluginId": 669
+  "LanguageCode": "a",
+  "PluginId": 220
 }
 ```
 
@@ -122,37 +122,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 363,
-  "Name": "Jenkins, Pfannerstill and Konopelski",
-  "Tooltip": "vel",
-  "SaveInDb": 358,
-  "Filename": "architecto",
-  "DefaultOref": "corporis",
+  "DocumentTemplateId": 550,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "hic",
+  "SaveInDb": 853,
+  "Filename": "quia",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 750,
-  "IntentId": 9,
+  "AutoeventId": 82,
+  "IntentId": 357,
   "IsDefaultPublished": false,
-  "Rank": 556,
-  "LoadTemplateFromPlugin": 597,
-  "MimeType": "non",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 334,
+  "Rank": 815,
+  "LoadTemplateFromPlugin": 277,
+  "MimeType": "incidunt",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 966,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "myles@auer.info",
+  "EmailSubject": "cicero@gislasonwatsica.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "trudie@bauch.com",
+  "SenderEmailAddress": "mireille.haag@lesch.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

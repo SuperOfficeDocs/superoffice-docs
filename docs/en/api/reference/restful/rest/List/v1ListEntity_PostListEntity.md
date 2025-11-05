@@ -100,16 +100,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Sipes LLC",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 527,
+  "Id": 738,
+  "Name": "Conn Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 220,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "non",
+  "Id": 607,
+  "Name": "Boehm, Thompson and Robel",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 701,
+  "Rank": 167,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 328
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

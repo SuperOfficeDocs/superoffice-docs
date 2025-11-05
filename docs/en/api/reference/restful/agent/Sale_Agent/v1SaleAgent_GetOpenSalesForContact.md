@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 716
+  "ContactId": 524
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kemmer LLC",
-    "SaleDate": "2023-05-23T03:40:47.6723407+02:00",
-    "SaleId": 219,
-    "Probability": 21,
-    "Title": "aut",
-    "Amount": 14068.526,
-    "Currency": "veritatis",
-    "ProjectName": "Padberg-Weissnat",
-    "AssociateFullName": "Norbert Durgan",
-    "Description": "Total 5th generation local area network",
+    "ContactName": "O'Connell Inc and Sons",
+    "SaleDate": "2001-04-11T02:30:47.7881925+02:00",
+    "SaleId": 570,
+    "Probability": 918,
+    "Title": "rerum",
+    "Amount": 24232.088,
+    "Currency": "quia",
+    "ProjectName": "Block-Schuppe",
+    "AssociateFullName": "Mr. Maritza Alexandria Pagac",
+    "Description": "Extended next generation framework",
     "Status": "Lost",
-    "WeightedAmount": 17243.268,
-    "ProjectId": 900,
-    "EarningPercent": 24219.552,
-    "Earning": 8728.19,
-    "ContactId": 281,
-    "AssociateId": 904,
-    "PersonId": 160,
-    "SaleTypeId": 540,
-    "SaleTypeName": "Hintz-Erdman",
-    "PersonFullName": "Otho Zulauf",
+    "WeightedAmount": 1006.014,
+    "ProjectId": 96,
+    "EarningPercent": 5669.406,
+    "Earning": 19562.428,
+    "ContactId": 961,
+    "AssociateId": 86,
+    "PersonId": 252,
+    "SaleTypeId": 133,
+    "SaleTypeName": "Muller Inc and Sons",
+    "PersonFullName": "Mr. Dannie Mosciski",
     "Completed": "Completed",
-    "ActiveErpLinks": 947,
-    "NextDueDate": "2013-02-08T03:40:47.6723407+01:00",
-    "Number": "1805381",
+    "ActiveErpLinks": 32,
+    "NextDueDate": "2014-04-16T02:30:47.7881925+02:00",
+    "Number": "521375",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 616
       }
     }
   }

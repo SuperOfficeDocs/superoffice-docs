@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,33 +88,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 680,
-  "PlainMessage": "voluptatibus",
-  "HtmlMessage": "eos",
-  "SmsMessage": "consequatur",
-  "Description": "Universal secondary benchmark",
-  "Subject": "eum",
-  "FolderId": 495,
-  "HeaderField": "nobis",
-  "Design": "repellendus",
+  "ShipmentMessageId": 736,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "blanditiis",
+  "SmsMessage": "et",
+  "Description": "Fundamental value-added encryption",
+  "Subject": "aut",
+  "FolderId": 217,
+  "HeaderField": "rem",
+  "Design": "suscipit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Networked assymetric Graphical User Interface",
-  "AccessKey": "aliquam",
-  "DocumentMessage": 146,
-  "Registered": "1999-07-26T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "2005-12-31T03:40:47.2499194+01:00",
-  "UpdatedAssociateId": 538,
-  "UpdatedCount": 640,
+  "InlineImages": false,
+  "LongDescription": "Managed bi-directional function",
+  "AccessKey": "ad",
+  "DocumentMessage": 530,
+  "Registered": "2015-05-28T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 543,
+  "Updated": "2009-04-06T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 860,
+  "UpdatedCount": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schultz Group",
-    "DisplayName": "Harris LLC",
-    "Description": "Customer-focused holistic conglomeration",
-    "ShortLabel": "quo",
+    "FieldName": "Leannon-Powlowski",
+    "DisplayName": "Marks-Turcotte",
+    "Description": "Inverse scalable implementation",
+    "ShortLabel": "laboriosam",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 510,
-    "TemplateVariableName": "Romaguera-West"
+    "Rank": 143,
+    "TemplateVariableName": "Windler, Schultz and Anderson"
   }
 ]
 ```

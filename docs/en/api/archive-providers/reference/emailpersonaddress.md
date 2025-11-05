@@ -84,8 +84,10 @@ the email_id.
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
-|leadstatus|listAny|Lead status| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -126,12 +128,13 @@ the email_id.
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
 |personContact/categoryGroup|listAny|Category group| x |
-|personContact/business|listAny|Business| x |
-|personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/companyCategoryRank|int|Category rank| x |
+|personContact/business|listAny|Business| x |
+|personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
 |personContact/number|string|Number| x |
 |personContact/code|string|Code| x |
@@ -150,6 +153,7 @@ the email_id.
 |personContact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |personContact/deletedDate|datetime|Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company| x |
+|personContact/forceCompany|bool|Dummy: Dummy|  |
 |personContact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |personContact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |personContact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -192,7 +196,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personContact/registeredDate,personContact/deletedDate,personAssociateId
+GET /api/v1/archive/emailpersonaddress?$select=personContact/business,personContact/postAddress/city,personCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

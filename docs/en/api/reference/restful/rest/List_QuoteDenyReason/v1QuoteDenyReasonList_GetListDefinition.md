@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Kunze Group",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 151,
+  "Id": 488,
+  "Name": "Gerhold Group",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 255,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   },
   "_Links": {

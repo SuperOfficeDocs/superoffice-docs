@@ -87,7 +87,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,37 +97,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Kreiger-Reilly",
-  "SaleDate": "2005-10-24T03:40:56.1949223+02:00",
-  "SaleId": 706,
-  "Probability": 573,
-  "Title": "quia",
-  "Amount": 4860.834,
-  "Currency": "tempore",
-  "ProjectName": "Bins-Reichert",
-  "AssociateFullName": "Samantha Abernathy",
-  "Description": "Extended value-added moderator",
+  "ContactName": "Jacobson-McGlynn",
+  "SaleDate": "2000-12-29T02:30:52.8974033+01:00",
+  "SaleId": 801,
+  "Probability": 168,
+  "Title": "consequatur",
+  "Amount": 3591.564,
+  "Currency": "sit",
+  "ProjectName": "Miller Group",
+  "AssociateFullName": "Horacio Feil",
+  "Description": "Extended global architecture",
   "Status": "Lost",
-  "WeightedAmount": 22470.78,
-  "ProjectId": 907,
-  "EarningPercent": 15663.732,
-  "Earning": 15190.498,
-  "ContactId": 823,
-  "AssociateId": 518,
-  "PersonId": 541,
-  "SaleTypeId": 298,
-  "SaleTypeName": "Lemke, Donnelly and Huel",
-  "PersonFullName": "Prof. Donald Odessa Mueller MD",
+  "WeightedAmount": 20026.26,
+  "ProjectId": 889,
+  "EarningPercent": 18982.638,
+  "Earning": 9311.114,
+  "ContactId": 535,
+  "AssociateId": 590,
+  "PersonId": 184,
+  "SaleTypeId": 165,
+  "SaleTypeName": "Ferry Group",
+  "PersonFullName": "Lorenzo Heller",
   "Completed": "Completed",
-  "ActiveErpLinks": 663,
-  "NextDueDate": "2009-03-10T03:40:56.1949223+01:00",
-  "Number": "392316",
+  "ActiveErpLinks": 314,
+  "NextDueDate": "2016-06-20T02:30:52.8974033+02:00",
+  "Number": "1021871",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 358
     }
   }
 }

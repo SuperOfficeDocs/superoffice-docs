@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,156 +121,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 835,
-      "ContactName": "Heidenreich-Mayer",
-      "PersonId": 207,
-      "PersonName": "Moen Inc and Sons",
-      "AssociateId": 643,
-      "Address": "soluta",
-      "EmailId": 419,
+      "ContactId": 245,
+      "ContactName": "Beatty, Mraz and Fahey",
+      "PersonId": 977,
+      "PersonName": "Skiles, Morissette and Schiller",
+      "AssociateId": 931,
+      "Address": "accusantium",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        662,
-        420
+        10,
+        993
       ],
-      "Name": "Mertz LLC",
+      "Name": "Sauer, Beahan and Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 628
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 627,
-      "ContactName": "Jakubowski, Cronin and Ferry",
-      "PersonId": 241,
-      "PersonName": "Howe Inc and Sons",
-      "AssociateId": 196,
-      "Address": "amet",
-      "EmailId": 123,
+      "ContactId": 311,
+      "ContactName": "Cassin-Kshlerin",
+      "PersonId": 552,
+      "PersonName": "Monahan, Schulist and Denesik",
+      "AssociateId": 338,
+      "Address": "numquam",
+      "EmailId": 862,
       "DuplicatePersonIds": [
-        84,
-        652
+        650,
+        791
       ],
-      "Name": "Dare, VonRueden and Gorczany",
+      "Name": "Conroy Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 825,
-      "ContactName": "Marvin Inc and Sons",
-      "PersonId": 91,
-      "PersonName": "Jewess-Hills",
-      "AssociateId": 515,
-      "Address": "voluptatem",
-      "EmailId": 606,
+      "ContactId": 444,
+      "ContactName": "Wolff LLC",
+      "PersonId": 446,
+      "PersonName": "Kuvalis Inc and Sons",
+      "AssociateId": 139,
+      "Address": "magnam",
+      "EmailId": 90,
       "DuplicatePersonIds": [
-        423,
-        578
+        790,
+        92
       ],
-      "Name": "Gottlieb Inc and Sons",
+      "Name": "Koch Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "quidem",
+  "Subject": "nulla",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2019-01-01T03:40:46.7655146+01:00",
-  "Size": 79,
+  "Sent": "2024-09-18T02:30:47.2257111+02:00",
+  "Size": 109,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veritatis",
-  "PlainBody": "maiores",
+  "MessageID": "maiores",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 844,
+  "ServerId": 28,
   "Attachments": [
     {
-      "Description": "Programmable methodical paradigm",
-      "Filename": "placeat",
-      "Size": 770,
-      "Type": "expedita",
-      "Encoding": "aut",
-      "Id": "facere",
-      "Disposition": "modi",
-      "IsSafeFileExtension": false,
+      "Description": "Decentralized scalable monitoring",
+      "Filename": "omnis",
+      "Size": 202,
+      "Type": "distinctio",
+      "Encoding": "reiciendis",
+      "Id": "quod",
+      "Disposition": "sunt",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 554
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Trantow Inc and Sons",
+      "Name": "Jaskolski-Heathcote",
       "Values": [
-        "omnis",
-        "nostrum"
+        "non",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 99
         }
       }
     },
     {
-      "Name": "Trantow Inc and Sons",
+      "Name": "Jaskolski-Heathcote",
       "Values": [
-        "omnis",
-        "nostrum"
+        "non",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 99
         }
       }
     }
   ],
-  "FolderName": "Hagenes, McGlynn and Botsford",
-  "EmailItemId": 494,
-  "AccountId": 394,
-  "ReceivedAt": "2013-10-16T03:40:46.7655146+02:00",
+  "FolderName": "Schulist Inc and Sons",
+  "EmailItemId": 454,
+  "AccountId": 330,
+  "ReceivedAt": "2009-07-11T02:30:47.2257111+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-04-04T03:40:46.7655146+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-02-15T02:30:47.2257111+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 921
     }
   }
 }

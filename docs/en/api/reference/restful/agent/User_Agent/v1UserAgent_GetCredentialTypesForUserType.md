@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "repudiandae",
-    "Type": "dolorem",
-    "Description": "Mandatory 4th generation frame",
+    "DisplayType": "repellat",
+    "Type": "tenetur",
+    "Description": "Sharable stable hardware",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

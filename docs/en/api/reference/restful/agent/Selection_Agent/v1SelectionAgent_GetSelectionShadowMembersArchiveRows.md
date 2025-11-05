@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 710,
-  "Select": "repellendus"
+  "SelectionId": 356,
+  "Select": "non"
 }
 ```
 
@@ -99,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beahan-Schuster",
-    "PrimaryKey": 925,
+    "EntityName": "Daugherty-Kunze",
+    "PrimaryKey": 553,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "deleniti",
-        "TooltipHint": "et",
-        "LinkHint": "iusto"
+        "DisplayValue": "recusandae",
+        "TooltipHint": "est",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "odio",
-    "StyleHint": "sunt",
+    "LinkHint": "incidunt",
+    "StyleHint": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 582
       }
     }
   }

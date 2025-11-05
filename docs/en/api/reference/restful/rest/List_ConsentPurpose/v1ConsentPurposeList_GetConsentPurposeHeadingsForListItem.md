@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Conn, Ratke and Nicolas",
-    "ToolTip": "Quo maiores perspiciatis aperiam commodi et quas excepturi.",
+    "Id": 293,
+    "Name": "Hamill-Wiza",
+    "ToolTip": "Vitae aut soluta.",
     "Deleted": false,
-    "Rank": 495,
-    "Type": "officia",
-    "ColorBlock": 113,
-    "IconHint": "voluptatum",
+    "Rank": 307,
+    "Type": "recusandae",
+    "ColorBlock": 746,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2001-10-09T03:40:56.7588542+02:00",
+    "LastChanged": "2019-07-15T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Corwin-Douglas",
-        "ToolTip": "Consectetur est molestiae minima consequatur.",
+        "Id": 575,
+        "Name": "Little, Wintheiser and Altenwerth",
+        "ToolTip": "Amet et est.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "officia",
-        "ColorBlock": 934,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2011-03-22T03:40:56.7588542+01:00",
+        "Rank": 673,
+        "Type": "eius",
+        "ColorBlock": 745,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2012-10-04T02:30:53.2255171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Dayana Beier",
+        "ExtraInfo": "debitis",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Celestine Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Landen Jones Sr.",
+    "ExtraInfo": "tempora",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Annalise Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 733
       }
     }
   }

@@ -72,27 +72,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 672,
-  "WorkflowId": 760,
+  "WorkflowGoalId": 80,
+  "WorkflowId": 628,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "DuBuque-Pfannerstill",
-      "Description": "Reduced actuating open architecture",
-      "Rank": 269,
+      "Name": "Ebert LLC",
+      "Description": "Customer-focused attitude-oriented initiative",
+      "Rank": 216,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "DuBuque-Pfannerstill",
-      "Description": "Reduced actuating open architecture",
-      "Rank": 269,
+      "Name": "Ebert LLC",
+      "Description": "Customer-focused attitude-oriented initiative",
+      "Rank": 216,
       "Restrictions": [
         {},
         {}
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 808,
-  "WorkflowId": 560,
+  "WorkflowGoalId": 876,
+  "WorkflowId": 272,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Waelchi-Reichel",
-      "Description": "Re-engineered methodical encryption",
-      "Rank": 603,
+      "Name": "Kris-Schultz",
+      "Description": "Public-key secondary intranet",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waelchi-Reichel",
-      "Description": "Re-engineered methodical encryption",
-      "Rank": 603,
+      "Name": "Kris-Schultz",
+      "Description": "Public-key secondary intranet",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 448
     }
   }
 }

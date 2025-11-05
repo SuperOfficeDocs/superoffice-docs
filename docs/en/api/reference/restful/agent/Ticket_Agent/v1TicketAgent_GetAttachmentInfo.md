@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 409
+  "TicketMessageEntityId": 39
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 895,
-    "Name": "Larson, Schmeler and Orn",
-    "ContentType": "explicabo",
-    "AttSize": 199,
-    "InlineImage": true,
-    "ContentId": "magni",
-    "AuthKey": "eveniet",
+    "AttachmentId": 754,
+    "Name": "Rosenbaum LLC",
+    "ContentType": "eveniet",
+    "AttSize": 544,
+    "InlineImage": false,
+    "ContentId": "dolor",
+    "AuthKey": "quia",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

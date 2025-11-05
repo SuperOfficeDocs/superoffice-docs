@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aut",
-    "InputValues2": "velit"
+    "InputValues1": "enim",
+    "InputValues2": "quia"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quia",
-  "Message": "recusandae",
-  "ShowDialog": "et",
+  "BlockExecution": false,
+  "NavigateTo": "provident",
+  "Message": "debitis",
+  "ShowDialog": "consequatur",
   "OutputValues": {
-    "OutputValues1": "nam",
-    "OutputValues2": "eum"
+    "OutputValues1": "similique",
+    "OutputValues2": "sed"
   },
   "StateValues": {
-    "StateValues1": "est",
-    "StateValues2": "minus"
+    "StateValues1": "dicta",
+    "StateValues2": "dolorem"
   },
   "Exception": "culpa",
   "ParserValues": {
-    "ParserValues1": "a",
-    "ParserValues2": "accusamus"
+    "ParserValues1": "non",
+    "ParserValues2": "molestiae"
   },
   "CgiVariables": {
-    "CgiVariables1": "doloribus",
-    "CgiVariables2": "excepturi"
+    "CgiVariables1": "numquam",
+    "CgiVariables2": "provident"
   },
-  "CgiContent": "iste",
+  "CgiContent": "cumque",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "libero"
+    "Headers1": "dolorem",
+    "Headers2": "dolores"
   },
-  "TraceExecution": true
+  "TraceExecution": false
 }
 ```
 
@@ -147,42 +147,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "nesciunt"
+    "InputValues1": "sit",
+    "InputValues2": "atque"
   },
   "BlockExecution": true,
-  "NavigateTo": "aut",
-  "Message": "et",
-  "ShowDialog": "animi",
+  "NavigateTo": "ipsa",
+  "Message": "omnis",
+  "ShowDialog": "ullam",
   "OutputValues": {
-    "OutputValues1": "reiciendis",
-    "OutputValues2": "eos"
+    "OutputValues1": "doloribus",
+    "OutputValues2": "qui"
   },
   "StateValues": {
-    "StateValues1": "impedit",
-    "StateValues2": "sunt"
+    "StateValues1": "et",
+    "StateValues2": "repellendus"
   },
-  "Exception": "accusantium",
+  "Exception": "quaerat",
   "ParserValues": {
-    "ParserValues1": "distinctio",
-    "ParserValues2": "reiciendis"
+    "ParserValues1": "non",
+    "ParserValues2": "dolores"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptatibus",
-    "CgiVariables2": "eum"
+    "CgiVariables1": "totam",
+    "CgiVariables2": "quia"
   },
-  "CgiContent": "possimus",
+  "CgiContent": "recusandae",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "repudiandae"
+    "Headers1": "numquam",
+    "Headers2": "cum"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

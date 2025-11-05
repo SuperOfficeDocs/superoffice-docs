@@ -58,20 +58,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff-Hintz",
-    "DisplayName": "Crona-Jakubowski",
-    "DisplayTooltip": "rerum",
+    "Name": "Blick, Paucek and Emmerich",
+    "DisplayName": "Kautzer Inc and Sons",
+    "DisplayTooltip": "natus",
     "IsActive": false
   },
   {
-    "Name": "Wolff-Hintz",
-    "DisplayName": "Crona-Jakubowski",
-    "DisplayTooltip": "rerum",
+    "Name": "Blick, Paucek and Emmerich",
+    "DisplayName": "Kautzer Inc and Sons",
+    "DisplayTooltip": "natus",
     "IsActive": false
   }
 ]

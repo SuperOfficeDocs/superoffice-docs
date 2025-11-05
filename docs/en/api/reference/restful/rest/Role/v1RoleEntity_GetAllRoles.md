@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Koepp, Kozey and Wolf",
-    "ToolTip": "Animi necessitatibus.",
+    "Id": 345,
+    "Name": "Haley Inc and Sons",
+    "ToolTip": "Odio sunt nemo quia.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "accusantium",
-    "ColorBlock": 755,
-    "IconHint": "blanditiis",
+    "Rank": 122,
+    "Type": "soluta",
+    "ColorBlock": 277,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2020-07-16T03:40:56.0699234+02:00",
+    "LastChanged": "2024-09-27T02:30:52.8349052+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Greenholt Inc and Sons",
-        "ToolTip": "Voluptatem sed tenetur velit ipsam inventore est exercitationem.",
+        "Id": 759,
+        "Name": "Schiller Group",
+        "ToolTip": "Minima qui.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "expedita",
-        "ColorBlock": 363,
-        "IconHint": "qui",
+        "Rank": 412,
+        "Type": "aperiam",
+        "ColorBlock": 873,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-01-02T03:40:56.0699234+01:00",
+        "LastChanged": "2020-11-21T02:30:52.8349052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Dr. Jimmy Predovic",
+        "ExtraInfo": "eius",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mr. Verdie Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 709
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "culpa",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Lilyan Ebert I",
+    "FullName": "Ms. Roslyn Adaline Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 57
       }
     }
   }

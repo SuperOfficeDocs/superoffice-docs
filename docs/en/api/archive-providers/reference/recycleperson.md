@@ -67,8 +67,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
-|leadstatus|listAny|Lead status| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -95,6 +97,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
 |personContact/categoryGroup|listAny|Category group| x |
+|personContact/companyCategoryRank|int|Category rank| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
@@ -114,23 +117,24 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |personContact/deletedDate|datetime|Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company| x |
+|personContact/forceCompany|bool|Dummy: Dummy|  |
 |personContact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |personContact/email/emailAddress|string|E-mail| x |
-|personContact/email/emailDescription|string|Description| x |
-|personContact/email/emailId|int|ID| x |
-|personContact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|personContact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/email/emailDescription|string|Description| x |
+|personContact/email/emailId|int|ID| x |
+|personContact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+|personContact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |personContact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |personContact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personId,personRegisteredBy,isProjectMember
+GET /api/v1/archive/RecyclePerson?$select=getAllRows,rank,portraitThumbnail,hasCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

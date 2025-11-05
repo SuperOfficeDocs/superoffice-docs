@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 915,
-    "Name": "Gorczany-Ward",
-    "Tooltip": "esse",
+    "HeadingId": 900,
+    "Name": "Sawayn-Auer",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 833,
-    "UdListDefinitionId": 862
+    "Rank": 794,
+    "UdListDefinitionId": 79
   },
   {
-    "HeadingId": 915,
-    "Name": "Gorczany-Ward",
-    "Tooltip": "esse",
+    "HeadingId": 900,
+    "Name": "Sawayn-Auer",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 833,
-    "UdListDefinitionId": 862
+    "Rank": 794,
+    "UdListDefinitionId": 79
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 803,
-    "Name": "Zemlak-Breitenberg",
-    "Tooltip": "dolorum",
+    "HeadingId": 190,
+    "Name": "Langworth-Krajcik",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 186,
-    "UdListDefinitionId": 150,
+    "Rank": 51,
+    "UdListDefinitionId": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 722
       }
     }
   }

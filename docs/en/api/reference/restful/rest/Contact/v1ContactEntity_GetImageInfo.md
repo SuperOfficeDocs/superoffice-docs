@@ -74,7 +74,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Jul 2011 03:40:55 G7T
+Last-Modified: Tue, 27 Dec 2022 02:30:52 G12T
 
 {
-  "BlobId": 627,
-  "BlobSize": 154,
-  "Description": "Customizable systematic instruction set",
-  "ExtraInfo": "et",
-  "IsEncrypted": false,
+  "BlobId": 217,
+  "BlobSize": 62,
+  "Description": "Synchronised client-server data-warehouse",
+  "ExtraInfo": "amet",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 934,
-  "CreatedDate": "2012-12-06T03:40:55.428689+01:00",
-  "UpdatedDate": "2011-07-18T03:40:55.428689+02:00",
+  "MimeType": "iste",
+  "OriginalSize": 608,
+  "CreatedDate": "2010-12-22T02:30:52.4442929+01:00",
+  "UpdatedDate": "2022-12-27T02:30:52.4442929+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ratione",
+  "ConceptualType": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 254
+  "UserGroupId": 946
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 251,
+    "TargetAssignmentInfoId": 40,
     "Values": [
-      572,
-      345
+      726,
+      772
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 855,
-    "DimensionListItemDisplayName": "Kuvalis Group",
+    "DimensionListItem": 494,
+    "DimensionListItemDisplayName": "Blick Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

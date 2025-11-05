@@ -28,7 +28,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=voluptatem
+GET /api/v1/List/Rating/MDOItems?query=porro
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Barton LLC",
-    "ToolTip": "Recusandae reprehenderit eos aut totam rerum minus fuga.",
+    "Id": 515,
+    "Name": "Miller Group",
+    "ToolTip": "Temporibus libero suscipit autem.",
     "Deleted": true,
-    "Rank": 443,
-    "Type": "reiciendis",
+    "Rank": 748,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Upton Inc and Sons",
-        "ToolTip": "Nihil provident laborum.",
+        "Id": 920,
+        "Name": "Armstrong-Gleichner",
+        "ToolTip": "Vel perferendis consequatur aliquam sed iste voluptatibus.",
         "Deleted": false,
-        "Rank": 501,
-        "Type": "nihil",
+        "Rank": 313,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 99,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "harum",
-        "FullName": "Gilda White",
+        "IconHint": "iusto",
+        "ColorBlock": 790,
+        "ExtraInfo": "qui",
+        "StyleHint": "occaecati",
+        "FullName": "Coby Klein III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 29
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 933,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "cum",
-    "FullName": "Heath Dietrich",
+    "IconHint": "est",
+    "ColorBlock": 815,
+    "ExtraInfo": "dolor",
+    "StyleHint": "assumenda",
+    "FullName": "Roosevelt Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

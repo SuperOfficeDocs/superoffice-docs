@@ -113,7 +113,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -123,105 +123,105 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 784,
-  "Name": "Sipes Inc and Sons",
+  "ContactId": 694,
+  "Name": "Lowe-Langosh",
   "Department": "",
-  "OrgNr": "882056",
-  "Number1": "1105262",
-  "Number2": "620820",
-  "UpdatedDate": "2023-11-19T03:40:46.421242+01:00",
-  "CreatedDate": "2013-08-30T03:40:46.421242+02:00",
+  "OrgNr": "1431408",
+  "Number1": "1083716",
+  "Number2": "465017",
+  "UpdatedDate": "2023-05-19T02:30:46.9913411+02:00",
+  "CreatedDate": "2006-06-27T02:30:46.9913411+02:00",
   "Emails": [
     {
-      "Value": "atque",
-      "StrippedValue": "reprehenderit",
-      "Description": "Advanced empowering definition",
+      "Value": "et",
+      "StrippedValue": "quod",
+      "Description": "Reduced directional analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 999
         }
       }
     },
     {
-      "Value": "atque",
-      "StrippedValue": "reprehenderit",
-      "Description": "Advanced empowering definition",
+      "Value": "et",
+      "StrippedValue": "quod",
+      "Description": "Reduced directional analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 999
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 743,
-      "Name": "Schmeler, Gerhold and Hickle",
-      "ToolTip": "Illo ratione nihil et minus nam.",
+      "Id": 666,
+      "Name": "Anderson, Nitzsche and Bogan",
+      "ToolTip": "Vero ex qui tenetur facilis velit.",
       "Deleted": false,
-      "Rank": 248,
-      "Type": "amet",
-      "ColorBlock": 321,
-      "IconHint": "nam",
+      "Rank": 919,
+      "Type": "suscipit",
+      "ColorBlock": 109,
+      "IconHint": "facilis",
       "Selected": false,
-      "LastChanged": "2004-01-21T03:40:46.421242+01:00",
+      "LastChanged": "2000-04-05T02:30:46.9913411+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "alias",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "fuga",
       "Hidden": false,
-      "FullName": "Brandt Auer",
+      "FullName": "Marco Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 524
+          "FieldLength": 395
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "error",
-      "Description": "Monitored grid-enabled migration",
+      "Value": "voluptate",
+      "StrippedValue": "ad",
+      "Description": "Programmable didactic capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 471
         }
       }
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "error",
-      "Description": "Monitored grid-enabled migration",
+      "Value": "voluptate",
+      "StrippedValue": "ad",
+      "Description": "Programmable didactic capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 471
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "qui",
-      "StrippedValue": "eos",
-      "Description": "Networked even-keeled installation",
+      "Value": "dolorum",
+      "StrippedValue": "qui",
+      "Description": "Networked context-sensitive artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -232,9 +232,9 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "eos",
-      "Description": "Networked even-keeled installation",
+      "Value": "dolorum",
+      "StrippedValue": "qui",
+      "Description": "Networked context-sensitive artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -247,33 +247,33 @@ Content-Type: application/json; charset=utf-8
   ],
   "Faxes": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "et",
-      "Description": "Devolved zero administration projection",
+      "Value": "cum",
+      "StrippedValue": "voluptatem",
+      "Description": "Polarised next generation complexity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 336
         }
       }
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "et",
-      "Description": "Devolved zero administration projection",
+      "Value": "cum",
+      "StrippedValue": "voluptatem",
+      "Description": "Polarised next generation complexity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 336
         }
       }
     }
   ],
-  "Description": "Devolved value-added matrices",
+  "Description": "Adaptive analyzing benchmark",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -282,102 +282,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ratione",
-      "PersonId": 260,
-      "Mrmrs": "asperiores",
-      "Firstname": "Lenna",
-      "Lastname": "Volkman",
-      "MiddleName": "Champlin-Cassin",
-      "Title": "dignissimos",
-      "Description": "Centralized content-based knowledge user",
-      "Email": "neva@weimannrussel.uk",
-      "FullName": "Percy Considine",
-      "DirectPhone": "752.090.9898 x87085",
-      "FormalName": "Leannon, Schaefer and Becker",
-      "CountryId": 591,
-      "ContactId": 674,
-      "ContactName": "Goldner Inc and Sons",
-      "Retired": 806,
-      "Rank": 645,
-      "ActiveInterests": 249,
-      "ContactDepartment": "",
-      "ContactCountryId": 621,
-      "ContactOrgNr": "515960",
-      "FaxPhone": "(665)240-7365 x259",
-      "MobilePhone": "704.530.3297",
-      "ContactPhone": "100-214-3671 x7061",
-      "AssociateName": "Haley Inc and Sons",
-      "AssociateId": 635,
+      "Position": "fugit",
+      "PersonId": 704,
+      "Mrmrs": "aut",
+      "Firstname": "Johnson",
+      "Lastname": "Beer",
+      "MiddleName": "Lueilwitz, Doyle and Hegmann",
+      "Title": "et",
+      "Description": "Persistent bi-directional interface",
+      "Email": "brenden_boyle@cassin.info",
+      "FullName": "Mrs. Oren Kaden Pagac II",
+      "DirectPhone": "352.025.5855 x139",
+      "FormalName": "Spinka-Schamberger",
+      "CountryId": 436,
+      "ContactId": 49,
+      "ContactName": "Howell Group",
+      "Retired": 819,
+      "Rank": 679,
+      "ActiveInterests": 841,
+      "ContactDepartment": "redefine user-centric channels",
+      "ContactCountryId": 569,
+      "ContactOrgNr": "670108",
+      "FaxPhone": "698.194.1324",
+      "MobilePhone": "691-047-3806 x253",
+      "ContactPhone": "1-253-374-0820",
+      "AssociateName": "Mohr, Deckow and Emard",
+      "AssociateId": 637,
       "UsePersonAddress": false,
-      "ContactFax": "sit",
-      "Kanafname": "mollitia",
-      "Kanalname": "natus",
-      "Post1": "possimus",
-      "Post2": "rerum",
-      "Post3": "tempora",
-      "EmailName": "milan@hartmann.co.uk",
-      "ContactFullName": "Barton Carter",
-      "ActiveErpLinks": 155,
-      "TicketPriorityId": 385,
-      "SupportLanguageId": 892,
-      "SupportAssociateId": 966,
+      "ContactFax": "quae",
+      "Kanafname": "perspiciatis",
+      "Kanalname": "voluptatem",
+      "Post1": "corrupti",
+      "Post2": "sunt",
+      "Post3": "deleniti",
+      "EmailName": "reid.cole@runtetillman.biz",
+      "ContactFullName": "Ophelia Price",
+      "ActiveErpLinks": 70,
+      "TicketPriorityId": 887,
+      "SupportLanguageId": 515,
+      "SupportAssociateId": 377,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "401544",
+      "PersonNumber": "432023",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 865
+          "FieldLength": 178
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "atque",
-  "Xstop": false,
-  "ActiveInterests": 403,
-  "GroupId": 134,
-  "ActiveStatusMonitorId": 185,
+  "NoMailing": true,
+  "Kananame": "veniam",
+  "Xstop": true,
+  "ActiveInterests": 312,
+  "GroupId": 309,
+  "ActiveStatusMonitorId": 964,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 600,
-  "DbiAgentId": 60,
-  "DbiLastSyncronized": "1998-09-17T03:40:46.436868+02:00",
-  "DbiKey": "sequi",
-  "DbiLastModified": "2011-10-19T03:40:46.436868+02:00",
+  "Deleted": 150,
+  "DbiAgentId": 939,
+  "DbiLastSyncronized": "2000-08-12T02:30:46.9913411+02:00",
+  "DbiKey": "delectus",
+  "DbiLastModified": "2006-11-13T02:30:46.9913411+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 704,
-  "ActiveErpLinks": 85,
+  "Source": 853,
+  "ActiveErpLinks": 487,
   "BounceEmails": [
-    "dalton_funk@schulistconn.ca",
-    "maud.wyman@purdy.com"
+    "rickey_schinner@oconner.uk",
+    "virginia.gleason@balistreri.com"
   ],
   "Domains": [
-    "repellendus",
-    "beatae"
+    "vero",
+    "molestiae"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "543106276",
+    "SuperOffice:2": "Jayson Schimmel"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "at"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "illum"
+    "CustomFields1": "et",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

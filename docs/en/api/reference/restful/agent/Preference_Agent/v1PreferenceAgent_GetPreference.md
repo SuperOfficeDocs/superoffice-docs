@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801
+  "Id": 747
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "sequi",
   "Specification": null,
-  "DisplayValue": "ad",
-  "DisplayTooltip": "similique",
+  "DisplayValue": "consequuntur",
+  "DisplayTooltip": "vel",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 877,
-  "PrefDescId": 658,
-  "TableName": "Breitenberg LLC",
-  "UserPreferenceId": 992,
+  "TargetId": 463,
+  "PrefDescId": 324,
+  "TableName": "Reichert LLC",
+  "UserPreferenceId": 760,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

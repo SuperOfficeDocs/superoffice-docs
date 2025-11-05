@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,34 +94,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 218,
-    "ERPName": "Ebert LLC",
-    "DisplayName": "O'Connell-Windler",
-    "DisplayDescription": "Future-proofed bifurcated hardware",
-    "Rank": 878,
-    "ConnectorName": "Reichel-Weissnat",
-    "ErpConnectionId": 599,
-    "ExtraData": "quia",
+    "QuoteConnectionId": 586,
+    "ERPName": "Heaney, Shields and Boyle",
+    "DisplayName": "Emmerich-Cartwright",
+    "DisplayDescription": "Organic context-sensitive local area network",
+    "Rank": 941,
+    "ConnectorName": "Hoeger-Swift",
+    "ErpConnectionId": 202,
+    "ExtraData": "est",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 436,
-        "ERPPriceListKey": "numquam",
-        "QuoteConnectionId": 897,
-        "Name": "Zemlak-Mueller",
-        "Description": "Programmable background application",
-        "Currency": "corporis",
-        "CurrencyName": "Stokes-Gutkowski",
-        "ValidFrom": "2014-01-09T03:40:47.5629587+01:00",
-        "ValidTo": "2005-10-16T03:40:47.5629587+02:00",
+        "PriceListId": 593,
+        "ERPPriceListKey": "fugiat",
+        "QuoteConnectionId": 241,
+        "Name": "Waters-O'Connell",
+        "Description": "Persevering dedicated benchmark",
+        "Currency": "unde",
+        "CurrencyName": "Runte LLC",
+        "ValidFrom": "2004-10-02T02:30:47.7256947+02:00",
+        "ValidTo": "2011-04-30T02:30:47.7256947+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 603
+            "FieldLength": 256
           }
         }
       }
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      240,
-      168
+      793,
+      65
     ],
     "AssociateAccessIds": [
-      592,
-      498
+      178,
+      348
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 162
       }
     }
   }

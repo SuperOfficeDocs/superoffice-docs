@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Streich LLC",
-  "DeviceName": "Bogisich-Pacocha",
-  "DeviceIdentifier": "enim"
+  "ApplicationName": "McClure, Parker and Hills",
+  "DeviceName": "Hand, Monahan and Zieme",
+  "DeviceIdentifier": "officia"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "totam",
-  "Value": "qui",
-  "RecordId": 496,
-  "CreatedDate": "2021-07-07T03:40:46.9842779+02:00",
-  "UpdatedDate": "2010-12-29T03:40:46.9842779+01:00",
-  "UpdatedBy": "corrupti",
-  "CreatedBy": "officiis",
-  "TableName": "Blanda, Hoeger and Corkery",
+  "Key": "quia",
+  "Value": "earum",
+  "RecordId": 810,
+  "CreatedDate": "2005-04-17T02:30:47.366331+02:00",
+  "UpdatedDate": "2024-08-26T02:30:47.366331+02:00",
+  "UpdatedBy": "debitis",
+  "CreatedBy": "aliquam",
+  "TableName": "Braun, Upton and Parker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldType": "System.String",
+      "FieldLength": 590
     }
   }
 }

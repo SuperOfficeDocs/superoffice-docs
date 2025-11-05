@@ -91,20 +91,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 844,
-  "Name": "Bernhard, Barton and Dickens",
+  "ScreenChooserId": 534,
+  "Name": "Steuber Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ipsum",
-  "Source": "deserunt",
-  "Registered": "1998-06-26T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 238,
-  "Updated": "2019-08-12T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 474
+  "UniqueIdentifier": "aut",
+  "Source": "inventore",
+  "Registered": "2010-02-02T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 277,
+  "Updated": "2011-03-09T02:30:53.022399+01:00",
+  "UpdatedAssociateId": 221
 }
 ```
 
@@ -115,22 +115,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 320,
-  "Name": "Jast-Hintz",
+  "ScreenChooserId": 599,
+  "Name": "Larkin, Collier and Robel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolor",
-  "Source": "nihil",
-  "Registered": "1998-10-10T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 327,
-  "Updated": "2017-04-05T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 991,
+  "UniqueIdentifier": "ex",
+  "Source": "id",
+  "Registered": "2019-01-16T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 476,
+  "Updated": "2007-03-07T02:30:53.022399+01:00",
+  "UpdatedAssociateId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldLength": 223
     }
   }
 }

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=475
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=713
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -98,31 +98,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 440,
-  "Name": "Glover Group",
-  "Description": "Vision-oriented value-added success",
-  "DefaultHeight": 944,
-  "DefaultWidth": 442,
+  "DashboardTileDefinitionId": 296,
+  "Name": "Kris Group",
+  "Description": "Universal didactic synergy",
+  "DefaultHeight": 723,
+  "DefaultWidth": 781,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Braun Group",
-  "SelectionId": 604,
+  "EntityName": "Jerde-Bednar",
+  "SelectionId": 156,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quo",
+  "CurrencyCode": "modi",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "qui",
-  "LayoutConfig": "in",
-  "SecondarySelectionId": 335,
-  "MeasureByField": "animi",
+  "MeasureField": "accusantium",
+  "SortBy": "mollitia",
+  "LayoutConfig": "dolorum",
+  "SecondarySelectionId": 533,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Bechtelar, Schowalter and Price",
+  "ProviderName": "Hartmann-Trantow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldLength": 897
     }
   }
 }

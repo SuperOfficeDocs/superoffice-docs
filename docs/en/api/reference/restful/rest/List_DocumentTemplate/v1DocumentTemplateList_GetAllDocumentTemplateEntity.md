@@ -28,7 +28,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -92,7 +92,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 671,
-    "Name": "Torp-Douglas",
-    "Tooltip": "voluptatem",
-    "SaveInDb": 394,
-    "Filename": "eaque",
-    "DefaultOref": "provident",
+    "DocumentTemplateId": 784,
+    "Name": "Satterfield, Blick and Mante",
+    "Tooltip": "sint",
+    "SaveInDb": 637,
+    "Filename": "iste",
+    "DefaultOref": "est",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 482,
-    "IntentId": 762,
-    "IsDefaultPublished": false,
-    "Rank": 418,
-    "LoadTemplateFromPlugin": 971,
-    "MimeType": "et",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 926,
+    "AutoeventId": 539,
+    "IntentId": 233,
+    "IsDefaultPublished": true,
+    "Rank": 996,
+    "LoadTemplateFromPlugin": 787,
+    "MimeType": "deleniti",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 736,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "carolyne@keeling.name",
-    "IncludeSignature": false,
-    "ShowCurrents": false,
+    "EmailSubject": "lavinia@weber.info",
+    "IncludeSignature": true,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "felicita_stanton@bartellschowalter.ca",
+    "SenderEmailAddress": "jamar@stehrspinka.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

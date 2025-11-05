@@ -104,16 +104,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    740,
-    639
+    671,
+    216
   ],
-  "StartTime": "2023-08-26T03:40:45.6387418+02:00",
-  "EndTime": "2006-08-05T03:40:45.6387418+02:00"
+  "StartTime": "2003-06-27T02:30:46.5382305+02:00",
+  "EndTime": "2003-11-30T02:30:46.5382305+01:00"
 }
 ```
 
@@ -125,39 +125,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 711,
-    "AssociateId": 362,
-    "MotherId": 93,
-    "StartDate": "2022-01-01T03:40:45.6387418+01:00",
-    "EndDate": "2013-07-12T03:40:45.6387418+02:00",
+    "AppointmentId": 672,
+    "AssociateId": 937,
+    "MotherId": 803,
+    "StartDate": "2005-08-16T02:30:46.5382305+02:00",
+    "EndDate": "2005-08-09T02:30:46.5382305+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Hudson-Upton",
-    "ContactName": "Upton, Rippin and Harris",
-    "ProjectName": "Nikolaus Group",
-    "Title": "nesciunt",
-    "Agenda": "est",
+    "TaskName": "Carter Inc and Sons",
+    "ContactName": "Harris Group",
+    "ProjectName": "Rempel Inc and Sons",
+    "Title": "voluptas",
+    "Agenda": "nobis",
     "IsAllDay": true,
     "IsBusy": false,
-    "IsRecurring": false,
+    "IsRecurring": true,
     "IsVideoMeeting": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsCompleted": false,
-    "IsTentative": true,
-    "IsBookingMain": true,
-    "SendEmail": false,
+    "IsTentative": false,
+    "IsBookingMain": false,
+    "SendEmail": true,
     "AnySendEmail": false,
-    "IsPrivate": true,
+    "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Botsford-Volkman",
+    "PersonName": "Bashirian Inc and Sons",
     "IsBooking": false,
     "OwnedExternally": "Google",
-    "MotherAssociateId": 891,
+    "MotherAssociateId": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 423
       }
     }
   }

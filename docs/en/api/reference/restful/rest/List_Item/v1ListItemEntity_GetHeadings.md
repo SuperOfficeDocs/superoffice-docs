@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Bradtke Inc and Sons",
-    "ToolTip": "Itaque qui est enim.",
+    "Id": 476,
+    "Name": "Pouros-Greenfelder",
+    "ToolTip": "Ex accusamus dolor laborum eum consequatur iste assumenda.",
     "Deleted": false,
-    "Rank": 150,
-    "Type": "voluptatum",
-    "ColorBlock": 341,
-    "IconHint": "facere",
+    "Rank": 764,
+    "Type": "quis",
+    "ColorBlock": 92,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-04-20T03:40:56.6807244+02:00",
+    "LastChanged": "2005-06-21T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Heathcote LLC",
-        "ToolTip": "At est suscipit alias alias.",
+        "Id": 459,
+        "Name": "Douglas, Schmeler and Nikolaus",
+        "ToolTip": "Non quia est cum.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "mollitia",
-        "ColorBlock": 778,
-        "IconHint": "accusantium",
+        "Rank": 261,
+        "Type": "cum",
+        "ColorBlock": 71,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2009-06-02T03:40:56.6807244+02:00",
+        "LastChanged": "2005-11-19T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "eius",
-        "Hidden": true,
-        "FullName": "Lily Predovic",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Ms. Uriah Mittie Hamill I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 957
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "dolores",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Lew Johns V",
+    "FullName": "Miss Jodie Rau V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 421
       }
     }
   }

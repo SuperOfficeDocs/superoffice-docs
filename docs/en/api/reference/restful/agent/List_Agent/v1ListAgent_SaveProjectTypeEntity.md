@@ -84,39 +84,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 444,
-  "Name": "Herzog, Dach and Stroman",
-  "Tooltip": "libero",
-  "Rank": 708,
+  "ProjTypeId": 250,
+  "Name": "Bruen, Leannon and Upton",
+  "Tooltip": "officia",
+  "Rank": 982,
   "DurationUnit": "Century",
-  "ProjectDuration": 123,
+  "ProjectDuration": 606,
   "Deleted": true,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 935,
-      "Name": "Keeling, Stoltenberg and Gulgowski",
-      "ToolTip": "Itaque quis iusto est et reiciendis laborum.",
+      "Id": 956,
+      "Name": "Treutel Inc and Sons",
+      "ToolTip": "Qui explicabo impedit necessitatibus autem.",
       "Deleted": true,
-      "Rank": 779,
-      "Type": "quo",
-      "ColorBlock": 605,
-      "IconHint": "est",
+      "Rank": 191,
+      "Type": "sed",
+      "ColorBlock": 153,
+      "IconHint": "velit",
       "Selected": false,
-      "LastChanged": "2010-06-25T03:40:47.0624077+02:00",
+      "LastChanged": "2021-09-02T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "nulla",
+      "ExtraInfo": "et",
+      "StyleHint": "velit",
       "Hidden": true,
-      "FullName": "Amira Ritchie PhD"
+      "FullName": "Rosamond Towne"
     }
   ]
 }
@@ -129,41 +129,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 731,
-  "Name": "Reinger, Hackett and Stehr",
-  "Tooltip": "quas",
-  "Rank": 137,
+  "ProjTypeId": 353,
+  "Name": "Bergstrom LLC",
+  "Tooltip": "sunt",
+  "Rank": 742,
   "DurationUnit": "Century",
-  "ProjectDuration": 960,
-  "Deleted": true,
+  "ProjectDuration": 983,
+  "Deleted": false,
   "HasGuide": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 819,
-      "Name": "Adams Inc and Sons",
-      "ToolTip": "Odio iure rem magnam voluptates nihil dolorum vel.",
+      "Id": 686,
+      "Name": "Gottlieb, Thiel and Rippin",
+      "ToolTip": "Perspiciatis incidunt enim minus deleniti.",
       "Deleted": false,
-      "Rank": 901,
-      "Type": "officiis",
-      "ColorBlock": 641,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2017-07-03T03:40:47.0624077+02:00",
+      "Rank": 112,
+      "Type": "ut",
+      "ColorBlock": 102,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2009-04-23T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "non",
+      "ExtraInfo": "possimus",
+      "StyleHint": "iure",
       "Hidden": false,
-      "FullName": "Dawn Arno Green PhD",
+      "FullName": "Elaina Aric Hauck DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 723
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

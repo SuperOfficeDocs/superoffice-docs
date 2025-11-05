@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 683,
-  "Name": "Bechtelar-Koepp",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "UdListDefinitionId": 496,
-  "Rank": 418
+  "Id": 877,
+  "Name": "Lang-Bartoletti",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "UdListDefinitionId": 505,
+  "Rank": 600
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Hoeger LLC",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 40,
-  "Rank": 99,
+  "Id": 797,
+  "Name": "Koelpin LLC",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "UdListDefinitionId": 829,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

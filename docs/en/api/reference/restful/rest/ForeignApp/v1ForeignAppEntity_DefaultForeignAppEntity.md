@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Mar 2013 03:40:55 G3T
+Last-Modified: Tue, 29 Apr 2003 02:30:52 G4T
 
 {
-  "ForeignAppId": 369,
-  "Name": "Bins-Schowalter",
-  "CreatedDate": "2024-06-01T03:40:55.7569215+02:00",
-  "UpdatedDate": "2013-03-21T03:40:55.7569215+01:00",
+  "ForeignAppId": 917,
+  "Name": "Corwin Inc and Sons",
+  "CreatedDate": "2021-03-20T02:30:52.6474115+01:00",
+  "UpdatedDate": "2003-04-29T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 681,
-      "Name": "Tromp, Sipes and Gusikowski",
-      "CreatedDate": "2007-01-15T03:40:55.7569215+01:00",
-      "UpdatedDate": "2001-10-20T03:40:55.7569215+02:00",
-      "AssociateFullName": "Kassandra Rippin",
-      "CreatedBy": "dignissimos",
-      "UpdatedBy": "voluptatem",
+      "ForeignDeviceId": 687,
+      "Name": "Harris Inc and Sons",
+      "CreatedDate": "2025-04-30T02:30:52.6474115+02:00",
+      "UpdatedDate": "2012-07-07T02:30:52.6474115+02:00",
+      "AssociateFullName": "Karolann Dach",
+      "CreatedBy": "in",
+      "UpdatedBy": "eum",
       "DeviceIdentifier": "sit",
-      "ForeignAppId": 739,
+      "ForeignAppId": 730,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 323
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Thu, 21 Mar 2013 03:40:55 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 877
     }
   }
 }

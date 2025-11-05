@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 184,
-  "Name": "Bergstrom LLC",
-  "Tooltip": "dolor",
+  "HeadingId": 691,
+  "Name": "Kunde-Braun",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 180,
-  "UdListDefinitionId": 527
+  "Rank": 881,
+  "UdListDefinitionId": 90
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 59,
-  "Name": "Baumbach-McGlynn",
-  "Tooltip": "ad",
-  "Deleted": false,
-  "Rank": 106,
-  "UdListDefinitionId": 139,
+  "HeadingId": 859,
+  "Name": "Hilpert Group",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 753,
+  "UdListDefinitionId": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 255
     }
   }
 }

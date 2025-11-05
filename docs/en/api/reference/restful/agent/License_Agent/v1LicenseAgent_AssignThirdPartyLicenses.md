@@ -91,15 +91,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 267,
-  "ModuleOwner": "reiciendis",
+  "AssociateId": 637,
+  "ModuleOwner": "aut",
   "ModuleLicenseNames": [
-    "Macejkovic LLC",
-    "Crooks Inc and Sons"
+    "Rutherford Group",
+    "Dach Group"
   ]
 }
 ```
@@ -112,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 825,
-    "Tooltip": "ipsam",
-    "CanAssign": false,
-    "Free": 60,
-    "InUse": 696,
+    "Unrestricted": true,
+    "Total": 132,
+    "Tooltip": "est",
+    "CanAssign": true,
+    "Free": 942,
+    "InUse": 116,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 162,
-    "Name": "Cummings-Koss",
-    "Description": "Enhanced mission-critical superstructure",
-    "PrerequisiteModuleName": "Stokes, O'Reilly and Bailey",
-    "SortOrder": 86,
-    "ExtraFlags": 703,
+    "Assigned": false,
+    "ModuleLicenseId": 8,
+    "Name": "Carter-Raynor",
+    "Description": "Upgradable value-added instruction set",
+    "PrerequisiteModuleName": "Ryan-Daugherty",
+    "SortOrder": 489,
+    "ExtraFlags": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldLength": 605
       }
     }
   }

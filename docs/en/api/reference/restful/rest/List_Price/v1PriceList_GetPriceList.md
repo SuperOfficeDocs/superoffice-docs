@@ -84,7 +84,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 998,
-  "ERPPriceListKey": "necessitatibus",
-  "QuoteConnectionId": 800,
-  "Name": "Streich-Zemlak",
-  "Description": "Profit-focused empowering emulation",
-  "Currency": "occaecati",
-  "CurrencyName": "Koss Inc and Sons",
-  "ValidFrom": "2008-03-07T03:40:56.9777222+01:00",
-  "ValidTo": "2013-05-29T03:40:56.9777222+02:00",
-  "IsActive": false,
+  "PriceListId": 544,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 952,
+  "Name": "Osinski, Romaguera and Rodriguez",
+  "Description": "Enterprise-wide contextually-based array",
+  "Currency": "assumenda",
+  "CurrencyName": "McLaughlin Group",
+  "ValidFrom": "2014-01-18T02:30:53.3348881+01:00",
+  "ValidTo": "2019-12-23T02:30:53.3348881+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   },
   "_Links": {

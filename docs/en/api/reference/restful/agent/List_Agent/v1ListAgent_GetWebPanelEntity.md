@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=756
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=641
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 444,
-  "Name": "Harvey-Rosenbaum",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 780,
+  "WebPanelId": 470,
+  "Name": "Fay-Walsh",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "Rank": 404,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Konopelski Group",
+  "WindowName": "Willms, Cronin and Jakubowski",
   "Url": "http://www.example.com/",
-  "ProgId": "quod",
-  "Icon": 722,
+  "ProgId": "quidem",
+  "Icon": 181,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

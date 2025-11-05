@@ -87,36 +87,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 492,
+  "HierarchyId": 886,
   "Domain": "Dashboards",
-  "Name": "Ondricka LLC",
-  "Fullname": "accusamus",
-  "ParentId": 343,
+  "Name": "Gislason-Reilly",
+  "Fullname": "qui",
+  "ParentId": 437,
   "Children": [
     {
-      "HierarchyId": 659,
+      "HierarchyId": 451,
       "Domain": "Dashboards",
-      "Name": "Bechtelar-Wunsch",
-      "Fullname": "sunt",
-      "ParentId": 702,
+      "Name": "Lynch-Weimann",
+      "Fullname": "maxime",
+      "ParentId": 854,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-08-14T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 733,
-      "Updated": "2020-05-16T03:40:55.7886484+02:00",
-      "UpdatedAssociateId": 551
+      "Registered": "2024-07-02T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 576,
+      "Updated": "2020-01-06T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 855
     }
   ],
-  "Registered": "2006-08-05T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 844,
-  "Updated": "2016-02-11T03:40:55.7886484+01:00",
-  "UpdatedAssociateId": 436
+  "Registered": "2017-03-30T02:30:52.6630355+02:00",
+  "RegisteredAssociateId": 461,
+  "Updated": "2009-06-15T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 845
 }
 ```
 
@@ -127,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 430,
+  "HierarchyId": 127,
   "Domain": "Dashboards",
-  "Name": "Romaguera Group",
-  "Fullname": "omnis",
-  "ParentId": 979,
+  "Name": "Medhurst LLC",
+  "Fullname": "ipsam",
+  "ParentId": 477,
   "Children": [
     {
-      "HierarchyId": 648,
+      "HierarchyId": 887,
       "Domain": "Dashboards",
-      "Name": "Prosacco, Kling and Upton",
-      "Fullname": "nam",
-      "ParentId": 536,
+      "Name": "Bins, Brekke and Kassulke",
+      "Fullname": "quis",
+      "ParentId": 803,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-17T03:40:55.7886484+01:00",
-      "RegisteredAssociateId": 181,
-      "Updated": "2007-08-09T03:40:55.7886484+02:00",
-      "UpdatedAssociateId": 392,
+      "Registered": "2011-05-11T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 639,
+      "Updated": "2017-11-17T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 822,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
   ],
-  "Registered": "2016-11-03T03:40:55.7886484+01:00",
-  "RegisteredAssociateId": 207,
-  "Updated": "2005-09-12T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 780,
+  "Registered": "2003-03-23T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 871,
+  "Updated": "2002-09-11T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

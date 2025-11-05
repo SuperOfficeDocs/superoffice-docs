@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Beahan LLC",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 538,
-  "IsCustomList": false,
+  "Id": 426,
+  "Name": "Hintz Inc and Sons",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 83,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "UseGroupsAndHeadings": true,
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Maggio LLC",
-  "Tooltip": "ea",
+  "Id": 758,
+  "Name": "Walker, McDermott and Bergstrom",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 51,
-  "IsCustomList": true,
+  "Rank": 375,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "totam",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

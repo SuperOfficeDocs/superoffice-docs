@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "DuBuque LLC",
-  "DeviceName": "Marvin, Dickens and Corkery",
-  "DeviceIdentifier": "voluptas",
+  "ApplicationName": "Kerluke-Legros",
+  "DeviceName": "Goodwin LLC",
+  "DeviceIdentifier": "sit",
   "ForeignDevice": null
 }
 ```
@@ -105,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 863,
-  "Name": "Morissette-Little",
-  "CreatedDate": "2016-08-08T03:40:46.9842779+02:00",
-  "UpdatedDate": "2003-01-08T03:40:46.9842779+01:00",
-  "AssociateFullName": "Mr. Ashleigh Jon Pollich",
-  "CreatedBy": "est",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "ipsa",
-  "ForeignAppId": 693,
+  "ForeignDeviceId": 382,
+  "Name": "Bashirian LLC",
+  "CreatedDate": "2025-05-31T02:30:47.366331+02:00",
+  "UpdatedDate": "2024-09-07T02:30:47.366331+02:00",
+  "AssociateFullName": "Dr. Westley Kyleigh Wolff",
+  "CreatedBy": "minima",
+  "UpdatedBy": "numquam",
+  "DeviceIdentifier": "harum",
+  "ForeignAppId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 875
     }
   }
 }

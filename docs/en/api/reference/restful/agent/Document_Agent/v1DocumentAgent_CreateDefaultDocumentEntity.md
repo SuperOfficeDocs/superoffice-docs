@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 100,
+  "DocumentId": 955,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "modi",
-  "Name": "Ferry Inc and Sons",
-  "OurRef": "neque",
-  "YourRef": "est",
-  "CreatedDate": "2003-11-01T03:40:46.6248901+01:00",
-  "UpdatedDate": "2018-06-01T03:40:46.6248901+02:00",
-  "Description": "Stand-alone incremental intranet",
+  "Attention": "eos",
+  "Header": "nulla",
+  "Name": "Rippin-Greenfelder",
+  "OurRef": "sit",
+  "YourRef": "totam",
+  "CreatedDate": "2001-02-16T02:30:47.1475873+01:00",
+  "UpdatedDate": "2020-04-04T02:30:47.1475873+02:00",
+  "Description": "Front-line high-level moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-08T03:40:46.6248901+02:00",
-  "ExternalRef": "dolorum",
+  "Date": "2008-11-30T02:30:47.1475873+01:00",
+  "ExternalRef": "fugit",
   "Completed": "Completed",
-  "ActiveLinks": 848,
+  "ActiveLinks": 393,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Murphy-Williamson",
-      "Id": 940,
-      "Description": "Public-key regional conglomeration",
-      "ExtraInfo": "dolor",
-      "LinkId": 190,
+      "EntityName": "Steuber LLC",
+      "Id": 138,
+      "Description": "Upgradable value-added protocol",
+      "ExtraInfo": "non",
+      "LinkId": 686,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     }
@@ -142,47 +142,47 @@ Content-Type: application/json; charset=utf-8
   "LockSemantics": "Locking",
   "Sale": null,
   "SuggestedDocumentId": 671,
-  "Snum": 15,
+  "Snum": 210,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shea Schoen",
-    "SuperOffice:2": "Judge Thelma Marquardt II"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mr. Jarrod Stroman PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "est"
+    "CustomFields1": "itaque",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2019-01-01T03:40:46.6248901+01:00",
-  "PublishTo": "2018-12-08T03:40:46.6248901+01:00",
-  "PublishFrom": "2014-10-17T03:40:46.6248901+02:00",
+  "PublishEventDate": "2007-10-04T02:30:47.1475873+02:00",
+  "PublishTo": "2016-09-03T02:30:47.1475873+02:00",
+  "PublishFrom": "2018-03-23T02:30:47.1475873+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 920,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldLength": 901
         }
       }
     },
     {
-      "VisibleId": 920,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldLength": 901
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 729,
-  "LanguageCode": "aliquid"
+  "DocumentTemplateId": 765,
+  "LanguageCode": "vitae"
 }
 ```
 

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 978,
-  "WorkflowStepId": 268,
-  "WorkflowId": 193,
-  "Rank": 411,
+  "WorkflowWaitForActionId": 570,
+  "WorkflowStepId": 459,
+  "WorkflowId": 714,
+  "Rank": 47,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "O'Connell-Thiel",
-      "Description": "Distributed fault-tolerant encoding",
-      "Rank": 111,
+      "Name": "Barton-Abshire",
+      "Description": "Networked real-time model",
+      "Rank": 242,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "O'Connell-Thiel",
-      "Description": "Distributed fault-tolerant encoding",
-      "Rank": 111,
+      "Name": "Barton-Abshire",
+      "Description": "Networked real-time model",
+      "Rank": 242,
       "Restrictions": [
         {},
         {}
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 244
     }
   }
 }

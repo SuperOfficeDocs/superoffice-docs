@@ -56,6 +56,7 @@ Sale histories. Contains all changes to the sale records over time.
 |earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |probPercent|int|Probability as %: Probability as %| x |
+|stageWhenClosed|listAny|Stage when closed: Stage when closed|  |
 |stage|listAny|Stage: Displays the stage of the sale|  |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
@@ -86,7 +87,7 @@ Sale histories. Contains all changes to the sale records over time.
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -120,11 +121,11 @@ Sale histories. Contains all changes to the sale records over time.
 |person/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
 |person/personSource|listAny|Source: Source (Contact)| x |
 |person/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
-|person/birthYear|int|Birth year: Displays contact's birth year| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/birthYear|int|Birth year: Displays contact's birth year| x |
 |person/birthMonth|int|Birth month: Displays contact's birth month| x |
 |person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
@@ -145,8 +146,10 @@ Sale histories. Contains all changes to the sale records over time.
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -163,6 +166,7 @@ Sale histories. Contains all changes to the sale records over time.
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -182,6 +186,7 @@ Sale histories. Contains all changes to the sale records over time.
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
@@ -211,7 +216,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=associate/assocTooltip,person/personCountryId
+GET /api/v1/archive/SaleHistory?$select=project/registeredDate,associate/assocType,person/rank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

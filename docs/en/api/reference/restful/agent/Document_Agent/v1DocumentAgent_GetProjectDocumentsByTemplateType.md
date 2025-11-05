@@ -100,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 643,
-  "StartTime": "2001-04-26T03:40:46.5936381+02:00",
-  "EndTime": "2015-08-05T03:40:46.5936381+02:00",
-  "Count": 651,
-  "DocumentTemplateId": 270
+  "ProjectId": 190,
+  "StartTime": "2013-12-15T02:30:47.0850878+01:00",
+  "EndTime": "2016-03-25T02:30:47.0850878+01:00",
+  "Count": 712,
+  "DocumentTemplateId": 84
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 389,
-    "Attention": "quia",
-    "Header": "fugit",
-    "Name": "Beahan-Thompson",
-    "OurRef": "sint",
-    "YourRef": "assumenda",
-    "Description": "Re-engineered upward-trending Graphic Interface",
-    "DocumentTemplate": "cumque",
+    "DocumentId": 518,
+    "Attention": "incidunt",
+    "Header": "sit",
+    "Name": "Krajcik-Hoeger",
+    "OurRef": "est",
+    "YourRef": "odio",
+    "Description": "Innovative multi-state process improvement",
+    "DocumentTemplate": "consequatur",
     "IsPublished": false,
-    "PersonId": 775,
-    "PersonFullName": "Ms. Dane Cassin MD",
-    "AssociateFullName": "Mrs. Madison Marta Toy MD",
-    "ContactId": 617,
-    "ContactName": "Upton-Homenick",
-    "ProjectId": 779,
-    "ProjectName": "Gorczany LLC",
-    "AssociateId": 152,
-    "Snum": 648,
-    "SaleId": 238,
-    "SaleName": "Willms Group",
+    "PersonId": 368,
+    "PersonFullName": "Daniella Eichmann",
+    "AssociateFullName": "Kathleen Rippin",
+    "ContactId": 561,
+    "ContactName": "Hodkiewicz-Strosin",
+    "ProjectId": 629,
+    "ProjectName": "Klein-Mitchell",
+    "AssociateId": 286,
+    "Snum": 711,
+    "SaleId": 246,
+    "SaleName": "Emmerich-Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 851
       }
     }
   }

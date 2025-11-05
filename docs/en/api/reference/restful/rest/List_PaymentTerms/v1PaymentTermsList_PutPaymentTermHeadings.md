@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 556,
-    "Name": "Emmerich Group",
-    "Tooltip": "quos",
+    "HeadingId": 186,
+    "Name": "Kreiger Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 744,
-    "UdListDefinitionId": 360
+    "Rank": 281,
+    "UdListDefinitionId": 739
   },
   {
-    "HeadingId": 556,
-    "Name": "Emmerich Group",
-    "Tooltip": "quos",
+    "HeadingId": 186,
+    "Name": "Kreiger Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 744,
-    "UdListDefinitionId": 360
+    "Rank": 281,
+    "UdListDefinitionId": 739
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Metz, Hackett and Dach",
-    "Tooltip": "corporis",
+    "HeadingId": 780,
+    "Name": "Goodwin-Macejkovic",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 643,
-    "UdListDefinitionId": 54,
+    "Rank": 946,
+    "UdListDefinitionId": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

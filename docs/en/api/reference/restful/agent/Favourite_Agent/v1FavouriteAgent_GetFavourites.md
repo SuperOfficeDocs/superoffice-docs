@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Maggio, Cormier and Kirlin",
-  "AssociateId": 102
+  "TableName": "Turner Inc and Sons",
+  "AssociateId": 585
 }
 ```
 
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Wilkinson, Bogan and Moen",
-    "RecordId": 715,
-    "AssociateId": 299,
-    "ExtraInfo": "quo",
-    "Rank": 406,
+    "TableName": "Hessel Inc and Sons",
+    "RecordId": 395,
+    "AssociateId": 194,
+    "ExtraInfo": "earum",
+    "Rank": 655,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 114
       }
     }
   }

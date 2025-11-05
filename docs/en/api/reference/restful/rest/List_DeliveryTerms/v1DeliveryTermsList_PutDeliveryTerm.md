@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Ziemann Inc and Sons",
-  "Tooltip": "officiis",
+  "Id": 968,
+  "Name": "West-Erdman",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "UdListDefinitionId": 225,
-  "Rank": 1001
+  "UdListDefinitionId": 849,
+  "Rank": 905
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 45,
+  "Name": "Orn-Schimmel",
+  "Tooltip": "officia",
   "Deleted": true,
-  "UdListDefinitionId": 161,
-  "Rank": 880,
+  "UdListDefinitionId": 440,
+  "Rank": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 363
     }
   }
 }

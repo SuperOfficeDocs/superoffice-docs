@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Volkman Group",
-  "Tooltip": "repellat",
+  "Id": 104,
+  "Name": "Kemmer, Kautzer and Price",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 597,
-  "IsCustomList": true,
+  "Rank": 377,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Altenwerth Inc and Sons",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 571,
+  "Id": 496,
+  "Name": "Feeney, Swaniawski and Funk",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "Rank": 895,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

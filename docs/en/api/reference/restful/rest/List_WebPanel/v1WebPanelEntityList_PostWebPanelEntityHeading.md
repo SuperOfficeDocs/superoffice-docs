@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 176,
-  "Name": "Robel-Sporer",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 862,
-  "UdListDefinitionId": 121
+  "HeadingId": 320,
+  "Name": "Herzog Group",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 247,
+  "UdListDefinitionId": 378
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 714,
-  "Name": "DuBuque, Schulist and Brakus",
-  "Tooltip": "autem",
+  "HeadingId": 85,
+  "Name": "Grimes-Hoeger",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 673,
-  "UdListDefinitionId": 290,
+  "Rank": 858,
+  "UdListDefinitionId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 216
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

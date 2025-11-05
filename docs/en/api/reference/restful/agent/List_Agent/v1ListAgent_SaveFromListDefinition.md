@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "UdListDefinitionId": 50,
+  "Id": 384,
+  "UdListDefinitionId": 121,
   "Item": null
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Miller, Schaefer and Hackett",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "UdListDefinitionId": 638,
-  "Rank": 550,
+  "Id": 262,
+  "Name": "Dietrich-Luettgen",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "UdListDefinitionId": 244,
+  "Rank": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 603
     }
   }
 }

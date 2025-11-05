@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Williamson LLC",
-    "Tooltip": "ut",
+    "Id": 473,
+    "Name": "Fay-O'Reilly",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 141
+    "UdListDefinitionId": 505,
+    "Rank": 549
   },
   {
-    "Id": 497,
-    "Name": "Williamson LLC",
-    "Tooltip": "ut",
+    "Id": 473,
+    "Name": "Fay-O'Reilly",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 141
+    "UdListDefinitionId": 505,
+    "Rank": 549
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Cummerata, Weissnat and Windler",
-    "Tooltip": "laborum",
+    "Id": 244,
+    "Name": "Stiedemann, Corkery and O'Keefe",
+    "Tooltip": "quas",
     "Deleted": true,
-    "UdListDefinitionId": 423,
-    "Rank": 188,
+    "UdListDefinitionId": 706,
+    "Rank": 820,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

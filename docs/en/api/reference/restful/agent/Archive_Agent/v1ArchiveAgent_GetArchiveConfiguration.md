@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lueilwitz LLC",
-  "ProviderName": "Hane, Nolan and Kunze"
+  "GuiName": "Rippin, Weissnat and Cormier",
+  "ProviderName": "Moore-Lemke"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Armstrong Inc and Sons",
-      "DisplayTooltip": "ut",
-      "DisplayType": "asperiores",
+      "DisplayName": "Wyman-Franecki",
+      "DisplayTooltip": "iusto",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Towne, Brown and Fadel",
+      "Name": "Considine, Herman and D'Amore",
       "CanRestrictBy": true,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Koelpin, Farrell and Green",
+      "RestrictionType": "temporibus",
+      "RestrictionListName": "Blanda Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "dignissimos",
-      "IconHint": "quia",
-      "HeadingIconHint": "asperiores"
+      "ExtraInfo": "inventore",
+      "Width": "dolore",
+      "IconHint": "blanditiis",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 615,
-      "Name": "Zulauf-Trantow",
-      "ToolTip": "Error non non vel vitae consequatur aut et.",
+      "Id": 50,
+      "Name": "Hand Inc and Sons",
+      "ToolTip": "Nihil ullam.",
       "Deleted": false,
-      "Rank": 419,
-      "Type": "facilis",
-      "ColorBlock": 212,
-      "IconHint": "totam",
+      "Rank": 885,
+      "Type": "commodi",
+      "ColorBlock": 186,
+      "IconHint": "reprehenderit",
       "Selected": false,
-      "LastChanged": "2002-10-01T03:40:46.0608291+02:00",
+      "LastChanged": "2015-07-12T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "quis",
+      "ExtraInfo": "et",
+      "StyleHint": "repellat",
       "Hidden": false,
-      "FullName": "Miss Amelia Tracy Cummerata PhD",
+      "FullName": "Agustin Mollie Gorczany Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Legros Group",
+      "Name": "Keeling, Nitzsche and Becker",
       "Direction": "ASC"
     },
     {
-      "Name": "Legros Group",
+      "Name": "Keeling, Nitzsche and Becker",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "harum",
+  "OwnerKeys": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

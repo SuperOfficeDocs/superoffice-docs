@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 700
+  "PrefDescId": 841
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 102,
-    "PrefDescId": 968,
-    "PrefValue": "odio",
-    "PrefShowValue": "et",
-    "Description": "Integrated incremental application",
+    "PrefDescLineId": 804,
+    "PrefDescId": 868,
+    "PrefValue": "sapiente",
+    "PrefShowValue": "voluptatem",
+    "Description": "Phased bottom-line flexibility",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldLength": 304
       }
     }
   }

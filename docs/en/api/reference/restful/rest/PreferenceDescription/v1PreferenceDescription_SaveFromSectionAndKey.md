@@ -107,24 +107,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 363,
-  "Section": "minima",
-  "Key": "ipsum",
-  "Name": "Koch-Langworth",
+  "PrefDescId": 880,
+  "Section": "ad",
+  "Key": "eum",
+  "Name": "Schmitt, Pacocha and Monahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic homogeneous analyzer",
+  "Description": "Optional full-range leverage",
   "IsBuiltin": false,
-  "TableName": "Kemmer-Kassulke",
-  "UserDefinedListId": 821,
-  "Rank": 837,
-  "SubGroup": "nemo",
-  "MinLevel": 640,
-  "MaxValue": 858,
-  "MinValue": 112,
-  "RequiredLicense": "totam"
+  "TableName": "Brakus, Simonis and Grimes",
+  "UserDefinedListId": 894,
+  "Rank": 704,
+  "SubGroup": "eum",
+  "MinLevel": 43,
+  "MaxValue": 349,
+  "MinValue": 901,
+  "RequiredLicense": "necessitatibus"
 }
 ```
 
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 897,
-  "Section": "cumque",
-  "Key": "et",
-  "Name": "Huel-Mosciski",
+  "PrefDescId": 40,
+  "Section": "porro",
+  "Key": "praesentium",
+  "Name": "Bosco-Homenick",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive upward-trending neural-net",
+  "Description": "Quality-focused empowering array",
   "IsBuiltin": true,
-  "TableName": "Harris Group",
-  "UserDefinedListId": 620,
-  "Rank": 308,
-  "SubGroup": "voluptatum",
-  "MinLevel": 824,
-  "MaxValue": 836,
-  "MinValue": 456,
-  "RequiredLicense": "eius",
+  "TableName": "Abernathy LLC",
+  "UserDefinedListId": 949,
+  "Rank": 939,
+  "SubGroup": "debitis",
+  "MinLevel": 580,
+  "MaxValue": 585,
+  "MinValue": 831,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

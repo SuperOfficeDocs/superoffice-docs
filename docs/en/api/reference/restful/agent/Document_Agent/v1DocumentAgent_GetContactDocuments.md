@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 59,
-  "StartTime": "2012-05-05T03:40:46.5780122+02:00",
-  "EndTime": "2021-11-20T03:40:46.5780122+01:00",
-  "Count": 205
+  "ContactId": 213,
+  "StartTime": "2016-03-14T02:30:47.0694635+01:00",
+  "EndTime": "2023-03-26T02:30:47.0694635+01:00",
+  "Count": 201
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 644,
-    "Attention": "nesciunt",
-    "Header": "eum",
-    "Name": "Zemlak, Abshire and Metz",
-    "OurRef": "non",
-    "YourRef": "odit",
-    "Description": "Reactive non-volatile architecture",
-    "DocumentTemplate": "quia",
+    "DocumentId": 683,
+    "Attention": "eaque",
+    "Header": "ullam",
+    "Name": "Beatty-Hauck",
+    "OurRef": "neque",
+    "YourRef": "sint",
+    "Description": "Multi-channelled 24/7 projection",
+    "DocumentTemplate": "dolorem",
     "IsPublished": false,
-    "PersonId": 891,
-    "PersonFullName": "Isadore Alycia Hills Jr.",
-    "AssociateFullName": "Yvette Mante",
-    "ContactId": 69,
-    "ContactName": "Kiehn-Ebert",
-    "ProjectId": 156,
-    "ProjectName": "Donnelly Group",
-    "AssociateId": 245,
-    "Snum": 8,
-    "SaleId": 502,
-    "SaleName": "Gibson, Kuhn and Koch",
+    "PersonId": 838,
+    "PersonFullName": "Kathlyn Champlin",
+    "AssociateFullName": "Prof. Josefina Rodriguez",
+    "ContactId": 74,
+    "ContactName": "Gerhold, Renner and Crona",
+    "ProjectId": 721,
+    "ProjectName": "Kassulke, Wuckert and Roob",
+    "AssociateId": 422,
+    "Snum": 362,
+    "SaleId": 548,
+    "SaleName": "Lind-Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

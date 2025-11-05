@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    128,
-    236
+    268,
+    220
   ]
 }
 ```
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hayes-Berge",
-    "Comment": "ipsa",
-    "StakeholderRoleId": 962,
-    "CountryId": 866,
-    "PersonId": 758,
-    "EmailDescription": "kurt@durgan.us",
-    "EmailId": 237,
-    "EmailAddress": "emmanuelle.bahringer@kemmerhauck.name",
-    "PhoneId": 483,
-    "ContactName": "Ferry LLC",
-    "ContactId": 204,
-    "SaleId": 706,
-    "Mrmrs": "fugiat",
-    "Firstname": "Helene",
-    "MiddleName": "Franecki LLC",
-    "Lastname": "Bernier",
-    "SaleStakeholderId": 351,
-    "Rank": 650,
-    "Phone": "529.192.3718",
+    "StakeholderRoleName": "Upton-Klein",
+    "Comment": "sunt",
+    "StakeholderRoleId": 137,
+    "CountryId": 326,
+    "PersonId": 856,
+    "EmailDescription": "zelma.monahan@champlin.uk",
+    "EmailId": 718,
+    "EmailAddress": "nayeli@kshlerinvandervort.co.uk",
+    "PhoneId": 853,
+    "ContactName": "Ondricka, McGlynn and Schroeder",
+    "ContactId": 835,
+    "SaleId": 40,
+    "Mrmrs": "officiis",
+    "Firstname": "Josephine",
+    "MiddleName": "Waelchi, Ernser and Farrell",
+    "Lastname": "Sipes",
+    "SaleStakeholderId": 943,
+    "Rank": 284,
+    "Phone": "815.079.5147 x8501",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 226
       }
     }
   }

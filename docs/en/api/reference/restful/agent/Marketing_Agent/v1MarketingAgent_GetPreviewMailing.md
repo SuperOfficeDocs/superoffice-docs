@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 744
+  "ShipmentAddrId": 593
 }
 ```
 
@@ -106,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2012-01-21T03:40:47.2499194+01:00",
+  "SendingTime": "2004-04-14T02:30:47.4600781+02:00",
   "Status": "Blocked",
-  "ShipmentId": 20,
-  "ShipmentDescription": "Function-based bandwidth-monitored access",
-  "FromAddress": "non",
-  "Configuration": 541,
-  "ContactId": 429,
-  "ContactName": "Considine, Rohan and Graham",
-  "PersonId": 585,
-  "PersonFullName": "Janice Rippin",
-  "ShipmentType": "esse",
-  "MessageId": 894,
-  "MessageSubject": "sit",
-  "DocumentMessageId": 181,
-  "Opened": "2001-07-05T03:40:47.2499194+02:00",
-  "LinkClicks": 646,
+  "ShipmentId": 578,
+  "ShipmentDescription": "Function-based hybrid system engine",
+  "FromAddress": "vitae",
+  "Configuration": 538,
+  "ContactId": 732,
+  "ContactName": "Kemmer, Marks and Reinger",
+  "PersonId": 21,
+  "PersonFullName": "Mrs. Obie Kuhic",
+  "ShipmentType": "aut",
+  "MessageId": 7,
+  "MessageSubject": "totam",
+  "DocumentMessageId": 675,
+  "Opened": "2010-01-21T02:30:47.4600781+01:00",
+  "LinkClicks": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 313
     }
   }
 }

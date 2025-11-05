@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Monahan, Berge and Gislason",
-    "ToolTip": "Rerum debitis officiis dolor qui.",
+    "Id": 249,
+    "Name": "Huel-Nienow",
+    "ToolTip": "Exercitationem aspernatur consequatur molestiae praesentium.",
     "Deleted": false,
-    "Rank": 750,
-    "Type": "autem",
-    "ColorBlock": 867,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-11-17T03:40:56.727602+01:00",
+    "Rank": 516,
+    "Type": "asperiores",
+    "ColorBlock": 318,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2005-09-14T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Moore, Gislason and Boyle",
-        "ToolTip": "Accusamus sed modi debitis assumenda reprehenderit vitae.",
+        "Id": 358,
+        "Name": "Ledner, Dickens and Champlin",
+        "ToolTip": "Dolor magni incidunt illum.",
         "Deleted": false,
-        "Rank": 436,
-        "Type": "rerum",
-        "ColorBlock": 263,
-        "IconHint": "aliquid",
+        "Rank": 85,
+        "Type": "placeat",
+        "ColorBlock": 117,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2013-07-10T03:40:56.727602+02:00",
+        "LastChanged": "2013-05-15T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "cum",
-        "Hidden": true,
-        "FullName": "Ms. Davion Christop Kilback",
+        "ExtraInfo": "earum",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Andres Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 559
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Ms. Chadd Florine Prohaska Jr.",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Dr. Baron Hayley Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldLength": 696
       }
     }
   }

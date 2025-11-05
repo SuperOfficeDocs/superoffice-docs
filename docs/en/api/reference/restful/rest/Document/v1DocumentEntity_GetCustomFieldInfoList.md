@@ -69,7 +69,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ferry, Donnelly and Ziemann",
-    "DisplayName": "Green-Marks",
-    "Description": "Multi-channelled non-volatile parallelism",
-    "ShortLabel": "non",
-    "HideLabel": true,
+    "FieldName": "Cartwright Inc and Sons",
+    "DisplayName": "Schaden Group",
+    "Description": "User-centric 4th generation budgetary management",
+    "ShortLabel": "atque",
+    "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 795,
-    "TemplateVariableName": "Collier, Runte and Schinner"
+    "Rank": 717,
+    "TemplateVariableName": "Wintheiser LLC"
   }
 ]
 ```

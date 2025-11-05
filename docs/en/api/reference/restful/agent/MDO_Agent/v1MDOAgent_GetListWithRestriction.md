@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz Group",
-  "AdditionalInfo": "atque",
-  "SearchValue": "numquam"
+  "Name": "Wisoky-Schoen",
+  "AdditionalInfo": "dicta",
+  "SearchValue": "et"
 }
 ```
 
@@ -107,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Bins, Olson and Cole",
-    "ToolTip": "Qui vel voluptas eum vero tempore expedita.",
+    "Id": 208,
+    "Name": "Stanton, Cole and Larkin",
+    "ToolTip": "Quis quo dolore non omnis.",
     "Deleted": false,
-    "Rank": 218,
-    "Type": "ipsa",
+    "Rank": 272,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Lesch, Bogisich and Schimmel",
-        "ToolTip": "Non nam molestiae et.",
+        "Id": 160,
+        "Name": "Morissette LLC",
+        "ToolTip": "Laborum omnis consequatur labore cupiditate autem eos ut.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "quam",
+        "Rank": 365,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 101,
-        "ExtraInfo": "sint",
-        "StyleHint": "impedit",
-        "FullName": "Gay Tillman",
+        "IconHint": "at",
+        "ColorBlock": 938,
+        "ExtraInfo": "sit",
+        "StyleHint": "molestiae",
+        "FullName": "Dr. Mossie Randall Morar MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldLength": 358
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 654,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "natus",
-    "FullName": "Katrine Schuppe",
+    "IconHint": "aliquid",
+    "ColorBlock": 631,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "facilis",
+    "FullName": "Laury Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 483
       }
     }
   }

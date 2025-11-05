@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Borer, Nienow and McLaughlin",
-    "SoPrimaryKey": 587,
-    "EntryName": "Wiza Group",
-    "EntryIdentifier": "rerum",
-    "RuleDisplayName": "Sipes, Torphy and Kutch",
+    "RuleName": "Terry, DuBuque and Walker",
+    "SoPrimaryKey": 941,
+    "EntryName": "Kiehn LLC",
+    "EntryIdentifier": "fuga",
+    "RuleDisplayName": "Nikolaus-Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 895
       }
     }
   }

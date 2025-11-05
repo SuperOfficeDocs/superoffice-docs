@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ratke, Gottlieb and Hahn",
-  "DeviceName": "Effertz-Bechtelar",
-  "KeyName": "Russel Group",
-  "TableName": "O'Conner, Raynor and Bailey",
-  "RecordId": 997
+  "ApplicationName": "Bartoletti, Altenwerth and Nikolaus",
+  "DeviceName": "Kutch LLC",
+  "KeyName": "Herman-Turcotte",
+  "TableName": "Ebert-Franecki",
+  "RecordId": 413
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "iure",
-  "Value": "aut",
-  "RecordId": 255,
-  "CreatedDate": "2007-03-25T03:40:46.9842779+02:00",
-  "UpdatedDate": "2017-12-15T03:40:46.9842779+01:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "a",
-  "TableName": "Bahringer, Greenholt and Macejkovic",
+  "Key": "voluptas",
+  "Value": "blanditiis",
+  "RecordId": 118,
+  "CreatedDate": "2000-07-30T02:30:47.366331+02:00",
+  "UpdatedDate": "2002-11-06T02:30:47.366331+01:00",
+  "UpdatedBy": "at",
+  "CreatedBy": "debitis",
+  "TableName": "Schaden Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 106
     }
   }
 }

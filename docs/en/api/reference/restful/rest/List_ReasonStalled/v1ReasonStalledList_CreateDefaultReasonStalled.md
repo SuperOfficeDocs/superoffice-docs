@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Nolan Group",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "UdListDefinitionId": 53,
-  "Rank": 58,
+  "Id": 153,
+  "Name": "Parisian, Collier and Spinka",
+  "Tooltip": "soluta",
+  "Deleted": false,
+  "UdListDefinitionId": 681,
+  "Rank": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 438
     }
   }
 }

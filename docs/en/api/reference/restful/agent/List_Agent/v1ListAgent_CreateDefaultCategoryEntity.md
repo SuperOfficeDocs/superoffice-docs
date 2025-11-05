@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 879,
-  "Name": "Ankunding Group",
+  "CategoryId": 63,
+  "Name": "Jacobs Inc and Sons",
   "CategoryGroup": "Customer",
-  "Tooltip": "quas",
-  "Rank": 845,
+  "Tooltip": "nam",
+  "Rank": 240,
   "EnableLeadStatus": false,
-  "CategoryFamilyId": 445,
+  "CategoryFamilyId": 13,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   }
 }

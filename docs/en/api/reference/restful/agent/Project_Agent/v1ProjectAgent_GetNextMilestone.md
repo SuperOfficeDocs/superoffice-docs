@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 705
+  "ProjectId": 278
 }
 ```
 
@@ -145,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 170,
-  "StartDate": "2011-01-01T03:40:47.4687299+01:00",
-  "EndDate": "2015-09-23T03:40:47.4687299+02:00",
+  "AppointmentId": 788,
+  "StartDate": "2005-05-04T02:30:47.6788214+02:00",
+  "EndDate": "2025-07-28T02:30:47.6788214+02:00",
   "Type": "BookingForChecklist",
-  "Task": "enim",
-  "AssociateFullName": "Gregorio Kessler",
-  "ContactName": "Kuvalis Inc and Sons",
-  "Description": "Secured tertiary approach",
-  "PersonFullName": "Prof. Oral Ferry II",
-  "PersonId": 416,
-  "ContactId": 306,
-  "ProjectId": 908,
-  "ProjectName": "Goyette-Jewess",
-  "IsPublished": true,
-  "AssociateId": 377,
-  "ColorIndex": 602,
+  "Task": "numquam",
+  "AssociateFullName": "Joan Barton Jr.",
+  "ContactName": "Pacocha-Klocko",
+  "Description": "Total reciprocal protocol",
+  "PersonFullName": "Mr. Ceasar Sandrine Gleichner",
+  "PersonId": 973,
+  "ContactId": 60,
+  "ProjectId": 431,
+  "ProjectName": "Parisian Inc and Sons",
+  "IsPublished": false,
+  "AssociateId": 98,
+  "ColorIndex": 54,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 568,
-  "PriorityName": "Waters, Bogisich and Romaguera",
+  "PriorityId": 707,
+  "PriorityName": "Fritsch-VonRueden",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2011-01-30T03:40:47.4687299+01:00",
+  "ActiveDate": "2012-09-22T02:30:47.6788214+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2024-10-10T03:40:47.4687299+02:00",
-  "RecurringEndDate": "2005-02-28T03:40:47.4687299+01:00",
-  "MotherId": 139,
-  "AssignedBy": 501,
-  "AssignedByFullName": "Mrs. Lelah Elfrieda Gerlach",
+  "RecurringStartDate": "2008-03-28T02:30:47.6788214+01:00",
+  "RecurringEndDate": "2021-07-19T02:30:47.6788214+02:00",
+  "MotherId": 470,
+  "AssignedBy": 112,
+  "AssignedByFullName": "Victoria Leannon",
   "RejectReason": "",
-  "Location": "nam",
-  "AlarmLeadTime": "sit",
-  "SaleId": 882,
-  "SaleName": "Labadie, Rempel and Schaefer",
-  "AssociateName": "Ebert-Willms",
-  "CreatedDate": "2016-08-09T03:40:47.4687299+02:00",
-  "CreatedBy": "nesciunt",
-  "CreatedByFullName": "Dr. Dario Gustave Mayer",
-  "CreatedByAssociateId": 31,
+  "Location": "perferendis",
+  "AlarmLeadTime": "eum",
+  "SaleId": 791,
+  "SaleName": "Runolfsdottir, Krajcik and Marquardt",
+  "AssociateName": "Cummerata Group",
+  "CreatedDate": "2012-01-21T02:30:47.6788214+01:00",
+  "CreatedBy": "quas",
+  "CreatedByFullName": "Afton Aufderhar",
+  "CreatedByAssociateId": 664,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 402,
+  "MotherAssociateId": 631,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 617,
-  "Title": "quisquam",
-  "Agenda": "error",
-  "InternalNotes": "quo",
+  "PreferredTZLocation": 14,
+  "Title": "omnis",
+  "Agenda": "eum",
+  "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 118
     }
   }
 }

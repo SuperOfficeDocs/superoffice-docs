@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Gaylord-Senger",
-  "Tooltip": "laborum",
+  "Id": 773,
+  "Name": "Lehner LLC",
+  "Tooltip": "nisi",
   "Deleted": true,
-  "UdListDefinitionId": 366,
-  "Rank": 685
+  "UdListDefinitionId": 852,
+  "Rank": 907
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Gutmann, Harber and Windler",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "UdListDefinitionId": 326,
-  "Rank": 881,
+  "Id": 778,
+  "Name": "Cummerata Inc and Sons",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 456,
+  "Rank": 955,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 573
     }
   }
 }

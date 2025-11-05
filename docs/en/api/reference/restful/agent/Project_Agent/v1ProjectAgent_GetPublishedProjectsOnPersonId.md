@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 989
+  "PersonId": 675
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 153,
-    "Name": "Schmidt-Homenick",
-    "Description": "Innovative real-time hub",
+    "ProjectId": 320,
+    "Name": "Cremin, Heidenreich and Hansen",
+    "Description": "Upgradable intangible attitude",
     "URL": "http://www.example.com/",
-    "Type": "odio",
-    "AssociateId": 538,
-    "AssociateFullName": "Hardy Howell",
-    "TypeId": 780,
-    "Updated": "2012-07-18T03:40:47.4999832+02:00",
-    "StatusId": 850,
-    "Status": "ea",
-    "TextId": 140,
-    "PublishTo": "2019-03-06T03:40:47.4999832+01:00",
-    "PublishFrom": "2004-03-09T03:40:47.4999832+01:00",
+    "Type": "iste",
+    "AssociateId": 657,
+    "AssociateFullName": "Prof. Griffin Shaylee Cummings",
+    "TypeId": 1000,
+    "Updated": "2022-04-03T02:30:47.6944454+02:00",
+    "StatusId": 642,
+    "Status": "dolor",
+    "TextId": 683,
+    "PublishTo": "2020-02-24T02:30:47.6944454+01:00",
+    "PublishFrom": "2019-02-02T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1705413",
-    "ActiveErpLinks": 973,
+    "ProjectNumber": "683781",
+    "ActiveErpLinks": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 521
       }
     }
   }

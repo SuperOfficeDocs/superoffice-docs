@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 144,
-    "Name": "Klocko Group",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 151
+    "HeadingId": 483,
+    "Name": "Bahringer-Halvorson",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 21,
+    "UdListDefinitionId": 5
   },
   {
-    "HeadingId": 144,
-    "Name": "Klocko Group",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 151
+    "HeadingId": 483,
+    "Name": "Bahringer-Halvorson",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 21,
+    "UdListDefinitionId": 5
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Cummerata-Windler",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 940,
-    "UdListDefinitionId": 544,
+    "HeadingId": 395,
+    "Name": "Jacobi-Stehr",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "Rank": 573,
+    "UdListDefinitionId": 566,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldLength": 681
       }
     }
   }

@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 431,
-  "Name": "Goyette, O'Connell and Champlin",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 331,
+  "Id": 556,
+  "Name": "Dicki-Grady",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 950,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 236
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   },
   "_Links": {

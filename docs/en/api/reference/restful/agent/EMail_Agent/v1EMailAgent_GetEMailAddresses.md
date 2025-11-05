@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    967,
-    301
+    930,
+    569
   ]
 }
 ```
@@ -106,24 +106,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 728,
-    "ContactName": "Blick-Abernathy",
-    "PersonId": 592,
-    "PersonName": "Stoltenberg, Rice and Homenick",
-    "AssociateId": 272,
-    "Address": "in",
-    "EmailId": 245,
+    "ContactId": 106,
+    "ContactName": "Kshlerin, Hammes and Emmerich",
+    "PersonId": 552,
+    "PersonName": "Braun LLC",
+    "AssociateId": 29,
+    "Address": "odit",
+    "EmailId": 1002,
     "DuplicatePersonIds": [
-      174,
-      844
+      345,
+      522
     ],
-    "Name": "Turcotte-Kirlin",
+    "Name": "Stiedemann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldLength": 988
       }
     }
   }

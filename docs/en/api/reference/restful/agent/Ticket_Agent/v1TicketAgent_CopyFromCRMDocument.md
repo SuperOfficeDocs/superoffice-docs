@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 315
+  "DocumentId": 697
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 147,
-  "Name": "Moen, Kovacek and Bayer",
-  "ContentType": "est",
-  "AttSize": 902,
+  "AttachmentId": 785,
+  "Name": "Green-Strosin",
+  "ContentType": "officia",
+  "AttSize": 514,
   "InlineImage": false,
-  "ContentId": "deserunt",
-  "AuthKey": "fuga",
-  "IsSafeFileExtension": true,
+  "ContentId": "et",
+  "AuthKey": "unde",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 288
     }
   }
 }

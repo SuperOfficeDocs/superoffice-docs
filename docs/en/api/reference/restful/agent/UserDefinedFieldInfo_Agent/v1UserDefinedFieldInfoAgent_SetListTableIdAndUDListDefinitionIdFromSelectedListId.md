@@ -110,12 +110,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 434
+  "SelectedListId": 602
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 675,
-  "ColumnId": 15,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 309,
-  "FieldLabel": "sunt",
-  "FieldLeft": 619,
-  "FieldTop": 514,
+  "UDefFieldId": 16,
+  "ColumnId": 665,
+  "FieldDefault": "maxime",
+  "FieldHeight": 64,
+  "FieldLabel": "earum",
+  "FieldLeft": 627,
+  "FieldTop": 340,
   "FieldType": "Checkbox",
-  "FieldWidth": 135,
-  "FormatMask": "est",
+  "FieldWidth": 548,
+  "FormatMask": "dignissimos",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 903,
-  "LabelLeft": 887,
-  "LabelTop": 178,
-  "LabelWidth": 909,
-  "LastVersionId": 937,
-  "ListTableId": 854,
+  "LabelHeight": 111,
+  "LabelLeft": 754,
+  "LabelTop": 160,
+  "LabelWidth": 89,
+  "LastVersionId": 699,
+  "ListTableId": 207,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 913,
-  "ProgId": "mollitia",
-  "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 444,
-  "TextLength": 371,
-  "Tooltip": "quasi",
-  "UdefIdentity": 17,
-  "UDListDefinitionId": 399,
+  "Page1LineNo": 726,
+  "ProgId": "nemo",
+  "IsReadOnly": true,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 540,
+  "TextLength": 599,
+  "Tooltip": "esse",
+  "UdefIdentity": 797,
+  "UDListDefinitionId": 141,
   "Justification": "Center",
-  "Version": 990,
-  "TemplateVariableName": "Adams Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Pagac-Nicolas",
+  "Version": 293,
+  "TemplateVariableName": "Ledner-Gutmann",
+  "HasBeenPublished": false,
+  "MdoListName": "Considine Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldLength": 244
     }
   }
 }

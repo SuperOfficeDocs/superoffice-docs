@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 827,
+      "CustConfigId": 668,
       "Type": "Options",
-      "Config": "fuga",
-      "CustLangId": 542,
-      "Registered": "1999-01-23T03:40:46.5468616+01:00",
-      "RegisteredAssociateId": 328,
-      "Updated": "2003-05-27T03:40:46.5468616+02:00",
-      "UpdatedAssociateId": 140
+      "Config": "ut",
+      "CustLangId": 734,
+      "Registered": "2023-04-27T02:30:47.0538389+02:00",
+      "RegisteredAssociateId": 846,
+      "Updated": "2008-09-22T02:30:47.0538389+02:00",
+      "UpdatedAssociateId": 603
     }
   ]
 }

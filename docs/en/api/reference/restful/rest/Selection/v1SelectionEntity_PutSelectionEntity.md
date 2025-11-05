@@ -163,60 +163,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible assymetric standardization",
-  "Postit": "porro",
+  "Description": "Team-oriented optimizing policy",
+  "Postit": "quaerat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 24,
-  "IncludePerson": 780,
+  "GroupIdx": 389,
+  "IncludePerson": 293,
   "MemberCount": 99.99,
-  "Name": "Hegmann, Green and Pagac",
-  "PostitTextId": 368,
-  "CreatedDate": "2013-08-23T03:40:56.2261738+02:00",
-  "SelectionId": 732,
-  "SoundEx": "debitis",
-  "Source": 856,
-  "TextId": 944,
-  "UpdatedDate": "2006-07-09T03:40:56.2261738+02:00",
-  "UpdatedCount": 685,
-  "Visibility": 636,
+  "Name": "Renner-Satterfield",
+  "PostitTextId": 944,
+  "CreatedDate": "2013-01-31T02:30:52.9130204+01:00",
+  "SelectionId": 56,
+  "SoundEx": "nemo",
+  "Source": 714,
+  "TextId": 365,
+  "UpdatedDate": "2025-01-15T02:30:52.9130204+01:00",
+  "UpdatedCount": 336,
+  "Visibility": 840,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 744,
-  "TargetTableName": "Weber, Waelchi and Schmeler",
-  "Completed": true,
-  "LeftSelectionId": 219,
-  "RightSelectionId": 19,
+  "TargetTableNumber": 201,
+  "TargetTableName": "Beatty-Labadie",
+  "Completed": false,
+  "LeftSelectionId": 101,
+  "RightSelectionId": 920,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bernier, Haag and Dare",
-  "ShadowProviderName": "Gleichner, Schowalter and Von",
-  "ChartKey": "optio",
-  "LastLoaded": "2006-05-07T03:40:56.2261738+02:00",
-  "LastLoadedBy": 417,
+  "MainProviderName": "O'Keefe Group",
+  "ShadowProviderName": "Turcotte-Keebler",
+  "ChartKey": "itaque",
+  "LastLoaded": "2020-08-07T02:30:52.9130204+02:00",
+  "LastLoadedBy": 971,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-02-10T03:40:56.2265113+01:00",
-  "LastMembershipChangeBy": 863,
+  "LastMembershipChange": "2000-04-22T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 459,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "autem",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Gislason, Heathcote and Dach",
-  "DashboardTileDefinitionId": 153,
+  "MainHeading": "quia",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Purdy Group",
+  "DashboardTileDefinitionId": 857,
   "VisibleFor": [
     {
-      "VisibleId": 957,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "sed"
     },
     {
-      "VisibleId": 957,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "sed"
     }
   ]
 }
@@ -229,70 +229,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative actuating forecast",
-  "Postit": "facilis",
+  "Description": "Re-engineered bandwidth-monitored array",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 720,
-  "IncludePerson": 849,
+  "GroupIdx": 714,
+  "IncludePerson": 249,
   "MemberCount": 99.99,
-  "Name": "Towne-Legros",
-  "PostitTextId": 931,
-  "CreatedDate": "2009-08-20T03:40:56.2292047+02:00",
-  "SelectionId": 493,
-  "SoundEx": "quasi",
-  "Source": 795,
-  "TextId": 153,
-  "UpdatedDate": "2020-09-20T03:40:56.2292047+02:00",
-  "UpdatedCount": 280,
-  "Visibility": 270,
+  "Name": "Bogisich-Legros",
+  "PostitTextId": 69,
+  "CreatedDate": "2021-04-07T02:30:52.9286519+02:00",
+  "SelectionId": 92,
+  "SoundEx": "quidem",
+  "Source": 742,
+  "TextId": 880,
+  "UpdatedDate": "2017-04-20T02:30:52.9286519+02:00",
+  "UpdatedCount": 984,
+  "Visibility": 52,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 132,
-  "TargetTableName": "Gusikowski, Connelly and Wintheiser",
-  "Completed": true,
-  "LeftSelectionId": 110,
-  "RightSelectionId": 439,
+  "TargetTableNumber": 687,
+  "TargetTableName": "Osinski-Auer",
+  "Completed": false,
+  "LeftSelectionId": 966,
+  "RightSelectionId": 159,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Steuber, Homenick and Pouros",
-  "ShadowProviderName": "Harris-O'Kon",
-  "ChartKey": "qui",
-  "LastLoaded": "2007-08-31T03:40:56.2292047+02:00",
-  "LastLoadedBy": 982,
+  "MainProviderName": "Schimmel, Gutmann and McKenzie",
+  "ShadowProviderName": "Jerde Group",
+  "ChartKey": "ea",
+  "LastLoaded": "2021-03-18T02:30:52.9286519+01:00",
+  "LastLoadedBy": 436,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-07-04T03:40:56.2292047+02:00",
-  "LastMembershipChangeBy": 712,
+  "LastMembershipChange": "2000-03-27T02:30:52.9286519+02:00",
+  "LastMembershipChangeBy": 944,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "odit",
-  "MailingsProviderName": "Haag-Jaskolski",
-  "DashboardTileDefinitionId": 243,
+  "MainHeading": "necessitatibus",
+  "MemberTabHeading": "impedit",
+  "MailingsProviderName": "Goldner, Bartoletti and O'Conner",
+  "DashboardTileDefinitionId": 863,
   "VisibleFor": [
     {
-      "VisibleId": 543,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 467
         }
       }
     },
     {
-      "VisibleId": 543,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 467
         }
       }
     }
@@ -302,7 +302,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 731
     }
   },
   "_Links": {

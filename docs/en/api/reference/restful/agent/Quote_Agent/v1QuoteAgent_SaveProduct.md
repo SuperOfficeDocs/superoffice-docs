@@ -132,55 +132,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 4,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "libero",
-  "Name": "Goyette-Shanahan",
-  "Description": "Profound full-range flexibility",
-  "Code": "culpa",
-  "PriceUnit": "voluptatibus",
-  "QuantityUnit": "incidunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "rem",
-  "DefaultSubscriptionQuantity": 29431.394,
-  "ItemNumber": "425201",
+  "ProductId": 740,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "sint",
+  "Name": "McCullough Group",
+  "Description": "Innovative demand-driven monitoring",
+  "Code": "aut",
+  "PriceUnit": "vel",
+  "QuantityUnit": "quaerat",
+  "IsSubscription": false,
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 11207.184,
+  "ItemNumber": "1190377",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "temporibus",
-  "ProductTypeKey": "impedit",
-  "VAT": 11761.902,
-  "VATInfo": "corporis",
-  "UnitCost": 25006.185999999998,
-  "UnitMinimumPrice": 6565.73,
-  "UnitListPrice": 22884.468,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "qui",
+  "VAT": 8214.214,
+  "VATInfo": "et",
+  "UnitCost": 6111.3,
+  "UnitMinimumPrice": 11251.06,
+  "UnitListPrice": 10006.862,
   "InAssortment": true,
-  "Supplier": "rerum",
-  "SupplierCode": "qui",
-  "Rights": "sequi",
-  "Rule": "nisi",
+  "Supplier": "voluptatem",
+  "SupplierCode": "excepturi",
+  "Rights": "odit",
+  "Rule": "odio",
   "ExtraInfo": [
     {
-      "Name": "Ernser, Blick and Oberbrunner",
-      "Value": "ea",
+      "Name": "Dickens Inc and Sons",
+      "Value": "sed",
       "Type": "Image"
     },
     {
-      "Name": "Ernser, Blick and Oberbrunner",
-      "Value": "ea",
+      "Name": "Dickens Inc and Sons",
+      "Value": "sed",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "ExtraField1": "temporibus",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "blanditiis",
-  "ExtraField5": "autem",
-  "InStock": 6089.362
+  "RawExtraInfo": "mollitia",
+  "ExtraField1": "nihil",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "alias",
+  "ExtraField4": "non",
+  "ExtraField5": "hic",
+  "InStock": 24830.682
 }
 ```
 
@@ -191,73 +191,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 926,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "cum",
-  "Name": "Kuhic, Ritchie and Bode",
-  "Description": "Team-oriented multi-state approach",
+  "ProductId": 972,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "et",
+  "Name": "Walsh-Bergnaum",
+  "Description": "Exclusive homogeneous core",
   "Code": "dolores",
-  "PriceUnit": "saepe",
-  "QuantityUnit": "assumenda",
+  "PriceUnit": "nostrum",
+  "QuantityUnit": "dignissimos",
   "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 5337.202,
-  "ItemNumber": "280736",
+  "SubscriptionUnit": "ipsa",
+  "DefaultSubscriptionQuantity": 23705.576,
+  "ItemNumber": "1299721",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "aut",
-  "VAT": 25457.482,
-  "VATInfo": "voluptatibus",
-  "UnitCost": 14197.02,
-  "UnitMinimumPrice": 30440.541999999998,
-  "UnitListPrice": 30380.996,
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "error",
+  "VAT": 21242.252,
+  "VATInfo": "in",
+  "UnitCost": 29412.59,
+  "UnitMinimumPrice": 24373.118,
+  "UnitListPrice": 12163.054,
   "InAssortment": false,
-  "Supplier": "sunt",
-  "SupplierCode": "ad",
-  "Rights": "libero",
-  "Rule": "consequatur",
+  "Supplier": "cum",
+  "SupplierCode": "facere",
+  "Rights": "quia",
+  "Rule": "odit",
   "ExtraInfo": [
     {
-      "Name": "Gerhold-Gleichner",
-      "Value": "nulla",
+      "Name": "Dach-Champlin",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     },
     {
-      "Name": "Gerhold-Gleichner",
-      "Value": "nulla",
+      "Name": "Dach-Champlin",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     }
   ],
-  "RawExtraInfo": "vel",
-  "ExtraField1": "sequi",
-  "ExtraField2": "ad",
-  "ExtraField3": "sit",
-  "ExtraField4": "aliquam",
-  "ExtraField5": "rem",
-  "InStock": 5631.798,
+  "RawExtraInfo": "quaerat",
+  "ExtraField1": "quia",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "dolore",
+  "ExtraField4": "voluptate",
+  "ExtraField5": "praesentium",
+  "InStock": 16077.42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 363
     }
   }
 }

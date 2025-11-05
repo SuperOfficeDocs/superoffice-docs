@@ -87,18 +87,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Batz-Sipes",
+  "TableName": "Armstrong-Ruecker",
   "Columns": [
-    "ut",
-    "consequuntur"
+    "itaque",
+    "aut"
   ],
   "Keys": [
-    "facilis",
-    "rerum"
+    "nulla",
+    "necessitatibus"
   ],
   "Data": [
     [
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -121,40 +121,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "molestiae",
-  "Inserts": 755,
-  "Updates": 503,
-  "Deletes": 499,
+  "Message": "eos",
+  "Inserts": 978,
+  "Updates": 184,
+  "Deletes": 332,
   "RowStatus": [
     {
-      "PrimaryKey": 393,
+      "PrimaryKey": 544,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "atque",
-        "quisquam"
+        "voluptatem",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 75
         }
       }
     },
     {
-      "PrimaryKey": 393,
+      "PrimaryKey": 544,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "atque",
-        "quisquam"
+        "voluptatem",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 75
         }
       }
     }
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 555
     }
   }
 }

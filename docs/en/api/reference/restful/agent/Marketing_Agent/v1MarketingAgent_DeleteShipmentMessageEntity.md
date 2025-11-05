@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | shipmentMessageEntityId | int32 | **Required** The identity of the ShipmentMessageEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?shipmentMessageEntityId=311
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?shipmentMessageEntityId=602
 ```
 
 

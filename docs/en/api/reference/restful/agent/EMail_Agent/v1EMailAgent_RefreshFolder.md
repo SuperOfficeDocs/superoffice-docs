@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "excepturi",
-    "eius"
+    "qui",
+    "voluptate"
   ]
 }
 ```
@@ -94,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-746
+641
 ```

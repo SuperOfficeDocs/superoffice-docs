@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 432,
-  "Name": "Ondricka, Weissnat and Hand",
-  "Tooltip": "cum",
+  "HeadingId": 587,
+  "Name": "Blick-Pouros",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 788,
-  "UdListDefinitionId": 49
+  "Rank": 109,
+  "UdListDefinitionId": 997
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Turcotte Inc and Sons",
-  "Tooltip": "reiciendis",
+  "HeadingId": 516,
+  "Name": "Macejkovic-Glover",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "Rank": 866,
-  "UdListDefinitionId": 530,
+  "Rank": 40,
+  "UdListDefinitionId": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

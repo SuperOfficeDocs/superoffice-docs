@@ -105,33 +105,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 426,
-  "ParentId": 157,
-  "Name": "Renner, Hahn and Kreiger",
-  "Fullname": "et",
-  "CategoryMaster": 943,
+  "TicketCategoryId": 514,
+  "ParentId": 970,
+  "Name": "Dibbert-McClure",
+  "Fullname": "esse",
+  "CategoryMaster": 90,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schmidt-Bergnaum",
+  "ExternalName": "Fay-Hirthe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 378,
-  "ReplyTemplate": 747,
-  "NotificationEmail": "flavie_leuschke@powlowski.info",
+  "AssignmentLag": 104,
+  "ReplyTemplate": 728,
+  "NotificationEmail": "amya_tromp@rosenbaum.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 907,
+  "EffectiveReplyTemplateId": 528,
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "quia"
+    "CustomFields1": "omnis",
+    "CustomFields2": "consequuntur"
   }
 }
 ```
@@ -143,36 +143,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 966,
-  "ParentId": 262,
-  "Name": "Fay, Wyman and Padberg",
-  "Fullname": "eos",
-  "CategoryMaster": 834,
+  "TicketCategoryId": 610,
+  "ParentId": 738,
+  "Name": "Satterfield Inc and Sons",
+  "Fullname": "dolores",
+  "CategoryMaster": 249,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Miller LLC",
+  "ExternalName": "Waelchi, Kunde and Williamson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 272,
-  "ReplyTemplate": 89,
-  "NotificationEmail": "carmen_brown@jenkins.co.uk",
+  "AssignmentLag": 478,
+  "ReplyTemplate": 293,
+  "NotificationEmail": "demond_larkin@gutkowski.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 441,
+  "EffectiveReplyTemplateId": 524,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "est",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ut"
+    "CustomFields1": "id",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 605
     }
   }
 }

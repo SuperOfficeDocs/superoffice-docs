@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "molestiae"
+  "FromAddress": "quia"
 }
 ```
 
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 519,
-  "EMailAddress": "expedita",
-  "AssociateId": 879,
+  "EMailAccountId": 417,
+  "EMailAddress": "voluptas",
+  "AssociateId": 704,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 763,
-  "ErrorCount": 572,
+  "AccountStatus": 234,
+  "ErrorCount": 708,
   "ErrorReason": "",
-  "InboxFolder": "ut",
-  "SentFolder": "consectetur",
-  "SimpleMode": 15,
-  "LastFetch": "2001-01-02T03:40:46.8280185+01:00",
+  "InboxFolder": "fuga",
+  "SentFolder": "est",
+  "SimpleMode": 596,
+  "LastFetch": "2006-12-05T02:30:47.2725845+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

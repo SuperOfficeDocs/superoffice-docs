@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 749,
-  "Name": "Simonis, O'Kon and Kassulke",
+  "TicketPriorityId": 360,
+  "Name": "Ondricka-Daniel",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 984,
+  "SortOrder": 468,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 596,
-  "MonStart": "2019-01-30T03:40:57.1500758+01:00",
-  "MonStop": "2012-01-23T03:40:57.1500758+01:00",
-  "TueStart": "2003-10-28T03:40:57.1500758+01:00",
-  "TueStop": "2024-04-04T03:40:57.1500758+02:00",
-  "WedStart": "1998-08-03T03:40:57.1500758+02:00",
-  "WedStop": "2018-06-19T03:40:57.1500758+02:00",
-  "ThuStart": "2005-02-04T03:40:57.1500758+01:00",
-  "ThuStop": "2018-12-26T03:40:57.1500758+01:00",
-  "FriStart": "2024-02-18T03:40:57.1500758+01:00",
-  "FriStop": "2025-01-19T03:40:57.1500758+01:00",
-  "SatStart": "1999-11-21T03:40:57.1500758+01:00",
-  "SatStop": "2012-01-26T03:40:57.1500758+01:00",
-  "SunStart": "2020-11-10T03:40:57.1500758+01:00",
-  "SunStop": "2005-12-08T03:40:57.1500758+01:00",
+  "Deadline": 737,
+  "MonStart": "2023-09-22T02:30:53.5223788+02:00",
+  "MonStop": "2006-06-12T02:30:53.5223788+02:00",
+  "TueStart": "2004-02-20T02:30:53.5223788+01:00",
+  "TueStop": "2024-05-03T02:30:53.5223788+02:00",
+  "WedStart": "2003-02-28T02:30:53.5223788+01:00",
+  "WedStop": "2005-07-28T02:30:53.5223788+02:00",
+  "ThuStart": "2011-11-05T02:30:53.5223788+01:00",
+  "ThuStop": "2024-10-29T02:30:53.5223788+01:00",
+  "FriStart": "2012-05-12T02:30:53.5223788+02:00",
+  "FriStop": "2005-08-22T02:30:53.5223788+02:00",
+  "SatStart": "2021-05-22T02:30:53.5223788+02:00",
+  "SatStop": "2014-06-11T02:30:53.5223788+02:00",
+  "SunStart": "2009-12-12T02:30:53.5223788+01:00",
+  "SunStop": "2022-05-24T02:30:53.5223788+02:00",
   "NonDates": [
-    "et",
-    "pariatur"
+    "vitae",
+    "aut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 693,
-      "AlertLevel": 487,
-      "AlertTimeout": 700,
-      "Action": 1001,
-      "DelegateTo": 36,
-      "ScriptId": 110,
-      "EmailTo": "candace_christiansen@vonrueden.name",
-      "SmsTo": "possimus",
-      "ReplyTemplateIdCustomer": 853,
-      "ReplyTemplateIdUser": 618,
-      "ReplyTemplateIdCatmast": 21,
-      "ReplyTemplateIdEmail": 924,
-      "RtiCustomerSms": 516,
-      "ReplyTemplateIdUserSms": 169,
-      "ReplyTemplateIdCatmastSms": 994,
-      "ReplyTemplateIdSms": 916,
+      "TicketAlertId": 51,
+      "AlertLevel": 57,
+      "AlertTimeout": 315,
+      "Action": 567,
+      "DelegateTo": 464,
+      "ScriptId": 386,
+      "EmailTo": "hal.hodkiewicz@greenhalvorson.us",
+      "SmsTo": "quidem",
+      "ReplyTemplateIdCustomer": 929,
+      "ReplyTemplateIdUser": 680,
+      "ReplyTemplateIdCatmast": 454,
+      "ReplyTemplateIdEmail": 663,
+      "RtiCustomerSms": 640,
+      "ReplyTemplateIdUserSms": 650,
+      "ReplyTemplateIdCatmastSms": 310,
+      "ReplyTemplateIdSms": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

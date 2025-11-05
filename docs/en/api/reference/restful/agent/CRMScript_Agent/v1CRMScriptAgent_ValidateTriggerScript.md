@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 658
+  "TriggerScriptId": 904
 }
 ```
 
@@ -102,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "voluptas",
-  "LineNumber": 377,
+  "ErrorMessage": "neque",
+  "LineNumber": 693,
   "ErrorInformation": null,
-  "Transpiled": "officia",
+  "Transpiled": "modi",
   "Includes": [
-    572,
-    985
+    976,
+    758
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 586,
-      "LineNumberTo": 314,
-      "Delta": 927,
-      "IncludeId": "sint",
+      "LineNumberFrom": 122,
+      "LineNumberTo": 498,
+      "Delta": 568,
+      "IncludeId": "labore",
       "IncludedFrom": [
-        "et",
-        "aut"
+        "nihil",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 826
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

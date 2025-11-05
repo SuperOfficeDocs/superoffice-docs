@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hammes, Hermann and Klein",
-    "Brakus, Deckow and Wilderman"
+    "Batz-McDermott",
+    "Wiza, Braun and Weber"
   ],
-  "Culture": "consequatur",
-  "ActiveOnly": true
+  "Culture": "eveniet",
+  "ActiveOnly": false
 }
 ```
 
@@ -102,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Kub, Pfeffer and Blick",
-    "ResourceValue": "commodi",
-    "Culture": "aut",
+    "ResourceName": "Schumm, Simonis and Hoppe",
+    "ResourceValue": "dolorem",
+    "Culture": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   },
   {
-    "ResourceName": "Kub, Pfeffer and Blick",
-    "ResourceValue": "commodi",
-    "Culture": "aut",
+    "ResourceName": "Schumm, Simonis and Hoppe",
+    "ResourceValue": "dolorem",
+    "Culture": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

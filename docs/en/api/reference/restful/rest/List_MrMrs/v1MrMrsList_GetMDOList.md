@@ -28,7 +28,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=eaque
+GET /api/v1/List/MrMrs/MDOItems?query=pariatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Gerlach LLC",
-    "ToolTip": "Voluptatum molestiae doloribus ipsum aut quia blanditiis.",
+    "Id": 827,
+    "Name": "Mohr Inc and Sons",
+    "ToolTip": "Et odit voluptate.",
     "Deleted": false,
-    "Rank": 260,
-    "Type": "labore",
+    "Rank": 784,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Schultz-Koelpin",
-        "ToolTip": "Necessitatibus beatae deserunt.",
-        "Deleted": false,
-        "Rank": 983,
-        "Type": "soluta",
+        "Id": 378,
+        "Name": "Gleichner-Keebler",
+        "ToolTip": "Nostrum rerum blanditiis minus facilis quia.",
+        "Deleted": true,
+        "Rank": 710,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 7,
-        "ExtraInfo": "autem",
-        "StyleHint": "laborum",
-        "FullName": "Maurine Welch",
+        "IconHint": "a",
+        "ColorBlock": 778,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "fuga",
+        "FullName": "Eladio Friedrich Stanton MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 233
+            "FieldType": "System.Int32",
+            "FieldLength": 285
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 94,
-    "ExtraInfo": "iste",
-    "StyleHint": "facilis",
-    "FullName": "Lexi Hettinger",
+    "IconHint": "quis",
+    "ColorBlock": 654,
+    "ExtraInfo": "numquam",
+    "StyleHint": "sunt",
+    "FullName": "Mr. Conor Alta Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldType": "System.String",
+        "FieldLength": 782
       }
     }
   }

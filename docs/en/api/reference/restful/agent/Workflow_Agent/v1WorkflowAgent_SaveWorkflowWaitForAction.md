@@ -76,29 +76,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 759,
-  "WorkflowStepId": 985,
-  "WorkflowId": 74,
-  "Rank": 370,
+  "WorkflowWaitForActionId": 326,
+  "WorkflowStepId": 397,
+  "WorkflowId": 513,
+  "Rank": 425,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Wehner-Bechtelar",
-      "Description": "Phased mission-critical solution",
-      "Rank": 193,
+      "Name": "Donnelly Group",
+      "Description": "Fully-configurable logistical project",
+      "Rank": 776,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wehner-Bechtelar",
-      "Description": "Phased mission-critical solution",
-      "Rank": 193,
+      "Name": "Donnelly Group",
+      "Description": "Fully-configurable logistical project",
+      "Rank": 776,
       "Restrictions": [
         {},
         {}
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 152,
-  "WorkflowStepId": 609,
-  "WorkflowId": 741,
-  "Rank": 400,
+  "WorkflowWaitForActionId": 783,
+  "WorkflowStepId": 199,
+  "WorkflowId": 775,
+  "Rank": 954,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Brown-Ullrich",
-      "Description": "Synergistic context-sensitive adapter",
-      "Rank": 621,
+      "Name": "Brakus-Lindgren",
+      "Description": "Exclusive bi-directional portal",
+      "Rank": 196,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Brown-Ullrich",
-      "Description": "Synergistic context-sensitive adapter",
-      "Rank": 621,
+      "Name": "Brakus-Lindgren",
+      "Description": "Exclusive bi-directional portal",
+      "Rank": 196,
       "Restrictions": [
         {},
         {}
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 576,
-    "Id": 824,
-    "HistoryName": "Erdman-Herzog",
-    "HistoryId": 1000,
-    "AssociateId": 295,
-    "Name": "Kulas LLC",
-    "ItemInfo": "nesciunt",
+    "Rank": 450,
+    "Id": 533,
+    "HistoryName": "Greenfelder Group",
+    "HistoryId": 326,
+    "AssociateId": 199,
+    "Name": "Bernhard Group",
+    "ItemInfo": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 51
       }
     }
   }

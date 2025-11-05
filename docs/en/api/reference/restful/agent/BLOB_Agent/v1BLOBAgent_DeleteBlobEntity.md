@@ -28,7 +28,7 @@ NsApiSlow threshold: 3000 ms.
 | blobEntityId | int32 | **Required** The identity of the BlobEntity |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=677
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=894
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/BLOB/DeleteBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

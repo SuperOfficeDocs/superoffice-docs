@@ -99,40 +99,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "facilis",
-    "InputValues2": "commodi"
+    "InputValues1": "explicabo",
+    "InputValues2": "id"
   },
-  "BlockExecution": true,
-  "NavigateTo": "placeat",
-  "Message": "ullam",
-  "ShowDialog": "et",
+  "BlockExecution": false,
+  "NavigateTo": "autem",
+  "Message": "ea",
+  "ShowDialog": "ut",
   "OutputValues": {
     "OutputValues1": "sit",
-    "OutputValues2": "repellat"
+    "OutputValues2": "ea"
   },
   "StateValues": {
-    "StateValues1": "aut",
-    "StateValues2": "perspiciatis"
+    "StateValues1": "atque",
+    "StateValues2": "aliquid"
   },
-  "Exception": "laborum",
+  "Exception": "voluptatum",
   "ParserValues": {
-    "ParserValues1": "qui",
-    "ParserValues2": "ut"
+    "ParserValues1": "atque",
+    "ParserValues2": "aut"
   },
   "CgiVariables": {
-    "CgiVariables1": "vel",
-    "CgiVariables2": "et"
+    "CgiVariables1": "ea",
+    "CgiVariables2": "qui"
   },
   "CgiContent": "porro",
   "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "et"
+    "Headers1": "rem",
+    "Headers2": "recusandae"
   },
   "TraceExecution": false
 }
@@ -147,42 +147,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "eos",
-    "InputValues2": "eos"
+    "InputValues1": "fuga",
+    "InputValues2": "voluptatem"
   },
-  "BlockExecution": false,
-  "NavigateTo": "eos",
-  "Message": "inventore",
-  "ShowDialog": "aut",
+  "BlockExecution": true,
+  "NavigateTo": "consequatur",
+  "Message": "porro",
+  "ShowDialog": "iure",
   "OutputValues": {
-    "OutputValues1": "velit",
-    "OutputValues2": "sit"
+    "OutputValues1": "vitae",
+    "OutputValues2": "natus"
   },
   "StateValues": {
-    "StateValues1": "sed",
-    "StateValues2": "quam"
+    "StateValues1": "ut",
+    "StateValues2": "expedita"
   },
-  "Exception": "omnis",
+  "Exception": "delectus",
   "ParserValues": {
-    "ParserValues1": "nesciunt",
-    "ParserValues2": "aliquid"
+    "ParserValues1": "unde",
+    "ParserValues2": "amet"
   },
   "CgiVariables": {
-    "CgiVariables1": "cumque",
-    "CgiVariables2": "rerum"
+    "CgiVariables1": "dolor",
+    "CgiVariables2": "est"
   },
-  "CgiContent": "eaque",
+  "CgiContent": "quo",
   "Headers": {
-    "Headers1": "excepturi",
-    "Headers2": "quod"
+    "Headers1": "pariatur",
+    "Headers2": "enim"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 174
     }
   }
 }

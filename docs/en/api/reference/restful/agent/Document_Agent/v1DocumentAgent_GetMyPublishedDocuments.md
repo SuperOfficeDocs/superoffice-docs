@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 599,
-    "Attention": "modi",
-    "Header": "ab",
-    "Name": "Veum Group",
-    "OurRef": "eaque",
-    "YourRef": "tempora",
-    "Description": "Face to face web-enabled product",
-    "DocumentTemplate": "aut",
-    "IsPublished": true,
-    "PersonId": 917,
-    "PersonFullName": "Prof. Jaime Rogelio Ledner",
-    "AssociateFullName": "Isadore Dicki",
-    "ContactId": 279,
-    "ContactName": "Lockman, Zboncak and Ebert",
-    "ProjectId": 565,
-    "ProjectName": "Walter Group",
-    "AssociateId": 98,
-    "Snum": 586,
-    "SaleId": 660,
-    "SaleName": "Hickle Group",
+    "DocumentId": 878,
+    "Attention": "incidunt",
+    "Header": "repellendus",
+    "Name": "Greenholt, Rolfson and Rowe",
+    "OurRef": "mollitia",
+    "YourRef": "architecto",
+    "Description": "Future-proofed asynchronous contingency",
+    "DocumentTemplate": "nemo",
+    "IsPublished": false,
+    "PersonId": 48,
+    "PersonFullName": "Blair Zemlak",
+    "AssociateFullName": "Prof. Katlynn Tremayne Trantow",
+    "ContactId": 479,
+    "ContactName": "Schmeler, Miller and Larkin",
+    "ProjectId": 823,
+    "ProjectName": "Beatty-Bode",
+    "AssociateId": 268,
+    "Snum": 292,
+    "SaleId": 470,
+    "SaleName": "Rice, Schinner and Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   }

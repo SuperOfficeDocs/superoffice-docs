@@ -100,7 +100,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 984,
+  "DocumentId": 732,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "aut",
-  "Name": "Mayer-Brakus",
-  "OurRef": "et",
-  "YourRef": "qui",
-  "CreatedDate": "2005-08-06T03:40:55.6631585+02:00",
-  "UpdatedDate": "2001-04-07T03:40:55.6631585+02:00",
-  "Description": "Synergistic grid-enabled moratorium",
+  "Attention": "incidunt",
+  "Header": "ratione",
+  "Name": "Pfeffer Group",
+  "OurRef": "quo",
+  "YourRef": "sequi",
+  "CreatedDate": "2017-04-03T02:30:52.6161625+02:00",
+  "UpdatedDate": "1999-10-23T02:30:52.6161625+02:00",
+  "Description": "Polarised hybrid access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-08-03T03:40:55.6787845+02:00",
-  "ExternalRef": "consectetur",
+  "Date": "2021-09-26T02:30:52.6161625+02:00",
+  "ExternalRef": "corrupti",
   "Completed": "Completed",
-  "ActiveLinks": 981,
+  "ActiveLinks": 823,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schuster, Friesen and Gleason",
-      "Id": 646,
-      "Description": "Phased empowering leverage",
-      "ExtraInfo": "facilis",
-      "LinkId": 313,
+      "EntityName": "Leffler Group",
+      "Id": 1002,
+      "Description": "Optional coherent complexity",
+      "ExtraInfo": "vitae",
+      "LinkId": 766,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 814,
-  "Snum": 470,
+  "SuggestedDocumentId": 101,
+  "Snum": 739,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lucas Aufderhar",
-    "SuperOffice:2": "835814369"
+    "SuperOffice:1": "768365811",
+    "SuperOffice:2": "Dewayne Littel"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2001-05-19T03:40:55.6787845+02:00",
-  "PublishTo": "2008-12-09T03:40:55.6787845+01:00",
-  "PublishFrom": "2015-12-10T03:40:55.6787845+01:00",
+  "PublishEventDate": "2009-05-03T02:30:52.6161625+02:00",
+  "PublishTo": "2014-06-26T02:30:52.6161625+02:00",
+  "PublishFrom": "2008-12-06T02:30:52.6161625+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 684
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 684
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldLength": 644
     }
   }
 }

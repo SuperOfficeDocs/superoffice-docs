@@ -94,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 885,
-  "ColumnId": 816,
-  "FieldDefault": "vitae",
-  "FieldHeight": 100,
-  "FieldLabel": "omnis",
-  "FieldLeft": 222,
-  "FieldTop": 546,
+  "UDefFieldId": 796,
+  "ColumnId": 846,
+  "FieldDefault": "omnis",
+  "FieldHeight": 94,
+  "FieldLabel": "corporis",
+  "FieldLeft": 823,
+  "FieldTop": 120,
   "FieldType": "Checkbox",
-  "FieldWidth": 710,
-  "FormatMask": "pariatur",
+  "FieldWidth": 848,
+  "FormatMask": "natus",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 59,
-  "LabelLeft": 672,
-  "LabelTop": 842,
-  "LabelWidth": 688,
-  "LastVersionId": 659,
-  "ListTableId": 558,
+  "IsIndexed": false,
+  "LabelHeight": 293,
+  "LabelLeft": 564,
+  "LabelTop": 475,
+  "LabelWidth": 710,
+  "LastVersionId": 840,
+  "ListTableId": 405,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 491,
-  "ProgId": "ea",
-  "IsReadOnly": true,
-  "ShortLabel": "omnis",
-  "TabOrder": 989,
-  "TextLength": 70,
-  "Tooltip": "aut",
-  "UdefIdentity": 431,
-  "UDListDefinitionId": 689,
+  "Page1LineNo": 843,
+  "ProgId": "itaque",
+  "IsReadOnly": false,
+  "ShortLabel": "quibusdam",
+  "TabOrder": 190,
+  "TextLength": 281,
+  "Tooltip": "labore",
+  "UdefIdentity": 320,
+  "UDListDefinitionId": 186,
   "Justification": "Center",
-  "Version": 756,
-  "TemplateVariableName": "Halvorson Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Rohan-Wuckert",
+  "Version": 552,
+  "TemplateVariableName": "Lockman Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Spinka Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 402
     }
   }
 }

@@ -80,7 +80,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -160,7 +160,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -211,7 +211,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -312,7 +312,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointment/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |appointment/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointment/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -396,7 +396,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|document/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -472,8 +472,10 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
 |projectMember/personCategoryGroup|listAny|Category group| x |
+|projectMember/personCategoryRank|int|!!Category rank| x |
 |projectMember/personBusiness|listAny|Business| x |
-|projectMember/leadstatus|listAny|Lead status| x |
+|projectMember/leadStatus|listAny|Lead status| x |
+|projectMember/leadstatusRank|int|!!Lead status RANK| x |
 |projectMember/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |projectMember/hasCompany|bool|Has company: The contact is associated with a company| x |
 |projectMember/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -535,12 +537,12 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 |projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
-|projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
-|projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
+|projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 |projectMember/personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
@@ -564,8 +566,8 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |projectMember/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |projectMember/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|projectMember/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|projectMember/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |projectMember/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -591,7 +593,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -624,7 +626,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -639,12 +641,12 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/subscription|listAny|Subscription: Subscription for marketing| x |
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -656,6 +658,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
 |projectMember/categoryGroup|listAny|Category group| x |
+|projectMember/companyCategoryRank|int|Category rank| x |
 |projectMember/business|listAny|Business| x |
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |projectMember/countryId|int|Country ID: Country ID| x |
@@ -675,6 +678,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMember/deletedDate|datetime|Deleted date: Deleted date|  |
 |projectMember/mainContact| *None* |Main contact: Main contact for this company| x |
+|projectMember/forceCompany|bool|Dummy: Dummy|  |
 |projectMember/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -734,21 +738,21 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMember/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMember/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |projectMember/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMember/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|projectMember/contactAssociate/userName|string|User name: User name| x |
-|projectMember/contactAssociate/personEmail|string|E-mail| x |
-|projectMember/contactAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|projectMember/contactAssociate/userName|string|User name: User name| x |
+|projectMember/contactAssociate/personEmail|string|E-mail| x |
+|projectMember/contactAssociate/locationAddress|string|Location: Location| x |
 |projectMember/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
@@ -780,7 +784,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -817,7 +821,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectAssociate/portraitThumbnail,sale/heading,projectMember/email/emailHasBounced,projectMember/personAssociate/simultaneousEjUser,projectMember/legalBaseEmarketing
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectEvent/hasSignOff,appointment/appointmentUdef/SuperOffice:6,projectMember/email/emailAddress,projectMember/postAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

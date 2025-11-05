@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "atque"
+  "TemporaryKey": "voluptate"
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 57,
-  "PersonId": 685,
-  "IsExpired": false,
-  "Payload": "ut",
+  "TargetId": 1002,
+  "PersonId": 953,
+  "IsExpired": true,
+  "Payload": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

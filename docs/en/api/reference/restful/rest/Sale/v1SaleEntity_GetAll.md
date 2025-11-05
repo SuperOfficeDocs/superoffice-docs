@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=voluptatem
-GET /api/v1/Sale?$top=318
-GET /api/v1/Sale?$skip=304
+GET /api/v1/Sale?$entities=qui
+GET /api/v1/Sale?$top=48
+GET /api/v1/Sale?$skip=365
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=possimus
+GET /api/v1/Sale?$context=ea
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "velit",
+  "odata.nextLink": "eum",
   "value": [
     {
-      "PrimaryKey": 3579,
-      "EntityName": "person",
-      "personId": 3579,
-      "fullName": "Clarabelle Runolfsson"
+      "PrimaryKey": 9822,
+      "EntityName": "sale",
+      "saleId": 9822,
+      "contactId": 1563,
+      "name": "Greenfelder Group"
     },
     {
-      "PrimaryKey": 6190,
-      "EntityName": "person",
-      "personId": 6190,
-      "fullName": "Benton Gusikowski"
+      "PrimaryKey": 9514,
+      "EntityName": "sale",
+      "saleId": 9514,
+      "contactId": 6983,
+      "name": "Rice, Becker and Hane"
     }
   ]
 }

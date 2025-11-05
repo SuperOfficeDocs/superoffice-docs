@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Breitenberg Inc and Sons",
+  "ProviderName": "Gerhold, Block and Moore",
   "Columns": [
-    "aspernatur",
-    "aut"
+    "et",
+    "ea"
   ],
   "SortOrder": [
     {
-      "Name": "Lowe, Heller and Terry",
+      "Name": "Steuber, Rempel and Doyle",
       "Direction": "ASC"
     },
     {
-      "Name": "Lowe, Heller and Terry",
+      "Name": "Steuber, Rempel and Doyle",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Deckow Group",
-      "Operator": "explicabo",
+      "Name": "Rogahn Inc and Sons",
+      "Operator": "perferendis",
       "Values": [
-        "impedit",
-        "illo"
+        "reprehenderit",
+        "nulla"
       ],
       "DisplayValues": [
-        "natus",
-        "est"
+        "ducimus",
+        "nobis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 510,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 387
+      "UniqueHash": 183
     }
   ],
   "Entities": [
-    "magni",
-    "et"
+    "aut",
+    "est"
   ],
-  "Page": 216,
-  "PageSize": 192,
-  "Options": "voluptatum"
+  "Page": 521,
+  "PageSize": 219,
+  "Options": "aliquid"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 67,
+  "RowCount": 631,
   "Rows": [
     {
-      "EntityName": "Turcotte-Jacobi",
-      "PrimaryKey": 699,
+      "EntityName": "Hartmann-Price",
+      "PrimaryKey": 85,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "et",
-          "LinkHint": "ipsum"
+          "DisplayValue": "omnis",
+          "TooltipHint": "rerum",
+          "LinkHint": "animi"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "officia",
+      "LinkHint": "eum",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 477
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 646
     }
   }
 }

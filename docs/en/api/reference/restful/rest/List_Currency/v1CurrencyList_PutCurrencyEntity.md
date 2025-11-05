@@ -87,12 +87,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 478,
-  "Name": "Boyle-Leffler",
-  "Tooltip": "voluptatum",
-  "Rank": 191,
-  "Rate": 21198.376,
-  "Units": 16390.82,
+  "CurrencyId": 453,
+  "Name": "Will Inc and Sons",
+  "Tooltip": "tempora",
+  "Rank": 921,
+  "Rate": 28428.514,
+  "Units": 12955.956,
   "Deleted": false
 }
 ```
@@ -104,19 +104,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 536,
-  "Name": "Hane, Zemlak and Gleichner",
-  "Tooltip": "ut",
-  "Rank": 793,
-  "Rate": 16121.296,
-  "Units": 30945.115999999998,
+  "CurrencyId": 489,
+  "Name": "Wuckert, Conn and Lowe",
+  "Tooltip": "sequi",
+  "Rank": 454,
+  "Rate": 28397.174,
+  "Units": 18042.438,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 67
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

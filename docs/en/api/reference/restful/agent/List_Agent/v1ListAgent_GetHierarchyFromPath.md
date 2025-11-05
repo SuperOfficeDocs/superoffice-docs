@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "voluptatem",
+  "Path": "tempore",
   "Children": false
 }
 ```
@@ -104,46 +104,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 868,
+  "HierarchyId": 448,
   "Domain": "Dashboards",
-  "Name": "Jast-Dare",
-  "Fullname": "ut",
-  "ParentId": 862,
+  "Name": "Boyer, Reichert and Williamson",
+  "Fullname": "inventore",
+  "ParentId": 313,
   "Children": [
     {
-      "HierarchyId": 995,
+      "HierarchyId": 388,
       "Domain": "Dashboards",
-      "Name": "Herzog-Wiza",
-      "Fullname": "quae",
-      "ParentId": 696,
+      "Name": "Legros, Bednar and Schamberger",
+      "Fullname": "est",
+      "ParentId": 727,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-05-04T03:40:47.2030415+02:00",
-      "RegisteredAssociateId": 613,
-      "Updated": "2020-12-10T03:40:47.2030415+01:00",
-      "UpdatedAssociateId": 63,
+      "Registered": "2000-10-18T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 456,
+      "Updated": "2002-06-21T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 186,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 73
         }
       }
     }
   ],
-  "Registered": "2025-09-18T03:40:47.2030415+02:00",
-  "RegisteredAssociateId": 551,
-  "Updated": "2022-01-15T03:40:47.2030415+01:00",
-  "UpdatedAssociateId": 79,
+  "Registered": "2004-10-26T02:30:47.4288293+02:00",
+  "RegisteredAssociateId": 330,
+  "Updated": "2007-04-23T02:30:47.4288293+02:00",
+  "UpdatedAssociateId": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

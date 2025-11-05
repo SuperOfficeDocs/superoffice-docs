@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Value": "sed",
-    "Tooltip": "consequatur",
+    "Id": 704,
+    "Value": "est",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 495
       }
     }
   },
   {
-    "Id": 511,
-    "Value": "sed",
-    "Tooltip": "consequatur",
+    "Id": 704,
+    "Value": "est",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 495
       }
     }
   }

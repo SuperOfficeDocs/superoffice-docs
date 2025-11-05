@@ -78,10 +78,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 607,
+  "AssociateId": 112,
   "Type": "AnonymousAssociate",
-  "PersonId": 305,
-  "UserName": "Feeney LLC"
+  "PersonId": 758,
+  "UserName": "Marks-Renner"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

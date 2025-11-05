@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=662
+POST /api/v1/Agents/Associate/GetAssociate?associateId=750
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,32 +93,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 909,
-  "Name": "Goodwin, Hettinger and Boyle",
-  "PersonId": 33,
-  "Rank": 413,
-  "Tooltip": "in",
+  "AssociateId": 865,
+  "Name": "Bergnaum-Reichert",
+  "PersonId": 139,
+  "Rank": 755,
+  "Tooltip": "sit",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 463,
-  "FullName": "Rylee Kshlerin",
-  "FormalName": "Jacobi-Jacobson",
-  "Deleted": false,
-  "EjUserId": 678,
-  "UserName": "Bechtelar-Koss",
+  "GroupIdx": 525,
+  "FullName": "Furman Abshire",
+  "FormalName": "Bayer, Gaylord and DuBuque",
+  "Deleted": true,
+  "EjUserId": 357,
+  "UserName": "Rosenbaum LLC",
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "earum",
+    "CustomFields2": "consequuntur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 837
     }
   }
 }

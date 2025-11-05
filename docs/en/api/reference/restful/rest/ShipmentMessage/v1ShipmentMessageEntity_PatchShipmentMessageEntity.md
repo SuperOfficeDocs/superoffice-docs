@@ -130,18 +130,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 756,
-  "PlainMessage": "fugit",
-  "HtmlMessage": "iste",
-  "SmsMessage": "expedita",
-  "Description": "Cloned executive concept",
-  "Subject": "possimus",
-  "FolderId": 101,
-  "HeaderField": "earum",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 672,
+  "PlainMessage": "architecto",
+  "HtmlMessage": "maiores",
+  "SmsMessage": "sit",
+  "Description": "Focused cohesive capability",
+  "Subject": "est",
+  "FolderId": 218,
+  "HeaderField": "aut",
+  "Design": "ipsa",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Re-contextualized even-keeled Graphical User Interface",
-  "AccessKey": "nesciunt",
-  "DocumentMessage": 695,
-  "Registered": "2011-09-23T03:40:56.2422072+02:00",
-  "RegisteredAssociateId": 714,
-  "Updated": "2004-02-03T03:40:56.2422072+01:00",
-  "UpdatedAssociateId": 974,
-  "UpdatedCount": 284,
+  "LongDescription": "Exclusive needs-based protocol",
+  "AccessKey": "temporibus",
+  "DocumentMessage": 280,
+  "Registered": "2003-04-11T02:30:52.9442767+02:00",
+  "RegisteredAssociateId": 32,
+  "Updated": "2008-05-18T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 886,
+  "UpdatedCount": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 673
     }
   },
   "_Links": {

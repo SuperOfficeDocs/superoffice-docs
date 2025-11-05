@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "aileen.hirthe@yost.ca"
+  "EmailAddress": "ofelia@robertshalvorson.biz"
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 923,
-    "ContactName": "Morissette, Skiles and Hettinger",
-    "PersonId": 64,
-    "PersonName": "Thiel Inc and Sons",
-    "AssociateId": 802,
-    "Address": "esse",
-    "EmailId": 92,
+    "ContactId": 15,
+    "ContactName": "Monahan LLC",
+    "PersonId": 274,
+    "PersonName": "Torphy, Bruen and Rosenbaum",
+    "AssociateId": 477,
+    "Address": "et",
+    "EmailId": 111,
     "DuplicatePersonIds": [
-      663,
-      269
+      145,
+      473
     ],
-    "Name": "Mertz Inc and Sons",
+    "Name": "McGlynn, Stark and Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldLength": 676
       }
     }
   }

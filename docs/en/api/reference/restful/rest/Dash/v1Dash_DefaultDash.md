@@ -81,37 +81,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 666,
-  "UniqueId": "et",
-  "Name": "Jaskolski Inc and Sons",
-  "Description": "Down-sized leading edge budgetary management",
-  "AssociateId": 801,
-  "Columns": 247,
+  "DashboardId": 460,
+  "UniqueId": "sunt",
+  "Name": "Ondricka-Lang",
+  "Description": "Enhanced zero defect frame",
+  "AssociateId": 874,
+  "Columns": 611,
   "Theme": null,
-  "VisibleForAll": 242,
+  "VisibleForAll": 606,
   "VisibleForAssociates": [
-    280,
-    915
+    208,
+    465
   ],
   "VisibleForGroups": [
-    941,
-    72
+    68,
+    198
   ],
-  "PinForAll": 447,
+  "PinForAll": 325,
   "PinForAssociates": [
-    768,
-    190
+    939,
+    645
   ],
   "PinForGroups": [
-    429,
-    552
+    163,
+    465
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldLength": 793
     }
   }
 }

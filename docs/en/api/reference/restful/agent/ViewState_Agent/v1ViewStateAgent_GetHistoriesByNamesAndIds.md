@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Rolfson Inc and Sons",
-      "EntityOrParentId": 900,
+      "EntityName": "Deckow, Roob and Kerluke",
+      "EntityOrParentId": 17,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Rolfson Inc and Sons",
-      "EntityOrParentId": 900,
+      "EntityName": "Deckow, Roob and Kerluke",
+      "EntityOrParentId": 17,
       "RequestForNewRecord": false
     }
   ]
@@ -110,19 +110,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 314,
-    "Id": 680,
-    "HistoryName": "Bradtke, West and Mosciski",
-    "HistoryId": 124,
-    "AssociateId": 121,
-    "Name": "Lindgren-Erdman",
-    "ItemInfo": "aliquam",
+    "Rank": 188,
+    "Id": 459,
+    "HistoryName": "Dickinson, Ferry and Kuhic",
+    "HistoryId": 600,
+    "AssociateId": 753,
+    "Name": "Goodwin Group",
+    "ItemInfo": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 205
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weimann-Ratke",
-  "Context": "ipsam"
+  "ProviderName": "Daniel, Schinner and Dietrich",
+  "Context": "dolores"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schoen Group",
-    "DisplayTooltip": "mollitia",
-    "DisplayType": "qui",
-    "CanOrderBy": true,
-    "Name": "Purdy, Smith and Schultz",
+    "DisplayName": "Kunde-Russel",
+    "DisplayTooltip": "fugit",
+    "DisplayType": "distinctio",
+    "CanOrderBy": false,
+    "Name": "Huel, Jacobs and Wintheiser",
     "CanRestrictBy": false,
-    "RestrictionType": "culpa",
-    "RestrictionListName": "Labadie Inc and Sons",
+    "RestrictionType": "impedit",
+    "RestrictionListName": "Bradtke, Weissnat and Okuneva",
     "IsVisible": false,
-    "ExtraInfo": "quaerat",
-    "Width": "placeat",
-    "IconHint": "eligendi",
-    "HeadingIconHint": "iusto"
+    "ExtraInfo": "alias",
+    "Width": "dolores",
+    "IconHint": "voluptas",
+    "HeadingIconHint": "officia"
   }
 ]
 ```

@@ -71,14 +71,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "expedita",
-  "AssociateId": 279,
-  "MarkdownMessage": "inventore",
-  "Expire": "2002-06-22T03:40:46.5780122+02:00",
+  "SystemMessageId": "quas",
+  "AssociateId": 342,
+  "MarkdownMessage": "minus",
+  "Expire": "2017-06-26T02:30:47.0694635+02:00",
   "Type": "Error"
 }
 ```

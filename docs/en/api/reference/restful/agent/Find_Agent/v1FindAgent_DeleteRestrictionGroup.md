@@ -71,15 +71,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "similique",
-  "ProviderName": "Miller Group",
-  "StorageKey": "doloribus",
-  "Rank": 160,
-  "Context": "consequatur"
+  "StorageType": "voluptas",
+  "ProviderName": "Jenkins LLC",
+  "StorageKey": "voluptatem",
+  "Rank": 507,
+  "Context": "ea"
 }
 ```
 

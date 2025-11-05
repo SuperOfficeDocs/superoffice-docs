@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Dash/SaveDashQuickFilters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 494,
+  "DashboardId": 892,
   "QuickFilters": [
     {
       "Restriction": null,
-      "Provider": "repellendus",
-      "DashboardId": 953
+      "Provider": "cupiditate",
+      "DashboardId": 930
     },
     {
       "Restriction": null,
-      "Provider": "repellendus",
-      "DashboardId": 953
+      "Provider": "cupiditate",
+      "DashboardId": 930
     }
   ]
 }
@@ -106,13 +106,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Restriction": null,
-    "Provider": "error",
-    "DashboardId": 152
+    "Provider": "dolores",
+    "DashboardId": 83
   },
   {
     "Restriction": null,
-    "Provider": "error",
-    "DashboardId": 152
+    "Provider": "dolores",
+    "DashboardId": 83
   }
 ]
 ```

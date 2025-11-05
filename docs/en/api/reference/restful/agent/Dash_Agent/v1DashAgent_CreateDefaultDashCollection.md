@@ -72,111 +72,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 601,
-      "UniqueId": "ut",
-      "Name": "Greenholt-Hermann",
-      "Description": "Versatile intermediate structure",
-      "AssociateId": 293,
-      "Columns": 625,
+      "DashboardId": 680,
+      "UniqueId": "sed",
+      "Name": "Roberts, Mitchell and Sauer",
+      "Description": "Right-sized radical customer loyalty",
+      "AssociateId": 181,
+      "Columns": 850,
       "Theme": null,
-      "VisibleForAll": 867,
+      "VisibleForAll": 310,
       "VisibleForAssociates": [
-        567,
-        739
+        268,
+        496
       ],
       "VisibleForGroups": [
-        553,
-        33
+        752,
+        182
       ],
-      "PinForAll": 208,
+      "PinForAll": 656,
       "PinForAssociates": [
-        434,
-        145
+        814,
+        29
       ],
       "PinForGroups": [
-        424,
-        930
+        304,
+        650
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldType": "System.Int32",
+          "FieldLength": 950
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 766,
-      "UniqueId": "qui",
-      "Name": "Terry Group",
-      "Description": "De-engineered methodical interface",
-      "AssociateId": 16,
-      "Columns": 226,
+      "DashboardId": 446,
+      "UniqueId": "et",
+      "Name": "O'Connell-Nolan",
+      "Description": "Organic analyzing archive",
+      "AssociateId": 974,
+      "Columns": 45,
       "Theme": null,
-      "VisibleForAll": 212,
+      "VisibleForAll": 503,
       "VisibleForAssociates": [
-        358,
-        168
+        687,
+        503
       ],
       "VisibleForGroups": [
-        853,
-        25
+        160,
+        419
       ],
-      "PinForAll": 168,
+      "PinForAll": 461,
       "PinForAssociates": [
-        536,
-        693
+        91,
+        246
       ],
       "PinForGroups": [
-        552,
-        851
+        245,
+        491
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 492
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 946,
-      "UniqueId": "ut",
-      "Name": "Muller, Zemlak and Pacocha",
-      "Description": "Phased eco-centric portal",
-      "AssociateId": 756,
-      "Columns": 784,
+      "DashboardId": 381,
+      "UniqueId": "sit",
+      "Name": "Jenkins Inc and Sons",
+      "Description": "Visionary fresh-thinking internet solution",
+      "AssociateId": 266,
+      "Columns": 602,
       "Theme": null,
-      "VisibleForAll": 590,
+      "VisibleForAll": 64,
       "VisibleForAssociates": [
-        972,
-        495
+        262,
+        39
       ],
       "VisibleForGroups": [
-        968,
-        915
+        404,
+        818
       ],
-      "PinForAll": 629,
+      "PinForAll": 715,
       "PinForAssociates": [
-        330,
-        965
+        430,
+        444
       ],
       "PinForGroups": [
-        460,
-        13
+        268,
+        307
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

@@ -27,8 +27,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=aperiam
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=ut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Stark Group",
-    "ToolTip": "Rerum eum.",
+    "Id": 301,
+    "Name": "Romaguera Group",
+    "ToolTip": "Eos tenetur sit quia.",
     "Deleted": false,
-    "Rank": 811,
-    "Type": "vero",
+    "Rank": 2,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Gibson, Berge and Cartwright",
-        "ToolTip": "Alias dolores quia at.",
-        "Deleted": false,
-        "Rank": 888,
-        "Type": "itaque",
+        "Id": 240,
+        "Name": "Hintz, Kozey and Rosenbaum",
+        "ToolTip": "Nesciunt molestiae repudiandae iure quo nihil autem.",
+        "Deleted": true,
+        "Rank": 523,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 628,
-        "ExtraInfo": "rerum",
-        "StyleHint": "laborum",
-        "FullName": "Brice Schamberger",
+        "IconHint": "saepe",
+        "ColorBlock": 721,
+        "ExtraInfo": "tempora",
+        "StyleHint": "aliquid",
+        "FullName": "Vern Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 926,
-    "ExtraInfo": "sequi",
-    "StyleHint": "aut",
-    "FullName": "Dale Corwin",
+    "IconHint": "nobis",
+    "ColorBlock": 41,
+    "ExtraInfo": "aut",
+    "StyleHint": "iure",
+    "FullName": "Cordie Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldLength": 437
       }
     }
   }

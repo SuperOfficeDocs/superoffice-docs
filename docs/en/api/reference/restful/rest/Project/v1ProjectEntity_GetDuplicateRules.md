@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Glover LLC",
-    "DisplayName": "Rutherford-West",
-    "DisplayTooltip": "sunt",
-    "IsActive": false,
+    "Name": "Eichmann-Kemmer",
+    "DisplayName": "Moen, Quitzon and Douglas",
+    "DisplayTooltip": "repellat",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   },
   {
-    "Name": "Glover LLC",
-    "DisplayName": "Rutherford-West",
-    "DisplayTooltip": "sunt",
-    "IsActive": false,
+    "Name": "Eichmann-Kemmer",
+    "DisplayName": "Moen, Quitzon and Douglas",
+    "DisplayTooltip": "repellat",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

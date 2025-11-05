@@ -80,24 +80,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 562,
-  "Year": 975,
+  "TargetGroupId": 937,
+  "Year": 944,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 873,
+      "TargetAssignmentInfoId": 563,
       "Values": [
-        670,
-        301
+        389,
+        403
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 865,
-      "DimensionListItemDisplayName": "Okuneva-Brown"
+      "DimensionListItem": 430,
+      "DimensionListItemDisplayName": "Spencer, Bednar and Koss"
     }
   ],
   "TargetDimension": null
@@ -111,30 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 486,
-  "Year": 451,
+  "TargetGroupId": 71,
+  "Year": 12,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 929,
+      "TargetAssignmentInfoId": 459,
       "Values": [
-        263,
-        750
+        800,
+        761
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 658,
-      "DimensionListItemDisplayName": "Green, Kuvalis and Dickens",
+      "DimensionListItem": 70,
+      "DimensionListItemDisplayName": "Murazik, McClure and Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 940
         }
       }
     }
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 586
     }
   }
 }

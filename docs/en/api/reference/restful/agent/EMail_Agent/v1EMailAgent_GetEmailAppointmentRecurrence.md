@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 581
+  "MailItemId": 326
 }
 ```
 
@@ -103,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 562,
-  "StartDate": "2010-04-19T03:40:46.8123923+02:00",
-  "EndDate": "2016-02-13T03:40:46.8123923+01:00",
-  "RecurrenceCounter": 844,
+  "RecurrenceId": 790,
+  "StartDate": "2014-12-20T02:30:47.2569602+01:00",
+  "EndDate": "2018-06-04T02:30:47.2569602+02:00",
+  "RecurrenceCounter": 317,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -115,18 +115,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-12-01T03:40:46.8123923+01:00",
+      "Date": "2019-02-12T02:30:47.2569602+01:00",
       "IsConflict": false,
-      "Description": "Monitored fault-tolerant superstructure",
-      "DescriptionStyleHint": "Automated fault-tolerant success",
-      "Tooltip": "nostrum"
+      "Description": "Total interactive definition",
+      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
+      "Tooltip": "voluptas"
     },
     {
-      "Date": "2020-12-01T03:40:46.8123923+01:00",
+      "Date": "2019-02-12T02:30:47.2569602+01:00",
       "IsConflict": false,
-      "Description": "Monitored fault-tolerant superstructure",
-      "DescriptionStyleHint": "Automated fault-tolerant success",
-      "Tooltip": "nostrum"
+      "Description": "Total interactive definition",
+      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
+      "Tooltip": "voluptas"
     }
   ],
   "IsRecurrence": false

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=97
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=48
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,25 +92,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 536,
-  "Name": "Morar, Schaden and Kiehn",
-  "ConsentText": "nemo",
-  "FormText": "fugiat",
-  "Key": "ut",
-  "Tooltip": "eaque",
-  "Active": 48,
-  "UpdatedDate": "2006-12-22T03:40:47.2186675+01:00",
+  "ConsentPurposeId": 889,
+  "Name": "Macejkovic, Feest and Gottlieb",
+  "ConsentText": "temporibus",
+  "FormText": "nemo",
+  "Key": "repudiandae",
+  "Tooltip": "earum",
+  "Active": 690,
+  "UpdatedDate": "2000-11-10T02:30:47.4444538+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 198,
-  "PrivacyStatementDesc": "consequatur",
+  "Rank": 8,
+  "PrivacyStatementDesc": "blanditiis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 555
     }
   }
 }

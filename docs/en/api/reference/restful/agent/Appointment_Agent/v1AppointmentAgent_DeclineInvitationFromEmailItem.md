@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 595,
+  "EmailItemId": 337,
   "RejectReason": ""
 }
 ```

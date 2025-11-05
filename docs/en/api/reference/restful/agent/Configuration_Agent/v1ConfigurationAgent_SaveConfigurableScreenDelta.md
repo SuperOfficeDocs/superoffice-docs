@@ -94,22 +94,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 529,
-  "Name": "Beahan, Morar and Sauer",
-  "Description": "Extended 5th generation flexibility",
-  "DeltaJson": "nostrum",
+  "ConfigurableScreenDeltaId": 488,
+  "Name": "Kessler LLC",
+  "Description": "Digitized responsive artificial intelligence",
+  "DeltaJson": "esse",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "illum",
-  "UpdatedDate": "2019-02-07T03:40:46.2331872+01:00",
-  "CreatedDate": "2017-12-25T03:40:46.2331872+01:00",
+  "RecipeId": "nihil",
+  "UpdatedDate": "2022-03-25T02:30:46.9132188+01:00",
+  "CreatedDate": "2011-06-27T02:30:46.9132188+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    638,
-    278
+    151,
+    502
   ],
-  "AppliesToKey": "et"
+  "AppliesToKey": "sit"
 }
 ```
 
@@ -120,28 +120,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 556,
-  "Name": "Hermiston-Klein",
-  "Description": "Multi-tiered bi-directional firmware",
-  "DeltaJson": "illum",
+  "ConfigurableScreenDeltaId": 654,
+  "Name": "Bins-Larkin",
+  "Description": "Cross-platform scalable firmware",
+  "DeltaJson": "quam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "cum",
-  "UpdatedDate": "1999-02-02T03:40:46.2331872+01:00",
-  "CreatedDate": "2009-01-15T03:40:46.2331872+01:00",
+  "RecipeId": "qui",
+  "UpdatedDate": "2016-03-21T02:30:46.9132188+01:00",
+  "CreatedDate": "2012-01-25T02:30:46.9132188+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    660,
-    182
+    332,
+    120
   ],
-  "AppliesToKey": "cumque",
+  "AppliesToKey": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 502
+  "AssociateId": 249
 }
 ```
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke-Abernathy",
-    "Description": "Intuitive 6th generation intranet",
+    "Name": "Kertzmann, Streich and Heidenreich",
+    "Description": "Distributed content-based neural-net",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 781,
-        "Tooltip": "error",
+        "Unrestricted": false,
+        "Total": 420,
+        "Tooltip": "voluptatem",
         "CanAssign": true,
-        "Free": 520,
-        "InUse": 568,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 973,
-        "Name": "Armstrong, Boyle and Koss",
-        "Description": "Inverse secondary toolset",
-        "PrerequisiteModuleName": "Kautzer, Witting and Koch",
-        "SortOrder": 565,
-        "ExtraFlags": 533,
+        "Free": 606,
+        "InUse": 228,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 125,
+        "Name": "Lebsack, Goldner and Feest",
+        "Description": "Polarised 5th generation frame",
+        "PrerequisiteModuleName": "Cole, Marks and Koch",
+        "SortOrder": 88,
+        "ExtraFlags": 951,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldType": "System.Int32",
+            "FieldLength": 206
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 163,
-        "Tooltip": "aut",
+        "Unrestricted": true,
+        "Total": 251,
+        "Tooltip": "porro",
         "CanAssign": false,
-        "Free": 34,
-        "InUse": 48,
+        "Free": 834,
+        "InUse": 7,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 548,
-        "Name": "Waelchi, Wintheiser and Buckridge",
-        "Description": "Inverse 5th generation conglomeration",
-        "PrerequisiteModuleName": "Pfeffer Group",
-        "SortOrder": 273,
-        "ExtraFlags": 389,
+        "Assigned": false,
+        "ModuleLicenseId": 958,
+        "Name": "Schultz Inc and Sons",
+        "Description": "Face to face homogeneous capacity",
+        "PrerequisiteModuleName": "Abshire-Walker",
+        "SortOrder": 106,
+        "ExtraFlags": 165,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
@@ -154,61 +154,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 181
       }
     }
   },
   {
-    "Name": "Bradtke-Abernathy",
-    "Description": "Intuitive 6th generation intranet",
+    "Name": "Kertzmann, Streich and Heidenreich",
+    "Description": "Distributed content-based neural-net",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 781,
-        "Tooltip": "error",
+        "Unrestricted": false,
+        "Total": 420,
+        "Tooltip": "voluptatem",
         "CanAssign": true,
-        "Free": 520,
-        "InUse": 568,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 973,
-        "Name": "Armstrong, Boyle and Koss",
-        "Description": "Inverse secondary toolset",
-        "PrerequisiteModuleName": "Kautzer, Witting and Koch",
-        "SortOrder": 565,
-        "ExtraFlags": 533,
+        "Free": 606,
+        "InUse": 228,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 125,
+        "Name": "Lebsack, Goldner and Feest",
+        "Description": "Polarised 5th generation frame",
+        "PrerequisiteModuleName": "Cole, Marks and Koch",
+        "SortOrder": 88,
+        "ExtraFlags": 951,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldType": "System.Int32",
+            "FieldLength": 206
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 163,
-        "Tooltip": "aut",
+        "Unrestricted": true,
+        "Total": 251,
+        "Tooltip": "porro",
         "CanAssign": false,
-        "Free": 34,
-        "InUse": 48,
+        "Free": 834,
+        "InUse": 7,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 548,
-        "Name": "Waelchi, Wintheiser and Buckridge",
-        "Description": "Inverse 5th generation conglomeration",
-        "PrerequisiteModuleName": "Pfeffer Group",
-        "SortOrder": 273,
-        "ExtraFlags": 389,
+        "Assigned": false,
+        "ModuleLicenseId": 958,
+        "Name": "Schultz Inc and Sons",
+        "Description": "Face to face homogeneous capacity",
+        "PrerequisiteModuleName": "Abshire-Walker",
+        "SortOrder": 106,
+        "ExtraFlags": 165,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 181
       }
     }
   }

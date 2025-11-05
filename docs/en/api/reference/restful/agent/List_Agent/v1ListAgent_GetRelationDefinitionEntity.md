@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=39
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=976
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,12 +87,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 574,
-  "Name": "Satterfield-Donnelly",
-  "Tooltip": "pariatur",
-  "PassiveText": "repellat",
-  "Deleted": true,
-  "Rank": 383,
+  "ReldefId": 109,
+  "Name": "Reichert, Jerde and Mertz",
+  "Tooltip": "accusantium",
+  "PassiveText": "quod",
+  "Deleted": false,
+  "Rank": 813,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 304
     }
   }
 }

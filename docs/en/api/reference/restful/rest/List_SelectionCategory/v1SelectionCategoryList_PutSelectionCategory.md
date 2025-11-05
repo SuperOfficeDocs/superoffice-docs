@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Swaniawski Inc and Sons",
-  "Tooltip": "earum",
+  "Id": 768,
+  "Name": "Tromp LLC",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 565,
-  "Rank": 645
+  "UdListDefinitionId": 115,
+  "Rank": 595
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Frami-Pfeffer",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "UdListDefinitionId": 839,
-  "Rank": 498,
+  "Id": 702,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "UdListDefinitionId": 922,
+  "Rank": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

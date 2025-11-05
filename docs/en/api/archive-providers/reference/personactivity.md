@@ -17,10 +17,10 @@ Activity archive provider for the Person card
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"chat"|Chat session|
 |"formSubmission"|Form submissions|
-|"mailing"|Mailings|
+|"chat"|Chat session|
 |"document"|Documents|
+|"mailing"|Mailings|
 |"appointment"|Follow-ups|
 
 ## Supported Columns
@@ -28,32 +28,24 @@ Activity archive provider for the Person card
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
-|firstMessage|string|First message: The first message submitted in the chat| x |
-|lastMessage|string|Last message: The last message submitted in the chat| x |
-|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
-|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
-|whenEnded|datetime|Chat ended: When did this chat end?| x |
-|duration|timeSpan|Duration: The duration of the chat session|  |
-|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
-|queueLength|int|Queue length: Queue length when the session was requested| x |
-|rating|int|Rating: Rating of chat session| x |
-|agent|ejUser|Agent: The agent of the chat| x |
-|status|listAny|Status: Status for the chat session| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
 |text|positiveString|Text: Displays a descriptive text for the item| x |
 |associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |contactId|listAny|Company ID: Database ID of company| x |
 |personId|listAny|Contact ID: Database ID of the contact row| x |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
-|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
-|chatTopic/name|string|Name: Name| x |
-|chatTopic/description|string|Description: The description of the chat channel| x |
-|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |associate/firstName|string|First name: Displays the contact's first name| x |
 |associate/lastName|string|Last name: Displays the contact's last name| x |
 |associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -62,6 +54,7 @@ Activity archive provider for the Person card
 |associate/personId|int|Contact ID: Database ID of the contact row|  |
 |associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|associate/associateDbId|associate|ID| x |
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -74,7 +67,7 @@ Activity archive provider for the Person card
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -125,16 +118,18 @@ Activity archive provider for the Person card
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -221,23 +216,23 @@ Activity archive provider for the Person card
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -252,7 +247,7 @@ Activity archive provider for the Person card
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -285,7 +280,7 @@ Activity archive provider for the Person card
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -316,6 +311,7 @@ Activity archive provider for the Person card
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -333,13 +329,14 @@ Activity archive provider for the Person card
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
 |contact/phone/formattedNumber|string|Phone : Displays phone number|  |
+|contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|contact/deletedDate|datetime|Deleted date: Deleted date|  |
+|contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|contact/deletedDate|datetime|Deleted date: Deleted date|  |
-|contact/mainContact| *None* |Main contact: Main contact for this company| x |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -413,7 +410,7 @@ Activity archive provider for the Person card
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -437,13 +434,13 @@ Activity archive provider for the Person card
 |contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 |contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
+|contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
+|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-|contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
@@ -459,7 +456,7 @@ Activity archive provider for the Person card
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -490,15 +487,272 @@ Activity archive provider for the Person card
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
-|time| *None* |Time: Time|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|associate/associateDbId|associate|ID| x |
+|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
+|firstMessage|string|First message: The first message submitted in the chat| x |
+|lastMessage|string|Last message: The last message submitted in the chat| x |
+|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
+|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+|whenEnded|datetime|Chat ended: When did this chat end?| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
+|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
+|queueLength|int|Queue length: Queue length when the session was requested| x |
+|rating|int|Rating: Rating of chat session| x |
+|agent|ejUser|Agent: The agent of the chat| x |
+|status|listAny|Status: Status for the chat session| x |
+|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
+|chatTopic/name|string|Name: Name| x |
+|chatTopic/description|string|Description: The description of the chat channel| x |
+|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
+|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|recordType|string|Record type : Shows the record type| x |
+|projectId|listAny|Project ID: Database ID of project record| x |
+|saleId|int|Sale ID: The database ID of the sale record| x |
+|userGroup|userGroup|User group : The user group that owns the record| x |
+|who| *None* |Who: Contact and/or company|  |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|documentId|int|Document ID: Database ID of document record| x |
+|keywords|string|Keywords | x |
+|ourref|string|Our ref.| x |
+|yourref|string|Your ref.| x |
+|attention|string|Salutation| x |
+|subject|string|Subject| x |
+|name|string|File name | x |
+|mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
+|snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
+|isReport|bool|Report: Is this document a saved report run?|  |
+|suggestedDocumentId|int|Document ID (suggestion: The database ID of a document that originates in a suggestion| x |
+|isMail|bool|E-mail|  |
+|visibleFor|listAny|Visible for|  |
+|documentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|documentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|documentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|documentPublish/publishedBy| *None* |Published by: Published by|  |
+|project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
+|project/projectId|int|DB ID: Displays the database ID for a project row| x |
+|project/name|stringorPK|Project name: Displays the Project's name| x |
+|project/number|string|Number: Displays the project's number| x |
+|project/type|listAny|Project type: Displays the project's type| x |
+|project/status|listAny|Status: Displays the project's status| x |
+|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
+|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
+|project/icon| *None* |Category: Displays the icon for an activity type| x |
+|project/text|string|Text: Displays a descriptive text for the item| x |
+|project/description|string|Description : Description| x |
+|project/updatedBy|associate|Updated by: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|project/registeredBy|associate|Registered by: The user who registered the data| x |
+|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
+|project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
+|project/endDate|date|End date: End date of project| x |
+|project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
+|project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|project/projectPublish/publishedBy| *None* |Published by: Published by|  |
+|project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
+|project/projectEvent/eventDate|date|Event date: Event date| x |
+|project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
+|project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
+|project/projectUrl/URLAddress|string|URL| x |
+|project/projectUrl/URLDescription|string|Description| x |
+|project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
+|project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|project/projectAssociate/associateDbId|associate|ID| x |
+|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|project/projectAssociate/contactCategory|listAny|Category: Category| x |
+|project/projectAssociate/role|listAny|Role : Role| x |
+|project/projectAssociate/assocName|associate|User ID : User ID| x |
+|project/projectAssociate/assocTooltip|string|Description : Description|  |
+|project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
+|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|project/projectAssociate/userName|string|User name: User name| x |
+|project/projectAssociate/personEmail|string|E-mail| x |
+|project/projectAssociate/locationAddress|string|Location: Location| x |
+|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
+|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
+|project/projectUdef/SuperOffice:2|string|projectlongtext| x |
+|project/projectUdef/SuperOffice:3|int|projectnumber| x |
+|project/projectUdef/SuperOffice:4|date|projectdate| x |
+|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
+|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
+|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
+|project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
+|project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
+|project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
+|project/NumberOfActivities|int|Number of activities|  |
+|project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+|project/LastActivity|date|Date of last activity|  |
+|project/LastCompletedActivity|date|Date of last completed activity|  |
+|project/LastDoByActivity|date|Date of last non-completed activity|  |
+|project/NumberOfSales|int|Number of sales|  |
+|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+|project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+|project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+|project/LastSale|date|Date of last sale|  |
+|project/LastCompletedSale|date|Date of last completed sale|  |
+|project/LastDoBySale|date|Date of last non-completed sale|  |
+|project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
+|project/saintSaleStatus|listAny|With status|  |
+|project/saintAmountClass|listAny|Amount class|  |
+|project/saintActivityType|listAny|SAINT type|  |
+|project/saintDirection|listAny|Direction|  |
+|project/saintIntention|listAny|Intention|  |
+|project/saintTicketStatus|listAny|Status|  |
+|project/saintTicketCategory|listAny|Category|  |
+|project/project/textId|int|Text ID| x |
+|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|documentUdef/SuperOffice:1|string|documentshorttext| x |
+|documentUdef/SuperOffice:2|string|documentlongtext| x |
+|documentUdef/SuperOffice:3|int|documentnumber| x |
+|documentUdef/SuperOffice:4|date|documentdate| x |
+|documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
+|documentUdef/SuperOffice:6|bool|documentcheckbox| x |
+|documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
+|documentUdef/SuperOffice:8|decimal|documentdecimal| x |
+|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
+|sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|sale/time| *None* |Time: Time|  |
+|sale/type|listAny|Type: Displays the type of an activity| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|sale/recordType|string|Record type : Shows the record type| x |
+|sale/text|positiveString|Text: Displays a descriptive text for the item| x |
+|sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|sale/contactId|listAny|Company ID: Database ID of company| x |
+|sale/personId|listAny|Contact ID: Database ID of the contact row| x |
+|sale/projectId|listAny|Project ID: Database ID of project record| x |
+|sale/saleId|int|Sale ID: The database ID of the sale record| x |
+|sale/userGroup|userGroup|User group : The user group that owns the record| x |
+|sale/who| *None* |Who: Contact and/or company|  |
+|sale/updatedBy|associate|Updated by: The user who last updated the data| x |
+|sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|sale/registeredBy|associate|Registered by: The user who registered the data| x |
+|sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|sale/currencyId|int|Currency ID: The currency list item ID| x |
+|sale/currency|listAny|Currency: The currency of the sale| x |
+|sale/credited|listAny|Credited: The user to be credited with the sale| x |
+|sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
+|sale/source|listAny|Source: The source (lead) of the sale| x |
+|sale/competitor|listAny|Competitor: The competitor who won the sale| x |
+|sale/heading|stringorPK|Sale: The name of the sale| x |
+|sale/amount|decimal|Amount: The gross sales total| x |
+|sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
+|sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
+|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|sale/probPercent|int|Probability as %: Probability as %| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
+|sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
+|sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
+|sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
+|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+|sale/saleNumber|string|Number: Number| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
+|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
+|sale/description|string|Description: The long description field on Sale|  |
+|sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/visibleFor|listAny|Visible for|  |
+|sale/sale/textId|int|Text ID| x |
+|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
+|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
+|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|sale/associate/associateDbId|associate|ID| x |
+|sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
+|sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|sale/associate/contactCategory|listAny|Category: Category| x |
+|sale/associate/role|listAny|Role : Role| x |
+|sale/associate/assocName|associate|User ID : User ID| x |
+|sale/associate/assocTooltip|string|Description : Description|  |
+|sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
+|sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
+|sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
+|sale/associate/userName|string|User name: User name| x |
+|sale/associate/personEmail|string|E-mail| x |
+|sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
+|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
+|sale/saleUdef/SuperOffice:3|int|salenumber| x |
+|sale/saleUdef/SuperOffice:4|date|saledate| x |
+|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
+|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
+|sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
+|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
+|document/textId|int|Text ID| x |
+|document/description|positiveString|Text: Displays the text entered in the description field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -517,7 +771,6 @@ Activity archive provider for the Person card
 |mailingBounceRate|decimal|Bounce rate: Mailing bounce rate| x |
 |mailingDeleted|bool|Deleted: Deleted|  |
 |recipientStatus|listAny|Recipient status: Status of mailing recipient|  |
-|projectId|listAny|Project ID: Database ID of project record| x |
 |mailingAddr/mailingAddrId|int|!!!Mailing addr Id: !!!Mailing addr Id Tooltip| x |
 |mailingAddr/contact/contactId|int|Company - Company ID: Database ID of company| x |
 |mailingAddr/contact/name|stringorPK|Company - Company name| x |
@@ -528,6 +781,7 @@ Activity archive provider for the Person card
 |mailingAddr/contact/associateId|associate|Company - Our contact: Displays our contact| x |
 |mailingAddr/contact/category|listAny|Company - Category| x |
 |mailingAddr/contact/categoryGroup|listAny|Company - Category group| x |
+|mailingAddr/contact/companyCategoryRank|int|Company - Category rank| x |
 |mailingAddr/contact/business|listAny|Company - Business| x |
 |mailingAddr/contact/country|listAny|Company - Country: This criterion corresponds to the Country field on the Company card.| x |
 |mailingAddr/contact/countryId|int|Company - Country ID: Country ID| x |
@@ -541,10 +795,6 @@ Activity archive provider for the Person card
 |mailingAddr/contact/updatedDate|date|Company - Updated: The date/time the data was last updated in UTC.| x |
 |mailingAddr/contact/registeredBy|associate|Company - Registered by: The user who registered the data| x |
 |mailingAddr/contact/registeredByFullName|associate|Company - Registered by - Full name: The user who registered the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/registeredDate|date|Company - Registered date: The date/time the data was registered in UTC.| x |
 |mailingAddr/contact/contactSource|listAny|Company - Source: Source (Company)| x |
 |mailingAddr/contact/contactDeleted|bool|Company - Deleted: Deleted| x |
@@ -552,6 +802,7 @@ Activity archive provider for the Person card
 |mailingAddr/contact/activeErpLinks|bool|Company - ERP connected: Is there an active ERP Sync?| x |
 |mailingAddr/contact/deletedDate|datetime|Company - Deleted date: Deleted date|  |
 |mailingAddr/contact/mainContact| *None* |Company - Main contact: Main contact for this company| x |
+|mailingAddr/contact/forceCompany|bool|Company - Dummy: Dummy|  |
 |mailingAddr/contact/contactPhone/formattedNumber|string|Company - Telephone - Phone: Displays phone number|  |
 |mailingAddr/contact/contactPhone/description|string|Company - Telephone - Description: Phone number description| x |
 |mailingAddr/contact/contactFax/formattedNumber|string|Company - Fax - Phone: Displays phone number|  |
@@ -602,6 +853,10 @@ Activity archive provider for the Person card
 |mailingAddr/contact/restrictionAddress/wgs84longitude|decimal|Company - Search address - Longitude: Longitude| x |
 |mailingAddr/contact/restrictionAddress/formattedAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/restrictionAddress/formattedMultiLineAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/url/URLAddress|string|Company - URL| x |
 |mailingAddr/contact/url/URLDescription|string|Company - Description| x |
 |mailingAddr/contact/contactAssociate/firstName|string|Company - First name: Displays the contact's first name| x |
@@ -625,7 +880,7 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactAssociate/assocType|listAny|Company - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/contact/contactAssociate/ejUserId|int|Company - Service user ID: The database ID of a Service user|  |
 |mailingAddr/contact/contactAssociate/simultaneousEjUser|bool|Company - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nick name: User's nick name in Service| x |
+|mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nickname: User's nickname in Service| x |
 |mailingAddr/contact/contactAssociate/ejStatus|int|Company - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/contact/contactAssociate/credentialType| *None* |Company - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/contact/contactAssociate/credentialDisplayValue| *None* |Company - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -645,10 +900,6 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactUdef/SuperOffice:5|unlimitedDate|Company - companyunlimiteddate: tooltipunlimiteddate| x |
 |mailingAddr/contact/contactUdef/SuperOffice:6|bool|Company - companycheckbox| x |
 |mailingAddr/contact/contactUdef/SuperOffice:7|listAny|Company - companydropdownlistbox| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactUdef/SuperOffice:8|decimal|Company - companydecimal| x |
 |mailingAddr/contact/contactUdef/SuperOffice:9|string|Company - page1saleonly| x |
 |mailingAddr/contact/contactUdef/SuperOffice:10|string|Company - page1marketingonly| x |
@@ -671,7 +922,7 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Company - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |mailingAddr/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Company - Extra Request relation: Request relation on company| x |
 |mailingAddr/contact/contactExtra/x\_contact\_contact|stringorPK|Company - Extra contact relation: Contact relation on company| x |
-|mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name| x |
+|mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name: Name| x |
 |mailingAddr/contact/NumberOfActivities|int|Company - Number of activities|  |
 |mailingAddr/contact/NumberOfActivitiesInPeriod|int|Company - Number of activities in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedActivities|int|Company - Number of non-completed activities|  |
@@ -706,6 +957,10 @@ Activity archive provider for the Person card
 |mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
 |mailingAddr/person/contactId|int|Contact - Company ID: Database ID of company| x |
 |mailingAddr/person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
@@ -745,14 +1000,12 @@ Activity archive provider for the Person card
 |mailingAddr/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |mailingAddr/person/personCategory|listAny|Contact - Category| x |
 |mailingAddr/person/personCategoryGroup|listAny|Contact - Category group| x |
+|mailingAddr/person/personCategoryRank|int|Contact - !!Category rank| x |
 |mailingAddr/person/personBusiness|listAny|Contact - Business| x |
-|mailingAddr/person/leadstatus|listAny|Contact - Lead status| x |
+|mailingAddr/person/leadStatus|listAny|Contact - Lead status| x |
+|mailingAddr/person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |mailingAddr/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |mailingAddr/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
@@ -808,6 +1061,10 @@ Activity archive provider for the Person card
 |mailingAddr/person/restrictionAddress/formattedAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/formattedMultiLineAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/personInterestIds|listInterest|Contact - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personUdef/SuperOffice:1|string|Contact - contactshorttext: tooltipshorttext| x |
 |mailingAddr/person/personUdef/SuperOffice:2|string|Contact - contactlongtext: tooltiplongtext| x |
 |mailingAddr/person/personUdef/SuperOffice:3|int|Contact - contactnumber| x |
@@ -837,8 +1094,8 @@ Activity archive provider for the Person card
 |mailingAddr/person/personExtra/x\_person\_appointment\_relation|stringorPK|Contact - Extra appointment relation: Appointment relation on person| x |
 |mailingAddr/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
 |mailingAddr/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
-|mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
+|mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental: Start rental| x |
+|mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End: End| x |
 |mailingAddr/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |mailingAddr/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |mailingAddr/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -853,10 +1110,6 @@ Activity archive provider for the Person card
 |mailingAddr/person/personAssociate/title|string|Contact - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |mailingAddr/person/personAssociate/associateDbId|associate|Contact - ID| x |
 |mailingAddr/person/personAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/personAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
 |mailingAddr/person/personAssociate/usergroupId|int|Contact - Group ID: The user's primary user group| x |
@@ -868,7 +1121,7 @@ Activity archive provider for the Person card
 |mailingAddr/person/personAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/personAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/personAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/person/personAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
+|mailingAddr/person/personAssociate/ejDisplayName|string|Contact - Nickname: User's nickname in Service| x |
 |mailingAddr/person/personAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/personAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/personAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -901,7 +1154,7 @@ Activity archive provider for the Person card
 |mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
+|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nickname: User's nickname in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -912,6 +1165,10 @@ Activity archive provider for the Person card
 |mailingAddr/person/correspondingAssociate/userName|string|Contact - User name: User name| x |
 |mailingAddr/person/correspondingAssociate/personEmail|string|Contact - E-mail| x |
 |mailingAddr/person/correspondingAssociate/locationAddress|string|Contact - Location: Location| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/isLocation|bool|Contact - Is a location: Is a location| x |
 |mailingAddr/person/isMailingRecipient|bool|Contact - Is mailing recipient: isMailingRecipient| x |
 |mailingAddr/person/hasStoreConsent|bool|Contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -957,10 +1214,6 @@ Activity archive provider for the Person card
 |emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |emailFlow/workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
@@ -970,7 +1223,7 @@ Activity archive provider for the Person card
 |emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -987,251 +1240,6 @@ Activity archive provider for the Person card
 |emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
 |emailFlow/hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
-|project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
-|project/projectId|int|DB ID: Displays the database ID for a project row| x |
-|project/name|stringorPK|Project name: Displays the Project's name| x |
-|project/number|string|Number: Displays the project's number| x |
-|project/type|listAny|Project type: Displays the project's type| x |
-|project/status|listAny|Status: Displays the project's status| x |
-|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
-|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-|project/icon| *None* |Category: Displays the icon for an activity type| x |
-|project/text|string|Text: Displays a descriptive text for the item| x |
-|project/description|string|Description : Description| x |
-|project/updatedBy|associate|Updated by: The user who last updated the data| x |
-|project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|project/registeredBy|associate|Registered by: The user who registered the data| x |
-|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
-|project/endDate|date|End date: End date of project| x |
-|project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|project/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
-|project/projectEvent/eventDate|date|Event date: Event date| x |
-|project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
-|project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
-|project/projectUrl/URLAddress|string|URL| x |
-|project/projectUrl/URLDescription|string|Description| x |
-|project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
-|project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/associateDbId|associate|ID| x |
-|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|project/projectAssociate/contactCategory|listAny|Category: Category| x |
-|project/projectAssociate/role|listAny|Role : Role| x |
-|project/projectAssociate/assocName|associate|User ID : User ID| x |
-|project/projectAssociate/assocTooltip|string|Description : Description|  |
-|project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|project/projectAssociate/userName|string|User name: User name| x |
-|project/projectAssociate/personEmail|string|E-mail| x |
-|project/projectAssociate/locationAddress|string|Location: Location| x |
-|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
-|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
-|project/projectUdef/SuperOffice:2|string|projectlongtext| x |
-|project/projectUdef/SuperOffice:3|int|projectnumber| x |
-|project/projectUdef/SuperOffice:4|date|projectdate| x |
-|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
-|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
-|project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
-|project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
-|project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
-|project/NumberOfActivities|int|Number of activities|  |
-|project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|project/LastActivity|date|Date of last activity|  |
-|project/LastCompletedActivity|date|Date of last completed activity|  |
-|project/LastDoByActivity|date|Date of last non-completed activity|  |
-|project/NumberOfSales|int|Number of sales|  |
-|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|project/LastSale|date|Date of last sale|  |
-|project/LastCompletedSale|date|Date of last completed sale|  |
-|project/LastDoBySale|date|Date of last non-completed sale|  |
-|project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|project/saintSaleStatus|listAny|With status|  |
-|project/saintAmountClass|listAny|Amount class|  |
-|project/saintActivityType|listAny|SAINT type|  |
-|project/saintDirection|listAny|Direction|  |
-|project/saintIntention|listAny|Intention|  |
-|project/saintTicketStatus|listAny|Status|  |
-|project/saintTicketCategory|listAny|Category|  |
-|project/project/textId|int|Text ID| x |
-|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|recordType|string|Record type : Shows the record type| x |
-|saleId|int|Sale ID: The database ID of the sale record| x |
-|userGroup|userGroup|User group : The user group that owns the record| x |
-|who| *None* |Who: Contact and/or company|  |
-|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|documentId|int|Document ID: Database ID of document record| x |
-|keywords|string|Keywords | x |
-|ourref|string|Our ref.| x |
-|yourref|string|Your ref.| x |
-|attention|string|Salutation| x |
-|subject|string|Subject| x |
-|name|string|File name | x |
-|mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
-|snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
-|isReport|bool|Report: Is this document a saved report run?|  |
-|suggestedDocumentId|int|Document ID (suggestion: The database ID of a document that originates in a suggestion| x |
-|isMail|bool|E-mail|  |
-|visibleFor|listAny|Visible for|  |
-|documentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|documentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|documentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|documentPublish/publishedBy| *None* |Published by: Published by|  |
-|documentUdef/SuperOffice:1|string|documentshorttext| x |
-|documentUdef/SuperOffice:2|string|documentlongtext| x |
-|documentUdef/SuperOffice:3|int|documentnumber| x |
-|documentUdef/SuperOffice:4|date|documentdate| x |
-|documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
-|documentUdef/SuperOffice:6|bool|documentcheckbox| x |
-|documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
-|documentUdef/SuperOffice:8|decimal|documentdecimal| x |
-|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|listAny|Category: Displays the icon for an activity type| x |
-|sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|sale/time| *None* |Time: Time|  |
-|sale/type|listAny|Type: Displays the type of an activity| x |
-|sale/recordType|string|Record type : Shows the record type| x |
-|sale/text|positiveString|Text: Displays a descriptive text for the item| x |
-|sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|sale/contactId|listAny|Company ID: Database ID of company| x |
-|sale/personId|listAny|Contact ID: Database ID of the contact row| x |
-|sale/projectId|listAny|Project ID: Database ID of project record| x |
-|sale/saleId|int|Sale ID: The database ID of the sale record| x |
-|sale/userGroup|userGroup|User group : The user group that owns the record| x |
-|sale/who| *None* |Who: Contact and/or company|  |
-|sale/updatedBy|associate|Updated by: The user who last updated the data| x |
-|sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|sale/registeredBy|associate|Registered by: The user who registered the data| x |
-|sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|sale/currencyId|int|Currency ID: The currency list item ID| x |
-|sale/currency|listAny|Currency: The currency of the sale| x |
-|sale/credited|listAny|Credited: The user to be credited with the sale| x |
-|sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
-|sale/source|listAny|Source: The source (lead) of the sale| x |
-|sale/competitor|listAny|Competitor: The competitor who won the sale| x |
-|sale/heading|stringorPK|Sale: The name of the sale| x |
-|sale/amount|decimal|Amount: The gross sales total| x |
-|sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
-|sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
-|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
-|sale/stage|listAny|Stage: Displays the stage of the sale| x |
-|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
-|sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
-|sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
-|sale/saleType|listAny|Sale type: Sale type, from list| x |
-|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
-|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
-|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
-|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
-|sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
-|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
-|sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
-|sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
-|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|sale/description|string|Description: The long description field on Sale|  |
-|sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
-|sale/visibleFor|listAny|Visible for|  |
-|sale/sale/textId|int|Text ID| x |
-|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
-|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
-|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
-|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|sale/associate/associateDbId|associate|ID| x |
-|sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
-|sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|sale/associate/contactCategory|listAny|Category: Category| x |
-|sale/associate/role|listAny|Role : Role| x |
-|sale/associate/assocName|associate|User ID : User ID| x |
-|sale/associate/assocTooltip|string|Description : Description|  |
-|sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|sale/associate/userName|string|User name: User name| x |
-|sale/associate/personEmail|string|E-mail| x |
-|sale/associate/locationAddress|string|Location: Location| x |
-|sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
-|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
-|sale/saleUdef/SuperOffice:3|int|salenumber| x |
-|sale/saleUdef/SuperOffice:4|date|saledate| x |
-|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
-|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
-|sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
-|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
-|document/textId|int|Text ID| x |
-|document/description|positiveString|Text: Displays the text entered in the description field| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -1261,6 +1269,10 @@ Activity archive provider for the Person card
 |appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |appointmentUdef/SuperOffice:3|int|followupnumber| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentUdef/SuperOffice:4|date|followupdate| x |
 |appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
@@ -1269,10 +1281,6 @@ Activity archive provider for the Person card
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
@@ -1283,7 +1291,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=associate/contactName,person/personDirectFax/formattedNumber,person/personExtra/x_person_category_relation,person/personAssociate/isActive,contact/email/emailDescription
+GET /api/v1/archive/PersonActivity?$select=formSubmissionStatus,recordTypeText,person/personDeletedDate,person/personExtra/x_person_hidden_integer,person/correspondingAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

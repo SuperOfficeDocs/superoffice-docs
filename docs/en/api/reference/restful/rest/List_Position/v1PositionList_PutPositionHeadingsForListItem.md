@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Hickle, Schneider and Ruecker",
-    "ToolTip": "Mollitia qui autem commodi iste.",
+    "Id": 284,
+    "Name": "Tremblay-Sauer",
+    "ToolTip": "Aut iusto et deserunt assumenda.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "quas",
-    "ColorBlock": 696,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2012-02-19T03:40:56.9777222+01:00",
+    "Rank": 649,
+    "Type": "mollitia",
+    "ColorBlock": 30,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2017-08-22T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Cremin-Hahn",
-        "ToolTip": "Eius omnis praesentium aut officiis autem velit eius.",
+        "Id": 569,
+        "Name": "Willms Inc and Sons",
+        "ToolTip": "Soluta error expedita aut.",
         "Deleted": true,
-        "Rank": 976,
-        "Type": "repellat",
-        "ColorBlock": 862,
-        "IconHint": "architecto",
+        "Rank": 405,
+        "Type": "assumenda",
+        "ColorBlock": 819,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2013-09-11T03:40:56.9777222+02:00",
+        "LastChanged": "2015-06-17T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Willard McGlynn"
+        "ExtraInfo": "et",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Prof. Maximo Johns"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Bill Wehner"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Joe Cary Rau III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Bauch Inc and Sons",
-    "ToolTip": "Voluptatum omnis velit explicabo voluptatum ipsum.",
+    "Id": 640,
+    "Name": "Hauck Group",
+    "ToolTip": "Reprehenderit quam eaque sunt sed.",
     "Deleted": true,
-    "Rank": 359,
-    "Type": "hic",
-    "ColorBlock": 946,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2025-03-23T03:40:56.9777222+01:00",
+    "Rank": 299,
+    "Type": "repudiandae",
+    "ColorBlock": 21,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2013-04-10T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Schumm LLC",
-        "ToolTip": "Occaecati recusandae quo deleniti est expedita.",
-        "Deleted": true,
-        "Rank": 469,
-        "Type": "rerum",
-        "ColorBlock": 598,
-        "IconHint": "cupiditate",
+        "Id": 264,
+        "Name": "Hand-Langosh",
+        "ToolTip": "Rerum et aut mollitia et qui.",
+        "Deleted": false,
+        "Rank": 738,
+        "Type": "alias",
+        "ColorBlock": 171,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2002-06-14T03:40:56.9777222+02:00",
+        "LastChanged": "2000-08-22T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Omer Hoppe MD",
+        "ExtraInfo": "non",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Alfreda Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "commodi",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Mrs. Benedict Kreiger",
+    "FullName": "Dr. Gilda Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldType": "System.String",
+        "FieldLength": 42
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 287,
+  "Name": "Shields Group",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 772,
+  "UdListDefinitionId": 195,
+  "Rank": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 180
     }
   }
 }

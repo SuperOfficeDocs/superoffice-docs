@@ -112,7 +112,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,157 +122,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 881,
-  "Name": "Koepp, Quigley and Douglas",
+  "ContactId": 46,
+  "Name": "Hauck Group",
   "Department": "",
-  "OrgNr": "325803",
-  "Number1": "1450545",
-  "Number2": "1144434",
-  "UpdatedDate": "2006-08-11T03:40:46.405616+02:00",
-  "CreatedDate": "2005-10-24T03:40:46.405616+02:00",
+  "OrgNr": "131677",
+  "Number1": "1276850",
+  "Number2": "1259007",
+  "UpdatedDate": "2013-02-13T02:30:46.9757163+01:00",
+  "CreatedDate": "2006-03-06T02:30:46.9757163+01:00",
   "Emails": [
     {
-      "Value": "est",
-      "StrippedValue": "pariatur",
-      "Description": "Distributed assymetric circuit",
+      "Value": "aut",
+      "StrippedValue": "quas",
+      "Description": "Face to face 4th generation customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldLength": 996
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "pariatur",
-      "Description": "Distributed assymetric circuit",
+      "Value": "aut",
+      "StrippedValue": "quas",
+      "Description": "Face to face 4th generation customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldLength": 996
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 824,
-      "Name": "Crooks, Purdy and Lakin",
-      "ToolTip": "Veniam esse sit magni aliquam rem et aliquam.",
+      "Id": 864,
+      "Name": "Abbott, Kuhic and Smith",
+      "ToolTip": "Eos reprehenderit alias voluptas occaecati et.",
       "Deleted": false,
-      "Rank": 375,
-      "Type": "esse",
-      "ColorBlock": 684,
-      "IconHint": "fugiat",
-      "Selected": false,
-      "LastChanged": "2020-04-22T03:40:46.405616+02:00",
+      "Rank": 885,
+      "Type": "enim",
+      "ColorBlock": 458,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2021-01-23T02:30:46.9757163+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Mrs. Kayli Armani Klein",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "sit",
+      "Hidden": true,
+      "FullName": "Evangeline Greenfelder MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 409
+          "FieldLength": 93
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "illum",
-      "StrippedValue": "officiis",
-      "Description": "Multi-lateral even-keeled ability",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Diverse incremental protocol",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 416
+          "FieldLength": 541
         }
       }
     },
     {
-      "Value": "illum",
-      "StrippedValue": "officiis",
-      "Description": "Multi-lateral even-keeled ability",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Diverse incremental protocol",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 416
+          "FieldLength": 541
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quibusdam",
-      "StrippedValue": "qui",
-      "Description": "Universal interactive neural-net",
+      "Value": "odit",
+      "StrippedValue": "et",
+      "Description": "Public-key local local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 214
         }
       }
     },
     {
-      "Value": "quibusdam",
-      "StrippedValue": "qui",
-      "Description": "Universal interactive neural-net",
+      "Value": "odit",
+      "StrippedValue": "et",
+      "Description": "Public-key local local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 214
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "unde",
-      "StrippedValue": "enim",
-      "Description": "Optimized stable Graphical User Interface",
+      "Value": "error",
+      "StrippedValue": "occaecati",
+      "Description": "Synchronised actuating instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 874
         }
       }
     },
     {
-      "Value": "unde",
-      "StrippedValue": "enim",
-      "Description": "Optimized stable Graphical User Interface",
+      "Value": "error",
+      "StrippedValue": "occaecati",
+      "Description": "Synchronised actuating instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 874
         }
       }
     }
   ],
-  "Description": "Public-key national circuit",
+  "Description": "Open-source bi-directional standardization",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -281,102 +281,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "aut",
-      "PersonId": 820,
-      "Mrmrs": "aliquam",
-      "Firstname": "Tad",
-      "Lastname": "Lang",
-      "MiddleName": "Lindgren, Schaden and Murazik",
-      "Title": "voluptates",
-      "Description": "Customer-focused object-oriented capability",
-      "Email": "meagan_kessler@rowe.co.uk",
-      "FullName": "Mrs. Thaddeus Pfannerstill MD",
-      "DirectPhone": "1-024-627-5646 x04273",
-      "FormalName": "Ankunding, Volkman and Jakubowski",
-      "CountryId": 656,
-      "ContactId": 382,
-      "ContactName": "Block Group",
-      "Retired": 61,
-      "Rank": 286,
-      "ActiveInterests": 580,
+      "Position": "ipsum",
+      "PersonId": 168,
+      "Mrmrs": "cumque",
+      "Firstname": "Soledad",
+      "Lastname": "Konopelski",
+      "MiddleName": "Mueller, Bergstrom and Schimmel",
+      "Title": "quia",
+      "Description": "Inverse holistic forecast",
+      "Email": "yvonne.keebler@metz.com",
+      "FullName": "Greg Aditya Schulist DDS",
+      "DirectPhone": "594-883-8383 x60910",
+      "FormalName": "Gibson Inc and Sons",
+      "CountryId": 317,
+      "ContactId": 863,
+      "ContactName": "Weissnat, Goldner and Satterfield",
+      "Retired": 793,
+      "Rank": 92,
+      "ActiveInterests": 978,
       "ContactDepartment": "",
-      "ContactCountryId": 4,
-      "ContactOrgNr": "805623",
-      "FaxPhone": "1-766-399-6821 x019",
-      "MobilePhone": "814.701.6826 x494",
-      "ContactPhone": "1-239-858-1319 x24252",
-      "AssociateName": "Price-Welch",
-      "AssociateId": 511,
-      "UsePersonAddress": true,
-      "ContactFax": "alias",
-      "Kanafname": "et",
-      "Kanalname": "reprehenderit",
-      "Post1": "eum",
-      "Post2": "consequatur",
-      "Post3": "eveniet",
-      "EmailName": "brennan.shields@lakinmurray.biz",
-      "ContactFullName": "Broderick Pinkie Nicolas IV",
-      "ActiveErpLinks": 405,
-      "TicketPriorityId": 301,
-      "SupportLanguageId": 498,
-      "SupportAssociateId": 29,
+      "ContactCountryId": 283,
+      "ContactOrgNr": "1745902",
+      "FaxPhone": "163-667-1363 x5615",
+      "MobilePhone": "(811)842-7908 x654",
+      "ContactPhone": "301.610.7962",
+      "AssociateName": "Bartoletti Group",
+      "AssociateId": 652,
+      "UsePersonAddress": false,
+      "ContactFax": "aut",
+      "Kanafname": "fugiat",
+      "Kanalname": "rerum",
+      "Post1": "possimus",
+      "Post2": "eligendi",
+      "Post3": "vero",
+      "EmailName": "leo.pagac@macejkovic.us",
+      "ContactFullName": "Saige Gibson",
+      "ActiveErpLinks": 180,
+      "TicketPriorityId": 622,
+      "SupportLanguageId": 823,
+      "SupportAssociateId": 976,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "226857",
+      "PersonNumber": "573898",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 460
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "nesciunt",
+  "NoMailing": false,
+  "Kananame": "officia",
   "Xstop": true,
-  "ActiveInterests": 267,
-  "GroupId": 898,
-  "ActiveStatusMonitorId": 721,
+  "ActiveInterests": 618,
+  "GroupId": 916,
+  "ActiveStatusMonitorId": 285,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 958,
-  "DbiAgentId": 958,
-  "DbiLastSyncronized": "2025-07-20T03:40:46.421242+02:00",
-  "DbiKey": "beatae",
-  "DbiLastModified": "2010-01-06T03:40:46.421242+01:00",
+  "Deleted": 904,
+  "DbiAgentId": 779,
+  "DbiLastSyncronized": "2019-06-16T02:30:46.9757163+02:00",
+  "DbiKey": "optio",
+  "DbiLastModified": "2021-02-25T02:30:46.9757163+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 338,
-  "ActiveErpLinks": 614,
+  "Source": 616,
+  "ActiveErpLinks": 54,
   "BounceEmails": [
-    "corine_lakin@spencer.info",
-    "alford@stoltenberg.com"
+    "ludwig@yundt.us",
+    "emerson@deckow.name"
   ],
   "Domains": [
-    "vitae",
-    "laborum"
+    "est",
+    "temporibus"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Elvie Harber",
-    "SuperOffice:2": "Faustino Parisian I"
+    "SuperOffice:1": "215734437",
+    "SuperOffice:2": "Mr. Raymond Roob V"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "beatae"
+    "CustomFields1": "fuga",
+    "CustomFields2": "sequi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 589
     }
   }
 }
