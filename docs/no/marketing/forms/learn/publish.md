@@ -3,9 +3,9 @@ uid: help-no-form-publish
 title: Publisere skjemaer
 description: Publisere skjemaer
 keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, skriptkode
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: no
 # Publisere skjemaer
 
 Når du har opprettet et skjema og (eventuelt) svaret på skjemaet, kan du publisere skjemaet.
+
+> [!NOTE]
+> Fanen **Publiser** er et her-og-nå-arbeidsområde. Alle verdier du legger inn på denne siden – for eksempel forhåndsutfylte felt eller UTM-parametere – brukes bare til å generere lenken eller skriptet du kopierer nå.
+> SuperOffice lagrer **ikke** disse verdiene permanent. Hvis en annen bruker redigerer siden senere, blir dine tidligere verdier erstattet.
 
 ## Trinn
 

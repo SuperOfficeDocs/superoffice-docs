@@ -3,9 +3,9 @@ uid: help-de-form-publish
 title: Formulare veröffentlichen
 description: Formulare veröffentlichen
 keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgefüllt, Formular einbetten, Skript-Tag, veröffentlichen
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: de
 # Formulare veröffentlichen
 
 Nachdem Sie ein Formular und (falls relevant) das Antwortformular erstellt haben, können Sie das Formular veröffentlichen.
+
+> [!NOTE]
+> Die Registerkarte **Veröffentlichen** ist ein Arbeitsbereich für den aktuellen Moment. Alle Werte, die Sie auf dieser Seite eingeben – zum Beispiel vorausgefüllte Felder oder UTM-Parameter – werden nur verwendet, um den Link oder das Skript zu erzeugen, das Sie jetzt kopieren.
+> SuperOffice speichert diese Werte **nicht** dauerhaft. Wenn ein anderer Benutzer die Seite später bearbeitet, werden Ihre vorherigen Werte überschrieben.
 
 ## Schritte
 

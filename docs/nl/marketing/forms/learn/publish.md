@@ -3,9 +3,9 @@ uid: help-nl-form-publish
 title: Formulieren publiceren
 description: Formulieren publiceren
 keywords: formulier, publiceren, formulieren publiceren, vooraf ingevulde velden, formulier insluiten, scriptcode
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: nl
 # Formulieren publiceren
 
 Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, kunt u het formulier publiceren.
+
+> [!NOTE]
+> Het tabblad **Publiceren** is een hier-en-nu-werkruimte. Alle waarden die je op deze pagina invoert – zoals vooraf ingevulde velden of UTM-parameters – worden alleen gebruikt om de link of script te genereren die je nu kopieert.
+> SuperOffice slaat deze waarden **niet** permanent op. Als een andere gebruiker de pagina later bewerkt, worden je eerdere waarden overschreven.
 
 ## Stappen
 

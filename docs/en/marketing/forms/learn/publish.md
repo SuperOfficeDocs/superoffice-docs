@@ -3,9 +3,9 @@ uid: help-en-form-publish
 title: Publish form
 description: Publish form
 keywords: form, publish form, active form, embed form, pre-filled field
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: en
 # Publish forms
 
 After creating a form and (if relevant) the form response, you can publish the form.
+
+> [!NOTE]
+> The **Publish** tab is a here-and-now workspace. Any values entered on this page, such as pre-filled fields or UTM parameters, are used only to generate the link or script you copy now.
+> SuperOffice does **not save** these values permanently. If another user edits the page later, your previous values are replaced.
 
 ## Steps
 

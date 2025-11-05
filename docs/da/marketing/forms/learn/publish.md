@@ -3,9 +3,9 @@ uid: help-da-form-publish
 title: Udgiv formularer
 description: Udgiv formularer
 keywords: formular, udgiv, udgiv formular, forudfyldte felt, scripttag
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: da
 # Udgiv formularer
 
 Når du har oprettet formularen og (hvis relevant) formularsvaret, kan du udgive formularen.
+
+> [!NOTE]
+> Fanen **Udgiv** er et her-og-nu-arbejdsområde. Alle værdier, du indtaster på denne side – for eksempel forudfyldte felter eller UTM-parametre – bruges kun til at generere det link eller script, du kopierer nu.
+> SuperOffice gemmer **ikke** disse værdier permanent. Hvis en anden bruger redigerer siden senere, bliver dine tidligere værdier erstattet.
 
 ## Trin
 

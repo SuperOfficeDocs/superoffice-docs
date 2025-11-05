@@ -3,9 +3,9 @@ uid: help-sv-form-publish
 title: Publicera formulär
 description: Publicera formulär
 keywords: formulär, publicera, publicera formulär, förifyllda fält, skripttagg, direktlänk
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: howto
 category: marketing
 topic: forms
@@ -18,6 +18,10 @@ language: sv
 # Publicera formulär
 
 När du har skapat formuläret och (om det är relevant) formulärsvaret kan du publicera formuläret.
+
+> [!NOTE]
+> Fliken **Publicera** är ett här-och-nu-arbetsområde. Alla värden du anger på den här sidan – till exempel förifyllda fält eller UTM-parametrar – används endast för att skapa den länk eller det skript du kopierar nu.
+> SuperOffice sparar **inte** dessa värden permanent. Om en annan användare redigerar sidan senare ersätts dina tidigare värden.
 
 ## Steg
 
