@@ -25,7 +25,7 @@ language: en
 
     ![Zapier: Create your trigger -screenshot][img2]
 
-1. [!include[search for so](../includes/search-for-so.md)]
+[!include[search for so](../includes/search-for-so.md)]
 
 1. A side menu will open, in the **Trigger event** section, select **Company Changed**, then click the **Account** section and login using a SuperOffice account.
 

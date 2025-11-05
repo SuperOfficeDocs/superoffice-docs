@@ -15,87 +15,69 @@ redirect_from: /en/automation/zapier/get-started/create-zap
 
 # Create a Zap with SuperOffice CRM
 
-As an example, we'll create a Zap that triggers when a sale is marked as sold in SuperOffice.
+This example demonstrates how to create a Zap that triggers when a sale is marked as sold in SuperOffice CRM.
 
 ## Define trigger
 
-1. Click **Make Zap**.
+[!include[create zap step](../howto/includes/create-zap-intro.md)]
 
-1. For trigger application, select **SuperOffice CRM**.
+1. In the Trigger step, select **SuperOffice CRM** as the trigger application.
 
-1. Choose a trigger and click **Save + Continue**.
+1. Choose a trigger and select **Save + Continue**.
 
-    For our example, select **Sale Changed**.
+    For this example, select **Sale Changed**.
 
     ![Select SuperOffice CRM Trigger -screenshot][img1]
 
-    > [!TIP]
-    > Click **Show less common options** to see all available triggers.
-    >
-    > To see only sales-related triggers, enter "sale" in the search box.
+1. Select the tenant (database) to link:
 
-1. Select which tenant (database) you want to link:
-
-    * Select one of the listed accounts.
-    * Or, click **Connect An Account** to choose another tenant.
+    * Choose one of the listed accounts, or
+    * Select Connect a **Connect a new Account** to link another tenant.
 
     ![Select SuperOffice CRM Account -screenshot][img2]
 
-1. Click **Save + Continue**.
+1. Select **Save + Continue**.
 
-1. Select the change (event) that should trigger this Zap. The options depend on which trigger you selected earlier.
+1. Define the change (event) that should trigger the Zap. The available options depend on the previously selected trigger.
 
     ![Set up SuperOffice CRM sale -screenshot][img3]
 
-    For our example, select **Sale Status Changed To Sold**.
+    For this example, select **Sale Status Changed To Sold**.
 
     ![Sale Status Changed To Sold -screenshot][img4]
 
-1. Click **Continue**.
+1. Select **Continue**.
 
-1. Choose a sample to use when setting up the Zap and its action.
+1. Review the selected record. Select the **record** entry to display additional information.
 
-    * Pull in actual data from the SuperOffice tenant.
-    * Or, click **Skip this step** to use a default sample provided by SuperOffice.
+    ![Selected record details -screenshot][img5]
 
-    ![Pick A Sample To Set Up Your Zap -screenshot][img5]
+1. Continue by selecting **Continue With selected record**.
 
-    For our example, click **Skip This Step**.
+    ![Records found -screenshot][img6]
 
-1. Review the selected sample. Click the **arrow** to see more information in the sample text.
-
-    * Continue with the selected sample.
-    * Or, try to pull inn a sample from your tenant.
-
-    For our example, click **Continue With Default Sample**.
-
-    ![This step was skipped -screenshot][img6]
-
-You are now finished with the **Trigger** step and can continue to the **Action** step that you have chosen.
+The **Trigger** step is now complete. Continue to the **Action** step to define the target location for the updated sale information.
 
 ## Define action
 
-Choose an **Action** and/or a **Search** step - this means where the updated sale information from SuperOffice CRM should end up.
+Select an **Action** step to determine where the updated sale data from SuperOffice CRM will be sent.
 
 ![Almost finished here! -screenshot][img7]
 
 ## Troubleshooting
 
-### Problems when pulling in data samples
+### Issues When Retrieving Data Samples
 
-![Issue connecting Zapier to SuperOffice -screenshot][img8]
+If connecting to SuperOffice and retrieving data samples fails, the issue may be caused by insufficient administrator permissions for the connected account. These permissions are required to use triggers, actions, and searches.
 
-If you are unable to connect and pull data samples from SuperOffice, the likely reason is that the account you are using do not have the necessary administrator access rights (user rights) to use triggers, actions, and search.
+Workaround: Connect using an account with the necessary administrator rights to the SuperOffice tenant.
 
-Workaround: Try using a different account with more user rights when you connect to a SuperOffice tenant.
+**Note:** Zaps can modify SuperOffice data extensively. For instance, misconfigured Zaps can create duplicate records. Proper configuration helps prevent such issues.
 
-Remember that Zaps can do a lot of "damage" to your SuperOffice tenant, for example by adding a lot of duplicate information, and this is something we aim to prevent from happening.
-
-[img1]: media/select-trigger.png
-[img2]: media/connect-account.png
-[img3]: media/set-up.png
-[img4]: media/sale-status.png
-[img5]: media/pick-sample.png
-[img6]: media/skip-step.png
-[img7]: media/action-step.png
-[img8]: media/no-connection.png
+[img1]: media/all-crm-triggers.png
+[img2]: media/pick-account.png
+[img3]: media/sale-change-event-options.png
+[img4]: media/sale-changed-trigger-when-example.png
+[img5]: media/selected-record-details.png
+[img6]: media/sale-changed-trigger-record.png
+[img7]: media/complete-zap-with-action.png

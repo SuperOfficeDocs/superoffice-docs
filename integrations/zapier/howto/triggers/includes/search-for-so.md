@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
-Search for and click on SuperOffice.
+1. Search for and click on SuperOffice.
 
     ![Zapier: Search for SO -screenshot][img1]
 
 <!-- Referenced images -->
-[img3]: media/search-superoffice-in-zapier.png
+[img1]: media/search-superoffice-in-zapier.png
