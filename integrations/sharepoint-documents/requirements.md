@@ -3,8 +3,8 @@ uid: sharepoint-requirements
 title: Requirements
 description: Requirements for SharePoint Documents
 keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD, IDP
-author: Bergfrid Dias
-date: 01.15.2024
+author: digitaldiina, fbhub
+date: 11.05.2025
 content_type: reference
 category: integration
 topic: SharePoint documents
@@ -17,7 +17,7 @@ index: true
 
 # Limitations
 
-## VisibleFor - confidential documents: Too many confidential documents.
+## VisibleFor - confidential documents: Too many confidential documents
 
 CRM Online tenants with over 25000 confidential documents cannot migrate automatically due to SharePoint Online restrictions. Please contact SuperOffice Support for assistance.
 
