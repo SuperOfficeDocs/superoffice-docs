@@ -15,34 +15,31 @@ language: en
 
 # Update a SuperOffice CRM Contact action
 
-> [!NOTE]
-> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+[!include[note](../../includes/note.md)]
 
 ## Steps
 
-1. On the page that lists all your Zaps, click **Create**. You will be taken to a new Zap creation window.
+[!include[create zap step](../../includes/create-zap-intro.md)]
 
-    ![Zapier: Create a new Zap -screenshot][img1]
-
-1. Create your **Trigger** by clicking on it. It can be an action in Google Sheets or another action in external systems or a part of SuperOffice.
+1. [!include[click trigger step](../includes/click-trigger-step.md)]
 
     ![Zapier: Create your trigger -screenshot][img2]
 
-1. Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
+1. [!include[click trigger step](../includes/click-on-action-step.md)]
 
     ![Zapier: Select your action -screenshot][img3]
 
-1. A side menu will open, in the **Action event** section, select **Update Contact**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Action event** section, select **Update Contact**, then click the **Account** section and login using a SuperOffice account.
 
     ![Set up your action -screenshot][img4]
 
-1. Click on the **Continue** button at the bottom of the side panel and you will be taken to the **Configure** step.
+1. [!include[go to conf step](../includes/go-to-conf-step.md)]
 
 1. Fill out the mandatory fields **Contact id** and optionally other fields.
 
     ![Fill out your action -screenshot][img5]
 
-1. Check that the action works by clicking **Test step**.
+1. [!include[check action works step](../includes/check-action-works-step.md)]
 
 1. If the above steps were configured correctly, the response should consist of **Contact id**, **Our contact id**, **Our contact**, **Mr/Mrs**, **First name**, **Middle name**, **Last name**, **Full name**, **Title**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Note**, **Company id**, **Company name**, **Home address 1**, **Home address 2**, **Home address 3**, **Home city**, **Home State**, **Home county**, **Home zip code**, **Birthdate**, **E-mail**, **Private phone**, **Direct faxes**, **Mobile phone**, **Direct phone**, **Other phone**, **Chat**, **Internet Phones**, **Position id**, **Position**, **Number**, **Web site**, **Category id**, **Category**, **Business id**, **Business**, **Country id**, **Country**, **Service priority**, **Our service contact**, **Our service contact id**, **Academic title**, **Use as postal address**, **Preferred language**, **Former employee**, **Self URL**, **Person interests**, **E-marketing subscription types**, **Consent Sales And Service Purpose**, **Consent Sales And Service Legal Basis**, **Consent Sales And Service Source**, **Consent Sales And Service Comment**
 
@@ -64,7 +61,6 @@ language: en
 [5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/common/create-zap.png
 [img2]: ../../media/common/new-zap-window.png
 [img3]: ../../media/common/search-superoffice-in-zapier.png
 [img4]: ../../media/actions/update/update-contact/update-contact-action.png

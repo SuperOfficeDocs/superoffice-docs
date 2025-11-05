@@ -1,7 +1,7 @@
 ﻿---
 uid: zapier-set-up
 title: Connect account
-description: How to connect your SuperOffice account with Zapier
+description: How to connect a SuperOffice account with Zapier
 keywords: Connect SuperOffice to Zapier, Connect an Account
 author: Philip Yates
 date: 08.09.2023
@@ -13,10 +13,10 @@ language: en
 redirect_from: /en/automation/zapier/get-started/set-up-account
 ---
 
-# Connect your SuperOffice account with Zapier
+# Connect a SuperOffice account with Zapier
 
 > [!NOTE]
-> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+> To create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
 
 ## Steps
 
@@ -28,7 +28,7 @@ redirect_from: /en/automation/zapier/get-started/set-up-account
 
 1. Select the SuperOffice tenant you want to connect to.
 
-1. Sign in to your SuperOffice account.
+1. Sign in to a SuperOffice account.
 
     ![SuperOffice Zapier Integration -screenshot][img2]
 

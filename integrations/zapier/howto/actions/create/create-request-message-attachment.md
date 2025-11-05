@@ -15,24 +15,21 @@ language: en
 
 # Create a SuperOffice CRM Request Message Attachment action
 
-> [!NOTE]
-> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+[!include[note](../../includes/note.md)]
 
 ## Steps
 
-1. On the page that lists all your Zaps, click **Create**. You will be taken to a new Zap creation window.
+[!include[create zap step](../../includes/create-zap-intro.md)]
 
-    ![Zapier: Create a new Zap -screenshot][img1]
-
-1. Create your **Trigger** by clicking on it. It can be an action in Google Sheets or another action in external systems or a part of SuperOffice.
+1. [!include[click trigger step](../includes/click-trigger-step.md)]
 
     ![Zapier: Create your trigger -screenshot][img2]
 
-1. Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
+1. [!include[click trigger step](../includes/click-on-action-step.md)]
 
     ![Zapier: Select your action -screenshot][img3]
 
-1. A side menu will open, in the **Action event** section, select **Create Request Message Attachment**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Action event** section, select **Create Request Message Attachment**, then click the **Account** section and login using a SuperOffice account.
 
     ![Set up your action -screenshot][img4]
     
@@ -40,7 +37,7 @@ language: en
 
     ![Set up your action -screenshot][img5]
 
-1. Click on the **Continue** button at the bottom of the side panel and you will be taken to the **Configure** step.
+1. [!include[go to conf step](../includes/go-to-conf-step.md)]
 
 1. The value set for **Request Message Id** should be the **Message Id** from previous **Create Request Message Action** step.
 
@@ -50,7 +47,7 @@ language: en
 
     ![Fill out your action -screenshot][img7]
 
-1. Check that the action works by clicking **Test step**.
+1. [!include[check action works step](../includes/check-action-works-step.md)]
 
 1. If the above steps were configured correctly, the response should consist of **Attachment ID** and **Attachment Name**.
 
@@ -64,7 +61,6 @@ language: en
 [1]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/common/create-zap.png
 [img2]: ../../media/common/new-zap-window.png
 [img3]: ../../media/common/search-superoffice-in-zapier.png
 [img4]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-action.png

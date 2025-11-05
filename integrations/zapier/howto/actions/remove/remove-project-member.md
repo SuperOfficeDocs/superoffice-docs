@@ -15,28 +15,25 @@ language: en
 
 # Remove a SuperOffice CRM Project Member action
 
-> [!NOTE]
-> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+[!include[note](../../includes/note.md)]
 
 ## Steps
 
-1. On the page that lists all your Zaps, click **Create**. You will be taken to a new Zap creation window.
+[!include[create zap step](../../includes/create-zap-intro.md)]
 
-    ![Zapier: Create a new Zap -screenshot][img1]
-
-1. Create your **Trigger** by clicking on it. It can be an action in Google Sheets or another action in external systems or a part of SuperOffice.
+1. [!include[click trigger step](../includes/click-trigger-step.md)]
 
     ![Zapier: Create your trigger -screenshot][img2]
 
-1. Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
+1. [!include[click trigger step](../includes/click-on-action-step.md)]
 
     ![Zapier: Select your action -screenshot][img3]
 
-1. A side menu will open, in the **Action event** section, select **Remove Project Member**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Action event** section, select **Remove Project Member**, then click the **Account** section and login using a SuperOffice account.
 
     ![Set up your action -screenshot][img4]
 
-1. Click on the **Continue** button at the bottom of the side panel and you will be taken to the **Configure** step.
+1. [!include[go to conf step](../includes/go-to-conf-step.md)]
 
 1. Click on the **Selection** field and select one of the available deletion criteria.
 
@@ -50,7 +47,7 @@ language: en
 
     ![Fill out your Project & member action -screenshot][img7]
 
-1. Check that the action works by clicking **Test step**.
+1. [!include[check action works step](../includes/check-action-works-step.md)]
 
 1. If the above steps were configured correctly, the response should consist of **Project id**, **Title**, **Responsible id**, **Responsible**, **Description**, **Number**, **Web site**, **Type id**, **Type**, **Status id**, **Status**, **Completed**, **End date**, **Next milestone**, **Note**, **Created by**, **Created date**, **Updated by**, **Updated date**, **Project members**, **Self URL**.
 
@@ -70,7 +67,6 @@ language: en
 [4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/common/create-zap.png
 [img2]: ../../media/common/new-zap-window.png
 [img3]: ../../media/common/search-superoffice-in-zapier.png
 [img4]: ../../media/actions/remove/remove-project-member/remove-project-member-action.png

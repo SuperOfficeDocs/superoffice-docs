@@ -75,19 +75,19 @@ Supported actions and the effect they have on SuperOffice CRM Online when run.
 
 ## Zap templates
 
-Zap templates are ready-made Zaps you can use as-is or amend to fit your particular workflow.
+Zap templates are ready-made Zaps to use as-is or amend to fit a particular workflow.
 
 ### Slack
 
-* Inform your team in **Slack** (action) whenever a sales lead is created (trigger).
+* Inform a team in **Slack** (action) whenever a sales lead is created (trigger).
 
-* When you close a new sale (trigger), share the good news with your team in **Slack** (action).
+* When you close a new sale (trigger), share the good news with a team in **Slack** (action).
 
 ### Sync
 
-* Keep your **Google sheets** up to date (action) when new leads come in (trigger).
+* Keep **Google sheets** up to date (action) when new leads come in (trigger).
 
-* Keep your **Google sheets** up to date (action) with a new sale information (trigger).
+* Keep **Google sheets** up to date (action) with a new sale information (trigger).
 
 * Keep SuperOffice (trigger) and **Google Drive** (action) in sync automatically.
 
@@ -95,7 +95,7 @@ Zap templates are ready-made Zaps you can use as-is or amend to fit your particu
 
 * Add new documents in **DropBox** (trigger) to SuperOffice (action).
 
-* Keep your **Autopilot** database up to date (action) when new contacts are created in SuperOffice (trigger)
+* Keep   **Autopilot** database up to date (action) when new contacts are created in SuperOffice (trigger)
 
 ### Productivity
 
@@ -105,7 +105,7 @@ Zap templates are ready-made Zaps you can use as-is or amend to fit your particu
 
 * Create a new **Trello** card (action) when new sales are created in SuperOffice (trigger)
 
-* Stay on top of all your projects by syncing SuperOffice (action) and **Asana** (trigger).
+* Stay on top of all projects by syncing SuperOffice (action) and **Asana** (trigger).
 
 ### Marketing
 
