@@ -14,6 +14,7 @@ items:
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnDelete
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnInsert
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnUpdate
+  - SuperOffice.Data.Dialect.SqlServerCommon.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
   - SuperOffice.Data.Dialect.SqlServerCommon.TimeToVarchar(System.String)
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.Day)
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.Equal)
@@ -85,7 +86,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.InvokeToSql(System.Object[])
   - SuperOffice.Data.Dialect.Dialect.IsAnyArgumentString(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.Dialect.Dialect.ToSqlUpperIfNeeded(SuperOffice.Data.SQL.Argument)
-  - SuperOffice.Data.Dialect.Dialect.ToSqlFrom
+  - SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
   - SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.FieldInfoCollection)
   - SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ArgumentCollection)
   - SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
@@ -266,6 +267,37 @@ items:
   nameWithType.vb: SqlServerCommon.ComposeSelect(String, String, String, String, StringBuilder, PrivateSelect)
   fullName.vb: SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect(String, String, String, String, System.Text.StringBuilder, SuperOffice.Data.SQL.PrivateSelect)
   name.vb: ComposeSelect(String, String, String, String, StringBuilder, PrivateSelect)
+- uid: SuperOffice.Data.Dialect.SqlServerCommon.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  id: TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  parent: SuperOffice.Data.Dialect.SqlServerCommon
+  langs:
+  - csharp
+  - vb
+  name: TableOptions(TableInfo, SqlType)
+  nameWithType: SqlServerCommon.TableOptions(TableInfo, SqlType)
+  fullName: SuperOffice.Data.Dialect.SqlServerCommon.TableOptions(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.SqlType)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  summary: Implement the <b>NOLOCK</b> option to reduce/bypass locking in queries
+  example: []
+  syntax:
+    content: protected override string TableOptions(TableInfo theTable, SqlType sqlType)
+    parameters:
+    - id: theTable
+      type: SuperOffice.Data.SQL.TableInfo
+      description: ''
+    - id: sqlType
+      type: SuperOffice.Data.SQL.SqlType
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Protected Overrides Function TableOptions(theTable As TableInfo, sqlType As SqlType) As String
+  overridden: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  overload: SuperOffice.Data.Dialect.SqlServerCommon.TableOptions*
 - uid: SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.FieldInfo)
   id: ToSql(SuperOffice.Data.SQL.FieldInfo)
@@ -1798,24 +1830,30 @@ references:
     name: Argument
     isExternal: true
   - name: )
-- uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom
-  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSqlFrom
+- uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
   parent: SuperOffice.Data.Dialect.Dialect
   isExternal: true
-  name: ToSqlFrom()
-  nameWithType: Dialect.ToSqlFrom()
-  fullName: SuperOffice.Data.Dialect.Dialect.ToSqlFrom()
+  name: ToSqlFrom(SqlType)
+  nameWithType: Dialect.ToSqlFrom(SqlType)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
   spec.csharp:
-  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
     name: ToSqlFrom
     isExternal: true
   - name: (
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    isExternal: true
   - name: )
   spec.vb:
-  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlFrom(SuperOffice.Data.SQL.SqlType)
     name: ToSqlFrom
     isExternal: true
   - name: (
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    isExternal: true
   - name: )
 - uid: SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.FieldInfoCollection)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.FieldInfoCollection)
@@ -5649,7 +5687,7 @@ references:
   commentId: M:SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.Data.Dialect.Dialect
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
+  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ComposeSelect_System_String_System_String_System_String_System_String_System_Text_StringBuilder_SuperOffice_Data_SQL_PrivateSelect_
   name: ComposeSelect(string, string, string, string, StringBuilder, PrivateSelect)
   nameWithType: Dialect.ComposeSelect(string, string, string, string, StringBuilder, PrivateSelect)
   fullName: SuperOffice.Data.Dialect.Dialect.ComposeSelect(string, string, string, string, System.Text.StringBuilder, SuperOffice.Data.SQL.PrivateSelect)
@@ -5660,6 +5698,7 @@ references:
   - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
     name: ComposeSelect
     isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ComposeSelect_System_String_System_String_System_String_System_String_System_Text_StringBuilder_SuperOffice_Data_SQL_PrivateSelect_
   - name: (
   - uid: System.String
     name: string
@@ -5694,11 +5733,13 @@ references:
   - uid: SuperOffice.Data.SQL.PrivateSelect
     name: PrivateSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
   spec.vb:
   - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
     name: ComposeSelect
     isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ComposeSelect_System_String_System_String_System_String_System_String_System_Text_StringBuilder_SuperOffice_Data_SQL_PrivateSelect_
   - name: (
   - uid: System.String
     name: String
@@ -5733,6 +5774,7 @@ references:
   - uid: SuperOffice.Data.SQL.PrivateSelect
     name: PrivateSelect
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
 - uid: SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect*
   commentId: Overload:SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect
@@ -5821,6 +5863,64 @@ references:
     name: SQL
     isExternal: true
     href: SuperOffice.Data.SQL.html
+- uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: TableOptions(TableInfo, SqlType)
+  nameWithType: Dialect.TableOptions(TableInfo, SqlType)
+  fullName: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.SqlType)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+    name: TableOptions
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
+    name: TableOptions
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerCommon.TableOptions*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerCommon.TableOptions
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerCommon.html#SuperOffice_Data_Dialect_SqlServerCommon_TableOptions_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_SqlType_
+  name: TableOptions
+  nameWithType: SqlServerCommon.TableOptions
+  fullName: SuperOffice.Data.Dialect.SqlServerCommon.TableOptions
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL.SqlType
+  commentId: T:SuperOffice.Data.SQL.SqlType
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.SqlType.html
+  name: SqlType
+  nameWithType: SqlType
+  fullName: SuperOffice.Data.SQL.SqlType
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.Data.Dialect.Dialect

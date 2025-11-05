@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  commentId: T:SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  id: ContactPersonBoardViewSettings
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString(System.String)
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonBoardViewSettings
+  nameWithType: ContactPersonBoardViewSettings
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Settings for contact/person selection board view.
+
+    <p></p>
+
+    Carrier object for ContactPersonBoardViewSettings.
+
+    Services for the ContactPersonBoardViewSettings Carrier is available from the <xref href="SuperOffice.CRM.Services.ISelectionAgent?text=Selection+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
+
+      public class ContactPersonBoardViewSettings : BoardViewSettingsBase
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
+
+      Public Class ContactPersonBoardViewSettings Inherits BoardViewSettingsBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ISelectionAgent
+    commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.BoardViewSettingsBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.BoardViewSettingsId
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.EntityType
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.AssociateId
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.SelectionId
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.HideEmptyGroups
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.GroupBy
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.SubGroupBy
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.SortBy
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.SortDesc
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.SumBy
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.ColorBy
+  - SuperOffice.CRM.Services.BoardViewSettingsBase.Filters
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor
+  commentId: M:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonBoardViewSettings()
+  nameWithType: ContactPersonBoardViewSettings.ContactPersonBoardViewSettings()
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ContactPersonBoardViewSettings()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public ContactPersonBoardViewSettings()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor*
+  nameWithType.vb: ContactPersonBoardViewSettings.New()
+  fullName.vb: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString
+  commentId: M:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ContactPersonBoardViewSettings.ToString()
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString
+  overload: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString*
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: ContactPersonBoardViewSettings.ToString(string)
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString*
+  nameWithType.vb: ContactPersonBoardViewSettings.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+  commentId: P:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+  id: ViewEntity
+  parent: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: ViewEntity
+  nameWithType: ContactPersonBoardViewSettings.ViewEntity
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The type of entity shown in the board
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual ContactPersonBoardEntity ViewEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ContactPersonBoardEntity
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ViewEntity As ContactPersonBoardEntity
+  overload: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.ISelectionAgent
+  commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISelectionAgent.html
+  name: ISelectionAgent
+  nameWithType: ISelectionAgent
+  fullName: SuperOffice.CRM.Services.ISelectionAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase
+  commentId: T:SuperOffice.CRM.Services.BoardViewSettingsBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html
+  name: BoardViewSettingsBase
+  nameWithType: BoardViewSettingsBase
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.BoardViewSettingsId
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.BoardViewSettingsId
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_BoardViewSettingsId
+  name: BoardViewSettingsId
+  nameWithType: BoardViewSettingsBase.BoardViewSettingsId
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.BoardViewSettingsId
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.EntityType
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.EntityType
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_EntityType
+  name: EntityType
+  nameWithType: BoardViewSettingsBase.EntityType
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.EntityType
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.AssociateId
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.AssociateId
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_AssociateId
+  name: AssociateId
+  nameWithType: BoardViewSettingsBase.AssociateId
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.AssociateId
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.SelectionId
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.SelectionId
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_SelectionId
+  name: SelectionId
+  nameWithType: BoardViewSettingsBase.SelectionId
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.SelectionId
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.HideEmptyGroups
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.HideEmptyGroups
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_HideEmptyGroups
+  name: HideEmptyGroups
+  nameWithType: BoardViewSettingsBase.HideEmptyGroups
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.HideEmptyGroups
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.GroupBy
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.GroupBy
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_GroupBy
+  name: GroupBy
+  nameWithType: BoardViewSettingsBase.GroupBy
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.GroupBy
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.SubGroupBy
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.SubGroupBy
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_SubGroupBy
+  name: SubGroupBy
+  nameWithType: BoardViewSettingsBase.SubGroupBy
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.SubGroupBy
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.SortBy
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.SortBy
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_SortBy
+  name: SortBy
+  nameWithType: BoardViewSettingsBase.SortBy
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.SortBy
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.SortDesc
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.SortDesc
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_SortDesc
+  name: SortDesc
+  nameWithType: BoardViewSettingsBase.SortDesc
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.SortDesc
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.SumBy
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.SumBy
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_SumBy
+  name: SumBy
+  nameWithType: BoardViewSettingsBase.SumBy
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.SumBy
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ColorBy
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.ColorBy
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ColorBy
+  name: ColorBy
+  nameWithType: BoardViewSettingsBase.ColorBy
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.ColorBy
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.Filters
+  commentId: P:SuperOffice.CRM.Services.BoardViewSettingsBase.Filters
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_Filters
+  name: Filters
+  nameWithType: BoardViewSettingsBase.Filters
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.Filters
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.html#SuperOffice_CRM_Services_ContactPersonBoardViewSettings__ctor
+  name: ContactPersonBoardViewSettings
+  nameWithType: ContactPersonBoardViewSettings.ContactPersonBoardViewSettings
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ContactPersonBoardViewSettings
+  nameWithType.vb: ContactPersonBoardViewSettings.New
+  fullName.vb: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString
+  commentId: M:SuperOffice.CRM.Services.BoardViewSettingsBase.ToString
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString
+  name: ToString()
+  nameWithType: BoardViewSettingsBase.ToString()
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.html#SuperOffice_CRM_Services_ContactPersonBoardViewSettings_ToString
+  name: ToString
+  nameWithType: ContactPersonBoardViewSettings.ToString
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.BoardViewSettingsBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString_System_String_
+  name: ToString(string)
+  nameWithType: BoardViewSettingsBase.ToString(string)
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(string)
+  nameWithType.vb: BoardViewSettingsBase.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(System.String)
+    name: ToString
+    isExternal: true
+    href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase.ToString(System.String)
+    name: ToString
+    isExternal: true
+    href: SuperOffice.CRM.Services.BoardViewSettingsBase.html#SuperOffice_CRM_Services_BoardViewSettingsBase_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.html#SuperOffice_CRM_Services_ContactPersonBoardViewSettings_ViewEntity
+  name: ViewEntity
+  nameWithType: ContactPersonBoardViewSettings.ViewEntity
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.ViewEntity
+- uid: SuperOffice.Data.ContactPersonBoardEntity
+  commentId: '!:SuperOffice.Data.ContactPersonBoardEntity'
+  isExternal: true
+  name: ContactPersonBoardEntity
+  nameWithType: ContactPersonBoardEntity
+  fullName: SuperOffice.Data.ContactPersonBoardEntity

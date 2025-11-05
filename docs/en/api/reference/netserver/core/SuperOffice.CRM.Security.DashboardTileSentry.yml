@@ -5,15 +5,14 @@ items:
   id: DashboardTileSentry
   parent: SuperOffice.CRM.Security
   children:
-  - SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  - SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
+  - SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  - SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
   - SuperOffice.CRM.Security.DashboardTileSentry.AssociateId
   - SuperOffice.CRM.Security.DashboardTileSentry.ComputeFieldRights
   - SuperOffice.CRM.Security.DashboardTileSentry.ComputeTableRights
   - SuperOffice.CRM.Security.DashboardTileSentry.GetMainRight
   - SuperOffice.CRM.Security.DashboardTileSentry.GetRowSentry
   - SuperOffice.CRM.Security.DashboardTileSentry.GroupId
-  - SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile
   - SuperOffice.CRM.Security.DashboardTileSentry.IsGhostRow
   - SuperOffice.CRM.Security.DashboardTileSentry.IsNew
   - SuperOffice.CRM.Security.DashboardTileSentry.MainTable
@@ -36,35 +35,35 @@ items:
     It is using datarights and visiblefor to make sure you can only see or modify what you should be able to.
   example: []
   syntax:
-    content: 'public class DashboardTileSentry : RoleRightsSentry<BinaryObjectTableInfo>, ICloneable'
-    content.vb: Public Class DashboardTileSentry Inherits RoleRightsSentry(Of BinaryObjectTableInfo) Implements ICloneable
+    content: 'public class DashboardTileSentry : RoleRightsSentry<DashboardTileTableInfo>, ICloneable'
+    content.vb: Public Class DashboardTileSentry Inherits RoleRightsSentry(Of DashboardTileTableInfo) Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Security.Sentry
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
-  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   implements:
   - System.ICloneable
   inheritedMembers:
-  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.RoleTableRights
-  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForRights
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestedInAnyInstanceOf``1
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRights
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeDerivedTableRights
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeTableRights
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeLicenseExpiration
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeFieldRights
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerFieldRight
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ToString
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestingFields
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SentryQueryInfo
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.RoleTableRights
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestedInAnyInstanceOf``1
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeDerivedTableRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeTableRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeLicenseExpiration
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeFieldRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerFieldRight
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ToString
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestingFields
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SentryQueryInfo
   - SuperOffice.CRM.Security.Sentry.kTableRights
   - SuperOffice.CRM.Security.Sentry.kFieldRights
   - SuperOffice.CRM.Security.Sentry._tableRights
@@ -116,16 +115,16 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Security.DashboardTileSentry.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.DashboardTileSentry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
-  commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
-  id: '#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo,SuperOffice.CRM.Security.ISoDataLookup)'
+- uid: SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
+  id: '#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo,SuperOffice.CRM.Security.ISoDataLookup)'
   parent: SuperOffice.CRM.Security.DashboardTileSentry
   langs:
   - csharp
   - vb
-  name: DashboardTileSentry(BinaryObjectTableInfo, ISoDataLookup)
-  nameWithType: DashboardTileSentry.DashboardTileSentry(BinaryObjectTableInfo, ISoDataLookup)
-  fullName: SuperOffice.CRM.Security.DashboardTileSentry.DashboardTileSentry(SuperOffice.CRM.Data.BinaryObjectTableInfo, SuperOffice.CRM.Security.ISoDataLookup)
+  name: DashboardTileSentry(DashboardTileTableInfo, ISoDataLookup)
+  nameWithType: DashboardTileSentry.DashboardTileSentry(DashboardTileTableInfo, ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.DashboardTileSentry.DashboardTileSentry(SuperOffice.CRM.Data.DashboardTileTableInfo, SuperOffice.CRM.Security.ISoDataLookup)
   type: Constructor
   assemblies:
   - SoDataBase
@@ -136,28 +135,28 @@ items:
     The row's associate_id will control the user's permissions with respect to this row.
   example: []
   syntax:
-    content: public DashboardTileSentry(BinaryObjectTableInfo tableInfo, ISoDataLookup lookup)
+    content: public DashboardTileSentry(DashboardTileTableInfo tableInfo, ISoDataLookup lookup)
     parameters:
     - id: tableInfo
-      type: SuperOffice.CRM.Data.BinaryObjectTableInfo
+      type: SuperOffice.CRM.Data.DashboardTileTableInfo
     - id: lookup
       type: SuperOffice.CRM.Security.ISoDataLookup
       description: ''
-    content.vb: Public Sub New(tableInfo As BinaryObjectTableInfo, lookup As ISoDataLookup)
+    content.vb: Public Sub New(tableInfo As DashboardTileTableInfo, lookup As ISoDataLookup)
   overload: SuperOffice.CRM.Security.DashboardTileSentry.#ctor*
-  nameWithType.vb: DashboardTileSentry.New(BinaryObjectTableInfo, ISoDataLookup)
-  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentry.New(SuperOffice.CRM.Data.BinaryObjectTableInfo, SuperOffice.CRM.Security.ISoDataLookup)
-  name.vb: New(BinaryObjectTableInfo, ISoDataLookup)
-- uid: SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  id: '#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)'
+  nameWithType.vb: DashboardTileSentry.New(DashboardTileTableInfo, ISoDataLookup)
+  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentry.New(SuperOffice.CRM.Data.DashboardTileTableInfo, SuperOffice.CRM.Security.ISoDataLookup)
+  name.vb: New(DashboardTileTableInfo, ISoDataLookup)
+- uid: SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  id: '#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)'
   parent: SuperOffice.CRM.Security.DashboardTileSentry
   langs:
   - csharp
   - vb
-  name: DashboardTileSentry(BinaryObjectTableInfo)
-  nameWithType: DashboardTileSentry.DashboardTileSentry(BinaryObjectTableInfo)
-  fullName: SuperOffice.CRM.Security.DashboardTileSentry.DashboardTileSentry(SuperOffice.CRM.Data.BinaryObjectTableInfo)
+  name: DashboardTileSentry(DashboardTileTableInfo)
+  nameWithType: DashboardTileSentry.DashboardTileSentry(DashboardTileTableInfo)
+  fullName: SuperOffice.CRM.Security.DashboardTileSentry.DashboardTileSentry(SuperOffice.CRM.Data.DashboardTileTableInfo)
   type: Constructor
   assemblies:
   - SoDataBase
@@ -165,15 +164,15 @@ items:
   summary: Create a DashboardTile sentry.
   example: []
   syntax:
-    content: public DashboardTileSentry(BinaryObjectTableInfo tableInfo)
+    content: public DashboardTileSentry(DashboardTileTableInfo tableInfo)
     parameters:
     - id: tableInfo
-      type: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    content.vb: Public Sub New(tableInfo As BinaryObjectTableInfo)
+      type: SuperOffice.CRM.Data.DashboardTileTableInfo
+    content.vb: Public Sub New(tableInfo As DashboardTileTableInfo)
   overload: SuperOffice.CRM.Security.DashboardTileSentry.#ctor*
-  nameWithType.vb: DashboardTileSentry.New(BinaryObjectTableInfo)
-  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentry.New(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  name.vb: New(BinaryObjectTableInfo)
+  nameWithType.vb: DashboardTileSentry.New(DashboardTileTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentry.New(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: New(DashboardTileTableInfo)
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.GetMainRight
   commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.GetMainRight
   id: GetMainRight
@@ -196,7 +195,7 @@ items:
       type: SuperOffice.Data.ETableRight
       description: Main TableRight.
     content.vb: Public Overrides Function GetMainRight() As ETableRight
-  overridden: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetMainRight
+  overridden: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetMainRight
   overload: SuperOffice.CRM.Security.DashboardTileSentry.GetMainRight*
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.ComputeTableRights
   commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.ComputeTableRights
@@ -217,7 +216,7 @@ items:
   syntax:
     content: protected override void ComputeTableRights()
     content.vb: Protected Overrides Sub ComputeTableRights()
-  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeTableRights
+  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeTableRights
   overload: SuperOffice.CRM.Security.DashboardTileSentry.ComputeTableRights*
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.ComputeFieldRights
   commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.ComputeFieldRights
@@ -239,7 +238,7 @@ items:
   syntax:
     content: protected override void ComputeFieldRights()
     content.vb: Protected Overrides Sub ComputeFieldRights()
-  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeFieldRights
+  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeFieldRights
   overload: SuperOffice.CRM.Security.DashboardTileSentry.ComputeFieldRights*
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.GetRowSentry
   commentId: M:SuperOffice.CRM.Security.DashboardTileSentry.GetRowSentry
@@ -282,11 +281,11 @@ items:
   summary: Return table info.
   example: []
   syntax:
-    content: protected BinaryObjectTableInfo MainTable { get; }
+    content: protected DashboardTileTableInfo MainTable { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    content.vb: Protected ReadOnly Property MainTable As BinaryObjectTableInfo
+      type: SuperOffice.CRM.Data.DashboardTileTableInfo
+    content.vb: Protected ReadOnly Property MainTable As DashboardTileTableInfo
   overload: SuperOffice.CRM.Security.DashboardTileSentry.MainTable*
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.RegisteredField
   commentId: P:SuperOffice.CRM.Security.DashboardTileSentry.RegisteredField
@@ -456,27 +455,6 @@ items:
     content.vb: Public Overrides ReadOnly Property GroupId As Integer
   overridden: SuperOffice.CRM.Security.Sentry.GroupId
   overload: SuperOffice.CRM.Security.DashboardTileSentry.GroupId*
-- uid: SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile
-  commentId: P:SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile
-  id: IsDefaultTile
-  parent: SuperOffice.CRM.Security.DashboardTileSentry
-  langs:
-  - csharp
-  - vb
-  name: IsDefaultTile
-  nameWithType: DashboardTileSentry.IsDefaultTile
-  fullName: SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: public bool IsDefaultTile { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IsDefaultTile As Boolean
-  overload: SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile*
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
@@ -534,27 +512,27 @@ references:
   name: Sentry
   nameWithType: Sentry
   fullName: SuperOffice.CRM.Security.Sentry
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
-  commentId: T:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  commentId: T:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   parent: SuperOffice.CRM.Security
   definition: SuperOffice.CRM.Security.Sentry`1
   href: SuperOffice.CRM.Security.Sentry-1.html
-  name: Sentry<BinaryObjectTableInfo>
-  nameWithType: Sentry<BinaryObjectTableInfo>
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  name.vb: Sentry(Of BinaryObjectTableInfo)
+  name: Sentry<DashboardTileTableInfo>
+  nameWithType: Sentry<DashboardTileTableInfo>
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: Sentry(Of DashboardTileTableInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Security.Sentry`1
     name: Sentry
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html
   - name: <
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.Sentry`1
@@ -564,32 +542,32 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
-  commentId: T:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  commentId: T:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   parent: SuperOffice.CRM.Security
   definition: SuperOffice.CRM.Security.RoleRightsSentry`1
   href: SuperOffice.CRM.Security.RoleRightsSentry-1.html
-  name: RoleRightsSentry<BinaryObjectTableInfo>
-  nameWithType: RoleRightsSentry<BinaryObjectTableInfo>
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>
-  nameWithType.vb: RoleRightsSentry(Of BinaryObjectTableInfo)
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  name.vb: RoleRightsSentry(Of BinaryObjectTableInfo)
+  name: RoleRightsSentry<DashboardTileTableInfo>
+  nameWithType: RoleRightsSentry<DashboardTileTableInfo>
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.DashboardTileTableInfo>
+  nameWithType.vb: RoleRightsSentry(Of DashboardTileTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: RoleRightsSentry(Of DashboardTileTableInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
     name: RoleRightsSentry
     isExternal: true
     href: SuperOffice.CRM.Security.RoleRightsSentry-1.html
   - name: <
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
@@ -599,10 +577,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: )
 - uid: System.ICloneable
   commentId: T:System.ICloneable
@@ -612,38 +590,38 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.RoleTableRights
-  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.RoleTableRights
-  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.RoleTableRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.RoleTableRights
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
   href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_RoleTableRights
   name: RoleTableRights
-  nameWithType: RoleRightsSentry<BinaryObjectTableInfo>.RoleTableRights
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.RoleTableRights
-  nameWithType.vb: RoleRightsSentry(Of BinaryObjectTableInfo).RoleTableRights
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).RoleTableRights
-- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForRights
-  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForRights
-  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: RoleRightsSentry<DashboardTileTableInfo>.RoleTableRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.RoleTableRights
+  nameWithType.vb: RoleRightsSentry(Of DashboardTileTableInfo).RoleTableRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).RoleTableRights
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForRights
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.RoleRightsSentry`1.VisibleForRights
   href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_VisibleForRights
   name: VisibleForRights
-  nameWithType: RoleRightsSentry<BinaryObjectTableInfo>.VisibleForRights
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.VisibleForRights
-  nameWithType.vb: RoleRightsSentry(Of BinaryObjectTableInfo).VisibleForRights
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).VisibleForRights
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: RoleRightsSentry<DashboardTileTableInfo>.VisibleForRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.VisibleForRights
+  nameWithType.vb: RoleRightsSentry(Of DashboardTileTableInfo).VisibleForRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).VisibleForRights
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetInterestingFieldsInTable_SuperOffice_Data_SQL_TableInfo_
   name: GetInterestingFieldsInTable(TableInfo)
-  nameWithType: Sentry<BinaryObjectTableInfo>.GetInterestingFieldsInTable(TableInfo)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).GetInterestingFieldsInTable(TableInfo)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType: Sentry<DashboardTileTableInfo>.GetInterestingFieldsInTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).GetInterestingFieldsInTable(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
     name: GetInterestingFieldsInTable
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetInterestingFieldsInTable_SuperOffice_Data_SQL_TableInfo_
@@ -654,7 +632,7 @@ references:
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
     name: GetInterestingFieldsInTable
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetInterestingFieldsInTable_SuperOffice_Data_SQL_TableInfo_
@@ -664,19 +642,19 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestedInAnyInstanceOf``1
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestedInAnyInstanceOf``1
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestedInAnyInstanceOf``1
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestedInAnyInstanceOf``1
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.InterestedInAnyInstanceOf``1
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_InterestedInAnyInstanceOf__1
   name: InterestedInAnyInstanceOf<T>()
-  nameWithType: Sentry<BinaryObjectTableInfo>.InterestedInAnyInstanceOf<T>()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.InterestedInAnyInstanceOf<T>()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).InterestedInAnyInstanceOf(Of T)()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).InterestedInAnyInstanceOf(Of T)()
+  nameWithType: Sentry<DashboardTileTableInfo>.InterestedInAnyInstanceOf<T>()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.InterestedInAnyInstanceOf<T>()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).InterestedInAnyInstanceOf(Of T)()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).InterestedInAnyInstanceOf(Of T)()
   name.vb: InterestedInAnyInstanceOf(Of T)()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestedInAnyInstanceOf``1
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestedInAnyInstanceOf``1
     name: InterestedInAnyInstanceOf
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_InterestedInAnyInstanceOf__1
@@ -686,7 +664,7 @@ references:
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestedInAnyInstanceOf``1
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestedInAnyInstanceOf``1
     name: InterestedInAnyInstanceOf
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_InterestedInAnyInstanceOf__1
@@ -697,66 +675,66 @@ references:
   - name: )
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRights
   name: ComputeDerivedTableRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.ComputeDerivedTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ComputeDerivedTableRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ComputeDerivedTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ComputeDerivedTableRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.ComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ComputeDerivedTableRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ComputeDerivedTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ComputeDerivedTableRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRights
     name: ComputeDerivedTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRights
     name: ComputeDerivedTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRights
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeDerivedTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeDerivedTableRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeDerivedTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.SuperComputeDerivedTableRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeDerivedTableRights
   name: SuperComputeDerivedTableRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.SuperComputeDerivedTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.SuperComputeDerivedTableRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).SuperComputeDerivedTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).SuperComputeDerivedTableRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.SuperComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.SuperComputeDerivedTableRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).SuperComputeDerivedTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).SuperComputeDerivedTableRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeDerivedTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeDerivedTableRights
     name: SuperComputeDerivedTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeDerivedTableRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeDerivedTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeDerivedTableRights
     name: SuperComputeDerivedTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeDerivedTableRights
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRight_SuperOffice_CRM_Security_TableRight_
   name: ComputeDerivedTableRight(TableRight)
-  nameWithType: Sentry<BinaryObjectTableInfo>.ComputeDerivedTableRight(TableRight)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ComputeDerivedTableRight(TableRight)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  nameWithType: Sentry<DashboardTileTableInfo>.ComputeDerivedTableRight(TableRight)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ComputeDerivedTableRight(TableRight)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
     name: ComputeDerivedTableRight
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRight_SuperOffice_CRM_Security_TableRight_
@@ -766,7 +744,7 @@ references:
     isExternal: true
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
     name: ComputeDerivedTableRight
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeDerivedTableRight_SuperOffice_CRM_Security_TableRight_
@@ -775,43 +753,43 @@ references:
     name: TableRight
     isExternal: true
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeTableRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.SuperComputeTableRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeTableRights
   name: SuperComputeTableRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.SuperComputeTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.SuperComputeTableRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).SuperComputeTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).SuperComputeTableRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.SuperComputeTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.SuperComputeTableRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).SuperComputeTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).SuperComputeTableRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeTableRights
     name: SuperComputeTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeTableRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeTableRights
     name: SuperComputeTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeTableRights
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AddInterestingTables_SuperOffice_Data_SQL_TableInfo___
   name: AddInterestingTables(params TableInfo[])
-  nameWithType: Sentry<BinaryObjectTableInfo>.AddInterestingTables(params TableInfo[])
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.AddInterestingTables(params SuperOffice.Data.SQL.TableInfo[])
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).AddInterestingTables(ParamArray TableInfo())
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).AddInterestingTables(ParamArray SuperOffice.Data.SQL.TableInfo())
+  nameWithType: Sentry<DashboardTileTableInfo>.AddInterestingTables(params TableInfo[])
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.AddInterestingTables(params SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).AddInterestingTables(ParamArray TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).AddInterestingTables(ParamArray SuperOffice.Data.SQL.TableInfo())
   name.vb: AddInterestingTables(ParamArray TableInfo())
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
     name: AddInterestingTables
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AddInterestingTables_SuperOffice_Data_SQL_TableInfo___
@@ -826,7 +804,7 @@ references:
   - name: ']'
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
     name: AddInterestingTables
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AddInterestingTables_SuperOffice_Data_SQL_TableInfo___
@@ -840,66 +818,66 @@ references:
   - name: (
   - name: )
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeLicenseExpiration
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeLicenseExpiration
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeLicenseExpiration
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeLicenseExpiration
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ComputeLicenseExpiration
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeLicenseExpiration
   name: ComputeLicenseExpiration()
-  nameWithType: Sentry<BinaryObjectTableInfo>.ComputeLicenseExpiration()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ComputeLicenseExpiration()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ComputeLicenseExpiration()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ComputeLicenseExpiration()
+  nameWithType: Sentry<DashboardTileTableInfo>.ComputeLicenseExpiration()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ComputeLicenseExpiration()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ComputeLicenseExpiration()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ComputeLicenseExpiration()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeLicenseExpiration
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeLicenseExpiration
     name: ComputeLicenseExpiration
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeLicenseExpiration
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeLicenseExpiration
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeLicenseExpiration
     name: ComputeLicenseExpiration
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeLicenseExpiration
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeFieldRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeFieldRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeFieldRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeFieldRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.SuperComputeFieldRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeFieldRights
   name: SuperComputeFieldRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.SuperComputeFieldRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.SuperComputeFieldRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).SuperComputeFieldRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).SuperComputeFieldRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.SuperComputeFieldRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.SuperComputeFieldRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).SuperComputeFieldRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).SuperComputeFieldRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeFieldRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeFieldRights
     name: SuperComputeFieldRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeFieldRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SuperComputeFieldRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SuperComputeFieldRights
     name: SuperComputeFieldRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeFieldRights
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
   name: CanCoverTable(TableInfo)
-  nameWithType: Sentry<BinaryObjectTableInfo>.CanCoverTable(TableInfo)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).CanCoverTable(TableInfo)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType: Sentry<DashboardTileTableInfo>.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).CanCoverTable(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
     name: CanCoverTable
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
@@ -910,7 +888,7 @@ references:
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
     name: CanCoverTable
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
@@ -920,18 +898,18 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_IsTableCovered_SuperOffice_Data_SQL_TableInfo_
   name: IsTableCovered(TableInfo)
-  nameWithType: Sentry<BinaryObjectTableInfo>.IsTableCovered(TableInfo)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).IsTableCovered(TableInfo)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  nameWithType: Sentry<DashboardTileTableInfo>.IsTableCovered(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).IsTableCovered(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).IsTableCovered(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
     name: IsTableCovered
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_IsTableCovered_SuperOffice_Data_SQL_TableInfo_
@@ -942,7 +920,7 @@ references:
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
     name: IsTableCovered
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_IsTableCovered_SuperOffice_Data_SQL_TableInfo_
@@ -952,19 +930,19 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SetAllTableRights_SuperOffice_Data_ETableRight_System_String_
   name: SetAllTableRights(ETableRight, string)
-  nameWithType: Sentry<BinaryObjectTableInfo>.SetAllTableRights(ETableRight, string)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.SetAllTableRights(SuperOffice.Data.ETableRight, string)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).SetAllTableRights(ETableRight, String)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).SetAllTableRights(SuperOffice.Data.ETableRight, String)
+  nameWithType: Sentry<DashboardTileTableInfo>.SetAllTableRights(ETableRight, string)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.SetAllTableRights(SuperOffice.Data.ETableRight, string)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).SetAllTableRights(ETableRight, String)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).SetAllTableRights(SuperOffice.Data.ETableRight, String)
   name.vb: SetAllTableRights(ETableRight, String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
     name: SetAllTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SetAllTableRights_SuperOffice_Data_ETableRight_System_String_
@@ -980,7 +958,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
     name: SetAllTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SetAllTableRights_SuperOffice_Data_ETableRight_System_String_
@@ -995,42 +973,42 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerFieldRight
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerFieldRight
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerFieldRight
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerFieldRight
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.GetOwnerFieldRight
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetOwnerFieldRight
   name: GetOwnerFieldRight()
-  nameWithType: Sentry<BinaryObjectTableInfo>.GetOwnerFieldRight()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetOwnerFieldRight()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).GetOwnerFieldRight()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetOwnerFieldRight()
+  nameWithType: Sentry<DashboardTileTableInfo>.GetOwnerFieldRight()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetOwnerFieldRight()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).GetOwnerFieldRight()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetOwnerFieldRight()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerFieldRight
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerFieldRight
     name: GetOwnerFieldRight
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetOwnerFieldRight
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerFieldRight
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerFieldRight
     name: GetOwnerFieldRight
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_GetOwnerFieldRight
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
   name: AnalyzeQuery(PrivateSelect)
-  nameWithType: Sentry<BinaryObjectTableInfo>.AnalyzeQuery(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).AnalyzeQuery(PrivateSelect)
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType: Sentry<DashboardTileTableInfo>.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).AnalyzeQuery(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
     name: AnalyzeQuery
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
@@ -1041,7 +1019,7 @@ references:
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
     name: AnalyzeQuery
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
@@ -1051,50 +1029,50 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ToString
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ToString
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ToString
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ToString
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ToString
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ToString
   name: ToString()
-  nameWithType: Sentry<BinaryObjectTableInfo>.ToString()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ToString()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ToString()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ToString()
+  nameWithType: Sentry<DashboardTileTableInfo>.ToString()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ToString()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ToString()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ToString
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ToString
     name: ToString
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ToString
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ToString
     name: ToString
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ToString
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestingFields
-  commentId: P:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.InterestingFields
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestingFields
+  commentId: P:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.InterestingFields
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.InterestingFields
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_InterestingFields
   name: InterestingFields
-  nameWithType: Sentry<BinaryObjectTableInfo>.InterestingFields
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.InterestingFields
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).InterestingFields
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).InterestingFields
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SentryQueryInfo
-  commentId: P:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.SentryQueryInfo
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: Sentry<DashboardTileTableInfo>.InterestingFields
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.InterestingFields
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).InterestingFields
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).InterestingFields
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SentryQueryInfo
+  commentId: P:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.SentryQueryInfo
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.SentryQueryInfo
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SentryQueryInfo
   name: SentryQueryInfo
-  nameWithType: Sentry<BinaryObjectTableInfo>.SentryQueryInfo
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.SentryQueryInfo
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).SentryQueryInfo
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).SentryQueryInfo
+  nameWithType: Sentry<DashboardTileTableInfo>.SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.SentryQueryInfo
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).SentryQueryInfo
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).SentryQueryInfo
 - uid: SuperOffice.CRM.Security.Sentry.kTableRights
   commentId: F:SuperOffice.CRM.Security.Sentry.kTableRights
   parent: SuperOffice.CRM.Security.Sentry
@@ -3232,21 +3210,21 @@ references:
 - uid: SuperOffice.CRM.Security.DashboardTileSentry.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.DashboardTileSentry.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Security.DashboardTileSentry.html#SuperOffice_CRM_Security_DashboardTileSentry__ctor_SuperOffice_CRM_Data_BinaryObjectTableInfo_SuperOffice_CRM_Security_ISoDataLookup_
+  href: SuperOffice.CRM.Security.DashboardTileSentry.html#SuperOffice_CRM_Security_DashboardTileSentry__ctor_SuperOffice_CRM_Data_DashboardTileTableInfo_SuperOffice_CRM_Security_ISoDataLookup_
   name: DashboardTileSentry
   nameWithType: DashboardTileSentry.DashboardTileSentry
   fullName: SuperOffice.CRM.Security.DashboardTileSentry.DashboardTileSentry
   nameWithType.vb: DashboardTileSentry.New
   fullName.vb: SuperOffice.CRM.Security.DashboardTileSentry.New
   name.vb: New
-- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.BinaryObjectTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
-  name: BinaryObjectTableInfo
-  nameWithType: BinaryObjectTableInfo
-  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo
+  href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
+  name: DashboardTileTableInfo
+  nameWithType: DashboardTileTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
 - uid: SuperOffice.CRM.Security.ISoDataLookup
   commentId: T:SuperOffice.CRM.Security.ISoDataLookup
   parent: SuperOffice.CRM.Security
@@ -3292,25 +3270,25 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
-- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetMainRight
-  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetMainRight
-  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetMainRight
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
   href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
   name: GetMainRight()
-  nameWithType: RoleRightsSentry<BinaryObjectTableInfo>.GetMainRight()
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetMainRight()
-  nameWithType.vb: RoleRightsSentry(Of BinaryObjectTableInfo).GetMainRight()
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetMainRight()
+  nameWithType: RoleRightsSentry<DashboardTileTableInfo>.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetMainRight()
+  nameWithType.vb: RoleRightsSentry(Of DashboardTileTableInfo).GetMainRight()
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetMainRight()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetMainRight
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetMainRight
     name: GetMainRight
     isExternal: true
     href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetMainRight
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetMainRight
     name: GetMainRight
     isExternal: true
     href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
@@ -3381,25 +3359,25 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.Data.html
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeTableRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ComputeTableRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeTableRights
   name: ComputeTableRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.ComputeTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ComputeTableRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ComputeTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ComputeTableRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.ComputeTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ComputeTableRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ComputeTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ComputeTableRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeTableRights
     name: ComputeTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeTableRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeTableRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeTableRights
     name: ComputeTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeTableRights
@@ -3435,25 +3413,25 @@ references:
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeTableRights
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeFieldRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeFieldRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeFieldRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeFieldRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.Sentry`1.ComputeFieldRights
   href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeFieldRights
   name: ComputeFieldRights()
-  nameWithType: Sentry<BinaryObjectTableInfo>.ComputeFieldRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ComputeFieldRights()
-  nameWithType.vb: Sentry(Of BinaryObjectTableInfo).ComputeFieldRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ComputeFieldRights()
+  nameWithType: Sentry<DashboardTileTableInfo>.ComputeFieldRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.DashboardTileTableInfo>.ComputeFieldRights()
+  nameWithType.vb: Sentry(Of DashboardTileTableInfo).ComputeFieldRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ComputeFieldRights()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeFieldRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeFieldRights
     name: ComputeFieldRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeFieldRights
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ComputeFieldRights
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.DashboardTileTableInfo}.ComputeFieldRights
     name: ComputeFieldRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeFieldRights
@@ -3697,10 +3675,3 @@ references:
   name: GroupId
   nameWithType: DashboardTileSentry.GroupId
   fullName: SuperOffice.CRM.Security.DashboardTileSentry.GroupId
-- uid: SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile*
-  commentId: Overload:SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile
-  isExternal: true
-  href: SuperOffice.CRM.Security.DashboardTileSentry.html#SuperOffice_CRM_Security_DashboardTileSentry_IsDefaultTile
-  name: IsDefaultTile
-  nameWithType: DashboardTileSentry.IsDefaultTile
-  fullName: SuperOffice.CRM.Security.DashboardTileSentry.IsDefaultTile

@@ -151,6 +151,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetExtTableTableInfo
   - SuperOffice.Data.TablesInfo.GetExternalDocumentTableInfo
   - SuperOffice.Data.TablesInfo.GetExternalEventTableInfo
+  - SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo
   - SuperOffice.Data.TablesInfo.GetExtraFieldsTableInfo
   - SuperOffice.Data.TablesInfo.GetExtraMenusTableInfo
   - SuperOffice.Data.TablesInfo.GetExtraTablesEntryTableInfo
@@ -619,8 +620,12 @@ items:
 
       [DatabaseStep]
 
+      [DatabaseStep]
+
       public static class TablesInfo
     content.vb: >-
+      <DatabaseStep>
+
       <DatabaseStep>
 
       <DatabaseStep>
@@ -689,6 +694,9 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -12873,6 +12881,31 @@ items:
       type: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
     content.vb: Public Shared Function GetQuickFilterInfoTableInfo() As QuickFilterInfoTableInfo
   overload: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo
+  id: GetExternalOwnerTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetExternalOwnerTableInfo()
+  nameWithType: TablesInfo.GetExternalOwnerTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of ExternalOwnerTableInfo:
+
+    Owner of external data imported into the system
+  example: []
+  syntax:
+    content: public static ExternalOwnerTableInfo GetExternalOwnerTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+    content.vb: Public Shared Function GetExternalOwnerTableInfo() As ExternalOwnerTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetFormTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetFormTableInfo
   id: GetFormTableInfo
@@ -21953,6 +21986,21 @@ references:
   name: QuickFilterInfoTableInfo
   nameWithType: QuickFilterInfoTableInfo
   fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetExternalOwnerTableInfo
+  name: GetExternalOwnerTableInfo
+  nameWithType: TablesInfo.GetExternalOwnerTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetExternalOwnerTableInfo
+- uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  commentId: T:SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html
+  name: ExternalOwnerTableInfo
+  nameWithType: ExternalOwnerTableInfo
+  fullName: SuperOffice.CRM.Data.ExternalOwnerTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetFormTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetFormTableInfo
   isExternal: true

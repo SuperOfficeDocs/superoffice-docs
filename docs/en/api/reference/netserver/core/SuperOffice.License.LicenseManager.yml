@@ -28,7 +28,7 @@ items:
   - SuperOffice.License.LicenseManager.IsInitialized
   - SuperOffice.License.LicenseManager.IsUnitTesting
   - SuperOffice.License.LicenseManager.LicenseExists(System.String)
-  - SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  - SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo,System.Threading.CancellationToken)
   - SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   - SuperOffice.License.LicenseManager.RemoveLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
@@ -1027,16 +1027,16 @@ items:
   nameWithType.vb: LicenseManager.LicenseExists(String)
   fullName.vb: SuperOffice.License.LicenseManager.LicenseExists(String)
   name.vb: LicenseExists(String)
-- uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
-  id: LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
+  id: LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.License.LicenseManager
   langs:
   - csharp
   - vb
-  name: LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
-  nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
-  fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  name: LoadNewLicenseFromServerIfNeededAsync(string, CancellationToken)
+  nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeededAsync(string, CancellationToken)
+  fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
@@ -1045,16 +1045,22 @@ items:
   remarks: The virtual <xref href="SuperOffice.License.LicenseManager.AllowAutoUpdate" data-throw-if-not-resolved="false"></xref> flag can be used to inhibit auto-updating
   example: []
   syntax:
-    content: public Task LoadNewLicenseFromServerIfNeededAsync(CancellationToken cancellationToken = default)
+    content: public Task LoadNewLicenseFromServerIfNeededAsync(string additionalInfo = null, CancellationToken cancellationToken = default)
     parameters:
+    - id: additionalInfo
+      type: System.String
+      description: Query-string that can contain <b>TestUpgrade=true/false</b> and <b>LicenseUrl=&lt;url to use for fetching licenses&gt;</b>
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function LoadNewLicenseFromServerIfNeededAsync(cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Public Function LoadNewLicenseFromServerIfNeededAsync(additionalInfo As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync*
   implements:
-  - SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: LicenseManager.LoadNewLicenseFromServerIfNeededAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(String, System.Threading.CancellationToken)
+  name.vb: LoadNewLicenseFromServerIfNeededAsync(String, CancellationToken)
 - uid: SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   commentId: M:SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   id: PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
@@ -3976,35 +3982,50 @@ references:
 - uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync*
   commentId: Overload:SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_Threading_CancellationToken_
+  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_String_System_Threading_CancellationToken_
   name: LoadNewLicenseFromServerIfNeededAsync
   nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeededAsync
   fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync
-- uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.License.ILicenseManager
   isExternal: true
-  href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_Threading_CancellationToken_
-  name: LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
-  nameWithType: ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
-  fullName: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_String_System_Threading_CancellationToken_
+  name: LoadNewLicenseFromServerIfNeededAsync(string, CancellationToken)
+  nameWithType: ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(string, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(String, System.Threading.CancellationToken)
+  name.vb: LoadNewLicenseFromServerIfNeededAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  - uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
     name: LoadNewLicenseFromServerIfNeededAsync
     isExternal: true
-    href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_Threading_CancellationToken_
+    href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_String_System_Threading_CancellationToken_
   - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  - uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.String,System.Threading.CancellationToken)
     name: LoadNewLicenseFromServerIfNeededAsync
     isExternal: true
-    href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_Threading_CancellationToken_
+    href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_LoadNewLicenseFromServerIfNeededAsync_System_String_System_Threading_CancellationToken_
   - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true

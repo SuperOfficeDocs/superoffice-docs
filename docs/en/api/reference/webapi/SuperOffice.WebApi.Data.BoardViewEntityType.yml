@@ -5,6 +5,7 @@ items:
   id: BoardViewEntityType
   parent: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.BoardViewEntityType.ContactPerson
   - SuperOffice.WebApi.Data.BoardViewEntityType.None
   - SuperOffice.WebApi.Data.BoardViewEntityType.Project
   - SuperOffice.WebApi.Data.BoardViewEntityType.Sale
@@ -115,6 +116,37 @@ items:
       <EnumMember>
 
       Project = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType.ContactPerson
+  commentId: F:SuperOffice.WebApi.Data.BoardViewEntityType.ContactPerson
+  id: ContactPerson
+  parent: SuperOffice.WebApi.Data.BoardViewEntityType
+  langs:
+  - csharp
+  - vb
+  name: ContactPerson
+  nameWithType: BoardViewEntityType.ContactPerson
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType.ContactPerson
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: ContactPerson'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ContactPerson = 3
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewEntityType
+    content.vb: >-
+      <EnumMember>
+
+      ContactPerson = 3
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

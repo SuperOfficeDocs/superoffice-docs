@@ -78,6 +78,8 @@ items:
   - SuperOffice.CRM.Data.SaleTableInfo.Source
   - SuperOffice.CRM.Data.SaleTableInfo.SourceId
   - SuperOffice.CRM.Data.SaleTableInfo.SourceId_InnerJoin_Source
+  - SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  - SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
   - SuperOffice.CRM.Data.SaleTableInfo.Status
   - SuperOffice.CRM.Data.SaleTableInfo.TextId
   - SuperOffice.CRM.Data.SaleTableInfo.TextId_InnerJoin_Text
@@ -134,6 +136,7 @@ items:
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
@@ -1574,6 +1577,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CreatedByWorkflowId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: SaleTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'stage_when_closed_id' in table 'sale': Dictionary type FK, target: Prob, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The stage the sale was in when it was closed (sold or lost)
+  example: []
+  syntax:
+    content: public Int32FieldInfo StageWhenClosedId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property StageWhenClosedId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId*
 - uid: SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -2126,6 +2155,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
     content.vb: Public ReadOnly Property CreatedByWorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
   overload: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  id: StageWhenClosedId_InnerJoin_Prob
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId_InnerJoin_Prob
+  nameWithType: SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key StageWhenClosedId in this table, to its target table <xref href="SuperOffice.CRM.Data.ProbTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ProbTableInfo> StageWhenClosedId_InnerJoin_Prob { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProbTableInfo}
+    content.vb: Public ReadOnly Property StageWhenClosedId_InnerJoin_Prob As TargetedInnerJoin(Of ProbTableInfo)
+  overload: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob*
 - uid: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Appointment_SaleId
   commentId: P:SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Appointment_SaleId
   id: LeftOuterJoin_Appointment_SaleId
@@ -2561,6 +2613,14 @@ references:
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
@@ -3714,6 +3774,13 @@ references:
   name: CreatedByWorkflowId
   nameWithType: SaleTableInfo.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+- uid: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -4770,6 +4837,13 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.WorkflowTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_StageWhenClosedId_InnerJoin_Prob
+  name: StageWhenClosedId_InnerJoin_Prob
+  nameWithType: SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId_InnerJoin_Prob
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.SaleId
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.SaleId
   isExternal: true

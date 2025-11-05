@@ -35,11 +35,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
 
       public enum CustomFieldType
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
 
       Public Enum CustomFieldType
   extensionMethods:
@@ -55,7 +55,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
 - uid: SuperOffice.Data.CustomFieldType.Unknown
   commentId: F:SuperOffice.Data.CustomFieldType.Unknown
   id: Unknown

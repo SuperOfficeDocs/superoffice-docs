@@ -414,6 +414,8 @@ items:
   - SuperOffice.WebApi.Data.ContactActivity
   - SuperOffice.WebApi.Data.ContactEntity
   - SuperOffice.WebApi.Data.ContactOrPersonFromEmail
+  - SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  - SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
   - SuperOffice.WebApi.Data.ContactPersonId
   - SuperOffice.WebApi.Data.ContactRelationEntity
   - SuperOffice.WebApi.Data.ContactSourceType
@@ -1070,6 +1072,7 @@ items:
   - SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
   - SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
   - SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  - SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
   - SuperOffice.WebApi.Data.List_DeleteWebPanelRequest
   - SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
   - SuperOffice.WebApi.Data.List_GetAllCountriesRequest
@@ -1184,6 +1187,8 @@ items:
   - SuperOffice.WebApi.Data.List_SaveListEntityByNameRequest
   - SuperOffice.WebApi.Data.List_SaveListItemEntityRequest
   - SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  - SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
+  - SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
   - SuperOffice.WebApi.Data.List_SetDocumentPluginForAllDocumentTemplatesRequest
   - SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
   - SuperOffice.WebApi.Data.List_SetDocumentTemplateStreamRequest
@@ -6861,6 +6866,20 @@ references:
   name: TaskMenu
   nameWithType: TaskMenu
   fullName: SuperOffice.WebApi.Data.TaskMenu
+- uid: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest.html
+  name: List_SaveTaskMenuRequest
+  nameWithType: List_SaveTaskMenuRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest.html
+  name: List_DeleteTaskMenuRequest
+  nameWithType: List_DeleteTaskMenuRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
 - uid: SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
   commentId: T:SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
   isExternal: true
@@ -8350,6 +8369,13 @@ references:
   name: WebPanelEntity
   nameWithType: WebPanelEntity
   fullName: SuperOffice.WebApi.Data.WebPanelEntity
+- uid: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest.html
+  name: List_SaveWebPanelEntityRequest
+  nameWithType: List_SaveWebPanelEntityRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
 - uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
   commentId: T:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
   isExternal: true
@@ -9550,6 +9576,14 @@ references:
   name: Selection_DeleteBoardViewSettingsRequest
   nameWithType: Selection_DeleteBoardViewSettingsRequest
   fullName: SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
+  commentId: T:SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ContactPersonBoardViewSettings.html
+  name: ContactPersonBoardViewSettings
+  nameWithType: ContactPersonBoardViewSettings
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
 - uid: SuperOffice.WebApi.Data.ProjectBoardViewSettings
   commentId: T:SuperOffice.WebApi.Data.ProjectBoardViewSettings
   parent: SuperOffice.WebApi.Data
@@ -17034,6 +17068,14 @@ references:
   name: BoardViewBadgeType
   nameWithType: BoardViewBadgeType
   fullName: SuperOffice.WebApi.Data.BoardViewBadgeType
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ContactPersonBoardEntity.html
+  name: ContactPersonBoardEntity
+  nameWithType: ContactPersonBoardEntity
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardEntity
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType
   commentId: T:SuperOffice.WebApi.Data.WorkflowGoalType
   parent: SuperOffice.WebApi.Data

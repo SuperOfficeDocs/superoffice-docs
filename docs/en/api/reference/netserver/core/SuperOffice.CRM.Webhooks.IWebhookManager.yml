@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
   - SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
   - SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   - SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
@@ -369,6 +370,39 @@ items:
   nameWithType.vb: IWebhookManager.NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
   fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Webhooks.Webhook), SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
   name.vb: NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  id: RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: RecordResult(Webhook, WebhookResponse, CancellationToken)
+  nameWithType: IWebhookManager.RecordResult(Webhook, WebhookResponse, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookResponse, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Record the result of a webhook call in memoory or on database. May change state of webhook if too many errors or permanent failure.
+  example: []
+  syntax:
+    content: Task RecordResult(Webhook hook, WebhookResponse result, CancellationToken cancellationToken = default)
+    parameters:
+    - id: hook
+      type: SuperOffice.CRM.Webhooks.Webhook
+      description: ''
+    - id: result
+      type: SuperOffice.CRM.Webhooks.WebhookResponse
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function RecordResult(hook As Webhook, result As WebhookResponse, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult*
 references:
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
@@ -1259,3 +1293,18 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookManager.html#SuperOffice_CRM_Webhooks_IWebhookManager_RecordResult_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookResponse_System_Threading_CancellationToken_
+  name: RecordResult
+  nameWithType: IWebhookManager.RecordResult
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult
+- uid: SuperOffice.CRM.Webhooks.WebhookResponse
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookResponse
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookResponse.html
+  name: WebhookResponse
+  nameWithType: WebhookResponse
+  fullName: SuperOffice.CRM.Webhooks.WebhookResponse

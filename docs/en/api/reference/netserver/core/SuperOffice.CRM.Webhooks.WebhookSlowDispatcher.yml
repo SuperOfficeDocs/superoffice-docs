@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSlowDispatcher})
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -78,6 +79,29 @@ items:
   nameWithType.vb: WebhookSlowDispatcher.New(IWebhookManager, IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ILogger(Of WebhookSlowDispatcher))
   fullName.vb: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.New(SuperOffice.CRM.Webhooks.IWebhookManager, SuperOffice.Threading.IAsyncQueue(Of (SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookSlowDispatcher))
   name.vb: New(IWebhookManager, IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ILogger(Of WebhookSlowDispatcher))
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete(System.Threading.CancellationToken)
+  id: WaitForAllToComplete(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  langs:
+  - csharp
+  - vb
+  name: WaitForAllToComplete(CancellationToken)
+  nameWithType: WebhookSlowDispatcher.WaitForAllToComplete(CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public Task WaitForAllToComplete(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WaitForAllToComplete(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete*
 - uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
   id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
@@ -1498,67 +1522,13 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
-- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync*
-  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html#SuperOffice_CRM_Webhooks_WebhookSlowDispatcher_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_System_ValueTuple_SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload___System_Threading_CancellationToken_
-  name: ProcessItemAsync
-  nameWithType: WebhookSlowDispatcher.ProcessItemAsync
-  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync
-- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}}
-  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}}
-  parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-  name: IAsyncQueueProcessItemContext<(ICustomWebhookPlugin, Webhook, WebhookPayload)>
-  nameWithType: IAsyncQueueProcessItemContext<(ICustomWebhookPlugin, Webhook, WebhookPayload)>
-  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)>
-  nameWithType.vb: IAsyncQueueProcessItemContext(Of (ICustomWebhookPlugin, Webhook, WebhookPayload))
-  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of (SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload))
-  name.vb: IAsyncQueueProcessItemContext(Of (ICustomWebhookPlugin, Webhook, WebhookPayload))
-  spec.csharp:
-  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-    name: IAsyncQueueProcessItemContext
-    isExternal: true
-  - name: <
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.Webhook
-    name: Webhook
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
-    name: WebhookPayload
-    isExternal: true
-  - name: )
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-    name: IAsyncQueueProcessItemContext
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.Webhook
-    name: Webhook
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
-    name: WebhookPayload
-    isExternal: true
-  - name: )
-  - name: )
+  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html#SuperOffice_CRM_Webhooks_WebhookSlowDispatcher_WaitForAllToComplete_System_Threading_CancellationToken_
+  name: WaitForAllToComplete
+  nameWithType: WebhookSlowDispatcher.WaitForAllToComplete
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1575,34 +1545,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-  isExternal: true
-  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
-  name: IAsyncQueueProcessItemContext<TItem>
-  nameWithType: IAsyncQueueProcessItemContext<TItem>
-  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
-  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
-  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
-  name.vb: IAsyncQueueProcessItemContext(Of TItem)
-  spec.csharp:
-  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-    name: IAsyncQueueProcessItemContext
-    isExternal: true
-    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
-  - name: <
-  - name: TItem
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
-    name: IAsyncQueueProcessItemContext
-    isExternal: true
-    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TItem
-  - name: )
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -1667,3 +1609,92 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html#SuperOffice_CRM_Webhooks_WebhookSlowDispatcher_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_System_ValueTuple_SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload___System_Threading_CancellationToken_
+  name: ProcessItemAsync
+  nameWithType: WebhookSlowDispatcher.ProcessItemAsync
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}}
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  name: IAsyncQueueProcessItemContext<(ICustomWebhookPlugin, Webhook, WebhookPayload)>
+  nameWithType: IAsyncQueueProcessItemContext<(ICustomWebhookPlugin, Webhook, WebhookPayload)>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of (ICustomWebhookPlugin, Webhook, WebhookPayload))
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of (SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload))
+  name.vb: IAsyncQueueProcessItemContext(Of (ICustomWebhookPlugin, Webhook, WebhookPayload))
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
+    name: ICustomWebhookPlugin
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
+    name: WebhookPayload
+    isExternal: true
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
+    name: ICustomWebhookPlugin
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
+    name: WebhookPayload
+    isExternal: true
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )

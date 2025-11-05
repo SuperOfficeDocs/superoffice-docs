@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleHistFields.SalehistId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.Source
   - SuperOffice.CRM.Data.DBC.SaleHistFields.SourceId
+  - SuperOffice.CRM.Data.DBC.SaleHistFields.StageWhenClosedId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.Status
   - SuperOffice.CRM.Data.DBC.SaleHistFields.TextId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.Updated
@@ -954,6 +955,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaleTypeCatId As String = "saleTypeCat_id"
+- uid: SuperOffice.CRM.Data.DBC.SaleHistFields.StageWhenClosedId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaleHistFields.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Data.DBC.SaleHistFields
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: DBC.SaleHistFields.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.DBC.SaleHistFields.StageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SaleHist.StageWhenClosedId: The stage the sale was in when it was closed (sold or lost)'
+  example: []
+  syntax:
+    content: public const string StageWhenClosedId = "stage_when_closed_id"
+    return:
+      type: System.String
+    content.vb: Public Const StageWhenClosedId As String = "stage_when_closed_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

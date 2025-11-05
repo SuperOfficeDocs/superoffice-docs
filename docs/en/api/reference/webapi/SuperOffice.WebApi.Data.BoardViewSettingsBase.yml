@@ -36,12 +36,16 @@ items:
   example: []
   syntax:
     content: >-
+      [KnownType(typeof(ContactPersonBoardViewSettings))]
+
       [KnownType(typeof(ProjectBoardViewSettings))]
 
       [KnownType(typeof(SaleBoardViewSettings))]
 
       public class BoardViewSettingsBase
     content.vb: >-
+      <KnownType(GetType(ContactPersonBoardViewSettings))>
+
       <KnownType(GetType(ProjectBoardViewSettings))>
 
       <KnownType(GetType(SaleBoardViewSettings))>
@@ -53,6 +57,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
   - SuperOffice.WebApi.Data.ProjectBoardViewSettings
   - SuperOffice.WebApi.Data.SaleBoardViewSettings
   inheritedMembers:
@@ -64,6 +69,11 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
   - type: System.Runtime.Serialization.KnownTypeAttribute
     ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
     arguments:

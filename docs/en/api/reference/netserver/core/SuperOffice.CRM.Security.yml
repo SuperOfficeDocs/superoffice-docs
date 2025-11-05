@@ -14,6 +14,8 @@ items:
   - SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardSentry
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  - SuperOffice.CRM.Security.DashboardTileDefinitionSentry
+  - SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentry
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentry
@@ -78,10 +80,10 @@ items:
   - SuperOffice.CRM.Security.SentryPreferenceCache
   - SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater
   - SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
-  - SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
   - SuperOffice.CRM.Security.SentryQueryContactTableUpdater
   - SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
+  - SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater
@@ -344,13 +346,6 @@ references:
   name: SentryQueryDashBoardTableUpdater
   nameWithType: SentryQueryDashBoardTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
-- uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
-  commentId: T:SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
-  isExternal: true
-  href: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater.html
-  name: SentryQueryDashboardTileTableUpdater
-  nameWithType: SentryQueryDashboardTileTableUpdater
-  fullName: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
 - uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.DashboardSentryQueryInfo
   isExternal: true
@@ -358,6 +353,27 @@ references:
   name: DashboardSentryQueryInfo
   nameWithType: DashboardSentryQueryInfo
   fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+- uid: SuperOffice.CRM.Security.DashboardTileDefinitionSentry
+  commentId: T:SuperOffice.CRM.Security.DashboardTileDefinitionSentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.DashboardTileDefinitionSentry.html
+  name: DashboardTileDefinitionSentry
+  nameWithType: DashboardTileDefinitionSentry
+  fullName: SuperOffice.CRM.Security.DashboardTileDefinitionSentry
+- uid: SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater
+  isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater.html
+  name: SentryQueryDashboardTileDefinitionTableUpdater
+  nameWithType: SentryQueryDashboardTileDefinitionTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater
+- uid: SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
+  isExternal: true
+  href: SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo.html
+  name: DashboardTileDefinitionSentryQueryInfo
+  nameWithType: DashboardTileDefinitionSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
 - uid: SuperOffice.CRM.Security.DashboardTileSentry
   commentId: T:SuperOffice.CRM.Security.DashboardTileSentry
   isExternal: true
@@ -365,13 +381,13 @@ references:
   name: DashboardTileSentry
   nameWithType: DashboardTileSentry
   fullName: SuperOffice.CRM.Security.DashboardTileSentry
-- uid: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
-  commentId: T:SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
+- uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   isExternal: true
-  href: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater.html
-  name: SentryQueryBinaryObjectableUpdater
-  nameWithType: SentryQueryBinaryObjectableUpdater
-  fullName: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
+  href: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater.html
+  name: SentryQueryDashboardTileTableUpdater
+  nameWithType: SentryQueryDashboardTileTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
 - uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   commentId: T:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   isExternal: true

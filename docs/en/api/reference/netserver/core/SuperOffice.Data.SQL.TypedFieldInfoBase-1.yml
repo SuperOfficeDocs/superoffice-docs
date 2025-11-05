@@ -99,6 +99,7 @@ items:
   - SuperOffice.Data.SQL.EmailTypeFieldInfo
   - SuperOffice.Data.SQL.ErpActorTypeFieldInfo
   - SuperOffice.Data.SQL.ExecuteOnEventFieldInfo
+  - SuperOffice.Data.SQL.ExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.FieldAccessFieldInfo
   - SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
   - SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo

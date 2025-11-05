@@ -24,6 +24,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.EMail
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.FirstName
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LastName
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LeadStatus
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LegalBasis
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MiddleName
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MobilePhone
@@ -828,6 +829,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const DisconnectFromContact As String = "disconnectFromContact"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LeadStatus
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LeadStatus
+  id: LeadStatus
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: LeadStatus
+  nameWithType: BulkUpdateSystem.PersonFieldValueKeys.LeadStatus
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string LeadStatus = "leadstatus"
+    return:
+      type: System.String
+    content.vb: Public Const LeadStatus As String = "leadstatus"
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

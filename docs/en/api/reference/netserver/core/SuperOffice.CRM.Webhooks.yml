@@ -35,6 +35,13 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
+  commentId: T:SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.html
+  name: CrmScriptWebhookPlugin
+  nameWithType: CrmScriptWebhookPlugin
+  fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
 - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
   commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
   parent: SuperOffice.CRM.Webhooks
@@ -86,13 +93,6 @@ references:
   name: WebhookTransmitter
   nameWithType: WebhookTransmitter
   fullName: SuperOffice.CRM.Webhooks.WebhookTransmitter
-- uid: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-  commentId: T:SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.html
-  name: CrmScriptWebhookPlugin
-  nameWithType: CrmScriptWebhookPlugin
-  fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
 - uid: SuperOffice.CRM.Webhooks.ChangeType
   commentId: T:SuperOffice.CRM.Webhooks.ChangeType
   parent: SuperOffice.CRM.Webhooks

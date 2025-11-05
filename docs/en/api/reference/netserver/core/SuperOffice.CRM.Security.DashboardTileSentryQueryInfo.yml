@@ -5,11 +5,9 @@ items:
   id: DashboardTileSentryQueryInfo
   parent: SuperOffice.CRM.Security
   children:
-  - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
+  - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetOwnerTableCandidates
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetUntypedMembers
-  - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-  - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
   langs:
   - csharp
   - vb
@@ -21,27 +19,27 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
-    content: 'public class DashboardTileSentryQueryInfo : SentryQueryInfo<BinaryObjectTableInfo>, IEnumerable<TableInfo>, IEnumerable'
-    content.vb: Public Class DashboardTileSentryQueryInfo Inherits SentryQueryInfo(Of BinaryObjectTableInfo) Implements IEnumerable(Of TableInfo), IEnumerable
+    content: 'public class DashboardTileSentryQueryInfo : SentryQueryInfo<DashboardTileTableInfo>, IEnumerable<TableInfo>, IEnumerable'
+    content.vb: Public Class DashboardTileSentryQueryInfo Inherits SentryQueryInfo(Of DashboardTileTableInfo) Implements IEnumerable(Of TableInfo), IEnumerable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Security.SentryQueryInfo
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   implements:
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
   - System.Collections.IEnumerable
   inheritedMembers:
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetTypedMembers
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetEnumerator
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ParentFields
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.MainTable
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.HasVisibleFor
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForTableInfo
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetTypedMembers
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetEnumerator
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ParentFields
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.MainTable
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.HasVisibleFor
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForTableInfo
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -72,32 +70,32 @@ items:
     return:
       type: SuperOffice.Data.SQL.TableInfo[]
     content.vb: Protected Overrides Function GetOwnerTableCandidates() As TableInfo()
-  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerTableCandidates
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerTableCandidates
   overload: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetOwnerTableCandidates*
-- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  commentId: M:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  id: '#ctor(SuperOffice.CRM.Data.BinaryObjectTableInfo)'
+- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  commentId: M:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  id: '#ctor(SuperOffice.CRM.Data.DashboardTileTableInfo)'
   parent: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   langs:
   - csharp
   - vb
-  name: DashboardTileSentryQueryInfo(BinaryObjectTableInfo)
-  nameWithType: DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo(BinaryObjectTableInfo)
-  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo(SuperOffice.CRM.Data.BinaryObjectTableInfo)
+  name: DashboardTileSentryQueryInfo(DashboardTileTableInfo)
+  nameWithType: DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo(DashboardTileTableInfo)
+  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo(SuperOffice.CRM.Data.DashboardTileTableInfo)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
-    content: public DashboardTileSentryQueryInfo(BinaryObjectTableInfo tableInfo)
+    content: public DashboardTileSentryQueryInfo(DashboardTileTableInfo tableInfo)
     parameters:
     - id: tableInfo
-      type: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    content.vb: Public Sub New(tableInfo As BinaryObjectTableInfo)
+      type: SuperOffice.CRM.Data.DashboardTileTableInfo
+    content.vb: Public Sub New(tableInfo As DashboardTileTableInfo)
   overload: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor*
-  nameWithType.vb: DashboardTileSentryQueryInfo.New(BinaryObjectTableInfo)
-  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.New(SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  name.vb: New(BinaryObjectTableInfo)
+  nameWithType.vb: DashboardTileSentryQueryInfo.New(DashboardTileTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.New(SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: New(DashboardTileTableInfo)
 - uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetUntypedMembers
   commentId: M:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetUntypedMembers
   id: GetUntypedMembers
@@ -125,50 +123,8 @@ items:
       type: SuperOffice.Data.SQL.TableInfo[]
       description: Array of untyped <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>s covered by the <xref href="SuperOffice.CRM.Security.Sentry" data-throw-if-not-resolved="false"></xref>.
     content.vb: Protected Overrides Function GetUntypedMembers() As TableInfo()
-  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetUntypedMembers
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetUntypedMembers
   overload: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.GetUntypedMembers*
-- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-  commentId: P:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-  id: MemberTableInfo
-  parent: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
-  langs:
-  - csharp
-  - vb
-  name: MemberTableInfo
-  nameWithType: DashboardTileSentryQueryInfo.MemberTableInfo
-  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: public BinaryObjectTableInfo MemberTableInfo { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    content.vb: Public ReadOnly Property MemberTableInfo As BinaryObjectTableInfo
-  overload: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo*
-- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
-  commentId: P:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
-  id: PublishTableInfo
-  parent: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
-  langs:
-  - csharp
-  - vb
-  name: PublishTableInfo
-  nameWithType: DashboardTileSentryQueryInfo.PublishTableInfo
-  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: public PublishTableInfo PublishTableInfo { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.PublishTableInfo
-    content.vb: Public ReadOnly Property PublishTableInfo As PublishTableInfo
-  overload: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo*
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
@@ -226,27 +182,27 @@ references:
   name: SentryQueryInfo
   nameWithType: SentryQueryInfo
   fullName: SuperOffice.CRM.Security.SentryQueryInfo
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
-  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   parent: SuperOffice.CRM.Security
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html
-  name: SentryQueryInfo<BinaryObjectTableInfo>
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo)
-  name.vb: SentryQueryInfo(Of BinaryObjectTableInfo)
+  name: SentryQueryInfo<DashboardTileTableInfo>
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: SentryQueryInfo(Of DashboardTileTableInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
     name: SentryQueryInfo
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html
   - name: <
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
@@ -256,10 +212,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-    name: BinaryObjectTableInfo
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+    href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
   - name: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
   commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
@@ -304,18 +260,18 @@ references:
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
   name: AnalyzeQuery(PrivateSelect)
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.AnalyzeQuery(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).AnalyzeQuery(PrivateSelect)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).AnalyzeQuery(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
     name: AnalyzeQuery
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
@@ -326,7 +282,7 @@ references:
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
     name: AnalyzeQuery
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_AnalyzeQuery_SuperOffice_Data_SQL_PrivateSelect_
@@ -336,18 +292,18 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
   name: CanCoverTable(TableInfo)
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.CanCoverTable(TableInfo)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).CanCoverTable(TableInfo)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).CanCoverTable(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
     name: CanCoverTable
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
@@ -358,7 +314,7 @@ references:
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
     name: CanCoverTable
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_CanCoverTable_SuperOffice_Data_SQL_TableInfo_
@@ -368,18 +324,18 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
   name: UpdateTypedMembers(PrivateSelect)
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.UpdateTypedMembers(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).UpdateTypedMembers(PrivateSelect)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.UpdateTypedMembers(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).UpdateTypedMembers(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
     name: UpdateTypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
@@ -390,7 +346,7 @@ references:
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
     name: UpdateTypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
@@ -400,43 +356,43 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.PrivateSelect.html
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetTypedMembers
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetTypedMembers
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetTypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetTypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetTypedMembers
   name: GetTypedMembers()
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.GetTypedMembers()
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetTypedMembers()
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).GetTypedMembers()
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetTypedMembers()
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.GetTypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetTypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).GetTypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetTypedMembers()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetTypedMembers
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetTypedMembers
     name: GetTypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetTypedMembers
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetTypedMembers
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetTypedMembers
     name: GetTypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetTypedMembers
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
   name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T)
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
   name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
     name: UpdateRelatedTableInfo
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
@@ -455,7 +411,7 @@ references:
   - name: T
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
     name: UpdateRelatedTableInfo
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
@@ -473,19 +429,19 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_ReplaceRelatedTableInstance_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo___
   name: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo[])
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo())
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo())
   name.vb: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
     name: ReplaceRelatedTableInstance
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_ReplaceRelatedTableInstance_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo___
@@ -510,7 +466,7 @@ references:
   - name: ']'
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
     name: ReplaceRelatedTableInstance
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_ReplaceRelatedTableInstance_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo___
@@ -534,70 +490,70 @@ references:
   - name: (
   - name: )
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetEnumerator
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetEnumerator
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetEnumerator
   name: GetEnumerator()
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.GetEnumerator()
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetEnumerator()
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).GetEnumerator()
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetEnumerator()
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetEnumerator()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetEnumerator()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetEnumerator
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetEnumerator
     name: GetEnumerator
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetEnumerator
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetEnumerator
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetEnumerator
     name: GetEnumerator
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetEnumerator
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ParentFields
-  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.ParentFields
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ParentFields
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.ParentFields
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_ParentFields
   name: ParentFields
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.ParentFields
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.ParentFields
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).ParentFields
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).ParentFields
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.MainTable
-  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.MainTable
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.ParentFields
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).ParentFields
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).ParentFields
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.MainTable
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.MainTable
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_MainTable
   name: MainTable
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.MainTable
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.MainTable
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).MainTable
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).MainTable
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.HasVisibleFor
-  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.HasVisibleFor
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.MainTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.MainTable
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).MainTable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).MainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.HasVisibleFor
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.HasVisibleFor
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_HasVisibleFor
   name: HasVisibleFor
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.HasVisibleFor
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.HasVisibleFor
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).HasVisibleFor
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).HasVisibleFor
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForTableInfo
-  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.VisibleForTableInfo
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.HasVisibleFor
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).HasVisibleFor
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.VisibleForTableInfo
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_VisibleForTableInfo
   name: VisibleForTableInfo
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.VisibleForTableInfo
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.VisibleForTableInfo
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).VisibleForTableInfo
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).VisibleForTableInfo
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.VisibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).VisibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).VisibleForTableInfo
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1465,25 +1421,25 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerTableCandidates
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerTableCandidates
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerTableCandidates
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerTableCandidates
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetOwnerTableCandidates
   name: GetOwnerTableCandidates()
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.GetOwnerTableCandidates()
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetOwnerTableCandidates()
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).GetOwnerTableCandidates()
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetOwnerTableCandidates()
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.GetOwnerTableCandidates()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetOwnerTableCandidates()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).GetOwnerTableCandidates()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetOwnerTableCandidates()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerTableCandidates
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerTableCandidates
     name: GetOwnerTableCandidates
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetOwnerTableCandidates
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetOwnerTableCandidates
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetOwnerTableCandidates
     name: GetOwnerTableCandidates
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetOwnerTableCandidates
@@ -1545,21 +1501,21 @@ references:
 - uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.html#SuperOffice_CRM_Security_DashboardTileSentryQueryInfo__ctor_SuperOffice_CRM_Data_BinaryObjectTableInfo_
+  href: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.html#SuperOffice_CRM_Security_DashboardTileSentryQueryInfo__ctor_SuperOffice_CRM_Data_DashboardTileTableInfo_
   name: DashboardTileSentryQueryInfo
   nameWithType: DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo
   fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.DashboardTileSentryQueryInfo
   nameWithType.vb: DashboardTileSentryQueryInfo.New
   fullName.vb: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.New
   name.vb: New
-- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.BinaryObjectTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
-  name: BinaryObjectTableInfo
-  nameWithType: BinaryObjectTableInfo
-  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo
+  href: SuperOffice.CRM.Data.DashboardTileTableInfo.html
+  name: DashboardTileTableInfo
+  nameWithType: DashboardTileTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
@@ -1613,25 +1569,25 @@ references:
   name: Sentry
   nameWithType: Sentry
   fullName: SuperOffice.CRM.Security.Sentry
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetUntypedMembers
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetUntypedMembers
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetUntypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetUntypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}
   definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
   href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetUntypedMembers
   name: GetUntypedMembers()
-  nameWithType: SentryQueryInfo<BinaryObjectTableInfo>.GetUntypedMembers()
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.BinaryObjectTableInfo>.GetUntypedMembers()
-  nameWithType.vb: SentryQueryInfo(Of BinaryObjectTableInfo).GetUntypedMembers()
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.BinaryObjectTableInfo).GetUntypedMembers()
+  nameWithType: SentryQueryInfo<DashboardTileTableInfo>.GetUntypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTileTableInfo>.GetUntypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTileTableInfo).GetUntypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTileTableInfo).GetUntypedMembers()
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetUntypedMembers
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetUntypedMembers
     name: GetUntypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetUntypedMembers
   - name: (
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.BinaryObjectTableInfo}.GetUntypedMembers
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTileTableInfo}.GetUntypedMembers
     name: GetUntypedMembers
     isExternal: true
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetUntypedMembers
@@ -1704,25 +1660,3 @@ references:
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetUntypedMembers
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.html#SuperOffice_CRM_Security_DashboardTileSentryQueryInfo_MemberTableInfo
-  name: MemberTableInfo
-  nameWithType: DashboardTileSentryQueryInfo.MemberTableInfo
-  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.MemberTableInfo
-- uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.html#SuperOffice_CRM_Security_DashboardTileSentryQueryInfo_PublishTableInfo
-  name: PublishTableInfo
-  nameWithType: DashboardTileSentryQueryInfo.PublishTableInfo
-  fullName: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo.PublishTableInfo
-- uid: SuperOffice.CRM.Data.PublishTableInfo
-  commentId: T:SuperOffice.CRM.Data.PublishTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.PublishTableInfo.html
-  name: PublishTableInfo
-  nameWithType: PublishTableInfo
-  fullName: SuperOffice.CRM.Data.PublishTableInfo

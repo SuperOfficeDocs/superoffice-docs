@@ -62,6 +62,7 @@ items:
   - SuperOffice.CRM.Rows.SaleHistRow.SetRowAsNew
   - SuperOffice.CRM.Rows.SaleHistRow.Source
   - SuperOffice.CRM.Rows.SaleHistRow.SourceId
+  - SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
   - SuperOffice.CRM.Rows.SaleHistRow.Status
   - SuperOffice.CRM.Rows.SaleHistRow.TableInfo
   - SuperOffice.CRM.Rows.SaleHistRow.TextId
@@ -107,6 +108,7 @@ items:
   - SuperOffice.CRM.Rows.SaleHistRow._currentSalehistId
   - SuperOffice.CRM.Rows.SaleHistRow._currentSource
   - SuperOffice.CRM.Rows.SaleHistRow._currentSourceId
+  - SuperOffice.CRM.Rows.SaleHistRow._currentStageWhenClosedId
   - SuperOffice.CRM.Rows.SaleHistRow._currentStatus
   - SuperOffice.CRM.Rows.SaleHistRow._currentTextId
   - SuperOffice.CRM.Rows.SaleHistRow._currentUpdated
@@ -149,6 +151,7 @@ items:
   - SuperOffice.CRM.Rows.SaleHistRow._persistedSalehistId
   - SuperOffice.CRM.Rows.SaleHistRow._persistedSource
   - SuperOffice.CRM.Rows.SaleHistRow._persistedSourceId
+  - SuperOffice.CRM.Rows.SaleHistRow._persistedStageWhenClosedId
   - SuperOffice.CRM.Rows.SaleHistRow._persistedStatus
   - SuperOffice.CRM.Rows.SaleHistRow._persistedTextId
   - SuperOffice.CRM.Rows.SaleHistRow._persistedUpdated
@@ -1187,6 +1190,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedSaleTypeCatId As Integer
+- uid: SuperOffice.CRM.Rows.SaleHistRow._persistedStageWhenClosedId
+  commentId: F:SuperOffice.CRM.Rows.SaleHistRow._persistedStageWhenClosedId
+  id: _persistedStageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleHistRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedStageWhenClosedId
+  nameWithType: SaleHistRow._persistedStageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleHistRow._persistedStageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedStageWhenClosedId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedStageWhenClosedId As Integer
 - uid: SuperOffice.CRM.Rows.SaleHistRow._currentSalehistId
   commentId: F:SuperOffice.CRM.Rows.SaleHistRow._currentSalehistId
   id: _currentSalehistId
@@ -2069,6 +2093,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentSaleTypeCatId As Integer
+- uid: SuperOffice.CRM.Rows.SaleHistRow._currentStageWhenClosedId
+  commentId: F:SuperOffice.CRM.Rows.SaleHistRow._currentStageWhenClosedId
+  id: _currentStageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleHistRow
+  langs:
+  - csharp
+  - vb
+  name: _currentStageWhenClosedId
+  nameWithType: SaleHistRow._currentStageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleHistRow._currentStageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentStageWhenClosedId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentStageWhenClosedId As Integer
 - uid: SuperOffice.CRM.Rows.SaleHistRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SaleHistRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -4504,6 +4549,43 @@ items:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
     description: Thrown if the set method is accessed without having the Write access right to the field
+- uid: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleHistRow
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: SaleHistRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The stage the sale was in when it was closed (sold or lost)'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Read only for code not signed by SuperOffice.</p>
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int StageWhenClosedId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StageWhenClosedId As Integer
+  overload: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId*
+  exceptions:
+  - type: System.Security.SecurityException
+    commentId: T:System.Security.SecurityException
+    description: Thrown if the set method is accessed by code not signed by SuperOffice.
 references:
 - uid: SuperOffice.CRM.Rows.SaleHistRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SaleHistRow.CreateNew
@@ -7812,6 +7894,13 @@ references:
   name: SaleTypeCatId
   nameWithType: SaleHistRow.SaleTypeCatId
   fullName: SuperOffice.CRM.Rows.SaleHistRow.SaleTypeCatId
+- uid: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleHistRow.html#SuperOffice_CRM_Rows_SaleHistRow_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleHistRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -9029,3 +9118,10 @@ references:
   name: SaleTypeCatId
   nameWithType: SaleHistRow.SaleTypeCatId
   fullName: SuperOffice.CRM.Rows.SaleHistRow.SaleTypeCatId
+- uid: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleHistRow.html#SuperOffice_CRM_Rows_SaleHistRow_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleHistRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleHistRow.StageWhenClosedId

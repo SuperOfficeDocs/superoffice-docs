@@ -70,6 +70,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.RemoveCredential(System.String)
   - SuperOffice.CRM.Administration.SoUser.RemoveLicenses
   - SuperOffice.CRM.Administration.SoUser.RoleIdx
+  - SuperOffice.CRM.Administration.SoUser.SaveAsync
   - SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
   - SuperOffice.CRM.Administration.SoUser.Sentries
   - SuperOffice.CRM.Administration.SoUser.SetGeneratedPassword
@@ -145,7 +146,6 @@ items:
   inheritedMembers:
   - SuperOffice.Data.NestedPersistFacade.IsDirty
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.SaveAsync
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
@@ -450,6 +450,34 @@ items:
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: SuperOffice.CRM.Administration.SoUser.ToString*
+- uid: SuperOffice.CRM.Administration.SoUser.SaveAsync
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SaveAsync
+  id: SaveAsync
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: SaveAsync()
+  nameWithType: SoUser.SaveAsync()
+  fullName: SuperOffice.CRM.Administration.SoUser.SaveAsync()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: Save all the contained objects to the database.
+  remarks: >-
+    <p>
+                Save contained objects to the database:
+                </p>
+    <ol></ol>
+  example: []
+  syntax:
+    content: public override Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function SaveAsync() As Task
+  overridden: SuperOffice.Data.NestedPersist.SaveAsync
+  overload: SuperOffice.CRM.Administration.SoUser.SaveAsync*
 - uid: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   id: SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -2568,28 +2596,6 @@ references:
     isExternal: true
     href: SuperOffice.Data.INestedPersist.html
   - name: )
-- uid: SuperOffice.Data.NestedPersist.SaveAsync
-  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
-  parent: SuperOffice.Data.NestedPersist
-  isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
-  name: SaveAsync()
-  nameWithType: NestedPersist.SaveAsync()
-  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
-  spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SaveAsync
-    name: SaveAsync
-    isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SaveAsync
-    name: SaveAsync
-    isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -3590,13 +3596,35 @@ references:
   name: ToString
   nameWithType: SoUser.ToString
   fullName: SuperOffice.CRM.Administration.SoUser.ToString
-- uid: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
+  parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.CRM.Administration.SoUser.html#SuperOffice_CRM_Administration_SoUser_SetPersonIdAsync_System_Int32_System_Threading_CancellationToken_
-  name: SetPersonIdAsync
-  nameWithType: SoUser.SetPersonIdAsync
-  fullName: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
+  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    isExternal: true
+    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    isExternal: true
+    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SaveAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Administration.SoUser.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SaveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Administration.SoUser.html#SuperOffice_CRM_Administration_SoUser_SaveAsync
+  name: SaveAsync
+  nameWithType: SoUser.SaveAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SaveAsync
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -3605,6 +3633,13 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Administration.SoUser.html#SuperOffice_CRM_Administration_SoUser_SetPersonIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: SetPersonIdAsync
+  nameWithType: SoUser.SetPersonIdAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
 - uid: SuperOffice.CRM.Administration.SoUser.GetLicenseOwner*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetLicenseOwner
   isExternal: true

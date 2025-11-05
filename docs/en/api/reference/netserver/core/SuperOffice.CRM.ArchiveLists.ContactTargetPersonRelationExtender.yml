@@ -113,8 +113,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colAssociateFullName
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategory
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryRank
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatusRank
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colHasCompany
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colIsProjectMember
@@ -1139,6 +1141,14 @@ references:
   name: _colCategoryGroup
   nameWithType: PersonExtenderBase._colCategoryGroup
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryRank
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colCategoryRank
+  name: _colCategoryRank
+  nameWithType: PersonExtenderBase._colCategoryRank
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryRank
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
@@ -1155,6 +1165,14 @@ references:
   name: _colLeadStatus
   nameWithType: PersonExtenderBase._colLeadStatus
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatusRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatusRank
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colLeadStatusRank
+  name: _colLeadStatusRank
+  nameWithType: PersonExtenderBase._colLeadStatusRank
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatusRank
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase

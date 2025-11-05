@@ -226,6 +226,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtTableFields
   - SuperOffice.CRM.Data.DBC.ExternalDocumentFields
   - SuperOffice.CRM.Data.DBC.ExternalEventFields
+  - SuperOffice.CRM.Data.DBC.ExternalOwnerFields
   - SuperOffice.CRM.Data.DBC.ExtraFieldsFields
   - SuperOffice.CRM.Data.DBC.ExtraMenusFields
   - SuperOffice.CRM.Data.DBC.ExtraTablesEntryFields
@@ -690,6 +691,7 @@ items:
   - SuperOffice.CRM.Data.ExtTableTableInfo
   - SuperOffice.CRM.Data.ExternalDocumentTableInfo
   - SuperOffice.CRM.Data.ExternalEventTableInfo
+  - SuperOffice.CRM.Data.ExternalOwnerTableInfo
   - SuperOffice.CRM.Data.ExtraFieldsTableInfo
   - SuperOffice.CRM.Data.ExtraMenusTableInfo
   - SuperOffice.CRM.Data.ExtraTablesEntryTableInfo
@@ -14849,6 +14851,33 @@ references:
     name: QuickFilterInfoFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields.html
+- uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.ExternalOwnerFields
+  nameWithType: DBC.ExternalOwnerFields
+  fullName: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+    name: ExternalOwnerFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.ExternalOwnerFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+    name: ExternalOwnerFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.ExternalOwnerFields.html
 - uid: SuperOffice.CRM.Data.DBC.FormFields
   commentId: T:SuperOffice.CRM.Data.DBC.FormFields
   isExternal: true
@@ -16806,6 +16835,14 @@ references:
   name: ExternalEventTableInfo
   nameWithType: ExternalEventTableInfo
   fullName: SuperOffice.CRM.Data.ExternalEventTableInfo
+- uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  commentId: T:SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html
+  name: ExternalOwnerTableInfo
+  nameWithType: ExternalOwnerTableInfo
+  fullName: SuperOffice.CRM.Data.ExternalOwnerTableInfo
 - uid: SuperOffice.CRM.Data.ExtFieldTableInfo
   commentId: T:SuperOffice.CRM.Data.ExtFieldTableInfo
   parent: SuperOffice.CRM.Data
