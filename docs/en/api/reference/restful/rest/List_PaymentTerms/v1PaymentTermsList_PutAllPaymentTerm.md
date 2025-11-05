@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Stokes-Hoeger",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "UdListDefinitionId": 658,
-    "Rank": 266
+    "Id": 766,
+    "Name": "Abbott-Stark",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 115,
+    "Rank": 294
   },
   {
-    "Id": 318,
-    "Name": "Stokes-Hoeger",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "UdListDefinitionId": 658,
-    "Rank": 266
+    "Id": 766,
+    "Name": "Abbott-Stark",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 115,
+    "Rank": 294
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Heathcote Inc and Sons",
-    "Tooltip": "at",
-    "Deleted": false,
-    "UdListDefinitionId": 104,
-    "Rank": 659,
+    "Id": 346,
+    "Name": "Weimann, Luettgen and Brekke",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "UdListDefinitionId": 100,
+    "Rank": 54,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 670
       }
     }
   }

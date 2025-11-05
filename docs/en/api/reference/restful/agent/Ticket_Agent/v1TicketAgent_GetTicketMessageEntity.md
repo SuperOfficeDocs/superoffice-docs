@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=448
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=495
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -105,28 +105,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 830,
+  "EjMessageId": 479,
   "Ticket": null,
-  "CreatedAt": "2018-08-04T03:40:48.1098657+02:00",
+  "CreatedAt": "2011-03-12T02:30:48.0538071+01:00",
   "CreatedBy": null,
-  "Author": "modi",
+  "Author": "magnam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "velit",
-  "TimeSpent": 789,
-  "Body": "quae",
-  "HtmlBody": "architecto",
-  "EmailHeader": "carlotta_hand@metzgraham.name",
-  "DebugInfo": "at",
-  "MailSorter": "mollitia",
+  "MessageId": "aliquam",
+  "TimeSpent": 354,
+  "Body": "quas",
+  "HtmlBody": "eos",
+  "EmailHeader": "ruby@okuneva.info",
+  "DebugInfo": "nostrum",
+  "MailSorter": "ea",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "harum",
+  "SearchTitle": "recusandae",
   "MessageHeaders": [
     {
-      "Id": 703,
-      "Name": "Hahn-Mante",
-      "Value": "molestias",
+      "Id": 508,
+      "Name": "Dare, Weissnat and Kihn",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -134,50 +134,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldLength": 757
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "architecto",
-  "Sentiment": 695,
-  "SentimentConfidence": 83,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 653,
+  "SentimentConfidence": 156,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 22,
-      "Name": "Mante, Cummerata and Morissette",
-      "ContentType": "repudiandae",
-      "AttSize": 895,
-      "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "nihil",
+      "AttachmentId": 350,
+      "Name": "Swaniawski, Heathcote and Mitchell",
+      "ContentType": "quam",
+      "AttSize": 93,
+      "InlineImage": false,
+      "ContentId": "fuga",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldLength": 882
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "similique"
+    "CustomFields1": "nobis",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

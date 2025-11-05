@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=178
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=552
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +127,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -137,21 +137,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 951,
-  "Title": "dolor",
-  "CreatedAt": "2025-10-09T03:40:47.9536063+02:00",
-  "LastChanged": "2006-11-11T03:40:47.9536063+01:00",
-  "ReadByOwner": "2025-04-19T03:40:47.9536063+02:00",
-  "ReadByCustomer": "2019-09-22T03:40:47.9536063+02:00",
-  "FirstReadByOwner": "2017-03-09T03:40:47.9536063+01:00",
-  "FirstReadByUser": "1998-07-05T03:40:47.9536063+02:00",
-  "Activate": "2013-05-07T03:40:47.9536063+02:00",
-  "ClosedAt": "2005-02-24T03:40:47.9536063+01:00",
-  "RepliedAt": "2021-02-09T03:40:47.9536063+01:00",
-  "AlertTimeout": "2001-11-26T03:40:47.9536063+01:00",
-  "Deadline": "2010-12-28T03:40:47.9536063+01:00",
+  "TicketId": 167,
+  "Title": "necessitatibus",
+  "CreatedAt": "2016-12-15T02:30:47.8975637+01:00",
+  "LastChanged": "2009-02-27T02:30:47.8975637+01:00",
+  "ReadByOwner": "2002-09-01T02:30:47.8975637+02:00",
+  "ReadByCustomer": "2001-03-20T02:30:47.8975637+01:00",
+  "FirstReadByOwner": "2024-03-13T02:30:47.8975637+01:00",
+  "FirstReadByUser": "2000-01-13T02:30:47.8975637+01:00",
+  "Activate": "2003-10-20T02:30:47.8975637+02:00",
+  "ClosedAt": "2023-07-24T02:30:47.8975637+02:00",
+  "RepliedAt": "2005-01-03T02:30:47.8975637+01:00",
+  "AlertTimeout": "2021-05-23T02:30:47.8975637+02:00",
+  "Deadline": "1998-11-26T02:30:47.8975637+01:00",
   "CreatedBy": null,
-  "Author": "architecto",
+  "Author": "aut",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -162,163 +162,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ex",
-      "PersonId": 355,
-      "Mrmrs": "assumenda",
-      "Firstname": "Elmer",
-      "Lastname": "Price",
-      "MiddleName": "Harber-Beatty",
-      "Title": "sunt",
-      "Description": "Integrated directional website",
-      "Email": "abigail@marvin.com",
-      "FullName": "Perry Tremblay",
-      "DirectPhone": "1-331-900-1002 x498",
-      "FormalName": "Smitham-Emmerich",
-      "CountryId": 662,
-      "ContactId": 85,
-      "ContactName": "Reichert, Kutch and Satterfield",
-      "Retired": 840,
-      "Rank": 685,
-      "ActiveInterests": 961,
+      "Position": "ut",
+      "PersonId": 485,
+      "Mrmrs": "necessitatibus",
+      "Firstname": "Meredith",
+      "Lastname": "Reichert",
+      "MiddleName": "Zieme-Yost",
+      "Title": "laborum",
+      "Description": "Triple-buffered leading edge matrix",
+      "Email": "lydia@lemkeblock.us",
+      "FullName": "Unique Lakin",
+      "DirectPhone": "1-128-436-4244 x061",
+      "FormalName": "Kilback-Hessel",
+      "CountryId": 581,
+      "ContactId": 903,
+      "ContactName": "Hammes, Heidenreich and Lynch",
+      "Retired": 272,
+      "Rank": 899,
+      "ActiveInterests": 34,
       "ContactDepartment": "",
-      "ContactCountryId": 512,
-      "ContactOrgNr": "431655",
-      "FaxPhone": "649-487-7963 x1102",
-      "MobilePhone": "246-493-7238 x58495",
-      "ContactPhone": "916.334.3071 x302",
-      "AssociateName": "Witting Inc and Sons",
-      "AssociateId": 597,
-      "UsePersonAddress": false,
-      "ContactFax": "blanditiis",
-      "Kanafname": "corrupti",
-      "Kanalname": "veritatis",
-      "Post1": "qui",
-      "Post2": "molestiae",
-      "Post3": "nobis",
-      "EmailName": "braden_langworth@ratke.biz",
-      "ContactFullName": "Miss Lolita William Armstrong",
-      "ActiveErpLinks": 624,
-      "TicketPriorityId": 630,
-      "SupportLanguageId": 296,
-      "SupportAssociateId": 248,
+      "ContactCountryId": 174,
+      "ContactOrgNr": "951590",
+      "FaxPhone": "168.985.3738",
+      "MobilePhone": "285-786-6660 x34852",
+      "ContactPhone": "605-333-0427 x1858",
+      "AssociateName": "Langworth, Okuneva and Huel",
+      "AssociateId": 430,
+      "UsePersonAddress": true,
+      "ContactFax": "aspernatur",
+      "Kanafname": "hic",
+      "Kanalname": "necessitatibus",
+      "Post1": "magnam",
+      "Post2": "quia",
+      "Post3": "hic",
+      "EmailName": "genesis@carter.us",
+      "ContactFullName": "Kimberly Towne",
+      "ActiveErpLinks": 191,
+      "TicketPriorityId": 557,
+      "SupportLanguageId": 978,
+      "SupportAssociateId": 831,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1145708",
+      "PersonNumber": "1162456",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 599
         }
       }
     }
   ],
-  "AlertLevel": 327,
-  "ConnectId": 667,
+  "AlertLevel": 710,
+  "ConnectId": 245,
   "ReadStatus": "Green",
-  "TimeToReply": 392,
-  "RealTimeToReply": 87,
-  "TimeToClose": 412,
-  "RealTimeToClose": 15,
-  "TimeSpentInternally": 844,
-  "TimeSpentExternally": 266,
-  "TimeSpentQueue": 967,
-  "RealTimeSpentInternally": 264,
-  "RealTimeSpentExternally": 449,
-  "RealTimeSpentQueue": 827,
-  "TimeSpent": 982,
+  "TimeToReply": 156,
+  "RealTimeToReply": 529,
+  "TimeToClose": 479,
+  "RealTimeToClose": 697,
+  "TimeSpentInternally": 541,
+  "TimeSpentExternally": 455,
+  "TimeSpentQueue": 169,
+  "RealTimeSpentInternally": 475,
+  "RealTimeSpentExternally": 646,
+  "RealTimeSpentQueue": 224,
+  "TimeSpent": 41,
   "HasAttachment": false,
-  "NumReplies": 588,
-  "NumMessages": 921,
-  "FromAddress": "sed",
+  "NumReplies": 894,
+  "NumMessages": 208,
+  "FromAddress": "autem",
   "Messages": [
     {
-      "TicketMessageId": 922,
-      "CreatedAt": "1999-05-15T03:40:47.9536063+02:00",
+      "TicketMessageId": 572,
+      "CreatedAt": "2002-11-15T02:30:47.8975637+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "suscipit",
-      "PersonId": 310,
-      "PersonFullName": "Lelah Laney Emard III",
-      "ContactId": 500,
-      "ContactName": "Jakubowski LLC",
+      "Author": "esse",
+      "PersonId": 109,
+      "PersonFullName": "Miss Weston Aurore Dickinson PhD",
+      "ContactId": 928,
+      "ContactName": "Mante-Rodriguez",
       "ContactDepartment": "",
-      "NumAttachments": 291,
-      "EmailHeader": "bart_cartwright@langjohnson.biz",
+      "NumAttachments": 878,
+      "EmailHeader": "elroy@ebert.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sit",
-      "Sentiment": 399,
-      "SentimentConfidence": 560,
-      "CreatedBy": 674,
-      "ChangedAt": "2006-05-24T03:40:47.9536063+02:00",
+      "Language": "deserunt",
+      "Sentiment": 186,
+      "SentimentConfidence": 438,
+      "CreatedBy": 330,
+      "ChangedAt": "2022-03-28T02:30:47.9131881+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 137
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 558,
-      "Name": "Leuschke-Parker",
-      "ToolTip": "Distinctio sed molestiae sed quas.",
+      "Id": 611,
+      "Name": "McKenzie, Ondricka and Kuhlman",
+      "ToolTip": "Modi quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     },
     {
-      "Id": 558,
-      "Name": "Leuschke-Parker",
-      "ToolTip": "Distinctio sed molestiae sed quas.",
+      "Id": 611,
+      "Name": "McKenzie, Ondricka and Kuhlman",
+      "ToolTip": "Modi quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     }
   ],
-  "Language": "praesentium",
-  "Sentiment": 154,
-  "SentimentConfidence": 910,
-  "SuggestedCategoryId": 982,
+  "Language": "id",
+  "Sentiment": 388,
+  "SentimentConfidence": 17,
+  "SuggestedCategoryId": 972,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 808,
-  "IconHint": "pariatur",
+  "OrigHumanCategoryId": 811,
+  "IconHint": "facere",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 29,
+  "ActiveStatusMonitorId": 595,
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quis"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "corporis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldLength": 64
     }
   }
 }

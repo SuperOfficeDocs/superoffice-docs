@@ -101,18 +101,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 917,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2019-07-26T03:40:46.6092641+02:00",
-  "EndTime": "2009-04-22T03:40:46.6092641+02:00",
-  "Count": 368,
+  "PersonId": 329,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2001-08-20T02:30:47.0850878+02:00",
+  "EndTime": "2013-12-09T02:30:47.0850878+01:00",
+  "Count": 844,
   "DocumentTemplateIds": [
-    486,
-    157
+    960,
+    752
   ]
 }
 ```
@@ -125,32 +125,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 258,
-    "Attention": "perferendis",
-    "Header": "porro",
-    "Name": "Buckridge Group",
-    "OurRef": "recusandae",
-    "YourRef": "dolores",
-    "Description": "Down-sized zero administration leverage",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 287,
-    "PersonFullName": "Miss Vidal Lou Towne PhD",
-    "AssociateFullName": "Mack Rutherford",
-    "ContactId": 909,
-    "ContactName": "VonRueden LLC",
-    "ProjectId": 507,
-    "ProjectName": "Wilderman-Keebler",
-    "AssociateId": 673,
-    "Snum": 434,
-    "SaleId": 134,
-    "SaleName": "Rath Inc and Sons",
+    "DocumentId": 983,
+    "Attention": "sint",
+    "Header": "quas",
+    "Name": "Marvin-Franecki",
+    "OurRef": "quia",
+    "YourRef": "laboriosam",
+    "Description": "Mandatory intangible conglomeration",
+    "DocumentTemplate": "sed",
+    "IsPublished": false,
+    "PersonId": 74,
+    "PersonFullName": "Hermina Gerhold",
+    "AssociateFullName": "Marlee Schultz",
+    "ContactId": 516,
+    "ContactName": "Lind-Blick",
+    "ProjectId": 233,
+    "ProjectName": "Reynolds-Brekke",
+    "AssociateId": 372,
+    "Snum": 760,
+    "SaleId": 700,
+    "SaleName": "Gerlach LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 215
       }
     }
   }

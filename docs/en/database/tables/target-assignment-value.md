@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_assignment\_value Table (506)
+# target\_assignment\_value Table (507)
 
 A set of values linked to assignment info and a period in a target group.
 

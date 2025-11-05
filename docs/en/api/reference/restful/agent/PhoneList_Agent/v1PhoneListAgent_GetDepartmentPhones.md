@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 267
+  "DepartmentId": 322
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(710)814-5309",
-    "PersonCellPhone": "472-563-8636 x8993",
-    "PersonPrivatePhone": "634.730.3470",
-    "PersonFaxNumber": "341280",
-    "PersonPagerNumber": "1071247",
-    "PersonEmail": "zoe@powlowski.us",
-    "Id": 202,
-    "Name": "Bednar-Johnston",
-    "Tooltip": "voluptatum",
-    "UniqueId": "quae",
+    "PersonDirectPhone": "(188)205-0612 x34848",
+    "PersonCellPhone": "348-790-2731 x932",
+    "PersonPrivatePhone": "718.997.1109",
+    "PersonFaxNumber": "447169",
+    "PersonPagerNumber": "1212573",
+    "PersonEmail": "olin@kohler.name",
+    "Id": 655,
+    "Name": "Mraz-Becker",
+    "Tooltip": "voluptatem",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 191
       }
     }
   }

@@ -103,89 +103,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 967,
-  "Name": "Luettgen, Wiegand and Corkery",
-  "Department": "",
-  "OrgNr": "1211180",
-  "Number1": "1284833",
-  "Number2": "866386",
-  "UpdatedDate": "2010-12-25T03:40:55.5850292+01:00",
-  "CreatedDate": "2003-11-07T03:40:55.5850292+01:00",
+  "ContactId": 977,
+  "Name": "Kuhlman, Trantow and Price",
+  "Department": "generate visionary architectures",
+  "OrgNr": "544137",
+  "Number1": "905973",
+  "Number2": "775871",
+  "UpdatedDate": "2007-08-24T02:30:52.4911666+02:00",
+  "CreatedDate": "2014-01-19T02:30:52.4911666+01:00",
   "Emails": [
     {
-      "Value": "sed",
-      "StrippedValue": "corporis",
-      "Description": "Multi-layered empowering hardware"
+      "Value": "sit",
+      "StrippedValue": "dolorem",
+      "Description": "Operative discrete system engine"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "corporis",
-      "Description": "Multi-layered empowering hardware"
+      "Value": "sit",
+      "StrippedValue": "dolorem",
+      "Description": "Operative discrete system engine"
     }
   ],
   "Interests": [
     {
-      "Id": 838,
-      "Name": "Mohr-Funk",
-      "ToolTip": "Eius odio et maxime.",
+      "Id": 158,
+      "Name": "Wuckert Group",
+      "ToolTip": "Commodi est atque qui tenetur.",
       "Deleted": false,
-      "Rank": 92,
-      "Type": "ea",
-      "ColorBlock": 784,
-      "IconHint": "velit",
+      "Rank": 462,
+      "Type": "temporibus",
+      "ColorBlock": 728,
+      "IconHint": "vero",
       "Selected": false,
-      "LastChanged": "2023-07-13T03:40:55.5850292+02:00",
+      "LastChanged": "2001-09-15T02:30:52.4911666+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "quod",
+      "ExtraInfo": "impedit",
+      "StyleHint": "libero",
       "Hidden": false,
-      "FullName": "Ursula Rau"
+      "FullName": "Olga Hermiston"
     }
   ],
   "Urls": [
     {
-      "Value": "rerum",
-      "StrippedValue": "totam",
-      "Description": "Organized full-range application"
+      "Value": "fugiat",
+      "StrippedValue": "sit",
+      "Description": "Stand-alone directional workforce"
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "totam",
-      "Description": "Organized full-range application"
+      "Value": "fugiat",
+      "StrippedValue": "sit",
+      "Description": "Stand-alone directional workforce"
     }
   ],
   "Phones": [
     {
-      "Value": "doloremque",
-      "StrippedValue": "hic",
-      "Description": "Synergistic well-modulated workforce"
+      "Value": "maxime",
+      "StrippedValue": "quidem",
+      "Description": "Optimized content-based software"
     },
     {
-      "Value": "doloremque",
-      "StrippedValue": "hic",
-      "Description": "Synergistic well-modulated workforce"
+      "Value": "maxime",
+      "StrippedValue": "quidem",
+      "Description": "Optimized content-based software"
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "omnis",
-      "Description": "Synchronised incremental help-desk"
+      "Value": "fugiat",
+      "StrippedValue": "iure",
+      "Description": "Re-engineered client-driven function"
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "omnis",
-      "Description": "Synchronised incremental help-desk"
+      "Value": "fugiat",
+      "StrippedValue": "iure",
+      "Description": "Re-engineered client-driven function"
     }
   ],
-  "Description": "Inverse web-enabled paradigm",
+  "Description": "Streamlined object-oriented array",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -194,87 +194,87 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 925,
-      "Mrmrs": "velit",
-      "Firstname": "Thaddeus",
-      "Lastname": "Luettgen",
-      "MiddleName": "Gutmann Inc and Sons",
-      "Title": "ullam",
-      "Description": "Total exuding database",
-      "Email": "adrain@windler.info",
-      "FullName": "Sibyl Champlin IV",
-      "DirectPhone": "1-113-008-3749 x228",
-      "FormalName": "Lowe-Bartoletti",
-      "CountryId": 686,
-      "ContactId": 745,
-      "ContactName": "Gulgowski-Stroman",
-      "Retired": 963,
-      "Rank": 416,
-      "ActiveInterests": 937,
+      "Position": "consequuntur",
+      "PersonId": 534,
+      "Mrmrs": "perspiciatis",
+      "Firstname": "Destany",
+      "Lastname": "Becker",
+      "MiddleName": "Schuster, Walker and Fahey",
+      "Title": "sed",
+      "Description": "Compatible radical emulation",
+      "Email": "flo@torp.name",
+      "FullName": "Stephen Johnpaul Terry III",
+      "DirectPhone": "1-205-900-7778 x60962",
+      "FormalName": "Mosciski, Lueilwitz and Stanton",
+      "CountryId": 939,
+      "ContactId": 921,
+      "ContactName": "Hilpert LLC",
+      "Retired": 628,
+      "Rank": 627,
+      "ActiveInterests": 945,
       "ContactDepartment": "",
       "ContactCountryId": 952,
-      "ContactOrgNr": "731350",
-      "FaxPhone": "481-908-2435 x538",
-      "MobilePhone": "654-643-9439 x529",
-      "ContactPhone": "1-462-569-2639 x51081",
-      "AssociateName": "O'Hara-Rempel",
-      "AssociateId": 972,
+      "ContactOrgNr": "1141293",
+      "FaxPhone": "005-989-5201 x3741",
+      "MobilePhone": "563.270.1563",
+      "ContactPhone": "194.068.1706 x451",
+      "AssociateName": "Kassulke, White and Botsford",
+      "AssociateId": 767,
       "UsePersonAddress": true,
-      "ContactFax": "nisi",
-      "Kanafname": "et",
-      "Kanalname": "ut",
-      "Post1": "dignissimos",
-      "Post2": "id",
-      "Post3": "ab",
-      "EmailName": "jewell@botsford.info",
-      "ContactFullName": "Keon Doyle",
-      "ActiveErpLinks": 257,
-      "TicketPriorityId": 190,
-      "SupportLanguageId": 147,
-      "SupportAssociateId": 415,
+      "ContactFax": "porro",
+      "Kanafname": "architecto",
+      "Kanalname": "consequatur",
+      "Post1": "eius",
+      "Post2": "ea",
+      "Post3": "rerum",
+      "EmailName": "juvenal@abernathy.biz",
+      "ContactFullName": "Electa Williamson",
+      "ActiveErpLinks": 673,
+      "TicketPriorityId": 87,
+      "SupportLanguageId": 687,
+      "SupportAssociateId": 897,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1980600"
+      "PersonNumber": "1604135"
     }
   ],
   "NoMailing": false,
-  "Kananame": "est",
+  "Kananame": "accusantium",
   "Xstop": true,
-  "ActiveInterests": 659,
-  "GroupId": 107,
-  "ActiveStatusMonitorId": 138,
+  "ActiveInterests": 971,
+  "GroupId": 844,
+  "ActiveStatusMonitorId": 329,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 780,
-  "DbiAgentId": 122,
-  "DbiLastSyncronized": "2003-12-15T03:40:55.5850292+01:00",
-  "DbiKey": "qui",
-  "DbiLastModified": "2015-03-09T03:40:55.5850292+01:00",
+  "Deleted": 996,
+  "DbiAgentId": 59,
+  "DbiLastSyncronized": "2012-05-09T02:30:52.4911666+02:00",
+  "DbiKey": "fugiat",
+  "DbiLastModified": "2025-05-21T02:30:52.4911666+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 136,
-  "ActiveErpLinks": 944,
+  "Source": 791,
+  "ActiveErpLinks": 240,
   "BounceEmails": [
-    "yadira.cormier@cummingsjohnson.com",
-    "judson_medhurst@vandervortkuphal.us"
+    "grover@bashirian.uk",
+    "matt.sporer@rau.com"
   ],
   "Domains": [
-    "sit",
-    "molestias"
+    "consectetur",
+    "occaecati"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Glenda Dickens",
-    "SuperOffice:2": "Seamus Emmerich"
+    "SuperOffice:1": "Mr. Esperanza Stan Barton Jr.",
+    "SuperOffice:2": "Kole Okuneva"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "vitae"
+    "CustomFields1": "qui",
+    "CustomFields2": "repudiandae"
   }
 }
 ```
@@ -286,7 +286,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quidem",
-  "2": "quasi"
+  "1": "laudantium",
+  "2": "consequatur"
 }
 ```

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=538
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=725
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,24 +91,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 343,
-  "Name": "O'Reilly, Mills and Friesen",
-  "Description": "Self-enabling homogeneous customer loyalty",
+  "ReportLabelLayoutId": 548,
+  "Name": "Kerluke, Schmitt and Boyle",
+  "Description": "Configurable dynamic data-warehouse",
   "Orientation": "Landscape",
-  "PaperWidth": 938,
-  "PaperHeight": 161,
-  "LeftMargin": 351,
-  "RightMargin": 434,
-  "TopMargin": 232,
-  "BottomMargin": 846,
-  "CountColumns": 563,
-  "CountRows": 935,
+  "PaperWidth": 193,
+  "PaperHeight": 281,
+  "LeftMargin": 614,
+  "RightMargin": 275,
+  "TopMargin": 75,
+  "BottomMargin": 223,
+  "CountColumns": 308,
+  "CountRows": 279,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldLength": 984
     }
   }
 }

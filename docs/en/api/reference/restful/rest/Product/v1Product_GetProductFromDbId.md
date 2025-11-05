@@ -93,7 +93,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,73 +103,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 546,
-  "ERPProductKey": "praesentium",
-  "ERPPriceListKey": "sunt",
-  "Name": "Altenwerth-Heller",
-  "Description": "Visionary 5th generation data-warehouse",
-  "Code": "temporibus",
-  "PriceUnit": "in",
-  "QuantityUnit": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 20568.442,
-  "ItemNumber": "703086",
+  "ProductId": 95,
+  "ERPProductKey": "itaque",
+  "ERPPriceListKey": "tempore",
+  "Name": "Mohr, Weimann and Wiegand",
+  "Description": "User-centric real-time moderator",
+  "Code": "incidunt",
+  "PriceUnit": "quia",
+  "QuantityUnit": "reprehenderit",
+  "IsSubscription": false,
+  "SubscriptionUnit": "atque",
+  "DefaultSubscriptionQuantity": 14291.039999999999,
+  "ItemNumber": "833853",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fuga",
-  "ProductTypeKey": "necessitatibus",
-  "VAT": 24423.262,
-  "VATInfo": "corrupti",
-  "UnitCost": 22176.183999999997,
-  "UnitMinimumPrice": 2478.994,
-  "UnitListPrice": 821.108,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "quia",
+  "VAT": 19220.822,
+  "VATInfo": "esse",
+  "UnitCost": 15146.622,
+  "UnitMinimumPrice": 27764.106,
+  "UnitListPrice": 26924.194,
   "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "sit",
-  "Rights": "ipsam",
-  "Rule": "maxime",
+  "Supplier": "accusamus",
+  "SupplierCode": "fuga",
+  "Rights": "asperiores",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Littel LLC",
-      "Value": "quidem",
+      "Name": "Bogisich, Feil and O'Hara",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldType": "System.Int32",
+          "FieldLength": 313
         }
       }
     },
     {
-      "Name": "Littel LLC",
-      "Value": "quidem",
+      "Name": "Bogisich, Feil and O'Hara",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldType": "System.Int32",
+          "FieldLength": 313
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "eius",
-  "ExtraField3": "animi",
-  "ExtraField4": "rerum",
-  "ExtraField5": "blanditiis",
-  "InStock": 22837.458,
+  "RawExtraInfo": "ipsa",
+  "ExtraField1": "veritatis",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "eaque",
+  "ExtraField4": "sed",
+  "ExtraField5": "unde",
+  "InStock": 9527.36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 780
     }
   }
 }

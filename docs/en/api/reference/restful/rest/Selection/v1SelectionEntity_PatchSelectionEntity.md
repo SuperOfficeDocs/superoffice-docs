@@ -150,18 +150,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -174,70 +174,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved regional data-warehouse",
-  "Postit": "consectetur",
+  "Description": "Centralized 5th generation architecture",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 951,
-  "IncludePerson": 34,
+  "GroupIdx": 823,
+  "IncludePerson": 695,
   "MemberCount": 99.99,
-  "Name": "Stark-Haag",
-  "PostitTextId": 975,
-  "CreatedDate": "1999-11-04T03:40:56.2292047+01:00",
-  "SelectionId": 368,
-  "SoundEx": "unde",
-  "Source": 864,
-  "TextId": 56,
-  "UpdatedDate": "2007-07-23T03:40:56.2292047+02:00",
-  "UpdatedCount": 123,
-  "Visibility": 128,
+  "Name": "Cronin Inc and Sons",
+  "PostitTextId": 739,
+  "CreatedDate": "1998-09-30T02:30:52.9286519+02:00",
+  "SelectionId": 14,
+  "SoundEx": "placeat",
+  "Source": 668,
+  "TextId": 466,
+  "UpdatedDate": "2019-10-26T02:30:52.9286519+02:00",
+  "UpdatedCount": 40,
+  "Visibility": 364,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 126,
-  "TargetTableName": "Ankunding, Weber and Kirlin",
+  "CompanyUnique": true,
+  "TargetTableNumber": 615,
+  "TargetTableName": "Bruen-Dickens",
   "Completed": false,
-  "LeftSelectionId": 657,
-  "RightSelectionId": 421,
+  "LeftSelectionId": 755,
+  "RightSelectionId": 694,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Keebler, Bode and Hand",
-  "ShadowProviderName": "Zemlak Inc and Sons",
-  "ChartKey": "quaerat",
-  "LastLoaded": "2019-11-01T03:40:56.2292047+01:00",
-  "LastLoadedBy": 464,
+  "MainProviderName": "Tremblay-Friesen",
+  "ShadowProviderName": "Pacocha Inc and Sons",
+  "ChartKey": "sint",
+  "LastLoaded": "2014-12-10T02:30:52.9286519+01:00",
+  "LastLoadedBy": 235,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-04-05T03:40:56.2292047+02:00",
-  "LastMembershipChangeBy": 900,
+  "LastMembershipChange": "2020-11-25T02:30:52.9286519+01:00",
+  "LastMembershipChangeBy": 38,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quod",
-  "MemberTabHeading": "placeat",
-  "MailingsProviderName": "Nolan, Collins and Collier",
-  "DashboardTileDefinitionId": 584,
+  "MainHeading": "totam",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Emard Inc and Sons",
+  "DashboardTileDefinitionId": 805,
   "VisibleFor": [
     {
-      "VisibleId": 365,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 140
         }
       }
     },
     {
-      "VisibleId": 365,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 140
         }
       }
     }
@@ -246,13 +246,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

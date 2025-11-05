@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | projectEventEntityId | int32 | **Required** The identity of the ProjectEventEntity |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=407
+POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=30
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

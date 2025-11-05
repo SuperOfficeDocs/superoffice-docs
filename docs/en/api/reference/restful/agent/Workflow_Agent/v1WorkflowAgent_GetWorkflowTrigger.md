@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=538
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=574
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,23 +83,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 44,
-  "WorkflowId": 525,
+  "WorkflowTriggerId": 395,
+  "WorkflowId": 250,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Gutkowski, Jacobi and Altenwerth",
-      "Description": "Cloned client-server projection",
-      "Rank": 237,
+      "Name": "Langosh, Glover and Ward",
+      "Description": "Total client-driven capability",
+      "Rank": 942,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski, Jacobi and Altenwerth",
-      "Description": "Cloned client-server projection",
-      "Rank": 237,
+      "Name": "Langosh, Glover and Ward",
+      "Description": "Total client-driven capability",
+      "Rank": 942,
       "Restrictions": [
         {},
         {}
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 75
     }
   }
 }

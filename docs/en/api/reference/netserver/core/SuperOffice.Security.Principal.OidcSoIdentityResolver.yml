@@ -9,6 +9,7 @@ items:
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.DbCredentialType
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.Name
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+  - SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection,System.Int32,System.String)
   langs:
   - csharp
   - vb
@@ -122,6 +123,36 @@ items:
   nameWithType.vb: OidcSoIdentityResolver.ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
   fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection)
   name.vb: ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
+- uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection,System.Int32,System.String)
+  commentId: M:SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection,System.Int32,System.String)
+  id: UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection,System.Int32,System.String)
+  parent: SuperOffice.Security.Principal.OidcSoIdentityResolver
+  langs:
+  - csharp
+  - vb
+  name: UpdateAssociateNameAndLastUsed(SoConnection, int, string)
+  nameWithType: OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SoConnection, int, string)
+  fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection, int, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static Task UpdateAssociateNameAndLastUsed(SoConnection dbConnection, int associateId, string oidcUserName)
+    parameters:
+    - id: dbConnection
+      type: SuperOffice.Data.SoConnection
+    - id: associateId
+      type: System.Int32
+    - id: oidcUserName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateAssociateNameAndLastUsed(dbConnection As SoConnection, associateId As Integer, oidcUserName As String) As Task
+  overload: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed*
+  nameWithType.vb: OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SoConnection, Integer, String)
+  fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed(SuperOffice.Data.SoConnection, Integer, String)
+  name.vb: UpdateAssociateNameAndLastUsed(SoConnection, Integer, String)
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   commentId: M:SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   id: '#ctor'
@@ -1258,6 +1289,32 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed*
+  commentId: Overload:SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed
+  isExternal: true
+  href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html#SuperOffice_Security_Principal_OidcSoIdentityResolver_UpdateAssociateNameAndLastUsed_SuperOffice_Data_SoConnection_System_Int32_System_String_
+  name: UpdateAssociateNameAndLastUsed
+  nameWithType: OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed
+  fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.UpdateAssociateNameAndLastUsed
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor*
   commentId: Overload:SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   isExternal: true

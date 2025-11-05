@@ -100,28 +100,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 228,
-  "Name": "Runte, Lang and Nikolaus",
-  "CurrencyId": 936,
-  "EnglishName": "Frami LLC",
+  "CountryId": 321,
+  "Name": "Treutel, Luettgen and Grimes",
+  "CurrencyId": 862,
+  "EnglishName": "Langworth LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profit-focused value-added extranet",
-  "OrgNrText": "1125009",
-  "InterAreaPrefix": "dolorum",
-  "DialInPrefix": "laudantium",
-  "ZipPrefix": "nemo",
-  "DomainName": "Friesen, Fadel and Terry",
-  "AddressLayoutId": 939,
-  "DomesticAddressLayoutId": 234,
-  "ForeignAddressLayoutId": 277,
-  "Rank": 574,
-  "Tooltip": "et",
-  "Deleted": true
+  "ImageDescription": "Monitored optimal approach",
+  "OrgNrText": "510027",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "ut",
+  "DomainName": "O'Keefe, Cummerata and Conroy",
+  "AddressLayoutId": 815,
+  "DomesticAddressLayoutId": 737,
+  "ForeignAddressLayoutId": 445,
+  "Rank": 983,
+  "Tooltip": "qui",
+  "Deleted": false
 }
 ```
 
@@ -132,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 767,
-  "Name": "Gutmann-Sporer",
-  "CurrencyId": 788,
-  "EnglishName": "Will Inc and Sons",
+  "CountryId": 840,
+  "Name": "Zulauf-Klein",
+  "CurrencyId": 10,
+  "EnglishName": "Pfeffer, Hamill and Ratke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked analyzing collaboration",
-  "OrgNrText": "880511",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "rerum",
-  "ZipPrefix": "autem",
-  "DomainName": "Roob-Hermiston",
-  "AddressLayoutId": 886,
-  "DomesticAddressLayoutId": 265,
-  "ForeignAddressLayoutId": 815,
-  "Rank": 729,
-  "Tooltip": "placeat",
+  "ImageDescription": "Innovative coherent capacity",
+  "OrgNrText": "585878",
+  "InterAreaPrefix": "unde",
+  "DialInPrefix": "culpa",
+  "ZipPrefix": "ipsam",
+  "DomainName": "O'Keefe-Emmerich",
+  "AddressLayoutId": 649,
+  "DomesticAddressLayoutId": 341,
+  "ForeignAddressLayoutId": 549,
+  "Rank": 829,
+  "Tooltip": "officiis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

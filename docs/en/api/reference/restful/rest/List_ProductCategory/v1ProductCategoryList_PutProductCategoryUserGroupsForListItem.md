@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Legros-Hills",
-    "ToolTip": "Corporis ex et doloremque odit velit.",
-    "Deleted": false,
-    "Rank": 92,
-    "Type": "aut",
-    "ColorBlock": 171,
-    "IconHint": "vel",
+    "Id": 481,
+    "Name": "Brakus-Marquardt",
+    "ToolTip": "Dignissimos dolorem ut.",
+    "Deleted": true,
+    "Rank": 496,
+    "Type": "et",
+    "ColorBlock": 623,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2022-12-09T03:40:56.9933484+01:00",
+    "LastChanged": "2007-07-04T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "McCullough, Schinner and Flatley",
-        "ToolTip": "Nobis hic ipsam.",
-        "Deleted": true,
-        "Rank": 548,
-        "Type": "officiis",
-        "ColorBlock": 667,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2017-12-12T03:40:56.9933484+01:00",
+        "Id": 282,
+        "Name": "Rice, Bednar and Raynor",
+        "ToolTip": "Saepe libero quia a vitae quidem eos.",
+        "Deleted": false,
+        "Rank": 623,
+        "Type": "sed",
+        "ColorBlock": 187,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2002-11-29T02:30:53.3505129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Ms. Shanon Carter Kertzmann Sr."
+        "ExtraInfo": "odio",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Ethyl Von"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "provident",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Miss Dimitri Elsie Jones"
+    "FullName": "Nya Forrest Ebert Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Donnelly, Mueller and Rosenbaum",
-    "ToolTip": "Omnis quae aliquam.",
+    "Id": 624,
+    "Name": "Bradtke, Leannon and Schaefer",
+    "ToolTip": "Qui rerum velit.",
     "Deleted": true,
-    "Rank": 267,
-    "Type": "dolorum",
-    "ColorBlock": 778,
-    "IconHint": "dolorem",
+    "Rank": 745,
+    "Type": "quae",
+    "ColorBlock": 688,
+    "IconHint": "animi",
     "Selected": true,
-    "LastChanged": "2010-07-05T03:40:57.0089742+02:00",
+    "LastChanged": "2019-05-28T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Kiehn-Harvey",
-        "ToolTip": "Similique est aut et libero ea illo sunt.",
-        "Deleted": false,
-        "Rank": 721,
-        "Type": "consequatur",
-        "ColorBlock": 722,
-        "IconHint": "aliquam",
+        "Id": 404,
+        "Name": "Wisoky-Swift",
+        "ToolTip": "Consectetur consequuntur.",
+        "Deleted": true,
+        "Rank": 987,
+        "Type": "ut",
+        "ColorBlock": 411,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2019-10-15T03:40:57.0089742+02:00",
+        "LastChanged": "2002-06-28T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "itaque",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Jake Runolfsdottir Jr.",
+        "FullName": "Mr. Shanny Neha Konopelski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldType": "System.Int32",
+            "FieldLength": 349
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "atque",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Tomasa Leffler",
+    "FullName": "Lelah Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldLength": 477
       }
     }
   }

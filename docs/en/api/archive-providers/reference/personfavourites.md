@@ -66,8 +66,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
-|leadstatus|listAny|Lead status| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
+|restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
@@ -164,8 +166,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|personExtra/y\_rental/x\_end|date|Rental - End| x |
+|personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -191,7 +193,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -221,14 +223,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
 |correspondingAssociate/assocTooltip|string|Description : Description|  |
-|correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -246,6 +248,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
+|companyCategoryRank|int|Category rank| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -265,6 +268,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |deletedDate|datetime|Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company| x |
+|forceCompany|bool|Dummy: Dummy|  |
 |contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contactPhone/description|string|Telephone - Description: Phone number description| x |
 |postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -312,7 +316,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -323,14 +327,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
-|contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
-|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
-|hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/isLocation|bool|Is a location: Is a location| x |
+|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
+|hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -343,7 +347,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=favouritePersonAssociateId,contactAssociate/contactId,restrictionAddress/county
+GET /api/v1/archive/personfavourites?$select=rank,personRegisteredBy,personExtra/x_person_date,personAssociate/fullName,personAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

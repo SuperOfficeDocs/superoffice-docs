@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 386,
-    "ParentId": 723,
-    "Name": "Bechtelar LLC",
-    "Fullname": "odit",
-    "CategoryMaster": 201,
+    "TicketCategoryId": 363,
+    "ParentId": 154,
+    "Name": "Gorczany-Champlin",
+    "Fullname": "molestiae",
+    "CategoryMaster": 619,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Greenholt, Lynch and Greenholt",
+    "ExternalName": "Sporer-Smith",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 612,
-    "ReplyTemplate": 107,
-    "NotificationEmail": "colin.damore@bednar.com",
+    "AssignmentLag": 306,
+    "ReplyTemplate": 74,
+    "NotificationEmail": "edgar_turner@shanahanmuller.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 860,
+    "EffectiveReplyTemplateId": 564,
     "ExtraFields": {
-      "ExtraFields1": "voluptate",
-      "ExtraFields2": "vel"
+      "ExtraFields1": "in",
+      "ExtraFields2": "culpa"
     },
     "CustomFields": {
-      "CustomFields1": "exercitationem",
-      "CustomFields2": "doloremque"
+      "CustomFields1": "ipsam",
+      "CustomFields2": "dolores"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

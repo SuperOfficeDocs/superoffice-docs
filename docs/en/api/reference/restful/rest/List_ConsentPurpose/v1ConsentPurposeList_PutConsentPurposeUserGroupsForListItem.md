@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Kirlin Group",
-    "ToolTip": "Et illo.",
-    "Deleted": false,
-    "Rank": 258,
-    "Type": "nemo",
-    "ColorBlock": 390,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2014-07-30T03:40:56.743228+02:00",
+    "Id": 525,
+    "Name": "Cormier-Bayer",
+    "ToolTip": "Nostrum quia ut aut.",
+    "Deleted": true,
+    "Rank": 992,
+    "Type": "in",
+    "ColorBlock": 894,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2013-11-13T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Bins Inc and Sons",
-        "ToolTip": "Neque magni voluptate doloremque.",
+        "Id": 981,
+        "Name": "Wintheiser, Moore and Botsford",
+        "ToolTip": "Non deserunt et.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "ut",
-        "ColorBlock": 990,
-        "IconHint": "qui",
+        "Rank": 480,
+        "Type": "nemo",
+        "ColorBlock": 675,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2006-05-06T03:40:56.743228+02:00",
+        "LastChanged": "2018-01-31T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "minus",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "tempora",
         "Hidden": true,
-        "FullName": "Marie Schuppe"
+        "FullName": "Dock Kertzmann"
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "quia",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Matteo Collier"
+    "FullName": "Elinor Cummings Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Gorczany, Raynor and Rogahn",
-    "ToolTip": "Optio quibusdam repellendus delectus soluta dicta rerum.",
-    "Deleted": false,
-    "Rank": 141,
-    "Type": "fugit",
-    "ColorBlock": 640,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2020-03-24T03:40:56.743228+01:00",
+    "Id": 612,
+    "Name": "Breitenberg, Pagac and Kirlin",
+    "ToolTip": "Temporibus nihil praesentium dolor consequatur fugiat ad consequuntur.",
+    "Deleted": true,
+    "Rank": 968,
+    "Type": "rerum",
+    "ColorBlock": 827,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2024-02-03T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 444,
-        "Name": "Rath-Conn",
-        "ToolTip": "Expedita consequuntur harum inventore perspiciatis voluptas id.",
+        "Id": 607,
+        "Name": "Gusikowski Inc and Sons",
+        "ToolTip": "Qui est incidunt error.",
         "Deleted": false,
-        "Rank": 186,
-        "Type": "illum",
-        "ColorBlock": 391,
-        "IconHint": "iusto",
+        "Rank": 463,
+        "Type": "ea",
+        "ColorBlock": 78,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2009-06-16T03:40:56.743228+02:00",
+        "LastChanged": "2018-10-29T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Mr. Sheldon Dietrich",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Mr. Ford Berneice Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 912
+            "FieldLength": 831
           }
         }
       }
     ],
     "ExtraInfo": "veniam",
-    "StyleHint": "ipsam",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Keara Koss",
+    "FullName": "Meaghan Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 112
       }
     }
   }

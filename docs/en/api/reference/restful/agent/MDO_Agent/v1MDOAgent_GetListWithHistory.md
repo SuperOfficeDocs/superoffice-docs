@@ -95,12 +95,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harvey, Mayert and Kub",
+  "Name": "Hahn-Rogahn",
   "ForceFlatList": false,
   "AdditionalInfo": "et",
   "HistoryItems": [
-    293,
-    237
+    694,
+    410
   ],
   "OnlyHistory": true
 }
@@ -114,50 +114,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Haag, Daniel and Klein",
-    "ToolTip": "Minus sed deserunt.",
-    "Deleted": false,
-    "Rank": 481,
-    "Type": "adipisci",
+    "Id": 51,
+    "Name": "Mann, Hoeger and Macejkovic",
+    "ToolTip": "Amet aut sint nihil.",
+    "Deleted": true,
+    "Rank": 670,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Cartwright-Yundt",
-        "ToolTip": "Maiores non blanditiis neque velit aperiam minus.",
-        "Deleted": false,
-        "Rank": 252,
-        "Type": "velit",
+        "Id": 627,
+        "Name": "Christiansen Group",
+        "ToolTip": "Et iure magnam.",
+        "Deleted": true,
+        "Rank": 137,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 983,
-        "ExtraInfo": "eos",
-        "StyleHint": "blanditiis",
-        "FullName": "Mossie Lind",
+        "IconHint": "quo",
+        "ColorBlock": 586,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "quam",
+        "FullName": "Mortimer Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldLength": 25
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 470,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "consequatur",
-    "FullName": "Alexandria Conroy",
+    "IconHint": "inventore",
+    "ColorBlock": 460,
+    "ExtraInfo": "fuga",
+    "StyleHint": "aut",
+    "FullName": "Alexa Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

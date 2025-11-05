@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,31 +102,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 842,
-    "Name": "O'Reilly, Schulist and Miller",
-    "Rank": 498,
-    "Tooltip": "necessitatibus",
-    "Icon": "aliquid",
-    "DefaultTicketStatus": 335,
+    "TicketTypeId": 162,
+    "Name": "Harber Inc and Sons",
+    "Rank": 749,
+    "Tooltip": "ut",
+    "Icon": "enim",
+    "DefaultTicketStatus": 436,
     "TicketStatuses": [
-      920,
-      163
+      159,
+      687
     ],
-    "DefaultTicketPriority": 124,
+    "DefaultTicketPriority": 59,
     "TicketPriorities": [
-      654,
-      391
+      610,
+      660
     ],
-    "ReplyTemplate": 547,
-    "IsExternalVisible": false,
-    "IsDefault": true,
-    "ShowInNew": false,
-    "ExcludeSignature": true,
+    "ReplyTemplate": 632,
+    "IsExternalVisible": true,
+    "IsDefault": false,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      819,
-      500
+      2,
+      580
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

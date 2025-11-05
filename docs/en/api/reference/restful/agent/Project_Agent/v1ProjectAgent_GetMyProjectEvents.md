@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Carmine Bins",
-    "Description": "Persevering needs-based solution",
-    "ProjectId": 920,
-    "EventName": "Hand LLC",
-    "AssociateId": 268,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "quibusdam",
-    "SignOffText": "magnam",
-    "SignOnConfirmationText": "deserunt",
-    "SignOnText": "reprehenderit",
-    "EventDate": "2001-08-02T03:40:47.4843558+02:00",
+    "AssociateFullName": "Dr. Sabina Bessie Jakubowski",
+    "Description": "Innovative interactive framework",
+    "ProjectId": 708,
+    "EventName": "Gislason-Daugherty",
+    "AssociateId": 73,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "unde",
+    "SignOffText": "quibusdam",
+    "SignOnConfirmationText": "unde",
+    "SignOnText": "maiores",
+    "EventDate": "2008-04-18T02:30:47.6788214+02:00",
     "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 430,
-    "SignOnTaskId": 141,
+    "SignOn": true,
+    "SignOffTaskId": 572,
+    "SignOnTaskId": 409,
     "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 571,
-    "SignOffPersonId": 326,
+    "SignOnPersonId": 624,
+    "SignOffPersonId": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 467
       }
     }
   }

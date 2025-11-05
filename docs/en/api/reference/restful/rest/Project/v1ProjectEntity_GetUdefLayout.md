@@ -91,7 +91,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 217,
-    "ColumnId": 302,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 28,
-    "FieldLabel": "sit",
-    "FieldLeft": 290,
-    "FieldTop": 412,
+    "UDefFieldId": 328,
+    "ColumnId": 501,
+    "FieldDefault": "ut",
+    "FieldHeight": 289,
+    "FieldLabel": "fugit",
+    "FieldLeft": 198,
+    "FieldTop": 883,
     "FieldType": "Checkbox",
-    "FieldWidth": 585,
-    "FormatMask": "cum",
+    "FieldWidth": 452,
+    "FormatMask": "id",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 757,
-    "LabelLeft": 495,
-    "LabelTop": 501,
-    "LabelWidth": 536,
-    "LastVersionId": 1001,
-    "ListTableId": 117,
+    "LabelHeight": 439,
+    "LabelLeft": 450,
+    "LabelTop": 569,
+    "LabelWidth": 544,
+    "LastVersionId": 922,
+    "ListTableId": 130,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 646,
-    "ProgId": "sint",
-    "IsReadOnly": true,
-    "ShortLabel": "aut",
-    "TabOrder": 173,
-    "TextLength": 831,
-    "Tooltip": "eum",
-    "UdefIdentity": 66,
-    "UDListDefinitionId": 941,
+    "Page1LineNo": 674,
+    "ProgId": "quia",
+    "IsReadOnly": false,
+    "ShortLabel": "repellat",
+    "TabOrder": 47,
+    "TextLength": 229,
+    "Tooltip": "commodi",
+    "UdefIdentity": 919,
+    "UDListDefinitionId": 514,
     "Justification": "Center",
-    "Version": 733,
-    "TemplateVariableName": "McCullough-Gaylord",
+    "Version": 185,
+    "TemplateVariableName": "Christiansen-Hills",
     "HasBeenPublished": false,
-    "MdoListName": "Welch, Runolfsson and Beahan",
+    "MdoListName": "Gleason-Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 403
       }
     }
   }

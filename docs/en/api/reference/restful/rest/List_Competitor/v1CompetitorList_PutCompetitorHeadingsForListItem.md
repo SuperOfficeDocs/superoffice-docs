@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Witting, Brekke and Schowalter",
-    "ToolTip": "Fuga qui sequi quo blanditiis labore doloribus.",
+    "Id": 981,
+    "Name": "Jones-Schinner",
+    "ToolTip": "Aut praesentium enim est enim nesciunt.",
     "Deleted": false,
-    "Rank": 946,
-    "Type": "fugit",
-    "ColorBlock": 193,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2008-10-23T03:40:56.743228+02:00",
+    "Rank": 664,
+    "Type": "libero",
+    "ColorBlock": 566,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2000-02-15T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "O'Kon Inc and Sons",
-        "ToolTip": "Voluptas est sunt ex.",
+        "Id": 837,
+        "Name": "Kulas-Reynolds",
+        "ToolTip": "In occaecati et.",
         "Deleted": true,
-        "Rank": 356,
-        "Type": "iusto",
-        "ColorBlock": 705,
-        "IconHint": "sint",
+        "Rank": 727,
+        "Type": "dolorem",
+        "ColorBlock": 502,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2024-11-12T03:40:56.743228+01:00",
+        "LastChanged": "2020-01-31T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Dr. Junius Flatley"
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Tyrique Norberto Stokes IV"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "et",
+    "ExtraInfo": "quis",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Kaylie Dare"
+    "FullName": "Orlando Ernser"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Becker-Bartell",
-    "ToolTip": "Et amet pariatur quos voluptas totam.",
+    "Id": 436,
+    "Name": "Cassin-Abshire",
+    "ToolTip": "Provident sit sed laudantium.",
     "Deleted": false,
-    "Rank": 55,
-    "Type": "alias",
-    "ColorBlock": 787,
-    "IconHint": "aspernatur",
+    "Rank": 619,
+    "Type": "dolor",
+    "ColorBlock": 294,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2023-11-19T03:40:56.743228+01:00",
+    "LastChanged": "2015-06-14T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Gutkowski, Sawayn and Hyatt",
-        "ToolTip": "Iure dolore nemo qui velit exercitationem accusantium.",
+        "Id": 239,
+        "Name": "Wolf-Lehner",
+        "ToolTip": "Sed mollitia error vero est.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "dolorem",
-        "ColorBlock": 19,
-        "IconHint": "nesciunt",
+        "Rank": 135,
+        "Type": "debitis",
+        "ColorBlock": 939,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "1999-12-23T03:40:56.743228+01:00",
+        "LastChanged": "2007-12-09T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Mrs. Watson Amelia Purdy",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "pariatur",
+        "Hidden": false,
+        "FullName": "Marlon Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldType": "System.String",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Everett Schmeler",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Rebekah Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldType": "System.String",
+        "FieldLength": 140
       }
     }
   }

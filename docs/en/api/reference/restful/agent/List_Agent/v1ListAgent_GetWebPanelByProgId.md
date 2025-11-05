@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ullam"
+  "ProgId": "sunt"
 }
 ```
 
@@ -112,34 +112,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 191,
-  "Name": "Erdman Group",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 139,
+  "WebPanelId": 226,
+  "Name": "Collins-Hane",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 597,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Goyette-Leuschke",
+  "WindowName": "Oberbrunner Group",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptates",
-  "Icon": 71,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "maiores",
+  "Icon": 254,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldType": "System.String",
+      "FieldLength": 210
     }
   }
 }

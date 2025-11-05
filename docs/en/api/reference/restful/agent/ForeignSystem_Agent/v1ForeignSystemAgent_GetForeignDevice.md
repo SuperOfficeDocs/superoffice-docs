@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=887
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=194
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,21 +88,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 170,
-  "Name": "Turner LLC",
-  "CreatedDate": "2011-07-17T03:40:46.9999043+02:00",
-  "UpdatedDate": "2016-12-17T03:40:46.9999043+01:00",
-  "AssociateFullName": "Clement Madie Stehr I",
-  "CreatedBy": "pariatur",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "animi",
-  "ForeignAppId": 470,
+  "ForeignDeviceId": 880,
+  "Name": "Bednar-Walter",
+  "CreatedDate": "1999-05-20T02:30:47.366331+02:00",
+  "UpdatedDate": "2000-05-25T02:30:47.366331+02:00",
+  "AssociateFullName": "Briana Gislason",
+  "CreatedBy": "officiis",
+  "UpdatedBy": "est",
+  "DeviceIdentifier": "veritatis",
+  "ForeignAppId": 622,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 937
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 418
+  "TargetAssignmentInfoId": 783
 }
 ```
 
@@ -93,13 +93,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 725,
-  "Year": 593,
+  "TargetGroupId": 97,
+  "Year": 383,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2021-09-29T03:40:47.8911118+02:00",
+      "When": "2020-10-22T02:30:47.8663151+02:00",
       "Changes": [
         {},
         {}
@@ -109,14 +109,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 4
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2021-09-29T03:40:47.8911118+02:00",
+      "When": "2020-10-22T02:30:47.8663151+02:00",
       "Changes": [
         {},
         {}
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 4
         }
       }
     }
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 532
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 157
+  "SatelliteId": 6
 }
 ```
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ankunding-Wyman",
-    "Description": "Re-engineered local standardization",
+    "Name": "Conn Group",
+    "Description": "Decentralized systematic conglomeration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "consequuntur",
+        "Total": 868,
+        "Tooltip": "commodi",
         "CanAssign": false,
-        "Free": 979,
-        "InUse": 135,
-        "IsHidden": false,
+        "Free": 568,
+        "InUse": 640,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 334,
-        "Name": "Olson-Conroy",
-        "Description": "Pre-emptive bifurcated core",
-        "PrerequisiteModuleName": "Barrows-Bergnaum",
-        "SortOrder": 609,
-        "ExtraFlags": 45,
+        "ModuleLicenseId": 201,
+        "Name": "O'Connell Group",
+        "Description": "Robust 6th generation utilisation",
+        "PrerequisiteModuleName": "Roob, Pfannerstill and Zulauf",
+        "SortOrder": 325,
+        "ExtraFlags": 736,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 395
           }
         }
       }
@@ -126,25 +126,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 158,
-        "Tooltip": "veniam",
-        "CanAssign": true,
-        "Free": 571,
-        "InUse": 995,
+        "Total": 944,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 637,
+        "InUse": 731,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 625,
-        "Name": "Kemmer LLC",
-        "Description": "Front-line non-volatile task-force",
-        "PrerequisiteModuleName": "Bruen, Hilll and D'Amore",
-        "SortOrder": 995,
-        "ExtraFlags": 942,
+        "Assigned": false,
+        "ModuleLicenseId": 588,
+        "Name": "Bosco LLC",
+        "Description": "Open-source context-sensitive database",
+        "PrerequisiteModuleName": "Reichel, Kihn and Streich",
+        "SortOrder": 58,
+        "ExtraFlags": 527,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 264
           }
         }
       }
@@ -154,35 +154,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 89
       }
     }
   },
   {
-    "Name": "Ankunding-Wyman",
-    "Description": "Re-engineered local standardization",
+    "Name": "Conn Group",
+    "Description": "Decentralized systematic conglomeration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "consequuntur",
+        "Total": 868,
+        "Tooltip": "commodi",
         "CanAssign": false,
-        "Free": 979,
-        "InUse": 135,
-        "IsHidden": false,
+        "Free": 568,
+        "InUse": 640,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 334,
-        "Name": "Olson-Conroy",
-        "Description": "Pre-emptive bifurcated core",
-        "PrerequisiteModuleName": "Barrows-Bergnaum",
-        "SortOrder": 609,
-        "ExtraFlags": 45,
+        "ModuleLicenseId": 201,
+        "Name": "O'Connell Group",
+        "Description": "Robust 6th generation utilisation",
+        "PrerequisiteModuleName": "Roob, Pfannerstill and Zulauf",
+        "SortOrder": 325,
+        "ExtraFlags": 736,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 395
           }
         }
       }
@@ -190,25 +190,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 158,
-        "Tooltip": "veniam",
-        "CanAssign": true,
-        "Free": 571,
-        "InUse": 995,
+        "Total": 944,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 637,
+        "InUse": 731,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 625,
-        "Name": "Kemmer LLC",
-        "Description": "Front-line non-volatile task-force",
-        "PrerequisiteModuleName": "Bruen, Hilll and D'Amore",
-        "SortOrder": 995,
-        "ExtraFlags": 942,
+        "Assigned": false,
+        "ModuleLicenseId": 588,
+        "Name": "Bosco LLC",
+        "Description": "Open-source context-sensitive database",
+        "PrerequisiteModuleName": "Reichel, Kihn and Streich",
+        "SortOrder": 58,
+        "ExtraFlags": 527,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 264
           }
         }
       }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 89
       }
     }
   }

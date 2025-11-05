@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Jaskolski-Hahn",
-    "Tooltip": "dolores",
+    "Id": 138,
+    "Name": "Jones, Sanford and Bernier",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 108,
-    "Rank": 891,
+    "UdListDefinitionId": 773,
+    "Rank": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 637
       }
     }
   }

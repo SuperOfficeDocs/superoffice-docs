@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237
+  "Id": 67
 }
 ```
 
@@ -112,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Konopelski-Ferry",
-  "AssociateId": 27,
-  "DetailsTable": 568,
-  "DetailsRecord": 767,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 663,
+  "Name": "Barrows Inc and Sons",
+  "AssociateId": 270,
+  "DetailsTable": 112,
+  "DetailsRecord": 591,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "veniam",
-    "ParameterObject2": "non"
+    "ParameterObject1": "vel",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2015-01-31T03:40:46.0764548+01:00",
-  "Created": "2009-09-19T03:40:46.0764548+02:00",
-  "StartCount": 575,
-  "DatabaseSerialNumber": "889310",
-  "Context": "harum",
-  "Result": "veritatis",
+  "LastStarted": "2018-03-06T02:30:46.8194719+01:00",
+  "Created": "2024-12-10T02:30:46.8194719+01:00",
+  "StartCount": 293,
+  "DatabaseSerialNumber": "1146468",
+  "Context": "aut",
+  "Result": "veniam",
   "State": "All",
-  "Description": "Virtual radical encoding",
-  "Response": "qui",
-  "Request": "nemo",
-  "ProgressDescription": "Advanced executive firmware",
-  "ProgressPercent": 626,
-  "FileName": "Hilll-Aufderhar",
+  "Description": "Synergized zero defect definition",
+  "Response": "iste",
+  "Request": "quibusdam",
+  "ProgressDescription": "Digitized 6th generation emulation",
+  "ProgressPercent": 221,
+  "FileName": "D'Amore, Hegmann and Feest",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldType": "System.String",
+      "FieldLength": 908
     }
   }
 }

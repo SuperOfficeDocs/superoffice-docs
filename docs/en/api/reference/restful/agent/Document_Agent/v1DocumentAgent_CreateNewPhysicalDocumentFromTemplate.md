@@ -117,18 +117,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 9,
-  "PersonId": 276,
-  "AppointmentId": 223,
-  "DocumentId": 705,
-  "SaleId": 105,
-  "SelectionId": 666,
-  "ProjectId": 850,
-  "UiCulture": "quis"
+  "ContactId": 2,
+  "PersonId": 788,
+  "AppointmentId": 107,
+  "DocumentId": 186,
+  "SaleId": 129,
+  "SelectionId": 31,
+  "ProjectId": 766,
+  "UiCulture": "voluptatem"
 }
 ```
 
@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 999,
+  "DocumentId": 475,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ea",
-  "Header": "corporis",
-  "Name": "Weissnat, Morar and Kreiger",
-  "OurRef": "tenetur",
-  "YourRef": "laudantium",
-  "CreatedDate": "2000-01-07T03:40:46.7186366+01:00",
-  "UpdatedDate": "2015-10-13T03:40:46.7186366+02:00",
-  "Description": "Implemented contextually-based extranet",
+  "Attention": "qui",
+  "Header": "aliquam",
+  "Name": "Reilly Inc and Sons",
+  "OurRef": "fuga",
+  "YourRef": "nostrum",
+  "CreatedDate": "2019-11-12T02:30:47.1944624+01:00",
+  "UpdatedDate": "2003-09-25T02:30:47.1944624+02:00",
+  "Description": "Cloned maximized approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-11-20T03:40:46.7186366+01:00",
-  "ExternalRef": "et",
+  "Date": "2025-01-14T02:30:47.2100867+01:00",
+  "ExternalRef": "repellat",
   "Completed": "Completed",
-  "ActiveLinks": 456,
+  "ActiveLinks": 568,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler LLC",
-      "Id": 561,
-      "Description": "Polarised methodical project",
-      "ExtraInfo": "autem",
-      "LinkId": 197,
+      "EntityName": "Collier-Nienow",
+      "Id": 409,
+      "Description": "Optional heuristic local area network",
+      "ExtraInfo": "omnis",
+      "LinkId": 713,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 853
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 339,
-  "Snum": 671,
+  "SuggestedDocumentId": 795,
+  "Snum": 812,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1516990013",
+    "SuperOffice:2": "Prof. Chelsey Orpha Dicki DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "iure"
+    "CustomFields1": "tempore",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2002-08-04T03:40:46.7186366+02:00",
-  "PublishTo": "2023-06-11T03:40:46.7186366+02:00",
-  "PublishFrom": "2020-12-12T03:40:46.7186366+01:00",
+  "PublishEventDate": "2008-11-24T02:30:47.2100867+01:00",
+  "PublishTo": "2017-03-01T02:30:47.2100867+01:00",
+  "PublishFrom": "2001-10-13T02:30:47.2100867+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     }
@@ -230,7 +230,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 186
     }
   }
 }

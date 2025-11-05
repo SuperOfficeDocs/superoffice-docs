@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 823,
-  "ConnectionId": 276,
-  "FirstAlternativeName": "Toy, Ledner and Gorczany"
+  "SaleId": 893,
+  "ConnectionId": 994,
+  "FirstAlternativeName": "Beahan, Friesen and Bechtelar"
 }
 ```
 
@@ -107,58 +107,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 108,
-  "SaleId": 363,
-  "QuoteConnectionId": 188,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "labore",
-  "ActiveQuoteVersionId": 521,
-  "AcceptedQuoteAlternativeId": 331,
-  "UseValuesFromQuote": 145,
-  "DocumentId": 263,
-  "PoNumber": "1452600",
-  "OrderComment": "non",
-  "PreferredEmailCulture": "armand@stracke.us",
+  "QuoteId": 370,
+  "SaleId": 404,
+  "QuoteConnectionId": 117,
+  "ERPQuoteKey": "rerum",
+  "ERPOrderKey": "rerum",
+  "ActiveQuoteVersionId": 832,
+  "AcceptedQuoteAlternativeId": 844,
+  "UseValuesFromQuote": 469,
+  "DocumentId": 270,
+  "PoNumber": "456101",
+  "OrderComment": "nisi",
+  "PreferredEmailCulture": "geraldine@schmittfahey.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 256,
-      "ERPQuoteVersionKey": "enim",
-      "QuoteId": 711,
-      "Description": "Versatile tangible success",
-      "Number": "1101186",
+      "QuoteVersionId": 794,
+      "ERPQuoteVersionKey": "et",
+      "QuoteId": 38,
+      "Description": "Mandatory value-added instruction set",
+      "Number": "975400",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 817,
-      "SentDate": "2025-03-14T03:40:47.5629587+01:00",
-      "FollowupId": 521,
-      "ExpirationDate": "2008-05-17T03:40:47.5629587+02:00",
-      "DeliveryCountryId": 874,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 149,
+      "LikelyQuoteAlternativeId": 813,
+      "SentDate": "2002-02-12T02:30:47.7413192+01:00",
+      "FollowupId": 414,
+      "ExpirationDate": "2024-03-24T02:30:47.7413192+01:00",
+      "DeliveryCountryId": 702,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 293,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "animi",
-      "ERPPaymentTypeKey": "libero",
-      "ERPDeliveryTermsKey": "veniam",
+      "ERPPaymentTermsKey": "cum",
+      "ERPPaymentTypeKey": "magni",
+      "ERPDeliveryTermsKey": "sunt",
       "ERPDeliveryTypeKey": "adipisci",
-      "Rank": 200,
-      "ApprovedBy": 381,
-      "ApprovedText": "ut",
-      "ApprovedRegisteredBy": 813,
-      "ApprovedRegisteredDate": "2007-06-23T03:40:47.5629587+02:00",
-      "ExtraField1": "totam",
-      "ExtraField2": "officiis",
-      "ExtraField3": "quis",
-      "ExtraField4": "ipsam",
-      "ExtraField5": "explicabo",
-      "LastRecalculated": "2023-09-19T03:40:47.5629587+02:00",
-      "Updated": "2008-11-29T03:40:47.5629587+01:00",
-      "UpdatedAssociateId": 804,
-      "Registered": "2004-08-28T03:40:47.5629587+02:00",
-      "RegisteredAssociateId": 651,
-      "RequestAssociateId": 166,
-      "RequestComment": "voluptatem",
+      "Rank": 109,
+      "ApprovedBy": 648,
+      "ApprovedText": "consequatur",
+      "ApprovedRegisteredBy": 372,
+      "ApprovedRegisteredDate": "2020-07-14T02:30:47.7413192+02:00",
+      "ExtraField1": "in",
+      "ExtraField2": "illum",
+      "ExtraField3": "delectus",
+      "ExtraField4": "magni",
+      "ExtraField5": "reprehenderit",
+      "LastRecalculated": "2004-09-25T02:30:47.7413192+02:00",
+      "Updated": "2012-06-24T02:30:47.7413192+02:00",
+      "UpdatedAssociateId": 924,
+      "Registered": "2019-04-10T02:30:47.7413192+02:00",
+      "RegisteredAssociateId": 522,
+      "RequestAssociateId": 904,
+      "RequestComment": "dignissimos",
       "QuoteAlternatives": [
         {},
         {}
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldType": "System.String",
+          "FieldLength": 115
         }
       }
     }
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 734
     }
   }
 }

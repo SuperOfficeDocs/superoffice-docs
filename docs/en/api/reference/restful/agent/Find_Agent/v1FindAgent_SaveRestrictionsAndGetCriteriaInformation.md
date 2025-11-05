@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolores",
-  "ProviderName": "Connelly-Kautzer",
-  "StorageKey": "accusamus",
+  "StorageType": "et",
+  "ProviderName": "Schaefer-Grant",
+  "StorageKey": "id",
   "Restrictions": [
     {
-      "Name": "Quitzon-Schamberger",
-      "Operator": "autem",
+      "Name": "Cremin LLC",
+      "Operator": "tempore",
       "Values": [
-        "aut",
-        "blanditiis"
+        "incidunt",
+        "ipsum"
       ],
       "DisplayValues": [
-        "sapiente",
-        "soluta"
+        "et",
+        "reprehenderit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,14 +109,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 954,
+      "InterParenthesis": 430,
       "InterOperator": "And",
-      "UniqueHash": 382
+      "UniqueHash": 975
     }
   ],
   "StaticColumns": [
     "hic",
-    "enim"
+    "at"
   ]
 }
 ```
@@ -130,81 +130,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rolfson-Funk",
-      "Operator": "ex",
+      "Name": "Haag Group",
+      "Operator": "nihil",
       "Values": [
-        "libero",
-        "voluptas"
+        "aliquid",
+        "suscipit"
       ],
       "DisplayValues": [
-        "qui",
-        "mollitia"
+        "deleniti",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 535,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 492
+      "UniqueHash": 99
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ledner-Nienow",
-      "DisplayTooltip": "at",
-      "DisplayType": "voluptate",
+      "DisplayName": "Jacobson, Auer and Borer",
+      "DisplayTooltip": "enim",
+      "DisplayType": "omnis",
       "CanOrderBy": false,
-      "Name": "Heller, Runte and Hermann",
-      "CanRestrictBy": true,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Goodwin Inc and Sons",
+      "Name": "Gaylord, Roberts and Halvorson",
+      "CanRestrictBy": false,
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Emmerich, Lehner and Spencer",
       "IsVisible": false,
-      "ExtraInfo": "autem",
-      "Width": "ducimus",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "omnis"
+      "ExtraInfo": "dicta",
+      "Width": "voluptatem",
+      "IconHint": "vitae",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Spinka-Jacobi",
-      "PrimaryKey": 850,
+      "EntityName": "Hickle-Denesik",
+      "PrimaryKey": 477,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "incidunt",
-          "LinkHint": "quam"
+          "DisplayValue": "ea",
+          "TooltipHint": "fuga",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "cum",
+      "LinkHint": "autem",
+      "StyleHint": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 506
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Torphy LLC",
-      "Description": "Function-based transitional moderator",
-      "Rank": 670,
+      "Name": "Emmerich LLC",
+      "Description": "Monitored mobile concept",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Torphy LLC",
-      "Description": "Function-based transitional moderator",
-      "Rank": 670,
+      "Name": "Emmerich LLC",
+      "Description": "Monitored mobile concept",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 13
     }
   }
 }

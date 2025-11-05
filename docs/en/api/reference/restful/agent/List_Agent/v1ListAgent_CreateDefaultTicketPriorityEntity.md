@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,60 +95,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 723,
-  "Name": "Langworth Inc and Sons",
+  "TicketPriorityId": 12,
+  "Name": "Johnson LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 165,
+  "SortOrder": 438,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 89,
-  "MonStart": "2006-06-08T03:40:47.0311652+02:00",
-  "MonStop": "2006-03-13T03:40:47.0311652+01:00",
-  "TueStart": "2001-08-13T03:40:47.0311652+02:00",
-  "TueStop": "2002-05-08T03:40:47.0311652+02:00",
-  "WedStart": "2020-11-20T03:40:47.0311652+01:00",
-  "WedStop": "2018-07-30T03:40:47.0311652+02:00",
-  "ThuStart": "2001-02-13T03:40:47.0311652+01:00",
-  "ThuStop": "2010-05-15T03:40:47.0311652+02:00",
-  "FriStart": "2012-05-01T03:40:47.0311652+02:00",
-  "FriStop": "2000-06-21T03:40:47.0311652+02:00",
-  "SatStart": "2007-12-13T03:40:47.0311652+01:00",
-  "SatStop": "2005-08-26T03:40:47.0311652+02:00",
-  "SunStart": "2012-07-17T03:40:47.0311652+02:00",
-  "SunStop": "2024-02-26T03:40:47.0311652+01:00",
+  "Deadline": 617,
+  "MonStart": "2000-08-10T02:30:47.3819557+02:00",
+  "MonStop": "2021-07-02T02:30:47.3819557+02:00",
+  "TueStart": "2019-08-22T02:30:47.3819557+02:00",
+  "TueStop": "2025-03-04T02:30:47.3819557+01:00",
+  "WedStart": "2014-07-16T02:30:47.3819557+02:00",
+  "WedStop": "2019-03-04T02:30:47.3819557+01:00",
+  "ThuStart": "2008-09-09T02:30:47.3819557+02:00",
+  "ThuStop": "2000-12-24T02:30:47.3819557+01:00",
+  "FriStart": "2025-02-16T02:30:47.3819557+01:00",
+  "FriStop": "2017-05-06T02:30:47.3819557+02:00",
+  "SatStart": "2014-03-22T02:30:47.3819557+01:00",
+  "SatStop": "2014-01-22T02:30:47.3819557+01:00",
+  "SunStart": "2019-11-19T02:30:47.3819557+01:00",
+  "SunStop": "2009-08-05T02:30:47.3819557+02:00",
   "NonDates": [
-    "saepe",
-    "debitis"
+    "voluptas",
+    "a"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 816,
-      "AlertLevel": 984,
-      "AlertTimeout": 440,
-      "Action": 94,
-      "DelegateTo": 195,
-      "ScriptId": 891,
-      "EmailTo": "korbin_bartell@sawayn.us",
-      "SmsTo": "voluptas",
-      "ReplyTemplateIdCustomer": 489,
-      "ReplyTemplateIdUser": 232,
-      "ReplyTemplateIdCatmast": 69,
-      "ReplyTemplateIdEmail": 616,
-      "RtiCustomerSms": 70,
-      "ReplyTemplateIdUserSms": 485,
-      "ReplyTemplateIdCatmastSms": 693,
-      "ReplyTemplateIdSms": 603,
+      "TicketAlertId": 715,
+      "AlertLevel": 474,
+      "AlertTimeout": 531,
+      "Action": 252,
+      "DelegateTo": 507,
+      "ScriptId": 95,
+      "EmailTo": "freeman@handmills.uk",
+      "SmsTo": "minima",
+      "ReplyTemplateIdCustomer": 327,
+      "ReplyTemplateIdUser": 312,
+      "ReplyTemplateIdCatmast": 880,
+      "ReplyTemplateIdEmail": 211,
+      "RtiCustomerSms": 853,
+      "ReplyTemplateIdUserSms": 667,
+      "ReplyTemplateIdCatmastSms": 532,
+      "ReplyTemplateIdSms": 594,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 314
         }
       }
     }
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   }
 }

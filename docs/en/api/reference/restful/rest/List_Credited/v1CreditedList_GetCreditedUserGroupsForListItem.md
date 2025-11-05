@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Johns Group",
-    "ToolTip": "Non ullam minus possimus iste totam voluptas reprehenderit.",
-    "Deleted": true,
-    "Rank": 661,
-    "Type": "molestias",
-    "ColorBlock": 850,
-    "IconHint": "voluptas",
+    "Id": 136,
+    "Name": "Waelchi, Roberts and Parker",
+    "ToolTip": "Harum et rerum.",
+    "Deleted": false,
+    "Rank": 795,
+    "Type": "qui",
+    "ColorBlock": 572,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2007-01-19T03:40:56.790106+01:00",
+    "LastChanged": "2000-06-28T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Legros-Huels",
-        "ToolTip": "Labore totam inventore a accusantium quisquam fugiat.",
-        "Deleted": false,
-        "Rank": 9,
-        "Type": "necessitatibus",
-        "ColorBlock": 767,
-        "IconHint": "odit",
+        "Id": 357,
+        "Name": "Bogan Group",
+        "ToolTip": "Atque magni fugiat et omnis dolor eveniet.",
+        "Deleted": true,
+        "Rank": 654,
+        "Type": "eum",
+        "ColorBlock": 296,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2023-11-14T03:40:56.790106+01:00",
+        "LastChanged": "2020-05-14T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Aileen Corwin",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Murphy Krajcik III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 899
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Enoch Bradtke",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Russ Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

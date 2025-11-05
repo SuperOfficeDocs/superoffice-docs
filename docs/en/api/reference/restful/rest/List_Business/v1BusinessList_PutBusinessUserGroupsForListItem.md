@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Larkin, O'Reilly and Veum",
-    "ToolTip": "Fuga quasi quasi.",
-    "Deleted": false,
-    "Rank": 274,
-    "Type": "id",
-    "ColorBlock": 491,
-    "IconHint": "ut",
+    "Id": 772,
+    "Name": "Veum Group",
+    "ToolTip": "Reiciendis consectetur sit debitis ea dolorem.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "voluptatem",
+    "ColorBlock": 824,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-12-29T03:40:56.711976+01:00",
+    "LastChanged": "2022-07-08T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Weimann-Bahringer",
-        "ToolTip": "Hic suscipit eos sunt voluptatibus.",
-        "Deleted": true,
-        "Rank": 263,
-        "Type": "sed",
-        "ColorBlock": 154,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2016-10-12T03:40:56.711976+02:00",
+        "Id": 146,
+        "Name": "Witting Group",
+        "ToolTip": "Ipsa est iusto sunt distinctio cupiditate.",
+        "Deleted": false,
+        "Rank": 498,
+        "Type": "excepturi",
+        "ColorBlock": 715,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2017-12-15T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Dayne Hudson"
+        "ExtraInfo": "earum",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Miss Fanny Jeffery Lowe"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Herminio Moen"
+    "ExtraInfo": "recusandae",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Sydney Bechtelar I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Padberg-Bergstrom",
-    "ToolTip": "Ipsam aut cumque rem reiciendis nisi.",
-    "Deleted": true,
-    "Rank": 545,
-    "Type": "omnis",
-    "ColorBlock": 494,
-    "IconHint": "nihil",
+    "Id": 320,
+    "Name": "Prosacco Inc and Sons",
+    "ToolTip": "Et unde rerum temporibus iste molestiae.",
+    "Deleted": false,
+    "Rank": 144,
+    "Type": "tempore",
+    "ColorBlock": 791,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2020-07-16T03:40:56.711976+02:00",
+    "LastChanged": "2018-12-03T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Abernathy LLC",
-        "ToolTip": "Sapiente aliquid perspiciatis vitae.",
+        "Id": 756,
+        "Name": "Hagenes Group",
+        "ToolTip": "Dolor tempora deleniti.",
         "Deleted": false,
-        "Rank": 132,
-        "Type": "quod",
-        "ColorBlock": 920,
-        "IconHint": "quis",
+        "Rank": 434,
+        "Type": "voluptates",
+        "ColorBlock": 762,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2006-04-05T03:40:56.711976+02:00",
+        "LastChanged": "2025-08-20T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "quis",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Frankie Schimmel",
+        "FullName": "Alexie Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Brett Johnston",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Mr. Otho Broderick Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 586
       }
     }
   }

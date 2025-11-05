@@ -66,7 +66,7 @@ Static archive Provider for a Selection of selection archive.
 |selectionAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |selectionAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |selectionAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|selectionAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|selectionAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |selectionAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |selectionAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |selectionAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -82,7 +82,7 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/lastName,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

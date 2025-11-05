@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 934,
-  "PrefDescId": 38,
-  "PrefValue": "mollitia",
-  "PrefShowValue": "velit",
-  "Description": "Reactive attitude-oriented migration",
-  "IsBuiltin": true,
+  "PrefDescLineId": 665,
+  "PrefDescId": 218,
+  "PrefValue": "rem",
+  "PrefShowValue": "soluta",
+  "Description": "Organized 5th generation flexibility",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 778
     }
   }
 }

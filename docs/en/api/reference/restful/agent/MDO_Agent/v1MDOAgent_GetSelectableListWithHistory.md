@@ -94,16 +94,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner LLC",
+  "Name": "D'Amore Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "officia",
+  "AdditionalInfo": "ducimus",
   "HistoryItems": [
-    792,
-    467
+    722,
+    478
   ],
   "OnlyHistory": true
 }
@@ -117,56 +117,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Weissnat-McDermott",
-    "ToolTip": "Perspiciatis aut neque aliquam ut fugiat.",
-    "Deleted": false,
-    "Rank": 343,
-    "Type": "eveniet",
-    "ColorBlock": 896,
-    "IconHint": "quidem",
+    "Id": 105,
+    "Name": "Hammes-Denesik",
+    "ToolTip": "Distinctio nihil in unde sunt sed.",
+    "Deleted": true,
+    "Rank": 651,
+    "Type": "dicta",
+    "ColorBlock": 42,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2007-01-09T03:40:47.2655452+01:00",
+    "LastChanged": "2015-07-19T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Christiansen Inc and Sons",
-        "ToolTip": "Possimus officia odit inventore.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "omnis",
-        "ColorBlock": 874,
-        "IconHint": "animi",
+        "Id": 775,
+        "Name": "Crona-Rice",
+        "ToolTip": "Sunt expedita voluptatibus minima enim laudantium voluptatem.",
+        "Deleted": true,
+        "Rank": 630,
+        "Type": "tempora",
+        "ColorBlock": 914,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2018-07-15T03:40:47.2655452+02:00",
+        "LastChanged": "2011-10-14T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Orland Okuneva",
+        "ExtraInfo": "minima",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Mr. Mayra Borer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 617
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "alias",
+    "ExtraInfo": "sint",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Kevin Jerald Dickinson II",
+    "FullName": "Jeffrey Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

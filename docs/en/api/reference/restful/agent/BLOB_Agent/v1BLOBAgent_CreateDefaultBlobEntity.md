@@ -80,25 +80,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 938,
-  "BlobSize": 258,
-  "Description": "Face to face assymetric archive",
-  "ExtraInfo": "velit",
+  "BlobId": 543,
+  "BlobSize": 643,
+  "Description": "Compatible didactic utilisation",
+  "ExtraInfo": "sapiente",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "atque",
-  "OriginalSize": 850,
-  "CreatedDate": "2009-10-18T03:40:46.0764548+02:00",
-  "UpdatedDate": "2016-11-11T03:40:46.0764548+01:00",
+  "MimeType": "similique",
+  "OriginalSize": 620,
+  "CreatedDate": "2013-01-14T02:30:46.8194719+01:00",
+  "UpdatedDate": "2019-09-18T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iusto",
+  "ConceptualType": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 975
     }
   }
 }

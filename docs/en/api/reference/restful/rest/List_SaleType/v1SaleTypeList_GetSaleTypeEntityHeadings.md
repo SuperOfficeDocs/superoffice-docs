@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 766,
-    "Name": "Legros, Lang and Berge",
-    "Tooltip": "eveniet",
+    "HeadingId": 802,
+    "Name": "Nienow Inc and Sons",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 77,
-    "UdListDefinitionId": 635,
+    "Rank": 688,
+    "UdListDefinitionId": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 445
       }
     }
   }

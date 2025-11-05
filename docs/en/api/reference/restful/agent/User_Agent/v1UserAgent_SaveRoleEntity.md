@@ -91,20 +91,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 77,
-  "Name": "Bode Inc and Sons",
-  "Tooltip": "qui",
+  "RoleId": 815,
+  "Name": "Bogisich, Powlowski and Bednar",
+  "Tooltip": "sint",
   "RoleType": "Anonymous",
-  "Deleted": 662,
-  "Rank": 386,
-  "Created": "2003-09-28T03:40:48.1567456+02:00",
-  "UseCategories": 727,
+  "Deleted": 109,
+  "Rank": 116,
+  "Created": "2003-10-26T02:30:48.0850579+01:00",
+  "UseCategories": 222,
   "CreatedBy": null,
-  "Updated": "2020-09-12T03:40:48.1567456+02:00",
+  "Updated": "2015-05-06T02:30:48.0850579+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -117,16 +117,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 979,
-  "Name": "Weimann-Keeling",
-  "Tooltip": "ut",
+  "RoleId": 963,
+  "Name": "Streich-Koepp",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 128,
-  "Rank": 481,
-  "Created": "1999-09-15T03:40:48.1567456+02:00",
-  "UseCategories": 894,
+  "Deleted": 5,
+  "Rank": 148,
+  "Created": "2010-02-21T02:30:48.0850579+01:00",
+  "UseCategories": 636,
   "CreatedBy": null,
-  "Updated": "2022-05-13T03:40:48.1567456+02:00",
+  "Updated": "2013-01-07T02:30:48.0850579+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 835
     }
   }
 }

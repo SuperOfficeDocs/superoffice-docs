@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_revision Table (508)
+# target\_revision Table (509)
 
 One batch of changes made to targets
 

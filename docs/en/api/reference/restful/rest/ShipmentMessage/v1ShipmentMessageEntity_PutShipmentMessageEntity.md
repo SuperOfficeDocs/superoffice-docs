@@ -122,31 +122,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 234,
-  "PlainMessage": "maxime",
-  "HtmlMessage": "quos",
-  "SmsMessage": "animi",
-  "Description": "Extended object-oriented monitoring",
-  "Subject": "minima",
-  "FolderId": 977,
-  "HeaderField": "unde",
-  "Design": "sunt",
+  "ShipmentMessageId": 775,
+  "PlainMessage": "commodi",
+  "HtmlMessage": "exercitationem",
+  "SmsMessage": "dolores",
+  "Description": "Synergized static standardization",
+  "Subject": "aliquam",
+  "FolderId": 610,
+  "HeaderField": "qui",
+  "Design": "eius",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Adaptive full-range paradigm",
-  "AccessKey": "quis",
-  "DocumentMessage": 67,
-  "Registered": "2014-01-07T03:40:56.2422072+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2015-07-28T03:40:56.2422072+02:00",
-  "UpdatedAssociateId": 742,
-  "UpdatedCount": 544
+  "LongDescription": "Reactive demand-driven methodology",
+  "AccessKey": "officia",
+  "DocumentMessage": 196,
+  "Registered": "2023-08-24T02:30:52.9442767+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "1999-04-11T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 207,
+  "UpdatedCount": 883
 }
 ```
 
@@ -157,33 +157,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 93,
-  "PlainMessage": "in",
-  "HtmlMessage": "error",
-  "SmsMessage": "consequatur",
-  "Description": "De-engineered assymetric focus group",
-  "Subject": "natus",
-  "FolderId": 958,
-  "HeaderField": "ut",
-  "Design": "quia",
+  "ShipmentMessageId": 843,
+  "PlainMessage": "velit",
+  "HtmlMessage": "ab",
+  "SmsMessage": "cumque",
+  "Description": "Organized methodical interface",
+  "Subject": "neque",
+  "FolderId": 531,
+  "HeaderField": "nostrum",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Grass-roots upward-trending capacity",
-  "AccessKey": "libero",
-  "DocumentMessage": 981,
-  "Registered": "2013-05-18T03:40:56.2422072+02:00",
-  "RegisteredAssociateId": 3,
-  "Updated": "2012-12-12T03:40:56.2422072+01:00",
-  "UpdatedAssociateId": 652,
-  "UpdatedCount": 551,
+  "InlineImages": true,
+  "LongDescription": "Automated discrete capability",
+  "AccessKey": "possimus",
+  "DocumentMessage": 502,
+  "Registered": "2001-08-06T02:30:52.9442767+02:00",
+  "RegisteredAssociateId": 687,
+  "Updated": "2000-05-07T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 214,
+  "UpdatedCount": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 748
     }
   },
   "_Links": {

@@ -28,7 +28,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=magni
+GET /api/v1/List/Priority/MDOItems?query=sed
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Thompson Inc and Sons",
-    "ToolTip": "Maiores voluptate impedit cumque aut dolorem officia sint.",
-    "Deleted": true,
-    "Rank": 427,
-    "Type": "recusandae",
+    "Id": 49,
+    "Name": "Wisozk Inc and Sons",
+    "ToolTip": "Inventore soluta consequatur et quis asperiores molestiae.",
+    "Deleted": false,
+    "Rank": 409,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "McLaughlin, Johns and Rohan",
-        "ToolTip": "Voluptas recusandae.",
+        "Id": 862,
+        "Name": "D'Amore Inc and Sons",
+        "ToolTip": "In velit facilis provident eligendi recusandae veritatis.",
         "Deleted": false,
-        "Rank": 534,
-        "Type": "aut",
+        "Rank": 436,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 305,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "mollitia",
-        "FullName": "Lauren Barrows",
+        "IconHint": "rem",
+        "ColorBlock": 952,
+        "ExtraInfo": "et",
+        "StyleHint": "neque",
+        "FullName": "Dr. Brayan Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "numquam",
-    "ColorBlock": 307,
-    "ExtraInfo": "officiis",
-    "StyleHint": "et",
-    "FullName": "Prof. Karley Glover",
+    "IconHint": "quod",
+    "ColorBlock": 536,
+    "ExtraInfo": "est",
+    "StyleHint": "hic",
+    "FullName": "Kellen DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 139
       }
     }
   }

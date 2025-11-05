@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Nicolas-Keeling",
-    "ToolTip": "Libero quia inventore dolore in ea aut magnam.",
-    "Deleted": true,
-    "Rank": 276,
-    "Type": "sunt",
-    "ColorBlock": 368,
-    "IconHint": "quibusdam",
+    "Id": 699,
+    "Name": "Spinka, Ziemann and Ratke",
+    "ToolTip": "Sint culpa soluta.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "reprehenderit",
+    "ColorBlock": 733,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2009-01-16T03:40:57.1344494+01:00",
+    "LastChanged": "1999-08-10T02:30:53.4598845+02:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Littel, Gutmann and Auer",
-        "ToolTip": "Est voluptas asperiores qui quibusdam.",
+        "Id": 667,
+        "Name": "Hayes Inc and Sons",
+        "ToolTip": "Perferendis sit saepe nihil id possimus velit at.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "qui",
-        "ColorBlock": 961,
-        "IconHint": "porro",
+        "Rank": 714,
+        "Type": "sint",
+        "ColorBlock": 327,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2003-05-21T03:40:57.1344494+02:00",
+        "LastChanged": "2007-12-02T02:30:53.4598845+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "debitis",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Dessie O'Connell"
+        "FullName": "Lulu Mertz"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Nikki Connelly"
+    "ExtraInfo": "velit",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Rosetta Renner"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Prosacco, Green and Mraz",
-    "ToolTip": "Eos molestias.",
+    "Id": 549,
+    "Name": "Medhurst Group",
+    "ToolTip": "Et aut atque pariatur temporibus repudiandae dolorum eos.",
     "Deleted": false,
-    "Rank": 846,
-    "Type": "ratione",
-    "ColorBlock": 539,
-    "IconHint": "animi",
-    "Selected": false,
-    "LastChanged": "2023-07-19T03:40:57.1344494+02:00",
+    "Rank": 137,
+    "Type": "vitae",
+    "ColorBlock": 260,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2011-07-12T02:30:53.4598845+02:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Thompson Group",
-        "ToolTip": "Aliquam omnis corporis iure in aut.",
+        "Id": 568,
+        "Name": "Keeling Group",
+        "ToolTip": "Neque sapiente consequuntur quasi consequatur minus amet.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "amet",
-        "ColorBlock": 924,
-        "IconHint": "ab",
+        "Rank": 639,
+        "Type": "voluptatem",
+        "ColorBlock": 540,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2023-12-03T03:40:57.1344494+01:00",
+        "LastChanged": "2004-04-29T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "quis",
+        "ExtraInfo": "sed",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Angelina Schmitt",
+        "FullName": "Giovanna Quigley DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldType": "System.Int32",
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Dr. Dee Conroy III",
+    "ExtraInfo": "nulla",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Cara Kaitlyn Dach I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

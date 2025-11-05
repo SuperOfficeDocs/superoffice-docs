@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Maggio, Spencer and Koepp"
+  "TaskName": "Hessel, Pacocha and Reichert"
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Casper LLC",
-    "AssociateId": 459,
-    "DetailsTable": 799,
-    "DetailsRecord": 20,
+    "Id": 965,
+    "Name": "McClure LLC",
+    "AssociateId": 393,
+    "DetailsTable": 490,
+    "DetailsRecord": 78,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "officia",
-      "ParameterObject2": "quaerat"
+      "ParameterObject1": "quasi",
+      "ParameterObject2": "aperiam"
     },
-    "LastStarted": "2004-08-25T03:40:46.0764548+02:00",
-    "Created": "2005-02-03T03:40:46.0764548+01:00",
-    "StartCount": 790,
-    "DatabaseSerialNumber": "796671",
-    "Context": "voluptas",
-    "Result": "alias",
+    "LastStarted": "2020-12-03T02:30:46.8194719+01:00",
+    "Created": "2014-12-27T02:30:46.8194719+01:00",
+    "StartCount": 719,
+    "DatabaseSerialNumber": "1045147",
+    "Context": "similique",
+    "Result": "voluptates",
     "State": "All",
-    "Description": "Switchable foreground ability",
+    "Description": "Right-sized didactic framework",
     "Response": "voluptatem",
-    "Request": "eos",
-    "ProgressDescription": "Fundamental real-time architecture",
-    "ProgressPercent": 465,
-    "FileName": "Cartwright, Ziemann and Von",
+    "Request": "necessitatibus",
+    "ProgressDescription": "Advanced content-based access",
+    "ProgressPercent": 431,
+    "FileName": "Casper-Feeney",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 423
       }
     }
   }

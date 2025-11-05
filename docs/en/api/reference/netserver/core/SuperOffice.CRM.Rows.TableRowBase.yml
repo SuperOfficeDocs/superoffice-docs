@@ -228,6 +228,7 @@ items:
   - SuperOffice.CRM.Rows.ExtTableRow
   - SuperOffice.CRM.Rows.ExternalDocumentRow
   - SuperOffice.CRM.Rows.ExternalEventRow
+  - SuperOffice.CRM.Rows.ExternalOwnerRow
   - SuperOffice.CRM.Rows.ExtraFieldsRow
   - SuperOffice.CRM.Rows.ExtraMenusRow
   - SuperOffice.CRM.Rows.ExtraTablesEntryRow

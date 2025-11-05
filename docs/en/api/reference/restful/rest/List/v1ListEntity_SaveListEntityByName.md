@@ -90,15 +90,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Dicki Inc and Sons",
-  "Tooltip": "est",
+  "Id": 244,
+  "Name": "Wyman-Farrell",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 219,
+  "Rank": 131,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Hudson-Jakubowski",
-  "Tooltip": "explicabo",
+  "Id": 796,
+  "Name": "Pollich Group",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 330,
+  "Rank": 872,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 43
     }
   }
 }

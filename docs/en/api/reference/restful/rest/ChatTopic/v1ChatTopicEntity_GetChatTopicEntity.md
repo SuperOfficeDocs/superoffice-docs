@@ -105,7 +105,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,21 +115,21 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 31,
-  "Name": "Grant Group",
-  "Description": "Mandatory impactful task-force",
-  "WelcomeMessage": "magnam",
+  "ChatTopicId": 337,
+  "Name": "Heaney LLC",
+  "Description": "Cloned analyzing initiative",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2004-11-25T03:40:55.397437+01:00",
-  "SecondsPrAccept": 972,
-  "AlertRecipient": "ut",
+  "LastAccept": "2003-07-07T02:30:52.4286686+02:00",
+  "SecondsPrAccept": 562,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "est",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "voluptatum",
-  "WarnNewChatMinutes": 332,
-  "WarnManagerNewChatMinutes": 463,
+  "BadgeHeader": "natus",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 962,
+  "WarnManagerNewChatMinutes": 809,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -139,19 +139,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 105,
-  "WarnManagerChatMessageMinutes": 704,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 994,
-  "OfflineFormQueueLength": 839,
+  "WarnChatMessageMinutes": 605,
+  "WarnManagerChatMessageMinutes": 602,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 505,
+  "OfflineFormQueueLength": 83,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "laborum",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   },
   "_Links": {

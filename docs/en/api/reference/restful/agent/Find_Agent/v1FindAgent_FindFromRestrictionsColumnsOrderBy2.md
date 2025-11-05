@@ -171,12 +171,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "temporibus",
-  "ProviderName": "Marquardt LLC",
-  "DesiredColumns": "assumenda",
-  "OrderBy": "dignissimos",
-  "PageSize": 23,
-  "PageNumber": 765
+  "Restrictions": "eos",
+  "ProviderName": "Bogisich-Schmitt",
+  "DesiredColumns": "sed",
+  "OrderBy": "in",
+  "PageSize": 7,
+  "PageNumber": 350
 }
 ```
 
@@ -189,51 +189,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rolfson, Herman and Gleichner",
-      "DisplayTooltip": "odit",
-      "DisplayType": "mollitia",
+      "DisplayName": "Spencer, Stokes and Connelly",
+      "DisplayTooltip": "facere",
+      "DisplayType": "impedit",
       "CanOrderBy": false,
-      "Name": "Zulauf LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "totam",
-      "RestrictionListName": "Senger-Fritsch",
+      "Name": "Lockman-Hirthe",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Nader, Yost and Kuhlman",
       "IsVisible": false,
-      "ExtraInfo": "illo",
-      "Width": "non",
-      "IconHint": "magni",
-      "HeadingIconHint": "quas"
+      "ExtraInfo": "laudantium",
+      "Width": "qui",
+      "IconHint": "quod",
+      "HeadingIconHint": "molestias"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Sipes-Daniel",
-      "PrimaryKey": 510,
+      "EntityName": "Fay, Nicolas and Murazik",
+      "PrimaryKey": 726,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "quidem",
-          "LinkHint": "accusantium"
+          "DisplayValue": "ut",
+          "TooltipHint": "dolorum",
+          "LinkHint": "delectus"
         }
       },
-      "LinkHint": "recusandae",
-      "StyleHint": "velit",
+      "LinkHint": "odit",
+      "StyleHint": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 973
         }
       }
     }
   ],
-  "RowCount": 433,
+  "RowCount": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldType": "System.String",
+      "FieldLength": 596
     }
   }
 }

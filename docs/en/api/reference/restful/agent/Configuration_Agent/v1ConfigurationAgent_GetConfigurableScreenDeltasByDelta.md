@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 831,
-    "Name": "Pacocha Inc and Sons",
-    "Description": "Open-architected next generation architecture",
-    "DeltaJson": "impedit",
+    "ConfigurableScreenDeltaId": 62,
+    "Name": "Heller Group",
+    "Description": "Virtual leading edge workforce",
+    "DeltaJson": "quibusdam",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "unde",
-    "UpdatedDate": "2018-11-09T03:40:46.2331872+01:00",
-    "CreatedDate": "2019-05-16T03:40:46.2331872+02:00",
+    "RecipeId": "sed",
+    "UpdatedDate": "2000-06-16T02:30:46.9132188+02:00",
+    "CreatedDate": "2023-12-05T02:30:46.9132188+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      930,
-      896
+      226,
+      336
     ],
-    "AppliesToKey": "numquam",
+    "AppliesToKey": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 729
       }
     }
   }

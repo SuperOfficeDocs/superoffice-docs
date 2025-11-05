@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ut",
+  "TriggerScriptUniqueId": "dolores",
   "Entity": null
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 534,
-  "Name": "Luettgen LLC",
+  "ScreenChooserId": 723,
+  "Name": "Kuhlman, Murphy and Fahey",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptas",
-  "Source": "voluptatem",
-  "Registered": "2018-10-24T03:40:46.5306238+02:00",
-  "RegisteredAssociateId": 553,
-  "Updated": "2018-03-10T03:40:46.5306238+01:00",
-  "UpdatedAssociateId": 393,
+  "Enabled": true,
+  "UniqueIdentifier": "nemo",
+  "Source": "error",
+  "Registered": "2012-08-20T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 385,
+  "Updated": "2007-03-17T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 565,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 605
     }
   }
 }

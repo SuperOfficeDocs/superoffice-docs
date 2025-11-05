@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 155,
-  "Name": "Gislason Group",
-  "Tooltip": "sequi",
-  "Deleted": true,
-  "UdListDefinitionId": 274,
-  "Rank": 567
+  "Id": 585,
+  "Name": "Kuhn LLC",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "UdListDefinitionId": 648,
+  "Rank": 171
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Gleason-Miller",
-  "Tooltip": "architecto",
+  "Id": 299,
+  "Name": "Robel-Heathcote",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 360,
-  "Rank": 400,
+  "UdListDefinitionId": 979,
+  "Rank": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

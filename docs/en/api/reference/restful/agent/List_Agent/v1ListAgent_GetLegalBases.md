@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 106,
-    "Name": "Feil LLC",
-    "Tooltip": "illo",
-    "Rank": 825,
-    "Key": "et",
+    "LegalBaseId": 960,
+    "Name": "Schmitt Group",
+    "Tooltip": "ea",
+    "Rank": 148,
+    "Key": "facere",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldType": "System.Int32",
+        "FieldLength": 271
       }
     }
   }

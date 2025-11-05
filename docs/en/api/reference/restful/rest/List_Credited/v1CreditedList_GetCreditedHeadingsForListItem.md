@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Bayer-Jewess",
-    "ToolTip": "Qui praesentium deserunt vel et.",
+    "Id": 451,
+    "Name": "Altenwerth-Olson",
+    "ToolTip": "Incidunt non non commodi porro porro laborum.",
     "Deleted": false,
-    "Rank": 948,
-    "Type": "suscipit",
-    "ColorBlock": 4,
-    "IconHint": "voluptas",
+    "Rank": 1000,
+    "Type": "voluptas",
+    "ColorBlock": 970,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2010-05-01T03:40:56.790106+02:00",
+    "LastChanged": "1999-03-29T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Gibson, Oberbrunner and Runte",
-        "ToolTip": "Magnam illum similique enim soluta.",
+        "Id": 666,
+        "Name": "Little-Gusikowski",
+        "ToolTip": "Ad delectus iusto voluptatem perferendis aut in cupiditate.",
         "Deleted": false,
-        "Rank": 160,
-        "Type": "quia",
-        "ColorBlock": 361,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2006-01-24T03:40:56.790106+01:00",
+        "Rank": 23,
+        "Type": "sequi",
+        "ColorBlock": 576,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2003-04-07T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mia Jaskolski",
+        "FullName": "Jadyn Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 343
+            "FieldType": "System.Int32",
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Kailyn Brown",
+    "FullName": "Richmond Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 514
       }
     }
   }

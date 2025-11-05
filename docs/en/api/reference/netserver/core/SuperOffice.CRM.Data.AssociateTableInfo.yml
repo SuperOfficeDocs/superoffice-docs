@@ -235,6 +235,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalEvent_SignOffAssocId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalEvent_SignOnAssocId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalEvent_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Favourite_AssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Favourite_RegisteredBy
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FieldLabel_RegisteredAssociateId
@@ -852,6 +854,7 @@ items:
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
@@ -16947,6 +16950,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId As TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  id: LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to ExternalOwner.<xref href="SuperOffice.CRM.Data.ExternalOwnerTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<ExternalOwnerTableInfo> LeftOuterJoin_ExternalOwner_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalOwnerTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ExternalOwner_RegisteredAssociateId As TargetedLeftOuterJoin(Of ExternalOwnerTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  id: LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to ExternalOwner.<xref href="SuperOffice.CRM.Data.ExternalOwnerTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<ExternalOwnerTableInfo> LeftOuterJoin_ExternalOwner_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalOwnerTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ExternalOwner_UpdatedAssociateId As TargetedLeftOuterJoin(Of ExternalOwnerTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_RegisteredAssociateId
   id: LeftOuterJoin_Form_RegisteredAssociateId
@@ -19682,6 +19731,14 @@ references:
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
@@ -41050,6 +41107,69 @@ references:
   name: LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.ExternalOwnerTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html#SuperOffice_CRM_Data_ExternalOwnerTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: ExternalOwnerTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.ExternalOwnerTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  name: LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalOwnerTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalOwnerTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<ExternalOwnerTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ExternalOwnerTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ExternalOwnerTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ExternalOwnerTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ExternalOwnerTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ExternalOwnerTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+    name: ExternalOwnerTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+    name: ExternalOwnerTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.ExternalOwnerTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html#SuperOffice_CRM_Data_ExternalOwnerTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: ExternalOwnerTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.ExternalOwnerTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  name: LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ExternalOwner_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.FormTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.FormTableInfo.RegisteredAssociateId
   isExternal: true

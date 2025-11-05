@@ -88,14 +88,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "id",
-  "Value": "error",
-  "RecordId": 202,
-  "CreatedDate": "2006-01-21T03:40:55.7886484+01:00",
-  "UpdatedDate": "2008-11-27T03:40:55.7886484+01:00",
-  "UpdatedBy": "praesentium",
-  "CreatedBy": "aut",
-  "TableName": "Roob-Feeney"
+  "Key": "maiores",
+  "Value": "et",
+  "RecordId": 776,
+  "CreatedDate": "2010-01-07T02:30:52.6630355+01:00",
+  "UpdatedDate": "2022-03-08T02:30:52.6630355+01:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "quisquam",
+  "TableName": "Klocko Group"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequatur",
-  "Value": "illum",
-  "RecordId": 960,
-  "CreatedDate": "2016-08-16T03:40:55.7886484+02:00",
-  "UpdatedDate": "2025-08-14T03:40:55.7886484+02:00",
-  "UpdatedBy": "sequi",
-  "CreatedBy": "ipsum",
-  "TableName": "Gerhold, Veum and Conroy",
+  "Key": "quis",
+  "Value": "quisquam",
+  "RecordId": 824,
+  "CreatedDate": "2008-06-10T02:30:52.6630355+02:00",
+  "UpdatedDate": "2004-01-01T02:30:52.6630355+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "voluptatum",
+  "TableName": "D'Amore Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

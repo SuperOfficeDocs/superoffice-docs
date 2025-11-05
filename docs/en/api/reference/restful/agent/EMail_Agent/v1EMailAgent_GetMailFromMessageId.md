@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "doloremque"
+  "MessageId": "et"
 }
 ```
 
@@ -121,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 182,
-      "ContactName": "Olson-Larkin",
-      "PersonId": 267,
-      "PersonName": "Runolfsson, Gibson and Wolf",
-      "AssociateId": 500,
-      "Address": "tenetur",
-      "EmailId": 457,
+      "ContactId": 990,
+      "ContactName": "Ullrich, Spencer and Cummings",
+      "PersonId": 508,
+      "PersonName": "Lindgren-Schultz",
+      "AssociateId": 91,
+      "Address": "nobis",
+      "EmailId": 663,
       "DuplicatePersonIds": [
-        502,
-        346
+        24,
+        187
       ],
-      "Name": "Farrell Group",
+      "Name": "Goldner Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 676
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 389,
-      "ContactName": "Hand, Blanda and O'Kon",
-      "PersonId": 20,
-      "PersonName": "Ryan, Witting and Schmeler",
-      "AssociateId": 557,
-      "Address": "optio",
-      "EmailId": 265,
+      "ContactId": 275,
+      "ContactName": "Kunde LLC",
+      "PersonId": 773,
+      "PersonName": "Gulgowski-Eichmann",
+      "AssociateId": 41,
+      "Address": "id",
+      "EmailId": 953,
       "DuplicatePersonIds": [
-        282,
-        969
+        80,
+        289
       ],
-      "Name": "Goyette LLC",
+      "Name": "Ryan-Dietrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 475
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 770,
-      "ContactName": "Wilkinson, Borer and Mertz",
-      "PersonId": 657,
-      "PersonName": "Doyle, Boyer and Bahringer",
-      "AssociateId": 477,
-      "Address": "nihil",
-      "EmailId": 85,
+      "ContactId": 398,
+      "ContactName": "Swaniawski LLC",
+      "PersonId": 994,
+      "PersonName": "Wolf-Casper",
+      "AssociateId": 769,
+      "Address": "sunt",
+      "EmailId": 388,
       "DuplicatePersonIds": [
-        863,
-        818
+        595,
+        805
       ],
-      "Name": "Jerde LLC",
+      "Name": "Koelpin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 793
         }
       }
     }
   ],
-  "Subject": "reprehenderit",
-  "HTMLBody": "delectus",
+  "Subject": "repellat",
+  "HTMLBody": "nihil",
   "From": null,
-  "Sent": "2007-06-21T03:40:46.7655146+02:00",
-  "Size": 771,
+  "Sent": "2019-02-06T02:30:47.2413353+01:00",
+  "Size": 500,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "a",
-  "PlainBody": "ut",
-  "IsSent": true,
+  "MessageID": "laudantium",
+  "PlainBody": "quibusdam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 789,
+  "ServerId": 634,
   "Attachments": [
     {
-      "Description": "Reduced assymetric middleware",
-      "Filename": "odio",
-      "Size": 629,
-      "Type": "perferendis",
-      "Encoding": "rerum",
-      "Id": "sed",
-      "Disposition": "aut",
-      "IsSafeFileExtension": true,
+      "Description": "Re-contextualized web-enabled data-warehouse",
+      "Filename": "et",
+      "Size": 195,
+      "Type": "eligendi",
+      "Encoding": "et",
+      "Id": "maiores",
+      "Disposition": "ut",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 683
+          "FieldLength": 480
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Satterfield Inc and Sons",
+      "Name": "Green LLC",
       "Values": [
-        "omnis",
-        "tempora"
+        "libero",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 105
         }
       }
     },
     {
-      "Name": "Satterfield Inc and Sons",
+      "Name": "Green LLC",
       "Values": [
-        "omnis",
-        "tempora"
+        "libero",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 105
         }
       }
     }
   ],
-  "FolderName": "Leuschke-Heller",
-  "EmailItemId": 590,
-  "AccountId": 443,
-  "ReceivedAt": "2011-05-12T03:40:46.7655146+02:00",
+  "FolderName": "Stanton Inc and Sons",
+  "EmailItemId": 708,
+  "AccountId": 675,
+  "ReceivedAt": "2007-05-25T02:30:47.2413353+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-08-29T03:40:46.7655146+02:00",
+  "RepliedAt": "2014-11-27T02:30:47.2413353+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 471
     }
   }
 }

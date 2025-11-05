@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -112,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Kessler, Von and Smitham",
-  "AssociateId": 385,
-  "DetailsTable": 451,
-  "DetailsRecord": 40,
+  "Id": 900,
+  "Name": "Feil, D'Amore and Metz",
+  "AssociateId": 902,
+  "DetailsTable": 538,
+  "DetailsRecord": 531,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sint",
-    "ParameterObject2": "nobis"
+    "ParameterObject1": "esse",
+    "ParameterObject2": "numquam"
   },
-  "LastStarted": "2000-02-13T03:40:46.9999043+01:00",
-  "Created": "2024-07-19T03:40:46.9999043+02:00",
-  "StartCount": 710,
-  "DatabaseSerialNumber": "250006",
-  "Context": "accusantium",
-  "Result": "amet",
+  "LastStarted": "2016-05-20T02:30:47.366331+02:00",
+  "Created": "2018-12-06T02:30:47.366331+01:00",
+  "StartCount": 380,
+  "DatabaseSerialNumber": "997510",
+  "Context": "ad",
+  "Result": "quibusdam",
   "State": "All",
-  "Description": "Pre-emptive composite encoding",
-  "Response": "odio",
-  "Request": "reprehenderit",
-  "ProgressDescription": "Intuitive bottom-line circuit",
-  "ProgressPercent": 166,
-  "FileName": "Sporer LLC",
+  "Description": "Enterprise-wide bandwidth-monitored open system",
+  "Response": "doloribus",
+  "Request": "aut",
+  "ProgressDescription": "Reactive fresh-thinking collaboration",
+  "ProgressPercent": 653,
+  "FileName": "Wolff-Huel",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 748
     }
   }
 }

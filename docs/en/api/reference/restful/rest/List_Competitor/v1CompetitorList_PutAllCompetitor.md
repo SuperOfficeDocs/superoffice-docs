@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Lang-Bernier",
-    "Tooltip": "excepturi",
+    "Id": 158,
+    "Name": "Upton, Batz and Bayer",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 493,
-    "Rank": 72
+    "UdListDefinitionId": 500,
+    "Rank": 392
   },
   {
-    "Id": 740,
-    "Name": "Lang-Bernier",
-    "Tooltip": "excepturi",
+    "Id": 158,
+    "Name": "Upton, Batz and Bayer",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 493,
-    "Rank": 72
+    "UdListDefinitionId": 500,
+    "Rank": 392
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Hauck Group",
-    "Tooltip": "corporis",
-    "Deleted": true,
-    "UdListDefinitionId": 193,
-    "Rank": 642,
+    "Id": 287,
+    "Name": "Leffler-Hermann",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "UdListDefinitionId": 944,
+    "Rank": 132,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldLength": 66
       }
     }
   }

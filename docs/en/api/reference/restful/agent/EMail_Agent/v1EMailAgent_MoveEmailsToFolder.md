@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 391,
+  "FolderId": 255,
   "EmailItemIds": [
-    745,
-    709
+    237,
+    41
   ]
 }
 ```

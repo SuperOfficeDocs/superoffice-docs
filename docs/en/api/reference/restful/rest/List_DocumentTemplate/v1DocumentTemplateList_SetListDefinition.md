@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Bahringer-Leffler",
-  "Tooltip": "iure",
-  "Deleted": false,
-  "Rank": 232,
-  "IsCustomList": true,
+  "Id": 274,
+  "Name": "Hyatt-Romaguera",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 6,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 281,
-  "Name": "Hoeger, Borer and Dach",
-  "Tooltip": "sit",
+  "Id": 143,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 175,
+  "Rank": 442,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

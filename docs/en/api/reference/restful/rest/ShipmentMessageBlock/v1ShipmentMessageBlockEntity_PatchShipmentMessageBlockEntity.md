@@ -117,18 +117,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   }
 ]
@@ -141,20 +141,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 816,
-  "AssociateId": 849,
-  "Block": "sint",
-  "Registered": "2002-12-16T03:40:56.2422072+01:00",
-  "RegisteredAssociateId": 574,
-  "Updated": "2014-09-14T03:40:56.2422072+02:00",
-  "UpdatedAssociateId": 858,
-  "UpdatedCount": 934,
+  "ShipmentMessageBlockId": 342,
+  "AssociateId": 794,
+  "Block": "aperiam",
+  "Registered": "1998-06-27T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2021-10-17T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 55,
+  "UpdatedCount": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 1001
     }
   },
   "_Links": {

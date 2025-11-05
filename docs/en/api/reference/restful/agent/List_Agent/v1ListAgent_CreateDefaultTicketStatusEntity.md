@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,8 +74,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 568,
-  "Name": "Von, Casper and Jakubowski",
+  "TicketStatusId": 502,
+  "Name": "McClure Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

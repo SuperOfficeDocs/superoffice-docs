@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Schiller-Prosacco",
-  "StorageKey": "veritatis"
+  "StorageType": "est",
+  "ProviderName": "Pfannerstill, Kihn and Kulas",
+  "StorageKey": "placeat"
 }
 ```
 
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Krajcik, Schoen and Wolf",
-    "DisplayTooltip": "hic",
-    "DisplayType": "omnis",
-    "CanOrderBy": false,
-    "Name": "Mohr, Baumbach and Homenick",
+    "DisplayName": "Stokes-Hagenes",
+    "DisplayTooltip": "itaque",
+    "DisplayType": "eum",
+    "CanOrderBy": true,
+    "Name": "Robel Group",
     "CanRestrictBy": false,
-    "RestrictionType": "illum",
-    "RestrictionListName": "Braun, Tillman and Huels",
+    "RestrictionType": "sit",
+    "RestrictionListName": "Greenfelder, Harris and O'Reilly",
     "IsVisible": false,
-    "ExtraInfo": "non",
-    "Width": "sed",
-    "IconHint": "vel",
-    "HeadingIconHint": "atque"
+    "ExtraInfo": "nihil",
+    "Width": "sint",
+    "IconHint": "nam",
+    "HeadingIconHint": "facere"
   }
 ]
 ```

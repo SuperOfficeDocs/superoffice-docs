@@ -32,9 +32,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=tempore
-GET /api/v1/MDOList/{listname}?query=dolor
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=provident
+GET /api/v1/MDOList/{listname}?query=in
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Haag, Hegmann and Kunze",
-    "ToolTip": "Non qui aut enim delectus rerum.",
-    "Deleted": true,
-    "Rank": 847,
-    "Type": "ducimus",
+    "Id": 697,
+    "Name": "Hahn Inc and Sons",
+    "ToolTip": "Sint voluptas ratione distinctio sunt.",
+    "Deleted": false,
+    "Rank": 811,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Runolfsdottir-Gerhold",
-        "ToolTip": "Incidunt voluptatem.",
-        "Deleted": true,
-        "Rank": 462,
-        "Type": "qui",
+        "Id": 635,
+        "Name": "Fahey LLC",
+        "ToolTip": "At aspernatur temporibus ut.",
+        "Deleted": false,
+        "Rank": 254,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 50,
-        "ExtraInfo": "ratione",
-        "StyleHint": "labore",
-        "FullName": "Mrs. Xander Amparo Turcotte DVM",
+        "IconHint": "nihil",
+        "ColorBlock": 840,
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "FullName": "Dr. Loy Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 989
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 768,
-    "ExtraInfo": "unde",
-    "StyleHint": "molestias",
-    "FullName": "Ari Rippin",
+    "IconHint": "ut",
+    "ColorBlock": 927,
+    "ExtraInfo": "aut",
+    "StyleHint": "iusto",
+    "FullName": "Mr. Irving Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldLength": 805
       }
     }
   }

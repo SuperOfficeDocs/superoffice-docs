@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -129,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 958,
-  "ERPQuoteVersionKey": "et",
-  "QuoteId": 997,
-  "Description": "Diverse bandwidth-monitored circuit",
-  "Number": "1198771",
+  "QuoteVersionId": 757,
+  "ERPQuoteVersionKey": "labore",
+  "QuoteId": 300,
+  "Description": "Function-based leading edge access",
+  "Number": "1702578",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 984,
-  "SentDate": "2009-01-25T03:40:47.5317063+01:00",
-  "FollowupId": 860,
-  "ExpirationDate": "2018-05-11T03:40:47.5317063+02:00",
-  "DeliveryCountryId": 335,
+  "LikelyQuoteAlternativeId": 993,
+  "SentDate": "2022-06-09T02:30:47.7100701+02:00",
+  "FollowupId": 189,
+  "ExpirationDate": "2024-05-26T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 962,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 649,
+  "InvoiceCountryId": 82,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "consequuntur",
-  "ERPPaymentTypeKey": "doloribus",
-  "ERPDeliveryTermsKey": "ut",
-  "ERPDeliveryTypeKey": "ut",
-  "Rank": 458,
-  "ApprovedBy": 455,
-  "ApprovedText": "quos",
-  "ApprovedRegisteredBy": 796,
-  "ApprovedRegisteredDate": "2022-02-26T03:40:47.5317063+01:00",
-  "ExtraField1": "mollitia",
-  "ExtraField2": "modi",
-  "ExtraField3": "unde",
-  "ExtraField4": "et",
-  "ExtraField5": "sed",
-  "LastRecalculated": "2009-01-29T03:40:47.5317063+01:00",
-  "Updated": "2016-03-12T03:40:47.5317063+01:00",
-  "UpdatedAssociateId": 527,
-  "Registered": "2005-05-06T03:40:47.5317063+02:00",
-  "RegisteredAssociateId": 944,
-  "RequestAssociateId": 103,
-  "RequestComment": "voluptatem",
+  "ERPPaymentTermsKey": "commodi",
+  "ERPPaymentTypeKey": "occaecati",
+  "ERPDeliveryTermsKey": "sed",
+  "ERPDeliveryTypeKey": "nulla",
+  "Rank": 170,
+  "ApprovedBy": 385,
+  "ApprovedText": "aliquam",
+  "ApprovedRegisteredBy": 682,
+  "ApprovedRegisteredDate": "2022-04-06T02:30:47.7100701+02:00",
+  "ExtraField1": "autem",
+  "ExtraField2": "et",
+  "ExtraField3": "quis",
+  "ExtraField4": "impedit",
+  "ExtraField5": "assumenda",
+  "LastRecalculated": "2015-08-14T02:30:47.7100701+02:00",
+  "Updated": "2023-07-09T02:30:47.7100701+02:00",
+  "UpdatedAssociateId": 678,
+  "Registered": "2024-10-04T02:30:47.7100701+02:00",
+  "RegisteredAssociateId": 297,
+  "RequestAssociateId": 275,
+  "RequestComment": "eius",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 583,
-      "ERPQuoteAlternativeKey": "rerum",
-      "QuoteVersionId": 190,
-      "Name": "Moore, Jerde and Huels",
-      "Description": "Pre-emptive systematic pricing structure",
+      "QuoteAlternativeId": 700,
+      "ERPQuoteAlternativeKey": "sit",
+      "QuoteVersionId": 835,
+      "Name": "Lowe, Block and Bailey",
+      "Description": "Open-architected web-enabled benchmark",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20098.342,
-      "ERPDiscountAmount": 23859.142,
-      "DiscountPercent": 12711.503999999999,
-      "DiscountAmount": 15115.282,
+      "ERPDiscountPercent": 17453.246,
+      "ERPDiscountAmount": 16497.376,
+      "DiscountPercent": 29700.917999999998,
+      "DiscountAmount": 15948.926,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ea",
-      "VAT": 22003.814,
-      "EarningPercent": 13466.797999999999,
-      "EarningAmount": 3773.336,
-      "SubTotal": 10677.538,
-      "TotalPrice": 16177.707999999999,
-      "ExtraField1": "repellat",
-      "ExtraField2": "sapiente",
-      "ExtraField3": "molestiae",
-      "ExtraField4": "voluptatem",
-      "ExtraField5": "et",
+      "VATInfo": "est",
+      "VAT": 31296.124,
+      "EarningPercent": 4453.414,
+      "EarningAmount": 2544.808,
+      "SubTotal": 5415.552,
+      "TotalPrice": 10768.423999999999,
+      "ExtraField1": "vel",
+      "ExtraField2": "quo",
+      "ExtraField3": "enim",
+      "ExtraField4": "temporibus",
+      "ExtraField5": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 694
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 296
     }
   }
 }

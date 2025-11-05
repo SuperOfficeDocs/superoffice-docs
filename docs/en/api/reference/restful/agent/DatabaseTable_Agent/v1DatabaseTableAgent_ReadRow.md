@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stamm-Haag",
-  "Id": 878
+  "TableName": "Wuckert Inc and Sons",
+  "Id": 39
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "porro",
-    "Values2": "odit"
+    "Values1": "molestias",
+    "Values2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 815
     }
   }
 }

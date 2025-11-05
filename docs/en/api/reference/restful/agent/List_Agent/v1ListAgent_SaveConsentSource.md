@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 124,
-  "Name": "Hoppe Group",
-  "Tooltip": "voluptas",
-  "Rank": 395,
-  "Key": "eius",
-  "MailTemplateId": 159,
+  "ConsentSourceId": 562,
+  "Name": "Rath, Terry and Bartell",
+  "Tooltip": "et",
+  "Rank": 590,
+  "Key": "laborum",
+  "MailTemplateId": 41,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 329
     }
   }
 }

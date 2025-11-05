@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 617
+  "ContactId": 680
 }
 ```
 
@@ -132,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "consequatur",
-    "PersonId": 32,
-    "Mrmrs": "eveniet",
-    "Firstname": "Araceli",
-    "Lastname": "Shanahan",
-    "MiddleName": "Kub, Price and Greenfelder",
-    "Title": "reprehenderit",
-    "Description": "Phased local emulation",
-    "Email": "cleo@brekke.uk",
-    "FullName": "Abby Crona",
-    "DirectPhone": "(298)466-3649 x924",
-    "FormalName": "Strosin-Lebsack",
-    "CountryId": 464,
-    "ContactId": 882,
-    "ContactName": "Dietrich Group",
-    "Retired": 666,
-    "Rank": 950,
-    "ActiveInterests": 200,
+    "Position": "sapiente",
+    "PersonId": 199,
+    "Mrmrs": "fugit",
+    "Firstname": "Velma",
+    "Lastname": "Tromp",
+    "MiddleName": "Mayert LLC",
+    "Title": "doloribus",
+    "Description": "Seamless 24 hour website",
+    "Email": "brad@blandakerluke.biz",
+    "FullName": "Fatima Cassin",
+    "DirectPhone": "913.206.0381 x001",
+    "FormalName": "Schamberger, Jacobson and Grant",
+    "CountryId": 411,
+    "ContactId": 951,
+    "ContactName": "Bogan, Doyle and Langosh",
+    "Retired": 118,
+    "Rank": 462,
+    "ActiveInterests": 437,
     "ContactDepartment": "",
-    "ContactCountryId": 771,
-    "ContactOrgNr": "1702130",
-    "FaxPhone": "678-773-7279 x0113",
-    "MobilePhone": "(303)910-8042 x40073",
-    "ContactPhone": "895-695-3901 x9502",
-    "AssociateName": "Gleichner, Schmitt and Runte",
-    "AssociateId": 906,
-    "UsePersonAddress": true,
-    "ContactFax": "voluptate",
-    "Kanafname": "autem",
-    "Kanalname": "ex",
-    "Post1": "molestiae",
-    "Post2": "debitis",
-    "Post3": "sed",
-    "EmailName": "jaylan.oreilly@collinswitting.com",
-    "ContactFullName": "Aric Fisher",
-    "ActiveErpLinks": 993,
-    "TicketPriorityId": 102,
-    "SupportLanguageId": 937,
-    "SupportAssociateId": 911,
+    "ContactCountryId": 200,
+    "ContactOrgNr": "1836440",
+    "FaxPhone": "501-436-5457 x772",
+    "MobilePhone": "078.283.4740 x659",
+    "ContactPhone": "1-911-778-4393 x18653",
+    "AssociateName": "Beahan, Auer and Leannon",
+    "AssociateId": 858,
+    "UsePersonAddress": false,
+    "ContactFax": "et",
+    "Kanafname": "error",
+    "Kanalname": "quasi",
+    "Post1": "omnis",
+    "Post2": "dolor",
+    "Post3": "maiores",
+    "EmailName": "marcos_pagac@friesen.com",
+    "ContactFullName": "Lora Murazik",
+    "ActiveErpLinks": 307,
+    "TicketPriorityId": 355,
+    "SupportLanguageId": 385,
+    "SupportAssociateId": 961,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "740038",
+    "PersonNumber": "863395",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 703
       }
     }
   }

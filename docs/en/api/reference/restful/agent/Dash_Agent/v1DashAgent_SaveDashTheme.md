@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 959,
-  "Name": "Schimmel, Labadie and Lubowitz",
-  "Config": "quisquam",
-  "Rank": 489,
+  "DashboardThemeId": 139,
+  "Name": "Grady LLC",
+  "Config": "est",
+  "Rank": 849,
   "Client": "ut",
-  "Style": "perferendis"
+  "Style": "accusantium"
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 625,
-  "Name": "McDermott, Lindgren and Fritsch",
-  "Config": "voluptatum",
-  "Rank": 109,
-  "Client": "aliquid",
-  "Style": "iusto",
+  "DashboardThemeId": 849,
+  "Name": "Renner, Nicolas and Towne",
+  "Config": "quisquam",
+  "Rank": 67,
+  "Client": "fuga",
+  "Style": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 107
     }
   }
 }

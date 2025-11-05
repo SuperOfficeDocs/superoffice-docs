@@ -91,40 +91,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 469,
-  "Name": "Tromp-Kuvalis",
-  "Rank": 69,
-  "Tooltip": "neque",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 682,
+  "TicketTypeId": 811,
+  "Name": "Krajcik-Bechtelar",
+  "Rank": 202,
+  "Tooltip": "voluptas",
+  "Icon": "modi",
+  "DefaultTicketStatus": 604,
   "TicketStatuses": [
-    32,
-    976
+    974,
+    924
   ],
-  "DefaultTicketPriority": 288,
+  "DefaultTicketPriority": 141,
   "TicketPriorities": [
-    320,
-    391
+    553,
+    594
   ],
-  "ReplyTemplate": 591,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 409,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    701,
-    294
+    25,
+    969
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 344
     }
   }
 }

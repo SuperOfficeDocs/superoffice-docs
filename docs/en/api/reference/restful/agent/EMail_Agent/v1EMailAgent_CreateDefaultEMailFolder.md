@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Collier Inc and Sons",
-  "Delimiter": "harum",
-  "Flags": "non",
-  "TotalItems": 617,
-  "UnreadItems": 346,
-  "Subscribed": false,
-  "EmailFolderId": 499,
+  "Name": "Konopelski-Klocko",
+  "Delimiter": "amet",
+  "Flags": "sunt",
+  "TotalItems": 688,
+  "UnreadItems": 380,
+  "Subscribed": true,
+  "EmailFolderId": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

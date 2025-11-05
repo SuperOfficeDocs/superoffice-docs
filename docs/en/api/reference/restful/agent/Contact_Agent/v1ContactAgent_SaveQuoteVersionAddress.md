@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 648,
+  "QuoteVersionId": 989,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 715
+  "CountryId": 440
 }
 ```
 
@@ -102,41 +102,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1560.732,
-  "Wgs84Longitude": 21330.004,
+  "Wgs84Latitude": 3149.67,
+  "Wgs84Longitude": 21314.334,
   "LocalizedAddress": [
     [
       {
-        "Name": "Ullrich, Jaskolski and Hackett",
-        "Value": "omnis",
-        "Tooltip": "harum",
-        "Label": "minima",
-        "ValueLength": 150,
-        "AddressType": "minima",
+        "Name": "Zboncak-Wehner",
+        "Value": "eaque",
+        "Tooltip": "dolores",
+        "Label": "est",
+        "ValueLength": 862,
+        "AddressType": "quidem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldLength": 744
           }
         }
       }
     ],
     [
       {
-        "Name": "Johns-Douglas",
-        "Value": "consectetur",
-        "Tooltip": "qui",
-        "Label": "est",
-        "ValueLength": 877,
-        "AddressType": "harum",
+        "Name": "Schimmel, Kiehn and Blick",
+        "Value": "corporis",
+        "Tooltip": "veniam",
+        "Label": "asperiores",
+        "ValueLength": 313,
+        "AddressType": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldLength": 550
           }
         }
       }
@@ -144,13 +144,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "doloremque",
+  "Formatted": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

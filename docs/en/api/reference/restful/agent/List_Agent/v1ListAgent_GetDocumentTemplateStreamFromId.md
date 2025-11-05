@@ -76,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 622,
-  "LanguageCode": "eveniet"
+  "DocumentTemplateId": 173,
+  "LanguageCode": "qui"
 }
 ```
 

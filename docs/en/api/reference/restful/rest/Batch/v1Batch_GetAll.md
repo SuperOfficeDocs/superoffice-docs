@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=nulla
-GET /api/v1/BatchTask?$top=281
-GET /api/v1/BatchTask?$skip=341
+GET /api/v1/BatchTask?$entities=aliquam
+GET /api/v1/BatchTask?$top=800
+GET /api/v1/BatchTask?$skip=78
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=repellendus
+GET /api/v1/BatchTask?$context=quisquam
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "alias",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 4040,
-      "EntityName": "person",
-      "personId": 4040,
-      "fullName": "Miss Evangeline Catherine Heaney Jr."
+      "PrimaryKey": 480,
+      "EntityName": "sale",
+      "saleId": 480,
+      "contactId": 2129,
+      "name": "Ankunding LLC"
     },
     {
-      "PrimaryKey": 7201,
-      "EntityName": "person",
-      "personId": 7201,
-      "fullName": "Dr. Ethel Gleason III"
+      "PrimaryKey": 4951,
+      "EntityName": "sale",
+      "saleId": 4951,
+      "contactId": 158,
+      "name": "Marquardt-Sawayn"
     }
   ]
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Dare Inc and Sons",
-    "ToolTip": "Debitis laboriosam minus fuga.",
+    "Id": 800,
+    "Name": "Runolfsdottir-Keebler",
+    "ToolTip": "Neque omnis.",
     "Deleted": false,
-    "Rank": 549,
-    "Type": "neque",
-    "ColorBlock": 227,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2017-01-28T03:40:57.1189414+01:00",
+    "Rank": 425,
+    "Type": "voluptatem",
+    "ColorBlock": 554,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2000-03-16T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Herman, Simonis and Kuphal",
-        "ToolTip": "Qui quod ea autem libero laudantium et.",
-        "Deleted": false,
-        "Rank": 625,
-        "Type": "saepe",
-        "ColorBlock": 325,
-        "IconHint": "voluptate",
+        "Id": 627,
+        "Name": "Erdman-Koch",
+        "ToolTip": "Debitis voluptatem consequuntur nisi in fuga molestiae at.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "culpa",
+        "ColorBlock": 947,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2005-06-10T03:40:57.1189414+02:00",
+        "LastChanged": "1999-06-03T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "et",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Zena Leannon MD"
+        "FullName": "Aurelio Lueilwitz Jr."
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "ut",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Miss Cielo Hickle DVM"
+    "FullName": "Dr. Lura Orn I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Skiles, Hessel and King",
-    "ToolTip": "Quasi rem quos sapiente aut ut quibusdam rerum.",
+    "Id": 739,
+    "Name": "Crist-Gaylord",
+    "ToolTip": "Incidunt voluptatem placeat molestias autem veniam quis nobis.",
     "Deleted": false,
-    "Rank": 121,
-    "Type": "eum",
-    "ColorBlock": 109,
-    "IconHint": "autem",
+    "Rank": 776,
+    "Type": "et",
+    "ColorBlock": 248,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2002-05-18T03:40:57.1189414+02:00",
+    "LastChanged": "2002-12-11T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Pfannerstill-Beatty",
-        "ToolTip": "Nisi enim dolor excepturi et aperiam.",
+        "Id": 857,
+        "Name": "Davis, Mayert and Waelchi",
+        "ToolTip": "Nulla repudiandae.",
         "Deleted": false,
-        "Rank": 34,
-        "Type": "impedit",
-        "ColorBlock": 306,
-        "IconHint": "et",
+        "Rank": 552,
+        "Type": "et",
+        "ColorBlock": 247,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2023-08-15T03:40:57.1189414+02:00",
+        "LastChanged": "2016-08-16T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Hudson Jacobi",
+        "ExtraInfo": "molestias",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Vivien Brandt Goyette Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 485
+            "FieldType": "System.Int32",
+            "FieldLength": 16
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "hic",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Sydnee Tressie Sawayn Jr.",
+    "FullName": "Courtney Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 840
       }
     }
   }

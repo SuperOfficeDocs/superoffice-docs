@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hayes LLC"
+  "TableName": "Bernier-Kulas"
 }
 ```
 
@@ -97,41 +97,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "repellat",
-  "Inserts": 299,
-  "Updates": 671,
-  "Deletes": 396,
+  "Success": true,
+  "Message": "qui",
+  "Inserts": 543,
+  "Updates": 639,
+  "Deletes": 939,
   "RowStatus": [
     {
-      "PrimaryKey": 157,
+      "PrimaryKey": 889,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ipsa",
-        "sint"
+        "officiis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     },
     {
-      "PrimaryKey": 157,
+      "PrimaryKey": 889,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ipsa",
-        "sint"
+        "officiis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 857
     }
   }
 }

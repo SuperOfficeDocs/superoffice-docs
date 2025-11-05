@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Value": "et",
-    "Tooltip": "soluta",
+    "Id": 569,
+    "Value": "sapiente",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 654
       }
     }
   },
   {
-    "Id": 947,
-    "Value": "et",
-    "Tooltip": "soluta",
+    "Id": 569,
+    "Value": "sapiente",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 654
       }
     }
   }

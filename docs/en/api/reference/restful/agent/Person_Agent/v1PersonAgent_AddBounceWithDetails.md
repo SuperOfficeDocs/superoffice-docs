@@ -70,13 +70,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "sydni@paucekterry.ca",
-  "Counts": 863,
-  "Code": 886,
+  "EmailAddress": "lauryn@hagenes.info",
+  "Counts": 503,
+  "Code": 785,
   "Reason": ""
 }
 ```

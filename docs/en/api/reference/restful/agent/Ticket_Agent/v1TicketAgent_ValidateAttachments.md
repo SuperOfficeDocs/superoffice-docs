@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Ticket/ValidateAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    542,
-    753
+    137,
+    244
   ]
 }
 ```
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 444,
+    "AttachmentId": 178,
     "IsValid": true,
-    "ErrorMessage": "expedita"
+    "ErrorMessage": "magni"
   },
   {
-    "AttachmentId": 444,
+    "AttachmentId": 178,
     "IsValid": true,
-    "ErrorMessage": "expedita"
+    "ErrorMessage": "magni"
   }
 ]
 ```

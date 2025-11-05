@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Schaefer Group",
-  "TypicalSearchId": 591
+  "EntityName": "Watsica-Grimes",
+  "TypicalSearchId": 345
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cormier-Hagenes",
-  "SelectionId": 820,
+  "ProviderName": "Lueilwitz, Hermann and Braun",
+  "SelectionId": 433,
   "CanSaveAsSelection": false,
-  "MainHeading": "nulla",
-  "FilterScreenHeading": "placeat",
-  "SelectionEntityHeading": "error",
+  "MainHeading": "quia",
+  "FilterScreenHeading": "exercitationem",
+  "SelectionEntityHeading": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

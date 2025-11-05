@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 888,
-  "Section": "dicta",
-  "Key": "et",
-  "Name": "Harber Group",
+  "PrefDescId": 75,
+  "Section": "suscipit",
+  "Key": "quos",
+  "Name": "Kuphal LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Progressive well-modulated project",
+  "Description": "De-engineered background system engine",
   "IsBuiltin": false,
-  "TableName": "Wiegand Group",
-  "UserDefinedListId": 489,
-  "Rank": 90,
-  "SubGroup": "similique",
-  "MinLevel": 247,
-  "MaxValue": 92,
-  "MinValue": 109,
-  "RequiredLicense": "quae",
+  "TableName": "Fay-Graham",
+  "UserDefinedListId": 285,
+  "Rank": 270,
+  "SubGroup": "molestias",
+  "MinLevel": 758,
+  "MaxValue": 646,
+  "MinValue": 399,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   }
 }

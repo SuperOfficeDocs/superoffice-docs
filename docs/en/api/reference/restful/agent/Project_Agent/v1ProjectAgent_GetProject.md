@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=375
+POST /api/v1/Agents/Project/GetProject?projectId=695
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 500,
-  "Name": "Jacobson-Ledner",
-  "Description": "Decentralized national moderator",
+  "ProjectId": 257,
+  "Name": "Langworth Group",
+  "Description": "Business-focused background framework",
   "URL": "http://www.example.com/",
-  "Type": "similique",
-  "AssociateId": 950,
-  "AssociateFullName": "Ms. Laisha Medhurst",
-  "TypeId": 915,
-  "Updated": "2023-09-17T03:40:47.4531039+02:00",
-  "StatusId": 141,
-  "Status": "dolor",
-  "TextId": 55,
-  "PublishTo": "2010-10-09T03:40:47.4531039+02:00",
-  "PublishFrom": "2005-06-09T03:40:47.4531039+02:00",
+  "Type": "atque",
+  "AssociateId": 956,
+  "AssociateFullName": "Dr. Milo Trantow III",
+  "TypeId": 265,
+  "Updated": "2024-11-10T02:30:47.6006984+01:00",
+  "StatusId": 767,
+  "Status": "accusamus",
+  "TextId": 511,
+  "PublishTo": "2002-06-02T02:30:47.6006984+02:00",
+  "PublishFrom": "2007-10-03T02:30:47.6006984+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "789376",
-  "ActiveErpLinks": 236,
+  "ProjectNumber": "1376442",
+  "ActiveErpLinks": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldLength": 5
     }
   }
 }

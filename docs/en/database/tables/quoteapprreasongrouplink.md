@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# QuoteApprReasonGroupLink Table (529)
+# QuoteApprReasonGroupLink Table (530)
 
 User group link table for QuoteApprReason, for MDO item hiding
 

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 266
+  "SaleId": 674
 }
 ```
 
@@ -108,31 +108,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Breitenberg-Leuschke",
-    "Comment": "id",
-    "StakeholderRoleId": 45,
-    "CountryId": 507,
-    "PersonId": 421,
-    "EmailDescription": "barton_becker@rowe.co.uk",
-    "EmailId": 486,
-    "EmailAddress": "rosendo_waters@spencerokon.us",
-    "PhoneId": 321,
-    "ContactName": "Parisian LLC",
-    "ContactId": 35,
-    "SaleId": 360,
-    "Mrmrs": "aut",
-    "Firstname": "Carleton",
-    "MiddleName": "Feest-Bergnaum",
-    "Lastname": "Christiansen",
-    "SaleStakeholderId": 56,
-    "Rank": 606,
-    "Phone": "339.904.0572 x456",
+    "StakeholderRoleName": "Wehner-Schoen",
+    "Comment": "mollitia",
+    "StakeholderRoleId": 775,
+    "CountryId": 435,
+    "PersonId": 29,
+    "EmailDescription": "royal_braun@prohaska.name",
+    "EmailId": 521,
+    "EmailAddress": "fabian@barrowsmcdermott.info",
+    "PhoneId": 945,
+    "ContactName": "Mante, Grady and West",
+    "ContactId": 986,
+    "SaleId": 66,
+    "Mrmrs": "soluta",
+    "Firstname": "Ebony",
+    "MiddleName": "Larkin LLC",
+    "Lastname": "Gorczany",
+    "SaleStakeholderId": 927,
+    "Rank": 503,
+    "Phone": "128-303-4371 x20970",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 1002
       }
     }
   }

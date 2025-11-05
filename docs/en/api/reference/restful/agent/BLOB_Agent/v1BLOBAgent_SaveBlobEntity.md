@@ -90,23 +90,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 952,
-  "BlobSize": 677,
-  "Description": "Focused systemic migration",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "quae",
-  "OriginalSize": 545,
-  "CreatedDate": "2017-01-25T03:40:46.0920806+01:00",
-  "UpdatedDate": "2022-02-07T03:40:46.0920806+01:00",
+  "BlobId": 563,
+  "BlobSize": 970,
+  "Description": "Up-sized bi-directional Graphical User Interface",
+  "ExtraInfo": "atque",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 887,
+  "CreatedDate": "2016-12-29T02:30:46.8194719+01:00",
+  "UpdatedDate": "2007-06-04T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veritatis"
+  "ConceptualType": "assumenda"
 }
 ```
 
@@ -117,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 604,
-  "BlobSize": 837,
-  "Description": "Organic 3rd generation monitoring",
-  "ExtraInfo": "est",
+  "BlobId": 352,
+  "BlobSize": 993,
+  "Description": "Polarised fresh-thinking core",
+  "ExtraInfo": "corporis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "fugit",
-  "OriginalSize": 990,
-  "CreatedDate": "2016-04-01T03:40:46.0920806+02:00",
-  "UpdatedDate": "2001-08-26T03:40:46.0920806+02:00",
+  "IsZipped": false,
+  "MimeType": "nihil",
+  "OriginalSize": 186,
+  "CreatedDate": "2017-03-18T02:30:46.8194719+01:00",
+  "UpdatedDate": "2003-06-25T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 502
     }
   }
 }

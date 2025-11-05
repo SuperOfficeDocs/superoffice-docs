@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 641,
-  "SourcePersonId": 494,
-  "DestinationContactId": 387,
-  "DestinationPersonId": 538,
-  "RelationId": 269,
-  "Comment": "rerum",
-  "RelationDefinitionId": 302,
-  "Reversed": 321,
-  "UpdatedDate": "2001-03-23T03:40:47.5942106+01:00",
-  "CreatedDate": "2022-09-13T03:40:47.5942106+02:00",
+  "SourceContactId": 363,
+  "SourcePersonId": 748,
+  "DestinationContactId": 746,
+  "DestinationPersonId": 381,
+  "RelationId": 964,
+  "Comment": "animi",
+  "RelationDefinitionId": 428,
+  "Reversed": 724,
+  "UpdatedDate": "2019-07-24T02:30:47.7413192+02:00",
+  "CreatedDate": "2007-10-26T02:30:47.7413192+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Treutel, Welch and Stroman",
-  "SourcePersonName": "VonRueden-Roob",
-  "DestinationContactName": "Howe, Hackett and Carter",
-  "DestinationPersonName": "Jakubowski-Marquardt",
-  "ActiveText": "officia",
-  "PassiveText": "aut",
+  "SourceContactName": "Boyle LLC",
+  "SourcePersonName": "Champlin, Muller and Marks",
+  "DestinationContactName": "Kuphal LLC",
+  "DestinationPersonName": "Fritsch-Kessler",
+  "ActiveText": "ex",
+  "PassiveText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 77
     }
   }
 }

@@ -59,7 +59,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Christiansen LLC",
-    "DisplayName": "Bins-Hartmann",
-    "DisplayTooltip": "aliquid",
-    "IsActive": true,
+    "Name": "Smith-Abshire",
+    "DisplayName": "Windler-Moore",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 848
       }
     }
   },
   {
-    "Name": "Christiansen LLC",
-    "DisplayName": "Bins-Hartmann",
-    "DisplayTooltip": "aliquid",
-    "IsActive": true,
+    "Name": "Smith-Abshire",
+    "DisplayName": "Windler-Moore",
+    "DisplayTooltip": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 848
       }
     }
   }

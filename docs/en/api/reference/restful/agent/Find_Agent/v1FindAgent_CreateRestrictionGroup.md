@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Roob, Gaylord and Larkin",
-  "StorageKey": "ducimus",
-  "Context": "omnis"
+  "StorageType": "eaque",
+  "ProviderName": "Zulauf, Hagenes and Collins",
+  "StorageKey": "nostrum",
+  "Context": "ab"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Runolfsdottir-Schaefer",
-  "Description": "Re-contextualized eco-centric interface",
-  "Rank": 460,
+  "Name": "Stokes-Fay",
+  "Description": "Virtual even-keeled complexity",
+  "Rank": 811,
   "Restrictions": [
     {
-      "Name": "Morar LLC",
-      "Operator": "perferendis",
+      "Name": "Schuster LLC",
+      "Operator": "dolorem",
       "Values": [
-        "doloremque",
-        "vitae"
+        "unde",
+        "sit"
       ],
       "DisplayValues": [
-        "voluptate",
-        "repudiandae"
+        "ut",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,9 +119,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 220,
+      "InterParenthesis": 327,
       "InterOperator": "And",
-      "UniqueHash": 491
+      "UniqueHash": 80
     }
   ]
 }

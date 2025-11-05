@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=302
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=849
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 837,
-  "Name": "Haag Inc and Sons",
-  "Tooltip": "nihil",
+  "HeadingId": 745,
+  "Name": "Larson-Bradtke",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 283,
-  "UdListDefinitionId": 782,
+  "Rank": 328,
+  "UdListDefinitionId": 942,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

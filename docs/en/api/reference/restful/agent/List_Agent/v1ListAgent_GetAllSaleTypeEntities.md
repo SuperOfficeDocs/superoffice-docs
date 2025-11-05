@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,53 +113,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 622,
-    "Name": "Beahan-Turner",
-    "Tooltip": "molestias",
-    "Rank": 594,
+    "SaleTypeId": 791,
+    "Name": "Schmidt-Howell",
+    "Tooltip": "cum",
+    "Rank": 232,
     "DurationUnit": "Century",
-    "SaleDuration": 885,
-    "SaleTypeCatId": 94,
-    "Deleted": false,
+    "SaleDuration": 192,
+    "SaleTypeCatId": 971,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 856,
-    "QuoteLinesTemplate": 137,
-    "ConfirmationLinesTemplate": 255,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 282,
+    "QuoteLinesTemplate": 971,
+    "ConfirmationLinesTemplate": 490,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 515,
-    "MinEarningPercent": 962,
-    "GroupQuoteLinesBy": 482,
-    "SortGroupLinesBy": 829,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 10,
+    "MinEarningPercent": 749,
+    "GroupQuoteLinesBy": 596,
+    "SortGroupLinesBy": 27,
     "Stages": [
       {
-        "Id": 509,
-        "Name": "Littel Inc and Sons",
-        "ToolTip": "Praesentium et saepe doloribus recusandae corrupti.",
+        "Id": 403,
+        "Name": "Schultz-Rutherford",
+        "ToolTip": "Possimus enim labore aut quos aspernatur quia.",
         "Deleted": false,
-        "Rank": 305,
-        "Type": "at",
-        "ColorBlock": 457,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2009-02-27T03:40:47.0780355+01:00",
+        "Rank": 654,
+        "Type": "dolorem",
+        "ColorBlock": 3,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2003-05-29T02:30:47.3975807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "rerum",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Heaven Rosenbaum",
+        "FullName": "Mrs. Shanie Turcotte MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 774
+            "FieldType": "System.Int32",
+            "FieldLength": 211
           }
         }
       }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   }

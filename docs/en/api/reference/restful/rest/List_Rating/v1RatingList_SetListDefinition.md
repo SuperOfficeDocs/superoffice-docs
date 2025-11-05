@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Stark-Durgan",
-  "Tooltip": "pariatur",
+  "Id": 75,
+  "Name": "Strosin-Willms",
+  "Tooltip": "nostrum",
   "Deleted": true,
-  "Rank": 452,
+  "Rank": 88,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 468,
-  "Name": "Aufderhar LLC",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 458,
+  "Id": 795,
+  "Name": "Collier-Rau",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 935,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "in",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "animi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

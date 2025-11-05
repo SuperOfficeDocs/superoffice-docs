@@ -32,7 +32,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=334
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=400
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 939,
-  "Name": "Torp LLC",
+  "ScreenChooserId": 126,
+  "Name": "Hahn-Heaney",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "maiores",
-  "Source": "consequatur",
-  "Registered": "2002-05-06T03:40:46.5306238+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2002-11-16T03:40:46.5306238+01:00",
-  "UpdatedAssociateId": 282,
+  "UniqueIdentifier": "consectetur",
+  "Source": "ad",
+  "Registered": "2006-08-20T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 412,
+  "Updated": "2021-02-22T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 460,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

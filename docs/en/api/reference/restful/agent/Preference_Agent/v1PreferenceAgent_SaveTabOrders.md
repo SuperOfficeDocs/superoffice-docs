@@ -65,22 +65,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 595,
-      "TabName": "Bayer-Becker",
-      "Order": "inventore",
-      "AssociateId": 239
+      "TabOrderId": 476,
+      "TabName": "Halvorson-Hintz",
+      "Order": "magnam",
+      "AssociateId": 848
     },
     {
-      "TabOrderId": 595,
-      "TabName": "Bayer-Becker",
-      "Order": "inventore",
-      "AssociateId": 239
+      "TabOrderId": 476,
+      "TabName": "Halvorson-Hintz",
+      "Order": "magnam",
+      "AssociateId": 848
     }
   ]
 }

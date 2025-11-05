@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | consentPersonId | int32 | **Required** The identity of the ConsentPerson |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=708
+POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=801
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Person/DeleteConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

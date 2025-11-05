@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Welch-Murazik",
-    "ToolTip": "Natus aliquam animi eos accusamus eaque.",
+    "Id": 160,
+    "Name": "Kovacek Inc and Sons",
+    "ToolTip": "Dolorem error qui magni at doloremque.",
     "Deleted": true,
-    "Rank": 511,
-    "Type": "velit",
-    "ColorBlock": 901,
-    "IconHint": "aut",
+    "Rank": 514,
+    "Type": "doloribus",
+    "ColorBlock": 980,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2024-10-31T03:40:56.8682357+01:00",
+    "LastChanged": "2018-11-07T02:30:53.3036395+01:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Schowalter Inc and Sons",
-        "ToolTip": "Odit sunt ipsum dicta impedit ab ab.",
+        "Id": 1002,
+        "Name": "Streich-Bode",
+        "ToolTip": "Voluptate ut dignissimos.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "quaerat",
-        "ColorBlock": 291,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2004-10-11T03:40:56.8682357+02:00",
+        "Rank": 226,
+        "Type": "minus",
+        "ColorBlock": 306,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "1999-08-21T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "quo",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Dr. Blake Reynolds",
+        "FullName": "Ms. Chadd Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Myrtle Cruickshank",
+    "ExtraInfo": "cum",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Amiya Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 399
       }
     }
   }

@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Kutch-Schinner",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "UdListDefinitionId": 290,
-  "Rank": 719,
+  "Id": 842,
+  "Name": "Terry, West and Murphy",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 238,
+  "Rank": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 49
     }
   }
 }

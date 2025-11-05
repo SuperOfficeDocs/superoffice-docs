@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Koch, Nitzsche and Mayer",
-    "ToolTip": "Ipsam asperiores nesciunt debitis et laboriosam.",
-    "Deleted": true,
-    "Rank": 959,
-    "Type": "et",
-    "ColorBlock": 860,
-    "IconHint": "beatae",
+    "Id": 42,
+    "Name": "Hilll, Schultz and Hoeger",
+    "ToolTip": "Molestiae blanditiis.",
+    "Deleted": false,
+    "Rank": 740,
+    "Type": "quo",
+    "ColorBlock": 876,
+    "IconHint": "inventore",
     "Selected": true,
-    "LastChanged": "2012-03-24T03:40:56.8682357+01:00",
+    "LastChanged": "2022-12-14T02:30:53.3036395+01:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Altenwerth, Nicolas and Crooks",
-        "ToolTip": "Alias rerum.",
-        "Deleted": true,
-        "Rank": 322,
-        "Type": "porro",
-        "ColorBlock": 399,
-        "IconHint": "numquam",
+        "Id": 146,
+        "Name": "Corkery, Glover and Oberbrunner",
+        "ToolTip": "Veritatis accusantium ad.",
+        "Deleted": false,
+        "Rank": 790,
+        "Type": "pariatur",
+        "ColorBlock": 506,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2017-12-01T03:40:56.8682357+01:00",
+        "LastChanged": "2013-09-23T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "non",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Derek Sage Schmeler III"
+        "FullName": "Mr. Natasha Marquis Ernser"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "hic",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Stanley Wuckert"
+    "FullName": "Prof. Annabell Elza Bins I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Beatty-Schuster",
-    "ToolTip": "Rerum excepturi perferendis facilis omnis excepturi.",
-    "Deleted": false,
-    "Rank": 467,
-    "Type": "dicta",
-    "ColorBlock": 630,
-    "IconHint": "magni",
+    "Id": 40,
+    "Name": "Becker, Metz and Trantow",
+    "ToolTip": "Sed labore officiis eum corrupti.",
+    "Deleted": true,
+    "Rank": 210,
+    "Type": "porro",
+    "ColorBlock": 806,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2022-03-14T03:40:56.8682357+01:00",
+    "LastChanged": "2008-12-01T02:30:53.3036395+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Stamm-Bartell",
-        "ToolTip": "Dolorem quae.",
-        "Deleted": false,
-        "Rank": 921,
-        "Type": "accusamus",
-        "ColorBlock": 833,
-        "IconHint": "reiciendis",
+        "Id": 967,
+        "Name": "Goodwin Group",
+        "ToolTip": "Magni iste debitis.",
+        "Deleted": true,
+        "Rank": 814,
+        "Type": "reprehenderit",
+        "ColorBlock": 589,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2020-05-18T03:40:56.8682357+02:00",
+        "LastChanged": "2002-11-27T02:30:53.3036395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "qui",
+        "ExtraInfo": "sit",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Christophe Annalise Rutherford DVM",
+        "FullName": "Nicholas Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Darion Kautzer",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Mr. Van Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 260
       }
     }
   }

@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 820,
-  "EmailBodyTemplateId": 146,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 300,
-  "IncludeAttachments": false,
-  "RawMailSubject": "et"
+  "QuoteVersionId": 372,
+  "EmailBodyTemplateId": 923,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 540,
+  "IncludeAttachments": true,
+  "RawMailSubject": "esse"
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 326,
-  "QuotedProductsId": 142,
+  "QuoteDocumentId": 294,
+  "QuotedProductsId": 988,
   "QuoteAttachmentIds": [
-    535,
-    717
+    196,
+    89
   ],
-  "MailBody": "sint",
-  "MailSubject": "laborum",
-  "ToEmail": "landen_blanda@grady.co.uk",
-  "ToFullName": "Julius Walker",
-  "ErrorMessage": "et",
+  "MailBody": "dolor",
+  "MailSubject": "deleniti",
+  "ToEmail": "david_rath@buckridge.us",
+  "ToFullName": "Mr. Hosea Anderson Jr.",
+  "ErrorMessage": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 536
     }
   }
 }

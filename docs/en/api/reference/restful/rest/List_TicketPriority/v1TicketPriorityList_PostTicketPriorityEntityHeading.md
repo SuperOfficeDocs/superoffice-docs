@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 743,
-  "Name": "Considine, Sporer and Hodkiewicz",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 352,
-  "UdListDefinitionId": 173
+  "HeadingId": 265,
+  "Name": "Runolfsson, Senger and Braun",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 739,
+  "UdListDefinitionId": 16
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 405,
-  "Name": "Kerluke, Brakus and Bartell",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 432,
-  "UdListDefinitionId": 907,
+  "HeadingId": 453,
+  "Name": "Parker, Nitzsche and Ward",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 937,
+  "UdListDefinitionId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 868
     }
   }
 }

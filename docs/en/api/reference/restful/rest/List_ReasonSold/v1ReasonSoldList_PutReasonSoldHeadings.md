@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 76,
-    "Name": "Waelchi-Ebert",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 431,
-    "UdListDefinitionId": 319
+    "HeadingId": 556,
+    "Name": "Frami-Conn",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 572,
+    "UdListDefinitionId": 276
   },
   {
-    "HeadingId": 76,
-    "Name": "Waelchi-Ebert",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 431,
-    "UdListDefinitionId": 319
+    "HeadingId": 556,
+    "Name": "Frami-Conn",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 572,
+    "UdListDefinitionId": 276
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 566,
-    "Name": "Bins Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 564,
+    "HeadingId": 893,
+    "Name": "Grady-Koelpin",
+    "Tooltip": "maiores",
+    "Deleted": true,
+    "Rank": 345,
+    "UdListDefinitionId": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 403
       }
     }
   }

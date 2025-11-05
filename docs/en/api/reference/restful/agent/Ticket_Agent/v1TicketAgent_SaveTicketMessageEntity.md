@@ -117,67 +117,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 190,
+  "EjMessageId": 326,
   "Ticket": null,
-  "CreatedAt": "2010-03-28T03:40:48.0942399+02:00",
+  "CreatedAt": "2019-01-20T02:30:47.9913108+01:00",
   "CreatedBy": null,
-  "Author": "accusamus",
+  "Author": "possimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 576,
-  "Body": "voluptas",
-  "HtmlBody": "dignissimos",
-  "EmailHeader": "vada.mann@fisherhane.com",
-  "DebugInfo": "hic",
-  "MailSorter": "ea",
+  "MessageId": "vel",
+  "TimeSpent": 449,
+  "Body": "consequatur",
+  "HtmlBody": "odit",
+  "EmailHeader": "breanne.hahn@boyer.uk",
+  "DebugInfo": "iure",
+  "MailSorter": "ab",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fugiat",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 898,
-      "Name": "Purdy-Kunze",
-      "Value": "consectetur",
+      "Id": 502,
+      "Name": "Marvin-Batz",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 898,
-      "Name": "Purdy-Kunze",
-      "Value": "consectetur",
+      "Id": 502,
+      "Name": "Marvin-Batz",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "labore",
-  "Sentiment": 397,
-  "SentimentConfidence": 440,
+  "Language": "doloremque",
+  "Sentiment": 319,
+  "SentimentConfidence": 332,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 937,
-      "Name": "Green, Schultz and Beahan",
-      "ContentType": "eum",
-      "AttSize": 692,
-      "InlineImage": false,
-      "ContentId": "ad",
-      "AuthKey": "modi",
+      "AttachmentId": 530,
+      "Name": "Steuber Inc and Sons",
+      "ContentType": "sapiente",
+      "AttSize": 175,
+      "InlineImage": true,
+      "ContentId": "voluptatem",
+      "AuthKey": "in",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "magni"
+    "CustomFields1": "ea",
+    "CustomFields2": "amet"
   }
 }
 ```
@@ -189,79 +189,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 696,
+  "EjMessageId": 203,
   "Ticket": null,
-  "CreatedAt": "2019-05-09T03:40:48.0942399+02:00",
+  "CreatedAt": "1999-08-15T02:30:47.9913108+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatem",
-  "TimeSpent": 820,
-  "Body": "et",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "marie_herzog@robel.biz",
-  "DebugInfo": "ut",
-  "MailSorter": "consequatur",
+  "MessageId": "perferendis",
+  "TimeSpent": 619,
+  "Body": "nobis",
+  "HtmlBody": "recusandae",
+  "EmailHeader": "rick.halvorson@okeefelemke.com",
+  "DebugInfo": "quaerat",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "commodi",
+  "SearchTitle": "ipsum",
   "MessageHeaders": [
     {
-      "Id": 762,
-      "Name": "Senger Inc and Sons",
-      "Value": "ut",
+      "Id": 806,
+      "Name": "Stracke-Borer",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ea",
-  "Sentiment": 284,
-  "SentimentConfidence": 377,
+  "Important": false,
+  "Language": "quam",
+  "Sentiment": 662,
+  "SentimentConfidence": 20,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 782,
-      "Name": "Rice Group",
-      "ContentType": "rerum",
-      "AttSize": 902,
+      "AttachmentId": 212,
+      "Name": "Rath LLC",
+      "ContentType": "ut",
+      "AttSize": 587,
       "InlineImage": false,
-      "ContentId": "blanditiis",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": false,
+      "ContentId": "ex",
+      "AuthKey": "iste",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldLength": 779
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "nostrum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 492
     }
   }
 }

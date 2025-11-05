@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Jewess Inc and Sons",
-    "ToolTip": "Aliquam quia consequatur quia optio.",
+    "Id": 589,
+    "Name": "Grant, Brakus and Turner",
+    "ToolTip": "Et pariatur voluptatem sit blanditiis ut.",
     "Deleted": false,
-    "Rank": 944,
-    "Type": "in",
-    "ColorBlock": 393,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2023-12-03T03:40:57.040226+01:00",
+    "Rank": 575,
+    "Type": "dolorem",
+    "ColorBlock": 818,
+    "IconHint": "nulla",
+    "Selected": true,
+    "LastChanged": "2003-12-03T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Nolan-Hudson",
-        "ToolTip": "Iure nesciunt non ipsum dicta ratione id.",
+        "Id": 319,
+        "Name": "Gottlieb LLC",
+        "ToolTip": "Quas omnis dolor.",
         "Deleted": true,
-        "Rank": 762,
-        "Type": "et",
-        "ColorBlock": 844,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "2023-03-09T03:40:57.040226+01:00",
+        "Rank": 544,
+        "Type": "aut",
+        "ColorBlock": 474,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2025-09-03T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "aut",
+        "ExtraInfo": "qui",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Ms. Lavina Littel IV"
+        "FullName": "Alexys Kihn"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "cum",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Damien Brent Ruecker"
+    "FullName": "Phyllis Goldner"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Bauch-Glover",
-    "ToolTip": "Sint officia beatae qui esse qui ab aut.",
+    "Id": 595,
+    "Name": "Wilderman Inc and Sons",
+    "ToolTip": "A eligendi doloribus dolore commodi ut eveniet.",
     "Deleted": true,
-    "Rank": 302,
-    "Type": "voluptatum",
-    "ColorBlock": 140,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2006-04-11T03:40:57.0558521+02:00",
+    "Rank": 721,
+    "Type": "consequatur",
+    "ColorBlock": 59,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2007-03-06T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 52,
-        "Name": "Dach, Hauck and Grant",
-        "ToolTip": "Earum voluptatem quidem ipsum temporibus.",
-        "Deleted": false,
-        "Rank": 553,
-        "Type": "blanditiis",
-        "ColorBlock": 196,
-        "IconHint": "voluptatem",
+        "Id": 768,
+        "Name": "DuBuque-Howell",
+        "ToolTip": "Ex ut voluptatibus neque porro omnis sit.",
+        "Deleted": true,
+        "Rank": 686,
+        "Type": "iste",
+        "ColorBlock": 200,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2019-05-21T03:40:57.0558521+02:00",
+        "LastChanged": "2013-12-21T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "vero",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Lance Franecki",
+        "FullName": "Miss Maude Norbert Cremin DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 856
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sit",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Norval Mayert",
+    "FullName": "Mr. Maida Mortimer Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 811
       }
     }
   }

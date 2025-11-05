@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=474
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=306
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -113,88 +113,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 707,
+  "DocumentId": 19,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laborum",
-  "Header": "qui",
-  "Name": "Koelpin Group",
-  "OurRef": "omnis",
-  "YourRef": "suscipit",
-  "CreatedDate": "2024-11-17T03:40:46.6405161+01:00",
-  "UpdatedDate": "2025-03-20T03:40:46.6405161+01:00",
-  "Description": "Team-oriented non-volatile product",
+  "Attention": "ipsam",
+  "Header": "illum",
+  "Name": "Lebsack LLC",
+  "OurRef": "rerum",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2024-01-22T02:30:47.1632139+01:00",
+  "UpdatedDate": "2016-04-13T02:30:47.1632139+02:00",
+  "Description": "User-centric zero tolerance initiative",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-07-26T03:40:46.6561419+02:00",
-  "ExternalRef": "esse",
+  "Date": "2014-06-26T02:30:47.1632139+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 898,
+  "ActiveLinks": 392,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hamill-Feeney",
-      "Id": 342,
-      "Description": "Total intangible website",
-      "ExtraInfo": "et",
-      "LinkId": 217,
+      "EntityName": "Ward Inc and Sons",
+      "Id": 866,
+      "Description": "Quality-focused intangible structure",
+      "ExtraInfo": "illum",
+      "LinkId": 756,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 136,
-  "Snum": 19,
+  "SuggestedDocumentId": 123,
+  "Snum": 193,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rosalia Collins",
-    "SuperOffice:2": "Landen Parisian"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miss Dianna Kitty Torp"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "maxime"
+    "CustomFields1": "quo",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2003-09-20T03:40:46.6561419+02:00",
-  "PublishTo": "2022-12-30T03:40:46.6561419+01:00",
-  "PublishFrom": "2006-05-11T03:40:46.6561419+02:00",
+  "PublishEventDate": "2015-11-09T02:30:47.1632139+01:00",
+  "PublishTo": "2012-06-11T02:30:47.1632139+02:00",
+  "PublishFrom": "2019-03-07T02:30:47.1632139+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 995,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     },
     {
-      "VisibleId": 995,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   }
 }

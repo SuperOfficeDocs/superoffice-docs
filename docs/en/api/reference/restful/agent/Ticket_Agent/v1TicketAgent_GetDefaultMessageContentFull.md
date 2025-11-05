@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 42,
+  "TicketId": 851,
   "MessageActionType": "Forward",
-  "TicketMessageId": 100,
-  "TicketTypeId": 825
+  "TicketMessageId": 454,
+  "TicketTypeId": 144
 }
 ```
 
@@ -96,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "natus",
+  "Body": "facilis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 553,
-      "Name": "Hammes, Gutmann and Cole",
-      "ContentType": "ipsam",
-      "AttSize": 765,
+      "AttachmentId": 394,
+      "Name": "Johns, Stark and Veum",
+      "ContentType": "accusamus",
+      "AttSize": 373,
       "InlineImage": false,
-      "ContentId": "ea",
-      "AuthKey": "inventore",
+      "ContentId": "tenetur",
+      "AuthKey": "atque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldType": "System.String",
+          "FieldLength": 449
         }
       }
     }

@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Kunde, Goodwin and Lynch",
-  "StorageKey": "ipsam",
-  "Rank": 66,
-  "Context": "et"
+  "StorageType": "et",
+  "ProviderName": "DuBuque, Goyette and Dibbert",
+  "StorageKey": "unde",
+  "Rank": 838,
+  "Context": "cupiditate"
 }
 ```
 
@@ -100,30 +100,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenholt, Borer and Lynch",
-  "Description": "Exclusive mobile open system",
-  "Rank": 358,
+  "Name": "Friesen-Bernhard",
+  "Description": "Vision-oriented intangible framework",
+  "Rank": 732,
   "Restrictions": [
     {
-      "Name": "Brown Inc and Sons",
-      "Operator": "ut",
+      "Name": "Klein, Osinski and Abernathy",
+      "Operator": "ad",
       "Values": [
         "voluptas",
-        "sit"
+        "officia"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "reiciendis"
+        "molestias",
+        "ad"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 220,
+      "InterParenthesis": 287,
       "InterOperator": "And",
-      "UniqueHash": 239
+      "UniqueHash": 207
     }
   ]
 }

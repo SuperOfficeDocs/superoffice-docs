@@ -80,7 +80,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 451,
-  "PrefDescId": 48,
-  "PrefValue": "est",
-  "PrefShowValue": "voluptas",
-  "Description": "Monitored mobile task-force",
+  "PrefDescLineId": 223,
+  "PrefDescId": 410,
+  "PrefValue": "repellendus",
+  "PrefShowValue": "eius",
+  "Description": "Monitored 24/7 help-desk",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 13
     }
   },
   "_Links": {

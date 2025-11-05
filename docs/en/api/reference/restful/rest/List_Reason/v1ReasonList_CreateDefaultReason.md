@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 625,
-  "Rank": 87,
+  "Id": 923,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 928,
+  "Rank": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

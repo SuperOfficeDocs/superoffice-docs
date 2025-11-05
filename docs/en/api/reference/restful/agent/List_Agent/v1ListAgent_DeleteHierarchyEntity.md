@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | hierarchyEntityId | int32 | **Required** The identity of the HierarchyEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?hierarchyEntityId=639
+POST /api/v1/Agents/List/DeleteHierarchyEntity?hierarchyEntityId=769
 ```
 
 

@@ -76,7 +76,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,16 +86,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 891,
-  "Name": "Franecki Inc and Sons",
-  "Tooltip": "qui",
+  "RoleId": 410,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "sed",
   "RoleType": "Anonymous",
-  "Deleted": 27,
-  "Rank": 772,
-  "Created": "2016-06-11T03:40:56.0855495+02:00",
-  "UseCategories": 129,
+  "Deleted": 32,
+  "Rank": 14,
+  "Created": "2024-05-01T02:30:52.8505298+02:00",
+  "UseCategories": 691,
   "CreatedBy": null,
-  "Updated": "2014-02-05T03:40:56.0855495+01:00",
+  "Updated": "2025-03-10T02:30:52.8505298+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldLength": 89
     }
   }
 }

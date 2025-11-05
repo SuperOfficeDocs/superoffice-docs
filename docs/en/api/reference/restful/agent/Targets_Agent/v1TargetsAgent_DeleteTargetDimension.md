@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | targetDimensionId | int32 | **Required** The identity of the TargetDimension |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=212
+POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=814
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Targets/DeleteTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

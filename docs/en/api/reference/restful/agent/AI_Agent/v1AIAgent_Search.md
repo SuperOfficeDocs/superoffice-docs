@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/AI/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Farrell Group",
-  "Query": "ipsum",
+  "NamespaceName": "Swift, Padberg and Wiegand",
+  "Query": "rerum",
   "Type": "Document",
-  "Top": 765
+  "Top": 563
 }
 ```
 
@@ -104,21 +104,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Chunk": "beatae",
-    "Title": "perspiciatis",
-    "Id": "hic",
+    "Chunk": "dolore",
+    "Title": "ab",
+    "Id": "officia",
     "Type": "Document",
-    "Score": 22401.832,
+    "Score": 6521.8539999999994,
     "Metadata": {
       "fieldName": {}
     }
   },
   {
-    "Chunk": "beatae",
-    "Title": "perspiciatis",
-    "Id": "hic",
+    "Chunk": "dolore",
+    "Title": "ab",
+    "Id": "officia",
     "Type": "Document",
-    "Score": 22401.832,
+    "Score": 6521.8539999999994,
     "Metadata": {
       "fieldName": {}
     }

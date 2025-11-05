@@ -92,77 +92,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 595,
+  "DocumentId": 588,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perferendis",
-  "Header": "aut",
-  "Name": "Bednar LLC",
-  "OurRef": "unde",
-  "YourRef": "autem",
-  "CreatedDate": "2018-02-18T03:40:55.7412955+01:00",
-  "UpdatedDate": "2021-10-30T03:40:55.7412955+02:00",
-  "Description": "Front-line client-server standardization",
+  "Attention": "porro",
+  "Header": "vitae",
+  "Name": "Howell-Kovacek",
+  "OurRef": "tenetur",
+  "YourRef": "voluptas",
+  "CreatedDate": "2023-05-17T02:30:52.631787+02:00",
+  "UpdatedDate": "1998-11-27T02:30:52.631787+01:00",
+  "Description": "Devolved client-server orchestration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-04-15T03:40:55.7412955+02:00",
-  "ExternalRef": "ea",
+  "Date": "1999-09-14T02:30:52.631787+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 365,
+  "ActiveLinks": 635,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Quitzon-Sipes",
-      "Id": 400,
-      "Description": "Persistent mission-critical superstructure",
-      "ExtraInfo": "deserunt",
-      "LinkId": 446
+      "EntityName": "Veum, Schmeler and Beer",
+      "Id": 35,
+      "Description": "Reactive radical product",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 693
     },
     {
-      "EntityName": "Quitzon-Sipes",
-      "Id": 400,
-      "Description": "Persistent mission-critical superstructure",
-      "ExtraInfo": "deserunt",
-      "LinkId": 446
+      "EntityName": "Veum, Schmeler and Beer",
+      "Id": 35,
+      "Description": "Reactive radical product",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 693
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 168,
-  "Snum": 709,
+  "SuggestedDocumentId": 480,
+  "Snum": 927,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Lacy Zboncak",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "377336662",
+    "SuperOffice:2": "Mrs. Estelle Huel"
   },
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "vitae"
+    "CustomFields1": "velit",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2005-06-11T03:40:55.7412955+02:00",
-  "PublishTo": "2017-01-20T03:40:55.7412955+01:00",
-  "PublishFrom": "2014-10-09T03:40:55.7412955+02:00",
+  "PublishEventDate": "2018-05-21T02:30:52.631787+02:00",
+  "PublishTo": "2025-10-28T02:30:52.631787+01:00",
+  "PublishFrom": "2021-01-14T02:30:52.631787+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 593,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 593,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -175,7 +175,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quod",
-  "2": "veritatis"
+  "1": "sequi",
+  "2": "omnis"
 }
 ```

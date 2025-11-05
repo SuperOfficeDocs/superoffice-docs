@@ -11,8 +11,10 @@ items:
   - SuperOffice.CRM.Security.DashboardSentry.ComputeFieldRights
   - SuperOffice.CRM.Security.DashboardSentry.ComputeTableRights
   - SuperOffice.CRM.Security.DashboardSentry.GetMainRight
+  - SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex
   - SuperOffice.CRM.Security.DashboardSentry.GetRowSentry
   - SuperOffice.CRM.Security.DashboardSentry.GroupId
+  - SuperOffice.CRM.Security.DashboardSentry.IsAdmin
   - SuperOffice.CRM.Security.DashboardSentry.IsGhostRow
   - SuperOffice.CRM.Security.DashboardSentry.IsNew
   - SuperOffice.CRM.Security.DashboardSentry.MainTable
@@ -83,7 +85,6 @@ items:
   - SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.ClearRights
-  - SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
   - SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight,SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
@@ -173,6 +174,30 @@ items:
   nameWithType.vb: DashboardSentry.New(DashboardTableInfo)
   fullName.vb: SuperOffice.CRM.Security.DashboardSentry.New(SuperOffice.CRM.Data.DashboardTableInfo)
   name.vb: New(DashboardTableInfo)
+- uid: SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex
+  commentId: M:SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex
+  id: GetRecordOwnershipIndex
+  parent: SuperOffice.CRM.Security.DashboardSentry
+  langs:
+  - csharp
+  - vb
+  name: GetRecordOwnershipIndex()
+  nameWithType: DashboardSentry.GetRecordOwnershipIndex()
+  fullName: SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: Return the sort of relationship between the principal user and the Sentry's user and group.
+  example: []
+  syntax:
+    content: public override EOwnershipIndex GetRecordOwnershipIndex()
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+      description: Relationship to the item.
+    content.vb: Public Overrides Function GetRecordOwnershipIndex() As EOwnershipIndex
+  overridden: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  overload: SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex*
 - uid: SuperOffice.CRM.Security.DashboardSentry.GetMainRight
   commentId: M:SuperOffice.CRM.Security.DashboardSentry.GetMainRight
   id: GetMainRight
@@ -455,6 +480,27 @@ items:
     content.vb: Public Overrides ReadOnly Property GroupId As Integer
   overridden: SuperOffice.CRM.Security.Sentry.GroupId
   overload: SuperOffice.CRM.Security.DashboardSentry.GroupId*
+- uid: SuperOffice.CRM.Security.DashboardSentry.IsAdmin
+  commentId: P:SuperOffice.CRM.Security.DashboardSentry.IsAdmin
+  id: IsAdmin
+  parent: SuperOffice.CRM.Security.DashboardSentry
+  langs:
+  - csharp
+  - vb
+  name: IsAdmin
+  nameWithType: DashboardSentry.IsAdmin
+  fullName: SuperOffice.CRM.Security.DashboardSentry.IsAdmin
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool IsAdmin { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsAdmin As Boolean
+  overload: SuperOffice.CRM.Security.DashboardSentry.IsAdmin*
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
@@ -1505,28 +1551,6 @@ references:
     name: ClearRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_ClearRights
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
-  commentId: M:SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
-  parent: SuperOffice.CRM.Security.Sentry
-  isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
-  name: GetRecordOwnershipIndex()
-  nameWithType: Sentry.GetRecordOwnershipIndex()
-  fullName: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
-    name: GetRecordOwnershipIndex
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
-    name: GetRecordOwnershipIndex
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
   - name: (
   - name: )
 - uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32,System.Int32)
@@ -3270,6 +3294,43 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
+  name: GetRecordOwnershipIndex()
+  nameWithType: Sentry.GetRecordOwnershipIndex()
+  fullName: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+    name: GetRecordOwnershipIndex
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+    name: GetRecordOwnershipIndex
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetRecordOwnershipIndex
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex
+  isExternal: true
+  href: SuperOffice.CRM.Security.DashboardSentry.html#SuperOffice_CRM_Security_DashboardSentry_GetRecordOwnershipIndex
+  name: GetRecordOwnershipIndex
+  nameWithType: DashboardSentry.GetRecordOwnershipIndex
+  fullName: SuperOffice.CRM.Security.DashboardSentry.GetRecordOwnershipIndex
+- uid: SuperOffice.CRM.Security.EOwnershipIndex
+  commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  href: SuperOffice.CRM.Security.EOwnershipIndex.html
+  name: EOwnershipIndex
+  nameWithType: EOwnershipIndex
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex
 - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTableInfo}.GetMainRight
   commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTableInfo}.GetMainRight
   parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.DashboardTableInfo}
@@ -3675,3 +3736,10 @@ references:
   name: GroupId
   nameWithType: DashboardSentry.GroupId
   fullName: SuperOffice.CRM.Security.DashboardSentry.GroupId
+- uid: SuperOffice.CRM.Security.DashboardSentry.IsAdmin*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentry.IsAdmin
+  isExternal: true
+  href: SuperOffice.CRM.Security.DashboardSentry.html#SuperOffice_CRM_Security_DashboardSentry_IsAdmin
+  name: IsAdmin
+  nameWithType: DashboardSentry.IsAdmin
+  fullName: SuperOffice.CRM.Security.DashboardSentry.IsAdmin

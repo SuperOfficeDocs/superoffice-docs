@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | reportLabelLayoutEntityId | int32 | **Required** The identity of the ReportLabelLayoutEntity |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=48
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=865
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

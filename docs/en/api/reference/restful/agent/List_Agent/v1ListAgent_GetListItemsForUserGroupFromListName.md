@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Dare Group",
-  "GroupId": 168
+  "UdListDefinitionName": "Nikolaus-Bergnaum",
+  "GroupId": 486
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Kohler Inc and Sons",
-    "ToolTip": "Inventore sed qui et aperiam.",
-    "Deleted": false,
-    "Rank": 365,
-    "Type": "molestias",
-    "ColorBlock": 894,
-    "IconHint": "rerum",
+    "Id": 724,
+    "Name": "Legros Group",
+    "ToolTip": "Et enim consequatur perferendis placeat amet similique.",
+    "Deleted": true,
+    "Rank": 778,
+    "Type": "itaque",
+    "ColorBlock": 266,
+    "IconHint": "aperiam",
     "Selected": true,
-    "LastChanged": "2019-07-29T03:40:47.0936613+02:00",
+    "LastChanged": "2003-02-15T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 499,
-        "Name": "Jacobs Group",
-        "ToolTip": "Aut tenetur numquam aut libero.",
+        "Id": 156,
+        "Name": "Corwin-Rogahn",
+        "ToolTip": "Fuga rem.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "aut",
-        "ColorBlock": 769,
-        "IconHint": "quis",
+        "Rank": 581,
+        "Type": "alias",
+        "ColorBlock": 710,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2016-11-23T03:40:47.0936613+01:00",
+        "LastChanged": "2016-10-01T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quos",
+        "ExtraInfo": "est",
+        "StyleHint": "reiciendis",
         "Hidden": true,
-        "FullName": "Nicklaus Parisian",
+        "FullName": "Katelyn Tod McKenzie MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "qui",
+    "ExtraInfo": "esse",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Alaina D'Amore",
+    "FullName": "Miss Francesco Reyna Harvey II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldLength": 24
       }
     }
   }

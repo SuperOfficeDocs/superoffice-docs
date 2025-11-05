@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=378
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=765
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 562,
-  "FormKey": "omnis",
-  "Name": "Brakus LLC",
-  "Description": "Networked systemic functionalities",
-  "Config": "doloribus",
-  "FolderId": 347,
-  "ScriptId": 423,
-  "ResponseShipmentId": 686,
+  "FormId": 693,
+  "FormKey": "non",
+  "Name": "Russel Group",
+  "Description": "Programmable mission-critical data-warehouse",
+  "Config": "quibusdam",
+  "FolderId": 437,
+  "ScriptId": 595,
+  "ResponseShipmentId": 475,
   "Active": false,
-  "Expires": "1999-08-19T03:40:47.2499194+02:00",
-  "MaxSubmits": 351,
+  "Expires": "2022-02-24T02:30:47.4600781+01:00",
+  "MaxSubmits": 502,
   "Type": "Normal",
-  "Recipe": "officia",
-  "GroupId": 640,
-  "NewTicket": false,
+  "Recipe": "aut",
+  "GroupId": 890,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-09-13T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 867,
-  "Updated": "2014-03-27T03:40:47.2499194+01:00",
-  "UpdatedAssociateId": 793,
-  "UpdatedCount": 344,
+  "Registered": "2016-04-14T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 670,
+  "Updated": "2024-03-31T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 666,
+  "UpdatedCount": 459,
   "EmailFlows": [
-    131,
-    81
+    120,
+    392
   ],
-  "FolderName": "Windler, Schulist and Lang",
+  "FolderName": "Brown, Raynor and Littel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 244
     }
   }
 }

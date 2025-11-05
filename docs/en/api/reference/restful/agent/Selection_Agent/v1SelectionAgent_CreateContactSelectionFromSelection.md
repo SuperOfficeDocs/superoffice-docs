@@ -119,14 +119,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 532,
-  "Name": "McClure LLC",
+  "SelectionId": 181,
+  "Name": "Dare-Mertz",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total client-driven benchmark",
-  "Postit": "aliquid",
+  "Description": "Programmable tertiary encryption",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 579,
-  "IncludePerson": 998,
+  "GroupIdx": 122,
+  "IncludePerson": 530,
   "MemberCount": 99.99,
-  "Name": "DuBuque-Gaylord",
-  "PostitTextId": 819,
-  "CreatedDate": "2003-02-08T03:40:47.7192182+01:00",
-  "SelectionId": 626,
-  "SoundEx": "tempore",
-  "Source": 709,
-  "TextId": 942,
-  "UpdatedDate": "2013-09-05T03:40:47.7192182+02:00",
-  "UpdatedCount": 800,
-  "Visibility": 999,
+  "Name": "Hoppe, Vandervort and Kshlerin",
+  "PostitTextId": 905,
+  "CreatedDate": "2002-03-31T02:30:47.819441+01:00",
+  "SelectionId": 228,
+  "SoundEx": "quisquam",
+  "Source": 835,
+  "TextId": 423,
+  "UpdatedDate": "2014-05-31T02:30:47.819441+02:00",
+  "UpdatedCount": 599,
+  "Visibility": 434,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 818,
-  "TargetTableName": "Medhurst, Kris and Heathcote",
+  "CompanyUnique": false,
+  "TargetTableNumber": 643,
+  "TargetTableName": "Shields-Kozey",
   "Completed": false,
-  "LeftSelectionId": 977,
-  "RightSelectionId": 56,
+  "LeftSelectionId": 572,
+  "RightSelectionId": 820,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goodwin, Hermann and Vandervort",
-  "ShadowProviderName": "Batz-Schmidt",
-  "ChartKey": "ea",
-  "LastLoaded": "2011-11-20T03:40:47.7192182+01:00",
-  "LastLoadedBy": 726,
+  "MainProviderName": "Goodwin-Kris",
+  "ShadowProviderName": "Feil, Morissette and Miller",
+  "ChartKey": "vel",
+  "LastLoaded": "2015-07-22T02:30:47.819441+02:00",
+  "LastLoadedBy": 695,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-10-26T03:40:47.7192182+02:00",
-  "LastMembershipChangeBy": 214,
+  "LastMembershipChange": "2017-08-11T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 493,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Renner LLC",
-  "DashboardTileDefinitionId": 395,
+  "MainHeading": "est",
+  "MemberTabHeading": "saepe",
+  "MailingsProviderName": "Crooks-Bartell",
+  "DashboardTileDefinitionId": 309,
   "VisibleFor": [
     {
-      "VisibleId": 736,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 414
         }
       }
     },
     {
-      "VisibleId": 736,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 414
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 853
     }
   }
 }

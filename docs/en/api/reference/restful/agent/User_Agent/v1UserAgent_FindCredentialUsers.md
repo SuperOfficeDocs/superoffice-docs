@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quo",
-  "SearchString": "laborum"
+  "Type": "harum",
+  "SearchString": "perspiciatis"
 }
 ```
 
@@ -98,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "voluptate",
-    "sit"
+    "eum",
+    "molestiae"
   ],
   "Users": [
     {
-      "Value": "harum",
-      "DisplayValue": "repudiandae",
+      "Value": "magnam",
+      "DisplayValue": "totam",
       "Columns": [
-        "optio",
-        "facilis"
+        "fugiat",
+        "dignissimos"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldType": "System.Int32",
+          "FieldLength": 678
         }
       }
     },
     {
-      "Value": "harum",
-      "DisplayValue": "repudiandae",
+      "Value": "magnam",
+      "DisplayValue": "totam",
       "Columns": [
-        "optio",
-        "facilis"
+        "fugiat",
+        "dignissimos"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldType": "System.Int32",
+          "FieldLength": 678
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 240
     }
   }
 }

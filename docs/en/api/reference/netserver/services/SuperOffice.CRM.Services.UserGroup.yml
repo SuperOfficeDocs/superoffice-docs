@@ -48,11 +48,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
 
       public class UserGroup : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
 
       Public Class UserGroup Inherits Carrier
   seealso:
@@ -67,7 +67,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
 - uid: SuperOffice.CRM.Services.UserGroup.#ctor
   commentId: M:SuperOffice.CRM.Services.UserGroup.#ctor
   id: '#ctor'

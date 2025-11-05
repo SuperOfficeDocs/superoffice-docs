@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.Security.ContactSentry
   - SuperOffice.CRM.Security.CustomObjectSentry
   - SuperOffice.CRM.Security.DashboardSentry
+  - SuperOffice.CRM.Security.DashboardTileDefinitionSentry
   - SuperOffice.CRM.Security.DashboardTileSentry
   - SuperOffice.CRM.Security.PersonSentry
   - SuperOffice.CRM.Security.ProjectSentry

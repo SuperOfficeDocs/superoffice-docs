@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Bergnaum LLC",
-    "ToolTip": "Deserunt est atque rerum ullam.",
+    "Id": 885,
+    "Name": "Keebler, Bernhard and Homenick",
+    "ToolTip": "Nisi quis est accusantium dolorem quaerat totam.",
     "Deleted": true,
-    "Rank": 898,
-    "Type": "tempora",
-    "ColorBlock": 345,
-    "IconHint": "aut",
+    "Rank": 24,
+    "Type": "molestiae",
+    "ColorBlock": 773,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2006-03-03T03:40:57.1344494+01:00",
+    "LastChanged": "2001-10-24T02:30:53.4598845+02:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Pollich LLC",
-        "ToolTip": "Ipsam exercitationem debitis dolores.",
+        "Id": 784,
+        "Name": "Steuber-Crona",
+        "ToolTip": "Laudantium iusto sit dolores id velit et.",
         "Deleted": true,
-        "Rank": 781,
-        "Type": "ab",
-        "ColorBlock": 959,
-        "IconHint": "assumenda",
+        "Rank": 644,
+        "Type": "id",
+        "ColorBlock": 423,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2016-05-14T03:40:57.1344494+02:00",
+        "LastChanged": "2014-09-01T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Karelle Murray MD",
+        "ExtraInfo": "dolores",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Deon Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "enim",
+    "ExtraInfo": "iste",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Adeline Feil",
+    "FullName": "Lukas Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 71
       }
     }
   }

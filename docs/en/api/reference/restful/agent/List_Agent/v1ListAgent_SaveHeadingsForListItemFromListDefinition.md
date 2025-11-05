@@ -92,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 828,
-  "ListItemId": 176,
+  "UdListDefinitionId": 378,
+  "ListItemId": 457,
   "Headings": [
     {
-      "Id": 695,
-      "Name": "Cummerata, Yost and Conn",
-      "ToolTip": "Aut nostrum qui dignissimos esse libero.",
+      "Id": 152,
+      "Name": "Beatty-McGlynn",
+      "ToolTip": "Veritatis in velit quaerat quaerat dolorem.",
       "Deleted": true,
-      "Rank": 866,
-      "Type": "quas",
-      "ColorBlock": 162,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "1998-10-08T03:40:47.0936613+02:00",
+      "Rank": 194,
+      "Type": "ipsum",
+      "ColorBlock": 513,
+      "IconHint": "autem",
+      "Selected": false,
+      "LastChanged": "2001-03-02T02:30:47.4132046+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Israel McKenzie"
+      "ExtraInfo": "modi",
+      "StyleHint": "asperiores",
+      "Hidden": false,
+      "FullName": "Mertie Bayer"
     }
   ]
 }
@@ -131,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "White Group",
-    "ToolTip": "Aut dolores.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "ipsum",
-    "ColorBlock": 160,
-    "IconHint": "et",
+    "Id": 309,
+    "Name": "Lang-Bode",
+    "ToolTip": "Iusto aut quod perspiciatis aliquam dicta.",
+    "Deleted": true,
+    "Rank": 724,
+    "Type": "fugit",
+    "ColorBlock": 729,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2007-10-26T03:40:47.0936613+02:00",
+    "LastChanged": "2018-07-03T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Paucek, Prohaska and Sipes",
-        "ToolTip": "Placeat aliquam pariatur nulla.",
-        "Deleted": true,
-        "Rank": 221,
-        "Type": "nulla",
-        "ColorBlock": 824,
-        "IconHint": "officia",
+        "Id": 413,
+        "Name": "Oberbrunner-Funk",
+        "ToolTip": "Ducimus et quaerat repudiandae.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "tempore",
+        "ColorBlock": 358,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-01-02T03:40:47.0936613+01:00",
+        "LastChanged": "2007-02-11T02:30:47.4132046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "expedita",
+        "ExtraInfo": "ut",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Ellsworth Bauch",
+        "FullName": "Flavio Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Justus Feest DVM",
+    "FullName": "Alison Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 630
       }
     }
   }

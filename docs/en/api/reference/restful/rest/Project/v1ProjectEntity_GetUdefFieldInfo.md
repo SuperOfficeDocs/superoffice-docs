@@ -94,7 +94,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 456,
-  "ColumnId": 317,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 955,
-  "FieldLabel": "omnis",
-  "FieldLeft": 480,
-  "FieldTop": 726,
+  "UDefFieldId": 792,
+  "ColumnId": 689,
+  "FieldDefault": "quas",
+  "FieldHeight": 9,
+  "FieldLabel": "quia",
+  "FieldLeft": 20,
+  "FieldTop": 562,
   "FieldType": "Checkbox",
-  "FieldWidth": 645,
-  "FormatMask": "rerum",
+  "FieldWidth": 646,
+  "FormatMask": "fugit",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 459,
-  "LabelLeft": 960,
-  "LabelTop": 226,
-  "LabelWidth": 135,
-  "LastVersionId": 598,
-  "ListTableId": 564,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 689,
+  "LabelLeft": 446,
+  "LabelTop": 624,
+  "LabelWidth": 293,
+  "LastVersionId": 219,
+  "ListTableId": 151,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 640,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "suscipit",
-  "TabOrder": 977,
-  "TextLength": 615,
-  "Tooltip": "non",
-  "UdefIdentity": 338,
-  "UDListDefinitionId": 452,
+  "Page1LineNo": 852,
+  "ProgId": "ullam",
+  "IsReadOnly": true,
+  "ShortLabel": "odit",
+  "TabOrder": 767,
+  "TextLength": 956,
+  "Tooltip": "commodi",
+  "UdefIdentity": 634,
+  "UDListDefinitionId": 233,
   "Justification": "Center",
-  "Version": 866,
-  "TemplateVariableName": "Purdy, Stracke and Kilback",
+  "Version": 505,
+  "TemplateVariableName": "Satterfield Group",
   "HasBeenPublished": false,
-  "MdoListName": "Deckow Inc and Sons",
+  "MdoListName": "Stamm, Bins and Funk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldLength": 642
     }
   }
 }

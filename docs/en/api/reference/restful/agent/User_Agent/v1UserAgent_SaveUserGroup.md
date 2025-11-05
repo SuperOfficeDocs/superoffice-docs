@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "atque",
-  "Tooltip": "soluta",
-  "Id": 82,
-  "Rank": 421,
-  "Deleted": false,
+  "Value": "quo",
+  "Tooltip": "dolor",
+  "Id": 518,
+  "Rank": 827,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 537
     }
   }
 }

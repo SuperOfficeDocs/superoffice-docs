@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 690,
-  "Name": "Vandervort Inc and Sons",
+  "ScreenChooserId": 291,
+  "Name": "Schamberger Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolorem",
-  "Source": "architecto",
-  "Registered": "1999-07-01T03:40:46.5306238+02:00",
-  "RegisteredAssociateId": 951,
-  "Updated": "2025-02-28T03:40:46.5306238+01:00",
-  "UpdatedAssociateId": 641,
+  "UniqueIdentifier": "porro",
+  "Source": "mollitia",
+  "Registered": "1998-08-06T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2014-10-01T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 726
     }
   }
 }

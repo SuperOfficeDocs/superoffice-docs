@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "facilis"
+  "RemoteIp": "et"
 }
 ```
 
@@ -93,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "LoginId": 89,
-  "UserId": 378,
+  "Key": "a",
+  "LoginId": 776,
+  "UserId": 308,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 374
     }
   }
 }

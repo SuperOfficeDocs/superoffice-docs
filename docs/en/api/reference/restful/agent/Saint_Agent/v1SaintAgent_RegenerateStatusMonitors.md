@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -112,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Moore-Runolfsson",
-  "AssociateId": 329,
-  "DetailsTable": 833,
-  "DetailsRecord": 668,
-  "IsSystemTask": false,
+  "Id": 447,
+  "Name": "Lebsack-Miller",
+  "AssociateId": 717,
+  "DetailsTable": 209,
+  "DetailsRecord": 295,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "maxime",
-    "ParameterObject2": "est"
+    "ParameterObject1": "facilis",
+    "ParameterObject2": "alias"
   },
-  "LastStarted": "2000-03-20T03:40:47.5942106+01:00",
-  "Created": "2001-06-23T03:40:47.5942106+02:00",
-  "StartCount": 889,
-  "DatabaseSerialNumber": "906431",
-  "Context": "voluptatem",
-  "Result": "molestiae",
+  "LastStarted": "2005-09-24T02:30:47.7569437+02:00",
+  "Created": "2025-09-01T02:30:47.7569437+02:00",
+  "StartCount": 670,
+  "DatabaseSerialNumber": "1462411",
+  "Context": "laboriosam",
+  "Result": "excepturi",
   "State": "All",
-  "Description": "Synergized global frame",
-  "Response": "molestiae",
-  "Request": "rerum",
-  "ProgressDescription": "Phased high-level hub",
-  "ProgressPercent": 763,
-  "FileName": "Conn-Spinka",
+  "Description": "Future-proofed intangible open architecture",
+  "Response": "omnis",
+  "Request": "quas",
+  "ProgressDescription": "Adaptive analyzing utilisation",
+  "ProgressPercent": 594,
+  "FileName": "Lubowitz-Romaguera",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 567
     }
   }
 }

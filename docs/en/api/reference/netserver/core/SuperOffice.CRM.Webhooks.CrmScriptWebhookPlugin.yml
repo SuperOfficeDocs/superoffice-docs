@@ -15,7 +15,7 @@ items:
   fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
   type: Class
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   summary: Webhooks for CRM Scripts. Call the scripts identified by the include id.
   example: []
@@ -63,7 +63,7 @@ items:
   fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
   type: Method
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   summary: Send the webhook to the CrmScript system, via a ServiceFacade.CallServiceAsync call
   example: []
@@ -97,7 +97,7 @@ items:
   fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.CrmScriptWebhookPlugin()
   type: Constructor
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   syntax:
     content: public CrmScriptWebhookPlugin()

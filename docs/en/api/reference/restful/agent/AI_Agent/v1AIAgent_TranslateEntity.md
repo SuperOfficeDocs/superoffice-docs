@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Farrell-Reichel",
-  "EntityId": 322,
-  "TargetLanguage": "quo"
+  "EntityName": "Schuppe, Schiller and Dickinson",
+  "EntityId": 220,
+  "TargetLanguage": "facere"
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"sunt"
 ```

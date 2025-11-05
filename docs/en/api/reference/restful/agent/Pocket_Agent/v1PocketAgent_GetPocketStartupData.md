@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "et",
-    "nulla"
+    "quia",
+    "ea"
   ],
-  "CurrentClientTime": "1999-06-22T03:40:47.4374779+02:00"
+  "CurrentClientTime": "2013-10-22T02:30:47.5850743+02:00"
 }
 ```
 
@@ -103,43 +103,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "molestiae",
-    "dolores"
+    "non",
+    "distinctio"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 145,
-  "NotificationsCount": 624,
+  "OverdueSalesCount": 903,
+  "NotificationsCount": 149,
   "SystemWebPanels": [
     {
-      "WebPanelId": 186,
-      "Name": "Hackett-Harris",
-      "Tooltip": "sint",
+      "WebPanelId": 93,
+      "Name": "Tillman-Ward",
+      "Tooltip": "dignissimos",
       "Deleted": false,
-      "Rank": 521,
+      "Rank": 427,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": true,
       "OnSatellite": true,
-      "OnTravel": false,
-      "OnSalesMarketingWeb": true,
-      "OnSalesMarketingPocket": true,
+      "OnTravel": true,
+      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Lehner-Purdy",
+      "ShowInStatusBar": true,
+      "WindowName": "Bayer, Walter and Conn",
       "Url": "http://www.example.com/",
-      "ProgId": "maxime",
-      "Icon": 483,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "suscipit",
+      "Icon": 515,
+      "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 159
         }
       }
     }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "recusandae",
+      "RawValue": "voluptatibus",
       "Specification": null,
-      "DisplayValue": "rem",
-      "DisplayTooltip": "rerum",
+      "DisplayValue": "nam",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 633,
-      "PrefDescId": 104,
-      "TableName": "Langosh Group",
-      "UserPreferenceId": 148,
+      "TargetId": 931,
+      "PrefDescId": 950,
+      "TableName": "Feest Inc and Sons",
+      "UserPreferenceId": 27,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "maiores",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 702
     }
   }
 }

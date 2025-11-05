@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Hills, Barton and Hartmann",
-    "ToolTip": "Necessitatibus vitae dolorum qui et rerum eos.",
+    "Id": 890,
+    "Name": "Rodriguez LLC",
+    "ToolTip": "Animi id nam voluptatibus reprehenderit.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "alias",
-    "ColorBlock": 560,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2020-04-19T03:40:56.8526098+02:00",
+    "Rank": 539,
+    "Type": "id",
+    "ColorBlock": 72,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2012-06-15T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Tremblay-Weissnat",
-        "ToolTip": "Cupiditate minima unde expedita culpa impedit omnis enim.",
+        "Id": 211,
+        "Name": "Feil-Dooley",
+        "ToolTip": "Atque ratione laudantium quisquam quasi ad iure ut.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "sed",
-        "ColorBlock": 353,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2006-11-25T03:40:56.8526098+01:00",
+        "Rank": 194,
+        "Type": "voluptatem",
+        "ColorBlock": 921,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2002-08-23T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Dallin Howe",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Dr. Bernie Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 992
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "dolor",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Lorena Hayes",
+    "FullName": "Erling Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 595
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

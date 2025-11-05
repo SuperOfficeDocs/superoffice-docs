@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colSoldReason
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colSource
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
+  - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStalledReason
   langs:
   - csharp
@@ -445,6 +446,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colProbPercent As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  id: _colStageWhenClosed
+  parent: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender
+  langs:
+  - csharp
+  - vb
+  name: _colStageWhenClosed
+  nameWithType: SaleHistorySaleHistoryExtender._colStageWhenClosed
+  fullName: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStageWhenClosed
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStageWhenClosed As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
   id: _colStage

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Doyle, Corkery and Bailey",
-    "ToolTip": "Facilis aut sapiente ducimus esse.",
-    "Deleted": true,
-    "Rank": 107,
-    "Type": "iure",
-    "ColorBlock": 876,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "2010-07-20T03:40:56.711976+02:00",
+    "Id": 88,
+    "Name": "Haag-Morissette",
+    "ToolTip": "Exercitationem tempore sunt.",
+    "Deleted": false,
+    "Rank": 285,
+    "Type": "esse",
+    "ColorBlock": 621,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2003-01-29T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Medhurst, Kessler and Vandervort",
-        "ToolTip": "Aut unde.",
-        "Deleted": false,
-        "Rank": 916,
-        "Type": "consectetur",
-        "ColorBlock": 340,
-        "IconHint": "consequatur",
+        "Id": 417,
+        "Name": "Langosh, Abernathy and Williamson",
+        "ToolTip": "Ut nostrum quo et quo voluptate.",
+        "Deleted": true,
+        "Rank": 624,
+        "Type": "ipsum",
+        "ColorBlock": 697,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2002-12-17T03:40:56.711976+01:00",
+        "LastChanged": "2013-12-27T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "enim",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Fabiola Brekke"
+        "FullName": "Ms. Marques Ratke"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Miss Ada Heidenreich DVM"
+    "ExtraInfo": "vel",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Prof. Delbert Madalyn Streich DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Robel-West",
-    "ToolTip": "Atque deserunt quia nihil maiores esse et.",
+    "Id": 441,
+    "Name": "Von, Powlowski and Prosacco",
+    "ToolTip": "Ullam ut nihil sint aperiam officia.",
     "Deleted": false,
-    "Rank": 266,
-    "Type": "saepe",
-    "ColorBlock": 395,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2024-04-06T03:40:56.727602+02:00",
+    "Rank": 725,
+    "Type": "corporis",
+    "ColorBlock": 488,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2001-04-08T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Hegmann, Schuppe and Kassulke",
-        "ToolTip": "Cum nesciunt qui.",
-        "Deleted": false,
-        "Rank": 159,
-        "Type": "id",
-        "ColorBlock": 100,
-        "IconHint": "aut",
+        "Id": 838,
+        "Name": "Denesik-Hermiston",
+        "ToolTip": "Nihil praesentium.",
+        "Deleted": true,
+        "Rank": 26,
+        "Type": "dolores",
+        "ColorBlock": 936,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2011-03-27T03:40:56.727602+02:00",
+        "LastChanged": "2005-12-11T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Jany Ortiz",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Alana Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 823
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Mrs. Davion Jefferey Powlowski",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Vada Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 65
       }
     }
   }

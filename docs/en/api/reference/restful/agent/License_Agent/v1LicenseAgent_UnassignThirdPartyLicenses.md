@@ -91,15 +91,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 766,
-  "ModuleOwner": "natus",
+  "AssociateId": 152,
+  "ModuleOwner": "et",
   "ModuleLicenseNames": [
-    "Legros, Bogan and O'Keefe",
-    "Ondricka LLC"
+    "Fadel, Champlin and Schuster",
+    "Ankunding, Mosciski and Hansen"
   ]
 }
 ```
@@ -112,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 41,
-    "Tooltip": "labore",
-    "CanAssign": true,
-    "Free": 438,
-    "InUse": 705,
+    "Unrestricted": true,
+    "Total": 477,
+    "Tooltip": "quisquam",
+    "CanAssign": false,
+    "Free": 10,
+    "InUse": 712,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 917,
-    "Name": "Schmeler, Blick and Grant",
-    "Description": "User-centric 4th generation artificial intelligence",
-    "PrerequisiteModuleName": "Hessel, Kovacek and Bogan",
-    "SortOrder": 986,
-    "ExtraFlags": 806,
+    "ModuleLicenseId": 382,
+    "Name": "Parker Group",
+    "Description": "Reduced uniform adapter",
+    "PrerequisiteModuleName": "Gulgowski Group",
+    "SortOrder": 689,
+    "ExtraFlags": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 684
       }
     }
   }

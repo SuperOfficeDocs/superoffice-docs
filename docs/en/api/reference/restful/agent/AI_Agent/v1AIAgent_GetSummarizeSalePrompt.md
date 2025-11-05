@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 978,
-  "NumSentences": 546,
-  "Summary": "et",
-  "IsoLangCode": "laudantium"
+  "SaleId": 522,
+  "NumSentences": 601,
+  "Summary": "saepe",
+  "IsoLangCode": "rerum"
 }
 ```
 
@@ -104,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1999-03-12T03:40:45.5762384+01:00",
-  "UserPrompt": "placeat",
-  "UserDisplayText": "saepe",
-  "BotResponse": "corporis",
+  "Timestamp": "2002-03-28T02:30:46.4913585+01:00",
+  "UserPrompt": "reprehenderit",
+  "UserDisplayText": "tempore",
+  "BotResponse": "qui",
   "BotActions": {
-    "BotActions1": "nobis",
-    "BotActions2": "aut"
+    "BotActions1": "libero",
+    "BotActions2": "itaque"
   },
   "Attachments": [
-    "consequatur",
-    "dolores"
+    "saepe",
+    "incidunt"
   ]
 }
 ```

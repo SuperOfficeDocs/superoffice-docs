@@ -106,31 +106,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 715,
-  "PlainMessage": "architecto",
-  "HtmlMessage": "aut",
-  "SmsMessage": "quia",
-  "Description": "Focused high-level synergy",
-  "Subject": "fugit",
-  "FolderId": 638,
-  "HeaderField": "qui",
-  "Design": "qui",
+  "ShipmentMessageId": 865,
+  "PlainMessage": "quia",
+  "HtmlMessage": "eaque",
+  "SmsMessage": "quis",
+  "Description": "Integrated analyzing paradigm",
+  "Subject": "nemo",
+  "FolderId": 829,
+  "HeaderField": "ab",
+  "Design": "ea",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Synergistic client-driven system engine",
-  "AccessKey": "est",
-  "DocumentMessage": 268,
-  "Registered": "2023-10-20T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 480,
-  "Updated": "2007-11-24T03:40:47.2499194+01:00",
-  "UpdatedAssociateId": 238,
-  "UpdatedCount": 796
+  "InlineImages": true,
+  "LongDescription": "Multi-lateral non-volatile moderator",
+  "AccessKey": "ex",
+  "DocumentMessage": 79,
+  "Registered": "2018-02-09T02:30:47.4600781+01:00",
+  "RegisteredAssociateId": 838,
+  "Updated": "2021-06-26T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 653,
+  "UpdatedCount": 155
 }
 ```
 
@@ -141,33 +141,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 938,
-  "PlainMessage": "adipisci",
-  "HtmlMessage": "molestias",
-  "SmsMessage": "quisquam",
-  "Description": "Monitored 4th generation definition",
-  "Subject": "incidunt",
-  "FolderId": 723,
-  "HeaderField": "sapiente",
-  "Design": "aut",
+  "ShipmentMessageId": 668,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "dolores",
+  "SmsMessage": "nemo",
+  "Description": "User-friendly interactive paradigm",
+  "Subject": "velit",
+  "FolderId": 476,
+  "HeaderField": "officia",
+  "Design": "laborum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Exclusive background conglomeration",
-  "AccessKey": "qui",
-  "DocumentMessage": 93,
-  "Registered": "2000-04-02T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 593,
-  "Updated": "2008-12-02T03:40:47.2499194+01:00",
-  "UpdatedAssociateId": 966,
-  "UpdatedCount": 183,
+  "InlineImages": true,
+  "LongDescription": "Total multimedia hierarchy",
+  "AccessKey": "et",
+  "DocumentMessage": 711,
+  "Registered": "2016-07-11T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 347,
+  "Updated": "2009-11-17T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 123,
+  "UpdatedCount": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 143
     }
   }
 }

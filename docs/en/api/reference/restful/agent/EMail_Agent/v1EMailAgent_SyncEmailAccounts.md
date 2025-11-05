@@ -71,20 +71,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 829,
-      "AssociateName": "Keebler, Schumm and Feeney",
-      "AssociateId": 547
+      "AccountId": 725,
+      "AssociateName": "Homenick Inc and Sons",
+      "AssociateId": 637
     },
     {
-      "AccountId": 829,
-      "AssociateName": "Keebler, Schumm and Feeney",
-      "AssociateId": 547
+      "AccountId": 725,
+      "AssociateName": "Homenick Inc and Sons",
+      "AssociateId": 637
     }
   ]
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 111,
-  "Select": "corporis"
+  "SelectionId": 520,
+  "Select": "mollitia"
 }
 ```
 
@@ -99,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "DuBuque LLC",
-    "PrimaryKey": 77,
+    "EntityName": "Murphy-Kuhn",
+    "PrimaryKey": 998,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nihil",
-        "TooltipHint": "ea",
-        "LinkHint": "ut"
+        "DisplayValue": "non",
+        "TooltipHint": "vitae",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "possimus",
-    "StyleHint": "non",
+    "LinkHint": "nostrum",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 378
       }
     }
   }

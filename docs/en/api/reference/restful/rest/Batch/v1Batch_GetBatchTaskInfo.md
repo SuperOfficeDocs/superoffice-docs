@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Erdman, Cartwright and Jewess",
-  "AssociateId": 669,
-  "DetailsTable": 243,
-  "DetailsRecord": 497,
+  "Id": 682,
+  "Name": "Kassulke-Wyman",
+  "AssociateId": 466,
+  "DetailsTable": 338,
+  "DetailsRecord": 245,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aliquid",
-    "ParameterObject2": "facere"
+    "ParameterObject1": "quo",
+    "ParameterObject2": "veritatis"
   },
-  "LastStarted": "2008-08-30T03:40:56.4303339+02:00",
-  "Created": "2006-10-22T03:40:56.4303339+02:00",
-  "StartCount": 340,
-  "DatabaseSerialNumber": "634150",
-  "Context": "ut",
-  "Result": "ut",
+  "LastStarted": "2004-09-23T02:30:53.022399+02:00",
+  "Created": "2015-09-05T02:30:53.022399+02:00",
+  "StartCount": 180,
+  "DatabaseSerialNumber": "56739",
+  "Context": "corrupti",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Virtual systematic archive",
-  "Response": "a",
-  "Request": "tempore",
-  "ProgressDescription": "Up-sized context-sensitive open architecture",
-  "ProgressPercent": 53,
-  "FileName": "Borer, Turner and Barton",
+  "Description": "Team-oriented modular functionalities",
+  "Response": "enim",
+  "Request": "eligendi",
+  "ProgressDescription": "Future-proofed executive neural-net",
+  "ProgressPercent": 684,
+  "FileName": "Bergstrom-Rath",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 954
     }
   }
 }

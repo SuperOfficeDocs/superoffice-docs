@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 676,
-    "Name": "Pagac, Kuhn and VonRueden",
-    "Tooltip": "provident",
-    "Deleted": true,
-    "Rank": 429,
-    "UdListDefinitionId": 430,
+    "HeadingId": 635,
+    "Name": "Hayes-Bogisich",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 938,
+    "UdListDefinitionId": 537,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldLength": 27
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,46 +78,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 200,
+  "HierarchyId": 767,
   "Domain": "Dashboards",
-  "Name": "Breitenberg Inc and Sons",
-  "Fullname": "neque",
-  "ParentId": 330,
+  "Name": "Champlin LLC",
+  "Fullname": "eveniet",
+  "ParentId": 225,
   "Children": [
     {
-      "HierarchyId": 147,
+      "HierarchyId": 272,
       "Domain": "Dashboards",
-      "Name": "Satterfield-Herzog",
-      "Fullname": "possimus",
-      "ParentId": 611,
+      "Name": "Schaden-Lemke",
+      "Fullname": "est",
+      "ParentId": 320,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-10-26T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 627,
-      "Updated": "2015-12-15T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 532,
+      "Registered": "2020-12-08T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 461,
+      "Updated": "2015-03-26T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 88,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
   ],
-  "Registered": "2005-05-02T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 485,
-  "Updated": "2012-02-25T03:40:55.7886484+01:00",
-  "UpdatedAssociateId": 119,
+  "Registered": "2013-11-09T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 312,
+  "Updated": "2004-02-01T02:30:52.6630355+01:00",
+  "UpdatedAssociateId": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 471
     }
   }
 }

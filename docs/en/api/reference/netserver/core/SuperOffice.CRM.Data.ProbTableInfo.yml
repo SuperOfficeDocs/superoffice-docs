@@ -12,8 +12,10 @@ items:
   - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_ProbGroupLink_ProbId
   - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_ProbHeadingLink_ProbId
   - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_ProbabilityIdx
+  - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
   - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleTypeStageLink_StageId
   - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_ProbabilityIdx
+  - SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
   - SuperOffice.CRM.Data.ProbTableInfo.Name
   - SuperOffice.CRM.Data.ProbTableInfo.ProbId
   - SuperOffice.CRM.Data.ProbTableInfo.Probability
@@ -71,6 +73,7 @@ items:
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
@@ -556,6 +559,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Sale_ProbabilityIdx As TargetedLeftOuterJoin(Of SaleTableInfo)
   overload: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_ProbabilityIdx*
+- uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  id: LeftOuterJoin_Sale_StageWhenClosedId
+  parent: SuperOffice.CRM.Data.ProbTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Sale_StageWhenClosedId
+  nameWithType: ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ProbId on this table, to Sale.<xref href="SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<SaleTableInfo> LeftOuterJoin_Sale_StageWhenClosedId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Sale_StageWhenClosedId As TargetedLeftOuterJoin(Of SaleTableInfo)
+  overload: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId*
 - uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_ProbGroupLink_ProbId
   commentId: P:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_ProbGroupLink_ProbId
   id: LeftOuterJoin_ProbGroupLink_ProbId
@@ -625,6 +651,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleHistTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SaleHist_ProbabilityIdx As TargetedLeftOuterJoin(Of SaleHistTableInfo)
   overload: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_ProbabilityIdx*
+- uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  id: LeftOuterJoin_SaleHist_StageWhenClosedId
+  parent: SuperOffice.CRM.Data.ProbTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SaleHist_StageWhenClosedId
+  nameWithType: ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ProbId on this table, to SaleHist.<xref href="SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<SaleHistTableInfo> LeftOuterJoin_SaleHist_StageWhenClosedId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleHistTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SaleHist_StageWhenClosedId As TargetedLeftOuterJoin(Of SaleHistTableInfo)
+  overload: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId*
 - uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleTypeStageLink_StageId
   commentId: P:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleTypeStageLink_StageId
   id: LeftOuterJoin_SaleTypeStageLink_StageId
@@ -899,6 +948,14 @@ references:
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
@@ -1843,6 +1900,20 @@ references:
   - name: " "
   - name: TargetTableInfo
   - name: )
+- uid: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+- uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProbTableInfo.html#SuperOffice_CRM_Data_ProbTableInfo_LeftOuterJoin_Sale_StageWhenClosedId
+  name: LeftOuterJoin_Sale_StageWhenClosedId
+  nameWithType: ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_Sale_StageWhenClosedId
 - uid: SuperOffice.CRM.Data.ProbGroupLinkTableInfo.ProbId
   commentId: P:SuperOffice.CRM.Data.ProbGroupLinkTableInfo.ProbId
   isExternal: true
@@ -1990,6 +2061,20 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.SaleHistTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleHistTableInfo.html#SuperOffice_CRM_Data_SaleHistTableInfo_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleHistTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+- uid: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProbTableInfo.html#SuperOffice_CRM_Data_ProbTableInfo_LeftOuterJoin_SaleHist_StageWhenClosedId
+  name: LeftOuterJoin_SaleHist_StageWhenClosedId
+  nameWithType: ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.ProbTableInfo.LeftOuterJoin_SaleHist_StageWhenClosedId
 - uid: SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo.StageId
   commentId: P:SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo.StageId
   isExternal: true

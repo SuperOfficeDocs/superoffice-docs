@@ -117,28 +117,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 1002,
-  "SourcePersonId": 246,
-  "DestinationContactId": 965,
-  "DestinationPersonId": 789,
-  "RelationId": 628,
-  "Comment": "maxime",
-  "RelationDefinitionId": 659,
-  "Reversed": 583,
-  "UpdatedDate": "2017-04-22T03:40:55.6162809+02:00",
-  "CreatedDate": "2015-08-10T03:40:55.6162809+02:00",
+  "SourceContactId": 96,
+  "SourcePersonId": 374,
+  "DestinationContactId": 876,
+  "DestinationPersonId": 611,
+  "RelationId": 805,
+  "Comment": "asperiores",
+  "RelationDefinitionId": 584,
+  "Reversed": 57,
+  "UpdatedDate": "2007-05-11T02:30:52.506791+02:00",
+  "CreatedDate": "2003-11-30T02:30:52.506791+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Brown-Heidenreich",
-  "SourcePersonName": "Pollich, Schmitt and Wiegand",
-  "DestinationContactName": "Wisoky LLC",
-  "DestinationPersonName": "Smith, Stamm and Terry",
-  "ActiveText": "eligendi",
-  "PassiveText": "eius"
+  "SourceContactName": "Vandervort, Mosciski and Fritsch",
+  "SourcePersonName": "Little-Johns",
+  "DestinationContactName": "Nikolaus, Gibson and Schuster",
+  "DestinationPersonName": "Skiles LLC",
+  "ActiveText": "nihil",
+  "PassiveText": "sunt"
 }
 ```
 
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 205,
-  "SourcePersonId": 150,
-  "DestinationContactId": 817,
-  "DestinationPersonId": 221,
-  "RelationId": 304,
-  "Comment": "sunt",
-  "RelationDefinitionId": 524,
-  "Reversed": 721,
-  "UpdatedDate": "1998-08-31T03:40:55.6162809+02:00",
-  "CreatedDate": "2015-11-15T03:40:55.6162809+01:00",
+  "SourceContactId": 920,
+  "SourcePersonId": 602,
+  "DestinationContactId": 628,
+  "DestinationPersonId": 601,
+  "RelationId": 523,
+  "Comment": "ut",
+  "RelationDefinitionId": 392,
+  "Reversed": 83,
+  "UpdatedDate": "1999-08-02T02:30:52.522416+02:00",
+  "CreatedDate": "2017-06-20T02:30:52.522416+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Shanahan Group",
-  "SourcePersonName": "Schroeder Group",
-  "DestinationContactName": "Hills Group",
-  "DestinationPersonName": "Zulauf-Harris",
-  "ActiveText": "animi",
-  "PassiveText": "quis",
+  "SourceContactName": "Fahey Group",
+  "SourcePersonName": "Veum LLC",
+  "DestinationContactName": "Hamill Inc and Sons",
+  "DestinationPersonName": "Schmeler LLC",
+  "ActiveText": "beatae",
+  "PassiveText": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   },
   "_Links": {

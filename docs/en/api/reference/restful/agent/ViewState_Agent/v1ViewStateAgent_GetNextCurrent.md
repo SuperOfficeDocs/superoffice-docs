@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kuphal Inc and Sons",
-  "Id": 852
+  "HistoryName": "Thompson-Hegmann",
+  "Id": 47
 }
 ```
 
@@ -100,19 +100,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 60,
-  "Id": 821,
-  "HistoryName": "Upton-Bernier",
-  "HistoryId": 876,
-  "AssociateId": 219,
-  "Name": "Parker, Zulauf and Glover",
-  "ItemInfo": "sit",
+  "Rank": 650,
+  "Id": 869,
+  "HistoryName": "Schuppe, Johnson and Kunde",
+  "HistoryId": 435,
+  "AssociateId": 746,
+  "Name": "Collins-Wolf",
+  "ItemInfo": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

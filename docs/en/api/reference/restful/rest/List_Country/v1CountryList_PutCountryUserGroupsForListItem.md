@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Kessler Inc and Sons",
-    "ToolTip": "Ut doloribus incidunt.",
+    "Id": 116,
+    "Name": "Boyer, Lindgren and Sanford",
+    "ToolTip": "In quo quos maiores possimus.",
     "Deleted": false,
-    "Rank": 651,
-    "Type": "tempore",
-    "ColorBlock": 12,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2020-12-14T03:40:56.7744799+01:00",
+    "Rank": 550,
+    "Type": "in",
+    "ColorBlock": 574,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2011-03-11T02:30:53.2411414+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Wilderman Group",
-        "ToolTip": "Ipsum impedit.",
-        "Deleted": true,
-        "Rank": 984,
-        "Type": "inventore",
-        "ColorBlock": 169,
-        "IconHint": "consequatur",
+        "Id": 745,
+        "Name": "Block Inc and Sons",
+        "ToolTip": "Officia officiis odio et quod quas illum quisquam.",
+        "Deleted": false,
+        "Rank": 265,
+        "Type": "velit",
+        "ColorBlock": 724,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2021-03-29T03:40:56.7744799+02:00",
+        "LastChanged": "2023-01-15T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "deserunt",
-        "Hidden": false,
-        "FullName": "Lucius Ledner DVM"
+        "ExtraInfo": "provident",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Prof. Skye O'Kon"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Dustin Beer"
+    "ExtraInfo": "cum",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Christine Elbert Hahn IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "O'Kon-Hoeger",
-    "ToolTip": "Quo odio sunt sapiente eum est.",
+    "Id": 710,
+    "Name": "Abernathy-Batz",
+    "ToolTip": "Quidem quaerat laboriosam est placeat hic error suscipit.",
     "Deleted": false,
-    "Rank": 20,
-    "Type": "odit",
-    "ColorBlock": 34,
-    "IconHint": "quasi",
+    "Rank": 941,
+    "Type": "qui",
+    "ColorBlock": 449,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2003-06-23T03:40:56.7744799+02:00",
+    "LastChanged": "2013-07-31T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Heidenreich LLC",
-        "ToolTip": "Necessitatibus rerum culpa quidem nobis qui.",
+        "Id": 353,
+        "Name": "Breitenberg LLC",
+        "ToolTip": "Omnis culpa.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "incidunt",
-        "ColorBlock": 273,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2000-12-30T03:40:56.7744799+01:00",
+        "Rank": 761,
+        "Type": "qui",
+        "ColorBlock": 410,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2018-02-17T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Myrtie Welch",
+        "ExtraInfo": "nam",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Sabrina Turner Kunze MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Rashad Gerry Fay V",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Mrs. Johanna Talia Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 610
       }
     }
   }

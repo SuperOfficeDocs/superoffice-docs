@@ -41,6 +41,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRecordData.Saledate
   - SuperOffice.CRM.Rows.SaleRecordData.Source
   - SuperOffice.CRM.Rows.SaleRecordData.SourceId
+  - SuperOffice.CRM.Rows.SaleRecordData.StageWhenClosedId
   - SuperOffice.CRM.Rows.SaleRecordData.Status
   - SuperOffice.CRM.Rows.SaleRecordData.TextId
   - SuperOffice.CRM.Rows.SaleRecordData.Updated
@@ -994,6 +995,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public CreatedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRecordData.StageWhenClosedId
+  commentId: F:SuperOffice.CRM.Rows.SaleRecordData.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleRecordData
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: SaleRecordData.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRecordData.StageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The stage the sale was in when it was closed (sold or lost)
+  example: []
+  syntax:
+    content: public int StageWhenClosedId
+    return:
+      type: System.Int32
+    content.vb: Public StageWhenClosedId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SaleRecordData.#ctor
   id: '#ctor'

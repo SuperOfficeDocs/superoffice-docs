@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Paucek-Hegmann",
-  "Tooltip": "omnis",
+  "Id": 53,
+  "Name": "Gaylord LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 742,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "Rank": 216,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Smitham Group",
-  "Tooltip": "sit",
+  "Id": 142,
+  "Name": "Jones Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 743,
+  "Rank": 111,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vero",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

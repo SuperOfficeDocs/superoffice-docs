@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "voluptatibus",
+  "Id": 440,
+  "Name": "Abernathy, Mertz and Corwin",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 378,
+  "Rank": 59,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quas",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Tillman, Gusikowski and Nikolaus",
-  "Tooltip": "perferendis",
+  "Id": 219,
+  "Name": "Schmidt-D'Amore",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 358,
+  "Rank": 443,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "id",
+  "ListType": "iusto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

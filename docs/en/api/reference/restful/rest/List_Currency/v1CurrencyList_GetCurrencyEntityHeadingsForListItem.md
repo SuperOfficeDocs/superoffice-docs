@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Harris-Brekke",
-    "ToolTip": "Incidunt vitae ut quo.",
-    "Deleted": false,
-    "Rank": 751,
-    "Type": "velit",
-    "ColorBlock": 928,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2019-08-20T03:40:56.805732+02:00",
+    "Id": 338,
+    "Name": "Streich, Walsh and Kunze",
+    "ToolTip": "Expedita culpa.",
+    "Deleted": true,
+    "Rank": 81,
+    "Type": "quis",
+    "ColorBlock": 922,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2014-09-30T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Cummings-Schumm",
-        "ToolTip": "Iste accusantium.",
+        "Id": 397,
+        "Name": "Langworth Group",
+        "ToolTip": "Ad sed cum voluptate officia libero.",
         "Deleted": true,
-        "Rank": 962,
-        "Type": "optio",
-        "ColorBlock": 14,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2023-05-11T03:40:56.805732+02:00",
+        "Rank": 712,
+        "Type": "aspernatur",
+        "ColorBlock": 394,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2014-12-09T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "quo",
+        "ExtraInfo": "officiis",
+        "StyleHint": "tempore",
         "Hidden": true,
-        "FullName": "Audie Napoleon Gleichner MD",
+        "FullName": "Ms. Zena Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Linnie Dicki",
+    "ExtraInfo": "facere",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Dr. Grayce Geo Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldLength": 271
       }
     }
   }

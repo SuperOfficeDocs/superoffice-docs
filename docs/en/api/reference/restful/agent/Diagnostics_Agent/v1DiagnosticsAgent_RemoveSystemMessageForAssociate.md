@@ -69,13 +69,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessageForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 89,
-  "SystemMessageId": "et",
-  "AssociateId": 701
+  "OnlineappId": 993,
+  "SystemMessageId": "ab",
+  "AssociateId": 827
 }
 ```
 

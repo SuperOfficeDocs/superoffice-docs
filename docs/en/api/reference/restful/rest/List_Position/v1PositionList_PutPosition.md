@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 648,
-  "Name": "Schultz Group",
-  "Tooltip": "explicabo",
+  "Id": 401,
+  "Name": "Orn-Rodriguez",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 137,
-  "Rank": 73
+  "UdListDefinitionId": 913,
+  "Rank": 857
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Farrell LLC",
-  "Tooltip": "ducimus",
+  "Id": 98,
+  "Name": "Schinner, Strosin and Heathcote",
+  "Tooltip": "ea",
   "Deleted": true,
-  "UdListDefinitionId": 77,
-  "Rank": 339,
+  "UdListDefinitionId": 964,
+  "Rank": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 700
     }
   }
 }

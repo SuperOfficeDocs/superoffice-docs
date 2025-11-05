@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Hermann, Runolfsdottir and Leffler",
-    "ToolTip": "Eos voluptates dignissimos dolorem ea et.",
-    "Deleted": false,
-    "Rank": 855,
-    "Type": "qui",
-    "ColorBlock": 158,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "2018-06-04T03:40:56.8994885+02:00",
+    "Id": 649,
+    "Name": "Farrell, Zieme and Heller",
+    "ToolTip": "Facilis rerum ratione minima aut.",
+    "Deleted": true,
+    "Rank": 909,
+    "Type": "soluta",
+    "ColorBlock": 762,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2018-03-22T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Abbott Inc and Sons",
-        "ToolTip": "Eligendi rerum blanditiis.",
-        "Deleted": false,
-        "Rank": 887,
-        "Type": "cupiditate",
-        "ColorBlock": 927,
-        "IconHint": "tempore",
+        "Id": 68,
+        "Name": "Little-Rice",
+        "ToolTip": "Dolorem minima pariatur asperiores esse nesciunt consequatur est.",
+        "Deleted": true,
+        "Rank": 395,
+        "Type": "dignissimos",
+        "ColorBlock": 395,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2002-10-07T03:40:56.8994885+02:00",
+        "LastChanged": "2012-03-15T02:30:53.3192639+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dignissimos",
-        "Hidden": true,
-        "FullName": "Nicklaus Hackett",
+        "ExtraInfo": "architecto",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Danial Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldType": "System.String",
+            "FieldLength": 229
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "velit",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Ted Strosin",
+    "FullName": "Adah Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 602
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Leannon-Wilderman",
-  "Tooltip": "officiis",
+  "Id": 268,
+  "Name": "Robel, Sporer and Christiansen",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "UdListDefinitionId": 287,
-  "Rank": 186,
+  "UdListDefinitionId": 537,
+  "Rank": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 536
     }
   }
 }

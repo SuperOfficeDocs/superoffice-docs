@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dickinson, Torp and Koss",
+  "ProviderName": "Boyle-Dickens",
   "Restrictions": [
     {
-      "Name": "Blick-Blick",
-      "Operator": "sit",
+      "Name": "Heller-Wintheiser",
+      "Operator": "consectetur",
       "Values": [
-        "at",
-        "ea"
+        "ab",
+        "fugit"
       ],
       "DisplayValues": [
-        "omnis",
-        "itaque"
+        "dolorem",
+        "cupiditate"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -111,9 +111,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 607,
+      "InterParenthesis": 105,
       "InterOperator": "And",
-      "UniqueHash": 681
+      "UniqueHash": 115
     }
   ]
 }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Wilkinson, Kihn and O'Conner",
-    "DisplayTooltip": "corporis",
-    "DisplayType": "nobis",
+    "DisplayName": "Lesch Group",
+    "DisplayTooltip": "asperiores",
+    "DisplayType": "vero",
     "CanOrderBy": false,
-    "Name": "Donnelly Inc and Sons",
+    "Name": "Ziemann, Rodriguez and Hand",
     "CanRestrictBy": false,
-    "RestrictionType": "unde",
-    "RestrictionListName": "Hand Inc and Sons",
+    "RestrictionType": "saepe",
+    "RestrictionListName": "Cassin-Zulauf",
     "IsVisible": false,
-    "ExtraInfo": "inventore",
-    "Width": "quis",
-    "IconHint": "rerum",
-    "HeadingIconHint": "numquam"
+    "ExtraInfo": "enim",
+    "Width": "architecto",
+    "IconHint": "sit",
+    "HeadingIconHint": "consequatur"
   }
 ]
 ```

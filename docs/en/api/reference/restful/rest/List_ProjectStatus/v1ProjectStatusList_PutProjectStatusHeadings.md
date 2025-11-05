@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Murazik-Reynolds",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 535
+    "HeadingId": 838,
+    "Name": "Wilkinson Group",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 689,
+    "UdListDefinitionId": 38
   },
   {
-    "HeadingId": 30,
-    "Name": "Murazik-Reynolds",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 535
+    "HeadingId": 838,
+    "Name": "Wilkinson Group",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 689,
+    "UdListDefinitionId": 38
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 898,
-    "Name": "Crooks, Goyette and Harber",
-    "Tooltip": "delectus",
+    "HeadingId": 326,
+    "Name": "Zulauf-Blick",
+    "Tooltip": "harum",
     "Deleted": true,
-    "Rank": 430,
-    "UdListDefinitionId": 283,
+    "Rank": 627,
+    "UdListDefinitionId": 46,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Schmidt, Raynor and Ondricka",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 904,
-  "Rank": 311
+  "Id": 178,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 183,
+  "Rank": 597
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Nolan-Spinka",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "UdListDefinitionId": 301,
-  "Rank": 43,
+  "Id": 249,
+  "Name": "Donnelly LLC",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "UdListDefinitionId": 347,
+  "Rank": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

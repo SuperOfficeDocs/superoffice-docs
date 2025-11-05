@@ -27,8 +27,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=repudiandae
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=mollitia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Price LLC",
-    "ToolTip": "Quidem sed culpa labore rerum ipsa molestias.",
-    "Deleted": true,
-    "Rank": 927,
-    "Type": "amet",
+    "Id": 86,
+    "Name": "Shanahan-Mayert",
+    "ToolTip": "Quod est nihil assumenda quo id.",
+    "Deleted": false,
+    "Rank": 669,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Muller Inc and Sons",
-        "ToolTip": "Id magni enim cumque.",
-        "Deleted": false,
-        "Rank": 105,
-        "Type": "soluta",
+        "Id": 963,
+        "Name": "Mohr, Steuber and Graham",
+        "ToolTip": "Et velit eligendi temporibus.",
+        "Deleted": true,
+        "Rank": 767,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 349,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "hic",
-        "FullName": "Ms. Joel Gilda Balistreri",
+        "IconHint": "vel",
+        "ColorBlock": 112,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quod",
+        "FullName": "Ms. Emerald Junius D'Amore PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldType": "System.String",
+            "FieldLength": 186
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 597,
-    "ExtraInfo": "autem",
-    "StyleHint": "molestiae",
-    "FullName": "Mrs. Athena Kolby Crist",
+    "IconHint": "corporis",
+    "ColorBlock": 405,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "repellendus",
+    "FullName": "Miss Dovie Guadalupe O'Reilly I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 492
       }
     }
   }

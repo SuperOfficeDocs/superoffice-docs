@@ -34,6 +34,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
+|companyCategoryRank|int|Category rank| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -54,6 +55,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |deletedDate|datetime|Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company| x |
+|forceCompany|bool|Dummy: Dummy|  |
 |who| *None* |Company: Displays the name of a selection member's company| x |
 |contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contactPhone/description|string|Telephone - Description: Phone number description| x |
@@ -119,12 +121,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
+|contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
@@ -132,7 +134,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -174,7 +176,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -214,6 +216,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
 |sourceRelation/category|listAny|Source - Category| x |
 |sourceRelation/categoryGroup|listAny|Source - Category group| x |
+|sourceRelation/companyCategoryRank|int|Source - Category rank| x |
 |sourceRelation/business|listAny|Source - Business| x |
 |sourceRelation/country|listAny|Source - Country: This criterion corresponds to the Country field on the Company card.| x |
 |sourceRelation/countryId|int|Source - Country ID: Country ID| x |
@@ -222,13 +225,13 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sourceRelation/orgnr|string|Source - VAT No.| x |
 |sourceRelation/stop|bool|Source - Stop| x |
 |sourceRelation/contactNoMail|bool|Source - No mailings (company)| x |
-|sourceRelation/updatedBy|associate|Source - Updated by: The user who last updated the data| x |
-|sourceRelation/updatedByFullName|associate|Source - Updated by - Full name: The user who last updated the data| x |
-|sourceRelation/updatedDate|date|Source - Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/updatedBy|associate|Source - Updated by: The user who last updated the data| x |
+|sourceRelation/updatedByFullName|associate|Source - Updated by - Full name: The user who last updated the data| x |
+|sourceRelation/updatedDate|date|Source - Updated: The date/time the data was last updated in UTC.| x |
 |sourceRelation/registeredBy|associate|Source - Registered by: The user who registered the data| x |
 |sourceRelation/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
 |sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
@@ -237,6 +240,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
+|sourceRelation/forceCompany|bool|Source - Dummy: Dummy|  |
 |sourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |sourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
 |sourceRelation/csRelation|listAny|Source - Company-to-company relation: Name of relation, not taking into account the relation direction| x |
@@ -249,6 +253,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
 |targetRelation/category|listAny|Target - Category| x |
 |targetRelation/categoryGroup|listAny|Target - Category group| x |
+|targetRelation/companyCategoryRank|int|Target - Category rank| x |
 |targetRelation/business|listAny|Target - Business| x |
 |targetRelation/country|listAny|Target - Country: This criterion corresponds to the Country field on the Company card.| x |
 |targetRelation/countryId|int|Target - Country ID: Country ID| x |
@@ -268,6 +273,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |targetRelation/activeErpLinks|bool|Target - ERP connected: Is there an active ERP Sync?| x |
 |targetRelation/deletedDate|datetime|Target - Deleted date: Deleted date|  |
 |targetRelation/mainContact| *None* |Target - Main contact: Main contact for this company| x |
+|targetRelation/forceCompany|bool|Target - Dummy: Dummy|  |
 |targetRelation/restrictionContactId|int|Target - Company ID: Database ID of company to fetch relations for|  |
 |targetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
 |targetRelation/csRelation|listAny|Target - Company-to-company relation: Name of relation, not taking into account the relation direction| x |
@@ -305,7 +311,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -323,16 +329,16 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -360,7 +366,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -427,16 +433,16 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |appointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |appointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
 |appointment/appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointment/appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
@@ -461,7 +467,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointment/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |appointment/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointment/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -531,21 +537,21 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
 |document/associate/assocName|associate|User ID : User ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/associate/assocTooltip|string|Description : Description|  |
 |document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|document/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -607,8 +613,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
-|leadstatus|listAny|Lead status| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -633,6 +641,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personEmail/emailDescription|string|Description| x |
 |personEmail/emailId|int|ID| x |
 |personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personEmail/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |personEmail/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |personEmail/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -641,10 +653,6 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personAddress/addressId|int|Contact address - Address ID: Database ID for the address record| x |
 |personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
 |personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -684,8 +692,8 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|personExtra/y\_rental/x\_end|date|Rental - End| x |
+|personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -711,7 +719,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -737,6 +745,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
@@ -744,11 +756,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -774,7 +782,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=registeredByFullName,contactExtra/x_contact_integer,contactExtra/x_contact_short_dropdown,NumberOfNotCompletedTickets,sale/earningPercent
+GET /api/v1/archive/SaintContact?$select=contactExtra/x_contact_date,appointment/booking,document/documentUdef/SuperOffice:5,correspondingAssociate/personId,correspondingAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

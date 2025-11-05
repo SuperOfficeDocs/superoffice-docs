@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Pfannerstill-Zulauf",
-  "Tooltip": "aliquid",
+  "Id": 915,
+  "Name": "Herzog Group",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "UdListDefinitionId": 930,
-  "Rank": 168,
+  "UdListDefinitionId": 503,
+  "Rank": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 396
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dietrich-Bahringer",
-  "IncludeStandard": true
+  "TableName": "Purdy-Pollich",
+  "IncludeStandard": false
 }
 ```
 
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Spinka Inc and Sons",
-    "DisplayName": "Willms LLC",
-    "Description": "Public-key even-keeled architecture",
-    "ShortLabel": "molestiae",
-    "HideLabel": true,
+    "FieldName": "Marquardt, Heller and Lesch",
+    "DisplayName": "Ritchie Inc and Sons",
+    "Description": "Ameliorated empowering synergy",
+    "ShortLabel": "porro",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 444,
-    "TemplateVariableName": "Gutkowski, Schultz and Lebsack"
+    "IsDisplayField": false,
+    "Rank": 658,
+    "TemplateVariableName": "Purdy-Pacocha"
   }
 ]
 ```

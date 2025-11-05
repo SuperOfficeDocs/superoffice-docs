@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 606,
-  "Name": "Sawayn LLC",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 95,
+  "WebPanelId": 168,
+  "Name": "Collier-Hettinger",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 137,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Gorczany, Kirlin and O'Reilly",
+  "ShowInStatusBar": false,
+  "WindowName": "Wehner, Cassin and Berge",
   "Url": "http://www.example.com/",
-  "ProgId": "sint",
-  "Icon": 265,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "dolorem",
+  "Icon": 742,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

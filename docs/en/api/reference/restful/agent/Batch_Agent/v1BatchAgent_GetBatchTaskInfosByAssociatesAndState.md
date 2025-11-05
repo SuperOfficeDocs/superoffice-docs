@@ -98,13 +98,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    812,
-    771
+    940,
+    27
   ],
   "State": "All"
 }
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Bosco Group",
-    "AssociateId": 779,
-    "DetailsTable": 747,
-    "DetailsRecord": 145,
-    "IsSystemTask": false,
+    "Id": 745,
+    "Name": "Wolff-O'Connell",
+    "AssociateId": 416,
+    "DetailsTable": 130,
+    "DetailsRecord": 782,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "sed"
+      "ParameterObject1": "odit",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2019-08-31T03:40:46.0764548+02:00",
-    "Created": "2004-05-10T03:40:46.0764548+02:00",
-    "StartCount": 103,
-    "DatabaseSerialNumber": "1145501",
-    "Context": "odio",
-    "Result": "facere",
+    "LastStarted": "2012-06-27T02:30:46.8194719+02:00",
+    "Created": "2006-07-22T02:30:46.8194719+02:00",
+    "StartCount": 635,
+    "DatabaseSerialNumber": "1218532",
+    "Context": "sit",
+    "Result": "quia",
     "State": "All",
-    "Description": "Networked directional throughput",
-    "Response": "voluptas",
-    "Request": "et",
-    "ProgressDescription": "Ameliorated didactic task-force",
-    "ProgressPercent": 631,
-    "FileName": "Haag Group",
+    "Description": "Stand-alone interactive array",
+    "Response": "enim",
+    "Request": "optio",
+    "ProgressDescription": "Fundamental executive framework",
+    "ProgressPercent": 446,
+    "FileName": "Hyatt, Medhurst and Predovic",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 396
       }
     }
   }

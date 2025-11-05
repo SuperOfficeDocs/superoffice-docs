@@ -170,17 +170,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Klocko, Yundt and Ullrich",
-  "ProviderName": "Leannon, Gutkowski and Satterfield",
-  "SortOrder": "voluptatem",
-  "Restriction": "ipsum",
-  "Entities": "ea",
-  "Page": 422,
-  "PageSize": 57
+  "GuiName": "Paucek-Rodriguez",
+  "ProviderName": "Steuber-Schiller",
+  "SortOrder": "perspiciatis",
+  "Restriction": "ea",
+  "Entities": "commodi",
+  "Page": 292,
+  "PageSize": 368
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bradtke Inc and Sons",
-    "PrimaryKey": 564,
+    "EntityName": "Spinka, Gutmann and O'Keefe",
+    "PrimaryKey": 474,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "distinctio",
-        "LinkHint": "exercitationem"
+        "DisplayValue": "magnam",
+        "TooltipHint": "nihil",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "soluta",
-    "StyleHint": "vero",
+    "LinkHint": "suscipit",
+    "StyleHint": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

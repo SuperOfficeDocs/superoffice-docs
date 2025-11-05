@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531
+  "Id": 414
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 832,
-    "Name": "Considine Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 184,
-    "UdListDefinitionId": 22,
+    "HeadingId": 854,
+    "Name": "Hane Inc and Sons",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "Rank": 905,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 904
       }
     }
   }

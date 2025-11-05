@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 02 Apr 2019 03:40:55 G4T
+Last-Modified: Sun, 08 Oct 2000 02:30:52 G10T
 
 {
-  "Key": "maxime",
-  "Value": "ullam",
-  "RecordId": 536,
-  "CreatedDate": "2022-07-10T03:40:55.7731411+02:00",
-  "UpdatedDate": "2019-04-02T03:40:55.7731411+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "dolorum",
-  "TableName": "Dare-Kuhic",
+  "Key": "neque",
+  "Value": "aut",
+  "RecordId": 255,
+  "CreatedDate": "2005-03-08T02:30:52.6474115+01:00",
+  "UpdatedDate": "2000-10-08T02:30:52.6474115+02:00",
+  "UpdatedBy": "excepturi",
+  "CreatedBy": "dolor",
+  "TableName": "Harvey Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldLength": 431
     }
   }
 }

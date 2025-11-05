@@ -69,13 +69,13 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 130,
-  "EmailAddress": "ida@jenkinsrussel.com",
-  "SetAsPrimaryEmail": true
+  "PersonId": 330,
+  "EmailAddress": "larry_friesen@sporer.co.uk",
+  "SetAsPrimaryEmail": false
 }
 ```
 

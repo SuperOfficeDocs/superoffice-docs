@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Value": "itaque",
-    "Tooltip": "ratione",
+    "Id": 629,
+    "Value": "dolorum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   },
   {
-    "Id": 964,
-    "Value": "itaque",
-    "Tooltip": "ratione",
+    "Id": 629,
+    "Value": "dolorum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

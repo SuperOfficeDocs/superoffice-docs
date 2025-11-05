@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Prohaska, Nader and Stark",
-    "ToolTip": "Unde velit quia illum deleniti odio.",
-    "Deleted": true,
-    "Rank": 584,
-    "Type": "aliquam",
-    "ColorBlock": 182,
-    "IconHint": "tempora",
+    "Id": 602,
+    "Name": "Anderson, Barton and Williamson",
+    "ToolTip": "Distinctio rerum numquam nemo sunt blanditiis.",
+    "Deleted": false,
+    "Rank": 439,
+    "Type": "architecto",
+    "ColorBlock": 150,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2023-07-29T03:40:56.6807244+02:00",
+    "LastChanged": "2003-11-03T02:30:53.194268+01:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Osinski-Prohaska",
-        "ToolTip": "Numquam magnam iste ipsum.",
+        "Id": 523,
+        "Name": "Predovic, Klocko and Braun",
+        "ToolTip": "Tenetur omnis.",
         "Deleted": false,
-        "Rank": 986,
-        "Type": "sit",
-        "ColorBlock": 613,
-        "IconHint": "cum",
+        "Rank": 639,
+        "Type": "inventore",
+        "ColorBlock": 152,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2021-03-21T03:40:56.6807244+01:00",
+        "LastChanged": "2010-01-01T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "itaque",
+        "ExtraInfo": "fugit",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Noemy Macie Borer PhD"
+        "FullName": "Glenna Tillman"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Prof. Terrence O'Reilly"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Mrs. Leilani Gerhold V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Franecki-Pagac",
-    "ToolTip": "Et officiis nemo dolorum dolorum.",
-    "Deleted": false,
-    "Rank": 530,
-    "Type": "porro",
-    "ColorBlock": 689,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2006-12-18T03:40:56.6807244+01:00",
+    "Id": 412,
+    "Name": "Hudson, Bartoletti and Schroeder",
+    "ToolTip": "Modi quia et omnis porro ut commodi id.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "quia",
+    "ColorBlock": 112,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2013-10-17T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Parker, Mann and Walsh",
-        "ToolTip": "Dolore et cumque est fugit enim nulla.",
+        "Id": 516,
+        "Name": "Oberbrunner-Runte",
+        "ToolTip": "Eius laborum et.",
         "Deleted": true,
-        "Rank": 96,
-        "Type": "enim",
-        "ColorBlock": 565,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2021-10-29T03:40:56.6807244+02:00",
+        "Rank": 894,
+        "Type": "perferendis",
+        "ColorBlock": 87,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2014-03-08T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sunt",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Barton Will",
+        "FullName": "Maude Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 958
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Esmeralda Graham I",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Keven Fanny Reichert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

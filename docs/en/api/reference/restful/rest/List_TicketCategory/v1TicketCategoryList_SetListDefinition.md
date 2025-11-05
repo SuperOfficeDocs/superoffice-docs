@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Greenfelder Group",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "Rank": 41,
+  "Id": 418,
+  "Name": "Feil, Hackett and Gleason",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 371,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Wunsch-Corkery",
-  "Tooltip": "distinctio",
+  "Id": 31,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 261,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "Rank": 181,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

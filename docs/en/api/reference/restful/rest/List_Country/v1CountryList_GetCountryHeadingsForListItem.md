@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Conroy, Parisian and Pfannerstill",
-    "ToolTip": "Et rerum aut qui.",
-    "Deleted": false,
-    "Rank": 453,
-    "Type": "laboriosam",
-    "ColorBlock": 839,
-    "IconHint": "in",
+    "Id": 277,
+    "Name": "Blick-Hettinger",
+    "ToolTip": "Voluptatem at voluptatibus aut.",
+    "Deleted": true,
+    "Rank": 629,
+    "Type": "saepe",
+    "ColorBlock": 856,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2013-08-10T03:40:56.7744799+02:00",
+    "LastChanged": "2014-03-28T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Willms-Padberg",
-        "ToolTip": "Aut pariatur eius dolor mollitia.",
+        "Id": 337,
+        "Name": "Doyle-Gibson",
+        "ToolTip": "Minus unde.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "eveniet",
-        "ColorBlock": 203,
-        "IconHint": "modi",
+        "Rank": 145,
+        "Type": "aperiam",
+        "ColorBlock": 885,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2011-02-08T03:40:56.7744799+01:00",
+        "LastChanged": "2001-04-17T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Wilhelmine Damion Bernhard MD",
+        "ExtraInfo": "et",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Ms. Rowena Mariana Strosin IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 396
+            "FieldType": "System.Int32",
+            "FieldLength": 167
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Margarett D'Amore",
+    "FullName": "Giovani Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

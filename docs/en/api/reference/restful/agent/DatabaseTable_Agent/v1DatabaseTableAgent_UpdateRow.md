@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhlman Group",
-  "Id": 123,
+  "TableName": "Konopelski Group",
+  "Id": 836,
   "Values": {
-    "Values1": "accusamus",
-    "Values2": "eaque"
+    "Values1": "hic",
+    "Values2": "consectetur"
   }
 }
 ```

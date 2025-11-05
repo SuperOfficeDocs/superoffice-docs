@@ -62,7 +62,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 29,
-  "Name": "Kris-Breitenberg",
-  "TZLocationCode": "perspiciatis",
-  "TZLocationCities": "in",
-  "IsoNumber": 68,
+  "TZLocationID": 490,
+  "Name": "Mraz Inc and Sons",
+  "TZLocationCode": "labore",
+  "TZLocationCities": "consequatur",
+  "IsoNumber": 136,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 816,
-      "StartMonth": 198,
-      "EndDay": 659,
-      "EndMonth": 553,
-      "TZOffset": 902,
-      "StartRulePattern": "rerum",
-      "EndRulePattern": "quos"
+      "StartDay": 473,
+      "StartMonth": 393,
+      "EndDay": 936,
+      "EndMonth": 880,
+      "TZOffset": 860,
+      "StartRulePattern": "ea",
+      "EndRulePattern": "ducimus"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 615,
-      "StartMonth": 765,
-      "EndDay": 872,
-      "EndMonth": 688,
-      "TZOffset": 562,
-      "StartRulePattern": "aspernatur",
-      "EndRulePattern": "eum"
+      "StartDay": 73,
+      "StartMonth": 376,
+      "EndDay": 331,
+      "EndMonth": 729,
+      "TZOffset": 639,
+      "StartRulePattern": "deserunt",
+      "EndRulePattern": "dolore"
     }
   }
 }

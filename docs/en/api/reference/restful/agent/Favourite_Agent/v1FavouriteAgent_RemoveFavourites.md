@@ -69,16 +69,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hyatt Group",
+  "TableName": "Howell LLC",
   "RecordIds": [
-    436,
-    923
+    539,
+    239
   ],
-  "AssociateId": 675
+  "AssociateId": 841
 }
 ```
 

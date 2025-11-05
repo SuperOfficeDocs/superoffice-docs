@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 208
+  "ChatSessionId": 811
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 551,
-  "TopicId": 79,
+  "ChatSessionId": 435,
+  "TopicId": 706,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "error",
-  "CustomerName": "Schmitt, Schmidt and Hansen",
-  "CustomerEmail": "macey_streich@moore.com",
-  "CustomerPhone": "(739)142-3938 x67955",
+  "CustomerAlias": "sequi",
+  "CustomerHost": "consequuntur",
+  "CustomerName": "Kulas LLC",
+  "CustomerEmail": "breana_kuhlman@luettgen.co.uk",
+  "CustomerPhone": "(373)706-2053",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Murphy, Corwin and Gleason",
+  "CustomerCompanyName": "Gleason Group",
   "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "sapiente",
-  "WhenRequested": "2004-09-13T03:40:46.1858375+02:00",
-  "WhenStarted": "2025-01-25T03:40:46.1858375+01:00",
-  "WhenEnded": "2022-03-31T03:40:46.1858375+02:00",
-  "WhenIdle": "2010-12-22T03:40:46.1858375+01:00",
-  "WhenFetched": "2006-06-17T03:40:46.1858375+02:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 141,
-  "AlertLevel": 960,
-  "Rank": 419,
+  "FirstMessage": "placeat",
+  "LastMessage": "non",
+  "WhenRequested": "2023-06-01T02:30:46.8975935+02:00",
+  "WhenStarted": "2011-11-20T02:30:46.8975935+01:00",
+  "WhenEnded": "2012-12-14T02:30:46.8975935+01:00",
+  "WhenIdle": "2020-09-18T02:30:46.8975935+02:00",
+  "WhenFetched": "2005-08-06T02:30:46.8975935+02:00",
+  "SessionKey": "explicabo",
+  "InitialQueuePos": 803,
+  "AlertLevel": 25,
+  "Rank": 83,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 148,
+  "Rating": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 11
     }
   }
 }

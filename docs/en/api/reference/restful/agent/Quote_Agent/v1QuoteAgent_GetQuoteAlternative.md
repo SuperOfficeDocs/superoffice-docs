@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=729
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=587
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,35 +102,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 38,
-  "ERPQuoteAlternativeKey": "labore",
-  "QuoteVersionId": 743,
-  "Name": "Feest, Cruickshank and Zboncak",
-  "Description": "Cross-platform context-sensitive standardization",
+  "QuoteAlternativeId": 948,
+  "ERPQuoteAlternativeKey": "fugiat",
+  "QuoteVersionId": 414,
+  "Name": "Bashirian Inc and Sons",
+  "Description": "Programmable eco-centric Graphical User Interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14949.18,
-  "ERPDiscountAmount": 29387.518,
-  "DiscountPercent": 8982.044,
-  "DiscountAmount": 10627.394,
+  "ERPDiscountPercent": 498.306,
+  "ERPDiscountAmount": 20449.35,
+  "DiscountPercent": 4002.118,
+  "DiscountAmount": 7286.55,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "modi",
-  "VAT": 24448.334,
-  "EarningPercent": 17901.408,
-  "EarningAmount": 9702.864,
-  "SubTotal": 24689.652,
-  "TotalPrice": 15867.442,
-  "ExtraField1": "sapiente",
-  "ExtraField2": "cupiditate",
-  "ExtraField3": "sed",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "eveniet",
+  "VATInfo": "consequatur",
+  "VAT": 10771.557999999999,
+  "EarningPercent": 27682.622,
+  "EarningAmount": 15804.761999999999,
+  "SubTotal": 23445.453999999998,
+  "TotalPrice": 27936.476,
+  "ExtraField1": "corrupti",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "itaque",
+  "ExtraField4": "reprehenderit",
+  "ExtraField5": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldLength": 858
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Stark Group",
-    "ToolTip": "Et dolorum quisquam porro soluta nemo veritatis blanditiis.",
-    "Deleted": false,
-    "Rank": 56,
-    "Type": "qui",
-    "ColorBlock": 308,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2005-06-17T03:40:56.9777222+02:00",
+    "Id": 724,
+    "Name": "Funk, Mante and Smith",
+    "ToolTip": "Est omnis fugit.",
+    "Deleted": true,
+    "Rank": 782,
+    "Type": "et",
+    "ColorBlock": 530,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2014-05-15T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Koelpin Inc and Sons",
-        "ToolTip": "Beatae beatae.",
+        "Id": 728,
+        "Name": "Stroman-Heller",
+        "ToolTip": "Deserunt accusamus facilis et rem.",
         "Deleted": false,
-        "Rank": 680,
-        "Type": "error",
-        "ColorBlock": 715,
-        "IconHint": "nisi",
+        "Rank": 332,
+        "Type": "ipsam",
+        "ColorBlock": 795,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "1999-07-03T03:40:56.9777222+02:00",
+        "LastChanged": "2018-03-01T02:30:53.3348881+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Brain McGlynn",
+        "ExtraInfo": "quo",
+        "StyleHint": "impedit",
+        "Hidden": false,
+        "FullName": "Demario Damion Ferry DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Miss Jessica Larson MD",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Lonnie Carlo Schumm DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

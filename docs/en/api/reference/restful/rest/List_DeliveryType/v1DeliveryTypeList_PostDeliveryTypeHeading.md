@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 818,
-  "Name": "Kreiger, Rohan and Brekke",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 818,
-  "UdListDefinitionId": 682
+  "HeadingId": 435,
+  "Name": "Gislason LLC",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 147,
+  "UdListDefinitionId": 260
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 620,
-  "Name": "Rodriguez-Ullrich",
-  "Tooltip": "provident",
-  "Deleted": true,
-  "Rank": 372,
-  "UdListDefinitionId": 414,
+  "HeadingId": 897,
+  "Name": "Streich, Hintz and Stamm",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "Rank": 145,
+  "UdListDefinitionId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

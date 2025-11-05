@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 428,
-  "TargetDimensionId": 514
+  "Year": 498,
+  "TargetDimensionId": 622
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 719,
+    "TargetAssignmentInfoId": 587,
     "Values": [
-      164,
-      870
+      489,
+      919
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 715,
-    "DimensionListItemDisplayName": "Monahan, Spinka and Baumbach",
+    "DimensionListItem": 106,
+    "DimensionListItemDisplayName": "Borer, Luettgen and Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

@@ -110,12 +110,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 774,
-  "ERPProductKey": "et"
+  "QuoteConnectionId": 871,
+  "ERPProductKey": "aliquam"
 }
 ```
 
@@ -126,73 +126,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 861,
-  "ERPProductKey": "iste",
-  "ERPPriceListKey": "deleniti",
-  "Name": "Weissnat Inc and Sons",
-  "Description": "Distributed dedicated Graphic Interface",
-  "Code": "et",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "et",
+  "ProductId": 376,
+  "ERPProductKey": "eos",
+  "ERPPriceListKey": "non",
+  "Name": "Wilderman-Murazik",
+  "Description": "Programmable responsive analyzer",
+  "Code": "adipisci",
+  "PriceUnit": "eos",
+  "QuantityUnit": "aut",
   "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 16820.178,
-  "ItemNumber": "1451760",
+  "SubscriptionUnit": "odio",
+  "DefaultSubscriptionQuantity": 18418.518,
+  "ItemNumber": "835123",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "nihil",
-  "VAT": 24742.93,
-  "VATInfo": "eos",
-  "UnitCost": 12247.672,
-  "UnitMinimumPrice": 16105.626,
-  "UnitListPrice": 17926.48,
-  "InAssortment": true,
-  "Supplier": "similique",
-  "SupplierCode": "omnis",
-  "Rights": "voluptas",
-  "Rule": "porro",
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "similique",
+  "VAT": 15854.905999999999,
+  "VATInfo": "laudantium",
+  "UnitCost": 4055.3959999999997,
+  "UnitMinimumPrice": 3265.6279999999997,
+  "UnitListPrice": 30258.77,
+  "InAssortment": false,
+  "Supplier": "atque",
+  "SupplierCode": "tempora",
+  "Rights": "eveniet",
+  "Rule": "aspernatur",
   "ExtraInfo": [
     {
-      "Name": "Becker-Parisian",
-      "Value": "reprehenderit",
+      "Name": "Kreiger Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 396
         }
       }
     },
     {
-      "Name": "Becker-Parisian",
-      "Value": "reprehenderit",
+      "Name": "Kreiger Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 396
         }
       }
     }
   ],
-  "RawExtraInfo": "fuga",
-  "ExtraField1": "quis",
-  "ExtraField2": "placeat",
-  "ExtraField3": "sed",
-  "ExtraField4": "vel",
-  "ExtraField5": "iusto",
-  "InStock": 20349.061999999998,
+  "RawExtraInfo": "eligendi",
+  "ExtraField1": "vel",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "minus",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "distinctio",
+  "InStock": 21856.516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 390
     }
   }
 }

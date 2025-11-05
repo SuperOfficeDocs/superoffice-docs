@@ -73,22 +73,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "quia",
+  "Provider": "esse",
   "Restrictions": [
     {
-      "Name": "Wuckert LLC",
-      "Operator": "ex",
+      "Name": "Lesch Group",
+      "Operator": "incidunt",
       "Values": [
-        "qui",
-        "aut"
+        "unde",
+        "suscipit"
       ],
       "DisplayValues": [
-        "inventore",
-        "voluptas"
+        "non",
+        "sapiente"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 990,
+      "InterParenthesis": 349,
       "InterOperator": "And",
-      "UniqueHash": 559
+      "UniqueHash": 822
     }
   ],
   "NewStatus": "Green"
@@ -112,7 +112,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  574,
-  921
+  916,
+  736
 ]
 ```

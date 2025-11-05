@@ -86,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Maggio Inc and Sons",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "Rank": 485,
+    "Id": 794,
+    "Name": "Rosenbaum-Ankunding",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "Rank": 458,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "sit",
+    "ListType": "qui",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 863
       }
     }
   }

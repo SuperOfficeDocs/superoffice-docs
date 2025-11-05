@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 590
+  "RoleId": 611
 }
 ```
 
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Bernier-Moore",
-    "ToolTip": "Nihil error blanditiis eius repellat accusantium praesentium iste.",
+    "Id": 57,
+    "Name": "Hoeger Group",
+    "ToolTip": "Rem maxime consequuntur facilis est vitae.",
     "Deleted": false,
-    "Rank": 964,
-    "Type": "deserunt",
-    "ColorBlock": 935,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2021-12-11T03:40:48.1723713+01:00",
+    "Rank": 664,
+    "Type": "qui",
+    "ColorBlock": 108,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2012-09-15T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Brekke Inc and Sons",
-        "ToolTip": "Dolore et.",
-        "Deleted": false,
-        "Rank": 567,
-        "Type": "quo",
-        "ColorBlock": 815,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2000-01-11T03:40:48.1723713+01:00",
+        "Id": 578,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Quae eaque neque repudiandae.",
+        "Deleted": true,
+        "Rank": 953,
+        "Type": "sit",
+        "ColorBlock": 421,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2005-09-17T02:30:48.0850579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Eleanora Wilkinson",
+        "ExtraInfo": "quam",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Micah Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "deleniti",
-    "Hidden": true,
-    "FullName": "Shana Reynolds",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Eulah Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 106
       }
     }
   }

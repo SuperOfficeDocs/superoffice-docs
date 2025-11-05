@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "cupiditate",
-    "ad"
+    "harum",
+    "velit"
   ]
 }
 ```
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2011-09-23T03:40:45.7793757+02:00",
+    "Date": "2002-09-06T02:30:46.6163546+02:00",
     "IsConflict": false,
-    "Description": "Future-proofed contextually-based utilisation",
-    "DescriptionStyleHint": "Synchronised non-volatile utilisation",
-    "Tooltip": "qui"
+    "Description": "Adaptive assymetric Graphic Interface",
+    "DescriptionStyleHint": "Innovative interactive pricing structure",
+    "Tooltip": "similique"
   },
   {
-    "Date": "2011-09-23T03:40:45.7793757+02:00",
+    "Date": "2002-09-06T02:30:46.6163546+02:00",
     "IsConflict": false,
-    "Description": "Future-proofed contextually-based utilisation",
-    "DescriptionStyleHint": "Synchronised non-volatile utilisation",
-    "Tooltip": "qui"
+    "Description": "Adaptive assymetric Graphic Interface",
+    "DescriptionStyleHint": "Innovative interactive pricing structure",
+    "Tooltip": "similique"
   }
 ]
 ```

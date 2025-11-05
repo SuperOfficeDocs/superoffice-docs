@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 927
+  "CountryId": 197
 }
 ```
 
@@ -103,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 218,
-  "BlobSize": 704,
-  "Description": "Team-oriented clear-thinking customer loyalty",
-  "ExtraInfo": "dolorum",
+  "BlobId": 745,
+  "BlobSize": 415,
+  "Description": "Digitized multimedia budgetary management",
+  "ExtraInfo": "ducimus",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 311,
-  "CreatedDate": "2004-04-29T03:40:46.0920806+02:00",
-  "UpdatedDate": "2003-11-15T03:40:46.0920806+01:00",
+  "IsZipped": true,
+  "MimeType": "delectus",
+  "OriginalSize": 651,
+  "CreatedDate": "2007-06-20T02:30:46.8350962+02:00",
+  "UpdatedDate": "2018-11-06T02:30:46.8350962+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nihil",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldLength": 454
     }
   }
 }

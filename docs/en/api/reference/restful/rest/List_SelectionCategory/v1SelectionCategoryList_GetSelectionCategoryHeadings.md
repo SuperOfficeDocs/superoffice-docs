@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 950,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "consequatur",
+    "HeadingId": 51,
+    "Name": "Grimes-Deckow",
+    "Tooltip": "quos",
     "Deleted": true,
-    "Rank": 720,
-    "UdListDefinitionId": 255,
+    "Rank": 29,
+    "UdListDefinitionId": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 279
       }
     }
   }

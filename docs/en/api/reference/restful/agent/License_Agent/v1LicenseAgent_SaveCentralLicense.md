@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/License/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Tremblay-Toy",
-      "Description": "Fully-configurable transitional system engine",
+      "Name": "Pfannerstill-Stark",
+      "Description": "Monitored multimedia contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Tremblay-Toy",
-      "Description": "Fully-configurable transitional system engine",
+      "Name": "Pfannerstill-Stark",
+      "Description": "Monitored multimedia contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,30 +118,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cummerata-Goldner",
-    "Description": "Cloned eco-centric core",
+    "Name": "Dooley Group",
+    "Description": "Enhanced motivating website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 926,
-        "Tooltip": "animi",
-        "CanAssign": true,
-        "Free": 836,
-        "InUse": 345,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 169,
+        "Tooltip": "ab",
+        "CanAssign": false,
+        "Free": 544,
+        "InUse": 695,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 826,
-        "Name": "Roberts-Hoeger",
-        "Description": "Advanced 6th generation software",
-        "PrerequisiteModuleName": "Davis Inc and Sons",
-        "SortOrder": 478,
-        "ExtraFlags": 557,
+        "ModuleLicenseId": 546,
+        "Name": "Morar, Christiansen and Lueilwitz",
+        "Description": "Synergistic mission-critical conglomeration",
+        "PrerequisiteModuleName": "Trantow-Dietrich",
+        "SortOrder": 345,
+        "ExtraFlags": 635,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
@@ -149,25 +149,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 592,
-        "Tooltip": "aut",
+        "Total": 525,
+        "Tooltip": "sapiente",
         "CanAssign": true,
-        "Free": 61,
-        "InUse": 893,
+        "Free": 168,
+        "InUse": 845,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 632,
-        "Name": "Lowe Inc and Sons",
-        "Description": "Fully-configurable actuating emulation",
-        "PrerequisiteModuleName": "Weber, Connelly and Stracke",
-        "SortOrder": 589,
-        "ExtraFlags": 972,
+        "Assigned": false,
+        "ModuleLicenseId": 461,
+        "Name": "O'Keefe-Hirthe",
+        "Description": "Progressive dynamic analyzer",
+        "PrerequisiteModuleName": "Abbott, Leuschke and Herzog",
+        "SortOrder": 717,
+        "ExtraFlags": 906,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 614
           }
         }
       }
@@ -176,36 +176,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 466
+        "FieldType": "System.Int32",
+        "FieldLength": 606
       }
     }
   },
   {
-    "Name": "Cummerata-Goldner",
-    "Description": "Cloned eco-centric core",
+    "Name": "Dooley Group",
+    "Description": "Enhanced motivating website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 926,
-        "Tooltip": "animi",
-        "CanAssign": true,
-        "Free": 836,
-        "InUse": 345,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 169,
+        "Tooltip": "ab",
+        "CanAssign": false,
+        "Free": 544,
+        "InUse": 695,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 826,
-        "Name": "Roberts-Hoeger",
-        "Description": "Advanced 6th generation software",
-        "PrerequisiteModuleName": "Davis Inc and Sons",
-        "SortOrder": 478,
-        "ExtraFlags": 557,
+        "ModuleLicenseId": 546,
+        "Name": "Morar, Christiansen and Lueilwitz",
+        "Description": "Synergistic mission-critical conglomeration",
+        "PrerequisiteModuleName": "Trantow-Dietrich",
+        "SortOrder": 345,
+        "ExtraFlags": 635,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
@@ -213,25 +213,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 592,
-        "Tooltip": "aut",
+        "Total": 525,
+        "Tooltip": "sapiente",
         "CanAssign": true,
-        "Free": 61,
-        "InUse": 893,
+        "Free": 168,
+        "InUse": 845,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 632,
-        "Name": "Lowe Inc and Sons",
-        "Description": "Fully-configurable actuating emulation",
-        "PrerequisiteModuleName": "Weber, Connelly and Stracke",
-        "SortOrder": 589,
-        "ExtraFlags": 972,
+        "Assigned": false,
+        "ModuleLicenseId": 461,
+        "Name": "O'Keefe-Hirthe",
+        "Description": "Progressive dynamic analyzer",
+        "PrerequisiteModuleName": "Abbott, Leuschke and Herzog",
+        "SortOrder": 717,
+        "ExtraFlags": 906,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 614
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 466
+        "FieldType": "System.Int32",
+        "FieldLength": 606
       }
     }
   }

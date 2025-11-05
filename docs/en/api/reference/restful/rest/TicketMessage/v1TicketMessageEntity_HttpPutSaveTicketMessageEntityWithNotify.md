@@ -129,67 +129,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 578,
+  "EjMessageId": 766,
   "Ticket": null,
-  "CreatedAt": "2011-08-20T03:40:56.3984728+02:00",
+  "CreatedAt": "2018-07-18T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "nesciunt",
+  "Author": "dolorum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vitae",
-  "TimeSpent": 269,
-  "Body": "sint",
-  "HtmlBody": "possimus",
-  "EmailHeader": "noe@quitzon.com",
-  "DebugInfo": "porro",
-  "MailSorter": "harum",
+  "MessageId": "modi",
+  "TimeSpent": 704,
+  "Body": "dolorum",
+  "HtmlBody": "magni",
+  "EmailHeader": "marlen@walsh.co.uk",
+  "DebugInfo": "delectus",
+  "MailSorter": "velit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "error",
+  "SearchTitle": "debitis",
   "MessageHeaders": [
     {
-      "Id": 755,
-      "Name": "Heller-Marvin",
-      "Value": "labore",
+      "Id": 400,
+      "Name": "Shanahan, Braun and Wiegand",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 755,
-      "Name": "Heller-Marvin",
-      "Value": "labore",
+      "Id": 400,
+      "Name": "Shanahan, Braun and Wiegand",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ut",
-  "Sentiment": 673,
-  "SentimentConfidence": 584,
+  "Language": "sed",
+  "Sentiment": 569,
+  "SentimentConfidence": 123,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 970,
-      "Name": "Jacobson Group",
-      "ContentType": "error",
-      "AttSize": 898,
-      "InlineImage": false,
-      "ContentId": "explicabo",
-      "AuthKey": "et",
-      "IsSafeFileExtension": false
+      "AttachmentId": 879,
+      "Name": "Luettgen Group",
+      "ContentType": "id",
+      "AttSize": 934,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "ex",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "at"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "velit",
+    "CustomFields2": "nisi"
   }
 }
 ```
@@ -201,79 +201,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 124,
+  "EjMessageId": 307,
   "Ticket": null,
-  "CreatedAt": "2016-09-30T03:40:56.3984728+02:00",
+  "CreatedAt": "2022-06-05T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ipsa",
-  "TimeSpent": 279,
-  "Body": "est",
-  "HtmlBody": "harum",
-  "EmailHeader": "gregorio.cartwright@simonis.co.uk",
-  "DebugInfo": "dignissimos",
-  "MailSorter": "molestiae",
+  "MessageId": "laboriosam",
+  "TimeSpent": 265,
+  "Body": "ut",
+  "HtmlBody": "omnis",
+  "EmailHeader": "leda.moore@ernser.ca",
+  "DebugInfo": "numquam",
+  "MailSorter": "doloribus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "atque",
+  "SearchTitle": "impedit",
   "MessageHeaders": [
     {
-      "Id": 101,
-      "Name": "Maggio Inc and Sons",
-      "Value": "officiis",
+      "Id": 726,
+      "Name": "Abbott Inc and Sons",
+      "Value": "similique",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     }
   ],
   "Important": false,
-  "Language": "numquam",
-  "Sentiment": 647,
-  "SentimentConfidence": 352,
+  "Language": "culpa",
+  "Sentiment": 700,
+  "SentimentConfidence": 606,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 400,
-      "Name": "Koch Inc and Sons",
-      "ContentType": "ut",
-      "AttSize": 807,
+      "AttachmentId": 265,
+      "Name": "Conn Inc and Sons",
+      "ContentType": "aliquid",
+      "AttSize": 383,
       "InlineImage": true,
-      "ContentId": "aperiam",
-      "AuthKey": "enim",
+      "ContentId": "vitae",
+      "AuthKey": "sunt",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "ea"
+    "CustomFields1": "et",
+    "CustomFields2": "tenetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

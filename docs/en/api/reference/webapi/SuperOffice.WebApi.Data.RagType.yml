@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.RagType.Product
   - SuperOffice.WebApi.Data.RagType.Ticket
   - SuperOffice.WebApi.Data.RagType.Webpage
+  - SuperOffice.WebApi.Data.RagType.Website
   langs:
   - csharp
   - vb
@@ -133,7 +134,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Document - Docx/pptx/rtf/txt documents'
+  summary: '3: Document - Docx/pptx/rtf/txt documents in Markdown format'
   example: []
   syntax:
     content: >-
@@ -208,6 +209,37 @@ items:
       <EnumMember>
 
       Product = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.Website
+  commentId: F:SuperOffice.WebApi.Data.RagType.Website
+  id: Website
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Website
+  nameWithType: RagType.Website
+  fullName: SuperOffice.WebApi.Data.RagType.Website
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '6: Website - crawl linked pages to a given depth'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Website = 6
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Website = 6
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

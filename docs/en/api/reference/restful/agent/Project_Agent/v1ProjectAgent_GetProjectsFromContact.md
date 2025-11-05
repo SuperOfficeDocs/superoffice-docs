@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 640
+  "ContactId": 939
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 850,
-    "Name": "Littel, Swift and Mann",
-    "Description": "Realigned client-server Graphical User Interface",
+    "ProjectId": 469,
+    "Name": "Shields, Ondricka and Cummerata",
+    "Description": "Expanded 24 hour workforce",
     "URL": "http://www.example.com/",
-    "Type": "provident",
-    "AssociateId": 252,
-    "AssociateFullName": "Dean Kemmer",
-    "TypeId": 941,
-    "Updated": "2024-03-28T03:40:47.4999832+01:00",
-    "StatusId": 957,
-    "Status": "et",
-    "TextId": 460,
-    "PublishTo": "2015-07-28T03:40:47.4999832+02:00",
-    "PublishFrom": "2021-02-12T03:40:47.4999832+01:00",
+    "Type": "reiciendis",
+    "AssociateId": 998,
+    "AssociateFullName": "Mr. Ruby Lueilwitz",
+    "TypeId": 528,
+    "Updated": "2003-09-10T02:30:47.6944454+02:00",
+    "StatusId": 127,
+    "Status": "quae",
+    "TextId": 928,
+    "PublishTo": "2011-03-06T02:30:47.6944454+01:00",
+    "PublishFrom": "2009-01-06T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "978683",
-    "ActiveErpLinks": 614,
+    "ProjectNumber": "1600243",
+    "ActiveErpLinks": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 424
       }
     }
   }

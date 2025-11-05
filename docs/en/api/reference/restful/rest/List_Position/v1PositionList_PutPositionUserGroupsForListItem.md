@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Beahan Inc and Sons",
-    "ToolTip": "Et est a accusantium quos doloribus possimus ipsum.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "maxime",
-    "ColorBlock": 251,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2001-09-08T03:40:56.9777222+02:00",
+    "Id": 231,
+    "Name": "Renner-Hilpert",
+    "ToolTip": "Sit ea.",
+    "Deleted": false,
+    "Rank": 979,
+    "Type": "reiciendis",
+    "ColorBlock": 521,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "1998-07-22T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Brakus-Lesch",
-        "ToolTip": "Rerum deserunt possimus.",
-        "Deleted": false,
-        "Rank": 542,
-        "Type": "ut",
-        "ColorBlock": 12,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2007-06-12T03:40:56.9777222+02:00",
+        "Id": 458,
+        "Name": "Jacobson-Bruen",
+        "ToolTip": "Et et.",
+        "Deleted": true,
+        "Rank": 227,
+        "Type": "nihil",
+        "ColorBlock": 222,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2015-04-20T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Kevon Luigi Walsh Jr."
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Jamarcus O'Reilly"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "quidem",
+    "ExtraInfo": "autem",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Hilma Volkman II"
+    "FullName": "Mervin Romaguera"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Heathcote, Lind and Simonis",
-    "ToolTip": "Voluptate dolor natus sit voluptates.",
+    "Id": 660,
+    "Name": "Gulgowski-Wisoky",
+    "ToolTip": "Harum voluptatem ea quos corrupti adipisci quia.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "autem",
-    "ColorBlock": 62,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "1998-09-16T03:40:56.9777222+02:00",
+    "Rank": 689,
+    "Type": "esse",
+    "ColorBlock": 241,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2005-01-22T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Lindgren-Stehr",
-        "ToolTip": "Quos dolorum mollitia reprehenderit sapiente fugiat rerum.",
-        "Deleted": false,
-        "Rank": 729,
-        "Type": "earum",
-        "ColorBlock": 897,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2001-01-08T03:40:56.9777222+01:00",
+        "Id": 732,
+        "Name": "Fay Group",
+        "ToolTip": "Cumque aut expedita voluptatum autem repudiandae officia.",
+        "Deleted": true,
+        "Rank": 662,
+        "Type": "quidem",
+        "ColorBlock": 815,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2005-08-08T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "veritatis",
-        "Hidden": true,
-        "FullName": "Xander Padberg",
+        "ExtraInfo": "maiores",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Devante Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 295
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Mrs. Thaddeus Leone Russel",
+    "ExtraInfo": "fuga",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Miss Walker Marcus Kiehn DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 666
       }
     }
   }

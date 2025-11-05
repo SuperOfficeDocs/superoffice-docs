@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Grant, Klocko and Tromp",
-    "Tooltip": "nesciunt",
-    "Deleted": true,
-    "UdListDefinitionId": 138,
-    "Rank": 826
+    "Id": 540,
+    "Name": "Ferry, Krajcik and Nolan",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 533,
+    "Rank": 178
   },
   {
-    "Id": 718,
-    "Name": "Grant, Klocko and Tromp",
-    "Tooltip": "nesciunt",
-    "Deleted": true,
-    "UdListDefinitionId": 138,
-    "Rank": 826
+    "Id": 540,
+    "Name": "Ferry, Krajcik and Nolan",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 533,
+    "Rank": 178
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Lakin Group",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 980,
-    "Rank": 614,
+    "Id": 31,
+    "Name": "Mitchell Group",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "UdListDefinitionId": 618,
+    "Rank": 273,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 652
       }
     }
   }

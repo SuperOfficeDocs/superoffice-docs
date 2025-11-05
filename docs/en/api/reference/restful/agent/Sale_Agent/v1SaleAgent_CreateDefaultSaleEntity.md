@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "labore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-08-20T03:40:47.6254619+02:00",
-  "Amount": 23088.178,
-  "SaleId": 37,
-  "Earning": 20574.71,
-  "EarningPercent": 27864.394,
-  "Heading": "neque",
-  "Number": "1432181",
-  "Probability": 382,
-  "CreatedDate": "2024-05-04T03:40:47.6254619+02:00",
-  "UpdatedDate": "2010-02-12T03:40:47.6254619+01:00",
+  "Saledate": "2018-01-31T02:30:47.7569437+01:00",
+  "Amount": 26294.26,
+  "SaleId": 999,
+  "Earning": 10523.972,
+  "EarningPercent": 23235.476,
+  "Heading": "consequatur",
+  "Number": "518281",
+  "Probability": 29,
+  "CreatedDate": "2017-12-28T02:30:47.7569437+01:00",
+  "UpdatedDate": "2002-02-08T02:30:47.7569437+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 235,
+  "ActiveLinks": 251,
   "Links": [
     {
-      "EntityName": "Hansen LLC",
-      "Id": 312,
-      "Description": "Exclusive leading edge protocol",
-      "ExtraInfo": "illo",
-      "LinkId": 882,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2013-06-23T03:40:47.6254619+02:00",
-  "Postit": "delectus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2013-12-20T03:40:47.6254619+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Auer, Roberts and Gottlieb",
-      "Comment": "tempore",
-      "StakeholderRoleId": 67,
-      "CountryId": 429,
-      "PersonId": 211,
-      "EmailDescription": "jessie.glover@wehner.uk",
-      "EmailId": 563,
-      "EmailAddress": "marilyne@mraz.biz",
-      "PhoneId": 841,
-      "ContactName": "Pacocha Group",
-      "ContactId": 610,
-      "SaleId": 108,
-      "Mrmrs": "sint",
-      "Firstname": "Amir",
-      "MiddleName": "Cruickshank, Carter and Wunsch",
-      "Lastname": "Marks",
-      "SaleStakeholderId": 365,
-      "Rank": 663,
-      "Phone": "526.870.0524 x840",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 978,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "praesentium"
-  },
-  "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "maxime"
-  },
-  "PublishEventDate": "2018-10-22T03:40:47.6254619+02:00",
-  "PublishTo": "2024-01-02T03:40:47.6254619+01:00",
-  "PublishFrom": "2016-02-13T03:40:47.6254619+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 458,
-      "Visibility": "All",
-      "DisplayValue": "rerum",
+      "EntityName": "Kiehn, Gusikowski and O'Hara",
+      "Id": 327,
+      "Description": "De-engineered neutral forecast",
+      "ExtraInfo": "iure",
+      "LinkId": 187,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldLength": 902
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2005-07-09T02:30:47.7569437+02:00",
+  "Postit": "eveniet",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2022-12-01T02:30:47.7569437+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Lemke-Lubowitz",
+      "Comment": "maiores",
+      "StakeholderRoleId": 749,
+      "CountryId": 333,
+      "PersonId": 100,
+      "EmailDescription": "alexie@bode.uk",
+      "EmailId": 470,
+      "EmailAddress": "wilma@satterfieldhuel.name",
+      "PhoneId": 1002,
+      "ContactName": "Jewess-Bartell",
+      "ContactId": 6,
+      "SaleId": 49,
+      "Mrmrs": "est",
+      "Firstname": "Michel",
+      "MiddleName": "Miller, Mitchell and Herzog",
+      "Lastname": "Sauer",
+      "SaleStakeholderId": 575,
+      "Rank": 60,
+      "Phone": "(569)724-5476",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 959
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 410,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Paris Parisian",
+    "SuperOffice:2": "Forrest Walker"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "unde",
+    "ExtraFields2": "a"
+  },
+  "CustomFields": {
+    "CustomFields1": "incidunt",
+    "CustomFields2": "in"
+  },
+  "PublishEventDate": "2007-08-31T02:30:47.7569437+02:00",
+  "PublishTo": "2024-11-15T02:30:47.7569437+01:00",
+  "PublishFrom": "2016-08-12T02:30:47.7569437+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 609,
+      "Visibility": "All",
+      "DisplayValue": "culpa",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     },
     {
-      "VisibleId": 458,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

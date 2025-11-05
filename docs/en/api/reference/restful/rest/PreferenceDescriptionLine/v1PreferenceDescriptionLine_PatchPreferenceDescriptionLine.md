@@ -115,18 +115,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -139,18 +139,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 229,
-  "PrefDescId": 502,
-  "PrefValue": "autem",
-  "PrefShowValue": "aut",
-  "Description": "Future-proofed leading edge knowledge user",
+  "PrefDescLineId": 21,
+  "PrefDescId": 617,
+  "PrefValue": "omnis",
+  "PrefShowValue": "maxime",
+  "Description": "Fundamental multi-state challenge",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldLength": 682
     }
   },
   "_Links": {

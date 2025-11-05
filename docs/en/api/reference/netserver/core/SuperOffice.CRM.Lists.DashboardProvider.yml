@@ -38,6 +38,8 @@ items:
 
       [MDOAdditionalInfo("ExcludeIds", "Comma separated list of IDs to be omitted from the result", false)]
 
+      [MDOAdditionalInfo("IncludeFlowReport", "Include the Flow Report dashboard", false)]
+
       public class DashboardProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("Dashboard")>
@@ -49,6 +51,8 @@ items:
       <MDOAdditionalInfo("CanUpdate", "Only return dashboards you are allowed to update", False)>
 
       <MDOAdditionalInfo("ExcludeIds", "Comma separated list of IDs to be omitted from the result", False)>
+
+      <MDOAdditionalInfo("IncludeFlowReport", "Include the Flow Report dashboard", False)>
 
       Public Class DashboardProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -126,6 +130,15 @@ items:
       value: ExcludeIds
     - type: System.String
       value: Comma separated list of IDs to be omitted from the result
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: IncludeFlowReport
+    - type: System.String
+      value: Include the Flow Report dashboard
     - type: System.Boolean
       value: false
 - uid: SuperOffice.CRM.Lists.DashboardProvider.ProviderName

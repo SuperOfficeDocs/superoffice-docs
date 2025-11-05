@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Monahan-Dach",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "UdListDefinitionId": 929,
-  "Rank": 358
+  "Id": 945,
+  "Name": "Lueilwitz LLC",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "UdListDefinitionId": 839,
+  "Rank": 661
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Name": "Barton, Kovacek and Reichel",
-  "Tooltip": "adipisci",
+  "Id": 142,
+  "Name": "Haag Group",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 117,
-  "Rank": 807,
+  "UdListDefinitionId": 862,
+  "Rank": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

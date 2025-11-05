@@ -151,6 +151,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtTable
   - SuperOffice.CRM.Data.DBC.ExternalDocument
   - SuperOffice.CRM.Data.DBC.ExternalEvent
+  - SuperOffice.CRM.Data.DBC.ExternalOwner
   - SuperOffice.CRM.Data.DBC.ExtraFields
   - SuperOffice.CRM.Data.DBC.ExtraMenus
   - SuperOffice.CRM.Data.DBC.ExtraTables
@@ -10733,6 +10734,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const QuickFilterInfo As String = "quick_filter_info"
+- uid: SuperOffice.CRM.Data.DBC.ExternalOwner
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalOwner
+  id: ExternalOwner
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: ExternalOwner
+  nameWithType: DBC.ExternalOwner
+  fullName: SuperOffice.CRM.Data.DBC.ExternalOwner
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ExternalOwner: Owner of external data imported into the system'
+  example: []
+  syntax:
+    content: public const string ExternalOwner = "external_owner"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalOwner As String = "external_owner"
 - uid: SuperOffice.CRM.Data.DBC.Form
   commentId: F:SuperOffice.CRM.Data.DBC.Form
   id: Form

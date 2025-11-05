@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 288,
-  "Name": "Mraz, Swaniawski and Schmitt",
-  "Rank": 418,
-  "Tooltip": "quod",
+  "ResourceId": 673,
+  "Name": "Ziemann-Strosin",
+  "Rank": 81,
+  "Tooltip": "perferendis",
   "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "aliquid",
+  "IsLocation": true,
+  "LocationAddress": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldLength": 778
     }
   }
 }

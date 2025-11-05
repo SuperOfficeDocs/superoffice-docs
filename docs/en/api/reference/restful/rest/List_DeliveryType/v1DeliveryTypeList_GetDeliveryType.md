@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Borer Inc and Sons",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 299,
-  "Rank": 928,
+  "Id": 920,
+  "Name": "Bayer-Runte",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 148,
+  "Rank": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

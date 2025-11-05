@@ -97,22 +97,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 777,
-  "Name": "Schroeder Inc and Sons",
+  "ScreenChooserId": 894,
+  "Name": "Boehm-Altenwerth",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "vel",
-  "Source": "aperiam",
-  "Registered": "2011-08-30T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 761,
-  "Updated": "2025-04-17T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 117,
+  "Enabled": true,
+  "UniqueIdentifier": "magni",
+  "Source": "itaque",
+  "Registered": "2013-02-06T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 414,
+  "Updated": "2002-08-28T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   },
   "_Links": {

@@ -28,7 +28,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 753,
-    "Name": "Jenkins-Cummings",
-    "CurrencyId": 45,
-    "EnglishName": "Funk, Boehm and Fay",
+    "CountryId": 442,
+    "Name": "Bogan-Anderson",
+    "CurrencyId": 535,
+    "EnglishName": "Conroy Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Fundamental optimizing superstructure",
-    "OrgNrText": "1349027",
-    "InterAreaPrefix": "cupiditate",
-    "DialInPrefix": "fuga",
-    "ZipPrefix": "nam",
-    "DomainName": "Fisher, Gulgowski and Lynch",
-    "AddressLayoutId": 784,
-    "DomesticAddressLayoutId": 737,
-    "ForeignAddressLayoutId": 593,
-    "Rank": 564,
-    "Tooltip": "hic",
+    "ImageDescription": "Inverse full-range budgetary management",
+    "OrgNrText": "1359944",
+    "InterAreaPrefix": "qui",
+    "DialInPrefix": "quidem",
+    "ZipPrefix": "illo",
+    "DomainName": "Lynch, Hansen and Zboncak",
+    "AddressLayoutId": 951,
+    "DomesticAddressLayoutId": 770,
+    "ForeignAddressLayoutId": 123,
+    "Rank": 38,
+    "Tooltip": "autem",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 392
       }
     }
   }

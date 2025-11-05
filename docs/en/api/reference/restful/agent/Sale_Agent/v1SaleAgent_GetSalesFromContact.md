@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 608,
+  "ContactId": 805,
   "OnlyOpenSales": false
 }
 ```
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gaylord, Torp and Bins",
-    "SaleDate": "2014-08-10T03:40:47.6723407+02:00",
-    "SaleId": 245,
-    "Probability": 829,
-    "Title": "nemo",
-    "Amount": 20841.1,
-    "Currency": "qui",
-    "ProjectName": "Lowe, Huels and Dach",
-    "AssociateFullName": "Trevor Nikolaus IV",
-    "Description": "Multi-lateral context-sensitive toolset",
+    "ContactName": "Jaskolski, Dooley and Kunze",
+    "SaleDate": "2005-03-25T02:30:47.7881925+01:00",
+    "SaleId": 342,
+    "Probability": 169,
+    "Title": "officiis",
+    "Amount": 24592.498,
+    "Currency": "mollitia",
+    "ProjectName": "Fisher Group",
+    "AssociateFullName": "Abagail Gibson",
+    "Description": "Ergonomic object-oriented open system",
     "Status": "Lost",
-    "WeightedAmount": 7813.062,
-    "ProjectId": 993,
-    "EarningPercent": 29957.906,
-    "Earning": 8066.916,
-    "ContactId": 846,
-    "AssociateId": 864,
-    "PersonId": 455,
-    "SaleTypeId": 889,
-    "SaleTypeName": "Zulauf, Raynor and Lehner",
-    "PersonFullName": "Prof. Macey Parker",
+    "WeightedAmount": 30851.095999999998,
+    "ProjectId": 173,
+    "EarningPercent": 19954.178,
+    "Earning": 11843.386,
+    "ContactId": 491,
+    "AssociateId": 469,
+    "PersonId": 93,
+    "SaleTypeId": 993,
+    "SaleTypeName": "Auer-Kub",
+    "PersonFullName": "Miss Ciara Jast",
     "Completed": "Completed",
-    "ActiveErpLinks": 721,
-    "NextDueDate": "2003-10-12T03:40:47.6723407+02:00",
-    "Number": "1037535",
+    "ActiveErpLinks": 447,
+    "NextDueDate": "2021-01-16T02:30:47.7881925+01:00",
+    "Number": "1581301",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 519
       }
     }
   }

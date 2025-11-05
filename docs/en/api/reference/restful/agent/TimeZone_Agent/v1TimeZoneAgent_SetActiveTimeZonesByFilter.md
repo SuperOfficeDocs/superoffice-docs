@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "nesciunt",
-  "Active": false
+  "Filter": "sequi",
+  "Active": true
 }
 ```
 

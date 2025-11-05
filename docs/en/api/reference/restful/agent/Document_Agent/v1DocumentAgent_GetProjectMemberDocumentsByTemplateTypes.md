@@ -100,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 874,
-  "StartTime": "2024-09-08T03:40:46.5936381+02:00",
-  "EndTime": "2023-03-19T03:40:46.5936381+01:00",
-  "Count": 745,
+  "PersonId": 81,
+  "StartTime": "2016-08-04T02:30:47.0850878+02:00",
+  "EndTime": "2002-10-17T02:30:47.0850878+02:00",
+  "Count": 368,
   "DocumentTemplateIds": [
-    857,
-    851
+    146,
+    661
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 539,
-    "Attention": "nesciunt",
-    "Header": "quam",
-    "Name": "Buckridge, Huels and King",
-    "OurRef": "sequi",
-    "YourRef": "quis",
-    "Description": "Team-oriented stable interface",
-    "DocumentTemplate": "doloremque",
-    "IsPublished": true,
-    "PersonId": 477,
-    "PersonFullName": "Mrs. Kameron Katelynn Dietrich",
-    "AssociateFullName": "Dr. Rocky Ciara Walsh",
-    "ContactId": 846,
-    "ContactName": "Wilderman, Gerhold and Klocko",
-    "ProjectId": 514,
-    "ProjectName": "West, Dietrich and Bartell",
-    "AssociateId": 734,
-    "Snum": 872,
-    "SaleId": 3,
-    "SaleName": "Jaskolski Inc and Sons",
+    "DocumentId": 242,
+    "Attention": "eum",
+    "Header": "necessitatibus",
+    "Name": "Bashirian LLC",
+    "OurRef": "neque",
+    "YourRef": "voluptas",
+    "Description": "Optimized radical algorithm",
+    "DocumentTemplate": "est",
+    "IsPublished": false,
+    "PersonId": 850,
+    "PersonFullName": "Rodger Jenkins",
+    "AssociateFullName": "Charlie Lind PhD",
+    "ContactId": 367,
+    "ContactName": "Toy-Beier",
+    "ProjectId": 469,
+    "ProjectName": "Marvin, Gutmann and Hilll",
+    "AssociateId": 495,
+    "Snum": 52,
+    "SaleId": 551,
+    "SaleName": "Turner, Hamill and Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 192
       }
     }
   }

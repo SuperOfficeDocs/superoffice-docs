@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 569,
-  "Name": "Nolan Group",
-  "Tooltip": "quis",
-  "Rank": 131,
-  "Rate": 4835.762,
-  "Units": 7797.392,
-  "Deleted": true,
+  "CurrencyId": 654,
+  "Name": "Farrell, Wintheiser and Ward",
+  "Tooltip": "facere",
+  "Rank": 237,
+  "Rate": 12235.136,
+  "Units": 4920.38,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

@@ -77,7 +77,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Product?$select=erpProductKey,productFamilyKey,updatedBy
+GET /api/v1/archive/Product?$select=vatInfo,cost,priceList/validTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

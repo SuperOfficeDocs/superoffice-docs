@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 59.546,
-  "FromCurrency": "commodi",
-  "ToCurrency": "voluptas"
+  "Amount": 11301.204,
+  "FromCurrency": "consequuntur",
+  "ToCurrency": "magni"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-15099.612
+21536.847999999998
 ```

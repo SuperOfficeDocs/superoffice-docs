@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Willms-Fay",
-    "ToolTip": "Sapiente in suscipit qui aut.",
+    "Id": 346,
+    "Name": "Heaney-Morissette",
+    "ToolTip": "Dignissimos id non esse quisquam accusamus.",
     "Deleted": true,
-    "Rank": 813,
-    "Type": "esse",
-    "ColorBlock": 811,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2020-12-10T03:40:57.0246001+01:00",
+    "Rank": 369,
+    "Type": "repellendus",
+    "ColorBlock": 28,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2025-03-18T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Grant, Walsh and Wiza",
-        "ToolTip": "Explicabo tempore sint vel ut autem.",
-        "Deleted": false,
-        "Rank": 505,
-        "Type": "est",
-        "ColorBlock": 410,
-        "IconHint": "nobis",
+        "Id": 290,
+        "Name": "Berge Inc and Sons",
+        "ToolTip": "Praesentium et et fuga enim quia.",
+        "Deleted": true,
+        "Rank": 814,
+        "Type": "cupiditate",
+        "ColorBlock": 795,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2010-11-30T03:40:57.0246001+01:00",
+        "LastChanged": "2024-08-15T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Sasha Shanahan"
+        "ExtraInfo": "quidem",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Ms. Tate Richie Mann"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Shayne Ward"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Brett Franco Lebsack DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Keebler-Hauck",
-    "ToolTip": "Sit impedit qui id quia omnis porro fugiat.",
+    "Id": 255,
+    "Name": "Murray-Koepp",
+    "ToolTip": "Inventore illum non et omnis modi eos placeat.",
     "Deleted": false,
-    "Rank": 202,
-    "Type": "aperiam",
-    "ColorBlock": 678,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "2001-02-01T03:40:57.0246001+01:00",
+    "Rank": 148,
+    "Type": "ratione",
+    "ColorBlock": 59,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2003-02-04T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Gusikowski-Padberg",
-        "ToolTip": "Eum est culpa aut libero nemo aspernatur laborum.",
+        "Id": 299,
+        "Name": "Tremblay, Abbott and Predovic",
+        "ToolTip": "Ipsam numquam et.",
         "Deleted": false,
-        "Rank": 87,
-        "Type": "illo",
-        "ColorBlock": 712,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2010-01-21T03:40:57.0246001+01:00",
+        "Rank": 553,
+        "Type": "et",
+        "ColorBlock": 129,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "1998-08-26T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Theodora Miller",
+        "ExtraInfo": "nihil",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Blanca Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 329
+            "FieldType": "System.Int32",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "officia",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Prof. Jon Chance Lesch III",
+    "FullName": "Wallace Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 965
       }
     }
   }

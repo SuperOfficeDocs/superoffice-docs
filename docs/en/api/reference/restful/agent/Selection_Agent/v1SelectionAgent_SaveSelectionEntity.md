@@ -146,60 +146,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized multi-tasking parallelism",
-  "Postit": "et",
+  "Description": "Total content-based leverage",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 323,
-  "IncludePerson": 21,
+  "GroupIdx": 109,
+  "IncludePerson": 696,
   "MemberCount": 99.99,
-  "Name": "Brekke Inc and Sons",
-  "PostitTextId": 674,
-  "CreatedDate": "2019-05-16T03:40:47.7035926+02:00",
-  "SelectionId": 994,
-  "SoundEx": "et",
-  "Source": 365,
-  "TextId": 508,
-  "UpdatedDate": "2006-10-15T03:40:47.7035926+02:00",
-  "UpdatedCount": 873,
-  "Visibility": 276,
+  "Name": "Littel-Ward",
+  "PostitTextId": 620,
+  "CreatedDate": "2020-10-03T02:30:47.8038176+02:00",
+  "SelectionId": 351,
+  "SoundEx": "consectetur",
+  "Source": 424,
+  "TextId": 880,
+  "UpdatedDate": "2011-10-11T02:30:47.8038176+02:00",
+  "UpdatedCount": 900,
+  "Visibility": 393,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 190,
-  "TargetTableName": "Koelpin, Welch and Wolf",
-  "Completed": true,
-  "LeftSelectionId": 426,
-  "RightSelectionId": 597,
+  "TargetTableNumber": 56,
+  "TargetTableName": "Breitenberg Group",
+  "Completed": false,
+  "LeftSelectionId": 535,
+  "RightSelectionId": 195,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zboncak Inc and Sons",
-  "ShadowProviderName": "Boehm LLC",
-  "ChartKey": "minima",
-  "LastLoaded": "2002-11-01T03:40:47.7035926+01:00",
-  "LastLoadedBy": 45,
+  "MainProviderName": "Terry-O'Reilly",
+  "ShadowProviderName": "Muller, Price and Doyle",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2021-10-14T02:30:47.8038176+02:00",
+  "LastLoadedBy": 532,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-02-15T03:40:47.7035926+01:00",
-  "LastMembershipChangeBy": 175,
+  "LastMembershipChange": "2011-06-09T02:30:47.8038176+02:00",
+  "LastMembershipChangeBy": 307,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "expedita",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Hackett Group",
-  "DashboardTileDefinitionId": 821,
+  "MainHeading": "corrupti",
+  "MemberTabHeading": "explicabo",
+  "MailingsProviderName": "Ziemann, Hoeger and Leuschke",
+  "DashboardTileDefinitionId": 407,
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "quis"
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "quis"
     }
   ]
 }
@@ -212,70 +212,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed actuating concept",
-  "Postit": "praesentium",
+  "Description": "Stand-alone maximized portal",
+  "Postit": "consequuntur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 190,
-  "IncludePerson": 919,
+  "GroupIdx": 490,
+  "IncludePerson": 341,
   "MemberCount": 99.99,
-  "Name": "Lubowitz, Denesik and Waelchi",
-  "PostitTextId": 902,
-  "CreatedDate": "2006-10-03T03:40:47.7035926+02:00",
-  "SelectionId": 732,
-  "SoundEx": "nulla",
-  "Source": 477,
-  "TextId": 670,
-  "UpdatedDate": "2010-02-02T03:40:47.7035926+01:00",
-  "UpdatedCount": 740,
-  "Visibility": 943,
+  "Name": "Blick, Schmidt and Marks",
+  "PostitTextId": 153,
+  "CreatedDate": "2021-07-11T02:30:47.8038176+02:00",
+  "SelectionId": 494,
+  "SoundEx": "optio",
+  "Source": 894,
+  "TextId": 212,
+  "UpdatedDate": "2020-08-17T02:30:47.8038176+02:00",
+  "UpdatedCount": 976,
+  "Visibility": 299,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 798,
-  "TargetTableName": "Schultz Group",
+  "TargetTableNumber": 700,
+  "TargetTableName": "Conroy, Roob and Schinner",
   "Completed": false,
-  "LeftSelectionId": 802,
-  "RightSelectionId": 580,
+  "LeftSelectionId": 817,
+  "RightSelectionId": 163,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Senger Group",
-  "ShadowProviderName": "Mitchell-Reichert",
-  "ChartKey": "eum",
-  "LastLoaded": "2007-04-18T03:40:47.7035926+02:00",
-  "LastLoadedBy": 801,
+  "MainProviderName": "Kuhic, Gerhold and Schiller",
+  "ShadowProviderName": "Schimmel, Bode and Parisian",
+  "ChartKey": "hic",
+  "LastLoaded": "2014-10-13T02:30:47.8038176+02:00",
+  "LastLoadedBy": 99,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-09-23T03:40:47.7035926+02:00",
-  "LastMembershipChangeBy": 30,
+  "LastMembershipChange": "2020-11-04T02:30:47.8038176+01:00",
+  "LastMembershipChangeBy": 258,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eligendi",
-  "MemberTabHeading": "tenetur",
-  "MailingsProviderName": "Strosin-Green",
-  "DashboardTileDefinitionId": 103,
+  "MainHeading": "est",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Orn LLC",
+  "DashboardTileDefinitionId": 325,
   "VisibleFor": [
     {
-      "VisibleId": 790,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 268
+          "FieldType": "System.Int32",
+          "FieldLength": 49
         }
       }
     },
     {
-      "VisibleId": 790,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 268
+          "FieldType": "System.Int32",
+          "FieldLength": 49
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldLength": 11
     }
   }
 }

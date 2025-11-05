@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   }
 ]
@@ -141,12 +141,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 349,
-  "Name": "Larson, Grady and Bins",
-  "Tooltip": "reiciendis",
-  "PassiveText": "id",
+  "ReldefId": 602,
+  "Name": "Dicki, Ratke and Boyle",
+  "Tooltip": "omnis",
+  "PassiveText": "ut",
   "Deleted": false,
-  "Rank": 177,
+  "Rank": 490,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 614
     }
   },
   "_Links": {

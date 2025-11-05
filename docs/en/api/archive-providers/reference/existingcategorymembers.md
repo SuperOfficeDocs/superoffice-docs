@@ -52,7 +52,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 |assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |ejUserId|int|Service user ID: The database ID of a Service user|  |
 |simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ejDisplayName|string|Nick name: User's nick name in Service| x |
+|ejDisplayName|string|Nickname: User's nickname in Service| x |
 |ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -68,7 +68,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=getAllRows,personId,usergroupId
+GET /api/v1/archive/ExistingCategoryMembers?$select=usergroup,personId,usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

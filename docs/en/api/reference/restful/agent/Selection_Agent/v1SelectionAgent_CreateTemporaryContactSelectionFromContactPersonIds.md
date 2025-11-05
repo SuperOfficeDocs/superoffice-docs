@@ -116,18 +116,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 998,
-      "ContactId": 384
+      "PersonId": 328,
+      "ContactId": 997
     },
     {
-      "PersonId": 998,
-      "ContactId": 384
+      "PersonId": 328,
+      "ContactId": 997
     }
   ]
 }
@@ -140,70 +140,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source multi-tasking ability",
-  "Postit": "commodi",
+  "Description": "Optimized cohesive contingency",
+  "Postit": "corporis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 211,
-  "IncludePerson": 693,
+  "GroupIdx": 222,
+  "IncludePerson": 774,
   "MemberCount": 99.99,
-  "Name": "Bechtelar Inc and Sons",
-  "PostitTextId": 72,
-  "CreatedDate": "2007-06-30T03:40:47.7348444+02:00",
-  "SelectionId": 903,
-  "SoundEx": "est",
-  "Source": 669,
-  "TextId": 862,
-  "UpdatedDate": "2023-10-24T03:40:47.7348444+02:00",
-  "UpdatedCount": 301,
-  "Visibility": 586,
+  "Name": "Tremblay Inc and Sons",
+  "PostitTextId": 132,
+  "CreatedDate": "2004-08-21T02:30:47.819441+02:00",
+  "SelectionId": 90,
+  "SoundEx": "placeat",
+  "Source": 471,
+  "TextId": 793,
+  "UpdatedDate": "2019-05-23T02:30:47.819441+02:00",
+  "UpdatedCount": 581,
+  "Visibility": 927,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 383,
-  "TargetTableName": "Howell Group",
-  "Completed": true,
-  "LeftSelectionId": 63,
-  "RightSelectionId": 63,
+  "CompanyUnique": true,
+  "TargetTableNumber": 655,
+  "TargetTableName": "Marquardt Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 907,
+  "RightSelectionId": 708,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pacocha LLC",
-  "ShadowProviderName": "Fay-Weimann",
-  "ChartKey": "odit",
-  "LastLoaded": "2010-06-28T03:40:47.7348444+02:00",
-  "LastLoadedBy": 788,
+  "MainProviderName": "Bartell Inc and Sons",
+  "ShadowProviderName": "Crooks Group",
+  "ChartKey": "illo",
+  "LastLoaded": "2010-09-25T02:30:47.819441+02:00",
+  "LastLoadedBy": 689,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-04-06T03:40:47.7348444+02:00",
-  "LastMembershipChangeBy": 307,
+  "LastMembershipChange": "1998-09-13T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 873,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "accusantium",
-  "MailingsProviderName": "Bergstrom, Pagac and Breitenberg",
-  "DashboardTileDefinitionId": 269,
+  "MainHeading": "perspiciatis",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Larson-Schiller",
+  "DashboardTileDefinitionId": 912,
   "VisibleFor": [
     {
-      "VisibleId": 548,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 723
         }
       }
     },
     {
-      "VisibleId": 548,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 723
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 330
     }
   }
 }

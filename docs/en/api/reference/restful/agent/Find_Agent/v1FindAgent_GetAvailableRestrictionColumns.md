@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Rodriguez, Conn and Boyle"
+  "StorageType": "alias",
+  "ProviderName": "Koss Group"
 }
 ```
 
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "placeat",
-  "perspiciatis"
+  "tempora",
+  "et"
 ]
 ```

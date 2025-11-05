@@ -90,22 +90,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 979,
-  "Name": "Gibson Group",
-  "ConsentText": "tempora",
-  "FormText": "commodi",
-  "Key": "laboriosam",
-  "Tooltip": "illo",
-  "Active": 339,
-  "UpdatedDate": "2023-10-31T03:40:56.743228+01:00",
+  "ConsentPurposeId": 661,
+  "Name": "Windler-Effertz",
+  "ConsentText": "libero",
+  "FormText": "quas",
+  "Key": "aut",
+  "Tooltip": "non",
+  "Active": 126,
+  "UpdatedDate": "2020-06-03T02:30:53.2255171+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 689,
-  "PrivacyStatementDesc": "omnis",
+  "Deleted": true,
+  "Rank": 811,
+  "PrivacyStatementDesc": "rem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -117,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 932,
-  "Name": "Larkin Group",
-  "ConsentText": "ipsum",
-  "FormText": "occaecati",
-  "Key": "reiciendis",
-  "Tooltip": "incidunt",
-  "Active": 964,
-  "UpdatedDate": "2012-03-03T03:40:56.743228+01:00",
+  "ConsentPurposeId": 500,
+  "Name": "Eichmann, Gulgowski and Hammes",
+  "ConsentText": "impedit",
+  "FormText": "voluptas",
+  "Key": "quia",
+  "Tooltip": "facere",
+  "Active": 782,
+  "UpdatedDate": "2019-10-25T02:30:53.2255171+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 732,
-  "PrivacyStatementDesc": "pariatur",
+  "Deleted": false,
+  "Rank": 16,
+  "PrivacyStatementDesc": "expedita",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

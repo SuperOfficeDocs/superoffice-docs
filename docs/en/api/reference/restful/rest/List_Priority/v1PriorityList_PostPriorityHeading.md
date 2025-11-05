@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 802,
-  "Name": "Buckridge-Maggio",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 132,
-  "UdListDefinitionId": 737
+  "HeadingId": 364,
+  "Name": "Reinger LLC",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 558,
+  "UdListDefinitionId": 259
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Eichmann-Ernser",
-  "Tooltip": "vel",
+  "HeadingId": 777,
+  "Name": "Bahringer-Mosciski",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 767,
-  "UdListDefinitionId": 301,
+  "Rank": 102,
+  "UdListDefinitionId": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

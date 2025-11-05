@@ -68,11 +68,11 @@ No Content
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated bottom-line encryption",
+  "Description": "Fully-configurable value-added customer loyalty",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

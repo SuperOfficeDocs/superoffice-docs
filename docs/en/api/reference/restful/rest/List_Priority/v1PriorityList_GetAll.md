@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Zulauf-Rohan",
-    "Tooltip": "asperiores",
+    "Id": 246,
+    "Name": "Rolfson Group",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 15,
-    "Rank": 896,
+    "UdListDefinitionId": 281,
+    "Rank": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldLength": 692
       }
     }
   }

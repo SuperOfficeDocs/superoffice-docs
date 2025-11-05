@@ -27,8 +27,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=architecto
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=harum
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Koepp, Zieme and Ernser",
-    "ToolTip": "Ut maxime commodi vitae eum voluptatem.",
+    "Id": 805,
+    "Name": "Stokes, Kertzmann and Graham",
+    "ToolTip": "Voluptas nam accusamus ab quo praesentium aut dolor.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "quos",
+    "Rank": 552,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Reichel, Carter and Kunde",
-        "ToolTip": "Est reiciendis aut deleniti non magni.",
-        "Deleted": false,
-        "Rank": 295,
-        "Type": "id",
+        "Id": 312,
+        "Name": "Ebert Inc and Sons",
+        "ToolTip": "Dicta odio soluta libero ut.",
+        "Deleted": true,
+        "Rank": 551,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 125,
-        "ExtraInfo": "earum",
-        "StyleHint": "sed",
-        "FullName": "Emile Wiza",
+        "IconHint": "sunt",
+        "ColorBlock": 780,
+        "ExtraInfo": "ea",
+        "StyleHint": "est",
+        "FullName": "Monserrate Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 49
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 703,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "id",
-    "FullName": "Otho Howe",
+    "IconHint": "eaque",
+    "ColorBlock": 756,
+    "ExtraInfo": "aliquam",
+    "StyleHint": "et",
+    "FullName": "Ms. Carmen Elena Considine MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

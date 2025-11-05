@@ -90,20 +90,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "temporibus",
-  "Name": "Veum-Adams",
-  "Description": "Advanced eco-centric neural-net",
+  "UniqueIdentifier": "id",
+  "Name": "Cummerata-O'Hara",
+  "Description": "Grass-roots optimal task-force",
   "IncludeId": "iste",
-  "Source": "nostrum",
-  "Registered": "2010-08-20T03:40:56.5088462+02:00",
-  "RegisteredBy": "sint",
-  "Updated": "2001-12-30T03:40:56.5088462+01:00",
-  "UpdatedBy": "ut",
-  "Path": "nisi",
+  "Source": "officiis",
+  "Registered": "2016-05-30T02:30:53.084897+02:00",
+  "RegisteredBy": "facere",
+  "Updated": "2021-12-08T02:30:53.084897+01:00",
+  "UpdatedBy": "omnis",
+  "Path": "nihil",
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -115,23 +115,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "expedita",
-  "Name": "Ritchie-Gerlach",
-  "Description": "Synchronised incremental array",
-  "IncludeId": "et",
-  "Source": "voluptas",
-  "Registered": "2008-01-29T03:40:56.5088462+01:00",
-  "RegisteredBy": "velit",
-  "Updated": "2022-04-05T03:40:56.5088462+02:00",
-  "UpdatedBy": "veritatis",
-  "Path": "ratione",
+  "UniqueIdentifier": "sapiente",
+  "Name": "Yundt, Mraz and Hermann",
+  "Description": "Polarised mission-critical utilisation",
+  "IncludeId": "impedit",
+  "Source": "quia",
+  "Registered": "2023-12-21T02:30:53.084897+01:00",
+  "RegisteredBy": "provident",
+  "Updated": "2010-03-02T02:30:53.084897+01:00",
+  "UpdatedBy": "consequatur",
+  "Path": "eum",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 482
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Veum, Jacobs and Hoppe",
-  "Tooltip": "rem",
+  "Id": 525,
+  "Name": "Boyle, Bechtelar and Witting",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 92,
-  "Rank": 80
+  "UdListDefinitionId": 642,
+  "Rank": 663
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Cormier, Ullrich and Upton",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 827,
-  "Rank": 437,
+  "Id": 283,
+  "Name": "Braun, Lubowitz and Rau",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "UdListDefinitionId": 127,
+  "Rank": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 603
     }
   }
 }

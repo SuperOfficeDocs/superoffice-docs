@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Mosciski Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 187,
-    "UdListDefinitionId": 159,
+    "HeadingId": 617,
+    "Name": "Padberg Inc and Sons",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "Rank": 7,
+    "UdListDefinitionId": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldType": "System.Int32",
+        "FieldLength": 679
       }
     }
   }

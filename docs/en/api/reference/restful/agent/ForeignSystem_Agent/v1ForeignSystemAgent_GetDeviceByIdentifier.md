@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Paucek Group",
-  "DeviceName": "Kirlin Inc and Sons",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Purdy, Walsh and Fisher",
+  "DeviceName": "Hills-Stiedemann",
+  "DeviceIdentifier": "illo"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 688,
-  "Name": "Stiedemann Group",
-  "CreatedDate": "1999-02-02T03:40:46.9842779+01:00",
-  "UpdatedDate": "2010-05-26T03:40:46.9842779+02:00",
-  "AssociateFullName": "Horacio Schuppe",
-  "CreatedBy": "ducimus",
-  "UpdatedBy": "consequuntur",
-  "DeviceIdentifier": "eveniet",
-  "ForeignAppId": 536,
+  "ForeignDeviceId": 801,
+  "Name": "Kessler, Flatley and Beatty",
+  "CreatedDate": "2007-04-21T02:30:47.366331+02:00",
+  "UpdatedDate": "2021-03-17T02:30:47.366331+01:00",
+  "AssociateFullName": "Casper Runolfsson",
+  "CreatedBy": "expedita",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "aliquid",
+  "ForeignAppId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 505
     }
   }
 }

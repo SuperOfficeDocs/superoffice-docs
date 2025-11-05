@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 501,
-  "Name": "Wyman Group",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "UdListDefinitionId": 716,
-  "Rank": 389,
+  "Id": 636,
+  "Name": "Brakus-Nicolas",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 660,
+  "Rank": 83,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 598
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 979,
-  "Name": "Wilkinson, Walter and Ullrich",
-  "CreatedDate": "2018-12-29T03:40:55.7569215+01:00",
-  "UpdatedDate": "2004-12-18T03:40:55.7569215+01:00",
+  "ForeignAppId": 168,
+  "Name": "Rodriguez Group",
+  "CreatedDate": "2001-11-16T02:30:52.631787+01:00",
+  "UpdatedDate": "2003-10-14T02:30:52.631787+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 130,
-      "Name": "Thiel-Aufderhar",
-      "CreatedDate": "2006-09-21T03:40:55.7569215+02:00",
-      "UpdatedDate": "2010-05-21T03:40:55.7569215+02:00",
-      "AssociateFullName": "Jamey Schmitt",
-      "CreatedBy": "quae",
-      "UpdatedBy": "reiciendis",
-      "DeviceIdentifier": "quaerat",
-      "ForeignAppId": 845,
+      "ForeignDeviceId": 45,
+      "Name": "Gutkowski Inc and Sons",
+      "CreatedDate": "2007-03-08T02:30:52.6474115+01:00",
+      "UpdatedDate": "2012-02-13T02:30:52.6474115+01:00",
+      "AssociateFullName": "Ofelia Mills",
+      "CreatedBy": "sint",
+      "UpdatedBy": "quidem",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 430,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 314
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

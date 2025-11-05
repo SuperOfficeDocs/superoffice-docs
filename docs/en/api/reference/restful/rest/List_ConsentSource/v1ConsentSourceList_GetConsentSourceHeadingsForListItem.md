@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Huel Inc and Sons",
-    "ToolTip": "Sequi quo neque nesciunt corporis.",
+    "Id": 984,
+    "Name": "Hagenes, Wilderman and Hirthe",
+    "ToolTip": "Sequi facilis quaerat autem.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "molestiae",
-    "ColorBlock": 698,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2015-04-05T03:40:56.7588542+02:00",
+    "Rank": 624,
+    "Type": "delectus",
+    "ColorBlock": 819,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2005-01-27T02:30:53.2411414+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Erdman-Goldner",
-        "ToolTip": "Enim nam dolorem sed sint accusamus.",
+        "Id": 753,
+        "Name": "Ziemann-Bosco",
+        "ToolTip": "Iure aut dolor suscipit odit provident.",
         "Deleted": false,
-        "Rank": 978,
-        "Type": "qui",
-        "ColorBlock": 947,
-        "IconHint": "repellendus",
+        "Rank": 49,
+        "Type": "vero",
+        "ColorBlock": 105,
+        "IconHint": "reprehenderit",
         "Selected": true,
-        "LastChanged": "2005-04-07T03:40:56.7588542+02:00",
+        "LastChanged": "2023-05-21T02:30:53.2411414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "at",
+        "ExtraInfo": "dolor",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Maurine Braun",
+        "FullName": "Blanca Carmella Dietrich MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 717
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Mrs. Ned Considine",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Uriah Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

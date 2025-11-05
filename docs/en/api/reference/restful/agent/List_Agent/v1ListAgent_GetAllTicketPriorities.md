@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -119,60 +119,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 489,
-    "Name": "Weber, Braun and Sipes",
+    "TicketPriorityId": 840,
+    "Name": "Schoen LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 803,
+    "SortOrder": 983,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 743,
-    "MonStart": "2006-12-15T03:40:47.0311652+01:00",
-    "MonStop": "2008-06-02T03:40:47.0311652+02:00",
-    "TueStart": "1998-12-28T03:40:47.0311652+01:00",
-    "TueStop": "1998-11-16T03:40:47.0311652+01:00",
-    "WedStart": "2010-01-15T03:40:47.0311652+01:00",
-    "WedStop": "2000-06-22T03:40:47.0311652+02:00",
-    "ThuStart": "2013-12-07T03:40:47.0311652+01:00",
-    "ThuStop": "2011-12-19T03:40:47.0311652+01:00",
-    "FriStart": "2015-06-02T03:40:47.0311652+02:00",
-    "FriStop": "2003-06-20T03:40:47.0311652+02:00",
-    "SatStart": "2001-05-17T03:40:47.0311652+02:00",
-    "SatStop": "2019-12-02T03:40:47.0311652+01:00",
-    "SunStart": "2006-05-13T03:40:47.0311652+02:00",
-    "SunStop": "2021-07-31T03:40:47.0311652+02:00",
+    "Deadline": 635,
+    "MonStart": "2006-02-20T02:30:47.3819557+01:00",
+    "MonStop": "2019-04-03T02:30:47.3819557+02:00",
+    "TueStart": "2011-01-12T02:30:47.3819557+01:00",
+    "TueStop": "2009-03-25T02:30:47.3819557+01:00",
+    "WedStart": "2016-10-16T02:30:47.3819557+02:00",
+    "WedStop": "2008-06-17T02:30:47.3819557+02:00",
+    "ThuStart": "2002-03-07T02:30:47.3819557+01:00",
+    "ThuStop": "2013-10-25T02:30:47.3819557+02:00",
+    "FriStart": "2004-05-16T02:30:47.3819557+02:00",
+    "FriStop": "2024-07-22T02:30:47.3819557+02:00",
+    "SatStart": "2024-12-28T02:30:47.3819557+01:00",
+    "SatStop": "2011-12-19T02:30:47.3819557+01:00",
+    "SunStart": "2003-06-28T02:30:47.3819557+02:00",
+    "SunStop": "2018-01-02T02:30:47.3819557+01:00",
     "NonDates": [
-      "maiores",
-      "cumque"
+      "qui",
+      "sunt"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 554,
-        "AlertLevel": 124,
-        "AlertTimeout": 794,
-        "Action": 893,
-        "DelegateTo": 840,
-        "ScriptId": 343,
-        "EmailTo": "alysha.franecki@mcclure.info",
-        "SmsTo": "explicabo",
-        "ReplyTemplateIdCustomer": 959,
-        "ReplyTemplateIdUser": 224,
-        "ReplyTemplateIdCatmast": 779,
-        "ReplyTemplateIdEmail": 562,
-        "RtiCustomerSms": 555,
-        "ReplyTemplateIdUserSms": 622,
-        "ReplyTemplateIdCatmastSms": 152,
-        "ReplyTemplateIdSms": 114,
+        "TicketAlertId": 862,
+        "AlertLevel": 312,
+        "AlertTimeout": 237,
+        "Action": 354,
+        "DelegateTo": 366,
+        "ScriptId": 211,
+        "EmailTo": "jeffrey.hoeger@goyettelind.com",
+        "SmsTo": "quidem",
+        "ReplyTemplateIdCustomer": 714,
+        "ReplyTemplateIdUser": 978,
+        "ReplyTemplateIdCatmast": 407,
+        "ReplyTemplateIdEmail": 534,
+        "RtiCustomerSms": 763,
+        "ReplyTemplateIdUserSms": 645,
+        "ReplyTemplateIdCatmastSms": 650,
+        "ReplyTemplateIdSms": 15,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 503
+            "FieldType": "System.String",
+            "FieldLength": 348
           }
         }
       }
@@ -181,8 +181,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

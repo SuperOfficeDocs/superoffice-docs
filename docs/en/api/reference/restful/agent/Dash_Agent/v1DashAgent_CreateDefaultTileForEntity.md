@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Ankunding Group"
+  "EntityName": "Weissnat, Sawayn and Willms"
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 355,
-  "DashboardId": 523,
-  "Height": 33,
-  "Width": 245,
-  "Rank": 227,
+  "DashboardTileId": 209,
+  "DashboardId": 603,
+  "Height": 25,
+  "Width": 957,
+  "Rank": 623,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

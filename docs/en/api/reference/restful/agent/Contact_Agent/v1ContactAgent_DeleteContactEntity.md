@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | contactEntityId | int32 | **Required** The identity of the ContactEntity |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=656
+POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=30
 ```
 
 
@@ -60,7 +60,7 @@ No Content
 POST /api/v1/Agents/Contact/DeleteContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

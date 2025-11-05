@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 123,
-  "Server": "minima",
-  "Port": 427,
-  "AuthType": "sint",
-  "Username": "libero",
-  "Password": "et",
+  "ServiceAuthId": 568,
+  "Server": "iusto",
+  "Port": 875,
+  "AuthType": "reiciendis",
+  "Username": "nobis",
+  "Password": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

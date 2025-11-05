@@ -74,7 +74,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 847,
-    "Tooltip": "eos",
-    "CanAssign": false,
-    "Free": 644,
-    "InUse": 333,
+    "Total": 581,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 861,
+    "InUse": 993,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 49,
-    "Name": "Dickinson, Flatley and Runolfsdottir",
-    "Description": "Customizable clear-thinking software",
-    "PrerequisiteModuleName": "Hammes Inc and Sons",
-    "SortOrder": 940,
-    "ExtraFlags": 862,
+    "ModuleLicenseId": 669,
+    "Name": "Rau-Rice",
+    "Description": "Profound tertiary help-desk",
+    "PrerequisiteModuleName": "Langosh-Kulas",
+    "SortOrder": 107,
+    "ExtraFlags": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 204,
-  "MarkSaleAsSold": true,
-  "PoNumber": "825238",
-  "OrderComment": "vero",
-  "Culture": "dignissimos"
+  "QuoteAlternativeId": 839,
+  "MarkSaleAsSold": false,
+  "PoNumber": "1215070",
+  "OrderComment": "vitae",
+  "Culture": "eum"
 }
 ```
 
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "voluptatem",
-  "TechExplanation": "nemo",
-  "ErrorCode": "et",
+  "UserExplanation": "esse",
+  "TechExplanation": "voluptatem",
+  "ErrorCode": "amet",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 902
     }
   }
 }

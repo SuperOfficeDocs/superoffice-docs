@@ -84,7 +84,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 250,
-  "Name": "Schiller LLC",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 449,
+  "Id": 410,
+  "Name": "Weimann-Roberts",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 317,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   },
   "_Links": {

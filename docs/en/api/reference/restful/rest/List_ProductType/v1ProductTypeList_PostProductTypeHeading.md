@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 952,
-  "Name": "Kemmer LLC",
-  "Tooltip": "voluptatem",
+  "HeadingId": 522,
+  "Name": "Padberg, Rau and Dickinson",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 441,
-  "UdListDefinitionId": 426
+  "Rank": 595,
+  "UdListDefinitionId": 481
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 736,
-  "Name": "Block, Funk and Abernathy",
-  "Tooltip": "cupiditate",
+  "HeadingId": 886,
+  "Name": "Batz-Johns",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 876,
-  "UdListDefinitionId": 987,
+  "Rank": 692,
+  "UdListDefinitionId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

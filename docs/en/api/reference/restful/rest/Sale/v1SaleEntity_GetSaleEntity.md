@@ -129,7 +129,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 28 Jan 2022 03:40:56 G1T
+Last-Modified: Mon, 09 Dec 2019 02:30:52 G12T
 
 {
   "Appointment": null,
@@ -138,7 +138,7 @@ Last-Modified: Fri, 28 Jan 2022 03:40:56 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolores",
+  "SaleText": "suscipit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -147,113 +147,113 @@ Last-Modified: Fri, 28 Jan 2022 03:40:56 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-05-07T03:40:56.1324272+02:00",
-  "Amount": 17989.16,
-  "SaleId": 107,
-  "Earning": 12730.307999999999,
-  "EarningPercent": 27008.811999999998,
-  "Heading": "non",
-  "Number": "928839",
-  "Probability": 464,
-  "CreatedDate": "1998-11-05T03:40:56.1324272+01:00",
-  "UpdatedDate": "2022-01-28T03:40:56.1324272+01:00",
+  "Saledate": "2024-07-08T02:30:52.866154+02:00",
+  "Amount": 16083.688,
+  "SaleId": 345,
+  "Earning": 28992.634,
+  "EarningPercent": 24504.746,
+  "Heading": "vel",
+  "Number": "344770",
+  "Probability": 243,
+  "CreatedDate": "2019-11-28T02:30:52.866154+01:00",
+  "UpdatedDate": "2019-12-09T02:30:52.866154+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 513,
+  "ActiveLinks": 894,
   "Links": [
     {
-      "EntityName": "Kertzmann, Larkin and Rosenbaum",
-      "Id": 289,
-      "Description": "User-centric exuding project",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 29,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 885
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-11-16T03:40:56.1324272+01:00",
-  "Postit": "aut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2017-04-29T03:40:56.1324272+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Grant-Gerhold",
-      "Comment": "quasi",
-      "StakeholderRoleId": 918,
-      "CountryId": 322,
-      "PersonId": 410,
-      "EmailDescription": "kattie.tromp@steuber.uk",
-      "EmailId": 206,
-      "EmailAddress": "wyman@zulauf.co.uk",
-      "PhoneId": 709,
-      "ContactName": "Heller, Oberbrunner and Douglas",
-      "ContactId": 138,
-      "SaleId": 381,
-      "Mrmrs": "optio",
-      "Firstname": "Kay",
-      "MiddleName": "Huels LLC",
-      "Lastname": "Schneider",
-      "SaleStakeholderId": 839,
-      "Rank": 454,
-      "Phone": "1-965-231-9994 x337",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 38
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 230,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Toni Schuppe",
-    "SuperOffice:2": "Floy Marvin"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "qui"
-  },
-  "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "commodi"
-  },
-  "PublishEventDate": "2011-02-02T03:40:56.1324272+01:00",
-  "PublishTo": "2008-02-01T03:40:56.1324272+01:00",
-  "PublishFrom": "2006-08-07T03:40:56.1324272+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 278,
-      "Visibility": "All",
-      "DisplayValue": "ea",
+      "EntityName": "Corkery LLC",
+      "Id": 842,
+      "Description": "Multi-channelled logistical concept",
+      "ExtraInfo": "id",
+      "LinkId": 937,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 130
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2007-09-19T02:30:52.866154+02:00",
+  "Postit": "ad",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2015-04-20T02:30:52.866154+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Walter LLC",
+      "Comment": "numquam",
+      "StakeholderRoleId": 744,
+      "CountryId": 652,
+      "PersonId": 838,
+      "EmailDescription": "elvera@wiegandkuvalis.co.uk",
+      "EmailId": 854,
+      "EmailAddress": "lupe@graham.ca",
+      "PhoneId": 474,
+      "ContactName": "Zulauf, Runolfsdottir and Collins",
+      "ContactId": 460,
+      "SaleId": 492,
+      "Mrmrs": "ex",
+      "Firstname": "Sylvester",
+      "MiddleName": "Bechtelar-Corwin",
+      "Lastname": "Abernathy",
+      "SaleStakeholderId": 972,
+      "Rank": 502,
+      "Phone": "467-884-0043 x1726",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 331
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 573,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Heather Olson"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "illo",
+    "ExtraFields2": "excepturi"
+  },
+  "CustomFields": {
+    "CustomFields1": "laudantium",
+    "CustomFields2": "odit"
+  },
+  "PublishEventDate": "2025-01-26T02:30:52.8817786+01:00",
+  "PublishTo": "2022-12-10T02:30:52.8817786+01:00",
+  "PublishFrom": "2023-11-19T02:30:52.8817786+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 995,
+      "Visibility": "All",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 405
         }
       }
     },
     {
-      "VisibleId": 278,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 405
         }
       }
     }
@@ -262,8 +262,8 @@ Last-Modified: Fri, 28 Jan 2022 03:40:56 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   },
   "_Links": {

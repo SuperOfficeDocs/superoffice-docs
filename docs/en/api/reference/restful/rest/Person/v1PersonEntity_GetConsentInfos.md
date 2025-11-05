@@ -76,7 +76,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 799,
-    "Comment": "et",
-    "Registered": "2002-06-30T03:40:55.8980286+02:00",
-    "RegisteredAssociateId": 652,
-    "Updated": "2017-07-15T03:40:55.8980286+02:00",
-    "UpdatedAssociateId": 9,
-    "LegalBaseId": 966,
-    "LegalBaseKey": "in",
-    "LegalBaseName": "Bahringer-Borer",
-    "ConsentPurposeId": 938,
-    "ConsentPurposeKey": "eaque",
-    "ConsentPurposeName": "Sauer-Flatley",
-    "ConsentSourceId": 306,
-    "ConsentSourceKey": "nihil",
-    "ConsentSourceName": "Shanahan Inc and Sons",
+    "ConsentPersonId": 358,
+    "Comment": "esse",
+    "Registered": "2005-08-21T02:30:52.7726429+02:00",
+    "RegisteredAssociateId": 170,
+    "Updated": "2014-07-26T02:30:52.7726429+02:00",
+    "UpdatedAssociateId": 644,
+    "LegalBaseId": 474,
+    "LegalBaseKey": "laboriosam",
+    "LegalBaseName": "Kassulke, Gleason and Terry",
+    "ConsentPurposeId": 471,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Harber, Cole and Marks",
+    "ConsentSourceId": 46,
+    "ConsentSourceKey": "magni",
+    "ConsentSourceName": "Brown, Kshlerin and Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 623
       }
     }
   }

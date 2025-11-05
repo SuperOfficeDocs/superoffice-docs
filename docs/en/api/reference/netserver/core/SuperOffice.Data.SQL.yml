@@ -81,6 +81,7 @@ items:
   - SuperOffice.Data.SQL.ErpActorTypeFieldInfo
   - SuperOffice.Data.SQL.ExecuteOnEventFieldInfo
   - SuperOffice.Data.SQL.Extensions
+  - SuperOffice.Data.SQL.ExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.FieldAccessFieldInfo
   - SuperOffice.Data.SQL.FieldInfo
   - SuperOffice.Data.SQL.FieldInfoCollection
@@ -1052,6 +1053,14 @@ references:
   name: CategoryGroupFieldInfo
   nameWithType: CategoryGroupFieldInfo
   fullName: SuperOffice.Data.SQL.CategoryGroupFieldInfo
+- uid: SuperOffice.Data.SQL.ExternalOwnerFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ExternalOwnerFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ExternalOwnerFieldInfo.html
+  name: ExternalOwnerFieldInfo
+  nameWithType: ExternalOwnerFieldInfo
+  fullName: SuperOffice.Data.SQL.ExternalOwnerFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL

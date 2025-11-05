@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Nienow Group",
-  "Tooltip": "possimus",
+  "Id": 995,
+  "Name": "Konopelski-Grant",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 947,
-  "IsCustomList": true,
+  "Rank": 102,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": false
+  "ListType": "ab",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Jacobi LLC",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 959,
-  "IsCustomList": true,
+  "Id": 544,
+  "Name": "Cummerata Inc and Sons",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 260,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   }
 }

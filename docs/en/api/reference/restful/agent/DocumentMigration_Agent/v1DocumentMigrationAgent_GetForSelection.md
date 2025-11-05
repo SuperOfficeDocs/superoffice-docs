@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 595,
-  "SelectionId": 802,
+  "DocumentPluginId": 727,
+  "SelectionId": 908,
   "IncludeEmails": false
 }
 ```
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 459,
-  "NumDocumentsAlreadyMigrated": 105,
+  "NumDocumentsOmitted": 657,
+  "NumDocumentsAlreadyMigrated": 359,
   "Documents": [
     {
-      "DocumentId": 757,
-      "ContactId": 473,
-      "PersonId": 206,
-      "SaleId": 536,
-      "ProjectId": 166,
-      "DocTmplId": 248,
-      "AssociateId": 65,
-      "UserGroupId": 554,
-      "VisibleForId": 368
+      "DocumentId": 837,
+      "ContactId": 388,
+      "PersonId": 584,
+      "SaleId": 538,
+      "ProjectId": 589,
+      "DocTmplId": 482,
+      "AssociateId": 764,
+      "UserGroupId": 589,
+      "VisibleForId": 871
     }
   ],
   "Associates": [
     {
-      "AssociateId": 617,
-      "EmailAddress": "theresa@raynor.info"
+      "AssociateId": 44,
+      "EmailAddress": "glenna.jacobson@ondricka.ca"
     },
     {
-      "AssociateId": 617,
-      "EmailAddress": "theresa@raynor.info"
+      "AssociateId": 44,
+      "EmailAddress": "glenna.jacobson@ondricka.ca"
     }
   ]
 }

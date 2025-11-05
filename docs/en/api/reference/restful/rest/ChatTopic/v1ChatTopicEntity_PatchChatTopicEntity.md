@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -164,48 +164,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 916,
-  "Name": "Witting, Schoen and Bednar",
-  "Description": "Triple-buffered analyzing complexity",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 627,
+  "Name": "Hettinger Group",
+  "Description": "Up-sized fault-tolerant core",
+  "WelcomeMessage": "beatae",
   "Language": null,
-  "LastAccept": "2019-11-17T03:40:55.397437+01:00",
-  "SecondsPrAccept": 743,
-  "AlertRecipient": "molestiae",
+  "LastAccept": "2022-12-11T02:30:52.4286686+01:00",
+  "SecondsPrAccept": 198,
+  "AlertRecipient": "error",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "accusantium",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "dicta",
-  "WarnNewChatMinutes": 76,
-  "WarnManagerNewChatMinutes": 728,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "expedita",
+  "WarnNewChatMinutes": 511,
+  "WarnManagerNewChatMinutes": 280,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 362,
-  "WarnManagerChatMessageMinutes": 111,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 933,
+  "WarnManagerChatMessageMinutes": 683,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 443,
-  "OfflineFormQueueLength": 222,
+  "OfflineFormTimeLimit": 840,
+  "OfflineFormQueueLength": 944,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "consequatur",
+  "WidgetRatingText": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 980
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

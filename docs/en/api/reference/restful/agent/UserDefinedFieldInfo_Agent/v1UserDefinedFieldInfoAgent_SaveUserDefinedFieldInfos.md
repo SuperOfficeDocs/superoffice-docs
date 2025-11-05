@@ -68,46 +68,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 480,
-      "ColumnId": 245,
-      "FieldDefault": "hic",
-      "FieldHeight": 231,
-      "FieldLabel": "minus",
-      "FieldLeft": 111,
-      "FieldTop": 310,
+      "UDefFieldId": 594,
+      "ColumnId": 211,
+      "FieldDefault": "minima",
+      "FieldHeight": 985,
+      "FieldLabel": "aut",
+      "FieldLeft": 81,
+      "FieldTop": 107,
       "FieldType": "Checkbox",
-      "FieldWidth": 577,
-      "FormatMask": "enim",
+      "FieldWidth": 976,
+      "FormatMask": "aspernatur",
       "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 482,
-      "LabelLeft": 454,
-      "LabelTop": 517,
-      "LabelWidth": 295,
-      "LastVersionId": 40,
-      "ListTableId": 794,
-      "IsMandatory": true,
+      "LabelHeight": 819,
+      "LabelLeft": 301,
+      "LabelTop": 996,
+      "LabelWidth": 319,
+      "LastVersionId": 328,
+      "ListTableId": 46,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 391,
-      "ProgId": "placeat",
-      "IsReadOnly": false,
-      "ShortLabel": "aut",
-      "TabOrder": 163,
-      "TextLength": 345,
-      "Tooltip": "quo",
-      "UdefIdentity": 226,
-      "UDListDefinitionId": 774,
+      "Page1LineNo": 473,
+      "ProgId": "quis",
+      "IsReadOnly": true,
+      "ShortLabel": "qui",
+      "TabOrder": 654,
+      "TextLength": 590,
+      "Tooltip": "temporibus",
+      "UdefIdentity": 373,
+      "UDListDefinitionId": 298,
       "Justification": "Center",
-      "Version": 363,
-      "TemplateVariableName": "Adams-McClure",
+      "Version": 319,
+      "TemplateVariableName": "McDermott-Nicolas",
       "HasBeenPublished": false,
-      "MdoListName": "West, Altenwerth and Runte"
+      "MdoListName": "Bosco, Ledner and Dooley"
     }
   ]
 }

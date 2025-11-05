@@ -114,29 +114,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jast, Stokes and Ritchie",
-  "Comment": "voluptate",
-  "StakeholderRoleId": 622,
-  "CountryId": 8,
-  "PersonId": 699,
-  "EmailDescription": "milford@walter.name",
-  "EmailId": 53,
-  "EmailAddress": "samantha@hicklelindgren.ca",
-  "PhoneId": 781,
-  "ContactName": "Cruickshank-Morar",
-  "ContactId": 267,
-  "SaleId": 664,
-  "Mrmrs": "nam",
-  "Firstname": "Ashley",
-  "MiddleName": "Kling, Ledner and Weissnat",
-  "Lastname": "Dibbert",
-  "SaleStakeholderId": 100,
-  "Rank": 470,
-  "Phone": "971-454-8728"
+  "StakeholderRoleName": "Daniel LLC",
+  "Comment": "explicabo",
+  "StakeholderRoleId": 929,
+  "CountryId": 843,
+  "PersonId": 958,
+  "EmailDescription": "eleonore.hammes@miller.com",
+  "EmailId": 292,
+  "EmailAddress": "tressa@hermiston.biz",
+  "PhoneId": 897,
+  "ContactName": "Wuckert-Beatty",
+  "ContactId": 28,
+  "SaleId": 182,
+  "Mrmrs": "sunt",
+  "Firstname": "Alanis",
+  "MiddleName": "Casper, Gibson and Cormier",
+  "Lastname": "Abernathy",
+  "SaleStakeholderId": 439,
+  "Rank": 749,
+  "Phone": "1-456-003-3502"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kreiger LLC",
-  "Comment": "aliquid",
-  "StakeholderRoleId": 999,
-  "CountryId": 339,
-  "PersonId": 533,
-  "EmailDescription": "mariela.torp@smith.uk",
-  "EmailId": 13,
-  "EmailAddress": "camila@runolfsdottirerdman.co.uk",
-  "PhoneId": 848,
-  "ContactName": "Sipes Group",
-  "ContactId": 623,
-  "SaleId": 932,
-  "Mrmrs": "voluptatum",
-  "Firstname": "Lou",
-  "MiddleName": "Koch, Bogisich and Borer",
-  "Lastname": "Kozey",
-  "SaleStakeholderId": 943,
-  "Rank": 481,
-  "Phone": "(023)275-4012",
+  "StakeholderRoleName": "Leffler-Hahn",
+  "Comment": "eveniet",
+  "StakeholderRoleId": 371,
+  "CountryId": 954,
+  "PersonId": 37,
+  "EmailDescription": "russel@ortiz.us",
+  "EmailId": 911,
+  "EmailAddress": "henriette@ondricka.name",
+  "PhoneId": 267,
+  "ContactName": "Kozey LLC",
+  "ContactId": 911,
+  "SaleId": 415,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Toby",
+  "MiddleName": "McDermott, Goodwin and Wiza",
+  "Lastname": "Hirthe",
+  "SaleStakeholderId": 532,
+  "Rank": 24,
+  "Phone": "645.343.5375 x17242",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 581
     }
   },
   "_Links": {

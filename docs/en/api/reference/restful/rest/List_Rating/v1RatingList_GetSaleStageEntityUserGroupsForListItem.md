@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Bahringer Inc and Sons",
-    "ToolTip": "Id adipisci.",
-    "Deleted": false,
-    "Rank": 431,
-    "Type": "eligendi",
-    "ColorBlock": 270,
-    "IconHint": "qui",
+    "Id": 397,
+    "Name": "Dietrich Inc and Sons",
+    "ToolTip": "Qui aspernatur voluptatibus accusamus sapiente.",
+    "Deleted": true,
+    "Rank": 1001,
+    "Type": "minus",
+    "ColorBlock": 645,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2014-10-16T03:40:57.0558521+02:00",
+    "LastChanged": "1999-10-11T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "O'Hara LLC",
-        "ToolTip": "Eius qui id est tempore minima.",
-        "Deleted": true,
-        "Rank": 165,
-        "Type": "debitis",
-        "ColorBlock": 160,
-        "IconHint": "veritatis",
+        "Id": 239,
+        "Name": "Witting-Hoeger",
+        "ToolTip": "Culpa voluptatem laudantium sed architecto quia.",
+        "Deleted": false,
+        "Rank": 195,
+        "Type": "cum",
+        "ColorBlock": 787,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2004-05-19T03:40:57.0558521+02:00",
+        "LastChanged": "2019-09-16T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "facilis",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Merlin Mohr",
+        "FullName": "Jordi Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 835
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Dena Bernier",
+    "FullName": "Keaton Ondricka PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 246
       }
     }
   }

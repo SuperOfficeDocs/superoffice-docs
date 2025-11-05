@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "et",
-  "From": "ut",
+  "SmtpUri": "rerum",
+  "From": "atque",
   "UseStoredPassword": false
 }
 ```
@@ -97,14 +97,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "ErrorMessage": "id",
+  "Success": false,
+  "ErrorMessage": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   }
 }

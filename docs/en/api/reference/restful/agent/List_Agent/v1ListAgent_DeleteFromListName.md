@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "UdListDefinitionName": "Brekke, Flatley and Gutkowski"
+  "Id": 368,
+  "UdListDefinitionName": "Boyer, Stiedemann and Nolan"
 }
 ```
 

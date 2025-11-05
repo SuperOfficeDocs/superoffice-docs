@@ -153,18 +153,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "perspiciatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "perspiciatis",
     "value": {}
   }
 ]
@@ -183,7 +183,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "impedit",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -192,113 +192,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-07-09T03:40:56.1636707+02:00",
-  "Amount": 30622.314,
-  "SaleId": 899,
-  "Earning": 7004.49,
-  "EarningPercent": 636.202,
-  "Heading": "quasi",
-  "Number": "1487408",
-  "Probability": 388,
-  "CreatedDate": "2022-09-13T03:40:56.1636707+02:00",
-  "UpdatedDate": "2016-02-13T03:40:56.1636707+01:00",
+  "Saledate": "2002-05-23T02:30:52.8974033+02:00",
+  "Amount": 22361.09,
+  "SaleId": 957,
+  "Earning": 31151.96,
+  "EarningPercent": 15018.127999999999,
+  "Heading": "quia",
+  "Number": "1515359",
+  "Probability": 650,
+  "CreatedDate": "2025-06-15T02:30:52.8974033+02:00",
+  "UpdatedDate": "2015-07-17T02:30:52.8974033+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 116,
+  "ActiveLinks": 389,
   "Links": [
     {
-      "EntityName": "Littel LLC",
-      "Id": 859,
-      "Description": "Intuitive actuating time-frame",
-      "ExtraInfo": "sed",
-      "LinkId": 869,
+      "EntityName": "Champlin LLC",
+      "Id": 335,
+      "Description": "Object-based executive middleware",
+      "ExtraInfo": "aut",
+      "LinkId": 707,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 932
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2021-04-26T02:30:52.8974033+02:00",
+  "Postit": "ea",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2000-11-22T02:30:52.8974033+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Cruickshank-Rohan",
+      "Comment": "nihil",
+      "StakeholderRoleId": 750,
+      "CountryId": 484,
+      "PersonId": 216,
+      "EmailDescription": "nils@kertzmannziemann.ca",
+      "EmailId": 843,
+      "EmailAddress": "ike@effertz.com",
+      "PhoneId": 78,
+      "ContactName": "Douglas, Kulas and Mitchell",
+      "ContactId": 314,
+      "SaleId": 769,
+      "Mrmrs": "qui",
+      "Firstname": "Raymundo",
+      "MiddleName": "Larkin-Becker",
+      "Lastname": "Hagenes",
+      "SaleStakeholderId": 438,
+      "Rank": 230,
+      "Phone": "765.675.5230",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 780
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 947,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mertie Bernhard",
+    "SuperOffice:2": "Prof. Halle Franco Weber"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "quisquam"
+  },
+  "CustomFields": {
+    "CustomFields1": "harum",
+    "CustomFields2": "dolorem"
+  },
+  "PublishEventDate": "2009-02-09T02:30:52.8974033+01:00",
+  "PublishTo": "2004-05-16T02:30:52.8974033+02:00",
+  "PublishFrom": "2021-01-17T02:30:52.8974033+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 413,
+      "Visibility": "All",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 650
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2006-09-04T03:40:56.1636707+02:00",
-  "Postit": "possimus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2009-10-25T03:40:56.1793053+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Leannon Inc and Sons",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 236,
-      "CountryId": 416,
-      "PersonId": 178,
-      "EmailDescription": "grant@kuhndubuque.us",
-      "EmailId": 629,
-      "EmailAddress": "charles_stehr@yostdoyle.us",
-      "PhoneId": 953,
-      "ContactName": "Wolf, Legros and Konopelski",
-      "ContactId": 828,
-      "SaleId": 679,
-      "Mrmrs": "animi",
-      "Firstname": "Rex",
-      "MiddleName": "Roberts LLC",
-      "Lastname": "Jerde",
-      "SaleStakeholderId": 25,
-      "Rank": 726,
-      "Phone": "(211)985-5945",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 407
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 103,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Angelina Ritchie"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "ea"
-  },
-  "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "voluptatibus"
-  },
-  "PublishEventDate": "2015-01-18T03:40:56.1793053+01:00",
-  "PublishTo": "2002-09-06T03:40:56.1793053+02:00",
-  "PublishFrom": "2013-06-01T03:40:56.1793053+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 843,
-      "Visibility": "All",
-      "DisplayValue": "dolores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 843,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     }
@@ -308,7 +308,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 208
     }
   },
   "_Links": {

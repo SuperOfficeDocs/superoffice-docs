@@ -71,7 +71,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectStatusId": 298
+  "ProjectStatusId": 961
 }
 ```
 

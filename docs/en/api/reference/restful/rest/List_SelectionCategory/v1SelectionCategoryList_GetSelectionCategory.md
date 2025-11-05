@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 290,
-  "Name": "Corkery, Wuckert and Swaniawski",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "UdListDefinitionId": 940,
-  "Rank": 713,
+  "Id": 395,
+  "Name": "Lubowitz-Gottlieb",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 320,
+  "Rank": 65,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 784
     }
   }
 }

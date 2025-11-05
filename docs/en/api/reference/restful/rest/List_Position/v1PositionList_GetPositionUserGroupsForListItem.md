@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "McCullough Group",
-    "ToolTip": "Sed eaque explicabo molestias dolore itaque consequatur.",
+    "Id": 974,
+    "Name": "Rodriguez Group",
+    "ToolTip": "Qui aut quidem rem.",
     "Deleted": false,
-    "Rank": 579,
-    "Type": "commodi",
-    "ColorBlock": 449,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2006-02-28T03:40:56.9777222+01:00",
+    "Rank": 456,
+    "Type": "sed",
+    "ColorBlock": 380,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2010-11-22T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Huel, Reynolds and Jast",
-        "ToolTip": "Voluptas recusandae sed.",
-        "Deleted": false,
-        "Rank": 348,
-        "Type": "voluptatibus",
-        "ColorBlock": 185,
-        "IconHint": "quia",
+        "Id": 596,
+        "Name": "Adams, Bruen and Auer",
+        "ToolTip": "Ducimus corporis quo qui pariatur doloremque.",
+        "Deleted": true,
+        "Rank": 685,
+        "Type": "atque",
+        "ColorBlock": 29,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-06-12T03:40:56.9777222+02:00",
+        "LastChanged": "2017-02-14T02:30:53.3348881+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Van Turner",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Vickie Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldType": "System.String",
+            "FieldLength": 781
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Georgianna Marshall Rosenbaum DDS",
+    "ExtraInfo": "alias",
+    "StyleHint": "laborum",
+    "Hidden": false,
+    "FullName": "Marcelo Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 352
       }
     }
   }

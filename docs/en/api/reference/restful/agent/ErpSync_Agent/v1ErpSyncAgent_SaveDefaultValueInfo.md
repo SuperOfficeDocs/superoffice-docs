@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 89,
-  "DefaultValue": "aut",
+  "ErpFieldId": 24,
+  "DefaultValue": "excepturi",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "odit",
+  "FirstSyncDefaultValue": "voluptatum",
   "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "ipsum",
+  "Mandatory": false,
+  "ErpFieldKey": "sint",
   "FieldType": "Checkbox",
-  "ListName": "Reichert Group",
+  "ListName": "Corkery, Zemlak and Gorczany",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 812
     }
   }
 }

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=389
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=775
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 718,
-  "Value": "ad",
-  "Tooltip": "architecto",
-  "Probability": 444,
-  "Deleted": false,
-  "Rank": 187,
+  "SaleStageId": 9,
+  "Value": "qui",
+  "Tooltip": "praesentium",
+  "Probability": 237,
+  "Deleted": true,
+  "Rank": 660,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 188
     }
   }
 }

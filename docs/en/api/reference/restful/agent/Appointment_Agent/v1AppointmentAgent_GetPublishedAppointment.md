@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 447
+  "AppointmentId": 368
 }
 ```
 
@@ -145,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 366,
-  "StartDate": "2020-07-03T03:40:45.6231158+02:00",
-  "EndDate": "2016-03-23T03:40:45.6231158+01:00",
+  "AppointmentId": 866,
+  "StartDate": "2004-01-31T02:30:46.522607+01:00",
+  "EndDate": "2005-06-19T02:30:46.522607+02:00",
   "Type": "BookingForChecklist",
-  "Task": "fugiat",
-  "AssociateFullName": "Kory Kris",
-  "ContactName": "Mohr, Wiza and Kling",
-  "Description": "Quality-focused leading edge installation",
-  "PersonFullName": "Gerald Morar",
-  "PersonId": 524,
-  "ContactId": 185,
-  "ProjectId": 170,
-  "ProjectName": "Rau Group",
+  "Task": "et",
+  "AssociateFullName": "Mrs. Amaya Ortiz III",
+  "ContactName": "Lueilwitz LLC",
+  "Description": "Integrated interactive capability",
+  "PersonFullName": "Pauline Werner Hane I",
+  "PersonId": 575,
+  "ContactId": 922,
+  "ProjectId": 754,
+  "ProjectName": "Will, McKenzie and Anderson",
   "IsPublished": false,
-  "AssociateId": 847,
-  "ColorIndex": 263,
-  "IsFree": true,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "AssociateId": 907,
+  "ColorIndex": 281,
+  "IsFree": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 60,
-  "PriorityName": "Wolff-Heller",
+  "PriorityId": 456,
+  "PriorityName": "Champlin-Mraz",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2017-06-22T03:40:45.6231158+02:00",
+  "ActiveDate": "2023-04-24T02:30:46.522607+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2017-03-22T03:40:45.6231158+01:00",
-  "RecurringEndDate": "2019-05-21T03:40:45.6231158+02:00",
-  "MotherId": 379,
-  "AssignedBy": 228,
-  "AssignedByFullName": "Torrey O'Hara",
+  "RecurringStartDate": "2016-04-26T02:30:46.522607+02:00",
+  "RecurringEndDate": "2016-07-05T02:30:46.522607+02:00",
+  "MotherId": 288,
+  "AssignedBy": 322,
+  "AssignedByFullName": "Eudora Sipes MD",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "cum",
-  "SaleId": 754,
-  "SaleName": "Erdman-Gutkowski",
-  "AssociateName": "Bogan-Hauck",
-  "CreatedDate": "2022-03-22T03:40:45.6231158+01:00",
-  "CreatedBy": "non",
-  "CreatedByFullName": "Amparo Jimmie Maggio IV",
-  "CreatedByAssociateId": 510,
+  "Location": "odit",
+  "AlarmLeadTime": "consectetur",
+  "SaleId": 2,
+  "SaleName": "Wuckert Group",
+  "AssociateName": "Mills, Nienow and Zemlak",
+  "CreatedDate": "2011-10-25T02:30:46.522607+02:00",
+  "CreatedBy": "sed",
+  "CreatedByFullName": "Mrs. Armand Joel Greenholt III",
+  "CreatedByAssociateId": 21,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 245,
+  "MotherAssociateId": 628,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 18,
-  "Title": "sint",
-  "Agenda": "excepturi",
-  "InternalNotes": "sunt",
+  "PreferredTZLocation": 890,
+  "Title": "porro",
+  "Agenda": "fuga",
+  "InternalNotes": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 352
     }
   }
 }

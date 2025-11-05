@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 720,
-  "Name": "Reichert LLC",
-  "Tooltip": "autem",
+  "Id": 443,
+  "Name": "Blanda-Reynolds",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "UdListDefinitionId": 463,
-  "Rank": 371,
+  "UdListDefinitionId": 353,
+  "Rank": 534,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   }
 }

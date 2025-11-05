@@ -68,23 +68,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "voluptatum",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "enim",
-      "DisplayTooltip": "ea",
+      "DisplayValue": "voluptatem",
+      "DisplayTooltip": "dolores",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 669,
-      "PrefDescId": 40,
-      "TableName": "Robel-Schimmel",
-      "UserPreferenceId": 279
+      "TargetId": 872,
+      "PrefDescId": 97,
+      "TableName": "Mitchell, Wisoky and Pfeffer",
+      "UserPreferenceId": 923
     }
   ],
   "RemoveLowerLevels": true

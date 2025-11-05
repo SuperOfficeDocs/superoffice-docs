@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 514
+  "QuoteVersionId": 804
 }
 ```
 
@@ -99,9 +99,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "quisquam",
-  "TechExplanation": "architecto",
-  "ErrorCode": "qui",
+  "UserExplanation": "velit",
+  "TechExplanation": "repellendus",
+  "ErrorCode": "necessitatibus",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 608
     }
   }
 }

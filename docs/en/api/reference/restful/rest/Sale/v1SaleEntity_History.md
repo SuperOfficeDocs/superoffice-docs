@@ -76,11 +76,11 @@ GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
 GET /api/v1/Sale/{id}/History?$entities=corporis
-GET /api/v1/Sale/{id}/History?$top=401
-GET /api/v1/Sale/{id}/History?$skip=367
+GET /api/v1/Sale/{id}/History?$top=519
+GET /api/v1/Sale/{id}/History?$skip=559
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=illum
+GET /api/v1/Sale/{id}/History?$context=repellat
 GET /api/v1/Sale/{id}/History?$format=JSON
 GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
@@ -135,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 9324,
-      "EntityName": "person",
-      "personId": 9324,
-      "fullName": "Ferne Christiansen Sr."
+      "PrimaryKey": 70,
+      "EntityName": "sale",
+      "saleId": 70,
+      "contactId": 898,
+      "name": "Abernathy, Hintz and Reinger"
     },
     {
-      "PrimaryKey": 8092,
-      "EntityName": "person",
-      "personId": 8092,
-      "fullName": "London Kovacek"
+      "PrimaryKey": 2224,
+      "EntityName": "sale",
+      "saleId": 2224,
+      "contactId": 4251,
+      "name": "Labadie Inc and Sons"
     }
   ]
 }

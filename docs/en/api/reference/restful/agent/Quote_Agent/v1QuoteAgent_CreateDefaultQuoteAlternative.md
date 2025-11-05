@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,35 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 899,
-  "ERPQuoteAlternativeKey": "nobis",
-  "QuoteVersionId": 440,
-  "Name": "Nolan-Schmitt",
-  "Description": "Advanced well-modulated complexity",
+  "QuoteAlternativeId": 557,
+  "ERPQuoteAlternativeKey": "laboriosam",
+  "QuoteVersionId": 538,
+  "Name": "Larkin Group",
+  "Description": "Multi-layered systemic hierarchy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 15206.168,
-  "ERPDiscountAmount": 30985.858,
-  "DiscountPercent": 12388.702,
-  "DiscountAmount": 28770.12,
+  "ERPDiscountPercent": 26093.683999999997,
+  "ERPDiscountAmount": 17832.46,
+  "DiscountPercent": 13413.52,
+  "DiscountAmount": 9806.286,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quos",
-  "VAT": 4682.196,
-  "EarningPercent": 28723.11,
-  "EarningAmount": 19932.239999999998,
-  "SubTotal": 12548.536,
-  "TotalPrice": 28237.34,
-  "ExtraField1": "aliquam",
-  "ExtraField2": "esse",
-  "ExtraField3": "quaerat",
-  "ExtraField4": "saepe",
-  "ExtraField5": "totam",
+  "VATInfo": "optio",
+  "VAT": 11959.344,
+  "EarningPercent": 12463.918,
+  "EarningAmount": 27939.61,
+  "SubTotal": 213.112,
+  "TotalPrice": 18966.968,
+  "ExtraField1": "quibusdam",
+  "ExtraField2": "sit",
+  "ExtraField3": "laborum",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashThemeId | int32 | **Required** The identity of the DashTheme |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=544
+POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=914
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

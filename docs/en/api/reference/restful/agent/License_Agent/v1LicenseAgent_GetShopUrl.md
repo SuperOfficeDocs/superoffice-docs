@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Keebler, Sauer and Schmitt"
+  "OwnerName": "Klocko, Hermiston and Satterfield"
 }
 ```
 

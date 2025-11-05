@@ -76,7 +76,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,33 +84,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 29 Aug 2015 03:40:55 G8T
+Last-Modified: Sun, 30 Mar 2014 02:30:52 G3T
 
 {
-  "SourceContactId": 295,
-  "SourcePersonId": 472,
-  "DestinationContactId": 395,
-  "DestinationPersonId": 703,
-  "RelationId": 815,
-  "Comment": "est",
-  "RelationDefinitionId": 319,
-  "Reversed": 320,
-  "UpdatedDate": "2015-08-29T03:40:55.6006549+02:00",
-  "CreatedDate": "2022-11-14T03:40:55.6006549+01:00",
+  "SourceContactId": 315,
+  "SourcePersonId": 473,
+  "DestinationContactId": 899,
+  "DestinationPersonId": 84,
+  "RelationId": 495,
+  "Comment": "sit",
+  "RelationDefinitionId": 124,
+  "Reversed": 317,
+  "UpdatedDate": "2014-03-30T02:30:52.506791+01:00",
+  "CreatedDate": "2000-06-29T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Flatley Inc and Sons",
-  "SourcePersonName": "Kunze Group",
-  "DestinationContactName": "Oberbrunner, Sipes and Spinka",
-  "DestinationPersonName": "Rempel LLC",
-  "ActiveText": "officia",
-  "PassiveText": "rem",
+  "SourceContactName": "Cormier, O'Kon and Mitchell",
+  "SourcePersonName": "Reynolds, Gaylord and Schultz",
+  "DestinationContactName": "Schmitt LLC",
+  "DestinationPersonName": "Herzog Inc and Sons",
+  "ActiveText": "voluptatum",
+  "PassiveText": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 222
     }
   }
 }

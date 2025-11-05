@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 856,
-    "ColumnId": 571,
-    "FieldDefault": "culpa",
-    "FieldHeight": 139,
-    "FieldLabel": "hic",
-    "FieldLeft": 135,
-    "FieldTop": 401,
+    "UDefFieldId": 527,
+    "ColumnId": 878,
+    "FieldDefault": "corporis",
+    "FieldHeight": 538,
+    "FieldLabel": "quo",
+    "FieldLeft": 73,
+    "FieldTop": 234,
     "FieldType": "Checkbox",
-    "FieldWidth": 146,
-    "FormatMask": "voluptatem",
-    "HideLabel": false,
+    "FieldWidth": 919,
+    "FormatMask": "accusantium",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 406,
-    "LabelLeft": 675,
-    "LabelTop": 462,
-    "LabelWidth": 784,
-    "LastVersionId": 649,
-    "ListTableId": 460,
-    "IsMandatory": true,
+    "LabelHeight": 393,
+    "LabelLeft": 996,
+    "LabelTop": 866,
+    "LabelWidth": 888,
+    "LastVersionId": 186,
+    "ListTableId": 461,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 459,
-    "ProgId": "quia",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 836,
-    "TextLength": 771,
-    "Tooltip": "rerum",
-    "UdefIdentity": 309,
-    "UDListDefinitionId": 600,
+    "Page1LineNo": 660,
+    "ProgId": "neque",
+    "IsReadOnly": false,
+    "ShortLabel": "laboriosam",
+    "TabOrder": 825,
+    "TextLength": 994,
+    "Tooltip": "ut",
+    "UdefIdentity": 937,
+    "UDListDefinitionId": 212,
     "Justification": "Center",
-    "Version": 813,
-    "TemplateVariableName": "Botsford, Blanda and Gorczany",
-    "HasBeenPublished": false,
-    "MdoListName": "Schulist-Schultz",
+    "Version": 55,
+    "TemplateVariableName": "Wisozk, Romaguera and Rowe",
+    "HasBeenPublished": true,
+    "MdoListName": "Bauch-Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

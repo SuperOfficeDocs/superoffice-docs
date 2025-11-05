@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,40 +97,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 133,
-    "Name": "Fahey Group",
-    "Rank": 380,
-    "Tooltip": "porro",
-    "Icon": "molestiae",
-    "DefaultTicketStatus": 805,
+    "TicketTypeId": 974,
+    "Name": "Halvorson, Murray and Stehr",
+    "Rank": 269,
+    "Tooltip": "est",
+    "Icon": "quo",
+    "DefaultTicketStatus": 678,
     "TicketStatuses": [
-      560,
-      706
+      561,
+      711
     ],
-    "DefaultTicketPriority": 289,
+    "DefaultTicketPriority": 823,
     "TicketPriorities": [
-      75,
-      133
+      239,
+      491
     ],
-    "ReplyTemplate": 492,
+    "ReplyTemplate": 73,
     "IsExternalVisible": false,
     "IsDefault": false,
     "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      649,
-      549
+      271,
+      247
     ],
-    "ReplyForwardNoSignature": false,
+    "ReplyForwardNoSignature": true,
     "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

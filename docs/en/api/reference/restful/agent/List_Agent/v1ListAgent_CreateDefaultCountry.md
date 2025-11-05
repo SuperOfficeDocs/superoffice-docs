@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 390,
-  "Name": "Rodriguez, Abernathy and Schinner",
-  "CurrencyId": 488,
-  "EnglishName": "Rutherford, Shields and Feest",
+  "CountryId": 99,
+  "Name": "Hoeger, Bins and Marvin",
+  "CurrencyId": 336,
+  "EnglishName": "Mayert Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Intuitive explicit collaboration",
-  "OrgNrText": "154618",
-  "InterAreaPrefix": "ad",
-  "DialInPrefix": "quis",
-  "ZipPrefix": "corporis",
-  "DomainName": "King-Heathcote",
-  "AddressLayoutId": 762,
-  "DomesticAddressLayoutId": 867,
-  "ForeignAddressLayoutId": 74,
-  "Rank": 953,
-  "Tooltip": "dolore",
-  "Deleted": false,
+  "ImageDescription": "Right-sized zero defect support",
+  "OrgNrText": "631935",
+  "InterAreaPrefix": "in",
+  "DialInPrefix": "cupiditate",
+  "ZipPrefix": "ut",
+  "DomainName": "Wolff-Walter",
+  "AddressLayoutId": 96,
+  "DomesticAddressLayoutId": 348,
+  "ForeignAddressLayoutId": 714,
+  "Rank": 819,
+  "Tooltip": "sit",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldLength": 131
     }
   }
 }

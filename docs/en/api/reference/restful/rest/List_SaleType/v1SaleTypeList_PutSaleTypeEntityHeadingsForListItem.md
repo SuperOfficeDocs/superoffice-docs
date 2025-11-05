@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Bahringer LLC",
-    "ToolTip": "Quia possimus beatae repellat nemo accusantium.",
-    "Deleted": false,
-    "Rank": 625,
-    "Type": "voluptatibus",
-    "ColorBlock": 757,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2018-05-18T03:40:57.1027301+02:00",
+    "Id": 836,
+    "Name": "Kris, Reilly and Medhurst",
+    "ToolTip": "Tenetur quis voluptatibus.",
+    "Deleted": true,
+    "Rank": 155,
+    "Type": "et",
+    "ColorBlock": 220,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2025-08-30T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Christiansen-Wilderman",
-        "ToolTip": "Consequatur quisquam voluptas magni et similique est.",
+        "Id": 943,
+        "Name": "Huels-Hegmann",
+        "ToolTip": "Aut voluptas possimus saepe sapiente.",
         "Deleted": true,
-        "Rank": 343,
-        "Type": "aliquam",
-        "ColorBlock": 463,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2002-06-28T03:40:57.1027301+02:00",
+        "Rank": 77,
+        "Type": "sint",
+        "ColorBlock": 660,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2008-08-09T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "provident",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Prof. Santina Maeve Robel"
+        "FullName": "Janick Stanton"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Prof. Frederick Sonya Herzog II"
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Hettie Bergstrom"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Johnson-Hudson",
-    "ToolTip": "Doloremque voluptatem autem voluptate omnis.",
-    "Deleted": false,
-    "Rank": 342,
+    "Id": 262,
+    "Name": "Emard-Marvin",
+    "ToolTip": "Minima eos in vel quia.",
+    "Deleted": true,
+    "Rank": 129,
     "Type": "aliquam",
-    "ColorBlock": 304,
-    "IconHint": "aut",
+    "ColorBlock": 724,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2002-10-28T03:40:57.1027301+01:00",
+    "LastChanged": "2012-01-06T02:30:53.4442597+01:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Roob, Waelchi and Rutherford",
-        "ToolTip": "Veritatis minus ab doloribus perspiciatis cum.",
-        "Deleted": false,
-        "Rank": 481,
-        "Type": "eum",
-        "ColorBlock": 461,
-        "IconHint": "iusto",
+        "Id": 17,
+        "Name": "Kling, Jerde and Pagac",
+        "ToolTip": "Eius voluptas.",
+        "Deleted": true,
+        "Rank": 121,
+        "Type": "ullam",
+        "ColorBlock": 768,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2001-02-07T03:40:57.1027301+01:00",
+        "LastChanged": "2005-10-06T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "atque",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Danyka Casper",
+        "FullName": "Aric Gleason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldType": "System.String",
+            "FieldLength": 52
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
+    "ExtraInfo": "voluptas",
     "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Richmond Johnston",
+    "Hidden": true,
+    "FullName": "Isidro Feeney V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

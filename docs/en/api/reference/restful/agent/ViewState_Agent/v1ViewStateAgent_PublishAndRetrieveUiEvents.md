@@ -85,30 +85,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 96,
+  "LatestKnownEventId": 408,
   "PublishEvents": [
     {
-      "EventId": 995,
-      "EventName": "Armstrong Inc and Sons",
-      "EntityType": "suscipit",
-      "EntityKey": 911,
-      "AssociateId": 420,
-      "AssociateName": "Weimann, Braun and Abbott",
-      "EventDateTime": "2000-10-03T03:40:48.2817514+02:00"
+      "EventId": 695,
+      "EventName": "Blick-Mraz",
+      "EntityType": "qui",
+      "EntityKey": 218,
+      "AssociateId": 480,
+      "AssociateName": "Heaney-Jast",
+      "EventDateTime": "2020-08-25T02:30:48.1475549+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Gislason Inc and Sons",
-      "Value": 810
+      "Name": "Zulauf, Kozey and Watsica",
+      "Value": 23
     },
     {
-      "Name": "Gislason Inc and Sons",
-      "Value": 810
+      "Name": "Zulauf, Kozey and Watsica",
+      "Value": 23
     }
   ]
 }
@@ -122,19 +122,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 116,
-    "EventName": "Kreiger, Herzog and Bahringer",
-    "EntityType": "illo",
-    "EntityKey": 381,
-    "AssociateId": 386,
-    "AssociateName": "Hammes, Kertzmann and Vandervort",
-    "EventDateTime": "2008-10-04T03:40:48.2817514+02:00",
+    "EventId": 628,
+    "EventName": "VonRueden, Klein and Cremin",
+    "EntityType": "hic",
+    "EntityKey": 49,
+    "AssociateId": 796,
+    "AssociateName": "Padberg, Schiller and Zieme",
+    "EventDateTime": "2024-03-13T02:30:48.1475549+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 908
       }
     }
   }

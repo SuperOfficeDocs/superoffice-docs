@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 657,
-  "Name": "Weber Inc and Sons",
+  "WebhookId": 554,
+  "Name": "Hintz-Bednar",
   "Events": [
-    "ut",
-    "debitis"
+    "sed",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "qui",
+  "Secret": "veniam",
   "State": "Active",
-  "Type": "ipsa",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "vitae",
-    "Headers2": "odio"
+    "Headers1": "nobis",
+    "Headers2": "nihil"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-09-07T03:40:48.2817514+02:00",
+  "Registered": "2009-09-07T02:30:48.1475549+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-10-22T03:40:48.2817514+02:00",
+  "Updated": "2014-12-09T02:30:48.1475549+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "joannie.bergnaum@schuster.biz"
+  "ErrorsEmail": "sandrine_wisozk@strosin.com"
 }
 ```

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 447,
-    "Name": "Kilback-Bartell",
-    "Tooltip": "tenetur",
-    "Rank": 396,
-    "Key": "totam",
+    "LegalBaseId": 104,
+    "Name": "Gibson Group",
+    "Tooltip": "quia",
+    "Rank": 735,
+    "Key": "vel",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 989
       }
     }
   }

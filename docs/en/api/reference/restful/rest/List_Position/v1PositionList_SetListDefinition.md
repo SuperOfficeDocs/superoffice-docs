@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Runolfsson-Denesik",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 333,
+  "Id": 660,
+  "Name": "Lind, McCullough and Denesik",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 254,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Carroll Group",
-  "Tooltip": "quaerat",
-  "Deleted": false,
-  "Rank": 732,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 826,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "Rank": 23,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   }
 }

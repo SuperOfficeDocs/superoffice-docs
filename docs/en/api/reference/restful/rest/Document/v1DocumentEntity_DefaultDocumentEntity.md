@@ -92,7 +92,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,91 +100,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Jul 2022 03:40:55 G7T
+Last-Modified: Fri, 29 Jan 2010 02:30:52 G1T
 
 {
-  "DocumentId": 952,
+  "DocumentId": 14,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "numquam",
-  "Name": "Weissnat-Morissette",
-  "OurRef": "adipisci",
-  "YourRef": "rerum",
-  "CreatedDate": "2003-01-08T03:40:55.6319065+01:00",
-  "UpdatedDate": "2022-07-02T03:40:55.6319065+02:00",
-  "Description": "Focused multi-state service-desk",
+  "Attention": "quo",
+  "Header": "et",
+  "Name": "Dach Group",
+  "OurRef": "explicabo",
+  "YourRef": "hic",
+  "CreatedDate": "2024-08-19T02:30:52.522416+02:00",
+  "UpdatedDate": "2010-01-29T02:30:52.522416+01:00",
+  "Description": "Versatile high-level software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-07-06T03:40:55.6319065+02:00",
-  "ExternalRef": "voluptatem",
+  "Date": "2009-06-10T02:30:52.522416+02:00",
+  "ExternalRef": "odit",
   "Completed": "Completed",
-  "ActiveLinks": 688,
+  "ActiveLinks": 345,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Barton Inc and Sons",
-      "Id": 917,
-      "Description": "Sharable 5th generation utilisation",
-      "ExtraInfo": "natus",
-      "LinkId": 870,
+      "EntityName": "Sauer-Lakin",
+      "Id": 88,
+      "Description": "Profit-focused multi-state website",
+      "ExtraInfo": "sed",
+      "LinkId": 353,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 454,
-  "Snum": 993,
+  "SuggestedDocumentId": 943,
+  "Snum": 563,
   "UserDefinedFields": {
-    "SuperOffice:1": "Richmond O'Reilly",
-    "SuperOffice:2": "Myrtice Darrick Thiel IV"
+    "SuperOffice:1": "Giuseppe Stamm",
+    "SuperOffice:2": "Mrs. Mustafa Aufderhar I"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "sit",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2019-05-26T03:40:55.6319065+02:00",
-  "PublishTo": "2000-06-30T03:40:55.6319065+02:00",
-  "PublishFrom": "2009-04-25T03:40:55.6319065+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-11-04T02:30:52.522416+01:00",
+  "PublishTo": "2016-12-21T02:30:52.522416+01:00",
+  "PublishFrom": "2021-10-11T02:30:52.522416+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 319
         }
       }
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 319
         }
       }
     }
@@ -193,8 +193,8 @@ Last-Modified: Sat, 02 Jul 2022 03:40:55 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

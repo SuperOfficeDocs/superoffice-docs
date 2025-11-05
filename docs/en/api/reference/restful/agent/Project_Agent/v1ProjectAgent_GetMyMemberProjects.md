@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 375,
-    "Name": "Williamson Inc and Sons",
-    "Description": "Programmable assymetric methodology",
+    "ProjectId": 979,
+    "Name": "Runolfsson, Lueilwitz and Rath",
+    "Description": "Sharable encompassing infrastructure",
     "URL": "http://www.example.com/",
-    "Type": "est",
-    "AssociateId": 544,
-    "AssociateFullName": "Mrs. Dillan Madge Smitham PhD",
-    "TypeId": 179,
-    "Updated": "2014-09-18T03:40:47.4843558+02:00",
-    "StatusId": 783,
-    "Status": "et",
-    "TextId": 985,
-    "PublishTo": "2007-02-10T03:40:47.4843558+01:00",
-    "PublishFrom": "2019-02-01T03:40:47.4843558+01:00",
+    "Type": "nostrum",
+    "AssociateId": 162,
+    "AssociateFullName": "Estel Schaden",
+    "TypeId": 987,
+    "Updated": "2008-07-07T02:30:47.6944454+02:00",
+    "StatusId": 608,
+    "Status": "est",
+    "TextId": 967,
+    "PublishTo": "2006-04-03T02:30:47.6944454+02:00",
+    "PublishFrom": "2006-11-23T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "617194",
-    "ActiveErpLinks": 237,
+    "ProjectNumber": "1461569",
+    "ActiveErpLinks": 265,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

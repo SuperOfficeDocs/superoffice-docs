@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 905,
-  "StartTime": "2006-04-23T03:40:45.6387418+02:00",
-  "EndTime": "2018-08-28T03:40:45.6387418+02:00",
-  "Count": 902
+  "AssociateId": 916,
+  "StartTime": "2019-12-27T02:30:46.522607+01:00",
+  "EndTime": "2022-10-16T02:30:46.522607+02:00",
+  "Count": 514
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 436,
-    "StartDate": "2009-07-08T03:40:45.6387418+02:00",
-    "EndDate": "2004-04-26T03:40:45.6387418+02:00",
+    "AppointmentId": 92,
+    "StartDate": "1999-09-01T02:30:46.522607+02:00",
+    "EndDate": "2022-01-20T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Fatima Jocelyn Schaefer Sr.",
-    "ContactName": "Bosco LLC",
-    "Description": "Future-proofed logistical concept",
-    "PersonFullName": "Cristina Schimmel",
-    "PersonId": 825,
-    "ContactId": 656,
-    "ProjectId": 536,
-    "ProjectName": "Welch-Will",
+    "Task": "dolore",
+    "AssociateFullName": "Arielle Smith",
+    "ContactName": "Boyer-Friesen",
+    "Description": "Switchable mobile model",
+    "PersonFullName": "Dr. Mellie Jessie Hudson II",
+    "PersonId": 866,
+    "ContactId": 408,
+    "ProjectId": 601,
+    "ProjectName": "Hessel-Von",
     "IsPublished": false,
-    "AssociateId": 695,
-    "ColorIndex": 403,
-    "IsFree": false,
+    "AssociateId": 981,
+    "ColorIndex": 929,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 503,
-    "PriorityName": "Hickle LLC",
+    "PriorityId": 610,
+    "PriorityName": "Feil, Gleason and Kertzmann",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-09-23T03:40:45.6387418+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2024-06-16T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-12-24T03:40:45.6387418+01:00",
-    "RecurringEndDate": "2013-02-21T03:40:45.6387418+01:00",
-    "MotherId": 267,
-    "AssignedBy": 402,
-    "AssignedByFullName": "Otto Denesik",
+    "RecurringStartDate": "2022-06-10T02:30:46.522607+02:00",
+    "RecurringEndDate": "2004-01-24T02:30:46.522607+01:00",
+    "MotherId": 387,
+    "AssignedBy": 471,
+    "AssignedByFullName": "Dr. Fern Morissette MD",
     "RejectReason": "",
-    "Location": "excepturi",
-    "AlarmLeadTime": "id",
-    "SaleId": 393,
-    "SaleName": "Dietrich, Kilback and Sawayn",
-    "AssociateName": "Okuneva, Wolff and Tromp",
-    "CreatedDate": "2023-08-05T03:40:45.6387418+02:00",
-    "CreatedBy": "ipsa",
-    "CreatedByFullName": "Norberto Aurore Swift II",
-    "CreatedByAssociateId": 800,
+    "Location": "est",
+    "AlarmLeadTime": "odio",
+    "SaleId": 444,
+    "SaleName": "Gusikowski-Strosin",
+    "AssociateName": "Schroeder LLC",
+    "CreatedDate": "2017-06-06T02:30:46.522607+02:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Ms. Halie Pouros",
+    "CreatedByAssociateId": 819,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 303,
+    "MotherAssociateId": 853,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 302,
-    "Title": "facere",
-    "Agenda": "dolorem",
-    "InternalNotes": "atque",
+    "PreferredTZLocation": 652,
+    "Title": "fuga",
+    "Agenda": "voluptatum",
+    "InternalNotes": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 725
       }
     }
   }

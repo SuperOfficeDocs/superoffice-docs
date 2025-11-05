@@ -72,17 +72,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sauer-Robel",
-  "ProviderName": "Williamson-Hickle",
-  "Context": "autem",
-  "OwnerKeys": "enim",
+  "GuiName": "Barrows-Howell",
+  "ProviderName": "Bashirian Inc and Sons",
+  "Context": "qui",
+  "OwnerKeys": "ut",
   "Entities": [
-    "accusantium",
-    "hic"
+    "nemo",
+    "in"
   ]
 }
 ```

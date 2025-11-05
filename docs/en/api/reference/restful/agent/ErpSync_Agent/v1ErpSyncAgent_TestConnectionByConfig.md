@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 42,
+  "ErpConnectionId": 802,
   "ConfigFields": {
-    "ConfigFields1": "eaque",
-    "ConfigFields2": "at"
+    "ConfigFields1": "deserunt",
+    "ConfigFields2": "excepturi"
   }
 }
 ```

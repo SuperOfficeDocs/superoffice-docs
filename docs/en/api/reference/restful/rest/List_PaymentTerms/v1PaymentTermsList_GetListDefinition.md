@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Kerluke-Cremin",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 34,
-  "IsCustomList": true,
+  "Id": 125,
+  "Name": "Hirthe-Donnelly",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 535,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

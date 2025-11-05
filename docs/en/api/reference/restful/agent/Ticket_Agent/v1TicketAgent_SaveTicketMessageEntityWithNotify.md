@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 914,
+  "EjMessageId": 967,
   "Ticket": null,
-  "CreatedAt": "2010-11-10T03:40:48.1254917+01:00",
+  "CreatedAt": "1999-10-25T02:30:48.0538071+02:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 26,
-  "Body": "aperiam",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "ashlee.kshlerin@rempel.co.uk",
-  "DebugInfo": "autem",
-  "MailSorter": "voluptate",
+  "MessageId": "asperiores",
+  "TimeSpent": 718,
+  "Body": "aut",
+  "HtmlBody": "dolor",
+  "EmailHeader": "walter@mayertbrekke.name",
+  "DebugInfo": "pariatur",
+  "MailSorter": "dicta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptate",
+  "SearchTitle": "praesentium",
   "MessageHeaders": [
     {
-      "Id": 60,
-      "Name": "Rodriguez-Mertz",
-      "Value": "non",
+      "Id": 793,
+      "Name": "Veum Group",
+      "Value": "ipsum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,50 +147,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 11
         }
       }
     }
   ],
   "Important": false,
-  "Language": "suscipit",
-  "Sentiment": 666,
-  "SentimentConfidence": 572,
+  "Language": "et",
+  "Sentiment": 78,
+  "SentimentConfidence": 817,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 218,
-      "Name": "Gislason Group",
-      "ContentType": "animi",
-      "AttSize": 289,
+      "AttachmentId": 634,
+      "Name": "Sipes, Konopelski and Volkman",
+      "ContentType": "sequi",
+      "AttSize": 840,
       "InlineImage": true,
-      "ContentId": "quasi",
-      "AuthKey": "dolor",
-      "IsSafeFileExtension": false,
+      "ContentId": "voluptatem",
+      "AuthKey": "ipsam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "est"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 452
     }
   }
 }

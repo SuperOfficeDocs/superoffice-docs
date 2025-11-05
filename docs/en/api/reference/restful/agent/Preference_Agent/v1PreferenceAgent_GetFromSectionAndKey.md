@@ -94,12 +94,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "eum",
-  "Key": "aliquam"
+  "Section": "voluptas",
+  "Key": "libero"
 }
 ```
 
@@ -110,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 182,
-  "Section": "iusto",
-  "Key": "aut",
-  "Name": "Stiedemann-Robel",
+  "PrefDescId": 816,
+  "Section": "dolore",
+  "Key": "deleniti",
+  "Name": "Greenfelder, Ratke and Considine",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source fresh-thinking database",
-  "IsBuiltin": false,
-  "TableName": "Satterfield-Batz",
-  "UserDefinedListId": 944,
-  "Rank": 163,
-  "SubGroup": "temporibus",
-  "MinLevel": 591,
-  "MaxValue": 586,
-  "MinValue": 15,
-  "RequiredLicense": "quos",
+  "Description": "Balanced local moderator",
+  "IsBuiltin": true,
+  "TableName": "Renner, Jakubowski and Schmitt",
+  "UserDefinedListId": 40,
+  "Rank": 669,
+  "SubGroup": "voluptate",
+  "MinLevel": 713,
+  "MaxValue": 478,
+  "MinValue": 40,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 85
     }
   }
 }

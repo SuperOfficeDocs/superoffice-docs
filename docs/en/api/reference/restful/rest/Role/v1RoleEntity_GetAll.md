@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=autem
-GET /api/v1/Role?$top=242
-GET /api/v1/Role?$skip=541
+GET /api/v1/Role?$entities=quas
+GET /api/v1/Role?$top=299
+GET /api/v1/Role?$skip=357
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=et
+GET /api/v1/Role?$context=magnam
 GET /api/v1/Role?$format=JSON
-GET /api/v1/Role?$jsonSafe=False
+GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
 ```
 
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eius",
+  "odata.nextLink": "dolorem",
   "value": [
     {
-      "PrimaryKey": 3152,
-      "EntityName": "person",
-      "personId": 3152,
-      "fullName": "Claire Vaughn Balistreri V"
+      "PrimaryKey": 6547,
+      "EntityName": "sale",
+      "saleId": 6547,
+      "contactId": 6729,
+      "name": "Robel Inc and Sons"
     },
     {
-      "PrimaryKey": 7407,
-      "EntityName": "person",
-      "personId": 7407,
-      "fullName": "Norval Mosciski"
+      "PrimaryKey": 165,
+      "EntityName": "sale",
+      "saleId": 165,
+      "contactId": 5183,
+      "name": "Greenfelder LLC"
     }
   ]
 }

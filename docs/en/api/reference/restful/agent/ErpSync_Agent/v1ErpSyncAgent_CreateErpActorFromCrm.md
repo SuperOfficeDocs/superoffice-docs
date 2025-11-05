@@ -78,17 +78,17 @@ OK
 POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 834,
-  "CrmEntityId": 154,
+  "ConnectionId": 392,
+  "CrmEntityId": 960,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "ab",
-    "ErpFieldKeyValues2": "nesciunt"
+    "ErpFieldKeyValues1": "pariatur",
+    "ErpFieldKeyValues2": "beatae"
   }
 }
 ```

@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 661,
-  "Count": 231
+  "PersonId": 906,
+  "Count": 149
 }
 ```
 
@@ -149,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 735,
-    "StartDate": "1999-06-16T03:40:46.0452033+02:00",
-    "EndDate": "2025-10-06T03:40:46.0452033+02:00",
+    "AppointmentId": 370,
+    "StartDate": "2022-02-22T02:30:46.7882228+01:00",
+    "EndDate": "2006-11-01T02:30:46.7882228+01:00",
     "Type": "BookingForChecklist",
-    "Task": "fugiat",
-    "AssociateFullName": "Prof. Ewell Leann Bogisich",
-    "ContactName": "Gerhold Group",
-    "Description": "Centralized client-server knowledge user",
-    "PersonFullName": "Mr. Curt Grimes PhD",
-    "PersonId": 941,
-    "ContactId": 925,
-    "ProjectId": 676,
-    "ProjectName": "Brekke, Botsford and Aufderhar",
+    "Task": "est",
+    "AssociateFullName": "Forest Will",
+    "ContactName": "Pacocha, Cartwright and Pfeffer",
+    "Description": "Upgradable transitional concept",
+    "PersonFullName": "Prof. Rick Demetris Kulas Sr.",
+    "PersonId": 979,
+    "ContactId": 498,
+    "ProjectId": 184,
+    "ProjectName": "Kirlin, Mraz and Champlin",
     "IsPublished": false,
-    "AssociateId": 741,
-    "ColorIndex": 821,
+    "AssociateId": 850,
+    "ColorIndex": 743,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 150,
-    "PriorityName": "Torp, Hayes and Kling",
+    "PriorityId": 821,
+    "PriorityName": "McGlynn, Lemke and Emmerich",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1998-06-24T03:40:46.0452033+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-12-03T02:30:46.7882228+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-01-11T03:40:46.0452033+01:00",
-    "RecurringEndDate": "2017-05-15T03:40:46.0452033+02:00",
-    "MotherId": 162,
-    "AssignedBy": 998,
-    "AssignedByFullName": "Kristoffer Mante",
+    "RecurringStartDate": "2025-06-19T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2003-08-28T02:30:46.7882228+02:00",
+    "MotherId": 258,
+    "AssignedBy": 877,
+    "AssignedByFullName": "Stephan Citlalli Kerluke Jr.",
     "RejectReason": "",
-    "Location": "suscipit",
-    "AlarmLeadTime": "a",
-    "SaleId": 412,
-    "SaleName": "Volkman LLC",
-    "AssociateName": "Larson Inc and Sons",
-    "CreatedDate": "2005-12-29T03:40:46.0452033+01:00",
-    "CreatedBy": "reiciendis",
-    "CreatedByFullName": "Miss Genevieve Vidal Anderson IV",
-    "CreatedByAssociateId": 478,
+    "Location": "aperiam",
+    "AlarmLeadTime": "similique",
+    "SaleId": 522,
+    "SaleName": "Collins, Gutkowski and Bogisich",
+    "AssociateName": "Green Inc and Sons",
+    "CreatedDate": "2001-02-09T02:30:46.7882228+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Prof. Oswald Emelia Senger Sr.",
+    "CreatedByAssociateId": 92,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 861,
+    "MotherAssociateId": 22,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 63,
-    "Title": "in",
-    "Agenda": "voluptas",
-    "InternalNotes": "rerum",
+    "PreferredTZLocation": 778,
+    "Title": "eligendi",
+    "Agenda": "unde",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

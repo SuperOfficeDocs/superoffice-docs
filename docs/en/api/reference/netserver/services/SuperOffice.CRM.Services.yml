@@ -85,6 +85,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent
   - SuperOffice.CRM.Services.ContactEntity
   - SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings
   - SuperOffice.CRM.Services.ContactPersonId
   - SuperOffice.CRM.Services.ContactRelationEntity
   - SuperOffice.CRM.Services.ContactSummary
@@ -1536,6 +1537,13 @@ references:
   name: ContactOrPersonFromEmail
   nameWithType: ContactOrPersonFromEmail
   fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  commentId: T:SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.html
+  name: ContactPersonBoardViewSettings
+  nameWithType: ContactPersonBoardViewSettings
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
 - uid: SuperOffice.CRM.Services.ContactPersonId
   commentId: T:SuperOffice.CRM.Services.ContactPersonId
   isExternal: true

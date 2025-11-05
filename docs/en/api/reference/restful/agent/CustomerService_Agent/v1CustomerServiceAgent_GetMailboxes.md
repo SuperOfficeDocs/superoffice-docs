@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 958,
-    "Address": "dolorem",
+    "MailInFilterId": 4,
+    "Address": "esse",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Hamill, O'Keefe and Simonis",
+    "PriorityName": "Prosacco Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   },
   {
-    "MailInFilterId": 958,
-    "Address": "dolorem",
+    "MailInFilterId": 4,
+    "Address": "esse",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Hamill, O'Keefe and Simonis",
+    "PriorityName": "Prosacco Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Huels, Wehner and Heidenreich",
-    "DisplayName": "Corkery Inc and Sons",
-    "Description": "Assimilated radical throughput",
-    "ShortLabel": "et",
-    "HideLabel": false,
+    "FieldName": "West Group",
+    "DisplayName": "Konopelski-Jerde",
+    "Description": "Adaptive responsive database",
+    "ShortLabel": "ex",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 820,
-    "TemplateVariableName": "Schaefer LLC"
+    "Rank": 126,
+    "TemplateVariableName": "Kiehn, Yost and Conroy"
   }
 ]
 ```

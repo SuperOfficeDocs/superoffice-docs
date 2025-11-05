@@ -82,27 +82,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": true,
-  "TZOffset": 869,
-  "RecaptchaSiteKey": "natus",
+  "TZOffset": 132,
+  "RecaptchaSiteKey": "alias",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "vero",
+      "RawValue": "labore",
       "Specification": null,
-      "DisplayValue": "neque",
-      "DisplayTooltip": "iste",
+      "DisplayValue": "quia",
+      "DisplayTooltip": "eaque",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 822,
-      "PrefDescId": 879,
-      "TableName": "Fahey LLC",
-      "UserPreferenceId": 575,
+      "TargetId": 421,
+      "PrefDescId": 1002,
+      "TableName": "Farrell-Volkman",
+      "UserPreferenceId": 486,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldLength": 22
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 828
     }
   }
 }

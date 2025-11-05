@@ -96,12 +96,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 681,
-  "Name": "Weissnat LLC",
-  "Tooltip": "dolor",
-  "PassiveText": "esse",
+  "ReldefId": 850,
+  "Name": "Brakus-Littel",
+  "Tooltip": "optio",
+  "PassiveText": "non",
   "Deleted": false,
-  "Rank": 930,
+  "Rank": 640,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,20 +114,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 166,
-  "Name": "Jast, Hackett and Christiansen",
-  "Tooltip": "eius",
-  "PassiveText": "quia",
-  "Deleted": true,
-  "Rank": 381,
+  "ReldefId": 625,
+  "Name": "Price LLC",
+  "Tooltip": "enim",
+  "PassiveText": "repudiandae",
+  "Deleted": false,
+  "Rank": 138,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   },
   "_Links": {

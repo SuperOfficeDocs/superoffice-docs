@@ -91,11 +91,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kovacek, Kassulke and Bogisich",
-  "DeviceName": "Zemlak, Heidenreich and McDermott",
-  "KeyName": "Walker-Hayes",
-  "KeyValue": "repellat",
-  "TableName": "Rolfson-Hane"
+  "ApplicationName": "Lockman LLC",
+  "DeviceName": "Prohaska Group",
+  "KeyName": "Tromp Inc and Sons",
+  "KeyValue": "est",
+  "TableName": "Brown LLC"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "commodi",
-  "Value": "eos",
-  "RecordId": 36,
-  "CreatedDate": "2000-06-22T03:40:46.9999043+02:00",
-  "UpdatedDate": "2010-01-28T03:40:46.9999043+01:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "nulla",
-  "TableName": "Price-Schmitt",
+  "Key": "accusantium",
+  "Value": "aut",
+  "RecordId": 822,
+  "CreatedDate": "2005-05-09T02:30:47.366331+02:00",
+  "UpdatedDate": "2006-06-11T02:30:47.366331+02:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "ullam",
+  "TableName": "Olson-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   }
 }

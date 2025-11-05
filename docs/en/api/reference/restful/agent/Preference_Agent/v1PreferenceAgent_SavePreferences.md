@@ -77,14 +77,14 @@ Content-Type: application/json; charset=utf-8
       "Level": "Database",
       "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "alias",
-      "DisplayTooltip": "molestiae",
+      "DisplayValue": "odit",
+      "DisplayTooltip": "saepe",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 581,
-      "PrefDescId": 284,
-      "TableName": "Cummings, Frami and Graham",
-      "UserPreferenceId": 873
+      "TargetId": 744,
+      "PrefDescId": 944,
+      "TableName": "Effertz, Tremblay and O'Hara",
+      "UserPreferenceId": 567
     }
   ]
 }

@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 385,
-  "Name": "Okuneva, Boyer and Heidenreich",
-  "Tooltip": "a",
+  "HeadingId": 706,
+  "Name": "Daugherty-Swift",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 99,
-  "UdListDefinitionId": 344
+  "Rank": 420,
+  "UdListDefinitionId": 238
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 274,
-  "Name": "Kutch-Kunde",
-  "Tooltip": "fugit",
+  "HeadingId": 572,
+  "Name": "Strosin Inc and Sons",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 287,
-  "UdListDefinitionId": 84,
+  "Rank": 746,
+  "UdListDefinitionId": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

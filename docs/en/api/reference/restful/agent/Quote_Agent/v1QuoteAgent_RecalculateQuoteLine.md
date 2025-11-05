@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "ullam",
-    "officiis"
+    "repudiandae",
+    "quis"
   ]
 }
 ```
@@ -145,88 +145,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 203,
-  "ERPQuoteLineKey": "eos",
-  "QuoteAlternativeId": 250,
-  "ERPProductKey": "aut",
+  "QuoteLineId": 473,
+  "ERPQuoteLineKey": "aperiam",
+  "QuoteAlternativeId": 791,
+  "ERPProductKey": "modi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1128.24,
-  "DeliveredQuantity": 13031.172,
-  "Rank": 421,
-  "Name": "Altenwerth, Hirthe and Marvin",
-  "Description": "User-centric maximized structure",
-  "Code": "et",
-  "QuantityUnit": "aut",
-  "PriceUnit": "veniam",
-  "ItemNumber": "824114",
+  "Quantity": 4190.1579999999994,
+  "DeliveredQuantity": 27547.86,
+  "Rank": 781,
+  "Name": "VonRueden, Mohr and Rippin",
+  "Description": "Operative 24/7 paradigm",
+  "Code": "dolore",
+  "QuantityUnit": "laborum",
+  "PriceUnit": "quo",
+  "ItemNumber": "857621",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "delectus",
-  "ProductTypeKey": "adipisci",
-  "Supplier": "est",
-  "SupplierCode": "consectetur",
-  "Thumbnail": "in",
-  "VATInfo": "voluptas",
-  "VAT": 25639.254,
-  "UnitCost": 7458.92,
-  "UnitMinimumPrice": 17052.094,
-  "UnitListPrice": 26356.94,
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "sit",
+  "Supplier": "alias",
+  "SupplierCode": "iste",
+  "Thumbnail": "esse",
+  "VATInfo": "in",
+  "VAT": 2441.386,
+  "UnitCost": 10843.64,
+  "UnitMinimumPrice": 19615.706,
+  "UnitListPrice": 3312.638,
   "ExtraInfo": [
     {
-      "Name": "Kohler LLC",
-      "Value": "aut",
+      "Name": "Kautzer LLC",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 154
         }
       }
     },
     {
-      "Name": "Kohler LLC",
-      "Value": "aut",
+      "Name": "Kautzer LLC",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 154
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "soluta",
-  "SubscriptionQuantity": 18487.466,
-  "SubscriptionStart": "2019-06-24T03:40:47.5161986+02:00",
-  "ERPDiscountPercent": 8207.946,
-  "ERPDiscountAmount": 20621.719999999998,
-  "DiscountPercent": 17682.028,
-  "DiscountAmount": 15914.452,
+  "RawExtraInfo": "consequatur",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 16904.796,
+  "SubscriptionStart": "2009-06-20T02:30:47.7100701+02:00",
+  "ERPDiscountPercent": 26930.462,
+  "ERPDiscountAmount": 17456.38,
+  "DiscountPercent": 5656.87,
+  "DiscountAmount": 3466.2039999999997,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13676.776,
-  "EarningAmount": 19236.492,
-  "SubTotal": 25068.865999999998,
-  "TotalPrice": 1382.094,
-  "Rights": "doloremque",
-  "Rule": "rerum",
-  "ExtraField1": "earum",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "ut",
-  "ExtraField5": "perferendis",
+  "EarningPercent": 21655.94,
+  "EarningAmount": 4860.834,
+  "SubTotal": 7979.164,
+  "TotalPrice": 28453.586,
+  "Rights": "quis",
+  "Rule": "laborum",
+  "ExtraField1": "omnis",
+  "ExtraField2": "provident",
+  "ExtraField3": "ut",
+  "ExtraField4": "quos",
+  "ExtraField5": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 890
     }
   }
 }

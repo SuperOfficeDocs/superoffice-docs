@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    536,
-    830
+    223,
+    104
   ]
 }
 ```
@@ -109,45 +109,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 376,
-    "MessageId": "explicabo",
-    "Subject": "consequuntur",
+    "ServerId": 109,
+    "MessageId": "ut",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 931,
-        "ContactName": "Schimmel, Stanton and Hartmann",
-        "PersonId": 814,
-        "PersonName": "Greenholt, Pacocha and Spencer",
-        "AssociateId": 905,
-        "Address": "nobis",
-        "EmailId": 484,
+        "ContactId": 554,
+        "ContactName": "Ratke Inc and Sons",
+        "PersonId": 860,
+        "PersonName": "Hettinger Inc and Sons",
+        "AssociateId": 102,
+        "Address": "et",
+        "EmailId": 152,
         "DuplicatePersonIds": [
-          153,
-          703
+          158,
+          87
         ],
-        "Name": "Larkin Group",
+        "Name": "Predovic-Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 626
+            "FieldType": "System.Int32",
+            "FieldLength": 861
           }
         }
       }
     ],
-    "Sent": "2020-07-21T03:40:46.8905223+02:00",
+    "Sent": "2021-09-04T02:30:47.3038336+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 813,
+    "Size": 962,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 676
       }
     }
   }

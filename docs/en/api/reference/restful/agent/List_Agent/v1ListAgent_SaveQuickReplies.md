@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/List/SaveQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 421,
-      "Name": "Emmerich, Boyer and Runolfsson",
-      "HtmlBody": "nulla"
+      "QuickReplyId": 413,
+      "Name": "Leannon-Hessel",
+      "HtmlBody": "id"
     },
     {
-      "QuickReplyId": 421,
-      "Name": "Emmerich, Boyer and Runolfsson",
-      "HtmlBody": "nulla"
+      "QuickReplyId": 413,
+      "Name": "Leannon-Hessel",
+      "HtmlBody": "id"
     }
   ]
 }

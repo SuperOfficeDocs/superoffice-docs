@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walter LLC",
-  "FieldName": "Kilback, Gibson and Kihn"
+  "TableName": "Conroy-Mayer",
+  "FieldName": "Ward Inc and Sons"
 }
 ```
 
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Ferry LLC",
-  "DisplayName": "Conn-Boyle",
-  "Description": "Virtual high-level utilisation",
-  "ShortLabel": "laboriosam",
+  "FieldName": "Keebler-Krajcik",
+  "DisplayName": "Crist, Sipes and Quitzon",
+  "Description": "Adaptive asynchronous knowledge base",
+  "ShortLabel": "non",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
+  "IsMandatory": true,
+  "IsReadOnly": true,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 969,
-  "TemplateVariableName": "Anderson-Harris"
+  "Rank": 613,
+  "TemplateVariableName": "Waters, Kemmer and Lakin"
 }
 ```

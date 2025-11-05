@@ -11978,6 +11978,8 @@
       href: Services88/BLOB/GetQuoteLineImage.md
     - name: GetQuoteLineImageAsStream
       href: Services88/BLOB/GetQuoteLineImageAsStream.md
+    - name: GetRawPersonImage
+      href: Services88/BLOB/GetRawPersonImage.md
     - name: SaveBlobEntity
       href: Services88/BLOB/SaveBlobEntity.md
     - name: SaveImageStream

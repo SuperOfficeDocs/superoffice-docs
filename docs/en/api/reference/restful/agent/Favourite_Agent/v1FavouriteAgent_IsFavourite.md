@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mante-Hane",
-  "RecordId": 939,
-  "AssociateId": 224
+  "TableName": "O'Hara-Osinski",
+  "RecordId": 850,
+  "AssociateId": 799
 }
 ```
 

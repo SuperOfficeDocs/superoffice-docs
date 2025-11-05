@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | cRMScriptEntityId | int32 | **Required** The identity of the CRMScriptEntity |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=358
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=131
 ```
 
 
@@ -62,7 +62,7 @@ No Content
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

@@ -1120,6 +1120,10 @@ items:
     name: ContactEntity
   - uid: SuperOffice.WebApi.Data.ContactOrPersonFromEmail
     name: ContactOrPersonFromEmail
+  - uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+    name: ContactPersonBoardEntity
+  - uid: SuperOffice.WebApi.Data.ContactPersonBoardViewSettings
+    name: ContactPersonBoardViewSettings
   - uid: SuperOffice.WebApi.Data.ContactPersonId
     name: ContactPersonId
   - uid: SuperOffice.WebApi.Data.ContactRelationEntity
@@ -2432,6 +2436,8 @@ items:
     name: List_DeleteListEntityByNameRequest
   - uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
     name: List_DeleteProjectStatusRequest
+  - uid: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
+    name: List_DeleteTaskMenuRequest
   - uid: SuperOffice.WebApi.Data.List_DeleteWebPanelRequest
     name: List_DeleteWebPanelRequest
   - uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
@@ -2660,6 +2666,10 @@ items:
     name: List_SaveListItemEntityRequest
   - uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
     name: List_SaveQuickRepliesRequest
+  - uid: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
+    name: List_SaveTaskMenuRequest
+  - uid: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
+    name: List_SaveWebPanelEntityRequest
   - uid: SuperOffice.WebApi.Data.List_SetDocumentPluginForAllDocumentTemplatesRequest
     name: List_SetDocumentPluginForAllDocumentTemplatesRequest
   - uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest

@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kihn LLC",
+  "TaskName": "Wisoky Group",
   "State": "All"
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Christiansen, Murphy and Botsford",
-    "AssociateId": 744,
-    "DetailsTable": 798,
-    "DetailsRecord": 751,
+    "Id": 886,
+    "Name": "Feil-Bins",
+    "AssociateId": 411,
+    "DetailsTable": 973,
+    "DetailsRecord": 844,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "ad"
+      "ParameterObject1": "eum",
+      "ParameterObject2": "natus"
     },
-    "LastStarted": "2019-01-16T03:40:46.0764548+01:00",
-    "Created": "2000-03-01T03:40:46.0764548+01:00",
-    "StartCount": 979,
-    "DatabaseSerialNumber": "1567179",
-    "Context": "ut",
-    "Result": "fuga",
+    "LastStarted": "2021-08-02T02:30:46.8194719+02:00",
+    "Created": "2017-12-08T02:30:46.8194719+01:00",
+    "StartCount": 46,
+    "DatabaseSerialNumber": "1081324",
+    "Context": "sit",
+    "Result": "minima",
     "State": "All",
-    "Description": "Team-oriented disintermediate pricing structure",
-    "Response": "in",
-    "Request": "aperiam",
-    "ProgressDescription": "Innovative empowering workforce",
-    "ProgressPercent": 578,
-    "FileName": "Hamill LLC",
+    "Description": "Fundamental 4th generation parallelism",
+    "Response": "eaque",
+    "Request": "rerum",
+    "ProgressDescription": "Managed zero defect project",
+    "ProgressPercent": 813,
+    "FileName": "Lowe, Waelchi and Runolfsdottir",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 624
       }
     }
   }

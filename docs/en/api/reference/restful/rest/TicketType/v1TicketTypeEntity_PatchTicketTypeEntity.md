@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "non",
     "value": {}
   }
 ]
@@ -152,45 +152,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 857,
-  "Name": "Jast Group",
-  "Rank": 901,
-  "Tooltip": "qui",
-  "Icon": "qui",
-  "DefaultTicketStatus": 616,
+  "TicketTypeId": 561,
+  "Name": "Witting, Barton and Labadie",
+  "Rank": 420,
+  "Tooltip": "eum",
+  "Icon": "quas",
+  "DefaultTicketStatus": 447,
   "TicketStatuses": [
-    684,
-    899
+    270,
+    945
   ],
-  "DefaultTicketPriority": 626,
+  "DefaultTicketPriority": 887,
   "TicketPriorities": [
-    515,
-    858
+    130,
+    362
   ],
-  "ReplyTemplate": 145,
+  "ReplyTemplate": 137,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    592,
-    849
+    877,
+    191
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 426
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

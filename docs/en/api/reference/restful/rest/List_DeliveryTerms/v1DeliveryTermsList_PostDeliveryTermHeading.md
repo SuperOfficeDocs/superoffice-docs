@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 308,
-  "Name": "Ritchie, Hirthe and Wyman",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 565,
-  "UdListDefinitionId": 106
+  "HeadingId": 871,
+  "Name": "Flatley, Schamberger and Keebler",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 887,
+  "UdListDefinitionId": 558
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 68,
-  "Name": "Treutel LLC",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 569,
-  "UdListDefinitionId": 941,
+  "HeadingId": 711,
+  "Name": "Kiehn, Bartoletti and Morar",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 10,
+  "UdListDefinitionId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 842
     }
   }
 }

@@ -80,17 +80,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 516,
-  "Name": "Murazik-Mertz",
-  "ContentType": "non",
-  "AttSize": 675,
+  "AttachmentId": 634,
+  "Name": "Turcotte, Renner and Nienow",
+  "ContentType": "voluptate",
+  "AttSize": 923,
   "InlineImage": false,
-  "ContentId": "incidunt",
-  "AuthKey": "totam",
+  "ContentId": "ut",
+  "AuthKey": "tempora",
   "IsSafeFileExtension": false
 }
 ```
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 625,
-  "Name": "Skiles LLC",
-  "ContentType": "eaque",
-  "AttSize": 346,
-  "InlineImage": true,
-  "ContentId": "dolor",
-  "AuthKey": "perspiciatis",
+  "AttachmentId": 960,
+  "Name": "Wiegand-Spinka",
+  "ContentType": "odio",
+  "AttSize": 339,
+  "InlineImage": false,
+  "ContentId": "repellat",
+  "AuthKey": "illo",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 803
     }
   }
 }

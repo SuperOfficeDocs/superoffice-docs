@@ -136,11 +136,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 113,
+  "AppointmentId": 427,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -156,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-03-28T03:40:45.935643+02:00",
-  "AppointmentId": 362,
-  "Description": "Multi-lateral holistic solution",
-  "Title": "nobis",
-  "Agenda": "illum",
-  "InternalNotes": "et",
-  "StartDate": "2004-01-12T03:40:45.935643+01:00",
-  "EndDate": "2007-06-13T03:40:45.935643+02:00",
+  "CreatedDate": "2003-06-28T02:30:46.6632264+02:00",
+  "AppointmentId": 462,
+  "Description": "Synergized solution-oriented circuit",
+  "Title": "voluptatum",
+  "Agenda": "saepe",
+  "InternalNotes": "odio",
+  "StartDate": "2003-09-25T02:30:46.6632264+02:00",
+  "EndDate": "2006-08-01T02:30:46.6632264+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 184,
+  "MotherId": 620,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-04-03T03:40:45.935643+02:00",
+  "UpdatedDate": "2003-01-10T02:30:46.6632264+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 447,
+  "ActiveLinks": 422,
   "Links": [
     {
-      "EntityName": "Hand, Welch and Hayes",
-      "Id": 980,
-      "Description": "Extended national open architecture",
-      "ExtraInfo": "cumque",
-      "LinkId": 224,
+      "EntityName": "Frami-Quigley",
+      "Id": 872,
+      "Description": "Secured motivating access",
+      "ExtraInfo": "quas",
+      "LinkId": 698,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 931
         }
       }
     }
   ],
-  "AlarmLeadTime": "asperiores",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 352,
+  "ColorIndex": 765,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "velit",
-  "LeadTime": "vel",
-  "Location": "id",
-  "RejectCounter": 14,
+  "IsAlldayEvent": false,
+  "LagTime": "sint",
+  "LeadTime": "mollitia",
+  "Location": "occaecati",
+  "RejectCounter": 671,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 389,
-      "PersonId": 29,
-      "ContactId": 990,
-      "EmailId": 70,
-      "SendEmail": true,
+      "AssociateId": 588,
+      "PersonId": 578,
+      "ContactId": 403,
+      "EmailId": 327,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eulah@treutel.com",
-      "Description": "Universal 24/7 algorithm"
+      "EmailAddress": "madyson.cronin@russeloconnell.com",
+      "Description": "Expanded transitional intranet"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-04-02T03:40:45.935643+02:00",
+  "ActiveDate": "2019-09-23T02:30:46.6632264+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 158,
+  "PreferredTZLocation": 652,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 557,
+  "SuggestedAppointmentId": 586,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "in",
+  "CentralserviceVideomeetId": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "407581776",
-    "SuperOffice:2": "Skylar Heller"
+    "SuperOffice:1": "Ms. Maybelle Lily Barton",
+    "SuperOffice:2": "Kaia Koelpin DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "autem"
+    "CustomFields1": "quia",
+    "CustomFields2": "sequi"
   },
-  "PublishEventDate": "2022-01-15T03:40:45.935643+01:00",
-  "PublishTo": "2006-09-07T03:40:45.935643+02:00",
-  "PublishFrom": "2004-07-30T03:40:45.935643+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-02-06T02:30:46.6632264+01:00",
+  "PublishTo": "2000-07-08T02:30:46.6632264+02:00",
+  "PublishFrom": "2001-05-09T02:30:46.6632264+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 531,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     },
     {
-      "VisibleId": 531,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 70
     }
   }
 }

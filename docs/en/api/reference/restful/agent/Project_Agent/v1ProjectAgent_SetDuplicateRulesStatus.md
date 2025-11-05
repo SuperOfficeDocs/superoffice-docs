@@ -73,15 +73,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Murray-Franecki",
-      "DisplayName": "Tremblay, Lindgren and Durgan",
-      "DisplayTooltip": "quos",
+      "Name": "Hickle, Keeling and Treutel",
+      "DisplayName": "Lindgren, Corkery and Mante",
+      "DisplayTooltip": "voluptatem",
       "IsActive": true
     },
     {
-      "Name": "Murray-Franecki",
-      "DisplayName": "Tremblay, Lindgren and Durgan",
-      "DisplayTooltip": "quos",
+      "Name": "Hickle, Keeling and Treutel",
+      "DisplayName": "Lindgren, Corkery and Mante",
+      "DisplayTooltip": "voluptatem",
       "IsActive": true
     }
   ]

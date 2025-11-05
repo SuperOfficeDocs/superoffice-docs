@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Graham, Ryan and Bayer",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 488
+    "HeadingId": 584,
+    "Name": "Denesik LLC",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 526,
+    "UdListDefinitionId": 876
   },
   {
-    "HeadingId": 1002,
-    "Name": "Graham, Ryan and Bayer",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 488
+    "HeadingId": 584,
+    "Name": "Denesik LLC",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 526,
+    "UdListDefinitionId": 876
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 497,
-    "Name": "Denesik, Bechtelar and Crona",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 93,
+    "HeadingId": 175,
+    "Name": "Miller, Kuhlman and Williamson",
+    "Tooltip": "ducimus",
+    "Deleted": true,
+    "Rank": 603,
+    "UdListDefinitionId": 176,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

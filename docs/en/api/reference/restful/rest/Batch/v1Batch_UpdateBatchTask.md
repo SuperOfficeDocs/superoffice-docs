@@ -116,30 +116,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Dare, Kunde and Cartwright",
-  "AssociateId": 55,
-  "DetailsTable": 122,
-  "DetailsRecord": 919,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 244,
+  "Name": "Schmitt-Schneider",
+  "AssociateId": 179,
+  "DetailsTable": 411,
+  "DetailsRecord": 914,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nisi",
-    "ParameterObject2": "ratione"
+    "ParameterObject1": "nam",
+    "ParameterObject2": "asperiores"
   },
-  "LastStarted": "2007-06-19T03:40:56.4303339+02:00",
-  "Created": "2021-07-02T03:40:56.4303339+02:00",
-  "StartCount": 944,
-  "DatabaseSerialNumber": "1548327",
-  "Context": "explicabo",
-  "Result": "doloribus",
+  "LastStarted": "2010-04-05T02:30:53.0380235+02:00",
+  "Created": "2003-10-09T02:30:53.0380235+02:00",
+  "StartCount": 172,
+  "DatabaseSerialNumber": "639254",
+  "Context": "accusantium",
+  "Result": "cum",
   "State": "All",
-  "Description": "Intuitive object-oriented Graphic Interface",
-  "Response": "minima",
-  "Request": "omnis",
-  "ProgressDescription": "Intuitive needs-based database",
-  "ProgressPercent": 43,
-  "FileName": "Cummings, O'Keefe and McDermott",
+  "Description": "Exclusive value-added secured line",
+  "Response": "magnam",
+  "Request": "aut",
+  "ProgressDescription": "Re-contextualized even-keeled artificial intelligence",
+  "ProgressPercent": 139,
+  "FileName": "Turner LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Corkery LLC",
-  "AssociateId": 642,
-  "DetailsTable": 290,
-  "DetailsRecord": 583,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 261,
+  "Name": "Jones, Spencer and Ruecker",
+  "AssociateId": 520,
+  "DetailsTable": 423,
+  "DetailsRecord": 830,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "laborum",
-    "ParameterObject2": "dignissimos"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "ducimus"
   },
-  "LastStarted": "2001-08-22T03:40:56.4303339+02:00",
-  "Created": "2024-06-23T03:40:56.4303339+02:00",
-  "StartCount": 278,
-  "DatabaseSerialNumber": "407943",
-  "Context": "voluptatem",
-  "Result": "eos",
+  "LastStarted": "2023-07-04T02:30:53.0380235+02:00",
+  "Created": "2001-08-06T02:30:53.0380235+02:00",
+  "StartCount": 327,
+  "DatabaseSerialNumber": "923069",
+  "Context": "molestiae",
+  "Result": "quia",
   "State": "All",
-  "Description": "Profound encompassing system engine",
-  "Response": "eaque",
-  "Request": "dolores",
-  "ProgressDescription": "Integrated interactive circuit",
-  "ProgressPercent": 69,
-  "FileName": "Hintz LLC",
+  "Description": "Profit-focused asynchronous knowledge base",
+  "Response": "molestias",
+  "Request": "corrupti",
+  "ProgressDescription": "User-friendly system-worthy project",
+  "ProgressPercent": 398,
+  "FileName": "Beier Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

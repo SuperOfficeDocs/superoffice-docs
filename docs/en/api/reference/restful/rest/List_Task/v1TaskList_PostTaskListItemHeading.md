@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 508,
-  "Name": "Grant Inc and Sons",
-  "Tooltip": "assumenda",
+  "HeadingId": 579,
+  "Name": "Cole-Walker",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 885,
-  "UdListDefinitionId": 292
+  "Rank": 748,
+  "UdListDefinitionId": 832
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 154,
-  "Name": "Romaguera Group",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 92,
-  "UdListDefinitionId": 155,
+  "HeadingId": 911,
+  "Name": "Veum, Blanda and Schmeler",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 300,
+  "UdListDefinitionId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 278
     }
   }
 }

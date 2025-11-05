@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Eichmann LLC",
-  "Tooltip": "ratione",
+  "Id": 889,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 821,
+  "Rank": 291,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   },
   "_Links": {

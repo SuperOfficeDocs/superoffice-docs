@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "VonRueden, Oberbrunner and Roberts",
-    "ToolTip": "Reiciendis est et rerum vel expedita quaerat.",
-    "Deleted": true,
-    "Rank": 218,
-    "Type": "dolores",
-    "ColorBlock": 379,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "2009-08-06T03:40:57.1027301+02:00",
+    "Id": 775,
+    "Name": "Denesik Group",
+    "ToolTip": "Officiis id ex fugit sint voluptatem.",
+    "Deleted": false,
+    "Rank": 169,
+    "Type": "distinctio",
+    "ColorBlock": 665,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2004-03-19T02:30:53.4442597+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Cremin-Pfeffer",
-        "ToolTip": "Cum est voluptatem totam.",
-        "Deleted": true,
-        "Rank": 447,
-        "Type": "omnis",
-        "ColorBlock": 783,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2007-10-10T03:40:57.1027301+02:00",
+        "Id": 707,
+        "Name": "Macejkovic, Jacobs and Keebler",
+        "ToolTip": "Aut error facere accusamus ad voluptas aut occaecati.",
+        "Deleted": false,
+        "Rank": 596,
+        "Type": "quae",
+        "ColorBlock": 976,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "1999-12-29T02:30:53.4442597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "delectus",
+        "ExtraInfo": "sed",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Rashad Schaefer",
+        "FullName": "Mrs. Chad Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 613
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Prof. Silas Keshaun Herman",
+    "ExtraInfo": "cum",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Robb Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 261
       }
     }
   }

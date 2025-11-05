@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | configurableScreenDeltaId | int32 | **Required** The identity of the ConfigurableScreenDelta |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=938
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=783
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Treutel-Little",
-    "Tooltip": "optio",
+    "Id": 923,
+    "Name": "Wehner Group",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 502,
-    "Rank": 811,
+    "UdListDefinitionId": 976,
+    "Rank": 858,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 498
       }
     }
   }

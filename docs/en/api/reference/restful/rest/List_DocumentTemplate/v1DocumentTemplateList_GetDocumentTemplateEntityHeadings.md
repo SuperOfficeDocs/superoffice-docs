@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 494,
-    "Name": "Strosin Group",
-    "Tooltip": "placeat",
+    "HeadingId": 684,
+    "Name": "Muller Group",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 301,
+    "Rank": 771,
+    "UdListDefinitionId": 175,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

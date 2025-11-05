@@ -88,8 +88,10 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |consentPerson/person/personCategory|listAny|Contact - Category| x |
 |consentPerson/person/personCategoryGroup|listAny|Contact - Category group| x |
+|consentPerson/person/personCategoryRank|int|Contact - !!Category rank| x |
 |consentPerson/person/personBusiness|listAny|Contact - Business| x |
-|consentPerson/person/leadstatus|listAny|Contact - Lead status| x |
+|consentPerson/person/leadStatus|listAny|Contact - Lead status| x |
+|consentPerson/person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |consentPerson/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |consentPerson/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |consentPerson/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
@@ -121,12 +123,12 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personUrl/URLAddress|string|Contact - URL| x |
 |consentPerson/person/personUrl/URLDescription|string|Contact - Description| x |
 |consentPerson/person/personAddress/addressId|int|Contact - Contact address - Address ID: Database ID for the address record| x |
-|consentPerson/person/personAddress/line1|string|Contact - Contact address - Address 1: First line of the address| x |
-|consentPerson/person/personAddress/line2|string|Contact - Contact address - Address 2: Second line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|consentPerson/person/personAddress/line1|string|Contact - Contact address - Address 1: First line of the address| x |
+|consentPerson/person/personAddress/line2|string|Contact - Contact address - Address 2: Second line of the address| x |
 |consentPerson/person/personAddress/line3|string|Contact - Contact address - Address 3: Third line of the address| x |
 |consentPerson/person/personAddress/county|string|Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |consentPerson/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -165,8 +167,8 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personExtra/x\_person\_appointment\_relation|stringorPK|Contact - Extra appointment relation: Appointment relation on person| x |
 |consentPerson/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
 |consentPerson/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|consentPerson/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
-|consentPerson/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
+|consentPerson/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental: Start rental| x |
+|consentPerson/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End: End| x |
 |consentPerson/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |consentPerson/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |consentPerson/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -185,7 +187,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/email/emailBounceCount,consentPerson/person/personExtra/x_person_appointment_relation,consentPerson/person/personRegisteredBy
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personRegisteredBy,consentPerson/person/personDirectPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 876,
-  "Type": 377
+  "GroupId": 134,
+  "Type": 498
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 897,
-    "Name": "Jast-Bechtelar",
-    "PersonId": 849,
-    "Rank": 3,
-    "Tooltip": "ut",
+    "AssociateId": 655,
+    "Name": "Quitzon LLC",
+    "PersonId": 227,
+    "Rank": 565,
+    "Tooltip": "dignissimos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 905,
-    "FullName": "Lisa Harvey",
-    "FormalName": "Little-Kuhlman",
+    "GroupIdx": 821,
+    "FullName": "Juana Wiza",
+    "FormalName": "Crooks Group",
     "Deleted": false,
-    "EjUserId": 964,
-    "UserName": "Simonis-Cormier",
+    "EjUserId": 43,
+    "UserName": "Quitzon Group",
     "ExtraFields": {
-      "ExtraFields1": "inventore",
-      "ExtraFields2": "tempore"
+      "ExtraFields1": "sequi",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "in",
-      "CustomFields2": "fugiat"
+      "CustomFields1": "debitis",
+      "CustomFields2": "est"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 987
       }
     }
   }

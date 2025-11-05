@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Roob, Pfannerstill and Hoppe",
-    "Tooltip": "quia",
+    "HeadingId": 132,
+    "Name": "Stiedemann Group",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 374
+    "Rank": 309,
+    "UdListDefinitionId": 225
   },
   {
-    "HeadingId": 415,
-    "Name": "Roob, Pfannerstill and Hoppe",
-    "Tooltip": "quia",
+    "HeadingId": 132,
+    "Name": "Stiedemann Group",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 374
+    "Rank": 309,
+    "UdListDefinitionId": 225
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 140,
-    "Name": "Turcotte Group",
-    "Tooltip": "dicta",
+    "HeadingId": 673,
+    "Name": "Huels LLC",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 675,
-    "UdListDefinitionId": 35,
+    "Rank": 19,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 545
       }
     }
   }

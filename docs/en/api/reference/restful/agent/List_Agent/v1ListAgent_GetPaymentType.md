@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=648
+POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=774
 POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 ```
 
@@ -82,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191,
-  "Value": "cumque",
-  "Tooltip": "incidunt",
+  "Id": 780,
+  "Value": "molestiae",
+  "Tooltip": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 46
     }
   }
 }

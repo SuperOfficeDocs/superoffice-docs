@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Wunsch-Beatty",
-    "ToolTip": "Et est animi.",
-    "Deleted": false,
-    "Rank": 238,
-    "Type": "animi",
-    "ColorBlock": 946,
-    "IconHint": "perferendis",
+    "Id": 221,
+    "Name": "Larkin-Blick",
+    "ToolTip": "Voluptatibus cumque est.",
+    "Deleted": true,
+    "Rank": 808,
+    "Type": "neque",
+    "ColorBlock": 963,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2000-12-02T03:40:57.1189414+01:00",
+    "LastChanged": "2014-11-09T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Rippin LLC",
-        "ToolTip": "Similique tempore.",
+        "Id": 728,
+        "Name": "Ortiz-Purdy",
+        "ToolTip": "Similique tempora aperiam sed porro nemo.",
         "Deleted": false,
-        "Rank": 589,
-        "Type": "ad",
-        "ColorBlock": 579,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2001-11-03T03:40:57.1189414+01:00",
+        "Rank": 72,
+        "Type": "quae",
+        "ColorBlock": 973,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2005-01-04T02:30:53.4598845+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
+        "ExtraInfo": "ducimus",
         "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Kaylah Bednar",
+        "Hidden": true,
+        "FullName": "Ramona Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Margarett Laura Cruickshank Jr.",
+    "ExtraInfo": "architecto",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mr. Conor Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 16
       }
     }
   }

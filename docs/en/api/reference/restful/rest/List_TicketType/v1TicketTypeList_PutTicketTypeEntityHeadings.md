@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 746,
-    "Name": "Stracke, Barrows and Bednar",
-    "Tooltip": "et",
+    "HeadingId": 230,
+    "Name": "Rau Group",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 575
+    "Rank": 321,
+    "UdListDefinitionId": 872
   },
   {
-    "HeadingId": 746,
-    "Name": "Stracke, Barrows and Bednar",
-    "Tooltip": "et",
+    "HeadingId": 230,
+    "Name": "Rau Group",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 575
+    "Rank": 321,
+    "UdListDefinitionId": 872
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 891,
-    "Name": "Jacobson Group",
-    "Tooltip": "quo",
+    "HeadingId": 250,
+    "Name": "Kozey, Price and Hauck",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 255,
+    "Rank": 898,
+    "UdListDefinitionId": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fay-Renner",
-  "DeviceName": "Johnson-Bartell"
+  "ApplicationName": "Nader, Pagac and Kunde",
+  "DeviceName": "Olson Group"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 280,
-  "Name": "Leffler, Johnson and Lesch",
-  "CreatedDate": "2012-07-11T03:40:46.9842779+02:00",
-  "UpdatedDate": "2018-12-30T03:40:46.9842779+01:00",
-  "AssociateFullName": "Sierra O'Connell III",
-  "CreatedBy": "beatae",
-  "UpdatedBy": "beatae",
-  "DeviceIdentifier": "ducimus",
-  "ForeignAppId": 768,
+  "ForeignDeviceId": 287,
+  "Name": "Sporer, Kohler and Mills",
+  "CreatedDate": "2010-09-08T02:30:47.366331+02:00",
+  "UpdatedDate": "2016-11-05T02:30:47.366331+01:00",
+  "AssociateFullName": "Janick Jerde",
+  "CreatedBy": "dolores",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "debitis",
+  "ForeignAppId": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

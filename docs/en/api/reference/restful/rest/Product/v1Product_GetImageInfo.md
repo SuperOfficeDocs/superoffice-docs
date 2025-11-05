@@ -74,7 +74,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 06 Oct 2012 03:40:56 G10T
+Last-Modified: Sat, 02 Jun 2012 02:30:53 G6T
 
 {
-  "BlobId": 119,
-  "BlobSize": 286,
-  "Description": "Automated assymetric alliance",
-  "ExtraInfo": "aut",
+  "BlobId": 141,
+  "BlobSize": 34,
+  "Description": "Optimized scalable capacity",
+  "ExtraInfo": "eius",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ab",
-  "OriginalSize": 248,
-  "CreatedDate": "2007-08-09T03:40:56.4775944+02:00",
-  "UpdatedDate": "2012-10-06T03:40:56.4775944+02:00",
+  "MimeType": "est",
+  "OriginalSize": 915,
+  "CreatedDate": "2017-09-22T02:30:53.0536477+02:00",
+  "UpdatedDate": "2012-06-02T02:30:53.0536477+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed",
+  "ConceptualType": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 865
     }
   }
 }

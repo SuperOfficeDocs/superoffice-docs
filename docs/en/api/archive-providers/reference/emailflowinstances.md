@@ -83,7 +83,7 @@ Lists all email flow Instances
 |emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -147,8 +147,10 @@ Lists all email flow Instances
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -224,12 +226,12 @@ Lists all email flow Instances
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |person/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
 |person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
-|person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
-|person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
@@ -239,8 +241,8 @@ Lists all email flow Instances
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -266,7 +268,7 @@ Lists all email flow Instances
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -299,7 +301,7 @@ Lists all email flow Instances
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -328,12 +330,13 @@ Lists all email flow Instances
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
-|contact/category|listAny|Category| x |
-|contact/categoryGroup|listAny|Category group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -354,6 +357,7 @@ Lists all email flow Instances
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -427,17 +431,17 @@ Lists all email flow Instances
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|contact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|contact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|contact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|contact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
@@ -473,7 +477,7 @@ Lists all email flow Instances
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -508,7 +512,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowEnrolledCount,emailFlow/workflowAssociate/middleName,emailFlow/workflowAssociate/personId,emailFlow/workflowAssociate/personEmail,person/personDirectFax/formattedNumber
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/hierarchyParentId,person/personAddress/addressId,person/personAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

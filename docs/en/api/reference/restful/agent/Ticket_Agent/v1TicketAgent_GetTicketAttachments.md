@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 998
+  "TicketEntityId": 682
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 123,
-    "Name": "Schumm, O'Hara and Mann",
-    "ContentType": "sed",
-    "AttSize": 566,
-    "InlineImage": true,
-    "ContentId": "itaque",
-    "AuthKey": "enim",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 318,
+    "Name": "Medhurst LLC",
+    "ContentType": "omnis",
+    "AttSize": 483,
+    "InlineImage": false,
+    "ContentId": "aut",
+    "AuthKey": "et",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 968
       }
     }
   }

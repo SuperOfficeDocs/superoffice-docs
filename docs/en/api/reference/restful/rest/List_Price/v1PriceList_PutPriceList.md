@@ -100,19 +100,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 799,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 580,
-  "Name": "Zemlak Inc and Sons",
-  "Description": "Managed value-added extranet",
-  "Currency": "qui",
-  "CurrencyName": "Schimmel-Monahan",
-  "ValidFrom": "2005-03-04T03:40:56.9933484+01:00",
-  "ValidTo": "2024-08-23T03:40:56.9933484+02:00",
+  "PriceListId": 94,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 49,
+  "Name": "Bailey-Torp",
+  "Description": "Multi-channelled cohesive initiative",
+  "Currency": "consequatur",
+  "CurrencyName": "Berge-Spencer",
+  "ValidFrom": "2024-07-01T02:30:53.3348881+02:00",
+  "ValidTo": "2013-01-18T02:30:53.3348881+01:00",
   "IsActive": false
 }
 ```
@@ -124,22 +124,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 64,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 993,
-  "Name": "Dickens-Kuhic",
-  "Description": "Customer-focused client-driven moderator",
-  "Currency": "ea",
-  "CurrencyName": "Hyatt-Ritchie",
-  "ValidFrom": "2015-05-04T03:40:56.9933484+02:00",
-  "ValidTo": "2011-03-23T03:40:56.9933484+01:00",
+  "PriceListId": 252,
+  "ERPPriceListKey": "at",
+  "QuoteConnectionId": 923,
+  "Name": "Rodriguez LLC",
+  "Description": "Vision-oriented foreground software",
+  "Currency": "maxime",
+  "CurrencyName": "Leffler-McGlynn",
+  "ValidFrom": "2025-03-21T02:30:53.3348881+01:00",
+  "ValidTo": "2001-04-16T02:30:53.3348881+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   },
   "_Links": {

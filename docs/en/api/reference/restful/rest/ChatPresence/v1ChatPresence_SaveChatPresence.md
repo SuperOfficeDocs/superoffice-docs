@@ -59,28 +59,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 622,
-    "DisplayName": "Runolfsson-Fisher",
-    "OngoingChats": 302,
+    "UserId": 808,
+    "DisplayName": "Lueilwitz Inc and Sons",
+    "OngoingChats": 171,
     "Present": false,
     "ChatTopics": [
-      638,
-      254
+      306,
+      809
     ]
   },
   {
-    "UserId": 622,
-    "DisplayName": "Runolfsson-Fisher",
-    "OngoingChats": 302,
+    "UserId": 808,
+    "DisplayName": "Lueilwitz Inc and Sons",
+    "OngoingChats": 171,
     "Present": false,
     "ChatTopics": [
-      638,
-      254
+      306,
+      809
     ]
   }
 ]

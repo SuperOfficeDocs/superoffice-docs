@@ -58,6 +58,7 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 |nddAppointment\_id|ID, can be 0, of the appointment that &quot;caused&quot; the nextDueDate|FK [appointment](appointment.md)|&#x25CF;|
 |reasonSold\_id|Reason why we made the sale|FK [ReasonSold](reasonsold.md)|&#x25CF;|
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
+|stage\_when\_closed\_id|The stage the sale was in when it was closed (sold or lost)|FK [Prob](prob.md)|&#x25CF;|
 
 
 ![SaleHist table relationship diagram](./media/SaleHist.png)

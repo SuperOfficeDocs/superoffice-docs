@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Mohr-Hudson",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "UdListDefinitionId": 5,
-    "Rank": 760
+    "Id": 236,
+    "Name": "McKenzie Group",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 55,
+    "Rank": 217
   },
   {
-    "Id": 195,
-    "Name": "Mohr-Hudson",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "UdListDefinitionId": 5,
-    "Rank": 760
+    "Id": 236,
+    "Name": "McKenzie Group",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 55,
+    "Rank": 217
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Koch Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 292,
+    "Id": 768,
+    "Name": "Hammes-Koch",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "UdListDefinitionId": 114,
+    "Rank": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 146
       }
     }
   }

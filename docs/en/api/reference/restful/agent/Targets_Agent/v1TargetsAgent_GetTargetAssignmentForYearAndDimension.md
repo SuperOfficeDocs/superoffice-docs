@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 223,
+  "TargetYear": 802,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 484,
-  "DimensionId": 270
+  "Id": 839,
+  "DimensionId": 196
 }
 ```
 
@@ -107,24 +107,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 63,
+  "TargetAssignmentInfoId": 144,
   "Values": [
-    362,
-    915
+    555,
+    71
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 134,
-  "DimensionListItemDisplayName": "McKenzie, Schulist and Leannon",
+  "DimensionListItem": 36,
+  "DimensionListItemDisplayName": "Kreiger-Heidenreich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldLength": 63
     }
   }
 }

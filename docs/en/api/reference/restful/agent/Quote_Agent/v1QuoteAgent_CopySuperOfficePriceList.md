@@ -90,15 +90,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 786,
-  "NewName": "Toy, Hamill and Wiza",
-  "ValidFrom": "2021-03-04T03:40:47.5317063+01:00",
-  "ValidTo": "2016-12-23T03:40:47.5317063+01:00",
-  "NewCurrencyId": 762,
+  "OriginalPriceListId": 165,
+  "NewName": "Kuhn, Will and Hermiston",
+  "ValidFrom": "2019-11-14T02:30:47.7100701+01:00",
+  "ValidTo": "2021-01-22T02:30:47.7100701+01:00",
+  "NewCurrencyId": 650,
   "ConvertCurrency": false
 }
 ```
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 103,
-  "ERPPriceListKey": "explicabo",
-  "QuoteConnectionId": 538,
-  "Name": "Quitzon, Bergstrom and Schoen",
-  "Description": "Public-key neutral synergy",
-  "Currency": "velit",
-  "CurrencyName": "Feeney LLC",
-  "ValidFrom": "2000-02-15T03:40:47.5317063+01:00",
-  "ValidTo": "2024-05-02T03:40:47.5317063+02:00",
-  "IsActive": true,
+  "PriceListId": 296,
+  "ERPPriceListKey": "sapiente",
+  "QuoteConnectionId": 171,
+  "Name": "Marvin-Upton",
+  "Description": "Down-sized logistical capability",
+  "Currency": "possimus",
+  "CurrencyName": "Adams-Rogahn",
+  "ValidFrom": "2009-01-28T02:30:47.7100701+01:00",
+  "ValidTo": "2022-12-29T02:30:47.7100701+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   }
 }

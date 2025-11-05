@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 532
+  "UdListDefinitionId": 728
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 849,
-  "Name": "Zieme-Lueilwitz",
-  "Tooltip": "repudiandae",
+  "HeadingId": 125,
+  "Name": "Bradtke, Adams and Stiedemann",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 569,
-  "UdListDefinitionId": 467,
+  "Rank": 443,
+  "UdListDefinitionId": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

@@ -104,17 +104,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    237,
-    10
+    343,
+    483
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -125,79 +125,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 682,
+  "EjMessageId": 198,
   "Ticket": null,
-  "CreatedAt": "2025-03-15T03:40:48.1254917+01:00",
+  "CreatedAt": "2023-08-08T02:30:48.0694331+02:00",
   "CreatedBy": null,
-  "Author": "corporis",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ab",
-  "TimeSpent": 712,
-  "Body": "sint",
-  "HtmlBody": "magnam",
-  "EmailHeader": "fannie@jenkins.ca",
-  "DebugInfo": "tenetur",
-  "MailSorter": "soluta",
+  "MessageId": "voluptas",
+  "TimeSpent": 681,
+  "Body": "sit",
+  "HtmlBody": "ex",
+  "EmailHeader": "elise@schmittstehr.name",
+  "DebugInfo": "aut",
+  "MailSorter": "quaerat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 900,
-      "Name": "Ward Inc and Sons",
-      "Value": "ut",
+      "Id": 834,
+      "Name": "Will-Barton",
+      "Value": "accusamus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 683,
-  "SentimentConfidence": 886,
+  "Language": "consectetur",
+  "Sentiment": 666,
+  "SentimentConfidence": 183,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 790,
-      "Name": "Schulist, Schulist and Dibbert",
-      "ContentType": "odio",
-      "AttSize": 726,
+      "AttachmentId": 469,
+      "Name": "Homenick-Oberbrunner",
+      "ContentType": "officia",
+      "AttSize": 191,
       "InlineImage": true,
-      "ContentId": "rerum",
-      "AuthKey": "iusto",
+      "ContentId": "numquam",
+      "AuthKey": "numquam",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "quam"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

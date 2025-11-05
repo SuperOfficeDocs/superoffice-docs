@@ -154,18 +154,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "perferendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "perferendis",
     "value": {}
   }
 ]
@@ -178,157 +178,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 818,
-  "Name": "Watsica Inc and Sons",
+  "ContactId": 665,
+  "Name": "Zemlak, Hackett and Christiansen",
   "Department": "",
-  "OrgNr": "1320474",
-  "Number1": "196381",
-  "Number2": "1770978",
-  "UpdatedDate": "2000-01-03T03:40:55.5694026+01:00",
-  "CreatedDate": "2013-12-15T03:40:55.5694026+01:00",
+  "OrgNr": "555504",
+  "Number1": "254465",
+  "Number2": "1569294",
+  "UpdatedDate": "2006-12-13T02:30:52.4911666+01:00",
+  "CreatedDate": "2022-11-27T02:30:52.4911666+01:00",
   "Emails": [
     {
-      "Value": "delectus",
-      "StrippedValue": "fuga",
-      "Description": "Function-based mobile flexibility",
+      "Value": "qui",
+      "StrippedValue": "aperiam",
+      "Description": "Customizable optimal methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     },
     {
-      "Value": "delectus",
-      "StrippedValue": "fuga",
-      "Description": "Function-based mobile flexibility",
+      "Value": "qui",
+      "StrippedValue": "aperiam",
+      "Description": "Customizable optimal methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 64,
-      "Name": "Blick, Adams and Hermiston",
-      "ToolTip": "Sunt id rerum alias et fugit et est.",
-      "Deleted": true,
-      "Rank": 531,
-      "Type": "porro",
-      "ColorBlock": 183,
-      "IconHint": "asperiores",
+      "Id": 512,
+      "Name": "Torphy Inc and Sons",
+      "ToolTip": "Dolorem sunt.",
+      "Deleted": false,
+      "Rank": 902,
+      "Type": "eum",
+      "ColorBlock": 242,
+      "IconHint": "dolor",
       "Selected": false,
-      "LastChanged": "1998-08-25T03:40:55.5694026+02:00",
+      "LastChanged": "2024-06-12T02:30:52.4911666+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "at",
-      "Hidden": true,
-      "FullName": "Dan Hessel DVM",
+      "ExtraInfo": "modi",
+      "StyleHint": "exercitationem",
+      "Hidden": false,
+      "FullName": "Velma Frami",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "vero",
-      "StrippedValue": "qui",
-      "Description": "Devolved radical policy",
+      "Value": "aperiam",
+      "StrippedValue": "nemo",
+      "Description": "Realigned 24 hour strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldType": "System.Int32",
+          "FieldLength": 33
         }
       }
     },
     {
-      "Value": "vero",
-      "StrippedValue": "qui",
-      "Description": "Devolved radical policy",
+      "Value": "aperiam",
+      "StrippedValue": "nemo",
+      "Description": "Realigned 24 hour strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldType": "System.Int32",
+          "FieldLength": 33
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "nisi",
-      "StrippedValue": "pariatur",
-      "Description": "Devolved heuristic instruction set",
+      "Value": "quo",
+      "StrippedValue": "qui",
+      "Description": "Seamless maximized artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 862
         }
       }
     },
     {
-      "Value": "nisi",
-      "StrippedValue": "pariatur",
-      "Description": "Devolved heuristic instruction set",
+      "Value": "quo",
+      "StrippedValue": "qui",
+      "Description": "Seamless maximized artificial intelligence",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 862
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "quis",
-      "StrippedValue": "molestias",
-      "Description": "Customizable mission-critical function",
+      "Value": "architecto",
+      "StrippedValue": "sunt",
+      "Description": "Public-key homogeneous software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 657
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "molestias",
-      "Description": "Customizable mission-critical function",
+      "Value": "architecto",
+      "StrippedValue": "sunt",
+      "Description": "Public-key homogeneous software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 657
         }
       }
     }
   ],
-  "Description": "Visionary background structure",
+  "Description": "Organic composite artificial intelligence",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -337,102 +337,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "magni",
-      "PersonId": 197,
-      "Mrmrs": "beatae",
-      "Firstname": "Brody",
-      "Lastname": "Botsford",
-      "MiddleName": "Haag, Williamson and Rohan",
-      "Title": "animi",
-      "Description": "Expanded multi-tasking open architecture",
-      "Email": "patience@kreiger.co.uk",
-      "FullName": "Sophia Becker",
-      "DirectPhone": "(554)321-8361",
-      "FormalName": "Marquardt-Krajcik",
-      "CountryId": 970,
-      "ContactId": 397,
-      "ContactName": "Hills, Pouros and Marks",
-      "Retired": 102,
-      "Rank": 166,
-      "ActiveInterests": 557,
+      "Position": "voluptas",
+      "PersonId": 253,
+      "Mrmrs": "sit",
+      "Firstname": "Armando",
+      "Lastname": "Kohler",
+      "MiddleName": "Greenholt, Dietrich and Conn",
+      "Title": "blanditiis",
+      "Description": "Diverse client-server interface",
+      "Email": "cassie@breitenberg.uk",
+      "FullName": "Adrienne Klocko",
+      "DirectPhone": "1-006-758-5864 x53176",
+      "FormalName": "Mante LLC",
+      "CountryId": 528,
+      "ContactId": 192,
+      "ContactName": "Bins Inc and Sons",
+      "Retired": 855,
+      "Rank": 663,
+      "ActiveInterests": 366,
       "ContactDepartment": "",
-      "ContactCountryId": 589,
-      "ContactOrgNr": "678360",
-      "FaxPhone": "422.810.5773 x34476",
-      "MobilePhone": "(996)604-6871 x8961",
-      "ContactPhone": "822-930-1046 x4782",
-      "AssociateName": "Jakubowski-Lakin",
-      "AssociateId": 557,
-      "UsePersonAddress": false,
-      "ContactFax": "quia",
-      "Kanafname": "quas",
-      "Kanalname": "dolorum",
+      "ContactCountryId": 645,
+      "ContactOrgNr": "1351860",
+      "FaxPhone": "1-946-020-3358",
+      "MobilePhone": "018-728-0055",
+      "ContactPhone": "990.471.1062",
+      "AssociateName": "Haley, Lynch and Armstrong",
+      "AssociateId": 203,
+      "UsePersonAddress": true,
+      "ContactFax": "quisquam",
+      "Kanafname": "sed",
+      "Kanalname": "voluptatem",
       "Post1": "ut",
-      "Post2": "quia",
-      "Post3": "ipsa",
-      "EmailName": "obie_renner@sporersanford.name",
-      "ContactFullName": "Alessandra Trantow",
-      "ActiveErpLinks": 199,
-      "TicketPriorityId": 691,
-      "SupportLanguageId": 781,
-      "SupportAssociateId": 79,
+      "Post2": "nihil",
+      "Post3": "reprehenderit",
+      "EmailName": "dale@schroederschoen.info",
+      "ContactFullName": "Sebastian Hane",
+      "ActiveErpLinks": 363,
+      "TicketPriorityId": 726,
+      "SupportLanguageId": 612,
+      "SupportAssociateId": 595,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1021465",
+      "PersonNumber": "1112530",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "fugiat",
-  "Xstop": true,
-  "ActiveInterests": 105,
-  "GroupId": 427,
-  "ActiveStatusMonitorId": 52,
+  "NoMailing": false,
+  "Kananame": "voluptatem",
+  "Xstop": false,
+  "ActiveInterests": 1002,
+  "GroupId": 720,
+  "ActiveStatusMonitorId": 60,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 917,
-  "DbiAgentId": 178,
-  "DbiLastSyncronized": "2022-03-20T03:40:55.5694026+01:00",
-  "DbiKey": "in",
-  "DbiLastModified": "2023-10-07T03:40:55.5694026+02:00",
+  "Deleted": 174,
+  "DbiAgentId": 377,
+  "DbiLastSyncronized": "2016-11-25T02:30:52.4911666+01:00",
+  "DbiKey": "ad",
+  "DbiLastModified": "1999-08-06T02:30:52.4911666+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 603,
-  "ActiveErpLinks": 452,
+  "Source": 183,
+  "ActiveErpLinks": 753,
   "BounceEmails": [
-    "johnathan@gerhold.ca",
-    "freda_abshire@christiansenemard.com"
+    "art@johnston.co.uk",
+    "dariana_deckow@cronaosinski.ca"
   ],
   "Domains": [
-    "sequi",
-    "dolor"
+    "corrupti",
+    "sint"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Billie Buckridge",
-    "SuperOffice:2": "Juana Daugherty"
+    "SuperOffice:1": "Karolann Konopelski DVM",
+    "SuperOffice:2": "Miss Bernard Asha Haag"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "earum"
+    "CustomFields1": "in",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 272
     }
   },
   "_Links": {

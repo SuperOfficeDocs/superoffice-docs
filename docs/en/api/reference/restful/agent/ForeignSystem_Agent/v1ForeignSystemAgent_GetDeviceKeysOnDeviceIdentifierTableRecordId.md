@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blick, Hintz and Ratke",
-  "DeviceName": "Dickens-Hermiston",
-  "DeviceIdentifier": "repudiandae",
-  "TableName": "O'Reilly-Kuvalis",
-  "RecordId": 702
+  "ApplicationName": "Hackett Inc and Sons",
+  "DeviceName": "VonRueden Inc and Sons",
+  "DeviceIdentifier": "debitis",
+  "TableName": "Greenfelder-Swift",
+  "RecordId": 768
 }
 ```
 
@@ -107,20 +107,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "fuga",
-    "RecordId": 561,
-    "CreatedDate": "2007-01-29T03:40:46.9999043+01:00",
-    "UpdatedDate": "2014-01-08T03:40:46.9999043+01:00",
-    "UpdatedBy": "vel",
-    "CreatedBy": "voluptates",
-    "TableName": "Keeling-Carter",
+    "Key": "expedita",
+    "Value": "error",
+    "RecordId": 838,
+    "CreatedDate": "2020-12-08T02:30:47.366331+01:00",
+    "UpdatedDate": "2020-06-26T02:30:47.366331+02:00",
+    "UpdatedBy": "magni",
+    "CreatedBy": "asperiores",
+    "TableName": "Blick, Turcotte and Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 771
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 48,
-  "TopicId": 455,
+  "ChatSessionId": 621,
+  "TopicId": 924,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "id",
-  "CustomerName": "Bernier-Wilderman",
-  "CustomerEmail": "okey@langworth.us",
-  "CustomerPhone": "372.305.1598",
+  "CustomerAlias": "quae",
+  "CustomerHost": "nam",
+  "CustomerName": "Gaylord-Kuphal",
+  "CustomerEmail": "makayla.feeney@carrollcorwin.biz",
+  "CustomerPhone": "(018)620-9116 x264",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Corkery, Howe and Boyer",
+  "CustomerCompanyName": "Schneider Group",
   "Status": "Closed",
-  "FirstMessage": "similique",
-  "LastMessage": "enim",
-  "WhenRequested": "2012-11-18T03:40:55.2411754+01:00",
-  "WhenStarted": "2000-07-21T03:40:55.2411754+02:00",
-  "WhenEnded": "2016-10-09T03:40:55.2411754+02:00",
-  "WhenIdle": "2004-12-27T03:40:55.2411754+01:00",
-  "WhenFetched": "2015-07-06T03:40:55.2411754+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 807,
-  "AlertLevel": 672,
-  "Rank": 636,
+  "FirstMessage": "quia",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2007-06-11T02:30:52.350546+02:00",
+  "WhenStarted": "2003-07-24T02:30:52.350546+02:00",
+  "WhenEnded": "2023-03-30T02:30:52.350546+02:00",
+  "WhenIdle": "2025-08-29T02:30:52.350546+02:00",
+  "WhenFetched": "2010-02-09T02:30:52.350546+01:00",
+  "SessionKey": "voluptatum",
+  "InitialQueuePos": 993,
+  "AlertLevel": 705,
+  "Rank": 189,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 36,
+  "ChatbotIsActive": false,
+  "Rating": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

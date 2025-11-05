@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SupportFields
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Udef
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Url
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.UtmParameters
   langs:
   - csharp
   - vb
@@ -315,6 +316,24 @@ items:
     content: Appointment = 4194304
     return:
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.UtmParameters
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.UtmParameters
+  id: UtmParameters
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: UtmParameters
+  nameWithType: ContactExtenderBase.Features.UtmParameters
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.UtmParameters
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: UtmParameters = 8388608
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
   id: NavigationLinks
@@ -528,10 +547,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = Udef | Email | Url | Phone | Fax | Associate | PostalAddress | StreetAddress | Interests | Saint | SearchPhone | SearchAddress
+    content: Shallow = Udef | Email | Url | Phone | Fax | Associate | PostalAddress | StreetAddress | Interests | Saint | SearchPhone | SearchAddress | UtmParameters
     return:
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-    content.vb: Shallow = Udef Or Email Or Url Or Phone Or Fax Or Associate Or PostalAddress Or StreetAddress Or Interests Or Saint Or SearchPhone Or SearchAddress
+    content.vb: Shallow = Udef Or Email Or Url Or Phone Or Fax Or Associate Or PostalAddress Or StreetAddress Or Interests Or Saint Or SearchPhone Or SearchAddress Or UtmParameters
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
   id: All
@@ -547,10 +566,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = Phone | Fax | PostalAddress | StreetAddress | Interests | Saint | SearchPhone | SearchAddress | SelectionMemberInfo | PostalSearchAddress | FindActivity
+    content: All = NavigationLinks | SelectionMemberInfo | PostalSearchAddress | SupportFields | Shallow
     return:
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-    content.vb: All = Phone Or Fax Or PostalAddress Or StreetAddress Or Interests Or Saint Or SearchPhone Or SearchAddress Or SelectionMemberInfo Or PostalSearchAddress Or FindActivity
+    content.vb: All = NavigationLinks Or SelectionMemberInfo Or PostalSearchAddress Or SupportFields Or Shallow
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
   id: FindOrSelection
@@ -566,10 +585,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: FindOrSelection = Shallow | Relation | Sale | Document | Appointment
+    content: FindOrSelection = Relation | Sale | Document | Appointment | Shallow
     return:
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-    content.vb: FindOrSelection = Shallow Or Relation Or Sale Or Document Or Appointment
+    content.vb: FindOrSelection = Relation Or Sale Or Document Or Appointment Or Shallow
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
   id: Activity

@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatibus"
+  "Section": "inventore"
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 120,
-    "Section": "perspiciatis",
-    "Key": "sed",
-    "Name": "Nitzsche Inc and Sons",
+    "PrefDescId": 138,
+    "Section": "praesentium",
+    "Key": "officiis",
+    "Name": "Hegmann-Denesik",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Switchable multi-state model",
+    "Description": "Fundamental tertiary protocol",
     "IsBuiltin": false,
-    "TableName": "Orn Inc and Sons",
-    "UserDefinedListId": 38,
-    "Rank": 237,
-    "SubGroup": "accusamus",
-    "MinLevel": 8,
-    "MaxValue": 637,
-    "MinValue": 328,
-    "RequiredLicense": "aliquam",
+    "TableName": "Rowe-Ledner",
+    "UserDefinedListId": 704,
+    "Rank": 282,
+    "SubGroup": "enim",
+    "MinLevel": 222,
+    "MaxValue": 822,
+    "MinValue": 941,
+    "RequiredLicense": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 505
       }
     }
   }

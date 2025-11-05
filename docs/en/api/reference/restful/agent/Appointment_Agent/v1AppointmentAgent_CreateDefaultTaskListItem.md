@@ -80,25 +80,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 210,
-  "Value": "animi",
+  "TaskListItemId": 641,
+  "Value": "accusantium",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "illum",
+  "Tooltip": "nemo",
   "Deleted": true,
-  "IntentId": 370,
-  "Rank": 540,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 581,
+  "Rank": 294,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 242
     }
   }
 }

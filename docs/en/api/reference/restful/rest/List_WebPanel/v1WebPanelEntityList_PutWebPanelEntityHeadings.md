@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 269,
-    "Name": "Spencer-Gottlieb",
-    "Tooltip": "quibusdam",
+    "HeadingId": 76,
+    "Name": "Kunde Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 305
+    "Rank": 284,
+    "UdListDefinitionId": 404
   },
   {
-    "HeadingId": 269,
-    "Name": "Spencer-Gottlieb",
-    "Tooltip": "quibusdam",
+    "HeadingId": 76,
+    "Name": "Kunde Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 305
+    "Rank": 284,
+    "UdListDefinitionId": 404
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 207,
-    "Name": "Quigley-Hane",
-    "Tooltip": "aspernatur",
+    "HeadingId": 491,
+    "Name": "Gislason Inc and Sons",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 513,
+    "Rank": 949,
+    "UdListDefinitionId": 23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 711
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 317,
-  "Name": "Schulist Group",
-  "Tooltip": "et",
-  "Rank": 273,
+  "SaleTypeId": 969,
+  "Name": "Mayert-Raynor",
+  "Tooltip": "eum",
+  "Rank": 581,
   "DurationUnit": "Century",
-  "SaleDuration": 229,
-  "SaleTypeCatId": 880,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 891,
+  "SaleTypeCatId": 787,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 230,
-  "QuoteLinesTemplate": 51,
-  "ConfirmationLinesTemplate": 766,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 552,
-  "MinEarningPercent": 626,
-  "GroupQuoteLinesBy": 132,
-  "SortGroupLinesBy": 300,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 910,
+  "QuoteLinesTemplate": 273,
+  "ConfirmationLinesTemplate": 329,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 511,
+  "MinEarningPercent": 137,
+  "GroupQuoteLinesBy": 735,
+  "SortGroupLinesBy": 995,
   "Stages": [
     {
-      "Id": 220,
-      "Name": "Fahey, Thiel and Quigley",
-      "ToolTip": "Adipisci odio illo neque.",
+      "Id": 784,
+      "Name": "McLaughlin, Bartoletti and Robel",
+      "ToolTip": "Provident in quia et sequi.",
       "Deleted": false,
-      "Rank": 322,
-      "Type": "voluptatem",
-      "ColorBlock": 821,
-      "IconHint": "magni",
-      "Selected": false,
-      "LastChanged": "1998-09-16T03:40:57.1027301+02:00",
+      "Rank": 446,
+      "Type": "vitae",
+      "ColorBlock": 989,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2012-06-01T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "recusandae",
-      "StyleHint": "hic",
-      "Hidden": true,
-      "FullName": "Kariane Nicolas",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "vitae",
+      "Hidden": false,
+      "FullName": "Richmond Gerlach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldLength": 676
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Beatty-Koelpin",
-  "Tooltip": "hic",
+  "Id": 252,
+  "Name": "Hammes LLC",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 859,
-  "IsCustomList": false,
+  "Rank": 490,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

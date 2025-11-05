@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | foreignAppEntityId | int32 | **Required** The identity of the ForeignAppEntity |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=847
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=203
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

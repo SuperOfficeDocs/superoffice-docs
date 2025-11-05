@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 30
+  "ContactId": 627
 }
 ```
 

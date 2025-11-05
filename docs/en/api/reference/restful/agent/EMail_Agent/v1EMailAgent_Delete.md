@@ -78,10 +78,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    325,
-    288
+    135,
+    452
   ],
-  "MoveToFolder": "aliquid"
+  "MoveToFolder": "quibusdam"
 }
 ```
 

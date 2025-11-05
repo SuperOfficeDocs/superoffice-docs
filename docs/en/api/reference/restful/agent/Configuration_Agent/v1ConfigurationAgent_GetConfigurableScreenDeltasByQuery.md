@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 568,
-    "Name": "Schulist-Vandervort",
-    "Description": "Networked actuating instruction set",
-    "DeltaJson": "veritatis",
+    "ConfigurableScreenDeltaId": 985,
+    "Name": "Erdman, Donnelly and Fritsch",
+    "Description": "Profound executive neural-net",
+    "DeltaJson": "nihil",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "sapiente",
-    "UpdatedDate": "2015-07-17T03:40:46.2488145+02:00",
-    "CreatedDate": "2023-11-25T03:40:46.2488145+01:00",
+    "RecipeId": "animi",
+    "UpdatedDate": "2006-05-05T02:30:46.9288431+02:00",
+    "CreatedDate": "2025-01-18T02:30:46.9288431+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      811,
-      614
+      105,
+      250
     ],
-    "AppliesToKey": "maiores",
+    "AppliesToKey": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 683
       }
     }
   }

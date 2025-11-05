@@ -90,37 +90,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Haley, Hartmann and Cole",
-  "Context": "ad",
+  "ProviderName": "Satterfield Inc and Sons",
+  "Context": "illum",
   "DesiredEntities": [
-    "eveniet",
-    "numquam"
+    "ut",
+    "mollitia"
   ],
   "Columns": [
-    "omnis",
-    "omnis"
+    "nesciunt",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Mayert LLC",
+      "Name": "Jenkins-Walsh",
       "Direction": "ASC"
     },
     {
-      "Name": "Mayert LLC",
+      "Name": "Jenkins-Walsh",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Homenick, Heidenreich and Haley",
-      "Operator": "dolore",
+      "Name": "Ruecker-Olson",
+      "Operator": "error",
       "Values": [
-        "molestias",
-        "voluptatem"
+        "corrupti",
+        "soluta"
       ],
       "DisplayValues": [
-        "occaecati",
-        "minus"
+        "harum",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -128,17 +128,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 930,
+      "InterParenthesis": 70,
       "InterOperator": "And",
-      "UniqueHash": 348
+      "UniqueHash": 408
     }
   ],
-  "ExportType": "totam",
+  "ExportType": "et",
   "SelectedRowIds": [
-    "delectus",
-    "excepturi"
+    "ducimus",
+    "numquam"
   ],
-  "EstimatedRowCount": 755
+  "EstimatedRowCount": 940
 }
 ```
 
@@ -149,15 +149,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 639,
-  "FileName": "Gulgowski Group",
-  "Message": "aut",
+  "BatchTaskId": 463,
+  "FileName": "Kunze, Braun and Dach",
+  "Message": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

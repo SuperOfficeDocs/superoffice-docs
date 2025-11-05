@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 467,
-  "AttachmentId": "soluta"
+  "DocId": 917,
+  "AttachmentId": "aliquid"
 }
 ```
 
@@ -105,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total systemic complexity",
-  "Filename": "qui",
-  "Size": 608,
-  "Type": "sed",
-  "Encoding": "exercitationem",
-  "Id": "omnis",
-  "Disposition": "incidunt",
-  "IsSafeFileExtension": false,
+  "Description": "Re-contextualized radical access",
+  "Filename": "sunt",
+  "Size": 712,
+  "Type": "distinctio",
+  "Encoding": "vero",
+  "Id": "expedita",
+  "Disposition": "aut",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

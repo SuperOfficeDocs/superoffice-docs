@@ -28,7 +28,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=delectus
+GET /api/v1/List/DocumentTemplate/MDOItems?query=voluptas
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Friesen-Leffler",
-    "ToolTip": "Impedit aut qui dolorem consequuntur et quia quo.",
+    "Id": 317,
+    "Name": "Wolf-Johns",
+    "ToolTip": "Nesciunt et est.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "neque",
+    "Rank": 203,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Waelchi-Schultz",
-        "ToolTip": "Aut veritatis veritatis nesciunt facilis qui.",
+        "Id": 60,
+        "Name": "Hamill-Rippin",
+        "ToolTip": "Expedita eveniet quis.",
         "Deleted": false,
-        "Rank": 382,
-        "Type": "enim",
+        "Rank": 501,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 4,
-        "ExtraInfo": "fugit",
-        "StyleHint": "molestiae",
-        "FullName": "Jesse Brown Thiel MD",
+        "IconHint": "minima",
+        "ColorBlock": 61,
+        "ExtraInfo": "facere",
+        "StyleHint": "accusamus",
+        "FullName": "Prof. Shea Hazel Maggio MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldLength": 222
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 245,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatibus",
-    "FullName": "Desiree Okuneva",
+    "IconHint": "nostrum",
+    "ColorBlock": 291,
+    "ExtraInfo": "quo",
+    "StyleHint": "aut",
+    "FullName": "Meredith Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

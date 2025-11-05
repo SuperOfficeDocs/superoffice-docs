@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Value": "eos",
-    "Tooltip": "ex",
+    "Id": 208,
+    "Value": "optio",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 730
       }
     }
   },
   {
-    "Id": 172,
-    "Value": "eos",
-    "Tooltip": "ex",
+    "Id": 208,
+    "Value": "optio",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 730
       }
     }
   }

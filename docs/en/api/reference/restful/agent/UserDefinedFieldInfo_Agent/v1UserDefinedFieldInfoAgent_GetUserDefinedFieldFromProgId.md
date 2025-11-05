@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dicta",
+  "ProgId": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -127,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 894,
-  "ColumnId": 638,
-  "FieldDefault": "est",
-  "FieldHeight": 240,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 923,
-  "FieldTop": 169,
+  "UDefFieldId": 616,
+  "ColumnId": 937,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 486,
+  "FieldLabel": "dicta",
+  "FieldLeft": 505,
+  "FieldTop": 212,
   "FieldType": "Checkbox",
-  "FieldWidth": 416,
-  "FormatMask": "nesciunt",
+  "FieldWidth": 685,
+  "FormatMask": "sed",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 636,
-  "LabelLeft": 487,
-  "LabelTop": 237,
-  "LabelWidth": 367,
-  "LastVersionId": 784,
-  "ListTableId": 384,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 687,
+  "LabelLeft": 270,
+  "LabelTop": 602,
+  "LabelWidth": 40,
+  "LastVersionId": 371,
+  "ListTableId": 575,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 638,
-  "ProgId": "animi",
+  "Page1LineNo": 235,
+  "ProgId": "minus",
   "IsReadOnly": true,
-  "ShortLabel": "id",
-  "TabOrder": 295,
-  "TextLength": 919,
-  "Tooltip": "nemo",
-  "UdefIdentity": 142,
-  "UDListDefinitionId": 661,
+  "ShortLabel": "facilis",
+  "TabOrder": 205,
+  "TextLength": 837,
+  "Tooltip": "perferendis",
+  "UdefIdentity": 752,
+  "UDListDefinitionId": 24,
   "Justification": "Center",
-  "Version": 694,
-  "TemplateVariableName": "Williamson-Block",
-  "HasBeenPublished": false,
-  "MdoListName": "Yost, Bechtelar and Bode",
+  "Version": 171,
+  "TemplateVariableName": "Gerhold-Swift",
+  "HasBeenPublished": true,
+  "MdoListName": "Shanahan Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 931
     }
   }
 }

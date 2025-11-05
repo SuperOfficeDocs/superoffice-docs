@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 491
+  "ProductId": 682
 }
 ```
 
@@ -103,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 604,
-  "BlobSize": 136,
-  "Description": "Public-key 6th generation productivity",
-  "ExtraInfo": "voluptas",
+  "BlobId": 572,
+  "BlobSize": 901,
+  "Description": "Profound value-added instruction set",
+  "ExtraInfo": "facere",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 9,
-  "CreatedDate": "2003-05-20T03:40:46.0920806+02:00",
-  "UpdatedDate": "2015-10-22T03:40:46.0920806+02:00",
+  "MimeType": "dolorum",
+  "OriginalSize": 928,
+  "CreatedDate": "2009-04-05T02:30:46.8350962+02:00",
+  "UpdatedDate": "2023-05-28T02:30:46.8350962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 859
     }
   }
 }

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | chatTopicEntityId | int32 | **Required** The identity of the ChatTopicEntity |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=628
+POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=668
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

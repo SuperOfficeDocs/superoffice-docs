@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 930
+  "PersonId": 15
 }
 ```
 
@@ -102,23 +102,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptatem",
-    "PersonId": 171,
-    "AssociateId": 182,
-    "ExtraId": 633,
-    "ExtraInfo": "est",
-    "Height": 242,
-    "LeftX": 954,
+    "OwnerWindow": "veniam",
+    "PersonId": 561,
+    "AssociateId": 677,
+    "ExtraId": 771,
+    "ExtraInfo": "aliquam",
+    "Height": 360,
+    "LeftX": 944,
     "State": "Maximized",
-    "UpperY": 310,
-    "Width": 555,
-    "WindowPosSizeId": 381,
+    "UpperY": 926,
+    "Width": 869,
+    "WindowPosSizeId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

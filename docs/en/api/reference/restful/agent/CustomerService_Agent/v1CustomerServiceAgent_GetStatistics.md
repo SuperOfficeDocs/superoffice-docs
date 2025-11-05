@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "non",
-    "quam"
+    "unde",
+    "dolor"
   ]
 }
 ```
@@ -97,82 +97,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "a",
+    "Label": "ducimus",
     "Values": [
       {
-        "Label": "itaque",
-        "Value": 24498.478,
-        "Description": "Quality-focused radical standardization",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       },
       {
-        "Label": "itaque",
-        "Value": 24498.478,
-        "Description": "Quality-focused radical standardization",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "Description": "Business-focused explicit synergy",
+    "Description": "Self-enabling disintermediate challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 528
       }
     }
   },
   {
-    "Label": "a",
+    "Label": "ducimus",
     "Values": [
       {
-        "Label": "itaque",
-        "Value": 24498.478,
-        "Description": "Quality-focused radical standardization",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       },
       {
-        "Label": "itaque",
-        "Value": 24498.478,
-        "Description": "Quality-focused radical standardization",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "Description": "Business-focused explicit synergy",
+    "Description": "Self-enabling disintermediate challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 528
       }
     }
   }

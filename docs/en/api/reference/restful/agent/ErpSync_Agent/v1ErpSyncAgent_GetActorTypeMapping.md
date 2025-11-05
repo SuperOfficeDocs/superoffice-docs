@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 984,
+  "ErpConnectionId": 52,
   "ActorType": "Customer"
 }
 ```
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 93,
-  "IsActive": true,
+  "ErpConnectionId": 577,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 564,
-      "CrmFieldKey": "ratione",
-      "CrmDisplayName": "Marks, Corkery and Wiegand",
-      "CrmDisplayTooltip": "quia",
-      "ErpFieldKey": "qui",
+      "ErpFieldId": 335,
+      "CrmFieldKey": "doloribus",
+      "CrmDisplayName": "Huel-Beier",
+      "CrmDisplayTooltip": "quo",
+      "ErpFieldKey": "sed",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Morissette Group",
-      "ErpDisplayTooltip": "quaerat",
+      "ErpDisplayName": "Abernathy-Jaskolski",
+      "ErpDisplayTooltip": "iusto",
       "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": false,
+      "SyncToErp": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "necessitatibus",
+      "ListReference": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 785
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

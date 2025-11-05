@@ -61,7 +61,7 @@ OK
 GET /api/v1/Role/{roleId}/DataRight/{relationToOwner}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "reiciendis",
+  "1": "ut",
   "2": "est"
 }
 ```

@@ -49,6 +49,7 @@ the email_id.
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
+|companyCategoryRank|int|Category rank| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -69,6 +70,7 @@ the email_id.
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |deletedDate|datetime|Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company| x |
+|forceCompany|bool|Dummy: Dummy|  |
 |who| *None* |Company: Displays the name of a selection member's company| x |
 |contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contactPhone/description|string|Telephone - Description: Phone number description| x |
@@ -126,12 +128,12 @@ the email_id.
 |restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
@@ -159,7 +161,7 @@ the email_id.
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -192,7 +194,7 @@ the email_id.
 |contactSupportAssociate/assocType|listAny|Our service contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactSupportAssociate/ejUserId|int|Our service contact - Service user ID: The database ID of a Service user|  |
 |contactSupportAssociate/simultaneousEjUser|bool|Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactSupportAssociate/ejDisplayName|string|Our service contact - Nick name: User's nick name in Service| x |
+|contactSupportAssociate/ejDisplayName|string|Our service contact - Nickname: User's nickname in Service| x |
 |contactSupportAssociate/ejStatus|int|Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in| x |
 |contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -230,12 +232,12 @@ the email_id.
 |contactSupportPerson/birthMonth|int|User support contact - Birth month: Displays contact's birth month| x |
 |contactSupportPerson/birthDay|int|User support contact - Birth day: Displays contact's birth day (day of month)| x |
 |contactSupportPerson/kanaFirstName|string|User support contact - First name, kana: Contact's first name, in kana alphabet| x |
-|contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
-|contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
+|contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
 |contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
 |contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
 |contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
@@ -251,8 +253,10 @@ the email_id.
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
+|contactSupportPerson/personCategoryRank|int|User support contact - !!Category rank| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
+|contactSupportPerson/leadStatus|listAny|User support contact - Lead status| x |
+|contactSupportPerson/leadstatusRank|int|User support contact - !!Lead status RANK| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -292,8 +296,8 @@ the email_id.
 |contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|User support contact - Extra appointment relation: Appointment relation on person| x |
 |contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|User support contact - Extra company relation: Company relation on contact| x |
 |contactSupportPerson/personExtra/y\_rental/id|int|User support contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental| x |
-|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End| x |
+|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental: Start rental| x |
+|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End: End| x |
 |contactSupportPerson/personExtra/y\_rental/x\_amount|int|User support contact - Rental - Amount: Number to rent. Default = 1| x |
 |contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|User support contact - Rental - Renter: Company that rents equipment| x |
 |contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -332,17 +336,17 @@ the email_id.
 |contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
-|contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
-|contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
-|contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -379,7 +383,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=SaintStatus1,contactAssociate/mrMrs,contactSupportAssociate/userName
+GET /api/v1/archive/emailcontactaddress?$select=email/emailHasBounced,contactSupportAssociate/lastName,contactSupportPerson/lastName,contactSupportPerson/hasInterests,contactUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "error",
-  "Name": "Thompson-Gottlieb"
+  "Path": "occaecati",
+  "Name": "Hoppe-Hackett"
 }
 ```
 
@@ -104,46 +104,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 983,
+  "HierarchyId": 788,
   "Domain": "Dashboards",
-  "Name": "Nienow LLC",
-  "Fullname": "molestiae",
-  "ParentId": 612,
+  "Name": "Jacobs, Tremblay and Russel",
+  "Fullname": "eius",
+  "ParentId": 358,
   "Children": [
     {
-      "HierarchyId": 41,
+      "HierarchyId": 674,
       "Domain": "Dashboards",
-      "Name": "Reinger Inc and Sons",
-      "Fullname": "reiciendis",
-      "ParentId": 392,
+      "Name": "Lesch, Steuber and Pfeffer",
+      "Fullname": "eius",
+      "ParentId": 172,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-06-30T03:40:47.2030415+02:00",
-      "RegisteredAssociateId": 719,
-      "Updated": "2024-10-25T03:40:47.2030415+02:00",
-      "UpdatedAssociateId": 955,
+      "Registered": "2012-09-15T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 484,
+      "Updated": "2020-09-12T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 993,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 616
         }
       }
     }
   ],
-  "Registered": "2012-08-03T03:40:47.2030415+02:00",
-  "RegisteredAssociateId": 528,
-  "Updated": "2023-09-05T03:40:47.2030415+02:00",
-  "UpdatedAssociateId": 834,
+  "Registered": "2018-03-11T02:30:47.4288293+01:00",
+  "RegisteredAssociateId": 354,
+  "Updated": "2017-09-24T02:30:47.4288293+02:00",
+  "UpdatedAssociateId": 429,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

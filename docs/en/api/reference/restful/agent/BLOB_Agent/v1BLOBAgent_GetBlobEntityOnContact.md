@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 703
+  "ContactId": 910
 }
 ```
 
@@ -103,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 835,
-  "BlobSize": 532,
-  "Description": "Reverse-engineered heuristic process improvement",
-  "ExtraInfo": "molestiae",
+  "BlobId": 100,
+  "BlobSize": 701,
+  "Description": "Profit-focused zero tolerance moratorium",
+  "ExtraInfo": "nihil",
   "IsEncrypted": true,
   "IsZipped": false,
   "MimeType": "ut",
-  "OriginalSize": 805,
-  "CreatedDate": "2016-04-05T03:40:46.0920806+02:00",
-  "UpdatedDate": "2022-05-30T03:40:46.0920806+02:00",
+  "OriginalSize": 514,
+  "CreatedDate": "2013-09-30T02:30:46.8350962+02:00",
+  "UpdatedDate": "2002-09-29T02:30:46.8350962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cupiditate",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

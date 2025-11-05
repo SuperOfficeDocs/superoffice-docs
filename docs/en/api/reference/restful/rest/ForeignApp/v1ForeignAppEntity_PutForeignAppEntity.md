@@ -95,27 +95,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 372,
-  "Name": "Raynor-Quigley",
-  "CreatedDate": "2006-06-27T03:40:55.7569215+02:00",
-  "UpdatedDate": "2000-07-11T03:40:55.7569215+02:00",
+  "ForeignAppId": 784,
+  "Name": "Rowe LLC",
+  "CreatedDate": "2007-01-11T02:30:52.6474115+01:00",
+  "UpdatedDate": "2019-06-29T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 610,
-      "Name": "Watsica Group",
-      "CreatedDate": "2024-12-10T03:40:55.7569215+01:00",
-      "UpdatedDate": "2007-06-18T03:40:55.7569215+02:00",
-      "AssociateFullName": "Claudine Bailey",
-      "CreatedBy": "nesciunt",
-      "UpdatedBy": "sequi",
-      "DeviceIdentifier": "minima",
-      "ForeignAppId": 170
+      "ForeignDeviceId": 60,
+      "Name": "Schmidt-Satterfield",
+      "CreatedDate": "2021-12-07T02:30:52.6474115+01:00",
+      "UpdatedDate": "2005-04-18T02:30:52.6474115+02:00",
+      "AssociateFullName": "Jamel Conn",
+      "CreatedBy": "tenetur",
+      "UpdatedBy": "laboriosam",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 980
     }
   ]
 }
@@ -128,29 +128,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 75,
-  "Name": "Kessler-Hane",
-  "CreatedDate": "2000-04-26T03:40:55.7569215+02:00",
-  "UpdatedDate": "2004-03-10T03:40:55.7569215+01:00",
+  "ForeignAppId": 251,
+  "Name": "Shields-Schaefer",
+  "CreatedDate": "2011-05-02T02:30:52.6474115+02:00",
+  "UpdatedDate": "2006-07-19T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 296,
-      "Name": "Brakus-Von",
-      "CreatedDate": "2012-06-05T03:40:55.7569215+02:00",
-      "UpdatedDate": "2014-05-13T03:40:55.7569215+02:00",
-      "AssociateFullName": "Jean Luettgen",
-      "CreatedBy": "beatae",
-      "UpdatedBy": "ad",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 80,
+      "ForeignDeviceId": 999,
+      "Name": "Cremin Group",
+      "CreatedDate": "2024-01-01T02:30:52.6474115+01:00",
+      "UpdatedDate": "2004-07-24T02:30:52.6474115+02:00",
+      "AssociateFullName": "Jessika McGlynn",
+      "CreatedBy": "explicabo",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 735,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 743
+          "FieldType": "System.Int32",
+          "FieldLength": 270
         }
       }
     }
@@ -160,12 +160,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 202
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/TimeZone/CheckNewTimeZoneDataAvailable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

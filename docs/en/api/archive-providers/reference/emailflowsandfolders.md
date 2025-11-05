@@ -69,7 +69,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
 |workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
 |workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|workflowAssociate/ejDisplayName| *None* |Owner - Nick name: User's nick name in Service|  |
+|workflowAssociate/ejDisplayName| *None* |Owner - Nickname: User's nickname in Service|  |
 |workflowAssociate/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
 |workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |

@@ -142,25 +142,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 754,
-  "Name": "Nolan LLC",
-  "Description": "Advanced multi-state projection",
-  "WelcomeMessage": "illo",
+  "ChatTopicId": 879,
+  "Name": "Greenholt-Heathcote",
+  "Description": "Decentralized incremental groupware",
+  "WelcomeMessage": "neque",
   "Language": null,
-  "LastAccept": "2023-10-29T03:40:55.397437+01:00",
-  "SecondsPrAccept": 904,
-  "AlertRecipient": "pariatur",
+  "LastAccept": "2023-10-16T02:30:52.4286686+02:00",
+  "SecondsPrAccept": 694,
+  "AlertRecipient": "saepe",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "delectus",
+  "BadgeHeader": "est",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "repellendus",
-  "WarnNewChatMinutes": 76,
-  "WarnManagerNewChatMinutes": 578,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 185,
+  "WarnManagerNewChatMinutes": 358,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -169,14 +169,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 962,
-  "WarnManagerChatMessageMinutes": 33,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 828,
-  "OfflineFormQueueLength": 612,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ab"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 152,
+  "WarnManagerChatMessageMinutes": 827,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 755,
+  "OfflineFormQueueLength": 375,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "laborum"
 }
 ```
 
@@ -187,43 +187,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 679,
-  "Name": "Hansen Group",
-  "Description": "Switchable user-facing application",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 4,
+  "Name": "Jast, Johnson and Lesch",
+  "Description": "Configurable object-oriented help-desk",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2008-01-27T03:40:55.397437+01:00",
-  "SecondsPrAccept": 862,
-  "AlertRecipient": "rerum",
+  "LastAccept": "2008-10-30T02:30:52.4286686+01:00",
+  "SecondsPrAccept": 554,
+  "AlertRecipient": "velit",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "qui",
+  "BadgeHeader": "quam",
   "CustomQueueTextEnabled": false,
   "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 173,
-  "WarnManagerNewChatMinutes": 433,
+  "WarnNewChatMinutes": 416,
+  "WarnManagerNewChatMinutes": 656,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 630,
-  "WarnManagerChatMessageMinutes": 612,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 162,
-  "OfflineFormQueueLength": 554,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ducimus",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 721,
+  "WarnManagerChatMessageMinutes": 926,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 990,
+  "OfflineFormQueueLength": 123,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 855
     }
   },
   "_Links": {

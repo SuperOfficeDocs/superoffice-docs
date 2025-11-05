@@ -28,7 +28,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=adipisci
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=qui
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Weissnat, Bergstrom and Anderson",
-    "ToolTip": "Eos repudiandae.",
-    "Deleted": true,
-    "Rank": 89,
-    "Type": "voluptatum",
+    "Id": 784,
+    "Name": "Marvin, O'Connell and Friesen",
+    "ToolTip": "Dolor est et consequatur praesentium magni aut impedit.",
+    "Deleted": false,
+    "Rank": 62,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Ziemann-O'Hara",
-        "ToolTip": "Mollitia quidem.",
+        "Id": 340,
+        "Name": "O'Connell-Rowe",
+        "ToolTip": "Rerum dolor dolor repellendus minima omnis eveniet.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "velit",
+        "Rank": 922,
+        "Type": "commodi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 774,
-        "ExtraInfo": "sunt",
-        "StyleHint": "non",
-        "FullName": "Dr. Alanna Omari Denesik DDS",
+        "IconHint": "distinctio",
+        "ColorBlock": 721,
+        "ExtraInfo": "ut",
+        "StyleHint": "debitis",
+        "FullName": "Delta Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 561
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 123,
-    "ExtraInfo": "vel",
-    "StyleHint": "maiores",
-    "FullName": "Coleman Hirthe",
+    "IconHint": "quisquam",
+    "ColorBlock": 294,
+    "ExtraInfo": "repellat",
+    "StyleHint": "necessitatibus",
+    "FullName": "Elena Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 204
       }
     }
   }

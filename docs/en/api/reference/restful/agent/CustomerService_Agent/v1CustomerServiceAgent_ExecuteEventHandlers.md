@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,42 +106,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ut",
-    "InputValues2": "quo"
+    "InputValues1": "consectetur",
+    "InputValues2": "incidunt"
   },
   "BlockExecution": false,
-  "NavigateTo": "reprehenderit",
-  "Message": "suscipit",
-  "ShowDialog": "velit",
+  "NavigateTo": "quibusdam",
+  "Message": "exercitationem",
+  "ShowDialog": "excepturi",
   "OutputValues": {
-    "OutputValues1": "vel",
-    "OutputValues2": "magni"
+    "OutputValues1": "expedita",
+    "OutputValues2": "alias"
   },
   "StateValues": {
-    "StateValues1": "voluptatem",
-    "StateValues2": "animi"
+    "StateValues1": "doloribus",
+    "StateValues2": "exercitationem"
   },
-  "Exception": "esse",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "dolorem",
-    "ParserValues2": "recusandae"
+    "ParserValues1": "rem",
+    "ParserValues2": "rem"
   },
   "CgiVariables": {
-    "CgiVariables1": "sint",
-    "CgiVariables2": "debitis"
+    "CgiVariables1": "iusto",
+    "CgiVariables2": "culpa"
   },
-  "CgiContent": "dignissimos",
+  "CgiContent": "dolores",
   "Headers": {
-    "Headers1": "eligendi",
-    "Headers2": "molestiae"
+    "Headers1": "dolor",
+    "Headers2": "voluptate"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

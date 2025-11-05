@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "Name": "Tremblay-Beier",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 716,
-  "Rank": 610,
+  "Id": 969,
+  "Name": "Greenfelder, Lockman and Schmitt",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 36,
+  "Rank": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 618
     }
   }
 }

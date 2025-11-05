@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 483,
-  "Name": "Leffler Group",
-  "Tooltip": "eos",
+  "HeadingId": 39,
+  "Name": "Mann Inc and Sons",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 397,
-  "UdListDefinitionId": 563,
+  "Rank": 663,
+  "UdListDefinitionId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 105
     }
   }
 }

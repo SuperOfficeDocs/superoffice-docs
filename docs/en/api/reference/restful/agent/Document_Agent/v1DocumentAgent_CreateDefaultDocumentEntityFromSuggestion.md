@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 538
+  "SuggestedDocumentId": 161
 }
 ```
 
@@ -122,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 285,
+  "DocumentId": 227,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "velit",
-  "Header": "blanditiis",
-  "Name": "Rice, Hilll and Hagenes",
-  "OurRef": "magnam",
-  "YourRef": "accusamus",
-  "CreatedDate": "2017-02-06T03:40:46.7342627+01:00",
-  "UpdatedDate": "2000-02-07T03:40:46.7342627+01:00",
-  "Description": "Visionary mission-critical parallelism",
+  "Attention": "nihil",
+  "Header": "sit",
+  "Name": "Windler, Barrows and Stokes",
+  "OurRef": "assumenda",
+  "YourRef": "aliquid",
+  "CreatedDate": "2008-08-18T02:30:47.2100867+02:00",
+  "UpdatedDate": "2025-08-05T02:30:47.2100867+02:00",
+  "Description": "Streamlined upward-trending paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-06-09T03:40:46.7342627+02:00",
-  "ExternalRef": "labore",
+  "Date": "2021-07-16T02:30:47.2100867+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 974,
+  "ActiveLinks": 438,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Farrell-Langosh",
-      "Id": 897,
-      "Description": "Open-source coherent encoding",
-      "ExtraInfo": "nemo",
-      "LinkId": 97,
+      "EntityName": "Hagenes, Abbott and Jacobs",
+      "Id": 808,
+      "Description": "Universal stable groupware",
+      "ExtraInfo": "nulla",
+      "LinkId": 918,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 494,
-  "Snum": 921,
+  "SuggestedDocumentId": 942,
+  "Snum": 499,
   "UserDefinedFields": {
-    "SuperOffice:1": "1778476546",
-    "SuperOffice:2": "1549849301"
+    "SuperOffice:1": "Furman Ferry",
+    "SuperOffice:2": "Daisy Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "nisi"
+    "CustomFields1": "expedita",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2023-02-19T03:40:46.7342627+01:00",
-  "PublishTo": "2015-11-25T03:40:46.7342627+01:00",
-  "PublishFrom": "2023-01-10T03:40:46.7342627+01:00",
+  "PublishEventDate": "2023-03-13T02:30:47.2100867+01:00",
+  "PublishTo": "2005-09-06T02:30:47.2100867+02:00",
+  "PublishFrom": "1998-07-04T02:30:47.2100867+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 798
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 798
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 160
     }
   }
 }

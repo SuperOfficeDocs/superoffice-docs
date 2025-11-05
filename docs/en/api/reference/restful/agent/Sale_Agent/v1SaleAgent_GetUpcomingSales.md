@@ -102,12 +102,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 120,
-  "Count": 932
+  "WeightedAmountLimit": 71,
+  "Count": 309
 }
 ```
 
@@ -119,37 +119,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ruecker-Beahan",
-    "SaleDate": "2022-04-23T03:40:47.6723407+02:00",
-    "SaleId": 634,
-    "Probability": 337,
-    "Title": "numquam",
-    "Amount": 1363.29,
-    "Currency": "quo",
-    "ProjectName": "Rowe Group",
-    "AssociateFullName": "Willy Zemlak",
-    "Description": "Profound human-resource application",
+    "ContactName": "Anderson-Stamm",
+    "SaleDate": "2022-12-16T02:30:47.7881925+01:00",
+    "SaleId": 494,
+    "Probability": 267,
+    "Title": "sunt",
+    "Amount": 29340.507999999998,
+    "Currency": "id",
+    "ProjectName": "Runolfsson-Friesen",
+    "AssociateFullName": "Enid Treutel",
+    "Description": "Multi-channelled upward-trending analyzer",
     "Status": "Lost",
-    "WeightedAmount": 28945.624,
-    "ProjectId": 214,
-    "EarningPercent": 2522.87,
-    "Earning": 5660.004,
-    "ContactId": 737,
-    "AssociateId": 647,
-    "PersonId": 533,
-    "SaleTypeId": 13,
-    "SaleTypeName": "Cormier, Casper and Veum",
-    "PersonFullName": "Enos Dickinson",
+    "WeightedAmount": 17656.956,
+    "ProjectId": 160,
+    "EarningPercent": 5666.272,
+    "Earning": 28892.345999999998,
+    "ContactId": 166,
+    "AssociateId": 806,
+    "PersonId": 42,
+    "SaleTypeId": 332,
+    "SaleTypeName": "Pfeffer Group",
+    "PersonFullName": "May Kuvalis",
     "Completed": "Completed",
-    "ActiveErpLinks": 396,
-    "NextDueDate": "2015-02-12T03:40:47.6723407+01:00",
-    "Number": "1149183",
+    "ActiveErpLinks": 671,
+    "NextDueDate": "2007-09-29T02:30:47.7881925+02:00",
+    "Number": "1647087",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

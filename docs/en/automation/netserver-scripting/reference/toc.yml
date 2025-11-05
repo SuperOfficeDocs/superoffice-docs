@@ -479,6 +479,8 @@ items:
     href: blobagent/getquotelineimageasstreamasync.md
   - name: GetQuoteLineImageAsync
     href: blobagent/getquotelineimageasync.md
+  - name: GetRawPersonImageAsync
+    href: blobagent/getrawpersonimageasync.md
   - name: SaveBlobEntityAsync
     href: blobagent/saveblobentityasync.md
   - name: SaveImageStreamAsync

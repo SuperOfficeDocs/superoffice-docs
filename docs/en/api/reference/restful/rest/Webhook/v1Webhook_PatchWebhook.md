@@ -124,18 +124,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -148,31 +148,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 761,
-  "Name": "Schultz, West and Harber",
+  "WebhookId": 225,
+  "Name": "Langosh Group",
   "Events": [
-    "voluptas",
-    "veritatis"
+    "aut",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "harum",
+  "Secret": "labore",
   "State": "Active",
-  "Type": "dolorem",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "pariatur"
+    "Headers1": "iure",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-03-08T03:40:56.6650985+01:00",
+  "Registered": "2005-09-18T02:30:53.1786436+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2025-04-29T03:40:56.6650985+02:00",
+  "Updated": "2009-01-30T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "emerald@collier.biz",
+  "ErrorsEmail": "lavinia_lakin@bartoletti.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 736,
-  "Name": "Lesch-Waters",
-  "Description": "Open-architected incremental conglomeration",
-  "DeltaJson": "ea",
+  "ConfigurableScreenDeltaId": 990,
+  "Name": "Kunze LLC",
+  "Description": "Vision-oriented dynamic knowledge user",
+  "DeltaJson": "debitis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quod",
-  "UpdatedDate": "2004-09-17T03:40:46.2331872+02:00",
-  "CreatedDate": "2001-03-08T03:40:46.2331872+01:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2018-04-20T02:30:46.9132188+02:00",
+  "CreatedDate": "2001-12-02T02:30:46.9132188+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    159,
-    613
+    970,
+    447
   ],
-  "AppliesToKey": "et",
+  "AppliesToKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

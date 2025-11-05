@@ -63,7 +63,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bailey, Franecki and Baumbach",
-    "Description": "Phased fault-tolerant concept",
-    "Rank": 518,
+    "Name": "Fay-Wilkinson",
+    "Description": "Programmable composite middleware",
+    "Rank": 292,
     "Restrictions": [
       {
-        "Name": "Rau, Will and Smith",
-        "Operator": "reprehenderit",
+        "Name": "Dach, DuBuque and Langworth",
+        "Operator": "facere",
         "Values": [
-          "ut",
-          "ut"
+          "earum",
+          "officia"
         ],
         "DisplayValues": [
-          "beatae",
-          "et"
+          "nesciunt",
+          "ratione"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -95,27 +95,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 280,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 23
+        "UniqueHash": 101
       }
     ]
   },
   {
-    "Name": "Bailey, Franecki and Baumbach",
-    "Description": "Phased fault-tolerant concept",
-    "Rank": 518,
+    "Name": "Fay-Wilkinson",
+    "Description": "Programmable composite middleware",
+    "Rank": 292,
     "Restrictions": [
       {
-        "Name": "Rau, Will and Smith",
-        "Operator": "reprehenderit",
+        "Name": "Dach, DuBuque and Langworth",
+        "Operator": "facere",
         "Values": [
-          "ut",
-          "ut"
+          "earum",
+          "officia"
         ],
         "DisplayValues": [
-          "beatae",
-          "et"
+          "nesciunt",
+          "ratione"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -123,9 +123,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 280,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 23
+        "UniqueHash": 101
       }
     ]
   }

@@ -5,16 +5,18 @@ items:
   id: WebhookManager
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  - SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,System.IServiceProvider)
   - SuperOffice.CRM.Webhooks.WebhookManager.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
   - SuperOffice.CRM.Webhooks.WebhookManager.GetCurrentQueueStats
   - SuperOffice.CRM.Webhooks.WebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.GetRetryQueueStats
+  - SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength
   - SuperOffice.CRM.Webhooks.WebhookManager.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
   - SuperOffice.CRM.Webhooks.WebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.WebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
   - SuperOffice.CRM.Webhooks.WebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   - SuperOffice.CRM.Webhooks.WebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
@@ -52,16 +54,16 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Webhooks.WebhookManager.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.WebhookManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)'
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,System.IServiceProvider)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,System.IServiceProvider)
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,System.IServiceProvider)'
   parent: SuperOffice.CRM.Webhooks.WebhookManager
   langs:
   - csharp
   - vb
-  name: WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)>, ISoRequestItemsAccessor, IServiceScopeFactory)
-  nameWithType: WebhookManager.WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)>, ISoRequestItemsAccessor, IServiceScopeFactory)
-  fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager(SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, SuperOffice.Threading.IAsyncQueue<(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)>, SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  name: WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)>, ISoRequestItemsAccessor, IServiceScopeFactory, IServiceProvider)
+  nameWithType: WebhookManager.WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)>, ISoRequestItemsAccessor, IServiceScopeFactory, IServiceProvider)
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager(SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, SuperOffice.Threading.IAsyncQueue<(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)>, SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, System.IServiceProvider)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
@@ -69,7 +71,7 @@ items:
   summary: Creates the webhook dispatcher - instantiates the systam and custom webhook plugins.
   example: []
   syntax:
-    content: public WebhookManager(IAsyncQueue<WebhookTaskInfo> queue, IAsyncQueue<DelayedItem<RetryWebhook>> retryQueue, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)> slowQueue, ISoRequestItemsAccessor soRequestItemsAccessor, IServiceScopeFactory serviceScopeFactory)
+    content: public WebhookManager(IAsyncQueue<WebhookTaskInfo> queue, IAsyncQueue<DelayedItem<RetryWebhook>> retryQueue, IAsyncQueue<(ICustomWebhookPlugin, Webhook, WebhookPayload)> slowQueue, ISoRequestItemsAccessor soRequestItemsAccessor, IServiceScopeFactory serviceScopeFactory, IServiceProvider serviceProvider)
     parameters:
     - id: queue
       type: SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo}
@@ -81,11 +83,13 @@ items:
       type: SuperOffice.Factory.ISoRequestItemsAccessor
     - id: serviceScopeFactory
       type: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
-    content.vb: Public Sub New(queue As IAsyncQueue(Of WebhookTaskInfo), retryQueue As IAsyncQueue(Of DelayedItem(Of RetryWebhook)), slowQueue As IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), soRequestItemsAccessor As ISoRequestItemsAccessor, serviceScopeFactory As IServiceScopeFactory)
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(queue As IAsyncQueue(Of WebhookTaskInfo), retryQueue As IAsyncQueue(Of DelayedItem(Of RetryWebhook)), slowQueue As IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), soRequestItemsAccessor As ISoRequestItemsAccessor, serviceScopeFactory As IServiceScopeFactory, serviceProvider As IServiceProvider)
   overload: SuperOffice.CRM.Webhooks.WebhookManager.#ctor*
-  nameWithType.vb: WebhookManager.New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ISoRequestItemsAccessor, IServiceScopeFactory)
-  fullName.vb: SuperOffice.CRM.Webhooks.WebhookManager.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), SuperOffice.Threading.IAsyncQueue(Of (SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)), SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  name.vb: New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ISoRequestItemsAccessor, IServiceScopeFactory)
+  nameWithType.vb: WebhookManager.New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ISoRequestItemsAccessor, IServiceScopeFactory, IServiceProvider)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookManager.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), SuperOffice.Threading.IAsyncQueue(Of (SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)), SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, System.IServiceProvider)
+  name.vb: New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), IAsyncQueue(Of (ICustomWebhookPlugin, Webhook, WebhookPayload)), ISoRequestItemsAccessor, IServiceScopeFactory, IServiceProvider)
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
   commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
   id: GetCurrent
@@ -152,6 +156,26 @@ items:
       type: SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}[]
     content.vb: Public Function GetRetryQueueStats() As DelayedItem(Of RetryWebhook)()
   overload: SuperOffice.CRM.Webhooks.WebhookManager.GetRetryQueueStats*
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength
+  id: GetSlowQueueLength
+  parent: SuperOffice.CRM.Webhooks.WebhookManager
+  langs:
+  - csharp
+  - vb
+  name: GetSlowQueueLength()
+  nameWithType: WebhookManager.GetSlowQueueLength()
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public int GetSlowQueueLength()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetSlowQueueLength() As Integer
+  overload: SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength*
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
   id: WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
@@ -478,6 +502,41 @@ items:
   nameWithType.vb: WebhookManager.NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
   fullName.vb: SuperOffice.CRM.Webhooks.WebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Webhooks.Webhook), SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
   name.vb: NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  id: RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.WebhookManager
+  langs:
+  - csharp
+  - vb
+  name: RecordResult(Webhook, WebhookResponse, CancellationToken)
+  nameWithType: WebhookManager.RecordResult(Webhook, WebhookResponse, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookResponse, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Record the result of a webhook call in memoory or on database. May change state of webhook if too many errors or permanent failure.
+  example: []
+  syntax:
+    content: public Task RecordResult(Webhook hook, WebhookResponse result, CancellationToken cancellationToken)
+    parameters:
+    - id: hook
+      type: SuperOffice.CRM.Webhooks.Webhook
+      description: ''
+    - id: result
+      type: SuperOffice.CRM.Webhooks.WebhookResponse
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function RecordResult(hook As Webhook, result As WebhookResponse, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Webhooks.WebhookManager.RecordResult*
+  implements:
+  - SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
   id: GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
@@ -1052,7 +1111,7 @@ references:
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__SuperOffice_Threading_IAsyncQueue_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___SuperOffice_Threading_IAsyncQueue_System_ValueTuple_SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload___SuperOffice_Factory_ISoRequestItemsAccessor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_
+  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__SuperOffice_Threading_IAsyncQueue_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___SuperOffice_Threading_IAsyncQueue_System_ValueTuple_SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload___SuperOffice_Factory_ISoRequestItemsAccessor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_System_IServiceProvider_
   name: WebhookManager
   nameWithType: WebhookManager.WebhookManager
   fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager
@@ -1204,6 +1263,14 @@ references:
   name: IServiceScopeFactory
   nameWithType: IServiceScopeFactory
   fullName: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
 - uid: SuperOffice.Threading.IAsyncQueue`1
   commentId: T:SuperOffice.Threading.IAsyncQueue`1
   isExternal: true
@@ -1412,6 +1479,24 @@ references:
   - name: )
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager_GetSlowQueueLength
+  name: GetSlowQueueLength
+  nameWithType: WebhookManager.GetSlowQueueLength
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.GetSlowQueueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.WaitForWebhooksToCompleteAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.WaitForWebhooksToCompleteAsync
   isExternal: true
@@ -1650,17 +1735,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: System.Collections.Generic.IDictionary{System.String,System.Object}
   commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
   parent: System.Collections.Generic
@@ -2544,6 +2618,69 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.RecordResult*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.RecordResult
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager_RecordResult_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookResponse_System_Threading_CancellationToken_
+  name: RecordResult
+  nameWithType: WebhookManager.RecordResult
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.RecordResult
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: RecordResult(Webhook, WebhookResponse, CancellationToken)
+  nameWithType: IWebhookManager.RecordResult(Webhook, WebhookResponse, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookResponse, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+    name: RecordResult
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
+    name: RecordResult
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.WebhookResponse
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookResponse
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookResponse.html
+  name: WebhookResponse
+  nameWithType: WebhookResponse
+  fullName: SuperOffice.CRM.Webhooks.WebhookResponse
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.GetLastErrorAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.GetLastErrorAsync
   isExternal: true

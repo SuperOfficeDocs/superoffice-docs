@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 767
+  "PersonId": 18
 }
 ```
 
@@ -94,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "dolorum",
-    "StrippedValue": "voluptas",
-    "Description": "Inverse demand-driven algorithm",
+    "Value": "aut",
+    "StrippedValue": "libero",
+    "Description": "Networked demand-driven toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 487
       }
     }
   },
   {
-    "Value": "dolorum",
-    "StrippedValue": "voluptas",
-    "Description": "Inverse demand-driven algorithm",
+    "Value": "aut",
+    "StrippedValue": "libero",
+    "Description": "Networked demand-driven toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 487
       }
     }
   }

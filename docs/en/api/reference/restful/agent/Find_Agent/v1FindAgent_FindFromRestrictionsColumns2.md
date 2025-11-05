@@ -166,15 +166,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "maiores",
-  "ProviderName": "Kihn-Jaskolski",
-  "DesiredColumns": "voluptas",
-  "PageSize": 119,
-  "PageNumber": 799
+  "Restrictions": "et",
+  "ProviderName": "Mills, Powlowski and Grant",
+  "DesiredColumns": "consequatur",
+  "PageSize": 333,
+  "PageNumber": 264
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Willms Inc and Sons",
-      "DisplayTooltip": "quasi",
-      "DisplayType": "fuga",
-      "CanOrderBy": true,
-      "Name": "Schinner Group",
+      "DisplayName": "Stracke, Vandervort and McDermott",
+      "DisplayTooltip": "porro",
+      "DisplayType": "reprehenderit",
+      "CanOrderBy": false,
+      "Name": "Ritchie-Anderson",
       "CanRestrictBy": false,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Moen, Bogisich and Effertz",
+      "RestrictionType": "similique",
+      "RestrictionListName": "Gorczany, Turcotte and Jewess",
       "IsVisible": false,
-      "ExtraInfo": "ratione",
-      "Width": "qui",
-      "IconHint": "sequi",
-      "HeadingIconHint": "quasi"
+      "ExtraInfo": "perspiciatis",
+      "Width": "voluptas",
+      "IconHint": "cum",
+      "HeadingIconHint": "fugiat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Moore Group",
-      "PrimaryKey": 370,
+      "EntityName": "Hettinger, Walker and Goodwin",
+      "PrimaryKey": 83,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "sint",
-          "LinkHint": "molestiae"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "beatae",
+          "LinkHint": "reiciendis"
         }
       },
-      "LinkHint": "debitis",
-      "StyleHint": "expedita",
+      "LinkHint": "consequatur",
+      "StyleHint": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldType": "System.Int32",
+          "FieldLength": 804
         }
       }
     }
   ],
-  "RowCount": 102,
+  "RowCount": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldLength": 659
     }
   }
 }

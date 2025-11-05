@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,12 +76,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 556,
-  "Name": "Carter Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 948,
+  "Name": "Jenkins, Trantow and Robel",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 149,
-  "Rank": 399,
+  "UdListDefinitionId": 445,
+  "Rank": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

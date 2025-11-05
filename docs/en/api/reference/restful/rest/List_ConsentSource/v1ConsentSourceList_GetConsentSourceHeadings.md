@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 262,
-    "Name": "Durgan, Willms and Tremblay",
-    "Tooltip": "quia",
+    "HeadingId": 487,
+    "Name": "Lowe, Mills and Dickinson",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 503,
-    "UdListDefinitionId": 521,
+    "Rank": 2,
+    "UdListDefinitionId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 625
       }
     }
   }

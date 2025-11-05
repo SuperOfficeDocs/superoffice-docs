@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Veritatis aut suscipit voluptas doloremque ad.",
-    "Deleted": true,
-    "Rank": 954,
-    "Type": "quaerat",
-    "ColorBlock": 449,
-    "IconHint": "culpa",
+    "Id": 632,
+    "Name": "Hickle-Runte",
+    "ToolTip": "Sunt incidunt dignissimos voluptatem ea dolore sequi magnam.",
+    "Deleted": false,
+    "Rank": 159,
+    "Type": "labore",
+    "ColorBlock": 913,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2006-02-14T03:40:56.805732+01:00",
+    "LastChanged": "2013-10-19T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Weber, Jones and Hamill",
-        "ToolTip": "Autem omnis omnis et et aperiam.",
-        "Deleted": false,
-        "Rank": 223,
-        "Type": "quia",
-        "ColorBlock": 154,
-        "IconHint": "mollitia",
+        "Id": 394,
+        "Name": "Cole, Koch and King",
+        "ToolTip": "Expedita enim quo est qui doloremque sunt suscipit.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "nam",
+        "ColorBlock": 612,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2020-01-09T03:40:56.805732+01:00",
+        "LastChanged": "2006-06-18T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Wilmer Little",
+        "ExtraInfo": "illo",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Prof. Aric DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 639
+            "FieldType": "System.Int32",
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "vitae",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Jonatan Jewess",
+    "FullName": "Casandra Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

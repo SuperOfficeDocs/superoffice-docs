@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rodriguez-Gulgowski",
-    "Description": "Right-sized optimal challenge",
+    "Name": "Nitzsche-Mayer",
+    "Description": "Object-based bandwidth-monitored array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 293,
-        "Tooltip": "consequatur",
+        "Total": 763,
+        "Tooltip": "exercitationem",
         "CanAssign": false,
-        "Free": 152,
-        "InUse": 966,
-        "IsHidden": false,
+        "Free": 532,
+        "InUse": 615,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 795,
-        "Name": "Roob, Huels and Thiel",
-        "Description": "Team-oriented exuding approach",
-        "PrerequisiteModuleName": "Carter-Donnelly",
-        "SortOrder": 88,
-        "ExtraFlags": 725,
+        "ModuleLicenseId": 841,
+        "Name": "Stark-Daugherty",
+        "Description": "Quality-focused impactful application",
+        "PrerequisiteModuleName": "Dicki, Kozey and Schimmel",
+        "SortOrder": 148,
+        "ExtraFlags": 24,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 781
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 86,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 732,
-        "InUse": 859,
-        "IsHidden": true,
+        "Total": 684,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 829,
+        "InUse": 597,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 375,
-        "Name": "Kihn Group",
-        "Description": "Synergized methodical emulation",
-        "PrerequisiteModuleName": "Kunde Inc and Sons",
-        "SortOrder": 74,
-        "ExtraFlags": 902,
+        "ModuleLicenseId": 253,
+        "Name": "Howell, Mosciski and Collins",
+        "Description": "Reverse-engineered user-facing local area network",
+        "PrerequisiteModuleName": "Davis LLC",
+        "SortOrder": 944,
+        "ExtraFlags": 301,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 863
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 945
       }
     }
   },
   {
-    "Name": "Rodriguez-Gulgowski",
-    "Description": "Right-sized optimal challenge",
+    "Name": "Nitzsche-Mayer",
+    "Description": "Object-based bandwidth-monitored array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 293,
-        "Tooltip": "consequatur",
+        "Total": 763,
+        "Tooltip": "exercitationem",
         "CanAssign": false,
-        "Free": 152,
-        "InUse": 966,
-        "IsHidden": false,
+        "Free": 532,
+        "InUse": 615,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 795,
-        "Name": "Roob, Huels and Thiel",
-        "Description": "Team-oriented exuding approach",
-        "PrerequisiteModuleName": "Carter-Donnelly",
-        "SortOrder": 88,
-        "ExtraFlags": 725,
+        "ModuleLicenseId": 841,
+        "Name": "Stark-Daugherty",
+        "Description": "Quality-focused impactful application",
+        "PrerequisiteModuleName": "Dicki, Kozey and Schimmel",
+        "SortOrder": 148,
+        "ExtraFlags": 24,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 781
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 86,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 732,
-        "InUse": 859,
-        "IsHidden": true,
+        "Total": 684,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 829,
+        "InUse": 597,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 375,
-        "Name": "Kihn Group",
-        "Description": "Synergized methodical emulation",
-        "PrerequisiteModuleName": "Kunde Inc and Sons",
-        "SortOrder": 74,
-        "ExtraFlags": 902,
+        "ModuleLicenseId": 253,
+        "Name": "Howell, Mosciski and Collins",
+        "Description": "Reverse-engineered user-facing local area network",
+        "PrerequisiteModuleName": "Davis LLC",
+        "SortOrder": 944,
+        "ExtraFlags": 301,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 863
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 945
       }
     }
   }

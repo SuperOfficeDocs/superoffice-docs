@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 833,
-  "UniqueId": "non",
-  "Name": "Abernathy, Jaskolski and Gottlieb",
-  "Description": "Proactive dynamic service-desk",
-  "AssociateId": 116,
-  "Columns": 642,
+  "DashboardId": 519,
+  "UniqueId": "sed",
+  "Name": "Feil-Eichmann",
+  "Description": "Grass-roots bandwidth-monitored utilisation",
+  "AssociateId": 154,
+  "Columns": 38,
   "Theme": null,
-  "VisibleForAll": 505,
+  "VisibleForAll": 853,
   "VisibleForAssociates": [
-    594,
-    160
+    487,
+    180
   ],
   "VisibleForGroups": [
-    896,
-    437
+    553,
+    894
   ],
-  "PinForAll": 612,
+  "PinForAll": 1000,
   "PinForAssociates": [
-    920,
-    424
+    670,
+    785
   ],
   "PinForGroups": [
-    363,
-    263
+    740,
+    348
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

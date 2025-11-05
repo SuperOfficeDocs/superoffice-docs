@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Jenkins-Schmeler",
-  "Tooltip": "eaque",
+  "Id": 298,
+  "Name": "Labadie, Mohr and Powlowski",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 76,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "Rank": 849,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Moen Group",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 335,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "Id": 982,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "Rank": 485,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 636
     }
   }
 }

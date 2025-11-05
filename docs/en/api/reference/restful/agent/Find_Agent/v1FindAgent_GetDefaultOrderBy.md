@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Kerluke Group",
-  "StorageKey": "dolores"
+  "StorageType": "perspiciatis",
+  "ProviderName": "Treutel-Will",
+  "StorageKey": "cum"
 }
 ```
 
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dickinson-Hartmann",
+    "Name": "Jacobi, Abbott and Luettgen",
     "Direction": "ASC"
   },
   {
-    "Name": "Dickinson-Hartmann",
+    "Name": "Jacobi, Abbott and Luettgen",
     "Direction": "ASC"
   }
 ]

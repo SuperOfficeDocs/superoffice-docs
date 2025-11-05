@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 369,
-  "BlobSize": 114,
-  "Description": "Ergonomic systemic forecast",
-  "ExtraInfo": "consequuntur",
+  "BlobId": 133,
+  "BlobSize": 543,
+  "Description": "Business-focused system-worthy implementation",
+  "ExtraInfo": "laboriosam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "magni",
-  "OriginalSize": 338,
-  "CreatedDate": "2019-04-03T03:40:55.428689+02:00",
-  "UpdatedDate": "2021-07-30T03:40:55.428689+02:00",
+  "MimeType": "rerum",
+  "OriginalSize": 981,
+  "CreatedDate": "2008-04-08T02:30:52.4442929+02:00",
+  "UpdatedDate": "2001-11-18T02:30:52.4442929+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia"
+  "ConceptualType": "qui"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 23,
-  "BlobSize": 115,
-  "Description": "Virtual full-range service-desk",
-  "ExtraInfo": "incidunt",
+  "BlobId": 867,
+  "BlobSize": 41,
+  "Description": "Exclusive impactful superstructure",
+  "ExtraInfo": "nobis",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "sequi",
-  "OriginalSize": 484,
-  "CreatedDate": "2007-08-08T03:40:55.428689+02:00",
-  "UpdatedDate": "2015-11-12T03:40:55.428689+01:00",
+  "IsZipped": false,
+  "MimeType": "vel",
+  "OriginalSize": 354,
+  "CreatedDate": "2011-01-08T02:30:52.4442929+01:00",
+  "UpdatedDate": "2017-10-10T02:30:52.4442929+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deserunt",
+  "ConceptualType": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 380
     }
   }
 }

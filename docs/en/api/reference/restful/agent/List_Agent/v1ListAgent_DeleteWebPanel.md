@@ -68,11 +68,11 @@ No Content
 POST /api/v1/Agents/List/DeleteWebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 715
+  "Id": 787
 }
 ```
 

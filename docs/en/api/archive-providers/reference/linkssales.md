@@ -65,7 +65,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |probPercent|int|Probability as %: Probability as %| x |
-|originalStage|listAny|Stage: Displays the stage of the sale| x |
+|originalStage|listAny|Stage when closed: Stage when closed| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
 |stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -142,8 +142,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -223,19 +225,19 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
-|person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
-|person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -261,7 +263,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -294,7 +296,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -325,14 +327,15 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
-|contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|contact/countryId|int|Country ID: Country ID| x |
-|contact/number|string|Number| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|contact/countryId|int|Country ID: Country ID| x |
+|contact/number|string|Number| x |
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
 |contact/stop|bool|Stop| x |
@@ -349,6 +352,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -422,21 +426,21 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |contact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |contact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|contact/contactAssociate/userName|string|User name: User name| x |
-|contact/contactAssociate/personEmail|string|E-mail| x |
-|contact/contactAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|contact/contactAssociate/userName|string|User name: User name| x |
+|contact/contactAssociate/personEmail|string|E-mail| x |
+|contact/contactAssociate/locationAddress|string|Location: Location| x |
 |contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
@@ -468,7 +472,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -520,7 +524,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -533,14 +537,14 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
 |saleUdef/SuperOffice:1|string|saleshorttext| x |
-|saleUdef/SuperOffice:2|string|salelongtext| x |
-|saleUdef/SuperOffice:3|int|salenumber| x |
-|saleUdef/SuperOffice:4|date|saledate| x |
-|saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleUdef/SuperOffice:2|string|salelongtext| x |
+|saleUdef/SuperOffice:3|int|salenumber| x |
+|saleUdef/SuperOffice:4|date|saledate| x |
+|saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
@@ -598,7 +602,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -637,14 +641,14 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-|project/saintActivityType|listAny|SAINT type|  |
-|project/saintDirection|listAny|Direction|  |
-|project/saintIntention|listAny|Intention|  |
-|project/saintTicketStatus|listAny|Status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintActivityType|listAny|SAINT type|  |
+|project/saintDirection|listAny|Direction|  |
+|project/saintIntention|listAny|Intention|  |
+|project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -696,8 +700,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
 |saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group| x |
+|saleStakeholder/person/personCategoryRank|int|Stakeholder - !!Category rank| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
-|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status| x |
+|saleStakeholder/person/leadStatus|listAny|Stakeholder - Lead status| x |
+|saleStakeholder/person/leadstatusRank|int|Stakeholder - !!Lead status RANK| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
@@ -739,16 +745,16 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personAddress/zip|string|Stakeholder - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/person/personAddress/state|string|Stakeholder - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/personAddress/wgs84latitude|decimal|Stakeholder - Contact address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personAddress/wgs84longitude|decimal|Stakeholder - Contact address - Longitude: Longitude| x |
 |saleStakeholder/person/personAddress/formattedAddress| *None* |Stakeholder - Contact address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/personAddress/formattedMultiLineAddress| *None* |Stakeholder - Contact address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
 |saleStakeholder/person/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/person/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
 |saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -788,8 +794,8 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
 |saleStakeholder/person/personExtra/x\_person\_contact\_relation|stringorPK|Stakeholder - Extra company relation: Company relation on contact| x |
 |saleStakeholder/person/personExtra/y\_rental/id|int|Stakeholder - Rental - id: Displays the row's primary key (y\_rental)| x |
-|saleStakeholder/person/personExtra/y\_rental/x\_start|date|Stakeholder - Rental - Start rental| x |
-|saleStakeholder/person/personExtra/y\_rental/x\_end|date|Stakeholder - Rental - End| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_start|date|Stakeholder - Rental - Start rental: Start rental| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_end|date|Stakeholder - Rental - End: End| x |
 |saleStakeholder/person/personExtra/y\_rental/x\_amount|int|Stakeholder - Rental - Amount: Number to rent. Default = 1| x |
 |saleStakeholder/person/personExtra/y\_rental/x\_contact|stringorPK|Stakeholder - Rental - Renter: Company that rents equipment| x |
 |saleStakeholder/person/personExtra/y\_rental/y\_equipment/x\_name|string|Stakeholder - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -815,7 +821,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/personAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/personAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/personAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/personAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/personAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -843,16 +849,16 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/correspondingAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/person/correspondingAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/person/correspondingAssociate/role|listAny|Stakeholder - Role: Role| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/correspondingAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
 |saleStakeholder/person/correspondingAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
 |saleStakeholder/person/correspondingAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -883,6 +889,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
 |saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group| x |
+|saleStakeholder/contact/companyCategoryRank|int|Stakeholder - Category rank| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
@@ -903,6 +910,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/activeErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/contact/deletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/contact/mainContact| *None* |Stakeholder - Main contact: Main contact for this company| x |
+|saleStakeholder/contact/forceCompany|bool|Stakeholder - Dummy: Dummy|  |
 |saleStakeholder/contact/contactPhone/formattedNumber|string|Stakeholder - Telephone - Phone: Displays phone number|  |
 |saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description| x |
 |saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
@@ -945,6 +953,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/contact/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
 |saleStakeholder/contact/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/contact/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -953,10 +965,6 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/url/URLAddress|string|Stakeholder - URL| x |
 |saleStakeholder/contact/url/URLDescription|string|Stakeholder - Description| x |
 |saleStakeholder/contact/contactAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
@@ -980,7 +988,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/contactAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/contact/contactAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/contact/contactAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/contact/contactAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/contact/contactAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/contact/contactAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -1022,7 +1030,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Stakeholder - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Stakeholder - Extra Request relation: Request relation on company| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_contact|stringorPK|Stakeholder - Extra contact relation: Contact relation on company| x |
-|saleStakeholder/contact/contactExtra/y\_organization/x\_name|string|Stakeholder - Organization - Name| x |
+|saleStakeholder/contact/contactExtra/y\_organization/x\_name|string|Stakeholder - Organization - Name: Name| x |
 |saleStakeholder/contact/NumberOfActivities|int|Stakeholder - Number of activities|  |
 |saleStakeholder/contact/NumberOfActivitiesInPeriod|int|Stakeholder - Number of activities in last 90 days|  |
 |saleStakeholder/contact/NumberOfNotCompletedActivities|int|Stakeholder - Number of non-completed activities|  |
@@ -1049,6 +1057,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
 |saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
 |saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/saintDirection|listAny|Stakeholder - Direction|  |
 |saleStakeholder/contact/saintIntention|listAny|Stakeholder - Intention|  |
 |saleStakeholder/contact/saintTicketStatus|listAny|Stakeholder - Status|  |
@@ -1057,10 +1069,6 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
 |quote/orderComment|string|Comment: Customer's comment| x |
 |quote/connectionId|int|DB-ID: Database ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/description|string|Description: Description of the quote version| x |
@@ -1155,7 +1163,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personUpdatedByFullName,person/personExtra/x_person_shorttext,person/personExtra/x_person_shorttext_list,contact/postAddress/wgs84latitude,contact/streetAddress/addressId
+GET /api/v1/archive/LinksSales?$select=date,associateId,person/personNumber,contact/contactUdef/SuperOffice:9,contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

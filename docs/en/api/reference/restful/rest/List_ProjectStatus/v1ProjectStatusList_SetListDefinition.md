@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Pollich, Dooley and Nitzsche",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 299,
+  "Id": 273,
+  "Name": "Nader, Auer and Russel",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 885,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Davis Group",
-  "Tooltip": "omnis",
+  "Id": 600,
+  "Name": "Mueller-Balistreri",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 274,
-  "IsCustomList": true,
+  "Rank": 890,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

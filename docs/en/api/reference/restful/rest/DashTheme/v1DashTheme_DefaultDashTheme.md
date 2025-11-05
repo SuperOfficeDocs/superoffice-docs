@@ -64,7 +64,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 590,
-  "Name": "Kozey LLC",
-  "Config": "minus",
-  "Rank": 60,
-  "Client": "delectus",
-  "Style": "illo",
+  "DashboardThemeId": 483,
+  "Name": "Kertzmann LLC",
+  "Config": "incidunt",
+  "Rank": 228,
+  "Client": "neque",
+  "Style": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,46 +90,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 970,
+  "HierarchyId": 876,
   "Domain": "Dashboards",
-  "Name": "Lebsack-Kuphal",
-  "Fullname": "ipsum",
-  "ParentId": 6,
+  "Name": "Glover, D'Amore and Kunde",
+  "Fullname": "tenetur",
+  "ParentId": 496,
   "Children": [
     {
-      "HierarchyId": 729,
+      "HierarchyId": 383,
       "Domain": "Dashboards",
-      "Name": "Dibbert, Larson and Grimes",
-      "Fullname": "vel",
-      "ParentId": 220,
+      "Name": "Homenick, Wunsch and Dooley",
+      "Fullname": "corporis",
+      "ParentId": 859,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-10-07T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 870,
-      "Updated": "2024-10-08T03:40:55.7886484+02:00",
-      "UpdatedAssociateId": 593,
+      "Registered": "2001-07-16T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 37,
+      "Updated": "2019-07-16T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 22,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldType": "System.String",
+          "FieldLength": 192
         }
       }
     }
   ],
-  "Registered": "2019-08-15T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 592,
-  "Updated": "2018-04-08T03:40:55.7886484+02:00",
-  "UpdatedAssociateId": 54,
+  "Registered": "2018-02-19T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 224,
+  "Updated": "2011-07-27T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 926
     }
   }
 }

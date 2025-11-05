@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gutkowski-Leuschke",
-  "ProviderName": "Schuppe, Treutel and Padberg",
-  "Context": "est"
+  "GuiName": "Baumbach Inc and Sons",
+  "ProviderName": "Zulauf Group",
+  "Context": "non"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Lueilwitz, Langosh and Dibbert",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "sit",
-      "CanOrderBy": false,
-      "Name": "Glover Inc and Sons",
+      "DisplayName": "Koepp, Mosciski and Balistreri",
+      "DisplayTooltip": "et",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "McClure-Bosco",
       "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Stamm, Treutel and Welch",
+      "RestrictionType": "tempora",
+      "RestrictionListName": "Ortiz Group",
       "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "aspernatur",
-      "IconHint": "at",
-      "HeadingIconHint": "error"
+      "ExtraInfo": "qui",
+      "Width": "error",
+      "IconHint": "eius",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 625,
-      "Name": "Kirlin, Brakus and Schamberger",
-      "ToolTip": "Ullam ratione autem quas distinctio.",
-      "Deleted": true,
-      "Rank": 789,
-      "Type": "saepe",
-      "ColorBlock": 442,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2008-05-28T03:40:46.0608291+02:00",
+      "Id": 815,
+      "Name": "Schuster Inc and Sons",
+      "ToolTip": "Ut quam.",
+      "Deleted": false,
+      "Rank": 717,
+      "Type": "aut",
+      "ColorBlock": 181,
+      "IconHint": "temporibus",
+      "Selected": false,
+      "LastChanged": "2022-05-30T02:30:46.8038471+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "fuga",
-      "Hidden": true,
-      "FullName": "Rosella Walker",
+      "ExtraInfo": "possimus",
+      "StyleHint": "assumenda",
+      "Hidden": false,
+      "FullName": "Miss Grady Maureen Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 172
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Collier, Dibbert and DuBuque",
+      "Name": "Buckridge Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Collier, Dibbert and DuBuque",
+      "Name": "Buckridge Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "perferendis",
+  "OwnerKeys": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 449
     }
   }
 }

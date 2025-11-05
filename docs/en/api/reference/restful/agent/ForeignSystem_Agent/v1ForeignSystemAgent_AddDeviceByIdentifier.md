@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Smith-Lockman",
-  "DeviceName": "Gaylord-Boyer",
-  "DeviceIdentifier": "placeat"
+  "ApplicationName": "Okuneva, Gulgowski and Keebler",
+  "DeviceName": "Parker-Blanda",
+  "DeviceIdentifier": "deleniti"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 609,
-  "Name": "Vandervort, Sawayn and Rolfson",
-  "CreatedDate": "2015-09-27T03:40:46.9842779+02:00",
-  "UpdatedDate": "2001-12-04T03:40:46.9842779+01:00",
-  "AssociateFullName": "Miss Martin Schiller Jr.",
-  "CreatedBy": "tenetur",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "quibusdam",
-  "ForeignAppId": 731,
+  "ForeignDeviceId": 188,
+  "Name": "Ullrich-Bergstrom",
+  "CreatedDate": "2019-05-03T02:30:47.366331+02:00",
+  "UpdatedDate": "2023-01-27T02:30:47.366331+01:00",
+  "AssociateFullName": "Mr. Lexus Steve Murazik",
+  "CreatedBy": "cumque",
+  "UpdatedBy": "beatae",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldLength": 247
     }
   }
 }

@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -146,22 +146,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 659,
-  "Name": "Rath LLC",
+  "ScreenChooserId": 116,
+  "Name": "Jakubowski, Carter and Fay",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "possimus",
-  "Source": "non",
-  "Registered": "2003-10-26T03:40:56.4140988+01:00",
-  "RegisteredAssociateId": 233,
-  "Updated": "2004-04-23T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 476,
+  "UniqueIdentifier": "sed",
+  "Source": "quia",
+  "Registered": "2017-04-22T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "1999-05-03T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   },
   "_Links": {

@@ -76,25 +76,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 10 Nov 2006 03:40:55 G11T
+Last-Modified: Fri, 04 Jun 2021 02:30:52 G6T
 
 [
   {
-    "ForeignDeviceId": 175,
-    "Name": "Streich, Schaden and Dickens",
-    "CreatedDate": "2017-03-18T03:40:55.7731411+01:00",
-    "UpdatedDate": "2006-11-10T03:40:55.7731411+01:00",
-    "AssociateFullName": "Ms. Felicia Kaelyn Aufderhar",
-    "CreatedBy": "qui",
-    "UpdatedBy": "et",
-    "DeviceIdentifier": "voluptatum",
-    "ForeignAppId": 610,
+    "ForeignDeviceId": 855,
+    "Name": "Kshlerin, Huels and Durgan",
+    "CreatedDate": "2000-01-25T02:30:52.6474115+01:00",
+    "UpdatedDate": "2021-06-04T02:30:52.6474115+02:00",
+    "AssociateFullName": "Vilma Waters",
+    "CreatedBy": "adipisci",
+    "UpdatedBy": "omnis",
+    "DeviceIdentifier": "dolore",
+    "ForeignAppId": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 71
       }
     }
   }

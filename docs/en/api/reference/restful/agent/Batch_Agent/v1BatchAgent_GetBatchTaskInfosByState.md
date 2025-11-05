@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Windler Group",
-    "AssociateId": 923,
-    "DetailsTable": 750,
-    "DetailsRecord": 49,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 288,
+    "Name": "Maggio-O'Conner",
+    "AssociateId": 424,
+    "DetailsTable": 617,
+    "DetailsRecord": 670,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "odit",
-      "ParameterObject2": "aliquam"
+      "ParameterObject1": "culpa",
+      "ParameterObject2": "dolores"
     },
-    "LastStarted": "2001-10-10T03:40:46.0764548+02:00",
-    "Created": "2000-01-21T03:40:46.0764548+01:00",
-    "StartCount": 507,
-    "DatabaseSerialNumber": "927379",
-    "Context": "voluptates",
-    "Result": "quod",
+    "LastStarted": "2019-05-27T02:30:46.8194719+02:00",
+    "Created": "2001-06-21T02:30:46.8194719+02:00",
+    "StartCount": 478,
+    "DatabaseSerialNumber": "112945",
+    "Context": "inventore",
+    "Result": "praesentium",
     "State": "All",
-    "Description": "Vision-oriented system-worthy capability",
-    "Response": "quisquam",
-    "Request": "et",
-    "ProgressDescription": "Reactive analyzing middleware",
-    "ProgressPercent": 432,
-    "FileName": "Dicki LLC",
+    "Description": "Robust context-sensitive knowledge user",
+    "Response": "culpa",
+    "Request": "dolorum",
+    "ProgressDescription": "Re-engineered coherent leverage",
+    "ProgressPercent": 840,
+    "FileName": "Kunde-Batz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

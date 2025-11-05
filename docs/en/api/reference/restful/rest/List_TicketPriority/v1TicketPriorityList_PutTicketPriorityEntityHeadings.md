@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 385,
-    "Name": "Okuneva, Gaylord and Mante",
-    "Tooltip": "omnis",
+    "HeadingId": 562,
+    "Name": "Schuppe-Schinner",
+    "Tooltip": "laboriosam",
     "Deleted": true,
-    "Rank": 376,
-    "UdListDefinitionId": 97
+    "Rank": 792,
+    "UdListDefinitionId": 678
   },
   {
-    "HeadingId": 385,
-    "Name": "Okuneva, Gaylord and Mante",
-    "Tooltip": "omnis",
+    "HeadingId": 562,
+    "Name": "Schuppe-Schinner",
+    "Tooltip": "laboriosam",
     "Deleted": true,
-    "Rank": 376,
-    "UdListDefinitionId": 97
+    "Rank": 792,
+    "UdListDefinitionId": 678
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Grant, Zulauf and Russel",
-    "Tooltip": "dolorem",
+    "HeadingId": 440,
+    "Name": "Ryan-Williamson",
+    "Tooltip": "vero",
     "Deleted": true,
-    "Rank": 425,
-    "UdListDefinitionId": 917,
+    "Rank": 30,
+    "UdListDefinitionId": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 937
+        "FieldLength": 279
       }
     }
   }

@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ut",
-  "PrefKey": "magnam",
+  "PrefSection": "blanditiis",
+  "PrefKey": "sint",
   "PrefLevel": "Database",
-  "OwnerId": 194
+  "OwnerId": 884
 }
 ```
 
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ex",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "alias",
-  "DisplayTooltip": "enim",
+  "DisplayValue": "quidem",
+  "DisplayTooltip": "tempora",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 48,
-  "PrefDescId": 434,
-  "TableName": "Christiansen-Muller",
-  "UserPreferenceId": 210,
+  "TargetId": 884,
+  "PrefDescId": 495,
+  "TableName": "Bins Group",
+  "UserPreferenceId": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 434
     }
   }
 }

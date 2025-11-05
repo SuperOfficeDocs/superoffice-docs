@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 308,
+  "SystemEventId": 5,
   "Scope": "Database",
-  "Eta": "2000-01-18T03:40:46.2488145+01:00",
-  "Eventkey": "aut",
-  "Eventmess": "unde",
-  "ExtraInfo": 331,
-  "Owner": 438,
-  "UpdatedCount": 611,
-  "Registered": "2003-03-14T03:40:46.2488145+01:00",
+  "Eta": "2000-02-28T02:30:46.9288431+01:00",
+  "Eventkey": "accusantium",
+  "Eventmess": "voluptas",
+  "ExtraInfo": 756,
+  "Owner": 965,
+  "UpdatedCount": 609,
+  "Registered": "2003-08-27T02:30:46.9288431+02:00",
   "ActivatedBy": null
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 518,
+  "SystemEventId": 712,
   "Scope": "Database",
-  "Eta": "2012-09-26T03:40:46.2488145+02:00",
-  "Eventkey": "earum",
-  "Eventmess": "perspiciatis",
-  "ExtraInfo": 261,
-  "Owner": 34,
-  "UpdatedCount": 464,
-  "Registered": "2015-08-12T03:40:46.2488145+02:00",
+  "Eta": "2013-08-24T02:30:46.9288431+02:00",
+  "Eventkey": "impedit",
+  "Eventmess": "quia",
+  "ExtraInfo": 117,
+  "Owner": 537,
+  "UpdatedCount": 708,
+  "Registered": "2009-10-15T02:30:46.9288431+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

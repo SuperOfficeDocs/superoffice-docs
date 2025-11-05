@@ -73,7 +73,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,27 +83,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 234,
-  "Name": "Howell-Crist",
+  "WebhookId": 993,
+  "Name": "Koelpin LLC",
   "Events": [
-    "suscipit",
-    "maxime"
+    "excepturi",
+    "totam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolor",
+  "Secret": "adipisci",
   "State": "Active",
-  "Type": "voluptates",
+  "Type": "velit",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "labore"
+    "Headers1": "sapiente",
+    "Headers2": "ipsa"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-04-04T03:40:56.6494726+02:00",
+  "Registered": "2001-02-12T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-07-17T03:40:56.6494726+02:00",
+  "Updated": "2001-01-27T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "holly@mitchell.ca"
+  "ErrorsEmail": "presley@kemmer.info"
 }
 ```

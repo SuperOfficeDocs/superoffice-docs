@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Corkery-Satterfield"
+  "ApplicationName": "Schuster, Shields and Rempel"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 490,
-  "Name": "Crist Group",
-  "CreatedDate": "2009-07-28T03:40:46.9999043+02:00",
-  "UpdatedDate": "2007-02-12T03:40:46.9999043+01:00",
-  "AssociateFullName": "Ms. Libbie Skiles",
-  "CreatedBy": "atque",
-  "UpdatedBy": "fugit",
-  "DeviceIdentifier": "deleniti",
-  "ForeignAppId": 213,
+  "ForeignDeviceId": 356,
+  "Name": "Lueilwitz-Crona",
+  "CreatedDate": "2001-06-27T02:30:47.366331+02:00",
+  "UpdatedDate": "2009-05-03T02:30:47.366331+02:00",
+  "AssociateFullName": "Mrs. Santiago Mozell Quigley DDS",
+  "CreatedBy": "a",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "esse",
+  "ForeignAppId": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldLength": 936
     }
   }
 }

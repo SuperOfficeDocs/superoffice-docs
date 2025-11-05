@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Aufderhar-Cartwright",
-    "ToolTip": "Et exercitationem omnis sunt ut ipsum ut et.",
+    "Id": 899,
+    "Name": "Wehner-Gutkowski",
+    "ToolTip": "In itaque qui.",
     "Deleted": true,
-    "Rank": 592,
-    "Type": "ut",
-    "ColorBlock": 361,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "2005-06-05T03:40:56.6807244+02:00",
+    "Rank": 12,
+    "Type": "nostrum",
+    "ColorBlock": 533,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2023-07-10T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Schoen Inc and Sons",
-        "ToolTip": "Possimus aut inventore non deserunt vitae placeat ipsum.",
+        "Id": 319,
+        "Name": "Weissnat Inc and Sons",
+        "ToolTip": "Voluptatum magni aut officia voluptas.",
         "Deleted": false,
-        "Rank": 921,
-        "Type": "expedita",
-        "ColorBlock": 9,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2015-05-23T03:40:56.6807244+02:00",
+        "Rank": 472,
+        "Type": "praesentium",
+        "ColorBlock": 321,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2018-09-26T02:30:53.194268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "culpa",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Marielle Kaleb Doyle V"
+        "FullName": "Mrs. Gus Verla Jacobs"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "nam",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Francisco Harris"
+    "FullName": "Ms. Jocelyn Anais Grant"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Champlin Group",
-    "ToolTip": "Qui inventore occaecati pariatur alias.",
+    "Id": 883,
+    "Name": "Vandervort-Larson",
+    "ToolTip": "Minus et sapiente sunt distinctio.",
     "Deleted": false,
-    "Rank": 471,
-    "Type": "quas",
-    "ColorBlock": 204,
-    "IconHint": "eius",
+    "Rank": 718,
+    "Type": "qui",
+    "ColorBlock": 230,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2004-06-18T03:40:56.6807244+02:00",
+    "LastChanged": "2013-11-07T02:30:53.194268+01:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Hudson, Hodkiewicz and Wolf",
-        "ToolTip": "Voluptatibus voluptatem ut.",
+        "Id": 383,
+        "Name": "Bashirian, Jones and Greenholt",
+        "ToolTip": "Aut reprehenderit quia et.",
         "Deleted": false,
-        "Rank": 601,
-        "Type": "itaque",
-        "ColorBlock": 808,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2002-12-13T03:40:56.6807244+01:00",
+        "Rank": 130,
+        "Type": "ad",
+        "ColorBlock": 233,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2025-03-18T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Dr. Keara Goldner DDS",
+        "ExtraInfo": "rerum",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Elza Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "et",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Mr. Eugene Watsica",
+    "FullName": "Kasandra Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldType": "System.String",
+        "FieldLength": 536
       }
     }
   }

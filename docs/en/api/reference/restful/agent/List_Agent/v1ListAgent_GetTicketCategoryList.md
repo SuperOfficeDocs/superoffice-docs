@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 99,
-    "ParentId": 765,
-    "Name": "Carroll, Prohaska and Wisozk",
-    "Fullname": "esse",
-    "CategoryMaster": 840,
+    "TicketCategoryId": 109,
+    "ParentId": 899,
+    "Name": "Mertz, Abbott and Nolan",
+    "Fullname": "consequuntur",
+    "CategoryMaster": 703,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Reichert, Bechtelar and Langosh",
+    "ExternalName": "Langworth-Bernhard",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 319,
-    "ReplyTemplate": 12,
-    "NotificationEmail": "damion.jewess@hermann.name",
+    "AssignmentLag": 277,
+    "ReplyTemplate": 663,
+    "NotificationEmail": "josiah.batz@marks.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 107,
+    "EffectiveReplyTemplateId": 622,
     "ExtraFields": {
-      "ExtraFields1": "iure",
-      "ExtraFields2": "neque"
+      "ExtraFields1": "est",
+      "ExtraFields2": "nisi"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatum",
-      "CustomFields2": "unde"
+      "CustomFields1": "assumenda",
+      "CustomFields2": "eligendi"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 832
       }
     }
   }

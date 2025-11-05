@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 84
+  "DocumentId": 633
 }
 ```
 
@@ -95,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder, Rolfson and Jaskolski",
-  "Type": "soluta",
-  "Size": 925,
+  "Name": "Stiedemann, Reichert and Langosh",
+  "Type": "amet",
+  "Size": 173,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 645
     }
   }
 }

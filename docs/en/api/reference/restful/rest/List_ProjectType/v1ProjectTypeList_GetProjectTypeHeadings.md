@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Gutkowski-Heaney",
-    "Tooltip": "amet",
+    "HeadingId": 19,
+    "Name": "Gislason Group",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 213,
-    "UdListDefinitionId": 687,
+    "Rank": 465,
+    "UdListDefinitionId": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

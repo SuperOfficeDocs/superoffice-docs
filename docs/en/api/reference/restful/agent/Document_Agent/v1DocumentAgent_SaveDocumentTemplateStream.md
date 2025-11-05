@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 879,
+  "DocumentTemplateId": 363,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aliquid",
-  "PluginId": 412
+  "LanguageCode": "aut",
+  "PluginId": 686
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Berge-Strosin",
-  "Description": "Digitized heuristic groupware",
-  "ExternalReference": "magnam",
-  "MimeType": "sapiente",
-  "PluginId": 873
+  "Name": "Brakus-Weissnat",
+  "Description": "Digitized tangible approach",
+  "ExternalReference": "neque",
+  "MimeType": "aperiam",
+  "PluginId": 245
 }
 ```

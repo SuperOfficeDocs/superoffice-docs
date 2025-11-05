@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler, Wilkinson and Beatty",
+  "ProviderName": "Von, Kshlerin and Howe",
   "DesiredColumns": [
-    "et",
-    "fuga"
+    "rerum",
+    "officia"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stoltenberg, Bailey and Lind",
+    "Name": "Friesen Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Stoltenberg, Bailey and Lind",
+    "Name": "Friesen Inc and Sons",
     "Direction": "ASC"
   }
 ]

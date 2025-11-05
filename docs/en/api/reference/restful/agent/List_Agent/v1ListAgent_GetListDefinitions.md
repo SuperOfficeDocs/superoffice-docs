@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Becker-Bartell",
-    "Tooltip": "recusandae",
+    "Id": 355,
+    "Name": "Rippin, Conroy and Blick",
+    "Tooltip": "libero",
     "Deleted": true,
-    "Rank": 914,
+    "Rank": 356,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "nobis",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "aut",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 550
       }
     }
   }

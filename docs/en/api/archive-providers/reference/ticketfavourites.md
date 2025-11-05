@@ -99,7 +99,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
+|createdBy/ejDisplayName|string|Created by - Nickname: User's nickname in Service| x |
 |createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -136,7 +136,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|ownedBy/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -166,7 +166,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
+|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
@@ -174,7 +174,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=createdBy/assocName,content,createdBy/role
+GET /api/v1/archive/ticketfavourites?$select=text,createdBy/ejUserId,content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343,
-  "Name": "Kuhlman-Hermann",
-  "Tooltip": "ut",
+  "Id": 629,
+  "Name": "Sporer, Pouros and Bruen",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 437,
+  "Rank": 478,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 309
     }
   },
   "_Links": {

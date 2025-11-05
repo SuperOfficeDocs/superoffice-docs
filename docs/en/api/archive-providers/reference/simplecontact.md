@@ -31,6 +31,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
+|companyCategoryRank|int|Category rank| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -51,6 +52,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |deletedDate|datetime|Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company| x |
+|forceCompany|bool|Dummy: Dummy|  |
 |contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |url/URLDescription|string|Description| x |
 |contactAssociate/firstName|string|First name: Displays the contact's first name| x |
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -140,7 +142,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -173,7 +175,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportAssociate/assocType|listAny|Our service contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactSupportAssociate/ejUserId|int|Our service contact - Service user ID: The database ID of a Service user|  |
 |contactSupportAssociate/simultaneousEjUser|bool|Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactSupportAssociate/ejDisplayName|string|Our service contact - Nick name: User's nick name in Service| x |
+|contactSupportAssociate/ejDisplayName|string|Our service contact - Nickname: User's nickname in Service| x |
 |contactSupportAssociate/ejStatus|int|Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in| x |
 |contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -221,19 +223,21 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
-|contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
-|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
+|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 |contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
+|contactSupportPerson/personCategoryRank|int|User support contact - !!Category rank| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
+|contactSupportPerson/leadStatus|listAny|User support contact - Lead status| x |
+|contactSupportPerson/leadstatusRank|int|User support contact - !!Lead status RANK| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -273,8 +277,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|User support contact - Extra appointment relation: Appointment relation on person| x |
 |contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|User support contact - Extra company relation: Company relation on contact| x |
 |contactSupportPerson/personExtra/y\_rental/id|int|User support contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental| x |
-|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End| x |
+|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental: Start rental| x |
+|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End: End| x |
 |contactSupportPerson/personExtra/y\_rental/x\_amount|int|User support contact - Rental - Amount: Number to rent. Default = 1| x |
 |contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|User support contact - Rental - Renter: Company that rents equipment| x |
 |contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -319,18 +323,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|LastActivity|date|Date of last activity|  |
-|LastCompletedActivity|date|Date of last completed activity|  |
-|LastDoByActivity|date|Date of last non-completed activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+|LastActivity|date|Date of last activity|  |
+|LastCompletedActivity|date|Date of last completed activity|  |
+|LastDoByActivity|date|Date of last non-completed activity|  |
 |NumberOfSales|int|Number of sales|  |
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
@@ -360,7 +364,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=contactAssociate/contactCategory,contactSupportPerson/personInfo/textId,contactInterestIds
+GET /api/v1/archive/SimpleContact?$select=contactSupportPerson/personInfo/textId,contactSupportPerson/personExtra/x_person_category_relation,contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

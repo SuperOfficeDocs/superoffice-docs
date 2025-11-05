@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Anderson-Crona",
-    "ToolTip": "Odio quia enim eius sit nesciunt occaecati mollitia.",
+    "Id": 392,
+    "Name": "Kris-Donnelly",
+    "ToolTip": "Qui ut sed.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "porro",
-    "ColorBlock": 531,
-    "IconHint": "repellat",
+    "Rank": 352,
+    "Type": "quia",
+    "ColorBlock": 815,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2007-10-27T03:40:57.1344494+02:00",
+    "LastChanged": "2020-03-26T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Luettgen, Runte and Breitenberg",
-        "ToolTip": "Voluptate rerum.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "possimus",
-        "ColorBlock": 211,
-        "IconHint": "nisi",
+        "Id": 860,
+        "Name": "Hagenes Group",
+        "ToolTip": "Hic corrupti aut et non quas.",
+        "Deleted": true,
+        "Rank": 800,
+        "Type": "porro",
+        "ColorBlock": 417,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2013-01-02T03:40:57.1344494+01:00",
+        "LastChanged": "2005-10-20T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Joel Schaefer",
+        "ExtraInfo": "sit",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Cole Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "qui",
+    "StyleHint": "amet",
     "Hidden": true,
-    "FullName": "Irwin Tremblay",
+    "FullName": "Dr. Mohammed Frederick Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

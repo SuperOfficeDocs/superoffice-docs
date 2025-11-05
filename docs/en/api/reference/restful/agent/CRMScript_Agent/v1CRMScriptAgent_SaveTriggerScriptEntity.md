@@ -91,16 +91,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 935,
-  "Name": "Mayert, Kub and Wyman",
+  "ScreenChooserId": 657,
+  "Name": "Jakubowski Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "aut",
-  "Source": "veniam",
-  "Registered": "2017-09-04T03:40:46.5306238+02:00",
-  "RegisteredAssociateId": 988,
-  "Updated": "2005-05-13T03:40:46.5306238+02:00",
-  "UpdatedAssociateId": 763
+  "UniqueIdentifier": "ipsum",
+  "Source": "voluptas",
+  "Registered": "2017-06-17T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 727,
+  "Updated": "2001-01-28T02:30:47.0382145+01:00",
+  "UpdatedAssociateId": 342
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 726,
-  "Name": "Jacobson-Beahan",
+  "ScreenChooserId": 285,
+  "Name": "Schroeder, McClure and Torp",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ex",
-  "Source": "voluptates",
-  "Registered": "2024-12-12T03:40:46.5306238+01:00",
-  "RegisteredAssociateId": 861,
-  "Updated": "2013-10-20T03:40:46.5306238+02:00",
-  "UpdatedAssociateId": 442,
+  "Enabled": false,
+  "UniqueIdentifier": "est",
+  "Source": "esse",
+  "Registered": "2016-05-02T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 117,
+  "Updated": "2024-06-09T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

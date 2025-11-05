@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 110
+  "UserGroupId": 210
 }
 ```
 
@@ -127,46 +127,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 18,
-    "ColumnId": 524,
-    "FieldDefault": "ut",
-    "FieldHeight": 161,
-    "FieldLabel": "et",
-    "FieldLeft": 663,
-    "FieldTop": 849,
+    "UDefFieldId": 405,
+    "ColumnId": 687,
+    "FieldDefault": "repellat",
+    "FieldHeight": 97,
+    "FieldLabel": "quis",
+    "FieldLeft": 591,
+    "FieldTop": 841,
     "FieldType": "Checkbox",
-    "FieldWidth": 411,
-    "FormatMask": "architecto",
+    "FieldWidth": 144,
+    "FormatMask": "dolor",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 214,
-    "LabelLeft": 46,
-    "LabelTop": 760,
-    "LabelWidth": 370,
-    "LastVersionId": 934,
-    "ListTableId": 355,
+    "LabelHeight": 498,
+    "LabelLeft": 352,
+    "LabelTop": 970,
+    "LabelWidth": 734,
+    "LastVersionId": 203,
+    "ListTableId": 133,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 589,
-    "ProgId": "doloribus",
+    "Page1LineNo": 988,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "voluptate",
-    "TabOrder": 530,
-    "TextLength": 178,
-    "Tooltip": "enim",
-    "UdefIdentity": 327,
-    "UDListDefinitionId": 285,
+    "ShortLabel": "sit",
+    "TabOrder": 922,
+    "TextLength": 409,
+    "Tooltip": "error",
+    "UdefIdentity": 13,
+    "UDListDefinitionId": 468,
     "Justification": "Center",
-    "Version": 435,
-    "TemplateVariableName": "Rodriguez Group",
+    "Version": 852,
+    "TemplateVariableName": "Flatley, Waelchi and Walter",
     "HasBeenPublished": true,
-    "MdoListName": "Casper LLC",
+    "MdoListName": "Feeney LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 146
       }
     }
   }

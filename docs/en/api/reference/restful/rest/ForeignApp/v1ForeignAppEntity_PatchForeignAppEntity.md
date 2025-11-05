@@ -116,18 +116,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -140,29 +140,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 658,
-  "Name": "Kiehn-Green",
-  "CreatedDate": "2014-12-31T03:40:55.7731411+01:00",
-  "UpdatedDate": "2006-06-03T03:40:55.7731411+02:00",
+  "ForeignAppId": 149,
+  "Name": "Reilly, Huel and Rippin",
+  "CreatedDate": "2016-06-09T02:30:52.6474115+02:00",
+  "UpdatedDate": "2000-09-19T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 787,
-      "Name": "Parker, Macejkovic and Legros",
-      "CreatedDate": "2021-12-17T03:40:55.7731411+01:00",
-      "UpdatedDate": "2004-10-25T03:40:55.7731411+02:00",
-      "AssociateFullName": "Braeden Rogahn",
-      "CreatedBy": "ullam",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 366,
+      "ForeignDeviceId": 990,
+      "Name": "Stoltenberg LLC",
+      "CreatedDate": "2004-01-31T02:30:52.6474115+01:00",
+      "UpdatedDate": "2001-04-22T02:30:52.6474115+02:00",
+      "AssociateFullName": "Zachery Keeling",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "dolores",
+      "ForeignAppId": 849,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 893
     }
   },
   "_Links": {

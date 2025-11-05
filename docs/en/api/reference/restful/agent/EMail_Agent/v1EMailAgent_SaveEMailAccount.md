@@ -91,22 +91,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 786,
-  "EMailAddress": "non",
-  "AssociateId": 883,
+  "EMailAccountId": 474,
+  "EMailAddress": "et",
+  "AssociateId": 559,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 563,
-  "ErrorCount": 968,
+  "AccountStatus": 22,
+  "ErrorCount": 9,
   "ErrorReason": "",
-  "InboxFolder": "labore",
-  "SentFolder": "cumque",
-  "SimpleMode": 704,
-  "LastFetch": "2005-02-18T03:40:46.8280185+01:00"
+  "InboxFolder": "harum",
+  "SentFolder": "nam",
+  "SimpleMode": 615,
+  "LastFetch": "2023-11-22T02:30:47.2725845+01:00"
 }
 ```
 
@@ -117,24 +117,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 244,
-  "EMailAddress": "dolor",
-  "AssociateId": 450,
+  "EMailAccountId": 873,
+  "EMailAddress": "eum",
+  "AssociateId": 969,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 726,
-  "ErrorCount": 973,
+  "AccountStatus": 574,
+  "ErrorCount": 825,
   "ErrorReason": "",
-  "InboxFolder": "dolorem",
-  "SentFolder": "quidem",
-  "SimpleMode": 624,
-  "LastFetch": "1999-04-06T03:40:46.8280185+02:00",
+  "InboxFolder": "temporibus",
+  "SentFolder": "consequatur",
+  "SimpleMode": 426,
+  "LastFetch": "2012-05-29T02:30:47.2725845+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 701
     }
   }
 }

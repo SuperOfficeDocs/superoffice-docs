@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 468
+  "AttachmentId": 727
 }
 ```
 

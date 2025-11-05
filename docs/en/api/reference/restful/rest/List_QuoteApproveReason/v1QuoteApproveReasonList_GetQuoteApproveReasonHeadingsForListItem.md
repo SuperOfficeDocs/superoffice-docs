@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Bailey, Wilderman and Hirthe",
-    "ToolTip": "Provident tempore ratione ex cumque odio quibusdam.",
+    "Id": 795,
+    "Name": "Gorczany Group",
+    "ToolTip": "Quam qui aut non veniam dolorem.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "facere",
-    "ColorBlock": 534,
-    "IconHint": "consequuntur",
+    "Rank": 145,
+    "Type": "dolorem",
+    "ColorBlock": 716,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-11-05T03:40:57.040226+01:00",
+    "LastChanged": "2010-07-22T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Mohr-Murray",
-        "ToolTip": "Dolores nostrum architecto eaque sit reprehenderit.",
-        "Deleted": true,
-        "Rank": 513,
-        "Type": "voluptate",
-        "ColorBlock": 309,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "2023-01-29T03:40:57.040226+01:00",
+        "Id": 427,
+        "Name": "Armstrong Group",
+        "ToolTip": "Impedit rerum.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "veritatis",
+        "ColorBlock": 218,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2011-07-09T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Spencer Khalid Hermiston MD",
+        "ExtraInfo": "qui",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Jefferey Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldType": "System.String",
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Joanny Kilback",
+    "ExtraInfo": "minima",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Dr. Beatrice Schimmel III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 896
       }
     }
   }

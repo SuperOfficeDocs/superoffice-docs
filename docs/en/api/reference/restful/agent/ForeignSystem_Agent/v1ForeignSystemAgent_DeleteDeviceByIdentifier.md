@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Donnelly LLC",
-  "DeviceName": "Marvin LLC",
-  "DeviceIdentifier": "minima"
+  "ApplicationName": "Sauer Group",
+  "DeviceName": "Donnelly, Nitzsche and Mante",
+  "DeviceIdentifier": "soluta"
 }
 ```
 

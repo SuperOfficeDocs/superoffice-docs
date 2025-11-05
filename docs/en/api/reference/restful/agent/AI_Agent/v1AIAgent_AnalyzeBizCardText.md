@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/AI/AnalyzeBizCardText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "commodi",
+  "Text": "ut",
   "MergeWithDatabase": true
 }
 ```
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "molestiae",
-  "PhotoImage": "omnis"
+  "LogoImage": "esse",
+  "PhotoImage": "sequi"
 }
 ```

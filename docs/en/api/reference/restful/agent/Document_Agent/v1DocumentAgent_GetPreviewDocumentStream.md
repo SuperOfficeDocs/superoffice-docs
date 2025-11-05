@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682
+  "DocumentId": 133
 }
 ```
 
@@ -95,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany-Waters",
-  "Type": "aut",
-  "Size": 443,
+  "Name": "Ritchie, Berge and Carroll",
+  "Type": "architecto",
+  "Size": 281,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 792
     }
   }
 }

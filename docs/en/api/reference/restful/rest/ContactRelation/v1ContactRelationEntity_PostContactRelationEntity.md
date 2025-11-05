@@ -112,28 +112,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 541,
-  "SourcePersonId": 35,
-  "DestinationContactId": 415,
-  "DestinationPersonId": 677,
-  "RelationId": 701,
-  "Comment": "fugit",
-  "RelationDefinitionId": 62,
-  "Reversed": 467,
-  "UpdatedDate": "2002-02-09T03:40:55.6006549+01:00",
-  "CreatedDate": "2008-02-08T03:40:55.6006549+01:00",
+  "SourceContactId": 918,
+  "SourcePersonId": 686,
+  "DestinationContactId": 315,
+  "DestinationPersonId": 308,
+  "RelationId": 352,
+  "Comment": "minima",
+  "RelationDefinitionId": 718,
+  "Reversed": 922,
+  "UpdatedDate": "2009-08-09T02:30:52.506791+02:00",
+  "CreatedDate": "2004-09-03T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kautzer-Turcotte",
-  "SourcePersonName": "Gleichner-Hansen",
-  "DestinationContactName": "Haag LLC",
-  "DestinationPersonName": "Wisozk-Armstrong",
+  "SourceContactName": "Cartwright, Dach and Schamberger",
+  "SourcePersonName": "Kuphal-Wolff",
+  "DestinationContactName": "Maggio Group",
+  "DestinationPersonName": "Cole LLC",
   "ActiveText": "dolorum",
-  "PassiveText": "et"
+  "PassiveText": "est"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 842,
-  "SourcePersonId": 316,
-  "DestinationContactId": 616,
-  "DestinationPersonId": 390,
-  "RelationId": 958,
-  "Comment": "rerum",
-  "RelationDefinitionId": 769,
-  "Reversed": 99,
-  "UpdatedDate": "1998-08-23T03:40:55.6162809+02:00",
-  "CreatedDate": "2007-06-16T03:40:55.6162809+02:00",
+  "SourceContactId": 483,
+  "SourcePersonId": 459,
+  "DestinationContactId": 702,
+  "DestinationPersonId": 338,
+  "RelationId": 35,
+  "Comment": "vel",
+  "RelationDefinitionId": 217,
+  "Reversed": 652,
+  "UpdatedDate": "2007-02-25T02:30:52.506791+01:00",
+  "CreatedDate": "2008-09-05T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Langosh, Hills and Streich",
-  "SourcePersonName": "Deckow LLC",
-  "DestinationContactName": "Kunze-Schuppe",
-  "DestinationPersonName": "Howell LLC",
-  "ActiveText": "voluptatem",
-  "PassiveText": "dolore",
+  "SourceContactName": "Carroll-Morissette",
+  "SourcePersonName": "Maggio, Hagenes and Cartwright",
+  "DestinationContactName": "Hyatt Group",
+  "DestinationPersonName": "Wintheiser-Wunsch",
+  "ActiveText": "error",
+  "PassiveText": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 209
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

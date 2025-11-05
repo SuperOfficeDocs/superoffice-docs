@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 533,
+  "QuoteAlternativeId": 883,
   "Product": null
 }
 ```
@@ -141,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 762,
-  "ERPQuoteLineKey": "temporibus",
-  "QuoteAlternativeId": 328,
-  "ERPProductKey": "et",
+  "QuoteLineId": 840,
+  "ERPQuoteLineKey": "harum",
+  "QuoteAlternativeId": 210,
+  "ERPProductKey": "dolore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 3240.556,
-  "DeliveredQuantity": 14334.916,
-  "Rank": 627,
-  "Name": "Ziemann Group",
-  "Description": "Object-based bottom-line standardization",
-  "Code": "rerum",
-  "QuantityUnit": "est",
-  "PriceUnit": "et",
-  "ItemNumber": "424707",
+  "Quantity": 21593.26,
+  "DeliveredQuantity": 1999.492,
+  "Rank": 888,
+  "Name": "Daugherty, Blanda and Kassulke",
+  "Description": "Adaptive contextually-based leverage",
+  "Code": "aut",
+  "QuantityUnit": "cupiditate",
+  "PriceUnit": "error",
+  "ItemNumber": "1095536",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nisi",
-  "ProductTypeKey": "rem",
-  "Supplier": "id",
-  "SupplierCode": "itaque",
-  "Thumbnail": "in",
-  "VATInfo": "ratione",
-  "VAT": 25535.832,
-  "UnitCost": 25933.85,
-  "UnitMinimumPrice": 25040.66,
-  "UnitListPrice": 14679.655999999999,
+  "ProductFamilyKey": "cupiditate",
+  "ProductTypeKey": "placeat",
+  "Supplier": "optio",
+  "SupplierCode": "et",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "occaecati",
+  "VAT": 28083.773999999998,
+  "UnitCost": 27610.54,
+  "UnitMinimumPrice": 19600.036,
+  "UnitListPrice": 14287.905999999999,
   "ExtraInfo": [
     {
-      "Name": "Weber-Murphy",
-      "Value": "atque",
+      "Name": "Hirthe-Larkin",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 276
         }
       }
     },
     {
-      "Name": "Weber-Murphy",
-      "Value": "atque",
+      "Name": "Hirthe-Larkin",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 276
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "odio",
-  "SubscriptionQuantity": 24241.489999999998,
-  "SubscriptionStart": "2018-01-23T03:40:47.5785846+01:00",
-  "ERPDiscountPercent": 12846.266,
-  "ERPDiscountAmount": 16860.92,
-  "DiscountPercent": 5299.594,
-  "DiscountAmount": 2325.428,
+  "RawExtraInfo": "voluptatum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "suscipit",
+  "SubscriptionQuantity": 2974.1659999999997,
+  "SubscriptionStart": "2011-09-28T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 18333.899999999998,
+  "ERPDiscountAmount": 16378.284,
+  "DiscountPercent": 20051.332,
+  "DiscountAmount": 28958.16,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25955.788,
-  "EarningAmount": 473.234,
-  "SubTotal": 27058.956,
-  "TotalPrice": 1896.07,
-  "Rights": "commodi",
-  "Rule": "ipsa",
-  "ExtraField1": "et",
-  "ExtraField2": "aliquid",
-  "ExtraField3": "neque",
-  "ExtraField4": "aut",
-  "ExtraField5": "illum",
+  "EarningPercent": 27692.023999999998,
+  "EarningAmount": 1250.466,
+  "SubTotal": 16252.923999999999,
+  "TotalPrice": 24959.176,
+  "Rights": "rerum",
+  "Rule": "voluptatem",
+  "ExtraField1": "ab",
+  "ExtraField2": "sit",
+  "ExtraField3": "sit",
+  "ExtraField4": "ut",
+  "ExtraField5": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 389
     }
   }
 }

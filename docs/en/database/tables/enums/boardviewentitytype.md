@@ -17,6 +17,7 @@ The kind of board view entity these settings belong to
 |None|0|None|
 |Sale|1|Sale|
 |Project|2|Project|
+|ContactPerson|3|ContactPerson|
 
 ## Usage
 

@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 168,
-  "Type": "fugit"
+  "AssociateId": 283,
+  "Type": "voluptas"
 }
 ```
 
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2023-09-06T03:40:48.2348737+02:00",
-    "ValidTo": "2007-07-05T03:40:48.2348737+02:00",
-    "Comment": "natus",
-    "SecretValue": "quia",
-    "PublicValue": "suscipit",
+    "ValidFrom": "2015-06-21T02:30:48.1163068+02:00",
+    "ValidTo": "2025-02-06T02:30:48.1163068+01:00",
+    "Comment": "omnis",
+    "SecretValue": "aliquid",
+    "PublicValue": "aspernatur",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldType": "System.String",
+        "FieldLength": 254
       }
     }
   }

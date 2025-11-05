@@ -95,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 678,
-  "CurrentAppointmentId": 692,
+  "SaleId": 469,
+  "CurrentAppointmentId": 499,
   "SkipCompleteCheck": false
 }
 ```
@@ -108,26 +108,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 198,
-  "Deleted": 992,
-  "DaysFuture": 461,
-  "Tooltip": "quia",
-  "Text": "illum",
-  "TaskId": 548,
-  "SuggestedAppointmentId": 478,
-  "SaleTypeStageLinkId": 695,
-  "RegisteredAssociateId": 841,
-  "Rank": 645,
-  "ProjectTypeStatusLinkId": 301,
-  "Name": "Marvin-Little",
-  "Duration": 385,
+  "AutoSuggest": 791,
+  "Deleted": 896,
+  "DaysFuture": 306,
+  "Tooltip": "est",
+  "Text": "ut",
+  "TaskId": 242,
+  "SuggestedAppointmentId": 267,
+  "SaleTypeStageLinkId": 172,
+  "RegisteredAssociateId": 967,
+  "Rank": 450,
+  "ProjectTypeStatusLinkId": 835,
+  "Name": "Feest-Torphy",
+  "Duration": 554,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

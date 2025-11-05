@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "Name": "Stehr, Rath and Ward",
-  "Tooltip": "aut",
+  "Id": 110,
+  "Name": "Reichel Group",
+  "Tooltip": "error",
   "Deleted": true,
-  "UdListDefinitionId": 264,
-  "Rank": 216,
+  "UdListDefinitionId": 57,
+  "Rank": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldLength": 828
     }
   }
 }

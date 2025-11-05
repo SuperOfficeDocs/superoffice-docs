@@ -74,36 +74,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "voluptates",
-      "ValueType": "ipsam",
-      "Mandatory": false,
-      "EncodedDisplayName": "Larkin, Lebsack and Kunze",
-      "EncodedDisplayDescription": "Multi-lateral exuding extranet",
-      "IconHint": "vero",
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": true,
+      "Key": "iste",
+      "ValueType": "sit",
+      "Mandatory": true,
+      "EncodedDisplayName": "Emard, Lebsack and Jacobson",
+      "EncodedDisplayDescription": "Versatile bifurcated definition",
+      "IconHint": "et",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sed",
-      "EncodedDataCaptionDescription": "Compatible multi-tasking contingency",
-      "CurrentOperationType": "ratione",
+      "EncodedDataCaption": "nihil",
+      "EncodedDataCaptionDescription": "Distributed client-driven complexity",
+      "CurrentOperationType": "aut",
       "Values": [
-        "iste",
-        "suscipit"
+        "voluptatem",
+        "amet"
       ],
       "DisplayValues": [
-        "atque",
-        "quia"
+        "et",
+        "autem"
       ],
       "OperationInfos": [
         {},
@@ -111,9 +111,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Hermiston Inc and Sons",
-  "Context": "rerum",
-  "Ids": "harum"
+  "TableName": "Durgan Group",
+  "Context": "aliquid",
+  "Ids": "possimus"
 }
 ```
 
@@ -123,5 +123,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-991
+67
 ```

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Hegmann-Bosco",
-    "ToolTip": "Ea quis totam saepe animi illo consequatur.",
+    "Id": 841,
+    "Name": "Hyatt, Rice and Stroman",
+    "ToolTip": "Eum non accusamus rerum quas.",
     "Deleted": false,
-    "Rank": 280,
-    "Type": "at",
-    "ColorBlock": 329,
-    "IconHint": "nobis",
+    "Rank": 872,
+    "Type": "quidem",
+    "ColorBlock": 18,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2018-01-14T03:40:57.0558521+01:00",
+    "LastChanged": "2008-12-04T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Gleichner, Bruen and Friesen",
-        "ToolTip": "Sunt minus et enim.",
-        "Deleted": false,
-        "Rank": 67,
-        "Type": "odio",
-        "ColorBlock": 149,
-        "IconHint": "aut",
+        "Id": 734,
+        "Name": "Raynor LLC",
+        "ToolTip": "Unde quod officia.",
+        "Deleted": true,
+        "Rank": 521,
+        "Type": "dolor",
+        "ColorBlock": 499,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2005-01-16T03:40:57.0558521+01:00",
+        "LastChanged": "2018-08-08T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Prof. Caesar Howe"
+        "ExtraInfo": "rem",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Rosalinda Fahey"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "maiores",
+    "ExtraInfo": "qui",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Pansy Harber"
+    "FullName": "Mrs. Rae Dereck Champlin"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Zemlak-Grant",
-    "ToolTip": "Facere non omnis ipsa sed ea consequatur.",
-    "Deleted": true,
-    "Rank": 403,
-    "Type": "dolor",
-    "ColorBlock": 448,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2012-02-19T03:40:57.0558521+01:00",
+    "Id": 814,
+    "Name": "Cruickshank, Kerluke and Pfannerstill",
+    "ToolTip": "Ex et laborum libero qui voluptatem et.",
+    "Deleted": false,
+    "Rank": 209,
+    "Type": "voluptates",
+    "ColorBlock": 537,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2016-07-09T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Hauck LLC",
-        "ToolTip": "Omnis laudantium dolorem eum enim quia.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "eos",
-        "ColorBlock": 492,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2024-10-18T03:40:57.0558521+02:00",
+        "Id": 547,
+        "Name": "Parisian LLC",
+        "ToolTip": "Et suscipit.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "molestias",
+        "ColorBlock": 1002,
+        "IconHint": "explicabo",
+        "Selected": false,
+        "LastChanged": "2005-06-03T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "provident",
+        "ExtraInfo": "modi",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Joel Gottlieb",
+        "FullName": "Miss Frankie Jordan Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 493
+            "FieldType": "System.Int32",
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Mrs. Eric Ludwig Ortiz IV",
+    "ExtraInfo": "beatae",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Janick Ben Rempel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 277
+        "FieldLength": 324
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 667,
-    "UserName": "Wisoky-Dach",
-    "PersonId": 798,
-    "Rank": 685,
-    "Tooltip": "provident",
-    "UserGroupId": 393,
-    "EjUserId": 683,
+    "UserInfoId": 647,
+    "UserName": "Spinka, Smitham and Kub",
+    "PersonId": 729,
+    "Rank": 360,
+    "Tooltip": "omnis",
+    "UserGroupId": 539,
+    "EjUserId": 524,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "tenetur",
-      "ut"
+      "qui",
+      "nihil"
     ],
-    "CanLogon": false,
-    "RoleName": "Heathcote LLC",
-    "RoleTooltip": "est",
-    "UserGroupName": "Schaefer Inc and Sons",
-    "UserGroupTooltip": "cupiditate",
+    "CanLogon": true,
+    "RoleName": "Langosh, Orn and Murphy",
+    "RoleTooltip": "atque",
+    "UserGroupName": "Konopelski Group",
+    "UserGroupTooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 595
       }
     }
   }

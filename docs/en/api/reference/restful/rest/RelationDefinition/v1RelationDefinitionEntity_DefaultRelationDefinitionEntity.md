@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 380,
-  "Name": "Feil Group",
-  "Tooltip": "nihil",
-  "PassiveText": "est",
+  "ReldefId": 236,
+  "Name": "Ankunding, Hauck and Cummings",
+  "Tooltip": "qui",
+  "PassiveText": "numquam",
   "Deleted": false,
-  "Rank": 285,
+  "Rank": 315,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 48
     }
   }
 }

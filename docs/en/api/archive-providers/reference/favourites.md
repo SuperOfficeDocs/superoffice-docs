@@ -64,7 +64,7 @@ Archive provider for the list of favourites
 |earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale|  |
 |earningPercent| *None* |Profit as % : The profit as a percentage of the gross sales total|  |
 |probPercent| *None* |Probability as %: Probability as %|  |
-|originalStage| *None* |Stage: Displays the stage of the sale|  |
+|originalStage| *None* |Stage when closed: Stage when closed|  |
 |stage| *None* |Stage: Displays the stage of the sale|  |
 |stageName| *None* |Stage name: Displays the stage of the sale|  |
 |saleStatus| *None* |Status: The status of the sale - open, lost or sold|  |
@@ -117,7 +117,7 @@ Archive provider for the list of favourites
 |associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|associate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -148,6 +148,7 @@ Archive provider for the list of favourites
 |hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
 |category| *None* |Category|  |
 |categoryGroup| *None* |Category group|  |
+|companyCategoryRank| *None* |Category rank|  |
 |business| *None* |Business|  |
 |country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |countryId| *None* |Country ID: Country ID|  |
@@ -161,6 +162,7 @@ Archive provider for the list of favourites
 |phone/formattedNumber| *None* |Phone : Displays phone number|  |
 |deletedDate| *None* |Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company|  |
+|forceCompany| *None* |Dummy: Dummy|  |
 |contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
 |contactPhone/description| *None* |Telephone - Description: Phone number description|  |
 |contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
@@ -231,14 +233,14 @@ Archive provider for the list of favourites
 |contactAssociate/role| *None* |Role : Role|  |
 |contactAssociate/assocName| *None* |User ID : User ID|  |
 |contactAssociate/assocTooltip| *None* |Description : Description|  |
-|contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|contactAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |contactAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -280,7 +282,7 @@ Archive provider for the list of favourites
 |contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
-|contactExtra/y\_organization/x\_name| *None* |Organization - Name|  |
+|contactExtra/y\_organization/x\_name| *None* |Organization - Name: Name|  |
 |NumberOfActivities| *None* |Number of activities|  |
 |NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -335,12 +337,12 @@ Archive provider for the list of favourites
 |birthDay| *None* |Birth day: Displays contact's birth day (day of month)|  |
 |kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
 |kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
-|personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
-|personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
+|personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |personRegisteredBy| *None* |Registered by: The user who registered the data|  |
 |personRegisteredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
@@ -355,8 +357,10 @@ Archive provider for the list of favourites
 |personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |personCategory| *None* |Category|  |
 |personCategoryGroup| *None* |Category group|  |
+|personCategoryRank| *None* |!!Category rank|  |
 |personBusiness| *None* |Business|  |
-|leadstatus| *None* |Lead status|  |
+|leadStatus| *None* |Lead status|  |
+|leadstatusRank| *None* |!!Lead status RANK|  |
 |personDeletedDate| *None* |Deleted date: Deleted date|  |
 |hasCompany| *None* |Has company: The contact is associated with a company|  |
 |isProjectMember| *None* |Is project member: This person is a project member|  |
@@ -422,8 +426,8 @@ Archive provider for the list of favourites
 |personExtra/x\_person\_appointment\_relation| *None* |Extra appointment relation: Appointment relation on person|  |
 |personExtra/x\_person\_contact\_relation| *None* |Extra company relation: Company relation on contact|  |
 |personExtra/y\_rental/id| *None* |Rental - id: Displays the row's primary key (y\_rental)|  |
-|personExtra/y\_rental/x\_start| *None* |Rental - Start rental|  |
-|personExtra/y\_rental/x\_end| *None* |Rental - End|  |
+|personExtra/y\_rental/x\_start| *None* |Rental - Start rental: Start rental|  |
+|personExtra/y\_rental/x\_end| *None* |Rental - End: End|  |
 |personExtra/y\_rental/x\_amount| *None* |Rental - Amount: Number to rent. Default = 1|  |
 |personExtra/y\_rental/x\_contact| *None* |Rental - Renter: Company that rents equipment|  |
 |personExtra/y\_rental/y\_equipment/x\_name| *None* |Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
@@ -437,14 +441,14 @@ Archive provider for the list of favourites
 |personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |personAssociate/associateDbId| *None* |ID|  |
-|personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
+|personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
+|personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |personAssociate/contactCategory| *None* |Category: Category|  |
 |personAssociate/role| *None* |Role : Role|  |
@@ -453,7 +457,7 @@ Archive provider for the list of favourites
 |personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |personAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|personAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|personAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |personAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -486,7 +490,7 @@ Archive provider for the list of favourites
 |correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|correspondingAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -541,18 +545,18 @@ Archive provider for the list of favourites
 |selectionAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |selectionAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |selectionAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|selectionAssociate/contactCategory| *None* |Category: Category|  |
-|selectionAssociate/role| *None* |Role : Role|  |
-|selectionAssociate/assocName| *None* |User ID : User ID|  |
-|selectionAssociate/assocTooltip| *None* |Description : Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/contactCategory| *None* |Category: Category|  |
+|selectionAssociate/role| *None* |Role : Role|  |
+|selectionAssociate/assocName| *None* |User ID : User ID|  |
+|selectionAssociate/assocTooltip| *None* |Description : Description|  |
 |selectionAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |selectionAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |selectionAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|selectionAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|selectionAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |selectionAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |selectionAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |selectionAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -637,7 +641,7 @@ Archive provider for the list of favourites
 |project/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |project/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -645,14 +649,14 @@ Archive provider for the list of favourites
 |project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|project/projectAssociate/userName| *None* |User name: User name|  |
-|project/projectAssociate/personEmail| *None* |E-mail|  |
-|project/projectAssociate/locationAddress| *None* |Location: Location|  |
-|project/projectAssociate/isLocation| *None* |Is a location: Is a location|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/userName| *None* |User name: User name|  |
+|project/projectAssociate/personEmail| *None* |E-mail|  |
+|project/projectAssociate/locationAddress| *None* |Location: Location|  |
+|project/projectAssociate/isLocation| *None* |Is a location: Is a location|  |
 |project/projectUdef/SuperOffice:1| *None* |projectshorttext|  |
 |project/projectUdef/SuperOffice:2| *None* |projectlongtext|  |
 |project/projectUdef/SuperOffice:3| *None* |projectnumber|  |
@@ -749,14 +753,14 @@ Archive provider for the list of favourites
 |appointment/titleHtml| *None* |!!Title Html|  |
 |appointment/agenda| *None* |Agenda|  |
 |appointment/agendaHtml| *None* |!!Agenda Html|  |
-|appointment/isConverted| *None* |!!Is Converted|  |
-|appointment/textId| *None* |Text ID|  |
-|appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
-|appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId| *None* |Text ID|  |
+|appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 |ticketStatusId| *None* |Status ID: Status|  |
 |priorityId| *None* |Priority ID: ID of priority in database|  |
 |categoryId| *None* |Category ID: ID of ticket category in database|  |
@@ -823,7 +827,7 @@ Archive provider for the list of favourites
 |createdBy/assocType| *None* |Created by - Type: Type of user: associate, external user, system user, anonymous account|  |
 |createdBy/ejUserId| *None* |Created by - Service user ID: The database ID of a Service user|  |
 |createdBy/simultaneousEjUser| *None* |Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|createdBy/ejDisplayName| *None* |Created by - Nick name: User's nick name in Service|  |
+|createdBy/ejDisplayName| *None* |Created by - Nickname: User's nickname in Service|  |
 |createdBy/ejStatus| *None* |Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in|  |
 |createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -853,14 +857,14 @@ Archive provider for the list of favourites
 |ownedBy/role| *None* |Owner - Role: Role|  |
 |ownedBy/assocName| *None* |Owner - User ID: User ID|  |
 |ownedBy/assocTooltip| *None* |Owner - Description: Description|  |
-|ownedBy/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
-|ownedBy/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
-|ownedBy/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ownedBy/ejDisplayName| *None* |Owner - Nick name: User's nick name in Service|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
+|ownedBy/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
+|ownedBy/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ownedBy/ejDisplayName| *None* |Owner - Nickname: User's nickname in Service|  |
 |ownedBy/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
 |ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -890,7 +894,7 @@ Archive provider for the list of favourites
 |extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
 |extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
 |extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
-|extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
+|extra/x\_ticket\_faq| *None* |Extra FAQ Relation: Extra FAQ Relation|  |
 |extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
 |extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
 |extra/y\_car/id| *None* |Car - id: Displays the row's primary key (y\_car)|  |
@@ -898,7 +902,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=LastCompletedSale,personExtra/x_person_time,status,documentPublish/isPublished,ownedBy/otherGroups
+GET /api/v1/archive/Favourites?$select=associate/personId,LastActivity,personDeletedDate,rawType,ticketTypeName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -21,6 +21,7 @@ items:
   - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   langs:
   - csharp
   - vb
@@ -198,6 +199,7 @@ items:
   - SuperOffice.CRM.Data.ExtTableTableInfo
   - SuperOffice.CRM.Data.ExternalDocumentTableInfo
   - SuperOffice.CRM.Data.ExternalEventTableInfo
+  - SuperOffice.CRM.Data.ExternalOwnerTableInfo
   - SuperOffice.CRM.Data.ExtraFieldsTableInfo
   - SuperOffice.CRM.Data.ExtraMenusTableInfo
   - SuperOffice.CRM.Data.ExtraTablesEntryTableInfo
@@ -807,6 +809,34 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo[]
     content.vb: Protected ReadOnly Property ProtAll As FieldInfo()
   overload: SuperOffice.Data.SQL.TableInfo.ProtAll*
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  id: UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: >-
+    Request that this table should be used with the least possible amount of locking in the query.
+
+    This may result in "dirty" reads, i.e., you read uncommited changes.
+
+    <br />
+  example: []
+  syntax:
+    content: public bool UseNolockIfPossible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseNolockIfPossible As Boolean
+  overload: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible*
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   id: HashCheckFields
@@ -1713,6 +1743,13 @@ references:
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   isExternal: true

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Hickle-Swift",
-    "ToolTip": "Omnis tempora necessitatibus rerum tempore vel cupiditate.",
-    "Deleted": false,
-    "Rank": 976,
-    "Type": "omnis",
-    "ColorBlock": 815,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2006-04-28T03:40:57.0089742+02:00",
+    "Id": 193,
+    "Name": "Wiza Inc and Sons",
+    "ToolTip": "Quo dolores.",
+    "Deleted": true,
+    "Rank": 23,
+    "Type": "minus",
+    "ColorBlock": 660,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2008-10-04T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Feil, Spencer and Gleichner",
-        "ToolTip": "Velit dicta in.",
+        "Id": 17,
+        "Name": "Hamill LLC",
+        "ToolTip": "Non reiciendis maiores assumenda.",
         "Deleted": false,
-        "Rank": 430,
-        "Type": "magni",
-        "ColorBlock": 973,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2002-04-28T03:40:57.0089742+02:00",
+        "Rank": 819,
+        "Type": "cum",
+        "ColorBlock": 711,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2018-03-14T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "a",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Miss Constance Eriberto Keeling V"
+        "FullName": "Bernadine Fisher"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Maximo Rocio Mosciski"
+    "FullName": "Bret Hodkiewicz Sr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Johns, Erdman and Wiza",
-    "ToolTip": "Eius fugit.",
-    "Deleted": false,
-    "Rank": 97,
-    "Type": "molestias",
-    "ColorBlock": 236,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2000-01-06T03:40:57.0089742+01:00",
+    "Id": 789,
+    "Name": "Glover, Rowe and Bode",
+    "ToolTip": "Voluptatem dignissimos rem nesciunt veniam.",
+    "Deleted": true,
+    "Rank": 416,
+    "Type": "ut",
+    "ColorBlock": 634,
+    "IconHint": "eligendi",
+    "Selected": true,
+    "LastChanged": "2010-09-05T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Williamson Inc and Sons",
-        "ToolTip": "Cum aut labore.",
-        "Deleted": false,
-        "Rank": 34,
-        "Type": "ullam",
-        "ColorBlock": 477,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2022-10-18T03:40:57.0089742+02:00",
+        "Id": 84,
+        "Name": "Ryan Inc and Sons",
+        "ToolTip": "Sapiente quia.",
+        "Deleted": true,
+        "Rank": 850,
+        "Type": "sed",
+        "ColorBlock": 809,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2003-06-16T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "modi",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Prof. Cathrine Murray",
+        "FullName": "Mrs. Jodie Wyatt Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 423
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Ms. Verla Braun",
+    "FullName": "Juwan Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 533
       }
     }
   }

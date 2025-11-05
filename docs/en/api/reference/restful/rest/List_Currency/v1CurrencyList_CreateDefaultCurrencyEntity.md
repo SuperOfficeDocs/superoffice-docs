@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 251,
-  "Name": "Abshire Group",
-  "Tooltip": "nihil",
-  "Rank": 397,
-  "Rate": 16522.448,
-  "Units": 29117.994,
-  "Deleted": true,
+  "CurrencyId": 726,
+  "Name": "Prosacco Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 594,
+  "Rate": 27648.147999999997,
+  "Units": 27795.446,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

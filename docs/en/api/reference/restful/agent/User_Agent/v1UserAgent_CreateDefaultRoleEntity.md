@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,16 +82,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 850,
-  "Name": "Reilly Group",
-  "Tooltip": "aut",
+  "RoleId": 842,
+  "Name": "Renner, Mills and McLaughlin",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 428,
-  "Rank": 52,
-  "Created": "2025-08-19T03:40:48.1567456+02:00",
-  "UseCategories": 612,
+  "Deleted": 528,
+  "Rank": 180,
+  "Created": "2003-06-01T02:30:48.0850579+02:00",
+  "UseCategories": 880,
   "CreatedBy": null,
-  "Updated": "2021-03-10T03:40:48.1567456+01:00",
+  "Updated": "2021-09-18T02:30:48.0850579+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldLength": 562
     }
   }
 }

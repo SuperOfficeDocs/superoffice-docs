@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 445,
-  "Name": "Breitenberg-Glover",
-  "Tooltip": "necessitatibus",
+  "Id": 793,
+  "Name": "Jones Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 773,
-  "IsCustomList": true,
+  "Rank": 12,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": true
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "O'Reilly, Morar and Kerluke",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 762,
+  "Id": 81,
+  "Name": "Lockman LLC",
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "Rank": 158,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

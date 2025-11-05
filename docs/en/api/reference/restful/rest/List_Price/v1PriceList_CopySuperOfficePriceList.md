@@ -34,9 +34,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=05/06/2005 03:40:59
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=11/13/2016 03:40:59
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=750
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/01/2008 02:30:54
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/22/2015 02:30:54
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=247
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 397,
-  "ERPPriceListKey": "atque",
-  "QuoteConnectionId": 583,
-  "Name": "Dooley LLC",
-  "Description": "Realigned logistical product",
-  "Currency": "iure",
-  "CurrencyName": "Casper, Mueller and Lakin",
-  "ValidFrom": "2002-08-11T03:40:56.9933484+02:00",
-  "ValidTo": "2005-01-10T03:40:56.9933484+01:00",
+  "PriceListId": 968,
+  "ERPPriceListKey": "recusandae",
+  "QuoteConnectionId": 818,
+  "Name": "Jast, Jenkins and Kuhn",
+  "Description": "Multi-tiered high-level definition",
+  "Currency": "maiores",
+  "CurrencyName": "Gorczany, Beier and Bashirian",
+  "ValidFrom": "2017-06-08T02:30:53.3348881+02:00",
+  "ValidTo": "2003-03-26T02:30:53.3348881+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 952
     }
   }
 }

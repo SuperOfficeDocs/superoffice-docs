@@ -32,7 +32,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=441
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=513
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 15,
-  "UserName": "Senger-Johnson",
-  "PersonId": 456,
-  "Rank": 205,
-  "Tooltip": "doloremque",
-  "UserGroupId": 444,
-  "EjUserId": 66,
+  "Deleted": true,
+  "UserInfoId": 523,
+  "UserName": "Boehm LLC",
+  "PersonId": 757,
+  "Rank": 706,
+  "Tooltip": "ut",
+  "UserGroupId": 908,
+  "EjUserId": 841,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "similique",
-    "quam"
+    "mollitia",
+    "soluta"
   ],
   "CanLogon": false,
-  "RoleName": "Larson-Cole",
-  "RoleTooltip": "eius",
-  "UserGroupName": "Haley, Ryan and Hand",
-  "UserGroupTooltip": "ut",
+  "RoleName": "Labadie Group",
+  "RoleTooltip": "quibusdam",
+  "UserGroupName": "Kuhlman LLC",
+  "UserGroupTooltip": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 356
     }
   }
 }

@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 659,
-    "Name": "Parisian Group",
-    "ContentType": "molestiae",
-    "AttSize": 37,
-    "InlineImage": false,
-    "ContentId": "ullam",
-    "AuthKey": "debitis",
+    "AttachmentId": 888,
+    "Name": "Herman Inc and Sons",
+    "ContentType": "voluptatem",
+    "AttSize": 204,
+    "InlineImage": true,
+    "ContentId": "non",
+    "AuthKey": "sed",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

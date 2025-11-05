@@ -82,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 365,
-  "EMailAddress": "minus",
-  "AssociateId": 907,
+  "EMailAccountId": 605,
+  "EMailAddress": "rerum",
+  "AssociateId": 109,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 28,
-  "ErrorCount": 678,
-  "ErrorReason": "disintermediate impactful initiatives",
-  "InboxFolder": "molestiae",
-  "SentFolder": "blanditiis",
-  "SimpleMode": 841,
-  "LastFetch": "2016-05-13T03:40:46.8280185+02:00",
+  "AccountStatus": 188,
+  "ErrorCount": 190,
+  "ErrorReason": "",
+  "InboxFolder": "iure",
+  "SentFolder": "quae",
+  "SimpleMode": 202,
+  "LastFetch": "2020-12-27T02:30:47.2725845+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldLength": 117
     }
   }
 }

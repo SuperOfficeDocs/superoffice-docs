@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleFields.Saledate
   - SuperOffice.CRM.Data.DBC.SaleFields.Source
   - SuperOffice.CRM.Data.DBC.SaleFields.SourceId
+  - SuperOffice.CRM.Data.DBC.SaleFields.StageWhenClosedId
   - SuperOffice.CRM.Data.DBC.SaleFields.Status
   - SuperOffice.CRM.Data.DBC.SaleFields.TextId
   - SuperOffice.CRM.Data.DBC.SaleFields.Updated
@@ -976,6 +977,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
+- uid: SuperOffice.CRM.Data.DBC.SaleFields.StageWhenClosedId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Data.DBC.SaleFields
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: DBC.SaleFields.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.DBC.SaleFields.StageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Sale.StageWhenClosedId: The stage the sale was in when it was closed (sold or lost)'
+  example: []
+  syntax:
+    content: public const string StageWhenClosedId = "stage_when_closed_id"
+    return:
+      type: System.String
+    content.vb: Public Const StageWhenClosedId As String = "stage_when_closed_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

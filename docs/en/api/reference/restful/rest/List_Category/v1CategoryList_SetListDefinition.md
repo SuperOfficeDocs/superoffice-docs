@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Marks-Schiller",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 58,
+  "Id": 538,
+  "Name": "Kihn-Upton",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 161,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
-  "InUseByUserDefinedFields": false
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Muller-Considine",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 691,
-  "IsCustomList": true,
+  "Id": 208,
+  "Name": "Christiansen LLC",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 327,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 243
     }
   }
 }

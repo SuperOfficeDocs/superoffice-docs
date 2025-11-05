@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Kirlin, Watsica and Schuster",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 615
+    "Id": 228,
+    "Name": "Ankunding Group",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 713,
+    "Rank": 37
   },
   {
-    "Id": 256,
-    "Name": "Kirlin, Watsica and Schuster",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 615
+    "Id": 228,
+    "Name": "Ankunding Group",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 713,
+    "Rank": 37
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Adams, Farrell and Doyle",
-    "Tooltip": "similique",
+    "Id": 822,
+    "Name": "Pollich Inc and Sons",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 702,
-    "Rank": 101,
+    "UdListDefinitionId": 655,
+    "Rank": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

@@ -71,15 +71,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 188,
-  "EmailAddress": "camilla@turner.ca",
-  "EmailTemplateId": 362,
-  "CultureLcidId": 236,
-  "Subject": "qui"
+  "PersonId": 741,
+  "EmailAddress": "amya@reichel.co.uk",
+  "EmailTemplateId": 220,
+  "CultureLcidId": 538,
+  "Subject": "tenetur"
 }
 ```
 

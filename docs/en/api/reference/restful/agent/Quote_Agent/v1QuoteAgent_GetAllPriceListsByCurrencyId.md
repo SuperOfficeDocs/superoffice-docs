@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 90,
-  "CurrencyId": 848
+  "QuoteConnectionId": 607,
+  "CurrencyId": 762
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 767,
-    "ERPPriceListKey": "occaecati",
-    "QuoteConnectionId": 916,
-    "Name": "Jacobs-Legros",
-    "Description": "Synchronised tangible collaboration",
-    "Currency": "aut",
-    "CurrencyName": "Zboncak, Bergnaum and Jakubowski",
-    "ValidFrom": "2001-02-28T03:40:47.5629587+01:00",
-    "ValidTo": "2020-07-28T03:40:47.5629587+02:00",
-    "IsActive": false,
+    "PriceListId": 375,
+    "ERPPriceListKey": "labore",
+    "QuoteConnectionId": 60,
+    "Name": "Jaskolski, Feest and Rau",
+    "Description": "Networked holistic process improvement",
+    "Currency": "est",
+    "CurrencyName": "Stiedemann Group",
+    "ValidFrom": "2005-04-17T02:30:47.7413192+02:00",
+    "ValidTo": "2017-06-09T02:30:47.7413192+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

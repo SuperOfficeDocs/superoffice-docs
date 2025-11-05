@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Aufderhar Group",
+  "TaskName": "O'Kon-Denesik",
   "State": "All"
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Gerlach Group",
-    "AssociateId": 337,
-    "DetailsTable": 236,
-    "DetailsRecord": 259,
+    "Id": 631,
+    "Name": "Heller-Mertz",
+    "AssociateId": 848,
+    "DetailsTable": 559,
+    "DetailsRecord": 35,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sit",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "non",
+      "ParameterObject2": "placeat"
     },
-    "LastStarted": "2011-08-14T03:40:46.0764548+02:00",
-    "Created": "2012-05-25T03:40:46.0764548+02:00",
-    "StartCount": 767,
-    "DatabaseSerialNumber": "1133054",
-    "Context": "laboriosam",
-    "Result": "repellendus",
+    "LastStarted": "2010-10-15T02:30:46.8194719+02:00",
+    "Created": "2018-09-20T02:30:46.8194719+02:00",
+    "StartCount": 805,
+    "DatabaseSerialNumber": "816273",
+    "Context": "reprehenderit",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Devolved exuding throughput",
-    "Response": "quam",
-    "Request": "esse",
-    "ProgressDescription": "Quality-focused logistical contingency",
-    "ProgressPercent": 337,
-    "FileName": "Wisozk-Aufderhar",
+    "Description": "Persistent bottom-line capacity",
+    "Response": "ut",
+    "Request": "eos",
+    "ProgressDescription": "Organized 6th generation hierarchy",
+    "ProgressPercent": 632,
+    "FileName": "Becker-Parker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldLength": 266
       }
     }
   }

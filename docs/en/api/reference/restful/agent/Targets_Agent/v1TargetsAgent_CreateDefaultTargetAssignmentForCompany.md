@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 625,
+  "TargetAssignmentInfoId": 189,
   "Values": [
-    184,
-    668
+    299,
+    304
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 122,
-  "DimensionListItemDisplayName": "Schmitt, Corkery and Skiles",
+  "DimensionListItem": 794,
+  "DimensionListItemDisplayName": "Turcotte-Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 601
     }
   }
 }

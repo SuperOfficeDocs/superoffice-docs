@@ -105,36 +105,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jacobson, Rodriguez and Strosin",
+  "ProviderName": "Dietrich, Bergnaum and Cummerata",
   "Columns": [
-    "perferendis",
-    "sit"
+    "quod",
+    "quia"
   ],
   "SortOrder": [
     {
-      "Name": "Hoppe, Cartwright and Batz",
+      "Name": "Emmerich, Effertz and Hermann",
       "Direction": "ASC"
     },
     {
-      "Name": "Hoppe, Cartwright and Batz",
+      "Name": "Emmerich, Effertz and Hermann",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ledner, Morissette and Herman",
-      "Operator": "incidunt",
+      "Name": "Okuneva Inc and Sons",
+      "Operator": "aperiam",
       "Values": [
-        "voluptas",
-        "quis"
+        "saepe",
+        "quia"
       ],
       "DisplayValues": [
-        "a",
-        "sit"
+        "et",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -142,17 +142,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 486,
+      "InterParenthesis": 881,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 158
     }
   ],
   "Entities": [
-    "sint",
-    "inventore"
+    "deleniti",
+    "sint"
   ],
-  "Page": 851,
-  "PageSize": 560
+  "Page": 266,
+  "PageSize": 367
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mitchell Group",
-    "PrimaryKey": 955,
+    "EntityName": "Gutmann-Kling",
+    "PrimaryKey": 208,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "doloremque",
-        "TooltipHint": "aut",
-        "LinkHint": "necessitatibus"
+        "DisplayValue": "voluptatum",
+        "TooltipHint": "mollitia",
+        "LinkHint": "distinctio"
       }
     },
-    "LinkHint": "vel",
-    "StyleHint": "cum",
+    "LinkHint": "omnis",
+    "StyleHint": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 164
       }
     }
   }

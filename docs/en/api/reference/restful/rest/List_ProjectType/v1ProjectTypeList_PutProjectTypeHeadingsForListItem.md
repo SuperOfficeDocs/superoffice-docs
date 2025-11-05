@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Gaylord-Kautzer",
-    "ToolTip": "Repellat sed qui.",
+    "Id": 259,
+    "Name": "Quigley LLC",
+    "ToolTip": "Adipisci nobis dignissimos odit.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "molestias",
-    "ColorBlock": 986,
-    "IconHint": "similique",
+    "Rank": 855,
+    "Type": "dolores",
+    "ColorBlock": 799,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2008-10-03T03:40:57.040226+02:00",
+    "LastChanged": "2014-08-09T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Bailey, Runte and Hauck",
-        "ToolTip": "Vel autem tempora voluptatem.",
+        "Id": 970,
+        "Name": "Steuber, Kessler and Daniel",
+        "ToolTip": "Porro adipisci ratione dolores accusamus excepturi voluptas voluptatibus.",
         "Deleted": true,
-        "Rank": 915,
-        "Type": "dolorem",
-        "ColorBlock": 450,
-        "IconHint": "hic",
+        "Rank": 194,
+        "Type": "enim",
+        "ColorBlock": 687,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2021-01-15T03:40:57.040226+01:00",
+        "LastChanged": "2004-12-24T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Isabella Rogahn"
+        "ExtraInfo": "dolor",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Prof. Callie Graham"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "et",
+    "StyleHint": "laborum",
     "Hidden": true,
-    "FullName": "Mr. Eduardo Marquardt"
+    "FullName": "Boris Johnston"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Mann-Leannon",
-    "ToolTip": "Non et aut repudiandae dolores inventore rerum maxime.",
+    "Id": 947,
+    "Name": "Wiegand-Smith",
+    "ToolTip": "Aliquam inventore laudantium provident.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "et",
-    "ColorBlock": 297,
-    "IconHint": "et",
+    "Rank": 290,
+    "Type": "laboriosam",
+    "ColorBlock": 631,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2005-07-22T03:40:57.040226+02:00",
+    "LastChanged": "2025-06-27T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Larkin Group",
-        "ToolTip": "Accusamus inventore et soluta nostrum.",
+        "Id": 382,
+        "Name": "Emard-Sawayn",
+        "ToolTip": "Ullam sequi amet nulla velit earum.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "ratione",
-        "ColorBlock": 824,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2002-08-20T03:40:57.040226+02:00",
+        "Rank": 908,
+        "Type": "deleniti",
+        "ColorBlock": 335,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2020-05-04T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Prof. Eleanore Kessler III",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Jarod Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 758
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "eum",
+    "ExtraInfo": "quo",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Ms. Eve Laverne Conroy",
+    "FullName": "Rubie Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   }

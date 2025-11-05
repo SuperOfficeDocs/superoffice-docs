@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 704,
-  "BlobSize": 609,
-  "Description": "Advanced analyzing Graphical User Interface",
-  "ExtraInfo": "officia",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 126,
-  "CreatedDate": "2022-08-21T03:40:56.4775944+02:00",
-  "UpdatedDate": "2016-06-10T03:40:56.4775944+02:00",
+  "BlobId": 901,
+  "BlobSize": 874,
+  "Description": "Robust directional migration",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "in",
+  "OriginalSize": 333,
+  "CreatedDate": "2015-09-17T02:30:53.0692723+02:00",
+  "UpdatedDate": "2023-04-27T02:30:53.0692723+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "voluptatem"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 948,
-  "BlobSize": 279,
-  "Description": "Focused uniform hub",
-  "ExtraInfo": "eveniet",
-  "IsEncrypted": false,
+  "BlobId": 365,
+  "BlobSize": 200,
+  "Description": "Organized multi-state customer loyalty",
+  "ExtraInfo": "aperiam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ratione",
-  "OriginalSize": 141,
-  "CreatedDate": "2001-04-22T03:40:56.4775944+02:00",
-  "UpdatedDate": "2012-01-21T03:40:56.4775944+01:00",
+  "MimeType": "occaecati",
+  "OriginalSize": 987,
+  "CreatedDate": "2022-12-24T02:30:53.0692723+01:00",
+  "UpdatedDate": "2000-01-06T02:30:53.0692723+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 598
     }
   }
 }

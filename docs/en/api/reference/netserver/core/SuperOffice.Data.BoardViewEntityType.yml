@@ -5,6 +5,7 @@ items:
   id: BoardViewEntityType
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.BoardViewEntityType.ContactPerson
   - SuperOffice.Data.BoardViewEntityType.None
   - SuperOffice.Data.BoardViewEntityType.Project
   - SuperOffice.Data.BoardViewEntityType.Sale
@@ -25,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
 
       public enum BoardViewEntityType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
 
       Public Enum BoardViewEntityType As Short
   extensionMethods:
@@ -45,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
 - uid: SuperOffice.Data.BoardViewEntityType.None
   commentId: F:SuperOffice.Data.BoardViewEntityType.None
   id: None
@@ -135,6 +136,37 @@ items:
       <EnumMember>
 
       Project = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.BoardViewEntityType.ContactPerson
+  commentId: F:SuperOffice.Data.BoardViewEntityType.ContactPerson
+  id: ContactPerson
+  parent: SuperOffice.Data.BoardViewEntityType
+  langs:
+  - csharp
+  - vb
+  name: ContactPerson
+  nameWithType: BoardViewEntityType.ContactPerson
+  fullName: SuperOffice.Data.BoardViewEntityType.ContactPerson
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '3: ContactPerson'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ContactPerson = 3
+    return:
+      type: SuperOffice.Data.BoardViewEntityType
+    content.vb: >-
+      <EnumMember>
+
+      ContactPerson = 3
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

@@ -168,18 +168,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kulas Inc and Sons",
-  "Columns": "nulla",
-  "SortOrder": "officiis",
-  "Restriction": "ipsum",
-  "Entities": "omnis",
-  "Page": 750,
-  "PageSize": 730,
-  "Options": "tenetur"
+  "ProviderName": "Conn, Boyer and Green",
+  "Columns": "rem",
+  "SortOrder": "magni",
+  "Restriction": "adipisci",
+  "Entities": "ut",
+  "Page": 585,
+  "PageSize": 782,
+  "Options": "enim"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 427,
+  "RowCount": 63,
   "Rows": [
     {
-      "EntityName": "Lang, Thompson and Brown",
-      "PrimaryKey": 662,
+      "EntityName": "McGlynn LLC",
+      "PrimaryKey": 401,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "debitis",
-          "LinkHint": "et"
+          "DisplayValue": "et",
+          "TooltipHint": "vitae",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "eveniet",
+      "LinkHint": "dolor",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 9
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 80
     }
   }
 }

@@ -78,10 +78,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 592,
-  "TableName": "Pouros-Leffler",
+  "RoleId": 240,
+  "TableName": "Hilll-Murazik",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "voluptates"
+  "DataRightValue": "dolorum"
 }
 ```
 

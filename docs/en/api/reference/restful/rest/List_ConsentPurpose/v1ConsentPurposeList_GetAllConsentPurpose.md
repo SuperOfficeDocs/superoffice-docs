@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,25 +81,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 349,
-    "Name": "Satterfield Group",
+    "ConsentPurposeId": 600,
+    "Name": "Hauck-Beatty",
     "ConsentText": "qui",
-    "FormText": "ducimus",
-    "Key": "sequi",
-    "Tooltip": "ea",
-    "Active": 381,
-    "UpdatedDate": "2018-04-02T03:40:56.743228+02:00",
+    "FormText": "quaerat",
+    "Key": "quasi",
+    "Tooltip": "quia",
+    "Active": 574,
+    "UpdatedDate": "2010-08-21T02:30:53.2255171+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 492,
-    "PrivacyStatementDesc": "sit",
+    "Rank": 704,
+    "PrivacyStatementDesc": "iure",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 386
       }
     }
   }

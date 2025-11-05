@@ -98,7 +98,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,28 +108,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 87,
+  "EjMessageId": 660,
   "Ticket": null,
-  "CreatedAt": "2024-10-22T03:40:56.3984728+02:00",
+  "CreatedAt": "2023-08-24T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "debitis",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ad",
-  "TimeSpent": 813,
-  "Body": "facilis",
-  "HtmlBody": "a",
-  "EmailHeader": "jaunita@balistreri.uk",
-  "DebugInfo": "deserunt",
-  "MailSorter": "et",
+  "MessageId": "est",
+  "TimeSpent": 942,
+  "Body": "qui",
+  "HtmlBody": "quos",
+  "EmailHeader": "raven.ohara@boyle.ca",
+  "DebugInfo": "commodi",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eius",
+  "SearchTitle": "similique",
   "MessageHeaders": [
     {
-      "Id": 93,
-      "Name": "Schultz Inc and Sons",
-      "Value": "asperiores",
+      "Id": 388,
+      "Name": "Bauch Inc and Sons",
+      "Value": "excepturi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -137,50 +137,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 940
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "aut",
-  "Sentiment": 365,
-  "SentimentConfidence": 53,
+  "Important": false,
+  "Language": "itaque",
+  "Sentiment": 901,
+  "SentimentConfidence": 547,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 594,
-      "Name": "Barton Group",
-      "ContentType": "voluptas",
-      "AttSize": 578,
+      "AttachmentId": 782,
+      "Name": "Stracke, West and Donnelly",
+      "ContentType": "et",
+      "AttSize": 157,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "at",
+      "ContentId": "error",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 592
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "provident"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

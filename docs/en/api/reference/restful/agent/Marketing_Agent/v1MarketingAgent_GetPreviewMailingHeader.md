@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 232
+  "ShipmentId": 804
 }
 ```
 
@@ -106,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2006-05-03T03:40:47.2499194+02:00",
+  "StartDate": "2023-11-11T02:30:47.4600781+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 724,
-  "ShipmentDescription": "Stand-alone encompassing workforce",
-  "FromAddress": "nesciunt",
-  "Configuration": 199,
-  "PersonId": 971,
-  "PersonFullName": "Imelda Deckow",
-  "ShipmentType": "provident",
-  "MessageId": 463,
-  "MessageSubject": "labore",
-  "DocumentMessageId": 10,
-  "NumSent": 805,
-  "NumOpened": 389,
-  "NumBounced": 155,
-  "NumClicks": 410,
+  "ShipmentId": 675,
+  "ShipmentDescription": "Assimilated background service-desk",
+  "FromAddress": "iure",
+  "Configuration": 42,
+  "PersonId": 335,
+  "PersonFullName": "Miss Lauretta Okuneva MD",
+  "ShipmentType": "eveniet",
+  "MessageId": 728,
+  "MessageSubject": "atque",
+  "DocumentMessageId": 787,
+  "NumSent": 631,
+  "NumOpened": 759,
+  "NumBounced": 997,
+  "NumClicks": 995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

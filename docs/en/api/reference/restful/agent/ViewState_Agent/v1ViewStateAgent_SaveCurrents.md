@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 761,
-      "Id": 209,
-      "HistoryName": "Littel LLC",
-      "HistoryId": 407,
-      "AssociateId": 298,
-      "Name": "Schmitt, Gislason and Hammes",
-      "ItemInfo": "dicta"
+      "Rank": 49,
+      "Id": 571,
+      "HistoryName": "Donnelly, Lowe and Schroeder",
+      "HistoryId": 272,
+      "AssociateId": 448,
+      "Name": "Shanahan Inc and Sons",
+      "ItemInfo": "maiores"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 446,
-    "Id": 903,
-    "HistoryName": "Swaniawski-Gaylord",
-    "HistoryId": 818,
-    "AssociateId": 660,
-    "Name": "Predovic Inc and Sons",
-    "ItemInfo": "earum",
+    "Rank": 361,
+    "Id": 538,
+    "HistoryName": "Wilkinson-Buckridge",
+    "HistoryId": 501,
+    "AssociateId": 838,
+    "Name": "Wyman-Von",
+    "ItemInfo": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 794
       }
     }
   }

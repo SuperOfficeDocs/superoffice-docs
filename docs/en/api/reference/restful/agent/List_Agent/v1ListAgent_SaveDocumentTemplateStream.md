@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 351,
+  "DocumentTemplateId": 652,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "magni",
-  "PluginId": 60
+  "LanguageCode": "qui",
+  "PluginId": 366
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dickinson LLC",
-  "Description": "Persistent motivating array",
-  "ExternalReference": "asperiores",
-  "MimeType": "a",
-  "PluginId": 970
+  "Name": "Nader, Marvin and Leannon",
+  "Description": "Business-focused optimizing leverage",
+  "ExternalReference": "aspernatur",
+  "MimeType": "id",
+  "PluginId": 464
 }
 ```

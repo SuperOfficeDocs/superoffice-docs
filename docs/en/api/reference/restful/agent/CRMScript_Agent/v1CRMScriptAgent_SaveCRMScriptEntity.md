@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 109,
-  "UniqueIdentifier": "ipsum",
-  "Name": "Osinski, Gleason and Bednar",
-  "Description": "Multi-channelled client-server Graphical User Interface",
-  "IncludeId": "quis",
-  "AccessKey": "harum",
-  "HierarchyId": 119,
-  "Source": "totam",
-  "SourceCode": "velit",
+  "EjscriptId": 18,
+  "UniqueIdentifier": "vero",
+  "Name": "Swaniawski, Harris and Vandervort",
+  "Description": "Stand-alone tangible orchestration",
+  "IncludeId": "eligendi",
+  "AccessKey": "et",
+  "HierarchyId": 69,
+  "Source": "tempora",
+  "SourceCode": "laboriosam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 951,
+  "HtmlOutput": 886,
   "Includes": [
-    633,
-    284
+    708,
+    109
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 370,
-      "LineNumberTo": 956,
-      "Delta": 962,
-      "IncludeId": "nostrum",
+      "LineNumberFrom": 192,
+      "LineNumberTo": 109,
+      "Delta": 714,
+      "IncludeId": "repellendus",
       "IncludedFrom": [
-        "laboriosam",
-        "veniam"
+        "ut",
+        "tenetur"
       ]
     },
     {
-      "LineNumberFrom": 370,
-      "LineNumberTo": 956,
-      "Delta": 962,
-      "IncludeId": "nostrum",
+      "LineNumberFrom": 192,
+      "LineNumberTo": 109,
+      "Delta": 714,
+      "IncludeId": "repellendus",
       "IncludedFrom": [
-        "laboriosam",
-        "veniam"
+        "ut",
+        "tenetur"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-12-31T03:40:46.5149979+01:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2005-09-06T03:40:46.5149979+02:00",
-  "UpdatedAssociateId": 339,
+  "Registered": "2016-10-18T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 204,
+  "Updated": "2014-06-12T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 682,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 254,
-  "UniqueIdentifier": "atque",
-  "Name": "Hauck-Swift",
-  "Description": "Open-architected multimedia matrix",
-  "IncludeId": "fugit",
-  "AccessKey": "nulla",
-  "HierarchyId": 609,
-  "Source": "recusandae",
-  "SourceCode": "ipsam",
+  "EjscriptId": 636,
+  "UniqueIdentifier": "consequatur",
+  "Name": "Metz LLC",
+  "Description": "Sharable reciprocal help-desk",
+  "IncludeId": "reprehenderit",
+  "AccessKey": "culpa",
+  "HierarchyId": 92,
+  "Source": "ab",
+  "SourceCode": "nulla",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 61,
+  "HtmlOutput": 118,
   "Includes": [
-    30,
-    580
+    294,
+    285
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 36,
-      "LineNumberTo": 182,
-      "Delta": 932,
-      "IncludeId": "inventore",
+      "LineNumberFrom": 152,
+      "LineNumberTo": 395,
+      "Delta": 725,
+      "IncludeId": "reprehenderit",
       "IncludedFrom": [
-        "odit",
-        "fugiat"
+        "eligendi",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 252
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-06-07T03:40:46.5149979+02:00",
-  "RegisteredAssociateId": 448,
-  "Updated": "2011-09-05T03:40:46.5149979+02:00",
-  "UpdatedAssociateId": 263,
+  "Registered": "2020-11-26T02:30:47.0382145+01:00",
+  "RegisteredAssociateId": 959,
+  "Updated": "2021-04-24T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 798,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 699
     }
   }
 }

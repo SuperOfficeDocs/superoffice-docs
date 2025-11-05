@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Fadel-Koss",
-    "Olson Inc and Sons"
+    "Wilkinson-Buckridge",
+    "Glover, Skiles and Stroman"
   ]
 }
 ```

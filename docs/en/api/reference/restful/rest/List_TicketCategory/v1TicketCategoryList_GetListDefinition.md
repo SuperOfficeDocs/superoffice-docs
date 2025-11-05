@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "Swift-Kunze",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 353,
-  "IsCustomList": false,
+  "Id": 521,
+  "Name": "Torp, DuBuque and Graham",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "Rank": 419,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 489
     }
   },
   "_Links": {

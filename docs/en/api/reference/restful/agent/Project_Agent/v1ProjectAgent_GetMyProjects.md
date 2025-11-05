@@ -110,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 692,
-    "Name": "Koepp, Nikolaus and Christiansen",
-    "Description": "Synergized methodical process improvement",
+    "ProjectId": 702,
+    "Name": "Lehner-Lehner",
+    "Description": "Realigned local hub",
     "URL": "http://www.example.com/",
-    "Type": "cumque",
-    "AssociateId": 914,
-    "AssociateFullName": "Eva Deckow",
-    "TypeId": 33,
-    "Updated": "2022-01-27T03:40:47.4843558+01:00",
-    "StatusId": 886,
-    "Status": "consequatur",
-    "TextId": 258,
-    "PublishTo": "2010-06-12T03:40:47.4843558+02:00",
-    "PublishFrom": "2023-06-03T03:40:47.4843558+02:00",
+    "Type": "incidunt",
+    "AssociateId": 610,
+    "AssociateFullName": "Esmeralda Wolf",
+    "TypeId": 810,
+    "Updated": "2014-06-07T02:30:47.6944454+02:00",
+    "StatusId": 929,
+    "Status": "voluptatibus",
+    "TextId": 366,
+    "PublishTo": "2021-07-26T02:30:47.6944454+02:00",
+    "PublishFrom": "2008-06-14T02:30:47.6944454+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "309726",
-    "ActiveErpLinks": 783,
+    "ProjectNumber": "981329",
+    "ActiveErpLinks": 400,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

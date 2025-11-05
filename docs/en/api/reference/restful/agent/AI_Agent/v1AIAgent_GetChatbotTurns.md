@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "sit"
+  "ChatId": "facere"
 }
 ```
 
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2012-08-26T03:40:45.5762384+02:00",
-    "UserPrompt": "pariatur",
-    "UserDisplayText": "sapiente",
-    "BotResponse": "soluta",
+    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "id",
+    "BotResponse": "rem",
     "BotActions": {
-      "BotActions1": "earum",
-      "BotActions2": "voluptas"
+      "BotActions1": "sed",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "ut",
-      "est"
+      "nobis",
+      "id"
     ]
   },
   {
-    "Timestamp": "2012-08-26T03:40:45.5762384+02:00",
-    "UserPrompt": "pariatur",
-    "UserDisplayText": "sapiente",
-    "BotResponse": "soluta",
+    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "id",
+    "BotResponse": "rem",
     "BotActions": {
-      "BotActions1": "earum",
-      "BotActions2": "voluptas"
+      "BotActions1": "sed",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "ut",
-      "est"
+      "nobis",
+      "id"
     ]
   }
 ]

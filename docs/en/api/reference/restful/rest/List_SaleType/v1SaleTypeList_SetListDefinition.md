@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Parker-Bergnaum",
-  "Tooltip": "recusandae",
+  "Id": 40,
+  "Name": "Wilkinson-Kassulke",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 6,
-  "IsCustomList": false,
+  "Rank": 240,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
-  "InUseByUserDefinedFields": false
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Muller Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 979,
+  "Id": 19,
+  "Name": "Sawayn, Lowe and Olson",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 157,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 355
     }
   }
 }

@@ -80,9 +80,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 714,
-  "NumSentences": 701,
-  "IsoLangCode": "est"
+  "SaleId": 555,
+  "NumSentences": 880,
+  "IsoLangCode": "impedit"
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"error"
+"qui"
 ```

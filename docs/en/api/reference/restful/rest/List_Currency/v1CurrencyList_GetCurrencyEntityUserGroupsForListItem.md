@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Rice Group",
-    "ToolTip": "Sed voluptas est voluptas illum ipsum.",
+    "Id": 757,
+    "Name": "Gleichner-Abernathy",
+    "ToolTip": "Rerum quis veritatis magni in debitis dolores ipsam.",
     "Deleted": false,
-    "Rank": 190,
-    "Type": "magnam",
-    "ColorBlock": 482,
-    "IconHint": "amet",
-    "Selected": true,
-    "LastChanged": "2024-03-19T03:40:56.805732+01:00",
+    "Rank": 270,
+    "Type": "veritatis",
+    "ColorBlock": 208,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2022-06-04T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Roob Inc and Sons",
-        "ToolTip": "Nostrum sunt qui et maiores enim ut illo.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "odio",
-        "ColorBlock": 251,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2005-11-17T03:40:56.805732+01:00",
+        "Id": 691,
+        "Name": "Stehr, Smitham and Jakubowski",
+        "ToolTip": "Expedita ipsam.",
+        "Deleted": false,
+        "Rank": 555,
+        "Type": "ratione",
+        "ColorBlock": 640,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2018-02-03T02:30:53.2567659+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Keshawn Antoinette Shields I",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Miss Stefanie Brakus IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 960
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "hic",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Jaylon Wiegand",
+    "FullName": "Lavinia Pfannerstill DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   }

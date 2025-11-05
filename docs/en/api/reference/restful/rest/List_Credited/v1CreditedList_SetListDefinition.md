@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Purdy-Olson",
-  "Tooltip": "nulla",
+  "Id": 533,
+  "Name": "Funk, Morar and Shields",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 7,
+  "Rank": 5,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "illo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,12 +109,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Schoen Group",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "Rank": 905,
-  "IsCustomList": false,
+  "Id": 765,
+  "Name": "Bradtke Group",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 446,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "qui",
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 981,
-    "Name": "Swift Group",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 636,
-    "UdListDefinitionId": 276
+    "HeadingId": 493,
+    "Name": "Eichmann LLC",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 37,
+    "UdListDefinitionId": 983
   },
   {
-    "HeadingId": 981,
-    "Name": "Swift Group",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 636,
-    "UdListDefinitionId": 276
+    "HeadingId": 493,
+    "Name": "Eichmann LLC",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 37,
+    "UdListDefinitionId": 983
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Powlowski Group",
-    "Tooltip": "officiis",
+    "HeadingId": 836,
+    "Name": "Price-Cronin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 241,
-    "UdListDefinitionId": 237,
+    "Rank": 186,
+    "UdListDefinitionId": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 378
       }
     }
   }

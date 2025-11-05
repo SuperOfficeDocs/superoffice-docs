@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Prohaska Group",
-  "Tooltip": "officiis",
+  "Id": 920,
+  "Name": "Donnelly, Waelchi and Hackett",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "Rank": 518,
+  "Rank": 756,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Okuneva Group",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 277,
-  "IsCustomList": true,
+  "Id": 997,
+  "Name": "Shanahan, Kris and Schuster",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "Rank": 965,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }
