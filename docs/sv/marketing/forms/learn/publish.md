@@ -33,17 +33,44 @@ När du har skapat formuläret och (om det är relevant) formulärsvaret kan du 
 
 1. Gå till fliken **Publicera**.
 
-1. (valfritt) Välj **Förfyll med kontaktuppgifter** om du vill lägga till fältidentifierare i länken/JavaScript. Relevant om du vill [förifylla fält i formulären][1] med befintliga kunddata från SuperOffice.
-
 1. På den vänstra sidan av skärmen väljer du ett publiceringsalternativ för formuläret:
     * **Direktlänk**: En direktlänk till formuläret.
     * **Bädda in inline**: En skripttagg används för att lägga till formuläret på en webbsida.
     * **Bädda in som popup**: En knapp för att öppna formuläret i ett popupfönster på webbsidan.
     * **Bädda in som sidoflik**: En sidoflik med en knapp för att dölja/visa formuläret.
 
+1. (valfritt) I avsnittet **Förfyll med kontaktuppgifter** väljer du ett eller flera fält som ska fyllas i automatiskt med befintliga kunddata från SuperOffice.
+
 1. Kopiera länkarn/taggarna till ett nyhetsbrev, en webbplats eller ett kundcenter om du vill publicera den till dina kunder eller prospekt.
 
-![Publicera formulär, direktlänk -screenshot][img3]
+![Fliken Publicera i SuperOffice Marketing som visar hur du väljer ett publiceringsalternativ och förifyller formulärfält med kontaktdata. -screenshot][img3]
+
+## <a id="prefill"></a>Förifyllning av fält i formulär
+
+Du kan förifyllda valda formulärfält med befintliga kunddata från SuperOffice för att spara besökare tid när de skickar in ett formulär.
+
+När du väljer ett eller flera fält i avsnittet **Förfyll med kontaktuppgifter**, lägger SuperOffice till motsvarande fältidentifierare och [mallvariabler][7] i länken eller skripttaggen.
+
+När formuläret öppnas fylls dessa fält automatiskt i med kundens lagrade information.
+
+En **fältidentifierare** är ett unikt ID för ett specifikt fält. Den ändras inte även om fältnamnet, etiketten eller språket ändras.
+
+Till exempel:
+
+```text
+...form&id=F-Rg2nDAQI
+```
+
+blir:
+
+```text
+...form&id=F-Rg2nDAQI&field_Email%3A=[[urlEncode(customer.email)]]
+```
+
+Detta säkerställer att formuläret dynamiskt infogar varje kontakts e-postadress när det öppnas via en personlig länk.
+
+> [!TIP]
+> Fältidentifierare är stabila över språk och uppdateringar, så dina länkar kommer att fortsätta fungera även om formuläret redigeras senare.
 
 ## <a id="utm"></a>Lägg till UTM-spårning (Marketing Premium)
 
@@ -60,6 +87,18 @@ Den inbyggda **UTM-byggaren** skapar en formulärlänk med [UTM-parametrar][4], 
 1. I fliken **Publicera**, välj **Direktlänk** som publiceringsalternativ.
 
 1. Voer in de sectie **UTM-tracking toevoegen** één of meer UTM-waarden in, zoals **bron**, **medium** en **campagne**.
+
+    Till exempel:
+
+    ```text
+    ...form&id=F-Rg2nDAQI
+    ```
+
+    blir:
+
+    ```text
+    ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
+    ```
 
     ![Fält för Lägg till UTM-spårning i publiceringsvyn för formulär – skärmbild][img4]
 
@@ -84,12 +123,12 @@ Formulär kan avaktiveras manuellt eller avaktiveras automatiskt på ett specifi
 * [Konfigurera UTM-spårning][6] - i Inställningar och underhåll
 
 <!-- Referenced links -->
-[1]: form-prefilled.md
 [2]: view-statistics.md
 [3]: process-submissions.md
 [4]: ../../utm/learn/parameters.md
 [5]: ../../utm/learn/index.md
 [6]: ../../utm/admin/set-up.md
+[7]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

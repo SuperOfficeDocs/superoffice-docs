@@ -33,8 +33,6 @@ Når du har oprettet formularen og (hvis relevant) formularsvaret, kan du udgive
 
 1. Gå til fanen **Udgiv**.
 
-1. (valgfrit) Vælg **Forudfyld med personoplysninger** for at føje felt-ID'er til linket/JavaScript. Nyttig til [forhåndsudfyldning af felter i formularerne][1] med eksisterende kundedata fra SuperOffice.
-
 1. Vælg en udgivelsesindstilling for formularen på venstre side af skærmen:
 
     * **Direkte link**: Et direkte link til formularen.
@@ -42,9 +40,38 @@ Når du har oprettet formularen og (hvis relevant) formularsvaret, kan du udgive
     * **Integrer som popup**: En knap til at åbne formularen i et pop op-vindue på websiden.
     * **Integrer som sidefane**: En sidefane med en knap til at skjule/vise formularen.
 
+1. (valgfrit) I sektionen **Forudfyld med personoplysninger** skal du vælge et eller flere felter, der skal udfyldes automatisk med eksisterende kundedata fra SuperOffice.
+
 1. Kopier links/tags ind i et nyhedsbrev, website eller kundecenter for at udgive det til dine kunder eller kundeemner.
 
-![Udgiv formular, direkte link -screenshot][img3]
+![Fanen Udgiv i SuperOffice Marketing, der viser, hvordan du vælger en udgivelsesmulighed og forududfylder formularfelter med kontaktdata. -screenshot][img3]
+
+## <a id="prefill"></a>Forudfyldning af felter i formularer
+
+Du kan forudfylde udvalgte formularfelter med eksisterende kundedata fra SuperOffice for at spare besøgende tid, når de indsender en formular.
+
+Når du vælger et eller flere felter i sektionen **Forudfyld med personoplysninger**, tilføjer SuperOffice de tilsvarende felt-ID'er og [skabelonvariabler][7] til linket eller script-tagget.
+
+Når formularen åbnes, udfyldes disse felter automatisk med kundens gemte oplysninger.
+
+Et **felt-ID** er en unik identifikator for et bestemt felt. Det ændres ikke, selvom feltnavnet, etiketten eller sproget ændres.
+
+For eksempel:
+
+```text
+...form&id=F-Rg2nDAQI
+```
+
+bliver til:
+
+```text
+...form&id=F-Rg2nDAQI&field_Email%3A=[[urlEncode(customer.email)]]
+```
+
+Dette sikrer, at formularen dynamisk indsætter hver kontaktpersons e-mailadresse, når den åbnes via et personligt link.
+
+> [!TIP]
+> Felt-ID'er er stabile på tværs af sprog og opdateringer, så dine links vil fortsætte med at fungere, selv hvis formularen redigeres senere.
 
 ## <a id="utm"></a>Tilføj UTM-sporing (Marketing Premium)
 
@@ -61,6 +88,18 @@ Den indbyggede **UTM-builder** opretter et formularlink med [UTM-parametre][4], 
 1. Vælg **Direkte link** som udgivelsesmulighed under fanen **Publicer**.
 
 1. I afsnittet **Tilføj UTM-sporing** skal du angive en eller flere UTM-værdier, for eksempel **kilde**, **medie** og **kampagne**.
+
+    For eksempel:
+
+    ```text
+    ...form&id=F-Rg2nDAQI
+    ```
+
+    bliver til:
+
+    ```text
+   ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
+    ```
 
     ![Felter til Tilføj UTM-sporing i visningen Udgiv formular -screenshot][img4]
 
@@ -85,12 +124,12 @@ Formularer kan deaktiveres manuelt eller deaktiveres automatisk på en bestemt d
 * [Opsæt UTM-sporing][6] - i Indstillinger og vedligeholdelse
 
 <!-- Referenced links -->
-[1]: form-prefilled.md
 [2]: view-statistics.md
 [3]: process-submissions.md
 [4]: ../../utm/learn/parameters.md
 [5]: ../../utm/learn/index.md
 [6]: ../../utm/admin/set-up.md
+[7]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

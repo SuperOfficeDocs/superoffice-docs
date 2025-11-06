@@ -33,10 +33,6 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 1. Go to the **Publish** tab.
 
-1. (optional) In the **Pre-populate with contact data** section, choose one or more fields to autofill with existing customer data from SuperOffice.
-
-1. to add field identifiers to the link/JavaScript. Useful for [pre-filling form fields][1] with existing customer data from SuperOffice.
-
 1. On the left side of the screen, select a publishing option for the form:
 
     * **Direct link**: A direct link to the form.
@@ -44,9 +40,38 @@ After creating a form and (if relevant) the form response, you can publish the f
     * **Embed as popup**: A button to open the form in a pop-up window on the web page.
     * **Embed as side tab**: A side tab with a button to hide/show the form.
 
+1. (optional) In the **Pre-populate with contact data** section, choose one or more fields to autofill with existing customer data from SuperOffice.
+
 1. Copy the links/tags into a newsletter, website or customer centre to publish it to your customers or prospects.
 
-![Publish form, direct link -screenshot][img3]
+![Publish tab in SuperOffice Marketing showing how to select a publishing option and pre-fill form fields with contact data. -screenshot][img3]
+
+## <a id="prefill"></a>Pre-filling fields in forms
+
+You can pre-fill selected form fields with existing customer data from SuperOffice to save visitors time when submitting a form.
+
+When you choose one or more fields in the **Pre-populate with contact data** section, SuperOffice adds the corresponding field identifiers and [template variables][7] to the link or script tag.
+
+When the form opens, these fields are automatically filled with the customer's stored information.
+
+A **field identifier** is a unique ID for a specific field. It does not change even if the field name, label, or language changes.
+
+For example:
+
+```text
+...form&id=F-Rg2nDAQI
+```
+
+becomes:
+
+```text
+...form&id=F-Rg2nDAQI&field_Email%3A=[[urlEncode(customer.email)]]
+```
+
+This ensures the form dynamically inserts each contact's email address when opened through a personalized link.
+
+> [!TIP]
+> Field identifiers are stable across languages and updates, so your links will continue to work even if the form is edited later.
 
 ## <a id="utm"></a>Add UTM tracking (Marketing Premium)
 
@@ -63,6 +88,18 @@ The built-in **UTM builder** generates a form link with [UTM parameters][4] so S
 1. In the **Publish** tab, select **Direct link** as the publishing option.
 
 1. In the **Add UTM tracking** section, enter one or more UTM values such as **source**, **medium**, and **campaign**.
+
+    For example:
+
+    ```text
+    ...formId=F-Rg2nDAQI
+    ```
+
+    becomes:
+
+    ```text
+    ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
+    ```
 
     ![Add UTM tracking fields in the form publish view -screenshot][img4]
 
@@ -87,12 +124,12 @@ Forms can be deactivated manually, or are automatically deactivated at a specifi
 * [Set up UTM tracking][6] - in Settings and maintenance
 
 <!-- Referenced links -->
-[1]: form-prefilled.md
 [2]: view-statistics.md
 [3]: process-submissions.md
 [4]: ../../utm/learn/parameters.md
 [5]: ../../utm/learn/index.md
 [6]: ../../utm/admin/set-up.md
+[7]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

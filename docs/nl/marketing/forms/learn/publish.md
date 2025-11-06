@@ -33,8 +33,6 @@ Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, ku
 
 1. Ga naar het tabblad **Publiceren**.
 
-1. (optioneel) Selecteer **Vooraf invullen met contactgegevens** om veld-ID's toe te voegen aan de koppeling/JavaScript. Handig voor [het vooraf invullen van velden in de formulieren][1] met bestaande klantgegevens van SuperOffice.
-
 1. Selecteer aan de linkerkant van het scherm een publicatieoptie voor het formulier:
 
     * **Directe koppeling**: een directe koppeling naar het formulier.
@@ -42,9 +40,38 @@ Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, ku
     * **Als pop-up insluiten**: een knop om het formulier te openen in een pop-upvenster op de webpagina.
     * **Insluiten als zijtabblad**: een zijtabblad met een knop om het formulier te verbergen/weer te geven.
 
+1. (optioneel) Kies in het gedeelte **Vooraf invullen met contactgegevens** een of meer velden die automatisch moeten worden ingevuld met bestaande klantgegevens van SuperOffice.
+
 1. Kopieer de koppelingen/codes naar een nieuwsbrief, website of Customer Centre om deze te publiceren naar uw klanten of prospects.
 
-![Formulier publiceren, directe koppeling -screenshot][img3]
+![Het tabblad Publiceren in SuperOffice Marketing waarin wordt getoond hoe je een publicatieoptie selecteert en formuliervelden vooraf invult met contactgegevens. -screenshot][img3]
+
+## <a id="prefill"></a>Vooraf invullen van velden in formulieren
+
+U kunt geselecteerde formuliervelden vooraf invullen met bestaande klantgegevens van SuperOffice om bezoekers tijd te besparen bij het indienen van een formulier.
+
+Wanneer u een of meer velden kiest in het gedeelte **Vooraf invullen met contactgegevens**, voegt SuperOffice de bijbehorende veld-ID's en [sjabloonvariabelen][7] toe aan de link of scripttag.
+
+Wanneer het formulier wordt geopend, worden deze velden automatisch gevuld met de opgeslagen informatie van de klant.
+
+Een **veld-ID** is een unieke identificatie voor een specifiek veld. Deze verandert niet, zelfs als de veldnaam, het label of de taal verandert.
+
+Bijvoorbeeld:
+
+```text
+...form&id=F-Rg2nDAQI
+```
+
+wordt:
+
+```text
+...form&id=F-Rg2nDAQI&field_Email%3A=[[urlEncode(customer.email)]]
+```
+
+Dit zorgt ervoor dat het formulier dynamisch het e-mailadres van elke contactpersoon invoegt wanneer het wordt geopend via een gepersonaliseerde link.
+
+> [!TIP]
+> Veld-ID's zijn stabiel over talen en updates heen, dus je links blijven werken, zelfs als het formulier later wordt bewerkt.
 
 ## <a id="utm"></a>UTM-tracking toevoegen (Marketing Premium)
 
@@ -61,6 +88,18 @@ De ingebouwde **UTM-builder** maakt een formulierlink met [UTM-parameters][4], z
 1. Selecteer op het tabblad **Publiceren** de optie **Directe link** als publicatiemethode.
 
 1. Voer in de sectie **UTM-tracking toevoegen** één of meer UTM-waarden in, zoals **bron**, **medium** en **campagne**.
+
+    Bijvoorbeeld:
+
+    ```text
+    ...form&id=F-Rg2nDAQI
+    ```
+
+    wordt:
+
+    ```text
+    ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
+    ```
 
     ![Velden voor UTM-tracking toevoegen in de formulierpublicatie – screenshot][img4]
 
@@ -85,12 +124,12 @@ Formulieren kunnen handmatig gedeactiveerd worden, of worden automatisch gedeact
 * [UTM-tracking instellen][6] - in Instellingen en onderhoud
 
 <!-- Referenced links -->
-[1]: form-prefilled.md
 [2]: view-statistics.md
 [3]: process-submissions.md
 [4]: ../../utm/learn/parameters.md
 [5]: ../../utm/learn/index.md
 [6]: ../../utm/admin/set-up.md
+[7]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/form-publish.png
