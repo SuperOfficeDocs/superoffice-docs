@@ -4,7 +4,7 @@ title: Set up UTM tracking
 description: Learn how to enable and use UTM tracking in SuperOffice Marketing to capture lead sources.
 keywords: enable UTM, conversion tracking, lead source
 author: digitaldiina
-date: 11.04.2025
+date: 11.06.2025
 version: 11.6
 content_type: howto
 category: marketing
@@ -95,11 +95,11 @@ For descriptions and naming conventions, see [UTM parameters][2].
 
 Use the tagged link wherever you promote your campaign, such as:
 
-* LinkedIn posts
+* Blog call-to-action buttons
+* Email newsletters
 * Facebook ads or retargeting
 * Google Ads
-* Email newsletters
-* Blog call-to-action buttons
+* LinkedIn posts
 
 ## <a id="publish"></a>5. Publish your form correctly
 
