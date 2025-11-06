@@ -75,6 +75,34 @@ flowchart TD
 ```
 <!--Alt-Text: Flussdiagramm zeigt, wie Erster Kontakt und Lead-Erstellung nach einer Formularübermittlung in SuperOffice CRM gespeichert werden.-->
 
+## Erfasste UTM-Daten in SuperOffice CRM anzeigen
+
+Wenn SuperOffice UTM-Parameter aus einer Formularübermittlung erfasst, sind die Details zu **Erster Kontakt** und **Lead-Erstellung** in der **Datenschutz**-Registerkarte der Person unter dem Zweck *E-Marketing* sichtbar.
+Sie können diese schreibgeschützten Werte anzeigen, indem Sie auf *Mehr anzeigen* klicken.
+
+![Der E-Marketing-Bereich in der Datenschutz-Registerkarte zeigt Erster Kontakt und Lead-Erstellung UTM-Felder -screenshot][img1]
+
+Sie können UTM-Daten auch in der [Bereichsregisterkarte **Personen**][7] auf einer Firmenkarte anzeigen.
+Klicken Sie auf <i class="ph ph-gear" aria-label="Gear icon"></i>, um anzupassen, welche Spalten angezeigt werden.
+
+## UTM-Daten als Suchkriterien verwenden
+
+Sie können UTM-Datenfelder verwenden, um Personen und Firmen in SuperOffice CRM zu finden oder zu segmentieren.
+
+Im **Suchen**-Bildschirm fügen Sie Kriterien unter **Firma** > **Lead** oder **Person** > **Lead** hinzu, zum Beispiel:
+
+* Erste Kontaktquelle
+* Erste Kontaktkampagne
+* Lead-Erstellungsquelle
+* Lead-Erstellungsmedium
+* Lead-Erstellungskampagne
+
+![Der Suchen-Bildschirm zeigt UTM-Felder, die als Kriterien verfügbar sind -screenshot][img2]
+
+Sie können Ihre Suchergebnisse als **Selektion** speichern, die später für gezielte Marketingaktivitäten oder Berichte verwendet werden kann.
+
+Wenn Sie eine dynamische Selektion von Firmen oder Personen haben, können Sie diese auch in der [Board-Ansicht][6] öffnen, um den Lead-Fortschritt zu visualisieren.
+
 ## Praxisbeispiele
 
 ### Anwendungsfall 1: Ermitteln, welcher Kanal die meisten Anmeldungen bringt
@@ -132,3 +160,9 @@ Verwenden Sie den UTM-Builder für SuperOffice-Formulare, um Kampagnenlinks mit 
 [2]: ../../forms/learn/publish.md
 [3]: ../admin/set-up.md
 [5]: ../../../dashboard/learn/show-marketing.md
+[6]: ../../../search-options/selection/learn/board-view.md
+[7]: ../../../learn/section-tabs/contacts-tab.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

@@ -75,6 +75,36 @@ flowchart TD
 ```
 <!--Alt text: Flow showing how first touch and lead creation data are stored in SuperOffice CRM after a form submission.-->
 
+## View captured UTM data in SuperOffice CRM
+
+When SuperOffice captures UTM parameters from a form submission, the **first touch** and **lead creation** details are visible in the contact’s **Privacy** tab under the *E-marketing* purpose.
+
+You can view these read-only values by clicking *Show more*.
+
+![The E-marketing section in the Privacy tab showing first touch and lead creation UTM fields -screenshot][img1]
+
+You can also view UTM data, such as **Lead creation source** and **First touch campaign**, in the [**Contacts** section tab][7] on a company card.
+
+Click <i class="ph ph-gear" aria-label="Gear icon"></i> to customize which columns are displayed.
+
+## Use UTM data as search criteria
+
+You can use UTM data fields to find or segment contacts and companies in SuperOffice CRM.
+
+In the **Find** screen, add criteria under **Company** > **Lead** or **Contact** > **Lead**, for example:
+
+* First touch source
+* First touch campaign
+* Lead creation source
+* Lead creation medium
+* Lead creation campaign
+
+![The Find screen showing UTM fields available as criteria -screenshot][img2]
+
+You can save your search results as a **selection**, which can later be used for targeted marketing activities or reports.
+
+When you have a dynamic selection of companies or contacts, you can also open it in [Board view][6] to visualize lead progression.
+
 ## Real-world examples
 
 ### Use case 1: Identify which channel drives the most sign-ups
@@ -133,5 +163,9 @@ Use the UTM builder for SuperOffice forms to create campaign links with consiste
 [2]: ../../forms/learn/publish.md
 [3]: ../admin/set-up.md
 [5]: ../../../dashboard/learn/show-marketing.md
+[6]: ../../../search-options/selection/learn/board-view.md
+[7]: ../../../learn/section-tabs/contacts-tab.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

@@ -75,6 +75,34 @@ flowchart TD
 ```
 <!--Alt-text: Flöde som visar hur första kontaktpunkt och lead-skapande sparas i SuperOffice CRM efter en formulärinlämning.-->
 
+## Visa fångade UTM-data i SuperOffice CRM
+
+När SuperOffice fångar UTM-parametrar från en formulärinlämning är **första kontaktpunkt** och **lead-skapande** synliga i kontaktens **Integritet**-flik under ändamålet *E-marknadsföring*.
+Du kan visa dessa skrivskyddade värden genom att klicka på *Visa mer*.
+
+![E-marknadsföringssektionen i Integritet-fliken som visar första kontaktpunkt och lead-skapande UTM-fält -screenshot][img1]
+
+Du kan också visa UTM-data i [detaljkortet **Kontakter**][7] på ett företagskort.
+Klicka på <i class="ph ph-gear" aria-label="Gear icon"></i> för att anpassa vilka kolonner som visas.
+
+## Använd UTM-data som sökkriterier
+
+Du kan använda UTM-datafält för att hitta eller segmentera kontakter och företag i SuperOffice CRM.
+
+I **Sök**-fönstret lägger du till kriterier under **Företag** > **Lead** eller **Kontakt** > **Lead**, till exempel:
+
+* Första kontaktpunktkälla
+* Första kontaktpunktkampanj
+* Lead-skapandekälla
+* Lead-skapandemedium
+* Lead-skapandekampanj
+
+![Sök-fönstret som visar UTM-fält tillgängliga som kriterier -screenshot][img2]
+
+Du kan spara dina sökresultat som ett **urval**, som senare kan användas för riktade marknadsföringsaktiviteter eller rapporter.
+
+När du har ett dynamiskt urval av företag eller kontakter kan du också öppna det i [Tavelvyn][6] för att visualisera lead-framsteg.
+
 ## Verkliga exempel
 
 ### Användningsfall 1: Identifiera vilken kanal som ger flest anmälningar
@@ -132,3 +160,9 @@ Använd UTM-byggaren för SuperOffice-formulär för att skapa kampanjslänkar m
 [2]: ../../forms/learn/publish.md
 [3]: ../admin/set-up.md
 [5]: ../../../dashboard/learn/show-marketing.md
+[6]: ../../../search-options/selection/learn/board-view.md
+[7]: ../../../learn/section-tabs/contacts-tab.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

@@ -75,6 +75,34 @@ flowchart TD
 ```
 <!--Alt-tekst: Diagram dat laat zien hoe eerste contact en lead-creatie in SuperOffice CRM worden opgeslagen na een formulierverzending.-->
 
+## Vastgelegde UTM-gegevens weergeven in SuperOffice CRM
+
+Wanneer SuperOffice UTM-parameters uit een formulierverzending vastlegt, zijn de gegevens over **eerste contact** en **lead-creatie** zichtbaar in het **Privacy**-tabblad van de contactpersoon onder het doel *E-marketing*.
+Je kunt deze alleen-lezen waarden weergeven door op *Meer weergeven* te klikken.
+
+![De E-marketingsectie in het Privacy-tabblad toont eerste contact en lead-creatie UTM-velden -screenshot][img1]
+
+Je kunt UTM-gegevens ook bekijken in het [sectietabblad **Personen**][7] op een bedrijfskaart.
+Klik op <i class="ph ph-gear" aria-label="Gear icon"></i> om aan te passen welke kolommen worden weergegeven.
+
+## Gebruik UTM-gegevens als zoekcriteria
+
+Je kunt UTM-gegevensvelden gebruiken om contactpersonen en bedrijven te vinden of te segmenteren in SuperOffice CRM.
+
+Voeg in het **Zoeken**-scherm criteria toe onder **Bedrijf** > **Lead** of **Contactpersoon** > **Lead**, bijvoorbeeld:
+
+* Eerste contactbron
+* Eerste contactcampagne
+* Lead-creatiebron
+* Lead-creatiemedium
+* Lead-creatiecampagne
+
+![Het Zoeken-scherm toont UTM-velden beschikbaar als criteria -screenshot][img2]
+
+Je kunt je zoekresultaten opslaan als een **selectie**, die later kan worden gebruikt voor gerichte marketingactiviteiten of rapporten.
+
+Wanneer je een dynamische selectie van bedrijven of contactpersonen hebt, kun je deze ook openen in [Bordweergave][6] om lead-voortgang te visualiseren.
+
 ## Praktijkvoorbeelden
 
 ### Gebruikssituatie 1: Achterhalen welk kanaal de meeste aanmeldingen oplevert
@@ -132,3 +160,9 @@ Gebruik de UTM-builder voor SuperOffice-formulieren om campagnekoppelingen te ma
 [2]: ../../forms/learn/publish.md
 [3]: ../admin/set-up.md
 [5]: ../../../dashboard/learn/show-marketing.md
+[6]: ../../../search-options/selection/learn/board-view.md
+[7]: ../../../learn/section-tabs/contacts-tab.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
