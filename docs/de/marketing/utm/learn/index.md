@@ -83,7 +83,10 @@ Sie können diese schreibgeschützten Werte anzeigen, indem Sie auf *Mehr anzeig
 ![Der E-Marketing-Bereich in der Datenschutz-Registerkarte zeigt Erster Kontakt und Lead-Erstellung UTM-Felder -screenshot][img1]
 
 Sie können UTM-Daten auch in der [Bereichsregisterkarte **Personen**][7] auf einer Firmenkarte anzeigen.
+
 Klicken Sie auf <i class="ph ph-gear" aria-label="Gear icon"></i>, um anzupassen, welche Spalten angezeigt werden.
+
+![Bereichsregisterkarte Personen zeigt Lead-Spalten mit UTM-Daten -screenshot][img3]
 
 ## UTM-Daten als Suchkriterien verwenden
 
@@ -164,5 +167,6 @@ Verwenden Sie den UTM-Builder für SuperOffice-Formulare, um Kampagnenlinks mit 
 [7]: ../../../learn/section-tabs/contacts-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
-[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
+[img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png
+[img2]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img3]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

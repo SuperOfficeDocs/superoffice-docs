@@ -87,6 +87,8 @@ You can also view UTM data, such as **Lead creation source** and **First touch c
 
 Click <i class="ph ph-gear" aria-label="Gear icon"></i> to customize which columns are displayed.
 
+![Contact section tab showing lead columns with UTM data -screenshot][img3]
+
 ## Use UTM data as search criteria
 
 You can use UTM data fields to find or segment contacts and companies in SuperOffice CRM.
@@ -167,5 +169,6 @@ Use the UTM builder for SuperOffice forms to create campaign links with consiste
 [7]: ../../../learn/section-tabs/contacts-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
-[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
+[img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png
+[img2]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img3]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

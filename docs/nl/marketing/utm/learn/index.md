@@ -83,7 +83,10 @@ Je kunt deze alleen-lezen waarden weergeven door op *Meer weergeven* te klikken.
 ![De E-marketingsectie in het Privacy-tabblad toont eerste contact en lead-creatie UTM-velden -screenshot][img1]
 
 Je kunt UTM-gegevens ook bekijken in het [sectietabblad **Personen**][7] op een bedrijfskaart.
+
 Klik op <i class="ph ph-gear" aria-label="Gear icon"></i> om aan te passen welke kolommen worden weergegeven.
+
+![Sectietabblad Personen toont lead-kolommen met UTM-gegevens -screenshot][img3]
 
 ## Gebruik UTM-gegevens als zoekcriteria
 
@@ -164,5 +167,6 @@ Gebruik de UTM-builder voor SuperOffice-formulieren om campagnekoppelingen te ma
 [7]: ../../../learn/section-tabs/contacts-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
-[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
+[img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png
+[img2]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img3]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png

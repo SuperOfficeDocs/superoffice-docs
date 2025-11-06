@@ -83,7 +83,10 @@ Du kan vise disse skrivebeskyttede verdiene ved å klikke på *Vis mer*.
 ![E-markedsføringsdelen i Personvern-fanen som viser første kontaktpunkt og lead-opprettelse UTM-felt -screenshot][img1]
 
 Du kan også se UTM-data i [detaljkortet **Personer**][7] på et firmakort.
+
 Klikk på <i class="ph ph-gear" aria-label="Gear icon"></i> for å tilpasse hvilke kolonner som vises.
+
+![Detaljkortet Personer som viser lead-kolonner med UTM-data -screenshot][img3]
 
 ## Bruk UTM-data som søkekriterier
 
@@ -164,5 +167,6 @@ Bruk UTM-byggeren for SuperOffice-skjemaer for å opprette kampanjekoblinger med
 [7]: ../../../learn/section-tabs/contacts-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
-[img2]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
+[img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png
+[img2]: ../../../../media/loc/en/search-options/lead-utm-criteria.png
+[img3]: ../../../../media/loc/en/marketing/lead-in-contact-section-tab.png
