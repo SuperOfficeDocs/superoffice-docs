@@ -2,7 +2,7 @@
 uid: help-sv-form-publish
 title: Publicera formulär
 description: Publicera formulär
-keywords: formulär, publicera, publicera formulär, förifyllda fält, skripttagg, direktlänk, UTM-byggare, lägg till UTM-spårning
+keywords: formulär, publicera, publicera formulär, förifyllda fält, fältidentifierare, skripttagg, direktlänk, UTM-byggare, lägg till UTM-spårning
 author: digitaldiina
 date: 11.06.2025
 version: 11.6
@@ -13,6 +13,7 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
+redirect_from: /sv/marketing/forms/learn/form-prefilled
 ---
 
 # Publicera formulär
@@ -100,7 +101,7 @@ Den inbyggda **UTM-byggaren** skapar en formulärlänk med [UTM-parametrar][4], 
     ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
     ```
 
-    ![Fält för Lägg till UTM-spårning i publiceringsvyn för formulär – skärmbild][img4]
+    ![Fält för Lägg till UTM-spårning i publiceringsvyn för formulär -screenshot][img4]
 
     Mer information om varje parameter och namnstandarder finns i [UTM-parametrar][4].
 

@@ -2,7 +2,7 @@
 uid: help-da-form-publish
 title: Udgiv formularer
 description: Udgiv formularer
-keywords: formular, udgiv, udgiv formular, forudfyldte felt, scripttag, UTM-builder, tilføj UTM-sporing
+keywords: formular, udgiv, udgiv formular, forudfyldt, forudfyldte felt, felt-id, feltidentifikator, scripttag, UTM-builder, tilføj UTM-sporing
 author: digitaldiina
 date: 11.06.2025
 version: 11.6
@@ -13,6 +13,7 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/forms/learn/form-prefilled
 ---
 
 # Udgiv formularer

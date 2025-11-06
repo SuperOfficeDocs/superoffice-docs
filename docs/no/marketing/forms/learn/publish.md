@@ -2,7 +2,7 @@
 uid: help-no-form-publish
 title: Publisere skjemaer
 description: Publisere skjemaer
-keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, skriptkode, UTM-bygger, legg til UTM-sporing
+keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, ferdigutfylt, feltidentifikator, skriptkode, UTM-bygger, legg til UTM-sporing
 author: digitaldiina
 date: 11.06.2025
 version: 11.6
@@ -13,6 +13,7 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
+redirect_from: /no/marketing/forms/learn/form-prefilled
 ---
 
 # Publisere skjemaer

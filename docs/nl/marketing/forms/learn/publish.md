@@ -2,7 +2,7 @@
 uid: help-nl-form-publish
 title: Formulieren publiceren
 description: Formulieren publiceren
-keywords: formulier, publiceren, formulieren publiceren, vooraf ingevulde velden, formulier insluiten, scriptcode, UTM-builder, UTM-tracking toevoegen
+keywords: formulier, publiceren, formulieren publiceren, vooraf ingevulde velden, veld-ID, veldidentificator, formulier insluiten, scriptcode, UTM-builder, UTM-tracking toevoegen
 author: digitaldiina
 date: 11.06.2025
 version: 11.6
@@ -13,6 +13,7 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from: /nl/marketing/forms/learn/form-prefilled
 ---
 
 # Formulieren publiceren
@@ -101,7 +102,7 @@ De ingebouwde **UTM-builder** maakt een formulierlink met [UTM-parameters][4], z
     ...formId=F-Rg2nDAQI&utm_source=linkedin&utm_campaign=rebranding
     ```
 
-    ![Velden voor UTM-tracking toevoegen in de formulierpublicatie – screenshot][img4]
+    ![Velden voor UTM-tracking toevoegen in de formulierpublicatie -screenshot][img4]
 
     Zie [UTM-parameters][4] voor meer informatie over elke parameter en naamgevingsconventies.
 

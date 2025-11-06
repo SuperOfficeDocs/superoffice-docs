@@ -11,8 +11,6 @@ items:
   href: form-templates.md
 - name: Formulare veröffentlichen
   href: publish.md
-- name: Verwenden von vorausgefüllten Feldern
-  href: form-prefilled.md
 - name: Formularstatistiken anzeigen
   href: view-statistics.md
 - name: Formularübermittlungen verarbeiten

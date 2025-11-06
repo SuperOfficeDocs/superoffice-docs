@@ -2,7 +2,7 @@
 uid: help-en-form-publish
 title: Publish form
 description: Publish form
-keywords: form, publish form, active form, embed form, pre-filled field, UTM builder, Add UTM tracking
+keywords: form, publish form, active form, embed form, pre-fill, pre-filled field, form identifier, field ID, UTM builder, Add UTM tracking
 author: digitaldiina
 date: 11.06.2025
 version: 11.6
@@ -13,6 +13,7 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+redirect_from: /en/marketing/forms/learn/form-prefilled
 ---
 
 # Publish forms
