@@ -15,8 +15,7 @@ redirect_from: /en/automation/zapier/get-started/set-up-account
 
 # Connect a SuperOffice account with Zapier
 
-> [!NOTE]
-> To create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+[!include[note](../howto/includes/note.md)]
 
 ## Steps
 
