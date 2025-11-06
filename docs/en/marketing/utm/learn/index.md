@@ -4,7 +4,7 @@ title: Conversion tracking
 description: Learn how conversion tracking in SuperOffice CRM identifies which marketing channels and campaigns generate leads.
 keywords: UTM, conversion, lead source tracking
 author: digitaldiina
-date: 11.04.2025
+date: 11.06.2025
 version: 11.6
 content_type: concept
 category: marketing
