@@ -2,6 +2,7 @@
 Leverage our [best practices for online app development][2] to both boost your application's performance and reduce its API usage. Both [caching][3] and [search][4] have a huge impact.
 
 Additional columns from SuperOffice version 10.5.1
+
 | Column | Description |
 |---|---|
 | NsApiSlow | True if API call is higher than treshold. You will find tresholds for methods in our documentation. |
