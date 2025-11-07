@@ -59,4 +59,4 @@ For at lære, hvordan disse parametre bruges til at måle lead-kilder i SuperOff
 [2]: ../admin/set-up.md
 [3]: ../../forms/learn/publish.md
 [4]: https://ga-dev-tools.google/campaign-url-builder
-[5]: utmbuilder.net
+[5]: https://utmbuilder.net

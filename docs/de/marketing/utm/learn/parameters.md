@@ -59,4 +59,4 @@ Erfahren Sie, wie diese Parameter verwendet werden, um Lead-Quellen in SuperOffi
 [2]: ../admin/set-up.md
 [3]: ../../forms/learn/publish.md
 [4]: https://ga-dev-tools.google/campaign-url-builder
-[5]: utmbuilder.net
+[5]: https://utmbuilder.net
