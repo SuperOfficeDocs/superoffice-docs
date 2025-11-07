@@ -38,49 +38,49 @@ SuperOffice registrerar flera nyckeldatapunkter för att hjälpa dig förstå hu
 
 | Datapunkt | Beskrivning | Lagringsnivå |
 |---|---|---|
-| **Första kontaktpunkt** | Den allra första källan, mediet och kampanjen som fick personen att interagera med företaget. | Kontakt |
+| **First touch** | Den allra första källan, mediet och kampanjen som fick personen att interagera med företaget. | Kontakt |
 | **Lead-skapande** | Källan, mediet och kampanjen som ledde till att leadet faktiskt skapades i CRM. | Kontakt |
 | **Konvertering** | Den senaste källan, mediet och kampanjen som fick en befintlig kontakt att skicka in ett nytt formulär. | Formulärinlämning |
 | **Företagskälla** | När en ny kontakt läggs till och ett företagskort skapas samtidigt, sparas källan på företagskortet. | Företag |
 
 > [!NOTE]
-> Första kontaktpunkt, lead-skapande och företagskälla spåras endast för nya kontakter och företag som inte redan finns i CRM.
+> First touch, lead-skapande och företagskälla spåras endast för nya kontakter och företag som inte redan finns i CRM.
 
 ## Hur leadkällan fångas
 
-En besökare klickar på en **LinkedIn-annons** och landar på din webbplats. När de anländer lagras *första kontaktpunktens data* – inklusive källa, medium och kampanj – i webbläsaren. Besökaren lämnar webbplatsen utan att agera.
+En besökare klickar på en **LinkedIn-annons** och landar på din webbplats. När de anländer lagras *first touch-data* – inklusive källa, medium och kampanj – i webbläsaren. Besökaren lämnar webbplatsen utan att agera.
 
 Senare klickar samma person på en **Facebook-annons** och återvänder till webbplatsen. Den här gången fyller de i och **skickar in ett formulär**. När formuläret skickas in fångar SuperOffice källdata från URL:en.
 
-Om inlämningen skapar en ny kontakt eller ett nytt lead i SuperOffice CRM sparas både **första kontaktpunkt** och **lead-skapande** på kontaktkortet.
+Om inlämningen skapar en ny kontakt eller ett nytt lead i SuperOffice CRM sparas både **first touch** och **lead-skapande** på kontaktkortet.
 
 ```mermaid
 flowchart TD
-    subgraph Journey[\"Besökarens resa\"]
-        A[\"<br/>&#8203;Klickar på LinkedIn-annons<br/> \"] --> B[\"<br/>&#8203;Besöker webbplats<br/> \"]
-        B --> C[\"<br/>&#8203;Lämnar webbplats<br/> \"]
-        C --> D[\"<br/>&#8203;Första kontaktpunkt sparas i webbläsaren<br/> \"]
-        D --> E[\"<br/>&#8203;Klickar på Facebook-annons<br/> \"]
-        E --> F[\"<br/>&#8203;Besöker webbplats igen<br/> \"]
-        F --> G[\"<br/>&#8203;Skickar in formulär<br/> \"]
+    subgraph Journey["Besökarens resa"]
+        A["<br/>&#8203;Klickar på LinkedIn-annons<br/> "] --> B["<br/>&#8203;Besöker webbplats<br/> "]
+        B --> C["<br/>&#8203;Lämnar webbplats<br/> "]
+        C --> D["<br/>&#8203;First touch sparas i webbläsaren<br/> "]
+        D --> E["<br/>&#8203;Klickar på Facebook-annons<br/> "]
+        E --> F["<br/>&#8203;Besöker webbplats igen<br/> "]
+        F --> G["<br/>&#8203;Skickar in formulär<br/> "]
     end
 
-    subgraph CRM[\"CRM-behandling\"]
-        G --> H[\"<br/>&#8203;Källa fångad<br/> \"]
-        H --> I[\"<br/>&#8203;Både första kontaktpunkt och lead-skapande sparas i SuperOffice<br/> \"]
+    subgraph CRM["CRM-behandling"]
+        G --> H["<br/>&#8203;Källa fångad<br/> "]
+        H --> I["<br/>&#8203;Både first touch och lead-skapande sparas i SuperOffice<br/> "]
     end
 
     style Journey fill:#f5faff,stroke:#c0d9f1,stroke-width:1px
     style CRM fill:#f2fff8,stroke:#a8e0c0,stroke-width:1px
 ```
-<!--Alt-text: Flöde som visar hur första kontaktpunkt och lead-skapande sparas i SuperOffice CRM efter en formulärinlämning.-->
+<!--Alt-text: Flöde som visar hur first touch och lead-skapande sparas i SuperOffice CRM efter en formulärinlämning.-->
 
 ## Visa fångade UTM-data i SuperOffice CRM
 
-När SuperOffice fångar UTM-parametrar från en formulärinlämning är **första kontaktpunkt** och **lead-skapande** synliga i kontaktens **Integritet**-flik under ändamålet *E-marknadsföring*.
+När SuperOffice fångar UTM-parametrar från en formulärinlämning är **first touch** och **lead-skapande** synliga i kontaktens **Integritet**-flik under ändamålet *E-marknadsföring*.
 Du kan visa dessa skrivskyddade värden genom att klicka på *Visa mer*.
 
-![E-marknadsföringssektionen i Integritet-fliken som visar första kontaktpunkt och lead-skapande UTM-fält -screenshot][img1]
+![E-marknadsföringssektionen i Integritet-fliken som visar first touch och lead-skapande UTM-fält -screenshot][img1]
 
 Du kan också visa UTM-data i [detaljkortet **Kontakter**][7] på ett företagskort.
 
@@ -94,8 +94,8 @@ Du kan använda UTM-datafält för att hitta eller segmentera kontakter och för
 
 I **Sök**-fönstret lägger du till kriterier under **Företag** > **Lead** eller **Kontakt** > **Lead**, till exempel:
 
-* Första kontaktpunktkälla
-* Första kontaktpunktkampanj
+* First touch-källa
+* First touch-kampanj
 * Lead-skapandekälla
 * Lead-skapandemedium
 * Lead-skapandekampanj

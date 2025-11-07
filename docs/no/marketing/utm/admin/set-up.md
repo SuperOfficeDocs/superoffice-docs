@@ -54,7 +54,7 @@ Dataene blir tilgjengelige både på **personkortet** og på **skjemainnsendinge
 
 **Når:** Én gang
 
-Dette skriptet muliggjør vedvarende sporing. Det lytter etter UTM-parametere i URL-en og lagrer dem midlertidig i nettleseren, slik at selv om en besøkende blar gjennom flere sider før de sender inn et skjema, blir data om første kontaktpunkt fortsatt registrert.
+Dette skriptet muliggjør vedvarende sporing. Det lytter etter UTM-parametere i URL-en og lagrer dem midlertidig i nettleseren, slik at selv om en besøkende blar gjennom flere sider før de sender inn et skjema, blir data om første interaksjon fortsatt registrert.
 
 1. Kopier skriptet nedenfor.
 1. Lim det inn i nettstedets kode rett etter `<head>`-taggen.
@@ -111,10 +111,10 @@ Bruk koblingen der du promoterer kampanjen, for eksempel i:
 
 SuperOffice kan fange opp UTM-data enten skjemaet er **innebygd** på nettstedet ditt eller **hostet** av SuperOffice.
 
-| Metode | Beskrivelse | Fanger første kontaktpunkt? |
+| Metode | Beskrivelse | Fanger første interaksjon? |
 |---|---|---|
-| **Innebygd skjema** | Legg til sporingsskriptet på nettstedet og bruk en landingsside med UTM-koblinger. | <i class="ph ph-check-circle" aria-hidden="true"></i> Ja |
-| **SuperOffice-hostet skjema (direktekobling)** | Legg UTM-parametere til SuperOffice-skjemaets URL. | <i class="ph ph-warning-circle" aria-hidden="true"></i> Nei |
+| **Innebygd skjema** | Legg til sporingsskriptet på nettstedet ditt og bruk en landingsside med UTM-merket URL. | <i class="ph ph-check-circle" aria-hidden="true"></i> Ja |
+| **SuperOffice-hostet skjema (direktelenke)** | Legg til UTM-parametere i SuperOffice-skjemaets URL. | <i class="ph ph-warning-circle" aria-hidden="true"></i> Nei |
 
 > [!TIP]
 > Ikke koble direkte fra nettstedet ditt til et SuperOffice-hostet skjema, da UTM-tagger vil gå tapt mellom sider.

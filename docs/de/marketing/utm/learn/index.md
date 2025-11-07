@@ -36,30 +36,30 @@ Um im Detail zu verstehen, wie das UTM-Tracking funktioniert, siehe [UTM-Paramet
 
 SuperOffice erfasst mehrere wichtige Datenpunkte, um Ihnen zu helfen, zu verstehen, wie Leads erstellt und konvertiert werden.
 
-| Datenpunkt | Beschreibung | Speicherungsebene |
+| Datapunkt | Beschreibung | Speicherungsebene |
 |---|---|---|
-| **Erster Kontakt (First touch)** | Die erste Quelle, das Medium und die Kampagne, die die Person zur Interaktion mit dem Unternehmen gebracht haben. | Person |
-| **Lead-Erstellung** | Die Quelle, das Medium und die Kampagne, die zur eigentlichen Lead-Erstellung im CRM geführt haben. | Person |
+| **First-Touch** | Die erste Quelle, das Medium und die Kampagne, die die Person zur Interaktion mit dem Unternehmen gebracht haben. | Person |
+| **Leadgenerierung** | Die Quelle, das Medium und die Kampagne, die zur eigentlichen Lead-Erstellung im CRM geführt haben. | Person |
 | **Conversion** | Die letzte Quelle, das Medium und die Kampagne, die eine bestehende Person zur Einsendung eines neuen Formulars veranlasst haben. | Formularübermittlung |
 | **Unternehmensquelle** | Wenn eine neue Person hinzugefügt und gleichzeitig eine Firmenkarte erstellt wird, wird die Quelle auf der Firmenkarte gespeichert. | Firma |
 
 > [!NOTE]
-> Erster Kontakt, Lead-Erstellung und Unternehmensquelle werden nur für neue Personen und Firmen erfasst, die noch nicht im CRM vorhanden sind.
+> First-Touch, Leadgenerierung und Unternehmensquelle werden nur für neue Personen und Firmen erfasst, die noch nicht im CRM vorhanden sind.
 
 ## Wie die Lead-Quelle erfasst wird
 
-Ein Besucher klickt auf eine **LinkedIn-Anzeige** und landet auf Ihrer Website. Beim Eintreffen werden *Daten zum ersten Kontakt* – einschließlich Quelle, Medium und Kampagne – im Browser gespeichert. Der Besucher verlässt die Website, ohne etwas zu tun.
+Ein Besucher klickt auf eine **LinkedIn-Anzeige** und landet auf Ihrer Website. Beim Eintreffen werden *First-Touch-Daten* – einschließlich Quelle, Medium und Kampagne – im Browser gespeichert. Der Besucher verlässt die Website, ohne etwas zu tun.
 
 Später klickt dieselbe Person auf eine **Facebook-Anzeige** und kehrt zur Website zurück. Dieses Mal füllt sie ein Formular aus und **sendet es ab**. Beim Absenden des Formulars erfasst SuperOffice die Quelldaten aus der URL.
 
-Wenn die Einsendung einen neuen Kontakt oder ein neues Lead in SuperOffice CRM erstellt, werden sowohl **Erster Kontakt** als auch **Lead-Erstellung** auf der Personenkarte gespeichert.
+Wenn die Einsendung einen neuen Kontakt oder ein neues Lead in SuperOffice CRM erstellt, werden sowohl **First-Touch** als auch **Leadgenerierung** auf der Personenkarte gespeichert.
 
 ```mermaid
 flowchart TD
     subgraph Journey["Besucherreise"]
         A["<br/>&#8203;Klickt auf LinkedIn-Anzeige<br/> "] --> B["<br/>&#8203;Besucht Website<br/> "]
         B --> C["<br/>&#8203;Verlässt Website<br/> "]
-        C --> D["<br/>&#8203;Erste Kontaktdaten im Browser gespeichert<br/> "]
+        C --> D["<br/>&#8203;First-Touch-Daten im Browser gespeichert<br/> "]
         D --> E["<br/>&#8203;Klickt auf Facebook-Anzeige<br/> "]
         E --> F["<br/>&#8203;Besucht Website erneut<br/> "]
         F --> G["<br/>&#8203;Sendet Formular ab<br/> "]
@@ -67,20 +67,20 @@ flowchart TD
 
     subgraph CRM["CRM-Verarbeitung"]
         G --> H["<br/>&#8203;Quelle erfasst<br/> "]
-        H --> I["<br/>&#8203;Sowohl Erster Kontakt als auch Lead-Erstellung in SuperOffice gespeichert<br/> "]
+        H --> I["<br/>&#8203;Sowohl First-Touch als auch Leadgenerierung in SuperOffice gespeichert<br/> "]
     end
 
     style Journey fill:#f5faff,stroke:#c0d9f1,stroke-width:1px
     style CRM fill:#f2fff8,stroke:#a8e0c0,stroke-width:1px
 ```
-<!--Alt-Text: Flussdiagramm zeigt, wie Erster Kontakt und Lead-Erstellung nach einer Formularübermittlung in SuperOffice CRM gespeichert werden.-->
+<!--Alt-Text: Flussdiagramm zeigt, wie First-Touch und Leadgenerierung nach einer Formularübermittlung in SuperOffice CRM gespeichert werden.-->
 
 ## Erfasste UTM-Daten in SuperOffice CRM anzeigen
 
-Wenn SuperOffice UTM-Parameter aus einer Formularübermittlung erfasst, sind die Details zu **Erster Kontakt** und **Lead-Erstellung** in der **Datenschutz**-Registerkarte der Person unter dem Zweck *E-Marketing* sichtbar.
+Wenn SuperOffice UTM-Parameter aus einer Formularübermittlung erfasst, sind die Details zu **First-Touch** und **Leadgenerierung** in der **Datenschutz**-Registerkarte der Person unter dem Zweck *E-Marketing* sichtbar.
 Sie können diese schreibgeschützten Werte anzeigen, indem Sie auf *Mehr anzeigen* klicken.
 
-![Der E-Marketing-Bereich in der Datenschutz-Registerkarte zeigt Erster Kontakt und Lead-Erstellung UTM-Felder -screenshot][img1]
+![Der E-Marketing-Bereich in der Datenschutz-Registerkarte zeigt First-Touch und Leadgenerierung UTM-Felder -screenshot][img1]
 
 Sie können UTM-Daten auch in der [Bereichsregisterkarte **Personen**][7] auf einer Firmenkarte anzeigen.
 
@@ -94,11 +94,11 @@ Sie können UTM-Datenfelder verwenden, um Personen und Firmen in SuperOffice CRM
 
 Im **Suchen**-Bildschirm fügen Sie Kriterien unter **Firma** > **Lead** oder **Person** > **Lead** hinzu, zum Beispiel:
 
-* Erste Kontaktquelle
-* Erste Kontaktkampagne
-* Lead-Erstellungsquelle
-* Lead-Erstellungsmedium
-* Lead-Erstellungskampagne
+* First-Touch-Quelle
+* First-Touch-Kampagne
+* Quelle der Leadgenerierung
+* Medium zur Leadgenerierung
+* Kampagne zur Leadgenerierung
 
 ![Der Suchen-Bildschirm zeigt UTM-Felder, die als Kriterien verfügbar sind -screenshot][img2]
 

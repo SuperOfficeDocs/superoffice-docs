@@ -54,7 +54,7 @@ Datan blir tillgänglig på både **kontaktkortet** och **formulärinlämningen*
 
 **När:** En gång
 
-Skriptet möjliggör bestående spårning. Det lyssnar efter UTM-parametrar i URL:en och sparar dem tillfälligt i webbläsaren så att även om en besökare navigerar mellan flera sidor innan formuläret skickas in, registreras första kontaktdata.
+Skriptet möjliggör bestående spårning. Det lyssnar efter UTM-parametrar i URL:en och sparar dem tillfälligt i webbläsaren så att även om en besökare navigerar mellan flera sidor innan formuläret skickas in, registreras first touch-data.
 
 1. Kopiera skriptet nedan.
 1. Klistra in det i din webbplatskod direkt efter `<head>`-taggen.
@@ -111,7 +111,7 @@ Använd länken där du marknadsför kampanjen, till exempel:
 
 SuperOffice kan registrera UTM-data oavsett om formuläret är **inbäddat** på din webbplats eller **hostat** av SuperOffice.
 
-| Metod | Beskrivning | Registrerar första kontakt? |
+| Metod | Beskrivning | Registrerar first touch? |
 |---|---|---|
 | **Inbäddat formulär** | Lägg till spårningsskriptet på din webbplats och använd en landningssida med UTM-taggad URL. | <i class="ph ph-check-circle" aria-hidden="true"></i> Ja |
 | **SuperOffice-hostat formulär (direktlänk)** | Lägg till UTM-parametrar i SuperOffice-formulärets URL. | <i class="ph ph-warning-circle" aria-hidden="true"></i> Nej |
@@ -144,7 +144,7 @@ Om data saknas, kontrollera att:
 
 När data har registrerats kan du mäta resultat i dashboards och rapporter.
 
-* Visa nya leads efter **första kontaktkälla** (vilken kanal som genererade trafik).
+* Visa nya leads efter **first touch-källa** (vilken kanal som genererade trafik).
 * Visa nya leads efter **kampanj** (vilken kampanj som genererade konverteringar).
 * Skapa en **dashboard-panel** som visar nya leads efter källa, medium eller kampanj för innevarande år.
 

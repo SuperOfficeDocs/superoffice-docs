@@ -38,28 +38,28 @@ SuperOffice registrerer flere vigtige datapunkter, der hjælper dig med at forst
 
 | Datapunkt | Beskrivelse | Lagringsniveau |
 |---|---|---|
-| **Første kontaktpunkt** | Den allerførste kilde, medie og kampagne, der fik personen til at interagere med virksomheden. | Person |
-| **Lead-oprettelse** | Den kilde, det medie og den kampagne, der førte til, at leadet faktisk blev oprettet i CRM. | Person |
+| **Første interaktion** | Den allerførste kilde, medie og kampagne, der fik personen til at interagere med virksomheden. | Person |
+| **Leadsgenerering** | Den kilde, det medie og den kampagne, der førte til, at leadet faktisk blev oprettet i CRM. | Person |
 | **Konvertering** | Den seneste kilde, det medie og den kampagne, der fik en eksisterende person til at indsende en ny formular. | Formularindsendelse |
 | **Virksomhedskilde** | Når en ny person tilføjes, og et firmakort oprettes samtidigt, gemmes kilden på firmakortet. | Firma |
 
 > [!NOTE]
-> Første kontaktpunkt, lead-oprettelse og virksomhedskilde spores kun for nye personer og virksomheder, der ikke allerede findes i CRM.
+> Første interaktion, leadsgenerering og virksomhedskilde spores kun for nye personer og virksomheder, der ikke allerede findes i CRM.
 
 ## Sådan registreres lead-kilden
 
-En besøgende klikker på en **LinkedIn-annonce** og lander på dit websted. Når vedkommende ankommer, gemmes *første kontaktpunktdata* – herunder kilde, medie og kampagne – i browseren. Den besøgende forlader siden uden yderligere handling.
+En besøgende klikker på en **LinkedIn-annonce** og lander på dit websted. Når vedkommende ankommer, gemmes *første interaktionsdata* – herunder kilde, medie og kampagne – i browseren. Den besøgende forlader siden uden yderligere handling.
 
-Senere klikker den samme person på en **Facebook-annonce** og vender tilbage til webstedet. Denne gang udfylder vedkommende og **indsender en formular**. Når formularen indsendes, registrerer SuperOffice kildeoplysningerne fra URL’en.
+Senere klikker den samme person på en **Facebook-annonce** og vender tilbage til webstedet. Denne gang udfylder vedkommende og **indsender en formular**. Når formularen indsendes, registrerer SuperOffice kildeoplysningerne fra URL'en.
 
-Hvis indsendelsen opretter en ny person eller et nyt lead i SuperOffice CRM, gemmes både **første kontaktpunkt** og **lead-oprettelse** på personkortet.
+Hvis indsendelsen opretter en ny person eller et nyt lead i SuperOffice CRM, gemmes både **første interaktion** og **leadsgenerering** på personkortet.
 
 ```mermaid
 flowchart TD
     subgraph Journey["Besøgsrejse"]
         A["<br/>&#8203;Klikker på LinkedIn-annonce<br/> "] --> B["<br/>&#8203;Besøger websted<br/> "]
         B --> C["<br/>&#8203;Forlader webstedet<br/> "]
-        C --> D["<br/>&#8203;Første kontaktpunkt gemt i browseren<br/> "]
+        C --> D["<br/>&#8203;Første interaktion gemt i browseren<br/> "]
         D --> E["<br/>&#8203;Klikker på Facebook-annonce<br/> "]
         E --> F["<br/>&#8203;Besøger webstedet igen<br/> "]
         F --> G["<br/>&#8203;Indsender formular<br/> "]
@@ -67,20 +67,20 @@ flowchart TD
 
     subgraph CRM["CRM-behandling"]
         G --> H["<br/>&#8203;Kilde registreret<br/> "]
-        H --> I["<br/>&#8203;Både første kontaktpunkt og lead-oprettelse gemt i SuperOffice<br/> "]
+        H --> I["<br/>&#8203;Både første interaktion og leadsgenerering gemt i SuperOffice<br/> "]
     end
 
     style Journey fill:#f5faff,stroke:#c0d9f1,stroke-width:1px
     style CRM fill:#f2fff8,stroke:#a8e0c0,stroke-width:1px
 ```
-<!--Alt-tekst: Flow, der viser hvordan første kontaktpunkt og lead-oprettelse gemmes i SuperOffice CRM efter en formularindsendelse.-->
+<!--Alt-tekst: Flow, der viser hvordan første interaktion og leadsgenerering gemmes i SuperOffice CRM efter en formularindsendelse.-->
 
 ## Vis registrerede UTM-data i SuperOffice CRM
 
-Når SuperOffice registrerer UTM-parametre fra en formularindsendelse, er **første kontaktpunkt** og **lead-oprettelse** synlige i personens **Personbeskyttelse**-fane under formålet *E-markedsføring*.
+Når SuperOffice registrerer UTM-parametre fra en formularindsendelse, er **første interaktion** og **leadsgenerering** synlige i personens **Personbeskyttelse**-fane under formålet *E-markedsføring*.
 Du kan vise disse skrivebeskyttede værdier ved at klikke på *Vis mere*.
 
-![E-markedsføringssektionen i Personbeskyttelse-fanen, der viser første kontaktpunkt og lead-oprettelse UTM-felter -screenshot][img1]
+![E-markedsføringssektionen i Personbeskyttelse-fanen, der viser første interaktion og leadsgenerering UTM-felter -screenshot][img1]
 
 Du kan også se UTM-data i [detaljekortet **Personer**][7] på et firmakort.
 
@@ -94,11 +94,11 @@ Du kan bruge UTM-datafelter til at finde eller segmentere personer og virksomhed
 
 I **Find**-skærmen tilføjer du kriterier under **Firma** > **Lead** eller **Person** > **Lead**, for eksempel:
 
-* Første kontaktpunktkilde
-* Første kontaktpunktkampagne
-* Lead-oprettelseskilde
-* Lead-oprettelsesmedie
-* Lead-oprettelseskampagne
+* Første interaktion-kilde
+* Første interaktion-kampagne
+* Leadsgenerering-kilde
+* Leadsgenerering-medium
+* Leadsgenerering-kampagne
 
 ![Find-skærmen viser UTM-felter tilgængelige som kriterier -screenshot][img2]
 

@@ -111,7 +111,7 @@ Brug linket, hvor du promoverer kampagnen, f.eks.:
 
 SuperOffice kan opfange UTM-data, uanset om formularen er **indlejret** på dit websted eller **hostet** af SuperOffice.
 
-| Metode | Beskrivelse | Opfanger første kontaktpunkt? |
+| Metode | Beskrivelse | Opfanger første interaktion? |
 |---|---|---|
 | **Indlejret formular** | Tilføj scriptet på dit websted og brug en landingsside med UTM-links. | <i class="ph ph-check-circle" aria-hidden="true"></i> Ja |
 | **SuperOffice-hostet formular (direkte link)** | Tilføj UTM-parametre til SuperOffice-formularens URL. | <i class="ph ph-warning-circle" aria-hidden="true"></i> Nej |
