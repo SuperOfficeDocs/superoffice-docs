@@ -4,8 +4,8 @@ title: Verkooptypen, fasen en gidsen beheren
 description: Leer hoe je verkoopprocessen beheert in SuperOffice CRM met verkooptypen, fasen en gidsen. Configureer deze tools in Instellingen en onderhoud om tracking, taken en documentatie te standaardiseren.
 keywords: verkoopgids, verkoopfase, verkooptype, workflow, verkoop
 author: digitaldiina
-date: 10.28.2025
-version: 10.5.2
+date: 11.06.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
@@ -41,11 +41,6 @@ Bekijk de volgende lijsten om te zien of u ze wilt wijzigen of niet:
 * Verkoop - Fase
 * Verkoop - Typecategorie
 * Verkoop - Type, Fasen, Offerte
-
-Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze passen bij de manier waarop u werkt. Het voorbeeld dat in deze video wordt gebruikt, is van de lijst Bedrijf - Categorie met een vergelijkbare instelling als Verkoop - Fase (videolengte - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Wat wil je doen?
 

@@ -4,8 +4,8 @@ title: Hantering av försäljningstyper, faser och guider
 description: Lär dig hur du hanterar försäljningsarbetsflöden i SuperOffice CRM med försäljningstyper, faser och guider. Konfigurera dessa verktyg i Inställningar och underhåll för att standardisera spårning, uppgifter och dokumentation.
 keywords: säljguide, försäljningsfas, försäljningstyp, arbetsflöde, försäljning
 author: digitaldiina
-date: 10.28.2025
-version: 10.5.2
+date: 11.06.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
@@ -41,11 +41,6 @@ Ta en titt på de här listorna för att se om du vill ändra dem eller inte:
 * Försäljning – Fas
 * Försäljning – Typkategori
 * Försäljning – Typ, Faser, Offert
-
-Den här filmen beskriver hur du kan redigera dina försäljningslistor så att de passar bättre för ert arbetssätt. I filmen används listan Företag – Kategori som exempel. Denna lista har ungefär samma inställningar som Försäljning – Fas (filmens längd: 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Vad vill du göra?
 
