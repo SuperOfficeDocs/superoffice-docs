@@ -36,6 +36,7 @@ Sie müssen eine **einmalige Einrichtung** (durch einen Administrator oder Weben
 ## <a id="enable"></a>1. UTM-Datenübertragung aktivieren
 
 **Wer:** Administrator
+
 **Wann:** Einmalig
 
 Die Aktivierung der UTM-Datenübertragung ermöglicht es SuperOffice, Informationen darüber zu erfassen, von wo Besucher stammen, wenn sie ein Formular absenden.
@@ -50,6 +51,7 @@ Diese Daten stehen sowohl auf der **Personenkarte** als auch bei der **Formular�
 ## <a id="script"></a>2. UTM-Tracking-Skript zur Website hinzufügen
 
 **Wer:** Webentwickler oder Website-Verantwortlicher
+
 **Wann:** Einmalig
 
 Dieses Skript ermöglicht dauerhaftes Tracking. Es erkennt UTM-Parameter in der URL und speichert sie vorübergehend im Browser, sodass selbst dann, wenn ein Besucher mehrere Seiten aufruft, bevor er ein Formular absendet, die Daten der ersten Interaktion erhalten bleiben.
@@ -69,6 +71,7 @@ Dieses Skript ermöglicht dauerhaftes Tracking. Es erkennt UTM-Parameter in der 
 ## <a id="build-url"></a>3. Kampagnenlinks mit UTM-Parametern erstellen
 
 **Wer:** Marketingmitarbeiter
+
 **Wann:** Pro Kampagne
 
 UTM-Parameter identifizieren, woher Besucher kommen und wie sie mit Ihren Kampagnen interagieren.
@@ -89,6 +92,7 @@ Weitere Beschreibungen und Namenskonventionen finden Sie unter [UTM-Parameter][2
 ## <a id="tag"></a>4. Getaggte Links in Kampagnen verwenden
 
 **Wer:** Marketingmitarbeiter
+
 **Wann:** Pro Kampagne
 
 Verwenden Sie die getaggten Links überall dort, wo Sie Ihre Kampagnen bewerben, z. B.:
@@ -102,6 +106,7 @@ Verwenden Sie die getaggten Links überall dort, wo Sie Ihre Kampagnen bewerben,
 ## <a id="publish"></a>5. Formular korrekt veröffentlichen
 
 **Wer:** Marketingmitarbeiter
+
 **Wann:** Pro Kampagne
 
 SuperOffice kann UTM-Daten erfassen, unabhängig davon, ob Ihr Formular **eingebettet** auf Ihrer Website oder **von SuperOffice gehostet** ist.
@@ -117,6 +122,7 @@ SuperOffice kann UTM-Daten erfassen, unabhängig davon, ob Ihr Formular **eingeb
 ## <a id="test"></a>6. Einrichtung testen und überprüfen
 
 **Wer:** Marketingmitarbeiter
+
 **Wann:** Nach der ersten Einrichtung und vor jeder neuen Kampagne
 
 1. Klicken Sie auf einen Ihrer Kampagnenlinks.
@@ -133,6 +139,7 @@ Wenn Daten fehlen, überprüfen Sie Folgendes:
 ## <a id="analyze"></a>7. Ergebnisse analysieren und visualisieren
 
 **Wer:** Marketingmitarbeiter
+
 **Wann:** Nach jeder Kampagne
 
 Sobald Daten erfasst sind, können Sie die Leistung in Dashboards und Berichten messen.

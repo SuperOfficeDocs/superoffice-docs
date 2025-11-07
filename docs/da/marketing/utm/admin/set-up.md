@@ -36,6 +36,7 @@ Du skal udføre en **engangsopsætning** (af en administrator eller webudvikler)
 ## <a id="enable"></a>1. Aktivér overførsel af UTM-data
 
 **Hvem:** Administrator
+
 **Hvornår:** Én gang
 
 Aktivering af overførsel af UTM-data gør det muligt for SuperOffice at indsamle information om, hvor besøgende kom fra, da de indsendte en formular.
@@ -50,6 +51,7 @@ Dataene bliver tilgængelige på både **personkortet** og **formularindsendelse
 ## <a id="script"></a>2. Tilføj UTM-sporingsscriptet til dit websted
 
 **Hvem:** Webudvikler eller webansvarlig
+
 **Hvornår:** Én gang
 
 Dette script muliggør vedvarende sporing. Det opfanger UTM-parametre i URL'en og gemmer dem midlertidigt i browseren, så selv hvis en besøgende besøger flere sider, inden en formular indsendes, registreres første kontakt stadig.
@@ -69,6 +71,7 @@ Dette script muliggør vedvarende sporing. Det opfanger UTM-parametre i URL'en o
 ## <a id="build-url"></a>3. Opret kampagnelinks med UTM-parametre
 
 **Hvem:** Markedsfører
+
 **Hvornår:** For hver kampagne
 
 UTM-parametre identificerer, hvor dine besøgende kommer fra, og hvordan de interagerer med dine kampagner.
@@ -89,6 +92,7 @@ For beskrivelser og navngivningskonventioner, se [UTM-parametre][2].
 ## <a id="tag"></a>4. Anvend linket i dine kampagner
 
 **Hvem:** Markedsfører
+
 **Hvornår:** For hver kampagne
 
 Brug linket, hvor du promoverer kampagnen, f.eks.:
@@ -102,6 +106,7 @@ Brug linket, hvor du promoverer kampagnen, f.eks.:
 ## <a id="publish"></a>5. Udgiv formularen korrekt
 
 **Hvem:** Markedsfører
+
 **Hvornår:** For hver kampagne
 
 SuperOffice kan opfange UTM-data, uanset om formularen er **indlejret** på dit websted eller **hostet** af SuperOffice.
@@ -117,6 +122,7 @@ SuperOffice kan opfange UTM-data, uanset om formularen er **indlejret** på dit 
 ## <a id="test"></a>6. Test og verificér opsætningen
 
 **Hvem:** Markedsfører
+
 **Hvornår:** Efter første opsætning og før hver ny kampagne
 
 1. Klik på et af dine kampagnelinks.
@@ -133,6 +139,7 @@ Hvis data mangler, skal du tjekke, at:
 ## <a id="analyze"></a>7. Analyser og visualisér resultater
 
 **Hvem:** Markedsfører
+
 **Hvornår:** Efter hver kampagne
 
 Når data er indsamlet, kan du måle resultater i dashboards og rapporter.

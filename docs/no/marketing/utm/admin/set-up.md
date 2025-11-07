@@ -36,6 +36,7 @@ Du må fullføre et **engangsoppsett** (utført av en administrator eller webutv
 ## <a id="enable"></a>1. Aktiver overføring av UTM-data
 
 **Hvem:** Administrator
+
 **Når:** Én gang
 
 Å aktivere UTM-dataoverføring lar SuperOffice samle informasjon om hvor besøkende kom fra da de sendte inn et skjema.
@@ -50,9 +51,10 @@ Dataene blir tilgjengelige både på **personkortet** og på **skjemainnsendinge
 ## <a id="script"></a>2. Legg til UTM-sporingsskriptet på nettstedet ditt
 
 **Hvem:** Webutvikler eller ansvarlig for nettstedet
+
 **Når:** Én gang
 
-Dette skriptet muliggjør vedvarende sporing. Det lytter etter UTM-parametere i URL-en og lagrer dem midlertidig i nettleseren. Selv om en besøkende blar gjennom flere sider før de sender inn et skjema, registreres fortsatt første kontaktdata.
+Dette skriptet muliggjør vedvarende sporing. Det lytter etter UTM-parametere i URL-en og lagrer dem midlertidig i nettleseren, slik at selv om en besøkende blar gjennom flere sider før de sender inn et skjema, blir data om første kontaktpunkt fortsatt registrert.
 
 1. Kopier skriptet nedenfor.
 1. Lim det inn i nettstedets kode rett etter `<head>`-taggen.
@@ -69,6 +71,7 @@ Dette skriptet muliggjør vedvarende sporing. Det lytter etter UTM-parametere i 
 ## <a id="build-url"></a>3. Opprett kampanjekoblinger med UTM-parametere
 
 **Hvem:** Markedsfører
+
 **Når:** For hver kampanje
 
 UTM-parametere identifiserer hvor besøkende kommer fra, og hvordan de samhandler med kampanjen.
@@ -89,6 +92,7 @@ For beskrivelser og navnekonvensjoner, se [UTM-parametere][2].
 ## <a id="tag"></a>4. Bruk koblingen i kampanjer
 
 **Hvem:** Markedsfører
+
 **Når:** For hver kampanje
 
 Bruk koblingen der du promoterer kampanjen, for eksempel i:
@@ -102,9 +106,10 @@ Bruk koblingen der du promoterer kampanjen, for eksempel i:
 ## <a id="publish"></a>5. Publiser skjemaet riktig
 
 **Hvem:** Markedsfører
+
 **Når:** For hver kampanje
 
-SuperOffice kan fange opp UTM-data enten skjemaet er **innebygd** på nettstedet eller **hostet** av SuperOffice.
+SuperOffice kan fange opp UTM-data enten skjemaet er **innebygd** på nettstedet ditt eller **hostet** av SuperOffice.
 
 | Metode | Beskrivelse | Fanger første kontaktpunkt? |
 |---|---|---|
@@ -117,6 +122,7 @@ SuperOffice kan fange opp UTM-data enten skjemaet er **innebygd** på nettstedet
 ## <a id="test"></a>6. Test og verifiser oppsettet
 
 **Hvem:** Markedsfører
+
 **Når:** Etter første oppsett og før hver ny kampanje
 
 1. Klikk på en av kampanjekoblingene dine.
@@ -133,6 +139,7 @@ Hvis data mangler, sjekk at:
 ## <a id="analyze"></a>7. Analyser og visualiser resultater
 
 **Hvem:** Markedsfører
+
 **Når:** Etter hver kampanje
 
 Når data er fanget, kan du måle resultatene i dashbord og rapporter.

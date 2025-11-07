@@ -36,6 +36,7 @@ You need to complete a **one-time setup** (by an administrator or web developer)
 ## <a id="enable"></a>1. Enable UTM data transfer
 
 **Who:** Administrator
+
 **When:** One time
 
 Enabling UTM data transfer lets SuperOffice collect information about where visitors came from when they submit a form.
@@ -50,6 +51,7 @@ The data becomes available on both the **contact card** and **form submission** 
 ## <a id="script"></a>2. Add the UTM tracking script to your website
 
 **Who:** Web developer or person managing your website
+
 **When:** One time
 
 This script enables persistent tracking. It listens for UTM parameters in the URL and stores them temporarily in the browser, so even if a visitor browses several pages before submitting a form, the first touch data is still recorded.
@@ -69,6 +71,7 @@ This script enables persistent tracking. It listens for UTM parameters in the UR
 ## <a id="build-url"></a>3. Create UTM-tagged campaign links
 
 **Who:** Marketer
+
 **When:** For each campaign
 
 UTM parameters identify where your visitors come from, and how they engage with your campaigns.
@@ -91,6 +94,7 @@ For descriptions and naming conventions, see [UTM parameters][2].
 ## <a id="tag"></a>4. Apply the tagged URL in your campaigns
 
 **Who:** Marketer
+
 **When:** For each campaign
 
 Use the tagged link wherever you promote your campaign, such as:
@@ -104,6 +108,7 @@ Use the tagged link wherever you promote your campaign, such as:
 ## <a id="publish"></a>5. Publish your form correctly
 
 **Who:** Marketer
+
 **When:** For each campaign
 
 SuperOffice can capture UTM data whether your form is **embedded** on your website or **hosted** by SuperOffice.
@@ -119,6 +124,7 @@ SuperOffice can capture UTM data whether your form is **embedded** on your websi
 ## <a id="test"></a>6. Test and verify the setup
 
 **Who:** Marketer
+
 **When:** After initial setup and before each new campaign
 
 1. Click one of your campaign links.
@@ -135,6 +141,7 @@ If data is missing, check that:
 ## <a id="analyze"></a>7. Analyze and visualize results
 
 **Who:** Marketer
+
 **When:** After each campaign
 
 Once data is captured, you can measure performance in dashboards and reports.

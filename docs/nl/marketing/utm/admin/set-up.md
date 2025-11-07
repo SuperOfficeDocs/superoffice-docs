@@ -36,6 +36,7 @@ Je moet een **eenmalige installatie** uitvoeren (door een beheerder of webontwik
 ## <a id="enable"></a>1. UTM-gegevensoverdracht inschakelen
 
 **Wie:** Beheerder
+
 **Wanneer:** Eenmalig
 
 Het inschakelen van UTM-gegevensoverdracht laat SuperOffice vastleggen waar bezoekers vandaan komen wanneer zij een formulier verzenden.
@@ -50,6 +51,7 @@ De gegevens worden zichtbaar op zowel het **contactpersoonkaartje** als de **for
 ## <a id="script"></a>2. Voeg het UTM-trackingscript toe aan je website
 
 **Wie:** Webontwikkelaar of websitebeheerder
+
 **Wanneer:** Eenmalig
 
 Dit script maakt permanente tracking mogelijk. Het detecteert UTM-parameters in de URL en slaat deze tijdelijk op in de browser. Zo blijven de gegevens van de eerste klik behouden, zelfs als de bezoeker meerdere pagina's bekijkt voordat hij het formulier verzendt.
@@ -69,6 +71,7 @@ Dit script maakt permanente tracking mogelijk. Het detecteert UTM-parameters in 
 ## <a id="build-url"></a>3. Maak campagnekoppelingen met UTM-parameters
 
 **Wie:** Marketeer
+
 **Wanneer:** Voor elke campagne
 
 UTM-parameters identificeren waar je bezoekers vandaan komen en hoe ze met je campagnes omgaan.
@@ -89,6 +92,7 @@ Zie [UTM-parameters][2] voor uitleg en naamgevingsconventies.
 ## <a id="tag"></a>4. Gebruik de koppeling in campagnes
 
 **Wie:** Marketeer
+
 **Wanneer:** Voor elke campagne
 
 Gebruik de gelabelde koppeling overal waar je de campagne promoot, zoals:
@@ -102,6 +106,7 @@ Gebruik de gelabelde koppeling overal waar je de campagne promoot, zoals:
 ## <a id="publish"></a>5. Publiceer het formulier correct
 
 **Wie:** Marketeer
+
 **Wanneer:** Voor elke campagne
 
 SuperOffice kan UTM-gegevens vastleggen, ongeacht of het formulier **ingesloten** op je website staat of **gehost** wordt door SuperOffice.
@@ -117,6 +122,7 @@ SuperOffice kan UTM-gegevens vastleggen, ongeacht of het formulier **ingesloten*
 ## <a id="test"></a>6. Test en verifieer de installatie
 
 **Wie:** Marketeer
+
 **Wanneer:** Na eerste installatie en vóór elke nieuwe campagne
 
 1. Klik op een van je campagnekoppelingen.
@@ -133,6 +139,7 @@ Als er gegevens ontbreken, controleer dan:
 ## <a id="analyze"></a>7. Analyseer en visualiseer resultaten
 
 **Wie:** Marketeer
+
 **Wanneer:** Na elke campagne
 
 Zodra de gegevens zijn vastgelegd, kun je de prestaties meten in dashboards en rapporten.

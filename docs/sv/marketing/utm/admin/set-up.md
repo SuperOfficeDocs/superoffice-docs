@@ -36,6 +36,7 @@ Du måste göra en **engångsinställning** (av en administratör eller webbutve
 ## <a id="enable"></a>1. Aktivera överföring av UTM-data
 
 **Vem:** Administratör
+
 **När:** En gång
 
 Att aktivera överföring av UTM-data gör att SuperOffice kan samla in information om varifrån besökare kommer när de skickar in ett formulär.
@@ -50,6 +51,7 @@ Datan blir tillgänglig på både **kontaktkortet** och **formulärinlämningen*
 ## <a id="script"></a>2. Lägg till UTM-spårningsskriptet på din webbplats
 
 **Vem:** Webbutvecklare eller webbansvarig
+
 **När:** En gång
 
 Skriptet möjliggör bestående spårning. Det lyssnar efter UTM-parametrar i URL:en och sparar dem tillfälligt i webbläsaren så att även om en besökare navigerar mellan flera sidor innan formuläret skickas in, registreras första kontaktdata.
@@ -69,6 +71,7 @@ Skriptet möjliggör bestående spårning. Det lyssnar efter UTM-parametrar i UR
 ## <a id="build-url"></a>3. Skapa kampanjslänkar med UTM-parametrar
 
 **Vem:** Marknadsförare
+
 **När:** För varje kampanj
 
 UTM-parametrar identifierar var dina besökare kommer ifrån och hur de interagerar med dina kampanjer.
@@ -89,6 +92,7 @@ För beskrivningar och namnkonventioner, se [UTM-parametrar][2].
 ## <a id="tag"></a>4. Använd länken i kampanjer
 
 **Vem:** Marknadsförare
+
 **När:** För varje kampanj
 
 Använd länken där du marknadsför kampanjen, till exempel:
@@ -102,6 +106,7 @@ Använd länken där du marknadsför kampanjen, till exempel:
 ## <a id="publish"></a>5. Publicera formuläret korrekt
 
 **Vem:** Marknadsförare
+
 **När:** För varje kampanj
 
 SuperOffice kan registrera UTM-data oavsett om formuläret är **inbäddat** på din webbplats eller **hostat** av SuperOffice.
@@ -117,6 +122,7 @@ SuperOffice kan registrera UTM-data oavsett om formuläret är **inbäddat** på
 ## <a id="test"></a>6. Testa och verifiera inställningen
 
 **Vem:** Marknadsförare
+
 **När:** Efter första inställning och före varje ny kampanj
 
 1. Klicka på en av dina kampanjslänkar.
@@ -133,6 +139,7 @@ Om data saknas, kontrollera att:
 ## <a id="analyze"></a>7. Analysera och visualisera resultat
 
 **Vem:** Marknadsförare
+
 **När:** Efter varje kampanj
 
 När data har registrerats kan du mäta resultat i dashboards och rapporter.
