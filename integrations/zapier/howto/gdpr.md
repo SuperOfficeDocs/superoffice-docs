@@ -30,4 +30,4 @@ If no value is provided for one or more of these fields, SuperOffice automatical
 [1]: ../../../docs/en/security/privacy/index.md
 
 <!-- Referenced images -->
-[img1]: media/common/contact-consents-gdpr.png
+[img1]: media/contact-consents-gdpr.png

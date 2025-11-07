@@ -67,10 +67,10 @@ language: en
 [4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/actions/remove/remove-project-member/remove-project-member-action.png
-[img5]: ../../media/actions/remove/remove-project-member/remove-project-member-selection-window.png
-[img6]: ../../media/actions/remove/remove-project-member/remove-by-project-member-id-window.png
-[img7]: ../../media/actions/remove/remove-project-member/remove-by-project-and-member-window.png
-[img8]: ../../media/actions/remove/remove-project-member/remove-project-member-output.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/remove-project-member-action.png
+[img5]: ../../media/remove-project-member-selection-window.png
+[img6]: ../../media/remove-by-project-member-id-window.png
+[img7]: ../../media/remove-by-project-and-member-window.png
+[img8]: ../../media/remove-project-member-output.png

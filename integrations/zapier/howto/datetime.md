@@ -53,9 +53,9 @@ The Formatter in Zapier provides three transformation options for handling date 
 [1]: https://help.zapier.com/hc/en-us/articles/8496275717261#adjusting-dates-and-times
 
 <!-- Referenced images -->
-[img1]: media/common/formatter-step.png
-[img2]: media/common/select-formatter.png
-[img3]: media/common/tranform-date-configure.png
-[img4]: media/common/add-subtract-option-date.png
-[img5]: media/common/compare-dates.png
-[img6]: media/common/format-date.png
+[img1]: media/formatter-step.png
+[img2]: media/select-formatter.png
+[img3]: media/tranform-date-configure.png
+[img4]: media/add-subtract-option-date.png
+[img5]: media/compare-dates.png
+[img6]: media/format-date.png

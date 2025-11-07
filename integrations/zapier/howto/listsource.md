@@ -39,6 +39,6 @@ As a result, the sale is created with the correct currency in SuperOffice.
 
 This lookup behavior applies to all drop-down lists in SuperOffice actions, including: Owners, Companies, Projects, Contacts, as well as category-based fields such as Business, Category, and Type.
 
-[img1]: media/common/create-sale-amount-currency-fields.png
-[img2]: media/common/currency-pick-custom-value.png
-[img3]: media/common/currency-custom-value.png
+[img1]: media/create-sale-amount-currency-fields.png
+[img2]: media/currency-pick-custom-value.png
+[img3]: media/currency-custom-value.png

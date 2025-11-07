@@ -53,8 +53,8 @@ language: en
 [1]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/actions/create/create-request-message/create-request-message-action.png
-[img5]: ../../media/actions/create/create-request-message/create-request-message-window.png
-[img6]: ../../media/actions/create/create-request-message/create-request-message-output.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/create-request-message-action.png
+[img5]: ../../media/create-request-message-window.png
+[img6]: ../../media/create-request-message-output.png

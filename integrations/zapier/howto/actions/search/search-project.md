@@ -67,10 +67,10 @@ language: en
 [5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/actions/search/search-project/search-project-action.png
-[img5]: ../../media/actions/search/search-project/search-project-window.png
-[img6]: ../../media/actions/search/search-project/search-criteria-project-window.png
-[img7]: ../../media/actions/search/search-project/search-value-project-window.png
-[img8]: ../../media/actions/search/search-project/search-project-output.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/search-project-action.png
+[img5]: ../../media/search-project-window.png
+[img6]: ../../media/search-criteria-project-window.png
+[img7]: ../../media/search-value-project-window.png
+[img8]: ../../media/search-project-output.png

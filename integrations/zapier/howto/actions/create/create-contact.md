@@ -61,8 +61,8 @@ language: en
 [5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/actions/create/create-contact/create-contact-action.png
-[img5]: ../../media/actions/create/create-contact/create-contact-window.png
-[img6]: ../../media/actions/create/create-contact/create-contact-output.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/create-contact-action.png
+[img5]: ../../media/create-contact-window.png
+[img6]: ../../media/create-contact-output.png

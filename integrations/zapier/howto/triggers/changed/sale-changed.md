@@ -57,8 +57,8 @@ language: en
 [4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img4]: ../../media/triggers/sale-changed/sale-changed-action.png
-[img5]: ../../media/triggers/sale-changed/sale-changed-when-window.png
-[img6]: ../../media/triggers/sale-changed/sale-changed-output.png
-[img7]: ../../media/common/select-action.png
+[img2]: ../../media/new-zap-window.png
+[img4]: ../../media/sale-changed-action.png
+[img5]: ../../media/sale-changed-when-window.png
+[img6]: ../../media/sale-changed-output.png
+[img7]: ../../media/select-action.png

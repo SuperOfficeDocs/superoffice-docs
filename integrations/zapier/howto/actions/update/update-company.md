@@ -61,8 +61,8 @@ language: en
 [5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/actions/update/update-company/update-company-action.png
-[img5]: ../../media/actions/update/update-company/update-company-window.png
-[img6]: ../../media/actions/update/update-company/update-company-output.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/update-company-action.png
+[img5]: ../../media/update-company-window.png
+[img6]: ../../media/update-company-output.png

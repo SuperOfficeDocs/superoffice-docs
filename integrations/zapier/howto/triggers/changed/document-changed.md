@@ -53,6 +53,6 @@ language: en
 [4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img4]: ../../media/triggers/document-changed/document-changed-action.png
-[img5]: ../../media/triggers/document-changed/document-changed-output.png
+[img2]: ../../media/new-zap-window.png
+[img4]: ../../media/document-changed-action.png
+[img5]: ../../media/document-changed-output.png

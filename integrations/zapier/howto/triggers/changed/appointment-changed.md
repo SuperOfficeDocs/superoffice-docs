@@ -55,8 +55,8 @@ language: en
 [4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img3]: ../../media/common/search-superoffice-in-zapier.png
-[img4]: ../../media/triggers/appointment-changed/appointment-changed-action.png
-[img5]: ../../media/triggers/appointment-changed/appointment-changed-output.png
-[img6]: ../../media/common/select-action.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/appointment-changed-action.png
+[img5]: ../../media/appointment-changed-output.png
+[img6]: ../../../howto/triggers/includes/media/select-action.png

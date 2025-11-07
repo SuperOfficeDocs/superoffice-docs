@@ -51,6 +51,6 @@ language: en
 [3]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img2]: ../../media/common/new-zap-window.png
-[img4]: ../../media/triggers/new-request/new-request-action.png
-[img5]: ../../media/triggers/new-request/new-request-output.png
+[img2]: ../../media/new-zap-window.png
+[img4]: ../../media/new-request-action.png
+[img5]: ../../media/new-request-output.png
