@@ -56,4 +56,4 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
 [1]: ../../docs/en/diary/learn/follow-ups.md
 
 <!-- Referenced images -->
-[img1]:  media/outlook-create-follow-up.png
+[img1]:  media/outlook-create-follow-up-new.png
