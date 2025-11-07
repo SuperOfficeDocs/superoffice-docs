@@ -84,8 +84,8 @@ To disable sampling:
 
 3. During this period, every API request will be logged and visible in, you will see itemCount = 1.
 
-> [!Note]
-> Disabling sampling may increase the volume of logged data, so it’s recommended to use this feature only when necessary and for limited timeframes.
+> [!NOTE]
+> Disabling sampling may increase the volume of logged data, so it's recommended to use this feature only when necessary and for limited timeframes.
 
 ## Improve app performance
 
