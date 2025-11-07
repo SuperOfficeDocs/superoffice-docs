@@ -96,7 +96,7 @@ To connect Google Workspace and CRM Online - you may use standard setup (Root fo
 You may also choose if you want to use SuperOffice standard folder rights (Access to all in `<customerdomain.com>`), or use inherited folder rights by choosing "Use inherited permission".
 
 > [!CAUTION]
-> Your site must be **recycled** to get the new configurations! All users on this site will be logged out when you click **Configure SuperOffice** in the step below. The users may log in again right afterward, but they might loose unsaved work.
+> Your site must be **restarted** to get the new configurations! All users on this site will be logged out when you click **Configure SuperOffice** in the step below. The users may log in again right afterward, but they might loose unsaved work.
 
 To connect your SuperOffice Online installation to Google:
 
