@@ -50,7 +50,7 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
 
 > [!NOTE]
 > The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [Settings and maintenance > User management > Visibility][1].
+> For more details, see [Settings and maintenance > User management > Visibility][2].
 
 <!-- Referenced links -->
 [1]: ../../docs/en/diary/learn/follow-ups.md
