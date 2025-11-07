@@ -37,7 +37,7 @@ The **API Performance tab** shows API-level application performance for one spec
 
 | Type of usage | Description |
 |---|---|
-| Operation Name | The URL endpoint. |
+| Operation Name | The API endpoint. |
 | Count | The number of API invocations to the endpoint. |
 | Record Count | The number of database records selected by the API invocation. |
 | Duration (AVG) | The average number number of milliseconds elapsed for each of all API invocations. |
@@ -65,6 +65,28 @@ When there are many rows, you can filter the list by typing in the search box. T
 
 * To return to the API Performance list, click the X in the upper-right corner.
 
+## Disable API request sampling
+
+Starting from SuperOffice version 10.5.1, API request sampling was introduced to reduce the volume of logged data and improve performance monitoring. By default, only a subset of API requests is recorded.
+However, sampling can be temporarily disabled if you need full visibility into all API traffic. This is especially useful when:
+
+* You're troubleshooting specific performance issues.
+* You need to verify the exact timing and frequency of API calls.
+* You're analyzing detailed request patterns for optimization.
+
+To disable sampling:
+
+1. Click the settings icon (cogwheel) to edit setting.
+
+    ![Disable API request sampling -screenshot][img4]
+
+2. Set the end time for the period during which sampling should be disabled for a specific app.
+
+3. During this period, every API request will be logged and visible in, you will see itemCount = 1.
+
+> [!NOTE]
+> Disabling sampling may increase the volume of logged data, so it's recommended to use this feature only when necessary and for limited timeframes.
+
 ## Improve app performance
 
 [!include[Best practices](includes/improve-performance.md)]
@@ -77,3 +99,5 @@ During development, following the statistics in SOD day-by-day can provide valua
 [img1]: media/metrics-performance-landing.png
 [img2]: media/metrics-performance-selected-row.png
 [img3]: media/metrics-performance-selected-sample.png
+[img4]: media/metrics-disable-sampling.png
+
