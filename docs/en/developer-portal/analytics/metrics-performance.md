@@ -18,7 +18,7 @@ platform: web
 
 ## At a glance
 
-The **API Performance tab** shows API-level application performance for one specific application. 
+The **API Performance tab** shows API-level application performance for one specific application.
 
 <!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
