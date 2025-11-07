@@ -77,7 +77,8 @@ However, sampling can be temporarily disabled if you need full visibility into a
 To disable sampling:
 
 1. Click the settings icon (cogwheel) to edit setting.
-![Disable API request sampling - screenshot][img4]
+
+    ![Disable API request sampling -screenshot][img4]
 
 2. Set the end time for the period during which sampling should be disabled for a specific app.
 
