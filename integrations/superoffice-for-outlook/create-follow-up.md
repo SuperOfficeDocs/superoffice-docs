@@ -38,7 +38,7 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
     * **Project** (Optional): Link the follow-up to an ongoing project if applicable.
     * **Type**: Choose the type of follow-up (such as, Customer complaint, Meeting).
     * **Date** and **Time**: Set the date and time for the follow-up.
-    * **Visible for**: Choose who can see the appointment or task — everyone, only the owner’s primary group, or only the owner.
+    * **Visible for**: Choose who can see the appointment or task — everyone, only the owner's primary group, or only the owner.
     * **Description**: Add any important details related to the follow-up (such as, case number or additional context). Optionally, edit the prefilled text.
 
 1. Once all fields are completed, click **Save**.
