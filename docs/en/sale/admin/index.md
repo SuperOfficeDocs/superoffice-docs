@@ -4,8 +4,8 @@ title: Managing sale types, stages, and guides
 description: Learn how to manage sales workflows in SuperOffice CRM with sale types, stages, and guides. Configure these tools in Settings and maintenance to standardize tracking, tasks, and documentation.
 keywords: sales guide, sale stage, sale type, workflow, sale
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 11.06.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -41,11 +41,6 @@ Have a look at the following lists, to see whether you want to change them or no
 * Sale - Stage
 * Sale - Type Category
 * Sale - Type, Stages, Quote
-
-Watch this video to see how you can edit your sales lists to make them fit the way you work. The example used in this video is of the Company - Category list which has similar setup as Sale - Stage (video length - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## What do you want to do?
 

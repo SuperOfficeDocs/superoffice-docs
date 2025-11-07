@@ -4,8 +4,8 @@ title: Administrere salgstyper, faser og guider
 description: Lær hvordan du administrerer salgsprosesser i SuperOffice CRM med salgstyper, faser og guider. Konfigurer disse verktøyene i Innstillinger og vedlikehold for å standardisere oppfølging, oppgaver og dokumentasjon.
 keywords: salgsguide, salgsfase, salgstype, arbeidsflyt, salg
 author: digitaldiina
-date: 10.28.2025
-version: 10.5.2
+date: 11.06.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
@@ -41,11 +41,6 @@ Ta en titt på disse listene for å se om du vil endre dem:
 * Salg - Fase
 * Salg - Typekategori
 * Salg - Type, Faser, Tilbud
-
-Se denne videoen for å se hvordan du kan redigere salgslistene dine, slik at de passer til måten du arbeider på. Eksemplet som brukes i denne videoen, er Firma - Kategori-listen, som har lignende oppsett som Salg - Fase (videolengde – 02.05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Hva vil du gjøre?
 
