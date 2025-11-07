@@ -11,8 +11,6 @@ items:
   href: form-templates.md
 - name: Udgiv formularer
   href: publish.md
-- name: Forudfyldte felter
-  href: form-prefilled.md
 - name: Vis statistik
   href: view-statistics.md
 - name: Behandl formularerindsendelser

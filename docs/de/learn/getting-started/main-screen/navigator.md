@@ -3,9 +3,9 @@ uid: help-de-ui-navigator
 title: Navigator
 description: Navigator
 keywords: Navigator, Menü, Benutzeroberfläche, Hauptbereichen, Navigation, SuperOffice-Logo
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,7 @@ Der Navigator bietet schnellen Zugriff auf die wichtigsten Funktionen in SuperOf
 | <i class="ph ph-squares-four" aria-label="Ansichtsdesigner-Symbol"></i> | **[Ansichtsdesigner][24]** | Anpassung von Layouts für Benutzergruppen. |
 | <i class="ph ph-gear" aria-label="Einstellungen-Symbol"></i> | **[Einstellungen][25]** | Verwaltung von Standardwerten für Aktivitäten, [Videokonferenzen][42] und [Dokumentenbibliothek][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chat-Symbol"></i> | **[Chat][2]** | Einrichtung und Konfiguration von Chat-Kanälen. |
+| <i class="ph ph-target" aria-label="Marketing-Symbol"></i> | **[Marketing][12]** | UTM-Tracking für alle Formulare aktivieren. |
 | <i class="ph ph-sliders-horizontal" aria-label="Optionen-Symbol"></i> | **[Optionen][26]** | Konfiguration globaler Einstellungen wie Suche, Zeitzonen und Nummerierung. |
 | <i class="ph ph-file-arrow-up" aria-label="Import-Symbol"></i> | **[Import][27]** | Importieren von Daten in SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Felder-Symbol"></i> | **[Felder][28]** | Erstellung benutzerdefinierter Felder für CRM-Nutzer. |
@@ -95,6 +96,7 @@ Wenn Sie den Mauszeiger über einen Datensatz bewegen, erscheint eine QuickInfo 
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md

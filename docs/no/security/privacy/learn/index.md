@@ -3,9 +3,9 @@ uid: help-no-privacy
 title: Personvern
 description: Personvern-funksjonen i SuperOffice hjelper deg å beskytte personvernet til kundene dine og overholde EUs personvernforordning (GDPR).
 keywords: personvern, GDPR, e-markedsføring, samtykke, rettslig grunnlag
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.3
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: concept
 category: privacy
 audience: person
@@ -68,10 +68,12 @@ Hvis du *ikke* velger dette alternativet, vil bare personer med **E-markedsføri
 
 * [Legg til elementer i listen Personvern - Hjemmel][3]
 * [Legge til elementer i listen Personvern - Kilde][4]
+* [Konverteringssporing (UTM)][5]
 
 <!-- Referenced links -->
 [2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
+[5]: ../../../marketing/utm/learn/index.md
 
 <!-- Referenced images -->

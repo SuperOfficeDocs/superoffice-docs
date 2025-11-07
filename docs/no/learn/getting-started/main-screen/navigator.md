@@ -3,9 +3,9 @@ uid: help-no-ui-navigator
 title: Navigator
 description: Navigator
 keywords: navigator, meny, brukergrensesnitt
-author: Bergfrid Dias
-date: 01.29.2025
-version: 10.5
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,7 @@ Navigatoren gir rask tilgang til de viktigste funksjonene i SuperOffice CRM. Hve
 | <i class="ph ph-squares-four" aria-label="Skjermdesigner-ikon"></i> | **[Skjermdesigner][24]** | Tilpass layout for spesifikke brukergrupper. |
 | <i class="ph ph-gear" aria-label="Innstillinger-ikon"></i> | **[Preferanser][25]** | Angi standardinnstillinger for aktiviteter, [videomøter][42] og [dokumentbibliotek][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chat-ikon"></i> | **[Chat][2]** | Konfigurer chattekanaler. |
+| <i class="ph ph-target" aria-label="Markedsføring-ikon"></i> | **[Markedsføring][12]** | Aktiver UTM-sporing for alle skjemaer. |
 | <i class="ph ph-sliders-horizontal" aria-label="Alternativer-ikon"></i> | **[Alternativer][26]** | Konfigurer globale innstillinger som søk, tidssoner og nummerering. |
 | <i class="ph ph-file-arrow-up" aria-label="Importer-ikon"></i> | **[Importer][27]** | Importer data til SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Felt-ikon"></i> | **[Felt][28]** | Definer tilpassede felt for CRM-brukere. |
@@ -95,6 +96,7 @@ Hvis du holder musepekeren over en post i en liste, vises en infoboks med ekstra
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md

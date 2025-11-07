@@ -3,9 +3,9 @@ uid: help-da-privacy
 title: Beskyttelse af personlige oplysninger
 description: Funktionen Privacy i SuperOffice hjælper dig med at beskytte dine kunders data-privacy og overholde EU's generelle forordning om databeskyttelse (GDPR).
 keywords: personbeskyttelse, GDPR, e-markedsføring, samtykke, retsgrundlag
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.3
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: concept
 category: privacy
 audience: person
@@ -68,10 +68,12 @@ Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsførin
 
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Retsgrundlag][3]
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Kilde][4]
+* [Konverteringssporing (UTM)][5]
 
 <!-- Referenced links -->
 [2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
+[5]: ../../../marketing/utm/learn/index.md
 
 <!-- Referenced images -->

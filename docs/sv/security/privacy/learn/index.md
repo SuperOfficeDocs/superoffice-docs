@@ -3,9 +3,9 @@ uid: help-sv-privacy
 title: Integritet
 description: Med Integritet-funktionen i SuperOffice kan du skydda kundens personliga data och följa EU:s nya dataskyddsförordning (GDPR).
 keywords: integritet, GDPR, e-marknadsföring, samtycke, rättslig grund
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.3
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: concept
 category: privacy
 audience: person
@@ -68,8 +68,10 @@ Om du *inte* väljer det här alternativet kommer bara personer med **E-marknads
 
 * [Lägga till poster i listan Integritet – Rättslig grund][3]
 * [Lägga till poster i listan Integritet – Källa][4]
+* [Konverteringsspårning (UTM)][5]
 
 <!-- Referenced links -->
 [2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
+[5]: ../../../marketing/utm/learn/index.md
