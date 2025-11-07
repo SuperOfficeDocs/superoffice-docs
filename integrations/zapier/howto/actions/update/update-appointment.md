@@ -35,13 +35,14 @@ language: en
 
 1. [!include[go to conf step](../includes/go-to-conf-step.md)]
 
-1. Fill out the mandatory fields and optionally other fields and click **Continue**.
+1. Fill out the mandatory fields as **Appointment ID** and optionally other fields and click **Continue**.
 
     ![Fill out your action -screenshot][img5]
 
 1. [!include[check action works step](../includes/check-action-works-step.md)]
 
-1. If the above steps were configured correctly, the response should consist of **Appointment id**, **Contact id**, **Person if**, **Project id**, **Sale id**, **Start date & time**, **End date & time**, **Type**, **Description**, **Location**, **All day event**, **Owner**, **Priority**, **Completed**.
+1. If the above steps were configured correctly, the response should consist of **Appointment ID**, **Is Main**, **Company ID**, **Company Name**, **Contact ID**, **Contact Name**, **Owner ID**, **Owner**, **Project ID**, **Project Name**, **Sale ID**, **Sale Title**, **Updated By**, **Updated Date**, **Created By**, **Created Date**, **Start Date & Time**, **End Date & Time**, **Is All Day Event?**, **Location**, **Description**, **Priority**, **Visible For**, **Type**, **Type ID**, **Is Completed**, **Alarm Lead Time**, **Has Alarm**, **Is Free**, **Is Milestone** and **Self URL***.
+
 
     ![Zapier: Verify -screenshot][img6]
 
