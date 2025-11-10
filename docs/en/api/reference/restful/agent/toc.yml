@@ -6,8 +6,6 @@ items:
     items:
       - name: AnalyzeBizCardImage
         href: AI_Agent/v1AIAgent_AnalyzeBizCardImage.md
-      - name: AnalyzeBizCardImage_new
-        href: AI_Agent/v1AIAgent_AnalyzeBizCardImage_new.md
       - name: AnalyzeBizCardText
         href: AI_Agent/v1AIAgent_AnalyzeBizCardText.md
       - name: Answer
