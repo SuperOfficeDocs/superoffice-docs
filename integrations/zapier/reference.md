@@ -4,7 +4,7 @@ title: SuperOffice triggers and actions
 description: Overview of SuperOffice triggers and actions supported by Zapier. List of Zap templates.
 keywords: Zap trigger, Zap action, Zap template, Slack, Google Sheets, Google Drive, Dropbox, Trello, Asana, Eventbrite, SurveyMonkey, JotForm, Wufoo
 author: miguellemos95, PhilipYates
-date: 08.09.2023
+date: 11.06.2025
 content_type: reference
 category: integration
 topic: Zapier
@@ -23,21 +23,21 @@ Supported triggers and the events in SuperOffice CRM Online that cause them to b
 |---|---|
 | **New** | |
 | [New Appointment][1] | A new appointment is created in SuperOffice. |
-| [New Company][2] | A new company is created in SuperOffice. |
-| [New Contact][3] | A new contact is created in SuperOffice. |
-| [New Document][4] | A new document is created in SuperOffice. |
-| [New Project Member][5] | A new project member is created in SuperOffice. |
-| [New Project][6] | A new project is created in SuperOffice. |
-| [New Request][7] | A new request is created in SuperOffice. |
-| [New Sale][8] | A new sale is created in SuperOffice. |
+| [New Company][1] | A new company is created in SuperOffice. |
+| [New Contact][1] | A new contact is created in SuperOffice. |
+| [New Document][1] | A new document is created in SuperOffice. |
+| [New Project Member][1] | A new project member is created in SuperOffice. |
+| [New Project][1] | A new project is created in SuperOffice. |
+| [New Request][1] | A new request is created in SuperOffice. |
+| [New Sale][1] | A new sale is created in SuperOffice. |
 | **Changed** | |
 | [Appointment Changed][9] | An appointment in SuperOffice is updated. |
-| [Company Changed][10] | A company in SuperOffice is updated. |
-| [Contact Changed][11] | A contact in SuperOffice is updated. |
-| [Document Changed][12] | A document in SuperOffice is updated. |
-| [Project Changed][13]| A project in SuperOffice is updated. |
-| [Project Member Changed][14] | A project member in SuperOffice is updated. |
-| [Sale Changed][15] | A sale in SuperOffice is updated (edited, sold, lost, completed). |
+| [Company Changed][9] | A company in SuperOffice is updated. |
+| [Contact Changed][9] | A contact in SuperOffice is updated. |
+| [Document Changed][9] | A document in SuperOffice is updated. |
+| [Project Changed][9]| A project in SuperOffice is updated. |
+| [Project Member Changed][9] | A project member in SuperOffice is updated. |
+| [Sale Changed][9] | A sale in SuperOffice is updated (edited, sold, lost, completed). |
 
 ## Actions
 
@@ -122,21 +122,8 @@ Zap templates are ready-made Zaps to use as-is or amend to fit a particular work
 * Add new leads from **Facebook Lead AS** (trigger) as new contacts in SuperOffice (action).
 
 <!-- Referenced links -->
-[1]: howto/triggers/new-appointment.md
-[2]: howto/triggers/new-company.md
-[3]: howto/triggers/new-contact.md
-[4]: howto/triggers/new-document.md
-[5]: howto/triggers/new-project-member.md
-[6]: howto/triggers/new-project.md
-[7]: howto/triggers/new-request.md
-[8]: howto/triggers/new-sale.md
-[9]: howto/triggers/appointment-changed.md
-[10]: howto/triggers/company-changed.md
-[11]: howto/triggers/contact-changed.md
-[12]: howto/triggers/document-changed.md
-[13]: howto/triggers/project-changed.md
-[14]: howto/triggers/project-member-changed.md
-[15]: howto/triggers/sale-changed.md
+[1]: howto/triggers/new.md
+[9]: howto/triggers/changed.md
 [16]: howto/actions/create-appointment.md
 [17]: howto/actions/create-company.md
 [18]: howto/actions/create-contact.md

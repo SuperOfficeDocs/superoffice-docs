@@ -15,29 +15,21 @@ language: en
 
 # Create a SuperOffice CRM Request Message Attachment action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Create Request Message Attachment**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
-
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Create Request Message Attachment**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
+    ![Set up an action -screenshot][img4]
 
 1. **Important** to note that this step must be performed **after** the **Create Request Message Action**.
 
     ![Set up your action -screenshot][img5]
 
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
 1. The value set for **Request Message Id** should be the **Message Id** from previous **Create Request Message Action** step.
 
@@ -47,24 +39,22 @@ language: en
 
     ![Fill out your action -screenshot][img7]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Attachment ID** and **Attachment Name**.
+    If the above steps were configured correctly, the response should consist of **Attachment ID** and **Attachment Name**.
 
     ![Zapier: Verify -screenshot][img8]
 
 ## Related content
 
-* [Create a Zap with SuperOffice CRM][1]
+* [Create a SuperOffice CRM action - detailed steps][1]
 
 <!-- Referenced links -->
-[1]: ../../get-started/create-zap.md
+[1]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/create-request-message-attachment-action.png
-[img5]: ../media/create-request-message-attachment-step-flow.png
-[img6]: ../media/create-request-message-attachment-fetch-id.png
-[img7]: ../media/create-request-message-attachment-window.png
-[img8]: ../media/create-request-message-attachment-output.png
+[img4]: media/create-request-message-attachment-action.png
+[img5]: media/create-request-message-attachment-step-flow.png
+[img6]: media/create-request-message-attachment-fetch-id.png
+[img7]: media/create-request-message-attachment-window.png
+[img8]: media/create-request-message-attachment-output.png

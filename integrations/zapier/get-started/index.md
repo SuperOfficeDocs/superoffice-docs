@@ -4,7 +4,7 @@ title: Get started
 description: How to get started with SuperOffice CRM and Zapier.
 keywords: Zapier
 author: PhilipYates
-date: 08.09.2023
+date: 11.06.2025
 content_type: howto
 category: integration
 topic: Zapier

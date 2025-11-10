@@ -15,46 +15,36 @@ language: en
 
 # Update a SuperOffice CRM Document Content action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Update Document Content**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
+    ![Set up an action -screenshot][img4]
 
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Update Document Content**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
-
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
 1. Fill out the mandatory fields **Document id** and **Document**.
 
     ![Fill out your action -screenshot][img5]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Document id**, **Company id**, **Company name**, **Contact id**, **Contact name**, **Project id**, **Project name**, **Sale id**, **Sale title**, **Template id**, **Template name**, **Completed?**, **Date**, **Our ref.**, **Your ref.**, **Title/Subject**, **Description**, **Owner id**, **Owner**, **Filename**, **Created date**, **Created by**, **Updated date**, **Update by**, **File**
+    If the above steps were configured correctly, the response should consist of **Document id**, **Company id**, **Company name**, **Contact id**, **Contact name**, **Project id**, **Project name**, **Sale id**, **Sale title**, **Template id**, **Template name**, **Completed?**, **Date**, **Our ref.**, **Your ref.**, **Title/Subject**, **Description**, **Owner id**, **Owner**, **Filename**, **Created date**, **Created by**, **Updated date**, **Update by**, **File**
 
     ![Zapier: Verify -screenshot][img6]
 
 ## Related content
 
-* [Create a Zap with SuperOffice CRM][1]
+* [Create a SuperOffice CRM action - detailed steps][1]
 
 <!-- Referenced links -->
-[1]: ../../get-started/create-zap.md
+[1]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/update-document-content-action.png
-[img5]: ../media/update-document-content-window.png
-[img6]: ../media/update-document-content-output.png
+[img4]: media/update-document-content-action.png
+[img5]: media/update-document-content-window.png
+[img6]: media/update-document-content-output.png

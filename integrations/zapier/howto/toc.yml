@@ -1,6 +1,6 @@
 items:
 - name: Working with Zaps
-  href: index .md
+  href: index.md
 - name: Set GDPR fields
   href: gdpr.md
 - name: Handle SuperOffice list values
@@ -8,7 +8,7 @@ items:
 - name: Format date and time
   href: datetime.md
 - name: Actions
-  topicHref: actions/create-appointment.md
+  href: actions/index.md
   items:
   - name: Create appointment
     href: actions/create-appointment.md
@@ -57,35 +57,9 @@ items:
   - name: Update sale
     href: actions/update-sale.md
 - name: Triggers
-  topicHref: triggers/appointment-changed.md
+  topicHref: triggers/new.md
   items:
-  - name: Appointment changed
-    href: triggers/appointment-changed.md
-  - name: Company changed
-    href: triggers/company-changed.md
-  - name: Contact changed
-    href: triggers/contact-changed.md
-  - name: Document changed
-    href: triggers/document-changed.md
-  - name: Project changed
-    href: triggers/project-changed.md
-  - name: Project member changed
-    href: triggers/project-member-changed.md
-  - name: Sale changed
-    href: triggers/sale-changed.md
-  - name: New appointment
-    href: triggers/new-appointment.md
-  - name: New company
-    href: triggers/new-company.md
-  - name: New contact
-    href: triggers/new-contact.md
-  - name: New document
-    href: triggers/new-document.md
-  - name: New project member
-    href: triggers/new-project-member.md
-  - name: New project
-    href: triggers/new-project.md
-  - name: New request
-    href: triggers/new-request.md
-  - name: New sale
-    href: triggers/new-sale.md
+  - name: New record
+    href: triggers/new.md
+  - name: Record changed
+    href: triggers/changed.md

@@ -16,25 +16,17 @@ redirect_from: /integrations/zapier/howto/find-company
 
 # Find a SuperOffice CRM Company action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Find company**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
+    ![Set up an action -screenshot][img4]
 
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Find company**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
-
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
     ![Fill out your action -screenshot][img5]
 
@@ -46,9 +38,9 @@ redirect_from: /integrations/zapier/howto/find-company
 
     ![Set your search value -screenshot][img7]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Company id**, **Company**, **Department**, **Category id**, **Category**, **Business id**, **Business**, **Our contact id**, **Our contact**, **Country id**, **Country**, **Number**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Address 1**, **Address 2**, **Address 3**, **City**, **State**, **County**, **Zip code / postal code**, **Postal address 1**, **Postal address 2**, **Postal address 3**, **Postal city**, **Postal state**, **Postal county**, **Postal zip code / postal code**, **Note**, **E-mail**, **Phone**, **Fax**, **Web site**, **Interests**, **Code**, **VAT No**, **Stop**, **No Mailings**, **Self URL**, **Zap Search Was Found Status**
+    If the above steps were configured correctly, the response should consist of **Company id**, **Company**, **Department**, **Category id**, **Category**, **Business id**, **Business**, **Our contact id**, **Our contact**, **Country id**, **Country**, **Number**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Address 1**, **Address 2**, **Address 3**, **City**, **State**, **County**, **Zip code / postal code**, **Postal address 1**, **Postal address 2**, **Postal address 3**, **Postal city**, **Postal state**, **Postal county**, **Postal zip code / postal code**, **Note**, **E-mail**, **Phone**, **Fax**, **Web site**, **Interests**, **Code**, **VAT No**, **Stop**, **No Mailings**, **Self URL**, **Zap Search Was Found Status**
 
     ![Zapier: Verify -screenshot][img8]
 
@@ -58,20 +50,18 @@ redirect_from: /integrations/zapier/howto/find-company
 * [Update Company Action][2]
 * [New Company Trigger][3]
 * [Company Changed Trigger][4]
-* [Create a Zap with SuperOffice CRM][5]
+* [Create a SuperOffice CRM action - detailed steps][5]
 
 <!-- Referenced links -->
 [1]: create-company.md
 [2]: update-company.md
-[3]: ../triggers/new-company.md
-[4]: ../triggers/company-changed.md
-[5]: ../../get-started/create-zap.md
+[3]: ../triggers/new.md
+[4]: ../triggers/changed.md
+[5]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/search-company-action.png
-[img5]: ../media/search-company-window.png
-[img6]: ../media/search-criteria-company-window.png
-[img7]: ../media/search-value-company-window.png
-[img8]: ../media/search-company-output.png
+[img4]: media/search-company-action.png
+[img5]: media/search-company-window.png
+[img6]: media/search-criteria-company-window.png
+[img7]: media/search-value-company-window.png
+[img8]: media/search-company-output.png

@@ -3,7 +3,7 @@ uid: zapier-set-up
 title: Connect account
 description: How to connect a SuperOffice account with Zapier
 keywords: Connect SuperOffice to Zapier, Connect an Account
-author: miguellemos95
+author: PhilipYates, miguellemos95
 date: 11.06.2025
 content_type: howto
 category: integration
@@ -15,7 +15,7 @@ redirect_from: /en/automation/zapier/get-started/set-up-account
 
 # Connect a SuperOffice account with Zapier
 
-[!include[note](../howto/includes/note.md)]
+[!include[Requirement](../includes/note-req-general-admin.md)]
 
 ## Steps
 

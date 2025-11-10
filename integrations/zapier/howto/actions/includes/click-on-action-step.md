@@ -1,2 +1,0 @@
-<!-- markdownlint-disable-file MD041 -->
-Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.

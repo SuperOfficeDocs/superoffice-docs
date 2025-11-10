@@ -16,33 +16,25 @@ redirect_from: /integrations/zapier/howto/update-project
 
 # Update SuperOffice CRM Project action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Update Project**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
+    ![Set up an action -screenshot][img4]
 
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Update Project**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
-
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
 1. Fill out the mandatory fields **Project ID**, **Title**, **Responsible**, **Type** and optionally other fields.
 
     ![Fill out your action -screenshot][img5]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Project id**, **Title**, **Responsible id**, **Responsible**, **Description**, **Number**, **Web site**, **Type id**, **Type**, **Status id**, **Status**, **Completed**, **End date**, **Next milestone**, **Note**, **Created by**, **Created date**, **Updated by**, **Updated date**, **Project members**, **Self URL**.
+    If the above steps were configured correctly, the response should consist of **Project id**, **Title**, **Responsible id**, **Responsible**, **Description**, **Number**, **Web site**, **Type id**, **Type**, **Status id**, **Status**, **Completed**, **End date**, **Next milestone**, **Note**, **Created by**, **Created date**, **Updated by**, **Updated date**, **Project members**, **Self URL**.
 
     ![Zapier: Verify -screenshot][img6]
 
@@ -52,18 +44,16 @@ redirect_from: /integrations/zapier/howto/update-project
 * [Create Project Action][2]
 * [New Project Trigger][3]
 * [Project Changed Trigger][4]
-* [Create a Zap with SuperOffice CRM][5]
+* [Create a SuperOffice CRM action - detailed steps][5]
 
 <!-- Referenced links -->
 [1]: search-project.md
 [2]: create-project.md
-[3]: ../triggers/new-project.md
-[4]: ../triggers/project-changed.md
-[5]: ../../get-started/create-zap.md
+[3]: ../triggers/new.md
+[4]: ../triggers/changed.md
+[5]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/update-project-action.png
-[img5]: ../media/update-project-window.png
-[img6]: ../media/update-project-output.png
+[img4]: media/update-project-action.png
+[img5]: media/update-project-window.png
+[img6]: media/update-project-output.png

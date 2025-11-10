@@ -3,7 +3,7 @@ uid: zapier-create-zap
 title: Create a Zap
 description: How-to guide for making "Zaps" for Superoffice CRM.
 keywords: Make Zap, create zap, Zapier trigger
-author: miguellemos95
+author: PhilipYates, miguellemos95
 date: 11.06.2025
 content_type: howto
 category: integration
@@ -17,9 +17,13 @@ redirect_from: /en/automation/zapier/get-started/create-zap
 
 This example demonstrates how to create a Zap that triggers when a sale is marked as sold in SuperOffice CRM.
 
+[!include[Requirement](../includes/note-req-general-admin.md)]
+
 ## Define trigger
 
-[!include[create zap step](../howto/includes/create-zap-intro.md)]
+1. On the Zaps page, click **Create**. You will be taken to a new Zap creation window.
+
+    ![Zapier: Create a new Zap -screenshot][img8]
 
 1. In the Trigger step, select **SuperOffice CRM** as the trigger application.
 
@@ -72,8 +76,10 @@ If connecting to SuperOffice and retrieving data samples fails, the issue may be
 
 Workaround: Connect using an account with the necessary administrator rights to the SuperOffice tenant.
 
-**Note:** Zaps can modify SuperOffice data extensively. For instance, misconfigured Zaps can create duplicate records. Proper configuration helps prevent such issues.
+> [!CAUTION]
+> Zaps can modify SuperOffice data extensively. For instance, misconfigured Zaps can create duplicate records. Proper configuration helps prevent such issues.
 
+<!-- Referenced images -->
 [img1]: media/all-crm-triggers.png
 [img2]: media/pick-account.png
 [img3]: media/sale-change-event-options.png
@@ -81,3 +87,4 @@ Workaround: Connect using an account with the necessary administrator rights to 
 [img5]: media/selected-record-details.png
 [img6]: media/sale-changed-trigger-record.png
 [img7]: media/complete-zap-with-action.png
+[img8]: media/create-zap.png

@@ -15,33 +15,25 @@ language: en
 
 # Update a SuperOffice CRM Request action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Update Request**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
+    ![Set up an action -screenshot][img4]
 
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Update Request**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
-
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
 1. Fill out the mandatory fields **Request** and optionally other fields.
 
     ![Fill out your action -screenshot][img5]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Request id**, **Title**, **Author**, **Contact id**, **Contact name**, **Company id**, **Company name**, **Owner id**, **Owner**, **Category id**, **Category**, **Priority id**, **Priority**, **Status**, **Access level for request**, **Origin**, **Created by id**, **Created by**, **Replied at**, **Closed at**, **Deadline**, **Self URL**.
+    If the above steps were configured correctly, the response should consist of **Request id**, **Title**, **Author**, **Contact id**, **Contact name**, **Company id**, **Company name**, **Owner id**, **Owner**, **Category id**, **Category**, **Priority id**, **Priority**, **Status**, **Access level for request**, **Origin**, **Created by id**, **Created by**, **Replied at**, **Closed at**, **Deadline**, **Self URL**.
 
     ![Zapier: Verify -screenshot][img6]
 
@@ -50,17 +42,15 @@ language: en
 * [Find Request Action][1]
 * [Create Request Action][2]
 * [New Request Trigger][3]
-* [Create a Zap with SuperOffice CRM][4]
+* [Create a SuperOffice CRM action - detailed steps][4]
 
 <!-- Referenced links -->
 [1]: search-request.md
 [2]: create-request.md
-[3]: ../triggers/new-request.md
-[4]: ../../get-started/create-zap.md
+[3]: ../triggers/new.md
+[4]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/update-request-action.png
-[img5]: ../media/update-request-window.png
-[img6]: ../media/update-request-output.png
+[img4]: media/update-request-action.png
+[img5]: media/update-request-window.png
+[img6]: media/update-request-output.png

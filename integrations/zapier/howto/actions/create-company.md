@@ -15,33 +15,25 @@ language: en
 
 # Create a SuperOffice CRM Company action
 
-[!include[note](../includes/note.md)]
-
 ## Steps
 
-[!include[create zap step](../includes/create-zap-intro.md)]
+1. [!include[ALT](includes/initial-steps-new-action.md)]
 
-1. [!include[click trigger step](includes/click-trigger-step.md)]
+1. Click on the **Action** step to set up app, event, and account:
 
-    ![Zapier: Create your trigger -screenshot][img2]
+    * In the **Action event** section, select **Create Company**
 
-1. [!include[click trigger step](includes/click-on-action-step.md)]
+    ![Set up an action -screenshot][img4]
 
-    ![Zapier: Select your action -screenshot][img3]
-
-1. A side menu will open, in the **Action event** section, select **Create Company**, then click the **Account** section and login using a SuperOffice account.
-
-    ![Set up your action -screenshot][img4]
-
-1. [!include[go to conf step](includes/go-to-conf-step.md)]
+1. Click **Continue**.
 
 1. Fill out the mandatory fields **Company ID** and optionally other fields.
 
-    ![Fill out your action -screenshot][img5]
+    ![Fill out an action -screenshot][img5]
 
-1. [!include[check action works step](includes/check-action-works-step.md)]
+1. Click **Test step** to check that the action works.
 
-1. If the above steps were configured correctly, the response should consist of **Company id**, **Company**, **Department**, **Category id**, **Category**, **Business id**, **Business**, **Our contact id**, **Our contact**, **Country id**, **Country**, **Number**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Address 1**, **Address 2**, **Address 3**, **City**, **State**, **County**, **Zip code / postal code**, **Postal address 1**, **Postal address 2**, **Postal address 3**, **Postal city**, **Postal state**, **Postal county**, **Postal zip code / postal code**, **Note**, **E-mail**, **Phone**, **Fax**, **Web site**, **Interests**, **Code**, **VAT No**, **Stop**, **No Mailings**, **Self URL**
+    If the above steps were configured correctly, the response should consist of **Company id**, **Company**, **Department**, **Category id**, **Category**, **Business id**, **Business**, **Our contact id**, **Our contact**, **Country id**, **Country**, **Number**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Address 1**, **Address 2**, **Address 3**, **City**, **State**, **County**, **Zip code / postal code**, **Postal address 1**, **Postal address 2**, **Postal address 3**, **Postal city**, **Postal state**, **Postal county**, **Postal zip code / postal code**, **Note**, **E-mail**, **Phone**, **Fax**, **Web site**, **Interests**, **Code**, **VAT No**, **Stop**, **No Mailings**, **Self URL**
 
     ![Zapier: Verify -screenshot][img6]
 
@@ -51,18 +43,16 @@ language: en
 * [Update Company Action][2]
 * [New Company Trigger][3]
 * [Company Changed Trigger][4]
-* [Create a Zap with SuperOffice CRM][5]
+* [Create a SuperOffice CRM action - detailed steps][5]
 
 <!-- Referenced links -->
 [1]: search-company.md
 [2]: update-company.md
-[3]: ../triggers/new-company.md
-[4]: ../triggers/company-changed.md
-[5]: ../../get-started/create-zap.md
+[3]: ../triggers/new.md
+[4]: ../triggers/changed.md
+[5]: index.md
 
 <!-- Referenced images -->
-[img2]: ../media/new-zap-window.png
-[img3]: ../media/search-superoffice-in-zapier.png
-[img4]: ../media/create-company-action.png
-[img5]: ../media/create-company-window.png
-[img6]: ../media/create-company-output.png
+[img4]: media/create-company-action.png
+[img5]: media/create-company-window.png
+[img6]: media/create-company-output.png

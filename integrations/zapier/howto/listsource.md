@@ -21,7 +21,7 @@ In SuperOffice, drop-down fields (for example, Currency) are linked to predefine
 
 In the **Create a Sale** action, the **Amount** field includes a **Currency** field, which can be set using a drop-down list.
 
-![Zapier: currency field -screenshot][img1]
+<!-- ![Zapier: currency field -screenshot][img1] -->
 
 However, if the currency varies between records, a specific currency name must be provided instead. The name must exactly match the value in the SuperOffice currency list — for example, "GBP" will match, but "British Pounds" will not, since the list entry is "GBP".
 
@@ -39,6 +39,5 @@ As a result, the sale is created with the correct currency in SuperOffice.
 
 This lookup behavior applies to all drop-down lists in SuperOffice actions, including: Owners, Companies, Projects, Contacts, as well as category-based fields such as Business, Category, and Type.
 
-[img1]: media/create-sale-amount-currency-fields.png
 [img2]: media/currency-pick-custom-value.png
 [img3]: media/currency-custom-value.png
