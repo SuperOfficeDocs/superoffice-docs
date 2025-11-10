@@ -3,7 +3,7 @@ uid: zapier
 title: Zapier
 description: Introduction to Zapier.
 keywords: Zapier, automation, Zap, workflow
-author: Philip Yates
+author: PhilipYates
 date: 08.09.2023
 content_type: concept
 category: integration

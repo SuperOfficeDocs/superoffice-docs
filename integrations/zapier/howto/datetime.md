@@ -3,7 +3,7 @@ uid: zapier-datetime
 title: Formatting date and time
 description: How to format date and time when working with Zapier.
 keywords: Zapier formatter, date format, time format
-author: Miguel Lemos
+author: miguellemos95
 date: 11.05.2025
 content_type: howto
 category: integration
@@ -30,7 +30,7 @@ A formatter can, for example, convert an appointment start date value from the d
 ## Adjust value
 
 The Formatter in Zapier provides three transformation options for handling date and time values:
-    
+
 ![Add/Subtract Time -screenshot][img3]
 
 1. **Add/Subtract Time** – Manipulates a date or time value by adding or subtracting days, months, years, hours, minutes, or seconds.
@@ -38,11 +38,11 @@ The Formatter in Zapier provides three transformation options for handling date 
     ![Add/Subtract Time -screenshot][img4]
 
 1. **Compare Dates** – Calculates the duration between two dates in days, hours, minutes, and seconds, and determines whether the dates are identical.
-    
+
     ![Compare Dates -screenshot][img5]
 
 1. **Format** – Converts a date or time value into a different format or style.
-    
+
     ![Format -screenshot][img6]
 
 ## Related content

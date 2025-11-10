@@ -61,4 +61,3 @@ language: en
 [img4]: ../../media/sale-changed-action.png
 [img5]: ../../media/sale-changed-when-window.png
 [img6]: ../../media/sale-changed-output.png
-[img7]: ../../media/select-action.png

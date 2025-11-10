@@ -43,7 +43,6 @@ language: en
 
 1. If the above steps were configured correctly, the response should consist of **Appointment ID**, **Is Main**, **Company ID**, **Company Name**, **Contact ID**, **Contact Name**, **Owner ID**, **Owner**, **Project ID**, **Project Name**, **Sale ID**, **Sale Title**, **Updated By**, **Updated Date**, **Created By**, **Created Date**, **Start Date & Time**, **End Date & Time**, **Is All Day Event?**, **Location**, **Description**, **Priority**, **Visible For**, **Type**, **Type ID**, **Is Completed**, **Alarm Lead Time**, **Has Alarm**, **Is Free**, **Is Milestone** and **Self URL***.
 
-
     ![Zapier: Verify -screenshot][img6]
 
 ## Related content

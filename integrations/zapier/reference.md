@@ -3,7 +3,7 @@ uid: zapier-reference
 title: SuperOffice triggers and actions
 description: Overview of SuperOffice triggers and actions supported by Zapier. List of Zap templates.
 keywords: Zap trigger, Zap action, Zap template, Slack, Google Sheets, Google Drive, Dropbox, Trello, Asana, Eventbrite, SurveyMonkey, JotForm, Wufoo
-author: Philip Yates
+author: miguellemos95, PhilipYates
 date: 08.09.2023
 content_type: reference
 category: integration
@@ -35,7 +35,7 @@ Supported triggers and the events in SuperOffice CRM Online that cause them to b
 | [Company Changed][10] | A company in SuperOffice is updated. |
 | [Contact Changed][11] | A contact in SuperOffice is updated. |
 | [Document Changed][12] | A document in SuperOffice is updated. |
-| [Project Changed ][13]| A project in SuperOffice is updated. |
+| [Project Changed][13]| A project in SuperOffice is updated. |
 | [Project Member Changed][14] | A project member in SuperOffice is updated. |
 | [Sale Changed][15] | A sale in SuperOffice is updated (edited, sold, lost, completed). |
 
@@ -122,41 +122,41 @@ Zap templates are ready-made Zaps to use as-is or amend to fit a particular work
 * Add new leads from **Facebook Lead AS** (trigger) as new contacts in SuperOffice (action).
 
 <!-- Referenced links -->
-[1]: /integrations/zapier/howto/triggers/new/new-appointment.md
-[2]: /integrations/zapier/howto/triggers/new/new-company.md
-[3]: /integrations/zapier/howto/triggers/new/new-contact.md
-[4]: /integrations/zapier/howto/triggers/new/new-document.md
-[5]: /integrations/zapier/howto/triggers/new/new-project-member.md
-[6]: /integrations/zapier/howto/triggers/new/new-project.md
-[7]: /integrations/zapier/howto/triggers/new/new-request.md
-[8]: /integrations/zapier/howto/triggers/new/new-sale.md
-[9]: /integrations/zapier/howto/triggers/changed/appointment-changed.md
-[10]: /integrations/zapier/howto/triggers/changed/company-changed.md
-[11]: /integrations/zapier/howto/triggers/changed/contact-changed.md
-[12]: /integrations/zapier/howto/triggers/changed/document-changed.md
-[13]: /integrations/zapier/howto/triggers/changed/project-changed.md
-[14]: /integrations/zapier/howto/triggers/changed/project-member-changed.md
-[15]: /integrations/zapier/howto/triggers/changed/sale-changed.md
-[16]: /integrations/zapier/howto/actions/create/create-appointment.md
-[17]: /integrations/zapier/howto/actions/create/create-company.md
-[18]: /integrations/zapier/howto/actions/create/create-contact.md
-[19]: /integrations/zapier/howto/actions/create/create-document.md
-[20]: /integrations/zapier/howto/actions/create/create-project-member.md
-[21]: /integrations/zapier/howto/actions/create/create-project.md
-[22]: /integrations/zapier/howto/actions/create/create-request-message-attachment.md
-[23]: /integrations/zapier/howto/actions/create/create-request-message.md
-[24]: /integrations/zapier/howto/actions/create/create-request.md
-[25]: /integrations/zapier/howto/actions/create/create-sale.md
-[26]: /integrations/zapier/howto/actions/remove/remove-project-member.md
-[27]: /integrations/zapier/howto/actions/search/search-company.md
-[28]: /integrations/zapier/howto/actions/search/search-contact.md
-[29]: /integrations/zapier/howto/actions/search/search-project.md
-[30]: /integrations/zapier/howto/actions/search/search-request.md
-[31]: /integrations/zapier/howto/actions/search/search-sale.md
-[32]: /integrations/zapier/howto/actions/update/update-appointment.md
-[33]: /integrations/zapier/howto/actions/update/update-company.md
-[34]: /integrations/zapier/howto/actions/update/update-contact.md
-[35]: /integrations/zapier/howto/actions/update/update-document-content.md
-[36]: /integrations/zapier/howto/actions/update/update-project.md
-[37]: /integrations/zapier/howto/actions/update/update-request.md
-[38]: /integrations/zapier/howto/actions/update/update-sale.md
+[1]: howto/triggers/new/new-appointment.md
+[2]: howto/triggers/new/new-company.md
+[3]: howto/triggers/new/new-contact.md
+[4]: howto/triggers/new/new-document.md
+[5]: howto/triggers/new/new-project-member.md
+[6]: howto/triggers/new/new-project.md
+[7]: howto/triggers/new/new-request.md
+[8]: howto/triggers/new/new-sale.md
+[9]: howto/triggers/changed/appointment-changed.md
+[10]: howto/triggers/changed/company-changed.md
+[11]: howto/triggers/changed/contact-changed.md
+[12]: howto/triggers/changed/document-changed.md
+[13]: howto/triggers/changed/project-changed.md
+[14]: howto/triggers/changed/project-member-changed.md
+[15]: howto/triggers/changed/sale-changed.md
+[16]: howto/actions/create/create-appointment.md
+[17]: howto/actions/create/create-company.md
+[18]: howto/actions/create/create-contact.md
+[19]: howto/actions/create/create-document.md
+[20]: howto/actions/create/create-project-member.md
+[21]: howto/actions/create/create-project.md
+[22]: howto/actions/create/create-request-message-attachment.md
+[23]: howto/actions/create/create-request-message.md
+[24]: howto/actions/create/create-request.md
+[25]: howto/actions/create/create-sale.md
+[26]: howto/actions/remove/remove-project-member.md
+[27]: howto/actions/search/search-company.md
+[28]: howto/actions/search/search-contact.md
+[29]: howto/actions/search/search-project.md
+[30]: howto/actions/search/search-request.md
+[31]: howto/actions/search/search-sale.md
+[32]: howto/actions/update/update-appointment.md
+[33]: howto/actions/update/update-company.md
+[34]: howto/actions/update/update-contact.md
+[35]: howto/actions/update/update-document-content.md
+[36]: howto/actions/update/update-project.md
+[37]: howto/actions/update/update-request.md
+[38]: howto/actions/update/update-sale.md

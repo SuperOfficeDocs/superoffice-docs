@@ -3,7 +3,7 @@ uid: zapier-gdpr
 title: How to maintain GDPR configuration
 description: Guide to maintaining GDPR configuration in Zapier.
 keywords: GDPR in Zapier, GDPR consent fields, e-marketing automation
-author: Miguel Lemos
+author: miguellemos95
 date: 11.05.2025
 content_type: howto
 category: integration

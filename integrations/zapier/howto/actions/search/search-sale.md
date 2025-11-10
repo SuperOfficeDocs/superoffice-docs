@@ -40,7 +40,7 @@ language: en
 1. Choose your **Search Criteria** from the available options.
 
     ![Choose your search criteria -screenshot][img6]
-    
+
 1. Set your **Search Value**.
 
     ![Set your search value -screenshot][img7]

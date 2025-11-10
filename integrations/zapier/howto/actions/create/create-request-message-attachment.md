@@ -32,7 +32,7 @@ language: en
 1. A side menu will open, in the **Action event** section, select **Create Request Message Attachment**, then click the **Account** section and login using a SuperOffice account.
 
     ![Set up your action -screenshot][img4]
-    
+
 1. **Important** to note that this step must be performed **after** the **Create Request Message Action**.
 
     ![Set up your action -screenshot][img5]
