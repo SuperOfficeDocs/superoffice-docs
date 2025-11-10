@@ -67,12 +67,8 @@ OK
 
 ## Sample request
 
-![sample request][1]
+[!include[Sample request](../../samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md)]
 
 ## Sample response
 
-![sample response][2]
-
-<!-- Reference links -->
-[1]: https://github.com/SuperOfficeDocs/api-reference/blob/master/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md
-[2]: https://github.com/SuperOfficeDocs/api-reference/blob/master/samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md
+[!include[Sample response](../../samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md)]

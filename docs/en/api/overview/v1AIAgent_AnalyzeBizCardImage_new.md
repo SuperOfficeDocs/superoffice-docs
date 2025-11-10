@@ -67,11 +67,8 @@ OK
 
 ## Sample request
 
-[!include[Sample request](../../../../../api-reference/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md)]
+[!include[Sample response](../reference/restful/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md)]
 
 ## Sample response
 
-[!include[Sample response](../../../../../api-reference/samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md)]
-
-<!-- Reference links (CANNOT BE INCLUDES) -->
-
+[!include[Sample response](../reference/restful/samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md)]
