@@ -11,6 +11,7 @@ category: integration
 topic: Zapier
 platform: Zapier
 language: en
+redirect_from: /integrations/zapier/howto/update-project
 ---
 
 # Update SuperOffice CRM Project action

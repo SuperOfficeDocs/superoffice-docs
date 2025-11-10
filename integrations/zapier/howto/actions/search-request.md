@@ -11,6 +11,7 @@ category: integration
 topic: Zapier
 platform: Zapier
 language: en
+redirect_from: /integrations/zapier/howto/find-request
 ---
 
 # Find a SuperOffice CRM Request action

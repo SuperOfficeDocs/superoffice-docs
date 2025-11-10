@@ -11,6 +11,7 @@ category: integration
 topic: Zapier
 platform: Zapier
 language: en
+redirect_from: /integrations/zapier/howto/appointment-updated-action
 ---
 
 # Update a SuperOffice CRM Appointment action

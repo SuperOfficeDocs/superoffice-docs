@@ -11,6 +11,7 @@ category: integration
 topic: Zapier
 platform: Zapier
 language: en
+redirect_from: /integrations/zapier/howto/project-member-changed
 ---
 
 # Create a SuperOffice CRM Project Member changed trigger
