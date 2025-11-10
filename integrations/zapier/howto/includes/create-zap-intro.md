@@ -4,4 +4,4 @@
     ![Zapier: Create a new Zap -screenshot][img1]
 
 <!-- Referenced images -->
-[img1]: ../includes/media/create-zap.png
+[img1]: ../media/create-zap.png

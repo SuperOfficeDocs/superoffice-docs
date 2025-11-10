@@ -29,7 +29,7 @@ There will always be a risk of creating duplicates of companies and contacts. To
 * [How to maintain GDPR configuration][4]
 
 <!-- Referenced links -->
-[1]: find-company.md
+[1]: actions/search-company.md
 [2]: listsource.md
 [3]: datetime.md
 [4]: gdpr.md

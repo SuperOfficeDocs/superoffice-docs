@@ -1,0 +1,58 @@
+﻿---
+uid: zapier-new-sale-trigger
+title: Set SuperOffice CRM new Sale trigger
+description: How to use SuperOffice new sale trigger with Zapier
+keywords: New sale, new Zap, Zapier new trigger
+author: miguellemos95
+date: 11.03.2025
+content_type: howto
+functional_right: general administrator
+category: integration
+topic: Zapier
+platform: Zapier
+language: en
+---
+
+# Create a SuperOffice CRM new Sale trigger
+
+[!include[note](../includes/note.md)]
+
+## Steps
+
+[!include[create zap step](../includes/create-zap-intro.md)]
+
+1. Click **Trigger** step to open a window for selecting the application to use.
+
+    ![Zapier: Create your trigger -screenshot][img2]
+
+[!include[search for so](includes/search-for-so.md)]
+
+1. A side menu will open, in the **Trigger event** section, select **New Sale**, then click the **Account** section and login using a SuperOffice account.
+
+    ![Set up your trigger -screenshot][img4]
+
+1. [!include[test](includes/test.md)]
+
+    ![Test your trigger -screenshot][img5]
+
+1. [!include[action](includes/action.md)]
+
+1. If the above steps were configured correctly, the action you chosen should be executed properly when the **Trigger event New Sale** is executed in SuperOffice CRM.
+
+## Related content
+
+* [Create Sale Action][1]
+* [Update Sale Action][2]
+* [Sale Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
+
+<!-- Referenced links -->
+[1]: ../actions/create-sale.md
+[2]: ../actions/update-sale.md
+[3]: sale-changed.md
+[4]: ../../get-started/create-zap.md
+
+<!-- Referenced images -->
+[img2]: ../media/new-zap-window.png
+[img4]: ../media/new-sale-action.png
+[img5]: ../media/new-sale-output.png

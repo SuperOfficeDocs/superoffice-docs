@@ -19,86 +19,86 @@ items:
     href: howto/datetime.md
 
   - name: Create appointment action
-    href: howto/actions/create/create-appointment.md
+    href: howto/actions/create-appointment.md
   - name: Create company action
-    href: howto/actions/create/create-company.md
+    href: howto/actions/create-company.md
   - name: Create contact action
-    href: howto/actions/create/create-contact.md
+    href: howto/actions/create-contact.md
   - name: Create document action
-    href: howto/actions/create/create-document.md
+    href: howto/actions/create-document.md
   - name: Create project member action
-    href: howto/actions/create/create-project-member.md
+    href: howto/actions/create-project-member.md
   - name: Create project action
-    href: howto/actions/create/create-project.md
+    href: howto/actions/create-project.md
   - name: Create request message attachment action
-    href: howto/actions/create/create-request-message-attachment.md
+    href: howto/actions/create-request-message-attachment.md
   - name: Create request message action
-    href: howto/actions/create/create-request-message.md
+    href: howto/actions/create-request-message.md
   - name: Create request action
-    href: howto/actions/create/create-request.md
+    href: howto/actions/create-request.md
   - name: Create sale action
-    href: howto/actions/create/create-sale.md
+    href: howto/actions/create-sale.md
     
   - name: Remove project member action
-    href: howto/actions/remove/remove-project-member.md
+    href: howto/actions/remove-project-member.md
 
   - name: Find company action
-    href: howto/actions/search/search-company.md
+    href: howto/actions/search-company.md
   - name: Find contact action
-    href: howto/actions/search/search-contact.md
+    href: howto/actions/search-contact.md
   - name: Find project action
-    href: howto/actions/search/search-project.md
+    href: howto/actions/search-project.md
   - name: Find request action
-    href: howto/actions/search/search-request.md
+    href: howto/actions/search-request.md
   - name: Find sale action
-    href: howto/actions/search/search-sale.md
+    href: howto/actions/search-sale.md
 
   - name: Update appointment action
-    href: howto/actions/update/update-appointment.md
+    href: howto/actions/update-appointment.md
   - name: Update company action
-    href: howto/actions/update/update-company.md
+    href: howto/actions/update-company.md
   - name: Update contact action
-    href: howto/actions/update/update-contact.md
+    href: howto/actions/update-contact.md
   - name: Update document content action
-    href: howto/actions/update/update-document-content.md
+    href: howto/actions/update-document-content.md
   - name: Update project action
-    href: howto/actions/update/update-project.md
+    href: howto/actions/update-project.md
   - name: Update request action
-    href: howto/actions/update/update-request.md
+    href: howto/actions/update-request.md
   - name: Update sale action
-    href: howto/actions/update/update-sale.md
-    
+    href: howto/actions/update-sale.md
+
   - name: Appointment changed trigger
-    href: howto/triggers/changed/appointment-changed.md
+    href: howto/triggers/appointment-changed.md
   - name: Company changed trigger
-    href: howto/triggers/changed/company-changed.md
+    href: howto/triggers/company-changed.md
   - name: Contact changed trigger
-    href: howto/triggers/changed/contact-changed.md
+    href: howto/triggers/contact-changed.md
   - name: Document changed trigger
-    href: howto/triggers/changed/document-changed.md
+    href: howto/triggers/document-changed.md
   - name: Project changed trigger
-    href: howto/triggers/changed/project-changed.md
+    href: howto/triggers/project-changed.md
   - name: Project member changed trigger
-    href: howto/triggers/changed/project-member-changed.md
+    href: howto/triggers/project-member-changed.md
   - name: Sale changed trigger
-    href: howto/triggers/changed/sale-changed.md
-    
+    href: howto/triggers/sale-changed.md
+
   - name: New appointment trigger
-    href: howto/triggers/new/new-appointment.md
+    href: howto/triggers/new-appointment.md
   - name: New company trigger
-    href: howto/triggers/new/new-company.md
+    href: howto/triggers/new-company.md
   - name: New contact trigger
-    href: howto/triggers/new/new-contact.md
+    href: howto/triggers/new-contact.md
   - name: New document trigger
-    href: howto/triggers/new/new-document.md
+    href: howto/triggers/new-document.md
   - name: New project member trigger
-    href: howto/triggers/new/project-member.md
+    href: howto/triggers/new-project-member.md
   - name: New project trigger
-    href: howto/triggers/new/new-project.md
+    href: howto/triggers/new-project.md
   - name: New request trigger
-    href: howto/triggers/new/new-request.md
+    href: howto/triggers/new-request.md
   - name: New sale trigger
-    href: howto/triggers/new/new-sale.md
+    href: howto/triggers/new-sale.md
 
 - name: Triggers, actions, templates
   href: reference.md
