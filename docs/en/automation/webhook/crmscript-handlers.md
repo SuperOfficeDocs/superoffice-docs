@@ -53,7 +53,8 @@ webhook.SetEvents(events);
 webhook.SetName("CRMScript webhook handler");
 webhook.SetType("crmscript");
 webhook.SetTargetUrl(targetCrmScript);
-webhook.SetState(1)                      // Set it as active!
+webhook.SetErrorsEmail("username@domain.com");
+webhook.SetState(1);                      // Set it as active!
 
 webhook = webhookAgent.SaveWebhook(webhook);
 
