@@ -141,11 +141,11 @@ All other steps on this page are identical for every event.
 
 * In the **Trigger event** section, select **Project Member Changed**.
 
-    <!-- ![Zapier setup window showing the Project Member Changed trigger option -screenshot][img13] -->
+    ![Zapier setup window showing the Project Member Changed trigger option -screenshot][img13]
 
 * Verify the trigger:
 
-    <!-- ![Zapier test window showing successful trigger verification -screenshot][img14] -->
+    ![Zapier test window showing successful trigger verification -screenshot][img14]
 
 * When the **Project Member Changed** trigger runs in SuperOffice CRM, the chosen action executes automatically.
 
@@ -208,5 +208,7 @@ All other steps on this page are identical for every event.
 [img10]: media/document-changed-output.png
 [img11]: media/project-changed-action.png
 [img12]: media/project-changed-output.png
+[img13]: media/project-changed-action.png
+[img14]: media/project-member-changed-output.png
 [img15]: media/sale-changed-action.png
 [img16]: media/sale-changed-output.png
