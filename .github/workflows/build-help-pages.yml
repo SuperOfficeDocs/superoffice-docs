@@ -41,9 +41,6 @@ jobs:
         run: |
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
-          cd build-docs
-          # Initialize and update submodules
-          git submodule update --init --recursive
       - name: Build Documentation
         uses: nikeee/docfx-action@master
         with:
