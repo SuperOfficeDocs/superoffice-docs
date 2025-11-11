@@ -19,8 +19,6 @@ content_type: reference
 
 * [POST Agents/AI/AnalyzeBizCardImage](v1AIAgent_AnalyzeBizCardImage.md)
 
-* [POST Agents/AI/AnalyzeBizCardImage_new](v1AIAgent_AnalyzeBizCardImage_new.md)
-
 * [POST Agents/AI/AnalyzeBizCardText](v1AIAgent_AnalyzeBizCardText.md)
 
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
