@@ -1,0 +1,6 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: For admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/set-up.md
