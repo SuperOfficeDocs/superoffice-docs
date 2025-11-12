@@ -1,5 +1,7 @@
 items:
 - name: Firmakategori og kategorigruppe
   href: add-company-category.md
+- name: Administrér lead-statuser
+  href: add-lead-status.md
 - name: Opsæt lead-status
   href: set-up.md

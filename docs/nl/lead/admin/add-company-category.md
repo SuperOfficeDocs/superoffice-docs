@@ -81,5 +81,5 @@ Categoriegroepen boden een manier om categorieën in te delen naar doel en ongew
 
 [1]: set-up.md
 [2]: ../learn/index.md
-[3]: lead-status-list.md
+[3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

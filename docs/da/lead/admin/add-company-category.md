@@ -81,5 +81,5 @@ Kategorigrupper gav en måde at klassificere kategorier efter formål og forhind
 
 [1]: set-up.md
 [2]: ../learn/index.md
-[3]: lead-status-list.md
+[3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

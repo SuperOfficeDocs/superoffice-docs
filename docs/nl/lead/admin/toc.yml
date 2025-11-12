@@ -1,5 +1,7 @@
 items:
 - name: Bedrijfscategorie en categoriegroep
   href: add-company-category.md
-- name: Leadstatus instellen
+- name: Lead-statussen beheren
+  href: add-lead-status.md
+- name: Lead-status instellen
   href: set-up.md
