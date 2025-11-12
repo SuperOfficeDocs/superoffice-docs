@@ -1,3 +1,5 @@
 items:
+- name: Company category and category group
+  href: add-company-category.md
 - name: Set up lead status
   href: set-up.md

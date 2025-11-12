@@ -4,8 +4,8 @@ title: Gespecialiseerde lijsten
 description: Gespecialiseerde lijsten
 keywords: gespecialiseerde lijst, Algemeen - Relatie, Algemeen - Land
 author: digitaldiina
-date: 10.29.2025
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -26,6 +26,7 @@ De stappen voor het toevoegen of bewerken van items zijn grotendeels hetzelfde a
 
 ## Beschikbare gespecialiseerde lijsten
 
+* [Bedrijf - Categorie][20]
 * [Document - Sjabloon][1]
 * [E-mail - Sjabloon][2]
 * [Vervolgactiviteit - Type][3]
@@ -110,4 +111,5 @@ Het sectietabblad **Relaties** in het scherm Bedrijf geeft alle bestaande verbin
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
+[20]: ../../lead/admin/add-company-category.md
 [21]: add-items.md

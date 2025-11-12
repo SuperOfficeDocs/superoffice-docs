@@ -4,8 +4,8 @@ title: Specialiserade listor
 description: Specialiserade listor
 keywords: specialiserad lista, Allmänt – Relation, Allmänt – Land
 author: digitaldiina
-date: 10.29.2025
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: reference
 audience: settings
 audience_tooltip: Inställningar och underhåll
@@ -26,6 +26,7 @@ Stegen för att lägga till eller redigera poster är i stort sett desamma som f
 
 ## Tillgängliga specialiserade listor
 
+* [Företag – Kategori][20]
 * [Dokument – Mall][1]
 * [E-post – Mall][2]
 * [Händelse – Typ][3]
@@ -108,4 +109,5 @@ På flera ställen i SuperOffice CRM kan du välja ett land från en lista. Län
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
+[20]: ../../lead/admin/add-company-category.md
 [21]: add-items.md

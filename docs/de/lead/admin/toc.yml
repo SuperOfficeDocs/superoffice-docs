@@ -1,3 +1,5 @@
 items:
+- name: Firmakategorie und Kategoriegruppe
+  href: add-company-category.md
 - name: Lead-Status einrichten
   href: set-up.md

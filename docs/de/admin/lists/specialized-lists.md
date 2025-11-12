@@ -4,8 +4,8 @@ title: Speziallisten
 description: Speziallisten
 keywords: spezialliste, Allgemein - Beziehung, Allgemein - Land
 author: digitaldiina
-date: 10.29.2025
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: reference
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
@@ -26,6 +26,7 @@ Die Schritte zum Hinzufügen oder Bearbeiten von Objekten sind weitgehend identi
 
 ## Verfügbare Speziallisten
 
+* [Firma - Kategorie][20]
 * [Dokument - Vorlage][1]
 * [E-Mail - Vorlage][2]
 * [Folgeaufgabe - Typ][3]
@@ -108,4 +109,5 @@ Die [Detailkarte **Beziehungen**][4] im Firmen‑ oder Persontbild zeigt bestehe
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
+[20]: ../../lead/admin/add-company-category.md
 [21]: add-items.md
