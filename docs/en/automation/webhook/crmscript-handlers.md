@@ -53,7 +53,8 @@ webhook.SetEvents(events);
 webhook.SetName("CRMScript webhook handler");
 webhook.SetType("crmscript");
 webhook.SetTargetUrl(targetCrmScript);
-webhook.SetState(1)                      // Set it as active!
+webhook.SetErrorsEmail("username@domain.com");
+webhook.SetState(1);                      // Set it as active!
 
 webhook = webhookAgent.SaveWebhook(webhook);
 
@@ -131,6 +132,7 @@ for(Integer i = 0; i < webhooks.length(); i++) {
   printLine("Updated By: " + webhooks[i].GetUpdatedAssociate().GetName());
   printLine("Updated Date: " + webhooks[i].GetUpdated().toString());
   printLine("Type: " + webhooks[i].GetType());
+  printLine("ErrorsEmail: " + webhooks[i].GetErrorsEmail());
   printLine("Events:");
   String[] events = webhooks[i].GetEvents();
   for(Integer i = 0; i < events.length(); i++) {
