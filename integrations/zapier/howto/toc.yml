@@ -1,0 +1,65 @@
+items:
+- name: Working with Zaps
+  href: index.md
+- name: Set GDPR fields
+  href: gdpr.md
+- name: Handle SuperOffice list values
+  href: listsource.md
+- name: Format date and time
+  href: datetime.md
+- name: Actions
+  href: actions/index.md
+  items:
+  - name: Create appointment
+    href: actions/create-appointment.md
+  - name: Create company
+    href: actions/create-company.md
+  - name: Create contact
+    href: actions/create-contact.md
+  - name: Create document
+    href: actions/create-document.md
+  - name: Create project member
+    href: actions/create-project-member.md
+  - name: Create project
+    href: actions/create-project.md
+  - name: Create request message attachment
+    href: actions/create-request-message-attachment.md
+  - name: Create request message
+    href: actions/create-request-message.md
+  - name: Create request
+    href: actions/create-request.md
+  - name: Create sale
+    href: actions/create-sale.md
+  - name: Remove project member
+    href: actions/remove-project-member.md
+  - name: Find company
+    href: actions/search-company.md
+  - name: Find contact
+    href: actions/search-contact.md
+  - name: Find project
+    href: actions/search-project.md
+  - name: Find request
+    href: actions/search-request.md
+  - name: Find sale
+    href: actions/search-sale.md
+  - name: Update appointment
+    href: actions/update-appointment.md
+  - name: Update company
+    href: actions/update-company.md
+  - name: Update contact
+    href: actions/update-contact.md
+  - name: Update document content
+    href: actions/update-document-content.md
+  - name: Update project
+    href: actions/update-project.md
+  - name: Update request
+    href: actions/update-request.md
+  - name: Update sale
+    href: actions/update-sale.md
+- name: Triggers
+  topicHref: triggers/new.md
+  items:
+  - name: New record
+    href: triggers/new.md
+  - name: Record changed
+    href: triggers/changed.md

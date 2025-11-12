@@ -3,7 +3,7 @@ uid: zapier
 title: Zapier
 description: Introduction to Zapier.
 keywords: Zapier, automation, Zap, workflow
-author: Philip Yates
+author: PhilipYates
 date: 08.09.2023
 content_type: concept
 category: integration
@@ -24,7 +24,7 @@ It enables you to create automated workflows, known as **Zaps**, that connect di
 
 ## Related content
 
-* [How to connect your SuperOffice account to Zapier][2]
+* [How to connect a SuperOffice account to Zapier][2]
 * [Create a Zap with SuperOffice CRM][3]
 * [Available triggers, actions, and pre-defined Zaps][1]
 

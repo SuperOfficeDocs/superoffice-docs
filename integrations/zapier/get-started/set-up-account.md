@@ -1,10 +1,10 @@
 ﻿---
 uid: zapier-set-up
 title: Connect account
-description: How to connect your SuperOffice account with Zapier
+description: How to connect a SuperOffice account with Zapier
 keywords: Connect SuperOffice to Zapier, Connect an Account
-author: Philip Yates
-date: 08.09.2023
+author: PhilipYates, miguellemos95
+date: 11.06.2025
 content_type: howto
 category: integration
 topic: Zapier
@@ -13,36 +13,30 @@ language: en
 redirect_from: /en/automation/zapier/get-started/set-up-account
 ---
 
-# Connect your SuperOffice account with Zapier
+# Connect a SuperOffice account with Zapier
 
-> [!NOTE]
-> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
+[!include[Requirement](../includes/note-req-general-admin.md)]
 
 ## Steps
 
-1. Go to your Zapier dashboard.
+1. Open the Zapier dashboard.
 
-1. Click the **Connect an Account** button.
+1. Select **Connect an Account**.
 
     ![Zapier: Select SuperOffice CRM Account -screenshot][img1]
 
-1. Select the SuperOffice tenant you want to connect to.
+1. Choose the SuperOffice tenant to connect.
 
-1. Sign in to your SuperOffice account.
+1. If logged in to a SuperOffice account, the process will continue through single sign-on (SSO).
 
     ![SuperOffice Zapier Integration -screenshot][img2]
 
-1. Click **I approve** to allow Zapier to access your SuperOffice Online tenant.
+1. Verify that the connection is successful by selecting **Test**.
 
-    ![Connect Zapier to SuperOffice -screenshot][img3]
+    ![Zapier: verify connection -screenshot][img3]
 
-1. Check that the connection is ok by clicking **Test**.
+1. Select **Save + Continue** to proceed.
 
-    ![Zapier: verify connection -screenshot][img4]
-
-1. Click **Save + Continue** when you are ready to continue.
-
-[img1]: media/choose-account.png
-[img2]: media/superoffice-login.png
-[img3]: media/zapier-approval.png
-[img4]: media/choose-account2.png
+[img1]: media/choose-account-to-connect.png
+[img2]: media/so-authentication-window.png
+[img3]: media/test-connection.png
