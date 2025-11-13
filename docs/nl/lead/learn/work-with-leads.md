@@ -106,6 +106,10 @@ Dynamische selecties van bedrijven of personen kunnen ook worden geopend in de [
 
     Dat is zoals verwacht: nieuwe leads starten altijd met *Open*.
 
+* **Ik kan de categorie van een persoon niet wijzigen.**
+
+    Personen erven de categorie van hun bedrijf. Om deze te wijzigen, werk je de categorie bij op het bedrijfsrecord.
+
 ## Gerelateerde inhoud
 
 * [Overzicht leadbeheer][1]

@@ -109,6 +109,10 @@ Dynamic selections of companies or contacts can also be opened in [Board view][6
 
     This is expected. New leads always start with the *Open* status.
 
+* **I cannot change the category on a contact.**
+
+    Contacts inherit the category from their company. To change it, update the category on the company record.
+
 ## Related content
 
 * [Lead management overview][1]

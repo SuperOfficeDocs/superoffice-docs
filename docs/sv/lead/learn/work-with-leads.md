@@ -102,14 +102,18 @@ Dynamiska urval av företag eller kontakter kan också öppnas i [Tavlevy][6] f�
 
     Leadstatus lagras på kontaktnivå.
 
-* **En kontakt får alltid Leadstatus = Öppen när den flyttas in i en kategori för potentiella kunder.**
+* **En kontakt får alltid Leadstatus = Öppen när den flyttas till en kategori för potentiella kunder.**
 
-    Detta är förväntat. Nya leads börjar alltid med *Öppen*.
+    Detta är förväntat. Nya leads börjar alltid med statusen *Öppen*.
+
+* **Jag kan inte ändra kategorin på en kontakt.**
+
+    Kontakter ärver kategorin från sitt företag. För att ändra den, uppdatera kategorin på företagskortet.
 
 ## Relaterat innehåll
 
 * [Översikt över leadhantering][1]
-* [Använd instrumentpaneler för att följa upp leads][4]
+* [Använd dashboards för att följa upp leads][4]
 * [Massuppdatera kontaktinformation][9]
 
 <!-- Referenced links -->

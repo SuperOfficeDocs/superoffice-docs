@@ -106,6 +106,10 @@ Dynamische Selektionen von Firmen oder Personen können außerdem in der [Board-
 
     Das ist erwartetes Verhalten. Neue Leads beginnen immer mit *Offen*.
 
+* **Ich kann die Kategorie einer Person nicht ändern.**
+
+    Personen erben die Kategorie von ihrer Firma. Um sie zu ändern, aktualisieren Sie die Kategorie auf dem Firmenbild.
+
 ## Verwandte Inhalte
 
 * [Übersicht Lead-Management][1]

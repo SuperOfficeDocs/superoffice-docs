@@ -106,6 +106,10 @@ Dynamiske udvalg af firmaer eller personer kan også åbnes i [Tavlevisning][6] 
 
     Dette er forventet. Nye leads starter altid med *Åben*.
 
+* **Jeg kan ikke ændre kategorien på en person.**
+
+    Personer arver kategorien fra deres firma. For at ændre den skal du opdatere kategorien på firmakortet.
+
 ## Relateret indhold
 
 * [Oversigt over leadhåndtering][1]

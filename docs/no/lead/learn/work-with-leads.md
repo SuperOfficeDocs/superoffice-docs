@@ -102,9 +102,13 @@ Dynamiske utvalg av firmaer eller personer kan også åpnes i [Tavlevisning][6] 
 
     Leadstatus lagres på personnivå. En person kan være diskvalifisert mens en annen fortsatt er i et tidlig stadium.
 
-* **En person får alltid Leadstatus = Åpen når den flyttes inn i en kategori for potensielle kunder.**
+* **En person får alltid Leadstatus = Åpen når den flyttes til en kategori for potensielle kunder.**
 
     Dette er forventet. Nye leads starter alltid med statusen *Åpen*.
+
+* **Jeg kan ikke endre kategorien på en person.**
+
+    Personer arver kategorien fra firmaet sitt. For å endre den, oppdater kategorien på firmakortet.
 
 ## Relatert innhold
 

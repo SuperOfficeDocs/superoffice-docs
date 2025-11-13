@@ -22,7 +22,7 @@ Leadhantering hjälper dig att förstå var potentiella kunder befinner sig i si
 
 Genom att använda kategorier och leadstatus konsekvent kan du se vilka leads som behöver uppmärksamhet nu, vilka som ska vårdas och vilka som är redo att gå vidare i säljprocessen.
 
-Leadinformation visas direkt på företags- och kontaktkort, i kontakterflikarna, i urval och i dashboards, vilket gör det enkelt att prioritera nästa steg.
+Leadinformation visas direkt på företags- och kontaktkort, i detaljkortet **Kontakter**, i urval och i dashboards, vilket gör det enkelt att prioritera nästa steg.
 
 ## Leadlivscykel
 
@@ -94,7 +94,7 @@ Leadinformation visas på flera platser i SuperOffice CRM, vilket gör det enkel
 
 * **Företagskort:** Företagets **Kategori** avgör om kontakter under det företaget kan visa leadstatus.
 
-* **Kontakterfliken:** Du kan lägga till kolumnerna **Leadstatus**, **Kategori** och **Kategorigrupp** för att sortera, filtrera eller gruppera kontakter baserat på deras leadstadium.
+* **Detaljkortet Kontakter:** Du kan lägga till kolumnerna **Leadstatus**, **Kategori** och **Kategorigrupp** för att sortera, filtrera eller gruppera kontakter baserat på deras leadstadium.
 
     ![Leadstatus i företagsskärmen. -screenshot][img1]
 
