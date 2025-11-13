@@ -7,8 +7,6 @@ items:
     href: overview/netserver.md
   - name: Quick-start
     href: overview/quickstart.md
-  - name: DummyItem
-    href: overview/v1AIAgent_AnalyzeBizCardImage_new.md
   - name: Authentication
     href: authentication/index.yml
     items:
