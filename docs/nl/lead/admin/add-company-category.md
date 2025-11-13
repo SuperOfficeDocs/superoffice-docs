@@ -79,7 +79,7 @@ Categoriegroepen boden een manier om categorieën in te delen naar doel en ongew
 * [Lead-statussen beheren][3]
 * [Gebruikersgroepfiltering][4]
 
-[1]: set-up.md
+[1]: index.md
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

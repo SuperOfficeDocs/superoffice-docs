@@ -98,7 +98,7 @@ Category groups provide a way to classify categories by purpose and prevent unwa
 * [Manage lead statuses][3]
 * [User group filtering][4]
 
-[1]: set-up.md
+[1]: index.md
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

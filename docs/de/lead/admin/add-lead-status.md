@@ -76,6 +76,6 @@ Gruppierung und Filterung nach Benutzergruppe sind für diese Liste nicht verfü
 * [Firmenkategorie und Kategoriengruppe][2]
 * [Übersicht über Lead-Management][3]
 
-[1]: set-up.md
+[1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md

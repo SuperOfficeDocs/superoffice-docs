@@ -79,7 +79,7 @@ Kategorigrupper gav ett sätt att klassificera kategorier efter syfte och förhi
 * [Hantera lead-statuser][3]
 * [Användargruppfiltrering][4]
 
-[1]: set-up.md
+[1]: index.md
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

@@ -79,7 +79,7 @@ Kategoriengruppen boten eine Möglichkeit, Kategorien nach Zweck zu klassifizier
 * [Lead-Status verwalten][3]
 * [Benutzergruppenfilterung][4]
 
-[1]: set-up.md
+[1]: index.md
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md

@@ -76,6 +76,6 @@ Groeperen en filteren op gebruikersgroep is niet beschikbaar voor deze lijst.
 * [Bedrijfscategorie en categoriegroep][2]
 * [Overzicht van leadbeheer][3]
 
-[1]: set-up.md
+[1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md

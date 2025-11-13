@@ -76,6 +76,6 @@ Grouping and filtering by user group are not available for this list.
 * [Company category and category group][2]
 * [Lead management overview][3]
 
-[1]: set-up.md
+[1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md

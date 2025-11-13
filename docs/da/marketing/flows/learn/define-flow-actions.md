@@ -112,7 +112,7 @@ Personen fjernes som medlem fra det specificerede udvalg og/eller projekt.
 
 Dette trin ligner **Tilføj til udvalg og/eller projekt**.
 
-### Distribuer til ejer
+### <a id="distribute"></a>Distribuer til ejer
 
 Fordel kontakter ligeligt mellem valgte medarbejdere eller medlemmer af en angivet gruppe. Velegnet til at dele leads eller nye kontakter i et team.
 

@@ -76,6 +76,6 @@ Gruppering och filtrering efter användargrupp är inte tillgängligt för denna
 * [Företagskategori och kategorigrupp][2]
 * [Översikt över leadhantering][3]
 
-[1]: set-up.md
+[1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md

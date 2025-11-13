@@ -12,9 +12,7 @@ topic: lead
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
-redirect_from:
-  - /sv/lead/index
-  - /sv/lead/admin/index
+redirect_from: /sv/lead/index
 language: sv
 ---
 
