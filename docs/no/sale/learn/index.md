@@ -102,6 +102,7 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 * [Opprett et tilbud][1]
 * [Arbeid med salgsguider][6]
 * [Arbeid med salgsprognoser][7]
+* [Leadhåndtering][8]
 * [Skriv ut informasjon om et salg][11]
 
 <!-- Refererte lenker -->
@@ -112,6 +113,7 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 [5]: stakeholders/create.md
 [6]: tutorial.md
 [7]: sales-targets/index.md
+[8]: ../../lead/learn/index.md
 [21]: forecasting.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md

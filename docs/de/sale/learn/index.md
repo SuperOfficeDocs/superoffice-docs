@@ -103,11 +103,13 @@ Weitere Details zur Einrichtung von Verkaufschancen finden Sie im [Leitfaden zur
 * [Angebot erstellen][1]
 * [Mit Verkaufsleitfäden arbeiten][6]
 * [Mit Verkaufszielen arbeiten][7]
+* [Lead-Management][8]
 * [Informationen über einen Verkauf drucken][11]
 
 <!-- Referenced links -->
 [1]: quote/create.md
 [3]: ../../learn/section-tabs/index.md
+[8]: ../../lead/learn/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md

@@ -158,6 +158,7 @@ Verwenden Sie den UTM-Builder für SuperOffice-Formulare, um Kampagnenlinks mit 
 * [UTM-Tracking für Formularübermittlungen aktivieren][3] in Einstellungen und Verwaltung
 * [UTM-Builder für SuperOffice-Formulare][2]
 * [Lead-Dashboards und Berichte][5]
+* [Lead-Management][8]
 
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
@@ -165,6 +166,7 @@ Verwenden Sie den UTM-Builder für SuperOffice-Formulare, um Kampagnenlinks mit 
 [5]: ../../../dashboard/learn/show-marketing.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
+[8]: ../../../lead/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png

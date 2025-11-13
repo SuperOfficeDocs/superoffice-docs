@@ -158,6 +158,7 @@ Brug UTM-builderen til SuperOffice-formularer til at oprette kampagnelinks med e
 * [Aktivér UTM-sporing for formularindsendelser][3] i Indstillinger og vedligeholdelse
 * [UTM-builder til SuperOffice-formularer][2]
 * [Lead-dashboards og rapporter][5]
+* [Lead-håndtering][8]
 
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
@@ -165,6 +166,7 @@ Brug UTM-builderen til SuperOffice-formularer til at oprette kampagnelinks med e
 [5]: ../../../dashboard/learn/show-marketing.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
+[8]: ../../../lead/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png

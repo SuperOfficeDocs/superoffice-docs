@@ -104,11 +104,13 @@ Läs mer om hur du kan förbättra din försäljningsplanering i [guiden till f�
 * [Skapa en offert][1]
 * [Arbeta med säljguider][6]
 * [Arbeta med försäljningsmål][7]
+* [Leadhantering][8]
 * [Skriva ut försäljningsinformation][11]
 
 <!-- Referenced links -->
 [1]: quote/create.md
 [3]: ../../learn/section-tabs/index.md
+[8]: ../../lead/learn/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md

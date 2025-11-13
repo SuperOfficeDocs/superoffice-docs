@@ -158,6 +158,7 @@ Bruk UTM-byggeren for SuperOffice-skjemaer for å opprette kampanjekoblinger med
 * [Aktiver UTM-sporing for skjemainnsendinger][3] i Innstillinger og vedlikehold
 * [UTM-bygger for SuperOffice-skjemaer][2]
 * [Lead-dashbord og rapporter][5]
+* [Leadhåndtering][8]
 
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
@@ -165,6 +166,7 @@ Bruk UTM-byggeren for SuperOffice-skjemaer for å opprette kampanjekoblinger med
 [5]: ../../../dashboard/learn/show-marketing.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
+[8]: ../../../lead/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png
