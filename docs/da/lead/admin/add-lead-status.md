@@ -4,8 +4,8 @@ title: Administrér leadstatusser
 description: Tilføj, rediger eller fjern leadstatusser for at spore fremskridtet i kvalificeringsprocessen.
 keywords: leadstatus, leadkvalificering, diskvalificeret, kvalificeret, potentiel kunde, liste
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: howto
 category: sale
 topic: lead
@@ -40,9 +40,11 @@ Gruppering og filtrering efter brugergruppe er ikke tilgængelig for denne liste
 
 1. Klik **OK** for at gemme eller **Annullér** for at kassere ændringerne.
 
+![Dialogen Rediger listeelement i listen Person – Leadstatus -screenshot][img1]
+
 ## Redigér eller slet leadstatusser
 
-> [!CAUTION]
+> [!NOTE]
 > Gennemgå brugen af statusser grundigt, før du foretager ændringer.
 > Sletning eller ændring af statusser, der er i brug, kan føre til inkonsekvente data.
 > Statussen **Åben** er standard for nye leads og bør ikke slettes.
@@ -76,6 +78,10 @@ Gruppering og filtrering efter brugergruppe er ikke tilgængelig for denne liste
 * [Firmakategori og kategorigruppe][2]
 * [Oversigt over leadhåndtering][3]
 
+<!-- Referenced links -->
 [1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/add-lead-status.png

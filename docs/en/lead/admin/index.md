@@ -5,7 +5,7 @@ description: Learn how to enable, configure, and extend lead management in Super
 keywords: lead management, lead setup, lead status, potential customer, sales process
 author: digitaldiina
 date: 12.11.2025
-version: 10.6
+version: 11.6
 content_type: overview
 category: sale
 topic: lead
@@ -34,6 +34,8 @@ Lead status can only be used for categories that belong to the **Potential custo
 1. Select **Enable lead status for this category**.
 1. Click **OK** to save your changes.
 
+![Enabling lead status for a category in the Company – Category list, with the Potential Customer group selected. -screenshot][img1]
+
 For details, see [Company category and category group][1].
 
 ## Step 2: Customize the lead status list
@@ -43,6 +45,8 @@ The **Contact – Lead status** list defines the qualification stages used by yo
 1. Go to **Settings and maintenance** > **Lists** > **Contact – Lead status**.
 1. Review the predefined items.
 1. Add, edit, or remove statuses to match your own lead qualification process.
+
+    For example, you may want to add more detailed disqualification reasons, such as "Not interested", "Not an ICP", or "Bad timing".
 
 For detailed steps, see [Manage lead statuses][2].
 
@@ -68,3 +72,6 @@ If you use Marketing Premium, you can leverage additional tracking and automatio
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png

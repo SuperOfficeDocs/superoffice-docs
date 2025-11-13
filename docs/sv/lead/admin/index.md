@@ -2,10 +2,10 @@
 uid: help-sv-lead-admin
 title: Konfigurera leadhantering
 description: Lär dig hur du aktiverar, konfigurerar och utökar leadhantering i SuperOffice CRM.
-keywords: leadhantering, leadinställning, leadstatus, potentiell kund, säljprocess
+keywords: leadhantering, leadkonfiguration, leadstatus, potentiell kund, säljprocess
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: concept
 category: sale
 topic: lead
@@ -34,6 +34,8 @@ Leadstatus kan endast användas för kategorier som tillhör gruppen **Potentiel
 1. Välj **Aktivera leadstatus för denna kategori**.
 1. Klicka **OK** för att spara ändringarna.
 
+![Aktivering av leadstatus för en kategori i Företag – Kategori-listan, med vald grupp Potentiell kund. -screenshot][img1]
+
 Mer information finns i [Företagskategori och kategorigrupp][1].
 
 ## Steg 2: Anpassa listan för leadstatus
@@ -61,8 +63,12 @@ Om du använder Marketing Premium kan du dra nytta av ytterligare spårnings- oc
 * [Företagskategori och kategorigrupp][1]
 * [Hantera leadstatusar][2]
 
+<!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute

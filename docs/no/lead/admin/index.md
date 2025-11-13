@@ -4,8 +4,8 @@ title: Konfigurer leadhåndtering
 description: Lær hvordan du aktiverer, konfigurerer og utvider leadhåndtering i SuperOffice CRM.
 keywords: leadhåndtering, leadoppsett, leadstatus, potensiell kunde, salgsprosess
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: concept
 category: sale
 topic: lead
@@ -34,6 +34,8 @@ Leadstatus kan bare brukes for kategorier som tilhører gruppen **Potensiell kun
 1. Velg **Aktiver leadstatus for denne kategorien**.
 1. Klikk **OK** for å lagre endringene.
 
+![Aktivering av leadstatus for en kategori i Firma – Kategori-listen, med valgt gruppe Potensiell kunde. -screenshot][img1]
+
 For detaljer, se [Firmakategori og kategorigruppe][1].
 
 ## Trinn 2: Tilpass listen for leadstatus
@@ -61,8 +63,12 @@ Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automa
 * [Firmakategori og kategorigruppe][1]
 * [Administrer leadstatuser][2]
 
+<!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute

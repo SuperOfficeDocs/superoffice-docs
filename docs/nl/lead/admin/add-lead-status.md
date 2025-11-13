@@ -1,11 +1,11 @@
 ---
 uid: help-nl-add-lead-status
-title: Leadstatus beheren
-description: Voeg leadstatussen toe, bewerk of verwijder ze om de voortgang van de leadkwalificatie te volgen.
+title: Leadstatussen beheren
+description: Voeg leadstatussen toe, bewerk of verwijder deze om de voortgang van leadkwalificatie te volgen.
 keywords: leadstatus, leadkwalificatie, gediskwalificeerd, gekwalificeerd, potentiële klant, lijst
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: howto
 category: sale
 topic: lead
@@ -40,9 +40,11 @@ Groeperen en filteren op gebruikersgroep is niet beschikbaar voor deze lijst.
 
 1. Klik **OK** om op te slaan of **Annuleren** om uw wijzigingen te verwerpen.
 
+![Het dialoogvenster Lijstitem bewerken in de lijst Persoon – Leadstatus -screenshot][img1]
+
 ## Leadstatussen bewerken of verwijderen
 
-> [!CAUTION]
+> [!NOTE]
 > Controleer zorgvuldig het gebruik van statussen voordat u wijzigingen aanbrengt.
 > Het verwijderen of wijzigen van statussen die in gebruik zijn, kan leiden tot inconsistente gegevens.
 > De status **Open** is de standaard voor nieuwe leads en mag niet worden verwijderd.
@@ -76,6 +78,10 @@ Groeperen en filteren op gebruikersgroep is niet beschikbaar voor deze lijst.
 * [Bedrijfscategorie en categoriegroep][2]
 * [Overzicht van leadbeheer][3]
 
+<!-- Referenced links -->
 [1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/add-lead-status.png

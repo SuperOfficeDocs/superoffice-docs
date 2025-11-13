@@ -1,11 +1,11 @@
 ---
 uid: help-de-lead-admin
 title: Lead-Management einrichten
-description: Erfahren Sie, wie Sie das Lead-Management in SuperOffice CRM aktivieren, konfigurieren und erweitern.
+description: Erfahren Sie, wie Sie Lead-Management in SuperOffice CRM aktivieren, konfigurieren und erweitern.
 keywords: Lead-Management, Lead-Einrichtung, Lead-Status, potenzieller Kunde, Verkaufsprozess
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: concept
 category: sale
 topic: lead
@@ -34,6 +34,8 @@ Der Lead-Status kann nur für Kategorien verwendet werden, die zur Gruppe **Pote
 1. Wählen Sie **Lead-Status für diese Kategorie aktivieren**.
 1. Klicken Sie **OK**, um die Änderungen zu speichern.
 
+![Aktivieren des Lead-Status für eine Kategorie in der Firma – Kategorie-Liste, mit ausgewählter Gruppe "Potenzieller Kunde". -screenshot][img1]
+
 Weitere Informationen finden Sie unter [Firmenkategorie und Kategoriengruppe][1].
 
 ## Schritt 2: Lead-Status-Liste anpassen
@@ -61,8 +63,12 @@ Wenn Sie Marketing Premium verwenden, können Sie zusätzliche Nachverfolgungs- 
 * [Firmenkategorie und Kategoriengruppe][1]
 * [Lead-Status verwalten][2]
 
+<!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute

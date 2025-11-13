@@ -1,11 +1,11 @@
 ---
 uid: help-sv-add-lead-status
 title: Hantera leadstatusar
-description: Lägg till, redigera eller ta bort leadstatusar för att följa kvalificeringsprocessen.
+description: Lägg till, redigera eller ta bort leadstatusar för att spåra framstegen i leadkvalificeringsprocessen.
 keywords: leadstatus, leadkvalificering, diskvalificerad, kvalificerad, potentiell kund, lista
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: howto
 category: sale
 topic: lead
@@ -40,9 +40,11 @@ Gruppering och filtrering efter användargrupp är inte tillgängligt för denna
 
 1. Klicka **OK** för att spara eller **Avbryt** för att avbryta.
 
+![Dialogrutan Redigera listelement i listan Kontakt – Leadstatus -screenshot][img1]
+
 ## Redigera eller ta bort leadstatusar
 
-> [!CAUTION]
+> [!NOTE]
 > Granska statusens användning noggrant innan du gör ändringar.
 > Att ta bort eller ändra statusar som används kan leda till inkonsekventa data.
 > Statusen **Öppen** är standard för nya leads och bör inte tas bort.
@@ -76,6 +78,10 @@ Gruppering och filtrering efter användargrupp är inte tillgängligt för denna
 * [Företagskategori och kategorigrupp][2]
 * [Översikt över leadhantering][3]
 
+<!-- Referenced links -->
 [1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/add-lead-status.png

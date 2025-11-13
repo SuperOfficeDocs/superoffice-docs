@@ -5,7 +5,7 @@ description: Add, edit, or remove lead statuses to track lead qualification prog
 keywords: lead status, lead qualification, disqualified, qualified, potential customer, list
 author: digitaldiina
 date: 12.11.2025
-version: 10.6
+version: 11.6
 content_type: howto
 category: sale
 topic: lead
@@ -40,9 +40,11 @@ Grouping and filtering by user group are not available for this list.
 
 1. Click **OK** to save or **Cancel** to discard your changes.
 
+![The Edit list item dialog in the Contact – Lead status list -screenshot][img1]
+
 ## Edit or delete lead statuses
 
-> [!CAUTION]
+> [!NOTE]
 > Review status usage carefully before making changes.
 > Deleting or changing statuses in use can lead to inconsistent data.
 > The **Open** status is the default for new leads and should not be deleted.
@@ -76,6 +78,10 @@ Grouping and filtering by user group are not available for this list.
 * [Company category and category group][2]
 * [Lead management overview][3]
 
+<!-- Referenced links -->
 [1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/add-lead-status.png

@@ -1,11 +1,11 @@
 ---
 uid: help-nl-lead-admin
 title: Leadbeheer instellen
-description: Leer hoe u leadbeheer in SuperOffice CRM inschakelt, configureert en uitbreidt.
-keywords: leadbeheer, leadinstellingen, leadstatus, potentiële klant, verkoopproces
+description: Leer hoe u leadbeheer in SuperOffice CRM activeert, configureert en uitbreidt.
+keywords: leadbeheer, leadinstelling, leadstatus, potentiële klant, verkoopproces
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: concept
 category: sale
 topic: lead
@@ -34,6 +34,8 @@ Leadstatus kan alleen worden gebruikt voor categorieën die behoren tot de groep
 1. Selecteer **Leadstatus voor deze categorie inschakelen**.
 1. Klik **OK** om de wijzigingen op te slaan.
 
+![Leadstatus inschakelen voor een categorie in de Bedrijf – Categorie-lijst, met de geselecteerde groep Potentiële klant. -screenshot][img1]
+
 Zie voor meer informatie [Bedrijfscategorie en categoriegroep][1].
 
 ## Stap 2: De lijst met leadstatussen aanpassen
@@ -61,8 +63,12 @@ Als u Marketing Premium gebruikt, kunt u extra tracking- en automatiseringsfunct
 * [Bedrijfscategorie en categoriegroep][1]
 * [Leadstatus beheren][2]
 
+<!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute

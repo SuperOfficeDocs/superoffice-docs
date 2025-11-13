@@ -1,11 +1,11 @@
 ---
 uid: help-de-add-lead-status
 title: Lead-Status verwalten
-description: Fügen Sie Lead-Status hinzu, bearbeiten oder entfernen Sie sie, um den Fortschritt der Lead-Qualifizierung zu verfolgen.
+description: Hinzufügen, bearbeiten oder entfernen von Lead-Status, um den Fortschritt der Lead-Qualifizierung zu verfolgen.
 keywords: Lead-Status, Lead-Qualifizierung, disqualifiziert, qualifiziert, potenzieller Kunde, Liste
 author: digitaldiina
-date: 11.12.2025
-version: 10.6
+date: 12.11.2025
+version: 11.6
 content_type: howto
 category: sale
 topic: lead
@@ -40,9 +40,11 @@ Gruppierung und Filterung nach Benutzergruppe sind für diese Liste nicht verfü
 
 1. Klicken Sie **OK**, um zu speichern, oder **Abbrechen**, um Ihre Änderungen zu verwerfen.
 
+![Das Dialogfeld Listenelement bearbeiten in der Liste Person – Lead-Status -screenshot][img1]
+
 ## Lead-Status bearbeiten oder löschen
 
-> [!CAUTION]
+> [!NOTE]
 > Überprüfen Sie die Verwendung von Status sorgfältig, bevor Sie Änderungen vornehmen.
 > Das Löschen oder Ändern von verwendeten Status kann zu inkonsistenten Daten führen.
 > Der Status **Offen** ist der Standard für neue Leads und sollte nicht gelöscht werden.
@@ -76,6 +78,10 @@ Gruppierung und Filterung nach Benutzergruppe sind für diese Liste nicht verfü
 * [Firmenkategorie und Kategoriengruppe][2]
 * [Übersicht über Lead-Management][3]
 
+<!-- Referenced links -->
 [1]: index.md
 [2]: add-company-category.md
 [3]: ../learn/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/add-lead-status.png
