@@ -104,6 +104,7 @@ Voor meer informatie over het instellen van uw verkoopkansen, zie de [handleidin
 * [Een offerte maken][1]
 * [Werken met verkoopgidsen][6]
 * [Werken met verkooptargets][7]
+* [Leadbeheer][8]
 * [Informatie over een verkoop afdrukken][11]
 
 <!-- Referenced links -->
@@ -114,6 +115,7 @@ Voor meer informatie over het instellen van uw verkoopkansen, zie de [handleidin
 [5]: stakeholders/create.md
 [6]: tutorial.md
 [7]: sales-targets/index.md
+[8]: ../../lead/learn/index.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md

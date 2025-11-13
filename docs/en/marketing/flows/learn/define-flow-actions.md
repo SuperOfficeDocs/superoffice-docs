@@ -112,7 +112,7 @@ Contact is removed as member from the specified selection and/or project.
 
 This step is similar to **Add to selection and/or project**.
 
-### Distribute to owner
+### <a id="distribute"></a>Distribute to owner
 
 Distribute contacts evenly to selected associates or members of a specified primary group. Useful for sharing inbound leads or new contacts across a team.
 

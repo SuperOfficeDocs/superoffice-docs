@@ -51,6 +51,9 @@ items:
   - name: Marketing
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
+  - name: Leadbeheer
+    href: ../lead/learn/toc.yml
+    topicHref: ../lead/learn/index.md
 
   - name: Mobile CRM
     href: ../mobile/superoffice-mobile/index.md

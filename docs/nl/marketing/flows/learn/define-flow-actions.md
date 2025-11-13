@@ -118,7 +118,7 @@ Persoon wordt verwijderd als lid uit de gespecificeerde selectie en/of project.
 
 Deze stap is vergelijkbaar met **Toevoegen aan selectie/project**.
 
-### Distribueer naar eigenaar
+### <a id="distribute"></a>Distribueer naar eigenaar
 
 Verdeel contactpersonen gelijkmatig over geselecteerde medewerkers of groepsleden. Handig voor het automatisch toewijzen van nieuwe leads aan een team.
 

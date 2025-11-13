@@ -158,6 +158,7 @@ Gebruik de UTM-builder voor SuperOffice-formulieren om campagnekoppelingen te ma
 * [UTM-tracking inschakelen voor formulierverzendingen][3] in Instellingen en onderhoud
 * [UTM-builder voor SuperOffice-formulieren][2]
 * [Lead-dashboards en rapporten][5]
+* [Leadbeheer][8]
 
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
@@ -165,6 +166,7 @@ Gebruik de UTM-builder voor SuperOffice-formulieren om campagnekoppelingen te ma
 [5]: ../../../dashboard/learn/show-marketing.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
+[8]: ../../../lead/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png

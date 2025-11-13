@@ -4,8 +4,8 @@ title: Specialized lists
 description: Specialized lists
 keywords: specialized list, General - Relation list, General - Country list
 author: digitaldiina
-date: 10.29.2025
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -26,6 +26,7 @@ The steps to add or edit items are mostly the same as for standard and user-defi
 
 ## Available specialized lists
 
+* [Company - Category][20]
 * [Document - Template][1]
 * [Email - Template][2]
 * [Follow-up - Type][3]
@@ -108,6 +109,7 @@ The [**Relations** section tab][4] in the Company and Contact screens displays a
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
+[20]: ../../lead/admin/add-company-category.md
 [21]: add-items.md
 
 <!-- Referenced images -->

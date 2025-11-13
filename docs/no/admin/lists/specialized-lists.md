@@ -4,8 +4,8 @@ title: Spesialiserte lister
 description: Spesialiserte lister
 keywords: spesialisert liste, listen Generelt - Relasjon, listen Generelt - Land
 author: digitaldiina
-date: 10.29.2025
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: reference
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
@@ -26,6 +26,7 @@ Fremgangsmåten for å legge til eller redigere forekomster er stort sett den sa
 
 ## Tilgjengelige spesialiserte lister
 
+* [Firma – Kategori][20]
 * [Dokument – Mal][1]
 * [E-post – Mal][2]
 * [Oppfølging – Type][3]
@@ -108,4 +109,5 @@ Flere steder i SuperOffice CRM kan du velge ønsket land fra en valgliste. Liste
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
+[20]: ../../lead/admin/add-company-category.md
 [21]: add-items.md

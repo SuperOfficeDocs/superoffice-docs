@@ -158,6 +158,7 @@ Använd UTM-byggaren för SuperOffice-formulär för att skapa kampanjslänkar m
 * [Aktivera UTM-spårning för formulärinlämningar][3] i Inställningar och underhåll
 * [UTM-byggare för SuperOffice-formulär][2]
 * [Leadpaneler och rapporter][5]
+* [Leadhantering][8]
 
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
@@ -165,6 +166,7 @@ Använd UTM-byggaren för SuperOffice-formulär för att skapa kampanjslänkar m
 [5]: ../../../dashboard/learn/show-marketing.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
+[8]: ../../../lead/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/contact-privacy-utm-data.png

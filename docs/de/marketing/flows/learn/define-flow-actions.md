@@ -111,7 +111,7 @@ Der Person wird als Mitglied aus der angegebenen Selektion und/oder dem Projekt 
 
 Dieser Schritt ähnelt dem Schritt **Zur Selektion und/oder zum Projekt hinzufügen**.
 
-### An den Besitzer verteilen
+### <a id="distribute"></a>An den Besitzer verteilen
 
 Kontakte werden gleichmäßig auf ausgewählte Mitarbeiter oder Mitglieder einer bestimmten Gruppe verteilt. Nützlich zur automatischen Zuweisung neuer Leads.
 

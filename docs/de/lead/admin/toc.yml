@@ -1,0 +1,7 @@
+items:
+- name: Lead-Management einrichten
+  href: index.md
+- name: Firmenkategorie und Kategoriegruppe
+  href: add-company-category.md
+- name: Lead-Status verwalten
+  href: add-lead-status.md
