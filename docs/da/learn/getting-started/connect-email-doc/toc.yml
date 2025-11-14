@@ -9,5 +9,3 @@ items:
   href: microsoft-365.md
 - name: Google workspace
   href: google-workspace.md
-- name: WebTools
-  topicHref: ../../../../../integrations/webtools/index.md

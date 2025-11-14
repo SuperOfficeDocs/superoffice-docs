@@ -30,5 +30,3 @@ items:
     href: ../admin/create-extra-field.md
   - name: Show extra field on Details tab
     href: ../admin/show-extra-field-on-request-details.md
-- name: Technical reference
-  href: ../reference/index.md

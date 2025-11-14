@@ -1,6 +1,4 @@
 items:
-- name: Overview
-  href: ../index.yml
 - name: Introduction
   href: index.md
 - name: Create new company
@@ -15,5 +13,3 @@ items:
   href: delete.md
 - name: Address formats for countries
   href: address-formats.md
-- name: Technical reference
-  href: ../dev/index.md
