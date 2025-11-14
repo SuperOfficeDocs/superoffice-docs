@@ -204,7 +204,6 @@ You can customize the Diary to suit your workflow:
 * [Join video meetings][6]
 * [Print follow-ups][14]
 * [Add link to document, sale, project, or website][15]
-* [Working with follow-ups in API][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -224,7 +223,6 @@ You can customize the Diary to suit your workflow:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

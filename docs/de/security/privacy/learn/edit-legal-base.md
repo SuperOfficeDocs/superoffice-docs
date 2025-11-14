@@ -70,12 +70,7 @@ Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wir
 
 9. Klicken Sie, sobald Sie fertig sind, auf **Schließen**.
 
-## Zugehörige Inhalte
-
-* [Weitere Informationen über die DSGVO, Datenschutz und Einwilligungsmanagement in SuperOffice][1]
-
 <!-- Referenced links -->
-[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->

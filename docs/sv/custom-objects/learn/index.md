@@ -55,7 +55,7 @@ Om du inte har en Development Tools-licens, anv√§nd rangordningen av de olika f√
 [2]: extra-field.md
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
+[6]: https://docs.superoffice.com/en/ui/blogic/custom-screens/index.html
 [12]: more-tab.md
 
 <!-- Referenced images -->

@@ -114,12 +114,7 @@ In the following example, we create a selection of all contacts registered today
 > [!NOTE]
 > **Bulk updates cannot be undone.** That is why we recommend [creating a database backup][3] before making any large data updates ONSITE. Backups of SuperOffice CRM ONLINE are created automatically.
 
-## Related content
-
-* [Learn more about GDPR, privacy and consent management in SuperOffice][1]
-
 <!-- Referenced links -->
-[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
 [3]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111362
 

@@ -202,7 +202,6 @@ Du kan tilpasse Dagbogen, så den passer til din arbejdsrutine:
 * [Deltag i videomøder][6]
 * [Udskriv opfølgninger][14]
 * [Tilføj link til dokument, salg, projekt eller websted][15]
-* [Arbejd med opfølgninger via API][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -222,7 +221,6 @@ Du kan tilpasse Dagbogen, så den passer til din arbejdsrutine:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

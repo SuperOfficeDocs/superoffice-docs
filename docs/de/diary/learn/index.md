@@ -202,7 +202,6 @@ Sie können den Kalender individuell an Ihren Arbeitsstil anpassen:
 * [Videokonferenzen beitreten][6]
 * [Folgeaufgaben drucken][14]
 * [Links zu Dokumenten, Verkäufen oder Webseiten hinzufügen][15]
-* [API für Folgeaufgabe][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -222,7 +221,6 @@ Sie können den Kalender individuell an Ihren Arbeitsstil anpassen:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

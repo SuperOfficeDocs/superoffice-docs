@@ -97,7 +97,7 @@ The sync connector is added to the list.
 [4]: configure.md#rank
 [5]: configure.md#priority
 [6]: ../../admin/import/learn/import-from-erp.md
-[8]: ../../developer-portal/custom-app/index.md
+[8]: https://docs.superoffice.com/en/developer-portal/custom-app/index.html
 [7]: https://online.superoffice.com/appstore/app/search?phrase=sync
 
 <!-- Referenced images -->

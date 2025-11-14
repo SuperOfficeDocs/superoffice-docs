@@ -202,7 +202,6 @@ U kunt de agenda aanpassen aan uw werkwijze:
 * [Deelnemen aan videovergaderingen][6]
 * [Vervolgactiviteiten afdrukken][14]
 * [Link toevoegen naar document, verkoop, project of website][15]
-* [Werken met vervolgactiviteiten via de API][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -222,7 +221,6 @@ U kunt de agenda aanpassen aan uw werkwijze:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

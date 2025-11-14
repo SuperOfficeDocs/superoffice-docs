@@ -80,7 +80,7 @@ Oppdag hele potensialet til SuperOffice CRM. Bruk våre veiledninger for å komm
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
 [20]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/index.html
-[21]: ../../../en/onsite/requirements/index.md
+[21]: https://docs.superoffice.com/en/onsite/requirements/index.html
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/learn/getstarted-personalsettings.png

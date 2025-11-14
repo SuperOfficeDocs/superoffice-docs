@@ -137,7 +137,7 @@ Kontakta SuperOffice-administratören för att få ett nytt lösenord.
 [1]: https://community.superoffice.com/en/support-faqs/
 [3]: ../../admin/user-management/learn/add-associate.md
 [6]: preferences.md#options
-[7]: ../../../en/online/identity/single-sign-on/index.md
+[7]: https://docs.superoffice.com/en/online/identity/single-sign-on/index.html
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png

@@ -202,7 +202,6 @@ Du kan tilpasse dagboken slik at den passer din arbeidsflyt:
 * [Bli med i videomøter][6]
 * [Skrive ut oppfølginger][14]
 * [Legge til kobling til dokument, salg, prosjekt eller nettsted][15]
-* [Håndtere oppfølginger via API][50]
 
 <!-- Refererte lenker -->
 [1]: follow-ups.md
@@ -222,7 +221,6 @@ Du kan tilpasse dagboken slik at den passer din arbeidsflyt:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

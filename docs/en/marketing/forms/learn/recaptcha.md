@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-recaptcha
 title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
@@ -52,7 +52,7 @@ For SuperOffice Onsite you need to make your reCAPTCHA profile and get your Site
 
 ## How to create a Google reCAPTCHA profile
 
-To create custom keys, sign in with a Google account to [https://www.google.com/u/0/recaptcha/admin/create][2].
+To create custom keys, sign in with a Google account to�[https://www.google.com/u/0/recaptcha/admin/create][2].
 
 1. Enter a site label
 2. Select "reCAPTCHA v2"
@@ -68,7 +68,7 @@ After you press Submit, your Site key and Secret key will be shown:
 <!-- Referenced links -->
 [1]: https://www.google.com/recaptcha/admin
 [2]: https://www.google.com/u/0/recaptcha/admin/create
-[3]: ../../../../en/api/config/googlerecaptcha.md
+[3]: https://docs.superoffice.com/en/api/config/googlerecaptcha.html
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/add-element-dialog.png

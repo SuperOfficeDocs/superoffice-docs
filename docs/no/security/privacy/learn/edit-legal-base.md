@@ -70,12 +70,7 @@ Hver gang en person registreres i SuperOffice CRM-databasen din, registreres ogs
 
 9. Klikk på **Lukk** når du er ferdig.
 
-## Aktuelt innhold
-
-* [Lær mer om GDPR, personvern- og samtykkehåndtering i SuperOffice][1]
-
 <!-- Referenced links -->
-[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->

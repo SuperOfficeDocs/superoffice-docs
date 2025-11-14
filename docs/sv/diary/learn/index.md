@@ -202,7 +202,6 @@ Du kan anpassa kalendern efter ditt arbetsflöde:
 * [Anslut till videomöten][6]
 * [Skriva ut händelser][14]
 * [Lägg till länk till dokument, försäljning, projekt eller webbplats][15]
-* [Arbeta med händelser i API][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -222,7 +221,6 @@ Du kan anpassa kalendern efter ditt arbetsflöde:
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
 [20]: ../../globalization-and-localization/learn/time-zones.md
-[50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/diary.png

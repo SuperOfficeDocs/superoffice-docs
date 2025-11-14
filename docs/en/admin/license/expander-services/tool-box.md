@@ -128,10 +128,10 @@ As your needs grow, so the capabilities of your CRM solution can expand.
 [2]: ../../../automation/trigger/index.md
 [3]: index.md
 [4]: ../user-plans.md
-[5]: ../../../developer-portal/custom-app/index.md
-[6]: ../../../developer-portal/standard-app/index.md
-[9]: ../../../developer-portal/getting-started/index.md#tenant
-[11]: ../../../developer-portal/getting-started/get-access-to-sod.md
+[5]: https://docs.superoffice.com/en/developer-portal/custom-app/index.html
+[6]: https://docs.superoffice.com/en/developer-portal/standard-app/index.html
+[9]: https://docs.superoffice.com/en/developer-portal/getting-started/index.html#tenant
+[11]: https://docs.superoffice.com/en/developer-portal/getting-started/get-access-to-sod.html
 [12]: https://www.nuget.org/profiles/SuperOffice
 [13]: https://www.github.com/SuperOffice
 [7]: https://online.superoffice.com/appstore/

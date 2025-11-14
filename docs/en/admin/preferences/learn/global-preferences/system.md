@@ -38,6 +38,6 @@ Areas you can configure preferences for:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
+[5]: https://docs.superoffice.com/en/online/mirroring/mirroring-task.html#options
 
 <!-- Referenced images -->

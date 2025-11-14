@@ -1,5 +1,5 @@
 ---
-uid: help-sales-target-types
+uid: help-no-sales-target-types
 title: Sette opp en salgsmåltype med undertyper
 description: Å holde seg oppdatert på salgsmålene dine kan være stressende. Men hvis du definerer parametere og dimensjoner for salgsmålene dine, blir det mye enklere å administrere målene.
 keywords: salgsmål, dimensjon

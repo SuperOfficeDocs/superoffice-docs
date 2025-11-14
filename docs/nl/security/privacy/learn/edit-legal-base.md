@@ -70,12 +70,7 @@ Elke keer dat een persoon wordt geregistreerd in uw SuperOffice CRM-database, wo
 
 9. Klik op **Sluiten** wanneer u klaar bent.
 
-## Gerelateerde inhoud
-
-* [Kom meer te weten over AVG, privacy en toestemmingsbeheer in SuperOffice][1]
-
 <!-- Referenced links -->
-[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->

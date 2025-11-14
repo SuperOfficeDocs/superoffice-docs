@@ -89,5 +89,5 @@ To demonstrate how you can use the Find feature for sales forecasting, here is a
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/forecasting.png
 [img7]: ../../../media/loc/en/search-options/typical-sale-searches.png
-[img8]: ../../../media/loc/en/search-options/find-screen.png
+[img8]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
 [img9]: ../../../media/loc/en/search-options/find-sale.png
