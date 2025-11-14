@@ -103,4 +103,4 @@ Durch die Bearbeitung der Eigenschaften des Dokuments können Sie beispielsweise
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
 [2]: manage-folders.md
-[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
+[9]: https://docs.superoffice.com/release-notes/10.3/service/10.3.11-update.md

@@ -50,7 +50,7 @@ Die Bearbeitung einer Antwortvorlage kann auf zwei Arten erfolgen:
 * [Antwortvorlagen kopieren][4]
 
 <!-- Referenced links -->
-[1]: ../../../learn/reply.md
+[1]: ../../../request/learn/reply.md
 [2]: create.md
 [3]: new-language.md
 [4]: create.md#copy

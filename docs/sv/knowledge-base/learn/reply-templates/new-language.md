@@ -59,6 +59,6 @@ Om ett specifikt språk saknas i rullgardinsmenyn **Språk** har det inte lagts 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../globalization-and-localization/learn/customer-languages.md
-[3]: ../../../globalization-and-localization/learn/customer-languages.md
+[2]: ../../../admin/options/learn/custlang/index.md
+[3]: ../../../admin/options/learn/custlang/update.md
 [4]: edit.md
