@@ -32,6 +32,6 @@ Wanneer de algemene voorkeur **Alleen goedgekeurde domeinen voor het verzenden v
 > U kunt een SPF-record instellen voor uw domein om ervoor te zorgen dat uw organisatie mailings kan verzenden met een betere afleverbaarheid (ALLEEN ONLINE). Als uw omgeving LOKAAL is, wordt er geen SPF-zoekopdracht uitgevoerd. Maar u kunt de lijst nog steeds gebruiken om uw gebruikers vooraf ingestelde domeinen te bieden voor **Van** en **Antwoorden aan**-adressen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/mailgun/spf/index.md
+[1]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 
 <!-- Referenced images -->

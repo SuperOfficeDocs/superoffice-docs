@@ -43,7 +43,7 @@ And in the client:
 ![x -screenshot][img3]
 
 <!-- Referenced links -->
-[1]: ../../database/tables/prefdesc.md
+[1]: https://docs.superoffice.com/en/database/tables/prefdesc.html
 
 <!-- Referenced images -->
 [img1]: media/prefdesc.jpg

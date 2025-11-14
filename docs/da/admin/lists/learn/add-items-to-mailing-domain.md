@@ -32,6 +32,6 @@ Når den globale indstilling **Brug kun godkendte domæner til afsendelse af e-m
 > Du kan konfigurere en SPF-post for dit domæne for at sikre, at din organisation kan sende udsendelser med bedre levering (KUN ONLINE). Hvis dit miljø er ONSITE, udføres der ikke et SPF-opslag. Men du kan stadig bruge listen til at give dine brugere forudindstillede domæner til **Fra-** og **Svar til**-adresser.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/mailgun/spf/index.md
+[1]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 
 <!-- Referenced images -->

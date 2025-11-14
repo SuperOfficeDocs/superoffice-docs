@@ -42,6 +42,6 @@ In NetServer, we can either retrieve the current values of these preferences or 
 [3]: set-preferences-preferenceagent.md
 [4]: set-preferences-sopreference.md
 [5]: ../../../api/caching/superoffice-crm-security.md
-[6]: ../../../database/tables/userpreference.md
+[6]: https://docs.superoffice.com/en/database/tables/userpreference.html
 
 <!-- Referenced images -->

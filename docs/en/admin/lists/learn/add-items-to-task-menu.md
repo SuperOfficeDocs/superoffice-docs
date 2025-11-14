@@ -61,9 +61,9 @@ This is how to fill out the fields in the Edit list items dialog for Task menu:
 [1]: web-panel-add-item.md
 [2]: adding-items.md
 [3]: specialized-lists.md
-[4]: ../../../../en/ui/web-panels/url-encoding.md
+[4]: https://docs.superoffice.com/en/ui/web-panels/url-encoding.html
 [5]: ../../../automation/crmscript/learn/index.md
-[6]: ../../../../en/ui/soprotocol/index.md
+[6]: https://docs.superoffice.com/en/ui/soprotocol/index.html
 [7]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->

@@ -92,5 +92,5 @@ language: da
 
 <!-- Referenced links -->
 [1]: add-items-to-task-menu.md
-[2]: ../../../../en/ui/web-panels/url-encoding.md
+[2]: https://docs.superoffice.com/en/ui/web-panels/url-encoding.html
 [3]: ../../../globalization-and-localization/learn/translate-fields.md

@@ -1,9 +1,9 @@
-ï»¿---
+---
 uid: help-nl-marketing-best-practices
 title: Beste praktijken
 description: Beste praktijken
 keywords: Marketing, beste praktijken, checklist
-author: Bergfrid Dias, Jeanette Small StrÃ¸m
+author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
@@ -22,7 +22,7 @@ language: nl
 
 ## Checklist voor marketingcampagne
 
-* Verkrijg expliciete toestemming van uw bestaande en potentiÃ«le contacten om marketingcommunicatie van uw bedrijf te ontvangen. Een manier om toestemming te vragen is via mailings of webformulieren. Het vragen van toestemming en het opslaan van een record daarvan zijn de hoekstenen van de AVG.
+* Verkrijg expliciete toestemming van uw bestaande en potentiële contacten om marketingcommunicatie van uw bedrijf te ontvangen. Een manier om toestemming te vragen is via mailings of webformulieren. Het vragen van toestemming en het opslaan van een record daarvan zijn de hoekstenen van de AVG.
 
 * [Documenteer alle toestemmingen die u verkrijgt][5] met betrekking tot de rechtmatige opslag van persoonlijke gegevens en het verzenden van e-marketingberichten.
 
@@ -30,7 +30,7 @@ language: nl
 
 * Verkrijg nieuwe machtigingen van uw bestaande klantenbestand. Dit betekent dat als u niet zeker weet of u over de benodigde machtigingen beschikt en als u uw contacten niet de mogelijkheid hebt gegeven om zich af te melden, het nodig kan zijn om nieuwe machtigingen te verkrijgen. Het verzenden van een campagne voor "hernieuwde toestemming" is ook een geweldige manier om uw bestaande records bij te werken.
 
-## CreÃ«er relevante berichten die resoneren met uw publiek
+## Creëer relevante berichten die resoneren met uw publiek
 
 Het maken van een goede boodschap die relevant is voor uw publiek is waar het allemaal zou moeten beginnen. Het is zo simpel als dat. Denk aan uw eigen e-mailinbox: u hebt al veel te lezen, dingen te doen, dus zou u berichten lezen die niet relevant lijken? Waarschijnlijk niet, toch? Begin dus daarmee.
 
@@ -56,13 +56,13 @@ De juiste boodschap zal u ver brengen, maar om er zeker van te zijn dat u de jui
 
 Een goede reputatie opbouwen als e-mailzender gaat ook over het verzorgen van uw abonneelijsten. Dit betekent in de eerste plaats ervoor zorgen dat **informatie over uw contacten is bijgewerkt**. Veel [bounces][2] (de teruggestuurde e-mails van mensen die niet meer bij een bedrijf werken of van adres zijn veranderd) kunnen echt uw reputatie in gevaar brengen en u een kandidaat maken voor de SPAM-map.
 
-Het betekent ook ervoor zorgen dat mensen geÃ¯nteresseerd zijn in uw berichten. Als een groot deel van uw publiek uw berichten lange tijd niet opent of er niet mee bezig is, is het misschien tijd om een andere aanpak te proberen. Zoals u weet, is **betrokkenheid een sleutelfactor in bezorgbaarheid**, dus zorg ervoor dat u inactieve gebruikers controleert die uw e-mails lange tijd niet hebben geopend.
+Het betekent ook ervoor zorgen dat mensen geïnteresseerd zijn in uw berichten. Als een groot deel van uw publiek uw berichten lange tijd niet opent of er niet mee bezig is, is het misschien tijd om een andere aanpak te proberen. Zoals u weet, is **betrokkenheid een sleutelfactor in bezorgbaarheid**, dus zorg ervoor dat u inactieve gebruikers controleert die uw e-mails lange tijd niet hebben geopend.
 
 **Het segmenteren van uw publiek om meer gerichte e-mails te verzenden** is een goede manier om die juiste boodschap bij de juiste mensen te krijgen. In SuperOffice kunt u [selecties][1] gebruiken om specifieke groepen te targeten, zoals mensen uit een specifiek land of die recentelijk contact hebben gehad met uw bedrijf. Op die manier kunt u nog meer relevante berichten maken die de aandacht van uw lezers trekken.
 
 ## Zorg ervoor dat alle wielen achter de schermen draaien
 
-Veel van de bezorgbaarheid van e-mail heeft te maken met **het creÃ«ren van de juiste ervaring** voor uw publiek. Relevant zijn, ervoor zorgen dat mensen geÃ¯nteresseerd zijn, zorgen voor de abonneelijst zijn belangrijke aspecten van wat een campagne succesvol of niet succesvol maakt.
+Veel van de bezorgbaarheid van e-mail heeft te maken met **het creëren van de juiste ervaring** voor uw publiek. Relevant zijn, ervoor zorgen dat mensen geïnteresseerd zijn, zorgen voor de abonneelijst zijn belangrijke aspecten van wat een campagne succesvol of niet succesvol maakt.
 
 Maar er zijn ook enkele delen die meer achter de schermen spelen. Technische aspecten zoals **domeinreputatie en authenticatie** zijn een even belangrijk onderdeel van deze puzzel. Uiteindelijk moet alles samenwerken om ervoor te zorgen dat e-mailleveringen perfect zijn.
 
@@ -80,13 +80,13 @@ Auteurs zien een bericht als ze een niet-gevalideerd e-mailadres in het From-vel
 
 ## Automatisering
 
-* Specificeer een maximale wachttijd om te voorkomen dat deelnemers voor altijd actief blijven in een flow.â€‹
+* Specificeer een maximale wachttijd om te voorkomen dat deelnemers voor altijd actief blijven in een flow.?
 
-* Werk deelnemers bij met nieuwe informatie tijdens de flow. Bijvoorbeeld, stel een nieuwe interesse of een nieuwe categorie in terwijl het contact zich ontwikkelt; voeg toe en verwijder ze uit lijstenâ€‹.
+* Werk deelnemers bij met nieuwe informatie tijdens de flow. Bijvoorbeeld, stel een nieuwe interesse of een nieuwe categorie in terwijl het contact zich ontwikkelt; voeg toe en verwijder ze uit lijsten?.
 
-* Om dubbele of tegenstrijdige acties te voorkomen: Neem alle acties op Ã©Ã©n plaats op, hetzij in het formulier of in de flow.
+* Om dubbele of tegenstrijdige acties te voorkomen: Neem alle acties op één plaats op, hetzij in het formulier of in de flow.
 
-* Je kunt dezelfde ervaring bereiken door Ã©Ã©n flow te splitsen of de communicatie in twee verschillende flows te organiseren. Of je Ã©Ã©n flow moet splitsen of meerdere flows moet definiÃ«ren, hangt af van het scenario en welk resultaat je wilt volgen. Hoe meer twee communicatiepaden gemeen hebben, hoe efficiÃ«nter het voor de gebruiker is om ze binnen dezelfde flow te organiseren.â€‹
+* Je kunt dezelfde ervaring bereiken door één flow te splitsen of de communicatie in twee verschillende flows te organiseren. Of je één flow moet splitsen of meerdere flows moet definiëren, hangt af van het scenario en welk resultaat je wilt volgen. Hoe meer twee communicatiepaden gemeen hebben, hoe efficiënter het voor de gebruiker is om ze binnen dezelfde flow te organiseren.?
 
 ## <a id="mobile"></a>Het bericht aanpassen voor weergave op mobiele apparaten
 
@@ -94,7 +94,7 @@ Het bericht wordt automatisch aangepast voor weergave op kleinere schermen.
 
 Klik op **Mobiel** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) in het algemene menu om het uiterlijk op een smartphone te zien. U kunt ook op een sectie in het bericht klikken en op **Mobiel** onder **Inhoud** in het zijpaneel klikken.
 
-Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selecteert u een sectie in het bericht en klikt u op **Mobiel** in het zijpaneel. U kunt nu de opmaak definiÃ«ren voor de weergave van het bericht op mobiele apparaten en ook selecteren welke elementen (zoals afbeeldingen) u wilt uitsluiten van mobiele apparaten.
+Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selecteert u een sectie in het bericht en klikt u op **Mobiel** in het zijpaneel. U kunt nu de opmaak definiëren voor de weergave van het bericht op mobiele apparaten en ook selecteren welke elementen (zoals afbeeldingen) u wilt uitsluiten van mobiele apparaten.
 
 <!-- Referenced links -->
 [1]: ../recipients/learn/index.md#selections
@@ -103,7 +103,7 @@ Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selectee
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
 [6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
-[7]: ../../../en/email/mailgun/spf/index.md
+[7]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

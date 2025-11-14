@@ -1,9 +1,9 @@
-ï»¿---
+---
 uid: help-da-marketing-best-practices
 title: Bedste praksis
 description: Bedste praksis
 keywords: Marketing, marketingkampagne, udsendelse, tjekliste
-author: Bergfrid Dias, Jeanette Small StrÃ¸m
+author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
@@ -17,84 +17,84 @@ language: da
 
 # Bedste praksis
 
-* Brug standardskrifttyper for bedst mulig lÃ¦sbarhed uanset e-mailklient og webbrowser.
-* FÃ¸r du sender en udsendelse ud, bÃ¸r du [teste, at kundedata sÃ¦ttes korrekt ind i meddelelsen][4].
+* Brug standardskrifttyper for bedst mulig læsbarhed uanset e-mailklient og webbrowser.
+* Før du sender en udsendelse ud, bør du [teste, at kundedata sættes korrekt ind i meddelelsen][4].
 
 ## Tjekliste til marketingkampagne
 
-* Indhent udtrykkeligt samtykke fra dine eksisterende og potentielle kontakter til at modtage markedsfÃ¸ringskommunikation fra din virksomhed. Ã‰n mÃ¥de at bede om tilladelse pÃ¥ er via mailudsendelser eller webformularer. At sÃ¸ge tilladelse og gemme en registrering af det er hjÃ¸rnestenene i GDPR.
+* Indhent udtrykkeligt samtykke fra dine eksisterende og potentielle kontakter til at modtage markedsføringskommunikation fra din virksomhed. Én måde at bede om tilladelse på er via mailudsendelser eller webformularer. At søge tilladelse og gemme en registrering af det er hjørnestenene i GDPR.
 
-* [DokumentÃ©r de samtykker, du indhenter][5] til lovlig opbevaring af personoplysninger og afsendelse af e-marketingbeskeder.
+* [Dokumentér de samtykker, du indhenter][5] til lovlig opbevaring af personoplysninger og afsendelse af e-marketingbeskeder.
 
-* Giv dine kontakter en enkel og ligetil mÃ¥de at fravÃ¦lge dine e-mailmarketingkampagner pÃ¥ ved at inkludere tydeligt synlige [afmeldingslinks][3] i dine mails. En anden mÃ¥de at sikre, at du kun kontakter de personer, der Ã¸nsker at hÃ¸re fra dig, er ved at oprette et center for abonnementsadministration, hvor registrerede kan vÃ¦lge det indhold, de Ã¸nsker at modtage.
+* Giv dine kontakter en enkel og ligetil måde at fravælge dine e-mailmarketingkampagner på ved at inkludere tydeligt synlige [afmeldingslinks][3] i dine mails. En anden måde at sikre, at du kun kontakter de personer, der ønsker at høre fra dig, er ved at oprette et center for abonnementsadministration, hvor registrerede kan vælge det indhold, de ønsker at modtage.
 
-* Indhent nye tilladelser fra din eksisterende kundebase. Det betyder, at hvis du ikke er sikker pÃ¥, om du har de nÃ¸dvendige tilladelser eller ej, og hvis du ikke har givet dine kontakter mulighed for at fravÃ¦lge, kan det vÃ¦re nÃ¸dvendigt at indhente nye tilladelser. En kampagne til at "genindhente tilladelser" er ogsÃ¥ en god mÃ¥de at opdatere dine eksisterende registre pÃ¥.
+* Indhent nye tilladelser fra din eksisterende kundebase. Det betyder, at hvis du ikke er sikker på, om du har de nødvendige tilladelser eller ej, og hvis du ikke har givet dine kontakter mulighed for at fravælge, kan det være nødvendigt at indhente nye tilladelser. En kampagne til at "genindhente tilladelser" er også en god måde at opdatere dine eksisterende registre på.
 
 ## Skab relevante beskeder, der rammer dit publikum
 
-At skabe en god besked, der er relevant for dit publikum, er, hvor det hele bÃ¸r begynde. Det er sÃ¥ simpelt som det. TÃ¦nk pÃ¥ din egen e-mail-indbakke: Du har allerede meget at lÃ¦se, ting at fÃ¥ gjort, sÃ¥ ville du lÃ¦se beskeder, der ikke synes relevante? Sandsynligvis ikke, ikke sandt? SÃ¥ start med det.
+At skabe en god besked, der er relevant for dit publikum, er, hvor det hele bør begynde. Det er så simpelt som det. Tænk på din egen e-mail-indbakke: Du har allerede meget at læse, ting at få gjort, så ville du læse beskeder, der ikke synes relevante? Sandsynligvis ikke, ikke sandt? Så start med det.
 
-**GÃ¸r:**
+**Gør:**
 
-* **Skab beskeder, der er relevante for dit publikum**, som de vil finde vÃ¦rdifulde og nyttige. En af de bedste mÃ¥der at Ã¸ge leverbarheden i din e-mail-markedsfÃ¸ring er at have god interaktion med dit publikum. E-mailklienter giver point til afsendere, hvis e-mails Ã¥bnes, lÃ¦ses og besvares, sÃ¥ sÃ¸rg for, at du sender en besked med dit publikum i tankerne.
+* **Skab beskeder, der er relevante for dit publikum**, som de vil finde værdifulde og nyttige. En af de bedste måder at øge leverbarheden i din e-mail-markedsføring er at have god interaktion med dit publikum. E-mailklienter giver point til afsendere, hvis e-mails åbnes, læses og besvares, så sørg for, at du sender en besked med dit publikum i tankerne.
 
-* **Test dine e-mails**. Se dem i forskellige e-mailklienter som Outlook og Gmail, Ã¥bn dem pÃ¥ din mobiltelefon og computer, sÃ¸rg for, at billederne ser godt ud, og at alle links virker. Der er ogsÃ¥ flere e-mail-testlÃ¸sninger derude, der kan hjÃ¦lpe dig, som [Mailtrap][10] eller [Putsmail][11].
+* **Test dine e-mails**. Se dem i forskellige e-mailklienter som Outlook og Gmail, åbn dem på din mobiltelefon og computer, sørg for, at billederne ser godt ud, og at alle links virker. Der er også flere e-mail-testløsninger derude, der kan hjælpe dig, som [Mailtrap][10] eller [Putsmail][11].
 
-* **GÃ¸r det super nemt at [afmelde sig][3]**. Ingen vil miste abonnenter, men hvis nogen ikke lÃ¦ngere Ã¸nsker at modtage dine e-mails, skal de nemt kunne finde den mulighed. Hvis ikke kan folk vÃ¦re tilbÃ¸jelige til at rapportere dig som SPAM, hvilket vil vÃ¦re meget vÃ¦rre.
+* **Gør det super nemt at [afmelde sig][3]**. Ingen vil miste abonnenter, men hvis nogen ikke længere ønsker at modtage dine e-mails, skal de nemt kunne finde den mulighed. Hvis ikke kan folk være tilbøjelige til at rapportere dig som SPAM, hvilket vil være meget værre.
 
-* **SÃ¸rg for, at folk genkender dig**. NÃ¥r folk ser pÃ¥ din e-mail i deres indbakke, bÃ¸r de straks genkende, at den er fra dit firma. VÃ¦r igen Ã¦gte med dit publikum. Hvorfor skulle de Ã¥bne en besked fra nogen, de ikke kender?
+* **Sørg for, at folk genkender dig**. Når folk ser på din e-mail i deres indbakke, bør de straks genkende, at den er fra dit firma. Vær igen ægte med dit publikum. Hvorfor skulle de åbne en besked fra nogen, de ikke kender?
 
-**UndgÃ¥:**
+**Undgå:**
 
-* **UndgÃ¥ kun at bruge billeder**. En stor billede-e-mail kan betragtes som SPAM. Andre e-mail-lÃ¸sninger - som Outlook - kan blokere billeder i starten, sÃ¥ din besked gÃ¥r tabt.
+* **Undgå kun at bruge billeder**. En stor billede-e-mail kan betragtes som SPAM. Andre e-mail-løsninger - som Outlook - kan blokere billeder i starten, så din besked går tabt.
 
-* **UndgÃ¥ at se (og lyde) som SPAM**. Udtryk som "Tjen hurtige penge", "Kontantbonus" eller "Risikofri investering" vil fÃ¥ din e-mail til at se mistÃ¦nkelig ud. UndgÃ¥ disse spam-udlÃ¸serord. Behandle din e-mail som en samtale med dit publikum, vÃ¦r Ã¦gte med dem.
+* **Undgå at se (og lyde) som SPAM**. Udtryk som "Tjen hurtige penge", "Kontantbonus" eller "Risikofri investering" vil få din e-mail til at se mistænkelig ud. Undgå disse spam-udløserord. Behandle din e-mail som en samtale med dit publikum, vær ægte med dem.
 
-At have den rigtige besked vil tage dig langt, men for at sikre at du rammer plet, skal du ogsÃ¥ sende til de rigtige mennesker.
+At have den rigtige besked vil tage dig langt, men for at sikre at du rammer plet, skal du også sende til de rigtige mennesker.
 
-## Tag vare pÃ¥ din abonnentliste
+## Tag vare på din abonnentliste
 
-At fÃ¥ en god ry som e-mailafsender handler ogsÃ¥ om at tage vare pÃ¥ dine abonnentlister. Dette betyder fÃ¸rst og fremmest at sikre, at **oplysninger om dine kontakter er opdaterede**. At have mange [bounces][2] (de returnerede e-mails fra personer, der ikke lÃ¦ngere arbejder i en virksomhed eller har Ã¦ndret adresse) kan virkelig sÃ¦tte din ryg pÃ¥ spil og gÃ¸re dig til en kandidat til SPAM-mappen.
+At få en god ry som e-mailafsender handler også om at tage vare på dine abonnentlister. Dette betyder først og fremmest at sikre, at **oplysninger om dine kontakter er opdaterede**. At have mange [bounces][2] (de returnerede e-mails fra personer, der ikke længere arbejder i en virksomhed eller har ændret adresse) kan virkelig sætte din ryg på spil og gøre dig til en kandidat til SPAM-mappen.
 
-Det betyder ogsÃ¥ at sikre, at folk er interesserede i dine beskeder. Hvis en stor del af dit publikum ikke Ã¥bner eller engagerer sig med dine beskeder i lang tid, kan det vÃ¦re pÃ¥ tide at prÃ¸ve en anden tilgang med dem. Som du ved, er **engagement en nÃ¸glefaktor for leverbarhed**, sÃ¥ sÃ¸rg for at tjekke inaktive brugere, der ikke har Ã¥bnet dine e-mails i et stykke tid.
+Det betyder også at sikre, at folk er interesserede i dine beskeder. Hvis en stor del af dit publikum ikke åbner eller engagerer sig med dine beskeder i lang tid, kan det være på tide at prøve en anden tilgang med dem. Som du ved, er **engagement en nøglefaktor for leverbarhed**, så sørg for at tjekke inaktive brugere, der ikke har åbnet dine e-mails i et stykke tid.
 
-**Segmentering af dit publikum for at sende mere mÃ¥lrettede e-mails** er en god mÃ¥de at fÃ¥ den rigtige besked ud til de rigtige mennesker. I SuperOffice kan du bruge [udvalg][1] til at mÃ¥lrette specifikke grupper, som mennesker fra et bestemt land eller dem, der har vÃ¦ret i kontakt med dit firma for nylig. PÃ¥ den mÃ¥de kan du skabe endnu mere relevante beskeder, der vil fange lÃ¦serens opmÃ¦rksomhed.
+**Segmentering af dit publikum for at sende mere målrettede e-mails** er en god måde at få den rigtige besked ud til de rigtige mennesker. I SuperOffice kan du bruge [udvalg][1] til at målrette specifikke grupper, som mennesker fra et bestemt land eller dem, der har været i kontakt med dit firma for nylig. På den måde kan du skabe endnu mere relevante beskeder, der vil fange læserens opmærksomhed.
 
-## SÃ¸rg for at alle hjul drejer bag kulisserne
+## Sørg for at alle hjul drejer bag kulisserne
 
-Meget af leverbarheden i e-mail handler om at **skabe den rigtige oplevelse** for dit publikum. At vÃ¦re relevant, sikre at folk er interesserede, tage sig af abonnentlisten er store aspekter af, hvad der gÃ¸r en kampagne vellykket eller ej.
+Meget af leverbarheden i e-mail handler om at **skabe den rigtige oplevelse** for dit publikum. At være relevant, sikre at folk er interesserede, tage sig af abonnentlisten er store aspekter af, hvad der gør en kampagne vellykket eller ej.
 
-Men der er ogsÃ¥ nogle dele, der er mere bag kulisserne. Tekniske aspekter som **domÃ¦nereputation og autentificering** er en lige sÃ¥ vigtig del af puslespillet. I sidste ende skal alt arbejde sammen for at sikre, at e-mail-leverancer er helt prÃ¦cise.
+Men der er også nogle dele, der er mere bag kulisserne. Tekniske aspekter som **domænereputation og autentificering** er en lige så vigtig del af puslespillet. I sidste ende skal alt arbejde sammen for at sikre, at e-mail-leverancer er helt præcise.
 
-En af de vigtigste aspekter af disse tekniske dele er **[SPF-posten i dit domÃ¦ne][7]**. Hvis du ikke er fortrolig med denne term, vil det vÃ¦re nyttigt at forstÃ¥, hvad det er, og hvorfor det er vigtigt at sÃ¦tte op.
+En af de vigtigste aspekter af disse tekniske dele er **[SPF-posten i dit domæne][7]**. Hvis du ikke er fortrolig med denne term, vil det være nyttigt at forstå, hvad det er, og hvorfor det er vigtigt at sætte op.
 
-## Brug e-mail-domÃ¦nevalidering
+## Brug e-mail-domænevalidering
 
-ForhÃ¥bentlig bruger du allerede de fleksible muligheder for at personalisere og specificere Fra- og Svar-til-felterne, nÃ¥r du opsÃ¦tter en udsendelse i SuperOffice. Dette er fantastisk, nÃ¥r du vil tilfÃ¸je brugerdefineret tekst som **< Jeanette fra SuperOffice >** for at blive vist som afsender. Eller hvis du sender en e-mail pÃ¥ vegne af din kollega eller chef.
+Forhåbentlig bruger du allerede de fleksible muligheder for at personalisere og specificere Fra- og Svar-til-felterne, når du opsætter en udsendelse i SuperOffice. Dette er fantastisk, når du vil tilføje brugerdefineret tekst som **< Jeanette fra SuperOffice >** for at blive vist som afsender. Eller hvis du sender en e-mail på vegne af din kollega eller chef.
 
-Men hvis du tilfÃ¸jer en ikke-validerbar eller stavefejl e-mailadresse, kan det skade din e-mail-leverbarhed.
+Men hvis du tilføjer en ikke-validerbar eller stavefejl e-mailadresse, kan det skade din e-mail-leverbarhed.
 
-Administratorer kan [tilfÃ¸je valideret domÃ¦ne][6] i Indstillinger og vedligeholdelse for at sikre, at brugerne vÃ¦lger det korrekte og autentificerede domÃ¦ne.
+Administratorer kan [tilføje valideret domæne][6] i Indstillinger og vedligeholdelse for at sikre, at brugerne vælger det korrekte og autentificerede domæne.
 
-Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mailadresse i Fra-feltet, som en pÃ¥mindelse om at bruge autentificerede domÃ¦ner. Dette vil ogsÃ¥ hjÃ¦lpe med at undgÃ¥ stavefejl i domÃ¦net for e-mail-afsendelse.
+Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mailadresse i Fra-feltet, som en påmindelse om at bruge autentificerede domæner. Dette vil også hjælpe med at undgå stavefejl i domænet for e-mail-afsendelse.
 
 ## Automatisering
 
-* Angiv en maksimal ventetid for at undgÃ¥, at deltagere forbliver aktive i et flow for evigt.
+* Angiv en maksimal ventetid for at undgå, at deltagere forbliver aktive i et flow for evigt.
 
-* Opdater deltagere med nye oplysninger under flowet. For eksempel angiv en ny interesse eller en ny kategori, nÃ¥r personen udvikler sig; tilfÃ¸j og fjern dem fra lister.
+* Opdater deltagere med nye oplysninger under flowet. For eksempel angiv en ny interesse eller en ny kategori, når personen udvikler sig; tilføj og fjern dem fra lister.
 
-* For at undgÃ¥ duplikerede eller modstridende handlinger: Inkluder alle handlinger et sted, enten i formularen eller i flowet.
+* For at undgå duplikerede eller modstridende handlinger: Inkluder alle handlinger et sted, enten i formularen eller i flowet.
 
-* Du kan opnÃ¥ den samme effekt ved at have en opdeling i Ã©t flow eller arrangere kommunikationen i to forskellige flows. Om du skal opdele eller definere flere flows afhÃ¦nger af scenariet og hvilket resultat, du gerne vil spore. Jo mere to kommunikationsspor har til fÃ¦lles, desto mere effektivt er det for brugeren at arrangere det inden for det samme flow.
+* Du kan opnå den samme effekt ved at have en opdeling i ét flow eller arrangere kommunikationen i to forskellige flows. Om du skal opdele eller definere flere flows afhænger af scenariet og hvilket resultat, du gerne vil spore. Jo mere to kommunikationsspor har til fælles, desto mere effektivt er det for brugeren at arrangere det inden for det samme flow.
 
-## <a id="mobile"></a>Tilpasse meddelelsen til visning pÃ¥ mobile enheder
+## <a id="mobile"></a>Tilpasse meddelelsen til visning på mobile enheder
 
-Beskeden tilpasses automatisk til visning pÃ¥ mindre skÃ¦rme.
+Beskeden tilpasses automatisk til visning på mindre skærme.
 
-Klik pÃ¥ **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i den globale menu for at se, hvordan det ser ud pÃ¥ en smartphone. Du kan ogsÃ¥ klikke pÃ¥ et afsnit i meddelelsen og klikke pÃ¥ **Mobil** under **Indhold** i sidepanelet.
+Klik på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i den globale menu for at se, hvordan det ser ud på en smartphone. Du kan også klikke på et afsnit i meddelelsen og klikke på **Mobil** under **Indhold** i sidepanelet.
 
-Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du vÃ¦lge et afsnit i meddelelsen og klikke pÃ¥ **Mobil** i sidepanelet. Du kan nu definere formateringen for visning af meddelelsen pÃ¥ mobilenheder og ogsÃ¥ vÃ¦lge, hvilke elementer (f.eks. billeder) der skal udelades fra mobilenheder.
+Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du vælge et afsnit i meddelelsen og klikke på **Mobil** i sidepanelet. Du kan nu definere formateringen for visning af meddelelsen på mobilenheder og også vælge, hvilke elementer (f.eks. billeder) der skal udelades fra mobilenheder.
 
 <!-- Referenced links -->
 [1]: ../recipients/learn/index.md#selections
@@ -103,7 +103,7 @@ Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du vÃ¦
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
 [6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
-[7]: ../../../en/email/mailgun/spf/index.md
+[7]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

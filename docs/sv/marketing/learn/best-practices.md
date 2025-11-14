@@ -1,9 +1,9 @@
-ï»¿---
+---
 uid: help-sv-marketing-best-practices
-title: BÃ¤sta praxis
-description: BÃ¤sta praxis
-keywords: MarknadsfÃ¶ring, bÃ¤sta praxis, checklista
-author: Bergfrid Dias, Jeanette Small StrÃ¸m
+title: Bästa praxis
+description: Bästa praxis
+keywords: Marknadsföring, bästa praxis, checklista
+author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
@@ -15,86 +15,86 @@ redirect_from: /sv/marketing/learn/customize-for-mobile
 language: sv
 ---
 
-# BÃ¤sta praxis
+# Bästa praxis
 
-* AnvÃ¤nd standardteckensnitt fÃ¶r bÃ¤sta lÃ¤sbarhet oberoende av e-postklient och webblÃ¤sare.
-* Innan du skickar ett utskick bÃ¶r du [kontrollera att kunduppgifterna Ã¤r korrekt inlagda i meddelandet][4].
+* Använd standardteckensnitt för bästa läsbarhet oberoende av e-postklient och webbläsare.
+* Innan du skickar ett utskick bör du [kontrollera att kunduppgifterna är korrekt inlagda i meddelandet][4].
 
-## Checklista fÃ¶r marknadsfÃ¶ringskampanj
+## Checklista för marknadsföringskampanj
 
-* FÃ¥ uttryckligt samtycke frÃ¥n dina befintliga och potentiella kontakter om att ta emot marknadsfÃ¶ringskommunikation frÃ¥n ditt fÃ¶retag. Ett sÃ¤tt att be om tillstÃ¥nd Ã¤r via utskick eller webbformulÃ¤r. Att be om tillstÃ¥nd och lagra ett register Ã¶ver det utgÃ¶r hÃ¶rnstenar i GDPR.
+* Få uttryckligt samtycke från dina befintliga och potentiella kontakter om att ta emot marknadsföringskommunikation från ditt företag. Ett sätt att be om tillstånd är via utskick eller webbformulär. Att be om tillstånd och lagra ett register över det utgör hörnstenar i GDPR.
 
-* [Dokumentera eventuella samtycken du inhÃ¤mtar][5] om laglig lagring av personuppgifter och utskick av e-marknadsfÃ¶ringsmeddelanden.
+* [Dokumentera eventuella samtycken du inhämtar][5] om laglig lagring av personuppgifter och utskick av e-marknadsföringsmeddelanden.
 
-* Erbjud ett enkelt och okomplicerat sÃ¤tt fÃ¶r dina kontakter att vÃ¤lja bort dina e-postmarknadsfÃ¶ringskampanjer genom att inkludera tydligt synliga [avregistreringslÃ¤nkar][3] i dina utskick. Ett annat sÃ¤tt att se till att du bara kontaktar de personer som vill att du kontaktar dem Ã¤r att skapa ett prenumerationshanteringscenter dÃ¤r registrerade personer kan vÃ¤lja vilket innehÃ¥ll de vill ta emot.
+* Erbjud ett enkelt och okomplicerat sätt för dina kontakter att välja bort dina e-postmarknadsföringskampanjer genom att inkludera tydligt synliga [avregistreringslänkar][3] i dina utskick. Ett annat sätt att se till att du bara kontaktar de personer som vill att du kontaktar dem är att skapa ett prenumerationshanteringscenter där registrerade personer kan välja vilket innehåll de vill ta emot.
 
-* FÃ¥ nya tillstÃ¥nd frÃ¥n din befintliga kundbas. Det innebÃ¤r att om du inte Ã¤r sÃ¤ker pÃ¥ om du har de tillstÃ¥nd som krÃ¤vs och om du inte har gett dina kontakter mÃ¶jlighet att avregistrera sig kan du behÃ¶va inhÃ¤mta nya tillstÃ¥nd. Att skicka ut en kampanj fÃ¶r nya tillstÃ¥nd Ã¤r ocksÃ¥ ett bra sÃ¤tt att uppdatera dina befintliga register.
+* Få nya tillstånd från din befintliga kundbas. Det innebär att om du inte är säker på om du har de tillstånd som krävs och om du inte har gett dina kontakter möjlighet att avregistrera sig kan du behöva inhämta nya tillstånd. Att skicka ut en kampanj för nya tillstånd är också ett bra sätt att uppdatera dina befintliga register.
 
 ## Skapa relevanta meddelanden som resonera med din publik
 
-Att skapa ett bra meddelande som Ã¤r relevant fÃ¶r din publik Ã¤r dÃ¤r det borde bÃ¶rja. Det Ã¤r sÃ¥ enkelt som det. TÃ¤nk pÃ¥ din e-postinkorg: du har redan mycket att lÃ¤sa, saker att gÃ¶ra, sÃ¥ skulle du lÃ¤sa meddelanden som inte verkar relevanta? FÃ¶rmodligen inte, eller hur? SÃ¥ bÃ¶rja med det.
+Att skapa ett bra meddelande som är relevant för din publik är där det borde börja. Det är så enkelt som det. Tänk på din e-postinkorg: du har redan mycket att läsa, saker att göra, så skulle du läsa meddelanden som inte verkar relevanta? Förmodligen inte, eller hur? Så börja med det.
 
-**GÃ¶r:**
+**Gör:**
 
-* **Skapa meddelanden som Ã¤r relevanta fÃ¶r din publik**, som de kommer att finna vÃ¤rdefulla och anvÃ¤ndbara. Ett av de bÃ¤sta sÃ¤tten att Ã¶ka leverbarheten i din e-postmarknadsfÃ¶ring Ã¤r att ha bra engagemang med din publik. E-postklienter ger poÃ¤ng till avsÃ¤ndare vars e-post Ã¶ppnas, lÃ¤ses och besvaras, sÃ¥ se till att du skickar ett meddelande med din publik i Ã¥tanke.
+* **Skapa meddelanden som är relevanta för din publik**, som de kommer att finna värdefulla och användbara. Ett av de bästa sätten att öka leverbarheten i din e-postmarknadsföring är att ha bra engagemang med din publik. E-postklienter ger poäng till avsändare vars e-post öppnas, läses och besvaras, så se till att du skickar ett meddelande med din publik i åtanke.
 
-* **Testa dina e-postmeddelanden**. Se dem i olika e-postklienter som Outlook och Gmail, Ã¶ppna dem pÃ¥ din mobiltelefon och dator, se till att bilderna ser bra ut och att alla lÃ¤nkar fungerar. Det finns ocksÃ¥ flera e-posttestlÃ¶sningar dÃ¤r ute som kan hjÃ¤lpa dig, som [Mailtrap][10] eller [Putsmail][11].
+* **Testa dina e-postmeddelanden**. Se dem i olika e-postklienter som Outlook och Gmail, öppna dem på din mobiltelefon och dator, se till att bilderna ser bra ut och att alla länkar fungerar. Det finns också flera e-posttestlösningar där ute som kan hjälpa dig, som [Mailtrap][10] eller [Putsmail][11].
 
-* **GÃ¶r det superenkelt att [avregistrera sig][3]**. Ingen vill fÃ¶rlora prenumeranter, men om nÃ¥gon inte lÃ¤ngre vill ta emot dina e-postmeddelanden bÃ¶r de kunna hitta den mÃ¶jligheten enkelt. Om inte kan mÃ¤nniskor frestas att rapportera dig som SPAM, vilket blir mycket vÃ¤rre.
+* **Gör det superenkelt att [avregistrera sig][3]**. Ingen vill förlora prenumeranter, men om någon inte längre vill ta emot dina e-postmeddelanden bör de kunna hitta den möjligheten enkelt. Om inte kan människor frestas att rapportera dig som SPAM, vilket blir mycket värre.
 
-* **Se till att folk kÃ¤nner igen dig**. NÃ¤r folk tittar pÃ¥ ditt e-postmeddelande i sin inkorg bÃ¶r de omedelbart kÃ¤nna igen att det kommer frÃ¥n ditt fÃ¶retag. Var Ã¥terigen verklig med din publik. VarfÃ¶r skulle de Ã¶ppna ett meddelande frÃ¥n nÃ¥gon de inte kÃ¤nner?
+* **Se till att folk känner igen dig**. När folk tittar på ditt e-postmeddelande i sin inkorg bör de omedelbart känna igen att det kommer från ditt företag. Var återigen verklig med din publik. Varför skulle de öppna ett meddelande från någon de inte känner?
 
 **Undvik:**
 
-* **Undvik att anvÃ¤nda bara bilder**. Ett stort bildmeddelande kan betraktas som SPAM. Andra e-postlÃ¶sningar - som Outlook - kan blockera bilder frÃ¥n bÃ¶rjan, sÃ¥ ditt meddelande gÃ¥r fÃ¶rlorat.
+* **Undvik att använda bara bilder**. Ett stort bildmeddelande kan betraktas som SPAM. Andra e-postlösningar - som Outlook - kan blockera bilder från början, så ditt meddelande går förlorat.
 
-* **Undvik att se ut (och lÃ¥ta som) SPAM**. Uttryck som "TjÃ¤na pengar snabbt", "Kontantbonus" eller "Riskfri investering" kommer att fÃ¥ ditt e-postmeddelande att se misstÃ¤nkt ut. Undvik dessa spam-utlÃ¶sande ord. Behandla ditt e-postmeddelande som en konversation med din publik, var verklig med dem.
+* **Undvik att se ut (och låta som) SPAM**. Uttryck som "Tjäna pengar snabbt", "Kontantbonus" eller "Riskfri investering" kommer att få ditt e-postmeddelande att se misstänkt ut. Undvik dessa spam-utlösande ord. Behandla ditt e-postmeddelande som en konversation med din publik, var verklig med dem.
 
-Att ha rÃ¤tt meddelande kommer att ta dig lÃ¥ngt, men fÃ¶r att vara sÃ¤ker pÃ¥ att du trÃ¤ffar rÃ¤tt mÃ¥lgrupp mÃ¥ste du ocksÃ¥ skicka till rÃ¤tt mÃ¤nniskor.
+Att ha rätt meddelande kommer att ta dig långt, men för att vara säker på att du träffar rätt målgrupp måste du också skicka till rätt människor.
 
 ## Ta hand om din prenumerationslista
 
-Att fÃ¥ ett bra rykte som e-postavsÃ¤ndare handlar ocksÃ¥ om att ta hand om dina prenumerationslistor. Det innebÃ¤r fÃ¶rst och frÃ¤mst att se till att **informationen om dina kontakter Ã¤r uppdaterad**. Att ha mÃ¥nga [bounces][2] (de returnerade e-postmeddelandena frÃ¥n personer som inte lÃ¤ngre arbetar pÃ¥ ett fÃ¶retag eller har bytt adress) kan verkligen Ã¤ventyra ditt rykte och gÃ¶ra dig till en kandidat fÃ¶r SPAM-mappen.
+Att få ett bra rykte som e-postavsändare handlar också om att ta hand om dina prenumerationslistor. Det innebär först och främst att se till att **informationen om dina kontakter är uppdaterad**. Att ha många [bounces][2] (de returnerade e-postmeddelandena från personer som inte längre arbetar på ett företag eller har bytt adress) kan verkligen äventyra ditt rykte och göra dig till en kandidat för SPAM-mappen.
 
-Det innebÃ¤r ocksÃ¥ att se till att mÃ¤nniskor Ã¤r intresserade av dina meddelanden. Om en stor del av din publik inte Ã¶ppnar eller engagerar sig med dina meddelanden under lÃ¥ng tid kan det vara dags att prova nÃ¥gon annan metod med dem. Som du vet Ã¤r **engagemang en nyckelfaktor fÃ¶r leverbarhet**, sÃ¥ se till att kontrollera inaktiva anvÃ¤ndare som inte har Ã¶ppnat dina e-postmeddelanden pÃ¥ ett tag.
+Det innebär också att se till att människor är intresserade av dina meddelanden. Om en stor del av din publik inte öppnar eller engagerar sig med dina meddelanden under lång tid kan det vara dags att prova någon annan metod med dem. Som du vet är **engagemang en nyckelfaktor för leverbarhet**, så se till att kontrollera inaktiva användare som inte har öppnat dina e-postmeddelanden på ett tag.
 
-**Att segmentera din publik fÃ¶r att skicka mer riktade e-postmeddelanden** Ã¤r ett bra sÃ¤tt att fÃ¥ det rÃ¤tta meddelandet till rÃ¤tt mÃ¤nniskor. I SuperOffice kan du anvÃ¤nda [urval][1] fÃ¶r att rikta in specifika grupper, som mÃ¤nniskor frÃ¥n ett specifikt land eller som har varit i kontakt med ditt fÃ¶retag nyligen. PÃ¥ det sÃ¤ttet kan du skapa Ã¤nnu mer relevanta meddelanden som fÃ¥ngar lÃ¤sarens uppmÃ¤rksamhet.
+**Att segmentera din publik för att skicka mer riktade e-postmeddelanden** är ett bra sätt att få det rätta meddelandet till rätt människor. I SuperOffice kan du använda [urval][1] för att rikta in specifika grupper, som människor från ett specifikt land eller som har varit i kontakt med ditt företag nyligen. På det sättet kan du skapa ännu mer relevanta meddelanden som fångar läsarens uppmärksamhet.
 
 ## Se till att alla hjul snurrar bakom kulisserna
 
-Mycket av leverbarheten i e-post handlar om **att skapa den rÃ¤tta upplevelsen** fÃ¶r din publik. Att vara relevant, se till att folk Ã¤r intresserade, ta hand om prenumerationslistan Ã¤r stora aspekter av vad som gÃ¶r en kampanj framgÃ¥ngsrik eller inte.
+Mycket av leverbarheten i e-post handlar om **att skapa den rätta upplevelsen** för din publik. Att vara relevant, se till att folk är intresserade, ta hand om prenumerationslistan är stora aspekter av vad som gör en kampanj framgångsrik eller inte.
 
-Men det finns ocksÃ¥ nÃ¥gra delar som Ã¤r mer bakom kulisserna. Tekniska aspekter som **domÃ¤nrykte och autentisering** Ã¤r en lika viktig del av detta pussel. I slutÃ¤ndan mÃ¥ste allt samverka fÃ¶r att sÃ¤kerstÃ¤lla att e-postleveranser Ã¤r prickiga.
+Men det finns också några delar som är mer bakom kulisserna. Tekniska aspekter som **domänrykte och autentisering** är en lika viktig del av detta pussel. I slutändan måste allt samverka för att säkerställa att e-postleveranser är prickiga.
 
-En av de viktigaste aspekterna av dessa tekniska delar Ã¤r **[SPF-posten i din domÃ¤n][7]**. Om du inte Ã¤r bekant med den hÃ¤r termen kan det vara bra att fÃ¶rstÃ¥ vad det Ã¤r och varfÃ¶r det Ã¤r viktigt att stÃ¤lla in.
+En av de viktigaste aspekterna av dessa tekniska delar är **[SPF-posten i din domän][7]**. Om du inte är bekant med den här termen kan det vara bra att förstå vad det är och varför det är viktigt att ställa in.
 
-## AnvÃ¤nd e-postdomÃ¤nvalidering
+## Använd e-postdomänvalidering
 
-FÃ¶rhoppningsvis anvÃ¤nder du redan de flexibla alternativen fÃ¶r att anpassa och specificera FrÃ¥n- och Svar-till-fÃ¤lten nÃ¤r du stÃ¤ller in en utskick i SuperOffice. Det Ã¤r bra nÃ¤r du vill lÃ¤gga till anpassad text som **< Jeanette frÃ¥n SuperOffice >** fÃ¶r att visas som avsÃ¤ndare. Eller om du skickar ett e-postmeddelande pÃ¥ uppdrag av din kollega eller chef.
+Förhoppningsvis använder du redan de flexibla alternativen för att anpassa och specificera Från- och Svar-till-fälten när du ställer in en utskick i SuperOffice. Det är bra när du vill lägga till anpassad text som **< Jeanette från SuperOffice >** för att visas som avsändare. Eller om du skickar ett e-postmeddelande på uppdrag av din kollega eller chef.
 
-Men om du lÃ¤gger till en ej validerad eller felstavad e-postadress kan det skada din e-postleverbarhet.
+Men om du lägger till en ej validerad eller felstavad e-postadress kan det skada din e-postleverbarhet.
 
-AdministratÃ¶rer kan [lÃ¤gga till validerad domÃ¤n][6] under InstÃ¤llningar och underhÃ¥ll fÃ¶r att se till att anvÃ¤ndarna vÃ¤ljer rÃ¤tt och autentiserad domÃ¤n.
+Administratörer kan [lägga till validerad domän][6] under Inställningar och underhåll för att se till att användarna väljer rätt och autentiserad domän.
 
-InnehÃ¥llsfÃ¶rfattare kommer att se ett meddelande om de anvÃ¤nder en ej validerad e-postadress i FrÃ¥n-fÃ¤ltet, som en pÃ¥minnelse om att anvÃ¤nda autentiserade domÃ¤ner. Detta kommer ocksÃ¥ att hjÃ¤lpa till att undvika stavfel i domÃ¤nen fÃ¶r e-postutskick.
+Innehållsförfattare kommer att se ett meddelande om de använder en ej validerad e-postadress i Från-fältet, som en påminnelse om att använda autentiserade domäner. Detta kommer också att hjälpa till att undvika stavfel i domänen för e-postutskick.
 
 ## Automatisering
 
-* Ange en maximal vÃ¤ntetid fÃ¶r att undvika att deltagare fÃ¶rblir aktiva i ett flÃ¶de fÃ¶r alltid.
+* Ange en maximal väntetid för att undvika att deltagare förblir aktiva i ett flöde för alltid.
 
-* Uppdatera deltagare med ny information under flÃ¶det. Till exempel, ange ett nytt intresse eller en ny kategori nÃ¤r personen utvecklas; lÃ¤gg till och ta bort dem frÃ¥n listor.
+* Uppdatera deltagare med ny information under flödet. Till exempel, ange ett nytt intresse eller en ny kategori när personen utvecklas; lägg till och ta bort dem från listor.
 
-* FÃ¶r att undvika duplicerade eller motstridiga Ã¥tgÃ¤rder: Inkludera alla Ã¥tgÃ¤rder pÃ¥ ett stÃ¤lle, antingen i formulÃ¤ret eller i flÃ¶det.
+* För att undvika duplicerade eller motstridiga åtgärder: Inkludera alla åtgärder på ett ställe, antingen i formuläret eller i flödet.
 
-* Du kan uppnÃ¥ samma effekt genom att ha en uppdelning i ett flÃ¶de eller arrangera kommunikationen i tvÃ¥ olika flÃ¶den. Om du ska dela upp eller definiera flera flÃ¶den beror pÃ¥ scenariot och vilket resultat du vill spÃ¥ra. Ju mer tvÃ¥ kommunikationsspÃ¥r har gemensamt, desto mer effektivt Ã¤r det fÃ¶r anvÃ¤ndaren att arrangera det inom samma flÃ¶de.
+* Du kan uppnå samma effekt genom att ha en uppdelning i ett flöde eller arrangera kommunikationen i två olika flöden. Om du ska dela upp eller definiera flera flöden beror på scenariot och vilket resultat du vill spåra. Ju mer två kommunikationsspår har gemensamt, desto mer effektivt är det för användaren att arrangera det inom samma flöde.
 
-## <a id="mobile"></a>Anpassa meddelandet fÃ¶r visning pÃ¥ mobila enheter
+## <a id="mobile"></a>Anpassa meddelandet för visning på mobila enheter
 
-Meddelandet anpassas automatiskt fÃ¶r visning pÃ¥ mindre skÃ¤rmar.
+Meddelandet anpassas automatiskt för visning på mindre skärmar.
 
-Du kan klicka pÃ¥ **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) pÃ¥ den globala menyn fÃ¶r att se hur utskicket ser ut pÃ¥ en smarttelefon. Du kan ocksÃ¥ klicka pÃ¥ ett avsnitt i meddelandet och klicka pÃ¥ **Mobil** under **InnehÃ¥ll** i sidopanelen.
+Du kan klicka på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) på den globala menyn för att se hur utskicket ser ut på en smarttelefon. Du kan också klicka på ett avsnitt i meddelandet och klicka på **Mobil** under **Innehåll** i sidopanelen.
 
-Om du vill justera de mobilspecifika instÃ¤llningarna fÃ¶r ett meddelande, vÃ¤ljer du ett avsnitt och klickar pÃ¥ **Mobil** i sidopanelen. Du kan nu definiera formateringen fÃ¶r visning av meddelandet pÃ¥ mobila enheter, och Ã¤ven vÃ¤lja vilka element (sÃ¥som bilder) som ska exkluderas frÃ¥n mobila enheter.
+Om du vill justera de mobilspecifika inställningarna för ett meddelande, väljer du ett avsnitt och klickar på **Mobil** i sidopanelen. Du kan nu definiera formateringen för visning av meddelandet på mobila enheter, och även välja vilka element (såsom bilder) som ska exkluderas från mobila enheter.
 
 <!-- Referenced links -->
 [1]: ../recipients/learn/index.md#selections
@@ -103,7 +103,7 @@ Om du vill justera de mobilspecifika instÃ¤llningarna fÃ¶r ett meddelande, vÃ¤lj
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
 [6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
-[7]: ../../../en/email/mailgun/spf/index.md
+[7]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

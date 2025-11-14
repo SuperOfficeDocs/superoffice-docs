@@ -78,6 +78,6 @@ User plans are what the user is paying for. They define multiple implied, hidden
 The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
 
 <!-- Referenced links -->
-[1]: ../../database/tables/ModuleOwner.md
-[2]: ../../database/tables/ModuleLicense.md
-[3]: ../../database/tables/LicenseAssocLink.md
+[1]: https://docs.superoffice.com/en/database/tables/ModuleOwner.html
+[2]: https://docs.superoffice.com/en/database/tables/ModuleLicense.html
+[3]: https://docs.superoffice.com/en/database/tables/LicenseAssocLink.html
