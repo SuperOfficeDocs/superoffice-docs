@@ -80,6 +80,6 @@ If an anonymous user or a system user is no longer to have the option of logging
 4. Click the **Delete** button. The user is removed from the list.
 
 <!-- Referenced links -->
-[1]: ../../../../en/admin/license/expander-services/index.md
+[1]: https://docs.superoffice.com/en/admin/license/expander-services.html
 
 <!-- Referenced images -->

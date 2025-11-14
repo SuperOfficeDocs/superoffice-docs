@@ -3,4 +3,4 @@
 > Für diese Funktion ist eine [Development Tools][1]-Lizenz erforderlich. Dies ist eine zusätzliche Gebühr pro Standort.
 
 <!-- Referenced links -->
-[1]: ../../en/admin/license/expander-services/tool-box.md
+[1]: https://docs.superoffice.com/de/admin/license/expander-services.html
