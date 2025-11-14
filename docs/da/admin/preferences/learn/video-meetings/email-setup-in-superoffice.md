@@ -43,6 +43,6 @@ For at sende en invitation via e-mail til eksterne brugere skal du:
 * [Sådan konfigureres e-mailinvitationer til videomøder][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../../integrations/video-meetings/howto/configure-email-invitations.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/configure-email-invitations.html
 
 <!-- Referenced images --

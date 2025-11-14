@@ -72,7 +72,7 @@ By installing WebTools you will get your email and documents integrated with Sup
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/no/support-faqs/faq/what-is-superoffice-web-tools-and-what-does-it-do/
-[2]: ../../../../integrations/webtools/install.md
+[2]: https://docs.superoffice.com/integrations/webtools/install.html
 [3]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/web-tools-work-faster-with-email-and-documents/
 
 <!-- Referenced images -->

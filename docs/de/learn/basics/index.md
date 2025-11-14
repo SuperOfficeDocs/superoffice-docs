@@ -110,7 +110,7 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 [7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/invitation/add-attendee.md
-[11]: ../../../../integrations/video-meetings/index.md
+[11]: https://docs.superoffice.com/integrations/video-meetings/index.html
 [12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md

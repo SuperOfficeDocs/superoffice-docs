@@ -43,6 +43,6 @@ To send an invitation by email to external users, you must:
 * [How to configure email invitations for video meetings][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../../integrations/video-meetings/howto/configure-email-invitations.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/configure-email-invitations.html
 
 <!-- Referenced images --

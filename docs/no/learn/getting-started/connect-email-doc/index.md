@@ -63,11 +63,11 @@ Integrasjonene du trenger avhenger av operativsystemet, e-postklienten og dokume
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../../../integrations/webtools/install.md
+[4]: https://docs.superoffice.com/integrations/webtools/install.html
 [6]: ../../../email/inbox/learn/setup.md
-[7]: ../../../../../integrations/superoffice-for-outlook/index.md
+[7]: https://docs.superoffice.com/integrations/superoffice-for-outlook/index.html
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
-[9]: ../../../../../integrations/gmail-link/index.md
+[9]: https://docs.superoffice.com/integrations/gmail-link/index.html
 [10]: default-mac.md
 
 <!-- Referenced images -->

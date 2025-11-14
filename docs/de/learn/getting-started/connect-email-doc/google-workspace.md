@@ -49,6 +49,6 @@ Wählen Sie eine der folgenden Optionen:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../../../integrations/gmail-link/index.md
-[3]: ../../../../../integrations/g-suite/index.md
+[2]: https://docs.superoffice.com/integrations/gmail-link/index.html
+[3]: https://docs.superoffice.com/integrations/g-suite/index.html
 [11]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link

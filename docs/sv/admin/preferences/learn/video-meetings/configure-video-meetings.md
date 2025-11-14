@@ -45,7 +45,7 @@ language: sv
 Om du vill välja en annan leverantör eller ändra konfigurationen klickar du på **Konfigurera**.
 
 <!-- Referenced links -->
-[1]: ../../../../../../integrations/video-meetings/index.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/index.html
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

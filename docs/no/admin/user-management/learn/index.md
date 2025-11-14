@@ -127,7 +127,7 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 [3]: change-user-plan.md
 [4]: role/edit-rights-for-anonymous-users.md
 [6]: ../../license/learn/activate.md
-[7]: ../../../../../integrations/webtools/install.md
+[7]: https://docs.superoffice.com/integrations/webtools/install.html
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/admin/admin-users-overview.png

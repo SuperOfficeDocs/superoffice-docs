@@ -43,6 +43,6 @@ För att kunna skicka inbjudningar via e-post till externa användare måste du
 * [Så konfigurerar du e-postinbjudningar till videomöten][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../../integrations/video-meetings/howto/configure-email-invitations.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/configure-email-invitations.html
 
 <!-- Referenced images --

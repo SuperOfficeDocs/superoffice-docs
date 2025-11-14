@@ -47,5 +47,5 @@ Choose one of the following options:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../../../integrations/webtools/install.md
+[2]: https://docs.superoffice.com/integrations/webtools/install.html
 [9]: default-mac.md

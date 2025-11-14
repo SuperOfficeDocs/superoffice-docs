@@ -94,7 +94,7 @@ Klikk på avtalen i SuperOffice-dagboken for å se detaljene i sidepanelet. (Akt
 For å bli med i videomøtet via forhåndsvisningsskjermen, klikker du bare på **Bli med i møte**-knappen. Etter at du har klikket på den, starter videomøtet automatisk.
 
 <!-- Referenced links -->
-[1]: ../../../../integrations/video-meetings/howto/connect-provider.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/connect-provider.html
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->

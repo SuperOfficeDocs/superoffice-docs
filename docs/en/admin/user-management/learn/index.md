@@ -167,7 +167,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [7]: role/functional-rights.md
 [15]: ../../preferences/learn/index.md
 [16]: ../../license/learn/activate.md
-[17]: ../../../../../integrations/webtools/install.md
+[17]: https://docs.superoffice.com/integrations/webtools/install.html
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/admin/access-right-system.png
