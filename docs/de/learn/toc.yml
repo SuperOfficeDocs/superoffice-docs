@@ -49,9 +49,6 @@ items:
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
 
-  - name: Mobile CRM
-    href: ../mobile/superoffice-mobile/index.md
-
   - name: Wissensdatenbank
     href: ../knowledge-base/learn/toc.yml
     topicHref: ../knowledge-base/learn/index.md

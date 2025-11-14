@@ -61,7 +61,7 @@ highlightedContent:
     - title: Mobile CRM
       itemType: /media/common/phone-h32.png
       isImage: "true"
-      url: ../../en/mobile/superoffice-mobile/index.md
+      url: https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 # conceptualContent section (optional)
 conceptualContent:

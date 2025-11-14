@@ -75,7 +75,7 @@ Opdag det fulde potentiale af SuperOffice CRM. Brug vores trin-for-trin vejledni
 [6]: login.md
 [7]: preferences.md
 [8]: connect-email-doc/index.md
-[9]: ../../../en/mobile/superoffice-mobile/index.md
+[9]: https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 [11]: ../basics/fav.md
 [13]: ../basics/activity.md

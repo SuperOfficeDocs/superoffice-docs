@@ -187,7 +187,7 @@ Interesser er nyttige for å opprette målrettede utvalg, for eksempel markedsf�
 * [Legg til som favoritt][4]
 
 <!-- Referenced links -->
-[1]: ../../../en/mobile/superoffice-mobile/contact/scan-business-card.md
+[1]: https://docs.superoffice.com/en/mobile/superoffice-mobile/contact/scan-business-card.html
 [2]: ../../admin/import/learn/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
