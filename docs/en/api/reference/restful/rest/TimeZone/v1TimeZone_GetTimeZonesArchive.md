@@ -40,12 +40,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=sunt
-GET /api/v1/TimeZone?$top=976
-GET /api/v1/TimeZone?$skip=388
+GET /api/v1/TimeZone?$entities=est
+GET /api/v1/TimeZone?$top=838
+GET /api/v1/TimeZone?$skip=265
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=illo
+GET /api/v1/TimeZone?$context=dolorum
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -97,19 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "id",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 1610,
-      "EntityName": "person",
-      "personId": 1610,
-      "fullName": "Lucio Hessel I"
+      "PrimaryKey": 6833,
+      "EntityName": "sale",
+      "saleId": 6833,
+      "contactId": 811,
+      "name": "Schoen-Purdy"
     },
     {
-      "PrimaryKey": 6822,
-      "EntityName": "person",
-      "personId": 6822,
-      "fullName": "London Turner"
+      "PrimaryKey": 1005,
+      "EntityName": "sale",
+      "saleId": 1005,
+      "contactId": 3622,
+      "name": "Towne-Feeney"
     }
   ]
 }

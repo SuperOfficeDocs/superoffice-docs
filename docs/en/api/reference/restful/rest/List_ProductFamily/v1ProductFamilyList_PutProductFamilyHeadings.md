@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 464,
-    "Name": "Lebsack-Dooley",
-    "Tooltip": "doloremque",
+    "HeadingId": 314,
+    "Name": "Ullrich, Zieme and Hudson",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 953
+    "Rank": 383,
+    "UdListDefinitionId": 445
   },
   {
-    "HeadingId": 464,
-    "Name": "Lebsack-Dooley",
-    "Tooltip": "doloremque",
+    "HeadingId": 314,
+    "Name": "Ullrich, Zieme and Hudson",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 953
+    "Rank": 383,
+    "UdListDefinitionId": 445
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 615,
-    "Name": "Stokes Inc and Sons",
+    "HeadingId": 416,
+    "Name": "Gutkowski-Schuppe",
     "Tooltip": "et",
     "Deleted": false,
-    "Rank": 268,
-    "UdListDefinitionId": 814,
+    "Rank": 221,
+    "UdListDefinitionId": 147,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 710
       }
     }
   }

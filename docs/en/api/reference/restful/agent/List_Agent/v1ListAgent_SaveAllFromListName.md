@@ -82,27 +82,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hickle-Kovacek",
+  "UdListDefinitionName": "Connelly-Harvey",
   "Items": [
     {
-      "Id": 858,
-      "Name": "Hessel-Orn",
-      "Tooltip": "cum",
-      "Deleted": false,
-      "UdListDefinitionId": 547,
-      "Rank": 32
+      "Id": 540,
+      "Name": "Kemmer-Rolfson",
+      "Tooltip": "beatae",
+      "Deleted": true,
+      "UdListDefinitionId": 796,
+      "Rank": 119
     },
     {
-      "Id": 858,
-      "Name": "Hessel-Orn",
-      "Tooltip": "cum",
-      "Deleted": false,
-      "UdListDefinitionId": 547,
-      "Rank": 32
+      "Id": 540,
+      "Name": "Kemmer-Rolfson",
+      "Tooltip": "beatae",
+      "Deleted": true,
+      "UdListDefinitionId": 796,
+      "Rank": 119
     }
   ]
 }
@@ -116,18 +116,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "White LLC",
-    "Tooltip": "ex",
+    "Id": 156,
+    "Name": "Heaney LLC",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 87,
-    "Rank": 674,
+    "UdListDefinitionId": 940,
+    "Rank": 292,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

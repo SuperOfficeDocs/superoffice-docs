@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 311,
-      "PrefDescId": 460,
-      "PrefValue": "eos",
-      "PrefShowValue": "odit",
-      "Description": "Right-sized 24 hour projection",
-      "IsBuiltin": true
+      "PrefDescLineId": 150,
+      "PrefDescId": 339,
+      "PrefValue": "sunt",
+      "PrefShowValue": "ab",
+      "Description": "Stand-alone motivating benchmark",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 311,
-      "PrefDescId": 460,
-      "PrefValue": "eos",
-      "PrefShowValue": "odit",
-      "Description": "Right-sized 24 hour projection",
-      "IsBuiltin": true
+      "PrefDescLineId": 150,
+      "PrefDescId": 339,
+      "PrefValue": "sunt",
+      "PrefShowValue": "ab",
+      "Description": "Stand-alone motivating benchmark",
+      "IsBuiltin": false
     }
   ]
 }
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 399,
-    "PrefDescId": 930,
-    "PrefValue": "laudantium",
-    "PrefShowValue": "ut",
-    "Description": "Operative disintermediate standardization",
+    "PrefDescLineId": 449,
+    "PrefDescId": 371,
+    "PrefValue": "provident",
+    "PrefShowValue": "ad",
+    "Description": "Re-contextualized dynamic paradigm",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

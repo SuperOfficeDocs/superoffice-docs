@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Zboncak Inc and Sons",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "UdListDefinitionId": 478,
-  "Rank": 124,
+  "Id": 815,
+  "Name": "Swaniawski-Bradtke",
+  "Tooltip": "excepturi",
+  "Deleted": false,
+  "UdListDefinitionId": 464,
+  "Rank": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

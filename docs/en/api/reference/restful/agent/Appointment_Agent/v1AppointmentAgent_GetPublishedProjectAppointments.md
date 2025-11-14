@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 989
+  "ProjectId": 49
 }
 ```
 
@@ -146,67 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 88,
-    "StartDate": "2021-04-05T03:40:45.6231158+02:00",
-    "EndDate": "2023-09-05T03:40:45.6231158+02:00",
+    "AppointmentId": 329,
+    "StartDate": "2006-02-15T02:30:46.522607+01:00",
+    "EndDate": "2017-09-07T02:30:46.522607+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ullam",
-    "AssociateFullName": "Vilma Renner",
-    "ContactName": "Macejkovic-Bradtke",
-    "Description": "Realigned exuding internet solution",
-    "PersonFullName": "Emmet Marks",
-    "PersonId": 148,
-    "ContactId": 682,
-    "ProjectId": 609,
-    "ProjectName": "Hudson, Lockman and Homenick",
+    "Task": "esse",
+    "AssociateFullName": "Waldo Wilson Deckow I",
+    "ContactName": "Stracke, Moore and Goldner",
+    "Description": "Re-engineered attitude-oriented frame",
+    "PersonFullName": "Arne Goyette",
+    "PersonId": 339,
+    "ContactId": 302,
+    "ProjectId": 224,
+    "ProjectName": "Hoppe Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 602,
-    "ColorIndex": 532,
-    "IsFree": true,
+    "AssociateId": 110,
+    "ColorIndex": 37,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 30,
-    "PriorityName": "Keebler, Jones and Schneider",
+    "PriorityId": 562,
+    "PriorityName": "Schuster, Tillman and Ebert",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2014-10-04T03:40:45.6231158+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2022-06-11T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-01-26T03:40:45.6231158+01:00",
-    "RecurringEndDate": "2009-10-01T03:40:45.6231158+02:00",
-    "MotherId": 385,
-    "AssignedBy": 618,
-    "AssignedByFullName": "Thaddeus Robel",
+    "RecurringStartDate": "2004-06-28T02:30:46.522607+02:00",
+    "RecurringEndDate": "2006-03-08T02:30:46.522607+01:00",
+    "MotherId": 484,
+    "AssignedBy": 191,
+    "AssignedByFullName": "Mrs. Estelle Bria Emmerich Sr.",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "accusantium",
-    "SaleId": 237,
-    "SaleName": "Stanton, Halvorson and Zboncak",
-    "AssociateName": "Murray, Jacobi and Turcotte",
-    "CreatedDate": "2022-08-13T03:40:45.6231158+02:00",
-    "CreatedBy": "at",
-    "CreatedByFullName": "Veronica Orn",
-    "CreatedByAssociateId": 968,
+    "Location": "dolore",
+    "AlarmLeadTime": "eos",
+    "SaleId": 104,
+    "SaleName": "Koepp-Rau",
+    "AssociateName": "Sporer-Blanda",
+    "CreatedDate": "2016-07-02T02:30:46.522607+02:00",
+    "CreatedBy": "magnam",
+    "CreatedByFullName": "Scot Cummings",
+    "CreatedByAssociateId": 202,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 257,
+    "MotherAssociateId": 658,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 735,
-    "Title": "deleniti",
-    "Agenda": "hic",
-    "InternalNotes": "alias",
+    "PreferredTZLocation": 634,
+    "Title": "et",
+    "Agenda": "occaecati",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldLength": 698
       }
     }
   }

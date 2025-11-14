@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 735,
-    "Name": "Lemke Inc and Sons",
-    "Description": "Function-based didactic capability",
+    "ProjectId": 362,
+    "Name": "Crona, Schoen and Roberts",
+    "Description": "Streamlined 24 hour local area network",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 950,
-    "AssociateFullName": "Marty Grant",
-    "TypeId": 23,
-    "Updated": "1998-11-30T03:40:47.4999832+01:00",
-    "StatusId": 173,
-    "Status": "ut",
-    "TextId": 868,
-    "PublishTo": "2014-11-02T03:40:47.4999832+01:00",
-    "PublishFrom": "2000-01-30T03:40:47.4999832+01:00",
+    "Type": "numquam",
+    "AssociateId": 723,
+    "AssociateFullName": "Wilson Quigley",
+    "TypeId": 584,
+    "Updated": "2011-08-24T02:30:47.6944454+02:00",
+    "StatusId": 699,
+    "Status": "amet",
+    "TextId": 18,
+    "PublishTo": "2001-06-19T02:30:47.6944454+02:00",
+    "PublishFrom": "2001-03-24T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "900747",
-    "ActiveErpLinks": 145,
+    "ProjectNumber": "801548",
+    "ActiveErpLinks": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 275
       }
     }
   }

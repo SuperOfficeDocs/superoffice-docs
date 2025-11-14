@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 89,
-    "FieldName": "Hartmann-D'Amore",
-    "Label": "quia",
-    "Tooltip": "aut",
+    "QuoteLineConfigurationId": 214,
+    "FieldName": "Hoeger Group",
+    "Label": "magni",
+    "Tooltip": "consectetur",
     "Editable": true,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 837,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 463,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

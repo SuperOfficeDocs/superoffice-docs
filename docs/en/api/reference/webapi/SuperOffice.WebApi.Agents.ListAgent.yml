@@ -594,72 +594,6 @@ items:
   overload: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTaskMenuAsync*
   implements:
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTaskMenuAsync(SuperOffice.WebApi.RequestOptions)
-- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-  id: SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ListAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTaskMenuAsync(TaskMenu, RequestOptions)
-  nameWithType: ListAgent.SaveTaskMenuAsync(TaskMenu, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
-  example: []
-  syntax:
-    content: public Task<TaskMenu> SaveTaskMenuAsync(TaskMenu taskMenu, RequestOptions requestOptions = null)
-    parameters:
-    - id: taskMenu
-      type: SuperOffice.WebApi.Data.TaskMenu
-      description: The TaskMenu that is saved.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TaskMenu}
-      description: New or updated TaskMenu
-    content.vb: Public Function SaveTaskMenuAsync(taskMenu As TaskMenu, requestOptions As RequestOptions = Nothing) As Task(Of TaskMenu)
-  overload: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ListAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteTaskMenuAsync(int, RequestOptions)
-  nameWithType: ListAgent.DeleteTaskMenuAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(int, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the TaskMenu
-  example: []
-  syntax:
-    content: public Task DeleteTaskMenuAsync(int taskMenuId, RequestOptions requestOptions = null)
-    parameters:
-    - id: taskMenuId
-      type: System.Int32
-      description: The identity of the TaskMenu
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteTaskMenuAsync(taskMenuId As Integer, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ListAgent.DeleteTaskMenuAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteTaskMenuAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultCurrencyEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultCurrencyEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultCurrencyEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -1922,38 +1856,6 @@ items:
   overload: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultWebPanelEntityAsync*
   implements:
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultWebPanelEntityAsync(SuperOffice.WebApi.RequestOptions)
-- uid: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-  id: SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ListAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
-  nameWithType: ListAgent.SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
-  example: []
-  syntax:
-    content: public Task<WebPanelEntity> SaveWebPanelEntityAsync(WebPanelEntity webPanelEntity, RequestOptions requestOptions = null)
-    parameters:
-    - id: webPanelEntity
-      type: SuperOffice.WebApi.Data.WebPanelEntity
-      description: The WebPanelEntity that is saved.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebPanelEntity}
-      description: New or updated WebPanelEntity
-    content.vb: Public Function SaveWebPanelEntityAsync(webPanelEntity As WebPanelEntity, requestOptions As RequestOptions = Nothing) As Task(Of WebPanelEntity)
-  overload: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetAmountClassEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.GetAmountClassEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetAmountClassEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2356,6 +2258,73 @@ items:
   nameWithType.vb: ListAgent.GetTaskMenuAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ListAgent.GetTaskMenuAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetTaskMenuAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+  id: SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTaskMenuAsync(TaskMenu, RequestOptions)
+  nameWithType: ListAgent.SaveTaskMenuAsync(TaskMenu, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<TaskMenu> SaveTaskMenuAsync(TaskMenu taskMenu, RequestOptions requestOptions = null)
+    parameters:
+    - id: taskMenu
+      type: SuperOffice.WebApi.Data.TaskMenu
+      description: The TaskMenu that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TaskMenu}
+      description: New or updated TaskMenu
+    content.vb: Public Function SaveTaskMenuAsync(taskMenu As TaskMenu, requestOptions As RequestOptions = Nothing) As Task(Of TaskMenu)
+  overload: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTaskMenuAsync(int, RequestOptions)
+  nameWithType: ListAgent.DeleteTaskMenuAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the TaskMenu
+  example: []
+  syntax:
+    content: public Task DeleteTaskMenuAsync(int taskMenuId, RequestOptions requestOptions = null)
+    parameters:
+    - id: taskMenuId
+      type: System.Int32
+      description: The identity of the TaskMenu.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteTaskMenuAsync(taskMenuId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ListAgent.DeleteTaskMenuAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteTaskMenuAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetAppTaskMenusAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.GetAppTaskMenusAsync(SuperOffice.WebApi.RequestOptions)
   id: GetAppTaskMenusAsync(SuperOffice.WebApi.RequestOptions)
@@ -10592,6 +10561,38 @@ items:
   nameWithType.vb: ListAgent.GetWebPanelEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ListAgent.GetWebPanelEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetWebPanelEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
+  nameWithType: ListAgent.SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<WebPanelEntity> SaveWebPanelEntityAsync(WebPanelEntity webPanelEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: webPanelEntity
+      type: SuperOffice.WebApi.Data.WebPanelEntity
+      description: The WebPanelEntity to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebPanelEntity}
+      description: New or updated WebPanelEntity.
+    content.vb: Public Function SaveWebPanelEntityAsync(webPanelEntity As WebPanelEntity, requestOptions As RequestOptions = Nothing) As Task(Of WebPanelEntity)
+  overload: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.GenerateNavigationUrlAsync(SuperOffice.WebApi.Data.Navigation,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.GenerateNavigationUrlAsync(SuperOffice.WebApi.Data.Navigation,System.String,SuperOffice.WebApi.RequestOptions)
   id: GenerateNavigationUrlAsync(SuperOffice.WebApi.Data.Navigation,System.String,SuperOffice.WebApi.RequestOptions)
@@ -12398,134 +12399,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.TaskMenu.html
   - name: )
-- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
-  name: SaveTaskMenuAsync
-  nameWithType: ListAgent.SaveTaskMenuAsync
-  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync
-- uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IListAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
-  name: SaveTaskMenuAsync(TaskMenu, RequestOptions)
-  nameWithType: IListAgent.SaveTaskMenuAsync(TaskMenu, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-    name: SaveTaskMenuAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: SuperOffice.WebApi.Data.TaskMenu
-    name: TaskMenu
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TaskMenu.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
-    name: SaveTaskMenuAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: SuperOffice.WebApi.Data.TaskMenu
-    name: TaskMenu
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TaskMenu.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: SuperOffice.WebApi.Data.TaskMenu
-  commentId: T:SuperOffice.WebApi.Data.TaskMenu
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TaskMenu.html
-  name: TaskMenu
-  nameWithType: TaskMenu
-  fullName: SuperOffice.WebApi.Data.TaskMenu
-- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: DeleteTaskMenuAsync
-  nameWithType: ListAgent.DeleteTaskMenuAsync
-  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync
-- uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IListAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: DeleteTaskMenuAsync(int, RequestOptions)
-  nameWithType: IListAgent.DeleteTaskMenuAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IListAgent.DeleteTaskMenuAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteTaskMenuAsync(Integer, RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: DeleteTaskMenuAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: DeleteTaskMenuAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultCurrencyEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultCurrencyEntityAsync
   isExternal: true
@@ -13223,6 +13096,25 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultListEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultListEntityAsync
   isExternal: true
@@ -14969,63 +14861,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.WebPanelEntity.html
   - name: )
-- uid: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
-  name: SaveWebPanelEntityAsync
-  nameWithType: ListAgent.SaveWebPanelEntityAsync
-  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync
-- uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IListAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
-  name: SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
-  nameWithType: IListAgent.SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-    name: SaveWebPanelEntityAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: SuperOffice.WebApi.Data.WebPanelEntity
-    name: WebPanelEntity
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WebPanelEntity.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
-    name: SaveWebPanelEntityAsync
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
-  - name: (
-  - uid: SuperOffice.WebApi.Data.WebPanelEntity
-    name: WebPanelEntity
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WebPanelEntity.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: SuperOffice.WebApi.Data.WebPanelEntity
-  commentId: T:SuperOffice.WebApi.Data.WebPanelEntity
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WebPanelEntity.html
-  name: WebPanelEntity
-  nameWithType: WebPanelEntity
-  fullName: SuperOffice.WebApi.Data.WebPanelEntity
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetAmountClassEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GetAmountClassEntityAsync
   isExternal: true
@@ -15850,6 +15685,115 @@ references:
     name: GetTaskMenuAsync
     isExternal: true
     href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_GetTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
+  name: SaveTaskMenuAsync
+  nameWithType: ListAgent.SaveTaskMenuAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
+  name: SaveTaskMenuAsync(TaskMenu, RequestOptions)
+  nameWithType: IListAgent.SaveTaskMenuAsync(TaskMenu, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+    name: SaveTaskMenuAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TaskMenu
+    name: TaskMenu
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TaskMenu.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
+    name: SaveTaskMenuAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTaskMenuAsync_SuperOffice_WebApi_Data_TaskMenu_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TaskMenu
+    name: TaskMenu
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TaskMenu.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.TaskMenu
+  commentId: T:SuperOffice.WebApi.Data.TaskMenu
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TaskMenu.html
+  name: TaskMenu
+  nameWithType: TaskMenu
+  fullName: SuperOffice.WebApi.Data.TaskMenu
+- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteTaskMenuAsync
+  nameWithType: ListAgent.DeleteTaskMenuAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteTaskMenuAsync(int, RequestOptions)
+  nameWithType: IListAgent.DeleteTaskMenuAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IListAgent.DeleteTaskMenuAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteTaskMenuAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteTaskMenuAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteTaskMenuAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTaskMenuAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
   - uid: System.Int32
     name: Integer
@@ -32670,6 +32614,63 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveWebPanelEntityAsync
+  nameWithType: ListAgent.SaveWebPanelEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
+  nameWithType: IListAgent.SaveWebPanelEntityAsync(WebPanelEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveWebPanelEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.WebPanelEntity
+    name: WebPanelEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebPanelEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveWebPanelEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveWebPanelEntityAsync_SuperOffice_WebApi_Data_WebPanelEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.WebPanelEntity
+    name: WebPanelEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebPanelEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.WebPanelEntity
+  commentId: T:SuperOffice.WebApi.Data.WebPanelEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WebPanelEntity.html
+  name: WebPanelEntity
+  nameWithType: WebPanelEntity
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity
 - uid: SuperOffice.WebApi.Agents.ListAgent.GenerateNavigationUrlAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GenerateNavigationUrlAsync
   isExternal: true

@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 212,
-    "Name": "Hackett-Robel",
-    "OrgNr": "875485",
+    "ContactId": 466,
+    "Name": "Ortiz Inc and Sons",
+    "OrgNr": "909653",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ullam",
-    "DirectPhone": "719.021.7383 x95726",
-    "AssociateId": 200,
-    "CountryId": 478,
-    "EmailAddress": "leonard.daniel@west.ca",
-    "Kananame": "occaecati",
-    "EmailAddressName": "meda_gusikowski@white.uk",
+    "City": "et",
+    "DirectPhone": "164.835.9425 x590",
+    "AssociateId": 337,
+    "CountryId": 473,
+    "EmailAddress": "donna@goldner.co.uk",
+    "Kananame": "in",
+    "EmailAddressName": "deion.wyman@prohaska.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Giuseppe Nienow",
+    "AssociateFullName": "Dr. Nicolas Adrien McCullough",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "ad",
-    "FullName": "Theron Lindgren",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 790,
-    "Number1": "814537",
-    "Number2": "1487806",
+    "FormattedAddress": "voluptatibus",
+    "FullName": "Mr. Adaline Damon Roberts",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 444,
+    "Number1": "1122773",
+    "Number2": "775142",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

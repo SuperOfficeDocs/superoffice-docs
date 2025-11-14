@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Haag LLC",
-    "ToolTip": "Ipsa omnis dicta nostrum aut placeat perferendis.",
-    "Deleted": true,
-    "Rank": 251,
-    "Type": "sit",
+    "Id": 926,
+    "Name": "Jacobs-Harris",
+    "ToolTip": "Similique nam excepturi id ut rem doloribus suscipit.",
+    "Deleted": false,
+    "Rank": 176,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Grant-Simonis",
-        "ToolTip": "Ab nostrum maxime qui animi in debitis.",
-        "Deleted": false,
-        "Rank": 978,
-        "Type": "expedita",
+        "Id": 132,
+        "Name": "Kling, Ernser and Sawayn",
+        "ToolTip": "At perspiciatis optio aut.",
+        "Deleted": true,
+        "Rank": 227,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 644,
-        "ExtraInfo": "quis",
-        "StyleHint": "eius",
-        "FullName": "Prof. Patrick Klein V",
+        "IconHint": "aut",
+        "ColorBlock": 860,
+        "ExtraInfo": "tempore",
+        "StyleHint": "doloremque",
+        "FullName": "Mrs. Constance Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 237
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 689,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "eos",
-    "FullName": "Boris Fritsch",
+    "IconHint": "quia",
+    "ColorBlock": 180,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sequi",
+    "FullName": "Ms. London Amanda Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 232
       }
     }
   }

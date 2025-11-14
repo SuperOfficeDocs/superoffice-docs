@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "Name": "Jacobs, Fay and Kuhn",
-  "Tooltip": "impedit",
+  "Id": 989,
+  "Name": "Berge, Lesch and Rice",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 521,
-  "Rank": 384,
+  "UdListDefinitionId": 851,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

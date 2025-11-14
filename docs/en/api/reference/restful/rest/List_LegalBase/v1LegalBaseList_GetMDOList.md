@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=voluptatem
+GET /api/v1/List/LegalBase/MDOItems?query=nihil
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Mayert Group",
-    "ToolTip": "Magnam ducimus et necessitatibus non.",
-    "Deleted": false,
-    "Rank": 768,
-    "Type": "voluptatem",
+    "Id": 187,
+    "Name": "Bartell Group",
+    "ToolTip": "Amet ex exercitationem magni ut aut.",
+    "Deleted": true,
+    "Rank": 682,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Kassulke-Skiles",
-        "ToolTip": "Explicabo vitae ut aut et odio blanditiis.",
-        "Deleted": false,
-        "Rank": 627,
-        "Type": "aspernatur",
+        "Id": 233,
+        "Name": "Schuster LLC",
+        "ToolTip": "Numquam at ut.",
+        "Deleted": true,
+        "Rank": 41,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 714,
-        "ExtraInfo": "atque",
-        "StyleHint": "eius",
-        "FullName": "Nathanial Lubowitz",
+        "IconHint": "in",
+        "ColorBlock": 167,
+        "ExtraInfo": "qui",
+        "StyleHint": "totam",
+        "FullName": "Alia Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 211
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 943,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "quis",
-    "FullName": "Mrs. Keith Terence Ankunding",
+    "IconHint": "maiores",
+    "ColorBlock": 786,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ut",
+    "FullName": "Makenna Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 726
       }
     }
   }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 543,
-  "LanguageId": 906
+  "ReplyTemplateId": 252,
+  "LanguageId": 453
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 747,
-  "PlainParsed": "ducimus",
-  "HtmlParsed": "temporibus",
+  "ReplyTemplateId": 536,
+  "PlainParsed": "et",
+  "HtmlParsed": "voluptatem",
   "Attachments": [
     {
-      "AttachmentId": 991,
-      "Name": "Johnston-Skiles",
-      "ContentType": "sunt",
-      "AttSize": 757,
+      "AttachmentId": 949,
+      "Name": "Spinka, Barrows and Braun",
+      "ContentType": "ab",
+      "AttSize": 594,
       "InlineImage": true,
-      "ContentId": "aut",
-      "AuthKey": "ullam",
-      "IsSafeFileExtension": true,
+      "ContentId": "sunt",
+      "AuthKey": "saepe",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 196
         }
       }
     }
   ],
-  "Subject": "dolor",
+  "Subject": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 145
     }
   }
 }

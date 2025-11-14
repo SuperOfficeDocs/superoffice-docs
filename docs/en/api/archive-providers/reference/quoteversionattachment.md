@@ -86,7 +86,7 @@ This is the archive Provider for quote version attachments.
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -112,7 +112,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=associate/associateDbId,name,associate/firstName
+GET /api/v1/archive/QuoteVersionAttachment?$select=documentPublish/isPublished,name,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

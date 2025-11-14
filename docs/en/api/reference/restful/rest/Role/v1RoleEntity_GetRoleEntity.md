@@ -89,7 +89,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,16 +99,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 751,
-  "Name": "Spinka Inc and Sons",
-  "Tooltip": "eligendi",
+  "RoleId": 126,
+  "Name": "Gorczany, Osinski and Hammes",
+  "Tooltip": "laboriosam",
   "RoleType": "Anonymous",
-  "Deleted": 785,
-  "Rank": 989,
-  "Created": "2020-11-13T03:40:56.0699234+01:00",
-  "UseCategories": 313,
+  "Deleted": 918,
+  "Rank": 429,
+  "Created": "2001-08-02T02:30:52.8349052+02:00",
+  "UseCategories": 589,
   "CreatedBy": null,
-  "Updated": "2014-11-22T03:40:56.0699234+01:00",
+  "Updated": "2019-11-05T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -116,12 +116,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldLength": 594
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

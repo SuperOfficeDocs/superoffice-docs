@@ -102,12 +102,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 420,
-  "Count": 678
+  "AmountLimit": 113,
+  "Count": 137
 }
 ```
 
@@ -119,37 +119,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Orn-Dicki",
-    "SaleDate": "2022-09-23T03:40:47.6723407+02:00",
-    "SaleId": 86,
-    "Probability": 561,
-    "Title": "quo",
-    "Amount": 29243.354,
-    "Currency": "commodi",
-    "ProjectName": "Buckridge-Hoeger",
-    "AssociateFullName": "Prof. Turner Garry Ebert Jr.",
-    "Description": "Decentralized intangible policy",
+    "ContactName": "Cartwright-Larson",
+    "SaleDate": "2003-08-19T02:30:47.7881925+02:00",
+    "SaleId": 434,
+    "Probability": 928,
+    "Title": "dolore",
+    "Amount": 7900.8139999999994,
+    "Currency": "quia",
+    "ProjectName": "Klein, Wintheiser and Kozey",
+    "AssociateFullName": "Quincy Cormier",
+    "Description": "Secured solution-oriented access",
     "Status": "Lost",
-    "WeightedAmount": 25410.471999999998,
-    "ProjectId": 357,
-    "EarningPercent": 4936.05,
-    "Earning": 19919.703999999998,
-    "ContactId": 860,
-    "AssociateId": 816,
-    "PersonId": 634,
-    "SaleTypeId": 190,
-    "SaleTypeName": "Towne, Dickens and Gerlach",
-    "PersonFullName": "Ward Bahringer II",
+    "WeightedAmount": 20678.131999999998,
+    "ProjectId": 829,
+    "EarningPercent": 4707.268,
+    "Earning": 17240.134,
+    "ContactId": 993,
+    "AssociateId": 697,
+    "PersonId": 850,
+    "SaleTypeId": 29,
+    "SaleTypeName": "Haag, Schaden and Rutherford",
+    "PersonFullName": "Ms. Alisa Cormier",
     "Completed": "Completed",
-    "ActiveErpLinks": 588,
-    "NextDueDate": "2008-08-10T03:40:47.6723407+02:00",
-    "Number": "948541",
+    "ActiveErpLinks": 859,
+    "NextDueDate": "2022-03-26T02:30:47.7881925+01:00",
+    "Number": "1402226",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 195
       }
     }
   }

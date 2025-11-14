@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 965,
-  "MinDate": "2024-02-12T03:40:46.7498885+01:00",
-  "MaxDate": "2008-11-08T03:40:46.7498885+01:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 184,
+  "MinDate": "2017-05-12T02:30:47.2257111+02:00",
+  "MaxDate": "2002-12-28T02:30:47.2257111+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 765,
-  "NumDocumentsAlreadyMigrated": 160,
+  "NumDocumentsOmitted": 716,
+  "NumDocumentsAlreadyMigrated": 241,
   "Documents": [
     {
-      "DocumentId": 753,
-      "ContactId": 356,
-      "PersonId": 888,
-      "SaleId": 807,
-      "ProjectId": 771,
-      "DocTmplId": 319,
-      "AssociateId": 158,
-      "UserGroupId": 471,
-      "VisibleForId": 379
+      "DocumentId": 750,
+      "ContactId": 760,
+      "PersonId": 473,
+      "SaleId": 60,
+      "ProjectId": 918,
+      "DocTmplId": 573,
+      "AssociateId": 847,
+      "UserGroupId": 373,
+      "VisibleForId": 996
     }
   ],
   "Associates": [
     {
-      "AssociateId": 197,
-      "EmailAddress": "agnes.moen@watersdooley.ca"
+      "AssociateId": 210,
+      "EmailAddress": "mohamed.schmidt@kunde.name"
     },
     {
-      "AssociateId": 197,
-      "EmailAddress": "agnes.moen@watersdooley.ca"
+      "AssociateId": 210,
+      "EmailAddress": "mohamed.schmidt@kunde.name"
     }
   ]
 }

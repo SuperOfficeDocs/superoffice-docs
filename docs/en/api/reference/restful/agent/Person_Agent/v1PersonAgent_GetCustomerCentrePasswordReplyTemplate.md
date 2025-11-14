@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 613
+  "PersonId": 119
 }
 ```
 
@@ -95,36 +95,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 17,
-  "PlainParsed": "dignissimos",
-  "HtmlParsed": "consequatur",
+  "ReplyTemplateId": 929,
+  "PlainParsed": "et",
+  "HtmlParsed": "voluptas",
   "Attachments": [
     {
-      "AttachmentId": 944,
-      "Name": "Heidenreich-Muller",
-      "ContentType": "nobis",
-      "AttSize": 235,
-      "InlineImage": true,
-      "ContentId": "omnis",
-      "AuthKey": "voluptatibus",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 183,
+      "Name": "Von, Dare and Hamill",
+      "ContentType": "quia",
+      "AttSize": 888,
+      "InlineImage": false,
+      "ContentId": "tenetur",
+      "AuthKey": "delectus",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 622
         }
       }
     }
   ],
-  "Subject": "molestiae",
+  "Subject": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 18
     }
   }
 }

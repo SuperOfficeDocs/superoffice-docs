@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Osinski, Wolff and Thiel",
-    "ToolTip": "Ut voluptas sed vitae harum molestiae.",
+    "Id": 273,
+    "Name": "Konopelski Inc and Sons",
+    "ToolTip": "Odit est.",
     "Deleted": false,
-    "Rank": 837,
-    "Type": "est",
-    "ColorBlock": 299,
-    "IconHint": "iusto",
+    "Rank": 418,
+    "Type": "quos",
+    "ColorBlock": 843,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2005-10-16T03:40:56.711976+02:00",
+    "LastChanged": "2012-03-14T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Goldner LLC",
-        "ToolTip": "Assumenda perspiciatis rerum est qui.",
-        "Deleted": true,
-        "Rank": 246,
-        "Type": "labore",
-        "ColorBlock": 16,
-        "IconHint": "consequatur",
+        "Id": 22,
+        "Name": "Prohaska, Mann and Daugherty",
+        "ToolTip": "Odio dolores ut dolor quis.",
+        "Deleted": false,
+        "Rank": 558,
+        "Type": "autem",
+        "ColorBlock": 212,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "1999-06-17T03:40:56.711976+02:00",
+        "LastChanged": "2002-07-18T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "eos",
-        "StyleHint": "natus",
+        "StyleHint": "deleniti",
         "Hidden": true,
-        "FullName": "Louisa Schaefer",
+        "FullName": "Imogene Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 356
+            "FieldType": "System.Int32",
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Mr. Thalia Ethel Mayert Sr.",
+    "ExtraInfo": "in",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Filomena Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldLength": 484
       }
     }
   }

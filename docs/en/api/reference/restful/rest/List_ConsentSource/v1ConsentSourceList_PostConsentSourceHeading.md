@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 874,
-  "Name": "Pfeffer Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 407,
+  "Name": "Doyle-Kerluke",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 916,
-  "UdListDefinitionId": 172
+  "Rank": 517,
+  "UdListDefinitionId": 107
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 579,
-  "Name": "Feeney Group",
-  "Tooltip": "optio",
+  "HeadingId": 564,
+  "Name": "Gutkowski, Kuphal and Lesch",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 420,
-  "UdListDefinitionId": 105,
+  "Rank": 679,
+  "UdListDefinitionId": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 840
     }
   }
 }

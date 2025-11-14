@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 431
+  "UserGroupId": 442
 }
 ```
 
@@ -89,6 +89,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   false,
-  false
+  true
 ]
 ```

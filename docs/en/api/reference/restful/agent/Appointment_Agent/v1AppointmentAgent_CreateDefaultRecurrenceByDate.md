@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2011-09-20T03:40:45.935643+02:00"
+  "StartDate": "2001-04-01T02:30:46.6632264+02:00"
 }
 ```
 
@@ -101,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 245,
-  "StartDate": "2013-06-10T03:40:45.935643+02:00",
-  "EndDate": "2009-06-08T03:40:45.935643+02:00",
-  "RecurrenceCounter": 488,
+  "RecurrenceId": 370,
+  "StartDate": "2016-01-09T02:30:46.6632264+01:00",
+  "EndDate": "1999-04-20T02:30:46.6632264+02:00",
+  "RecurrenceCounter": 214,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-07-05T03:40:45.935643+02:00",
+      "Date": "2015-07-26T02:30:46.6632264+02:00",
       "IsConflict": true,
-      "Description": "Configurable fresh-thinking core",
-      "DescriptionStyleHint": "Ameliorated modular capability",
-      "Tooltip": "ratione"
+      "Description": "Synergistic executive migration",
+      "DescriptionStyleHint": "Compatible homogeneous archive",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2006-07-05T03:40:45.935643+02:00",
+      "Date": "2015-07-26T02:30:46.6632264+02:00",
       "IsConflict": true,
-      "Description": "Configurable fresh-thinking core",
-      "DescriptionStyleHint": "Ameliorated modular capability",
-      "Tooltip": "ratione"
+      "Description": "Synergistic executive migration",
+      "DescriptionStyleHint": "Compatible homogeneous archive",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": true

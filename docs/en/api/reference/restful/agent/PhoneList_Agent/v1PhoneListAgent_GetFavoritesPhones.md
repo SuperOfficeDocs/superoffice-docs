@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-304-302-2228 x8097",
-    "PersonCellPhone": "1-453-414-2910 x0130",
-    "PersonPrivatePhone": "1-934-444-2130",
-    "PersonFaxNumber": "930584",
-    "PersonPagerNumber": "1219180",
-    "PersonEmail": "christy_hauck@turcotte.info",
-    "Id": 814,
-    "Name": "Kautzer, Schmidt and Kihn",
-    "Tooltip": "assumenda",
-    "UniqueId": "quia",
+    "PersonDirectPhone": "(848)570-8755 x28423",
+    "PersonCellPhone": "142.360.8231 x0878",
+    "PersonPrivatePhone": "195.963.6643 x2909",
+    "PersonFaxNumber": "1014732",
+    "PersonPagerNumber": "673558",
+    "PersonEmail": "jazmin@wittingmorissette.name",
+    "Id": 855,
+    "Name": "Conroy-Hansen",
+    "Tooltip": "ducimus",
+    "UniqueId": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldLength": 276
       }
     }
   }

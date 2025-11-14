@@ -72,17 +72,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shields, Fahey and Botsford",
+  "Name": "Thiel LLC",
   "Values": [
     "voluptas",
-    "assumenda"
+    "rerum"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

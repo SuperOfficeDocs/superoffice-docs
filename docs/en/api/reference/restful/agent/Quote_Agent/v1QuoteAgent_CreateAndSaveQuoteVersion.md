@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 855
+  "QuoteVersionId": 864
 }
 ```
 
@@ -129,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 16,
-  "ERPQuoteVersionKey": "asperiores",
-  "QuoteId": 96,
-  "Description": "Automated interactive framework",
-  "Number": "1359017",
+  "QuoteVersionId": 183,
+  "ERPQuoteVersionKey": "doloremque",
+  "QuoteId": 841,
+  "Description": "Proactive non-volatile adapter",
+  "Number": "1521049",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 546,
-  "SentDate": "2012-08-03T03:40:47.5161986+02:00",
-  "FollowupId": 340,
-  "ExpirationDate": "2015-05-10T03:40:47.5161986+02:00",
-  "DeliveryCountryId": 343,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 709,
+  "LikelyQuoteAlternativeId": 84,
+  "SentDate": "2002-02-01T02:30:47.7100701+01:00",
+  "FollowupId": 582,
+  "ExpirationDate": "2013-09-15T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 185,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 225,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "excepturi",
-  "ERPPaymentTypeKey": "illo",
-  "ERPDeliveryTermsKey": "ut",
-  "ERPDeliveryTypeKey": "explicabo",
-  "Rank": 658,
-  "ApprovedBy": 364,
-  "ApprovedText": "aperiam",
-  "ApprovedRegisteredBy": 388,
-  "ApprovedRegisteredDate": "2000-06-16T03:40:47.5161986+02:00",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "sed",
-  "ExtraField3": "quos",
-  "ExtraField4": "magnam",
-  "ExtraField5": "ab",
-  "LastRecalculated": "2019-11-16T03:40:47.5161986+01:00",
-  "Updated": "2010-09-03T03:40:47.5161986+02:00",
-  "UpdatedAssociateId": 893,
-  "Registered": "2021-01-30T03:40:47.5161986+01:00",
-  "RegisteredAssociateId": 888,
-  "RequestAssociateId": 882,
-  "RequestComment": "magni",
+  "ERPPaymentTermsKey": "doloribus",
+  "ERPPaymentTypeKey": "magnam",
+  "ERPDeliveryTermsKey": "quas",
+  "ERPDeliveryTypeKey": "impedit",
+  "Rank": 70,
+  "ApprovedBy": 87,
+  "ApprovedText": "eum",
+  "ApprovedRegisteredBy": 724,
+  "ApprovedRegisteredDate": "2013-10-09T02:30:47.7100701+02:00",
+  "ExtraField1": "sed",
+  "ExtraField2": "aut",
+  "ExtraField3": "id",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "consequatur",
+  "LastRecalculated": "2012-05-10T02:30:47.7100701+02:00",
+  "Updated": "2009-05-24T02:30:47.7100701+02:00",
+  "UpdatedAssociateId": 780,
+  "Registered": "2025-01-28T02:30:47.7100701+01:00",
+  "RegisteredAssociateId": 641,
+  "RequestAssociateId": 779,
+  "RequestComment": "aperiam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 875,
-      "ERPQuoteAlternativeKey": "dolor",
-      "QuoteVersionId": 38,
-      "Name": "Bayer-Aufderhar",
-      "Description": "User-friendly eco-centric leverage",
+      "QuoteAlternativeId": 682,
+      "ERPQuoteAlternativeKey": "quos",
+      "QuoteVersionId": 308,
+      "Name": "Legros, Grimes and Blick",
+      "Description": "Pre-emptive attitude-oriented Graphic Interface",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 10874.98,
-      "ERPDiscountAmount": 5995.342,
-      "DiscountPercent": 7057.768,
-      "DiscountAmount": 20471.288,
+      "ERPDiscountPercent": 5387.346,
+      "ERPDiscountAmount": 14585.636,
+      "DiscountPercent": 30155.347999999998,
+      "DiscountAmount": 6894.8,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dolorem",
-      "VAT": 667.542,
-      "EarningPercent": 28882.944,
-      "EarningAmount": 3977.046,
-      "SubTotal": 28403.442,
-      "TotalPrice": 14124.938,
-      "ExtraField1": "aspernatur",
-      "ExtraField2": "sint",
-      "ExtraField3": "unde",
-      "ExtraField4": "et",
-      "ExtraField5": "necessitatibus",
+      "VATInfo": "soluta",
+      "VAT": 26673.474,
+      "EarningPercent": 31039.136,
+      "EarningAmount": 17635.018,
+      "SubTotal": 4227.766,
+      "TotalPrice": 22038.288,
+      "ExtraField1": "minima",
+      "ExtraField2": "nam",
+      "ExtraField3": "in",
+      "ExtraField4": "voluptatum",
+      "ExtraField5": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 895
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

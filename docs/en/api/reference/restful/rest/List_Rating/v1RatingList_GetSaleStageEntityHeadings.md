@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 544,
-    "Name": "Orn Group",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 148,
-    "UdListDefinitionId": 780,
+    "HeadingId": 128,
+    "Name": "Simonis, Armstrong and Fadel",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 519,
+    "UdListDefinitionId": 472,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 640
       }
     }
   }

@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Gleason, Roberts and Ferry",
-  "Tooltip": "inventore",
+  "Id": 358,
+  "Name": "Mitchell Inc and Sons",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 51,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 739,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Kautzer, Yost and Jacobi",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 601,
+  "Id": 530,
+  "Name": "Bartoletti, Nitzsche and Moore",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 580,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

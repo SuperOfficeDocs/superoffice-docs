@@ -85,18 +85,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 316,
-  "Name": "Gottlieb Inc and Sons",
-  "Rank": 524,
-  "Tooltip": "dolor",
+  "AssociateId": 247,
+  "Name": "Witting-Schulist",
+  "Rank": 536,
+  "Tooltip": "quia",
   "LicenseOwners": [
     {
-      "Name": "Greenholt, Waelchi and Mante",
-      "Description": "Re-engineered upward-trending methodology",
+      "Name": "Brekke Inc and Sons",
+      "Description": "Streamlined intangible process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Greenholt, Waelchi and Mante",
-      "Description": "Re-engineered upward-trending methodology",
+      "Name": "Brekke Inc and Sons",
+      "Description": "Streamlined intangible process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,87 +123,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "doloribus",
-      "Tooltip": "ut",
-      "Id": 897,
-      "Rank": 206,
+      "Value": "sed",
+      "Tooltip": "delectus",
+      "Id": 331,
+      "Rank": 458,
       "Deleted": false
     },
     {
-      "Value": "doloribus",
-      "Tooltip": "ut",
-      "Id": 897,
-      "Rank": 206,
+      "Value": "sed",
+      "Tooltip": "delectus",
+      "Id": 331,
+      "Rank": 458,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2008-08-16T03:40:56.6338462+02:00",
-  "Lastlogout": "2021-06-24T03:40:56.6338462+02:00",
-  "EjUserId": 783,
+  "Lastlogin": "2001-03-18T02:30:53.16302+01:00",
+  "Lastlogout": "2008-06-05T02:30:53.16302+02:00",
+  "EjUserId": 195,
   "RequestSignature": "veritatis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "tempore"
+      "Value": "sunt",
+      "DisplayValue": "architecto"
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "tempore"
+      "Value": "sunt",
+      "DisplayValue": "architecto"
     }
   ],
-  "UserName": "Parker Inc and Sons",
+  "UserName": "Monahan Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 639,
-      "Name": "Heathcote, Hamill and Weissnat",
-      "ToolTip": "Non totam et odio similique consequatur.",
-      "Deleted": false,
-      "Rank": 972,
-      "Type": "similique",
+      "Id": 319,
+      "Name": "Kessler, Eichmann and Schulist",
+      "ToolTip": "Ut aspernatur est sit quidem excepturi in tenetur.",
+      "Deleted": true,
+      "Rank": 601,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "provident",
-      "ColorBlock": 437,
-      "ExtraInfo": "beatae",
-      "StyleHint": "magni",
-      "FullName": "Mrs. Joanne McKenzie"
+      "IconHint": "voluptas",
+      "ColorBlock": 712,
+      "ExtraInfo": "tempora",
+      "StyleHint": "exercitationem",
+      "FullName": "Tre Yost"
     }
   ],
-  "NickName": "Batz Inc and Sons",
-  "WaitingForApproval": true,
+  "NickName": "Legros, Walker and Hayes",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "eaque"
+    "CustomFields1": "et",
+    "CustomFields2": "consequatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Toy, O'Conner and Crist",
-      "DisplayName": "Simonis Group",
-      "Description": "Switchable homogeneous portal",
-      "ToolTip": "Repellat a fugiat cumque doloremque id minima distinctio.",
+      "Name": "Blick, Beahan and Dibbert",
+      "DisplayName": "Volkman Inc and Sons",
+      "Description": "Total object-oriented neural-net",
+      "ToolTip": "Nesciunt quo porro enim accusantium qui voluptatem.",
       "Actions": "Implicit",
-      "ActionData": "reprehenderit"
+      "ActionData": "est"
     },
     {
-      "Name": "Toy, O'Conner and Crist",
-      "DisplayName": "Simonis Group",
-      "Description": "Switchable homogeneous portal",
-      "ToolTip": "Repellat a fugiat cumque doloremque id minima distinctio.",
+      "Name": "Blick, Beahan and Dibbert",
+      "DisplayName": "Volkman Inc and Sons",
+      "Description": "Total object-oriented neural-net",
+      "ToolTip": "Nesciunt quo porro enim accusantium qui voluptatem.",
       "Actions": "Implicit",
-      "ActionData": "reprehenderit"
+      "ActionData": "est"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repudiandae",
-  "2": "est"
+  "1": "quis",
+  "2": "nisi"
 }
 ```

@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 142,
-  "Name": "Cremin, McKenzie and Boehm",
-  "Tooltip": "voluptas",
+  "HeadingId": 990,
+  "Name": "Jaskolski Group",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "Rank": 558,
-  "UdListDefinitionId": 504
+  "Rank": 878,
+  "UdListDefinitionId": 404
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 883,
-  "Name": "Hickle-Smitham",
-  "Tooltip": "architecto",
+  "HeadingId": 982,
+  "Name": "Carter-Murazik",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 181,
-  "UdListDefinitionId": 784,
+  "Rank": 93,
+  "UdListDefinitionId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

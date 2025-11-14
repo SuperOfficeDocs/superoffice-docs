@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 455,
-  "Name": "Smitham-Harris",
+  "TicketStatusId": 64,
+  "Name": "Kub-Kunde",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": true,
-  "UsedInQueue": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "UdListDefinitionName": "Mante, Kunze and Spinka"
+  "Id": 791,
+  "UdListDefinitionName": "Lueilwitz-Veum"
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 42,
-  "Name": "Bashirian Inc and Sons",
-  "Tooltip": "perspiciatis",
+  "Id": 839,
+  "Name": "Dach-Walter",
+  "Tooltip": "ab",
   "Deleted": false,
-  "UdListDefinitionId": 866,
-  "Rank": 490,
+  "UdListDefinitionId": 303,
+  "Rank": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 314
     }
   }
 }

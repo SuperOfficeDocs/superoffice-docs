@@ -119,34 +119,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 125,
-  "Name": "Lehner-O'Kon",
-  "Tooltip": "maxime",
-  "SaveInDb": 330,
-  "Filename": "fugit",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 40,
+  "Name": "Osinski LLC",
+  "Tooltip": "aut",
+  "SaveInDb": 195,
+  "Filename": "beatae",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 894,
-  "IntentId": 201,
+  "AutoeventId": 210,
+  "IntentId": 853,
   "IsDefaultPublished": false,
-  "Rank": 838,
-  "LoadTemplateFromPlugin": 655,
-  "MimeType": "iste",
+  "Rank": 897,
+  "LoadTemplateFromPlugin": 98,
+  "MimeType": "saepe",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 413,
+  "DocumentTypeKey": 410,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "karley.cormier@gleason.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "noelia@trantow.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "pamela@leuschke.name",
+  "SenderEmailAddress": "kayli.romaguera@aufderhar.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -158,37 +158,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 412,
-  "Name": "Terry Group",
-  "Tooltip": "aspernatur",
-  "SaveInDb": 50,
-  "Filename": "cumque",
-  "DefaultOref": "voluptas",
+  "DocumentTemplateId": 522,
+  "Name": "King-Bruen",
+  "Tooltip": "facere",
+  "SaveInDb": 91,
+  "Filename": "corporis",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 678,
-  "IntentId": 469,
+  "AutoeventId": 772,
+  "IntentId": 546,
   "IsDefaultPublished": false,
-  "Rank": 808,
-  "LoadTemplateFromPlugin": 878,
-  "MimeType": "qui",
+  "Rank": 38,
+  "LoadTemplateFromPlugin": 692,
+  "MimeType": "dolorem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 344,
+  "DocumentTypeKey": 175,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "francisca@eichmann.biz",
+  "EmailSubject": "jairo@reichert.us",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vinnie@hamill.ca",
+  "SenderEmailAddress": "addie.morar@bradtke.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 691
     }
   }
 }

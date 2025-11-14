@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    205,
-    57
+    438,
+    644
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 102,
-    "Name": "Flatley Group",
-    "TargetTable": "et",
-    "Registered": "2019-12-21T03:40:47.7660962+01:00",
-    "ProviderName": "Monahan LLC"
+    "SelectionId": 886,
+    "Name": "Erdman LLC",
+    "TargetTable": "quo",
+    "Registered": "2010-11-10T02:30:47.8506907+01:00",
+    "ProviderName": "Hansen-Lubowitz"
   },
   {
-    "SelectionId": 102,
-    "Name": "Flatley Group",
-    "TargetTable": "et",
-    "Registered": "2019-12-21T03:40:47.7660962+01:00",
-    "ProviderName": "Monahan LLC"
+    "SelectionId": 886,
+    "Name": "Erdman LLC",
+    "TargetTable": "quo",
+    "Registered": "2010-11-10T02:30:47.8506907+01:00",
+    "ProviderName": "Hansen-Lubowitz"
   }
 ]
 ```

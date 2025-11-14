@@ -92,18 +92,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 191,
-  "Name": "Macejkovic-Vandervort",
-  "ContentType": "et",
-  "AttSize": 182,
-  "InlineImage": false,
-  "ContentId": "id",
-  "AuthKey": "asperiores",
-  "IsSafeFileExtension": false
+  "AttachmentId": 934,
+  "Name": "Fadel LLC",
+  "ContentType": "sunt",
+  "AttSize": 339,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "nesciunt",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 878,
-  "Name": "Ritchie, Hamill and Hyatt",
-  "ContentType": "qui",
-  "AttSize": 723,
-  "InlineImage": false,
-  "ContentId": "ipsum",
-  "AuthKey": "magnam",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 738,
+  "Name": "Dickens-Franecki",
+  "ContentType": "assumenda",
+  "AttSize": 779,
+  "InlineImage": true,
+  "ContentId": "est",
+  "AuthKey": "consequatur",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 870
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -72,7 +72,7 @@ Een bedrijf/contactpersoon kan meerdere keren als belanghebbende worden toegevoe
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
 [4]: ../../admin/sale-type.md
-[5]: ../../../admin/lists/learn/editing-items.md
+[5]: ../../../admin/lists/update-items.md
 
 <!-- Referenced images -->
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png

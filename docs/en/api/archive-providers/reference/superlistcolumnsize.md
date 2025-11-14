@@ -58,7 +58,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/assocType|listAny|Associate - Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Associate - Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Associate - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Associate - Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Associate - Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Associate - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Associate - Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Associate - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -74,7 +74,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=columnSize,configurationName,associate/associateDbId
+GET /api/v1/archive/SuperListColumnSize?$select=configurationName,associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

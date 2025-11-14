@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 363,
-    "Name": "Ruecker, Terry and Hessel",
-    "Tooltip": "amet",
-    "Rank": 871,
-    "Key": "perferendis",
-    "Deleted": false,
+    "LegalBaseId": 667,
+    "Name": "Wilkinson, Streich and Sipes",
+    "Tooltip": "praesentium",
+    "Rank": 120,
+    "Key": "nulla",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 310
       }
     }
   }

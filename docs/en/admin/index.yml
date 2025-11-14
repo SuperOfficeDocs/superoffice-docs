@@ -26,11 +26,29 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: License overview
-          url: license/learn/index.md
+          url: license/index.md
         - text: The licenses screen
-          url: license/learn/index.md
+          url: license/index.md
         - text: Activate license
-          url: license/learn/activate.md
+          url: license/activate.md
+
+  # Card
+  - title: Lists, preferences, options and settings
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Lists
+          url: lists/index.md
+        - text: Preferences
+          url: preferences/index.md
+        - text: Options
+          url: options/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Global preferences
+          url: preferences/index.md#global
 
   # Card
   - title: User management
@@ -39,19 +57,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Roles
-          url: user-management/learn/role/index.md
+          url: user-management/role/index.md
         - text: Create a role
-          url: user-management/learn/role/create-role.md
+          url: user-management/role/create-role.md
         - text: Users
-          url: user-management/learn/index.md
+          url: user-management/index.md
         - text: Add users
-          url: user-management/learn/add-associate.md
+          url: user-management/add-associate.md
         - text: Update user information
-          url: user-management/learn/update-user.md
+          url: user-management/update-user.md
         - text: Manage user groups
-          url: user-management/learn/user-groups.md
+          url: user-management/user-groups.md
         - text: Manage "Our companies"
-          url: user-management/learn/our-companies.md
+          url: user-management/our-companies.md
 
   # Card
   - title: Import

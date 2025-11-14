@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=517
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=827
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
 
@@ -85,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 279,
-  "ResourceId": 943,
-  "Text": "quo",
+  "LanguageId": 98,
+  "ResourceId": 207,
+  "Text": "repellat",
   "Type": "Column",
-  "LocalizedTextId": 96,
-  "IsBuiltIn": true,
+  "LocalizedTextId": 491,
+  "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   }
 }

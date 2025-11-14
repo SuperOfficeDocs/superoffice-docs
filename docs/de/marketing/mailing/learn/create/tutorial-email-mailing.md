@@ -81,5 +81,5 @@ Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag
 [!include[So bestätigen und versenden Sie eine Kampagne](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

@@ -99,7 +99,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 930,
-  "ColumnId": 149,
-  "FieldDefault": "eos",
-  "FieldHeight": 330,
-  "FieldLabel": "quia",
-  "FieldLeft": 875,
-  "FieldTop": 663,
+  "UDefFieldId": 576,
+  "ColumnId": 89,
+  "FieldDefault": "nobis",
+  "FieldHeight": 945,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 133,
+  "FieldTop": 80,
   "FieldType": "Checkbox",
-  "FieldWidth": 978,
-  "FormatMask": "porro",
-  "HideLabel": true,
+  "FieldWidth": 181,
+  "FormatMask": "fugiat",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 24,
-  "LabelLeft": 879,
-  "LabelTop": 849,
-  "LabelWidth": 386,
-  "LastVersionId": 986,
-  "ListTableId": 682,
+  "LabelHeight": 20,
+  "LabelLeft": 479,
+  "LabelTop": 213,
+  "LabelWidth": 590,
+  "LastVersionId": 98,
+  "ListTableId": 19,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 6,
-  "ProgId": "laboriosam",
-  "IsReadOnly": false,
-  "ShortLabel": "suscipit",
-  "TabOrder": 891,
-  "TextLength": 539,
-  "Tooltip": "enim",
-  "UdefIdentity": 499,
-  "UDListDefinitionId": 601,
+  "Page1LineNo": 317,
+  "ProgId": "ad",
+  "IsReadOnly": true,
+  "ShortLabel": "est",
+  "TabOrder": 59,
+  "TextLength": 221,
+  "Tooltip": "rerum",
+  "UdefIdentity": 119,
+  "UDListDefinitionId": 1002,
   "Justification": "Center",
-  "Version": 776,
-  "TemplateVariableName": "Ratke Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Upton Inc and Sons",
+  "Version": 521,
+  "TemplateVariableName": "Friesen, Denesik and Spinka",
+  "HasBeenPublished": false,
+  "MdoListName": "Jacobi LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

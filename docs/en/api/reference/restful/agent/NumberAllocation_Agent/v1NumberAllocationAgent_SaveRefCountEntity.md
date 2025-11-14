@@ -86,37 +86,37 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 193,
-  "Field": "atque",
-  "RecordId": 391,
+  "RefCountsId": 308,
+  "Field": "tempora",
+  "RecordId": 573,
   "SuggestedRecords": [
     {
-      "Id": 161,
-      "Name": "Dibbert-Pollich",
-      "ToolTip": "Dolor eius aut exercitationem ut sint.",
-      "Deleted": true,
-      "Rank": 156,
-      "Type": "necessitatibus",
+      "Id": 836,
+      "Name": "Weissnat, Lind and Macejkovic",
+      "ToolTip": "Earum ab quia.",
+      "Deleted": false,
+      "Rank": 264,
+      "Type": "provident",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "suscipit",
-      "ColorBlock": 865,
-      "ExtraInfo": "odio",
-      "StyleHint": "repudiandae",
-      "FullName": "Major Klein"
+      "IconHint": "et",
+      "ColorBlock": 928,
+      "ExtraInfo": "quaerat",
+      "StyleHint": "odio",
+      "FullName": "Werner Waters Jr."
     }
   ],
-  "CurrentValue": 518,
-  "TravelPrefix": 902,
-  "SatPrefix": 68,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 130,
+  "TravelPrefix": 548,
+  "SatPrefix": 283,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false
 }
@@ -129,49 +129,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 204,
-  "Field": "omnis",
-  "RecordId": 565,
+  "RefCountsId": 995,
+  "Field": "eius",
+  "RecordId": 296,
   "SuggestedRecords": [
     {
-      "Id": 678,
-      "Name": "Schmitt-O'Connell",
-      "ToolTip": "Autem doloribus aut quia cum incidunt.",
-      "Deleted": true,
-      "Rank": 763,
-      "Type": "id",
+      "Id": 828,
+      "Name": "Welch LLC",
+      "ToolTip": "Magnam est qui.",
+      "Deleted": false,
+      "Rank": 538,
+      "Type": "earum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 870,
-      "ExtraInfo": "architecto",
-      "StyleHint": "dolorem",
-      "FullName": "Prof. Joy Gerlach MD",
+      "IconHint": "vel",
+      "ColorBlock": 879,
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "consequatur",
+      "FullName": "Ms. Jacky Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 779
         }
       }
     }
   ],
-  "CurrentValue": 284,
-  "TravelPrefix": 209,
-  "SatPrefix": 121,
-  "Allocate": true,
+  "CurrentValue": 327,
+  "TravelPrefix": 698,
+  "SatPrefix": 858,
+  "Allocate": false,
   "Unique": true,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 763
+      "FieldLength": 980
     }
   }
 }

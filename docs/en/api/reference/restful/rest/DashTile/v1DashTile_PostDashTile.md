@@ -88,15 +88,15 @@ OK
 POST /api/v1/DashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 140,
-  "DashboardId": 250,
-  "Height": 148,
-  "Width": 750,
-  "Rank": 479,
+  "DashboardTileId": 512,
+  "DashboardId": 72,
+  "Height": 638,
+  "Width": 905,
+  "Rank": 533,
   "DashTileDefinition": null
 }
 ```
@@ -108,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 812,
-  "DashboardId": 979,
-  "Height": 289,
-  "Width": 536,
-  "Rank": 631,
+  "DashboardTileId": 454,
+  "DashboardId": 284,
+  "Height": 211,
+  "Width": 192,
+  "Rank": 700,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldLength": 296
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

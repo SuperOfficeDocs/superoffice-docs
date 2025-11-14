@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 520
+  "QuoteId": 358
 }
 ```
 
@@ -130,75 +130,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 746,
-    "ERPQuoteVersionKey": "autem",
-    "QuoteId": 632,
-    "Description": "Multi-lateral systemic database",
-    "Number": "1349070",
+    "QuoteVersionId": 424,
+    "ERPQuoteVersionKey": "repellat",
+    "QuoteId": 47,
+    "Description": "Switchable next generation conglomeration",
+    "Number": "1150386",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 677,
-    "SentDate": "2012-08-14T03:40:47.5161986+02:00",
-    "FollowupId": 514,
-    "ExpirationDate": "2021-09-15T03:40:47.5161986+02:00",
-    "DeliveryCountryId": 296,
+    "LikelyQuoteAlternativeId": 923,
+    "SentDate": "2023-03-21T02:30:47.7100701+01:00",
+    "FollowupId": 223,
+    "ExpirationDate": "2007-01-14T02:30:47.7100701+01:00",
+    "DeliveryCountryId": 49,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 322,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "pariatur",
-    "ERPPaymentTypeKey": "mollitia",
-    "ERPDeliveryTermsKey": "est",
-    "ERPDeliveryTypeKey": "repellat",
-    "Rank": 915,
-    "ApprovedBy": 235,
-    "ApprovedText": "aut",
-    "ApprovedRegisteredBy": 630,
-    "ApprovedRegisteredDate": "2015-01-31T03:40:47.5161986+01:00",
-    "ExtraField1": "ad",
-    "ExtraField2": "libero",
-    "ExtraField3": "fugit",
-    "ExtraField4": "vitae",
-    "ExtraField5": "alias",
-    "LastRecalculated": "2010-10-05T03:40:47.5317063+02:00",
-    "Updated": "2006-06-24T03:40:47.5317063+02:00",
-    "UpdatedAssociateId": 552,
-    "Registered": "2003-08-01T03:40:47.5317063+02:00",
-    "RegisteredAssociateId": 753,
-    "RequestAssociateId": 513,
-    "RequestComment": "sunt",
+    "InvoiceCountryId": 796,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "nemo",
+    "ERPPaymentTypeKey": "illo",
+    "ERPDeliveryTermsKey": "in",
+    "ERPDeliveryTypeKey": "ut",
+    "Rank": 57,
+    "ApprovedBy": 660,
+    "ApprovedText": "iure",
+    "ApprovedRegisteredBy": 300,
+    "ApprovedRegisteredDate": "2018-02-04T02:30:47.7100701+01:00",
+    "ExtraField1": "est",
+    "ExtraField2": "sed",
+    "ExtraField3": "voluptatem",
+    "ExtraField4": "minus",
+    "ExtraField5": "sed",
+    "LastRecalculated": "2018-07-31T02:30:47.7100701+02:00",
+    "Updated": "2025-04-05T02:30:47.7100701+02:00",
+    "UpdatedAssociateId": 830,
+    "Registered": "2025-06-06T02:30:47.7100701+02:00",
+    "RegisteredAssociateId": 171,
+    "RequestAssociateId": 569,
+    "RequestComment": "dolore",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 47,
-        "ERPQuoteAlternativeKey": "aut",
-        "QuoteVersionId": 197,
-        "Name": "Dickinson Inc and Sons",
-        "Description": "Reactive bottom-line Graphical User Interface",
+        "QuoteAlternativeId": 381,
+        "ERPQuoteAlternativeKey": "voluptatum",
+        "QuoteVersionId": 942,
+        "Name": "Douglas, Borer and Ferry",
+        "Description": "Profound bandwidth-monitored system engine",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 9984.9239999999991,
-        "ERPDiscountAmount": 6352.6179999999995,
-        "DiscountPercent": 20048.198,
-        "DiscountAmount": 13726.92,
+        "ERPDiscountPercent": 7571.744,
+        "ERPDiscountAmount": 15177.962,
+        "DiscountPercent": 27547.86,
+        "DiscountAmount": 7440.116,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "harum",
-        "VAT": 19010.844,
-        "EarningPercent": 5515.84,
-        "EarningAmount": 30230.564,
-        "SubTotal": 6600.204,
-        "TotalPrice": 17863.8,
-        "ExtraField1": "deserunt",
-        "ExtraField2": "fugit",
-        "ExtraField3": "dolorem",
-        "ExtraField4": "architecto",
-        "ExtraField5": "sit",
+        "VATInfo": "molestias",
+        "VAT": 29932.834,
+        "EarningPercent": 25720.737999999998,
+        "EarningAmount": 22028.886,
+        "SubTotal": 25084.536,
+        "TotalPrice": 7020.16,
+        "ExtraField1": "est",
+        "ExtraField2": "rerum",
+        "ExtraField3": "eligendi",
+        "ExtraField4": "recusandae",
+        "ExtraField5": "ab",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 221
+            "FieldLength": 167
           }
         }
       }
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

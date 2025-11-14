@@ -106,76 +106,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "voluptatem",
-    "ValueType": "culpa",
+    "Key": "qui",
+    "ValueType": "quod",
     "Mandatory": false,
-    "EncodedDisplayName": "Kertzmann-Tremblay",
-    "EncodedDisplayDescription": "Multi-lateral multimedia portal",
-    "IconHint": "et",
+    "EncodedDisplayName": "Sporer, Schroeder and Green",
+    "EncodedDisplayDescription": "Synergized exuding intranet",
+    "IconHint": "in",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "sunt",
-        "Dimension": 334,
-        "ListProviderName": "Klein, Swift and Cronin",
-        "ListProviderExtraInfo": "eum",
-        "ListProviderPrimaryKeyName": "Hettinger, Brown and Towne",
+        "Type": "quas",
+        "Label": "sed",
+        "Dimension": 97,
+        "ListProviderName": "Johnston LLC",
+        "ListProviderExtraInfo": "enim",
+        "ListProviderPrimaryKeyName": "Brakus, O'Connell and Stracke",
         "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 996
           }
         }
       }
     ],
-    "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Sharable multimedia success",
-    "CurrentOperationType": "nemo",
+    "EncodedDataCaption": "dolores",
+    "EncodedDataCaptionDescription": "Intuitive high-level infrastructure",
+    "CurrentOperationType": "id",
     "Values": [
-      "autem",
-      "velit"
+      "quos",
+      "totam"
     ],
     "DisplayValues": [
-      "non",
-      "excepturi"
+      "nulla",
+      "ipsam"
     ],
     "OperationInfos": [
       {
-        "Key": "quos",
-        "EncodedDisplayName": "Herzog LLC",
+        "Key": "et",
+        "EncodedDisplayName": "Hermiston-Hane",
         "EncodedLeadTexts": [
-          "molestiae",
-          "velit"
+          "consequatur",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 987
           }
         }
       },
       {
-        "Key": "quos",
-        "EncodedDisplayName": "Herzog LLC",
+        "Key": "et",
+        "EncodedDisplayName": "Hermiston-Hane",
         "EncodedLeadTexts": [
-          "molestiae",
-          "velit"
+          "consequatur",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 987
           }
         }
       }

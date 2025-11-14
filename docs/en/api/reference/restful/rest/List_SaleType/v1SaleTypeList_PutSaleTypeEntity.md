@@ -113,51 +113,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 913,
-  "Name": "Cronin-Marks",
-  "Tooltip": "modi",
-  "Rank": 959,
+  "SaleTypeId": 282,
+  "Name": "Volkman-Bogisich",
+  "Tooltip": "quisquam",
+  "Rank": 258,
   "DurationUnit": "Century",
-  "SaleDuration": 934,
-  "SaleTypeCatId": 771,
-  "Deleted": true,
+  "SaleDuration": 164,
+  "SaleTypeCatId": 146,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 555,
-  "QuoteLinesTemplate": 512,
-  "ConfirmationLinesTemplate": 192,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 282,
-  "MinEarningPercent": 290,
-  "GroupQuoteLinesBy": 870,
-  "SortGroupLinesBy": 602,
+  "DefaultQuoteValidity": 684,
+  "QuoteLinesTemplate": 978,
+  "ConfirmationLinesTemplate": 507,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 607,
+  "MinEarningPercent": 552,
+  "GroupQuoteLinesBy": 956,
+  "SortGroupLinesBy": 843,
   "Stages": [
     {
-      "Id": 47,
-      "Name": "Kuhn-Mills",
-      "ToolTip": "Nisi itaque optio.",
+      "Id": 7,
+      "Name": "Denesik-Durgan",
+      "ToolTip": "Autem omnis possimus quo dolores itaque unde.",
       "Deleted": false,
-      "Rank": 457,
-      "Type": "quidem",
-      "ColorBlock": 97,
-      "IconHint": "est",
+      "Rank": 929,
+      "Type": "molestiae",
+      "ColorBlock": 19,
+      "IconHint": "neque",
       "Selected": false,
-      "LastChanged": "2004-05-01T03:40:57.1027301+02:00",
+      "LastChanged": "2008-08-03T02:30:53.4442597+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odio",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "porro",
       "Hidden": false,
-      "FullName": "Pierre O'Keefe"
+      "FullName": "Dr. Carmen Bosco"
     }
   ]
 }
@@ -170,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 925,
-  "Name": "Upton-Reilly",
+  "SaleTypeId": 969,
+  "Name": "Koch LLC",
   "Tooltip": "voluptatem",
-  "Rank": 177,
+  "Rank": 155,
   "DurationUnit": "Century",
-  "SaleDuration": 599,
-  "SaleTypeCatId": 210,
+  "SaleDuration": 453,
+  "SaleTypeCatId": 859,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 719,
-  "QuoteLinesTemplate": 445,
-  "ConfirmationLinesTemplate": 190,
+  "DefaultQuoteValidity": 578,
+  "QuoteLinesTemplate": 50,
+  "ConfirmationLinesTemplate": 67,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 471,
-  "MinEarningPercent": 979,
-  "GroupQuoteLinesBy": 901,
-  "SortGroupLinesBy": 132,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 836,
+  "MinEarningPercent": 710,
+  "GroupQuoteLinesBy": 270,
+  "SortGroupLinesBy": 475,
   "Stages": [
     {
-      "Id": 167,
-      "Name": "Gulgowski-McDermott",
-      "ToolTip": "Consequatur qui corporis qui placeat.",
+      "Id": 536,
+      "Name": "Nitzsche-Ebert",
+      "ToolTip": "Eos architecto ut animi sunt.",
       "Deleted": false,
-      "Rank": 36,
-      "Type": "voluptatem",
-      "ColorBlock": 472,
-      "IconHint": "nam",
-      "Selected": true,
-      "LastChanged": "2023-06-12T03:40:57.1027301+02:00",
+      "Rank": 606,
+      "Type": "mollitia",
+      "ColorBlock": 533,
+      "IconHint": "reiciendis",
+      "Selected": false,
+      "LastChanged": "2024-02-08T02:30:53.4442597+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "sint",
+      "ExtraInfo": "atque",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Derick Bryana Pacocha MD",
+      "FullName": "Celia Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 910
+          "FieldLength": 252
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 600
     }
   }
 }

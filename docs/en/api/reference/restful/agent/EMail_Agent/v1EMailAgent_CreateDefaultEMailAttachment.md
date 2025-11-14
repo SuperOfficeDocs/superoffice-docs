@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,13 +79,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable needs-based interface",
-  "Filename": "ea",
-  "Size": 919,
-  "Type": "voluptatibus",
-  "Encoding": "est",
-  "Id": "rerum",
-  "Disposition": "in",
+  "Description": "Team-oriented uniform software",
+  "Filename": "officiis",
+  "Size": 644,
+  "Type": "quia",
+  "Encoding": "delectus",
+  "Id": "et",
+  "Disposition": "optio",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 279
     }
   }
 }

@@ -138,41 +138,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 88,
-  "Name": "Streich Inc and Sons",
-  "Description": "Optimized next generation data-warehouse",
-  "WelcomeMessage": "esse",
+  "ChatTopicId": 960,
+  "Name": "Fadel-Hermann",
+  "Description": "Total static knowledge user",
+  "WelcomeMessage": "ea",
   "Language": null,
-  "LastAccept": "1998-12-06T03:40:55.397437+01:00",
-  "SecondsPrAccept": 693,
-  "AlertRecipient": "sit",
+  "LastAccept": "2008-06-11T02:30:52.413044+02:00",
+  "SecondsPrAccept": 565,
+  "AlertRecipient": "repellendus",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "est",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "atque",
-  "WarnNewChatMinutes": 728,
-  "WarnManagerNewChatMinutes": 58,
+  "CollectConsent": false,
+  "BadgeHeader": "facilis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 484,
+  "WarnManagerNewChatMinutes": 969,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 260,
-  "WarnManagerChatMessageMinutes": 487,
+  "WarnChatMessageMinutes": 137,
+  "WarnManagerChatMessageMinutes": 708,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 788,
-  "OfflineFormQueueLength": 579,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "doloremque"
+  "OfflineFormTimeLimit": 306,
+  "OfflineFormQueueLength": 329,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "eius"
 }
 ```
 
@@ -183,48 +183,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 326,
-  "Name": "Johnston, Harvey and Morissette",
-  "Description": "Reactive bandwidth-monitored moderator",
-  "WelcomeMessage": "qui",
+  "ChatTopicId": 460,
+  "Name": "Haley-Hilll",
+  "Description": "Sharable client-driven local area network",
+  "WelcomeMessage": "necessitatibus",
   "Language": null,
-  "LastAccept": "2016-02-08T03:40:55.397437+01:00",
-  "SecondsPrAccept": 394,
-  "AlertRecipient": "accusamus",
+  "LastAccept": "2024-08-18T02:30:52.413044+02:00",
+  "SecondsPrAccept": 415,
+  "AlertRecipient": "id",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "iusto",
+  "BadgeHeader": "doloremque",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "minima",
-  "WarnNewChatMinutes": 212,
-  "WarnManagerNewChatMinutes": 544,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 152,
+  "WarnManagerNewChatMinutes": 992,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 468,
-  "WarnManagerChatMessageMinutes": 381,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 431,
-  "OfflineFormQueueLength": 346,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "deleniti",
+  "WarnChatMessageMinutes": 372,
+  "WarnManagerChatMessageMinutes": 480,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 540,
+  "OfflineFormQueueLength": 696,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 167
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

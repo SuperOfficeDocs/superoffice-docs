@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | eMailAccountId | int32 | **Required** The identity of the EMailAccount |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=762
+POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=189
 ```
 
 
@@ -62,7 +62,7 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

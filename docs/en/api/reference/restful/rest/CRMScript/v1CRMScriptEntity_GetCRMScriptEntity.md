@@ -96,7 +96,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,53 +106,53 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 137,
-  "UniqueIdentifier": "molestias",
-  "Name": "Schimmel, Schmeler and Wuckert",
-  "Description": "Extended homogeneous collaboration",
-  "IncludeId": "ea",
-  "AccessKey": "et",
-  "HierarchyId": 561,
-  "Source": "omnis",
-  "SourceCode": "quia",
+  "EjscriptId": 307,
+  "UniqueIdentifier": "non",
+  "Name": "Olson-Simonis",
+  "Description": "Expanded methodical knowledge user",
+  "IncludeId": "omnis",
+  "AccessKey": "ut",
+  "HierarchyId": 492,
+  "Source": "dolorem",
+  "SourceCode": "harum",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 702,
+  "HtmlOutput": 542,
   "Includes": [
-    721,
-    86
+    33,
+    973
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 959,
-      "LineNumberTo": 272,
-      "Delta": 917,
-      "IncludeId": "ut",
+      "LineNumberFrom": 384,
+      "LineNumberTo": 374,
+      "Delta": 442,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "fugiat",
-        "voluptatem"
+        "tempora",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 483
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-10-19T03:40:55.6162809+02:00",
-  "RegisteredAssociateId": 711,
-  "Updated": "2022-07-22T03:40:55.6162809+02:00",
-  "UpdatedAssociateId": 182,
+  "Registered": "2013-05-04T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 579,
+  "Updated": "2009-01-06T02:30:52.522416+01:00",
+  "UpdatedAssociateId": 957,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 542
     }
   },
   "_Links": {

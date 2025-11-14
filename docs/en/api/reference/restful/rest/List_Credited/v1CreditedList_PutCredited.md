@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Littel LLC",
-  "Tooltip": "voluptatem",
+  "Id": 778,
+  "Name": "Kirlin, Windler and Predovic",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 515,
-  "Rank": 429
+  "UdListDefinitionId": 753,
+  "Rank": 768
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Sanford, Hegmann and Doyle",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 916,
-  "Rank": 663,
+  "Id": 225,
+  "Name": "Koch, Effertz and Hoeger",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 379,
+  "Rank": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldLength": 180
     }
   }
 }

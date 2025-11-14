@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/List/SetDocumentPluginForAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 342
+  "DocumentPluginId": 259
 }
 ```
 

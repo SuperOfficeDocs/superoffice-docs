@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 759,
-    "Section": "velit",
-    "Key": "temporibus",
-    "Name": "Brakus Group",
+    "PrefDescId": 806,
+    "Section": "et",
+    "Key": "id",
+    "Name": "Altenwerth, Donnelly and Streich",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Up-sized 5th generation application",
-    "IsBuiltin": false,
-    "TableName": "Hills Group",
-    "UserDefinedListId": 757,
-    "Rank": 314,
-    "SubGroup": "et",
-    "MinLevel": 154,
-    "MaxValue": 885,
-    "MinValue": 970,
-    "RequiredLicense": "molestiae",
+    "Description": "Inverse context-sensitive focus group",
+    "IsBuiltin": true,
+    "TableName": "Watsica LLC",
+    "UserDefinedListId": 718,
+    "Rank": 2,
+    "SubGroup": "non",
+    "MinLevel": 128,
+    "MaxValue": 360,
+    "MinValue": 966,
+    "RequiredLicense": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 985
       }
     }
   }

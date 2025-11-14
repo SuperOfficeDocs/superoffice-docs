@@ -81,5 +81,5 @@ Als u probeert te verzenden vanuit een domein dat geen geldige SPF-record heeft,
 [!include[Een mailing bevestigen en verzenden](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

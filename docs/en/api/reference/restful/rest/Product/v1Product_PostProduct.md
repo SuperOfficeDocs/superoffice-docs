@@ -143,55 +143,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 149,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "eaque",
-  "Name": "O'Conner LLC",
-  "Description": "Down-sized dynamic interface",
-  "Code": "earum",
-  "PriceUnit": "est",
-  "QuantityUnit": "exercitationem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 14300.442,
-  "ItemNumber": "736300",
+  "ProductId": 594,
+  "ERPProductKey": "nemo",
+  "ERPPriceListKey": "pariatur",
+  "Name": "Strosin LLC",
+  "Description": "Switchable asynchronous contingency",
+  "Code": "laboriosam",
+  "PriceUnit": "eaque",
+  "QuantityUnit": "vel",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 13958.836,
+  "ItemNumber": "1171754",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "amet",
-  "VAT": 6443.504,
-  "VATInfo": "cum",
-  "UnitCost": 14723.532,
-  "UnitMinimumPrice": 1153.312,
-  "UnitListPrice": 11094.359999999999,
-  "InAssortment": true,
-  "Supplier": "ea",
-  "SupplierCode": "et",
-  "Rights": "similique",
-  "Rule": "quia",
+  "ProductFamilyKey": "ipsa",
+  "ProductTypeKey": "id",
+  "VAT": 6766.306,
+  "VATInfo": "reprehenderit",
+  "UnitCost": 6681.688,
+  "UnitMinimumPrice": 8204.812,
+  "UnitListPrice": 11464.172,
+  "InAssortment": false,
+  "Supplier": "accusantium",
+  "SupplierCode": "magni",
+  "Rights": "doloremque",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Kulas, Keeling and Stehr",
-      "Value": "est",
+      "Name": "Weissnat Inc and Sons",
+      "Value": "repellendus",
       "Type": "Image"
     },
     {
-      "Name": "Kulas, Keeling and Stehr",
-      "Value": "est",
+      "Name": "Weissnat Inc and Sons",
+      "Value": "repellendus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "enim",
-  "ExtraField2": "nostrum",
-  "ExtraField3": "omnis",
-  "ExtraField4": "dolor",
-  "ExtraField5": "quo",
-  "InStock": 26867.782
+  "RawExtraInfo": "harum",
+  "ExtraField1": "dolores",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "at",
+  "ExtraField5": "sunt",
+  "InStock": 20574.71
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 760,
-  "ERPProductKey": "maiores",
-  "ERPPriceListKey": "ut",
-  "Name": "Haley LLC",
-  "Description": "Horizontal directional contingency",
-  "Code": "nostrum",
-  "PriceUnit": "harum",
-  "QuantityUnit": "praesentium",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 25144.082,
-  "ItemNumber": "501072",
+  "ProductId": 986,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "eos",
+  "Name": "Koelpin, Sawayn and Auer",
+  "Description": "Vision-oriented explicit productivity",
+  "Code": "maiores",
+  "PriceUnit": "sint",
+  "QuantityUnit": "excepturi",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 9605.71,
+  "ItemNumber": "266004",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nisi",
-  "ProductTypeKey": "officia",
-  "VAT": 14566.832,
-  "VATInfo": "illo",
-  "UnitCost": 30873.034,
-  "UnitMinimumPrice": 9881.502,
-  "UnitListPrice": 2243.944,
-  "InAssortment": true,
-  "Supplier": "ea",
-  "SupplierCode": "repellat",
-  "Rights": "doloribus",
-  "Rule": "sit",
+  "ProductFamilyKey": "ipsam",
+  "ProductTypeKey": "repellat",
+  "VAT": 29685.248,
+  "VATInfo": "quo",
+  "UnitCost": 24626.971999999998,
+  "UnitMinimumPrice": 25520.162,
+  "UnitListPrice": 22890.736,
+  "InAssortment": false,
+  "Supplier": "earum",
+  "SupplierCode": "impedit",
+  "Rights": "molestiae",
+  "Rule": "aliquid",
   "ExtraInfo": [
     {
-      "Name": "Rosenbaum-Pagac",
-      "Value": "quia",
+      "Name": "Lebsack-Stokes",
+      "Value": "blanditiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     },
     {
-      "Name": "Rosenbaum-Pagac",
-      "Value": "quia",
+      "Name": "Lebsack-Stokes",
+      "Value": "blanditiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     }
   ],
-  "RawExtraInfo": "similique",
-  "ExtraField1": "quo",
-  "ExtraField2": "et",
-  "ExtraField3": "est",
-  "ExtraField4": "quam",
-  "ExtraField5": "ex",
-  "InStock": 1845.926,
+  "RawExtraInfo": "deserunt",
+  "ExtraField1": "maxime",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "sint",
+  "InStock": 26150.095999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 674
     }
   }
 }

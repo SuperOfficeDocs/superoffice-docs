@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# MailingDomains Table (494)
+# MailingDomains Table (495)
 
 List of allowed domains used in a Mailing
 

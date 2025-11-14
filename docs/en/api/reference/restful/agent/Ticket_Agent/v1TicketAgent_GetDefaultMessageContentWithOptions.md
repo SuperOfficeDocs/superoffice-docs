@@ -79,15 +79,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 492,
+  "TicketId": 231,
   "MessageActionType": "Forward",
-  "TicketMessageId": 678,
-  "TicketTypeId": 47,
-  "ExcludeSignature": false
+  "TicketMessageId": 856,
+  "TicketTypeId": 218,
+  "ExcludeSignature": true
 }
 ```
 
@@ -98,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "culpa",
+  "Body": "deleniti",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 732,
-      "Name": "Ferry-Daugherty",
-      "ContentType": "harum",
-      "AttSize": 788,
+      "AttachmentId": 180,
+      "Name": "Weimann, Walker and Runolfsson",
+      "ContentType": "amet",
+      "AttSize": 906,
       "InlineImage": false,
-      "ContentId": "expedita",
-      "AuthKey": "non",
+      "ContentId": "deserunt",
+      "AuthKey": "eligendi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }

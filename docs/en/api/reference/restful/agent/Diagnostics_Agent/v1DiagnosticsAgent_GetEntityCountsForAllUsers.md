@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mitchell Group",
-    "Records": 590,
+    "EntityName": "Barrows-Reynolds",
+    "Records": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 706
       }
     }
   },
   {
-    "EntityName": "Mitchell Group",
-    "Records": 590,
+    "EntityName": "Barrows-Reynolds",
+    "Records": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 706
       }
     }
   }

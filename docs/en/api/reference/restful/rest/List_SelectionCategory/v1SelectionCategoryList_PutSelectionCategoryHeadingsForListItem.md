@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Hartmann LLC",
-    "ToolTip": "Itaque labore qui voluptatum et accusamus ad.",
-    "Deleted": true,
-    "Rank": 327,
-    "Type": "est",
-    "ColorBlock": 414,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2019-04-09T03:40:57.1189414+02:00",
+    "Id": 411,
+    "Name": "Hand, Bechtelar and Rau",
+    "ToolTip": "Aut aut architecto dolor perspiciatis.",
+    "Deleted": false,
+    "Rank": 98,
+    "Type": "sed",
+    "ColorBlock": 203,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2022-06-03T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Berge, Wilderman and Kemmer",
-        "ToolTip": "Minima maiores commodi autem laboriosam.",
-        "Deleted": false,
-        "Rank": 363,
-        "Type": "porro",
-        "ColorBlock": 93,
-        "IconHint": "officiis",
+        "Id": 268,
+        "Name": "Sipes, Hagenes and Bashirian",
+        "ToolTip": "Sed harum error numquam necessitatibus et sit vel.",
+        "Deleted": true,
+        "Rank": 187,
+        "Type": "officia",
+        "ColorBlock": 773,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2022-05-25T03:40:57.1189414+02:00",
+        "LastChanged": "2024-06-23T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Oswald Towne"
+        "ExtraInfo": "alias",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Mr. Presley Corkery"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "sit",
+    "ExtraInfo": "nihil",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Christ Brekke"
+    "FullName": "Shania Rowe"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Roob, Hermiston and Predovic",
-    "ToolTip": "Numquam quaerat ab recusandae voluptas.",
-    "Deleted": true,
-    "Rank": 149,
+    "Id": 591,
+    "Name": "Gleichner Group",
+    "ToolTip": "Distinctio debitis.",
+    "Deleted": false,
+    "Rank": 977,
     "Type": "aut",
-    "ColorBlock": 788,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2021-06-14T03:40:57.1189414+02:00",
+    "ColorBlock": 432,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2008-08-14T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Mitchell, Greenholt and Daniel",
-        "ToolTip": "Sed quos suscipit at perspiciatis enim.",
+        "Id": 783,
+        "Name": "Dach Inc and Sons",
+        "ToolTip": "Et minus.",
         "Deleted": false,
-        "Rank": 232,
-        "Type": "iste",
-        "ColorBlock": 201,
-        "IconHint": "tempore",
+        "Rank": 807,
+        "Type": "eveniet",
+        "ColorBlock": 136,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2010-01-31T03:40:57.1189414+01:00",
+        "LastChanged": "2010-05-30T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Juana Jakubowski",
+        "ExtraInfo": "ea",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Jedediah Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "sequi",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Herbert Erdman I",
+    "FullName": "Felicia Stamm Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 403
       }
     }
   }

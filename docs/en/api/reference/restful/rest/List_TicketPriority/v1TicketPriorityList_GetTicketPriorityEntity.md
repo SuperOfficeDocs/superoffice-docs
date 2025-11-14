@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,60 +100,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 238,
-  "Name": "Murazik LLC",
+  "TicketPriorityId": 399,
+  "Name": "Schamberger, Jaskolski and Wiza",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 809,
+  "SortOrder": 582,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 942,
-  "MonStart": "2000-06-18T03:40:57.165702+02:00",
-  "MonStop": "2001-06-16T03:40:57.165702+02:00",
-  "TueStart": "2017-06-20T03:40:57.165702+02:00",
-  "TueStop": "2017-03-12T03:40:57.165702+01:00",
-  "WedStart": "2021-12-02T03:40:57.165702+01:00",
-  "WedStop": "2007-08-06T03:40:57.165702+02:00",
-  "ThuStart": "2018-12-18T03:40:57.165702+01:00",
-  "ThuStop": "2014-11-26T03:40:57.165702+01:00",
-  "FriStart": "2019-11-28T03:40:57.165702+01:00",
-  "FriStop": "2016-12-02T03:40:57.165702+01:00",
-  "SatStart": "1998-12-08T03:40:57.165702+01:00",
-  "SatStop": "1999-06-26T03:40:57.165702+02:00",
-  "SunStart": "2013-06-16T03:40:57.165702+02:00",
-  "SunStop": "2012-12-25T03:40:57.165702+01:00",
+  "Deadline": 894,
+  "MonStart": "2010-11-14T02:30:53.5223788+01:00",
+  "MonStop": "2011-07-06T02:30:53.5223788+02:00",
+  "TueStart": "2001-11-16T02:30:53.5223788+01:00",
+  "TueStop": "2003-10-10T02:30:53.5223788+02:00",
+  "WedStart": "2020-11-30T02:30:53.5223788+01:00",
+  "WedStop": "2005-01-25T02:30:53.5223788+01:00",
+  "ThuStart": "2003-03-02T02:30:53.5223788+01:00",
+  "ThuStop": "2009-04-23T02:30:53.5223788+02:00",
+  "FriStart": "2024-07-13T02:30:53.5223788+02:00",
+  "FriStop": "2012-12-31T02:30:53.5223788+01:00",
+  "SatStart": "2005-01-14T02:30:53.5223788+01:00",
+  "SatStop": "2008-10-05T02:30:53.5223788+02:00",
+  "SunStart": "2006-06-05T02:30:53.5223788+02:00",
+  "SunStop": "2013-12-08T02:30:53.5223788+01:00",
   "NonDates": [
-    "veniam",
-    "omnis"
+    "voluptate",
+    "vel"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 761,
-      "AlertLevel": 659,
-      "AlertTimeout": 955,
-      "Action": 370,
-      "DelegateTo": 893,
-      "ScriptId": 125,
-      "EmailTo": "lucas@klein.co.uk",
-      "SmsTo": "voluptas",
-      "ReplyTemplateIdCustomer": 375,
-      "ReplyTemplateIdUser": 617,
-      "ReplyTemplateIdCatmast": 946,
-      "ReplyTemplateIdEmail": 583,
-      "RtiCustomerSms": 222,
-      "ReplyTemplateIdUserSms": 548,
-      "ReplyTemplateIdCatmastSms": 25,
-      "ReplyTemplateIdSms": 767,
+      "TicketAlertId": 283,
+      "AlertLevel": 72,
+      "AlertTimeout": 956,
+      "Action": 775,
+      "DelegateTo": 407,
+      "ScriptId": 222,
+      "EmailTo": "unique@okonwolff.com",
+      "SmsTo": "iure",
+      "ReplyTemplateIdCustomer": 597,
+      "ReplyTemplateIdUser": 174,
+      "ReplyTemplateIdCatmast": 237,
+      "ReplyTemplateIdEmail": 749,
+      "RtiCustomerSms": 36,
+      "ReplyTemplateIdUserSms": 663,
+      "ReplyTemplateIdCatmastSms": 332,
+      "ReplyTemplateIdSms": 737,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 908
     }
   }
 }

@@ -105,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 624,
+  "PersonId": 596,
   "OnlyOpenSales": false
 }
 ```
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Feil, Sanford and Murray",
-    "SaleDate": "2014-05-06T03:40:47.6723407+02:00",
-    "SaleId": 44,
-    "Probability": 249,
-    "Title": "et",
-    "Amount": 1855.328,
-    "Currency": "quis",
-    "ProjectName": "Fisher, Kunze and Mills",
-    "AssociateFullName": "Mr. Clarabelle VonRueden V",
-    "Description": "Reactive methodical circuit",
+    "ContactName": "Greenholt Group",
+    "SaleDate": "2010-08-04T02:30:47.7881925+02:00",
+    "SaleId": 363,
+    "Probability": 516,
+    "Title": "aperiam",
+    "Amount": 29302.899999999998,
+    "Currency": "harum",
+    "ProjectName": "Wisoky-Okuneva",
+    "AssociateFullName": "Miller Cormier DVM",
+    "Description": "De-engineered static utilisation",
     "Status": "Lost",
-    "WeightedAmount": 3992.716,
-    "ProjectId": 289,
-    "EarningPercent": 12344.826,
-    "Earning": 30086.399999999998,
-    "ContactId": 820,
-    "AssociateId": 708,
-    "PersonId": 960,
-    "SaleTypeId": 940,
-    "SaleTypeName": "Cummings, Shields and Bernhard",
-    "PersonFullName": "Dr. Peyton Mathilde Harris III",
+    "WeightedAmount": 30086.399999999998,
+    "ProjectId": 593,
+    "EarningPercent": 18973.236,
+    "Earning": 24360.582,
+    "ContactId": 185,
+    "AssociateId": 418,
+    "PersonId": 763,
+    "SaleTypeId": 820,
+    "SaleTypeName": "Marks-Hagenes",
+    "PersonFullName": "Theo Hackett",
     "Completed": "Completed",
-    "ActiveErpLinks": 534,
-    "NextDueDate": "2009-10-12T03:40:47.6723407+02:00",
-    "Number": "248153",
+    "ActiveErpLinks": 199,
+    "NextDueDate": "1998-09-12T02:30:47.7881925+02:00",
+    "Number": "1234954",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

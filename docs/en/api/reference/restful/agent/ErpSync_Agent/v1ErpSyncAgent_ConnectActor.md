@@ -75,31 +75,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 631,
-  "CrmRecordId": 956,
+  "ErpConnectionId": 178,
+  "CrmRecordId": 798,
   "CrmActorType": "Contact",
-  "ErpKey": "animi",
+  "ErpKey": "nihil",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Adams-Casper",
-      "CrmFieldKey": "perferendis",
-      "Value": "vitae",
-      "DisplayValue": "velit",
+      "DisplayName": "Hand, Harris and Kovacek",
+      "CrmFieldKey": "vel",
+      "Value": "ut",
+      "DisplayValue": "ut",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Adams-Casper",
-      "CrmFieldKey": "perferendis",
-      "Value": "vitae",
-      "DisplayValue": "velit",
+      "DisplayName": "Hand, Harris and Kovacek",
+      "CrmFieldKey": "vel",
+      "Value": "ut",
+      "DisplayValue": "ut",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

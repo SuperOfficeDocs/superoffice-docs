@@ -70,7 +70,7 @@ Implementation of the provider for the combined selection
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -129,8 +129,10 @@ Implementation of the provider for the combined selection
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -217,18 +219,18 @@ Implementation of the provider for the combined selection
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
-|person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
-|person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -248,7 +250,7 @@ Implementation of the provider for the combined selection
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -281,7 +283,7 @@ Implementation of the provider for the combined selection
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -312,6 +314,7 @@ Implementation of the provider for the combined selection
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,16 +329,17 @@ Implementation of the provider for the combined selection
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|contact/contactSource|listAny|Source: Source (Company)| x |
-|contact/contactDeleted|bool|Deleted: Deleted| x |
-|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactSource|listAny|Source: Source (Company)| x |
+|contact/contactDeleted|bool|Deleted: Deleted| x |
+|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -409,7 +413,7 @@ Implementation of the provider for the combined selection
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -429,14 +433,14 @@ Implementation of the provider for the combined selection
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
-|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
-|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
-|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
+|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
+|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
+|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
@@ -455,7 +459,7 @@ Implementation of the provider for the combined selection
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -495,7 +499,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=rating,person/title,person/restrictionAddress/formattedAddress,person/legalBaseEmarketing,contact/LastDoBySale
+GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=person/personAddress/formattedMultiLineAddress,contact/business,contact/contactFax/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

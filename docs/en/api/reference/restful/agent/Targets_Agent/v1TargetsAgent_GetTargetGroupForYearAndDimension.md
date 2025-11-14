@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 281,
-  "DimensionId": 920
+  "TargetYear": 310,
+  "DimensionId": 535
 }
 ```
 
@@ -98,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 362,
-  "Year": 532,
+  "TargetGroupId": 155,
+  "Year": 940,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 711,
+      "TargetAssignmentInfoId": 745,
       "Values": [
-        588,
-        947
+        365,
+        771
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 526,
-      "DimensionListItemDisplayName": "Eichmann-Hoppe",
+      "DimensionListItem": 51,
+      "DimensionListItemDisplayName": "Thiel-Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 643
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

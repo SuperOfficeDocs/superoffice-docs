@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Bartell Inc and Sons",
-    "Tooltip": "omnis",
+    "Id": 25,
+    "Name": "White Group",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 712,
-    "Rank": 365,
+    "UdListDefinitionId": 137,
+    "Rank": 843,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 781
+        "FieldLength": 540
       }
     }
   }

@@ -16,33 +16,5 @@ items:
     href: send-as-email.md
 
 - name: Documentsjablonen
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Overzicht
-    href: ../templates/learn/index.md
-  - name: Documentsjabloontypen
-    href: ../templates/learn/document-types.md
-  - name: Sjabloonvariabelen
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Referentie
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Probleemoplossing
-      href: ../templates/learn/troubleshooting.md
-  - name: Samenvoegvelden (offertesjablonen)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Referentie
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Documentsjabloon maken
-    href: ../templates/learn/create.md
-  - name: Sjabloon toevoegen
-    href: ../templates/admin/link-template.md
-  - name: Sjabloon bewerken
-    href: ../templates/admin/update-template.md
-  - name: Documentsjablonen in meerdere talen
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md

@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 956,
-  "Name": "Bauch Group"
+  "MessageId": 592,
+  "Name": "Padberg Inc and Sons"
 }
 ```
 

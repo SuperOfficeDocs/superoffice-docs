@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 990,
+  "HierarchyId": 265,
   "Domain": "Dashboards",
-  "Name": "Schimmel-Murray",
-  "Fullname": "minus",
-  "ParentId": 187,
+  "Name": "Harvey, Bergstrom and Pouros",
+  "Fullname": "cum",
+  "ParentId": 110,
   "Children": [
     {
-      "HierarchyId": 670,
+      "HierarchyId": 640,
       "Domain": "Dashboards",
-      "Name": "Hand-Collier",
-      "Fullname": "quibusdam",
-      "ParentId": 874,
+      "Name": "Ebert, King and Kling",
+      "Fullname": "officiis",
+      "ParentId": 517,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-10-19T03:40:55.7886484+02:00",
-      "RegisteredAssociateId": 151,
-      "Updated": "2000-10-20T03:40:55.7886484+02:00",
-      "UpdatedAssociateId": 1002,
+      "Registered": "2006-12-07T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 419,
+      "Updated": "2016-04-15T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 952,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldType": "System.String",
+          "FieldLength": 786
         }
       }
     }
   ],
-  "Registered": "2020-09-22T03:40:55.7886484+02:00",
-  "RegisteredAssociateId": 77,
-  "Updated": "2005-03-21T03:40:55.7886484+01:00",
-  "UpdatedAssociateId": 556,
+  "Registered": "2002-09-28T02:30:52.6630355+02:00",
+  "RegisteredAssociateId": 799,
+  "Updated": "2022-03-24T02:30:52.6630355+01:00",
+  "UpdatedAssociateId": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   }
 }

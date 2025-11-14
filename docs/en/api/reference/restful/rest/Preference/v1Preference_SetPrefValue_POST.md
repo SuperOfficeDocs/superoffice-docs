@@ -72,21 +72,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "natus",
+  "RawValue": "quos",
   "Specification": null,
-  "DisplayValue": "commodi",
-  "DisplayTooltip": "nihil",
+  "DisplayValue": "nemo",
+  "DisplayTooltip": "consequatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 260,
-  "PrefDescId": 90,
-  "TableName": "Rempel-Rowe",
-  "UserPreferenceId": 55
+  "TargetId": 27,
+  "PrefDescId": 868,
+  "TableName": "Williamson Group",
+  "UserPreferenceId": 171
 }
 ```
 

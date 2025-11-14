@@ -105,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 770,
+  "SourceDocumentTemplateId": 62,
   "DocumentTemplateEntity": null
 }
 ```
@@ -117,37 +117,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 263,
-  "Name": "Jast, Huels and Kub",
-  "Tooltip": "quam",
-  "SaveInDb": 589,
-  "Filename": "non",
-  "DefaultOref": "iusto",
+  "DocumentTemplateId": 322,
+  "Name": "Willms LLC",
+  "Tooltip": "in",
+  "SaveInDb": 827,
+  "Filename": "sed",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 948,
-  "IntentId": 620,
-  "IsDefaultPublished": false,
-  "Rank": 655,
-  "LoadTemplateFromPlugin": 572,
-  "MimeType": "non",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 800,
+  "AutoeventId": 981,
+  "IntentId": 899,
+  "IsDefaultPublished": true,
+  "Rank": 278,
+  "LoadTemplateFromPlugin": 631,
+  "MimeType": "tempore",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jeremy@schuppefay.uk",
+  "EmailSubject": "cortez@weissnat.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jadyn_damore@jast.name",
+  "SenderEmailAddress": "serenity.boyer@hahndeckow.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

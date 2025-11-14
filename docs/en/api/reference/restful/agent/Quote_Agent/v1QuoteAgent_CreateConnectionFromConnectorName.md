@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Hayes, Abshire and Willms"
+  "ConnectorName": "Lemke-Hickle"
 }
 ```
 
@@ -105,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 605,
-  "ERPName": "Pacocha, Brekke and Stiedemann",
-  "DisplayName": "Harber, D'Amore and Osinski",
-  "DisplayDescription": "Compatible client-server throughput",
-  "Rank": 47,
-  "ConnectorName": "Ankunding-Mitchell",
-  "ErpConnectionId": 544,
-  "ExtraData": "non",
-  "IsAvailable": true,
+  "QuoteConnectionId": 359,
+  "ERPName": "Aufderhar-Ruecker",
+  "DisplayName": "Schimmel, O'Kon and Goyette",
+  "DisplayDescription": "Decentralized full-range benchmark",
+  "Rank": 718,
+  "ConnectorName": "D'Amore-Renner",
+  "ErpConnectionId": 19,
+  "ExtraData": "voluptas",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 328,
-      "ERPPriceListKey": "omnis",
-      "QuoteConnectionId": 407,
-      "Name": "Kub, Langosh and Cormier",
-      "Description": "Optional grid-enabled throughput",
-      "Currency": "omnis",
-      "CurrencyName": "VonRueden, Bashirian and Effertz",
-      "ValidFrom": "2013-08-19T03:40:47.5629587+02:00",
-      "ValidTo": "2006-12-12T03:40:47.5629587+01:00",
-      "IsActive": false,
+      "PriceListId": 27,
+      "ERPPriceListKey": "ipsa",
+      "QuoteConnectionId": 960,
+      "Name": "Upton-Runolfsdottir",
+      "Description": "Decentralized intermediate info-mediaries",
+      "Currency": "assumenda",
+      "CurrencyName": "Wintheiser, Halvorson and Kassulke",
+      "ValidFrom": "2005-06-12T02:30:47.7256947+02:00",
+      "ValidTo": "2011-10-01T02:30:47.7256947+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldLength": 216
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    321,
-    774
+    824,
+    295
   ],
   "AssociateAccessIds": [
-    355,
-    77
+    297,
+    798
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 898
     }
   }
 }

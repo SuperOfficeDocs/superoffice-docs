@@ -1,0 +1,7 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Nummerallokering
+  href: configure-number-allocation.md
+- name: Etiketter
+  href: change-ui-labels.md

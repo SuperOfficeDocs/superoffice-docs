@@ -38,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=303
-POST /api/v1/Document/{documentId}/Content?personId=794
-POST /api/v1/Document/{documentId}/Content?appointmentId=518
-POST /api/v1/Document/{documentId}/Content?saleId=593
-POST /api/v1/Document/{documentId}/Content?selectionId=889
-POST /api/v1/Document/{documentId}/Content?projectId=95
-POST /api/v1/Document/{documentId}/Content?uiCulture=magnam
+POST /api/v1/Document/{documentId}/Content?contactId=543
+POST /api/v1/Document/{documentId}/Content?personId=878
+POST /api/v1/Document/{documentId}/Content?appointmentId=401
+POST /api/v1/Document/{documentId}/Content?saleId=989
+POST /api/v1/Document/{documentId}/Content?selectionId=648
+POST /api/v1/Document/{documentId}/Content?projectId=904
+POST /api/v1/Document/{documentId}/Content?uiCulture=enim
 ```
 
 
@@ -122,7 +122,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,88 +132,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 482,
+  "DocumentId": 374,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "aut",
-  "Name": "Nader-Metz",
-  "OurRef": "excepturi",
-  "YourRef": "id",
-  "CreatedDate": "2010-07-15T03:40:55.7412955+02:00",
-  "UpdatedDate": "2011-06-03T03:40:55.7412955+02:00",
-  "Description": "Inverse upward-trending utilisation",
+  "Attention": "ea",
+  "Header": "aperiam",
+  "Name": "Schowalter, Mertz and Klocko",
+  "OurRef": "consequuntur",
+  "YourRef": "provident",
+  "CreatedDate": "2017-06-21T02:30:52.631787+02:00",
+  "UpdatedDate": "2024-04-13T02:30:52.631787+02:00",
+  "Description": "Multi-layered heuristic service-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-01-30T03:40:55.7412955+01:00",
-  "ExternalRef": "earum",
+  "Date": "1999-10-23T02:30:52.631787+02:00",
+  "ExternalRef": "rerum",
   "Completed": "Completed",
-  "ActiveLinks": 291,
+  "ActiveLinks": 728,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Morar-Kuphal",
-      "Id": 795,
-      "Description": "Cloned 6th generation customer loyalty",
-      "ExtraInfo": "aspernatur",
-      "LinkId": 152,
+      "EntityName": "Roob, McCullough and Simonis",
+      "Id": 429,
+      "Description": "Configurable non-volatile workforce",
+      "ExtraInfo": "non",
+      "LinkId": 348,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldType": "System.String",
+          "FieldLength": 885
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 737,
-  "Snum": 224,
+  "SuggestedDocumentId": 969,
+  "Snum": 171,
   "UserDefinedFields": {
-    "SuperOffice:1": "1265735159",
-    "SuperOffice:2": "Brycen Jenkins"
+    "SuperOffice:1": "2121648955",
+    "SuperOffice:2": "Gudrun Towne"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2001-02-02T03:40:55.7412955+01:00",
-  "PublishTo": "2010-03-20T03:40:55.7412955+01:00",
-  "PublishFrom": "2024-12-30T03:40:55.7412955+01:00",
+  "PublishEventDate": "2003-10-22T02:30:52.631787+02:00",
+  "PublishTo": "2005-01-13T02:30:52.631787+01:00",
+  "PublishFrom": "2021-05-18T02:30:52.631787+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 339,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldLength": 769
         }
       }
     },
     {
-      "VisibleId": 339,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldLength": 769
         }
       }
     }
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 509
     }
   }
 }

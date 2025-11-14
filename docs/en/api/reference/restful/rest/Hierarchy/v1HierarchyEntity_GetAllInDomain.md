@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,46 +90,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 949,
+    "HierarchyId": 179,
     "Domain": "Dashboards",
-    "Name": "Armstrong-Howe",
-    "Fullname": "provident",
-    "ParentId": 738,
+    "Name": "Fadel-Gusikowski",
+    "Fullname": "fugit",
+    "ParentId": 631,
     "Children": [
       {
-        "HierarchyId": 523,
+        "HierarchyId": 940,
         "Domain": "Dashboards",
-        "Name": "Nicolas, Labadie and Mayert",
-        "Fullname": "voluptas",
-        "ParentId": 702,
+        "Name": "Larson LLC",
+        "Fullname": "nostrum",
+        "ParentId": 714,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2018-08-27T03:40:55.7886484+02:00",
-        "RegisteredAssociateId": 531,
-        "Updated": "2018-03-09T03:40:55.7886484+01:00",
-        "UpdatedAssociateId": 574,
+        "Registered": "2007-11-28T02:30:52.6630355+01:00",
+        "RegisteredAssociateId": 894,
+        "Updated": "2011-07-27T02:30:52.6630355+02:00",
+        "UpdatedAssociateId": 503,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 78
           }
         }
       }
     ],
-    "Registered": "2016-09-09T03:40:55.7886484+02:00",
-    "RegisteredAssociateId": 313,
-    "Updated": "2002-12-11T03:40:55.7886484+01:00",
-    "UpdatedAssociateId": 301,
+    "Registered": "2017-06-05T02:30:52.6630355+02:00",
+    "RegisteredAssociateId": 631,
+    "Updated": "2002-02-22T02:30:52.6630355+01:00",
+    "UpdatedAssociateId": 137,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 755
       }
     }
   }

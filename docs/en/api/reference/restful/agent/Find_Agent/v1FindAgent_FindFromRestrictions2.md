@@ -165,14 +165,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "maiores",
-  "ProviderName": "Satterfield Inc and Sons",
-  "PageSize": 783,
-  "PageNumber": 958
+  "Restrictions": "ut",
+  "ProviderName": "Bednar LLC",
+  "PageSize": 174,
+  "PageNumber": 862
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Trantow LLC",
-      "DisplayTooltip": "velit",
-      "DisplayType": "consequatur",
+      "DisplayName": "Lindgren LLC",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "quasi",
       "CanOrderBy": false,
-      "Name": "Weber, Konopelski and Gleichner",
+      "Name": "Senger, O'Keefe and Yost",
       "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Grant-Muller",
-      "IsVisible": false,
-      "ExtraInfo": "eius",
-      "Width": "sit",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "necessitatibus"
+      "RestrictionType": "veritatis",
+      "RestrictionListName": "Powlowski, Walsh and Ziemann",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "ut",
+      "IconHint": "quibusdam",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kunde, Rolfson and Streich",
-      "PrimaryKey": 215,
+      "EntityName": "Hamill-Greenholt",
+      "PrimaryKey": 434,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquid",
-          "TooltipHint": "numquam",
-          "LinkHint": "eos"
+          "DisplayValue": "nulla",
+          "TooltipHint": "ut",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "consequuntur",
+      "LinkHint": "itaque",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 525
         }
       }
     }
   ],
-  "RowCount": 207,
+  "RowCount": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 624
     }
   }
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Ziemann, Langosh and Bosco",
-    "ToolTip": "Consequatur explicabo sint magnam facere.",
+    "Id": 887,
+    "Name": "Adams-O'Conner",
+    "ToolTip": "Facere id numquam vero.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "dolorum",
-    "ColorBlock": 103,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-06-03T03:40:56.7588542+02:00",
+    "Rank": 263,
+    "Type": "sed",
+    "ColorBlock": 133,
+    "IconHint": "placeat",
+    "Selected": false,
+    "LastChanged": "2019-09-21T02:30:53.2411414+02:00",
     "ChildItems": [
       {
         "Id": 139,
-        "Name": "Harris-Dooley",
-        "ToolTip": "A deserunt fugit dolor alias.",
+        "Name": "Bogan, Bode and Schowalter",
+        "ToolTip": "Nesciunt optio iusto et commodi.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "quis",
-        "ColorBlock": 207,
-        "IconHint": "error",
+        "Rank": 908,
+        "Type": "sunt",
+        "ColorBlock": 894,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2008-09-29T03:40:56.7588542+02:00",
+        "LastChanged": "2012-03-02T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Pablo Harris"
+        "ExtraInfo": "eius",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Prof. Hayden Colten Ledner V"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Vito Funk III"
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Mabelle Hilpert"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Bauch Group",
-    "ToolTip": "Adipisci aut soluta illum mollitia doloremque.",
+    "Id": 475,
+    "Name": "Murray, Toy and Adams",
+    "ToolTip": "Consequatur saepe ut doloremque ratione omnis.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "inventore",
-    "ColorBlock": 611,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2007-07-31T03:40:56.7588542+02:00",
+    "Rank": 536,
+    "Type": "temporibus",
+    "ColorBlock": 184,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-04-06T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Steuber Group",
-        "ToolTip": "Dolores veritatis inventore eum minus.",
+        "Id": 702,
+        "Name": "Legros LLC",
+        "ToolTip": "Deleniti pariatur.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "quos",
-        "ColorBlock": 1000,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2006-10-21T03:40:56.7588542+02:00",
+        "Rank": 755,
+        "Type": "neque",
+        "ColorBlock": 943,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2016-03-29T02:30:53.2411414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolores",
+        "ExtraInfo": "molestias",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Prof. Ova Vito Shanahan IV",
+        "FullName": "Freda Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 86
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Bo Lubowitz",
+    "ExtraInfo": "neque",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Liana Vita Hermann PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldType": "System.String",
+        "FieldLength": 732
       }
     }
   }

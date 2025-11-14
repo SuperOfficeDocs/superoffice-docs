@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 747
+  "ContactId": 254
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-745-483-3198 x97705",
-    "PersonCellPhone": "882-129-4363",
-    "PersonPrivatePhone": "(700)302-4002",
-    "PersonFaxNumber": "919572",
-    "PersonPagerNumber": "201762",
-    "PersonEmail": "keely_barrows@kleinhomenick.name",
-    "Id": 157,
-    "Name": "Pagac Inc and Sons",
-    "Tooltip": "natus",
-    "UniqueId": "blanditiis",
+    "PersonDirectPhone": "(371)963-3023 x971",
+    "PersonCellPhone": "(103)291-7249 x220",
+    "PersonPrivatePhone": "024-246-0975 x2534",
+    "PersonFaxNumber": "1147891",
+    "PersonPagerNumber": "1542386",
+    "PersonEmail": "rudy@klocko.name",
+    "Id": 237,
+    "Name": "Beahan-Beatty",
+    "Tooltip": "quisquam",
+    "UniqueId": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

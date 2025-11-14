@@ -147,55 +147,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 125,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "officiis",
-  "Name": "Jones-Osinski",
-  "Description": "Configurable web-enabled matrix",
+  "ProductId": 828,
+  "ERPProductKey": "ab",
+  "ERPPriceListKey": "est",
+  "Name": "Anderson-Abbott",
+  "Description": "Integrated stable open architecture",
   "Code": "aut",
-  "PriceUnit": "labore",
-  "QuantityUnit": "sed",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 23022.363999999998,
-  "ItemNumber": "992074",
+  "PriceUnit": "quidem",
+  "QuantityUnit": "dolor",
+  "IsSubscription": true,
+  "SubscriptionUnit": "magni",
+  "DefaultSubscriptionQuantity": 9104.27,
+  "ItemNumber": "1128528",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quidem",
-  "ProductTypeKey": "magni",
-  "VAT": 14726.666,
-  "VATInfo": "impedit",
-  "UnitCost": 13078.181999999999,
-  "UnitMinimumPrice": 20891.244,
-  "UnitListPrice": 20095.208,
-  "InAssortment": false,
-  "Supplier": "veritatis",
-  "SupplierCode": "ab",
-  "Rights": "asperiores",
-  "Rule": "nostrum",
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "aliquam",
+  "VAT": 10238.778,
+  "VATInfo": "sed",
+  "UnitCost": 7217.602,
+  "UnitMinimumPrice": 17108.506,
+  "UnitListPrice": 20483.824,
+  "InAssortment": true,
+  "Supplier": "nulla",
+  "SupplierCode": "et",
+  "Rights": "et",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Jacobson, Lubowitz and Ratke",
-      "Value": "alias",
+      "Name": "Armstrong, Mayert and Rolfson",
+      "Value": "praesentium",
       "Type": "Image"
     },
     {
-      "Name": "Jacobson, Lubowitz and Ratke",
-      "Value": "alias",
+      "Name": "Armstrong, Mayert and Rolfson",
+      "Value": "praesentium",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "eius",
-  "ExtraField1": "aliquam",
-  "ExtraField2": "quae",
-  "ExtraField3": "et",
-  "ExtraField4": "qui",
-  "ExtraField5": "et",
-  "InStock": 10921.99
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "aut",
+  "ExtraField2": "ullam",
+  "ExtraField3": "quisquam",
+  "ExtraField4": "ratione",
+  "ExtraField5": "sint",
+  "InStock": 13143.996
 }
 ```
 
@@ -206,73 +206,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 856,
-  "ERPProductKey": "nihil",
-  "ERPPriceListKey": "accusantium",
-  "Name": "Ward Group",
-  "Description": "Diverse encompassing toolset",
-  "Code": "quis",
-  "PriceUnit": "ut",
-  "QuantityUnit": "neque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 3049.382,
-  "ItemNumber": "1073413",
+  "ProductId": 519,
+  "ERPProductKey": "aliquid",
+  "ERPPriceListKey": "sit",
+  "Name": "Stamm Group",
+  "Description": "Fundamental next generation encoding",
+  "Code": "nam",
+  "PriceUnit": "unde",
+  "QuantityUnit": "pariatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quasi",
+  "DefaultSubscriptionQuantity": 18.804,
+  "ItemNumber": "961245",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "error",
-  "ProductTypeKey": "quasi",
-  "VAT": 26548.113999999998,
-  "VATInfo": "sit",
-  "UnitCost": 6675.42,
-  "UnitMinimumPrice": 22082.164,
-  "UnitListPrice": 19791.21,
-  "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "quia",
-  "Rights": "ut",
-  "Rule": "est",
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "et",
+  "VAT": 13526.344,
+  "VATInfo": "deleniti",
+  "UnitCost": 2450.788,
+  "UnitMinimumPrice": 29898.36,
+  "UnitListPrice": 30772.746,
+  "InAssortment": true,
+  "Supplier": "omnis",
+  "SupplierCode": "veniam",
+  "Rights": "dignissimos",
+  "Rule": "quidem",
   "ExtraInfo": [
     {
-      "Name": "Larson Group",
-      "Value": "sunt",
+      "Name": "Hyatt, Ziemann and Schiller",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 854
         }
       }
     },
     {
-      "Name": "Larson Group",
-      "Value": "sunt",
+      "Name": "Hyatt, Ziemann and Schiller",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 854
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "dolores",
-  "ExtraField2": "non",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "sed",
-  "ExtraField5": "ullam",
-  "InStock": 25814.757999999998,
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "enim",
+  "ExtraField5": "repellendus",
+  "InStock": 31023.466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

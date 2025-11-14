@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Cruickshank-Emmerich",
-    "ToolTip": "Architecto enim ducimus et qui est ut.",
-    "Deleted": true,
-    "Rank": 646,
-    "Type": "doloribus",
-    "ColorBlock": 691,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2022-07-07T03:40:56.9777222+02:00",
+    "Id": 273,
+    "Name": "Wiza, Cummings and Reilly",
+    "ToolTip": "Ut perspiciatis repellat laborum dolor similique.",
+    "Deleted": false,
+    "Rank": 672,
+    "Type": "blanditiis",
+    "ColorBlock": 472,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "2011-11-14T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Cartwright Group",
-        "ToolTip": "Sunt harum quia facere ad eum ut.",
-        "Deleted": true,
-        "Rank": 483,
-        "Type": "enim",
-        "ColorBlock": 880,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2011-06-01T03:40:56.9777222+02:00",
+        "Id": 33,
+        "Name": "Leuschke Inc and Sons",
+        "ToolTip": "Ut molestiae.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "tenetur",
+        "ColorBlock": 265,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2008-04-17T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Ms. Nyah Wehner IV"
+        "FullName": "Mrs. Laurianne Jalyn Frami DVM"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "amet",
+    "ExtraInfo": "enim",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Prof. Caterina Kirlin Jr."
+    "FullName": "Celestine Rodriguez"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Sapiente nemo beatae quos magni nihil et.",
-    "Deleted": false,
-    "Rank": 271,
-    "Type": "voluptas",
-    "ColorBlock": 359,
-    "IconHint": "cupiditate",
+    "Id": 849,
+    "Name": "Okuneva Group",
+    "ToolTip": "A iste aliquam debitis modi.",
+    "Deleted": true,
+    "Rank": 936,
+    "Type": "omnis",
+    "ColorBlock": 469,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2020-05-05T03:40:56.9777222+02:00",
+    "LastChanged": "2005-11-09T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Schiller, Mitchell and Howe",
-        "ToolTip": "Aut est et aut earum.",
-        "Deleted": false,
-        "Rank": 337,
-        "Type": "quo",
-        "ColorBlock": 604,
-        "IconHint": "optio",
+        "Id": 264,
+        "Name": "Corkery-Murazik",
+        "ToolTip": "Voluptatem unde tenetur rem omnis expedita.",
+        "Deleted": true,
+        "Rank": 180,
+        "Type": "iusto",
+        "ColorBlock": 403,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2016-01-23T03:40:56.9777222+01:00",
+        "LastChanged": "2012-01-21T02:30:53.3348881+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dicta",
+        "ExtraInfo": "minima",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Keven Turner",
+        "FullName": "Dino Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "maiores",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Matilda Stanton",
+    "FullName": "Ms. Letha Stracke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldLength": 369
       }
     }
   }

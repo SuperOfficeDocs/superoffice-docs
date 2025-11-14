@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Value": "animi",
-    "Tooltip": "ea",
+    "Id": 122,
+    "Value": "repellendus",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 154
       }
     }
   },
   {
-    "Id": 418,
-    "Value": "animi",
-    "Tooltip": "ea",
+    "Id": 122,
+    "Value": "repellendus",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 154
       }
     }
   }

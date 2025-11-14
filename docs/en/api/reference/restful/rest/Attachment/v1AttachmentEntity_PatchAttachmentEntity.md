@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "ipsum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "ipsum",
     "value": {}
   }
 ]
@@ -141,25 +141,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 225,
-  "Name": "Baumbach, Mueller and O'Keefe",
-  "ContentType": "sunt",
-  "AttSize": 176,
+  "AttachmentId": 459,
+  "Name": "Stanton, Fadel and Sauer",
+  "ContentType": "cum",
+  "AttSize": 119,
   "InlineImage": true,
-  "ContentId": "neque",
-  "AuthKey": "atque",
-  "IsSafeFileExtension": false,
+  "ContentId": "suscipit",
+  "AuthKey": "laboriosam",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

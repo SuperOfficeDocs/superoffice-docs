@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Rath LLC",
-    "ToolTip": "Autem ut beatae in.",
-    "Deleted": true,
-    "Rank": 303,
-    "Type": "nemo",
-    "ColorBlock": 202,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2004-07-07T03:40:56.805732+02:00",
+    "Id": 642,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Expedita assumenda culpa.",
+    "Deleted": false,
+    "Rank": 379,
+    "Type": "nobis",
+    "ColorBlock": 180,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2008-06-24T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Feest, Abbott and McDermott",
-        "ToolTip": "Sit amet laborum sed animi.",
-        "Deleted": false,
-        "Rank": 58,
-        "Type": "nesciunt",
-        "ColorBlock": 882,
-        "IconHint": "ea",
+        "Id": 594,
+        "Name": "Herzog, Bartell and Wunsch",
+        "ToolTip": "Nihil facilis.",
+        "Deleted": true,
+        "Rank": 957,
+        "Type": "itaque",
+        "ColorBlock": 804,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2021-01-17T03:40:56.805732+01:00",
+        "LastChanged": "2023-09-12T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Miss Willie Larkin"
+        "ExtraInfo": "est",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Aaron Vandervort"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Queen McKenzie"
+    "ExtraInfo": "cumque",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Miss Jacky Bergstrom"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Fritsch Group",
-    "ToolTip": "Et quisquam modi in tenetur rerum veritatis temporibus.",
-    "Deleted": false,
-    "Rank": 808,
-    "Type": "accusantium",
-    "ColorBlock": 210,
-    "IconHint": "rem",
+    "Id": 56,
+    "Name": "Schaden, Monahan and Skiles",
+    "ToolTip": "Voluptate et.",
+    "Deleted": true,
+    "Rank": 233,
+    "Type": "sapiente",
+    "ColorBlock": 12,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-02-10T03:40:56.805732+01:00",
+    "LastChanged": "2011-07-24T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Von-Dicki",
-        "ToolTip": "Impedit dolorum est rerum.",
-        "Deleted": false,
-        "Rank": 705,
-        "Type": "dignissimos",
-        "ColorBlock": 314,
-        "IconHint": "dolore",
+        "Id": 182,
+        "Name": "Simonis Inc and Sons",
+        "ToolTip": "Qui sint.",
+        "Deleted": true,
+        "Rank": 345,
+        "Type": "alias",
+        "ColorBlock": 775,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2017-09-29T03:40:56.805732+02:00",
+        "LastChanged": "2003-11-15T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ut",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Robb Koch",
+        "FullName": "Ms. Raleigh Dennis Kutch I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 224
+            "FieldLength": 700
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "provident",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Ms. Jevon Nathen Ondricka",
+    "FullName": "Angelo Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 529
       }
     }
   }

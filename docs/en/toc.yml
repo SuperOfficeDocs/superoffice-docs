@@ -6,9 +6,6 @@ items:
 
 - name: Docs (English)
   items:
-  - name: Admin
-    href: admin/toc.yml
-    topicHref: admin/overview.md
   - name: Automation
     href: automation/toc.yml
   - name: Developer portal

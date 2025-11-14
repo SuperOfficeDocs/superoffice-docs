@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  id: ContactPersonBoardEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ContactPersonBoardEntity.Contact
+  - SuperOffice.WebApi.Data.ContactPersonBoardEntity.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonBoardEntity
+  nameWithType: ContactPersonBoardEntity
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Contact/Person board view entity
+  example: []
+  syntax:
+    content: public enum ContactPersonBoardEntity
+    content.vb: Public Enum ContactPersonBoardEntity
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity.Contact
+  commentId: F:SuperOffice.WebApi.Data.ContactPersonBoardEntity.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ContactPersonBoardEntity.Contact
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardEntity.Contact
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Contact'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Contact = 0
+    return:
+      type: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+    content.vb: >-
+      <EnumMember>
+
+      Contact = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity.Person
+  commentId: F:SuperOffice.WebApi.Data.ContactPersonBoardEntity.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ContactPersonBoardEntity.Person
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardEntity.Person
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Person'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Person = 1
+    return:
+      type: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+    content.vb: >-
+      <EnumMember>
+
+      Person = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactPersonBoardEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ContactPersonBoardEntity.html
+  name: ContactPersonBoardEntity
+  nameWithType: ContactPersonBoardEntity
+  fullName: SuperOffice.WebApi.Data.ContactPersonBoardEntity

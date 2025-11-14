@@ -82,13 +82,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 695,
-  "Name": "Ferry, Osinski and Klein",
-  "Rank": 730,
-  "Tooltip": "nihil",
-  "Deleted": false,
+  "ResourceId": 823,
+  "Name": "Kuhlman-Pagac",
+  "Rank": 935,
+  "Tooltip": "officia",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "odit"
+  "LocationAddress": "ut"
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 826,
-  "Name": "Gerhold, Ward and Lueilwitz",
-  "Rank": 370,
-  "Tooltip": "eos",
+  "ResourceId": 471,
+  "Name": "Ritchie LLC",
+  "Rank": 349,
+  "Tooltip": "et",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "incidunt",
+  "IsLocation": false,
+  "LocationAddress": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldLength": 413
     }
   }
 }

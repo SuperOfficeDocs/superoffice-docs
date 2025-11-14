@@ -23,6 +23,7 @@ The name of the MDO list is 'dashboard'.
 |Return only the current users dashboards| OnlyMine|False|
 |Only return dashboards you are allowed to update| CanUpdate|False|
 |Comma separated list of IDs to be omitted from the result| ExcludeIds|False|
+|Include the Flow Report dashboard| IncludeFlowReport|False|
 
 Separator: &
 

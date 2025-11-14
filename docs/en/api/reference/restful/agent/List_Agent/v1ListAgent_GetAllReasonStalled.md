@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Value": "consequatur",
-    "Tooltip": "magni",
+    "Id": 586,
+    "Value": "dicta",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 545
       }
     }
   },
   {
-    "Id": 582,
-    "Value": "consequatur",
-    "Tooltip": "magni",
+    "Id": 586,
+    "Value": "dicta",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 545
       }
     }
   }

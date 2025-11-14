@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 785,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "eum",
-  "Name": "Ritchie-Barrows",
-  "Description": "Triple-buffered asynchronous ability",
-  "Code": "voluptatibus",
-  "PriceUnit": "et",
-  "QuantityUnit": "quo",
-  "IsSubscription": true,
-  "SubscriptionUnit": "facilis",
-  "DefaultSubscriptionQuantity": 22386.162,
-  "ItemNumber": "1294080",
+  "ProductId": 398,
+  "ERPProductKey": "mollitia",
+  "ERPPriceListKey": "est",
+  "Name": "Kreiger LLC",
+  "Description": "Pre-emptive analyzing array",
+  "Code": "id",
+  "PriceUnit": "saepe",
+  "QuantityUnit": "quae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ipsum",
+  "DefaultSubscriptionQuantity": 2776.7239999999997,
+  "ItemNumber": "1642508",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "facilis",
-  "VAT": 24918.433999999997,
-  "VATInfo": "ab",
-  "UnitCost": 2068.44,
-  "UnitMinimumPrice": 28287.484,
-  "UnitListPrice": 14817.552,
+  "ProductFamilyKey": "consequatur",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 25491.956,
+  "VATInfo": "vel",
+  "UnitCost": 2087.244,
+  "UnitMinimumPrice": 29735.392,
+  "UnitListPrice": 8145.266,
   "InAssortment": true,
-  "Supplier": "praesentium",
-  "SupplierCode": "explicabo",
-  "Rights": "non",
-  "Rule": "minima",
+  "Supplier": "et",
+  "SupplierCode": "sapiente",
+  "Rights": "dolor",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Paucek Inc and Sons",
-      "Value": "distinctio",
+      "Name": "Bechtelar-Eichmann",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 932
         }
       }
     },
     {
-      "Name": "Paucek Inc and Sons",
-      "Value": "distinctio",
+      "Name": "Bechtelar-Eichmann",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 932
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "quo",
-  "ExtraField2": "tempora",
-  "ExtraField3": "eos",
-  "ExtraField4": "est",
-  "ExtraField5": "fuga",
-  "InStock": 19424.532,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "beatae",
+  "ExtraField2": "quam",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "et",
+  "ExtraField5": "quo",
+  "InStock": 25382.266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 807
     }
   }
 }

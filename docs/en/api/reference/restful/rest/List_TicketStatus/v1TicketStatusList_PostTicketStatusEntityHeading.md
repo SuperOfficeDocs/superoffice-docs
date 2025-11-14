@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 382,
-  "Name": "Mitchell, Wiza and Aufderhar",
-  "Tooltip": "aut",
+  "HeadingId": 616,
+  "Name": "Sawayn LLC",
+  "Tooltip": "illum",
   "Deleted": true,
-  "Rank": 276,
-  "UdListDefinitionId": 119
+  "Rank": 102,
+  "UdListDefinitionId": 248
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 189,
-  "Name": "Batz Group",
-  "Tooltip": "doloremque",
+  "HeadingId": 278,
+  "Name": "Gerlach Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 948,
-  "UdListDefinitionId": 713,
+  "Rank": 963,
+  "UdListDefinitionId": 462,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   }
 }

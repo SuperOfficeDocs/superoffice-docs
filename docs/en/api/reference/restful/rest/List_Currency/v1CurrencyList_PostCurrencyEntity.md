@@ -82,13 +82,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 544,
-  "Name": "Swaniawski-Gusikowski",
-  "Tooltip": "vero",
-  "Rank": 405,
-  "Rate": 24388.788,
-  "Units": 31145.692,
-  "Deleted": false
+  "CurrencyId": 582,
+  "Name": "Deckow, Doyle and Roberts",
+  "Tooltip": "quasi",
+  "Rank": 821,
+  "Rate": 16666.612,
+  "Units": 23075.642,
+  "Deleted": true
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 922,
-  "Name": "Hegmann, Bins and Barton",
-  "Tooltip": "commodi",
-  "Rank": 376,
-  "Rate": 22746.572,
-  "Units": 9671.524,
-  "Deleted": false,
+  "CurrencyId": 347,
+  "Name": "O'Hara-Feeney",
+  "Tooltip": "laboriosam",
+  "Rank": 905,
+  "Rate": 15397.341999999999,
+  "Units": 25278.844,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

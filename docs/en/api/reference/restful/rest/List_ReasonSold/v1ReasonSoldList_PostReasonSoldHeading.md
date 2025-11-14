@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 749,
-  "Name": "Buckridge Inc and Sons",
-  "Tooltip": "vitae",
+  "HeadingId": 445,
+  "Name": "Reilly-Schmitt",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 302,
-  "UdListDefinitionId": 258
+  "Rank": 902,
+  "UdListDefinitionId": 840
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 710,
-  "Name": "Bartoletti-Jast",
-  "Tooltip": "blanditiis",
+  "HeadingId": 506,
+  "Name": "Dietrich Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 550,
-  "UdListDefinitionId": 442,
+  "Rank": 164,
+  "UdListDefinitionId": 65,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 67
     }
   }
 }

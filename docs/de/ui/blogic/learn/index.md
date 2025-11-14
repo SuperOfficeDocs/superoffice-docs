@@ -59,7 +59,7 @@ Durch [Zusatztabellen und Felder zu SuperOffice hinzufügen][1] können Sie eine
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
-[13]: ../../../admin/learn/package-properties.md
-[14]: ../../../automation/crmscript/learn/screen/data-exchange.md
+[13]: ../../../customization/admin/package-properties.md
+[14]: ../../../admin/onsite/data-exchange.md
 
 <!-- Referenced images -->

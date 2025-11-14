@@ -95,7 +95,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,33 +105,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 928,
-  "PlainMessage": "vitae",
-  "HtmlMessage": "error",
-  "SmsMessage": "sed",
-  "Description": "Persistent impactful initiative",
-  "Subject": "qui",
-  "FolderId": 906,
-  "HeaderField": "velit",
-  "Design": "odit",
+  "ShipmentMessageId": 464,
+  "PlainMessage": "quia",
+  "HtmlMessage": "id",
+  "SmsMessage": "veniam",
+  "Description": "Multi-tiered holistic encryption",
+  "Subject": "cupiditate",
+  "FolderId": 799,
+  "HeaderField": "et",
+  "Design": "necessitatibus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Switchable even-keeled utilisation",
-  "AccessKey": "omnis",
-  "DocumentMessage": 895,
-  "Registered": "2001-07-10T03:40:56.2422072+02:00",
-  "RegisteredAssociateId": 868,
-  "Updated": "2010-12-04T03:40:56.2422072+01:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 28,
+  "InlineImages": true,
+  "LongDescription": "Realigned coherent access",
+  "AccessKey": "deserunt",
+  "DocumentMessage": 697,
+  "Registered": "2000-01-07T02:30:52.9442767+01:00",
+  "RegisteredAssociateId": 147,
+  "Updated": "2022-07-28T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 419,
+  "UpdatedCount": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 389
     }
   },
   "_Links": {

@@ -73,33 +73,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 303,
-  "Name": "Hudson-Kertzmann",
-  "Description": "Balanced didactic access",
-  "OwnedByFullName": "Margaret Golden Becker II",
-  "Registered": "2002-12-27T03:40:46.5780122+01:00",
+  "DashboardId": 214,
+  "Name": "Koelpin Inc and Sons",
+  "Description": "Programmable eco-centric encoding",
+  "OwnedByFullName": "Miss Shirley Morar",
+  "Registered": "2009-09-19T02:30:47.0694635+02:00",
   "Tiles": [
     {
-      "Name": "Goldner, Goyette and Bailey",
+      "Name": "Metz, Kreiger and Block",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 468
         }
       }
     },
     {
-      "Name": "Goldner, Goyette and Bailey",
+      "Name": "Metz, Kreiger and Block",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 468
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

@@ -67,29 +67,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 986,
-      "DisplayName": "Schaefer Group",
-      "OngoingChats": 60,
-      "Present": false,
+      "UserId": 363,
+      "DisplayName": "Doyle, Wyman and Baumbach",
+      "OngoingChats": 956,
+      "Present": true,
       "ChatTopics": [
-        435,
-        922
+        749,
+        433
       ]
     },
     {
-      "UserId": 986,
-      "DisplayName": "Schaefer Group",
-      "OngoingChats": 60,
-      "Present": false,
+      "UserId": 363,
+      "DisplayName": "Doyle, Wyman and Baumbach",
+      "OngoingChats": 956,
+      "Present": true,
       "ChatTopics": [
-        435,
-        922
+        749,
+        433
       ]
     }
   ]

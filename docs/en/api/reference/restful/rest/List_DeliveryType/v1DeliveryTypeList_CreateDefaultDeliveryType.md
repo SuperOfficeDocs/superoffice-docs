@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Moen-Hudson",
-  "Tooltip": "quis",
+  "Id": 440,
+  "Name": "Barton Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 984,
-  "Rank": 522,
+  "UdListDefinitionId": 957,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 96
     }
   }
 }

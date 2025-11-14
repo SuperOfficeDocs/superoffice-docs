@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Value": "consequuntur",
-    "Tooltip": "et",
+    "Id": 333,
+    "Value": "autem",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 240
       }
     }
   },
   {
-    "Id": 50,
-    "Value": "consequuntur",
-    "Tooltip": "et",
+    "Id": 333,
+    "Value": "autem",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 240
       }
     }
   }

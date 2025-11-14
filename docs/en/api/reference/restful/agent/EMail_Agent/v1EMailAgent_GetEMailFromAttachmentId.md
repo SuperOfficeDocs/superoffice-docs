@@ -106,14 +106,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 813,
+  "EmailId": 208,
   "AttachmentIds": [
-    "optio",
-    "autem"
+    "adipisci",
+    "ad"
   ],
   "IncludeAttachments": false
 }
@@ -128,97 +128,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 909,
-      "ContactName": "Considine Group",
-      "PersonId": 329,
-      "PersonName": "Hammes Inc and Sons",
-      "AssociateId": 69,
-      "Address": "repellendus",
-      "EmailId": 949,
+      "ContactId": 46,
+      "ContactName": "Wiegand, Halvorson and Hettinger",
+      "PersonId": 276,
+      "PersonName": "Purdy-Jenkins",
+      "AssociateId": 455,
+      "Address": "qui",
+      "EmailId": 469,
       "DuplicatePersonIds": [
-        293,
-        590
+        64,
+        126
       ],
-      "Name": "Cummings-Upton",
+      "Name": "Effertz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 911
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 318,
-      "ContactName": "Jacobs Group",
-      "PersonId": 270,
-      "PersonName": "Fadel-Green",
-      "AssociateId": 856,
-      "Address": "tempora",
-      "EmailId": 420,
+      "ContactId": 608,
+      "ContactName": "Cummerata Group",
+      "PersonId": 857,
+      "PersonName": "Parker-Champlin",
+      "AssociateId": 565,
+      "Address": "ipsum",
+      "EmailId": 954,
       "DuplicatePersonIds": [
-        266,
-        531
+        653,
+        913
       ],
-      "Name": "Klocko Group",
+      "Name": "Lind, Little and Botsford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 545
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 242,
-      "ContactName": "Heller-Hodkiewicz",
-      "PersonId": 114,
-      "PersonName": "Shields-Powlowski",
-      "AssociateId": 227,
-      "Address": "aut",
-      "EmailId": 671,
+      "ContactId": 602,
+      "ContactName": "Zulauf LLC",
+      "PersonId": 788,
+      "PersonName": "Heidenreich, Hermiston and Stehr",
+      "AssociateId": 878,
+      "Address": "reiciendis",
+      "EmailId": 317,
       "DuplicatePersonIds": [
-        617,
-        913
+        166,
+        620
       ],
-      "Name": "Corwin, Langosh and Trantow",
+      "Name": "Daugherty LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 861
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "aspernatur",
+  "Subject": "nesciunt",
+  "HTMLBody": "harum",
   "From": null,
-  "Sent": "2016-06-06T03:40:46.8748964+02:00",
-  "Size": 375,
+  "Sent": "2005-12-13T02:30:47.3038336+01:00",
+  "Size": 948,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "qui",
+  "MessageID": "eos",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 940,
+  "ServerId": 832,
   "Attachments": [
     {
-      "Description": "Versatile client-server parallelism",
-      "Filename": "consequuntur",
-      "Size": 919,
-      "Type": "harum",
-      "Encoding": "est",
-      "Id": "dolore",
-      "Disposition": "in",
+      "Description": "Organized content-based definition",
+      "Filename": "quia",
+      "Size": 337,
+      "Type": "occaecati",
+      "Encoding": "facere",
+      "Id": "est",
+      "Disposition": "cumque",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -226,58 +226,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 957
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gibson, Hagenes and Stehr",
+      "Name": "Kessler-Kutch",
       "Values": [
-        "repellendus",
-        "illo"
+        "voluptate",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 805
         }
       }
     },
     {
-      "Name": "Gibson, Hagenes and Stehr",
+      "Name": "Kessler-Kutch",
       "Values": [
-        "repellendus",
-        "illo"
+        "voluptate",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 805
         }
       }
     }
   ],
-  "FolderName": "Kozey, Stehr and Lockman",
-  "EmailItemId": 513,
-  "AccountId": 664,
-  "ReceivedAt": "2018-05-31T03:40:46.8748964+02:00",
+  "FolderName": "Grant LLC",
+  "EmailItemId": 623,
+  "AccountId": 294,
+  "ReceivedAt": "2018-08-02T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-04-07T03:40:46.8748964+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2006-08-10T02:30:47.3038336+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   }
 }

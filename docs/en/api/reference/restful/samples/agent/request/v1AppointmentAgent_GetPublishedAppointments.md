@@ -1,0 +1,14 @@
+```http!
+POST /api/v1/Agents/Appointment/GetPublishedAppointments
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "AppointmentIds": [
+    51,
+    6
+  ]
+}
+```

@@ -32,7 +32,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=11
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=306
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -94,27 +94,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 479,
-  "Name": "Orn-Brakus",
+  "WebhookId": 458,
+  "Name": "Hickle LLC",
   "Events": [
-    "hic",
-    "expedita"
+    "voluptas",
+    "vel"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "similique",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "fugit",
+  "Type": "ullam",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "totam"
+    "Headers1": "sed",
+    "Headers2": "labore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-08-07T03:40:48.2817514+02:00",
+  "Registered": "2009-12-22T02:30:48.1475549+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-06-11T03:40:48.2817514+02:00",
+  "Updated": "2023-07-06T02:30:48.1475549+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "betsy_keeling@sauerlakin.name"
+  "ErrorsEmail": "damian_cummerata@stehrtromp.com"
 }
 ```

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 551,
-  "Name": "Cummerata, Okuneva and Nitzsche",
-  "Tooltip": "sunt",
-  "Rank": 730,
+  "SuggestedAppointmentId": 376,
+  "Name": "Huel Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 551,
   "Deleted": false,
-  "DaysFuture": 220,
-  "Duration": "et",
+  "DaysFuture": 765,
+  "Duration": "numquam",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "sunt",
+  "Text": "et",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 692
     }
   }
 }

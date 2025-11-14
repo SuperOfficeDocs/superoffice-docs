@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "officiis",
-  "IsThumbsUp": true
+  "TrackingId": "et",
+  "IsThumbsUp": false
 }
 ```
 

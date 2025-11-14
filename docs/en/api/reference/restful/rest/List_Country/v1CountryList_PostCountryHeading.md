@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 259,
-  "Name": "Roob LLC",
-  "Tooltip": "error",
+  "HeadingId": 71,
+  "Name": "McCullough Inc and Sons",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "Rank": 4,
-  "UdListDefinitionId": 169
+  "Rank": 539,
+  "UdListDefinitionId": 43
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 851,
-  "Name": "Weber-Barrows",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 5,
-  "UdListDefinitionId": 64,
+  "HeadingId": 707,
+  "Name": "Roob-Greenholt",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 4,
+  "UdListDefinitionId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   }
 }

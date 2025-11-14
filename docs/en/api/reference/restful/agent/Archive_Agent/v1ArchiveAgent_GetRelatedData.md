@@ -82,11 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "tempora",
-  "RecordId": 764,
+  "Table": "expedita",
+  "RecordId": 267,
   "Fields": [
-    "consectetur",
-    "recusandae"
+    "aliquid",
+    "labore"
   ]
 }
 ```
@@ -99,11 +99,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "rem",
+    "Field": "dolorum",
     "FieldValue": null
   },
   {
-    "Field": "rem",
+    "Field": "dolorum",
     "FieldValue": null
   }
 ]

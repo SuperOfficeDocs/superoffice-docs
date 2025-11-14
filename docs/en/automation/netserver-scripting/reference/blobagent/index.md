@@ -47,6 +47,7 @@ Service methods defined on <see cref='T:IBLOBAgent'>BLOBAgent</see> that can tri
 * [GetProjectImageWithSizeAsync](getprojectimagewithsizeasync.md)
 * [GetQuoteLineImageAsStreamAsync](getquotelineimageasstreamasync.md)
 * [GetQuoteLineImageAsync](getquotelineimageasync.md)
+* [GetRawPersonImageAsync](getrawpersonimageasync.md)
 * [SaveBlobEntityAsync](saveblobentityasync.md)
 * [SaveImageStreamAsync](saveimagestreamasync.md)
 * [SaveImageStreamFromStreamAsync](saveimagestreamfromstreamasync.md)

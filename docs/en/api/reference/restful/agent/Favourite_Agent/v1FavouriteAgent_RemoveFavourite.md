@@ -73,9 +73,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Yost, Stoltenberg and Kuvalis",
-  "RecordId": 100,
-  "AssociateId": 864
+  "TableName": "Welch, Kozey and Kuvalis",
+  "RecordId": 813,
+  "AssociateId": 454
 }
 ```
 

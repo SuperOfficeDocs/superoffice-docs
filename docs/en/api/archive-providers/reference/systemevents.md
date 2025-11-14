@@ -57,7 +57,7 @@ Provider base for system events.
 |registered\_associate\_id/assocType|listAny|Activated by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |registered\_associate\_id/ejUserId|int|Activated by - Service user ID: The database ID of a Service user|  |
 |registered\_associate\_id/simultaneousEjUser|bool|Activated by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|registered\_associate\_id/ejDisplayName|string|Activated by - Nick name: User's nick name in Service| x |
+|registered\_associate\_id/ejDisplayName|string|Activated by - Nickname: User's nickname in Service| x |
 |registered\_associate\_id/ejStatus|int|Activated by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |registered\_associate\_id/credentialType| *None* |Activated by - Auth. type: What type of credentials to use when this user logs in| x |
 |registered\_associate\_id/credentialDisplayValue| *None* |Activated by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -73,7 +73,7 @@ Provider base for system events.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=eventkey,extrainfo,registered_associate_id/otherGroups
+GET /api/v1/archive/SystemEvents?$select=registered_associate_id/lastName,registered_associate_id/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

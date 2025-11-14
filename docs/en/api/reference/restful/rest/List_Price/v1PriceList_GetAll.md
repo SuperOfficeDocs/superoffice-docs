@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=aliquid
-GET /api/v1/Pricelist?$top=988
-GET /api/v1/Pricelist?$skip=889
+GET /api/v1/Pricelist?$entities=accusantium
+GET /api/v1/Pricelist?$top=611
+GET /api/v1/Pricelist?$skip=421
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=temporibus
+GET /api/v1/Pricelist?$context=aut
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "at",
+  "odata.nextLink": "pariatur",
   "value": [
     {
-      "PrimaryKey": 6557,
-      "EntityName": "person",
-      "personId": 6557,
-      "fullName": "Prof. Reagan Heidenreich IV"
+      "PrimaryKey": 7905,
+      "EntityName": "sale",
+      "saleId": 7905,
+      "contactId": 5742,
+      "name": "Block-Marvin"
     },
     {
-      "PrimaryKey": 2674,
-      "EntityName": "person",
-      "personId": 2674,
-      "fullName": "Isidro Yundt"
+      "PrimaryKey": 5987,
+      "EntityName": "sale",
+      "saleId": 5987,
+      "contactId": 4352,
+      "name": "Braun Inc and Sons"
     }
   ]
 }

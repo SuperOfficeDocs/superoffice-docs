@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Hansen Inc and Sons",
-    "ToolTip": "Qui suscipit qui aut omnis perferendis.",
+    "Id": 290,
+    "Name": "Wehner, McClure and Schinner",
+    "ToolTip": "Enim et sapiente.",
     "Deleted": false,
-    "Rank": 427,
-    "Type": "dolor",
-    "ColorBlock": 466,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2013-03-07T03:40:56.9933484+01:00",
+    "Rank": 657,
+    "Type": "vero",
+    "ColorBlock": 278,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2009-11-30T02:30:53.3505129+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Reinger Group",
-        "ToolTip": "Adipisci deleniti sit assumenda eaque.",
-        "Deleted": true,
-        "Rank": 654,
-        "Type": "eum",
-        "ColorBlock": 148,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2000-05-28T03:40:56.9933484+02:00",
+        "Id": 69,
+        "Name": "Cole, Mohr and Lind",
+        "ToolTip": "Et voluptatem.",
+        "Deleted": false,
+        "Rank": 24,
+        "Type": "qui",
+        "ColorBlock": 742,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2004-08-02T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "magni",
+        "ExtraInfo": "qui",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Rocio Erdman",
+        "FullName": "Jovanny Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "qui",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Evalyn Kozey",
+    "FullName": "Norbert Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 399
       }
     }
   }

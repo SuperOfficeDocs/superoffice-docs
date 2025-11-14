@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "delectus",
-  "TechExplanation": "recusandae",
+  "UserExplanation": "voluptas",
+  "TechExplanation": "sed",
   "ErrorCode": "quia",
   "Changes": null,
   "Status": "Error",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

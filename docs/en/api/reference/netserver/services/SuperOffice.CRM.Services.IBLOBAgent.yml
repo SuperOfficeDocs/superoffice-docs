@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.CRM.Services.BlobEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamAsync(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
@@ -416,6 +417,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetPersonImageAsStreamAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPersonImageAsStreamAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRawPersonImageAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetRawPersonImageAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the raw person image without any resizing.
+  example: []
+  syntax:
+    content: Task<Stream> GetRawPersonImageAsync(int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The person image in its original size.
+    content.vb: Function GetRawPersonImageAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync*
+  nameWithType.vb: IBLOBAgent.GetRawPersonImageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRawPersonImageAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -2218,6 +2251,13 @@ references:
   name: GetPersonImageAsStreamAsync
   nameWithType: IBLOBAgent.GetPersonImageAsStreamAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetRawPersonImageAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRawPersonImageAsync
+  nameWithType: IBLOBAgent.GetRawPersonImageAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync
   isExternal: true

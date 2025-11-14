@@ -100,12 +100,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 569,
-  "Name": "Parisian-Yundt",
-  "Tooltip": "repellendus",
-  "PassiveText": "deserunt",
+  "ReldefId": 72,
+  "Name": "Dooley, Boyer and Ferry",
+  "Tooltip": "facilis",
+  "PassiveText": "laborum",
   "Deleted": false,
-  "Rank": 247,
+  "Rank": 164,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -118,20 +118,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 866,
-  "Name": "Bashirian-Johnson",
-  "Tooltip": "ea",
-  "PassiveText": "vel",
+  "ReldefId": 739,
+  "Name": "Lind, Bins and Kris",
+  "Tooltip": "hic",
+  "PassiveText": "nobis",
   "Deleted": false,
-  "Rank": 913,
+  "Rank": 716,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   },
   "_Links": {

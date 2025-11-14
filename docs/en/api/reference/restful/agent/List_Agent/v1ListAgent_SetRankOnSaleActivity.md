@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 462,
+  "SaleTypeStageLinkId": 733,
   "ItemsIds": [
-    847,
-    156
+    417,
+    500
   ]
 }
 ```

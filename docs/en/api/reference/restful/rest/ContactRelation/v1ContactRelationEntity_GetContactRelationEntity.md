@@ -93,7 +93,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,33 +101,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Jan 2008 03:40:55 G1T
+Last-Modified: Sun, 27 Oct 2019 02:30:52 G10T
 
 {
-  "SourceContactId": 693,
-  "SourcePersonId": 166,
-  "DestinationContactId": 28,
-  "DestinationPersonId": 484,
-  "RelationId": 761,
-  "Comment": "ut",
-  "RelationDefinitionId": 862,
-  "Reversed": 931,
-  "UpdatedDate": "2008-01-21T03:40:55.6162809+01:00",
-  "CreatedDate": "2004-04-04T03:40:55.6162809+02:00",
+  "SourceContactId": 215,
+  "SourcePersonId": 471,
+  "DestinationContactId": 366,
+  "DestinationPersonId": 608,
+  "RelationId": 33,
+  "Comment": "rerum",
+  "RelationDefinitionId": 31,
+  "Reversed": 396,
+  "UpdatedDate": "2019-10-27T02:30:52.506791+01:00",
+  "CreatedDate": "2003-02-21T02:30:52.506791+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cormier, Swaniawski and Smith",
-  "SourcePersonName": "Ruecker, Simonis and Braun",
-  "DestinationContactName": "Keeling-Zemlak",
-  "DestinationPersonName": "Marks LLC",
-  "ActiveText": "occaecati",
-  "PassiveText": "aspernatur",
+  "SourceContactName": "Altenwerth LLC",
+  "SourcePersonName": "Walter, Hayes and Doyle",
+  "DestinationContactName": "Schowalter-Legros",
+  "DestinationPersonName": "Kling, Konopelski and Jenkins",
+  "ActiveText": "sint",
+  "PassiveText": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 927
     }
   },
   "_Links": {

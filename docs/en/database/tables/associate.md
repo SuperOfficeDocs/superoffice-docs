@@ -161,6 +161,7 @@ Employees, resources and other users - except for External persons
 |[ExtApp](extapp.md)  |ExtApp list table. Applications startable from SuperOffice |
 |[ExtAppGroupLink](extappgrouplink.md)  |User group link table for ExtApp, for MDO item hiding |
 |[ExtAppHeadingLink](extappheadinglink.md)  |Heading link table for ExtApp, for MDO headers |
+|[external\_owner](external-owner.md)  |Owner of external data imported into the system |
 |[ExternalEvent](externalevent.md)  |The definition of projects as events in Audience (or other Collaborative apps) |
 |[Favourite](favourite.md)  |Favourite records (star-marking) |
 |[FieldLabel](fieldlabel.md)  |Field label override table, makes it possible to override internal string resources. Define your own text for the panels in SuperOffice, e.g. rename Project to Cars in SOAdmin - System Options - Labels  This table contains controlling data for the string substitution mechanism. There is one row in this table for each label or string that can be substituted; the active field indicates whether the string is actually being substituted or not. Initially, all rows have this field set to 0. The table is loaded with initial data during database setup.  Only SuperOffice Development has the necessary expertise to safely add rows to this table.  If a row has active = 1, the table LocaleText should contain one or more rows pointing back to this table, with the actual text to be used.  |

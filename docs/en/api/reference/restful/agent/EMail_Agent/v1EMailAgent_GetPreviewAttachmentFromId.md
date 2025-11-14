@@ -91,14 +91,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 478,
-  "AttachmentId": "ducimus",
-  "AttachmentType": "accusantium",
-  "AttachmentFilename": "id"
+  "MailItemId": 708,
+  "AttachmentId": "occaecati",
+  "AttachmentType": "cupiditate",
+  "AttachmentFilename": "sunt"
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly bottom-line analyzer",
-  "Filename": "temporibus",
-  "Size": 464,
-  "Type": "est",
-  "Encoding": "quis",
-  "Id": "perferendis",
-  "Disposition": "aut",
-  "IsSafeFileExtension": false,
+  "Description": "Organic 5th generation analyzer",
+  "Filename": "ipsum",
+  "Size": 646,
+  "Type": "nemo",
+  "Encoding": "dolores",
+  "Id": "ipsum",
+  "Disposition": "consequatur",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

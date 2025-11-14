@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Ticket/AcceptTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    16,
-    98
+    889,
+    384
   ]
 }
 ```

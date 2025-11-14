@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 360,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 58,
-  "Name": "Skiles Inc and Sons",
-  "Description": "Ergonomic incremental analyzer",
-  "Currency": "nemo",
-  "CurrencyName": "Ledner, Beahan and Pollich",
-  "ValidFrom": "2004-02-29T03:40:47.5317063+01:00",
-  "ValidTo": "2008-01-23T03:40:47.5317063+01:00",
-  "IsActive": false,
+  "PriceListId": 127,
+  "ERPPriceListKey": "ipsum",
+  "QuoteConnectionId": 267,
+  "Name": "Connelly-Hilpert",
+  "Description": "Grass-roots well-modulated local area network",
+  "Currency": "maxime",
+  "CurrencyName": "Wiza-Koss",
+  "ValidFrom": "2017-01-01T02:30:47.7100701+01:00",
+  "ValidTo": "2009-08-05T02:30:47.7100701+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

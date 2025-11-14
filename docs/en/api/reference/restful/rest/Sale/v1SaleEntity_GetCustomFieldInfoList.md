@@ -69,7 +69,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bogisich-Padberg",
-    "DisplayName": "Braun-Rosenbaum",
-    "Description": "Public-key context-sensitive firmware",
-    "ShortLabel": "eos",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Jenkins, Graham and Gottlieb",
+    "DisplayName": "Dicki LLC",
+    "Description": "Robust national open system",
+    "ShortLabel": "soluta",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 53,
-    "TemplateVariableName": "Nader-McClure"
+    "Rank": 501,
+    "TemplateVariableName": "Crooks Inc and Sons"
   }
 ]
 ```

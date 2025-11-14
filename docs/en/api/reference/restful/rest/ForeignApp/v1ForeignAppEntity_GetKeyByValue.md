@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=est
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=non
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Jul 2000 03:40:55 G7T
+Last-Modified: Wed, 03 Jan 2018 02:30:52 G1T
 
 {
-  "Key": "qui",
-  "Value": "repudiandae",
-  "RecordId": 50,
-  "CreatedDate": "2011-01-05T03:40:55.7886484+01:00",
-  "UpdatedDate": "2000-07-05T03:40:55.7886484+02:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "quas",
-  "TableName": "Kub LLC",
+  "Key": "velit",
+  "Value": "rerum",
+  "RecordId": 933,
+  "CreatedDate": "2017-01-21T02:30:52.6630355+01:00",
+  "UpdatedDate": "2018-01-03T02:30:52.6630355+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "perspiciatis",
+  "TableName": "Raynor-Kris",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

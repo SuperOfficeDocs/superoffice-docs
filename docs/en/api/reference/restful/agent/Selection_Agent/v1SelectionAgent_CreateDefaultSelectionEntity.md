@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,70 +108,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated upward-trending middleware",
-  "Postit": "eius",
+  "Description": "Focused multi-state structure",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 147,
-  "IncludePerson": 56,
+  "GroupIdx": 531,
+  "IncludePerson": 93,
   "MemberCount": 99.99,
-  "Name": "Crist Group",
-  "PostitTextId": 313,
-  "CreatedDate": "2009-12-08T03:40:47.7035926+01:00",
-  "SelectionId": 516,
-  "SoundEx": "sit",
-  "Source": 777,
-  "TextId": 748,
-  "UpdatedDate": "2000-09-18T03:40:47.7035926+02:00",
-  "UpdatedCount": 981,
-  "Visibility": 149,
+  "Name": "Predovic Inc and Sons",
+  "PostitTextId": 184,
+  "CreatedDate": "2001-05-19T02:30:47.8038176+02:00",
+  "SelectionId": 650,
+  "SoundEx": "adipisci",
+  "Source": 524,
+  "TextId": 177,
+  "UpdatedDate": "2005-07-18T02:30:47.8038176+02:00",
+  "UpdatedCount": 476,
+  "Visibility": 259,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 31,
-  "TargetTableName": "Trantow-Kuhic",
+  "CompanyUnique": false,
+  "TargetTableNumber": 991,
+  "TargetTableName": "Wiegand, Watsica and Wintheiser",
   "Completed": false,
-  "LeftSelectionId": 156,
-  "RightSelectionId": 169,
+  "LeftSelectionId": 150,
+  "RightSelectionId": 541,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kunde-Raynor",
-  "ShadowProviderName": "Gaylord, Heaney and Torphy",
-  "ChartKey": "nulla",
-  "LastLoaded": "2002-10-22T03:40:47.7035926+02:00",
-  "LastLoadedBy": 942,
+  "MainProviderName": "Russel LLC",
+  "ShadowProviderName": "Raynor Inc and Sons",
+  "ChartKey": "molestias",
+  "LastLoaded": "2005-09-10T02:30:47.8038176+02:00",
+  "LastLoadedBy": 927,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-12-11T03:40:47.7035926+01:00",
-  "LastMembershipChangeBy": 647,
+  "LastMembershipChange": "2025-08-16T02:30:47.8038176+02:00",
+  "LastMembershipChangeBy": 41,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsam",
-  "MemberTabHeading": "odio",
-  "MailingsProviderName": "Heathcote, Paucek and Nitzsche",
-  "DashboardTileDefinitionId": 696,
+  "MainHeading": "et",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Olson-Kertzmann",
+  "DashboardTileDefinitionId": 404,
   "VisibleFor": [
     {
-      "VisibleId": 153,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     },
     {
-      "VisibleId": 153,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     }
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 848
     }
   }
 }

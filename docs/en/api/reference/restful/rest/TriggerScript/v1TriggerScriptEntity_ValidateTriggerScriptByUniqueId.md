@@ -71,7 +71,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,31 +81,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "quasi",
-  "LineNumber": 738,
+  "Valid": true,
+  "ErrorMessage": "nihil",
+  "LineNumber": 607,
   "ErrorInformation": null,
-  "Transpiled": "consequuntur",
+  "Transpiled": "voluptatum",
   "Includes": [
-    643,
-    228
+    491,
+    562
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 797,
-      "LineNumberTo": 33,
-      "Delta": 179,
-      "IncludeId": "ducimus",
+      "LineNumberFrom": 205,
+      "LineNumberTo": 614,
+      "Delta": 792,
+      "IncludeId": "delectus",
       "IncludedFrom": [
-        "sequi",
-        "harum"
+        "qui",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 409
         }
       }
     }
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   }
 }

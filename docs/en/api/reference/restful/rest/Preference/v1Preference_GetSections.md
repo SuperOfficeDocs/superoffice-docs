@@ -69,7 +69,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +80,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Blanda, Reynolds and Willms",
-    "ToolTip": "Minus laboriosam nobis ipsam ut aspernatur quod.",
+    "Id": 654,
+    "Name": "Hammes Group",
+    "ToolTip": "Magni reiciendis ea laudantium consequatur aperiam non.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "eveniet",
+    "Rank": 914,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Conn-Schuster",
-        "ToolTip": "Temporibus earum.",
+        "Id": 203,
+        "Name": "Ratke-Krajcik",
+        "ToolTip": "Ea corporis numquam vel ex.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "eligendi",
+        "Rank": 815,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 249,
-        "ExtraInfo": "error",
-        "StyleHint": "ab",
-        "FullName": "Austyn Kuhn",
+        "IconHint": "exercitationem",
+        "ColorBlock": 185,
+        "ExtraInfo": "amet",
+        "StyleHint": "aperiam",
+        "FullName": "Prof. Dejah Pearl Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 542
           }
         }
       }
     ],
-    "IconHint": "placeat",
-    "ColorBlock": 921,
-    "ExtraInfo": "ea",
-    "StyleHint": "consectetur",
-    "FullName": "Zachery Hyatt",
+    "IconHint": "nihil",
+    "ColorBlock": 238,
+    "ExtraInfo": "non",
+    "StyleHint": "minus",
+    "FullName": "Ludwig Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldLength": 287
       }
     }
   }

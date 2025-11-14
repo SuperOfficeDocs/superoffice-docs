@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Kilback-Gleason",
-  "Tooltip": "in",
-  "Deleted": true,
-  "UdListDefinitionId": 192,
-  "Rank": 284,
+  "Id": 969,
+  "Name": "Weimann, Schroeder and Lockman",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "UdListDefinitionId": 104,
+  "Rank": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

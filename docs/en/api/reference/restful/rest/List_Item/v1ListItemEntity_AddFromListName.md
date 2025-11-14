@@ -82,12 +82,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Hills, Nienow and Jacobi",
-  "Tooltip": "quidem",
+  "Id": 237,
+  "Name": "Abbott-Moore",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 138,
-  "Rank": 868
+  "UdListDefinitionId": 102,
+  "Rank": 736
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 42,
-  "Name": "Bergnaum, Walker and Gottlieb",
-  "Tooltip": "distinctio",
+  "Id": 923,
+  "Name": "Hodkiewicz, Vandervort and Conroy",
+  "Tooltip": "qui",
   "Deleted": true,
-  "UdListDefinitionId": 29,
-  "Rank": 874,
+  "UdListDefinitionId": 692,
+  "Rank": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

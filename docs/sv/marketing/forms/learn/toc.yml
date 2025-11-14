@@ -11,8 +11,6 @@ items:
   href: form-templates.md
 - name: Publicera formulär
   href: publish.md
-- name: Använda förifyllda fält
-  href: form-prefilled.md
 - name: Visa statistik
   href: view-statistics.md
 - name: Behandla formulärinlämningar

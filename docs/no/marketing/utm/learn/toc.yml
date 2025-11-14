@@ -1,0 +1,8 @@
+items:
+- name: Introduksjon
+  href: index.md
+- name: UTM-parametere
+  href: parameters.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/set-up.md

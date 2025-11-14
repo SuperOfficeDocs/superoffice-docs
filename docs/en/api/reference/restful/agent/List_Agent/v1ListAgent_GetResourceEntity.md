@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=358
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=316
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 786,
-  "Name": "Kirlin Inc and Sons",
-  "Rank": 47,
-  "Tooltip": "nesciunt",
+  "ResourceId": 170,
+  "Name": "Rolfson, Barrows and Carroll",
+  "Rank": 507,
+  "Tooltip": "quo",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "vel",
+  "LocationAddress": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 930
     }
   }
 }

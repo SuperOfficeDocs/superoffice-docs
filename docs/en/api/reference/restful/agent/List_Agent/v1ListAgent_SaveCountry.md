@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 813,
-  "Name": "Nikolaus-Murray",
-  "CurrencyId": 823,
-  "EnglishName": "Schamberger Group",
+  "CountryId": 439,
+  "Name": "Dickinson-Monahan",
+  "CurrencyId": 10,
+  "EnglishName": "Ritchie-Douglas",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored well-modulated customer loyalty",
-  "OrgNrText": "983133",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "sit",
-  "ZipPrefix": "non",
-  "DomainName": "Bins Inc and Sons",
-  "AddressLayoutId": 445,
-  "DomesticAddressLayoutId": 620,
-  "ForeignAddressLayoutId": 317,
-  "Rank": 537,
-  "Tooltip": "aspernatur",
+  "ImageDescription": "Implemented context-sensitive synergy",
+  "OrgNrText": "970632",
+  "InterAreaPrefix": "dolor",
+  "DialInPrefix": "odit",
+  "ZipPrefix": "fugiat",
+  "DomainName": "Konopelski Group",
+  "AddressLayoutId": 537,
+  "DomesticAddressLayoutId": 508,
+  "ForeignAddressLayoutId": 843,
+  "Rank": 755,
+  "Tooltip": "repellendus",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

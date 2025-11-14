@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Hettinger-O'Kon",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 15,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 488,
+  "Name": "Homenick Group",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 853,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   },
   "_Links": {

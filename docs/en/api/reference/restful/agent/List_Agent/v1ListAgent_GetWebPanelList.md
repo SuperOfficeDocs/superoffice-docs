@@ -100,34 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 783,
-    "Name": "Mraz-Sporer",
-    "Tooltip": "dolorem",
+    "WebPanelId": 709,
+    "Name": "Johnson, Jenkins and Rogahn",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 835,
+    "Rank": 293,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Simonis Group",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Heathcote-Kihn",
     "Url": "http://www.example.com/",
-    "ProgId": "qui",
-    "Icon": 463,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "aut",
+    "Icon": 15,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 974
       }
     }
   }

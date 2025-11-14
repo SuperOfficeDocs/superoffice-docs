@@ -46,6 +46,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CommandActionResult@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConceptualImageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ContactPersonBoardEntity@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialControlType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialUsage@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CrmActorType@,SuperOffice.Data.SQL.FieldInfo)
@@ -86,6 +87,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ErpSyncResponseCode@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExecuteOnEvent@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExtraDataFieldType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExtraFieldFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FieldAccess@,SuperOffice.Data.SQL.FieldInfo)
@@ -4370,6 +4372,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(BoardViewBadgeType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewBadgeType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(BoardViewBadgeType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ContactPersonBoardEntity@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ContactPersonBoardEntity@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ContactPersonBoardEntity@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ContactPersonBoardEntity, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ContactPersonBoardEntity, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ContactPersonBoardEntity, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ContactPersonBoardEntity field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ContactPersonBoardEntity
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ContactPersonBoardEntity, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ContactPersonBoardEntity, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ContactPersonBoardEntity, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ContactPersonBoardEntity, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6274,6 +6304,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(CategoryGroup, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(CategoryGroup, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ExternalOwner, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ExternalOwner, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ExternalOwner, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ExternalOwner field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ExternalOwner
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ExternalOwner, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ExternalOwner, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ExternalOwner, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -10073,6 +10131,14 @@ references:
   name: BoardViewBadgeType
   nameWithType: BoardViewBadgeType
   fullName: SuperOffice.Data.BoardViewBadgeType
+- uid: SuperOffice.Data.ContactPersonBoardEntity
+  commentId: T:SuperOffice.Data.ContactPersonBoardEntity
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ContactPersonBoardEntity.html
+  name: ContactPersonBoardEntity
+  nameWithType: ContactPersonBoardEntity
+  fullName: SuperOffice.Data.ContactPersonBoardEntity
 - uid: SuperOffice.Data.TimeKeepingType
   commentId: T:SuperOffice.Data.TimeKeepingType
   parent: SuperOffice.Data
@@ -10624,6 +10690,14 @@ references:
   name: CategoryGroup
   nameWithType: CategoryGroup
   fullName: SuperOffice.Data.CategoryGroup
+- uid: SuperOffice.Data.ExternalOwner
+  commentId: T:SuperOffice.Data.ExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternalOwner.html
+  name: ExternalOwner
+  nameWithType: ExternalOwner
+  fullName: SuperOffice.Data.ExternalOwner
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

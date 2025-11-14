@@ -30,6 +30,7 @@ items:
   - SuperOffice.Diagnostics.ResourceUsageBucket
   - SuperOffice.Diagnostics.SelfTestHelper
   - SuperOffice.Diagnostics.ServiceCall
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
@@ -61,6 +62,7 @@ items:
 references:
 - uid: SuperOffice.Diagnostics.IDiagnosticSnapshot
   commentId: T:SuperOffice.Diagnostics.IDiagnosticSnapshot
+  parent: SuperOffice.Diagnostics
   isExternal: true
   href: SuperOffice.Diagnostics.IDiagnosticSnapshot.html
   name: IDiagnosticSnapshot
@@ -226,6 +228,7 @@ references:
   fullName: SuperOffice.Diagnostics.SelfTestHelper
 - uid: SuperOffice.Diagnostics.IServiceCallsRepository
   commentId: T:SuperOffice.Diagnostics.IServiceCallsRepository
+  parent: SuperOffice.Diagnostics
   isExternal: true
   href: SuperOffice.Diagnostics.IServiceCallsRepository.html
   name: IServiceCallsRepository
@@ -259,6 +262,13 @@ references:
   name: ServiceCallsRepositoryResourceLoggerContext
   nameWithType: ServiceCallsRepositoryResourceLoggerContext
   fullName: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  commentId: T:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  name: ServiceCallsDiagnosticSnapshot
+  nameWithType: ServiceCallsDiagnosticSnapshot
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
 - uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
   commentId: T:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
   isExternal: true

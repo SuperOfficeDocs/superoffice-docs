@@ -1,0 +1,7 @@
+items:
+- name: Inleiding
+  href: index.md
+- name: Nummertoewijzing
+  href: configure-number-allocation.md
+- name: Labels
+  href: change-ui-labels.md

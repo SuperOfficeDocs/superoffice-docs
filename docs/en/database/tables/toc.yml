@@ -289,6 +289,8 @@ items:
   href: extappheadinglink.md
 - name: external_document
   href: external-document.md
+- name: external_owner
+  href: external-owner.md
 - name: ExternalEvent
   href: externalevent.md
 - name: extra_fields
@@ -1187,6 +1189,8 @@ items:
     href: enums/erpactortype.md
   - name: ExecuteOnEvent
     href: enums/executeonevent.md
+  - name: ExternalOwner
+    href: enums/externalowner.md
   - name: FieldAccess
     href: enums/fieldaccess.md
   - name: FieldMetadataType

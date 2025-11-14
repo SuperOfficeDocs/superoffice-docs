@@ -84,21 +84,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Dickens-Howe",
-      "Operator": "eos",
+      "Name": "Hodkiewicz-Dickinson",
+      "Operator": "qui",
       "Values": [
-        "ex",
-        "perspiciatis"
+        "dolore",
+        "aut"
       ],
       "DisplayValues": [
-        "consequatur",
-        "optio"
+        "minus",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 167,
       "InterOperator": "And",
-      "UniqueHash": 557
+      "UniqueHash": 150
     }
   ],
-  "ProviderName": "Schuster Inc and Sons",
+  "ProviderName": "Fahey-Mohr",
   "DesiredColumns": [
-    "et",
-    "consequatur"
+    "quas",
+    "eos"
   ],
   "OrderBy": [
     {
-      "Name": "Welch Group",
+      "Name": "Ruecker-Dare",
       "Direction": "ASC"
     },
     {
-      "Name": "Welch Group",
+      "Name": "Ruecker-Dare",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 773,
-  "PageNumber": 74
+  "PageSize": 917,
+  "PageNumber": 167
 }
 ```
 
@@ -140,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Conroy Inc and Sons",
-      "DisplayTooltip": "beatae",
-      "DisplayType": "possimus",
-      "CanOrderBy": true,
-      "Name": "Wiza, Price and Walsh",
-      "CanRestrictBy": true,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Rosenbaum-Waters",
+      "DisplayName": "Spencer-Rosenbaum",
+      "DisplayTooltip": "labore",
+      "DisplayType": "iusto",
+      "CanOrderBy": false,
+      "Name": "Deckow, Ankunding and Hauck",
+      "CanRestrictBy": false,
+      "RestrictionType": "quod",
+      "RestrictionListName": "West Group",
       "IsVisible": false,
-      "ExtraInfo": "iusto",
-      "Width": "pariatur",
-      "IconHint": "mollitia",
-      "HeadingIconHint": "optio"
+      "ExtraInfo": "cum",
+      "Width": "incidunt",
+      "IconHint": "quod",
+      "HeadingIconHint": "illum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rodriguez LLC",
-      "PrimaryKey": 748,
+      "EntityName": "Donnelly, Stehr and Roob",
+      "PrimaryKey": 364,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "temporibus"
+          "DisplayValue": "quia",
+          "TooltipHint": "dolor",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "asperiores",
-      "StyleHint": "non",
+      "LinkHint": "quam",
+      "StyleHint": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 524
+          "FieldType": "System.String",
+          "FieldLength": 542
         }
       }
     }
   ],
-  "RowCount": 756,
+  "RowCount": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

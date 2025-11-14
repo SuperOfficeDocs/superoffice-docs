@@ -1,0 +1,17 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Lägga till poster
+  href: add-items.md
+- name: Redigera eller ta bort poster
+  href: update-items.md
+- name: Borttagna poster och rubriker
+  href: restore.md
+- name: Rubriker
+  href: headings.md
+- name: Användargruppfiltrering
+  href: user-group-filtering.md
+- name: Specialiserade listor
+  href: specialized-lists.md
+- name: Användardefinierade listor
+  href: user-defined-lists.md

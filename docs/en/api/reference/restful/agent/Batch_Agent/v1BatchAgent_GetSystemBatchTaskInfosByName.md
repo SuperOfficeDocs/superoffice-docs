@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bins-Durgan"
+  "TaskName": "Rogahn LLC"
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Mills, Turner and Lehner",
-    "AssociateId": 309,
-    "DetailsTable": 29,
-    "DetailsRecord": 897,
+    "Id": 953,
+    "Name": "Hane LLC",
+    "AssociateId": 439,
+    "DetailsTable": 704,
+    "DetailsRecord": 789,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "sit",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "incidunt",
+      "ParameterObject2": "unde"
     },
-    "LastStarted": "2011-01-31T03:40:46.0764548+01:00",
-    "Created": "2008-05-15T03:40:46.0764548+02:00",
-    "StartCount": 750,
-    "DatabaseSerialNumber": "979861",
-    "Context": "error",
-    "Result": "reiciendis",
+    "LastStarted": "2013-08-24T02:30:46.8194719+02:00",
+    "Created": "2010-09-02T02:30:46.8194719+02:00",
+    "StartCount": 533,
+    "DatabaseSerialNumber": "1080616",
+    "Context": "laboriosam",
+    "Result": "maiores",
     "State": "All",
-    "Description": "Upgradable foreground website",
-    "Response": "illum",
-    "Request": "repudiandae",
-    "ProgressDescription": "Realigned bifurcated service-desk",
-    "ProgressPercent": 494,
-    "FileName": "Jast, Beahan and Gutkowski",
+    "Description": "Team-oriented human-resource success",
+    "Response": "consequuntur",
+    "Request": "corrupti",
+    "ProgressDescription": "Horizontal grid-enabled functionalities",
+    "ProgressPercent": 70,
+    "FileName": "Dicki, Langosh and Stroman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 27
       }
     }
   }

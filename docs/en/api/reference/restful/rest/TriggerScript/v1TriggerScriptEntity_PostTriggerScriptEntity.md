@@ -99,20 +99,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 839,
-  "Name": "Boyle, Cormier and Stiedemann",
+  "ScreenChooserId": 302,
+  "Name": "Gutkowski-Jones",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "reiciendis",
-  "Source": "vel",
-  "Registered": "2024-06-06T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 785,
-  "Updated": "2004-07-14T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 124
+  "Enabled": false,
+  "UniqueIdentifier": "praesentium",
+  "Source": "iste",
+  "Registered": "2016-10-03T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 481,
+  "Updated": "2015-10-23T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 239
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 304,
-  "Name": "Ullrich, Skiles and Kuhn",
+  "ScreenChooserId": 809,
+  "Name": "Haag LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "asperiores",
-  "Source": "voluptas",
-  "Registered": "1999-06-23T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 691,
-  "Updated": "2002-03-30T03:40:56.4140988+01:00",
-  "UpdatedAssociateId": 514,
+  "Enabled": false,
+  "UniqueIdentifier": "sequi",
+  "Source": "sunt",
+  "Registered": "2007-01-11T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2011-09-05T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   },
   "_Links": {

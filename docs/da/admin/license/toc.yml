@@ -1,0 +1,11 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Aktivér licens
+  href: activate.md
+- name: Brugerplaner
+  href: user-plans.md
+- name: Ændre brugerplan
+  href: change-user-plan.md
+- name: Expander services
+  href: expander-services.md

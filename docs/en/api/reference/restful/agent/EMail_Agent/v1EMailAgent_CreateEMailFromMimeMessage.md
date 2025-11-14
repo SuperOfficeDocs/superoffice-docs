@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "libero"
+  "MimeMessage": "vel"
 }
 ```
 
@@ -121,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 426,
-      "ContactName": "Medhurst-Becker",
-      "PersonId": 564,
-      "PersonName": "Hauck, Heaney and Mitchell",
-      "AssociateId": 526,
-      "Address": "ut",
-      "EmailId": 786,
+      "ContactId": 934,
+      "ContactName": "Denesik LLC",
+      "PersonId": 360,
+      "PersonName": "Schultz Group",
+      "AssociateId": 214,
+      "Address": "consequatur",
+      "EmailId": 841,
       "DuplicatePersonIds": [
-        635,
-        550
+        179,
+        144
       ],
-      "Name": "O'Connell Group",
+      "Name": "O'Reilly-Morar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldLength": 603
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 349,
-      "ContactName": "Kertzmann-Homenick",
-      "PersonId": 38,
-      "PersonName": "Volkman-Wiza",
-      "AssociateId": 919,
-      "Address": "dolor",
-      "EmailId": 317,
+      "ContactId": 917,
+      "ContactName": "Reichel, Hyatt and Ziemann",
+      "PersonId": 539,
+      "PersonName": "Mayert Inc and Sons",
+      "AssociateId": 734,
+      "Address": "velit",
+      "EmailId": 242,
       "DuplicatePersonIds": [
-        2,
-        942
+        617,
+        726
       ],
-      "Name": "Kerluke-Wilderman",
+      "Name": "Zulauf Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 289
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 349,
-      "ContactName": "Weimann Group",
-      "PersonId": 529,
-      "PersonName": "Ruecker-Mraz",
-      "AssociateId": 132,
-      "Address": "voluptatem",
-      "EmailId": 869,
+      "ContactId": 715,
+      "ContactName": "Howe-Zboncak",
+      "PersonId": 884,
+      "PersonName": "Rogahn LLC",
+      "AssociateId": 372,
+      "Address": "eligendi",
+      "EmailId": 393,
       "DuplicatePersonIds": [
-        693,
-        769
+        866,
+        478
       ],
-      "Name": "Sawayn Group",
+      "Name": "Aufderhar, Huel and Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 524
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "quia",
+  "Subject": "enim",
+  "HTMLBody": "ea",
   "From": null,
-  "Sent": "2006-07-19T03:40:46.8905223+02:00",
-  "Size": 488,
+  "Sent": "2011-06-21T02:30:47.3038336+02:00",
+  "Size": 858,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellat",
-  "PlainBody": "tempora",
+  "MessageID": "nulla",
+  "PlainBody": "culpa",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 576,
+  "ServerId": 966,
   "Attachments": [
     {
-      "Description": "Compatible neutral project",
-      "Filename": "molestiae",
-      "Size": 448,
-      "Type": "adipisci",
-      "Encoding": "aliquam",
-      "Id": "aut",
-      "Disposition": "adipisci",
+      "Description": "Enhanced web-enabled standardization",
+      "Filename": "occaecati",
+      "Size": 835,
+      "Type": "omnis",
+      "Encoding": "voluptatum",
+      "Id": "atque",
+      "Disposition": "qui",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -219,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 713
+          "FieldLength": 939
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kohler LLC",
+      "Name": "Gleichner LLC",
       "Values": [
-        "reprehenderit",
-        "ut"
+        "similique",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 710
         }
       }
     },
     {
-      "Name": "Kohler LLC",
+      "Name": "Gleichner LLC",
       "Values": [
-        "reprehenderit",
-        "ut"
+        "similique",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 710
         }
       }
     }
   ],
-  "FolderName": "Hauck-King",
-  "EmailItemId": 657,
-  "AccountId": 146,
-  "ReceivedAt": "2022-06-07T03:40:46.8905223+02:00",
+  "FolderName": "Wunsch-VonRueden",
+  "EmailItemId": 540,
+  "AccountId": 903,
+  "ReceivedAt": "2019-10-20T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-10-27T03:40:46.8905223+02:00",
+  "RepliedAt": "2001-08-05T02:30:47.3038336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 667
     }
   }
 }

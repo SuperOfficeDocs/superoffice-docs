@@ -1161,7 +1161,6 @@ references:
   fullName: SuperOffice.Util.NSWinContactHelper
 - uid: SuperOffice.Util.RagAIConfiguration
   commentId: T:SuperOffice.Util.RagAIConfiguration
-  parent: SuperOffice.Util
   isExternal: true
   href: SuperOffice.Util.RagAIConfiguration.html
   name: RagAIConfiguration

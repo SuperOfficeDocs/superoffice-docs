@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 296,
-    "Name": "Boyer Group",
-    "ContentType": "eligendi",
-    "AttSize": 61,
-    "InlineImage": true,
-    "ContentId": "in",
-    "AuthKey": "totam",
+    "AttachmentId": 799,
+    "Name": "Beer, Waters and Price",
+    "ContentType": "reprehenderit",
+    "AttSize": 931,
+    "InlineImage": false,
+    "ContentId": "maiores",
+    "AuthKey": "rerum",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 35
       }
     }
   }

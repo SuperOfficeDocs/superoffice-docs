@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Value": "soluta",
-    "Tooltip": "eaque",
+    "Id": 339,
+    "Value": "animi",
+    "Tooltip": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 25
       }
     }
   },
   {
-    "Id": 159,
-    "Value": "soluta",
-    "Tooltip": "eaque",
+    "Id": 339,
+    "Value": "animi",
+    "Tooltip": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 25
       }
     }
   }

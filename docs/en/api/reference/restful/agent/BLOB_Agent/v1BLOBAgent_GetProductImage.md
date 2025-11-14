@@ -75,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 224
+  "ProductId": 606
 }
 ```
 

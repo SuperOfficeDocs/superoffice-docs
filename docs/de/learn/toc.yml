@@ -39,6 +39,9 @@ items:
   - name: Anfragen
     href: ../request/learn/toc.yml
     topicHref: ../request/learn/index.md
+  - name: Benutzerdefinierte Objekte
+    href: ../custom-objects/learn/toc.yml
+    topicHref: ../custom-objects/learn/index.md
   - name: Selektion
     href: ../search-options/selection/learn/toc.yml
     topicHref: ../search-options/selection/learn/index.md
@@ -48,6 +51,9 @@ items:
   - name: Marketing
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
+  - name: Lead-Management
+    href: ../lead/learn/toc.yml
+    topicHref: ../lead/learn/index.md
 
   - name: Mobile CRM
     href: ../mobile/superoffice-mobile/index.md
@@ -72,10 +78,10 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Anpassung
-    href: ../customization/learn/toc.yml
+    href: ../customization/admin/toc.yml
     topicHref: ../customization/index.yml
 
-  - name: Verwaltung und Systemeinstellungen
+  - name: Einstellungen und Verwaltung
     href: ../admin/learn/toc.yml
     topicHref: ../admin/index.yml
 

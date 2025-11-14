@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,53 +94,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 930,
-  "Name": "Schumm, Kassulke and Hoppe",
-  "Tooltip": "quisquam",
-  "Rank": 463,
+  "SaleTypeId": 117,
+  "Name": "Prohaska, Williamson and Wintheiser",
+  "Tooltip": "quaerat",
+  "Rank": 318,
   "DurationUnit": "Century",
-  "SaleDuration": 563,
-  "SaleTypeCatId": 201,
+  "SaleDuration": 482,
+  "SaleTypeCatId": 428,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 320,
-  "QuoteLinesTemplate": 310,
-  "ConfirmationLinesTemplate": 572,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 183,
-  "MinEarningPercent": 293,
-  "GroupQuoteLinesBy": 439,
-  "SortGroupLinesBy": 803,
+  "DefaultQuoteValidity": 340,
+  "QuoteLinesTemplate": 166,
+  "ConfirmationLinesTemplate": 787,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 304,
+  "MinEarningPercent": 555,
+  "GroupQuoteLinesBy": 849,
+  "SortGroupLinesBy": 523,
   "Stages": [
     {
-      "Id": 363,
-      "Name": "Zboncak-Renner",
-      "ToolTip": "Mollitia in explicabo.",
-      "Deleted": false,
-      "Rank": 574,
-      "Type": "pariatur",
-      "ColorBlock": 858,
-      "IconHint": "officia",
+      "Id": 772,
+      "Name": "Grant Group",
+      "ToolTip": "Animi deleniti.",
+      "Deleted": true,
+      "Rank": 513,
+      "Type": "odit",
+      "ColorBlock": 541,
+      "IconHint": "saepe",
       "Selected": false,
-      "LastChanged": "2003-01-08T03:40:57.1027301+01:00",
+      "LastChanged": "2019-10-26T02:30:53.4442597+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "ut",
+      "ExtraInfo": "soluta",
+      "StyleHint": "itaque",
       "Hidden": true,
-      "FullName": "Lester Lueilwitz Sr.",
+      "FullName": "Prof. Lillie Bechtelar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 250
     }
   }
 }

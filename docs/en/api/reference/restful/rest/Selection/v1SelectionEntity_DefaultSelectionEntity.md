@@ -99,7 +99,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,73 +107,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Aug 2007 03:40:56 G8T
+Last-Modified: Tue, 03 Nov 2015 02:30:52 G11T
 
 {
-  "Description": "Multi-tiered neutral paradigm",
-  "Postit": "porro",
+  "Description": "Triple-buffered attitude-oriented matrices",
+  "Postit": "aliquid",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 711,
-  "IncludePerson": 140,
+  "GroupIdx": 882,
+  "IncludePerson": 116,
   "MemberCount": 99.99,
-  "Name": "O'Kon-Cassin",
-  "PostitTextId": 569,
-  "CreatedDate": "2016-05-01T03:40:56.2105477+02:00",
-  "SelectionId": 76,
-  "SoundEx": "dolores",
-  "Source": 136,
-  "TextId": 261,
-  "UpdatedDate": "2007-08-28T03:40:56.2105477+02:00",
-  "UpdatedCount": 706,
-  "Visibility": 415,
+  "Name": "Green Inc and Sons",
+  "PostitTextId": 998,
+  "CreatedDate": "2014-11-21T02:30:52.9130204+01:00",
+  "SelectionId": 173,
+  "SoundEx": "suscipit",
+  "Source": 370,
+  "TextId": 279,
+  "UpdatedDate": "2015-11-03T02:30:52.9130204+01:00",
+  "UpdatedCount": 83,
+  "Visibility": 939,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 790,
-  "TargetTableName": "Weimann-Lemke",
+  "TargetTableNumber": 678,
+  "TargetTableName": "Becker LLC",
   "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 668,
+  "LeftSelectionId": 709,
+  "RightSelectionId": 805,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Batz, Skiles and Bechtelar",
-  "ShadowProviderName": "Dare LLC",
-  "ChartKey": "quis",
-  "LastLoaded": "2024-08-13T03:40:56.2105477+02:00",
-  "LastLoadedBy": 288,
+  "MainProviderName": "Lynch, Fahey and Hermiston",
+  "ShadowProviderName": "Schamberger LLC",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2012-10-03T02:30:52.9130204+02:00",
+  "LastLoadedBy": 434,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-12-03T03:40:56.2105477+01:00",
-  "LastMembershipChangeBy": 419,
+  "LastMembershipChange": "2002-04-10T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 74,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "amet",
-  "MemberTabHeading": "assumenda",
-  "MailingsProviderName": "Ryan, Fadel and Fritsch",
-  "DashboardTileDefinitionId": 458,
+  "MainHeading": "quisquam",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Marvin Inc and Sons",
+  "DashboardTileDefinitionId": 463,
   "VisibleFor": [
     {
-      "VisibleId": 42,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 174
         }
       }
     },
     {
-      "VisibleId": 42,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 174
         }
       }
     }
@@ -183,7 +183,7 @@ Last-Modified: Tue, 28 Aug 2007 03:40:56 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 662
     }
   }
 }

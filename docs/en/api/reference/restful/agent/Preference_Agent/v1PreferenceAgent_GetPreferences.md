@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "tempora",
-      "Key": "laborum"
+      "Section": "cumque",
+      "Key": "autem"
     },
     {
-      "Section": "tempora",
-      "Key": "laborum"
+      "Section": "cumque",
+      "Key": "autem"
     }
   ]
 }
@@ -113,22 +113,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "aut",
+    "RawValue": "occaecati",
     "Specification": null,
-    "DisplayValue": "nulla",
-    "DisplayTooltip": "pariatur",
+    "DisplayValue": "dolor",
+    "DisplayTooltip": "odit",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 198,
-    "PrefDescId": 740,
-    "TableName": "Ruecker, Batz and Doyle",
-    "UserPreferenceId": 429,
+    "TargetId": 973,
+    "PrefDescId": 237,
+    "TableName": "Rosenbaum-Bernier",
+    "UserPreferenceId": 407,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldLength": 631
       }
     }
   }

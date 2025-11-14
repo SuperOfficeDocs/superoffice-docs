@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,148 +98,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 243,
-      "ContactName": "Hackett-Ernser",
-      "PersonId": 890,
-      "PersonName": "Hammes, Brakus and Bernhard",
-      "AssociateId": 149,
-      "Address": "nulla",
-      "EmailId": 761,
+      "ContactId": 483,
+      "ContactName": "Cremin LLC",
+      "PersonId": 364,
+      "PersonName": "Kozey, Turner and McKenzie",
+      "AssociateId": 452,
+      "Address": "ea",
+      "EmailId": 122,
       "DuplicatePersonIds": [
-        452,
-        644
+        772,
+        52
       ],
-      "Name": "Mohr LLC",
+      "Name": "Lowe-Lang",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 22
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 806,
-      "ContactName": "Lockman-Wunsch",
-      "PersonId": 594,
-      "PersonName": "Ledner Inc and Sons",
-      "AssociateId": 689,
-      "Address": "sequi",
-      "EmailId": 546,
+      "ContactId": 917,
+      "ContactName": "Carroll Group",
+      "PersonId": 146,
+      "PersonName": "Grady LLC",
+      "AssociateId": 310,
+      "Address": "sed",
+      "EmailId": 217,
       "DuplicatePersonIds": [
-        597,
-        319
+        161,
+        805
       ],
-      "Name": "Robel-Becker",
+      "Name": "Schneider-Koepp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 3
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 526,
-      "ContactName": "Hayes, McClure and Leuschke",
-      "PersonId": 979,
-      "PersonName": "Kiehn-Koss",
-      "AssociateId": 773,
-      "Address": "excepturi",
-      "EmailId": 807,
+      "ContactId": 165,
+      "ContactName": "Harber Inc and Sons",
+      "PersonId": 31,
+      "PersonName": "Gulgowski-Thiel",
+      "AssociateId": 593,
+      "Address": "asperiores",
+      "EmailId": 693,
       "DuplicatePersonIds": [
-        960,
-        264
+        174,
+        986
       ],
-      "Name": "Spinka, Baumbach and Haag",
+      "Name": "Marvin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
   ],
-  "Subject": "officia",
-  "HTMLBody": "est",
+  "Subject": "autem",
+  "HTMLBody": "libero",
   "From": null,
-  "Sent": "2019-10-05T03:40:46.8592703+02:00",
-  "Size": 695,
+  "Sent": "2012-07-23T02:30:47.2882099+02:00",
+  "Size": 897,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "alias",
-  "PlainBody": "eos",
-  "IsSent": true,
+  "MessageID": "quidem",
+  "PlainBody": "tenetur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 441,
+  "ServerId": 89,
   "Attachments": [
     {
-      "Description": "Implemented optimal artificial intelligence",
-      "Filename": "in",
-      "Size": 463,
-      "Type": "eveniet",
-      "Encoding": "harum",
-      "Id": "quod",
-      "Disposition": "officiis",
+      "Description": "Sharable transitional policy",
+      "Filename": "autem",
+      "Size": 344,
+      "Type": "odit",
+      "Encoding": "voluptatem",
+      "Id": "assumenda",
+      "Disposition": "ratione",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 114
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Batz, Nader and Beier",
+      "Name": "Leffler-Goldner",
       "Values": [
-        "iusto",
-        "necessitatibus"
+        "voluptatem",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 68
         }
       }
     },
     {
-      "Name": "Batz, Nader and Beier",
+      "Name": "Leffler-Goldner",
       "Values": [
-        "iusto",
-        "necessitatibus"
+        "voluptatem",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 68
         }
       }
     }
   ],
-  "FolderName": "Cronin-Toy",
-  "EmailItemId": 950,
-  "AccountId": 312,
-  "ReceivedAt": "2001-02-19T03:40:46.8592703+01:00",
+  "FolderName": "Williamson, Gutmann and McLaughlin",
+  "EmailItemId": 962,
+  "AccountId": 861,
+  "ReceivedAt": "2008-08-15T02:30:47.2882099+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-04-12T03:40:46.8592703+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-02-11T02:30:47.2882099+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -247,7 +247,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 303
     }
   }
 }

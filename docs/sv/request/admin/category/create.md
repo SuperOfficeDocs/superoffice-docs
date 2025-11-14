@@ -82,5 +82,5 @@ index: true
 * [Hur du konfigurerar Hämta nästa ärende i kön][3]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/index.md
+[1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md

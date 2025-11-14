@@ -158,60 +158,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform radical toolset",
-  "Postit": "est",
+  "Description": "Vision-oriented content-based matrix",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 838,
-  "IncludePerson": 547,
+  "GroupIdx": 275,
+  "IncludePerson": 619,
   "MemberCount": 99.99,
-  "Name": "Wunsch LLC",
-  "PostitTextId": 627,
-  "CreatedDate": "2011-11-15T03:40:56.2105477+01:00",
-  "SelectionId": 729,
-  "SoundEx": "ab",
-  "Source": 497,
-  "TextId": 729,
-  "UpdatedDate": "2010-10-09T03:40:56.2105477+02:00",
-  "UpdatedCount": 967,
-  "Visibility": 426,
+  "Name": "Kohler-Baumbach",
+  "PostitTextId": 387,
+  "CreatedDate": "2018-11-17T02:30:52.9130204+01:00",
+  "SelectionId": 651,
+  "SoundEx": "ut",
+  "Source": 427,
+  "TextId": 636,
+  "UpdatedDate": "2007-04-27T02:30:52.9130204+02:00",
+  "UpdatedCount": 580,
+  "Visibility": 261,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 337,
-  "TargetTableName": "Crist, Marquardt and Haag",
-  "Completed": false,
-  "LeftSelectionId": 934,
-  "RightSelectionId": 597,
+  "CompanyUnique": true,
+  "TargetTableNumber": 300,
+  "TargetTableName": "Olson Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 830,
+  "RightSelectionId": 873,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brekke-Conn",
-  "ShadowProviderName": "Morissette, Schuster and Balistreri",
-  "ChartKey": "totam",
-  "LastLoaded": "2005-12-07T03:40:56.2105477+01:00",
-  "LastLoadedBy": 16,
+  "MainProviderName": "Collins-Weber",
+  "ShadowProviderName": "Kunde-Altenwerth",
+  "ChartKey": "enim",
+  "LastLoaded": "2000-08-23T02:30:52.9130204+02:00",
+  "LastLoadedBy": 684,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-10-15T03:40:56.2105477+02:00",
-  "LastMembershipChangeBy": 755,
+  "LastMembershipChange": "2001-08-22T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 518,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "pariatur",
-  "MailingsProviderName": "Blick LLC",
-  "DashboardTileDefinitionId": 185,
+  "MainHeading": "iste",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Goodwin, Friesen and Renner",
+  "DashboardTileDefinitionId": 917,
   "VisibleFor": [
     {
-      "VisibleId": 199,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "rerum"
     },
     {
-      "VisibleId": 199,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "rerum"
     }
   ]
 }
@@ -224,49 +224,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised web-enabled project",
-  "Postit": "provident",
+  "Description": "Front-line human-resource capacity",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 600,
-  "IncludePerson": 86,
+  "GroupIdx": 702,
+  "IncludePerson": 811,
   "MemberCount": 99.99,
-  "Name": "Keebler, Macejkovic and Carter",
-  "PostitTextId": 617,
-  "CreatedDate": "2013-08-17T03:40:56.2105477+02:00",
-  "SelectionId": 410,
-  "SoundEx": "repellat",
-  "Source": 611,
-  "TextId": 441,
-  "UpdatedDate": "2020-03-19T03:40:56.2105477+01:00",
-  "UpdatedCount": 848,
-  "Visibility": 162,
+  "Name": "Wunsch-Labadie",
+  "PostitTextId": 114,
+  "CreatedDate": "2022-03-21T02:30:52.9130204+01:00",
+  "SelectionId": 553,
+  "SoundEx": "adipisci",
+  "Source": 511,
+  "TextId": 647,
+  "UpdatedDate": "2021-04-13T02:30:52.9130204+02:00",
+  "UpdatedCount": 701,
+  "Visibility": 55,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 607,
-  "TargetTableName": "Kuhic, Jacobs and Boyer",
+  "TargetTableNumber": 148,
+  "TargetTableName": "Bogan Group",
   "Completed": true,
-  "LeftSelectionId": 313,
-  "RightSelectionId": 844,
+  "LeftSelectionId": 594,
+  "RightSelectionId": 741,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Tromp, Kshlerin and Mayert",
-  "ShadowProviderName": "Lehner-Jacobi",
-  "ChartKey": "laudantium",
-  "LastLoaded": "2022-07-24T03:40:56.2105477+02:00",
-  "LastLoadedBy": 375,
+  "MainProviderName": "Kuhic Group",
+  "ShadowProviderName": "Little-Beer",
+  "ChartKey": "illo",
+  "LastLoaded": "2015-04-20T02:30:52.9130204+02:00",
+  "LastLoadedBy": 847,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-02-07T03:40:56.2105477+01:00",
-  "LastMembershipChangeBy": 842,
+  "LastMembershipChange": "2018-10-23T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 541,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nisi",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Herzog, Wisoky and Kunde",
-  "DashboardTileDefinitionId": 125,
+  "MainHeading": "nulla",
+  "MemberTabHeading": "placeat",
+  "MailingsProviderName": "Mosciski LLC",
+  "DashboardTileDefinitionId": 580,
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 345,
       "Visibility": "All",
       "DisplayValue": "sint",
       "TableRight": null,
@@ -274,12 +274,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 33
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 345,
       "Visibility": "All",
       "DisplayValue": "sint",
       "TableRight": null,
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 33
         }
       }
     }
@@ -296,13 +296,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,31 +83,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 477,
-    "Name": "Roberts, Rogahn and Towne",
-    "TZLocationCode": "maxime",
-    "TZLocationCities": "molestiae",
-    "IsoNumber": 374,
+    "TZLocationID": 934,
+    "Name": "Purdy-Dickinson",
+    "TZLocationCode": "unde",
+    "TZLocationCities": "architecto",
+    "IsoNumber": 357,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 133,
-        "StartMonth": 982,
-        "EndDay": 680,
-        "EndMonth": 642,
-        "TZOffset": 156,
-        "StartRulePattern": "sunt",
-        "EndRulePattern": "voluptas"
+        "StartDay": 601,
+        "StartMonth": 570,
+        "EndDay": 164,
+        "EndMonth": 290,
+        "TZOffset": 494,
+        "StartRulePattern": "rerum",
+        "EndRulePattern": "incidunt"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 131,
-        "StartMonth": 767,
-        "EndDay": 441,
-        "EndMonth": 60,
-        "TZOffset": 783,
-        "StartRulePattern": "dolore",
-        "EndRulePattern": "aspernatur"
+        "StartDay": 525,
+        "StartMonth": 374,
+        "EndDay": 914,
+        "EndMonth": 714,
+        "TZOffset": 661,
+        "StartRulePattern": "eos",
+        "EndRulePattern": "inventore"
       }
     }
   }

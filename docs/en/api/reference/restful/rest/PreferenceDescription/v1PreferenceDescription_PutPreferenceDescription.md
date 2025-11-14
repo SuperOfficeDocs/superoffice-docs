@@ -116,28 +116,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 941,
-  "Section": "non",
-  "Key": "consequatur",
-  "Name": "Wolff Group",
+  "PrefDescId": 930,
+  "Section": "aliquid",
+  "Key": "qui",
+  "Name": "Shields Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented needs-based core",
-  "IsBuiltin": false,
-  "TableName": "Windler, Price and Littel",
-  "UserDefinedListId": 604,
-  "Rank": 731,
-  "SubGroup": "illum",
-  "MinLevel": 662,
-  "MaxValue": 473,
-  "MinValue": 451,
-  "RequiredLicense": "quas"
+  "Description": "Switchable explicit initiative",
+  "IsBuiltin": true,
+  "TableName": "Torp-Zieme",
+  "UserDefinedListId": 110,
+  "Rank": 960,
+  "SubGroup": "inventore",
+  "MinLevel": 564,
+  "MaxValue": 148,
+  "MinValue": 81,
+  "RequiredLicense": "quia"
 }
 ```
 
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 405,
-  "Section": "et",
-  "Key": "et",
-  "Name": "Abernathy-Moen",
+  "PrefDescId": 584,
+  "Section": "eveniet",
+  "Key": "dolorum",
+  "Name": "Jewess, Zulauf and Kilback",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synchronised multi-tasking database",
-  "IsBuiltin": false,
-  "TableName": "Howell Inc and Sons",
-  "UserDefinedListId": 921,
-  "Rank": 781,
-  "SubGroup": "est",
-  "MinLevel": 794,
-  "MaxValue": 73,
-  "MinValue": 287,
-  "RequiredLicense": "sint",
+  "Description": "Function-based mission-critical middleware",
+  "IsBuiltin": true,
+  "TableName": "Prohaska Group",
+  "UserDefinedListId": 789,
+  "Rank": 220,
+  "SubGroup": "quos",
+  "MinLevel": 866,
+  "MaxValue": 383,
+  "MinValue": 448,
+  "RequiredLicense": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 933
     }
   },
   "_Links": {

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetPossibleDashQuickFilters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 413
+  "DashboardId": 35
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Restriction": null,
-    "Provider": "sit",
-    "DashboardId": 560
+    "Provider": "totam",
+    "DashboardId": 304
   },
   {
     "Restriction": null,
-    "Provider": "sit",
-    "DashboardId": 560
+    "Provider": "totam",
+    "DashboardId": 304
   }
 ]
 ```

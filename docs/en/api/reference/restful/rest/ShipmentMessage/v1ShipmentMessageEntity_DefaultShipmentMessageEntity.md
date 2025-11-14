@@ -79,7 +79,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,33 +89,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 311,
-  "PlainMessage": "et",
-  "HtmlMessage": "quibusdam",
-  "SmsMessage": "dolores",
-  "Description": "Mandatory non-volatile customer loyalty",
-  "Subject": "debitis",
-  "FolderId": 904,
-  "HeaderField": "praesentium",
-  "Design": "ipsum",
+  "ShipmentMessageId": 526,
+  "PlainMessage": "atque",
+  "HtmlMessage": "illum",
+  "SmsMessage": "autem",
+  "Description": "Vision-oriented analyzing middleware",
+  "Subject": "maxime",
+  "FolderId": 887,
+  "HeaderField": "occaecati",
+  "Design": "dolor",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Synergistic directional website",
-  "AccessKey": "est",
-  "DocumentMessage": 128,
-  "Registered": "2002-09-13T03:40:56.2422072+02:00",
-  "RegisteredAssociateId": 429,
-  "Updated": "2003-07-21T03:40:56.2422072+02:00",
-  "UpdatedAssociateId": 343,
-  "UpdatedCount": 870,
+  "LongDescription": "Self-enabling 3rd generation capability",
+  "AccessKey": "ut",
+  "DocumentMessage": 289,
+  "Registered": "2009-08-16T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2004-09-24T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 544,
+  "UpdatedCount": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Welch, Hudson and Jacobs",
-    "ToolTip": "A aut consequuntur unde ut nobis quia quo.",
+    "Id": 205,
+    "Name": "Smith, Borer and Reichel",
+    "ToolTip": "Amet quibusdam dolorem sint tenetur dolores.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "minima",
-    "ColorBlock": 937,
-    "IconHint": "ut",
+    "Rank": 525,
+    "Type": "id",
+    "ColorBlock": 279,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2016-02-23T03:40:56.0855495+01:00",
+    "LastChanged": "2004-01-29T02:30:52.8349052+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Wilderman, Lind and Mitchell",
-        "ToolTip": "Quia dolore perferendis ut.",
+        "Id": 667,
+        "Name": "Smith, Hintz and Okuneva",
+        "ToolTip": "Eos et incidunt possimus.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "rerum",
-        "ColorBlock": 468,
-        "IconHint": "ut",
+        "Rank": 391,
+        "Type": "laborum",
+        "ColorBlock": 402,
+        "IconHint": "nam",
         "Selected": true,
-        "LastChanged": "1999-01-16T03:40:56.0855495+01:00",
+        "LastChanged": "2006-06-07T02:30:52.8349052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Kamille Rempel",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "excepturi",
+        "Hidden": false,
+        "FullName": "Marguerite Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Miss Cordia Wiegand I",
+    "FullName": "Hilma Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

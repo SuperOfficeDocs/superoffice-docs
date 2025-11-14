@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 416,
-  "Name": "Bernhard-Thiel",
-  "Tooltip": "nulla",
+  "Id": 321,
+  "Name": "O'Hara Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 120,
+  "Rank": 322,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 175,
+  "Id": 594,
+  "Name": "Hartmann, Blanda and Kuhn",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 541,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "facilis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

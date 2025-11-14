@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 315,
-  "ConnectorName": "Lockman-Konopelski"
+  "ConnectionId": 961,
+  "ConnectorName": "Daniel Group"
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "sed",
-    "Rank": 843,
-    "DisplayName": "Kuvalis-Goldner",
-    "DisplayDescription": "Fully-configurable disintermediate concept",
+    "FieldKey": "maxime",
+    "Rank": 414,
+    "DisplayName": "Gusikowski-Hoppe",
+    "DisplayDescription": "Switchable logistical forecast",
     "FieldType": "Checkbox",
-    "ListName": "Lesch, Hessel and Runolfsdottir",
-    "DefaultValue": "dolorem",
-    "MaxLength": 929,
+    "ListName": "Bahringer, Hermiston and Cremin",
+    "DefaultValue": "a",
+    "MaxLength": 330,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 543
       }
     }
   }

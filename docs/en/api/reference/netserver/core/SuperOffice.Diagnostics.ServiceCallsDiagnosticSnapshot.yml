@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  commentId: T:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  id: ServiceCallsDiagnosticSnapshot
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor(SuperOffice.Diagnostics.IServiceCallsRepository,System.TimeProvider)
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument(System.Object)
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ServiceCallsDiagnosticSnapshot
+  nameWithType: ServiceCallsDiagnosticSnapshot
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public class ServiceCallsDiagnosticSnapshot : IDiagnosticSnapshot'
+    content.vb: Public Class ServiceCallsDiagnosticSnapshot Implements IDiagnosticSnapshot
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.IDiagnosticSnapshot
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor(SuperOffice.Diagnostics.IServiceCallsRepository,System.TimeProvider)
+  commentId: M:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor(SuperOffice.Diagnostics.IServiceCallsRepository,System.TimeProvider)
+  id: '#ctor(SuperOffice.Diagnostics.IServiceCallsRepository,System.TimeProvider)'
+  parent: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  langs:
+  - csharp
+  - vb
+  name: ServiceCallsDiagnosticSnapshot(IServiceCallsRepository, TimeProvider)
+  nameWithType: ServiceCallsDiagnosticSnapshot.ServiceCallsDiagnosticSnapshot(IServiceCallsRepository, TimeProvider)
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.ServiceCallsDiagnosticSnapshot(SuperOffice.Diagnostics.IServiceCallsRepository, System.TimeProvider)
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public ServiceCallsDiagnosticSnapshot(IServiceCallsRepository serviceCallsRepository, TimeProvider timeProvider)
+    parameters:
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    - id: timeProvider
+      type: System.TimeProvider
+    content.vb: Public Sub New(serviceCallsRepository As IServiceCallsRepository, timeProvider As TimeProvider)
+  overload: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor*
+  nameWithType.vb: ServiceCallsDiagnosticSnapshot.New(IServiceCallsRepository, TimeProvider)
+  fullName.vb: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.New(SuperOffice.Diagnostics.IServiceCallsRepository, System.TimeProvider)
+  name.vb: New(IServiceCallsRepository, TimeProvider)
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists(System.String)
+  commentId: M:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists(System.String)
+  id: MakeWorkLists(System.String)
+  parent: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  langs:
+  - csharp
+  - vb
+  name: MakeWorkLists(string)
+  nameWithType: ServiceCallsDiagnosticSnapshot.MakeWorkLists(string)
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  example: []
+  syntax:
+    content: public List<WorkList> MakeWorkLists(string contextIdentifier)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Diagnostics.WorkList}
+    content.vb: Public Function MakeWorkLists(contextIdentifier As String) As List(Of WorkList)
+  overload: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists*
+  implements:
+  - SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(System.String)
+  nameWithType.vb: ServiceCallsDiagnosticSnapshot.MakeWorkLists(String)
+  fullName.vb: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists(String)
+  name.vb: MakeWorkLists(String)
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument(System.Object)
+  commentId: M:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument(System.Object)
+  id: FormatArgument(System.Object)
+  parent: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+  langs:
+  - csharp
+  - vb
+  name: FormatArgument(object)
+  nameWithType: ServiceCallsDiagnosticSnapshot.FormatArgument(object)
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument(object)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public static string FormatArgument(object argument)
+    parameters:
+    - id: argument
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatArgument(argument As Object) As String
+  overload: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument*
+  nameWithType.vb: ServiceCallsDiagnosticSnapshot.FormatArgument(Object)
+  fullName.vb: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument(Object)
+  name.vb: FormatArgument(Object)
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Diagnostics.IDiagnosticSnapshot
+  commentId: T:SuperOffice.Diagnostics.IDiagnosticSnapshot
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.Diagnostics.IDiagnosticSnapshot.html
+  name: IDiagnosticSnapshot
+  nameWithType: IDiagnosticSnapshot
+  fullName: SuperOffice.Diagnostics.IDiagnosticSnapshot
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ServiceCallsDiagnosticSnapshot, To>(ServiceCallsDiagnosticSnapshot)
+  nameWithType: EnumUtil.MapEnums<ServiceCallsDiagnosticSnapshot, To>(ServiceCallsDiagnosticSnapshot)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot, To>(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceCallsDiagnosticSnapshot, To)(ServiceCallsDiagnosticSnapshot)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot, To)(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+  name.vb: MapEnums(Of ServiceCallsDiagnosticSnapshot, To)(ServiceCallsDiagnosticSnapshot)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ServiceCallsDiagnosticSnapshot, To>(ServiceCallsDiagnosticSnapshot)
+  nameWithType: Converters.MapEnums<ServiceCallsDiagnosticSnapshot, To>(ServiceCallsDiagnosticSnapshot)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot, To>(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+  nameWithType.vb: Converters.MapEnums(Of ServiceCallsDiagnosticSnapshot, To)(ServiceCallsDiagnosticSnapshot)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot, To)(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+  name.vb: MapEnums(Of ServiceCallsDiagnosticSnapshot, To)(ServiceCallsDiagnosticSnapshot)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.#ctor
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html#SuperOffice_Diagnostics_ServiceCallsDiagnosticSnapshot__ctor_SuperOffice_Diagnostics_IServiceCallsRepository_System_TimeProvider_
+  name: ServiceCallsDiagnosticSnapshot
+  nameWithType: ServiceCallsDiagnosticSnapshot.ServiceCallsDiagnosticSnapshot
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.ServiceCallsDiagnosticSnapshot
+  nameWithType.vb: ServiceCallsDiagnosticSnapshot.New
+  fullName.vb: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.New
+  name.vb: New
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  commentId: T:SuperOffice.Diagnostics.IServiceCallsRepository
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: System.TimeProvider
+  commentId: '!:System.TimeProvider'
+  isExternal: true
+  name: TimeProvider
+  nameWithType: TimeProvider
+  fullName: System.TimeProvider
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html#SuperOffice_Diagnostics_ServiceCallsDiagnosticSnapshot_MakeWorkLists_System_String_
+  name: MakeWorkLists
+  nameWithType: ServiceCallsDiagnosticSnapshot.MakeWorkLists
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.MakeWorkLists
+- uid: SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(System.String)
+  commentId: M:SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(System.String)
+  parent: SuperOffice.Diagnostics.IDiagnosticSnapshot
+  isExternal: true
+  href: SuperOffice.Diagnostics.IDiagnosticSnapshot.html#SuperOffice_Diagnostics_IDiagnosticSnapshot_MakeWorkLists_System_String_
+  name: MakeWorkLists(string)
+  nameWithType: IDiagnosticSnapshot.MakeWorkLists(string)
+  fullName: SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(string)
+  nameWithType.vb: IDiagnosticSnapshot.MakeWorkLists(String)
+  fullName.vb: SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(String)
+  name.vb: MakeWorkLists(String)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(System.String)
+    name: MakeWorkLists
+    isExternal: true
+    href: SuperOffice.Diagnostics.IDiagnosticSnapshot.html#SuperOffice_Diagnostics_IDiagnosticSnapshot_MakeWorkLists_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IDiagnosticSnapshot.MakeWorkLists(System.String)
+    name: MakeWorkLists
+    isExternal: true
+    href: SuperOffice.Diagnostics.IDiagnosticSnapshot.html#SuperOffice_Diagnostics_IDiagnosticSnapshot_MakeWorkLists_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{SuperOffice.Diagnostics.WorkList}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Diagnostics.WorkList}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<WorkList>
+  nameWithType: List<WorkList>
+  fullName: System.Collections.Generic.List<SuperOffice.Diagnostics.WorkList>
+  nameWithType.vb: List(Of WorkList)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Diagnostics.WorkList)
+  name.vb: List(Of WorkList)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.Diagnostics.WorkList
+    name: WorkList
+    isExternal: true
+    href: SuperOffice.Diagnostics.WorkList.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.WorkList
+    name: WorkList
+    isExternal: true
+    href: SuperOffice.Diagnostics.WorkList.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.html#SuperOffice_Diagnostics_ServiceCallsDiagnosticSnapshot_FormatArgument_System_Object_
+  name: FormatArgument
+  nameWithType: ServiceCallsDiagnosticSnapshot.FormatArgument
+  fullName: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot.FormatArgument

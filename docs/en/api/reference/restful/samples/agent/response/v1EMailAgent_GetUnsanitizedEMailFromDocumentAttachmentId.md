@@ -1,0 +1,161 @@
+```http_
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "To": [
+    {
+      "ContactId": 781,
+      "ContactName": "Bosco-Schumm",
+      "PersonId": 211,
+      "PersonName": "Marks, Mayer and Keeling",
+      "AssociateId": 717,
+      "Address": "dolores",
+      "EmailId": 161,
+      "DuplicatePersonIds": [
+        497,
+        866
+      ],
+      "Name": "Raynor LLC",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 746
+        }
+      }
+    }
+  ],
+  "Cc": [
+    {
+      "ContactId": 351,
+      "ContactName": "Thiel-Barrows",
+      "PersonId": 451,
+      "PersonName": "Stamm LLC",
+      "AssociateId": 613,
+      "Address": "ut",
+      "EmailId": 67,
+      "DuplicatePersonIds": [
+        656,
+        668
+      ],
+      "Name": "Mann LLC",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 914
+        }
+      }
+    }
+  ],
+  "Bcc": [
+    {
+      "ContactId": 723,
+      "ContactName": "Toy, Lynch and Rau",
+      "PersonId": 422,
+      "PersonName": "Becker LLC",
+      "AssociateId": 655,
+      "Address": "saepe",
+      "EmailId": 783,
+      "DuplicatePersonIds": [
+        730,
+        860
+      ],
+      "Name": "Hammes LLC",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 450
+        }
+      }
+    }
+  ],
+  "Subject": "eaque",
+  "HTMLBody": "blanditiis",
+  "From": null,
+  "Sent": "2018-04-06T10:11:00.0738072+02:00",
+  "Size": 654,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "est",
+  "PlainBody": "pariatur",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 487,
+  "Attachments": [
+    {
+      "Description": "Object-based motivating methodology",
+      "Filename": "doloremque",
+      "Size": 62,
+      "Type": "quisquam",
+      "Encoding": "sed",
+      "Id": "eveniet",
+      "Disposition": "magnam",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 990
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Kutch Inc and Sons",
+      "Values": [
+        "nostrum",
+        "enim"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 132
+        }
+      }
+    },
+    {
+      "Name": "Kutch Inc and Sons",
+      "Values": [
+        "nostrum",
+        "enim"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 132
+        }
+      }
+    }
+  ],
+  "FolderName": "Turner Inc and Sons",
+  "EmailItemId": 420,
+  "AccountId": 297,
+  "ReceivedAt": "2017-09-02T10:11:00.0748065+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2005-11-01T10:11:00.0748065+01:00",
+  "HasCalendarData": true,
+  "CalMethod": "Add",
+  "CalReplyStatus": "Accepted",
+  "TableRight": null,
+  "FieldProperties": {
+    "fieldName": {
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 799
+    }
+  }
+}
+```

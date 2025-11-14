@@ -102,7 +102,7 @@ To adjust mobile-specific settings for a message, select a section in the messag
 [3]: ../editor/learn/add-unsubscribe-link.md
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
-[6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
+[6]: ../mailing/admin/add-domain.md
 [7]: ../../../en/email/mailgun/spf/index.md
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/

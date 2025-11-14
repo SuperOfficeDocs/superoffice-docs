@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    951,
-    436
+    1000,
+    24
   ]
 }
 ```
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Harris Group",
-    "AssociateId": 679,
-    "DetailsTable": 244,
-    "DetailsRecord": 638,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 175,
+    "Name": "Stokes-Wilderman",
+    "AssociateId": 346,
+    "DetailsTable": 815,
+    "DetailsRecord": 584,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "atque",
-      "ParameterObject2": "quo"
+      "ParameterObject1": "iste",
+      "ParameterObject2": "ad"
     },
-    "LastStarted": "2016-11-05T03:40:46.0764548+01:00",
-    "Created": "2002-11-23T03:40:46.0764548+01:00",
-    "StartCount": 557,
-    "DatabaseSerialNumber": "1422371",
-    "Context": "laudantium",
-    "Result": "veritatis",
+    "LastStarted": "2004-03-04T02:30:46.8194719+01:00",
+    "Created": "2019-02-03T02:30:46.8194719+01:00",
+    "StartCount": 49,
+    "DatabaseSerialNumber": "854879",
+    "Context": "soluta",
+    "Result": "velit",
     "State": "All",
-    "Description": "Function-based responsive function",
-    "Response": "eos",
-    "Request": "ut",
-    "ProgressDescription": "Managed impactful time-frame",
-    "ProgressPercent": 866,
-    "FileName": "Stamm, Ankunding and O'Connell",
+    "Description": "Persevering heuristic data-warehouse",
+    "Response": "magnam",
+    "Request": "cupiditate",
+    "ProgressDescription": "Visionary solution-oriented migration",
+    "ProgressPercent": 282,
+    "FileName": "Kihn-Nader",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

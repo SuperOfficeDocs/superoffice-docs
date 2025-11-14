@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=ipsum
-GET /api/v1/Ticket?$top=417
-GET /api/v1/Ticket?$skip=433
+GET /api/v1/Ticket?$entities=asperiores
+GET /api/v1/Ticket?$top=896
+GET /api/v1/Ticket?$skip=964
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=vel
+GET /api/v1/Ticket?$context=enim
 GET /api/v1/Ticket?$format=JSON
 GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sint",
+  "odata.nextLink": "alias",
   "value": [
     {
-      "PrimaryKey": 7284,
-      "EntityName": "person",
-      "personId": 7284,
-      "fullName": "Prof. Dean Barrows"
+      "PrimaryKey": 8969,
+      "EntityName": "sale",
+      "saleId": 8969,
+      "contactId": 864,
+      "name": "Kiehn, Heidenreich and Kozey"
     },
     {
-      "PrimaryKey": 4338,
-      "EntityName": "person",
-      "personId": 4338,
-      "fullName": "Prof. Ismael Ignatius Schuppe"
+      "PrimaryKey": 5270,
+      "EntityName": "sale",
+      "saleId": 5270,
+      "contactId": 2405,
+      "name": "Rath-Hyatt"
     }
   ]
 }

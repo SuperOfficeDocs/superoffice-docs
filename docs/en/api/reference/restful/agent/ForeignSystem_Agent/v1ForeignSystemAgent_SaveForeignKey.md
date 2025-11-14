@@ -91,9 +91,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Maggio-Nolan",
-  "DeviceName": "Rice-Weber",
-  "DeviceIdentifier": "quo"
+  "ApplicationName": "Von Inc and Sons",
+  "DeviceName": "Rohan LLC",
+  "DeviceIdentifier": "odit"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "quia",
-  "RecordId": 499,
-  "CreatedDate": "2021-11-16T03:40:46.9842779+01:00",
-  "UpdatedDate": "2025-06-30T03:40:46.9842779+02:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "ut",
-  "TableName": "Schaefer Group",
+  "Key": "accusamus",
+  "Value": "totam",
+  "RecordId": 807,
+  "CreatedDate": "2003-08-20T02:30:47.366331+02:00",
+  "UpdatedDate": "2016-06-22T02:30:47.366331+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "ab",
+  "TableName": "Jacobs-Schiller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

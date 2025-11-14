@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "eos",
-      "ValueType": "nobis",
+      "Key": "magni",
+      "ValueType": "dignissimos",
       "Mandatory": false,
-      "EncodedDisplayName": "Ryan, Pagac and Baumbach",
-      "EncodedDisplayDescription": "Diverse background portal",
-      "IconHint": "at",
+      "EncodedDisplayName": "Lockman, Welch and Keebler",
+      "EncodedDisplayDescription": "Progressive fresh-thinking attitude",
+      "IconHint": "praesentium",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "hic",
-      "EncodedDataCaptionDescription": "Multi-lateral high-level leverage",
-      "CurrentOperationType": "atque",
+      "EncodedDataCaption": "est",
+      "EncodedDataCaptionDescription": "Optimized zero defect throughput",
+      "CurrentOperationType": "reprehenderit",
       "Values": [
-        "hic",
-        "praesentium"
+        "non",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "architecto",
-        "quisquam"
+        "odit",
+        "alias"
       ],
       "OperationInfos": [
         {},
@@ -112,10 +112,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Wuckert-Barton",
-  "Context": "alias",
-  "SelectionId": 333,
-  "IsShadow": false
+  "TableName": "Wilkinson, Rowe and Tillman",
+  "Context": "optio",
+  "SelectionId": 88,
+  "IsShadow": true
 }
 ```
 
@@ -125,5 +125,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-985
+319
 ```

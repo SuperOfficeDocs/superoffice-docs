@@ -157,9 +157,9 @@ Contact your SuperOffice administrator to receive a new password.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/
-[2]: ../../admin/user-management/learn/index.md
-[3]: ../../admin/user-management/learn/add-associate.md
-[4]: ../../admin/user-management/learn/add-associate.md#troubleshooting
+[2]: ../../admin/user-management/index.md
+[3]: ../../admin/user-management/add-associate.md
+[4]: ../../admin/user-management/add-associate.md#troubleshooting
 [6]: preferences.md#options
 [7]: ../../../en/online/identity/single-sign-on/index.md
 [8]: ../../../en/online/identity/overview.md

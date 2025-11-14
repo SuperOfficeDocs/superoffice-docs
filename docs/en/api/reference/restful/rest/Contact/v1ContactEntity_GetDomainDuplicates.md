@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Johns-Kuhlman",
-    "SoPrimaryKey": 921,
-    "EntryName": "Torphy, Kertzmann and White",
-    "EntryIdentifier": "ea",
-    "RuleDisplayName": "Raynor Group",
+    "RuleName": "Zboncak, Watsica and Hoppe",
+    "SoPrimaryKey": 904,
+    "EntryName": "Schiller, Vandervort and Labadie",
+    "EntryIdentifier": "eos",
+    "RuleDisplayName": "Pfeffer-Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 797
       }
     }
   }

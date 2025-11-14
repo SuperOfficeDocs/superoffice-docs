@@ -3,9 +3,9 @@ uid: help-da-ui-navigator
 title: Navigator
 description: Navigator
 keywords: navigator, navigering, menu, side menu, venstre menu, brugergrænseflade
-author: Bergfrid Dias
-date: 07.03.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,7 @@ Navigatoren giver hurtig adgang til vigtige funktioner i SuperOffice CRM. Hvert 
 | <i class="ph ph-squares-four" aria-label="Skærmdesigner ikon"></i> | **[Skærmdesigner][24]** | Tilpas skærmlayouts til specifikke brugergrupper. |
 | <i class="ph ph-gear" aria-label="Indstillinger ikon"></i> | **[Præferencer][25]** | Juster standardindstillinger for aktiviteter, [videomøder][42] og [dokumentbiblioteket][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chat ikon"></i> | **[Chat][2]** | Opsæt chatkanaler. |
+| <i class="ph ph-target" aria-label="Marketing ikon"></i> | **[Marketing][12]** | Aktiver UTM-sporing for alle formularer. |
 | <i class="ph ph-sliders-horizontal" aria-label="Indstillinger ikon"></i> | **[Indstillinger][26]** | Konfigurer globale indstillinger såsom søgning, tidszoner, etiketter og nummerering. |
 | <i class="ph ph-file-arrow-up" aria-label="Import ikon"></i> | **[Import][27]** | Importer data til SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Felter ikon"></i> | **[Felter][28]** | Angiv brugerdefinerede felter. |
@@ -95,12 +96,13 @@ Hvis du holder musemarkøren over en post i en af listerne, vises en værktøjst
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
-[21]: ../../../admin/lists/learn/index.md
+[21]: ../../../admin/lists/index.md
 [22]: ../../../sale/admin/quote/index.md
 [24]: ../../../customization/screen-designer/admin/index.md
 [25]: ../../../admin/preferences/learn/index.md
@@ -112,9 +114,9 @@ Hvis du holder musemarkøren over en post i en af listerne, vises en værktøjst
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
-[45]: ../../../admin/license/learn/index.md
-[46]: ../../../admin/user-management/learn/index.md
-[47]: ../../../admin/user-management/learn/role/index.md
+[45]: ../../../admin/license/index.md
+[46]: ../../../admin/user-management/index.md
+[47]: ../../../admin/user-management/role/index.md
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 

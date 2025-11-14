@@ -74,8 +74,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 421,
-  "DisplayName": "Kunze-Mraz",
+  "ErpConnectorId": 337,
+  "DisplayName": "Bailey LLC",
   "URL": "http://www.example.com/",
   "Deleted": true,
   "TableRight": null,
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldLength": 64
     }
   }
 }

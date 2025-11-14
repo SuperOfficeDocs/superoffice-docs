@@ -92,31 +92,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Blick, Schamberger and Ziemann",
-      "Comment": "quam",
-      "StakeholderRoleId": 873,
-      "CountryId": 729,
-      "PersonId": 890,
-      "EmailDescription": "layne@langworth.us",
-      "EmailId": 162,
-      "EmailAddress": "liliana@crooks.info",
-      "PhoneId": 889,
-      "ContactName": "Kihn, Konopelski and Schimmel",
-      "ContactId": 302,
-      "SaleId": 69,
-      "Mrmrs": "illo",
-      "Firstname": "Israel",
-      "MiddleName": "Rolfson Group",
-      "Lastname": "Kozey",
-      "SaleStakeholderId": 392,
-      "Rank": 120,
-      "Phone": "334.936.4447 x21751"
+      "StakeholderRoleName": "Ankunding LLC",
+      "Comment": "perferendis",
+      "StakeholderRoleId": 383,
+      "CountryId": 194,
+      "PersonId": 609,
+      "EmailDescription": "lina@streich.biz",
+      "EmailId": 678,
+      "EmailAddress": "genesis.rowe@kirlinhegmann.com",
+      "PhoneId": 581,
+      "ContactName": "Roob, Armstrong and Collins",
+      "ContactId": 76,
+      "SaleId": 366,
+      "Mrmrs": "provident",
+      "Firstname": "Demond",
+      "MiddleName": "Pfannerstill Inc and Sons",
+      "Lastname": "Kreiger",
+      "SaleStakeholderId": 812,
+      "Rank": 802,
+      "Phone": "1-968-805-1545"
     }
   ]
 }
@@ -130,31 +130,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Quigley, Pouros and Marks",
-    "Comment": "veniam",
-    "StakeholderRoleId": 137,
-    "CountryId": 404,
-    "PersonId": 979,
-    "EmailDescription": "nigel.carter@jakubowski.uk",
-    "EmailId": 573,
-    "EmailAddress": "edward@mclaughlin.com",
-    "PhoneId": 449,
-    "ContactName": "Wuckert Group",
-    "ContactId": 197,
-    "SaleId": 609,
-    "Mrmrs": "dicta",
-    "Firstname": "Robin",
-    "MiddleName": "Jacobi, Koch and Wisoky",
-    "Lastname": "Flatley",
-    "SaleStakeholderId": 154,
-    "Rank": 630,
-    "Phone": "973-769-5351",
+    "StakeholderRoleName": "Bartoletti-Mayer",
+    "Comment": "doloribus",
+    "StakeholderRoleId": 993,
+    "CountryId": 902,
+    "PersonId": 501,
+    "EmailDescription": "jacinthe@fahey.uk",
+    "EmailId": 356,
+    "EmailAddress": "willa.heidenreich@rodriguez.co.uk",
+    "PhoneId": 995,
+    "ContactName": "Dibbert Inc and Sons",
+    "ContactId": 45,
+    "SaleId": 713,
+    "Mrmrs": "sit",
+    "Firstname": "Kiana",
+    "MiddleName": "Hegmann, Prohaska and Renner",
+    "Lastname": "McLaughlin",
+    "SaleStakeholderId": 982,
+    "Rank": 78,
+    "Phone": "(173)828-1357",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 754
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Lueilwitz, Kuhic and Effertz",
-    "ToolTip": "Est magnam sed.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "veritatis",
-    "ColorBlock": 388,
-    "IconHint": "vel",
+    "Id": 24,
+    "Name": "Gulgowski, Marvin and Kozey",
+    "ToolTip": "Eum ad aliquam qui.",
+    "Deleted": true,
+    "Rank": 273,
+    "Type": "eaque",
+    "ColorBlock": 151,
+    "IconHint": "sint",
     "Selected": true,
-    "LastChanged": "2012-02-05T03:40:56.711976+01:00",
+    "LastChanged": "2014-10-01T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Heidenreich Inc and Sons",
-        "ToolTip": "Autem nisi voluptas qui.",
-        "Deleted": true,
-        "Rank": 517,
-        "Type": "voluptas",
-        "ColorBlock": 161,
-        "IconHint": "recusandae",
+        "Id": 828,
+        "Name": "Hackett Inc and Sons",
+        "ToolTip": "Eos officiis architecto unde vel.",
+        "Deleted": false,
+        "Rank": 385,
+        "Type": "qui",
+        "ColorBlock": 527,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2010-03-30T03:40:56.711976+02:00",
+        "LastChanged": "2016-01-17T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "aut",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Miss Anya Xavier Schumm Sr."
+        "FullName": "Eliane Eichmann"
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "magni",
+    "ExtraInfo": "ut",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Enoch Robel"
+    "FullName": "Christina Edison Beer Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Herzog, Kuhn and Greenholt",
-    "ToolTip": "Eius ab libero hic modi sit consequatur.",
-    "Deleted": true,
-    "Rank": 2,
-    "Type": "quos",
-    "ColorBlock": 616,
-    "IconHint": "sunt",
+    "Id": 778,
+    "Name": "Green, Huel and Bernhard",
+    "ToolTip": "Non repudiandae quasi aut optio nostrum ipsam.",
+    "Deleted": false,
+    "Rank": 310,
+    "Type": "vero",
+    "ColorBlock": 762,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2021-06-08T03:40:56.711976+02:00",
+    "LastChanged": "2012-09-01T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Et odio dolor sequi.",
+        "Id": 335,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Architecto tenetur adipisci aut ipsum quis fuga consequatur.",
         "Deleted": false,
-        "Rank": 184,
-        "Type": "quod",
-        "ColorBlock": 493,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2024-12-27T03:40:56.711976+01:00",
+        "Rank": 533,
+        "Type": "sunt",
+        "ColorBlock": 475,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2003-12-24T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "nihil",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Laila Schinner",
+        "FullName": "Kristopher Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "omnis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "laudantium",
     "Hidden": true,
-    "FullName": "Ms. Margot Linnea Bednar I",
+    "FullName": "Heather Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 901
+        "FieldLength": 278
       }
     }
   }

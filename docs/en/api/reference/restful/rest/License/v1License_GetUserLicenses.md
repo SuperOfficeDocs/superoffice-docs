@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,56 +74,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hyatt LLC",
-    "Description": "Object-based client-server artificial intelligence",
+    "Name": "Torp Group",
+    "Description": "Networked homogeneous product",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 347,
-        "Tooltip": "ut",
+        "Total": 80,
+        "Tooltip": "quae",
         "CanAssign": false,
-        "Free": 740,
-        "InUse": 318,
+        "Free": 745,
+        "InUse": 526,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 777,
-        "Name": "Douglas-Mills",
-        "Description": "Future-proofed stable array",
-        "PrerequisiteModuleName": "Robel, Veum and Price",
-        "SortOrder": 117,
-        "ExtraFlags": 59,
+        "ModuleLicenseId": 779,
+        "Name": "Strosin Group",
+        "Description": "Streamlined asynchronous hub",
+        "PrerequisiteModuleName": "Herman-Koch",
+        "SortOrder": 83,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldType": "System.String",
+            "FieldLength": 369
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 890,
-        "Tooltip": "laudantium",
+        "Unrestricted": false,
+        "Total": 495,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 983,
-        "InUse": 453,
+        "Free": 663,
+        "InUse": 169,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 998,
-        "Name": "Funk, Cummings and Schaefer",
-        "Description": "Open-source didactic service-desk",
-        "PrerequisiteModuleName": "Botsford, Leffler and Marvin",
-        "SortOrder": 913,
-        "ExtraFlags": 619,
+        "ModuleLicenseId": 255,
+        "Name": "Lehner, Mosciski and Schuster",
+        "Description": "Reactive executive implementation",
+        "PrerequisiteModuleName": "Yundt, Walsh and Rempel",
+        "SortOrder": 103,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 363
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
@@ -132,62 +132,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   },
   {
-    "Name": "Hyatt LLC",
-    "Description": "Object-based client-server artificial intelligence",
+    "Name": "Torp Group",
+    "Description": "Networked homogeneous product",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 347,
-        "Tooltip": "ut",
+        "Total": 80,
+        "Tooltip": "quae",
         "CanAssign": false,
-        "Free": 740,
-        "InUse": 318,
+        "Free": 745,
+        "InUse": 526,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 777,
-        "Name": "Douglas-Mills",
-        "Description": "Future-proofed stable array",
-        "PrerequisiteModuleName": "Robel, Veum and Price",
-        "SortOrder": 117,
-        "ExtraFlags": 59,
+        "ModuleLicenseId": 779,
+        "Name": "Strosin Group",
+        "Description": "Streamlined asynchronous hub",
+        "PrerequisiteModuleName": "Herman-Koch",
+        "SortOrder": 83,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldType": "System.String",
+            "FieldLength": 369
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 890,
-        "Tooltip": "laudantium",
+        "Unrestricted": false,
+        "Total": 495,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 983,
-        "InUse": 453,
+        "Free": 663,
+        "InUse": 169,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 998,
-        "Name": "Funk, Cummings and Schaefer",
-        "Description": "Open-source didactic service-desk",
-        "PrerequisiteModuleName": "Botsford, Leffler and Marvin",
-        "SortOrder": 913,
-        "ExtraFlags": 619,
+        "ModuleLicenseId": 255,
+        "Name": "Lehner, Mosciski and Schuster",
+        "Description": "Reactive executive implementation",
+        "PrerequisiteModuleName": "Yundt, Walsh and Rempel",
+        "SortOrder": 103,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 363
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

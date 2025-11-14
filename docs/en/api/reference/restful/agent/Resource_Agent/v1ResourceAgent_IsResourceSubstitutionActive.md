@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Dach Group",
-    "Prohaska-Schroeder"
+    "Baumbach Inc and Sons",
+    "Emard-Mueller"
   ],
-  "Culture": "dolores"
+  "Culture": "quod"
 }
 ```
 
@@ -100,30 +100,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Heaney, Spencer and Baumbach",
-    "ResourceValue": "et",
-    "Culture": "quisquam",
-    "IsActive": true,
+    "ResourceName": "Casper-Stehr",
+    "ResourceValue": "ducimus",
+    "Culture": "nam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   },
   {
-    "ResourceName": "Heaney, Spencer and Baumbach",
-    "ResourceValue": "et",
-    "Culture": "quisquam",
-    "IsActive": true,
+    "ResourceName": "Casper-Stehr",
+    "ResourceValue": "ducimus",
+    "Culture": "nam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   }

@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 751,
-  "Name": "Langworth-McGlynn",
-  "Tooltip": "atque",
+  "HeadingId": 491,
+  "Name": "Greenfelder Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 33,
-  "UdListDefinitionId": 420
+  "Rank": 897,
+  "UdListDefinitionId": 367
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 333,
-  "Name": "Abbott, Zboncak and Ziemann",
-  "Tooltip": "minima",
+  "HeadingId": 992,
+  "Name": "Waelchi LLC",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "Rank": 862,
-  "UdListDefinitionId": 810,
+  "Rank": 502,
+  "UdListDefinitionId": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldType": "System.Int32",
+      "FieldLength": 999
     }
   }
 }

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | ticketPriorityEntityId | int32 | **Required** The identity of the TicketPriorityEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=597
+POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=120
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -80,8 +80,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 932,
-  "TableName": "Bogisich-Klocko"
+  "RoleId": 771,
+  "TableName": "Mann Inc and Sons"
 }
 ```
 
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quam",
-  "2": "ipsum"
+  "1": "et",
+  "2": "harum"
 }
 ```

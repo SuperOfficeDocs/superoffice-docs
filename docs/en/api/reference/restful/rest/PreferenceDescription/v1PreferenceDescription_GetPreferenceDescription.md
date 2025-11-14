@@ -92,7 +92,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,35 +102,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 650,
-  "Section": "labore",
-  "Key": "velit",
-  "Name": "Runolfsdottir LLC",
+  "PrefDescId": 172,
+  "Section": "vel",
+  "Key": "corrupti",
+  "Name": "Ratke Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Grass-roots composite encryption",
-  "IsBuiltin": true,
-  "TableName": "Kulas Inc and Sons",
-  "UserDefinedListId": 779,
-  "Rank": 874,
-  "SubGroup": "et",
-  "MinLevel": 88,
-  "MaxValue": 38,
-  "MinValue": 535,
-  "RequiredLicense": "debitis",
+  "Description": "Assimilated methodical instruction set",
+  "IsBuiltin": false,
+  "TableName": "Kuhlman-Hessel",
+  "UserDefinedListId": 489,
+  "Rank": 357,
+  "SubGroup": "commodi",
+  "MinLevel": 80,
+  "MaxValue": 756,
+  "MinValue": 821,
+  "RequiredLicense": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldLength": 817
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

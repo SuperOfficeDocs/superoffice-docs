@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 233,
-    "LCID": 177,
-    "EnglishName": "Wisozk-Ziemann",
-    "NativeName": "Beier LLC",
-    "ThreeLetterISOLanguageName": "Harvey Group",
-    "TwoLetterISOLanguageName": "Runte-Strosin",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 390,
+    "LCID": 341,
+    "EnglishName": "Hamill-Olson",
+    "NativeName": "Connelly, Schulist and Green",
+    "ThreeLetterISOLanguageName": "Gibson, Walter and Zieme",
+    "TwoLetterISOLanguageName": "Grimes, Runte and Streich",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldLength": 856
       }
     }
   }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 74,
+  "UdListDefinitionId": 234,
   "Item": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Quitzon LLC",
-  "Tooltip": "veritatis",
+  "Id": 748,
+  "Name": "Ferry LLC",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 706,
-  "Rank": 978,
+  "UdListDefinitionId": 521,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 907
     }
   }
 }

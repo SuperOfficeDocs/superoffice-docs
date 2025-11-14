@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 564
+  "AssociateId": 482
 }
 ```
 
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2004-08-04T03:40:46.9999043+02:00",
-  "ExpiryDate": "2018-07-27T03:40:46.9999043+02:00",
-  "GraceDate": "2009-01-01T03:40:46.9999043+01:00",
-  "CompanyName": "Leuschke-Baumbach",
+  "AdminWarningDate": "2004-08-01T02:30:47.366331+02:00",
+  "ExpiryDate": "2021-02-23T02:30:47.366331+01:00",
+  "GraceDate": "2016-06-09T02:30:47.366331+02:00",
+  "CompanyName": "Waelchi Inc and Sons",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "et",
-    "culpa"
+    "voluptatibus",
+    "pariatur"
   ]
 }
 ```

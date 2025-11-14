@@ -105,7 +105,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 423,
-  "ColumnId": 510,
-  "FieldDefault": "sapiente",
-  "FieldHeight": 469,
-  "FieldLabel": "eius",
-  "FieldLeft": 570,
-  "FieldTop": 182,
+  "UDefFieldId": 615,
+  "ColumnId": 493,
+  "FieldDefault": "et",
+  "FieldHeight": 141,
+  "FieldLabel": "ut",
+  "FieldLeft": 763,
+  "FieldTop": 315,
   "FieldType": "Checkbox",
-  "FieldWidth": 140,
-  "FormatMask": "eos",
-  "HideLabel": true,
+  "FieldWidth": 295,
+  "FormatMask": "neque",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 418,
-  "LabelLeft": 142,
-  "LabelTop": 488,
-  "LabelWidth": 351,
-  "LastVersionId": 596,
-  "ListTableId": 655,
+  "LabelHeight": 444,
+  "LabelLeft": 682,
+  "LabelTop": 556,
+  "LabelWidth": 325,
+  "LastVersionId": 330,
+  "ListTableId": 516,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 437,
-  "ProgId": "dolor",
-  "IsReadOnly": false,
-  "ShortLabel": "repellendus",
-  "TabOrder": 143,
-  "TextLength": 448,
-  "Tooltip": "vel",
-  "UdefIdentity": 953,
-  "UDListDefinitionId": 780,
+  "Page1LineNo": 104,
+  "ProgId": "hic",
+  "IsReadOnly": true,
+  "ShortLabel": "tenetur",
+  "TabOrder": 189,
+  "TextLength": 2,
+  "Tooltip": "deleniti",
+  "UdefIdentity": 130,
+  "UDListDefinitionId": 123,
   "Justification": "Center",
-  "Version": 503,
-  "TemplateVariableName": "Leuschke-Rohan",
+  "Version": 628,
+  "TemplateVariableName": "Stoltenberg, Keebler and Orn",
   "HasBeenPublished": false,
-  "MdoListName": "Metz Group",
+  "MdoListName": "Crona-Schaefer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldLength": 436
     }
   }
 }

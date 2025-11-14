@@ -105,12 +105,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 746
+  "PersonId": 787
 }
 ```
 
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 14,
-  "Name": "Leffler-Bradtke",
-  "Rank": 568,
-  "Tooltip": "est",
+  "AssociateId": 706,
+  "Name": "Effertz-Kuphal",
+  "Rank": 92,
+  "Tooltip": "accusamus",
   "LicenseOwners": [
     {
-      "Name": "Flatley-Okuneva",
-      "Description": "Multi-layered systemic process improvement",
+      "Name": "Weimann-Gulgowski",
+      "Description": "Optional logistical core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,14 +141,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 589
         }
       }
     },
     {
-      "Name": "Flatley-Okuneva",
-      "Description": "Multi-layered systemic process improvement",
+      "Name": "Weimann-Gulgowski",
+      "Description": "Optional logistical core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 589
         }
       }
     }
@@ -171,110 +171,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "odio",
-      "Tooltip": "ex",
-      "Id": 774,
-      "Rank": 791,
-      "Deleted": false,
+      "Value": "vero",
+      "Tooltip": "recusandae",
+      "Id": 609,
+      "Rank": 861,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 718
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2017-08-19T03:40:48.2504996+02:00",
-  "Lastlogout": "2008-09-04T03:40:48.2504996+02:00",
-  "EjUserId": 684,
-  "RequestSignature": "nisi",
+  "Deleted": false,
+  "Lastlogin": "2016-10-05T02:30:48.1319312+02:00",
+  "Lastlogout": "2015-12-30T02:30:48.1319312+01:00",
+  "EjUserId": 578,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nam",
-      "DisplayValue": "quis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "nam",
-      "DisplayValue": "quis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
-        }
-      }
-    }
-  ],
-  "UserName": "Grady Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 108,
-      "Name": "Koelpin, Johns and Stracke",
-      "ToolTip": "Sed ipsam.",
-      "Deleted": false,
-      "Rank": 613,
-      "Type": "consequuntur",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "et",
-      "ColorBlock": 915,
-      "ExtraInfo": "est",
-      "StyleHint": "autem",
-      "FullName": "Dale Torphy",
+      "Value": "accusantium",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 723
         }
       }
-    }
-  ],
-  "NickName": "Greenfelder-Kuvalis",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "expedita"
-  },
-  "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "eum"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Goldner, Graham and Wehner",
-      "DisplayName": "Bins-Frami",
-      "Description": "Realigned object-oriented throughput",
-      "ToolTip": "Et ipsum omnis ea dolores animi maxime.",
-      "Actions": "Implicit",
-      "ActionData": "voluptatum",
+      "Type": null,
+      "Value": "accusantium",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 537
+          "FieldType": "System.Int32",
+          "FieldLength": 723
+        }
+      }
+    }
+  ],
+  "UserName": "Pollich-Jakubowski",
+  "TicketCategories": [
+    {
+      "Id": 821,
+      "Name": "Bashirian-Torphy",
+      "ToolTip": "Quae omnis est similique sunt eveniet.",
+      "Deleted": false,
+      "Rank": 403,
+      "Type": "minima",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "excepturi",
+      "ColorBlock": 957,
+      "ExtraInfo": "esse",
+      "StyleHint": "itaque",
+      "FullName": "Bernadine Rolfson PhD",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 620
+        }
+      }
+    }
+  ],
+  "NickName": "Roob-Sporer",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptates",
+    "CustomFields2": "fugit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Dach Group",
+      "DisplayName": "Botsford Inc and Sons",
+      "Description": "Cross-group assymetric capacity",
+      "ToolTip": "Omnis non quos aut et nihil doloribus.",
+      "Actions": "Implicit",
+      "ActionData": "sit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 885
     }
   }
 }

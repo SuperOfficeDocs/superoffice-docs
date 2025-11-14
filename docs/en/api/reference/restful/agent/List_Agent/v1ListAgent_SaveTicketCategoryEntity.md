@@ -100,33 +100,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 549,
-  "ParentId": 945,
-  "Name": "West-Cremin",
-  "Fullname": "ut",
-  "CategoryMaster": 728,
+  "TicketCategoryId": 189,
+  "ParentId": 164,
+  "Name": "Ward, Hand and Boyer",
+  "Fullname": "tempora",
+  "CategoryMaster": 218,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Klocko, Conn and Funk",
+  "ExternalName": "McClure Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 705,
-  "ReplyTemplate": 479,
-  "NotificationEmail": "madison_windler@nadersenger.us",
+  "AssignmentLag": 248,
+  "ReplyTemplate": 619,
+  "NotificationEmail": "emil_buckridge@jacobsoncummings.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 971,
+  "EffectiveReplyTemplateId": 375,
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "et"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 481,
-  "ParentId": 493,
-  "Name": "Howe LLC",
-  "Fullname": "ipsum",
-  "CategoryMaster": 376,
+  "TicketCategoryId": 330,
+  "ParentId": 220,
+  "Name": "Jaskolski-Herzog",
+  "Fullname": "nulla",
+  "CategoryMaster": 85,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stehr Group",
+  "ExternalName": "Shanahan, Bailey and Smith",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 920,
-  "ReplyTemplate": 900,
-  "NotificationEmail": "patience@lubowitz.biz",
+  "AssignmentLag": 264,
+  "ReplyTemplate": 399,
+  "NotificationEmail": "kathryn.jakubowski@legros.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 328,
+  "EffectiveReplyTemplateId": 1000,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "magni"
+    "CustomFields1": "numquam",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

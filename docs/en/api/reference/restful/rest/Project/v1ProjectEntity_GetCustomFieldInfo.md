@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Volkman-Adams",
-  "DisplayName": "Dooley, Turner and Walter",
-  "Description": "Multi-tiered value-added instruction set",
-  "ShortLabel": "doloremque",
+  "FieldName": "Rowe, Hayes and Little",
+  "DisplayName": "Hand-Stracke",
+  "Description": "Switchable bi-directional encoding",
+  "ShortLabel": "iusto",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 201,
-  "TemplateVariableName": "Heidenreich Group"
+  "IsDisplayField": true,
+  "Rank": 365,
+  "TemplateVariableName": "Swaniawski Inc and Sons"
 }
 ```

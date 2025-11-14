@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Keefe, Kilback and Altenwerth"
+  "ApplicationName": "Wehner Group"
 }
 ```
 
@@ -100,21 +100,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 646,
-    "Name": "Kessler-Waters",
-    "CreatedDate": "2021-08-03T03:40:46.9842779+02:00",
-    "UpdatedDate": "2023-08-21T03:40:46.9842779+02:00",
-    "AssociateFullName": "Franco Anderson",
-    "CreatedBy": "expedita",
-    "UpdatedBy": "ut",
-    "DeviceIdentifier": "laborum",
-    "ForeignAppId": 584,
+    "ForeignDeviceId": 42,
+    "Name": "Murazik Inc and Sons",
+    "CreatedDate": "2000-09-05T02:30:47.366331+02:00",
+    "UpdatedDate": "2017-09-08T02:30:47.366331+02:00",
+    "AssociateFullName": "Dr. Asha Giuseppe Koch",
+    "CreatedBy": "ut",
+    "UpdatedBy": "dolore",
+    "DeviceIdentifier": "quam",
+    "ForeignAppId": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldLength": 515
       }
     }
   }

@@ -118,7 +118,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,128 +126,128 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Dec 2013 03:40:55 G12T
+Last-Modified: Thu, 02 May 2013 02:30:52 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-12-29T03:40:55.1630455+01:00",
-  "AppointmentId": 3,
-  "Description": "Centralized system-worthy installation",
-  "Title": "cum",
-  "Agenda": "quibusdam",
-  "InternalNotes": "ipsa",
-  "StartDate": "2021-08-26T03:40:55.1630455+02:00",
-  "EndDate": "2021-07-17T03:40:55.1630455+02:00",
+  "CreatedDate": "2013-11-18T02:30:52.272424+01:00",
+  "AppointmentId": 995,
+  "Description": "Cloned mobile help-desk",
+  "Title": "sed",
+  "Agenda": "quisquam",
+  "InternalNotes": "placeat",
+  "StartDate": "2021-10-29T02:30:52.272424+02:00",
+  "EndDate": "2016-09-29T02:30:52.272424+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 428,
+  "MotherId": 275,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-12-11T03:40:55.1630455+01:00",
+  "UpdatedDate": "2013-05-02T02:30:52.272424+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 936,
+  "ActiveLinks": 53,
   "Links": [
     {
-      "EntityName": "Pacocha-Blick",
-      "Id": 908,
-      "Description": "Cloned context-sensitive project",
-      "ExtraInfo": "quia",
-      "LinkId": 745,
+      "EntityName": "Lehner-Runolfsson",
+      "Id": 26,
+      "Description": "Robust directional array",
+      "ExtraInfo": "doloribus",
+      "LinkId": 976,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 785
         }
       }
     }
   ],
-  "AlarmLeadTime": "quaerat",
-  "HasAlarm": true,
-  "ColorIndex": 896,
+  "AlarmLeadTime": "nesciunt",
+  "HasAlarm": false,
+  "ColorIndex": 463,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "aut",
-  "Location": "minus",
-  "RejectCounter": 793,
-  "RejectReason": "engineer viral content",
+  "LagTime": "nobis",
+  "LeadTime": "exercitationem",
+  "Location": "expedita",
+  "RejectCounter": 512,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 382,
-      "PersonId": 296,
-      "ContactId": 557,
-      "EmailId": 357,
-      "SendEmail": false,
+      "AssociateId": 186,
+      "PersonId": 501,
+      "ContactId": 824,
+      "EmailId": 570,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "juliet@mosciski.uk",
-      "Description": "Seamless fresh-thinking functionalities"
+      "EmailAddress": "zola@turner.biz",
+      "Description": "De-engineered demand-driven budgetary management"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-02-23T03:40:55.1630455+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-02-20T02:30:52.272424+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 319,
+  "PreferredTZLocation": 384,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 540,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 681,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "saepe",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "1495895918",
-    "SuperOffice:2": "Martine Daugherty"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Efren Leuschke"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "maiores",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2025-04-02T03:40:55.1786716+02:00",
-  "PublishTo": "2017-09-30T03:40:55.1786716+02:00",
-  "PublishFrom": "2021-09-16T03:40:55.1786716+02:00",
+  "PublishEventDate": "2020-06-02T02:30:52.272424+02:00",
+  "PublishTo": "2014-12-10T02:30:52.272424+01:00",
+  "PublishFrom": "2007-05-31T02:30:52.272424+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 560,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 560,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
@@ -257,7 +257,7 @@ Last-Modified: Wed, 11 Dec 2013 03:40:55 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 965
     }
   }
 }

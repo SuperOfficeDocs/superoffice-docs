@@ -127,7 +127,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account|  |
 |ejUserId|int|Service user ID: The database ID of a Service user|  |
 |simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ejDisplayName|string|Nick name: User's nick name in Service|  |
+|ejDisplayName|string|Nickname: User's nickname in Service|  |
 |ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -175,8 +175,10 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |personCategory|listAny|Category|  |
 |personCategoryGroup|listAny|Category group|  |
+|personCategoryRank|int|!!Category rank|  |
 |personBusiness|listAny|Business|  |
-|leadstatus|listAny|Lead status|  |
+|leadStatus|listAny|Lead status|  |
+|leadstatusRank|int|!!Lead status RANK|  |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company|  |
 |isProjectMember|bool|Is project member: This person is a project member|  |
@@ -185,12 +187,12 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |createdByForm|listAny|Created by form: Created by form|  |
 |email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
-|email/emailAddress|string|E-mail|  |
-|email/emailDescription|string|Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|email/emailAddress|string|E-mail|  |
+|email/emailDescription|string|Description|  |
 |email/emailId|int|ID|  |
 |email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
 |email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
@@ -207,6 +209,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
 |personContact/category| *None* |Category|  |
 |personContact/categoryGroup| *None* |Category group|  |
+|personContact/companyCategoryRank| *None* |Category rank|  |
 |personContact/business| *None* |Business|  |
 |personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |personContact/countryId| *None* |Country ID: Country ID|  |
@@ -226,6 +229,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |personContact/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |personContact/deletedDate| *None* |Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company|  |
+|personContact/forceCompany| *None* |Dummy: Dummy|  |
 |personContact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |personContact/email/emailAddress|string|E-mail|  |
 |personContact/email/emailDescription|string|Description|  |
@@ -250,7 +254,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=ejStatus,userName,email/emailLastSent,personContact/updatedBy
+GET /api/v1/archive/Participants?$select=contactCategory,fullNameWithContact,ticketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

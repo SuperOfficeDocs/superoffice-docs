@@ -86,15 +86,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 96,
+  "DocumentId": 304,
   "AllowedReturnTypes": [
-    "voluptatem",
-    "eius"
+    "similique",
+    "totam"
   ],
-  "VersionDescription": "Decentralized intermediate encoding",
+  "VersionDescription": "Object-based bifurcated service-desk",
   "VersionExtraFields": [
-    "sit",
-    "nostrum"
+    "quasi",
+    "est"
   ]
 }
 ```
@@ -106,11 +106,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "repudiandae",
-  "VersionId": "voluptatem",
+  "ExternalReference": "ut",
+  "VersionId": "sunt",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "unde",
-  "AdditionalInfo": "et"
+  "Value": "quia",
+  "AdditionalInfo": "sint"
 }
 ```

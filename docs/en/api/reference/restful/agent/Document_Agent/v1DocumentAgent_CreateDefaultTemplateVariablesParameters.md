@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "error",
+  "SourceInput": "quo",
   "Encoding": "Html",
-  "CultureName": "sv",
-  "ContactId": 763,
-  "PersonId": 573,
-  "ProjectId": 228,
-  "SelectionId": 231,
-  "AppointmentId": 855,
-  "DocumentId": 649,
-  "SaleId": 318,
-  "QuoteLineId": 59,
-  "QuoteAlternativeId": 450,
-  "ProductKey": "quibusdam",
+  "CultureName": "en",
+  "ContactId": 110,
+  "PersonId": 793,
+  "ProjectId": 502,
+  "SelectionId": 740,
+  "AppointmentId": 469,
+  "DocumentId": 268,
+  "SaleId": 335,
+  "QuoteLineId": 18,
+  "QuoteAlternativeId": 449,
+  "ProductKey": "sunt",
   "CustomTags": [
     [
       {}
@@ -104,14 +104,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 52,
+  "TicketId": 11,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   }
 }

@@ -109,32 +109,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 338,
-  "Name": "Kassulke LLC",
+  "WebhookId": 777,
+  "Name": "Turcotte-Langosh",
   "Events": [
-    "ut",
-    "illum"
+    "tenetur",
+    "laborum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "nesciunt",
   "State": "Active",
-  "Type": "vel",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "sint",
-    "Headers2": "ipsum"
+    "Headers1": "et",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-02-06T03:40:56.6650985+01:00",
+  "Registered": "2014-11-17T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-09-08T03:40:56.6650985+02:00",
+  "Updated": "2007-11-28T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "giuseppe_cole@jacobi.biz"
+  "ErrorsEmail": "dixie@pacochaortiz.biz"
 }
 ```
 
@@ -145,28 +145,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 159,
-  "Name": "Schmeler Inc and Sons",
+  "WebhookId": 451,
+  "Name": "Renner LLC",
   "Events": [
-    "quibusdam",
-    "voluptas"
+    "cupiditate",
+    "sed"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "delectus",
+  "Secret": "nobis",
   "State": "Active",
-  "Type": "possimus",
+  "Type": "et",
   "Headers": {
-    "Headers1": "omnis",
-    "Headers2": "officia"
+    "Headers1": "id",
+    "Headers2": "placeat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-01-22T03:40:56.6650985+01:00",
+  "Registered": "2002-10-05T02:30:53.1786436+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-09-07T03:40:56.6650985+02:00",
+  "Updated": "2004-08-01T02:30:53.1786436+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cleora@labadie.com",
+  "ErrorsEmail": "orin@brekke.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

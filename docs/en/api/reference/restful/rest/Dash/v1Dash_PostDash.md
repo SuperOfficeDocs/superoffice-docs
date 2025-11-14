@@ -102,34 +102,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 412,
-  "UniqueId": "velit",
-  "Name": "Zboncak, Anderson and Nader",
-  "Description": "Profound tangible analyzer",
-  "AssociateId": 804,
-  "Columns": 442,
+  "DashboardId": 348,
+  "UniqueId": "non",
+  "Name": "Lubowitz-Keeling",
+  "Description": "User-centric multi-state service-desk",
+  "AssociateId": 515,
+  "Columns": 708,
   "Theme": null,
-  "VisibleForAll": 710,
+  "VisibleForAll": 701,
   "VisibleForAssociates": [
-    357,
-    355
+    720,
+    918
   ],
   "VisibleForGroups": [
-    988,
-    165
+    911,
+    145
   ],
-  "PinForAll": 644,
+  "PinForAll": 728,
   "PinForAssociates": [
-    735,
-    354
+    550,
+    812
   ],
   "PinForGroups": [
-    450,
-    198
+    517,
+    178
   ]
 }
 ```
@@ -141,42 +141,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 334,
-  "UniqueId": "aut",
-  "Name": "Douglas-McLaughlin",
-  "Description": "Sharable bandwidth-monitored archive",
-  "AssociateId": 84,
-  "Columns": 894,
+  "DashboardId": 336,
+  "UniqueId": "hic",
+  "Name": "Corwin Inc and Sons",
+  "Description": "Front-line bandwidth-monitored functionalities",
+  "AssociateId": 998,
+  "Columns": 848,
   "Theme": null,
-  "VisibleForAll": 790,
+  "VisibleForAll": 702,
   "VisibleForAssociates": [
-    163,
-    703
+    987,
+    954
   ],
   "VisibleForGroups": [
-    596,
-    605
+    636,
+    628
   ],
-  "PinForAll": 868,
+  "PinForAll": 361,
   "PinForAssociates": [
-    184,
-    649
+    262,
+    464
   ],
   "PinForGroups": [
-    315,
-    136
+    294,
+    572
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

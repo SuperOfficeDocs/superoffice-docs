@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,29 +74,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 607,
-  "Name": "Harber Inc and Sons",
-  "CreatedDate": "2017-09-12T03:40:46.9686521+02:00",
-  "UpdatedDate": "2023-12-22T03:40:46.9686521+01:00",
+  "ForeignAppId": 789,
+  "Name": "Adams LLC",
+  "CreatedDate": "2023-01-08T02:30:47.350707+01:00",
+  "UpdatedDate": "2017-06-06T02:30:47.350707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 364,
-      "Name": "Jacobi Group",
-      "CreatedDate": "2018-11-16T03:40:46.9686521+01:00",
-      "UpdatedDate": "2017-02-20T03:40:46.9686521+01:00",
-      "AssociateFullName": "Miss Penelope Joanny Pouros",
-      "CreatedBy": "autem",
-      "UpdatedBy": "minus",
-      "DeviceIdentifier": "laudantium",
-      "ForeignAppId": 119,
+      "ForeignDeviceId": 916,
+      "Name": "Hermiston-Kreiger",
+      "CreatedDate": "2011-11-10T02:30:47.350707+01:00",
+      "UpdatedDate": "2012-05-24T02:30:47.350707+02:00",
+      "AssociateFullName": "Hillary Luettgen",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "accusamus",
+      "DeviceIdentifier": "dolores",
+      "ForeignAppId": 979,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

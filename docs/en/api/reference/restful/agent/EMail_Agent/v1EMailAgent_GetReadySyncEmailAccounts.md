@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 869,
-    "AssociateName": "Emmerich-Stark",
-    "AssociateId": 800,
+    "AccountId": 63,
+    "AssociateName": "O'Keefe, D'Amore and Christiansen",
+    "AssociateId": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 558
       }
     }
   },
   {
-    "AccountId": 869,
-    "AssociateName": "Emmerich-Stark",
-    "AssociateId": 800,
+    "AccountId": 63,
+    "AssociateName": "O'Keefe, D'Amore and Christiansen",
+    "AssociateId": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 558
       }
     }
   }

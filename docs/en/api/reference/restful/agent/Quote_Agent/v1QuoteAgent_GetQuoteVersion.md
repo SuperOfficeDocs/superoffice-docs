@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 770
+  "QuoteVersionId": 343
 }
 ```
 
@@ -129,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 249,
-  "ERPQuoteVersionKey": "excepturi",
-  "QuoteId": 117,
-  "Description": "Front-line user-facing workforce",
-  "Number": "1499891",
+  "QuoteVersionId": 484,
+  "ERPQuoteVersionKey": "tenetur",
+  "QuoteId": 575,
+  "Description": "Cross-group tertiary implementation",
+  "Number": "1142218",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 861,
-  "SentDate": "2020-02-13T03:40:47.5161986+01:00",
-  "FollowupId": 950,
-  "ExpirationDate": "2000-02-23T03:40:47.5161986+01:00",
-  "DeliveryCountryId": 789,
+  "LikelyQuoteAlternativeId": 528,
+  "SentDate": "2002-11-09T02:30:47.7100701+01:00",
+  "FollowupId": 809,
+  "ExpirationDate": "2003-08-28T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 25,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 791,
+  "InvoiceCountryId": 572,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "dolor",
-  "ERPPaymentTypeKey": "illum",
-  "ERPDeliveryTermsKey": "harum",
-  "ERPDeliveryTypeKey": "in",
-  "Rank": 98,
-  "ApprovedBy": 757,
-  "ApprovedText": "quis",
-  "ApprovedRegisteredBy": 13,
-  "ApprovedRegisteredDate": "2004-09-22T03:40:47.5161986+02:00",
-  "ExtraField1": "ducimus",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "et",
-  "ExtraField4": "perspiciatis",
-  "ExtraField5": "non",
-  "LastRecalculated": "2008-06-26T03:40:47.5161986+02:00",
-  "Updated": "2018-12-23T03:40:47.5161986+01:00",
-  "UpdatedAssociateId": 481,
-  "Registered": "2015-03-11T03:40:47.5161986+01:00",
-  "RegisteredAssociateId": 644,
-  "RequestAssociateId": 829,
-  "RequestComment": "vitae",
+  "ERPPaymentTermsKey": "qui",
+  "ERPPaymentTypeKey": "quia",
+  "ERPDeliveryTermsKey": "voluptatem",
+  "ERPDeliveryTypeKey": "sed",
+  "Rank": 980,
+  "ApprovedBy": 976,
+  "ApprovedText": "at",
+  "ApprovedRegisteredBy": 544,
+  "ApprovedRegisteredDate": "2004-04-23T02:30:47.7100701+02:00",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "aut",
+  "ExtraField3": "rem",
+  "ExtraField4": "sit",
+  "ExtraField5": "quidem",
+  "LastRecalculated": "2004-03-13T02:30:47.7100701+01:00",
+  "Updated": "2017-03-16T02:30:47.7100701+01:00",
+  "UpdatedAssociateId": 675,
+  "Registered": "2006-06-17T02:30:47.7100701+02:00",
+  "RegisteredAssociateId": 643,
+  "RequestAssociateId": 858,
+  "RequestComment": "voluptas",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 60,
-      "ERPQuoteAlternativeKey": "suscipit",
-      "QuoteVersionId": 970,
-      "Name": "Gusikowski, Hayes and Hahn",
-      "Description": "Business-focused 5th generation conglomeration",
+      "QuoteAlternativeId": 555,
+      "ERPQuoteAlternativeKey": "quae",
+      "QuoteVersionId": 266,
+      "Name": "Johnston, Veum and Metz",
+      "Description": "Switchable uniform conglomeration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 25203.628,
-      "ERPDiscountAmount": 886.922,
-      "DiscountPercent": 13839.743999999999,
-      "DiscountAmount": 1168.982,
+      "ERPDiscountPercent": 18080.046,
+      "ERPDiscountAmount": 13441.725999999999,
+      "DiscountPercent": 12971.626,
+      "DiscountAmount": 14620.109999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sequi",
-      "VAT": 15460.021999999999,
-      "EarningPercent": 28798.325999999997,
-      "EarningAmount": 12178.724,
-      "SubTotal": 10768.423999999999,
-      "TotalPrice": 2792.394,
-      "ExtraField1": "consequatur",
-      "ExtraField2": "sint",
-      "ExtraField3": "harum",
-      "ExtraField4": "eos",
-      "ExtraField5": "asperiores",
+      "VATInfo": "non",
+      "VAT": 27851.858,
+      "EarningPercent": 11702.356,
+      "EarningAmount": 10486.364,
+      "SubTotal": 25281.978,
+      "TotalPrice": 11971.88,
+      "ExtraField1": "minima",
+      "ExtraField2": "officiis",
+      "ExtraField3": "est",
+      "ExtraField4": "quia",
+      "ExtraField5": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 680
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   }
 }

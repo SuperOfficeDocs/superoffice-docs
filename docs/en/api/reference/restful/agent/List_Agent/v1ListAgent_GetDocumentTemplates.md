@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 234,
-    "Name": "Tremblay, Padberg and Schroeder",
-    "Tooltip": "quia",
-    "SaveInDb": 168,
-    "Filename": "eius",
-    "DefaultOref": "est",
+    "DocumentTemplateId": 611,
+    "Name": "White-Johns",
+    "Tooltip": "est",
+    "SaveInDb": 695,
+    "Filename": "illum",
+    "DefaultOref": "tempora",
     "RecordType": "Appointment",
-    "Deleted": 573,
+    "Deleted": 918,
     "Direction": "Incoming",
-    "AutoeventId": 563,
+    "AutoeventId": 753,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldLength": 463
       }
     }
   }

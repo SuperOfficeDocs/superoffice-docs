@@ -27,8 +27,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=animi
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=consectetur
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Ullrich-Fahey",
-    "ToolTip": "Dolorum repellendus velit ullam ducimus incidunt dolorem incidunt.",
+    "Id": 590,
+    "Name": "Rowe LLC",
+    "ToolTip": "Et voluptatem qui aut.",
     "Deleted": false,
-    "Rank": 243,
-    "Type": "iusto",
+    "Rank": 326,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Hyatt Inc and Sons",
-        "ToolTip": "Sapiente sit.",
+        "Id": 384,
+        "Name": "Lebsack, Wolff and Wisoky",
+        "ToolTip": "A ipsa non in.",
         "Deleted": false,
-        "Rank": 821,
-        "Type": "eum",
+        "Rank": 766,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 720,
-        "ExtraInfo": "delectus",
-        "StyleHint": "ducimus",
-        "FullName": "Christa Wilkinson",
+        "IconHint": "qui",
+        "ColorBlock": 293,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "dicta",
+        "FullName": "Jonas Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 236
+            "FieldType": "System.Int32",
+            "FieldLength": 520
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 251,
-    "ExtraInfo": "eius",
-    "StyleHint": "et",
-    "FullName": "Virginia Kautzer",
+    "IconHint": "qui",
+    "ColorBlock": 13,
+    "ExtraInfo": "officia",
+    "StyleHint": "beatae",
+    "FullName": "Stanford Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 95
       }
     }
   }

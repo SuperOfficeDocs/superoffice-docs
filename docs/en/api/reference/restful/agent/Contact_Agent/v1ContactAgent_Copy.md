@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 365,
-  "DestinationContactName": "Macejkovic, Brown and Shields",
+  "SourceContactId": 337,
+  "DestinationContactName": "Runolfsdottir-Kling",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-975
+138
 ```

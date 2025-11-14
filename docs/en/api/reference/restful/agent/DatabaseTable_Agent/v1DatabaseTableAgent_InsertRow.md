@@ -76,10 +76,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Connell, Bailey and Fritsch",
+  "TableName": "Daugherty-Stark",
   "Values": {
-    "Values1": "aut",
-    "Values2": "culpa"
+    "Values1": "quam",
+    "Values2": "non"
   }
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-673
+57
 ```

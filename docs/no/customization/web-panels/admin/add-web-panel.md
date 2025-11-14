@@ -4,8 +4,8 @@ title: Legg til webpanel
 description: Slik legger du til elementer i webpanellisten i Innstillinger og vedlikehold.
 keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -30,34 +30,29 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. Klikk **Legg til** for å åpne dialogboksen **Rediger listeelement**.
 
-1. Skriv inn ønsket navn på forekomsten i feltet **Navn**. *(Obligatorisk)*
+1. Skriv inn etiketten som skal vises i SuperOffice CRM, i feltet **Navn**. *(Obligatorisk)*
 
-    * Dette navnet vises når du legger inn URL-adressen i SuperOffice CRM.
+    * Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**. Les om [Oversettelse][3].
 
 1. I **URL-feltet** angir du URL-adressen, for eksempel en webside eller en serverbasert HTML-fil. For detaljer om støttede URL-typer, se [Bruke HTTP vs HTTPS-nettadresser](#https).
 
-1. I feltet **Vindusnavn** angir du det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
+    * I feltet **URL-format**, velg *Ingen*, *ANSI*, eller *Unicode*.
 
-1. I listeboksen **Synlig i** velger du hvor webpanelet skal vises i SuperOffice CRM.
+1. I feltet **Vindusnavn**, angi det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
 
-    * Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer.
-    * For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8].
+1. I listeboksen **Synlig i**, velg hvor webpanelet skal vises i SuperOffice CRM.
 
-1. I listeboksen **URL-format** kan du velge om [URL-adressen][2] skal være ANSI eller Unicode (eller uten format).
+1. Under **Tilgjengelig på**, velg ett eller begge alternativer:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. Under **Vis** merker du av for de linjene som skal være tilgjengelige i nettleservinduet som URL-adressen åpnes i: menylinje, knapperad, adresselinje og statuslinje.
+1. (Valgfritt) Slik styrer du hvordan panelet skal oppføre seg:
 
-1. Under **Tilgjengelig på** velger du hvor du vil at URL-adressen skal være tilgjengelig. Du kan velge flere av disse alternativene samtidig.
-    * **SuperOffice CRM for Web**: Når du bruker Web-versjonen av SuperOffice CRM.
-    * **Mobile CRM**: Når du bruker mobilversjonen av SuperOffice CRM.
+    * Velg **Last alltid innhold på nytt ved fanebytte** hvis innholdet skal oppdateres hver gang brukeren bytter fane.
+    * Velg **Ikke last innhold på nytt ved navigering til hovedkort** for å bufre innhold under kortnavigering.
+    * Velg **Vis kobling for å åpne i nytt vindu** hvis panelet også skal åpnes i et nytt nettleservindu.
 
-    Ekstra innstillinger:
-    * **Last alltid innhold på nytt** ved fanebytte.
-    * **Vis kobling** for å åpne i nytt vindu.
-
-1. Klikk på **Ikon**-listen for å velge et ikon for webpanelet.
-
-1. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**. Les om [Oversettelse][3].
+1. (Valgfritt) Klikk på **Ikon**-listen for å velge et ikon for webpanelet.
 
 1. Klikk **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
@@ -79,14 +74,13 @@ Når elementet er lagret, kan du:
 | Vindusnavn | ID for panelet, brukt i HTML-en som lastes inn i panelene. Må være unik, bruk prefiks |
 | Beskrivelse | Verktøytips-tekst |
 | URL | Plassering av nettside |
-| URL-koding | Ingen, ANSI eller Unicode |
-| Synlig i | Visningsplassering |
-| Tilgjengelig på | Enhetstype (web, mobil) |
-| Vis | Om menylinjen, verktøylinjen, adresselinjen og/eller statuslinjen skal vises |
+| [URL-koding][2] | Ingen, ANSI eller Unicode |
+| Synlig i | Visningsplassering. Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer. For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8]. |
+| Tilgjengelig på | Enhetstype (web, mobil) - hvor du vil at URL-adressen skal være tilgjengelig |
 
 ### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Bruke malvariabler
 
@@ -111,13 +105,13 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 * [Grunnprogrammer og URL-parametere][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
-[6]: ../../../admin/lists/learn/organize/headings.md
-[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[6]: ../../../admin/lists/headings.md
+[7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
 
 <!-- Referenced images -->

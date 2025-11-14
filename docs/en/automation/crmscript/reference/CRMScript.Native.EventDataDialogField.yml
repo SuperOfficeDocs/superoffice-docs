@@ -936,7 +936,7 @@ items:
   fullName: CRMScript.Native.EventDataDialogField.setType(String)
   type: Method
   summary: "\nSets what type of field.\n"
-  remarks: "\nSupports:<ul><li>label</li><li>text</li><li>integer</li><li>decimal</li><li>checkbox</li><li>date</li><li>datetime</li><li>time</li><li>timeSpan</li><li>list</li></ul>\n"
+  remarks: "\nSupports:<ul><li>label</li><li>text</li><li>integer</li><li>decimal</li><li>checkbox</li><li>date</li><li>datetime</li><li>time</li><li>timeSpan</li><li>list. Note: the &quot;(No Selection)&quot; option can be added by appending &quot;WithNoSelection&quot; to the list name e.g., field.setListName(&quot;associateWithNoSelection&quot;);</li></ul>\n"
   syntax: 
     content: Void setType(String type)
     parameters:

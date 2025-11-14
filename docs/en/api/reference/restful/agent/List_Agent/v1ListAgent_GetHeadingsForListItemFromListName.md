@@ -96,8 +96,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cassin, Ebert and Robel",
-  "ListItemId": 402,
+  "UdListDefinitionName": "Larkin, Grant and Greenfelder",
+  "ListItemId": 842,
   "ShowDeleted": false
 }
 ```
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Terry-DuBuque",
-    "ToolTip": "Beatae praesentium.",
+    "Id": 109,
+    "Name": "Fahey LLC",
+    "ToolTip": "Autem vero quae delectus quia.",
     "Deleted": true,
-    "Rank": 131,
-    "Type": "vel",
-    "ColorBlock": 227,
-    "IconHint": "cupiditate",
+    "Rank": 955,
+    "Type": "et",
+    "ColorBlock": 911,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "1999-09-06T03:40:47.0936613+02:00",
+    "LastChanged": "2004-11-13T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Will-Schaden",
-        "ToolTip": "Sit assumenda nesciunt ea optio quidem velit quia.",
+        "Id": 601,
+        "Name": "Ebert Inc and Sons",
+        "ToolTip": "Aperiam excepturi.",
         "Deleted": true,
-        "Rank": 569,
-        "Type": "id",
-        "ColorBlock": 177,
-        "IconHint": "nesciunt",
+        "Rank": 883,
+        "Type": "quae",
+        "ColorBlock": 132,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2008-10-20T03:40:47.0936613+02:00",
+        "LastChanged": "2006-04-06T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Jamar Klein",
+        "ExtraInfo": "fuga",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Regan Walker DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 216
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Nikko Cassin",
+    "ExtraInfo": "ut",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Mrs. Roy Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

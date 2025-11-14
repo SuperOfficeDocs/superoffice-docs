@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,43 +110,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 840,
-    "Name": "Streich-Labadie",
-    "Description": "Ergonomic logistical standardization",
-    "WelcomeMessage": "recusandae",
+    "ChatTopicId": 803,
+    "Name": "Kshlerin, Zulauf and Hirthe",
+    "Description": "Proactive clear-thinking pricing structure",
+    "WelcomeMessage": "animi",
     "Language": null,
-    "LastAccept": "2025-05-22T03:40:46.2176794+02:00",
-    "SecondsPrAccept": 755,
-    "AlertRecipient": "vel",
+    "LastAccept": "2012-08-17T02:30:46.8975935+02:00",
+    "SecondsPrAccept": 132,
+    "AlertRecipient": "dolorem",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "veniam",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "sit",
-    "WarnNewChatMinutes": 498,
-    "WarnManagerNewChatMinutes": 418,
+    "BadgeHeader": "provident",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "harum",
+    "WarnNewChatMinutes": 645,
+    "WarnManagerNewChatMinutes": 453,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 283,
-    "WarnManagerChatMessageMinutes": 372,
+    "WarnChatMessageMinutes": 502,
+    "WarnManagerChatMessageMinutes": 717,
     "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 924,
-    "OfflineFormQueueLength": 106,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "soluta",
+    "OfflineFormTimeLimit": 975,
+    "OfflineFormQueueLength": 385,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 212
       }
     }
   }

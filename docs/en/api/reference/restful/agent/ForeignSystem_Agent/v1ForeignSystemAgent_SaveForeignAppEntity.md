@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 829,
-  "Name": "Hilpert-Keeling",
-  "CreatedDate": "1998-09-11T03:40:46.9686521+02:00",
-  "UpdatedDate": "2009-03-30T03:40:46.9686521+02:00",
+  "ForeignAppId": 760,
+  "Name": "Schimmel-Maggio",
+  "CreatedDate": "2009-12-31T02:30:47.350707+01:00",
+  "UpdatedDate": "2000-11-02T02:30:47.350707+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 487,
-      "Name": "Swift, Koss and Moen",
-      "CreatedDate": "2020-09-18T03:40:46.9842779+02:00",
-      "UpdatedDate": "2002-07-31T03:40:46.9842779+02:00",
-      "AssociateFullName": "Nicholas Lauriane Borer III",
-      "CreatedBy": "id",
-      "UpdatedBy": "nemo",
-      "DeviceIdentifier": "laboriosam",
-      "ForeignAppId": 351
+      "ForeignDeviceId": 877,
+      "Name": "Wiegand-Ullrich",
+      "CreatedDate": "2012-12-05T02:30:47.350707+01:00",
+      "UpdatedDate": "2011-09-08T02:30:47.350707+02:00",
+      "AssociateFullName": "Prof. Maudie Halvorson V",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "molestias",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 568
     }
   ]
 }
@@ -111,29 +111,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 368,
-  "Name": "Orn, Hintz and Lubowitz",
-  "CreatedDate": "2025-08-11T03:40:46.9842779+02:00",
-  "UpdatedDate": "2002-08-14T03:40:46.9842779+02:00",
+  "ForeignAppId": 291,
+  "Name": "Dickens-Little",
+  "CreatedDate": "2013-08-25T02:30:47.350707+02:00",
+  "UpdatedDate": "2002-06-18T02:30:47.350707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 663,
-      "Name": "Marquardt, Kerluke and Morar",
-      "CreatedDate": "2021-01-07T03:40:46.9842779+01:00",
-      "UpdatedDate": "2013-10-28T03:40:46.9842779+01:00",
-      "AssociateFullName": "Mariah Schultz",
-      "CreatedBy": "eos",
-      "UpdatedBy": "neque",
-      "DeviceIdentifier": "ratione",
-      "ForeignAppId": 636,
+      "ForeignDeviceId": 260,
+      "Name": "Lind-Kuhlman",
+      "CreatedDate": "2019-10-29T02:30:47.350707+01:00",
+      "UpdatedDate": "2015-09-28T02:30:47.350707+02:00",
+      "AssociateFullName": "Ismael Paucek",
+      "CreatedBy": "excepturi",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 833,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 377
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 727
     }
   }
 }

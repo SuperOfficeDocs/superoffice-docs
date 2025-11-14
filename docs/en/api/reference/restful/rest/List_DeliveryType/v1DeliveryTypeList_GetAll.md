@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Mohr-Nitzsche",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "UdListDefinitionId": 165,
-    "Rank": 933,
+    "Id": 881,
+    "Name": "Stiedemann-Stracke",
+    "Tooltip": "odit",
+    "Deleted": false,
+    "UdListDefinitionId": 902,
+    "Rank": 752,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 455
       }
     }
   }

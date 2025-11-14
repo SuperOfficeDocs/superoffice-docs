@@ -105,11 +105,13 @@ For more details on setting up your sales opportunities, see the [guide to sales
 * [Create a quote][1]
 * [Work with sales guides][6]
 * [Work with sales targets][7]
+* [Lead management][8]
 * [Print info about a sale][11]
 
 <!-- Referenced links -->
 [1]: quote/create.md
 [3]: ../../learn/section-tabs/index.md
+[8]: ../../lead/learn/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md

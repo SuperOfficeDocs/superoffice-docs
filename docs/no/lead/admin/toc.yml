@@ -1,0 +1,7 @@
+items:
+- name: Sett opp leadhåndtering
+  href: index.md
+- name: Firmakategori og kategorigruppe
+  href: add-company-category.md
+- name: Administrer lead-statuser
+  href: add-lead-status.md

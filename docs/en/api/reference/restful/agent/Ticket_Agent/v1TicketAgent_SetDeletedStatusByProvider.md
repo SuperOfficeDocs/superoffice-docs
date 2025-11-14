@@ -73,32 +73,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McClure Group",
+  "ProviderName": "Botsford-Sauer",
   "Restrictions": [
     {
-      "Name": "Stokes-Pfeffer",
-      "Operator": "dolor",
+      "Name": "Nicolas-McCullough",
+      "Operator": "non",
       "Values": [
-        "exercitationem",
-        "ut"
+        "qui",
+        "nemo"
       ],
       "DisplayValues": [
-        "sit",
-        "in"
+        "perferendis",
+        "necessitatibus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 792,
+      "InterParenthesis": 197,
       "InterOperator": "And",
-      "UniqueHash": 453
+      "UniqueHash": 33
     }
   ]
 }
@@ -111,7 +111,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  193,
-  273
+  170,
+  139
 ]
 ```

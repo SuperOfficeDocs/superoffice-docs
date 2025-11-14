@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 506,
+  "SystemEventId": 597,
   "Scope": "Database",
-  "Eta": "2015-12-24T03:40:56.2422072+01:00",
-  "Eventkey": "itaque",
-  "Eventmess": "quia",
-  "ExtraInfo": 34,
-  "Owner": 164,
-  "UpdatedCount": 631,
-  "Registered": "2025-10-02T03:40:56.2422072+02:00",
+  "Eta": "2024-12-15T02:30:52.9442767+01:00",
+  "Eventkey": "eligendi",
+  "Eventmess": "quod",
+  "ExtraInfo": 152,
+  "Owner": 806,
+  "UpdatedCount": 956,
+  "Registered": "2005-12-03T02:30:52.9442767+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 244
     }
   }
 }

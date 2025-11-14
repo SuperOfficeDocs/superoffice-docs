@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ex",
+  "Type": "occaecati",
   "ItemsIds": [
-    703,
-    389
+    404,
+    717
   ]
 }
 ```

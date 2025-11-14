@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 619,
-  "CurrencyId": 651
+  "QuoteConnectionId": 910,
+  "CurrencyId": 726
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 959,
-    "ERPPriceListKey": "dolores",
-    "QuoteConnectionId": 874,
-    "Name": "Ortiz-Hilpert",
-    "Description": "Triple-buffered leading edge benchmark",
-    "Currency": "possimus",
-    "CurrencyName": "Beer-Bruen",
-    "ValidFrom": "2020-05-05T03:40:47.5629587+02:00",
-    "ValidTo": "2022-01-05T03:40:47.5629587+01:00",
-    "IsActive": true,
+    "PriceListId": 191,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 879,
+    "Name": "Champlin Group",
+    "Description": "User-friendly discrete toolset",
+    "Currency": "a",
+    "CurrencyName": "Emard LLC",
+    "ValidFrom": "2008-06-30T02:30:47.7256947+02:00",
+    "ValidTo": "2000-07-31T02:30:47.7256947+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 19
       }
     }
   }

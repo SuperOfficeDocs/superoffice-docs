@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 946,
-  "Name": "Towne, Ebert and Friesen",
-  "Tooltip": "cupiditate",
+  "Id": 439,
+  "Name": "Dietrich-Daniel",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 842,
-  "Rank": 759,
+  "UdListDefinitionId": 219,
+  "Rank": 21,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 462
     }
   }
 }

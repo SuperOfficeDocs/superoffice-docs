@@ -89,16 +89,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rowe Group",
-  "DeviceName": "Marvin Inc and Sons",
-  "DeviceIdentifier": "iusto",
-  "KeyName": "Huels, Rau and Medhurst",
-  "TableName": "Cummings, Shields and Vandervort",
-  "RecordId": 54
+  "ApplicationName": "Morissette, Lind and Witting",
+  "DeviceName": "Halvorson Group",
+  "DeviceIdentifier": "velit",
+  "KeyName": "Stamm, Moen and O'Keefe",
+  "TableName": "Koss, Cole and Cole",
+  "RecordId": 591
 }
 ```
 
@@ -109,20 +109,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vel",
-  "Value": "et",
-  "RecordId": 920,
-  "CreatedDate": "2024-09-29T03:40:46.9842779+02:00",
-  "UpdatedDate": "2024-02-12T03:40:46.9842779+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "neque",
-  "TableName": "Dare LLC",
+  "Key": "molestiae",
+  "Value": "repellat",
+  "RecordId": 619,
+  "CreatedDate": "2015-01-27T02:30:47.366331+01:00",
+  "UpdatedDate": "2009-10-09T02:30:47.366331+02:00",
+  "UpdatedBy": "molestias",
+  "CreatedBy": "commodi",
+  "TableName": "Goldner, Lindgren and Schaden",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 94,
-  "Name": "Von, D'Amore and Macejkovic"
+  "DashTileId": 243,
+  "Name": "Senger LLC"
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 159,
-  "DashboardId": 485,
-  "Height": 465,
-  "Width": 25,
-  "Rank": 406,
+  "DashboardTileId": 609,
+  "DashboardId": 985,
+  "Height": 769,
+  "Width": 28,
+  "Rank": 847,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 368
     }
   }
 }

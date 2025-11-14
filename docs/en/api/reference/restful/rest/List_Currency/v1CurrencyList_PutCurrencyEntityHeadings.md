@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 881,
-    "Name": "Farrell-Haag",
-    "Tooltip": "a",
+    "HeadingId": 840,
+    "Name": "Hudson-Bayer",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 103
+    "Rank": 667,
+    "UdListDefinitionId": 264
   },
   {
-    "HeadingId": 881,
-    "Name": "Farrell-Haag",
-    "Tooltip": "a",
+    "HeadingId": 840,
+    "Name": "Hudson-Bayer",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 103
+    "Rank": 667,
+    "UdListDefinitionId": 264
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 77,
-    "Name": "Herzog-O'Conner",
-    "Tooltip": "sint",
+    "HeadingId": 156,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 981,
-    "UdListDefinitionId": 299,
+    "Rank": 634,
+    "UdListDefinitionId": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 703
       }
     }
   }

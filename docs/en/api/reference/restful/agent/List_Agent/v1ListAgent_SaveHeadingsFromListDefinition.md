@@ -82,27 +82,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
+  "Id": 392,
   "Entities": [
     {
-      "HeadingId": 961,
-      "Name": "Gerhold-Mann",
-      "Tooltip": "facere",
+      "HeadingId": 614,
+      "Name": "Turner-Renner",
+      "Tooltip": "nam",
       "Deleted": false,
-      "Rank": 351,
-      "UdListDefinitionId": 852
+      "Rank": 609,
+      "UdListDefinitionId": 341
     },
     {
-      "HeadingId": 961,
-      "Name": "Gerhold-Mann",
-      "Tooltip": "facere",
+      "HeadingId": 614,
+      "Name": "Turner-Renner",
+      "Tooltip": "nam",
       "Deleted": false,
-      "Rank": 351,
-      "UdListDefinitionId": 852
+      "Rank": 609,
+      "UdListDefinitionId": 341
     }
   ]
 }
@@ -116,18 +116,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 503,
-    "Name": "Schuster, Klocko and Windler",
-    "Tooltip": "maxime",
+    "HeadingId": 915,
+    "Name": "Carroll-Cruickshank",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 288,
+    "Rank": 146,
+    "UdListDefinitionId": 434,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quos",
-  "GroupName": "Shields Inc and Sons"
+  "Type": "in",
+  "GroupName": "Hoeger-Fay"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "et",
-    "ratione"
+    "quia",
+    "voluptates"
   ],
   "Users": [
     {
-      "Value": "temporibus",
-      "DisplayValue": "quia",
+      "Value": "optio",
+      "DisplayValue": "nostrum",
       "Columns": [
-        "aspernatur",
-        "ut"
+        "vitae",
+        "et"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
@@ -115,16 +115,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 276
         }
       }
     },
     {
-      "Value": "temporibus",
-      "DisplayValue": "quia",
+      "Value": "optio",
+      "DisplayValue": "nostrum",
       "Columns": [
-        "aspernatur",
-        "ut"
+        "vitae",
+        "et"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 276
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 392
     }
   }
 }

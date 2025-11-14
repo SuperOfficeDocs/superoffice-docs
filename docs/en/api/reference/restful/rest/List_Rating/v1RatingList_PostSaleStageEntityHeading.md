@@ -80,12 +80,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 110,
-  "Name": "Blick, Quigley and Moore",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 665,
-  "UdListDefinitionId": 851
+  "HeadingId": 958,
+  "Name": "D'Amore-Schultz",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 968,
+  "UdListDefinitionId": 580
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 616,
-  "Name": "O'Conner, Jaskolski and Bartell",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 110,
+  "HeadingId": 305,
+  "Name": "Larson, Koepp and Mosciski",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 830,
+  "UdListDefinitionId": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 591
     }
   }
 }

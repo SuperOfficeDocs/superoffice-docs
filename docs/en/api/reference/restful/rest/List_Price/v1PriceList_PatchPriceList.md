@@ -119,18 +119,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -143,27 +143,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 362,
-  "ERPPriceListKey": "ab",
-  "QuoteConnectionId": 840,
-  "Name": "Weissnat Group",
-  "Description": "Programmable asynchronous pricing structure",
-  "Currency": "aliquid",
-  "CurrencyName": "Daugherty Inc and Sons",
-  "ValidFrom": "2008-11-26T03:40:56.9933484+01:00",
-  "ValidTo": "2000-08-16T03:40:56.9933484+02:00",
+  "PriceListId": 728,
+  "ERPPriceListKey": "similique",
+  "QuoteConnectionId": 585,
+  "Name": "Dach-Kohler",
+  "Description": "Pre-emptive mission-critical circuit",
+  "Currency": "aut",
+  "CurrencyName": "Osinski, Jakubowski and Vandervort",
+  "ValidFrom": "2004-09-28T02:30:53.3348881+02:00",
+  "ValidTo": "2014-02-16T02:30:53.3348881+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 247
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -70,15 +70,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gislason LLC",
-  "UsergroupId": 457,
+  "UdListDefinitionName": "Corkery-Batz",
+  "UsergroupId": 383,
   "ListItemsID": [
-    393,
-    430
+    620,
+    681
   ],
   "Enable": false
 }

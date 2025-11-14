@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Ward Inc and Sons",
-      "DisplayName": "Walker, Mayert and Kessler",
-      "DisplayTooltip": "doloribus",
-      "IsActive": true
+      "Name": "Hartmann LLC",
+      "DisplayName": "Borer-Christiansen",
+      "DisplayTooltip": "eveniet",
+      "IsActive": false
     },
     {
-      "Name": "Ward Inc and Sons",
-      "DisplayName": "Walker, Mayert and Kessler",
-      "DisplayTooltip": "doloribus",
-      "IsActive": true
+      "Name": "Hartmann LLC",
+      "DisplayName": "Borer-Christiansen",
+      "DisplayTooltip": "eveniet",
+      "IsActive": false
     }
   ]
 }

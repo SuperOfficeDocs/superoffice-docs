@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 828
+  "QuoteId": 286
 }
 ```
 

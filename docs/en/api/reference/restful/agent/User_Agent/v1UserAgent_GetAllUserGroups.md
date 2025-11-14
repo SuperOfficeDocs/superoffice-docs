@@ -99,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "pariatur",
-    "Tooltip": "reprehenderit",
-    "Id": 374,
-    "Rank": 974,
-    "Deleted": true,
+    "Value": "illum",
+    "Tooltip": "et",
+    "Id": 885,
+    "Rank": 858,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 505
       }
     }
   }

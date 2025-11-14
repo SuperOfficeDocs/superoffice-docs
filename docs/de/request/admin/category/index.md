@@ -49,7 +49,7 @@ Die Kategorien sind in einer Baumstruktur organisiert.
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
-[3]: ../../../admin/lists/learn/index.md
+[3]: ../../../admin/lists/index.md
 [4]: ../priority/index.md
 [5]: ../next-in-queue.md
 [6]: ../../learn/tags.md

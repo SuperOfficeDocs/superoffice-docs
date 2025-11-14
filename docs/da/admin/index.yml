@@ -12,7 +12,7 @@ metadata:
   so.topic: landing-page
   author: Help and Learn
   so.author: Kirsti A.
-  so.date: 11.29.2022
+  so.date: 10.24.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -26,11 +26,29 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Licensoversigt
-          url: license/learn/index.md
+          url: license/index.md
         - text: Skærmbilledet licenser
-          url: license/learn/index.md
+          url: license/index.md
         - text: Aktivér licens
-          url: license/learn/activate.md
+          url: license/activate.md
+
+  # Card
+  - title: "Lister, præferencer, muligheder og indstillinger"
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Lister
+          url: lists/index.md
+        - text: Præferencer
+          url: preferences/index.md
+        - text: Muligheder
+          url: options/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Globale præferencer
+          url: preferences/index.md#global
 
   # Card
   - title: Brugerstyring
@@ -39,19 +57,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Roller
-          url: user-management/learn/role/index.md
+          url: user-management/role/index.md
         - text: Opret en rolle
-          url: user-management/learn/role/create-role.md
+          url: user-management/role/create-role.md
         - text: Brugere
-          url: user-management/learn/index.md
+          url: user-management/index.md
         - text: Tilføj brugere
-          url: user-management/learn/add-associate.md
+          url: user-management/add-associate.md
         - text: Opdater brugerinformation
-          url: user-management/learn/update-user.md
+          url: user-management/update-user.md
         - text: Vedligehold brugergrupper
-          url: user-management/learn/user-groups.md
+          url: user-management/user-groups.md
         - text: Vedligehold 'Vores firmaer'
-          url: user-management/learn/our-companies.md
+          url: user-management/our-companies.md
 
   # Card
   - title: Import

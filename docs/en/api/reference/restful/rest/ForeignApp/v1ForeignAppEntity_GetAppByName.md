@@ -74,32 +74,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 10 Apr 2023 03:40:55 G4T
+Last-Modified: Sun, 08 Mar 2009 02:30:52 G3T
 
 {
   "ForeignAppId": 718,
-  "Name": "Leannon Inc and Sons",
-  "CreatedDate": "2006-03-04T03:40:55.7731411+01:00",
-  "UpdatedDate": "2023-04-10T03:40:55.7731411+02:00",
+  "Name": "Kozey Inc and Sons",
+  "CreatedDate": "2000-01-14T02:30:52.6474115+01:00",
+  "UpdatedDate": "2009-03-08T02:30:52.6474115+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 774,
-      "Name": "Raynor-Ryan",
-      "CreatedDate": "1998-06-10T03:40:55.7731411+02:00",
-      "UpdatedDate": "2007-08-27T03:40:55.7731411+02:00",
-      "AssociateFullName": "Dewayne Ondricka",
-      "CreatedBy": "ad",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 671,
+      "ForeignDeviceId": 359,
+      "Name": "Moen Inc and Sons",
+      "CreatedDate": "2004-02-06T02:30:52.6474115+01:00",
+      "UpdatedDate": "2013-03-30T02:30:52.6474115+01:00",
+      "AssociateFullName": "Amy Tianna Price III",
+      "CreatedBy": "maiores",
+      "UpdatedBy": "reiciendis",
+      "DeviceIdentifier": "officiis",
+      "ForeignAppId": 51,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 983
         }
       }
     }
@@ -109,7 +109,7 @@ Last-Modified: Mon, 10 Apr 2023 03:40:55 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 573
     }
   }
 }

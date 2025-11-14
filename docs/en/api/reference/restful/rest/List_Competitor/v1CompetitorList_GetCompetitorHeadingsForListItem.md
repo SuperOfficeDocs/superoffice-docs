@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Rippin, Collier and Schmidt",
-    "ToolTip": "Ut quia qui et eos impedit.",
-    "Deleted": false,
-    "Rank": 90,
-    "Type": "possimus",
-    "ColorBlock": 578,
-    "IconHint": "ratione",
-    "Selected": false,
-    "LastChanged": "2013-05-02T03:40:56.727602+02:00",
+    "Id": 373,
+    "Name": "Mante Group",
+    "ToolTip": "Sint sunt et quaerat nostrum voluptatibus vel.",
+    "Deleted": true,
+    "Rank": 565,
+    "Type": "quisquam",
+    "ColorBlock": 872,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2008-09-26T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "White, Ruecker and Gislason",
-        "ToolTip": "Quia eveniet ut non rem eos ab accusamus.",
+        "Id": 918,
+        "Name": "Kris Inc and Sons",
+        "ToolTip": "Quam qui magni dolorem asperiores id et.",
         "Deleted": false,
-        "Rank": 550,
-        "Type": "laudantium",
-        "ColorBlock": 388,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2002-09-13T03:40:56.727602+02:00",
+        "Rank": 416,
+        "Type": "magnam",
+        "ColorBlock": 444,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2010-08-22T02:30:53.2255171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Miss Jade Koepp",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Dr. Alexzander Monahan DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Ms. Amina Bayer II",
+    "ExtraInfo": "autem",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Ms. Alysson Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 579
       }
     }
   }

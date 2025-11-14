@@ -68,7 +68,7 @@ Lists all email flows
 |workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|workflowAssociate/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |

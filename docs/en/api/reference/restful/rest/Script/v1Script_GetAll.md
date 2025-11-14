@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=eaque
-GET /api/v1/Script?$top=118
-GET /api/v1/Script?$skip=664
+GET /api/v1/Script?$entities=impedit
+GET /api/v1/Script?$top=85
+GET /api/v1/Script?$skip=107
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=fuga
+GET /api/v1/Script?$context=amet
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=False
+GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
 ```
 
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "illum",
+  "odata.nextLink": "aliquid",
   "value": [
     {
-      "PrimaryKey": 1085,
-      "EntityName": "person",
-      "personId": 1085,
-      "fullName": "Angela Hudson"
+      "PrimaryKey": 5586,
+      "EntityName": "sale",
+      "saleId": 5586,
+      "contactId": 5550,
+      "name": "Gislason, Parker and Langosh"
     },
     {
-      "PrimaryKey": 3362,
-      "EntityName": "person",
-      "personId": 3362,
-      "fullName": "Erich Leannon"
+      "PrimaryKey": 9726,
+      "EntityName": "sale",
+      "saleId": 9726,
+      "contactId": 8411,
+      "name": "Bartell, Oberbrunner and Conroy"
     }
   ]
 }

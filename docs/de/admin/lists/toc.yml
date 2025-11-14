@@ -1,0 +1,17 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Listeobjekte hinzufügen
+  href: add-items.md
+- name: Listeobjekte bearbeiten oder löschen
+  href: update-items.md
+- name: Gelöschte Objekte und Überschriften
+  href: restore.md
+- name: Überschriften
+  href: headings.md
+- name: Benutzergruppe filtern
+  href: user-group-filtering.md
+- name: Spezialisierte Listen
+  href: specialized-lists.md
+- name: Benutzerdefinierte Listen
+  href: user-defined-lists.md

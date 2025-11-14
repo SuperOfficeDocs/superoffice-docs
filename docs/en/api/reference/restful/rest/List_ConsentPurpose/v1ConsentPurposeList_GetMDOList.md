@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=corporis
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=possimus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Jakubowski-O'Hara",
-    "ToolTip": "Fugit neque nobis.",
+    "Id": 471,
+    "Name": "Cartwright, Mueller and Feil",
+    "ToolTip": "Sed magni labore quam.",
     "Deleted": false,
-    "Rank": 686,
-    "Type": "explicabo",
+    "Rank": 492,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Hilll LLC",
-        "ToolTip": "Delectus et facere totam et fugit.",
+        "Id": 430,
+        "Name": "Hagenes-Reilly",
+        "ToolTip": "Reprehenderit architecto.",
         "Deleted": true,
-        "Rank": 890,
-        "Type": "illum",
+        "Rank": 263,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 647,
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "FullName": "Christian Klein",
+        "IconHint": "hic",
+        "ColorBlock": 674,
+        "ExtraInfo": "cum",
+        "StyleHint": "saepe",
+        "FullName": "Sienna Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 897
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 11,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "et",
-    "FullName": "Terry Metz",
+    "IconHint": "eum",
+    "ColorBlock": 447,
+    "ExtraInfo": "aut",
+    "StyleHint": "libero",
+    "FullName": "D'angelo Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

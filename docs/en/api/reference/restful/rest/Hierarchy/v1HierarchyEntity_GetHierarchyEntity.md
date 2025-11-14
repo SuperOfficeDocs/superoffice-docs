@@ -94,46 +94,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 110,
+  "HierarchyId": 12,
   "Domain": "Dashboards",
-  "Name": "Dickens-Gusikowski",
-  "Fullname": "dolorem",
-  "ParentId": 330,
+  "Name": "Schinner, Deckow and Shields",
+  "Fullname": "nisi",
+  "ParentId": 590,
   "Children": [
     {
-      "HierarchyId": 366,
+      "HierarchyId": 131,
       "Domain": "Dashboards",
-      "Name": "Leannon, Considine and Hudson",
-      "Fullname": "dolorem",
-      "ParentId": 642,
+      "Name": "Aufderhar, Rosenbaum and Bosco",
+      "Fullname": "aspernatur",
+      "ParentId": 769,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-11-06T03:40:55.7886484+01:00",
-      "RegisteredAssociateId": 832,
-      "Updated": "2018-11-23T03:40:55.7886484+01:00",
-      "UpdatedAssociateId": 526,
+      "Registered": "2007-01-16T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 178,
+      "Updated": "2020-12-24T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "Registered": "2024-11-02T03:40:55.7886484+01:00",
-  "RegisteredAssociateId": 637,
-  "Updated": "2024-01-22T03:40:55.7886484+01:00",
-  "UpdatedAssociateId": 101,
+  "Registered": "2012-08-06T02:30:52.6630355+02:00",
+  "RegisteredAssociateId": 868,
+  "Updated": "2015-09-02T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 931
     }
   },
   "_Links": {

@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=698
+POST /api/v1/Agents/Sale/GetSale?saleId=925
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Beahan, Dare and Gerhold",
-  "SaleDate": "2008-10-04T03:40:47.6098366+02:00",
-  "SaleId": 793,
-  "Probability": 956,
-  "Title": "veniam",
-  "Amount": 27635.611999999997,
-  "Currency": "est",
-  "ProjectName": "Funk, Dibbert and Marvin",
-  "AssociateFullName": "Jayda Hackett",
-  "Description": "Up-sized value-added adapter",
+  "ContactName": "Kuphal, Strosin and Parisian",
+  "SaleDate": "2013-09-03T02:30:47.7569437+02:00",
+  "SaleId": 582,
+  "Probability": 610,
+  "Title": "explicabo",
+  "Amount": 25263.174,
+  "Currency": "recusandae",
+  "ProjectName": "Renner, Carroll and Connelly",
+  "AssociateFullName": "Mr. Dayna Doyle PhD",
+  "Description": "Open-architected even-keeled installation",
   "Status": "Lost",
-  "WeightedAmount": 30214.894,
-  "ProjectId": 902,
-  "EarningPercent": 19562.428,
-  "Earning": 28043.032,
-  "ContactId": 342,
-  "AssociateId": 151,
-  "PersonId": 621,
-  "SaleTypeId": 887,
-  "SaleTypeName": "Zulauf-Stanton",
-  "PersonFullName": "Jaylan Leonel Nicolas DDS",
+  "WeightedAmount": 3046.248,
+  "ProjectId": 908,
+  "EarningPercent": 27171.78,
+  "Earning": 3951.9739999999997,
+  "ContactId": 899,
+  "AssociateId": 211,
+  "PersonId": 974,
+  "SaleTypeId": 976,
+  "SaleTypeName": "Gerlach-Wyman",
+  "PersonFullName": "Marvin Crooks",
   "Completed": "Completed",
-  "ActiveErpLinks": 358,
-  "NextDueDate": "2019-02-17T03:40:47.6098366+01:00",
-  "Number": "138102",
+  "ActiveErpLinks": 958,
+  "NextDueDate": "2025-03-08T02:30:47.7569437+01:00",
+  "Number": "449956",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 830
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "officiis",
+  "RawValue": "necessitatibus",
   "Specification": null,
-  "DisplayValue": "numquam",
-  "DisplayTooltip": "pariatur",
+  "DisplayValue": "saepe",
+  "DisplayTooltip": "saepe",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 659,
-  "PrefDescId": 188,
-  "TableName": "Stamm-Reichert",
-  "UserPreferenceId": 23,
+  "TargetId": 147,
+  "PrefDescId": 126,
+  "TableName": "Larson, Ortiz and Rosenbaum",
+  "UserPreferenceId": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   }
 }

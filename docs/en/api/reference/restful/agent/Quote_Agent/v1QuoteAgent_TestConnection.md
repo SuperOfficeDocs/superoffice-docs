@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Stiedemann-Botsford",
+  "ConnectorName": "Barrows Inc and Sons",
   "ConnectionData": {
-    "ConnectionData1": "quam",
-    "ConnectionData2": "porro"
+    "ConnectionData1": "est",
+    "ConnectionData2": "quasi"
   }
 }
 ```
@@ -103,17 +103,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "quo",
-  "TechExplanation": "ea",
-  "ErrorCode": "quibusdam",
+  "UserExplanation": "et",
+  "TechExplanation": "qui",
+  "ErrorCode": "iusto",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   }
 }

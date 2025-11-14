@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 328
+  "ProjectId": 330
 }
 ```
 
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 758,
-  "Name": "Langworth-Hudson",
-  "Description": "Integrated leading edge forecast",
+  "ProjectId": 7,
+  "Name": "Beier-Durgan",
+  "Description": "Future-proofed holistic software",
   "URL": "http://www.example.com/",
-  "Type": "dolor",
-  "AssociateId": 697,
-  "AssociateFullName": "Lindsay Hane",
-  "TypeId": 876,
-  "Updated": "2021-09-21T03:40:47.4999832+02:00",
-  "StatusId": 93,
-  "Status": "reprehenderit",
-  "TextId": 192,
-  "PublishTo": "1999-05-02T03:40:47.4999832+02:00",
-  "PublishFrom": "2010-03-26T03:40:47.4999832+01:00",
-  "IsPublished": false,
+  "Type": "consequatur",
+  "AssociateId": 413,
+  "AssociateFullName": "Prof. Rhoda Alana Hickle III",
+  "TypeId": 616,
+  "Updated": "2001-02-19T02:30:47.6944454+01:00",
+  "StatusId": 744,
+  "Status": "eaque",
+  "TextId": 488,
+  "PublishTo": "2017-10-08T02:30:47.6944454+02:00",
+  "PublishFrom": "2015-08-06T02:30:47.6944454+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1493173",
-  "ActiveErpLinks": 793,
+  "ProjectNumber": "1550101",
+  "ActiveErpLinks": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 212
     }
   }
 }

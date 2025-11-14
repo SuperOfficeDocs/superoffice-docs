@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "sit",
-    "excepturi"
+    "aperiam",
+    "aut"
   ]
 }
 ```
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Volkman, Koss and Keeling",
-    "Delimiter": "magni",
-    "Flags": "ratione",
-    "TotalItems": 138,
-    "UnreadItems": 461,
-    "Subscribed": true,
-    "EmailFolderId": 494,
+    "Name": "Pacocha-Green",
+    "Delimiter": "asperiores",
+    "Flags": "vitae",
+    "TotalItems": 718,
+    "UnreadItems": 821,
+    "Subscribed": false,
+    "EmailFolderId": 24,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 925
       }
     }
   }

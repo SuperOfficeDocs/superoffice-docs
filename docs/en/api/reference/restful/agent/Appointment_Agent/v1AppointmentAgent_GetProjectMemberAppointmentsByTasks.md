@@ -135,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 846,
-  "StartTime": "2008-06-11T03:40:45.60749+02:00",
-  "EndTime": "2008-01-17T03:40:45.60749+01:00",
-  "Count": 100,
+  "PersonId": 576,
+  "StartTime": "2013-06-24T02:30:46.5069828+02:00",
+  "EndTime": "2024-06-26T02:30:46.5069828+02:00",
+  "Count": 640,
   "TaskIds": [
-    341,
-    472
+    359,
+    37
   ]
 }
 ```
@@ -158,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 544,
-    "StartDate": "2020-07-01T03:40:45.60749+02:00",
-    "EndDate": "2007-03-08T03:40:45.60749+01:00",
+    "AppointmentId": 540,
+    "StartDate": "2000-06-27T02:30:46.5069828+02:00",
+    "EndDate": "2012-12-21T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eligendi",
-    "AssociateFullName": "Gus Gutmann",
-    "ContactName": "Ernser Group",
-    "Description": "Assimilated optimal flexibility",
-    "PersonFullName": "Aliza McLaughlin",
-    "PersonId": 346,
-    "ContactId": 840,
-    "ProjectId": 533,
-    "ProjectName": "Daugherty, Waelchi and Hoppe",
+    "Task": "corporis",
+    "AssociateFullName": "Gaetano Jewess",
+    "ContactName": "Aufderhar Inc and Sons",
+    "Description": "Grass-roots tertiary hierarchy",
+    "PersonFullName": "Britney Littel",
+    "PersonId": 122,
+    "ContactId": 7,
+    "ProjectId": 62,
+    "ProjectName": "Gleichner, Monahan and Sauer",
     "IsPublished": false,
-    "AssociateId": 616,
-    "ColorIndex": 785,
+    "AssociateId": 881,
+    "ColorIndex": 446,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 636,
-    "PriorityName": "Schuppe, Pollich and Davis",
+    "PriorityId": 174,
+    "PriorityName": "McGlynn LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1999-01-12T03:40:45.60749+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2003-04-01T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-07-22T03:40:45.60749+02:00",
-    "RecurringEndDate": "2005-05-24T03:40:45.60749+02:00",
-    "MotherId": 374,
-    "AssignedBy": 302,
-    "AssignedByFullName": "Estel Monahan",
+    "RecurringStartDate": "2020-04-21T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2017-07-19T02:30:46.5069828+02:00",
+    "MotherId": 709,
+    "AssignedBy": 796,
+    "AssignedByFullName": "Mr. Daron Eugene Heidenreich Jr.",
     "RejectReason": "",
-    "Location": "enim",
-    "AlarmLeadTime": "minima",
-    "SaleId": 695,
-    "SaleName": "Weber Group",
-    "AssociateName": "Hand-Johnson",
-    "CreatedDate": "2005-07-06T03:40:45.60749+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Mrs. Nannie Wunsch Jr.",
-    "CreatedByAssociateId": 46,
+    "Location": "amet",
+    "AlarmLeadTime": "autem",
+    "SaleId": 422,
+    "SaleName": "Lemke Group",
+    "AssociateName": "Nicolas, Sauer and Zboncak",
+    "CreatedDate": "2004-07-14T02:30:46.5069828+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Arne Turner",
+    "CreatedByAssociateId": 860,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 756,
+    "MotherAssociateId": 598,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 656,
-    "Title": "aut",
-    "Agenda": "et",
-    "InternalNotes": "molestiae",
+    "PreferredTZLocation": 965,
+    "Title": "tenetur",
+    "Agenda": "ducimus",
+    "InternalNotes": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 508
       }
     }
   }

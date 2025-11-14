@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Emmerich Group",
-      "Operator": "nihil",
+      "Name": "Turcotte, Tremblay and Schimmel",
+      "Operator": "quia",
       "Values": [
-        "quia",
-        "veniam"
+        "sit",
+        "culpa"
       ],
       "DisplayValues": [
-        "consequatur",
-        "porro"
+        "quidem",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 393,
+      "InterParenthesis": 109,
       "InterOperator": "And",
-      "UniqueHash": 287
+      "UniqueHash": 273
     }
   ],
-  "ProviderName": "Ullrich-King",
-  "PageSize": 907,
-  "PageNumber": 41
+  "ProviderName": "Kuphal, Friesen and Williamson",
+  "PageSize": 637,
+  "PageNumber": 451
 }
 ```
 
@@ -143,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Osinski Inc and Sons",
-      "DisplayTooltip": "dignissimos",
-      "DisplayType": "nesciunt",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "quod",
       "CanOrderBy": false,
-      "Name": "Donnelly, Rolfson and Stark",
-      "CanRestrictBy": false,
-      "RestrictionType": "nam",
-      "RestrictionListName": "Mayert Group",
+      "Name": "Stracke, Beatty and DuBuque",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Littel-Russel",
       "IsVisible": false,
-      "ExtraInfo": "error",
-      "Width": "nulla",
-      "IconHint": "error",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "accusamus",
+      "Width": "quis",
+      "IconHint": "dolores",
+      "HeadingIconHint": "quibusdam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Nolan, Hayes and Cartwright",
-      "PrimaryKey": 129,
+      "EntityName": "Rogahn-Schulist",
+      "PrimaryKey": 752,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "modi",
-          "TooltipHint": "et",
-          "LinkHint": "quam"
+          "DisplayValue": "aspernatur",
+          "TooltipHint": "fugiat",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "praesentium",
-      "StyleHint": "aliquid",
+      "LinkHint": "aliquid",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
-  "RowCount": 177,
+  "RowCount": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 952
     }
   }
 }

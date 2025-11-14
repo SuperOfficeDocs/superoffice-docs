@@ -82,23 +82,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "neque",
-  "Name": "Crona-West",
-  "Description": "Digitized clear-thinking projection",
-  "IncludeId": "non",
-  "Source": "ducimus",
-  "Registered": "2024-04-09T03:40:56.5088462+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2007-02-21T03:40:56.5088462+01:00",
-  "UpdatedBy": "qui",
-  "Path": "provident",
+  "UniqueIdentifier": "ab",
+  "Name": "Hartmann LLC",
+  "Description": "Switchable needs-based productivity",
+  "IncludeId": "et",
+  "Source": "velit",
+  "Registered": "2012-05-08T02:30:53.084897+02:00",
+  "RegisteredBy": "saepe",
+  "Updated": "2001-07-17T02:30:53.084897+02:00",
+  "UpdatedBy": "esse",
+  "Path": "qui",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

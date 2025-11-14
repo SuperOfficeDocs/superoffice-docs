@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=376
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=954
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -113,7 +113,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "excepturi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -138,113 +138,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-03-08T03:40:47.6567146+01:00",
-  "Amount": 13589.024,
-  "SaleId": 531,
-  "Earning": 14162.546,
-  "EarningPercent": 2146.79,
-  "Heading": "totam",
-  "Number": "1853166",
-  "Probability": 594,
-  "CreatedDate": "2003-01-06T03:40:47.6567146+01:00",
-  "UpdatedDate": "2000-04-11T03:40:47.6567146+02:00",
+  "Saledate": "2002-04-03T02:30:47.7881925+02:00",
+  "Amount": 30797.818,
+  "SaleId": 58,
+  "Earning": 3099.526,
+  "EarningPercent": 43.876,
+  "Heading": "et",
+  "Number": "1323780",
+  "Probability": 676,
+  "CreatedDate": "2005-08-31T02:30:47.7881925+02:00",
+  "UpdatedDate": "2015-05-30T02:30:47.7881925+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 908,
+  "ActiveLinks": 979,
   "Links": [
     {
-      "EntityName": "Towne LLC",
-      "Id": 531,
-      "Description": "Decentralized transitional collaboration",
-      "ExtraInfo": "veniam",
-      "LinkId": 536,
+      "EntityName": "Halvorson LLC",
+      "Id": 356,
+      "Description": "Function-based tangible standardization",
+      "ExtraInfo": "praesentium",
+      "LinkId": 956,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 470
         }
       }
     }
   ],
-  "NextDueDate": "2007-02-20T03:40:47.6567146+01:00",
-  "Postit": "sint",
+  "NextDueDate": "2008-08-20T02:30:47.7881925+02:00",
+  "Postit": "alias",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2000-07-31T03:40:47.6567146+02:00",
+  "ReopenDate": "2017-02-13T02:30:47.7881925+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jerde Group",
-      "Comment": "labore",
-      "StakeholderRoleId": 279,
-      "CountryId": 310,
-      "PersonId": 702,
-      "EmailDescription": "reuben_kling@hansen.us",
-      "EmailId": 670,
-      "EmailAddress": "river@torphy.us",
-      "PhoneId": 843,
-      "ContactName": "Funk Inc and Sons",
-      "ContactId": 506,
-      "SaleId": 675,
-      "Mrmrs": "nostrum",
-      "Firstname": "Clay",
-      "MiddleName": "Watsica-Marvin",
-      "Lastname": "Morar",
-      "SaleStakeholderId": 450,
-      "Rank": 114,
-      "Phone": "042-586-1059",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 16,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Aron Gustave Nicolas",
-    "SuperOffice:2": "Alexane Cruickshank"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "eum"
-  },
-  "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "consectetur"
-  },
-  "PublishEventDate": "2016-08-18T03:40:47.6567146+02:00",
-  "PublishTo": "2021-01-14T03:40:47.6567146+01:00",
-  "PublishFrom": "2024-12-05T03:40:47.6567146+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 766,
-      "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "StakeholderRoleName": "Ortiz Group",
+      "Comment": "vel",
+      "StakeholderRoleId": 778,
+      "CountryId": 257,
+      "PersonId": 716,
+      "EmailDescription": "claud@blockcummings.uk",
+      "EmailId": 378,
+      "EmailAddress": "floyd.auer@jerde.uk",
+      "PhoneId": 755,
+      "ContactName": "Kovacek, Windler and Zulauf",
+      "ContactId": 986,
+      "SaleId": 78,
+      "Mrmrs": "eius",
+      "Firstname": "Domenic",
+      "MiddleName": "Ankunding-Kautzer",
+      "Lastname": "Gutkowski",
+      "SaleStakeholderId": 527,
+      "Rank": 287,
+      "Phone": "703-926-6853 x98667",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 385
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 558,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Bella Cormier DVM",
+    "SuperOffice:2": "Vivianne Hoeger"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "eius"
+  },
+  "CustomFields": {
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "itaque"
+  },
+  "PublishEventDate": "2017-11-26T02:30:47.7881925+01:00",
+  "PublishTo": "1999-02-23T02:30:47.7881925+01:00",
+  "PublishFrom": "2025-05-19T02:30:47.7881925+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 857,
+      "Visibility": "All",
+      "DisplayValue": "esse",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 621
         }
       }
     },
     {
-      "VisibleId": 766,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 621
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldLength": 771
     }
   }
 }

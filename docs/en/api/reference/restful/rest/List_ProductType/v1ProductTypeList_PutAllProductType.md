@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Smitham-Hoeger",
-    "Tooltip": "repudiandae",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 992
+    "Id": 421,
+    "Name": "Hessel-Connelly",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "UdListDefinitionId": 455,
+    "Rank": 210
   },
   {
-    "Id": 202,
-    "Name": "Smitham-Hoeger",
-    "Tooltip": "repudiandae",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 992
+    "Id": 421,
+    "Name": "Hessel-Connelly",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "UdListDefinitionId": 455,
+    "Rank": 210
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Kertzmann Group",
-    "Tooltip": "ullam",
+    "Id": 192,
+    "Name": "Nitzsche-Wisoky",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 817,
-    "Rank": 630,
+    "UdListDefinitionId": 725,
+    "Rank": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldType": "System.Int32",
+        "FieldLength": 16
       }
     }
   }

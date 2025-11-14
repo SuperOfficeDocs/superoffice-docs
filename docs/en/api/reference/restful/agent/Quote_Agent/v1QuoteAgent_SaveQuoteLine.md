@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 221,
-  "ERPQuoteLineKey": "necessitatibus",
-  "QuoteAlternativeId": 121,
-  "ERPProductKey": "quia",
+  "QuoteLineId": 246,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 325,
+  "ERPProductKey": "similique",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 6841.522,
-  "DeliveredQuantity": 8471.202,
-  "Rank": 501,
-  "Name": "Hagenes Group",
-  "Description": "Triple-buffered client-driven process improvement",
-  "Code": "officiis",
-  "QuantityUnit": "nostrum",
-  "PriceUnit": "rem",
-  "ItemNumber": "983128",
+  "Quantity": 7280.282,
+  "DeliveredQuantity": 7458.92,
+  "Rank": 195,
+  "Name": "Rolfson, Thiel and Toy",
+  "Description": "Exclusive heuristic info-mediaries",
+  "Code": "quos",
+  "QuantityUnit": "quo",
+  "PriceUnit": "aperiam",
+  "ItemNumber": "1358599",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "pariatur",
-  "Supplier": "perspiciatis",
-  "SupplierCode": "dicta",
-  "Thumbnail": "nihil",
-  "VATInfo": "iste",
-  "VAT": 15500.764,
-  "UnitCost": 15165.426,
-  "UnitMinimumPrice": 29914.03,
-  "UnitListPrice": 11968.746,
+  "ProductFamilyKey": "alias",
+  "ProductTypeKey": "incidunt",
+  "Supplier": "vero",
+  "SupplierCode": "expedita",
+  "Thumbnail": "omnis",
+  "VATInfo": "dolor",
+  "VAT": 16315.604,
+  "UnitCost": 5045.74,
+  "UnitMinimumPrice": 6562.596,
+  "UnitListPrice": 13767.662,
   "ExtraInfo": [
     {
-      "Name": "Reilly, Bashirian and Bernhard",
-      "Value": "qui",
+      "Name": "Reinger, Schumm and Stanton",
+      "Value": "minima",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 524
         }
       }
     },
     {
-      "Name": "Reilly, Bashirian and Bernhard",
-      "Value": "qui",
+      "Name": "Reinger, Schumm and Stanton",
+      "Value": "minima",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 524
         }
       }
     }
   ],
-  "RawExtraInfo": "cumque",
+  "RawExtraInfo": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "libero",
-  "SubscriptionQuantity": 26331.868,
-  "SubscriptionStart": "2012-09-11T03:40:47.5785846+02:00",
-  "ERPDiscountPercent": 21903.525999999998,
-  "ERPDiscountAmount": 7136.1179999999995,
-  "DiscountPercent": 27582.334,
-  "DiscountAmount": 28315.69,
+  "SubscriptionUnit": "sint",
+  "SubscriptionQuantity": 5750.8899999999994,
+  "SubscriptionStart": "2004-10-21T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 17757.244,
+  "ERPDiscountAmount": 9333.052,
+  "DiscountPercent": 19167.543999999998,
+  "DiscountAmount": 23207.27,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 15040.065999999999,
-  "EarningAmount": 21890.989999999998,
-  "SubTotal": 19051.586,
-  "TotalPrice": 8461.8,
-  "Rights": "aut",
-  "Rule": "quis",
-  "ExtraField1": "quasi",
-  "ExtraField2": "labore",
-  "ExtraField3": "ut",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "ab",
+  "EarningPercent": 2256.48,
+  "EarningAmount": 30612.912,
+  "SubTotal": 6145.7739999999994,
+  "TotalPrice": 770.96399999999994,
+  "Rights": "modi",
+  "Rule": "non",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "provident",
+  "ExtraField3": "omnis",
+  "ExtraField4": "perspiciatis",
+  "ExtraField5": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

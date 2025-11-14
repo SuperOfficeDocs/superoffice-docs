@@ -709,8 +709,8 @@ items:
       - name: User preferences
         topicHref: sql/howto/user-preferences/add-prefdesc.md
         items:
-        - name: Add prefdesc
-          href: sql/howto/user-preferences/add-prefdesc.md
+          - name: Add prefdesc
+            href: sql/howto/user-preferences/add-prefdesc.md
   - name: Bulk Operation
     href: bulk-operations/index.md
     items:
@@ -890,9 +890,9 @@ items:
   - name: Tutorials
     href: tutorials/index.md
     items:
-    - name: iTunes-like client for activities
-      href: tutorials/itunes-like-activities/index.md
-    - name: SuperOffice iCal Feed
-      href: tutorials/so-ical-feed/index.md
-    - name: Generate RSS feed in VB.Net
-      href: tutorials/rss-feed-vb/index.md
+      - name: iTunes-like client for activities
+        href: tutorials/itunes-like-activities/index.md
+      - name: SuperOffice iCal Feed
+        href: tutorials/so-ical-feed/index.md
+      - name: Generate RSS feed in VB.Net
+        href: tutorials/rss-feed-vb/index.md

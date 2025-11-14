@@ -78,17 +78,17 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 878,
-  "Name": "Haley-O'Reilly",
-  "Tooltip": "suscipit",
-  "Rank": 685,
-  "Key": "qui",
-  "MailTemplateId": 686,
-  "Deleted": true
+  "ConsentSourceId": 953,
+  "Name": "Mohr-Kub",
+  "Tooltip": "pariatur",
+  "Rank": 807,
+  "Key": "sunt",
+  "MailTemplateId": 357,
+  "Deleted": false
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 253,
-  "Name": "Oberbrunner Group",
-  "Tooltip": "quod",
-  "Rank": 72,
-  "Key": "dolores",
-  "MailTemplateId": 616,
-  "Deleted": false,
+  "ConsentSourceId": 430,
+  "Name": "McLaughlin, Kautzer and Kassulke",
+  "Tooltip": "possimus",
+  "Rank": 201,
+  "Key": "omnis",
+  "MailTemplateId": 5,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 454
     }
   }
 }

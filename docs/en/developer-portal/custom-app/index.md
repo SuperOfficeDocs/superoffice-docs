@@ -68,5 +68,5 @@ Follow our [step-by-step guide][5], started by sending a request to publish in t
 [3]: ../getting-started/index.md#tenant
 [4]: ../getting-started/app-envir.md
 [5]: validate.md
-[7]: ../../admin/license/expander-services/index.md
+[7]: ../../admin/license/expander-services.md
 [8]: ../../admin/license/user-plans.md

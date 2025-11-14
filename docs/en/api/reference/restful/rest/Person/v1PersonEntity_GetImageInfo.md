@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 21 Jul 2020 03:40:55 G7T
+Last-Modified: Sun, 29 Oct 2017 02:30:52 G10T
 
 {
-  "BlobId": 744,
-  "BlobSize": 282,
-  "Description": "Innovative attitude-oriented circuit",
-  "ExtraInfo": "et",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ipsa",
-  "OriginalSize": 304,
-  "CreatedDate": "2022-06-12T03:40:55.9136545+02:00",
-  "UpdatedDate": "2020-07-21T03:40:55.9136545+02:00",
+  "BlobId": 163,
+  "BlobSize": 101,
+  "Description": "Inverse mobile paradigm",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "autem",
+  "OriginalSize": 694,
+  "CreatedDate": "2002-11-06T02:30:52.7880482+01:00",
+  "UpdatedDate": "2017-10-29T02:30:52.7880482+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "velit",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

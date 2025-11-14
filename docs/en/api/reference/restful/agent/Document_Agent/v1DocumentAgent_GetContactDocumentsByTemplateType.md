@@ -100,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 244,
-  "StartTime": "2010-01-17T03:40:46.5780122+01:00",
-  "EndTime": "2023-05-16T03:40:46.5780122+02:00",
-  "Count": 336,
-  "DocumentTemplateId": 228
+  "ContactId": 199,
+  "StartTime": "2003-03-31T02:30:47.0694635+02:00",
+  "EndTime": "2003-12-11T02:30:47.0694635+01:00",
+  "Count": 929,
+  "DocumentTemplateId": 72
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 255,
-    "Attention": "quia",
-    "Header": "suscipit",
-    "Name": "Simonis-Mann",
-    "OurRef": "consequatur",
-    "YourRef": "enim",
-    "Description": "Stand-alone grid-enabled toolset",
-    "DocumentTemplate": "nobis",
+    "DocumentId": 277,
+    "Attention": "voluptas",
+    "Header": "ipsum",
+    "Name": "Ortiz LLC",
+    "OurRef": "qui",
+    "YourRef": "dolor",
+    "Description": "Configurable real-time capacity",
+    "DocumentTemplate": "officia",
     "IsPublished": false,
-    "PersonId": 360,
-    "PersonFullName": "Earnest Hintz",
-    "AssociateFullName": "Dr. Garfield Williamson",
-    "ContactId": 799,
-    "ContactName": "Dickinson LLC",
-    "ProjectId": 862,
-    "ProjectName": "Bernhard-Prohaska",
-    "AssociateId": 430,
-    "Snum": 530,
-    "SaleId": 163,
-    "SaleName": "Nader-Hirthe",
+    "PersonId": 65,
+    "PersonFullName": "Prof. Braulio Rebekah Schoen",
+    "AssociateFullName": "Linnie Roob",
+    "ContactId": 826,
+    "ContactName": "Hauck Group",
+    "ProjectId": 971,
+    "ProjectName": "Bednar-Jerde",
+    "AssociateId": 356,
+    "Snum": 884,
+    "SaleId": 756,
+    "SaleName": "Nikolaus, Hahn and Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 825
       }
     }
   }

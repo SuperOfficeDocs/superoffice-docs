@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schoen, Greenfelder and Senger"
+  "OwnerName": "Stehr Group"
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 951,
-      "NumberOfLicensesFree": 567,
-      "NumberOfLicensesAdded": 507,
-      "NumberOfLicensesNewTotal": 522,
-      "NumberOfLicensesNewFree": 478,
-      "NumberOfLicensesTotal": 6
+      "NumberOfLicensesInUse": 488,
+      "NumberOfLicensesFree": 893,
+      "NumberOfLicensesAdded": 802,
+      "NumberOfLicensesNewTotal": 194,
+      "NumberOfLicensesNewFree": 12,
+      "NumberOfLicensesTotal": 262
     }
   ],
-  "AccumulatedNextCheckDate": "2016-02-07T03:40:46.9999043+01:00"
+  "AccumulatedNextCheckDate": "2005-04-27T02:30:47.366331+02:00"
 }
 ```

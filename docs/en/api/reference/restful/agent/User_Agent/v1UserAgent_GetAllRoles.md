@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Feeney-Wolf",
-    "ToolTip": "Fuga eos totam quis.",
-    "Deleted": false,
-    "Rank": 700,
-    "Type": "ad",
-    "ColorBlock": 675,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2008-09-26T03:40:48.1723713+02:00",
+    "Id": 679,
+    "Name": "Balistreri, Bergnaum and Parker",
+    "ToolTip": "Unde assumenda dicta consectetur nulla vel qui minus.",
+    "Deleted": true,
+    "Rank": 864,
+    "Type": "et",
+    "ColorBlock": 917,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2011-05-04T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Von, Ruecker and Lang",
-        "ToolTip": "Debitis voluptas consequatur dolor pariatur aut quaerat.",
+        "Id": 768,
+        "Name": "Olson, Schuster and Jast",
+        "ToolTip": "Repellat perspiciatis ut architecto voluptatum quo necessitatibus.",
         "Deleted": false,
-        "Rank": 153,
-        "Type": "explicabo",
-        "ColorBlock": 50,
-        "IconHint": "et",
+        "Rank": 881,
+        "Type": "rerum",
+        "ColorBlock": 58,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "1998-11-06T03:40:48.1723713+01:00",
+        "LastChanged": "2023-03-13T02:30:48.0850579+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Camylle Windler",
+        "ExtraInfo": "rerum",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Aliza Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "ut",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Allene Kilback",
+    "FullName": "Kayden Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 769
+        "FieldType": "System.Int32",
+        "FieldLength": 488
       }
     }
   }

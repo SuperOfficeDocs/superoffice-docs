@@ -63,7 +63,7 @@ Make sure there are no user accounts in this group. Only service accounts.
 ![Review SharePoint site groups -screenshot][img4]
 
 <!-- Referenced links -->
-[1]: ../../docs/en/admin/user-management/learn/add-associate.md
+[1]: ../../docs/en/admin/user-management/add-associate.md
 [2]: https://id.superoffice.com/identityprovider/register
 
 <!-- Referenced images -->

@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Legros Group",
-  "Tooltip": "sapiente",
+  "Id": 659,
+  "Name": "Goodwin, Kuphal and Ritchie",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 397,
-  "Rank": 106
+  "UdListDefinitionId": 49,
+  "Rank": 304
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 625,
-  "Name": "Schmeler Group",
-  "Tooltip": "ut",
+  "Id": 576,
+  "Name": "Kutch-Crooks",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 644,
-  "Rank": 65,
+  "UdListDefinitionId": 367,
+  "Rank": 987,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 692
     }
   }
 }

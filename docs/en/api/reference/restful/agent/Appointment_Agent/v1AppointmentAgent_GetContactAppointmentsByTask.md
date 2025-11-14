@@ -135,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 360,
-  "StartTime": "2021-08-13T03:40:45.60749+02:00",
-  "EndTime": "2009-09-24T03:40:45.60749+02:00",
-  "Count": 891,
-  "TaskId": 143
+  "ContactId": 605,
+  "StartTime": "2019-03-17T02:30:46.5069828+01:00",
+  "EndTime": "2020-09-23T02:30:46.5069828+02:00",
+  "Count": 58,
+  "TaskId": 531
 }
 ```
 
@@ -155,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 5,
-    "StartDate": "2009-07-03T03:40:45.60749+02:00",
-    "EndDate": "2009-09-30T03:40:45.60749+02:00",
+    "AppointmentId": 344,
+    "StartDate": "2012-04-26T02:30:46.5069828+02:00",
+    "EndDate": "2017-06-01T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "itaque",
-    "AssociateFullName": "Retta O'Conner",
-    "ContactName": "Jewess-Will",
-    "Description": "Fundamental 6th generation pricing structure",
-    "PersonFullName": "Aylin Beahan",
-    "PersonId": 945,
-    "ContactId": 256,
-    "ProjectId": 4,
-    "ProjectName": "Sporer, Abbott and Mohr",
+    "Task": "ut",
+    "AssociateFullName": "Ima Dawn Bernhard DDS",
+    "ContactName": "Olson, Ledner and Wiza",
+    "Description": "Business-focused incremental attitude",
+    "PersonFullName": "Richard Kling",
+    "PersonId": 614,
+    "ContactId": 875,
+    "ProjectId": 470,
+    "ProjectName": "Bartell, Waelchi and Watsica",
     "IsPublished": false,
-    "AssociateId": 439,
-    "ColorIndex": 858,
-    "IsFree": false,
+    "AssociateId": 791,
+    "ColorIndex": 878,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 992,
-    "PriorityName": "Block-Kirlin",
+    "PriorityId": 893,
+    "PriorityName": "Spinka-Larkin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2006-03-13T03:40:45.60749+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2001-09-25T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-06-24T03:40:45.60749+02:00",
-    "RecurringEndDate": "2014-04-02T03:40:45.60749+02:00",
-    "MotherId": 232,
-    "AssignedBy": 206,
-    "AssignedByFullName": "Nola Hackett",
+    "RecurringStartDate": "2025-03-09T02:30:46.522607+01:00",
+    "RecurringEndDate": "2022-07-08T02:30:46.522607+02:00",
+    "MotherId": 48,
+    "AssignedBy": 118,
+    "AssignedByFullName": "Ms. Fletcher Ritchie",
     "RejectReason": "",
-    "Location": "deserunt",
-    "AlarmLeadTime": "cumque",
-    "SaleId": 616,
-    "SaleName": "Grimes Inc and Sons",
-    "AssociateName": "Mitchell-Ward",
-    "CreatedDate": "2000-01-07T03:40:45.60749+01:00",
-    "CreatedBy": "perferendis",
-    "CreatedByFullName": "Mr. Michael Ratke",
-    "CreatedByAssociateId": 657,
+    "Location": "aut",
+    "AlarmLeadTime": "aut",
+    "SaleId": 413,
+    "SaleName": "Klein-Cummings",
+    "AssociateName": "Boyle Group",
+    "CreatedDate": "2022-04-03T02:30:46.522607+02:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Dr. Jamel O'Connell",
+    "CreatedByAssociateId": 591,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 955,
+    "MotherAssociateId": 80,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 845,
-    "Title": "sed",
-    "Agenda": "sint",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 688,
+    "Title": "facere",
+    "Agenda": "pariatur",
+    "InternalNotes": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 868
       }
     }
   }

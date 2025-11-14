@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 434,
-  "AppointmentId": 643,
-  "ProjectId": 762,
-  "SaleId": 846,
-  "Archived": true,
-  "ArchivedAt": "2000-04-10T03:40:46.8280185+02:00",
-  "ArchivedBy": 731,
-  "ArchivedDisplayName": "Lehner-Lind",
+  "DocumentId": 240,
+  "AppointmentId": 948,
+  "ProjectId": 80,
+  "SaleId": 463,
+  "Archived": false,
+  "ArchivedAt": "2025-09-29T02:30:47.2725845+02:00",
+  "ArchivedBy": 513,
+  "ArchivedDisplayName": "Senger-Watsica",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 921
     }
   }
 }

@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob Inc and Sons",
+  "Name": "Kuhlman Inc and Sons",
   "ListEntity": null
 }
 ```
@@ -102,22 +102,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Hane Inc and Sons",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 772,
+  "Id": 354,
+  "Name": "Hoeger, Blick and Robel",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 170,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 677
     }
   }
 }

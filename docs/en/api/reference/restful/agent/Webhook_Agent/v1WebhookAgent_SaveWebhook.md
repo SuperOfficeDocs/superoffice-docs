@@ -93,32 +93,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 640,
-  "Name": "Lebsack-Baumbach",
+  "WebhookId": 77,
+  "Name": "Herzog, Russel and Kessler",
   "Events": [
-    "hic",
-    "in"
+    "et",
+    "ipsa"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "officiis",
+  "Secret": "ut",
   "State": "Active",
   "Type": "saepe",
   "Headers": {
-    "Headers1": "at",
-    "Headers2": "nesciunt"
+    "Headers1": "debitis",
+    "Headers2": "corporis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-03-30T03:40:48.2817514+02:00",
+  "Registered": "2015-05-26T02:30:48.1475549+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-02-23T03:40:48.2817514+01:00",
+  "Updated": "2025-06-13T02:30:48.1475549+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "devon_miller@olson.uk"
+  "ErrorsEmail": "keaton@oconner.biz"
 }
 ```
 
@@ -129,27 +129,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 939,
-  "Name": "Lehner, Shields and Wintheiser",
+  "WebhookId": 425,
+  "Name": "Durgan Group",
   "Events": [
-    "at",
-    "sint"
+    "neque",
+    "corporis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eius",
+  "Secret": "tempora",
   "State": "Active",
-  "Type": "sed",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "adipisci"
+    "Headers1": "at",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-08-28T03:40:48.2817514+02:00",
+  "Registered": "2008-08-11T02:30:48.1475549+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-05-20T03:40:48.2817514+02:00",
+  "Updated": "2017-08-21T02:30:48.1475549+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "adolphus@cormier.com"
+  "ErrorsEmail": "marcos@reicheljohnson.com"
 }
 ```

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Stokes, Schuppe and Steuber",
-  "Tooltip": "et",
+  "Id": 886,
+  "Name": "Ankunding, Wyman and Deckow",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 841,
-  "Rank": 768,
+  "UdListDefinitionId": 516,
+  "Rank": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldLength": 353
     }
   }
 }

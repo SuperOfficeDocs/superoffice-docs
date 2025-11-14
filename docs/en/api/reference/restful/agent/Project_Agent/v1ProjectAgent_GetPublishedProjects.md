@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    523,
-    809
+    914,
+    843
   ]
 }
 ```
@@ -112,30 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 312,
-    "Name": "Lockman-Powlowski",
-    "Description": "Reduced 3rd generation groupware",
+    "ProjectId": 567,
+    "Name": "Thiel Group",
+    "Description": "User-centric needs-based hardware",
     "URL": "http://www.example.com/",
-    "Type": "eos",
-    "AssociateId": 140,
-    "AssociateFullName": "Dr. Lisandro Schimmel",
-    "TypeId": 533,
-    "Updated": "2009-10-12T03:40:47.4999832+02:00",
-    "StatusId": 920,
-    "Status": "ratione",
-    "TextId": 349,
-    "PublishTo": "2015-09-06T03:40:47.4999832+02:00",
-    "PublishFrom": "2023-07-20T03:40:47.4999832+02:00",
-    "IsPublished": false,
+    "Type": "at",
+    "AssociateId": 96,
+    "AssociateFullName": "Prof. Hanna Toy Jr.",
+    "TypeId": 454,
+    "Updated": "2002-03-16T02:30:47.6944454+01:00",
+    "StatusId": 977,
+    "Status": "libero",
+    "TextId": 462,
+    "PublishTo": "2010-08-16T02:30:47.6944454+02:00",
+    "PublishFrom": "2000-05-29T02:30:47.6944454+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1223919",
-    "ActiveErpLinks": 689,
+    "ProjectNumber": "1058167",
+    "ActiveErpLinks": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldLength": 477
       }
     }
   }

@@ -117,15 +117,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    454,
-    760
+    383,
+    247
   ],
-  "TargetTableNumber": 947
+  "TargetTableNumber": 630
 }
 ```
 
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide 4th generation firmware",
-  "Postit": "accusantium",
+  "Description": "Enterprise-wide motivating framework",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 43,
-  "IncludePerson": 198,
+  "GroupIdx": 828,
+  "IncludePerson": 418,
   "MemberCount": 99.99,
-  "Name": "Wisozk-Hand",
-  "PostitTextId": 742,
-  "CreatedDate": "2014-04-20T03:40:47.7504701+02:00",
-  "SelectionId": 366,
-  "SoundEx": "voluptatum",
-  "Source": 991,
-  "TextId": 885,
-  "UpdatedDate": "2004-10-22T03:40:47.7504701+02:00",
-  "UpdatedCount": 326,
-  "Visibility": 195,
+  "Name": "Klein, Brakus and Collins",
+  "PostitTextId": 294,
+  "CreatedDate": "2015-07-06T02:30:47.8350657+02:00",
+  "SelectionId": 190,
+  "SoundEx": "qui",
+  "Source": 26,
+  "TextId": 820,
+  "UpdatedDate": "2020-11-11T02:30:47.8350657+01:00",
+  "UpdatedCount": 93,
+  "Visibility": 660,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 5,
-  "TargetTableName": "Kunde-Harber",
+  "CompanyUnique": false,
+  "TargetTableNumber": 228,
+  "TargetTableName": "Hansen, Kshlerin and Stanton",
   "Completed": false,
-  "LeftSelectionId": 617,
-  "RightSelectionId": 643,
+  "LeftSelectionId": 830,
+  "RightSelectionId": 275,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Barton-Gibson",
-  "ShadowProviderName": "Kuvalis Group",
-  "ChartKey": "qui",
-  "LastLoaded": "2005-03-30T03:40:47.7504701+02:00",
-  "LastLoadedBy": 30,
+  "MainProviderName": "Boehm, Veum and Koch",
+  "ShadowProviderName": "Schulist, Brekke and Kemmer",
+  "ChartKey": "ipsa",
+  "LastLoaded": "2010-01-12T02:30:47.8350657+01:00",
+  "LastLoadedBy": 502,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-04-07T03:40:47.7504701+02:00",
-  "LastMembershipChangeBy": 798,
+  "LastMembershipChange": "2004-06-29T02:30:47.8350657+02:00",
+  "LastMembershipChangeBy": 782,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laborum",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Mayer, Gleichner and Hansen",
-  "DashboardTileDefinitionId": 596,
+  "MainHeading": "facere",
+  "MemberTabHeading": "nemo",
+  "MailingsProviderName": "Herman, Barton and Tillman",
+  "DashboardTileDefinitionId": 875,
   "VisibleFor": [
     {
-      "VisibleId": 414,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 97
         }
       }
     },
     {
-      "VisibleId": 414,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 97
         }
       }
     }
@@ -209,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 163
     }
   }
 }

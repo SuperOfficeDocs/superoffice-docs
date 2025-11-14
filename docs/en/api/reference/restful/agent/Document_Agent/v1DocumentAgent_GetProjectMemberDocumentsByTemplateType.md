@@ -100,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 670,
-  "StartTime": "2003-09-16T03:40:46.5936381+02:00",
-  "EndTime": "2020-09-02T03:40:46.5936381+02:00",
-  "Count": 993,
-  "DocumentTemplateId": 199
+  "PersonId": 178,
+  "StartTime": "2010-06-18T02:30:47.0850878+02:00",
+  "EndTime": "2012-10-02T02:30:47.0850878+02:00",
+  "Count": 803,
+  "DocumentTemplateId": 594
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 56,
-    "Attention": "facilis",
-    "Header": "eaque",
-    "Name": "Abernathy-Feest",
-    "OurRef": "nihil",
-    "YourRef": "ut",
-    "Description": "Optimized foreground project",
-    "DocumentTemplate": "facilis",
+    "DocumentId": 529,
+    "Attention": "consectetur",
+    "Header": "illo",
+    "Name": "Bashirian Inc and Sons",
+    "OurRef": "dolores",
+    "YourRef": "temporibus",
+    "Description": "Self-enabling methodical emulation",
+    "DocumentTemplate": "fugit",
     "IsPublished": false,
-    "PersonId": 412,
-    "PersonFullName": "Prof. Abraham Bode V",
-    "AssociateFullName": "Mrs. Oliver Schaden I",
-    "ContactId": 340,
-    "ContactName": "Rice-McGlynn",
-    "ProjectId": 355,
-    "ProjectName": "Douglas Group",
-    "AssociateId": 928,
-    "Snum": 785,
-    "SaleId": 88,
-    "SaleName": "Lind-Schimmel",
+    "PersonId": 778,
+    "PersonFullName": "Prof. Clark Hilda Greenfelder Sr.",
+    "AssociateFullName": "Miss Milan Ella Roberts",
+    "ContactId": 317,
+    "ContactName": "Rippin-Langosh",
+    "ProjectId": 166,
+    "ProjectName": "Walsh-Buckridge",
+    "AssociateId": 958,
+    "Snum": 638,
+    "SaleId": 572,
+    "SaleName": "Smith-Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldType": "System.Int32",
+        "FieldLength": 768
       }
     }
   }

@@ -28,7 +28,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=odit
+GET /api/v1/List/Competitor/MDOItems?query=temporibus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Homenick LLC",
-    "ToolTip": "Velit illo.",
+    "Id": 319,
+    "Name": "Auer-Waters",
+    "ToolTip": "Laborum et minus aperiam quasi architecto.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "voluptas",
+    "Rank": 260,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 220,
-        "Name": "Fahey, Kuphal and Von",
-        "ToolTip": "Qui dolor quaerat delectus recusandae non rerum.",
-        "Deleted": true,
-        "Rank": 335,
-        "Type": "molestiae",
+        "Id": 155,
+        "Name": "Green Group",
+        "ToolTip": "Esse vel esse.",
+        "Deleted": false,
+        "Rank": 961,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 393,
-        "ExtraInfo": "molestias",
-        "StyleHint": "ut",
-        "FullName": "Miss Julianne Joy Stokes",
+        "IconHint": "ex",
+        "ColorBlock": 917,
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptatibus",
+        "FullName": "Mrs. Dejon Jacobson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 865
+            "FieldLength": 470
           }
         }
       }
     ],
-    "IconHint": "quam",
-    "ColorBlock": 760,
-    "ExtraInfo": "ut",
-    "StyleHint": "quo",
-    "FullName": "Maudie Bogisich",
+    "IconHint": "hic",
+    "ColorBlock": 497,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "dolorum",
+    "FullName": "Miss Cordia Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 434
       }
     }
   }

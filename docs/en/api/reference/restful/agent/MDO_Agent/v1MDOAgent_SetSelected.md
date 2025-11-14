@@ -92,32 +92,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisoky-Weber",
-  "AdditionalInfo": "pariatur",
+  "Name": "Gutmann-Douglas",
+  "AdditionalInfo": "occaecati",
   "SelectableMDOList": [
     {
-      "Id": 831,
-      "Name": "Marquardt, Marvin and Walsh",
-      "ToolTip": "Quos iusto voluptatem et esse id et quisquam.",
+      "Id": 719,
+      "Name": "Wunsch LLC",
+      "ToolTip": "Iusto nihil voluptatem aut accusantium suscipit.",
       "Deleted": false,
-      "Rank": 754,
-      "Type": "aut",
-      "ColorBlock": 222,
-      "IconHint": "architecto",
+      "Rank": 101,
+      "Type": "dolorem",
+      "ColorBlock": 574,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2009-12-01T03:40:47.2655452+01:00",
+      "LastChanged": "2005-02-28T02:30:47.4757021+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Prof. Kailey Lauren Kreiger II"
+      "ExtraInfo": "ut",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Tre West"
     }
   ]
 }
@@ -131,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Beier-Fritsch",
-    "ToolTip": "Sunt cum quae.",
+    "Id": 452,
+    "Name": "Wiza-Senger",
+    "ToolTip": "Ratione quisquam.",
     "Deleted": false,
-    "Rank": 156,
-    "Type": "sit",
-    "ColorBlock": 223,
-    "IconHint": "reprehenderit",
+    "Rank": 228,
+    "Type": "quia",
+    "ColorBlock": 653,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2013-09-17T03:40:47.2655452+02:00",
+    "LastChanged": "2010-04-29T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Wuckert, Renner and Raynor",
-        "ToolTip": "Nostrum rerum veritatis rerum eum voluptatibus.",
+        "Id": 488,
+        "Name": "Kuhn, Moore and Feest",
+        "ToolTip": "Doloribus neque ut velit in voluptate qui autem.",
         "Deleted": false,
-        "Rank": 566,
-        "Type": "molestias",
-        "ColorBlock": 68,
-        "IconHint": "consequatur",
+        "Rank": 826,
+        "Type": "commodi",
+        "ColorBlock": 639,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2001-05-02T03:40:47.2655452+02:00",
+        "LastChanged": "2022-04-26T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "corporis",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Floyd Ritchie",
+        "FullName": "Alexie Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldType": "System.String",
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Dr. Marilou Kilback",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Johnnie Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 180
       }
     }
   }

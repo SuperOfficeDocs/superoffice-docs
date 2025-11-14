@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "O'Hara, Parker and Yundt",
-  "Tooltip": "commodi",
+  "Id": 693,
+  "Name": "Haley LLC",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 692,
-  "IsCustomList": true,
+  "Rank": 931,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldType": "System.Int32",
+      "FieldLength": 175
     }
   },
   "_Links": {

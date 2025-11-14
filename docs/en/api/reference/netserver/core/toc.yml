@@ -3831,6 +3831,8 @@ items:
     name: DBC.ExternalDocumentFields
   - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields
     name: DBC.ExternalEventFields
+  - uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+    name: DBC.ExternalOwnerFields
   - uid: SuperOffice.CRM.Data.DBC.ExtraFieldsFields
     name: DBC.ExtraFieldsFields
   - uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields
@@ -4759,6 +4761,8 @@ items:
     name: ExternalDocumentTableInfo
   - uid: SuperOffice.CRM.Data.ExternalEventTableInfo
     name: ExternalEventTableInfo
+  - uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+    name: ExternalOwnerTableInfo
   - uid: SuperOffice.CRM.Data.ExtraFieldsTableInfo
     name: ExtraFieldsTableInfo
   - uid: SuperOffice.CRM.Data.ExtraMenusTableInfo
@@ -9742,6 +9746,24 @@ items:
     name: ExternalEventRows.IdxParentRecord
   - uid: SuperOffice.CRM.Rows.ExternalEventRows.IdxParentTable
     name: ExternalEventRows.IdxParentTable
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRecordData
+    name: ExternalOwnerRecordData
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions
+    name: ExternalOwnerRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+    name: ExternalOwnerRow
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+    name: ExternalOwnerRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+    name: ExternalOwnerRow.IdxExternalOwnerId
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+    name: ExternalOwnerRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+    name: ExternalOwnerRows.IdxOwner
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+    name: ExternalOwnerRows.IdxSourceKey
   - uid: SuperOffice.CRM.Rows.ExtraFieldsHelper
     name: ExtraFieldsHelper
   - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
@@ -17316,6 +17338,10 @@ items:
     name: DashboardSentry
   - uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
     name: DashboardSentryQueryInfo
+  - uid: SuperOffice.CRM.Security.DashboardTileDefinitionSentry
+    name: DashboardTileDefinitionSentry
+  - uid: SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
+    name: DashboardTileDefinitionSentryQueryInfo
   - uid: SuperOffice.CRM.Security.DashboardTileSentry
     name: DashboardTileSentry
   - uid: SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
@@ -17444,14 +17470,14 @@ items:
     name: SentryQueryAppointmentTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
     name: SentryQueryAssociateTableUpdater
-  - uid: SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
-    name: SentryQueryBinaryObjectableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryContactTableUpdater
     name: SentryQueryContactTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
     name: SentryQueryCustomObjectTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
     name: SentryQueryDashBoardTableUpdater
+  - uid: SuperOffice.CRM.Security.SentryQueryDashboardTileDefinitionTableUpdater
+    name: SentryQueryDashboardTileDefinitionTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
     name: SentryQueryDashboardTileTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
@@ -18213,6 +18239,8 @@ items:
     name: ConceptualImageType
   - uid: SuperOffice.Data.ConfigType
     name: ConfigType
+  - uid: SuperOffice.Data.ContactPersonBoardEntity
+    name: ContactPersonBoardEntity
   - uid: SuperOffice.Data.CredentialControlType
     name: CredentialControlType
   - uid: SuperOffice.Data.CredentialUsage
@@ -18321,6 +18349,8 @@ items:
     name: EventHandlerType
   - uid: SuperOffice.Data.ExecuteOnEvent
     name: ExecuteOnEvent
+  - uid: SuperOffice.Data.ExternalOwner
+    name: ExternalOwner
   - uid: SuperOffice.Data.ExtraDataFieldType
     name: ExtraDataFieldType
   - uid: SuperOffice.Data.ExtraFieldFlags
@@ -19085,6 +19115,8 @@ items:
     name: ExecuteOnEventFieldInfo
   - uid: SuperOffice.Data.SQL.Extensions
     name: Extensions
+  - uid: SuperOffice.Data.SQL.ExternalOwnerFieldInfo
+    name: ExternalOwnerFieldInfo
   - uid: SuperOffice.Data.SQL.FieldAccessFieldInfo
     name: FieldAccessFieldInfo
   - uid: SuperOffice.Data.SQL.FieldInfo
@@ -19485,6 +19517,8 @@ items:
     name: SelfTestHelper
   - uid: SuperOffice.Diagnostics.ServiceCall
     name: ServiceCall
+  - uid: SuperOffice.Diagnostics.ServiceCallsDiagnosticSnapshot
+    name: ServiceCallsDiagnosticSnapshot
   - uid: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
     name: ServiceCallsRepositoryResourceLogger
   - uid: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext

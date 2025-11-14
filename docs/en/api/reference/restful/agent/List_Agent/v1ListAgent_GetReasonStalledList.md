@@ -86,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Value": "odit",
-    "Tooltip": "error",
+    "Id": 790,
+    "Value": "maiores",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   },
   {
-    "Id": 378,
-    "Value": "odit",
-    "Tooltip": "error",
+    "Id": 790,
+    "Value": "maiores",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

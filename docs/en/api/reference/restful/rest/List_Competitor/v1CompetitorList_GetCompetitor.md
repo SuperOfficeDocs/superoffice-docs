@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 762,
-  "Name": "Gerhold LLC",
-  "Tooltip": "quasi",
+  "Id": 405,
+  "Name": "Parker LLC",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 219,
-  "Rank": 833,
+  "UdListDefinitionId": 689,
+  "Rank": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

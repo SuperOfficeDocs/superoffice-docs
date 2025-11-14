@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Nitzsche Inc and Sons",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "UdListDefinitionId": 387,
-  "Rank": 263
+  "Id": 487,
+  "Name": "Bruen, Schuppe and Nikolaus",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 653,
+  "Rank": 851
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Luettgen LLC",
-  "Tooltip": "aut",
+  "Id": 841,
+  "Name": "Wintheiser, McLaughlin and Braun",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 450,
-  "Rank": 146,
+  "UdListDefinitionId": 283,
+  "Rank": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 733
     }
   }
 }

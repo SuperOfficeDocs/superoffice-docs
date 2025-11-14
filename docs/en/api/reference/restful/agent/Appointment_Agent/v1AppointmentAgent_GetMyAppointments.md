@@ -133,13 +133,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2020-02-29T03:40:46.0452033+01:00",
-  "EndTime": "1999-04-24T03:40:46.0452033+02:00",
-  "Count": 369
+  "StartTime": "2002-04-05T02:30:46.7882228+02:00",
+  "EndTime": "2002-01-03T02:30:46.7882228+01:00",
+  "Count": 89
 }
 ```
 
@@ -151,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 506,
-    "StartDate": "2004-01-13T03:40:46.0452033+01:00",
-    "EndDate": "2024-03-31T03:40:46.0452033+02:00",
+    "AppointmentId": 694,
+    "StartDate": "2004-08-28T02:30:46.7882228+02:00",
+    "EndDate": "2008-04-30T02:30:46.7882228+02:00",
     "Type": "BookingForChecklist",
-    "Task": "delectus",
-    "AssociateFullName": "Warren Nienow",
-    "ContactName": "Crona-Hagenes",
-    "Description": "Intuitive local focus group",
-    "PersonFullName": "Dr. Evangeline Lazaro Schmitt MD",
-    "PersonId": 654,
-    "ContactId": 958,
-    "ProjectId": 895,
-    "ProjectName": "Yundt-Paucek",
-    "IsPublished": true,
-    "AssociateId": 580,
-    "ColorIndex": 908,
-    "IsFree": true,
+    "Task": "accusamus",
+    "AssociateFullName": "Juanita VonRueden",
+    "ContactName": "Gottlieb-Boehm",
+    "Description": "Versatile intermediate methodology",
+    "PersonFullName": "Eleazar Simonis",
+    "PersonId": 960,
+    "ContactId": 459,
+    "ProjectId": 898,
+    "ProjectName": "Heathcote-Nienow",
+    "IsPublished": false,
+    "AssociateId": 516,
+    "ColorIndex": 459,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 166,
-    "PriorityName": "Bosco Group",
+    "PriorityId": 51,
+    "PriorityName": "Kuhic, Koss and Russel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2014-12-26T03:40:46.0452033+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2025-07-07T02:30:46.7882228+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-03-17T03:40:46.0452033+01:00",
-    "RecurringEndDate": "2025-08-11T03:40:46.0452033+02:00",
-    "MotherId": 417,
-    "AssignedBy": 128,
-    "AssignedByFullName": "Garry Herzog",
+    "RecurringStartDate": "2008-07-21T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2010-07-10T02:30:46.7882228+02:00",
+    "MotherId": 551,
+    "AssignedBy": 27,
+    "AssignedByFullName": "Mr. Layla Pierce Ratke",
     "RejectReason": "",
-    "Location": "pariatur",
-    "AlarmLeadTime": "itaque",
-    "SaleId": 515,
-    "SaleName": "Huel-Veum",
-    "AssociateName": "Keeling-Altenwerth",
-    "CreatedDate": "2003-03-30T03:40:46.0452033+02:00",
-    "CreatedBy": "temporibus",
-    "CreatedByFullName": "Gwen Woodrow Hand Sr.",
-    "CreatedByAssociateId": 719,
+    "Location": "eius",
+    "AlarmLeadTime": "mollitia",
+    "SaleId": 560,
+    "SaleName": "Wisoky, Hagenes and Luettgen",
+    "AssociateName": "Jenkins Group",
+    "CreatedDate": "2024-08-06T02:30:46.7882228+02:00",
+    "CreatedBy": "nemo",
+    "CreatedByFullName": "Mikayla Lynch",
+    "CreatedByAssociateId": 569,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 423,
+    "MotherAssociateId": 178,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 100,
-    "Title": "pariatur",
-    "Agenda": "vero",
-    "InternalNotes": "exercitationem",
+    "PreferredTZLocation": 493,
+    "Title": "aut",
+    "Agenda": "aut",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 424
       }
     }
   }

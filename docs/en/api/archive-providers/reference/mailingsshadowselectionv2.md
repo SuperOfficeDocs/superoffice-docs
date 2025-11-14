@@ -65,6 +65,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/associateId|associate|Company - Our contact: Displays our contact| x |
 |mailingAddr/contact/category|listAny|Company - Category| x |
 |mailingAddr/contact/categoryGroup|listAny|Company - Category group| x |
+|mailingAddr/contact/companyCategoryRank|int|Company - Category rank| x |
 |mailingAddr/contact/business|listAny|Company - Business| x |
 |mailingAddr/contact/country|listAny|Company - Country: This criterion corresponds to the Country field on the Company card.| x |
 |mailingAddr/contact/countryId|int|Company - Country ID: Country ID| x |
@@ -85,6 +86,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/activeErpLinks|bool|Company - ERP connected: Is there an active ERP Sync?| x |
 |mailingAddr/contact/deletedDate|datetime|Company - Deleted date: Deleted date|  |
 |mailingAddr/contact/mainContact| *None* |Company - Main contact: Main contact for this company| x |
+|mailingAddr/contact/forceCompany|bool|Company - Dummy: Dummy|  |
 |mailingAddr/contact/contactPhone/formattedNumber|string|Company - Telephone - Phone: Displays phone number|  |
 |mailingAddr/contact/contactPhone/description|string|Company - Telephone - Description: Phone number description| x |
 |mailingAddr/contact/contactFax/formattedNumber|string|Company - Fax - Phone: Displays phone number|  |
@@ -119,12 +121,12 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
-|mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
+|mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 |mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/restrictionAddress/addressId|int|Company - Search address - Address ID: Database ID for the address record| x |
@@ -162,7 +164,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/contactAssociate/assocType|listAny|Company - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/contact/contactAssociate/ejUserId|int|Company - Service user ID: The database ID of a Service user|  |
 |mailingAddr/contact/contactAssociate/simultaneousEjUser|bool|Company - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nick name: User's nick name in Service| x |
+|mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nickname: User's nickname in Service| x |
 |mailingAddr/contact/contactAssociate/ejStatus|int|Company - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/contact/contactAssociate/credentialType| *None* |Company - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/contact/contactAssociate/credentialDisplayValue| *None* |Company - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -204,7 +206,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Company - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |mailingAddr/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Company - Extra Request relation: Request relation on company| x |
 |mailingAddr/contact/contactExtra/x\_contact\_contact|stringorPK|Company - Extra contact relation: Contact relation on company| x |
-|mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name| x |
+|mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name: Name| x |
 |mailingAddr/contact/NumberOfActivities|int|Company - Number of activities|  |
 |mailingAddr/contact/NumberOfActivitiesInPeriod|int|Company - Number of activities in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedActivities|int|Company - Number of non-completed activities|  |
@@ -223,12 +225,12 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/contact/NumberOfTicketsInPeriod|int|Company - Number of requests in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
-|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
-|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
+|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
 |mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |mailingAddr/contact/SaintStatus2|saintStatus|Company - C-company: Kundens navn starter med bokstaven C|  |
@@ -282,8 +284,10 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |mailingAddr/person/personCategory|listAny|Contact - Category| x |
 |mailingAddr/person/personCategoryGroup|listAny|Contact - Category group| x |
+|mailingAddr/person/personCategoryRank|int|Contact - !!Category rank| x |
 |mailingAddr/person/personBusiness|listAny|Contact - Business| x |
-|mailingAddr/person/leadstatus|listAny|Contact - Lead status| x |
+|mailingAddr/person/leadStatus|listAny|Contact - Lead status| x |
+|mailingAddr/person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |mailingAddr/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |mailingAddr/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
@@ -325,14 +329,14 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
-|mailingAddr/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
-|mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
+|mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
 |mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
 |mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
 |mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
@@ -374,8 +378,8 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/personExtra/x\_person\_appointment\_relation|stringorPK|Contact - Extra appointment relation: Appointment relation on person| x |
 |mailingAddr/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
 |mailingAddr/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
-|mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
+|mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental: Start rental| x |
+|mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End: End| x |
 |mailingAddr/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |mailingAddr/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |mailingAddr/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -401,7 +405,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/personAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/personAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/personAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/person/personAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
+|mailingAddr/person/personAssociate/ejDisplayName|string|Contact - Nickname: User's nickname in Service| x |
 |mailingAddr/person/personAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/personAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/personAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -429,16 +433,16 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/correspondingAssociate/contactFullName|string|Contact - Owner: Name and department of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactCategory|listAny|Contact - Category: Category| x |
 |mailingAddr/person/correspondingAssociate/role|listAny|Contact - Role: Role| x |
-|mailingAddr/person/correspondingAssociate/assocName|associate|Contact - User ID: User ID| x |
-|mailingAddr/person/correspondingAssociate/assocTooltip|string|Contact - Description: Description|  |
-|mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
-|mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/correspondingAssociate/assocName|associate|Contact - User ID: User ID| x |
+|mailingAddr/person/correspondingAssociate/assocTooltip|string|Contact - Description: Description|  |
+|mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
+|mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
+|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nickname: User's nickname in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -481,7 +485,7 @@ Shadow contact provider for the Mailings provider.
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -533,14 +537,14 @@ Shadow contact provider for the Mailings provider.
 |emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
 |emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
 |emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
-|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
-|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
-|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -611,7 +615,7 @@ Shadow contact provider for the Mailings provider.
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -637,14 +641,14 @@ Shadow contact provider for the Mailings provider.
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|project/LastActivity|date|Date of last activity|  |
-|project/LastCompletedActivity|date|Date of last completed activity|  |
-|project/LastDoByActivity|date|Date of last non-completed activity|  |
-|project/NumberOfSales|int|Number of sales|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/LastActivity|date|Date of last activity|  |
+|project/LastCompletedActivity|date|Date of last completed activity|  |
+|project/LastDoByActivity|date|Date of last non-completed activity|  |
+|project/NumberOfSales|int|Number of sales|  |
 |project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
@@ -670,7 +674,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/country,mailingAddr/contact/streetAddress/county,mailingAddr/person/email/emailDescription,mailingAddr/person/personExtra/x_person_category_relation,mailingAddr/person/personExtra/y_rental/x_contact
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/contactAssociate/middleName,mailingAddr/contact/LastDoByActivity,mailingAddr/person/personExtra/y_rental/y_equipment/x_name,mailingAddr/person/personAssociate/userName,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

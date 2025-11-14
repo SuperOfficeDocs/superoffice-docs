@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 42
+  "AssociateId": 178
 }
 ```
 
@@ -94,6 +94,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "explicabo"
+  "Message": "aliquid"
 }
 ```

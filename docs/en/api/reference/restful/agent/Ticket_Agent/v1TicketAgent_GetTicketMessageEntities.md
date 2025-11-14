@@ -106,10 +106,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 697,
+  "TicketId": 541,
   "MessageIds": [
-    438,
-    176
+    864,
+    436
   ]
 }
 ```
@@ -122,79 +122,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 848,
+    "EjMessageId": 283,
     "Ticket": null,
-    "CreatedAt": "2004-10-06T03:40:48.0629879+02:00",
+    "CreatedAt": "2016-02-20T02:30:47.9756861+01:00",
     "CreatedBy": null,
-    "Author": "nulla",
+    "Author": "dicta",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "temporibus",
-    "TimeSpent": 700,
-    "Body": "quam",
-    "HtmlBody": "ad",
-    "EmailHeader": "jocelyn@pollich.info",
-    "DebugInfo": "aut",
-    "MailSorter": "quia",
+    "MessageId": "commodi",
+    "TimeSpent": 131,
+    "Body": "sed",
+    "HtmlBody": "perspiciatis",
+    "EmailHeader": "antonina.greenholt@gerhold.name",
+    "DebugInfo": "asperiores",
+    "MailSorter": "aut",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "aliquam",
+    "SearchTitle": "reprehenderit",
     "MessageHeaders": [
       {
-        "Id": 905,
-        "Name": "Torphy LLC",
-        "Value": "id",
+        "Id": 210,
+        "Name": "Stiedemann, Bosco and Roberts",
+        "Value": "quos",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 662
+            "FieldType": "System.String",
+            "FieldLength": 736
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "modi",
-    "Sentiment": 233,
-    "SentimentConfidence": 936,
+    "Important": false,
+    "Language": "magnam",
+    "Sentiment": 826,
+    "SentimentConfidence": 784,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 989,
-        "Name": "Friesen Group",
-        "ContentType": "ullam",
-        "AttSize": 274,
-        "InlineImage": true,
-        "ContentId": "fugit",
-        "AuthKey": "quia",
-        "IsSafeFileExtension": true,
+        "AttachmentId": 313,
+        "Name": "Quigley-McLaughlin",
+        "ContentType": "est",
+        "AttSize": 333,
+        "InlineImage": false,
+        "ContentId": "pariatur",
+        "AuthKey": "ullam",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 857
+            "FieldType": "System.Int32",
+            "FieldLength": 582
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "magnam",
-      "ExtraFields2": "et"
+      "ExtraFields1": "omnis",
+      "ExtraFields2": "perferendis"
     },
     "CustomFields": {
-      "CustomFields1": "illo",
-      "CustomFields2": "ad"
+      "CustomFields1": "quibusdam",
+      "CustomFields2": "ducimus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 49
       }
     }
   }

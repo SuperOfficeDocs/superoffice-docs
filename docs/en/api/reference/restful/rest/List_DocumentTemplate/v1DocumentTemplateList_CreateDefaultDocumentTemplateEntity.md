@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 703,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "a",
-  "SaveInDb": 849,
-  "Filename": "nobis",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 501,
+  "Name": "Rodriguez Inc and Sons",
+  "Tooltip": "ratione",
+  "SaveInDb": 554,
+  "Filename": "illo",
+  "DefaultOref": "nostrum",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 27,
-  "IntentId": 75,
+  "AutoeventId": 932,
+  "IntentId": 970,
   "IsDefaultPublished": true,
-  "Rank": 149,
-  "LoadTemplateFromPlugin": 40,
-  "MimeType": "ipsam",
+  "Rank": 833,
+  "LoadTemplateFromPlugin": 596,
+  "MimeType": "nobis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 824,
+  "DocumentTypeKey": 225,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vernie.schumm@rice.info",
-  "IncludeSignature": true,
+  "EmailSubject": "adrian@hilllfritsch.us",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sedrick@jerdehammes.us",
+  "SenderEmailAddress": "lelah@bernierkoelpin.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 78
     }
   }
 }

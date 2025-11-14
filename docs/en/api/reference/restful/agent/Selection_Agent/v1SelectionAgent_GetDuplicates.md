@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Smitham-Spencer"
+  "Name": "Goyette, Lubowitz and Pacocha"
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lindgren-Gerhold",
-    "SoPrimaryKey": 652,
-    "EntryName": "Wyman-Gerlach",
-    "EntryIdentifier": "quis",
-    "RuleDisplayName": "Ziemann-Mante",
+    "RuleName": "Ankunding, Bashirian and Bradtke",
+    "SoPrimaryKey": 196,
+    "EntryName": "Marquardt Group",
+    "EntryIdentifier": "minima",
+    "RuleDisplayName": "Lesch, Hamill and Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 61
       }
     }
   }

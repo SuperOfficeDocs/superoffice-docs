@@ -211,6 +211,8 @@ items:
     name: ContactEntity
   - uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail
     name: ContactOrPersonFromEmail
+  - uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+    name: ContactPersonBoardViewSettings
   - uid: SuperOffice.CRM.Services.ContactPersonId
     name: ContactPersonId
   - uid: SuperOffice.CRM.Services.ContactRelationEntity

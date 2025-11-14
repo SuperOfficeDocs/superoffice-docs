@@ -80,21 +80,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Sawayn LLC",
-      "Operator": "repellat",
+      "Name": "Jast LLC",
+      "Operator": "iusto",
       "Values": [
-        "asperiores",
-        "voluptatem"
+        "molestias",
+        "possimus"
       ],
       "DisplayValues": [
-        "provident",
-        "ipsum"
+        "in",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -102,16 +102,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 910,
+      "InterParenthesis": 789,
       "InterOperator": "And",
-      "UniqueHash": 983
+      "UniqueHash": 169
     }
   ],
   "Columns": [
-    "qui",
-    "ducimus"
+    "tenetur",
+    "repellendus"
   ],
-  "ConnectionId": 501,
+  "ConnectionId": 636,
   "ErpActorType": "Customer"
 }
 ```
@@ -126,47 +126,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "non",
-        "suscipit"
+        "labore",
+        "quia"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "qui",
+      "ExternalKey": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Koelpin Inc and Sons",
-      "DisplayName": "Smitham, Cartwright and Torphy",
-      "Locked": true,
+      "Name": "Konopelski-Spencer",
+      "DisplayName": "Schuster-Nicolas",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldLength": 704
         }
       }
     },
     {
-      "Name": "Koelpin Inc and Sons",
-      "DisplayName": "Smitham, Cartwright and Torphy",
-      "Locked": true,
+      "Name": "Konopelski-Spencer",
+      "DisplayName": "Schuster-Nicolas",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldLength": 704
         }
       }
     }
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 294
     }
   }
 }

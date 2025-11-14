@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 426,
-  "Name": "Emard, Cronin and Kerluke",
+  "Id": 539,
+  "Name": "Bayer-Blanda",
   "Tooltip": "veritatis",
-  "Deleted": true,
-  "UdListDefinitionId": 269,
-  "Rank": 100,
+  "Deleted": false,
+  "UdListDefinitionId": 32,
+  "Rank": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 647
     }
   }
 }

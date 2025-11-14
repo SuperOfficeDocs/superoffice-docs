@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=aut
-GET /api/v1/SaleStakeholder?$top=659
-GET /api/v1/SaleStakeholder?$skip=473
+GET /api/v1/SaleStakeholder?$entities=fuga
+GET /api/v1/SaleStakeholder?$top=611
+GET /api/v1/SaleStakeholder?$skip=78
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=ab
+GET /api/v1/SaleStakeholder?$context=sit
 GET /api/v1/SaleStakeholder?$format=JSON
 GET /api/v1/SaleStakeholder?$jsonSafe=True
 GET /api/v1/SaleStakeholder?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 6202,
-      "EntityName": "person",
-      "personId": 6202,
-      "fullName": "Miss Colton Rebeka Connelly DDS"
+      "PrimaryKey": 1732,
+      "EntityName": "sale",
+      "saleId": 1732,
+      "contactId": 9073,
+      "name": "Watsica Inc and Sons"
     },
     {
-      "PrimaryKey": 7123,
-      "EntityName": "person",
-      "personId": 7123,
-      "fullName": "Mrs. Ervin Bruen"
+      "PrimaryKey": 4730,
+      "EntityName": "sale",
+      "saleId": 4730,
+      "contactId": 9971,
+      "name": "Kuphal-Kohler"
     }
   ]
 }

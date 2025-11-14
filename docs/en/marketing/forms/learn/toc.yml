@@ -13,8 +13,6 @@ items:
   href: form-templates.md
 - name: Publish forms
   href: publish.md
-- name: Using pre-filled fields
-  href: form-prefilled.md
 - name: View statistics
   href: view-statistics.md
 - name: Process form submissions

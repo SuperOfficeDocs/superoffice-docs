@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 248,
-  "HeadingId": 989
+  "UdListDefinitionId": 750,
+  "HeadingId": 342
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Weber LLC",
-    "ToolTip": "Mollitia repudiandae quo molestias totam sunt eius quam.",
-    "Deleted": true,
-    "Rank": 275,
-    "Type": "molestiae",
-    "ColorBlock": 742,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2014-11-15T03:40:47.0936613+01:00",
+    "Id": 793,
+    "Name": "Langworth, Mertz and Schaefer",
+    "ToolTip": "In soluta.",
+    "Deleted": false,
+    "Rank": 902,
+    "Type": "ducimus",
+    "ColorBlock": 618,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2018-08-05T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "McCullough Group",
-        "ToolTip": "Excepturi voluptatem iste explicabo voluptatem dicta.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "delectus",
-        "ColorBlock": 648,
-        "IconHint": "ut",
+        "Id": 786,
+        "Name": "Reinger, Conroy and Braun",
+        "ToolTip": "Consequuntur quis ex non id et porro.",
+        "Deleted": false,
+        "Rank": 764,
+        "Type": "corporis",
+        "ColorBlock": 173,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2014-08-31T03:40:47.0936613+02:00",
+        "LastChanged": "2015-10-16T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Ms. Leda Bernadette Gleason I",
+        "FullName": "Kaia Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Edd Mayer",
+    "FullName": "Abdiel Boris Mosciski PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldLength": 508
       }
     }
   }

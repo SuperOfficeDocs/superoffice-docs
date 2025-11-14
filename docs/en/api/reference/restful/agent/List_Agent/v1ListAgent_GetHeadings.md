@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 274,
-  "ListItemId": 499,
+  "UdListDefinitionId": 294,
+  "ListItemId": 74,
   "ShowDeleted": false
 }
 ```
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Gulgowski-Wisozk",
-    "ToolTip": "Commodi et facilis.",
+    "Id": 327,
+    "Name": "Batz-Reilly",
+    "ToolTip": "Facere rerum voluptate qui ipsa vitae aut.",
     "Deleted": false,
-    "Rank": 25,
-    "Type": "nulla",
-    "ColorBlock": 963,
-    "IconHint": "qui",
+    "Rank": 951,
+    "Type": "aspernatur",
+    "ColorBlock": 39,
+    "IconHint": "hic",
     "Selected": true,
-    "LastChanged": "2004-10-16T03:40:47.0936613+02:00",
+    "LastChanged": "2004-01-26T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Stark LLC",
-        "ToolTip": "Et est et iste.",
-        "Deleted": false,
-        "Rank": 694,
-        "Type": "quibusdam",
-        "ColorBlock": 505,
-        "IconHint": "pariatur",
+        "Id": 277,
+        "Name": "VonRueden, Cassin and Schmitt",
+        "ToolTip": "Vero architecto veniam.",
+        "Deleted": true,
+        "Rank": 617,
+        "Type": "ut",
+        "ColorBlock": 276,
+        "IconHint": "nesciunt",
         "Selected": true,
-        "LastChanged": "2025-02-03T03:40:47.0936613+01:00",
+        "LastChanged": "2018-12-22T02:30:47.4132046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "laborum",
+        "ExtraInfo": "quas",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Jedidiah Altenwerth",
+        "FullName": "Maximilian Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 346
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Walton Pacocha",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Prof. Hank Brent Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   }

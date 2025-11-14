@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Kuphal, Gerlach and Tremblay"
+  "FunctionalRightName": "Ankunding, Barrows and Rice"
 }
 ```
 
@@ -107,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Collier Inc and Sons",
-    "ToolTip": "Est itaque veritatis.",
+    "Id": 658,
+    "Name": "Buckridge-Armstrong",
+    "ToolTip": "Maiores reiciendis architecto.",
     "Deleted": false,
-    "Rank": 867,
-    "Type": "ut",
+    "Rank": 904,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Schinner, Mueller and Cremin",
-        "ToolTip": "Cum omnis deserunt.",
+        "Id": 67,
+        "Name": "Kub LLC",
+        "ToolTip": "Tenetur cum maxime aperiam fuga ad facilis.",
         "Deleted": false,
-        "Rank": 722,
-        "Type": "qui",
+        "Rank": 94,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 707,
-        "ExtraInfo": "non",
-        "StyleHint": "possimus",
-        "FullName": "Cassidy Kassulke",
+        "IconHint": "possimus",
+        "ColorBlock": 771,
+        "ExtraInfo": "sed",
+        "StyleHint": "accusamus",
+        "FullName": "Ms. Melvin Littel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldLength": 467
           }
         }
       }
     ],
-    "IconHint": "repudiandae",
-    "ColorBlock": 196,
-    "ExtraInfo": "architecto",
-    "StyleHint": "incidunt",
-    "FullName": "Granville Toy",
+    "IconHint": "qui",
+    "ColorBlock": 222,
+    "ExtraInfo": "facilis",
+    "StyleHint": "amet",
+    "FullName": "Prof. Darius Karelle Gleichner IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 27
       }
     }
   }

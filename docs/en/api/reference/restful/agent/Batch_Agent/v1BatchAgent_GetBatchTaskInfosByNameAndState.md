@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ritchie LLC",
+  "Name": "Bosco LLC",
   "State": "All"
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Emmerich, Sanford and Borer",
-    "AssociateId": 192,
-    "DetailsTable": 464,
-    "DetailsRecord": 402,
+    "Id": 106,
+    "Name": "Considine, Miller and Price",
+    "AssociateId": 684,
+    "DetailsTable": 367,
+    "DetailsRecord": 272,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "vel",
-      "ParameterObject2": "unde"
+      "ParameterObject1": "non",
+      "ParameterObject2": "soluta"
     },
-    "LastStarted": "2002-05-31T03:40:46.0764548+02:00",
-    "Created": "2014-12-26T03:40:46.0764548+01:00",
-    "StartCount": 179,
-    "DatabaseSerialNumber": "726856",
-    "Context": "aperiam",
-    "Result": "unde",
+    "LastStarted": "2018-05-15T02:30:46.8194719+02:00",
+    "Created": "2021-12-16T02:30:46.8194719+01:00",
+    "StartCount": 564,
+    "DatabaseSerialNumber": "835313",
+    "Context": "et",
+    "Result": "ea",
     "State": "All",
-    "Description": "Self-enabling zero tolerance hardware",
-    "Response": "est",
-    "Request": "sunt",
-    "ProgressDescription": "Operative real-time product",
-    "ProgressPercent": 676,
-    "FileName": "Johns, Bradtke and Terry",
+    "Description": "Expanded solution-oriented hardware",
+    "Response": "deserunt",
+    "Request": "perferendis",
+    "ProgressDescription": "Team-oriented 4th generation challenge",
+    "ProgressPercent": 732,
+    "FileName": "Gorczany-Mitchell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldLength": 510
       }
     }
   }

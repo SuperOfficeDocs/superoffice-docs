@@ -70,15 +70,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Orn LLC",
-  "ProviderName": "Hodkiewicz, Kuhn and Treutel",
+  "GuiName": "Bins LLC",
+  "ProviderName": "Romaguera Inc and Sons",
   "Entities": [
-    "ab",
-    "excepturi"
+    "amet",
+    "ipsa"
   ]
 }
 ```

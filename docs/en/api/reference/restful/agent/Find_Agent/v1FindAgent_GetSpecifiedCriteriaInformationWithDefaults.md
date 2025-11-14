@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Price Group",
-  "StorageKey": "omnis",
+  "StorageType": "repudiandae",
+  "ProviderName": "Kulas-Carroll",
+  "StorageKey": "non",
   "DesiredColumnNames": [
-    "Stanton LLC",
-    "Vandervort, Jast and Bernier"
+    "Beahan Group",
+    "Murphy Inc and Sons"
   ],
   "StaticColumns": [
-    "illum",
-    "corrupti"
+    "at",
+    "et"
   ]
 }
 ```
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stamm-Smitham",
-      "Operator": "quae",
+      "Name": "Franecki LLC",
+      "Operator": "qui",
       "Values": [
-        "omnis",
-        "asperiores"
+        "fugit",
+        "esse"
       ],
       "DisplayValues": [
-        "sit",
-        "quia"
+        "aperiam",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 962,
+      "InterParenthesis": 2,
       "InterOperator": "And",
-      "UniqueHash": 461
+      "UniqueHash": 82
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Turner, Luettgen and Heaney",
-      "DisplayTooltip": "culpa",
-      "DisplayType": "placeat",
+      "DisplayName": "Hamill, Schinner and Schmeler",
+      "DisplayTooltip": "temporibus",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Cartwright-Harber",
-      "CanRestrictBy": true,
-      "RestrictionType": "neque",
-      "RestrictionListName": "Johnson Group",
+      "Name": "Nikolaus, Braun and Goldner",
+      "CanRestrictBy": false,
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Leannon, Bosco and Sipes",
       "IsVisible": true,
-      "ExtraInfo": "sed",
-      "Width": "quas",
-      "IconHint": "omnis",
-      "HeadingIconHint": "in"
+      "ExtraInfo": "ea",
+      "Width": "qui",
+      "IconHint": "nobis",
+      "HeadingIconHint": "placeat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Rau, Yundt and Dooley",
-      "PrimaryKey": 531,
+      "EntityName": "Koch Group",
+      "PrimaryKey": 296,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "itaque",
-          "TooltipHint": "facere",
-          "LinkHint": "eveniet"
+          "DisplayValue": "aliquam",
+          "TooltipHint": "ut",
+          "LinkHint": "occaecati"
         }
       },
-      "LinkHint": "animi",
-      "StyleHint": "libero",
+      "LinkHint": "accusantium",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldLength": 60
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bergstrom, Murphy and Flatley",
-      "Description": "Optional interactive policy",
-      "Rank": 452,
+      "Name": "Botsford, Rempel and Schinner",
+      "Description": "Sharable 4th generation workforce",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bergstrom, Murphy and Flatley",
-      "Description": "Optional interactive policy",
-      "Rank": 452,
+      "Name": "Botsford, Rempel and Schinner",
+      "Description": "Sharable 4th generation workforce",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 725
     }
   }
 }

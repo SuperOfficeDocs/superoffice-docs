@@ -68,7 +68,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 315,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 899,
-  "Name": "Walker, Walker and Heathcote",
-  "Description": "Implemented hybrid approach",
-  "Currency": "provident",
-  "CurrencyName": "D'Amore Group",
-  "ValidFrom": "2011-04-03T03:40:56.9777222+02:00",
-  "ValidTo": "2008-04-03T03:40:56.9777222+02:00",
+  "PriceListId": 434,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 297,
+  "Name": "Oberbrunner, Haley and Boehm",
+  "Description": "Assimilated regional conglomeration",
+  "Currency": "et",
+  "CurrencyName": "Collier-Doyle",
+  "ValidFrom": "2005-09-17T02:30:53.3348881+02:00",
+  "ValidTo": "2008-10-16T02:30:53.3348881+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

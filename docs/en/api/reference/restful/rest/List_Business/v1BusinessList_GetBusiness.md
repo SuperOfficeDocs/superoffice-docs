@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Beer-Turner",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "UdListDefinitionId": 965,
-  "Rank": 533,
+  "Id": 639,
+  "Name": "Kilback-Cummings",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "UdListDefinitionId": 564,
+  "Rank": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

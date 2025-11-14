@@ -107,35 +107,35 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 394,
-  "Name": "Stroman, Krajcik and Durgan",
-  "Rank": 275,
-  "Tooltip": "voluptatem",
-  "Icon": "aut",
-  "DefaultTicketStatus": 465,
+  "TicketTypeId": 439,
+  "Name": "Marks Inc and Sons",
+  "Rank": 943,
+  "Tooltip": "aut",
+  "Icon": "quia",
+  "DefaultTicketStatus": 420,
   "TicketStatuses": [
-    303,
-    242
+    15,
+    931
   ],
-  "DefaultTicketPriority": 758,
+  "DefaultTicketPriority": 86,
   "TicketPriorities": [
-    391,
-    199
+    290,
+    483
   ],
-  "ReplyTemplate": 415,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 515,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    206,
-    925
+    675,
+    822
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
@@ -149,40 +149,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 568,
-  "Name": "Collier-Tremblay",
-  "Rank": 204,
-  "Tooltip": "dolores",
-  "Icon": "pariatur",
-  "DefaultTicketStatus": 709,
+  "TicketTypeId": 156,
+  "Name": "Hansen, Hills and Pouros",
+  "Rank": 596,
+  "Tooltip": "cupiditate",
+  "Icon": "qui",
+  "DefaultTicketStatus": 983,
   "TicketStatuses": [
-    917,
-    528
+    502,
+    659
   ],
-  "DefaultTicketPriority": 894,
+  "DefaultTicketPriority": 359,
   "TicketPriorities": [
-    236,
-    557
+    576,
+    820
   ],
-  "ReplyTemplate": 61,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 902,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    943,
-    558
+    491,
+    460
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 85
     }
   }
 }

@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Value": "consequatur",
-    "Tooltip": "deserunt",
+    "Id": 624,
+    "Value": "officia",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 42
       }
     }
   },
   {
-    "Id": 613,
-    "Value": "consequatur",
-    "Tooltip": "deserunt",
+    "Id": 624,
+    "Value": "officia",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 42
       }
     }
   }

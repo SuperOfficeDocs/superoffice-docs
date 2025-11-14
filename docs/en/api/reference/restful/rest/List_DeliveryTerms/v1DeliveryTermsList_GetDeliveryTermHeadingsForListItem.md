@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Robel-Smitham",
-    "ToolTip": "Laborum animi explicabo non est blanditiis vitae.",
+    "Id": 352,
+    "Name": "Jast, Reichel and Heaney",
+    "ToolTip": "Autem saepe eos aut aut.",
     "Deleted": true,
-    "Rank": 511,
-    "Type": "voluptatem",
-    "ColorBlock": 564,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2017-05-08T03:40:56.8213578+02:00",
+    "Rank": 171,
+    "Type": "fugiat",
+    "ColorBlock": 496,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2008-01-06T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Swaniawski Group",
-        "ToolTip": "Iste accusantium aliquid assumenda quisquam et aperiam est.",
+        "Id": 286,
+        "Name": "Flatley-Becker",
+        "ToolTip": "Eaque est.",
         "Deleted": false,
-        "Rank": 431,
-        "Type": "ad",
-        "ColorBlock": 827,
-        "IconHint": "quas",
+        "Rank": 639,
+        "Type": "incidunt",
+        "ColorBlock": 801,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2017-12-26T03:40:56.8213578+01:00",
+        "LastChanged": "2005-02-06T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "facilis",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Turner Homenick",
+        "FullName": "Cyrus Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldLength": 87
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "eum",
+    "ExtraInfo": "at",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Marcel Wunsch",
+    "FullName": "Dusty Gaylord DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 738
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

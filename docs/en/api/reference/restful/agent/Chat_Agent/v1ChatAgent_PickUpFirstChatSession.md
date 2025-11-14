@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,43 +109,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 612,
-  "TopicId": 777,
+  "ChatSessionId": 359,
+  "TopicId": 218,
   "User": null,
   "Person": null,
-  "CustomerAlias": "explicabo",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "McClure-Hoeger",
-  "CustomerEmail": "nikki_schamberger@cassin.co.uk",
-  "CustomerPhone": "830.207.3318 x12972",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Haley Group",
+  "CustomerAlias": "placeat",
+  "CustomerHost": "provident",
+  "CustomerName": "Gusikowski Inc and Sons",
+  "CustomerEmail": "violette@boylemoen.ca",
+  "CustomerPhone": "495-039-5008 x01749",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Farrell LLC",
   "Status": "Closed",
-  "FirstMessage": "ipsam",
-  "LastMessage": "iure",
-  "WhenRequested": "2018-06-11T03:40:46.1702115+02:00",
-  "WhenStarted": "2018-05-12T03:40:46.1702115+02:00",
-  "WhenEnded": "2006-03-17T03:40:46.1702115+01:00",
-  "WhenIdle": "2020-03-07T03:40:46.1702115+01:00",
-  "WhenFetched": "2001-07-13T03:40:46.1702115+02:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 360,
-  "AlertLevel": 883,
-  "Rank": 531,
+  "FirstMessage": "facere",
+  "LastMessage": "sed",
+  "WhenRequested": "2006-03-14T02:30:46.8975935+01:00",
+  "WhenStarted": "2024-04-15T02:30:46.8975935+02:00",
+  "WhenEnded": "2007-07-29T02:30:46.8975935+02:00",
+  "WhenIdle": "2008-11-21T02:30:46.8975935+01:00",
+  "WhenFetched": "2001-06-04T02:30:46.8975935+02:00",
+  "SessionKey": "aliquid",
+  "InitialQueuePos": 123,
+  "AlertLevel": 6,
+  "Rank": 640,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 684,
+  "ChatbotIsActive": true,
+  "Rating": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Batz LLC",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "Rank": 180,
+  "Id": 665,
+  "Name": "White-Borer",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 534,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "Hilll-Zulauf",
-  "Tooltip": "culpa",
+  "Id": 430,
+  "Name": "Ward LLC",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 964,
+  "Rank": 883,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   }
 }

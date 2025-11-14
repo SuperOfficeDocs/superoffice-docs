@@ -1,0 +1,8 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Mit Leads arbeiten
+  href: work-with-leads.md
+- name: Für Admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

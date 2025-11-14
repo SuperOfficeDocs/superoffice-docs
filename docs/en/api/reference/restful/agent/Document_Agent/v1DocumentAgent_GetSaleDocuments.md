@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 465
+  "SaleId": 652
 }
 ```
 
@@ -112,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 97,
-    "Attention": "quo",
-    "Header": "quasi",
-    "Name": "O'Reilly LLC",
-    "OurRef": "eum",
-    "YourRef": "ut",
-    "Description": "Devolved background conglomeration",
-    "DocumentTemplate": "porro",
-    "IsPublished": true,
-    "PersonId": 87,
-    "PersonFullName": "Jay Glover",
-    "AssociateFullName": "Catherine Prosacco",
-    "ContactId": 477,
-    "ContactName": "Spinka, Hoeger and Cummings",
-    "ProjectId": 258,
-    "ProjectName": "Weber, Wintheiser and Ratke",
-    "AssociateId": 334,
-    "Snum": 383,
-    "SaleId": 518,
-    "SaleName": "Jerde Group",
+    "DocumentId": 720,
+    "Attention": "sed",
+    "Header": "quam",
+    "Name": "Aufderhar-VonRueden",
+    "OurRef": "cumque",
+    "YourRef": "nesciunt",
+    "Description": "Ergonomic analyzing process improvement",
+    "DocumentTemplate": "in",
+    "IsPublished": false,
+    "PersonId": 264,
+    "PersonFullName": "Prof. Pamela Columbus Hickle DDS",
+    "AssociateFullName": "Erna Marks",
+    "ContactId": 65,
+    "ContactName": "Schneider Inc and Sons",
+    "ProjectId": 969,
+    "ProjectName": "Stiedemann, Willms and Littel",
+    "AssociateId": 336,
+    "Snum": 581,
+    "SaleId": 354,
+    "SaleName": "Harber, Kling and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 561
       }
     }
   }

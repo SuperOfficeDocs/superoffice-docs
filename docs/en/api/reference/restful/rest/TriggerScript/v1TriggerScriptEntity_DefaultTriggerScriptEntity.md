@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 877,
-  "Name": "Kuhn, Moen and Cronin",
+  "ScreenChooserId": 708,
+  "Name": "Mohr-Satterfield",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nulla",
-  "Source": "fugiat",
-  "Registered": "2010-09-07T03:40:56.4140988+02:00",
-  "RegisteredAssociateId": 931,
-  "Updated": "2014-07-24T03:40:56.4140988+02:00",
-  "UpdatedAssociateId": 109,
+  "Enabled": true,
+  "UniqueIdentifier": "accusamus",
+  "Source": "nisi",
+  "Registered": "2020-01-11T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 146,
+  "Updated": "2006-03-19T02:30:53.022399+01:00",
+  "UpdatedAssociateId": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

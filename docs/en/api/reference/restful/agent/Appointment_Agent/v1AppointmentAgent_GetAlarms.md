@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 19
+  "IncludeAllAppointments": true,
+  "DefaultAlarmLeadTimeInMinutes": 519
 }
 ```
 
@@ -97,47 +97,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 742,
-      "StartTime": "2007-09-27T03:40:45.654368+02:00",
-      "EndDate": "2009-07-05T03:40:45.654368+02:00",
-      "AlarmTime": "2025-10-03T03:40:45.654368+02:00",
-      "PersonId": 842,
-      "PersonFullName": "Miss Sheila Brook Brakus MD",
-      "ContactName": "Schuster Group",
-      "ProjectId": 816,
-      "ProjectName": "Little-Feeney",
-      "AppointmentText": "nihil",
-      "SaleId": 400,
-      "SaleName": "Lubowitz, Jewess and Stark",
-      "Location": "ipsa",
+      "AppointmentId": 713,
+      "StartTime": "2002-06-09T02:30:46.5382305+02:00",
+      "EndDate": "2020-01-10T02:30:46.5382305+01:00",
+      "AlarmTime": "2022-02-20T02:30:46.5382305+01:00",
+      "PersonId": 600,
+      "PersonFullName": "Sadie Kling",
+      "ContactName": "Krajcik, Hessel and Walter",
+      "ProjectId": 953,
+      "ProjectName": "Roob, O'Hara and McCullough",
+      "AppointmentText": "sit",
+      "SaleId": 259,
+      "SaleName": "Lehner Inc and Sons",
+      "Location": "nemo",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 944,
+      "ContactId": 445,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Hayes Inc and Sons",
-      "TaskName": "Hane-Balistreri",
+      "FormalName": "Hilpert, Lesch and Goldner",
+      "TaskName": "Gleason-Konopelski",
       "ContactDepartment": "",
-      "ContactFullName": "Ike Alex Langosh II",
+      "ContactFullName": "Shea Rodrigo Thompson MD",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldType": "System.Int32",
+          "FieldLength": 142
         }
       }
     }
   ],
-  "PollingInterval": 939,
-  "SilentAfter": 237,
+  "PollingInterval": 913,
+  "SilentAfter": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldType": "System.String",
+      "FieldLength": 658
     }
   }
 }

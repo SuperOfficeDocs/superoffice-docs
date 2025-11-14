@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 131,
-  "Name": "Waters Group",
-  "Tooltip": "delectus",
-  "Rank": 479,
-  "Key": "quo",
+  "LegalBaseId": 960,
+  "Name": "Keebler Group",
+  "Tooltip": "omnis",
+  "Rank": 932,
+  "Key": "earum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 20
     }
   }
 }

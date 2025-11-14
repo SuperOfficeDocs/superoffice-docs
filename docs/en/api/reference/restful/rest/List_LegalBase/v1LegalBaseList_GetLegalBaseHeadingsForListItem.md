@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Lebsack, Conroy and Balistreri",
-    "ToolTip": "Soluta nemo sed.",
+    "Id": 4,
+    "Name": "Gulgowski, Armstrong and Veum",
+    "ToolTip": "Quod illum.",
     "Deleted": true,
-    "Rank": 934,
-    "Type": "autem",
-    "ColorBlock": 749,
-    "IconHint": "qui",
+    "Rank": 539,
+    "Type": "blanditiis",
+    "ColorBlock": 519,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2022-05-31T03:40:56.8682357+02:00",
+    "LastChanged": "1998-08-02T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 794,
-        "Name": "Stiedemann Group",
-        "ToolTip": "Aut maiores molestiae labore ea laborum.",
-        "Deleted": true,
-        "Rank": 221,
-        "Type": "dolores",
-        "ColorBlock": 897,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2024-10-31T03:40:56.8682357+01:00",
+        "Id": 495,
+        "Name": "Goldner, Mann and Schamberger",
+        "ToolTip": "Fuga est vel aut.",
+        "Deleted": false,
+        "Rank": 740,
+        "Type": "reprehenderit",
+        "ColorBlock": 429,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2008-12-19T02:30:53.3036395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "quod",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Tina Williamson Sr.",
+        "FullName": "Jessyca Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "expedita",
+    "ExtraInfo": "dolores",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Mrs. Madelynn Kirlin",
+    "FullName": "Sean Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 968
       }
     }
   }

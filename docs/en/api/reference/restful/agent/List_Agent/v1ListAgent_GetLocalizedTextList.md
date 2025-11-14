@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 143,
-    "ResourceId": 250,
-    "Text": "in",
+    "LanguageId": 445,
+    "ResourceId": 826,
+    "Text": "omnis",
     "Type": "Column",
-    "LocalizedTextId": 817,
+    "LocalizedTextId": 652,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

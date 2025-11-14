@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,111 +82,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 825,
-      "UniqueId": "asperiores",
-      "Name": "Pacocha, Padberg and Wunsch",
-      "Description": "Grass-roots leading edge middleware",
-      "AssociateId": 853,
-      "Columns": 621,
+      "DashboardId": 711,
+      "UniqueId": "sit",
+      "Name": "Langosh, Bernier and Deckow",
+      "Description": "Integrated eco-centric leverage",
+      "AssociateId": 691,
+      "Columns": 59,
       "Theme": null,
-      "VisibleForAll": 730,
+      "VisibleForAll": 954,
       "VisibleForAssociates": [
-        840,
-        497
+        296,
+        747
       ],
       "VisibleForGroups": [
-        345,
-        16
+        358,
+        284
       ],
-      "PinForAll": 434,
+      "PinForAll": 66,
       "PinForAssociates": [
-        976,
-        446
+        684,
+        596
       ],
       "PinForGroups": [
-        429,
-        730
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 555
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 219,
-      "UniqueId": "molestiae",
-      "Name": "Dickens-Carter",
-      "Description": "Face to face disintermediate hub",
-      "AssociateId": 544,
-      "Columns": 615,
-      "Theme": null,
-      "VisibleForAll": 563,
-      "VisibleForAssociates": [
-        137,
-        268
-      ],
-      "VisibleForGroups": [
-        930,
-        648
-      ],
-      "PinForAll": 144,
-      "PinForAssociates": [
-        921,
-        900
-      ],
-      "PinForGroups": [
-        732,
-        16
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 888
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 906,
-      "UniqueId": "officiis",
-      "Name": "Denesik Group",
-      "Description": "Multi-tiered well-modulated database",
-      "AssociateId": 803,
-      "Columns": 305,
-      "Theme": null,
-      "VisibleForAll": 390,
-      "VisibleForAssociates": [
-        95,
-        458
-      ],
-      "VisibleForGroups": [
-        487,
-        773
-      ],
-      "PinForAll": 565,
-      "PinForAssociates": [
-        803,
-        312
-      ],
-      "PinForGroups": [
-        996,
-        112
+        340,
+        537
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 420
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 324,
+      "UniqueId": "ducimus",
+      "Name": "Kunze-Bahringer",
+      "Description": "Re-contextualized leading edge service-desk",
+      "AssociateId": 549,
+      "Columns": 955,
+      "Theme": null,
+      "VisibleForAll": 420,
+      "VisibleForAssociates": [
+        150,
+        634
+      ],
+      "VisibleForGroups": [
+        247,
+        633
+      ],
+      "PinForAll": 217,
+      "PinForAssociates": [
+        590,
+        552
+      ],
+      "PinForGroups": [
+        621,
+        495
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 784
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 270,
+      "UniqueId": "nihil",
+      "Name": "Jacobi-Abernathy",
+      "Description": "Grass-roots static success",
+      "AssociateId": 308,
+      "Columns": 178,
+      "Theme": null,
+      "VisibleForAll": 521,
+      "VisibleForAssociates": [
+        150,
+        890
+      ],
+      "VisibleForGroups": [
+        639,
+        964
+      ],
+      "PinForAll": 43,
+      "PinForAssociates": [
+        302,
+        875
+      ],
+      "PinForGroups": [
+        719,
+        437
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 864
         }
       }
     }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

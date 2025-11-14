@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 29,
-    "Name": "Fisher, Blick and Haag",
-    "Tooltip": "magnam",
+    "HeadingId": 404,
+    "Name": "Cronin-Feil",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 840,
-    "UdListDefinitionId": 541,
+    "Rank": 369,
+    "UdListDefinitionId": 359,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 154
       }
     }
   }

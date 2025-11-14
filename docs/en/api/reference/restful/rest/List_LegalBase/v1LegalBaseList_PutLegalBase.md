@@ -81,16 +81,16 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 780,
-  "Name": "Orn, Grady and McGlynn",
-  "Tooltip": "et",
-  "Rank": 949,
-  "Key": "laudantium",
-  "Deleted": true
+  "LegalBaseId": 160,
+  "Name": "Beier-Ebert",
+  "Tooltip": "accusamus",
+  "Rank": 22,
+  "Key": "beatae",
+  "Deleted": false
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 632,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "consectetur",
-  "Rank": 691,
-  "Key": "voluptas",
+  "LegalBaseId": 865,
+  "Name": "Cormier, Emmerich and Wuckert",
+  "Tooltip": "dolores",
+  "Rank": 630,
+  "Key": "porro",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 863
     }
   }
 }

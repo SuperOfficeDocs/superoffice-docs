@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/MDO/GetListNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sint",
-  "reiciendis"
+  "voluptas",
+  "dicta"
 ]
 ```

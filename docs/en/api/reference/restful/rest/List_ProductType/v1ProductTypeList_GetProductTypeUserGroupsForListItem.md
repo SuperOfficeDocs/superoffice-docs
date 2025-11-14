@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Osinski, West and Kuphal",
-    "ToolTip": "Laborum qui consectetur tempora voluptate qui.",
-    "Deleted": false,
-    "Rank": 885,
-    "Type": "quia",
-    "ColorBlock": 800,
-    "IconHint": "sit",
+    "Id": 61,
+    "Name": "Gutkowski, Stroman and Abernathy",
+    "ToolTip": "Sunt in odio ipsam.",
+    "Deleted": true,
+    "Rank": 863,
+    "Type": "dicta",
+    "ColorBlock": 827,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-09-07T03:40:57.0246001+02:00",
+    "LastChanged": "2006-02-14T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Kutch Group",
-        "ToolTip": "Laboriosam eos explicabo voluptatibus aspernatur.",
-        "Deleted": true,
-        "Rank": 473,
-        "Type": "sed",
-        "ColorBlock": 405,
-        "IconHint": "dolores",
+        "Id": 265,
+        "Name": "Swift Inc and Sons",
+        "ToolTip": "Omnis id id dolores rerum non ut neque.",
+        "Deleted": false,
+        "Rank": 496,
+        "Type": "debitis",
+        "ColorBlock": 1002,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2017-09-03T03:40:57.0246001+02:00",
+        "LastChanged": "2005-01-29T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Louvenia Green",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Augustine Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Dr. Laron Bergnaum III",
+    "ExtraInfo": "possimus",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Lelia Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 502
+        "FieldLength": 43
       }
     }
   }

@@ -112,47 +112,47 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 465,
-  "Name": "Block, Hudson and Orn",
-  "Tooltip": "minus",
-  "Rank": 353,
+  "SaleTypeId": 561,
+  "Name": "Johnston, Spinka and Shanahan",
+  "Tooltip": "sed",
+  "Rank": 835,
   "DurationUnit": "Century",
-  "SaleDuration": 859,
-  "SaleTypeCatId": 164,
-  "Deleted": false,
+  "SaleDuration": 491,
+  "SaleTypeCatId": 902,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 992,
-  "QuoteLinesTemplate": 250,
-  "ConfirmationLinesTemplate": 833,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 27,
+  "QuoteLinesTemplate": 241,
+  "ConfirmationLinesTemplate": 343,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 885,
-  "MinEarningPercent": 581,
-  "GroupQuoteLinesBy": 377,
-  "SortGroupLinesBy": 314,
+  "MaxDiscountPercent": 119,
+  "MinEarningPercent": 912,
+  "GroupQuoteLinesBy": 298,
+  "SortGroupLinesBy": 788,
   "Stages": [
     {
-      "Id": 758,
-      "Name": "Harber, Mayert and Stoltenberg",
-      "ToolTip": "Neque doloribus minus sed.",
-      "Deleted": true,
-      "Rank": 914,
-      "Type": "deserunt",
-      "ColorBlock": 346,
-      "IconHint": "consequatur",
+      "Id": 982,
+      "Name": "Altenwerth-Schinner",
+      "ToolTip": "Voluptatibus qui voluptates pariatur et.",
+      "Deleted": false,
+      "Rank": 815,
+      "Type": "saepe",
+      "ColorBlock": 240,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "2000-12-10T03:40:57.1027301+01:00",
+      "LastChanged": "2011-05-09T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "omnis",
+      "ExtraInfo": "beatae",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Ms. Karl Monty Schulist"
+      "FullName": "Lenny Goyette"
     }
   ]
 }
@@ -165,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 610,
-  "Name": "Ebert-Howell",
-  "Tooltip": "dolores",
-  "Rank": 506,
+  "SaleTypeId": 282,
+  "Name": "Bogan-Wintheiser",
+  "Tooltip": "corrupti",
+  "Rank": 364,
   "DurationUnit": "Century",
-  "SaleDuration": 290,
-  "SaleTypeCatId": 910,
-  "Deleted": true,
+  "SaleDuration": 96,
+  "SaleTypeCatId": 214,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 549,
-  "QuoteLinesTemplate": 934,
-  "ConfirmationLinesTemplate": 284,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 747,
+  "QuoteLinesTemplate": 432,
+  "ConfirmationLinesTemplate": 168,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 932,
-  "MinEarningPercent": 488,
-  "GroupQuoteLinesBy": 749,
-  "SortGroupLinesBy": 524,
+  "MaxDiscountPercent": 45,
+  "MinEarningPercent": 958,
+  "GroupQuoteLinesBy": 255,
+  "SortGroupLinesBy": 438,
   "Stages": [
     {
-      "Id": 557,
-      "Name": "Stamm-Monahan",
-      "ToolTip": "Delectus aliquid reiciendis maiores velit.",
+      "Id": 290,
+      "Name": "Wintheiser-Cole",
+      "ToolTip": "Hic qui voluptates qui.",
       "Deleted": false,
-      "Rank": 440,
-      "Type": "sunt",
-      "ColorBlock": 157,
-      "IconHint": "facere",
+      "Rank": 741,
+      "Type": "laboriosam",
+      "ColorBlock": 935,
+      "IconHint": "est",
       "Selected": true,
-      "LastChanged": "2024-12-02T03:40:57.1027301+01:00",
+      "LastChanged": "2022-08-31T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "molestiae",
-      "Hidden": true,
-      "FullName": "Bennie Wilkinson",
+      "ExtraInfo": "ex",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Mr. Dwight Hills II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 898
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 231
     }
   }
 }

@@ -94,7 +94,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 275,
-  "ColumnId": 457,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 930,
-  "FieldLabel": "temporibus",
-  "FieldLeft": 266,
-  "FieldTop": 640,
+  "UDefFieldId": 947,
+  "ColumnId": 780,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 99,
+  "FieldLabel": "eum",
+  "FieldLeft": 886,
+  "FieldTop": 517,
   "FieldType": "Checkbox",
-  "FieldWidth": 314,
-  "FormatMask": "voluptas",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 348,
-  "LabelLeft": 35,
-  "LabelTop": 306,
-  "LabelWidth": 674,
-  "LastVersionId": 62,
-  "ListTableId": 653,
-  "IsMandatory": true,
+  "FieldWidth": 608,
+  "FormatMask": "veritatis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 568,
+  "LabelLeft": 717,
+  "LabelTop": 45,
+  "LabelWidth": 182,
+  "LastVersionId": 266,
+  "ListTableId": 545,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 231,
-  "ProgId": "cumque",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsum",
-  "TabOrder": 909,
-  "TextLength": 437,
-  "Tooltip": "sapiente",
-  "UdefIdentity": 818,
-  "UDListDefinitionId": 94,
+  "Page1LineNo": 895,
+  "ProgId": "odio",
+  "IsReadOnly": false,
+  "ShortLabel": "impedit",
+  "TabOrder": 996,
+  "TextLength": 610,
+  "Tooltip": "vel",
+  "UdefIdentity": 694,
+  "UDListDefinitionId": 769,
   "Justification": "Center",
-  "Version": 339,
-  "TemplateVariableName": "Marvin Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Cormier, VonRueden and Collins",
+  "Version": 754,
+  "TemplateVariableName": "Tromp, Adams and Cruickshank",
+  "HasBeenPublished": false,
+  "MdoListName": "Kihn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

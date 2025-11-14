@@ -1,0 +1,31 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Dokumenttyper
+  href: document-types.md
+- name: Skabelonvariabler
+  href: template-variables.md
+  items:
+  - name: Reference
+    href: ../variables/toc.yml
+    topicHref: ../variables/index.md
+  - name: Fejlfinding
+    href: troubleshooting.md
+- name: Fletfelter (tilbudsskabeloner)
+  href: quote-templates.md
+  items:
+  - name: Reference
+    href: ../merge-fields/toc.yml
+    topicHref: ../merge-fields/index.md
+  - name: Tutorial
+    href: ../admin/tutorial.md
+- name: Opret dokumentskabelon
+  href: create.md
+- name: Tilføj skabelon
+  href: ../admin/link-template.md
+- name: Rediger skabelon
+  href: ../admin/update-template.md
+- name: Dokumentskabeloner på flere sprog
+  href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Standardværdier for nye dokumentskabeloner
+  href: ../admin/document-template-defaults.md

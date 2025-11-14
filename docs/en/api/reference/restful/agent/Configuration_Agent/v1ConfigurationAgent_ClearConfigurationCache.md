@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "tempore",
-  "Instance": "et",
+  "Application": "labore",
+  "Instance": "ipsum",
   "ForAllAssociates": false
 }
 ```

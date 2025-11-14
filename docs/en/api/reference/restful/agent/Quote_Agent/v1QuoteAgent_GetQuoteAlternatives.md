@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 429
+  "QuoteVersionId": 471
 }
 ```
 
@@ -114,35 +114,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 399,
-    "ERPQuoteAlternativeKey": "saepe",
-    "QuoteVersionId": 274,
-    "Name": "Jenkins-Beer",
-    "Description": "Upgradable leading edge portal",
+    "QuoteAlternativeId": 986,
+    "ERPQuoteAlternativeKey": "ratione",
+    "QuoteVersionId": 112,
+    "Name": "Robel Inc and Sons",
+    "Description": "Innovative heuristic ability",
     "Status": "Error",
-    "Reason": "monetize efficient methodologies",
-    "ERPDiscountPercent": 11219.72,
-    "ERPDiscountAmount": 4553.702,
-    "DiscountPercent": 16603.932,
-    "DiscountAmount": 9373.794,
+    "Reason": "",
+    "ERPDiscountPercent": 25432.41,
+    "ERPDiscountAmount": 25673.728,
+    "DiscountPercent": 26874.05,
+    "DiscountAmount": 27378.624,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "architecto",
-    "VAT": 20869.306,
-    "EarningPercent": 31336.865999999998,
-    "EarningAmount": 4694.732,
-    "SubTotal": 9514.824,
-    "TotalPrice": 19437.068,
-    "ExtraField1": "tempora",
-    "ExtraField2": "sint",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "minima",
-    "ExtraField5": "ut",
+    "VATInfo": "amet",
+    "VAT": 6775.708,
+    "EarningPercent": 21402.086,
+    "EarningAmount": 31302.392,
+    "SubTotal": 31136.289999999997,
+    "TotalPrice": 14206.421999999999,
+    "ExtraField1": "quis",
+    "ExtraField2": "dicta",
+    "ExtraField3": "at",
+    "ExtraField4": "ipsa",
+    "ExtraField5": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 359
       }
     }
   }

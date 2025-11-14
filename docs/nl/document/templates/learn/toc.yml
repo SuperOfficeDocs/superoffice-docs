@@ -1,0 +1,31 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Documentsjabloontypen
+  href: document-types.md
+- name: Sjabloonvariabelen
+  href: template-variables.md
+  items:
+  - name: Referentie
+    href: ../variables/toc.yml
+    topicHref: ../variables/index.md
+  - name: Probleemoplossing
+    href: troubleshooting.md
+- name: Samenvoegvelden (offertesjablonen)
+  href: quote-templates.md
+  items:
+  - name: Referentie
+    href: ../merge-fields/toc.yml
+    topicHref: ../merge-fields/index.md
+  - name: Tutorial
+    href: ../admin/tutorial.md
+- name: Documentsjabloon maken
+  href: create.md
+- name: Sjabloon toevoegen
+  href: ../admin/link-template.md
+- name: Sjabloon bewerken
+  href: ../admin/update-template.md
+- name: Documentsjablonen in meerdere talen
+  href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Standaardwaarden voor nieuwe documentsjablonen
+  href: ../admin/document-template-defaults.md

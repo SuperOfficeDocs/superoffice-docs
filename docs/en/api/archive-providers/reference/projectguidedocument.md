@@ -125,12 +125,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |documentInstance/person/personCategory|listAny|Category| x |
 |documentInstance/person/personCategoryGroup|listAny|Category group| x |
-|documentInstance/person/personBusiness|listAny|Business| x |
+|documentInstance/person/personCategoryRank|int|!!Category rank| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/person/leadstatus|listAny|Lead status| x |
+|documentInstance/person/personBusiness|listAny|Business| x |
+|documentInstance/person/leadStatus|listAny|Lead status| x |
+|documentInstance/person/leadstatusRank|int|!!Lead status RANK| x |
 |documentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |documentInstance/person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |documentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -217,8 +219,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |documentInstance/person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |documentInstance/person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|documentInstance/person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|documentInstance/person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|documentInstance/person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|documentInstance/person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |documentInstance/person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |documentInstance/person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |documentInstance/person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -228,12 +230,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |documentInstance/person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |documentInstance/person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|documentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|documentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |documentInstance/person/personAssociate/associateDbId|associate|ID| x |
 |documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -248,7 +250,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |documentInstance/person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -281,7 +283,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |documentInstance/person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -312,6 +314,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/associateId|associate|Our contact: Displays our contact| x |
 |documentInstance/contact/category|listAny|Category| x |
 |documentInstance/contact/categoryGroup|listAny|Category group| x |
+|documentInstance/contact/companyCategoryRank|int|Category rank| x |
 |documentInstance/contact/business|listAny|Business| x |
 |documentInstance/contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |documentInstance/contact/countryId|int|Country ID: Country ID| x |
@@ -331,13 +334,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |documentInstance/contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |documentInstance/contact/deletedDate|datetime|Deleted date: Deleted date|  |
-|documentInstance/contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|documentInstance/contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|documentInstance/contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|documentInstance/contact/forceCompany|bool|Dummy: Dummy|  |
+|documentInstance/contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|documentInstance/contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |documentInstance/contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |documentInstance/contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |documentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
@@ -409,7 +413,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |documentInstance/contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -434,14 +438,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |documentInstance/contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |documentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|documentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-|documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
-|documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |documentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
@@ -455,7 +459,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|documentInstance/contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|documentInstance/contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |documentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -538,14 +542,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/assocName|associate|User ID : User ID| x |
 |documentInstance/project/projectAssociate/assocTooltip|string|Description : Description|  |
 |documentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|documentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|documentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|documentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|documentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|documentInstance/project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
+|documentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |documentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -611,7 +615,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |documentInstance/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -642,14 +646,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/contactId|listAny|Company ID: Database ID of company| x |
 |documentInstance/sale/personId|listAny|Contact ID: Database ID of the contact row| x |
 |documentInstance/sale/projectId|listAny|Project ID: Database ID of project record| x |
-|documentInstance/sale/saleId|int|Sale ID: The database ID of the sale record| x |
-|documentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
-|documentInstance/sale/who| *None* |Who: Contact and/or company|  |
-|documentInstance/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/saleId|int|Sale ID: The database ID of the sale record| x |
+|documentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
+|documentInstance/sale/who| *None* |Who: Contact and/or company|  |
+|documentInstance/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
 |documentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
@@ -667,7 +671,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |documentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
-|documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|documentInstance/sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |documentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -718,7 +722,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |documentInstance/sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |documentInstance/sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -744,7 +748,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=suggestedItemText,documentInstance/contact/searchPhone/description,documentInstance/contact/contactAssociate/otherGroups,documentInstance/contact/SaintStatus2,documentInstance/project/number
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/userGroup,documentInstance/registeredBy,documentInstance/person/ticketPriority,documentInstance/person/supportAssociate,documentInstance/person/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

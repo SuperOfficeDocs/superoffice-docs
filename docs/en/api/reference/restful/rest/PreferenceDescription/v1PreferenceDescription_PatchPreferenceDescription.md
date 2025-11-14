@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -151,30 +151,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 789,
-  "Section": "sit",
-  "Key": "et",
-  "Name": "Jast Inc and Sons",
+  "PrefDescId": 357,
+  "Section": "deleniti",
+  "Key": "ad",
+  "Name": "Moore Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Mandatory leading edge extranet",
-  "IsBuiltin": true,
-  "TableName": "Hessel LLC",
-  "UserDefinedListId": 925,
-  "Rank": 790,
-  "SubGroup": "quia",
-  "MinLevel": 859,
-  "MaxValue": 415,
-  "MinValue": 146,
-  "RequiredLicense": "vero",
+  "Description": "Grass-roots even-keeled matrices",
+  "IsBuiltin": false,
+  "TableName": "Labadie, Heathcote and Haag",
+  "UserDefinedListId": 493,
+  "Rank": 593,
+  "SubGroup": "provident",
+  "MinLevel": 265,
+  "MaxValue": 692,
+  "MinValue": 877,
+  "RequiredLicense": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   },
   "_Links": {

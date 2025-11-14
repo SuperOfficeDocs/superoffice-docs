@@ -1,0 +1,11 @@
+items:
+- name: Introductie
+  href: index.md
+- name: Rol maken
+  href: create-role.md
+- name: Rol bewerken of verwijderen
+  href: update-role.md
+- name: Gegevensrechten voor rol instellen
+  href: set-data-rights-for-role.md
+- name: Gegevensrechten
+  href: functional-rights.md

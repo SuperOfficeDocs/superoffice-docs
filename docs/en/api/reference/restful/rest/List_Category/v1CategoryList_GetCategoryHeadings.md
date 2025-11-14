@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Thiel LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 696,
+    "Name": "Robel Group",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 864,
+    "Rank": 654,
+    "UdListDefinitionId": 43,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

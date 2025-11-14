@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    48,
-    269
+    934,
+    624
   ]
 }
 ```
@@ -128,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 436,
-    "ColumnId": 35,
-    "FieldDefault": "doloribus",
-    "FieldHeight": 910,
-    "FieldLabel": "inventore",
-    "FieldLeft": 242,
-    "FieldTop": 326,
+    "UDefFieldId": 919,
+    "ColumnId": 440,
+    "FieldDefault": "et",
+    "FieldHeight": 705,
+    "FieldLabel": "velit",
+    "FieldLeft": 1002,
+    "FieldTop": 126,
     "FieldType": "Checkbox",
-    "FieldWidth": 626,
-    "FormatMask": "aspernatur",
+    "FieldWidth": 107,
+    "FormatMask": "enim",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 470,
-    "LabelLeft": 746,
-    "LabelTop": 348,
-    "LabelWidth": 696,
-    "LastVersionId": 983,
-    "ListTableId": 210,
+    "IsIndexed": true,
+    "LabelHeight": 32,
+    "LabelLeft": 864,
+    "LabelTop": 599,
+    "LabelWidth": 630,
+    "LastVersionId": 310,
+    "ListTableId": 623,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 95,
-    "ProgId": "ut",
+    "Page1LineNo": 340,
+    "ProgId": "quisquam",
     "IsReadOnly": false,
-    "ShortLabel": "eligendi",
-    "TabOrder": 406,
-    "TextLength": 927,
-    "Tooltip": "consequuntur",
-    "UdefIdentity": 519,
-    "UDListDefinitionId": 490,
+    "ShortLabel": "ullam",
+    "TabOrder": 591,
+    "TextLength": 753,
+    "Tooltip": "atque",
+    "UdefIdentity": 501,
+    "UDListDefinitionId": 326,
     "Justification": "Center",
-    "Version": 730,
-    "TemplateVariableName": "Miller-Murphy",
-    "HasBeenPublished": false,
-    "MdoListName": "Haag-Kautzer",
+    "Version": 627,
+    "TemplateVariableName": "Schmidt-Collier",
+    "HasBeenPublished": true,
+    "MdoListName": "Bergnaum, Erdman and Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldLength": 20
       }
     }
   }

@@ -70,13 +70,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "eaque",
+  "Attributes": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

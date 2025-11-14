@@ -1,0 +1,7 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Nummernzuweisung
+  href: configure-number-allocation.md
+- name: Bezeichnungen
+  href: change-ui-labels.md

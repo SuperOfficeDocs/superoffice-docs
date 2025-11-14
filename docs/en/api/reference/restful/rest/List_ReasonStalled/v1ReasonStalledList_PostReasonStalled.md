@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 390,
-  "Name": "Bradtke-Lockman",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 705,
-  "Rank": 514
+  "Id": 293,
+  "Name": "Hane LLC",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 661,
+  "Rank": 997
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Bruen, Upton and Monahan",
-  "Tooltip": "autem",
+  "Id": 436,
+  "Name": "Purdy Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 643,
-  "Rank": 56,
+  "UdListDefinitionId": 768,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

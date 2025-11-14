@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,30 +90,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 31,
-  "Name": "Russel Group",
-  "CurrencyId": 482,
-  "EnglishName": "Schmitt, Hansen and Kuvalis",
+  "CountryId": 384,
+  "Name": "O'Keefe-Walsh",
+  "CurrencyId": 56,
+  "EnglishName": "Gerhold Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-tiered holistic frame",
-  "OrgNrText": "696058",
-  "InterAreaPrefix": "consequuntur",
-  "DialInPrefix": "nam",
-  "ZipPrefix": "qui",
-  "DomainName": "Green-Flatley",
-  "AddressLayoutId": 530,
-  "DomesticAddressLayoutId": 505,
-  "ForeignAddressLayoutId": 97,
-  "Rank": 570,
-  "Tooltip": "vero",
+  "ImageDescription": "Pre-emptive well-modulated time-frame",
+  "OrgNrText": "321171",
+  "InterAreaPrefix": "deleniti",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "quasi",
+  "DomainName": "Hackett Inc and Sons",
+  "AddressLayoutId": 90,
+  "DomesticAddressLayoutId": 799,
+  "ForeignAddressLayoutId": 567,
+  "Rank": 160,
+  "Tooltip": "totam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 90
     }
   }
 }

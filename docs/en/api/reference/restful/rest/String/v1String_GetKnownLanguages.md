@@ -51,7 +51,7 @@ OK
 GET /api/v1/String/KnownLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -61,7 +61,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "corporis",
-  "qui"
+  "nihil",
+  "rerum"
 ]
 ```

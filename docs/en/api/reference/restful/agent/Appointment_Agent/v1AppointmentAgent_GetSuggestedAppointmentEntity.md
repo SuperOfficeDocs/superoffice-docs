@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=982
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=880
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 698,
-  "Name": "Cole-Feeney",
-  "Tooltip": "blanditiis",
-  "Rank": 288,
-  "Deleted": true,
-  "DaysFuture": 193,
-  "Duration": "adipisci",
+  "SuggestedAppointmentId": 847,
+  "Name": "Kling, Kiehn and Bauch",
+  "Tooltip": "repellendus",
+  "Rank": 935,
+  "Deleted": false,
+  "DaysFuture": 954,
+  "Duration": "aut",
   "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "occaecati",
+  "IsMilestone": true,
+  "AssignToMember": true,
+  "Text": "ullam",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldLength": 716
     }
   }
 }

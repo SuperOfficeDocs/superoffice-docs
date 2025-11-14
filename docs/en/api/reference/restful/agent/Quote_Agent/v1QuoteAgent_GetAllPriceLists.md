@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 556,
-  "Currency": "sed"
+  "QuoteConnectionId": 981,
+  "Currency": "tenetur"
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 658,
-    "ERPPriceListKey": "culpa",
-    "QuoteConnectionId": 320,
-    "Name": "Eichmann Inc and Sons",
-    "Description": "Ameliorated background product",
-    "Currency": "assumenda",
-    "CurrencyName": "Cruickshank-Bergstrom",
-    "ValidFrom": "2019-03-04T03:40:47.5629587+01:00",
-    "ValidTo": "2015-02-13T03:40:47.5629587+01:00",
-    "IsActive": false,
+    "PriceListId": 661,
+    "ERPPriceListKey": "praesentium",
+    "QuoteConnectionId": 389,
+    "Name": "Hoppe-Considine",
+    "Description": "Optimized scalable policy",
+    "Currency": "quod",
+    "CurrencyName": "Gibson-Dietrich",
+    "ValidFrom": "2014-07-14T02:30:47.7413192+02:00",
+    "ValidTo": "2012-05-07T02:30:47.7413192+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldLength": 850
       }
     }
   }

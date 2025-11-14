@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "Cartwright Group",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "UdListDefinitionId": 686,
-  "Rank": 233,
+  "Id": 981,
+  "Name": "Walsh, Hermann and Wisoky",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 333,
+  "Rank": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 765
     }
   }
 }

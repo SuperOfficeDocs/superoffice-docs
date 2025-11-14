@@ -76,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "lamar.hyatt@schuster.biz",
+  "EmailAddress": "ansel.yost@stoltenberg.uk",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

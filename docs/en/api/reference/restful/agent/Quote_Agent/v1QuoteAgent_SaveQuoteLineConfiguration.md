@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 139,
-  "FieldName": "Gutkowski LLC",
-  "Label": "qui",
-  "Tooltip": "in",
+  "QuoteLineConfigurationId": 248,
+  "FieldName": "Schuppe-Walsh",
+  "Label": "quam",
+  "Tooltip": "et",
   "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 233,
+  "Mandatory": false,
+  "Rank": 544,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 247
     }
   }
 }

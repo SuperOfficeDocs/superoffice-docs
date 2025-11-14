@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "possimus"
+  "FileContent": "ut"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 946,
-      "NumberOfLicensesFree": 742,
-      "NumberOfLicensesAdded": 643,
-      "NumberOfLicensesNewTotal": 318,
-      "NumberOfLicensesNewFree": 206,
-      "NumberOfLicensesTotal": 499
+      "NumberOfLicensesInUse": 174,
+      "NumberOfLicensesFree": 703,
+      "NumberOfLicensesAdded": 915,
+      "NumberOfLicensesNewTotal": 212,
+      "NumberOfLicensesNewFree": 438,
+      "NumberOfLicensesTotal": 760
     }
   ],
-  "AccumulatedNextCheckDate": "2015-03-23T03:40:47.0155393+01:00"
+  "AccumulatedNextCheckDate": "2008-12-07T02:30:47.3819557+01:00"
 }
 ```

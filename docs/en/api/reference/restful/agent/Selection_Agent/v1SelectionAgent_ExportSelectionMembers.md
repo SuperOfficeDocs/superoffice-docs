@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 700,
-  "TemplateName": "Leannon-Carroll",
+  "SelectionId": 678,
+  "TemplateName": "Spinka Inc and Sons",
   "UseContacts": false
 }
 ```

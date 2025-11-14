@@ -71,7 +71,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 427,
-  "Name": "Stroman Inc and Sons"
+  "AssociateId": 896,
+  "Name": "Kunze-Eichmann"
 }
 ```

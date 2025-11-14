@@ -84,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "O'Connell Inc and Sons",
-  "StorageKey": "in",
-  "Context": "repellat"
+  "StorageType": "veritatis",
+  "ProviderName": "Braun, Effertz and Koelpin",
+  "StorageKey": "dicta",
+  "Context": "rerum"
 }
 ```
 
@@ -99,58 +99,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bechtelar Group",
-    "Description": "Polarised grid-enabled budgetary management",
-    "Rank": 898,
+    "Name": "Kirlin-Turcotte",
+    "Description": "Switchable assymetric strategy",
+    "Rank": 592,
     "Restrictions": [
       {
-        "Name": "Schamberger, Wiegand and Hudson",
-        "Operator": "nobis",
+        "Name": "Mayer-Heidenreich",
+        "Operator": "deserunt",
         "Values": [
-          "odit",
-          "provident"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "similique"
+          "est",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 631,
+        "InterParenthesis": 923,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 667
       }
     ]
   },
   {
-    "Name": "Bechtelar Group",
-    "Description": "Polarised grid-enabled budgetary management",
-    "Rank": 898,
+    "Name": "Kirlin-Turcotte",
+    "Description": "Switchable assymetric strategy",
+    "Rank": 592,
     "Restrictions": [
       {
-        "Name": "Schamberger, Wiegand and Hudson",
-        "Operator": "nobis",
+        "Name": "Mayer-Heidenreich",
+        "Operator": "deserunt",
         "Values": [
-          "odit",
-          "provident"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "similique"
+          "est",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 631,
+        "InterParenthesis": 923,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 667
       }
     ]
   }

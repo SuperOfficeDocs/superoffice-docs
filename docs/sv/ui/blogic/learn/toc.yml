@@ -13,5 +13,3 @@ items:
   - name: Extramenyer
     href: extra-menus/toc.yml
     topicHref: extra-menus/index.md
-  - name: Egenskaper för paket
-    href: ../../../admin/learn/package-properties.md

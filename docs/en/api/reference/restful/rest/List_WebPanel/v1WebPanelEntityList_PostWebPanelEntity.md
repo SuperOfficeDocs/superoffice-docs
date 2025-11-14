@@ -108,31 +108,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 130,
-  "Name": "Hirthe-Berge",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "Rank": 331,
+  "WebPanelId": 496,
+  "Name": "Schneider, Stark and Kuphal",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "Rank": 388,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Rau, Thiel and Jenkins",
+  "ShowInStatusBar": false,
+  "WindowName": "Wisoky-Schaden",
   "Url": "http://www.example.com/",
-  "ProgId": "ad",
-  "Icon": 243,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "iste",
+  "Icon": 860,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -144,26 +144,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 348,
-  "Name": "Kunze-Dibbert",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 908,
+  "WebPanelId": 486,
+  "Name": "Moore LLC",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 617,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Reichert Group",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Schneider LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "incidunt",
-  "Icon": 139,
+  "ProgId": "consequatur",
+  "Icon": 388,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldLength": 58
     }
   }
 }

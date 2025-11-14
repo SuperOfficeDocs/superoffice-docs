@@ -118,7 +118,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,106 +126,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-08-07T03:40:55.2255495+02:00",
-  "AppointmentId": 219,
-  "Description": "Team-oriented multimedia hierarchy",
-  "Title": "voluptatem",
-  "Agenda": "aut",
-  "InternalNotes": "iste",
-  "StartDate": "2005-03-06T03:40:55.2255495+01:00",
-  "EndDate": "2024-01-13T03:40:55.2255495+01:00",
+  "CreatedDate": "2023-05-28T02:30:52.3349215+02:00",
+  "AppointmentId": 445,
+  "Description": "Total client-driven access",
+  "Title": "nihil",
+  "Agenda": "reiciendis",
+  "InternalNotes": "et",
+  "StartDate": "2016-03-03T02:30:52.3349215+01:00",
+  "EndDate": "2020-02-23T02:30:52.3349215+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 688,
+  "MotherId": 893,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-12-21T03:40:55.2255495+01:00",
+  "UpdatedDate": "2000-10-12T02:30:52.3349215+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 191,
+  "ActiveLinks": 484,
   "Links": [
     {
-      "EntityName": "Adams, Corwin and Reichel",
-      "Id": 477,
-      "Description": "Enhanced fresh-thinking analyzer",
-      "ExtraInfo": "alias",
-      "LinkId": 854
+      "EntityName": "Davis-Sawayn",
+      "Id": 626,
+      "Description": "De-engineered upward-trending challenge",
+      "ExtraInfo": "laudantium",
+      "LinkId": 99
     },
     {
-      "EntityName": "Adams, Corwin and Reichel",
-      "Id": 477,
-      "Description": "Enhanced fresh-thinking analyzer",
-      "ExtraInfo": "alias",
-      "LinkId": 854
+      "EntityName": "Davis-Sawayn",
+      "Id": 626,
+      "Description": "De-engineered upward-trending challenge",
+      "ExtraInfo": "laudantium",
+      "LinkId": 99
     }
   ],
-  "AlarmLeadTime": "magni",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 545,
+  "ColorIndex": 773,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "adipisci",
-  "LeadTime": "mollitia",
-  "Location": "consequatur",
-  "RejectCounter": 37,
+  "IsAlldayEvent": false,
+  "LagTime": "ab",
+  "LeadTime": "sint",
+  "Location": "inventore",
+  "RejectCounter": 448,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 461,
-      "PersonId": 819,
-      "ContactId": 845,
-      "EmailId": 161,
+      "AssociateId": 964,
+      "PersonId": 473,
+      "ContactId": 931,
+      "EmailId": 236,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "wanda.schoen@mante.biz",
-      "Description": "Visionary context-sensitive task-force"
+      "EmailAddress": "tad.reilly@dach.co.uk",
+      "Description": "Synergistic 5th generation forecast"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-10-11T03:40:55.2255495+02:00",
+  "ActiveDate": "2024-05-11T02:30:52.3349215+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 498,
+  "PreferredTZLocation": 658,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 56,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 415,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "atque",
+  "CentralserviceVideomeetId": "suscipit",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mrs. Keith Windler"
+    "SuperOffice:1": "Prof. Naomi Champlin",
+    "SuperOffice:2": "1886229848"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "ut"
+    "CustomFields1": "numquam",
+    "CustomFields2": "expedita"
   },
-  "PublishEventDate": "2024-09-10T03:40:55.2411754+02:00",
-  "PublishTo": "2003-10-22T03:40:55.2411754+02:00",
-  "PublishFrom": "2020-08-06T03:40:55.2411754+02:00",
+  "PublishEventDate": "2018-08-26T02:30:52.3349215+02:00",
+  "PublishTo": "2020-06-04T02:30:52.3349215+02:00",
+  "PublishFrom": "2018-10-22T02:30:52.3349215+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 698,
+      "VisibleId": 797,
       "Visibility": "All",
-      "DisplayValue": "assumenda"
+      "DisplayValue": "enim"
     },
     {
-      "VisibleId": 698,
+      "VisibleId": 797,
       "Visibility": "All",
-      "DisplayValue": "assumenda"
+      "DisplayValue": "enim"
     }
   ]
 }
@@ -238,7 +238,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
-  "2": "corrupti"
+  "1": "non",
+  "2": "voluptatem"
 }
 ```

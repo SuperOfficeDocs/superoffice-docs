@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 472,
-  "Name": "Graham LLC",
-  "CreatedDate": "2004-02-24T03:40:55.7569215+01:00",
-  "UpdatedDate": "2002-07-29T03:40:55.7569215+02:00",
+  "ForeignAppId": 278,
+  "Name": "Senger Group",
+  "CreatedDate": "2020-09-01T02:30:52.6474115+02:00",
+  "UpdatedDate": "1999-12-14T02:30:52.6474115+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 633,
-      "Name": "Ratke LLC",
-      "CreatedDate": "2013-12-19T03:40:55.7569215+01:00",
-      "UpdatedDate": "2000-03-15T03:40:55.7569215+01:00",
-      "AssociateFullName": "Joseph Rice",
-      "CreatedBy": "illum",
-      "UpdatedBy": "deleniti",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 223,
+      "ForeignDeviceId": 264,
+      "Name": "Mertz Inc and Sons",
+      "CreatedDate": "2005-04-21T02:30:52.6474115+02:00",
+      "UpdatedDate": "2023-03-06T02:30:52.6474115+01:00",
+      "AssociateFullName": "Ms. Margarita Lucas Ondricka IV",
+      "CreatedBy": "dolorem",
+      "UpdatedBy": "assumenda",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 59,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 883
         }
       }
     }
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 797
     }
   }
 }

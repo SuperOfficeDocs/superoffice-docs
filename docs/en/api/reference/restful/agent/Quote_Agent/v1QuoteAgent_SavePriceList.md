@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 738,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 654,
-  "Name": "Altenwerth Group",
-  "Description": "Synergistic contextually-based project",
-  "Currency": "recusandae",
-  "CurrencyName": "Emard-Metz",
-  "ValidFrom": "2012-10-14T03:40:47.5317063+02:00",
-  "ValidTo": "2020-03-13T03:40:47.5317063+01:00",
-  "IsActive": true
+  "PriceListId": 338,
+  "ERPPriceListKey": "illum",
+  "QuoteConnectionId": 694,
+  "Name": "Jerde Group",
+  "Description": "Profound 3rd generation structure",
+  "Currency": "nam",
+  "CurrencyName": "Wintheiser, Dickinson and Murphy",
+  "ValidFrom": "2006-04-28T02:30:47.7100701+02:00",
+  "ValidTo": "2004-07-17T02:30:47.7100701+02:00",
+  "IsActive": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 422,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 191,
-  "Name": "Ankunding-Jones",
-  "Description": "Phased bi-directional utilisation",
-  "Currency": "commodi",
-  "CurrencyName": "Little LLC",
-  "ValidFrom": "2010-01-29T03:40:47.5317063+01:00",
-  "ValidTo": "2019-10-12T03:40:47.5317063+02:00",
+  "PriceListId": 732,
+  "ERPPriceListKey": "inventore",
+  "QuoteConnectionId": 684,
+  "Name": "Pfannerstill, Thiel and Renner",
+  "Description": "Self-enabling fault-tolerant conglomeration",
+  "Currency": "consectetur",
+  "CurrencyName": "Daugherty, Towne and Weber",
+  "ValidFrom": "2014-09-01T02:30:47.7100701+02:00",
+  "ValidTo": "2014-11-14T02:30:47.7100701+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldLength": 767
     }
   }
 }

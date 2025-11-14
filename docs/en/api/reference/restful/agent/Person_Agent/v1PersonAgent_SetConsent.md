@@ -75,11 +75,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 709,
-  "Purpose": "culpa",
-  "Source": "harum",
-  "LegalBase": "harum",
-  "Comment": "neque"
+  "PersonId": 52,
+  "Purpose": "sint",
+  "Source": "odit",
+  "LegalBase": "fuga",
+  "Comment": "dolore"
 }
 ```
 

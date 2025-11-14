@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 117,
-    "Name": "Schroeder Inc and Sons",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "Rank": 89,
-    "UdListDefinitionId": 361
+    "HeadingId": 399,
+    "Name": "Streich-Ortiz",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 274,
+    "UdListDefinitionId": 646
   },
   {
-    "HeadingId": 117,
-    "Name": "Schroeder Inc and Sons",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "Rank": 89,
-    "UdListDefinitionId": 361
+    "HeadingId": 399,
+    "Name": "Streich-Ortiz",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 274,
+    "UdListDefinitionId": 646
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "rem",
-    "Deleted": false,
-    "Rank": 754,
-    "UdListDefinitionId": 618,
+    "HeadingId": 879,
+    "Name": "Schmeler LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 1001,
+    "UdListDefinitionId": 586,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 656
       }
     }
   }

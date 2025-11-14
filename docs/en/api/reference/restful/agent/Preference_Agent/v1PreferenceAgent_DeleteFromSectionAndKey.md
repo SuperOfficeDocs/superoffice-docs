@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sunt",
-  "Key": "consequatur"
+  "Section": "omnis",
+  "Key": "incidunt"
 }
 ```
 

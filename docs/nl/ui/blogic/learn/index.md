@@ -59,7 +59,7 @@ Door [extra tabellen en velden toe te voegen][1] aan SuperOffice kunt u een vers
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
-[13]: ../../../admin/learn/package-properties.md
-[14]: ../../../automation/crmscript/learn/screen/data-exchange.md
+[13]: ../../../customization/admin/package-properties.md
+[14]: ../../../admin/onsite/data-exchange.md
 
 <!-- Referenced images -->

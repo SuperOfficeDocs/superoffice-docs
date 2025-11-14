@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,156 +121,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 563,
-      "ContactName": "Goyette LLC",
-      "PersonId": 382,
-      "PersonName": "Trantow, Ebert and Schneider",
-      "AssociateId": 461,
-      "Address": "quia",
-      "EmailId": 384,
+      "ContactId": 976,
+      "ContactName": "Schoen Inc and Sons",
+      "PersonId": 452,
+      "PersonName": "Pfeffer, Stanton and Spencer",
+      "AssociateId": 669,
+      "Address": "et",
+      "EmailId": 180,
       "DuplicatePersonIds": [
-        603,
-        421
+        734,
+        970
       ],
-      "Name": "Feest Group",
+      "Name": "Durgan-Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 839
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 646,
-      "ContactName": "Wilkinson, Borer and Lowe",
-      "PersonId": 955,
-      "PersonName": "Hackett Inc and Sons",
-      "AssociateId": 830,
-      "Address": "quibusdam",
-      "EmailId": 340,
+      "ContactId": 679,
+      "ContactName": "Simonis, Ward and Leffler",
+      "PersonId": 89,
+      "PersonName": "Conn LLC",
+      "AssociateId": 145,
+      "Address": "animi",
+      "EmailId": 321,
       "DuplicatePersonIds": [
-        886,
-        261
+        312,
+        817
       ],
-      "Name": "Collier-Goodwin",
+      "Name": "Bosco Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 999
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 559,
-      "ContactName": "Jewess, Aufderhar and Howe",
-      "PersonId": 107,
-      "PersonName": "Hammes Group",
-      "AssociateId": 236,
-      "Address": "deserunt",
-      "EmailId": 393,
+      "ContactId": 822,
+      "ContactName": "Osinski LLC",
+      "PersonId": 953,
+      "PersonName": "Walter Group",
+      "AssociateId": 94,
+      "Address": "et",
+      "EmailId": 621,
       "DuplicatePersonIds": [
-        875,
-        24
+        616,
+        912
       ],
-      "Name": "Johns Group",
+      "Name": "Rosenbaum, Dach and Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 428
         }
       }
     }
   ],
-  "Subject": "quod",
-  "HTMLBody": "assumenda",
+  "Subject": "sint",
+  "HTMLBody": "corporis",
   "From": null,
-  "Sent": "2002-06-30T03:40:46.7967663+02:00",
-  "Size": 880,
+  "Sent": "2025-01-04T02:30:47.2569602+01:00",
+  "Size": 347,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "hic",
-  "PlainBody": "qui",
+  "MessageID": "totam",
+  "PlainBody": "quo",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 481,
+  "ServerId": 400,
   "Attachments": [
     {
-      "Description": "Enhanced didactic monitoring",
-      "Filename": "illo",
-      "Size": 225,
-      "Type": "est",
-      "Encoding": "iure",
-      "Id": "inventore",
-      "Disposition": "sit",
-      "IsSafeFileExtension": true,
+      "Description": "Quality-focused client-driven complexity",
+      "Filename": "enim",
+      "Size": 697,
+      "Type": "eos",
+      "Encoding": "molestiae",
+      "Id": "et",
+      "Disposition": "quod",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Torp, Friesen and Champlin",
+      "Name": "Thiel-Schmidt",
       "Values": [
-        "possimus",
-        "officia"
+        "totam",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 514
         }
       }
     },
     {
-      "Name": "Torp, Friesen and Champlin",
+      "Name": "Thiel-Schmidt",
       "Values": [
-        "possimus",
-        "officia"
+        "totam",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 514
         }
       }
     }
   ],
-  "FolderName": "DuBuque Inc and Sons",
-  "EmailItemId": 671,
-  "AccountId": 861,
-  "ReceivedAt": "2018-09-24T03:40:46.7967663+02:00",
+  "FolderName": "Herman, Hermann and Littel",
+  "EmailItemId": 856,
+  "AccountId": 913,
+  "ReceivedAt": "2005-05-03T02:30:47.2569602+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-07-05T03:40:46.7967663+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-08-29T02:30:47.2569602+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 568
     }
   }
 }

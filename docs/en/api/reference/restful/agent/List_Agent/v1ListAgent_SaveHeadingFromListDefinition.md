@@ -86,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
+  "Id": 78,
   "Entity": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 670,
-  "Name": "Batz, Green and Dicki",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "Rank": 292,
-  "UdListDefinitionId": 701,
+  "HeadingId": 143,
+  "Name": "Cassin-Kuhic",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 405,
+  "UdListDefinitionId": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 867
     }
   }
 }

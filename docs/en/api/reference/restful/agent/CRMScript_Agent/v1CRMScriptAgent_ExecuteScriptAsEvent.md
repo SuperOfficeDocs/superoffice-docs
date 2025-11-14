@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 353,
+  "CRMScriptId": 400,
   "EventData": null
 }
 ```
@@ -112,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "magnam",
-    "InputValues2": "et"
+    "InputValues1": "voluptatem",
+    "InputValues2": "natus"
   },
   "BlockExecution": true,
-  "NavigateTo": "cumque",
-  "Message": "alias",
-  "ShowDialog": "sit",
+  "NavigateTo": "harum",
+  "Message": "sit",
+  "ShowDialog": "odit",
   "OutputValues": {
-    "OutputValues1": "incidunt",
-    "OutputValues2": "error"
+    "OutputValues1": "ad",
+    "OutputValues2": "quia"
   },
   "StateValues": {
-    "StateValues1": "maiores",
-    "StateValues2": "expedita"
+    "StateValues1": "veniam",
+    "StateValues2": "non"
   },
-  "Exception": "vitae",
+  "Exception": "nobis",
   "ParserValues": {
-    "ParserValues1": "aut",
-    "ParserValues2": "facilis"
+    "ParserValues1": "temporibus",
+    "ParserValues2": "nulla"
   },
   "CgiVariables": {
-    "CgiVariables1": "sed",
-    "CgiVariables2": "earum"
+    "CgiVariables1": "quo",
+    "CgiVariables2": "ea"
   },
-  "CgiContent": "aliquam",
+  "CgiContent": "exercitationem",
   "Headers": {
-    "Headers1": "sint",
-    "Headers2": "assumenda"
+    "Headers1": "rerum",
+    "Headers2": "sapiente"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 131
     }
   }
 }

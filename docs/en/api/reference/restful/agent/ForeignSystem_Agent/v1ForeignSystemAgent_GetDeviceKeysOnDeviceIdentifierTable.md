@@ -90,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rath Group",
-  "DeviceName": "Emard-Durgan",
-  "DeviceIdentifier": "voluptates",
-  "TableName": "Leuschke Group"
+  "ApplicationName": "Koss, Monahan and McLaughlin",
+  "DeviceName": "Strosin-Farrell",
+  "DeviceIdentifier": "porro",
+  "TableName": "Hackett Group"
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "temporibus",
-    "Value": "reiciendis",
-    "RecordId": 757,
-    "CreatedDate": "2022-04-12T03:40:46.9999043+02:00",
-    "UpdatedDate": "2018-08-15T03:40:46.9999043+02:00",
-    "UpdatedBy": "molestias",
-    "CreatedBy": "enim",
-    "TableName": "Brown LLC",
+    "Key": "sit",
+    "Value": "maiores",
+    "RecordId": 549,
+    "CreatedDate": "2012-02-27T02:30:47.366331+01:00",
+    "UpdatedDate": "2023-10-10T02:30:47.366331+02:00",
+    "UpdatedBy": "maxime",
+    "CreatedBy": "placeat",
+    "TableName": "Boehm, McLaughlin and Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 938
       }
     }
   }

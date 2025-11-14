@@ -100,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 58,
+  "PersonId": 722,
   "IncludeProjectDocuments": false,
-  "StartTime": "2017-09-22T03:40:46.7498885+02:00",
-  "EndTime": "2017-11-08T03:40:46.7498885+01:00",
-  "Count": 247
+  "StartTime": "2022-03-17T02:30:47.2257111+01:00",
+  "EndTime": "2019-07-28T02:30:47.2257111+02:00",
+  "Count": 214
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 653,
-    "Attention": "voluptas",
-    "Header": "ut",
-    "Name": "Goodwin-Turcotte",
-    "OurRef": "ad",
-    "YourRef": "explicabo",
-    "Description": "Focused context-sensitive capability",
-    "DocumentTemplate": "enim",
-    "IsPublished": true,
-    "PersonId": 70,
-    "PersonFullName": "Kimberly Thiel",
-    "AssociateFullName": "Alba Streich",
-    "ContactId": 826,
-    "ContactName": "Schoen, Hansen and Parker",
-    "ProjectId": 847,
-    "ProjectName": "Rau LLC",
-    "AssociateId": 851,
-    "Snum": 205,
-    "SaleId": 298,
-    "SaleName": "Bashirian Group",
+    "DocumentId": 955,
+    "Attention": "iste",
+    "Header": "possimus",
+    "Name": "Reynolds Inc and Sons",
+    "OurRef": "rerum",
+    "YourRef": "est",
+    "Description": "Customizable global core",
+    "DocumentTemplate": "necessitatibus",
+    "IsPublished": false,
+    "PersonId": 547,
+    "PersonFullName": "Miss Opal Magnolia Crist MD",
+    "AssociateFullName": "Rhianna Nienow",
+    "ContactId": 329,
+    "ContactName": "Kshlerin, Fritsch and Torp",
+    "ProjectId": 821,
+    "ProjectName": "Davis Group",
+    "AssociateId": 924,
+    "Snum": 42,
+    "SaleId": 985,
+    "SaleName": "Mitchell, Cartwright and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

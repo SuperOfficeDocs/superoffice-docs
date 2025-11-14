@@ -101,44 +101,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Auer Inc and Sons",
-    "Operator": "est",
+    "Name": "Wintheiser, Bayer and Olson",
+    "Operator": "fugiat",
     "Values": [
-      "nulla",
-      "blanditiis"
+      "similique",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "dolor",
-      "enim"
+      "aut",
+      "molestiae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Weimann LLC",
-        "Operator": "maxime",
+        "Name": "Zulauf, Hyatt and Dicki",
+        "Operator": "repellat",
         "Values": [
-          "sunt",
-          "sapiente"
+          "veritatis",
+          "saepe"
         ],
         "DisplayValues": [
-          "quam",
-          "ullam"
+          "accusamus",
+          "suscipit"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 547,
+        "InterParenthesis": 820,
         "InterOperator": "And",
-        "UniqueHash": 7
+        "UniqueHash": 417
       }
     ],
-    "InterParenthesis": 938,
+    "InterParenthesis": 191,
     "InterOperator": "And",
-    "UniqueHash": 811
+    "UniqueHash": 972
   }
 ]
 ```
@@ -151,29 +151,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wilderman, Gerhold and Schmidt",
-    "Operator": "cumque",
+    "Name": "Orn Group",
+    "Operator": "enim",
     "Values": [
-      "voluptatibus",
-      "et"
+      "voluptas",
+      "consequatur"
     ],
     "DisplayValues": [
-      "et",
-      "ex"
+      "explicabo",
+      "ut"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Buckridge-Wilderman",
-        "Operator": "harum",
+        "Name": "Dibbert-Schmeler",
+        "Operator": "dolores",
         "Values": [
-          "delectus",
-          "accusantium"
+          "ullam",
+          "quos"
         ],
         "DisplayValues": [
-          "est",
-          "sapiente"
+          "aperiam",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 899,
+        "InterParenthesis": 281,
         "InterOperator": "And",
-        "UniqueHash": 18
+        "UniqueHash": 283
       }
     ],
-    "InterParenthesis": 561,
+    "InterParenthesis": 680,
     "InterOperator": "And",
-    "UniqueHash": 196
+    "UniqueHash": 984
   }
 ]
 ```

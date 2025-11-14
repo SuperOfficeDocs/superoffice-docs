@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    293,
-    380
+    463,
+    676
   ]
 }
 ```
@@ -107,45 +107,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 871,
-    "MessageId": "provident",
-    "Subject": "eius",
+    "ServerId": 37,
+    "MessageId": "consequatur",
+    "Subject": "nemo",
     "From": null,
     "To": [
       {
-        "ContactId": 162,
-        "ContactName": "Von, Hills and White",
-        "PersonId": 468,
-        "PersonName": "Hegmann-Romaguera",
-        "AssociateId": 338,
-        "Address": "cum",
-        "EmailId": 158,
+        "ContactId": 585,
+        "ContactName": "Swaniawski Inc and Sons",
+        "PersonId": 676,
+        "PersonName": "Ritchie-Stracke",
+        "AssociateId": 688,
+        "Address": "reprehenderit",
+        "EmailId": 221,
         "DuplicatePersonIds": [
-          811,
-          244
+          288,
+          897
         ],
-        "Name": "Brown, Koelpin and Boehm",
+        "Name": "Thompson, Hilll and Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldLength": 855
           }
         }
       }
     ],
-    "Sent": "2009-08-02T03:40:46.7655146+02:00",
+    "Sent": "1999-08-05T02:30:47.2413353+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 455,
+    "Size": 483,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 871
       }
     }
   }

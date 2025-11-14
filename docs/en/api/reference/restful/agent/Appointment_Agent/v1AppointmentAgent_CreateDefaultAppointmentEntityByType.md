@@ -135,7 +135,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -154,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-02-12T03:40:45.7481236+01:00",
-  "AppointmentId": 755,
-  "Description": "Realigned real-time array",
-  "Title": "nihil",
-  "Agenda": "ab",
-  "InternalNotes": "consequatur",
-  "StartDate": "2018-01-12T03:40:45.7481236+01:00",
-  "EndDate": "2008-01-05T03:40:45.7481236+01:00",
+  "CreatedDate": "2015-08-04T02:30:46.5851045+02:00",
+  "AppointmentId": 943,
+  "Description": "Intuitive global productivity",
+  "Title": "est",
+  "Agenda": "doloribus",
+  "InternalNotes": "suscipit",
+  "StartDate": "1998-12-04T02:30:46.5851045+01:00",
+  "EndDate": "2020-07-03T02:30:46.5851045+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 43,
+  "MotherId": 905,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-11-23T03:40:45.7481236+01:00",
+  "UpdatedDate": "2011-09-06T02:30:46.5851045+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 438,
+  "ActiveLinks": 963,
   "Links": [
     {
-      "EntityName": "Green Inc and Sons",
-      "Id": 362,
-      "Description": "Profit-focused national capability",
-      "ExtraInfo": "vero",
-      "LinkId": 10,
+      "EntityName": "Bernier, Gutkowski and Christiansen",
+      "Id": 271,
+      "Description": "Compatible maximized complexity",
+      "ExtraInfo": "qui",
+      "LinkId": 417,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 741
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
-  "HasAlarm": false,
-  "ColorIndex": 558,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sint",
-  "LeadTime": "itaque",
-  "Location": "non",
-  "RejectCounter": 933,
+  "AlarmLeadTime": "inventore",
+  "HasAlarm": true,
+  "ColorIndex": 581,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "quas",
+  "LeadTime": "quisquam",
+  "Location": "sint",
+  "RejectCounter": 326,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 313,
-      "PersonId": 2,
-      "ContactId": 274,
-      "EmailId": 518,
+      "AssociateId": 890,
+      "PersonId": 794,
+      "ContactId": 509,
+      "EmailId": 961,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "elda_schmitt@mills.co.uk",
-      "Description": "Advanced context-sensitive database"
+      "EmailAddress": "giles@abernathycrona.biz",
+      "Description": "De-engineered neutral instruction set"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-01-26T03:40:45.7481236+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2010-05-13T02:30:46.5851045+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 159,
+  "PreferredTZLocation": 476,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 842,
+  "SuggestedAppointmentId": 247,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "hic",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "1616034479",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mr. Romaine Alicia Flatley",
+    "SuperOffice:2": "232025032"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "dolore"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2008-02-01T03:40:45.7481236+01:00",
-  "PublishTo": "2017-09-25T03:40:45.7481236+02:00",
-  "PublishFrom": "2001-03-12T03:40:45.7481236+01:00",
+  "PublishEventDate": "2010-04-30T02:30:46.6007285+02:00",
+  "PublishTo": "2015-10-12T02:30:46.6007285+02:00",
+  "PublishFrom": "2010-08-15T02:30:46.6007285+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 455,
+      "VisibleId": 90,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 455,
+      "VisibleId": 90,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   }
 }

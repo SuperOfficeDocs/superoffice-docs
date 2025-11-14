@@ -59,5 +59,5 @@ if(orgNr.isEmpty()) {
 * [Study the fundamentals of CRMScript][2].
 
 <!-- Referenced links -->
-[1]: ../admin/license/expander-services/index.md
+[1]: ../admin/license/expander-services.md
 [2]: crmscript/overview/getting-started.md

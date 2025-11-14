@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rogahn, Littel and Gulgowski",
-    "Records": 623,
+    "EntityName": "Jones Inc and Sons",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldLength": 808
       }
     }
   },
   {
-    "EntityName": "Rogahn, Littel and Gulgowski",
-    "Records": 623,
+    "EntityName": "Jones Inc and Sons",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldLength": 808
       }
     }
   }

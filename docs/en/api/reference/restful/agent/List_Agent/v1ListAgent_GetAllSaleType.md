@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Value": "sed",
-    "Tooltip": "eum",
+    "Id": 58,
+    "Value": "quas",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 81
       }
     }
   },
   {
-    "Id": 923,
-    "Value": "sed",
-    "Tooltip": "eum",
+    "Id": 58,
+    "Value": "quas",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 81
       }
     }
   }

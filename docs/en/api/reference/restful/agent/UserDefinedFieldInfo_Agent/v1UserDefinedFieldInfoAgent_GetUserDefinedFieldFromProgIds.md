@@ -111,13 +111,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "voluptatem",
-    "consequatur"
+    "qui",
+    "numquam"
   ],
   "OwnerType": "Appointment"
 }
@@ -131,46 +131,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 975,
-    "ColumnId": 68,
-    "FieldDefault": "dicta",
-    "FieldHeight": 445,
-    "FieldLabel": "quia",
-    "FieldLeft": 882,
-    "FieldTop": 255,
+    "UDefFieldId": 605,
+    "ColumnId": 123,
+    "FieldDefault": "possimus",
+    "FieldHeight": 738,
+    "FieldLabel": "et",
+    "FieldLeft": 336,
+    "FieldTop": 393,
     "FieldType": "Checkbox",
-    "FieldWidth": 652,
-    "FormatMask": "ut",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 913,
-    "LabelLeft": 530,
-    "LabelTop": 593,
-    "LabelWidth": 357,
-    "LastVersionId": 521,
-    "ListTableId": 388,
-    "IsMandatory": false,
+    "FieldWidth": 468,
+    "FormatMask": "dolorem",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 863,
+    "LabelLeft": 287,
+    "LabelTop": 179,
+    "LabelWidth": 126,
+    "LastVersionId": 518,
+    "ListTableId": 52,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 630,
-    "ProgId": "a",
-    "IsReadOnly": true,
-    "ShortLabel": "ipsam",
-    "TabOrder": 483,
-    "TextLength": 502,
-    "Tooltip": "autem",
-    "UdefIdentity": 15,
-    "UDListDefinitionId": 168,
+    "Page1LineNo": 936,
+    "ProgId": "ab",
+    "IsReadOnly": false,
+    "ShortLabel": "maxime",
+    "TabOrder": 382,
+    "TextLength": 434,
+    "Tooltip": "quam",
+    "UdefIdentity": 92,
+    "UDListDefinitionId": 765,
     "Justification": "Center",
-    "Version": 374,
-    "TemplateVariableName": "Purdy-Wisoky",
+    "Version": 430,
+    "TemplateVariableName": "Beahan-Mueller",
     "HasBeenPublished": false,
-    "MdoListName": "Kris-Bartoletti",
+    "MdoListName": "Mayert LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldType": "System.String",
+        "FieldLength": 285
       }
     }
   }

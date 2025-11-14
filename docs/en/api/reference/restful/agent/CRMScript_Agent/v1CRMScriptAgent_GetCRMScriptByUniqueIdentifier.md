@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui"
+  "UniqueIdentifier": "incidunt"
 }
 ```
 
@@ -104,23 +104,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "laudantium",
-  "Name": "Keebler LLC",
-  "Description": "Reactive 24 hour Graphical User Interface",
-  "IncludeId": "reiciendis",
-  "Source": "neque",
-  "Registered": "2000-02-04T03:40:46.5149979+01:00",
-  "RegisteredBy": "eligendi",
-  "Updated": "1998-12-25T03:40:46.5149979+01:00",
-  "UpdatedBy": "voluptas",
-  "Path": "placeat",
+  "UniqueIdentifier": "sit",
+  "Name": "Gulgowski-Gibson",
+  "Description": "Streamlined responsive interface",
+  "IncludeId": "aspernatur",
+  "Source": "fugiat",
+  "Registered": "2002-07-08T02:30:47.0382145+02:00",
+  "RegisteredBy": "necessitatibus",
+  "Updated": "2002-01-13T02:30:47.0382145+01:00",
+  "UpdatedBy": "ea",
+  "Path": "dolorum",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

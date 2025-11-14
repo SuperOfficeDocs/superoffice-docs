@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 526,
-  "Rank": 804,
-  "DefaultTask": 598,
-  "DefaultTaskText": "esse",
-  "IsVisual": false,
-  "LastGenerated": "1998-06-29T03:40:47.5942106+02:00",
-  "Description": "Vision-oriented real-time encoding",
-  "Name": "Strosin, Adams and Friesen",
-  "StatusMonitorId": 150,
-  "PictureId": 680,
+  "OwnerTable": 504,
+  "Rank": 919,
+  "DefaultTask": 270,
+  "DefaultTaskText": "qui",
+  "IsVisual": true,
+  "LastGenerated": "2007-01-23T02:30:47.7569437+01:00",
+  "Description": "Versatile 6th generation interface",
+  "Name": "Harber, Monahan and McLaughlin",
+  "StatusMonitorId": 400,
+  "PictureId": 694,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 663,
-  "NumNeedUpdate": 614,
-  "GenerationStart": "2004-08-12T03:40:47.5942106+02:00",
+  "NumMatches": 64,
+  "NumNeedUpdate": 533,
+  "GenerationStart": "2004-09-10T02:30:47.7569437+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 777
     }
   }
 }

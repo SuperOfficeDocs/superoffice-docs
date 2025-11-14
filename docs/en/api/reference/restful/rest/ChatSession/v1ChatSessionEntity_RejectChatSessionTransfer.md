@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 213,
-  "TopicId": 826,
+  "ChatSessionId": 576,
+  "TopicId": 495,
   "User": null,
   "Person": null,
-  "CustomerAlias": "atque",
-  "CustomerHost": "quibusdam",
-  "CustomerName": "Douglas LLC",
-  "CustomerEmail": "michelle@renner.com",
-  "CustomerPhone": "1-392-274-5582 x71303",
+  "CustomerAlias": "in",
+  "CustomerHost": "provident",
+  "CustomerName": "Lakin Inc and Sons",
+  "CustomerEmail": "reyes.collier@lehner.ca",
+  "CustomerPhone": "665-545-4386 x909",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Leannon, Jacobson and Pfannerstill",
+  "CustomerCompanyName": "Grady Group",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "ea",
-  "WhenRequested": "2018-11-09T03:40:55.3661845+01:00",
-  "WhenStarted": "2024-07-26T03:40:55.3661845+02:00",
-  "WhenEnded": "2018-10-09T03:40:55.3661845+02:00",
-  "WhenIdle": "2006-10-01T03:40:55.3661845+02:00",
-  "WhenFetched": "2017-10-06T03:40:55.3661845+02:00",
-  "SessionKey": "reiciendis",
-  "InitialQueuePos": 230,
-  "AlertLevel": 469,
-  "Rank": 852,
+  "FirstMessage": "blanditiis",
+  "LastMessage": "sit",
+  "WhenRequested": "2000-02-04T02:30:52.3974196+01:00",
+  "WhenStarted": "2001-05-25T02:30:52.3974196+02:00",
+  "WhenEnded": "2016-12-29T02:30:52.3974196+01:00",
+  "WhenIdle": "2014-08-27T02:30:52.3974196+02:00",
+  "WhenFetched": "2002-09-07T02:30:52.3974196+02:00",
+  "SessionKey": "repellendus",
+  "InitialQueuePos": 319,
+  "AlertLevel": 457,
+  "Rank": 404,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 934,
+  "ChatbotIsActive": true,
+  "Rating": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 510
     }
   }
 }

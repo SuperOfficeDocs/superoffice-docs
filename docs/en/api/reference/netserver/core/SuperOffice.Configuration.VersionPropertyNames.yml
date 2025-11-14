@@ -9,6 +9,7 @@ items:
   - SuperOffice.Configuration.VersionPropertyNames.AppiAllArchiveCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  - SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionParamsForRequest
   - SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
   - SuperOffice.Configuration.VersionPropertyNames.DebugUser
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
@@ -233,6 +234,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const CollectSoConnectionStack As String = "CollectSoConnectionStack"
+- uid: SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionParamsForRequest
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionParamsForRequest
+  id: CollectSoConnectionParamsForRequest
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: CollectSoConnectionParamsForRequest
+  nameWithType: VersionPropertyNames.CollectSoConnectionParamsForRequest
+  fullName: SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionParamsForRequest
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    If CollectSoConnectionStack is true; then evaluate whether the call stack contains the value of this setting. If yes,
+
+    collect detailed request parameters
+  example: []
+  syntax:
+    content: public const string CollectSoConnectionParamsForRequest = "CollectSoConnectionParamsForRequest"
+    return:
+      type: System.String
+    content.vb: Public Const CollectSoConnectionParamsForRequest As String = "CollectSoConnectionParamsForRequest"
 - uid: SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
   id: DetailedTiming

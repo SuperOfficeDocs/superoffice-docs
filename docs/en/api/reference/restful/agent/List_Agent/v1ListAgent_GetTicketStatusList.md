@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,19 +90,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 299,
-    "Name": "Considine-Beier",
+    "TicketStatusId": 925,
+    "Name": "Schuppe Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
+    "NoEmailReopen": false,
+    "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 40
       }
     }
   }

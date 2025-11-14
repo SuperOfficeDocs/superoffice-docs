@@ -11,8 +11,6 @@ items:
   href: form-templates.md
 - name: Formulieren publiceren
   href: publish.md
-- name: Vooraf ingevulde velden gebruiken
-  href: form-prefilled.md
 - name: Formulierstatistieken weergeven
   href: view-statistics.md
 - name: Formulierverzendingen verwerken

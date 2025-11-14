@@ -102,29 +102,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grady Group",
-  "Comment": "quaerat",
-  "StakeholderRoleId": 487,
-  "CountryId": 5,
-  "PersonId": 358,
-  "EmailDescription": "bradford@ritchie.uk",
-  "EmailId": 669,
-  "EmailAddress": "rigoberto.cummerata@kuvalisstiedemann.name",
-  "PhoneId": 294,
-  "ContactName": "Heller, Batz and Weimann",
-  "ContactId": 253,
-  "SaleId": 95,
-  "Mrmrs": "eaque",
-  "Firstname": "Stefanie",
-  "MiddleName": "Mraz, Gleason and Kuhlman",
-  "Lastname": "Kuhlman",
-  "SaleStakeholderId": 686,
-  "Rank": 598,
-  "Phone": "870.464.2501 x10493"
+  "StakeholderRoleName": "Nienow Group",
+  "Comment": "sapiente",
+  "StakeholderRoleId": 455,
+  "CountryId": 221,
+  "PersonId": 689,
+  "EmailDescription": "clifton.huel@boganheathcote.ca",
+  "EmailId": 842,
+  "EmailAddress": "newton_cassin@wymantorphy.info",
+  "PhoneId": 427,
+  "ContactName": "Wilkinson, Waelchi and Casper",
+  "ContactId": 535,
+  "SaleId": 246,
+  "Mrmrs": "et",
+  "Firstname": "Marc",
+  "MiddleName": "Emmerich Group",
+  "Lastname": "Glover",
+  "SaleStakeholderId": 908,
+  "Rank": 269,
+  "Phone": "1-608-027-7242 x2271"
 }
 ```
 
@@ -135,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kuhic Inc and Sons",
-  "Comment": "officiis",
-  "StakeholderRoleId": 766,
-  "CountryId": 677,
-  "PersonId": 342,
-  "EmailDescription": "julie@hoppe.us",
-  "EmailId": 92,
-  "EmailAddress": "milford_wisoky@jacobson.com",
-  "PhoneId": 436,
-  "ContactName": "Rice-Cartwright",
-  "ContactId": 2,
-  "SaleId": 367,
-  "Mrmrs": "et",
-  "Firstname": "Nils",
-  "MiddleName": "Nader Group",
-  "Lastname": "Koss",
-  "SaleStakeholderId": 853,
-  "Rank": 177,
-  "Phone": "940.412.5287",
+  "StakeholderRoleName": "McGlynn Group",
+  "Comment": "laboriosam",
+  "StakeholderRoleId": 100,
+  "CountryId": 342,
+  "PersonId": 617,
+  "EmailDescription": "jenifer@stoltenbergmoore.uk",
+  "EmailId": 299,
+  "EmailAddress": "icie_witting@fritsch.name",
+  "PhoneId": 373,
+  "ContactName": "Nolan-O'Conner",
+  "ContactId": 272,
+  "SaleId": 558,
+  "Mrmrs": "omnis",
+  "Firstname": "Estelle",
+  "MiddleName": "Cassin-Wilderman",
+  "Lastname": "Kunze",
+  "SaleStakeholderId": 528,
+  "Rank": 10,
+  "Phone": "1-533-852-6030",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

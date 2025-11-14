@@ -104,29 +104,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 788,
-  "ParentId": 98,
-  "Name": "Watsica-Fadel",
-  "Fullname": "quisquam",
-  "CategoryMaster": 374,
+  "TicketCategoryId": 301,
+  "ParentId": 786,
+  "Name": "Hirthe-Pfannerstill",
+  "Fullname": "ab",
+  "CategoryMaster": 614,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Toy, Mills and Yundt",
+  "ExternalName": "Beer, Leuschke and Mueller",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 287,
-  "ReplyTemplate": 147,
-  "NotificationEmail": "alan_moore@hahn.uk",
+  "AssignmentLag": 709,
+  "ReplyTemplate": 14,
+  "NotificationEmail": "lorine_rice@homenick.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 953,
+  "EffectiveReplyTemplateId": 719,
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "est",
+    "CustomFields2": "incidunt"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 97,
-  "ParentId": 666,
-  "Name": "O'Hara, Bartoletti and Sauer",
-  "Fullname": "laudantium",
-  "CategoryMaster": 158,
+  "TicketCategoryId": 365,
+  "ParentId": 142,
+  "Name": "Daugherty LLC",
+  "Fullname": "sed",
+  "CategoryMaster": 241,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kub Group",
+  "ExternalName": "Rath-Roob",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 961,
-  "ReplyTemplate": 118,
-  "NotificationEmail": "bernadine_armstrong@hermistonrenner.info",
+  "AssignmentLag": 647,
+  "ReplyTemplate": 977,
+  "NotificationEmail": "emilie@daniel.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 409,
+  "EffectiveReplyTemplateId": 549,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

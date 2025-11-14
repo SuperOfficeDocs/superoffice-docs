@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 368
+  "DocumentId": 284
 }
 ```
 

@@ -135,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 724,
-  "StartTime": "2017-01-28T03:40:45.60749+01:00",
-  "EndTime": "2011-01-24T03:40:45.60749+01:00",
-  "Count": 324,
+  "ContactId": 566,
+  "StartTime": "2025-01-03T02:30:46.522607+01:00",
+  "EndTime": "1999-01-19T02:30:46.522607+01:00",
+  "Count": 866,
   "TaskIds": [
-    238,
-    611
+    70,
+    446
   ]
 }
 ```
@@ -158,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 408,
-    "StartDate": "2007-07-21T03:40:45.6231158+02:00",
-    "EndDate": "2022-07-24T03:40:45.6231158+02:00",
+    "AppointmentId": 757,
+    "StartDate": "2006-02-18T02:30:46.522607+01:00",
+    "EndDate": "2011-01-17T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "expedita",
-    "AssociateFullName": "Prof. Roman Vita Herzog",
-    "ContactName": "Morissette-Schmeler",
-    "Description": "Triple-buffered discrete definition",
-    "PersonFullName": "Tressa Talon Effertz Sr.",
-    "PersonId": 847,
-    "ContactId": 229,
-    "ProjectId": 324,
-    "ProjectName": "Bayer-Strosin",
+    "Task": "et",
+    "AssociateFullName": "Prof. Autumn Alicia Jacobi I",
+    "ContactName": "Ernser LLC",
+    "Description": "Customer-focused 3rd generation installation",
+    "PersonFullName": "Noemy Turcotte",
+    "PersonId": 968,
+    "ContactId": 489,
+    "ProjectId": 317,
+    "ProjectName": "Dibbert-Ratke",
     "IsPublished": false,
-    "AssociateId": 171,
-    "ColorIndex": 592,
+    "AssociateId": 711,
+    "ColorIndex": 129,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 216,
-    "PriorityName": "Brakus Inc and Sons",
+    "PriorityId": 542,
+    "PriorityName": "Veum-Gerlach",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2016-07-14T03:40:45.6231158+02:00",
+    "ActiveDate": "2003-04-25T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-08-04T03:40:45.6231158+02:00",
-    "RecurringEndDate": "2010-09-23T03:40:45.6231158+02:00",
-    "MotherId": 89,
-    "AssignedBy": 417,
-    "AssignedByFullName": "Webster Lora Leuschke DVM",
-    "RejectReason": "disintermediate holistic content",
+    "RecurringStartDate": "2023-04-23T02:30:46.522607+02:00",
+    "RecurringEndDate": "1998-08-06T02:30:46.522607+02:00",
+    "MotherId": 495,
+    "AssignedBy": 261,
+    "AssignedByFullName": "Baby Cummings",
+    "RejectReason": "",
     "Location": "sed",
-    "AlarmLeadTime": "ducimus",
-    "SaleId": 14,
-    "SaleName": "Cruickshank LLC",
-    "AssociateName": "Carroll-Wuckert",
-    "CreatedDate": "1999-03-17T03:40:45.6231158+01:00",
-    "CreatedBy": "ab",
-    "CreatedByFullName": "Griffin Homenick",
-    "CreatedByAssociateId": 706,
+    "AlarmLeadTime": "ea",
+    "SaleId": 810,
+    "SaleName": "Will Inc and Sons",
+    "AssociateName": "Thiel, Schuppe and Bartell",
+    "CreatedDate": "2006-12-02T02:30:46.522607+01:00",
+    "CreatedBy": "similique",
+    "CreatedByFullName": "Verna Schmeler",
+    "CreatedByAssociateId": 148,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 982,
+    "MotherAssociateId": 389,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 516,
-    "Title": "consectetur",
-    "Agenda": "atque",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 399,
+    "Title": "et",
+    "Agenda": "libero",
+    "InternalNotes": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 641
       }
     }
   }

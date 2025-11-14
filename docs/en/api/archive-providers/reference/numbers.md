@@ -61,7 +61,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 |updated\_associate/assocType|listAny|By - Type: Type of user: associate, external user, system user, anonymous account| x |
 |updated\_associate/ejUserId|int|By - Service user ID: The database ID of a Service user|  |
 |updated\_associate/simultaneousEjUser|bool|By - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|updated\_associate/ejDisplayName|string|By - Nick name: User's nick name in Service| x |
+|updated\_associate/ejDisplayName|string|By - Nickname: User's nickname in Service| x |
 |updated\_associate/ejStatus|int|By - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |updated\_associate/credentialType| *None* |By - Auth. type: What type of credentials to use when this user logs in| x |
 |updated\_associate/credentialDisplayValue| *None* |By - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |

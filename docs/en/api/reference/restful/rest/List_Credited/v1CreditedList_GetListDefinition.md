@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Will-Kuhn",
-  "Tooltip": "provident",
+  "Id": 656,
+  "Name": "Yundt Group",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 292,
+  "Rank": 824,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 632
     }
   },
   "_Links": {

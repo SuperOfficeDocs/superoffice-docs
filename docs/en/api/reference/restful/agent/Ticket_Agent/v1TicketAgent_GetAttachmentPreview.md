@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 134
+  "AttachmentId": 658
 }
 ```
 
@@ -101,31 +101,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz-Rosenbaum",
-  "MimeType": "velit",
-  "Size": 299,
+  "Name": "Walker Inc and Sons",
+  "MimeType": "ipsum",
+  "Size": 562,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "lyda.kemmer@hermann.biz",
-  "EmailFrom": "raphaelle@klocko.co.uk",
-  "EmailTo": "frieda_krajcik@kossgibson.ca",
-  "EmailCc": "ottis.haag@stoltenberg.info",
-  "EmailDate": "2012-11-11T03:40:48.1098657+01:00",
+  "EmailSubject": "jordy@parisian.ca",
+  "EmailFrom": "beverly@wiza.uk",
+  "EmailTo": "ruthie.schuster@hills.com",
+  "EmailCc": "elbert.padberg@kiehnmoore.biz",
+  "EmailDate": "2011-06-07T02:30:48.0538071+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 728,
-      "Name": "Rowe, Marquardt and Kovacek",
-      "ContentType": "harum",
-      "AttSize": 967,
+      "AttachmentId": 811,
+      "Name": "Bradtke, Schmeler and Ratke",
+      "ContentType": "alias",
+      "AttSize": 930,
       "InlineImage": true,
-      "ContentId": "explicabo",
-      "AuthKey": "voluptatem",
+      "ContentId": "rerum",
+      "AuthKey": "excepturi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldLength": 158
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 627
     }
   }
 }

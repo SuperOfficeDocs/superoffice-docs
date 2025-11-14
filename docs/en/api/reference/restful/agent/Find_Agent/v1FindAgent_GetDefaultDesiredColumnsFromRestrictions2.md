@@ -171,12 +171,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kris-Gusikowski",
-  "Restrictions": "ratione"
+  "ProviderName": "Little, Bahringer and Kunde",
+  "Restrictions": "fuga"
 }
 ```
 
@@ -188,19 +188,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Runolfsson, Gutmann and Stehr",
-    "DisplayTooltip": "dolores",
-    "DisplayType": "non",
+    "DisplayName": "Dietrich LLC",
+    "DisplayTooltip": "corrupti",
+    "DisplayType": "repellat",
     "CanOrderBy": true,
-    "Name": "Tromp-Ankunding",
-    "CanRestrictBy": false,
-    "RestrictionType": "est",
-    "RestrictionListName": "Cormier, Bergstrom and Ruecker",
+    "Name": "Veum LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "modi",
+    "RestrictionListName": "Grant LLC",
     "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "et",
-    "IconHint": "vel",
-    "HeadingIconHint": "aut"
+    "ExtraInfo": "quidem",
+    "Width": "sed",
+    "IconHint": "nisi",
+    "HeadingIconHint": "dolorem"
   }
 ]
 ```

@@ -84,40 +84,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 623,
-  "Name": "Collier, Hilpert and Moore",
-  "Rank": 704,
-  "Tooltip": "enim",
-  "Icon": "architecto",
-  "DefaultTicketStatus": 92,
+  "TicketTypeId": 123,
+  "Name": "Huels Inc and Sons",
+  "Rank": 433,
+  "Tooltip": "nesciunt",
+  "Icon": "nulla",
+  "DefaultTicketStatus": 865,
   "TicketStatuses": [
-    630,
-    437
+    773,
+    151
   ],
-  "DefaultTicketPriority": 530,
+  "DefaultTicketPriority": 340,
   "TicketPriorities": [
-    901,
-    225
+    75,
+    285
   ],
-  "ReplyTemplate": 29,
+  "ReplyTemplate": 479,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    904,
-    950
+    114,
+    598
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 520
     }
   }
 }

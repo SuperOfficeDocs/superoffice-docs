@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dicta",
+  "RawValue": "sunt",
   "Specification": null,
-  "DisplayValue": "quod",
-  "DisplayTooltip": "asperiores",
+  "DisplayValue": "corporis",
+  "DisplayTooltip": "optio",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 567,
-  "PrefDescId": 460,
-  "TableName": "Hegmann Inc and Sons",
-  "UserPreferenceId": 133,
+  "TargetId": 218,
+  "PrefDescId": 158,
+  "TableName": "Davis-Reinger",
+  "UserPreferenceId": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

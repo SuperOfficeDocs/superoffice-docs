@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# service\_auth Table (489)
+# service\_auth Table (490)
 
 Authentication for a service (imap, smtp...)
 

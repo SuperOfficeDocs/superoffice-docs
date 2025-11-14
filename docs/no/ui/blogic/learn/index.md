@@ -60,7 +60,7 @@ Ved å [legge til ekstra tabeller og felt][1] i SuperOffice kan du lagre en meng
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
-[13]: ../../../admin/learn/package-properties.md
-[14]: ../../../automation/crmscript/learn/screen/data-exchange.md
+[13]: ../../../customization/admin/package-properties.md
+[14]: ../../../admin/onsite/data-exchange.md
 
 <!-- Referenced images -->

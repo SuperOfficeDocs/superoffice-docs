@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | refCountEntityId | int32 | **Required** The identity of the RefCountEntity |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=791
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=54
 ```
 
 

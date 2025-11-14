@@ -116,7 +116,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -124,73 +124,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 25 Jul 2005 03:40:56 G7T
+Last-Modified: Tue, 25 Jun 2013 02:30:52 G6T
 
 {
-  "Description": "Multi-lateral context-sensitive emulation",
-  "Postit": "qui",
+  "Description": "Cloned object-oriented model",
+  "Postit": "possimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 996,
-  "IncludePerson": 320,
+  "GroupIdx": 999,
+  "IncludePerson": 9,
   "MemberCount": 99.99,
-  "Name": "King, Sauer and Toy",
-  "PostitTextId": 430,
-  "CreatedDate": "1998-07-24T03:40:56.2105477+02:00",
-  "SelectionId": 549,
-  "SoundEx": "natus",
-  "Source": 328,
-  "TextId": 78,
-  "UpdatedDate": "2005-07-25T03:40:56.2105477+02:00",
-  "UpdatedCount": 848,
-  "Visibility": 253,
+  "Name": "Kris-Kunze",
+  "PostitTextId": 117,
+  "CreatedDate": "2008-08-04T02:30:52.9130204+02:00",
+  "SelectionId": 477,
+  "SoundEx": "iure",
+  "Source": 615,
+  "TextId": 986,
+  "UpdatedDate": "2013-06-25T02:30:52.9130204+02:00",
+  "UpdatedCount": 589,
+  "Visibility": 542,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 35,
-  "TargetTableName": "Pacocha-Olson",
-  "Completed": true,
-  "LeftSelectionId": 675,
-  "RightSelectionId": 61,
+  "TargetTableNumber": 42,
+  "TargetTableName": "Wintheiser, Leannon and Okuneva",
+  "Completed": false,
+  "LeftSelectionId": 798,
+  "RightSelectionId": 670,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Marquardt LLC",
-  "ShadowProviderName": "Pagac-Kutch",
-  "ChartKey": "libero",
-  "LastLoaded": "2025-01-07T03:40:56.2105477+01:00",
-  "LastLoadedBy": 606,
+  "MainProviderName": "Welch Inc and Sons",
+  "ShadowProviderName": "Balistreri Group",
+  "ChartKey": "iure",
+  "LastLoaded": "2002-05-16T02:30:52.9130204+02:00",
+  "LastLoadedBy": 529,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-08T03:40:56.2105477+02:00",
-  "LastMembershipChangeBy": 717,
+  "LastMembershipChange": "2005-06-30T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 33,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Lueilwitz, Hyatt and Gaylord",
-  "DashboardTileDefinitionId": 451,
+  "MainHeading": "mollitia",
+  "MemberTabHeading": "iusto",
+  "MailingsProviderName": "Harris, Vandervort and Pfannerstill",
+  "DashboardTileDefinitionId": 942,
   "VisibleFor": [
     {
-      "VisibleId": 101,
+      "VisibleId": 457,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldLength": 584
         }
       }
     },
     {
-      "VisibleId": 101,
+      "VisibleId": 457,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldLength": 584
         }
       }
     }
@@ -200,7 +200,7 @@ Last-Modified: Mon, 25 Jul 2005 03:40:56 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 972
     }
   },
   "_Links": {

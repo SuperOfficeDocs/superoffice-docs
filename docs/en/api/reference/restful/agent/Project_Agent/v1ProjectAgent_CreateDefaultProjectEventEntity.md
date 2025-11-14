@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,94 +97,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quod",
-  "SignOffText": "voluptas",
-  "SignOnConfirmationText": "velit",
-  "SignOnText": "sint",
-  "EventDate": "2014-04-20T03:40:47.4843558+02:00",
-  "Enabled": true,
-  "CreatedDate": "2012-08-12T03:40:47.4843558+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 621,
+  "SignOffConfirmationText": "adipisci",
+  "SignOffText": "aut",
+  "SignOnConfirmationText": "natus",
+  "SignOnText": "enim",
+  "EventDate": "2017-10-21T02:30:47.6788214+02:00",
+  "Enabled": false,
+  "CreatedDate": "1999-12-20T02:30:47.6788214+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 914,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 964,
+  "SignOn": true,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 230,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2002-04-06T03:40:47.4843558+02:00",
+  "UpdatedDate": "2012-12-07T02:30:47.6788214+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 728,
-  "Id": 373,
-  "PublishFrom": "2001-03-23T03:40:47.4843558+01:00",
+  "ProjectId": 827,
+  "Id": 800,
+  "PublishFrom": "2008-11-06T02:30:47.6788214+01:00",
   "PublishType": "External",
-  "PublishTo": "2009-06-08T03:40:47.4843558+02:00",
+  "PublishTo": "1998-08-18T02:30:47.6788214+02:00",
   "VisibleForCategories": [
     {
-      "Id": 712,
-      "Name": "Weissnat Group",
-      "ToolTip": "Totam expedita.",
+      "Id": 148,
+      "Name": "Bailey, Hauck and Nicolas",
+      "ToolTip": "Vero quia quis omnis sapiente voluptatem.",
       "Deleted": false,
-      "Rank": 861,
-      "Type": "omnis",
+      "Rank": 330,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "delectus",
-      "ColorBlock": 762,
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "dolor",
-      "FullName": "Kelly Schimmel",
+      "IconHint": "doloribus",
+      "ColorBlock": 335,
+      "ExtraInfo": "et",
+      "StyleHint": "quam",
+      "FullName": "Augustine Bogisich Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 722
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 704,
-      "Name": "Batz Inc and Sons",
-      "ToolTip": "Aut vitae accusamus et.",
+      "Id": 802,
+      "Name": "Walsh-Herzog",
+      "ToolTip": "Omnis eum.",
       "Deleted": false,
-      "Rank": 786,
-      "Type": "ipsam",
+      "Rank": 948,
+      "Type": "labore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 451,
-      "ExtraInfo": "aliquam",
-      "StyleHint": "sit",
-      "FullName": "Robert Shanahan",
+      "IconHint": "fugit",
+      "ColorBlock": 682,
+      "ExtraInfo": "suscipit",
+      "StyleHint": "debitis",
+      "FullName": "Junius Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 249,
+  "ProjectEventId": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

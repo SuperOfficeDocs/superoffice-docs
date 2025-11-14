@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Beatty-Sauer",
-  "Tooltip": "voluptatum",
+  "Id": 252,
+  "Name": "Kemmer, Cronin and Rath",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 22,
-  "Rank": 863,
+  "UdListDefinitionId": 113,
+  "Rank": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 253
     }
   }
 }

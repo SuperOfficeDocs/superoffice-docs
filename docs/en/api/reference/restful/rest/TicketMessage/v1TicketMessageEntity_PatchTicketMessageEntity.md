@@ -135,18 +135,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nihil",
+    "path": "reprehenderit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
+    "path": "reprehenderit",
     "value": {}
   }
 ]
@@ -159,28 +159,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 961,
+  "EjMessageId": 971,
   "Ticket": null,
-  "CreatedAt": "2014-12-31T03:40:56.3984728+01:00",
+  "CreatedAt": "2019-11-24T02:30:53.022399+01:00",
   "CreatedBy": null,
-  "Author": "error",
+  "Author": "dicta",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "amet",
-  "TimeSpent": 930,
-  "Body": "at",
-  "HtmlBody": "ut",
-  "EmailHeader": "estrella_boehm@schuppebuckridge.com",
-  "DebugInfo": "quia",
-  "MailSorter": "assumenda",
+  "MessageId": "nulla",
+  "TimeSpent": 409,
+  "Body": "autem",
+  "HtmlBody": "culpa",
+  "EmailHeader": "fannie_fadel@olson.co.uk",
+  "DebugInfo": "sed",
+  "MailSorter": "temporibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquid",
+  "SearchTitle": "eveniet",
   "MessageHeaders": [
     {
-      "Id": 251,
-      "Name": "Rau-Gleichner",
-      "Value": "non",
+      "Id": 928,
+      "Name": "Hartmann, Cruickshank and Dicki",
+      "Value": "eum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -188,50 +188,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 308
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "ea",
-  "Sentiment": 765,
-  "SentimentConfidence": 742,
+  "Important": true,
+  "Language": "omnis",
+  "Sentiment": 985,
+  "SentimentConfidence": 452,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 466,
-      "Name": "Hayes Group",
-      "ContentType": "qui",
-      "AttSize": 139,
+      "AttachmentId": 139,
+      "Name": "Schowalter Inc and Sons",
+      "ContentType": "praesentium",
+      "AttSize": 60,
       "InlineImage": false,
-      "ContentId": "ad",
-      "AuthKey": "quia",
+      "ContentId": "odit",
+      "AuthKey": "quam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "est",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 259
     }
   },
   "_Links": {

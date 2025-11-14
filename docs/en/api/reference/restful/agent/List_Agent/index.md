@@ -88,9 +88,9 @@ content_type: reference
 
 * [POST Agents/List/CreateDefaultWebPanelEntity](v1ListAgent_CreateDefaultWebPanelEntity.md)
 
-* [POST Agents/List/SaveWebPanelEntity](v1ListAgent_SaveWebPanelEntity.md)
-
 * [POST Agents/List/GetWebPanelEntity](v1ListAgent_GetWebPanelEntity.md)
+
+* [POST Agents/List/SaveWebPanelEntity](v1ListAgent_SaveWebPanelEntity.md)
 
 * [POST Agents/List/GenerateNavigationUrl](v1ListAgent_GenerateNavigationUrl.md)
 
@@ -520,11 +520,11 @@ content_type: reference
 
 * [POST Agents/List/CreateDefaultTaskMenu](v1ListAgent_CreateDefaultTaskMenu.md)
 
+* [POST Agents/List/GetTaskMenu](v1ListAgent_GetTaskMenu.md)
+
 * [POST Agents/List/SaveTaskMenu](v1ListAgent_SaveTaskMenu.md)
 
 * [POST Agents/List/DeleteTaskMenu](v1ListAgent_DeleteTaskMenu.md)
-
-* [POST Agents/List/GetTaskMenu](v1ListAgent_GetTaskMenu.md)
 
 * [POST Agents/List/GetAppTaskMenus](v1ListAgent_GetAppTaskMenus.md)
 

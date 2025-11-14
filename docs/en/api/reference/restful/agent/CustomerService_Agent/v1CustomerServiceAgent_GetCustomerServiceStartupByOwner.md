@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 717
+  "UserId": 39
 }
 ```
 
@@ -94,28 +94,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": true,
-  "TZOffset": 418,
-  "RecaptchaSiteKey": "est",
+  "TimezoneEnabled": false,
+  "TZOffset": 828,
+  "RecaptchaSiteKey": "sit",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "expedita",
+      "RawValue": "dolore",
       "Specification": null,
-      "DisplayValue": "ut",
-      "DisplayTooltip": "ullam",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "omnis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 673,
-      "PrefDescId": 492,
-      "TableName": "Keebler-Langosh",
-      "UserPreferenceId": 86,
+      "TargetId": 405,
+      "PrefDescId": 716,
+      "TableName": "Weber, Wuckert and Harber",
+      "UserPreferenceId": 629,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldType": "System.String",
+          "FieldLength": 538
         }
       }
     }
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

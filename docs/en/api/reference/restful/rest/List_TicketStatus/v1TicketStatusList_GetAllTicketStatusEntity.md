@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 137,
-    "Name": "Daugherty, Ritchie and Braun",
+    "TicketStatusId": 718,
+    "Name": "Eichmann-McLaughlin",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
-    "IsDefault": false,
+    "IsDefault": true,
     "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 105
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

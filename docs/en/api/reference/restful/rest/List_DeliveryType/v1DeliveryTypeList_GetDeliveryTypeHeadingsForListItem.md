@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Pagac-Quigley",
-    "ToolTip": "Numquam id doloremque provident fuga.",
-    "Deleted": false,
-    "Rank": 792,
-    "Type": "eius",
-    "ColorBlock": 348,
-    "IconHint": "dolorum",
+    "Id": 238,
+    "Name": "Cronin-Bernhard",
+    "ToolTip": "Reprehenderit voluptas veniam.",
+    "Deleted": true,
+    "Rank": 359,
+    "Type": "optio",
+    "ColorBlock": 318,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2003-04-12T03:40:56.8369839+02:00",
+    "LastChanged": "2020-10-30T02:30:53.288015+01:00",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Heidenreich Inc and Sons",
-        "ToolTip": "Et est in et blanditiis.",
-        "Deleted": false,
-        "Rank": 163,
-        "Type": "harum",
-        "ColorBlock": 382,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2012-05-01T03:40:56.8369839+02:00",
+        "Id": 481,
+        "Name": "Feeney-Predovic",
+        "ToolTip": "Qui autem inventore iste nesciunt quos fugit.",
+        "Deleted": true,
+        "Rank": 539,
+        "Type": "minus",
+        "ColorBlock": 327,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2006-12-28T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "exercitationem",
         "Hidden": true,
-        "FullName": "Kennedi Schneider",
+        "FullName": "Miss Kayleigh Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 931
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "et",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Elise Brakus",
+    "FullName": "Gavin Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 681
+        "FieldLength": 169
       }
     }
   }

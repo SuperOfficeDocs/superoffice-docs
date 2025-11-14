@@ -27,8 +27,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=natus
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=aut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Emard LLC",
-    "ToolTip": "Eius eligendi esse officiis laboriosam.",
+    "Id": 494,
+    "Name": "Hamill LLC",
+    "ToolTip": "Voluptatem harum doloremque commodi voluptatum.",
     "Deleted": false,
-    "Rank": 598,
-    "Type": "consectetur",
+    "Rank": 943,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Emmerich-Johnston",
-        "ToolTip": "Quo pariatur enim nisi voluptas.",
+        "Id": 103,
+        "Name": "Bauch-Ebert",
+        "ToolTip": "Quasi fugit saepe illum quasi quis aperiam sit.",
         "Deleted": false,
-        "Rank": 274,
-        "Type": "labore",
+        "Rank": 974,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 551,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "doloribus",
-        "FullName": "Kurtis Savion Upton Sr.",
+        "IconHint": "blanditiis",
+        "ColorBlock": 781,
+        "ExtraInfo": "maiores",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Audreanne Laverne Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 312
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 937,
-    "ExtraInfo": "porro",
-    "StyleHint": "ut",
-    "FullName": "Grayson Ortiz",
+    "IconHint": "est",
+    "ColorBlock": 2,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "illum",
+    "FullName": "Mae Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 774
       }
     }
   }

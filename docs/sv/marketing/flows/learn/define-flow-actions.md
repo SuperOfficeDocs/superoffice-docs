@@ -112,7 +112,7 @@ Kontakten tas bort som medlem från det angivna urvalet och/eller projektet.
 
 Detta steg är liknande **Lägg till i urval/projekt**.
 
-### Distribuera till ägare
+### <a id="distribute"></a>Distribuera till ägare
 
 Fördela kontakter jämnt mellan valda medarbetare eller medlemmar i en angiven grupp. Används för att automatiskt tilldela nya kontakter till ett team.
 

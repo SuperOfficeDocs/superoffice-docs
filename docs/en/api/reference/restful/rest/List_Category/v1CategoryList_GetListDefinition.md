@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Corkery Inc and Sons",
-  "Tooltip": "et",
+  "Id": 941,
+  "Name": "Powlowski-DuBuque",
+  "Tooltip": "ad",
   "Deleted": true,
-  "Rank": 719,
-  "IsCustomList": false,
+  "Rank": 833,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   },
   "_Links": {

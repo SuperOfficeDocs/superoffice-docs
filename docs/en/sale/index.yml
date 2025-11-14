@@ -43,7 +43,7 @@ landingContent:
         - text: Add sale stage (list)
           url: admin/sale-stage.md 
         - text: Add currency (list)
-          url: ../admin/lists/learn/adding-items-to-currency-list.md
+          url: admin/add-currency.md
       - itemType: library_books
         typeDesc: reference
         links:
@@ -106,7 +106,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: What is SAINT and what can it do
-          url: saint/learn/index.md
+          url: ../saint/learn/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
@@ -136,7 +136,7 @@ landingContent:
         - text: Custom screens (bLogic)
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
-          url: ../admin/lists/learn/add-items-to-task-menu.md
+          url: ../customization/admin/add-items-to-task-menu.md
         - text: Custom fields
           url: ../custom-objects/overview.md
 

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Jaskolski Group",
-    "ToolTip": "Maiores similique quam maiores.",
+    "Id": 939,
+    "Name": "Barton, Towne and Fahey",
+    "ToolTip": "Consequatur sed et voluptas voluptatum error ratione.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "facere",
-    "ColorBlock": 296,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2016-02-23T03:40:56.8213578+01:00",
+    "Rank": 394,
+    "Type": "perferendis",
+    "ColorBlock": 790,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2017-06-03T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Koch-Ullrich",
-        "ToolTip": "Aut et et nobis atque quia dolores temporibus.",
+        "Id": 207,
+        "Name": "Hayes Group",
+        "ToolTip": "Consequuntur id excepturi a.",
         "Deleted": true,
-        "Rank": 474,
-        "Type": "id",
-        "ColorBlock": 826,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2017-03-07T03:40:56.8213578+01:00",
+        "Rank": 197,
+        "Type": "consequatur",
+        "ColorBlock": 623,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "1999-01-08T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Carter Franecki"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Prof. Olaf Maud Halvorson"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "rem",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Mrs. John Tito Reilly PhD"
+    "FullName": "Dr. Milford McLaughlin"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Cronin Group",
-    "ToolTip": "Totam iure alias sed enim ducimus.",
-    "Deleted": false,
-    "Rank": 668,
-    "Type": "impedit",
-    "ColorBlock": 331,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "2005-10-26T03:40:56.8213578+02:00",
+    "Id": 512,
+    "Name": "Hahn LLC",
+    "ToolTip": "Autem error quia.",
+    "Deleted": true,
+    "Rank": 154,
+    "Type": "dolores",
+    "ColorBlock": 143,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2011-10-12T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Gaylord Inc and Sons",
-        "ToolTip": "Distinctio itaque.",
-        "Deleted": false,
-        "Rank": 547,
-        "Type": "laudantium",
-        "ColorBlock": 403,
-        "IconHint": "placeat",
+        "Id": 698,
+        "Name": "Wolff, Kuhlman and Kulas",
+        "ToolTip": "Omnis consequuntur repellat dignissimos eligendi consequatur quasi officia.",
+        "Deleted": true,
+        "Rank": 652,
+        "Type": "qui",
+        "ColorBlock": 215,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2000-06-11T03:40:56.8213578+02:00",
+        "LastChanged": "2015-12-27T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "iure",
+        "ExtraInfo": "fugit",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Mrs. Jayde Brigitte Hettinger I",
+        "FullName": "Mrs. Amaya Keeling II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "sit",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Ivy Spencer",
+    "FullName": "Jamel Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldLength": 108
       }
     }
   }

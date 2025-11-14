@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 938,
-  "Name": "Ledner, Dooley and Krajcik",
+  "CurrencyId": 195,
+  "Name": "Auer-Franecki",
   "Tooltip": "pariatur",
-  "Rank": 689,
-  "Rate": 7499.6619999999994,
-  "Units": 7286.55,
+  "Rank": 720,
+  "Rate": 30681.86,
+  "Units": 22053.958,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

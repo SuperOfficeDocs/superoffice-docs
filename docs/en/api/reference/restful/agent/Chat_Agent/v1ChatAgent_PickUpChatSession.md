@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 693
+  "ChatSessionId": 959
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 135,
-  "TopicId": 933,
+  "ChatSessionId": 706,
+  "TopicId": 569,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "enim",
-  "CustomerName": "Brown-Rice",
-  "CustomerEmail": "cali@waelchi.biz",
-  "CustomerPhone": "482-930-2800 x1565",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "autem",
+  "CustomerName": "Johnson-Brakus",
+  "CustomerEmail": "connie@williamson.us",
+  "CustomerPhone": "(511)279-1637 x217",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Casper-Nitzsche",
+  "CustomerCompanyName": "Hansen, Bayer and Thompson",
   "Status": "Closed",
-  "FirstMessage": "unde",
-  "LastMessage": "debitis",
-  "WhenRequested": "2022-05-18T03:40:46.1702115+02:00",
-  "WhenStarted": "2007-11-06T03:40:46.1702115+01:00",
-  "WhenEnded": "2003-02-03T03:40:46.1702115+01:00",
-  "WhenIdle": "2005-03-12T03:40:46.1702115+01:00",
-  "WhenFetched": "2025-02-18T03:40:46.1702115+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 432,
-  "AlertLevel": 260,
-  "Rank": 75,
+  "FirstMessage": "officiis",
+  "LastMessage": "repellat",
+  "WhenRequested": "2006-10-22T02:30:46.8819694+02:00",
+  "WhenStarted": "2009-06-09T02:30:46.8819694+02:00",
+  "WhenEnded": "2021-08-27T02:30:46.8819694+02:00",
+  "WhenIdle": "2002-06-18T02:30:46.8819694+02:00",
+  "WhenFetched": "2019-10-01T02:30:46.8819694+02:00",
+  "SessionKey": "nisi",
+  "InitialQueuePos": 101,
+  "AlertLevel": 650,
+  "Rank": 18,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 430,
+  "Rating": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 830
     }
   }
 }

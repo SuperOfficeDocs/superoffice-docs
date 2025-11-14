@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 541,
+  "AssociateId": 55,
   "Type": "AnonymousAssociate",
-  "PersonId": 852,
-  "Password": "tempore"
+  "PersonId": 38,
+  "Password": "maxime"
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "aggregate synergistic action-items",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 72
     }
   }
 }

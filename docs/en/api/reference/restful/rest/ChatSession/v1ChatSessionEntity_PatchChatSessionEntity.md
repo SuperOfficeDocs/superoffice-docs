@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quas",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quas",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -164,29 +164,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 833,
-  "TopicId": 29,
+  "ChatSessionId": 64,
+  "TopicId": 794,
   "User": null,
   "Person": null,
-  "CustomerAlias": "assumenda",
-  "CustomerHost": "qui",
-  "CustomerName": "Hahn Inc and Sons",
-  "CustomerEmail": "jolie_ferry@aufderhar.com",
-  "CustomerPhone": "849.704.3033 x9268",
+  "CustomerAlias": "ducimus",
+  "CustomerHost": "est",
+  "CustomerName": "Zemlak Inc and Sons",
+  "CustomerEmail": "ellis.jacobs@binsoreilly.ca",
+  "CustomerPhone": "(029)835-1602 x98516",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Cummings-Mayer",
+  "CustomerCompanyName": "McLaughlin LLC",
   "Status": "Closed",
-  "FirstMessage": "quasi",
-  "LastMessage": "provident",
-  "WhenRequested": "2001-05-19T03:40:55.3349384+02:00",
-  "WhenStarted": "1999-06-21T03:40:55.3349384+02:00",
-  "WhenEnded": "2014-07-11T03:40:55.3349384+02:00",
-  "WhenIdle": "2008-06-01T03:40:55.3349384+02:00",
-  "WhenFetched": "2010-08-11T03:40:55.3349384+02:00",
-  "SessionKey": "tenetur",
-  "InitialQueuePos": 946,
-  "AlertLevel": 311,
-  "Rank": 637,
+  "FirstMessage": "temporibus",
+  "LastMessage": "est",
+  "WhenRequested": "2014-11-27T02:30:52.3817956+01:00",
+  "WhenStarted": "2017-11-10T02:30:52.3817956+01:00",
+  "WhenEnded": "2005-05-26T02:30:52.3817956+02:00",
+  "WhenIdle": "2018-01-18T02:30:52.3817956+01:00",
+  "WhenFetched": "2006-06-28T02:30:52.3817956+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 242,
+  "AlertLevel": 692,
+  "Rank": 393,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -194,18 +194,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 985,
+  "Rating": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldLength": 116
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

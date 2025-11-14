@@ -72,17 +72,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mayert Group",
-  "ProviderName": "Littel-Walsh",
-  "Context": "et",
-  "OwnerKeys": "optio",
+  "GuiName": "Wisozk Group",
+  "ProviderName": "Ratke Inc and Sons",
+  "Context": "perspiciatis",
+  "OwnerKeys": "laboriosam",
   "ChosenColumns": [
-    "itaque",
-    "ratione"
+    "eum",
+    "ipsam"
   ]
 }
 ```

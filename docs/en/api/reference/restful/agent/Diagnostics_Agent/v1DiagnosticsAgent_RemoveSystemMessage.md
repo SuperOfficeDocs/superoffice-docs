@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 936,
-  "SystemMessageId": "molestias"
+  "OnlineappId": 721,
+  "SystemMessageId": "eos"
 }
 ```
 

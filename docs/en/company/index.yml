@@ -86,7 +86,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: Adding items to relation list
-            url: ../admin/lists/learn/adding-items-to-relation-list.md
+            url: ../admin/lists/specialized-lists.md#relation
 
   - title: Import and bulk operations
     linkLists:
@@ -113,7 +113,7 @@ landingContent:
           - text: Web panels
             url: ../customization/web-panels/admin/index.md
           - text: Task menu items
-            url: ../admin/lists/learn/add-items-to-task-menu.md
+            url: ../customization/admin/add-items-to-task-menu.md
           - text: Custom fields
             url: ../custom-objects/overview.md
       - itemType: list

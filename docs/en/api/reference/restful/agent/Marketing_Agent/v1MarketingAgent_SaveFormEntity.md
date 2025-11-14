@@ -110,36 +110,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 963,
-  "FormKey": "nihil",
-  "Name": "Lehner Group",
-  "Description": "Programmable object-oriented budgetary management",
-  "Config": "qui",
-  "FolderId": 501,
-  "ScriptId": 986,
-  "ResponseShipmentId": 91,
-  "Active": false,
-  "Expires": "2022-05-13T03:40:47.2499194+02:00",
-  "MaxSubmits": 263,
+  "FormId": 902,
+  "FormKey": "est",
+  "Name": "Schaefer-Hilll",
+  "Description": "Customer-focused mobile toolset",
+  "Config": "dolorum",
+  "FolderId": 532,
+  "ScriptId": 480,
+  "ResponseShipmentId": 466,
+  "Active": true,
+  "Expires": "2016-01-02T02:30:47.4600781+01:00",
+  "MaxSubmits": 778,
   "Type": "Normal",
-  "Recipe": "officia",
-  "GroupId": 295,
+  "Recipe": "et",
+  "GroupId": 859,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2010-08-14T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 515,
-  "Updated": "2024-09-16T03:40:47.2499194+02:00",
-  "UpdatedAssociateId": 511,
-  "UpdatedCount": 679,
+  "Registered": "2006-01-16T02:30:47.4600781+01:00",
+  "RegisteredAssociateId": 233,
+  "Updated": "2001-11-22T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 881,
+  "UpdatedCount": 258,
   "EmailFlows": [
-    436,
-    972
+    97,
+    881
   ],
-  "FolderName": "Wiza-Jacobson"
+  "FolderName": "Sipes-Breitenberg"
 }
 ```
 
@@ -150,38 +150,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 798,
-  "FormKey": "quasi",
-  "Name": "Frami Group",
-  "Description": "Quality-focused mission-critical conglomeration",
-  "Config": "eos",
-  "FolderId": 817,
-  "ScriptId": 656,
-  "ResponseShipmentId": 216,
+  "FormId": 34,
+  "FormKey": "sint",
+  "Name": "Dare, Kovacek and Hyatt",
+  "Description": "Virtual intermediate extranet",
+  "Config": "dolor",
+  "FolderId": 472,
+  "ScriptId": 445,
+  "ResponseShipmentId": 680,
   "Active": false,
-  "Expires": "2020-05-18T03:40:47.2499194+02:00",
-  "MaxSubmits": 623,
+  "Expires": "2016-10-19T02:30:47.4600781+02:00",
+  "MaxSubmits": 857,
   "Type": "Normal",
-  "Recipe": "eveniet",
-  "GroupId": 509,
+  "Recipe": "et",
+  "GroupId": 228,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2008-01-07T03:40:47.2499194+01:00",
-  "RegisteredAssociateId": 829,
-  "Updated": "2010-09-12T03:40:47.2499194+02:00",
-  "UpdatedAssociateId": 315,
-  "UpdatedCount": 397,
+  "Registered": "2021-09-03T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 891,
+  "Updated": "1999-06-13T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 673,
+  "UpdatedCount": 582,
   "EmailFlows": [
-    907,
-    423
+    794,
+    456
   ],
-  "FolderName": "Bogisich-Mertz",
+  "FolderName": "Kuhn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 550
     }
   }
 }

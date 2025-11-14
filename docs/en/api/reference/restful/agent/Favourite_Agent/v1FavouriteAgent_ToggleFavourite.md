@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gerhold Group",
-  "RecordId": 87,
-  "AssociateId": 236,
-  "ExtraInfo": "non"
+  "TableName": "Block-Larkin",
+  "RecordId": 720,
+  "AssociateId": 638,
+  "ExtraInfo": "quia"
 }
 ```
 

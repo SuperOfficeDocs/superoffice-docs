@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,26 +100,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 740,
-    "Name": "Wiegand Group",
-    "Tooltip": "corporis",
+    "WebPanelId": 247,
+    "Name": "Feest-Kautzer",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 456,
+    "Rank": 355,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Klocko Group",
+    "WindowName": "Pouros LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "omnis",
-    "Icon": 33,
+    "ProgId": "natus",
+    "Icon": 862,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 861
       }
     }
   }

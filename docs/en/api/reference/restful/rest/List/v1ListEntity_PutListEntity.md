@@ -104,15 +104,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Anderson, Kris and Vandervort",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 944,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 545,
+  "Name": "Metz LLC",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "Rank": 967,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -124,22 +124,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 132,
-  "Name": "Hoeger-Pfannerstill",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 294,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 856,
+  "Name": "Ullrich-Miller",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 944,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 611
     }
   },
   "_Links": {

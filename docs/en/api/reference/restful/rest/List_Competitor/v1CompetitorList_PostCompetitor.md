@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Herzog-Herzog",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 339,
-  "Rank": 330
+  "Id": 295,
+  "Name": "Glover-Schultz",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 867,
+  "Rank": 224
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Lebsack LLC",
-  "Tooltip": "commodi",
+  "Id": 521,
+  "Name": "Hudson, Durgan and Schamberger",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "UdListDefinitionId": 375,
-  "Rank": 981,
+  "UdListDefinitionId": 462,
+  "Rank": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 587
     }
   }
 }

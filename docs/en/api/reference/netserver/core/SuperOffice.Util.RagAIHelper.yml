@@ -20,11 +20,6 @@ items:
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
   - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   - SuperOffice.Util.RagAIHelper.ServiceCopilotNS
-  - SuperOffice.Util.RagAIHelper._cacheManager
-  - SuperOffice.Util.RagAIHelper._config
-  - SuperOffice.Util.RagAIHelper._logger
-  - SuperOffice.Util.RagAIHelper._markdownizerEndpoint
-  - SuperOffice.Util.RagAIHelper._ragEndpoint
   - SuperOffice.Util.RagAIHelper._sharedHttpClient
   langs:
   - csharp
@@ -93,101 +88,6 @@ items:
     return:
       type: System.Net.Http.HttpClient
     content.vb: Protected Shared _sharedHttpClient As HttpClient
-- uid: SuperOffice.Util.RagAIHelper._config
-  commentId: F:SuperOffice.Util.RagAIHelper._config
-  id: _config
-  parent: SuperOffice.Util.RagAIHelper
-  langs:
-  - csharp
-  - vb
-  name: _config
-  nameWithType: RagAIHelper._config
-  fullName: SuperOffice.Util.RagAIHelper._config
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: protected readonly RagAIConfiguration _config
-    return:
-      type: SuperOffice.Util.RagAIConfiguration
-    content.vb: Protected ReadOnly _config As RagAIConfiguration
-- uid: SuperOffice.Util.RagAIHelper._logger
-  commentId: F:SuperOffice.Util.RagAIHelper._logger
-  id: _logger
-  parent: SuperOffice.Util.RagAIHelper
-  langs:
-  - csharp
-  - vb
-  name: _logger
-  nameWithType: RagAIHelper._logger
-  fullName: SuperOffice.Util.RagAIHelper._logger
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: protected readonly ILogger<RagAIHelper> _logger
-    return:
-      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
-    content.vb: Protected ReadOnly _logger As ILogger(Of RagAIHelper)
-- uid: SuperOffice.Util.RagAIHelper._ragEndpoint
-  commentId: F:SuperOffice.Util.RagAIHelper._ragEndpoint
-  id: _ragEndpoint
-  parent: SuperOffice.Util.RagAIHelper
-  langs:
-  - csharp
-  - vb
-  name: _ragEndpoint
-  nameWithType: RagAIHelper._ragEndpoint
-  fullName: SuperOffice.Util.RagAIHelper._ragEndpoint
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: protected readonly Uri _ragEndpoint
-    return:
-      type: System.Uri
-    content.vb: Protected ReadOnly _ragEndpoint As Uri
-- uid: SuperOffice.Util.RagAIHelper._markdownizerEndpoint
-  commentId: F:SuperOffice.Util.RagAIHelper._markdownizerEndpoint
-  id: _markdownizerEndpoint
-  parent: SuperOffice.Util.RagAIHelper
-  langs:
-  - csharp
-  - vb
-  name: _markdownizerEndpoint
-  nameWithType: RagAIHelper._markdownizerEndpoint
-  fullName: SuperOffice.Util.RagAIHelper._markdownizerEndpoint
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: protected readonly Uri _markdownizerEndpoint
-    return:
-      type: System.Uri
-    content.vb: Protected ReadOnly _markdownizerEndpoint As Uri
-- uid: SuperOffice.Util.RagAIHelper._cacheManager
-  commentId: F:SuperOffice.Util.RagAIHelper._cacheManager
-  id: _cacheManager
-  parent: SuperOffice.Util.RagAIHelper
-  langs:
-  - csharp
-  - vb
-  name: _cacheManager
-  nameWithType: RagAIHelper._cacheManager
-  fullName: SuperOffice.Util.RagAIHelper._cacheManager
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: protected readonly ICacheManager _cacheManager
-    return:
-      type: SuperOffice.Data.Cache.ICacheManager
-    content.vb: Protected ReadOnly _cacheManager As ICacheManager
 - uid: SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   commentId: F:SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   id: ServiceCopilotNS
@@ -1158,166 +1058,6 @@ references:
     name: Http
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.net.http
-- uid: SuperOffice.Util.RagAIConfiguration
-  commentId: T:SuperOffice.Util.RagAIConfiguration
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.RagAIConfiguration.html
-  name: RagAIConfiguration
-  nameWithType: RagAIConfiguration
-  fullName: SuperOffice.Util.RagAIConfiguration
-- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
-  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
-  parent: Microsoft.Extensions.Logging
-  definition: Microsoft.Extensions.Logging.ILogger`1
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  name: ILogger<RagAIHelper>
-  nameWithType: ILogger<RagAIHelper>
-  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>
-  nameWithType.vb: ILogger(Of RagAIHelper)
-  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper)
-  name.vb: ILogger(Of RagAIHelper)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: <
-  - uid: SuperOffice.Util.RagAIHelper
-    name: RagAIHelper
-    isExternal: true
-    href: SuperOffice.Util.RagAIHelper.html
-  - name: '>'
-  spec.vb:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.RagAIHelper
-    name: RagAIHelper
-    isExternal: true
-    href: SuperOffice.Util.RagAIHelper.html
-  - name: )
-- uid: Microsoft.Extensions.Logging.ILogger`1
-  commentId: T:Microsoft.Extensions.Logging.ILogger`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  name: ILogger<TCategoryName>
-  nameWithType: ILogger<TCategoryName>
-  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
-  nameWithType.vb: ILogger(Of TCategoryName)
-  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
-  name.vb: ILogger(Of TCategoryName)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: <
-  - name: TCategoryName
-  - name: '>'
-  spec.vb:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TCategoryName
-  - name: )
-- uid: Microsoft.Extensions.Logging
-  commentId: N:Microsoft.Extensions.Logging
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft
-  name: Microsoft.Extensions.Logging
-  nameWithType: Microsoft.Extensions.Logging
-  fullName: Microsoft.Extensions.Logging
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
-- uid: System.Uri
-  commentId: T:System.Uri
-  parent: System
-  isExternal: true
-  name: Uri
-  nameWithType: Uri
-  fullName: System.Uri
-- uid: SuperOffice.Data.Cache.ICacheManager
-  commentId: T:SuperOffice.Data.Cache.ICacheManager
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  href: SuperOffice.Data.Cache.ICacheManager.html
-  name: ICacheManager
-  nameWithType: ICacheManager
-  fullName: SuperOffice.Data.Cache.ICacheManager
-- uid: SuperOffice.Data.Cache
-  commentId: N:SuperOffice.Data.Cache
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data.Cache
-  nameWithType: SuperOffice.Data.Cache
-  fullName: SuperOffice.Data.Cache
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1374,6 +1114,49 @@ references:
     isExternal: true
     href: SuperOffice.Util.RagAIConfiguration.html
   - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<RagAIHelper>
+  nameWithType: ILogger<RagAIHelper>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>
+  nameWithType.vb: ILogger(Of RagAIHelper)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper)
+  name.vb: ILogger(Of RagAIHelper)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
 - uid: Microsoft.Extensions.Options.IOptions`1
   commentId: T:Microsoft.Extensions.Options.IOptions`1
   isExternal: true
@@ -1439,6 +1222,108 @@ references:
     name: Options
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync*
   commentId: Overload:SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync
   isExternal: true
@@ -1446,6 +1331,13 @@ references:
   name: GetAuthorizationTokenAsync
   nameWithType: RagAIHelper.GetAuthorizationTokenAsync
   fullName: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
 - uid: System.Collections.Generic.Dictionary{System.String,System.Object}
   commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
   parent: System.Collections.Generic

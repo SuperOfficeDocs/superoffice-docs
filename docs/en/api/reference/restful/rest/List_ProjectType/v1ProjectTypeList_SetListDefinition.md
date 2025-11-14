@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Weimann-Hamill",
-  "Tooltip": "voluptatibus",
+  "Id": 899,
+  "Name": "Hodkiewicz, Kunde and Casper",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 216,
+  "Rank": 612,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Kuphal LLC",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 454,
+  "Id": 302,
+  "Name": "Gutkowski, Marks and Hayes",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 327,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 545
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

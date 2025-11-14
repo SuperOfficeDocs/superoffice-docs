@@ -91,7 +91,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 230,
-    "ColumnId": 151,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 557,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 112,
-    "FieldTop": 74,
+    "UDefFieldId": 362,
+    "ColumnId": 135,
+    "FieldDefault": "ut",
+    "FieldHeight": 37,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 836,
+    "FieldTop": 711,
     "FieldType": "Checkbox",
-    "FieldWidth": 15,
-    "FormatMask": "dolorum",
+    "FieldWidth": 260,
+    "FormatMask": "magni",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 530,
-    "LabelLeft": 31,
-    "LabelTop": 922,
-    "LabelWidth": 125,
-    "LastVersionId": 276,
-    "ListTableId": 997,
-    "IsMandatory": true,
+    "LabelHeight": 368,
+    "LabelLeft": 17,
+    "LabelTop": 94,
+    "LabelWidth": 413,
+    "LastVersionId": 664,
+    "ListTableId": 453,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 368,
-    "ProgId": "laborum",
+    "Page1LineNo": 762,
+    "ProgId": "quos",
     "IsReadOnly": false,
-    "ShortLabel": "saepe",
-    "TabOrder": 143,
-    "TextLength": 520,
-    "Tooltip": "et",
-    "UdefIdentity": 259,
-    "UDListDefinitionId": 249,
+    "ShortLabel": "non",
+    "TabOrder": 784,
+    "TextLength": 812,
+    "Tooltip": "iusto",
+    "UdefIdentity": 474,
+    "UDListDefinitionId": 870,
     "Justification": "Center",
-    "Version": 43,
-    "TemplateVariableName": "Murazik-Price",
+    "Version": 249,
+    "TemplateVariableName": "Yundt, Hoppe and Metz",
     "HasBeenPublished": false,
-    "MdoListName": "Kshlerin, Stehr and Borer",
+    "MdoListName": "Swaniawski-Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 906
       }
     }
   }

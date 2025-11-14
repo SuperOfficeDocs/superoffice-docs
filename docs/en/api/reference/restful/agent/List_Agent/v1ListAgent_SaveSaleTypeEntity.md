@@ -112,47 +112,47 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 9,
-  "Name": "Nikolaus-Beier",
-  "Tooltip": "et",
-  "Rank": 116,
+  "SaleTypeId": 955,
+  "Name": "Krajcik-Daniel",
+  "Tooltip": "fugiat",
+  "Rank": 740,
   "DurationUnit": "Century",
-  "SaleDuration": 327,
-  "SaleTypeCatId": 806,
+  "SaleDuration": 881,
+  "SaleTypeCatId": 838,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 853,
-  "QuoteLinesTemplate": 897,
-  "ConfirmationLinesTemplate": 211,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 756,
-  "MinEarningPercent": 684,
-  "GroupQuoteLinesBy": 290,
-  "SortGroupLinesBy": 660,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 351,
+  "QuoteLinesTemplate": 825,
+  "ConfirmationLinesTemplate": 969,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 456,
+  "MinEarningPercent": 424,
+  "GroupQuoteLinesBy": 750,
+  "SortGroupLinesBy": 139,
   "Stages": [
     {
-      "Id": 485,
-      "Name": "Franecki-Schmidt",
-      "ToolTip": "Perferendis modi et perferendis ut ea numquam.",
+      "Id": 840,
+      "Name": "Hirthe Inc and Sons",
+      "ToolTip": "Rem hic mollitia minus et at.",
       "Deleted": false,
-      "Rank": 396,
-      "Type": "vel",
-      "ColorBlock": 265,
-      "IconHint": "ut",
+      "Rank": 446,
+      "Type": "id",
+      "ColorBlock": 276,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2006-07-24T03:40:47.0780355+02:00",
+      "LastChanged": "2015-03-25T02:30:47.3975807+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "sunt",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "nesciunt",
       "Hidden": false,
-      "FullName": "Karlee Pouros"
+      "FullName": "Mr. Juliet Oceane Hansen PhD"
     }
   ]
 }
@@ -165,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 153,
-  "Name": "Boehm-Parker",
-  "Tooltip": "blanditiis",
-  "Rank": 825,
+  "SaleTypeId": 724,
+  "Name": "Gleichner, Miller and Gleason",
+  "Tooltip": "expedita",
+  "Rank": 835,
   "DurationUnit": "Century",
-  "SaleDuration": 364,
-  "SaleTypeCatId": 325,
+  "SaleDuration": 35,
+  "SaleTypeCatId": 493,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 597,
-  "QuoteLinesTemplate": 105,
-  "ConfirmationLinesTemplate": 347,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 758,
+  "QuoteLinesTemplate": 9,
+  "ConfirmationLinesTemplate": 758,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 589,
-  "MinEarningPercent": 769,
-  "GroupQuoteLinesBy": 828,
-  "SortGroupLinesBy": 198,
+  "MaxDiscountPercent": 683,
+  "MinEarningPercent": 864,
+  "GroupQuoteLinesBy": 944,
+  "SortGroupLinesBy": 665,
   "Stages": [
     {
-      "Id": 363,
-      "Name": "Bernier Group",
-      "ToolTip": "Consectetur harum ut illo id animi.",
-      "Deleted": false,
-      "Rank": 290,
-      "Type": "sit",
-      "ColorBlock": 759,
-      "IconHint": "quas",
-      "Selected": false,
-      "LastChanged": "2003-10-21T03:40:47.0780355+02:00",
+      "Id": 764,
+      "Name": "Macejkovic Group",
+      "ToolTip": "Illum ex cum illo aut eligendi minima.",
+      "Deleted": true,
+      "Rank": 921,
+      "Type": "voluptatem",
+      "ColorBlock": 75,
+      "IconHint": "nam",
+      "Selected": true,
+      "LastChanged": "2012-09-02T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "non",
-      "Hidden": true,
-      "FullName": "Sid Feil",
+      "ExtraInfo": "totam",
+      "StyleHint": "aspernatur",
+      "Hidden": false,
+      "FullName": "Carroll Watson Turner DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

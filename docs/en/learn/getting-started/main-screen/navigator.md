@@ -3,9 +3,9 @@ uid: help-en-ui-navigator
 title: Navigator
 description: Navigator
 keywords: navigator, navigate, menu, side menu, left menu, user interface
-author: Bergfrid Dias
-date: 01.17.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,7 @@ The navigator provides quick access to essential SuperOffice CRM features. Each 
 | <i class="ph ph-squares-four" aria-label="Screen designer"></i> | **[Screen designer][24]** | Customize layouts for specific user groups. |
 | <i class="ph ph-gear" aria-label="Gear icon"></i> | **[Preferences][25]** | Adjust default settings for activities, [video meetings][42], and the [document library][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | **[Chat][2]** | Set up chat channels. |
+| <i class="ph ph-target" aria-label="Marketing icon"></i> | **[Marketing][12]** | Enable UTM tracking for all forms. |
 | <i class="ph ph-sliders-horizontal" aria-label="Horizontal slider icon"></i> | **[Options][26]** | Configure global settings like search, time zones, labels, and numbering. |
 | <i class="ph ph-file-arrow-up" aria-label="Import icon"></i> | **[Import][27]** | Import data into SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Fields icon"></i> | **[Fields][28]** | Define user-specific fields for customization. |
@@ -95,12 +96,13 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
-[21]: ../../../admin/lists/learn/index.md
+[21]: ../../../admin/lists/index.md
 [22]: ../../../sale/admin/quote/index.md
 [24]: ../../../customization/screen-designer/admin/index.md
 [25]: ../../../admin/preferences/learn/index.md
@@ -112,9 +114,9 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
-[45]: ../../../admin/license/learn/index.md
-[46]: ../../../admin/user-management/learn/index.md
-[47]: ../../../admin/user-management/learn/role/index.md
+[45]: ../../../admin/license/index.md
+[46]: ../../../admin/user-management/index.md
+[47]: ../../../admin/user-management/role/index.md
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 

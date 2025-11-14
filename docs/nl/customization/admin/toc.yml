@@ -1,0 +1,27 @@
+items:
+- name: Overzicht
+  href: ../index.yml
+- name: Schermontwerper
+  href: ../screen-designer/admin/toc.yml
+  topicHref: ../screen-designer/admin/index.md
+- name: Webpanelen
+  href: ../web-panels/admin/toc.yml
+  topicHref: ../web-panels/admin/index.md
+- name: CRMScript
+  href: ../../automation/crmscript/learn/toc.yml
+  topicHref: ../../automation/crmscript/learn/index.md
+- name: E-mail
+  href: ../../email/service/learn/toc.yml
+  topicHref: ../../email/service/learn/index.md
+- name: Klantportaal
+  href: ../../customer-center/learn/toc.yml
+  topicHref: ../../customer-center/learn/index.md
+- name: Systeemontwerp
+  href: ../../ui/blogic/learn/toc.yml
+  topicHref: ../../ui/blogic/learn/index.md
+- name: Pakketeigenschappen
+  href: package-properties.md
+- name: Taakmenu
+  href: add-items-to-task-menu.md
+- name: Toepassing toevoegen
+  href: other-applications.md

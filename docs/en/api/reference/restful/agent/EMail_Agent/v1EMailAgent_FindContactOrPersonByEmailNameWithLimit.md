@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bechtelar, Bauch and Blanda",
-  "EmailAddress": "juanita@lehner.uk",
-  "NumberOfContacts": 504,
-  "NumberOfPersons": 740
+  "Name": "Roob-Kuvalis",
+  "EmailAddress": "reed@ritchie.com",
+  "NumberOfContacts": 944,
+  "NumberOfPersons": 194
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 337,
-    "FullName": "Deon Heller",
-    "EmailAddress": "brennan@watsica.biz",
-    "ContactId": 143,
-    "ContactName": "Klocko, Thompson and Stracke",
+    "PersonId": 335,
+    "FullName": "Dorothy Botsford",
+    "EmailAddress": "rosemary@herzog.info",
+    "ContactId": 444,
+    "ContactName": "Jerde-Steuber",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Wehner, Grady and Kling",
+    "SortName": "Ankunding Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 681
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/admin/user-management/learn/role/functional-rights.html
+redirect_url: https://docs.superoffice.com/en/admin/user-management/role/functional-rights.html
 ---

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 546
+  "PersonId": 413
 }
 ```
 
@@ -107,27 +107,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 122,
-    "Comment": "temporibus",
-    "Registered": "2018-04-09T03:40:47.406226+02:00",
-    "RegisteredAssociateId": 440,
-    "Updated": "2003-07-06T03:40:47.406226+02:00",
-    "UpdatedAssociateId": 872,
-    "LegalBaseId": 113,
-    "LegalBaseKey": "maiores",
-    "LegalBaseName": "Kovacek-Harris",
-    "ConsentPurposeId": 442,
-    "ConsentPurposeKey": "ullam",
-    "ConsentPurposeName": "Reichel-Boehm",
-    "ConsentSourceId": 53,
-    "ConsentSourceKey": "omnis",
-    "ConsentSourceName": "Frami, Ankunding and Jenkins",
+    "ConsentPersonId": 19,
+    "Comment": "nobis",
+    "Registered": "2001-06-21T02:30:47.5538257+02:00",
+    "RegisteredAssociateId": 760,
+    "Updated": "2004-07-17T02:30:47.5538257+02:00",
+    "UpdatedAssociateId": 943,
+    "LegalBaseId": 675,
+    "LegalBaseKey": "aliquid",
+    "LegalBaseName": "Smitham Inc and Sons",
+    "ConsentPurposeId": 909,
+    "ConsentPurposeKey": "beatae",
+    "ConsentPurposeName": "Johnston, Brekke and Sanford",
+    "ConsentSourceId": 457,
+    "ConsentSourceKey": "similique",
+    "ConsentSourceName": "Boyer, Lindgren and Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

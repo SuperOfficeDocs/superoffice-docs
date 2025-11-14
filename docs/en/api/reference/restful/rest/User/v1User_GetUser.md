@@ -38,7 +38,7 @@ NsApiSlow threshold: 2000 ms.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 563,
-  "Name": "Altenwerth-Feest",
-  "Rank": 122,
-  "Tooltip": "sunt",
+  "AssociateId": 172,
+  "Name": "Boyer-Schaden",
+  "Rank": 926,
+  "Tooltip": "omnis",
   "LicenseOwners": [
     {
-      "Name": "Pacocha, Bode and Funk",
-      "Description": "Customer-focused tangible info-mediaries",
+      "Name": "Stanton Group",
+      "Description": "Secured bandwidth-monitored methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     },
     {
-      "Name": "Pacocha, Bode and Funk",
-      "Description": "Customer-focused tangible info-mediaries",
+      "Name": "Stanton Group",
+      "Description": "Secured bandwidth-monitored methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "officia",
-      "Id": 98,
-      "Rank": 727,
-      "Deleted": false,
+      "Value": "ut",
+      "Tooltip": "totam",
+      "Id": 256,
+      "Rank": 350,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 910
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1999-06-19T03:40:56.6025934+02:00",
-  "Lastlogout": "1998-07-11T03:40:56.6025934+02:00",
-  "EjUserId": 561,
-  "RequestSignature": "deserunt",
+  "Lastlogin": "2014-07-13T02:30:53.147395+02:00",
+  "Lastlogout": "2015-04-19T02:30:53.147395+02:00",
+  "EjUserId": 557,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sapiente",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 298
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sapiente",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 298
-        }
-      }
-    }
-  ],
-  "UserName": "Conroy, Wunsch and Torphy",
-  "TicketCategories": [
-    {
-      "Id": 963,
-      "Name": "McLaughlin-Will",
-      "ToolTip": "Aliquam excepturi laboriosam quae sint expedita consequatur omnis.",
-      "Deleted": false,
-      "Rank": 593,
-      "Type": "voluptas",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolor",
-      "ColorBlock": 105,
-      "ExtraInfo": "et",
-      "StyleHint": "ut",
-      "FullName": "Ms. Watson Corwin Jr.",
+      "Value": "ut",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 767
+          "FieldLength": 591
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ut",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 591
         }
       }
     }
   ],
-  "NickName": "Schinner-Miller",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "consequatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "eos"
-  },
-  "PostSaveCommands": [
+  "UserName": "Lubowitz Inc and Sons",
+  "TicketCategories": [
     {
-      "Name": "Bradtke, Douglas and Rodriguez",
-      "DisplayName": "Renner, Kuhn and Ledner",
-      "Description": "De-engineered zero defect neural-net",
-      "ToolTip": "Quis fuga doloribus impedit nam cum.",
-      "Actions": "Implicit",
-      "ActionData": "id",
+      "Id": 327,
+      "Name": "Osinski LLC",
+      "ToolTip": "Perferendis iste voluptatum deleniti eos.",
+      "Deleted": false,
+      "Rank": 293,
+      "Type": "sed",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "et",
+      "ColorBlock": 986,
+      "ExtraInfo": "delectus",
+      "StyleHint": "in",
+      "FullName": "Harley Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 524
+        }
+      }
+    }
+  ],
+  "NickName": "Fritsch-Purdy",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "laboriosam"
+  },
+  "CustomFields": {
+    "CustomFields1": "velit",
+    "CustomFields2": "quo"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Runte, Greenholt and Thiel",
+      "DisplayName": "Hayes-Hauck",
+      "Description": "Universal fresh-thinking open architecture",
+      "ToolTip": "Temporibus dolorum.",
+      "Actions": "Implicit",
+      "ActionData": "voluptate",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 269
     }
   },
   "_Links": {

@@ -51,7 +51,7 @@ No Content
 POST /api/v1/Ticket/{ticketEntityId}/NotifyNewTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

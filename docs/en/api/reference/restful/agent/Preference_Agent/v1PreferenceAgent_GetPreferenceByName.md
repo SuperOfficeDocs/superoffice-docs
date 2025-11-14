@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "est",
-  "PrefKey": "cum",
+  "PrefSection": "incidunt",
+  "PrefKey": "quas",
   "PrefLevel": "Database"
 }
 ```
@@ -106,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dicta",
+  "RawValue": "quo",
   "Specification": null,
-  "DisplayValue": "maxime",
-  "DisplayTooltip": "saepe",
+  "DisplayValue": "et",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 239,
-  "PrefDescId": 595,
-  "TableName": "Fritsch-O'Hara",
-  "UserPreferenceId": 854,
+  "TargetId": 169,
+  "PrefDescId": 536,
+  "TableName": "Kemmer, Gerhold and Herzog",
+  "UserPreferenceId": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 948
     }
   }
 }

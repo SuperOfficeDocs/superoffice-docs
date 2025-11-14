@@ -108,9 +108,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2001-09-14T03:40:47.6723407+02:00",
-  "ToDate": "2009-07-17T03:40:47.6723407+02:00",
-  "AmountLimit": 161,
+  "FromDate": "2025-06-10T02:30:47.7881925+02:00",
+  "ToDate": "2017-08-21T02:30:47.7881925+02:00",
+  "AmountLimit": 351,
   "Status": "Lost"
 }
 ```
@@ -123,37 +123,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Weimann Group",
-    "SaleDate": "2022-11-30T03:40:47.6723407+01:00",
-    "SaleId": 640,
-    "Probability": 862,
-    "Title": "molestiae",
-    "Amount": 28002.29,
-    "Currency": "doloribus",
-    "ProjectName": "Armstrong, Krajcik and Ruecker",
-    "AssociateFullName": "Mr. Bell Lee Crona",
-    "Description": "Focused client-server help-desk",
+    "ContactName": "Daniel, Bins and Spinka",
+    "SaleDate": "2015-12-11T02:30:47.7881925+01:00",
+    "SaleId": 234,
+    "Probability": 886,
+    "Title": "dolore",
+    "Amount": 24818.146,
+    "Currency": "voluptatem",
+    "ProjectName": "White, Kerluke and Balistreri",
+    "AssociateFullName": "Kianna Howell",
+    "Description": "Phased bi-directional ability",
     "Status": "Lost",
-    "WeightedAmount": 18004.829999999998,
-    "ProjectId": 691,
-    "EarningPercent": 3776.47,
-    "Earning": 7004.49,
-    "ContactId": 167,
-    "AssociateId": 963,
-    "PersonId": 419,
-    "SaleTypeId": 345,
-    "SaleTypeName": "Thiel-Graham",
-    "PersonFullName": "Kennedi Gleason",
+    "WeightedAmount": 7806.794,
+    "ProjectId": 746,
+    "EarningPercent": 12344.826,
+    "Earning": 9273.506,
+    "ContactId": 515,
+    "AssociateId": 20,
+    "PersonId": 185,
+    "SaleTypeId": 54,
+    "SaleTypeName": "Langworth-Pfeffer",
+    "PersonFullName": "Dr. Alexa Sporer I",
     "Completed": "Completed",
-    "ActiveErpLinks": 952,
-    "NextDueDate": "2000-07-28T03:40:47.6723407+02:00",
-    "Number": "854472",
+    "ActiveErpLinks": 942,
+    "NextDueDate": "2017-05-14T02:30:47.7881925+02:00",
+    "Number": "696486",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 907
       }
     }
   }

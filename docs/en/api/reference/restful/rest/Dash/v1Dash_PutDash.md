@@ -106,34 +106,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 218,
-  "UniqueId": "labore",
-  "Name": "Pfeffer Inc and Sons",
-  "Description": "Reduced 6th generation interface",
-  "AssociateId": 370,
-  "Columns": 190,
+  "DashboardId": 15,
+  "UniqueId": "cum",
+  "Name": "Russel Group",
+  "Description": "Right-sized explicit website",
+  "AssociateId": 822,
+  "Columns": 340,
   "Theme": null,
-  "VisibleForAll": 258,
+  "VisibleForAll": 517,
   "VisibleForAssociates": [
-    322,
-    486
+    128,
+    917
   ],
   "VisibleForGroups": [
-    707,
-    976
+    241,
+    114
   ],
-  "PinForAll": 439,
+  "PinForAll": 696,
   "PinForAssociates": [
-    504,
-    647
+    286,
+    981
   ],
   "PinForGroups": [
-    312,
-    411
+    890,
+    96
   ]
 }
 ```
@@ -145,42 +145,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 585,
-  "UniqueId": "quia",
-  "Name": "Effertz LLC",
-  "Description": "User-centric fault-tolerant standardization",
-  "AssociateId": 386,
-  "Columns": 563,
+  "DashboardId": 259,
+  "UniqueId": "velit",
+  "Name": "Hartmann LLC",
+  "Description": "Compatible regional throughput",
+  "AssociateId": 762,
+  "Columns": 976,
   "Theme": null,
-  "VisibleForAll": 399,
+  "VisibleForAll": 283,
   "VisibleForAssociates": [
-    268,
-    522
+    46,
+    790
   ],
   "VisibleForGroups": [
-    123,
-    993
+    111,
+    991
   ],
-  "PinForAll": 719,
+  "PinForAll": 365,
   "PinForAssociates": [
-    824,
-    291
+    954,
+    110
   ],
   "PinForGroups": [
-    562,
-    89
+    122,
+    114
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 85
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

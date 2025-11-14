@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "praesentium"
+  "QuoteLineExtraData": "in"
 }
 ```
 
@@ -94,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lesch, Johns and Braun",
-    "Value": "est",
+    "Name": "Bauch, Lebsack and Hoeger",
+    "Value": "doloribus",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 143
       }
     }
   },
   {
-    "Name": "Lesch, Johns and Braun",
-    "Value": "est",
+    "Name": "Bauch, Lebsack and Hoeger",
+    "Value": "doloribus",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 143
       }
     }
   }

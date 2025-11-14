@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Veum, Crist and Davis"
+  "Name": "Gleason, Thompson and Shanahan"
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kuhn, Schuppe and Lindgren",
-    "SoPrimaryKey": 724,
-    "EntryName": "Konopelski-Padberg",
-    "EntryIdentifier": "blanditiis",
-    "RuleDisplayName": "Ortiz, Wunsch and Dooley",
+    "RuleName": "Mraz, Feil and Schroeder",
+    "SoPrimaryKey": 298,
+    "EntryName": "Kilback-Keebler",
+    "EntryIdentifier": "aperiam",
+    "RuleDisplayName": "Walsh, Goyette and Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 788
       }
     }
   }

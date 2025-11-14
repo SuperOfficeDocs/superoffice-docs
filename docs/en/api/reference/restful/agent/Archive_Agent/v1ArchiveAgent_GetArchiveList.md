@@ -106,51 +106,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kassulke, VonRueden and Ward",
-  "ProviderName": "Lakin Group",
+  "GuiName": "Ledner-Lebsack",
+  "ProviderName": "Wiza Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Hintz-Denesik",
+      "Name": "Sanford Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hintz-Denesik",
+      "Name": "Sanford Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Zulauf, Hessel and Will",
-      "Operator": "cupiditate",
+      "Name": "Nicolas Group",
+      "Operator": "dolor",
       "Values": [
-        "est",
-        "voluptate"
+        "voluptates",
+        "minima"
       ],
       "DisplayValues": [
-        "consequatur",
-        "enim"
+        "omnis",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 561,
+      "InterParenthesis": 35,
       "InterOperator": "And",
-      "UniqueHash": 489
+      "UniqueHash": 311
     }
   ],
   "Entities": [
-    "voluptatem",
-    "tempore"
+    "sed",
+    "autem"
   ],
-  "Page": 57,
-  "PageSize": 5
+  "Page": 992,
+  "PageSize": 420
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Pfannerstill, Baumbach and Feeney",
-    "PrimaryKey": 324,
+    "EntityName": "Lesch LLC",
+    "PrimaryKey": 739,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "doloremque",
-        "TooltipHint": "aut",
-        "LinkHint": "magni"
+        "DisplayValue": "minima",
+        "TooltipHint": "perferendis",
+        "LinkHint": "dolorem"
       }
     },
-    "LinkHint": "eum",
-    "StyleHint": "autem",
+    "LinkHint": "sunt",
+    "StyleHint": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

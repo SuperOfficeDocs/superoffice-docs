@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,23 +71,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 430,
-  "WorkflowId": 719,
+  "WorkflowTriggerId": 438,
+  "WorkflowId": 859,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Goyette, Kunze and Beatty",
-      "Description": "Progressive national access",
-      "Rank": 628,
+      "Name": "McCullough Group",
+      "Description": "Synergized bi-directional definition",
+      "Rank": 560,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Goyette, Kunze and Beatty",
-      "Description": "Progressive national access",
-      "Rank": 628,
+      "Name": "McCullough Group",
+      "Description": "Synergized bi-directional definition",
+      "Rank": 560,
       "Restrictions": [
         {},
         {}
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 283
     }
   }
 }

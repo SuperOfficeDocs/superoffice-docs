@@ -87,19 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "illum",
+  "odata.nextLink": "eum",
   "value": [
     {
-      "PrimaryKey": 1837,
-      "EntityName": "person",
-      "personId": 1837,
-      "fullName": "Mrs. Caesar Maximillia Russel"
+      "PrimaryKey": 5364,
+      "EntityName": "sale",
+      "saleId": 5364,
+      "contactId": 6803,
+      "name": "Hickle, Cremin and Bernhard"
     },
     {
-      "PrimaryKey": 9210,
-      "EntityName": "person",
-      "personId": 9210,
-      "fullName": "Karli Glover"
+      "PrimaryKey": 9086,
+      "EntityName": "sale",
+      "saleId": 9086,
+      "contactId": 8001,
+      "name": "Block Group"
     }
   ]
 }

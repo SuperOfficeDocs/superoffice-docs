@@ -16,33 +16,5 @@ items:
     href: send-as-email.md
 
 - name: Dokumentvorlagen
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Überblick
-    href: ../templates/learn/index.md
-  - name: Documenttypen
-    href: ../templates/learn/document-types.md
-  - name: Vorlagenvariablen
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Referenz
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Fehlerbehebung
-      href: ../templates/learn/troubleshooting.md
-  - name: Merge fields (Angebotsvorlagen)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Referenz
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Eine Dokumentvorlage erstellen
-    href: ../templates/learn/create.md
-  - name: Vorlage hinzufügen
-    href: ../templates/admin/link-template.md
-  - name: Vorlage bearbeiten
-    href: ../templates/admin/update-template.md
-  - name: Dokumentvorlagen in mehreren Sprachen
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md

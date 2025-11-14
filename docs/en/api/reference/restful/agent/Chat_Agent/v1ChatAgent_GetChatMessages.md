@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 182,
-  "After": 169
+  "ChatSessionId": 471,
+  "After": 996
 }
 ```
 
@@ -100,15 +100,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 435,
-    "ChatSessionId": 403,
+    "ChatMessageId": 82,
+    "ChatSessionId": 516,
     "Type": "Invalid",
-    "Message": "esse",
-    "Author": "impedit",
-    "ReadByCustomer": 369,
+    "Message": "ducimus",
+    "Author": "accusamus",
+    "ReadByCustomer": 607,
     "SpecialType": "Block",
-    "SpecialParam": "ut",
-    "WhenPosted": "2007-12-28T03:40:46.1858375+01:00"
+    "SpecialParam": "in",
+    "WhenPosted": "2003-05-26T02:30:46.8975935+02:00"
   }
 ]
 ```

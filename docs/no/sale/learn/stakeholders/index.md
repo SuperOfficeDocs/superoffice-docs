@@ -48,7 +48,7 @@ Du må også angi preferansen **Vis interessenter** for preferansegruppen **Salg
 [2]: ../../../project/learn/project-members/add.md#from-section-tab
 [4]: ../../../project/learn/project-members/send-email-to.md
 [5]: ../../admin/sale-type.md
-[6]: ../../../admin/lists/learn/items.md
+[6]: ../../../admin/lists/add-items.md
 [7]: ../../../admin/preferences/update.md
 
 <!-- Referenced images -->

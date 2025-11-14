@@ -90,36 +90,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 163,
-  "ParentId": 433,
-  "Name": "Waelchi, Rolfson and Thiel",
-  "Fullname": "molestiae",
-  "CategoryMaster": 531,
+  "TicketCategoryId": 275,
+  "ParentId": 266,
+  "Name": "Jacobson-Hammes",
+  "Fullname": "qui",
+  "CategoryMaster": 954,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howe Inc and Sons",
+  "ExternalName": "Dickens-Gutkowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 195,
-  "ReplyTemplate": 724,
-  "NotificationEmail": "abbigail.fay@reynolds.biz",
+  "AssignmentLag": 547,
+  "ReplyTemplate": 4,
+  "NotificationEmail": "neoma@schmidtkassulke.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 83,
+  "EffectiveReplyTemplateId": 892,
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "id"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 783
     }
   }
 }

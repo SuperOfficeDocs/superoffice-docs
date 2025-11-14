@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 259,
-  "GroupId": 799
+  "UdListDefinitionId": 50,
+  "GroupId": 723
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Gaylord-Breitenberg",
-    "ToolTip": "Est voluptatem sunt tempora qui officiis accusamus aut.",
-    "Deleted": false,
-    "Rank": 208,
-    "Type": "molestiae",
-    "ColorBlock": 13,
-    "IconHint": "nobis",
+    "Id": 216,
+    "Name": "Ebert-Bins",
+    "ToolTip": "Architecto cumque sint iste eligendi.",
+    "Deleted": true,
+    "Rank": 177,
+    "Type": "perferendis",
+    "ColorBlock": 803,
+    "IconHint": "aperiam",
     "Selected": true,
-    "LastChanged": "2020-01-21T03:40:47.0780355+01:00",
+    "LastChanged": "2024-07-18T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Harris, Hagenes and Gutmann",
-        "ToolTip": "Maiores quasi blanditiis et consequatur mollitia commodi non.",
-        "Deleted": false,
-        "Rank": 220,
-        "Type": "tempore",
-        "ColorBlock": 662,
-        "IconHint": "maxime",
+        "Id": 252,
+        "Name": "Grimes-Hilll",
+        "ToolTip": "Sunt et exercitationem nam et quisquam.",
+        "Deleted": true,
+        "Rank": 815,
+        "Type": "voluptas",
+        "ColorBlock": 147,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2008-04-17T03:40:47.0780355+02:00",
+        "LastChanged": "2023-06-26T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Ayana Frami",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Rosemarie Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "ratione",
+    "ExtraInfo": "quis",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Ken Johns",
+    "FullName": "Lexi O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 286
       }
     }
   }

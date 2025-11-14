@@ -98,7 +98,7 @@ Ticket provider for Find
 |createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
+|createdBy/ejDisplayName|string|Created by - Nickname: User's nickname in Service| x |
 |createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -135,7 +135,7 @@ Ticket provider for Find
 |ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|ownedBy/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
 |ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -196,8 +196,10 @@ Ticket provider for Find
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -224,12 +226,12 @@ Ticket provider for Find
 |person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
-|person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
@@ -288,8 +290,8 @@ Ticket provider for Find
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -315,7 +317,7 @@ Ticket provider for Find
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -328,12 +330,12 @@ Ticket provider for Find
 |person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
-|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -352,7 +354,7 @@ Ticket provider for Find
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -383,6 +385,7 @@ Ticket provider for Find
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -403,6 +406,7 @@ Ticket provider for Find
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -430,14 +434,14 @@ Ticket provider for Find
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
-|contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
-|contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
-|contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
-|contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
+|contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
+|contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
+|contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -480,7 +484,7 @@ Ticket provider for Find
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -522,7 +526,7 @@ Ticket provider for Find
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -534,14 +538,14 @@ Ticket provider for Find
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|contact/LastSale|date|Date of last sale|  |
-|contact/LastCompletedSale|date|Date of last completed sale|  |
-|contact/LastDoBySale|date|Date of last non-completed sale|  |
-|contact/NumberOfTickets|int|Number of requests|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/LastSale|date|Date of last sale|  |
+|contact/LastCompletedSale|date|Date of last completed sale|  |
+|contact/LastDoBySale|date|Date of last non-completed sale|  |
+|contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
@@ -569,7 +573,7 @@ Ticket provider for Find
 |extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
+|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
@@ -605,7 +609,7 @@ Ticket provider for Find
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -638,14 +642,14 @@ Ticket provider for Find
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -660,7 +664,7 @@ Ticket provider for Find
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -734,7 +738,7 @@ Ticket provider for Find
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -742,14 +746,14 @@ Ticket provider for Find
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|project/projectAssociate/userName|string|User name: User name| x |
-|project/projectAssociate/personEmail|string|E-mail| x |
-|project/projectAssociate/locationAddress|string|Location: Location| x |
-|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/userName|string|User name: User name| x |
+|project/projectAssociate/personEmail|string|E-mail| x |
+|project/projectAssociate/locationAddress|string|Location: Location| x |
+|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -788,7 +792,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=ownedBy/otherGroups,person/supportLanguage,person/restrictionAddress/formattedAddress,person/personAssociate/usergroupId,person/personAssociate/isActive
+GET /api/v1/archive/FindTicket?$select=person/personAddress/county,person/personUdef/SuperOffice:3,contact/contactPhone/formattedNumber,sale/registeredByFullName,sale/currencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

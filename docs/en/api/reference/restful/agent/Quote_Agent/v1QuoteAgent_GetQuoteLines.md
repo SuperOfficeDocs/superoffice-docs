@@ -128,7 +128,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 37
+  "QuoteAlternativeId": 155
 }
 ```
 
@@ -140,88 +140,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 821,
-    "ERPQuoteLineKey": "similique",
-    "QuoteAlternativeId": 267,
-    "ERPProductKey": "in",
+    "QuoteLineId": 565,
+    "ERPQuoteLineKey": "et",
+    "QuoteAlternativeId": 198,
+    "ERPProductKey": "illo",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 11097.493999999999,
-    "DeliveredQuantity": 12103.508,
-    "Rank": 188,
-    "Name": "Kiehn, Rutherford and Ebert",
-    "Description": "Right-sized web-enabled framework",
-    "Code": "voluptas",
-    "QuantityUnit": "temporibus",
-    "PriceUnit": "et",
-    "ItemNumber": "1378001",
+    "Quantity": 16911.064,
+    "DeliveredQuantity": 24191.345999999998,
+    "Rank": 512,
+    "Name": "Wyman, Waelchi and Mann",
+    "Description": "Programmable web-enabled throughput",
+    "Code": "dolorem",
+    "QuantityUnit": "ducimus",
+    "PriceUnit": "odio",
+    "ItemNumber": "779873",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "dolores",
-    "ProductTypeKey": "enim",
-    "Supplier": "ullam",
-    "SupplierCode": "tenetur",
-    "Thumbnail": "necessitatibus",
-    "VATInfo": "optio",
-    "VAT": 27300.273999999998,
-    "UnitCost": 22583.604,
-    "UnitMinimumPrice": 18415.384,
-    "UnitListPrice": 12893.276,
+    "ProductFamilyKey": "molestias",
+    "ProductTypeKey": "consequatur",
+    "Supplier": "nam",
+    "SupplierCode": "dolorum",
+    "Thumbnail": "itaque",
+    "VATInfo": "dolores",
+    "VAT": 9583.771999999999,
+    "UnitCost": 6926.1399999999994,
+    "UnitMinimumPrice": 3933.17,
+    "UnitListPrice": 17161.784,
     "ExtraInfo": [
       {
-        "Name": "Konopelski-King",
-        "Value": "ut",
+        "Name": "Kuphal-Torphy",
+        "Value": "incidunt",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       },
       {
-        "Name": "Konopelski-King",
-        "Value": "ut",
+        "Name": "Kuphal-Torphy",
+        "Value": "incidunt",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "IsSubscription": true,
-    "SubscriptionUnit": "sit",
-    "SubscriptionQuantity": 2156.192,
-    "SubscriptionStart": "2025-04-26T03:40:47.5942106+02:00",
-    "ERPDiscountPercent": 13194.14,
-    "ERPDiscountAmount": 9160.6819999999989,
-    "DiscountPercent": 6318.144,
-    "DiscountAmount": 20317.721999999998,
+    "RawExtraInfo": "laudantium",
+    "IsSubscription": false,
+    "SubscriptionUnit": "amet",
+    "SubscriptionQuantity": 10009.996,
+    "SubscriptionStart": "2001-07-12T02:30:47.7413192+02:00",
+    "ERPDiscountPercent": 8815.942,
+    "ERPDiscountAmount": 12827.462,
+    "DiscountPercent": 13987.042,
+    "DiscountAmount": 14052.856,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 8107.6579999999994,
-    "EarningAmount": 3434.864,
-    "SubTotal": 28591.482,
-    "TotalPrice": 25034.392,
-    "Rights": "qui",
-    "Rule": "et",
-    "ExtraField1": "doloremque",
-    "ExtraField2": "libero",
-    "ExtraField3": "cum",
-    "ExtraField4": "et",
-    "ExtraField5": "sit",
+    "EarningPercent": 24047.182,
+    "EarningAmount": 2240.81,
+    "SubTotal": 30938.847999999998,
+    "TotalPrice": 10806.032,
+    "Rights": "iure",
+    "Rule": "sapiente",
+    "ExtraField1": "hic",
+    "ExtraField2": "praesentium",
+    "ExtraField3": "aut",
+    "ExtraField4": "sit",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

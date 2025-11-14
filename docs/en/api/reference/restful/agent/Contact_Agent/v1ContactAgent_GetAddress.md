@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 197
+  "ContactId": 356
 }
 ```
 
@@ -96,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 8925.632,
-  "Wgs84Longitude": 25269.442,
+  "Wgs84Latitude": 29600.629999999997,
+  "Wgs84Longitude": 29036.51,
   "LocalizedAddress": [
     [
       {
-        "Name": "Beer-Jewess",
-        "Value": "quod",
-        "Tooltip": "sint",
-        "Label": "itaque",
-        "ValueLength": 483,
-        "AddressType": "vero",
+        "Name": "Breitenberg, Lowe and Willms",
+        "Value": "molestias",
+        "Tooltip": "quis",
+        "Label": "dicta",
+        "ValueLength": 149,
+        "AddressType": "molestias",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 636
           }
         }
       }
     ],
     [
       {
-        "Name": "Ebert, Leffler and Mraz",
-        "Value": "nesciunt",
-        "Tooltip": "sint",
-        "Label": "qui",
-        "ValueLength": 671,
-        "AddressType": "et",
+        "Name": "Wisozk, Oberbrunner and Hartmann",
+        "Value": "voluptas",
+        "Tooltip": "repellendus",
+        "Label": "doloribus",
+        "ValueLength": 559,
+        "AddressType": "consequuntur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 264
           }
         }
       }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "eveniet",
+  "Formatted": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

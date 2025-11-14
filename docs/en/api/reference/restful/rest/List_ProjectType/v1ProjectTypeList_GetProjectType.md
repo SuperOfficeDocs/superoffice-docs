@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 165,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "UdListDefinitionId": 982,
-  "Rank": 672,
+  "Id": 72,
+  "Name": "Reilly-Frami",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 113,
+  "Rank": 988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 628
     }
   }
 }

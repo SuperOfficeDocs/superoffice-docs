@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 509,
-    "Name": "Streich, Reinger and Koepp",
-    "Tooltip": "eos",
+    "HeadingId": 321,
+    "Name": "Gibson-McDermott",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 507,
-    "UdListDefinitionId": 173
+    "Rank": 669,
+    "UdListDefinitionId": 247
   },
   {
-    "HeadingId": 509,
-    "Name": "Streich, Reinger and Koepp",
-    "Tooltip": "eos",
+    "HeadingId": 321,
+    "Name": "Gibson-McDermott",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 507,
-    "UdListDefinitionId": 173
+    "Rank": 669,
+    "UdListDefinitionId": 247
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 388,
-    "Name": "Smith, Langosh and Leffler",
-    "Tooltip": "cupiditate",
+    "HeadingId": 628,
+    "Name": "Dooley Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 41,
-    "UdListDefinitionId": 996,
+    "Rank": 776,
+    "UdListDefinitionId": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 893
       }
     }
   }

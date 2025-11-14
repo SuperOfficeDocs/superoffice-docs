@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 705
+  "TargetDimensionId": 491
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 186,
+    "TargetAssignmentInfoId": 700,
     "Values": [
-      292,
-      20
+      923,
+      29
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 139,
-    "DimensionListItemDisplayName": "Hilpert LLC",
+    "DimensionListItem": 778,
+    "DimensionListItemDisplayName": "Runolfsdottir-Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 290
       }
     }
   }

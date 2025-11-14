@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Schmitt-Wilkinson",
-    "Buckridge Group"
+    "Stark, Lockman and Kris",
+    "Waters Group"
   ]
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"occaecati"
+"sunt"
 ```

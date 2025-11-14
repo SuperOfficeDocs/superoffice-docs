@@ -129,7 +129,7 @@ Du kan deretter legge til disse feltene i Prosjekt-bildet:
 <!-- Referenced links -->
 [1]: ../admin/edit-udef-layout.md#page-1
 [2]: ../admin/add-udef.md
-[3]: ../../admin/lists/learn/adding-user-defined-lists.md
+[3]: ../../admin/lists/user-defined-lists.md
 [8]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->

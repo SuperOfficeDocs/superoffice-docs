@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Dooley Inc and Sons",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "UdListDefinitionId": 216,
-    "Rank": 754
+    "Id": 309,
+    "Name": "Huels, Konopelski and Connelly",
+    "Tooltip": "quidem",
+    "Deleted": true,
+    "UdListDefinitionId": 304,
+    "Rank": 344
   },
   {
-    "Id": 351,
-    "Name": "Dooley Inc and Sons",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "UdListDefinitionId": 216,
-    "Rank": 754
+    "Id": 309,
+    "Name": "Huels, Konopelski and Connelly",
+    "Tooltip": "quidem",
+    "Deleted": true,
+    "UdListDefinitionId": 304,
+    "Rank": 344
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Schoen-Crona",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "UdListDefinitionId": 611,
-    "Rank": 424,
+    "Id": 294,
+    "Name": "Marvin-Murphy",
+    "Tooltip": "dicta",
+    "Deleted": false,
+    "UdListDefinitionId": 912,
+    "Rank": 319,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

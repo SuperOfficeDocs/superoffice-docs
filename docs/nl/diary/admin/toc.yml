@@ -1,0 +1,5 @@
+items:
+- name: Type vervolgactiviteit toevoegen
+  href: add-follow-up-type.md
+- name: Bron toevoegen
+  href: add-resource.md

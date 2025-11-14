@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,38 +90,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 231,
-  "FormKey": "voluptas",
-  "Name": "Ryan, Towne and Sanford",
-  "Description": "Optional upward-trending synergy",
-  "Config": "dolores",
-  "FolderId": 613,
-  "ScriptId": 443,
-  "ResponseShipmentId": 184,
-  "Active": true,
-  "Expires": "2003-11-20T03:40:47.2499194+01:00",
-  "MaxSubmits": 225,
+  "FormId": 76,
+  "FormKey": "et",
+  "Name": "Kessler, Koepp and Johnson",
+  "Description": "Programmable composite solution",
+  "Config": "placeat",
+  "FolderId": 522,
+  "ScriptId": 393,
+  "ResponseShipmentId": 358,
+  "Active": false,
+  "Expires": "2017-05-26T02:30:47.4600781+02:00",
+  "MaxSubmits": 917,
   "Type": "Normal",
-  "Recipe": "voluptates",
-  "GroupId": 77,
-  "NewTicket": false,
+  "Recipe": "natus",
+  "GroupId": 708,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-08-26T03:40:47.2499194+02:00",
-  "RegisteredAssociateId": 752,
-  "Updated": "2022-03-26T03:40:47.2499194+01:00",
-  "UpdatedAssociateId": 828,
-  "UpdatedCount": 177,
+  "Registered": "2025-06-28T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 979,
+  "Updated": "2016-11-22T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 842,
+  "UpdatedCount": 656,
   "EmailFlows": [
-    59,
-    307
+    542,
+    71
   ],
-  "FolderName": "Wolf-Rodriguez",
+  "FolderName": "Fadel Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 693
     }
   }
 }

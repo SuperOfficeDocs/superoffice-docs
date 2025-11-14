@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,70 +118,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered next generation approach",
-  "Postit": "itaque",
+  "Description": "Seamless mission-critical capacity",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 538,
-  "IncludePerson": 23,
+  "GroupIdx": 38,
+  "IncludePerson": 515,
   "MemberCount": 99.99,
-  "Name": "Spinka-Renner",
-  "PostitTextId": 501,
-  "CreatedDate": "2001-01-04T03:40:47.7348444+01:00",
-  "SelectionId": 349,
-  "SoundEx": "dolorum",
-  "Source": 757,
-  "TextId": 399,
-  "UpdatedDate": "2017-03-25T03:40:47.7348444+01:00",
-  "UpdatedCount": 848,
-  "Visibility": 470,
+  "Name": "Haag-Hermann",
+  "PostitTextId": 235,
+  "CreatedDate": "2013-05-22T02:30:47.819441+02:00",
+  "SelectionId": 599,
+  "SoundEx": "maxime",
+  "Source": 943,
+  "TextId": 247,
+  "UpdatedDate": "2014-02-19T02:30:47.819441+01:00",
+  "UpdatedCount": 199,
+  "Visibility": 536,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 942,
-  "TargetTableName": "Boyle, Dickens and Cronin",
+  "TargetTableNumber": 54,
+  "TargetTableName": "Toy Group",
   "Completed": false,
-  "LeftSelectionId": 330,
-  "RightSelectionId": 753,
+  "LeftSelectionId": 377,
+  "RightSelectionId": 948,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gorczany, Shanahan and Hahn",
-  "ShadowProviderName": "Towne, Barton and Feest",
-  "ChartKey": "cumque",
-  "LastLoaded": "2000-12-21T03:40:47.7348444+01:00",
-  "LastLoadedBy": 45,
+  "MainProviderName": "Greenfelder, Rosenbaum and Von",
+  "ShadowProviderName": "Orn-Auer",
+  "ChartKey": "quam",
+  "LastLoaded": "2025-02-01T02:30:47.819441+01:00",
+  "LastLoadedBy": 880,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-03-20T03:40:47.7348444+01:00",
-  "LastMembershipChangeBy": 195,
+  "LastMembershipChange": "2013-03-12T02:30:47.819441+01:00",
+  "LastMembershipChangeBy": 282,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "molestiae",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Renner-Nienow",
-  "DashboardTileDefinitionId": 157,
+  "MainHeading": "eum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Schaden LLC",
+  "DashboardTileDefinitionId": 355,
   "VisibleFor": [
     {
-      "VisibleId": 981,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 359
         }
       }
     },
     {
-      "VisibleId": 981,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 359
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldLength": 777
     }
   }
 }

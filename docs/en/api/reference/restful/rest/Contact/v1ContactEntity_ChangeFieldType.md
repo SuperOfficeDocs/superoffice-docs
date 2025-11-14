@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -115,46 +115,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 841,
-  "ColumnId": 564,
-  "FieldDefault": "voluptatibus",
-  "FieldHeight": 871,
-  "FieldLabel": "corporis",
-  "FieldLeft": 32,
-  "FieldTop": 462,
+  "UDefFieldId": 634,
+  "ColumnId": 757,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 764,
+  "FieldLabel": "omnis",
+  "FieldLeft": 561,
+  "FieldTop": 753,
   "FieldType": "Checkbox",
-  "FieldWidth": 96,
-  "FormatMask": "eius",
+  "FieldWidth": 837,
+  "FormatMask": "minima",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 119,
-  "LabelLeft": 409,
-  "LabelTop": 34,
-  "LabelWidth": 788,
-  "LastVersionId": 644,
-  "ListTableId": 464,
+  "IsIndexed": false,
+  "LabelHeight": 654,
+  "LabelLeft": 41,
+  "LabelTop": 416,
+  "LabelWidth": 281,
+  "LastVersionId": 695,
+  "ListTableId": 678,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 28,
-  "ProgId": "qui",
-  "IsReadOnly": true,
-  "ShortLabel": "totam",
-  "TabOrder": 280,
-  "TextLength": 395,
-  "Tooltip": "quo",
-  "UdefIdentity": 444,
-  "UDListDefinitionId": 937,
+  "Page1LineNo": 770,
+  "ProgId": "ea",
+  "IsReadOnly": false,
+  "ShortLabel": "ipsam",
+  "TabOrder": 331,
+  "TextLength": 369,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 574,
+  "UDListDefinitionId": 336,
   "Justification": "Center",
-  "Version": 17,
-  "TemplateVariableName": "Streich-Welch",
-  "HasBeenPublished": false,
-  "MdoListName": "Murazik, Schowalter and Wiegand",
+  "Version": 338,
+  "TemplateVariableName": "Herman Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Welch, Cassin and Lehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

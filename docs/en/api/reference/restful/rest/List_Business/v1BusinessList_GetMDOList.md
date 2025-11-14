@@ -28,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=qui
+GET /api/v1/List/Business/MDOItems?query=iste
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Senger LLC",
-    "ToolTip": "Consectetur voluptates.",
-    "Deleted": true,
-    "Rank": 116,
-    "Type": "enim",
+    "Id": 93,
+    "Name": "Gulgowski, Monahan and Ondricka",
+    "ToolTip": "Eos at qui.",
+    "Deleted": false,
+    "Rank": 725,
+    "Type": "delectus",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Ratke, Gislason and Braun",
-        "ToolTip": "Sunt eius.",
-        "Deleted": true,
-        "Rank": 58,
-        "Type": "nemo",
+        "Id": 427,
+        "Name": "Ward, Jaskolski and Toy",
+        "ToolTip": "Ex est doloribus.",
+        "Deleted": false,
+        "Rank": 188,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 409,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "qui",
-        "FullName": "Filomena Cruickshank",
+        "IconHint": "ut",
+        "ColorBlock": 212,
+        "ExtraInfo": "quos",
+        "StyleHint": "et",
+        "FullName": "Prof. Rico Isidro Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldLength": 110
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 775,
-    "ExtraInfo": "non",
-    "StyleHint": "sunt",
-    "FullName": "Elenora Lesch",
+    "IconHint": "dolor",
+    "ColorBlock": 87,
+    "ExtraInfo": "quidem",
+    "StyleHint": "temporibus",
+    "FullName": "Aliza Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldLength": 844
       }
     }
   }

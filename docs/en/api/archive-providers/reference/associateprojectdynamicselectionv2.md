@@ -68,7 +68,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -86,7 +86,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectDynamicSelectionV2?$select=registeredByFullName,projectAssociate/contactId
+GET /api/v1/archive/AssociateProjectDynamicSelectionV2?$select=selectionId,registeredByFullName,projectAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

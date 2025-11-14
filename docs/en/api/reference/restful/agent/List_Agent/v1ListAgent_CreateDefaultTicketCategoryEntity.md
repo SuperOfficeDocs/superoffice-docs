@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 929,
+  "TicketCategoryId": 578,
   "ParentId": 79,
-  "Name": "Reynolds-D'Amore",
-  "Fullname": "labore",
-  "CategoryMaster": 894,
+  "Name": "Langworth, McKenzie and Glover",
+  "Fullname": "quis",
+  "CategoryMaster": 804,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dicki-Grady",
+  "ExternalName": "Bins Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 972,
-  "ReplyTemplate": 467,
-  "NotificationEmail": "neha@kertzmann.com",
+  "AssignmentLag": 34,
+  "ReplyTemplate": 115,
+  "NotificationEmail": "annamarie@veum.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 907,
+  "EffectiveReplyTemplateId": 738,
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "at"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "minima",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 512
     }
   }
 }

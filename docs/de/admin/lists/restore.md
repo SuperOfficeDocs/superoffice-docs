@@ -1,0 +1,46 @@
+---
+uid: help-de-deleted-items-and-headings
+title: Gelöschte Objekte und Überschriften
+description: Gelöschte Objekte und Überschriften
+keywords: Löschen rückgängig
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
+content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from: /de/admin/lists/learn/organize/deleted-items-and-headings
+language: de
+---
+
+# Gelöschte Objekte und Überschriften
+
+Wenn Sie Objekte oder Überschriften löschen, werden diese von den Listen **Objekte** und **Überschriften** und aus den relevanten Listen in SuperOffice CRM entfernt.
+
+Wenn sich ein vorhandener Datensatz auf das gelöschte Objekt oder die gelöschte Überschrift bezieht, wird der Name weiterhin in den Datensätzen angezeigt, auch wenn das Objekt/die Überschrift von der Liste entfernt wurde, in der es/sie ursprünglich ausgewählt worden war.
+
+Aus diesem Grund können Löschvorgänge auf den genannten Registerkarten rückgängig gemacht werden. Sie können gelöschte Objekte und Überschriften anzeigen, indem Sie die Option **Gelöschte Objekte** **und Überschriften anzeigen** wählen. Die gelöschten Elemente werden daraufhin in Rot und durchgestrichen in den Listen angezeigt.
+
+## Löschen rückgängig machen
+
+Wenn Sie ein Objekt oder eine Überschrift löschen und später entscheiden, dass Sie sie nicht von der Liste in Einstellungen und Verwaltung entfernen möchten, können Sie den Löschvorgang in Einstellungen und Verwaltung rückgängig machen.
+
+1. Öffnen Sie die Ansicht **Listen** und wählen Sie die gewünschte Liste aus dem Dropdown-Menü in der oberen linken Ecke.
+
+1. Aktivieren Sie die Option **Gelöschte Objekte und Überschriften anzeigen**.
+
+1. Doppelklicken Sie auf das Objekt bzw. die Überschrift, für das/die der Löschvorgang rückgängig gemacht werden soll (rot und durchgestrichen dargestellt).
+
+1. Klicken Sie auf die Schaltfläche **Wiederherstellen**.
+
+    > [!NOTE]
+    > Diese Schaltfläche ist nur für gelöschte Elemente verfügbar.
+
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
+
+    Wenn Sie Ihre Änderungen speichern, wird das Objekt bzw. die Überschrift wieder in der betreffenden Liste in SuperOffice CRM angezeigt.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->

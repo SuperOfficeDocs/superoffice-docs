@@ -82,13 +82,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 199,
-  "Name": "Farrell Group",
-  "Tooltip": "quibusdam",
-  "Rank": 542,
-  "Rate": 20803.492,
-  "Units": 8085.7199999999993,
-  "Deleted": false
+  "CurrencyId": 578,
+  "Name": "Feil-D'Amore",
+  "Tooltip": "porro",
+  "Rank": 754,
+  "Rate": 764.696,
+  "Units": 20540.236,
+  "Deleted": true
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 579,
-  "Name": "Rippin, Hansen and Erdman",
-  "Tooltip": "sunt",
-  "Rank": 430,
-  "Rate": 30713.2,
-  "Units": 25266.308,
-  "Deleted": true,
+  "CurrencyId": 862,
+  "Name": "Ratke, Anderson and Sporer",
+  "Tooltip": "nisi",
+  "Rank": 744,
+  "Rate": 17707.1,
+  "Units": 1585.8039999999999,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 814
     }
   }
 }

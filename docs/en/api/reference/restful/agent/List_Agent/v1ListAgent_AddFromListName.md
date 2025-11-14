@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schmidt, Ankunding and Altenwerth",
+  "UdListDefinitionName": "Runolfsdottir, Heller and Torphy",
   "Item": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Kuhic-Wisozk",
-  "Tooltip": "totam",
+  "Id": 895,
+  "Name": "Lebsack-Sporer",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 161,
-  "Rank": 535,
+  "UdListDefinitionId": 566,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 774
     }
   }
 }

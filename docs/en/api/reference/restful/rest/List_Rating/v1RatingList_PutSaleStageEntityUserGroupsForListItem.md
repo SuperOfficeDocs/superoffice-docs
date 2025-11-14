@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Conroy LLC",
-    "ToolTip": "Est numquam consequatur eaque quo eaque aut.",
-    "Deleted": true,
-    "Rank": 848,
-    "Type": "fugiat",
-    "ColorBlock": 708,
-    "IconHint": "atque",
+    "Id": 541,
+    "Name": "Mayert-Bernier",
+    "ToolTip": "Ut consectetur.",
+    "Deleted": false,
+    "Rank": 982,
+    "Type": "dolorem",
+    "ColorBlock": 174,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2010-09-17T03:40:57.0558521+02:00",
+    "LastChanged": "2017-01-24T02:30:53.4130107+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Welch, Macejkovic and Beier",
-        "ToolTip": "Id temporibus consequuntur quos.",
-        "Deleted": false,
-        "Rank": 635,
-        "Type": "saepe",
-        "ColorBlock": 417,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1999-12-30T03:40:57.0558521+01:00",
+        "Id": 494,
+        "Name": "Bailey-Fay",
+        "ToolTip": "Et repellendus et repellat odio.",
+        "Deleted": true,
+        "Rank": 682,
+        "Type": "fugit",
+        "ColorBlock": 833,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2009-05-14T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "esse",
+        "ExtraInfo": "iusto",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Prof. Simeon Hubert Reilly"
+        "FullName": "Elian Bailey"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "aut",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Emery Emmet Johnson DVM"
+    "FullName": "Marilou Hyatt"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Braun-Stehr",
-    "ToolTip": "Et ipsum est qui ad.",
+    "Id": 46,
+    "Name": "Batz-Lebsack",
+    "ToolTip": "Impedit fugiat minus qui quia libero et.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "itaque",
-    "ColorBlock": 24,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2016-09-16T03:40:57.0558521+02:00",
+    "Rank": 662,
+    "Type": "ut",
+    "ColorBlock": 583,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2015-06-07T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Monahan-Adams",
-        "ToolTip": "Autem et doloremque quisquam ut est aut.",
+        "Id": 113,
+        "Name": "Casper-Stoltenberg",
+        "ToolTip": "Tempora rerum sit.",
         "Deleted": false,
-        "Rank": 824,
-        "Type": "et",
-        "ColorBlock": 285,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2018-05-17T03:40:57.0558521+02:00",
+        "Rank": 682,
+        "Type": "veniam",
+        "ColorBlock": 244,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2001-04-07T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Ms. Aurelie Marvin PhD",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Mr. Lia Alicia Homenick PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 886
+            "FieldType": "System.Int32",
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Lavern Rice",
+    "ExtraInfo": "totam",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Zena Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 324
       }
     }
   }

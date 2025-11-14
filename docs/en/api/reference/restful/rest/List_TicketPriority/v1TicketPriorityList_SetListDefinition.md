@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Watsica, Mueller and Murazik",
-  "Tooltip": "sint",
+  "Id": 238,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 539,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "Rank": 444,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "Name": "Bauch-Gusikowski",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 475,
-  "IsCustomList": false,
+  "Id": 418,
+  "Name": "Roob, Orn and Bergnaum",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 556,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 327
     }
   }
 }

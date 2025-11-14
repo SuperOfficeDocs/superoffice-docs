@@ -69,7 +69,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Conn Inc and Sons",
-    "DisplayName": "Harris-Cole",
-    "Description": "Multi-tiered secondary framework",
-    "ShortLabel": "sunt",
-    "HideLabel": false,
+    "FieldName": "Kuhic, Tremblay and Rau",
+    "DisplayName": "Waelchi, Padberg and Raynor",
+    "Description": "Automated dedicated neural-net",
+    "ShortLabel": "ab",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 692,
-    "TemplateVariableName": "Bahringer, Wiegand and Franecki"
+    "Rank": 701,
+    "TemplateVariableName": "Wilkinson-Kshlerin"
   }
 ]
 ```

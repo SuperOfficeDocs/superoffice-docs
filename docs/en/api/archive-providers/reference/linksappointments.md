@@ -90,6 +90,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
 |contact/categoryGroup|listAny|Category group| x |
+|contact/companyCategoryRank|int|Category rank| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -110,6 +111,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/forceCompany|bool|Dummy: Dummy|  |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -119,12 +121,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
 |contact/email/emailDescription|string|Description| x |
-|contact/email/emailId|int|ID| x |
-|contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailId|int|ID| x |
+|contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -187,7 +189,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contact/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |contact/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contact/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|contact/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |contact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -223,17 +225,17 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
-|contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -307,8 +309,10 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personCategoryGroup|listAny|Category group| x |
+|person/personCategoryRank|int|!!Category rank| x |
 |person/personBusiness|listAny|Business| x |
-|person/leadstatus|listAny|Lead status| x |
+|person/leadStatus|listAny|Lead status| x |
+|person/leadstatusRank|int|!!Lead status RANK| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -325,14 +329,14 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personPrivate/description|string|Private - Description: Phone number description| x |
 |person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
 |person/personPager/description|string|Other - Description: Phone number description| x |
-|person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|person/personDirectFax/description|string|Fax - Description: Phone number description| x |
-|person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
-|person/searchPhone/description|string|Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+|person/personDirectFax/description|string|Fax - Description: Phone number description| x |
+|person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
+|person/searchPhone/description|string|Description: Phone number description| x |
 |person/personInfo/textId|int|Text ID| x |
 |person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
@@ -399,8 +403,8 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -426,17 +430,17 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
@@ -463,7 +467,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -533,14 +537,14 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/associateDbId|associate|ID| x |
-|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|project/projectAssociate/associateDbId|associate|ID| x |
+|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -551,7 +555,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -629,7 +633,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -637,14 +641,14 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
 |sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
 |sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
-|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
-|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
-|sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -684,7 +688,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -725,7 +729,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -741,21 +745,21 @@ Link data provider for appointments, handles both addressing by source or by des
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
-|appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/isConverted| *None* |!!Is Converted|  |
-|appointment/textId|int|Text ID| x |
-|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/streetAddress/wgs84longitude,contact/LastDoByTicket,person/personAssociate/ejStatus,sale/associate/contactCategory,associate/otherGroups
+GET /api/v1/archive/LinksAppointments?$select=type,person/personAssociate/contactCategory,contact/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

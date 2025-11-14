@@ -104,9 +104,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 349,
-  "QuoteAlternativeName": "Kertzmann, Padberg and Goodwin",
-  "QuoteAlternativeDescription": "Self-enabling neutral analyzer"
+  "QuoteVersionId": 482,
+  "QuoteAlternativeName": "Jaskolski Group",
+  "QuoteAlternativeDescription": "Programmable modular interface"
 }
 ```
 
@@ -117,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 378,
-  "ERPQuoteAlternativeKey": "in",
-  "QuoteVersionId": 212,
-  "Name": "Conroy-Crooks",
-  "Description": "User-friendly methodical collaboration",
+  "QuoteAlternativeId": 179,
+  "ERPQuoteAlternativeKey": "sit",
+  "QuoteVersionId": 878,
+  "Name": "Abbott-Harber",
+  "Description": "Face to face maximized capacity",
   "Status": "Error",
-  "Reason": "enhance frictionless vortals",
-  "ERPDiscountPercent": 16136.966,
-  "ERPDiscountAmount": 3390.988,
-  "DiscountPercent": 244.452,
-  "DiscountAmount": 14134.34,
+  "Reason": "",
+  "ERPDiscountPercent": 6716.1619999999994,
+  "ERPDiscountAmount": 22188.719999999998,
+  "DiscountPercent": 9984.9239999999991,
+  "DiscountAmount": 5099.018,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "est",
-  "VAT": 24952.908,
-  "EarningPercent": 22796.716,
-  "EarningAmount": 29635.104,
-  "SubTotal": 29105.458,
-  "TotalPrice": 25824.16,
-  "ExtraField1": "aut",
-  "ExtraField2": "commodi",
-  "ExtraField3": "pariatur",
-  "ExtraField4": "qui",
-  "ExtraField5": "et",
+  "VATInfo": "soluta",
+  "VAT": 10326.529999999999,
+  "EarningPercent": 31249.113999999998,
+  "EarningAmount": 20486.958,
+  "SubTotal": 16415.892,
+  "TotalPrice": 20499.494,
+  "ExtraField1": "est",
+  "ExtraField2": "ut",
+  "ExtraField3": "nisi",
+  "ExtraField4": "velit",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

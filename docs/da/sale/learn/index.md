@@ -102,11 +102,13 @@ For mere information om opsætning af salgsmuligheder, se [guiden til salgsprogn
 * [Opret et tilbud][1]
 * [Arbejd med salgsguider][6]
 * [Arbejd med salgsmål][7]
+* [Lead-håndtering][8]
 * [Udskriv info om et salg][11]
 
 <!-- Referenced links -->
 [1]: quote/create.md
 [3]: ../../learn/section-tabs/index.md
+[8]: ../../lead/learn/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md

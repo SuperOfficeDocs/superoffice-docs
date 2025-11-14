@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# QuoteDenyReasonGroupLink Table (532)
+# QuoteDenyReasonGroupLink Table (533)
 
 User group link table for QuoteDenyReason, for MDO item hiding
 

@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 850
+  "QuoteId": 50
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 175,
-  "SaleId": 620,
-  "QuoteConnectionId": 657,
-  "ERPQuoteKey": "officia",
-  "ERPOrderKey": "voluptas",
-  "ActiveQuoteVersionId": 373,
-  "AcceptedQuoteAlternativeId": 244,
-  "UseValuesFromQuote": 438,
-  "DocumentId": 75,
-  "PoNumber": "1424050",
-  "OrderComment": "omnis",
-  "PreferredEmailCulture": "octavia.muller@rodriguez.co.uk",
+  "QuoteId": 913,
+  "SaleId": 310,
+  "QuoteConnectionId": 298,
+  "ERPQuoteKey": "eius",
+  "ERPOrderKey": "sapiente",
+  "ActiveQuoteVersionId": 850,
+  "AcceptedQuoteAlternativeId": 369,
+  "UseValuesFromQuote": 740,
+  "DocumentId": 846,
+  "PoNumber": "1278768",
+  "OrderComment": "assumenda",
+  "PreferredEmailCulture": "jada_lang@herman.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 639
     }
   }
 }

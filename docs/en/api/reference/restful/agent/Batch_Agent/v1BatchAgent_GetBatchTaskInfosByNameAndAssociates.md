@@ -98,14 +98,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hamill, Haag and D'Amore",
+  "Name": "Stiedemann-Yost",
   "AssociateIds": [
-    527,
-    33
+    749,
+    495
   ]
 }
 ```
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Rippin, Prosacco and Upton",
-    "AssociateId": 479,
-    "DetailsTable": 568,
-    "DetailsRecord": 802,
+    "Id": 743,
+    "Name": "Kuhic Inc and Sons",
+    "AssociateId": 547,
+    "DetailsTable": 485,
+    "DetailsRecord": 530,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "molestiae",
-      "ParameterObject2": "quia"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "optio"
     },
-    "LastStarted": "2009-12-25T03:40:46.0764548+01:00",
-    "Created": "2000-02-07T03:40:46.0764548+01:00",
-    "StartCount": 855,
-    "DatabaseSerialNumber": "1272575",
-    "Context": "sit",
-    "Result": "aliquam",
+    "LastStarted": "2021-09-19T02:30:46.8194719+02:00",
+    "Created": "2004-05-11T02:30:46.8194719+02:00",
+    "StartCount": 305,
+    "DatabaseSerialNumber": "612904",
+    "Context": "neque",
+    "Result": "ex",
     "State": "All",
-    "Description": "Profit-focused hybrid functionalities",
-    "Response": "blanditiis",
-    "Request": "quibusdam",
-    "ProgressDescription": "Focused intangible benchmark",
-    "ProgressPercent": 478,
-    "FileName": "Hamill Group",
+    "Description": "Seamless high-level software",
+    "Response": "deserunt",
+    "Request": "qui",
+    "ProgressDescription": "Switchable uniform focus group",
+    "ProgressPercent": 951,
+    "FileName": "Mertz LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 361
       }
     }
   }

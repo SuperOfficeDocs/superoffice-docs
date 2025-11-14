@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Greenfelder, Ferry and Bogan"
+  "TargetTableName": "Walker-Welch"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform bottom-line strategy",
-  "Postit": "vero",
+  "Description": "Multi-layered 5th generation approach",
+  "Postit": "aliquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 774,
-  "IncludePerson": 827,
+  "GroupIdx": 829,
+  "IncludePerson": 356,
   "MemberCount": 99.99,
-  "Name": "Dickens-Koch",
-  "PostitTextId": 882,
-  "CreatedDate": "2013-06-02T03:40:47.7192182+02:00",
-  "SelectionId": 699,
-  "SoundEx": "commodi",
-  "Source": 21,
-  "TextId": 263,
-  "UpdatedDate": "2002-11-14T03:40:47.7192182+01:00",
-  "UpdatedCount": 855,
-  "Visibility": 110,
+  "Name": "Legros Group",
+  "PostitTextId": 868,
+  "CreatedDate": "2007-10-03T02:30:47.819441+02:00",
+  "SelectionId": 207,
+  "SoundEx": "est",
+  "Source": 277,
+  "TextId": 310,
+  "UpdatedDate": "2011-10-09T02:30:47.819441+02:00",
+  "UpdatedCount": 447,
+  "Visibility": 981,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 710,
-  "TargetTableName": "Sawayn-Kohler",
-  "Completed": true,
-  "LeftSelectionId": 608,
-  "RightSelectionId": 357,
+  "TargetTableNumber": 139,
+  "TargetTableName": "Blick-Blanda",
+  "Completed": false,
+  "LeftSelectionId": 715,
+  "RightSelectionId": 585,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Legros, Fisher and Labadie",
-  "ShadowProviderName": "Murphy-Huels",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2001-03-26T03:40:47.7192182+02:00",
-  "LastLoadedBy": 871,
+  "MainProviderName": "Russel, Grant and Heidenreich",
+  "ShadowProviderName": "Halvorson LLC",
+  "ChartKey": "ea",
+  "LastLoaded": "2024-08-04T02:30:47.819441+02:00",
+  "LastLoadedBy": 177,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-08-05T03:40:47.7192182+02:00",
-  "LastMembershipChangeBy": 713,
+  "LastMembershipChange": "2000-07-18T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 829,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "veniam",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Ankunding, Hackett and Stamm",
-  "DashboardTileDefinitionId": 415,
+  "MainHeading": "sunt",
+  "MemberTabHeading": "exercitationem",
+  "MailingsProviderName": "Robel, DuBuque and Vandervort",
+  "DashboardTileDefinitionId": 748,
   "VisibleFor": [
     {
-      "VisibleId": 840,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     },
     {
-      "VisibleId": 840,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

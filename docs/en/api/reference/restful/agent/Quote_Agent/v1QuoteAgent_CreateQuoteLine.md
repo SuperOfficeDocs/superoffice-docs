@@ -125,12 +125,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 296,
-  "ERPProductKey": "modi"
+  "QuoteAlternativeId": 889,
+  "ERPProductKey": "dicta"
 }
 ```
 
@@ -141,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 987,
-  "ERPQuoteLineKey": "eaque",
-  "QuoteAlternativeId": 564,
-  "ERPProductKey": "nihil",
+  "QuoteLineId": 694,
+  "ERPQuoteLineKey": "incidunt",
+  "QuoteAlternativeId": 409,
+  "ERPProductKey": "ipsa",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 861.85,
-  "DeliveredQuantity": 1579.536,
-  "Rank": 224,
-  "Name": "Jast-Purdy",
-  "Description": "Visionary 3rd generation info-mediaries",
-  "Code": "quisquam",
-  "QuantityUnit": "alias",
-  "PriceUnit": "temporibus",
-  "ItemNumber": "1057913",
+  "Quantity": 22881.334,
+  "DeliveredQuantity": 17838.728,
+  "Rank": 917,
+  "Name": "Carroll Inc and Sons",
+  "Description": "Ergonomic systemic contingency",
+  "Code": "facere",
+  "QuantityUnit": "quis",
+  "PriceUnit": "facilis",
+  "ItemNumber": "835580",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iure",
-  "ProductTypeKey": "quae",
-  "Supplier": "repellat",
-  "SupplierCode": "cum",
-  "Thumbnail": "velit",
-  "VATInfo": "et",
-  "VAT": 7831.866,
-  "UnitCost": 12279.011999999999,
-  "UnitMinimumPrice": 25300.782,
-  "UnitListPrice": 29563.022,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "ut",
+  "Supplier": "beatae",
+  "SupplierCode": "dicta",
+  "Thumbnail": "odit",
+  "VATInfo": "non",
+  "VAT": 4863.968,
+  "UnitCost": 22477.048,
+  "UnitMinimumPrice": 15419.279999999999,
+  "UnitListPrice": 19010.844,
   "ExtraInfo": [
     {
-      "Name": "Cummings Inc and Sons",
-      "Value": "quis",
+      "Name": "Runolfsdottir, Rogahn and Conn",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     },
     {
-      "Name": "Cummings Inc and Sons",
-      "Value": "quis",
+      "Name": "Runolfsdottir, Rogahn and Conn",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
+  "RawExtraInfo": "eveniet",
   "IsSubscription": false,
-  "SubscriptionUnit": "corporis",
-  "SubscriptionQuantity": 27259.532,
-  "SubscriptionStart": "2002-10-17T03:40:47.5785846+02:00",
-  "ERPDiscountPercent": 9577.503999999999,
-  "ERPDiscountAmount": 29678.98,
-  "DiscountPercent": 24648.91,
-  "DiscountAmount": 21107.489999999998,
+  "SubscriptionUnit": "incidunt",
+  "SubscriptionQuantity": 19007.71,
+  "SubscriptionStart": "2016-10-27T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 2137.388,
+  "ERPDiscountAmount": 24119.264,
+  "DiscountPercent": 28039.897999999997,
+  "DiscountAmount": 18998.308,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14259.699999999999,
-  "EarningAmount": 22060.226,
-  "SubTotal": 14801.882,
-  "TotalPrice": 20790.956,
-  "Rights": "sint",
-  "Rule": "aut",
-  "ExtraField1": "labore",
-  "ExtraField2": "numquam",
-  "ExtraField3": "laboriosam",
-  "ExtraField4": "eius",
-  "ExtraField5": "incidunt",
+  "EarningPercent": 4033.458,
+  "EarningAmount": 24780.538,
+  "SubTotal": 30716.334,
+  "TotalPrice": 20198.63,
+  "Rights": "eos",
+  "Rule": "tenetur",
+  "ExtraField1": "quas",
+  "ExtraField2": "facilis",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "sit",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 736
     }
   }
 }

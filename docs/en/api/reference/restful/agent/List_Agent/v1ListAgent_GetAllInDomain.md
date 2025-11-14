@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,46 +103,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 427,
+    "HierarchyId": 484,
     "Domain": "Dashboards",
-    "Name": "Koelpin-Smith",
-    "Fullname": "asperiores",
-    "ParentId": 513,
+    "Name": "Quigley-Marvin",
+    "Fullname": "necessitatibus",
+    "ParentId": 25,
     "Children": [
       {
-        "HierarchyId": 5,
+        "HierarchyId": 45,
         "Domain": "Dashboards",
-        "Name": "Dickens, Cassin and Hegmann",
-        "Fullname": "labore",
-        "ParentId": 319,
+        "Name": "Cummings Inc and Sons",
+        "Fullname": "delectus",
+        "ParentId": 552,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-03-26T03:40:47.2030415+01:00",
-        "RegisteredAssociateId": 171,
-        "Updated": "2006-06-04T03:40:47.2030415+02:00",
-        "UpdatedAssociateId": 40,
+        "Registered": "2002-05-08T02:30:47.4288293+02:00",
+        "RegisteredAssociateId": 815,
+        "Updated": "2017-06-29T02:30:47.4288293+02:00",
+        "UpdatedAssociateId": 686,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 526
           }
         }
       }
     ],
-    "Registered": "1998-07-23T03:40:47.2030415+02:00",
-    "RegisteredAssociateId": 403,
-    "Updated": "2002-03-10T03:40:47.2030415+01:00",
-    "UpdatedAssociateId": 857,
+    "Registered": "2020-04-06T02:30:47.4288293+02:00",
+    "RegisteredAssociateId": 389,
+    "Updated": "1998-08-10T02:30:47.4288293+02:00",
+    "UpdatedAssociateId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldLength": 934
       }
     }
   }

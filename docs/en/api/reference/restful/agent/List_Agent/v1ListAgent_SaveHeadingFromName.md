@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cronin-Schoen",
+  "Name": "Ortiz-Toy",
   "Entity": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 865,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "enim",
+  "HeadingId": 420,
+  "Name": "Eichmann-Heller",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 238,
-  "UdListDefinitionId": 403,
+  "Rank": 368,
+  "UdListDefinitionId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 197
     }
   }
 }

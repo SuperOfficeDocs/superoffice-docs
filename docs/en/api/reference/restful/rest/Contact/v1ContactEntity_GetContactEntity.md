@@ -35,7 +35,7 @@ NsApiSlow threshold: 2000 ms.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=True
+GET /api/v1/Contact/{id}?fk=False
 ```
 
 
@@ -130,160 +130,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 02 Jun 2025 03:40:55 G6T
+Last-Modified: Sat, 19 Jan 2013 02:30:52 G1T
 
 {
-  "ContactId": 4,
-  "Name": "Koch LLC",
+  "ContactId": 141,
+  "Name": "McLaughlin LLC",
   "Department": "",
-  "OrgNr": "938678",
-  "Number1": "936716",
-  "Number2": "665402",
-  "UpdatedDate": "2025-06-02T03:40:55.4599408+02:00",
-  "CreatedDate": "2005-10-15T03:40:55.4599408+02:00",
+  "OrgNr": "545212",
+  "Number1": "1038594",
+  "Number2": "1071033",
+  "UpdatedDate": "2013-01-19T02:30:52.4599175+01:00",
+  "CreatedDate": "2014-01-06T02:30:52.4599175+01:00",
   "Emails": [
     {
-      "Value": "sit",
-      "StrippedValue": "est",
-      "Description": "Synergistic stable framework",
+      "Value": "ullam",
+      "StrippedValue": "voluptatem",
+      "Description": "Balanced motivating structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "est",
-      "Description": "Synergistic stable framework",
+      "Value": "ullam",
+      "StrippedValue": "voluptatem",
+      "Description": "Balanced motivating structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 503,
-      "Name": "Homenick LLC",
-      "ToolTip": "Dolorum qui a cumque nesciunt.",
+      "Id": 818,
+      "Name": "Hammes-McLaughlin",
+      "ToolTip": "Doloremque omnis.",
       "Deleted": false,
-      "Rank": 46,
-      "Type": "quidem",
-      "ColorBlock": 462,
-      "IconHint": "cupiditate",
-      "Selected": true,
-      "LastChanged": "2008-09-12T03:40:55.4755673+02:00",
+      "Rank": 894,
+      "Type": "sapiente",
+      "ColorBlock": 610,
+      "IconHint": "laborum",
+      "Selected": false,
+      "LastChanged": "2013-01-28T02:30:52.4599175+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "nisi",
+      "ExtraInfo": "ex",
+      "StyleHint": "aliquid",
       "Hidden": false,
-      "FullName": "Mr. Candida Schaden",
+      "FullName": "Derek Monique D'Amore V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "doloremque",
+      "Value": "a",
       "StrippedValue": "vitae",
-      "Description": "Persevering grid-enabled solution",
+      "Description": "Expanded incremental algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 961
         }
       }
     },
     {
-      "Value": "doloremque",
+      "Value": "a",
       "StrippedValue": "vitae",
-      "Description": "Persevering grid-enabled solution",
+      "Description": "Expanded incremental algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 961
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "ratione",
-      "StrippedValue": "ab",
-      "Description": "Expanded optimizing data-warehouse",
+      "Value": "et",
+      "StrippedValue": "et",
+      "Description": "Secured intermediate knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 668
         }
       }
     },
     {
-      "Value": "ratione",
-      "StrippedValue": "ab",
-      "Description": "Expanded optimizing data-warehouse",
+      "Value": "et",
+      "StrippedValue": "et",
+      "Description": "Secured intermediate knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 668
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "vitae",
-      "StrippedValue": "assumenda",
-      "Description": "Monitored 24/7 process improvement",
+      "Value": "autem",
+      "StrippedValue": "hic",
+      "Description": "Secured mobile extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     },
     {
-      "Value": "vitae",
-      "StrippedValue": "assumenda",
-      "Description": "Monitored 24/7 process improvement",
+      "Value": "autem",
+      "StrippedValue": "hic",
+      "Description": "Secured mobile extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
   ],
-  "Description": "Progressive secondary product",
+  "Description": "Ameliorated methodical protocol",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -292,102 +292,102 @@ Last-Modified: Mon, 02 Jun 2025 03:40:55 G6T
   "Country": null,
   "Persons": [
     {
-      "Position": "dolorem",
-      "PersonId": 572,
-      "Mrmrs": "quas",
-      "Firstname": "Roxanne",
-      "Lastname": "Tromp",
-      "MiddleName": "Mueller-Sporer",
-      "Title": "magnam",
-      "Description": "Reduced demand-driven success",
-      "Email": "lee@sporer.info",
-      "FullName": "Hillard Gutkowski V",
-      "DirectPhone": "477-455-4108 x70631",
-      "FormalName": "Batz, Rogahn and Ondricka",
-      "CountryId": 21,
-      "ContactId": 350,
-      "ContactName": "Rosenbaum, Reilly and Littel",
-      "Retired": 403,
-      "Rank": 121,
-      "ActiveInterests": 339,
-      "ContactDepartment": "brand seamless web-readiness",
-      "ContactCountryId": 73,
-      "ContactOrgNr": "1080366",
-      "FaxPhone": "578.863.2958 x3535",
-      "MobilePhone": "(938)108-2838 x82397",
-      "ContactPhone": "(098)185-8024 x7555",
-      "AssociateName": "Anderson, Considine and Reynolds",
-      "AssociateId": 423,
+      "Position": "illum",
+      "PersonId": 688,
+      "Mrmrs": "eaque",
+      "Firstname": "Madie",
+      "Lastname": "Emard",
+      "MiddleName": "Durgan-Corkery",
+      "Title": "rerum",
+      "Description": "Ergonomic maximized knowledge user",
+      "Email": "elyse_krajcik@jenkins.biz",
+      "FullName": "Alexanne Haley",
+      "DirectPhone": "1-692-787-6163 x29578",
+      "FormalName": "Runte Group",
+      "CountryId": 904,
+      "ContactId": 509,
+      "ContactName": "Kling-Mayer",
+      "Retired": 853,
+      "Rank": 940,
+      "ActiveInterests": 147,
+      "ContactDepartment": "harness 24/7 paradigms",
+      "ContactCountryId": 721,
+      "ContactOrgNr": "1188036",
+      "FaxPhone": "1-102-132-4916 x006",
+      "MobilePhone": "401-507-5928",
+      "ContactPhone": "1-930-764-3422",
+      "AssociateName": "Stoltenberg LLC",
+      "AssociateId": 49,
       "UsePersonAddress": false,
-      "ContactFax": "dolor",
-      "Kanafname": "debitis",
-      "Kanalname": "facere",
-      "Post1": "sunt",
-      "Post2": "dolorem",
-      "Post3": "neque",
-      "EmailName": "geo@bergstrom.name",
-      "ContactFullName": "Seth Julio Larkin MD",
-      "ActiveErpLinks": 142,
-      "TicketPriorityId": 773,
-      "SupportLanguageId": 984,
-      "SupportAssociateId": 488,
+      "ContactFax": "vel",
+      "Kanafname": "in",
+      "Kanalname": "similique",
+      "Post1": "voluptas",
+      "Post2": "repudiandae",
+      "Post3": "perspiciatis",
+      "EmailName": "bert@ankunding.co.uk",
+      "ContactFullName": "Marshall Mosciski",
+      "ActiveErpLinks": 633,
+      "TicketPriorityId": 346,
+      "SupportLanguageId": 652,
+      "SupportAssociateId": 631,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "906130",
+      "PersonNumber": "342262",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "impedit",
-  "Xstop": false,
-  "ActiveInterests": 922,
-  "GroupId": 825,
-  "ActiveStatusMonitorId": 371,
+  "Kananame": "veritatis",
+  "Xstop": true,
+  "ActiveInterests": 546,
+  "GroupId": 127,
+  "ActiveStatusMonitorId": 984,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 261,
-  "DbiAgentId": 791,
-  "DbiLastSyncronized": "2013-10-19T03:40:55.4755673+02:00",
-  "DbiKey": "libero",
-  "DbiLastModified": "2009-01-21T03:40:55.4755673+01:00",
+  "Deleted": 625,
+  "DbiAgentId": 354,
+  "DbiLastSyncronized": "2020-12-22T02:30:52.4755423+01:00",
+  "DbiKey": "fugit",
+  "DbiLastModified": "2010-06-17T02:30:52.4755423+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 639,
-  "ActiveErpLinks": 120,
+  "Source": 362,
+  "ActiveErpLinks": 621,
   "BounceEmails": [
-    "selina_gerhold@kingframi.biz",
-    "yasmin_pacocha@dubuqueschiller.biz"
+    "laila@kuphalweber.name",
+    "buck_gleason@purdy.ca"
   ],
   "Domains": [
-    "assumenda",
-    "quasi"
+    "doloribus",
+    "non"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alice Jakubowski III",
-    "SuperOffice:2": "Susie Aufderhar"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "qui"
+    "CustomFields1": "fuga",
+    "CustomFields2": "labore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 613
     }
   },
   "_Links": {

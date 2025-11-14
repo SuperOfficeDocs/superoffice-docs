@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 204
+  "ErpConnectorId": 634
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "nihil",
-    "Rank": 960,
-    "DisplayName": "Klein-Towne",
-    "DisplayDescription": "Adaptive cohesive implementation",
+    "FieldKey": "saepe",
+    "Rank": 294,
+    "DisplayName": "Carter-Goldner",
+    "DisplayDescription": "Implemented regional paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Bode-Kshlerin",
-    "DefaultValue": "eum",
-    "MaxLength": 528,
+    "ListName": "Flatley-Metz",
+    "DefaultValue": "nam",
+    "MaxLength": 1001,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

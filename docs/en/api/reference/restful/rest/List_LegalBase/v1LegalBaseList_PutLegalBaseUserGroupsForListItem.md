@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Schaden, Watsica and Corwin",
-    "ToolTip": "Temporibus delectus aut ipsa quidem unde laborum vel.",
+    "Id": 187,
+    "Name": "Windler-Huels",
+    "ToolTip": "Mollitia in maxime tempore ut nihil.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "unde",
-    "ColorBlock": 905,
-    "IconHint": "repellendus",
+    "Rank": 67,
+    "Type": "autem",
+    "ColorBlock": 990,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2000-05-20T03:40:56.8526098+02:00",
+    "LastChanged": "2008-08-09T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Mitchell, Hills and Mills",
-        "ToolTip": "Amet ut ipsum dolorem autem odit debitis.",
+        "Id": 415,
+        "Name": "Bins Inc and Sons",
+        "ToolTip": "Qui dolores ut.",
         "Deleted": true,
-        "Rank": 779,
-        "Type": "ut",
-        "ColorBlock": 400,
-        "IconHint": "aliquam",
+        "Rank": 641,
+        "Type": "praesentium",
+        "ColorBlock": 159,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2015-05-09T03:40:56.8526098+02:00",
+        "LastChanged": "2004-05-20T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Mrs. Holly Hailey Johnston DVM"
+        "FullName": "Maurice Price"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Miss Malika Joesph Gulgowski"
+    "ExtraInfo": "ut",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Jewel Beier"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Robel, Johns and Flatley",
-    "ToolTip": "In laudantium sit.",
-    "Deleted": true,
-    "Rank": 370,
-    "Type": "perspiciatis",
-    "ColorBlock": 821,
-    "IconHint": "tempore",
+    "Id": 719,
+    "Name": "Pagac, Hammes and Schowalter",
+    "ToolTip": "Distinctio eum.",
+    "Deleted": false,
+    "Rank": 690,
+    "Type": "qui",
+    "ColorBlock": 521,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2011-02-12T03:40:56.8682357+01:00",
+    "LastChanged": "2005-02-12T02:30:53.3036395+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Runte-Champlin",
-        "ToolTip": "Dolore optio voluptatem quos dolores fugiat.",
-        "Deleted": false,
-        "Rank": 976,
-        "Type": "fuga",
-        "ColorBlock": 341,
-        "IconHint": "aperiam",
+        "Id": 328,
+        "Name": "Reinger-Rippin",
+        "ToolTip": "Atque distinctio voluptas reiciendis quae praesentium rerum et.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "aut",
+        "ColorBlock": 662,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2002-05-09T03:40:56.8682357+02:00",
+        "LastChanged": "2005-10-25T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Eda Hamill",
+        "FullName": "Spencer Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 288
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "quia",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Abelardo Green",
+    "FullName": "Devonte Waelchi MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 337
       }
     }
   }

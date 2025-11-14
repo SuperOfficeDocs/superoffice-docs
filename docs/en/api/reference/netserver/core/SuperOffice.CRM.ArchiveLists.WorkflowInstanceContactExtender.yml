@@ -46,6 +46,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colAssociateId
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategory
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryRank
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCountry
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCountryId
@@ -66,6 +67,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colActiveErpLinks
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colDeletedDate
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colMainContact
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.InnerModifyQuery
@@ -507,6 +509,14 @@ references:
   name: _colCategoryGroup
   nameWithType: ContactExtenderBase._colCategoryGroup
   fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryRank
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase__colCategoryRank
+  name: _colCategoryRank
+  nameWithType: ContactExtenderBase._colCategoryRank
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryRank
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
@@ -667,6 +677,14 @@ references:
   name: _colMainContact
   nameWithType: ContactExtenderBase._colMainContact
   fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colMainContact
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase__colForceCompany
+  name: _colForceCompany
+  nameWithType: ContactExtenderBase._colForceCompany
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
   commentId: M:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase

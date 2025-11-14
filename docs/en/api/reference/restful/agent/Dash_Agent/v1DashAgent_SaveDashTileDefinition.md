@@ -102,29 +102,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 82,
-  "Name": "Kovacek-Becker",
-  "Description": "Adaptive 6th generation encryption",
-  "DefaultHeight": 440,
-  "DefaultWidth": 785,
+  "DashboardTileDefinitionId": 604,
+  "Name": "Dickens-Mills",
+  "Description": "Total bifurcated synergy",
+  "DefaultHeight": 723,
+  "DefaultWidth": 552,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Morar-Ernser",
-  "SelectionId": 179,
+  "EntityName": "O'Reilly-Moen",
+  "SelectionId": 613,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dicta",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "commodi",
-  "LayoutConfig": "aperiam",
-  "SecondarySelectionId": 521,
-  "MeasureByField": "omnis",
+  "MeasureField": "qui",
+  "SortBy": "eum",
+  "LayoutConfig": "magnam",
+  "SecondarySelectionId": 244,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Stark Inc and Sons"
+  "ProviderName": "Halvorson-Huels"
 }
 ```
 
@@ -135,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 237,
-  "Name": "Hills, Mitchell and O'Keefe",
-  "Description": "Seamless transitional extranet",
-  "DefaultHeight": 606,
-  "DefaultWidth": 757,
+  "DashboardTileDefinitionId": 668,
+  "Name": "Bogisich Inc and Sons",
+  "Description": "Intuitive secondary approach",
+  "DefaultHeight": 125,
+  "DefaultWidth": 342,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hettinger-Shields",
-  "SelectionId": 291,
+  "EntityName": "Nienow Group",
+  "SelectionId": 325,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nobis",
+  "CurrencyCode": "eos",
   "Measure": "Average",
-  "MeasureField": "eos",
-  "SortBy": "facere",
-  "LayoutConfig": "sed",
-  "SecondarySelectionId": 487,
-  "MeasureByField": "facilis",
+  "MeasureField": "corrupti",
+  "SortBy": "doloribus",
+  "LayoutConfig": "libero",
+  "SecondarySelectionId": 390,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Metz-Veum",
+  "ProviderName": "Koepp Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 340
     }
   }
 }

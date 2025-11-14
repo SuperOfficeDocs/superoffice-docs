@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705,
-  "Name": "Waelchi-Nolan",
-  "Tooltip": "nam",
+  "Id": 566,
+  "Name": "Berge-Cormier",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 211,
-  "IsCustomList": true,
+  "Rank": 597,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Pagac Inc and Sons",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 968,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 194,
+  "Name": "Ferry Group",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 119,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "optio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 103
     }
   }
 }

@@ -53,7 +53,6 @@ Mail Link connects your Outlook to SuperOffice CRM so you can attach documents f
 * Archives emails and attachments to SuperOffice from Outlook. You can archive email as appointments or requests. Emails that you archive to SuperOffice are automatically saved to the sender’s company card. If needed, you can also link an email to a project and sale.
 * Looks up or creates a new contact in SuperOffice CRM from Outlook.
 * Attaches documents from SuperOffice CRM when creating a new email in Outlook.
-* Allows you to [create email templates][6] that can be used from SuperOffice CRM.
 * Lets you open the Outlook application from SuperOffice CRM.
 * Lets you add all contacts from a selection as recipients of an email.
 
@@ -118,7 +117,6 @@ How it works is detailed in the [technical overview][1].
 [3]: ../../docs/en/email/inbox/learn/index.md
 [4]: ../../docs/en/email/learn/index.md
 [5]: ../../docs/en/document/learn/create.md
-[6]: ../../docs/en/admin/lists/learn/create-email-template.md
 [8]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
 [9]: ../../docs/en/customization/soprotocol/index.md
 [12]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112136

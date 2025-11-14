@@ -1809,6 +1809,7 @@ content_type: reference
           <xs:enumeration value="Document" />
           <xs:enumeration value="FAQ" />
           <xs:enumeration value="Product" />
+          <xs:enumeration value="Website" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="RagType" nillable="true" type="q180:RagType" xmlns:q180="http://www.superoffice.net/ws/crm/NetServer/Services88" />

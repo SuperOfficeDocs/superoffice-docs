@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "quibusdam",
+  "Attributes": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

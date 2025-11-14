@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Romaguera Group",
-  "Tooltip": "magnam",
+  "Id": 711,
+  "Name": "Turcotte-Purdy",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "UdListDefinitionId": 268,
-  "Rank": 315
+  "UdListDefinitionId": 973,
+  "Rank": 286
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 519,
+  "Name": "Koss LLC",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 65,
-  "Rank": 482,
+  "UdListDefinitionId": 830,
+  "Rank": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

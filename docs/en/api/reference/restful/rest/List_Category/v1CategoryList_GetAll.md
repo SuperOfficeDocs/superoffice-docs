@@ -26,7 +26,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Feest, Gerhold and Blanda",
-    "Tooltip": "omnis",
+    "Id": 157,
+    "Name": "Hammes Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 301,
-    "Rank": 923,
+    "UdListDefinitionId": 296,
+    "Rank": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

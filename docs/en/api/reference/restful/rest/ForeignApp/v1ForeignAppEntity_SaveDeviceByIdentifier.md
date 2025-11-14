@@ -86,19 +86,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 346,
-  "Name": "Kiehn, Bednar and Luettgen",
-  "CreatedDate": "2000-11-21T03:40:55.7731411+01:00",
-  "UpdatedDate": "2014-06-03T03:40:55.7731411+02:00",
-  "AssociateFullName": "Lew Gleason",
-  "CreatedBy": "reprehenderit",
-  "UpdatedBy": "dolorem",
-  "DeviceIdentifier": "adipisci",
-  "ForeignAppId": 407
+  "ForeignDeviceId": 327,
+  "Name": "Zboncak, Simonis and Becker",
+  "CreatedDate": "2006-10-20T02:30:52.6474115+02:00",
+  "UpdatedDate": "2005-03-17T02:30:52.6474115+01:00",
+  "AssociateFullName": "Reggie Bradtke",
+  "CreatedBy": "repellendus",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "earum",
+  "ForeignAppId": 843
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 230,
-  "Name": "Zieme-Strosin",
-  "CreatedDate": "2006-01-29T03:40:55.7731411+01:00",
-  "UpdatedDate": "2015-08-01T03:40:55.7731411+02:00",
-  "AssociateFullName": "Miss Giles Charlie Anderson Sr.",
-  "CreatedBy": "non",
-  "UpdatedBy": "suscipit",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 614,
+  "ForeignDeviceId": 746,
+  "Name": "Simonis-Franecki",
+  "CreatedDate": "2020-12-14T02:30:52.6474115+01:00",
+  "UpdatedDate": "2005-03-06T02:30:52.6474115+01:00",
+  "AssociateFullName": "Wallace Brooke Bernier DDS",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "perspiciatis",
+  "DeviceIdentifier": "ducimus",
+  "ForeignAppId": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 321
     }
   }
 }

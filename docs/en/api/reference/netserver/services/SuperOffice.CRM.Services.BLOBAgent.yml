@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntityAsync(SuperOffice.CRM.Services.BlobEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.SaveImageStreamAsync(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
@@ -495,6 +496,41 @@ items:
   nameWithType.vb: BLOBAgent.GetPersonImageAsStreamAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageAsStreamAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPersonImageAsStreamAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRawPersonImageAsync(int, CancellationToken)
+  nameWithType: BLOBAgent.GetRawPersonImageAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the raw person image without any resizing.
+  example: []
+  syntax:
+    content: public Task<Stream> GetRawPersonImageAsync(int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The person image in its original size.
+    content.vb: Public Function GetRawPersonImageAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: BLOBAgent.GetRawPersonImageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRawPersonImageAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.BLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -3185,6 +3221,56 @@ references:
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
     name: GetPersonImageAsStreamAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BLOBAgent.html#SuperOffice_CRM_Services_BLOBAgent_GetRawPersonImageAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRawPersonImageAsync
+  nameWithType: BLOBAgent.GetRawPersonImageAsync
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetRawPersonImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetRawPersonImageAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetRawPersonImageAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IBLOBAgent.GetRawPersonImageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRawPersonImageAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetRawPersonImageAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetRawPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetRawPersonImageAsync
     isExternal: true
   - name: (
   - uid: System.Int32

@@ -98,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 143,
-  "CustomerCustomerReplyTemplateId": 421,
-  "CustomerPasswordTemplateId": 52,
-  "CustomerConfirmEmailTemplateId": 579,
-  "CustomerChatLogTemplateId": 379,
-  "NewLinkTemplateId": 110,
-  "HotlistNewMessageTemplateId": 814,
-  "HotlistTicketActivatedTemplateId": 730,
-  "UserTicketAlarmTemplateId": 143,
-  "HotlistTicketTakenOverTemplateId": 309,
-  "UserActiveTicketsTemplateId": 627,
-  "UserNewMessageTemplateId": 925,
-  "UserTicketActivatedTemplateId": 99,
-  "UserNewTicketTemplateId": 62,
-  "PublishKbQuestionTemplateId": 165,
-  "PublishKbAnswerTemplateId": 879,
-  "UserTicketTakenOverTemplateId": 293,
-  "PrintTicketTemplateId": 755,
-  "WeekStatTemplateId": 383,
-  "TicketAlarmHotlistTemplateId": 211,
-  "EmailAddresses": "evelyn@nolan.com",
+  "CustomerNewCustomerTemplateId": 72,
+  "CustomerCustomerReplyTemplateId": 266,
+  "CustomerPasswordTemplateId": 329,
+  "CustomerConfirmEmailTemplateId": 243,
+  "CustomerChatLogTemplateId": 813,
+  "NewLinkTemplateId": 292,
+  "HotlistNewMessageTemplateId": 601,
+  "HotlistTicketActivatedTemplateId": 875,
+  "UserTicketAlarmTemplateId": 973,
+  "HotlistTicketTakenOverTemplateId": 748,
+  "UserActiveTicketsTemplateId": 491,
+  "UserNewMessageTemplateId": 701,
+  "UserTicketActivatedTemplateId": 471,
+  "UserNewTicketTemplateId": 220,
+  "PublishKbQuestionTemplateId": 887,
+  "PublishKbAnswerTemplateId": 453,
+  "UserTicketTakenOverTemplateId": 715,
+  "PrintTicketTemplateId": 500,
+  "WeekStatTemplateId": 11,
+  "TicketAlarmHotlistTemplateId": 481,
+  "EmailAddresses": "monte_keebler@ankunding.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 429
     }
   }
 }

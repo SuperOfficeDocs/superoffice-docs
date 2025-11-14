@@ -64,6 +64,8 @@ items:
   - SuperOffice.CRM.Data.SaleHistTableInfo.Source
   - SuperOffice.CRM.Data.SaleHistTableInfo.SourceId
   - SuperOffice.CRM.Data.SaleHistTableInfo.SourceId_InnerJoin_Source
+  - SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  - SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
   - SuperOffice.CRM.Data.SaleHistTableInfo.Status
   - SuperOffice.CRM.Data.SaleHistTableInfo.TextId
   - SuperOffice.CRM.Data.SaleHistTableInfo.TextId_InnerJoin_Text
@@ -120,6 +122,7 @@ items:
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
@@ -1342,6 +1345,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SaleTypeCatId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SaleHistTableInfo.SaleTypeCatId*
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Data.SaleHistTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: SaleHistTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'stage_when_closed_id' in table 'SaleHist': Dictionary type FK, target: Prob, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The stage the sale was in when it was closed (sold or lost)
+  example: []
+  syntax:
+    content: public Int32FieldInfo StageWhenClosedId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property StageWhenClosedId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId*
 - uid: SuperOffice.CRM.Data.SaleHistTableInfo.SaleId_InnerJoin_Sale
   commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.SaleId_InnerJoin_Sale
   id: SaleId_InnerJoin_Sale
@@ -1894,6 +1923,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTypeCatTableInfo}
     content.vb: Public ReadOnly Property SaleTypeCatId_InnerJoin_SaleTypeCat As TargetedInnerJoin(Of SaleTypeCatTableInfo)
   overload: SuperOffice.CRM.Data.SaleHistTableInfo.SaleTypeCatId_InnerJoin_SaleTypeCat*
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  id: StageWhenClosedId_InnerJoin_Prob
+  parent: SuperOffice.CRM.Data.SaleHistTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId_InnerJoin_Prob
+  nameWithType: SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key StageWhenClosedId in this table, to its target table <xref href="SuperOffice.CRM.Data.ProbTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ProbTableInfo> StageWhenClosedId_InnerJoin_Prob { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProbTableInfo}
+    content.vb: Public ReadOnly Property StageWhenClosedId_InnerJoin_Prob As TargetedInnerJoin(Of ProbTableInfo)
+  overload: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob*
 - uid: SuperOffice.CRM.Data.SaleHistTableInfo.LeftOuterJoin_VisibleFor_SaleHistId
   commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.LeftOuterJoin_VisibleFor_SaleHistId
   id: LeftOuterJoin_VisibleFor_SaleHistId
@@ -2168,6 +2220,14 @@ references:
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
 - uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
@@ -3264,6 +3324,13 @@ references:
   name: SaleTypeCatId
   nameWithType: SaleHistTableInfo.SaleTypeCatId
   fullName: SuperOffice.CRM.Data.SaleHistTableInfo.SaleTypeCatId
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleHistTableInfo.html#SuperOffice_CRM_Data_SaleHistTableInfo_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleHistTableInfo.StageWhenClosedId
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
 - uid: SuperOffice.CRM.Data.SaleTableInfo
   commentId: T:SuperOffice.CRM.Data.SaleTableInfo
   parent: SuperOffice.CRM.Data
@@ -4320,6 +4387,13 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.SaleTypeCatTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob*
+  commentId: Overload:SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleHistTableInfo.html#SuperOffice_CRM_Data_SaleHistTableInfo_StageWhenClosedId_InnerJoin_Prob
+  name: StageWhenClosedId_InnerJoin_Prob
+  nameWithType: SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId_InnerJoin_Prob
 - uid: SuperOffice.CRM.Data.VisibleForTableInfo.SaleHistId
   commentId: P:SuperOffice.CRM.Data.VisibleForTableInfo.SaleHistId
   isExternal: true

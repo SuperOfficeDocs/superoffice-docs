@@ -1,0 +1,31 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Dokumenttyper
+  href: document-types.md
+- name: Mallvariabler
+  href: template-variables.md
+  items:
+  - name: Referens
+    href: ../variables/toc.yml
+    topicHref: ../variables/index.md
+  - name: Felsökning
+    href: troubleshooting.md
+- name: Merge fields (offertmallar)
+  href: quote-templates.md
+  items:
+  - name: Referens
+    href: ../merge-fields/toc.yml
+    topicHref: ../merge-fields/index.md
+  - name: Tutorial
+    href: ../admin/tutorial.md
+- name: Skapa dokumentmall
+  href: create.md
+- name: Lägga till mall
+  href: ../admin/link-template.md
+- name: Redigera mall
+  href: ../admin/update-template.md
+- name: Dokumentmallar på flera språk
+  href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Standardvärden för nya dokumentmallar
+  href: ../admin/document-template-defaults.md

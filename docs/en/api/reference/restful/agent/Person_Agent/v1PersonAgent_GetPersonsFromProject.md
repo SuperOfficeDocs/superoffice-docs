@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 52
+  "ProjectId": 539
 }
 ```
 
@@ -132,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nostrum",
-    "PersonId": 793,
-    "Mrmrs": "et",
-    "Firstname": "Vaughn",
-    "Lastname": "Carter",
-    "MiddleName": "Botsford, Connelly and Witting",
-    "Title": "cumque",
-    "Description": "Right-sized holistic model",
-    "Email": "marley@rennerkuhn.biz",
-    "FullName": "Art Itzel Block Sr.",
-    "DirectPhone": "1-912-025-7871 x326",
-    "FormalName": "Johns, Stoltenberg and Gerhold",
-    "CountryId": 212,
-    "ContactId": 900,
-    "ContactName": "Robel, Greenholt and Schumm",
-    "Retired": 639,
-    "Rank": 622,
-    "ActiveInterests": 599,
+    "Position": "in",
+    "PersonId": 734,
+    "Mrmrs": "provident",
+    "Firstname": "Griffin",
+    "Lastname": "Hoppe",
+    "MiddleName": "Eichmann-Cartwright",
+    "Title": "natus",
+    "Description": "Multi-channelled stable system engine",
+    "Email": "gus@jenkins.com",
+    "FullName": "Ulises Miller",
+    "DirectPhone": "(992)004-1679",
+    "FormalName": "Auer Inc and Sons",
+    "CountryId": 736,
+    "ContactId": 402,
+    "ContactName": "Pfannerstill Group",
+    "Retired": 777,
+    "Rank": 819,
+    "ActiveInterests": 848,
     "ContactDepartment": "",
-    "ContactCountryId": 760,
-    "ContactOrgNr": "1933427",
-    "FaxPhone": "(974)336-1186 x469",
-    "MobilePhone": "313.442.7817 x851",
-    "ContactPhone": "(381)594-7187 x89739",
-    "AssociateName": "McKenzie Group",
-    "AssociateId": 350,
-    "UsePersonAddress": true,
-    "ContactFax": "similique",
-    "Kanafname": "ut",
-    "Kanalname": "labore",
-    "Post1": "vero",
-    "Post2": "officiis",
-    "Post3": "autem",
-    "EmailName": "kole.wuckert@howe.co.uk",
-    "ContactFullName": "Ruthie Reichel",
-    "ActiveErpLinks": 95,
-    "TicketPriorityId": 288,
-    "SupportLanguageId": 293,
-    "SupportAssociateId": 408,
+    "ContactCountryId": 221,
+    "ContactOrgNr": "1406134",
+    "FaxPhone": "298.711.5623",
+    "MobilePhone": "282.026.8367 x341",
+    "ContactPhone": "(376)920-8706 x09600",
+    "AssociateName": "Padberg Group",
+    "AssociateId": 589,
+    "UsePersonAddress": false,
+    "ContactFax": "est",
+    "Kanafname": "et",
+    "Kanalname": "ea",
+    "Post1": "dolorem",
+    "Post2": "maiores",
+    "Post3": "rerum",
+    "EmailName": "makenna@fadel.uk",
+    "ContactFullName": "Vilma Daniel",
+    "ActiveErpLinks": 122,
+    "TicketPriorityId": 96,
+    "SupportLanguageId": 20,
+    "SupportAssociateId": 110,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "669383",
+    "PersonNumber": "678507",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

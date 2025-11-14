@@ -1,0 +1,5 @@
+items:
+- name: Typ der Folgeaufgabe hinzufügen
+  href: add-follow-up-type.md
+- name: Ressource hinzufügen
+  href: add-resource.md

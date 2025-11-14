@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wyman LLC",
-  "Context": "quis"
+  "TableName": "Metz Inc and Sons",
+  "Context": "iste"
 }
 ```
 
@@ -108,76 +108,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "aut",
-    "ValueType": "fuga",
+    "Key": "non",
+    "ValueType": "officia",
     "Mandatory": false,
-    "EncodedDisplayName": "Hartmann-Johnson",
-    "EncodedDisplayDescription": "Object-based fresh-thinking middleware",
-    "IconHint": "distinctio",
+    "EncodedDisplayName": "Swaniawski Inc and Sons",
+    "EncodedDisplayDescription": "User-centric dedicated algorithm",
+    "IconHint": "dolorum",
     "ControlInfos": [
       {
-        "Type": "maiores",
-        "Label": "minima",
-        "Dimension": 84,
-        "ListProviderName": "Stamm Group",
-        "ListProviderExtraInfo": "non",
-        "ListProviderPrimaryKeyName": "Weber LLC",
-        "ListLeadText": "vel",
+        "Type": "quae",
+        "Label": "eum",
+        "Dimension": 409,
+        "ListProviderName": "Hintz-Harris",
+        "ListProviderExtraInfo": "ut",
+        "ListProviderPrimaryKeyName": "Heller Group",
+        "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 819
           }
         }
       }
     ],
-    "EncodedDataCaption": "qui",
-    "EncodedDataCaptionDescription": "Mandatory content-based neural-net",
-    "CurrentOperationType": "sunt",
+    "EncodedDataCaption": "quia",
+    "EncodedDataCaptionDescription": "Sharable bandwidth-monitored projection",
+    "CurrentOperationType": "voluptas",
     "Values": [
-      "architecto",
-      "consequatur"
+      "vero",
+      "aut"
     ],
     "DisplayValues": [
-      "labore",
-      "earum"
+      "reprehenderit",
+      "omnis"
     ],
     "OperationInfos": [
       {
-        "Key": "vero",
-        "EncodedDisplayName": "Kuhic-DuBuque",
+        "Key": "voluptatem",
+        "EncodedDisplayName": "Schroeder Group",
         "EncodedLeadTexts": [
-          "quia",
-          "quod"
+          "repellat",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 832
+            "FieldLength": 150
           }
         }
       },
       {
-        "Key": "vero",
-        "EncodedDisplayName": "Kuhic-DuBuque",
+        "Key": "voluptatem",
+        "EncodedDisplayName": "Schroeder Group",
         "EncodedLeadTexts": [
-          "quia",
-          "quod"
+          "repellat",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 832
+            "FieldLength": 150
           }
         }
       }

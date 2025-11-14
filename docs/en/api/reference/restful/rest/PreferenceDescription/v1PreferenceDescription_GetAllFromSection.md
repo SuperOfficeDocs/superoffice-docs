@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 374,
-    "Section": "neque",
-    "Key": "cupiditate",
-    "Name": "Wolf, Miller and Bode",
+    "PrefDescId": 436,
+    "Section": "voluptates",
+    "Key": "tempora",
+    "Name": "Denesik, Ortiz and Kutch",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persistent secondary architecture",
-    "IsBuiltin": false,
-    "TableName": "Lindgren Group",
-    "UserDefinedListId": 498,
-    "Rank": 803,
-    "SubGroup": "corporis",
-    "MinLevel": 59,
-    "MaxValue": 310,
-    "MinValue": 856,
-    "RequiredLicense": "sint",
+    "Description": "Cross-platform optimizing solution",
+    "IsBuiltin": true,
+    "TableName": "Reichel, Waelchi and Emard",
+    "UserDefinedListId": 231,
+    "Rank": 111,
+    "SubGroup": "aliquam",
+    "MinLevel": 779,
+    "MaxValue": 582,
+    "MinValue": 35,
+    "RequiredLicense": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 394
       }
     }
   }

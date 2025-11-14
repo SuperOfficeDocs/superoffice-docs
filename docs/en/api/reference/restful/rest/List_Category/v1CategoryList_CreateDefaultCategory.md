@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Kris Group",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 613,
-  "Rank": 358,
+  "Id": 270,
+  "Name": "Swaniawski, Collins and Pagac",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 111,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 247
     }
   }
 }

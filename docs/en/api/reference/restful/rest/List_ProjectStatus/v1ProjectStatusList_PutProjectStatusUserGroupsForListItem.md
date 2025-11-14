@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Kovacek-Hammes",
-    "ToolTip": "Qui facere reprehenderit magni sit fugiat.",
-    "Deleted": false,
-    "Rank": 498,
-    "Type": "eum",
-    "ColorBlock": 622,
-    "IconHint": "laboriosam",
+    "Id": 305,
+    "Name": "Pacocha, Gleason and Lehner",
+    "ToolTip": "Porro omnis quis.",
+    "Deleted": true,
+    "Rank": 400,
+    "Type": "quo",
+    "ColorBlock": 853,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2018-01-09T03:40:57.0246001+01:00",
+    "LastChanged": "1998-10-18T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "O'Kon-Jacobson",
-        "ToolTip": "Cumque vitae assumenda debitis voluptates.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "laborum",
-        "ColorBlock": 22,
-        "IconHint": "deserunt",
+        "Id": 347,
+        "Name": "Bednar, Schmeler and Nader",
+        "ToolTip": "Sint ut.",
+        "Deleted": true,
+        "Rank": 656,
+        "Type": "asperiores",
+        "ColorBlock": 928,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2000-03-06T03:40:57.0246001+01:00",
+        "LastChanged": "2022-07-09T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sit",
+        "ExtraInfo": "sint",
+        "StyleHint": "dolore",
         "Hidden": true,
-        "FullName": "Destinee Schimmel"
+        "FullName": "Dr. Nils O'Kon IV"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "excepturi",
-    "Hidden": false,
-    "FullName": "Miss Russell Powlowski"
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Kendra Jakubowski"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Streich Group",
-    "ToolTip": "Nihil nobis rerum voluptatibus qui culpa dolorem quia.",
+    "Id": 62,
+    "Name": "Abernathy, Conroy and Kovacek",
+    "ToolTip": "Quis sint excepturi esse enim.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "corrupti",
-    "ColorBlock": 742,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2018-10-18T03:40:57.0246001+02:00",
+    "Rank": 541,
+    "Type": "quam",
+    "ColorBlock": 372,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2010-05-12T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Casper-Conroy",
-        "ToolTip": "Alias nemo inventore ex porro recusandae.",
-        "Deleted": true,
-        "Rank": 507,
-        "Type": "id",
-        "ColorBlock": 147,
-        "IconHint": "sed",
+        "Id": 273,
+        "Name": "Mitchell, Pfeffer and Hilll",
+        "ToolTip": "Libero modi eligendi nemo eum enim.",
+        "Deleted": false,
+        "Rank": 980,
+        "Type": "deserunt",
+        "ColorBlock": 394,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2001-04-22T03:40:57.0246001+02:00",
+        "LastChanged": "2000-10-13T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "libero",
+        "ExtraInfo": "sed",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Elna Goldner",
+        "FullName": "Dr. Garnet Kuvalis Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Aliyah Simonis",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Haleigh Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldLength": 25
       }
     }
   }

@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Yundt, Kub and Koch",
+  "GuiName": "Keeling, Satterfield and Bogan",
   "ColumnWidths": [
-    "quia",
-    "eos"
+    "quasi",
+    "non"
   ]
 }
 ```

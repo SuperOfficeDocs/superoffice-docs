@@ -2,25 +2,27 @@ items:
 - name: Oversigt
   href: ../index.yml
 - name: Kom godt i gang
-  topicHref: ../getting-started/index.md
-  items:
-  - name: Introduktion
-    href: ../getting-started/index.md
-  - name: Få dine brugere med ombord
-    href: ../getting-started/onboard-users.md
-- name: Juster visninger i Indstillinger og vedligeholdelse
-  href: adjusting-views.md
-- name: Brugerstyring
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+  href: ../getting-started.md
+- name: Juster visninger
+  href: ../adjusting-views.md
+- name: Licenser
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Præferencer
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
-- name: Licenser
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+- name: Indstillinger
+  href: ../options/toc.yml
+  topicHref: ../options/index.md
+- name: Lister
+  href: ../lists/toc.yml
+  topicHref: ../lists/index.md
+- name: Brugerstyring
+  href: ../user-management/toc.yml
+  topicHref: ../user-management/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Tilføj systemhændelse
-  href: add-system-event.md
+- name: Lokalt
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

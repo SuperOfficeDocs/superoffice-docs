@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 892,
-    "ColumnId": 745,
-    "FieldDefault": "et",
-    "FieldHeight": 213,
-    "FieldLabel": "ut",
-    "FieldLeft": 726,
-    "FieldTop": 349,
+    "UDefFieldId": 218,
+    "ColumnId": 946,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 60,
+    "FieldLabel": "modi",
+    "FieldLeft": 912,
+    "FieldTop": 964,
     "FieldType": "Checkbox",
-    "FieldWidth": 737,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 484,
-    "LabelLeft": 624,
-    "LabelTop": 940,
-    "LabelWidth": 737,
-    "LastVersionId": 991,
-    "ListTableId": 156,
+    "FieldWidth": 142,
+    "FormatMask": "dolore",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 545,
+    "LabelLeft": 519,
+    "LabelTop": 337,
+    "LabelWidth": 314,
+    "LastVersionId": 653,
+    "ListTableId": 255,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 457,
-    "ProgId": "voluptas",
-    "IsReadOnly": false,
-    "ShortLabel": "labore",
-    "TabOrder": 994,
-    "TextLength": 471,
-    "Tooltip": "nobis",
-    "UdefIdentity": 325,
-    "UDListDefinitionId": 729,
+    "Page1LineNo": 99,
+    "ProgId": "repellat",
+    "IsReadOnly": true,
+    "ShortLabel": "non",
+    "TabOrder": 136,
+    "TextLength": 172,
+    "Tooltip": "corrupti",
+    "UdefIdentity": 505,
+    "UDListDefinitionId": 705,
     "Justification": "Center",
-    "Version": 673,
-    "TemplateVariableName": "Emard LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Roob-Gerlach",
+    "Version": 6,
+    "TemplateVariableName": "Cummings-Dibbert",
+    "HasBeenPublished": true,
+    "MdoListName": "Kuhlman, Mann and Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldType": "System.String",
+        "FieldLength": 220
       }
     }
   }

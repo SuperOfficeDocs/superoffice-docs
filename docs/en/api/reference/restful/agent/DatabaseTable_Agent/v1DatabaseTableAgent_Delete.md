@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stanton Inc and Sons",
+  "TableName": "Littel Inc and Sons",
   "IDs": [
-    960,
-    926
+    330,
+    729
   ]
 }
 ```
@@ -101,41 +101,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "velit",
-  "Inserts": 835,
-  "Updates": 514,
-  "Deletes": 205,
+  "Success": false,
+  "Message": "id",
+  "Inserts": 272,
+  "Updates": 189,
+  "Deletes": 734,
   "RowStatus": [
     {
-      "PrimaryKey": 567,
+      "PrimaryKey": 423,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "esse",
-        "quae"
+        "molestiae",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 174
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     },
     {
-      "PrimaryKey": 567,
+      "PrimaryKey": 423,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "esse",
-        "quae"
+        "molestiae",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 174
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     }
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 196
     }
   }
 }

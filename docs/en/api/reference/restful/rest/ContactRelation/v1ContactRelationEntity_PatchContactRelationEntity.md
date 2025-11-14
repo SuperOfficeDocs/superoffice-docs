@@ -127,18 +127,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "nisi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "nisi",
     "value": {}
   }
 ]
@@ -151,35 +151,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 841,
-  "SourcePersonId": 19,
-  "DestinationContactId": 798,
-  "DestinationPersonId": 232,
-  "RelationId": 783,
-  "Comment": "nostrum",
-  "RelationDefinitionId": 656,
-  "Reversed": 382,
-  "UpdatedDate": "2013-05-18T03:40:55.6162809+02:00",
-  "CreatedDate": "2013-12-15T03:40:55.6162809+01:00",
+  "SourceContactId": 26,
+  "SourcePersonId": 908,
+  "DestinationContactId": 318,
+  "DestinationPersonId": 756,
+  "RelationId": 753,
+  "Comment": "voluptatem",
+  "RelationDefinitionId": 301,
+  "Reversed": 624,
+  "UpdatedDate": "2017-01-05T02:30:52.522416+01:00",
+  "CreatedDate": "2020-02-23T02:30:52.522416+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Anderson LLC",
-  "SourcePersonName": "Moore, Rau and Casper",
-  "DestinationContactName": "Thiel Inc and Sons",
-  "DestinationPersonName": "Wyman-Schowalter",
-  "ActiveText": "fugit",
-  "PassiveText": "aut",
+  "SourceContactName": "Krajcik, Walker and Schmitt",
+  "SourcePersonName": "Hills LLC",
+  "DestinationContactName": "Kutch, Legros and Reynolds",
+  "DestinationPersonName": "Hand LLC",
+  "ActiveText": "impedit",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

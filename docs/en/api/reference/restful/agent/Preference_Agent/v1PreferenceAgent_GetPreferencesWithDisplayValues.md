@@ -86,18 +86,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "a",
-      "Key": "doloremque"
+      "Section": "et",
+      "Key": "accusamus"
     },
     {
-      "Section": "a",
-      "Key": "doloremque"
+      "Section": "et",
+      "Key": "accusamus"
     }
   ]
 }
@@ -112,22 +112,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ut",
+    "RawValue": "omnis",
     "Specification": null,
-    "DisplayValue": "aut",
-    "DisplayTooltip": "inventore",
+    "DisplayValue": "maxime",
+    "DisplayTooltip": "aliquam",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 417,
-    "PrefDescId": 490,
-    "TableName": "Kautzer LLC",
-    "UserPreferenceId": 946,
+    "TargetId": 195,
+    "PrefDescId": 996,
+    "TableName": "Ziemann-Morissette",
+    "UserPreferenceId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 778
       }
     }
   }

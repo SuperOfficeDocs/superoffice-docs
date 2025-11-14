@@ -73,7 +73,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,16 +83,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 885,
-  "Name": "Feil, Koch and Bernhard",
-  "Tooltip": "dolor",
+  "RoleId": 502,
+  "Name": "King-Ortiz",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 199,
-  "Rank": 318,
-  "Created": "2017-10-03T03:40:56.0542974+02:00",
-  "UseCategories": 690,
+  "Deleted": 828,
+  "Rank": 831,
+  "Created": "2000-07-14T02:30:52.8349052+02:00",
+  "UseCategories": 621,
   "CreatedBy": null,
-  "Updated": "2022-10-30T03:40:56.0542974+01:00",
+  "Updated": "2024-07-28T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 717
     }
   }
 }

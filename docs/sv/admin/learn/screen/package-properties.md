@@ -1,4 +1,3 @@
 ---
-uid: help-sv-package-properties-service-redirect
-redirect_url: https://docs.superoffice.com/sv/admin/learn/package-properties.html
+redirect_url: https://docs.superoffice.com/sv/customization/admin/package-properties.html
 ---

@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Security.ContactSentryQueryInfo
   - SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  - SuperOffice.CRM.Security.DashboardTileDefinitionSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
   - SuperOffice.CRM.Security.HierarchySentryQueryInfo

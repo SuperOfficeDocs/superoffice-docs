@@ -3,9 +3,9 @@ uid: help-sv-ui-navigator
 title: Navigatorn
 description: Navigatorn
 keywords: navigator, navigera, meny, sidomeny, vänstermeny, användargränssnitt
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,6 +60,7 @@ Navigatorn i **Inställningar och underhåll** ger snabb åtkomst till administr
 | <i class="ph ph-squares-four" aria-label="Skärmdesigner"></i> | **[Skärmdesigner][24]** | Anpassa skärmlayouter för olika användargrupper. |
 | <i class="ph ph-gear" aria-label="Inställningar"></i> | **[Inställningar][25]** | Justera standardinställningar för aktiviteter, [videomöten][42] och [dokumentbiblioteket][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chatt"></i> | **[Chatt][2]** | Ställ in chattkanaler. |
+| <i class="ph ph-target" aria-label="Marknadsföring ikon"></i> | **[Marknadsföring][12]** | Aktivera UTM-spårning för alla formulär. |
 | <i class="ph ph-sliders-horizontal" aria-label="Reglage"></i> | **[Alternativ][26]** | Konfigurera globala inställningar som sökning, tidszoner, etiketter och numrering. |
 | <i class="ph ph-file-arrow-up" aria-label="Import"></i> | **[Import][27]** | Importera data till SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Fält"></i> | **[Fält][28]** | Skapa och hantera användardefinierade fält. |
@@ -97,12 +98,13 @@ Om du håller muspekaren över en post i någon av listorna visas en verktygstip
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
-[21]: ../../../admin/lists/learn/index.md
+[21]: ../../../admin/lists/index.md
 [22]: ../../../sale/admin/quote/index.md
 [24]: ../../../customization/screen-designer/admin/index.md
 [25]: ../../../admin/preferences/learn/index.md
@@ -114,9 +116,9 @@ Om du håller muspekaren över en post i någon av listorna visas en verktygstip
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
-[45]: ../../../admin/license/learn/index.md
-[46]: ../../../admin/user-management/learn/index.md
-[47]: ../../../admin/user-management/learn/role/index.md
+[45]: ../../../admin/license/index.md
+[46]: ../../../admin/user-management/index.md
+[47]: ../../../admin/user-management/role/index.md
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 

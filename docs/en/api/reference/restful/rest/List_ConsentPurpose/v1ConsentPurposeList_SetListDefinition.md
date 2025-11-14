@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Hayes-Schaden",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "Rank": 336,
+  "Id": 319,
+  "Name": "Schultz Group",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 591,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Senger-Tillman",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 694,
-  "IsCustomList": true,
+  "Id": 326,
+  "Name": "Schaefer, Will and Ziemann",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 77,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "at",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nisi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 280
     }
   }
 }

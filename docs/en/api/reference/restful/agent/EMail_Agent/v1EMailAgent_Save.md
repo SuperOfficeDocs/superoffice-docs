@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 955,
-      "ContactName": "Pollich-Russel",
-      "PersonId": 510,
-      "PersonName": "Schulist LLC",
-      "AssociateId": 627,
-      "Address": "modi",
-      "EmailId": 863,
+      "ContactId": 284,
+      "ContactName": "Langworth, Botsford and Bogan",
+      "PersonId": 328,
+      "PersonName": "O'Kon, Stark and Abernathy",
+      "AssociateId": 283,
+      "Address": "deserunt",
+      "EmailId": 526,
       "DuplicatePersonIds": [
-        563,
-        563
+        537,
+        687
       ],
-      "Name": "Beahan Group",
+      "Name": "Bosco LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldLength": 773
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 563,
-      "ContactName": "Flatley-Price",
-      "PersonId": 120,
-      "PersonName": "Strosin, Parker and Ebert",
-      "AssociateId": 885,
-      "Address": "qui",
-      "EmailId": 855,
+      "ContactId": 801,
+      "ContactName": "Walker-Ziemann",
+      "PersonId": 601,
+      "PersonName": "Wintheiser-Schmeler",
+      "AssociateId": 894,
+      "Address": "atque",
+      "EmailId": 71,
       "DuplicatePersonIds": [
-        763,
-        759
+        671,
+        86
       ],
-      "Name": "Bergnaum, Gleason and Kling",
+      "Name": "Bahringer-Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 474
+          "FieldLength": 196
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 389,
-      "ContactName": "Schmidt-Fisher",
-      "PersonId": 754,
-      "PersonName": "Gottlieb, Rau and Kertzmann",
-      "AssociateId": 33,
-      "Address": "qui",
-      "EmailId": 425,
+      "ContactId": 557,
+      "ContactName": "Mraz, Huel and Heathcote",
+      "PersonId": 36,
+      "PersonName": "Williamson, Bins and Bruen",
+      "AssociateId": 563,
+      "Address": "harum",
+      "EmailId": 46,
       "DuplicatePersonIds": [
-        37,
-        885
+        379,
+        876
       ],
-      "Name": "Dach-Koelpin",
+      "Name": "Konopelski Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Subject": "sint",
-  "HTMLBody": "quaerat",
+  "Subject": "veritatis",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2015-07-20T03:40:46.9061483+02:00",
-  "Size": 841,
+  "Sent": "2013-06-17T02:30:47.3194579+02:00",
+  "Size": 926,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nulla",
-  "PlainBody": "voluptatem",
+  "MessageID": "et",
+  "PlainBody": "labore",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 533,
+  "ServerId": 648,
   "Attachments": [
     {
-      "Description": "Secured multi-tasking Graphic Interface",
-      "Filename": "molestiae",
-      "Size": 987,
-      "Type": "et",
-      "Encoding": "qui",
+      "Description": "User-centric optimizing adapter",
+      "Filename": "aut",
+      "Size": 521,
+      "Type": "quia",
+      "Encoding": "cupiditate",
       "Id": "eveniet",
-      "Disposition": "alias",
+      "Disposition": "sint",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -219,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 196
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ziemann-Ziemann",
+      "Name": "Krajcik Group",
       "Values": [
-        "sequi",
-        "exercitationem"
+        "voluptates",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Ziemann-Ziemann",
+      "Name": "Krajcik Group",
       "Values": [
-        "sequi",
-        "exercitationem"
+        "voluptates",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "FolderName": "Will, Schuppe and Weimann",
-  "EmailItemId": 296,
-  "AccountId": 29,
-  "ReceivedAt": "2011-08-29T03:40:46.9061483+02:00",
+  "FolderName": "Satterfield, Keeling and Cruickshank",
+  "EmailItemId": 11,
+  "AccountId": 199,
+  "ReceivedAt": "1999-06-24T02:30:47.3194579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-05-30T03:40:46.9061483+02:00",
+  "RepliedAt": "2013-03-31T02:30:47.3194579+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   }
 }

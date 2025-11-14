@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 49,
-  "ContactId": 749,
-  "ProjectId": 590,
-  "ContactName": "Schumm-Stehr",
-  "ContactDepartment": "",
-  "ProjectName": "Crooks Group",
-  "EmailId": 640,
-  "EmailAddress": "ernest@welch.us",
-  "CountryId": 758,
-  "Firstname": "Belle",
-  "MiddleName": "Stroman-Wolf",
-  "Lastname": "Daugherty",
-  "PersonId": 93,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Beier-Kuvalis",
-  "Phone": "826-941-2172 x859",
-  "PhoneId": 218,
-  "ProjectMemberTypeId": 586,
-  "EmailAddressName": "zion@trantow.co.uk",
-  "Comment": "ducimus",
-  "FullName": "Prof. Walter Gaylord IV",
-  "Registered": "2001-09-02T03:40:47.5161986+02:00",
-  "Updated": "2018-11-10T03:40:47.5161986+01:00",
+  "ProjectmemberId": 430,
+  "ContactId": 253,
+  "ProjectId": 954,
+  "ContactName": "Collier LLC",
+  "ContactDepartment": "aggregate one-to-one synergies",
+  "ProjectName": "Strosin Group",
+  "EmailId": 82,
+  "EmailAddress": "dashawn.hayes@kreiger.uk",
+  "CountryId": 128,
+  "Firstname": "Nelle",
+  "MiddleName": "Klocko-Kulas",
+  "Lastname": "Powlowski",
+  "PersonId": 2,
+  "Mrmrs": "earum",
+  "ProjectMemberTypeName": "Armstrong Inc and Sons",
+  "Phone": "(761)156-3589",
+  "PhoneId": 489,
+  "ProjectMemberTypeId": 469,
+  "EmailAddressName": "verda_hodkiewicz@kuhicschmidt.name",
+  "Comment": "corrupti",
+  "FullName": "Alexa Spinka",
+  "Registered": "2022-03-26T02:30:47.6944454+01:00",
+  "Updated": "2011-02-22T02:30:47.6944454+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

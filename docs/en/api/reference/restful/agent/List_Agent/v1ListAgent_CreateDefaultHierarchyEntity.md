@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,46 +77,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 777,
+  "HierarchyId": 928,
   "Domain": "Dashboards",
-  "Name": "Goldner-Ruecker",
-  "Fullname": "ut",
-  "ParentId": 509,
+  "Name": "Bailey-Morissette",
+  "Fullname": "earum",
+  "ParentId": 240,
   "Children": [
     {
-      "HierarchyId": 212,
+      "HierarchyId": 992,
       "Domain": "Dashboards",
-      "Name": "Effertz, Johns and Von",
-      "Fullname": "fugit",
-      "ParentId": 138,
+      "Name": "Harris, Schowalter and Christiansen",
+      "Fullname": "provident",
+      "ParentId": 423,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-08-03T03:40:47.2030415+02:00",
-      "RegisteredAssociateId": 623,
-      "Updated": "2007-03-11T03:40:47.2030415+01:00",
-      "UpdatedAssociateId": 908,
+      "Registered": "2006-10-08T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 325,
+      "Updated": "2003-08-14T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 115,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 421
         }
       }
     }
   ],
-  "Registered": "2000-05-07T03:40:47.2030415+02:00",
-  "RegisteredAssociateId": 138,
-  "Updated": "2018-02-01T03:40:47.2030415+01:00",
-  "UpdatedAssociateId": 738,
+  "Registered": "2012-01-25T02:30:47.4288293+01:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2018-01-29T02:30:47.4288293+01:00",
+  "UpdatedAssociateId": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 806
     }
   }
 }

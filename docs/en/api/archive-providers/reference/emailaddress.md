@@ -87,8 +87,10 @@ the email_id.
 |personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |personCategory| *None* |Category|  |
 |personCategoryGroup| *None* |Category group|  |
+|personCategoryRank| *None* |!!Category rank|  |
 |personBusiness| *None* |Business|  |
-|leadstatus| *None* |Lead status|  |
+|leadStatus| *None* |Lead status|  |
+|leadstatusRank| *None* |!!Lead status RANK|  |
 |personDeletedDate| *None* |Deleted date: Deleted date|  |
 |hasCompany| *None* |Has company: The contact is associated with a company|  |
 |isProjectMember| *None* |Is project member: This person is a project member|  |
@@ -129,12 +131,13 @@ the email_id.
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
 |personContact/category| *None* |Category|  |
 |personContact/categoryGroup| *None* |Category group|  |
-|personContact/business| *None* |Business|  |
-|personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/companyCategoryRank| *None* |Category rank|  |
+|personContact/business| *None* |Business|  |
+|personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |personContact/countryId| *None* |Country ID: Country ID|  |
 |personContact/number| *None* |Number|  |
 |personContact/code| *None* |Code|  |
@@ -153,6 +156,7 @@ the email_id.
 |personContact/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |personContact/deletedDate| *None* |Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company|  |
+|personContact/forceCompany| *None* |Dummy: Dummy|  |
 |personContact/contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
 |personContact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
 |personContact/postAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
@@ -197,6 +201,7 @@ the email_id.
 |associateId| *None* |Our contact: Displays our contact|  |
 |category| *None* |Category|  |
 |categoryGroup| *None* |Category group|  |
+|companyCategoryRank| *None* |Category rank|  |
 |business| *None* |Business|  |
 |country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |countryId| *None* |Country ID: Country ID|  |
@@ -216,6 +221,7 @@ the email_id.
 |activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |deletedDate| *None* |Deleted date: Deleted date|  |
 |mainContact| *None* |Main contact: Main contact for this company|  |
+|forceCompany| *None* |Dummy: Dummy|  |
 |contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
 |contactPhone/description| *None* |Telephone - Description: Phone number description|  |
 |contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
@@ -229,16 +235,16 @@ the email_id.
 |email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
 |email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
 |email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |postAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
 |postAddress/line1| *None* |Postal address - Address 1: First line of the address|  |
 |postAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
 |postAddress/line3| *None* |Postal address - Address 3: Third line of the address|  |
 |postAddress/county| *None* |Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
 |postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
@@ -305,7 +311,7 @@ the email_id.
 |contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|contactAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |contactAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -333,16 +339,16 @@ the email_id.
 |contactSupportAssociate/contactFullName| *None* |Our service contact - Owner: Name and department of the company the user belongs to|  |
 |contactSupportAssociate/contactCategory| *None* |Our service contact - Category: Category|  |
 |contactSupportAssociate/role| *None* |Our service contact - Role: Role|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportAssociate/assocName| *None* |Our service contact - User ID: User ID|  |
 |contactSupportAssociate/assocTooltip| *None* |Our service contact - Description: Description|  |
 |contactSupportAssociate/assocType| *None* |Our service contact - Type: Type of user: associate, external user, system user, anonymous account|  |
 |contactSupportAssociate/ejUserId| *None* |Our service contact - Service user ID: The database ID of a Service user|  |
 |contactSupportAssociate/simultaneousEjUser| *None* |Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactSupportAssociate/ejDisplayName| *None* |Our service contact - Nick name: User's nick name in Service|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|contactSupportAssociate/ejDisplayName| *None* |Our service contact - Nickname: User's nickname in Service|  |
 |contactSupportAssociate/ejStatus| *None* |Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in|  |
 |contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
@@ -397,8 +403,10 @@ the email_id.
 |contactSupportPerson/personAssociateFullName| *None* |User support contact - Our contact - Full name: Displays our contact|  |
 |contactSupportPerson/personCategory| *None* |User support contact - Category|  |
 |contactSupportPerson/personCategoryGroup| *None* |User support contact - Category group|  |
+|contactSupportPerson/personCategoryRank| *None* |User support contact - !!Category rank|  |
 |contactSupportPerson/personBusiness| *None* |User support contact - Business|  |
-|contactSupportPerson/leadstatus| *None* |User support contact - Lead status|  |
+|contactSupportPerson/leadStatus| *None* |User support contact - Lead status|  |
+|contactSupportPerson/leadstatusRank| *None* |User support contact - !!Lead status RANK|  |
 |contactSupportPerson/personDeletedDate| *None* |User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany| *None* |User support contact - Has company: The contact is associated with a company|  |
 |contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
@@ -435,18 +443,18 @@ the email_id.
 |contactSupportPerson/personExtra/x\_person\_category\_relation| *None* |User support contact - Extra category relation: Custom person-category relation|  |
 |contactSupportPerson/personExtra/x\_person\_priority\_relation| *None* |User support contact - Extra priority relation: Custom person-priority relation|  |
 |contactSupportPerson/personExtra/x\_person\_request\_relation| *None* |User support contact - Extra request relation: Request relation on contact|  |
-|contactSupportPerson/personExtra/x\_person\_appointment\_relation| *None* |User support contact - Extra appointment relation: Appointment relation on person|  |
-|contactSupportPerson/personExtra/x\_person\_contact\_relation| *None* |User support contact - Extra company relation: Company relation on contact|  |
-|contactSupportPerson/personExtra/y\_rental/id| *None* |User support contact - Rental - id: Displays the row's primary key (y\_rental)|  |
-|contactSupportPerson/personExtra/y\_rental/x\_start| *None* |User support contact - Rental - Start rental|  |
-|contactSupportPerson/personExtra/y\_rental/x\_end| *None* |User support contact - Rental - End|  |
-|contactSupportPerson/personExtra/y\_rental/x\_amount| *None* |User support contact - Rental - Amount: Number to rent. Default = 1|  |
-|contactSupportPerson/personExtra/y\_rental/x\_contact| *None* |User support contact - Rental - Renter: Company that rents equipment|  |
-|contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name| *None* |User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personExtra/x\_person\_appointment\_relation| *None* |User support contact - Extra appointment relation: Appointment relation on person|  |
+|contactSupportPerson/personExtra/x\_person\_contact\_relation| *None* |User support contact - Extra company relation: Company relation on contact|  |
+|contactSupportPerson/personExtra/y\_rental/id| *None* |User support contact - Rental - id: Displays the row's primary key (y\_rental)|  |
+|contactSupportPerson/personExtra/y\_rental/x\_start| *None* |User support contact - Rental - Start rental: Start rental|  |
+|contactSupportPerson/personExtra/y\_rental/x\_end| *None* |User support contact - Rental - End: End|  |
+|contactSupportPerson/personExtra/y\_rental/x\_amount| *None* |User support contact - Rental - Amount: Number to rent. Default = 1|  |
+|contactSupportPerson/personExtra/y\_rental/x\_contact| *None* |User support contact - Rental - Renter: Company that rents equipment|  |
+|contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name| *None* |User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
 |contactSupportPerson/personExtra/y\_car/id| *None* |User support contact - Car - id: Displays the row's primary key (y\_car)|  |
 |contactSupportPerson/isMailingRecipient| *None* |User support contact - Is mailing recipient: isMailingRecipient|  |
 |contactSupportPerson/hasStoreConsent| *None* |User support contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -488,7 +496,7 @@ the email_id.
 |contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
-|contactExtra/y\_organization/x\_name| *None* |Organization - Name|  |
+|contactExtra/y\_organization/x\_name| *None* |Organization - Name: Name|  |
 |NumberOfActivities| *None* |Number of activities|  |
 |NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -525,7 +533,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personContact/restrictionAddress/city,updatedBy,registeredBy,contactExtra/x_contact_date
+GET /api/v1/archive/EmailAddress?$select=ticketPriority,personContact/nameDepartment,personContact/associateId,saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

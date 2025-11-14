@@ -105,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 780,
-  "ErpConnectorId": 290,
-  "DisplayName": "Turcotte, Rosenbaum and VonRueden",
-  "DisplayDescription": "Re-contextualized object-oriented superstructure",
-  "Active": true,
-  "ConnectionId": "quis",
-  "MostRecentTimestamp": "incidunt",
+  "ErpConnectionId": 945,
+  "ErpConnectorId": 571,
+  "DisplayName": "Stoltenberg-Lindgren",
+  "DisplayDescription": "Stand-alone client-server utilisation",
+  "Active": false,
+  "ConnectionId": "cupiditate",
+  "MostRecentTimestamp": "voluptatem",
   "ConfigFields": {
-    "ConfigFields1": "dolorem",
-    "ConfigFields2": "ratione"
+    "ConfigFields1": "quia",
+    "ConfigFields2": "porro"
   },
   "Deleted": true,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    774,
-    420
+    783,
+    600
   ],
   "AssociateAccessIds": [
-    827,
-    34
+    4,
+    994
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

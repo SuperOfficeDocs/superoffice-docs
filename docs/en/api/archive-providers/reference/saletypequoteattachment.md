@@ -86,7 +86,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 |document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|document/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |

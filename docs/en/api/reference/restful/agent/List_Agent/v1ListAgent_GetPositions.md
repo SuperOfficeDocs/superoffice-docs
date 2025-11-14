@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Value": "ut",
-    "Tooltip": "odio",
+    "Id": 151,
+    "Value": "quia",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 315
       }
     }
   },
   {
-    "Id": 18,
-    "Value": "ut",
-    "Tooltip": "odio",
+    "Id": 151,
+    "Value": "quia",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 315
       }
     }
   }

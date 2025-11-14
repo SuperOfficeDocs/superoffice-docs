@@ -74,11 +74,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Harvey Group",
-  "HeadingId": 87,
+  "UdListDefinitionName": "Collier, Lemke and Runte",
+  "HeadingId": 751,
   "ListItemIds": [
-    636,
-    596
+    992,
+    444
   ],
   "Enable": true
 }

@@ -94,8 +94,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 194,
-  "ModuleOwner": "optio"
+  "AssociateId": 485,
+  "ModuleOwner": "ipsa"
 }
 ```
 
@@ -108,25 +108,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 603,
-    "Tooltip": "minima",
+    "Total": 734,
+    "Tooltip": "voluptatem",
     "CanAssign": false,
-    "Free": 251,
-    "InUse": 505,
+    "Free": 101,
+    "InUse": 561,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 760,
-    "Name": "Tromp LLC",
-    "Description": "Streamlined multi-state Graphic Interface",
-    "PrerequisiteModuleName": "Murazik, Daniel and Morissette",
-    "SortOrder": 910,
-    "ExtraFlags": 736,
+    "ModuleLicenseId": 257,
+    "Name": "Harris-Nolan",
+    "Description": "Multi-channelled grid-enabled extranet",
+    "PrerequisiteModuleName": "Gulgowski Inc and Sons",
+    "SortOrder": 108,
+    "ExtraFlags": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 630
       }
     }
   }

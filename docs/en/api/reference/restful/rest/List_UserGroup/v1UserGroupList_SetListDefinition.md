@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Roob Group",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "Rank": 912,
+  "Id": 322,
+  "Name": "Lockman, Maggio and Langworth",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 294,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 194,
-  "Name": "Simonis LLC",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 164,
+  "Id": 477,
+  "Name": "Kozey-Boehm",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 655,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "ListType": "in",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 904
     }
   }
 }

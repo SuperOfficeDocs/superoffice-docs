@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 515,
-  "Name": "Kertzmann LLC",
-  "ConsentText": "et",
-  "FormText": "assumenda",
-  "Key": "perferendis",
-  "Tooltip": "nesciunt",
-  "Active": 371,
-  "UpdatedDate": "2004-05-28T03:40:47.2186675+02:00",
+  "ConsentPurposeId": 166,
+  "Name": "Kessler Inc and Sons",
+  "ConsentText": "placeat",
+  "FormText": "velit",
+  "Key": "et",
+  "Tooltip": "labore",
+  "Active": 908,
+  "UpdatedDate": "2017-04-05T02:30:47.4444538+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 92,
-  "PrivacyStatementDesc": "odit",
+  "Rank": 22,
+  "PrivacyStatementDesc": "assumenda",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

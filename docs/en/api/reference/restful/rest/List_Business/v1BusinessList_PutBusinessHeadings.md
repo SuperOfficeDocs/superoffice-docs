@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 225,
-    "Name": "Turner Inc and Sons",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 466
+    "HeadingId": 136,
+    "Name": "Champlin-Abbott",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 324,
+    "UdListDefinitionId": 153
   },
   {
-    "HeadingId": 225,
-    "Name": "Turner Inc and Sons",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 466
+    "HeadingId": 136,
+    "Name": "Champlin-Abbott",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 324,
+    "UdListDefinitionId": 153
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1001,
-    "Name": "Olson Inc and Sons",
-    "Tooltip": "qui",
+    "HeadingId": 570,
+    "Name": "Breitenberg LLC",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 64,
-    "UdListDefinitionId": 314,
+    "Rank": 552,
+    "UdListDefinitionId": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 223
       }
     }
   }

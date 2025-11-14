@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 542,
-  "IncludeEmails": false
+  "DocumentPluginId": 709,
+  "IncludeEmails": true
 }
 ```
 
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 436,
-  "NumDocumentsAlreadyMigrated": 806,
+  "NumDocumentsOmitted": 985,
+  "NumDocumentsAlreadyMigrated": 412,
   "Documents": [
     {
-      "DocumentId": 456,
-      "ContactId": 459,
-      "PersonId": 524,
-      "SaleId": 921,
-      "ProjectId": 722,
-      "DocTmplId": 214,
-      "AssociateId": 634,
-      "UserGroupId": 788,
-      "VisibleForId": 479
+      "DocumentId": 342,
+      "ContactId": 55,
+      "PersonId": 658,
+      "SaleId": 776,
+      "ProjectId": 7,
+      "DocTmplId": 980,
+      "AssociateId": 300,
+      "UserGroupId": 390,
+      "VisibleForId": 950
     }
   ],
   "Associates": [
     {
-      "AssociateId": 188,
-      "EmailAddress": "otha@gerhold.ca"
+      "AssociateId": 846,
+      "EmailAddress": "gretchen@goodwin.co.uk"
     },
     {
-      "AssociateId": 188,
-      "EmailAddress": "otha@gerhold.ca"
+      "AssociateId": 846,
+      "EmailAddress": "gretchen@goodwin.co.uk"
     }
   ]
 }

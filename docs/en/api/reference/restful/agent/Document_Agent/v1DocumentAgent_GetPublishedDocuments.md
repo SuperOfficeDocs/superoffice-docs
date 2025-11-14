@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    541,
-    273
+    584,
+    853
   ]
 }
 ```
@@ -114,32 +114,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 93,
-    "Attention": "laborum",
-    "Header": "maiores",
-    "Name": "Hilll-Turcotte",
-    "OurRef": "aperiam",
-    "YourRef": "ea",
-    "Description": "Object-based interactive benchmark",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 349,
-    "PersonFullName": "Ruthe Shanahan",
-    "AssociateFullName": "Jayde Fisher",
-    "ContactId": 521,
-    "ContactName": "Baumbach Group",
-    "ProjectId": 199,
-    "ProjectName": "Langosh, Heidenreich and Prosacco",
-    "AssociateId": 428,
-    "Snum": 685,
-    "SaleId": 959,
-    "SaleName": "Fritsch-Anderson",
+    "DocumentId": 252,
+    "Attention": "voluptas",
+    "Header": "similique",
+    "Name": "Prohaska-Corwin",
+    "OurRef": "id",
+    "YourRef": "dolore",
+    "Description": "Centralized intermediate function",
+    "DocumentTemplate": "illum",
+    "IsPublished": false,
+    "PersonId": 706,
+    "PersonFullName": "Lulu Block",
+    "AssociateFullName": "Kenna Douglas",
+    "ContactId": 553,
+    "ContactName": "Okuneva-Zboncak",
+    "ProjectId": 767,
+    "ProjectName": "Hahn-Littel",
+    "AssociateId": 511,
+    "Snum": 180,
+    "SaleId": 513,
+    "SaleName": "Smith-Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 975
       }
     }
   }

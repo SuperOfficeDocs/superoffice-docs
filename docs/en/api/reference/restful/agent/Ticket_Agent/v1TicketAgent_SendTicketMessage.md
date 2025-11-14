@@ -77,22 +77,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 686,
+  "TicketMessageEntityId": 603,
   "To": [
-    "alias",
-    "corrupti"
+    "est",
+    "molestiae"
   ],
   "Cc": [
-    "atque",
-    "aperiam"
+    "perferendis",
+    "iusto"
   ],
   "Bcc": [
-    "natus",
-    "qui"
+    "cupiditate",
+    "ipsum"
   ],
-  "Subject": "repellat",
-  "ReplyTemplateId": 266,
-  "GdprSource": "unde"
+  "Subject": "aliquid",
+  "ReplyTemplateId": 272,
+  "GdprSource": "omnis"
 }
 ```
 

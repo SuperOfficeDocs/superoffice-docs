@@ -118,22 +118,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 318,
-  "PersonId": 12,
-  "AppointmentId": 144,
-  "DocumentId": 972,
-  "SaleId": 930,
-  "SelectionId": 415,
-  "ProjectId": 437,
+  "ContactId": 246,
+  "PersonId": 162,
+  "AppointmentId": 774,
+  "DocumentId": 774,
+  "SaleId": 268,
+  "SelectionId": 487,
+  "ProjectId": 856,
   "CustomTags": {
-    "CustomTags1": "labore",
-    "CustomTags2": "nemo"
+    "CustomTags1": "quia",
+    "CustomTags2": "iure"
   },
-  "UiCulture": "nobis"
+  "UiCulture": "unde"
 }
 ```
 
@@ -144,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 961,
+  "DocumentId": 996,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nam",
-  "Header": "quam",
-  "Name": "Waters Group",
-  "OurRef": "doloremque",
-  "YourRef": "culpa",
-  "CreatedDate": "2016-09-11T03:40:46.7030116+02:00",
-  "UpdatedDate": "2022-01-06T03:40:46.7030116+01:00",
-  "Description": "Multi-layered composite initiative",
+  "Attention": "quo",
+  "Header": "dicta",
+  "Name": "Hackett Inc and Sons",
+  "OurRef": "provident",
+  "YourRef": "earum",
+  "CreatedDate": "2013-03-13T02:30:47.1944624+01:00",
+  "UpdatedDate": "2005-06-01T02:30:47.1944624+02:00",
+  "Description": "Exclusive holistic task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-10-06T03:40:46.7030116+02:00",
-  "ExternalRef": "quo",
+  "Date": "2016-02-22T02:30:47.1944624+01:00",
+  "ExternalRef": "provident",
   "Completed": "Completed",
-  "ActiveLinks": 331,
+  "ActiveLinks": 515,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gislason-Bogisich",
-      "Id": 390,
-      "Description": "Profit-focused maximized leverage",
-      "ExtraInfo": "quia",
-      "LinkId": 301,
+      "EntityName": "Ruecker, Grimes and Adams",
+      "Id": 399,
+      "Description": "Automated cohesive algorithm",
+      "ExtraInfo": "accusamus",
+      "LinkId": 490,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 791
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 768,
-  "Snum": 386,
+  "SuggestedDocumentId": 38,
+  "Snum": 438,
   "UserDefinedFields": {
-    "SuperOffice:1": "Barry Thompson",
-    "SuperOffice:2": "1490842826"
+    "SuperOffice:1": "Ron Price",
+    "SuperOffice:2": "Aliyah Kovacek"
   },
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "commodi"
+    "CustomFields1": "dicta",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "2015-11-24T03:40:46.7030116+01:00",
-  "PublishTo": "2006-01-16T03:40:46.7030116+01:00",
-  "PublishFrom": "2001-10-05T03:40:46.7030116+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-01-02T02:30:47.1944624+01:00",
+  "PublishTo": "2007-11-02T02:30:47.1944624+01:00",
+  "PublishFrom": "2008-05-19T02:30:47.1944624+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 691,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 691,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 989
         }
       }
     }
@@ -234,8 +234,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 768
+  "ErpSyncConnectionId": 739
 }
 ```
 
@@ -99,37 +99,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Parker, Wilderman and Feil",
-  "DisplayDescription": "Focused non-volatile hardware",
-  "Active": false,
-  "Deleted": false,
-  "LastSync": "2018-04-11T03:40:46.9217741+02:00",
+  "DisplayName": "Erdman-Gutmann",
+  "DisplayDescription": "Organized tertiary database",
+  "Active": true,
+  "Deleted": true,
+  "LastSync": "2022-05-31T02:30:47.3194579+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "recusandae",
-      "Mappings": "quia",
+      "HasMappings": true,
+      "Defaults": "laborum",
+      "Mappings": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 64
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "recusandae",
-      "Mappings": "quia",
+      "HasMappings": true,
+      "Defaults": "laborum",
+      "Mappings": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 64
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 370
     }
   }
 }

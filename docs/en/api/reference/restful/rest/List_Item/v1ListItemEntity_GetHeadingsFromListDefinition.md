@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 996,
-    "Name": "Romaguera Inc and Sons",
-    "Tooltip": "dicta",
-    "Deleted": true,
-    "Rank": 764,
-    "UdListDefinitionId": 343,
+    "HeadingId": 428,
+    "Name": "Johnson-Gaylord",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 4,
+    "UdListDefinitionId": 56,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 99
       }
     }
   }

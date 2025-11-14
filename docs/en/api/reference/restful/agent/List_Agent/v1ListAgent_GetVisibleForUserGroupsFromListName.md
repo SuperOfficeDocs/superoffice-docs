@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "O'Reilly, Koss and Beahan",
-  "ListItemId": 851
+  "UdListDefinitionName": "Powlowski, Leuschke and Kunde",
+  "ListItemId": 111
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Parker-Brakus",
-    "ToolTip": "Consequuntur voluptatem rerum et dolores eveniet ut repellendus.",
-    "Deleted": true,
-    "Rank": 523,
-    "Type": "error",
-    "ColorBlock": 557,
-    "IconHint": "velit",
+    "Id": 110,
+    "Name": "Kautzer LLC",
+    "ToolTip": "Rem et natus omnis.",
+    "Deleted": false,
+    "Rank": 253,
+    "Type": "deleniti",
+    "ColorBlock": 967,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2007-09-02T03:40:47.2186675+02:00",
+    "LastChanged": "2012-07-06T02:30:47.4444538+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Medhurst Inc and Sons",
-        "ToolTip": "Asperiores totam quae.",
-        "Deleted": false,
-        "Rank": 798,
-        "Type": "sapiente",
-        "ColorBlock": 224,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2023-05-11T03:40:47.2186675+02:00",
+        "Id": 465,
+        "Name": "Predovic LLC",
+        "ToolTip": "Vitae fuga.",
+        "Deleted": true,
+        "Rank": 965,
+        "Type": "vitae",
+        "ColorBlock": 357,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2011-11-12T02:30:47.4444538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Neil Kohler PhD",
+        "ExtraInfo": "ab",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Alexys Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 398
+            "FieldType": "System.Int32",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "est",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Yoshiko Bergstrom",
+    "FullName": "Dariana Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 74
       }
     }
   }

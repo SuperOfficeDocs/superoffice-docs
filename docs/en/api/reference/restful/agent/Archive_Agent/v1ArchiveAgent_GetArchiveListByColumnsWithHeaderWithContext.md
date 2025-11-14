@@ -105,36 +105,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wintheiser Inc and Sons",
+  "ProviderName": "Fritsch-Anderson",
   "Columns": [
-    "dolores",
-    "ipsam"
+    "perspiciatis",
+    "saepe"
   ],
   "SortOrder": [
     {
-      "Name": "Bashirian-Kertzmann",
+      "Name": "Considine-Walker",
       "Direction": "ASC"
     },
     {
-      "Name": "Bashirian-Kertzmann",
+      "Name": "Considine-Walker",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ward Group",
-      "Operator": "qui",
+      "Name": "Hagenes, Hessel and Gibson",
+      "Operator": "necessitatibus",
       "Values": [
-        "rerum",
-        "inventore"
+        "sed",
+        "voluptas"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "doloribus"
+        "corrupti",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -142,19 +142,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 558,
+      "InterParenthesis": 188,
       "InterOperator": "And",
-      "UniqueHash": 907
+      "UniqueHash": 64
     }
   ],
   "Entities": [
-    "repellendus",
-    "quo"
+    "voluptatum",
+    "et"
   ],
-  "Page": 137,
-  "PageSize": 880,
-  "Options": "nesciunt",
-  "Context": "dolores"
+  "Page": 19,
+  "PageSize": 581,
+  "Options": "asperiores",
+  "Context": "sapiente"
 }
 ```
 
@@ -165,26 +165,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 204,
+  "RowCount": 124,
   "Rows": [
     {
-      "EntityName": "Murazik LLC",
-      "PrimaryKey": 609,
+      "EntityName": "Schowalter Inc and Sons",
+      "PrimaryKey": 59,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eius",
-          "TooltipHint": "consequatur",
-          "LinkHint": "veniam"
+          "DisplayValue": "quisquam",
+          "TooltipHint": "et",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "sed",
+      "LinkHint": "consequatur",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 957
     }
   }
 }

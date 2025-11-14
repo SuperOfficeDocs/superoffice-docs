@@ -80,7 +80,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,53 +90,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 81,
-  "UniqueIdentifier": "aut",
-  "Name": "Wehner, Bergnaum and Luettgen",
-  "Description": "Multi-tiered global standardization",
-  "IncludeId": "dolorem",
-  "AccessKey": "in",
-  "HierarchyId": 448,
-  "Source": "magni",
-  "SourceCode": "fuga",
+  "EjscriptId": 190,
+  "UniqueIdentifier": "quia",
+  "Name": "Cremin-Waelchi",
+  "Description": "Realigned zero administration pricing structure",
+  "IncludeId": "voluptatem",
+  "AccessKey": "quia",
+  "HierarchyId": 788,
+  "Source": "temporibus",
+  "SourceCode": "aut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 294,
+  "HtmlOutput": 410,
   "Includes": [
-    338,
-    9
+    708,
+    242
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 588,
-      "LineNumberTo": 102,
-      "Delta": 595,
-      "IncludeId": "et",
+      "LineNumberFrom": 5,
+      "LineNumberTo": 685,
+      "Delta": 546,
+      "IncludeId": "est",
       "IncludedFrom": [
-        "impedit",
-        "perferendis"
+        "aut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 64
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-12-24T03:40:55.6162809+01:00",
-  "RegisteredAssociateId": 407,
-  "Updated": "2012-07-29T03:40:55.6162809+02:00",
-  "UpdatedAssociateId": 435,
+  "Registered": "2019-06-25T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 586,
+  "Updated": "2019-02-23T02:30:52.522416+01:00",
+  "UpdatedAssociateId": 455,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 861
     }
   }
 }

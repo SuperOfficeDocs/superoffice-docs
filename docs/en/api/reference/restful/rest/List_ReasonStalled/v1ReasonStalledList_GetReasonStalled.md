@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Jacobson-Maggio",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 831,
-  "Rank": 501,
+  "Id": 83,
+  "Name": "Pacocha LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 442,
+  "Rank": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldLength": 311
     }
   }
 }

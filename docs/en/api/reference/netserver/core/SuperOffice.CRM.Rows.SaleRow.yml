@@ -75,6 +75,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Rows.SaleRow.OnSourceChange
   - SuperOffice.CRM.Rows.SaleRow.OnSourceIdChange
+  - SuperOffice.CRM.Rows.SaleRow.OnStageWhenClosedIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnStatusChange
   - SuperOffice.CRM.Rows.SaleRow.OnTextIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnUpdatedAssociateIdChange
@@ -105,6 +106,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.SetRowAsNew
   - SuperOffice.CRM.Rows.SaleRow.Source
   - SuperOffice.CRM.Rows.SaleRow.SourceId
+  - SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
   - SuperOffice.CRM.Rows.SaleRow.Status
   - SuperOffice.CRM.Rows.SaleRow.TableInfo
   - SuperOffice.CRM.Rows.SaleRow.TextId
@@ -152,6 +154,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._currentSaledate
   - SuperOffice.CRM.Rows.SaleRow._currentSource
   - SuperOffice.CRM.Rows.SaleRow._currentSourceId
+  - SuperOffice.CRM.Rows.SaleRow._currentStageWhenClosedId
   - SuperOffice.CRM.Rows.SaleRow._currentStatus
   - SuperOffice.CRM.Rows.SaleRow._currentTextId
   - SuperOffice.CRM.Rows.SaleRow._currentUpdated
@@ -194,6 +197,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._onSaledateChange
   - SuperOffice.CRM.Rows.SaleRow._onSourceChange
   - SuperOffice.CRM.Rows.SaleRow._onSourceIdChange
+  - SuperOffice.CRM.Rows.SaleRow._onStageWhenClosedIdChange
   - SuperOffice.CRM.Rows.SaleRow._onStatusChange
   - SuperOffice.CRM.Rows.SaleRow._onTextIdChange
   - SuperOffice.CRM.Rows.SaleRow._onUpdatedAssociateIdChange
@@ -237,6 +241,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._persistedSaledate
   - SuperOffice.CRM.Rows.SaleRow._persistedSource
   - SuperOffice.CRM.Rows.SaleRow._persistedSourceId
+  - SuperOffice.CRM.Rows.SaleRow._persistedStageWhenClosedId
   - SuperOffice.CRM.Rows.SaleRow._persistedStatus
   - SuperOffice.CRM.Rows.SaleRow._persistedTextId
   - SuperOffice.CRM.Rows.SaleRow._persistedUpdated
@@ -1296,6 +1301,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedCreatedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._persistedStageWhenClosedId
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._persistedStageWhenClosedId
+  id: _persistedStageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedStageWhenClosedId
+  nameWithType: SaleRow._persistedStageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRow._persistedStageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedStageWhenClosedId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedStageWhenClosedId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow._currentSaleId
   commentId: F:SuperOffice.CRM.Rows.SaleRow._currentSaleId
   id: _currentSaleId
@@ -2199,6 +2225,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentCreatedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._currentStageWhenClosedId
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._currentStageWhenClosedId
+  id: _currentStageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _currentStageWhenClosedId
+  nameWithType: SaleRow._currentStageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRow._currentStageWhenClosedId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentStageWhenClosedId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentStageWhenClosedId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -4477,6 +4524,37 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CreatedByWorkflowId As Integer
   overload: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId*
+- uid: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  id: StageWhenClosedId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: StageWhenClosedId
+  nameWithType: SaleRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The stage the sale was in when it was closed (sold or lost)'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int StageWhenClosedId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StageWhenClosedId As Integer
+  overload: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId*
 - uid: SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   id: _onAssociateIdChange
@@ -5359,6 +5437,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Protected Event _onCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow._onStageWhenClosedIdChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow._onStageWhenClosedIdChange
+  id: _onStageWhenClosedIdChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _onStageWhenClosedIdChange
+  nameWithType: SaleRow._onStageWhenClosedIdChange
+  fullName: SuperOffice.CRM.Rows.SaleRow._onStageWhenClosedIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onStageWhenClosedIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onStageWhenClosedIdChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   id: OnAssociateIdChange
@@ -6241,6 +6340,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow.OnStageWhenClosedIdChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow.OnStageWhenClosedIdChange
+  id: OnStageWhenClosedIdChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: OnStageWhenClosedIdChange
+  nameWithType: SaleRow.OnStageWhenClosedIdChange
+  fullName: SuperOffice.CRM.Rows.SaleRow.OnStageWhenClosedIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when StageWhenClosedId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnStageWhenClosedIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnStageWhenClosedIdChange As OnFieldChange(Of Integer)
 references:
 - uid: SuperOffice.CRM.Rows.SaleRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SaleRow.CreateNew
@@ -9556,6 +9676,13 @@ references:
   name: CreatedByWorkflowId
   nameWithType: SaleRow.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+- uid: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -10780,6 +10907,13 @@ references:
   name: CreatedByWorkflowId
   nameWithType: SaleRow.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+- uid: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_StageWhenClosedId
+  name: StageWhenClosedId
+  nameWithType: SaleRow.StageWhenClosedId
+  fullName: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

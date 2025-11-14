@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Ward LLC",
-  "Tooltip": "voluptatem",
+  "Id": 279,
+  "Name": "Hodkiewicz LLC",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 198,
-  "IsCustomList": true,
+  "Rank": 129,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": true
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Boyle, Raynor and Bahringer",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 290,
-  "IsCustomList": true,
+  "Id": 137,
+  "Name": "Carter Group",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 192,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 81
     }
   }
 }

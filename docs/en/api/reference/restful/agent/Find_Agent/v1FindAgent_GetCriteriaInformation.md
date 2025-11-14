@@ -83,16 +83,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Lockman, Zboncak and Ernser",
-  "StorageKey": "ratione",
+  "StorageType": "qui",
+  "ProviderName": "Connelly, Toy and Thiel",
+  "StorageKey": "aut",
   "StaticColumns": [
-    "ullam",
-    "modi"
+    "repudiandae",
+    "aperiam"
   ]
 }
 ```
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hegmann-Feeney",
-      "Operator": "sit",
+      "Name": "West Group",
+      "Operator": "debitis",
       "Values": [
-        "eum",
-        "voluptas"
+        "deleniti",
+        "unde"
       ],
       "DisplayValues": [
-        "sit",
-        "quo"
+        "iure",
+        "dolorum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 413,
+      "InterParenthesis": 600,
       "InterOperator": "And",
-      "UniqueHash": 112
+      "UniqueHash": 631
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Altenwerth, Williamson and Beahan",
-      "DisplayTooltip": "autem",
-      "DisplayType": "ab",
+      "DisplayName": "Anderson, Nicolas and Roob",
+      "DisplayTooltip": "quam",
+      "DisplayType": "molestiae",
       "CanOrderBy": false,
-      "Name": "Green LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Simonis-Marquardt",
-      "IsVisible": true,
-      "ExtraInfo": "officia",
-      "Width": "provident",
-      "IconHint": "ullam",
-      "HeadingIconHint": "repellendus"
+      "Name": "Koepp, Dickens and Abbott",
+      "CanRestrictBy": false,
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Homenick, Cassin and Pagac",
+      "IsVisible": false,
+      "ExtraInfo": "impedit",
+      "Width": "necessitatibus",
+      "IconHint": "quo",
+      "HeadingIconHint": "minima"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Rau Group",
-      "PrimaryKey": 259,
+      "EntityName": "Hermann Group",
+      "PrimaryKey": 123,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "tempora",
-          "LinkHint": "ut"
+          "DisplayValue": "maiores",
+          "TooltipHint": "deleniti",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "excepturi",
+      "LinkHint": "ad",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Feest, Bernier and Keebler",
-      "Description": "Future-proofed interactive website",
-      "Rank": 286,
+      "Name": "Dare, Stanton and Harvey",
+      "Description": "Quality-focused web-enabled framework",
+      "Rank": 739,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Feest, Bernier and Keebler",
-      "Description": "Future-proofed interactive website",
-      "Rank": 286,
+      "Name": "Dare, Stanton and Harvey",
+      "Description": "Quality-focused web-enabled framework",
+      "Rank": 739,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

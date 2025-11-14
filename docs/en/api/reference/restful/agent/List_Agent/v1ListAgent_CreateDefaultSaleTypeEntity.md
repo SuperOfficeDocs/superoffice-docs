@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,53 +89,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 284,
-  "Name": "Huels-Bradtke",
-  "Tooltip": "quis",
-  "Rank": 124,
+  "SaleTypeId": 529,
+  "Name": "Heller Inc and Sons",
+  "Tooltip": "atque",
+  "Rank": 81,
   "DurationUnit": "Century",
-  "SaleDuration": 524,
-  "SaleTypeCatId": 734,
+  "SaleDuration": 224,
+  "SaleTypeCatId": 799,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 618,
-  "QuoteLinesTemplate": 248,
-  "ConfirmationLinesTemplate": 114,
+  "DefaultQuoteValidity": 743,
+  "QuoteLinesTemplate": 64,
+  "ConfirmationLinesTemplate": 423,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 201,
-  "MinEarningPercent": 855,
-  "GroupQuoteLinesBy": 892,
-  "SortGroupLinesBy": 423,
+  "MaxDiscountPercent": 551,
+  "MinEarningPercent": 971,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 465,
   "Stages": [
     {
-      "Id": 550,
-      "Name": "Wolff-Wilderman",
-      "ToolTip": "Ut sequi velit et praesentium.",
+      "Id": 341,
+      "Name": "Reichert Inc and Sons",
+      "ToolTip": "Nesciunt quia est et.",
       "Deleted": false,
-      "Rank": 627,
-      "Type": "ut",
-      "ColorBlock": 609,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2007-01-20T03:40:47.0780355+01:00",
+      "Rank": 985,
+      "Type": "veritatis",
+      "ColorBlock": 721,
+      "IconHint": "distinctio",
+      "Selected": false,
+      "LastChanged": "2002-08-20T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestias",
-      "StyleHint": "sunt",
-      "Hidden": false,
-      "FullName": "Prof. Leif Jessica Vandervort",
+      "ExtraInfo": "et",
+      "StyleHint": "vel",
+      "Hidden": true,
+      "FullName": "Ms. Jett Toy II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 620
         }
       }
     }
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   }
 }

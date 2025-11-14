@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 391,
-  "TemplateName": "Klein Group",
+  "SelectionId": 101,
+  "TemplateName": "Turcotte, Heaney and Skiles",
   "UseContacts": false,
-  "OrderBy": "labore"
+  "OrderBy": "aut"
 }
 ```
 

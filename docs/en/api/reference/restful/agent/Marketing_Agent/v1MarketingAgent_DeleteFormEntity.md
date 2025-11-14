@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | formEntityId | int32 | **Required** The identity of the FormEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormEntity?formEntityId=165
+POST /api/v1/Agents/Marketing/DeleteFormEntity?formEntityId=947
 ```
 
 

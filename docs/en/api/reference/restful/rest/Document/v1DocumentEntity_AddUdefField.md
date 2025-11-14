@@ -99,7 +99,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 312,
-  "ColumnId": 850,
-  "FieldDefault": "tempore",
-  "FieldHeight": 55,
-  "FieldLabel": "at",
-  "FieldLeft": 312,
-  "FieldTop": 587,
+  "UDefFieldId": 17,
+  "ColumnId": 254,
+  "FieldDefault": "fugit",
+  "FieldHeight": 500,
+  "FieldLabel": "hic",
+  "FieldLeft": 436,
+  "FieldTop": 76,
   "FieldType": "Checkbox",
-  "FieldWidth": 986,
-  "FormatMask": "quae",
+  "FieldWidth": 936,
+  "FormatMask": "ducimus",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 968,
-  "LabelLeft": 125,
-  "LabelTop": 782,
-  "LabelWidth": 527,
-  "LastVersionId": 657,
-  "ListTableId": 72,
+  "IsIndexed": false,
+  "LabelHeight": 774,
+  "LabelLeft": 409,
+  "LabelTop": 968,
+  "LabelWidth": 115,
+  "LastVersionId": 913,
+  "ListTableId": 924,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 407,
-  "ProgId": "exercitationem",
+  "Page1LineNo": 165,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 695,
-  "TextLength": 976,
-  "Tooltip": "amet",
-  "UdefIdentity": 410,
-  "UDListDefinitionId": 895,
+  "ShortLabel": "nisi",
+  "TabOrder": 377,
+  "TextLength": 913,
+  "Tooltip": "et",
+  "UdefIdentity": 330,
+  "UDListDefinitionId": 37,
   "Justification": "Center",
-  "Version": 964,
-  "TemplateVariableName": "Torp, Leffler and Stanton",
-  "HasBeenPublished": true,
-  "MdoListName": "Borer, Mertz and Terry",
+  "Version": 10,
+  "TemplateVariableName": "VonRueden-Altenwerth",
+  "HasBeenPublished": false,
+  "MdoListName": "Orn, Sauer and Jewess",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

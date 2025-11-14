@@ -87,10 +87,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Heidenreich-Sauer",
-  "ProviderName": "Kuhlman Group",
-  "Context": "sed",
-  "OwnerKeys": "quasi"
+  "GuiName": "Hettinger, Ledner and Hermiston",
+  "ProviderName": "Bergstrom, Koss and Legros",
+  "Context": "adipisci",
+  "OwnerKeys": "reiciendis"
 }
 ```
 
@@ -103,68 +103,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Macejkovic, Lakin and Quigley",
-      "DisplayTooltip": "beatae",
-      "DisplayType": "blanditiis",
-      "CanOrderBy": true,
-      "Name": "Emmerich Inc and Sons",
+      "DisplayName": "Hills-Heller",
+      "DisplayTooltip": "quis",
+      "DisplayType": "sunt",
+      "CanOrderBy": false,
+      "Name": "McCullough, Schmitt and Lehner",
       "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Kulas, Erdman and Boehm",
+      "RestrictionType": "et",
+      "RestrictionListName": "Doyle, Boyer and Lang",
       "IsVisible": false,
-      "ExtraInfo": "pariatur",
-      "Width": "similique",
-      "IconHint": "delectus",
-      "HeadingIconHint": "porro"
+      "ExtraInfo": "blanditiis",
+      "Width": "non",
+      "IconHint": "et",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 429,
-      "Name": "Kerluke LLC",
-      "ToolTip": "Aliquam dolore voluptas.",
-      "Deleted": false,
-      "Rank": 127,
-      "Type": "iste",
-      "ColorBlock": 450,
-      "IconHint": "est",
+      "Id": 571,
+      "Name": "Marvin Group",
+      "ToolTip": "Voluptas perspiciatis non.",
+      "Deleted": true,
+      "Rank": 1002,
+      "Type": "laborum",
+      "ColorBlock": 653,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "2011-04-15T03:40:46.0608291+02:00",
+      "LastChanged": "1999-05-16T02:30:46.8038471+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "officia",
+      "ExtraInfo": "sit",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Jazmyn Collier I",
+      "FullName": "Samantha Stacy Altenwerth IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 912
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Funk, Blanda and Huel",
+      "Name": "Stroman LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Funk, Blanda and Huel",
+      "Name": "Stroman LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "error",
+  "OwnerKeys": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 681
     }
   }
 }

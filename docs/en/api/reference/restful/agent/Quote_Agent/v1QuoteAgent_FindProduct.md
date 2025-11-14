@@ -111,13 +111,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 857,
-  "UserInput": "nobis",
-  "PriceListKey": "impedit"
+  "QuoteAlternativeId": 280,
+  "UserInput": "iusto",
+  "PriceListKey": "et"
 }
 ```
 
@@ -129,73 +129,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 502,
-    "ERPProductKey": "doloremque",
-    "ERPPriceListKey": "fugit",
-    "Name": "Treutel Group",
-    "Description": "Networked dedicated strategy",
-    "Code": "aut",
-    "PriceUnit": "debitis",
-    "QuantityUnit": "aliquid",
-    "IsSubscription": true,
-    "SubscriptionUnit": "fuga",
-    "DefaultSubscriptionQuantity": 22138.576,
-    "ItemNumber": "845455",
+    "ProductId": 472,
+    "ERPProductKey": "sit",
+    "ERPPriceListKey": "vitae",
+    "Name": "Stoltenberg, Gerhold and Ratke",
+    "Description": "Visionary analyzing Graphical User Interface",
+    "Code": "nesciunt",
+    "PriceUnit": "ut",
+    "QuantityUnit": "minima",
+    "IsSubscription": false,
+    "SubscriptionUnit": "et",
+    "DefaultSubscriptionQuantity": 12752.246,
+    "ItemNumber": "1376750",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "laboriosam",
-    "ProductTypeKey": "et",
-    "VAT": 25673.728,
-    "VATInfo": "perspiciatis",
-    "UnitCost": 6841.522,
-    "UnitMinimumPrice": 25987.128,
-    "UnitListPrice": 23298.156,
+    "ProductFamilyKey": "quae",
+    "ProductTypeKey": "nesciunt",
+    "VAT": 27845.59,
+    "VATInfo": "itaque",
+    "UnitCost": 20389.804,
+    "UnitMinimumPrice": 10498.9,
+    "UnitListPrice": 601.728,
     "InAssortment": false,
-    "Supplier": "illum",
-    "SupplierCode": "dolore",
-    "Rights": "tenetur",
-    "Rule": "nihil",
+    "Supplier": "qui",
+    "SupplierCode": "aspernatur",
+    "Rights": "atque",
+    "Rule": "voluptate",
     "ExtraInfo": [
       {
-        "Name": "Becker Group",
-        "Value": "aliquid",
+        "Name": "Hintz Group",
+        "Value": "quos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 794
           }
         }
       },
       {
-        "Name": "Becker Group",
-        "Value": "aliquid",
+        "Name": "Hintz Group",
+        "Value": "quos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 794
           }
         }
       }
     ],
-    "RawExtraInfo": "hic",
-    "ExtraField1": "omnis",
-    "ExtraField2": "et",
-    "ExtraField3": "doloremque",
-    "ExtraField4": "explicabo",
-    "ExtraField5": "explicabo",
-    "InStock": 18368.374,
+    "RawExtraInfo": "qui",
+    "ExtraField1": "at",
+    "ExtraField2": "assumenda",
+    "ExtraField3": "ex",
+    "ExtraField4": "unde",
+    "ExtraField5": "eos",
+    "InStock": 10154.16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

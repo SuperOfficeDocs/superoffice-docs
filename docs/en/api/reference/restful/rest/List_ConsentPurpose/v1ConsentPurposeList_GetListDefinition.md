@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 161,
-  "Name": "Harris, Kiehn and Cremin",
-  "Tooltip": "accusamus",
+  "Id": 264,
+  "Name": "Emmerich, Wuckert and Luettgen",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 969,
+  "Rank": 856,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   },
   "_Links": {

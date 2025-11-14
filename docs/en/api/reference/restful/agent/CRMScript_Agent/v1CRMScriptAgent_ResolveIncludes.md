@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "omnis",
+  "Script": "aut",
   "IgnoreErrors": false
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  979,
-  503
+  40,
+  904
 ]
 ```

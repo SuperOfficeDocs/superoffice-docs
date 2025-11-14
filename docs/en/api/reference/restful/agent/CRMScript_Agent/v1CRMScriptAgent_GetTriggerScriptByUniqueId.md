@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "tenetur"
+  "TriggerScriptUniqueId": "doloremque"
 }
 ```
 
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 518,
-  "Name": "Crooks Inc and Sons",
+  "ScreenChooserId": 836,
+  "Name": "Moen Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "iste",
-  "Source": "molestiae",
-  "Registered": "2009-10-10T03:40:46.5306238+02:00",
-  "RegisteredAssociateId": 365,
-  "Updated": "2022-01-08T03:40:46.5306238+01:00",
-  "UpdatedAssociateId": 432,
+  "UniqueIdentifier": "blanditiis",
+  "Source": "nobis",
+  "Registered": "2024-12-10T02:30:47.0538389+01:00",
+  "RegisteredAssociateId": 52,
+  "Updated": "2009-11-03T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

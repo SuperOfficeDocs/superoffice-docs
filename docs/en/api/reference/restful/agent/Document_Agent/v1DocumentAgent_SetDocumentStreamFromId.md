@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234,
+  "DocumentId": 45,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 835,
+  "DocumentId": 87,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "esse",
-  "Header": "magni",
-  "Name": "Kuhic, Hyatt and Gottlieb",
-  "OurRef": "assumenda",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2025-06-12T03:40:46.7342627+02:00",
-  "UpdatedDate": "2020-09-03T03:40:46.7342627+02:00",
-  "Description": "Quality-focused needs-based function",
+  "Header": "neque",
+  "Name": "Williamson-Ortiz",
+  "OurRef": "quidem",
+  "YourRef": "fugit",
+  "CreatedDate": "2024-09-30T02:30:47.2100867+02:00",
+  "UpdatedDate": "2001-12-20T02:30:47.2100867+01:00",
+  "Description": "Profit-focused global emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-09-03T03:40:46.7342627+02:00",
-  "ExternalRef": "ut",
+  "Date": "2019-12-20T02:30:47.2257111+01:00",
+  "ExternalRef": "in",
   "Completed": "Completed",
-  "ActiveLinks": 770,
+  "ActiveLinks": 730,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Glover, Tremblay and Hirthe",
-      "Id": 993,
-      "Description": "Vision-oriented incremental website",
-      "ExtraInfo": "accusamus",
-      "LinkId": 578,
+      "EntityName": "Moore Inc and Sons",
+      "Id": 973,
+      "Description": "User-centric systemic hardware",
+      "ExtraInfo": "eum",
+      "LinkId": 407,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 527
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 102,
-  "Snum": 709,
+  "SuggestedDocumentId": 696,
+  "Snum": 435,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Brock Bechtelar"
+    "SuperOffice:1": "1478654446",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "quis"
+    "CustomFields1": "ullam",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2003-07-25T03:40:46.7342627+02:00",
-  "PublishTo": "1999-01-06T03:40:46.7342627+01:00",
-  "PublishFrom": "2001-12-26T03:40:46.7342627+01:00",
+  "PublishEventDate": "2013-03-09T02:30:47.2257111+01:00",
+  "PublishTo": "2023-05-04T02:30:47.2257111+02:00",
+  "PublishFrom": "2005-03-31T02:30:47.2257111+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 958,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 312
         }
       }
     },
     {
-      "VisibleId": 958,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 312
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 239
     }
   }
 }

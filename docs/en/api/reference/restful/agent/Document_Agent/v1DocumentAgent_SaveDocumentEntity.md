@@ -133,77 +133,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 322,
+  "DocumentId": 919,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "distinctio",
-  "Header": "adipisci",
-  "Name": "Steuber Group",
-  "OurRef": "reprehenderit",
-  "YourRef": "autem",
-  "CreatedDate": "2010-11-04T03:40:46.6248901+01:00",
-  "UpdatedDate": "2009-05-05T03:40:46.6248901+02:00",
-  "Description": "Assimilated impactful product",
+  "Attention": "quibusdam",
+  "Header": "expedita",
+  "Name": "Mraz-Walker",
+  "OurRef": "quasi",
+  "YourRef": "sunt",
+  "CreatedDate": "2006-06-08T02:30:47.1475873+02:00",
+  "UpdatedDate": "2011-12-18T02:30:47.1475873+01:00",
+  "Description": "Horizontal assymetric portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-12-08T03:40:46.6248901+01:00",
-  "ExternalRef": "qui",
+  "Date": "2019-10-14T02:30:47.1632139+02:00",
+  "ExternalRef": "adipisci",
   "Completed": "Completed",
-  "ActiveLinks": 367,
+  "ActiveLinks": 331,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McGlynn, Stokes and Bailey",
-      "Id": 646,
-      "Description": "Front-line foreground software",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 997
+      "EntityName": "Nicolas, Boyer and Price",
+      "Id": 246,
+      "Description": "Assimilated human-resource orchestration",
+      "ExtraInfo": "est",
+      "LinkId": 950
     },
     {
-      "EntityName": "McGlynn, Stokes and Bailey",
-      "Id": 646,
-      "Description": "Front-line foreground software",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 997
+      "EntityName": "Nicolas, Boyer and Price",
+      "Id": 246,
+      "Description": "Assimilated human-resource orchestration",
+      "ExtraInfo": "est",
+      "LinkId": 950
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 229,
-  "Snum": 344,
+  "SuggestedDocumentId": 18,
+  "Snum": 394,
   "UserDefinedFields": {
-    "SuperOffice:1": "Berniece Walker Sr.",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Mr. Toni Viola Hills Sr.",
+    "SuperOffice:2": "Elton Haley"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "dolores"
+    "CustomFields1": "dolores",
+    "CustomFields2": "expedita"
   },
-  "PublishEventDate": "1999-07-15T03:40:46.6248901+02:00",
-  "PublishTo": "2013-03-21T03:40:46.6248901+01:00",
-  "PublishFrom": "2022-10-03T03:40:46.6248901+02:00",
+  "PublishEventDate": "2008-10-02T02:30:47.1632139+02:00",
+  "PublishTo": "2005-09-02T02:30:47.1632139+02:00",
+  "PublishFrom": "2025-01-10T02:30:47.1632139+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 891,
+      "VisibleId": 874,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "ipsum"
     },
     {
-      "VisibleId": 891,
+      "VisibleId": 874,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "ipsum"
     }
   ]
 }
@@ -216,88 +216,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 399,
+  "DocumentId": 140,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "non",
-  "Name": "Nicolas, Weimann and Emard",
-  "OurRef": "autem",
-  "YourRef": "consequatur",
-  "CreatedDate": "2007-05-21T03:40:46.6405161+02:00",
-  "UpdatedDate": "2020-02-11T03:40:46.6405161+01:00",
-  "Description": "Synergized static standardization",
+  "Attention": "tempora",
+  "Header": "ut",
+  "Name": "McKenzie-Little",
+  "OurRef": "ratione",
+  "YourRef": "ducimus",
+  "CreatedDate": "1999-09-05T02:30:47.1632139+02:00",
+  "UpdatedDate": "2018-07-17T02:30:47.1632139+02:00",
+  "Description": "Enterprise-wide holistic website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-11-23T03:40:46.6405161+01:00",
-  "ExternalRef": "cumque",
+  "Date": "2018-07-07T02:30:47.1632139+02:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 566,
+  "ActiveLinks": 518,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koelpin, Lynch and Stokes",
-      "Id": 87,
-      "Description": "Function-based mission-critical matrix",
-      "ExtraInfo": "dolores",
-      "LinkId": 275,
+      "EntityName": "Hilpert LLC",
+      "Id": 632,
+      "Description": "Public-key zero defect migration",
+      "ExtraInfo": "rem",
+      "LinkId": 944,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 609,
-  "Snum": 856,
+  "SuggestedDocumentId": 110,
+  "Snum": 242,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Fritz Mueller",
+    "SuperOffice:2": "Sylvester Harris"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "quo"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2022-04-01T03:40:46.6405161+02:00",
-  "PublishTo": "2002-04-16T03:40:46.6405161+02:00",
-  "PublishFrom": "2021-09-14T03:40:46.6405161+02:00",
+  "PublishEventDate": "2002-02-05T02:30:47.1632139+01:00",
+  "PublishTo": "2009-02-18T02:30:47.1632139+01:00",
+  "PublishFrom": "2013-07-13T02:30:47.1632139+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 931,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 278
         }
       }
     },
     {
-      "VisibleId": 931,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 278
         }
       }
     }
@@ -306,8 +306,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

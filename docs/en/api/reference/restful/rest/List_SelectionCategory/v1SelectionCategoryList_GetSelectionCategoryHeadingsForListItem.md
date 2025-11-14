@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Hoeger Group",
-    "ToolTip": "Harum in quaerat reiciendis explicabo.",
-    "Deleted": true,
-    "Rank": 479,
-    "Type": "totam",
-    "ColorBlock": 654,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "2012-09-12T03:40:57.1189414+02:00",
+    "Id": 977,
+    "Name": "Fay-Bernier",
+    "ToolTip": "Consequatur magnam non.",
+    "Deleted": false,
+    "Rank": 277,
+    "Type": "laboriosam",
+    "ColorBlock": 180,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2008-06-06T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Hickle-Bergstrom",
-        "ToolTip": "Omnis voluptas vel repudiandae quo voluptates officiis non.",
-        "Deleted": false,
-        "Rank": 737,
-        "Type": "quisquam",
-        "ColorBlock": 253,
-        "IconHint": "saepe",
+        "Id": 70,
+        "Name": "Upton, Roberts and Block",
+        "ToolTip": "Mollitia ut vel et ullam enim facere.",
+        "Deleted": true,
+        "Rank": 188,
+        "Type": "explicabo",
+        "ColorBlock": 36,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2021-08-29T03:40:57.1189414+02:00",
+        "LastChanged": "2003-01-14T02:30:53.4442597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Jadyn Torphy",
+        "ExtraInfo": "quas",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Kendra Shyann Johnson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 585
+            "FieldType": "System.Int32",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "cumque",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Cletus Harris Jr.",
+    "FullName": "Makenna Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   }

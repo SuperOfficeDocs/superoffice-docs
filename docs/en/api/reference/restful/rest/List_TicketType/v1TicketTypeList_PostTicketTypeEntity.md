@@ -102,37 +102,37 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 193,
-  "Name": "Osinski-Weber",
-  "Rank": 604,
-  "Tooltip": "quisquam",
-  "Icon": "eos",
-  "DefaultTicketStatus": 843,
+  "TicketTypeId": 148,
+  "Name": "Abshire-Wehner",
+  "Rank": 171,
+  "Tooltip": "iste",
+  "Icon": "aut",
+  "DefaultTicketStatus": 152,
   "TicketStatuses": [
-    153,
-    448
+    68,
+    96
   ],
-  "DefaultTicketPriority": 741,
+  "DefaultTicketPriority": 798,
   "TicketPriorities": [
-    967,
-    80
+    775,
+    945
   ],
-  "ReplyTemplate": 743,
+  "ReplyTemplate": 634,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    924,
-    493
+    519,
+    112
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -144,22 +144,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 380,
-  "Name": "Yost, Hamill and Boyle",
-  "Rank": 35,
-  "Tooltip": "dolorum",
-  "Icon": "aut",
-  "DefaultTicketStatus": 631,
+  "TicketTypeId": 577,
+  "Name": "Homenick LLC",
+  "Rank": 460,
+  "Tooltip": "est",
+  "Icon": "tempore",
+  "DefaultTicketStatus": 876,
   "TicketStatuses": [
-    914,
-    538
+    505,
+    180
   ],
-  "DefaultTicketPriority": 412,
+  "DefaultTicketPriority": 974,
   "TicketPriorities": [
-    986,
-    109
+    133,
+    159
   ],
-  "ReplyTemplate": 167,
+  "ReplyTemplate": 308,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
@@ -167,17 +167,17 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    752,
-    208
+    871,
+    910
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 490
     }
   }
 }

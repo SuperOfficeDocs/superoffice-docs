@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    882,
-    628
+    462,
+    970
   ]
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Will, Morar and Tremblay",
-    "ToolTip": "Eius alias in officiis alias quis.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "voluptatem",
+    "Id": 795,
+    "Name": "Thompson LLC",
+    "ToolTip": "Voluptates praesentium quo enim quo.",
+    "Deleted": false,
+    "Rank": 112,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Little, Feest and Deckow",
-        "ToolTip": "Est quasi eligendi ut.",
-        "Deleted": false,
-        "Rank": 401,
-        "Type": "officiis",
+        "Id": 239,
+        "Name": "Hickle, Mann and Williamson",
+        "ToolTip": "Voluptatem qui.",
+        "Deleted": true,
+        "Rank": 771,
+        "Type": "possimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 373,
-        "ExtraInfo": "repellat",
-        "StyleHint": "earum",
-        "FullName": "Dr. Louisa Mraz",
+        "IconHint": "illo",
+        "ColorBlock": 323,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
+        "FullName": "Lauren Wisoky Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldLength": 267
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 822,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "incidunt",
-    "FullName": "Parker Bradtke",
+    "IconHint": "rerum",
+    "ColorBlock": 251,
+    "ExtraInfo": "facere",
+    "StyleHint": "ipsa",
+    "FullName": "Sam Halvorson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 823
       }
     }
   }

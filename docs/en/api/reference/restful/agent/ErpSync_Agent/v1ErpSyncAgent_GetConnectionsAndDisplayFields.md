@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 161
+  "EntityId": 627
 }
 ```
 
@@ -103,27 +103,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 928,
-    "ConnectionName": "Bogan, Blick and Bergnaum",
+    "ErpConnectionId": 294,
+    "ConnectionName": "Greenholt-Ruecker",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "odit",
-        "Rank": 513,
-        "DisplayName": "Pfannerstill, McKenzie and Koepp",
-        "DisplayDescription": "Extended didactic instruction set",
+        "FieldKey": "omnis",
+        "Rank": 786,
+        "DisplayName": "Keebler Inc and Sons",
+        "DisplayDescription": "Enterprise-wide 4th generation support",
         "FieldType": "Checkbox",
-        "ListName": "Predovic, Botsford and Crona",
-        "DefaultValue": "laudantium",
-        "MaxLength": 985,
+        "ListName": "Rippin Inc and Sons",
+        "DefaultValue": "voluptas",
+        "MaxLength": 180,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldLength": 948
           }
         }
       }
@@ -131,15 +131,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "fugit",
-      "ratione"
+      "non",
+      "qui"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1001
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

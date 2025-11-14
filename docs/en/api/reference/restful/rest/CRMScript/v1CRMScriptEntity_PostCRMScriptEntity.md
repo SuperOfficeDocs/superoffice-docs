@@ -117,52 +117,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 909,
-  "UniqueIdentifier": "qui",
-  "Name": "Thiel Group",
-  "Description": "Synergized static support",
-  "IncludeId": "placeat",
-  "AccessKey": "illum",
-  "HierarchyId": 1002,
-  "Source": "sunt",
-  "SourceCode": "fugiat",
+  "EjscriptId": 307,
+  "UniqueIdentifier": "quibusdam",
+  "Name": "Crona, Hettinger and Ankunding",
+  "Description": "Ameliorated intangible artificial intelligence",
+  "IncludeId": "ipsum",
+  "AccessKey": "temporibus",
+  "HierarchyId": 68,
+  "Source": "accusantium",
+  "SourceCode": "praesentium",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 559,
+  "HtmlOutput": 564,
   "Includes": [
-    245,
-    868
+    509,
+    386
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 853,
-      "LineNumberTo": 116,
-      "Delta": 334,
-      "IncludeId": "esse",
+      "LineNumberFrom": 918,
+      "LineNumberTo": 197,
+      "Delta": 158,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "ut",
-        "a"
+        "vitae",
+        "cum"
       ]
     },
     {
-      "LineNumberFrom": 853,
-      "LineNumberTo": 116,
-      "Delta": 334,
-      "IncludeId": "esse",
+      "LineNumberFrom": 918,
+      "LineNumberTo": 197,
+      "Delta": 158,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "ut",
-        "a"
+        "vitae",
+        "cum"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-08-03T03:40:55.6162809+02:00",
-  "RegisteredAssociateId": 185,
-  "Updated": "2010-12-24T03:40:55.6162809+01:00",
-  "UpdatedAssociateId": 758,
+  "Registered": "2011-05-02T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 996,
+  "Updated": "2018-09-01T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 223,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -174,58 +174,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 420,
-  "UniqueIdentifier": "eveniet",
-  "Name": "Mitchell, Roob and Sporer",
-  "Description": "Ergonomic attitude-oriented initiative",
-  "IncludeId": "eius",
-  "AccessKey": "expedita",
-  "HierarchyId": 955,
-  "Source": "cupiditate",
-  "SourceCode": "optio",
+  "EjscriptId": 876,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Gerhold, Heathcote and Spinka",
+  "Description": "Configurable didactic middleware",
+  "IncludeId": "repellat",
+  "AccessKey": "laborum",
+  "HierarchyId": 226,
+  "Source": "eligendi",
+  "SourceCode": "asperiores",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 825,
+  "HtmlOutput": 9,
   "Includes": [
-    526,
-    731
+    819,
+    420
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 508,
-      "LineNumberTo": 514,
-      "Delta": 328,
-      "IncludeId": "quo",
+      "LineNumberFrom": 503,
+      "LineNumberTo": 972,
+      "Delta": 132,
+      "IncludeId": "tempora",
       "IncludedFrom": [
-        "cum",
-        "temporibus"
+        "maxime",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 775
+          "FieldType": "System.Int32",
+          "FieldLength": 458
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-11-25T03:40:55.6162809+01:00",
-  "RegisteredAssociateId": 374,
-  "Updated": "2022-06-27T03:40:55.6162809+02:00",
-  "UpdatedAssociateId": 220,
+  "Registered": "2007-12-21T02:30:52.522416+01:00",
+  "RegisteredAssociateId": 331,
+  "Updated": "2010-05-03T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 195,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 211
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

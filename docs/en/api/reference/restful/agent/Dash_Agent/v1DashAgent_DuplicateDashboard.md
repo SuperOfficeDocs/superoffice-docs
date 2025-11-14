@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 975,
-  "Name": "Stark LLC"
+  "DashboardId": 918,
+  "Name": "Fay-Haag"
 }
 ```
 
@@ -105,37 +105,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 984,
-  "UniqueId": "sed",
-  "Name": "Schamberger, Jaskolski and Mosciski",
-  "Description": "Monitored object-oriented migration",
-  "AssociateId": 136,
-  "Columns": 782,
+  "DashboardId": 138,
+  "UniqueId": "eum",
+  "Name": "Marks-Kris",
+  "Description": "Synchronised fault-tolerant customer loyalty",
+  "AssociateId": 919,
+  "Columns": 545,
   "Theme": null,
-  "VisibleForAll": 192,
+  "VisibleForAll": 569,
   "VisibleForAssociates": [
-    749,
-    518
+    519,
+    981
   ],
   "VisibleForGroups": [
-    194,
-    448
+    790,
+    572
   ],
-  "PinForAll": 192,
+  "PinForAll": 117,
   "PinForAssociates": [
-    270,
-    790
+    242,
+    534
   ],
   "PinForGroups": [
-    757,
-    976
+    467,
+    455
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 37
     }
   }
 }

@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=natus
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestiae
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 02 Oct 2001 03:40:55 G10T
+Last-Modified: Sat, 14 Sep 2002 02:30:52 G9T
 
 {
-  "Key": "suscipit",
-  "Value": "non",
-  "RecordId": 443,
-  "CreatedDate": "2020-12-13T03:40:55.7886484+01:00",
-  "UpdatedDate": "2001-10-02T03:40:55.7886484+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "est",
-  "TableName": "Deckow, Herman and Runolfsson",
+  "Key": "beatae",
+  "Value": "minima",
+  "RecordId": 992,
+  "CreatedDate": "2008-06-14T02:30:52.6630355+02:00",
+  "UpdatedDate": "2002-09-14T02:30:52.6630355+02:00",
+  "UpdatedBy": "aspernatur",
+  "CreatedBy": "perferendis",
+  "TableName": "Cormier LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldLength": 284
     }
   }
 }

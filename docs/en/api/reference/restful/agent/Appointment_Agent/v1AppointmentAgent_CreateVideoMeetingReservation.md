@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateVideoMeetingReservation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,7 +78,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "VideoMeetingId": "est",
+  "VideoMeetingId": "quod",
   "VideoMeetingUrl": "http://www.example.com/"
 }
 ```

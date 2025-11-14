@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Kshlerin Inc and Sons",
-    "ToolTip": "Neque excepturi velit exercitationem ipsa aut ad quisquam.",
+    "Id": 485,
+    "Name": "Hintz LLC",
+    "ToolTip": "Vel nemo corporis ipsam laboriosam.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "neque",
-    "ColorBlock": 369,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1998-10-18T03:40:56.8213578+02:00",
+    "Rank": 448,
+    "Type": "et",
+    "ColorBlock": 831,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2017-12-24T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Satterfield-Leannon",
-        "ToolTip": "Eligendi ut et fugit.",
-        "Deleted": false,
-        "Rank": 976,
-        "Type": "quaerat",
-        "ColorBlock": 833,
-        "IconHint": "temporibus",
+        "Id": 490,
+        "Name": "Bergnaum Group",
+        "ToolTip": "Voluptatibus aliquam dolore.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "est",
+        "ColorBlock": 359,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2006-11-22T03:40:56.8213578+01:00",
+        "LastChanged": "2016-09-05T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Miss Cecil Schinner",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Miss Felicity Dickinson Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 258
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Helen Royce Mueller I",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "rem",
+    "Hidden": false,
+    "FullName": "Alessia Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldLength": 715
       }
     }
   }

@@ -102,7 +102,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,7 +110,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Jan 2006 03:40:56 G1T
+Last-Modified: Mon, 16 Jun 2014 02:30:52 G6T
 
 {
   "Appointment": null,
@@ -119,7 +119,7 @@ Last-Modified: Thu, 05 Jan 2006 03:40:56 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "doloremque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -128,113 +128,113 @@ Last-Modified: Thu, 05 Jan 2006 03:40:56 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-09-10T03:40:56.1011754+02:00",
-  "Amount": 13238.016,
-  "SaleId": 9,
-  "Earning": 13432.323999999999,
-  "EarningPercent": 27065.224,
-  "Heading": "repellendus",
-  "Number": "1496848",
-  "Probability": 346,
-  "CreatedDate": "2008-06-26T03:40:56.1011754+02:00",
-  "UpdatedDate": "2006-01-05T03:40:56.1011754+01:00",
+  "Saledate": "2024-06-06T02:30:52.8505298+02:00",
+  "Amount": 5384.2119999999995,
+  "SaleId": 384,
+  "Earning": 24746.064,
+  "EarningPercent": 8427.326,
+  "Heading": "numquam",
+  "Number": "534664",
+  "Probability": 233,
+  "CreatedDate": "2017-08-27T02:30:52.8505298+02:00",
+  "UpdatedDate": "2014-06-16T02:30:52.8505298+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 661,
+  "ActiveLinks": 498,
   "Links": [
     {
-      "EntityName": "Tromp Group",
-      "Id": 778,
-      "Description": "Cross-group needs-based database",
-      "ExtraInfo": "est",
-      "LinkId": 463,
+      "EntityName": "McKenzie, Runolfsdottir and Murray",
+      "Id": 400,
+      "Description": "Implemented interactive application",
+      "ExtraInfo": "repellendus",
+      "LinkId": 480,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 545
         }
       }
     }
   ],
-  "NextDueDate": "2017-12-22T03:40:56.1011754+01:00",
-  "Postit": "quia",
+  "NextDueDate": "2013-09-15T02:30:52.8505298+02:00",
+  "Postit": "temporibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2013-09-13T03:40:56.1011754+02:00",
+  "ReopenDate": "1998-11-19T02:30:52.8505298+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Sanford LLC",
-      "Comment": "quisquam",
-      "StakeholderRoleId": 292,
-      "CountryId": 326,
-      "PersonId": 660,
-      "EmailDescription": "marianna_kreiger@mueller.biz",
-      "EmailId": 474,
-      "EmailAddress": "golda.kihn@roob.co.uk",
-      "PhoneId": 567,
-      "ContactName": "Lesch Inc and Sons",
-      "ContactId": 658,
-      "SaleId": 522,
-      "Mrmrs": "consequuntur",
-      "Firstname": "Cayla",
-      "MiddleName": "Schimmel-Witting",
-      "Lastname": "Gerlach",
-      "SaleStakeholderId": 502,
-      "Rank": 2,
-      "Phone": "653.891.8528 x440",
+      "StakeholderRoleName": "Toy Inc and Sons",
+      "Comment": "facere",
+      "StakeholderRoleId": 450,
+      "CountryId": 452,
+      "PersonId": 61,
+      "EmailDescription": "quinten@lakin.info",
+      "EmailId": 108,
+      "EmailAddress": "anibal.fisher@boehm.info",
+      "PhoneId": 959,
+      "ContactName": "Morar Group",
+      "ContactId": 539,
+      "SaleId": 315,
+      "Mrmrs": "saepe",
+      "Firstname": "Jimmy",
+      "MiddleName": "Veum Group",
+      "Lastname": "Reichel",
+      "SaleStakeholderId": 678,
+      "Rank": 252,
+      "Phone": "748-066-5576 x7737",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldType": "System.String",
+          "FieldLength": 993
         }
       }
     }
   ],
-  "ActiveErpLinks": 548,
+  "ActiveErpLinks": 263,
   "UserDefinedFields": {
-    "SuperOffice:1": "908412252",
-    "SuperOffice:2": "Golda Uriah Wiza V"
+    "SuperOffice:1": "Mr. Marie Madeline Mraz",
+    "SuperOffice:2": "40129435"
   },
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "minima",
+    "CustomFields2": "quisquam"
   },
-  "PublishEventDate": "2016-06-30T03:40:56.1011754+02:00",
-  "PublishTo": "2022-11-20T03:40:56.1011754+01:00",
-  "PublishFrom": "2003-06-28T03:40:56.1011754+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-11-21T02:30:52.8505298+01:00",
+  "PublishTo": "2001-06-16T02:30:52.8505298+02:00",
+  "PublishFrom": "2025-07-05T02:30:52.8505298+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 403,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     },
     {
-      "VisibleId": 403,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     }
@@ -243,8 +243,8 @@ Last-Modified: Thu, 05 Jan 2006 03:40:56 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

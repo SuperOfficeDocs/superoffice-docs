@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 744,
+  "CustConfigId": 449,
   "Type": "Options",
-  "Config": "odit",
-  "CustLangId": 614,
-  "Registered": "2012-11-28T03:40:46.5468616+01:00",
-  "RegisteredAssociateId": 328,
-  "Updated": "2004-09-13T03:40:46.5468616+02:00",
-  "UpdatedAssociateId": 320,
+  "Config": "nobis",
+  "CustLangId": 361,
+  "Registered": "2017-04-15T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 329,
+  "Updated": "2005-04-13T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 634
     }
   }
 }

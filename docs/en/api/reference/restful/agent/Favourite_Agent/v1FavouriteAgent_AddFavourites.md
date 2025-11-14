@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lang, Roberts and Sporer",
+  "TableName": "Goyette-Botsford",
   "RecordIds": [
-    141,
-    520
+    330,
+    188
   ],
-  "AssociateId": 54,
-  "ExtraInfo": "et"
+  "AssociateId": 814,
+  "ExtraInfo": "numquam"
 }
 ```
 

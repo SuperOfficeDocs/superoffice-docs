@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Osinski-Langosh",
-    "ToolTip": "Quos non voluptatem omnis aliquam.",
+    "Id": 50,
+    "Name": "Hartmann, Mayert and Kihn",
+    "ToolTip": "Aut nemo quaerat fuga provident odio aut.",
     "Deleted": false,
-    "Rank": 524,
-    "Type": "sed",
-    "ColorBlock": 190,
-    "IconHint": "natus",
+    "Rank": 341,
+    "Type": "quis",
+    "ColorBlock": 778,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2023-04-19T03:40:56.9620969+02:00",
+    "LastChanged": "2020-02-19T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Bosco-Friesen",
-        "ToolTip": "Doloremque mollitia nulla eaque ea iusto.",
+        "Id": 426,
+        "Name": "Jast-Treutel",
+        "ToolTip": "Quia praesentium ipsa enim possimus et molestias voluptate.",
         "Deleted": true,
-        "Rank": 23,
-        "Type": "debitis",
-        "ColorBlock": 580,
-        "IconHint": "assumenda",
+        "Rank": 33,
+        "Type": "recusandae",
+        "ColorBlock": 56,
+        "IconHint": "facilis",
         "Selected": true,
-        "LastChanged": "2025-06-25T03:40:56.9620969+02:00",
+        "LastChanged": "2020-09-06T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "et",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Kailyn Pouros",
+        "FullName": "Paul McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 86
+            "FieldLength": 221
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Dr. Estella Ryann Willms",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Nathen Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 156
       }
     }
   }

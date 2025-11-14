@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 264
+  "AssociateId": 936
 }
 ```
 
@@ -106,54 +106,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 226,
-    "ERPName": "Funk-Schowalter",
-    "DisplayName": "Kreiger, Steuber and Yost",
-    "DisplayDescription": "Integrated non-volatile software",
-    "Rank": 249,
-    "ConnectorName": "Ebert LLC",
-    "ErpConnectionId": 167,
-    "ExtraData": "a",
-    "IsAvailable": true,
+    "QuoteConnectionId": 919,
+    "ERPName": "Dibbert, Erdman and Crooks",
+    "DisplayName": "Goldner-Stiedemann",
+    "DisplayDescription": "Synchronised user-facing neural-net",
+    "Rank": 260,
+    "ConnectorName": "Huels LLC",
+    "ErpConnectionId": 70,
+    "ExtraData": "totam",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 957,
-        "ERPPriceListKey": "maxime",
-        "QuoteConnectionId": 383,
-        "Name": "Schroeder-Hagenes",
-        "Description": "Intuitive bifurcated help-desk",
-        "Currency": "delectus",
-        "CurrencyName": "Thompson Group",
-        "ValidFrom": "2009-06-10T03:40:47.5629587+02:00",
-        "ValidTo": "2019-11-22T03:40:47.5629587+01:00",
+        "PriceListId": 714,
+        "ERPPriceListKey": "labore",
+        "QuoteConnectionId": 621,
+        "Name": "Carter Inc and Sons",
+        "Description": "Polarised national analyzer",
+        "Currency": "atque",
+        "CurrencyName": "Dibbert LLC",
+        "ValidFrom": "2025-06-03T02:30:47.7256947+02:00",
+        "ValidTo": "1999-01-01T02:30:47.7256947+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldType": "System.String",
+            "FieldLength": 418
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      543,
-      816
+      820,
+      483
     ],
     "AssociateAccessIds": [
-      973,
-      887
+      422,
+      440
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 712
       }
     }
   }

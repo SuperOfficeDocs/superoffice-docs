@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 953,
-  "Name": "Legros-Hayes",
-  "Tooltip": "impedit",
-  "Rank": 656,
-  "Key": "dolor",
-  "MailTemplateId": 78,
+  "ConsentSourceId": 133,
+  "Name": "Bogisich-Kemmer",
+  "Tooltip": "doloremque",
+  "Rank": 791,
+  "Key": "maxime",
+  "MailTemplateId": 321,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

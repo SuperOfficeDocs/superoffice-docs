@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 827,
-  "Name": "Stamm Inc and Sons",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 702,
+  "WebPanelId": 233,
+  "Name": "Kertzmann-Stanton",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 991,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Boyle LLC",
+  "WindowName": "Dooley-Stroman",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 36,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "recusandae",
+  "Icon": 895,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 452
     }
   }
 }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 737,
-  "SourcePersonId": 414,
-  "DestinationContactId": 656,
-  "DestinationPersonId": 345,
-  "RelationId": 594,
-  "Comment": "nulla",
-  "RelationDefinitionId": 341,
-  "Reversed": 279,
-  "UpdatedDate": "2018-09-11T03:40:47.5942106+02:00",
-  "CreatedDate": "1998-12-22T03:40:47.5942106+01:00",
+  "SourceContactId": 522,
+  "SourcePersonId": 180,
+  "DestinationContactId": 230,
+  "DestinationPersonId": 43,
+  "RelationId": 115,
+  "Comment": "pariatur",
+  "RelationDefinitionId": 128,
+  "Reversed": 158,
+  "UpdatedDate": "2009-09-15T02:30:47.7413192+02:00",
+  "CreatedDate": "2020-02-18T02:30:47.7413192+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cummerata, Lemke and Jones",
-  "SourcePersonName": "Turner Group",
-  "DestinationContactName": "Anderson, Cormier and Hackett",
-  "DestinationPersonName": "Eichmann, Langosh and Bailey",
-  "ActiveText": "quasi",
-  "PassiveText": "qui",
+  "SourceContactName": "Strosin-Mante",
+  "SourcePersonName": "Harvey-Carroll",
+  "DestinationContactName": "Wintheiser, Christiansen and Satterfield",
+  "DestinationPersonName": "Jakubowski, Bednar and Johnson",
+  "ActiveText": "ut",
+  "PassiveText": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldLength": 388
     }
   }
 }

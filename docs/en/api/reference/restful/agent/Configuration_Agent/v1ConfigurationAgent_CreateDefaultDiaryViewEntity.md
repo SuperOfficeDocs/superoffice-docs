@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,49 +75,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 333,
-  "Name": "Spencer-Adams",
-  "Tooltip": "repudiandae",
-  "VisibleColumns": 610,
-  "Rank": 698,
-  "AssocId": 235,
+  "DiaryViewId": 959,
+  "Name": "Becker, Mante and Corwin",
+  "Tooltip": "fugit",
+  "VisibleColumns": 483,
+  "Rank": 135,
+  "AssocId": 199,
   "AssociateList": [
     {
-      "Id": 836,
-      "Name": "Runolfsdottir, Rempel and Waters",
-      "ToolTip": "Veniam voluptates est debitis quae iusto et molestiae.",
+      "Id": 182,
+      "Name": "Torphy Group",
+      "ToolTip": "Aut sed quas nulla quam dolorem.",
       "Deleted": false,
-      "Rank": 32,
-      "Type": "doloremque",
-      "ColorBlock": 679,
-      "IconHint": "ad",
-      "Selected": true,
-      "LastChanged": "2018-01-26T03:40:46.2488145+01:00",
+      "Rank": 546,
+      "Type": "laboriosam",
+      "ColorBlock": 603,
+      "IconHint": "at",
+      "Selected": false,
+      "LastChanged": "2020-02-19T02:30:46.9288431+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "doloremque",
+      "ExtraInfo": "magni",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Chelsey Kris III",
+      "FullName": "Concepcion Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 614
+          "FieldLength": 289
         }
       }
     }
   ],
-  "TzLocationId": 214,
+  "TzLocationId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 847
     }
   }
 }
