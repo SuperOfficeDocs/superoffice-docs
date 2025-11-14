@@ -114,7 +114,7 @@ conceptualContent:
       - text: Release notes
         itemType: new_releases
         typeDesc: whats-new
-        url: ../../../release-notes/index.md
+        url: https://docs.superoffice.com/release-notes/index.html
       - text: New request management
         itemType: explore
         typeDesc: concept

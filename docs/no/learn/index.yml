@@ -114,7 +114,7 @@ conceptualContent:
       - text: Utgivelsesnotater
         itemType: new_releases
         typeDesc: whats-new
-        url: ../../../release-notes/index.md
+        url: https://docs.superoffice.com/release-notes/index.html
       - text: Nytt sakshåndtering
         itemType: explore
         typeDesc: concept

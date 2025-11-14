@@ -39,6 +39,6 @@ language: de
 * [Über CRMScript][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/index.yml
+[1]: https://docs.superoffice.com/en/automation/index.html
 
 <!-- Referenced images -->
