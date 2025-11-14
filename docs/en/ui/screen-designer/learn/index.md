@@ -17,7 +17,7 @@ redirect_from:
 
 # Screen designer <i class="ph ph-squares-four" aria-hidden="true"></i>
 
-The **Screen Designer** in SuperOffice CRM allows you to customize the layout of key screens within the application, ensuring that the interface meets the specific needs of different user groups in your organization. This feature replaces the old [PageBuilder][9] tool, offering a more streamlined and flexible way to configure screens - without coding.
+The **Screen Designer** in SuperOffice CRM allows you to customize the layout of key screens within the application, ensuring that the interface meets the specific needs of different user groups in your organization. This feature replaces the old PageBuilder tool, offering a more streamlined and flexible way to configure screens - without coding.
 
 ![Screen designer, company card, default field layout -screenshot][img5]
 
@@ -125,7 +125,6 @@ By customizing the screen layouts with the Screen Designer, you can eliminate un
 [2]: add-layout.md
 [3]: working-with-archives.md
 [4]: working-with-fields.md
-[9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/status-draft.png

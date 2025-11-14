@@ -14,7 +14,7 @@ language: da
 
 # Skærmdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>
 
-**Skærmdesigneren** i SuperOffice CRM giver dig mulighed for at tilpasse layoutet af dine primære skærmbilleder inden for applikationen, så udseende opfylder de specifikke behov hos forskellige brugergrupper i din organisation. Denne funktion erstatter det gamle [PageBuilder][9]-værktøj og tilbyder en mere strømlinet og fleksibel måde at konfigurere skærme på – uden behov for kodning.
+**Skærmdesigneren** i SuperOffice CRM giver dig mulighed for at tilpasse layoutet af dine primære skærmbilleder inden for applikationen, så udseende opfylder de specifikke behov hos forskellige brugergrupper i din organisation. Denne funktion erstatter det gamle PageBuilder-værktøj og tilbyder en mere strømlinet og fleksibel måde at konfigurere skærme på – uden behov for kodning.
 
 ![Skærmdesigner, virksomhedskort, standard feltlayout -screenshot][img5]
 
@@ -124,7 +124,6 @@ Ved at tilpasse skærmlayouts med skærmdesigneren kan du eliminere unødvendige
 [2]: add-layout.md
 [3]: working-with-archives.md
 [4]: working-with-fields.md
-[9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/status-draft.png

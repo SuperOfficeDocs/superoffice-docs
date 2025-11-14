@@ -131,8 +131,8 @@ Nogle indstillinger afhænger af den valgte handling.
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/from-company-card.md
-[2]: ../../../../en/automation/crmscript/overview/index.md
-[3]: ../../../../en/ui/soprotocol/index.md
+[2]: https://docs.superoffice.com/en/automation/crmscript/overview/index.md
+[3]: https://docs.superoffice.com/en/ui/soprotocol/index.md
 [4]: edit-layout.md
 
 <!-- Referenced images -->

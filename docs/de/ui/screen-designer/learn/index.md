@@ -14,7 +14,7 @@ language: de
 
 # Ansichtsdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>
 
-Der **Ansichtsdesigner** in SuperOffice CRM ermöglicht es Ihnen, das Layout der Hauptanzeigen anzupassen, sodass die Benutzeroberfläche den spezifischen Anforderungen verschiedener Benutzergruppen in Ihrer Organisation entspricht. Diese Funktion ersetzt das alte [PageBuilder][9]-Tool und bietet eine effizientere und flexiblere Möglichkeit, Bildschirme ohne Programmierkenntnisse zu konfigurieren.
+Der **Ansichtsdesigner** in SuperOffice CRM ermöglicht es Ihnen, das Layout der Hauptanzeigen anzupassen, sodass die Benutzeroberfläche den spezifischen Anforderungen verschiedener Benutzergruppen in Ihrer Organisation entspricht. Diese Funktion ersetzt das alte PageBuilder-Tool und bietet eine effizientere und flexiblere Möglichkeit, Bildschirme ohne Programmierkenntnisse zu konfigurieren.
 
 ![Ansichtsdesigner, Firmenkarte, Standard-Feldlayout -screenshot][img5]
 
@@ -124,7 +124,6 @@ Durch die Anpassung der Ansichtslayouts mit dem Ansichtsdesigner können Sie unn
 [2]: add-layout.md
 [3]: working-with-archives.md
 [4]: working-with-fields.md
-[9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/status-draft.png

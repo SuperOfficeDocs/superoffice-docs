@@ -14,9 +14,9 @@ language: nl
 
 # Schermontwerper <i class="ph ph-squares-four" aria-hidden="true"></i>
 
-De **Schermontwerper** in SuperOffice CRM stelt u in staat om de opmaak van belangrijke schermen binnen de applicatie aan te passen, zodat de interface voldoet aan de specifieke behoeften van verschillende gebruikersgroepen in uw organisatie. Deze functie vervangt het oude [PageBuilder][9]-hulpmiddel en biedt een meer gestroomlijnde en flexibele manier om schermen te configureren, zonder codering.
+De **Schermontwerper** in SuperOffice CRM stelt u in staat om de opmaak van belangrijke schermen binnen de applicatie aan te passen, zodat de interface voldoet aan de specifieke behoeften van verschillende gebruikersgroepen in uw organisatie. Deze functie vervangt het oude PageBuilder-hulpmiddel en biedt een meer gestroomlijnde en flexibele manier om schermen te configureren, zonder codering.
 
-![Schermontwerper, bedrijfskaart, standaard veldopmaak -screenshot][img5]
+![Schermontwerper, bedrijfskaart, standaard veldindeling -screenshot][img5]
 
 > [!NOTE]
 > Deze functie vereist de licentie voor Development Tools en de functierechten "Veldbeheerder".
@@ -124,7 +124,6 @@ Door de schermopmaken aan te passen met de Schermontwerper kunt u overbodige inf
 [2]: add-layout.md
 [3]: working-with-archives.md
 [4]: working-with-fields.md
-[9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/status-draft.png
