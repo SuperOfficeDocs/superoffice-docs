@@ -4,8 +4,8 @@ title: Using sales targets in tiles
 description: Use dashboards and tiles to compare your sales targets to your actual sales.
 keywords: dashboard, sales target, chart
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online

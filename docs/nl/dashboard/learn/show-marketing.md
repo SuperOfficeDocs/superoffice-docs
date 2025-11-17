@@ -4,8 +4,8 @@ title: Mailing en formulieren gebruiken in tegels
 description: Maak dashboards voor uw marketingtaken, zoals formulierverzendingen en mailings, om hun prestaties, trends en productiviteit bij alle marketingactiviteiten bij te houden en te analyseren.
 keywords: dashboard, marketing
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

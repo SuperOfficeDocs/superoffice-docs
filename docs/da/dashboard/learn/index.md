@@ -3,9 +3,9 @@ uid: help-da-dashboard
 title: Dashboards
 description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
 keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

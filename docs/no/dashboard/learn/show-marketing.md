@@ -4,8 +4,8 @@ title: Bruke utsendelse og skjemaer i figurer
 description: Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendinger og utsendelser, for å spore og analysere ytelse, trender og produktivitet på tvers av alle markedsføringsaktiviteter.
 keywords: dashbord, markedsføring
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -3,9 +3,9 @@ uid: help-no-dashboard-create
 title: Opprett et nytt dashbord
 description: Få mer innsikt i CRM-dataene dine ved å opprette flere dashbord. Denne veiledningen viser hvordan du oppretter nye dashbord.
 keywords: opprett dashbord, legg til dashbord, nytt dashbord, fest dashbord, dupliser dashbord, dashbord
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

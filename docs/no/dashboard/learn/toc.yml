@@ -1,5 +1,5 @@
 items:
-- name: Oversikt
+- name: Introduksjon
   href: index.md
 - name: Opprette/dupliser dashbord
   href: create.md

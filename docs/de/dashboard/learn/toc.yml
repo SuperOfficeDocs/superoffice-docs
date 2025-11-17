@@ -1,5 +1,5 @@
 items:
-- name: Überblick
+- name: Einführung
   href: index.md
 - name: Dashboard erstellen oder duplizieren
   href: create.md

@@ -3,9 +3,9 @@ uid: help-de-dashboard-create
 title: Neues Dashboard erstellen
 description: Erstellen Sie mehrere Dashboards, um mehr Einblick in Ihre CRM-Daten zu erhalten. Diese Anleitung zeigt Ihnen, wie Sie neue Dashboards erstellen.
 keywords: dashboard erstellen, neues dashboard, dashboard hinzufügen, dashboard anheften, dashboard duplizieren, dashboard
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

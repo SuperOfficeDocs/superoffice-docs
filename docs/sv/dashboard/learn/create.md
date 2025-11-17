@@ -3,9 +3,9 @@ uid: help-sv-dashboard-create
 title: Skapa en ny dashboard
 description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden får du lära dig hur du skapar nya dashboards.
 keywords: skapa dashboard, lägga till dashboard, ny dashboard, fäst dashboard, duplicera dashboard, dashboard
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

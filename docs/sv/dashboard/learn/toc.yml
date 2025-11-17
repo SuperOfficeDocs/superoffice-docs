@@ -1,5 +1,5 @@
 items:
-- name: Översikt
+- name: Introduktion
   href: index.md
 - name: Skapa eller duplicera dashboard
   href: create.md

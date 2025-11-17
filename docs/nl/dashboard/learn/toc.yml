@@ -1,5 +1,5 @@
 items:
-- name: Overzicht
+- name: Inleiding
   href: index.md
 - name: Een dashboard maken of dupliceren
   href: create.md

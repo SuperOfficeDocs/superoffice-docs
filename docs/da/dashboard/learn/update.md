@@ -3,9 +3,9 @@ uid: help-da-dashboard-update
 title: Tilpas dit dashboard
 description: Lær, hvordan du omdøber, konfigurerer og sletter dashboards i SuperOffice CRM. Tilpas layout, kolonner og synlighedsindstillinger, så de passer til dine behov.
 keywords: rediger dashboard, slet dashboard, dashboardkolonner, dashboard, rude, layout
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

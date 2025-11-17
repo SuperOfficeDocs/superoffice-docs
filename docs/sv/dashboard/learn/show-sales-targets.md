@@ -4,8 +4,8 @@ title: Använda försäljningsmål i paneler
 description: Använd dashboards och paneler för att jämföra dina försäljningsmål med din faktiska försäljning.
 keywords: dashboard, försäljningsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online

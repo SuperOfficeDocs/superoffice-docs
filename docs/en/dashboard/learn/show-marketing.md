@@ -4,8 +4,8 @@ title: Using mailing and forms in tiles
 description: Create dashboards for your marketing tasks, such as form submissions and mailings, to track and analyze their performance, trends and productivity across all marketing activities.
 keywords: dashboard, marketing, mailing
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

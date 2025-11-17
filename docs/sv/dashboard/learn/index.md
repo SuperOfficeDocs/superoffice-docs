@@ -3,9 +3,9 @@ uid: help-sv-dashboard
 title: Dashboards
 description: SuperOffice Dashboards är perfekta för både användare och chefer. Få en översikt över ditt arbete eller teamets resultat med fördefinierade paneler eller skapa egna.
 keywords: dashboard administrator, diagram, rapport, dataset, stora siffror, mätare, dashboard, panel
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

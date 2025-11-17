@@ -3,9 +3,9 @@ uid: help-nl-dashboard-update
 title: Een dashboard aanpassen
 description: Leer hoe u dashboards in SuperOffice CRM hernoemt, instelt of verwijdert. Pas de lay-out, kolommen en zichtbaarheid aan uw wensen aan.
 keywords: dashboard bewerken, dashboard verwijderen, dashboard kolommen, dashboard, tegel, opmaak
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

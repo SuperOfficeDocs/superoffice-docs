@@ -4,8 +4,8 @@ title: Brug af forsendelser og formularer i felter
 description: Opret dashboards til dine marketingopgaver, f.eks. formularindsendelser og forsendelser, for at spore og analysere deres ydeevne, tendenser og produktivitet på tværs af alle marketingaktiviteter.
 keywords: dashboard, marketing
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

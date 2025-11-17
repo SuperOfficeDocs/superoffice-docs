@@ -4,8 +4,8 @@ title: Bruke salgsmål i figurer
 description: Bruke dashbord og figurer til å sammenligne salgsmålene med det faktiske salget.
 keywords: dashbord, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online

@@ -3,9 +3,9 @@ uid: help-nl-dashboard-create
 title: Een nieuw dashboard maken
 description: Krijg meer inzicht in uw CRM-gegevens door meerdere dashboards te maken. Deze handleiding laat zien hoe u nieuwe dashboards maakt.
 keywords: dashboard maken, nieuw dashboard, dashboard toevoegen, dashboard vastmaken, dashboard dupliceren, dashboard
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

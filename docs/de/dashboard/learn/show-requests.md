@@ -3,9 +3,9 @@ uid: help-de-dashboard-requests
 title: Anfragen in Kacheln verwenden
 description: In dieser Anleitung lernen Sie, wie Sie sich einen schnellen Überblick über alle offenen Anfragen in SuperOffice-Dashboards erhalten können.
 keywords: Dashboard, Anfrage
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

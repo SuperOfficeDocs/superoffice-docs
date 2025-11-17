@@ -3,9 +3,9 @@ uid: help-de-dashboard
 title: Dashboards
 description: SuperOffice Dashboards sind ideal für Benutzer und Manager. Verschaffen Sie sich einen Überblick über Ihre Arbeit oder die Leistung Ihres Teams mit vordefinierten Kacheln oder erstellen Sie eigene.
 keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, messanzeige, dashboard, kachel
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

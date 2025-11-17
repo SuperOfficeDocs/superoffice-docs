@@ -4,8 +4,8 @@ title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
 keywords: dashboard, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online

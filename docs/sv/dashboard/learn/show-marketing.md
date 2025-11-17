@@ -4,8 +4,8 @@ title: Använda utskick och formulär i paneler
 description: Skapa dashboards för dina marknadsföringsuppgifter, till exempel formulärinlämningar och utskick, för att spåra och analysera resultat, trender och produktivitet i alla marknadsföringsaktiviteter.
 keywords: dashboard, marknadsföring
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
