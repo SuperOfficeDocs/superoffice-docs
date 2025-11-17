@@ -78,6 +78,7 @@ Diagramtypen bestämmer hur data visas i panelen.
 | Ikon | Typ | Beskrivning |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Cirkeldiagram | Ett cirkelformat diagram. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Tratt | Visualiserar leadkvalificeringprocessen. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stora siffror | Ett stort värde med möjlighet att jämföra. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | Lista | Visar upp till 100 poster. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolumndiagram | Visar värden vertikalt. |
@@ -98,6 +99,7 @@ Varje panel visar en ögonblicksbild av realtidsdata. Du kan interagera med pane
 
     ![Panelens åtgärdsmeny -screenshot][img1]
 
+* För att **visa dataset**, klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa dataset**. Detta visar kriterierna som bestämmer vilken data panelen visar.
 * **Klicka på datapunkter** (till exempel stapel eller sektor) för att se relaterade poster i ett nytt fönster.
 
 I vyn med bakomliggande data:
@@ -105,8 +107,6 @@ I vyn med bakomliggande data:
 * Markera en post för att förhandsgranska.
 * Dubbelklicka för att öppna posten, eller klicka på **Öppna**.
 * Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Kopiera till urval** för att kopiera poster. Om inget är markerat kopieras alla.
-
-![Granska bakomliggande data -screenshot][img2]
 
 ## Krav
 
@@ -159,5 +159,4 @@ Endast **ägaren** av ett dashboard kan ta bort det.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

@@ -78,6 +78,7 @@ Der Diagrammtyp bestimmt, wie die Daten in der Kachel angezeigt werden.
 | Symbol | Typ | Beschreibung |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Kreisdiagramm/Tortendiagramm | Ein rundes Diagramm. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Trichter | Visualisiert den Lead-Qualifizierungsprozess. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Große Zahl | Große Zahl mit Vergleichsoption. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | Listendarstellung mit maximal 100 Elementen. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Säulendiagramm (Spalte) | Zeigt Werte vertikal. |
@@ -98,15 +99,14 @@ Jede Kachel zeigt einen Schnappschuss von Echtzeitdaten. Sie können mit Kacheln
 
     ![Kachel-Menü -screenshot][img1]
 
-* **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen.
+* Um **den Datensatz anzuzeigen**, klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Datensatz anzeigen**. Dies zeigt die Kriterien an, die bestimmen, welche Daten die Kachel anzeigt.
+* **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen.
 
 Im Drilldown-Fenster:
 
 * Wählen Sie einen Datensatz zur Vorschau aus.
 * Doppelklicken Sie zum Öffnen oder klicken Sie auf **Öffnen**.
 * Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **In Selektion kopieren**, um Datensätze zu übernehmen. Ohne Auswahl werden alle kopiert.
-
-![Drilldown zu Basisdaten -screenshot][img2]
 
 ## Anforderungen
 
@@ -159,5 +159,4 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
