@@ -7,6 +7,8 @@ items:
   href: update.md
 - name: Mit Kacheln arbeiten
   href: working-with-tiles.md
+- name: Kacheln mit Leads und UTM-Daten
+  href: show-leads.md
 - name: Verwenden von Vertriebszielen in Kacheln
   href: show-sales-targets.md
 - name: Kampagne und Formulare in Kacheln verwenden

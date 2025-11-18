@@ -7,6 +7,8 @@ items:
   href: update.md
 - name: Work with tiles
   href: working-with-tiles.md
+- name: Use leads in tiles
+  href: show-leads.md
 - name: Use sales targets in tiles
   href: show-sales-targets.md
 - name: Use mailing and forms in tiles
