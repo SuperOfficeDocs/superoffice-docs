@@ -23,13 +23,14 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
-### 11.7 (24.11.2025)
+### 11.7 (25.11.2025)
 
 * [Dashboard - Quick filter in dashboard][21] in Core CRM and Sales
 * [Dashboard - Load a tile again on time outs][21] in Core CRM and Sales
 * [Selection - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
 * [Selection of sales - Board view Setting for displaying days - days in stage][21] in Core CRM and Sales
-* [Requests - Filter messages on comments or replies][22] in Service* [Screen designer - Default Company view with Priority and Our service contact][23] in Settings and maintenance
+* [Company view - The default fields contains Priority and Our service contact][21] in Core CRM and Sales
+* [Requests - Filter messages on comments or replies][22] in Service
 
 ### 11.6 (06.11.2025)
 
@@ -120,7 +121,6 @@ Some features are available to selected customers as part of ongoing pilots. See
 [20]: admin/11.6-update.md
 [21]: core-crm/11.7-update.md
 [22]: service/11.7-update.md
-[23]: admin/11.7-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
