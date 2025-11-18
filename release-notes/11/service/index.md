@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [Requests - Filter messages on comments or replies (11.7)][7]
 * [Request - Differentiate request types with icons (11.5)][5]
 * [Reply tools - Add icon for FAQ/Reply template underneath editor (11.5)][5]
 * [Lists of contacts - Create request from a contact's context menu (11.4)][4]
@@ -28,3 +29,4 @@ audience_tooltip: SuperOffice Service
 [3]: 11.3-update.md
 [4]: 11.4-update.md
 [5]: 11.5-update.md
+[7]: 11.7-update.md

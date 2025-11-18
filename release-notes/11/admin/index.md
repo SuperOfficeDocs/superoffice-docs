@@ -13,6 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [Screen designer - Default Company view with Priority and Our service contact (11.7)][7]
 * [Marketing - Conversion tracking with UTM data (11.6)][6]
 * [Lists - Company category with category group (11.6)][6]
 * [Lists - Contact - Lead status (11.6)][6]
@@ -27,3 +28,4 @@ audience_tooltip: Settings and maintenance
 [1]: 11.1-update.md
 [3]: 11.3-update.md
 [6]: 11.6-update.md
+[7]: 11.7-update.md
