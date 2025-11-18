@@ -27,4 +27,3 @@ audience_tooltip: Settings and maintenance
 [1]: 11.1-update.md
 [3]: 11.3-update.md
 [6]: 11.6-update.md
-[7]: 11.7-update.md
