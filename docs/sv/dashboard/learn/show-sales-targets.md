@@ -85,6 +85,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 
 * [Lägg till en ny dashboard][5]
 * [Redigera eller skapa paneler][6]
+* [Paneler med leads och UTM-data][9]
 * [Konfigurera försäljningsmål][7]
 * [Prognostisera din försäljning][8]
 
@@ -96,6 +97,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

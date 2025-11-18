@@ -85,6 +85,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 
 * [Neues Dashboard hinzufügen][5]
 * [Kacheln bearbeiten oder erstellen][6]
+* [Kacheln mit Leads und UTM-Daten][9]
 * [Verkaufsziele festlegen][7]
 * [Verkäufe prognostizieren][8]
 
@@ -96,6 +97,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

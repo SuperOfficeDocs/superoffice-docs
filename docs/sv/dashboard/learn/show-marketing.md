@@ -46,6 +46,7 @@ I exemplen nedan hittar du förslag på paneler som du kan lägga till i dashboa
 * [Vetenskapen bakom öppningsfrekvensen för e-post][1] – blogg
 * [Lägg till en ny dashboard][5]
 * [Arbeta med paneler][6]
+* [Paneler med leads och UTM-data][7]
 * [Läs mer om kriterier][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ I exemplen nedan hittar du förslag på paneler som du kan lägga till i dashboa
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

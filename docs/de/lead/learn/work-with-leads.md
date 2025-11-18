@@ -118,7 +118,7 @@ Dynamische Selektionen von Firmen oder Personen können außerdem in der [Board-
 
 <!-- Referenced links -->
 [1]: index.md
-[4]: ../../dashboard/learn/show-marketing.md
+[4]: ../../dashboard/learn/show-leads.md
 [5]: ../../marketing/utm/learn/index.md
 [6]: ../../search-options/selection/learn/board-view.md
 [7]: ../../learn/section-tabs/contacts-tab.md

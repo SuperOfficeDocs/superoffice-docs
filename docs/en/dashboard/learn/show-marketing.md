@@ -46,6 +46,7 @@ Study the examples below to get ideas for tiles you can add to your mailing or f
 * [The science behind email open rates][1] -blog
 * [Add new dashboard][5]
 * [Working with tiles][6]
+* [Tiles with leads and UTM data][7]
 * [Read more about criteria][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Study the examples below to get ideas for tiles you can add to your mailing or f
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

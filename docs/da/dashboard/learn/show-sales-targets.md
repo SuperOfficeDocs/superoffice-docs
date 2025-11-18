@@ -85,6 +85,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 
 * [Tilføj et nyt dashboard][5]
 * [Rediger eller opret felter][6]
+* [Ruder med leads og UTM-data][9]
 * [Opsæt salgsmål][7]
 * [Forudsig dit salg][8]
 
@@ -96,6 +97,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

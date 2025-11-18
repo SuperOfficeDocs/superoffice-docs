@@ -64,7 +64,6 @@ Tiles are the building blocks of a dashboard. Tile data typically relates to you
 A tile can show:
 
 * A **chart**, such as a bar or pie chart. Charts are graphical visualizations of data, sometimes called a graph.
-* **funnel**, lead qualification funnel
 * A **list** of up to 100 records from a selection.
 * A **big number**, such as total sales. Highlights a key performance indicator (KPI).
 * A **web panel** that loads a URL.

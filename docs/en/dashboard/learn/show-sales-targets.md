@@ -85,6 +85,7 @@ Is the Compare to target not visible at all, make sure that you have selected th
 
 * [Add new dashboard][5]
 * [Edit or create tiles][6]
+* [Tiles with leads and UTM data][9]
 * [Set up sales targets][7]
 * [Forecast your sales][8]
 
@@ -96,6 +97,7 @@ Is the Compare to target not visible at all, make sure that you have selected th
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

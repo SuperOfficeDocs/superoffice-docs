@@ -46,6 +46,7 @@ Bestudeer de onderstaande voorbeelden om ideeën op te doen voor tegels die u ku
 * [De wetenschap achter e-mail open percentages][1]-blog
 * [Een nieuwe dashboard toevoegen][5]
 * [Werken met tegels][6]
+* [Tegels met leads en UTM-gegevens][7]
 * [Lees meer over criteria][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Bestudeer de onderstaande voorbeelden om ideeën op te doen voor tegels die u ku
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

@@ -46,6 +46,7 @@ Sehen Sie sich die folgenden Beispiele an, um Ideen für Kacheln zu erhalten, di
 * [Die Wissenschaft hinter den E-Mail-Öffnungsraten][1] - Blog
 * [Neues Dashboard hinzufügen][5]
 * [Arbeiten mit Kacheln][6]
+* [Kacheln mit Leads und UTM-Daten][7]
 * [Weitere Infos über Kriterien][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Sehen Sie sich die folgenden Beispiele an, um Ideen für Kacheln zu erhalten, di
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

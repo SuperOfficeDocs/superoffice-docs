@@ -43,9 +43,10 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 
 ## Relateret indhold
 
-* [Videnskaben bag e-mail åbne satser -][1] blog
+* [Videnskaben bag e-mail åbne satser][1] - blog
 * [Tilføj et nyt dashboard][5]
 * [Arbejde med ruder][6]
+* [Ruder med leads og UTM-data][7]
 * [Læs mere om kriterier][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

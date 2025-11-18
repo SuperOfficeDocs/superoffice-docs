@@ -43,9 +43,10 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 
 ## Relatert innhold
 
-* [Vitenskapen bak antall åpnede e-poster][1] – blogg
+* [Vitenskapen bak antall åpnede e-poster][1] – blogg
 * [Legge til nytt dashbord][5]
 * [Arbeide med figurer][6]
+* [Figurer med leads og UTM-data][7]
 * [Les mer om kriterier][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png
