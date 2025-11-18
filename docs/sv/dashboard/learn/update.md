@@ -3,9 +3,9 @@ uid: help-sv-dashboard-update
 title: Anpassa din dashboard
 description: Lär dig hur du byter namn på, konfigurerar och tar bort dashboards i SuperOffice CRM. Anpassa layout, kolumner och synlighetsinställningar efter behov.
 keywords: redigera dashboard, ta bort dashboard, dashboardkolumner, dashboard, panel, layout
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

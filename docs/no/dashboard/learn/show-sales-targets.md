@@ -4,8 +4,8 @@ title: Bruke salgsmål i figurer
 description: Bruke dashbord og figurer til å sammenligne salgsmålene med det faktiske salget.
 keywords: dashbord, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online
@@ -85,6 +85,7 @@ Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt rikt
 
 * [Legge til nytt dashbord][5]
 * [Redigere eller opprette figurer][6]
+* [Figurer med leads og UTM-data][9]
 * [Definere salgsmål][7]
 * [Forutsi salget ditt][8]
 
@@ -96,6 +97,7 @@ Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt rikt
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

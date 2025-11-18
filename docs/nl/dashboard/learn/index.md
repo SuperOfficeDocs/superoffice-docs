@@ -3,9 +3,9 @@ uid: help-nl-dashboard
 title: Dashboards
 description: SuperOffice Dashboards zijn ideaal voor gebruikers en managers. Krijg een overzicht van uw werk of de prestaties van uw team met vooraf gedefinieerde tegels of maak uw eigen dashboards.
 keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel
-author: Bergfrid Dias, Kirsti Aakerholt
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina, kirstiaa
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,7 @@ Het type grafiek bepaalt hoe de gegevens in de tegel worden weergegeven.
 | Pictogram | Type | Beschrijving |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Taartdiagram | Cirkelvormige grafiek. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Trechter | Visualiseert het leadkwalificatieproces. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Groot getal | Groot cijfer met vergelijking mogelijk. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | Lijst | Maximaal 100 records. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolomdiagram | Toont waarden verticaal. |
@@ -98,6 +99,7 @@ Elke tegel toont realtimegegevens uit de bron. U kunt met tegels interageren om 
 
     ![Tegelmenu -screenshot][img1]
 
+* Om **de dataset te bekijken**, klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Dataset weergeven**. Dit toont de criteria die bepalen welke gegevens de tegel weergeeft.
 * **Klik op gegevenspunten** (zoals een kolom of taartsegment) om gerelateerde records in een nieuw venster te bekijken.
 
 In de detailweergave:
@@ -105,8 +107,6 @@ In de detailweergave:
 * Selecteer een record om een voorbeeld te zien.
 * Dubbelklik om het record te openen, of klik op **Openen**.
 * Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Kopiëren naar selectie** om records toe te voegen. Indien niets geselecteerd is, worden alle records gekopieerd.
-
-![Onderliggende gegevens bekijken -screenshot][img2]
 
 ## Vereisten
 
@@ -139,7 +139,7 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 | Alle CRM-plannen | Status-dashboard met standaardtegels | Grafieken, lijsten, grote getallen |
 | **Service** | Verzoeken-dashboard | Verzoekgerelateerde tegels |
 | **Marketing** (Essentials of hoger) | – | Mailings, formulierinzendingen, chats |
-| **Sales Premium** | – | Prognoses, KPI’s, verkoopdoelen, offertes |
+| **Sales Premium** | – | Prognoses, KPI's, verkoopdoelen, offertes |
 | **Sales of Service Premium** | – | Activiteitsmonitoren (SAINT) |
 
 ## Tips
@@ -159,5 +159,4 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

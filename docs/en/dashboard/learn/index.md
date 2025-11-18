@@ -3,9 +3,9 @@ uid: help-en-dashboard
 title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
 keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile
-author: Bergfrid Dias, Kirsti Aakerholt
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina, kirstiaa
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,7 @@ The chart type determines how data is displayed inside the tile.
 | Icon | Type | Description |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Pie chart | A circular-shaped graph. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Funnel | Visualizes the lead qualification process. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Big number | A number in big letters with options to compare to value or period. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | List | A list overview with max 100 items. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Column chart | A column chart plots the variable value vertically. |
@@ -98,6 +99,7 @@ Each tile shows a snapshot of real-time data from its source. You can interact w
 
     ![Tile Task menu -screenshot][img1]
 
+* To **view the dataset**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Show dataset**. This displays the criteria that determines what data the tile shows.
 * **Drill down into data** by clicking a data point (for example, a bar or pie segment). A new window opens with the related records.
 
 In the drill-down view:
@@ -105,8 +107,6 @@ In the drill-down view:
 * Select a record to preview it.
 * Double-click a record to open it, or select a record and click **Open**.
 * Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
-
-![Drill down to underlying data -screenshot][img2]
 
 ## Requirements
 
@@ -159,5 +159,4 @@ Only the **owner** of a dashboard can delete it.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

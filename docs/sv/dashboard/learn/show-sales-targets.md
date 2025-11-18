@@ -4,8 +4,8 @@ title: Använda försäljningsmål i paneler
 description: Använd dashboards och paneler för att jämföra dina försäljningsmål med din faktiska försäljning.
 keywords: dashboard, försäljningsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online
@@ -85,6 +85,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 
 * [Lägg till en ny dashboard][5]
 * [Redigera eller skapa paneler][6]
+* [Paneler med leads och UTM-data][9]
 * [Konfigurera försäljningsmål][7]
 * [Prognostisera din försäljning][8]
 
@@ -96,6 +97,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

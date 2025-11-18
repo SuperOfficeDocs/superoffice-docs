@@ -3,9 +3,9 @@ uid: help-da-dashboard-create
 title: Opret et nyt dashboard
 description: Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye dashboards.
 keywords: opret dashboard, tilføj dashboard, nyt dashboard, fastgør dashboard, duplikér dashboard, dashboard
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

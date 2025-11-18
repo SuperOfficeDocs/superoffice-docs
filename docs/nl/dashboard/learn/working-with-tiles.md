@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tiles
 title: Werken met tegels
 description: Leer hoe u tegels kunt toevoegen, aanpassen en beheren in uw SuperOffice-dashboards.
 keywords: tegel toevoegen, tegel bewerken, tegel kopiëren, tegel dupliceren, tegel verwijderen, tegel aanpassen, dataset, dashboard, tegel
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

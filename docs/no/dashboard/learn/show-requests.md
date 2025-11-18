@@ -3,9 +3,9 @@ uid: help-no-dashboard-requests
 title: Bruke saker i figurer
 description: I denne veiledningen lærer du hvordan du får en rask oversikt over alle åpne saker i SuperOffice-dashbord.
 keywords: dashbord, sak
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

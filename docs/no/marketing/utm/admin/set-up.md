@@ -153,6 +153,6 @@ Les mer om dashbord i [Markedsføringsdashbord og rapporter][5].
 [2]: ../learn/parameters.md
 [1]: ../../forms/learn/publish.md
 [4]: https://ga-dev-tools.google/campaign-url-builder
-[5]: ../../../dashboard/learn/show-marketing.md
+[5]: ../../../dashboard/learn/show-leads.md
 
 [img1]: ../../../../media/loc/en/marketing/conversion-tracking.png

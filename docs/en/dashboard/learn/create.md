@@ -3,9 +3,9 @@ uid: help-en-dashboard-create
 title: Create a new dashboard
 description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboards in this how-to-guide.
 keywords: create dashboard, add dashboard, new dashboard, pin dashboard, duplicate dashboard, dashboard
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

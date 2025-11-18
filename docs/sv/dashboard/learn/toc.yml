@@ -1,5 +1,5 @@
 items:
-- name: Översikt
+- name: Introduktion
   href: index.md
 - name: Skapa eller duplicera dashboard
   href: create.md
@@ -7,6 +7,8 @@ items:
   href: update.md
 - name: Arbeta med paneler
   href: working-with-tiles.md
+- name: Paneler med leads och UTM-data
+  href: show-leads.md
 - name: Använda försäljningsmål i paneler
   href: show-sales-targets.md
 - name: Använda utskick och formulär i paneler

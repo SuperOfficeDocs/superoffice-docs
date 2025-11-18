@@ -3,9 +3,9 @@ uid: help-sv-dashboard-requests
 title: Använda ärenden i paneler
 description: I den här guiden förklarar vi hur du får en snabb överblick över alla öppna ärenden på dashboards i SuperOffice.
 keywords: dashboard, ärende
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

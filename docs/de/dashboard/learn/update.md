@@ -3,9 +3,9 @@ uid: help-de-dashboard-update
 title: Dashboards personalisieren
 description: Erfahren Sie, wie Sie Dashboards in SuperOffice CRM umbenennen, konfigurieren und löschen. Passen Sie Layout, Spalten und Sichtbarkeit an.
 keywords: Dashboard bearbeiten, Dashboard löschen, Dashboard Spalten, Dashboard, Kachel, Layout
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

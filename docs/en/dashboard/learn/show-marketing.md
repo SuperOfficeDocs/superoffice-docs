@@ -4,8 +4,8 @@ title: Using mailing and forms in tiles
 description: Create dashboards for your marketing tasks, such as form submissions and mailings, to track and analyze their performance, trends and productivity across all marketing activities.
 keywords: dashboard, marketing, mailing
 author: SuperOffice Product and Engineering
-date: 03.25.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -46,6 +46,7 @@ Study the examples below to get ideas for tiles you can add to your mailing or f
 * [The science behind email open rates][1] -blog
 * [Add new dashboard][5]
 * [Working with tiles][6]
+* [Tiles with leads and UTM data][7]
 * [Read more about criteria][2]
 
 <!-- Referenced links -->
@@ -53,6 +54,7 @@ Study the examples below to get ideas for tiles you can add to your mailing or f
 [2]: ../../search-options/learn/search-criteria.md
 [5]: create.md
 [6]: working-with-tiles.md
+[7]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/user-mailing-dashboard.png

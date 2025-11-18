@@ -163,7 +163,7 @@ Gebruik de UTM-builder voor SuperOffice-formulieren om campagnekoppelingen te ma
 [1]: parameters.md
 [2]: ../../forms/learn/publish.md
 [3]: ../admin/set-up.md
-[5]: ../../../dashboard/learn/show-marketing.md
+[5]: ../../../dashboard/learn/show-leads.md
 [6]: ../../../search-options/selection/learn/board-view.md
 [7]: ../../../learn/section-tabs/contacts-tab.md
 [8]: ../../../lead/learn/index.md

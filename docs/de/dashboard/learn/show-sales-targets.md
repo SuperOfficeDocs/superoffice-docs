@@ -4,8 +4,8 @@ title: Verwenden von Vertriebszielen in Kacheln
 description: Verwenden Sie Dashboards und Kacheln, um Ihre Verkaufsziele mit Ihren tatsächlichen Verkäufen zu vergleichen.
 keywords: Dashboard, Verkaufsziel, Diagramm
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online
@@ -85,6 +85,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 
 * [Neues Dashboard hinzufügen][5]
 * [Kacheln bearbeiten oder erstellen][6]
+* [Kacheln mit Leads und UTM-Daten][9]
 * [Verkaufsziele festlegen][7]
 * [Verkäufe prognostizieren][8]
 
@@ -96,6 +97,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

@@ -3,9 +3,9 @@ uid: help-no-dashboard-update
 title: Tilpass dashbordet ditt
 description: Lær hvordan du omdøper, konfigurerer og sletter dashbord i SuperOffice CRM. Tilpass layout, kolonner og synlighetsinnstillinger etter dine behov.
 keywords: rediger dashbord, slett dashbord, dashbordkolonner, dashbord, figur, flis, layout
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

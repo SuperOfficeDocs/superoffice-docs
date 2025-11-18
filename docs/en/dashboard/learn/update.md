@@ -3,9 +3,9 @@ uid: help-en-dashboard-update
 title: Customize your dashboard
 description: Learn how to rename, configure, and delete dashboards in SuperOffice CRM. Customize layout, columns, and visibility settings to suit your needs.
 keywords: edit dashboard details, delete dashboard, dashboard columns, dashboard, tile, layout
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

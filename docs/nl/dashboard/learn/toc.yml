@@ -1,5 +1,5 @@
 items:
-- name: Overzicht
+- name: Inleiding
   href: index.md
 - name: Een dashboard maken of dupliceren
   href: create.md
@@ -7,6 +7,8 @@ items:
   href: update.md
 - name: Werken met tegels
   href: working-with-tiles.md
+- name: Tegels met leads en UTM-gegevens
+  href: show-leads.md
 - name: Verkooptargets gebruiken in tegels
   href: show-sales-targets.md
 - name: Mailing en formulieren gebruiken in tegels

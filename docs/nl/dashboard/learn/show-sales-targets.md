@@ -4,8 +4,8 @@ title: Verkooptargets gebruiken in tegels
 description: Gebruik dashboards en tegels om uw verkooptargets te vergelijken met uw werkelijke verkopen.
 keywords: dashboard, verkooptarget, grafiek
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online
@@ -85,6 +85,7 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 
 * [Een nieuwe dashboard toevoegen][5]
 * [Tegels bewerken of maken][6]
+* [Tegels met leads en UTM-gegevens][9]
 * [Verkooptargets instellen][7]
 * [Uw verkopen voorspellen][8]
 
@@ -96,6 +97,7 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

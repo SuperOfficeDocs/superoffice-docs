@@ -3,9 +3,9 @@ uid: help-nl-dashboard-requests
 title: Verzoeken in tegels gebruiken
 description: In deze handleiding leert u hoe u een snel overzicht krijgt van alle openstaande verzoeken in SuperOffice-dashboards.
 keywords: dashboard, verzoek
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

@@ -1,5 +1,5 @@
 items:
-- name: Oversigt
+- name: Introduktion
   href: index.md
 - name: Opret/dubler et dashboard
   href: create.md
@@ -7,6 +7,8 @@ items:
   href: update.md
 - name: Arbejd med ruder
   href: working-with-tiles.md
+- name: Ruder med kundeemner og UTM-data
+  href: show-leads.md
 - name: Sådan bruger du salgsmål i ruder
   href: show-sales-targets.md
 - name: Sådan bruger du udsendelse og formularer i ruder

@@ -4,8 +4,8 @@ title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
 keywords: dashboard, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5.3
+date: 11.21.2025
+version: 11.6
 content_type: howto
 license: salespremium
 deployment: online
@@ -85,6 +85,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 
 * [Tilføj et nyt dashboard][5]
 * [Rediger eller opret felter][6]
+* [Ruder med leads og UTM-data][9]
 * [Opsæt salgsmål][7]
 * [Forudsig dit salg][8]
 
@@ -96,6 +97,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
 [8]: ../../sale/learn/forecasting.md
+[9]: show-leads.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

@@ -3,9 +3,9 @@ uid: help-no-dashboard
 title: Dashbord
 description: SuperOffice Dashbord er ideelle for både brukere og ledere. Få oversikt over arbeidet ditt eller teamets innsats med forhåndsdefinerte figurer, eller lag dine egne.
 keywords: dashboard administrator, diagram, rapport, datasett, stort tall, måler, dashbord, figur
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,7 @@ Diagramtypen bestemmer hvordan dataene vises i figuren.
 | Ikon | Type | Beskrivelse |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Sektordiagram | En sirkelgraf. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Trakt | Visualiserer leadkvalifiseringsprosessen. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stort tall | Et tall i stor skrift, med mulighet for sammenligning. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | En listevisning med maks 100 elementer. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonnediagram | Viser verdier loddrett. |
@@ -98,6 +99,7 @@ Hver figur viser et øyeblikksbilde av sanntidsdata. Du kan samhandle med figure
 
     ![Dashbordfigurens oppgavemeny -screenshot][img1]
 
+* For å **se datasettet**, klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Vis datasett**. Dette viser kriteriene som bestemmer hvilke data figuren viser.
 * **Klikk på datapunkter** (for eksempel en stolpe eller sektor) for å vise de underliggende oppføringene i et nytt vindu.
 
 I visningen for underliggende data:
@@ -105,8 +107,6 @@ I visningen for underliggende data:
 * Velg en oppføring for forhåndsvisning.
 * Dobbeltklikk for å åpne, eller klikk på **Åpne**.
 * Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Kopier til utvalg** for å kopiere oppføringer til oppfølging. Hvis ingen er valgt, kopieres alle.
-
-![Se nærmere på underliggende data -screenshot][img2]
 
 ## Krav
 
@@ -159,5 +159,4 @@ Bare **eieren** av et dashbord kan slette det.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

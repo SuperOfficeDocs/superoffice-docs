@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tiles
 title: Arbeta med paneler
 description: Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM.
 keywords: dashboard, panel, lägga till panel, redigera panel, kopiera panel, ta bort panel, dataset, layout
-author: Bergfrid Dias
-date: 03.25.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

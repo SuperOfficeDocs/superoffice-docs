@@ -3,9 +3,9 @@ uid: help-da-dashboard
 title: Dashboards
 description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
 keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude
-author: Bergfrid Dias
-date: 03.26.2025
-version: 10.5.3
+author: digitaldiina
+date: 11.21.2025
+version: 11.6
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,7 @@ Diagramtypen bestemmer, hvordan data vises i ruden.
 | Ikon | Type | Beskrivelse |
 |:-:|---|---|
 | <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Cirkeldiagram | En cirkulær graf. |
+| <i class="ph ph-funnel" aria-label="Funnel chart"></i> | Tragt | Visualiserer leadkvalificeringsprocessen. |
 | <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stort tal | Et tal med store bogstaver og mulighed for sammenligning. |
 | <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | En listevisning med maks. 100 poster. |
 | <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonnediagram | Placerer værdier lodret. |
@@ -98,6 +99,7 @@ Hver rude viser et øjebliksbillede af realtidsdata fra kilden. Du kan interager
 
     ![Rudens opgavemenu -screenshot][img1]
 
+* For at **se datasættet**, klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis datasæt**. Dette viser kriterierne, der bestemmer, hvilke data ruden viser.
 * **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue.
 
 I visningen med underliggende data:
@@ -105,8 +107,6 @@ I visningen med underliggende data:
 * Vælg en post for at få vist et forhåndsvisningspanel.
 * Dobbeltklik for at åbne posten, eller klik på **Åbn**.
 * Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
-
-![Drill-down til underliggende data -screenshot][img2]
 
 ## Krav
 
@@ -139,7 +139,7 @@ Kun **ejeren** af et dashboard kan slette det.
 | Alle CRM-planer | Status-dashboard med standardruder | Diagrammer, lister, store tal |
 | **Service** | Sager-dashboard | Ruder relateret til sager |
 | **Marketing** (Essentials eller højere) | – | Mails, formularindsendelser, chats |
-| **Sales Premium** | – | Prognoser, KPI’er, salgsmål, tilbud |
+| **Sales Premium** | – | Prognoser, KPI'er, salgsmål, tilbud |
 | **Sales eller Service Premium** | – | Aktivitetsmonitorer (SAINT) |
 
 ## Tips
@@ -159,5 +159,4 @@ Kun **ejeren** af et dashboard kan slette det.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
