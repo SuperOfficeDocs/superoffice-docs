@@ -2,10 +2,10 @@
 uid: help-sv-dashboard
 title: Dashboards
 description: SuperOffice Dashboards är perfekta för både användare och chefer. Få en översikt över ditt arbete eller teamets resultat med fördefinierade paneler eller skapa egna.
-keywords: dashboard administrator, diagram, rapport, dataset, stora siffror, mätare, dashboard, panel
+keywords: dashboard administrator, diagram, rapport, dataset, stora siffror, mätare, dashboard, panel, snabbfilter
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Varje panel innehåller en grafisk eller numerisk representation av SuperOffice-
 * **Dashboard:** En skärmbild som visar CRM-data visuellt med en eller flera paneler.
 * **Panel:** Ett konfigurerbart fält i ett dashboard. Paneler kan visa diagram, listor eller siffror.
 * **Diagram:** En grafisk visualisering av paneldata, till exempel cirkeldiagram eller stapeldiagram.
-* **Dataset:** Den underliggande datakällan för en panel. Vanligtvis baserat på sökkriterier.
+* **Dataset:** Den underliggande datakällan för en panel. Vanligtvis baserat på kriterier.
 
 ## Öppna dina dashboards
 
@@ -94,19 +94,20 @@ Diagramtypen bestämmer hur data visas i panelen.
 Varje panel visar en ögonblicksbild av realtidsdata. Du kan interagera med panelerna för att utforska underliggande data.
 
 * **Hovra** över diagramytor för att se detaljerade verktygstips.
+
 * **Klicka på en värdeetikett i förklaringen** för att visa/dölja dataserier.
+
 * Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa i helskärmsläge** för att förstora en panel.
 
     ![Panelens åtgärdsmeny -screenshot][img1]
 
 * För att **visa dataset**, klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa dataset**. Detta visar kriterierna som bestämmer vilken data panelen visar.
-* **Klicka på datapunkter** (till exempel stapel eller sektor) för att se relaterade poster i ett nytt fönster.
 
-I vyn med bakomliggande data:
+* **Klicka på datapunkter** (till exempel stapel eller sektor) för att se relaterade poster i ett nytt fönster. I vyn med bakomliggande data:
 
-* Markera en post för att förhandsgranska.
-* Dubbelklicka för att öppna posten, eller klicka på **Öppna**.
-* Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Kopiera till urval** för att kopiera poster. Om inget är markerat kopieras alla.
+  * Markera en post för att förhandsgranska.
+  * Dubbelklicka för att öppna posten, eller klicka på **Öppna**.
+  * Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Kopiera till urval** för att kopiera poster. Om inget är markerat kopieras alla.
 
 ## Krav
 

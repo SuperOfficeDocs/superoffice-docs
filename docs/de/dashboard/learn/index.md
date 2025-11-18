@@ -2,10 +2,10 @@
 uid: help-de-dashboard
 title: Dashboards
 description: SuperOffice Dashboards sind ideal für Benutzer und Manager. Verschaffen Sie sich einen Überblick über Ihre Arbeit oder die Leistung Ihres Teams mit vordefinierten Kacheln oder erstellen Sie eigene.
-keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, messanzeige, dashboard, kachel
+keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, messanzeige, dashboard, kachel, schnellfilter
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Jede Kachel enthält eine grafische oder numerische Darstellung von SuperOffice-
 * **Dashboard:** Ein Bildschirm, der CRM-Daten visuell über eine oder mehrere Kacheln darstellt.
 * **Kachel:** Ein konfigurierbares Panel in einem Dashboard. Kacheln können Diagramme, Listen oder Zahlen anzeigen.
 * **Diagramm:** Eine grafische Darstellung von Kacheldaten, zum Beispiel ein Kreis- oder Balkendiagramm.
-* **Datensatz:** Die zugrunde liegende Datenquelle einer Kachel. In der Regel basierend auf Suchkriterien.
+* **Datensatz:** Die zugrunde liegende Datenquelle einer Kachel. In der Regel basierend auf Kriterien.
 
 ## Auf Ihre Dashboards zugreifen
 
@@ -94,19 +94,20 @@ Der Diagrammtyp bestimmt, wie die Daten in der Kachel angezeigt werden.
 Jede Kachel zeigt einen Schnappschuss von Echtzeitdaten. Sie können mit Kacheln interagieren, um zugrunde liegende Daten zu erkunden.
 
 * **Fahren Sie mit der Maus über** Diagrammbereiche, um Tooltips mit Details anzuzeigen.
+
 * **Klicken Sie auf einen Wert in der Legende** (die Datenbezeichnungen), um Datenreihen ein- oder auszublenden. Dies kann zum Drucken oder Exportieren von Kacheln nützlich sein.
+
 * Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Vollbild anzeigen**, um die Kachel zu vergrößern.
 
     ![Kachel-Menü -screenshot][img1]
 
 * Um **den Datensatz anzuzeigen**, klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Datensatz anzeigen**. Dies zeigt die Kriterien an, die bestimmen, welche Daten die Kachel anzeigt.
-* **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen.
 
-Im Drilldown-Fenster:
+* **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen. Im Drilldown-Fenster:
 
-* Wählen Sie einen Datensatz zur Vorschau aus.
-* Doppelklicken Sie zum Öffnen oder klicken Sie auf **Öffnen**.
-* Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **In Selektion kopieren**, um Datensätze zu übernehmen. Ohne Auswahl werden alle kopiert.
+  * Wählen Sie einen Datensatz zur Vorschau aus.
+  * Doppelklicken Sie zum Öffnen oder klicken Sie auf **Öffnen**.
+  * Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **In Selektion kopieren**, um Datensätze zu übernehmen. Ohne Auswahl werden alle kopiert.
 
 ## Anforderungen
 

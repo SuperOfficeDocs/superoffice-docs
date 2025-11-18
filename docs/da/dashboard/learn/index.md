@@ -2,10 +2,10 @@
 uid: help-da-dashboard
 title: Dashboards
 description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
-keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude
+keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude, hurtigt filter
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Hver rude indeholder en grafisk eller numerisk visning af SuperOffice-data. Det 
 * **Dashboard:** Et skærmbillede, der viser CRM-data visuelt ved hjælp af en eller flere ruder.
 * **Rude:** Et konfigurerbart panel i et dashboard. Ruder kan vise diagrammer, lister eller tal.
 * **Diagram:** En grafisk repræsentation af rudedata, som f.eks. et cirkeldiagram eller søjlediagram.
-* **Datasæt:** Den underliggende datakilde for en rude, typisk baseret på søgekriterier.
+* **Datasæt:** Den underliggende datakilde for en rude, typisk baseret på kriterier.
 
 ## Få adgang til dine dashboards
 
@@ -94,19 +94,20 @@ Diagramtypen bestemmer, hvordan data vises i ruden.
 Hver rude viser et øjebliksbillede af realtidsdata fra kilden. Du kan interagere med ruderne for at udforske de underliggende data.
 
 * **Hold markøren over** diagramområder for at se detaljer i værktøjstip.
+
 * **Klik på en værdi i diagramforklaringen** for at skjule eller vise dataserier. Dette kan være nyttigt til udskrivning eller eksport af ruderne.
+
 * Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis i fuld skærm** for at udvide en rude.
 
     ![Rudens opgavemenu -screenshot][img1]
 
 * For at **se datasættet**, klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis datasæt**. Dette viser kriterierne, der bestemmer, hvilke data ruden viser.
-* **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue.
 
-I visningen med underliggende data:
+* **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue. I visningen med underliggende data:
 
-* Vælg en post for at få vist et forhåndsvisningspanel.
-* Dobbeltklik for at åbne posten, eller klik på **Åbn**.
-* Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
+  * Vælg en post for at få vist et forhåndsvisningspanel.
+  * Dobbeltklik for at åbne posten, eller klik på **Åbn**.
+  * Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
 
 ## Krav
 

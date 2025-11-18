@@ -2,10 +2,10 @@
 uid: help-no-dashboard
 title: Dashbord
 description: SuperOffice Dashbord er ideelle for både brukere og ledere. Få oversikt over arbeidet ditt eller teamets innsats med forhåndsdefinerte figurer, eller lag dine egne.
-keywords: dashboard administrator, diagram, rapport, datasett, stort tall, måler, dashbord, figur
+keywords: dashboard administrator, diagram, rapport, datasett, stort tall, måler, dashbord, figur, hurtigfilter
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Hver figur inneholder en grafisk eller numerisk fremstilling av SuperOffice-data
 * **Dashbord:** Et skjermbilde som viser CRM-data visuelt ved hjelp av én eller flere figurer.
 * **Figur:** Et konfigurerbart panel i et dashbord. Figurer kan vise diagrammer, lister eller tall.
 * **Diagram:** En grafisk fremstilling av Figurdata, som et sektordiagram eller stolpediagram.
-* **Datasett:** Den underliggende datakilden for en figur. Vanligvis basert på søkekriterier.
+* **Datasett:** Den underliggende datakilden for en figur. Vanligvis basert på kriterier.
 
 ## Åpne dashbord
 
@@ -94,19 +94,20 @@ Diagramtypen bestemmer hvordan dataene vises i figuren.
 Hver figur viser et øyeblikksbilde av sanntidsdata. Du kan samhandle med figurene for å utforske underliggende data.
 
 * **Hold musepekeren over** diagramområder for å vise verktøytips.
+
 * **Klikk på en verdi i forklaringen** for å vise eller skjule dataserier.
+
 * Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Fullskjermvisning** for å utvide en figur.
 
     ![Dashbordfigurens oppgavemeny -screenshot][img1]
 
 * For å **se datasettet**, klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Vis datasett**. Dette viser kriteriene som bestemmer hvilke data figuren viser.
-* **Klikk på datapunkter** (for eksempel en stolpe eller sektor) for å vise de underliggende oppføringene i et nytt vindu.
 
-I visningen for underliggende data:
+* **Klikk på datapunkter** (for eksempel en stolpe eller sektor) for å vise de underliggende oppføringene i et nytt vindu. I visningen for underliggende data:
 
-* Velg en oppføring for forhåndsvisning.
-* Dobbeltklikk for å åpne, eller klikk på **Åpne**.
-* Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Kopier til utvalg** for å kopiere oppføringer til oppfølging. Hvis ingen er valgt, kopieres alle.
+  * Velg en oppføring for forhåndsvisning.
+  * Dobbeltklikk for å åpne, eller klikk på **Åpne**.
+  * Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Kopier til utvalg** for å kopiere oppføringer til oppfølging. Hvis ingen er valgt, kopieres alle.
 
 ## Krav
 

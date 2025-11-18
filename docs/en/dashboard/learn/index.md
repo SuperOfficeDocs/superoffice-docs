@@ -2,10 +2,10 @@
 uid: help-en-dashboard
 title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
-keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile
+keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile, quick filter
 author: digitaldiina, kirstiaa
-date: 11.21.2025
-version: 11.6
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -94,19 +94,20 @@ The chart type determines how data is displayed inside the tile.
 Each tile shows a snapshot of real-time data from its source. You can interact with tiles to explore the underlying data.
 
 * **Hover** over chart areas to view tooltips with more detail.
+
 * **Click a value in the chart legend** to show or hide data series. This is useful when printing or exporting tiles.
+
 * To **expand a tile**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **View in full screen**.
 
     ![Tile Task menu -screenshot][img1]
 
 * To **view the dataset**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Show dataset**. This displays the criteria that determines what data the tile shows.
-* **Drill down into data** by clicking a data point (for example, a bar or pie segment). A new window opens with the related records.
 
-In the drill-down view:
+* **Drill down into data** by clicking a data point (for example, a bar or pie segment). A new window opens with the related records. In the drill-down view:
 
-* Select a record to preview it.
-* Double-click a record to open it, or select a record and click **Open**.
-* Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
+  * Select a record to preview it.
+  * Double-click a record to open it, or select a record and click **Open**.
+  * Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
 
 ## Requirements
 

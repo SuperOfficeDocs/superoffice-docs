@@ -2,10 +2,10 @@
 uid: help-nl-dashboard
 title: Dashboards
 description: SuperOffice Dashboards zijn ideaal voor gebruikers en managers. Krijg een overzicht van uw werk of de prestaties van uw team met vooraf gedefinieerde tegels of maak uw eigen dashboards.
-keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel
-author: digitaldiina, kirstiaa
-date: 11.21.2025
-version: 11.6
+keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel, snel filter
+author: digitaldiina
+date: 11.24.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Elke tegel bevat een grafische of numerieke weergave van SuperOffice-gegevens. D
 * **Dashboard:** Een scherm waarin CRM-gegevens visueel worden weergegeven via een of meerdere tegels.
 * **Tegel:** Een configureerbaar paneel in een dashboard. Tegels kunnen grafieken, lijsten of cijfers tonen.
 * **Grafiek:** Een grafische visualisatie van tegelgegevens, zoals een taart- of staafdiagram.
-* **Dataset:** De onderliggende gegevensbron van een tegel. Meestal gebaseerd op zoekcriteria.
+* **Dataset:** De onderliggende gegevensbron van een tegel. Meestal gebaseerd op criteria.
 
 ## Uw dashboards openen
 
@@ -94,19 +94,20 @@ Het type grafiek bepaalt hoe de gegevens in de tegel worden weergegeven.
 Elke tegel toont realtimegegevens uit de bron. U kunt met tegels interageren om dieper in te zoomen op de gegevens.
 
 * **Beweeg de muisaanwijzer** over grafiekelementen om extra details te zien.
+
 * **Klik op een waarde in de legenda** (gegevenslabels) om gegevensreeksen te tonen/verbergen.
+
 * Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Weergeven op volledig scherm** om de tegel uit te vergroten.
 
     ![Tegelmenu -screenshot][img1]
 
 * Om **de dataset te bekijken**, klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Dataset weergeven**. Dit toont de criteria die bepalen welke gegevens de tegel weergeeft.
-* **Klik op gegevenspunten** (zoals een kolom of taartsegment) om gerelateerde records in een nieuw venster te bekijken.
 
-In de detailweergave:
+* **Klik op gegevenspunten** (zoals een kolom of taartsegment) om gerelateerde records in een nieuw venster te bekijken. In de detailweergave:
 
-* Selecteer een record om een voorbeeld te zien.
-* Dubbelklik om het record te openen, of klik op **Openen**.
-* Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Kopiëren naar selectie** om records toe te voegen. Indien niets geselecteerd is, worden alle records gekopieerd.
+  * Selecteer een record om een voorbeeld te zien.
+  * Dubbelklik om het record te openen, of klik op **Openen**.
+  * Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Kopiëren naar selectie** om records toe te voegen. Indien niets geselecteerd is, worden alle records gekopieerd.
 
 ## Vereisten
 
