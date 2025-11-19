@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice CRM
 * [Dashboard - Quick filter in dashboard (11.7)][7]
 * [Dashboard - Load a tile again on time outs (11.7)][7]
 * [Selection - Board view grouped by Our contacts shows No selection column (11.7)][7]
-* [Selection of sales - Board view Setting for displaying days - days in stage (11.7)][7]
+* [Selection of sales - Board view Setting for displaying days in stage (11.7)][7]
 * [Company view - The default fields contains Priority and Our service contact (11.7)][7]
 * [Selection - Board view for company and contact (11.6)][6]
 * [Contact - Lead status list connected to the category (11.6)][6]
