@@ -2,10 +2,10 @@
 uid: help-nl-selection-board-view
 title: Boardweergave gebruiken in selecties
 description: Visualiseer selecties met de boardweergave met groepering, filters en drag-and-drop-kaarten
-keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, projectboard, verzoekboard, kanban, groeperen op, filterwerkbalk
+keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, projectboard, verzoekboard, kanban, groeperen op, filterwerkbalk, verkoopdatum badge, dagen in fase, dagen sinds registratie
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,7 +139,26 @@ De totale waarde wordt **naast elke kolomtitel** weergegeven, zodat je eenvoudig
 
 ![Verkoopboard met samengevatte waarden per kolomnaam -screenshot][img11]
 
-## Gebruiksscenario’s
+### Verkoopdatum badge (alleen verkopen)
+
+Je kunt bepalen wat de **grijze badge** op elke verkoopkaart toont in de boardweergave. Dit helpt je om de leeftijd in één oogopslag te begrijpen – of hoe lang een verkoop open staat of hoe lang deze in de huidige fase zit.
+
+1. Klik op <i class="ph ph-gear-six" aria-hidden="true"></i> om het **Instellingen**-paneel te openen.
+
+    ![Instellingenpaneel voor verkoopboard met opties voor groepering, sortering, samenvatting, filters, verkoopdatum badge en verberg gesloten verkopen. -screenshot][img13]
+
+1. Selecteer **Verkoopdatum badge**.
+
+1. Kies een van de volgende opties:
+
+    * **Dagen in fase:** Toont hoeveel dagen de verkoop in de huidige fase heeft gezeten.
+    * **Dagen sinds registratie:** Toont hoe lang geleden de verkoop is aangemaakt.
+
+    ![Verkoopdatum badge instellingendialoog met de opties Dagen in fase en Dagen sinds registratie. -screenshot][img14]
+
+De geselecteerde metriek verschijnt als een **grijze badge** op elke verkoop in de boardweergave. Een **rode badge** wordt nog steeds gebruikt om achterstallige verkopen te markeren.
+
+## Gebruiksscenario's
 
 De boardweergave ondersteunt verschillende rollen en werkwijzen. Hier zijn voorbeelden voor verkopers, projectleden, supportmedewerkers en managers:
 
@@ -246,3 +265,5 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png

@@ -2,10 +2,10 @@
 uid: help-da-selection-board-view
 title: Brug tavlevisning i udvalg
 description: Visualiser udvalg med tavlevisning med gruppering, filtre og træk-og-slip-kort
-keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, projekttavle, sagstavle, kanban, gruppér efter, filter-værktøjslinje
+keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, projekttavle, sagstavle, kanban, gruppér efter, filter-værktøjslinje, salgsdato-badge, dage i fase, dage siden registrering
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,6 +139,25 @@ Totalværdien vises **ved siden af hvert kolonnenavn**, hvilket hjælper dig med
 
 ![Tavlevisning for salg med summerede værdier ved kolonnenavne -screenshot][img11]
 
+### Salgsdato-badge (kun salg)
+
+Du kan styre, hvad det **grå badge** på hvert salgskort viser i tavlevisningen. Dette hjælper dig med at forstå alder med et øjekast – enten hvor længe et salg har været åbent, eller hvor længe det har været i sin nuværende fase.
+
+1. Vælg <i class="ph ph-gear-six" aria-hidden="true"></i> for at åbne panelet **Indstillinger**.
+
+    ![Indstillingspanel for salgstavle, der viser indstillinger for gruppering, sortering, opsummering, filtre, salgsdato-badge og skjul lukkede salg. -screenshot][img13]
+
+1. Vælg **Salgsdato-badge**.
+
+1. Vælg en af følgende muligheder:
+
+    * **Dage i fase:** Viser, hvor mange dage salget har været i sin nuværende fase.
+    * **Dage siden registrering:** Viser, hvor længe siden salget blev oprettet.
+
+    ![Indstillingsdialog for salgsdato-badge med mulighederne Dage i fase og Dage siden registrering. -screenshot][img14]
+
+Den valgte måling vises som et **gråt badge** på hvert salg i tavlevisningen. Et **rødt badge** bruges stadig til at markere forsinkede salg.
+
 ## Anvendelsesmuligheder
 
 Tavlevisning understøtter forskellige roller og arbejdsgange. Her er eksempler for salgsrepræsentanter, projektmedlemmer, supportmedarbejdere og ledere:
@@ -246,3 +265,5 @@ Brug gruppering kreativt for effektiv databehandling.
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png
