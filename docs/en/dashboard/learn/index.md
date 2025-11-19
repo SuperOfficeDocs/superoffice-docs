@@ -2,10 +2,10 @@
 uid: help-en-dashboard
 title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
-keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile
+keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile, quick filter
 author: digitaldiina, kirstiaa
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -94,19 +94,51 @@ The chart type determines how data is displayed inside the tile.
 Each tile shows a snapshot of real-time data from its source. You can interact with tiles to explore the underlying data.
 
 * **Hover** over chart areas to view tooltips with more detail.
+
 * **Click a value in the chart legend** to show or hide data series. This is useful when printing or exporting tiles.
+
 * To **expand a tile**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **View in full screen**.
 
     ![Tile Task menu -screenshot][img1]
 
 * To **view the dataset**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Show dataset**. This displays the criteria that determines what data the tile shows.
-* **Drill down into data** by clicking a data point (for example, a bar or pie segment). A new window opens with the related records.
 
-In the drill-down view:
+    ![Dataset view showing the criteria used to generate the dashboard tile -screenshot][img2]
 
-* Select a record to preview it.
-* Double-click a record to open it, or select a record and click **Open**.
-* Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
+* **Use quick filters** to narrow down the data shown on the dashboard.
+
+    ![Quick filter dropdown with checkboxes for status values -screenshot][img3]
+
+  * Select one or more values to instantly filter all tiles on the dashboard.
+  * Tiles affected by a filter show a funnel icon <i class="ph ph-funnel" aria-hidden="true"></i>.
+  * Click **X** on a filter to clear that filter, or click **X** on the filter bar to clear all filters.
+
+* **Drill down into data** by clicking a data point (for example, a bar or pie segment). A new window opens with the related records. In the drill-down view:
+
+  * Select a record to preview it.
+  * Double-click a record to open it, or select a record and click **Open**.
+  * Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
+
+### <a id="filter"></a>Configure quick filters (admin/owner)
+
+All users who can view the dashboard can use the filters, but only the owner and administrators can add, change, or remove them.
+
+To configure quick filters:
+
+1. Click **Quick filter** in the dashboard header.
+
+1. Click **Add quick filter** and choose a criterion from the list.
+
+    * Only criteria that are already used in one or more tiles on the current dashboard can be added as quick filters.
+    * To see which criteria a tile uses, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Show dataset**.
+
+1. Optionally, restrict the selectable values (for example, limit **Internal status** to only *Open* and *Closed*).
+
+1. Repeat steps 2-3 to add more filters.
+
+1. Click **OK** to save the filter set.
+
+![Add quick filter dialog showing Internal status criteria with selectable values -screenshot][img5]
 
 ## Requirements
 
@@ -159,4 +191,7 @@ Only the **owner** of a dashboard can delete it.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/show-dataset.png
+[img3]: ../../../media/loc/en/dashboard/quick-filter-dropdown.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img5]: ../../../media/loc/en/dashboard/add-quick-filter.png

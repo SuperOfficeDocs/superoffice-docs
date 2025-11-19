@@ -2,10 +2,10 @@
 uid: help-da-dashboard
 title: Dashboards
 description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
-keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude
+keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude, hurtigfilter
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -34,7 +34,7 @@ Hver rude indeholder en grafisk eller numerisk visning af SuperOffice-data. Det 
 * **Dashboard:** Et skærmbillede, der viser CRM-data visuelt ved hjælp af en eller flere ruder.
 * **Rude:** Et konfigurerbart panel i et dashboard. Ruder kan vise diagrammer, lister eller tal.
 * **Diagram:** En grafisk repræsentation af rudedata, som f.eks. et cirkeldiagram eller søjlediagram.
-* **Datasæt:** Den underliggende datakilde for en rude, typisk baseret på søgekriterier.
+* **Datasæt:** Den underliggende datakilde for en rude, typisk baseret på kriterier.
 
 ## Få adgang til dine dashboards
 
@@ -94,19 +94,51 @@ Diagramtypen bestemmer, hvordan data vises i ruden.
 Hver rude viser et øjebliksbillede af realtidsdata fra kilden. Du kan interagere med ruderne for at udforske de underliggende data.
 
 * **Hold markøren over** diagramområder for at se detaljer i værktøjstip.
+
 * **Klik på en værdi i diagramforklaringen** for at skjule eller vise dataserier. Dette kan være nyttigt til udskrivning eller eksport af ruderne.
+
 * Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis i fuld skærm** for at udvide en rude.
 
     ![Rudens opgavemenu -screenshot][img1]
 
 * For at **se datasættet**, klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis datasæt**. Dette viser kriterierne, der bestemmer, hvilke data ruden viser.
-* **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue.
 
-I visningen med underliggende data:
+    ![Datasætvisning der viser kriterierne brugt til at generere dashboardruden -screenshot][img2]
 
-* Vælg en post for at få vist et forhåndsvisningspanel.
-* Dobbeltklik for at åbne posten, eller klik på **Åbn**.
-* Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
+* **Brug hurtigfiltre** til at indsnævre de data, der vises på dashboardet.
+
+    ![Hurtigfilterdropdown med afkrydsningsfelter for statusværdier -screenshot][img3]
+
+  * Vælg en eller flere værdier for straks at filtrere alle ruder på dashboardet.
+  * Ruder påvirket af et filter viser et tragtikon <i class="ph ph-funnel" aria-hidden="true"></i>.
+  * Klik på **X** på et filter for at rydde dette filter, eller klik på **X** på filterbjælken for at rydde alle filtre.
+
+* **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue. I visningen med underliggende data:
+
+  * Vælg en post for at få vist et forhåndsvisningspanel.
+  * Dobbeltklik for at åbne posten, eller klik på **Åbn**.
+  * Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
+
+### <a id="filter"></a>Konfigurer hurtigfiltre (admin/ejer)
+
+Alle brugere, der kan se dashboardet, kan bruge filtrene, men kun ejeren og administratorer kan tilføje, ændre eller fjerne dem.
+
+Sådan konfigurerer du hurtigfiltre:
+
+1. Klik på **Hurtigfilter** i dashboardets header.
+
+1. Klik på **Tilføj hurtigfilter** og vælg et kriterium fra listen.
+
+    * Kun kriterier, der allerede bruges i én eller flere ruder på det aktuelle dashboard, kan tilføjes som hurtigfiltre.
+    * For at se hvilke kriterier en rude bruger, klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis datasæt**.
+
+1. Du kan eventuelt begrænse de valgbare værdier (for eksempel begrænse **Intern status** til kun *Åben* og *Lukket*).
+
+1. Gentag trin 2-3 for at tilføje flere filtre.
+
+1. Klik **OK** for at gemme filtersættet.
+
+![Tilføj hurtigfilter-dialogboks, der viser Intern status-kriterier med vælgbare værdier -screenshot][img5]
 
 ## Krav
 
@@ -159,4 +191,7 @@ Kun **ejeren** af et dashboard kan slette det.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/show-dataset.png
+[img3]: ../../../media/loc/en/dashboard/quick-filter-dropdown.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img5]: ../../../media/loc/en/dashboard/add-quick-filter.png
