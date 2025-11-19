@@ -2,9 +2,9 @@
 uid: help-de-dashboard
 title: Dashboards
 description: SuperOffice Dashboards sind ideal für Benutzer und Manager. Verschaffen Sie sich einen Überblick über Ihre Arbeit oder die Leistung Ihres Teams mit vordefinierten Kacheln oder erstellen Sie eigene.
-keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, messanzeige, dashboard, kachel, schnellfilter
+keywords: dashboard administrator, Diagramm, Bericht, Datensatz, große Zahl, Messanzeige, Dashboard, Kachel, Schnellfilter
 author: digitaldiina
-date: 11.24.2025
+date: 12.02.2025
 version: 11.7
 content_type: concept
 audience: person
@@ -103,11 +103,42 @@ Jede Kachel zeigt einen Schnappschuss von Echtzeitdaten. Sie können mit Kacheln
 
 * Um **den Datensatz anzuzeigen**, klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Datensatz anzeigen**. Dies zeigt die Kriterien an, die bestimmen, welche Daten die Kachel anzeigt.
 
+    ![Datensatzansicht mit den Kriterien zur Generierung der Dashboard-Kachel -screenshot][img2]
+
+* **Verwenden Sie Schnellfilter**, um die auf dem Dashboard angezeigten Daten einzugrenzen.
+
+    ![Schnellfilter-Dropdown mit Kontrollkästchen für Statuswerte -screenshot][img3]
+
+  * Wählen Sie einen oder mehrere Werte aus, um alle Kacheln auf dem Dashboard sofort zu filtern.
+  * Von einem Filter betroffene Kacheln zeigen ein Trichtersymbol <i class="ph ph-funnel" aria-hidden="true"></i>.
+  * Klicken Sie auf **X** bei einem Filter, um diesen Filter zu löschen, oder klicken Sie auf **X** in der Filterleiste, um alle Filter zu löschen.
+
 * **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen. Im Drilldown-Fenster:
 
   * Wählen Sie einen Datensatz zur Vorschau aus.
   * Doppelklicken Sie zum Öffnen oder klicken Sie auf **Öffnen**.
   * Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **In Selektion kopieren**, um Datensätze zu übernehmen. Ohne Auswahl werden alle kopiert.
+
+### <a id="filter"></a>Schnellfilter konfigurieren (Admin/Eigentümer)
+
+Alle Benutzer, die das Dashboard anzeigen können, können die Filter verwenden, aber nur der Eigentümer und Administratoren können sie hinzufügen, ändern oder entfernen.
+
+So konfigurieren Sie Schnellfilter:
+
+1. Klicken Sie im Dashboard-Kopfbereich auf **Schnellfilter**.
+
+1. Klicken Sie auf **Schnellfilter hinzufügen** und wählen Sie ein Kriterium aus der Liste.
+
+    * Nur Kriterien, die bereits in einer oder mehreren Kacheln des aktuellen Dashboards verwendet werden, können als Schnellfilter hinzugefügt werden.
+    * Um zu sehen, welche Kriterien eine Kachel verwendet, klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Dataset anzeigen**.
+
+1. Optional können Sie die auswählbaren Werte einschränken (z. B. **Interner Status** auf nur *Offen* und *Geschlossen*).
+
+1. Wiederholen Sie die Schritte 2-3, um weitere Filter hinzuzufügen.
+
+1. Klicken Sie auf **OK**, um den Filtersatz zu speichern.
+
+![Schnellfilter hinzufügen-Dialog mit Internem Status-Kriterien und auswählbaren Werten -screenshot][img5]
 
 ## Anforderungen
 
@@ -160,4 +191,7 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/show-dataset.png
+[img3]: ../../../media/loc/en/dashboard/quick-filter-dropdown.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img5]: ../../../media/loc/en/dashboard/add-quick-filter.png

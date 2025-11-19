@@ -4,7 +4,7 @@ title: Dashboards
 description: SuperOffice Dashboards är perfekta för både användare och chefer. Få en översikt över ditt arbete eller teamets resultat med fördefinierade paneler eller skapa egna.
 keywords: dashboard administrator, diagram, rapport, dataset, stora siffror, mätare, dashboard, panel, snabbfilter
 author: digitaldiina
-date: 11.24.2025
+date: 12.02.2025
 version: 11.7
 content_type: concept
 audience: person
@@ -103,11 +103,42 @@ Varje panel visar en ögonblicksbild av realtidsdata. Du kan interagera med pane
 
 * För att **visa dataset**, klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa dataset**. Detta visar kriterierna som bestämmer vilken data panelen visar.
 
+    ![Datasetvy som visar kriterierna som används för att generera dashboardpanelen -screenshot][img2]
+
+* **Använd snabbfilter** för att begränsa de data som visas på dashboarden.
+
+    ![Snabbfilter dropdown med kryssrutor för statusvärden -screenshot][img3]
+
+  * Välj ett eller flera värden för att omedelbart filtrera alla paneler på dashboarden.
+  * Paneler som påverkas av ett filter visar en trattikon <i class="ph ph-funnel" aria-hidden="true"></i>.
+  * Klicka på **X** på ett filter för att rensa filtret, eller klicka på **X** på filterfältet för att rensa alla filter.
+
 * **Klicka på datapunkter** (till exempel stapel eller sektor) för att se relaterade poster i ett nytt fönster. I vyn med bakomliggande data:
 
   * Markera en post för att förhandsgranska.
   * Dubbelklicka för att öppna posten, eller klicka på **Öppna**.
   * Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Kopiera till urval** för att kopiera poster. Om inget är markerat kopieras alla.
+
+### <a id="filter"></a>Konfigurera snabbfilter (admin/ägare)
+
+Alla användare som kan se dashboarden kan använda filtren, men endast ägaren och administratörer kan lägga till, ändra eller ta bort dem.
+
+Så här konfigurerar du snabbfilter:
+
+1. Klicka på **Snabbfilter** i dashboardens rubrik.
+
+1. Klicka på **Lägg till snabbfilter** och välj ett kriterium från listan.
+
+    * Endast kriterier som redan används i en eller flera paneler på den aktuella dashboarden kan läggas till som snabbfilter.
+    * För att se vilka kriterier en panel använder, klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa dataset**.
+
+1. Du kan även begränsa vilka värden som får väljas (till exempel begränsa **Intern status** till endast *Öppen* och *Stängd*).
+
+1. Upprepa steg 2-3 för att lägga till fler filter.
+
+1. Klicka på **OK** för att spara filteruppsättningen.
+
+![Lägg till snabbfilter-dialog som visar Intern status-kriterier med väljbara värden -screenshot][img5]
 
 ## Krav
 
@@ -160,4 +191,7 @@ Endast **ägaren** av ett dashboard kan ta bort det.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/show-dataset.png
+[img3]: ../../../media/loc/en/dashboard/quick-filter-dropdown.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img5]: ../../../media/loc/en/dashboard/add-quick-filter.png

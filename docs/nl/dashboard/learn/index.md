@@ -2,9 +2,9 @@
 uid: help-nl-dashboard
 title: Dashboards
 description: SuperOffice Dashboards zijn ideaal voor gebruikers en managers. Krijg een overzicht van uw werk of de prestaties van uw team met vooraf gedefinieerde tegels of maak uw eigen dashboards.
-keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel, snel filter
+keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel, snelfilter
 author: digitaldiina
-date: 11.24.2025
+date: 12.02.2025
 version: 11.7
 content_type: concept
 audience: person
@@ -103,11 +103,42 @@ Elke tegel toont realtimegegevens uit de bron. U kunt met tegels interageren om 
 
 * Om **de dataset te bekijken**, klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Dataset weergeven**. Dit toont de criteria die bepalen welke gegevens de tegel weergeeft.
 
+    ![Datasetweergave met de criteria gebruikt om de dashboardtegel te genereren -screenshot][img2]
+
+* **Snelfilters gebruiken** om de gegevens die op het dashboard worden weergegeven te beperken.
+
+    ![Snelfilterdropdown met selectievakjes voor statuswaarden -screenshot][img3]
+
+  * Selecteer een of meer waarden om alle tegels op het dashboard direct te filteren.
+  * Tegels die door een filter worden beïnvloed, tonen een trechterpictogram <i class="ph ph-funnel" aria-hidden="true"></i>.
+  * Klik op **X** bij een filter om dat filter te wissen, of klik op **X** op de filterbalk om alle filters te wissen.
+
 * **Klik op gegevenspunten** (zoals een kolom of taartsegment) om gerelateerde records in een nieuw venster te bekijken. In de detailweergave:
 
   * Selecteer een record om een voorbeeld te zien.
   * Dubbelklik om het record te openen, of klik op **Openen**.
   * Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Kopiëren naar selectie** om records toe te voegen. Indien niets geselecteerd is, worden alle records gekopieerd.
+
+### <a id="filter"></a>Snelfilters configureren (admin/eigenaar)
+
+Alle gebruikers die het dashboard kunnen bekijken, kunnen de filters gebruiken, maar alleen de eigenaar en beheerders kunnen ze toevoegen, wijzigen of verwijderen.
+
+Snelfilters configureren:
+
+1. Klik op **Snelfilter** in de kop van het dashboard.
+
+1. Klik op **Snelfilter toevoegen** en kies een criterium uit de lijst.
+
+    * Alleen criteria die al worden gebruikt in één of meer tegels op het huidige dashboard kunnen als snelfilters worden toegevoegd.
+    * Om te zien welke criteria een tegel gebruikt, klikt u op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kiest u **Dataset weergeven**.
+
+1. U kunt eventueel de selecteerbare waarden beperken (bijvoorbeeld **Interne status** beperken tot alleen *Open* en *Gesloten*).
+
+1. Herhaal stappen 2-3 om meer filters toe te voegen.
+
+1. Klik op **OK** om de filterset op te slaan.
+
+![Snelfilter toevoegen dialoog met Interne status criteria en selecteerbare waarden -screenshot][img5]
 
 ## Vereisten
 
@@ -160,4 +191,7 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/show-dataset.png
+[img3]: ../../../media/loc/en/dashboard/quick-filter-dropdown.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img5]: ../../../media/loc/en/dashboard/add-quick-filter.png
