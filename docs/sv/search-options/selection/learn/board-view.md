@@ -2,10 +2,10 @@
 uid: help-sv-selection-board-view
 title: Använd tavlevy i urval
 description: Visualisera urval med tavlevy med gruppering, filter och dra-och-släpp-kort
-keywords: tavlevy, urvalsvy,urval, säljtavla, projekttavla, ärendetavla, kanban, gruppera efter, filterverktygsfält
+keywords: tavlevy, urvalsvy,urval, säljtavla, projekttavla, ärendetavla, kanban, gruppera efter, filterverktygsfält, försäljningsdatum märke, dagar i fas, dagar sedan registrerad
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,6 +139,25 @@ Det totala värdet visas **bredvid varje kolumnnamn**, vilket hjälper dig att f
 
 ![Tavlevy för försäljning med summerade belopp vid kolumnnamn -screenshot][img11]
 
+### Försäljningsdatum märke (endast försäljning)
+
+Du kan kontrollera vad det **grå märket** på varje försäljningskort visar i tavlevyn. Detta hjälper dig att förstå ålder vid ett ögonkast – antingen hur länge en försäljning har varit öppen eller hur länge den har varit i sin nuvarande fas.
+
+1. Klicka på <i class="ph ph-gear-six" aria-hidden="true"></i> för att öppna **Inställningar**-panelen.
+
+    ![Inställningspanel för försäljningstavla som visar alternativ för gruppering, sortering, sammanfattning, filter, försäljningsdatum märke och dölj stängda försäljningar. -screenshot][img13]
+
+1. Välj **Försäljningsdatum märke**.
+
+1. Välj ett av följande alternativ:
+
+    * **Dagar i fas:** Visar hur många dagar försäljningen har varit i sin nuvarande fas.
+    * **Dagar sedan registrerad:** Visar hur länge sedan försäljningen skapades.
+
+    ![Inställningsdialog för försäljningsdatum märke med alternativen Dagar i fas och Dagar sedan registrerad. -screenshot][img14]
+
+Det valda måttet visas som ett **grått märke** på varje försäljning i tavlevyn. Ett **rött märke** används fortfarande för att markera försenade försäljningar.
+
 ## Användningsområden
 
 Tavlevy stödjer olika roller och arbetsflöden. Här är exempel för säljare, projektmedlemmar, supportmedarbetare och chefer:
@@ -246,3 +265,5 @@ Använd gruppering kreativt för effektiv datahantering.
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png

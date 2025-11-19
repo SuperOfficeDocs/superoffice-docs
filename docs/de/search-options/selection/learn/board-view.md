@@ -2,10 +2,10 @@
 uid: help-de-selection-board-view
 title: Board-Ansicht in Selektionen verwenden
 description: Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
-keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Projektboard, Anfrageboard, Kanban, gruppieren nach, Filterleiste
+keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Projektboard, Anfrageboard, Kanban, gruppieren nach, Filterleiste, Verkaufsdatum-Badge, Tage in Phase, Tage seit Registrierung
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,6 +139,25 @@ Der Gesamtwert wird **neben jedem Spaltennamen** angezeigt und hilft Ihnen, die 
 
 ![Board-Ansicht für Verkäufe mit zusammengefassten Beträgen neben den Spaltennamen -screenshot][img11]
 
+### Verkaufsdatum-Badge (nur Verkäufe)
+
+Sie können steuern, was das **graue Badge** auf jeder Verkaufskarte in der Board-Ansicht anzeigt. Dies hilft Ihnen, das Alter auf einen Blick zu verstehen – entweder wie lange ein Verkauf geöffnet war oder wie lange er sich in seiner aktuellen Phase befindet.
+
+1. Klicken Sie auf <i class="ph ph-gear-six" aria-hidden="true"></i>, um das **Einstellungen**-Panel zu öffnen.
+
+    ![Einstellungspanel für Verkaufs-Board mit Optionen für Gruppierung, Sortierung, Zusammenfassung, Filter, Verkaufsdatum-Badge und geschlossene Verkäufe ausblenden. -screenshot][img13]
+
+1. Wählen Sie **Verkaufsdatum-Badge**.
+
+1. Wählen Sie eine der folgenden Optionen:
+
+    * **Tage in Phase:** Zeigt an, wie viele Tage der Verkauf in seiner aktuellen Phase geblieben ist.
+    * **Tage seit Registrierung:** Zeigt an, wie lange her die Erstellung des Verkaufs ist.
+
+    ![Verkaufsdatum-Badge-Einstellungsdialog mit den Optionen Tage in Phase und Tage seit Registrierung. -screenshot][img14]
+
+Die ausgewählte Metrik erscheint als **graues Badge** auf jedem Verkauf in der Board-Ansicht. Ein **rotes Badge** wird weiterhin verwendet, um überfällige Verkäufe zu markieren.
+
 ## Anwendungsfälle
 
 Die Board-Ansicht unterstützt verschiedene Rollen und Arbeitsweisen. Hier einige Beispiele für Vertriebsmitarbeitende, Projektmitglieder, Supportmitarbeiter und Managers:
@@ -246,3 +265,5 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png

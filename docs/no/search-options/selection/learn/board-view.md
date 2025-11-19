@@ -2,10 +2,10 @@
 uid: help-no-selection-board-view
 title: Bruk tavlevisning i utvalg
 description: Visualiser utvalg med tavlevisning med gruppering, filtre og dra-og-slipp-kort
-keywords: tavlevisning, utvalgsvisning, utvalg, salgstavle, prosjekttavle, sakstavle, kanban, gruppér etter, verktøylinje for filter
+keywords: tavlevisning, utvalgsvisning, utvalg, salgstavle, prosjekttavle, sakstavle, kanban, gruppér etter, verktøylinje for filter, salgsdato-merke, dager i fase, dager siden registrert
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,6 +139,25 @@ Totalverdien vises **ved siden av hvert kolonnenavn**, og hjelper deg med å fø
 
 ![Tavlevisning for salg som viser summerte verdier for beløp ved siden av hvert kolonnenavn -screenshot][img11]
 
+### Salgsdato-merke (kun salg)
+
+Du kan kontrollere hva det **grå merket** på hvert salgskort viser i tavlevisningen. Dette hjelper deg å forstå alder med et øyekast – enten hvor lenge et salg har vært åpent eller hvor lenge det har vært i sin nåværende fase.
+
+1. Velg <i class="ph ph-gear-six" aria-hidden="true"></i> for å åpne **Innstillinger**-panelet.
+
+    ![Innstillingspanel for salgstavle som viser alternativer for gruppering, sortering, oppsummering, filtre, salgsdato-merke og skjul lukkede salg. -screenshot][img13]
+
+1. Velg **Salgsdato-merke**.
+
+1. Velg ett av følgende alternativer:
+
+    * **Dager i fase:** Viser hvor mange dager salget har vært i sin nåværende fase.
+    * **Dager siden registrert:** Viser hvor lenge siden salget ble opprettet.
+
+    ![Innstillingsdialog for salgsdato-merke med alternativene Dager i fase og Dager siden registrert. -screenshot][img14]
+
+Den valgte målingen vises som et **grått merke** på hvert salg i tavlevisningen. Et **rødt merke** brukes fortsatt til å markere forfalte salg.
+
 ## Bruksområder
 
 Tavlevisning støtter ulike roller og arbeidsflyter. Her er eksempler for salgsrepresentanter, prosjektmedlemmer, supportmedarbeidere og ledere:
@@ -246,3 +265,5 @@ Bruk gruppering kreativt for å organisere og handle effektivt på data.
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png

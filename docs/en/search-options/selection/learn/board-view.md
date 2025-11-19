@@ -2,10 +2,10 @@
 uid: help-en-selection-board-view
 title: Use board view in selections
 description: Visualize selections using board view with grouping, filters, and drag-and-drop cards
-keywords: board view, selection view, selection, sales board, project board, request board, kanban, group by, filter toolbar
+keywords: board view, selection view, selection, sales board, project board, request board, kanban, group by, filter toolbar, sale date badge, days in stage, days since registered
 author: digitaldiina
-date: 11.04.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -139,6 +139,25 @@ The total value appears **next to each column name**, helping you track value di
 
 ![Sales board view showing summarized values for amount next to each column name -screenshot][img11]
 
+### Sale date badge (sales only)
+
+You can control what the **gray badge** on each sale card shows in the board view. This helps you understand aging at a glance—either how long a sale has been open or how long it has stayed in its current stage.
+
+1. Select <i class="ph ph-gear-six" aria-hidden="true"></i> to open the **Settings** panel.
+
+    ![Sales board settings panel showing options for grouping, sorting, summarizing, filters, sale date badge, and hide closed sales. -screenshot][img13]
+
+1. Select **Sale date badge**.
+
+1. Choose one of the following options:
+
+    * **Days in stage:** Shows how many days the sale has stayed in its current stage.
+    * **Days since registered:** Shows how long ago the sale was created.
+
+    ![Sale date badge settings dialog with the options Days in stage and Days since registered. -screenshot][img14]
+
+The selected metric appears as a **gray badge** on every sale in the board view. A **red badge** is still used to mark overdue sales.
+
 ## Use cases
 
 Board view supports different roles and workflows. Here are examples for sales representatives, project members, support agents, and managers:
@@ -246,3 +265,5 @@ Use grouping creatively to organize and act on data efficiently.
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
 [img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
+[img13]: ../../../../media/loc/en/search-options/board-view-settings-for-sales.png
+[img14]: ../../../../media/loc/en/search-options/sale-date-badge-setting.png
