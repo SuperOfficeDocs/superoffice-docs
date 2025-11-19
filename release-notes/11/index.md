@@ -29,7 +29,6 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Dashboard - Load a tile again on time outs][21] in Core CRM and Sales
 * [Selection - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
 * [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
-* [Company view - The default fields contains Priority and Our service contact][21] in Core CRM and Sales
 * [Requests - Filter messages on comments or replies][22] in Service
 
 ### 11.6 (06.11.2025)
