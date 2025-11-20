@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Dokument
@@ -214,19 +214,19 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-        - text: Dokument
+        - text: Document tabel
           url: ../../en/database/tables/document.md
         - text: SuggestedDocument
           url: ../../en/database/tables/suggesteddocument.md
         - text: DocTmpl
           url: ../../en/database/tables/doctmpl.md
-        - text: Tilbudstabel
+        - text: Quote tabel
           url: ../../en/database/tables/quote.md
         - text: Associate
           url: ../../en/database/tables/associate.md
         - text: Appointment
           url: ../../en/database/tables/appointment.md
-        - text: UddocSmall-tabel
+        - text: UddocSmall tabel
           url: ../../en/database/tables/uddocsmall.md
-        - text: UddocLarge-tabel
+        - text: UddocLarge tabel
           url: ../../en/database/tables/uddoclarge.md

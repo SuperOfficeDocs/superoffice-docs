@@ -181,21 +181,21 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-        - text: Sak
+        - text: Ticket tabell
           url: ../../en/database/tables/ticket.md
-        - text: Sakstype
+        - text: Ticket type tabell
           url: ../../en/database/tables/ticket-type.md
-        - text: Sakstatus
+        - text: Ticket status tabell
           url: ../../en/database/tables/ticket-status.md
-        - text: Sakprioritet
+        - text: Ticket priority tabell
           url: ../../en/database/tables/ticket-priority.md
-        - text: Svarmal
+        - text: Reply template tabell
           url: ../../en/database/tables/reply-template.md
-        - text: Melding
+        - text: Message tabell
           url: ../../en/database/tables/ej-message.md
-        - text: Firma
+        - text: Contact tabell
           url: ../../en/database/tables/contact.md
-        - text: Person
+        - text: Person tabell
           url: ../../en/database/tables/person.md
-        - text: Skjemainn sending
+        - text: Form submission tabell
           url: ../../en/database/tables/form-submission.md

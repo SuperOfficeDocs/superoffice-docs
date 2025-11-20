@@ -1,4 +1,4 @@
-### YamlMime:SubCategory 
+﻿### YamlMime:SubCategory 
 
 yamlMime: SubCategory
 title: Salg og tilbud
@@ -210,21 +210,21 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-        - text: Salg
+        - text: Sale tabell
           url: ../../en/database/tables/sale.md
-        - text: Salgstype
+        - text: Saletype tabell
           url: ../../en/database/tables/saletype.md
-        - text: Salgsinteressent
+        - text: Salestakeholder tabell
           url: ../../en/database/tables/salestakeholder.md
         - text: Årsak
           url: ../../en/database/tables/reason.md
-        - text: Valuta
+        - text: Currency tabell
           url: ../../en/database/tables/currency.md
-        - text: Tilbud
+        - text: Quote tabell
           url: ../../en/database/tables/quote.md
-        - text: Tilbud
+        - text: QuoteAlternative tabell
           url: ../../en/database/tables/quotealternative.md
-        - text: Tilbud
+        - text: QuoteLine tabell
           url: ../../en/database/tables/quoteline.md
         - text: UdsaleSmall
           url: ../../en/database/tables/udsalesmall.md

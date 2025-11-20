@@ -181,21 +181,21 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-        - text: Sag
+        - text: Ticket tabel
           url: ../../en/database/tables/ticket.md
-        - text: Sagstype
+        - text: Ticket type tabel
           url: ../../en/database/tables/ticket-type.md
-        - text: Sagsstatus
+        - text: Ticket status tabel
           url: ../../en/database/tables/ticket-status.md
-        - text: Sagsprioritet
+        - text: Ticket priority tabel
           url: ../../en/database/tables/ticket-priority.md
-        - text: Svarskabelon
+        - text: Reply template tabel
           url: ../../en/database/tables/reply-template.md
-        - text: Besked
+        - text: Message tabel
           url: ../../en/database/tables/ej-message.md
-        - text: Firma
+        - text: Contact tabel
           url: ../../en/database/tables/contact.md
-        - text: Person
+        - text: Person tabel
           url: ../../en/database/tables/person.md
-        - text: Formularindsendelse
+        - text: Form submission tabel
           url: ../../en/database/tables/form-submission.md

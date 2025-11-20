@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Firma
@@ -126,9 +126,9 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: UdcontactSmall-tabell
+          - text: UdcontactSmall tabell
             url: ../../en/database/tables/udcontactsmall.md
-          - text: UdcontactLarge-tabell
+          - text: UdcontactLarge tabell
             url: ../../en/database/tables/udcontactlarge.md
 
   - title: Automatisering
@@ -186,9 +186,9 @@ landingContent:
             url: ../../en/api/sql/howto/company/index.md
           - text: OSQL
             url: ../../en/api/osql/howto/company/index.md
-          - text: Rad
+          - text: Row
             url: ../../en/api/rows/howto/company/index.md
-          - text: Enhet
+          - text: Entity
             url: ../../en/api/entities/howto/company/index.md
           - text: Webtjenester, REST
             url: ../../en/api/web-services/howto/company/index.md
@@ -198,19 +198,19 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: Contact-tabell
+          - text: Contact tabell
             url: ../../en/database/tables/contact.md
-          - text: Person-tabell
+          - text: Person tabell
             url: ../../en/database/tables/person.md
-          - text: Associate-tabell
+          - text: Associate tabell
             url: ../../en/database/tables/associate.md
-          - text: UserGroup-tabell
+          - text: UserGroup tabell
             url: ../../en/database/tables/usergroup.md
-          - text: Address-tabell
+          - text: Address tabell
             url: ../../en/database/tables/address.md
-          - text: Country-tabell
+          - text: Country tabell
             url: ../../en/database/tables/country.md
-          - text: Category-tabell
+          - text: Category tabell
             url: ../../en/database/tables/category.md
-          - text: Business-tabell
+          - text: Business tabell
             url: ../../en/database/tables/business.md

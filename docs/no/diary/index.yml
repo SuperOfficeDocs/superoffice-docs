@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Dagbok (oppfølging)
@@ -138,9 +138,9 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: UdappntSmall-tabell
+          - text: UdappntSmall tabell
             url: ../../en/database/tables/udappntsmall.md
-          - text: UdappntLarge-tabell
+          - text: UdappntLarge tabell
             url: ../../en/database/tables/udappntlarge.md
 
   - title: Automatisering
@@ -207,9 +207,9 @@ landingContent:
             url: ../../en/api/sql/howto/diary/index.md
           - text: OSQL
             url: ../../en/api/osql/howto/diary/create-apt-osql.md
-          - text: Rad
+          - text: Row
             url: ../../en/api/rows/howto/diary/create-apt-row.md
-          - text: Enhet
+          - text: Entity
             url: ../../en/api/entities/howto/diary/index.md
           - text: Webtjenester
             url: ../../en/api/web-services/howto/diary/index.md
@@ -221,23 +221,23 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: Appointment-tabell
+          - text: Appointment tabell
             url: ../../en/database/tables/appointment.md
-          - text: Invitation-tabell
+          - text: Invitation tabell
             url: ../../en/database/tables/invitation.md
-          - text: RecurrenceRule-tabell
+          - text: RecurrenceRule tabell
             url: ../../en/database/tables/recurrencerule.md
-          - text: Priority-tabell
+          - text: Priority tabell
             url: ../../en/database/tables/priority.md
-          - text: DiaryView-tabell
+          - text: DiaryView tabell
             url: ../../en/database/tables/diaryview.md
-          - text: Task-tabell
+          - text: Task tabell
             url: ../../en/database/tables/task.md
-          - text: Prosjekt-tabell
+          - text: Project tabell
             url: ../../en/database/tables/project.md
-          - text: SuggestedAppointment-tabell
+          - text: SuggestedAppointment tabell
             url: ../../en/database/tables/suggestedappointment.md
-          - text: Associate-tabell
+          - text: Associate tabell
             url: ../../en/database/tables/associate.md
-          - text: UserGroup-tabell
+          - text: UserGroup tabell
             url: ../../en/database/tables/usergroup.md

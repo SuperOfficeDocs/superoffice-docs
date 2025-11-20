@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Dokument
@@ -226,7 +226,7 @@ landingContent:
           url: ../../en/database/tables/associate.md
         - text: Appointment
           url: ../../en/database/tables/appointment.md
-        - text: UddocSmall-tabell
+        - text: UddocSmall tabell
           url: ../../en/database/tables/uddocsmall.md
-        - text: UddocLarge-tabell
+        - text: UddocLarge tabell
           url: ../../en/database/tables/uddoclarge.md

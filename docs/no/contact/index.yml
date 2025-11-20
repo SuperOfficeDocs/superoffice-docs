@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Person
@@ -197,9 +197,9 @@ landingContent:
             url: ../../en/api/sql/howto/contact/index.md
           - text: OSQL
             url: ../../en/api/osql/howto/contact/index.md
-          - text: Rad
+          - text: Row
             url: ../../en/api/rows/howto/contact/index.md
-          - text: Enhet
+          - text: Entity
             url: ../../en/api/entities/howto/contact/index.md
           - text: Webtjenester, REST
             url: ../../en/api/web-services/howto/contact/index.md
@@ -209,19 +209,19 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: Person-tabell
+          - text: Person tabell
             url: ../../en/database/tables/contact.md
-          - text: Person-tabell
+          - text: Person tabell
             url: ../../en/database/tables/person.md
-          - text: Associate-tabell
+          - text: Associate tabell
             url: ../../en/database/tables/associate.md
-          - text: Address-tabell
+          - text: Address tabell
             url: ../../en/database/tables/address.md
-          - text: Country-tabell
+          - text: Country tabell
             url: ../../en/database/tables/country.md
-          - text: Business-tabell
+          - text: Business tabell
             url: ../../en/database/tables/business.md
-          - text: UdpersonSmall-tabell
+          - text: UdpersonSmall tabell
             url: ../../en/database/tables/udpersonsmall.md
-          - text: UdpersonLarge-tabell
+          - text: UdpersonLarge tabell
             url: ../../en/database/tables/udpersonlarge.md

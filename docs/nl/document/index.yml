@@ -226,7 +226,7 @@ landingContent:
           url: ../../en/database/tables/associate.md
         - text: Appointment
           url: ../../en/database/tables/appointment.md
-        - text: UddocSmall
+        - text: UddocSmall tabel
           url: ../../en/database/tables/uddocsmall.md
-        - text: UddocLarge
+        - text: UddocLarge tabel
           url: ../../en/database/tables/uddoclarge.md

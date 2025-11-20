@@ -1,4 +1,4 @@
-### YamlMime:SubCategory
+﻿### YamlMime:SubCategory
 
 yamlMime: SubCategory
 title: Person
@@ -209,19 +209,19 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: Person-tabel
+          - text: Person tabel
             url: ../../en/database/tables/contact.md
-          - text: Person-tabel
+          - text: Person tabel
             url: ../../en/database/tables/person.md
-          - text: Associate-tabel
+          - text: Associate tabel
             url: ../../en/database/tables/associate.md
-          - text: Address-tabel
+          - text: Address tabel
             url: ../../en/database/tables/address.md
-          - text: Country-tabel
+          - text: Country tabel
             url: ../../en/database/tables/country.md
-          - text: Business-tabel
+          - text: Business tabel
             url: ../../en/database/tables/business.md
-          - text: UdpersonSmall-tabel
+          - text: UdpersonSmall tabel
             url: ../../en/database/tables/udpersonsmall.md
-          - text: UdpersonLarge-tabel
+          - text: UdpersonLarge tabel
             url: ../../en/database/tables/udpersonlarge.md
