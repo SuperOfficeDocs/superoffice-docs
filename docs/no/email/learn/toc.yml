@@ -1,5 +1,7 @@
 items:
 - name: Oversikt
+  href: ../index.yml
+- name: Introduksjon
   href: index.md
 - name: Endre standard e-postklient i SuperOffice
   href: change-default-mail-client.md
