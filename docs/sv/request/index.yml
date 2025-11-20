@@ -1,0 +1,201 @@
+### YamlMime:SubCategory 
+
+yamlMime: SubCategory
+title: Ärende
+summary: Ärende är huvudfunktionen i SuperOffice Service. Här hanterar du ärenden och förfrågningar som finns i systemet. Du kan också skapa interna och externa ärenden, svara på inkommande förfrågningar och få en översikt över statusen för alla ärenden i systemet. Ärendehantering kräver en Service Essentials-licens. Vissa funktioner kräver en premiumplan - se översikten över användarplaner för detaljer.
+
+metadata:
+  title: Ärende
+  description: Här hanterar du ärenden och förfrågningar som finns i systemet. Du kan också skapa interna och externa ärenden, svara på inkommande förfrågningar och få en översikt över statusen för alla ärenden i systemet.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduktion till ärenden
+          url: learn/index.md
+        - text: Ärendestatus
+          url: admin/status/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Hur du hittar ett ärende
+          url: learn/find.md
+        - text: Hur du använder ärenden i dashboard-paneler
+          url: ../dashboard/learn/show-requests.md
+
+  - title: Ärendehantering
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hur du hanterar kundärenden
+          url: https://www.youtube.com/watch?v=2mRyStK5xPs
+        - text: Hur du registrerar ärende från inkommande samtal
+          url: https://www.youtube.com/watch?v=S4kihuWHZGY
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Hur du skapar ett ärende
+          url: learn/create.md
+        - text: Hur du arkiverar e-post som ärenden
+          url: ../../../integrations/mail-link/archive-as-request.md
+        - text: Ta ansvar för ett ärende
+          url: learn/accept.md
+        - text: Hur du svarar kunder
+          url: learn/reply.md
+        - text: Hur du konfigurerar Service-brevlådor
+          url: ../knowledge-base/learn/email-addresses.md
+
+  - title: Kategori, prioritet och eskalering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Ärendekategorier
+          url: admin/category/index.md
+        - text: Prioritet
+          url: admin/priority/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hur du konfigurerar kategorier
+          url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+
+  - title: Svarsmallar
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/request/dev/index.md#reply-templates
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Standardsvarsmallar
+          url: admin/system-templates.md
+        - text: Variabler för svarsmallar
+          url: reply-templates/learn/template-variables.md
+
+  - title: Anpassning av användargränssnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Skärmdesigner
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webbpaneler
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Anpassade skärmar (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Alternativ i aktivitetsmenyn
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Anpassade fält
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/index.yml
+        - text: Utlösare
+          url: ../../en/automation/trigger/index.md
+        - text: Brevlåda före sparande-händelse
+          url: ../../en/automation/event-model/mailbox-before-save.md
+        - text: Brevlåda efter sparande-händelse
+          url: ../../en/automation/event-model/mailbox-after-save.md
+        - text: Händelse för att spara ärende
+          url: ../../en/automation/event-model/saving-a-request.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - ärendehändelser
+          url: ../../en/automation/webhook/reference/ticket-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/crmscript/howto/request/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Skapa ärende
+          url: ../../en/automation/crmscript/howto/request/create.md
+        - text: Lägga till eller uppdatera meddelande
+          url: ../../en/automation/crmscript/howto/request/add-message.md
+        - text: Acceptera
+          url: ../../en/automation/crmscript/howto/request/accept.md
+        - text: Svara
+          url: ../../en/automation/crmscript/howto/request/reply.md
+        - text: Delegera
+          url: ../../en/automation/crmscript/howto/request/delegate.md
+        - text: Eskalera
+          url: ../../en/automation/crmscript/howto/request/escalate.md
+        - text: Dela och slå ihop
+          url: ../../en/automation/crmscript/howto/request/split-merge.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Arbeta med ärenden i API
+            url: ../../en/request/dev/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Ticket/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Ticket/index.md
+        - text: SOAP (ticket-port)
+          url: ../../en/api/reference/soap/customer-service/ports/ticket/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Konfigurera SOAP-portar
+          url: ../admin/onsite/configure-soap.md
+
+  - title: Databastabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Ticket tabellen
+          url: ../../en/database/tables/ticket.md
+        - text: Ticket type tabellen
+          url: ../../en/database/tables/ticket-type.md
+        - text: Ticket status tabellen
+          url: ../../en/database/tables/ticket-status.md
+        - text: Ticket priority tabellen
+          url: ../../en/database/tables/ticket-priority.md
+        - text: Reply template tabellen
+          url: ../../en/database/tables/reply-template.md
+        - text: Message tabellen
+          url: ../../en/database/tables/ej-message.md
+        - text: Contact tabellen
+          url: ../../en/database/tables/contact.md
+        - text: Person tabellen
+          url: ../../en/database/tables/person.md
+        - text: Form submission tabellen
+          url: ../../en/database/tables/form-submission.md

@@ -1,0 +1,227 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Person
+summary: Velkommen til personområdet, hvor du finder relevante links til alt, der vedrører personer.
+
+metadata:
+  title: Person
+  description: "Lær om og arbejde med personer, kunder og medarbejdere: en person i brugergrænsefladen og en person i databasen."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Personer og personkortet
+            url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Opret ny person
+            url: learn/create.md
+          - text: Rediger personinfo
+            url: learn/edit.md
+          - text: Flyt en person
+            url: learn/move.md
+          - text: Flet personer
+            url: learn/merge-contacts.md
+          - text: Slet en person
+            url: learn/delete.md
+          - text: Send e-mail til en person
+            url: learn/send-email.md
+          - text: Ring til person
+            url: learn/dial.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Sådan håndterer du kundeinformation
+            url: https://www.youtube.com/watch?v=10VQCTgxODc
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Skabelonvariabler
+            url: ../document/templates/variables/for-selected-contact.md
+          - text: Brugerindstilling - Associates
+            url: ../../en/admin/user-preferences/reference/associates.md
+          - text: Brugerindstilling - FindContact
+            url: ../../en/admin/user-preferences/reference/find-contact.md
+
+  - title: Privatliv og GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementeringsvejledning
+            url: ../security/privacy/admin/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Rediger privatlivsindstillinger for en person
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: Send e-mail med privatlivsbekræftelse
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: Generér rapport over personoplysninger
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Slet poster permanent
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Tilføj samtykkeformål
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Tilføj juridisk grundlag
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Tilføj privatlivskilde
+            url: ../security/privacy/admin/add-source.md
+          - text: Rediger e-mail med privatlivsbekræftelse
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+
+  - title: Relationer
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Oversigt over relationer
+            url: ../learn/basics/relations.md
+          - text: Relationer-fanen
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Tilføje elementer til relationslisten
+            url: ../admin/lists/specialized-lists.md#relation
+
+  - title: Import og massehandlinger
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Masseopdater personinfo
+            url: ../learn/basics/bulk-update.md
+          - text: Brug papirkurven til at gendanne personer
+            url: ../learn/basics/deleting-elements.md#restore
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Sådan importerer du personer
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+
+  - title: Tilpasning af brugergrænseflade
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screendesigner
+            url: ../customization/screen-designer/admin/index.md
+          - text: Webpaneler
+            url: ../customization/web-panels/admin/index.md
+          - text: Elementer i Opgave-menuen
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Brugerdefinerede felter
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - liste over personer fra et firma
+            url: ../../en/customization/soprotocol/howto/open-contact.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Sådan tilføjer du brugerdefinerede felter
+            url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overblik
+            url: ../../en/automation/index.yml
+          - text: Udløsere
+            url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Webhooks - personevents
+            url: ../../en/automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - synkronisere bruger
+            url: ../../en/online/identity/scim/provisioning/sync-user.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overblik (kunde, person, bruger)
+          url: ../../en/automation/crmscript/howto/contact/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Oprette og opdatere kunder
+            url: ../../en/automation/crmscript/howto/contact/create-customer.md
+          - text: Hente kundeinfo
+            url: ../../en/automation/crmscript/howto/contact/get-customer.md
+          - text: Søge efter kunder
+            url: ../../en/automation/crmscript/howto/contact/find-customer.md
+          - text: Hente interesser
+            url: ../../en/automation/crmscript/howto/contact/get-interests.md
+          - text: Oprette bruger
+            url: ../../en/automation/crmscript/howto/contact/create-user.md
+          - text: Hente bruger
+            url: ../../en/automation/crmscript/howto/contact/get-user.md
+          - text: Angive/fjerne interesse på person
+            url: ../../en/automation/crmscript/howto/interests/contact-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Arbejde med personer i API
+            url: ../../en/contact/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SQL
+            url: ../../en/api/sql/howto/contact/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/contact/index.md
+          - text: Row
+            url: ../../en/api/rows/howto/contact/index.md
+          - text: Entity
+            url: ../../en/api/entities/howto/contact/index.md
+          - text: Webservices, REST
+            url: ../../en/api/web-services/howto/contact/index.md
+
+  - title: Databasetabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Person tabel
+            url: ../../en/database/tables/contact.md
+          - text: Person tabel
+            url: ../../en/database/tables/person.md
+          - text: Associate tabel
+            url: ../../en/database/tables/associate.md
+          - text: Address tabel
+            url: ../../en/database/tables/address.md
+          - text: Country tabel
+            url: ../../en/database/tables/country.md
+          - text: Business tabel
+            url: ../../en/database/tables/business.md
+          - text: UdpersonSmall tabel
+            url: ../../en/database/tables/udpersonsmall.md
+          - text: UdpersonLarge tabel
+            url: ../../en/database/tables/udpersonlarge.md

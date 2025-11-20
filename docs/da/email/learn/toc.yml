@@ -1,5 +1,7 @@
 items:
 - name: Oversigt
+  href: ../index.yml
+- name: Introduktion
   href: index.md
 - name: Skift standardmailklient i SuperOffice
   href: change-default-mail-client.md

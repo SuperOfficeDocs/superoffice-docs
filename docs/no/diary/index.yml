@@ -1,0 +1,243 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Dagbok (oppfølging)
+summary: Velkommen til dagbokområdet der du finner relevante lenker til alt som har med oppfølginger og oppgaver å gjøre.
+
+metadata:
+  title: Dagbok (oppfølging)
+  description: Inneholder detaljer knyttet til oppfølginger, aktiviteter og salg.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introduksjon
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Dagbok-skjermbildet
+            url: learn/index.md
+          - text: Typer oppfølginger
+            url: learn/follow-ups.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Opprette en oppfølging
+            url: learn/create-follow-up.md
+          - text: Redigere eller slette oppfølging
+            url: learn/edit-follow-up.md
+          - text: Fullføre oppfølging
+            url: learn/change-completed-status.md
+          - text: Vise andre dagbøker
+            url: learn/other-diaries.md
+          - text: Gruppevisning
+            url: learn/group-view.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Legge til oppfølging i prosjekt
+            url: https://www.youtube.com/watch?v=YQr5B5IU7XY
+          - text: Administrere oppgaver og optimalisere tidsplanen
+            url: https://www.youtube.com/watch?v=w4ywpuX2SPM
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Malvariabler
+            url: ../document/templates/variables/for-appointments.md
+          - text: Brukerinnstilling - AppointmentDialog
+            url: ../../en/admin/user-preferences/reference/appointment-dialog.md
+          - text: Brukerinnstilling - DiaryView
+            url: ../../en/admin/user-preferences/reference/diary-view.md
+
+  - title: Videomøter
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Integrasjon for videomøter
+            url: ../../../integrations/video-meetings/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Opprette videomøte
+            url: ../../../integrations/video-meetings/howto/create.md
+          - text: Delta i videomøte
+            url: ../../../integrations/video-meetings/howto/join.md
+          - text: Konfigurere e-postinvitasjoner
+            url: ../../../integrations/video-meetings/howto/configure-email-invitations.md
+          - text: Koble til leverandør
+            url: ../../../integrations/video-meetings/howto/connect-provider.md
+          - text: Koble fra leverandør
+            url: ../../../integrations/video-meetings/howto/disconnect-provider.md
+          - text: Fjerne konfigurasjon for brukere
+            url: ../../../integrations/video-meetings/howto/disconnect-user.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Opprette og delta i videomøte
+            url: https://www.youtube.com/watch?v=XDg_k086TRA
+
+  - title: Invitasjoner
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Oversikt
+            url: learn/invitation/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Legge til deltaker i oppfølging
+            url: learn/invitation/add-attendee.md
+          - text: Godta eller avslå
+            url: learn/invitation/accept-decline.md
+
+  - title: Gjentakelser
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Oversikt
+            url: learn/recurrence/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Opprette gjentakende oppfølging
+            url: learn/recurrence/create.md
+          - text: Stoppe gjentakende oppfølging
+            url: learn/recurrence/stop.md
+
+  - title: Tilpasning av brukergrensesnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Skjermdesigner
+            url: ../customization/screen-designer/admin/index.md
+          - text: Webpaneler
+            url: ../customization/web-panels/admin/index.md
+          - text: Elementer i Oppgave-menyen
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Liste - oppfølgingstype
+            url: ../diary/admin/add-follow-up-type.md
+          - text: Egendefinerte felt
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - opprette oppfølging
+            url: ../../en/customization/soprotocol/howto/create-follow-up.md
+          - text: SoProtocol - åpne oppfølgingsdialog
+            url: ../../en/customization/soprotocol/howto/open-follow-up.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: UdappntSmall tabell
+            url: ../../en/database/tables/udappntsmall.md
+          - text: UdappntLarge tabell
+            url: ../../en/database/tables/udappntlarge.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Oversikt
+            url: ../../en/automation/index.yml
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Trigger SalesAfterSaveAppointment
+            url: ../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
+          - text: Trigger SalesBeforeSaveAppointment
+            url: ../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
+          - text: Webhook-aktivitetshendelser
+            url: ../../en/automation/webhook/reference/activity-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Oversikt
+            url: ../../en/automation/crmscript/howto/diary/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Hente avtaler
+            url: ../../en/automation/crmscript/howto/diary/get-appointment.md
+          - text: Opprette avtale
+            url: ../../en/automation/crmscript/howto/diary/create-appointment.md
+          - text: Oppdatere og slette avtaler
+            url: ../../en/automation/crmscript/howto/diary/update-appointment.md
+          - text: Arbeide med oppgavelister
+            url: ../../en/automation/crmscript/howto/diary/task.md
+          - text: Vise gjentakelsesinformasjon
+            url: ../../en/automation/crmscript/howto/diary/get-recurrence-info.md
+          - text: Hente oppfølginger i en serie
+            url: ../../en/automation/crmscript/howto/diary/get-appointments-in-series.md
+          - text: Opprette gjentakende oppfølginger
+            url: ../../en/automation/crmscript/howto/diary/create-recurring-appointment.md
+          - text: Oppdatere gjentakende oppfølginger
+            url: ../../en/automation/crmscript/howto/diary/update-recurrence.md
+          - text: Opprette invitasjon
+            url: ../../en/automation/crmscript/howto/diary/create-invitation.md
+          - text: Godta invitasjon
+            url: ../../en/automation/crmscript/howto/diary/accept-invitation.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Arbeide med oppfølginger (avtaler) i API
+            url: ../../en/diary/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SQL
+            url: ../../en/api/sql/howto/diary/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/diary/create-apt-osql.md
+          - text: Row
+            url: ../../en/api/rows/howto/diary/create-apt-row.md
+          - text: Entity
+            url: ../../en/api/entities/howto/diary/index.md
+          - text: Webtjenester
+            url: ../../en/api/web-services/howto/diary/index.md
+          - text: Arkiv (søk)
+            url: ../../en/api/archive-providers/howto/diary/invitation-archive.md
+
+  - title: Databasetabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Appointment tabell
+            url: ../../en/database/tables/appointment.md
+          - text: Invitation tabell
+            url: ../../en/database/tables/invitation.md
+          - text: RecurrenceRule tabell
+            url: ../../en/database/tables/recurrencerule.md
+          - text: Priority tabell
+            url: ../../en/database/tables/priority.md
+          - text: DiaryView tabell
+            url: ../../en/database/tables/diaryview.md
+          - text: Task tabell
+            url: ../../en/database/tables/task.md
+          - text: Project tabell
+            url: ../../en/database/tables/project.md
+          - text: SuggestedAppointment tabell
+            url: ../../en/database/tables/suggestedappointment.md
+          - text: Associate tabell
+            url: ../../en/database/tables/associate.md
+          - text: UserGroup tabell
+            url: ../../en/database/tables/usergroup.md

@@ -37,7 +37,7 @@ landingContent:
         typeDesc: concept
         links:
           - text: What is SuperOffice Inbox?
-            url: inbox/index.md
+            url: inbox/learn/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:

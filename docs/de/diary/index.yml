@@ -1,0 +1,243 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Kalender (Folgeaufgabe)
+summary: Willkommen im Kalenderbereich, in dem Sie relevante Links zu allem finden, was mit Folgeaufgaben und Aufgaben zu tun hat.
+
+metadata:
+  title: Kalender (Folgeaufgabe)
+  description: Enthält Details zu Folgeaufgaben, Aktivitäten und Verkauf.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Einführung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Kalender-Bildschirm
+            url: learn/index.md
+          - text: Arten von Folgeaufgaben
+            url: learn/follow-ups.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Folgeaufgabe erstellen
+            url: learn/create-follow-up.md
+          - text: Folgeaufgabe bearbeiten oder löschen
+            url: learn/edit-follow-up.md
+          - text: Folgeaufgabe abschließen
+            url: learn/change-completed-status.md
+          - text: Andere Kalender anzeigen
+            url: learn/other-diaries.md
+          - text: Gruppenansicht
+            url: learn/group-view.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Folgeaufgabe zu Projekt hinzufügen
+            url: https://www.youtube.com/watch?v=YQr5B5IU7XY
+          - text: Aufgaben verwalten und Zeitplan optimieren
+            url: https://www.youtube.com/watch?v=w4ywpuX2SPM
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Vorlagenvariablen
+            url: ../document/templates/variables/for-appointments.md
+          - text: Benutzereinstellung - AppointmentDialog
+            url: ../../en/admin/user-preferences/reference/appointment-dialog.md
+          - text: Benutzereinstellung - DiaryView
+            url: ../../en/admin/user-preferences/reference/diary-view.md
+
+  - title: Videobesprechungen
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Integration für Videobesprechungen
+            url: ../../../integrations/video-meetings/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Videobesprechung erstellen
+            url: ../../../integrations/video-meetings/howto/create.md
+          - text: An Videobesprechung teilnehmen
+            url: ../../../integrations/video-meetings/howto/join.md
+          - text: E-Mail-Einladungen konfigurieren
+            url: ../../../integrations/video-meetings/howto/configure-email-invitations.md
+          - text: Anbieter verbinden
+            url: ../../../integrations/video-meetings/howto/connect-provider.md
+          - text: Anbieter trennen
+            url: ../../../integrations/video-meetings/howto/disconnect-provider.md
+          - text: Konfiguration für Benutzer entfernen
+            url: ../../../integrations/video-meetings/howto/disconnect-user.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Videobesprechung erstellen und teilnehmen
+            url: https://www.youtube.com/watch?v=XDg_k086TRA
+
+  - title: Einladungen
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: learn/invitation/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Teilnehmer zu Folgeaufgabe hinzufügen
+            url: learn/invitation/add-attendee.md
+          - text: Annehmen oder ablehnen
+            url: learn/invitation/accept-decline.md
+
+  - title: Wiederholung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: learn/recurrence/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Wiederkehrende Folgeaufgabe erstellen
+            url: learn/recurrence/create.md
+          - text: Wiederkehrende Folgeaufgabe stoppen
+            url: learn/recurrence/stop.md
+
+  - title: Anpassung der Benutzeroberfläche
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../customization/screen-designer/admin/index.md
+          - text: Web-Bildschirm
+            url: ../customization/web-panels/admin/index.md
+          - text: Elemente im Aufgabenmenü
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Liste - Folgeaufgabentyp
+            url: ../diary/admin/add-follow-up-type.md
+          - text: Benutzerdefinierte Felder
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - Folgeaufgabe erstellen
+            url: ../../en/customization/soprotocol/howto/create-follow-up.md
+          - text: SoProtocol - Dialog für Folgeaufgabe öffnen
+            url: ../../en/customization/soprotocol/howto/open-follow-up.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: UdappntSmall Tabelle
+            url: ../../en/database/tables/udappntsmall.md
+          - text: UdappntLarge Tabelle
+            url: ../../en/database/tables/udappntlarge.md
+
+  - title: Automatisierung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../../en/automation/index.yml
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Trigger SalesAfterSaveAppointment
+            url: ../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
+          - text: Trigger SalesBeforeSaveAppointment
+            url: ../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
+          - text: Webhook - Aktivitätsereignisse
+            url: ../../en/automation/webhook/reference/activity-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../../en/automation/crmscript/howto/diary/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Termine abrufen
+            url: ../../en/automation/crmscript/howto/diary/get-appointment.md
+          - text: Termin erstellen
+            url: ../../en/automation/crmscript/howto/diary/create-appointment.md
+          - text: Termine aktualisieren und löschen
+            url: ../../en/automation/crmscript/howto/diary/update-appointment.md
+          - text: Mit Aufgabenlisten arbeiten
+            url: ../../en/automation/crmscript/howto/diary/task.md
+          - text: Wiederholungsinformationen anzeigen
+            url: ../../en/automation/crmscript/howto/diary/get-recurrence-info.md
+          - text: Folgeaufgaben in einer Serie abrufen
+            url: ../../en/automation/crmscript/howto/diary/get-appointments-in-series.md
+          - text: Wiederkehrende Folgeaufgaben erstellen
+            url: ../../en/automation/crmscript/howto/diary/create-recurring-appointment.md
+          - text: Wiederkehrende Folgeaufgaben aktualisieren
+            url: ../../en/automation/crmscript/howto/diary/update-recurrence.md
+          - text: Einladung erstellen
+            url: ../../en/automation/crmscript/howto/diary/create-invitation.md
+          - text: Einladung annehmen
+            url: ../../en/automation/crmscript/howto/diary/accept-invitation.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Mit Folgeaktivitäten (Terminen) in API arbeiten
+            url: ../../en/diary/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../../en/api/sql/howto/diary/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/diary/create-apt-osql.md
+          - text: Row
+            url: ../../en/api/rows/howto/diary/create-apt-row.md
+          - text: Entity
+            url: ../../en/api/entities/howto/diary/index.md
+          - text: Webdienste
+            url: ../../en/api/web-services/howto/diary/index.md
+          - text: Archiv (Suche)
+            url: ../../en/api/archive-providers/howto/diary/invitation-archive.md
+
+  - title: Datenbanktabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Appointment Tabelle
+            url: ../../en/database/tables/appointment.md
+          - text: Invitation Tabelle
+            url: ../../en/database/tables/invitation.md
+          - text: RecurrenceRule Tabelle
+            url: ../../en/database/tables/recurrencerule.md
+          - text: Priority Tabelle
+            url: ../../en/database/tables/priority.md
+          - text: DiaryView Tabelle
+            url: ../../en/database/tables/diaryview.md
+          - text: Task Tabelle
+            url: ../../en/database/tables/task.md
+          - text: Project Tabelle
+            url: ../../en/database/tables/project.md
+          - text: SuggestedAppointment Tabelle
+            url: ../../en/database/tables/suggestedappointment.md
+          - text: Associate Tabelle
+            url: ../../en/database/tables/associate.md
+          - text: UserGroup Tabelle
+            url: ../../en/database/tables/usergroup.md

@@ -1,0 +1,232 @@
+﻿### YamlMime:SubCategory 
+
+yamlMime: SubCategory
+title: Verkoop en offerte
+summary: Welkom bij het gebied voor verkoop en offertes, waar je relevante links vindt naar alles wat te maken heeft met verkoop, verkoopgids, verkoopanalyse (SAINT), offertes en producten.
+
+metadata:
+  title: Verkoop en offerte
+  description: Verkoop, verkoopgids, verkoopanalyse (SAINT), offerte en product.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Inleiding
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Inleiding tot verkoop
+          url: learn/index.md
+        - text: Stakeholders
+          url: learn/stakeholders/index.md
+        - text: Pipelinebeheer
+          url: learn/sales-targets/index.md
+        - text: Forecast en selecties
+          url: learn/forecasting.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Een lead registreren
+          url: learn/create.md
+        - text: Verkoopdoelen instellen
+          url: learn/sales-targets/create.md
+        - text: Verkooptype toevoegen (lijst)
+          url: admin/sale-type.md
+        - text: Verkoopfase toevoegen (lijst)
+          url: admin/sale-stage.md 
+        - text: Valuta toevoegen (lijst)
+          url: admin/add-currency.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Sjabloonvariabelen
+          url: ../document/templates/variables/for-sales.md
+
+  - title: Verkoopgids (workflow)
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: De verkoopgids
+          url: learn/sales-guide/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Maken
+          url: admin/create-sales-guide.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Productdemo van de verkoopgids
+          url: https://www.youtube.com/watch?v=rOjUHDgYPGk
+        - text: De verkoopprocedure visualiseren
+          url: https://www.youtube.com/watch?v=KB3WWZjXlYc
+
+  - title: Offerte
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: learn/quote/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Een offerte maken en producten toevoegen
+          url: learn/quote/create.md
+        - text: Alternatief toevoegen
+          url: learn/quote/add-alternative.md
+        - text: Een order plaatsen
+          url: learn/quote/place-order.md
+        - text: ERP-verbinding toevoegen (Quote Connector)
+          url: admin/quote/set-up-quote-connector.md
+        - text: Prijslijst toevoegen
+          url: admin/quote/price-list-and-products.md
+        - text: Product toevoegen aan prijslijst
+          url: admin/quote/price-list-and-products.md#add-product
+        - text: Productvelden configureren
+          url: admin/quote/configure-product-fields.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Verkoopoffertes opvolgen
+          url: https://www.youtube.com/watch?v=lzJ6AsAhyE4
+
+  - title: SAINT
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Wat is SAINT en wat kan het doen
+          url: ../saint/learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Over SAINT-beheer
+          url: ../saint/admin/index.md
+        - text: Activiteitsmonitors instellen
+          url: ../saint/admin/set-up.md
+        - text: Verkoopbedragenklasse toevoegen (lijst)
+          url: ../saint/admin/sale-amount-class.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: De dialoog Status weergeven
+          url: ../saint/learn/index.md#dialog
+
+  - title: UI-aanpassing
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Schermontwerper
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webpanelen
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Aangepaste schermen (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Taakmenu-items
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Aangepaste velden
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/index.yml
+        - text: Triggers
+          url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - verkoopgebeurtenissen
+          url: ../../en/automation/webhook/reference/sale-events.md
+        - text: Webhooks - stakeholdergebeurtenissen
+          url: ../../en/automation/webhook/reference/sale-stakeholder-events.md
+        - text: Webhooks - offertegebeurtenissen
+          url: ../../en/automation/webhook/reference/quote-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/crmscript/howto/sale/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Verkoop maken
+          url: ../../en/automation/crmscript/howto/sale/create.md
+        - text: Ophalen
+          url: ../../en/automation/crmscript/howto/sale/get.md
+        - text: Bijwerken
+          url: ../../en/automation/crmscript/howto/sale/update.md
+        - text: Stakeholders
+          url: ../../en/automation/crmscript/howto/sale/stakeholders.md
+        - text: Gidsen
+          url: ../../en/automation/crmscript/howto/sale/guides.md
+        - text: Valuta
+          url: ../../en/automation/crmscript/howto/sale/currency.md
+        - text: Verloren of gewonnen
+          url: ../../en/automation/crmscript/howto/sale/lost-or-sold.md
+        - text: Voorbeelden
+          url: ../../en/automation/crmscript/howto/sale/samples.md
+        - text: Offerte maken
+          url: ../../en/automation/crmscript/howto/quote/create.md
+
+  - title: API
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Sale/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Sale/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Verkoop koppelen aan vervolgactiviteit (webservices)
+          url: ../../en/api/web-services/howto/sale/index.md
+
+  - title: Databasetabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Sale tabel
+          url: ../../en/database/tables/sale.md
+        - text: Saletype tabel
+          url: ../../en/database/tables/saletype.md
+        - text: Salestakeholder tabel
+          url: ../../en/database/tables/salestakeholder.md
+        - text: Reason tabel
+          url: ../../en/database/tables/reason.md
+        - text: Currency tabel
+          url: ../../en/database/tables/currency.md
+        - text: Quote tabel
+          url: ../../en/database/tables/quote.md
+        - text: QuoteAlternative tabel
+          url: ../../en/database/tables/quotealternative.md
+        - text: QuoteLine tabel
+          url: ../../en/database/tables/quoteline.md
+        - text: UdsaleSmall
+          url: ../../en/database/tables/udsalesmall.md
+        - text: UdsaleLarge
+          url: ../../en/database/tables/udsalelarge.md

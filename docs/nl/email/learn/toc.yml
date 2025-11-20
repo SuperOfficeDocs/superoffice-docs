@@ -1,5 +1,7 @@
 items:
 - name: Overzicht
+  href: ../index.yml
+- name: Inleiding
   href: index.md
 - name: Standaard-e-mailclient wijzigen in SuperOffice
   href: change-default-mail-client.md

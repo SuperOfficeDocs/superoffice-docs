@@ -1,5 +1,7 @@
 items:
 - name: Overzicht
+  href: ../index.yml
+- name: Inleiding
   href: index.md
 - name: Nieuwe persoon maken
   href: create.md

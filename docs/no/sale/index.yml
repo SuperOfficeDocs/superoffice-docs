@@ -1,0 +1,232 @@
+﻿### YamlMime:SubCategory 
+
+yamlMime: SubCategory
+title: Salg og tilbud
+summary: Velkommen til området for salg og tilbud, hvor du finner relevante lenker til alt som handler om salg, salgsguide, salgsinnsikt (SAINT), tilbud og produkter.
+
+metadata:
+  title: Salg og tilbud
+  description: Salg, salgsguide, salgsinnsikt (SAINT), tilbud og produkt.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introduksjon
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduksjon til salg
+          url: learn/index.md
+        - text: Interessenter
+          url: learn/stakeholders/index.md
+        - text: Pipeline-håndtering
+          url: learn/sales-targets/index.md
+        - text: Prognose og utvalg
+          url: learn/forecasting.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Hvordan registrere et lead
+          url: learn/create.md
+        - text: Sette opp salgsmål
+          url: learn/sales-targets/create.md
+        - text: Legge til salgstype (liste)
+          url: admin/sale-type.md
+        - text: Legge til salgsfase (liste)
+          url: admin/sale-stage.md 
+        - text: Legge til valuta (liste)
+          url: admin/add-currency.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Malvariabler
+          url: ../document/templates/variables/for-sales.md
+
+  - title: Salgsguide (arbeidsflyt)
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Salgsguiden
+          url: learn/sales-guide/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Opprette
+          url: admin/create-sales-guide.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Produktdemo av salgsguide
+          url: https://www.youtube.com/watch?v=rOjUHDgYPGk
+        - text: Hvordan visualisere salgsprosessen
+          url: https://www.youtube.com/watch?v=KB3WWZjXlYc
+
+  - title: Tilbud
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Oversikt
+          url: learn/quote/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Opprette tilbud og legge til produkter
+          url: learn/quote/create.md
+        - text: Legge til alternativ
+          url: learn/quote/add-alternative.md
+        - text: Legge inn en bestilling
+          url: learn/quote/place-order.md
+        - text: Legge til ERP-tilkobling (Quote Connector)
+          url: admin/quote/set-up-quote-connector.md
+        - text: Legge til prisliste
+          url: admin/quote/price-list-and-products.md
+        - text: Legge til produkt i prisliste
+          url: admin/quote/price-list-and-products.md#add-product
+        - text: Konfigurere produktfelt
+          url: admin/quote/configure-product-fields.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Følge opp salgstilbud
+          url: https://www.youtube.com/watch?v=lzJ6AsAhyE4
+
+  - title: SAINT
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Hva er SAINT og hva kan det gjøre
+          url: ../saint/learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Om SAINT-administrasjon
+          url: ../saint/admin/index.md
+        - text: Sette opp aktivitetsmonitorer
+          url: ../saint/admin/set-up.md
+        - text: Legge til salgsbeløpsklasse (liste)
+          url: ../saint/admin/sale-amount-class.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Dialogen Vis status
+          url: ../saint/learn/index.md#dialog
+
+  - title: Tilpasning av brukergrensesnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Skjermdesigner
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webpaneler
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Egendefinerte skjermer (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Elementer i Oppgave-menyen
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Egendefinerte felt
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Oversikt
+          url: ../../en/automation/index.yml
+        - text: Utløsere
+          url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - salgsrelaterte hendelser
+          url: ../../en/automation/webhook/reference/sale-events.md
+        - text: Webhooks - salgsinteressent-hendelser
+          url: ../../en/automation/webhook/reference/sale-stakeholder-events.md
+        - text: Webhooks - tilbudshendelser
+          url: ../../en/automation/webhook/reference/quote-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Oversikt
+          url: ../../en/automation/crmscript/howto/sale/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Opprette salg
+          url: ../../en/automation/crmscript/howto/sale/create.md
+        - text: Hente
+          url: ../../en/automation/crmscript/howto/sale/get.md
+        - text: Oppdatere
+          url: ../../en/automation/crmscript/howto/sale/update.md
+        - text: Interessenter
+          url: ../../en/automation/crmscript/howto/sale/stakeholders.md
+        - text: Guider
+          url: ../../en/automation/crmscript/howto/sale/guides.md
+        - text: Valuta
+          url: ../../en/automation/crmscript/howto/sale/currency.md
+        - text: Tapt eller vunnet
+          url: ../../en/automation/crmscript/howto/sale/lost-or-sold.md
+        - text: Eksempler
+          url: ../../en/automation/crmscript/howto/sale/samples.md
+        - text: Opprette tilbud
+          url: ../../en/automation/crmscript/howto/quote/create.md
+
+  - title: API
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Sale/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Sale/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Knytte salg til oppfølging (web services)
+          url: ../../en/api/web-services/howto/sale/index.md
+
+  - title: Databasetabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Sale tabell
+          url: ../../en/database/tables/sale.md
+        - text: Saletype tabell
+          url: ../../en/database/tables/saletype.md
+        - text: Salestakeholder tabell
+          url: ../../en/database/tables/salestakeholder.md
+        - text: Årsak
+          url: ../../en/database/tables/reason.md
+        - text: Currency tabell
+          url: ../../en/database/tables/currency.md
+        - text: Quote tabell
+          url: ../../en/database/tables/quote.md
+        - text: QuoteAlternative tabell
+          url: ../../en/database/tables/quotealternative.md
+        - text: QuoteLine tabell
+          url: ../../en/database/tables/quoteline.md
+        - text: UdsaleSmall
+          url: ../../en/database/tables/udsalesmall.md
+        - text: UdsaleLarge
+          url: ../../en/database/tables/udsalelarge.md

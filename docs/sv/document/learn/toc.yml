@@ -1,5 +1,7 @@
 items:
 - name: Översikt
+  href: ../index.yml
+- name: Introduktion
   href: index.md
 - name: Dokumentbibliotek
   href: ../library/learn/index.md

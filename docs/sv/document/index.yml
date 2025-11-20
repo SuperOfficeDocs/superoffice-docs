@@ -1,0 +1,232 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Dokument
+summary: Välkommen till dokumentområdet där du hittar relevanta länkar till allt som rör dokument.
+
+metadata:
+  title: Dokument
+  description: "Dokument, dokumentintegrationer och dokumenthantering"
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduktion till dokument
+          url: learn/index.md
+        - text: Dokumentbibliotek
+          url: library/learn/index.md
+        - text: Molnintegrationer
+          url: ../../en/document/library/it/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Koppla e-post, dokument och kalender
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: WebTools
+          url: ../../../integrations/webtools/index.md
+        - text: Hur du skapar ett dokument
+          url: learn/create.md
+        - text: Redigera eller ta bort dokument
+          url: learn/edit.md
+        - text: Checka in/ut dokument
+          url: learn/lock.md
+        - text: Skicka e-postbilagor från SuperOffice
+          url: learn/send-as-email.md
+        - text: Spara e-postbilaga i SuperOffice
+          url: ../../../integrations/mail-link/archive.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Guidad rundtur
+          url: https://www.youtube.com/watch?v=IUhlGOwXp0o
+        - text: Skapa dokument och länka det till projekt
+          url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+
+  - title: Dokumentmallar
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: templates/learn/index.md
+        - text: Dokumenttyper
+          url: templates/learn/document-types.md
+        - text: Om mallvariabler
+          url: templates/learn/template-variables.md
+        - text: Offerter och sammanslagningsfält
+          url: templates/learn/quote-templates.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Skapa dokumentmall
+          url: templates/learn/create.md
+        - text: Länka mall (i Inställningar och underhåll)
+          url: templates/admin/link-template.md
+        - text: Dokumentmallar på flera språk
+          url: templates/admin/using-document-templates-for-multiple-languages.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Redigera dokumentmall
+          url: https://www.youtube.com/watch?v=FnhcmjP-TgE
+        - text: Lägg till dokumentmall
+          url: https://www.youtube.com/watch?v=XcTN1wZPJGY
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Referens för mallvariabler
+          url: templates/variables/index.md
+        - text: Referens för sammanslagningsfält
+          url: templates/merge-fields/index.md
+
+  - title: SharePoint-dokument
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../../integrations/sharepoint-documents/index.md
+        - text: Krav
+          url: ../../../integrations/sharepoint-documents/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Konfigurera SharePoint
+          url: ../../../integrations/sharepoint-documents/set-up.md
+        - text: Konfigurera SuperOffice
+          url: ../../../integrations/sharepoint-documents/configure-superoffice.md
+        - text: Felsökning
+          url: ../../../integrations/sharepoint-documents/troubleshooting.md
+        - text: Migrering
+          url: ../../../integrations/sharepoint-documents/migrate/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Kom igång med SharePoint för dokumentlagring
+          url: https://www.youtube.com/watch?v=9QHJKkqDlzY
+
+  - title: Google Workspace
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../../integrations/g-suite/index.md
+        - text: Krav
+          url: ../../../integrations/g-suite/requirements.md
+        - text: Säkerhet
+          url: ../../../integrations/g-suite/security.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Kom igång
+          url: ../../../integrations/g-suite/getting-started.md
+        - text: Konfigurera
+          url: ../../../integrations/g-suite/set-up.md
+
+  - title: Anpassning av gränssnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Skärmredigerare
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webbpaneler
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Anpassade skärmar (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Objekt i aktivitetsmenyn
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Anpassade fält
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/index.yml
+        - text: Utlösare
+          url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - projekthändelser
+          url: ../../en/automation/webhook/reference/project-events.md
+        - text: Webhooks - projektmedlemshändelser
+          url: ../../en/automation/webhook/reference/project-member-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/crmscript/howto/document/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Dokumentegenskaper
+          url: ../../en/automation/crmscript/howto/document/properties.md
+        - text: Dokumentfiler
+          url: ../../en/automation/crmscript/howto/document/file.md
+        - text: Dokumentmallar
+          url: ../../en/automation/crmscript/howto/document/templates.md
+
+  - title: API
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: REST
+          url: ../../en/api/web-services/howto/document/rest-generate-document.md
+        - text: Tjänster
+          url: ../../en/api/web-services/howto/document/services-create.md
+        - text: SO_Arc-dokumentplugin
+          url: ../../en/api/plugins/document/soarc-document-plugin.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Document/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Document/index.md
+
+  - title: Databastabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Dokument
+          url: ../../en/database/tables/document.md
+        - text: SuggestedDocument
+          url: ../../en/database/tables/suggesteddocument.md
+        - text: DocTmpl
+          url: ../../en/database/tables/doctmpl.md
+        - text: Offerttabell
+          url: ../../en/database/tables/quote.md
+        - text: Associate
+          url: ../../en/database/tables/associate.md
+        - text: Appointment
+          url: ../../en/database/tables/appointment.md
+        - text: UddocSmall tabellen
+          url: ../../en/database/tables/uddocsmall.md
+        - text: UddocLarge tabellen
+          url: ../../en/database/tables/uddoclarge.md

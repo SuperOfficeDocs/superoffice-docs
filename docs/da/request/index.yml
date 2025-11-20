@@ -1,0 +1,201 @@
+### YamlMime:SubCategory 
+
+yamlMime: SubCategory
+title: Sag
+summary: Sag er hovedfunktionen i SuperOffice Service. Det er her, du håndterer sager og henvendelser, der ligger i systemet. Du kan også oprette interne og eksterne sager, besvare indgående henvendelser og få et overblik over status for alle sager i systemet. Sagsbehandling kræver en Service Essentials-licens. Nogle funktioner kræver en premiumplan - se oversigten over brugerplaner for detaljer.
+
+metadata:
+  title: Sag
+  description: Det er her, du håndterer sager og henvendelser, der ligger i systemet. Du kan også oprette interne og eksterne sager, besvare indgående henvendelser og få et overblik over status for alle sager i systemet.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduktion til sager
+          url: learn/index.md
+        - text: Sagsstatus
+          url: admin/status/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Sådan finder du en sag
+          url: learn/find.md
+        - text: Sådan bruger du sager i dashboard-fliser
+          url: ../dashboard/learn/show-requests.md
+
+  - title: Sagsbehandling
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Sådan håndterer du kundesager
+          url: https://www.youtube.com/watch?v=2mRyStK5xPs
+        - text: Sådan registrerer du sag fra indgående opkald
+          url: https://www.youtube.com/watch?v=S4kihuWHZGY
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Sådan opretter du en sag
+          url: learn/create.md
+        - text: Sådan arkiverer du e-mails som sager
+          url: ../../../integrations/mail-link/archive-as-request.md
+        - text: Påtage dig ansvar for en sag
+          url: learn/accept.md
+        - text: Sådan svarer du kunder
+          url: learn/reply.md
+        - text: Sådan opsætter du Service-postkasser
+          url: ../knowledge-base/learn/email-addresses.md
+
+  - title: Kategori, prioritet og eskalering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Sagskategorier
+          url: admin/category/index.md
+        - text: Prioritet
+          url: admin/priority/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Sådan opsætter du kategorier
+          url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+
+  - title: Svarskabeloner
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overblik
+          url: ../../en/request/dev/index.md#reply-templates
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Standardskabeloner
+          url: admin/system-templates.md
+        - text: Variabler for svarskabeloner
+          url: reply-templates/learn/template-variables.md
+
+  - title: Tilpasning af brugergrænseflade
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Skærmdesigner
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webpaneler
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Brugerdefinerede skærme (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Opgavemenu-elementer
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Brugerdefinerede felter
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overblik
+          url: ../../en/automation/index.yml
+        - text: Udløsere
+          url: ../../en/automation/trigger/index.md
+        - text: Postkasse før gem-hændelse
+          url: ../../en/automation/event-model/mailbox-before-save.md
+        - text: Postkasse efter gem-hændelse
+          url: ../../en/automation/event-model/mailbox-after-save.md
+        - text: Gem sag-hændelse
+          url: ../../en/automation/event-model/saving-a-request.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - sagsrelaterede hændelser
+          url: ../../en/automation/webhook/reference/ticket-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overblik
+          url: ../../en/automation/crmscript/howto/request/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Opret sag
+          url: ../../en/automation/crmscript/howto/request/create.md
+        - text: Tilføje eller opdatere besked
+          url: ../../en/automation/crmscript/howto/request/add-message.md
+        - text: Acceptere
+          url: ../../en/automation/crmscript/howto/request/accept.md
+        - text: Svare
+          url: ../../en/automation/crmscript/howto/request/reply.md
+        - text: Delegere
+          url: ../../en/automation/crmscript/howto/request/delegate.md
+        - text: Eskalere
+          url: ../../en/automation/crmscript/howto/request/escalate.md
+        - text: Dele og flette
+          url: ../../en/automation/crmscript/howto/request/split-merge.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Arbejde med sager i API
+            url: ../../en/request/dev/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Ticket/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Ticket/index.md
+        - text: SOAP (ticket-port)
+          url: ../../en/api/reference/soap/customer-service/ports/ticket/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Konfigurere SOAP-porte
+          url: ../admin/onsite/configure-soap.md
+
+  - title: Databasetabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Ticket tabel
+          url: ../../en/database/tables/ticket.md
+        - text: Ticket type tabel
+          url: ../../en/database/tables/ticket-type.md
+        - text: Ticket status tabel
+          url: ../../en/database/tables/ticket-status.md
+        - text: Ticket priority tabel
+          url: ../../en/database/tables/ticket-priority.md
+        - text: Reply template tabel
+          url: ../../en/database/tables/reply-template.md
+        - text: Message tabel
+          url: ../../en/database/tables/ej-message.md
+        - text: Contact tabel
+          url: ../../en/database/tables/contact.md
+        - text: Person tabel
+          url: ../../en/database/tables/person.md
+        - text: Form submission tabel
+          url: ../../en/database/tables/form-submission.md

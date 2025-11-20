@@ -1,5 +1,7 @@
 items:
 - name: Översikt
+  href: ../index.yml
+- name: Introduktion
   href: index.md
 - name: Möte, samtal, uppgift
   href: follow-ups.md
