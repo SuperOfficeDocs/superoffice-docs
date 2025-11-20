@@ -27,11 +27,6 @@ Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller desi
 
 Med tilpassede skærmlayouts til hvert af dine teams vil det blive nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at rydde op på skærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm for dine teams at arbejde i.
 
-Se denne video og find ud af, hvordan du tilføjer et nyt layout, eller følg trin-for-trin-guiden nedenunder (videoen starter ved 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
-
 ## Opret nyt layout
 
 1. Åbn Skærmdesigneren (i **Indstillinger og vedligeholdelse**).

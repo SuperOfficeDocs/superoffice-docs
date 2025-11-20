@@ -37,11 +37,6 @@ Innan du anpassar en layout bör du fastställa vem de tilltänkta användarna �
 > [!NOTE]
 > Du kan redigera **standardlayouten**, men du kan inte redigera standardinställningarna för kontrollerna och du kan inte tilldela layouten till en annan användargrupp.
 
-Titta på den här videon och ta reda på hur du använder skärmdesignern för att konfigurera dina skärmar i SuperOffice CRM eller följ steg-för-steg-guiden nedan (videons längd – 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Redigera kortlayout
 
 1. Öppna Skärmdesignern.

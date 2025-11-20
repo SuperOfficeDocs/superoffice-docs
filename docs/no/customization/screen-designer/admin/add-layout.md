@@ -25,12 +25,7 @@ redirect_from:
 
 Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper eller dokumentmaler, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
 
-Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbilden. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
-
-Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trinn-for-trinn-guiden nedenfor (videoen starter på 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
+Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbildet. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
 
 ## Opprett ny layout
 

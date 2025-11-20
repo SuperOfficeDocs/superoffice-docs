@@ -27,11 +27,6 @@ Oavsett om du lägger till en personlig vy för en utvald användargrupp eller d
 
 Med anpassade skärmlayouter för varje av dina team kommer det att bli enklare än någonsin att hitta kunddata. De mest relevanta uppgifterna kommer alltid att vara tillgängliga och synliga. Ta bort, flytta eller dölj irrelevanta eller mindre viktiga data för att städa upp på skärmarna. Lägg till anpassade arkiv med de mest relevanta uppgifterna för dina team. Resultatet blir en renare och mer organiserad skärm för dina team att arbeta i.
 
-Titta på den här videon och ta reda på hur du lägger till en ny layout eller följ steg-för-steg-guiden nedan (videon börjar vid 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
-
 ## Skapa ny layout
 
 1. Öppna Skärmdesignern (i **Inställningar och underhåll**).

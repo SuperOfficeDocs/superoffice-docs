@@ -37,11 +37,6 @@ Bevor Sie ein Layout anpassen, sollten Sie festlegen, wer die vorgesehenen Benut
 > [!NOTE]
 > Sie können das **Standardlayout** bearbeiten, jedoch nicht die Standardeinstellungen für Steuerelemente und Sie können das Layout nicht einer Benutzergruppe oder Typ neu zuweisen.
 
-Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesigner Ihre Anzeigen in SuperOffice CRM konfigurieren, oder folgen Sie der Schritt-für-Schritt-Anleitung unten (Videolänge - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Kartenlayout bearbeiten
 
 1. Öffnen Sie den Ansichtsdesigner.

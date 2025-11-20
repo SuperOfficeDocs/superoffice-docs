@@ -27,11 +27,6 @@ Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep to
 
 Met aangepaste schermopmaken voor elk van uw teams wordt het vinden van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zullen altijd beschikbaar en zichtbaar zijn. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen op te ruimen. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat zal een schoner en overzichtelijker scherm zijn voor uw teams om in te werken.
 
-Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgewijze handleiding hieronder (de video begint op 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
-
 ## Nieuwe opmaak maken
 
 1. Open de Schermontwerper (in **Instellingen en onderhoud**).

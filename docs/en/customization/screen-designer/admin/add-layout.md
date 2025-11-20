@@ -28,11 +28,6 @@ Whether you add a personalized view for a selected user group or design a layout
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
-Watch this video and find out how add a new layout or follow the step-by-step guide below (the video will start at 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
-
 ## Create new layout
 
 1. Open the Screen Designer (in **Settings and maintenance**).

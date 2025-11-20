@@ -38,11 +38,6 @@ Before customizing a layout, determine who the intended users are.
 > [!NOTE]
 > You can edit the **default layout**, however, you cannot edit the default control settings and you cannot re-assign the layout to a user group.
 
-Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Edit card layout
 
 1. Open the Screen Designer.

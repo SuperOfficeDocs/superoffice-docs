@@ -37,11 +37,6 @@ Voordat u een opmaak aanpast, moet u bepalen wie de beoogde gebruikers zijn.
 > [!NOTE]
 > U kunt het **standaardopmaak** bewerken, maar u kunt de standaardinstellingen voor de besturingselementen niet bewerken en u kunt het opmaak niet opnieuw toewijzen aan een gebruikersgroep.
 
-Bekijk deze video en ontdek hoe u de schermontwerper kunt gebruiken om uw schermen te configureren in SuperOffice CRM of volg de stapsgewijze handleiding hieronder (duur van de video - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Kaartopmaak bewerken
 
 1. Open de Schermontwerper.

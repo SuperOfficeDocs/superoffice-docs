@@ -27,11 +27,6 @@ Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe 
 
 Mit benutzerdefinierten Ansichtslayouts für jedes Ihrer Teams wird das Auffinden von Kundendaten einfacher als je zuvor. Die relevantesten Daten sind immer verfügbar und sichtbar. Entfernen, verschieben oder verbergen Sie irrelevante oder weniger wichtige Daten, um die Ansichten zu entrümpeln. Fügen Sie benutzerdefinierte Archive mit den relevantesten Daten für Ihre Teams hinzu. Das Ergebnis ist eine übersichtlicherer und aufgeräumterer Ansicht, mit dem Ihre Teams arbeiten können.
 
-Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzufügen, oder folgen Sie der Schritt-für-Schritt-Anleitung unten (das Video startet bei 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
-
 ## Neues Layout erstellen
 
 1. Öffnen Sie den Ansichtsdesigner (in **Einstellungen und Verwaltung**).
