@@ -1,0 +1,216 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Firma
+summary: Willkommen im Firmenbereich, in dem Sie relevante Links zu allem finden, was mit Firmen zu tun hat.
+
+metadata:
+  title: Firma
+  description: "Erfahren Sie mehr über und arbeiten Sie mit einem realen Unternehmen oder einer Organisation, einem Unternehmen in der Benutzeroberfläche und einer Person in der Datenbank."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Einführung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Firmen und die Firmenkarte
+            url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Neue Firma erstellen
+            url: learn/create.md
+          - text: Firmeninformationen bearbeiten
+            url: learn/edit.md
+          - text: Eine Firma kopieren
+            url: learn/copy.md
+          - text: Firmen zusammenführen
+            url: learn/merge-companies.md
+          - text: Eine Firma löschen
+            url: learn/delete.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Vorlagenvariablen
+            url: ../document/templates/variables/from-company-card.md
+          - text: Benutzereinstellungen
+            url: ../../en/admin/user-preferences/index.md
+          - text: Adressformate für Länder
+            url: learn/address-formats.md
+
+  - title: Datenschutz und GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementierungsleitfaden
+            url: ../security/privacy/admin/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Datenschutzeinstellungen für eine Firma bearbeiten
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: E-Mail zur Datenschutzbestätigung senden
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: E-Mail zur Datenschutzbestätigung bearbeiten
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+          - text: Bericht über personenbezogene Daten erzeugen
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Datensätze dauerhaft löschen
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Einwilligungszweck hinzufügen
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Rechtsgrundlage hinzufügen
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Datenschutzquelle hinzufügen
+            url: ../security/privacy/admin/add-source.md
+
+  - title: Relationen
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../learn/basics/relations.md
+          - text: Registerkarte Relationen
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Elemente zur Relationsliste hinzufügen
+            url: ../admin/lists/specialized-lists.md#relation
+
+  - title: Import und Massenaktionen
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: So importieren Sie Kundenpersonen
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Firmeninformationen massenaktualisieren
+            url: ../learn/basics/bulk-update.md
+          - text: Papierkorb verwenden, um Firmen wiederherzustellen
+            url: ../learn/basics/deleting-elements.md#restore
+
+  - title: Anpassung der Benutzeroberfläche
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../customization/screen-designer/admin/index.md
+          - text: Web-Bildschirme
+            url: ../customization/web-panels/admin/index.md
+          - text: Elemente im Aufgabenmenü
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Benutzerdefinierte Felder
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - Firma erstellen
+            url: ../../en/customization/soprotocol/howto/create-contact.md
+          - text: SoProtocol - Firma abrufen
+            url: ../../en/customization/soprotocol/howto/open-contact.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: UdcontactSmall Tabelle
+            url: ../../en/database/tables/udcontactsmall.md
+          - text: UdcontactLarge Tabelle
+            url: ../../en/database/tables/udcontactlarge.md
+
+  - title: Automatisierung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../../en/automation/index.yml
+          - text: Trigger
+            url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Webhooks - Personenereignisse
+            url: ../../en/automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - Firma synchronisieren
+            url: ../../en/online/identity/scim/provisioning/sync-company.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Übersicht
+          url: ../../en/automation/crmscript/howto/company/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Firma erstellen und aktualisieren
+          url: ../../en/automation/crmscript/howto/company/create-company.md
+        - text: Firmeninformationen abrufen
+          url: ../../en/automation/crmscript/howto/company/get-company.md
+        - text: Aktivitäten abrufen
+          url: ../../en/automation/crmscript/howto/company/get-activities.md
+        - text: Interesse bei Firma setzen/entfernen
+          url: ../../en/automation/crmscript/howto/interests/company-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Mit Firmen in API arbeiten
+            url: ../../en/company/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../../en/api/sql/howto/company/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/company/index.md
+          - text: Row
+            url: ../../en/api/rows/howto/company/index.md
+          - text: Entity
+            url: ../../en/api/entities/howto/company/index.md
+          - text: Webdienste, REST
+            url: ../../en/api/web-services/howto/company/index.md
+
+  - title: Datenbanktabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Contact Tabelle
+            url: ../../en/database/tables/contact.md
+          - text: Person Tabelle
+            url: ../../en/database/tables/person.md
+          - text: Associate Tabelle
+            url: ../../en/database/tables/associate.md
+          - text: UserGroup Tabelle
+            url: ../../en/database/tables/usergroup.md
+          - text: Address Tabelle
+            url: ../../en/database/tables/address.md
+          - text: Country Tabelle
+            url: ../../en/database/tables/country.md
+          - text: Category Tabelle
+            url: ../../en/database/tables/category.md
+          - text: Business Tabelle
+            url: ../../en/database/tables/business.md

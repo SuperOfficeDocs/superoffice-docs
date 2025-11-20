@@ -1,0 +1,227 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Person
+summary: Willkommen im Personenbereich, in dem Sie relevante Links zu allem finden, was mit Personen zu tun hat.
+
+metadata:
+  title: Person
+  description: "Erfahren Sie mehr über und arbeiten Sie mit Personen, Kunden und Mitarbeitenden: einer Person in der Benutzeroberfläche und einer Person in der Datenbank."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Einführung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Personen und die Personenkarte
+            url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Neue Person erstellen
+            url: learn/create.md
+          - text: Personeninformationen bearbeiten
+            url: learn/edit.md
+          - text: Eine Person verschieben
+            url: learn/move.md
+          - text: Personen zusammenführen
+            url: learn/merge-contacts.md
+          - text: Eine Person löschen
+            url: learn/delete.md
+          - text: E-Mail an eine Person senden
+            url: learn/send-email.md
+          - text: Person anrufen
+            url: learn/dial.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Kundeninformationen verwalten
+            url: https://www.youtube.com/watch?v=10VQCTgxODc
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Vorlagenvariablen
+            url: ../document/templates/variables/for-selected-contact.md
+          - text: Benutzereinstellung - Associates
+            url: ../../en/admin/user-preferences/reference/associates.md
+          - text: Benutzereinstellung - FindContact
+            url: ../../en/admin/user-preferences/reference/find-contact.md
+
+  - title: Datenschutz und GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementierungsleitfaden
+            url: ../security/privacy/admin/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Datenschutzeinstellungen für eine Person bearbeiten
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: E-Mail zur Datenschutzbestätigung senden
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: Bericht über personenbezogene Daten erzeugen
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Datensätze dauerhaft löschen
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Einwilligungszweck hinzufügen
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Rechtsgrundlage hinzufügen
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Datenschutzquelle hinzufügen
+            url: ../security/privacy/admin/add-source.md
+          - text: E-Mail zur Datenschutzbestätigung bearbeiten
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+
+  - title: Relationen
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht über Relationen
+            url: ../learn/basics/relations.md
+          - text: Registerkarte Relationen
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Elemente zur Relationsliste hinzufügen
+            url: ../admin/lists/specialized-lists.md#relation
+
+  - title: Import und Massenaktionen
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Personeninformationen massenaktualisieren
+            url: ../learn/basics/bulk-update.md
+          - text: Papierkorb verwenden, um Personen wiederherzustellen
+            url: ../learn/basics/deleting-elements.md#restore
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: So importieren Sie Kundenpersonen
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+
+  - title: Anpassung der Benutzeroberfläche
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../customization/screen-designer/admin/index.md
+          - text: Web-Bildschirme
+            url: ../customization/web-panels/admin/index.md
+          - text: Elemente im Aufgabenmenü
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Benutzerdefinierte Felder
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - Liste der Personen einer Firma
+            url: ../../en/customization/soprotocol/howto/open-contact.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Benutzerdefinierte Felder hinzufügen
+            url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+  - title: Automatisierung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../../en/automation/index.yml
+          - text: Trigger
+            url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Webhooks - Personenereignisse
+            url: ../../en/automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - Benutzer synchronisieren
+            url: ../../en/online/identity/scim/provisioning/sync-user.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Übersicht (Kunde, Person, Benutzer)
+          url: ../../en/automation/crmscript/howto/contact/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Kunden erstellen und aktualisieren
+            url: ../../en/automation/crmscript/howto/contact/create-customer.md
+          - text: Kundeninformationen abrufen
+            url: ../../en/automation/crmscript/howto/contact/get-customer.md
+          - text: Kunden suchen
+            url: ../../en/automation/crmscript/howto/contact/find-customer.md
+          - text: Interessen abrufen
+            url: ../../en/automation/crmscript/howto/contact/get-interests.md
+          - text: Benutzer erstellen
+            url: ../../en/automation/crmscript/howto/contact/create-user.md
+          - text: Benutzer abrufen
+            url: ../../en/automation/crmscript/howto/contact/get-user.md
+          - text: Interesse bei Person setzen/entfernen
+            url: ../../en/automation/crmscript/howto/interests/contact-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Mit Personen in API arbeiten
+            url: ../../en/contact/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../../en/api/sql/howto/contact/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/contact/index.md
+          - text: Row
+            url: ../../en/api/rows/howto/contact/index.md
+          - text: Entity
+            url: ../../en/api/entities/howto/contact/index.md
+          - text: Webdienste, REST
+            url: ../../en/api/web-services/howto/contact/index.md
+
+  - title: Datenbanktabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Contact Tabelle
+            url: ../../en/database/tables/contact.md
+          - text: Person Tabelle
+            url: ../../en/database/tables/person.md
+          - text: Associate Tabelle
+            url: ../../en/database/tables/associate.md
+          - text: Address Tabelle
+            url: ../../en/database/tables/address.md
+          - text: Country Tabelle
+            url: ../../en/database/tables/country.md
+          - text: Business Tabelle
+            url: ../../en/database/tables/business.md
+          - text: UdpersonSmall Tabelle
+            url: ../../en/database/tables/udpersonsmall.md
+          - text: UdpersonLarge Tabelle
+            url: ../../en/database/tables/udpersonlarge.md

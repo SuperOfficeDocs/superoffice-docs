@@ -1,0 +1,202 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: E-Mail
+summary: "Willkommen im E-Mail-Bereich, in dem Sie relevante Links zu allem finden, was mit E-Mail zu tun hat"
+
+metadata:
+  title: E-Mail
+  description: "Erfahren Sie mehr über die Möglichkeiten zum Senden und Empfangen von E-Mails in SuperOffice und wie Sie diese konfigurieren."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Einführung
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Einführung in E-Mail
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: E-Mail, Dokumente und Kalender verbinden
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Standard-E-Mail-Client ändern
+          url: learn/change-default-mail-client.md
+
+  - title: SuperOffice Inbox
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Was ist die SuperOffice Inbox?
+            url: inbox/learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: E-Mail erstellen und senden
+            url: inbox/learn/compose.md
+          - text: Einladungen annehmen
+            url: inbox/learn/invitations.md
+          - text: E-Mails und Anhänge archivieren
+            url: inbox/learn/archive.md
+          - text: Wie man MailKit aktiviert
+            url: ../../en/email/inbox/it/index.md#how-to-enable-mailkit
+          - text: Wie man MailKit Fehler behebt
+            url: ../../en/email/inbox/it/index.md#how-to-troubleshoot-mailkit
+
+  - title: SuperOffice für Outlook
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Übersicht
+            url: ../../../integrations/superoffice-for-outlook/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Add-In herunterladen
+            url: ../../../integrations/superoffice-for-outlook/get.md
+          - text: Zentral bereitstellen
+            url: ../../../integrations/superoffice-for-outlook/deploy.md
+          - text: In SuperOffice speichern
+            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+          - text: Person zu SuperOffice hinzufügen
+            url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
+          - text: Folgeaufgabe erstellen
+            url: ../../../integrations/superoffice-for-outlook/create-follow-up.md
+          - text: Verkauf erstellen
+            url: ../../../integrations/superoffice-for-outlook/create-sale.md
+          - text: Anfrage erstellen oder Nachricht hinzufügen
+            url: ../../../integrations/superoffice-for-outlook/create-request.md
+          - text: CRM-Daten zu Outlook-Ereignis hinzufügen
+            url: ../../../integrations/superoffice-for-outlook/add-crm-data-to-event.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Anforderungen
+            url: ../../../integrations/superoffice-for-outlook/requirements.md
+
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Einführung
+            url: ../../../integrations/gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Gmail Link installieren
+            url: ../../../integrations/gmail-link/install.md
+          - text: Gmail Link-Einstellungen bearbeiten
+            url: ../../../integrations/gmail-link/settings.md
+          - text: Absender verwalten
+            url: ../../../integrations/gmail-link/manage-senders.md
+          - text: Eingehende E-Mail archivieren
+            url: ../../../integrations/gmail-link/email-archive-incoming.md
+          - text: Anhänge archivieren
+            url: ../../../integrations/gmail-link/archive-attachments.md
+          - text: Aktivität erstellen
+            url: ../../../integrations/gmail-link/archive-emails-as-activities.md
+          - text: Anfrage erstellen
+            url: ../../../integrations/gmail-link/archive-emails-as-requests.md
+          - text: Ausgehende E-Mail archivieren
+            url: ../../../integrations/gmail-link/email-archive-outgoing.md
+
+  - title: MailLink
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Was ist MailLink?
+            url: ../../../integrations/mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Mail Link/WebTools installieren
+            url: ../../../integrations/mail-link/install.md
+          - text: E-Mail archivieren
+            url: ../../../integrations/mail-link/archive.md
+          - text: E-Mail aus SuperOffice CRM erstellen
+            url: ../../../integrations/mail-link/create-in-superoffice.md
+          - text: E-Mail aus Microsoft Outlook erstellen
+            url: ../../../integrations/mail-link/create-in-outlook.md
+          - text: Empfänger auswählen
+            url: ../../../integrations/mail-link/select-recipients.md
+          - text: Absender verwalten
+            url: ../../../integrations/mail-link/manage-senders.md
+          - text: Anhänge hinzufügen
+            url: ../../../integrations/mail-link/add-attachment.md
+          - text: Optionen-Dialog für SuperOffice CRM
+            url: ../../../integrations/mail-link/settings.md
+          - text: Debuggen
+            url: ../../../integrations/mail-link/debug.md
+
+  - title: cURL
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Was ist cURL-Mail?
+            url: ../../en/email/service/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Wie man cURL aktiviert
+            url: ../../en/email/service/index.md#how-to-enable-curl
+          - text: Wie man E-Mail-Probleme mit cURL behebt
+            url: ../../en/email/service/index.md#how-to-troubleshoot-mail-when-using-curl
+
+  - title: Mailgun
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Alternativen für Maildienste
+            url: ../../en/email/mailgun/index.md
+          - text: Gründe für Anpassungen
+            url: ../../en/email/mailgun/reasons-to-customize.md
+          - text: Leistung
+            url: ../../en/email/mailgun/amount-speed.md
+          - text: Sicherheit
+            url: ../../en/email/mailgun/security.md
+          - text: Informationen zu Unterauftragsverarbeitern
+            url: ../../en/email/mailgun/sub-processor-info.md
+
+  - title: DKIM
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Was ist der Zweck eines DKIM-Eintrags?
+          url: ../../en/email/mailgun/dkim/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: DKIM-Schlüssel für eu.mailgun.org anfordern
+          url: ../../en/email/mailgun/dkim/order-key.md
+        - text: Wie man einen DKIM-Eintrag einrichtet
+          url: ../../en/email/mailgun/dkim/set-up.md
+        - text: Wie man DKIM von USA auf EU umstellt
+          url: ../../en/email/mailgun/dkim/change-us-to-eu.md
+
+  - title: SPF
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Was ist SPF?
+          url: ../../en/email/mailgun/spf/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Wie man einen SPF-Eintrag einrichtet
+            url: ../../en/email/mailgun/spf/set-up.md
