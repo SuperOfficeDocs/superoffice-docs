@@ -1,5 +1,7 @@
 items:
 - name: Oversigt
+  href: ../index.yml
+- name: Introduktion
   href: index.md
 - name: Opret salg
   href: create.md

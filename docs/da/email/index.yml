@@ -1,0 +1,202 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: E-mail
+summary: "Velkommen til e-mailområdet, hvor du finder relevante links til alt, der har med e-mail at gøre"
+
+metadata:
+  title: E-mail
+  description: "Lær om mulighederne for at sende og modtage e-mails i SuperOffice, og hvordan du konfigurerer dem."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduktion til e-mail
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Forbind e-mail, dokumenter og dagbog
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Skift standard e-mailklient
+          url: learn/change-default-mail-client.md
+
+  - title: SuperOffice Indbakke
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Hvad er SuperOffice Indbakke?
+            url: inbox/learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Skriv og send e-mail
+            url: inbox/learn/compose.md
+          - text: Acceptér invitationer
+            url: inbox/learn/invitations.md
+          - text: Arkivér e-mail og vedhæftninger
+            url: inbox/learn/archive.md
+          - text: Sådan aktiverer du MailKit
+            url: ../../en/email/inbox/it/index.md#how-to-enable-mailkit
+          - text: Sådan fejlretter du MailKit
+            url: ../../en/email/inbox/it/index.md#how-to-troubleshoot-mailkit
+
+  - title: SuperOffice til Outlook
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overblik
+            url: ../../../integrations/superoffice-for-outlook/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Hent tilføjelsen
+            url: ../../../integrations/superoffice-for-outlook/get.md
+          - text: Implementér centralt
+            url: ../../../integrations/superoffice-for-outlook/deploy.md
+          - text: Gem til SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+          - text: Tilføj person til SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
+          - text: Opret opfølgning
+            url: ../../../integrations/superoffice-for-outlook/create-follow-up.md
+          - text: Opret salg
+            url: ../../../integrations/superoffice-for-outlook/create-sale.md
+          - text: Opret sag eller tilføj besked
+            url: ../../../integrations/superoffice-for-outlook/create-request.md
+          - text: Tilføj CRM-data til Outlook-begivenhed
+            url: ../../../integrations/superoffice-for-outlook/add-crm-data-to-event.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Krav
+            url: ../../../integrations/superoffice-for-outlook/requirements.md
+
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduktion
+            url: ../../../integrations/gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Installér Gmail Link
+            url: ../../../integrations/gmail-link/install.md
+          - text: Rediger indstillinger for Gmail Link
+            url: ../../../integrations/gmail-link/settings.md
+          - text: Administrér afsendere
+            url: ../../../integrations/gmail-link/manage-senders.md
+          - text: Arkivér indgående e-mail
+            url: ../../../integrations/gmail-link/email-archive-incoming.md
+          - text: Arkivér vedhæftninger
+            url: ../../../integrations/gmail-link/archive-attachments.md
+          - text: Opret aktivitet
+            url: ../../../integrations/gmail-link/archive-emails-as-activities.md
+          - text: Opret sag
+            url: ../../../integrations/gmail-link/archive-emails-as-requests.md
+          - text: Arkivér udgående e-mail
+            url: ../../../integrations/gmail-link/email-archive-outgoing.md
+
+  - title: MailLink
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Hvad er MailLink?
+            url: ../../../integrations/mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Installér Mail Link/WebTools
+            url: ../../../integrations/mail-link/install.md
+          - text: Arkivér e-mail
+            url: ../../../integrations/mail-link/archive.md
+          - text: Opret e-mail fra SuperOffice CRM
+            url: ../../../integrations/mail-link/create-in-superoffice.md
+          - text: Opret e-mail fra Microsoft Outlook
+            url: ../../../integrations/mail-link/create-in-outlook.md
+          - text: Vælg modtagere
+            url: ../../../integrations/mail-link/select-recipients.md
+          - text: Administrér afsendere
+            url: ../../../integrations/mail-link/manage-senders.md
+          - text: Tilføj vedhæftninger
+            url: ../../../integrations/mail-link/add-attachment.md
+          - text: Dialogboksen for indstillinger i SuperOffice CRM
+            url: ../../../integrations/mail-link/settings.md
+          - text: Fejlret
+            url: ../../../integrations/mail-link/debug.md
+
+  - title: cURL
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Hvad er cURL mail?
+            url: ../../en/email/service/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Sådan aktiverer du cURL
+            url: ../../en/email/service/index.md#how-to-enable-curl
+          - text: Sådan fejlretter du e-mail, når du bruger cURL
+            url: ../../en/email/service/index.md#how-to-troubleshoot-mail-when-using-curl
+
+  - title: Mailgun
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Alternativer til mailtjenester
+            url: ../../en/email/mailgun/index.md
+          - text: Hvorfor tilpasse
+            url: ../../en/email/mailgun/reasons-to-customize.md
+          - text: Ydeevne
+            url: ../../en/email/mailgun/amount-speed.md
+          - text: Sikkerhed
+            url: ../../en/email/mailgun/security.md
+          - text: Underbehandlerinfo
+            url: ../../en/email/mailgun/sub-processor-info.md
+
+  - title: DKIM
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Hvad er formålet med en DKIM-post?
+          url: ../../en/email/mailgun/dkim/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Anmod om DKIM-nøgle til eu.mailgun.org
+          url: ../../en/email/mailgun/dkim/order-key.md
+        - text: Sådan opsætter du en DKIM-post
+          url: ../../en/email/mailgun/dkim/set-up.md
+        - text: Sådan ændrer du DKIM fra USA til EU
+          url: ../../en/email/mailgun/dkim/change-us-to-eu.md
+
+  - title: SPF
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Hvad er SPF?
+          url: ../../en/email/mailgun/spf/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Sådan opsætter du SPF-post
+            url: ../../en/email/mailgun/spf/set-up.md
