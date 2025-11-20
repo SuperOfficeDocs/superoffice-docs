@@ -3,9 +3,9 @@ uid: help-de-screen-designer-add-layout
 title: Layout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 keywords: Layout hinzufügen, neues Layout, Bildschirmlayout, Layouts zuweisen zu
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -26,11 +26,6 @@ redirect_from:
 Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe hinzufügen oder ein Layout optimieren, das für bestimmte Projekte, Verkäufe, Anfragen, Folgeaufgaben oder Dokumentvorlagen ausgelegt ist – beginnen Sie damit, ein neues Layout für einen Bildschirm im Ansichtsdesigner hinzuzufügen.
 
 Mit benutzerdefinierten Ansichtslayouts für jedes Ihrer Teams wird das Auffinden von Kundendaten einfacher als je zuvor. Die relevantesten Daten sind immer verfügbar und sichtbar. Entfernen, verschieben oder verbergen Sie irrelevante oder weniger wichtige Daten, um die Ansichten zu entrümpeln. Fügen Sie benutzerdefinierte Archive mit den relevantesten Daten für Ihre Teams hinzu. Das Ergebnis ist eine übersichtlicherer und aufgeräumterer Ansicht, mit dem Ihre Teams arbeiten können.
-
-Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzufügen, oder folgen Sie der Schritt-für-Schritt-Anleitung unten (das Video startet bei 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ## Neues Layout erstellen
 
@@ -65,7 +60,7 @@ Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzuf
 
 ## Neues Ansichtslayout anpassen
 
-1. Wählen Sie das neue Layout in der Liste **Layouts** aus und klicken Sie auf die Schaltfläche **Layout bearbeiten**.
+1. Wählen Sie das neue Layout in der Liste **Layouts** aus und klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
 2. Arbeiten Sie sich durch die Registerkarten im Layout.
 

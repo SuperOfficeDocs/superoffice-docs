@@ -3,9 +3,9 @@ uid: help-de-screen-designer-edit-layout
 title: Hauptkartenlayout bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können.
 keywords: Bildschirmlayout, Layout bearbeiten, Layout ändern, Layout löschen, Auf Werkseinstellungen zurücksetzen
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -37,11 +37,6 @@ Bevor Sie ein Layout anpassen, sollten Sie festlegen, wer die vorgesehenen Benut
 > [!NOTE]
 > Sie können das **Standardlayout** bearbeiten, jedoch nicht die Standardeinstellungen für Steuerelemente und Sie können das Layout nicht einer Benutzergruppe oder Typ neu zuweisen.
 
-Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesigner Ihre Anzeigen in SuperOffice CRM konfigurieren, oder folgen Sie der Schritt-für-Schritt-Anleitung unten (Videolänge - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Kartenlayout bearbeiten
 
 1. Öffnen Sie den Ansichtsdesigner.
@@ -50,7 +45,7 @@ Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesig
 
 1. Wählen Sie in der Liste links ein Layout aus.
 
-1. Klicken Sie unter der Vorschau auf **Layout bearbeiten**.
+1. Klicken Sie unter der Vorschau auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
 1. Im Bildschirm **Kartenlayout bearbeiten** arbeiten Sie sich durch die Registerkarten der Ansicht.
 

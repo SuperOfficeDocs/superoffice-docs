@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-fields
 title: Arbeta med fält
 description: Hur du lägger till, flyttar och tar bort fält i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: lägg till fält, nytt fält, flytta fält, ta bort fält, dölj fält, redigera layout, fältinställningar
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -21,7 +21,7 @@ redirect_from: /sv/customization/screen-designer/working-with-fields
 
 [!include[Krav](../../../includes/req-dev-tools.md)]
 
-Etiketter och fält representerar det väsentliga innehållet på en skärm. Oavsett om du skapar en ny layout eller redigerar en befintlig, börjar du med att klicka på **Redigera layout**. [Visa mig de detaljerade stegen.][1] När du är klar, **spara eller publicera** layouten.
+Etiketter och fält representerar det väsentliga innehållet på en skärm. Oavsett om du skapar en ny layout eller redigerar en befintlig, börjar du med att klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i>. [Visa mig de detaljerade stegen.][1] När du är klar, **spara eller publicera** layouten.
 
 > [!TIP]
 > Du kanske vill [lägga till eller ta bort flikar][2] innan du finjusterar fälten.

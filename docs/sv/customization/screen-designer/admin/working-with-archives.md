@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-archive
 title: Arbeta med detaljkort (arkiv)
 description: Skärmdesigner - arbeta med detaljkort (arkiv)
 keywords: lägg till sektionsflik, ny sektionsflik, lägg till arkivflik, anpassa sektionsflik, sektionsfliklayout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -45,7 +45,7 @@ Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detal
 
 1. Välj högst upp en skärm att anpassa och klicka på **Arkiv**.
 
-1. Välj en layout från listan och klicka på **Redigera layout** under förhandsgranskningen.
+1. Välj en layout från listan och klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i> under förhandsgranskningen.
 
 1. Klicka på **Lägg till** för att öppna avsnittet **Flik**.
 

@@ -3,9 +3,9 @@ uid: help-da-screen-designer-grid
 title: Arbejde med gittere
 description: Sådan tilføjer og udfylder du gittere i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: skærmlayout, gitter, tabellayout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

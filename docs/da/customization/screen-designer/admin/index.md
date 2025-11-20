@@ -3,9 +3,9 @@ uid: help-da-screen-designer
 title: Skærmdesigner
 description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i denne vejledning.
 keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: concept
 license: development-tools
 audience: settings

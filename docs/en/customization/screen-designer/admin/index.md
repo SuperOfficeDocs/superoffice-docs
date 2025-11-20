@@ -3,9 +3,9 @@ uid: help-en-screen-designer
 title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: concept
 license: development-tools
 audience: settings
@@ -107,7 +107,7 @@ To start customizing screens:
 
 * **Tabs**: Can be added, rearranged, or deleted to organize information logically.
 
-> [!Note]
+> [!NOTE]
 > After publishing a layout, users in the assigned groups must sign out and back in to see the changes.
 
 ## What if I do not use the Screen Designer?

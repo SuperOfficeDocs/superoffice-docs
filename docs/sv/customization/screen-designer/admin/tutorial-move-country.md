@@ -2,9 +2,10 @@
 uid: help-sv-tutorial-country-before-address
 title: Tutorial - Flytta landfältet till toppen
 description: I den här guiden lär du dig hur du flyttar landfältet på en företags- eller kontaktskärm.
-keywords: landfält, skärmdesigner
-date: 10.09.2025
-version: 10.4
+keywords: land fält, skärmdesigner
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,9 +39,9 @@ När du är klar ska det se ut ungefär så här:
 ## Steg 3: Öppna layouten i redigeringsläge
 
 1. Välj **Företag** högst upp.
-1. Välj fliken **Huvudkort** precis nedanför.
+1. Välj fliken **Huvudkort** direkt under.
 1. Välj standardlayouten från listan.
-1. Klicka på **Redigera layout** längst ner på skärmen.
+1. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i> längst ner på skärmen.
 
 ![Företagslayout i redigeringsläge -screenshot][img3]
 

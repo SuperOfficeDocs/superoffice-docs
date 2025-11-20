@@ -3,9 +3,9 @@ uid: help-en-screen-designer-edit-layout
 title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 keywords: screen layout, edit layout, change layout, delete layout, Reset to factory settings
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -38,17 +38,12 @@ Before customizing a layout, determine who the intended users are.
 > [!NOTE]
 > You can edit the **default layout**, however, you cannot edit the default control settings and you cannot re-assign the layout to a user group.
 
-Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Edit card layout
 
 1. Open the Screen Designer.
 2. At the top, select a screen or dialog to customize.
 3. Select a layout in the list on the left side.
-4. Click **Edit layout** below the preview.
+4. Click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> below the preview.
 5. In the **Edit card layout** screen, work your way through the tabs of the screen.
 
     * [Add, edit, move, or remove a field][1]

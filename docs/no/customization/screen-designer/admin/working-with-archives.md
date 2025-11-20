@@ -2,10 +2,10 @@
 uid: help-no-screen-designer-archive
 title: Arbeide med detaljkort (arkiv)
 description: Hvordan tilpasse detaljkort (arkiv) i Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: legg til detaljekortfane, ny detaljekortfane, legg til arkivfane, tilpass detaljekortfane, detaljekortfaneoppsett
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+keywords: legg til detaljkort, nytt detaljkort, legg til arkivfane, tilpass detaljkort, detaljkort-layout
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -45,7 +45,7 @@ Du kan legge til et nytt detaljkort på hvilken som helst skjerm som har et deta
 
 1. Øverst velg en skjerm du vil tilpasse, og klikk på **Arkiv**.
 
-1. Velg en layout fra listen, og klikk på **Rediger layout** under forhåndsvisningen.
+1. Velg en layout fra listen, og klikk på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 
 1. Klikk på **Legg til** for å åpne **Fane**-seksjonen.
 

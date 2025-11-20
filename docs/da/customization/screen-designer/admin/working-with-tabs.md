@@ -2,10 +2,10 @@
 uid: help-da-screen-designer-tabs
 title: Arbejde med faner
 description: Sådan tilføjer, organiserer, sletter og gendanner du en fane i et layout, og hvordan du organiserer informationen i logiske grupper ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
-keywords: layout, fanelayout, tilføj fane, fjern fane, gendan fane, gruppér felter, Mere fane, tilføj overskrift, tilføj etiket, tilføj skillelinje
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.7
+keywords: layout, fane-layout, tilføj fane, fjern fane, gendan fane, grupper felter, Mere fane, tilføj overskrift, tilføj etiket, tilføj deler
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

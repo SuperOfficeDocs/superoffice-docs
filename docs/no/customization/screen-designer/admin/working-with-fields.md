@@ -3,9 +3,9 @@ uid: help-no-screen-designer-fields
 title: Arbeide med felt
 description: Hvordan legge til, flytte og fjerne felt i en layout ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: legg til felt, nytt felt, flytt felt, fjern felt, skjul felt, rediger layout, feltinnstillinger
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -21,7 +21,7 @@ redirect_from: /no/customization/screen-designer/working-with-fields
 
 [!include[Krav](../../../includes/req-dev-tools.md)]
 
-Etiketter og felt representerer det essensielle innholdet på en skjerm. Enten du oppretter en ny layout eller redigerer en eksisterende, starter du med å klikke på **Rediger layout**. [Vis meg de detaljerte trinnene.][1] Når du er ferdig, **lagre eller publiser** layouten.
+Etiketter og felt representerer det essensielle innholdet på en skjerm. Enten du oppretter en ny layout eller redigerer en eksisterende, starter du med å klikke på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i>. [Vis meg de detaljerte trinnene.][1] Når du er ferdig, **lagre eller publiser** layouten.
 
 > [!TIP]
 > Vurder å [legge til eller fjerne faner][2] før du finjusterer feltene.

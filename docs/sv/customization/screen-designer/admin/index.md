@@ -3,9 +3,9 @@ uid: help-sv-screen-designer
 title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält
-author: Bergfrid
-date: 10.09.2025
-version: 10.3.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: concept
 license: development-tools
 audience: settings

@@ -3,9 +3,9 @@ uid: help-da-screen-designer-add-layout
 title: Tilføj layout
 description: Sådan tilføjes et nyt layout for en brugergruppe.
 keywords: tilføj layout, nyt layout, skærmlayout, Tildel layout til
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -26,11 +26,6 @@ redirect_from:
 Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller designer et layout optimeret til specifikke projekt-, salgs-, sag- og opfølgningstyper eller dokumentskabeloner, skal du starte med at tilføje et nyt layout til en skærm i Skærmdesigneren.
 
 Med tilpassede skærmlayouts til hvert af dine teams vil det blive nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at rydde op på skærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm for dine teams at arbejde i.
-
-Se denne video og find ud af, hvordan du tilføjer et nyt layout, eller følg trin-for-trin-guiden nedenunder (videoen starter ved 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ## Opret nyt layout
 
@@ -65,7 +60,7 @@ Se denne video og find ud af, hvordan du tilføjer et nyt layout, eller følg tr
 
 ## Tilpas det nye skærmlayout
 
-1. Vælg det nye layout i listen **Layouts**, og klik på knappen **Rediger layout**.
+1. Vælg det nye layout i listen **Layouts**, og klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i>.
 
 2. Gå gennem fanerne i layoutet.
 

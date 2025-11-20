@@ -3,9 +3,9 @@ uid: help-nl-screen-designer-add-layout
 title: Opmaak toevoegen
 description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
 keywords: opmaak toevoegen, nieuwe opmaak, schermopmaak, Opmaken toewijzen aan
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -26,11 +26,6 @@ redirect_from:
 Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen of documentsjablonen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
 
 Met aangepaste schermopmaken voor elk van uw teams wordt het vinden van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zullen altijd beschikbaar en zichtbaar zijn. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen op te ruimen. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat zal een schoner en overzichtelijker scherm zijn voor uw teams om in te werken.
-
-Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgewijze handleiding hieronder (de video begint op 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ## Nieuwe opmaak maken
 
@@ -65,7 +60,7 @@ Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgew
 
 ## Nieuwe schermopmaak aanpassen
 
-1. Selecteer de nieuwe opmaak in de lijst **Opmak** en klik op de knop **Opmaak bewerken**.
+1. Selecteer de nieuwe opmaak in de lijst **Opmak** en klik op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 
 2. Werk je door de tabbladen in de opmaak.
 

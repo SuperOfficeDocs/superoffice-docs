@@ -2,9 +2,10 @@
 uid: help-no-tutorial-country-before-address
 title: Tutorial - Flytt landfeltet til toppen
 description: I denne veiledningen vil du lære hvordan du flytter landfeltet på en firma- eller personskjerm.
-keywords: landfelt, skjermdesigner
-date: 10.09.2025
-version: 10.4
+keywords: land felt, skjermdesigner
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,7 @@ Når du er ferdig, bør det se slik ut:
 1. Velg **Firma** øverst.
 1. Velg fanen **Hovedkort** rett under.
 1. Velg standardlayouten fra listen.
-1. Klikk på **Rediger layout** nederst på skjermen.
+1. Klikk på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> nederst på skjermen.
 
 ![Firmalayout i redigeringsmodus -screenshot][img3]
 

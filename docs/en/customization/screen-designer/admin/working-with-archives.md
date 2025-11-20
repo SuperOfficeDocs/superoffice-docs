@@ -3,9 +3,9 @@ uid: help-en-screen-designer-archive
 title: Working with section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
 keywords: add section tab, new section tab, add archive tab, customize section tab, section tab layout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -45,7 +45,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 
 1. At the top, select a screen to customize and click **Archives**.
 
-1. Select a layout from the list and click **Edit layout** below the preview.
+1. Select a layout from the list and click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> below the preview.
 
 1. Click **Add** to open the **Tab** section.
 

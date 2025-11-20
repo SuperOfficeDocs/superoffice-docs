@@ -3,9 +3,9 @@ uid: help-de-screen-designer-fields
 title: Arbeiten mit Feldern
 description: So fügen Sie Felder in einem Layout mit dem Ansichtsdesigner in Einstellungen und Verwaltung hinzu, verschieben und löschen sie.
 keywords: Feld hinzufügen, neues Feld, Feld verschieben, Feld entfernen, Feld ausblenden, Layout bearbeiten, Feldeinstellungen
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -21,7 +21,7 @@ redirect_from: /de/customization/screen-designer/working-with-fields
 
 [!include[Anforderung](../../../includes/req-dev-tools.md)]
 
-Beschriftungen und Felder repräsentieren die wesentlichen Inhalte einer Ansicht. Ob Sie ein neues Layout erstellen oder ein bestehendes ändern, beginnen Sie, indem Sie auf **Layout bearbeiten** klicken. [Zeigen Sie mir die detaillierten Schritte.][1] Wenn Sie fertig sind, **speichern oder veröffentlichen** Sie das Layout.
+Beschriftungen und Felder repräsentieren die wesentlichen Inhalte einer Ansicht. Ob Sie ein neues Layout erstellen oder ein bestehendes ändern, beginnen Sie, indem Sie auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i> klicken. [Zeigen Sie mir die detaillierten Schritte.][1] Wenn Sie fertig sind, **speichern oder veröffentlichen** Sie das Layout.
 
 > [!TIP]
 > Möglicherweise möchten Sie [Registerkarten hinzufügen oder entfernen][2], bevor Sie die Felder optimieren.

@@ -3,8 +3,9 @@ uid: help-da-extra-field-display
 title: Vis ekstra felt på fanen Detaljer
 description: Vis ekstra felt på fanen Detaljer
 keywords: extra field, custom field, request, layout, screen designer
-author: Bergfrid Dias
-date: 0130.2024
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

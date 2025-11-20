@@ -3,9 +3,9 @@ uid: help-en-screen-designer-fields
 title: Working with fields
 description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
 keywords: add field, new field, move field, remove field, hide field, edit layout, field settings
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -23,7 +23,7 @@ redirect_from:
 
 [!include[Requirement](../../../includes/req-dev-tools.md)]
 
-Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking **Edit layout**. [Show me the detailed steps.][1] When done, **save or publish** the layout.
+Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking <i class="ph ph-pencil-simple" aria-label="Edit layout"></i>. [Show me the detailed steps.][1] When done, **save or publish** the layout.
 
 > [!TIP]
 > You might want to [add or remove tabs][2] before you fine-tune the fields.

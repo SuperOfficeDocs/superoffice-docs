@@ -2,9 +2,10 @@
 uid: help-nl-tutorial-country-before-address
 title: Tutorial - Land vooraan plaatsen
 description: In deze tutorial leert u hoe u het veld land op een bedrijf- of persoonscherm kunt verplaatsen.
-keywords: landveld, schermontwerper
-date: 10.09.2025
-version: 10.4
+keywords: land veld, schermontwerper
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,7 @@ Als u klaar bent, zou het er ongeveer zo uitzien:
 1. Selecteer bovenaan **Bedrijf**.
 1. Selecteer direct daaronder het tabblad **Hoofdkaarten**.
 1. Selecteer het standaardlayout in de lijst.
-1. Klik onderaan op **Opmaak bewerken**.
+1. Klik onderaan op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 
 ![Bedrijfsindeling in bewerkingsmodus -screenshot][img3]
 

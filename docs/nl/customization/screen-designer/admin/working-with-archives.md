@@ -2,10 +2,10 @@
 uid: help-nl-screen-designer-archive
 title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
-keywords: sectietabblad toevoegen, nieuw sectietabblad, archieftabblad toevoegen, sectietabblad aanpassen, sectietabbladopmaak
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+keywords: sectietabblad toevoegen, nieuw sectietabblad, archieftabblad toevoegen, sectietabblad aanpassen, sectietabblad-opmaak
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -45,7 +45,7 @@ U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Af
 
 1. Kies bovenaan een scherm om aan te passen en klik op **Archieven**.
 
-1. Selecteer een opmaak uit de lijst en klik op **Opmaak bewerken** onder de voorbeeldweergave.
+1. Selecteer een opmaak uit de lijst en klik op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i> onder de voorbeeldweergave.
 
 1. Klik op **Toevoegen** om het secties **Tabblad** te openen.
 

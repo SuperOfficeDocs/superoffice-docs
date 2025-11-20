@@ -3,9 +3,9 @@ uid: help-nl-screen-designer-edit-layout
 title: Opmaak hoofdkaarten bewerken
 description: In deze handleiding staat u hoe u een opmaak bewerkt.
 keywords: schermopmaak, opmaak bewerken, opmaak wijzigen, opmaak verwijderen, Terugzetten naar fabrieksinstellingen
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -37,17 +37,12 @@ Voordat u een opmaak aanpast, moet u bepalen wie de beoogde gebruikers zijn.
 > [!NOTE]
 > U kunt het **standaardopmaak** bewerken, maar u kunt de standaardinstellingen voor de besturingselementen niet bewerken en u kunt het opmaak niet opnieuw toewijzen aan een gebruikersgroep.
 
-Bekijk deze video en ontdek hoe u de schermontwerper kunt gebruiken om uw schermen te configureren in SuperOffice CRM of volg de stapsgewijze handleiding hieronder (duur van de video - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Kaartopmaak bewerken
 
 1. Open de Schermontwerper.
 2. Selecteer bovenaan een scherm of dialoogvenster dat u wilt aanpassen.
 3. Selecteer een opmaak in de lijst aan de linkerkant.
-4. Klik onder de voorbeeldweergave op **Opmaak bewerken**.
+4. Klik onder de voorbeeldweergave op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 5. Werk door de tabbladen van het scherm in het scherm **Kaartopmaak bewerken**.
 
     * [Een veld toevoegen, bewerken, verplaatsen of verwijderen][1]

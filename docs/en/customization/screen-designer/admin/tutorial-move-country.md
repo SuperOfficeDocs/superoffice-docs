@@ -3,8 +3,9 @@ uid: help-en-tutorial-country-before-address
 title: Tutorial - Front-load country
 description: In this tutorial, you will learn how to move the country field on a company or contact.
 keywords: country field, screen designer
-date: 10.09.2025
-version: 10.4
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 license: development-tools
 audience: settings
@@ -42,7 +43,7 @@ When you are done, it should look something like this:
 1. Select **Company** at the top.
 1. Select the **Main cards** tab directly below.
 1. Select the default layout from the list.
-1. Click **Edit layout** at the bottom of the screen.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> at the bottom of the screen.
 
 ![Company layout in edit mode -screenshot][img3]
 

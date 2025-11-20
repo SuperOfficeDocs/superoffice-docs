@@ -3,9 +3,9 @@ uid: help-no-screen-designer-edit-layout
 title: Rediger layouten til et kort
 description: I denne veiledningen lærer du hvordan du redigerer en layout.
 keywords: skjermoppsett, rediger layout, endre layout, slett layout, Tilbakestill til fabrikkinnstillinger
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -37,18 +37,13 @@ Før du tilpasser en layout, bør du fastsette hvem de tiltenkte brukerne er.
 > [!NOTE]
 > Du kan redigere **standardlayouten**, men du kan ikke endre standardkontrollinnstillingene og du kan ikke tilordne layouten til en brukergruppe på nytt.
 
-Se denne videoen og finn ut hvordan du bruker skjermdesigneren til å konfigurere skjermbildene i SuperOffice CRM, eller følg trinn-for-trinn-guiden nedenfor (videolengde - 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Rediger kortlayout
 
 1. Åpne Skjermdesigneren (i **Innstillinger og vedlikehold**).
 1. Velg en skjerm eller dialog øverst for å tilpasse.
 1. Velg **Hovedkort**.
 1. Velg en layout fra listen til venstre.
-1. Klikk **Rediger layout** under forhåndsvisningen.
+1. Klikk <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 1. I skjermbildet **Rediger kortlayout**, gå gjennom fanene på skjermen.
 
     * [Legg til, rediger, flytt eller fjern et felt][1]

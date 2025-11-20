@@ -3,9 +3,9 @@ uid: help-en-screen-designer-add-layout
 title: Add layout
 description: How to add a screen layout using the Screen Designer in Settings and maintenance.
 keywords: add layout, new layout, screen layout, Assign layouts to
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -27,11 +27,6 @@ redirect_from:
 Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request, and follow-up types or document templates, start by adding a new layout for a screen in the Screen Designer.
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
-
-Watch this video and find out how add a new layout or follow the step-by-step guide below (the video will start at 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ## Create new layout
 
@@ -66,7 +61,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
 ## Customize the new screen layout
 
-1. With the new layout selected in the **Layouts** list, click the **Edit layout** button.
+1. With the new layout selected in the **Layouts** list, click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i>.
 
 2. Work your way through the tabs in the layout.
 

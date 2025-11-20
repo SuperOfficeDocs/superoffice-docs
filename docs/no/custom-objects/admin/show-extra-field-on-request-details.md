@@ -3,8 +3,9 @@ uid: help-no-extra-field-display
 title: Vis ekstrafelt i fanen Detaljer
 description: Vis ekstrafelt i fanen Detaljer
 keywords: ekstrafelt, sak, layout, Skjermdesigner
-author: Bergfrid Dias
-date: 01.18.2024
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -2,10 +2,10 @@
 uid: help-da-screen-designer-field-reference
 title: Reference
 description: Reference over elementer, der er tilgængelige i Skærmdesigneren i Indstillinger og vedligeholdelse.
-keywords: Skærmdesigner felter, standardfelt, standardfane
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.11
+keywords: Skærmdesigner-felter, standardfelt, standardfane
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: reference
 license: development-tools
 audience: settings
@@ -36,7 +36,8 @@ redirect_from: /da/customization/screen-designer/reference
 | ERP | ERP | Ingen muligheder. Konfigureret under **Indstillinger og vedligeholdelse** > **ERP**. |
 | Fax | Tekst | |
 | [Interesser][17] | Interesser | Ingen muligheder |
-| Sidst ændret | Dato | |
+| [Kilde til oprettelse af lead][24] | Tekst | |
+| Opdateret | Dato | |
 | Hovedkontakt | Tekst | |
 | Ingen forsendelser | Afkrydsningsfelt | |
 | Notat | Tekstboks | |
@@ -49,10 +50,10 @@ redirect_from: /da/customization/screen-designer/reference
 | Enkelt interesse | Afkrydsningsfelt | Vælg interesse fra listen |
 | Stop | Afkrydsningsfelt | |
 | Momsnummer | Tekst | |
-| Websted | Tekst | |
+| Website | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [databasereferencen][2].
+For detaljer om værdien af hvert felt, se [Contact-databasetabellen][2].
 
 **Standardfaner:**
 
@@ -83,7 +84,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][2].
 | Fratrådt | Afkrydsningsfelt | |
 | [Interesser][17] | Interesser | Ingen muligheder |
 | Internet telefon | Tekst | |
-| Sidst ændret | Dato | |
+| Opdateret | Dato | |
 | Efternavn | Tekst | |
 | Mellemnavn | Tekst | |
 | Mobil | Tekst | |
@@ -125,7 +126,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][3].
 | Kontakt | Drop-down | |
 | Kredit | Drop-down | |
 | Beskrivelse | Tekstboks | Vælg antal rækker. Har ingen etiket |
-| Sidst ændret | Dato | |
+| Opdateret | Dato | |
 | Links | Links | Ingen muligheder |
 | Nummer | Tekst | |
 | Ejer | Drop-down | |
@@ -160,9 +161,10 @@ For detaljer om værdien af hvert felt, se [databasereferencen][4].
 | Felt | Type | Kommentar |
 |---|---|---|
 | Beskrivelse | Tekstboks | Vælg antal rækker. Har ingen etiket |
-| Slutdato | Datovælger | |
+| Slutdato | Dato-velger | |
 | ERP | ERP | Ingen muligheder. Konfigureret under **Indstillinger og vedligeholdelse** > **ERP**. |
-| Sidst ændret | Dato | |
+| Billede | Billede | |
+| Opdateret | Dato | |
 | Næste milepæl | | |
 | Nummer | Tekst | |
 | Projekt | Tekst | |
@@ -206,16 +208,17 @@ For detaljer om værdien af hvert felt, se [databasereferencen][5].
 | ID | Tekst | |
 | Intern status | Tekst | |
 | Sprog | Tekst | |
-| Sidst ændret | Dato | |
+| Opdateret | Dato | |
 | Niveau | Tekst | |
 | Antal beskeder | Tid | |
 | Antal svar | Tid | |
 | Oprindelse | Tekst | |
 | Ejer | Drop-down | |
-| Udsat til | Tekst | |
+| Udsat til | Dato | |
 | Prioritet | Drop-down | |
 | Projekt | Drop-down | |
 | Læst | Tekst | |
+| Læst af kontakt | Dato | |
 | Læst af ejer | Dato | |
 | Ekstern realtid | Tid | |
 | Intern realtid | Tid | |
@@ -254,6 +257,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][6].
 | Alarm | Drop-down | |
 | [Tjek tilgængelighed][15] | Planlægningsassistent | |
 | Færdiggjort | Afkrydsningsfelt | |
+| Varighed | Nummer | Ingen muligheder |
 | Links | Flerlinjet tekst | Vælg antal rækker. Ingen etiket |
 | Ejer | Drop-down | |
 | Prioritet | Drop-down | |
@@ -286,10 +290,12 @@ For detaljer om værdien af hvert felt, se [databasereferencen][7].
 | Felt | Type | Kommentar |
 |---|---|---|
 | Sprog | Drop-down | Låst placering |
+| Links | Links | Ingen muligheder |
 | Dato | Datovælger | Låst placering |
 | Synlig for | Drop-down | Ingen muligheder |
 | Redigeret af/Låst af | Tekst | Låst placering |
 | Emne | Tekst | Titlen/overskriften |
+| Dokumentreferencer | Links | Ingen muligheder |
 | [Dokumentskabelon][22] | Drop-down | Låst placering |
 | Firma/Kontakt | Drop-down | Låst placering |
 | Salg | Drop-down | |
@@ -337,3 +343,4 @@ For detaljer om værdien af hvert felt, se [databasereferencen][23].
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md

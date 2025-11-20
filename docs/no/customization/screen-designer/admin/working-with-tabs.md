@@ -2,10 +2,10 @@
 uid: help-no-screen-designer-tabs
 title: Arbeide med faner
 description: Slik legger du til, organiserer, sletter og gjenoppretter en fane i et oppsett, og hvordan du organiserer informasjonen i logiske grupper ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
-keywords: layout, faneoppsett, legg til fane, fjern fane, gjenopprett fane, gruppér felt, Mer fane, legg til overskrift, legg til etikett, legg til skillelinje
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.7
+keywords: layout, fane-layout, legg til fane, fjern fane, gjenopprett fane, grupper felter, Mer fane, legg til overskrift, legg til etikett, legg til skillelinje
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

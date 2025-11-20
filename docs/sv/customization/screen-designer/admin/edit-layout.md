@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-edit-layout
 title: Redigera layouten för ett kort
 description: I den här guiden förklarar vi hur du redigerar en layout.
 keywords: skärmlayout, redigera layout, ändra layout, ta bort layout, Återställ till fabriksinställningar
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -37,17 +37,12 @@ Innan du anpassar en layout bör du fastställa vem de tilltänkta användarna �
 > [!NOTE]
 > Du kan redigera **standardlayouten**, men du kan inte redigera standardinställningarna för kontrollerna och du kan inte tilldela layouten till en annan användargrupp.
 
-Titta på den här videon och ta reda på hur du använder skärmdesignern för att konfigurera dina skärmar i SuperOffice CRM eller följ steg-för-steg-guiden nedan (videons längd – 6:41):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
-
 ## <a id="edit"></a>Redigera kortlayout
 
 1. Öppna Skärmdesignern.
 2. Välj högst upp en skärm eller dialog som du vill anpassa.
 3. Välj en layout i listan till vänster.
-4. Klicka på **Redigera layout** under förhandsgranskningen.
+4. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i> under förhandsgranskningen.
 5. I skärmbilden **Redigera kortlayout**, gå igenom flikarna på skärmen.
 
     * [Lägg till, redigera, flytta eller ta bort ett fält][1]

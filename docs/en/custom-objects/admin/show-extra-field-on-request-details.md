@@ -3,9 +3,9 @@ uid: help-en-extra-field-display
 title: Show extra field to the Details tab
 description: Show extra field to the Details tab
 keywords: extra field, custom field, request, layout, screen designer, System design
-author: Bergfrid Dias
-date: 01.18.2024
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +23,7 @@ Scenario: you have added an extra field to company (`contact` table) conveying w
 ### [In new Requests screen with Screen Designer](#tab/screen-designer)
 
 1. Go to **Settings and maintenance** > **Screen designer** and select the **Requests** tab.
-1. Click **Edit layout** at the bottom.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> at the bottom.
 1. Locate the **Fields** setting.
 1. Select your field.
 1. Optionally, select the appropriate styling options.

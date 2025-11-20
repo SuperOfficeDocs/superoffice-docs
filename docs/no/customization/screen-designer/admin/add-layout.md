@@ -3,9 +3,9 @@ uid: help-no-screen-designer-add-layout
 title: Legg til skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: legg til layout, nytt layout, skjermoppsett, Tilordne layout til
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -25,12 +25,7 @@ redirect_from:
 
 Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper eller dokumentmaler, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
 
-Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbilden. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
-
-Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trinn-for-trinn-guiden nedenfor (videoen starter på 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
+Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbildet. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
 
 ## Opprett ny layout
 
@@ -65,7 +60,7 @@ Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trin
 
 ## Tilpass det nye skjermlayouten
 
-1. Velg det nye layouten i **Layouter**-listen, og klikk på knappen **Rediger layout**.
+1. Velg det nye layouten i **Layouter**-listen, og klikk på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i>.
 
 2. Gå gjennom fanene i layouten.
 

@@ -3,9 +3,9 @@ uid: help-da-screen-designer-archive
 title: Arbejde med detaljekort (arkiver)
 description: Skærmdesigner - arbejde med detaljekort (arkiver)
 keywords: tilføj sektionsfane, ny sektionsfane, tilføj arkivfane, tilpas sektionsfane, sektionsfanelayout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -45,7 +45,7 @@ Du kan tilføje et nyt detaljekort på enhver skærm, der har et detaljekortomr�
 
 1. Vælg øverst en skærm, du vil tilpasse, og klik på **Arkiver**.
 
-1. Vælg et layout fra listen, og klik på **Rediger layout** under forhåndsvisningen.
+1. Vælg et layout fra listen, og klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 
 1. Klik på **Tilføj** for at åbne sektionen **Fane**.
 

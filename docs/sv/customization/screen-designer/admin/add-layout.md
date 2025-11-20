@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-add-layout
 title: Lägg till layout
 description: Så här lägger du till en ny layout för en användargrupp.
 keywords: lägg till layout, ny layout, skärmlayout, Tilldela layouter till
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings
@@ -26,11 +26,6 @@ redirect_from:
 Oavsett om du lägger till en personlig vy för en utvald användargrupp eller designar en layout optimerad för specifika projekt-, försäljnings-, ärende- och händelsestyper eller dokumentmallar, börjar du med att lägga till en ny layout för en skärm i Skärmdesignern.
 
 Med anpassade skärmlayouter för varje av dina team kommer det att bli enklare än någonsin att hitta kunddata. De mest relevanta uppgifterna kommer alltid att vara tillgängliga och synliga. Ta bort, flytta eller dölj irrelevanta eller mindre viktiga data för att städa upp på skärmarna. Lägg till anpassade arkiv med de mest relevanta uppgifterna för dina team. Resultatet blir en renare och mer organiserad skärm för dina team att arbeta i.
-
-Titta på den här videon och ta reda på hur du lägger till en ny layout eller följ steg-för-steg-guiden nedan (videon börjar vid 5:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ## Skapa ny layout
 
@@ -65,7 +60,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 
 ## Anpassa den nya skärmlayouten
 
-1. Med den nya layouten valt i **Layouter**-listan, klicka på knappen **Redigera layout**.
+1. Med den nya layouten valt i **Layouter**-listan, klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i>.
 
 2. Gå igenom flikarna i layouten.
 
