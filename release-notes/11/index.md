@@ -4,7 +4,7 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
 author: SuperOffice AS – Product and Engineering
-date: 11.06.2025
+date: 12.02.2025
 version: 11
 content_type: release-note
 audience: person
@@ -27,7 +27,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 * [Dashboard - Quick filter in dashboard][21] in Core CRM and Sales
 * [Dashboard - Load a tile again on time outs][21] in Core CRM and Sales
-* [Selection - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
+* [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
 * [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
 * [Requests - Filter messages on comments or replies][22] in Service
 
