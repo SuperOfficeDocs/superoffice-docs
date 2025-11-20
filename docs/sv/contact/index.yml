@@ -1,0 +1,227 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Kontakt
+summary: Välkommen till kontaktområdet där du hittar relevanta länkar till allt som rör personer.
+
+metadata:
+  title: Kontakt
+  description: "Lär dig om och arbeta med personer, kunder och medarbetare: en kontakt i gränssnittet och en person i databasen."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Kontakter och kontaktkortet
+            url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Skapa ny kontakt
+            url: learn/create.md
+          - text: Redigera kontaktuppgifter
+            url: learn/edit.md
+          - text: Flytta en kontakt
+            url: learn/move.md
+          - text: Slå ihop kontakter
+            url: learn/merge-contacts.md
+          - text: Ta bort en kontakt
+            url: learn/delete.md
+          - text: Skicka e-post till en kontakt
+            url: learn/send-email.md
+          - text: Ring kontakt
+            url: learn/dial.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Hur du hanterar kundinformation
+            url: https://www.youtube.com/watch?v=10VQCTgxODc
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Mallvariabler
+            url: ../document/templates/variables/for-selected-contact.md
+          - text: Användarinställning - Associates
+            url: ../../en/admin/user-preferences/reference/associates.md
+          - text: Användarinställning - FindContact
+            url: ../../en/admin/user-preferences/reference/find-contact.md
+
+  - title: Integritet och GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementeringsguide
+            url: ../security/privacy/admin/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Redigera integritetsinställningar för en kontakt
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: Skicka e-post med integritetsbekräftelse
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: Generera rapport över personuppgifter
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Ta bort poster permanent
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Lägg till samtyckessyfte
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Lägg till rättslig grund
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Lägg till integritetskälla
+            url: ../security/privacy/admin/add-source.md
+          - text: Redigera e-post med integritetsbekräftelse
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+
+  - title: Relationer
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Översikt över relationer
+            url: ../learn/basics/relations.md
+          - text: Fliken relationer
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Lägga till poster i relationslistan
+            url: ../admin/lists/specialized-lists.md#relation
+
+  - title: Import och massåtgärder
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Massuppdatera kontaktuppgifter
+            url: ../learn/basics/bulk-update.md
+          - text: Använd papperskorgen för att återställa kontakter
+            url: ../learn/basics/deleting-elements.md#restore
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Hur du importerar kontakter
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+
+  - title: Anpassning av gränssnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Skärmredigerare
+            url: ../customization/screen-designer/admin/index.md
+          - text: Webbpaneler
+            url: ../customization/web-panels/admin/index.md
+          - text: Objekt i aktivitetsmenyn
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Anpassade fält
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - lista över kontakter från ett företag
+            url: ../../en/customization/soprotocol/howto/open-contact.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Hur du lägger till användardefinierade fält
+            url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Översikt
+            url: ../../en/automation/index.yml
+          - text: Utlösare
+            url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Webhooks - kontakthändelser
+            url: ../../en/automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - synkronisera användare
+            url: ../../en/online/identity/scim/provisioning/sync-user.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt (kund, person, användare)
+          url: ../../en/automation/crmscript/howto/contact/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Skapa och uppdatera kunder
+            url: ../../en/automation/crmscript/howto/contact/create-customer.md
+          - text: Hämta kundinformation
+            url: ../../en/automation/crmscript/howto/contact/get-customer.md
+          - text: Söka efter kunder
+            url: ../../en/automation/crmscript/howto/contact/find-customer.md
+          - text: Hämta intressen
+            url: ../../en/automation/crmscript/howto/contact/get-interests.md
+          - text: Skapa användare
+            url: ../../en/automation/crmscript/howto/contact/create-user.md
+          - text: Hämta användare
+            url: ../../en/automation/crmscript/howto/contact/get-user.md
+          - text: Ange/rensa intresse på kontakt
+            url: ../../en/automation/crmscript/howto/interests/contact-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Arbeta med kontakter i API
+            url: ../../en/contact/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../../en/api/sql/howto/contact/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/contact/index.md
+          - text: Row
+            url: ../../en/api/rows/howto/contact/index.md
+          - text: Entity
+            url: ../../en/api/entities/howto/contact/index.md
+          - text: Webbtjänster, REST
+            url: ../../en/api/web-services/howto/contact/index.md
+
+  - title: Databastabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Contact tabellen
+            url: ../../en/database/tables/contact.md
+          - text: Person tabellen
+            url: ../../en/database/tables/person.md
+          - text: Associate tabellen
+            url: ../../en/database/tables/associate.md
+          - text: Address tabellen
+            url: ../../en/database/tables/address.md
+          - text: Country tabellen
+            url: ../../en/database/tables/country.md
+          - text: Business tabellen
+            url: ../../en/database/tables/business.md
+          - text: UdpersonSmall tabellen
+            url: ../../en/database/tables/udpersonsmall.md
+          - text: UdpersonLarge tabellen
+            url: ../../en/database/tables/udpersonlarge.md

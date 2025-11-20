@@ -1,0 +1,202 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Projekt
+summary: Välkommen till projektområdet där du hittar relevanta länkar till allt som rör projekt och projektguider.
+
+metadata:
+  title: Projekt
+  description: "Projekt och projektguider"
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introduktion
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introduktion till projekt
+          url: ../../en/project/dev/index.md
+        - text: Organisera filer och aktiviteter i projekt
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Så här skapar du ett projekt
+          url: learn/create.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Guidad rundtur
+          url: https://www.youtube.com/embed/zLJwNll223w
+
+  - title: Projektledning
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Uppdatera ett projekt
+          url: learn/edit.md
+        - text: Ta bort ett projekt
+          url: learn/delete.md
+        - text: Slå ihop projekt
+          url: learn/merge-projects.md
+        - text: Lägga till projektstatus (lista)
+          url: admin/project-status.md
+        - text: Lägga till projekttyp (lista)
+          url: admin/project-type.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hur du kopplar dokument till projekt
+          url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+        - text: Hur du lägger till händelse i projekt
+          url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Mallvariabler
+          url: ../document/templates/variables/from-project-card.md
+
+  - title: Projektmedlemmar
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: learn/project-members/index.md
+        - text: Lägga till medlem
+          url: learn/project-members/add.md
+        - text: Uppdatera medlem
+          url: learn/project-members/edit.md
+        - text: Bjuda in till möte
+          url: learn/project-members/invite-to-meeting.md
+        - text: Skicka e-post till medlemmar
+          url: learn/project-members/send-email-to.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hur du lägger till en projektmedlem i projektet
+          url: https://www.youtube.com/watch?v=IaCy_2xwG6c
+
+  - title: Projektguide
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: learn/project-guides.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Arbeta med projektguide
+          url: learn/tutorial.md
+        - text: Skapa guide
+          url: admin/create-project-guide.md
+        - text: Uppdatera eller inaktivera guide
+          url: admin/edit-project-guide.md
+
+  - title: Anpassning av användargränssnitt
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Skärmdesigner
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webbpaneler
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Anpassade skärmar (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Alternativ i aktivitetsmenyn
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Anpassade fält
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/index.yml
+        - text: Utlösare
+          url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - projekt­händelser
+          url: ../../en/automation/webhook/reference/project-events.md
+        - text: Webhooks - projektmedlemshändelser
+          url: ../../en/automation/webhook/reference/project-member-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Översikt
+          url: ../../en/automation/crmscript/howto/project/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Skapa
+          url: ../../en/automation/crmscript/howto/project/create.md
+        - text: Hämta vald
+          url: ../../en/automation/crmscript/howto/project/get.md
+        - text: Uppdatera
+          url: ../../en/automation/crmscript/howto/project/update.md
+        - text: Projektmedlemmar
+          url: ../../en/automation/crmscript/howto/project/members.md
+        - text: Projektguider
+          url: ../../en/automation/crmscript/howto/project/guides.md
+
+  - title: API
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Project/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Project/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: SQL-exempel
+          url: ../../en/api/sql/howto/project/index.md
+
+  - title: Databastabeller
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Projekt
+          url: ../../en/database/tables/project.md
+        - text: Projektmedlem
+          url: ../../en/database/tables/projectmember.md
+        - text: ProjStatus
+          url: ../../en/database/tables/projstatus.md
+        - text: ProjType
+          url: ../../en/database/tables/projtype.md
+        - text: Associate
+          url: ../../en/database/tables/associate.md
+        - text: UserGroup
+          url: ../../en/database/tables/usergroup.md
+        - text: Appointment
+          url: ../../en/database/tables/appointment.md
+        - text: UdprojectSmall
+          url: ../../en/database/tables/udprojectsmall.md
+        - text: UdprojectLarge
+          url: ../../en/database/tables/udprojectlarge.md
