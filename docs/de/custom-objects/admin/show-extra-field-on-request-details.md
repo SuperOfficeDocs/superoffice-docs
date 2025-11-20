@@ -3,8 +3,9 @@ uid: help-de-extra-field-display
 title: Zusatzfeld im Tab Details anzeigen
 description: Zusatzfeld im Tab Details anzeigen
 keywords: extra field, custom field, request, layout, screen designer
-author: Bergfrid Dias
-date: 01.30.2024
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

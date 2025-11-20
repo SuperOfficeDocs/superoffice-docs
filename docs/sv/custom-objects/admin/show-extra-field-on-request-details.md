@@ -3,8 +3,9 @@ uid: help-sv-extra-field-display
 title: Visa extra fält på fliken Detaljer
 description: Visa extra fält på fliken Detaljer
 keywords: extra fält, custom field, förfrågan, layout, screen designer
-author: Bergfrid Dias
-date: 01.18.2024
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
