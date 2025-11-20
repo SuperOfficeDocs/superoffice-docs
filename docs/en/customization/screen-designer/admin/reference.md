@@ -38,7 +38,7 @@ redirect_from:
 | ERP | ERP | Has no options. Configured in **Settings and maintenance** > **ERP**. |
 | Fax | Text | |
 | [Interests][17] | Interests | Has no options |
-| Last modified | Date | |
+| [Lead creation source][24] | Text | |
 | Main contact | Text | |
 | No mailings | Checkbox | |
 | Note | Text box | |
@@ -85,7 +85,6 @@ For details about the value of each field, see the [Contact database table][2].
 | Former employee | Checkbox | |
 | [Interests][17] | Interests | Has no options |
 | Internet phone | Text | |
-| Last modified | Date | |
 | Last name | Text | |
 | Middle name | Text | |
 | Mobile | Text | |
@@ -102,6 +101,7 @@ For details about the value of each field, see the [Contact database table][2].
 | Single interest | Checkbox | Select interest from list |
 | Subscription | | |
 | Title | Text | |
+| Updated | Date | |
 | Use as postal address | Checkbox | |
 | Website | Text | |
 | Custom fields | | Both user-defined and extra |
@@ -127,7 +127,6 @@ For details about the value of each field, see the [Person database table][3].
 | Contact | Drop-down | |
 | Credited | Drop-down | |
 | Description | Text box | Select number of rows. Has no label |
-| Last modified | Date | |
 | Links | Links | Has no options |
 | Number | Text | |
 | Owner | Drop-down | |
@@ -142,6 +141,7 @@ For details about the value of each field, see the [Person database table][3].
 | Stage | Drop-down | |
 | Stage - workflow | Multiline text | Has no options |
 | Total cost | Number | Right-aligned amount |
+| Updated | Date | |
 | Visible for | Text | |
 | Custom fields | | Both user-defined and extra |
 
@@ -164,7 +164,7 @@ For details about the value of each field, see the [Sale database table][4].
 | Description | Text box | Select number of rows. Has no label |
 | End date | Date picker | |
 | ERP | ERP | Has no options. Configured in **Settings and maintenance** > **ERP**. |
-| Last modified | Date | |
+| Image | Image | |
 | Next milestone | | |
 | Number | Text | |
 | Project | Text | |
@@ -173,6 +173,7 @@ For details about the value of each field, see the [Sale database table][4].
 | Responsible | Drop-down | |
 | Status | Drop-down | |
 | Type | Drop-down | |
+| Updated | Date | |
 | Website | Text | |
 | Custom fields | | Both user-defined and extra |
 
@@ -210,14 +211,14 @@ For details about the value of each field, see the [Project database table][5].
 | Language | Text | |
 | Last changed | Date | |
 | Level | Text | |
-| Number of messages | Time | |
-| Number of replies | Time | |
+| Number of messages | Number | |
+| Number of replies | Number | |
 | Origin | Text | |
 | Owner | Drop-down | |
-| Postponed to | Text | |
+| Postponed to | Date | |
 | Priority | Drop-down | |
 | Project | Drop-down | |
-| Read | Text | |
+| Read by contact | Date | |
 | Read by owner | Date | |
 | Real time externally | Time | |
 | Real time internally | Time | |
@@ -256,10 +257,11 @@ For details about the value of each field, see the [Ticket database table][6].
 | Alarm | Drop-down | |
 | [Check availability][15] | Scheduling assistant | |
 | Completed | Checkbox | |
+| Duration | Number | Has no options |
 | Links | Multiline text | Select number of rows. Has no label |
 | Owner | Drop-down | |
 | Priority | Drop-down | |
-| Project Drop-down | | |
+| Project | Drop-down | |
 | Sale | Drop-down | |
 | [Suggested time slots][15] | | Has no options |
 | Title | Text | Placement locked. |
@@ -288,10 +290,12 @@ For details about the value of each field, see the [Appointment database table][
 | Field | Type | Comment |
 |---|---|---|
 | Language | Drop-down | Placement locked |
+| Links | Links | Has no options |
 | Date | Date picker | Placement locked |
 | Visible for | Drop-down | Has no options |
 | Edited by/Locked by | Text | Placement locked |
 | Subject | Text | The title/heading |
+| Document references | Links | Has no options |
 | [Document template][22] | Drop-down | Placement locked |
 | Company/Contact | Drop-down | Placement locked |
 | Sale | Drop-down | |
@@ -339,3 +343,4 @@ For details about the value of each field, see the [Document database table][23]
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md

@@ -36,7 +36,8 @@ redirect_from: /nl/customization/screen-designer/reference
 | ERP | ERP | Geen opties. Geconfigureerd in **Instellingen en onderhoud** > **ERP**. |
 | Fax | Tekst | |
 | [Interesses][17] | Interesses | Geen opties |
-| Laatst gewijzigd | Datum | |
+| [Bron voor het creëren van leads][24] | Tekst | |
+| Bijgewerkt | Datum | |
 | Hoofdcontact | Tekst | |
 | Geen mailings | Vinkvakje | |
 | Notitie | Tekstvak | |
@@ -52,7 +53,7 @@ redirect_from: /nl/customization/screen-designer/reference
 | Website | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [databasereferentie][2].
+Voor meer details over de waarde van elk veld, zie de [Contact-databasetabel][2].
 
 **Standaardtabbladen:**
 
@@ -83,7 +84,7 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][2].
 | Voormalige werknemer | Vinkvakje | |
 | [Interesses][17] | Interesses | Geen opties |
 | Internet telefoon | Tekst | |
-| Laatst gewijzigd | Datum | |
+| Bijgewerkt | Datum | |
 | Achternaam | Tekst | |
 | Tussenvoegsel | Tekst | |
 | Mobiel | Tekst | |
@@ -125,7 +126,7 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][3].
 | Contact | Drop-down | |
 | Gecrediteerd | Drop-down | |
 | Beschrijving | Tekstvak | Selecteer aantal rijen. Geen label |
-| Laatst gewijzigd | Datum | |
+| Bijgewerkt | Datum | |
 | Links | Links | Geen opties |
 | Nummer | Tekst | |
 | Eigenaar | Drop-down | |
@@ -162,7 +163,8 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][4].
 | Beschrijving | Tekstvak | Selecteer aantal rijen. Geen label |
 | Einddatum | Datumpicker | |
 | ERP | ERP | Geen opties. Geconfigureerd in **Instellingen en onderhoud** > **ERP**. |
-| Laatst gewijzigd | Datum | |
+| Afbeelding | Afbeelding | |
+| Bijgewerkt | Datum | |
 | Volgende mijlpaal | | |
 | Nummer | Tekst | |
 | Project | Tekst | |
@@ -206,16 +208,17 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][5].
 | ID | Tekst | |
 | Interne status | Tekst | |
 | Taal | Tekst | |
-| Laatst gewijzigd | Datum | |
+| Bijgewerkt | Datum | |
 | Niveau | Tekst | |
 | Aantal berichten | Tijd | |
 | Aantal antwoorden | Tijd | |
 | Oorsprong | Tekst | |
 | Eigenaar | Drop-down | |
-| Uitgesteld naar | Tekst | |
+| Uitgesteld naar | Datum | |
 | Prioriteit | Drop-down | |
 | Project | Drop-down | |
 | Gelezen | Tekst | |
+| Gelezen door contact | Datum | |
 | Gelezen door eigenaar | Datum | |
 | Externe tijd | Tijd | |
 | Interne tijd | Tijd | |
@@ -254,6 +257,7 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][6].
 | Alarm | Drop-down | |
 | [Beschikbaarheid controleren][15] | Plannerassistent | |
 | Voltooid | Vinkvakje | |
+| Duur | Nummer | Geen opties |
 | Links | Meerdere regels tekst | Selecteer aantal rijen. Geen label |
 | Eigenaar | Drop-down | |
 | Prioriteit | Drop-down | |
@@ -286,10 +290,12 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 | Veld | Type | Opmerking |
 |---|---|---|
 | Taal | Drop-down | Vergrendelde plaatsing |
+| Links | Links | Geen opties |
 | Datum | Datumkiezer | Vergrendelde plaatsing |
 | Zichtbaar voor | Drop-down | Geen opties |
 | Bewerkt door/Geblokkeerd door | Tekst | Vergrendelde plaatsing |
 | Onderwerp | Tekst | Titel/kop |
+| Documentreferenties | Links | Geen opties |
 | [Documentsjabloon][22] | Drop-down | Vergrendelde plaatsing |
 | Bedrijf/Contactpersoon | Drop-down | Vergrendelde plaatsing |
 | Verkoop | Drop-down | |
@@ -337,3 +343,4 @@ Voor details over de waarde van elk veld, zie [databasereferentie][23].
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md

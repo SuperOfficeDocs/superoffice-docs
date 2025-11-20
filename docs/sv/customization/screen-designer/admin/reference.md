@@ -36,7 +36,8 @@ redirect_from: /sv/customization/screen-designer/reference
 | ERP | ERP | Inga alternativ. Konfigurerad under **Inställningar och underhåll** > **ERP**. |
 | Fax | Text | |
 | [Intressen][17] | Intressen | Inga alternativ |
-| Senast ändrad | Datum | |
+| [Källa för att skapa leads][24] | Text | |
+| Uppdaterad | Datum | |
 | Huvudkontakt | Text | |
 | Inga utskick | Kryssruta | |
 | Anteckning | Textfält | |
@@ -52,7 +53,7 @@ redirect_from: /sv/customization/screen-designer/reference
 | Webbplats | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [databasreferencen][2].
+För detaljer om värdet av varje fält, se [Contact-databastabellen][2].
 
 **Standardflikar:**
 
@@ -83,7 +84,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][2].
 | Före detta anställd | Kryssruta | |
 | [Intressen][17] | Intressen | Inga alternativ |
 | Internet-telefon | Text | |
-| Senast ändrad | Datum | |
+| Uppdaterad | Datum | |
 | Efternamn | Text | |
 | Mellannamn | Text | |
 | Mobil | Text | |
@@ -125,7 +126,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][3].
 | Kontakt | Drop-down | |
 | Kredit | Drop-down | |
 | Beskrivning | Textfält | Välj antal rader. Ingen etikett |
-| Senast ändrad | Datum | |
+| Uppdaterad | Datum | |
 | Länkar | Länkar | Inga alternativ |
 | Nummer | Text | |
 | Ägare | Drop-down | |
@@ -162,7 +163,8 @@ För detaljer om värdet av varje fält, se [databasreferencen][4].
 | Beskrivning | Textfält | Välj antal rader. Ingen etikett |
 | Slutdatum | Datumväljare | |
 | ERP | ERP | Inga alternativ. Konfigurerad under **Inställningar och underhåll** > **ERP**. |
-| Senast ändrad | Datum | |
+| Bild | Bild | |
+| Uppdaterad | Datum | |
 | Nästa milstolpe | | |
 | Nummer | Text | |
 | Projekt | Text | |
@@ -206,16 +208,17 @@ För detaljer om värdet av varje fält, se [databasreferencen][5].
 | ID | Text | |
 | Intern status | Text | |
 | Språk | Text | |
-| Senast ändrad | Datum | |
+| Uppdaterad | Datum | |
 | Nivå | Text | |
 | Antal meddelanden | Tid | |
 | Antal svar | Tid | |
 | Ursprung | Text | |
 | Ägare | Drop-down | |
-| Uppskjuten till | Text | |
+| Uppskjuten till | Datum | |
 | Prioritet | Drop-down | |
 | Projekt | Drop-down | |
 | Lästs | Text | |
+| Lästs av kontakt | Datum | |
 | Lästs av ägare | Datum | |
 | Extern tid | Tid | |
 | Intern tid | Tid | |
@@ -254,6 +257,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][6].
 | Larm | Drop-down | |
 | [Kontrollera tillgänglighet][15] | Schemaläggningsassistent | |
 | Slutförd | Kryssruta | |
+| Varaktighet | Nummer | Inga alternativ |
 | Länkar | Flerlinjig text | Välj antal rader. Ingen etikett |
 | Ägare | Drop-down | |
 | Prioritet | Drop-down | |
@@ -286,10 +290,12 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 | Fält | Typ | Kommentar |
 |---|---|---|
 | Språk | Drop-down | Låst placering |
+| Länkar | Länkar | Inga alternativ |
 | Datum | Datumväljare | Låst placering |
 | Synlig för | Drop-down | Inga alternativ |
 | Redigerad av/Låst av | Text | Låst placering |
 | Ämne | Text | Titel/huvudrubrik |
+| Dokumentreferenser | Länkar | Inga alternativ |
 | [Dokumentmall][22] | Drop-down | Låst placering |
 | Företag/Kontakt | Drop-down | Låst placering |
 | Försäljning | Drop-down | |
@@ -337,3 +343,4 @@ För detaljer om värdet av varje fält, se [databasreferencen][23].
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md

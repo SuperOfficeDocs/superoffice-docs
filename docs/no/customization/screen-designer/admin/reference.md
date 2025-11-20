@@ -36,7 +36,8 @@ redirect_from: /no/customization/screen-designer/reference
 | ERP | ERP | Ingen alternativer. Konfigurert i **Innstillinger og vedlikehold** > **ERP**. |
 | Faks | Tekst | |
 | [Interesser][17] | Interesser | Ingen alternativer |
-| Sist endret | Dato | |
+| [Kilde for oppretting av lead][24] | Tekst | |
+| Oppdatert | Dato | |
 | Hovedkontakt | Tekst | |
 | Ingen utsendelser | Avmerkingsboks | |
 | Notat | Tekstboks | |
@@ -52,7 +53,7 @@ redirect_from: /no/customization/screen-designer/reference
 | Nettside | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [databasereferansen][2].
+For detaljer om verdien av hvert felt, se [Contact-databasetabellen][2].
 
 **Standardfaner:**
 
@@ -83,7 +84,7 @@ For detaljer om verdien av hvert felt, se [databasereferansen][2].
 | Tidligere ansatt | Avmerkingsboks | |
 | [Interesser][17] | Interesser | Ingen alternativer |
 | Internett-telefon | Tekst | |
-| Sist endret | Dato | |
+| Oppdatert | Dato | |
 | Etternavn | Tekst | |
 | Mellomnavn | Tekst | |
 | Mobil | Tekst | |
@@ -125,7 +126,7 @@ For detaljer om verdien av hvert felt, se [databasereferansen][3].
 | Kontakt | Nedtrekk | |
 | Kreditert | Nedtrekk | |
 | Beskrivelse | Tekstboks | Velg antall rader. Har ingen etikett |
-| Sist endret | Dato | |
+| Oppdatert | Dato | |
 | Koblinger | Koblinger | Ingen alternativer |
 | Nummer | Tekst | |
 | Eier | Nedtrekk | |
@@ -162,7 +163,8 @@ For detaljer om verdien av hvert felt, se [databasereferansen][4].
 | Beskrivelse | Tekstboks | Velg antall rader. Har ingen etikett |
 | Sluttdato | Dato-velger | |
 | ERP | ERP | Ingen alternativer. Konfigurert i **Innstillinger og vedlikehold** > **ERP**. |
-| Sist endret | Dato | |
+| Bilde | Bilde | |
+| Oppdatert | Dato | |
 | Neste milepæl | | |
 | Nummer | Tekst | |
 | Prosjekt | Tekst | |
@@ -206,16 +208,17 @@ For detaljer om verdien av hvert felt, se [databasereferansen][5].
 | ID | Tekst | |
 | Intern status | Tekst | |
 | Språk | Tekst | |
-| Sist endret | Dato | |
+| Oppdatert | Dato | |
 | Nivå | Tekst | |
 | Antall meldinger | Tid | |
 | Antall svar | Tid | |
 | Opprinnelse | Tekst | |
 | Eier | Nedtrekk | |
-| Utsatt til | Tekst | |
+| Utsatt til | Dato | |
 | Prioritet | Nedtrekk | |
 | Prosjekt | Nedtrekk | |
 | Lest | Tekst | |
+| Lest av kontakt | Dato | |
 | Lest av eier | Dato | |
 | Reell tid eksternt | Tid | |
 | Reell tid internt | Tid | |
@@ -254,6 +257,7 @@ For detaljer om verdien av hvert felt, se [databasereferansen][6].
 | Alarm | Nedtrekk | |
 | [Sjekk tilgjengelighet][15] | Planleggingsassistent | |
 | Fullført | Avmerkingsboks | |
+| Varighet | Nummer | Ingen alternativer |
 | Koblinger | Flerlinjet tekst | Velg antall rader. Har ingen etikett |
 | Eier | Nedtrekk | |
 | Prioritet | Nedtrekk | |
@@ -286,10 +290,12 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 | Felt | Type | Kommentar |
 |---|---|---|
 | Språk | Drop-down | Låst plassering |
+| Koblinger | Koblinger | Ingen alternativer |
 | Dato | Datovelger | Låst plassering |
 | Synlig for | Drop-down | Ingen alternativer |
 | Redigert av/Låst av | Tekst | Låst plassering |
 | Emne | Tekst | Tittel/overskrift |
+| Dokumentreferanser | Koblinger | Ingen alternativer |
 | [Dokumentmal][22] | Drop-down | Låst plassering |
 | Firma/Kontakt | Drop-down | Låst plassering |
 | Salg | Drop-down | |
@@ -337,3 +343,4 @@ For detaljer om verdien av hvert felt, se [databasereferansen][23].
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md

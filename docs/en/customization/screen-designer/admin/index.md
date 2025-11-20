@@ -107,7 +107,7 @@ To start customizing screens:
 
 * **Tabs**: Can be added, rearranged, or deleted to organize information logically.
 
-> [!Note]
+> [!NOTE]
 > After publishing a layout, users in the assigned groups must sign out and back in to see the changes.
 
 ## What if I do not use the Screen Designer?

@@ -36,7 +36,8 @@ redirect_from: /de/customization/screen-designer/reference
 | ERP | ERP | Keine Optionen. Konfiguriert unter **Einstellungen und Verwaltung** > **ERP**. |
 | Fax | Text | |
 | [Interessen][17] | Interessen | Keine Optionen |
-| Letzte Änderung | Datum | |
+| [Lead-Erstellungsquelle][24] | Text | |
+| Aktualisiert | Datum | |
 | Hauptkontakt | Text | |
 | Keine Mailings | Kontrollkästchen | |
 | Notiz | Textfeld | |
@@ -52,7 +53,7 @@ redirect_from: /de/customization/screen-designer/reference
 | Webseite | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][2].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Contact-Datenbanktabelle][2].
 
 **Standardregisterkarten:**
 
@@ -83,7 +84,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Ehemaliger Mitarbeiter | Kontrollkästchen | |
 | [Interessen][17] | Interessen | Keine Optionen |
 | Internet-Telefon | Text | |
-| Letzte Änderung | Datum | |
+| Aktualisiert | Datum | |
 | Nachname | Text | |
 | Zweitname | Text | |
 | Handy | Text | |
@@ -125,7 +126,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Kontakt | Drop-down | |
 | Gutschrift | Drop-down | |
 | Beschreibung | Textfeld | Anzahl der Zeilen auswählen. Hat kein Label |
-| Letzte Änderung | Datum | |
+| Aktualisiert | Datum | |
 | Links | Links | Keine Optionen |
 | Nummer | Text | |
 | Besitzer | Drop-down | |
@@ -162,7 +163,8 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Beschreibung | Textfeld | Anzahl der Zeilen auswählen. Hat kein Label |
 | Enddatum | Datumsauswahl | |
 | ERP | ERP | Keine Optionen. Konfiguriert unter **Einstellungen und Verwaltung** > **ERP**. |
-| Letzte Änderung | Datum | |
+| Bild | Bild | |
+| Aktualisiert | Datum | |
 | Nächster Meilenstein | | |
 | Nummer | Text | |
 | Projekt | Text | |
@@ -206,16 +208,17 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | ID | Text | |
 | Interner Status | Text | |
 | Sprache | Text | |
-| Letzte Änderung | Datum | |
+| Aktualisiert | Datum | |
 | Stufe | Text | |
 | Anzahl der Nachrichten | Zeit | |
 | Anzahl der Antworten | Zeit | |
 | Herkunft | Text | |
 | Besitzer | Drop-down | |
-| Verschoben auf | Text | |
+| Verschoben auf | Datum | |
 | Priorität | Drop-down | |
 | Projekt | Drop-down | |
 | Gelesen | Text | |
+| Gelesen von Kontakt | Datum | |
 | Gelesen vom Besitzer | Datum | |
 | Externe Echtzeit | Zeit | |
 | Interne Echtzeit | Zeit | |
@@ -254,6 +257,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Alarm | Drop-down | |
 | [Verfügbarkeit prüfen][15] | Terminassistent | |
 | Abgeschlossen | Kontrollkästchen | |
+| Dauer | Nummer | Keine Optionen |
 | Links | Mehrzeiliger Text | Anzahl der Zeilen auswählen. Hat kein Label |
 | Besitzer | Drop-down | |
 | Priorität | Drop-down | |
@@ -286,10 +290,12 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Feld | Typ | Kommentar |
 |---|---|---|
 | Sprache | Drop-down | Platzierung gesperrt |
+| Links | Links | Keine Optionen |
 | Datum | Datumsauswahl | Platzierung gesperrt |
 | Sichtbar für | Drop-down | Keine Optionen |
 | Bearbeitet von/Gesperrt von | Text | Platzierung gesperrt |
 | Betreff | Text | Der Titel/Überschrift |
+| Dokumentreferenzen | Links | Keine Optionen |
 | [Dokumentvorlage][22] | Drop-down | Platzierung gesperrt |
 | Firma/Kontakt | Drop-down | Platzierung gesperrt |
 | Verkauf | Drop-down | |
@@ -337,3 +343,4 @@ Für Details zum Wert jedes Feldes siehe [Datenbankreferenz][23].
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
 [23]: ../../../../en/database/tables/document.md
+[24]: ../../../marketing/utm/learn/index.md
