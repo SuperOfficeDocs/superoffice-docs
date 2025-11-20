@@ -3,9 +3,9 @@ uid: help-en-screen-designer-edit-layout
 title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 keywords: screen layout, edit layout, change layout, delete layout, Reset to factory settings
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

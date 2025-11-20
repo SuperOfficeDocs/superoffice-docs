@@ -2,10 +2,10 @@
 uid: help-de-screen-designer-button
 title: Schaltfläche oder Link hinzufügen
 description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung eine Schaltfläche oder einen Link zu einem Layout hinzu.
-keywords: Schaltfläche hinzufügen, neue Schaltfläche, Link hinzufügen, neuer Link, Bezeichnung
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.7
+keywords: Schaltfläche hinzufügen, neue Schaltfläche, Link hinzufügen, neuer Link, Beschriftung
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

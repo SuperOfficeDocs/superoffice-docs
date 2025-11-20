@@ -2,9 +2,10 @@
 uid: help-nl-tutorial-country-before-address
 title: Tutorial - Land vooraan plaatsen
 description: In deze tutorial leert u hoe u het veld land op een bedrijf- of persoonscherm kunt verplaatsen.
-keywords: landveld, schermontwerper
-date: 10.09.2025
-version: 10.4
+keywords: land veld, schermontwerper
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance

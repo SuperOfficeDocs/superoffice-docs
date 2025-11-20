@@ -3,9 +3,9 @@ uid: help-nl-screen-designer-grid
 title: Werken met rasters
 description: Hoe u rasters toevoegt en invult in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: schermopmaak, raster, tabelopmaak
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

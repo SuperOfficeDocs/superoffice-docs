@@ -2,10 +2,10 @@
 uid: help-de-screen-designer-archive
 title: Arbeiten mit Bereichsregisterkarten (Archive)
 description: Ansichtsdesigner - arbeiten mit Bereichsregisterkarten (Archive)
-keywords: Bereichsregisterkarte hinzufügen, neue Bereichsregisterkarte, Archiv-Registerkarte hinzufügen, Bereichsregisterkarte anpassen, Bereichsregisterkarten-Layout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+keywords: Bereichsregisterkarte hinzufügen, neue Bereichsregisterkarte, Archivregisterkarte hinzufügen, Bereichsregisterkarte anpassen, Bereichsregisterkarten-Layout
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

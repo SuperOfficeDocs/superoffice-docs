@@ -2,10 +2,10 @@
 uid: help-no-screen-designer-field-reference
 title: Referanse
 description: Oversikt over felt tilgjengelig i Skjermdesigneren i Innstillinger of vedlikeholde.
-keywords: Skjermdesigner felt, standardfelt, standardfane
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.11
+keywords: Skjermdesigner-felter, standardfelt, standardfane
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: reference
 license: development-tools
 audience: settings

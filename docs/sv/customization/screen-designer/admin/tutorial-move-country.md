@@ -2,9 +2,10 @@
 uid: help-sv-tutorial-country-before-address
 title: Tutorial - Flytta landfältet till toppen
 description: I den här guiden lär du dig hur du flyttar landfältet på en företags- eller kontaktskärm.
-keywords: landfält, skärmdesigner
-date: 10.09.2025
-version: 10.4
+keywords: land fält, skärmdesigner
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance

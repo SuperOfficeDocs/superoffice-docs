@@ -3,9 +3,9 @@ uid: help-de-screen-designer-add-layout
 title: Layout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 keywords: Layout hinzufügen, neues Layout, Bildschirmlayout, Layouts zuweisen zu
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

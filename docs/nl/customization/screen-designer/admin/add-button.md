@@ -2,10 +2,10 @@
 uid: help-nl-screen-designer-button
 title: Knop of koppeling toevoegen
 description: Hoe u een knop of link toevoegt aan een opmaak met behulp van de Schermontwerper in Instellingen en onderhoud.
-keywords: knop toevoegen, nieuwe knop, link toevoegen, nieuwe link, label
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.7
+keywords: knop toevoegen, nieuwe knop, koppeling toevoegen, nieuwe koppeling, label
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-edit-layout
 title: Redigera layouten för ett kort
 description: I den här guiden förklarar vi hur du redigerar en layout.
 keywords: skärmlayout, redigera layout, ändra layout, ta bort layout, Återställ till fabriksinställningar
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.10
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

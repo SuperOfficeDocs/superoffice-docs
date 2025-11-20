@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-archive
 title: Arbeta med detaljkort (arkiv)
 description: Skärmdesigner - arbeta med detaljkort (arkiv)
 keywords: lägg till sektionsflik, ny sektionsflik, lägg till arkivflik, anpassa sektionsflik, sektionsfliklayout
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.2.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 license: development-tools
 audience: settings

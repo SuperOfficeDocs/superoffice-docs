@@ -3,9 +3,9 @@ uid: help-no-screen-designer
 title: Skjermdesigner
 description: Lær hvordan du konfigurerer skjermbilder i denne veiledningen.
 keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilpasning
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10.3.11
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: concept
 license: development-tools
 audience: settings

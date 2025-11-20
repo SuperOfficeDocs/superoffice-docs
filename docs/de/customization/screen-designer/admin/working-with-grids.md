@@ -2,10 +2,10 @@
 uid: help-de-screen-designer-grid
 title: Arbeiten mit Gittern
 description: So fügen Sie Raster in ein Layout ein und befüllen sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung.
-keywords: Bildschirmlayout, Raster, Tabellenlayout, Gitter
-author: Bergfrid Dias
-date: 10.09.2025
-version: 10
+keywords: Bildschirmlayout, Raster, Tabellenlayout
+author: digitaldiina
+date: 11.20.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
