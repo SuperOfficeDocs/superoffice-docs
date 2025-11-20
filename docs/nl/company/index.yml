@@ -1,0 +1,216 @@
+﻿### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Bedrijf
+summary: Welkom in het bedrijfsgebied waar je relevante links vindt naar alles wat met bedrijven te maken heeft.
+
+metadata:
+  title: Bedrijf
+  description: "Leer over en werk met een echt bedrijf of een organisatie, een bedrijf in de gebruikersinterface en een contactpersoon in de database."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introductie
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Bedrijven en de bedrijfkaart
+            url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Nieuw bedrijf aanmaken
+            url: learn/create.md
+          - text: Bedrijfsinformatie bewerken
+            url: learn/edit.md
+          - text: Een bedrijf kopiëren
+            url: learn/copy.md
+          - text: Bedrijven samenvoegen
+            url: learn/merge-companies.md
+          - text: Een bedrijf verwijderen
+            url: learn/delete.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Sjabloonvariabelen
+            url: ../document/templates/variables/from-company-card.md
+          - text: Gebruikersinstellingen
+            url: ../../en/admin/user-preferences/index.md
+          - text: Adresformaten voor landen
+            url: learn/address-formats.md
+
+  - title: Privacy en GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementatiegids
+            url: ../security/privacy/admin/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Privacy-instellingen voor een bedrijf bewerken
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: E-mail voor privacybevestiging verzenden
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: E-mail voor privacybevestiging bewerken
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+          - text: Rapport met persoonsgegevens genereren
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Records permanent verwijderen
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Doel voor toestemming toevoegen
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Juridische basis toevoegen
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Privacybron toevoegen
+            url: ../security/privacy/admin/add-source.md
+
+  - title: Relaties
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overzicht
+            url: ../learn/basics/relations.md
+          - text: Tabblad relaties
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Items toevoegen aan de relatielijst
+            url: ../admin/lists/specialized-lists.md#relation
+
+  - title: Importeren en bulkacties
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Hoe klantcontactpersonen te importeren
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Bedrijfsinformatie bulksgewijs bijwerken
+            url: ../learn/basics/bulk-update.md
+          - text: De prullenbak gebruiken om bedrijven te herstellen
+            url: ../learn/basics/deleting-elements.md#restore
+
+  - title: Aanpassen van de gebruikersinterface
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Schermontwerper
+            url: ../customization/screen-designer/admin/index.md
+          - text: Webpaneel
+            url: ../customization/web-panels/admin/index.md
+          - text: Items in het taakmenu
+            url: ../customization/admin/add-items-to-task-menu.md
+          - text: Aangepaste velden
+            url: ../../en/custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - bedrijf aanmaken
+            url: ../../en/customization/soprotocol/howto/create-contact.md
+          - text: SoProtocol - bedrijf openen
+            url: ../../en/customization/soprotocol/howto/open-contact.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: UdcontactSmall tabel
+            url: ../../en/database/tables/udcontactsmall.md
+          - text: UdcontactLarge tabel
+            url: ../../en/database/tables/udcontactlarge.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overzicht
+            url: ../../en/automation/index.yml
+          - text: Triggers
+            url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Webhooks - contactpersoon-events
+            url: ../../en/automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - bedrijf synchroniseren
+            url: ../../en/online/identity/scim/provisioning/sync-company.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/crmscript/howto/company/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Bedrijf aanmaken en bijwerken
+          url: ../../en/automation/crmscript/howto/company/create-company.md
+        - text: Bedrijfsinformatie ophalen
+          url: ../../en/automation/crmscript/howto/company/get-company.md
+        - text: Activiteiten ophalen
+          url: ../../en/automation/crmscript/howto/company/get-activities.md
+        - text: Interesse toevoegen/verwijderen voor bedrijf
+          url: ../../en/automation/crmscript/howto/interests/company-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Werken met bedrijven in API
+            url: ../../en/company/dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../../en/api/sql/howto/company/index.md
+          - text: OSQL
+            url: ../../en/api/osql/howto/company/index.md
+          - text: Row
+            url: ../../en/api/rows/howto/company/index.md
+          - text: Entity
+            url: ../../en/api/entities/howto/company/index.md
+          - text: Webservices, REST
+            url: ../../en/api/web-services/howto/company/index.md
+
+  - title: Databasetabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Contact tabel
+            url: ../../en/database/tables/contact.md
+          - text: Person tabel
+            url: ../../en/database/tables/person.md
+          - text: Associate tabel
+            url: ../../en/database/tables/associate.md
+          - text: UserGroup tabel
+            url: ../../en/database/tables/usergroup.md
+          - text: Address tabel
+            url: ../../en/database/tables/address.md
+          - text: Country tabel
+            url: ../../en/database/tables/country.md
+          - text: Category tabel
+            url: ../../en/database/tables/category.md
+          - text: Business tabel
+            url: ../../en/database/tables/business.md

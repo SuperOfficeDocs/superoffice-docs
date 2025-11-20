@@ -1,0 +1,202 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: E-mail
+summary: "Welkom in het e-mailgebied waar je relevante links vindt naar alles wat met e-mail te maken heeft"
+
+metadata:
+  title: E-mail
+  description: "Lees meer over de opties voor het verzenden en ontvangen van e-mails in SuperOffice en hoe je deze configureert."
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  ms.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Introductie
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introductie tot e-mail
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: E-mail, documenten en agenda koppelen
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Standaard e-mailclient wijzigen
+          url: learn/change-default-mail-client.md
+
+  - title: SuperOffice Inbox
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Wat is SuperOffice Inbox?
+            url: inbox/learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: E-mail opstellen en verzenden
+            url: inbox/learn/compose.md
+          - text: Uitnodigingen accepteren
+            url: inbox/learn/invitations.md
+          - text: E-mail en bijlagen archiveren
+            url: inbox/learn/archive.md
+          - text: MailKit inschakelen
+            url: ../../en/email/inbox/it/index.md#how-to-enable-mailkit
+          - text: MailKit problemen oplossen
+            url: ../../en/email/inbox/it/index.md#how-to-troubleshoot-mailkit
+
+  - title: SuperOffice voor Outlook
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overzicht
+            url: ../../../integrations/superoffice-for-outlook/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Add-in downloaden
+            url: ../../../integrations/superoffice-for-outlook/get.md
+          - text: Centraal uitrollen
+            url: ../../../integrations/superoffice-for-outlook/deploy.md
+          - text: Opslaan in SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+          - text: Contactpersoon toevoegen aan SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
+          - text: Vervolgactiviteit aanmaken
+            url: ../../../integrations/superoffice-for-outlook/create-follow-up.md
+          - text: Verkoop aanmaken
+            url: ../../../integrations/superoffice-for-outlook/create-sale.md
+          - text: Verzoek aanmaken of bericht toevoegen
+            url: ../../../integrations/superoffice-for-outlook/create-request.md
+          - text: CRM-gegevens toevoegen aan Outlook-evenement
+            url: ../../../integrations/superoffice-for-outlook/add-crm-data-to-event.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Vereisten
+            url: ../../../integrations/superoffice-for-outlook/requirements.md
+
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introductie
+            url: ../../../integrations/gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Gmail Link installeren
+            url: ../../../integrations/gmail-link/install.md
+          - text: Gmail Link-instellingen bewerken
+            url: ../../../integrations/gmail-link/settings.md
+          - text: Afzenders beheren
+            url: ../../../integrations/gmail-link/manage-senders.md
+          - text: Inkomende e-mail archiveren
+            url: ../../../integrations/gmail-link/email-archive-incoming.md
+          - text: Bijlagen archiveren
+            url: ../../../integrations/gmail-link/archive-attachments.md
+          - text: Activiteit aanmaken
+            url: ../../../integrations/gmail-link/archive-emails-as-activities.md
+          - text: Verzoek aanmaken
+            url: ../../../integrations/gmail-link/archive-emails-as-requests.md
+          - text: Uitgaande e-mail archiveren
+            url: ../../../integrations/gmail-link/email-archive-outgoing.md
+
+  - title: MailLink
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Wat is MailLink?
+            url: ../../../integrations/mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Mail Link/WebTools installeren
+            url: ../../../integrations/mail-link/install.md
+          - text: E-mail archiveren
+            url: ../../../integrations/mail-link/archive.md
+          - text: E-mail aanmaken vanuit SuperOffice CRM
+            url: ../../../integrations/mail-link/create-in-superoffice.md
+          - text: E-mail aanmaken vanuit Microsoft Outlook
+            url: ../../../integrations/mail-link/create-in-outlook.md
+          - text: Ontvangers selecteren
+            url: ../../../integrations/mail-link/select-recipients.md
+          - text: Afzenders beheren
+            url: ../../../integrations/mail-link/manage-senders.md
+          - text: Bijlagen toevoegen
+            url: ../../../integrations/mail-link/add-attachment.md
+          - text: Dialoogvenster SuperOffice CRM-opties
+            url: ../../../integrations/mail-link/settings.md
+          - text: Debuggen
+            url: ../../../integrations/mail-link/debug.md
+
+  - title: cURL
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Wat is cURL-mail?
+            url: ../../en/email/service/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: cURL inschakelen
+            url: ../../en/email/service/index.md#how-to-enable-curl
+          - text: Problemen met e-mail oplossen bij gebruik van cURL
+            url: ../../en/email/service/index.md#how-to-troubleshoot-mail-when-using-curl
+
+  - title: Mailgun
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Alternatieven voor mailservices
+            url: ../../en/email/mailgun/index.md
+          - text: Redenen om aan te passen
+            url: ../../en/email/mailgun/reasons-to-customize.md
+          - text: Prestaties
+            url: ../../en/email/mailgun/amount-speed.md
+          - text: Beveiliging
+            url: ../../en/email/mailgun/security.md
+          - text: Subverwerkerinformatie
+            url: ../../en/email/mailgun/sub-processor-info.md
+
+  - title: DKIM
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Wat is het doel van een DKIM-record?
+          url: ../../en/email/mailgun/dkim/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: DKIM-sleutel aanvragen voor eu.mailgun.org
+          url: ../../en/email/mailgun/dkim/order-key.md
+        - text: Een DKIM-record instellen
+          url: ../../en/email/mailgun/dkim/set-up.md
+        - text: DKIM wijzigen van VS naar EU
+          url: ../../en/email/mailgun/dkim/change-us-to-eu.md
+
+  - title: SPF
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Wat is SPF?
+          url: ../../en/email/mailgun/spf/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Een SPF-record instellen
+            url: ../../en/email/mailgun/spf/set-up.md

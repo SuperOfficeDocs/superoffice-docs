@@ -1,0 +1,201 @@
+### YamlMime:SubCategory 
+
+yamlMime: SubCategory
+title: Verzoek
+summary: Verzoek is de belangrijkste functie van SuperOffice Service. Hier beheert u verzoeken en vragen die in het systeem staan. U kunt ook interne en externe verzoeken aanmaken, inkomende vragen beantwoorden en een overzicht krijgen van de statussen van alle verzoeken in het systeem. Verzoekbeheer vereist een Service Essentials-licentie. Sommige functies vereisen een premiumabonnement - zie het overzicht van gebruikersplannen voor details.
+
+metadata:
+  title: Verzoek
+  description: Hier beheert u verzoeken en vragen die in het systeem staan. U kunt ook interne en externe verzoeken aanmaken, inkomende vragen beantwoorden en een overzicht krijgen van de statussen van alle verzoeken in het systeem.
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Inleiding
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Inleiding tot verzoeken
+          url: learn/index.md
+        - text: Verzoekstatus
+          url: admin/status/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Hoe u een verzoek vindt
+          url: learn/find.md
+        - text: Hoe u verzoeken gebruikt in dashboard-tegels
+          url: ../dashboard/learn/show-requests.md
+
+  - title: Verzoekbeheer
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hoe u klantverzoeken beheert
+          url: https://www.youtube.com/watch?v=2mRyStK5xPs
+        - text: Hoe u een verzoek registreert vanuit een inkomende oproep
+          url: https://www.youtube.com/watch?v=S4kihuWHZGY
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Hoe u een verzoek aanmaakt
+          url: learn/create.md
+        - text: Hoe u e-mails archiveert als verzoeken
+          url: ../../../integrations/mail-link/archive-as-request.md
+        - text: Verantwoordelijkheid nemen voor een verzoek
+          url: learn/accept.md
+        - text: Hoe u klanten beantwoordt
+          url: learn/reply.md
+        - text: Hoe u Service-postvakken instelt
+          url: ../knowledge-base/learn/email-addresses.md
+
+  - title: Categorie, prioriteit en escalatie
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Verzoekcategorieën
+          url: admin/category/index.md
+        - text: Prioriteit
+          url: admin/priority/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hoe u categorieën instelt
+          url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+
+  - title: Antwoordsjablonen
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/request/dev/index.md#reply-templates
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Standaardsjablonen
+          url: admin/system-templates.md
+        - text: Variabelen voor antwoordsjablonen
+          url: reply-templates/learn/template-variables.md
+
+  - title: UI-aanpassing
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Screen Designer
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webpanelen
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Aangepaste schermen (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Items in taakmenu
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Aangepaste velden
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/index.yml
+        - text: Triggers
+          url: ../../en/automation/trigger/index.md
+        - text: Postvak vóór opslagevent
+          url: ../../en/automation/event-model/mailbox-before-save.md
+        - text: Postvak na opslagevent
+          url: ../../en/automation/event-model/mailbox-after-save.md
+        - text: Opslagevent voor verzoek
+          url: ../../en/automation/event-model/saving-a-request.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - verzoekgebeurtenissen
+          url: ../../en/automation/webhook/reference/ticket-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/crmscript/howto/request/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Verzoek aanmaken
+          url: ../../en/automation/crmscript/howto/request/create.md
+        - text: Bericht toevoegen of bijwerken
+          url: ../../en/automation/crmscript/howto/request/add-message.md
+        - text: Accepteren
+          url: ../../en/automation/crmscript/howto/request/accept.md
+        - text: Beantwoorden
+          url: ../../en/automation/crmscript/howto/request/reply.md
+        - text: Delegeren
+          url: ../../en/automation/crmscript/howto/request/delegate.md
+        - text: Escaleren
+          url: ../../en/automation/crmscript/howto/request/escalate.md
+        - text: Splitsen en samenvoegen
+          url: ../../en/automation/crmscript/howto/request/split-merge.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Werken met verzoeken in de API
+            url: ../../en/request/dev/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Ticket/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Ticket/index.md
+        - text: SOAP (ticketport)
+          url: ../../en/api/reference/soap/customer-service/ports/ticket/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: SOAP-poorten configureren
+          url: ../admin/onsite/configure-soap.md
+
+  - title: Databasetabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Ticket tabel
+          url: ../../en/database/tables/ticket.md
+        - text: Ticket type tabel
+          url: ../../en/database/tables/ticket-type.md
+        - text: Ticket status tabel
+          url: ../../en/database/tables/ticket-status.md
+        - text: Ticket priority tabel
+          url: ../../en/database/tables/ticket-priority.md
+        - text: Reply template tabel
+          url: ../../en/database/tables/reply-template.md
+        - text: Message tabel
+          url: ../../en/database/tables/ej-message.md
+        - text: Contact tabel
+          url: ../../en/database/tables/contact.md
+        - text: Person tabel
+          url: ../../en/database/tables/person.md
+        - text: Form submission tabel
+          url: ../../en/database/tables/form-submission.md

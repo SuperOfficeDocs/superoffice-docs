@@ -1,0 +1,202 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: Project
+summary: Welkom in het projectgebied waar je relevante links vindt naar alles wat te maken heeft met projecten en projectgidsen.
+
+metadata:
+  title: Project
+  description: "Project en projectgidsen"
+  ms.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 11.20.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  - title: Introductie
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Introductie tot projecten
+          url: ../../en/project/dev/index.md
+        - text: Bestanden en activiteiten organiseren in projecten
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Een project maken
+          url: learn/create.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Rondleiding met gids
+          url: https://www.youtube.com/embed/zLJwNll223w
+
+  - title: Projectbeheer
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Een project bijwerken
+          url: learn/edit.md
+        - text: Een project verwijderen
+          url: learn/delete.md
+        - text: Projecten samenvoegen
+          url: learn/merge-projects.md
+        - text: Projectstatus toevoegen (lijst)
+          url: admin/project-status.md
+        - text: Projecttype toevoegen (lijst)
+          url: admin/project-type.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Een document koppelen aan een project
+          url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+        - text: Een vervolgactiviteit toevoegen aan een project
+          url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Sjabloonvariabelen
+          url: ../document/templates/variables/from-project-card.md
+
+  - title: Projectleden
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: learn/project-members/index.md
+        - text: Lid toevoegen
+          url: learn/project-members/add.md
+        - text: Lid bijwerken
+          url: learn/project-members/edit.md
+        - text: Uitnodigen voor vergadering
+          url: learn/project-members/invite-to-meeting.md
+        - text: E-mail sturen naar leden
+          url: learn/project-members/send-email-to.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Hoe je een projectlid toevoegt aan een project
+          url: https://www.youtube.com/watch?v=IaCy_2xwG6c
+
+  - title: Projectgids
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: learn/project-guides.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Werken met projectgids
+          url: learn/tutorial.md
+        - text: Gids maken
+          url: admin/create-project-guide.md
+        - text: Gids bijwerken of deactiveren
+          url: admin/edit-project-guide.md
+
+  - title: Aanpassing van de gebruikersinterface
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Schermontwerper
+          url: ../customization/screen-designer/admin/index.md
+        - text: Webpanelen
+          url: ../customization/web-panels/admin/index.md
+        - text: SoProtocol
+          url: ../../en/customization/soprotocol/index.md
+        - text: Aangepaste schermen (bLogic)
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: Taakmenu-items
+          url: ../customization/admin/add-items-to-task-menu.md
+        - text: Aangepaste velden
+          url: ../../en/custom-objects/overview.md
+
+  - title: Automatisering
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/index.yml
+        - text: Triggers
+          url: ../../en/automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - projectgebeurtenissen
+          url: ../../en/automation/webhook/reference/project-events.md
+        - text: Webhooks - projectlid-gebeurtenissen
+          url: ../../en/automation/webhook/reference/project-member-events.md
+        - text: Zapier
+          url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overzicht
+          url: ../../en/automation/crmscript/howto/project/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Maken
+          url: ../../en/automation/crmscript/howto/project/create.md
+        - text: Geselecteerd ophalen
+          url: ../../en/automation/crmscript/howto/project/get.md
+        - text: Bijwerken
+          url: ../../en/automation/crmscript/howto/project/update.md
+        - text: Projectleden
+          url: ../../en/automation/crmscript/howto/project/members.md
+        - text: Projectgidsen
+          url: ../../en/automation/crmscript/howto/project/guides.md
+
+  - title: API
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../../en/api/reference/restful/rest/Project/index.md
+        - text: SOAP (services88)
+          url: ../../en/api/reference/soap/Services88/Project/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: SQL-voorbeelden
+          url: ../../en/api/sql/howto/project/index.md
+
+  - title: Databasetabellen
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Project tabel
+          url: ../../en/database/tables/project.md
+        - text: ProjectMember tabel
+          url: ../../en/database/tables/projectmember.md
+        - text: ProjStatus
+          url: ../../en/database/tables/projstatus.md
+        - text: ProjType
+          url: ../../en/database/tables/projtype.md
+        - text: Associate
+          url: ../../en/database/tables/associate.md
+        - text: UserGroup
+          url: ../../en/database/tables/usergroup.md
+        - text: Appointment
+          url: ../../en/database/tables/appointment.md
+        - text: UdprojectSmall
+          url: ../../en/database/tables/udprojectsmall.md
+        - text: UdprojectLarge
+          url: ../../en/database/tables/udprojectlarge.md
