@@ -43,7 +43,7 @@ Før du tilpasser en layout, bør du fastsette hvem de tiltenkte brukerne er.
 1. Velg en skjerm eller dialog øverst for å tilpasse.
 1. Velg **Hovedkort**.
 1. Velg en layout fra listen til venstre.
-1. Klikk **Rediger layout** under forhåndsvisningen.
+1. Klikk <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 1. I skjermbildet **Rediger kortlayout**, gå gjennom fanene på skjermen.
 
     * [Legg til, rediger, flytt eller fjern et felt][1]

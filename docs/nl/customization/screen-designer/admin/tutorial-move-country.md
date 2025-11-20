@@ -41,7 +41,7 @@ Als u klaar bent, zou het er ongeveer zo uitzien:
 1. Selecteer bovenaan **Bedrijf**.
 1. Selecteer direct daaronder het tabblad **Hoofdkaarten**.
 1. Selecteer het standaardlayout in de lijst.
-1. Klik onderaan op **Opmaak bewerken**.
+1. Klik onderaan op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 
 ![Bedrijfsindeling in bewerkingsmodus -screenshot][img3]
 

@@ -41,7 +41,7 @@ Am Ende sollte es etwa so aussehen:
 1. Wählen Sie oben **Firma**.
 1. Wählen Sie direkt darunter die Registerkarte **Hauptkarten**.
 1. Wählen Sie das Standardlayout aus der Liste.
-1. Klicken Sie unten auf **Layout bearbeiten**.
+1. Klicken Sie unten auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
 ![Firmenlayout im Bearbeitungsmodus -screenshot][img3]
 

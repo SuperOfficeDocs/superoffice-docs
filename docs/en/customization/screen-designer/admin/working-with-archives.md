@@ -45,7 +45,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 
 1. At the top, select a screen to customize and click **Archives**.
 
-1. Select a layout from the list and click **Edit layout** below the preview.
+1. Select a layout from the list and click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> below the preview.
 
 1. Click **Add** to open the **Tab** section.
 

@@ -45,7 +45,7 @@ Du kan tilføje et nyt detaljekort på enhver skærm, der har et detaljekortomr�
 
 1. Vælg øverst en skærm, du vil tilpasse, og klik på **Arkiver**.
 
-1. Vælg et layout fra listen, og klik på **Rediger layout** under forhåndsvisningen.
+1. Vælg et layout fra listen, og klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 
 1. Klik på **Tilføj** for at åbne sektionen **Fane**.
 

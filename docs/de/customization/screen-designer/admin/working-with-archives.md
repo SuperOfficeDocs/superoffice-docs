@@ -43,11 +43,11 @@ Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine ne
 
 1. Öffnen Sie den Ansichtsdesigner.
 
-1. Wählen Sie oben einen Bildschirm aus, den Sie anpassen möchten, und klicken Sie auf **Archive**.
+1. Wählen Sie oben eine Ansicht aus, die Sie anpassen möchten, und klicken Sie auf **Archive**.
 
-1. Wählen Sie ein Layout aus der Liste und klicken Sie unter der Vorschau auf **Layout bearbeiten**.
+1. Wählen Sie ein Layout aus der Liste und klicken Sie unter der Vorschau auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
-1. Klicken Sie auf **Hinzufügen**, um den Bereich **Registerkarte** zu öffnen.
+1. Klicken Sie auf **Hinzufügen**, um den Abschnitt **Registerkarte** zu öffnen.
 
 1. Ersetzen Sie "Neue Registerkarte" durch den Archivnamen und geben Sie eine Beschreibung für das neue Archiv ein.
 

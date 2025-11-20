@@ -43,7 +43,7 @@ When you are done, it should look something like this:
 1. Select **Company** at the top.
 1. Select the **Main cards** tab directly below.
 1. Select the default layout from the list.
-1. Click **Edit layout** at the bottom of the screen.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> at the bottom of the screen.
 
 ![Company layout in edit mode -screenshot][img3]
 

@@ -43,7 +43,7 @@ Before customizing a layout, determine who the intended users are.
 1. Open the Screen Designer.
 2. At the top, select a screen or dialog to customize.
 3. Select a layout in the list on the left side.
-4. Click **Edit layout** below the preview.
+4. Click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i> below the preview.
 5. In the **Edit card layout** screen, work your way through the tabs of the screen.
 
     * [Add, edit, move, or remove a field][1]

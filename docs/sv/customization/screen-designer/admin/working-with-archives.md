@@ -45,7 +45,7 @@ Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detal
 
 1. Välj högst upp en skärm att anpassa och klicka på **Arkiv**.
 
-1. Välj en layout från listan och klicka på **Redigera layout** under förhandsgranskningen.
+1. Välj en layout från listan och klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i> under förhandsgranskningen.
 
 1. Klicka på **Lägg till** för att öppna avsnittet **Flik**.
 

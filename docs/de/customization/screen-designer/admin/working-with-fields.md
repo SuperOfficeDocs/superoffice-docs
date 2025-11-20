@@ -21,7 +21,7 @@ redirect_from: /de/customization/screen-designer/working-with-fields
 
 [!include[Anforderung](../../../includes/req-dev-tools.md)]
 
-Beschriftungen und Felder repräsentieren die wesentlichen Inhalte einer Ansicht. Ob Sie ein neues Layout erstellen oder ein bestehendes ändern, beginnen Sie, indem Sie auf **Layout bearbeiten** klicken. [Zeigen Sie mir die detaillierten Schritte.][1] Wenn Sie fertig sind, **speichern oder veröffentlichen** Sie das Layout.
+Beschriftungen und Felder repräsentieren die wesentlichen Inhalte einer Ansicht. Ob Sie ein neues Layout erstellen oder ein bestehendes ändern, beginnen Sie, indem Sie auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i> klicken. [Zeigen Sie mir die detaillierten Schritte.][1] Wenn Sie fertig sind, **speichern oder veröffentlichen** Sie das Layout.
 
 > [!TIP]
 > Möglicherweise möchten Sie [Registerkarten hinzufügen oder entfernen][2], bevor Sie die Felder optimieren.

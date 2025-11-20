@@ -60,7 +60,7 @@ Med tilpassede skærmlayouts til hvert af dine teams vil det blive nemmere end n
 
 ## Tilpas det nye skærmlayout
 
-1. Vælg det nye layout i listen **Layouts**, og klik på knappen **Rediger layout**.
+1. Vælg det nye layout i listen **Layouts**, og klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i>.
 
 2. Gå gennem fanerne i layoutet.
 

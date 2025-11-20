@@ -60,7 +60,7 @@ Mit benutzerdefinierten Ansichtslayouts für jedes Ihrer Teams wird das Auffinde
 
 ## Neues Ansichtslayout anpassen
 
-1. Wählen Sie das neue Layout in der Liste **Layouts** aus und klicken Sie auf die Schaltfläche **Layout bearbeiten**.
+1. Wählen Sie das neue Layout in der Liste **Layouts** aus und klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
 2. Arbeiten Sie sich durch die Registerkarten im Layout.
 

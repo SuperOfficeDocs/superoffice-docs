@@ -21,7 +21,7 @@ redirect_from: /da/customization/screen-designer/working-with-fields
 
 [!include[Krav](../../../includes/req-dev-tools.md)]
 
-Etiketter og felter repræsenterer de væsentlige indholdselementer på en skærm. Uanset om du opretter et nyt layout eller ændrer et eksisterende, skal du starte med at klikke på **Rediger layout**. [Vis mig de detaljerede trin.][1] Når du er færdig, skal du **gemme eller udgive** layoutet.
+Etiketter og felter repræsenterer de væsentlige indholdselementer på en skærm. Uanset om du opretter et nyt layout eller ændrer et eksisterende, skal du starte med at klikke på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i>. [Vis mig de detaljerede trin.][1] Når du er færdig, skal du **gemme eller udgive** layoutet.
 
 > [!TIP]
 > Du vil måske [tilføje eller fjerne faner][2], før du finjusterer felterne.

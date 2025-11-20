@@ -41,7 +41,7 @@ Når du er færdig, skulle det se nogenlunde sådan ud:
 1. Vælg **Firma** øverst.
 1. Vælg fanen **Hovedkort** lige under.
 1. Vælg standardlayoutet fra listen.
-1. Klik på **Rediger layout** nederst på skærmen.
+1. Klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> nederst på skærmen.
 
 ![Firmalayout i redigeringstilstand -screenshot][img3]
 

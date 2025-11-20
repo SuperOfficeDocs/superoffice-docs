@@ -45,7 +45,7 @@ Bevor Sie ein Layout anpassen, sollten Sie festlegen, wer die vorgesehenen Benut
 
 1. Wählen Sie in der Liste links ein Layout aus.
 
-1. Klicken Sie unter der Vorschau auf **Layout bearbeiten**.
+1. Klicken Sie unter der Vorschau auf <i class="ph ph-pencil-simple" aria-label="Layout bearbeiten"></i>.
 
 1. Im Bildschirm **Kartenlayout bearbeiten** arbeiten Sie sich durch die Registerkarten der Ansicht.
 

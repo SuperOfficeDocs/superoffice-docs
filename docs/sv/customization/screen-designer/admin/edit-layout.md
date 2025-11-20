@@ -42,7 +42,7 @@ Innan du anpassar en layout bör du fastställa vem de tilltänkta användarna �
 1. Öppna Skärmdesignern.
 2. Välj högst upp en skärm eller dialog som du vill anpassa.
 3. Välj en layout i listan till vänster.
-4. Klicka på **Redigera layout** under förhandsgranskningen.
+4. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera layout"></i> under förhandsgranskningen.
 5. I skärmbilden **Redigera kortlayout**, gå igenom flikarna på skärmen.
 
     * [Lägg till, redigera, flytta eller ta bort ett fält][1]

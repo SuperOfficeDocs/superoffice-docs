@@ -61,7 +61,7 @@ With custom screen layouts for each of your teams, finding customer data will be
 
 ## Customize the new screen layout
 
-1. With the new layout selected in the **Layouts** list, click the **Edit layout** button.
+1. With the new layout selected in the **Layouts** list, click <i class="ph ph-pencil-simple" aria-label="Edit layout"></i>.
 
 2. Work your way through the tabs in the layout.
 

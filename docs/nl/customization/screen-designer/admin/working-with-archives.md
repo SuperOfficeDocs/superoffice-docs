@@ -45,7 +45,7 @@ U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Af
 
 1. Kies bovenaan een scherm om aan te passen en klik op **Archieven**.
 
-1. Selecteer een opmaak uit de lijst en klik op **Opmaak bewerken** onder de voorbeeldweergave.
+1. Selecteer een opmaak uit de lijst en klik op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i> onder de voorbeeldweergave.
 
 1. Klik op **Toevoegen** om het secties **Tabblad** te openen.
 

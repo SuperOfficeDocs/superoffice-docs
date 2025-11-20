@@ -23,7 +23,7 @@ redirect_from:
 
 [!include[Requirement](../../../includes/req-dev-tools.md)]
 
-Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking **Edit layout**. [Show me the detailed steps.][1] When done, **save or publish** the layout.
+Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking <i class="ph ph-pencil-simple" aria-label="Edit layout"></i>. [Show me the detailed steps.][1] When done, **save or publish** the layout.
 
 > [!TIP]
 > You might want to [add or remove tabs][2] before you fine-tune the fields.

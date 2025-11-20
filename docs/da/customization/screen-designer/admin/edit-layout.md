@@ -42,7 +42,7 @@ Før du tilpasser et layout, skal du afgøre, hvem de tiltænkte brugere er.
 1. Åbn Skærmdesigneren.
 2. Vælg øverst en skærm eller dialog, som du vil tilpasse.
 3. Vælg et layout i listen til venstre.
-4. Klik på **Rediger layout** under forhåndsvisningen.
+4. Klik på <i class="ph ph-pencil-simple" aria-label="Rediger layout"></i> under forhåndsvisningen.
 5. I skærmbilledet **Rediger kortlayout**, gennemgå fanerne på skærmen.
 
     * [Tilføj, rediger, flyt eller fjern et felt][1]

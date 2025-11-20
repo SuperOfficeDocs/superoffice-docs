@@ -60,7 +60,7 @@ Met aangepaste schermopmaken voor elk van uw teams wordt het vinden van klantgeg
 
 ## Nieuwe schermopmaak aanpassen
 
-1. Selecteer de nieuwe opmaak in de lijst **Opmak** en klik op de knop **Opmaak bewerken**.
+1. Selecteer de nieuwe opmaak in de lijst **Opmak** en klik op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 
 2. Werk je door de tabbladen in de opmaak.
 

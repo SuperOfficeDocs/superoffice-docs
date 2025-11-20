@@ -42,7 +42,7 @@ Voordat u een opmaak aanpast, moet u bepalen wie de beoogde gebruikers zijn.
 1. Open de Schermontwerper.
 2. Selecteer bovenaan een scherm of dialoogvenster dat u wilt aanpassen.
 3. Selecteer een opmaak in de lijst aan de linkerkant.
-4. Klik onder de voorbeeldweergave op **Opmaak bewerken**.
+4. Klik onder de voorbeeldweergave op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>.
 5. Werk door de tabbladen van het scherm in het scherm **Kaartopmaak bewerken**.
 
     * [Een veld toevoegen, bewerken, verplaatsen of verwijderen][1]

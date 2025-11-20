@@ -21,7 +21,7 @@ redirect_from: /nl/customization/screen-designer/working-with-fields
 
 [!include[Vereiste](../../../includes/req-dev-tools.md)]
 
-Labels en velden vertegenwoordigen de essentiële inhoud van een scherm. Of u nu een nieuwe opmaak maakt of een bestaande wijzigt, begin met klikken op **Opmaak bewerken**. [Laat me de gedetailleerde stappen zien.][1] Wanneer u klaar bent, **sla het opmaak op of publiceer het**.
+Labels en velden vertegenwoordigen de essentiële inhoud van een scherm. Of u nu een nieuwe opmaak maakt of een bestaande wijzigt, begin met klikken op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>. [Laat me de gedetailleerde stappen zien.][1] Wanneer u klaar bent, **sla het opmaak op of publiceer het**.
 
 > [!TIP]
 > U kunt overwegen [tabbladen toe te voegen of te verwijderen][2] voordat u de velden fijn afstemt.
