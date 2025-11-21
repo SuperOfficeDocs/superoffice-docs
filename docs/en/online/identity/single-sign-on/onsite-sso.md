@@ -118,7 +118,7 @@ Steps to configure in the *web.config* file:
 4. Apply the configuration changes related to bindings and WindowsAuth.
 
 <!-- Referenced links -->
-[1]: ../../../service/install/index.md
+[1]: ../../../onsite/install/service/index.md
 [2]: ../../../api/config/customerservice.md
 [3]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
 [4]: ../../../onsite/security/deployment-scenarios.md

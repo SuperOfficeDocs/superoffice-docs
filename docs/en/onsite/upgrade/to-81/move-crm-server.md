@@ -167,8 +167,8 @@ All the eMarketing messages sent out before the move will contain links pointing
 
 <!-- Referenced links -->
 [1]: ../../install/database/dbsetup-exe.md
-[2]: ../../../service/install/index.md
-[3]: ../../../service/install/manual-steps.md
+[2]: ../service/index.md
+[3]: ../service/manual-steps.md
 
 <!-- Referenced images -->
 [img1]: media/image3omzh.png

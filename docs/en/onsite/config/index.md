@@ -80,8 +80,8 @@ The following steps are recommended to increase security:
 [5]: ../debug/web-client.md
 [6]: ../../api/config/index.md
 [7]: ../../../../integrations/webtools/debug.md
-[10]: ../../service/log-files.md
-[11]: ../../service/config/index.md
-[12]: ../../service/automated-tasks/index.md
+[10]: ../debug/service-log-files.md
+[11]: service/index.md
+[12]: ../automated-tasks/index.md
 
 <!-- Referenced images -->

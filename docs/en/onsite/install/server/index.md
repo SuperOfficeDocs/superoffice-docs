@@ -64,7 +64,7 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 [2]: silent-serversetup.md
 [3]: install-on-citrix.md
 [4]: https://license.superoffice.com
-[11]: ../../../service/install/prepare.md
-[12]: ../../../service/install/index.md
+[11]: ../service/prepare.md
+[12]: ../service/index.md
 [13]: ../guide.md
 [14]: ../win-client/index.md

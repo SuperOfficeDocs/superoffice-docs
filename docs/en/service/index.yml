@@ -119,68 +119,68 @@ conceptualContent:
       - text: Intro
         itemType: explore
         typeDesc: concept
-        url: automated-tasks/index.md
+        url: ../onsite/automated-tasks/index.md
       - text: dbi
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/dbi.md
+        url: ../onsite/automated-tasks/dbi.md
       - text: ejournalCron
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/ejournalcron.md
+        url: ../onsite/automated-tasks/ejournalcron.md
       - text: ejOutbox
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/ejoutbox.md
+        url: ../onsite/automated-tasks/ejoutbox.md
       - text: ejSender
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/ejsender.md
+        url: ../onsite/automated-tasks/ejsender.md
       - text: ejTermSetup
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/ejtermsetup.md
+        url: ../onsite/automated-tasks/ejtermsetup.md
       - text: importMail
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/importmail.md
+        url: ../onsite/automated-tasks/importmail.md
       - text: upgrade
         itemType: library_books
         typeDesc: reference
-        url: automated-tasks/upgrade.md
+        url: ../onsite/automated-tasks/upgrade.md
     # Card
     - title: SMS plugins
       summary: ""
       links:
-      - url: sms/index.md
+      - url: ../marketing/sms/index.md
         itemType: explore
         typeDesc: concept
         text: Intro
-      - url: sms/cm.md
+      - url: ../marketing/sms/cm.md
         itemType: list
         typeDesc: how-to-guide
         text: CM
-      - url: sms/compaya.md
+      - url: ../marketing/sms/compaya.md
         itemType: list
         typeDesc: how-to-guide
         text: Compaya
-      - url: sms/intelecom.md
+      - url: ../marketing/sms/intelecom.md
         itemType: list
         typeDesc: how-to-guide
         text: Intelecom
-      - url: sms/linkmobility.md
+      - url: ../marketing/sms/linkmobility.md
         itemType: list
         typeDesc: how-to-guide
         text: Link Mobility
-      - url: sms/smsteknik.md
+      - url: ../marketing/sms/smsteknik.md
         itemType: list
         typeDesc: how-to-guide
         text: SMSTeknik
-      - url: sms/twilio.md
+      - url: ../marketing/sms/twilio.md
         itemType: list
         typeDesc: how-to-guide
         text: Twilio
-      - url: sms/txtlocal.md
+      - url: ../marketing/sms/txtlocal.md
         itemType: list
         typeDesc: how-to-guide
         text: TxtLocal
@@ -194,10 +194,8 @@ additionalContent:
       # Card
       - title: Attachments
         links:
-          - text: Update location
-            url: config/update-attachment-location.md
-          - text: Split location
-            url: config/split-attachment-location.md
+          - text: Update or split location
+            url: ../onsite/config/service/attachment-location.md
       # Card
       - title: Integrations
         links:

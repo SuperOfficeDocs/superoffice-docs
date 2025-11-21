@@ -91,9 +91,9 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Prepare
-          url: ../../service/install/prepare.md
+          url: ../install/service/prepare.md
         - text: Install Service
-          url: ../../service/install/index.md
+          url: ../install/service/index.md
 
   # Card
   - title: Security

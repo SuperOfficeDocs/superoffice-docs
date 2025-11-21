@@ -104,7 +104,7 @@ SuperOffice 7.0 or 7.1 Server
 [1]: crm-server.md
 [2]: win-client.md
 [3]: web-client.md
-[4]: ../../../service/install/index.md
+[4]: ../service/index.md
 [5]: netserver.md
-[6]: ../../../service/upgrade/index.md
+[6]: ../../upgrade/service/index.md
 [7]: ../to-81/index.md

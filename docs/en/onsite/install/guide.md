@@ -26,10 +26,10 @@ deployment: onsite
 <!-- Referenced links -->
 [1]: server/prepare.md
 [2]: win-client/prepare-client.md
-[3]: ../../service/install/prepare.md
+[3]: ../service/prepare.md
 [4]: server/index.md
 [5]: win-client/index.md
 [6]: web-client/index.md
-[8]: ../../service/install/index.md
+[8]: ../service/index.md
 [9]: iis/index.md
 [10]: database/index.md
