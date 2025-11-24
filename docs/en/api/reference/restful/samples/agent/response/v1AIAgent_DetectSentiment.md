@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 699,
-  "Confidence": 736,
+  "Score": 85,
+  "Confidence": 92,
   "TableRight": null,
   "FieldProperties": {
-    "fieldName": {
+    "sentiment": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 8
     }
   }
 }
