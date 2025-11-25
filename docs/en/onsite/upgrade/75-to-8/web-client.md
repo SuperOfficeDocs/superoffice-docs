@@ -20,7 +20,7 @@ These are the recommended steps for upgrading from SuperOffice 7 Web to SuperOff
 * If using remote NetServer for Web: [upgrade the NetServer][2] used by Web to version 8.
 * Download and unzip the Web installer package on your server.
 
-[!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
+[!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
 
 **Using remote NetServer web services?**
 

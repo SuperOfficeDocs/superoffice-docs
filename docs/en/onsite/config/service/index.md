@@ -70,5 +70,5 @@ This setting is valuable when you want to avoid having users logging/being logge
 Always remember to remove this or comment it out after you have completed your maintenance.
 
 <!-- Referenced links -->
-[1]: ../../upgrade/index.md
+[1]: ../../automated-tasks/upgrade.md
 [2]: ../../security/deployment-scenarios.md

@@ -152,35 +152,35 @@ conceptualContent:
     - title: SMS plugins
       summary: ""
       links:
-      - url: ../marketing/sms/index.md
+      - url: ../marketing/sms/it/index.md
         itemType: explore
         typeDesc: concept
         text: Intro
-      - url: ../marketing/sms/cm.md
+      - url: ../marketing/sms/it/cm.md
         itemType: list
         typeDesc: how-to-guide
         text: CM
-      - url: ../marketing/sms/compaya.md
+      - url: ../marketing/sms/it/compaya.md
         itemType: list
         typeDesc: how-to-guide
         text: Compaya
-      - url: ../marketing/sms/intelecom.md
+      - url: ../marketing/sms/it/intelecom.md
         itemType: list
         typeDesc: how-to-guide
         text: Intelecom
-      - url: ../marketing/sms/linkmobility.md
+      - url: ../marketing/sms/it/linkmobility.md
         itemType: list
         typeDesc: how-to-guide
         text: Link Mobility
-      - url: ../marketing/sms/smsteknik.md
+      - url: ../marketing/sms/it/smsteknik.md
         itemType: list
         typeDesc: how-to-guide
         text: SMSTeknik
-      - url: ../marketing/sms/twilio.md
+      - url: ../marketing/sms/it/twilio.md
         itemType: list
         typeDesc: how-to-guide
         text: Twilio
-      - url: ../marketing/sms/txtlocal.md
+      - url: ../marketing/sms/it/txtlocal.md
         itemType: list
         typeDesc: how-to-guide
         text: TxtLocal

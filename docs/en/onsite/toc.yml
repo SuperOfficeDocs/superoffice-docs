@@ -89,6 +89,13 @@ items:
         href: install/win-client/prepare-client.md
       - name: Install Win 8 client
         href: install/win-client/win8-client.md
+    - name: Install SuperOffice Service
+      href: install/service/index.md
+      items:
+      - name: Prepare
+        href: install/service/prepare.md
+      - name: Install manually
+        href: install/service/manual-steps.md
     - name: Install SuperOffice Web
       href: install/web-client/index.md
       items:
@@ -100,13 +107,6 @@ items:
         href: install/netserver/setup-rest.md
       - name: WCF primer
         href: install/netserver/wcf-primer.md
-    - name: Install SuperOffice Service
-      href: install/service/index.md
-      items:
-      - name: Prepare
-        href: install/service/prepare.md
-      - name: Install manually
-        href: install/service/manual-steps.md
   - name: Upgrade Onsite
     items:
     - name: To version 8.0
