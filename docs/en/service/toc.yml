@@ -1,43 +1,6 @@
 items:
 - name: Service
   href: index.yml
-  items:
-  - name: Install
-    items:
-    - name: Set-up guide
-      href: install/index.md
-    - name: Prepare
-      href: install/prepare.md
-    - name: Install manually
-      href: install/manual-steps.md
-  - name: Upgrade
-    href: upgrade/index.md
-  - name: Report parameters
-    href: reports/parameters.md
-  - name: Automated tasks
-    href: automated-tasks/index.md
-    items:
-    - name: dbi
-      href: automated-tasks/dbi.md
-    - name: ejournalCron
-      href: automated-tasks/ejournalcron.md
-    - name: ejOutbox
-      href: automated-tasks/ejoutbox.md
-    - name: ejSender
-      href: automated-tasks/ejsender.md
-    - name: ejTermSetup
-      href: automated-tasks/ejtermsetup.md
-    - name: importMail
-      href: automated-tasks/importmail.md
-    - name: upgrade
-      href: automated-tasks/upgrade.md
-  - name: Configuration
-    href: config/index.md
-    items:
-    - name: Update attachment location
-      href: config/update-attachment-location.md
-    - name: Split attachment location
-      href: config/split-attachment-location.md
-  - name: Customer center
-    href: ../customer-center/toc.yml
-    topicHref: ../customer-center/index.yml
+- name: Customer center
+  href: ../customer-center/toc.yml
+  topicHref: ../customer-center/index.yml

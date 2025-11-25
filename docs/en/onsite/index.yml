@@ -113,7 +113,7 @@ conceptualContent:
             itemType: list
             typeDesc: how-to-guide
             text: Web client
-          - url: ../service/install/index.md
+          - url: install/service/index.md
             itemType: list
             typeDesc: how-to-guide
             text: Service
@@ -187,7 +187,7 @@ additionalContent:
         links:
           - url: travel/travel-gateway/remotetravel-ini.md
             text: Remotetravel.ini
-          - url: ../service/config/index.md
+          - url: config/service/index.md
             text: Service config
           - url: install/database/sotables-ini.md
             text: Sotables.ini
@@ -208,7 +208,7 @@ additionalContent:
         links:
         - url: debug/web-client.md
           text: Web client
-        - url: ../service/log-files.md
+        - url: debug/service-log-files.md
           text: Service (log files)
         - url: reporter/debug.md
           text: Reporter

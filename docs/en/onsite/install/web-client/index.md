@@ -85,11 +85,11 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 
 20. Click **Finish"** to finalize the installation.
 
-[Previous][11] | [Back to guide][1]
+[Previous][2] | [Back to guide][1]
 
 <!-- Referenced links -->
 [1]: ../guide.md
-[2]: ../../../service/install/index.md
+[2]: ../service/index.md
 [3]: ../../../mobile/pocket-crm/deploy.md
 [4]: ../../security/secure-deployment-guide.md
 [5]: ../iis/index.md
@@ -97,7 +97,6 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 [7]: ../../security/deployment-scenarios.md
 [9]: ../../reporter/config.md
 [10]: ../../../api/config/diagnostics.md
-[11]: ../../../service/install/index.md
 [12]: ../../../api/config/security.md
 [14]: ../../../api/config/data.md#database
 [15]: ../../../api/config/globalization.md

@@ -63,7 +63,7 @@ After the installation is completed all components are installed.
 [4]: ../../compatibility/oracle.md
 [5]: prepare-client.md
 [11]: ../server/index.md
-[12]: ../../../service/install/index.md
+[12]: ../service/index.md
 [13]: ../guide.md
 
 <!-- Referenced images -->

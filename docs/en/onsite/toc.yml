@@ -89,6 +89,13 @@ items:
         href: install/win-client/prepare-client.md
       - name: Install Win 8 client
         href: install/win-client/win8-client.md
+    - name: Install SuperOffice Service
+      href: install/service/index.md
+      items:
+      - name: Prepare
+        href: install/service/prepare.md
+      - name: Install manually
+        href: install/service/manual-steps.md
     - name: Install SuperOffice Web
       href: install/web-client/index.md
       items:
@@ -127,6 +134,8 @@ items:
         href: upgrade/to-81/move-crm-server.md
     - name: To version 9 or 10
       href: upgrade/to-9/index.md
+    - name: Upgrade Service
+      href: upgrade/service/index.md
   - name: Configuration
     href: config/index.md
     items:
@@ -148,6 +157,13 @@ items:
       href: install/win-client/superoffice-config.md
     - name: SuperOffice.ini (Win)
       href: install/win-client/superoffice-ini.md
+    - name: Service configuration
+      href: config/service/index.md
+      items:
+      - name: Attachment location
+        href: config/service/attachment-location.md
+      - name: Report parameters
+        href: config/service/report-parameters.md
   - name: Integrate
     items:
     - name: With the Web client
@@ -165,6 +181,25 @@ items:
       href: reporter/troubleshooting.md
     - name: Windows client
       href: debug/win-client.md
+    - name: Service log files
+      href: debug/service-log-files.md
+  - name: Automated tasks
+    href: automated-tasks/index.md
+    items:
+    - name: dbi
+      href: automated-tasks/dbi.md
+    - name: ejournalCron
+      href: automated-tasks/ejournalcron.md
+    - name: ejOutbox
+      href: automated-tasks/ejoutbox.md
+    - name: ejSender
+      href: automated-tasks/ejsender.md
+    - name: ejTermSetup
+      href: automated-tasks/ejtermsetup.md
+    - name: importMail
+      href: automated-tasks/importmail.md
+    - name: upgrade
+      href: automated-tasks/upgrade.md
   - name: Travel
     href: travel/toc.yml
   - name: Windows client settings

@@ -95,8 +95,8 @@ To stop this from happening you have to activate a registry key named **UseBorde
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=11900&azure=1
 [2]: ml-on-citrix.md
 [3]: ribbons-on-citrix.md
-[11]: ../../../service/install/prepare.md
-[12]: ../../../service/install/index.md
+[11]: ../service/prepare.md
+[12]: ../service/index.md
 [13]: ../guide.md
 
 <!-- Referenced links -->

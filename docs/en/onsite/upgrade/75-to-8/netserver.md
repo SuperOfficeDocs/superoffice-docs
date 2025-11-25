@@ -20,7 +20,7 @@ These are the recommended steps for upgrading from SuperOffice 7 NetServer to S
 
 If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge Service NetServer and S&M Web NetServer for a more lean administration.
 
-[!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
+[!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
 
 ## Upgrade
 

@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/service/reports/parameters.html
+redirect_url: https://docs.superoffice.com/en/onsite/config/service/report-parameters.html
 ---

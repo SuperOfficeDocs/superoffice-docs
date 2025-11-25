@@ -50,7 +50,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
 4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO_Arc reference.
 
-    ![imagep6lxc.png -screenshot][img10]
+    ![imagep6lxc.png -screenshot][img8]
 
     ![image3omzh.png -screenshot][img1]
 
@@ -167,8 +167,8 @@ All the eMarketing messages sent out before the move will contain links pointing
 
 <!-- Referenced links -->
 [1]: ../../install/database/dbsetup-exe.md
-[2]: ../../../service/install/index.md
-[3]: ../../../service/install/manual-steps.md
+[2]: ../../install/database/index.md
+[3]: ../../install/service/manual-steps.md
 
 <!-- Referenced images -->
 [img1]: media/image3omzh.png
@@ -176,5 +176,5 @@ All the eMarketing messages sent out before the move will contain links pointing
 [img3]: media/productconfigurationdocumentsettings.png
 [img4]: media/imageoa6c9.png
 [img6]: media/image7byzr.png
+[img8]: media/imagep6lxc.png
 [img9]: media/imageitk5g.png
-[img10]: media/imagep6lxc.png
