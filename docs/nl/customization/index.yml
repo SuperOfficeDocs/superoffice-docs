@@ -10,9 +10,9 @@ metadata:
   description: "Meer informatie over manieren om SuperOffice aan te passen."
   so.product: customisation
   so.topic: landing-page
-  author: Help and Learn
-  so.author: Christine H.
-  so.date: 11.11.2022
+  author: digitaldiina
+  so.author: digitaldiina
+  so.date: 11.25.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -33,19 +33,25 @@ landingContent:
           url: ../custom-objects/admin/create-extra-table.md
       
   # Card
-  - title: Gebruikersinterface
+  - title: Schermontwerper
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Schermontwerper
+        - text: Intro
           url: screen-designer/admin/index.md
-        - text: Extra menu's
-          url: ../ui/blogic/learn/extra-menus/index.md
-        - text: Webpanelen
-          url: ../ui/web-panels/learn/index.md
-        - text: Profiel in bedrijf
-          url: ../ui/blogic/learn/profiles/index.md
+        - text: Opmaak toevoegen
+          url: screen-designer/admin/add-layout.md
+        - text: Opmaak van een kaart bewerken
+          url: screen-designer/admin/edit-layout.md
+        - text: Werken met velden
+          url: screen-designer/admin/working-with-fields.md
+        - text: Knop of link toevoegen
+          url: screen-designer/admin/add-button.md
+        - text: Werken met tabbladen
+          url: screen-designer/admin/working-with-tabs.md
+        - text: Opmaak toewijzen aan groep, type of sjabloon
+          url: screen-designer/admin/assign-layout.md
 
   # Card
   - title: "Macro's en CRMScript"
@@ -67,6 +73,69 @@ landingContent:
           url: ../automation/crmscript/learn/tracing.md
         - text: Triggers
           url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Webpanelen
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: web-panels/admin/index.md
+        - text: Webpaneel toevoegen
+          url: web-panels/admin/add-web-panel.md
+        - text: URL-codering
+          url: web-panels/admin/url-encoding.md
+        - text: Gegevens doorgeven met sjabloonvariabelen
+          url: ../en/customization/web-panels/dev/index.md#variables
+        - text: Link maken naar
+          url: ../en/customization/web-panels/dev/index.md
+
+  # Card
+  - title: SOProtocol
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../en/customization/soprotocol/index.md
+        - text: Navigatiepunten
+          url: ../en/customization/soprotocol/navigation-points.md
+        - text: Paginacontrole en cache
+          url: ../en/customization/soprotocol/page-control-and-cache.md
+        - text: In CRMScript
+          url: ../en/customization/soprotocol/in-crmscript.md
+        - text: In webpanelen
+          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+        - text: Hoe u een persoon kunt ophalen
+          url: ../en/customization/soprotocol/howto/open-contact.md
+
+  # Card
+  - title: Aangepaste schermen (Service)
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: bLogic querysyntaxis
+          url: ../../en/ui/blogic/custom-screens/blogic-query-syntax.md
+        - text: Lay-outelementen
+          url: ../../en/ui/blogic/custom-screens/layout-elements.md
+        - text: Weergave-elementen
+          url: ../../en/ui/blogic/custom-screens/view-elements.md
+        - text: Formulierelementen
+          url: ../../en/ui/blogic/custom-screens/form-elements.md
+        - text: Hoe een schermelement toe te voegen
+          url: ../../en/ui/blogic/custom-screens/add-screen-element.md
+        - text: Elementreferentie
+          url: ../../en/ui/blogic/reference/index.md
+        - text: Schermgebeurtenissen
+          url: ../../en/ui/blogic/screen-events.md
+        - text: Schermkiezers
+          url: ../../en/ui/blogic/screen-choosers.md
+        - text: Extra menu's
+          url: ../../en/ui/blogic/extra-menus.md
 
   # Card
   - title: Klantportaal

@@ -10,9 +10,9 @@ metadata:
   description: "Erfahren Sie mehr über die Möglichkeiten der Anpassung von SuperOffice."
   so.product: customisation
   so.topic: landing-page
-  author: Help and Learn
-  so.author: Christine H.
-  so.date: 11.11.2022
+  author: digitaldiina
+  so.author: digitaldiina
+  so.date: 11.25.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -33,19 +33,25 @@ landingContent:
           url: ../custom-objects/admin/create-extra-table.md
       
   # Card
-  - title: Benutzeroberfläche
+  - title: Ansichtsdesigner
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Ansichtsdesigner
+        - text: Intro
           url: screen-designer/admin/index.md
-        - text: Zusatzmenüs
-          url: ../ui/blogic/learn/extra-menus/index.md
-        - text: Web-Bildschirme
-          url: ../ui/web-panels/learn/index.md
-        - text: Profil im Service
-          url: ../ui/blogic/learn/profiles/index.md
+        - text: Layout hinzufügen
+          url: screen-designer/admin/add-layout.md
+        - text: Das Layout einer Ansichtskarte bearbeiten
+          url: screen-designer/admin/edit-layout.md
+        - text: Mit Feldern arbeiten
+          url: screen-designer/admin/working-with-fields.md
+        - text: Schaltfläche oder Link hinzufügen
+          url: screen-designer/admin/add-button.md
+        - text: Mit Registerkarten arbeiten
+          url: screen-designer/admin/working-with-tabs.md
+        - text: Layouts einer Gruppe, einem Typ oder einer Vorlage zuweisen
+          url: screen-designer/admin/assign-layout.md
 
   # Card
   - title: Makros und CRMScript
@@ -67,6 +73,69 @@ landingContent:
           url: ../automation/crmscript/learn/tracing.md
         - text: Auslöser
           url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Web-Bildschirme
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: web-panels/admin/index.md
+        - text: Web-Bildschirm hinzufügen
+          url: web-panels/admin/add-web-panel.md
+        - text: URL-Codierung
+          url: web-panels/admin/url-encoding.md
+        - text: Daten mit Vorlagenvariablen übergeben
+          url: ../en/customization/web-panels/dev/index.md#variables
+        - text: Link erstellen zu
+          url: ../en/customization/web-panels/dev/index.md
+
+  # Card
+  - title: SOProtocol
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../en/customization/soprotocol/index.md
+        - text: Navigationspunkte
+          url: ../en/customization/soprotocol/navigation-points.md
+        - text: Seitensteuerung und Cache
+          url: ../en/customization/soprotocol/page-control-and-cache.md
+        - text: In CRMScript
+          url: ../en/customization/soprotocol/in-crmscript.md
+        - text: In Web-Bildschirmen
+          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+        - text: So erhalten Sie eine Person
+          url: ../en/customization/soprotocol/howto/open-contact.md
+
+  # Card
+  - title: Benutzerdefinierte Bildschirme (Service)
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: bLogic Abfragesyntax
+          url: ../../en/ui/blogic/custom-screens/blogic-query-syntax.md
+        - text: Layout-Elemente
+          url: ../../en/ui/blogic/custom-screens/layout-elements.md
+        - text: Ansichtselemente
+          url: ../../en/ui/blogic/custom-screens/view-elements.md
+        - text: Formularelemente
+          url: ../../en/ui/blogic/custom-screens/form-elements.md
+        - text: So fügen Sie ein Bildschirmelement hinzu
+          url: ../../en/ui/blogic/custom-screens/add-screen-element.md
+        - text: Elementreferenz
+          url: ../../en/ui/blogic/reference/index.md
+        - text: Bildschirmereignisse
+          url: ../../en/ui/blogic/screen-events.md
+        - text: Bildschirmauswahl
+          url: ../../en/ui/blogic/screen-choosers.md
+        - text: Zusatzmenüs
+          url: ../../en/ui/blogic/extra-menus.md
 
   # Card
   - title: Kundenzentrum
