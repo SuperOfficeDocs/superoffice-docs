@@ -1,18 +1,18 @@
 ### YamlMime:SubCategory
 
 yamlMime: SubCategory
-title: Customisation
-summary: "Learn about different customisation of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
+title: Customization
+summary: "Learn about different customization of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
 language: en
 
 metadata:
-  title: Customisation
-  description: "Learn about ways to customise SuperOffice."
-  so.product: customisation
+  title: Customization
+  description: "Learn about ways to customize SuperOffice."
+  so.product: customization
   so.topic: landing-page
-  author: Help and Learn
-  so.author: Christine H.
-  so.date: 11.11.2022
+  author: digitaldiina
+  so.author: digitaldiina
+  so.date: 11.25.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -33,19 +33,25 @@ landingContent:
           url: ../custom-objects/learn/extra-table.md
       
   # Card
-  - title: User interface
+  - title: Screen designer
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Screen designer
+        - text: Intro
           url: screen-designer/admin/index.md
-        - text: Extra menus
-          url: ../ui/blogic/learn/extra-menus/index.md
-        - text: Web panels
-          url: ../ui/web-panels/learn/index.md
-        - text: Profile in Service
-          url: ../ui/blogic/learn/profiles/index.md
+        - text: Add a layout
+          url: screen-designer/admin/add-layout.md
+        - text: Edit the layout of a card
+          url: screen-designer/admin/edit-layout.md
+        - text: Working with fields
+          url: screen-designer/admin/working-with-fields.md
+        - text: Add a link or button
+          url: screen-designer/admin/add-button.md
+        - text: Working with tabs
+          url: screen-designer/admin/working-with-tabs.md
+        - text: Assign layout to group or type
+          url: screen-designer/admin/assign-layout.md
 
   # Card
   - title: Macros and CRMScript
@@ -67,6 +73,69 @@ landingContent:
           url: ../automation/crmscript/learn/tracing.md
         - text: Triggers
           url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Web panels
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Overview
+          url: web-panels/admin/index.md
+        - text: Add a web panel
+          url: web-panels/admin/add-web-panel.md
+        - text: URL encoding
+          url: web-panels/admin/url-encoding.md
+        - text: Pass data with template variables
+          url: ../en/customization/web-panels/dev/index.md#variables
+        - text: Create link to
+          url: ../en/customization/web-panels/dev/index.md
+
+  # Card
+  - title: SOProtocol
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Overview
+          url: ../en/customization/soprotocol/index.md
+        - text: Navigation points
+          url: ../en/customization/soprotocol/navigation-points.md
+        - text: Page control and cache
+          url: ../en/customization/soprotocol/page-control-and-cache.md
+        - text: In CRMScript
+          url: ../en/customization/soprotocol/in-crmscript.md
+        - text: In web panels
+          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+        - text: How to get a contact
+          url: ../en/customization/soprotocol/howto/open-contact.md
+
+  # Card
+  - title: Custom screens (Service)
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: bLogic query syntax
+          url: ../../en/ui/blogic/custom-screens/blogic-query-syntax.md
+        - text: Layout elements
+          url: ../../en/ui/blogic/custom-screens/layout-elements.md
+        - text: View elements
+          url: ../../en/ui/blogic/custom-screens/view-elements.md
+        - text: Form elements
+          url: ../../en/ui/blogic/custom-screens/form-elements.md
+        - text: How to add a screen element
+          url: ../../en/ui/blogic/custom-screens/add-screen-element.md
+        - text: Element reference
+          url: ../../en/ui/blogic/reference/index.md
+        - text: Screen events
+          url: ../../en/ui/blogic/screen-events.md
+        - text: Screen choosers
+          url: ../../en/ui/blogic/screen-choosers.md
+        - text: Extra menus
+          url: ../../en/ui/blogic/extra-menus.md
 
   # Card
   - title: Customer centre

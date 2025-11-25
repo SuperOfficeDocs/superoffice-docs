@@ -10,9 +10,9 @@ metadata:
   description: "Få mere at vide om, hvordan du kan tilpasse SuperOffice."
   so.product: customisation
   so.topic: landing-page
-  author: Help and Learn
-  so.author: Christine H.
-  so.date: 02.17.2025
+  author: digitaldiina
+  so.author: digitaldiina
+  so.date: 11.25.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -33,19 +33,25 @@ landingContent:
           url: ../custom-objects/admin/create-extra-table.md
       
   # Card
-  - title: Brugergrænseflade
+  - title: Skærmdesigner
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Skærmdesigner
+        - text: Intro
           url: screen-designer/admin/index.md
-        - text: Ekstra menuer
-          url: ../ui/blogic/learn/extra-menus/index.md
-        - text: Webpaneler
-          url: ../ui/web-panels/learn/index.md
-        - text: Profil i service
-          url: ../ui/blogic/learn/profiles/index.md
+        - text: Tilføj layout
+          url: screen-designer/admin/add-layout.md
+        - text: Rediger layout af et kort
+          url: screen-designer/admin/edit-layout.md
+        - text: Arbejde med felter
+          url: screen-designer/admin/working-with-fields.md
+        - text: Tilføj en knap eller et link
+          url: screen-designer/admin/add-button.md
+        - text: Arbejde med faner
+          url: screen-designer/admin/working-with-tabs.md
+        - text: Tildel layout til gruppe, type eller skabelon
+          url: screen-designer/admin/assign-layout.md
 
   # Card
   - title: Makroer og CRMScript
@@ -67,6 +73,69 @@ landingContent:
           url: ../automation/crmscript/learn/tracing.md
         - text: Udløsere
           url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Webpaneler
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Oversigt
+          url: web-panels/admin/index.md
+        - text: Tilføj webpanel
+          url: web-panels/admin/add-web-panel.md
+        - text: URL-kodning
+          url: web-panels/admin/url-encoding.md
+        - text: Overfør data med skabelonvariabler
+          url: ../en/customization/web-panels/dev/index.md#variables
+        - text: Opret link til
+          url: ../en/customization/web-panels/dev/index.md
+
+  # Card
+  - title: SOProtocol
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Oversigt
+          url: ../en/customization/soprotocol/index.md
+        - text: Navigationspunkter
+          url: ../en/customization/soprotocol/navigation-points.md
+        - text: Sidekontrol og cache
+          url: ../en/customization/soprotocol/page-control-and-cache.md
+        - text: I CRMScript
+          url: ../en/customization/soprotocol/in-crmscript.md
+        - text: I webpaneler
+          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+        - text: Sådan henter du en person
+          url: ../en/customization/soprotocol/howto/open-contact.md
+
+  # Card
+  - title: Brugerdefinerede skærme (Service)
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Intro
+          url: ../../en/ui/blogic/custom-screens/index.md
+        - text: bLogic forespørgselssyntaks
+          url: ../../en/ui/blogic/custom-screens/blogic-query-syntax.md
+        - text: Layoutelementer
+          url: ../../en/ui/blogic/custom-screens/layout-elements.md
+        - text: Visningselementer
+          url: ../../en/ui/blogic/custom-screens/view-elements.md
+        - text: Formular elementer
+          url: ../../en/ui/blogic/custom-screens/form-elements.md
+        - text: Sådan tilføjes et skærmelement
+          url: ../../en/ui/blogic/custom-screens/add-screen-element.md
+        - text: Elementreference
+          url: ../../en/ui/blogic/reference/index.md
+        - text: Skærmhændelser
+          url: ../../en/ui/blogic/screen-events.md
+        - text: Skærmvælgere
+          url: ../../en/ui/blogic/screen-choosers.md
+        - text: Ekstra menuer
+          url: ../../en/ui/blogic/extra-menus.md
 
   # Card
   - title: Kundecenter
