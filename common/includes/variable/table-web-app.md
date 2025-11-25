@@ -2,7 +2,8 @@
 | Variable | Description |
 |---|---|
 | uctx | Current online context identifier, or online customer ID |
-| usec | Encrypted login information for NetServer. Do not use this in a web application for CRM Online.  If you have already used the usec variable in an online environment, it will only return an empty string from v11.5  |
+| usec | Encrypted login information for NetServer. Do not use this in a web application for CRM Online.  Returns empty string from v11.5 in online environment.  |
+
 | usem | Current user's primary email address |
 | user | Current user ID |
 | usfn | Current user's first name |
