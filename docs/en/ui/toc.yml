@@ -1,6 +1,6 @@
 items:
 - name: User interface
-  topicHref: index.yml
+  topicHref: blogic/index.yml
   items:
   - name: Screen designer
     topicHref: ../customization/screen-designer/admin/index.md
