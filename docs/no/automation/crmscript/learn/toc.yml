@@ -3,23 +3,11 @@ items:
   href: index.md
 - name: Fanen Makroer og skript
   href: screen/index.md
-- name: Arbeide med CRMScript
-  topicHref: macro-script.md
-  items:
-  - name: Makroer og skript
-    topicHref: macro-script.md
-    items:
-    - name: Oversikt
-      href: macro-script.md
-    - name: Opprette et skript
-      href: create-script.md
-    - name: Opprette en makro
-      href: create-macro.md
-  - name: Triggere
-    href: trigger.md
-  - name: Planlagte oppgaver
-    href: schedule-task.md
-  - name: Feilsøkingsøkter
-    href: debug.md
-  - name: Sporing
-    href: tracing.md
+- name: Triggere
+  href: trigger.md
+- name: Planlagte oppgaver
+  href: schedule-task.md
+- name: Feilsøkingsøkter
+  href: debug.md
+- name: Sporing
+  href: tracing.md

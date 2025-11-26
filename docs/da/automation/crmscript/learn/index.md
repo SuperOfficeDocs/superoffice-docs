@@ -9,6 +9,8 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+redirect_from:
+  - /da/automation/crmscript/learn/macro-script
 ---
 
 # CRMScript
@@ -23,9 +25,35 @@ For at få adgang til funktionerne i CRMScript skal du åbne SuperOffice Indstil
 
 Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. når der oprettes et nyt salg, eller når en sag lukkes. Udløsere kan reagere lydløst på, hvad der sker, eller blokere handlingen og vise en forklaring tilbage til brugeren.
 
+## Makroer og script
+
+På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at [vise, redigere eller køre den][1].
+
+### Om makroer
+
+Makroer er den brugervenlige version af scripts: Du behøver ikke omfattende viden om scripting eller CRMScript for at oprette makroer.
+
+Med makroer kan du tilpasse og automatisere handlinger inde i SuperOffice. En brugervenlig guide hjælper dig med opsætning af din makro.
+
+Makroer har et antal funktioner i SuperOffice. De kan knyttes til bestemte [udløsere][2] i systemet (såsom eskaleringer eller ny meddelelse på sag i SuperOffice) eller tildeles til knapper i definerede skærmbilleder, så brugerne kan klikke på en knap for at udføre en række handlinger, som ofte gentages. Det gør sagsbehandlingen hurtigere, og brugerne undgår unødvendige klik med musen.
+
+Du kan for eksempel bruge makroer:
+
+* Som en opgave/funktion i et menupunkt (for eksempel i **Opgave** på skærmen Sag)
+* Når en sag eskaleres via advarselsniveauer for prioritet
+* Som en planlagt opgave
+* Når de aktiveres af et e-mailfilter
+* Når en modtager klikker på et sporet link i en udsendelse
+
+### Hvad er forskellen på et script og en makro?
+
+En makro er et sæt af foruddefinerede handlinger, som udføres i en bestemt rækkefølge, og som ikke kræver programmeringsviden i forbindelse med opsætningen.
+
+Et script er et lille program, der er skrevet til at udføre bestemte opgaver, og som kræver programmeringsviden i forbindelse med opsætningen.
+
 ## Faner
 
-* [Makroer og script][1] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
+* [Makroer og script][8] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
 * [Triggers][2] - Definer, at en bestemt hændelse i systemet udløser én eller flere foruddefinerede handlinger.
 * [Planlagte opgaver][3] - Angiv, at et script eller en makro skal udføres på bestemte tidspunkter.
 * [Fejlfindingssessioner][4] - Find og ret fejl inde i dine scripts og makroer.
@@ -33,14 +61,21 @@ Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. n�
 
 ## Relateret indhold
 
+* [Visning af script/makro][1]
+* [Opret et script][8]
+* [Oprettelse af makro][9]
+* [Oprettelse af mappe][10]
 * [Lær CRMScript-sproget][6]
 * [CRMScript API-reference][7]
 
 <!-- Referenced links -->
-[1]: macro-script.md
+[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
+[8]: create-script.md
+[9]: create-macro.md
+[10]: create-script.md#folder

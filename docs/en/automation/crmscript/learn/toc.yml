@@ -3,23 +3,11 @@ items:
   href: index.md
 - name: Macros and script tab
   href: screen/index.md
-- name: Work with CRMScript
-  topicHref: macro-script.md
-  items:
-  - name: Macros and scripts
-    topicHref: macro-script.md
-    items:
-    - name: Overview
-      href: macro-script.md
-    - name: Create a script
-      href: create-script.md
-    - name: Create a macro
-      href: create-macro.md
-  - name: Triggers
-    href: trigger.md
-  - name: Scheduled tasks
-    href: schedule-task.md
-  - name: Debug sessions
-    href: debug.md
-  - name: Tracing
-    href: tracing.md
+- name: Triggers
+  href: trigger.md
+- name: Scheduled tasks
+  href: schedule-task.md
+- name: Debug sessions
+  href: debug.md
+- name: Tracing
+  href: tracing.md

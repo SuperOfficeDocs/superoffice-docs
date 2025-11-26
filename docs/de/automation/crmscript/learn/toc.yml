@@ -3,23 +3,11 @@ items:
   href: index.md
 - name: Registerkarte Makros und Skripte
   href: screen/index.md
-- name: Mit CRMScript arbeiten
-  topicHref: macro-script.md
-  items:
-  - name: Makros und Skripts
-    topicHref: macro-script.md
-    items:
-    - name: Überblick
-      href: macro-script.md
-    - name: Ein Skript erstellen
-      href: create-script.md
-    - name: Ein Makro erstellen
-      href: create-macro.md
-  - name: Auslöser
-    href: trigger.md
-  - name: Geplante Aufgaben
-    href: schedule-task.md
-  - name: Debugsitzungen
-    href: debug.md
-  - name: Ablaufverfolgung
-    href: tracing.md
+- name: Auslöser
+  href: trigger.md
+- name: Geplante Aufgaben
+  href: schedule-task.md
+- name: Debugsitzungen
+  href: debug.md
+- name: Ablaufverfolgung
+  href: tracing.md
