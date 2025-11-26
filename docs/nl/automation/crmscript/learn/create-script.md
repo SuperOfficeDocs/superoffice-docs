@@ -69,9 +69,13 @@ Wanneer u een map verwijdert, wordt ook alle inhoud (zoals selecties, items in V
 
 ## Gerelateerde inhoud
 
-* [Info CRMScript][1]
+* [Over CRMScript][1]
+* [Scripts debuggen][2]
+* [Scripts traceren][3]
 
 <!-- Referenced links -->
 [1]: ../../../../en/automation/crmscript/index.yml
+[2]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[3]: ../../../../en/automation/crmscript/debugging/using-trace.md
 
 <!-- Referenced images -->

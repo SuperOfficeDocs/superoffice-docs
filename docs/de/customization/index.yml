@@ -60,17 +60,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Makros und Skripts
-          url: ../automation/crmscript/learn/macro-script.md
+          url: ../automation/crmscript/learn/index.md
         - text: Ein Makro erstellen
           url: ../automation/crmscript/learn/create-macro.md
         - text: Ein Skript erstellen
           url: ../automation/crmscript/learn/create-script.md
         - text: Debugsitzungen
-          url: ../automation/crmscript/learn/debug.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Eine geplante Aufgabe erstellen
           url: ../automation/crmscript/learn/schedule-task.md
         - text: Ablaufverfolgung
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Auslöser
           url: ../automation/crmscript/learn/trigger.md
 

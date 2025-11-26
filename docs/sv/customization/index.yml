@@ -60,17 +60,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Makron och skript
-          url: ../automation/crmscript/learn/macro-script.md
+          url: ../automation/crmscript/learn/index.md
         - text: Skapa ett makro
           url: ../automation/crmscript/learn/create-macro.md
         - text: Skapa ett skript
           url: ../automation/crmscript/learn/create-script.md
         - text: Felsökningssessioner
-          url: ../automation/crmscript/learn/debug.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Skapa en planerad uppgift
           url: ../automation/crmscript/learn/schedule-task.md
         - text: Spårning
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Utlösare
           url: ../automation/crmscript/learn/trigger.md
 

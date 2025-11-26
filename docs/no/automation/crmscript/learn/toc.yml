@@ -5,7 +5,3 @@ items:
   href: trigger.md
 - name: Planlagte oppgaver
   href: schedule-task.md
-- name: Feilsøkingsøkter
-  href: debug.md
-- name: Sporing
-  href: tracing.md

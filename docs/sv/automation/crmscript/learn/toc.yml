@@ -5,7 +5,3 @@ items:
   href: trigger.md
 - name: Planerade uppgifter
   href: schedule-task.md
-- name: Felsökningssessioner
-  href: debug.md
-- name: Spårning
-  href: tracing.md

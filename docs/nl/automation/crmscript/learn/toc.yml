@@ -5,7 +5,3 @@ items:
   href: trigger.md
 - name: Geplande taken
   href: schedule-task.md
-- name: Foutopsporingssessies
-  href: debug.md
-- name: Traceren
-  href: tracing.md

@@ -70,8 +70,12 @@ Når du sletter en mappe, slettes også alt innholdet (for eksempel utvalg, FAQ-
 ## Relatert innhold
 
 * [Om CRMScript][1]
+* [Feilsøk skript][2]
+* [Spor skript][3]
 
 <!-- Referenced links -->
 [1]: ../../../../en/automation/crmscript/index.yml
+[2]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[3]: ../../../../en/automation/crmscript/debugging/using-trace.md
 
 <!-- Referenced images -->

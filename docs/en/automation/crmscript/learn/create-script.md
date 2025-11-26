@@ -70,8 +70,12 @@ When you delete a folder, all its contents (such as selections, FAQ entries, rep
 ## Related content
 
 * [About CRMScript][1]
+* [Debug scripts][2]
+* [Trace scripts][3]
 
 <!-- Referenced links -->
 [1]: ../../../../en/automation/crmscript/index.yml
+[2]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[3]: ../../../../en/automation/crmscript/debugging/using-trace.md
 
 <!-- Referenced images -->

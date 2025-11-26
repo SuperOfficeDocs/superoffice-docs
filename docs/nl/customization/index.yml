@@ -60,17 +60,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: "Macro's en scripts"
-          url: ../automation/crmscript/learn/macro-script.md
+          url: ../automation/crmscript/learn/index.md
         - text: Een macro maken
           url: ../automation/crmscript/learn/create-macro.md
         - text: Een script maken
           url: ../automation/crmscript/learn/create-script.md
         - text: Foutopsporingssessies
-          url: ../automation/crmscript/learn/debug.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Een geplande taak maken
           url: ../automation/crmscript/learn/schedule-task.md
         - text: Traceren
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Triggers
           url: ../automation/crmscript/learn/trigger.md
 

@@ -55,7 +55,7 @@ highlightedContent:
     - title: "Macros and scripts"
       itemType: library_books
       typeDesc: reference
-      url: ../automation/crmscript/learn/macro-script.md
+      url: ../automation/crmscript/learn/index.md
 
 # conceptualContent section (optional)
 conceptualContent:

@@ -102,8 +102,8 @@ Wanneer u op het tabblad **Macro's en scripts** klikt op een script of macro, wo
 <!-- Referenced links -->
 [2]: trigger.md
 [3]: schedule-task.md
-[4]: debug.md
-[5]: tracing.md
+[4]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[5]: ../../../../en/automation/crmscript/debugging/using-trace.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
 [8]: create-script.md

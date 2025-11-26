@@ -5,7 +5,3 @@ items:
   href: trigger.md
 - name: Scheduled tasks
   href: schedule-task.md
-- name: Debug sessions
-  href: debug.md
-- name: Tracing
-  href: tracing.md

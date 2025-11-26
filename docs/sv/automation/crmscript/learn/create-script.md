@@ -70,8 +70,12 @@ När du tar bort en mapp tas även allt innehåll i mappen (till exempel urval, 
 ## Relaterat innehåll
 
 * [Om CRMScript][1]
+* [Felsök skript][2]
+* [Spåra skript][3]
 
 <!-- Referenced links -->
 [1]: ../../../../en/automation/crmscript/index.yml
+[2]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[3]: ../../../../en/automation/crmscript/debugging/using-trace.md
 
 <!-- Referenced images -->
