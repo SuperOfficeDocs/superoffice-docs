@@ -80,13 +80,13 @@ När du klickar på ett skript eller makro på fliken **Makron och skript** öpp
 
 **Alternativ:**
 
-| Ikon | Alternativ | Beskrivning |
-|---|---|---|
-| | Makron och skript | Används för att återgå till listan över skript och makron. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Redigera skript | Används för att redigera skriptet eller makrot. |
-| <i class="ph ph-play" aria-label="Play"></i> | Kör skript | Används för att köra skriptet eller makrot i standardläge. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Felsök skript | Används för att öppna **felsökningsfönstret** och köra det valda skriptet eller makrot i felsökningsläge. Skriptet avbryts vid första raden. Du kan öppna en [felsökningssession][4] på fliken **Felsökningssessioner**. |
-| | Spåra skript | Används för att starta en [spårning av skriptet eller makrot][5]. |
+| Knapp | Beskrivning |
+|---|---|
+| Makron och skript | Används för att återgå till listan över skript och makron. |
+| Redigera skript | Används för att redigera skriptet eller makrot. |
+| Kör skript | Används för att köra skriptet eller makrot i standardläge. |
+| Felsök skript | Används för att öppna **felsökningsfönstret** och köra det valda skriptet eller makrot i felsökningsläge. Skriptet avbryts vid första raden. Du kan öppna en [felsökningssession][4] på fliken **Felsökningssessioner**. |
+| Spåra skript | Används för att starta en [spårning av skriptet eller makrot][5]. |
 
 ## Flikar
 

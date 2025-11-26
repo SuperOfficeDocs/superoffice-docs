@@ -80,13 +80,13 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 
 **Options:**
 
-| Icon | Option | Description |
-|---|---|---|
-| | Macros and scripts | Used to return to the list of the scripts and macros. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Edit script | Used to edit the [script or macro][8]. |
-| <i class="ph ph-play" aria-label="Play"></i> | Run script | Used to run the script or macro in standard mode. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][4] from the **Debug sessions** tab. |
-| | Trace script | Used to start [tracing the script or macro][5]. |
+| Button | Description |
+|---|---|
+| Macros and scripts | Used to return to the list of the scripts and macros. |
+| Edit script | Used to edit the [script or macro][8]. |
+| Run script | Used to run the script or macro in standard mode. |
+| Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][4] from the **Debug sessions** tab. |
+| Trace script | Used to start [tracing the script or macro][5]. |
 
 ## Related content
 

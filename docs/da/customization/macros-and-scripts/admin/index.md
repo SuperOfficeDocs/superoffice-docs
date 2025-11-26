@@ -80,13 +80,13 @@ Når du klikker på et script eller en makro i fanen **Makro**, åbnes skærmbil
 
 **Muligheder:**
 
-| Ikon | Mulighed | Beskrivelse |
-|---|---|---|
-| | Makroer og script | bruges til at vende tilbage til listen over script og makroer. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Rediger script | Bruges til at redigere scriptet eller makroen. |
-| <i class="ph ph-play" aria-label="Play"></i> | Kør script | Klik her for at køre scriptet eller makroen i standardtilstand. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Fejlfind script | Bruges til at åbne skærmbilledet **Fejlfinding** og køre det valgte script eller makro i fejlfindingstilstand. Scriptet stopper ved første linje. Du kan åbne en [fejlfindingssession][4] fra fanen **Fejlfindingssessioner**. |
-| | Spor script | Bruges til at starte [sporing af scriptet eller makroen][5]. |
+| Knap | Beskrivelse |
+|---|---|
+| Makroer og script | bruges til at vende tilbage til listen over script og makroer. |
+| Rediger script | Bruges til at redigere scriptet eller makroen. |
+| Kør script | Klik her for at køre scriptet eller makroen i standardtilstand. |
+| Fejlfind script | Bruges til at åbne skærmbilledet **Fejlfinding** og køre det valgte script eller makro i fejlfindingstilstand. Scriptet stopper ved første linje. Du kan åbne en [fejlfindingssession][4] fra fanen **Fejlfindingssessioner**. |
+| Spor script | Bruges til at starte [sporing af scriptet eller makroen][5]. |
 
 ## Faner
 

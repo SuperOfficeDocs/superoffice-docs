@@ -80,13 +80,13 @@ Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpn
 
 **Alternativer:**
 
-| Ikon | Alternativ | Beskrivelse |
-|---|---|---|
-| | Makroer og skript | Brukes til å gå tilbake til listen over skript og makroer. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Rediger skript | Brukes til å redigere skriptet eller makroen. |
-| <i class="ph ph-play" aria-label="Play"></i> | Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][4] fra fanen **Feilsøkingssesjoner**. |
-| | Spor skript | Brukes til å begynne å [spore skriptet eller makroen][5]. |
+| Knapp | Beskrivelse |
+|---|---|
+| Makroer og skript | Brukes til å gå tilbake til listen over skript og makroer. |
+| Rediger skript | Brukes til å redigere skriptet eller makroen. |
+| Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
+| Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][4] fra fanen **Feilsøkingssesjoner**. |
+| Spor skript | Brukes til å begynne å [spore skriptet eller makroen][5]. |
 
 ## Faner
 

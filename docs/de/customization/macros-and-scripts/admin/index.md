@@ -80,13 +80,13 @@ Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro 
 
 **Optionen:**
 
-| Symbol | Option | Beschreibung |
-|---|---|---|
-| | Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Skript bearbeiten | Wird verwendet, um das Skript oder Makro zu bearbeiten. |
-| <i class="ph ph-play" aria-label="Play"></i> | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][4] über die Registerkarte **Sitzungen debuggen** öffnen. |
-| | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][5] zu starten. |
+| Schaltfläche | Beschreibung |
+|---|---|
+| Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
+| Skript bearbeiten | Wird verwendet, um das Skript oder Makro zu bearbeiten. |
+| Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
+| Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][4] über die Registerkarte **Sitzungen debuggen** öffnen. |
+| Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][5] zu starten. |
 
 ## Registerkarten
 

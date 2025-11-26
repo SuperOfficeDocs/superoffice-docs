@@ -80,13 +80,13 @@ Wanneer u op het tabblad **Macro's en scripts** klikt op een script of macro, wo
 
 **Opties:**
 
-| Pictogram | Optie | Beschrijving |
-|---|---|---|
-| | Macro's en scripts | Wordt gebruikt om terug te keren naar de lijst met scripts en macro's. |
-| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Script bewerken | Wordt gebruikt om het script of de macro te bewerken. |
-| <i class="ph ph-play" aria-label="Play"></i> | Script uitvoeren | Wordt gebruikt om het script of de macro uit te voeren in de standaardmodus. |
-| <i class="ph ph-bug" aria-label="Bug"></i> | Fouten opsporen in script | Wordt gebruikt om het scherm **Foutopsporing** te openen en het geselecteerde script of de geselecteerde macro uit te voeren in de foutopsporingsmodus . Het script stopt bij de eerste regel. U kunt een [foutopsporingssessie][4] openen vanaf het tabblad **Foutopsporingssessies**. |
-| | Script traceren | Wordt gebruikt om [het script of de macro te traceren][5]. |
+| Knop | Beschrijving |
+|---|---|
+| Macro's en scripts | Wordt gebruikt om terug te keren naar de lijst met scripts en macro's. |
+| Script bewerken | Wordt gebruikt om het script of de macro te bewerken. |
+| Script uitvoeren | Wordt gebruikt om het script of de macro uit te voeren in de standaardmodus. |
+| Fouten opsporen in script | Wordt gebruikt om het scherm **Foutopsporing** te openen en het geselecteerde script of de geselecteerde macro uit te voeren in de foutopsporingsmodus . Het script stopt bij de eerste regel. U kunt een [foutopsporingssessie][4] openen vanaf het tabblad **Foutopsporingssessies**. |
+| Script traceren | Wordt gebruikt om [het script of de macro te traceren][5]. |
 
 ## Tabbladen
 
