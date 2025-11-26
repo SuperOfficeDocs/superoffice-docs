@@ -15,8 +15,6 @@ items:
       href: create-script.md
     - name: Ein Makro erstellen
       href: create-macro.md
-    - name: Eigenschaften des Makro-/Skriptordners
-      href: create-folder.md
   - name: Auslöser
     href: trigger.md
   - name: Geplante Aufgaben

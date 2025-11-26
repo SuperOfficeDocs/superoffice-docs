@@ -15,8 +15,6 @@ items:
       href: create-script.md
     - name: Een macro maken
       href: create-macro.md
-    - name: Eigenschappen mappen met macro/script
-      href: create-folder.md
   - name: Triggers
     href: trigger.md
   - name: Geplande taken

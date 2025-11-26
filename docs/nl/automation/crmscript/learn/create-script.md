@@ -7,9 +7,13 @@ date: 03.23.2023
 keywords: script, macro
 content_type: howto
 language: nl
+redirect_from:
+  - /nl/automation/crmscript/learn/create-folder
 ---
 
 # Een script maken of bewerken
+
+## Steps
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -34,7 +38,36 @@ language: nl
 
 1. Klik op **OK**.
 
-## Aanverwant
+## <a id="folder"></a>Eigenschappen mappen met macro/script
+
+Script- en macromappen worden gebruikt voor het ordenen van uw aangepaste scripts en macro's.
+
+### Map maken
+
+1. Klik op <i class="ph ph-folder" aria-hidden="true"></i> **Nieuwe map** boven in het scherm.
+2. Selecteer in het veld **Map** een bovenliggende map in de lijst.
+3. Voer in het veld **Naam** een beschrijvende naam in voor de map.
+4. Klik op **OK**. De nieuwe map wordt gemaakt.
+
+### Map bewerken
+
+U kunt zowel de naam van een map wijzigen als de gegevens die u bij het maken ervan hebt opgegeven.
+
+1. Ga naar de gewenste map.
+2. Klik op de naam van de map.
+3. De velden wijzigen.
+4. Klik op **OK**. De wijzigingen worden opgeslagen.
+
+### Map verwijderen
+
+Wanneer u een map verwijdert, wordt ook alle inhoud (zoals selecties, items in Veelgestelde vragen, antwoordsjablonen, tabellen, scripts, macro's) verwijderd uit SuperOffice.
+
+1. Ga naar de gewenste map.
+2. Klik op de naam van de map.
+3. Klik op **Verwijd.**.
+4. Klik ter bevestiging op **OK**. De map en de inhoud ervan worden verwijderd uit SuperOffice.
+
+## Gerelateerde inhoud
 
 * [Info CRMScript][1]
 

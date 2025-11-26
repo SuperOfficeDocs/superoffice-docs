@@ -15,8 +15,6 @@ items:
       href: create-script.md
     - name: Opret en makro
       href: create-macro.md
-    - name: Egenskaber for makro-/scriptmappe
-      href: create-folder.md
   - name: Udløsere
     href: trigger.md
   - name: Planlagte opgaver

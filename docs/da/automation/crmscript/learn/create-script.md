@@ -7,9 +7,13 @@ date: 03.23.2023
 keywords: script, makro
 content_type: howto
 language: da
+redirect_from:
+  - /da/automation/crmscript/learn/create-folder
 ---
 
 # Opret eller rediger et script
+
+## Steps
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -34,7 +38,36 @@ language: da
 
 1. Klik på **OK**.
 
-## Tilknyttet
+## <a id="folder"></a>Makro/scriptmappe-egenskaber
+
+Script- og makromapper bruges til at organisere dine brugerdefinerede scripts og makroer.
+
+### Oprettelse af mappe
+
+1. Klik på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mappe** øverst på skærmen.
+2. I feltet **Mappe** vælger du en overordnet mappe på listen.
+3. Angiv et beskrivende navn på mappen i feltet **Navn**.
+4. Klik på **OK**. Den nye mappe oprettes.
+
+### Redigering af mappe
+
+Du kan både ændre navnet på en mappe og de oplysninger, du angav, da du oprettede den.
+
+1. Gå til den ønskede mappe.
+2. Klik på selve mappenavnet.
+3. Rediger felterne.
+4. Klik på **OK**. Ændringerne gemmes.
+
+### Sletning af mappe
+
+Når du sletter en mappe, slettes alt dens indhold (såsom valg, FAQ-poster, svarskabeloner, tabeller, script og makroer.) også fra SuperOffice Service.
+
+1. Gå til den ønskede mappe.
+2. Klik på selve mappenavnet.
+3. Klik på **Slet**.
+4. Klik på **OK** for at bekræfte. Mappen og indholdet i den fjernes fra SuperOffice.
+
+## Relateret indhold
 
 * [Om CRMScript][1]
 

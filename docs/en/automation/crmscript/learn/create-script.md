@@ -7,9 +7,13 @@ date: 03.23.2023
 keywords: script, macro
 content_type: howto
 language: en
+redirect_from:
+  - /en/automation/crmscript/learn/create-folder
 ---
 
 # Create or edit a script
+
+## Steps
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -34,7 +38,36 @@ language: en
 
 1. Click **OK**.
 
-## Related
+## <a id="folder"></a>Macro/script folder properties
+
+Script and macro folders are used to organize your custom scripts and macros.
+
+### Create folder
+
+1. Click <i class="ph ph-folder" aria-hidden="true"></i> **New folder** at the top of the screen.
+2. In the **Folder** field, select a parent folder in the list.
+3. Enter a descriptive name for the folder in the **Name** field.
+4. Click **OK**. The new folder is created.
+
+### Edit folder
+
+You can edit both the name of a folder and the details you entered when creating it.
+
+1. Go to the required folder.
+2. Click the name of the folder.
+3. Amend the fields.
+4. Click **OK**. The changes are saved.
+
+### Delete folder
+
+When you delete a folder, all its contents (such as selections, FAQ entries, reply templates, tables, scripts, and macros) are also deleted from SuperOffice.
+
+1. Go to the required folder.
+2. Click the name of the folder.
+3. Click **Delete**.
+4. Click **OK** to confirm. The folder and its contents are removed from SuperOffice.
+
+## Related content
 
 * [About CRMScript][1]
 

@@ -15,8 +15,6 @@ items:
       href: create-script.md
     - name: Create a macro
       href: create-macro.md
-    - name: Macro/script folder properties
-      href: create-folder.md
   - name: Triggers
     href: trigger.md
   - name: Scheduled tasks
