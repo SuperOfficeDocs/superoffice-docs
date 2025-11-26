@@ -106,6 +106,7 @@ Before you can do much else, your app needs a digital identity. That's where app
    * A **Client ID** (your app's ID)
    * A **Client Secret** (your app's password)
 
+> [!NOTE]
 > Make sure your redirect URLs match your actual hosted URLs—every detail counts!
 
 Once registered, your app is ready for coding towards your **SOD tenant**.
@@ -264,7 +265,7 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [15]: ../web-services/endpoints/rest-webapi/index.md
 [16]: ../web-services/endpoints/soap/index.md
 [17]: ../../developer-portal/create-app/config/redirects.md
-[18]:https://community.superoffice.com/en/forums
+[18]: https://community.superoffice.com/en/forums
 [19]: https://appstore.superoffice.com
 [20]: ../../developer-portal/tenants/index.md
 [21]: ../../developer-portal/best-practices/index.md

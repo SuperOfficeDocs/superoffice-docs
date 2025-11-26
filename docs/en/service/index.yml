@@ -13,7 +13,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 11.26.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -25,12 +25,12 @@ highlightedContent:
     - title: "Service set-up guide (onsite)"
       itemType: list
       typeDesc: how-to-guide
-      url: install/index.md
+      url: ../onsite/install/service/index.md
     # Card
     - title: "Upgrade (onsite)"
       itemType: list
       typeDesc: how-to-guide
-      url: upgrade/index.md
+      url: ../onsite/upgrade/service/index.md
     # Card
     - title: "Migrate"
       itemType: list
@@ -42,7 +42,7 @@ highlightedContent:
       typeDesc: overview
       url: ../customer-center/index.yml
     # Card
-    - title: "CRMScript Overview"
+    - title: "CRMScript overview"
       itemType: map
       typeDesc: overview
       url: ../automation/crmscript/index.yml
@@ -149,41 +149,17 @@ conceptualContent:
         typeDesc: reference
         url: ../onsite/automated-tasks/upgrade.md
     # Card
-    - title: SMS plugins
+    - title: SMS connectors
       summary: ""
       links:
       - url: ../marketing/sms/it/index.md
         itemType: explore
         typeDesc: concept
         text: Intro
-      - url: ../marketing/sms/it/cm.md
+      - url: ../marketing/sms/it/set-up.md
         itemType: list
         typeDesc: how-to-guide
-        text: CM
-      - url: ../marketing/sms/it/compaya.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Compaya
-      - url: ../marketing/sms/it/intelecom.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Intelecom
-      - url: ../marketing/sms/it/linkmobility.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Link Mobility
-      - url: ../marketing/sms/it/smsteknik.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: SMSTeknik
-      - url: ../marketing/sms/it/twilio.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Twilio
-      - url: ../marketing/sms/it/txtlocal.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: TxtLocal
+        text: Set-up a connector
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
@@ -202,16 +178,11 @@ additionalContent:
         - url: ../marketing/forms/learn/recaptcha.md
           text: Google reCaptcha in forms
       # Card
-      - title: Reports
-        links:
-        - url: reports/parameters.md
-          text: Parameters
-      # Card
       - title: More
         links:
         - text: Service and Marketing mail
           url: ../email/service/index.md
         - text: Service log files
-          url: log-files.md
+          url: ../onsite/debug/service-log-files.md
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://docs.superoffice.com/contribute)."

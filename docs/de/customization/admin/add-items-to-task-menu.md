@@ -59,8 +59,8 @@ Wenn Sie eine URL-Adresse hinzufügen, könnte es nützlich sein, Vorlagenvariab
 [1]: ../web-panels/admin/add-web-panel.md
 [3]: ../../admin/lists/specialized-lists.md
 [4]: ../web-panels/admin/url-encoding.md
-[5]: ../../../automation/crmscript/learn/index.md
-[6]: ../../../../en/ui/soprotocol/index.md
-[7]: ../../../localization/learn/translate-fields.md
+[5]: ../../automation/crmscript/learn/index.md
+[6]: ../../../en/customization/soprotocol/index.md
+[7]: ../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->
