@@ -11,6 +11,7 @@ audience_tooltip: Settings and maintenance
 language: de
 redirect_from:
   - /de/automation/crmscript/learn/macro-script
+  - /de/automation/crmscript/learn/screen/
 ---
 
 # CRMScript
@@ -27,7 +28,7 @@ Auslöser sind Skripts, die bei bestimmten Ereignissen im System ausgeführt wer
 
 ## Makros und Skripts
 
-Auf der Registerkarte **Makros und Skripte** auf **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es [anzeigen, bearbeiten oder ausführen][1] können.
+Auf der Registerkarte **Makros und Skripte** auf **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es anzeigen, bearbeiten oder ausführen können.
 
 ### Über Makros
 
@@ -51,6 +52,37 @@ Ein Makro ist eine Reihe vordefinierter Aktionen, die in einem bestimmten Ordner
 
 Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt werden. Zum Schreiben eines Skripts sind Programmierkenntnisse erforderlich.
 
+### Registerkarte Makros und Skripte
+
+So wechseln Sie zur Registerkarte **Makros und Skripts**:
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Klicken Sie auf **CRMScript** und wählen Sie die Registerkarte **Makros und Skripts** aus.
+
+Diese Ansicht enthält die folgenden Optionen:
+
+| Option | Beschreibung |
+|---|---|
+| Neues Skript | Wird verwendet, damit Sie ein [neues Skript erstellen][8] können. |
+| Neues Makro | Wird verwendet, damit Sie ein [neues Makro erstellen][9] können. |
+| Neuer Ordner | Wird verwendet, damit Sie einen [neuen Ordner erstellen][10] können. |
+| Suche | Wird verwendet, um nach Makros und Skripten im ausgewählten Ordner und in Unterordnern zu suchen. |
+
+#### Skript-Anzeige
+
+Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro klicken, wird die Ansicht **Skript** geöffnet. Zusätzlich zu den Informationen oben in der Ansicht finden Sie weitere Details zum Skript auf den Registerkarten **Beschreibung** und **Skript**.
+
+**Optionen:**
+
+| Symbol | Option | Beschreibung |
+|---|---|---|
+| | Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Skript bearbeiten | Wird verwendet, um das Skript oder Makro zu bearbeiten. |
+| <i class="ph ph-play" aria-label="Play"></i> | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][4] über die Registerkarte **Sitzungen debuggen** öffnen. |
+| | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][5] zu starten. |
+
 ## Registerkarten
 
 * [Makros und Skripts][8] – Hier können Sie Makros und Skripts zur Automatisierung und zeitgesteuerten Ausführung von Aufgaben in SuperOffice erstellen.
@@ -61,7 +93,6 @@ Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt we
 
 ## Verwandte Inhalte
 
-* [Ein Skript/Makro anzeigen][1]
 * [Ein Skript erstellen][8]
 * [Ein Makro erstellen][9]
 * [Ordner erstellen][10]
@@ -69,7 +100,6 @@ Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt we
 * [CRMScript-API-Referenz][7]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md

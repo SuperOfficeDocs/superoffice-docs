@@ -11,6 +11,7 @@ audience_tooltip: Settings and maintenance
 language: en
 redirect_from:
   - /en/automation/crmscript/learn/macro-script
+  - /en/automation/crmscript/learn/screen/
 ---
 
 # CRMScript
@@ -27,7 +28,7 @@ Triggers are scripts that are executed for specific events in the system, such a
 
 ## Macros and scripts
 
-In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to [view, edit or run it][1].
+In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it.
 
 ### About macros
 
@@ -51,6 +52,31 @@ A macro is a set of predefined actions executed in a specific order, and require
 
 A script is a small program written to perform specific tasks, and requires programming skills to set up.
 
+### Macros and scripts tab
+
+This screen has following options:
+
+| Option | Description |
+|---|---|
+| New script | Used to [create a new script][8]. |
+| New macro | Used to [create a new macro][9]. |
+| New folder | Used to [create a new folder][10]. |
+| Search | Used to search for macros and scripts in the selected folder and sub-folders. |
+
+#### Script screen
+
+When you click a script or macro in the **Macros and scripts** tab, the **Script** screen opens. In addition to the information in the top part of the screen, you can find more script details in the **Description** and **Script** tabs.
+
+**Options:**
+
+| Icon | Option | Description |
+|---|---|---|
+| | Macros and scripts | Used to return to the list of the scripts and macros. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Edit script | Used to edit the [script or macro][8]. |
+| <i class="ph ph-play" aria-label="Play"></i> | Run script | Used to run the script or macro in standard mode. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][4] from the **Debug sessions** tab. |
+| | Trace script | Used to start [tracing the script or macro][5]. |
+
 ## Tabs
 
 * [Macros and scripts][8] - Create macros and scripts to automate and schedule tasks in SuperOffice.
@@ -61,7 +87,6 @@ A script is a small program written to perform specific tasks, and requires prog
 
 ## Related content
 
-* [View a script/macro][1]
 * [Create a script][8]
 * [Create a macro][9]
 * [Create folder][10]
@@ -69,7 +94,6 @@ A script is a small program written to perform specific tasks, and requires prog
 * [CRMScript API reference][7]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md

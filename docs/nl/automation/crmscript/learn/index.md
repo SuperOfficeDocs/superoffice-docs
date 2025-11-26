@@ -11,6 +11,7 @@ audience_tooltip: Settings and maintenance
 language: nl
 redirect_from:
   - /nl/automation/crmscript/learn/macro-script
+  - /nl/automation/crmscript/learn/screen/
 ---
 
 # CRMScript
@@ -27,7 +28,7 @@ Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in he
 
 ## Macro's en scripts
 
-Op het tabblad **Macro's en scripts** op **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor [weergave, bewerking of uitvoering][1].
+Op het tabblad **Macro's en scripts** op **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor weergave, bewerking of uitvoering.
 
 ### Over macro's
 
@@ -51,6 +52,37 @@ Een macro is een set van vooraf gedefinieerde acties uitgevoerd in een specifiek
 
 Een script is een klein programma geschreven om specifieke taken uit te voeren; het instellen vereist programmeerkennis.
 
+### Tabblad Macro's en scripts
+
+Ga als volgt naar het tabblad **Macro's en scripts**:
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Klik op **CRMScript** en selecteer het tabblad **Macro's en scripts** .
+
+Dit scherm biedt de volgende opties:
+
+| Optie | Beschrijving |
+|---|---|
+| Nieuw script | Wordt gebruikt om [een nieuw script te maken][8]. |
+| Nieuwe macro | Wordt gebruikt om [een nieuwe macro te maken][9]. |
+| Nieuwe map | Wordt gebruikt om [een nieuwe map te maken][10]. |
+| Zoeken | Wordt gebruikt om te zoeken naar macro's en scripts in de geselecteerde map en submappen. |
+
+#### Scriptscherm
+
+Wanneer u op het tabblad **Macro's en scripts** klikt op een script of macro, wordt het scherm **Script** geopend. In aanvulling op de informatie in het bovenste deel van het scherm kunt u meer details over het script vinden op de tabbladen **Beschrijving** en **Script**.
+
+**Opties:**
+
+| Pictogram | Optie | Beschrijving |
+|---|---|---|
+| | Macro's en scripts | Wordt gebruikt om terug te keren naar de lijst met scripts en macro's. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Script bewerken | Wordt gebruikt om het script of de macro te bewerken. |
+| <i class="ph ph-play" aria-label="Play"></i> | Script uitvoeren | Wordt gebruikt om het script of de macro uit te voeren in de standaardmodus. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Fouten opsporen in script | Wordt gebruikt om het scherm **Foutopsporing** te openen en het geselecteerde script of de geselecteerde macro uit te voeren in de foutopsporingsmodus . Het script stopt bij de eerste regel. U kunt een [foutopsporingssessie][4] openen vanaf het tabblad **Foutopsporingssessies**. |
+| | Script traceren | Wordt gebruikt om [het script of de macro te traceren][5]. |
+
 ## Tabbladen
 
 * [Macro's en scripts][8] - Maak macro's en scripts om taken in SuperOffice te automatiseren en te plannen.
@@ -61,7 +93,6 @@ Een script is een klein programma geschreven om specifieke taken uit te voeren; 
 
 ## Gerelateerde inhoud
 
-* [Een script/macro weergeven][1]
 * [Een script maken][8]
 * [Een macro maken][9]
 * [Map maken][10]
@@ -69,7 +100,6 @@ Een script is een klein programma geschreven om specifieke taken uit te voeren; 
 * [CRMScript API-referentie][7]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md

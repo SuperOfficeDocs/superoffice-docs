@@ -12,6 +12,7 @@ audience_tooltip: Settings and maintenance
 language: no
 redirect_from:
   - /no/automation/crmscript/learn/macro-script
+  - /no/automation/crmscript/learn/screen/
 ---
 
 # CRMScript
@@ -28,7 +29,7 @@ Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel n
 
 ## Makroer og skript
 
-I fanen **Makroer og skript** for **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å [vise, redigere eller kjøre det/den][1].
+I fanen **Makroer og skript** for **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å vise, redigere eller kjøre det/den.
 
 ### Om makroer
 
@@ -52,6 +53,37 @@ En makro er et sett med forhåndsdefinerte handlinger som kjøres i en bestemt r
 
 Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og som krever programmeringsferdigheter.
 
+### Makroer og skript-fanen
+
+Slik går du til fanen **Makroer og skript**:
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Klikk på **CRMScript**, og velg deretter **kategorien Makroer og skript** .
+
+Dette bildet har følgende alternativer:
+
+| Alternativ | Beskrivelse |
+|---|---|
+| Nytt skript | Brukes til å [opprette et nytt skript][8]. |
+| Ny makro | Brukes til å [opprette en ny makro][9]. |
+| Ny mappe | Brukes til å [opprette en ny mappe][10]. |
+| Søk | Brukes til å søke etter makroer og skript i den valgte mappen og undermappene. |
+
+#### Skript-bildet
+
+Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpnes bildet **Skript**. I tillegg til informasjonen i øvre del av bildet kan du finne flere skriptdetaljer i fanen **Beskrivelse** og **Skript**.
+
+**Alternativer:**
+
+| Ikon | Alternativ | Beskrivelse |
+|---|---|---|
+| | Makroer og skript | Brukes til å gå tilbake til listen over skript og makroer. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Rediger skript | Brukes til å redigere skriptet eller makroen. |
+| <i class="ph ph-play" aria-label="Play"></i> | Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][4] fra fanen **Feilsøkingssesjoner**. |
+| | Spor skript | Brukes til å begynne å [spore skriptet eller makroen][5]. |
+
 ## Faner
 
 * [Makroer og skript][8] – Opprett makroer og skript for å automatisere og planlegge oppgaver i SuperOffice.
@@ -62,7 +94,6 @@ Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og
 
 ## Relatert innhold
 
-* [Vise skript/makro][1]
 * [Opprette et skript][8]
 * [Opprette en makro][9]
 * [Opprette mappe][10]
@@ -70,7 +101,6 @@ Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og
 * [CRMScript API-referanse][7]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md

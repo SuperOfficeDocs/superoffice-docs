@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Fanen Makroer og skript
-  href: screen/index.md
 - name: Triggere
   href: trigger.md
 - name: Planlagte oppgaver

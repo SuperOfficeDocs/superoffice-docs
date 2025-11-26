@@ -1,8 +1,6 @@
 items:
-- name: Überblick
+- name: Übersicht
   href: index.md
-- name: Registerkarte Makros und Skripte
-  href: screen/index.md
 - name: Auslöser
   href: trigger.md
 - name: Geplante Aufgaben

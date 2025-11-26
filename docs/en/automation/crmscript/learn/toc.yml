@@ -1,8 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Macros and script tab
-  href: screen/index.md
 - name: Triggers
   href: trigger.md
 - name: Scheduled tasks

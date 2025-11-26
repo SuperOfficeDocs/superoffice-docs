@@ -11,6 +11,7 @@ audience_tooltip: Settings and maintenance
 language: da
 redirect_from:
   - /da/automation/crmscript/learn/macro-script
+  - /da/automation/crmscript/learn/screen/
 ---
 
 # CRMScript
@@ -27,7 +28,7 @@ Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. n�
 
 ## Makroer og script
 
-På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at [vise, redigere eller køre den][1].
+På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at vise, redigere eller køre den.
 
 ### Om makroer
 
@@ -51,6 +52,37 @@ En makro er et sæt af foruddefinerede handlinger, som udføres i en bestemt ræ
 
 Et script er et lille program, der er skrevet til at udføre bestemte opgaver, og som kræver programmeringsviden i forbindelse med opsætningen.
 
+### Fanen makroer og scripts
+
+Sådan går du til fanen **Makroer og script**:
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Klik på **CRMScript**, og vælg fanen **Makroer og scripts**.
+
+Dette skærmbillede har følgende valgmuligheder:
+
+| Mulighed | Beskrivelse |
+|---|---|
+| Nyt script | Bruges til at [oprette et nyt script][8]. |
+| Ny makro | Bruges til at [oprette en ny makro][9]. |
+| Ny mappe | Bruges til at [oprette en ny mappe][10]. |
+| Søg | Bruges til at søge efter makroer og scripts i den valgte mappe og undermapper. |
+
+#### Skærmbilledet Script
+
+Når du klikker på et script eller en makro i fanen **Makro**, åbnes skærmbilledet **Script**. Ud over informationen i den øverste del af skærmen kan du finde flere scriptoplysninger i fanerne **Beskrivelse** og **Script**.
+
+**Muligheder:**
+
+| Ikon | Mulighed | Beskrivelse |
+|---|---|---|
+| | Makroer og script | bruges til at vende tilbage til listen over script og makroer. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Rediger script | Bruges til at redigere scriptet eller makroen. |
+| <i class="ph ph-play" aria-label="Play"></i> | Kør script | Klik her for at køre scriptet eller makroen i standardtilstand. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Fejlfind script | Bruges til at åbne skærmbilledet **Fejlfinding** og køre det valgte script eller makro i fejlfindingstilstand. Scriptet stopper ved første linje. Du kan åbne en [fejlfindingssession][4] fra fanen **Fejlfindingssessioner**. |
+| | Spor script | Bruges til at starte [sporing af scriptet eller makroen][5]. |
+
 ## Faner
 
 * [Makroer og script][8] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
@@ -61,7 +93,6 @@ Et script er et lille program, der er skrevet til at udføre bestemte opgaver, o
 
 ## Relateret indhold
 
-* [Visning af script/makro][1]
 * [Opret et script][8]
 * [Oprettelse af makro][9]
 * [Oprettelse af mappe][10]
@@ -69,7 +100,6 @@ Et script er et lille program, der er skrevet til at udføre bestemte opgaver, o
 * [CRMScript API-reference][7]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: trigger.md
 [3]: schedule-task.md
 [4]: debug.md

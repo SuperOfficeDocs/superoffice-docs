@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Fliken Makron och skript
-  href: screen/index.md
 - name: Utlösare
   href: trigger.md
 - name: Planerade uppgifter
