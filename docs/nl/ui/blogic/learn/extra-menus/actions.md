@@ -28,4 +28,4 @@ Toevoegen van een macro aan de knop **Taak** in het scherm Bedrijf, het scherm P
 > U kunt ook een macro toevoegen aan de knop **Taak** wanneer u een [macro maakt of bewerkt][1].
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../customization/macros-and-scripts/admin/create-macro.md

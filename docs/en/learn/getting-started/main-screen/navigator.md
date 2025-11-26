@@ -110,7 +110,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [27]: ../../../admin/import/index.md
 [28]: ../../../custom-objects/learn/udef.md
 
-[41]: ../../../automation/crmscript/learn/index.md
+[41]: ../../../customization/macros-and-scripts/admin/index.md
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore

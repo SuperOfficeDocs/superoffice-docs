@@ -28,4 +28,4 @@ To add a macro to the **Task** button in the Company screen, Contact screen, Req
 > You can also add a macro to the **Task** button when you [create or edit a macro][1].
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../customization/macros-and-scripts/admin/create-macro.md

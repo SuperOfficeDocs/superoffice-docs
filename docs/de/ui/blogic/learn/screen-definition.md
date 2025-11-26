@@ -54,6 +54,6 @@ Viele Elemente enthalten bereits Beispieldaten, um ihre Funktion bei der Ausfüh
 
 <!-- Referenced links -->
 [1]: screen-properties.md
-[5]: ../../../automation/crmscript/learn/create-macro.md
+[5]: ../../../customization/macros-and-scripts/admin/create-macro.md
 
 <!-- Referenced images -->

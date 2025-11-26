@@ -54,6 +54,6 @@ Mange av elementene inneholder prøvedata når de settes inn, for å vise hvorda
 
 <!-- Referenced links -->
 [1]: screen-properties.md
-[5]: ../../../automation/crmscript/learn/create-macro.md
+[5]: ../../../customization/macros-and-scripts/admin/create-macro.md
 
 <!-- Referenced images -->

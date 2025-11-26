@@ -60,19 +60,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Macros and scripts
-          url: ../automation/crmscript/learn/index.md
+          url: macros-and-scripts/admin/index.md
         - text: Create a macro
-          url: ../automation/crmscript/learn/create-macro.md
+          url: macros-and-scripts/admin/create-macro.md
         - text: Create a script
-          url: ../automation/crmscript/learn/create-script.md
-        - text: Debug sessions
+          url: macros-and-scripts/admin/create-script.md
+        - text: Debugging sessions
           url: ../automation/crmscript/debugging/built-in-debugger.md
-        - text: Create a scheduled task
-          url: ../automation/crmscript/learn/schedule-task.md
+        - text: Create scheduled task
+          url: macros-and-scripts/admin/schedule-task.md
         - text: Tracing
           url: ../automation/crmscript/debugging/using-trace.md
         - text: Triggers
-          url: ../automation/crmscript/learn/trigger.md
+          url: macros-and-scripts/admin/trigger.md
 
   # Card
   - title: Web panels
@@ -87,9 +87,9 @@ landingContent:
         - text: URL encoding
           url: web-panels/admin/url-encoding.md
         - text: Pass data with template variables
-          url: ../en/customization/web-panels/dev/index.md#variables
+          url: ../../en/customization/web-panels/dev/index.md#variables
         - text: Create link to
-          url: ../en/customization/web-panels/dev/index.md
+          url: ../../en/customization/web-panels/dev/index.md
 
   # Card
   - title: SOProtocol
@@ -98,17 +98,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Overview
-          url: ../en/customization/soprotocol/index.md
+          url: ../../en/customization/soprotocol/index.md
         - text: Navigation points
-          url: ../en/customization/soprotocol/navigation-points.md
+          url: ../../en/customization/soprotocol/navigation-points.md
         - text: Page control and cache
-          url: ../en/customization/soprotocol/page-control-and-cache.md
+          url: ../../en/customization/soprotocol/page-control-and-cache.md
         - text: In CRMScript
-          url: ../en/customization/soprotocol/in-crmscript.md
+          url: ../../en/customization/soprotocol/in-crmscript.md
         - text: In web panels
-          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+          url: ../../en/customization/soprotocol/used-in-webpanels-web.md
         - text: How to get a contact
-          url: ../en/customization/soprotocol/howto/open-contact.md
+          url: ../../en/customization/soprotocol/howto/open-contact.md
 
   # Card
   - title: Custom screens (Service)

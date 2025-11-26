@@ -59,7 +59,7 @@ Når du legger til en URL-adresse, kan det være nyttig å bruke for eksempel ma
 [1]: ../web-panels/admin/add-web-panel.md
 [3]: ../../admin/lists/specialized-lists.md
 [4]: ../web-panels/admin/url-encoding.md
-[5]: ../../automation/crmscript/learn/index.md
+[5]: ../macros-and-scripts/admin/index.md
 [6]: ../../../en/customization/soprotocol/index.md
 [7]: ../../localization/learn/translate-fields.md
 

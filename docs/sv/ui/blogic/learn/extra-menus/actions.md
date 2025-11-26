@@ -28,4 +28,4 @@ För att lägga till ett makro i knappen **Uppgift** i fönstret Företag, Konta
 > Du kan också lägga till ett makro till knappen **Uppgift** när du [skapar eller redigerar ett makro][1].
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../customization/macros-and-scripts/admin/create-macro.md

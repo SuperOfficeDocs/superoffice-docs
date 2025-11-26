@@ -64,6 +64,6 @@ language: de
 1. Klicken Sie auf **OK**. Der E-Mail-Filter wird erstellt.
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/index.md
+[1]: ../../../../customization/macros-and-scripts/admin/index.md
 [2]: ../../../../knowledge-base/learn/reply-templates/index.md
 [3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

@@ -252,7 +252,7 @@ Een [linkactie][7] kan:
 [17]: ../../../request/admin/priority/index.md
 [18]: ../../../sale/learn/create.md
 [19]: ../../../custom-objects/learn/extra-field.md
-[20]: ../../../automation/crmscript/learn/create-script.md
+[20]: ../../../customization/macros-and-scripts/admin/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png

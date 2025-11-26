@@ -28,4 +28,4 @@ Um ein Makro zur Schaltfläche **Aufgabe** in der Ansicht Firma, Person, Anfrage
 > Sie können auch zur Schaltfläche **Aufgabe** ein Makro hinzufügen, wenn Sie ein [Makro erstellen oder bearbeiten][1] möchten.
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../customization/macros-and-scripts/admin/create-macro.md

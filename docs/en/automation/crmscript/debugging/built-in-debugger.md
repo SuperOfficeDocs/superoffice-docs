@@ -73,4 +73,4 @@ If the script is run from another browser (where the ID is different or not set)
 * [Tracing scripts][2]
 
 <!-- Referenced links -->
-[2]: tracing.md
+[2]: using-trace.md

@@ -110,7 +110,7 @@ Hvis du holder musemarkøren over en post i en af listerne, vises en værktøjst
 [27]: ../../../admin/import/index.md
 [28]: ../../../custom-objects/learn/udef.md
 
-[41]: ../../../automation/crmscript/learn/index.md
+[41]: ../../../customization/macros-and-scripts/admin/index.md
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore

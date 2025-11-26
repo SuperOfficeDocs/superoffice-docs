@@ -60,19 +60,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Makron och skript
-          url: ../automation/crmscript/learn/index.md
-        - text: Skapa ett makro
-          url: ../automation/crmscript/learn/create-macro.md
-        - text: Skapa ett skript
-          url: ../automation/crmscript/learn/create-script.md
+          url: macros-and-scripts/admin/index.md
+        - text: Skapa makro
+          url: macros-and-scripts/admin/create-macro.md
+        - text: Skapa skript
+          url: macros-and-scripts/admin/create-script.md
         - text: Felsökningssessioner
           url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Skapa en planerad uppgift
-          url: ../automation/crmscript/learn/schedule-task.md
+          url: macros-and-scripts/admin/schedule-task.md
         - text: Spårning
           url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Utlösare
-          url: ../automation/crmscript/learn/trigger.md
+          url: macros-and-scripts/admin/trigger.md
 
   # Card
   - title: Webbpaneler
@@ -87,9 +87,9 @@ landingContent:
         - text: URL-kodning
           url: web-panels/admin/url-encoding.md
         - text: Skicka data med mallvariabler
-          url: ../en/customization/web-panels/dev/index.md#variables
+          url: ../../en/customization/web-panels/dev/index.md#variables
         - text: Skapa länk till
-          url: ../en/customization/web-panels/dev/index.md
+          url: ../../en/customization/web-panels/dev/index.md
 
   # Card
   - title: SOProtocol
@@ -98,17 +98,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Intro
-          url: ../en/customization/soprotocol/index.md
+          url: ../../en/customization/soprotocol/index.md
         - text: Navigeringspunkter
-          url: ../en/customization/soprotocol/navigation-points.md
+          url: ../../en/customization/soprotocol/navigation-points.md
         - text: Sidkontroll och cache
-          url: ../en/customization/soprotocol/page-control-and-cache.md
+          url: ../../en/customization/soprotocol/page-control-and-cache.md
         - text: I CRMScript
-          url: ../en/customization/soprotocol/in-crmscript.md
+          url: ../../en/customization/soprotocol/in-crmscript.md
         - text: I webbpaneler
-          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+          url: ../../en/customization/soprotocol/used-in-webpanels-web.md
         - text: Hur man får en kontakt
-          url: ../en/customization/soprotocol/howto/open-contact.md
+          url: ../../en/customization/soprotocol/howto/open-contact.md
 
   # Card
   - title: Anpassade skärmar (Service)
