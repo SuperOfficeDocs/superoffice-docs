@@ -1,7 +1,0 @@
-items:
-- name: Oversikt
-  href: index.md
-- name: Triggere
-  href: trigger.md
-- name: Planlagte oppgaver
-  href: schedule-task.md

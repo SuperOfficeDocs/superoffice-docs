@@ -1,7 +1,0 @@
-items:
-- name: Översikt
-  href: index.md
-- name: Utlösare
-  href: trigger.md
-- name: Planerade uppgifter
-  href: schedule-task.md

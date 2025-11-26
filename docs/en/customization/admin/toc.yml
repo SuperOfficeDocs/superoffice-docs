@@ -7,9 +7,9 @@ items:
 - name: Web panels
   href: ../web-panels/admin/toc.yml
   topicHref: ../web-panels/admin/index.md
-- name: CRMScript
-  href: ../../automation/crmscript/learn/toc.yml
-  topicHref: ../../automation/crmscript/learn/index.md
+- name: Macros and scripts
+  href: macros-and-scripts/toc.yml
+  topicHref: macros-and-scripts/index.md
 - name: Email
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md

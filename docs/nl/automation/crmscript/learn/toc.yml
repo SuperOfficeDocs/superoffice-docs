@@ -1,7 +1,0 @@
-items:
-- name: Overzicht
-  href: index.md
-- name: Triggers
-  href: trigger.md
-- name: Geplande taken
-  href: schedule-task.md

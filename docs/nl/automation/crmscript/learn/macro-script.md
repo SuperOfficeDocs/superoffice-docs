@@ -1,3 +1,3 @@
----
-redirect_url: https://docs.superoffice.com/nl/customization/admin/macros-and-scripts/index.html
+﻿---
+redirect_url: https://docs.superoffice.com/nl/customization/macros-and-scripts/admin/index.html
 ---

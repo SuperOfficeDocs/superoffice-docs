@@ -1,0 +1,11 @@
+﻿items:
+- name: Introduction
+  href: index.md
+- name: Create a script
+  href: create-script.md
+- name: Create a macro
+  href: create-macro.md
+- name: Triggers
+  href: trigger.md
+- name: Scheduled tasks
+  href: schedule-task.md

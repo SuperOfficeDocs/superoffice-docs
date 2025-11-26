@@ -1,7 +1,0 @@
-items:
-- name: Übersicht
-  href: index.md
-- name: Auslöser
-  href: trigger.md
-- name: Geplante Aufgaben
-  href: schedule-task.md

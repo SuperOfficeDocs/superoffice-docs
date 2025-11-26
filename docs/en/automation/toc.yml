@@ -117,5 +117,4 @@ items:
   - name: Win script and event system
     href: windows/win-script-event-system.md
   - name: Zapier
-
     topicHref: ../../../integrations/zapier/index.md

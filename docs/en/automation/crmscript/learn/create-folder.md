@@ -1,3 +1,3 @@
----
-redirect_url: https://docs.superoffice.com/en/customization/admin/macros-and-scripts/create-script.html#folder
+﻿---
+redirect_url: https://docs.superoffice.com/en/customization/macros-and-scripts/admin/create-script.html#folder
 ---
