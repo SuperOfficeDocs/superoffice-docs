@@ -2,17 +2,21 @@
 uid: help-sv-crmscript
 title: CRMScript
 description: Med funktionen CRMScript kan du automatisera uppgifter i SuperOffice eller ändra programmets beteende.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: CRMScript
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: concept
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-language: sv
 redirect_from:
   - /sv/automation/crmscript/learn/macro-script
   - /sv/automation/crmscript/learn/screen/
   - /sv/automation/crmscript/learn/index
+language: sv
+index: true
 ---
 
 # CRMScript

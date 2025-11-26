@@ -3,14 +3,17 @@ uid: help-sv-automation-macro-create
 title: Skapa ett makro – exempel från SuperOffice
 description: Exempel på hur du skapar ett makro i SuperOffice.
 keywords: skript, makro
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /sv/automation/crmscript/learn/create-macro
 language: sv
-redirect_from:
-  - /sv/automation/crmscript/learn/create-macro
+index: true
 ---
 
 # Skapa ett makro – exempel från SuperOffice

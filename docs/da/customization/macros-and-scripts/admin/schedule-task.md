@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-da-automation-schedule-task
-title:  Planlagte opgaver
+title: Planlagte opgaver
 description: Planlagte opgaver
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: makro, script, plan
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /da/automation/crmscript/learn/schedule-task
 language: da
-redirect_from:
-  - /da/automation/crmscript/learn/schedule-task
+index: true
 ---
 
 # Planlagte opgaver

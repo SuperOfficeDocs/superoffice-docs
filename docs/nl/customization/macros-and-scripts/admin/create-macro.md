@@ -2,15 +2,18 @@
 uid: help-nl-automation-macro-create
 title: Een macro maken - voorbeeld van SuperOffice
 description: Voorbeeld van het maken van een macro in SuperOffice.
-author: SuperOffice RnD
-date: 03.16.2023
 keywords: script, macro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /nl/automation/crmscript/learn/create-macro
 language: nl
-redirect_from:
-  - /nl/automation/crmscript/learn/create-macro
+index: true
 ---
 
 # Een macro maken - voorbeeld van SuperOffice

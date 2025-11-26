@@ -1,15 +1,21 @@
 ---
 uid: help-sv-automation-script-create
-title: Skapa skript
+title: Skapa eller redigera ett skript
 description: Skapa skript
-author: Bergfrid Dias
-date: 03.23.2023
 keywords: skript, makro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
-language: sv
+category: automation
+topic: CRMScript
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from:
   - /sv/automation/crmscript/learn/create-folder
   - /sv/automation/crmscript/learn/create-script
+language: sv
+index: true
 ---
 
 # Skapa eller redigera ett skript

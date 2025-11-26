@@ -1,15 +1,21 @@
----
+﻿---
 uid: help-da-automation-script-create
-title: Opret et script
+title: Opret eller rediger et script
 description: Opret et script
-author: Bergfrid Dias
-date: 03.23.2023
 keywords: script, makro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
-language: da
+category: automation
+topic: CRMScript
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from:
   - /da/automation/crmscript/learn/create-folder
   - /da/automation/crmscript/learn/create-script
+language: da
+index: true
 ---
 
 # Opret eller rediger et script

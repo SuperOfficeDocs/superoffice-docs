@@ -2,15 +2,18 @@
 uid: help-de-automation-macro-create
 title: Makro erstellen - Beispiel aus SuperOffice
 description: Beispiel für die Erstellung eines Makros in SuperOffice.
-author: SuperOffice RnD
-date: 03.16.2023
 keywords: Skript, Makro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /de/automation/crmscript/learn/create-macro
 language: de
-redirect_from:
-  - /de/automation/crmscript/learn/create-macro
+index: true
 ---
 
 # Makro erstellen - Beispiel aus SuperOffice

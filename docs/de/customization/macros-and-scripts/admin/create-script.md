@@ -1,15 +1,21 @@
 ---
 uid: help-de-automation-script-create
-title: Ein Skript erstellen
+title: Skript erstellen oder bearbeiten
 description: Ein Skript erstellen
-author: Bergfrid Dias
-date: 03.23.2023
 keywords: Skript, Makro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
-language: de
+category: automation
+topic: CRMScript
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from:
   - /de/automation/crmscript/learn/create-folder
   - /de/automation/crmscript/learn/create-script
+language: de
+index: true
 ---
 
 # Skript erstellen oder bearbeiten

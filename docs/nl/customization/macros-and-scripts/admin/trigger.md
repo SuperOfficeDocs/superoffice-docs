@@ -3,14 +3,17 @@ uid: help-nl-automation-trigger
 title: Triggers
 description: Triggers
 keywords: CRMScript, trigger
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /nl/automation/crmscript/learn/trigger
 language: nl
-redirect_from:
-  - /nl/automation/crmscript/learn/trigger
+index: true
 ---
 
 # Triggers

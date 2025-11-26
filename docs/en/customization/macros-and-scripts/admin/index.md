@@ -1,18 +1,22 @@
----
+﻿---
 uid: help-en-crmscript
 title: CRMScript
 description: CRMScript is a feature that allows you to automate tasks in or modify the behavior of SuperOffice.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: CRMScript
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: concept
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
 redirect_from:
   - /en/automation/crmscript/learn/macro-script
   - /en/automation/crmscript/learn/screen/
   - /en/automation/crmscript/learn/index
+language: en
+index: true
 ---
 
 # CRMScript
@@ -27,11 +31,7 @@ To access the functions in CRMScript open SuperOffice Settings and maintenance a
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 
-## Macros and scripts
-
-In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it.
-
-### About macros
+## About macros
 
 Macros are the user-friendly version of scripts: You do not need extensive knowledge about scripting or CRMScript to create macros.
 
@@ -53,7 +53,17 @@ A macro is a set of predefined actions executed in a specific order, and require
 
 A script is a small program written to perform specific tasks, and requires programming skills to set up.
 
-### Macros and scripts tab
+## Tabs
+
+* [Macros and scripts][8] - Create macros and scripts to automate and schedule tasks in SuperOffice.
+* [Triggers][2] - Define that a certain event in the system will trigger one or more predefined actions.
+* [Scheduled tasks][3] - Specify that a script or macro should be run at specific times.
+* [Debug sessions][4] - Find and fix bugs inside your scripts and macros.
+* [Tracing][5] - Record every detail in the execution of a script or macro and save it in a log.
+
+## Macros and scripts tab
+
+In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it.
 
 This screen has following options:
 
@@ -64,7 +74,7 @@ This screen has following options:
 | New folder | Used to [create a new folder][10]. |
 | Search | Used to search for macros and scripts in the selected folder and sub-folders. |
 
-#### Script screen
+### Script screen
 
 When you click a script or macro in the **Macros and scripts** tab, the **Script** screen opens. In addition to the information in the top part of the screen, you can find more script details in the **Description** and **Script** tabs.
 
@@ -77,14 +87,6 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 | <i class="ph ph-play" aria-label="Play"></i> | Run script | Used to run the script or macro in standard mode. |
 | <i class="ph ph-bug" aria-label="Bug"></i> | Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][4] from the **Debug sessions** tab. |
 | | Trace script | Used to start [tracing the script or macro][5]. |
-
-## Tabs
-
-* [Macros and scripts][8] - Create macros and scripts to automate and schedule tasks in SuperOffice.
-* [Triggers][2] - Define that a certain event in the system will trigger one or more predefined actions.
-* [Scheduled tasks][3] - Specify that a script or macro should be run at specific times.
-* [Debug sessions][4] - Find and fix bugs inside your scripts and macros.
-* [Tracing][5] - Record every detail in the execution of a script or macro and save it in a log.
 
 ## Related content
 

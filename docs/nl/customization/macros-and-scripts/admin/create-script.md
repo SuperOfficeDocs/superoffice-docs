@@ -1,15 +1,21 @@
 ---
 uid: help-nl-automation-script-create
-title: Een script maken
+title: Een script maken of bewerken
 description: Een script maken
-author: Bergfrid Dias
-date: 03.23.2023
 keywords: script, macro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
-language: nl
+category: automation
+topic: CRMScript
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from:
   - /nl/automation/crmscript/learn/create-folder
   - /nl/automation/crmscript/learn/create-script
+language: nl
+index: true
 ---
 
 # Een script maken of bewerken

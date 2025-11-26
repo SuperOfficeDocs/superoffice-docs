@@ -2,18 +2,21 @@
 uid: help-no-crmscript
 title: CRMScript
 description: CRMScript er en funksjon som lar deg automatisere oppgaver i eller endre atferden til SuperOffice.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: CRMScript
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: concept
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-
-language: no
 redirect_from:
   - /no/automation/crmscript/learn/macro-script
   - /no/automation/crmscript/learn/screen/
   - /no/automation/crmscript/learn/index
+language: no
+index: true
 ---
 
 # CRMScript

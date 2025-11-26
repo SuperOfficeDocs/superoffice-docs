@@ -1,16 +1,19 @@
 ---
 uid: help-no-automation-schedule-task
-title:  Planlagte oppgaver
+title: Planlagte oppgaver
 description: Planlagte oppgaver
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: makro, skript, timeplan
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /no/automation/crmscript/learn/schedule-task
 language: no
-redirect_from:
-  - /no/automation/crmscript/learn/schedule-task
+index: true
 ---
 
 # Planlagte oppgaver

@@ -1,15 +1,21 @@
----
+﻿---
 uid: help-en-automation-script-create
-title: Create a script
+title: Create or edit a script
 description: Create a script
-author: Bergfrid Dias
-date: 03.23.2023
 keywords: script, macro
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
-language: en
+category: automation
+topic: CRMScript
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from:
   - /en/automation/crmscript/learn/create-folder
   - /en/automation/crmscript/learn/create-script
+language: en
+index: true
 ---
 
 # Create or edit a script

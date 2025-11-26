@@ -3,14 +3,17 @@ uid: help-sv-automation-trigger
 title: Triggrar
 description: Triggrar
 keywords: CRMScript, utlösare
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /sv/automation/crmscript/learn/trigger
 language: sv
-redirect_from:
-  - /sv/automation/crmscript/learn/trigger
+index: true
 ---
 
 # Triggrar

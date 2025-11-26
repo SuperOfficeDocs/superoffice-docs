@@ -1,16 +1,19 @@
 ---
 uid: help-sv-automation-schedule-task
-title:  Planerade uppgifter
+title: Planerade uppgifter
 description: Planerade uppgifter
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: makro, skript, schema
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
+category: automation
+topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /sv/automation/crmscript/learn/schedule-task
 language: sv
-redirect_from:
-  - /sv/automation/crmscript/learn/schedule-task
+index: true
 ---
 
 # Planerade uppgifter
