@@ -5,34 +5,54 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Terry-Shields",
-      "DisplayTooltip": "sint",
-      "DisplayType": "exercitationem",
-      "CanOrderBy": false,
-      "Name": "Rempel-O'Hara",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptatum",
-      "RestrictionListName": "Johnson-Langosh",
+      "DisplayName": "Name",
+      "DisplayTooltip": "Contact name",
+      "DisplayType": "string",
+      "CanOrderBy": true,
+      "Name": "name",
+      "CanRestrictBy": true,
+      "RestrictionType": "string",
+      "RestrictionListName": "",
       "IsVisible": true,
-      "ExtraInfo": "atque",
-      "Width": "sit",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "omnis"
+      "ExtraInfo": "",
+      "Width": "200",
+      "IconHint": "person",
+      "HeadingIconHint": "person"
+    },
+    {
+      "DisplayName": "Company",
+      "DisplayTooltip": "Company name",
+      "DisplayType": "string",
+      "CanOrderBy": true,
+      "Name": "contactAssociate/company",
+      "CanRestrictBy": true,
+      "RestrictionType": "string",
+      "RestrictionListName": "",
+      "IsVisible": true,
+      "ExtraInfo": "",
+      "Width": "200",
+      "IconHint": "building",
+      "HeadingIconHint": "building"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Grady LLC",
+      "EntityName": "contact",
       "PrimaryKey": 237,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "minus",
-          "TooltipHint": "tempore",
-          "LinkHint": "debitis"
+        "name": {
+          "DisplayValue": "John Anderson",
+          "TooltipHint": "Sales Manager",
+          "LinkHint": "contact.main?contact_id=237"
+        },
+        "contactAssociate/company": {
+          "DisplayValue": "Acme Corporation",
+          "TooltipHint": "Manufacturing",
+          "LinkHint": "company.main?company_id=123"
         }
       },
-      "LinkHint": "doloremque",
-      "StyleHint": "consequatur",
+      "LinkHint": "contact.main?contact_id=237",
+      "StyleHint": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -43,7 +63,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "RowCount": 159,
+  "RowCount": 1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

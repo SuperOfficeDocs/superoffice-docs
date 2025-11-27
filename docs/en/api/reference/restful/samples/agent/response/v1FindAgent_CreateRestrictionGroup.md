@@ -3,20 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koss Group",
-  "Description": "Exclusive didactic policy",
-  "Rank": 935,
+  "Name": "VIP Customers",
+  "Description": "High-value customer contacts",
+  "Rank": 1,
   "Restrictions": [
     {
-      "Name": "Marks-Beatty",
-      "Operator": "architecto",
+      "Name": "contact/category",
+      "Operator": "equals",
       "Values": [
-        "sint",
-        "accusantium"
+        "2"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "quam"
+        "VIP"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -24,7 +22,7 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 94,
+      "InterParenthesis": 0,
       "InterOperator": "And",
       "UniqueHash": 19
     }
