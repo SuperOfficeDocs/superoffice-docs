@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "TimezoneEnabled": false,
   "TZOffset": 833,
-  "RecaptchaSiteKey": "non",
+  "RecaptchaSiteKey": "6LcExample_SiteKey_ABCDEFGHIJKLMNOP",
   "SelectedPreferences": [
     {
       "Level": "Database",
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
       "TabOrder": null,
       "TargetId": 441,
       "PrefDescId": 302,
-      "TableName": "Fisher Inc and Sons",
+      "TableName": "UserPreference",
       "UserPreferenceId": 15,
       "TableRight": null,
       "FieldProperties": {

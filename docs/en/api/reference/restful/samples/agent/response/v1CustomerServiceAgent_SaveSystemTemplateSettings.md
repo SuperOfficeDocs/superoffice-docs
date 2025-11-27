@@ -23,7 +23,7 @@ Content-Type: application/json; charset=utf-8
   "PrintTicketTemplateId": 21,
   "WeekStatTemplateId": 925,
   "TicketAlarmHotlistTemplateId": 335,
-  "EmailAddresses": "bart_ohara@halvorsonsimonis.com",
+  "EmailAddresses": "support@acmecorp.com, alerts@acmecorp.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
