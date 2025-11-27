@@ -5,13 +5,16 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "totam",
-      "officia"
+      "Sarah Johnson",
+      "sarah.johnson@techcorp.com",
+      "Tech Corporation",
+      "+1 555-0456",
+      "Sales Manager"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "ea",
+    "ExternalKey": "IMPORT-002",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

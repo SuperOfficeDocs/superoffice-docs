@@ -6,13 +6,16 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "occaecati",
-        "numquam"
+        "CUST-10523",
+        "Acme Corporation",
+        "Manufacturing",
+        "New York",
+        "USA"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "omnis",
+      "ExternalKey": "ERP-CUSTOMER-10523",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -25,28 +28,28 @@ Content-Type: application/json; charset=utf-8
   ],
   "ColumnInfos": [
     {
-      "Name": "Crist LLC",
-      "DisplayName": "Dicki-Powlowski",
-      "Locked": true,
+      "Name": "customer_id",
+      "DisplayName": "Customer ID",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldType": "System.String",
+          "FieldLength": 50
         }
       }
     },
     {
-      "Name": "Crist LLC",
-      "DisplayName": "Dicki-Powlowski",
-      "Locked": true,
+      "Name": "company_name",
+      "DisplayName": "Company Name",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
