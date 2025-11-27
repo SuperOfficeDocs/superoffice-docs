@@ -43,7 +43,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetNeedCategoryUpdateForSaleAsync(SaleStatus, Int32, Int32, Int32, CancellationToken)`
   * Method `SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate[], CancellationToken)`
 
-
 ### Assembly: SuperOffice.Services.Implementation
 
 ### Deleted Types
@@ -444,6 +443,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ##### SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId is Deleted
 
 ##### SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType is Deleted
+
 * New items
   * Method `GetFromIdxOwnerRecordAsync(Int32, CancellationToken)`
   * Method `GetFromIdxOwnerRecordStateIdAsync(Int32, Int32, CancellationToken)`
@@ -499,7 +499,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `TrackEvent(String)`
 * New items
   * Method `TrackEvent(String, ValueTuple<String, Object>[])`
-
 
 ### Assembly: SoDatabase.BusinessLogic
 
