@@ -83,56 +83,8 @@ Dash found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Dash/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Dash_GetDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 Dash found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 383,
-  "UniqueId": "dolor",
-  "Name": "Parker Inc and Sons",
-  "Description": "Cloned reciprocal complexity",
-  "AssociateId": 442,
-  "Columns": 922,
-  "Theme": null,
-  "VisibleForAll": 240,
-  "VisibleForAssociates": [
-    459,
-    117
-  ],
-  "VisibleForGroups": [
-    486,
-    475
-  ],
-  "PinForAll": 171,
-  "PinForAssociates": [
-    62,
-    974
-  ],
-  "PinForGroups": [
-    951,
-    823
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Dash_GetDash.md)]

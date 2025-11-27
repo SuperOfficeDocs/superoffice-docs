@@ -86,47 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetCountryList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetCountryList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CountryId": 360,
-    "Name": "Johnson Inc and Sons",
-    "CurrencyId": 480,
-    "EnglishName": "Conroy Inc and Sons",
-    "TwoLetterISOCountry": "Sokovia",
-    "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Horizontal optimal implementation",
-    "OrgNrText": "329665",
-    "InterAreaPrefix": "pariatur",
-    "DialInPrefix": "error",
-    "ZipPrefix": "minima",
-    "DomainName": "Jacobs, Jacobson and Ernser",
-    "AddressLayoutId": 289,
-    "DomesticAddressLayoutId": 800,
-    "ForeignAddressLayoutId": 334,
-    "Rank": 597,
-    "Tooltip": "ut",
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetCountryList.md)]

@@ -72,39 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/{type}/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_CreateDefaultRoleEntityFromType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 410,
-  "Name": "Hettinger Inc and Sons",
-  "Tooltip": "sed",
-  "RoleType": "Anonymous",
-  "Deleted": 32,
-  "Rank": 14,
-  "Created": "2024-05-01T02:30:52.8505298+02:00",
-  "UseCategories": 691,
-  "CreatedBy": null,
-  "Updated": "2025-03-10T02:30:52.8505298+01:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_CreateDefaultRoleEntityFromType.md)]

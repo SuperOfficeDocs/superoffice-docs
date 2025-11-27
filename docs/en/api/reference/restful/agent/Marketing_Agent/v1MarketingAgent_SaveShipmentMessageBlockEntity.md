@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 63,
-  "AssociateId": 909,
-  "Block": "temporibus",
-  "Registered": "2019-05-28T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2014-03-18T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 25,
-  "UpdatedCount": 590
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_SaveShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 863,
-  "AssociateId": 113,
-  "Block": "aut",
-  "Registered": "2010-02-03T02:30:47.4600781+01:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2013-02-16T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 969,
-  "UpdatedCount": 997,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_SaveShipmentMessageBlockEntity.md)]

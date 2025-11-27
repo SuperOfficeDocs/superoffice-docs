@@ -60,34 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultResourceEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultResourceEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceId": 673,
-  "Name": "Ziemann-Strosin",
-  "Rank": 81,
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "molestiae",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultResourceEntity.md)]

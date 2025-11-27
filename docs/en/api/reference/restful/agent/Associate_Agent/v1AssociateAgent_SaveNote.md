@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Associate/SaveNote
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 516,
-  "Note": [
-    "et",
-    "rerum"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1AssociateAgent_SaveNote.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AssociateAgent_SaveNote.md)]

@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 273,
-  "PrefValue": "doloribus"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 514,
-  "PrefDescId": 476,
-  "PrefValue": "corporis",
-  "PrefShowValue": "autem",
-  "Description": "Intuitive upward-trending alliance",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue.md)]

@@ -89,50 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Relation/SaveContactRelation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactRelationEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1RelationAgent_SaveContactRelation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 522,
-  "SourcePersonId": 180,
-  "DestinationContactId": 230,
-  "DestinationPersonId": 43,
-  "RelationId": 115,
-  "Comment": "pariatur",
-  "RelationDefinitionId": 128,
-  "Reversed": 158,
-  "UpdatedDate": "2009-09-15T02:30:47.7413192+02:00",
-  "CreatedDate": "2020-02-18T02:30:47.7413192+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Strosin-Mante",
-  "SourcePersonName": "Harvey-Carroll",
-  "DestinationContactName": "Wintheiser, Christiansen and Satterfield",
-  "DestinationPersonName": "Jakubowski, Bednar and Johnson",
-  "ActiveText": "ut",
-  "PassiveText": "laboriosam",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1RelationAgent_SaveContactRelation.md)]

@@ -68,48 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1TimeZoneAgent_InitializeTimeZoneData.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TZLocationID": 934,
-    "Name": "Purdy-Dickinson",
-    "TZLocationCode": "unde",
-    "TZLocationCities": "architecto",
-    "IsoNumber": 357,
-    "TimeZoneSTDRules": {
-      "fieldName": {
-        "StartDay": 601,
-        "StartMonth": 570,
-        "EndDay": 164,
-        "EndMonth": 290,
-        "TZOffset": 494,
-        "StartRulePattern": "rerum",
-        "EndRulePattern": "incidunt"
-      }
-    },
-    "TimeZoneDSTRules": {
-      "fieldName": {
-        "StartDay": 525,
-        "StartMonth": 374,
-        "EndDay": 914,
-        "EndMonth": 714,
-        "TZOffset": 661,
-        "StartRulePattern": "eos",
-        "EndRulePattern": "inventore"
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TimeZoneAgent_InitializeTimeZoneData.md)]

@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEMailAsStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerId": 599,
-  "StripAttachments": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEMailAsStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-99.99
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEMailAsStream.md)]

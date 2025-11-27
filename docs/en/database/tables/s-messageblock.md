@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# s\_messageblock Table (494)
+# s\_messageblock Table (497)
 
 Contains a block of a mailing message, that can be reused in a mailing
 

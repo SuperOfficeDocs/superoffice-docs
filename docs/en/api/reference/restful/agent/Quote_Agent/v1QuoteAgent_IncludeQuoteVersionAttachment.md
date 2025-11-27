@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 598,
-  "DocumentId": 701,
-  "Include": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_IncludeQuoteVersionAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_IncludeQuoteVersionAttachment.md)]

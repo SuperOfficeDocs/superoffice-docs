@@ -50,18 +50,8 @@ TicketMessageEntity deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/TicketMessage/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketMessageEntity_DeleteTicketMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 TicketMessageEntity deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1TicketMessageEntity_DeleteTicketMessageEntity.md)]

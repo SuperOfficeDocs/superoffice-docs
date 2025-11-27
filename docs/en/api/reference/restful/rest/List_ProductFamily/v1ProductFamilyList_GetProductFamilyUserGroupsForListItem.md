@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_GetProductFamilyUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 689,
-    "Name": "Ondricka Inc and Sons",
-    "ToolTip": "Vel enim dolor minima perferendis itaque.",
-    "Deleted": true,
-    "Rank": 221,
-    "Type": "voluptates",
-    "ColorBlock": 103,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2021-05-30T02:30:53.3661371+02:00",
-    "ChildItems": [
-      {
-        "Id": 860,
-        "Name": "Graham-Abernathy",
-        "ToolTip": "Soluta velit.",
-        "Deleted": false,
-        "Rank": 218,
-        "Type": "dolor",
-        "ColorBlock": 288,
-        "IconHint": "expedita",
-        "Selected": true,
-        "LastChanged": "2020-02-26T02:30:53.3661371+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Prince Hodkiewicz",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 828
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Arvilla Alfonzo McLaughlin MD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 607
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_GetProductFamilyUserGroupsForListItem.md)]

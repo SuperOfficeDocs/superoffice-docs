@@ -70,14 +70,15 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
-|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
@@ -120,11 +121,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
@@ -224,11 +225,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -328,11 +329,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
-|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -432,11 +433,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
-|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
@@ -536,11 +537,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
@@ -640,11 +641,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|document/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
 |document/recordType|string|Record type : Shows the record type| x |
 |document/text|positiveString|Text: Displays a descriptive text for the item| x |
@@ -744,11 +745,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -848,11 +849,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/personCountryId|int|Stakeholder - Country ID: Country ID| x |
 |saleStakeholder/person/personNoMail|bool|Stakeholder - No Mailings: Displays the contact's No Mailings checkbox| x |
 |saleStakeholder/person/rank|int|Stakeholder - Rank: Displays a contact's current rank| x |
-|saleStakeholder/person/birthdate| *None* |Stakeholder - Birthdate: Displays the contact's date of birth|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/birthdate| *None* |Stakeholder - Birthdate: Displays the contact's date of birth|  |
 |saleStakeholder/person/associateType| *None* |Stakeholder - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 |saleStakeholder/person/useAsMailingAddress|bool|Stakeholder - Use as postal address: Use as postal address| x |
 |saleStakeholder/person/personSource|listAny|Stakeholder - Source: Source (Contact)| x |
@@ -952,11 +953,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/personUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
 |saleStakeholder/person/personExtra/x\_person\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field that is hidden| x |
-|saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
 |saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |saleStakeholder/person/personExtra/x\_person\_datetime|datetime|Stakeholder - Extra DateTime: Custom person date and time field. No default| x |
@@ -1056,11 +1057,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/consentSourceEmarketing|listAny|Stakeholder - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |saleStakeholder/contact/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/contact/name|stringorPK|Stakeholder - Company name| x |
-|saleStakeholder/contact/department|string|Stakeholder - Department| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/department|string|Stakeholder - Department| x |
 |saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to| x |
 |saleStakeholder/contact/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -1160,11 +1161,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/contact/contactAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
 |saleStakeholder/contact/contactAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
 |saleStakeholder/contact/contactAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
-|saleStakeholder/contact/contactAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/contact/contactAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/contact/contactAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -1264,11 +1265,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
-|quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
 |quote/version/alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/alternative/name|string|Name: Name of the quote alternative| x |
@@ -1340,7 +1341,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=registeredDate,person/correspondingAssociate/simultaneousEjUser,contact/hasInterests,associate/isLocation,appointment/associate/fullName
+GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=stageName,person/withdrawnEmarketingConsent,contact/streetAddress/line1,contact/streetAddress/line2,contact/restrictionAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

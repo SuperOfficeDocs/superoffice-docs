@@ -87,63 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 328,
-    "ColumnId": 501,
-    "FieldDefault": "ut",
-    "FieldHeight": 289,
-    "FieldLabel": "fugit",
-    "FieldLeft": 198,
-    "FieldTop": 883,
-    "FieldType": "Checkbox",
-    "FieldWidth": 452,
-    "FormatMask": "id",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 439,
-    "LabelLeft": 450,
-    "LabelTop": 569,
-    "LabelWidth": 544,
-    "LastVersionId": 922,
-    "ListTableId": 130,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 674,
-    "ProgId": "quia",
-    "IsReadOnly": false,
-    "ShortLabel": "repellat",
-    "TabOrder": 47,
-    "TextLength": 229,
-    "Tooltip": "commodi",
-    "UdefIdentity": 919,
-    "UDListDefinitionId": 514,
-    "Justification": "Center",
-    "Version": 185,
-    "TemplateVariableName": "Christiansen-Hills",
-    "HasBeenPublished": false,
-    "MdoListName": "Gleason-Paucek",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetUdefLayout.md)]

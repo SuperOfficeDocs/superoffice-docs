@@ -81,36 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetPreviewEnrichContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EnrichId": "velit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetPreviewEnrichContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 709,
-  "Name": "Metz-Keebler",
-  "Department": "",
-  "CountryId": 22,
-  "Number2": "724616",
-  "DirectPhone": "(546)428-9640",
-  "URL": "http://www.example.com/",
-  "EmailAddress": "diamond.ohara@okon.biz",
-  "BusinessName": "Information Technology",
-  "CategoryName": "VIP Customer",
-  "AssociateFullName": "Simone Jacobi",
-  "Address": null
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetPreviewEnrichContact.md)]

@@ -93,57 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/RegenerateCounters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "RunAsBatch": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_RegenerateCounters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 557,
-  "Name": "Mann LLC",
-  "AssociateId": 5,
-  "DetailsTable": 79,
-  "DetailsRecord": 518,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "dicta",
-    "ParameterObject2": "ut"
-  },
-  "LastStarted": "2006-09-08T02:30:47.7569437+02:00",
-  "Created": "2022-03-05T02:30:47.7569437+01:00",
-  "StartCount": 172,
-  "DatabaseSerialNumber": "152236",
-  "Context": "aut",
-  "Result": "et",
-  "State": "All",
-  "Description": "Extended even-keeled standardization",
-  "Response": "voluptatem",
-  "Request": "ex",
-  "ProgressDescription": "Enhanced web-enabled hierarchy",
-  "ProgressPercent": 288,
-  "FileName": "Kuvalis Group",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 27
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_RegenerateCounters.md)]

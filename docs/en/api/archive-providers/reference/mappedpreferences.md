@@ -19,7 +19,7 @@ Anything else needs to be coded!
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"system"|[system]|
+|"system"|system|
 |"user"|User|
 
 ## Supported Columns

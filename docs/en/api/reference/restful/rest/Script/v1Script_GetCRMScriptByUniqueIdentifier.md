@@ -68,38 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Script/{uniqueIdentifier}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Script_GetCRMScriptByUniqueIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "ab",
-  "Name": "Hartmann LLC",
-  "Description": "Switchable needs-based productivity",
-  "IncludeId": "et",
-  "Source": "velit",
-  "Registered": "2012-05-08T02:30:53.084897+02:00",
-  "RegisteredBy": "saepe",
-  "Updated": "2001-07-17T02:30:53.084897+02:00",
-  "UpdatedBy": "esse",
-  "Path": "qui",
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Script_GetCRMScriptByUniqueIdentifier.md)]

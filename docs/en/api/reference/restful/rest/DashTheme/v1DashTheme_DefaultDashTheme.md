@@ -60,33 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/DashTheme/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DashTheme_DefaultDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 483,
-  "Name": "Kertzmann LLC",
-  "Config": "incidunt",
-  "Rank": 228,
-  "Client": "neque",
-  "Style": "libero",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTheme_DefaultDashTheme.md)]

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# attachment\_location Table (476)
+# attachment\_location Table (479)
 
 A location for storing attachments
 

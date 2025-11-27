@@ -50,18 +50,8 @@ ProjectMember deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/ProjectMember/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_DeleteProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 ProjectMember deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_DeleteProjectMember.md)]

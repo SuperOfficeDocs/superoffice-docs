@@ -93,53 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemTemplateSettings": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_SaveSystemTemplateSettings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustomerNewCustomerTemplateId": 52,
-  "CustomerCustomerReplyTemplateId": 318,
-  "CustomerPasswordTemplateId": 215,
-  "CustomerConfirmEmailTemplateId": 694,
-  "CustomerChatLogTemplateId": 100,
-  "NewLinkTemplateId": 326,
-  "HotlistNewMessageTemplateId": 142,
-  "HotlistTicketActivatedTemplateId": 683,
-  "UserTicketAlarmTemplateId": 941,
-  "HotlistTicketTakenOverTemplateId": 208,
-  "UserActiveTicketsTemplateId": 820,
-  "UserNewMessageTemplateId": 595,
-  "UserTicketActivatedTemplateId": 232,
-  "UserNewTicketTemplateId": 185,
-  "PublishKbQuestionTemplateId": 928,
-  "PublishKbAnswerTemplateId": 634,
-  "UserTicketTakenOverTemplateId": 169,
-  "PrintTicketTemplateId": 364,
-  "WeekStatTemplateId": 631,
-  "TicketAlarmHotlistTemplateId": 891,
-  "EmailAddresses": "verona@daniel.com",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_SaveSystemTemplateSettings.md)]

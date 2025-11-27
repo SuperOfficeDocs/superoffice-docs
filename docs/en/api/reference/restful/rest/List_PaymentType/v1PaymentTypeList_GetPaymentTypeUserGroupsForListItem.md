@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 50,
-    "Name": "Hartmann, Mayert and Kihn",
-    "ToolTip": "Aut nemo quaerat fuga provident odio aut.",
-    "Deleted": false,
-    "Rank": 341,
-    "Type": "quis",
-    "ColorBlock": 778,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2020-02-19T02:30:53.3192639+01:00",
-    "ChildItems": [
-      {
-        "Id": 426,
-        "Name": "Jast-Treutel",
-        "ToolTip": "Quia praesentium ipsa enim possimus et molestias voluptate.",
-        "Deleted": true,
-        "Rank": 33,
-        "Type": "recusandae",
-        "ColorBlock": 56,
-        "IconHint": "facilis",
-        "Selected": true,
-        "LastChanged": "2020-09-06T02:30:53.3192639+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Paul McGlynn",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 221
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Nathen Cummings",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 156
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem.md)]

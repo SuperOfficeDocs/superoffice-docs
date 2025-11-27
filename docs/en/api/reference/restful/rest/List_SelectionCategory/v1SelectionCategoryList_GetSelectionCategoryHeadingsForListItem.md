@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 977,
-    "Name": "Fay-Bernier",
-    "ToolTip": "Consequatur magnam non.",
-    "Deleted": false,
-    "Rank": 277,
-    "Type": "laboriosam",
-    "ColorBlock": 180,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2008-06-06T02:30:53.4442597+02:00",
-    "ChildItems": [
-      {
-        "Id": 70,
-        "Name": "Upton, Roberts and Block",
-        "ToolTip": "Mollitia ut vel et ullam enim facere.",
-        "Deleted": true,
-        "Rank": 188,
-        "Type": "explicabo",
-        "ColorBlock": 36,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2003-01-14T02:30:53.4442597+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quas",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Kendra Shyann Johnson DDS",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 975
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Makenna Hamill",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 670
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem.md)]

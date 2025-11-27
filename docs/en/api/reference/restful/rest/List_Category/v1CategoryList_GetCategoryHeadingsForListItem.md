@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Category/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_GetCategoryHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 249,
-    "Name": "Huel-Nienow",
-    "ToolTip": "Exercitationem aspernatur consequatur molestiae praesentium.",
-    "Deleted": false,
-    "Rank": 516,
-    "Type": "asperiores",
-    "ColorBlock": 318,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2005-09-14T02:30:53.2098926+02:00",
-    "ChildItems": [
-      {
-        "Id": 358,
-        "Name": "Ledner, Dickens and Champlin",
-        "ToolTip": "Dolor magni incidunt illum.",
-        "Deleted": false,
-        "Rank": 85,
-        "Type": "placeat",
-        "ColorBlock": 117,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2013-05-15T02:30:53.2098926+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "earum",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Andres Turcotte",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 300
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Dr. Baron Hayley Bradtke",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_GetCategoryHeadingsForListItem.md)]

@@ -67,24 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/AnswerFeedback
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TrackingId": "et",
-  "IsThumbsUp": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_AnswerFeedback.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_AnswerFeedback.md)]

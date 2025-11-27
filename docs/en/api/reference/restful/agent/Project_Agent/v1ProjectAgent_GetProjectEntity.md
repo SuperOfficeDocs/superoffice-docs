@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=406
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=722
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -96,144 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 317,
-  "Name": "Hamill-Parker",
-  "ProjectNumber": "1020494",
-  "ProjectMembers": [
-    {
-      "ProjectmemberId": 995,
-      "ContactId": 874,
-      "ProjectId": 615,
-      "ContactName": "Gibson LLC",
-      "ContactDepartment": "",
-      "ProjectName": "Ruecker, Haag and Stanton",
-      "EmailId": 932,
-      "EmailAddress": "alvera.bins@schamberger.com",
-      "CountryId": 292,
-      "Firstname": "Georgette",
-      "MiddleName": "Reichert-Grady",
-      "Lastname": "Cassin",
-      "PersonId": 382,
-      "Mrmrs": "qui",
-      "ProjectMemberTypeName": "Nienow-Stroman",
-      "Phone": "943-105-2637 x07002",
-      "PhoneId": 857,
-      "ProjectMemberTypeId": 123,
-      "EmailAddressName": "felicia@jakubowski.info",
-      "Comment": "cumque",
-      "FullName": "Robb Jenkins",
-      "Registered": "2013-01-15T02:30:47.6632017+01:00",
-      "Updated": "2009-07-14T02:30:47.6632017+02:00",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 731
-        }
-      }
-    }
-  ],
-  "Urls": [
-    {
-      "Value": "placeat",
-      "StrippedValue": "enim",
-      "Description": "Managed fault-tolerant customer loyalty",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
-        }
-      }
-    },
-    {
-      "Value": "placeat",
-      "StrippedValue": "enim",
-      "Description": "Managed fault-tolerant customer loyalty",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
-        }
-      }
-    }
-  ],
-  "CreatedDate": "1999-09-14T02:30:47.6632017+02:00",
-  "UpdatedDate": "2008-02-02T02:30:47.6632017+01:00",
-  "Description": "Monitored upward-trending capability",
-  "Postit": "qui",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Associate": null,
-  "ProjectStatus": null,
-  "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Right-sized neutral definition",
-  "ActiveStatusMonitorId": 638,
-  "Links": [
-    {
-      "EntityName": "DuBuque-Klocko",
-      "Id": 153,
-      "Description": "Progressive cohesive core",
-      "ExtraInfo": "sint",
-      "LinkId": 772,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
-        }
-      }
-    }
-  ],
-  "ActiveLinks": 807,
-  "Completed": false,
-  "NextMilestoneDate": "2000-06-17T02:30:47.6632017+02:00",
-  "NmdAppointmentId": 763,
-  "EndDate": "2014-08-30T02:30:47.6632017+02:00",
-  "ActiveErpLinks": 636,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Ocie Muller",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "numquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "voluptatem"
-  },
-  "PublishEventDate": "2019-03-07T02:30:47.6632017+01:00",
-  "PublishTo": "2002-09-16T02:30:47.6632017+02:00",
-  "PublishFrom": "2017-02-12T02:30:47.6632017+01:00",
-  "IsPublished": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEntity.md)]

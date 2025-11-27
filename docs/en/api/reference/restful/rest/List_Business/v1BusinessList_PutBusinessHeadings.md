@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Business/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 136,
-    "Name": "Champlin-Abbott",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "Rank": 324,
-    "UdListDefinitionId": 153
-  },
-  {
-    "HeadingId": 136,
-    "Name": "Champlin-Abbott",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "Rank": 324,
-    "UdListDefinitionId": 153
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_PutBusinessHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 570,
-    "Name": "Breitenberg LLC",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 552,
-    "UdListDefinitionId": 829,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_PutBusinessHeadings.md)]

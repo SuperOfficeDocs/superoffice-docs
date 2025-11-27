@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 197,
-    "ColumnId": 542,
-    "FieldDefault": "eveniet",
-    "FieldHeight": 258,
-    "FieldLabel": "cupiditate",
-    "FieldLeft": 846,
-    "FieldTop": 94,
-    "FieldType": "Checkbox",
-    "FieldWidth": 679,
-    "FormatMask": "et",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 199,
-    "LabelLeft": 375,
-    "LabelTop": 24,
-    "LabelWidth": 759,
-    "LastVersionId": 429,
-    "ListTableId": 47,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 421,
-    "ProgId": "autem",
-    "IsReadOnly": true,
-    "ShortLabel": "vitae",
-    "TabOrder": 115,
-    "TextLength": 887,
-    "Tooltip": "dolor",
-    "UdefIdentity": 291,
-    "UDListDefinitionId": 881,
-    "Justification": "Center",
-    "Version": 268,
-    "TemplateVariableName": "Rutherford-Boyle",
-    "HasBeenPublished": false,
-    "MdoListName": "Wuckert, Ruecker and Effertz",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 674
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetPublishedUdefLayout.md)]

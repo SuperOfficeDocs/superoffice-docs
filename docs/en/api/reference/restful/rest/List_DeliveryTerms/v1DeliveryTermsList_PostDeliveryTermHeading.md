@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DeliveryTerm/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 871,
-  "Name": "Flatley, Schamberger and Keebler",
-  "Tooltip": "a",
-  "Deleted": true,
-  "Rank": 887,
-  "UdListDefinitionId": 558
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_PostDeliveryTermHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 711,
-  "Name": "Kiehn, Bartoletti and Morar",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 10,
-  "UdListDefinitionId": 613,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_PostDeliveryTermHeading.md)]

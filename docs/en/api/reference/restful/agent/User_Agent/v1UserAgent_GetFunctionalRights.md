@@ -90,78 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetFunctionalRights
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 611
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetFunctionalRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 57,
-    "Name": "Hoeger Group",
-    "ToolTip": "Rem maxime consequuntur facilis est vitae.",
-    "Deleted": false,
-    "Rank": 664,
-    "Type": "qui",
-    "ColorBlock": 108,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2012-09-15T02:30:48.0850579+02:00",
-    "ChildItems": [
-      {
-        "Id": 578,
-        "Name": "Carroll Inc and Sons",
-        "ToolTip": "Quae eaque neque repudiandae.",
-        "Deleted": true,
-        "Rank": 953,
-        "Type": "sit",
-        "ColorBlock": 421,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2005-09-17T02:30:48.0850579+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quam",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Micah Donnelly",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 717
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptate",
-    "Hidden": false,
-    "FullName": "Eulah Pacocha",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 106
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetFunctionalRights.md)]

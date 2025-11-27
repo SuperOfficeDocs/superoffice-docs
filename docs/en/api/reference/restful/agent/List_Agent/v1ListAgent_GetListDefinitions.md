@@ -81,44 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListDefinitions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListDefinitions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 355,
-    "Name": "Rippin, Conroy and Blick",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 356,
-    "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "aut",
-    "InUseByUserDefinedFields": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListDefinitions.md)]

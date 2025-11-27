@@ -76,56 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceNames": [
-    "Baumbach Inc and Sons",
-    "Emard-Mueller"
-  ],
-  "Culture": "quod"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ResourceAgent_IsResourceSubstitutionActive.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ResourceName": "Casper-Stehr",
-    "ResourceValue": "ducimus",
-    "Culture": "nam",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 465
-      }
-    }
-  },
-  {
-    "ResourceName": "Casper-Stehr",
-    "ResourceValue": "ducimus",
-    "Culture": "nam",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 465
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ResourceAgent_IsResourceSubstitutionActive.md)]

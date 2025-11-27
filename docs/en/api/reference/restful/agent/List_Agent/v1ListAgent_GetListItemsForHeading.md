@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListItemsForHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 750,
-  "HeadingId": 342
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListItemsForHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 793,
-    "Name": "Langworth, Mertz and Schaefer",
-    "ToolTip": "In soluta.",
-    "Deleted": false,
-    "Rank": 902,
-    "Type": "ducimus",
-    "ColorBlock": 618,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2018-08-05T02:30:47.4132046+02:00",
-    "ChildItems": [
-      {
-        "Id": 786,
-        "Name": "Reinger, Conroy and Braun",
-        "ToolTip": "Consequuntur quis ex non id et porro.",
-        "Deleted": false,
-        "Rank": 764,
-        "Type": "corporis",
-        "ColorBlock": 173,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2015-10-16T02:30:47.4132046+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Kaia Dietrich",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 319
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Abdiel Boris Mosciski PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListItemsForHeading.md)]

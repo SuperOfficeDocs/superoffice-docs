@@ -124,64 +124,8 @@ SaleStakeholder  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/SaleStakeholder/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "doloribus",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "doloribus",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SaleStakeholder_PatchSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleStakeholder  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Lockman, Wisozk and Keeling",
-  "Comment": "deleniti",
-  "StakeholderRoleId": 615,
-  "CountryId": 846,
-  "PersonId": 449,
-  "EmailDescription": "margaretta_kerluke@metz.biz",
-  "EmailId": 729,
-  "EmailAddress": "felix@robertsmcglynn.name",
-  "PhoneId": 700,
-  "ContactName": "Carter, Feeney and Tremblay",
-  "ContactId": 337,
-  "SaleId": 852,
-  "Mrmrs": "dolorem",
-  "Firstname": "Eldon",
-  "MiddleName": "Torphy, Bayer and Wunsch",
-  "Lastname": "Konopelski",
-  "SaleStakeholderId": 111,
-  "Rank": 203,
-  "Phone": "891.336.1257 x77951",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleStakeholder_PatchSaleStakeholder.md)]

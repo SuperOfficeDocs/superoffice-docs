@@ -63,26 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/FlushCachesByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "CacheNames": [
-    "Wilkinson-Buckridge",
-    "Glover, Skiles and Stroman"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_FlushCachesByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_FlushCachesByName.md)]

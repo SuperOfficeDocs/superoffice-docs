@@ -77,75 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 275
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Wgs84Latitude": 19440.202,
-  "Wgs84Longitude": 3597.832,
-  "LocalizedAddress": [
-    [
-      {
-        "Name": "Casper, Stracke and Carroll",
-        "Value": "qui",
-        "Tooltip": "et",
-        "Label": "quia",
-        "ValueLength": 768,
-        "AddressType": "placeat",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1000
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Hagenes, Leffler and Kerluke",
-        "Value": "et",
-        "Tooltip": "quidem",
-        "Label": "qui",
-        "ValueLength": 518,
-        "AddressType": "suscipit",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 477
-          }
-        }
-      }
-    ]
-  ],
-  "Street": null,
-  "Postal": null,
-  "Formatted": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 387
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetAddress.md)]

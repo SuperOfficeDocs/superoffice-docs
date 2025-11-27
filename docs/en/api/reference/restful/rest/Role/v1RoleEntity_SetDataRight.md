@@ -37,7 +37,7 @@ An exception will be thrown if non existing position is specified.
 | dataRightValue | string | **Required** The data right value to set at the specified position (CRUD) |
 
 ```http
-PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=vitae
+PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=eos
 ```
 
 
@@ -64,18 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_SetDataRight.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_SetDataRight.md)]

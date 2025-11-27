@@ -75,36 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketStatusList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketStatusList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketStatusId": 925,
-    "Name": "Schuppe Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 40
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketStatusList.md)]

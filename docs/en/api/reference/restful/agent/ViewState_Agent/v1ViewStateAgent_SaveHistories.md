@@ -80,52 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/SaveHistories
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HistoryName": "Kerluke-Zulauf",
-  "History": [
-    {
-      "Rank": 206,
-      "Id": 703,
-      "HistoryName": "Reichel-Tromp",
-      "HistoryId": 222,
-      "AssociateId": 970,
-      "Name": "Bogisich LLC",
-      "ItemInfo": "et"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_SaveHistories.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Rank": 36,
-    "Id": 623,
-    "HistoryName": "Gutmann-Jaskolski",
-    "HistoryId": 298,
-    "AssociateId": 331,
-    "Name": "Torp LLC",
-    "ItemInfo": "ex",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 383
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_SaveHistories.md)]

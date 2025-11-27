@@ -27,8 +27,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=nihil
+GET /api/v1/List/LegalBase/MDOItems?flat=True
+GET /api/v1/List/LegalBase/MDOItems?query=ratione
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/LegalBase/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 187,
-    "Name": "Bartell Group",
-    "ToolTip": "Amet ex exercitationem magni ut aut.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "iusto",
-    "ChildItems": [
-      {
-        "Id": 233,
-        "Name": "Schuster LLC",
-        "ToolTip": "Numquam at ut.",
-        "Deleted": true,
-        "Rank": 41,
-        "Type": "quod",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "in",
-        "ColorBlock": 167,
-        "ExtraInfo": "qui",
-        "StyleHint": "totam",
-        "FullName": "Alia Dietrich",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 211
-          }
-        }
-      }
-    ],
-    "IconHint": "maiores",
-    "ColorBlock": 786,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "ut",
-    "FullName": "Makenna Anderson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_GetMDOList.md)]

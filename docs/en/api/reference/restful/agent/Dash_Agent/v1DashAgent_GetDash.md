@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=983
+POST /api/v1/Agents/Dash/GetDash?dashId=896
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -78,52 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 647,
-  "UniqueId": "temporibus",
-  "Name": "Crona Inc and Sons",
-  "Description": "Synchronised zero defect hierarchy",
-  "AssociateId": 180,
-  "Columns": 380,
-  "Theme": null,
-  "VisibleForAll": 216,
-  "VisibleForAssociates": [
-    32,
-    15
-  ],
-  "VisibleForGroups": [
-    382,
-    381
-  ],
-  "PinForAll": 835,
-  "PinForAssociates": [
-    162,
-    750
-  ],
-  "PinForGroups": [
-    470,
-    953
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDash.md)]

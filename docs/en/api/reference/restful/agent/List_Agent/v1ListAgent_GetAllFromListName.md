@@ -78,41 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Mayer, Labadie and Towne",
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 305,
-    "Name": "Purdy, West and Barrows",
-    "Tooltip": "dignissimos",
-    "Deleted": false,
-    "UdListDefinitionId": 481,
-    "Rank": 163,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllFromListName.md)]

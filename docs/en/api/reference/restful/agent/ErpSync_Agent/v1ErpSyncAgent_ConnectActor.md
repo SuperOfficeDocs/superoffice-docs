@@ -71,45 +71,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/ConnectActor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 178,
-  "CrmRecordId": 798,
-  "CrmActorType": "Contact",
-  "ErpKey": "nihil",
-  "ErpActorType": "Customer",
-  "FieldValues": [
-    {
-      "DisplayName": "Hand, Harris and Kovacek",
-      "CrmFieldKey": "vel",
-      "Value": "ut",
-      "DisplayValue": "ut",
-      "SyncToCrm": true,
-      "SyncToErp": true
-    },
-    {
-      "DisplayName": "Hand, Harris and Kovacek",
-      "CrmFieldKey": "vel",
-      "Value": "ut",
-      "DisplayValue": "ut",
-      "SyncToCrm": true,
-      "SyncToErp": true
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_ConnectActor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_ConnectActor.md)]

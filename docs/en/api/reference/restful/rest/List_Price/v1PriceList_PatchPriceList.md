@@ -115,55 +115,8 @@ PriceList  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Pricelist/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "ex",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "ex",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_PatchPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PriceList  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 728,
-  "ERPPriceListKey": "similique",
-  "QuoteConnectionId": 585,
-  "Name": "Dach-Kohler",
-  "Description": "Pre-emptive mission-critical circuit",
-  "Currency": "aut",
-  "CurrencyName": "Osinski, Jakubowski and Vandervort",
-  "ValidFrom": "2004-09-28T02:30:53.3348881+02:00",
-  "ValidTo": "2014-02-16T02:30:53.3348881+01:00",
-  "IsActive": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_PatchPriceList.md)]

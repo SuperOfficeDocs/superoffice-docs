@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ConsentSource/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 505,
-    "Name": "O'Hara LLC",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 466,
-    "UdListDefinitionId": 496
-  },
-  {
-    "HeadingId": 505,
-    "Name": "O'Hara LLC",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 466,
-    "UdListDefinitionId": 496
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_PutConsentSourceHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 319,
-    "Name": "Thiel-Roberts",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 981,
-    "UdListDefinitionId": 49,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_PutConsentSourceHeadings.md)]

@@ -73,46 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CreateDefaultRecurrence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RecurrenceId": 524,
-  "StartDate": "2014-09-27T02:30:46.6163546+02:00",
-  "EndDate": "2010-03-04T02:30:46.6163546+01:00",
-  "RecurrenceCounter": 268,
-  "RecurrenceEndType": "Counter",
-  "Pattern": "Custom",
-  "DayPattern": null,
-  "WeekPattern": null,
-  "MonthPattern": null,
-  "YearPattern": null,
-  "Dates": [
-    {
-      "Date": "2007-06-03T02:30:46.6163546+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking time-frame",
-      "DescriptionStyleHint": "Progressive tertiary extranet",
-      "Tooltip": "quis"
-    },
-    {
-      "Date": "2007-06-03T02:30:46.6163546+02:00",
-      "IsConflict": true,
-      "Description": "Ameliorated fresh-thinking time-frame",
-      "DescriptionStyleHint": "Progressive tertiary extranet",
-      "Tooltip": "quis"
-    }
-  ],
-  "IsRecurrence": false
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CreateDefaultRecurrence.md)]

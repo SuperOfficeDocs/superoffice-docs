@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/AddSaleTypeQuoteAttachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeId": 733,
-  "DocumentId": 134
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_AddSaleTypeQuoteAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-837
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_AddSaleTypeQuoteAttachment.md)]

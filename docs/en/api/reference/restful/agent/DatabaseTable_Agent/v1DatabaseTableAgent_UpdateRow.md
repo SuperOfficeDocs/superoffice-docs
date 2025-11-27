@@ -65,28 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/UpdateRow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Konopelski Group",
-  "Id": 836,
-  "Values": {
-    "Values1": "hic",
-    "Values2": "consectetur"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_UpdateRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_UpdateRow.md)]

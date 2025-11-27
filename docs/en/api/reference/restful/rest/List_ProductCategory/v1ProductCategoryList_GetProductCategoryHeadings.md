@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_GetProductCategoryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 158,
-    "Name": "Cole LLC",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 582,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_GetProductCategoryHeadings.md)]

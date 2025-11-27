@@ -68,18 +68,8 @@ User with given id does not exist in the db.
 
 ## Sample request
 
-```http!
-POST /api/v1/User/{id}/CustomCommand/{commandName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1User_ExecuteUserCommandAsync.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 404 User with given id does not exist in the db.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1User_ExecuteUserCommandAsync.md)]

@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DeliveryTerm/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 902,
-  "Name": "Blanda-Shanahan",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 926,
-  "Rank": 669
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_PostDeliveryTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 724,
-  "Name": "Hauck Group",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 983,
-  "Rank": 175,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_PostDeliveryTerm.md)]

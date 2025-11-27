@@ -64,38 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferenceEntities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Preferences": [
-    {
-      "Level": "Database",
-      "RawValue": "ut",
-      "Specification": null,
-      "DisplayValue": "voluptatem",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "Bool",
-      "TabOrder": null,
-      "TargetId": 872,
-      "PrefDescId": 97,
-      "TableName": "Mitchell, Wisoky and Pfeffer",
-      "UserPreferenceId": 923
-    }
-  ],
-  "RemoveLowerLevels": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferenceEntities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferenceEntities.md)]

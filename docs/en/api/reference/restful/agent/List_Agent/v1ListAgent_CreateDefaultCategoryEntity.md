@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CategoryId": 63,
-  "Name": "Jacobs Inc and Sons",
-  "CategoryGroup": "Customer",
-  "Tooltip": "nam",
-  "Rank": 240,
-  "EnableLeadStatus": false,
-  "CategoryFamilyId": 13,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultCategoryEntity.md)]

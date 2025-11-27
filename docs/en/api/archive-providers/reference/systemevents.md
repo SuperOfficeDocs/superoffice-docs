@@ -17,7 +17,7 @@ Provider base for system events.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"systemevent"|[systemevent]|
+|"systemevent"|systemevent|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

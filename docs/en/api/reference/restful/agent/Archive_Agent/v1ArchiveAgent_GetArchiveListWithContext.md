@@ -103,86 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListWithContext
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "GuiName": "Cormier-Leffler",
-  "ProviderName": "Daniel Group",
-  "SortOrder": [
-    {
-      "Name": "Rohan LLC",
-      "Direction": "ASC"
-    },
-    {
-      "Name": "Rohan LLC",
-      "Direction": "ASC"
-    }
-  ],
-  "Restriction": [
-    {
-      "Name": "Gleason Group",
-      "Operator": "enim",
-      "Values": [
-        "eum",
-        "velit"
-      ],
-      "DisplayValues": [
-        "corporis",
-        "voluptatem"
-      ],
-      "ColumnInfo": null,
-      "IsActive": true,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 65,
-      "InterOperator": "And",
-      "UniqueHash": 804
-    }
-  ],
-  "Entities": [
-    "sunt",
-    "et"
-  ],
-  "Page": 589,
-  "PageSize": 993,
-  "Context": "qui"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListWithContext.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Keeling-Tromp",
-    "PrimaryKey": 453,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "aut",
-        "TooltipHint": "voluptate",
-        "LinkHint": "blanditiis"
-      }
-    },
-    "LinkHint": "corporis",
-    "StyleHint": "adipisci",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListWithContext.md)]

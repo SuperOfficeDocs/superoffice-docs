@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Reason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_GetReasonHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 133,
-    "Name": "Eichmann, Gibson and Marks",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 639,
-    "UdListDefinitionId": 816,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 307
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_GetReasonHeadings.md)]

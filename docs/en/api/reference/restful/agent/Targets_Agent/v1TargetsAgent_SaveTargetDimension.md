@@ -78,55 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/SaveTargetDimension
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetDimensionId": 737,
-  "AssignmentLevel": "Associate",
-  "EntityType": "None",
-  "MeasurementUnit": "Amount",
-  "DimensionListField": "dolorum",
-  "DimensionListName": "Stroman, Jenkins and Keeling",
-  "DimensionListId": 160,
-  "DimensionListLabel": "autem",
-  "SelectedDimensions": [
-    522,
-    986
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_SaveTargetDimension.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetDimensionId": 572,
-  "AssignmentLevel": "Associate",
-  "EntityType": "None",
-  "MeasurementUnit": "Amount",
-  "DimensionListField": "labore",
-  "DimensionListName": "Stamm-Abbott",
-  "DimensionListId": 908,
-  "DimensionListLabel": "ea",
-  "SelectedDimensions": [
-    631,
-    779
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 442
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_SaveTargetDimension.md)]

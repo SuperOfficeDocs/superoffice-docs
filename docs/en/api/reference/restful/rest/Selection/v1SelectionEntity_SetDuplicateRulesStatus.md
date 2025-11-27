@@ -54,34 +54,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Selection/DuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Lang Inc and Sons",
-    "DisplayName": "Rippin Group",
-    "DisplayTooltip": "molestiae",
-    "IsActive": true
-  },
-  {
-    "Name": "Lang Inc and Sons",
-    "DisplayName": "Rippin Group",
-    "DisplayTooltip": "molestiae",
-    "IsActive": true
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_SetDuplicateRulesStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_SetDuplicateRulesStatus.md)]

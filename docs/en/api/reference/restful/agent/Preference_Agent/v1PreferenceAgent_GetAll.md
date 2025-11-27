@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetAll
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescId": 806,
-    "Section": "et",
-    "Key": "id",
-    "Name": "Altenwerth, Donnelly and Streich",
-    "ValueType": "Bool",
-    "MaxLevel": "Database",
-    "SysMaxLevel": "Database",
-    "AccessFlags": "adminGUI",
-    "Description": "Inverse context-sensitive focus group",
-    "IsBuiltin": true,
-    "TableName": "Watsica LLC",
-    "UserDefinedListId": 718,
-    "Rank": 2,
-    "SubGroup": "non",
-    "MinLevel": 128,
-    "MaxValue": 360,
-    "MinValue": 966,
-    "RequiredLicense": "deleniti",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 985
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetAll.md)]

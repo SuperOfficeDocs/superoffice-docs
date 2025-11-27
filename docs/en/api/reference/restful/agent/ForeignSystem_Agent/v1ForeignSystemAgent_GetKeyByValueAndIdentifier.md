@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Mann, Nicolas and Fahey",
-  "DeviceName": "Pagac Group",
-  "DeviceIdentifier": "totam",
-  "KeyName": "Schultz LLC",
-  "KeyValue": "exercitationem",
-  "TableName": "Mayert-Hilll"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetKeyByValueAndIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "eaque",
-  "Value": "debitis",
-  "RecordId": 452,
-  "CreatedDate": "2017-11-22T02:30:47.366331+01:00",
-  "UpdatedDate": "2019-09-09T02:30:47.366331+02:00",
-  "UpdatedBy": "excepturi",
-  "CreatedBy": "quibusdam",
-  "TableName": "Kuhlman, Kihn and Okuneva",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetKeyByValueAndIdentifier.md)]

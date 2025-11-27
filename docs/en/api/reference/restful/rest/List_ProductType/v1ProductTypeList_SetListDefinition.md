@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 53,
-  "Name": "Gaylord LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 216,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 142,
-  "Name": "Jones Inc and Sons",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 111,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_SetListDefinition.md)]

@@ -118,70 +118,8 @@ Dash  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Dash/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "delectus",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "delectus",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1Dash_PatchDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 Dash  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 535,
-  "UniqueId": "dolores",
-  "Name": "Hammes, Renner and Langworth",
-  "Description": "Reverse-engineered static moderator",
-  "AssociateId": 854,
-  "Columns": 527,
-  "Theme": null,
-  "VisibleForAll": 996,
-  "VisibleForAssociates": [
-    769,
-    612
-  ],
-  "VisibleForGroups": [
-    588,
-    380
-  ],
-  "PinForAll": 126,
-  "PinForAssociates": [
-    855,
-    475
-  ],
-  "PinForGroups": [
-    987,
-    147
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Dash_PatchDash.md)]

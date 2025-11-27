@@ -30,8 +30,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=quia
-GET /api/v1/Webhook?eventFilter=consequatur
+GET /api/v1/Webhook?nameFilter=aut
+GET /api/v1/Webhook?eventFilter=quia
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -79,43 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Webhook
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_GetAllWebhooks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebhookId": 673,
-    "Name": "Torphy Inc and Sons",
-    "Events": [
-      "ex",
-      "qui"
-    ],
-    "TargetUrl": "http://www.example.com/",
-    "Secret": "hic",
-    "State": "Active",
-    "Type": "explicabo",
-    "Headers": {
-      "Headers1": "rerum",
-      "Headers2": "minus"
-    },
-    "Properties": {
-      "fieldName": {}
-    },
-    "Registered": "2017-08-11T02:30:53.1786436+02:00",
-    "RegisteredAssociate": null,
-    "Updated": "2016-04-07T02:30:53.1786436+02:00",
-    "UpdatedAssociate": null,
-    "ErrorsEmail": "jaiden_zieme@lesch.co.uk"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_GetAllWebhooks.md)]

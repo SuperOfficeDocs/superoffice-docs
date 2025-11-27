@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | formSubmissionEntityId | int32 | **Required** The identity of the FormSubmissionEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?formSubmissionEntityId=840
+POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?formSubmissionEntityId=748
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_DeleteFormSubmissionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_DeleteFormSubmissionEntity.md)]

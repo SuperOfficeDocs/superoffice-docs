@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"connector"|[??Connector]|
+|"connector"|??Connector|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

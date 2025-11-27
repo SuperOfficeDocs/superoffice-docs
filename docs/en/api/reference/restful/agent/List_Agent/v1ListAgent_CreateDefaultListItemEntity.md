@@ -59,33 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultListItemEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultListItemEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 842,
-  "Name": "Terry, West and Murphy",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 238,
-  "Rank": 5,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultListItemEntity.md)]

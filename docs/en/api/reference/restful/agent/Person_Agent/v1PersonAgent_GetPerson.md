@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=146
+POST /api/v1/Agents/Person/GetPerson?personId=309
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,68 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Position": "et",
-  "PersonId": 448,
-  "Mrmrs": "voluptate",
-  "Firstname": "Dangelo",
-  "Lastname": "Greenholt",
-  "MiddleName": "Christiansen, Harvey and Mosciski",
-  "Title": "voluptatem",
-  "Description": "Grass-roots dynamic secured line",
-  "Email": "isom@crona.uk",
-  "FullName": "Melba Heaney II",
-  "DirectPhone": "1-403-238-7034",
-  "FormalName": "Powlowski, Cruickshank and Barton",
-  "CountryId": 822,
-  "ContactId": 269,
-  "ContactName": "Hintz, Bauch and Weissnat",
-  "Retired": 684,
-  "Rank": 293,
-  "ActiveInterests": 814,
-  "ContactDepartment": "",
-  "ContactCountryId": 786,
-  "ContactOrgNr": "1585873",
-  "FaxPhone": "528-226-4523 x0590",
-  "MobilePhone": "1-850-728-9702",
-  "ContactPhone": "(818)522-0694 x013",
-  "AssociateName": "Weissnat Group",
-  "AssociateId": 904,
-  "UsePersonAddress": false,
-  "ContactFax": "corrupti",
-  "Kanafname": "voluptate",
-  "Kanalname": "sunt",
-  "Post1": "nostrum",
-  "Post2": "et",
-  "Post3": "ut",
-  "EmailName": "kristian@bashirianhayes.biz",
-  "ContactFullName": "Maxie Koelpin",
-  "ActiveErpLinks": 350,
-  "TicketPriorityId": 105,
-  "SupportLanguageId": 847,
-  "SupportAssociateId": 605,
-  "CategoryName": "VIP Customer",
-  "PersonNumber": "589239",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetPerson.md)]

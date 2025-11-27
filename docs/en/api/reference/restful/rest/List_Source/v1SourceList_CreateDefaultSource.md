@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Source/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_CreateDefaultSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 268,
-  "Name": "Robel, Sporer and Christiansen",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 162,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_CreateDefaultSource.md)]

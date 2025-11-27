@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 212,
-    "Name": "Gusikowski-Thiel",
-    "ToolTip": "Eligendi ipsam id accusantium maxime.",
-    "Deleted": false,
-    "Rank": 444,
-    "Type": "sit",
-    "ColorBlock": 162,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2025-08-09T02:30:53.4442597+02:00",
-    "ChildItems": [
-      {
-        "Id": 895,
-        "Name": "Funk-Cassin",
-        "ToolTip": "Sapiente eos eligendi sunt eos.",
-        "Deleted": false,
-        "Rank": 888,
-        "Type": "quas",
-        "ColorBlock": 565,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2006-05-13T02:30:53.4442597+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Prof. Makenzie Kunde II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 396
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Callie Turner Sr.",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 312
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem.md)]

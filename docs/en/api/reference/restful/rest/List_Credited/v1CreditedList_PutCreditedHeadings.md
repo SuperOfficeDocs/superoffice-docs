@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Credited/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 321,
-    "Name": "Gibson-McDermott",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 669,
-    "UdListDefinitionId": 247
-  },
-  {
-    "HeadingId": 321,
-    "Name": "Gibson-McDermott",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 669,
-    "UdListDefinitionId": 247
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_PutCreditedHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 628,
-    "Name": "Dooley Group",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 982,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 893
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_PutCreditedHeadings.md)]

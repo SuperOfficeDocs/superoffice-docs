@@ -62,41 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/MrMrs
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_GetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 129,
-  "Name": "Padberg Inc and Sons",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 369,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 549
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_GetListDefinition.md)]

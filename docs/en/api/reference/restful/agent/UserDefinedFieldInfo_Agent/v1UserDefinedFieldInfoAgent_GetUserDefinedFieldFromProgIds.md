@@ -107,72 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgIds": [
-    "qui",
-    "numquam"
-  ],
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 605,
-    "ColumnId": 123,
-    "FieldDefault": "possimus",
-    "FieldHeight": 738,
-    "FieldLabel": "et",
-    "FieldLeft": 336,
-    "FieldTop": 393,
-    "FieldType": "Checkbox",
-    "FieldWidth": 468,
-    "FormatMask": "dolorem",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 863,
-    "LabelLeft": 287,
-    "LabelTop": 179,
-    "LabelWidth": 126,
-    "LastVersionId": 518,
-    "ListTableId": 52,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 936,
-    "ProgId": "ab",
-    "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 382,
-    "TextLength": 434,
-    "Tooltip": "quam",
-    "UdefIdentity": 92,
-    "UDListDefinitionId": 765,
-    "Justification": "Center",
-    "Version": 430,
-    "TemplateVariableName": "Beahan-Mueller",
-    "HasBeenPublished": false,
-    "MdoListName": "Mayert LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 285
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds.md)]

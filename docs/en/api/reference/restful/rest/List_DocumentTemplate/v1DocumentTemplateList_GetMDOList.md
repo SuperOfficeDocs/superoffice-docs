@@ -27,8 +27,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=voluptas
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=minima
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 317,
-    "Name": "Wolf-Johns",
-    "ToolTip": "Nesciunt et est.",
-    "Deleted": false,
-    "Rank": 203,
-    "Type": "aperiam",
-    "ChildItems": [
-      {
-        "Id": 60,
-        "Name": "Hamill-Rippin",
-        "ToolTip": "Expedita eveniet quis.",
-        "Deleted": false,
-        "Rank": 501,
-        "Type": "nihil",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "minima",
-        "ColorBlock": 61,
-        "ExtraInfo": "facere",
-        "StyleHint": "accusamus",
-        "FullName": "Prof. Shea Hazel Maggio MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 222
-          }
-        }
-      }
-    ],
-    "IconHint": "nostrum",
-    "ColorBlock": 291,
-    "ExtraInfo": "quo",
-    "StyleHint": "aut",
-    "FullName": "Meredith Schuster",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 67
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetMDOList.md)]

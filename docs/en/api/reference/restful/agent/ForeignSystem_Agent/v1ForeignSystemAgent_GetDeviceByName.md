@@ -81,42 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Nader, Pagac and Kunde",
-  "DeviceName": "Olson Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 287,
-  "Name": "Sporer, Kohler and Mills",
-  "CreatedDate": "2010-09-08T02:30:47.366331+02:00",
-  "UpdatedDate": "2016-11-05T02:30:47.366331+01:00",
-  "AssociateFullName": "Janick Jerde",
-  "CreatedBy": "dolores",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "debitis",
-  "ForeignAppId": 444,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 248
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceByName.md)]

@@ -89,52 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectsFromContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 939
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectsFromContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 469,
-    "Name": "Shields, Ondricka and Cummerata",
-    "Description": "Expanded 24 hour workforce",
-    "URL": "http://www.example.com/",
-    "Type": "reiciendis",
-    "AssociateId": 998,
-    "AssociateFullName": "Mr. Ruby Lueilwitz",
-    "TypeId": 528,
-    "Updated": "2003-09-10T02:30:47.6944454+02:00",
-    "StatusId": 127,
-    "Status": "quae",
-    "TextId": 928,
-    "PublishTo": "2011-03-06T02:30:47.6944454+01:00",
-    "PublishFrom": "2009-01-06T02:30:47.6944454+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1600243",
-    "ActiveErpLinks": 25,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectsFromContact.md)]

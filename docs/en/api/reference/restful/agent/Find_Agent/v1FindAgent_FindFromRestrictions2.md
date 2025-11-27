@@ -161,76 +161,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindFromRestrictions2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Restrictions": "ut",
-  "ProviderName": "Bednar LLC",
-  "PageSize": 174,
-  "PageNumber": 862
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindFromRestrictions2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Lindgren LLC",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "quasi",
-      "CanOrderBy": false,
-      "Name": "Senger, O'Keefe and Yost",
-      "CanRestrictBy": false,
-      "RestrictionType": "veritatis",
-      "RestrictionListName": "Powlowski, Walsh and Ziemann",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "ut",
-      "IconHint": "quibusdam",
-      "HeadingIconHint": "et"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Hamill-Greenholt",
-      "PrimaryKey": 434,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "nulla",
-          "TooltipHint": "ut",
-          "LinkHint": "aut"
-        }
-      },
-      "LinkHint": "itaque",
-      "StyleHint": "nesciunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 525
-        }
-      }
-    }
-  ],
-  "RowCount": 334,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindFromRestrictions2.md)]

@@ -90,61 +90,8 @@ DocumentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DocumentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 796,
-  "ColumnId": 846,
-  "FieldDefault": "omnis",
-  "FieldHeight": 94,
-  "FieldLabel": "corporis",
-  "FieldLeft": 823,
-  "FieldTop": 120,
-  "FieldType": "Checkbox",
-  "FieldWidth": 848,
-  "FormatMask": "natus",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 293,
-  "LabelLeft": 564,
-  "LabelTop": 475,
-  "LabelWidth": 710,
-  "LastVersionId": 840,
-  "ListTableId": 405,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 843,
-  "ProgId": "itaque",
-  "IsReadOnly": false,
-  "ShortLabel": "quibusdam",
-  "TabOrder": 190,
-  "TextLength": 281,
-  "Tooltip": "labore",
-  "UdefIdentity": 320,
-  "UDListDefinitionId": 186,
-  "Justification": "Center",
-  "Version": 552,
-  "TemplateVariableName": "Lockman Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Spinka Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetPublishedUdefFieldInfo.md)]

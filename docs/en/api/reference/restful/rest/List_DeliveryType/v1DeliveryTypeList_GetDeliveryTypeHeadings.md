@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_GetDeliveryTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 617,
-    "Name": "Padberg Inc and Sons",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 424,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_GetDeliveryTypeHeadings.md)]

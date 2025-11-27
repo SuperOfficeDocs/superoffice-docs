@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/LegalBase
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 488,
-  "Name": "Lindgren-Buckridge",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 976,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 102,
-  "Name": "Nolan, Feil and Kreiger",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "Rank": 303,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_SetListDefinition.md)]

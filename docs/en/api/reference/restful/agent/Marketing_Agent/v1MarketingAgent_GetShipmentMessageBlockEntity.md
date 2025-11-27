@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=102
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=578
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -73,35 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_GetShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 91,
-  "AssociateId": 478,
-  "Block": "ipsum",
-  "Registered": "1998-08-14T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 13,
-  "Updated": "2013-01-10T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 892,
-  "UpdatedCount": 124,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_GetShipmentMessageBlockEntity.md)]

@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Competitor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 406,
-  "Name": "Corwin, Auer and Mills",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 138,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 850,
-  "Name": "Heidenreich, Langosh and Hackett",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 268,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_SetListDefinition.md)]

@@ -79,51 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/SaveCurrents
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Currents": [
-    {
-      "Rank": 49,
-      "Id": 571,
-      "HistoryName": "Donnelly, Lowe and Schroeder",
-      "HistoryId": 272,
-      "AssociateId": 448,
-      "Name": "Shanahan Inc and Sons",
-      "ItemInfo": "maiores"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_SaveCurrents.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Rank": 361,
-    "Id": 538,
-    "HistoryName": "Wilkinson-Buckridge",
-    "HistoryId": 501,
-    "AssociateId": 838,
-    "Name": "Wyman-Von",
-    "ItemInfo": "quam",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 794
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_SaveCurrents.md)]

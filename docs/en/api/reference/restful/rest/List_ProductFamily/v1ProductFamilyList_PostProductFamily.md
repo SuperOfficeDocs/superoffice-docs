@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProductFamily/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 793,
-  "Name": "VonRueden-Fisher",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 35,
-  "Rank": 311
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_PostProductFamily.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 860,
-  "Name": "Hyatt-Lemke",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 538,
-  "Rank": 720,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_PostProductFamily.md)]

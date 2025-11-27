@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/ResolveTicketId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 67
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_ResolveTicketId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-651
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_ResolveTicketId.md)]

@@ -60,34 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/Duplicates/{name}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Terry, DuBuque and Walker",
-    "SoPrimaryKey": 941,
-    "EntryName": "Kiehn LLC",
-    "EntryIdentifier": "fuga",
-    "RuleDisplayName": "Nikolaus-Murphy",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 895
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetDuplicates.md)]

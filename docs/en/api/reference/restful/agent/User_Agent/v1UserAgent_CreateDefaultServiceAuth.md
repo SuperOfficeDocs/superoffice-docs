@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/CreateDefaultServiceAuth
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_CreateDefaultServiceAuth.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServiceAuthId": 568,
-  "Server": "iusto",
-  "Port": 875,
-  "AuthType": "reiciendis",
-  "Username": "nobis",
-  "Password": "accusantium",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_CreateDefaultServiceAuth.md)]

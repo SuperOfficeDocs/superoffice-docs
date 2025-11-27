@@ -28,7 +28,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=False
+GET /api/v1/List/Task/Items?includeDeleted=True
 ```
 
 
@@ -76,42 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetAllTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TaskListItemId": 764,
-    "Value": "voluptate",
-    "Direction": "Incoming",
-    "Type": "Appointment",
-    "Tooltip": "doloribus",
-    "Deleted": true,
-    "IntentId": 536,
-    "Rank": 620,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": false,
-    "ColorIndex": "BlueAlt1",
-    "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 452
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetAllTaskListItem.md)]

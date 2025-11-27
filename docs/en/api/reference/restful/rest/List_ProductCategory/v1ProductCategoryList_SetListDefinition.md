@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductCategory
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 279,
-  "Name": "Hodkiewicz LLC",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "Rank": 129,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 137,
-  "Name": "Carter Group",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 192,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_SetListDefinition.md)]

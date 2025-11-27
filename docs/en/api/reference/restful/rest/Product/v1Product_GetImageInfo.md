@@ -70,41 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Product/{productId}/ImageInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1Product_GetImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Jun 2012 02:30:53 G6T
-
-{
-  "BlobId": 141,
-  "BlobSize": 34,
-  "Description": "Optimized scalable capacity",
-  "ExtraInfo": "eius",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 915,
-  "CreatedDate": "2017-09-22T02:30:53.0536477+02:00",
-  "UpdatedDate": "2012-06-02T02:30:53.0536477+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "ab",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Product_GetImageInfo.md)]

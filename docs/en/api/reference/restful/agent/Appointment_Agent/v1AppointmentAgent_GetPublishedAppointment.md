@@ -126,87 +126,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetPublishedAppointment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 368
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetPublishedAppointment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 866,
-  "StartDate": "2004-01-31T02:30:46.522607+01:00",
-  "EndDate": "2005-06-19T02:30:46.522607+02:00",
-  "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Mrs. Amaya Ortiz III",
-  "ContactName": "Lueilwitz LLC",
-  "Description": "Integrated interactive capability",
-  "PersonFullName": "Pauline Werner Hane I",
-  "PersonId": 575,
-  "ContactId": 922,
-  "ProjectId": 754,
-  "ProjectName": "Will, McKenzie and Anderson",
-  "IsPublished": false,
-  "AssociateId": 907,
-  "ColorIndex": 281,
-  "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
-  "Private": "PrivateGroup",
-  "PriorityId": 456,
-  "PriorityName": "Champlin-Mraz",
-  "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2023-04-24T02:30:46.522607+02:00",
-  "AssignmentStatus": "Assigning",
-  "InvitationStatus": "Accepted",
-  "BookingType": "None",
-  "Completed": "Completed",
-  "RecurringPattern": "Custom",
-  "RecurringStartDate": "2016-04-26T02:30:46.522607+02:00",
-  "RecurringEndDate": "2016-07-05T02:30:46.522607+02:00",
-  "MotherId": 288,
-  "AssignedBy": 322,
-  "AssignedByFullName": "Eudora Sipes MD",
-  "RejectReason": "",
-  "Location": "odit",
-  "AlarmLeadTime": "consectetur",
-  "SaleId": 2,
-  "SaleName": "Wuckert Group",
-  "AssociateName": "Mills, Nienow and Zemlak",
-  "CreatedDate": "2011-10-25T02:30:46.522607+02:00",
-  "CreatedBy": "sed",
-  "CreatedByFullName": "Mrs. Armand Joel Greenholt III",
-  "CreatedByAssociateId": 21,
-  "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-  "OwnedExternally": "Google",
-  "MotherAssociateId": 628,
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 890,
-  "Title": "porro",
-  "Agenda": "fuga",
-  "InternalNotes": "repellendus",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 352
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetPublishedAppointment.md)]

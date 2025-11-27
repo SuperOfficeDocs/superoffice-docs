@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 594,
-    "Name": "Labadie, Bradtke and Macejkovic",
-    "ToolTip": "Et rem ipsa voluptate facere.",
-    "Deleted": false,
-    "Rank": 334,
-    "Type": "dolore",
-    "ColorBlock": 625,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "2022-08-13T02:30:53.4442597+02:00",
-    "ChildItems": [
-      {
-        "Id": 712,
-        "Name": "Bernier, Huel and Schaefer",
-        "ToolTip": "Repellendus porro culpa asperiores est.",
-        "Deleted": true,
-        "Rank": 698,
-        "Type": "voluptatem",
-        "ColorBlock": 831,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "2017-12-29T02:30:53.4442597+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sint",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Moises Dare Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 123
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Zion Paucek",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 685
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem.md)]

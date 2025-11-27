@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Credited/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 540,
-    "Name": "Ferry, Krajcik and Nolan",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 178
-  },
-  {
-    "Id": 540,
-    "Name": "Ferry, Krajcik and Nolan",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 178
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_PutAllCredited.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 31,
-    "Name": "Mitchell Group",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "UdListDefinitionId": 618,
-    "Rank": 273,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 652
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_PutAllCredited.md)]

@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 921
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetErpConnectionConfigFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "dolore",
-  "2": "provident"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetErpConnectionConfigFields.md)]

@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Source/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_GetSourceUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 221,
-    "Name": "Larkin-Blick",
-    "ToolTip": "Voluptatibus cumque est.",
-    "Deleted": true,
-    "Rank": 808,
-    "Type": "neque",
-    "ColorBlock": 963,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2014-11-09T02:30:53.4598845+01:00",
-    "ChildItems": [
-      {
-        "Id": 728,
-        "Name": "Ortiz-Purdy",
-        "ToolTip": "Similique tempora aperiam sed porro nemo.",
-        "Deleted": false,
-        "Rank": 72,
-        "Type": "quae",
-        "ColorBlock": 973,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2005-01-04T02:30:53.4598845+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Ramona Hammes",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 847
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mr. Conor Kassulke",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_GetSourceUserGroupsForListItem.md)]

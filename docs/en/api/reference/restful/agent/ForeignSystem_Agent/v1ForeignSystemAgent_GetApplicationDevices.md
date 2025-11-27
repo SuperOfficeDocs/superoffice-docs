@@ -80,43 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Wehner Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetApplicationDevices.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ForeignDeviceId": 42,
-    "Name": "Murazik Inc and Sons",
-    "CreatedDate": "2000-09-05T02:30:47.366331+02:00",
-    "UpdatedDate": "2017-09-08T02:30:47.366331+02:00",
-    "AssociateFullName": "Dr. Asha Giuseppe Koch",
-    "CreatedBy": "ut",
-    "UpdatedBy": "dolore",
-    "DeviceIdentifier": "quam",
-    "ForeignAppId": 211,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 515
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetApplicationDevices.md)]

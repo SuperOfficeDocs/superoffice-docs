@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestiae
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=quas
 ```
 
 
@@ -77,36 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetKeyByValueAndIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Sep 2002 02:30:52 G9T
-
-{
-  "Key": "beatae",
-  "Value": "minima",
-  "RecordId": 992,
-  "CreatedDate": "2008-06-14T02:30:52.6630355+02:00",
-  "UpdatedDate": "2002-09-14T02:30:52.6630355+02:00",
-  "UpdatedBy": "aspernatur",
-  "CreatedBy": "perferendis",
-  "TableName": "Cormier LLC",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 284
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetKeyByValueAndIdentifier.md)]

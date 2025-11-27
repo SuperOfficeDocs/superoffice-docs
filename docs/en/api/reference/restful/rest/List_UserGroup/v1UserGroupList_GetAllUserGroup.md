@@ -68,34 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/UserGroup/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1UserGroupList_GetAllUserGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Value": "ut",
-    "Tooltip": "hic",
-    "Id": 938,
-    "Rank": 710,
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 768
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1UserGroupList_GetAllUserGroup.md)]

@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Info": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-417
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId.md)]

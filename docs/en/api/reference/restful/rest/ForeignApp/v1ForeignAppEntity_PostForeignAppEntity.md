@@ -86,81 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ForeignApp
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 312,
-  "Name": "Dibbert, Murphy and Hartmann",
-  "CreatedDate": "2024-12-14T02:30:52.6474115+01:00",
-  "UpdatedDate": "1999-11-24T02:30:52.6474115+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 545,
-      "Name": "Kling-Mayer",
-      "CreatedDate": "2002-07-11T02:30:52.6474115+02:00",
-      "UpdatedDate": "2007-08-09T02:30:52.6474115+02:00",
-      "AssociateFullName": "Ms. Rafaela Leda Greenfelder III",
-      "CreatedBy": "debitis",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 640
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_PostForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 679,
-  "Name": "Runolfsdottir Inc and Sons",
-  "CreatedDate": "2017-12-15T02:30:52.6474115+01:00",
-  "UpdatedDate": "2020-05-03T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 993,
-      "Name": "Ryan LLC",
-      "CreatedDate": "2010-04-12T02:30:52.6474115+02:00",
-      "UpdatedDate": "2022-12-18T02:30:52.6474115+01:00",
-      "AssociateFullName": "Deron Casper",
-      "CreatedBy": "tempore",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "dolor",
-      "ForeignAppId": 479,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_PostForeignAppEntity.md)]

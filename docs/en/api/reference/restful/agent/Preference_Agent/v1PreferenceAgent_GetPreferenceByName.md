@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferenceByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefSection": "incidunt",
-  "PrefKey": "quas",
-  "PrefLevel": "Database"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferenceByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "quo",
-  "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "et",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 169,
-  "PrefDescId": 536,
-  "TableName": "Kemmer, Gerhold and Herzog",
-  "UserPreferenceId": 147,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferenceByName.md)]

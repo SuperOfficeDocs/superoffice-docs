@@ -77,43 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Rating/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleStageId": 428,
-  "Value": "esse",
-  "Tooltip": "temporibus",
-  "Probability": 662,
-  "Deleted": false,
-  "Rank": 117
-}
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_PutSaleStageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleStageId": 482,
-  "Value": "dolorem",
-  "Tooltip": "incidunt",
-  "Probability": 765,
-  "Deleted": false,
-  "Rank": 643,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_PutSaleStageEntity.md)]

@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/PaymentTerm/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 641,
-  "Name": "Reichel-Kertzmann",
-  "Tooltip": "quas",
-  "Deleted": true,
-  "Rank": 812,
-  "UdListDefinitionId": 351
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_PostPaymentTermHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 845,
-  "Name": "Bradtke, Veum and O'Keefe",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 989,
-  "UdListDefinitionId": 423,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_PostPaymentTermHeading.md)]

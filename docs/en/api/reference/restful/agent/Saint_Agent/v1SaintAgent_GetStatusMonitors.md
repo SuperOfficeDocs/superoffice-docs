@@ -87,50 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/GetStatusMonitors
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 219,
-  "Type": "saepe"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_GetStatusMonitors.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "OwnerTable": 159,
-    "Rank": 488,
-    "DefaultTask": 788,
-    "DefaultTaskText": "consequatur",
-    "IsVisual": false,
-    "LastGenerated": "2023-06-24T02:30:47.7569437+02:00",
-    "Description": "Profit-focused discrete application",
-    "Name": "Hirthe, Ferry and Thompson",
-    "StatusMonitorId": 201,
-    "PictureId": 238,
-    "NeedsUpdate": false,
-    "Deleted": true,
-    "NumMatches": 716,
-    "NumNeedUpdate": 178,
-    "GenerationStart": "2012-10-11T02:30:47.7569437+02:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 133
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_GetStatusMonitors.md)]

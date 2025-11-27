@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=823
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=851
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Relation/GetContactRelationEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1RelationAgent_GetContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 223,
-  "SourcePersonId": 876,
-  "DestinationContactId": 484,
-  "DestinationPersonId": 583,
-  "RelationId": 996,
-  "Comment": "quibusdam",
-  "RelationDefinitionId": 537,
-  "Reversed": 952,
-  "UpdatedDate": "2017-11-05T02:30:47.7413192+01:00",
-  "CreatedDate": "2008-11-21T02:30:47.7413192+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Schmeler LLC",
-  "SourcePersonName": "Robel Group",
-  "DestinationContactName": "Kessler Group",
-  "DestinationPersonName": "Lynch-Christiansen",
-  "ActiveText": "ea",
-  "PassiveText": "dolor",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1RelationAgent_GetContactRelationEntity.md)]

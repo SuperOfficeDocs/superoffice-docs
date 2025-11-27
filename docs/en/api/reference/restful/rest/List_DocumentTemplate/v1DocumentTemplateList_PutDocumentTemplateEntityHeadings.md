@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DocumentTemplate/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 483,
-    "Name": "Bahringer-Halvorson",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 5
-  },
-  {
-    "HeadingId": 483,
-    "Name": "Bahringer-Halvorson",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 5
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_PutDocumentTemplateEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 395,
-    "Name": "Jacobi-Stehr",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 573,
-    "UdListDefinitionId": 566,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 681
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_PutDocumentTemplateEntityHeadings.md)]

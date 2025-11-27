@@ -107,67 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldLabel": "autem",
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 442,
-  "ColumnId": 836,
-  "FieldDefault": "velit",
-  "FieldHeight": 315,
-  "FieldLabel": "impedit",
-  "FieldLeft": 94,
-  "FieldTop": 146,
-  "FieldType": "Checkbox",
-  "FieldWidth": 133,
-  "FormatMask": "sed",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 278,
-  "LabelLeft": 454,
-  "LabelTop": 731,
-  "LabelWidth": 675,
-  "LastVersionId": 178,
-  "ListTableId": 871,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 312,
-  "ProgId": "molestiae",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 229,
-  "TextLength": 851,
-  "Tooltip": "vitae",
-  "UdefIdentity": 436,
-  "UDListDefinitionId": 179,
-  "Justification": "Center",
-  "Version": 790,
-  "TemplateVariableName": "Cormier Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Heller-Grant",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel.md)]

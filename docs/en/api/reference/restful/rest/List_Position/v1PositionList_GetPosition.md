@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_GetPosition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 862,
-  "Name": "Weimann-Gerlach",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "UdListDefinitionId": 927,
-  "Rank": 869,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_GetPosition.md)]

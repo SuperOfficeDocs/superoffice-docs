@@ -33,7 +33,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Schimmel-Hauck
+POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Hudson, Heathcote and Bednar
 POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
 POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 ```
@@ -108,151 +108,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/ExecuteUserCommand
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 461,
-  "Name": "Johns-Wiegand",
-  "Rank": 214,
-  "Tooltip": "aliquam",
-  "LicenseOwners": [
-    {
-      "Name": "Dickinson-Gulgowski",
-      "Description": "Fully-configurable system-worthy info-mediaries",
-      "RestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "UnrestrictedModuleLicenses": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Dickinson-Gulgowski",
-      "Description": "Fully-configurable system-worthy info-mediaries",
-      "RestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "UnrestrictedModuleLicenses": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "Role": null,
-  "UserGroup": null,
-  "OtherGroups": [
-    {
-      "Value": "explicabo",
-      "Tooltip": "rem",
-      "Id": 328,
-      "Rank": 61,
-      "Deleted": false
-    },
-    {
-      "Value": "explicabo",
-      "Tooltip": "rem",
-      "Id": 328,
-      "Rank": 61,
-      "Deleted": false
-    }
-  ],
-  "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2019-09-21T02:30:48.1006818+02:00",
-  "Lastlogout": "2001-10-14T02:30:48.1006818+02:00",
-  "EjUserId": 282,
-  "RequestSignature": "recusandae",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "placeat",
-      "DisplayValue": "suscipit"
-    },
-    {
-      "Type": null,
-      "Value": "placeat",
-      "DisplayValue": "suscipit"
-    }
-  ],
-  "UserName": "Keeling, Block and Feil",
-  "TicketCategories": [
-    {
-      "Id": 283,
-      "Name": "Moore, Leuschke and Hartmann",
-      "ToolTip": "Sed id asperiores et earum iste.",
-      "Deleted": true,
-      "Rank": 101,
-      "Type": "dignissimos",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ea",
-      "ColorBlock": 410,
-      "ExtraInfo": "iste",
-      "StyleHint": "distinctio",
-      "FullName": "Beth O'Hara"
-    }
-  ],
-  "NickName": "Tillman, Rogahn and Stroman",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "suscipit"
-  },
-  "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "non"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Jaskolski Inc and Sons",
-      "DisplayName": "Buckridge, Dare and Lesch",
-      "Description": "Fundamental full-range intranet",
-      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
-      "Actions": "Implicit",
-      "ActionData": "numquam"
-    },
-    {
-      "Name": "Jaskolski Inc and Sons",
-      "DisplayName": "Buckridge, Dare and Lesch",
-      "Description": "Fundamental full-range intranet",
-      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
-      "Actions": "Implicit",
-      "ActionData": "numquam"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_ExecuteUserCommand.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": false,
-  "Message": "ex",
-  "Result": "Cancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_ExecuteUserCommand.md)]

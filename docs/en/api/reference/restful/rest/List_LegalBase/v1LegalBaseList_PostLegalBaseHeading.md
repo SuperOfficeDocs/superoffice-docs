@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/LegalBase/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 989,
-  "Name": "Bogan-Haag",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 297,
-  "UdListDefinitionId": 702
-}
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_PostLegalBaseHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 540,
-  "Name": "Parisian-Labadie",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 348,
-  "UdListDefinitionId": 93,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 13
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_PostLegalBaseHeading.md)]

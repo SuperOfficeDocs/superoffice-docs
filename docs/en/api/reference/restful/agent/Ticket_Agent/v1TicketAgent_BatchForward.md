@@ -73,40 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/BatchForward
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketIds": [
-    435,
-    512
-  ],
-  "To": [
-    "et",
-    "qui"
-  ],
-  "Cc": [
-    "mollitia",
-    "quos"
-  ],
-  "Bcc": [
-    "assumenda",
-    "itaque"
-  ],
-  "Comment": "saepe",
-  "CloseTicket": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_BatchForward.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-509
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_BatchForward.md)]

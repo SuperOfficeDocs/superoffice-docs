@@ -69,30 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentProperties
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 4,
-  "RequestedProperties": [
-    "maiores",
-    "tempora"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentProperties.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "quia",
-  "2": "eligendi"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentProperties.md)]

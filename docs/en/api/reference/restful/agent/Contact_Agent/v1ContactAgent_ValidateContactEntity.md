@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/ValidateContactEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_ValidateContactEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "id",
-  "2": "omnis"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_ValidateContactEntity.md)]

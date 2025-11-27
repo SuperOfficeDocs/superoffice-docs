@@ -65,47 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetTabOrders
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetTabOrders.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TabOrderId": 410,
-    "TabName": "O'Keefe-Ledner",
-    "Order": "occaecati",
-    "AssociateId": 677,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
-      }
-    }
-  },
-  {
-    "TabOrderId": 410,
-    "TabName": "O'Keefe-Ledner",
-    "Order": "occaecati",
-    "AssociateId": 677,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetTabOrders.md)]

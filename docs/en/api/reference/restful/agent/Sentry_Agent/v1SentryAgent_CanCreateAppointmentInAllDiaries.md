@@ -60,18 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sentry/CanCreateAppointmentInAllDiaries
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1SentryAgent_CanCreateAppointmentInAllDiaries.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-true
-```
+[!include[sample response](../../samples/agent/response/v1SentryAgent_CanCreateAppointmentInAllDiaries.md)]

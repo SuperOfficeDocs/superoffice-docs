@@ -96,59 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllDocumentTemplates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllDocumentTemplates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentTemplateId": 589,
-    "Name": "Beahan-Treutel",
-    "Tooltip": "omnis",
-    "SaveInDb": 135,
-    "Filename": "aspernatur",
-    "DefaultOref": "natus",
-    "RecordType": "Appointment",
-    "Deleted": true,
-    "Direction": "Incoming",
-    "AutoeventId": 980,
-    "IntentId": 216,
-    "IsDefaultPublished": false,
-    "Rank": 591,
-    "LoadTemplateFromPlugin": 466,
-    "MimeType": "qui",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 911,
-    "QuoteDocType": "ConfirmationLines",
-    "PrivacyDocType": "None",
-    "EmailSubject": "luisa@kozeypadberg.biz",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
-    "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "lisandro@kihn.info",
-    "InvitationDocType": "Cancelled",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllDocumentTemplates.md)]

@@ -85,64 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "EventData": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_ExecuteEventHandlers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "ChatAfterSaveNewMessage",
-  "InputValues": {
-    "InputValues1": "consectetur",
-    "InputValues2": "incidunt"
-  },
-  "BlockExecution": false,
-  "NavigateTo": "quibusdam",
-  "Message": "exercitationem",
-  "ShowDialog": "excepturi",
-  "OutputValues": {
-    "OutputValues1": "expedita",
-    "OutputValues2": "alias"
-  },
-  "StateValues": {
-    "StateValues1": "doloribus",
-    "StateValues2": "exercitationem"
-  },
-  "Exception": "aut",
-  "ParserValues": {
-    "ParserValues1": "rem",
-    "ParserValues2": "rem"
-  },
-  "CgiVariables": {
-    "CgiVariables1": "iusto",
-    "CgiVariables2": "culpa"
-  },
-  "CgiContent": "dolores",
-  "Headers": {
-    "Headers1": "dolor",
-    "Headers2": "voluptate"
-  },
-  "TraceExecution": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_ExecuteEventHandlers.md)]

@@ -74,80 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 366
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetDynamicSelectionCriteriaGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Weber-Grant",
-    "Description": "Sharable tertiary knowledge user",
-    "Rank": 624,
-    "Restrictions": [
-      {
-        "Name": "Lakin, Hilll and Beer",
-        "Operator": "et",
-        "Values": [
-          "autem",
-          "ratione"
-        ],
-        "DisplayValues": [
-          "ipsam",
-          "esse"
-        ],
-        "ColumnInfo": null,
-        "IsActive": false,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 37,
-        "InterOperator": "And",
-        "UniqueHash": 756
-      }
-    ]
-  },
-  {
-    "Name": "Weber-Grant",
-    "Description": "Sharable tertiary knowledge user",
-    "Rank": 624,
-    "Restrictions": [
-      {
-        "Name": "Lakin, Hilll and Beer",
-        "Operator": "et",
-        "Values": [
-          "autem",
-          "ratione"
-        ],
-        "DisplayValues": [
-          "ipsam",
-          "esse"
-        ],
-        "ColumnInfo": null,
-        "IsActive": false,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 37,
-        "InterOperator": "And",
-        "UniqueHash": 756
-      }
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetDynamicSelectionCriteriaGroups.md)]

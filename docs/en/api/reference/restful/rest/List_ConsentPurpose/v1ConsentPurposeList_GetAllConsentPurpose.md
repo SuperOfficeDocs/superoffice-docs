@@ -66,42 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentPurpose/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_GetAllConsentPurpose.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConsentPurposeId": 600,
-    "Name": "Hauck-Beatty",
-    "ConsentText": "qui",
-    "FormText": "quaerat",
-    "Key": "quasi",
-    "Tooltip": "quia",
-    "Active": 574,
-    "UpdatedDate": "2010-08-21T02:30:53.2255171+02:00",
-    "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 704,
-    "PrivacyStatementDesc": "iure",
-    "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_GetAllConsentPurpose.md)]

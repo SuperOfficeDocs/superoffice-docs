@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/AddNewTileToDashboard
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 749,
-  "DashTileDefinition": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_AddNewTileToDashboard.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 377,
-  "DashboardId": 991,
-  "Height": 794,
-  "Width": 440,
-  "Rank": 979,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_AddNewTileToDashboard.md)]

@@ -68,25 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 752,
-  "Type": "ratione",
-  "PublicValue": "quia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_RemoveUntrustedCredentialsForAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_RemoveUntrustedCredentialsForAssociate.md)]

@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 228,
-    "Name": "Ankunding Group",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "UdListDefinitionId": 713,
-    "Rank": 37
-  },
-  {
-    "Id": 228,
-    "Name": "Ankunding Group",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "UdListDefinitionId": 713,
-    "Rank": 37
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_PutAllPaymentType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 822,
-    "Name": "Pollich Inc and Sons",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 655,
-    "Rank": 4,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_PutAllPaymentType.md)]

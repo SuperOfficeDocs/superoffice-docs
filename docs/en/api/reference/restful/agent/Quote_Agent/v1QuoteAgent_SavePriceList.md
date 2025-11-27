@@ -80,51 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SavePriceList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 338,
-  "ERPPriceListKey": "illum",
-  "QuoteConnectionId": 694,
-  "Name": "Jerde Group",
-  "Description": "Profound 3rd generation structure",
-  "Currency": "nam",
-  "CurrencyName": "Wintheiser, Dickinson and Murphy",
-  "ValidFrom": "2006-04-28T02:30:47.7100701+02:00",
-  "ValidTo": "2004-07-17T02:30:47.7100701+02:00",
-  "IsActive": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SavePriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 732,
-  "ERPPriceListKey": "inventore",
-  "QuoteConnectionId": 684,
-  "Name": "Pfannerstill, Thiel and Renner",
-  "Description": "Self-enabling fault-tolerant conglomeration",
-  "Currency": "consectetur",
-  "CurrencyName": "Daugherty, Towne and Weber",
-  "ValidFrom": "2014-09-01T02:30:47.7100701+02:00",
-  "ValidTo": "2014-11-14T02:30:47.7100701+01:00",
-  "IsActive": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SavePriceList.md)]

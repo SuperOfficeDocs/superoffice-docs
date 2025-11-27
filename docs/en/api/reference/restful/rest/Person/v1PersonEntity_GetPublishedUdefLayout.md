@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 218,
-    "ColumnId": 946,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 60,
-    "FieldLabel": "modi",
-    "FieldLeft": 912,
-    "FieldTop": 964,
-    "FieldType": "Checkbox",
-    "FieldWidth": 142,
-    "FormatMask": "dolore",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 545,
-    "LabelLeft": 519,
-    "LabelTop": 337,
-    "LabelWidth": 314,
-    "LastVersionId": 653,
-    "ListTableId": 255,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 99,
-    "ProgId": "repellat",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 136,
-    "TextLength": 172,
-    "Tooltip": "corrupti",
-    "UdefIdentity": 505,
-    "UDListDefinitionId": 705,
-    "Justification": "Center",
-    "Version": 6,
-    "TemplateVariableName": "Cummings-Dibbert",
-    "HasBeenPublished": true,
-    "MdoListName": "Kuhlman, Mann and Ryan",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetPublishedUdefLayout.md)]

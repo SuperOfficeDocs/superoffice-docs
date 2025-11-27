@@ -75,27 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SetUserPresenceStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 331,
-  "UserPresenceStatus": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SetUserPresenceStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Status": "StatusDeleted",
-  "Message": "aut"
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SetUserPresenceStatus.md)]

@@ -54,18 +54,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Selection/{selectionId}/Members/Remove
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_RemoveSelectionMembersById.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_RemoveSelectionMembersById.md)]

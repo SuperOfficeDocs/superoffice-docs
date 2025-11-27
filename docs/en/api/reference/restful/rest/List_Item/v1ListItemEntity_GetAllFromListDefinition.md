@@ -71,35 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionId}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetAllFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 140,
-    "Name": "Kling LLC",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "UdListDefinitionId": 601,
-    "Rank": 117,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetAllFromListDefinition.md)]

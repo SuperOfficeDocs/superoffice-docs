@@ -167,40 +167,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Little, Bahringer and Kunde",
-  "Restrictions": "fuga"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayName": "Dietrich LLC",
-    "DisplayTooltip": "corrupti",
-    "DisplayType": "repellat",
-    "CanOrderBy": true,
-    "Name": "Veum LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "modi",
-    "RestrictionListName": "Grant LLC",
-    "IsVisible": false,
-    "ExtraInfo": "quidem",
-    "Width": "sed",
-    "IconHint": "nisi",
-    "HeadingIconHint": "dolorem"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2.md)]

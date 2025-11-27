@@ -89,67 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/SaveWebhook
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 77,
-  "Name": "Herzog, Russel and Kessler",
-  "Events": [
-    "et",
-    "ipsa"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
-  "State": "Active",
-  "Type": "saepe",
-  "Headers": {
-    "Headers1": "debitis",
-    "Headers2": "corporis"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2015-05-26T02:30:48.1475549+02:00",
-  "RegisteredAssociate": null,
-  "Updated": "2025-06-13T02:30:48.1475549+02:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "keaton@oconner.biz"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_SaveWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 425,
-  "Name": "Durgan Group",
-  "Events": [
-    "neque",
-    "corporis"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "tempora",
-  "State": "Active",
-  "Type": "qui",
-  "Headers": {
-    "Headers1": "at",
-    "Headers2": "quia"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2008-08-11T02:30:48.1475549+02:00",
-  "RegisteredAssociate": null,
-  "Updated": "2017-08-21T02:30:48.1475549+02:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "marcos@reicheljohnson.com"
-}
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_SaveWebhook.md)]

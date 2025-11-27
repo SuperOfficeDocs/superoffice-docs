@@ -35,6 +35,7 @@ Addresses that are ready to be sent in a shipment.
 |cleaned|Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list|Bool|&#x25CF;|
 |workflow\_step\_id|The row was created by this workflow step|FK [workflow_step](workflow-step.md)|&#x25CF;|
 |workflow\_instance\_id|The row was created by this workflow instance|FK [workflow_instance](workflow-instance.md)|&#x25CF;|
+|owner\_lock|A guid to set when trying to send to that address, to ensure no other ejsender also try to send it|String(255)|&#x25CF;|
 
 
 ![s_shipment_addr table relationship diagram](./media/s_shipment_addr.png)

@@ -76,37 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 563
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteVersionWorkflowImageState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Action": "Approve",
-  "ImageHint": "qui",
-  "DisplayText": "ut",
-  "TooltipText": "nostrum",
-  "Enabled": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteVersionWorkflowImageState.md)]

@@ -75,49 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultWebPanelEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 168,
-  "Name": "Collier-Hettinger",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 137,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wehner, Cassin and Berge",
-  "Url": "http://www.example.com/",
-  "ProgId": "dolorem",
-  "Icon": 742,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultWebPanelEntity.md)]

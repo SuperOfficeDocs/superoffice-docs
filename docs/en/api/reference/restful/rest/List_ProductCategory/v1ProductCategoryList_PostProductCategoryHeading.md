@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProductCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 461,
-  "Name": "Weber-Medhurst",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 21,
-  "UdListDefinitionId": 678
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_PostProductCategoryHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 875,
-  "Name": "Daugherty-Huel",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 537,
-  "UdListDefinitionId": 757,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 203
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_PostProductCategoryHeading.md)]

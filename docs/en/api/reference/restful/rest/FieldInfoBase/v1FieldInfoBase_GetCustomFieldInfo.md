@@ -68,33 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Schema/{tableName}/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1FieldInfoBase_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Howell Inc and Sons",
-  "DisplayName": "Dooley-Schuppe",
-  "Description": "Reactive interactive capacity",
-  "ShortLabel": "earum",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 35,
-  "TemplateVariableName": "Kuhlman Group"
-}
-```
+[!include[sample response](../../samples/rest/response/v1FieldInfoBase_GetCustomFieldInfo.md)]

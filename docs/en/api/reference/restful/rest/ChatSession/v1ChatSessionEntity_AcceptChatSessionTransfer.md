@@ -88,58 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_AcceptChatSessionTransfer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 507,
-  "TopicId": 97,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "excepturi",
-  "CustomerHost": "doloremque",
-  "CustomerName": "DuBuque-Robel",
-  "CustomerEmail": "king_huels@oconnell.us",
-  "CustomerPhone": "(554)404-4959 x82439",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Leannon Inc and Sons",
-  "Status": "Closed",
-  "FirstMessage": "pariatur",
-  "LastMessage": "magnam",
-  "WhenRequested": "2019-07-07T02:30:52.3974196+02:00",
-  "WhenStarted": "2006-04-02T02:30:52.3974196+02:00",
-  "WhenEnded": "2007-02-04T02:30:52.3974196+01:00",
-  "WhenIdle": "2007-10-11T02:30:52.3974196+02:00",
-  "WhenFetched": "2018-02-04T02:30:52.3974196+01:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 811,
-  "AlertLevel": 150,
-  "Rank": 697,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 853,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 635
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_AcceptChatSessionTransfer.md)]

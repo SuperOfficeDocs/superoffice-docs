@@ -106,67 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Info": null,
-  "SelectedListId": 602
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 16,
-  "ColumnId": 665,
-  "FieldDefault": "maxime",
-  "FieldHeight": 64,
-  "FieldLabel": "earum",
-  "FieldLeft": 627,
-  "FieldTop": 340,
-  "FieldType": "Checkbox",
-  "FieldWidth": 548,
-  "FormatMask": "dignissimos",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 111,
-  "LabelLeft": 754,
-  "LabelTop": 160,
-  "LabelWidth": 89,
-  "LastVersionId": 699,
-  "ListTableId": 207,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 726,
-  "ProgId": "nemo",
-  "IsReadOnly": true,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 540,
-  "TextLength": 599,
-  "Tooltip": "esse",
-  "UdefIdentity": 797,
-  "UDListDefinitionId": 141,
-  "Justification": "Center",
-  "Version": 293,
-  "TemplateVariableName": "Ledner-Gutmann",
-  "HasBeenPublished": false,
-  "MdoListName": "Considine Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId.md)]

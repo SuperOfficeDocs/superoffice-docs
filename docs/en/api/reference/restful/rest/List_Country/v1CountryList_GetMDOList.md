@@ -27,8 +27,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=laboriosam
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=iure
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 851,
-    "Name": "Mueller, Brakus and Walter",
-    "ToolTip": "Dolores reiciendis dolor.",
-    "Deleted": false,
-    "Rank": 585,
-    "Type": "ut",
-    "ChildItems": [
-      {
-        "Id": 190,
-        "Name": "Ward-Wisozk",
-        "ToolTip": "Similique doloremque.",
-        "Deleted": false,
-        "Rank": 842,
-        "Type": "illo",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sequi",
-        "ColorBlock": 721,
-        "ExtraInfo": "tempore",
-        "StyleHint": "eligendi",
-        "FullName": "Prof. Zakary Alta Moen II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 85
-          }
-        }
-      }
-    ],
-    "IconHint": "quod",
-    "ColorBlock": 33,
-    "ExtraInfo": "molestias",
-    "StyleHint": "quae",
-    "FullName": "Mr. Patricia Matteo Dibbert",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetMDOList.md)]

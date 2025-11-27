@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/SaveErpConnectionSyncPriorities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionIds": [
-    511,
-    674
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_SaveErpConnectionSyncPriorities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_SaveErpConnectionSyncPriorities.md)]

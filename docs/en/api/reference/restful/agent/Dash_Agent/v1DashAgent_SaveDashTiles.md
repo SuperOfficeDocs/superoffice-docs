@@ -64,41 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashTiles
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 150,
-  "DashTiles": [
-    {
-      "DashboardTileId": 503,
-      "DashboardId": 905,
-      "Height": 962,
-      "Width": 361,
-      "Rank": 38,
-      "DashTileDefinition": null
-    },
-    {
-      "DashboardTileId": 503,
-      "DashboardId": 905,
-      "Height": 962,
-      "Width": 361,
-      "Rank": 38,
-      "DashTileDefinition": null
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashTiles.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashTiles.md)]

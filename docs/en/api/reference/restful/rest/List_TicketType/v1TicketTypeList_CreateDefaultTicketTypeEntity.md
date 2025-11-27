@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketType/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_CreateDefaultTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 123,
-  "Name": "Huels Inc and Sons",
-  "Rank": 433,
-  "Tooltip": "nesciunt",
-  "Icon": "nulla",
-  "DefaultTicketStatus": 865,
-  "TicketStatuses": [
-    773,
-    151
-  ],
-  "DefaultTicketPriority": 340,
-  "TicketPriorities": [
-    75,
-    285
-  ],
-  "ReplyTemplate": 479,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
-  "VisibleForGroups": [
-    114,
-    598
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_CreateDefaultTicketTypeEntity.md)]

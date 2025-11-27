@@ -77,54 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ListMapping": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_SaveConnectionListMappings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpListItemMappings": [
-    {
-      "CrmList": null,
-      "ErpListName": "Simonis, Oberbrunner and Wyman",
-      "ErpCrmListItemMappings": [
-        {},
-        {}
-      ],
-      "ErpActorTypeName": "Sauer, Bergstrom and Pouros",
-      "ErpFieldId": 818,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
-        }
-      }
-    }
-  ],
-  "ErpConnectionId": 913,
-  "ErpConnectionName": "Bashirian, Thiel and Effertz",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_SaveConnectionListMappings.md)]

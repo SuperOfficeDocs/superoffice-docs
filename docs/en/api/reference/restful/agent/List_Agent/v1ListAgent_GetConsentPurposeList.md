@@ -81,42 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetConsentPurposeList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetConsentPurposeList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConsentPurposeId": 565,
-    "Name": "Pouros Inc and Sons",
-    "ConsentText": "aut",
-    "FormText": "laudantium",
-    "Key": "est",
-    "Tooltip": "fugiat",
-    "Active": 39,
-    "UpdatedDate": "2010-05-29T02:30:47.4444538+02:00",
-    "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 323,
-    "PrivacyStatementDesc": "esse",
-    "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetConsentPurposeList.md)]

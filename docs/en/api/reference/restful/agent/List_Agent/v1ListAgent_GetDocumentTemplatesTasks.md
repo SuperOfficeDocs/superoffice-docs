@@ -66,45 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplatesTasks
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplatesTasks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 683,
-    "Value": "veniam",
-    "Tooltip": "distinctio",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 872
-      }
-    }
-  },
-  {
-    "Id": 683,
-    "Value": "veniam",
-    "Tooltip": "distinctio",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 872
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplatesTasks.md)]

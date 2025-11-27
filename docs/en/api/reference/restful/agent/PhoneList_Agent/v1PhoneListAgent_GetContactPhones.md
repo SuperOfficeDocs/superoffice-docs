@@ -82,44 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/GetContactPhones
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 254
-}
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_GetContactPhones.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonDirectPhone": "(371)963-3023 x971",
-    "PersonCellPhone": "(103)291-7249 x220",
-    "PersonPrivatePhone": "024-246-0975 x2534",
-    "PersonFaxNumber": "1147891",
-    "PersonPagerNumber": "1542386",
-    "PersonEmail": "rudy@klocko.name",
-    "Id": 237,
-    "Name": "Beahan-Beatty",
-    "Tooltip": "quisquam",
-    "UniqueId": "saepe",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_GetContactPhones.md)]

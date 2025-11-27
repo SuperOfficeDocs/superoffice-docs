@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketStatus/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_GetTicketStatusEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 404,
-    "Name": "Cronin-Feil",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 369,
-    "UdListDefinitionId": 359,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 154
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_GetTicketStatusEntityHeadings.md)]

@@ -82,51 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{name}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 244,
-  "Name": "Wyman-Farrell",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 131,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_SaveListEntityByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 796,
-  "Name": "Pollich Group",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 872,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_SaveListEntityByName.md)]

@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 881,
-    "Name": "Stiedemann-Stracke",
-    "Tooltip": "odit",
-    "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 752,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_GetAll.md)]

@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/MrMrs/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 25,
-    "Name": "White Group",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "UdListDefinitionId": 137,
-    "Rank": 843,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_GetAll.md)]

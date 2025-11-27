@@ -108,71 +108,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/PreferenceDescription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 663,
-  "Section": "et",
-  "Key": "tempora",
-  "Name": "Durgan-Morissette",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Business-focused real-time artificial intelligence",
-  "IsBuiltin": true,
-  "TableName": "Baumbach, Jakubowski and Leuschke",
-  "UserDefinedListId": 400,
-  "Rank": 740,
-  "SubGroup": "perferendis",
-  "MinLevel": 678,
-  "MaxValue": 816,
-  "MinValue": 124,
-  "RequiredLicense": "aut"
-}
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_PostPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 958,
-  "Section": "impedit",
-  "Key": "eaque",
-  "Name": "Klocko Inc and Sons",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled dedicated conglomeration",
-  "IsBuiltin": false,
-  "TableName": "Turner Group",
-  "UserDefinedListId": 381,
-  "Rank": 275,
-  "SubGroup": "veniam",
-  "MinLevel": 438,
-  "MaxValue": 38,
-  "MinValue": 369,
-  "RequiredLicense": "ipsa",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_PostPreferenceDescription.md)]

@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Powlowski, Leuschke and Kunde",
-  "ListItemId": 111
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetVisibleForUserGroupsFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 110,
-    "Name": "Kautzer LLC",
-    "ToolTip": "Rem et natus omnis.",
-    "Deleted": false,
-    "Rank": 253,
-    "Type": "deleniti",
-    "ColorBlock": 967,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2012-07-06T02:30:47.4444538+02:00",
-    "ChildItems": [
-      {
-        "Id": 465,
-        "Name": "Predovic LLC",
-        "ToolTip": "Vitae fuga.",
-        "Deleted": true,
-        "Rank": 965,
-        "Type": "vitae",
-        "ColorBlock": 357,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2011-11-12T02:30:47.4444538+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "ab",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Alexys Keebler",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 662
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "est",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Dariana Collins",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetVisibleForUserGroupsFromListName.md)]

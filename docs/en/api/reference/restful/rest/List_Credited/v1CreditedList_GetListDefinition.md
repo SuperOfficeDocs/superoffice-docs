@@ -62,41 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Credited
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_GetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 656,
-  "Name": "Yundt Group",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 824,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_GetListDefinition.md)]

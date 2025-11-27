@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/RenameDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 224,
-  "NewFilename": "quae"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_RenameDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"praesentium"
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_RenameDocument.md)]

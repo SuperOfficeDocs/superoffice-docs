@@ -66,45 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetSources
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetSources.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 302,
-    "Value": "accusamus",
-    "Tooltip": "quo",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
-      }
-    }
-  },
-  {
-    "Id": 302,
-    "Value": "accusamus",
-    "Tooltip": "quo",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetSources.md)]

@@ -136,76 +136,8 @@ ChatSessionEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/ChatSession/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "vel",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "vel",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_PatchChatSessionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ChatSessionEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 64,
-  "TopicId": 794,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "ducimus",
-  "CustomerHost": "est",
-  "CustomerName": "Zemlak Inc and Sons",
-  "CustomerEmail": "ellis.jacobs@binsoreilly.ca",
-  "CustomerPhone": "(029)835-1602 x98516",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "McLaughlin LLC",
-  "Status": "Closed",
-  "FirstMessage": "temporibus",
-  "LastMessage": "est",
-  "WhenRequested": "2014-11-27T02:30:52.3817956+01:00",
-  "WhenStarted": "2017-11-10T02:30:52.3817956+01:00",
-  "WhenEnded": "2005-05-26T02:30:52.3817956+02:00",
-  "WhenIdle": "2018-01-18T02:30:52.3817956+01:00",
-  "WhenFetched": "2006-06-28T02:30:52.3817956+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 242,
-  "AlertLevel": 692,
-  "Rank": 393,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 962,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_PatchChatSessionEntity.md)]

@@ -68,25 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1TimeZoneAgent_GetDefaultTimeZoneInformation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PreferenceId": 194,
-  "TZLocationId": 986,
-  "LocationCode": "nemo",
-  "Description": "Digitized composite project",
-  "Country": "Sokovia",
-  "Bias": 629
-}
-```
+[!include[sample response](../../samples/agent/response/v1TimeZoneAgent_GetDefaultTimeZoneInformation.md)]

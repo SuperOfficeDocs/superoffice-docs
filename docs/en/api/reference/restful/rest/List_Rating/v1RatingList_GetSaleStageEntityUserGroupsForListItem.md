@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Rating/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_GetSaleStageEntityUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 397,
-    "Name": "Dietrich Inc and Sons",
-    "ToolTip": "Qui aspernatur voluptatibus accusamus sapiente.",
-    "Deleted": true,
-    "Rank": 1001,
-    "Type": "minus",
-    "ColorBlock": 645,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "1999-10-11T02:30:53.4130107+02:00",
-    "ChildItems": [
-      {
-        "Id": 239,
-        "Name": "Witting-Hoeger",
-        "ToolTip": "Culpa voluptatem laudantium sed architecto quia.",
-        "Deleted": false,
-        "Rank": 195,
-        "Type": "cum",
-        "ColorBlock": 787,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2019-09-16T02:30:53.4130107+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Jordi Grant",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 835
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Keaton Ondricka PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 246
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_GetSaleStageEntityUserGroupsForListItem.md)]

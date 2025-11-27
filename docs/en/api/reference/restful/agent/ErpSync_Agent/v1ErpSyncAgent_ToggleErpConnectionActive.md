@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 809
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_ToggleErpConnectionActive.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "id",
-  "officiis"
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_ToggleErpConnectionActive.md)]

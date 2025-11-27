@@ -98,60 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetUpcomingSales
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "WeightedAmountLimit": 71,
-  "Count": 309
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetUpcomingSales.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Anderson-Stamm",
-    "SaleDate": "2022-12-16T02:30:47.7881925+01:00",
-    "SaleId": 494,
-    "Probability": 267,
-    "Title": "sunt",
-    "Amount": 29340.507999999998,
-    "Currency": "id",
-    "ProjectName": "Runolfsson-Friesen",
-    "AssociateFullName": "Enid Treutel",
-    "Description": "Multi-channelled upward-trending analyzer",
-    "Status": "Lost",
-    "WeightedAmount": 17656.956,
-    "ProjectId": 160,
-    "EarningPercent": 5666.272,
-    "Earning": 28892.345999999998,
-    "ContactId": 166,
-    "AssociateId": 806,
-    "PersonId": 42,
-    "SaleTypeId": 332,
-    "SaleTypeName": "Pfeffer Group",
-    "PersonFullName": "May Kuvalis",
-    "Completed": "Completed",
-    "ActiveErpLinks": 671,
-    "NextDueDate": "2007-09-29T02:30:47.7881925+02:00",
-    "Number": "1647087",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 870
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetUpcomingSales.md)]

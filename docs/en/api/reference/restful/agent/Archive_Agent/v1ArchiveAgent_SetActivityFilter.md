@@ -63,23 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/SetActivityFilter
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ActivityFilter": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_SetActivityFilter.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_SetActivityFilter.md)]

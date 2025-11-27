@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProjectType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 932,
-  "Name": "Medhurst Group",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 610,
-  "Rank": 887
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_PutProjectType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 874,
-  "Name": "Boyer Group",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "UdListDefinitionId": 265,
-  "Rank": 896,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_PutProjectType.md)]

@@ -93,57 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetBatchTaskInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 67
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetBatchTaskInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 663,
-  "Name": "Barrows Inc and Sons",
-  "AssociateId": 270,
-  "DetailsTable": 112,
-  "DetailsRecord": 591,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "vel",
-    "ParameterObject2": "sit"
-  },
-  "LastStarted": "2018-03-06T02:30:46.8194719+01:00",
-  "Created": "2024-12-10T02:30:46.8194719+01:00",
-  "StartCount": 293,
-  "DatabaseSerialNumber": "1146468",
-  "Context": "aut",
-  "Result": "veniam",
-  "State": "All",
-  "Description": "Synergized zero defect definition",
-  "Response": "iste",
-  "Request": "quibusdam",
-  "ProgressDescription": "Digitized 6th generation emulation",
-  "ProgressPercent": 221,
-  "FileName": "D'Amore, Hegmann and Feest",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 908
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetBatchTaskInfo.md)]

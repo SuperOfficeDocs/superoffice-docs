@@ -92,51 +92,8 @@ RelationDefinitionEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/RelationDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 72,
-  "Name": "Dooley, Boyer and Ferry",
-  "Tooltip": "facilis",
-  "PassiveText": "laborum",
-  "Deleted": false,
-  "Rank": 164,
-  "Source": "Both",
-  "Destination": "Both"
-}
-```
+[!include[sample request](../../samples/rest/request/v1RelationDefinitionEntity_PutRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 RelationDefinitionEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 739,
-  "Name": "Lind, Bins and Kris",
-  "Tooltip": "hic",
-  "PassiveText": "nobis",
-  "Deleted": false,
-  "Rank": 716,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 709
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RelationDefinitionEntity_PutRelationDefinitionEntity.md)]

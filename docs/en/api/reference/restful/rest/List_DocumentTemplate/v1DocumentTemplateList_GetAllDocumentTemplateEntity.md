@@ -28,7 +28,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -88,54 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetAllDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentTemplateId": 784,
-    "Name": "Satterfield, Blick and Mante",
-    "Tooltip": "sint",
-    "SaveInDb": 637,
-    "Filename": "iste",
-    "DefaultOref": "est",
-    "RecordType": "Appointment",
-    "Deleted": true,
-    "Direction": "Incoming",
-    "AutoeventId": 539,
-    "IntentId": 233,
-    "IsDefaultPublished": true,
-    "Rank": 996,
-    "LoadTemplateFromPlugin": 787,
-    "MimeType": "deleniti",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 736,
-    "QuoteDocType": "ConfirmationLines",
-    "PrivacyDocType": "None",
-    "EmailSubject": "lavinia@weber.info",
-    "IncludeSignature": true,
-    "ShowCurrents": true,
-    "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jamar@stehrspinka.ca",
-    "InvitationDocType": "Cancelled",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetAllDocumentTemplateEntity.md)]

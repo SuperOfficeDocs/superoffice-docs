@@ -59,56 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 886,
-  "Year": 216,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
-  "TargetAssignments": [
-    {
-      "TargetAssignmentInfoId": 739,
-      "Values": [
-        163,
-        558
-      ],
-      "Locked": true,
-      "TargetAssociate": null,
-      "TargetContact": null,
-      "TargetUserGroup": null,
-      "Currency": null,
-      "DimensionListItem": 682,
-      "DimensionListItemDisplayName": "Lang, Walker and Hirthe",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 589
-        }
-      }
-    }
-  ],
-  "TargetDimension": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetGroup.md)]

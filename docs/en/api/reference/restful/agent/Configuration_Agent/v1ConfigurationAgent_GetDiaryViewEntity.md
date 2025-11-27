@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=581
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=895
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -73,64 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetDiaryViewEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DiaryViewId": 136,
-  "Name": "Stiedemann-Daugherty",
-  "Tooltip": "explicabo",
-  "VisibleColumns": 641,
-  "Rank": 511,
-  "AssocId": 941,
-  "AssociateList": [
-    {
-      "Id": 486,
-      "Name": "Ziemann, Kuhn and Altenwerth",
-      "ToolTip": "Et natus.",
-      "Deleted": true,
-      "Rank": 984,
-      "Type": "nesciunt",
-      "ColorBlock": 192,
-      "IconHint": "omnis",
-      "Selected": false,
-      "LastChanged": "2006-03-18T02:30:46.9288431+01:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "expedita",
-      "Hidden": true,
-      "FullName": "Mrs. Kelton Hackett",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 363
-        }
-      }
-    }
-  ],
-  "TzLocationId": 726,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetDiaryViewEntity.md)]

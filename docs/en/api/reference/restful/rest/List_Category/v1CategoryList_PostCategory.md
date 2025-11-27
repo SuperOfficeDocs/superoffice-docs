@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Category/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 937,
-  "Name": "Grady Inc and Sons",
-  "Tooltip": "optio",
-  "Deleted": true,
-  "UdListDefinitionId": 54,
-  "Rank": 708
-}
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_PostCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 828,
-  "Name": "Hermann Group",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "UdListDefinitionId": 902,
-  "Rank": 924,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_PostCategory.md)]

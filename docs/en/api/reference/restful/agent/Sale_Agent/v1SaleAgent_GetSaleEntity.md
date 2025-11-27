@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=954
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=69
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,153 +109,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Appointment": null,
-  "Associate": null,
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "Contact": null,
-  "Project": null,
-  "SaleText": "excepturi",
-  "Person": null,
-  "Currency": null,
-  "Competitor": null,
-  "Credited": null,
-  "Rating": null,
-  "Reason": null,
-  "Source": null,
-  "Status": "Lost",
-  "Saledate": "2002-04-03T02:30:47.7881925+02:00",
-  "Amount": 30797.818,
-  "SaleId": 58,
-  "Earning": 3099.526,
-  "EarningPercent": 43.876,
-  "Heading": "et",
-  "Number": "1323780",
-  "Probability": 676,
-  "CreatedDate": "2005-08-31T02:30:47.7881925+02:00",
-  "UpdatedDate": "2015-05-30T02:30:47.7881925+02:00",
-  "Completed": "Completed",
-  "ActiveLinks": 979,
-  "Links": [
-    {
-      "EntityName": "Halvorson LLC",
-      "Id": 356,
-      "Description": "Function-based tangible standardization",
-      "ExtraInfo": "praesentium",
-      "LinkId": 956,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2008-08-20T02:30:47.7881925+02:00",
-  "Postit": "alias",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2017-02-13T02:30:47.7881925+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Ortiz Group",
-      "Comment": "vel",
-      "StakeholderRoleId": 778,
-      "CountryId": 257,
-      "PersonId": 716,
-      "EmailDescription": "claud@blockcummings.uk",
-      "EmailId": 378,
-      "EmailAddress": "floyd.auer@jerde.uk",
-      "PhoneId": 755,
-      "ContactName": "Kovacek, Windler and Zulauf",
-      "ContactId": 986,
-      "SaleId": 78,
-      "Mrmrs": "eius",
-      "Firstname": "Domenic",
-      "MiddleName": "Ankunding-Kautzer",
-      "Lastname": "Gutkowski",
-      "SaleStakeholderId": 527,
-      "Rank": 287,
-      "Phone": "703-926-6853 x98667",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 558,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Bella Cormier DVM",
-    "SuperOffice:2": "Vivianne Hoeger"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eius"
-  },
-  "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "itaque"
-  },
-  "PublishEventDate": "2017-11-26T02:30:47.7881925+01:00",
-  "PublishTo": "1999-02-23T02:30:47.7881925+01:00",
-  "PublishFrom": "2025-05-19T02:30:47.7881925+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 857,
-      "Visibility": "All",
-      "DisplayValue": "esse",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
-        }
-      }
-    },
-    {
-      "VisibleId": 857,
-      "Visibility": "All",
-      "DisplayValue": "esse",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleEntity.md)]

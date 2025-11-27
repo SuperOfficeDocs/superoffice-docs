@@ -23,8 +23,8 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"default"|[default]|
-|"system"|[system]|
+|"default"|default|
+|"system"|system|
 |"database"|Database|
 |"group"|Group|
 |"user"|User|

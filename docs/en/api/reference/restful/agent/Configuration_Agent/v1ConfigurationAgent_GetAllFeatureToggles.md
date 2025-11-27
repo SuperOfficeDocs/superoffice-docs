@@ -59,21 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetAllFeatureToggles
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetAllFeatureToggles.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": true,
-  "2": true
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetAllFeatureToggles.md)]

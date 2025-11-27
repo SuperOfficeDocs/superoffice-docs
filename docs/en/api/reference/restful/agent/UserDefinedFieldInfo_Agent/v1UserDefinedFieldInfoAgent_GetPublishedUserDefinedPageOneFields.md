@@ -106,69 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment",
-  "UserGroupId": 950
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 810,
-    "ColumnId": 592,
-    "FieldDefault": "et",
-    "FieldHeight": 483,
-    "FieldLabel": "repellendus",
-    "FieldLeft": 129,
-    "FieldTop": 870,
-    "FieldType": "Checkbox",
-    "FieldWidth": 573,
-    "FormatMask": "necessitatibus",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 120,
-    "LabelLeft": 257,
-    "LabelTop": 437,
-    "LabelWidth": 254,
-    "LastVersionId": 370,
-    "ListTableId": 87,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 616,
-    "ProgId": "nesciunt",
-    "IsReadOnly": false,
-    "ShortLabel": "possimus",
-    "TabOrder": 732,
-    "TextLength": 232,
-    "Tooltip": "officia",
-    "UdefIdentity": 924,
-    "UDListDefinitionId": 597,
-    "Justification": "Center",
-    "Version": 601,
-    "TemplateVariableName": "Bins, Runolfsdottir and Satterfield",
-    "HasBeenPublished": true,
-    "MdoListName": "Gleichner, Cummings and Padberg",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 886
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields.md)]

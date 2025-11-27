@@ -94,55 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEventOnPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 787,
-  "PersonId": 585
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEventOnPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateFullName": "Isadore Koss MD",
-  "Description": "Upgradable transitional function",
-  "ProjectId": 288,
-  "EventName": "Ondricka-Maggio",
-  "AssociateId": 383,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "ipsa",
-  "SignOffText": "enim",
-  "SignOnConfirmationText": "tempore",
-  "SignOnText": "ea",
-  "EventDate": "2006-01-17T02:30:47.6788214+01:00",
-  "Enabled": false,
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOnTaskEnable": true,
-  "SignOn": true,
-  "SignOffTaskId": 476,
-  "SignOnTaskId": 324,
-  "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 4,
-  "SignOffPersonId": 750,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEventOnPerson.md)]

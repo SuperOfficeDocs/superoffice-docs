@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_GetConsentSourceHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 984,
-    "Name": "Hagenes, Wilderman and Hirthe",
-    "ToolTip": "Sequi facilis quaerat autem.",
-    "Deleted": false,
-    "Rank": 624,
-    "Type": "delectus",
-    "ColorBlock": 819,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2005-01-27T02:30:53.2411414+01:00",
-    "ChildItems": [
-      {
-        "Id": 753,
-        "Name": "Ziemann-Bosco",
-        "ToolTip": "Iure aut dolor suscipit odit provident.",
-        "Deleted": false,
-        "Rank": 49,
-        "Type": "vero",
-        "ColorBlock": 105,
-        "IconHint": "reprehenderit",
-        "Selected": true,
-        "LastChanged": "2023-05-21T02:30:53.2411414+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Blanca Carmella Dietrich MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 518
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Uriah Toy",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 194
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_GetConsentSourceHeadingsForListItem.md)]

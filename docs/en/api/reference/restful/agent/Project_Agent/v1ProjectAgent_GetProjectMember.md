@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=805
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=622
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -88,50 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 13,
-  "ContactId": 686,
-  "ProjectId": 114,
-  "ContactName": "Conn, Hintz and Cummerata",
-  "ContactDepartment": "synthesize next-generation action-items",
-  "ProjectName": "Heathcote, Koch and Heaney",
-  "EmailId": 744,
-  "EmailAddress": "josie@schinner.us",
-  "CountryId": 902,
-  "Firstname": "Florian",
-  "MiddleName": "Will-Rice",
-  "Lastname": "Huels",
-  "PersonId": 368,
-  "Mrmrs": "aut",
-  "ProjectMemberTypeName": "Koss-Torp",
-  "Phone": "286-815-1970 x5002",
-  "PhoneId": 670,
-  "ProjectMemberTypeId": 314,
-  "EmailAddressName": "xander@ebertoberbrunner.name",
-  "Comment": "pariatur",
-  "FullName": "Dedric Lind",
-  "Registered": "2023-12-10T02:30:47.6944454+01:00",
-  "Updated": "2014-04-18T02:30:47.6944454+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectMember.md)]

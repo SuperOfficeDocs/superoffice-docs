@@ -78,39 +78,8 @@ ShipmentMessageBlockEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ShipmentMessageBlock/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageBlockEntity_GetShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ShipmentMessageBlockEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 654,
-  "AssociateId": 641,
-  "Block": "exercitationem",
-  "Registered": "2024-09-14T02:30:52.9286519+02:00",
-  "RegisteredAssociateId": 912,
-  "Updated": "2017-06-30T02:30:52.9286519+02:00",
-  "UpdatedAssociateId": 213,
-  "UpdatedCount": 90,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageBlockEntity_GetShipmentMessageBlockEntity.md)]

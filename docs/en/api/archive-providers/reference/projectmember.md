@@ -21,7 +21,7 @@ from the result.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"projectMember"|[Project Member]|
+|"projectMember"|Project Member|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
@@ -556,7 +556,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=person/personDeletedDate,person/personAssociate/fullName,contact/streetAddress/addressId,contact/contactAssociate/ejDisplayName
+GET /api/v1/archive/ProjectMember?$select=project/completed,project/projectAssociate/userName,project/saintAmountClass,contact/contactId,contact/department
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

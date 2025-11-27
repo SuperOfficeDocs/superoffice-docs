@@ -62,41 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/WebPanel
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_GetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 17,
-  "Name": "Sauer LLC",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 721,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 302
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_GetListDefinition.md)]

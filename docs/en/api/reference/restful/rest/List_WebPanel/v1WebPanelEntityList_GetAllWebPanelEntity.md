@@ -75,51 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/WebPanel/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_GetAllWebPanelEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebPanelId": 933,
-    "Name": "O'Keefe Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 461,
-    "UrlEncoding": "ANSI",
-    "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Williamson, Boyle and Kertzmann",
-    "Url": "http://www.example.com/",
-    "ProgId": "ipsam",
-    "Icon": 795,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_GetAllWebPanelEntity.md)]

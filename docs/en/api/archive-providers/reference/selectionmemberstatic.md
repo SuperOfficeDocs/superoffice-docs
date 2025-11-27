@@ -20,7 +20,7 @@ It will only return fields from the SelectionMember table.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"selectionMember"|[Selection Member]|
+|"selectionMember"|Selection Member|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

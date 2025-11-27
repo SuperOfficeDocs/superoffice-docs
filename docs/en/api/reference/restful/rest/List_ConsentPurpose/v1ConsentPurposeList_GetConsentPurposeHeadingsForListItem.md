@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 293,
-    "Name": "Hamill-Wiza",
-    "ToolTip": "Vitae aut soluta.",
-    "Deleted": false,
-    "Rank": 307,
-    "Type": "recusandae",
-    "ColorBlock": 746,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "2019-07-15T02:30:53.2255171+02:00",
-    "ChildItems": [
-      {
-        "Id": 575,
-        "Name": "Little, Wintheiser and Altenwerth",
-        "ToolTip": "Amet et est.",
-        "Deleted": false,
-        "Rank": 673,
-        "Type": "eius",
-        "ColorBlock": 745,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2012-10-04T02:30:53.2255171+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Celestine Crist",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 60
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Annalise Larson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 733
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem.md)]

@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Source": "sed",
-  "GeneratorEncoding": "Html",
-  "CustomTags": [
-    "temporibus",
-    "perferendis"
-  ],
-  "CustomValues": [
-    "aut",
-    "et"
-  ],
-  "ContactId": 317,
-  "PersonId": 552,
-  "AppointmentId": 886,
-  "DocumentId": 561,
-  "SaleId": 677,
-  "SelectionId": 680,
-  "ProjectId": 470,
-  "CultureName": "sv"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"aperiam"
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags.md)]

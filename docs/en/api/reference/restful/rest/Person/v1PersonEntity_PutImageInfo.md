@@ -90,57 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/Person/{personId}/ImageInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 156,
-  "BlobSize": 762,
-  "Description": "Down-sized next generation knowledge user",
-  "ExtraInfo": "neque",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "asperiores",
-  "OriginalSize": 420,
-  "CreatedDate": "2015-08-05T02:30:52.7880482+02:00",
-  "UpdatedDate": "2006-03-10T02:30:52.7880482+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "dolorem"
-}
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_PutImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 234,
-  "BlobSize": 387,
-  "Description": "Self-enabling 24/7 benchmark",
-  "ExtraInfo": "fuga",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "vitae",
-  "OriginalSize": 439,
-  "CreatedDate": "2018-10-12T02:30:52.7880482+02:00",
-  "UpdatedDate": "2000-04-16T02:30:52.7880482+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_PutImageInfo.md)]

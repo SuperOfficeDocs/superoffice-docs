@@ -17,7 +17,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"quoteLine"|[Dynamic quoteline]|
+|"quoteLine"|Dynamic quoteline|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -167,14 +167,15 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
-|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
-|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
-|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
@@ -224,11 +225,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personCategoryGroup|listAny|Sale - Category group| x |
 |alternative/version/quote/sale/person/personCategoryRank|int|Sale - !!Category rank| x |
 |alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
-|alternative/version/quote/sale/person/leadStatus|listAny|Sale - Lead status| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/leadStatus|listAny|Sale - Lead status| x |
 |alternative/version/quote/sale/person/leadstatusRank|int|Sale - !!Lead status RANK| x |
 |alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
@@ -328,11 +329,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
 |alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
-|alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
 |alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
@@ -432,11 +433,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/contact/deletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
-|alternative/version/quote/sale/contact/forceCompany|bool|Sale - Dummy: Dummy|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/forceCompany|bool|Sale - Dummy: Dummy|  |
 |alternative/version/quote/sale/contact/contactPhone/formattedNumber|string|Sale - Telephone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/contactFax/formattedNumber|string|Sale - Fax - Phone: Displays phone number|  |
@@ -536,11 +537,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
-|alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
@@ -640,11 +641,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/icon| *None* |Sale - Project - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/project/text|string|Sale - Project - Text: Displays a descriptive text for the item| x |
 |alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
-|alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedDate|date|Sale - Project - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/project/registeredBy|associate|Sale - Project - Registered by: The user who registered the data| x |
@@ -744,11 +745,11 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
@@ -771,7 +772,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/personNumber,alternative/version/quote/sale/person/personExtra/x_person_float,alternative/version/quote/sale/project/associateId,alternative/version/quote/sale/project/projectAssociate/mrMrs
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=code,alternative/version/quote/sale/personId,alternative/version/quote/sale/contact/contactPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

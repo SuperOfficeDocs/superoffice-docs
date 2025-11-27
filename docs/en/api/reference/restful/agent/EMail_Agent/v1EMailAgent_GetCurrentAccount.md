@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetCurrentAccount
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetCurrentAccount.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EMailAccountId": 13,
-  "EMailAddress": "itaque",
-  "AssociateId": 927,
-  "IncomingCredentials": null,
-  "OutgoingCredentials": null,
-  "AccountStatus": 810,
-  "ErrorCount": 644,
-  "ErrorReason": "",
-  "InboxFolder": "odit",
-  "SentFolder": "doloremque",
-  "SimpleMode": 122,
-  "LastFetch": "2021-04-26T02:30:47.2725845+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetCurrentAccount.md)]

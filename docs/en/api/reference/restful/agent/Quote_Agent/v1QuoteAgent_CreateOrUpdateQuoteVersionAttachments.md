@@ -74,48 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 899
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CreateOrUpdateQuoteVersionAttachments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 698,
-    "Included": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
-      }
-    }
-  },
-  {
-    "DocumentId": 698,
-    "Included": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CreateOrUpdateQuoteVersionAttachments.md)]

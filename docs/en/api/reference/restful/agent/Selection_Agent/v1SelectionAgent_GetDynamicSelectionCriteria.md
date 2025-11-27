@@ -79,64 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 601
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetDynamicSelectionCriteria.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Herzog, Considine and Dach",
-    "Operator": "sed",
-    "Values": [
-      "qui",
-      "occaecati"
-    ],
-    "DisplayValues": [
-      "officia",
-      "rerum"
-    ],
-    "ColumnInfo": null,
-    "IsActive": false,
-    "SubRestrictions": [
-      {
-        "Name": "Volkman, Donnelly and Kub",
-        "Operator": "nam",
-        "Values": [
-          "voluptatem",
-          "error"
-        ],
-        "DisplayValues": [
-          "enim",
-          "tenetur"
-        ],
-        "ColumnInfo": null,
-        "IsActive": false,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 95,
-        "InterOperator": "And",
-        "UniqueHash": 96
-      }
-    ],
-    "InterParenthesis": 352,
-    "InterOperator": "And",
-    "UniqueHash": 651
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetDynamicSelectionCriteria.md)]

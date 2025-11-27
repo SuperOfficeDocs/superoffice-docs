@@ -68,31 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SendEmail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "From": "vitae",
-  "To": "sunt",
-  "Subject": "minima",
-  "PlainBody": "omnis",
-  "HtmlBody": "ab",
-  "AttachmentIds": [
-    768,
-    893
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SendEmail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SendEmail.md)]

@@ -76,34 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MergeDocumentId": 806,
-  "ContactId": 190,
-  "PersonId": 421,
-  "ProjectId": 992,
-  "SelectionId": 526,
-  "AppointmentId": 549,
-  "DocumentId": 493,
-  "SaleId": 792,
-  "CustomTags": {
-    "CustomTags1": "consequatur",
-    "CustomTags2": "sequi"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SubstituteMergeDocumentTemplateVariablesEx2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SubstituteMergeDocumentTemplateVariablesEx2.md)]

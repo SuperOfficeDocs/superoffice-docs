@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Resource/DeleteResourceSubstitution
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceName": "Waters Inc and Sons",
-  "Culture": "quo"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ResourceAgent_DeleteResourceSubstitution.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ResourceAgent_DeleteResourceSubstitution.md)]

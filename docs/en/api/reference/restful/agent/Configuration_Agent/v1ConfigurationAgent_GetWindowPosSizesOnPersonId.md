@@ -82,45 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 15
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetWindowPosSizesOnPersonId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "OwnerWindow": "veniam",
-    "PersonId": 561,
-    "AssociateId": 677,
-    "ExtraId": 771,
-    "ExtraInfo": "aliquam",
-    "Height": 360,
-    "LeftX": 944,
-    "State": "Maximized",
-    "UpperY": 926,
-    "Width": 869,
-    "WindowPosSizeId": 539,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 753
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetWindowPosSizesOnPersonId.md)]

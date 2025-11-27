@@ -77,47 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactPersonIds": [
-    {
-      "PersonId": 430,
-      "ContactId": 518
-    },
-    {
-      "PersonId": 430,
-      "ContactId": 518
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Total": 136,
-  "ValidPostalAddresses": 559,
-  "ValidEmailAddresses": 410,
-  "ValidFaxNumbers": 201,
-  "NoAddresses": 297,
-  "NoFaxOrEmails": 355,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds.md)]

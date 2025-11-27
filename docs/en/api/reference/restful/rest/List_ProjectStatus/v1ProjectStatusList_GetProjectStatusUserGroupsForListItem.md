@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_GetProjectStatusUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 514,
-    "Name": "Von-Leannon",
-    "ToolTip": "Incidunt voluptate et placeat animi.",
-    "Deleted": true,
-    "Rank": 310,
-    "Type": "vel",
-    "ColorBlock": 586,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2006-01-29T02:30:53.3817624+01:00",
-    "ChildItems": [
-      {
-        "Id": 496,
-        "Name": "Schimmel-Reilly",
-        "ToolTip": "Repudiandae sapiente atque.",
-        "Deleted": false,
-        "Rank": 73,
-        "Type": "laborum",
-        "ColorBlock": 606,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2022-04-07T02:30:53.3817624+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Walter Blanda",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 858
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "eum",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Gail Sanford",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_GetProjectStatusUserGroupsForListItem.md)]

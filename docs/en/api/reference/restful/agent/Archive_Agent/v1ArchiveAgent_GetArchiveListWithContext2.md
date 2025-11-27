@@ -167,52 +167,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListWithContext2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "GuiName": "Pollich-Johns",
-  "ProviderName": "Hoeger-Carter",
-  "SortOrder": "veniam",
-  "Restriction": "asperiores",
-  "Entities": "accusamus",
-  "Page": 313,
-  "PageSize": 793,
-  "Context": "nostrum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListWithContext2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Metz-Lynch",
-    "PrimaryKey": 947,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "consequatur",
-        "TooltipHint": "officia",
-        "LinkHint": "perspiciatis"
-      }
-    },
-    "LinkHint": "quia",
-    "StyleHint": "nam",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 985
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListWithContext2.md)]

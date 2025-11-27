@@ -68,28 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/Delete
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerIds": [
-    135,
-    452
-  ],
-  "MoveToFolder": "quibusdam"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_Delete.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_Delete.md)]

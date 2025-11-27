@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetSanitizedTemplateStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TemplateName": "Bergnaum LLC",
-  "AllowPersonal": true,
-  "UiCulture": "blanditiis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetSanitizedTemplateStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-99.99
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetSanitizedTemplateStream.md)]

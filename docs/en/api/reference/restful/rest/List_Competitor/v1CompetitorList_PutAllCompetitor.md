@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Competitor/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 158,
-    "Name": "Upton, Batz and Bayer",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 392
-  },
-  {
-    "Id": 158,
-    "Name": "Upton, Batz and Bayer",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 392
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_PutAllCompetitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 287,
-    "Name": "Leffler-Hermann",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "UdListDefinitionId": 944,
-    "Rank": 132,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_PutAllCompetitor.md)]

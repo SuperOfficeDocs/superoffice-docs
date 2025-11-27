@@ -93,59 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "State": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetBatchTaskInfosByState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 288,
-    "Name": "Maggio-O'Conner",
-    "AssociateId": 424,
-    "DetailsTable": 617,
-    "DetailsRecord": 670,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
-    "ParameterObject": {
-      "ParameterObject1": "culpa",
-      "ParameterObject2": "dolores"
-    },
-    "LastStarted": "2019-05-27T02:30:46.8194719+02:00",
-    "Created": "2001-06-21T02:30:46.8194719+02:00",
-    "StartCount": 478,
-    "DatabaseSerialNumber": "112945",
-    "Context": "inventore",
-    "Result": "praesentium",
-    "State": "All",
-    "Description": "Robust context-sensitive knowledge user",
-    "Response": "culpa",
-    "Request": "dolorum",
-    "ProgressDescription": "Re-engineered coherent leverage",
-    "ProgressPercent": 840,
-    "FileName": "Kunde-Batz",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetBatchTaskInfosByState.md)]

@@ -91,57 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPublishedDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentIds": [
-    584,
-    853
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPublishedDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 252,
-    "Attention": "voluptas",
-    "Header": "similique",
-    "Name": "Prohaska-Corwin",
-    "OurRef": "id",
-    "YourRef": "dolore",
-    "Description": "Centralized intermediate function",
-    "DocumentTemplate": "illum",
-    "IsPublished": false,
-    "PersonId": 706,
-    "PersonFullName": "Lulu Block",
-    "AssociateFullName": "Kenna Douglas",
-    "ContactId": 553,
-    "ContactName": "Okuneva-Zboncak",
-    "ProjectId": 767,
-    "ProjectName": "Hahn-Littel",
-    "AssociateId": 511,
-    "Snum": 180,
-    "SaleId": 513,
-    "SaleName": "Smith-Schowalter",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 975
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPublishedDocuments.md)]

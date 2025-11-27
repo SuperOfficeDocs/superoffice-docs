@@ -90,61 +90,8 @@ ContactEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 947,
-  "ColumnId": 780,
-  "FieldDefault": "repudiandae",
-  "FieldHeight": 99,
-  "FieldLabel": "eum",
-  "FieldLeft": 886,
-  "FieldTop": 517,
-  "FieldType": "Checkbox",
-  "FieldWidth": 608,
-  "FormatMask": "veritatis",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 568,
-  "LabelLeft": 717,
-  "LabelTop": 45,
-  "LabelWidth": 182,
-  "LastVersionId": 266,
-  "ListTableId": 545,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 895,
-  "ProgId": "odio",
-  "IsReadOnly": false,
-  "ShortLabel": "impedit",
-  "TabOrder": 996,
-  "TextLength": 610,
-  "Tooltip": "vel",
-  "UdefIdentity": 694,
-  "UDListDefinitionId": 769,
-  "Justification": "Center",
-  "Version": 754,
-  "TemplateVariableName": "Tromp, Adams and Cruickshank",
-  "HasBeenPublished": false,
-  "MdoListName": "Kihn LLC",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetPublishedUdefFieldInfo.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=857
+POST /api/v1/Agents/Contact/GetContact?contactId=339
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -89,51 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 758,
-  "Name": "Huels, Feeney and Predovic",
-  "OrgNr": "1212481",
-  "Department": "",
-  "URL": "http://www.example.com/",
-  "City": "aut",
-  "DirectPhone": "1-975-468-6448",
-  "AssociateId": 671,
-  "CountryId": 556,
-  "EmailAddress": "maggie@eichmannbahringer.us",
-  "Kananame": "vel",
-  "EmailAddressName": "keeley@mcdermottreichert.us",
-  "URLName": "http://www.example.com/",
-  "AssociateFullName": "Brandon DuBuque Jr.",
-  "BusinessName": "Information Technology",
-  "CategoryName": "VIP Customer",
-  "CountryName": "Sokovia",
-  "Address": null,
-  "FormattedAddress": "quia",
-  "FullName": "Prof. Vernie Williamson",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 381,
-  "Number1": "639563",
-  "Number2": "623769",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetContact.md)]

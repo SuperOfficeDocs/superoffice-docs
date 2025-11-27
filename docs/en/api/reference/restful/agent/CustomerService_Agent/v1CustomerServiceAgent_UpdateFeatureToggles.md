@@ -63,32 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FeatureToggles": [
-    {
-      "Name": "West, Gleason and Bogan",
-      "State": true
-    },
-    {
-      "Name": "West, Gleason and Bogan",
-      "State": true
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_UpdateFeatureToggles.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_UpdateFeatureToggles.md)]

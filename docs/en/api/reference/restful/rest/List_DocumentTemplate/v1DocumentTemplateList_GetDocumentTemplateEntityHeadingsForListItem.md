@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 890,
-    "Name": "Rodriguez LLC",
-    "ToolTip": "Animi id nam voluptatibus reprehenderit.",
-    "Deleted": false,
-    "Rank": 539,
-    "Type": "id",
-    "ColorBlock": 72,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2012-06-15T02:30:53.288015+02:00",
-    "ChildItems": [
-      {
-        "Id": 211,
-        "Name": "Feil-Dooley",
-        "ToolTip": "Atque ratione laudantium quisquam quasi ad iure ut.",
-        "Deleted": false,
-        "Rank": 194,
-        "Type": "voluptatem",
-        "ColorBlock": 921,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2002-08-23T02:30:53.288015+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Dr. Bernie Crona",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 233
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Erling Cremin",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 130
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem.md)]

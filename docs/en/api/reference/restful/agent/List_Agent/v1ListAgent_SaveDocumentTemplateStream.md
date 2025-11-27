@@ -77,32 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveDocumentTemplateStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 652,
-  "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "qui",
-  "PluginId": 366
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveDocumentTemplateStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Nader, Marvin and Leannon",
-  "Description": "Business-focused optimizing leverage",
-  "ExternalReference": "aspernatur",
-  "MimeType": "id",
-  "PluginId": 464
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveDocumentTemplateStream.md)]

@@ -71,45 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1NavigatorAgent_GetNavigatorCompanyList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 969,
-    "Value": "eos",
-    "Tooltip": "praesentium",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 781
-      }
-    }
-  },
-  {
-    "Id": 969,
-    "Value": "eos",
-    "Tooltip": "praesentium",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 781
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1NavigatorAgent_GetNavigatorCompanyList.md)]

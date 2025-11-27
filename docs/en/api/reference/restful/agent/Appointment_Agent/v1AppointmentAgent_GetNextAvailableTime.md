@@ -79,59 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetNextAvailableTime
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Associates": [
-    252,
-    360
-  ],
-  "StartTime": "2018-11-20T02:30:46.5382305+01:00",
-  "EndTime": "2003-01-28T02:30:46.5382305+01:00",
-  "Count": 876,
-  "IsAllDay": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetNextAvailableTime.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AvailableTimeStart": "2002-09-20T02:30:46.5382305+02:00",
-    "AvailableTimeEnd": "1998-12-20T02:30:46.5382305+01:00",
-    "RecommendedTimeStart": "2012-05-09T02:30:46.5382305+02:00",
-    "RecommendedTimeEnd": "2019-07-27T02:30:46.5382305+02:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
-      }
-    }
-  },
-  {
-    "AvailableTimeStart": "2002-09-20T02:30:46.5382305+02:00",
-    "AvailableTimeEnd": "1998-12-20T02:30:46.5382305+01:00",
-    "RecommendedTimeStart": "2012-05-09T02:30:46.5382305+02:00",
-    "RecommendedTimeEnd": "2019-07-27T02:30:46.5382305+02:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetNextAvailableTime.md)]

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetCountryHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 277,
-    "Name": "Blick-Hettinger",
-    "ToolTip": "Voluptatem at voluptatibus aut.",
-    "Deleted": true,
-    "Rank": 629,
-    "Type": "saepe",
-    "ColorBlock": 856,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2014-03-28T02:30:53.2567659+01:00",
-    "ChildItems": [
-      {
-        "Id": 337,
-        "Name": "Doyle-Gibson",
-        "ToolTip": "Minus unde.",
-        "Deleted": false,
-        "Rank": 145,
-        "Type": "aperiam",
-        "ColorBlock": 885,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2001-04-17T02:30:53.2567659+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Ms. Rowena Mariana Strosin IV",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 167
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Giovani Johnston",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 462
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetCountryHeadingsForListItem.md)]

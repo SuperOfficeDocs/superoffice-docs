@@ -104,64 +104,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/TransferChatSession
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 818,
-  "ToAssociate": "pariatur"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_TransferChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 557,
-  "TopicId": 502,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "explicabo",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Gibson, Thiel and Dare",
-  "CustomerEmail": "sigurd@skiles.uk",
-  "CustomerPhone": "316-415-5277 x3245",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Mills, Johns and Schmidt",
-  "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "officiis",
-  "WhenRequested": "1998-11-03T02:30:46.8663446+01:00",
-  "WhenStarted": "2017-12-02T02:30:46.8663446+01:00",
-  "WhenEnded": "2015-11-21T02:30:46.8663446+01:00",
-  "WhenIdle": "2024-09-02T02:30:46.8663446+02:00",
-  "WhenFetched": "2003-10-09T02:30:46.8663446+02:00",
-  "SessionKey": "asperiores",
-  "InitialQueuePos": 849,
-  "AlertLevel": 959,
-  "Rank": 662,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 837,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_TransferChatSession.md)]

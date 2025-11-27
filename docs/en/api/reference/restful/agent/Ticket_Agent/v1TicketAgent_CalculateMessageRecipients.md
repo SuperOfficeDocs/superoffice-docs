@@ -74,36 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/CalculateMessageRecipients
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 615,
-  "ActionType": "Forward",
-  "MessageId": 38
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_CalculateMessageRecipients.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Type": "BCC",
-    "Value": "aut",
-    "DisplayValue": "eligendi"
-  },
-  {
-    "Type": "BCC",
-    "Value": "aut",
-    "DisplayValue": "eligendi"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_CalculateMessageRecipients.md)]

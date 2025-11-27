@@ -81,41 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RecordId": 840,
-  "ActorTypeCrm": "Contact"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetFieldValuesFromCrm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayName": "Hahn, Berge and Kuhlman",
-    "CrmFieldKey": "sunt",
-    "Value": "ex",
-    "DisplayValue": "dolore",
-    "SyncToCrm": false,
-    "SyncToErp": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetFieldValuesFromCrm.md)]

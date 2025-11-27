@@ -81,42 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/ForceResync
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 849,
-  "InternalKeyIds": [
-    814,
-    846
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_ForceResync.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "placeat",
-  "TechExplanation": "dolor",
-  "ErrorCode": "nostrum",
-  "Changes": null,
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 996
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_ForceResync.md)]

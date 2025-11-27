@@ -43,6 +43,8 @@ items:
   href: audiencelayoutlink.md
 - name: AudienceVisibility
   href: audiencevisibility.md
+- name: AutomatedCategoryUpdate
+  href: automatedcategoryupdate.md
 - name: autosave
   href: autosave.md
 - name: BaseTZLocation
@@ -121,6 +123,12 @@ items:
   href: contintgrouplink.md
 - name: ContIntHeadingLink
   href: contintheadinglink.md
+- name: copilot
+  href: copilot.md
+- name: copilot_data_source
+  href: copilot-data-source.md
+- name: copilot_data_source_setting
+  href: copilot-data-source-setting.md
 - name: CounterValue
   href: countervalue.md
 - name: country
@@ -947,6 +955,12 @@ items:
   href: ticket-log-change.md
 - name: ticket_priority
   href: ticket-priority.md
+- name: ticket_rel_def_ticket_type
+  href: ticket-rel-def-ticket-type.md
+- name: ticket_relation
+  href: ticket-relation.md
+- name: ticket_relation_def
+  href: ticket-relation-def.md
 - name: ticket_status
   href: ticket-status.md
 - name: ticket_status_history
@@ -1115,6 +1129,8 @@ items:
     href: enums/boardviewentitytype.md
   - name: CategoryGroup
     href: enums/categorygroup.md
+  - name: CategoryUpdateTrigger
+    href: enums/categoryupdatetrigger.md
   - name: CcTemplateType
     href: enums/cctemplatetype.md
   - name: ChatMessageSpecialType
@@ -1131,6 +1147,8 @@ items:
     href: enums/chattopicflag.md
   - name: ConfigType
     href: enums/configtype.md
+  - name: CopilotDataSourceType
+    href: enums/copilotdatasourcetype.md
   - name: CredentialUsage
     href: enums/credentialusage.md
   - name: CriteriaGroupDirection
@@ -1329,6 +1347,8 @@ items:
     href: enums/ticketprioritystatus.md
   - name: TicketReadStatus
     href: enums/ticketreadstatus.md
+  - name: TicketRelationType
+    href: enums/ticketrelationtype.md
   - name: TicketSecurityLevel
     href: enums/ticketsecuritylevel.md
   - name: TicketStatusTimeCounter

@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/AddEmailAddressToPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 330,
-  "EmailAddress": "larry_friesen@sporer.co.uk",
-  "SetAsPrimaryEmail": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_AddEmailAddressToPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_AddEmailAddressToPerson.md)]

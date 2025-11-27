@@ -65,24 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/DoEscalating
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 181,
-  "Action": "ActionChangedOwner"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_DoEscalating.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_DoEscalating.md)]

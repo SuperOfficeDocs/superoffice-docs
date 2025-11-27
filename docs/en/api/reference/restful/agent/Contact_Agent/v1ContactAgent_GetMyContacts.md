@@ -87,53 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetMyContacts
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetMyContacts.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 806,
-    "Name": "Swaniawski, Predovic and Reichert",
-    "OrgNr": "1033477",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "impedit",
-    "DirectPhone": "335.133.6377 x4325",
-    "AssociateId": 569,
-    "CountryId": 183,
-    "EmailAddress": "abbey_baumbach@towne.info",
-    "Kananame": "aut",
-    "EmailAddressName": "wilfredo.mayert@herman.info",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Cassandre Kessler",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": null,
-    "FormattedAddress": "ut",
-    "FullName": "Prof. Jeanne Rath Sr.",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 586,
-    "Number1": "829740",
-    "Number2": "1315457",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetMyContacts.md)]

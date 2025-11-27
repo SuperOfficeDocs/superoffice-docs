@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=909
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=171
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatSessionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatSessionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 630,
-  "TopicId": 630,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "fugiat",
-  "CustomerHost": "a",
-  "CustomerName": "Sawayn, Bogan and Krajcik",
-  "CustomerEmail": "perry_towne@nitzsche.com",
-  "CustomerPhone": "567.825.9716 x83205",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Parker, Feil and Shanahan",
-  "Status": "Closed",
-  "FirstMessage": "quo",
-  "LastMessage": "dignissimos",
-  "WhenRequested": "2002-06-20T02:30:46.8507209+02:00",
-  "WhenStarted": "2005-04-30T02:30:46.8507209+02:00",
-  "WhenEnded": "2001-10-19T02:30:46.8507209+02:00",
-  "WhenIdle": "2002-11-08T02:30:46.8507209+01:00",
-  "WhenFetched": "2012-12-30T02:30:46.8507209+01:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 556,
-  "AlertLevel": 988,
-  "Rank": 442,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 94,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatSessionEntity.md)]

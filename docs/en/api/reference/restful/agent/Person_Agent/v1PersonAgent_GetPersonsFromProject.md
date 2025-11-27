@@ -112,75 +112,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetPersonsFromProject
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 539
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetPersonsFromProject.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "in",
-    "PersonId": 734,
-    "Mrmrs": "provident",
-    "Firstname": "Griffin",
-    "Lastname": "Hoppe",
-    "MiddleName": "Eichmann-Cartwright",
-    "Title": "natus",
-    "Description": "Multi-channelled stable system engine",
-    "Email": "gus@jenkins.com",
-    "FullName": "Ulises Miller",
-    "DirectPhone": "(992)004-1679",
-    "FormalName": "Auer Inc and Sons",
-    "CountryId": 736,
-    "ContactId": 402,
-    "ContactName": "Pfannerstill Group",
-    "Retired": 777,
-    "Rank": 819,
-    "ActiveInterests": 848,
-    "ContactDepartment": "",
-    "ContactCountryId": 221,
-    "ContactOrgNr": "1406134",
-    "FaxPhone": "298.711.5623",
-    "MobilePhone": "282.026.8367 x341",
-    "ContactPhone": "(376)920-8706 x09600",
-    "AssociateName": "Padberg Group",
-    "AssociateId": 589,
-    "UsePersonAddress": false,
-    "ContactFax": "est",
-    "Kanafname": "et",
-    "Kanalname": "ea",
-    "Post1": "dolorem",
-    "Post2": "maiores",
-    "Post3": "rerum",
-    "EmailName": "makenna@fadel.uk",
-    "ContactFullName": "Vilma Daniel",
-    "ActiveErpLinks": 122,
-    "TicketPriorityId": 96,
-    "SupportLanguageId": 20,
-    "SupportAssociateId": 110,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "678507",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetPersonsFromProject.md)]

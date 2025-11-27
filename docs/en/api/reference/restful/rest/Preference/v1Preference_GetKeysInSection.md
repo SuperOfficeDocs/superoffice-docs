@@ -69,67 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Preference/{section}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1Preference_GetKeysInSection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 10,
-    "Name": "Raynor-Hickle",
-    "ToolTip": "Assumenda qui deserunt qui ut enim.",
-    "Deleted": true,
-    "Rank": 64,
-    "Type": "voluptatem",
-    "ChildItems": [
-      {
-        "Id": 52,
-        "Name": "Mante-Bechtelar",
-        "ToolTip": "Autem quaerat perferendis laboriosam quo numquam ducimus id.",
-        "Deleted": false,
-        "Rank": 349,
-        "Type": "sit",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "quia",
-        "ColorBlock": 991,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "eveniet",
-        "FullName": "Rashad Lowe",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 420
-          }
-        }
-      }
-    ],
-    "IconHint": "facere",
-    "ColorBlock": 487,
-    "ExtraInfo": "nemo",
-    "StyleHint": "tempora",
-    "FullName": "Milton Tremaine Schulist DDS",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 94
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1Preference_GetKeysInSection.md)]

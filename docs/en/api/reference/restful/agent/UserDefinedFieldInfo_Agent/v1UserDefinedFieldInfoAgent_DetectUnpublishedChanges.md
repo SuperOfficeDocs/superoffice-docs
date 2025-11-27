@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_DetectUnpublishedChanges.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_DetectUnpublishedChanges.md)]

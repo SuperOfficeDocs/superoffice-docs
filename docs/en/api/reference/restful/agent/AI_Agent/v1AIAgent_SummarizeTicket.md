@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/SummarizeTicket
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 760,
-  "NumSentences": 86,
-  "IsoLangCode": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_SummarizeTicket.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"unde"
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_SummarizeTicket.md)]

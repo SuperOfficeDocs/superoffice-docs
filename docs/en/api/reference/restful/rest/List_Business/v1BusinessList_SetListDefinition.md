@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Business
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 377,
-  "Name": "Hessel, Bergnaum and Cummerata",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "Rank": 304,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 251,
-  "Name": "Bruen, Tillman and Koelpin",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 535,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_SetListDefinition.md)]

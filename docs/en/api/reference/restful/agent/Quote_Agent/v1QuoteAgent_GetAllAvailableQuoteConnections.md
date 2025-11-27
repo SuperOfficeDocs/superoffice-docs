@@ -79,71 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetAllAvailableQuoteConnections.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteConnectionId": 586,
-    "ERPName": "Heaney, Shields and Boyle",
-    "DisplayName": "Emmerich-Cartwright",
-    "DisplayDescription": "Organic context-sensitive local area network",
-    "Rank": 941,
-    "ConnectorName": "Hoeger-Swift",
-    "ErpConnectionId": 202,
-    "ExtraData": "est",
-    "IsAvailable": false,
-    "InitializeResponse": null,
-    "PriceLists": [
-      {
-        "PriceListId": 593,
-        "ERPPriceListKey": "fugiat",
-        "QuoteConnectionId": 241,
-        "Name": "Waters-O'Connell",
-        "Description": "Persevering dedicated benchmark",
-        "Currency": "unde",
-        "CurrencyName": "Runte LLC",
-        "ValidFrom": "2004-10-02T02:30:47.7256947+02:00",
-        "ValidTo": "2011-04-30T02:30:47.7256947+02:00",
-        "IsActive": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 256
-          }
-        }
-      }
-    ],
-    "AllAccess": false,
-    "Deleted": true,
-    "UserGroupAccessIds": [
-      793,
-      65
-    ],
-    "AssociateAccessIds": [
-      178,
-      348
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetAllAvailableQuoteConnections.md)]

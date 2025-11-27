@@ -18,7 +18,7 @@ Lists all batch tasks
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"batchtask"|[batchtask]|
+|"batchtask"|batchtask|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

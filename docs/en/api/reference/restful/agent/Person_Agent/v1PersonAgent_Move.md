@@ -66,25 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/Move
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 158,
-  "DestinationContactId": 8,
-  "MoveAfterDate": "2021-05-12T02:30:47.5382007+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_Move.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_Move.md)]

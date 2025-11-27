@@ -107,67 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldLabel": "in",
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 489,
-  "ColumnId": 181,
-  "FieldDefault": "facere",
-  "FieldHeight": 115,
-  "FieldLabel": "aut",
-  "FieldLeft": 666,
-  "FieldTop": 80,
-  "FieldType": "Checkbox",
-  "FieldWidth": 673,
-  "FormatMask": "quibusdam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 303,
-  "LabelLeft": 418,
-  "LabelTop": 757,
-  "LabelWidth": 608,
-  "LastVersionId": 597,
-  "ListTableId": 469,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 442,
-  "ProgId": "qui",
-  "IsReadOnly": false,
-  "ShortLabel": "a",
-  "TabOrder": 463,
-  "TextLength": 234,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 736,
-  "UDListDefinitionId": 471,
-  "Justification": "Center",
-  "Version": 687,
-  "TemplateVariableName": "Cassin LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Gerlach-Huel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel.md)]

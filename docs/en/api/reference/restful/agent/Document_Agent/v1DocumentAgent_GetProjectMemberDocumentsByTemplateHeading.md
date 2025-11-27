@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 929,
-  "StartTime": "2007-06-17T02:30:47.0850878+02:00",
-  "EndTime": "1999-04-15T02:30:47.0850878+02:00",
-  "Count": 825,
-  "TemplateHeadingId": 567
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectMemberDocumentsByTemplateHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 307,
-    "Attention": "quos",
-    "Header": "et",
-    "Name": "Bins-Becker",
-    "OurRef": "labore",
-    "YourRef": "harum",
-    "Description": "Managed global alliance",
-    "DocumentTemplate": "ut",
-    "IsPublished": false,
-    "PersonId": 478,
-    "PersonFullName": "Dayna Bartoletti",
-    "AssociateFullName": "Mr. Lorenz Yvette Nicolas Jr.",
-    "ContactId": 428,
-    "ContactName": "Moen-Bashirian",
-    "ProjectId": 726,
-    "ProjectName": "Wyman, Hoeger and Moore",
-    "AssociateId": 351,
-    "Snum": 784,
-    "SaleId": 25,
-    "SaleName": "Thiel Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectMemberDocumentsByTemplateHeading.md)]

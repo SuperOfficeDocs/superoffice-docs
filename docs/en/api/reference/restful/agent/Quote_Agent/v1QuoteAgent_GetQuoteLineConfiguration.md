@@ -80,41 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineConfigurationId": 382
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteLineConfiguration.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineConfigurationId": 105,
-  "FieldName": "Lebsack, Rath and Schmitt",
-  "Label": "unde",
-  "Tooltip": "optio",
-  "Editable": false,
-  "InUse": false,
-  "Mandatory": false,
-  "Rank": 303,
-  "RestrictEdit": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteLineConfiguration.md)]

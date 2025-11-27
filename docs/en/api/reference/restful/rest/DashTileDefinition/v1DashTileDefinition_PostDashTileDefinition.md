@@ -110,73 +110,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/DashTileDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 907,
-  "Name": "Larkin-Jerde",
-  "Description": "Persistent zero administration firmware",
-  "DefaultHeight": 599,
-  "DefaultWidth": 196,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Bauch-Batz",
-  "SelectionId": 444,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "et",
-  "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "doloremque",
-  "LayoutConfig": "minus",
-  "SecondarySelectionId": 268,
-  "MeasureByField": "officia",
-  "Usage": "Dashboard",
-  "ProviderName": "King-Jakubowski"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_PostDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 488,
-  "Name": "Bogan Group",
-  "Description": "Programmable bi-directional synergy",
-  "DefaultHeight": 809,
-  "DefaultWidth": 104,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Muller-McKenzie",
-  "SelectionId": 119,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "ea",
-  "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "ratione",
-  "LayoutConfig": "consectetur",
-  "SecondarySelectionId": 945,
-  "MeasureByField": "ducimus",
-  "Usage": "Dashboard",
-  "ProviderName": "Stiedemann, Friesen and Weissnat",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 891
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_PostDashTileDefinition.md)]

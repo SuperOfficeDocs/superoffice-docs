@@ -59,21 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/GetCacheNames
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_GetCacheNames.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "labore",
-  "veniam"
-]
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_GetCacheNames.md)]

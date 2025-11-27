@@ -30,7 +30,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -77,67 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatTopic/UserAgents
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ChatTopicEntity_GetUserAgentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 262,
-    "Name": "Nitzsche, Oberbrunner and Schmitt",
-    "ToolTip": "Tenetur dolor voluptatem molestiae voluptas.",
-    "Deleted": false,
-    "Rank": 832,
-    "Type": "aut",
-    "ChildItems": [
-      {
-        "Id": 348,
-        "Name": "Gottlieb, Witting and Sipes",
-        "ToolTip": "Ipsum ratione et quam fuga.",
-        "Deleted": true,
-        "Rank": 852,
-        "Type": "velit",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "autem",
-        "ColorBlock": 723,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "libero",
-        "FullName": "Jaida Francis Lehner II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 678
-          }
-        }
-      }
-    ],
-    "IconHint": "velit",
-    "ColorBlock": 116,
-    "ExtraInfo": "id",
-    "StyleHint": "nemo",
-    "FullName": "Yesenia Stark",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatTopicEntity_GetUserAgentList.md)]

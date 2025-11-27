@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=381
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=359
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -106,95 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetSelectionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetSelectionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Operative holistic hardware",
-  "Postit": "natus",
-  "Associate": null,
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SelectionCategory": null,
-  "GroupIdx": 516,
-  "IncludePerson": 869,
-  "MemberCount": 99.99,
-  "Name": "Jast, DuBuque and Mann",
-  "PostitTextId": 966,
-  "CreatedDate": "2000-02-17T02:30:47.819441+01:00",
-  "SelectionId": 721,
-  "SoundEx": "ut",
-  "Source": 682,
-  "TextId": 730,
-  "UpdatedDate": "2003-09-26T02:30:47.819441+02:00",
-  "UpdatedCount": 630,
-  "Visibility": 82,
-  "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 767,
-  "TargetTableName": "Zieme LLC",
-  "Completed": false,
-  "LeftSelectionId": 823,
-  "RightSelectionId": 1000,
-  "SelectionUnionType": "Intersect",
-  "MainProviderName": "Franecki-Goyette",
-  "ShadowProviderName": "Gislason LLC",
-  "ChartKey": "inventore",
-  "LastLoaded": "2025-08-28T02:30:47.819441+02:00",
-  "LastLoadedBy": 953,
-  "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-10-20T02:30:47.819441+02:00",
-  "LastMembershipChangeBy": 165,
-  "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nobis",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Balistreri Group",
-  "DashboardTileDefinitionId": 180,
-  "VisibleFor": [
-    {
-      "VisibleId": 932,
-      "Visibility": "All",
-      "DisplayValue": "tenetur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 781
-        }
-      }
-    },
-    {
-      "VisibleId": 932,
-      "Visibility": "All",
-      "DisplayValue": "tenetur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 781
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetSelectionEntity.md)]

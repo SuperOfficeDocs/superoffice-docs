@@ -75,49 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 231,
-  "MessageActionType": "Forward",
-  "TicketMessageId": 856,
-  "TicketTypeId": 218,
-  "ExcludeSignature": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetDefaultMessageContentWithOptions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Body": "deleniti",
-  "AttachmentsInfo": [
-    {
-      "AttachmentId": 180,
-      "Name": "Weimann, Walker and Runolfsson",
-      "ContentType": "amet",
-      "AttSize": 906,
-      "InlineImage": false,
-      "ContentId": "deserunt",
-      "AuthKey": "eligendi",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
-        }
-      }
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetDefaultMessageContentWithOptions.md)]

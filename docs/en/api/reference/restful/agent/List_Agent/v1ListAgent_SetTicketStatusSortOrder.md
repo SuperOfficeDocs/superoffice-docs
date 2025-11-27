@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetTicketStatusSortOrder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 901,
-  "SortOrder": 20
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetTicketStatusSortOrder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetTicketStatusSortOrder.md)]

@@ -71,45 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetReasonSoldList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetReasonSoldList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 176,
-    "Value": "consequatur",
-    "Tooltip": "cupiditate",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 596
-      }
-    }
-  },
-  {
-    "Id": 176,
-    "Value": "consequatur",
-    "Tooltip": "cupiditate",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 596
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetReasonSoldList.md)]

@@ -73,37 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/ReadRow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Wuckert Inc and Sons",
-  "Id": 39
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_ReadRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Values": {
-    "Values1": "molestias",
-    "Values2": "sed"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 815
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_ReadRow.md)]

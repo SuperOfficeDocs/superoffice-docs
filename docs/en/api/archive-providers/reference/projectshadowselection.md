@@ -172,14 +172,15 @@ Shadow contact provider for the Project provider.
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -224,11 +225,11 @@ Shadow contact provider for the Project provider.
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
-|sale/saleUdef/SuperOffice:4|date|saledate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:4|date|saledate| x |
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
@@ -328,11 +329,11 @@ Shadow contact provider for the Project provider.
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
-|appointment/appointment/textId|int|Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
@@ -432,11 +433,11 @@ Shadow contact provider for the Project provider.
 |projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/position|listAny|Position| x |
 |projectMember/personNumber|string|Number: Displays the contact's number| x |
 |projectMember/title|string|Title: Displays the contact's job title| x |
@@ -536,11 +537,11 @@ Shadow contact provider for the Project provider.
 |projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
 |projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
-|projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 |projectMember/personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
@@ -640,11 +641,11 @@ Shadow contact provider for the Project provider.
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/subscription|listAny|Subscription: Subscription for marketing| x |
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -744,11 +745,11 @@ Shadow contact provider for the Project provider.
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
-|projectMember/contactUdef/SuperOffice:4|date|companydate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:4|date|companydate| x |
 |projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |projectMember/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
@@ -826,7 +827,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=projectUrl/URLAddress,sale/hasQuote,sale/hasGuide,sale/associate/contactName,document/keywords
+GET /api/v1/archive/ProjectShadowSelection?$select=getAllRows,projectId,sale/type,projectMember/contactId,projectMember/contactUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -70,23 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/AuthenticateIncoming
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_AuthenticateIncoming.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_AuthenticateIncoming.md)]

@@ -66,40 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CreateDefaultTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 641,
-  "Value": "accusantium",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "nemo",
-  "Deleted": true,
-  "IntentId": 581,
-  "Rank": 294,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": true,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 242
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CreateDefaultTaskListItem.md)]

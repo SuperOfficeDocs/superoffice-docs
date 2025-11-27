@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | preferenceDescriptionLineId | int32 | **Required** The identity of the PreferenceDescriptionLine |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?preferenceDescriptionLineId=838
+POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?preferenceDescriptionLineId=506
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_DeletePreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_DeletePreferenceDescriptionLine.md)]

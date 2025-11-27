@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_GetReasonStalledUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 349,
-    "Name": "Dicki LLC",
-    "ToolTip": "Et facilis reprehenderit laborum eum non similique.",
-    "Deleted": false,
-    "Rank": 714,
-    "Type": "dolores",
-    "ColorBlock": 648,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2018-11-17T02:30:53.4286352+01:00",
-    "ChildItems": [
-      {
-        "Id": 492,
-        "Name": "Howell-Johns",
-        "ToolTip": "Dolor ut nisi commodi veritatis.",
-        "Deleted": false,
-        "Rank": 419,
-        "Type": "saepe",
-        "ColorBlock": 927,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2023-05-28T02:30:53.4286352+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Whitney Kub",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "eum",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Dr. Schuyler Carter",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_GetReasonStalledUserGroupsForListItem.md)]

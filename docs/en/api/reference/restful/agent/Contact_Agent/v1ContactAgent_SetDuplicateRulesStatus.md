@@ -63,36 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rules": [
-    {
-      "Name": "Flatley-Schumm",
-      "DisplayName": "Borer, Roberts and Hauck",
-      "DisplayTooltip": "excepturi",
-      "IsActive": false
-    },
-    {
-      "Name": "Flatley-Schumm",
-      "DisplayName": "Borer, Roberts and Hauck",
-      "DisplayTooltip": "excepturi",
-      "IsActive": false
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_SetDuplicateRulesStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_SetDuplicateRulesStatus.md)]

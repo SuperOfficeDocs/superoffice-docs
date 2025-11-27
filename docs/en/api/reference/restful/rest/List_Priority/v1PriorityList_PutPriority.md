@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Priority/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 735,
-  "Name": "Waelchi, Casper and Nikolaus",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "UdListDefinitionId": 204,
-  "Rank": 496
-}
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_PutPriority.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 905,
-  "Name": "Schuppe, Parisian and Cruickshank",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 760,
-  "Rank": 531,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_PutPriority.md)]

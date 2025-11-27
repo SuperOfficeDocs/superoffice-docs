@@ -83,46 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Hackett Inc and Sons",
-  "DeviceName": "VonRueden Inc and Sons",
-  "DeviceIdentifier": "debitis",
-  "TableName": "Greenfelder-Swift",
-  "RecordId": 768
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Key": "expedita",
-    "Value": "error",
-    "RecordId": 838,
-    "CreatedDate": "2020-12-08T02:30:47.366331+01:00",
-    "UpdatedDate": "2020-06-26T02:30:47.366331+02:00",
-    "UpdatedBy": "magni",
-    "CreatedBy": "asperiores",
-    "TableName": "Blick, Turcotte and Fadel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 771
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId.md)]

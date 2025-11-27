@@ -83,52 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 846,
-  "Name": "Kohler-Lubowitz",
-  "Tooltip": "autem",
-  "SaveInDb": 107,
-  "Filename": "vero",
-  "DefaultOref": "qui",
-  "RecordType": "Appointment",
-  "Deleted": false,
-  "Direction": "Incoming",
-  "AutoeventId": 439,
-  "IntentId": 523,
-  "IsDefaultPublished": true,
-  "Rank": 556,
-  "LoadTemplateFromPlugin": 611,
-  "MimeType": "laboriosam",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 419,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "justina_mckenzie@flatleycruickshank.name",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eudora.rice@stoltenbergkuphal.name",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 53
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTemplateEntity.md)]

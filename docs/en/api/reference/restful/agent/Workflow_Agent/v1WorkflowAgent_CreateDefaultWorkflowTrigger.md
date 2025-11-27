@@ -57,50 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowTriggerId": 438,
-  "WorkflowId": 859,
-  "TriggerType": "AddedMessage",
-  "RestrictionGroups": [
-    {
-      "Name": "McCullough Group",
-      "Description": "Synergized bi-directional definition",
-      "Rank": 560,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "McCullough Group",
-      "Description": "Synergized bi-directional definition",
-      "Rank": 560,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md)]

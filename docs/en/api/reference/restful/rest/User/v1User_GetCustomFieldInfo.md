@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/User/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1User_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Thompson LLC",
-  "DisplayName": "Wilderman, Zboncak and Rath",
-  "Description": "Distributed user-facing contingency",
-  "ShortLabel": "delectus",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 94,
-  "TemplateVariableName": "Bergnaum, Wolf and Jewess"
-}
-```
+[!include[sample response](../../samples/rest/response/v1User_GetCustomFieldInfo.md)]

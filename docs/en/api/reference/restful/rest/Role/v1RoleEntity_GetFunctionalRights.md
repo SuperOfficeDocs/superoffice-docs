@@ -75,73 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/{roleId}/FunctionRight
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_GetFunctionalRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 205,
-    "Name": "Smith, Borer and Reichel",
-    "ToolTip": "Amet quibusdam dolorem sint tenetur dolores.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "id",
-    "ColorBlock": 279,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2004-01-29T02:30:52.8349052+01:00",
-    "ChildItems": [
-      {
-        "Id": 667,
-        "Name": "Smith, Hintz and Okuneva",
-        "ToolTip": "Eos et incidunt possimus.",
-        "Deleted": false,
-        "Rank": 391,
-        "Type": "laborum",
-        "ColorBlock": 402,
-        "IconHint": "nam",
-        "Selected": true,
-        "LastChanged": "2006-06-07T02:30:52.8349052+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "excepturi",
-        "Hidden": false,
-        "FullName": "Marguerite Boyle",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 322
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Hilma Bahringer",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 330
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_GetFunctionalRights.md)]

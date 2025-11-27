@@ -63,33 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionId}/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 981,
-  "Name": "Walsh, Hermann and Wisoky",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 333,
-  "Rank": 714,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetFromListDefinition.md)]

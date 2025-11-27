@@ -71,45 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDepartmentList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDepartmentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 63,
-    "Value": "enim",
-    "Tooltip": "molestias",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 844
-      }
-    }
-  },
-  {
-    "Id": 63,
-    "Value": "enim",
-    "Tooltip": "molestias",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 844
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDepartmentList.md)]

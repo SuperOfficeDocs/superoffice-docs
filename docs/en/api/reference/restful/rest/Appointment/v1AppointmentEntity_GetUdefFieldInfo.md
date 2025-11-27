@@ -90,61 +90,8 @@ AppointmentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_GetUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AppointmentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 929,
-  "ColumnId": 776,
-  "FieldDefault": "ab",
-  "FieldHeight": 605,
-  "FieldLabel": "autem",
-  "FieldLeft": 165,
-  "FieldTop": 877,
-  "FieldType": "Checkbox",
-  "FieldWidth": 841,
-  "FormatMask": "dolorem",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 619,
-  "LabelLeft": 638,
-  "LabelTop": 231,
-  "LabelWidth": 410,
-  "LastVersionId": 409,
-  "ListTableId": 557,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 939,
-  "ProgId": "fugiat",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatibus",
-  "TabOrder": 61,
-  "TextLength": 551,
-  "Tooltip": "et",
-  "UdefIdentity": 792,
-  "UDListDefinitionId": 694,
-  "Justification": "Center",
-  "Version": 274,
-  "TemplateVariableName": "Treutel, Botsford and Walker",
-  "HasBeenPublished": true,
-  "MdoListName": "Grimes-Renner",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_GetUdefFieldInfo.md)]

@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ConsentSource
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 426,
-  "Name": "Hintz Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 83,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 758,
-  "Name": "Walker, McDermott and Bergstrom",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "Rank": 375,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_SetListDefinition.md)]

@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TemplateId": 808,
-  "UiCulture": "voluptas"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetSanitizedTemplateStreamFromId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetSanitizedTemplateStreamFromId.md)]

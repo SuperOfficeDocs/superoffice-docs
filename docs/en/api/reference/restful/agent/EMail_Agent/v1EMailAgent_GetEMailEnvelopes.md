@@ -85,71 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEMailEnvelopes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerIds": [
-    223,
-    104
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEMailEnvelopes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ServerId": 109,
-    "MessageId": "ut",
-    "Subject": "molestiae",
-    "From": null,
-    "To": [
-      {
-        "ContactId": 554,
-        "ContactName": "Ratke Inc and Sons",
-        "PersonId": 860,
-        "PersonName": "Hettinger Inc and Sons",
-        "AssociateId": 102,
-        "Address": "et",
-        "EmailId": 152,
-        "DuplicatePersonIds": [
-          158,
-          87
-        ],
-        "Name": "Predovic-Marvin",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 861
-          }
-        }
-      }
-    ],
-    "Sent": "2021-09-04T02:30:47.3038336+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 962,
-    "EMailSOInfo": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEMailEnvelopes.md)]

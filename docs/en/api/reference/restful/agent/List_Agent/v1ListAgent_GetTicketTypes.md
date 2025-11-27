@@ -82,57 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketTypeId": 974,
-    "Name": "Halvorson, Murray and Stehr",
-    "Rank": 269,
-    "Tooltip": "est",
-    "Icon": "quo",
-    "DefaultTicketStatus": 678,
-    "TicketStatuses": [
-      561,
-      711
-    ],
-    "DefaultTicketPriority": 823,
-    "TicketPriorities": [
-      239,
-      491
-    ],
-    "ReplyTemplate": 73,
-    "IsExternalVisible": false,
-    "IsDefault": false,
-    "ShowInNew": true,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
-    "VisibleForGroups": [
-      271,
-      247
-    ],
-    "ReplyForwardNoSignature": true,
-    "ReplyExternalAsDefault": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 570
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketTypes.md)]

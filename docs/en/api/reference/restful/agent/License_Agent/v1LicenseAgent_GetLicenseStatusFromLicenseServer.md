@@ -72,27 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "Dicki-Goldner"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetLicenseStatusFromLicenseServer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "ut",
-  "Url": "http://www.example.com/"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetLicenseStatusFromLicenseServer.md)]

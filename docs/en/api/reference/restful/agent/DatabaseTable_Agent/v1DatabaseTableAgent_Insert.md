@@ -80,83 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/Insert
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Bogisich Inc and Sons",
-  "Columns": [
-    "nihil",
-    "et"
-  ],
-  "Data": [
-    [
-      {}
-    ],
-    [
-      {}
-    ]
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_Insert.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": false,
-  "Message": "est",
-  "Inserts": 686,
-  "Updates": 251,
-  "Deletes": 430,
-  "RowStatus": [
-    {
-      "PrimaryKey": 335,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "hic",
-        "est"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
-        }
-      }
-    },
-    {
-      "PrimaryKey": 335,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "hic",
-        "est"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_Insert.md)]

@@ -28,7 +28,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=iusto
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=odit
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteApproveReason/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 266,
-    "Name": "Legros-Keebler",
-    "ToolTip": "Accusantium ipsam et est nostrum sit sequi.",
-    "Deleted": false,
-    "Rank": 527,
-    "Type": "quisquam",
-    "ChildItems": [
-      {
-        "Id": 640,
-        "Name": "Hauck-Jaskolski",
-        "ToolTip": "Architecto quia explicabo.",
-        "Deleted": false,
-        "Rank": 325,
-        "Type": "rerum",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "quae",
-        "ColorBlock": 159,
-        "ExtraInfo": "vero",
-        "StyleHint": "error",
-        "FullName": "Jovan Will",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 891
-          }
-        }
-      }
-    ],
-    "IconHint": "asperiores",
-    "ColorBlock": 302,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "consequuntur",
-    "FullName": "Uriel Rutherford",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 253
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_GetMDOList.md)]

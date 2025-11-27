@@ -79,77 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/Find
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "dolorum",
-  "ProviderName": "Sauer-Baumbach",
-  "StorageKey": "maxime",
-  "PageSize": 894,
-  "PageNumber": 91
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_Find.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Nikolaus, Marvin and Berge",
-      "DisplayTooltip": "et",
-      "DisplayType": "earum",
-      "CanOrderBy": false,
-      "Name": "Johnson-Welch",
-      "CanRestrictBy": true,
-      "RestrictionType": "veritatis",
-      "RestrictionListName": "Brakus-Marvin",
-      "IsVisible": true,
-      "ExtraInfo": "sed",
-      "Width": "neque",
-      "IconHint": "hic",
-      "HeadingIconHint": "nulla"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Ryan Inc and Sons",
-      "PrimaryKey": 284,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "praesentium",
-          "LinkHint": "sed"
-        }
-      },
-      "LinkHint": "et",
-      "StyleHint": "ex",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 594
-        }
-      }
-    }
-  ],
-  "RowCount": 775,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_Find.md)]

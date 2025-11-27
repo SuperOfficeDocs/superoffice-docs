@@ -28,7 +28,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=totam
+GET /api/v1/List/ConsentSource/MDOItems?query=qui
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentSource/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 466,
-    "Name": "Fay Inc and Sons",
-    "ToolTip": "Porro totam molestiae voluptatem ab in.",
-    "Deleted": true,
-    "Rank": 598,
-    "Type": "non",
-    "ChildItems": [
-      {
-        "Id": 170,
-        "Name": "Koch-Moore",
-        "ToolTip": "Dolor nostrum natus sunt esse assumenda.",
-        "Deleted": false,
-        "Rank": 323,
-        "Type": "et",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "asperiores",
-        "ColorBlock": 411,
-        "ExtraInfo": "unde",
-        "StyleHint": "nostrum",
-        "FullName": "Mr. Marco Bartell MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 696
-          }
-        }
-      }
-    ],
-    "IconHint": "libero",
-    "ColorBlock": 597,
-    "ExtraInfo": "impedit",
-    "StyleHint": "pariatur",
-    "FullName": "Laurine Jarrod Armstrong IV",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_GetMDOList.md)]

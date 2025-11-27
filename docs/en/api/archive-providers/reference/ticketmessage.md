@@ -17,7 +17,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ticketmessage"|[Ticket Message]|
+|"ticketmessage"|Ticket Message|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -635,18 +635,19 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/saleTypeCategory|listAny|Request - Sale type category: Sale type category| x |
 |ticket/sale/soldReason|listAny|Request - Reason (sold): Reason (sold)| x |
 |ticket/sale/saleNumber|string|Request - Number: Number| x |
-|ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders enabled| x |
+|ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders| x |
+|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |ticket/sale/hasQuote|bool|Request - Has quote?: Does the sale have a quote attached?| x |
 |ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
 |ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency): The gross sales total| x |
-|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
+|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
+|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
@@ -744,11 +745,11 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
 |ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
 |ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
 |ticket/project/projectAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -848,11 +849,11 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/leadStatus|listAny|Contact - Lead status| x |
 |person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
-|person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
@@ -872,7 +873,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/priorityName,ticket/createdBy/locationAddress,ticket/person/ticketPriority,ticket/person/personExtra/x_person_datetime,ticket/person/personExtra/y_rental/id
+GET /api/v1/archive/TicketMessage?$select=ticket/ticketPriority/rank,ticket/person/isStakeholder,ticket/contact/postAddress/wgs84latitude,ticket/contact/contactAssociate/portraitThumbnail,ticket/contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

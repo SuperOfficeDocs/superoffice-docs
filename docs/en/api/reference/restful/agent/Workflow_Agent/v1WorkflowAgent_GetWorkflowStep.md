@@ -73,28 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/GetWorkflowStep
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowStepId": 23
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_GetWorkflowStep.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowStepId": 214,
-  "WorkflowId": 774,
-  "StepType": "AddToList",
-  "Rank": 564
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_GetWorkflowStep.md)]

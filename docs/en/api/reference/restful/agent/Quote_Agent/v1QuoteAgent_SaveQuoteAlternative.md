@@ -106,77 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SaveQuoteAlternative
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 366,
-  "ERPQuoteAlternativeKey": "saepe",
-  "QuoteVersionId": 466,
-  "Name": "Jacobson-Mohr",
-  "Description": "Progressive full-range concept",
-  "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 27996.022,
-  "ERPDiscountAmount": 14228.359999999999,
-  "DiscountPercent": 13570.22,
-  "DiscountAmount": 14065.392,
-  "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nostrum",
-  "VAT": 23179.064,
-  "EarningPercent": 4318.652,
-  "EarningAmount": 19129.935999999998,
-  "SubTotal": 5136.626,
-  "TotalPrice": 26924.194,
-  "ExtraField1": "quia",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "molestias",
-  "ExtraField4": "libero",
-  "ExtraField5": "vel"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SaveQuoteAlternative.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 829,
-  "ERPQuoteAlternativeKey": "inventore",
-  "QuoteVersionId": 822,
-  "Name": "Reichel, Nienow and Roob",
-  "Description": "Down-sized foreground benchmark",
-  "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 18556.414,
-  "ERPDiscountAmount": 14826.954,
-  "DiscountPercent": 31236.577999999998,
-  "DiscountAmount": 17710.234,
-  "UserValueOverride": "DiscountAmount",
-  "VATInfo": "adipisci",
-  "VAT": 24232.088,
-  "EarningPercent": 12548.536,
-  "EarningAmount": 20220.568,
-  "SubTotal": 22696.428,
-  "TotalPrice": 29230.818,
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "a",
-  "ExtraField3": "velit",
-  "ExtraField4": "quaerat",
-  "ExtraField5": "temporibus",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SaveQuoteAlternative.md)]

@@ -103,63 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/PickUpChatSession
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 959
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_PickUpChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 706,
-  "TopicId": 569,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "autem",
-  "CustomerName": "Johnson-Brakus",
-  "CustomerEmail": "connie@williamson.us",
-  "CustomerPhone": "(511)279-1637 x217",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hansen, Bayer and Thompson",
-  "Status": "Closed",
-  "FirstMessage": "officiis",
-  "LastMessage": "repellat",
-  "WhenRequested": "2006-10-22T02:30:46.8819694+02:00",
-  "WhenStarted": "2009-06-09T02:30:46.8819694+02:00",
-  "WhenEnded": "2021-08-27T02:30:46.8819694+02:00",
-  "WhenIdle": "2002-06-18T02:30:46.8819694+02:00",
-  "WhenFetched": "2019-10-01T02:30:46.8819694+02:00",
-  "SessionKey": "nisi",
-  "InitialQueuePos": 101,
-  "AlertLevel": 650,
-  "Rank": 18,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 127,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_PickUpChatSession.md)]

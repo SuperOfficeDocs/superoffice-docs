@@ -30,7 +30,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
 ```
 
 
@@ -71,35 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionName}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetAllFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 923,
-    "Name": "Wehner Group",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 858,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetAllFromListName.md)]

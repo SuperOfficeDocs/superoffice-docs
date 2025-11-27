@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_CreateDefaultProductCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 691,
-  "Name": "Mohr-Aufderhar",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 967,
-  "Rank": 689,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_CreateDefaultProductCategory.md)]

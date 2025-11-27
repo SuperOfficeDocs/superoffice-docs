@@ -81,44 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Kshlerin Inc and Sons",
-  "DeviceName": "Littel LLC",
-  "DeviceIdentifier": "ad"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Key": "ducimus",
-    "Value": "et",
-    "RecordId": 405,
-    "CreatedDate": "2022-12-06T02:30:47.366331+01:00",
-    "UpdatedDate": "2009-08-22T02:30:47.366331+02:00",
-    "UpdatedBy": "consectetur",
-    "CreatedBy": "dicta",
-    "TableName": "Beahan Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 787
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier.md)]

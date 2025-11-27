@@ -17,7 +17,7 @@ This archive provider enables access to the information regarding report label l
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"reportLabelLayout"|[reportLabelLayout]|
+|"reportLabelLayout"|reportLabelLayout|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -34,7 +34,7 @@ This archive provider enables access to the information regarding report label l
 ## Sample
 
 ```http!
-GET /api/v1/archive/ReportLabelLayout?$select=layout,labelLayoutId,description
+GET /api/v1/archive/ReportLabelLayout?$select=getNoRows,labelLayoutId,description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

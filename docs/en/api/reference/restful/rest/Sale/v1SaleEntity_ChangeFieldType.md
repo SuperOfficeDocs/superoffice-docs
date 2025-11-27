@@ -101,61 +101,8 @@ SaleEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 149,
-  "ColumnId": 748,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 320,
-  "FieldLabel": "doloribus",
-  "FieldLeft": 90,
-  "FieldTop": 295,
-  "FieldType": "Checkbox",
-  "FieldWidth": 788,
-  "FormatMask": "aperiam",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 496,
-  "LabelLeft": 182,
-  "LabelTop": 160,
-  "LabelWidth": 69,
-  "LastVersionId": 948,
-  "ListTableId": 409,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 950,
-  "ProgId": "adipisci",
-  "IsReadOnly": false,
-  "ShortLabel": "eum",
-  "TabOrder": 586,
-  "TextLength": 829,
-  "Tooltip": "dolores",
-  "UdefIdentity": 583,
-  "UDListDefinitionId": 405,
-  "Justification": "Center",
-  "Version": 638,
-  "TemplateVariableName": "Schaefer-Mitchell",
-  "HasBeenPublished": false,
-  "MdoListName": "Aufderhar, Wisozk and Bernier",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_ChangeFieldType.md)]

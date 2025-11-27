@@ -85,41 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetDefaultDesiredColumns
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "est",
-  "ProviderName": "Pfannerstill, Kihn and Kulas",
-  "StorageKey": "placeat"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetDefaultDesiredColumns.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayName": "Stokes-Hagenes",
-    "DisplayTooltip": "itaque",
-    "DisplayType": "eum",
-    "CanOrderBy": true,
-    "Name": "Robel Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "sit",
-    "RestrictionListName": "Greenfelder, Harris and O'Reilly",
-    "IsVisible": false,
-    "ExtraInfo": "nihil",
-    "Width": "sint",
-    "IconHint": "nam",
-    "HeadingIconHint": "facere"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetDefaultDesiredColumns.md)]

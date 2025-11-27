@@ -66,60 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailEnvelope.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServerId": 713,
-  "MessageId": "laudantium",
-  "Subject": "quaerat",
-  "From": null,
-  "To": [
-    {
-      "ContactId": 808,
-      "ContactName": "Konopelski LLC",
-      "PersonId": 362,
-      "PersonName": "Schultz Group",
-      "AssociateId": 700,
-      "Address": "doloribus",
-      "EmailId": 419,
-      "DuplicatePersonIds": [
-        175,
-        966
-      ],
-      "Name": "Runolfsdottir, Rutherford and Schuster",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
-        }
-      }
-    }
-  ],
-  "Sent": "2020-05-07T02:30:47.2569602+02:00",
-  "Priority": "High",
-  "Flags": "Answered",
-  "Size": 996,
-  "EMailSOInfo": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 679
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailEnvelope.md)]

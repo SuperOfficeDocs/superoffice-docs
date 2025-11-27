@@ -99,62 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSummaryByAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 228,
-  "FromDate": "2015-08-24T02:30:47.8038176+02:00",
-  "ToDate": "2005-02-19T02:30:47.8038176+01:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSummaryByAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BaseCurrency": "molestiae",
-  "OwnCurrency": "et",
-  "SoldTotalBaseCurrency": 8433.594,
-  "Sold": 597,
-  "SoldTotalOwnCurrency": 30807.219999999998,
-  "Lost": 945,
-  "LostTotalBaseCurrency": 814.83999999999992,
-  "LostTotalOwnCurrency": 23222.94,
-  "Open": 15,
-  "OpenTotalBaseCurrency": 12263.341999999999,
-  "OpenTotalOwnCurrency": 6362.0199999999995,
-  "OpenWeightedBaseCurrency": 13435.457999999999,
-  "OpenWeightedOwnCurrency": 12250.806,
-  "PreviousOverdue": 250,
-  "PreviousOverdueTotalBaseCurrency": 19183.214,
-  "PreviousOverdueTotalOwnCurrency": 16751.23,
-  "PreviousOverdueWeightedBaseCurrency": 21248.52,
-  "PreviousOverdueWeightedOwnCurrency": 25852.365999999998,
-  "CurrentOverdue": 141,
-  "CurrentOverdueTotalBaseCurrency": 15607.32,
-  "CurrentOverdueTotalOwnCurrency": 15431.815999999999,
-  "CurrentOverdueWeightedBaseCurrency": 22950.282,
-  "CurrentOverdueWeightedOwnCurrency": 24454.602,
-  "FutureOpen": 408,
-  "FutureOpenTotalBaseCurrency": 31007.796,
-  "FutureOpenTotalOwnCurrency": 16603.932,
-  "FutureOpenWeightedBaseCurrency": 4161.952,
-  "FutureOpenWeightedOwnCurrency": 30421.737999999998,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSummaryByAssociate.md)]

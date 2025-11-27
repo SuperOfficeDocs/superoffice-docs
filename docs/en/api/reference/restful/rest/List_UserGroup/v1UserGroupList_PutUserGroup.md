@@ -75,41 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/UserGroup/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Value": "et",
-  "Tooltip": "commodi",
-  "Id": 246,
-  "Rank": 326,
-  "Deleted": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1UserGroupList_PutUserGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Value": "delectus",
-  "Tooltip": "aut",
-  "Id": 566,
-  "Rank": 145,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 608
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1UserGroupList_PutUserGroup.md)]

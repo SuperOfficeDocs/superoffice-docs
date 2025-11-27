@@ -92,51 +92,8 @@ AttachmentEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/Attachment/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 969,
-  "Name": "Bosco, Collier and Rath",
-  "ContentType": "dolorem",
-  "AttSize": 719,
-  "InlineImage": false,
-  "ContentId": "nisi",
-  "AuthKey": "alias",
-  "IsSafeFileExtension": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_PutAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AttachmentEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 838,
-  "Name": "Wisozk LLC",
-  "ContentType": "in",
-  "AttSize": 202,
-  "InlineImage": true,
-  "ContentId": "quibusdam",
-  "AuthKey": "repellat",
-  "IsSafeFileExtension": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_PutAttachmentEntity.md)]

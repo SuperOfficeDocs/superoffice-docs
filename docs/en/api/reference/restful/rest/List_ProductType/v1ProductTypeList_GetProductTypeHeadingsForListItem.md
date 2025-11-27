@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetProductTypeHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 941,
-    "Name": "Weissnat Inc and Sons",
-    "ToolTip": "Tempora est dolorem non.",
-    "Deleted": true,
-    "Rank": 219,
-    "Type": "veniam",
-    "ColorBlock": 426,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2015-05-08T02:30:53.3661371+02:00",
-    "ChildItems": [
-      {
-        "Id": 951,
-        "Name": "Kulas LLC",
-        "ToolTip": "Distinctio enim consequatur.",
-        "Deleted": false,
-        "Rank": 770,
-        "Type": "sint",
-        "ColorBlock": 140,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2025-06-06T02:30:53.3661371+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "provident",
-        "Hidden": false,
-        "FullName": "Lorna Boyle",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 503
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "earum",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Evangeline Langworth",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetProductTypeHeadingsForListItem.md)]

@@ -84,51 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailItemId": 326
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEmailAppointmentRecurrence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RecurrenceId": 790,
-  "StartDate": "2014-12-20T02:30:47.2569602+01:00",
-  "EndDate": "2018-06-04T02:30:47.2569602+02:00",
-  "RecurrenceCounter": 317,
-  "RecurrenceEndType": "Counter",
-  "Pattern": "Custom",
-  "DayPattern": null,
-  "WeekPattern": null,
-  "MonthPattern": null,
-  "YearPattern": null,
-  "Dates": [
-    {
-      "Date": "2019-02-12T02:30:47.2569602+01:00",
-      "IsConflict": false,
-      "Description": "Total interactive definition",
-      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
-      "Tooltip": "voluptas"
-    },
-    {
-      "Date": "2019-02-12T02:30:47.2569602+01:00",
-      "IsConflict": false,
-      "Description": "Total interactive definition",
-      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
-      "Tooltip": "voluptas"
-    }
-  ],
-  "IsRecurrence": false
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEmailAppointmentRecurrence.md)]

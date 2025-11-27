@@ -69,30 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetEngineStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetEngineStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsRunning": false,
-  "StatusMessage": "sapiente",
-  "Interval": "sit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetEngineStatus.md)]

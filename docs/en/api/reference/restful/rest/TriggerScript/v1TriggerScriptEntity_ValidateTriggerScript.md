@@ -67,56 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TriggerScript/{triggerScriptId}/Validate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_ValidateTriggerScript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": true,
-  "ErrorMessage": "aut",
-  "LineNumber": 402,
-  "ErrorInformation": null,
-  "Transpiled": "dolor",
-  "Includes": [
-    938,
-    272
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 133,
-      "LineNumberTo": 762,
-      "Delta": 473,
-      "IncludeId": "sunt",
-      "IncludedFrom": [
-        "aut",
-        "voluptatem"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 702
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_ValidateTriggerScript.md)]

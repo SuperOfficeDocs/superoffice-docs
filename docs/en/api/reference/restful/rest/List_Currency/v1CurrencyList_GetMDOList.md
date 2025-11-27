@@ -27,8 +27,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=aperiam
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=qui
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 87,
-    "Name": "Feeney-Dare",
-    "ToolTip": "Voluptatibus soluta nesciunt provident asperiores minus.",
-    "Deleted": false,
-    "Rank": 966,
-    "Type": "iusto",
-    "ChildItems": [
-      {
-        "Id": 312,
-        "Name": "Fay LLC",
-        "ToolTip": "Minima voluptas.",
-        "Deleted": false,
-        "Rank": 788,
-        "Type": "est",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "saepe",
-        "ColorBlock": 907,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "laborum",
-        "FullName": "Mr. Fred Rolfson V",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 119
-          }
-        }
-      }
-    ],
-    "IconHint": "soluta",
-    "ColorBlock": 68,
-    "ExtraInfo": "et",
-    "StyleHint": "sint",
-    "FullName": "Dr. Freddie Furman Bayer DVM",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 914
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetMDOList.md)]

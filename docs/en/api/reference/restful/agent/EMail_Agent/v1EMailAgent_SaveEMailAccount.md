@@ -87,55 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/SaveEMailAccount
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "EMailAccountId": 474,
-  "EMailAddress": "et",
-  "AssociateId": 559,
-  "IncomingCredentials": null,
-  "OutgoingCredentials": null,
-  "AccountStatus": 22,
-  "ErrorCount": 9,
-  "ErrorReason": "",
-  "InboxFolder": "harum",
-  "SentFolder": "nam",
-  "SimpleMode": 615,
-  "LastFetch": "2023-11-22T02:30:47.2725845+01:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_SaveEMailAccount.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EMailAccountId": 873,
-  "EMailAddress": "eum",
-  "AssociateId": 969,
-  "IncomingCredentials": null,
-  "OutgoingCredentials": null,
-  "AccountStatus": 574,
-  "ErrorCount": 825,
-  "ErrorReason": "",
-  "InboxFolder": "temporibus",
-  "SentFolder": "consequatur",
-  "SimpleMode": 426,
-  "LastFetch": "2012-05-29T02:30:47.2725845+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_SaveEMailAccount.md)]

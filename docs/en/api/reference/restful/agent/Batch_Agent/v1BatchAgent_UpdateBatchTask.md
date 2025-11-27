@@ -94,57 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/UpdateBatchTask
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "BatchTaskInfo": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_UpdateBatchTask.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 612,
-  "Name": "Treutel, Gerhold and Dickinson",
-  "AssociateId": 657,
-  "DetailsTable": 116,
-  "DetailsRecord": 727,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
-  "ParameterObject": {
-    "ParameterObject1": "mollitia",
-    "ParameterObject2": "sit"
-  },
-  "LastStarted": "2006-09-26T02:30:46.8194719+02:00",
-  "Created": "2019-02-08T02:30:46.8194719+01:00",
-  "StartCount": 791,
-  "DatabaseSerialNumber": "1446252",
-  "Context": "reiciendis",
-  "Result": "nihil",
-  "State": "All",
-  "Description": "Proactive tertiary extranet",
-  "Response": "animi",
-  "Request": "soluta",
-  "ProgressDescription": "Innovative 5th generation migration",
-  "ProgressPercent": 131,
-  "FileName": "Heaney LLC",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_UpdateBatchTask.md)]

@@ -165,14 +165,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
-|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
-|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
-|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/deleted|bool|ERP connection - Deleted: Column showing if the ERP connection has been marked as deleted| x |
 |alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
-|alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
@@ -257,7 +258,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/status,alternative/version/quote/sale/registeredBy
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/extraField2,alternative/version/quote/connection/displayName,alternative/version/quote/connection/erpConnection/allAccess
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

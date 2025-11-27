@@ -76,50 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StartDate": "2020-04-27T02:30:46.5382305+02:00",
-  "EndDate": "2013-12-17T02:30:46.5382305+01:00",
-  "AssociateId": 392
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Date": "2021-10-17T02:30:46.5382305+02:00",
-    "ActivityInformation": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
-      }
-    }
-  },
-  {
-    "Date": "2021-10-17T02:30:46.5382305+02:00",
-    "ActivityInformation": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate.md)]

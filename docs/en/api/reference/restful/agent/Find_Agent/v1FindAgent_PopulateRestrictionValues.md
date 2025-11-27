@@ -80,86 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/PopulateRestrictionValues
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Restrictions": [
-    {
-      "Name": "Predovic LLC",
-      "Operator": "porro",
-      "Values": [
-        "in",
-        "eius"
-      ],
-      "DisplayValues": [
-        "aut",
-        "quas"
-      ],
-      "ColumnInfo": null,
-      "IsActive": true,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 779,
-      "InterOperator": "And",
-      "UniqueHash": 330
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_PopulateRestrictionValues.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Mann, Monahan and Larkin",
-    "Operator": "ut",
-    "Values": [
-      "adipisci",
-      "aut"
-    ],
-    "DisplayValues": [
-      "saepe",
-      "accusamus"
-    ],
-    "ColumnInfo": null,
-    "IsActive": true,
-    "SubRestrictions": [
-      {
-        "Name": "Wilderman Inc and Sons",
-        "Operator": "assumenda",
-        "Values": [
-          "omnis",
-          "ab"
-        ],
-        "DisplayValues": [
-          "porro",
-          "qui"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 553,
-        "InterOperator": "And",
-        "UniqueHash": 484
-      }
-    ],
-    "InterParenthesis": 496,
-    "InterOperator": "And",
-    "UniqueHash": 666
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_PopulateRestrictionValues.md)]

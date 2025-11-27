@@ -71,43 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-DELETE /api/v1/License/{moduleOwner}/{associateId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1License_UnassignThirdPartyLicenses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": false,
-    "Total": 176,
-    "Tooltip": "architecto",
-    "CanAssign": false,
-    "Free": 621,
-    "InUse": 804,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 168,
-    "Name": "Greenholt-Reilly",
-    "Description": "Realigned analyzing matrix",
-    "PrerequisiteModuleName": "Orn, Pouros and Keebler",
-    "SortOrder": 30,
-    "ExtraFlags": 782,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1License_UnassignThirdPartyLicenses.md)]

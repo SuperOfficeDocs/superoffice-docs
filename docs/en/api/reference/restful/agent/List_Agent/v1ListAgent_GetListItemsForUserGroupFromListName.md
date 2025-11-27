@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Nikolaus-Bergnaum",
-  "GroupId": 486
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListItemsForUserGroupFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 724,
-    "Name": "Legros Group",
-    "ToolTip": "Et enim consequatur perferendis placeat amet similique.",
-    "Deleted": true,
-    "Rank": 778,
-    "Type": "itaque",
-    "ColorBlock": 266,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2003-02-15T02:30:47.4132046+01:00",
-    "ChildItems": [
-      {
-        "Id": 156,
-        "Name": "Corwin-Rogahn",
-        "ToolTip": "Fuga rem.",
-        "Deleted": false,
-        "Rank": 581,
-        "Type": "alias",
-        "ColorBlock": 710,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2016-10-01T02:30:47.4132046+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "est",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Katelyn Tod McKenzie MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 48
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "esse",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Miss Francesco Reyna Harvey II",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListItemsForUserGroupFromListName.md)]

@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetCountryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 517,
-    "Name": "Koepp LLC",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 674,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetCountryHeadings.md)]

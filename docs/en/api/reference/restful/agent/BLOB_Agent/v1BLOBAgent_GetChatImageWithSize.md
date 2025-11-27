@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetChatImageWithSize
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 788,
-  "Width": 949,
-  "Height": 2
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetChatImageWithSize.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetChatImageWithSize.md)]

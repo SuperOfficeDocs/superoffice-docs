@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_step\_option Table (520)
+# workflow\_step\_option Table (523)
 
 Some steps can have optional child &apos;flows&apos;, a new series of steps
 

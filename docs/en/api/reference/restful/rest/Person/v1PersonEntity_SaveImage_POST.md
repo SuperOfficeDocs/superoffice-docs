@@ -59,18 +59,8 @@ The image blob id
 
 ## Sample request
 
-```http!
-POST /api/v1/Person/{personId}/Image
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_SaveImage_POST.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 The image blob id
-Content-Type: application/json; charset=utf-8
-
-883
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_SaveImage_POST.md)]

@@ -69,51 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketCategory/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_CreateDefaultTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 875,
-  "ParentId": 58,
-  "Name": "Becker-Thiel",
-  "Fullname": "voluptatem",
-  "CategoryMaster": 732,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Baumbach, Bernhard and Krajcik",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 956,
-  "ReplyTemplate": 555,
-  "NotificationEmail": "emilio.conroy@hessel.name",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 451,
-  "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "nihil"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quo"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_CreateDefaultTicketCategoryEntity.md)]

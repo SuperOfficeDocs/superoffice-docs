@@ -63,23 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/NotifyNewTicketMessage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketEntityId": 334
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_NotifyNewTicketMessage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_NotifyNewTicketMessage.md)]

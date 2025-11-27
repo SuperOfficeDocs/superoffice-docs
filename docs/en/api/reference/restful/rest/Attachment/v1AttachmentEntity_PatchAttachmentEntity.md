@@ -113,53 +113,8 @@ AttachmentEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Attachment/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "ipsum",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "ipsum",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_PatchAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AttachmentEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 459,
-  "Name": "Stanton, Fadel and Sauer",
-  "ContentType": "cum",
-  "AttSize": 119,
-  "InlineImage": true,
-  "ContentId": "suscipit",
-  "AuthKey": "laboriosam",
-  "IsSafeFileExtension": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_PatchAttachmentEntity.md)]

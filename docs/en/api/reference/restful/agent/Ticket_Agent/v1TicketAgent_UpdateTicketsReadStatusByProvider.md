@@ -69,50 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Provider": "esse",
-  "Restrictions": [
-    {
-      "Name": "Lesch Group",
-      "Operator": "incidunt",
-      "Values": [
-        "unde",
-        "suscipit"
-      ],
-      "DisplayValues": [
-        "non",
-        "sapiente"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 349,
-      "InterOperator": "And",
-      "UniqueHash": 822
-    }
-  ],
-  "NewStatus": "Green"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_UpdateTicketsReadStatusByProvider.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  916,
-  736
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_UpdateTicketsReadStatusByProvider.md)]

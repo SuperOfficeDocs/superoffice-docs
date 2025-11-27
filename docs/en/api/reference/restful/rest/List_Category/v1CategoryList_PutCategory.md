@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Category/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 34,
-  "Name": "Von Group",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "UdListDefinitionId": 78,
-  "Rank": 621
-}
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_PutCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 670,
-  "Name": "Graham-Kling",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "UdListDefinitionId": 438,
-  "Rank": 737,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_PutCategory.md)]

@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 326
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetSecondaryTempTileSelection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-629
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetSecondaryTempTileSelection.md)]

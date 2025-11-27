@@ -68,29 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetAllConnectors
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetAllConnectors.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 587,
-    "Name": "Barton Inc and Sons",
-    "ToolTip": "Et architecto et."
-  },
-  {
-    "Id": 587,
-    "Name": "Barton Inc and Sons",
-    "ToolTip": "Et architecto et."
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetAllConnectors.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=209
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=82
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -73,35 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetCustomerCenterConfig.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustConfigId": 175,
-  "Type": "Options",
-  "Config": "vero",
-  "CustLangId": 204,
-  "Registered": "2023-08-30T02:30:47.0538389+02:00",
-  "RegisteredAssociateId": 369,
-  "Updated": "2012-07-01T02:30:47.0538389+02:00",
-  "UpdatedAssociateId": 173,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetCustomerCenterConfig.md)]

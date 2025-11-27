@@ -113,53 +113,8 @@ RelationDefinitionEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/RelationDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "et",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "et",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1RelationDefinitionEntity_PatchRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 RelationDefinitionEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 602,
-  "Name": "Dicki, Ratke and Boyle",
-  "Tooltip": "omnis",
-  "PassiveText": "ut",
-  "Deleted": false,
-  "Rank": 490,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RelationDefinitionEntity_PatchRelationDefinitionEntity.md)]

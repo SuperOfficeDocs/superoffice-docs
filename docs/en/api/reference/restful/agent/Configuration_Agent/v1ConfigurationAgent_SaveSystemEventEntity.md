@@ -80,51 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/SaveSystemEventEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 5,
-  "Scope": "Database",
-  "Eta": "2000-02-28T02:30:46.9288431+01:00",
-  "Eventkey": "accusantium",
-  "Eventmess": "voluptas",
-  "ExtraInfo": 756,
-  "Owner": 965,
-  "UpdatedCount": 609,
-  "Registered": "2003-08-27T02:30:46.9288431+02:00",
-  "ActivatedBy": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_SaveSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 712,
-  "Scope": "Database",
-  "Eta": "2013-08-24T02:30:46.9288431+02:00",
-  "Eventkey": "impedit",
-  "Eventmess": "quia",
-  "ExtraInfo": 117,
-  "Owner": 537,
-  "UpdatedCount": 708,
-  "Registered": "2009-10-15T02:30:46.9288431+02:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_SaveSystemEventEntity.md)]

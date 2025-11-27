@@ -114,73 +114,8 @@ DashTileDefinition updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/DashTileDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 376,
-  "Name": "Stamm, Krajcik and Blanda",
-  "Description": "Persistent discrete portal",
-  "DefaultHeight": 529,
-  "DefaultWidth": 516,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Dach Group",
-  "SelectionId": 780,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "consectetur",
-  "Measure": "Average",
-  "MeasureField": "sed",
-  "SortBy": "sit",
-  "LayoutConfig": "rerum",
-  "SecondarySelectionId": 401,
-  "MeasureByField": "quod",
-  "Usage": "Dashboard",
-  "ProviderName": "Farrell-Bernhard"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_PutDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTileDefinition updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 414,
-  "Name": "Maggio-Raynor",
-  "Description": "Optimized context-sensitive framework",
-  "DefaultHeight": 988,
-  "DefaultWidth": 484,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Marks-Hettinger",
-  "SelectionId": 382,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "corrupti",
-  "Measure": "Average",
-  "MeasureField": "voluptas",
-  "SortBy": "omnis",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 526,
-  "MeasureByField": "nihil",
-  "Usage": "Dashboard",
-  "ProviderName": "Abbott, Homenick and Hahn",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_PutDashTileDefinition.md)]

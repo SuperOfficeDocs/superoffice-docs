@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Okuneva, Gulgowski and Keebler",
-  "DeviceName": "Parker-Blanda",
-  "DeviceIdentifier": "deleniti"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_AddDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 188,
-  "Name": "Ullrich-Bergstrom",
-  "CreatedDate": "2019-05-03T02:30:47.366331+02:00",
-  "UpdatedDate": "2023-01-27T02:30:47.366331+01:00",
-  "AssociateFullName": "Mr. Lexus Steve Murazik",
-  "CreatedBy": "cumque",
-  "UpdatedBy": "beatae",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 182,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_AddDeviceByIdentifier.md)]

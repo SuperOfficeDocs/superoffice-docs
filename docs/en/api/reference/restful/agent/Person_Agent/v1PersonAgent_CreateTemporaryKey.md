@@ -71,26 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/CreateTemporaryKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 764,
-  "PersonId": 835,
-  "Expires": "1998-12-26T02:30:47.5538257+01:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_CreateTemporaryKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"itaque"
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_CreateTemporaryKey.md)]

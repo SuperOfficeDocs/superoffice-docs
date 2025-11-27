@@ -32,7 +32,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=306
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=762
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -80,41 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/GetWebhook
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_GetWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 458,
-  "Name": "Hickle LLC",
-  "Events": [
-    "voluptas",
-    "vel"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "rerum",
-  "State": "Active",
-  "Type": "ullam",
-  "Headers": {
-    "Headers1": "sed",
-    "Headers2": "labore"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2009-12-22T02:30:48.1475549+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2023-07-06T02:30:48.1475549+02:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "damian_cummerata@stehrtromp.com"
-}
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_GetWebhook.md)]

@@ -79,52 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DocumentMigration/GetForDateRange
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentPluginId": 184,
-  "MinDate": "2017-05-12T02:30:47.2257111+02:00",
-  "MaxDate": "2002-12-28T02:30:47.2257111+01:00",
-  "IncludeEmails": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentMigrationAgent_GetForDateRange.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "NumDocumentsOmitted": 716,
-  "NumDocumentsAlreadyMigrated": 241,
-  "Documents": [
-    {
-      "DocumentId": 750,
-      "ContactId": 760,
-      "PersonId": 473,
-      "SaleId": 60,
-      "ProjectId": 918,
-      "DocTmplId": 573,
-      "AssociateId": 847,
-      "UserGroupId": 373,
-      "VisibleForId": 996
-    }
-  ],
-  "Associates": [
-    {
-      "AssociateId": 210,
-      "EmailAddress": "mohamed.schmidt@kunde.name"
-    },
-    {
-      "AssociateId": 210,
-      "EmailAddress": "mohamed.schmidt@kunde.name"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentMigrationAgent_GetForDateRange.md)]

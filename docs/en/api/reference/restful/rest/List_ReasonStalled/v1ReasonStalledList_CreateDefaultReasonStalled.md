@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonStalled/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_CreateDefaultReasonStalled.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 153,
-  "Name": "Parisian, Collier and Spinka",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 681,
-  "Rank": 590,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 438
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_CreateDefaultReasonStalled.md)]

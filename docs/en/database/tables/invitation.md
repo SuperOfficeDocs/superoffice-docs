@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# invitation Table (493)
+# invitation Table (496)
 
 Invitations to events
 

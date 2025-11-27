@@ -59,33 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultSaleStageEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultSaleStageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleStageId": 602,
-  "Value": "voluptatem",
-  "Tooltip": "cum",
-  "Probability": 483,
-  "Deleted": false,
-  "Rank": 624,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultSaleStageEntity.md)]

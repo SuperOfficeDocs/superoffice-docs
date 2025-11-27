@@ -15,8 +15,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ejscript"|[ejscript]|
-|"eventHandler"|[eventHandler]|
+|"ejscript"|ejscript|
+|"eventHandler"|eventHandler|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -49,7 +49,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/CRMScripts?$select=registeredDate,includeId
+GET /api/v1/archive/CRMScripts?$select=name,registeredDate,includeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

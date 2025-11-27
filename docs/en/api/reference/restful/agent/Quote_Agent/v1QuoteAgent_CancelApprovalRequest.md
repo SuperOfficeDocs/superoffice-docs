@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CancelApprovalRequest
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 507
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CancelApprovalRequest.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "nam",
-  "TechExplanation": "commodi",
-  "ErrorCode": "harum",
-  "Changes": null,
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CancelApprovalRequest.md)]

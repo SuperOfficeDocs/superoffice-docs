@@ -63,36 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rules": [
-    {
-      "Name": "Hartmann LLC",
-      "DisplayName": "Borer-Christiansen",
-      "DisplayTooltip": "eveniet",
-      "IsActive": false
-    },
-    {
-      "Name": "Hartmann LLC",
-      "DisplayName": "Borer-Christiansen",
-      "DisplayTooltip": "eveniet",
-      "IsActive": false
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_SetDuplicateRulesStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_SetDuplicateRulesStatus.md)]

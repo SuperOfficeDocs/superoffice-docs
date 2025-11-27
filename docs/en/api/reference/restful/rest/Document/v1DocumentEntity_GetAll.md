@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=eos
-GET /api/v1/Document?$top=15
-GET /api/v1/Document?$skip=123
+GET /api/v1/Document?$entities=rerum
+GET /api/v1/Document?$top=186
+GET /api/v1/Document?$skip=202
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=voluptas
+GET /api/v1/Document?$context=quae
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "molestiae",
-  "value": [
-    {
-      "PrimaryKey": 4320,
-      "EntityName": "sale",
-      "saleId": 4320,
-      "contactId": 3792,
-      "name": "Prosacco-Kling"
-    },
-    {
-      "PrimaryKey": 5477,
-      "EntityName": "sale",
-      "saleId": 5477,
-      "contactId": 7252,
-      "name": "Torphy-Windler"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetAll.md)]

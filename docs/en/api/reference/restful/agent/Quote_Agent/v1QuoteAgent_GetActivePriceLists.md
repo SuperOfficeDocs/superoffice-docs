@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetActivePriceLists
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 792,
-  "Currency": "cupiditate"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetActivePriceLists.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PriceListId": 60,
-    "ERPPriceListKey": "dolor",
-    "QuoteConnectionId": 835,
-    "Name": "Lehner-Haley",
-    "Description": "Integrated system-worthy alliance",
-    "Currency": "sit",
-    "CurrencyName": "Batz, Graham and Muller",
-    "ValidFrom": "2019-07-02T02:30:47.7256947+02:00",
-    "ValidTo": "2001-01-01T02:30:47.7256947+01:00",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetActivePriceLists.md)]

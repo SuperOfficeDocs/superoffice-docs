@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=quod
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=consequatur
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryTerm/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 877,
-    "Name": "Conn Inc and Sons",
-    "ToolTip": "Odio aut fuga libero quasi.",
-    "Deleted": false,
-    "Rank": 148,
-    "Type": "dolorum",
-    "ChildItems": [
-      {
-        "Id": 643,
-        "Name": "Jones, Cole and Keebler",
-        "ToolTip": "Est sunt quo totam aut aut.",
-        "Deleted": true,
-        "Rank": 816,
-        "Type": "fugiat",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "accusamus",
-        "ColorBlock": 111,
-        "ExtraInfo": "optio",
-        "StyleHint": "voluptatum",
-        "FullName": "Justus Allan Carter I",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 469
-          }
-        }
-      }
-    ],
-    "IconHint": "et",
-    "ColorBlock": 209,
-    "ExtraInfo": "odio",
-    "StyleHint": "voluptatem",
-    "FullName": "Mr. Bryana Myron Batz",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 966
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_GetMDOList.md)]

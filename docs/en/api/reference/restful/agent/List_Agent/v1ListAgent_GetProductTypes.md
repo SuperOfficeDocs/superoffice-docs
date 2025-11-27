@@ -66,45 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetProductTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetProductTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 998,
-    "Value": "dolore",
-    "Tooltip": "cumque",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
-      }
-    }
-  },
-  {
-    "Id": 998,
-    "Value": "dolore",
-    "Tooltip": "cumque",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetProductTypes.md)]

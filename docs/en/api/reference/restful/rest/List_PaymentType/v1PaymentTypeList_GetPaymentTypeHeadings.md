@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_GetPaymentTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 952,
-    "Name": "Bergstrom Group",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 932,
-    "UdListDefinitionId": 752,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_GetPaymentTypeHeadings.md)]

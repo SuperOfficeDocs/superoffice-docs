@@ -66,26 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/SaveRestrictions2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "aliquam",
-  "ProviderName": "Gutmann Inc and Sons",
-  "StorageKey": "ea",
-  "Restrictions": "enim"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_SaveRestrictions2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_SaveRestrictions2.md)]

@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_CreateDefaultPosition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 789,
-  "Name": "Miller, Glover and Armstrong",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 335,
-  "Rank": 196,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 749
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_CreateDefaultPosition.md)]

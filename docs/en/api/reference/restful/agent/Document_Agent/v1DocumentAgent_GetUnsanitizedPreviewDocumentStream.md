@@ -76,36 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 633
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetUnsanitizedPreviewDocumentStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Stiedemann, Reichert and Langosh",
-  "Type": "amet",
-  "Size": 173,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetUnsanitizedPreviewDocumentStream.md)]

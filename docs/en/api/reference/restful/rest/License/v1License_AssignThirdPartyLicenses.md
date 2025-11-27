@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/License/{moduleOwner}/{associateId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1License_AssignThirdPartyLicenses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": true,
-    "Total": 384,
-    "Tooltip": "excepturi",
-    "CanAssign": true,
-    "Free": 467,
-    "InUse": 854,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 517,
-    "Name": "Connelly LLC",
-    "Description": "Streamlined executive matrix",
-    "PrerequisiteModuleName": "Purdy Inc and Sons",
-    "SortOrder": 694,
-    "ExtraFlags": 883,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1License_AssignThirdPartyLicenses.md)]

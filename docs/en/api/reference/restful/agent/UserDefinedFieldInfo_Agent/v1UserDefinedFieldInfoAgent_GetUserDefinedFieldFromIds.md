@@ -105,71 +105,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Ids": [
-    934,
-    624
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 919,
-    "ColumnId": 440,
-    "FieldDefault": "et",
-    "FieldHeight": 705,
-    "FieldLabel": "velit",
-    "FieldLeft": 1002,
-    "FieldTop": 126,
-    "FieldType": "Checkbox",
-    "FieldWidth": 107,
-    "FormatMask": "enim",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 32,
-    "LabelLeft": 864,
-    "LabelTop": 599,
-    "LabelWidth": 630,
-    "LastVersionId": 310,
-    "ListTableId": 623,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 340,
-    "ProgId": "quisquam",
-    "IsReadOnly": false,
-    "ShortLabel": "ullam",
-    "TabOrder": 591,
-    "TextLength": 753,
-    "Tooltip": "atque",
-    "UdefIdentity": 501,
-    "UDListDefinitionId": 326,
-    "Justification": "Center",
-    "Version": 627,
-    "TemplateVariableName": "Schmidt-Collier",
-    "HasBeenPublished": true,
-    "MdoListName": "Bergnaum, Erdman and Senger",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 20
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds.md)]

@@ -76,31 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatTopicUserAgent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 445,
-  "Username": "culpa"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatTopicUserAgent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TopicId": 107,
-  "User": null,
-  "CanListen": true,
-  "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatTopicUserAgent.md)]

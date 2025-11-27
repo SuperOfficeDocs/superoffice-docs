@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Competitor/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 809,
-    "Name": "Halvorson-Leannon",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 232,
-    "UdListDefinitionId": 54
-  },
-  {
-    "HeadingId": 809,
-    "Name": "Halvorson-Leannon",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 232,
-    "UdListDefinitionId": 54
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_PutCompetitorHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 396,
-    "Name": "Wuckert Group",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 422,
-    "UdListDefinitionId": 391,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_PutCompetitorHeadings.md)]

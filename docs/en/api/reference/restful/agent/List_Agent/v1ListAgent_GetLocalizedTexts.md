@@ -69,35 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLocalizedTexts
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLocalizedTexts.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageId": 367,
-    "ResourceId": 401,
-    "Text": "voluptatem",
-    "Type": "Column",
-    "LocalizedTextId": 901,
-    "IsBuiltIn": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 204
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLocalizedTexts.md)]

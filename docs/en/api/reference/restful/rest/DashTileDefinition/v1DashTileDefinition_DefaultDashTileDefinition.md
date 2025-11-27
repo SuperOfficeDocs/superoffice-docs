@@ -73,46 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/DashTileDefinition/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_DefaultDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 131,
-  "Name": "Hane Inc and Sons",
-  "Description": "Fundamental intermediate workforce",
-  "DefaultHeight": 545,
-  "DefaultWidth": 486,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Kshlerin-Carter",
-  "SelectionId": 459,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "vitae",
-  "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "perferendis",
-  "LayoutConfig": "dolores",
-  "SecondarySelectionId": 881,
-  "MeasureByField": "doloribus",
-  "Usage": "Dashboard",
-  "ProviderName": "Block-Schumm",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_DefaultDashTileDefinition.md)]

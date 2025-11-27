@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveHeadingFromName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Ortiz-Toy",
-  "Entity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveHeadingFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 420,
-  "Name": "Eichmann-Heller",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "Rank": 368,
-  "UdListDefinitionId": 381,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveHeadingFromName.md)]

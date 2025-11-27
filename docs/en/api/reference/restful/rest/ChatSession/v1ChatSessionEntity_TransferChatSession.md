@@ -89,58 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_TransferChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 282,
-  "TopicId": 93,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "occaecati",
-  "CustomerName": "Willms Inc and Sons",
-  "CustomerEmail": "jermey@kerluke.biz",
-  "CustomerPhone": "1-421-476-1872 x7820",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Beier-Robel",
-  "Status": "Closed",
-  "FirstMessage": "eum",
-  "LastMessage": "libero",
-  "WhenRequested": "2009-12-04T02:30:52.3817956+01:00",
-  "WhenStarted": "2000-08-25T02:30:52.3817956+02:00",
-  "WhenEnded": "2022-06-10T02:30:52.3817956+02:00",
-  "WhenIdle": "2021-03-11T02:30:52.3817956+01:00",
-  "WhenFetched": "2011-09-13T02:30:52.3817956+02:00",
-  "SessionKey": "repudiandae",
-  "InitialQueuePos": 712,
-  "AlertLevel": 987,
-  "Rank": 245,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 417,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_TransferChatSession.md)]

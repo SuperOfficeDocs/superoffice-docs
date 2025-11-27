@@ -93,54 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetWebPanelByProgId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgId": "sunt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetWebPanelByProgId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 226,
-  "Name": "Collins-Hane",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 597,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Oberbrunner Group",
-  "Url": "http://www.example.com/",
-  "ProgId": "maiores",
-  "Icon": 254,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 210
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetWebPanelByProgId.md)]

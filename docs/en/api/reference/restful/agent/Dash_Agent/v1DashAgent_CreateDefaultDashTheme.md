@@ -59,33 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultDashTheme
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 158,
-  "Name": "McGlynn-Murray",
-  "Config": "numquam",
-  "Rank": 264,
-  "Client": "fuga",
-  "Style": "non",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultDashTheme.md)]

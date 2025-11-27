@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashTileDefinitionId | int32 | **Required** The identity of the DashTileDefinition |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=445
+POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=975
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/DeleteDashTileDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_DeleteDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_DeleteDashTileDefinition.md)]

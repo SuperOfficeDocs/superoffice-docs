@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentTerm
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 793,
-  "Name": "Jones Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 12,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 81,
-  "Name": "Lockman LLC",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 158,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_SetListDefinition.md)]

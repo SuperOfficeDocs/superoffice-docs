@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Source/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_GetSourceHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 191,
-    "Name": "Daugherty LLC",
-    "ToolTip": "Accusantium a.",
-    "Deleted": false,
-    "Rank": 958,
-    "Type": "repellendus",
-    "ColorBlock": 814,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2012-11-22T02:30:53.4598845+01:00",
-    "ChildItems": [
-      {
-        "Id": 797,
-        "Name": "Spinka LLC",
-        "ToolTip": "Ut quibusdam aut necessitatibus.",
-        "Deleted": true,
-        "Rank": 9,
-        "Type": "rerum",
-        "ColorBlock": 626,
-        "IconHint": "eaque",
-        "Selected": false,
-        "LastChanged": "2024-08-08T02:30:53.4598845+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "id",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Mrs. Deangelo Okuneva",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 638
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "eius",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Ms. Sarai Kian Homenick",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 520
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_GetSourceHeadingsForListItem.md)]

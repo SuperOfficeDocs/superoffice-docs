@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ShipmentType Table (501)
+# ShipmentType Table (504)
 
 Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 

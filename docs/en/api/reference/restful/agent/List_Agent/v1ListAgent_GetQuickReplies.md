@@ -66,45 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetQuickReplies
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetQuickReplies.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuickReplyId": 648,
-    "Name": "Hirthe Group",
-    "HtmlBody": "aut",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
-      }
-    }
-  },
-  {
-    "QuickReplyId": 648,
-    "Name": "Hirthe Group",
-    "HtmlBody": "aut",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetQuickReplies.md)]

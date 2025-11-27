@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/SelectionCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 491,
-  "Name": "Barton, Nitzsche and Abernathy",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 693,
-  "UdListDefinitionId": 924
-}
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_PostSelectionCategoryHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 679,
-  "Name": "Howe-Bailey",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 321,
-  "UdListDefinitionId": 720,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 887
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_PostSelectionCategoryHeading.md)]

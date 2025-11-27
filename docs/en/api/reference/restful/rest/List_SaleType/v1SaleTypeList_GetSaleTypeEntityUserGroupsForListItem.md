@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 775,
-    "Name": "Denesik Group",
-    "ToolTip": "Officiis id ex fugit sint voluptatem.",
-    "Deleted": false,
-    "Rank": 169,
-    "Type": "distinctio",
-    "ColorBlock": 665,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2004-03-19T02:30:53.4442597+01:00",
-    "ChildItems": [
-      {
-        "Id": 707,
-        "Name": "Macejkovic, Jacobs and Keebler",
-        "ToolTip": "Aut error facere accusamus ad voluptas aut occaecati.",
-        "Deleted": false,
-        "Rank": 596,
-        "Type": "quae",
-        "ColorBlock": 976,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "1999-12-29T02:30:53.4442597+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sed",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Mrs. Chad Daugherty",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 772
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "cum",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Robb Murazik",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 261
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem.md)]

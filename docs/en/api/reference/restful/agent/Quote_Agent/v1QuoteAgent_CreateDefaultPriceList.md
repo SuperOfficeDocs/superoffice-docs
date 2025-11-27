@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CreateDefaultPriceList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CreateDefaultPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 127,
-  "ERPPriceListKey": "ipsum",
-  "QuoteConnectionId": 267,
-  "Name": "Connelly-Hilpert",
-  "Description": "Grass-roots well-modulated local area network",
-  "Currency": "maxime",
-  "CurrencyName": "Wiza-Koss",
-  "ValidFrom": "2017-01-01T02:30:47.7100701+01:00",
-  "ValidTo": "2009-08-05T02:30:47.7100701+02:00",
-  "IsActive": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CreateDefaultPriceList.md)]

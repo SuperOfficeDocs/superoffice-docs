@@ -82,61 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ValidateScriptByString
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Script": "qui"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ValidateScriptByString.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": false,
-  "ErrorMessage": "repellat",
-  "LineNumber": 624,
-  "ErrorInformation": null,
-  "Transpiled": "aut",
-  "Includes": [
-    676,
-    223
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 244,
-      "LineNumberTo": 178,
-      "Delta": 689,
-      "IncludeId": "quia",
-      "IncludedFrom": [
-        "quae",
-        "odit"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ValidateScriptByString.md)]

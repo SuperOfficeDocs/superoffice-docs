@@ -82,61 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptUniqueId": "perspiciatis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ValidateScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": true,
-  "ErrorMessage": "quo",
-  "LineNumber": 451,
-  "ErrorInformation": null,
-  "Transpiled": "quod",
-  "Includes": [
-    353,
-    939
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 557,
-      "LineNumberTo": 146,
-      "Delta": 254,
-      "IncludeId": "distinctio",
-      "IncludedFrom": [
-        "tempore",
-        "natus"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 959
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ValidateScriptByUniqueId.md)]

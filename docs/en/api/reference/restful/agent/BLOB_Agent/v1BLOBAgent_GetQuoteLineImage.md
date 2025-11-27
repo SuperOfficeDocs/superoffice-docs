@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetQuoteLineImage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineId": 825
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetQuoteLineImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-99.99
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetQuoteLineImage.md)]

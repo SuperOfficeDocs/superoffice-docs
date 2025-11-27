@@ -68,27 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/InsertRow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Daugherty-Stark",
-  "Values": {
-    "Values1": "quam",
-    "Values2": "non"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_InsertRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-57
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_InsertRow.md)]

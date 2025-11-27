@@ -75,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Contact/{id}/Appointments?$entities=eaque
-GET /api/v1/Contact/{id}/Appointments?$top=370
-GET /api/v1/Contact/{id}/Appointments?$skip=26
+GET /api/v1/Contact/{id}/Appointments?$entities=quia
+GET /api/v1/Contact/{id}/Appointments?$top=698
+GET /api/v1/Contact/{id}/Appointments?$skip=41
 GET /api/v1/Contact/{id}/Appointments?$mode=Full
 GET /api/v1/Contact/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Appointments?$context=in
+GET /api/v1/Contact/{id}/Appointments?$context=quis
 GET /api/v1/Contact/{id}/Appointments?$format=JSON
 GET /api/v1/Contact/{id}/Appointments?$jsonSafe=False
 GET /api/v1/Contact/{id}/Appointments?$output=Display
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/{id}/Appointments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_Appointments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "accusantium",
-  "value": [
-    {
-      "PrimaryKey": 9547,
-      "EntityName": "sale",
-      "saleId": 9547,
-      "contactId": 4173,
-      "name": "Ryan, Heller and Ernser"
-    },
-    {
-      "PrimaryKey": 3330,
-      "EntityName": "sale",
-      "saleId": 3330,
-      "contactId": 6002,
-      "name": "Rogahn-Erdman"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_Appointments.md)]

@@ -98,69 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashTileDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 604,
-  "Name": "Dickens-Mills",
-  "Description": "Total bifurcated synergy",
-  "DefaultHeight": 723,
-  "DefaultWidth": 552,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "O'Reilly-Moen",
-  "SelectionId": 613,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "et",
-  "Measure": "Average",
-  "MeasureField": "qui",
-  "SortBy": "eum",
-  "LayoutConfig": "magnam",
-  "SecondarySelectionId": 244,
-  "MeasureByField": "consequatur",
-  "Usage": "Dashboard",
-  "ProviderName": "Halvorson-Huels"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 668,
-  "Name": "Bogisich Inc and Sons",
-  "Description": "Intuitive secondary approach",
-  "DefaultHeight": 125,
-  "DefaultWidth": 342,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Nienow Group",
-  "SelectionId": 325,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "eos",
-  "Measure": "Average",
-  "MeasureField": "corrupti",
-  "SortBy": "doloribus",
-  "LayoutConfig": "libero",
-  "SecondarySelectionId": 390,
-  "MeasureByField": "est",
-  "Usage": "Dashboard",
-  "ProviderName": "Koepp Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashTileDefinition.md)]

@@ -79,39 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetCurrent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "HistoryName": "Harris, Greenholt and Turner"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetCurrent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rank": 317,
-  "Id": 677,
-  "HistoryName": "Erdman-Batz",
-  "HistoryId": 15,
-  "AssociateId": 632,
-  "Name": "Kuhlman, Kuvalis and O'Conner",
-  "ItemInfo": "sunt",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetCurrent.md)]

@@ -74,58 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashTileHtmlList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 107,
-  "Languages": [
-    {
-      "LanguageCode": "vel",
-      "Html": "voluptatem"
-    },
-    {
-      "LanguageCode": "vel",
-      "Html": "voluptatem"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashTileHtmlList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageCode": "saepe",
-    "Html": "deleniti",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
-      }
-    }
-  },
-  {
-    "LanguageCode": "saepe",
-    "Html": "deleniti",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashTileHtmlList.md)]

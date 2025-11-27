@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProjectType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 155,
-    "Name": "Morar, Ruecker and Mayert",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 833
-  },
-  {
-    "Id": 155,
-    "Name": "Morar, Ruecker and Mayert",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 833
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_PutAllProjectType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 830,
-    "Name": "Zulauf, Russel and Zieme",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "UdListDefinitionId": 664,
-    "Rank": 126,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_PutAllProjectType.md)]

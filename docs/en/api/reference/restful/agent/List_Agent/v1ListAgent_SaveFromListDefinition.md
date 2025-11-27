@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 384,
-  "UdListDefinitionId": 121,
-  "Item": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 262,
-  "Name": "Dietrich-Luettgen",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "UdListDefinitionId": 244,
-  "Rank": 698,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveFromListDefinition.md)]

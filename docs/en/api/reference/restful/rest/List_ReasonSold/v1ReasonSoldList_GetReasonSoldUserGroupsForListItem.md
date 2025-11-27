@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_GetReasonSoldUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 25,
-    "Name": "Bruen Inc and Sons",
-    "ToolTip": "Et facere quia magnam consequuntur esse sapiente dolore.",
-    "Deleted": false,
-    "Rank": 742,
-    "Type": "excepturi",
-    "ColorBlock": 57,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "1999-10-05T02:30:53.4286352+02:00",
-    "ChildItems": [
-      {
-        "Id": 959,
-        "Name": "Gerhold, Herman and O'Hara",
-        "ToolTip": "Veritatis adipisci.",
-        "Deleted": false,
-        "Rank": 949,
-        "Type": "fuga",
-        "ColorBlock": 141,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2010-01-13T02:30:53.4286352+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Dr. Prince Audreanne Rath IV",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 280
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Dr. Craig Nathaniel Hoeger V",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_GetReasonSoldUserGroupsForListItem.md)]

@@ -72,37 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/{selectionId}/ShadowMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eum",
-  "value": [
-    {
-      "PrimaryKey": 5364,
-      "EntityName": "sale",
-      "saleId": 5364,
-      "contactId": 6803,
-      "name": "Hickle, Cremin and Bernhard"
-    },
-    {
-      "PrimaryKey": 9086,
-      "EntityName": "sale",
-      "saleId": 9086,
-      "contactId": 8001,
-      "name": "Block Group"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md)]

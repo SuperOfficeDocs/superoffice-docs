@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/SelectionCategory
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 566,
-  "Name": "Berge-Cormier",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 597,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 194,
-  "Name": "Ferry Group",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 119,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_SetListDefinition.md)]

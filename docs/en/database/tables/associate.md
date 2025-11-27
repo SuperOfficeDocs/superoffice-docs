@@ -79,6 +79,7 @@ Employees, resources and other users - except for External persons
 |[AudienceLayout](audiencelayout.md)  |One layout (of webparts and other stuff) for an audience instance |
 |[AudienceLayoutLink](audiencelayoutlink.md)  |Link between an audience layout and some target grouping table - might be Role or Category |
 |[AudienceVisibility](audiencevisibility.md)  |How projects (or whatever) should be made visible in audience |
+|[AutomatedCategoryUpdate](automatedcategoryupdate.md)  |Info on how to autoupdate category when changing sale or leadstatus on person |
 |[BaseTZLocation](basetzlocation.md)  |Time zone location for the database (how tz-related datetimes should be stored in the database) |
 |[BatchTask](batchtask.md)  |Batch task request details, corresponding to the message body of a batch request message |
 |[BatchTaskDefinition](batchtaskdefinition.md)  |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute |
@@ -108,6 +109,9 @@ Employees, resources and other users - except for External persons
 |[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
 |[ContIntGroupLink](contintgrouplink.md)  |User group link table for ContInt, for MDO item hiding |
 |[ContIntHeadingLink](contintheadinglink.md)  |Heading link table for ContInt, for MDO headers |
+|[copilot](copilot.md)  |Contains all available copilots |
+|[copilot\_data\_source](copilot-data-source.md)  |Stores data sources for each copilot |
+|[copilot\_data\_source\_setting](copilot-data-source-setting.md)  |Stores specific configuration values for each data source |
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[country](country.md)  |Country information |
 |[CountryGroupLink](countrygrouplink.md)  |User group link table for Country, for MDO item hiding |
@@ -382,6 +386,8 @@ Employees, resources and other users - except for External persons
 |[temp\_db\_lock](temp-db-lock.md)  |Represents a temporary lock on a resource identified by table_id and key |
 |[TemporaryKey](temporarykey.md)  |Temporary keys for lightweight authentications such as changing ones subscriptions |
 |[text](text.md)  |Long text fields from all over the system |
+|[ticket\_relation](ticket-relation.md)  |A relation between 2 tickets |
+|[ticket\_relation\_def](ticket-relation-def.md)  |Ticket relation definition |
 |[ticket\_type](ticket-type.md)  |A ticket (request) type |
 |[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 |[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |

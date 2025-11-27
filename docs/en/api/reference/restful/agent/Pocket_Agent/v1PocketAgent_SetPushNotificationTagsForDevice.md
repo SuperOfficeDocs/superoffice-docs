@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DeviceIdentifier": "nisi",
-  "Tags": "necessitatibus"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PocketAgent_SetPushNotificationTagsForDevice.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PocketAgent_SetPushNotificationTagsForDevice.md)]

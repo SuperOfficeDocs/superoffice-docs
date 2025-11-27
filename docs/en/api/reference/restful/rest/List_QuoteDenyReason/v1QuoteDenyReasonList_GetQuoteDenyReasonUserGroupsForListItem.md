@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_GetQuoteDenyReasonUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 361,
-    "Name": "Anderson, Hartmann and Medhurst",
-    "ToolTip": "Doloremque ipsa eum rerum fugiat ipsum possimus et.",
-    "Deleted": false,
-    "Rank": 749,
-    "Type": "quibusdam",
-    "ColorBlock": 712,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2002-07-11T02:30:53.3973865+02:00",
-    "ChildItems": [
-      {
-        "Id": 162,
-        "Name": "Hessel, Effertz and Shields",
-        "ToolTip": "Qui placeat accusantium et minus.",
-        "Deleted": false,
-        "Rank": 632,
-        "Type": "rerum",
-        "ColorBlock": 141,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2024-11-03T02:30:53.3973865+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Otha Langosh Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 497
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quia",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "Price Buckridge",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_GetQuoteDenyReasonUserGroupsForListItem.md)]

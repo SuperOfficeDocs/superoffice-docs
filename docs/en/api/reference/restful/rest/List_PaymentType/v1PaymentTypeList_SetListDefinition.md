@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 651,
-  "Name": "Koss, McClure and Gutmann",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 251,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 146,
-  "Name": "Schimmel, Prohaska and Waelchi",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 244,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_SetListDefinition.md)]

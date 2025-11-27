@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetTaskListItemHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 508,
-    "Name": "Gorczany LLC",
-    "Tooltip": "beatae",
-    "Deleted": false,
-    "Rank": 767,
-    "UdListDefinitionId": 435,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 266
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetTaskListItemHeadings.md)]

@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 76,
-  "StartTime": "2017-05-18T02:30:47.0850878+02:00",
-  "EndTime": "2019-01-27T02:30:47.0850878+01:00",
-  "Count": 779,
-  "TemplateHeadingId": 528
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectDocumentsByTemplateHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 255,
-    "Attention": "esse",
-    "Header": "et",
-    "Name": "Lynch-Labadie",
-    "OurRef": "voluptas",
-    "YourRef": "reprehenderit",
-    "Description": "Customer-focused demand-driven success",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 87,
-    "PersonFullName": "Summer Schmeler",
-    "AssociateFullName": "Dr. Alexys Gusikowski PhD",
-    "ContactId": 909,
-    "ContactName": "Smitham Inc and Sons",
-    "ProjectId": 81,
-    "ProjectName": "Friesen, Nicolas and DuBuque",
-    "AssociateId": 397,
-    "Snum": 457,
-    "SaleId": 895,
-    "SaleName": "Dooley-Miller",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 541
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectDocumentsByTemplateHeading.md)]

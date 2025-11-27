@@ -87,63 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 949,
-    "ColumnId": 70,
-    "FieldDefault": "hic",
-    "FieldHeight": 345,
-    "FieldLabel": "unde",
-    "FieldLeft": 864,
-    "FieldTop": 24,
-    "FieldType": "Checkbox",
-    "FieldWidth": 809,
-    "FormatMask": "adipisci",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 154,
-    "LabelLeft": 42,
-    "LabelTop": 82,
-    "LabelWidth": 830,
-    "LastVersionId": 520,
-    "ListTableId": 802,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 55,
-    "ProgId": "dicta",
-    "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 47,
-    "TextLength": 803,
-    "Tooltip": "animi",
-    "UdefIdentity": 139,
-    "UDListDefinitionId": 756,
-    "Justification": "Center",
-    "Version": 223,
-    "TemplateVariableName": "Windler-Bauch",
-    "HasBeenPublished": true,
-    "MdoListName": "Roob-Heidenreich",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 278
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetUdefLayout.md)]

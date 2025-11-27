@@ -83,54 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferences
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Specifications": [
-    {
-      "Section": "cumque",
-      "Key": "autem"
-    },
-    {
-      "Section": "cumque",
-      "Key": "autem"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferences.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Level": "Database",
-    "RawValue": "occaecati",
-    "Specification": null,
-    "DisplayValue": "dolor",
-    "DisplayTooltip": "odit",
-    "DisplayType": "Bool",
-    "TabOrder": null,
-    "TargetId": 973,
-    "PrefDescId": 237,
-    "TableName": "Rosenbaum-Bernier",
-    "UserPreferenceId": 407,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferences.md)]

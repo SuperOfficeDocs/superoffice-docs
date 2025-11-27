@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 233,
-    "Name": "Schaden LLC",
-    "Tooltip": "dignissimos",
-    "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 587
-  },
-  {
-    "HeadingId": 233,
-    "Name": "Schaden LLC",
-    "Tooltip": "dignissimos",
-    "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 587
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_PutDeliveryTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 269,
-    "Name": "Osinski, Kohler and Watsica",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "Rank": 484,
-    "UdListDefinitionId": 478,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 978
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_PutDeliveryTypeHeadings.md)]

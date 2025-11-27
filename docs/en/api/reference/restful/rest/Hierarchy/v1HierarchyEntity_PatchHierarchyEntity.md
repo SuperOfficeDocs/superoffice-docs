@@ -115,79 +115,8 @@ HierarchyEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Hierarchy/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "aut",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "aut",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1HierarchyEntity_PatchHierarchyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 HierarchyEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 152,
-  "Domain": "Dashboards",
-  "Name": "Denesik LLC",
-  "Fullname": "quis",
-  "ParentId": 282,
-  "Children": [
-    {
-      "HierarchyId": 713,
-      "Domain": "Dashboards",
-      "Name": "Rempel-Deckow",
-      "Fullname": "iusto",
-      "ParentId": 375,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2006-01-15T02:30:52.6630355+01:00",
-      "RegisteredAssociateId": 516,
-      "Updated": "2012-08-04T02:30:52.6630355+02:00",
-      "UpdatedAssociateId": 100,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 277
-        }
-      }
-    }
-  ],
-  "Registered": "2010-02-23T02:30:52.6630355+01:00",
-  "RegisteredAssociateId": 457,
-  "Updated": "2002-03-08T02:30:52.6630355+01:00",
-  "UpdatedAssociateId": 164,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1HierarchyEntity_PatchHierarchyEntity.md)]

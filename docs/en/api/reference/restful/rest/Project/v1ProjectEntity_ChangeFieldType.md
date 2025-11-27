@@ -31,7 +31,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -101,61 +101,8 @@ ProjectEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 531,
-  "ColumnId": 187,
-  "FieldDefault": "libero",
-  "FieldHeight": 868,
-  "FieldLabel": "sint",
-  "FieldLeft": 407,
-  "FieldTop": 303,
-  "FieldType": "Checkbox",
-  "FieldWidth": 184,
-  "FormatMask": "dolorem",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 11,
-  "LabelLeft": 474,
-  "LabelTop": 726,
-  "LabelWidth": 886,
-  "LastVersionId": 862,
-  "ListTableId": 910,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 287,
-  "ProgId": "rem",
-  "IsReadOnly": false,
-  "ShortLabel": "libero",
-  "TabOrder": 47,
-  "TextLength": 632,
-  "Tooltip": "amet",
-  "UdefIdentity": 293,
-  "UDListDefinitionId": 327,
-  "Justification": "Center",
-  "Version": 368,
-  "TemplateVariableName": "Leuschke-Pouros",
-  "HasBeenPublished": true,
-  "MdoListName": "Bartell Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_ChangeFieldType.md)]

@@ -70,41 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/{projectId}/Imageinfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Sep 2014 02:30:52 G9T
-
-{
-  "BlobId": 182,
-  "BlobSize": 401,
-  "Description": "Persevering interactive structure",
-  "ExtraInfo": "in",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 594,
-  "CreatedDate": "2003-02-27T02:30:52.8192812+01:00",
-  "UpdatedDate": "2014-09-03T02:30:52.8192812+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "magnam",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetImageInfo.md)]

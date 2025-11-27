@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Section": "omnis",
-  "Key": "incidunt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_DeleteFromSectionAndKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_DeleteFromSectionAndKey.md)]

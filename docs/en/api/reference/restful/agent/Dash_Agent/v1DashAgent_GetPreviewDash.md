@@ -77,63 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetPreviewDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 567
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetPreviewDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 980,
-  "Name": "McCullough, Cremin and Veum",
-  "Description": "Ergonomic discrete database",
-  "OwnedByFullName": "Elvie Ward PhD",
-  "Registered": "2007-07-18T02:30:47.0694635+02:00",
-  "Tiles": [
-    {
-      "Name": "Wehner, Bergstrom and Blick",
-      "TileType": "Area",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
-        }
-      }
-    },
-    {
-      "Name": "Wehner, Bergstrom and Blick",
-      "TileType": "Area",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetPreviewDash.md)]

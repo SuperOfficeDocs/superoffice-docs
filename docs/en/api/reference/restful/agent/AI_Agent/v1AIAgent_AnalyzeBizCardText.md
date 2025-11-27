@@ -78,29 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/AnalyzeBizCardText
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Text": "ut",
-  "MergeWithDatabase": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_AnalyzeBizCardText.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Contact": null,
-  "Person": null,
-  "LogoImage": "esse",
-  "PhotoImage": "sequi"
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_AnalyzeBizCardText.md)]

@@ -114,76 +114,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetColleaguesBySource
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceType": "All",
-  "Count": 591
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetColleaguesBySource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "et",
-    "PersonId": 267,
-    "Mrmrs": "necessitatibus",
-    "Firstname": "Alec",
-    "Lastname": "Keebler",
-    "MiddleName": "Heller Group",
-    "Title": "nobis",
-    "Description": "Team-oriented needs-based superstructure",
-    "Email": "neil@kshlerin.com",
-    "FullName": "Miss Wade Maiya Cronin III",
-    "DirectPhone": "(932)924-3653",
-    "FormalName": "Powlowski Inc and Sons",
-    "CountryId": 648,
-    "ContactId": 418,
-    "ContactName": "Wilderman LLC",
-    "Retired": 99,
-    "Rank": 396,
-    "ActiveInterests": 766,
-    "ContactDepartment": "",
-    "ContactCountryId": 813,
-    "ContactOrgNr": "929091",
-    "FaxPhone": "(290)383-9515 x95816",
-    "MobilePhone": "875.391.2997",
-    "ContactPhone": "058.513.5789",
-    "AssociateName": "Cremin Group",
-    "AssociateId": 746,
-    "UsePersonAddress": false,
-    "ContactFax": "eum",
-    "Kanafname": "velit",
-    "Kanalname": "aliquam",
-    "Post1": "et",
-    "Post2": "molestiae",
-    "Post3": "qui",
-    "EmailName": "yasmin@bednar.biz",
-    "ContactFullName": "Prof. Desmond Bruen",
-    "ActiveErpLinks": 741,
-    "TicketPriorityId": 422,
-    "SupportLanguageId": 637,
-    "SupportAssociateId": 663,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "582312",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetColleaguesBySource.md)]

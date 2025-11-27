@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Currency/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 582,
-  "Name": "Deckow, Doyle and Roberts",
-  "Tooltip": "quasi",
-  "Rank": 821,
-  "Rate": 16666.612,
-  "Units": 23075.642,
-  "Deleted": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_PostCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 347,
-  "Name": "O'Hara-Feeney",
-  "Tooltip": "laboriosam",
-  "Rank": 905,
-  "Rate": 15397.341999999999,
-  "Units": 25278.844,
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_PostCurrencyEntity.md)]

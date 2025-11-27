@@ -51,18 +51,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Attachment/{attachmentId}/Content
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_GetAttachmentStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_GetAttachmentStream.md)]

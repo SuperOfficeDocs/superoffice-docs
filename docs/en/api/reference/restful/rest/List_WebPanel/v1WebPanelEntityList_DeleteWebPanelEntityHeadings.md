@@ -45,18 +45,8 @@ No Content
 
 ## Sample request
 
-```http!
-DELETE /api/v1/List/WebPanel/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_DeleteWebPanelEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_DeleteWebPanelEntityHeadings.md)]

@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | emailFlowId | int32 | **Required** The identity of the EmailFlow |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteEmailFlow?emailFlowId=989
+POST /api/v1/Agents/Workflow/DeleteEmailFlow?emailFlowId=422
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/DeleteEmailFlow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_DeleteEmailFlow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_DeleteEmailFlow.md)]

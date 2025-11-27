@@ -77,53 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 143,
-  "QuoteAlternativeId": 919
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteVersionWorkflowState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ActionButtons": [
-    {
-      "Action": "Approve",
-      "ImageHint": "est",
-      "DisplayText": "eius",
-      "TooltipText": "quasi",
-      "Enabled": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
-        }
-      }
-    }
-  ],
-  "StateImage": null,
-  "UpdatePricesButton": null,
-  "Status": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteVersionWorkflowState.md)]

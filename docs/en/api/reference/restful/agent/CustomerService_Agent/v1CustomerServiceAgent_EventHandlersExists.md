@@ -67,29 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/EventHandlersExists
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EventHandlerTypes": [
-    "natus",
-    "tenetur"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_EventHandlersExists.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "iste",
-  "aspernatur"
-]
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_EventHandlersExists.md)]

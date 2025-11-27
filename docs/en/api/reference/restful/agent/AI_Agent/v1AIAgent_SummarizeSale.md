@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/SummarizeSale
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 555,
-  "NumSentences": 880,
-  "IsoLangCode": "impedit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_SummarizeSale.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"qui"
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_SummarizeSale.md)]

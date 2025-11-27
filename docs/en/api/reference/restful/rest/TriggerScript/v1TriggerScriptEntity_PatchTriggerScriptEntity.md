@@ -118,55 +118,8 @@ TriggerScriptEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/TriggerScript/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "ut",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "ut",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_PatchTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 TriggerScriptEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 116,
-  "Name": "Jakubowski, Carter and Fay",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "quia",
-  "Registered": "2017-04-22T02:30:53.022399+02:00",
-  "RegisteredAssociateId": 631,
-  "Updated": "1999-05-03T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 257,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_PatchTriggerScriptEntity.md)]

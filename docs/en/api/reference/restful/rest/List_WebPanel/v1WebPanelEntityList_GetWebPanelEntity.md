@@ -80,49 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/WebPanel/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_GetWebPanelEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 58,
-  "Name": "Yost Group",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 549,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Collier, Veum and Abernathy",
-  "Url": "http://www.example.com/",
-  "ProgId": "repellendus",
-  "Icon": 137,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_GetWebPanelEntity.md)]

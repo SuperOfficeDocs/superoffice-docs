@@ -76,34 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/DeletePhysicalDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 168,
-  "AllowedReturnType": [
-    "odit",
-    "minima"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_DeletePhysicalDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExternalReference": "repellendus",
-  "VersionId": "vel",
-  "Success": false,
-  "Type": "CustomGui",
-  "Value": "voluptatem",
-  "AdditionalInfo": "expedita"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_DeletePhysicalDocument.md)]

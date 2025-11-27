@@ -71,26 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetAnyConfiguration
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Application": "quidem",
-  "Instance": "ex",
-  "Item": "iste",
-  "Type": "quis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetAnyConfiguration.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"et"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetAnyConfiguration.md)]

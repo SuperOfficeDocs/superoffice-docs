@@ -103,59 +103,8 @@ RoleEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/Role/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 718,
-  "Name": "Schamberger Group",
-  "Tooltip": "exercitationem",
-  "RoleType": "Anonymous",
-  "Deleted": 407,
-  "Rank": 920,
-  "Created": "2011-05-20T02:30:52.8349052+02:00",
-  "UseCategories": 794,
-  "CreatedBy": null,
-  "Updated": "2017-03-05T02:30:52.8349052+01:00",
-  "UpdatedBy": null,
-  "DataRights": null
-}
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_PutRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 RoleEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 997,
-  "Name": "Feest, Maggio and Vandervort",
-  "Tooltip": "voluptas",
-  "RoleType": "Anonymous",
-  "Deleted": 710,
-  "Rank": 212,
-  "Created": "2020-12-20T02:30:52.8349052+01:00",
-  "UseCategories": 516,
-  "CreatedBy": null,
-  "Updated": "1999-02-17T02:30:52.8349052+01:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_PutRoleEntity.md)]

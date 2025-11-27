@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustConfigId": 449,
-  "Type": "Options",
-  "Config": "nobis",
-  "CustLangId": 361,
-  "Registered": "2017-04-15T02:30:47.0538389+02:00",
-  "RegisteredAssociateId": 329,
-  "Updated": "2005-04-13T02:30:47.0538389+02:00",
-  "UpdatedAssociateId": 120,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)]

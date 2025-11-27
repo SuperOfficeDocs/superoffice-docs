@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Application": "molestias",
-  "Instance": "aut",
-  "Page": "molestiae"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetRefreshedPageConfiguration.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"repellendus"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetRefreshedPageConfiguration.md)]

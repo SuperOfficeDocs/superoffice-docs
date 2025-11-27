@@ -123,63 +123,8 @@ PreferenceDescription  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/PreferenceDescription/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "harum",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "harum",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_PatchPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PreferenceDescription  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 357,
-  "Section": "deleniti",
-  "Key": "ad",
-  "Name": "Moore Group",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Grass-roots even-keeled matrices",
-  "IsBuiltin": false,
-  "TableName": "Labadie, Heathcote and Haag",
-  "UserDefinedListId": 493,
-  "Rank": 593,
-  "SubGroup": "provident",
-  "MinLevel": 265,
-  "MaxValue": 692,
-  "MinValue": 877,
-  "RequiredLicense": "velit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 920
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_PatchPreferenceDescription.md)]

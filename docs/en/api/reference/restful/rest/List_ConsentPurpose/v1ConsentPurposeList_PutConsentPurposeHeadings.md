@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ConsentPurpose/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 173,
-    "Name": "Hettinger, Flatley and Wiza",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 82
-  },
-  {
-    "HeadingId": 173,
-    "Name": "Hettinger, Flatley and Wiza",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 82
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_PutConsentPurposeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 5,
-    "Name": "Hahn Group",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "Rank": 349,
-    "UdListDefinitionId": 381,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 906
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_PutConsentPurposeHeadings.md)]

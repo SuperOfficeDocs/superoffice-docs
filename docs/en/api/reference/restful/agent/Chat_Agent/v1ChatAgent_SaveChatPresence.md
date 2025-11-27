@@ -63,44 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/SaveChatPresence
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatPresence": [
-    {
-      "UserId": 363,
-      "DisplayName": "Doyle, Wyman and Baumbach",
-      "OngoingChats": 956,
-      "Present": true,
-      "ChatTopics": [
-        749,
-        433
-      ]
-    },
-    {
-      "UserId": 363,
-      "DisplayName": "Doyle, Wyman and Baumbach",
-      "OngoingChats": 956,
-      "Present": true,
-      "ChatTopics": [
-        749,
-        433
-      ]
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_SaveChatPresence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_SaveChatPresence.md)]

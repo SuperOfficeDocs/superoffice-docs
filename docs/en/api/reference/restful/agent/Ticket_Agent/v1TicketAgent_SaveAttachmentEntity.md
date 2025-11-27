@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/SaveAttachmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 634,
-  "Name": "Turcotte, Renner and Nienow",
-  "ContentType": "voluptate",
-  "AttSize": 923,
-  "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "tempora",
-  "IsSafeFileExtension": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_SaveAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 960,
-  "Name": "Wiegand-Spinka",
-  "ContentType": "odio",
-  "AttSize": 339,
-  "InlineImage": false,
-  "ContentId": "repellat",
-  "AuthKey": "illo",
-  "IsSafeFileExtension": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_SaveAttachmentEntity.md)]

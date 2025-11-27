@@ -80,66 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetActorTypeMapping
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 52,
-  "ActorType": "Customer"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetActorTypeMapping.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 577,
-  "IsActive": false,
-  "FieldMappings": [
-    {
-      "ErpFieldId": 335,
-      "CrmFieldKey": "doloribus",
-      "CrmDisplayName": "Huel-Beier",
-      "CrmDisplayTooltip": "quo",
-      "ErpFieldKey": "sed",
-      "FieldType": "Checkbox",
-      "ErpDisplayName": "Abernathy-Jaskolski",
-      "ErpDisplayTooltip": "iusto",
-      "SyncToCrm": false,
-      "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
-      "MissingInCRM": true,
-      "Access": "Mandatory",
-      "ListReference": "facere",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
-        }
-      }
-    }
-  ],
-  "ActorTypeErp": "Customer",
-  "ActorTypeCrm": "Contact",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetActorTypeMapping.md)]

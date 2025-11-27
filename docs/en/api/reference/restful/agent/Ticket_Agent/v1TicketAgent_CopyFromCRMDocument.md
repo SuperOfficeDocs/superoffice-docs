@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/CopyFromCRMDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 697
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_CopyFromCRMDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 785,
-  "Name": "Green-Strosin",
-  "ContentType": "officia",
-  "AttSize": 514,
-  "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "unde",
-  "IsSafeFileExtension": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_CopyFromCRMDocument.md)]

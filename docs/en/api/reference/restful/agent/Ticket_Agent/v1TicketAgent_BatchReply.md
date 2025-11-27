@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/BatchReply
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "BatchReplyData": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_BatchReply.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-860
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_BatchReply.md)]

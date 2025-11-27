@@ -59,18 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/TimeZone/CheckNewTimeZoneDataAvailable
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1TimeZoneAgent_CheckNewTimeZoneDataAvailable.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1TimeZoneAgent_CheckNewTimeZoneDataAvailable.md)]

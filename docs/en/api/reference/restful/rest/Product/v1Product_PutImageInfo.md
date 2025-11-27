@@ -90,57 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/Product/{productId}/ImageInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 901,
-  "BlobSize": 874,
-  "Description": "Robust directional migration",
-  "ExtraInfo": "dolorem",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "in",
-  "OriginalSize": 333,
-  "CreatedDate": "2015-09-17T02:30:53.0692723+02:00",
-  "UpdatedDate": "2023-04-27T02:30:53.0692723+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "voluptatem"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Product_PutImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 365,
-  "BlobSize": 200,
-  "Description": "Organized multi-state customer loyalty",
-  "ExtraInfo": "aperiam",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 987,
-  "CreatedDate": "2022-12-24T02:30:53.0692723+01:00",
-  "UpdatedDate": "2000-01-06T02:30:53.0692723+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "aut",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Product_PutImageInfo.md)]

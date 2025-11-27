@@ -79,71 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteConnectionId": 225,
-    "ERPName": "Emard, Ruecker and Welch",
-    "DisplayName": "Berge-Klocko",
-    "DisplayDescription": "Quality-focused demand-driven Graphic Interface",
-    "Rank": 63,
-    "ConnectorName": "Reynolds Inc and Sons",
-    "ErpConnectionId": 122,
-    "ExtraData": "qui",
-    "IsAvailable": true,
-    "InitializeResponse": null,
-    "PriceLists": [
-      {
-        "PriceListId": 615,
-        "ERPPriceListKey": "aut",
-        "QuoteConnectionId": 847,
-        "Name": "Shields, Cronin and Mraz",
-        "Description": "Synchronised fault-tolerant secured line",
-        "Currency": "dolore",
-        "CurrencyName": "Kuhn Inc and Sons",
-        "ValidFrom": "2015-01-13T02:30:47.7256947+01:00",
-        "ValidTo": "2025-05-02T02:30:47.7256947+02:00",
-        "IsActive": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 212
-          }
-        }
-      }
-    ],
-    "AllAccess": false,
-    "Deleted": false,
-    "UserGroupAccessIds": [
-      83,
-      512
-    ],
-    "AssociateAccessIds": [
-      314,
-      674
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 58
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists.md)]

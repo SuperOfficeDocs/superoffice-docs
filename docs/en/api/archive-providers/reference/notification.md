@@ -28,8 +28,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"ticketTransferred"|Request|
 |"ticketCustomMessage"|Request|
 |"ticketFavouriteUpdated"|Request|
-|"assignmentCompany"|[!!Company assignment]|
-|"assignmentPerson"|[!!Person assignment]|
+|"assignmentCompany"|!!Company assignment|
+|"assignmentPerson"|!!Person assignment|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -71,7 +71,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=isRecurring,recurrencePattern
+GET /api/v1/archive/Notification?$select=personFirstName,isRecurring,recurrencePattern
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

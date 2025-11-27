@@ -75,41 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/AddLicenseFromFile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FileContent": "quia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_AddLicenseFromFile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "CanBeActivated": true,
-  "New": null,
-  "Current": null,
-  "ExtendedModuleLicenses": [
-    {
-      "New": null,
-      "Current": null,
-      "NumberOfLicensesInUse": 443,
-      "NumberOfLicensesFree": 802,
-      "NumberOfLicensesAdded": 584,
-      "NumberOfLicensesNewTotal": 632,
-      "NumberOfLicensesNewFree": 81,
-      "NumberOfLicensesTotal": 229
-    }
-  ],
-  "AccumulatedNextCheckDate": "2013-03-15T02:30:47.3819557+01:00"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_AddLicenseFromFile.md)]

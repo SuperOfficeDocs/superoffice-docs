@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetRankOnSaleDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeStageLinkId": 644,
-  "ItemsIds": [
-    547,
-    517
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetRankOnSaleDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetRankOnSaleDocument.md)]

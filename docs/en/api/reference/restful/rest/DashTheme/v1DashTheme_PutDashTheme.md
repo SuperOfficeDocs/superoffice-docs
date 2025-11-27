@@ -88,47 +88,8 @@ DashTheme updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/DashTheme/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 207,
-  "Name": "Wunsch Inc and Sons",
-  "Config": "repellendus",
-  "Rank": 891,
-  "Client": "excepturi",
-  "Style": "odio"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DashTheme_PutDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTheme updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 352,
-  "Name": "Botsford-Kling",
-  "Config": "eos",
-  "Rank": 169,
-  "Client": "odit",
-  "Style": "voluptatum",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTheme_PutDashTheme.md)]

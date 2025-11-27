@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=928
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=486
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatTopicEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatTopicEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 542,
-  "Name": "Berge LLC",
-  "Description": "Devolved dedicated data-warehouse",
-  "WelcomeMessage": "ea",
-  "Language": null,
-  "LastAccept": "2019-05-09T02:30:46.8975935+02:00",
-  "SecondsPrAccept": 28,
-  "AlertRecipient": "quibusdam",
-  "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "nemo",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 576,
-  "WarnManagerNewChatMinutes": 211,
-  "TicketEnabled": false,
-  "TicketCategory": null,
-  "TicketPriority": null,
-  "OpeningHoursEnabled": true,
-  "OpeningHours": null,
-  "Widget": null,
-  "BotEnabled": true,
-  "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 839,
-  "WarnManagerChatMessageMinutes": 195,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 30,
-  "OfflineFormQueueLength": 592,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "accusantium",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatTopicEntity.md)]

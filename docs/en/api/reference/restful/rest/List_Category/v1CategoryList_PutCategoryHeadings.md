@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Category/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 525,
-    "Name": "Langworth Group",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "Rank": 53,
-    "UdListDefinitionId": 871
-  },
-  {
-    "HeadingId": 525,
-    "Name": "Langworth Group",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "Rank": 53,
-    "UdListDefinitionId": 871
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_PutCategoryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 717,
-    "Name": "Champlin, Skiles and Barrows",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "Rank": 45,
-    "UdListDefinitionId": 548,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 870
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_PutCategoryHeadings.md)]

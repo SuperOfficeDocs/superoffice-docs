@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreference
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 747
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreference.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "sequi",
-  "Specification": null,
-  "DisplayValue": "consequuntur",
-  "DisplayTooltip": "vel",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 463,
-  "PrefDescId": 324,
-  "TableName": "Reichert LLC",
-  "UserPreferenceId": 760,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreference.md)]

@@ -79,42 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketMessageEntityId": 713
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetAttachmentInfoNonInline.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 918,
-    "Name": "Schumm Inc and Sons",
-    "ContentType": "facilis",
-    "AttSize": 222,
-    "InlineImage": false,
-    "ContentId": "inventore",
-    "AuthKey": "nam",
-    "IsSafeFileExtension": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 311
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetAttachmentInfoNonInline.md)]

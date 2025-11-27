@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Position/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 654,
-  "Name": "Feest-Kohler",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "UdListDefinitionId": 255,
-  "Rank": 576
-}
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_PostPosition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 21,
-  "Name": "Stanton, Mohr and Gutkowski",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 920,
-  "Rank": 242,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_PostPosition.md)]

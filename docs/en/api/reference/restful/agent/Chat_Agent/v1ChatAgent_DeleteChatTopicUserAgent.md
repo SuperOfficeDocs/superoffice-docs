@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 482,
-  "Username": "perspiciatis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_DeleteChatTopicUserAgent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_DeleteChatTopicUserAgent.md)]

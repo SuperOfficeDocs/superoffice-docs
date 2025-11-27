@@ -78,73 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetUserLicensesMDOList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetUserLicensesMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 318,
-    "Name": "Murazik-Kilback",
-    "ToolTip": "Dolor exercitationem asperiores.",
-    "Deleted": false,
-    "Rank": 248,
-    "Type": "quis",
-    "ColorBlock": 839,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2001-09-21T02:30:47.3819557+02:00",
-    "ChildItems": [
-      {
-        "Id": 567,
-        "Name": "DuBuque, Crooks and Kris",
-        "ToolTip": "Ex aut quod exercitationem.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "rerum",
-        "ColorBlock": 855,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2018-01-06T02:30:47.3819557+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "illum",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Dr. Sammie Schowalter",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "nemo",
-    "Hidden": false,
-    "FullName": "Brandon Olson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 988
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetUserLicensesMDOList.md)]

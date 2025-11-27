@@ -79,42 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetTicketAttachments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketEntityId": 682
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetTicketAttachments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 318,
-    "Name": "Medhurst LLC",
-    "ContentType": "omnis",
-    "AttSize": 483,
-    "InlineImage": false,
-    "ContentId": "aut",
-    "AuthKey": "et",
-    "IsSafeFileExtension": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetTicketAttachments.md)]

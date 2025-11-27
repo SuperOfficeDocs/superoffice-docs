@@ -79,39 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetSelectionForFind
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityName": "Watsica-Grimes",
-  "TypicalSearchId": 345
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetSelectionForFind.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Lueilwitz, Hermann and Braun",
-  "SelectionId": 433,
-  "CanSaveAsSelection": false,
-  "MainHeading": "quia",
-  "FilterScreenHeading": "exercitationem",
-  "SelectionEntityHeading": "delectus",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetSelectionForFind.md)]

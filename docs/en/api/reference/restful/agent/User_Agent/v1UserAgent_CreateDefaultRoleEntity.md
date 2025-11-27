@@ -68,39 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/CreateDefaultRoleEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_CreateDefaultRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 842,
-  "Name": "Renner, Mills and McLaughlin",
-  "Tooltip": "ut",
-  "RoleType": "Anonymous",
-  "Deleted": 528,
-  "Rank": 180,
-  "Created": "2003-06-01T02:30:48.0850579+02:00",
-  "UseCategories": 880,
-  "CreatedBy": null,
-  "Updated": "2021-09-18T02:30:48.0850579+02:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_CreateDefaultRoleEntity.md)]

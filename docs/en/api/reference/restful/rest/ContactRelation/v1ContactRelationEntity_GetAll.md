@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=rem
-GET /api/v1/Relation?$top=31
-GET /api/v1/Relation?$skip=542
+GET /api/v1/Relation?$entities=est
+GET /api/v1/Relation?$top=484
+GET /api/v1/Relation?$skip=50
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=sequi
+GET /api/v1/Relation?$context=animi
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Relation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quae",
-  "value": [
-    {
-      "PrimaryKey": 2984,
-      "EntityName": "sale",
-      "saleId": 2984,
-      "contactId": 7652,
-      "name": "Bernier-Baumbach"
-    },
-    {
-      "PrimaryKey": 5325,
-      "EntityName": "sale",
-      "saleId": 5325,
-      "contactId": 1023,
-      "name": "Watsica LLC"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_GetAll.md)]

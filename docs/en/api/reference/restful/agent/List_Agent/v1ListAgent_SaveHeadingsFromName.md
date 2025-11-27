@@ -78,58 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveHeadingsFromName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "West-Bradtke",
-  "Entities": [
-    {
-      "HeadingId": 48,
-      "Name": "Schmitt, Walter and Langworth",
-      "Tooltip": "temporibus",
-      "Deleted": false,
-      "Rank": 825,
-      "UdListDefinitionId": 589
-    },
-    {
-      "HeadingId": 48,
-      "Name": "Schmitt, Walter and Langworth",
-      "Tooltip": "temporibus",
-      "Deleted": false,
-      "Rank": 825,
-      "UdListDefinitionId": 589
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveHeadingsFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 501,
-    "Name": "Wilkinson, Hettinger and McKenzie",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 253,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveHeadingsFromName.md)]

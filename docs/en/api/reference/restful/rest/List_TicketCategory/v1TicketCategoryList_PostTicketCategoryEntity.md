@@ -96,79 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 301,
-  "ParentId": 786,
-  "Name": "Hirthe-Pfannerstill",
-  "Fullname": "ab",
-  "CategoryMaster": 614,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Beer, Leuschke and Mueller",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 709,
-  "ReplyTemplate": 14,
-  "NotificationEmail": "lorine_rice@homenick.uk",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 719,
-  "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "asperiores"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "incidunt"
-  }
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_PostTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 365,
-  "ParentId": 142,
-  "Name": "Daugherty LLC",
-  "Fullname": "sed",
-  "CategoryMaster": 241,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Rath-Roob",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 647,
-  "ReplyTemplate": 977,
-  "NotificationEmail": "emilie@daniel.ca",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 549,
-  "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "pariatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "rerum"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 175
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_PostTicketCategoryEntity.md)]

@@ -90,52 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetMyProjects
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeMemberProjects": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetMyProjects.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 702,
-    "Name": "Lehner-Lehner",
-    "Description": "Realigned local hub",
-    "URL": "http://www.example.com/",
-    "Type": "incidunt",
-    "AssociateId": 610,
-    "AssociateFullName": "Esmeralda Wolf",
-    "TypeId": 810,
-    "Updated": "2014-06-07T02:30:47.6944454+02:00",
-    "StatusId": 929,
-    "Status": "voluptatibus",
-    "TextId": 366,
-    "PublishTo": "2021-07-26T02:30:47.6944454+02:00",
-    "PublishFrom": "2008-06-14T02:30:47.6944454+02:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "981329",
-    "ActiveErpLinks": 400,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 138
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetMyProjects.md)]

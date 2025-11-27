@@ -84,60 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatTopic/ForCurrentUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_ChatTopicsForUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ChatTopicId": 759,
-    "Name": "Treutel Group",
-    "Description": "De-engineered real-time monitoring",
-    "WelcomeMessage": "dolorum",
-    "Language": null,
-    "LastAccept": "2024-05-01T02:30:52.4286686+02:00",
-    "SecondsPrAccept": 276,
-    "AlertRecipient": "ratione",
-    "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "ad",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "qui",
-    "WarnNewChatMinutes": 374,
-    "WarnManagerNewChatMinutes": 314,
-    "TicketEnabled": false,
-    "TicketCategory": null,
-    "TicketPriority": null,
-    "OpeningHoursEnabled": true,
-    "OpeningHours": null,
-    "Widget": null,
-    "BotEnabled": false,
-    "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 718,
-    "WarnManagerChatMessageMinutes": 38,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 968,
-    "OfflineFormQueueLength": 772,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "accusantium",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 588
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_ChatTopicsForUser.md)]

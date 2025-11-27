@@ -123,84 +123,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetAppointmentList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetAppointmentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AppointmentId": 840,
-    "StartDate": "2020-01-18T02:30:46.7882228+01:00",
-    "EndDate": "2004-07-15T02:30:46.7882228+02:00",
-    "Type": "BookingForChecklist",
-    "Task": "eius",
-    "AssociateFullName": "Alek Mertz",
-    "ContactName": "Frami, Runolfsson and Gutkowski",
-    "Description": "Seamless upward-trending infrastructure",
-    "PersonFullName": "Mr. Carlotta Lilliana Williamson",
-    "PersonId": 806,
-    "ContactId": 602,
-    "ProjectId": 354,
-    "ProjectName": "Rath, Wolff and Heller",
-    "IsPublished": false,
-    "AssociateId": 111,
-    "ColorIndex": 826,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
-    "Private": "PrivateGroup",
-    "PriorityId": 871,
-    "PriorityName": "Strosin-Mayert",
-    "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2017-12-10T02:30:46.7882228+01:00",
-    "AssignmentStatus": "Assigning",
-    "InvitationStatus": "Accepted",
-    "BookingType": "None",
-    "Completed": "Completed",
-    "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-12-17T02:30:46.7882228+01:00",
-    "RecurringEndDate": "2013-07-15T02:30:46.7882228+02:00",
-    "MotherId": 621,
-    "AssignedBy": 533,
-    "AssignedByFullName": "Melba Reanna Schinner IV",
-    "RejectReason": "",
-    "Location": "id",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 82,
-    "SaleName": "Lakin LLC",
-    "AssociateName": "Turcotte-Krajcik",
-    "CreatedDate": "2015-05-22T02:30:46.7882228+02:00",
-    "CreatedBy": "perspiciatis",
-    "CreatedByFullName": "Anais Ashley Schulist III",
-    "CreatedByAssociateId": 589,
-    "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-    "OwnedExternally": "Google",
-    "MotherAssociateId": 462,
-    "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 717,
-    "Title": "consequatur",
-    "Agenda": "quia",
-    "InternalNotes": "quo",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetAppointmentList.md)]

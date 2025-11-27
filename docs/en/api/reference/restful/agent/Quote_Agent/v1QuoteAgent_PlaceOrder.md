@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/PlaceOrder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 839,
-  "MarkSaleAsSold": false,
-  "PoNumber": "1215070",
-  "OrderComment": "vitae",
-  "Culture": "eum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_PlaceOrder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": true,
-  "UserExplanation": "esse",
-  "TechExplanation": "voluptatem",
-  "ErrorCode": "amet",
-  "Changes": null,
-  "Url": "http://www.example.com/",
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_PlaceOrder.md)]

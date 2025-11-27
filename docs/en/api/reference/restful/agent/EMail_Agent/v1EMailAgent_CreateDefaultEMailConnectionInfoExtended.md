@@ -63,34 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailConnectionInfoExtended.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Port": 435,
-  "ServerName": "Stanton Inc and Sons",
-  "Protocol": "delectus",
-  "UserName": "Beahan-Lueilwitz",
-  "Password": "aspernatur",
-  "UseSSL": false,
-  "Folder": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailConnectionInfoExtended.md)]

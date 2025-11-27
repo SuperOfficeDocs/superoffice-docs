@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Person/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Person/{id}/Appointments?$entities=quidem
-GET /api/v1/Person/{id}/Appointments?$top=29
-GET /api/v1/Person/{id}/Appointments?$skip=232
+GET /api/v1/Person/{id}/Appointments?$entities=sequi
+GET /api/v1/Person/{id}/Appointments?$top=513
+GET /api/v1/Person/{id}/Appointments?$skip=348
 GET /api/v1/Person/{id}/Appointments?$mode=Full
 GET /api/v1/Person/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Appointments?$context=necessitatibus
+GET /api/v1/Person/{id}/Appointments?$context=itaque
 GET /api/v1/Person/{id}/Appointments?$format=JSON
-GET /api/v1/Person/{id}/Appointments?$jsonSafe=True
+GET /api/v1/Person/{id}/Appointments?$jsonSafe=False
 GET /api/v1/Person/{id}/Appointments?$output=Display
 ```
 
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{id}/Appointments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_Appointments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "adipisci",
-  "value": [
-    {
-      "PrimaryKey": 6041,
-      "EntityName": "sale",
-      "saleId": 6041,
-      "contactId": 2571,
-      "name": "Macejkovic-Leffler"
-    },
-    {
-      "PrimaryKey": 7721,
-      "EntityName": "sale",
-      "saleId": 7721,
-      "contactId": 1578,
-      "name": "Huel-Bayer"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_Appointments.md)]

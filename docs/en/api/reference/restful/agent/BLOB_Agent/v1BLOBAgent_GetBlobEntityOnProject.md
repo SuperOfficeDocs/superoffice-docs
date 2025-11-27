@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 676
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetBlobEntityOnProject.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 753,
-  "BlobSize": 135,
-  "Description": "Implemented background ability",
-  "ExtraInfo": "sunt",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "facilis",
-  "OriginalSize": 597,
-  "CreatedDate": "2005-04-12T02:30:46.8194719+02:00",
-  "UpdatedDate": "1999-03-23T02:30:46.8194719+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "sed",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 677
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetBlobEntityOnProject.md)]

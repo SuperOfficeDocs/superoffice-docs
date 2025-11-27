@@ -59,33 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 665,
-  "PrefDescId": 218,
-  "PrefValue": "rem",
-  "PrefShowValue": "soluta",
-  "Description": "Organized 5th generation flexibility",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine.md)]

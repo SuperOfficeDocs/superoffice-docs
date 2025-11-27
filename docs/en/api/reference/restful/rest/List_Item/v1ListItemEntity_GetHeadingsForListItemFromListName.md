@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -81,73 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetHeadingsForListItemFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 34,
-    "Name": "Streich, Daugherty and Hermiston",
-    "ToolTip": "Non dignissimos velit ut commodi earum.",
-    "Deleted": false,
-    "Rank": 134,
-    "Type": "voluptatem",
-    "ColorBlock": 956,
-    "IconHint": "minima",
-    "Selected": true,
-    "LastChanged": "2014-09-06T02:30:53.194268+02:00",
-    "ChildItems": [
-      {
-        "Id": 65,
-        "Name": "Romaguera-Schimmel",
-        "ToolTip": "Aut quas voluptatum sint voluptates.",
-        "Deleted": true,
-        "Rank": 87,
-        "Type": "quia",
-        "ColorBlock": 210,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2001-02-08T02:30:53.194268+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Sallie Wiegand",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 278
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quo",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Jayden Lubowitz",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 975
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetHeadingsForListItemFromListName.md)]

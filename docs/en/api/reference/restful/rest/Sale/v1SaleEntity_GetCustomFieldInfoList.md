@@ -65,35 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/CustomField
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Jenkins, Graham and Gottlieb",
-    "DisplayName": "Dicki LLC",
-    "Description": "Robust national open system",
-    "ShortLabel": "soluta",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 501,
-    "TemplateVariableName": "Crooks Inc and Sons"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetCustomFieldInfoList.md)]

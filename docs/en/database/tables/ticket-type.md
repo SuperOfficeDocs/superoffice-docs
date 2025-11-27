@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type Table (538)
+# ticket\_type Table (542)
 
 A ticket (request) type
 
@@ -65,6 +65,7 @@ A ticket (request) type
 |[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md)  |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 |[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |

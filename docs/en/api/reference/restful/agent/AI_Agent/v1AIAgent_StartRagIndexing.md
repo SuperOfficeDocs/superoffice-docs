@@ -71,24 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/StartRagIndexing
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "NamespaceName": "O'Conner-Kiehn",
-  "SourceId": "eveniet"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_StartRagIndexing.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-515
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_StartRagIndexing.md)]

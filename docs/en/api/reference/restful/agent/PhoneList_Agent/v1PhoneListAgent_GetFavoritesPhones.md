@@ -73,39 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/GetFavoritesPhones
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_GetFavoritesPhones.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonDirectPhone": "(848)570-8755 x28423",
-    "PersonCellPhone": "142.360.8231 x0878",
-    "PersonPrivatePhone": "195.963.6643 x2909",
-    "PersonFaxNumber": "1014732",
-    "PersonPagerNumber": "673558",
-    "PersonEmail": "jazmin@wittingmorissette.name",
-    "Id": 855,
-    "Name": "Conroy-Hansen",
-    "Tooltip": "ducimus",
-    "UniqueId": "porro",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 276
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_GetFavoritesPhones.md)]

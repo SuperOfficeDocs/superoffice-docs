@@ -77,50 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ProjectMember/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_DefaultProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 230,
-  "ContactId": 21,
-  "ProjectId": 253,
-  "ContactName": "Schuppe, Dooley and Johnson",
-  "ContactDepartment": "",
-  "ProjectName": "Zulauf, Kling and Beatty",
-  "EmailId": 612,
-  "EmailAddress": "serena.schmitt@rowemurphy.ca",
-  "CountryId": 726,
-  "Firstname": "Salma",
-  "MiddleName": "Kuhic-Rempel",
-  "Lastname": "Rosenbaum",
-  "PersonId": 1001,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Abernathy-Kerluke",
-  "Phone": "(296)513-0050",
-  "PhoneId": 825,
-  "ProjectMemberTypeId": 623,
-  "EmailAddressName": "kariane@kautzer.ca",
-  "Comment": "perspiciatis",
-  "FullName": "Mr. Ciara Gaston Ledner",
-  "Registered": "2012-10-10T02:30:53.0692723+02:00",
-  "Updated": "2000-09-04T02:30:53.0692723+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_DefaultProjectMember.md)]

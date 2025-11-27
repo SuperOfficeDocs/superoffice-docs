@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetFolderInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "Folders": [
-    "aperiam",
-    "aut"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetFolderInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Pacocha-Green",
-    "Delimiter": "asperiores",
-    "Flags": "vitae",
-    "TotalItems": 718,
-    "UnreadItems": 821,
-    "Subscribed": false,
-    "EmailFolderId": 24,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetFolderInfo.md)]

@@ -79,39 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetAllUserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetAllUserGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Value": "illum",
-    "Tooltip": "et",
-    "Id": 885,
-    "Rank": 858,
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetAllUserGroups.md)]

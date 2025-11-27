@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 841
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescLineId": 804,
-    "PrefDescId": 868,
-    "PrefValue": "sapiente",
-    "PrefShowValue": "voluptatem",
-    "Description": "Phased bottom-line flexibility",
-    "IsBuiltin": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 304
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId.md)]

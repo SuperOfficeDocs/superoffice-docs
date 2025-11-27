@@ -104,70 +104,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetColleagues
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetColleagues.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "architecto",
-    "PersonId": 118,
-    "Mrmrs": "aut",
-    "Firstname": "Cloyd",
-    "Lastname": "Wolf",
-    "MiddleName": "Tremblay-Flatley",
-    "Title": "et",
-    "Description": "Enhanced executive frame",
-    "Email": "brett@prohaska.info",
-    "FullName": "Josiane Bartell",
-    "DirectPhone": "835.738.0258 x946",
-    "FormalName": "Parker, Swaniawski and Bahringer",
-    "CountryId": 216,
-    "ContactId": 122,
-    "ContactName": "Hills, Willms and Smith",
-    "Retired": 461,
-    "Rank": 208,
-    "ActiveInterests": 417,
-    "ContactDepartment": "drive e-business platforms",
-    "ContactCountryId": 927,
-    "ContactOrgNr": "485939",
-    "FaxPhone": "1-024-164-2252 x6478",
-    "MobilePhone": "519.607.6515",
-    "ContactPhone": "1-071-802-6459 x7926",
-    "AssociateName": "Jewess, Wisozk and Hintz",
-    "AssociateId": 870,
-    "UsePersonAddress": false,
-    "ContactFax": "ipsum",
-    "Kanafname": "quam",
-    "Kanalname": "molestias",
-    "Post1": "fugiat",
-    "Post2": "pariatur",
-    "Post3": "vero",
-    "EmailName": "vincenzo@simonis.ca",
-    "ContactFullName": "Kevin Larson",
-    "ActiveErpLinks": 751,
-    "TicketPriorityId": 824,
-    "SupportLanguageId": 813,
-    "SupportAssociateId": 488,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "1440490",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetColleagues.md)]

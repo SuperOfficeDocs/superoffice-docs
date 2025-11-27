@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=122
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=102
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -75,37 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetPriceList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 460,
-  "ERPPriceListKey": "dicta",
-  "QuoteConnectionId": 216,
-  "Name": "Cronin, Kertzmann and Marvin",
-  "Description": "Function-based context-sensitive capability",
-  "Currency": "qui",
-  "CurrencyName": "Bernier Inc and Sons",
-  "ValidFrom": "2019-08-23T02:30:47.7100701+02:00",
-  "ValidTo": "2021-01-04T02:30:47.7100701+01:00",
-  "IsActive": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetPriceList.md)]

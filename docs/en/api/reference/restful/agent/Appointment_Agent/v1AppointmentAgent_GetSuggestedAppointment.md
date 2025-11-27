@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=221
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=621
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -79,41 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetSuggestedAppointment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AutoSuggest": 155,
-  "Deleted": 546,
-  "DaysFuture": 860,
-  "Tooltip": "incidunt",
-  "Text": "ad",
-  "TaskId": 180,
-  "SuggestedAppointmentId": 462,
-  "SaleTypeStageLinkId": 143,
-  "RegisteredAssociateId": 306,
-  "Rank": 704,
-  "ProjectTypeStatusLinkId": 459,
-  "Name": "Stracke-Jacobs",
-  "Duration": 390,
-  "Associate": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetSuggestedAppointment.md)]

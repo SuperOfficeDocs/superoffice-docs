@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketStatus/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 616,
-  "Name": "Sawayn LLC",
-  "Tooltip": "illum",
-  "Deleted": true,
-  "Rank": 102,
-  "UdListDefinitionId": 248
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_PostTicketStatusEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 278,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 963,
-  "UdListDefinitionId": 462,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_PostTicketStatusEntityHeading.md)]

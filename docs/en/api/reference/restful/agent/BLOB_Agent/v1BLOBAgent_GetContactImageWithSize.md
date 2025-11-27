@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetContactImageWithSize
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 379,
-  "Width": 890,
-  "Height": 666
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetContactImageWithSize.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetContactImageWithSize.md)]

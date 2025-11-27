@@ -65,47 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Bauch-Rogahn",
-  "Restrictions": [
-    {
-      "Name": "Senger Group",
-      "Operator": "enim",
-      "Values": [
-        "impedit",
-        "in"
-      ],
-      "DisplayValues": [
-        "quisquam",
-        "explicabo"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 978,
-      "InterOperator": "And",
-      "UniqueHash": 987
-    }
-  ],
-  "AssociateId": 17
-}
-```
+[!include[sample request](../../samples/agent/request/v1FavouriteAgent_RemoveTicketsFromFavouritesByProvider.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FavouriteAgent_RemoveTicketsFromFavouritesByProvider.md)]

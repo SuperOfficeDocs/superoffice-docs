@@ -64,33 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Rating/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_GetSaleStageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleStageId": 642,
-  "Value": "voluptas",
-  "Tooltip": "eius",
-  "Probability": 146,
-  "Deleted": false,
-  "Rank": 753,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_GetSaleStageEntity.md)]

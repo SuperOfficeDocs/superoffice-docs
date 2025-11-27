@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SetPersonImage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 17,
-  "Image": "GIF89....File contents as raw bytes..."
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SetPersonImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SetPersonImage.md)]

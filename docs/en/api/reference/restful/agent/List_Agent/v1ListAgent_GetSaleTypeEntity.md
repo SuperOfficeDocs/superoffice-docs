@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=163
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=588
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,78 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetSaleTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeId": 895,
-  "Name": "Zulauf LLC",
-  "Tooltip": "tenetur",
-  "Rank": 978,
-  "DurationUnit": "Century",
-  "SaleDuration": 410,
-  "SaleTypeCatId": 274,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 940,
-  "QuoteLinesTemplate": 541,
-  "ConfirmationLinesTemplate": 480,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 775,
-  "MinEarningPercent": 414,
-  "GroupQuoteLinesBy": 266,
-  "SortGroupLinesBy": 924,
-  "Stages": [
-    {
-      "Id": 325,
-      "Name": "Cruickshank-Cole",
-      "ToolTip": "Neque voluptas voluptatem quas quis non eum similique.",
-      "Deleted": false,
-      "Rank": 884,
-      "Type": "architecto",
-      "ColorBlock": 315,
-      "IconHint": "eveniet",
-      "Selected": false,
-      "LastChanged": "2008-07-23T02:30:47.3975807+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "magnam",
-      "Hidden": false,
-      "FullName": "Mr. Davin Green",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetSaleTypeEntity.md)]

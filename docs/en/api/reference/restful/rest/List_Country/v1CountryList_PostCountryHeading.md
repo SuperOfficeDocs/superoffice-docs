@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Country/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 71,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 539,
-  "UdListDefinitionId": 43
-}
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_PostCountryHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 707,
-  "Name": "Roob-Greenholt",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 4,
-  "UdListDefinitionId": 865,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_PostCountryHeading.md)]

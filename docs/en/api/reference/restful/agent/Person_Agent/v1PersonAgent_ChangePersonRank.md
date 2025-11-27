@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/ChangePersonRank
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 806,
-  "MoveUp": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_ChangePersonRank.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-787
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_ChangePersonRank.md)]

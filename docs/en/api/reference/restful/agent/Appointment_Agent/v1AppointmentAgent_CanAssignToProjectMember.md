@@ -66,24 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CanAssignToProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 658,
-  "SuggestedAppointmentId": 51
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CanAssignToProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CanAssignToProjectMember.md)]

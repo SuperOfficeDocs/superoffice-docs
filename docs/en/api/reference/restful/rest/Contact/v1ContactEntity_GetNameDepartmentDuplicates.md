@@ -30,7 +30,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=hic
+GET /api/v1/Contact/Duplicates/{name}?department=nemo
 ```
 
 
@@ -70,34 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/Duplicates/{name}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetNameDepartmentDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Ward LLC",
-    "SoPrimaryKey": 896,
-    "EntryName": "White Inc and Sons",
-    "EntryIdentifier": "itaque",
-    "RuleDisplayName": "Schaden, Tromp and Bednar",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetNameDepartmentDuplicates.md)]

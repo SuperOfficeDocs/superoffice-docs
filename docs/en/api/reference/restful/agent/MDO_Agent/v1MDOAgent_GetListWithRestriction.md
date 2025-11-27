@@ -85,74 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetListWithRestriction
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Wisoky-Schoen",
-  "AdditionalInfo": "dicta",
-  "SearchValue": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetListWithRestriction.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 208,
-    "Name": "Stanton, Cole and Larkin",
-    "ToolTip": "Quis quo dolore non omnis.",
-    "Deleted": false,
-    "Rank": 272,
-    "Type": "qui",
-    "ChildItems": [
-      {
-        "Id": 160,
-        "Name": "Morissette LLC",
-        "ToolTip": "Laborum omnis consequatur labore cupiditate autem eos ut.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "ut",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "at",
-        "ColorBlock": 938,
-        "ExtraInfo": "sit",
-        "StyleHint": "molestiae",
-        "FullName": "Dr. Mossie Randall Morar MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 358
-          }
-        }
-      }
-    ],
-    "IconHint": "aliquid",
-    "ColorBlock": 631,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "facilis",
-    "FullName": "Laury Schiller",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 483
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetListWithRestriction.md)]

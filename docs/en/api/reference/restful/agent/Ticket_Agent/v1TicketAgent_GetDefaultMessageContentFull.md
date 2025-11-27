@@ -74,48 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 851,
-  "MessageActionType": "Forward",
-  "TicketMessageId": 454,
-  "TicketTypeId": 144
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetDefaultMessageContentFull.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Body": "facilis",
-  "AttachmentsInfo": [
-    {
-      "AttachmentId": 394,
-      "Name": "Johns, Stark and Veum",
-      "ContentType": "accusamus",
-      "AttSize": 373,
-      "InlineImage": false,
-      "ContentId": "tenetur",
-      "AuthKey": "atque",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 449
-        }
-      }
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetDefaultMessageContentFull.md)]

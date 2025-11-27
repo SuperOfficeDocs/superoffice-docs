@@ -164,63 +164,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Conn, Boyer and Green",
-  "Columns": "rem",
-  "SortOrder": "magni",
-  "Restriction": "adipisci",
-  "Entities": "ut",
-  "Page": 585,
-  "PageSize": 782,
-  "Options": "enim"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListByColumnsWithHeader2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RowCount": 63,
-  "Rows": [
-    {
-      "EntityName": "McGlynn LLC",
-      "PrimaryKey": 401,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "vitae",
-          "LinkHint": "commodi"
-        }
-      },
-      "LinkHint": "dolor",
-      "StyleHint": "consequuntur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 9
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListByColumnsWithHeader2.md)]

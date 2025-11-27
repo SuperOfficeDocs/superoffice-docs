@@ -65,28 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectMemberIds": [
-    647,
-    993
-  ],
-  "RoleId": 457,
-  "Comment": "sed"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_SaveProjectMembersFunctionAndComment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_SaveProjectMembersFunctionAndComment.md)]

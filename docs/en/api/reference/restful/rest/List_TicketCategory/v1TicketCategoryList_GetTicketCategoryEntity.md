@@ -76,51 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketCategory/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_GetTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 275,
-  "ParentId": 266,
-  "Name": "Jacobson-Hammes",
-  "Fullname": "qui",
-  "CategoryMaster": 954,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Dickens-Gutkowski",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 547,
-  "ReplyTemplate": 4,
-  "NotificationEmail": "neoma@schmidtkassulke.name",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 892,
-  "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "placeat"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "qui"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_GetTicketCategoryEntity.md)]

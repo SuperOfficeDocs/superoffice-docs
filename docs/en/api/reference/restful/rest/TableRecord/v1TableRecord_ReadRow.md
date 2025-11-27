@@ -58,31 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Table/{tableName}/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TableRecord_ReadRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Values": {
-    "Values1": "veniam",
-    "Values2": "voluptas"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 111
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TableRecord_ReadRow.md)]

@@ -107,68 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Info": null,
-  "FieldType": "Checkbox",
-  "IsIndexed": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 424,
-  "ColumnId": 647,
-  "FieldDefault": "consectetur",
-  "FieldHeight": 321,
-  "FieldLabel": "labore",
-  "FieldLeft": 212,
-  "FieldTop": 782,
-  "FieldType": "Checkbox",
-  "FieldWidth": 254,
-  "FormatMask": "nisi",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 655,
-  "LabelLeft": 559,
-  "LabelTop": 80,
-  "LabelWidth": 906,
-  "LastVersionId": 995,
-  "ListTableId": 488,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 471,
-  "ProgId": "cumque",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 442,
-  "TextLength": 665,
-  "Tooltip": "quod",
-  "UdefIdentity": 86,
-  "UDListDefinitionId": 40,
-  "Justification": "Center",
-  "Version": 691,
-  "TemplateVariableName": "Marvin-Gulgowski",
-  "HasBeenPublished": false,
-  "MdoListName": "Schmeler Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_ChangeFieldType.md)]

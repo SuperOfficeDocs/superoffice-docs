@@ -98,87 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 148,
-  "Name": "Abshire-Wehner",
-  "Rank": 171,
-  "Tooltip": "iste",
-  "Icon": "aut",
-  "DefaultTicketStatus": 152,
-  "TicketStatuses": [
-    68,
-    96
-  ],
-  "DefaultTicketPriority": 798,
-  "TicketPriorities": [
-    775,
-    945
-  ],
-  "ReplyTemplate": 634,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    519,
-    112
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_PostTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 577,
-  "Name": "Homenick LLC",
-  "Rank": 460,
-  "Tooltip": "est",
-  "Icon": "tempore",
-  "DefaultTicketStatus": 876,
-  "TicketStatuses": [
-    505,
-    180
-  ],
-  "DefaultTicketPriority": 974,
-  "TicketPriorities": [
-    133,
-    159
-  ],
-  "ReplyTemplate": 308,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    871,
-    910
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_PostTicketTypeEntity.md)]

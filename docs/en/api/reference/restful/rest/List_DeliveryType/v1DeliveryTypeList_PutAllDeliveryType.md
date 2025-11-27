@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 961,
-    "Name": "Schneider Group",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 662,
-    "Rank": 489
-  },
-  {
-    "Id": 961,
-    "Name": "Schneider Group",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 662,
-    "Rank": 489
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_PutAllDeliveryType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 518,
-    "Name": "Durgan LLC",
-    "Tooltip": "nam",
-    "Deleted": true,
-    "UdListDefinitionId": 841,
-    "Rank": 557,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_PutAllDeliveryType.md)]

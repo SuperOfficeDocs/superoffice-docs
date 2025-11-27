@@ -123,63 +123,8 @@ ContactRelationEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Relation/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "nisi",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "nisi",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_PatchContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactRelationEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 26,
-  "SourcePersonId": 908,
-  "DestinationContactId": 318,
-  "DestinationPersonId": 756,
-  "RelationId": 753,
-  "Comment": "voluptatem",
-  "RelationDefinitionId": 301,
-  "Reversed": 624,
-  "UpdatedDate": "2017-01-05T02:30:52.522416+01:00",
-  "CreatedDate": "2020-02-23T02:30:52.522416+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Krajcik, Walker and Schmitt",
-  "SourcePersonName": "Hills LLC",
-  "DestinationContactName": "Kutch, Legros and Reynolds",
-  "DestinationPersonName": "Hand LLC",
-  "ActiveText": "impedit",
-  "PassiveText": "corrupti",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_PatchContactRelationEntity.md)]

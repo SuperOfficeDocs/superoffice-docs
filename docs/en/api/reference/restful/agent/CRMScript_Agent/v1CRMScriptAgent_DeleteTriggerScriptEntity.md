@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | triggerScriptEntityId | int32 | **Required** The identity of the TriggerScriptEntity |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?triggerScriptEntityId=154
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?triggerScriptEntityId=454
 ```
 
 
@@ -58,18 +58,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_DeleteTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_DeleteTriggerScriptEntity.md)]

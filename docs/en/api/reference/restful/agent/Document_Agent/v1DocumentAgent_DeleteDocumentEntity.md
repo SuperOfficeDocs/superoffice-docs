@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | documentEntityId | int32 | **Required** The identity of the DocumentEntity |
 
 ```http
-POST /api/v1/Agents/Document/DeleteDocumentEntity?documentEntityId=210
+POST /api/v1/Agents/Document/DeleteDocumentEntity?documentEntityId=104
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/DeleteDocumentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_DeleteDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_DeleteDocumentEntity.md)]

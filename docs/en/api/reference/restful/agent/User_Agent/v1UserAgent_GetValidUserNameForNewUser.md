@@ -70,23 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetValidUserNameForNewUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "User": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetValidUserNameForNewUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"Hilpert-Emmerich"
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetValidUserNameForNewUser.md)]

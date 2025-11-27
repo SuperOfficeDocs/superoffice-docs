@@ -30,7 +30,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=908
+GET /api/v1/Person/{personId}/Summary?limit=640
 ```
 
 
@@ -69,97 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{personId}/Summary
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetPersonSummary.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Person": null,
-  "Tickets": [
-    {
-      "TicketId": 401,
-      "TicketStatus": 57,
-      "Title": "blanditiis",
-      "Registered": "2001-07-13T02:30:52.7726429+02:00",
-      "IconHint": "distinctio"
-    },
-    {
-      "TicketId": 401,
-      "TicketStatus": 57,
-      "Title": "blanditiis",
-      "Registered": "2001-07-13T02:30:52.7726429+02:00",
-      "IconHint": "distinctio"
-    }
-  ],
-  "Followups": [
-    {
-      "AppointmentId": 583,
-      "DocumentId": 234,
-      "Date": "2017-01-16T02:30:52.7726429+01:00",
-      "Description": "Future-proofed directional initiative",
-      "Completed": "Completed",
-      "Registered": "2001-02-21T02:30:52.7726429+01:00"
-    },
-    {
-      "AppointmentId": 583,
-      "DocumentId": 234,
-      "Date": "2017-01-16T02:30:52.7726429+01:00",
-      "Description": "Future-proofed directional initiative",
-      "Completed": "Completed",
-      "Registered": "2001-02-21T02:30:52.7726429+01:00"
-    }
-  ],
-  "Documents": [
-    {
-      "AppointmentId": 835,
-      "DocumentId": 394,
-      "Date": "2014-11-09T02:30:52.7726429+01:00",
-      "Description": "Persevering object-oriented Graphical User Interface",
-      "Completed": "Completed",
-      "Registered": "2016-12-13T02:30:52.7726429+01:00"
-    },
-    {
-      "AppointmentId": 835,
-      "DocumentId": 394,
-      "Date": "2014-11-09T02:30:52.7726429+01:00",
-      "Description": "Persevering object-oriented Graphical User Interface",
-      "Completed": "Completed",
-      "Registered": "2016-12-13T02:30:52.7726429+01:00"
-    }
-  ],
-  "Sales": [
-    {
-      "SaleId": 330,
-      "SaleDate": "2016-07-28T02:30:52.7726429+02:00",
-      "Probability": 309,
-      "Heading": "officiis",
-      "Amount": 26231.579999999998,
-      "Currency": "veritatis",
-      "AmountInBaseCurrency": 12686.431999999999,
-      "Status": "Lost",
-      "Completed": "Completed",
-      "Registered": "2006-11-10T02:30:52.7726429+01:00"
-    }
-  ],
-  "Chats": [
-    {
-      "ChatSessionId": 213,
-      "Name": "Hane-Larson",
-      "CompanyName": "Metz, Hettinger and Corwin",
-      "FirstMessage": "error",
-      "LastMessage": "ipsam",
-      "WhenRequested": "2003-10-04T02:30:52.7726429+02:00",
-      "WhenEnded": "1998-09-03T02:30:52.7726429+02:00"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetPersonSummary.md)]

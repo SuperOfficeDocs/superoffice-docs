@@ -85,46 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteFromSaleId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 385
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteFromSaleId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteId": 568,
-  "SaleId": 229,
-  "QuoteConnectionId": 451,
-  "ERPQuoteKey": "in",
-  "ERPOrderKey": "numquam",
-  "ActiveQuoteVersionId": 928,
-  "AcceptedQuoteAlternativeId": 196,
-  "UseValuesFromQuote": 997,
-  "DocumentId": 861,
-  "PoNumber": "234585",
-  "OrderComment": "voluptas",
-  "PreferredEmailCulture": "elliott_gutmann@von.co.uk",
-  "ActiveQuoteVersion": null,
-  "FavoriteQuoteAlternative": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteFromSaleId.md)]

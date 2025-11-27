@@ -87,48 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentId": 804
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_GetPreviewMailingHeader.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "StartDate": "2023-11-11T02:30:47.4600781+01:00",
-  "Status": "AwaitPopulate",
-  "ShipmentId": 675,
-  "ShipmentDescription": "Assimilated background service-desk",
-  "FromAddress": "iure",
-  "Configuration": 42,
-  "PersonId": 335,
-  "PersonFullName": "Miss Lauretta Okuneva MD",
-  "ShipmentType": "eveniet",
-  "MessageId": 728,
-  "MessageSubject": "atque",
-  "DocumentMessageId": 787,
-  "NumSent": 631,
-  "NumOpened": 759,
-  "NumBounced": 997,
-  "NumClicks": 995,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_GetPreviewMailingHeader.md)]

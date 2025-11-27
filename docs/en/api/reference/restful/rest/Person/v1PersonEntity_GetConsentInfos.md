@@ -72,44 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{personId}/Consent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetConsentInfos.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConsentPersonId": 358,
-    "Comment": "esse",
-    "Registered": "2005-08-21T02:30:52.7726429+02:00",
-    "RegisteredAssociateId": 170,
-    "Updated": "2014-07-26T02:30:52.7726429+02:00",
-    "UpdatedAssociateId": 644,
-    "LegalBaseId": 474,
-    "LegalBaseKey": "laboriosam",
-    "LegalBaseName": "Kassulke, Gleason and Terry",
-    "ConsentPurposeId": 471,
-    "ConsentPurposeKey": "ut",
-    "ConsentPurposeName": "Harber, Cole and Marks",
-    "ConsentSourceId": 46,
-    "ConsentSourceKey": "magni",
-    "ConsentSourceName": "Brown, Kshlerin and Murphy",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetConsentInfos.md)]

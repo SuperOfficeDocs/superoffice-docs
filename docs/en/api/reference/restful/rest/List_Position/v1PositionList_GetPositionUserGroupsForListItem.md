@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_GetPositionUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 974,
-    "Name": "Rodriguez Group",
-    "ToolTip": "Qui aut quidem rem.",
-    "Deleted": false,
-    "Rank": 456,
-    "Type": "sed",
-    "ColorBlock": 380,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2010-11-22T02:30:53.3348881+01:00",
-    "ChildItems": [
-      {
-        "Id": 596,
-        "Name": "Adams, Bruen and Auer",
-        "ToolTip": "Ducimus corporis quo qui pariatur doloremque.",
-        "Deleted": true,
-        "Rank": 685,
-        "Type": "atque",
-        "ColorBlock": 29,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2017-02-14T02:30:53.3348881+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Vickie Hayes",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 781
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "alias",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Marcelo Breitenberg",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_GetPositionUserGroupsForListItem.md)]

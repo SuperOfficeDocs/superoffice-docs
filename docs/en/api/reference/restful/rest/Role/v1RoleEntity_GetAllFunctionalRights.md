@@ -75,73 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/{roleType}/FunctionRight
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_GetAllFunctionalRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 726,
-    "Name": "Smitham LLC",
-    "ToolTip": "Qui et rerum sapiente.",
-    "Deleted": true,
-    "Rank": 28,
-    "Type": "ut",
-    "ColorBlock": 810,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "1998-07-30T02:30:52.8349052+02:00",
-    "ChildItems": [
-      {
-        "Id": 948,
-        "Name": "Wilderman Group",
-        "ToolTip": "Sint facilis ut.",
-        "Deleted": true,
-        "Rank": 55,
-        "Type": "iste",
-        "ColorBlock": 459,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2002-10-14T02:30:52.8349052+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "aut",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Dr. Jovanny Wilton Feeney DVM",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 849
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "totam",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mr. Virginie Neal Weber DDS",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_GetAllFunctionalRights.md)]

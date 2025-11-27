@@ -80,87 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindOrderBy
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "ipsum",
-  "ProviderName": "Streich, Klocko and Casper",
-  "StorageKey": "fugiat",
-  "PageSize": 719,
-  "PageNumber": 893,
-  "OrderBy": [
-    {
-      "Name": "Stiedemann-Bartell",
-      "Direction": "ASC"
-    },
-    {
-      "Name": "Stiedemann-Bartell",
-      "Direction": "ASC"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindOrderBy.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Langosh Group",
-      "DisplayTooltip": "nemo",
-      "DisplayType": "est",
-      "CanOrderBy": true,
-      "Name": "Wyman LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Pouros-Hackett",
-      "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "numquam",
-      "IconHint": "qui",
-      "HeadingIconHint": "quo"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Torphy Group",
-      "PrimaryKey": 561,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "dolores",
-          "LinkHint": "beatae"
-        }
-      },
-      "LinkHint": "sint",
-      "StyleHint": "ipsa",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 985
-        }
-      }
-    }
-  ],
-  "RowCount": 304,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindOrderBy.md)]

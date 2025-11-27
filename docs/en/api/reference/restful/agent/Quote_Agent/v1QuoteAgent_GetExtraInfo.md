@@ -74,50 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetExtraInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineExtraData": "in"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetExtraInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Bauch, Lebsack and Hoeger",
-    "Value": "doloribus",
-    "Type": "Image",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
-      }
-    }
-  },
-  {
-    "Name": "Bauch, Lebsack and Hoeger",
-    "Value": "doloribus",
-    "Type": "Image",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetExtraInfo.md)]

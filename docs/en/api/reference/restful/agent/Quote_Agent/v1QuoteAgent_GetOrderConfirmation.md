@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetOrderConfirmation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 777,
-  "ConfirmationTemplateId": 235
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetOrderConfirmation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"velit"
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetOrderConfirmation.md)]

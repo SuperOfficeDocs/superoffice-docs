@@ -78,41 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/Messages
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatMessageId": 240,
-  "ChatSessionId": 370,
-  "Type": "Invalid",
-  "Message": "natus",
-  "Author": "ea",
-  "ReadByCustomer": 811,
-  "SpecialType": "Block",
-  "SpecialParam": "eligendi",
-  "WhenPosted": "2019-06-19T02:30:52.413044+02:00"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_AddChatMessage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatMessageId": 296,
-  "ChatSessionId": 446,
-  "Type": "Invalid",
-  "Message": "odit",
-  "Author": "sapiente",
-  "ReadByCustomer": 156,
-  "SpecialType": "Block",
-  "SpecialParam": "ex",
-  "WhenPosted": "2001-08-08T02:30:52.413044+02:00"
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_AddChatMessage.md)]

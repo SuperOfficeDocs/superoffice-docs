@@ -27,8 +27,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=voluptatem
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=sequi
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 433,
-    "Name": "Mohr-Swaniawski",
-    "ToolTip": "Quos architecto.",
-    "Deleted": false,
-    "Rank": 4,
-    "Type": "necessitatibus",
-    "ChildItems": [
-      {
-        "Id": 780,
-        "Name": "Balistreri Inc and Sons",
-        "ToolTip": "Velit impedit aliquid ea id sint animi.",
-        "Deleted": true,
-        "Rank": 960,
-        "Type": "exercitationem",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "facere",
-        "ColorBlock": 314,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "magnam",
-        "FullName": "Dr. Alisha Ullrich",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 393
-          }
-        }
-      }
-    ],
-    "IconHint": "deleniti",
-    "ColorBlock": 906,
-    "ExtraInfo": "numquam",
-    "StyleHint": "eos",
-    "FullName": "Jedidiah O'Kon",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 790
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_GetMDOList.md)]

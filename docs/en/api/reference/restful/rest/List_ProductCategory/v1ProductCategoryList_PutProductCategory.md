@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductCategory/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 659,
-  "Name": "Goodwin, Kuphal and Ritchie",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 304
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_PutProductCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 576,
-  "Name": "Kutch-Crooks",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "UdListDefinitionId": 367,
-  "Rank": 987,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_PutProductCategory.md)]

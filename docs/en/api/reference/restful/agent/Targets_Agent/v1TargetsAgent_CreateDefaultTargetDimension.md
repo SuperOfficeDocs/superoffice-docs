@@ -62,39 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetDimension.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetDimensionId": 655,
-  "AssignmentLevel": "Associate",
-  "EntityType": "None",
-  "MeasurementUnit": "Amount",
-  "DimensionListField": "corrupti",
-  "DimensionListName": "Schulist, Kemmer and Daugherty",
-  "DimensionListId": 405,
-  "DimensionListLabel": "nihil",
-  "SelectedDimensions": [
-    849,
-    575
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetDimension.md)]

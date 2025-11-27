@@ -81,36 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/SaveBoardViewSettings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "BoardViewSettings": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_SaveBoardViewSettings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BoardViewSettingsId": 35,
-  "EntityType": "ContactPerson",
-  "AssociateId": 953,
-  "SelectionId": 340,
-  "HideEmptyGroups": false,
-  "GroupBy": "exercitationem",
-  "SubGroupBy": "soluta",
-  "SortBy": "id",
-  "SortDesc": false,
-  "SumBy": "ratione",
-  "ColorBy": "aperiam",
-  "Filters": "aut"
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_SaveBoardViewSettings.md)]

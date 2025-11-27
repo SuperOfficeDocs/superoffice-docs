@@ -31,7 +31,7 @@ NsApiSlow threshold: 1000 ms.
 | serviceAuthId | int32 | **Required** The identity of the ServiceAuth |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=216
+POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=840
 ```
 
 
@@ -58,18 +58,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/DeleteServiceAuth
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_DeleteServiceAuth.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_DeleteServiceAuth.md)]

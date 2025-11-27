@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryTerm/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 546,
-    "Name": "Runolfsdottir-Schinner",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "UdListDefinitionId": 393,
-    "Rank": 421
-  },
-  {
-    "Id": 546,
-    "Name": "Runolfsdottir-Schinner",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "UdListDefinitionId": 393,
-    "Rank": 421
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_PutAllDeliveryTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 992,
-    "Name": "Kemmer, Goldner and O'Kon",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "UdListDefinitionId": 442,
-    "Rank": 622,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 511
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_PutAllDeliveryTerm.md)]

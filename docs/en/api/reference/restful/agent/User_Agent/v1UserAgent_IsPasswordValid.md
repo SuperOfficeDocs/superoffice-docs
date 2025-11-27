@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/IsPasswordValid
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 224,
-  "Type": "AnonymousAssociate",
-  "PersonId": 323,
-  "Password": "vel"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_IsPasswordValid.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_IsPasswordValid.md)]

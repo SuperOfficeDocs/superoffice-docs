@@ -72,27 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetDataRights
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 771,
-  "TableName": "Mann Inc and Sons"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetDataRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "et",
-  "2": "harum"
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetDataRights.md)]

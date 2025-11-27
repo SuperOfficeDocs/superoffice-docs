@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveResourceEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceId": 823,
-  "Name": "Kuhlman-Pagac",
-  "Rank": 935,
-  "Tooltip": "officia",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "ut"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveResourceEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceId": 471,
-  "Name": "Ritchie LLC",
-  "Rank": 349,
-  "Tooltip": "et",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "neque",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveResourceEntity.md)]

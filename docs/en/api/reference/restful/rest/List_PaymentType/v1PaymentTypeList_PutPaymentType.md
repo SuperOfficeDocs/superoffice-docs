@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 487,
-  "Name": "Bruen, Schuppe and Nikolaus",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "UdListDefinitionId": 653,
-  "Rank": 851
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_PutPaymentType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 841,
-  "Name": "Wintheiser, McLaughlin and Braun",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 283,
-  "Rank": 32,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 733
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_PutPaymentType.md)]

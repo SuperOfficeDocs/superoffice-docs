@@ -68,29 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetAccessGatewayInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetAccessGatewayInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ClientId": "voluptatem",
-  "RedirectUri": "praesentium",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetAccessGatewayInfo.md)]

@@ -65,27 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/SetSeenMany
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentIds": [
-    219,
-    906
-  ],
-  "UpdateMode": "OnlyThis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_SetSeenMany.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_SetSeenMany.md)]

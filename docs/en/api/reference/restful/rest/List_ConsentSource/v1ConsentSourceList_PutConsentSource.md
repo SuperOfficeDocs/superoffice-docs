@@ -79,45 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ConsentSource/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentSourceId": 609,
-  "Name": "Renner Group",
-  "Tooltip": "aut",
-  "Rank": 455,
-  "Key": "aut",
-  "MailTemplateId": 782,
-  "Deleted": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_PutConsentSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentSourceId": 965,
-  "Name": "Monahan-Corwin",
-  "Tooltip": "omnis",
-  "Rank": 736,
-  "Key": "quia",
-  "MailTemplateId": 737,
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_PutConsentSource.md)]

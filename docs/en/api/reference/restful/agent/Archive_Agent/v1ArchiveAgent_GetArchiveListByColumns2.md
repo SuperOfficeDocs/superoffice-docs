@@ -165,51 +165,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListByColumns2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Boyle, Grimes and Prosacco",
-  "Columns": "accusantium",
-  "SortOrder": "esse",
-  "Restrictions": "voluptates",
-  "Entities": "temporibus",
-  "Page": 347,
-  "PageSize": 964
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListByColumns2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Lebsack-Lang",
-    "PrimaryKey": 825,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "earum",
-        "TooltipHint": "fugiat",
-        "LinkHint": "porro"
-      }
-    },
-    "LinkHint": "quo",
-    "StyleHint": "quis",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 714
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListByColumns2.md)]

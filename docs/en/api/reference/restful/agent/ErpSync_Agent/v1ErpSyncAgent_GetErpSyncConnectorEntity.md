@@ -32,7 +32,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=901
+POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=533
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?$select=name,department,category/id
 ```
 
@@ -72,31 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetErpSyncConnectorEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectorId": 573,
-  "DisplayName": "Hintz-Herman",
-  "URL": "http://www.example.com/",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetErpSyncConnectorEntity.md)]

@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteDenyReason/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 205,
-  "Name": "Kub-Brekke",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "UdListDefinitionId": 142,
-  "Rank": 694
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_PutQuoteDenyReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 761,
-  "Name": "Gulgowski Group",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 879,
-  "Rank": 819,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 48
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_PutQuoteDenyReason.md)]

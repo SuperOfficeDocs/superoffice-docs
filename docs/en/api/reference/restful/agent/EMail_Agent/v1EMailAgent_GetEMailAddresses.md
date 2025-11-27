@@ -83,49 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEMailAddresses
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailIds": [
-    930,
-    569
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEMailAddresses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 106,
-    "ContactName": "Kshlerin, Hammes and Emmerich",
-    "PersonId": 552,
-    "PersonName": "Braun LLC",
-    "AssociateId": 29,
-    "Address": "odit",
-    "EmailId": 1002,
-    "DuplicatePersonIds": [
-      345,
-      522
-    ],
-    "Name": "Stiedemann LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEMailAddresses.md)]

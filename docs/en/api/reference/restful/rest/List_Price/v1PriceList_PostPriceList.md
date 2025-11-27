@@ -92,55 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Pricelist
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 214,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 61,
-  "Name": "Nicolas-Quigley",
-  "Description": "Mandatory tertiary internet solution",
-  "Currency": "recusandae",
-  "CurrencyName": "Gibson Group",
-  "ValidFrom": "2009-10-26T02:30:53.3348881+01:00",
-  "ValidTo": "2018-06-19T02:30:53.3348881+02:00",
-  "IsActive": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_PostPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 155,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 218,
-  "Name": "Ritchie, Schuppe and Schowalter",
-  "Description": "Phased foreground throughput",
-  "Currency": "cupiditate",
-  "CurrencyName": "Denesik LLC",
-  "ValidFrom": "2021-10-25T02:30:53.3348881+02:00",
-  "ValidTo": "2005-06-05T02:30:53.3348881+02:00",
-  "IsActive": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_PostPriceList.md)]

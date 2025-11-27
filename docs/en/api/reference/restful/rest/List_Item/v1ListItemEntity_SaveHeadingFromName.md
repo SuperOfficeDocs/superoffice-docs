@@ -74,43 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/{name}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 213,
-  "Name": "DuBuque LLC",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 677,
-  "UdListDefinitionId": 911
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveHeadingFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 822,
-  "Name": "Ryan LLC",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 410,
-  "UdListDefinitionId": 728,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveHeadingFromName.md)]

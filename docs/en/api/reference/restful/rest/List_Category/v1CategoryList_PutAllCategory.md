@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Category/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 157,
-    "Name": "Schaden-Klocko",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "UdListDefinitionId": 561,
-    "Rank": 147
-  },
-  {
-    "Id": 157,
-    "Name": "Schaden-Klocko",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "UdListDefinitionId": 561,
-    "Rank": 147
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_PutAllCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 866,
-    "Name": "Schumm LLC",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 373,
-    "Rank": 901,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 23
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_PutAllCategory.md)]

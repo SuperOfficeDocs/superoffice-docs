@@ -96,67 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferenceDescription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 883,
-  "Section": "eum",
-  "Key": "unde",
-  "Name": "Stanton-Cassin",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Horizontal dedicated hierarchy",
-  "IsBuiltin": false,
-  "TableName": "Dietrich, Quigley and Considine",
-  "UserDefinedListId": 525,
-  "Rank": 662,
-  "SubGroup": "consequatur",
-  "MinLevel": 24,
-  "MaxValue": 784,
-  "MinValue": 435,
-  "RequiredLicense": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 821,
-  "Section": "doloribus",
-  "Key": "iste",
-  "Name": "Pollich, Nader and McLaughlin",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Monitored optimizing migration",
-  "IsBuiltin": false,
-  "TableName": "Bechtelar LLC",
-  "UserDefinedListId": 678,
-  "Rank": 725,
-  "SubGroup": "laboriosam",
-  "MinLevel": 449,
-  "MaxValue": 174,
-  "MinValue": 473,
-  "RequiredLicense": "dolor",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferenceDescription.md)]

@@ -20,9 +20,9 @@ security items.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"systemLicense"|[systemLicense]|
-|"siteLicense"|[siteLicense]|
-|"userLicense"|[userLicense]|
+|"systemLicense"|systemLicense|
+|"siteLicense"|siteLicense|
+|"userLicense"|userLicense|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

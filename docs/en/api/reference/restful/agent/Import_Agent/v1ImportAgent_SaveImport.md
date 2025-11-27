@@ -71,54 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Import/SaveImport
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ImportLines": [
-    {
-      "Values": [
-        "aliquam",
-        "ut"
-      ],
-      "Selected": true,
-      "Operation": "ContactAdded",
-      "Type": "Contact",
-      "ExternalKey": "voluptatem"
-    },
-    {
-      "Values": [
-        "aliquam",
-        "ut"
-      ],
-      "Selected": true,
-      "Operation": "ContactAdded",
-      "Type": "Contact",
-      "ExternalKey": "voluptatem"
-    }
-  ],
-  "ColumnDefinition": [
-    "fugit",
-    "sapiente"
-  ],
-  "CreateSelection": true,
-  "Culture": "quibusdam",
-  "Context": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ImportAgent_SaveImport.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  249,
-  652
-]
-```
+[!include[sample response](../../samples/agent/response/v1ImportAgent_SaveImport.md)]

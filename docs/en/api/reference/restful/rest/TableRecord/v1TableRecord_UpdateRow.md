@@ -54,18 +54,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Table/{tableName}/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TableRecord_UpdateRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1TableRecord_UpdateRow.md)]

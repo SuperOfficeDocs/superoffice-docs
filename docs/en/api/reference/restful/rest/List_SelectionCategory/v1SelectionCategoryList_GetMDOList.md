@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SelectionCategory/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 301,
-    "Name": "Romaguera Group",
-    "ToolTip": "Eos tenetur sit quia.",
-    "Deleted": false,
-    "Rank": 2,
-    "Type": "provident",
-    "ChildItems": [
-      {
-        "Id": 240,
-        "Name": "Hintz, Kozey and Rosenbaum",
-        "ToolTip": "Nesciunt molestiae repudiandae iure quo nihil autem.",
-        "Deleted": true,
-        "Rank": 523,
-        "Type": "dignissimos",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "saepe",
-        "ColorBlock": 721,
-        "ExtraInfo": "tempora",
-        "StyleHint": "aliquid",
-        "FullName": "Vern Walter",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
-          }
-        }
-      }
-    ],
-    "IconHint": "nobis",
-    "ColorBlock": 41,
-    "ExtraInfo": "aut",
-    "StyleHint": "iure",
-    "FullName": "Cordie Hilll",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_GetMDOList.md)]

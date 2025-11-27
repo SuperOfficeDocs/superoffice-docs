@@ -87,61 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 628,
-  "ColumnId": 769,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 382,
-  "FieldLabel": "eum",
-  "FieldLeft": 90,
-  "FieldTop": 754,
-  "FieldType": "Checkbox",
-  "FieldWidth": 817,
-  "FormatMask": "molestiae",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 851,
-  "LabelLeft": 334,
-  "LabelTop": 201,
-  "LabelWidth": 900,
-  "LastVersionId": 301,
-  "ListTableId": 255,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 566,
-  "ProgId": "sapiente",
-  "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 9,
-  "TextLength": 782,
-  "Tooltip": "cumque",
-  "UdefIdentity": 616,
-  "UDListDefinitionId": 958,
-  "Justification": "Center",
-  "Version": 862,
-  "TemplateVariableName": "Torp-Abernathy",
-  "HasBeenPublished": false,
-  "MdoListName": "Waelchi-Carter",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)]

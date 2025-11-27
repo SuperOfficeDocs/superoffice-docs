@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 246,
-    "Name": "Rolfson Group",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "UdListDefinitionId": 281,
-    "Rank": 714,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetAll.md)]

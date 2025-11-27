@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Source/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 467,
-    "Name": "DuBuque-Von",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "UdListDefinitionId": 686,
-    "Rank": 728
-  },
-  {
-    "Id": 467,
-    "Name": "DuBuque-Von",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "UdListDefinitionId": 686,
-    "Rank": 728
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_PutAllSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 271,
-    "Name": "Stracke, Grady and Effertz",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "UdListDefinitionId": 171,
-    "Rank": 967,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 854
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_PutAllSource.md)]

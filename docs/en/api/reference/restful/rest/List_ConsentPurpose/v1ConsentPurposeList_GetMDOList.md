@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
 GET /api/v1/List/ConsentPurpose/MDOItems?query=possimus
 ```
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentPurpose/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 471,
-    "Name": "Cartwright, Mueller and Feil",
-    "ToolTip": "Sed magni labore quam.",
-    "Deleted": false,
-    "Rank": 492,
-    "Type": "libero",
-    "ChildItems": [
-      {
-        "Id": 430,
-        "Name": "Hagenes-Reilly",
-        "ToolTip": "Reprehenderit architecto.",
-        "Deleted": true,
-        "Rank": 263,
-        "Type": "hic",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "hic",
-        "ColorBlock": 674,
-        "ExtraInfo": "cum",
-        "StyleHint": "saepe",
-        "FullName": "Sienna Lind",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 897
-          }
-        }
-      }
-    ],
-    "IconHint": "eum",
-    "ColorBlock": 447,
-    "ExtraInfo": "aut",
-    "StyleHint": "libero",
-    "FullName": "D'angelo Paucek",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 239
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_GetMDOList.md)]

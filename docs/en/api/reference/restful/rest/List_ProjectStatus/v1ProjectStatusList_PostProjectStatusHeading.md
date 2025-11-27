@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProjectStatus/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 990,
-  "Name": "Jaskolski Group",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 878,
-  "UdListDefinitionId": 404
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_PostProjectStatusHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 982,
-  "Name": "Carter-Murazik",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 93,
-  "UdListDefinitionId": 706,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_PostProjectStatusHeading.md)]

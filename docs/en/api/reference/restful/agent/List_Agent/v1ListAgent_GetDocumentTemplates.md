@@ -74,40 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentTemplateId": 611,
-    "Name": "White-Johns",
-    "Tooltip": "est",
-    "SaveInDb": 695,
-    "Filename": "illum",
-    "DefaultOref": "tempora",
-    "RecordType": "Appointment",
-    "Deleted": 918,
-    "Direction": "Incoming",
-    "AutoeventId": 753,
-    "QuoteDocType": "ConfirmationLines",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 463
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplates.md)]

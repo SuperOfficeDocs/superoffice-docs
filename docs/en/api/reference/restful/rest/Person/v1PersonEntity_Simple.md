@@ -99,68 +99,8 @@ PersonEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{id}/Simple
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_Simple.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PersonEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "Position": "qui",
-  "PersonId": 137,
-  "Mrmrs": "est",
-  "Firstname": "Bret",
-  "Lastname": "Gulgowski",
-  "MiddleName": "Renner-Glover",
-  "Title": "architecto",
-  "Description": "Diverse uniform emulation",
-  "Email": "nadia@beahan.us",
-  "FullName": "Eliane Maggio",
-  "DirectPhone": "019-745-7922",
-  "FormalName": "Schmidt-Hettinger",
-  "CountryId": 783,
-  "ContactId": 935,
-  "ContactName": "Kohler-Dietrich",
-  "Retired": 398,
-  "Rank": 59,
-  "ActiveInterests": 650,
-  "ContactDepartment": "",
-  "ContactCountryId": 104,
-  "ContactOrgNr": "1214755",
-  "FaxPhone": "598-675-0453 x947",
-  "MobilePhone": "(930)466-6428",
-  "ContactPhone": "533-972-3554 x108",
-  "AssociateName": "Ritchie-Connelly",
-  "AssociateId": 689,
-  "UsePersonAddress": false,
-  "ContactFax": "nihil",
-  "Kanafname": "aspernatur",
-  "Kanalname": "expedita",
-  "Post1": "in",
-  "Post2": "ad",
-  "Post3": "laudantium",
-  "EmailName": "arnulfo@bartonwindler.name",
-  "ContactFullName": "Eve Cummings",
-  "ActiveErpLinks": 569,
-  "TicketPriorityId": 50,
-  "SupportLanguageId": 658,
-  "SupportAssociateId": 682,
-  "CategoryName": "VIP Customer",
-  "PersonNumber": "1272969",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_Simple.md)]

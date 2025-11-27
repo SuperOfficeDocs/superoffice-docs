@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 955,
-    "Name": "Boyer, Hyatt and Eichmann",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "UdListDefinitionId": 72,
-    "Rank": 733,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_GetAll.md)]

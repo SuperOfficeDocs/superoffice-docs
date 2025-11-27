@@ -667,14 +667,15 @@ Document selection archive using the selectionId as criterionmapping.
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -730,7 +731,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=personId,person/searchPhone/description,person/personUdef/SuperOffice:2,contact/streetAddress/formattedMultiLineAddress,contact/contactExtra/y_organization/x_name
+GET /api/v1/archive/DocumentDynamicSelection?$select=person/contactId,person/mrMrs,person/email/emailHasBounced,person/personAddress/line3,project/NumberOfNotCompletedActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

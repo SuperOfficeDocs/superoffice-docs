@@ -68,14 +68,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
-|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -326,11 +327,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
-|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
-|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
@@ -534,11 +535,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
-|project/projectId|int|DB ID: Displays the database ID for a project row| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
@@ -641,7 +642,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=competitor,person/email/emailLastBounce,person/correspondingAssociate/contactId,person/correspondingAssociate/credentialType,contact/postAddress/formattedAddress
+GET /api/v1/archive/SimpleSale?$select=updatedBy,person/email/emailLastBounce,person/email/emailHasBounced,person/personUdef/SuperOffice:3,person/personExtra/x_person_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

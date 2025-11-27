@@ -43,18 +43,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Sale/NextDueDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_BatchUpdateNextDueDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_BatchUpdateNextDueDate.md)]

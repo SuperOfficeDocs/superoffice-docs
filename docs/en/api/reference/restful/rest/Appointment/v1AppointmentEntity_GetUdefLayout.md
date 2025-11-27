@@ -87,63 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_GetUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 362,
-    "ColumnId": 135,
-    "FieldDefault": "ut",
-    "FieldHeight": 37,
-    "FieldLabel": "accusamus",
-    "FieldLeft": 836,
-    "FieldTop": 711,
-    "FieldType": "Checkbox",
-    "FieldWidth": 260,
-    "FormatMask": "magni",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 368,
-    "LabelLeft": 17,
-    "LabelTop": 94,
-    "LabelWidth": 413,
-    "LastVersionId": 664,
-    "ListTableId": 453,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 762,
-    "ProgId": "quos",
-    "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 784,
-    "TextLength": 812,
-    "Tooltip": "iusto",
-    "UdefIdentity": 474,
-    "UDListDefinitionId": 870,
-    "Justification": "Center",
-    "Version": 249,
-    "TemplateVariableName": "Yundt, Hoppe and Metz",
-    "HasBeenPublished": false,
-    "MdoListName": "Swaniawski-Larson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 906
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_GetUdefLayout.md)]

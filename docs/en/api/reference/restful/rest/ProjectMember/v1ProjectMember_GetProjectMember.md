@@ -93,54 +93,8 @@ ProjectMember found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ProjectMember/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_GetProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectMember found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 664,
-  "ContactId": 23,
-  "ProjectId": 186,
-  "ContactName": "Cole LLC",
-  "ContactDepartment": "",
-  "ProjectName": "Bauch, Bailey and Koepp",
-  "EmailId": 230,
-  "EmailAddress": "tara.bayer@howelljacobs.co.uk",
-  "CountryId": 386,
-  "Firstname": "Paris",
-  "MiddleName": "Koch Inc and Sons",
-  "Lastname": "Gibson",
-  "PersonId": 896,
-  "Mrmrs": "molestiae",
-  "ProjectMemberTypeName": "Christiansen, Cremin and Dicki",
-  "Phone": "529-943-0184 x09136",
-  "PhoneId": 744,
-  "ProjectMemberTypeId": 292,
-  "EmailAddressName": "agustin_feeney@vandervortolson.co.uk",
-  "Comment": "eum",
-  "FullName": "Mr. Ahmed Senger I",
-  "Registered": "2008-04-28T02:30:53.0692723+02:00",
-  "Updated": "2006-11-18T02:30:53.0692723+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_GetProjectMember.md)]

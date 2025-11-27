@@ -72,50 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Navigator/GetNavigatorCompanies
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Romaguera-Greenholt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1NavigatorAgent_GetNavigatorCompanies.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 327,
-    "Value": "fugit",
-    "Tooltip": "voluptatem",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 948
-      }
-    }
-  },
-  {
-    "Id": 327,
-    "Value": "fugit",
-    "Tooltip": "voluptatem",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 948
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1NavigatorAgent_GetNavigatorCompanies.md)]

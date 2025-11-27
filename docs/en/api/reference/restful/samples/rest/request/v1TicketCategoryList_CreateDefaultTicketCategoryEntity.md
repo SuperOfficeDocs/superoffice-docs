@@ -1,6 +1,0 @@
-```http!
-GET /api/v1/List/TicketCategory/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```

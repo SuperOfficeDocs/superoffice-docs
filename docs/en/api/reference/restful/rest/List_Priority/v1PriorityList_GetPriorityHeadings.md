@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetPriorityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 313,
-    "Name": "Pollich LLC",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "Rank": 703,
-    "UdListDefinitionId": 761,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 739
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetPriorityHeadings.md)]

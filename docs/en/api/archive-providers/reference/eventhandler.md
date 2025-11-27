@@ -18,7 +18,7 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"eventHandler"|[eventHandler]|
+|"eventHandler"|eventHandler|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

@@ -64,50 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/AddProjectMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectEntityId": 240,
-  "ProjectMembers": [
-    {
-      "ProjectmemberId": 998,
-      "ContactId": 363,
-      "ProjectId": 222,
-      "ContactName": "Bartell-Tremblay",
-      "ContactDepartment": "",
-      "ProjectName": "Doyle, Satterfield and Halvorson",
-      "EmailId": 898,
-      "EmailAddress": "mable@gleichner.uk",
-      "CountryId": 702,
-      "Firstname": "Dayton",
-      "MiddleName": "Aufderhar, Braun and Cassin",
-      "Lastname": "Hackett",
-      "PersonId": 182,
-      "Mrmrs": "harum",
-      "ProjectMemberTypeName": "Kshlerin-Braun",
-      "Phone": "373-007-0225",
-      "PhoneId": 391,
-      "ProjectMemberTypeId": 919,
-      "EmailAddressName": "jammie_cronin@kutch.uk",
-      "Comment": "ex",
-      "FullName": "Juvenal Collier",
-      "Registered": "2008-05-19T02:30:47.6632017+02:00",
-      "Updated": "2024-04-23T02:30:47.6632017+02:00"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_AddProjectMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_AddProjectMembers.md)]

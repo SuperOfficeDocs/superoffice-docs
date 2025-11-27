@@ -80,78 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 989,
-  "Address": null,
-  "AddressType": "ContactPostalAddress",
-  "CountryId": 440
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_SaveQuoteVersionAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Wgs84Latitude": 3149.67,
-  "Wgs84Longitude": 21314.334,
-  "LocalizedAddress": [
-    [
-      {
-        "Name": "Zboncak-Wehner",
-        "Value": "eaque",
-        "Tooltip": "dolores",
-        "Label": "est",
-        "ValueLength": 862,
-        "AddressType": "quidem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Schimmel, Kiehn and Blick",
-        "Value": "corporis",
-        "Tooltip": "veniam",
-        "Label": "asperiores",
-        "ValueLength": 313,
-        "AddressType": "dolorem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
-          }
-        }
-      }
-    ]
-  ],
-  "Street": null,
-  "Postal": null,
-  "Formatted": "aut",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_SaveQuoteVersionAddress.md)]

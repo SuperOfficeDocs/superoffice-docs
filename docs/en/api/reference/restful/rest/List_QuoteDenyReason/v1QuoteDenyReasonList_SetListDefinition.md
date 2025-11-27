@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteDenyReason
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 113,
-  "Name": "Cormier LLC",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 18,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 526,
-  "Name": "Bailey-Reichert",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 734,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_SetListDefinition.md)]

@@ -61,55 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_DefaultForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 29 Apr 2003 02:30:52 G4T
-
-{
-  "ForeignAppId": 917,
-  "Name": "Corwin Inc and Sons",
-  "CreatedDate": "2021-03-20T02:30:52.6474115+01:00",
-  "UpdatedDate": "2003-04-29T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 687,
-      "Name": "Harris Inc and Sons",
-      "CreatedDate": "2025-04-30T02:30:52.6474115+02:00",
-      "UpdatedDate": "2012-07-07T02:30:52.6474115+02:00",
-      "AssociateFullName": "Karolann Dach",
-      "CreatedBy": "in",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 730,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_DefaultForeignAppEntity.md)]

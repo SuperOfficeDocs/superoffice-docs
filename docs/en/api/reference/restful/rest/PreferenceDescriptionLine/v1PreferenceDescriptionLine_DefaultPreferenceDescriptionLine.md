@@ -60,33 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/PreferenceDescriptionLine/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 797,
-  "PrefDescId": 890,
-  "PrefValue": "et",
-  "PrefShowValue": "est",
-  "Description": "Pre-emptive static functionalities",
-  "IsBuiltin": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md)]

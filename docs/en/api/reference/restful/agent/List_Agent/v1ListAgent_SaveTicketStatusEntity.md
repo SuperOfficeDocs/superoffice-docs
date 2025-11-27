@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveTicketStatusEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 360,
-  "Name": "Larkin-Kiehn",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveTicketStatusEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 50,
-  "Name": "Mertz-Hilll",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveTicketStatusEntity.md)]

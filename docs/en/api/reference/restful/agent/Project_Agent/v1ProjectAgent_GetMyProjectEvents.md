@@ -86,51 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetMyProjectEvents
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetMyProjectEvents.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AssociateFullName": "Dr. Sabina Bessie Jakubowski",
-    "Description": "Innovative interactive framework",
-    "ProjectId": 708,
-    "EventName": "Gislason-Daugherty",
-    "AssociateId": 73,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "unde",
-    "SignOffText": "quibusdam",
-    "SignOnConfirmationText": "unde",
-    "SignOnText": "maiores",
-    "EventDate": "2008-04-18T02:30:47.6788214+02:00",
-    "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 572,
-    "SignOnTaskId": 409,
-    "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 624,
-    "SignOffPersonId": 332,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetMyProjectEvents.md)]

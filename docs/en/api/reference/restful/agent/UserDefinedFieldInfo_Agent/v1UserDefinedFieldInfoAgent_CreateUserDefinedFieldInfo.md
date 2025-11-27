@@ -106,67 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment",
-  "FieldType": "Checkbox"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 948,
-  "ColumnId": 928,
-  "FieldDefault": "iste",
-  "FieldHeight": 708,
-  "FieldLabel": "aperiam",
-  "FieldLeft": 843,
-  "FieldTop": 210,
-  "FieldType": "Checkbox",
-  "FieldWidth": 404,
-  "FormatMask": "similique",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 931,
-  "LabelLeft": 1002,
-  "LabelTop": 991,
-  "LabelWidth": 853,
-  "LastVersionId": 413,
-  "ListTableId": 216,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 684,
-  "ProgId": "odio",
-  "IsReadOnly": true,
-  "ShortLabel": "saepe",
-  "TabOrder": 375,
-  "TextLength": 754,
-  "Tooltip": "a",
-  "UdefIdentity": 286,
-  "UDListDefinitionId": 800,
-  "Justification": "Center",
-  "Version": 756,
-  "TemplateVariableName": "Bartell Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Dare, Emmerich and Russel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo.md)]

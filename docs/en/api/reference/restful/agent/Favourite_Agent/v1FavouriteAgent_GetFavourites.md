@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Favourite/GetFavourites
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Turner Inc and Sons",
-  "AssociateId": 585
-}
-```
+[!include[sample request](../../samples/agent/request/v1FavouriteAgent_GetFavourites.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TableName": "Hessel Inc and Sons",
-    "RecordId": 395,
-    "AssociateId": 194,
-    "ExtraInfo": "earum",
-    "Rank": 655,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FavouriteAgent_GetFavourites.md)]

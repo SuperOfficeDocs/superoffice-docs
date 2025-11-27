@@ -77,52 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StartDate": "2007-06-30T02:30:46.5382305+02:00",
-  "EndDate": "2016-07-05T02:30:46.5382305+02:00",
-  "AssociateId": 317
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Date": "2014-02-01T02:30:46.5382305+01:00",
-    "RedLetterInformation": null,
-    "RedLetterDetails": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
-      }
-    }
-  },
-  {
-    "Date": "2014-02-01T02:30:46.5382305+01:00",
-    "RedLetterInformation": null,
-    "RedLetterDetails": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate.md)]

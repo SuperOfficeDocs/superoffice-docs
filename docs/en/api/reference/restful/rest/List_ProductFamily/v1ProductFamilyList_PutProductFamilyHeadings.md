@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductFamily/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 314,
-    "Name": "Ullrich, Zieme and Hudson",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 383,
-    "UdListDefinitionId": 445
-  },
-  {
-    "HeadingId": 314,
-    "Name": "Ullrich, Zieme and Hudson",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 383,
-    "UdListDefinitionId": 445
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_PutProductFamilyHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 416,
-    "Name": "Gutkowski-Schuppe",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 221,
-    "UdListDefinitionId": 147,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_PutProductFamilyHeadings.md)]

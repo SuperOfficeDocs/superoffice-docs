@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CategoryId": 295,
-  "Name": "Kris Inc and Sons",
-  "CategoryGroup": "Customer",
-  "Tooltip": "error",
-  "Rank": 979,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 733,
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CategoryId": 792,
-  "Name": "Fahey-Swaniawski",
-  "CategoryGroup": "Customer",
-  "Tooltip": "cum",
-  "Rank": 53,
-  "EnableLeadStatus": false,
-  "CategoryFamilyId": 412,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveCategoryEntity.md)]

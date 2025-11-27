@@ -57,58 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetRevision.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LogEvent": "Create",
-  "Who": null,
-  "When": "2013-08-13T02:30:47.8663151+02:00",
-  "Changes": [
-    {
-      "FieldIdentifier": "nulla",
-      "ValueChangeFrom": 11799.51,
-      "ValueChangeTo": 24216.417999999998,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
-        }
-      }
-    },
-    {
-      "FieldIdentifier": "nulla",
-      "ValueChangeFrom": 11799.51,
-      "ValueChangeTo": 24216.417999999998,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 590
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetRevision.md)]

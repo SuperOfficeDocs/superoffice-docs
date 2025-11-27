@@ -89,50 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetPublishedProject
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 330
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetPublishedProject.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 7,
-  "Name": "Beier-Durgan",
-  "Description": "Future-proofed holistic software",
-  "URL": "http://www.example.com/",
-  "Type": "consequatur",
-  "AssociateId": 413,
-  "AssociateFullName": "Prof. Rhoda Alana Hickle III",
-  "TypeId": 616,
-  "Updated": "2001-02-19T02:30:47.6944454+01:00",
-  "StatusId": 744,
-  "Status": "eaque",
-  "TextId": 488,
-  "PublishTo": "2017-10-08T02:30:47.6944454+02:00",
-  "PublishFrom": "2015-08-06T02:30:47.6944454+02:00",
-  "IsPublished": true,
-  "URLName": "http://www.example.com/",
-  "ProjectNumber": "1550101",
-  "ActiveErpLinks": 159,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetPublishedProject.md)]

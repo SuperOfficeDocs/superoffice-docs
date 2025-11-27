@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Contact/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 576,
-  "ColumnId": 89,
-  "FieldDefault": "nobis",
-  "FieldHeight": 945,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 133,
-  "FieldTop": 80,
-  "FieldType": "Checkbox",
-  "FieldWidth": 181,
-  "FormatMask": "fugiat",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 20,
-  "LabelLeft": 479,
-  "LabelTop": 213,
-  "LabelWidth": 590,
-  "LastVersionId": 98,
-  "ListTableId": 19,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 317,
-  "ProgId": "ad",
-  "IsReadOnly": true,
-  "ShortLabel": "est",
-  "TabOrder": 59,
-  "TextLength": 221,
-  "Tooltip": "rerum",
-  "UdefIdentity": 119,
-  "UDListDefinitionId": 1002,
-  "Justification": "Center",
-  "Version": 521,
-  "TemplateVariableName": "Friesen, Denesik and Spinka",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobi LLC",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_AddUdefField.md)]

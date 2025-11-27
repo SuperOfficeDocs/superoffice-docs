@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=615
+POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=277
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
 
@@ -68,30 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetReasonSold
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 76,
-  "Value": "beatae",
-  "Tooltip": "culpa",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 901
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetReasonSold.md)]

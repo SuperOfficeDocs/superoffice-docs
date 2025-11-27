@@ -28,7 +28,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -91,87 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketPriority/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_GetAllTicketPriorityEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketPriorityId": 938,
-    "Name": "Breitenberg Group",
-    "Status": "Deleted",
-    "Flags": "AlertSchedule",
-    "SortOrder": 467,
-    "TicketRead": "Continue",
-    "ChangedOwner": "Continue",
-    "TicketNewinfo": "Continue",
-    "TicketClosed": "Continue",
-    "TicketChangedPriority": "Continue",
-    "TicketNew": "Continue",
-    "Deadline": 187,
-    "MonStart": "2022-11-16T02:30:53.5223788+01:00",
-    "MonStop": "2014-12-27T02:30:53.5223788+01:00",
-    "TueStart": "2003-10-13T02:30:53.5223788+02:00",
-    "TueStop": "2011-05-26T02:30:53.5223788+02:00",
-    "WedStart": "2001-03-12T02:30:53.5223788+01:00",
-    "WedStop": "2012-02-19T02:30:53.5223788+01:00",
-    "ThuStart": "2022-06-22T02:30:53.5223788+02:00",
-    "ThuStop": "2003-07-22T02:30:53.5223788+02:00",
-    "FriStart": "2008-01-08T02:30:53.5223788+01:00",
-    "FriStop": "2014-12-02T02:30:53.5223788+01:00",
-    "SatStart": "2011-02-02T02:30:53.5223788+01:00",
-    "SatStop": "2016-08-28T02:30:53.5223788+02:00",
-    "SunStart": "2024-08-28T02:30:53.5223788+02:00",
-    "SunStop": "2020-01-28T02:30:53.5223788+01:00",
-    "NonDates": [
-      "animi",
-      "veritatis"
-    ],
-    "EscalationLevels": [
-      {
-        "TicketAlertId": 92,
-        "AlertLevel": 225,
-        "AlertTimeout": 733,
-        "Action": 51,
-        "DelegateTo": 453,
-        "ScriptId": 474,
-        "EmailTo": "miller@cassin.us",
-        "SmsTo": "quo",
-        "ReplyTemplateIdCustomer": 972,
-        "ReplyTemplateIdUser": 818,
-        "ReplyTemplateIdCatmast": 53,
-        "ReplyTemplateIdEmail": 527,
-        "RtiCustomerSms": 419,
-        "ReplyTemplateIdUserSms": 514,
-        "ReplyTemplateIdCatmastSms": 670,
-        "ReplyTemplateIdSms": 929,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 983
-          }
-        }
-      }
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 722
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_GetAllTicketPriorityEntity.md)]

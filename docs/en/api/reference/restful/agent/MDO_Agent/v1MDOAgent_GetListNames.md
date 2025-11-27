@@ -60,21 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetListNames
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetListNames.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "voluptas",
-  "dicta"
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetListNames.md)]

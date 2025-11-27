@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_GetChatTopicUserAgentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TopicId": 518,
-    "User": null,
-    "CanListen": false,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
-  },
-  {
-    "TopicId": 518,
-    "User": null,
-    "CanListen": false,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_GetChatTopicUserAgentList.md)]

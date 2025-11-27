@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Competitor/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 295,
-  "Name": "Glover-Schultz",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "UdListDefinitionId": 867,
-  "Rank": 224
-}
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_PostCompetitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 521,
-  "Name": "Hudson, Durgan and Schamberger",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "UdListDefinitionId": 462,
-  "Rank": 433,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_PostCompetitor.md)]

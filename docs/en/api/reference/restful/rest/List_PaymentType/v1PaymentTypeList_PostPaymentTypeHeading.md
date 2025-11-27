@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/PaymentType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 339,
-  "Name": "Schmeler-Wintheiser",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 888,
-  "UdListDefinitionId": 183
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_PostPaymentTypeHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 690,
-  "Name": "Dare Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 718,
-  "UdListDefinitionId": 736,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_PostPaymentTypeHeading.md)]

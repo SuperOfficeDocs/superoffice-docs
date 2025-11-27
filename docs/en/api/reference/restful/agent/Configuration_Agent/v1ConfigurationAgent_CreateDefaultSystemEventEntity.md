@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 256,
-  "Scope": "Database",
-  "Eta": "2005-01-25T02:30:46.9288431+01:00",
-  "Eventkey": "velit",
-  "Eventmess": "praesentium",
-  "ExtraInfo": 297,
-  "Owner": 21,
-  "UpdatedCount": 353,
-  "Registered": "2008-08-26T02:30:46.9288431+02:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)]

@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 104,
-  "Name": "Kemmer, Kautzer and Price",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "Rank": 377,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 496,
-  "Name": "Feeney, Swaniawski and Funk",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 895,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_SetListDefinition.md)]

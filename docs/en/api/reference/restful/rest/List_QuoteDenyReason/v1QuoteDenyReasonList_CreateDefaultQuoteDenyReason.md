@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteDenyReason/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_CreateDefaultQuoteDenyReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 748,
-  "Name": "Block LLC",
-  "Tooltip": "facere",
-  "Deleted": false,
-  "UdListDefinitionId": 731,
-  "Rank": 885,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_CreateDefaultQuoteDenyReason.md)]

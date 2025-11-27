@@ -95,60 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/ChatSessionsForUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_ChatSessionsForUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ChatSessionId": 231,
-    "TopicId": 673,
-    "User": null,
-    "Person": null,
-    "CustomerAlias": "quo",
-    "CustomerHost": "cum",
-    "CustomerName": "Schmitt, Russel and Gusikowski",
-    "CustomerEmail": "elnora_lubowitz@rowealtenwerth.us",
-    "CustomerPhone": "(371)326-7799 x720",
-    "CustomerConsented": false,
-    "CustomerCompanyName": "Kihn Group",
-    "Status": "Closed",
-    "FirstMessage": "culpa",
-    "LastMessage": "earum",
-    "WhenRequested": "1999-03-09T02:30:46.8663446+01:00",
-    "WhenStarted": "2009-08-22T02:30:46.8663446+02:00",
-    "WhenEnded": "2025-10-29T02:30:46.8663446+01:00",
-    "WhenIdle": "2011-08-05T02:30:46.8663446+02:00",
-    "WhenFetched": "2017-08-22T02:30:46.8663446+02:00",
-    "SessionKey": "enim",
-    "InitialQueuePos": 695,
-    "AlertLevel": 718,
-    "Rank": 734,
-    "Flags": "CustomerIsTyping",
-    "Contact": null,
-    "Project": null,
-    "Sale": null,
-    "Ticket": null,
-    "TransferTo": null,
-    "ChatbotIsActive": false,
-    "Rating": 593,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_ChatSessionsForUser.md)]

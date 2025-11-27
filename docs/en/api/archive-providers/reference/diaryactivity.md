@@ -667,14 +667,15 @@ Activity archive provider for the Diary (checklist)
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -746,11 +747,11 @@ Activity archive provider for the Diary (checklist)
 |completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |duration|timeSpan|Duration: The duration of the chat session|  |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -778,7 +779,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/personNoMail,contact/streetAddress/wgs84latitude,contact/NumberOfActivities,sale/personId,suggestedAppointmentId
+GET /api/v1/archive/DiaryActivity?$select=person/personAssociate/contactDepartment,person/correspondingAssociate/usergroupId,contact/contactExtra/x_contact_dropdown,appointment/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

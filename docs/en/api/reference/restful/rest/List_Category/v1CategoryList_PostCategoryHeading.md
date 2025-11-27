@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Category/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 140,
-  "Name": "Dickens, Kiehn and Gulgowski",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "Rank": 676,
-  "UdListDefinitionId": 207
-}
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_PostCategoryHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 293,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 571,
-  "UdListDefinitionId": 697,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_PostCategoryHeading.md)]

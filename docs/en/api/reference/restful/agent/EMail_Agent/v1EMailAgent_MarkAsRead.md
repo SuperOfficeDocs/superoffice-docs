@@ -68,28 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/MarkAsRead
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerIds": [
-    378,
-    850
-  ],
-  "Read": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_MarkAsRead.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_MarkAsRead.md)]

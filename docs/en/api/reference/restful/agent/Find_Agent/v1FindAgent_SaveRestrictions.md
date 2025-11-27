@@ -66,48 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/SaveRestrictions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "dicta",
-  "ProviderName": "Fadel-Powlowski",
-  "StorageKey": "doloremque",
-  "Restrictions": [
-    {
-      "Name": "Becker, D'Amore and Wilkinson",
-      "Operator": "eveniet",
-      "Values": [
-        "animi",
-        "repudiandae"
-      ],
-      "DisplayValues": [
-        "libero",
-        "voluptate"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 596,
-      "InterOperator": "And",
-      "UniqueHash": 106
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_SaveRestrictions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_SaveRestrictions.md)]

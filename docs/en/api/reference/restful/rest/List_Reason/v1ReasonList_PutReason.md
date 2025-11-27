@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Reason/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 841,
-  "Name": "Breitenberg-Collins",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "UdListDefinitionId": 967,
-  "Rank": 509
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_PutReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 440,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 76,
-  "Rank": 804,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_PutReason.md)]

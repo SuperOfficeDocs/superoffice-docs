@@ -27,8 +27,8 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonStalled/MDOItems?flat=False
-GET /api/v1/List/ReasonStalled/MDOItems?query=qui
+GET /api/v1/List/ReasonStalled/MDOItems?flat=True
+GET /api/v1/List/ReasonStalled/MDOItems?query=aperiam
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonStalled/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 242,
-    "Name": "Ryan-Leffler",
-    "ToolTip": "Pariatur aut cum atque beatae autem.",
-    "Deleted": false,
-    "Rank": 36,
-    "Type": "sit",
-    "ChildItems": [
-      {
-        "Id": 374,
-        "Name": "Kuhn, Rice and Sporer",
-        "ToolTip": "Vitae voluptatem.",
-        "Deleted": false,
-        "Rank": 281,
-        "Type": "eos",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "unde",
-        "ColorBlock": 224,
-        "ExtraInfo": "facilis",
-        "StyleHint": "est",
-        "FullName": "Delfina Emard",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 468
-          }
-        }
-      }
-    ],
-    "IconHint": "debitis",
-    "ColorBlock": 750,
-    "ExtraInfo": "debitis",
-    "StyleHint": "eos",
-    "FullName": "Dr. Kip Sebastian Kovacek",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_GetMDOList.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/SaleType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 190,
-    "Name": "Treutel, Rice and Larson",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 544,
-    "UdListDefinitionId": 711
-  },
-  {
-    "HeadingId": 190,
-    "Name": "Treutel, Rice and Larson",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 544,
-    "UdListDefinitionId": 711
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_PutSaleTypeEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 528,
-    "Name": "O'Connell, Crooks and Runte",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 174,
-    "UdListDefinitionId": 777,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_PutSaleTypeEntityHeadings.md)]

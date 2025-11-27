@@ -88,80 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Ward LLC",
-  "AdditionalInfo": "non",
-  "SearchValue": "qui"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetSelectableListWithRestriction.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 85,
-    "Name": "Wolf, Jewess and Prosacco",
-    "ToolTip": "Accusamus tempora.",
-    "Deleted": true,
-    "Rank": 932,
-    "Type": "nesciunt",
-    "ColorBlock": 320,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2024-10-10T02:30:47.4757021+02:00",
-    "ChildItems": [
-      {
-        "Id": 782,
-        "Name": "Hessel LLC",
-        "ToolTip": "Deserunt doloremque quia.",
-        "Deleted": false,
-        "Rank": 250,
-        "Type": "in",
-        "ColorBlock": 327,
-        "IconHint": "cumque",
-        "Selected": true,
-        "LastChanged": "2000-09-20T02:30:47.4757021+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Malvina Quitzon",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 933
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ima Barrows V",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetSelectableListWithRestriction.md)]

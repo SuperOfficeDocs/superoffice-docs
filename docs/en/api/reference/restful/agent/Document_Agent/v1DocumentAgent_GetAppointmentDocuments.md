@@ -92,54 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetAppointmentDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 553
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetAppointmentDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 313,
-    "Attention": "in",
-    "Header": "optio",
-    "Name": "Johnston-Marvin",
-    "OurRef": "velit",
-    "YourRef": "consectetur",
-    "Description": "Sharable homogeneous function",
-    "DocumentTemplate": "illo",
-    "IsPublished": false,
-    "PersonId": 694,
-    "PersonFullName": "Jacinto Schamberger",
-    "AssociateFullName": "Mrs. Amparo Sidney Stokes MD",
-    "ContactId": 885,
-    "ContactName": "Cormier Inc and Sons",
-    "ProjectId": 343,
-    "ProjectName": "Hane-Hirthe",
-    "AssociateId": 391,
-    "Snum": 162,
-    "SaleId": 165,
-    "SaleName": "Dicki-Thompson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 901
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetAppointmentDocuments.md)]

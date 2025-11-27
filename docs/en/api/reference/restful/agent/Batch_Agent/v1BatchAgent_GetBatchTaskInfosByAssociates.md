@@ -93,62 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateIds": [
-    1000,
-    24
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetBatchTaskInfosByAssociates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 175,
-    "Name": "Stokes-Wilderman",
-    "AssociateId": 346,
-    "DetailsTable": 815,
-    "DetailsRecord": 584,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "iste",
-      "ParameterObject2": "ad"
-    },
-    "LastStarted": "2004-03-04T02:30:46.8194719+01:00",
-    "Created": "2019-02-03T02:30:46.8194719+01:00",
-    "StartCount": 49,
-    "DatabaseSerialNumber": "854879",
-    "Context": "soluta",
-    "Result": "velit",
-    "State": "All",
-    "Description": "Persevering heuristic data-warehouse",
-    "Response": "magnam",
-    "Request": "cupiditate",
-    "ProgressDescription": "Visionary solution-oriented migration",
-    "ProgressPercent": 282,
-    "FileName": "Kihn-Nader",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetBatchTaskInfosByAssociates.md)]

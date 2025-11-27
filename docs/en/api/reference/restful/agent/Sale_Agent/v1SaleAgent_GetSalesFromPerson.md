@@ -97,60 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSalesFromPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 596,
-  "OnlyOpenSales": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSalesFromPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Greenholt Group",
-    "SaleDate": "2010-08-04T02:30:47.7881925+02:00",
-    "SaleId": 363,
-    "Probability": 516,
-    "Title": "aperiam",
-    "Amount": 29302.899999999998,
-    "Currency": "harum",
-    "ProjectName": "Wisoky-Okuneva",
-    "AssociateFullName": "Miller Cormier DVM",
-    "Description": "De-engineered static utilisation",
-    "Status": "Lost",
-    "WeightedAmount": 30086.399999999998,
-    "ProjectId": 593,
-    "EarningPercent": 18973.236,
-    "Earning": 24360.582,
-    "ContactId": 185,
-    "AssociateId": 418,
-    "PersonId": 763,
-    "SaleTypeId": 820,
-    "SaleTypeName": "Marks-Hagenes",
-    "PersonFullName": "Theo Hackett",
-    "Completed": "Completed",
-    "ActiveErpLinks": 199,
-    "NextDueDate": "1998-09-12T02:30:47.7881925+02:00",
-    "Number": "1234954",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSalesFromPerson.md)]

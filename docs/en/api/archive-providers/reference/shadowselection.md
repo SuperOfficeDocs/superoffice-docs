@@ -24,8 +24,8 @@ Only the two ID columns are available. The row type is fixed (contact or person)
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"contact"|[Contact]|
-|"person"|[Person]|
+|"contact"|Contact|
+|"person"|Person|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

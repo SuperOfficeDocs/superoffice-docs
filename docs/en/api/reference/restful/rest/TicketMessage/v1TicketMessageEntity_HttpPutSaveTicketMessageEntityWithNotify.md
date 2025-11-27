@@ -30,7 +30,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -125,156 +125,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/TicketMessage/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjMessageId": 766,
-  "Ticket": null,
-  "CreatedAt": "2018-07-18T02:30:53.0067748+02:00",
-  "CreatedBy": null,
-  "Author": "dolorum",
-  "Slevel": "External",
-  "Type": "Html",
-  "MessageId": "modi",
-  "TimeSpent": 704,
-  "Body": "dolorum",
-  "HtmlBody": "magni",
-  "EmailHeader": "marlen@walsh.co.uk",
-  "DebugInfo": "delectus",
-  "MailSorter": "velit",
-  "MessageCategory": "Bounce",
-  "Person": null,
-  "SearchTitle": "debitis",
-  "MessageHeaders": [
-    {
-      "Id": 400,
-      "Name": "Shanahan, Braun and Wiegand",
-      "Value": "sint",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name"
-    },
-    {
-      "Id": 400,
-      "Name": "Shanahan, Braun and Wiegand",
-      "Value": "sint",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name"
-    }
-  ],
-  "Important": false,
-  "Language": "sed",
-  "Sentiment": 569,
-  "SentimentConfidence": 123,
-  "Badge": "Comment",
-  "AttachmentsInfo": [
-    {
-      "AttachmentId": 879,
-      "Name": "Luettgen Group",
-      "ContentType": "id",
-      "AttSize": 934,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "ex",
-      "IsSafeFileExtension": true
-    }
-  ],
-  "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "provident"
-  },
-  "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "nisi"
-  }
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjMessageId": 307,
-  "Ticket": null,
-  "CreatedAt": "2022-06-05T02:30:53.0067748+02:00",
-  "CreatedBy": null,
-  "Author": "voluptatem",
-  "Slevel": "External",
-  "Type": "Html",
-  "MessageId": "laboriosam",
-  "TimeSpent": 265,
-  "Body": "ut",
-  "HtmlBody": "omnis",
-  "EmailHeader": "leda.moore@ernser.ca",
-  "DebugInfo": "numquam",
-  "MailSorter": "doloribus",
-  "MessageCategory": "Bounce",
-  "Person": null,
-  "SearchTitle": "impedit",
-  "MessageHeaders": [
-    {
-      "Id": 726,
-      "Name": "Abbott Inc and Sons",
-      "Value": "similique",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
-        }
-      }
-    }
-  ],
-  "Important": false,
-  "Language": "culpa",
-  "Sentiment": 700,
-  "SentimentConfidence": 606,
-  "Badge": "Comment",
-  "AttachmentsInfo": [
-    {
-      "AttachmentId": 265,
-      "Name": "Conn Inc and Sons",
-      "ContentType": "aliquid",
-      "AttSize": 383,
-      "InlineImage": true,
-      "ContentId": "vitae",
-      "AuthKey": "sunt",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 522
-        }
-      }
-    }
-  ],
-  "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "incidunt"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "tenetur"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify.md)]

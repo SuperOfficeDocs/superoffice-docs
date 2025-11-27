@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentTerm/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_GetPaymentTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 948,
-  "Name": "Mraz, Parisian and Monahan",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "UdListDefinitionId": 385,
-  "Rank": 92,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_GetPaymentTerm.md)]

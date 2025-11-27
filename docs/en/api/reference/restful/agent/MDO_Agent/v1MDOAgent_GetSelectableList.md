@@ -89,81 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetSelectableList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Waelchi LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quae",
-  "OnlyHistory": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetSelectableList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 631,
-    "Name": "Johnson LLC",
-    "ToolTip": "Eum sit provident ratione aut eum et dolor.",
-    "Deleted": true,
-    "Rank": 931,
-    "Type": "fuga",
-    "ColorBlock": 396,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2004-01-24T02:30:47.4757021+01:00",
-    "ChildItems": [
-      {
-        "Id": 278,
-        "Name": "Kozey, Wisoky and Weber",
-        "ToolTip": "Accusamus eaque.",
-        "Deleted": false,
-        "Rank": 64,
-        "Type": "omnis",
-        "ColorBlock": 683,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2002-07-18T02:30:47.4757021+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "odio",
-        "StyleHint": "rem",
-        "Hidden": false,
-        "FullName": "Mr. Francesca Constance Nicolas",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Dwight Senger",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 849
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetSelectableList.md)]

@@ -75,35 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplateTask
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 904
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplateTask.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 561,
-  "Value": "magnam",
-  "Tooltip": "animi",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplateTask.md)]

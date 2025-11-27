@@ -67,34 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/SyncEmailAccounts
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SyncUserAccounts": [
-    {
-      "AccountId": 725,
-      "AssociateName": "Homenick Inc and Sons",
-      "AssociateId": 637
-    },
-    {
-      "AccountId": 725,
-      "AssociateName": "Homenick Inc and Sons",
-      "AssociateId": 637
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_SyncEmailAccounts.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_SyncEmailAccounts.md)]

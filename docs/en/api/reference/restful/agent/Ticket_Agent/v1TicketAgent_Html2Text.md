@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/Html2Text
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Content": "fuga"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_Html2Text.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"sunt"
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_Html2Text.md)]

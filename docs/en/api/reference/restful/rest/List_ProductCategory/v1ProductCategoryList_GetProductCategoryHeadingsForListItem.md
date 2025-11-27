@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_GetProductCategoryHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 779,
-    "Name": "Predovic-Stark",
-    "ToolTip": "Ducimus provident praesentium ea.",
-    "Deleted": false,
-    "Rank": 117,
-    "Type": "reprehenderit",
-    "ColorBlock": 212,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2007-10-17T02:30:53.3505129+02:00",
-    "ChildItems": [
-      {
-        "Id": 464,
-        "Name": "Schiller-Pfannerstill",
-        "ToolTip": "Non quibusdam enim.",
-        "Deleted": false,
-        "Rank": 850,
-        "Type": "provident",
-        "ColorBlock": 935,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2002-01-24T02:30:53.3505129+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Macy Schinner",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 736
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Megane Rice",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_GetProductCategoryHeadingsForListItem.md)]

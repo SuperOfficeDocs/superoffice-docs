@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Credited/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 862,
-  "Name": "Corwin, Waters and Keeling",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 167,
-  "UdListDefinitionId": 395
-}
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_PostCreditedHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 134,
-  "Name": "Rowe, Schmeler and Effertz",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 436,
-  "UdListDefinitionId": 293,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_PostCreditedHeading.md)]

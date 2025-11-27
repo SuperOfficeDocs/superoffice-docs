@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/DeleteFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 368,
-  "UdListDefinitionName": "Boyer, Stiedemann and Nolan"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_DeleteFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_DeleteFromListName.md)]

@@ -68,77 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowTriggerId": 773,
-  "WorkflowId": 534,
-  "TriggerType": "AddedMessage",
-  "RestrictionGroups": [
-    {
-      "Name": "Konopelski Inc and Sons",
-      "Description": "Implemented stable core",
-      "Rank": 236,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Konopelski Inc and Sons",
-      "Description": "Implemented stable core",
-      "Rank": 236,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_SaveWorkflowTrigger.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowTriggerId": 71,
-  "WorkflowId": 747,
-  "TriggerType": "AddedMessage",
-  "RestrictionGroups": [
-    {
-      "Name": "Johns-Donnelly",
-      "Description": "Triple-buffered impactful orchestration",
-      "Rank": 786,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Johns-Donnelly",
-      "Description": "Triple-buffered impactful orchestration",
-      "Rank": 786,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_SaveWorkflowTrigger.md)]

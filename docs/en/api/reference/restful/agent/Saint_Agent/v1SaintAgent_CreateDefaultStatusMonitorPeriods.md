@@ -56,30 +56,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_CreateDefaultStatusMonitorPeriods.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Period1": 811,
-  "Period2": 806,
-  "Period3": 24,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_CreateDefaultStatusMonitorPeriods.md)]

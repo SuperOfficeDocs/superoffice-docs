@@ -82,77 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/RequestForInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateIdForNewContact": 937,
-  "Channel": "enim",
-  "Regarding": "qui",
-  "ContactName": "Dooley-Heller",
-  "PersonFirstname": "Cory",
-  "PersonLastname": "Denesik",
-  "EmailAddress": "jesus@tillman.us",
-  "PhoneNumber": "762246"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_RequestForInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RequestedContacts": [
-    {
-      "ContactId": 708,
-      "Name": "Boyle, Larkin and Ferry",
-      "OrgNr": "986334",
-      "Department": "",
-      "URL": "http://www.example.com/",
-      "City": "totam",
-      "DirectPhone": "292-659-1551",
-      "AssociateId": 76,
-      "CountryId": 499,
-      "EmailAddress": "rowena@ferrysanford.biz",
-      "Kananame": "dolores",
-      "EmailAddressName": "bud@mertzrath.ca",
-      "URLName": "http://www.example.com/",
-      "AssociateFullName": "Clifton Kessler",
-      "BusinessName": "Information Technology",
-      "CategoryName": "VIP Customer",
-      "CountryName": "Sokovia",
-      "Address": null,
-      "FormattedAddress": "voluptatem",
-      "FullName": "Miss Fausto Judah Jerde",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 286,
-      "Number1": "1426734",
-      "Number2": "1727310",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 17
-        }
-      }
-    }
-  ],
-  "RequestedPerson": null,
-  "SalesRep": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_RequestForInfo.md)]

@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/ValidatePersonEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_ValidatePersonEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "vel",
-  "2": "expedita"
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_ValidatePersonEntity.md)]

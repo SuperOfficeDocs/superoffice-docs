@@ -99,67 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/PreferenceDescription/{section}/{key}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 880,
-  "Section": "ad",
-  "Key": "eum",
-  "Name": "Schmitt, Pacocha and Monahan",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Optional full-range leverage",
-  "IsBuiltin": false,
-  "TableName": "Brakus, Simonis and Grimes",
-  "UserDefinedListId": 894,
-  "Rank": 704,
-  "SubGroup": "eum",
-  "MinLevel": 43,
-  "MaxValue": 349,
-  "MinValue": 901,
-  "RequiredLicense": "necessitatibus"
-}
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_SaveFromSectionAndKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 40,
-  "Section": "porro",
-  "Key": "praesentium",
-  "Name": "Bosco-Homenick",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Quality-focused empowering array",
-  "IsBuiltin": true,
-  "TableName": "Abernathy LLC",
-  "UserDefinedListId": 949,
-  "Rank": 939,
-  "SubGroup": "debitis",
-  "MinLevel": 580,
-  "MaxValue": 585,
-  "MinValue": 831,
-  "RequiredLicense": "qui",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_SaveFromSectionAndKey.md)]

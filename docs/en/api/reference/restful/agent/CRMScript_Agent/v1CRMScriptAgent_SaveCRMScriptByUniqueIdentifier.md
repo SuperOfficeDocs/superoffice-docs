@@ -86,44 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "assumenda",
-  "Crmscript": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "est",
-  "Name": "D'Amore, Kilback and Bergnaum",
-  "Description": "Proactive contextually-based pricing structure",
-  "IncludeId": "qui",
-  "Source": "earum",
-  "Registered": "2002-01-02T02:30:47.0382145+01:00",
-  "RegisteredBy": "quo",
-  "Updated": "2000-07-28T02:30:47.0382145+02:00",
-  "UpdatedBy": "facere",
-  "Path": "voluptatem",
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier.md)]

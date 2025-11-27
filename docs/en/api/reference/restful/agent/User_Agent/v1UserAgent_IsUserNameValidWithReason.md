@@ -76,37 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/IsUserNameValidWithReason
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 535,
-  "Type": "AnonymousAssociate",
-  "PersonId": 117,
-  "UserName": "Wolff-Deckow"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_IsUserNameValidWithReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "Result": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_IsUserNameValidWithReason.md)]

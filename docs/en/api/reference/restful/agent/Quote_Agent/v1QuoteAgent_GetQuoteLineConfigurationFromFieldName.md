@@ -80,41 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldName": "Stoltenberg, Strosin and Greenholt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteLineConfigurationFromFieldName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineConfigurationId": 662,
-  "FieldName": "Mosciski-Upton",
-  "Label": "velit",
-  "Tooltip": "quas",
-  "Editable": true,
-  "InUse": false,
-  "Mandatory": false,
-  "Rank": 483,
-  "RestrictEdit": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteLineConfigurationFromFieldName.md)]

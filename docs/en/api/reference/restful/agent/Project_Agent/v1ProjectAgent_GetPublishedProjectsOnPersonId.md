@@ -89,52 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 675
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetPublishedProjectsOnPersonId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 320,
-    "Name": "Cremin, Heidenreich and Hansen",
-    "Description": "Upgradable intangible attitude",
-    "URL": "http://www.example.com/",
-    "Type": "iste",
-    "AssociateId": 657,
-    "AssociateFullName": "Prof. Griffin Shaylee Cummings",
-    "TypeId": 1000,
-    "Updated": "2022-04-03T02:30:47.6944454+02:00",
-    "StatusId": 642,
-    "Status": "dolor",
-    "TextId": 683,
-    "PublishTo": "2020-02-24T02:30:47.6944454+01:00",
-    "PublishFrom": "2019-02-02T02:30:47.6944454+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "683781",
-    "ActiveErpLinks": 792,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetPublishedProjectsOnPersonId.md)]

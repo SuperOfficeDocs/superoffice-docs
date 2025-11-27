@@ -62,35 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/RelationDefinition/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 236,
-  "Name": "Ankunding, Hauck and Cummings",
-  "Tooltip": "qui",
-  "PassiveText": "numquam",
-  "Deleted": false,
-  "Rank": 315,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 48
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md)]

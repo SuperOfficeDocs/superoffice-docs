@@ -53,21 +53,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTypesForPlugin.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "ab",
-  "2": "quibusdam"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTypesForPlugin.md)]

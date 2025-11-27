@@ -28,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=iste
+GET /api/v1/List/Business/MDOItems?query=et
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Business/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 93,
-    "Name": "Gulgowski, Monahan and Ondricka",
-    "ToolTip": "Eos at qui.",
-    "Deleted": false,
-    "Rank": 725,
-    "Type": "delectus",
-    "ChildItems": [
-      {
-        "Id": 427,
-        "Name": "Ward, Jaskolski and Toy",
-        "ToolTip": "Ex est doloribus.",
-        "Deleted": false,
-        "Rank": 188,
-        "Type": "provident",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "ut",
-        "ColorBlock": 212,
-        "ExtraInfo": "quos",
-        "StyleHint": "et",
-        "FullName": "Prof. Rico Isidro Raynor",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
-          }
-        }
-      }
-    ],
-    "IconHint": "dolor",
-    "ColorBlock": 87,
-    "ExtraInfo": "quidem",
-    "StyleHint": "temporibus",
-    "FullName": "Aliza Eichmann",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_GetMDOList.md)]

@@ -70,36 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetAllCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CurrencyId": 906,
-    "Name": "Hyatt, Bradtke and Blanda",
-    "Tooltip": "asperiores",
-    "Rank": 564,
-    "Rate": 27199.986,
-    "Units": 14212.689999999999,
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 375
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetAllCurrencyEntity.md)]

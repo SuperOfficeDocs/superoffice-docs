@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/QuoteApproveReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 10,
-  "Name": "Jewess LLC",
-  "Tooltip": "nostrum",
-  "Deleted": true,
-  "UdListDefinitionId": 15,
-  "Rank": 91
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_PostQuoteApproveReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 477,
-  "Name": "Christiansen LLC",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "UdListDefinitionId": 231,
-  "Rank": 524,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 65
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_PostQuoteApproveReason.md)]

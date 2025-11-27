@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 101,
-  "TemplateName": "Turcotte, Heaney and Skiles",
-  "UseContacts": false,
-  "OrderBy": "aut"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_ExportSelectionMembersWithOrderBy.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_ExportSelectionMembersWithOrderBy.md)]

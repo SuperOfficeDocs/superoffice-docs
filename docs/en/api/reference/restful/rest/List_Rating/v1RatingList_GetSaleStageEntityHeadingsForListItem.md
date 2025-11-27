@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Rating/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_GetSaleStageEntityHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 688,
-    "Name": "Emmerich-Considine",
-    "ToolTip": "Dolor qui debitis id.",
-    "Deleted": true,
-    "Rank": 264,
-    "Type": "id",
-    "ColorBlock": 277,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "1999-05-14T02:30:53.4130107+02:00",
-    "ChildItems": [
-      {
-        "Id": 169,
-        "Name": "Toy, Hodkiewicz and Crist",
-        "ToolTip": "Rerum minus ea et.",
-        "Deleted": false,
-        "Rank": 65,
-        "Type": "dolore",
-        "ColorBlock": 252,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2001-03-31T02:30:53.4130107+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Dr. Chanelle Oral Prohaska IV",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 464
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "ad",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Allen Baumbach",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 718
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_GetSaleStageEntityHeadingsForListItem.md)]

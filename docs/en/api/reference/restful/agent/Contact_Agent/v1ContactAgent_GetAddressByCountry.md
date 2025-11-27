@@ -78,76 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetAddressByCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 334,
-  "CountryId": 383
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetAddressByCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Wgs84Latitude": 8486.872,
-  "Wgs84Longitude": 25332.122,
-  "LocalizedAddress": [
-    [
-      {
-        "Name": "Osinski Group",
-        "Value": "beatae",
-        "Tooltip": "quas",
-        "Label": "aspernatur",
-        "ValueLength": 218,
-        "AddressType": "provident",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 329
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Pfeffer, Osinski and Altenwerth",
-        "Value": "sunt",
-        "Tooltip": "excepturi",
-        "Label": "quia",
-        "ValueLength": 295,
-        "AddressType": "tenetur",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 744
-          }
-        }
-      }
-    ]
-  ],
-  "Street": null,
-  "Postal": null,
-  "Formatted": "eos",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetAddressByCountry.md)]

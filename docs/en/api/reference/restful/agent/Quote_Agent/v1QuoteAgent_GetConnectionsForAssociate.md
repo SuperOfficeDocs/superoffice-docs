@@ -86,76 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetConnectionsForAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 936
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetConnectionsForAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteConnectionId": 919,
-    "ERPName": "Dibbert, Erdman and Crooks",
-    "DisplayName": "Goldner-Stiedemann",
-    "DisplayDescription": "Synchronised user-facing neural-net",
-    "Rank": 260,
-    "ConnectorName": "Huels LLC",
-    "ErpConnectionId": 70,
-    "ExtraData": "totam",
-    "IsAvailable": false,
-    "InitializeResponse": null,
-    "PriceLists": [
-      {
-        "PriceListId": 714,
-        "ERPPriceListKey": "labore",
-        "QuoteConnectionId": 621,
-        "Name": "Carter Inc and Sons",
-        "Description": "Polarised national analyzer",
-        "Currency": "atque",
-        "CurrencyName": "Dibbert LLC",
-        "ValidFrom": "2025-06-03T02:30:47.7256947+02:00",
-        "ValidTo": "1999-01-01T02:30:47.7256947+01:00",
-        "IsActive": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
-          }
-        }
-      }
-    ],
-    "AllAccess": false,
-    "Deleted": true,
-    "UserGroupAccessIds": [
-      820,
-      483
-    ],
-    "AssociateAccessIds": [
-      422,
-      440
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 712
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetConnectionsForAssociate.md)]

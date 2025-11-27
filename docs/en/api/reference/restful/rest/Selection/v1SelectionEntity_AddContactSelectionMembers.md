@@ -56,30 +56,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Selection/{selectionId}/Members/AddPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonId": 828,
-    "ContactId": 170
-  },
-  {
-    "PersonId": 828,
-    "ContactId": 170
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_AddContactSelectionMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_AddContactSelectionMembers.md)]

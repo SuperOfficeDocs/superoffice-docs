@@ -33,9 +33,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=minus
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=asperiores
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=quia
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=in
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=officia
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=voluptatum
 ```
 
 
@@ -62,18 +62,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Person/{personId}/Consent/{purpose}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_SetConsent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_SetConsent.md)]

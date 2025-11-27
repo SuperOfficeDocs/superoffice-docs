@@ -63,33 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionName}/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 652,
-  "Name": "Abshire-Waelchi",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "UdListDefinitionId": 75,
-  "Rank": 583,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetFromListName.md)]

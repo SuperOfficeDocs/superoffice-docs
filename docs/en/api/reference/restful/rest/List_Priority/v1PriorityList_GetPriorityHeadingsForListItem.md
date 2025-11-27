@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetPriorityHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 290,
-    "Name": "Wehner, McClure and Schinner",
-    "ToolTip": "Enim et sapiente.",
-    "Deleted": false,
-    "Rank": 657,
-    "Type": "vero",
-    "ColorBlock": 278,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2009-11-30T02:30:53.3505129+01:00",
-    "ChildItems": [
-      {
-        "Id": 69,
-        "Name": "Cole, Mohr and Lind",
-        "ToolTip": "Et voluptatem.",
-        "Deleted": false,
-        "Rank": 24,
-        "Type": "qui",
-        "ColorBlock": 742,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2004-08-02T02:30:53.3505129+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "qui",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Jovanny Trantow",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 727
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "qui",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Norbert Ritchie",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetPriorityHeadingsForListItem.md)]

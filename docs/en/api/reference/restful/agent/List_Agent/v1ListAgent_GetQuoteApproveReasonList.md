@@ -71,45 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetQuoteApproveReasonList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetQuoteApproveReasonList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 333,
-    "Value": "autem",
-    "Tooltip": "officia",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
-      }
-    }
-  },
-  {
-    "Id": 333,
-    "Value": "autem",
-    "Tooltip": "officia",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetQuoteApproveReasonList.md)]

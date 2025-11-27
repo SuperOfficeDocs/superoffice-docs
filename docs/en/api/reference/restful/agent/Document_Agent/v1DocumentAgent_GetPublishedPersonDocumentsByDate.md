@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 467,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2009-06-10T02:30:47.0694635+02:00",
-  "EndTime": "2015-04-13T02:30:47.0694635+02:00",
-  "Count": 624
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPublishedPersonDocumentsByDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 179,
-    "Attention": "enim",
-    "Header": "et",
-    "Name": "Hilll Inc and Sons",
-    "OurRef": "consequatur",
-    "YourRef": "reiciendis",
-    "Description": "Ameliorated holistic encryption",
-    "DocumentTemplate": "optio",
-    "IsPublished": false,
-    "PersonId": 631,
-    "PersonFullName": "Roel Medhurst",
-    "AssociateFullName": "Brayan Reynolds",
-    "ContactId": 415,
-    "ContactName": "Hoppe, Bode and McClure",
-    "ProjectId": 867,
-    "ProjectName": "Rice, Hermann and Leannon",
-    "AssociateId": 524,
-    "Snum": 10,
-    "SaleId": 692,
-    "SaleName": "Dietrich Inc and Sons",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 946
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPublishedPersonDocumentsByDate.md)]

@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 760,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "minus",
-  "PassiveText": "recusandae",
-  "Deleted": false,
-  "Rank": 16,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultRelationDefinitionEntity.md)]

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_GetPaymentTypeHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 492,
-    "Name": "Gerhold Inc and Sons",
-    "ToolTip": "Aperiam qui sit voluptatum dolore voluptates blanditiis.",
-    "Deleted": false,
-    "Rank": 754,
-    "Type": "at",
-    "ColorBlock": 20,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2013-01-13T02:30:53.3348881+01:00",
-    "ChildItems": [
-      {
-        "Id": 956,
-        "Name": "Rodriguez Group",
-        "ToolTip": "Laboriosam voluptatem velit inventore qui perspiciatis rerum.",
-        "Deleted": false,
-        "Rank": 135,
-        "Type": "ipsa",
-        "ColorBlock": 384,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2011-10-04T02:30:53.3348881+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "velit",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Sydnee Bergnaum",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 142
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quod",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Manley Mosciski IV",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 327
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_GetPaymentTypeHeadingsForListItem.md)]

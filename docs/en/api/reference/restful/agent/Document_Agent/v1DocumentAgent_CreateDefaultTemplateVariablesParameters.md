@@ -69,50 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_CreateDefaultTemplateVariablesParameters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceInput": "quo",
-  "Encoding": "Html",
-  "CultureName": "en",
-  "ContactId": 110,
-  "PersonId": 793,
-  "ProjectId": 502,
-  "SelectionId": 740,
-  "AppointmentId": 469,
-  "DocumentId": 268,
-  "SaleId": 335,
-  "QuoteLineId": 18,
-  "QuoteAlternativeId": 449,
-  "ProductKey": "sunt",
-  "CustomTags": [
-    [
-      {}
-    ],
-    [
-      {}
-    ]
-  ],
-  "TicketId": 11,
-  "DocumentEntity": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_CreateDefaultTemplateVariablesParameters.md)]

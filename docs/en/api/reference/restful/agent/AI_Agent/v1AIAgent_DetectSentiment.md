@@ -77,34 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/DetectSentiment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Text": "aut"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_DetectSentiment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Score": 88,
-  "Confidence": 360,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_DetectSentiment.md)]

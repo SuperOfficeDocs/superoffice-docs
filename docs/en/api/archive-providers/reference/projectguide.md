@@ -666,14 +666,15 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |appointmentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |appointmentInstance/sale/saleNumber| *None* |Number: Number|  |
-|appointmentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
+|appointmentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
+|appointmentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
 |appointmentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |appointmentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |appointmentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |appointmentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |appointmentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
-|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
+|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |appointmentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |appointmentInstance/sale/visibleFor| *None* |Visible for|  |
 |appointmentInstance/sale/sale/textId| *None* |Text ID|  |
@@ -751,11 +752,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |appointmentInstance/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/associate/otherGroups| *None* |Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/associate/otherGroups| *None* |Other groups: Other groups|  |
 |appointmentInstance/associate/userName| *None* |User name: User name|  |
 |appointmentInstance/associate/personEmail| *None* |E-mail|  |
 |appointmentInstance/associate/locationAddress| *None* |Location: Location|  |
@@ -855,11 +856,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/leadStatus| *None* |Lead status|  |
 |documentInstance/person/leadstatusRank| *None* |!!Lead status RANK|  |
 |documentInstance/person/personDeletedDate| *None* |Deleted date: Deleted date|  |
-|documentInstance/person/hasCompany| *None* |Has company: The contact is associated with a company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/hasCompany| *None* |Has company: The contact is associated with a company|  |
 |documentInstance/person/isProjectMember| *None* |Is project member: This person is a project member|  |
 |documentInstance/person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |documentInstance/person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
@@ -959,11 +960,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |documentInstance/person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |documentInstance/person/personAssociate/associateDbId| *None* |ID|  |
-|documentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |documentInstance/person/personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |documentInstance/person/personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |documentInstance/person/personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
@@ -1063,11 +1064,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/forceCompany| *None* |Dummy: Dummy|  |
 |documentInstance/contact/contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
 |documentInstance/contact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
-|documentInstance/contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
 |documentInstance/contact/contactFax/description| *None* |Fax - Description: Phone number description|  |
 |documentInstance/contact/searchPhone/formattedNumber| *None* |Searchphone - Phone: Displays phone number|  |
 |documentInstance/contact/searchPhone/description| *None* |Searchphone - Description: Phone number description|  |
@@ -1167,11 +1168,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
 |documentInstance/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
 |documentInstance/contact/contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
-|documentInstance/contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
 |documentInstance/contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
 |documentInstance/contact/contactExtra/x\_contact\_dropdown| *None* |Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
 |documentInstance/contact/contactExtra/x\_contact\_date| *None* |Extra date: Custom date field. User current as default.|  |
@@ -1271,11 +1272,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |documentInstance/project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |documentInstance/project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |documentInstance/project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |documentInstance/project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
@@ -1375,11 +1376,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/userGroup| *None* |User group : The user group that owns the record|  |
 |documentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |documentInstance/sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/sale/registeredBy| *None* |Registered by: The user who registered the data|  |
 |documentInstance/sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
@@ -1410,14 +1411,15 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |documentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |documentInstance/sale/saleNumber| *None* |Number: Number|  |
-|documentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
+|documentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
+|documentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
 |documentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |documentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |documentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |documentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
-|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
+|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |documentInstance/sale/visibleFor| *None* |Visible for|  |
 |documentInstance/sale/sale/textId| *None* |Text ID|  |
@@ -1473,7 +1475,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/postAddress/wgs84latitude,appointmentInstance/contact/streetAddress/wgs84latitude,appointmentInstance/contact/contactAssociate/fullName,appointmentInstance/contact/contactAssociate/isLocation,appointmentInstance/contact/saintSaleStatus
+GET /api/v1/archive/ProjectGuide?$select=stageId,appointmentInstance/contact/restrictionAddress/wgs84longitude,appointmentInstance/contact/contactAssociate/associateDbId,appointmentInstance/person/birthMonth,appointmentInstance/person/personPrivate/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | saleEntityId | int32 | **Required** The identity of the SaleEntity |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?saleEntityId=245
+POST /api/v1/Agents/Sale/DeleteSaleEntity?saleEntityId=672
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/DeleteSaleEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_DeleteSaleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_DeleteSaleEntity.md)]

@@ -92,53 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetContactList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetContactList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 579,
-    "Name": "Medhurst, Powlowski and Skiles",
-    "OrgNr": "663234",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "autem",
-    "DirectPhone": "(729)741-4355 x8872",
-    "AssociateId": 216,
-    "CountryId": 192,
-    "EmailAddress": "isaias@romagueralemke.name",
-    "Kananame": "et",
-    "EmailAddressName": "jamarcus.pfeffer@bernhardlabadie.co.uk",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Junior Friesen",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": null,
-    "FormattedAddress": "mollitia",
-    "FullName": "Logan Ritchie",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 903,
-    "Number1": "1030653",
-    "Number2": "1248622",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetContactList.md)]

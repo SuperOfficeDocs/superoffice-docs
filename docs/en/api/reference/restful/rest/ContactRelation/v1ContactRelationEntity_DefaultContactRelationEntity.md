@@ -72,46 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Relation/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_DefaultContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 30 Mar 2014 02:30:52 G3T
-
-{
-  "SourceContactId": 315,
-  "SourcePersonId": 473,
-  "DestinationContactId": 899,
-  "DestinationPersonId": 84,
-  "RelationId": 495,
-  "Comment": "sit",
-  "RelationDefinitionId": 124,
-  "Reversed": 317,
-  "UpdatedDate": "2014-03-30T02:30:52.506791+01:00",
-  "CreatedDate": "2000-06-29T02:30:52.506791+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Cormier, O'Kon and Mitchell",
-  "SourcePersonName": "Reynolds, Gaylord and Schultz",
-  "DestinationContactName": "Schmitt LLC",
-  "DestinationPersonName": "Herzog Inc and Sons",
-  "ActiveText": "voluptatum",
-  "PassiveText": "natus",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_DefaultContactRelationEntity.md)]

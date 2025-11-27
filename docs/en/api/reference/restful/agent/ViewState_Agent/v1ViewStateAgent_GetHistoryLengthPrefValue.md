@@ -60,18 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetHistoryLengthPrefValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-198
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetHistoryLengthPrefValue.md)]

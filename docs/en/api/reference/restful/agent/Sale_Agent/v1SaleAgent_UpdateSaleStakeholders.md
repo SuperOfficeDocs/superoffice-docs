@@ -88,75 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/UpdateSaleStakeholders
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Stakeholders": [
-    {
-      "StakeholderRoleName": "Ankunding LLC",
-      "Comment": "perferendis",
-      "StakeholderRoleId": 383,
-      "CountryId": 194,
-      "PersonId": 609,
-      "EmailDescription": "lina@streich.biz",
-      "EmailId": 678,
-      "EmailAddress": "genesis.rowe@kirlinhegmann.com",
-      "PhoneId": 581,
-      "ContactName": "Roob, Armstrong and Collins",
-      "ContactId": 76,
-      "SaleId": 366,
-      "Mrmrs": "provident",
-      "Firstname": "Demond",
-      "MiddleName": "Pfannerstill Inc and Sons",
-      "Lastname": "Kreiger",
-      "SaleStakeholderId": 812,
-      "Rank": 802,
-      "Phone": "1-968-805-1545"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_UpdateSaleStakeholders.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "StakeholderRoleName": "Bartoletti-Mayer",
-    "Comment": "doloribus",
-    "StakeholderRoleId": 993,
-    "CountryId": 902,
-    "PersonId": 501,
-    "EmailDescription": "jacinthe@fahey.uk",
-    "EmailId": 356,
-    "EmailAddress": "willa.heidenreich@rodriguez.co.uk",
-    "PhoneId": 995,
-    "ContactName": "Dibbert Inc and Sons",
-    "ContactId": 45,
-    "SaleId": 713,
-    "Mrmrs": "sit",
-    "Firstname": "Kiana",
-    "MiddleName": "Hegmann, Prohaska and Renner",
-    "Lastname": "McLaughlin",
-    "SaleStakeholderId": 982,
-    "Rank": 78,
-    "Phone": "(173)828-1357",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 754
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_UpdateSaleStakeholders.md)]

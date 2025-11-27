@@ -77,73 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetCredentialUsersInGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "in",
-  "GroupName": "Hoeger-Fay"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetCredentialUsersInGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Headings": [
-    "quia",
-    "voluptates"
-  ],
-  "Users": [
-    {
-      "Value": "optio",
-      "DisplayValue": "nostrum",
-      "Columns": [
-        "vitae",
-        "et"
-      ],
-      "CanCreatePerson": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 276
-        }
-      }
-    },
-    {
-      "Value": "optio",
-      "DisplayValue": "nostrum",
-      "Columns": [
-        "vitae",
-        "et"
-      ],
-      "CanCreatePerson": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 276
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetCredentialUsersInGroup.md)]

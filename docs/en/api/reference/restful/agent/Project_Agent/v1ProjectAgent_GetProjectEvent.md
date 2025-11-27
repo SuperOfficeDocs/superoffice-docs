@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=23
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=1002
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -87,49 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEvent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEvent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateFullName": "Elroy Ada King DVM",
-  "Description": "Profound cohesive software",
-  "ProjectId": 434,
-  "EventName": "Stehr, Ritchie and Blanda",
-  "AssociateId": 608,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "dolores",
-  "SignOffText": "cumque",
-  "SignOnConfirmationText": "eius",
-  "SignOnText": "omnis",
-  "EventDate": "2000-10-08T02:30:47.6788214+02:00",
-  "Enabled": false,
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOnTaskEnable": true,
-  "SignOn": true,
-  "SignOffTaskId": 1000,
-  "SignOnTaskId": 833,
-  "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 19,
-  "SignOffPersonId": 427,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEvent.md)]

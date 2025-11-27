@@ -78,51 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DocumentMigration/GetForSelection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentPluginId": 727,
-  "SelectionId": 908,
-  "IncludeEmails": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentMigrationAgent_GetForSelection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "NumDocumentsOmitted": 657,
-  "NumDocumentsAlreadyMigrated": 359,
-  "Documents": [
-    {
-      "DocumentId": 837,
-      "ContactId": 388,
-      "PersonId": 584,
-      "SaleId": 538,
-      "ProjectId": 589,
-      "DocTmplId": 482,
-      "AssociateId": 764,
-      "UserGroupId": 589,
-      "VisibleForId": 871
-    }
-  ],
-  "Associates": [
-    {
-      "AssociateId": 44,
-      "EmailAddress": "glenna.jacobson@ondricka.ca"
-    },
-    {
-      "AssociateId": 44,
-      "EmailAddress": "glenna.jacobson@ondricka.ca"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentMigrationAgent_GetForSelection.md)]

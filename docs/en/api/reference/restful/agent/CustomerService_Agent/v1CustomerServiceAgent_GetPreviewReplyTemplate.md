@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReplyTemplateId": 837
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetPreviewReplyTemplate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Franecki-Roob",
-  "Description": "Self-enabling system-worthy functionalities",
-  "OwnedByFullName": "Niko Hoppe",
-  "Updated": "2003-12-23T02:30:47.0538389+01:00",
-  "Body": "tempora",
-  "IsHtml": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetPreviewReplyTemplate.md)]

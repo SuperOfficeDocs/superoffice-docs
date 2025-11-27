@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/AddForeignKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignKey": null,
-  "ApplicationName": "McClure, Parker and Hills",
-  "DeviceName": "Hand, Monahan and Zieme",
-  "DeviceIdentifier": "officia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_AddForeignKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "quia",
-  "Value": "earum",
-  "RecordId": 810,
-  "CreatedDate": "2005-04-17T02:30:47.366331+02:00",
-  "UpdatedDate": "2024-08-26T02:30:47.366331+02:00",
-  "UpdatedBy": "debitis",
-  "CreatedBy": "aliquam",
-  "TableName": "Braun, Upton and Parker",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 590
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_AddForeignKey.md)]

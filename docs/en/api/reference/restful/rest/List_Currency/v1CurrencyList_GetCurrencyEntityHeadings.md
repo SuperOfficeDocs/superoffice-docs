@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetCurrencyEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 183,
-    "Name": "Mann LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 229,
-    "UdListDefinitionId": 329,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 102
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetCurrencyEntityHeadings.md)]

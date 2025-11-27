@@ -85,40 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetModuleLicenseFromDB
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "O'Connell, Dickinson and Hintz",
-  "ModuleName": "Auer, Ernser and Wisoky"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetModuleLicenseFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "Waelchi Inc and Sons",
-  "ModuleName": "Hammes-Fay",
-  "ModuleDescription": "Object-based mobile migration",
-  "ModuleTooltip": "et",
-  "ModuleVersion": "nesciunt",
-  "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
-  "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 629,
-  "ExtraFlags": 586,
-  "ExtraInfo": "architecto",
-  "SortOrder": 917,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Schmeler, Collier and Strosin",
-  "Signature": "facere"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetModuleLicenseFromDB.md)]

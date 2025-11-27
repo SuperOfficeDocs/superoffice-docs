@@ -106,69 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment",
-  "UserGroupId": 210
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 405,
-    "ColumnId": 687,
-    "FieldDefault": "repellat",
-    "FieldHeight": 97,
-    "FieldLabel": "quis",
-    "FieldLeft": 591,
-    "FieldTop": 841,
-    "FieldType": "Checkbox",
-    "FieldWidth": 144,
-    "FormatMask": "dolor",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 498,
-    "LabelLeft": 352,
-    "LabelTop": 970,
-    "LabelWidth": 734,
-    "LastVersionId": 203,
-    "ListTableId": 133,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 988,
-    "ProgId": "autem",
-    "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 922,
-    "TextLength": 409,
-    "Tooltip": "error",
-    "UdefIdentity": 13,
-    "UDListDefinitionId": 468,
-    "Justification": "Center",
-    "Version": 852,
-    "TemplateVariableName": "Flatley, Waelchi and Walter",
-    "HasBeenPublished": true,
-    "MdoListName": "Feeney LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 146
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields.md)]

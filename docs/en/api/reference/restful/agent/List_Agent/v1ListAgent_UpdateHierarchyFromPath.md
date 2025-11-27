@@ -83,68 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/UpdateHierarchyFromPath
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "Dashboards",
-  "Path": "nam",
-  "Entity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_UpdateHierarchyFromPath.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 17,
-  "Domain": "Dashboards",
-  "Name": "Schmitt, Beer and Leuschke",
-  "Fullname": "at",
-  "ParentId": 340,
-  "Children": [
-    {
-      "HierarchyId": 214,
-      "Domain": "Dashboards",
-      "Name": "Schaden LLC",
-      "Fullname": "nostrum",
-      "ParentId": 701,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2022-08-20T02:30:47.4288293+02:00",
-      "RegisteredAssociateId": 40,
-      "Updated": "2006-11-08T02:30:47.4288293+01:00",
-      "UpdatedAssociateId": 59,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
-        }
-      }
-    }
-  ],
-  "Registered": "2016-04-16T02:30:47.4288293+02:00",
-  "RegisteredAssociateId": 43,
-  "Updated": "2023-07-29T02:30:47.4288293+02:00",
-  "UpdatedAssociateId": 689,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_UpdateHierarchyFromPath.md)]

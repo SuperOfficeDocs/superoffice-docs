@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetPriority.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 636,
-  "Name": "Brakus-Nicolas",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 660,
-  "Rank": 83,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetPriority.md)]

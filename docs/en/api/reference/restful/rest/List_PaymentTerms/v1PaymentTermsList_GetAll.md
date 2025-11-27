@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentTerm/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 907,
-    "Name": "Buckridge-Orn",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "UdListDefinitionId": 69,
-    "Rank": 133,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_GetAll.md)]

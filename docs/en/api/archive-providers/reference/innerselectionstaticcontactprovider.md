@@ -324,18 +324,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
-|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
@@ -534,11 +535,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
-|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
@@ -638,11 +639,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
-|personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
@@ -678,7 +679,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=postAddress/wgs84longitude,contactAssociate/ejStatus,sourceRelation/category,sale/date,sale/sale/description
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactExtra/y_organization/x_name,LastCompletedActivity,sourceRelation/contactSource,targetRelation/categoryGroup,appointment/associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

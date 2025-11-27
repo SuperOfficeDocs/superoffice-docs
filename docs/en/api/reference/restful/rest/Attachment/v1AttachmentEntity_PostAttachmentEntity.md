@@ -88,51 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Attachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 934,
-  "Name": "Fadel LLC",
-  "ContentType": "sunt",
-  "AttSize": 339,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "nesciunt",
-  "IsSafeFileExtension": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_PostAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 738,
-  "Name": "Dickens-Franecki",
-  "ContentType": "assumenda",
-  "AttSize": 779,
-  "InlineImage": true,
-  "ContentId": "est",
-  "AuthKey": "consequatur",
-  "IsSafeFileExtension": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_PostAttachmentEntity.md)]

@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_GetReasonStalledHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 171,
-    "Name": "Blanda Group",
-    "ToolTip": "Iste repellat accusantium cupiditate.",
-    "Deleted": true,
-    "Rank": 865,
-    "Type": "aut",
-    "ColorBlock": 259,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "1999-04-26T02:30:53.4286352+02:00",
-    "ChildItems": [
-      {
-        "Id": 601,
-        "Name": "Sporer, Breitenberg and Moore",
-        "ToolTip": "Ut officiis.",
-        "Deleted": false,
-        "Rank": 931,
-        "Type": "harum",
-        "ColorBlock": 145,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2013-11-09T02:30:53.4286352+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Cecil Watsica",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 91
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "labore",
-    "StyleHint": "inventore",
-    "Hidden": false,
-    "FullName": "Rudolph Murray",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_GetReasonStalledHeadingsForListItem.md)]

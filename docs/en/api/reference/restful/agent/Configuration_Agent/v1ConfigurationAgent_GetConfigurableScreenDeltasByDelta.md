@@ -84,50 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDelta": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConfigurableScreenDeltaId": 62,
-    "Name": "Heller Group",
-    "Description": "Virtual leading edge workforce",
-    "DeltaJson": "quibusdam",
-    "DeltaType": "CustomFields",
-    "DeltaState": "Draft",
-    "RecipeId": "sed",
-    "UpdatedDate": "2000-06-16T02:30:46.9132188+02:00",
-    "CreatedDate": "2023-12-05T02:30:46.9132188+01:00",
-    "UpdatedBy": null,
-    "CreatedBy": null,
-    "AppliesToIds": [
-      226,
-      336
-    ],
-    "AppliesToKey": "odit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 729
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta.md)]

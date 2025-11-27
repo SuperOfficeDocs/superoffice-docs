@@ -82,49 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 327,
-  "Name": "Zboncak, Simonis and Becker",
-  "CreatedDate": "2006-10-20T02:30:52.6474115+02:00",
-  "UpdatedDate": "2005-03-17T02:30:52.6474115+01:00",
-  "AssociateFullName": "Reggie Bradtke",
-  "CreatedBy": "repellendus",
-  "UpdatedBy": "quia",
-  "DeviceIdentifier": "earum",
-  "ForeignAppId": 843
-}
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_SaveDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 746,
-  "Name": "Simonis-Franecki",
-  "CreatedDate": "2020-12-14T02:30:52.6474115+01:00",
-  "UpdatedDate": "2005-03-06T02:30:52.6474115+01:00",
-  "AssociateFullName": "Wallace Brooke Bernier DDS",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "perspiciatis",
-  "DeviceIdentifier": "ducimus",
-  "ForeignAppId": 499,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 321
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_SaveDeviceByIdentifier.md)]

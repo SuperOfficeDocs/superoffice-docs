@@ -60,34 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_CreateDefaultMailboxEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailInFilterId": 540,
-  "ServerType": "Facebook",
-  "Address": "unde",
-  "Username": "reiciendis",
-  "Password": "qui",
-  "Server": "eum",
-  "Port": 803,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_CreateDefaultMailboxEntity.md)]

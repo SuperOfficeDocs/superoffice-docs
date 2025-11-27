@@ -101,61 +101,8 @@ DocumentEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DocumentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 532,
-  "ColumnId": 986,
-  "FieldDefault": "ratione",
-  "FieldHeight": 657,
-  "FieldLabel": "quia",
-  "FieldLeft": 458,
-  "FieldTop": 288,
-  "FieldType": "Checkbox",
-  "FieldWidth": 814,
-  "FormatMask": "dolor",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 280,
-  "LabelLeft": 571,
-  "LabelTop": 356,
-  "LabelWidth": 751,
-  "LastVersionId": 814,
-  "ListTableId": 864,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 605,
-  "ProgId": "minima",
-  "IsReadOnly": true,
-  "ShortLabel": "veniam",
-  "TabOrder": 515,
-  "TextLength": 459,
-  "Tooltip": "vel",
-  "UdefIdentity": 293,
-  "UDListDefinitionId": 45,
-  "Justification": "Center",
-  "Version": 640,
-  "TemplateVariableName": "Bergstrom LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Hayes-Ratke",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_ChangeFieldType.md)]

@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Appointment/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 399,
-  "ColumnId": 350,
-  "FieldDefault": "harum",
-  "FieldHeight": 193,
-  "FieldLabel": "eligendi",
-  "FieldLeft": 631,
-  "FieldTop": 236,
-  "FieldType": "Checkbox",
-  "FieldWidth": 979,
-  "FormatMask": "non",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 613,
-  "LabelLeft": 375,
-  "LabelTop": 65,
-  "LabelWidth": 208,
-  "LastVersionId": 382,
-  "ListTableId": 999,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 517,
-  "ProgId": "deserunt",
-  "IsReadOnly": false,
-  "ShortLabel": "ipsam",
-  "TabOrder": 100,
-  "TextLength": 685,
-  "Tooltip": "nemo",
-  "UdefIdentity": 339,
-  "UDListDefinitionId": 331,
-  "Justification": "Center",
-  "Version": 899,
-  "TemplateVariableName": "Morissette, Howell and Jewess",
-  "HasBeenPublished": true,
-  "MdoListName": "Schultz, Powlowski and Okuneva",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_AddUdefField.md)]

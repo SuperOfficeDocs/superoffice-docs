@@ -63,66 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultProjectTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjTypeId": 616,
-  "Name": "Keeling, Runolfsdottir and Ruecker",
-  "Tooltip": "harum",
-  "Rank": 588,
-  "DurationUnit": "Century",
-  "ProjectDuration": 543,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
-  "Stages": [
-    {
-      "Id": 210,
-      "Name": "Osinski Group",
-      "ToolTip": "Est voluptatum officia iure ut non.",
-      "Deleted": true,
-      "Rank": 316,
-      "Type": "tenetur",
-      "ColorBlock": 792,
-      "IconHint": "fugit",
-      "Selected": false,
-      "LastChanged": "2011-09-05T02:30:47.3975807+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "aut",
-      "StyleHint": "dolor",
-      "Hidden": true,
-      "FullName": "Zack Mueller",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 883
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultProjectTypeEntity.md)]

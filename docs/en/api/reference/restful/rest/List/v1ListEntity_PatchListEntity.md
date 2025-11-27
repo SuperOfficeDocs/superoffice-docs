@@ -115,55 +115,8 @@ ListEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/List/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "sit",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "sit",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_PatchListEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ListEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 852,
-  "Name": "Feil, Corwin and Goodwin",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 877,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_PatchListEntity.md)]

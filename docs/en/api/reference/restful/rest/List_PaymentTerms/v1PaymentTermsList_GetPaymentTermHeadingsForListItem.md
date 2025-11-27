@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_GetPaymentTermHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 110,
-    "Name": "Nikolaus, Klein and Bailey",
-    "ToolTip": "Corporis eum.",
-    "Deleted": true,
-    "Rank": 680,
-    "Type": "qui",
-    "ColorBlock": 965,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2007-08-21T02:30:53.3192639+02:00",
-    "ChildItems": [
-      {
-        "Id": 680,
-        "Name": "Jones, Langosh and Terry",
-        "ToolTip": "Sint deserunt vitae voluptas nemo.",
-        "Deleted": true,
-        "Rank": 930,
-        "Type": "illum",
-        "ColorBlock": 218,
-        "IconHint": "ad",
-        "Selected": false,
-        "LastChanged": "2008-06-04T02:30:53.3192639+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Mrs. Leone Bashirian",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Marjolaine Funk",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_GetPaymentTermHeadingsForListItem.md)]

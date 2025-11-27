@@ -18,7 +18,7 @@ Lists all email flow folders
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"emailflowfolder"|[emailflowfolder]|
+|"emailflowfolder"|emailflowfolder|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

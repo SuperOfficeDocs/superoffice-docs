@@ -78,59 +78,8 @@ ForeignAppEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ForeignAppEntity found.
-Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 26 Apr 2005 02:30:52 G4T
-
-{
-  "ForeignAppId": 253,
-  "Name": "McDermott-Metz",
-  "CreatedDate": "2025-07-21T02:30:52.6474115+02:00",
-  "UpdatedDate": "2005-04-26T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 761,
-      "Name": "Reichert Group",
-      "CreatedDate": "2015-01-27T02:30:52.6474115+01:00",
-      "UpdatedDate": "2024-10-19T02:30:52.6474115+02:00",
-      "AssociateFullName": "Van Homenick",
-      "CreatedBy": "ad",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "atque",
-      "ForeignAppId": 118,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetForeignAppEntity.md)]

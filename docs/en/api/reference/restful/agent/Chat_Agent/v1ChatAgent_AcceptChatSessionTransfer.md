@@ -103,63 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 742
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_AcceptChatSessionTransfer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 81,
-  "TopicId": 839,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "et",
-  "CustomerName": "Funk LLC",
-  "CustomerEmail": "annamarie@jacobson.uk",
-  "CustomerPhone": "721.519.4964",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Erdman, Russel and Hermann",
-  "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "dicta",
-  "WhenRequested": "2000-11-05T02:30:46.8663446+01:00",
-  "WhenStarted": "2006-08-29T02:30:46.8663446+02:00",
-  "WhenEnded": "2013-07-02T02:30:46.8663446+02:00",
-  "WhenIdle": "2015-08-02T02:30:46.8663446+02:00",
-  "WhenFetched": "1999-09-18T02:30:46.8663446+02:00",
-  "SessionKey": "repudiandae",
-  "InitialQueuePos": 553,
-  "AlertLevel": 271,
-  "Rank": 654,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 684,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_AcceptChatSessionTransfer.md)]

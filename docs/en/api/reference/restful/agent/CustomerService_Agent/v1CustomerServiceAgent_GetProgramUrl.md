@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetProgramUrl
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgramName": "Sporer Group",
-  "External": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetProgramUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetProgramUrl.md)]

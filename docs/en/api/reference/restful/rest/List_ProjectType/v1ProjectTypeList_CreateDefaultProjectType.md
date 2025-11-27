@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_CreateDefaultProjectType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 915,
-  "Name": "Herzog Group",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "UdListDefinitionId": 503,
-  "Rank": 649,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_CreateDefaultProjectType.md)]

@@ -82,51 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StartDate": "2001-04-01T02:30:46.6632264+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CreateDefaultRecurrenceByDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RecurrenceId": 370,
-  "StartDate": "2016-01-09T02:30:46.6632264+01:00",
-  "EndDate": "1999-04-20T02:30:46.6632264+02:00",
-  "RecurrenceCounter": 214,
-  "RecurrenceEndType": "Counter",
-  "Pattern": "Custom",
-  "DayPattern": null,
-  "WeekPattern": null,
-  "MonthPattern": null,
-  "YearPattern": null,
-  "Dates": [
-    {
-      "Date": "2015-07-26T02:30:46.6632264+02:00",
-      "IsConflict": true,
-      "Description": "Synergistic executive migration",
-      "DescriptionStyleHint": "Compatible homogeneous archive",
-      "Tooltip": "ut"
-    },
-    {
-      "Date": "2015-07-26T02:30:46.6632264+02:00",
-      "IsConflict": true,
-      "Description": "Synergistic executive migration",
-      "DescriptionStyleHint": "Compatible homogeneous archive",
-      "Tooltip": "ut"
-    }
-  ],
-  "IsRecurrence": true
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CreateDefaultRecurrenceByDate.md)]

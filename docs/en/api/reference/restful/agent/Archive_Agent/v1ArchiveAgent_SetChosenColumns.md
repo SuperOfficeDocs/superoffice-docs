@@ -66,28 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/SetChosenColumns
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "GuiName": "Parisian, Kris and Ferry",
-  "ProviderName": "Lueilwitz, Kertzmann and Green",
-  "ChosenColumns": [
-    "voluptatem",
-    "dignissimos"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_SetChosenColumns.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_SetChosenColumns.md)]

@@ -90,51 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEventList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEventList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AssociateFullName": "Mara Aufderhar",
-    "Description": "Stand-alone transitional frame",
-    "ProjectId": 9,
-    "EventName": "Stark-Frami",
-    "AssociateId": 190,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "aut",
-    "SignOffText": "perferendis",
-    "SignOnConfirmationText": "aliquid",
-    "SignOnText": "nesciunt",
-    "EventDate": "2015-11-25T02:30:47.6788214+01:00",
-    "Enabled": true,
-    "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 314,
-    "SignOnTaskId": 418,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 286,
-    "SignOffPersonId": 889,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 247
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEventList.md)]

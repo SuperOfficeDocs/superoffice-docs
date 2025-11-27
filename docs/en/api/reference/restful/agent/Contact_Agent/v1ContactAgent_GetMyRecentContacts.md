@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetMyRecentContacts
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceType": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetMyRecentContacts.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 466,
-    "Name": "Ortiz Inc and Sons",
-    "OrgNr": "909653",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "et",
-    "DirectPhone": "164.835.9425 x590",
-    "AssociateId": 337,
-    "CountryId": 473,
-    "EmailAddress": "donna@goldner.co.uk",
-    "Kananame": "in",
-    "EmailAddressName": "deion.wyman@prohaska.ca",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Nicolas Adrien McCullough",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": null,
-    "FormattedAddress": "voluptatibus",
-    "FullName": "Mr. Adaline Damon Roberts",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 444,
-    "Number1": "1122773",
-    "Number2": "775142",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 992
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetMyRecentContacts.md)]

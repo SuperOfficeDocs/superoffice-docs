@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityName": "Renner LLC"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDashTileSelectionFromEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-217
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDashTileSelectionFromEntity.md)]

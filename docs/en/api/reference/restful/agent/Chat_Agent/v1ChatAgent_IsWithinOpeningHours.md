@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/IsWithinOpeningHours
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 578
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_IsWithinOpeningHours.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_IsWithinOpeningHours.md)]

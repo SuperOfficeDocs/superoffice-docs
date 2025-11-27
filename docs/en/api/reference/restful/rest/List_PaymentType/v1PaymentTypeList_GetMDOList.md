@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=molestias
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=libero
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentType/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTypeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 18,
-    "Name": "Jacobson, Dietrich and Boyer",
-    "ToolTip": "Et fugiat.",
-    "Deleted": true,
-    "Rank": 461,
-    "Type": "eveniet",
-    "ChildItems": [
-      {
-        "Id": 675,
-        "Name": "Towne LLC",
-        "ToolTip": "Quisquam et.",
-        "Deleted": true,
-        "Rank": 210,
-        "Type": "eius",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "voluptas",
-        "ColorBlock": 682,
-        "ExtraInfo": "natus",
-        "StyleHint": "dolorem",
-        "FullName": "Greta Reichel",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 151
-          }
-        }
-      }
-    ],
-    "IconHint": "voluptates",
-    "ColorBlock": 67,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "debitis",
-    "FullName": "Ms. Gwen Rogahn PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTypeList_GetMDOList.md)]

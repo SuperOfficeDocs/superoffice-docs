@@ -165,80 +165,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindWithExtraRestrictions2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "ab",
-  "ProviderName": "Cormier-Effertz",
-  "StorageKey": "modi",
-  "ExtraRestrictions": "et",
-  "OrderBy": "nulla",
-  "DesiredColumns": "non",
-  "PageSize": 967,
-  "PageNumber": 500
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindWithExtraRestrictions2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Fadel LLC",
-      "DisplayTooltip": "repudiandae",
-      "DisplayType": "ut",
-      "CanOrderBy": false,
-      "Name": "Gaylord, Brown and Goodwin",
-      "CanRestrictBy": false,
-      "RestrictionType": "inventore",
-      "RestrictionListName": "Kuvalis Group",
-      "IsVisible": false,
-      "ExtraInfo": "repudiandae",
-      "Width": "consequatur",
-      "IconHint": "vel",
-      "HeadingIconHint": "odit"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Lesch, Murazik and Bernhard",
-      "PrimaryKey": 423,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "voluptatum",
-          "TooltipHint": "et",
-          "LinkHint": "tempore"
-        }
-      },
-      "LinkHint": "qui",
-      "StyleHint": "consequuntur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 990
-        }
-      }
-    }
-  ],
-  "RowCount": 542,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindWithExtraRestrictions2.md)]

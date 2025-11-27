@@ -59,52 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowWaitForActionId": 224,
-  "WorkflowStepId": 975,
-  "WorkflowId": 971,
-  "Rank": 886,
-  "ActionType": "FormSubmitted",
-  "RestrictionGroups": [
-    {
-      "Name": "D'Amore Group",
-      "Description": "Self-enabling static project",
-      "Rank": 509,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "D'Amore Group",
-      "Description": "Self-enabling static project",
-      "Rank": 509,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 412
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md)]

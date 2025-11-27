@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CopyEmailFlow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailFlowId": 657,
-  "NewName": "Casper Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CopyEmailFlow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-726
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CopyEmailFlow.md)]

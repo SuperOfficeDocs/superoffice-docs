@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# leadstatus Table (537)
+# leadstatus Table (540)
 
 List items of lead status that is selectable for contacts and persons that have specific category
 
@@ -38,6 +38,7 @@ List items of lead status that is selectable for contacts and persons that have 
 
 | Table|  Description |
 |------|-------------|
+|[AutomatedCategoryUpdate](automatedcategoryupdate.md)  |Info on how to autoupdate category when changing sale or leadstatus on person |
 |[person](person.md)  |Persons |
 
 

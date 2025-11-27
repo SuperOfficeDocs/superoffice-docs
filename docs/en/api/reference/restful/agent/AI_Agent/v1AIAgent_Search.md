@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/Search
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "NamespaceName": "Swift, Padberg and Wiegand",
-  "Query": "rerum",
-  "Type": "Document",
-  "Top": 563
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_Search.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Chunk": "dolore",
-    "Title": "ab",
-    "Id": "officia",
-    "Type": "Document",
-    "Score": 6521.8539999999994,
-    "Metadata": {
-      "fieldName": {}
-    }
-  },
-  {
-    "Chunk": "dolore",
-    "Title": "ab",
-    "Id": "officia",
-    "Type": "Document",
-    "Score": 6521.8539999999994,
-    "Metadata": {
-      "fieldName": {}
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_Search.md)]

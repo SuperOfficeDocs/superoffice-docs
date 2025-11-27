@@ -85,42 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocId": 883,
-  "AttachmentId": "molestiae"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Profound global hierarchy",
-  "Filename": "placeat",
-  "Size": 440,
-  "Type": "pariatur",
-  "Encoding": "eos",
-  "Id": "aliquam",
-  "Disposition": "nostrum",
-  "IsSafeFileExtension": true,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId.md)]

@@ -66,53 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/UpdateCategoryMemberships
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 504,
-  "MembershipsToAdd": [
-    {
-      "User": null,
-      "Weight": 237
-    },
-    {
-      "User": null,
-      "Weight": 237
-    }
-  ],
-  "MembershipsToUpdate": [
-    {
-      "User": null,
-      "Weight": 845
-    },
-    {
-      "User": null,
-      "Weight": 845
-    }
-  ],
-  "MembershipsToDelete": [
-    {
-      "User": null,
-      "Weight": 946
-    },
-    {
-      "User": null,
-      "Weight": 946
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_UpdateCategoryMemberships.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_UpdateCategoryMemberships.md)]

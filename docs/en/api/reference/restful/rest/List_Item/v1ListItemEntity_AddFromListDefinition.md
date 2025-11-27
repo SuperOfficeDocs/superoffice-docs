@@ -74,43 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/{udListDefinitionId}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 728,
-  "Name": "Haley, Kiehn and Veum",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "UdListDefinitionId": 458,
-  "Rank": 91
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_AddFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 225,
-  "Name": "Hills, Olson and Ortiz",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 989,
-  "Rank": 198,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_AddFromListDefinition.md)]

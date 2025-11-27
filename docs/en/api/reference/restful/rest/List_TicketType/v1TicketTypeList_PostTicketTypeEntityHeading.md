@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 651,
-  "Name": "Predovic, Kemmer and Rodriguez",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 53,
-  "UdListDefinitionId": 660
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_PostTicketTypeEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 10,
-  "Name": "Tromp LLC",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "Rank": 33,
-  "UdListDefinitionId": 635,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 359
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_PostTicketTypeEntityHeading.md)]

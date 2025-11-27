@@ -87,51 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 534,
-  "Name": "Steuber Inc and Sons",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "inventore",
-  "Registered": "2010-02-02T02:30:53.022399+01:00",
-  "RegisteredAssociateId": 277,
-  "Updated": "2011-03-09T02:30:53.022399+01:00",
-  "UpdatedAssociateId": 221
-}
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_SaveTriggerScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 599,
-  "Name": "Larkin, Collier and Robel",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ex",
-  "Source": "id",
-  "Registered": "2019-01-16T02:30:53.022399+01:00",
-  "RegisteredAssociateId": 476,
-  "Updated": "2007-03-07T02:30:53.022399+01:00",
-  "UpdatedAssociateId": 381,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_SaveTriggerScriptByUniqueId.md)]

@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/ExportSelectionMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 678,
-  "TemplateName": "Spinka Inc and Sons",
-  "UseContacts": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_ExportSelectionMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_ExportSelectionMembers.md)]

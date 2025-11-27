@@ -30,7 +30,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=136
+GET /api/v1/Contact/{contactId}/Summary?limit=54
 ```
 
 
@@ -69,97 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/{contactId}/Summary
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetContactSummary.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Contact": null,
-  "Tickets": [
-    {
-      "TicketId": 764,
-      "TicketStatus": 432,
-      "Title": "nesciunt",
-      "Registered": "2019-12-30T02:30:52.4911666+01:00",
-      "IconHint": "tenetur"
-    },
-    {
-      "TicketId": 764,
-      "TicketStatus": 432,
-      "Title": "nesciunt",
-      "Registered": "2019-12-30T02:30:52.4911666+01:00",
-      "IconHint": "tenetur"
-    }
-  ],
-  "Followups": [
-    {
-      "AppointmentId": 213,
-      "DocumentId": 825,
-      "Date": "2009-04-13T02:30:52.4911666+02:00",
-      "Description": "Distributed heuristic structure",
-      "Completed": "Completed",
-      "Registered": "2010-03-27T02:30:52.4911666+01:00"
-    },
-    {
-      "AppointmentId": 213,
-      "DocumentId": 825,
-      "Date": "2009-04-13T02:30:52.4911666+02:00",
-      "Description": "Distributed heuristic structure",
-      "Completed": "Completed",
-      "Registered": "2010-03-27T02:30:52.4911666+01:00"
-    }
-  ],
-  "Documents": [
-    {
-      "AppointmentId": 926,
-      "DocumentId": 722,
-      "Date": "2000-12-31T02:30:52.4911666+01:00",
-      "Description": "Focused leading edge complexity",
-      "Completed": "Completed",
-      "Registered": "2002-03-28T02:30:52.4911666+01:00"
-    },
-    {
-      "AppointmentId": 926,
-      "DocumentId": 722,
-      "Date": "2000-12-31T02:30:52.4911666+01:00",
-      "Description": "Focused leading edge complexity",
-      "Completed": "Completed",
-      "Registered": "2002-03-28T02:30:52.4911666+01:00"
-    }
-  ],
-  "Sales": [
-    {
-      "SaleId": 615,
-      "SaleDate": "2003-03-07T02:30:52.4911666+01:00",
-      "Probability": 976,
-      "Heading": "eius",
-      "Amount": 21894.124,
-      "Currency": "consequuntur",
-      "AmountInBaseCurrency": 21715.486,
-      "Status": "Lost",
-      "Completed": "Completed",
-      "Registered": "2005-12-06T02:30:52.4911666+01:00"
-    }
-  ],
-  "Chats": [
-    {
-      "ChatSessionId": 775,
-      "Name": "Hamill-Romaguera",
-      "CompanyName": "Labadie Group",
-      "FirstMessage": "exercitationem",
-      "LastMessage": "delectus",
-      "WhenRequested": "2004-12-10T02:30:52.4911666+01:00",
-      "WhenEnded": "2017-08-21T02:30:52.4911666+02:00"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetContactSummary.md)]

@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Task/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 579,
-  "Name": "Cole-Walker",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 748,
-  "UdListDefinitionId": 832
-}
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_PostTaskListItemHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 911,
-  "Name": "Veum, Blanda and Schmeler",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 300,
-  "UdListDefinitionId": 978,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 278
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_PostTaskListItemHeading.md)]

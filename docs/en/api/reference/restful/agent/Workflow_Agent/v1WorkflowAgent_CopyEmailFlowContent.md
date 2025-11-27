@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CopyEmailFlowContent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailFlowId": 616,
-  "ShipmentId": 614
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CopyEmailFlowContent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-551
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CopyEmailFlowContent.md)]

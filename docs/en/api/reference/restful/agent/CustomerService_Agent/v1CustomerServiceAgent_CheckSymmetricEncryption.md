@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "EncryptedString": "non"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_CheckSymmetricEncryption.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"nam"
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_CheckSymmetricEncryption.md)]

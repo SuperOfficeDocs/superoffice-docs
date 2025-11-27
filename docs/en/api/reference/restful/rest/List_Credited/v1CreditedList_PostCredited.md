@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Credited/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 833,
-  "Name": "Brekke, Huel and Kemmer",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 810,
-  "Rank": 872
-}
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_PostCredited.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 826,
-  "Name": "Lubowitz-Huel",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "UdListDefinitionId": 488,
-  "Rank": 577,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_PostCredited.md)]

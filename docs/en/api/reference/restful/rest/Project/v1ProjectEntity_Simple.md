@@ -76,45 +76,8 @@ ProjectEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/{id}/Simple
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_Simple.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 475,
-  "Name": "Orn, Gottlieb and Bauch",
-  "Description": "Object-based context-sensitive product",
-  "URL": "http://www.example.com/",
-  "Type": "doloribus",
-  "AssociateId": 125,
-  "AssociateFullName": "Maryse Walsh II",
-  "TypeId": 517,
-  "Updated": "2002-02-08T02:30:52.8192812+01:00",
-  "StatusId": 175,
-  "Status": "nostrum",
-  "TextId": 86,
-  "PublishTo": "2000-10-20T02:30:52.8192812+02:00",
-  "PublishFrom": "2018-04-13T02:30:52.8192812+02:00",
-  "IsPublished": true,
-  "URLName": "http://www.example.com/",
-  "ProjectNumber": "747618",
-  "ActiveErpLinks": 257,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_Simple.md)]

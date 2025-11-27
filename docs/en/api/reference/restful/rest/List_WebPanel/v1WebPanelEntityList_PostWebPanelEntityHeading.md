@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/WebPanel/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 320,
-  "Name": "Herzog Group",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 247,
-  "UdListDefinitionId": 378
-}
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_PostWebPanelEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 85,
-  "Name": "Grimes-Hoeger",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 858,
-  "UdListDefinitionId": 428,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 215
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_PostWebPanelEntityHeading.md)]

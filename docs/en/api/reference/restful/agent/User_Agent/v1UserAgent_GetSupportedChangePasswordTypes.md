@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetSupportedChangePasswordTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 197
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetSupportedChangePasswordTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "et",
-  "quasi"
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetSupportedChangePasswordTypes.md)]

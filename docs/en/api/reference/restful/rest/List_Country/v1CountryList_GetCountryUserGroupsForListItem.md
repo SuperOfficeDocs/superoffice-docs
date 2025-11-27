@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetCountryUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 850,
-    "Name": "Murray-Hoeger",
-    "ToolTip": "Consequatur et sapiente ab quidem earum.",
-    "Deleted": false,
-    "Rank": 506,
-    "Type": "ipsam",
-    "ColorBlock": 861,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2022-02-15T02:30:53.2411414+01:00",
-    "ChildItems": [
-      {
-        "Id": 139,
-        "Name": "Kunze Group",
-        "ToolTip": "Rem fugiat quas.",
-        "Deleted": true,
-        "Rank": 98,
-        "Type": "rerum",
-        "ColorBlock": 866,
-        "IconHint": "earum",
-        "Selected": false,
-        "LastChanged": "2001-02-17T02:30:53.2411414+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Melody Abdiel Windler PhD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 732
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Dawn Carter",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 853
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetCountryUserGroupsForListItem.md)]

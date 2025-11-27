@@ -69,38 +69,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/SendTicketMessage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketMessageEntityId": 603,
-  "To": [
-    "est",
-    "molestiae"
-  ],
-  "Cc": [
-    "perferendis",
-    "iusto"
-  ],
-  "Bcc": [
-    "cupiditate",
-    "ipsum"
-  ],
-  "Subject": "aliquid",
-  "ReplyTemplateId": 272,
-  "GdprSource": "omnis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_SendTicketMessage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_SendTicketMessage.md)]

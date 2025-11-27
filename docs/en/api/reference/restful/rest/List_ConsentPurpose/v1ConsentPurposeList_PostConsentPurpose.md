@@ -86,57 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ConsentPurpose/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurposeId": 661,
-  "Name": "Windler-Effertz",
-  "ConsentText": "libero",
-  "FormText": "quas",
-  "Key": "aut",
-  "Tooltip": "non",
-  "Active": 126,
-  "UpdatedDate": "2020-06-03T02:30:53.2255171+02:00",
-  "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 811,
-  "PrivacyStatementDesc": "rem",
-  "PrivacyStatementUrl": "http://www.example.com/"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_PostConsentPurpose.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurposeId": 500,
-  "Name": "Eichmann, Gulgowski and Hammes",
-  "ConsentText": "impedit",
-  "FormText": "voluptas",
-  "Key": "quia",
-  "Tooltip": "facere",
-  "Active": 782,
-  "UpdatedDate": "2019-10-25T02:30:53.2255171+02:00",
-  "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 16,
-  "PrivacyStatementDesc": "expedita",
-  "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_PostConsentPurpose.md)]

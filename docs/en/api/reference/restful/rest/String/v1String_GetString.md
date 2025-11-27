@@ -31,7 +31,7 @@ Gets the value of the string with a given name in a given language
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=True
+GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=False
 ```
 
 
@@ -62,18 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/String/{sr_id}/{isoLangCode}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1String_GetString.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"magni"
-```
+[!include[sample response](../../samples/rest/response/v1String_GetString.md)]

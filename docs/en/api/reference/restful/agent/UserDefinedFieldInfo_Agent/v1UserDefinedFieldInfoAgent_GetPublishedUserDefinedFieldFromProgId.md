@@ -107,67 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgId": "cupiditate",
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 626,
-  "ColumnId": 419,
-  "FieldDefault": "sunt",
-  "FieldHeight": 55,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 716,
-  "FieldTop": 886,
-  "FieldType": "Checkbox",
-  "FieldWidth": 197,
-  "FormatMask": "beatae",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 882,
-  "LabelLeft": 593,
-  "LabelTop": 319,
-  "LabelWidth": 363,
-  "LastVersionId": 521,
-  "ListTableId": 233,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 381,
-  "ProgId": "autem",
-  "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 588,
-  "TextLength": 703,
-  "Tooltip": "nihil",
-  "UdefIdentity": 525,
-  "UDListDefinitionId": 478,
-  "Justification": "Center",
-  "Version": 774,
-  "TemplateVariableName": "Jacobi, Jones and Watsica",
-  "HasBeenPublished": false,
-  "MdoListName": "Anderson Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId.md)]

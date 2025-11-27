@@ -76,68 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/CRMScript/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CRMScriptEntity_DefaultCRMScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 190,
-  "UniqueIdentifier": "quia",
-  "Name": "Cremin-Waelchi",
-  "Description": "Realigned zero administration pricing structure",
-  "IncludeId": "voluptatem",
-  "AccessKey": "quia",
-  "HierarchyId": 788,
-  "Source": "temporibus",
-  "SourceCode": "aut",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 410,
-  "Includes": [
-    708,
-    242
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 5,
-      "LineNumberTo": 685,
-      "Delta": 546,
-      "IncludeId": "est",
-      "IncludedFrom": [
-        "aut",
-        "ut"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2019-06-25T02:30:52.522416+02:00",
-  "RegisteredAssociateId": 586,
-  "Updated": "2019-02-23T02:30:52.522416+01:00",
-  "UpdatedAssociateId": 455,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CRMScriptEntity_DefaultCRMScriptEntity.md)]

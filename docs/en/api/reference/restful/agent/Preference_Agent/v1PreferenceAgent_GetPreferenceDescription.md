@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=968
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=260
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferenceDescription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 70,
-  "Section": "optio",
-  "Key": "quam",
-  "Name": "Kerluke-Durgan",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Quality-focused zero tolerance focus group",
-  "IsBuiltin": true,
-  "TableName": "Altenwerth Group",
-  "UserDefinedListId": 717,
-  "Rank": 499,
-  "SubGroup": "officia",
-  "MinLevel": 447,
-  "MaxValue": 504,
-  "MinValue": 785,
-  "RequiredLicense": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferenceDescription.md)]

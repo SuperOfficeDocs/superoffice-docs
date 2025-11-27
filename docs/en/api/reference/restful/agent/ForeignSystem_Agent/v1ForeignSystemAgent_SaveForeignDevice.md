@@ -81,42 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDevice": null,
-  "ApplicationName": "Schuster, Shields and Rempel"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_SaveForeignDevice.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 356,
-  "Name": "Lueilwitz-Crona",
-  "CreatedDate": "2001-06-27T02:30:47.366331+02:00",
-  "UpdatedDate": "2009-05-03T02:30:47.366331+02:00",
-  "AssociateFullName": "Mrs. Santiago Mozell Quigley DDS",
-  "CreatedBy": "a",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "esse",
-  "ForeignAppId": 338,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_SaveForeignDevice.md)]

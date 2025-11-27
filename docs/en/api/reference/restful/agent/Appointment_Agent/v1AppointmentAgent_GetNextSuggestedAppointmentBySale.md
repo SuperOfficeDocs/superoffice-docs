@@ -87,48 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 469,
-  "CurrentAppointmentId": 499,
-  "SkipCompleteCheck": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetNextSuggestedAppointmentBySale.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AutoSuggest": 791,
-  "Deleted": 896,
-  "DaysFuture": 306,
-  "Tooltip": "est",
-  "Text": "ut",
-  "TaskId": 242,
-  "SuggestedAppointmentId": 267,
-  "SaleTypeStageLinkId": 172,
-  "RegisteredAssociateId": 967,
-  "Rank": 450,
-  "ProjectTypeStatusLinkId": 835,
-  "Name": "Feest-Torphy",
-  "Duration": 554,
-  "Associate": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetNextSuggestedAppointmentBySale.md)]

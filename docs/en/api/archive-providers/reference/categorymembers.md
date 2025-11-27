@@ -18,8 +18,8 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"existingCategoryMember"|[existingCategoryMember]|
-|"newCategoryMember"|[newCategoryMember]|
+|"existingCategoryMember"|existingCategoryMember|
+|"newCategoryMember"|newCategoryMember|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

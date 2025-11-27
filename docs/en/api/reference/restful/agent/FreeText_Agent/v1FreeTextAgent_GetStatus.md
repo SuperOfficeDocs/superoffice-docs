@@ -70,34 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/FreeText/GetStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1FreeTextAgent_GetStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FreeTextEnabled": false,
-  "SingleWordOperator": "Contains",
-  "MultiWordOperator": "Contains",
-  "CountWords": 107,
-  "Occurrences": 432,
-  "LastGenerated": "2014-04-30T02:30:47.366331+02:00",
-  "AutoEnableTravelAreas": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FreeTextAgent_GetStatus.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Position/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 448,
-    "Name": "Quigley LLC",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 975,
-    "UdListDefinitionId": 293
-  },
-  {
-    "HeadingId": 448,
-    "Name": "Quigley LLC",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 975,
-    "UdListDefinitionId": 293
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_PutPositionHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 810,
-    "Name": "Leannon Group",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 864,
-    "UdListDefinitionId": 389,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_PutPositionHeadings.md)]

@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProductType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 522,
-  "Name": "Padberg, Rau and Dickinson",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 595,
-  "UdListDefinitionId": 481
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_PostProductTypeHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 886,
-  "Name": "Batz-Johns",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 692,
-  "UdListDefinitionId": 645,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_PostProductTypeHeading.md)]

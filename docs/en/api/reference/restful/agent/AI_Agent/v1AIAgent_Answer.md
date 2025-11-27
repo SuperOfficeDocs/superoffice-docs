@@ -78,51 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/Answer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "NamespaceName": "Bode Group",
-  "Query": "quae",
-  "Type": "Document",
-  "Top": 859
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_Answer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Answer": "at",
-  "Source": [
-    {
-      "Chunk": "autem",
-      "Title": "dicta",
-      "Id": "exercitationem",
-      "Type": "Document",
-      "Score": 12962.224,
-      "Metadata": {
-        "fieldName": {}
-      }
-    },
-    {
-      "Chunk": "autem",
-      "Title": "dicta",
-      "Id": "exercitationem",
-      "Type": "Document",
-      "Score": 12962.224,
-      "Metadata": {
-        "fieldName": {}
-      }
-    }
-  ],
-  "TrackingId": "aliquid"
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_Answer.md)]

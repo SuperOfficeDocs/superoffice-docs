@@ -84,44 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetConfigurationFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectorId": 634
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetConfigurationFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldKey": "saepe",
-    "Rank": 294,
-    "DisplayName": "Carter-Goldner",
-    "DisplayDescription": "Implemented regional paradigm",
-    "FieldType": "Checkbox",
-    "ListName": "Flatley-Metz",
-    "DefaultValue": "nam",
-    "MaxLength": 1001,
-    "Access": "Mandatory",
-    "ShowInSearch": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetConfigurationFields.md)]

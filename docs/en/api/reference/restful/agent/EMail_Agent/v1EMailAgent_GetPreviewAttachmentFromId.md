@@ -87,44 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailItemId": 708,
-  "AttachmentId": "occaecati",
-  "AttachmentType": "cupiditate",
-  "AttachmentFilename": "sunt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetPreviewAttachmentFromId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Organic 5th generation analyzer",
-  "Filename": "ipsum",
-  "Size": 646,
-  "Type": "nemo",
-  "Encoding": "dolores",
-  "Id": "ipsum",
-  "Disposition": "consequatur",
-  "IsSafeFileExtension": true,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 631
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetPreviewAttachmentFromId.md)]

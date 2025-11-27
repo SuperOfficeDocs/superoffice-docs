@@ -113,75 +113,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetColleaguesByDepartment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DepartmentId": 933
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetColleaguesByDepartment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "quia",
-    "PersonId": 350,
-    "Mrmrs": "enim",
-    "Firstname": "Angus",
-    "Lastname": "Spencer",
-    "MiddleName": "Baumbach Inc and Sons",
-    "Title": "unde",
-    "Description": "Advanced full-range analyzer",
-    "Email": "jan_towne@konopelski.com",
-    "FullName": "Aisha Schaefer",
-    "DirectPhone": "749.807.3315 x959",
-    "FormalName": "Nitzsche, Zulauf and Mann",
-    "CountryId": 742,
-    "ContactId": 39,
-    "ContactName": "Lueilwitz, Abbott and Hoppe",
-    "Retired": 261,
-    "Rank": 639,
-    "ActiveInterests": 860,
-    "ContactDepartment": "",
-    "ContactCountryId": 198,
-    "ContactOrgNr": "723652",
-    "FaxPhone": "400.383.7722 x71791",
-    "MobilePhone": "(895)282-2792 x60339",
-    "ContactPhone": "812-352-6281 x272",
-    "AssociateName": "Kreiger-Turcotte",
-    "AssociateId": 40,
-    "UsePersonAddress": false,
-    "ContactFax": "quisquam",
-    "Kanafname": "sequi",
-    "Kanalname": "et",
-    "Post1": "consequatur",
-    "Post2": "est",
-    "Post3": "minima",
-    "EmailName": "freddy@bergnaum.uk",
-    "ContactFullName": "Lilla Ulises Cole II",
-    "ActiveErpLinks": 309,
-    "TicketPriorityId": 956,
-    "SupportLanguageId": 329,
-    "SupportAssociateId": 14,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "1354532",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetColleaguesByDepartment.md)]

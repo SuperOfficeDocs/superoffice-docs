@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=818
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=392
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -84,46 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleStakeholder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Gerhold Group",
-  "Comment": "est",
-  "StakeholderRoleId": 512,
-  "CountryId": 128,
-  "PersonId": 967,
-  "EmailDescription": "dayton_cronin@walter.uk",
-  "EmailId": 904,
-  "EmailAddress": "max@mcdermott.uk",
-  "PhoneId": 539,
-  "ContactName": "Kuphal-Mertz",
-  "ContactId": 181,
-  "SaleId": 942,
-  "Mrmrs": "et",
-  "Firstname": "Tom",
-  "MiddleName": "Aufderhar, Russel and Kilback",
-  "Lastname": "Strosin",
-  "SaleStakeholderId": 262,
-  "Rank": 355,
-  "Phone": "(330)662-5161 x46816",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleStakeholder.md)]

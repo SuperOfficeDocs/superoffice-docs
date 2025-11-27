@@ -52,18 +52,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Attachment/{attachmentId}/Content
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_UploadAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_UploadAttachment.md)]

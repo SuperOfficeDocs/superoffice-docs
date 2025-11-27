@@ -70,23 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 131
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEmailDocumentAsMimeStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-99.99
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEmailDocumentAsMimeStream.md)]

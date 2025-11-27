@@ -29,8 +29,8 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=et
-POST /api/v1/String?ignoreOverrides=False
+POST /api/v1/String?isoLangCode=eos
+POST /api/v1/String?ignoreOverrides=True
 ```
 
 
@@ -66,21 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/String
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1String_GetStrings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "An object of some kind",
-  "2": "An object of some kind"
-}
-```
+[!include[sample response](../../samples/rest/response/v1String_GetStrings.md)]

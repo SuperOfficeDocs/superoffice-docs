@@ -79,65 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Mapping": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_SaveActorTypeMapping.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 892,
-  "IsActive": false,
-  "FieldMappings": [
-    {
-      "ErpFieldId": 684,
-      "CrmFieldKey": "iusto",
-      "CrmDisplayName": "Rosenbaum, Nader and Becker",
-      "CrmDisplayTooltip": "tempora",
-      "ErpFieldKey": "sit",
-      "FieldType": "Checkbox",
-      "ErpDisplayName": "Windler-Schimmel",
-      "ErpDisplayTooltip": "et",
-      "SyncToCrm": true,
-      "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
-      "MissingInCRM": true,
-      "Access": "Mandatory",
-      "ListReference": "adipisci",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
-        }
-      }
-    }
-  ],
-  "ActorTypeErp": "Customer",
-  "ActorTypeCrm": "Contact",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_SaveActorTypeMapping.md)]

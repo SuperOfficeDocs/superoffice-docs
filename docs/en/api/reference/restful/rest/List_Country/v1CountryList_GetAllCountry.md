@@ -28,7 +28,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetAllCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CountryId": 442,
-    "Name": "Bogan-Anderson",
-    "CurrencyId": 535,
-    "EnglishName": "Conroy Group",
-    "TwoLetterISOCountry": "Sokovia",
-    "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Inverse full-range budgetary management",
-    "OrgNrText": "1359944",
-    "InterAreaPrefix": "qui",
-    "DialInPrefix": "quidem",
-    "ZipPrefix": "illo",
-    "DomainName": "Lynch, Hansen and Zboncak",
-    "AddressLayoutId": 951,
-    "DomesticAddressLayoutId": 770,
-    "ForeignAddressLayoutId": 123,
-    "Rank": 38,
-    "Tooltip": "autem",
-    "Deleted": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 392
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetAllCountry.md)]

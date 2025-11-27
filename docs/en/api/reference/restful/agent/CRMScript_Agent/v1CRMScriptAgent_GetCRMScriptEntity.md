@@ -32,7 +32,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=222
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=27
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -87,68 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_GetCRMScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 902,
-  "UniqueIdentifier": "minus",
-  "Name": "Wisoky LLC",
-  "Description": "Distributed local challenge",
-  "IncludeId": "est",
-  "AccessKey": "aliquam",
-  "HierarchyId": 103,
-  "Source": "pariatur",
-  "SourceCode": "hic",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 506,
-  "Includes": [
-    642,
-    98
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 745,
-      "LineNumberTo": 269,
-      "Delta": 386,
-      "IncludeId": "reprehenderit",
-      "IncludedFrom": [
-        "nulla",
-        "facilis"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 157
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2008-01-15T02:30:47.0382145+01:00",
-  "RegisteredAssociateId": 490,
-  "Updated": "2014-10-05T02:30:47.0382145+02:00",
-  "UpdatedAssociateId": 742,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 565
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_GetCRMScriptEntity.md)]

@@ -67,47 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/User/currentAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1User_GetCurrentAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 424,
-  "Name": "Gibson Inc and Sons",
-  "PersonId": 960,
-  "Rank": 38,
-  "Tooltip": "quos",
-  "Type": "AnonymousAssociate",
-  "GroupIdx": 660,
-  "FullName": "Jairo Collier",
-  "FormalName": "Graham Inc and Sons",
-  "Deleted": true,
-  "EjUserId": 88,
-  "UserName": "Hintz, Macejkovic and Batz",
-  "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "quaerat"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "quo"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1User_GetCurrentAssociate.md)]

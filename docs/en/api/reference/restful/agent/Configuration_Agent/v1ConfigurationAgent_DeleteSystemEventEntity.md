@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | systemEventEntityId | int32 | **Required** The identity of the SystemEventEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=689
+POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=993
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_DeleteSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_DeleteSystemEventEntity.md)]

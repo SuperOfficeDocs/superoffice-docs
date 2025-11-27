@@ -97,62 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 329,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2001-08-20T02:30:47.0850878+02:00",
-  "EndTime": "2013-12-09T02:30:47.0850878+01:00",
-  "Count": 844,
-  "DocumentTemplateIds": [
-    960,
-    752
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPersonDocumentsByTemplateTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 983,
-    "Attention": "sint",
-    "Header": "quas",
-    "Name": "Marvin-Franecki",
-    "OurRef": "quia",
-    "YourRef": "laboriosam",
-    "Description": "Mandatory intangible conglomeration",
-    "DocumentTemplate": "sed",
-    "IsPublished": false,
-    "PersonId": 74,
-    "PersonFullName": "Hermina Gerhold",
-    "AssociateFullName": "Marlee Schultz",
-    "ContactId": 516,
-    "ContactName": "Lind-Blick",
-    "ProjectId": 233,
-    "ProjectName": "Reynolds-Brekke",
-    "AssociateId": 372,
-    "Snum": 760,
-    "SaleId": 700,
-    "SaleName": "Gerlach LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPersonDocumentsByTemplateTypes.md)]

@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_GetProjectStatusHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 890,
-    "Name": "Luettgen-Beahan",
-    "ToolTip": "Eaque ipsum et eveniet et quod aut voluptas.",
-    "Deleted": false,
-    "Rank": 402,
-    "Type": "dolores",
-    "ColorBlock": 95,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2001-07-27T02:30:53.3817624+02:00",
-    "ChildItems": [
-      {
-        "Id": 339,
-        "Name": "Abbott-Bergstrom",
-        "ToolTip": "Porro magnam minima et provident.",
-        "Deleted": true,
-        "Rank": 773,
-        "Type": "molestias",
-        "ColorBlock": 98,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2021-12-04T02:30:53.3817624+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Magdalen Thiel",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 220
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Mr. Tyrese Maya Harber",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_GetProjectStatusHeadingsForListItem.md)]

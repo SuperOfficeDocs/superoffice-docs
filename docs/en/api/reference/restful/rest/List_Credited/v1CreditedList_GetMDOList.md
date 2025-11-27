@@ -28,7 +28,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=est
+GET /api/v1/List/Credited/MDOItems?query=placeat
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Credited/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 47,
-    "Name": "Wiza, Schultz and Goodwin",
-    "ToolTip": "Saepe reprehenderit sint voluptatum voluptatem.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "animi",
-    "ChildItems": [
-      {
-        "Id": 103,
-        "Name": "Oberbrunner-Goyette",
-        "ToolTip": "Magnam numquam.",
-        "Deleted": false,
-        "Rank": 431,
-        "Type": "culpa",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "aliquam",
-        "ColorBlock": 466,
-        "ExtraInfo": "qui",
-        "StyleHint": "non",
-        "FullName": "Emma Coy Runte Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 289
-          }
-        }
-      }
-    ],
-    "IconHint": "accusantium",
-    "ColorBlock": 21,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "commodi",
-    "FullName": "Ms. Steve Wilderman",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_GetMDOList.md)]

@@ -76,53 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/CreateRestrictionGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "eaque",
-  "ProviderName": "Zulauf, Hagenes and Collins",
-  "StorageKey": "nostrum",
-  "Context": "ab"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_CreateRestrictionGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Stokes-Fay",
-  "Description": "Virtual even-keeled complexity",
-  "Rank": 811,
-  "Restrictions": [
-    {
-      "Name": "Schuster LLC",
-      "Operator": "dolorem",
-      "Values": [
-        "unde",
-        "sit"
-      ],
-      "DisplayValues": [
-        "ut",
-        "omnis"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 327,
-      "InterOperator": "And",
-      "UniqueHash": 80
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_CreateRestrictionGroup.md)]

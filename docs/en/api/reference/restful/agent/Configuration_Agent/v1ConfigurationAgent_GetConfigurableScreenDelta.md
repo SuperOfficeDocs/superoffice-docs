@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=524
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=861
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,43 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetConfigurableScreenDelta.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDeltaId": 59,
-  "Name": "Christiansen Group",
-  "Description": "Vision-oriented high-level capability",
-  "DeltaJson": "ut",
-  "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "praesentium",
-  "UpdatedDate": "2008-10-02T02:30:46.9132188+02:00",
-  "CreatedDate": "2009-10-08T02:30:46.9132188+02:00",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "AppliesToIds": [
-    589,
-    662
-  ],
-  "AppliesToKey": "dignissimos",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetConfigurableScreenDelta.md)]

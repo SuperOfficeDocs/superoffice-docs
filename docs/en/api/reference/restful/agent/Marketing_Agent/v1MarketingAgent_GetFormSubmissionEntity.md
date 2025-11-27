@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=266
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=698
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -75,37 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_GetFormSubmissionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormSubmissionId": 851,
-  "FormId": 795,
-  "WhenSubmitted": "2021-04-23T02:30:47.4600781+02:00",
-  "ContactId": 207,
-  "PersonId": 84,
-  "EmailAddress": "frieda_wyman@ziemannhackett.co.uk",
-  "ResponseShipmentAddrId": 126,
-  "Response": "saepe",
-  "Status": "EmailVerification",
-  "ProcessingLog": "maxime",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 550
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_GetFormSubmissionEntity.md)]

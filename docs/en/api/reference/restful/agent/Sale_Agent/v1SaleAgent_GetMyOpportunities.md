@@ -96,59 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetMyOpportunities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Count": 876
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetMyOpportunities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Jast Inc and Sons",
-    "SaleDate": "2016-10-24T02:30:47.7881925+02:00",
-    "SaleId": 388,
-    "Probability": 460,
-    "Title": "et",
-    "Amount": 26620.196,
-    "Currency": "sapiente",
-    "ProjectName": "Kessler Group",
-    "AssociateFullName": "Collin Bechtelar",
-    "Description": "Customizable 24/7 superstructure",
-    "Status": "Lost",
-    "WeightedAmount": 10320.261999999999,
-    "ProjectId": 568,
-    "EarningPercent": 13563.952,
-    "Earning": 4221.498,
-    "ContactId": 628,
-    "AssociateId": 393,
-    "PersonId": 424,
-    "SaleTypeId": 145,
-    "SaleTypeName": "Pollich, Keeling and Wiza",
-    "PersonFullName": "Johnny Koch",
-    "Completed": "Completed",
-    "ActiveErpLinks": 61,
-    "NextDueDate": "1999-12-06T02:30:47.7881925+01:00",
-    "Number": "754502",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetMyOpportunities.md)]

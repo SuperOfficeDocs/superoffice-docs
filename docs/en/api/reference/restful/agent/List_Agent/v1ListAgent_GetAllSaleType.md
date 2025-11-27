@@ -66,45 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllSaleType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllSaleType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 58,
-    "Value": "quas",
-    "Tooltip": "est",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
-      }
-    }
-  },
-  {
-    "Id": 58,
-    "Value": "quas",
-    "Tooltip": "est",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllSaleType.md)]

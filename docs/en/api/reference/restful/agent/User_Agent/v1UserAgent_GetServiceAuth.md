@@ -32,7 +32,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=241
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=366
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -74,33 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetServiceAuth
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetServiceAuth.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServiceAuthId": 437,
-  "Server": "et",
-  "Port": 816,
-  "AuthType": "ut",
-  "Username": "dolores",
-  "Password": "qui",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 534
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetServiceAuth.md)]

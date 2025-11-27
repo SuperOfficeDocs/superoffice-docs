@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Hand-Lesch",
-  "HeadingId": 822
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListItemsForHeadingFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 268,
-    "Name": "Fadel-Schuster",
-    "ToolTip": "Qui tempore nam possimus quisquam.",
-    "Deleted": true,
-    "Rank": 719,
-    "Type": "libero",
-    "ColorBlock": 255,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2007-09-06T02:30:47.4132046+02:00",
-    "ChildItems": [
-      {
-        "Id": 194,
-        "Name": "O'Conner, Thompson and Bauch",
-        "ToolTip": "Voluptatem sed perferendis.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "sint",
-        "ColorBlock": 909,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2025-08-25T02:30:47.4132046+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Miss Lee Rosemarie Auer",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 928
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "ut",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Alexandro Franecki",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 327
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListItemsForHeadingFromListName.md)]

@@ -95,57 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetContactDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 213,
-  "StartTime": "2016-03-14T02:30:47.0694635+01:00",
-  "EndTime": "2023-03-26T02:30:47.0694635+01:00",
-  "Count": 201
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetContactDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 683,
-    "Attention": "eaque",
-    "Header": "ullam",
-    "Name": "Beatty-Hauck",
-    "OurRef": "neque",
-    "YourRef": "sint",
-    "Description": "Multi-channelled 24/7 projection",
-    "DocumentTemplate": "dolorem",
-    "IsPublished": false,
-    "PersonId": 838,
-    "PersonFullName": "Kathlyn Champlin",
-    "AssociateFullName": "Prof. Josefina Rodriguez",
-    "ContactId": 74,
-    "ContactName": "Gerhold, Renner and Crona",
-    "ProjectId": 721,
-    "ProjectName": "Kassulke, Wuckert and Roob",
-    "AssociateId": 422,
-    "Snum": 362,
-    "SaleId": 548,
-    "SaleName": "Lind-Hane",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 604
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetContactDocuments.md)]

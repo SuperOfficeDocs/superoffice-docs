@@ -126,66 +126,8 @@ ShipmentMessageEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/ShipmentMessage/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "aut",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "aut",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageEntity_PatchShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ShipmentMessageEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 672,
-  "PlainMessage": "architecto",
-  "HtmlMessage": "maiores",
-  "SmsMessage": "sit",
-  "Description": "Focused cohesive capability",
-  "Subject": "est",
-  "FolderId": 218,
-  "HeaderField": "aut",
-  "Design": "ipsa",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Exclusive needs-based protocol",
-  "AccessKey": "temporibus",
-  "DocumentMessage": 280,
-  "Registered": "2003-04-11T02:30:52.9442767+02:00",
-  "RegisteredAssociateId": 32,
-  "Updated": "2008-05-18T02:30:52.9442767+02:00",
-  "UpdatedAssociateId": 886,
-  "UpdatedCount": 149,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageEntity_PatchShipmentMessageEntity.md)]

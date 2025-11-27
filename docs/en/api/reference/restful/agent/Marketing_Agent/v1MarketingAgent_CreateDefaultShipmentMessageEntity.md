@@ -74,48 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_CreateDefaultShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 736,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "blanditiis",
-  "SmsMessage": "et",
-  "Description": "Fundamental value-added encryption",
-  "Subject": "aut",
-  "FolderId": 217,
-  "HeaderField": "rem",
-  "Design": "suscipit",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Managed bi-directional function",
-  "AccessKey": "ad",
-  "DocumentMessage": 530,
-  "Registered": "2015-05-28T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 543,
-  "Updated": "2009-04-06T02:30:47.4600781+02:00",
-  "UpdatedAssociateId": 860,
-  "UpdatedCount": 913,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_CreateDefaultShipmentMessageEntity.md)]

@@ -67,24 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SaveUntrustedCredentials
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "nihil",
-  "Credentials": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SaveUntrustedCredentials.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SaveUntrustedCredentials.md)]

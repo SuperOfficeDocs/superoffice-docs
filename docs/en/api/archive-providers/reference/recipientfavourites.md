@@ -347,7 +347,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/recipientfavourites?$select=supportLanguage,personExtra/y_rental/x_contact,personAssociate/contactCategory
+GET /api/v1/archive/recipientfavourites?$select=personUrl/URLDescription,restrictionAddress/line3,personAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

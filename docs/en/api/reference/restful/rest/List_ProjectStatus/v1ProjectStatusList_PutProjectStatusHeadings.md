@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProjectStatus/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 838,
-    "Name": "Wilkinson Group",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 38
-  },
-  {
-    "HeadingId": 838,
-    "Name": "Wilkinson Group",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 38
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_PutProjectStatusHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 326,
-    "Name": "Zulauf-Blick",
-    "Tooltip": "harum",
-    "Deleted": true,
-    "Rank": 627,
-    "UdListDefinitionId": 46,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 439
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_PutProjectStatusHeadings.md)]

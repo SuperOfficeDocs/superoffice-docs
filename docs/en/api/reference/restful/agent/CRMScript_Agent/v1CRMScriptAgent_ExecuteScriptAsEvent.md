@@ -90,65 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptId": 400,
-  "EventData": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScriptAsEvent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "ChatAfterSaveNewMessage",
-  "InputValues": {
-    "InputValues1": "voluptatem",
-    "InputValues2": "natus"
-  },
-  "BlockExecution": true,
-  "NavigateTo": "harum",
-  "Message": "sit",
-  "ShowDialog": "odit",
-  "OutputValues": {
-    "OutputValues1": "ad",
-    "OutputValues2": "quia"
-  },
-  "StateValues": {
-    "StateValues1": "veniam",
-    "StateValues2": "non"
-  },
-  "Exception": "nobis",
-  "ParserValues": {
-    "ParserValues1": "temporibus",
-    "ParserValues2": "nulla"
-  },
-  "CgiVariables": {
-    "CgiVariables1": "quo",
-    "CgiVariables2": "ea"
-  },
-  "CgiContent": "exercitationem",
-  "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "sapiente"
-  },
-  "TraceExecution": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScriptAsEvent.md)]

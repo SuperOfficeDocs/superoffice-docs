@@ -56,37 +56,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Presence/GetAll
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ChatPresence_GetChatPresence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UserId": 644,
-    "DisplayName": "Breitenberg Group",
-    "OngoingChats": 638,
-    "Present": false,
-    "ChatTopics": [
-      159,
-      887
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 938
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ChatPresence_GetChatPresence.md)]

@@ -96,57 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CopyQuoteAlternative
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 965,
-  "QuoteAlternativeId": 74,
-  "QuoteAlternativeName": "Brakus Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CopyQuoteAlternative.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 498,
-  "ERPQuoteAlternativeKey": "ea",
-  "QuoteVersionId": 144,
-  "Name": "Zboncak Group",
-  "Description": "Mandatory eco-centric strategy",
-  "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 8173.472,
-  "ERPDiscountAmount": 1899.204,
-  "DiscountPercent": 27701.426,
-  "DiscountAmount": 15234.374,
-  "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 12410.64,
-  "EarningPercent": 25833.561999999998,
-  "EarningAmount": 30822.89,
-  "SubTotal": 2259.614,
-  "TotalPrice": 7737.846,
-  "ExtraField1": "illo",
-  "ExtraField2": "quas",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "et",
-  "ExtraField5": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CopyQuoteAlternative.md)]

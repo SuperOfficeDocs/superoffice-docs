@@ -78,71 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/Truncate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Bernier-Kulas"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_Truncate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": true,
-  "Message": "qui",
-  "Inserts": 543,
-  "Updates": 639,
-  "Deletes": 939,
-  "RowStatus": [
-    {
-      "PrimaryKey": 889,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "officiis",
-        "quia"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
-        }
-      }
-    },
-    {
-      "PrimaryKey": 889,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "officiis",
-        "quia"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_Truncate.md)]

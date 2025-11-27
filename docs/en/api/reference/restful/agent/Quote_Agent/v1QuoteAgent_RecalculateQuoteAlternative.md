@@ -75,35 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternative": 836
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_RecalculateQuoteAlternative.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLinesHasChanged": true,
-  "ChangedQuoteAlternative": null,
-  "Changes": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_RecalculateQuoteAlternative.md)]

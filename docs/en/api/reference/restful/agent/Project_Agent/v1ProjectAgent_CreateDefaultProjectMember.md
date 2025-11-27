@@ -76,50 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/CreateDefaultProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_CreateDefaultProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 375,
-  "ContactId": 733,
-  "ProjectId": 254,
-  "ContactName": "Runolfsdottir-Parisian",
-  "ContactDepartment": "",
-  "ProjectName": "Borer LLC",
-  "EmailId": 617,
-  "EmailAddress": "lonnie@bode.uk",
-  "CountryId": 298,
-  "Firstname": "Alexandrea",
-  "MiddleName": "Zboncak, Bernhard and Heller",
-  "Lastname": "Hermiston",
-  "PersonId": 870,
-  "Mrmrs": "consequatur",
-  "ProjectMemberTypeName": "Bradtke-Tremblay",
-  "Phone": "1-457-163-5835 x2773",
-  "PhoneId": 489,
-  "ProjectMemberTypeId": 13,
-  "EmailAddressName": "marquis@wardpadberg.com",
-  "Comment": "eligendi",
-  "FullName": "Coleman Bruen",
-  "Registered": "2018-04-08T02:30:47.6944454+02:00",
-  "Updated": "2024-12-25T02:30:47.6944454+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_CreateDefaultProjectMember.md)]

@@ -31,8 +31,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=nesciunt
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=qui
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/MDOList/{listname}/selectable
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1MDOList_GetSelectableList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 982,
-    "Name": "Marvin, Bogisich and Treutel",
-    "ToolTip": "Dolor soluta dolorum.",
-    "Deleted": false,
-    "Rank": 395,
-    "Type": "est",
-    "ColorBlock": 806,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2004-07-07T02:30:53.3036395+02:00",
-    "ChildItems": [
-      {
-        "Id": 271,
-        "Name": "Schmeler-Schmeler",
-        "ToolTip": "Error occaecati nam.",
-        "Deleted": false,
-        "Rank": 832,
-        "Type": "quasi",
-        "ColorBlock": 24,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2024-02-19T02:30:53.3036395+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Delaney Herzog",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Zoey Larson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 954
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MDOList_GetSelectableList.md)]

@@ -85,52 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScriptByString
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Script": "quas",
-  "Parameters": {
-    "Parameters1": "dolorem",
-    "Parameters2": "perspiciatis"
-  },
-  "EventData": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScriptByString.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Output": "odit",
-  "Parameters": {
-    "Parameters1": "doloribus",
-    "Parameters2": "molestiae"
-  },
-  "TraceRun": null,
-  "Eventdata": null,
-  "Success": false,
-  "ErrorInformation": null,
-  "StatusCode": 601,
-  "StatusMessage": "deleniti",
-  "Headers": {
-    "Headers1": "quidem",
-    "Headers2": "et"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 578
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScriptByString.md)]

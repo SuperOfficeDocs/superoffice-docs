@@ -101,61 +101,8 @@ AppointmentEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AppointmentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 615,
-  "ColumnId": 493,
-  "FieldDefault": "et",
-  "FieldHeight": 141,
-  "FieldLabel": "ut",
-  "FieldLeft": 763,
-  "FieldTop": 315,
-  "FieldType": "Checkbox",
-  "FieldWidth": 295,
-  "FormatMask": "neque",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 444,
-  "LabelLeft": 682,
-  "LabelTop": 556,
-  "LabelWidth": 325,
-  "LastVersionId": 330,
-  "ListTableId": 516,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 104,
-  "ProgId": "hic",
-  "IsReadOnly": true,
-  "ShortLabel": "tenetur",
-  "TabOrder": 189,
-  "TextLength": 2,
-  "Tooltip": "deleniti",
-  "UdefIdentity": 130,
-  "UDListDefinitionId": 123,
-  "Justification": "Center",
-  "Version": 628,
-  "TemplateVariableName": "Stoltenberg, Keebler and Orn",
-  "HasBeenPublished": false,
-  "MdoListName": "Crona-Schaefer",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_ChangeFieldType.md)]

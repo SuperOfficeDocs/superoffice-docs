@@ -63,34 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustConfigs": [
-    {
-      "CustConfigId": 668,
-      "Type": "Options",
-      "Config": "ut",
-      "CustLangId": 734,
-      "Registered": "2023-04-27T02:30:47.0538389+02:00",
-      "RegisteredAssociateId": 846,
-      "Updated": "2008-09-22T02:30:47.0538389+02:00",
-      "UpdatedAssociateId": 603
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_SaveAllCustomerCenterConfigs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_SaveAllCustomerCenterConfigs.md)]

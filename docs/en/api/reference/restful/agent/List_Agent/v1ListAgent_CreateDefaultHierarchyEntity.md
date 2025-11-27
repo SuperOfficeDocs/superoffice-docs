@@ -63,61 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultHierarchyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 928,
-  "Domain": "Dashboards",
-  "Name": "Bailey-Morissette",
-  "Fullname": "earum",
-  "ParentId": 240,
-  "Children": [
-    {
-      "HierarchyId": 992,
-      "Domain": "Dashboards",
-      "Name": "Harris, Schowalter and Christiansen",
-      "Fullname": "provident",
-      "ParentId": 423,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2006-10-08T02:30:47.4288293+02:00",
-      "RegisteredAssociateId": 325,
-      "Updated": "2003-08-14T02:30:47.4288293+02:00",
-      "UpdatedAssociateId": 115,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 421
-        }
-      }
-    }
-  ],
-  "Registered": "2012-01-25T02:30:47.4288293+01:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2018-01-29T02:30:47.4288293+01:00",
-  "UpdatedAssociateId": 437,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultHierarchyEntity.md)]

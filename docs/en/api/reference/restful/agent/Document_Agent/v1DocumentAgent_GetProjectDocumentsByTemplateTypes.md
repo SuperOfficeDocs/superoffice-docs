@@ -96,61 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 39,
-  "StartTime": "2004-08-25T02:30:47.0850878+02:00",
-  "EndTime": "2005-06-06T02:30:47.0850878+02:00",
-  "Count": 565,
-  "DocumentTemplateIds": [
-    750,
-    455
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectDocumentsByTemplateTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 241,
-    "Attention": "ab",
-    "Header": "et",
-    "Name": "Hermiston-Bashirian",
-    "OurRef": "nulla",
-    "YourRef": "et",
-    "Description": "Triple-buffered dynamic solution",
-    "DocumentTemplate": "modi",
-    "IsPublished": true,
-    "PersonId": 39,
-    "PersonFullName": "Taylor Stark",
-    "AssociateFullName": "Francesco Wisozk",
-    "ContactId": 483,
-    "ContactName": "Luettgen Inc and Sons",
-    "ProjectId": 1000,
-    "ProjectName": "Wyman-Oberbrunner",
-    "AssociateId": 485,
-    "Snum": 888,
-    "SaleId": 421,
-    "SaleName": "Lakin-Bahringer",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectDocumentsByTemplateTypes.md)]

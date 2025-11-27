@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProjectStatus/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 921,
-  "Name": "Huels LLC",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "UdListDefinitionId": 701,
-  "Rank": 217
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_PostProjectStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 621,
-  "Name": "Adams, Kovacek and Shields",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "UdListDefinitionId": 114,
-  "Rank": 148,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_PostProjectStatus.md)]

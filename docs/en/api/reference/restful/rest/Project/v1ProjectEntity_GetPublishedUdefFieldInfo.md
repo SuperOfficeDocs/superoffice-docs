@@ -90,61 +90,8 @@ ProjectEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 404,
-  "ColumnId": 191,
-  "FieldDefault": "explicabo",
-  "FieldHeight": 581,
-  "FieldLabel": "neque",
-  "FieldLeft": 183,
-  "FieldTop": 29,
-  "FieldType": "Checkbox",
-  "FieldWidth": 227,
-  "FormatMask": "necessitatibus",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 308,
-  "LabelLeft": 251,
-  "LabelTop": 454,
-  "LabelWidth": 58,
-  "LastVersionId": 746,
-  "ListTableId": 317,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 911,
-  "ProgId": "odit",
-  "IsReadOnly": true,
-  "ShortLabel": "iure",
-  "TabOrder": 94,
-  "TextLength": 401,
-  "Tooltip": "rerum",
-  "UdefIdentity": 993,
-  "UDListDefinitionId": 235,
-  "Justification": "Center",
-  "Version": 410,
-  "TemplateVariableName": "Ritchie, Paucek and Fay",
-  "HasBeenPublished": true,
-  "MdoListName": "Kilback LLC",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetPublishedUdefFieldInfo.md)]

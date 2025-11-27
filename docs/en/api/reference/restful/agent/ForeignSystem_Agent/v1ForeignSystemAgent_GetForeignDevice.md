@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=194
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=788
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -74,36 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetForeignDevice.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 880,
-  "Name": "Bednar-Walter",
-  "CreatedDate": "1999-05-20T02:30:47.366331+02:00",
-  "UpdatedDate": "2000-05-25T02:30:47.366331+02:00",
-  "AssociateFullName": "Briana Gislason",
-  "CreatedBy": "officiis",
-  "UpdatedBy": "est",
-  "DeviceIdentifier": "veritatis",
-  "ForeignAppId": 622,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetForeignDevice.md)]

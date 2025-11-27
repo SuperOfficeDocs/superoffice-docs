@@ -86,47 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetUserInfoList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetUserInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Deleted": false,
-    "UserInfoId": 647,
-    "UserName": "Spinka, Smitham and Kub",
-    "PersonId": 729,
-    "Rank": 360,
-    "Tooltip": "omnis",
-    "UserGroupId": 539,
-    "EjUserId": 524,
-    "UserType": "AnonymousAssociate",
-    "GrantedLicenses": [
-      "qui",
-      "nihil"
-    ],
-    "CanLogon": true,
-    "RoleName": "Langosh, Orn and Murphy",
-    "RoleTooltip": "atque",
-    "UserGroupName": "Konopelski Group",
-    "UserGroupTooltip": "non",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetUserInfoList.md)]

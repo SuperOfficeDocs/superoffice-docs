@@ -32,7 +32,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetTaskListItemHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 392,
-    "Name": "Kris-Donnelly",
-    "ToolTip": "Qui ut sed.",
-    "Deleted": false,
-    "Rank": 352,
-    "Type": "quia",
-    "ColorBlock": 815,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2020-03-26T02:30:53.4598845+01:00",
-    "ChildItems": [
-      {
-        "Id": 860,
-        "Name": "Hagenes Group",
-        "ToolTip": "Hic corrupti aut et non quas.",
-        "Deleted": true,
-        "Rank": 800,
-        "Type": "porro",
-        "ColorBlock": 417,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2005-10-20T02:30:53.4598845+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sit",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Cole Kiehn",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 98
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "qui",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Dr. Mohammed Frederick Wolf",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetTaskListItemHeadingsForListItem.md)]

@@ -76,34 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetUserGroupList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetUserGroupList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Value": "odit",
-    "Tooltip": "totam",
-    "Id": 801,
-    "Rank": 344,
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetUserGroupList.md)]

@@ -26,7 +26,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
 ```
 
 
@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectStatus/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 378,
-    "Name": "Langworth, Abbott and Wisozk",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "UdListDefinitionId": 241,
-    "Rank": 408,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 448
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_GetAll.md)]

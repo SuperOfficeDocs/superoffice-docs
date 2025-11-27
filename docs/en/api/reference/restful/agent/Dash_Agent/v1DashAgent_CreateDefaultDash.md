@@ -66,52 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 519,
-  "UniqueId": "sed",
-  "Name": "Feil-Eichmann",
-  "Description": "Grass-roots bandwidth-monitored utilisation",
-  "AssociateId": 154,
-  "Columns": 38,
-  "Theme": null,
-  "VisibleForAll": 853,
-  "VisibleForAssociates": [
-    487,
-    180
-  ],
-  "VisibleForGroups": [
-    553,
-    894
-  ],
-  "PinForAll": 1000,
-  "PinForAssociates": [
-    670,
-    785
-  ],
-  "PinForGroups": [
-    740,
-    348
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultDash.md)]

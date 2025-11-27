@@ -79,45 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketStatus/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 247,
-  "Name": "Stanton-McKenzie",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_PutTicketStatusEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 825,
-  "Name": "King, Mante and Harris",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_PutTicketStatusEntity.md)]

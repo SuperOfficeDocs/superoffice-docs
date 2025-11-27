@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/UpdateTypicalSearch
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Searches": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_UpdateTypicalSearch.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"consequuntur"
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_UpdateTypicalSearch.md)]

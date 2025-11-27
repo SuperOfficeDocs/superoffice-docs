@@ -88,58 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/Pickup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_PickUpChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 810,
-  "TopicId": 841,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "voluptates",
-  "CustomerHost": "est",
-  "CustomerName": "Little, Prosacco and Steuber",
-  "CustomerEmail": "lou.torphy@bahringergoldner.us",
-  "CustomerPhone": "(685)530-1538 x827",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Skiles, Aufderhar and Jenkins",
-  "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "culpa",
-  "WhenRequested": "2024-11-01T02:30:52.3974196+01:00",
-  "WhenStarted": "2000-10-31T02:30:52.3974196+01:00",
-  "WhenEnded": "2023-12-29T02:30:52.3974196+01:00",
-  "WhenIdle": "2003-01-26T02:30:52.3974196+01:00",
-  "WhenFetched": "2023-12-14T02:30:52.3974196+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 36,
-  "AlertLevel": 675,
-  "Rank": 206,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 124,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_PickUpChatSession.md)]

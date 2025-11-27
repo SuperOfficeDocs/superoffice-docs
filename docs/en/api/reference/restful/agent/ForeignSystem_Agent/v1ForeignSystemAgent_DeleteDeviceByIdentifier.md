@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Sauer Group",
-  "DeviceName": "Donnelly, Nitzsche and Mante",
-  "DeviceIdentifier": "soluta"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_DeleteDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_DeleteDeviceByIdentifier.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Source/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 258,
-    "Name": "Nicolas-O'Hara",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 352,
-    "UdListDefinitionId": 377
-  },
-  {
-    "HeadingId": 258,
-    "Name": "Nicolas-O'Hara",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 352,
-    "UdListDefinitionId": 377
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_PutSourceHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 179,
-    "Name": "Fadel-Mueller",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 321,
-    "UdListDefinitionId": 977,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 976
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_PutSourceHeadings.md)]

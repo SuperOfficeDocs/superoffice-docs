@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=61
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=397
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -90,52 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplateEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 172,
-  "Name": "Howell LLC",
-  "Tooltip": "sed",
-  "SaveInDb": 813,
-  "Filename": "quos",
-  "DefaultOref": "vel",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 455,
-  "IntentId": 208,
-  "IsDefaultPublished": false,
-  "Rank": 922,
-  "LoadTemplateFromPlugin": 114,
-  "MimeType": "culpa",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 725,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "columbus@littelroberts.info",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sharon.nicolas@corkery.biz",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplateEntity.md)]

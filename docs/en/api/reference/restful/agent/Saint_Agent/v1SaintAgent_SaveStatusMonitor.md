@@ -90,61 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/SaveStatusMonitor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerTable": 351,
-  "Rank": 635,
-  "DefaultTask": 213,
-  "DefaultTaskText": "nam",
-  "IsVisual": true,
-  "LastGenerated": "2004-04-25T02:30:47.7569437+02:00",
-  "Description": "Innovative even-keeled help-desk",
-  "Name": "Batz LLC",
-  "StatusMonitorId": 603,
-  "PictureId": 136,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 994,
-  "NumNeedUpdate": 548,
-  "GenerationStart": "2010-12-20T02:30:47.7569437+01:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_SaveStatusMonitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerTable": 311,
-  "Rank": 215,
-  "DefaultTask": 792,
-  "DefaultTaskText": "at",
-  "IsVisual": false,
-  "LastGenerated": "2012-07-17T02:30:47.7569437+02:00",
-  "Description": "Intuitive incremental contingency",
-  "Name": "Krajcik, Watsica and Dare",
-  "StatusMonitorId": 466,
-  "PictureId": 437,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 955,
-  "NumNeedUpdate": 865,
-  "GenerationStart": "2006-09-18T02:30:47.7569437+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_SaveStatusMonitor.md)]

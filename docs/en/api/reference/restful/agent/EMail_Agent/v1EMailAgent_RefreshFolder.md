@@ -72,27 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/RefreshFolder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "Folders": [
-    "qui",
-    "voluptate"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_RefreshFolder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-641
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_RefreshFolder.md)]

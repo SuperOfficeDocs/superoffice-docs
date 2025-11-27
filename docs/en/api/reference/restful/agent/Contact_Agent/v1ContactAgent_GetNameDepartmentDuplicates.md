@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Kuhic, Jacobs and Bailey",
-  "Department": ""
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetNameDepartmentDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Hettinger, Hansen and Jacobs",
-    "SoPrimaryKey": 122,
-    "EntryName": "Welch Group",
-    "EntryIdentifier": "rerum",
-    "RuleDisplayName": "Leuschke, Mante and Thompson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetNameDepartmentDuplicates.md)]

@@ -56,18 +56,8 @@ Not Found.
 
 ## Sample request
 
-```http!
-GET /api/v1/User/{id}/CustomCommand
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1User_GetUserCommandsAsync.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 404 Not Found.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1User_GetUserCommandsAsync.md)]

@@ -108,81 +108,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/BatchTask/{Id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 244,
-  "Name": "Schmitt-Schneider",
-  "AssociateId": 179,
-  "DetailsTable": 411,
-  "DetailsRecord": 914,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "nam",
-    "ParameterObject2": "asperiores"
-  },
-  "LastStarted": "2010-04-05T02:30:53.0380235+02:00",
-  "Created": "2003-10-09T02:30:53.0380235+02:00",
-  "StartCount": 172,
-  "DatabaseSerialNumber": "639254",
-  "Context": "accusantium",
-  "Result": "cum",
-  "State": "All",
-  "Description": "Exclusive value-added secured line",
-  "Response": "magnam",
-  "Request": "aut",
-  "ProgressDescription": "Re-contextualized even-keeled artificial intelligence",
-  "ProgressPercent": 139,
-  "FileName": "Turner LLC",
-  "CancellationBehaviour": "CanCancel"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Batch_UpdateBatchTask.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 261,
-  "Name": "Jones, Spencer and Ruecker",
-  "AssociateId": 520,
-  "DetailsTable": 423,
-  "DetailsRecord": 830,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "ducimus"
-  },
-  "LastStarted": "2023-07-04T02:30:53.0380235+02:00",
-  "Created": "2001-08-06T02:30:53.0380235+02:00",
-  "StartCount": 327,
-  "DatabaseSerialNumber": "923069",
-  "Context": "molestiae",
-  "Result": "quia",
-  "State": "All",
-  "Description": "Profit-focused asynchronous knowledge base",
-  "Response": "molestias",
-  "Request": "corrupti",
-  "ProgressDescription": "User-friendly system-worthy project",
-  "ProgressPercent": 398,
-  "FileName": "Beier Inc and Sons",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 760
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Batch_UpdateBatchTask.md)]

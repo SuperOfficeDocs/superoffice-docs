@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | targetGroupId | int32 | **Required** The identity of the TargetGroup |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=828
+POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=155
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/DeleteTargetGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_DeleteTargetGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_DeleteTargetGroup.md)]

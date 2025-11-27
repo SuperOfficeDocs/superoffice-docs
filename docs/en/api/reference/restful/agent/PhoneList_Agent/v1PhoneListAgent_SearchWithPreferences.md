@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/SearchWithPreferences
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SearchString": "voluptatem",
-  "Preferences": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_SearchWithPreferences.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonDirectPhone": "548.665.5133 x1811",
-    "PersonCellPhone": "(903)961-5377 x568",
-    "PersonPrivatePhone": "175-485-2882",
-    "PersonFaxNumber": "1229202",
-    "PersonPagerNumber": "1077283",
-    "PersonEmail": "barry@huelbraun.name",
-    "Id": 109,
-    "Name": "Abshire, King and Yundt",
-    "Tooltip": "qui",
-    "UniqueId": "sit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 741
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_SearchWithPreferences.md)]

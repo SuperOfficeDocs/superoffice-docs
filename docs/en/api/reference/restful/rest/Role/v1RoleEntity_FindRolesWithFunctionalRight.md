@@ -72,67 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/WithFunctionRight/{functionalRightName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_FindRolesWithFunctionalRight.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 903,
-    "Name": "Bradtke Inc and Sons",
-    "ToolTip": "Commodi quisquam atque.",
-    "Deleted": false,
-    "Rank": 798,
-    "Type": "quas",
-    "ChildItems": [
-      {
-        "Id": 2,
-        "Name": "Deckow LLC",
-        "ToolTip": "Occaecati tempora accusantium aliquam sapiente.",
-        "Deleted": true,
-        "Rank": 67,
-        "Type": "aliquam",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sed",
-        "ColorBlock": 580,
-        "ExtraInfo": "debitis",
-        "StyleHint": "culpa",
-        "FullName": "Edwina Crist",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 187
-          }
-        }
-      }
-    ],
-    "IconHint": "omnis",
-    "ColorBlock": 169,
-    "ExtraInfo": "modi",
-    "StyleHint": "nemo",
-    "FullName": "Dana Reina Spinka DDS",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 206
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_FindRolesWithFunctionalRight.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=415
+POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=283
 POST /api/v1/Agents/List/GetProjectStatus?$select=name,department,category/id
 ```
 
@@ -68,30 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetProjectStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetProjectStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 815,
-  "Value": "quia",
-  "Tooltip": "ut",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetProjectStatus.md)]

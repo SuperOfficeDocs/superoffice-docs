@@ -79,36 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatMessages
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 471,
-  "After": 996
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatMessages.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ChatMessageId": 82,
-    "ChatSessionId": 516,
-    "Type": "Invalid",
-    "Message": "ducimus",
-    "Author": "accusamus",
-    "ReadByCustomer": 607,
-    "SpecialType": "Block",
-    "SpecialParam": "in",
-    "WhenPosted": "2003-05-26T02:30:46.8975935+02:00"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatMessages.md)]

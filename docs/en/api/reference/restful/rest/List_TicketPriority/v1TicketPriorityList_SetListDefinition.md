@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketPriority
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 238,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 444,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 418,
-  "Name": "Roob, Orn and Bergnaum",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 556,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_SetListDefinition.md)]

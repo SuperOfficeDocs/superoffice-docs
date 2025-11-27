@@ -124,73 +124,8 @@ TicketTypeEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/TicketType/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "non",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "non",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeEntity_PatchTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 TicketTypeEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 561,
-  "Name": "Witting, Barton and Labadie",
-  "Rank": 420,
-  "Tooltip": "eum",
-  "Icon": "quas",
-  "DefaultTicketStatus": 447,
-  "TicketStatuses": [
-    270,
-    945
-  ],
-  "DefaultTicketPriority": 887,
-  "TicketPriorities": [
-    130,
-    362
-  ],
-  "ReplyTemplate": 137,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    877,
-    191
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeEntity_PatchTicketTypeEntity.md)]

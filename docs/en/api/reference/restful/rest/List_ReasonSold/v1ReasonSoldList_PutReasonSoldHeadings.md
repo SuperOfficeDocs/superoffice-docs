@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonSold/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 556,
-    "Name": "Frami-Conn",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 276
-  },
-  {
-    "HeadingId": 556,
-    "Name": "Frami-Conn",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 276
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_PutReasonSoldHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 893,
-    "Name": "Grady-Koelpin",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 345,
-    "UdListDefinitionId": 27,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_PutReasonSoldHeadings.md)]

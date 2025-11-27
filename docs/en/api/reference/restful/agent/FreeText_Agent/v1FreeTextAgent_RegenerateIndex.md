@@ -93,57 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/FreeText/RegenerateIndex
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RunAsBatch": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1FreeTextAgent_RegenerateIndex.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 900,
-  "Name": "Feil, D'Amore and Metz",
-  "AssociateId": 902,
-  "DetailsTable": 538,
-  "DetailsRecord": 531,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
-  "ParameterObject": {
-    "ParameterObject1": "esse",
-    "ParameterObject2": "numquam"
-  },
-  "LastStarted": "2016-05-20T02:30:47.366331+02:00",
-  "Created": "2018-12-06T02:30:47.366331+01:00",
-  "StartCount": 380,
-  "DatabaseSerialNumber": "997510",
-  "Context": "ad",
-  "Result": "quibusdam",
-  "State": "All",
-  "Description": "Enterprise-wide bandwidth-monitored open system",
-  "Response": "doloribus",
-  "Request": "aut",
-  "ProgressDescription": "Reactive fresh-thinking collaboration",
-  "ProgressPercent": 653,
-  "FileName": "Wolff-Huel",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FreeTextAgent_RegenerateIndex.md)]

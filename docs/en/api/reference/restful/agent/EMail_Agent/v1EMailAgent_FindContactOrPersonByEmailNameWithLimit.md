@@ -82,45 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Roob-Kuvalis",
-  "EmailAddress": "reed@ritchie.com",
-  "NumberOfContacts": 944,
-  "NumberOfPersons": 194
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_FindContactOrPersonByEmailNameWithLimit.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonId": 335,
-    "FullName": "Dorothy Botsford",
-    "EmailAddress": "rosemary@herzog.info",
-    "ContactId": 444,
-    "ContactName": "Jerde-Steuber",
-    "ContactDepartment": "",
-    "ContactCategory": "VIP Customer",
-    "SortName": "Ankunding Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_FindContactOrPersonByEmailNameWithLimit.md)]

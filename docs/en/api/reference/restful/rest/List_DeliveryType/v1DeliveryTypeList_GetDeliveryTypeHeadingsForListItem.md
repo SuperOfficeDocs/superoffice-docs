@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 238,
-    "Name": "Cronin-Bernhard",
-    "ToolTip": "Reprehenderit voluptas veniam.",
-    "Deleted": true,
-    "Rank": 359,
-    "Type": "optio",
-    "ColorBlock": 318,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2020-10-30T02:30:53.288015+01:00",
-    "ChildItems": [
-      {
-        "Id": 481,
-        "Name": "Feeney-Predovic",
-        "ToolTip": "Qui autem inventore iste nesciunt quos fugit.",
-        "Deleted": true,
-        "Rank": 539,
-        "Type": "minus",
-        "ColorBlock": 327,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2006-12-28T02:30:53.288015+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Miss Kayleigh Shields",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 931
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "et",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Gavin Gleichner",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem.md)]

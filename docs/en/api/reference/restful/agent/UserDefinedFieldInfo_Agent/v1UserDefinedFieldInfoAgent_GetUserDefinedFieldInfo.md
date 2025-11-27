@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=933
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=157
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,61 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 9,
-  "ColumnId": 154,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 712,
-  "FieldLabel": "sit",
-  "FieldLeft": 100,
-  "FieldTop": 592,
-  "FieldType": "Checkbox",
-  "FieldWidth": 260,
-  "FormatMask": "fuga",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 958,
-  "LabelLeft": 827,
-  "LabelTop": 860,
-  "LabelWidth": 1000,
-  "LastVersionId": 599,
-  "ListTableId": 811,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 470,
-  "ProgId": "tempora",
-  "IsReadOnly": false,
-  "ShortLabel": "atque",
-  "TabOrder": 690,
-  "TextLength": 419,
-  "Tooltip": "sunt",
-  "UdefIdentity": 638,
-  "UDListDefinitionId": 558,
-  "Justification": "Center",
-  "Version": 277,
-  "TemplateVariableName": "Bartoletti, Swaniawski and Orn",
-  "HasBeenPublished": false,
-  "MdoListName": "Pagac-Ebert",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo.md)]

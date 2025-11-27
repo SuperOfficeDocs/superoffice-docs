@@ -75,33 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 482
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetUserAndInstallationLicenceStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AdminWarningDate": "2004-08-01T02:30:47.366331+02:00",
-  "ExpiryDate": "2021-02-23T02:30:47.366331+01:00",
-  "GraceDate": "2016-06-09T02:30:47.366331+02:00",
-  "CompanyName": "Waelchi Inc and Sons",
-  "SerialNr": "1010000006",
-  "UserLicenses": [
-    "voluptatibus",
-    "pariatur"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetUserAndInstallationLicenceStatus.md)]

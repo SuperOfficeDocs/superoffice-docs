@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 207,
-    "Name": "Bernhard-Hyatt",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 426,
-    "UdListDefinitionId": 360
-  },
-  {
-    "HeadingId": 207,
-    "Name": "Bernhard-Hyatt",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 426,
-    "UdListDefinitionId": 360
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_PutTicketCategoryEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 317,
-    "Name": "Bednar LLC",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "Rank": 643,
-    "UdListDefinitionId": 785,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 993
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_PutTicketCategoryEntityHeadings.md)]

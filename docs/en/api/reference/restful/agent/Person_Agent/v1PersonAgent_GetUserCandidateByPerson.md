@@ -75,36 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetUserCandidateByPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 694
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetUserCandidateByPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UserCandidateId": 857,
-  "PersonId": 297,
-  "SecretKey": "ut",
-  "SecretValue": "iure",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetUserCandidateByPerson.md)]

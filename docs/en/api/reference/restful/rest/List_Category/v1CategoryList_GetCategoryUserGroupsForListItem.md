@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Category/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_GetCategoryUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 753,
-    "Name": "Monahan Inc and Sons",
-    "ToolTip": "Expedita quis doloremque debitis.",
-    "Deleted": false,
-    "Rank": 122,
-    "Type": "et",
-    "ColorBlock": 312,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2013-08-22T02:30:53.2098926+02:00",
-    "ChildItems": [
-      {
-        "Id": 658,
-        "Name": "Adams LLC",
-        "ToolTip": "Omnis quisquam quia molestias totam.",
-        "Deleted": false,
-        "Rank": 233,
-        "Type": "eaque",
-        "ColorBlock": 24,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2014-07-29T02:30:53.2098926+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "magnam",
-        "Hidden": false,
-        "FullName": "Justus Ritchie",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 393
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Mr. Felipe Lorna Wehner",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 666
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_GetCategoryUserGroupsForListItem.md)]

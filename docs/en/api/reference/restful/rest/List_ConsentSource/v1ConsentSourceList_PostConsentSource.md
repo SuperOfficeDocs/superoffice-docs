@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ConsentSource/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentSourceId": 953,
-  "Name": "Mohr-Kub",
-  "Tooltip": "pariatur",
-  "Rank": 807,
-  "Key": "sunt",
-  "MailTemplateId": 357,
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_PostConsentSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentSourceId": 430,
-  "Name": "McLaughlin, Kautzer and Kassulke",
-  "Tooltip": "possimus",
-  "Rank": 201,
-  "Key": "omnis",
-  "MailTemplateId": 5,
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_PostConsentSource.md)]

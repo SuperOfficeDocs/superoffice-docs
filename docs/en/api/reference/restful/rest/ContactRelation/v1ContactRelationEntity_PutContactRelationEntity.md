@@ -113,71 +113,8 @@ ContactRelationEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/Relation/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 96,
-  "SourcePersonId": 374,
-  "DestinationContactId": 876,
-  "DestinationPersonId": 611,
-  "RelationId": 805,
-  "Comment": "asperiores",
-  "RelationDefinitionId": 584,
-  "Reversed": 57,
-  "UpdatedDate": "2007-05-11T02:30:52.506791+02:00",
-  "CreatedDate": "2003-11-30T02:30:52.506791+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Vandervort, Mosciski and Fritsch",
-  "SourcePersonName": "Little-Johns",
-  "DestinationContactName": "Nikolaus, Gibson and Schuster",
-  "DestinationPersonName": "Skiles LLC",
-  "ActiveText": "nihil",
-  "PassiveText": "sunt"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_PutContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactRelationEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 920,
-  "SourcePersonId": 602,
-  "DestinationContactId": 628,
-  "DestinationPersonId": 601,
-  "RelationId": 523,
-  "Comment": "ut",
-  "RelationDefinitionId": 392,
-  "Reversed": 83,
-  "UpdatedDate": "1999-08-02T02:30:52.522416+02:00",
-  "CreatedDate": "2017-06-20T02:30:52.522416+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Fahey Group",
-  "SourcePersonName": "Veum LLC",
-  "DestinationContactName": "Hamill Inc and Sons",
-  "DestinationPersonName": "Schmeler LLC",
-  "ActiveText": "beatae",
-  "PassiveText": "doloremque",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_PutContactRelationEntity.md)]

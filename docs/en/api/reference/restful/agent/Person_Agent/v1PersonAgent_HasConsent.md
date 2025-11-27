@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/HasConsent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 337,
-  "Purpose": "dolores"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_HasConsent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_HasConsent.md)]

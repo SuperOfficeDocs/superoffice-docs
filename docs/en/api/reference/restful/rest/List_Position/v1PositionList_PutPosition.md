@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Position/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 401,
-  "Name": "Orn-Rodriguez",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 857
-}
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_PutPosition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 98,
-  "Name": "Schinner, Strosin and Heathcote",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 964,
-  "Rank": 976,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_PutPosition.md)]

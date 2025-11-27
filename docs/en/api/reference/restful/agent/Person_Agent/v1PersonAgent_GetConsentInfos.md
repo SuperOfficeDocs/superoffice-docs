@@ -87,49 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetConsentInfos
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 413
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetConsentInfos.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConsentPersonId": 19,
-    "Comment": "nobis",
-    "Registered": "2001-06-21T02:30:47.5538257+02:00",
-    "RegisteredAssociateId": 760,
-    "Updated": "2004-07-17T02:30:47.5538257+02:00",
-    "UpdatedAssociateId": 943,
-    "LegalBaseId": 675,
-    "LegalBaseKey": "aliquid",
-    "LegalBaseName": "Smitham Inc and Sons",
-    "ConsentPurposeId": 909,
-    "ConsentPurposeKey": "beatae",
-    "ConsentPurposeName": "Johnston, Brekke and Sanford",
-    "ConsentSourceId": 457,
-    "ConsentSourceKey": "similique",
-    "ConsentSourceName": "Boyer, Lindgren and Bergstrom",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetConsentInfos.md)]

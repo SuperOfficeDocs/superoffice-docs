@@ -32,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=806
+PUT /api/v1/Project/{id}/ImageInfo?projectId=48
 ```
 
 
@@ -101,57 +101,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/Project/{id}/ImageInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 971,
-  "BlobSize": 897,
-  "Description": "Cross-platform background product",
-  "ExtraInfo": "quod",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "soluta",
-  "OriginalSize": 547,
-  "CreatedDate": "2007-02-15T02:30:52.8349052+01:00",
-  "UpdatedDate": "2014-03-18T02:30:52.8349052+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "soluta"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_PutImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 742,
-  "BlobSize": 546,
-  "Description": "Integrated composite monitoring",
-  "ExtraInfo": "temporibus",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "culpa",
-  "OriginalSize": 65,
-  "CreatedDate": "2010-05-16T02:30:52.8349052+02:00",
-  "UpdatedDate": "2014-01-01T02:30:52.8349052+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "cum",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_PutImageInfo.md)]

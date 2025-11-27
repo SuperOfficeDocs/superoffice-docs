@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashTiles
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 186
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashTiles.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DashboardTileId": 338,
-    "DashboardId": 355,
-    "Height": 535,
-    "Width": 168,
-    "Rank": 525,
-    "DashTileDefinition": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashTiles.md)]

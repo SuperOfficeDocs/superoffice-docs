@@ -60,33 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/DashTile/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DashTile_DefaultDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 964,
-  "DashboardId": 76,
-  "Height": 641,
-  "Width": 324,
-  "Rank": 254,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTile_DefaultDashTile.md)]

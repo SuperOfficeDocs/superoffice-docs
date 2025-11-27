@@ -88,56 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleStakeholderById
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleStakeholderIds": [
-    268,
-    220
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleStakeholderById.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "StakeholderRoleName": "Upton-Klein",
-    "Comment": "sunt",
-    "StakeholderRoleId": 137,
-    "CountryId": 326,
-    "PersonId": 856,
-    "EmailDescription": "zelma.monahan@champlin.uk",
-    "EmailId": 718,
-    "EmailAddress": "nayeli@kshlerinvandervort.co.uk",
-    "PhoneId": 853,
-    "ContactName": "Ondricka, McGlynn and Schroeder",
-    "ContactId": 835,
-    "SaleId": 40,
-    "Mrmrs": "officiis",
-    "Firstname": "Josephine",
-    "MiddleName": "Waelchi, Ernser and Farrell",
-    "Lastname": "Sipes",
-    "SaleStakeholderId": 943,
-    "Rank": 284,
-    "Phone": "815.079.5147 x8501",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleStakeholderById.md)]

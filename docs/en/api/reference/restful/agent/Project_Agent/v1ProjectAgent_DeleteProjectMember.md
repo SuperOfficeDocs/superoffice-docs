@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | projectMemberId | int32 | **Required** The identity of the ProjectMember |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectMember?projectMemberId=1001
+POST /api/v1/Agents/Project/DeleteProjectMember?projectMemberId=843
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/DeleteProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_DeleteProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_DeleteProjectMember.md)]

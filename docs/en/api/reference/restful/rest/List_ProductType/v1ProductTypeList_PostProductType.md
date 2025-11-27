@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProductType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 308,
-  "Name": "Deckow, Padberg and Schmeler",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 695,
-  "Rank": 336
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_PostProductType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 743,
-  "Name": "Flatley, Hagenes and Daugherty",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 83,
-  "Rank": 607,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_PostProductType.md)]

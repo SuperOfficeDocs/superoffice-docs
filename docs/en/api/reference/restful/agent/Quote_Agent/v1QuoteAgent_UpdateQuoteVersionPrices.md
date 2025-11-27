@@ -80,68 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 145
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_UpdateQuoteVersionPrices.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "quo",
-  "TechExplanation": "atque",
-  "ErrorCode": "deleniti",
-  "ChangedSale": null,
-  "ChangedQuote": null,
-  "ChangedQuoteVersion": null,
-  "ChangedQuoteAlternatives": [
-    {
-      "QuoteLinesHasChanged": false,
-      "ChangedQuoteAlternative": null,
-      "Changes": null,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
-        }
-      }
-    },
-    {
-      "QuoteLinesHasChanged": false,
-      "ChangedQuoteAlternative": null,
-      "Changes": null,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
-        }
-      }
-    }
-  ],
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_UpdateQuoteVersionPrices.md)]

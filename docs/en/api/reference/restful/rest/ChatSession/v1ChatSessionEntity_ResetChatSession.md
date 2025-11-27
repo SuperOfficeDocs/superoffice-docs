@@ -88,58 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/Reset
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_ResetChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 427,
-  "TopicId": 103,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "explicabo",
-  "CustomerHost": "laudantium",
-  "CustomerName": "Nitzsche Group",
-  "CustomerEmail": "retta.reichel@hegmann.name",
-  "CustomerPhone": "(127)619-4462 x6360",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "McCullough Inc and Sons",
-  "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "reiciendis",
-  "WhenRequested": "2019-07-04T02:30:52.413044+02:00",
-  "WhenStarted": "2002-10-20T02:30:52.413044+02:00",
-  "WhenEnded": "2021-08-09T02:30:52.413044+02:00",
-  "WhenIdle": "2005-08-05T02:30:52.413044+02:00",
-  "WhenFetched": "2020-09-04T02:30:52.413044+02:00",
-  "SessionKey": "maxime",
-  "InitialQueuePos": 204,
-  "AlertLevel": 557,
-  "Rank": 253,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 877,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_ResetChatSession.md)]

@@ -78,46 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 520,
-  "Select": "mollitia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetSelectionMembersArchiveRows.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Murphy-Kuhn",
-    "PrimaryKey": 998,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "non",
-        "TooltipHint": "vitae",
-        "LinkHint": "quia"
-      }
-    },
-    "LinkHint": "nostrum",
-    "StyleHint": "sit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 378
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetSelectionMembersArchiveRows.md)]

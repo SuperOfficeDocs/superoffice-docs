@@ -84,62 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Dashboards": [
-    254,
-    418
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DashboardId": 163,
-    "UniqueId": "illum",
-    "Name": "Ondricka, Cassin and Stiedemann",
-    "Description": "Re-engineered regional access",
-    "AssociateId": 49,
-    "Columns": 954,
-    "Theme": null,
-    "VisibleForAll": 895,
-    "VisibleForAssociates": [
-      132,
-      206
-    ],
-    "VisibleForGroups": [
-      512,
-      160
-    ],
-    "PinForAll": 989,
-    "PinForAssociates": [
-      15,
-      560
-    ],
-    "PinForGroups": [
-      860,
-      298
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 432
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashList.md)]

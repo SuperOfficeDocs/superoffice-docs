@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=923
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=425
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
 
@@ -71,33 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashTile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 436,
-  "DashboardId": 601,
-  "Height": 108,
-  "Width": 742,
-  "Rank": 829,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashTile.md)]

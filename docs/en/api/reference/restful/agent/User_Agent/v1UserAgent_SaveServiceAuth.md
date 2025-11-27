@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SaveServiceAuth
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServiceAuthId": 277,
-  "Server": "laborum",
-  "Port": 35,
-  "AuthType": "voluptas",
-  "Username": "quam",
-  "Password": "quos"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SaveServiceAuth.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServiceAuthId": 388,
-  "Server": "odio",
-  "Port": 968,
-  "AuthType": "non",
-  "Username": "exercitationem",
-  "Password": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SaveServiceAuth.md)]

@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/SaveForeignKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignKey": null,
-  "ApplicationName": "Von Inc and Sons",
-  "DeviceName": "Rohan LLC",
-  "DeviceIdentifier": "odit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_SaveForeignKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "accusamus",
-  "Value": "totam",
-  "RecordId": 807,
-  "CreatedDate": "2003-08-20T02:30:47.366331+02:00",
-  "UpdatedDate": "2016-06-22T02:30:47.366331+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "ab",
-  "TableName": "Jacobs-Schiller",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_SaveForeignKey.md)]

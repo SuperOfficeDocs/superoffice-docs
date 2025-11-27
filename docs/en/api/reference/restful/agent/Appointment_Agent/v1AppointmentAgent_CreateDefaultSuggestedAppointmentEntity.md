@@ -67,41 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedAppointmentId": 376,
-  "Name": "Huel Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 551,
-  "Deleted": false,
-  "DaysFuture": 765,
-  "Duration": "numquam",
-  "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "et",
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "Type": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity.md)]

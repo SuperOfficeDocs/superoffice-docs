@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetProductImage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 771,
-  "ERPProductKey": "natus",
-  "Rank": 530
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetProductImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"aliquam"
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetProductImage.md)]

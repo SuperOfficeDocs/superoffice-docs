@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DeliveryType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 435,
-  "Name": "Gislason LLC",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 147,
-  "UdListDefinitionId": 260
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_PostDeliveryTypeHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 897,
-  "Name": "Streich, Hintz and Stamm",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 145,
-  "UdListDefinitionId": 898,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_PostDeliveryTypeHeading.md)]

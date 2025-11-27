@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | appointmentEntityId | int32 | **Required** The identity of the AppointmentEntity |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=48
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=539
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_DeleteAppointmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_DeleteAppointmentEntity.md)]

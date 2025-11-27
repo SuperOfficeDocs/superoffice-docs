@@ -70,58 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldValueInfos": [
-    {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": true,
-      "Key": "iste",
-      "ValueType": "sit",
-      "Mandatory": true,
-      "EncodedDisplayName": "Emard, Lebsack and Jacobson",
-      "EncodedDisplayDescription": "Versatile bifurcated definition",
-      "IconHint": "et",
-      "ControlInfos": [
-        {},
-        {}
-      ],
-      "EncodedDataCaption": "nihil",
-      "EncodedDataCaptionDescription": "Distributed client-driven complexity",
-      "CurrentOperationType": "aut",
-      "Values": [
-        "voluptatem",
-        "amet"
-      ],
-      "DisplayValues": [
-        "et",
-        "autem"
-      ],
-      "OperationInfos": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableName": "Durgan Group",
-  "Context": "aliquid",
-  "Ids": "possimus"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BulkUpdateAgent_ExecuteByEntityIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-67
-```
+[!include[sample response](../../samples/agent/response/v1BulkUpdateAgent_ExecuteByEntityIds.md)]

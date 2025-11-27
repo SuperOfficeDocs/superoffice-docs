@@ -78,57 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReplyTemplateId": 252,
-  "LanguageId": 453
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetUnparsedTemplate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReplyTemplateId": 536,
-  "PlainParsed": "et",
-  "HtmlParsed": "voluptatem",
-  "Attachments": [
-    {
-      "AttachmentId": 949,
-      "Name": "Spinka, Barrows and Braun",
-      "ContentType": "ab",
-      "AttSize": 594,
-      "InlineImage": true,
-      "ContentId": "sunt",
-      "AuthKey": "saepe",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
-        }
-      }
-    }
-  ],
-  "Subject": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetUnparsedTemplate.md)]

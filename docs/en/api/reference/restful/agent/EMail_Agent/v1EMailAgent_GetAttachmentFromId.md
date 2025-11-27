@@ -84,42 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetAttachmentFromId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailItemId": 674,
-  "AttachmentId": "ipsum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetAttachmentFromId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Adaptive content-based secured line",
-  "Filename": "aut",
-  "Size": 682,
-  "Type": "omnis",
-  "Encoding": "id",
-  "Id": "alias",
-  "Disposition": "non",
-  "IsSafeFileExtension": false,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetAttachmentFromId.md)]

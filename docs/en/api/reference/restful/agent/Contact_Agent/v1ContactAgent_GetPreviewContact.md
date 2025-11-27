@@ -81,36 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetPreviewContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 803
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetPreviewContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 312,
-  "Name": "Kuhic LLC",
-  "Department": "",
-  "CountryId": 157,
-  "Number2": "1088029",
-  "DirectPhone": "(931)987-5422",
-  "URL": "http://www.example.com/",
-  "EmailAddress": "neha@schroederbeier.ca",
-  "BusinessName": "Information Technology",
-  "CategoryName": "VIP Customer",
-  "AssociateFullName": "Ms. Theodore Cummings PhD",
-  "Address": null
-}
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetPreviewContact.md)]

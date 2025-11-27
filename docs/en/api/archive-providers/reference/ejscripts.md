@@ -18,7 +18,7 @@ Lists all CRM Scripts in the ejScript table.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ejscript"|[ejscript]|
+|"ejscript"|ejscript|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

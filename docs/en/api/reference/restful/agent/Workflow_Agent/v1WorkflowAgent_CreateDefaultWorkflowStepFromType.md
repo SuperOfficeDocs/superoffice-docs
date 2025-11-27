@@ -73,28 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StepType": "AddToList"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowStepId": 450,
-  "WorkflowId": 336,
-  "StepType": "AddToList",
-  "Rank": 568
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md)]

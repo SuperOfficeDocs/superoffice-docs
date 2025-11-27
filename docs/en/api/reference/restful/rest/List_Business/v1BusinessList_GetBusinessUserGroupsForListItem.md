@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Business/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_GetBusinessUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 142,
-    "Name": "Padberg Group",
-    "ToolTip": "Eos in ipsa sed.",
-    "Deleted": false,
-    "Rank": 987,
-    "Type": "facilis",
-    "ColorBlock": 297,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "1998-07-23T02:30:53.2098926+02:00",
-    "ChildItems": [
-      {
-        "Id": 877,
-        "Name": "Donnelly Group",
-        "ToolTip": "Iusto autem ipsa.",
-        "Deleted": false,
-        "Rank": 556,
-        "Type": "enim",
-        "ColorBlock": 669,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2013-06-06T02:30:53.2098926+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Cordelia Altenwerth",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "iure",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Porter Tracey Kovacek IV",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_GetBusinessUserGroupsForListItem.md)]

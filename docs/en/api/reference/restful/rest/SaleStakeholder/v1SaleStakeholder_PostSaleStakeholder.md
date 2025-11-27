@@ -110,73 +110,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/SaleStakeholder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Daniel LLC",
-  "Comment": "explicabo",
-  "StakeholderRoleId": 929,
-  "CountryId": 843,
-  "PersonId": 958,
-  "EmailDescription": "eleonore.hammes@miller.com",
-  "EmailId": 292,
-  "EmailAddress": "tressa@hermiston.biz",
-  "PhoneId": 897,
-  "ContactName": "Wuckert-Beatty",
-  "ContactId": 28,
-  "SaleId": 182,
-  "Mrmrs": "sunt",
-  "Firstname": "Alanis",
-  "MiddleName": "Casper, Gibson and Cormier",
-  "Lastname": "Abernathy",
-  "SaleStakeholderId": 439,
-  "Rank": 749,
-  "Phone": "1-456-003-3502"
-}
-```
+[!include[sample request](../../samples/rest/request/v1SaleStakeholder_PostSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Leffler-Hahn",
-  "Comment": "eveniet",
-  "StakeholderRoleId": 371,
-  "CountryId": 954,
-  "PersonId": 37,
-  "EmailDescription": "russel@ortiz.us",
-  "EmailId": 911,
-  "EmailAddress": "henriette@ondricka.name",
-  "PhoneId": 267,
-  "ContactName": "Kozey LLC",
-  "ContactId": 911,
-  "SaleId": 415,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Toby",
-  "MiddleName": "McDermott, Goodwin and Wiza",
-  "Lastname": "Hirthe",
-  "SaleStakeholderId": 532,
-  "Rank": 24,
-  "Phone": "645.343.5375 x17242",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleStakeholder_PostSaleStakeholder.md)]

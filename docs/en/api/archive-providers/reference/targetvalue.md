@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"targetValue"|[targetValue]|
+|"targetValue"|targetValue|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -412,7 +412,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=targetPeriod,contact/registeredByFullName,contact/streetAddress/zip
+GET /api/v1/archive/TargetValue?$select=associate/otherGroups,contact/streetAddress/zip,contact/contactSupportAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

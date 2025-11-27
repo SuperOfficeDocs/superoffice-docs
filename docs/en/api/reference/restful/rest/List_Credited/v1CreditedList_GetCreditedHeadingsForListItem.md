@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Credited/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_GetCreditedHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 451,
-    "Name": "Altenwerth-Olson",
-    "ToolTip": "Incidunt non non commodi porro porro laborum.",
-    "Deleted": false,
-    "Rank": 1000,
-    "Type": "voluptas",
-    "ColorBlock": 970,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "1999-03-29T02:30:53.2567659+02:00",
-    "ChildItems": [
-      {
-        "Id": 666,
-        "Name": "Little-Gusikowski",
-        "ToolTip": "Ad delectus iusto voluptatem perferendis aut in cupiditate.",
-        "Deleted": false,
-        "Rank": 23,
-        "Type": "sequi",
-        "ColorBlock": 576,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2003-04-07T02:30:53.2567659+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Jadyn Weimann",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 807
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Richmond Padberg",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_GetCreditedHeadingsForListItem.md)]

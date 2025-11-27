@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/BatchTask
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 953,
-  "Name": "Block, Huel and Quigley",
-  "AssociateId": 815,
-  "DetailsTable": 551,
-  "DetailsRecord": 446,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
-  "ParameterObject": {
-    "ParameterObject1": "consequuntur",
-    "ParameterObject2": "numquam"
-  },
-  "LastStarted": "2021-03-28T02:30:53.022399+01:00",
-  "Created": "2018-03-30T02:30:53.022399+02:00",
-  "StartCount": 481,
-  "DatabaseSerialNumber": "802347",
-  "Context": "ullam",
-  "Result": "numquam",
-  "State": "All",
-  "Description": "Face to face leading edge adapter",
-  "Response": "voluptatem",
-  "Request": "deleniti",
-  "ProgressDescription": "Switchable impactful instruction set",
-  "ProgressPercent": 365,
-  "FileName": "Marquardt-Morar",
-  "CancellationBehaviour": "CanCancel"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Batch_StartBatchJob.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-567
-```
+[!include[sample response](../../samples/rest/response/v1Batch_StartBatchJob.md)]

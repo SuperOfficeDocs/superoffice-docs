@@ -71,40 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 705,
-  "Value": "reiciendis",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "IntentId": 153,
-  "Rank": 834,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetTaskListItem.md)]

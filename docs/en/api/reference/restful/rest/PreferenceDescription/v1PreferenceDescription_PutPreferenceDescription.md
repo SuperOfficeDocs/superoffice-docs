@@ -112,71 +112,8 @@ PreferenceDescription updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/PreferenceDescription/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 930,
-  "Section": "aliquid",
-  "Key": "qui",
-  "Name": "Shields Inc and Sons",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Switchable explicit initiative",
-  "IsBuiltin": true,
-  "TableName": "Torp-Zieme",
-  "UserDefinedListId": 110,
-  "Rank": 960,
-  "SubGroup": "inventore",
-  "MinLevel": 564,
-  "MaxValue": 148,
-  "MinValue": 81,
-  "RequiredLicense": "quia"
-}
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_PutPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PreferenceDescription updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 584,
-  "Section": "eveniet",
-  "Key": "dolorum",
-  "Name": "Jewess, Zulauf and Kilback",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Function-based mission-critical middleware",
-  "IsBuiltin": true,
-  "TableName": "Prohaska Group",
-  "UserDefinedListId": 789,
-  "Rank": 220,
-  "SubGroup": "quos",
-  "MinLevel": 866,
-  "MaxValue": 383,
-  "MinValue": 448,
-  "RequiredLicense": "molestiae",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_PutPreferenceDescription.md)]

@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 22,
-    "ColumnId": 257,
-    "FieldDefault": "ea",
-    "FieldHeight": 435,
-    "FieldLabel": "similique",
-    "FieldLeft": 570,
-    "FieldTop": 731,
-    "FieldType": "Checkbox",
-    "FieldWidth": 905,
-    "FormatMask": "quae",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 883,
-    "LabelLeft": 311,
-    "LabelTop": 186,
-    "LabelWidth": 235,
-    "LastVersionId": 840,
-    "ListTableId": 651,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 841,
-    "ProgId": "odit",
-    "IsReadOnly": false,
-    "ShortLabel": "modi",
-    "TabOrder": 552,
-    "TextLength": 49,
-    "Tooltip": "soluta",
-    "UdefIdentity": 737,
-    "UDListDefinitionId": 489,
-    "Justification": "Center",
-    "Version": 506,
-    "TemplateVariableName": "Bahringer-Auer",
-    "HasBeenPublished": false,
-    "MdoListName": "Cummings-Hintz",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetPublishedUdefLayout.md)]

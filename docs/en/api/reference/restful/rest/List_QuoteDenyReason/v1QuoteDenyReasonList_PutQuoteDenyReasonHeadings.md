@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteDenyReason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 270,
-    "Name": "Doyle-Heller",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 611
-  },
-  {
-    "HeadingId": 270,
-    "Name": "Doyle-Heller",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 611
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_PutQuoteDenyReasonHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 60,
-    "Name": "Haley-Satterfield",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 514,
-    "UdListDefinitionId": 877,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_PutQuoteDenyReasonHeadings.md)]

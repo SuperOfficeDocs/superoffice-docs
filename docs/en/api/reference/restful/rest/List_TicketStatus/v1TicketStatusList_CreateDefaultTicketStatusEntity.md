@@ -58,34 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketStatus/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_CreateDefaultTicketStatusEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 64,
-  "Name": "Kub-Kunde",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_CreateDefaultTicketStatusEntity.md)]

@@ -76,39 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetDuplicates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Gleason, Thompson and Shanahan"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Mraz, Feil and Schroeder",
-    "SoPrimaryKey": 298,
-    "EntryName": "Kilback-Keebler",
-    "EntryIdentifier": "aperiam",
-    "RuleDisplayName": "Walsh, Goyette and Sipes",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetDuplicates.md)]

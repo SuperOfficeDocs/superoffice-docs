@@ -84,39 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Conroy-Mayer",
-  "FieldName": "Ward Inc and Sons"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Keebler-Krajcik",
-  "DisplayName": "Crist, Sipes and Quitzon",
-  "Description": "Adaptive asynchronous knowledge base",
-  "ShortLabel": "non",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 613,
-  "TemplateVariableName": "Waters, Kemmer and Lakin"
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetCustomFieldInfo.md)]

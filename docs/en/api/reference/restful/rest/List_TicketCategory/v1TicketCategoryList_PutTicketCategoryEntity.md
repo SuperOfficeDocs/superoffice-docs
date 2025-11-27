@@ -101,79 +101,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketCategory/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 514,
-  "ParentId": 970,
-  "Name": "Dibbert-McClure",
-  "Fullname": "esse",
-  "CategoryMaster": 90,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Fay-Hirthe",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 104,
-  "ReplyTemplate": 728,
-  "NotificationEmail": "amya_tromp@rosenbaum.co.uk",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 528,
-  "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "soluta"
-  },
-  "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "consequuntur"
-  }
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_PutTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 610,
-  "ParentId": 738,
-  "Name": "Satterfield Inc and Sons",
-  "Fullname": "dolores",
-  "CategoryMaster": 249,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Waelchi, Kunde and Williamson",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 478,
-  "ReplyTemplate": 293,
-  "NotificationEmail": "demond_larkin@gutkowski.name",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 524,
-  "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "similique"
-  },
-  "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "molestiae"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 605
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_PutTicketCategoryEntity.md)]

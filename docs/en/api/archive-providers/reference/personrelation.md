@@ -18,7 +18,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"relation"|[Relation]|
+|"relation"|Relation|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
@@ -576,7 +576,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/personDirectFax/description,source/contactNoMail,target/NumberOfNotCompletedSales,target/LastDoByTicket,source/contactAssociate/ejStatus
+GET /api/v1/archive/PersonRelation?$select=source/countryId,target/postAddress/line2,source/contactAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

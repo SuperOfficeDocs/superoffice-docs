@@ -174,7 +174,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=text,createdBy/ejUserId,content
+GET /api/v1/archive/ticketfavourites?$select=extra/x_ticket_short_text,content,createdBy/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

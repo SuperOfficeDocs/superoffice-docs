@@ -54,47 +54,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowFilter.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RestrictionGroups": [
-    {
-      "Name": "Bosco, Douglas and Pfeffer",
-      "Description": "Multi-tiered holistic focus group",
-      "Rank": 616,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Bosco, Douglas and Pfeffer",
-      "Description": "Multi-tiered holistic focus group",
-      "Rank": 616,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowFilter.md)]

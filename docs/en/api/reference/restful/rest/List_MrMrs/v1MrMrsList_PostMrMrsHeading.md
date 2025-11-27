@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/MrMrs/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 764,
-  "Name": "O'Conner, Spencer and Cruickshank",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 540,
-  "UdListDefinitionId": 116
-}
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_PostMrMrsHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 514,
-  "Name": "Windler, Lebsack and Purdy",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 513,
-  "UdListDefinitionId": 583,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_PostMrMrsHeading.md)]

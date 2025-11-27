@@ -78,52 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 617,
-  "Name": "Christiansen Group",
-  "Tooltip": "magni",
-  "SaveInDb": 782,
-  "Filename": "dignissimos",
-  "DefaultOref": "minima",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 948,
-  "IntentId": 887,
-  "IsDefaultPublished": true,
-  "Rank": 839,
-  "LoadTemplateFromPlugin": 779,
-  "MimeType": "velit",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 765,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "hadley_price@cartwrightkunze.us",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "barney@watersweimann.co.uk",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultDocumentTemplateEntity.md)]

@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProductId": 682
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetBlobEntityOnProduct.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 572,
-  "BlobSize": 901,
-  "Description": "Profound value-added instruction set",
-  "ExtraInfo": "facere",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "dolorum",
-  "OriginalSize": 928,
-  "CreatedDate": "2009-04-05T02:30:46.8350962+02:00",
-  "UpdatedDate": "2023-05-28T02:30:46.8350962+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "consequatur",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 859
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetBlobEntityOnProduct.md)]

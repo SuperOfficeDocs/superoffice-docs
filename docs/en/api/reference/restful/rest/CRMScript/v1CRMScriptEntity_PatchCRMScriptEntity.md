@@ -127,86 +127,8 @@ CRMScriptEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/CRMScript/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "ducimus",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "ducimus",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CRMScriptEntity_PatchCRMScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 CRMScriptEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 973,
-  "UniqueIdentifier": "ullam",
-  "Name": "Legros-Lemke",
-  "Description": "Open-source real-time flexibility",
-  "IncludeId": "ratione",
-  "AccessKey": "officia",
-  "HierarchyId": 682,
-  "Source": "repudiandae",
-  "SourceCode": "commodi",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 194,
-  "Includes": [
-    93,
-    255
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 209,
-      "LineNumberTo": 387,
-      "Delta": 316,
-      "IncludeId": "voluptate",
-      "IncludedFrom": [
-        "qui",
-        "ratione"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2000-01-30T02:30:52.522416+01:00",
-  "RegisteredAssociateId": 363,
-  "Updated": "2007-04-14T02:30:52.522416+02:00",
-  "UpdatedAssociateId": 4,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CRMScriptEntity_PatchCRMScriptEntity.md)]

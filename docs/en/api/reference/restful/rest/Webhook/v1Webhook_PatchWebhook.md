@@ -120,59 +120,8 @@ Webhook  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/Webhook/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "voluptas",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "voluptas",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_PatchWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 Webhook  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 225,
-  "Name": "Langosh Group",
-  "Events": [
-    "aut",
-    "ut"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "labore",
-  "State": "Active",
-  "Type": "ut",
-  "Headers": {
-    "Headers1": "iure",
-    "Headers2": "et"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2005-09-18T02:30:53.1786436+02:00",
-  "RegisteredAssociate": null,
-  "Updated": "2009-01-30T02:30:53.1786436+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "lavinia_lakin@bartoletti.biz",
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_PatchWebhook.md)]

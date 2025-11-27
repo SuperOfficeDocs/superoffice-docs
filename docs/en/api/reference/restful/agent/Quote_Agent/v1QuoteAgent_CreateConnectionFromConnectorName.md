@@ -86,74 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectorName": "Lemke-Hickle"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CreateConnectionFromConnectorName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 359,
-  "ERPName": "Aufderhar-Ruecker",
-  "DisplayName": "Schimmel, O'Kon and Goyette",
-  "DisplayDescription": "Decentralized full-range benchmark",
-  "Rank": 718,
-  "ConnectorName": "D'Amore-Renner",
-  "ErpConnectionId": 19,
-  "ExtraData": "voluptas",
-  "IsAvailable": false,
-  "InitializeResponse": null,
-  "PriceLists": [
-    {
-      "PriceListId": 27,
-      "ERPPriceListKey": "ipsa",
-      "QuoteConnectionId": 960,
-      "Name": "Upton-Runolfsdottir",
-      "Description": "Decentralized intermediate info-mediaries",
-      "Currency": "assumenda",
-      "CurrencyName": "Wintheiser, Halvorson and Kassulke",
-      "ValidFrom": "2005-06-12T02:30:47.7256947+02:00",
-      "ValidTo": "2011-10-01T02:30:47.7256947+02:00",
-      "IsActive": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
-        }
-      }
-    }
-  ],
-  "AllAccess": false,
-  "Deleted": false,
-  "UserGroupAccessIds": [
-    824,
-    295
-  ],
-  "AssociateAccessIds": [
-    297,
-    798
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CreateConnectionFromConnectorName.md)]

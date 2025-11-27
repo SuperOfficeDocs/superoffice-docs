@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveListItemEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ListItemEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveListItemEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 706,
-  "Name": "VonRueden-Herzog",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "UdListDefinitionId": 91,
-  "Rank": 475,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveListItemEntity.md)]

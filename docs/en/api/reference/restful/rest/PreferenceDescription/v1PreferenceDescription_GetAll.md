@@ -69,47 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/PreferenceDescription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescId": 349,
-    "Section": "dolorem",
-    "Key": "illo",
-    "Name": "Feil, Wiegand and Connelly",
-    "ValueType": "Bool",
-    "MaxLevel": "Database",
-    "SysMaxLevel": "Database",
-    "AccessFlags": "adminGUI",
-    "Description": "Open-source value-added migration",
-    "IsBuiltin": false,
-    "TableName": "Pacocha, Emard and Abbott",
-    "UserDefinedListId": 766,
-    "Rank": 668,
-    "SubGroup": "voluptas",
-    "MinLevel": 679,
-    "MaxValue": 647,
-    "MinValue": 303,
-    "RequiredLicense": "ipsum",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_GetAll.md)]

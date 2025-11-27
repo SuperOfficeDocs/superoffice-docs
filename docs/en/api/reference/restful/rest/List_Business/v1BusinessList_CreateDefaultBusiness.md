@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Business/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_CreateDefaultBusiness.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 505,
-  "Name": "Klocko, Wiza and Kunze",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 596,
-  "Rank": 178,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_CreateDefaultBusiness.md)]

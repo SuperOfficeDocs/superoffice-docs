@@ -136,76 +136,8 @@ ChatTopicEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/ChatTopic/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "quisquam",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "quisquam",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_PatchChatTopicEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ChatTopicEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 627,
-  "Name": "Hettinger Group",
-  "Description": "Up-sized fault-tolerant core",
-  "WelcomeMessage": "beatae",
-  "Language": null,
-  "LastAccept": "2022-12-11T02:30:52.4286686+01:00",
-  "SecondsPrAccept": 198,
-  "AlertRecipient": "error",
-  "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ab",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "expedita",
-  "WarnNewChatMinutes": 511,
-  "WarnManagerNewChatMinutes": 280,
-  "TicketEnabled": true,
-  "TicketCategory": null,
-  "TicketPriority": null,
-  "OpeningHoursEnabled": false,
-  "OpeningHours": null,
-  "Widget": null,
-  "BotEnabled": false,
-  "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 933,
-  "WarnManagerChatMessageMinutes": 683,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 840,
-  "OfflineFormQueueLength": 944,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "cumque",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_PatchChatTopicEntity.md)]

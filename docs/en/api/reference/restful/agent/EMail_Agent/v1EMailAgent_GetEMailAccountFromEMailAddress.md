@@ -86,44 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "FromAddress": "quia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetEMailAccountFromEMailAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EMailAccountId": 417,
-  "EMailAddress": "voluptas",
-  "AssociateId": 704,
-  "IncomingCredentials": null,
-  "OutgoingCredentials": null,
-  "AccountStatus": 234,
-  "ErrorCount": 708,
-  "ErrorReason": "",
-  "InboxFolder": "fuga",
-  "SentFolder": "est",
-  "SimpleMode": 596,
-  "LastFetch": "2006-12-05T02:30:47.2725845+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetEMailAccountFromEMailAddress.md)]

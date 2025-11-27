@@ -67,56 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/CRMScript/{cRMScriptId}/Validate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CRMScriptEntity_ValidateScript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": false,
-  "ErrorMessage": "rem",
-  "LineNumber": 904,
-  "ErrorInformation": null,
-  "Transpiled": "officiis",
-  "Includes": [
-    111,
-    658
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 664,
-      "LineNumberTo": 635,
-      "Delta": 812,
-      "IncludeId": "veniam",
-      "IncludedFrom": [
-        "quia",
-        "ipsam"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 112
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CRMScriptEntity_ValidateScript.md)]

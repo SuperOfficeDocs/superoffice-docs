@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonStalled/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 86,
-    "Name": "Reynolds, Kovacek and Walter",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "UdListDefinitionId": 526,
-    "Rank": 18,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 349
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_GetAll.md)]

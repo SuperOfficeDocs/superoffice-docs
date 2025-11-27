@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/FreeText/FreetextIndexRows
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Leuschke, Morar and Crist",
-  "IDs": [
-    614,
-    477
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1FreeTextAgent_FreetextIndexRows.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FreeTextAgent_FreetextIndexRows.md)]

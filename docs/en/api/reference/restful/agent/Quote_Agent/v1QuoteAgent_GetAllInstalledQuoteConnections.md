@@ -79,71 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetAllInstalledQuoteConnections.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteConnectionId": 807,
-    "ERPName": "Stamm Inc and Sons",
-    "DisplayName": "McClure-Lehner",
-    "DisplayDescription": "Down-sized context-sensitive strategy",
-    "Rank": 668,
-    "ConnectorName": "Kuhn, Kuhlman and Moore",
-    "ErpConnectionId": 952,
-    "ExtraData": "placeat",
-    "IsAvailable": false,
-    "InitializeResponse": null,
-    "PriceLists": [
-      {
-        "PriceListId": 942,
-        "ERPPriceListKey": "voluptatibus",
-        "QuoteConnectionId": 438,
-        "Name": "Corwin Inc and Sons",
-        "Description": "Open-source cohesive artificial intelligence",
-        "Currency": "ipsum",
-        "CurrencyName": "Huels LLC",
-        "ValidFrom": "2005-09-22T02:30:47.7256947+02:00",
-        "ValidTo": "2004-04-06T02:30:47.7256947+02:00",
-        "IsActive": true,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
-          }
-        }
-      }
-    ],
-    "AllAccess": false,
-    "Deleted": false,
-    "UserGroupAccessIds": [
-      579,
-      488
-    ],
-    "AssociateAccessIds": [
-      832,
-      307
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 941
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetAllInstalledQuoteConnections.md)]

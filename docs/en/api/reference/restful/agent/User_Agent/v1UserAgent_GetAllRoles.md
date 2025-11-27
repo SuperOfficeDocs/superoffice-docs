@@ -90,78 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetAllRoles
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleType": "Anonymous"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetAllRoles.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 679,
-    "Name": "Balistreri, Bergnaum and Parker",
-    "ToolTip": "Unde assumenda dicta consectetur nulla vel qui minus.",
-    "Deleted": true,
-    "Rank": 864,
-    "Type": "et",
-    "ColorBlock": 917,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2011-05-04T02:30:48.0850579+02:00",
-    "ChildItems": [
-      {
-        "Id": 768,
-        "Name": "Olson, Schuster and Jast",
-        "ToolTip": "Repellat perspiciatis ut architecto voluptatum quo necessitatibus.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "rerum",
-        "ColorBlock": 58,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "2023-03-13T02:30:48.0850579+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Aliza Veum",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 666
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "ut",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Kayden Carroll",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 488
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetAllRoles.md)]

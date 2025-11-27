@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustConfigId": 738,
-  "Type": "Options",
-  "Config": "soluta",
-  "CustLangId": 299,
-  "Registered": "1999-03-22T02:30:47.0538389+01:00",
-  "RegisteredAssociateId": 469,
-  "Updated": "2016-01-15T02:30:47.0538389+01:00",
-  "UpdatedAssociateId": 689
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_SaveCustomerCenterConfig.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustConfigId": 536,
-  "Type": "Options",
-  "Config": "vel",
-  "CustLangId": 156,
-  "Registered": "2020-06-07T02:30:47.0538389+02:00",
-  "RegisteredAssociateId": 647,
-  "Updated": "2000-07-27T02:30:47.0538389+02:00",
-  "UpdatedAssociateId": 166,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_SaveCustomerCenterConfig.md)]

@@ -64,54 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ForeignApp/{appName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_PostForeignApp.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 278,
-  "Name": "Senger Group",
-  "CreatedDate": "2020-09-01T02:30:52.6474115+02:00",
-  "UpdatedDate": "1999-12-14T02:30:52.6474115+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 264,
-      "Name": "Mertz Inc and Sons",
-      "CreatedDate": "2005-04-21T02:30:52.6474115+02:00",
-      "UpdatedDate": "2023-03-06T02:30:52.6474115+01:00",
-      "AssociateFullName": "Ms. Margarita Lucas Ondricka IV",
-      "CreatedBy": "dolorem",
-      "UpdatedBy": "assumenda",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 59,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 883
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_PostForeignApp.md)]

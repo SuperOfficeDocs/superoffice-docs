@@ -81,36 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/CreateDefaultBoardViewSettingsFromEntityType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityType": "ContactPerson"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_CreateDefaultBoardViewSettingsFromEntityType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BoardViewSettingsId": 260,
-  "EntityType": "ContactPerson",
-  "AssociateId": 18,
-  "SelectionId": 123,
-  "HideEmptyGroups": true,
-  "GroupBy": "qui",
-  "SubGroupBy": "repellendus",
-  "SortBy": "dolore",
-  "SortDesc": false,
-  "SumBy": "excepturi",
-  "ColorBy": "et",
-  "Filters": "ut"
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_CreateDefaultBoardViewSettingsFromEntityType.md)]

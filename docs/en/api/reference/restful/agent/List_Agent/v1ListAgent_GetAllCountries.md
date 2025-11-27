@@ -89,52 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllCountries
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllCountries.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CountryId": 98,
-    "Name": "Ferry-Pouros",
-    "CurrencyId": 132,
-    "EnglishName": "Bogan, Frami and Monahan",
-    "TwoLetterISOCountry": "Sokovia",
-    "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Upgradable demand-driven website",
-    "OrgNrText": "639498",
-    "InterAreaPrefix": "omnis",
-    "DialInPrefix": "architecto",
-    "ZipPrefix": "velit",
-    "DomainName": "Kling Group",
-    "AddressLayoutId": 878,
-    "DomesticAddressLayoutId": 498,
-    "ForeignAddressLayoutId": 328,
-    "Rank": 188,
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllCountries.md)]

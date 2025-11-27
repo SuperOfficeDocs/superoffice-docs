@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=accusantium
-GET /api/v1/Pricelist?$top=611
-GET /api/v1/Pricelist?$skip=421
+GET /api/v1/Pricelist?$entities=minima
+GET /api/v1/Pricelist?$top=58
+GET /api/v1/Pricelist?$skip=475
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=aut
+GET /api/v1/Pricelist?$context=eveniet
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Pricelist
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "pariatur",
-  "value": [
-    {
-      "PrimaryKey": 7905,
-      "EntityName": "sale",
-      "saleId": 7905,
-      "contactId": 5742,
-      "name": "Block-Marvin"
-    },
-    {
-      "PrimaryKey": 5987,
-      "EntityName": "sale",
-      "saleId": 5987,
-      "contactId": 4352,
-      "name": "Braun Inc and Sons"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_GetAll.md)]

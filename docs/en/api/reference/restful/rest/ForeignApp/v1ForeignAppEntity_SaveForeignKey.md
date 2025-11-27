@@ -80,47 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "dicta",
-  "Value": "dignissimos",
-  "RecordId": 300,
-  "CreatedDate": "2008-02-19T02:30:52.6630355+01:00",
-  "UpdatedDate": "2019-08-23T02:30:52.6630355+02:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "consequuntur",
-  "TableName": "Hartmann-Willms"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_SaveForeignKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "inventore",
-  "Value": "qui",
-  "RecordId": 708,
-  "CreatedDate": "2005-03-17T02:30:52.6630355+01:00",
-  "UpdatedDate": "2014-12-14T02:30:52.6630355+01:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "harum",
-  "TableName": "Pfannerstill-Baumbach",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_SaveForeignKey.md)]

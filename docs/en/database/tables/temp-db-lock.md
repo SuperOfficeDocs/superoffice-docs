@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# temp\_db\_lock Table (523)
+# temp\_db\_lock Table (526)
 
 Represents a temporary lock on a resource identified by table_id and key
 

@@ -71,37 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/GetSaintConfigurations
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_GetSaintConfigurations.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "OwnerTable": 865,
-    "Enabled": true,
-    "Period1": 625,
-    "Period2": 570,
-    "Period3": 211,
-    "GenerationStart": "2012-03-11T02:30:47.7569437+01:00",
-    "GenerationEnd": "1999-10-22T02:30:47.7569437+02:00",
-    "RowsGenerated": 329,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 319
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_GetSaintConfigurations.md)]

@@ -68,27 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/AddSelectionMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 185,
-  "Ids": [
-    104,
-    268
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_AddSelectionMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-992
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_AddSelectionMembers.md)]

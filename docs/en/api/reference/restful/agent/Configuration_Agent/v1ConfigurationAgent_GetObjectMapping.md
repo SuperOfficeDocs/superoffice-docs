@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetObjectMapping
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Application": "blanditiis",
-  "Instance": "eum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetObjectMapping.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"natus"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetObjectMapping.md)]

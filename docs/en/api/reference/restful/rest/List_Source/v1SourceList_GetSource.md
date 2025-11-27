@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Source/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_GetSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 815,
-  "Name": "Swaniawski-Bradtke",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "UdListDefinitionId": 464,
-  "Rank": 592,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_GetSource.md)]

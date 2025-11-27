@@ -68,26 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetPluginCapabilities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PluginId": 218
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetPluginCapabilities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "nam",
-  "2": "in"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetPluginCapabilities.md)]

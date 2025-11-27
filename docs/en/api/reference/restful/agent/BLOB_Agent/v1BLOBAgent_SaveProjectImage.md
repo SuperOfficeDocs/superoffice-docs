@@ -64,24 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/SaveProjectImage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Fully-configurable value-added customer loyalty",
-  "Image": "GIF89....File contents as raw bytes..."
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_SaveProjectImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_SaveProjectImage.md)]

@@ -58,44 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "NumDocumentsOmitted": 983,
-  "NumDocumentsAlreadyMigrated": 661,
-  "Documents": [
-    {
-      "DocumentId": 764,
-      "ContactId": 796,
-      "PersonId": 816,
-      "SaleId": 791,
-      "ProjectId": 301,
-      "DocTmplId": 869,
-      "AssociateId": 16,
-      "UserGroupId": 448,
-      "VisibleForId": 729
-    }
-  ],
-  "Associates": [
-    {
-      "AssociateId": 735,
-      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
-    },
-    {
-      "AssociateId": 735,
-      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList.md)]

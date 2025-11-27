@@ -90,61 +90,8 @@ ProjectEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/UdefLayout/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 792,
-  "ColumnId": 689,
-  "FieldDefault": "quas",
-  "FieldHeight": 9,
-  "FieldLabel": "quia",
-  "FieldLeft": 20,
-  "FieldTop": 562,
-  "FieldType": "Checkbox",
-  "FieldWidth": 646,
-  "FormatMask": "fugit",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 689,
-  "LabelLeft": 446,
-  "LabelTop": 624,
-  "LabelWidth": 293,
-  "LastVersionId": 219,
-  "ListTableId": 151,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 852,
-  "ProgId": "ullam",
-  "IsReadOnly": true,
-  "ShortLabel": "odit",
-  "TabOrder": 767,
-  "TextLength": 956,
-  "Tooltip": "commodi",
-  "UdefIdentity": 634,
-  "UDListDefinitionId": 233,
-  "Justification": "Center",
-  "Version": 505,
-  "TemplateVariableName": "Satterfield Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Stamm, Bins and Funk",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetUdefFieldInfo.md)]

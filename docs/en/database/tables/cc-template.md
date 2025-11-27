@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# cc\_template Table (478)
+# cc\_template Table (481)
 
 This table contains templates for the customer center
 

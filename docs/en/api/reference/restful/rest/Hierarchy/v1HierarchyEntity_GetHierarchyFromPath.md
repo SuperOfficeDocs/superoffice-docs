@@ -76,61 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Hierarchy/{domain}/{path}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1HierarchyEntity_GetHierarchyFromPath.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 876,
-  "Domain": "Dashboards",
-  "Name": "Glover, D'Amore and Kunde",
-  "Fullname": "tenetur",
-  "ParentId": 496,
-  "Children": [
-    {
-      "HierarchyId": 383,
-      "Domain": "Dashboards",
-      "Name": "Homenick, Wunsch and Dooley",
-      "Fullname": "corporis",
-      "ParentId": 859,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2001-07-16T02:30:52.6630355+02:00",
-      "RegisteredAssociateId": 37,
-      "Updated": "2019-07-16T02:30:52.6630355+02:00",
-      "UpdatedAssociateId": 22,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
-        }
-      }
-    }
-  ],
-  "Registered": "2018-02-19T02:30:52.6630355+01:00",
-  "RegisteredAssociateId": 224,
-  "Updated": "2011-07-27T02:30:52.6630355+02:00",
-  "UpdatedAssociateId": 754,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1HierarchyEntity_GetHierarchyFromPath.md)]

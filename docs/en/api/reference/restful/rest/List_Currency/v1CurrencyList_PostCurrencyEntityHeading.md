@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Currency/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 318,
-  "Name": "Tillman LLC",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 43,
-  "UdListDefinitionId": 383
-}
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_PostCurrencyEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 7,
-  "Name": "Renner, Skiles and Homenick",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 808,
-  "UdListDefinitionId": 295,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_PostCurrencyEntityHeading.md)]

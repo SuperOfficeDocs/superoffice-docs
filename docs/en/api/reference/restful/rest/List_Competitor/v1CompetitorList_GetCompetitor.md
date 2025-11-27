@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Competitor/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_GetCompetitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 405,
-  "Name": "Parker LLC",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "UdListDefinitionId": 689,
-  "Rank": 90,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_GetCompetitor.md)]

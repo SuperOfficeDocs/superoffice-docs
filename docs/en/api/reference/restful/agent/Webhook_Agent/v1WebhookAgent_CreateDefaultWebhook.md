@@ -68,41 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/CreateDefaultWebhook
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_CreateDefaultWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 554,
-  "Name": "Hintz-Bednar",
-  "Events": [
-    "sed",
-    "quia"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "veniam",
-  "State": "Active",
-  "Type": "vel",
-  "Headers": {
-    "Headers1": "nobis",
-    "Headers2": "nihil"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2009-09-07T02:30:48.1475549+02:00",
-  "RegisteredAssociate": null,
-  "Updated": "2014-12-09T02:30:48.1475549+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "sandrine_wisozk@strosin.com"
-}
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_CreateDefaultWebhook.md)]

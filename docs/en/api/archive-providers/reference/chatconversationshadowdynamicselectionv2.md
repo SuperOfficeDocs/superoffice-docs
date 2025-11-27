@@ -496,7 +496,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/personAddress/wgs84longitude,contact/categoryGroup,contact/contactPhone/formattedNumber
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=firstMessage,person/personAddress/formattedMultiLineAddress,person/personAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

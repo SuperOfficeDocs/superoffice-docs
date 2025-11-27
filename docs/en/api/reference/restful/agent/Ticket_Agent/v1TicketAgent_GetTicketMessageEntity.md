@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=495
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=535
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -91,94 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetTicketMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjMessageId": 479,
-  "Ticket": null,
-  "CreatedAt": "2011-03-12T02:30:48.0538071+01:00",
-  "CreatedBy": null,
-  "Author": "magnam",
-  "Slevel": "External",
-  "Type": "Html",
-  "MessageId": "aliquam",
-  "TimeSpent": 354,
-  "Body": "quas",
-  "HtmlBody": "eos",
-  "EmailHeader": "ruby@okuneva.info",
-  "DebugInfo": "nostrum",
-  "MailSorter": "ea",
-  "MessageCategory": "Bounce",
-  "Person": null,
-  "SearchTitle": "recusandae",
-  "MessageHeaders": [
-    {
-      "Id": 508,
-      "Name": "Dare, Weissnat and Kihn",
-      "Value": "nihil",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
-        }
-      }
-    }
-  ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 653,
-  "SentimentConfidence": 156,
-  "Badge": "Comment",
-  "AttachmentsInfo": [
-    {
-      "AttachmentId": 350,
-      "Name": "Swaniawski, Heathcote and Mitchell",
-      "ContentType": "quam",
-      "AttSize": 93,
-      "InlineImage": false,
-      "ContentId": "fuga",
-      "AuthKey": "facilis",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
-        }
-      }
-    }
-  ],
-  "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "eaque"
-  },
-  "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "velit"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetTicketMessageEntity.md)]

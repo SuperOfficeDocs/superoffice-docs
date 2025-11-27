@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/AddFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Runolfsdottir, Heller and Torphy",
-  "Item": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_AddFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 895,
-  "Name": "Lebsack-Sporer",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 566,
-  "Rank": 145,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_AddFromListName.md)]

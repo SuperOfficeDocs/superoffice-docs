@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 43,
-  "StartTime": "1999-05-18T02:30:47.0694635+02:00",
-  "EndTime": "2010-11-04T02:30:47.0694635+01:00",
-  "Count": 24,
-  "TemplateHeadingId": 598
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetContactDocumentsByTemplateHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 45,
-    "Attention": "nemo",
-    "Header": "eum",
-    "Name": "Auer-Moen",
-    "OurRef": "corrupti",
-    "YourRef": "qui",
-    "Description": "Stand-alone regional methodology",
-    "DocumentTemplate": "non",
-    "IsPublished": false,
-    "PersonId": 969,
-    "PersonFullName": "Carlos Hansen MD",
-    "AssociateFullName": "Agustin Marvin",
-    "ContactId": 47,
-    "ContactName": "Hane-Lakin",
-    "ProjectId": 954,
-    "ProjectName": "Muller Inc and Sons",
-    "AssociateId": 663,
-    "Snum": 248,
-    "SaleId": 556,
-    "SaleName": "Strosin, Wilderman and Boyer",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 309
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetContactDocumentsByTemplateHeading.md)]

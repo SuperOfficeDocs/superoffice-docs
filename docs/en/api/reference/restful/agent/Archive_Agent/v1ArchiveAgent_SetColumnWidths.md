@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/SetColumnWidths
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "GuiName": "Keeling, Satterfield and Bogan",
-  "ColumnWidths": [
-    "quasi",
-    "non"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_SetColumnWidths.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_SetColumnWidths.md)]

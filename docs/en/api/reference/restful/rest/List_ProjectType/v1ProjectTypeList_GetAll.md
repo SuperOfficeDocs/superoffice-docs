@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 212,
-    "Name": "Bashirian, Robel and Miller",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "UdListDefinitionId": 452,
-    "Rank": 436,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetAll.md)]

@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/RemoveParticipantsFromEmailFlow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailFlowId": 823,
-  "WorkflowInstanceIds": [
-    266,
-    480
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md)]

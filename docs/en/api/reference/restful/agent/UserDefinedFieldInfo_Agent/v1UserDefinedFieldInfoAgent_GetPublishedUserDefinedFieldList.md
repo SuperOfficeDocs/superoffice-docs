@@ -105,68 +105,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 527,
-    "ColumnId": 878,
-    "FieldDefault": "corporis",
-    "FieldHeight": 538,
-    "FieldLabel": "quo",
-    "FieldLeft": 73,
-    "FieldTop": 234,
-    "FieldType": "Checkbox",
-    "FieldWidth": 919,
-    "FormatMask": "accusantium",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 393,
-    "LabelLeft": 996,
-    "LabelTop": 866,
-    "LabelWidth": 888,
-    "LastVersionId": 186,
-    "ListTableId": 461,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 660,
-    "ProgId": "neque",
-    "IsReadOnly": false,
-    "ShortLabel": "laboriosam",
-    "TabOrder": 825,
-    "TextLength": 994,
-    "Tooltip": "ut",
-    "UdefIdentity": 937,
-    "UDListDefinitionId": 212,
-    "Justification": "Center",
-    "Version": 55,
-    "TemplateVariableName": "Wisozk, Romaguera and Rowe",
-    "HasBeenPublished": true,
-    "MdoListName": "Bauch-Douglas",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList.md)]

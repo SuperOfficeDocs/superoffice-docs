@@ -88,49 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 130,
-    "Attention": "porro",
-    "Header": "sed",
-    "Name": "Romaguera-McGlynn",
-    "OurRef": "sequi",
-    "YourRef": "omnis",
-    "Description": "Team-oriented exuding interface",
-    "DocumentTemplate": "tenetur",
-    "IsPublished": true,
-    "PersonId": 374,
-    "PersonFullName": "Rosemary Crooks II",
-    "AssociateFullName": "America Lakin",
-    "ContactId": 761,
-    "ContactName": "Satterfield Inc and Sons",
-    "ProjectId": 160,
-    "ProjectName": "Bauch LLC",
-    "AssociateId": 240,
-    "Snum": 748,
-    "SaleId": 624,
-    "SaleName": "Kulas LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 684
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentList.md)]

@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteApproveReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 236,
-    "Name": "McKenzie Group",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 55,
-    "Rank": 217
-  },
-  {
-    "Id": 236,
-    "Name": "McKenzie Group",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 55,
-    "Rank": 217
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_PutAllQuoteApproveReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 768,
-    "Name": "Hammes-Koch",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "UdListDefinitionId": 114,
-    "Rank": 30,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 146
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_PutAllQuoteApproveReason.md)]

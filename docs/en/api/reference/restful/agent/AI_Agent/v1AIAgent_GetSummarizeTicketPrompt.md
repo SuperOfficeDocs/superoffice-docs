@@ -82,39 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetSummarizeTicketPrompt
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 100,
-  "NumSentences": 813,
-  "Summary": "deserunt",
-  "IsoLangCode": "assumenda"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetSummarizeTicketPrompt.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Timestamp": "2004-01-18T02:30:46.4913585+01:00",
-  "UserPrompt": "quis",
-  "UserDisplayText": "quia",
-  "BotResponse": "rerum",
-  "BotActions": {
-    "BotActions1": "sit",
-    "BotActions2": "expedita"
-  },
-  "Attachments": [
-    "mollitia",
-    "et"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetSummarizeTicketPrompt.md)]

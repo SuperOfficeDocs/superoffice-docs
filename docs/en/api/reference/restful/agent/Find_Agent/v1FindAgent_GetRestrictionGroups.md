@@ -76,83 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetRestrictionGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "veritatis",
-  "ProviderName": "Braun, Effertz and Koelpin",
-  "StorageKey": "dicta",
-  "Context": "rerum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetRestrictionGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Kirlin-Turcotte",
-    "Description": "Switchable assymetric strategy",
-    "Rank": 592,
-    "Restrictions": [
-      {
-        "Name": "Mayer-Heidenreich",
-        "Operator": "deserunt",
-        "Values": [
-          "et",
-          "et"
-        ],
-        "DisplayValues": [
-          "est",
-          "et"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 923,
-        "InterOperator": "And",
-        "UniqueHash": 667
-      }
-    ]
-  },
-  {
-    "Name": "Kirlin-Turcotte",
-    "Description": "Switchable assymetric strategy",
-    "Rank": 592,
-    "Restrictions": [
-      {
-        "Name": "Mayer-Heidenreich",
-        "Operator": "deserunt",
-        "Values": [
-          "et",
-          "et"
-        ],
-        "DisplayValues": [
-          "est",
-          "et"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 923,
-        "InterOperator": "And",
-        "UniqueHash": 667
-      }
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetRestrictionGroups.md)]

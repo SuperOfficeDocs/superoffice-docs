@@ -74,55 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{udListDefinitionName}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 22,
-    "Name": "Stiedemann-Gerlach",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 660,
-    "Rank": 490
-  },
-  {
-    "Id": 22,
-    "Name": "Stiedemann-Gerlach",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 660,
-    "Rank": 490
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveAllFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 716,
-    "Name": "Trantow Group",
-    "Tooltip": "totam",
-    "Deleted": false,
-    "UdListDefinitionId": 926,
-    "Rank": 238,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 868
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveAllFromListName.md)]

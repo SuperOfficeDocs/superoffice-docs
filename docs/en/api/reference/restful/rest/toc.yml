@@ -290,6 +290,36 @@ items:
     href: ContactRelation/v1ContactRelationEntity_PostContactRelationEntity.md
   - name: PUT Relation/{id}
     href: ContactRelation/v1ContactRelationEntity_PutContactRelationEntity.md
+- name: Copilot
+  href: Copilot/index.md
+  items:
+  - name: DEL Copilot/{id}
+    href: Copilot/v1CopilotEntity_DeleteCopilotEntity.md
+  - name: GET Copilot/{id}
+    href: Copilot/v1CopilotEntity_GetCopilotEntity.md
+  - name: GET Copilot/default
+    href: Copilot/v1CopilotEntity_DefaultCopilotEntity.md
+  - name: PATCH Copilot/{id}
+    href: Copilot/v1CopilotEntity_PatchCopilotEntity.md
+  - name: POST Copilot
+    href: Copilot/v1CopilotEntity_PostCopilotEntity.md
+  - name: PUT Copilot/{id}
+    href: Copilot/v1CopilotEntity_PutCopilotEntity.md
+- name: CopilotDataSource
+  href: CopilotDataSource/index.md
+  items:
+  - name: DEL CopilotDataSource/{id}
+    href: CopilotDataSource/v1CopilotDataSourceEntity_DeleteCopilotDataSourceEntity.md
+  - name: GET CopilotDataSource/{id}
+    href: CopilotDataSource/v1CopilotDataSourceEntity_GetCopilotDataSourceEntity.md
+  - name: GET CopilotDataSource/default
+    href: CopilotDataSource/v1CopilotDataSourceEntity_DefaultCopilotDataSourceEntity.md
+  - name: PATCH CopilotDataSource/{id}
+    href: CopilotDataSource/v1CopilotDataSourceEntity_PatchCopilotDataSourceEntity.md
+  - name: POST CopilotDataSource
+    href: CopilotDataSource/v1CopilotDataSourceEntity_PostCopilotDataSourceEntity.md
+  - name: PUT CopilotDataSource/{id}
+    href: CopilotDataSource/v1CopilotDataSourceEntity_PutCopilotDataSourceEntity.md
 - name: CRMScript
   href: CRMScript/index.md
   items:

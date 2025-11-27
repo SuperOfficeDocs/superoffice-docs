@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=dolore
+GET /api/v1/List/Source/MDOItems?query=praesentium
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Source/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 167,
-    "Name": "Hane-Nader",
-    "ToolTip": "Sequi ad placeat blanditiis recusandae sequi tempora autem.",
-    "Deleted": false,
-    "Rank": 130,
-    "Type": "asperiores",
-    "ChildItems": [
-      {
-        "Id": 69,
-        "Name": "Borer-Gulgowski",
-        "ToolTip": "Culpa assumenda.",
-        "Deleted": true,
-        "Rank": 126,
-        "Type": "molestias",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "amet",
-        "ColorBlock": 325,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "explicabo",
-        "FullName": "Mrs. Andrew Lynch",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 385
-          }
-        }
-      }
-    ],
-    "IconHint": "ut",
-    "ColorBlock": 855,
-    "ExtraInfo": "nisi",
-    "StyleHint": "excepturi",
-    "FullName": "Tremayne Mueller II",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_GetMDOList.md)]

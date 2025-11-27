@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonStalled/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 650,
-    "Name": "Hilll, Ebert and Fadel",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 359,
-    "UdListDefinitionId": 161
-  },
-  {
-    "HeadingId": 650,
-    "Name": "Hilll, Ebert and Fadel",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 359,
-    "UdListDefinitionId": 161
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_PutReasonStalledHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 893,
-    "Name": "Durgan, Koss and Hoppe",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 97,
-    "UdListDefinitionId": 488,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_PutReasonStalledHeadings.md)]

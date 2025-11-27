@@ -62,55 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetAppByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 08 Mar 2009 02:30:52 G3T
-
-{
-  "ForeignAppId": 718,
-  "Name": "Kozey Inc and Sons",
-  "CreatedDate": "2000-01-14T02:30:52.6474115+01:00",
-  "UpdatedDate": "2009-03-08T02:30:52.6474115+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 359,
-      "Name": "Moen Inc and Sons",
-      "CreatedDate": "2004-02-06T02:30:52.6474115+01:00",
-      "UpdatedDate": "2013-03-30T02:30:52.6474115+01:00",
-      "AssociateFullName": "Amy Tianna Price III",
-      "CreatedBy": "maiores",
-      "UpdatedBy": "reiciendis",
-      "DeviceIdentifier": "officiis",
-      "ForeignAppId": 51,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetAppByName.md)]

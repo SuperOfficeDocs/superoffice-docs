@@ -109,75 +109,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/WebPanel/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 575,
-  "Name": "Swift-Feil",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 498,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Eichmann-Reinger",
-  "Url": "http://www.example.com/",
-  "ProgId": "suscipit",
-  "Icon": 626,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_PutWebPanelEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 976,
-  "Name": "Ebert Group",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "Rank": 582,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Renner Group",
-  "Url": "http://www.example.com/",
-  "ProgId": "itaque",
-  "Icon": 881,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_PutWebPanelEntity.md)]

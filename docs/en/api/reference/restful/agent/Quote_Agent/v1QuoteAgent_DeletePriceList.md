@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | priceListId | int32 | **Required** The identity of the PriceList |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?priceListId=933
+POST /api/v1/Agents/Quote/DeletePriceList?priceListId=635
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/DeletePriceList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_DeletePriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_DeletePriceList.md)]

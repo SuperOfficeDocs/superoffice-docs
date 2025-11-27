@@ -118,81 +118,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 915,
-  "ContactId": 857,
-  "ProjectId": 517,
-  "ContactName": "Zulauf, Bergstrom and Fahey",
-  "ContactDepartment": "",
-  "ProjectName": "Hilpert, Zulauf and Cassin",
-  "EmailId": 755,
-  "EmailAddress": "sofia@heller.info",
-  "CountryId": 533,
-  "Firstname": "Ed",
-  "MiddleName": "Gerlach Group",
-  "Lastname": "Gutkowski",
-  "PersonId": 405,
-  "Mrmrs": "veritatis",
-  "ProjectMemberTypeName": "Stokes-Koch",
-  "Phone": "(668)276-4519 x044",
-  "PhoneId": 709,
-  "ProjectMemberTypeId": 843,
-  "EmailAddressName": "celia_feil@herzog.uk",
-  "Comment": "voluptatem",
-  "FullName": "Felton Padberg",
-  "Registered": "2004-04-30T02:30:53.0692723+02:00",
-  "Updated": "2005-05-10T02:30:53.0692723+02:00"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_PostProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 938,
-  "ContactId": 189,
-  "ProjectId": 305,
-  "ContactName": "Powlowski-Blanda",
-  "ContactDepartment": "",
-  "ProjectName": "Zulauf, Adams and Kuhic",
-  "EmailId": 267,
-  "EmailAddress": "elena_schmeler@smitham.info",
-  "CountryId": 450,
-  "Firstname": "Marisa",
-  "MiddleName": "Macejkovic-Batz",
-  "Lastname": "Bednar",
-  "PersonId": 402,
-  "Mrmrs": "vero",
-  "ProjectMemberTypeName": "Watsica-Heaney",
-  "Phone": "276-614-8586",
-  "PhoneId": 264,
-  "ProjectMemberTypeId": 87,
-  "EmailAddressName": "jeanette.paucek@johnston.uk",
-  "Comment": "sit",
-  "FullName": "Noe Durgan",
-  "Registered": "2015-07-12T02:30:53.0692723+02:00",
-  "Updated": "2024-01-22T02:30:53.0692723+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_PostProjectMember.md)]

@@ -91,81 +91,8 @@ ForeignAppEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/ForeignApp/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 784,
-  "Name": "Rowe LLC",
-  "CreatedDate": "2007-01-11T02:30:52.6474115+01:00",
-  "UpdatedDate": "2019-06-29T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 60,
-      "Name": "Schmidt-Satterfield",
-      "CreatedDate": "2021-12-07T02:30:52.6474115+01:00",
-      "UpdatedDate": "2005-04-18T02:30:52.6474115+02:00",
-      "AssociateFullName": "Jamel Conn",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 980
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_PutForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ForeignAppEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 251,
-  "Name": "Shields-Schaefer",
-  "CreatedDate": "2011-05-02T02:30:52.6474115+02:00",
-  "UpdatedDate": "2006-07-19T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 999,
-      "Name": "Cremin Group",
-      "CreatedDate": "2024-01-01T02:30:52.6474115+01:00",
-      "UpdatedDate": "2004-07-24T02:30:52.6474115+02:00",
-      "AssociateFullName": "Jessika McGlynn",
-      "CreatedBy": "explicabo",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "amet",
-      "ForeignAppId": 735,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 270
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_PutForeignAppEntity.md)]

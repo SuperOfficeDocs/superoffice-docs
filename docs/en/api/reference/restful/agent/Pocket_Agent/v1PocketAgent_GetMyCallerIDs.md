@@ -73,38 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Pocket/GetMyCallerIDs
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "LastHash": "quia",
-  "MinDate": "2009-01-21T02:30:47.5850743+01:00",
-  "MaxDate": "2006-08-15T02:30:47.5850743+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PocketAgent_GetMyCallerIDs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CallerIDHash": "eos",
-  "CallerIDs": [
-    {
-      "PhoneNumber": 99.99,
-      "DialInPrefix": 943,
-      "PersonId": 344,
-      "PersonName": "Lebsack, Denesik and Pouros",
-      "Mrmrs": "et",
-      "ContactId": 292,
-      "ContactName": "Kihn Group"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1PocketAgent_GetMyCallerIDs.md)]

@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ReasonStalled/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 683,
-  "Name": "Stark, Little and Windler",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 144,
-  "UdListDefinitionId": 767
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_PostReasonStalledHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 27,
-  "Name": "Champlin LLC",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 447,
-  "UdListDefinitionId": 708,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_PostReasonStalledHeading.md)]

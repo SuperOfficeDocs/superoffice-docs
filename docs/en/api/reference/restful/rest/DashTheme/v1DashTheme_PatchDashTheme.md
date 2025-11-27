@@ -111,51 +111,8 @@ DashTheme  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/DashTheme/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "in",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "in",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DashTheme_PatchDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTheme  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 982,
-  "Name": "Trantow-Dibbert",
-  "Config": "quae",
-  "Rank": 838,
-  "Client": "odit",
-  "Style": "quae",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTheme_PatchDashTheme.md)]

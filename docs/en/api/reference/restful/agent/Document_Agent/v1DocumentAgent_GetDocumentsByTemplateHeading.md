@@ -92,54 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TemplateHeadingId": 79
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentsByTemplateHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 339,
-    "Attention": "aut",
-    "Header": "adipisci",
-    "Name": "Bergstrom LLC",
-    "OurRef": "et",
-    "YourRef": "sunt",
-    "Description": "Cloned 24 hour middleware",
-    "DocumentTemplate": "animi",
-    "IsPublished": false,
-    "PersonId": 912,
-    "PersonFullName": "Freeman Jacobi",
-    "AssociateFullName": "Danika Stanton",
-    "ContactId": 633,
-    "ContactName": "Schroeder-Harvey",
-    "ProjectId": 347,
-    "ProjectName": "Greenholt, DuBuque and Kuhn",
-    "AssociateId": 796,
-    "Snum": 563,
-    "SaleId": 251,
-    "SaleName": "Hoppe, Yundt and Gaylord",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 316
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentsByTemplateHeading.md)]

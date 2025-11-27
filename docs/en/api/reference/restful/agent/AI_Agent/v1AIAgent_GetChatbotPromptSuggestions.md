@@ -80,38 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsoLangCode": "adipisci",
-  "SoProtocol": "accusamus",
-  "CurrentId": 403
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetChatbotPromptSuggestions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Timestamp": "2020-04-02T02:30:46.4913585+02:00",
-  "UserPrompt": "iure",
-  "UserDisplayText": "eum",
-  "BotResponse": "laborum",
-  "BotActions": {
-    "BotActions1": "qui",
-    "BotActions2": "totam"
-  },
-  "Attachments": [
-    "aut",
-    "illum"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetChatbotPromptSuggestions.md)]

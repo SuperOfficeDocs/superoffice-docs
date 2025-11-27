@@ -105,71 +105,8 @@ Webhook updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/Webhook/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 777,
-  "Name": "Turcotte-Langosh",
-  "Events": [
-    "tenetur",
-    "laborum"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
-  "State": "Active",
-  "Type": "ut",
-  "Headers": {
-    "Headers1": "et",
-    "Headers2": "et"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2014-11-17T02:30:53.1786436+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2007-11-28T02:30:53.1786436+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "dixie@pacochaortiz.biz"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_PutWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 Webhook updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 451,
-  "Name": "Renner LLC",
-  "Events": [
-    "cupiditate",
-    "sed"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "nobis",
-  "State": "Active",
-  "Type": "et",
-  "Headers": {
-    "Headers1": "id",
-    "Headers2": "placeat"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2002-10-05T02:30:53.1786436+02:00",
-  "RegisteredAssociate": null,
-  "Updated": "2004-08-01T02:30:53.1786436+02:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "orin@brekke.us",
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_PutWebhook.md)]

@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/Reject
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 869,
-  "RejectReason": "",
-  "UpdateMode": "OnlyThis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_Reject.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_Reject.md)]

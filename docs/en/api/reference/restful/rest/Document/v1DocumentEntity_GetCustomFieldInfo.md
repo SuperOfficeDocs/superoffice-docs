@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Zboncak, Nader and Herman",
-  "DisplayName": "Spencer LLC",
-  "Description": "Open-architected interactive hardware",
-  "ShortLabel": "excepturi",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 491,
-  "TemplateVariableName": "Altenwerth Group"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetCustomFieldInfo.md)]

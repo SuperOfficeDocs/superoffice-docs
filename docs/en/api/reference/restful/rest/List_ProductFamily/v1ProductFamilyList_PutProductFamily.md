@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductFamily/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 779,
-  "Name": "Hyatt-Wehner",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 745,
-  "Rank": 706
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_PutProductFamily.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 549,
-  "Name": "Rosenbaum, Kunde and Bernhard",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 663,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_PutProductFamily.md)]

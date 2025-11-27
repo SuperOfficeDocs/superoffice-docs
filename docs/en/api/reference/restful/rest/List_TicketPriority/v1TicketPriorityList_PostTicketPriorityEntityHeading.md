@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketPriority/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 265,
-  "Name": "Runolfsson, Senger and Braun",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 739,
-  "UdListDefinitionId": 16
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_PostTicketPriorityEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 453,
-  "Name": "Parker, Nitzsche and Ward",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 937,
-  "UdListDefinitionId": 440,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_PostTicketPriorityEntityHeading.md)]

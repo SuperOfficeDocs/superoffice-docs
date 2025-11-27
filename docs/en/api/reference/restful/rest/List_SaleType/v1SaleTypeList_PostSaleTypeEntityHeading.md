@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/SaleType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 770,
-  "Name": "Pfeffer, Stark and Hackett",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 450,
-  "UdListDefinitionId": 553
-}
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_PostSaleTypeEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 83,
-  "Name": "West, Vandervort and Legros",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "Rank": 907,
-  "UdListDefinitionId": 857,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_PostSaleTypeEntityHeading.md)]

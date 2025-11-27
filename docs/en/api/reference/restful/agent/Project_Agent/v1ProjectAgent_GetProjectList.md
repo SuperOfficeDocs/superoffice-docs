@@ -86,47 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 250,
-    "Name": "Wolf, Stark and Kertzmann",
-    "Description": "Re-engineered modular protocol",
-    "URL": "http://www.example.com/",
-    "Type": "non",
-    "AssociateId": 602,
-    "AssociateFullName": "Arnaldo Schmidt",
-    "TypeId": 108,
-    "Updated": "2018-02-09T02:30:47.6944454+01:00",
-    "StatusId": 917,
-    "Status": "dignissimos",
-    "TextId": 752,
-    "PublishTo": "2013-03-29T02:30:47.6944454+01:00",
-    "PublishFrom": "2003-02-13T02:30:47.6944454+01:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1198164",
-    "ActiveErpLinks": 738,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectList.md)]

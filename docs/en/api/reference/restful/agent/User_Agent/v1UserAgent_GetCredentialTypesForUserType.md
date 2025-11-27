@@ -80,40 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetCredentialTypesForUserType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UserType": "AnonymousAssociate"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetCredentialTypesForUserType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayType": "repellat",
-    "Type": "tenetur",
-    "Description": "Sharable stable hardware",
-    "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 352
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetCredentialTypesForUserType.md)]

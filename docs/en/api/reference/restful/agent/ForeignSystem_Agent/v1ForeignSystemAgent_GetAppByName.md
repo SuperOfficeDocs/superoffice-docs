@@ -78,59 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetAppByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Wyman, Jast and Schmeler"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetAppByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 358,
-  "Name": "Kuphal Group",
-  "CreatedDate": "2011-02-28T02:30:47.366331+01:00",
-  "UpdatedDate": "2017-01-10T02:30:47.366331+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 231,
-      "Name": "Mertz, Satterfield and Walker",
-      "CreatedDate": "2014-01-30T02:30:47.366331+01:00",
-      "UpdatedDate": "2024-07-24T02:30:47.366331+02:00",
-      "AssociateFullName": "Golda Ankunding",
-      "CreatedBy": "tempore",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 415,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetAppByName.md)]

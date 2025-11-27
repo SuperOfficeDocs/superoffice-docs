@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Marvin, Ondricka and Senger",
-  "Context": "provident"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BulkUpdateAgent_RemoveStoredFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1BulkUpdateAgent_RemoveStoredFields.md)]

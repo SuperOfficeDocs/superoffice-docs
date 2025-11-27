@@ -91,54 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPublishedProjectDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 839
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPublishedProjectDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 153,
-    "Attention": "et",
-    "Header": "ea",
-    "Name": "Mante-Waters",
-    "OurRef": "aliquid",
-    "YourRef": "consequatur",
-    "Description": "Multi-layered well-modulated benchmark",
-    "DocumentTemplate": "est",
-    "IsPublished": false,
-    "PersonId": 1001,
-    "PersonFullName": "Roel Kessler",
-    "AssociateFullName": "Eloise Labadie",
-    "ContactId": 262,
-    "ContactName": "Kohler, Halvorson and Welch",
-    "ProjectId": 863,
-    "ProjectName": "Cummerata LLC",
-    "AssociateId": 294,
-    "Snum": 166,
-    "SaleId": 852,
-    "SaleName": "Hane, Swaniawski and Purdy",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 588
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPublishedProjectDocuments.md)]

@@ -92,54 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPersonDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 398
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPersonDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 721,
-    "Attention": "aut",
-    "Header": "minima",
-    "Name": "D'Amore, Kerluke and Jewess",
-    "OurRef": "recusandae",
-    "YourRef": "dolor",
-    "Description": "Stand-alone discrete implementation",
-    "DocumentTemplate": "velit",
-    "IsPublished": false,
-    "PersonId": 67,
-    "PersonFullName": "Gene O'Reilly",
-    "AssociateFullName": "America Fisher II",
-    "ContactId": 359,
-    "ContactName": "Johnston-Towne",
-    "ProjectId": 765,
-    "ProjectName": "Barton, Bartoletti and Douglas",
-    "AssociateId": 357,
-    "Snum": 72,
-    "SaleId": 837,
-    "SaleName": "Johnston, Osinski and Jewess",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 381
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPersonDocuments.md)]

@@ -59,58 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultPreviewDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 214,
-  "Name": "Koelpin Inc and Sons",
-  "Description": "Programmable eco-centric encoding",
-  "OwnedByFullName": "Miss Shirley Morar",
-  "Registered": "2009-09-19T02:30:47.0694635+02:00",
-  "Tiles": [
-    {
-      "Name": "Metz, Kreiger and Block",
-      "TileType": "Area",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
-        }
-      }
-    },
-    {
-      "Name": "Metz, Kreiger and Block",
-      "TileType": "Area",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultPreviewDash.md)]

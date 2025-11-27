@@ -76,47 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveRelationDefinitionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 436,
-  "Name": "Hansen-Schuster",
-  "Tooltip": "sunt",
-  "PassiveText": "officiis",
-  "Deleted": false,
-  "Rank": 750,
-  "Source": "Both",
-  "Destination": "Both"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 4,
-  "Name": "Fahey, Jakubowski and Abernathy",
-  "Tooltip": "esse",
-  "PassiveText": "esse",
-  "Deleted": false,
-  "Rank": 872,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveRelationDefinitionEntity.md)]

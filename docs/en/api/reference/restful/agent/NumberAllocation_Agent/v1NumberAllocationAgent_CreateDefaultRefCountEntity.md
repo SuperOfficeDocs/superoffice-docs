@@ -64,64 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1NumberAllocationAgent_CreateDefaultRefCountEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RefCountsId": 236,
-  "Field": "delectus",
-  "RecordId": 554,
-  "SuggestedRecords": [
-    {
-      "Id": 180,
-      "Name": "Bednar, Gusikowski and Feeney",
-      "ToolTip": "Omnis ea voluptates aut omnis magni.",
-      "Deleted": false,
-      "Rank": 739,
-      "Type": "voluptatem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "recusandae",
-      "ColorBlock": 90,
-      "ExtraInfo": "delectus",
-      "StyleHint": "et",
-      "FullName": "Ettie Batz",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 50
-        }
-      }
-    }
-  ],
-  "CurrentValue": 126,
-  "TravelPrefix": 783,
-  "SatPrefix": 213,
-  "Allocate": true,
-  "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1NumberAllocationAgent_CreateDefaultRefCountEntity.md)]

@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 599
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetRecipientStatisticsFromProjectMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Total": 326,
-  "ValidPostalAddresses": 139,
-  "ValidEmailAddresses": 861,
-  "ValidFaxNumbers": 628,
-  "NoAddresses": 950,
-  "NoFaxOrEmails": 715,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetRecipientStatisticsFromProjectMembers.md)]

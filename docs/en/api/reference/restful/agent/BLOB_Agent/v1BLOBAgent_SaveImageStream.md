@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/SaveImageStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "AccessToken",
-  "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Configurable intangible function"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_SaveImageStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-892
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_SaveImageStream.md)]

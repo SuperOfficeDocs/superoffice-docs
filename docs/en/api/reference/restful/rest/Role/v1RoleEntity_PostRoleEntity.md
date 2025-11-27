@@ -99,59 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Role
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 331,
-  "Name": "Runolfsson, Feeney and Schoen",
-  "Tooltip": "quia",
-  "RoleType": "Anonymous",
-  "Deleted": 397,
-  "Rank": 893,
-  "Created": "2025-02-25T02:30:52.8349052+01:00",
-  "UseCategories": 598,
-  "CreatedBy": null,
-  "Updated": "2016-06-01T02:30:52.8349052+02:00",
-  "UpdatedBy": null,
-  "DataRights": null
-}
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_PostRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 205,
-  "Name": "Waters, Hauck and Mayert",
-  "Tooltip": "quia",
-  "RoleType": "Anonymous",
-  "Deleted": 955,
-  "Rank": 433,
-  "Created": "2011-12-15T02:30:52.8349052+01:00",
-  "UseCategories": 451,
-  "CreatedBy": null,
-  "Updated": "2019-05-13T02:30:52.8349052+02:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_PostRoleEntity.md)]

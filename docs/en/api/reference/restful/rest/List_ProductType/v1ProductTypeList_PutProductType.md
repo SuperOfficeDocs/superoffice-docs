@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 999,
-  "Name": "Cassin-Blanda",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 837,
-  "Rank": 830
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_PutProductType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 950,
-  "Name": "Lind-Barrows",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 514,
-  "Rank": 210,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 238
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_PutProductType.md)]

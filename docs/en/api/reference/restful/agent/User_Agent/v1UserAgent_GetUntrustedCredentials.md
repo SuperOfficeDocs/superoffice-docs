@@ -80,40 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetUntrustedCredentials
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "est"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetUntrustedCredentials.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ValidFrom": "2011-01-25T02:30:48.1163068+01:00",
-    "ValidTo": "2007-10-29T02:30:48.1163068+01:00",
-    "Comment": "ut",
-    "SecretValue": "accusantium",
-    "PublicValue": "est",
-    "IsActive": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 834
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetUntrustedCredentials.md)]

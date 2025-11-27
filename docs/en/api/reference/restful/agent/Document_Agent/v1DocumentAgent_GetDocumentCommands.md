@@ -76,42 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentCommands
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 210,
-  "AllowedReturnTypes": [
-    "nam",
-    "quis"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentCommands.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Jaskolski-Bogan",
-    "DisplayName": "Mueller Group",
-    "DisplayTooltip": "ex",
-    "IconHint": "dolor",
-    "ReturnType": "CustomGui"
-  },
-  {
-    "Name": "Jaskolski-Bogan",
-    "DisplayName": "Mueller Group",
-    "DisplayTooltip": "ex",
-    "IconHint": "dolor",
-    "ReturnType": "CustomGui"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentCommands.md)]

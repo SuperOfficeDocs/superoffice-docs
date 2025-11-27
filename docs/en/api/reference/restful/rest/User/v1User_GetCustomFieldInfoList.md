@@ -65,35 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/User/CustomField
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1User_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "West Group",
-    "DisplayName": "Konopelski-Jerde",
-    "Description": "Adaptive responsive database",
-    "ShortLabel": "ex",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 126,
-    "TemplateVariableName": "Kiehn, Yost and Conroy"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1User_GetCustomFieldInfoList.md)]

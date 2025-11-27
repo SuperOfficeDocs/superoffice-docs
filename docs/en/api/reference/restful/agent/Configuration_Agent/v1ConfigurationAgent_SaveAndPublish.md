@@ -84,48 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/SaveAndPublish
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDelta": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_SaveAndPublish.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDeltaId": 316,
-  "Name": "Yost-Runolfsdottir",
-  "Description": "Sharable incremental process improvement",
-  "DeltaJson": "consectetur",
-  "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "aliquam",
-  "UpdatedDate": "2005-06-22T02:30:46.9288431+02:00",
-  "CreatedDate": "2012-03-21T02:30:46.9288431+01:00",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "AppliesToIds": [
-    995,
-    139
-  ],
-  "AppliesToKey": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_SaveAndPublish.md)]

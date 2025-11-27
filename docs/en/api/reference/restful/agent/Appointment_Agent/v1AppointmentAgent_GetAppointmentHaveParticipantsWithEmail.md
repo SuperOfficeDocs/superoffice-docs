@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 566
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetAppointmentHaveParticipantsWithEmail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetAppointmentHaveParticipantsWithEmail.md)]

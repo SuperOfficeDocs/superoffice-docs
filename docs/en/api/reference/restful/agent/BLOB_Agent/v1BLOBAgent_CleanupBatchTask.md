@@ -63,23 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/CleanupBatchTask
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "BatchTaskId": 52
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_CleanupBatchTask.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_CleanupBatchTask.md)]

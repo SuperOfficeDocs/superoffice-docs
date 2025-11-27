@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 230,
-    "Name": "Rau Group",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "Rank": 321,
-    "UdListDefinitionId": 872
-  },
-  {
-    "HeadingId": 230,
-    "Name": "Rau Group",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "Rank": 321,
-    "UdListDefinitionId": 872
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_PutTicketTypeEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 250,
-    "Name": "Kozey, Price and Hauck",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 898,
-    "UdListDefinitionId": 642,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_PutTicketTypeEntityHeadings.md)]

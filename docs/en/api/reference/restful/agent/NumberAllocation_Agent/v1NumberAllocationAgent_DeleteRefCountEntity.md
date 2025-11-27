@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | refCountEntityId | int32 | **Required** The identity of the RefCountEntity |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=54
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=579
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1NumberAllocationAgent_DeleteRefCountEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1NumberAllocationAgent_DeleteRefCountEntity.md)]

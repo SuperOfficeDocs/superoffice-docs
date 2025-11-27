@@ -73,41 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetLicenseFromLicenseServer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "Stehr Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetLicenseFromLicenseServer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "CanBeActivated": true,
-  "New": null,
-  "Current": null,
-  "ExtendedModuleLicenses": [
-    {
-      "New": null,
-      "Current": null,
-      "NumberOfLicensesInUse": 488,
-      "NumberOfLicensesFree": 893,
-      "NumberOfLicensesAdded": 802,
-      "NumberOfLicensesNewTotal": 194,
-      "NumberOfLicensesNewFree": 12,
-      "NumberOfLicensesTotal": 262
-    }
-  ],
-  "AccumulatedNextCheckDate": "2005-04-27T02:30:47.366331+02:00"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetLicenseFromLicenseServer.md)]

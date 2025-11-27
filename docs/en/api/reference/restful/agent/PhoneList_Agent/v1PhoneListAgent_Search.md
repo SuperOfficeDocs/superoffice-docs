@@ -82,44 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/Search
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SearchString": "perspiciatis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_Search.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonDirectPhone": "(203)792-6309 x1236",
-    "PersonCellPhone": "1-333-327-1916 x83069",
-    "PersonPrivatePhone": "894.943.6274",
-    "PersonFaxNumber": "1619398",
-    "PersonPagerNumber": "367388",
-    "PersonEmail": "darion@okunevaerdman.biz",
-    "Id": 194,
-    "Name": "Lynch-Murphy",
-    "Tooltip": "asperiores",
-    "UniqueId": "assumenda",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 520
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_Search.md)]

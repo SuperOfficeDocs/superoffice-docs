@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | erpSyncConnectorEntityId | int32 | **Required** The identity of the ErpSyncConnectorEntity |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?erpSyncConnectorEntityId=609
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?erpSyncConnectorEntityId=928
 ```
 
 
@@ -58,18 +58,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_DeleteErpSyncConnectorEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_DeleteErpSyncConnectorEntity.md)]

@@ -84,58 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_CreateDefaultChatTopicEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 411,
-  "Name": "Corkery-Fisher",
-  "Description": "Configurable multimedia attitude",
-  "WelcomeMessage": "blanditiis",
-  "Language": null,
-  "LastAccept": "2011-04-13T02:30:46.8975935+02:00",
-  "SecondsPrAccept": 207,
-  "AlertRecipient": "nisi",
-  "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "repudiandae",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "veritatis",
-  "WarnNewChatMinutes": 838,
-  "WarnManagerNewChatMinutes": 983,
-  "TicketEnabled": false,
-  "TicketCategory": null,
-  "TicketPriority": null,
-  "OpeningHoursEnabled": false,
-  "OpeningHours": null,
-  "Widget": null,
-  "BotEnabled": false,
-  "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 895,
-  "WarnManagerChatMessageMinutes": 284,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 443,
-  "OfflineFormQueueLength": 352,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "adipisci",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 664
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_CreateDefaultChatTopicEntity.md)]

@@ -84,71 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetListItem
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ListName": "Kulas-Keeling",
-  "Id": 499
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 166,
-  "Name": "Powlowski, Labadie and Lind",
-  "ToolTip": "Amet quam.",
-  "Deleted": false,
-  "Rank": 723,
-  "Type": "molestiae",
-  "ChildItems": [
-    {
-      "Id": 284,
-      "Name": "Casper, Fisher and Champlin",
-      "ToolTip": "Nulla voluptate voluptas rem.",
-      "Deleted": false,
-      "Rank": 672,
-      "Type": "commodi",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "impedit",
-      "ColorBlock": 433,
-      "ExtraInfo": "non",
-      "StyleHint": "sed",
-      "FullName": "Prof. Gilbert Abbott V",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
-        }
-      }
-    }
-  ],
-  "IconHint": "dolorem",
-  "ColorBlock": 136,
-  "ExtraInfo": "nihil",
-  "StyleHint": "officiis",
-  "FullName": "Kennith Moore",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetListItem.md)]

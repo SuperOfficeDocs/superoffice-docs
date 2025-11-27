@@ -80,67 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpSyncConnectionId": 739
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetErpSyncConnectionSummary.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DisplayName": "Erdman-Gutmann",
-  "DisplayDescription": "Organized tertiary database",
-  "Active": true,
-  "Deleted": true,
-  "LastSync": "2022-05-31T02:30:47.3194579+02:00",
-  "Actors": [
-    {
-      "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "laborum",
-      "Mappings": "in",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
-        }
-      }
-    },
-    {
-      "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "laborum",
-      "Mappings": "in",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetErpSyncConnectionSummary.md)]
