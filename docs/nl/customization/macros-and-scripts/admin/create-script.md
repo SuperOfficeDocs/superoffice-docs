@@ -51,7 +51,7 @@ Script- en macromappen worden gebruikt voor het ordenen van uw aangepaste script
 
 ### Map maken
 
-1. Klik op <i class="ph ph-folder" aria-hidden="true"></i> **Nieuwe map** boven in het scherm.
+1. Klik op **Nieuwe map** boven in het scherm.
 2. Selecteer in het veld **Map** een bovenliggende map in de lijst.
 3. Voer in het veld **Naam** een beschrijvende naam in voor de map.
 4. Klik op **OK**. De nieuwe map wordt gemaakt.

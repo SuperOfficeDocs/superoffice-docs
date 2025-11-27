@@ -51,7 +51,7 @@ Script- og makromapper bruges til at organisere dine brugerdefinerede scripts og
 
 ### Oprettelse af mappe
 
-1. Klik på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mappe** øverst på skærmen.
+1. Klik på **Ny mappe** øverst på skærmen.
 2. I feltet **Mappe** vælger du en overordnet mappe på listen.
 3. Angiv et beskrivende navn på mappen i feltet **Navn**.
 4. Klik på **OK**. Den nye mappe oprettes.

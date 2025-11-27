@@ -51,7 +51,7 @@ Script and macro folders are used to organize your custom scripts and macros.
 
 ### Create folder
 
-1. Click <i class="ph ph-folder" aria-hidden="true"></i> **New folder** at the top of the screen.
+1. Click **New folder** at the top of the screen.
 2. In the **Folder** field, select a parent folder in the list.
 3. Enter a descriptive name for the folder in the **Name** field.
 4. Click **OK**. The new folder is created.

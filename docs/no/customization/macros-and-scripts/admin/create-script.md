@@ -51,7 +51,7 @@ Skript- og makromapper brukes til å organisere egendefinerte skript og makroer.
 
 ### Opprett mappe
 
-1. Klikk på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mappe** øverst i bildet.
+1. Klikk på **Ny mappe** øverst i bildet.
 2. I feltet **Mappe** velger du en overordnet mappe i listen.
 3. Angi et beskrivende navn på mappen i feltet **Navn**.
 4. Klikk på **OK**. Den nye mappen opprettes.

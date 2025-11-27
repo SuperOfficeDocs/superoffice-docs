@@ -51,7 +51,7 @@ Skript- och makromappar används för att organisera dina egna skripter och makr
 
 ### Skapa mapp
 
-1. Klicka på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mapp** högst upp i fönstret.
+1. Klicka på **Ny mapp** högst upp i fönstret.
 2. I fältet **Mapp** väljer du en överordnad mapp i listan.
 3. Ange ett beskrivande namn på mappen i fältet **Namn**.
 4. Klicka på **OK**. Den nya mappen skapas.

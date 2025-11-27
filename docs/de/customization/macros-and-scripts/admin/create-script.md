@@ -51,7 +51,7 @@ Skript- und Makroordner werden zum Organisieren von benutzerdefinierten Skripts 
 
 ### Ordner erstellen
 
-1. Klicken Sie auf <i class="ph ph-folder" aria-hidden="true"></i> **Neuer Ordner** oben in der Anzeige.
+1. Klicken Sie auf **Neuer Ordner** oben in der Anzeige.
 2. Wählen Sie im Feld **Ordner** einen übergeordneten Ordner in der Liste aus.
 3. Geben Sie einen aussagekräftigen Namen für den Ordner in das Feld **Name** ein.
 4. Klicken Sie auf **OK**. Der neue Ordner wird erstellt.
