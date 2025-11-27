@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "ut",
-  "Inserts": 419,
-  "Updates": 725,
-  "Deletes": 552,
+  "Message": "Successfully truncated table, removed 152 rows",
+  "Inserts": 0,
+  "Updates": 0,
+  "Deletes": 152,
   "RowStatus": [
     {
-      "PrimaryKey": 593,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 0,
+      "Action": "Truncated",
       "RowKeys": [
-        "quisquam",
-        "esse"
+        "table=temp_contacts",
+        "rows=152"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -26,11 +26,11 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "PrimaryKey": 593,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 0,
+      "Action": "Truncated",
       "RowKeys": [
-        "quisquam",
-        "esse"
+        "operation=truncate",
+        "timestamp=2024-01-15T10:30:00Z"
       ],
       "TableRight": null,
       "FieldProperties": {

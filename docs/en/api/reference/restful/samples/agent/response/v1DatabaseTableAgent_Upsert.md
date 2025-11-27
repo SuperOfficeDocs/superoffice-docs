@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "dolore",
-  "Inserts": 843,
-  "Updates": 787,
-  "Deletes": 361,
+  "Success": true,
+  "Message": "Successfully processed 2 rows: 1 inserted, 1 updated",
+  "Inserts": 1,
+  "Updates": 1,
+  "Deletes": 0,
   "RowStatus": [
     {
-      "PrimaryKey": 661,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 127,
+      "Action": "Inserted",
       "RowKeys": [
-        "et",
-        "labore"
+        "contact_id=127",
+        "name=Pacific Enterprises"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -26,11 +26,11 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "PrimaryKey": 661,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 123,
+      "Action": "Updated",
       "RowKeys": [
-        "et",
-        "labore"
+        "contact_id=123",
+        "name=Acme Corporation"
       ],
       "TableRight": null,
       "FieldProperties": {

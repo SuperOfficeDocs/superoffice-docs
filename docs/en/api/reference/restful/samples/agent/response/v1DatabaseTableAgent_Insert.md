@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "praesentium",
-  "Inserts": 47,
-  "Updates": 882,
-  "Deletes": 230,
+  "Success": true,
+  "Message": "Successfully inserted 2 rows into contact table",
+  "Inserts": 2,
+  "Updates": 0,
+  "Deletes": 0,
   "RowStatus": [
     {
-      "PrimaryKey": 375,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 125,
+      "Action": "Inserted",
       "RowKeys": [
-        "sed",
-        "aspernatur"
+        "contact_id=125",
+        "name=GlobalCorp Industries"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -26,11 +26,11 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "PrimaryKey": 375,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 126,
+      "Action": "Inserted",
       "RowKeys": [
-        "sed",
-        "aspernatur"
+        "contact_id=126",
+        "name=Nordic Solutions AS"
       ],
       "TableRight": null,
       "FieldProperties": {
