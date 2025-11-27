@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 314,
-  "NumDocumentsAlreadyMigrated": 147,
+  "NumDocumentsOmitted": 18,
+  "NumDocumentsAlreadyMigrated": 2342,
   "Documents": [
     {
       "DocumentId": 213,
@@ -21,11 +21,11 @@ Content-Type: application/json; charset=utf-8
   "Associates": [
     {
       "AssociateId": 861,
-      "EmailAddress": "griffin.senger@walshbartell.co.uk"
+      "EmailAddress": "michael.thompson@techcorp.com"
     },
     {
-      "AssociateId": 861,
-      "EmailAddress": "griffin.senger@walshbartell.co.uk"
+      "AssociateId": 862,
+      "EmailAddress": "emily.wilson@techcorp.com"
     }
   ]
 }

@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 646,
-  "NumDocumentsAlreadyMigrated": 919,
+  "NumDocumentsOmitted": 42,
+  "NumDocumentsAlreadyMigrated": 1547,
   "Documents": [
     {
       "DocumentId": 220,
@@ -21,11 +21,11 @@ Content-Type: application/json; charset=utf-8
   "Associates": [
     {
       "AssociateId": 823,
-      "EmailAddress": "sam_murphy@lang.biz"
+      "EmailAddress": "john.anderson@acmecorp.com"
     },
     {
-      "AssociateId": 823,
-      "EmailAddress": "sam_murphy@lang.biz"
+      "AssociateId": 824,
+      "EmailAddress": "sarah.johnson@acmecorp.com"
     }
   ]
 }

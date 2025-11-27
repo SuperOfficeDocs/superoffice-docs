@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 258,
-  "NumTemplatesAlreadyMigrated": 155,
+  "NumTemplatesOmitted": 3,
+  "NumTemplatesAlreadyMigrated": 47,
   "TemplateIds": [
     576,
     88
