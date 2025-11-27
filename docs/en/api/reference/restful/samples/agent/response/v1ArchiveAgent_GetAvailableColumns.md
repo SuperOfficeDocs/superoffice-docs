@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Murphy Group",
-    "DisplayTooltip": "eligendi",
-    "DisplayType": "excepturi",
+    "DisplayName": "Company Name",
+    "DisplayTooltip": "The name of the company or organization",
+    "DisplayType": "string",
     "CanOrderBy": true,
-    "Name": "Raynor, Feeney and Conn",
+    "Name": "name",
     "CanRestrictBy": true,
-    "RestrictionType": "voluptatibus",
-    "RestrictionListName": "Gaylord-Abshire",
+    "RestrictionType": "stringorPK",
+    "RestrictionListName": "",
     "IsVisible": true,
-    "ExtraInfo": "molestiae",
-    "Width": "blanditiis",
-    "IconHint": "molestiae",
-    "HeadingIconHint": "incidunt"
+    "ExtraInfo": "contact.name",
+    "Width": "250",
+    "IconHint": "company",
+    "HeadingIconHint": "company"
   }
 ]
 ```
