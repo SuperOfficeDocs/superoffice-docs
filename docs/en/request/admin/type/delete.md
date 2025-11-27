@@ -42,7 +42,7 @@ redirect_from: /en/request/learn/type/delete
 1. Click **OK** to confirm. The request type is deleted all the requests are moved to the specified alternative type.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md
 
 <!-- Referenced images -->

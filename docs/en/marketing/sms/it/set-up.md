@@ -154,7 +154,7 @@ This method of sending will not create any entries in the [SMS outbox][8], and t
 [5]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
 [6]: https://www.twilio.com/sms
 [7]: http://www.textlocal.com/
-[8]: ../../../email/service/learn/index.md#sms-out
+[8]: ../../../email/admin/mailbox/index.md#sms-out
 [9]: ../../../service/automated-tasks/ejournalcron.md
 
 <!-- Referenced images -->

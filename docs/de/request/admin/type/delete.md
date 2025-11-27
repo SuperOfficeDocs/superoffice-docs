@@ -42,5 +42,5 @@ index: true
 1. Klicken Sie auf **OK**, um zu bestätigen. Der Anfragetyp wird gelöscht, und alle zugehörigen Anfragen werden dem angegebenen alternativen Typ zugewiesen.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md

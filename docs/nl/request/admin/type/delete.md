@@ -41,5 +41,5 @@ index: true
 1. Klik op **OK** om te bevestigen. Het verzoektype wordt verwijderd en alle verzoeken worden verplaatst naar het opgegeven alternatieve type.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md

@@ -42,5 +42,5 @@ index: true
 1. Klicka på **OK** för att bekräfta. Ärendetypen raderas och alla aktiva ärenden flyttas till den valda alternativa typen.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md

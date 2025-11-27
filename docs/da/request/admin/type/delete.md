@@ -42,5 +42,5 @@ index: true
 1. Klik på **OK** for at bekræfte. Sagstypen slettes, og alle sager flyttes til den angivne alternative type.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md
