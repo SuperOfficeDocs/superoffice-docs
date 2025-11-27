@@ -57,7 +57,15 @@ Ein Makro ist eine Reihe vordefinierter Aktionen, die in einem bestimmten Ordner
 
 Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt werden. Zum Schreiben eines Skripts sind Programmierkenntnisse erforderlich.
 
-### Registerkarte Makros und Skripte
+## Registerkarten
+
+* [Makros und Skripts][8] – Hier können Sie Makros und Skripts zur Automatisierung und zeitgesteuerten Ausführung von Aufgaben in SuperOffice erstellen.
+* [Auslöser][2] – Hier können Sie definieren, dass ein bestimmtes Ereignis im System eine oder mehrere vordefinierte Aktionen auslösen soll.
+* [Geplante Aufgaben][3] – Hier können Sie festlegen, dass ein Skript oder ein Makro zu bestimmten Zeiten ausgeführt werden soll.
+* [Debugsitzungen][4] – Hier können Sie Fehler in Skripts und Makros ausfindig machen und beheben.
+* [Ablaufverfolgung][5] – Hier können Sie die Ausführung eines Skripts oder Makros in allen Einzelheiten aufzeichnen und in einem Protokoll speichern.
+
+## Registerkarte Makros und Skripte
 
 So wechseln Sie zur Registerkarte **Makros und Skripts**:
 
@@ -67,7 +75,7 @@ So wechseln Sie zur Registerkarte **Makros und Skripts**:
 
 Die Registerkarte **Makros und Skripts** enthält die folgenden Schaltflächen: **Neues Skript**, **Neues Makro**, **Neuer Ordner** und **Suche**.
 
-#### Skript-Anzeige
+### Skript-Anzeige
 
 Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro klicken, wird die Ansicht **Skript** geöffnet. Zusätzlich zu den Informationen oben in der Ansicht finden Sie weitere Details zum Skript auf den Registerkarten **Beschreibung** und **Skript**.
 
@@ -80,14 +88,6 @@ Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro 
 | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
 | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][4] über die Registerkarte **Sitzungen debuggen** öffnen. |
 | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][5] zu starten. |
-
-## Registerkarten
-
-* [Makros und Skripts][8] – Hier können Sie Makros und Skripts zur Automatisierung und zeitgesteuerten Ausführung von Aufgaben in SuperOffice erstellen.
-* [Auslöser][2] – Hier können Sie definieren, dass ein bestimmtes Ereignis im System eine oder mehrere vordefinierte Aktionen auslösen soll.
-* [Geplante Aufgaben][3] – Hier können Sie festlegen, dass ein Skript oder ein Makro zu bestimmten Zeiten ausgeführt werden soll.
-* [Debugsitzungen][4] – Hier können Sie Fehler in Skripts und Makros ausfindig machen und beheben.
-* [Ablaufverfolgung][5] – Hier können Sie die Ausführung eines Skripts oder Makros in allen Einzelheiten aufzeichnen und in einem Protokoll speichern.
 
 ## Verwandte Inhalte
 

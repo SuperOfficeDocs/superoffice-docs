@@ -57,7 +57,15 @@ Ett makro är en uppsättning fördefinierade åtgärder som utförs i en specif
 
 Ett skript är ett litet program som har skrivits för att utföra specifika uppgifter och kräver programmeringskunskaper för att skapas.
 
-### Fliken Makron och skript
+## Flikar
+
+* [Makron och skript][8] – Skapa makron och skript för att automatisera planerade uppgifter i SuperOffice.
+* [Utlösare][2] – Definiera att en viss händelse i systemet ska utlösa en eller flera fördefinierade åtgärder.
+* [Planerade uppgifter][3] – Ange att ett skript eller makro ska köras en viss tidpunkt.
+* [Felsökningssessioner][4] – Hitta och korrigera buggar i skript och makron.
+* [Spårning][5] – Registrera varje detalj i körningen av ett skript eller makro och spara i en logg.
+
+## Fliken Makron och skript
 
 Så här går du till fliken **Makron och skript**:
 
@@ -67,7 +75,7 @@ Så här går du till fliken **Makron och skript**:
 
 Fliken **Makron och skript** innehåller följande knappar: **Nytt skript**, **Nytt makro**, **Ny mapp** och **Sök**.
 
-#### Fönstret Skript
+### Fönstret Skript
 
 När du klickar på ett skript eller makro på fliken **Makron och skript** öppnas skärmen **Skript**. Utöver den information som visas längst upp på skärmen finns det mer skriptinformation på flikarna **Beskrivning** och **Skript**.
 
@@ -80,14 +88,6 @@ När du klickar på ett skript eller makro på fliken **Makron och skript** öpp
 | Kör skript | Används för att köra skriptet eller makrot i standardläge. |
 | Felsök skript | Används för att öppna **felsökningsfönstret** och köra det valda skriptet eller makrot i felsökningsläge. Skriptet avbryts vid första raden. Du kan öppna en [felsökningssession][4] på fliken **Felsökningssessioner**. |
 | Spåra skript | Används för att starta en [spårning av skriptet eller makrot][5]. |
-
-## Flikar
-
-* [Makron och skript][8] – Skapa makron och skript för att automatisera planerade uppgifter i SuperOffice.
-* [Utlösare][2] – Definiera att en viss händelse i systemet ska utlösa en eller flera fördefinierade åtgärder.
-* [Planerade uppgifter][3] – Ange att ett skript eller makro ska köras en viss tidpunkt.
-* [Felsökningssessioner][4] – Hitta och korrigera buggar i skript och makron.
-* [Spårning][5] – Registrera varje detalj i körningen av ett skript eller makro och spara i en logg.
 
 ## Relaterat innehåll
 

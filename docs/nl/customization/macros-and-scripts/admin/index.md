@@ -57,7 +57,15 @@ Een macro is een set van vooraf gedefinieerde acties uitgevoerd in een specifiek
 
 Een script is een klein programma geschreven om specifieke taken uit te voeren; het instellen vereist programmeerkennis.
 
-### Tabblad Macro's en scripts
+## Tabbladen
+
+* [Macro's en scripts][8] - Maak macro's en scripts om taken in SuperOffice te automatiseren en te plannen.
+* [Triggers][2] - Geef aan of een bepaalde gebeurtenis in het systeem één of meer vooraf gedefinieerde acties activeert.
+* [Geplande taken][3] - Geef aan of een script of macro op bepaalde momenten moet worden uitgevoerd.
+* [Foutopsporingssessies][4] - Zoek de fouten in uw scripts en macro's en verhelp deze.
+* [Traceren][5] - Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
+
+## Tabblad Macro's en scripts
 
 Ga als volgt naar het tabblad **Macro's en scripts**:
 
@@ -67,7 +75,7 @@ Ga als volgt naar het tabblad **Macro's en scripts**:
 
 Het tabblad **Macro's en scripts** bevat de volgende knoppen: **Nieuw script**, **Nieuwe macro**, **Nieuwe map** en **Zoeken**.
 
-#### Scriptscherm
+### Scriptscherm
 
 Wanneer u op het tabblad **Macro's en scripts** klikt op een script of macro, wordt het scherm **Script** geopend. In aanvulling op de informatie in het bovenste deel van het scherm kunt u meer details over het script vinden op de tabbladen **Beschrijving** en **Script**.
 
@@ -80,14 +88,6 @@ Wanneer u op het tabblad **Macro's en scripts** klikt op een script of macro, wo
 | Script uitvoeren | Wordt gebruikt om het script of de macro uit te voeren in de standaardmodus. |
 | Fouten opsporen in script | Wordt gebruikt om het scherm **Foutopsporing** te openen en het geselecteerde script of de geselecteerde macro uit te voeren in de foutopsporingsmodus . Het script stopt bij de eerste regel. U kunt een [foutopsporingssessie][4] openen vanaf het tabblad **Foutopsporingssessies**. |
 | Script traceren | Wordt gebruikt om [het script of de macro te traceren][5]. |
-
-## Tabbladen
-
-* [Macro's en scripts][8] - Maak macro's en scripts om taken in SuperOffice te automatiseren en te plannen.
-* [Triggers][2] - Geef aan of een bepaalde gebeurtenis in het systeem één of meer vooraf gedefinieerde acties activeert.
-* [Geplande taken][3] - Geef aan of een script of macro op bepaalde momenten moet worden uitgevoerd.
-* [Foutopsporingssessies][4] - Zoek de fouten in uw scripts en macro's en verhelp deze.
-* [Traceren][5] - Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
 
 ## Gerelateerde inhoud
 

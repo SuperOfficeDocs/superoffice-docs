@@ -57,7 +57,15 @@ En makro er et sett med forhåndsdefinerte handlinger som kjøres i en bestemt r
 
 Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og som krever programmeringsferdigheter.
 
-### Makroer og skript-fanen
+## Faner
+
+* [Makroer og skript][8] – Opprett makroer og skript for å automatisere og planlegge oppgaver i SuperOffice.
+* [Triggere][2] – Definer at en bestemt hendelse i systemet skal utløse én eller flere forhåndsdefinerte handlinger.
+* [Planlagte oppgaver][3] – Angi at et skript eller en makro skal kjøres på bestemte tidspunkter.
+* [Feilsøkingssesjoner][4] – Finn og løs feil i skript og makroer.
+* [Sporing][5] – Registrer alle detaljer under kjøringen av skript eller makroer og lagre dem i en logg.
+
+## Makroer og skript-fanen
 
 Slik går du til fanen **Makroer og skript**:
 
@@ -67,7 +75,7 @@ Slik går du til fanen **Makroer og skript**:
 
 Fanen **Makroer og skript** inneholder følgende knapper: **Nytt skript**, **Ny makro**, **Ny mappe** og **Søk**.
 
-#### Skript-bildet
+### Skript-bildet
 
 Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpnes bildet **Skript**. I tillegg til informasjonen i øvre del av bildet kan du finne flere skriptdetaljer i fanen **Beskrivelse** og **Skript**.
 
@@ -80,14 +88,6 @@ Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpn
 | Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
 | Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][4] fra fanen **Feilsøkingssesjoner**. |
 | Spor skript | Brukes til å begynne å [spore skriptet eller makroen][5]. |
-
-## Faner
-
-* [Makroer og skript][8] – Opprett makroer og skript for å automatisere og planlegge oppgaver i SuperOffice.
-* [Triggere][2] – Definer at en bestemt hendelse i systemet skal utløse én eller flere forhåndsdefinerte handlinger.
-* [Planlagte oppgaver][3] – Angi at et skript eller en makro skal kjøres på bestemte tidspunkter.
-* [Feilsøkingssesjoner][4] – Finn og løs feil i skript og makroer.
-* [Sporing][5] – Registrer alle detaljer under kjøringen av skript eller makroer og lagre dem i en logg.
 
 ## Relatert innhold
 

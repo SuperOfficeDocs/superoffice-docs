@@ -57,7 +57,15 @@ En makro er et sæt af foruddefinerede handlinger, som udføres i en bestemt ræ
 
 Et script er et lille program, der er skrevet til at udføre bestemte opgaver, og som kræver programmeringsviden i forbindelse med opsætningen.
 
-### Fanen makroer og scripts
+## Faner
+
+* [Makroer og script][8] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
+* [Triggers][2] - Definer, at en bestemt hændelse i systemet udløser én eller flere foruddefinerede handlinger.
+* [Planlagte opgaver][3] - Angiv, at et script eller en makro skal udføres på bestemte tidspunkter.
+* [Fejlfindingssessioner][4] - Find og ret fejl inde i dine scripts og makroer.
+* [Sporing][5] - Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
+
+## Fanen makroer og scripts
 
 Sådan går du til fanen **Makroer og script**:
 
@@ -67,7 +75,7 @@ Sådan går du til fanen **Makroer og script**:
 
 Fanen **Makroer og scripts** indeholder følgende knapper: **Nyt script**, **Ny makro**, **Ny mappe** og **Søg**.
 
-#### Skærmbilledet Script
+### Skærmbilledet Script
 
 Når du klikker på et script eller en makro i fanen **Makro**, åbnes skærmbilledet **Script**. Ud over informationen i den øverste del af skærmen kan du finde flere scriptoplysninger i fanerne **Beskrivelse** og **Script**.
 
@@ -80,14 +88,6 @@ Når du klikker på et script eller en makro i fanen **Makro**, åbnes skærmbil
 | Kør script | Klik her for at køre scriptet eller makroen i standardtilstand. |
 | Fejlfind script | Bruges til at åbne skærmbilledet **Fejlfinding** og køre det valgte script eller makro i fejlfindingstilstand. Scriptet stopper ved første linje. Du kan åbne en [fejlfindingssession][4] fra fanen **Fejlfindingssessioner**. |
 | Spor script | Bruges til at starte [sporing af scriptet eller makroen][5]. |
-
-## Faner
-
-* [Makroer og script][8] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
-* [Triggers][2] - Definer, at en bestemt hændelse i systemet udløser én eller flere foruddefinerede handlinger.
-* [Planlagte opgaver][3] - Angiv, at et script eller en makro skal udføres på bestemte tidspunkter.
-* [Fejlfindingssessioner][4] - Find og ret fejl inde i dine scripts og makroer.
-* [Sporing][5] - Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
 
 ## Relateret indhold
 
