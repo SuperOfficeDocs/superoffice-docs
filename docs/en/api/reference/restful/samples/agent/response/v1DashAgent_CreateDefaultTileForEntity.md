@@ -5,9 +5,9 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardTileId": 752,
   "DashboardId": 758,
-  "Height": 548,
-  "Width": 949,
-  "Rank": 44,
+  "Height": 2,
+  "Width": 2,
+  "Rank": 1,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {

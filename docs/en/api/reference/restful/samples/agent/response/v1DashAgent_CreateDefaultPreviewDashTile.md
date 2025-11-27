@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi-Hagenes",
-  "TileType": "Area",
+  "Name": "Top 10 Customers",
+  "TileType": "List",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

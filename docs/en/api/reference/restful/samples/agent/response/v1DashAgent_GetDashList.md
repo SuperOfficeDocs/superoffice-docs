@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "DashboardId": 622,
-    "UniqueId": "pariatur",
-    "Name": "Brakus LLC",
-    "Description": "Reverse-engineered attitude-oriented structure",
+    "UniqueId": "sales-overview-2024",
+    "Name": "Sales Overview",
+    "Description": "Comprehensive sales metrics including pipeline, revenue, and team performance",
     "AssociateId": 855,
-    "Columns": 587,
+    "Columns": 3,
     "Theme": null,
     "VisibleForAll": 275,
     "VisibleForAssociates": [

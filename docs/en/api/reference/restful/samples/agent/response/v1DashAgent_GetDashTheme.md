@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardThemeId": 490,
-  "Name": "Swift, Jenkins and Runte",
-  "Config": "labore",
-  "Rank": 262,
-  "Client": "temporibus",
-  "Style": "earum",
+  "Name": "Modern Light Theme",
+  "Config": "{\"primaryColor\":\"#0066CC\",\"secondaryColor\":\"#F5F5F5\",\"fontFamily\":\"Segoe UI\"}",
+  "Rank": 1,
+  "Client": "Web",
+  "Style": "Light",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

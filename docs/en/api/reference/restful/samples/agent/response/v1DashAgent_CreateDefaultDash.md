@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 556,
-  "UniqueId": "et",
-  "Name": "Mann, Adams and Mitchell",
-  "Description": "Vision-oriented zero tolerance infrastructure",
+  "UniqueId": "marketing-performance",
+  "Name": "Marketing Performance Dashboard",
+  "Description": "Campaign effectiveness, lead generation, and conversion metrics",
   "AssociateId": 748,
-  "Columns": 605,
+  "Columns": 4,
   "Theme": null,
   "VisibleForAll": 826,
   "VisibleForAssociates": [

@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "Pinned": [
     {
       "DashboardId": 234,
-      "UniqueId": "voluptate",
-      "Name": "Lehner LLC",
-      "Description": "Cross-platform didactic database",
+      "UniqueId": "my-dashboard",
+      "Name": "My Dashboard",
+      "Description": "Personal dashboard with customized widgets and key metrics",
       "AssociateId": 253,
-      "Columns": 726,
+      "Columns": 3,
       "Theme": null,
       "VisibleForAll": 739,
       "VisibleForAssociates": [
@@ -43,11 +43,11 @@ Content-Type: application/json; charset=utf-8
   "Favourites": [
     {
       "DashboardId": 870,
-      "UniqueId": "repellat",
-      "Name": "Muller, Krajcik and Effertz",
-      "Description": "Innovative background archive",
+      "UniqueId": "sales-leaderboard",
+      "Name": "Sales Leaderboard",
+      "Description": "Top performers ranked by sales volume and conversion rates",
       "AssociateId": 37,
-      "Columns": 214,
+      "Columns": 2,
       "Theme": null,
       "VisibleForAll": 444,
       "VisibleForAssociates": [
@@ -80,11 +80,11 @@ Content-Type: application/json; charset=utf-8
   "Other": [
     {
       "DashboardId": 50,
-      "UniqueId": "enim",
-      "Name": "Lakin-Jerde",
-      "Description": "Upgradable tertiary concept",
+      "UniqueId": "customer-health",
+      "Name": "Customer Health Monitor",
+      "Description": "Customer satisfaction scores, churn risk, and engagement metrics",
       "AssociateId": 748,
-      "Columns": 243,
+      "Columns": 4,
       "Theme": null,
       "VisibleForAll": 814,
       "VisibleForAssociates": [

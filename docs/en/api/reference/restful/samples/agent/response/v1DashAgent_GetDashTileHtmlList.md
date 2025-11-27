@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "inventore",
-    "Html": "vel",
+    "LanguageCode": "en-US",
+    "Html": "<div class='tile-content'><h3>Total Sales</h3><div class='bignum'>$1,245,000</div><div class='trend up'>+12.5%</div></div>",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -16,8 +16,8 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "LanguageCode": "inventore",
-    "Html": "vel",
+    "LanguageCode": "nb-NO",
+    "Html": "<div class='tile-content'><h3>Totalt Salg</h3><div class='bignum'>kr 11,450,000</div><div class='trend up'>+12.5%</div></div>",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
