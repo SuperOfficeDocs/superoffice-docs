@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "RowCount": 108,
   "Rows": [
     {
-      "EntityName": "Cole-Brown",
+      "EntityName": "project",
       "PrimaryKey": 127,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "neque",
-          "TooltipHint": "animi",
-          "LinkHint": "aliquam"
+        "name": {
+          "DisplayValue": "Digital Transformation Initiative 2025",
+          "TooltipHint": "Major project for company-wide digital upgrade",
+          "LinkHint": "project.main?project_id=127"
         }
       },
-      "LinkHint": "inventore",
-      "StyleHint": "voluptas",
+      "LinkHint": "view-project",
+      "StyleHint": "active-project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

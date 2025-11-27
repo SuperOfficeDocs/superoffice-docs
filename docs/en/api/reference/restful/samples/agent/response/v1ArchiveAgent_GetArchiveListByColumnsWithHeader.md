@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "RowCount": 566,
   "Rows": [
     {
-      "EntityName": "Brekke LLC",
+      "EntityName": "sale",
       "PrimaryKey": 400,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "minus",
-          "TooltipHint": "est",
-          "LinkHint": "et"
+        "heading": {
+          "DisplayValue": "Enterprise CRM License Renewal - Q1 2025",
+          "TooltipHint": "Annual renewal for 50 user licenses",
+          "LinkHint": "sale.main?sale_id=400"
         }
       },
-      "LinkHint": "laborum",
-      "StyleHint": "rerum",
+      "LinkHint": "view-sale",
+      "StyleHint": "open-sale",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
