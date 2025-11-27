@@ -1,0 +1,12 @@
+```http!
+POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: fr,de,ru,zh
+Content-Type: application/json; charset=utf-8
+
+{
+  "DocumentPluginId": 364,
+  "IncludeEmails": false
+}
+```

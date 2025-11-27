@@ -1,0 +1,27 @@
+```http_
+HTTP/1.1 200 RelationDefinitionEntity found.
+Content-Type: application/json; charset=utf-8
+
+{
+  "ReldefId": 833,
+  "Name": "Ortiz-Bahringer",
+  "Tooltip": "non",
+  "PassiveText": "mollitia",
+  "Deleted": true,
+  "Rank": 402,
+  "Source": "Both",
+  "Destination": "Both",
+  "TableRight": null,
+  "FieldProperties": {
+    "fieldName": {
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 174
+    }
+  },
+  "_Links": {
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
+  }
+}
+```

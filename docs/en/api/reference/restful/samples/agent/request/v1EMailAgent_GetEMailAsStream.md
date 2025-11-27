@@ -1,0 +1,13 @@
+```http!
+POST /api/v1/Agents/EMail/GetEMailAsStream
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "ConnectionInfo": null,
+  "MessageServerId": 720,
+  "StripAttachments": false
+}
+```
