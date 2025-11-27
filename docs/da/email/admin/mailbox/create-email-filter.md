@@ -1,6 +1,6 @@
 ---
 uid: help-da-email-filter-create
-title: Oprettelse af e-mail-filtre
+title: E-mail-filtre
 description: Oprettelse af e-mail-filtre
 keywords: e-mail, e-mail-filter, filtrer
 author: digitaldiina
@@ -19,11 +19,11 @@ redirect_from:
   - /da/email/service/learn/email-filters/create-email-filter
 ---
 
-# Oprettelse af e-mail-filter
+# E-mail-filtre
 
-## Trin
+## Opret e-mail-filter
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Vælg fanen **E-mail-filtre**.
 

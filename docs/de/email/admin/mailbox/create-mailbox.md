@@ -93,7 +93,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 
 1. Klicken Sie auf **OK**. Das Postfach wird erstellt.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Postfächer löschen][1]
 

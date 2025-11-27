@@ -1,10 +1,11 @@
 ---
 uid: help-no-email-filter-create
-title: Opprette e-postfiltre
+title: E-postfiltre
 description: Opprette e-postfiltre
 keywords: e-post, e-postfilter, filter
 author: digitaldiina
 date: 11.27.2025
+version: 11.6
 content_type: howto
 category: email
 topic: Service mailbox
@@ -12,19 +13,17 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-audience: settings
-audience_tooltip: Settings and maintenance
 language: no
 redirect_from:
   - /no/email/service/learn/email-filters/delete-email-filter
   - /no/email/service/learn/email-filters/create-email-filter
 ---
 
-# Opprette e-postfilter
+# E-postfiltre
 
-## Trinn
+## Opprette e-postfilter
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Velg fanen **E-postfiltre**.
 

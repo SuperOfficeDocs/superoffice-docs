@@ -10,9 +10,6 @@ items:
 - name: Macro's en scripts
   href: ../macros-and-scripts/admin/toc.yml
   topicHref: ../macros-and-scripts/admin/index.md
-- name: E-mail
-  href: ../../email/service/learn/toc.yml
-  topicHref: ../../email/service/learn/index.md
 - name: Klantportaal
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md

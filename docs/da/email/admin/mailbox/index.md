@@ -25,7 +25,7 @@ redirect_from:
   - /da/email/service/learn/email-filters/index
 ---
 
-# E-mails om service
+# Administration af e-mailkonti
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

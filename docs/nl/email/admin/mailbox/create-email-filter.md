@@ -1,10 +1,11 @@
 ---
 uid: help-nl-email-filter-create
-title: E-mailfilters maken
+title: E-mailfilters
 description: E-mailfilters maken
 keywords: e-mail, e-mailfilter, filter
 author: digitaldiina
 date: 11.27.2025
+version: 11.6
 content_type: howto
 category: email
 topic: Service mailbox
@@ -12,19 +13,17 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-audience: settings
-audience_tooltip: Settings and maintenance
 language: nl
 redirect_from:
   - /nl/email/service/learn/email-filters/delete-email-filter
   - /nl/email/service/learn/email-filters/create-email-filter
 ---
 
-# E-mailfilter maken
+# E-mailfilters
 
-## Stappen
+## E-mailfilter maken
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Selecteer het tabblad **E-mailfilters**.
 

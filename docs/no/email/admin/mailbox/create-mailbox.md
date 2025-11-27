@@ -93,7 +93,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
 1. Klikk på **OK**. E-postkassen opprettes.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Slette e-postkasser][1]
 

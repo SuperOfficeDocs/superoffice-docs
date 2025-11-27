@@ -93,7 +93,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 1. Click **OK**. The mailbox is created.
 
-## What would you like to do now?
+## Related content
 
 * [Delete mailboxes][1]
 

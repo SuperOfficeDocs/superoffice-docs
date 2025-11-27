@@ -1,6 +1,6 @@
 ---
 uid: help-en-email-filter-create
-title: Create email filters
+title: Email filters
 description: Create email filters
 keywords: email, email filter, filter
 author: digitaldiina
@@ -19,11 +19,11 @@ redirect_from:
   - /en/email/service/learn/email-filters/create-email-filter
 ---
 
-# Create email filter
+# Email filters
 
-## Steps
+## Create email filter
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Select the **Email filters** tab.
 

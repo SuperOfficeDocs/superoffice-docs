@@ -93,7 +93,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 
 1. Klicka på **OK**. Brevlådan skapas.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Ta bort brevlådor][1]
 

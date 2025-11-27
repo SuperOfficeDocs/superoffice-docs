@@ -1,10 +1,11 @@
 ---
 uid: help-sv-email-filter-create
-title: Skapa e-postfilter
+title: E-postfilter
 description: Skapa e-postfilter
 keywords: e-post, e-postfilter, filter
 author: digitaldiina
 date: 11.27.2025
+version: 11.6
 content_type: howto
 category: email
 topic: Service mailbox
@@ -12,19 +13,17 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-audience: settings
-audience_tooltip: Settings and maintenance
 language: sv
 redirect_from:
   - /sv/email/service/learn/email-filters/delete-email-filter
   - /sv/email/service/learn/email-filters/create-email-filter
 ---
 
-# Skapa e-postfilter
+# E-postfilter
 
-## Steg
+## Skapa e-postfilter
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Välj fliken **E-postfilter**.
 

@@ -1,10 +1,11 @@
 ---
 uid: help-de-email-filter-create
-title: E-Mail-Filter erstellen
+title: E-Mail-Filter
 description: E-Mail-Filter erstellen
 keywords: E-Mail, E-Mail-Filter, Filter
 author: digitaldiina
 date: 11.27.2025
+version: 11.6
 content_type: howto
 category: email
 topic: Service mailbox
@@ -12,19 +13,17 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-audience: settings
-audience_tooltip: Settings and maintenance
 language: de
 redirect_from:
   - /de/email/service/learn/email-filters/delete-email-filter
   - /de/email/service/learn/email-filters/create-email-filter
 ---
 
-# E-Mail-Filter erstellen
+# E-Mail-Filter
 
-## Schritte
+## E-Mail-Filter erstellen
 
-1. [!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Wählen Sie die Registerkarte **E-Mail-Filter** aus.
 
