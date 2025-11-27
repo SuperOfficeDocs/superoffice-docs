@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 11
 description: Release notes. What's new in SuperOffice Core CRM 11
 keywords: new UI, lead management
 author: kirstiaa
-date: 11.06.2025
+date: 12.02.2025
 version: 11
 content_type: release-note
 category: core-crm
@@ -14,6 +14,15 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM and Sales
 
+* [Dashboard - Quick filter in dashboard (11.7)][7]
+* [Dashboard - Load a tile again on time outs (11.7)][7]
+* [Dashboard - Show all or none of the legend (11.7)][7]
+* [Dashboard - Administrator options for a dashboard (11.7)][7]
+* [Dashboard - Tile details layout with chart type and dataset (11.7)][7]
+* [Dashboard - Funnel tile showing progression (11.7)][7]
+* [Dashboard - Show the Stage when closed (11.7)][7]
+* [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column (11.7)][7]
+* [Selection of sales - Board view Setting for displaying days in stage (11.7)][7]
 * [Selection - Board view for company and contact (11.6)][6]
 * [Contact - Lead status list connected to the category (11.6)][6]
 * [Search criteria - Lead creation and first touch on companies and contacts (11.6)][6]
@@ -33,3 +42,4 @@ audience_tooltip: SuperOffice CRM
 [3]: 11.3-update.md
 [4]: 11.4-update.md
 [6]: 11.6-update.md
+[7]: 11.7-update.md

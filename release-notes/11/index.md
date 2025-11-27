@@ -4,7 +4,7 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
 author: SuperOffice AS – Product and Engineering
-date: 11.06.2025
+date: 12.02.2025
 version: 11
 content_type: release-note
 audience: person
@@ -22,6 +22,19 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
 ## Feature updates
+
+### 11.7 (25.11.2025)
+
+* [Dashboard - Quick filter in dashboard][21] in Core CRM and Sales
+* [Dashboard - Load a tile again on time outs][21] in Core CRM and Sales
+* [Dashboard - Show all or none of the legend][21] in Core CRM and Sales
+* [Dashboard - Administrator options for a dashboard][21] in Core CRM and Sales
+* [Dashboard - Tile details layout with chart type and dataset][21] in Core CRM and Sales
+* [Dashboard - Funnel tile showing progression][21] in Core CRM and Sales
+* [Dashboard - Show the Stage when closed][21] in Core CRM and Sales
+* [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
+* [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
+* [Requests - Filter messages on comments or replies][22] in Service
 
 ### 11.6 (06.11.2025)
 
@@ -110,6 +123,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [18]: core-crm/11.6-update.md
 [19]: marketing/11.6-update.md
 [20]: admin/11.6-update.md
+[21]: core-crm/11.7-update.md
+[22]: service/11.7-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
