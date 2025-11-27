@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "iure",
-  "Name": "Torphy LLC",
-  "Description": "Pre-emptive 4th generation firmware",
-  "IncludeId": "facere",
-  "Source": "quidem",
-  "Registered": "2018-03-15T10:10:59.5467372+01:00",
-  "RegisteredBy": "eum",
-  "Updated": "2020-04-06T10:10:59.5467372+02:00",
-  "UpdatedBy": "qui",
-  "Path": "molestiae",
+  "UniqueIdentifier": "sales-opportunity-scorer",
+  "Name": "Sales Opportunity Scorer",
+  "Description": "Calculates and assigns a score to sales opportunities based on multiple criteria",
+  "IncludeId": "opportunity-scorer",
+  "Source": "#setLanguageLevel 3;\nSale sale = getActiveSale();\nInteger score = calculateOpportunityScore(sale);\nsale.setValue(\"score\", score.toString());",
+  "Registered": "2024-03-10T14:15:00+01:00",
+  "RegisteredBy": "Michael Thompson",
+  "Updated": "2024-11-26T11:30:00+01:00",
+  "UpdatedBy": "Emily Wilson",
+  "Path": "/scripts/sales/opportunity-scorer",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {

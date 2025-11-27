@@ -2,5 +2,5 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quo"
+"Customer record updated successfully - Score: 85/100"
 ```

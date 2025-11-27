@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "velit",
-  "LineNumber": 6,
+  "ErrorMessage": "",
+  "LineNumber": 0,
   "ErrorInformation": null,
-  "Transpiled": "doloribus",
+  "Transpiled": "var recipientEmail = getVariable('recipientEmail');\nvar email = new Email();\nemail.send(recipientEmail, 'New Ticket', 'A new ticket has been created');",
   "Includes": [
-    119,
-    341
+    42,
+    87
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 236,
-      "LineNumberTo": 564,
-      "Delta": 669,
-      "IncludeId": "veritatis",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 3,
+      "Delta": 0,
+      "IncludeId": "email-utils",
       "IncludedFrom": [
-        "dolores",
-        "dolorum"
+        "common-includes",
+        "notification-system"
       ],
       "TableRight": null,
       "FieldProperties": {

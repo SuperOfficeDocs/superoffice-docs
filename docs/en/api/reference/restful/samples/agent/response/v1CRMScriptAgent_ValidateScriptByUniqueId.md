@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "aut",
-  "LineNumber": 53,
+  "ErrorMessage": "Method 'calculateScore' is not defined",
+  "LineNumber": 7,
   "ErrorInformation": null,
-  "Transpiled": "consequatur",
+  "Transpiled": "",
   "Includes": [
-    321,
-    447
+    42,
+    87
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 157,
-      "LineNumberTo": 431,
-      "Delta": 482,
-      "IncludeId": "officiis",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 7,
+      "Delta": 0,
+      "IncludeId": "scoring-utils",
       "IncludedFrom": [
-        "qui",
-        "aut"
+        "opportunity-scorer",
+        "sales-automation"
       ],
       "TableRight": null,
       "FieldProperties": {

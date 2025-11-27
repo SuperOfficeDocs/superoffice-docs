@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "sed",
-  "LineNumber": 263,
+  "ErrorMessage": "",
+  "LineNumber": 0,
   "ErrorInformation": null,
-  "Transpiled": "aliquam",
+  "Transpiled": "var sale = getActiveSale();\nvar amount = sale.getValue('amount').toInteger();\nif (amount > 100000) { notifyManagement(sale); }",
   "Includes": [
-    873,
-    914
+    42,
+    87
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 898,
-      "LineNumberTo": 332,
-      "Delta": 241,
-      "IncludeId": "aut",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 3,
+      "Delta": 0,
+      "IncludeId": "notification-utils",
       "IncludedFrom": [
-        "qui",
-        "distinctio"
+        "high-value-deal-alert",
+        "management-notifications"
       ],
       "TableRight": null,
       "FieldProperties": {

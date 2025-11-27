@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ScreenChooserId": 975,
-  "Name": "Olson Group",
+  "Name": "High Value Deal Alert",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "natus",
-  "Registered": "2002-10-22T10:10:59.5728345+02:00",
-  "RegisteredAssociateId": 123,
-  "Updated": "2005-10-31T10:10:59.5728345+01:00",
-  "UpdatedAssociateId": 284,
+  "Enabled": true,
+  "UniqueIdentifier": "high-value-deal-alert",
+  "Source": "#setLanguageLevel 3;\nSale sale = getActiveSale();\nInteger amount = sale.getValue(\"amount\").toInteger();\nif (amount > 100000) { notifyManagement(sale); }",
+  "Registered": "2024-08-05T13:20:00+02:00",
+  "RegisteredAssociateId": 105,
+  "Updated": "2024-11-27T09:10:00+01:00",
+  "UpdatedAssociateId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

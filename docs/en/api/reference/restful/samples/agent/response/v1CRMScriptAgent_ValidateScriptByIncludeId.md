@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "vel",
-  "LineNumber": 994,
+  "ErrorMessage": "Undefined variable 'customerEmail' on line 5",
+  "LineNumber": 5,
   "ErrorInformation": null,
-  "Transpiled": "facere",
+  "Transpiled": "",
   "Includes": [
-    348,
-    158
+    42,
+    87
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 56,
-      "LineNumberTo": 839,
-      "Delta": 915,
-      "IncludeId": "autem",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 5,
+      "Delta": 0,
+      "IncludeId": "email-utils",
       "IncludedFrom": [
-        "repellat",
-        "ipsam"
+        "customer-handler",
+        "notification-system"
       ],
       "TableRight": null,
       "FieldProperties": {

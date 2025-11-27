@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ScreenChooserId": 87,
-  "Name": "Stokes LLC",
+  "Name": "Contact Update Notification",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "fugiat",
-  "Source": "maiores",
-  "Registered": "2021-05-10T10:10:59.5687977+02:00",
-  "RegisteredAssociateId": 241,
-  "Updated": "2022-01-27T10:10:59.5687977+01:00",
-  "UpdatedAssociateId": 702,
+  "Enabled": true,
+  "UniqueIdentifier": "contact-update-notify",
+  "Source": "#setLanguageLevel 3;\nContact contact = getActiveContact();\nString changes = getContactChanges(contact);\nnotifyAssignedUsers(contact, changes);",
+  "Registered": "2024-06-12T09:00:00+02:00",
+  "RegisteredAssociateId": 105,
+  "Updated": "2024-11-26T15:45:00+01:00",
+  "UpdatedAssociateId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

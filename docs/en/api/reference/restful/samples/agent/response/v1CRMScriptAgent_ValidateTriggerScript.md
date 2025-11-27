@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "omnis",
-  "LineNumber": 124,
+  "ErrorMessage": "",
+  "LineNumber": 0,
   "ErrorInformation": null,
-  "Transpiled": "dolores",
+  "Transpiled": "var ticket = getActiveTicket();\nvar categoryId = ticket.getValue('categoryId').toInteger();\nticket.setValue('ownerId', findOwnerByCategory(categoryId).toString());",
   "Includes": [
-    256,
-    150
+    42,
+    87
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 834,
-      "LineNumberTo": 150,
-      "Delta": 13,
-      "IncludeId": "ex",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 3,
+      "Delta": 0,
+      "IncludeId": "ticket-utils",
       "IncludedFrom": [
-        "rerum",
-        "voluptas"
+        "trigger-scripts",
+        "auto-assignment"
       ],
       "TableRight": null,
       "FieldProperties": {
