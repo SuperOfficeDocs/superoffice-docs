@@ -5,24 +5,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "AssociateId": 657,
-    "Name": "Kunde-Mante",
+    "Name": "MT",
     "PersonId": 682,
-    "Rank": 599,
-    "Tooltip": "sequi",
-    "Type": "AnonymousAssociate",
+    "Rank": 3,
+    "Tooltip": "Technical Support Specialist",
+    "Type": "InternalAssociate",
     "GroupIdx": 956,
-    "FullName": "Osvaldo Heaney",
-    "FormalName": "Howe Group",
+    "FullName": "Michael Thompson",
+    "FormalName": "Thompson, Michael",
     "Deleted": false,
     "EjUserId": 918,
-    "UserName": "Runolfsson-Rath",
+    "UserName": "michael.thompson",
     "ExtraFields": {
-      "ExtraFields1": "quasi",
-      "ExtraFields2": "accusamus"
+      "ExtraFields1": "Support",
+      "ExtraFields2": "Technical"
     },
     "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "architecto"
+      "CustomFields1": "Department: Support",
+      "CustomFields2": "Specialization: Technical"
     },
     "TableRight": null,
     "FieldProperties": {

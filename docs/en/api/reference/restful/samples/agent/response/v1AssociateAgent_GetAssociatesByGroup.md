@@ -5,24 +5,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "AssociateId": 794,
-    "Name": "Heaney-Bosco",
+    "Name": "EW",
     "PersonId": 316,
-    "Rank": 148,
-    "Tooltip": "laborum",
-    "Type": "AnonymousAssociate",
+    "Rank": 4,
+    "Tooltip": "Marketing Manager",
+    "Type": "InternalAssociate",
     "GroupIdx": 869,
-    "FullName": "Miss Abby Rubye McKenzie",
-    "FormalName": "Wiza, Corwin and McCullough",
-    "Deleted": true,
+    "FullName": "Emily Wilson",
+    "FormalName": "Wilson, Emily",
+    "Deleted": false,
     "EjUserId": 666,
-    "UserName": "Mayer, Leuschke and Bechtelar",
+    "UserName": "emily.wilson",
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "illum"
+      "ExtraFields1": "Marketing",
+      "ExtraFields2": "Digital"
     },
     "CustomFields": {
-      "CustomFields1": "tempore",
-      "CustomFields2": "quia"
+      "CustomFields1": "Department: Marketing",
+      "CustomFields2": "Focus: Digital Campaigns"
     },
     "TableRight": null,
     "FieldProperties": {

@@ -4,24 +4,24 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateId": 527,
-  "Name": "Hodkiewicz-Collier",
+  "Name": "SJ",
   "PersonId": 436,
-  "Rank": 849,
-  "Tooltip": "saepe",
-  "Type": "AnonymousAssociate",
+  "Rank": 2,
+  "Tooltip": "Customer Success Manager",
+  "Type": "InternalAssociate",
   "GroupIdx": 886,
-  "FullName": "Neal Marguerite Daniel MD",
-  "FormalName": "Streich-Terry",
+  "FullName": "Sarah Johnson",
+  "FormalName": "Johnson, Sarah",
   "Deleted": false,
   "EjUserId": 107,
-  "UserName": "Schulist-Wolf",
+  "UserName": "sarah.johnson",
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "et"
+    "ExtraFields1": "Customer Success",
+    "ExtraFields2": "Enterprise"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "et"
+    "CustomFields1": "Department: Customer Success",
+    "CustomFields2": "Team: Enterprise Accounts"
   },
   "TableRight": null,
   "FieldProperties": {
