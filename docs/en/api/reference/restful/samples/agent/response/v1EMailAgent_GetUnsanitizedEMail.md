@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 122,
-      "ContactName": "Simonis-Botsford",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 255,
-      "PersonName": "Bradtke Group",
+      "PersonName": "Robert Hansen",
       "AssociateId": 96,
-      "Address": "vitae",
+      "Address": "robert.hansen@acmecorp.com",
       "EmailId": 129,
       "DuplicatePersonIds": [
         1000,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "veritatis",
-  "HTMLBody": "est",
+  "Subject": "FW: Budget Approval",
+  "HTMLBody": "<html><body><p>Please review the attached budget document.</p></body></html>",
   "From": null,
   "Sent": "2010-01-11T10:11:00.097814+01:00",
-  "Size": 398,
+  "Size": 67234,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fuga",
-  "PlainBody": "sequi",
+  "MessageID": "<20240110120000.msg010@acmecorp.com>",
+  "PlainBody": "Please review the attached budget document.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 340,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Green-Bosco",
+  "FolderName": "Reports",
   "EmailItemId": 160,
   "AccountId": 334,
   "ReceivedAt": "2015-08-23T10:11:00.099066+02:00",

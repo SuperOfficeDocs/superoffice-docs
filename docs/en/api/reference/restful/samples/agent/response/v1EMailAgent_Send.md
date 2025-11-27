@@ -7,17 +7,17 @@ Content-Type: application/json; charset=utf-8
     "To": [
       {
         "ContactId": 935,
-        "ContactName": "Daugherty-Kovacek",
+        "ContactName": "GlobalCorp Industries",
         "PersonId": 760,
-        "PersonName": "Hermiston, Schultz and Tremblay",
+        "PersonName": "David Martinez",
         "AssociateId": 252,
-        "Address": "voluptatum",
+        "Address": "david.martinez@globalcorp.com",
         "EmailId": 414,
         "DuplicatePersonIds": [
           633,
           377
         ],
-        "Name": "Haag Group",
+        "Name": "David Martinez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -31,17 +31,17 @@ Content-Type: application/json; charset=utf-8
     "Cc": [
       {
         "ContactId": 481,
-        "ContactName": "Jewess-Reilly",
+        "ContactName": "Nordic Solutions AS",
         "PersonId": 484,
-        "PersonName": "Simonis-Schaefer",
+        "PersonName": "Linda Chen",
         "AssociateId": 424,
-        "Address": "perspiciatis",
+        "Address": "linda.chen@nordicsolutions.no",
         "EmailId": 42,
         "DuplicatePersonIds": [
           465,
           870
         ],
-        "Name": "Schuster LLC",
+        "Name": "Linda Chen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -55,17 +55,17 @@ Content-Type: application/json; charset=utf-8
     "Bcc": [
       {
         "ContactId": 451,
-        "ContactName": "Farrell Group",
+        "ContactName": "TechCorp Solutions",
         "PersonId": 307,
-        "PersonName": "Moore, Bogan and Herzog",
+        "PersonName": "Sarah Johnson",
         "AssociateId": 645,
-        "Address": "consectetur",
+        "Address": "sarah.johnson@techcorp.com",
         "EmailId": 526,
         "DuplicatePersonIds": [
           462,
           279
         ],
-        "Name": "Grant Group",
+        "Name": "Sarah Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -76,27 +76,27 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "Subject": "aut",
-    "HTMLBody": "sunt",
+    "Subject": "Meeting Agenda - Product Roadmap Discussion",
+    "HTMLBody": "<p>Hi David,</p><p>I'm sending you the agenda for tomorrow's product roadmap discussion meeting. Please review the attached materials before the meeting.</p><p>Thanks,<br>John</p>",
     "From": null,
     "Sent": "2008-05-14T10:10:59.8844586+02:00",
     "Size": 852,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "et",
-    "PlainBody": "reprehenderit",
+    "MessageID": "<20080514101059.34567@acmecorp.com>",
+    "PlainBody": "Hi David,\n\nI'm sending you the agenda for tomorrow's product roadmap discussion meeting. Please review the attached materials before the meeting.\n\nThanks,\nJohn",
     "IsSent": false,
     "EMailSOInfo": null,
     "ServerId": 386,
     "Attachments": [
       {
-        "Description": "Cross-group grid-enabled throughput",
-        "Filename": "suscipit",
+        "Description": "Product Roadmap Meeting Agenda",
+        "Filename": "Meeting_Agenda_Product_Roadmap.docx",
         "Size": 845,
-        "Type": "officia",
-        "Encoding": "ullam",
-        "Id": "aspernatur",
-        "Disposition": "voluptas",
+        "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "Encoding": "base64",
+        "Id": "att_20080514_003",
+        "Disposition": "attachment",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -111,10 +111,10 @@ Content-Type: application/json; charset=utf-8
     ],
     "CustomHeaderList": [
       {
-        "Name": "Quitzon Inc and Sons",
+        "Name": "X-Meeting-Request",
         "Values": [
-          "dolores",
-          "autem"
+          "true",
+          "2024-05-15T10:00:00"
         ],
         "TableRight": null,
         "FieldProperties": {
@@ -126,10 +126,10 @@ Content-Type: application/json; charset=utf-8
         }
       },
       {
-        "Name": "Quitzon Inc and Sons",
+        "Name": "X-Calendar-Invite",
         "Values": [
-          "dolores",
-          "autem"
+          "REQUEST",
+          "VEVENT"
         ],
         "TableRight": null,
         "FieldProperties": {
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "FolderName": "Wilkinson-Hamill",
+    "FolderName": "Drafts",
     "EmailItemId": 750,
     "AccountId": 483,
     "ReceivedAt": "2015-03-19T10:10:59.8844586+01:00",

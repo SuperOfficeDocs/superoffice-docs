@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 473,
-      "ContactName": "Greenholt-Morissette",
+      "ContactName": "Acme Corporation",
       "PersonId": 271,
-      "PersonName": "Lubowitz, Feest and Gleason",
+      "PersonName": "John Anderson",
       "AssociateId": 676,
-      "Address": "et",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 692,
       "DuplicatePersonIds": [
         871,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "voluptas",
-  "HTMLBody": "quia",
+  "Subject": "RE: Budget Approval",
+  "HTMLBody": "<html><body><p>The budget has been approved. Proceeding with the project.</p></body></html>",
   "From": null,
   "Sent": "2024-08-20T10:10:59.902461+02:00",
-  "Size": 873,
+  "Size": 18765,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "sed",
+  "MessageID": "<20240107120000.msg007@acmecorp.com>",
+  "PlainBody": "The budget has been approved. Proceeding with the project.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 710,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Waters Inc and Sons",
+  "FolderName": "Inbox",
   "EmailItemId": 57,
   "AccountId": 747,
   "ReceivedAt": "2003-10-18T10:10:59.9034619+02:00",

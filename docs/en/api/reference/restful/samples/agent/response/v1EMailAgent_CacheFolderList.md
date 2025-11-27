@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price, Gorczany and Labadie",
-    "Delimiter": "ut",
-    "Flags": "velit",
-    "TotalItems": 734,
-    "UnreadItems": 821,
-    "Subscribed": false,
+    "Name": "Inbox",
+    "Delimiter": "/",
+    "Flags": "HasChildren",
+    "TotalItems": 127,
+    "UnreadItems": 8,
+    "Subscribed": true,
     "EmailFolderId": 773,
     "TableRight": null,
     "FieldProperties": {

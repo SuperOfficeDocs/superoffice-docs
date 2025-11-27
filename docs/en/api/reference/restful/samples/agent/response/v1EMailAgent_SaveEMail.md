@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 122,
-      "ContactName": "Hills Inc and Sons",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 188,
-      "PersonName": "Kautzer, Veum and Wiegand",
+      "PersonName": "David Martinez",
       "AssociateId": 860,
-      "Address": "ullam",
+      "Address": "david.martinez@globalcorp.com",
       "EmailId": 924,
       "DuplicatePersonIds": [
         659,
         727
       ],
-      "Name": "Cronin, Lueilwitz and Nikolaus",
+      "Name": "David Martinez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -30,17 +30,17 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 408,
-      "ContactName": "Bayer LLC",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 789,
-      "PersonName": "Mertz LLC",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 864,
-      "Address": "minus",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 150,
       "DuplicatePersonIds": [
         949,
         37
       ],
-      "Name": "Brakus, Padberg and Bechtelar",
+      "Name": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -54,17 +54,17 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 997,
-      "ContactName": "Abbott LLC",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 78,
-      "PersonName": "Roob LLC",
+      "PersonName": "Anna Berg",
       "AssociateId": 142,
-      "Address": "et",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 251,
       "DuplicatePersonIds": [
         518,
         937
       ],
-      "Name": "Homenick, Lueilwitz and Hegmann",
+      "Name": "Anna Berg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "fugit",
-  "HTMLBody": "eum",
+  "Subject": "Project Status Update - Phase 2 Completion",
+  "HTMLBody": "<p>Hi David,</p><p>I wanted to provide an update on Phase 2 of the project. All deliverables have been completed and are ready for your review.</p><p>Best regards,<br>John</p>",
   "From": null,
   "Sent": "2009-05-06T10:11:00.0373793+02:00",
   "Size": 117,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "enim",
+  "MessageID": "<20090506101100.56789@acmecorp.com>",
+  "PlainBody": "Hi David,\n\nI wanted to provide an update on Phase 2 of the project. All deliverables have been completed and are ready for your review.\n\nBest regards,\nJohn",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 413,
   "Attachments": [
     {
-      "Description": "Quality-focused didactic customer loyalty",
-      "Filename": "alias",
+      "Description": "Project Phase 2 Status Report",
+      "Filename": "Phase2_Status_Report.pdf",
       "Size": 593,
-      "Type": "reprehenderit",
-      "Encoding": "quibusdam",
-      "Id": "dolore",
-      "Disposition": "iusto",
+      "Type": "application/pdf",
+      "Encoding": "base64",
+      "Id": "att_20090506_005",
+      "Disposition": "attachment",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cruickshank Group",
+      "Name": "X-Project-ID",
       "Values": [
-        "corrupti",
-        "qui"
+        "PROJ-2024-042",
+        "Phase2"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Cruickshank Group",
+      "Name": "X-Message-Flag",
       "Values": [
-        "corrupti",
-        "qui"
+        "Follow-Up",
+        "Important"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Kshlerin-Dicki",
+  "FolderName": "Projects",
   "EmailItemId": 283,
   "AccountId": 709,
   "ReceivedAt": "2004-08-13T10:11:00.0373793+02:00",

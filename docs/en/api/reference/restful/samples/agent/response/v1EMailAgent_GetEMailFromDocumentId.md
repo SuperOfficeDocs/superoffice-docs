@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 183,
-      "ContactName": "Zieme Group",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 979,
-      "PersonName": "Johns, Nader and Stiedemann",
+      "PersonName": "Linda Chen",
       "AssociateId": 902,
-      "Address": "atque",
+      "Address": "linda.chen@globalcorp.com",
       "EmailId": 845,
       "DuplicatePersonIds": [
         253,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "iste",
-  "HTMLBody": "qui",
+  "Subject": "Contract Review Required",
+  "HTMLBody": "<html><body><p>The contract is ready for your review.</p></body></html>",
   "From": null,
   "Sent": "1999-10-03T10:11:00.0530368+02:00",
-  "Size": 586,
+  "Size": 156789,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sapiente",
-  "PlainBody": "sint",
+  "MessageID": "<20240104120000.msg004@globalcorp.com>",
+  "PlainBody": "The contract is ready for your review.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 867,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Stanton Inc and Sons",
+  "FolderName": "Documents",
   "EmailItemId": 817,
   "AccountId": 572,
   "ReceivedAt": "2010-02-06T10:11:00.0530368+01:00",

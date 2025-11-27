@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 259,
-      "ContactName": "Gleichner Group",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 662,
-      "PersonName": "Vandervort, Balistreri and Johnston",
+      "PersonName": "Anna Berg",
       "AssociateId": 186,
-      "Address": "consequuntur",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 326,
       "DuplicatePersonIds": [
         124,
         402
       ],
-      "Name": "Emard-Johnson",
+      "Name": "Anna Berg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -30,17 +30,17 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 587,
-      "ContactName": "Schulist-Pfeffer",
+      "ContactName": "Acme Corporation",
       "PersonId": 208,
-      "PersonName": "Shields LLC",
+      "PersonName": "Robert Hansen",
       "AssociateId": 651,
-      "Address": "dolor",
+      "Address": "robert.hansen@acmecorp.com",
       "EmailId": 308,
       "DuplicatePersonIds": [
         587,
         996
       ],
-      "Name": "Hintz-Adams",
+      "Name": "Robert Hansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -54,17 +54,17 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 705,
-      "ContactName": "Pacocha LLC",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 99,
-      "PersonName": "Lebsack-Nader",
+      "PersonName": "Emily Wilson",
       "AssociateId": 48,
-      "Address": "exercitationem",
+      "Address": "emily.wilson@techcorp.com",
       "EmailId": 901,
       "DuplicatePersonIds": [
         642,
         197
       ],
-      "Name": "Trantow-Kemmer",
+      "Name": "Emily Wilson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "iure",
-  "HTMLBody": "vero",
+  "Subject": "FW: Client Meeting Notes - Q1 Review",
+  "HTMLBody": "<p>Hi Anna,</p><p>Forwarding the meeting notes from our Q1 client review. Please review before our sync tomorrow.</p><p>Thanks,<br>John</p>",
   "From": null,
   "Sent": "2021-07-01T10:10:59.8874584+02:00",
   "Size": 684,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "minima",
-  "PlainBody": "rerum",
+  "MessageID": "<20210701101059.01234@acmecorp.com>",
+  "PlainBody": "Hi Anna,\n\nForwarding the meeting notes from our Q1 client review. Please review before our sync tomorrow.\n\nThanks,\nJohn",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 56,
   "Attachments": [
     {
-      "Description": "Persevering tangible support",
-      "Filename": "nihil",
+      "Description": "Q1 Client Meeting Notes",
+      "Filename": "Q1_Client_Meeting_Notes.docx",
       "Size": 819,
-      "Type": "nostrum",
-      "Encoding": "veritatis",
-      "Id": "quo",
-      "Disposition": "aperiam",
+      "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "Encoding": "base64",
+      "Id": "att_20210701_009",
+      "Disposition": "attachment",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "McGlynn LLC",
+      "Name": "X-Forwarded-Message",
       "Values": [
-        "molestiae",
-        "quo"
+        "true",
+        "Q1-Review"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "McGlynn LLC",
+      "Name": "X-Meeting-Reference",
       "Values": [
-        "molestiae",
-        "quo"
+        "Q1-2024",
+        "Client-Review"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Pollich-Lebsack",
+  "FolderName": "Meetings",
   "EmailItemId": 245,
   "AccountId": 310,
   "ReceivedAt": "2013-12-20T10:10:59.8884579+01:00",

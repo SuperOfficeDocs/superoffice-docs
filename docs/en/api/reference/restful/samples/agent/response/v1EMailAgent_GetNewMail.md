@@ -5,17 +5,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ServerId": 567,
-    "MessageId": "perspiciatis",
-    "Subject": "ullam",
+    "MessageId": "<20240109120000.msg009@globalcorp.com>",
+    "Subject": "Contract Review Required",
     "From": null,
     "To": [
       {
         "ContactId": 216,
-        "ContactName": "Zboncak Group",
+        "ContactName": "GlobalCorp Industries",
         "PersonId": 664,
-        "PersonName": "Carroll, Barrows and Windler",
+        "PersonName": "David Martinez",
         "AssociateId": 928,
-        "Address": "non",
+        "Address": "david.martinez@globalcorp.com",
         "EmailId": 52,
         "DuplicatePersonIds": [
           816,

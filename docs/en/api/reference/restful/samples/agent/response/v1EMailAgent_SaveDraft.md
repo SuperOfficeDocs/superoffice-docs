@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 1002,
-      "ContactName": "Ferry, Torphy and Champlin",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 853,
-      "PersonName": "Harber, Feest and McGlynn",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 542,
-      "Address": "enim",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 915,
       "DuplicatePersonIds": [
         660,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "voluptatibus",
-  "HTMLBody": "officiis",
+  "Subject": "RE: Budget Approval",
+  "HTMLBody": "<html><body><p>Draft email regarding budget approval process.</p></body></html>",
   "From": null,
   "Sent": "2020-08-05T10:10:59.9593142+02:00",
-  "Size": 513,
+  "Size": 12345,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "magnam",
-  "PlainBody": "quia",
+  "MessageID": "<20240115120000.msg015@techcorp.com>",
+  "PlainBody": "Draft email regarding budget approval process.",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 463,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Howe Inc and Sons",
+  "FolderName": "Drafts",
   "EmailItemId": 135,
   "AccountId": 425,
   "ReceivedAt": "2004-10-22T10:10:59.9738211+02:00",

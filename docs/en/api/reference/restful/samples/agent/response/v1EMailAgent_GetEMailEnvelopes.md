@@ -5,23 +5,23 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ServerId": 447,
-    "MessageId": "est",
-    "Subject": "voluptatem",
+    "MessageId": "<20090611101100.45678@techcorp.com>",
+    "Subject": "Contract Review Required - Service Agreement",
     "From": null,
     "To": [
       {
         "ContactId": 783,
-        "ContactName": "Shields, Barrows and Pacocha",
+        "ContactName": "Acme Corporation",
         "PersonId": 274,
-        "PersonName": "Spencer Group",
+        "PersonName": "John Anderson",
         "AssociateId": 118,
-        "Address": "est",
+        "Address": "john.anderson@acmecorp.com",
         "EmailId": 483,
         "DuplicatePersonIds": [
           974,
           752
         ],
-        "Name": "Kris-Reichert",
+        "Name": "John Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

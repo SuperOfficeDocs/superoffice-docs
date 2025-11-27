@@ -7,11 +7,11 @@ Content-Type: application/json; charset=utf-8
     "To": [
       {
         "ContactId": 963,
-        "ContactName": "Kautzer, Schulist and Flatley",
+        "ContactName": "GlobalCorp Industries",
         "PersonId": 951,
-        "PersonName": "Leuschke-Zboncak",
+        "PersonName": "David Martinez",
         "AssociateId": 743,
-        "Address": "ea",
+        "Address": "david.martinez@globalcorp.com",
         "EmailId": 841,
         "DuplicatePersonIds": [
           812,
@@ -31,11 +31,11 @@ Content-Type: application/json; charset=utf-8
     "Cc": [
       {
         "ContactId": 883,
-        "ContactName": "Herzog, Hyatt and DuBuque",
+        "ContactName": "Acme Corporation",
         "PersonId": 146,
-        "PersonName": "Doyle LLC",
+        "PersonName": "John Anderson",
         "AssociateId": 562,
-        "Address": "amet",
+        "Address": "john.anderson@acmecorp.com",
         "EmailId": 960,
         "DuplicatePersonIds": [
           708,
@@ -76,15 +76,15 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "Subject": "fugit",
-    "HTMLBody": "nihil",
+    "Subject": "Project Status Update",
+    "HTMLBody": "<html><body><p>Final project status update for Q1.</p></body></html>",
     "From": null,
     "Sent": "2007-03-29T10:11:00.0373793+02:00",
-    "Size": 123,
+    "Size": 98765,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "dolorem",
-    "PlainBody": "aut",
+    "MessageID": "<20240117120000.msg017@globalcorp.com>",
+    "PlainBody": "Final project status update for Q1.",
     "IsSent": false,
     "EMailSOInfo": null,
     "ServerId": 877,
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "FolderName": "Morar LLC",
+    "FolderName": "Sent Items",
     "EmailItemId": 473,
     "AccountId": 477,
     "ReceivedAt": "2024-10-26T10:11:00.0373793+02:00",

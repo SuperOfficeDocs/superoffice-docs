@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Barrows-McCullough",
+  "Name": "X-Priority",
   "Values": [
-    "quia",
-    "earum"
+    "1",
+    "High"
   ],
   "TableRight": null,
   "FieldProperties": {

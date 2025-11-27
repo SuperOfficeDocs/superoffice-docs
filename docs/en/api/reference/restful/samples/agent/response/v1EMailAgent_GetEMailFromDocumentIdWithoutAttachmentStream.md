@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 641,
-      "ContactName": "Heidenreich, Heidenreich and Swift",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 358,
-      "PersonName": "Braun, VonRueden and Quigley",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 269,
-      "Address": "laboriosam",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 563,
       "DuplicatePersonIds": [
         411,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "iusto",
-  "HTMLBody": "aut",
+  "Subject": "Meeting Agenda",
+  "HTMLBody": "<html><body><p>Here is the agenda for tomorrow's meeting.</p></body></html>",
   "From": null,
   "Sent": "1999-09-01T10:10:59.9769623+02:00",
-  "Size": 455,
+  "Size": 67234,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eos",
-  "PlainBody": "distinctio",
+  "MessageID": "<20240105120000.msg005@techcorp.com>",
+  "PlainBody": "Here is the agenda for tomorrow's meeting.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 801,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Kessler Inc and Sons",
+  "FolderName": "Drafts",
   "EmailItemId": 146,
   "AccountId": 894,
   "ReceivedAt": "1999-09-17T10:10:59.9769623+02:00",

@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 473,
-      "ContactName": "Lehner Group",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 313,
-      "PersonName": "Spencer-Osinski",
+      "PersonName": "Emily Wilson",
       "AssociateId": 738,
-      "Address": "similique",
+      "Address": "emily.wilson@techcorp.com",
       "EmailId": 705,
       "DuplicatePersonIds": [
         306,
@@ -30,11 +30,11 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 263,
-      "ContactName": "Windler-Homenick",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 786,
-      "PersonName": "Lowe-Gleichner",
+      "PersonName": "Anna Berg",
       "AssociateId": 53,
-      "Address": "quis",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 287,
       "DuplicatePersonIds": [
         478,
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "ipsum",
+  "Subject": "FW: Budget Approval",
+  "HTMLBody": "<html><body><p>Please see the attached budget report for review.</p></body></html>",
   "From": null,
   "Sent": "2025-09-24T10:11:00.0530368+02:00",
-  "Size": 783,
+  "Size": 89456,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "cum",
+  "MessageID": "<20240102120000.msg002@techcorp.com>",
+  "PlainBody": "Please see the attached budget report for review.",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 993,
   "Attachments": [
     {
-      "Description": "Down-sized uniform local area network",
-      "Filename": "id",
-      "Size": 473,
-      "Type": "delectus",
-      "Encoding": "cum",
-      "Id": "ut",
-      "Disposition": "doloribus",
+      "Description": "Budget Report Spreadsheet",
+      "Filename": "Budget_Report.xlsx",
+      "Size": 89456,
+      "Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "Encoding": "base64",
+      "Id": "att_20240102_001",
+      "Disposition": "attachment",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Altenwerth LLC",
+      "Name": "X-Mailer",
       "Values": [
-        "veritatis",
-        "quo"
+        "SuperOffice Mail Client",
+        "v10.0"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Deckow, Hickle and Gerlach",
+  "FolderName": "Sent Items",
   "EmailItemId": 696,
   "AccountId": 397,
   "ReceivedAt": "2002-09-18T10:11:00.0530368+02:00",

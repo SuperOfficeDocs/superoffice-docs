@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 781,
-      "ContactName": "Bosco-Schumm",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 211,
-      "PersonName": "Marks, Mayer and Keeling",
+      "PersonName": "Emily Wilson",
       "AssociateId": 717,
-      "Address": "dolores",
+      "Address": "emily.wilson@techcorp.com",
       "EmailId": 161,
       "DuplicatePersonIds": [
         497,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "eaque",
-  "HTMLBody": "blanditiis",
+  "Subject": "RE: Q1 Sales Proposal",
+  "HTMLBody": "<html><body><p>Thank you for the detailed proposal. We need some clarifications on the timeline.</p></body></html>",
   "From": null,
   "Sent": "2018-04-06T10:11:00.0738072+02:00",
-  "Size": 654,
+  "Size": 78945,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "pariatur",
+  "MessageID": "<20240112120000.msg012@techcorp.com>",
+  "PlainBody": "Thank you for the detailed proposal. We need some clarifications on the timeline.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 487,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Turner Inc and Sons",
+  "FolderName": "Sent Items",
   "EmailItemId": 420,
   "AccountId": 297,
   "ReceivedAt": "2017-09-02T10:11:00.0748065+02:00",

@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ServerId": 183,
-  "MessageId": "rerum",
-  "Subject": "tempore",
+  "MessageId": "<20061228101059.78901@acmecorp.com>",
+  "Subject": "Invoice Approval Request - December 2024",
   "From": null,
   "To": [
     {
       "ContactId": 70,
-      "ContactName": "Rohan Group",
+      "ContactName": "Acme Corporation",
       "PersonId": 267,
-      "PersonName": "Smith, Johns and Haley",
+      "PersonName": "John Anderson",
       "AssociateId": 374,
-      "Address": "ab",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 566,
       "DuplicatePersonIds": [
         634,
         753
       ],
-      "Name": "Ledner, Cormier and Kuhn",
+      "Name": "John Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

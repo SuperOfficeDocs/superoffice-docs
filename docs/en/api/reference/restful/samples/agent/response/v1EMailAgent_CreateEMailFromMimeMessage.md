@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 118,
-      "ContactName": "Corkery Inc and Sons",
+      "ContactName": "Acme Corporation",
       "PersonId": 806,
-      "PersonName": "Crona LLC",
+      "PersonName": "John Anderson",
       "AssociateId": 621,
-      "Address": "voluptates",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 132,
       "DuplicatePersonIds": [
         316,
@@ -30,11 +30,11 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 469,
-      "ContactName": "Glover, Okuneva and Wyman",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 865,
-      "PersonName": "Stehr, Schamberger and Schaefer",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 329,
-      "Address": "eum",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 396,
       "DuplicatePersonIds": [
         628,
@@ -54,11 +54,11 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 870,
-      "ContactName": "Parisian-Connelly",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 143,
-      "PersonName": "Cruickshank Group",
+      "PersonName": "David Martinez",
       "AssociateId": 881,
-      "Address": "qui",
+      "Address": "david.martinez@globalcorp.com",
       "EmailId": 164,
       "DuplicatePersonIds": [
         172,
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "vitae",
-  "HTMLBody": "cupiditate",
+  "Subject": "RE: Q1 Sales Proposal",
+  "HTMLBody": "<html><body><p>Hi John,</p><p>Thank you for sending the Q1 sales proposal. I've reviewed the document and have a few questions about the pricing structure.</p><p>Best regards,<br>Sarah</p></body></html>",
   "From": null,
   "Sent": "2015-03-12T10:11:00.0838075+01:00",
-  "Size": 539,
+  "Size": 245680,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "numquam",
+  "MessageID": "<20240101120000.msg001@acmecorp.com>",
+  "PlainBody": "Hi John,\n\nThank you for sending the Q1 sales proposal. I've reviewed the document and have a few questions about the pricing structure.\n\nBest regards,\nSarah",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 241,
   "Attachments": [
     {
-      "Description": "Operative high-level service-desk",
-      "Filename": "omnis",
-      "Size": 219,
-      "Type": "quibusdam",
-      "Encoding": "fugiat",
-      "Id": "quibusdam",
-      "Disposition": "veritatis",
+      "Description": "Q1 Sales Proposal Document",
+      "Filename": "Sales_Proposal_Q1_2024.pdf",
+      "Size": 245680,
+      "Type": "application/pdf",
+      "Encoding": "base64",
+      "Id": "att_20240101_001",
+      "Disposition": "attachment",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schaden, Boehm and Tromp",
+      "Name": "X-Priority",
       "Values": [
-        "aut",
-        "est"
+        "1",
+        "High"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Rodriguez-Hyatt",
+  "FolderName": "Inbox",
   "EmailItemId": 405,
   "AccountId": 581,
   "ReceivedAt": "2002-10-10T10:11:00.0848133+02:00",

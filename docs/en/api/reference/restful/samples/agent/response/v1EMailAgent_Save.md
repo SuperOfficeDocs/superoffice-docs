@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 148,
-      "ContactName": "Waelchi Group",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 367,
-      "PersonName": "O'Connell, Boyle and Stokes",
+      "PersonName": "Anna Berg",
       "AssociateId": 936,
-      "Address": "iure",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 25,
       "DuplicatePersonIds": [
         846,
         484
       ],
-      "Name": "Russel-Ondricka",
+      "Name": "Anna Berg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -30,17 +30,17 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 44,
-      "ContactName": "Goldner, Tromp and Wiza",
+      "ContactName": "Acme Corporation",
       "PersonId": 385,
-      "PersonName": "Sipes-Upton",
+      "PersonName": "John Anderson",
       "AssociateId": 705,
-      "Address": "cupiditate",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 555,
       "DuplicatePersonIds": [
         76,
         101
       ],
-      "Name": "Thiel-Wunsch",
+      "Name": "John Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -54,17 +54,17 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 177,
-      "ContactName": "Koepp-Abshire",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 972,
-      "PersonName": "Nader-Rohan",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 439,
-      "Address": "dolores",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 512,
       "DuplicatePersonIds": [
         804,
         448
       ],
-      "Name": "O'Conner, White and Lesch",
+      "Name": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "quos",
-  "HTMLBody": "odit",
+  "Subject": "Project Timeline Update - Phase 3",
+  "HTMLBody": "<p>Hi Anna,</p><p>I've updated the project timeline for Phase 3. Please review and let me know if you have any concerns.</p><p>Best,<br>John</p>",
   "From": null,
   "Sent": "2002-05-09T10:11:00.1030973+02:00",
   "Size": 514,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "odio",
-  "PlainBody": "et",
+  "MessageID": "<20020509101100.12345@acmecorp.com>",
+  "PlainBody": "Hi Anna,\n\nI've updated the project timeline for Phase 3. Please review and let me know if you have any concerns.\n\nBest,\nJohn",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 606,
   "Attachments": [
     {
-      "Description": "De-engineered dedicated info-mediaries",
-      "Filename": "facilis",
+      "Description": "Project Timeline Phase 3",
+      "Filename": "Project_Timeline_Phase3.xlsx",
       "Size": 940,
-      "Type": "perspiciatis",
-      "Encoding": "ullam",
-      "Id": "dicta",
-      "Disposition": "dolore",
+      "Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "Encoding": "base64",
+      "Id": "att_20020509_010",
+      "Disposition": "attachment",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Monahan, Mitchell and Schuppe",
+      "Name": "X-Phase",
       "Values": [
-        "sint",
-        "animi"
+        "Phase-3",
+        "Timeline"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Monahan, Mitchell and Schuppe",
+      "Name": "X-Project-Reference",
       "Values": [
-        "sint",
-        "animi"
+        "PROJ-2024",
+        "Update"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Herman, Kling and O'Reilly",
+  "FolderName": "Projects",
   "EmailItemId": 187,
   "AccountId": 419,
   "ReceivedAt": "2001-07-03T10:11:00.1030973+02:00",

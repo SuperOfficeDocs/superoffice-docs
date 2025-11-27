@@ -5,13 +5,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "PersonId": 483,
-    "FullName": "Zelma Skiles",
-    "EmailAddress": "brian_daniel@davis.co.uk",
+    "FullName": "John Anderson",
+    "EmailAddress": "john.anderson@acmecorp.com",
     "ContactId": 65,
-    "ContactName": "Sipes, Keeling and Raynor",
-    "ContactDepartment": "",
-    "ContactCategory": "VIP Customer",
-    "SortName": "Hammes-Stamm",
+    "ContactName": "Acme Corporation",
+    "ContactDepartment": "Sales",
+    "ContactCategory": "Customer",
+    "SortName": "Anderson, John",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

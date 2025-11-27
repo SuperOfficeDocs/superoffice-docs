@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 149,
-      "ContactName": "Shanahan, Gottlieb and Ondricka",
+      "ContactName": "Acme Corporation",
       "PersonId": 718,
-      "PersonName": "Purdy-Gerhold",
+      "PersonName": "John Anderson",
       "AssociateId": 639,
-      "Address": "beatae",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 37,
       "DuplicatePersonIds": [
         29,
         516
       ],
-      "Name": "Gerlach-Christiansen",
+      "Name": "John Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -30,17 +30,17 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 246,
-      "ContactName": "Oberbrunner, Bartoletti and O'Connell",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 483,
-      "PersonName": "Hegmann LLC",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 31,
-      "Address": "labore",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 220,
       "DuplicatePersonIds": [
         644,
         127
       ],
-      "Name": "Bode, Casper and Schmitt",
+      "Name": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -54,17 +54,17 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 258,
-      "ContactName": "Kilback-Reynolds",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 431,
-      "PersonName": "Lind Group",
+      "PersonName": "Linda Chen",
       "AssociateId": 720,
-      "Address": "omnis",
+      "Address": "linda.chen@globalcorp.com",
       "EmailId": 973,
       "DuplicatePersonIds": [
         915,
         596
       ],
-      "Name": "Daugherty, Daniel and Spinka",
+      "Name": "Linda Chen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "vitae",
-  "HTMLBody": "hic",
+  "Subject": "Document Review - Service Agreement Draft",
+  "HTMLBody": "<p>Hi John,</p><p>Please review the attached service agreement draft. I've incorporated the feedback from our last meeting.</p><p>Best,<br>Sarah</p>",
   "From": null,
   "Sent": "2021-05-12T10:11:00.0798072+02:00",
   "Size": 545,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "officiis",
+  "MessageID": "<20210512101100.90123@techcorp.com>",
+  "PlainBody": "Hi John,\n\nPlease review the attached service agreement draft. I've incorporated the feedback from our last meeting.\n\nBest,\nSarah",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 571,
   "Attachments": [
     {
-      "Description": "Polarised interactive middleware",
-      "Filename": "et",
+      "Description": "Service Agreement Draft",
+      "Filename": "Service_Agreement_Draft_v2.docx",
       "Size": 612,
-      "Type": "eius",
-      "Encoding": "ipsam",
-      "Id": "magni",
-      "Disposition": "laudantium",
+      "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "Encoding": "base64",
+      "Id": "att_20210512_008",
+      "Disposition": "attachment",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Williamson-Heidenreich",
+      "Name": "X-Document-Type",
       "Values": [
-        "et",
-        "reiciendis"
+        "Agreement",
+        "Draft"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Williamson-Heidenreich",
+      "Name": "X-Document-Version",
       "Values": [
-        "et",
-        "reiciendis"
+        "2.0",
+        "Draft"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "O'Connell, Gutkowski and Parisian",
+  "FolderName": "Documents",
   "EmailItemId": 568,
   "AccountId": 512,
   "ReceivedAt": "2025-09-16T10:11:00.0808052+02:00",

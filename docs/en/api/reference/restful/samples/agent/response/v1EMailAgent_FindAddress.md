@@ -5,17 +5,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ContactId": 78,
-    "ContactName": "Lind LLC",
+    "ContactName": "Nordic Solutions AS",
     "PersonId": 692,
-    "PersonName": "Cronin Inc and Sons",
+    "PersonName": "Anna Berg",
     "AssociateId": 605,
-    "Address": "vero",
+    "Address": "anna.berg@nordicsolutions.no",
     "EmailId": 931,
     "DuplicatePersonIds": [
       441,
       871
     ],
-    "Name": "Hilll-Littel",
+    "Name": "Anna Berg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

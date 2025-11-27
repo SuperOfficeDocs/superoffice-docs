@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 274,
-      "ContactName": "Quigley-Feest",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 223,
-      "PersonName": "Lindgren Group",
+      "PersonName": "David Martinez",
       "AssociateId": 671,
-      "Address": "consequatur",
+      "Address": "david.martinez@globalcorp.com",
       "EmailId": 503,
       "DuplicatePersonIds": [
         378,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "aliquam",
-  "HTMLBody": "sunt",
+  "Subject": "Project Status Update",
+  "HTMLBody": "<html><body><p>Here is the latest status update on the GlobalCorp project.</p></body></html>",
   "From": null,
   "Sent": "2002-02-25T10:11:00.0530368+01:00",
-  "Size": 133,
+  "Size": 56789,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "voluptatem",
+  "MessageID": "<20240113120000.msg013@globalcorp.com>",
+  "PlainBody": "Here is the latest status update on the GlobalCorp project.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 912,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Lind, Pacocha and Skiles",
+  "FolderName": "Projects",
   "EmailItemId": 111,
   "AccountId": 923,
   "ReceivedAt": "2021-12-07T10:11:00.0530368+01:00",

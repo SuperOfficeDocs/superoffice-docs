@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 928,
-      "ContactName": "Russel LLC",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 401,
-      "PersonName": "O'Kon-Funk",
+      "PersonName": "Emily Wilson",
       "AssociateId": 238,
-      "Address": "atque",
+      "Address": "emily.wilson@techcorp.com",
       "EmailId": 717,
       "DuplicatePersonIds": [
         640,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "eius",
+  "Subject": "Project Status Update",
+  "HTMLBody": "<html><body><p>Weekly status update on the ongoing project.</p></body></html>",
   "From": null,
   "Sent": "2023-06-02T10:10:59.9004612+02:00",
-  "Size": 534,
+  "Size": 22340,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aliquid",
-  "PlainBody": "recusandae",
+  "MessageID": "<20240108120000.msg008@techcorp.com>",
+  "PlainBody": "Weekly status update on the ongoing project.",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 974,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Borer-Dicki",
+  "FolderName": "Projects",
   "EmailItemId": 701,
   "AccountId": 802,
   "ReceivedAt": "2014-02-21T10:10:59.9004612+01:00",
