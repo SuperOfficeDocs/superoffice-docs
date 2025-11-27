@@ -4,16 +4,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "officiis",
-    "Rank": 58,
-    "DisplayName": "Schmeler Inc and Sons",
-    "DisplayDescription": "Synergized mission-critical portal",
-    "FieldType": "Checkbox",
-    "ListName": "Howe, Romaguera and Schmeler",
-    "DefaultValue": "vel",
-    "MaxLength": 831,
+    "FieldKey": "customer_name",
+    "Rank": 1,
+    "DisplayName": "Customer Name",
+    "DisplayDescription": "Name of the customer in the ERP system",
+    "FieldType": "Text",
+    "ListName": "",
+    "DefaultValue": "",
+    "MaxLength": 100,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

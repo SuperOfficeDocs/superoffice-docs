@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectorId": 547,
-  "DisplayName": "Douglas-Gulgowski",
-  "URL": "http://www.example.com/",
+  "DisplayName": "SAP Business One Connector",
+  "URL": "https://erp-connector.superoffice.com/sap-b1",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {

@@ -3,9 +3,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": false,
-  "StatusMessage": "ut",
-  "Interval": "et",
+  "IsRunning": true,
+  "StatusMessage": "Synchronization running - Last sync completed 2 minutes ago",
+  "Interval": "15 minutes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

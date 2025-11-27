@@ -5,14 +5,14 @@ Content-Type: application/json; charset=utf-8
 {
   "ErpConnectionId": 644,
   "ErpConnectorId": 334,
-  "DisplayName": "Becker, Schumm and Mraz",
-  "DisplayDescription": "Persistent motivating website",
-  "Active": false,
-  "ConnectionId": "hic",
-  "MostRecentTimestamp": "est",
+  "DisplayName": "Visma Business Connection",
+  "DisplayDescription": "Accounting and ERP integration for Nordic operations",
+  "Active": true,
+  "ConnectionId": "VISMA-BUS-NOR-001",
+  "MostRecentTimestamp": "2024-11-27T11:45:00Z",
   "ConfigFields": {
-    "ConfigFields1": "quia",
-    "ConfigFields2": "doloribus"
+    "DatabaseServer": "visma-db.nordicsolutions.no",
+    "CompanyName": "Nordic Solutions AS"
   },
   "Deleted": false,
   "AllAccess": false,

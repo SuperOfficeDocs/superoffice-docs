@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "impedit",
-  "2": "et"
+  "ServerUrl": "https://erp.acmecorp.com:50000",
+  "DatabaseName": "ACME_PROD"
 }
 ```

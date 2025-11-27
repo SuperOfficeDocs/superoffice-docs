@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schinner-Pfannerstill",
-    "CrmFieldKey": "mollitia",
-    "Value": "dolor",
-    "DisplayValue": "consectetur",
-    "SyncToCrm": false,
+    "DisplayName": "Customer Number",
+    "CrmFieldKey": "contact/number",
+    "Value": "CUST-10523",
+    "DisplayValue": "CUST-10523",
+    "SyncToCrm": true,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {

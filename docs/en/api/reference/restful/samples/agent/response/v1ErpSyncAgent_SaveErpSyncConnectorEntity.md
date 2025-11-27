@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectorId": 450,
-  "DisplayName": "Rice-Lockman",
-  "URL": "http://www.example.com/",
+  "DisplayName": "Sage Business Cloud",
+  "URL": "https://erp-connector.superoffice.com/sage",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {

@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "iusto",
-    "Rank": 508,
-    "DisplayName": "Heller, Hartmann and Littel",
-    "DisplayDescription": "Versatile interactive neural-net",
-    "FieldType": "Checkbox",
-    "ListName": "Bergstrom, Goyette and Quitzon",
-    "DefaultValue": "vel",
-    "MaxLength": 775,
+    "FieldKey": "erp_customer_id",
+    "Rank": 1,
+    "DisplayName": "ERP Customer ID",
+    "DisplayDescription": "Unique customer identifier in the ERP system",
+    "FieldType": "Text",
+    "ListName": "",
+    "DefaultValue": "",
+    "MaxLength": 50,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,

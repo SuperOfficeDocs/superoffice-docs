@@ -6,14 +6,14 @@ Content-Type: application/json; charset=utf-8
   {
     "ErpConnectionId": 100,
     "ErpConnectorId": 621,
-    "DisplayName": "Bergstrom LLC",
-    "DisplayDescription": "Multi-lateral zero defect productivity",
+    "DisplayName": "Microsoft Dynamics 365 Sales",
+    "DisplayDescription": "Integration with Dynamics 365 for customer and sales data synchronization",
     "Active": true,
-    "ConnectionId": "incidunt",
-    "MostRecentTimestamp": "occaecati",
+    "ConnectionId": "D365-SALES-PROD",
+    "MostRecentTimestamp": "2024-11-27T09:15:00Z",
     "ConfigFields": {
-      "ConfigFields1": "commodi",
-      "ConfigFields2": "quam"
+      "TenantId": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+      "Environment": "crm.dynamics.com"
     },
     "Deleted": false,
     "AllAccess": false,
