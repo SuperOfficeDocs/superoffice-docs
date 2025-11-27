@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDeviceId": 225,
-  "Name": "Stamm, Reynolds and McLaughlin",
-  "CreatedDate": "2007-09-21T10:11:00.2080986+02:00",
-  "UpdatedDate": "2000-12-17T10:11:00.2080986+01:00",
-  "AssociateFullName": "Donato Ankunding",
-  "CreatedBy": "iure",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "harum",
+  "Name": "David's Workstation",
+  "CreatedDate": "2024-02-01T10:11:00.2080986+01:00",
+  "UpdatedDate": "2024-11-26T10:11:00.2080986+01:00",
+  "AssociateFullName": "David Martinez",
+  "CreatedBy": "david.martinez@globalcorp.com",
+  "UpdatedBy": "david.martinez@globalcorp.com",
+  "DeviceIdentifier": "WS-DM-WIN11-001",
   "ForeignAppId": 539,
   "TableRight": null,
   "FieldProperties": {

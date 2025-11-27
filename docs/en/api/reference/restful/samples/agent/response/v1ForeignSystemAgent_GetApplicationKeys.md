@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quaerat",
-    "Value": "quas",
+    "Key": "outlook-contact-id",
+    "Value": "AAMkAGI2TG93AAA=",
     "RecordId": 693,
-    "CreatedDate": "2010-11-08T10:11:00.2268737+01:00",
-    "UpdatedDate": "2018-06-21T10:11:00.2268737+02:00",
-    "UpdatedBy": "eum",
-    "CreatedBy": "qui",
-    "TableName": "Zboncak, Green and Boyle",
+    "CreatedDate": "2024-01-20T10:11:00.2268737+01:00",
+    "UpdatedDate": "2024-11-15T10:11:00.2268737+01:00",
+    "UpdatedBy": "john.anderson@acmecorp.com",
+    "CreatedBy": "john.anderson@acmecorp.com",
+    "TableName": "contact",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

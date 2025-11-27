@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "illo",
-    "Value": "totam",
+    "Key": "mobile-person-id",
+    "Value": "MOBILE-SYNC-12345",
     "RecordId": 648,
-    "CreatedDate": "2019-06-01T10:11:00.2258666+02:00",
-    "UpdatedDate": "2000-03-19T10:11:00.2258666+01:00",
-    "UpdatedBy": "soluta",
-    "CreatedBy": "laboriosam",
-    "TableName": "Hermiston LLC",
+    "CreatedDate": "2024-03-15T10:11:00.2258666+01:00",
+    "UpdatedDate": "2024-11-27T10:11:00.2258666+01:00",
+    "UpdatedBy": "sarah.johnson@techcorp.com",
+    "CreatedBy": "sarah.johnson@techcorp.com",
+    "TableName": "person",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
