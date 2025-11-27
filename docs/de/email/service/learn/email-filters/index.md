@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/de/email/service/learn/index.html#filter
+redirect_url: https://docs.superoffice.com/de/email/admin/mailbox/index.html#filter
 ---
