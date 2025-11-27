@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "SaleStageId": 468,
-    "Value": "sunt",
-    "Tooltip": "dignissimos",
-    "Probability": 99,
-    "Deleted": true,
-    "Rank": 981,
+    "Value": "Proposal sent",
+    "Tooltip": "Proposal has been sent to customer",
+    "Probability": 60,
+    "Deleted": false,
+    "Rank": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

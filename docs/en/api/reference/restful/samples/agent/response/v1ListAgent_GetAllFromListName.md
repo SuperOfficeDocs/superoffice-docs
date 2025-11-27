@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 100,
-    "Name": "Nitzsche-Beahan",
-    "Tooltip": "perferendis",
+    "Name": "Customer",
+    "Tooltip": "Active customer relationship",
     "Deleted": false,
     "UdListDefinitionId": 621,
-    "Rank": 580,
+    "Rank": 1,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
