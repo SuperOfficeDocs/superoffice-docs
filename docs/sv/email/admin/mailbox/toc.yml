@@ -1,0 +1,11 @@
+items:
+- name: Postlådeadministration
+  href: index.md
+- name: Skapa e-postlådor
+  href: create-mailbox.md
+- name: Skapa SMS-postlåda
+  href: create-sms-mailbox.md
+- name: Skapa e-postfilter
+  href: create-email-filter.md
+- name: Ta bort e-postlådor
+  href: delete-mailbox.md

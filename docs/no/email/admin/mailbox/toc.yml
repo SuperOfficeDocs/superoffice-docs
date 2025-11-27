@@ -1,0 +1,11 @@
+items:
+- name: Postkasseadministrasjon
+  href: index.md
+- name: Opprette postkasse
+  href: create-mailbox.md
+- name: Opprette SMS-postkasse
+  href: create-sms-mailbox.md
+- name: Opprette e-postfilter
+  href: create-email-filter.md
+- name: Slette postkasse
+  href: delete-mailbox.md

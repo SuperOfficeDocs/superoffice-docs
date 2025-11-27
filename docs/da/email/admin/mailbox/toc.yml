@@ -1,0 +1,11 @@
+items:
+- name: Postkasseadministration
+  href: index.md
+- name: Opret e-mailkonti
+  href: create-mailbox.md
+- name: Opret SMS-e-mailkonto
+  href: create-sms-mailbox.md
+- name: Opret e-mail-filter
+  href: create-email-filter.md
+- name: Slet e-mailkonti
+  href: delete-mailbox.md
