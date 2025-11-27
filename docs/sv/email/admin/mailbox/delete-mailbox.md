@@ -2,13 +2,18 @@
 uid: help-sv-service-mailbox-delete
 title: Ta bort brevlådor
 description: Ta bort brevlådor
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.27.2025
 keywords: e-post
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: sv
-redirect_from:
-  - /sv/email/service/learn/delete-mailbox
+redirect_from: /sv/email/service/learn/delete-mailbox
 ---
 
 # Ta bort brevlåda

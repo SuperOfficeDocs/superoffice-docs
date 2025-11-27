@@ -2,13 +2,18 @@
 uid: help-de-service-mailbox-delete
 title: Postfächer löschen
 description: Postfächer löschen
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.27.2025
 keywords: E-Mail
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: de
-redirect_from:
-  - /de/email/service/learn/delete-mailbox
+redirect_from: /de/email/service/learn/delete-mailbox
 ---
 
 # Postfach löschen

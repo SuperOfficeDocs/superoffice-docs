@@ -2,13 +2,13 @@
 uid: help-en-email-service
 title: Mailbox administration
 description: Mailbox administration
-author: SuperOffice Product and Engineering
 keywords: mailbox, email
-date: 07.10.2025
-version: 10.5
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: concept
-category: service
-topic: email
+category: email
+topic: Service mailbox
 functional_right:
 license: serviceessentials
 audience: settings
@@ -159,6 +159,6 @@ The **Email filters** tab contains a list of existing email filters. This list c
 <!-- Referenced links -->
 [1]: create-mailbox.md
 [2]: delete-mailbox.md
-[3]: email-filters/create-email-filter.md
+[3]: create-email-filter.md
 
 <!-- Referenced images -->

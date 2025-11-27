@@ -3,11 +3,16 @@ uid: help-da-email-filter-create
 title: Oprettelse af e-mail-filtre
 description: Oprettelse af e-mail-filtre
 keywords: e-mail, e-mail-filter, filtrer
-author: SuperOffice RnD
-date: 07.17.2024
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: da
 redirect_from:
   - /da/email/service/learn/email-filters/delete-email-filter
@@ -110,7 +115,7 @@ redirect_from:
 1. Klik på **OK** for at bekræfte. E-mail-filteret fjernes fra SuperOffice Service.
 
 <!-- Referenced links -->
-[1]: ../../../../customization/macros-and-scripts/admin/index.md
-[2]: ../../../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq
-[4]: ../../../../request/admin/type/index.md
+[1]: ../../../customization/macros-and-scripts/admin/index.md
+[2]: ../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../knowledge-base/learn/reply-templates/create.md#faq
+[4]: ../../../request/admin/type/index.md

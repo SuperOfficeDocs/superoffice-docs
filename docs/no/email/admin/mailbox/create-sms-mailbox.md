@@ -2,13 +2,18 @@
 uid: help-no-sms-mailbox-create
 title: Opprette SMS-postkasse
 description: Opprette SMS-postkasse
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.27.2025
 keywords: e-post
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: no
-redirect_from:
-  - /no/email/service/learn/create-sms-mailbox
+redirect_from: /no/email/service/learn/create-sms-mailbox
 ---
 
 # Opprette SMS-postkasse
@@ -30,7 +35,7 @@ SuperOffice kan importere SMS-meldinger. For at dette skal fungere må du konfig
 
 1. Klikk på **OK**. SMS-postkassen opprettes.
 
-## Relaterte emner
+## Relatert innhold
 
 * [Innboks for SMS][2]
 * [Utboks for SMS][3]

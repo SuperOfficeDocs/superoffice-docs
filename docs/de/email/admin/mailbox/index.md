@@ -2,13 +2,13 @@
 uid: help-de-email-service
 title: Service-E-Mails
 description: Service-E-Mails
-author: SuperOffice Product and Engineering
+author: digitaldiina
 keywords: postfach
-date: 07.10.2025
-version: 10.5
+date: 11.27.2025
+version: 11.6
 content_type: concept
-category: service
-topic: email
+category: email
+topic: Service mailbox
 functional_right:
 license: serviceessentials
 audience: settings
@@ -159,6 +159,6 @@ Die Registerkarte **E-Mail-Filter** enthält eine Liste der vorhandenen E-Mail-F
 <!-- Referenced links -->
 [1]: create-mailbox.md
 [2]: delete-mailbox.md
-[3]: email-filters/create-email-filter.md
+[3]: create-email-filter.md
 
 <!-- Referenced images -->

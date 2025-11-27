@@ -3,9 +3,15 @@ uid: help-sv-email-filter-create
 title: Skapa e-postfilter
 description: Skapa e-postfilter
 keywords: e-post, e-postfilter, filter
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 11.27.2025
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -110,7 +116,7 @@ redirect_from:
 1. Bekräfta genom att klicka på **OK**. E-postfiltret tas bort från SuperOffice Service.
 
 <!-- Referenced links -->
-[1]: ../../../../customization/macros-and-scripts/admin/index.md
-[2]: ../../../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq
-[4]: ../../../../request/admin/type/index.md
+[1]: ../../../customization/macros-and-scripts/admin/index.md
+[2]: ../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../knowledge-base/learn/reply-templates/create.md#faq
+[4]: ../../../request/admin/type/index.md

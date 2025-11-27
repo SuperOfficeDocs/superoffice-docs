@@ -3,13 +3,18 @@ uid: help-sv-service-mailbox-create
 title: Skapa brevlåda
 description: Skapa brevlåda
 keywords: e-post
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10.2.11
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: sv
-redirect_from:
-  - /sv/email/service/learn/create-mailbox
+redirect_from: /sv/email/service/learn/create-mailbox
 ---
 
 # Skapa brevlåda

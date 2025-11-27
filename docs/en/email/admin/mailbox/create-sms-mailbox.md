@@ -2,13 +2,19 @@
 uid: help-en-sms-mailbox-create
 title: Create SMS mailbox
 description: Create SMS mailbox
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: email
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: en
-redirect_from:
-  - /en/email/service/learn/create-sms-mailbox
+redirect_from: /en/email/service/learn/create-sms-mailbox
 ---
 
 # Create SMS mailbox
@@ -30,7 +36,7 @@ SuperOffice can import SMS messages. For this to work, you must set up an SMS ma
 
 1. Click **OK**. The SMS mailbox is created.
 
-## Related topics
+## Related content
 
 * [SMS inbox][2]
 * [SMS outbox][3]

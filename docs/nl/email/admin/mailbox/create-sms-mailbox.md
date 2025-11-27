@@ -2,13 +2,18 @@
 uid: help-nl-sms-mailbox-create
 title: SMS-postbus maken
 description: SMS-postbus maken
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.27.2025
 keywords: e-mail
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: nl
-redirect_from:
-  - /nl/email/service/learn/create-sms-mailbox
+redirect_from: /nl/email/service/learn/create-sms-mailbox
 ---
 
 # SMS-postbus maken

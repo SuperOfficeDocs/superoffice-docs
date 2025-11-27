@@ -2,13 +2,19 @@
 uid: help-da-sms-mailbox-create
 title: Opret sms-konto
 description: Opret sms-konto
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: e-mail
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: da
-redirect_from:
-  - /da/email/service/learn/create-sms-mailbox
+redirect_from: /da/email/service/learn/create-sms-mailbox
 ---
 
 # Opret sms-konto

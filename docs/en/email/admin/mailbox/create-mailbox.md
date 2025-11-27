@@ -2,14 +2,19 @@
 uid: help-en-service-mailbox-create
 title: Create mailboxes
 description: Create mailboxes
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: email
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: en
-redirect_from:
-  - /en/email/service/learn/create-mailbox
+redirect_from: /en/email/service/learn/create-mailbox
 ---
 
 # Create mailboxes

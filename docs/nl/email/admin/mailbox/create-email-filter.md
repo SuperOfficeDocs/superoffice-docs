@@ -3,9 +3,15 @@ uid: help-nl-email-filter-create
 title: E-mailfilters maken
 description: E-mailfilters maken
 keywords: e-mail, e-mailfilter, filter
-author: SuperOffice RnD
-date: 07.17.2024
+author: digitaldiina
+date: 11.27.2025
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -110,7 +116,7 @@ redirect_from:
 1. Klik ter bevestiging op **OK**. Het e-mailfilter wordt verwijderd uit SuperOffice Service.
 
 <!-- Referenced links -->
-[1]: ../../../../customization/macros-and-scripts/admin/index.md
-[2]: ../../../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq
-[4]: ../../../../request/admin/type/index.md
+[1]: ../../../customization/macros-and-scripts/admin/index.md
+[2]: ../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../knowledge-base/learn/reply-templates/create.md#faq
+[4]: ../../../request/admin/type/index.md

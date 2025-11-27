@@ -3,9 +3,15 @@ uid: help-de-email-filter-create
 title: E-Mail-Filter erstellen
 description: E-Mail-Filter erstellen
 keywords: E-Mail, E-Mail-Filter, Filter
-author: SuperOffice RnD
-date: 07.17.2024
+author: digitaldiina
+date: 11.27.2025
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
@@ -110,7 +116,7 @@ redirect_from:
 1. Klicken Sie zur Bestätigung auf **OK**. Der E-Mail-Filter wird aus SuperOffice Service entfernt.
 
 <!-- Referenced links -->
-[1]: ../../../../customization/macros-and-scripts/admin/index.md
-[2]: ../../../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq
-[4]: ../../../../request/admin/type/index.md
+[1]: ../../../customization/macros-and-scripts/admin/index.md
+[2]: ../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../knowledge-base/learn/reply-templates/create.md#faq
+[4]: ../../../request/admin/type/index.md

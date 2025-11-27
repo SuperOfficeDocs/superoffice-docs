@@ -2,13 +2,13 @@
 uid: help-no-email-service
 title: Service-e-poster
 description: Service-e-poster
-author: SuperOffice Product and Engineering
+author: digitaldiina
 keywords: e-postkasse
-date: 07.10.2025
-version: 10.5
+date: 11.27.2025
+version: 11.6
 content_type: concept
-category: service
-topic: email
+category: email
+topic: Service mailbox
 functional_right:
 license: serviceessentials
 audience: settings
@@ -22,6 +22,7 @@ redirect_from:
   - /no/email/service/learn/screen/tab-blocked-email
   - /no/email/service/learn/screen/sms-inbox
   - /no/email/service/learn/screen/sms-outbox
+  - /no/email/service/learn/email-filters/index
 ---
 
 # Service-e-poster
@@ -158,6 +159,6 @@ Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne
 <!-- Referenced links -->
 [1]: create-mailbox.md
 [2]: delete-mailbox.md
-[3]: email-filters/create-email-filter.md
+[3]: create-email-filter.md
 
 <!-- Referenced images -->

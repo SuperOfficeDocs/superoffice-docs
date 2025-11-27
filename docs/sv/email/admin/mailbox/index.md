@@ -2,13 +2,13 @@
 uid: help-sv-email-service
 title: Servicemejl
 description: Servicemejl
-author: SuperOffice Product and Engineering
+author: digitaldiina
 keywords: brevlåda
-date: 07.10.2025
-version: 10.5
+date: 11.27.2025
+version: 11.6
 content_type: concept
-category: service
-topic: email
+category: email
+topic: Service mailbox
 functional_right:
 license: serviceessentials
 audience: settings
@@ -22,6 +22,7 @@ redirect_from:
   - /sv/email/service/learn/screen/tab-blocked-email
   - /sv/email/service/learn/screen/sms-inbox
   - /sv/email/service/learn/screen/sms-outbox
+  - /sv/email/service/learn/email-filters/index
 ---
 
 # Servicemejl
@@ -158,6 +159,6 @@ På fliken **E-postfilter** finns en lista med befintliga e-postfilter. I övers
 <!-- Referenced links -->
 [1]: create-mailbox.md
 [2]: delete-mailbox.md
-[3]: email-filters/create-email-filter.md
+[3]: create-email-filter.md
 
 <!-- Referenced images -->

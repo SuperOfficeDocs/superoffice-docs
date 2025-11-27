@@ -2,13 +2,18 @@
 uid: help-de-sms-mailbox-create
 title: SMS-Postfach erstellen
 description: SMS-Postfach erstellen
-author: SuperOffice RnD
-date: 06.29.2022
+author: digitaldiina
+date: 11.27.2025
 keywords: E-Mail
 content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: de
-redirect_from:
-  - /de/email/service/learn/create-sms-mailbox
+redirect_from: /de/email/service/learn/create-sms-mailbox
 ---
 
 # SMS-Postfach erstellen
