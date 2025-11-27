@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 732,
+  "TopicId": 12,
   "User": null,
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": false,
   "CanNotify": true
 }

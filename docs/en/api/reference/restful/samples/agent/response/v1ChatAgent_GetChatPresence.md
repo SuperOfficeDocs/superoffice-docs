@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 651,
-    "DisplayName": "Heller-Wunsch",
-    "OngoingChats": 423,
-    "Present": false,
+    "UserId": 143,
+    "DisplayName": "Sarah Johnson",
+    "OngoingChats": 3,
+    "Present": true,
     "ChatTopics": [
-      473,
-      547
+      12,
+      15
     ],
     "TableRight": null,
     "FieldProperties": {
