@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 61,
-  "BlobSize": 569,
-  "Description": "Triple-buffered disintermediate challenge",
-  "ExtraInfo": "sunt",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 216,
-  "CreatedDate": "2010-10-15T10:10:59.0372797+02:00",
-  "UpdatedDate": "2020-02-19T10:10:59.0372797+01:00",
+  "BlobSize": 128456,
+  "Description": "Product catalog PDF - Q4 2024",
+  "ExtraInfo": "product_catalog_v2",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "application/pdf",
+  "OriginalSize": 256789,
+  "CreatedDate": "2024-10-15T10:00:00+01:00",
+  "UpdatedDate": "2024-11-27T14:30:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "adipisci",
+  "ConceptualType": "document",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

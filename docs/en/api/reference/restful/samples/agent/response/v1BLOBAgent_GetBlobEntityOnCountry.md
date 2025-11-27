@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 899,
-  "BlobSize": 485,
-  "Description": "Persevering uniform methodology",
-  "ExtraInfo": "facere",
+  "BlobSize": 12345,
+  "Description": "Norway flag icon",
+  "ExtraInfo": "country_id=NO,type=flag",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "illum",
-  "OriginalSize": 85,
-  "CreatedDate": "2005-08-07T10:10:59.0529454+02:00",
-  "UpdatedDate": "2013-03-22T10:10:59.0529454+01:00",
+  "MimeType": "image/svg+xml",
+  "OriginalSize": 12345,
+  "CreatedDate": "2024-01-01T00:00:00+01:00",
+  "UpdatedDate": "2024-01-01T00:00:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nulla",
+  "ConceptualType": "countryFlag",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

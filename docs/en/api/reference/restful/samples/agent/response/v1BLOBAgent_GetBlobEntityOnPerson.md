@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 963,
-  "BlobSize": 87,
-  "Description": "Exclusive 5th generation software",
-  "ExtraInfo": "mollitia",
+  "BlobSize": 124567,
+  "Description": "Profile photo - Sarah Johnson",
+  "ExtraInfo": "person_id=436,type=profile",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "enim",
-  "OriginalSize": 508,
-  "CreatedDate": "2010-10-11T10:10:59.0529454+02:00",
-  "UpdatedDate": "2005-09-06T10:10:59.0529454+02:00",
+  "MimeType": "image/jpeg",
+  "OriginalSize": 124567,
+  "CreatedDate": "2024-03-15T14:20:00+01:00",
+  "UpdatedDate": "2024-11-10T16:30:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "personImage",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 819,
-  "BlobSize": 762,
-  "Description": "Operative 24/7 hardware",
-  "ExtraInfo": "aut",
+  "BlobSize": 256890,
+  "Description": "Enterprise CRM Suite product image",
+  "ExtraInfo": "product_id=1543,variant=standard",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "cum",
-  "OriginalSize": 94,
-  "CreatedDate": "2023-05-03T10:10:59.0529454+02:00",
-  "UpdatedDate": "2021-04-18T10:10:59.0529454+02:00",
+  "MimeType": "image/png",
+  "OriginalSize": 256890,
+  "CreatedDate": "2024-05-10T11:00:00+02:00",
+  "UpdatedDate": "2024-11-20T09:45:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
+  "ConceptualType": "productImage",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 240,
-  "BlobSize": 858,
-  "Description": "Visionary static throughput",
-  "ExtraInfo": "et",
+  "BlobSize": 89234,
+  "Description": "Acme Corporation logo",
+  "ExtraInfo": "contact_id=272,type=logo",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "necessitatibus",
-  "OriginalSize": 269,
-  "CreatedDate": "2017-08-04T10:10:59.0529454+02:00",
-  "UpdatedDate": "2009-12-09T10:10:59.0529454+01:00",
+  "IsZipped": false,
+  "MimeType": "image/png",
+  "OriginalSize": 89234,
+  "CreatedDate": "2024-01-10T09:30:00+01:00",
+  "UpdatedDate": "2024-11-15T11:45:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptate",
+  "ConceptualType": "contactImage",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
