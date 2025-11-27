@@ -5,24 +5,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "eius",
-    "ValueType": "ipsum",
+    "Key": "contact.category",
+    "ValueType": "listItem",
     "Mandatory": false,
-    "EncodedDisplayName": "Hoeger-Haag",
-    "EncodedDisplayDescription": "Multi-layered actuating emulation",
-    "IconHint": "quasi",
+    "EncodedDisplayName": "Category",
+    "EncodedDisplayDescription": "Contact category classification",
+    "IconHint": "category",
     "ControlInfos": [
       {
-        "Type": "facilis",
-        "Label": "voluptate",
-        "Dimension": 364,
-        "ListProviderName": "Hegmann-Boehm",
-        "ListProviderExtraInfo": "assumenda",
-        "ListProviderPrimaryKeyName": "Glover, Gleason and O'Kon",
-        "ListLeadText": "ea",
+        "Type": "listbox",
+        "Label": "Select category",
+        "Dimension": 1,
+        "ListProviderName": "category",
+        "ListProviderExtraInfo": "",
+        "ListProviderPrimaryKeyName": "CategoryList",
+        "ListLeadText": "Choose contact category",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -33,24 +33,24 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "EncodedDataCaption": "excepturi",
-    "EncodedDataCaptionDescription": "Re-contextualized 3rd generation structure",
-    "CurrentOperationType": "est",
+    "EncodedDataCaption": "Category",
+    "EncodedDataCaptionDescription": "Categorize contacts for reporting and filtering",
+    "CurrentOperationType": "set",
     "Values": [
-      "sint",
-      "ut"
+      "1",
+      "2"
     ],
     "DisplayValues": [
-      "ratione",
-      "et"
+      "Customer",
+      "Prospect"
     ],
     "OperationInfos": [
       {
-        "Key": "sint",
-        "EncodedDisplayName": "Osinski-Schmitt",
+        "Key": "set",
+        "EncodedDisplayName": "Set value",
         "EncodedLeadTexts": [
-          "eum",
-          "consequatur"
+          "Set category to",
+          "Change category to"
         ],
         "TableRight": null,
         "FieldProperties": {
@@ -62,18 +62,18 @@ Content-Type: application/json; charset=utf-8
         }
       },
       {
-        "Key": "sint",
-        "EncodedDisplayName": "Osinski-Schmitt",
+        "Key": "clear",
+        "EncodedDisplayName": "Clear value",
         "EncodedLeadTexts": [
-          "eum",
-          "consequatur"
+          "Clear category",
+          "Remove category"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldType": "System.String",
+            "FieldLength": 50
           }
         }
       }

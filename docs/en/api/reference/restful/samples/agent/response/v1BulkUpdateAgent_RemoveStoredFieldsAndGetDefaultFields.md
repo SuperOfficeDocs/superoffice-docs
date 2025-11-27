@@ -5,24 +5,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "dignissimos",
-    "ValueType": "occaecati",
-    "Mandatory": false,
-    "EncodedDisplayName": "Graham-Von",
-    "EncodedDisplayDescription": "Operative non-volatile toolset",
-    "IconHint": "ullam",
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "contact.name",
+    "ValueType": "string",
+    "Mandatory": true,
+    "EncodedDisplayName": "Company Name",
+    "EncodedDisplayDescription": "The name of the contact/company",
+    "IconHint": "company",
     "ControlInfos": [
       {
-        "Type": "nihil",
-        "Label": "consequatur",
-        "Dimension": 769,
-        "ListProviderName": "Spencer-Schmeler",
-        "ListProviderExtraInfo": "fugit",
-        "ListProviderPrimaryKeyName": "Ebert, Bergstrom and Franecki",
-        "ListLeadText": "non",
+        "Type": "textbox",
+        "Label": "Company name",
+        "Dimension": 1,
+        "ListProviderName": "",
+        "ListProviderExtraInfo": "",
+        "ListProviderPrimaryKeyName": "",
+        "ListLeadText": "Enter company name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -33,24 +33,24 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "EncodedDataCaption": "magni",
-    "EncodedDataCaptionDescription": "Balanced radical installation",
-    "CurrentOperationType": "est",
+    "EncodedDataCaption": "Company Name",
+    "EncodedDataCaptionDescription": "Required field for contact identification",
+    "CurrentOperationType": "set",
     "Values": [
-      "doloremque",
-      "voluptatibus"
+      "Acme Corporation",
+      "TechVision Solutions"
     ],
     "DisplayValues": [
-      "aut",
-      "suscipit"
+      "Acme Corporation",
+      "TechVision Solutions"
     ],
     "OperationInfos": [
       {
-        "Key": "sed",
-        "EncodedDisplayName": "Muller, Moen and Raynor",
+        "Key": "set",
+        "EncodedDisplayName": "Set value",
         "EncodedLeadTexts": [
-          "quos",
-          "eaque"
+          "Set company name to",
+          "Change company name to"
         ],
         "TableRight": null,
         "FieldProperties": {
@@ -62,18 +62,18 @@ Content-Type: application/json; charset=utf-8
         }
       },
       {
-        "Key": "sed",
-        "EncodedDisplayName": "Muller, Moen and Raynor",
+        "Key": "append",
+        "EncodedDisplayName": "Append text",
         "EncodedLeadTexts": [
-          "quos",
-          "eaque"
+          "Append to company name",
+          "Add text to company name"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldType": "System.String",
+            "FieldLength": 255
           }
         }
       }

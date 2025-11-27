@@ -5,24 +5,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "nobis",
-    "ValueType": "explicabo",
+    "IsActive": true,
+    "Key": "contact.business",
+    "ValueType": "listItem",
     "Mandatory": false,
-    "EncodedDisplayName": "West LLC",
-    "EncodedDisplayDescription": "Robust empowering database",
-    "IconHint": "ratione",
+    "EncodedDisplayName": "Business",
+    "EncodedDisplayDescription": "Contact business/industry classification",
+    "IconHint": "business",
     "ControlInfos": [
       {
-        "Type": "minima",
-        "Label": "velit",
-        "Dimension": 447,
-        "ListProviderName": "Ratke LLC",
-        "ListProviderExtraInfo": "officia",
-        "ListProviderPrimaryKeyName": "Balistreri, Jacobs and Johns",
-        "ListLeadText": "minus",
+        "Type": "listbox",
+        "Label": "Select business",
+        "Dimension": 1,
+        "ListProviderName": "business",
+        "ListProviderExtraInfo": "",
+        "ListProviderPrimaryKeyName": "BusinessList",
+        "ListLeadText": "Choose business/industry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -33,24 +33,24 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "EncodedDataCaption": "aut",
-    "EncodedDataCaptionDescription": "Optional discrete system engine",
-    "CurrentOperationType": "ipsam",
+    "EncodedDataCaption": "Business",
+    "EncodedDataCaptionDescription": "Classify contacts by industry sector",
+    "CurrentOperationType": "set",
     "Values": [
-      "sed",
-      "veniam"
+      "10",
+      "15"
     ],
     "DisplayValues": [
-      "nesciunt",
-      "numquam"
+      "Technology",
+      "Manufacturing"
     ],
     "OperationInfos": [
       {
-        "Key": "fuga",
-        "EncodedDisplayName": "Dibbert, Mosciski and Shanahan",
+        "Key": "set",
+        "EncodedDisplayName": "Set value",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "amet"
+          "Set business to",
+          "Change business to"
         ],
         "TableRight": null,
         "FieldProperties": {
@@ -62,18 +62,18 @@ Content-Type: application/json; charset=utf-8
         }
       },
       {
-        "Key": "fuga",
-        "EncodedDisplayName": "Dibbert, Mosciski and Shanahan",
+        "Key": "clear",
+        "EncodedDisplayName": "Clear value",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "amet"
+          "Clear business",
+          "Remove business classification"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 488
+            "FieldType": "System.String",
+            "FieldLength": 50
           }
         }
       }
