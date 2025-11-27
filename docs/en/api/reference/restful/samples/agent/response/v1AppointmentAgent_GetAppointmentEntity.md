@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2004-09-20T10:10:58.5535627+02:00",
   "AppointmentId": 100,
-  "Description": "Total disintermediate solution",
-  "Title": "saepe",
-  "Agenda": "maxime",
-  "InternalNotes": "eius",
-  "StartDate": "2011-08-11T10:10:58.5535627+02:00",
-  "EndDate": "2011-12-21T10:10:58.5535627+01:00",
+  "Description": "Quarterly Business Review with Acme Corporation to discuss Q4 performance, upcoming initiatives, and contract renewal.",
+  "Title": "Q4 Business Review - Acme Corp",
+  "Agenda": "1. Review Q4 metrics\n2. Discuss new feature requests\n3. Contract renewal terms\n4. Q&A",
+  "InternalNotes": "Bring updated pricing proposal. Customer mentioned budget concerns last meeting.",
+  "StartDate": "2024-12-05T14:00:00+01:00",
+  "EndDate": "2024-12-05T15:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 218,
@@ -48,9 +48,9 @@ Content-Type: application/json; charset=utf-8
   "IsFree": false,
   "IsAlldayEvent": false,
   "LagTime": "ipsa",
-  "LeadTime": "ducimus",
-  "Location": "est",
-  "RejectCounter": 916,
+  "LeadTime": "PT15M",
+  "Location": "Conference Room A, Oslo Office",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 517,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "ozella@bauchcummings.uk",
-      "Description": "Balanced logistical pricing structure"
+      "EmailAddress": "sarah.johnson@acmecorp.com",
+      "Description": "Marketing Director at Acme Corporation"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "JoinVideomeetUrl": "https://meet.superoffice.com/meeting/abc123xyz",
+  "CentralserviceVideomeetId": "abc123xyz",
   "UserDefinedFields": {
     "SuperOffice:1": "Ms. Aditya Johnson I",
     "SuperOffice:2": "Sammy Mayert"

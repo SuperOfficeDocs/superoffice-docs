@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RecurrenceId": 7,
-  "StartDate": "2021-10-16T10:10:58.623175+02:00",
-  "EndDate": "2019-10-31T10:10:58.623175+01:00",
-  "RecurrenceCounter": 210,
+  "StartDate": "2024-12-01T09:00:00+01:00",
+  "EndDate": "2025-03-31T09:00:00+02:00",
+  "RecurrenceCounter": 12,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,

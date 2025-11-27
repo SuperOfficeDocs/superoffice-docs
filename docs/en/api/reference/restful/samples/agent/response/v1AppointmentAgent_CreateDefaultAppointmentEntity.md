@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2008-07-31T10:10:58.45828+02:00",
   "AppointmentId": 193,
-  "Description": "Stand-alone mobile open system",
-  "Title": "enim",
-  "Agenda": "eos",
-  "InternalNotes": "eligendi",
-  "StartDate": "2013-07-08T10:10:58.45828+02:00",
-  "EndDate": "2016-04-29T10:10:58.45828+02:00",
+  "Description": "Team standup meeting to review daily progress, discuss blockers, and coordinate on priorities.",
+  "Title": "Daily Team Standup",
+  "Agenda": "1. Yesterday's achievements\n2. Today's priorities\n3. Blockers and issues",
+  "InternalNotes": "Keep meeting focused and under 30 minutes.",
+  "StartDate": "2024-11-28T09:00:00+01:00",
+  "EndDate": "2024-11-28T09:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 424,
@@ -49,8 +49,8 @@ Content-Type: application/json; charset=utf-8
   "IsAlldayEvent": true,
   "LagTime": "deserunt",
   "LeadTime": "nobis",
-  "Location": "ea",
-  "RejectCounter": 548,
+  "Location": "Zoom Meeting",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 387,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jamir.schuster@bergnaum.biz",
-      "Description": "Multi-lateral fresh-thinking task-force"
+      "EmailAddress": "team@superoffice.com",
+      "Description": "Development Team Members"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quidem",
+  "JoinVideomeetUrl": "https://zoom.us/j/123456789",
+  "CentralserviceVideomeetId": "123456789",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
     "SuperOffice:2": "False"
