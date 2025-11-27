@@ -14,9 +14,9 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.TimeKeepingRow})
   - SuperOffice.CRM.Rows.TimeKeepingRows.ForEach(System.Action{SuperOffice.CRM.Rows.TimeKeepingRow})
   - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync(System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TimeKeepingRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TimeKeepingTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TimeKeepingRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.TimeKeepingRows.Remove(SuperOffice.CRM.Rows.TimeKeepingRow)
@@ -286,22 +286,22 @@ items:
       description: A new instance of the TimeKeepingRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearchAsync(query As TimeKeepingRows.CustomSearch, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
   overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromCustomSearchAsync*
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync(System.Int32,System.Threading.CancellationToken)
-  id: GetFromIdxEntityIdAsync(System.Int32,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxOwnerRecordAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TimeKeepingRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxEntityIdAsync(int, CancellationToken)
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync(int, System.Threading.CancellationToken)
+  name: GetFromIdxOwnerRecordAsync(int, CancellationToken)
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync(int, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IEntity_idState_idTime_keeping_type'.
+    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IOwnerRecordState_idTime_keeping_type'.
 
     This method is intended to make it easy to use efficient queries that match a database index.
   remarks: >-
@@ -310,9 +310,9 @@ items:
     and methods in the <xref href="SuperOffice.CRM.Rows.TimeKeepingRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
   example: []
   syntax:
-    content: public static Task<TimeKeepingRows> GetFromIdxEntityIdAsync(int entityId, CancellationToken cancellationToken = default)
+    content: public static Task<TimeKeepingRows> GetFromIdxOwnerRecordAsync(int ownerRecord, CancellationToken cancellationToken = default)
     parameters:
-    - id: entityId
+    - id: ownerRecord
       type: System.Int32
     - id: cancellationToken
       type: System.Threading.CancellationToken
@@ -321,27 +321,27 @@ items:
       description: >-
         Row object that represents the result of the search. IsNew will be true if 
                     the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxEntityIdAsync(entityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
-  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync*
-  nameWithType.vb: TimeKeepingRows.GetFromIdxEntityIdAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetFromIdxEntityIdAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
-  id: GetFromIdxEntityIdStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    content.vb: Public Shared Function GetFromIdxOwnerRecordAsync(ownerRecord As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
+  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync*
+  nameWithType.vb: TimeKeepingRows.GetFromIdxOwnerRecordAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxOwnerRecordAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxOwnerRecordStateIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TimeKeepingRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxEntityIdStateIdAsync(int, int, CancellationToken)
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(int, int, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(int, int, System.Threading.CancellationToken)
+  name: GetFromIdxOwnerRecordStateIdAsync(int, int, CancellationToken)
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(int, int, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IEntity_idState_idTime_keeping_type'.
+    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IOwnerRecordState_idTime_keeping_type'.
 
     This method is intended to make it easy to use efficient queries that match a database index.
   remarks: >-
@@ -350,9 +350,9 @@ items:
     and methods in the <xref href="SuperOffice.CRM.Rows.TimeKeepingRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
   example: []
   syntax:
-    content: public static Task<TimeKeepingRows> GetFromIdxEntityIdStateIdAsync(int entityId, int stateId, CancellationToken cancellationToken = default)
+    content: public static Task<TimeKeepingRows> GetFromIdxOwnerRecordStateIdAsync(int ownerRecord, int stateId, CancellationToken cancellationToken = default)
     parameters:
-    - id: entityId
+    - id: ownerRecord
       type: System.Int32
     - id: stateId
       type: System.Int32
@@ -363,27 +363,27 @@ items:
       description: >-
         Row object that represents the result of the search. IsNew will be true if 
                     the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxEntityIdStateIdAsync(entityId As Integer, stateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
-  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync*
-  nameWithType.vb: TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(Integer, Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync(Integer, Integer, System.Threading.CancellationToken)
-  name.vb: GetFromIdxEntityIdStateIdAsync(Integer, Integer, CancellationToken)
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
-  id: GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
+    content.vb: Public Shared Function GetFromIdxOwnerRecordStateIdAsync(ownerRecord As Integer, stateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
+  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync*
+  nameWithType.vb: TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxOwnerRecordStateIdAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
+  id: GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(System.Int32,System.Int32,SuperOffice.Data.TimeKeepingType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TimeKeepingRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(int, int, TimeKeepingType, CancellationToken)
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(int, int, TimeKeepingType, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(int, int, SuperOffice.Data.TimeKeepingType, System.Threading.CancellationToken)
+  name: GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(int, int, TimeKeepingType, CancellationToken)
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(int, int, TimeKeepingType, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(int, int, SuperOffice.Data.TimeKeepingType, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IEntity_idState_idTime_keeping_type'.
+    Create a new instance of the TimeKeepingRow object, by querying the database table via the index 'IOwnerRecordState_idTime_keeping_type'.
 
     This method is intended to make it easy to use efficient queries that match a database index.
   remarks: >-
@@ -392,9 +392,9 @@ items:
     and methods in the <xref href="SuperOffice.CRM.Rows.TimeKeepingRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
   example: []
   syntax:
-    content: public static Task<TimeKeepingRows> GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(int entityId, int stateId, TimeKeepingType timeKeepingType, CancellationToken cancellationToken = default)
+    content: public static Task<TimeKeepingRows> GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(int ownerRecord, int stateId, TimeKeepingType timeKeepingType, CancellationToken cancellationToken = default)
     parameters:
-    - id: entityId
+    - id: ownerRecord
       type: System.Int32
     - id: stateId
       type: System.Int32
@@ -407,11 +407,11 @@ items:
       description: >-
         Row object that represents the result of the search. IsNew will be true if 
                     the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(entityId As Integer, stateId As Integer, timeKeepingType As TimeKeepingType, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
-  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync*
-  nameWithType.vb: TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(Integer, Integer, TimeKeepingType, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(Integer, Integer, SuperOffice.Data.TimeKeepingType, System.Threading.CancellationToken)
-  name.vb: GetFromIdxEntityIdStateIdTimeKeepingTypeAsync(Integer, Integer, TimeKeepingType, CancellationToken)
+    content.vb: Public Shared Function GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(ownerRecord As Integer, stateId As Integer, timeKeepingType As TimeKeepingType, cancellationToken As CancellationToken = Nothing) As Task(Of TimeKeepingRows)
+  overload: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync*
+  nameWithType.vb: TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(Integer, Integer, TimeKeepingType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(Integer, Integer, SuperOffice.Data.TimeKeepingType, System.Threading.CancellationToken)
+  name.vb: GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync(Integer, Integer, TimeKeepingType, CancellationToken)
 - uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TimeKeepingTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TimeKeepingTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TimeKeepingTableInfo,System.Threading.CancellationToken)
@@ -3007,13 +3007,13 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync
   isExternal: true
-  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxEntityIdAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetFromIdxEntityIdAsync
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdAsync
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdAsync
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxOwnerRecordAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxOwnerRecordAsync
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordAsync
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3025,20 +3025,20 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync
   isExternal: true
-  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxEntityIdStateIdAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
-  name: GetFromIdxEntityIdStateIdAsync
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdStateIdAsync
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdAsync
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxOwnerRecordStateIdAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxOwnerRecordStateIdAsync
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdAsync
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync
   isExternal: true
-  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxEntityIdStateIdTimeKeepingTypeAsync_System_Int32_System_Int32_SuperOffice_Data_TimeKeepingType_System_Threading_CancellationToken_
-  name: GetFromIdxEntityIdStateIdTimeKeepingTypeAsync
-  nameWithType: TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxEntityIdStateIdTimeKeepingTypeAsync
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html#SuperOffice_CRM_Rows_TimeKeepingRows_GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync_System_Int32_System_Int32_SuperOffice_Data_TimeKeepingType_System_Threading_CancellationToken_
+  name: GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync
+  nameWithType: TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.GetFromIdxOwnerRecordStateIdTimeKeepingTypeAsync
 - uid: SuperOffice.Data.TimeKeepingType
   commentId: T:SuperOffice.Data.TimeKeepingType
   parent: SuperOffice.Data

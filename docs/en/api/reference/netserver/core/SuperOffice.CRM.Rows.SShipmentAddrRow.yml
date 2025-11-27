@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnSavedAsync(System.Boolean)
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
   - SuperOffice.CRM.Rows.SShipmentAddrRow.Reset
   - SuperOffice.CRM.Rows.SShipmentAddrRow.SShipmentAddrId
   - SuperOffice.CRM.Rows.SShipmentAddrRow.SShipmentAddrTableInfo
@@ -59,6 +60,7 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentCustomerId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentFormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentName
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._currentOwnerLock
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentSShipmentAddrId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentSenderNr
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentSendingTime
@@ -78,6 +80,7 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCustomerId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedFormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedName
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedOwnerLock
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedSShipmentAddrId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedSenderNr
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedSendingTime
@@ -635,6 +638,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedWorkflowInstanceId As Integer
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedOwnerLock
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._persistedOwnerLock
+  id: _persistedOwnerLock
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOwnerLock
+  nameWithType: SShipmentAddrRow._persistedOwnerLock
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedOwnerLock
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedOwnerLock
+    return:
+      type: System.String
+    content.vb: Protected _persistedOwnerLock As String
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentSShipmentAddrId
   commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentSShipmentAddrId
   id: _currentSShipmentAddrId
@@ -1034,6 +1058,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentWorkflowInstanceId As Integer
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentOwnerLock
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentOwnerLock
+  id: _currentOwnerLock
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOwnerLock
+  nameWithType: SShipmentAddrRow._currentOwnerLock
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._currentOwnerLock
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentOwnerLock
+    return:
+      type: System.String
+    content.vb: Protected _currentOwnerLock As String
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SShipmentAddrRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2384,6 +2429,37 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowInstanceId As Integer
   overload: SuperOffice.CRM.Rows.SShipmentAddrRow.WorkflowInstanceId*
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  id: OwnerLock
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: OwnerLock
+  nameWithType: SShipmentAddrRow.OwnerLock
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. A guid to set when trying to send to that address, to ensure no other ejsender also try to send it'
+  remarks: >-
+    Original type in dictionary:  String[256].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string OwnerLock { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerLock As String
+  overload: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock*
 references:
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SShipmentAddrRow.CreateNew
@@ -5501,6 +5577,13 @@ references:
   name: WorkflowInstanceId
   nameWithType: SShipmentAddrRow.WorkflowInstanceId
   fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.WorkflowInstanceId
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SShipmentAddrRow.html#SuperOffice_CRM_Rows_SShipmentAddrRow_OwnerLock
+  name: OwnerLock
+  nameWithType: SShipmentAddrRow.OwnerLock
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6543,3 +6626,10 @@ references:
   name: WorkflowInstanceId
   nameWithType: SShipmentAddrRow.WorkflowInstanceId
   fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.WorkflowInstanceId
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SShipmentAddrRow.html#SuperOffice_CRM_Rows_SShipmentAddrRow_OwnerLock
+  name: OwnerLock
+  nameWithType: SShipmentAddrRow.OwnerLock
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OwnerLock

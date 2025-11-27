@@ -27,6 +27,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetAudienceLayoutLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetAudienceLayoutTableInfo
   - SuperOffice.Data.TablesInfo.GetAudienceVisibilityTableInfo
+  - SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
   - SuperOffice.Data.TablesInfo.GetAutosaveTableInfo
   - SuperOffice.Data.TablesInfo.GetBaseTZLocationTableInfo
   - SuperOffice.Data.TablesInfo.GetBatchTaskDefinitionTableInfo
@@ -66,6 +67,9 @@ items:
   - SuperOffice.Data.TablesInfo.GetContIntTableInfo
   - SuperOffice.Data.TablesInfo.GetContactInterestTableInfo
   - SuperOffice.Data.TablesInfo.GetContactTableInfo
+  - SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo
+  - SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo
+  - SuperOffice.Data.TablesInfo.GetCopilotTableInfo
   - SuperOffice.Data.TablesInfo.GetCounterValueTableInfo
   - SuperOffice.Data.TablesInfo.GetCountryGroupLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetCountryHeadingLinkTableInfo
@@ -486,6 +490,9 @@ items:
   - SuperOffice.Data.TablesInfo.GetTicketLogChangeTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketLogTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketPriorityTableInfo
+  - SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo
+  - SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo
+  - SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketStatusHistoryTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketStatusTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketTableInfo
@@ -622,8 +629,12 @@ items:
 
       [DatabaseStep]
 
+      [DatabaseStep]
+
       public static class TablesInfo
     content.vb: >-
+      <DatabaseStep>
+
       <DatabaseStep>
 
       <DatabaseStep>
@@ -694,6 +705,9 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -12606,6 +12620,81 @@ items:
       type: SuperOffice.CRM.Data.CategoryFamilyTableInfo
     content.vb: Public Shared Function GetCategoryFamilyTableInfo() As CategoryFamilyTableInfo
   overload: SuperOffice.Data.TablesInfo.GetCategoryFamilyTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetCopilotTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetCopilotTableInfo
+  id: GetCopilotTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotTableInfo()
+  nameWithType: TablesInfo.GetCopilotTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of CopilotTableInfo:
+
+    Contains all available copilots
+  example: []
+  syntax:
+    content: public static CopilotTableInfo GetCopilotTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.CopilotTableInfo
+    content.vb: Public Shared Function GetCopilotTableInfo() As CopilotTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetCopilotTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo
+  id: GetCopilotDataSourceTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotDataSourceTableInfo()
+  nameWithType: TablesInfo.GetCopilotDataSourceTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of CopilotDataSourceTableInfo:
+
+    Stores data sources for each copilot
+  example: []
+  syntax:
+    content: public static CopilotDataSourceTableInfo GetCopilotDataSourceTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+    content.vb: Public Shared Function GetCopilotDataSourceTableInfo() As CopilotDataSourceTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo
+  id: GetCopilotDataSourceSettingTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotDataSourceSettingTableInfo()
+  nameWithType: TablesInfo.GetCopilotDataSourceSettingTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of CopilotDataSourceSettingTableInfo:
+
+    Stores specific configuration values for each data source
+  example: []
+  syntax:
+    content: public static CopilotDataSourceSettingTableInfo GetCopilotDataSourceSettingTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+    content.vb: Public Shared Function GetCopilotDataSourceSettingTableInfo() As CopilotDataSourceSettingTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetScriptTraceTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetScriptTraceTableInfo
   id: GetScriptTraceTableInfo
@@ -14206,6 +14295,31 @@ items:
       type: SuperOffice.CRM.Data.LeadstatusTableInfo
     content.vb: Public Shared Function GetLeadstatusTableInfo() As LeadstatusTableInfo
   overload: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
+  id: GetAutomatedCategoryUpdateTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetAutomatedCategoryUpdateTableInfo()
+  nameWithType: TablesInfo.GetAutomatedCategoryUpdateTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of AutomatedCategoryUpdateTableInfo:
+
+    Info on how to autoupdate category when changing sale or leadstatus on person
+  example: []
+  syntax:
+    content: public static AutomatedCategoryUpdateTableInfo GetAutomatedCategoryUpdateTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    content.vb: Public Shared Function GetAutomatedCategoryUpdateTableInfo() As AutomatedCategoryUpdateTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   id: GetTicketTypeTableInfo
@@ -14281,6 +14395,81 @@ items:
       type: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
     content.vb: Public Shared Function GetTicketTypeStatusTableInfo() As TicketTypeStatusTableInfo
   overload: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo
+  id: GetTicketRelationDefTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationDefTableInfo()
+  nameWithType: TablesInfo.GetTicketRelationDefTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of TicketRelationDefTableInfo:
+
+    Ticket relation definition
+  example: []
+  syntax:
+    content: public static TicketRelationDefTableInfo GetTicketRelationDefTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+    content.vb: Public Shared Function GetTicketRelationDefTableInfo() As TicketRelationDefTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo
+  id: GetTicketRelDefTicketTypeTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelDefTicketTypeTableInfo()
+  nameWithType: TablesInfo.GetTicketRelDefTicketTypeTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of TicketRelDefTicketTypeTableInfo:
+
+    Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition
+  example: []
+  syntax:
+    content: public static TicketRelDefTicketTypeTableInfo GetTicketRelDefTicketTypeTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+    content.vb: Public Shared Function GetTicketRelDefTicketTypeTableInfo() As TicketRelDefTicketTypeTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
+  id: GetTicketRelationTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationTableInfo()
+  nameWithType: TablesInfo.GetTicketRelationTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of TicketRelationTableInfo:
+
+    A relation between 2 tickets
+  example: []
+  syntax:
+    content: public static TicketRelationTableInfo GetTicketRelationTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketRelationTableInfo
+    content.vb: Public Shared Function GetTicketRelationTableInfo() As TicketRelationTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTableInfo(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.TablesInfo.GetTableInfo(SuperOffice.Data.Dictionary.SoTable)
   id: GetTableInfo(SuperOffice.Data.Dictionary.SoTable)
@@ -21821,6 +22010,51 @@ references:
   name: CategoryFamilyTableInfo
   nameWithType: CategoryFamilyTableInfo
   fullName: SuperOffice.CRM.Data.CategoryFamilyTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetCopilotTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetCopilotTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetCopilotTableInfo
+  name: GetCopilotTableInfo
+  nameWithType: TablesInfo.GetCopilotTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotTableInfo
+- uid: SuperOffice.CRM.Data.CopilotTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotTableInfo.html
+  name: CopilotTableInfo
+  nameWithType: CopilotTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetCopilotDataSourceTableInfo
+  name: GetCopilotDataSourceTableInfo
+  nameWithType: TablesInfo.GetCopilotDataSourceTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotDataSourceTableInfo
+- uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html
+  name: CopilotDataSourceTableInfo
+  nameWithType: CopilotDataSourceTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetCopilotDataSourceSettingTableInfo
+  name: GetCopilotDataSourceSettingTableInfo
+  nameWithType: TablesInfo.GetCopilotDataSourceSettingTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetCopilotDataSourceSettingTableInfo
+- uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html
+  name: CopilotDataSourceSettingTableInfo
+  nameWithType: CopilotDataSourceSettingTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetScriptTraceTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetScriptTraceTableInfo
   isExternal: true
@@ -22781,6 +23015,21 @@ references:
   name: LeadstatusTableInfo
   nameWithType: LeadstatusTableInfo
   fullName: SuperOffice.CRM.Data.LeadstatusTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetAutomatedCategoryUpdateTableInfo
+  name: GetAutomatedCategoryUpdateTableInfo
+  nameWithType: TablesInfo.GetAutomatedCategoryUpdateTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  name: AutomatedCategoryUpdateTableInfo
+  nameWithType: AutomatedCategoryUpdateTableInfo
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   isExternal: true
@@ -22826,6 +23075,51 @@ references:
   name: TicketTypeStatusTableInfo
   nameWithType: TicketTypeStatusTableInfo
   fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetTicketRelationDefTableInfo
+  name: GetTicketRelationDefTableInfo
+  nameWithType: TablesInfo.GetTicketRelationDefTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationDefTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html
+  name: TicketRelationDefTableInfo
+  nameWithType: TicketRelationDefTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetTicketRelDefTicketTypeTableInfo
+  name: GetTicketRelDefTicketTypeTableInfo
+  nameWithType: TablesInfo.GetTicketRelDefTicketTypeTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelDefTicketTypeTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html
+  name: TicketRelDefTicketTypeTableInfo
+  nameWithType: TicketRelDefTicketTypeTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetTicketRelationTableInfo
+  name: GetTicketRelationTableInfo
+  nameWithType: TablesInfo.GetTicketRelationTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationTableInfo.html
+  name: TicketRelationTableInfo
+  nameWithType: TicketRelationTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTableInfo
   isExternal: true

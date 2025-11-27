@@ -17,6 +17,8 @@ items:
   - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
+  - SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
+  - SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeTicketPromptRequest
@@ -207,6 +209,7 @@ items:
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
   - SuperOffice.WebApi.Data.AttachmentValidationResult
+  - SuperOffice.WebApi.Data.AutomatedCategoryUpdate
   - SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
   - SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
   - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
@@ -312,6 +315,7 @@ items:
   - SuperOffice.WebApi.Data.CategoryEntity
   - SuperOffice.WebApi.Data.CategoryGroup
   - SuperOffice.WebApi.Data.CategoryGuess
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger
   - SuperOffice.WebApi.Data.ChangePasswordType
   - SuperOffice.WebApi.Data.ChangedData
   - SuperOffice.WebApi.Data.ChangedDataItem
@@ -450,6 +454,10 @@ items:
   - SuperOffice.WebApi.Data.Contact_UndeleteRequest
   - SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
   - SuperOffice.WebApi.Data.ControlInfo
+  - SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  - SuperOffice.WebApi.Data.CopilotDataSourceSetting
+  - SuperOffice.WebApi.Data.CopilotDataSourceType
+  - SuperOffice.WebApi.Data.CopilotEntity
   - SuperOffice.WebApi.Data.Country
   - SuperOffice.WebApi.Data.Credential
   - SuperOffice.WebApi.Data.CredentialControlType
@@ -982,6 +990,7 @@ items:
   - SuperOffice.WebApi.Data.ForeignSystem_SaveDeviceByIdentifierRequest
   - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
   - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest
+  - SuperOffice.WebApi.Data.FormDesignCarrier
   - SuperOffice.WebApi.Data.FormEntity
   - SuperOffice.WebApi.Data.FormSubmissionEntity
   - SuperOffice.WebApi.Data.FormSubmissionStatus
@@ -1072,9 +1081,9 @@ items:
   - SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
   - SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
   - SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
-  - SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
   - SuperOffice.WebApi.Data.List_DeleteWebPanelRequest
   - SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  - SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest
   - SuperOffice.WebApi.Data.List_GetAllCountriesRequest
   - SuperOffice.WebApi.Data.List_GetAllCurrenciesRequest
   - SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
@@ -1134,6 +1143,8 @@ items:
   - SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
   - SuperOffice.WebApi.Data.List_GetLocalizedTextsRequest
   - SuperOffice.WebApi.Data.List_GetMrMrsesRequest
+  - SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
+  - SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest
   - SuperOffice.WebApi.Data.List_GetOurCurrencyRequest
   - SuperOffice.WebApi.Data.List_GetOwnerCompanysCurrencyRequest
   - SuperOffice.WebApi.Data.List_GetPaymentTermsRequest
@@ -1169,6 +1180,7 @@ items:
   - SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
   - SuperOffice.WebApi.Data.List_MoveListItemRequest
   - SuperOffice.WebApi.Data.List_RebuildFullnamesRequest
+  - SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
   - SuperOffice.WebApi.Data.List_SaveAllFromListDefinitionRequest
   - SuperOffice.WebApi.Data.List_SaveAllFromListNameRequest
   - SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
@@ -1187,8 +1199,6 @@ items:
   - SuperOffice.WebApi.Data.List_SaveListEntityByNameRequest
   - SuperOffice.WebApi.Data.List_SaveListItemEntityRequest
   - SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
-  - SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
-  - SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
   - SuperOffice.WebApi.Data.List_SetDocumentPluginForAllDocumentTemplatesRequest
   - SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
   - SuperOffice.WebApi.Data.List_SetDocumentTemplateStreamRequest
@@ -6805,6 +6815,41 @@ references:
   name: AmountClassEntity
   nameWithType: AmountClassEntity
   fullName: SuperOffice.WebApi.Data.AmountClassEntity
+- uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  commentId: T:SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AutomatedCategoryUpdate.html
+  name: AutomatedCategoryUpdate
+  nameWithType: AutomatedCategoryUpdate
+  fullName: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+- uid: SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest.html
+  name: List_SaveAllAutomatedCategoryUpdatesRequest
+  nameWithType: List_SaveAllAutomatedCategoryUpdatesRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest.html
+  name: List_GetAllAutomatedCategoryUpdatesRequest
+  nameWithType: List_GetAllAutomatedCategoryUpdatesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest
+- uid: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest.html
+  name: List_GetNeedCategoryUpdateForSaleRequest
+  nameWithType: List_GetNeedCategoryUpdateForSaleRequest
+  fullName: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest
+- uid: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest.html
+  name: List_GetNeedCategoryUpdateForPersonRequest
+  nameWithType: List_GetNeedCategoryUpdateForPersonRequest
+  fullName: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
 - uid: SuperOffice.WebApi.Data.Business
   commentId: T:SuperOffice.WebApi.Data.Business
   parent: SuperOffice.WebApi.Data
@@ -6866,20 +6911,6 @@ references:
   name: TaskMenu
   nameWithType: TaskMenu
   fullName: SuperOffice.WebApi.Data.TaskMenu
-- uid: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
-  commentId: T:SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
-  isExternal: true
-  href: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest.html
-  name: List_SaveTaskMenuRequest
-  nameWithType: List_SaveTaskMenuRequest
-  fullName: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
-- uid: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
-  commentId: T:SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
-  isExternal: true
-  href: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest.html
-  name: List_DeleteTaskMenuRequest
-  nameWithType: List_DeleteTaskMenuRequest
-  fullName: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
 - uid: SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
   commentId: T:SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
   isExternal: true
@@ -8369,13 +8400,6 @@ references:
   name: WebPanelEntity
   nameWithType: WebPanelEntity
   fullName: SuperOffice.WebApi.Data.WebPanelEntity
-- uid: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
-  commentId: T:SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
-  isExternal: true
-  href: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest.html
-  name: List_SaveWebPanelEntityRequest
-  nameWithType: List_SaveWebPanelEntityRequest
-  fullName: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
 - uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
   commentId: T:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
   isExternal: true
@@ -15702,6 +15726,50 @@ references:
   name: AI_ClearChatbotTurnsRequest
   nameWithType: AI_ClearChatbotTurnsRequest
   fullName: SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceSetting
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceSetting
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceSetting.html
+  name: CopilotDataSourceSetting
+  nameWithType: CopilotDataSourceSetting
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceSetting
+- uid: SuperOffice.WebApi.Data.CopilotEntity
+  commentId: T:SuperOffice.WebApi.Data.CopilotEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html
+  name: CopilotEntity
+  nameWithType: CopilotEntity
+  fullName: SuperOffice.WebApi.Data.CopilotEntity
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier
+  commentId: T:SuperOffice.WebApi.Data.FormDesignCarrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCarrier.html
+  name: FormDesignCarrier
+  nameWithType: FormDesignCarrier
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier
+- uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest.html
+  name: AI_GetFormDesignFromImageRequest
+  nameWithType: AI_GetFormDesignFromImageRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
+- uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest.html
+  name: AI_GetFormDesignFromUrlRequest
+  nameWithType: AI_GetFormDesignFromUrlRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
 - uid: SuperOffice.WebApi.Data.Sentiment
   commentId: T:SuperOffice.WebApi.Data.Sentiment
   isExternal: true
@@ -17636,6 +17704,14 @@ references:
   name: CategoryGroup
   nameWithType: CategoryGroup
   fullName: SuperOffice.WebApi.Data.CategoryGroup
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data
@@ -17804,6 +17880,14 @@ references:
   name: EjScriptVerb
   nameWithType: EjScriptVerb
   fullName: SuperOffice.WebApi.Data.EjScriptVerb
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceType.html
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType
 - uid: SuperOffice.WebApi.Data.WidgetTheme
   commentId: T:SuperOffice.WebApi.Data.WidgetTheme
   parent: SuperOffice.WebApi.Data

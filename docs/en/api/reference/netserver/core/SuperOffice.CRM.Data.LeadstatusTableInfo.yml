@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Data.LeadstatusTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.LeadstatusTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.LeadstatusTableInfo.LeadstatusId
+  - SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
   - SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_Person_LeadstatusId
   - SuperOffice.CRM.Data.LeadstatusTableInfo.Name
   - SuperOffice.CRM.Data.LeadstatusTableInfo.Rank
@@ -343,6 +344,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Person_LeadstatusId As TargetedLeftOuterJoin(Of PersonTableInfo)
   overload: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_Person_LeadstatusId*
+- uid: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  commentId: P:SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  id: LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  parent: SuperOffice.CRM.Data.LeadstatusTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  nameWithType: LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  fullName: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key LeadstatusId on this table, to AutomatedCategoryUpdate.<xref href="SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.LeadstatusId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo> LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId As TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  overload: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1399,4 +1423,53 @@ references:
   - name: Of
   - name: " "
   - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.LeadstatusId
+  commentId: P:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.LeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html#SuperOffice_CRM_Data_AutomatedCategoryUpdateTableInfo_LeadstatusId
+  name: LeadstatusId
+  nameWithType: AutomatedCategoryUpdateTableInfo.LeadstatusId
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.LeadstatusId
+- uid: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId*
+  commentId: Overload:SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LeadstatusTableInfo.html#SuperOffice_CRM_Data_LeadstatusTableInfo_LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  name: LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  nameWithType: LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+  fullName: SuperOffice.CRM.Data.LeadstatusTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_LeadstatusId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
   - name: )

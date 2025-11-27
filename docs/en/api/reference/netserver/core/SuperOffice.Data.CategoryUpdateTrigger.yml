@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.Data.CategoryUpdateTrigger
+  id: CategoryUpdateTrigger
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.CategoryUpdateTrigger.LeadStatusChanged
+  - SuperOffice.Data.CategoryUpdateTrigger.None
+  - SuperOffice.Data.CategoryUpdateTrigger.SaleLost
+  - SuperOffice.Data.CategoryUpdateTrigger.SaleRegistered
+  - SuperOffice.Data.CategoryUpdateTrigger.SaleSold
+  langs:
+  - csharp
+  - vb
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.Data.CategoryUpdateTrigger
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: >-
+    Enum for type of change to trigger update of category 
+
+    This Enum is used by:  AutomatedCategoryUpdate.trigger_type
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+
+      public enum CategoryUpdateTrigger : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+
+      Public Enum CategoryUpdateTrigger As Short
+  extensionMethods:
+  - SuperOffice.Data.CategoryUpdateTrigger.EnumUtil.MapEnums``2
+  - SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CategoryUpdateTrigger)
+  - SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+- uid: SuperOffice.Data.CategoryUpdateTrigger.None
+  commentId: F:SuperOffice.Data.CategoryUpdateTrigger.None
+  id: None
+  parent: SuperOffice.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CategoryUpdateTrigger.None
+  fullName: SuperOffice.Data.CategoryUpdateTrigger.None
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SaleRegistered
+  commentId: F:SuperOffice.Data.CategoryUpdateTrigger.SaleRegistered
+  id: SaleRegistered
+  parent: SuperOffice.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleRegistered
+  nameWithType: CategoryUpdateTrigger.SaleRegistered
+  fullName: SuperOffice.Data.CategoryUpdateTrigger.SaleRegistered
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: SaleRegistered'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleRegistered = 1
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleRegistered = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SaleSold
+  commentId: F:SuperOffice.Data.CategoryUpdateTrigger.SaleSold
+  id: SaleSold
+  parent: SuperOffice.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: CategoryUpdateTrigger.SaleSold
+  fullName: SuperOffice.Data.CategoryUpdateTrigger.SaleSold
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: SaleSold'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleSold = 2
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleSold = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SaleLost
+  commentId: F:SuperOffice.Data.CategoryUpdateTrigger.SaleLost
+  id: SaleLost
+  parent: SuperOffice.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: CategoryUpdateTrigger.SaleLost
+  fullName: SuperOffice.Data.CategoryUpdateTrigger.SaleLost
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '3: SaleLost'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleLost = 3
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleLost = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.CategoryUpdateTrigger.LeadStatusChanged
+  commentId: F:SuperOffice.Data.CategoryUpdateTrigger.LeadStatusChanged
+  id: LeadStatusChanged
+  parent: SuperOffice.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: LeadStatusChanged
+  nameWithType: CategoryUpdateTrigger.LeadStatusChanged
+  fullName: SuperOffice.Data.CategoryUpdateTrigger.LeadStatusChanged
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '4: LeadStatusChanged'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      LeadStatusChanged = 4
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      LeadStatusChanged = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.CategoryUpdateTrigger.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CategoryUpdateTrigger, To>(CategoryUpdateTrigger)
+  nameWithType: EnumUtil.MapEnums<CategoryUpdateTrigger, To>(CategoryUpdateTrigger)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.CategoryUpdateTrigger, To>(SuperOffice.Data.CategoryUpdateTrigger)
+  nameWithType.vb: EnumUtil.MapEnums(Of CategoryUpdateTrigger, To)(CategoryUpdateTrigger)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.CategoryUpdateTrigger, To)(SuperOffice.Data.CategoryUpdateTrigger)
+  name.vb: MapEnums(Of CategoryUpdateTrigger, To)(CategoryUpdateTrigger)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.CategoryUpdateTrigger)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.CategoryUpdateTrigger)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CategoryUpdateTrigger, To>(CategoryUpdateTrigger)
+  nameWithType: Converters.MapEnums<CategoryUpdateTrigger, To>(CategoryUpdateTrigger)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CategoryUpdateTrigger, To>(SuperOffice.Data.CategoryUpdateTrigger)
+  nameWithType.vb: Converters.MapEnums(Of CategoryUpdateTrigger, To)(CategoryUpdateTrigger)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CategoryUpdateTrigger, To)(SuperOffice.Data.CategoryUpdateTrigger)
+  name.vb: MapEnums(Of CategoryUpdateTrigger, To)(CategoryUpdateTrigger)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.CategoryUpdateTrigger)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.CategoryUpdateTrigger)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CategoryUpdateTrigger)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CategoryUpdateTrigger>(CategoryUpdateTrigger, CategoryUpdateTrigger)
+  nameWithType: ObjectExtensions.AssignByReflection<CategoryUpdateTrigger>(CategoryUpdateTrigger, CategoryUpdateTrigger)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CategoryUpdateTrigger>(SuperOffice.Data.CategoryUpdateTrigger, SuperOffice.Data.CategoryUpdateTrigger)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CategoryUpdateTrigger)(CategoryUpdateTrigger, CategoryUpdateTrigger)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CategoryUpdateTrigger)(SuperOffice.Data.CategoryUpdateTrigger, SuperOffice.Data.CategoryUpdateTrigger)
+  name.vb: AssignByReflection(Of CategoryUpdateTrigger)(CategoryUpdateTrigger, CategoryUpdateTrigger)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CategoryUpdateTrigger,SuperOffice.Data.CategoryUpdateTrigger)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CategoryUpdateTrigger,SuperOffice.Data.CategoryUpdateTrigger)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+- uid: SuperOffice.Data.CategoryUpdateTrigger.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CategoryUpdateTrigger>(CategoryUpdateTrigger)
+  nameWithType: ObjectExtensions.GraphCopy<CategoryUpdateTrigger>(CategoryUpdateTrigger)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CategoryUpdateTrigger>(SuperOffice.Data.CategoryUpdateTrigger)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CategoryUpdateTrigger)(CategoryUpdateTrigger)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CategoryUpdateTrigger)(SuperOffice.Data.CategoryUpdateTrigger)
+  name.vb: GraphCopy(Of CategoryUpdateTrigger)(CategoryUpdateTrigger)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.CategoryUpdateTrigger)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.CategoryUpdateTrigger)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
+    isExternal: true
+    href: SuperOffice.Data.CategoryUpdateTrigger.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.Data.CategoryUpdateTrigger
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.Data.CategoryUpdateTrigger

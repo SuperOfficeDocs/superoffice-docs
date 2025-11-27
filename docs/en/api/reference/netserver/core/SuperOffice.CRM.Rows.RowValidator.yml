@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalMethod@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalReplyStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryUpdateTrigger@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatMessageSpecialType@,SuperOffice.Data.SQL.FieldInfo)
@@ -47,6 +48,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConceptualImageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ContactPersonBoardEntity@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CopilotDataSourceType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialControlType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialUsage@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CrmActorType@,SuperOffice.Data.SQL.FieldInfo)
@@ -208,6 +210,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketSecurityLevel@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketStatusTimeCounter@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6332,6 +6335,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(ExternalOwner, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ExternalOwner, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryUpdateTrigger@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryUpdateTrigger@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CategoryUpdateTrigger@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CategoryUpdateTrigger, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CategoryUpdateTrigger, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CategoryUpdateTrigger, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CategoryUpdateTrigger field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As CategoryUpdateTrigger, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(CategoryUpdateTrigger, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryUpdateTrigger, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(CategoryUpdateTrigger, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6976,6 +7007,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(BadgeType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BadgeType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(BadgeType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketRelationType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketRelationType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketRelationType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketRelationType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketRelationType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketRelationType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As TicketRelationType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(TicketRelationType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(TicketRelationType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
@@ -7088,6 +7147,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(EjScriptVerb, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjScriptVerb, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(EjScriptVerb, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CopilotDataSourceType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CopilotDataSourceType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CopilotDataSourceType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CopilotDataSourceType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CopilotDataSourceType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CopilotDataSourceType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CopilotDataSourceType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CopilotDataSourceType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As CopilotDataSourceType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(CopilotDataSourceType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CopilotDataSourceType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(CopilotDataSourceType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
@@ -10698,6 +10785,14 @@ references:
   name: ExternalOwner
   nameWithType: ExternalOwner
   fullName: SuperOffice.Data.ExternalOwner
+- uid: SuperOffice.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.Data.CategoryUpdateTrigger
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.Data.CategoryUpdateTrigger
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -10882,6 +10977,14 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.Data.BadgeType
+- uid: SuperOffice.Data.TicketRelationType
+  commentId: T:SuperOffice.Data.TicketRelationType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketRelationType.html
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.Data.TicketRelationType
 - uid: SuperOffice.Data.NotifyType
   commentId: T:SuperOffice.Data.NotifyType
   parent: SuperOffice.Data
@@ -10914,6 +11017,14 @@ references:
   name: EjScriptVerb
   nameWithType: EjScriptVerb
   fullName: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.CopilotDataSourceType
+  commentId: T:SuperOffice.Data.CopilotDataSourceType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CopilotDataSourceType.html
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.Data.CopilotDataSourceType
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data

@@ -13,6 +13,8 @@ items:
   - SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
   - SuperOffice.Data.SoPreference.GetIntAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetKeysAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.GetOwnerPreferences(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[])
+  - SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[],System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
   - SuperOffice.Data.SoPreference.GetPreferenceAsync(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
@@ -267,6 +269,52 @@ items:
   nameWithType.vb: SoPreference.GetStringAsync(String, String, String, CancellationToken)
   fullName.vb: SuperOffice.Data.SoPreference.GetStringAsync(String, String, String, System.Threading.CancellationToken)
   name.vb: GetStringAsync(String, String, String, CancellationToken)
+- uid: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[],System.Threading.CancellationToken)
+  id: GetOwnerPreferencesAsync(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[],System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerPreferencesAsync(int, int, (string section, string key, string defaultValue)[], CancellationToken)
+  nameWithType: SoPreference.GetOwnerPreferencesAsync(int, int, (string section, string key, string defaultValue)[], CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync(int, int, (string section, string key, string defaultValue)[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<(string section, string key, string value)[]> GetOwnerPreferencesAsync(int ownerId, int groupId, (string section, string key, string defaultValue)[] items, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ownerId
+      type: System.Int32
+    - id: groupId
+      type: System.Int32
+    - id: items
+      type: System.ValueTuple{System.String,System.String,System.String}[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.String}[]}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetOwnerPreferencesAsync(ownerId As Integer, groupId As Integer, items As (section As String, key As String, defaultValue As String)(), cancellationToken As CancellationToken = Nothing) As Task(Of (section As String, key As String, value As String)())
+  overload: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SoPreference.GetOwnerPreferencesAsync(Integer, Integer, (section As String, key As String, defaultValue As String)(), CancellationToken)
+  fullName.vb: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync(Integer, Integer, (section As String, key As String, defaultValue As String)(), System.Threading.CancellationToken)
+  name.vb: GetOwnerPreferencesAsync(Integer, Integer, (section As String, key As String, defaultValue As String)(), CancellationToken)
 - uid: SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
   commentId: M:SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
   id: SetCachedValue(System.String,System.String,System.String)
@@ -977,6 +1025,36 @@ items:
   nameWithType.vb: SoPreference.GetString(String, String, String)
   fullName.vb: SuperOffice.Data.SoPreference.GetString(String, String, String)
   name.vb: GetString(String, String, String)
+- uid: SuperOffice.Data.SoPreference.GetOwnerPreferences(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[])
+  commentId: M:SuperOffice.Data.SoPreference.GetOwnerPreferences(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[])
+  id: GetOwnerPreferences(System.Int32,System.Int32,System.ValueTuple{System.String,System.String,System.String}[])
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerPreferences(int, int, (string section, string key, string defaultValue)[])
+  nameWithType: SoPreference.GetOwnerPreferences(int, int, (string section, string key, string defaultValue)[])
+  fullName: SuperOffice.Data.SoPreference.GetOwnerPreferences(int, int, (string section, string key, string defaultValue)[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static (string section, string key, string value)[] GetOwnerPreferences(int ownerId, int groupId, (string section, string key, string defaultValue)[] items)
+    parameters:
+    - id: ownerId
+      type: System.Int32
+    - id: groupId
+      type: System.Int32
+    - id: items
+      type: System.ValueTuple{System.String,System.String,System.String}[]
+    return:
+      type: System.ValueTuple{System.String,System.String,System.String}[]
+    content.vb: Public Shared Function GetOwnerPreferences(ownerId As Integer, groupId As Integer, items As (section As String, key As String, defaultValue As String)()) As (section As String, key As String, value As String)()
+  overload: SuperOffice.Data.SoPreference.GetOwnerPreferences*
+  nameWithType.vb: SoPreference.GetOwnerPreferences(Integer, Integer, (section As String, key As String, defaultValue As String)())
+  fullName.vb: SuperOffice.Data.SoPreference.GetOwnerPreferences(Integer, Integer, (section As String, key As String, defaultValue As String)())
+  name.vb: GetOwnerPreferences(Integer, Integer, (section As String, key As String, defaultValue As String)())
 - uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String)
   commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String)
   id: GetString(System.String,System.String)
@@ -1660,6 +1738,203 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync
+  isExternal: true
+  href: SuperOffice.Data.SoPreference.html#SuperOffice_Data_SoPreference_GetOwnerPreferencesAsync_System_Int32_System_Int32_System_ValueTuple_System_String_System_String_System_String____System_Threading_CancellationToken_
+  name: GetOwnerPreferencesAsync
+  nameWithType: SoPreference.GetOwnerPreferencesAsync
+  fullName: SuperOffice.Data.SoPreference.GetOwnerPreferencesAsync
+- uid: System.ValueTuple{System.String,System.String,System.String}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string section, string key, string defaultValue)[]
+  nameWithType: (string section, string key, string defaultValue)[]
+  fullName: (string section, string key, string defaultValue)[]
+  nameWithType.vb: (section As String, key As String, defaultValue As String)()
+  fullName.vb: (section As String, key As String, defaultValue As String)()
+  name.vb: (section As String, key As String, defaultValue As String)()
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.section
+    name: section
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.section
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.key
+    name: key
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.key
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.defaultValue
+    name: defaultValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.defaultvalue
+  - name: )
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String,System.String}.section
+    name: section
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.section
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.key
+    name: key
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.key
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.defaultValue
+    name: defaultValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.defaultvalue
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.String}[]}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.String}[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string section, string key, string value)[]>
+  nameWithType: Task<(string section, string key, string value)[]>
+  fullName: System.Threading.Tasks.Task<(string section, string key, string value)[]>
+  nameWithType.vb: Task(Of (section As String, key As String, value As String)())
+  fullName.vb: System.Threading.Tasks.Task(Of (section As String, key As String, value As String)())
+  name.vb: Task(Of (section As String, key As String, value As String)())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.section
+    name: section
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.section
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.key
+    name: key
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.key
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.value
+  - name: )
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String,System.String}.section
+    name: section
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.section
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.key
+    name: key
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.key
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.value
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.Data.SoPreference.SetCachedValue*
   commentId: Overload:SuperOffice.Data.SoPreference.SetCachedValue
   isExternal: true
@@ -1882,6 +2157,13 @@ references:
   name: GetString
   nameWithType: SoPreference.GetString
   fullName: SuperOffice.Data.SoPreference.GetString
+- uid: SuperOffice.Data.SoPreference.GetOwnerPreferences*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetOwnerPreferences
+  isExternal: true
+  href: SuperOffice.Data.SoPreference.html#SuperOffice_Data_SoPreference_GetOwnerPreferences_System_Int32_System_Int32_System_ValueTuple_System_String_System_String_System_String____
+  name: GetOwnerPreferences
+  nameWithType: SoPreference.GetOwnerPreferences
+  fullName: SuperOffice.Data.SoPreference.GetOwnerPreferences
 - uid: SuperOffice.Data.SoPreference.GetBool*
   commentId: Overload:SuperOffice.Data.SoPreference.GetBool
   isExternal: true

@@ -20,6 +20,8 @@ items:
   - SuperOffice.CRM.Data.TicketTypeTableInfo.IsExternal
   - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_MailInFilter_TicketType
   - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_MsFilter_NewTicketType
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketTypePriority_TicketTypeId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketTypeStatus_TicketTypeId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_Ticket_TicketType
@@ -1018,6 +1020,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TicketTypeStatus_TicketTypeId As TargetedLeftOuterJoin(Of TicketTypeStatusTableInfo)
   overload: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketTypeStatus_TicketTypeId*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  id: LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  nameWithType: TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key TicketTypeId on this table, to TicketRelDefTicketType.<xref href="SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.SourceTicketTypeId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelDefTicketTypeTableInfo> LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId As TargetedLeftOuterJoin(Of TicketRelDefTicketTypeTableInfo)
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  id: LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  nameWithType: TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key TicketTypeId on this table, to TicketRelDefTicketType.<xref href="SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.DestinationTicketTypeId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelDefTicketTypeTableInfo> LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId As TargetedLeftOuterJoin(Of TicketRelDefTicketTypeTableInfo)
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2652,3 +2700,66 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.TicketTypeStatusTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.SourceTicketTypeId
+  commentId: P:SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.SourceTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketRelDefTicketTypeTableInfo_SourceTicketTypeId
+  name: SourceTicketTypeId
+  nameWithType: TicketRelDefTicketTypeTableInfo.SourceTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.SourceTicketTypeId
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  name: LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  nameWithType: TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_SourceTicketTypeId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TicketRelDefTicketTypeTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketRelDefTicketTypeTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketRelDefTicketTypeTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketRelDefTicketTypeTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+    name: TicketRelDefTicketTypeTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+    name: TicketRelDefTicketTypeTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.DestinationTicketTypeId
+  commentId: P:SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.DestinationTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketRelDefTicketTypeTableInfo_DestinationTicketTypeId
+  name: DestinationTicketTypeId
+  nameWithType: TicketRelDefTicketTypeTableInfo.DestinationTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.DestinationTicketTypeId
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  name: LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  nameWithType: TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.LeftOuterJoin_TicketRelDefTicketType_DestinationTicketTypeId

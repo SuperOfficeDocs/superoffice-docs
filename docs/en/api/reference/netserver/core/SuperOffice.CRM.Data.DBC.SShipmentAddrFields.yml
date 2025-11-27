@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.CustomerId
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.FormSubmissionId
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Name
+  - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.OwnerLock
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.SShipmentAddrId
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.SenderNr
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.SendingTime
@@ -448,6 +449,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const WorkflowInstanceId As String = "workflow_instance_id"
+- uid: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.OwnerLock
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentAddrFields.OwnerLock
+  id: OwnerLock
+  parent: SuperOffice.CRM.Data.DBC.SShipmentAddrFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerLock
+  nameWithType: DBC.SShipmentAddrFields.OwnerLock
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.OwnerLock
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SShipmentAddr.OwnerLock: A guid to set when trying to send to that address, to ensure no other ejsender also try to send it'
+  example: []
+  syntax:
+    content: public const string OwnerLock = "owner_lock"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerLock As String = "owner_lock"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

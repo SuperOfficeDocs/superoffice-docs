@@ -5,6 +5,7 @@ items:
   id: SoConnection
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.SoConnection.AddTrackingComment(System.String)
   - SuperOffice.Data.SoConnection.BeginTransaction
   - SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
   - SuperOffice.Data.SoConnection.Close
@@ -13,6 +14,7 @@ items:
   - SuperOffice.Data.SoConnection.Dispose
   - SuperOffice.Data.SoConnection.InnerConnection
   - SuperOffice.Data.SoConnection.Open
+  - SuperOffice.Data.SoConnection.OpenByCustAndAge
   - SuperOffice.Data.SoConnection.ToString
   langs:
   - csharp
@@ -71,6 +73,30 @@ items:
     return:
       type: System.Text.StringBuilder
     content.vb: Public Shared DigContextTrace As StringBuilder
+- uid: SuperOffice.Data.SoConnection.AddTrackingComment(System.String)
+  commentId: M:SuperOffice.Data.SoConnection.AddTrackingComment(System.String)
+  id: AddTrackingComment(System.String)
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: AddTrackingComment(string)
+  nameWithType: SoConnection.AddTrackingComment(string)
+  fullName: SuperOffice.Data.SoConnection.AddTrackingComment(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public void AddTrackingComment(string comment)
+    parameters:
+    - id: comment
+      type: System.String
+    content.vb: Public Sub AddTrackingComment(comment As String)
+  overload: SuperOffice.Data.SoConnection.AddTrackingComment*
+  nameWithType.vb: SoConnection.AddTrackingComment(String)
+  fullName.vb: SuperOffice.Data.SoConnection.AddTrackingComment(String)
+  name.vb: AddTrackingComment(String)
 - uid: SuperOffice.Data.SoConnection.Open
   commentId: M:SuperOffice.Data.SoConnection.Open
   id: Open
@@ -232,6 +258,27 @@ items:
   overload: SuperOffice.Data.SoConnection.Dispose*
   implements:
   - System.IDisposable.Dispose
+- uid: SuperOffice.Data.SoConnection.OpenByCustAndAge
+  commentId: P:SuperOffice.Data.SoConnection.OpenByCustAndAge
+  id: OpenByCustAndAge
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: OpenByCustAndAge
+  nameWithType: SoConnection.OpenByCustAndAge
+  fullName: SuperOffice.Data.SoConnection.OpenByCustAndAge
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static SoConnection.ConnectionInfo[] OpenByCustAndAge { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SoConnection.ConnectionInfo[]
+    content.vb: Public Shared ReadOnly Property OpenByCustAndAge As SoConnection.ConnectionInfo()
+  overload: SuperOffice.Data.SoConnection.OpenByCustAndAge*
 - uid: SuperOffice.Data.SoConnection.InnerConnection
   commentId: P:SuperOffice.Data.SoConnection.InnerConnection
   id: InnerConnection
@@ -789,6 +836,24 @@ references:
     name: Text
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: SuperOffice.Data.SoConnection.AddTrackingComment*
+  commentId: Overload:SuperOffice.Data.SoConnection.AddTrackingComment
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_AddTrackingComment_System_String_
+  name: AddTrackingComment
+  nameWithType: SoConnection.AddTrackingComment
+  fullName: SuperOffice.Data.SoConnection.AddTrackingComment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SoConnection.Open*
   commentId: Overload:SuperOffice.Data.SoConnection.Open
   isExternal: true
@@ -878,17 +943,6 @@ references:
   name: ToString
   nameWithType: SoConnection.ToString
   fullName: SuperOffice.Data.SoConnection.ToString
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: SuperOffice.Data.SoConnection.BeginTransaction*
   commentId: Overload:SuperOffice.Data.SoConnection.BeginTransaction
   isExternal: true
@@ -954,6 +1008,36 @@ references:
     name: Dispose
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SoConnection.OpenByCustAndAge*
+  commentId: Overload:SuperOffice.Data.SoConnection.OpenByCustAndAge
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_OpenByCustAndAge
+  name: OpenByCustAndAge
+  nameWithType: SoConnection.OpenByCustAndAge
+  fullName: SuperOffice.Data.SoConnection.OpenByCustAndAge
+- uid: SuperOffice.Data.SoConnection.ConnectionInfo[]
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.ConnectionInfo.html
+  name: ConnectionInfo[]
+  nameWithType: SoConnection.ConnectionInfo[]
+  fullName: SuperOffice.Data.SoConnection.ConnectionInfo[]
+  nameWithType.vb: SoConnection.ConnectionInfo()
+  fullName.vb: SuperOffice.Data.SoConnection.ConnectionInfo()
+  name.vb: ConnectionInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SoConnection.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.ConnectionInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SoConnection.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.ConnectionInfo.html
   - name: (
   - name: )
 - uid: SuperOffice.Data.SoConnection.InnerConnection*

@@ -110,11 +110,11 @@ items:
     var messages = archive.GetArchiveListByColumns2("TicketMessage", "...", null, "ticketId eq 123", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
 
       public class TicketEntity : Carrier, IExtraFieldCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
 
       Public Class TicketEntity Inherits Carrier Implements IExtraFieldCarrier
   seealso:
@@ -131,7 +131,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
 - uid: SuperOffice.CRM.Services.TicketEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketEntity.#ctor
   id: '#ctor'

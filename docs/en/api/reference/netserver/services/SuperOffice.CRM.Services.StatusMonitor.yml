@@ -44,11 +44,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
 
       public class StatusMonitor : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
 
       Public Class StatusMonitor Inherits Carrier
   seealso:
@@ -63,7 +63,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
 - uid: SuperOffice.CRM.Services.StatusMonitor.#ctor
   commentId: M:SuperOffice.CRM.Services.StatusMonitor.#ctor
   id: '#ctor'

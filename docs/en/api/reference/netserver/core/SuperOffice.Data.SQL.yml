@@ -32,6 +32,7 @@ items:
   - SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
   - SuperOffice.Data.SQL.Bool
   - SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  - SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
   - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
@@ -41,6 +42,7 @@ items:
   - SuperOffice.Data.SQL.ChatTopicFlagFieldInfo
   - SuperOffice.Data.SQL.Compare
   - SuperOffice.Data.SQL.ConfigTypeFieldInfo
+  - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.Count
   - SuperOffice.Data.SQL.CountAll
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
@@ -220,6 +222,7 @@ items:
   - SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo
   - SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo
   - SuperOffice.Data.SQL.TicketReadStatusFieldInfo
+  - SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
   - SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
   - SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
   - SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
@@ -1061,6 +1064,14 @@ references:
   name: ExternalOwnerFieldInfo
   nameWithType: ExternalOwnerFieldInfo
   fullName: SuperOffice.Data.SQL.ExternalOwnerFieldInfo
+- uid: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo.html
+  name: CategoryUpdateTriggerFieldInfo
+  nameWithType: CategoryUpdateTriggerFieldInfo
+  fullName: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1181,6 +1192,14 @@ references:
   name: BadgeTypeFieldInfo
   nameWithType: BadgeTypeFieldInfo
   fullName: SuperOffice.Data.SQL.BadgeTypeFieldInfo
+- uid: SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TicketRelationTypeFieldInfo.html
+  name: TicketRelationTypeFieldInfo
+  nameWithType: TicketRelationTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
 - uid: SuperOffice.Data.SQL.ScriptTypeFieldInfo
   commentId: T:SuperOffice.Data.SQL.ScriptTypeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1205,6 +1224,14 @@ references:
   name: EjScriptVerbFieldInfo
   nameWithType: EjScriptVerbFieldInfo
   fullName: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+- uid: SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo.html
+  name: CopilotDataSourceTypeFieldInfo
+  nameWithType: CopilotDataSourceTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
 - uid: SuperOffice.Data.SQL.WidgetThemeFieldInfo
   commentId: T:SuperOffice.Data.SQL.WidgetThemeFieldInfo
   parent: SuperOffice.Data.SQL

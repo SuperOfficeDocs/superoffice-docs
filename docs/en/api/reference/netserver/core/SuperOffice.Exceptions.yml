@@ -14,6 +14,7 @@ items:
   - SuperOffice.Exceptions.SoExceptionInfo
   - SuperOffice.Exceptions.SoExceptionInfoParameters
   - SuperOffice.Exceptions.SoFileNotFoundException
+  - SuperOffice.Exceptions.SoFunctionRightException
   - SuperOffice.Exceptions.SoHttpResponseException
   - SuperOffice.Exceptions.SoIllegalOperationException
   - SuperOffice.Exceptions.SoIllegalXmlException
@@ -108,6 +109,13 @@ references:
   name: SoExceptionInfo
   nameWithType: SoExceptionInfo
   fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions.SoFunctionRightException
+  commentId: T:SuperOffice.Exceptions.SoFunctionRightException
+  isExternal: true
+  href: SuperOffice.Exceptions.SoFunctionRightException.html
+  name: SoFunctionRightException
+  nameWithType: SoFunctionRightException
+  fullName: SuperOffice.Exceptions.SoFunctionRightException
 - uid: SuperOffice.Exceptions.SoHttpResponseException
   commentId: T:SuperOffice.Exceptions.SoHttpResponseException
   isExternal: true

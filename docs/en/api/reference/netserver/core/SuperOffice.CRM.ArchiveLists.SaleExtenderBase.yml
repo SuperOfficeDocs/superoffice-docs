@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageRank
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStalledReason
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
   langs:
@@ -779,6 +780,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colHasStakeholders As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
+  id: _colStakeholdersEnabled
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colStakeholdersEnabled
+  nameWithType: SaleExtenderBase._colStakeholdersEnabled
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStakeholdersEnabled
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStakeholdersEnabled As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasQuote
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasQuote
   id: _colHasQuote

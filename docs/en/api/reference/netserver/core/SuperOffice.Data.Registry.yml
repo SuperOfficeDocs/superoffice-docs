@@ -328,6 +328,7 @@ items:
   - SuperOffice.Data.Registry.TemporaryKeyTTL
   - SuperOffice.Data.Registry.ThumbnailsIsDefaultMode
   - SuperOffice.Data.Registry.TicketLogSystem
+  - SuperOffice.Data.Registry.TimeKeepingSyncNextRun
   - SuperOffice.Data.Registry.TimeKeyTTL
   - SuperOffice.Data.Registry.TimeZoneForNetServer
   - SuperOffice.Data.Registry.UnicodeConvertedTemplateFolder
@@ -397,11 +398,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
 
       public enum Registry
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
 
       Public Enum Registry
   extensionMethods:
@@ -417,7 +418,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
 - uid: SuperOffice.Data.Registry.RegistryEntry_End
   commentId: F:SuperOffice.Data.Registry.RegistryEntry_End
   id: RegistryEntry_End
@@ -11326,6 +11327,37 @@ items:
       <EnumMember>
 
       CustomerCenterTemplatesMovedToDB = 361
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.Registry.TimeKeepingSyncNextRun
+  commentId: F:SuperOffice.Data.Registry.TimeKeepingSyncNextRun
+  id: TimeKeepingSyncNextRun
+  parent: SuperOffice.Data.Registry
+  langs:
+  - csharp
+  - vb
+  name: TimeKeepingSyncNextRun
+  nameWithType: Registry.TimeKeepingSyncNextRun
+  fullName: SuperOffice.Data.Registry.TimeKeepingSyncNextRun
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '362: Next local run time for sync of TimeKeeping'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      TimeKeepingSyncNextRun = 362
+    return:
+      type: SuperOffice.Data.Registry
+    content.vb: >-
+      <EnumMember>
+
+      TimeKeepingSyncNextRun = 362
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

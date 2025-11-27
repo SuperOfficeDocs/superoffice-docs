@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Data.CategoryTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.CategoryTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
+  - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_CategoryGroupLink_CategoryId
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_CategoryHeadingLink_CategoryId
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_Contact_CategoryIdx
@@ -703,6 +704,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_CategoryHeadingLink_CategoryId As TargetedLeftOuterJoin(Of CategoryHeadingLinkTableInfo)
   overload: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_CategoryHeadingLink_CategoryId*
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  commentId: P:SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  id: LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  parent: SuperOffice.CRM.Data.CategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  nameWithType: CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key CategoryId on this table, to AutomatedCategoryUpdate.<xref href="SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.DefaultCategory" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo> LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory As TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  overload: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2131,4 +2155,53 @@ references:
     name: CategoryHeadingLinkTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.DefaultCategory
+  commentId: P:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.DefaultCategory
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html#SuperOffice_CRM_Data_AutomatedCategoryUpdateTableInfo_DefaultCategory
+  name: DefaultCategory
+  nameWithType: AutomatedCategoryUpdateTableInfo.DefaultCategory
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.DefaultCategory
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory*
+  commentId: Overload:SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  isExternal: true
+  href: SuperOffice.CRM.Data.CategoryTableInfo.html#SuperOffice_CRM_Data_CategoryTableInfo_LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  name: LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  nameWithType: CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_DefaultCategory
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
   - name: )

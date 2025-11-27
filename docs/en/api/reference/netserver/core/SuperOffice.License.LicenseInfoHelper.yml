@@ -9,9 +9,6 @@ items:
   - SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
   - SuperOffice.License.LicenseInfoHelper.LoadFromXml(System.String)
   - SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.IO.StringWriter,System.String)
-  - SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
-  - SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
-  - SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
   langs:
   - csharp
   - vb
@@ -99,30 +96,6 @@ items:
   nameWithType.vb: LicenseInfoHelper.LoadFromXml(String)
   fullName.vb: SuperOffice.License.LicenseInfoHelper.LoadFromXml(String)
   name.vb: LoadFromXml(String)
-- uid: SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
-  commentId: M:SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
-  id: WriteToXml(SuperOffice.License.LicenseInfo)
-  isExtensionMethod: true
-  parent: SuperOffice.License.LicenseInfoHelper
-  langs:
-  - csharp
-  - vb
-  name: WriteToXml(LicenseInfo)
-  nameWithType: LicenseInfoHelper.WriteToXml(LicenseInfo)
-  fullName: SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
-  type: Method
-  assemblies:
-  - SoLicense
-  namespace: SuperOffice.License
-  syntax:
-    content: public static string WriteToXml(this LicenseInfo license)
-    parameters:
-    - id: license
-      type: SuperOffice.License.LicenseInfo
-    return:
-      type: System.String
-    content.vb: Public Shared Function WriteToXml(license As LicenseInfo) As String
-  overload: SuperOffice.License.LicenseInfoHelper.WriteToXml*
 - uid: SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
   commentId: M:SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
   id: LoadFromFile(System.String)
@@ -149,64 +122,6 @@ items:
   nameWithType.vb: LicenseInfoHelper.LoadFromFile(String)
   fullName.vb: SuperOffice.License.LicenseInfoHelper.LoadFromFile(String)
   name.vb: LoadFromFile(String)
-- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
-  commentId: M:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
-  id: SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
-  isExtensionMethod: true
-  parent: SuperOffice.License.LicenseInfoHelper
-  langs:
-  - csharp
-  - vb
-  name: SaveLicenseAsXml(LicenseInfo, string)
-  nameWithType: LicenseInfoHelper.SaveLicenseAsXml(LicenseInfo, string)
-  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo, string)
-  type: Method
-  assemblies:
-  - SoLicense
-  namespace: SuperOffice.License
-  syntax:
-    content: public static void SaveLicenseAsXml(this LicenseInfo license, string fileName)
-    parameters:
-    - id: license
-      type: SuperOffice.License.LicenseInfo
-    - id: fileName
-      type: System.String
-    content.vb: Public Shared Sub SaveLicenseAsXml(license As LicenseInfo, fileName As String)
-  overload: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml*
-  nameWithType.vb: LicenseInfoHelper.SaveLicenseAsXml(LicenseInfo, String)
-  fullName.vb: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo, String)
-  name.vb: SaveLicenseAsXml(LicenseInfo, String)
-- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
-  commentId: M:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
-  id: SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
-  isExtensionMethod: true
-  parent: SuperOffice.License.LicenseInfoHelper
-  langs:
-  - csharp
-  - vb
-  name: SaveLicenseAsImportFile(LicenseInfo, string)
-  nameWithType: LicenseInfoHelper.SaveLicenseAsImportFile(LicenseInfo, string)
-  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo, string)
-  type: Method
-  assemblies:
-  - SoLicense
-  namespace: SuperOffice.License
-  summary: Write
-  example: []
-  syntax:
-    content: public static void SaveLicenseAsImportFile(this LicenseInfo license, string initPath)
-    parameters:
-    - id: license
-      type: SuperOffice.License.LicenseInfo
-      description: ''
-    - id: initPath
-      type: System.String
-      description: ''
-    content.vb: Public Shared Sub SaveLicenseAsImportFile(license As LicenseInfo, initPath As String)
-  overload: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile*
-  nameWithType.vb: LicenseInfoHelper.SaveLicenseAsImportFile(LicenseInfo, String)
-  fullName.vb: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo, String)
-  name.vb: SaveLicenseAsImportFile(LicenseInfo, String)
 - uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.IO.StringWriter,System.String)
   commentId: M:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.IO.StringWriter,System.String)
   id: SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.IO.StringWriter,System.String)
@@ -544,13 +459,6 @@ references:
   name: LoadFromXml
   nameWithType: LicenseInfoHelper.LoadFromXml
   fullName: SuperOffice.License.LicenseInfoHelper.LoadFromXml
-- uid: SuperOffice.License.LicenseInfoHelper.WriteToXml*
-  commentId: Overload:SuperOffice.License.LicenseInfoHelper.WriteToXml
-  isExternal: true
-  href: SuperOffice.License.LicenseInfoHelper.html#SuperOffice_License_LicenseInfoHelper_WriteToXml_SuperOffice_License_LicenseInfo_
-  name: WriteToXml
-  nameWithType: LicenseInfoHelper.WriteToXml
-  fullName: SuperOffice.License.LicenseInfoHelper.WriteToXml
 - uid: SuperOffice.License.LicenseInfoHelper.LoadFromFile*
   commentId: Overload:SuperOffice.License.LicenseInfoHelper.LoadFromFile
   isExternal: true
@@ -558,17 +466,10 @@ references:
   name: LoadFromFile
   nameWithType: LicenseInfoHelper.LoadFromFile
   fullName: SuperOffice.License.LicenseInfoHelper.LoadFromFile
-- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml*
-  commentId: Overload:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml
-  isExternal: true
-  href: SuperOffice.License.LicenseInfoHelper.html#SuperOffice_License_LicenseInfoHelper_SaveLicenseAsXml_SuperOffice_License_LicenseInfo_System_String_
-  name: SaveLicenseAsXml
-  nameWithType: LicenseInfoHelper.SaveLicenseAsXml
-  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml
 - uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile*
   commentId: Overload:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile
   isExternal: true
-  href: SuperOffice.License.LicenseInfoHelper.html#SuperOffice_License_LicenseInfoHelper_SaveLicenseAsImportFile_SuperOffice_License_LicenseInfo_System_String_
+  href: SuperOffice.License.LicenseInfoHelper.html#SuperOffice_License_LicenseInfoHelper_SaveLicenseAsImportFile_SuperOffice_License_LicenseInfo_System_IO_StringWriter_System_String_
   name: SaveLicenseAsImportFile
   nameWithType: LicenseInfoHelper.SaveLicenseAsImportFile
   fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile

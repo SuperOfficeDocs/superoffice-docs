@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
   - SuperOffice.CRM.Data.AudienceLayoutTableInfo
   - SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+  - SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
   - SuperOffice.CRM.Data.AutosaveTableInfo
   - SuperOffice.CRM.Data.BaseTZLocationTableInfo
   - SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
@@ -65,6 +66,9 @@ items:
   - SuperOffice.CRM.Data.ContIntTableInfo
   - SuperOffice.CRM.Data.ContactInterestTableInfo
   - SuperOffice.CRM.Data.ContactTableInfo
+  - SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  - SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  - SuperOffice.CRM.Data.CopilotTableInfo
   - SuperOffice.CRM.Data.CounterValueTableInfo
   - SuperOffice.CRM.Data.CountryGroupLinkTableInfo
   - SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
@@ -102,6 +106,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AudienceLayoutFields
   - SuperOffice.CRM.Data.DBC.AudienceLayoutLinkFields
   - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  - SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
   - SuperOffice.CRM.Data.DBC.AutosaveFields
   - SuperOffice.CRM.Data.DBC.BaseTZLocationFields
   - SuperOffice.CRM.Data.DBC.BatchTaskDefinitionFields
@@ -141,6 +146,9 @@ items:
   - SuperOffice.CRM.Data.DBC.ContIntHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.ContactFields
   - SuperOffice.CRM.Data.DBC.ContactInterestFields
+  - SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+  - SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+  - SuperOffice.CRM.Data.DBC.CopilotFields
   - SuperOffice.CRM.Data.DBC.CounterValueFields
   - SuperOffice.CRM.Data.DBC.CountryFields
   - SuperOffice.CRM.Data.DBC.CountryGroupLinkFields
@@ -557,6 +565,9 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketLogChangeFields
   - SuperOffice.CRM.Data.DBC.TicketLogFields
   - SuperOffice.CRM.Data.DBC.TicketPriorityFields
+  - SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+  - SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+  - SuperOffice.CRM.Data.DBC.TicketRelationFields
   - SuperOffice.CRM.Data.DBC.TicketStatusFields
   - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
   - SuperOffice.CRM.Data.DBC.TicketTypeFields
@@ -1022,6 +1033,9 @@ items:
   - SuperOffice.CRM.Data.TicketLogChangeTableInfo
   - SuperOffice.CRM.Data.TicketLogTableInfo
   - SuperOffice.CRM.Data.TicketPriorityTableInfo
+  - SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  - SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  - SuperOffice.CRM.Data.TicketRelationTableInfo
   - SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
   - SuperOffice.CRM.Data.TicketStatusTableInfo
   - SuperOffice.CRM.Data.TicketTableInfo
@@ -1272,6 +1286,14 @@ references:
   name: AudienceVisibilityTableInfo
   nameWithType: AudienceVisibilityTableInfo
   fullName: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  name: AutomatedCategoryUpdateTableInfo
+  nameWithType: AutomatedCategoryUpdateTableInfo
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
 - uid: SuperOffice.CRM.Data.AutosaveTableInfo
   commentId: T:SuperOffice.CRM.Data.AutosaveTableInfo
   parent: SuperOffice.CRM.Data
@@ -1584,6 +1606,30 @@ references:
   name: ContIntHeadingLinkTableInfo
   nameWithType: ContIntHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CopilotTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotTableInfo.html
+  name: CopilotTableInfo
+  nameWithType: CopilotTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotTableInfo
+- uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html
+  name: CopilotDataSourceTableInfo
+  nameWithType: CopilotDataSourceTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+- uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  commentId: T:SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html
+  name: CopilotDataSourceSettingTableInfo
+  nameWithType: CopilotDataSourceSettingTableInfo
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
 - uid: SuperOffice.CRM.Data.CounterValueTableInfo
   commentId: T:SuperOffice.CRM.Data.CounterValueTableInfo
   parent: SuperOffice.CRM.Data
@@ -14554,6 +14600,87 @@ references:
     name: CategoryFamilyFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.CategoryFamilyFields.html
+- uid: SuperOffice.CRM.Data.DBC.CopilotFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CopilotFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.CopilotFields
+  nameWithType: DBC.CopilotFields
+  fullName: SuperOffice.CRM.Data.DBC.CopilotFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotFields
+    name: CopilotFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotFields
+    name: CopilotFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotFields.html
+- uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.CopilotDataSourceFields
+  nameWithType: DBC.CopilotDataSourceFields
+  fullName: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+    name: CopilotDataSourceFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+    name: CopilotDataSourceFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields.html
+- uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.CopilotDataSourceSettingFields
+  nameWithType: DBC.CopilotDataSourceSettingFields
+  fullName: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+    name: CopilotDataSourceSettingFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+    name: CopilotDataSourceSettingFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields.html
 - uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields
   commentId: T:SuperOffice.CRM.Data.DBC.ScriptTraceFields
   isExternal: true
@@ -16282,6 +16409,33 @@ references:
     name: LeadstatusFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.LeadstatusFields.html
+- uid: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.AutomatedCategoryUpdateFields
+  nameWithType: DBC.AutomatedCategoryUpdateFields
+  fullName: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+    name: AutomatedCategoryUpdateFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+    name: AutomatedCategoryUpdateFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields.html
 - uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
   commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
   isExternal: true
@@ -16363,6 +16517,87 @@ references:
     name: TicketTypeStatusFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.html
+- uid: SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.TicketRelationDefFields
+  nameWithType: DBC.TicketRelationDefFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+    name: TicketRelationDefFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelationDefFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+    name: TicketRelationDefFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelationDefFields.html
+- uid: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.TicketRelDefTicketTypeFields
+  nameWithType: DBC.TicketRelDefTicketTypeFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+    name: TicketRelDefTicketTypeFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+    name: TicketRelDefTicketTypeFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields.html
+- uid: SuperOffice.CRM.Data.DBC.TicketRelationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelationFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.TicketRelationFields
+  nameWithType: DBC.TicketRelationFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelationFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationFields
+    name: TicketRelationFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelationFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationFields
+    name: TicketRelationFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TicketRelationFields.html
 - uid: SuperOffice.CRM.Data.DeliveryTermsTableInfo
   commentId: T:SuperOffice.CRM.Data.DeliveryTermsTableInfo
   parent: SuperOffice.CRM.Data
@@ -19482,6 +19717,30 @@ references:
   name: TicketPriorityTableInfo
   nameWithType: TicketPriorityTableInfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationTableInfo.html
+  name: TicketRelationTableInfo
+  nameWithType: TicketRelationTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html
+  name: TicketRelationDefTableInfo
+  nameWithType: TicketRelationDefTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo.html
+  name: TicketRelDefTicketTypeTableInfo
+  nameWithType: TicketRelDefTicketTypeTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
   commentId: T:SuperOffice.CRM.Data.TicketStatusTableInfo
   parent: SuperOffice.CRM.Data

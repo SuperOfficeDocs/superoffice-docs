@@ -13,19 +13,29 @@ items:
   - SuperOffice.WebApi.Agents.AIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.DetectSentimentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.ExpandTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.ChatbotTurn[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GuessCategoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.SearchAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.StartRagIndexingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -161,6 +171,202 @@ items:
   nameWithType.vb: AIAgent.New(WebApiOptions, HttpClient)
   fullName.vb: SuperOffice.WebApi.Agents.AIAgent.New(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
   name.vb: New(WebApiOptions, HttpClient)
+- uid: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCopilotDataSourceEntityAsync(RequestOptions)
+  nameWithType: AIAgent.CreateDefaultCopilotDataSourceEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new CopilotDataSourceEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<CopilotDataSourceEntity> CreateDefaultCopilotDataSourceEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotDataSourceEntity}
+      description: A blank CopilotDataSourceEntity
+    content.vb: Public Function CreateDefaultCopilotDataSourceEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, RequestOptions)
+  nameWithType: AIAgent.SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing CopilotDataSourceEntity or creates a new CopilotDataSourceEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<CopilotDataSourceEntity> SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity copilotDataSourceEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotDataSourceEntity
+      type: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+      description: The CopilotDataSourceEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotDataSourceEntity}
+      description: New or updated CopilotDataSourceEntity
+    content.vb: Public Function SaveCopilotDataSourceEntityAsync(copilotDataSourceEntity As CopilotDataSourceEntity, requestOptions As RequestOptions = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCopilotDataSourceEntityAsync(int, RequestOptions)
+  nameWithType: AIAgent.DeleteCopilotDataSourceEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the CopilotDataSourceEntity
+  example: []
+  syntax:
+    content: public Task DeleteCopilotDataSourceEntityAsync(int copilotDataSourceEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotDataSourceEntityId
+      type: System.Int32
+      description: The identity of the CopilotDataSourceEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteCopilotDataSourceEntityAsync(copilotDataSourceEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.DeleteCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteCopilotDataSourceEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCopilotEntityAsync(RequestOptions)
+  nameWithType: AIAgent.CreateDefaultCopilotEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new CopilotEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<CopilotEntity> CreateDefaultCopilotEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotEntity}
+      description: A blank CopilotEntity
+    content.vb: Public Function CreateDefaultCopilotEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCopilotEntityAsync(CopilotEntity, RequestOptions)
+  nameWithType: AIAgent.SaveCopilotEntityAsync(CopilotEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing CopilotEntity or creates a new CopilotEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<CopilotEntity> SaveCopilotEntityAsync(CopilotEntity copilotEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotEntity
+      type: SuperOffice.WebApi.Data.CopilotEntity
+      description: The CopilotEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotEntity}
+      description: New or updated CopilotEntity
+    content.vb: Public Function SaveCopilotEntityAsync(copilotEntity As CopilotEntity, requestOptions As RequestOptions = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCopilotEntityAsync(int, RequestOptions)
+  nameWithType: AIAgent.DeleteCopilotEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the CopilotEntity
+  example: []
+  syntax:
+    content: public Task DeleteCopilotEntityAsync(int copilotEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotEntityId
+      type: System.Int32
+      description: The identity of the CopilotEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteCopilotEntityAsync(copilotEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.DeleteCopilotEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteCopilotEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -664,6 +870,146 @@ items:
   nameWithType.vb: AIAgent.ClearChatbotTurnsAsync(String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.AIAgent.ClearChatbotTurnsAsync(String, SuperOffice.WebApi.RequestOptions)
   name.vb: ClearChatbotTurnsAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotDataSourceEntityAsync(int, RequestOptions)
+  nameWithType: AIAgent.GetCopilotDataSourceEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific CopilotDataSourceEntity object.
+  example: []
+  syntax:
+    content: public Task<CopilotDataSourceEntity> GetCopilotDataSourceEntityAsync(int copilotDataSourceEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotDataSourceEntityId
+      type: System.Int32
+      description: The identifier of the CopilotDataSourceEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotDataSourceEntity}
+      description: CopilotDataSourceEntity
+    content.vb: Public Function GetCopilotDataSourceEntityAsync(copilotDataSourceEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.GetCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCopilotDataSourceEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotEntityAsync(int, RequestOptions)
+  nameWithType: AIAgent.GetCopilotEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific CopilotEntity object.
+  example: []
+  syntax:
+    content: public Task<CopilotEntity> GetCopilotEntityAsync(int copilotEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: copilotEntityId
+      type: System.Int32
+      description: The identifier of the CopilotEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotEntity}
+      description: CopilotEntity
+    content.vb: Public Function GetCopilotEntityAsync(copilotEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.GetCopilotEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCopilotEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignFromImageAsync(byte[], RequestOptions)
+  nameWithType: AIAgent.GetFormDesignFromImageAsync(byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns Form Designer properties based on the look of a picture
+  example: []
+  syntax:
+    content: public Task<StringDictionary> GetFormDesignFromImageAsync(byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: image
+      type: System.Byte[]
+      description: Image data to analyze for design
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Returns a Form Designer properties.
+    content.vb: Public Function GetFormDesignFromImageAsync(image As Byte(), requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.GetFormDesignFromImageAsync(Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignFromImageAsync(Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignFromUrlAsync(string, RequestOptions)
+  nameWithType: AIAgent.GetFormDesignFromUrlAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns Form Designer properties based on the look of a web page
+  example: []
+  syntax:
+    content: public Task<StringDictionary> GetFormDesignFromUrlAsync(string url, RequestOptions requestOptions = null)
+    parameters:
+    - id: url
+      type: System.String
+      description: Url of the web page to extract style from.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Returns a Form Designer properties.
+    content.vb: Public Function GetFormDesignFromUrlAsync(url As String, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.GetFormDesignFromUrlAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignFromUrlAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -2438,6 +2784,497 @@ references:
     name: WebApi
     isExternal: true
     href: SuperOffice.WebApi.html
+- uid: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_CreateDefaultCopilotDataSourceEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCopilotDataSourceEntityAsync
+  nameWithType: AIAgent.CreateDefaultCopilotDataSourceEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotDataSourceEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCopilotDataSourceEntityAsync(RequestOptions)
+  nameWithType: IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotDataSourceEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotDataSourceEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotDataSourceEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotDataSourceEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CopilotDataSourceEntity>
+  nameWithType: Task<CopilotDataSourceEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CopilotDataSourceEntity>
+  nameWithType.vb: Task(Of CopilotDataSourceEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CopilotDataSourceEntity)
+  name.vb: Task(Of CopilotDataSourceEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_SaveCopilotDataSourceEntityAsync_SuperOffice_WebApi_Data_CopilotDataSourceEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCopilotDataSourceEntityAsync
+  nameWithType: AIAgent.SaveCopilotDataSourceEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotDataSourceEntityAsync_SuperOffice_WebApi_Data_CopilotDataSourceEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, RequestOptions)
+  nameWithType: IAIAgent.SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotDataSourceEntityAsync_SuperOffice_WebApi_Data_CopilotDataSourceEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotDataSourceEntityAsync_SuperOffice_WebApi_Data_CopilotDataSourceEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_DeleteCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteCopilotDataSourceEntityAsync
+  nameWithType: AIAgent.DeleteCopilotDataSourceEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotDataSourceEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteCopilotDataSourceEntityAsync(int, RequestOptions)
+  nameWithType: IAIAgent.DeleteCopilotDataSourceEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.DeleteCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_CreateDefaultCopilotEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCopilotEntityAsync
+  nameWithType: AIAgent.CreateDefaultCopilotEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCopilotEntityAsync(RequestOptions)
+  nameWithType: IAIAgent.CreateDefaultCopilotEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateDefaultCopilotEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CopilotEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CopilotEntity>
+  nameWithType: Task<CopilotEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CopilotEntity>
+  nameWithType.vb: Task(Of CopilotEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CopilotEntity)
+  name.vb: Task(Of CopilotEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotEntity.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_SaveCopilotEntityAsync_SuperOffice_WebApi_Data_CopilotEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCopilotEntityAsync
+  nameWithType: AIAgent.SaveCopilotEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotEntityAsync_SuperOffice_WebApi_Data_CopilotEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCopilotEntityAsync(CopilotEntity, RequestOptions)
+  nameWithType: IAIAgent.SaveCopilotEntityAsync(CopilotEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotEntityAsync_SuperOffice_WebApi_Data_CopilotEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SaveCopilotEntityAsync_SuperOffice_WebApi_Data_CopilotEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.CopilotEntity
+  commentId: T:SuperOffice.WebApi.Data.CopilotEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html
+  name: CopilotEntity
+  nameWithType: CopilotEntity
+  fullName: SuperOffice.WebApi.Data.CopilotEntity
+- uid: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_DeleteCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteCopilotEntityAsync
+  nameWithType: AIAgent.DeleteCopilotEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.DeleteCopilotEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteCopilotEntityAsync(int, RequestOptions)
+  nameWithType: IAIAgent.DeleteCopilotEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.DeleteCopilotEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteCopilotEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.DeleteCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_DeleteCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.AIAgent.SummarizeTextAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.SummarizeTextAsync
   isExternal: true
@@ -2525,25 +3362,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: SuperOffice.WebApi.RequestOptions
-  commentId: T:SuperOffice.WebApi.RequestOptions
-  parent: SuperOffice.WebApi
-  isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{System.String}
   commentId: T:System.Threading.Tasks.Task{System.String}
   parent: System.Threading.Tasks
@@ -2579,71 +3397,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
-  - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.AIAgent.ExpandTextAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.ExpandTextAsync
   isExternal: true
@@ -2804,43 +3557,6 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.WebApi.Data.AiTextStyle
-- uid: SuperOffice.WebApi.Data
-  commentId: N:SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.WebApi.Data
-  nameWithType: SuperOffice.WebApi.Data
-  fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.AIAgent.CreateTextForAppointmentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.CreateTextForAppointmentAsync
   isExternal: true
@@ -3742,14 +4458,253 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_GetCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCopilotDataSourceEntityAsync
+  nameWithType: AIAgent.GetCopilotDataSourceEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetCopilotDataSourceEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCopilotDataSourceEntityAsync(int, RequestOptions)
+  nameWithType: IAIAgent.GetCopilotDataSourceEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.GetCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCopilotDataSourceEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCopilotDataSourceEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotDataSourceEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_GetCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCopilotEntityAsync
+  nameWithType: AIAgent.GetCopilotEntityAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCopilotEntityAsync(int, RequestOptions)
+  nameWithType: IAIAgent.GetCopilotEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.GetCopilotEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCopilotEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCopilotEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetCopilotEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_GetFormDesignFromImageAsync_System_Byte___SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignFromImageAsync
+  nameWithType: AIAgent.GetFormDesignFromImageAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromImageAsync_System_Byte___SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignFromImageAsync(byte[], RequestOptions)
+  nameWithType: IAIAgent.GetFormDesignFromImageAsync(byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.GetFormDesignFromImageAsync(Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignFromImageAsync(Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: GetFormDesignFromImageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromImageAsync_System_Byte___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: GetFormDesignFromImageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromImageAsync_System_Byte___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_GetFormDesignFromUrlAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignFromUrlAsync
+  nameWithType: AIAgent.GetFormDesignFromUrlAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromUrlAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignFromUrlAsync(string, RequestOptions)
+  nameWithType: IAIAgent.GetFormDesignFromUrlAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.GetFormDesignFromUrlAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignFromUrlAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetFormDesignFromUrlAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromUrlAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetFormDesignFromUrlAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignFromUrlAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.AIAgent.DetectLanguageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.DetectLanguageAsync
   isExternal: true

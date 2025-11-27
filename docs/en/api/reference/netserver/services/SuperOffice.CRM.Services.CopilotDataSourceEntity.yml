@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  commentId: T:SuperOffice.CRM.Services.CopilotDataSourceEntity
+  id: CopilotDataSourceEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Entity for Copilot data source
+
+    <p></p>
+
+    Carrier object for CopilotDataSourceEntity.
+
+    Services for the CopilotDataSourceEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    Get CopilotDataSourceEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new AIAgent();
+       var copilotDataSourceEntity = agent.GetCopilotDataSourceEntity( 123 );
+    }</code></pre>
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+
+      public class CopilotDataSourceEntity : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+
+      Public Class CopilotDataSourceEntity Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceEntity()
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceEntity()
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceEntity()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public CopilotDataSourceEntity()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor*
+  nameWithType.vb: CopilotDataSourceEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.CopilotDataSourceEntity.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CopilotDataSourceEntity.ToString()
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString*
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: CopilotDataSourceEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString*
+  nameWithType.vb: CopilotDataSourceEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+  id: CopilotDataSourceId
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceId
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceId
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int CopilotDataSourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CopilotDataSourceId As Integer
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+  id: CopilotDataSourceType
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceType
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Type of copilot data source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CopilotDataSourceType CopilotDataSourceType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.CopilotDataSourceType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CopilotDataSourceType As CopilotDataSourceType
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+  id: CopilotId
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotId
+  nameWithType: CopilotDataSourceEntity.CopilotId
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The associated copilot
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int CopilotId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CopilotId As Integer
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CopilotDataSourceEntity.Description
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Description of data source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CopilotDataSourceEntity.Name
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of data source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+  commentId: P:SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+  id: Settings
+  parent: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: CopilotDataSourceEntity.Settings
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Collection of data source settings
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CopilotDataSourceSetting[] Settings { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CopilotDataSourceSetting[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Settings As CopilotDataSourceSetting()
+  overload: SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity__ctor
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceEntity
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceEntity
+  nameWithType.vb: CopilotDataSourceEntity.New
+  fullName.vb: SuperOffice.CRM.Services.CopilotDataSourceEntity.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_ToString
+  name: ToString
+  nameWithType: CopilotDataSourceEntity.ToString
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_CopilotDataSourceId
+  name: CopilotDataSourceId
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceId
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_CopilotDataSourceType
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceEntity.CopilotDataSourceType
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotDataSourceType
+- uid: SuperOffice.Data.CopilotDataSourceType
+  commentId: '!:SuperOffice.Data.CopilotDataSourceType'
+  isExternal: true
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.Data.CopilotDataSourceType
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_CopilotId
+  name: CopilotId
+  nameWithType: CopilotDataSourceEntity.CopilotId
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.CopilotId
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Description*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_Description
+  name: Description
+  nameWithType: CopilotDataSourceEntity.Description
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Description
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_Name
+  name: Name
+  nameWithType: CopilotDataSourceEntity.Name
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Name
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings*
+  commentId: Overload:SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html#SuperOffice_CRM_Services_CopilotDataSourceEntity_Settings
+  name: Settings
+  nameWithType: CopilotDataSourceEntity.Settings
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity.Settings
+- uid: SuperOffice.CRM.Services.CopilotDataSourceSetting[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceSetting.html
+  name: CopilotDataSourceSetting[]
+  nameWithType: CopilotDataSourceSetting[]
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceSetting[]
+  nameWithType.vb: CopilotDataSourceSetting()
+  fullName.vb: SuperOffice.CRM.Services.CopilotDataSourceSetting()
+  name.vb: CopilotDataSourceSetting()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceSetting
+    name: CopilotDataSourceSetting
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotDataSourceSetting.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceSetting
+    name: CopilotDataSourceSetting
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotDataSourceSetting.html
+  - name: (
+  - name: )

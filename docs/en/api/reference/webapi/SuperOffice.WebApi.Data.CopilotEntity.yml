@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CopilotEntity
+  commentId: T:SuperOffice.WebApi.Data.CopilotEntity
+  id: CopilotEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CopilotEntity.#ctor
+  - SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+  - SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+  - SuperOffice.WebApi.Data.CopilotEntity.Name
+  langs:
+  - csharp
+  - vb
+  name: CopilotEntity
+  nameWithType: CopilotEntity
+  fullName: SuperOffice.WebApi.Data.CopilotEntity
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for CopilotEntity.
+
+    Entity for Copilot configuration
+  example:
+  - >-
+    Get CopilotEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new AIAgent(configuration);
+
+    var copilotEntity = agent.GetCopilotEntity( 123 );</code></pre>
+  syntax:
+    content: 'public class CopilotEntity : Carrier'
+    content.vb: Public Class CopilotEntity Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.CopilotEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CopilotEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CopilotEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotEntity()
+  nameWithType: CopilotEntity.CopilotEntity()
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotEntity()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public CopilotEntity()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.CopilotEntity.#ctor*
+  nameWithType.vb: CopilotEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.CopilotEntity.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+  commentId: P:SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+  id: CopilotId
+  parent: SuperOffice.WebApi.Data.CopilotEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotId
+  nameWithType: CopilotEntity.CopilotId
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Primary key
+  example: []
+  syntax:
+    content: public virtual int CopilotId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CopilotId As Integer
+  overload: SuperOffice.WebApi.Data.CopilotEntity.CopilotId*
+- uid: SuperOffice.WebApi.Data.CopilotEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.CopilotEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CopilotEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CopilotEntity.Name
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.Name
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of copilot
+  example: []
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CopilotEntity.Name*
+- uid: SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+  commentId: P:SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+  id: CopilotDataSources
+  parent: SuperOffice.WebApi.Data.CopilotEntity
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSources
+  nameWithType: CopilotEntity.CopilotDataSources
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Data sources
+  example: []
+  syntax:
+    content: public virtual CopilotDataSourceEntity[] CopilotDataSources { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceEntity[]
+    content.vb: Public Overridable Property CopilotDataSources As CopilotDataSourceEntity()
+  overload: SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources*
+references:
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CopilotEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CopilotEntity.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html#SuperOffice_WebApi_Data_CopilotEntity__ctor
+  name: CopilotEntity
+  nameWithType: CopilotEntity.CopilotEntity
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotEntity
+  nameWithType.vb: CopilotEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.CopilotEntity.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.CopilotEntity.CopilotId*
+  commentId: Overload:SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html#SuperOffice_WebApi_Data_CopilotEntity_CopilotId
+  name: CopilotId
+  nameWithType: CopilotEntity.CopilotId
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.CopilotEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CopilotEntity.Name
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html#SuperOffice_WebApi_Data_CopilotEntity_Name
+  name: Name
+  nameWithType: CopilotEntity.Name
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources*
+  commentId: Overload:SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotEntity.html#SuperOffice_WebApi_Data_CopilotEntity_CopilotDataSources
+  name: CopilotDataSources
+  nameWithType: CopilotEntity.CopilotDataSources
+  fullName: SuperOffice.WebApi.Data.CopilotEntity.CopilotDataSources
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  name: CopilotDataSourceEntity[]
+  nameWithType: CopilotDataSourceEntity[]
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceEntity[]
+  nameWithType.vb: CopilotDataSourceEntity()
+  fullName.vb: SuperOffice.WebApi.Data.CopilotDataSourceEntity()
+  name.vb: CopilotDataSourceEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CopilotDataSourceEntity.html
+  - name: (
+  - name: )

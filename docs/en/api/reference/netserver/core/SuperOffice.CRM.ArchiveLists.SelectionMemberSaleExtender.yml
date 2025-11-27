@@ -71,6 +71,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSoldReason
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colNumber
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasStakeholders
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasQuote
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasGuide
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDescription
@@ -710,6 +711,14 @@ references:
   name: _colHasStakeholders
   nameWithType: SaleExtenderBase._colHasStakeholders
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasStakeholders
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colStakeholdersEnabled
+  name: _colStakeholdersEnabled
+  nameWithType: SaleExtenderBase._colStakeholdersEnabled
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStakeholdersEnabled
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasQuote
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasQuote
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase

@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Name
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.RuntimeDefinition
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.SShipmentAddrId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.SenderNr
@@ -734,6 +735,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property WorkflowInstanceId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId*
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
+  id: OwnerLock
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnerLock
+  nameWithType: SShipmentAddrTableInfo.OwnerLock
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'owner_lock' in table 's_shipment_addr': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    A guid to set when trying to send to that address, to ensure no other ejsender also try to send it
+  example: []
+  syntax:
+    content: public StringFieldInfo OwnerLock { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property OwnerLock As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock*
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   id: ShipmentId_InnerJoin_SShipment
@@ -2073,6 +2100,13 @@ references:
   name: WorkflowInstanceId
   nameWithType: SShipmentAddrTableInfo.WorkflowInstanceId
   fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
+  isExternal: true
+  href: SuperOffice.CRM.Data.SShipmentAddrTableInfo.html#SuperOffice_CRM_Data_SShipmentAddrTableInfo_OwnerLock
+  name: OwnerLock
+  nameWithType: SShipmentAddrTableInfo.OwnerLock
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.OwnerLock
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo
   commentId: T:SuperOffice.CRM.Data.SShipmentTableInfo
   parent: SuperOffice.CRM.Data

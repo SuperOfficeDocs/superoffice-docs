@@ -50,6 +50,7 @@ items:
   - SuperOffice.WebApi.Data.Associate
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
+  - SuperOffice.WebApi.Data.AutomatedCategoryUpdate
   - SuperOffice.WebApi.Data.Batch
   - SuperOffice.WebApi.Data.BatchTaskInfo
   - SuperOffice.WebApi.Data.BlobEntity
@@ -87,6 +88,9 @@ items:
   - SuperOffice.WebApi.Data.ContactPersonId
   - SuperOffice.WebApi.Data.ContactRelationEntity
   - SuperOffice.WebApi.Data.ControlInfo
+  - SuperOffice.WebApi.Data.CopilotDataSourceEntity
+  - SuperOffice.WebApi.Data.CopilotDataSourceSetting
+  - SuperOffice.WebApi.Data.CopilotEntity
   - SuperOffice.WebApi.Data.Country
   - SuperOffice.WebApi.Data.Credential
   - SuperOffice.WebApi.Data.CredentialType

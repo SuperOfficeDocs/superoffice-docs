@@ -50,6 +50,7 @@ items:
   - SuperOffice.Exceptions.SoDbAccessException
   - SuperOffice.Exceptions.SoDuplicateException
   - SuperOffice.Exceptions.SoFileNotFoundException
+  - SuperOffice.Exceptions.SoFunctionRightException
   - SuperOffice.Exceptions.SoIllegalOperationException
   - SuperOffice.Exceptions.SoIllegalXmlException
   - SuperOffice.Exceptions.SoInvalidArgumentException
