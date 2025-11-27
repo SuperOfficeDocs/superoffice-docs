@@ -7,8 +7,8 @@ Content-Type: application/json; charset=utf-8
   "Tickets": [
     {
       "TicketId": 931,
-      "TicketStatus": 652,
-      "Title": "unde",
+      "TicketStatus": 2,
+      "Title": "Software license renewal inquiry",
       "Registered": "2021-01-19T10:10:59.4903616+01:00",
       "IconHint": "debitis"
     },
@@ -59,13 +59,13 @@ Content-Type: application/json; charset=utf-8
   "Sales": [
     {
       "SaleId": 941,
-      "SaleDate": "2012-07-30T10:10:59.4903616+02:00",
-      "Probability": 58,
-      "Heading": "totam",
-      "Amount": 14761.14,
-      "Currency": "numquam",
-      "AmountInBaseCurrency": 5058.276,
-      "Status": "Lost",
+      "SaleDate": "2024-06-30",
+      "Probability": 85,
+      "Heading": "Enterprise software upgrade",
+      "Amount": 125000.00,
+      "Currency": "USD",
+      "AmountInBaseCurrency": 125000.00,
+      "Status": "Open",
       "Completed": "Completed",
       "Registered": "2024-08-23T10:10:59.4903616+02:00"
     }

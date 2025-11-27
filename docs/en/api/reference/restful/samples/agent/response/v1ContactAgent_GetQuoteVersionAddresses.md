@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 21859.649999999998,
-    "Wgs84Longitude": 25385.399999999998,
+    "Wgs84Latitude": 40.7128,
+    "Wgs84Longitude": -74.0060,
     "LocalizedAddress": [
       [
         {
-          "Name": "Spinka, Cummings and Ankunding",
-          "Value": "rerum",
-          "Tooltip": "voluptatem",
-          "Label": "nihil",
-          "ValueLength": 171,
-          "AddressType": "corporis",
+          "Name": "Street Address",
+          "Value": "350 Fifth Avenue",
+          "Tooltip": "Billing address street",
+          "Label": "Address",
+          "ValueLength": 17,
+          "AddressType": "Street",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
@@ -27,12 +27,12 @@ Content-Type: application/json; charset=utf-8
       ],
       [
         {
-          "Name": "Wintheiser, Runolfsdottir and Bruen",
-          "Value": "architecto",
-          "Tooltip": "sequi",
-          "Label": "voluptatem",
-          "ValueLength": 628,
-          "AddressType": "voluptates",
+          "Name": "City",
+          "Value": "New York",
+          "Tooltip": "City name",
+          "Label": "City",
+          "ValueLength": 8,
+          "AddressType": "City",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {

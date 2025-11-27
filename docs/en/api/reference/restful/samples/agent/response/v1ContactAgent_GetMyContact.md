@@ -42,7 +42,7 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 666,
-      "Name": "Donnelly-Hodkiewicz",
+      "Name": "Manufacturing Excellence Network",
       "ToolTip": "Iste qui beatae ut eos voluptatem facere debitis.",
       "Deleted": true,
       "Rank": 361,
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "Source": 146,
   "ActiveErpLinks": 999,
   "BounceEmails": [
-    "maegan.walker@smithamterry.us",
-    "kaycee_fritsch@brakus.uk"
+    "old-address@globalind.com",
+    "discontinued@globalind.com"
   ],
   "Domains": [
     "harum",

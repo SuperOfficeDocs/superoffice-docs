@@ -4,16 +4,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 975,
-  "Name": "Buckridge-Thiel",
-  "Department": "",
-  "CountryId": 778,
-  "Number2": "1084695",
-  "DirectPhone": "1-468-986-3864 x50742",
-  "URL": "http://www.example.com/",
-  "EmailAddress": "dejon@king.co.uk",
-  "BusinessName": "Information Technology",
+  "Name": "Transport & Logistics Group",
+  "Department": "Fleet Management",
+  "CountryId": 276,
+  "Number2": "20011",
+  "DirectPhone": "+49-30-555-0178",
+  "URL": "https://www.transportlogistics.de",
+  "EmailAddress": "info@transportlogistics.de",
+  "BusinessName": "Transportation",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Mercedes Brakus",
+  "AssociateFullName": "Michael Thompson",
   "Address": null
 }
 ```

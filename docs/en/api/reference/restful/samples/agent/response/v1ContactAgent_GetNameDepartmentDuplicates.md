@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Dibbert, Macejkovic and Haley",
-    "SoPrimaryKey": 203,
-    "EntryName": "Casper-Boehm",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Bernier, Kerluke and Nitzsche",
+    "RuleName": "DuplicateNameDepartment",
+    "SoPrimaryKey": 236,
+    "EntryName": "Acme Corporation - Sales",
+    "EntryIdentifier": "Acme Corporation|Sales and Marketing",
+    "RuleDisplayName": "Name and Department Match",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

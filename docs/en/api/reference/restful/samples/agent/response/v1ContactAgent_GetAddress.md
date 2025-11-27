@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24044.048,
-  "Wgs84Longitude": 14748.604,
+  "Wgs84Latitude": 37.7749,
+  "Wgs84Longitude": -122.4194,
   "LocalizedAddress": [
     [
       {
-        "Name": "Abshire, O'Connell and Gerlach",
-        "Value": "et",
-        "Tooltip": "qui",
-        "Label": "sit",
-        "ValueLength": 711,
-        "AddressType": "commodi",
+        "Name": "Street Address",
+        "Value": "123 Market Street",
+        "Tooltip": "Street address",
+        "Label": "Address",
+        "ValueLength": 18,
+        "AddressType": "Street",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
