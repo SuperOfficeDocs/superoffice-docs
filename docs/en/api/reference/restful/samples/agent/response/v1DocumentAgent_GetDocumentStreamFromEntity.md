@@ -2,5 +2,5 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"GIF89....File contents as raw bytes..."
+"PK...Proposal_Acme_Corp_2024.docx...Document stream as raw bytes..."
 ```

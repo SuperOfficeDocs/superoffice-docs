@@ -2,5 +2,5 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sint"
+"temp_doc_20240315_142536.tmp"
 ```

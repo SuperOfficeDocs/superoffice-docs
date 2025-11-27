@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Glover, Jewess and Ziemann",
-    "DisplayName": "Stehr, Jones and Dicki",
-    "DisplayTooltip": "itaque",
-    "IconHint": "illum",
+    "Name": "EditDocument",
+    "DisplayName": "Edit Document",
+    "DisplayTooltip": "Open document for editing in Microsoft Word",
+    "IconHint": "edit",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Glover, Jewess and Ziemann",
-    "DisplayName": "Stehr, Jones and Dicki",
-    "DisplayTooltip": "itaque",
-    "IconHint": "illum",
-    "ReturnType": "CustomGui"
+    "Name": "ViewDocument",
+    "DisplayName": "View Document",
+    "DisplayTooltip": "Open document in read-only mode",
+    "IconHint": "view",
+    "ReturnType": "None"
   }
 ]
 ```

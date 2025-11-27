@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SuggestedDocumentId": 302,
-  "Name": "Braun, Eichmann and Crona",
-  "Tooltip": "suscipit",
+  "Name": "Sales Proposal Template",
+  "Tooltip": "Use this template for creating sales proposals",
   "Rank": 298,
   "DoctmplId": 331,
-  "Header": "vitae",
-  "OurRef": "eligendi",
+  "Header": "Sales Proposal",
+  "OurRef": "TMPL-PROPOSAL-001",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,

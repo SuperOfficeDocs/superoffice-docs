@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SuggestedDocumentId": 973,
-  "Name": "Rice, Collins and Fadel",
-  "Tooltip": "soluta",
+  "Name": "Contract Agreement Template",
+  "Tooltip": "Use this template for standard contract agreements",
   "Rank": 949,
   "DoctmplId": 471,
-  "Header": "sunt",
-  "OurRef": "consequatur",
-  "Deleted": true,
+  "Header": "Contract Agreement",
+  "OurRef": "TMPL-CONTRACT-001",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,

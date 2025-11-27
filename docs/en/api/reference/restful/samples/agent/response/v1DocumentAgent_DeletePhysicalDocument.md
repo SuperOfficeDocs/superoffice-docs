@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "autem",
-  "VersionId": "rem",
-  "Success": false,
-  "Type": "CustomGui",
-  "Value": "dolor",
-  "AdditionalInfo": "ut"
+  "ExternalReference": "doc-deleted-2024-03-15",
+  "VersionId": "v2.0",
+  "Success": true,
+  "Type": "None",
+  "Value": "Document deleted successfully",
+  "AdditionalInfo": "Physical file removed from storage"
 }
 ```
