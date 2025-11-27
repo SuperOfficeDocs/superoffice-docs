@@ -30,6 +30,7 @@ items:
   - SuperOffice.Data.CalMethod
   - SuperOffice.Data.CalReplyStatus
   - SuperOffice.Data.CategoryGroup
+  - SuperOffice.Data.CategoryUpdateTrigger
   - SuperOffice.Data.CcTemplateType
   - SuperOffice.Data.ChangePasswordType
   - SuperOffice.Data.ChatMessageSpecialType
@@ -45,6 +46,7 @@ items:
   - SuperOffice.Data.ConceptualImageType
   - SuperOffice.Data.ConfigType
   - SuperOffice.Data.ContactPersonBoardEntity
+  - SuperOffice.Data.CopilotDataSourceType
   - SuperOffice.Data.CredentialControlType
   - SuperOffice.Data.CredentialUsage
   - SuperOffice.Data.CrmActorType
@@ -252,6 +254,7 @@ items:
   - SuperOffice.Data.ShowWindowState
   - SuperOffice.Data.SoCommand
   - SuperOffice.Data.SoConnection
+  - SuperOffice.Data.SoConnection.ConnectionInfo
   - SuperOffice.Data.SoDataReader
   - SuperOffice.Data.SoDatabase
   - SuperOffice.Data.SoDatabase.Version
@@ -300,6 +303,7 @@ items:
   - SuperOffice.Data.TicketPriorityFlags
   - SuperOffice.Data.TicketPriorityStatus
   - SuperOffice.Data.TicketReadStatus
+  - SuperOffice.Data.TicketRelationType
   - SuperOffice.Data.TicketSecurityLevel
   - SuperOffice.Data.TicketStatusTimeCounter
   - SuperOffice.Data.TimeKeepingType
@@ -1896,6 +1900,14 @@ references:
   name: ExternalOwner
   nameWithType: ExternalOwner
   fullName: SuperOffice.Data.ExternalOwner
+- uid: SuperOffice.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.Data.CategoryUpdateTrigger
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.Data.CategoryUpdateTrigger
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -2080,6 +2092,14 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.Data.BadgeType
+- uid: SuperOffice.Data.TicketRelationType
+  commentId: T:SuperOffice.Data.TicketRelationType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketRelationType.html
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.Data.TicketRelationType
 - uid: SuperOffice.Data.NotifyType
   commentId: T:SuperOffice.Data.NotifyType
   parent: SuperOffice.Data
@@ -2112,6 +2132,14 @@ references:
   name: EjScriptVerb
   nameWithType: EjScriptVerb
   fullName: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.CopilotDataSourceType
+  commentId: T:SuperOffice.Data.CopilotDataSourceType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CopilotDataSourceType.html
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.Data.CopilotDataSourceType
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data
@@ -3163,6 +3191,33 @@ references:
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
+- uid: SuperOffice.Data.SoConnection.ConnectionInfo
+  commentId: T:SuperOffice.Data.SoConnection.ConnectionInfo
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html
+  name: SoConnection.ConnectionInfo
+  nameWithType: SoConnection.ConnectionInfo
+  fullName: SuperOffice.Data.SoConnection.ConnectionInfo
+  spec.csharp:
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.html
+  - name: .
+  - uid: SuperOffice.Data.SoConnection.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.ConnectionInfo.html
+  spec.vb:
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.html
+  - name: .
+  - uid: SuperOffice.Data.SoConnection.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+    href: SuperOffice.Data.SoConnection.ConnectionInfo.html
 - uid: SuperOffice.Data.SoDatabase
   commentId: T:SuperOffice.Data.SoDatabase
   parent: SuperOffice.Data

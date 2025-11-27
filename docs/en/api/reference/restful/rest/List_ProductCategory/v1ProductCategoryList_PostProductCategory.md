@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProductCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 176,
-  "Name": "Wuckert-King",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 918,
-  "Rank": 568
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_PostProductCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 521,
-  "Name": "Botsford-Corwin",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "UdListDefinitionId": 18,
-  "Rank": 653,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_PostProductCategory.md)]

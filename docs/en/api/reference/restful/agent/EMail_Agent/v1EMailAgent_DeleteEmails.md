@@ -67,27 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/DeleteEmails
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Ids": [
-    967,
-    828
-  ],
-  "MoveToFolder": "fugiat"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_DeleteEmails.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_DeleteEmails.md)]

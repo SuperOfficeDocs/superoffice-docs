@@ -85,46 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SaveQuote
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Quote": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SaveQuote.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteId": 556,
-  "SaleId": 882,
-  "QuoteConnectionId": 314,
-  "ERPQuoteKey": "hic",
-  "ERPOrderKey": "accusantium",
-  "ActiveQuoteVersionId": 837,
-  "AcceptedQuoteAlternativeId": 943,
-  "UseValuesFromQuote": 418,
-  "DocumentId": 952,
-  "PoNumber": "886355",
-  "OrderComment": "neque",
-  "PreferredEmailCulture": "daryl@feest.name",
-  "ActiveQuoteVersion": null,
-  "FavoriteQuoteAlternative": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SaveQuote.md)]

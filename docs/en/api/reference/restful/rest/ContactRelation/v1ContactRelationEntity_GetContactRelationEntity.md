@@ -89,50 +89,8 @@ ContactRelationEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Relation/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_GetContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactRelationEntity found.
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 27 Oct 2019 02:30:52 G10T
-
-{
-  "SourceContactId": 215,
-  "SourcePersonId": 471,
-  "DestinationContactId": 366,
-  "DestinationPersonId": 608,
-  "RelationId": 33,
-  "Comment": "rerum",
-  "RelationDefinitionId": 31,
-  "Reversed": 396,
-  "UpdatedDate": "2019-10-27T02:30:52.506791+01:00",
-  "CreatedDate": "2003-02-21T02:30:52.506791+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Altenwerth LLC",
-  "SourcePersonName": "Walter, Hayes and Doyle",
-  "DestinationContactName": "Schowalter-Legros",
-  "DestinationPersonName": "Kling, Konopelski and Jenkins",
-  "ActiveText": "sint",
-  "PassiveText": "reprehenderit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_GetContactRelationEntity.md)]

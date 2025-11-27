@@ -78,50 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentPluginId": 709,
-  "IncludeEmails": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentMigrationAgent_GetForAllDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "NumDocumentsOmitted": 985,
-  "NumDocumentsAlreadyMigrated": 412,
-  "Documents": [
-    {
-      "DocumentId": 342,
-      "ContactId": 55,
-      "PersonId": 658,
-      "SaleId": 776,
-      "ProjectId": 7,
-      "DocTmplId": 980,
-      "AssociateId": 300,
-      "UserGroupId": 390,
-      "VisibleForId": 950
-    }
-  ],
-  "Associates": [
-    {
-      "AssociateId": 846,
-      "EmailAddress": "gretchen@goodwin.co.uk"
-    },
-    {
-      "AssociateId": 846,
-      "EmailAddress": "gretchen@goodwin.co.uk"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentMigrationAgent_GetForAllDocuments.md)]

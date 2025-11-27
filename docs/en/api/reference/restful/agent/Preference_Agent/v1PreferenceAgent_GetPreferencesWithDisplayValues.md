@@ -82,54 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Specifications": [
-    {
-      "Section": "et",
-      "Key": "accusamus"
-    },
-    {
-      "Section": "et",
-      "Key": "accusamus"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferencesWithDisplayValues.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Level": "Database",
-    "RawValue": "omnis",
-    "Specification": null,
-    "DisplayValue": "maxime",
-    "DisplayTooltip": "aliquam",
-    "DisplayType": "Bool",
-    "TabOrder": null,
-    "TargetId": 195,
-    "PrefDescId": 996,
-    "TableName": "Ziemann-Morissette",
-    "UserPreferenceId": 493,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferencesWithDisplayValues.md)]

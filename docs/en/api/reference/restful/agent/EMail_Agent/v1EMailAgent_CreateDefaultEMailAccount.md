@@ -68,39 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailAccount.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EMailAccountId": 605,
-  "EMailAddress": "rerum",
-  "AssociateId": 109,
-  "IncomingCredentials": null,
-  "OutgoingCredentials": null,
-  "AccountStatus": 188,
-  "ErrorCount": 190,
-  "ErrorReason": "",
-  "InboxFolder": "iure",
-  "SentFolder": "quae",
-  "SimpleMode": 202,
-  "LastFetch": "2020-12-27T02:30:47.2725845+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailAccount.md)]

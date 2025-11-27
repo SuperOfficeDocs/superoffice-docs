@@ -81,55 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteLineConfigurations": [
-    {
-      "QuoteLineConfigurationId": 153,
-      "FieldName": "Batz Group",
-      "Label": "adipisci",
-      "Tooltip": "eos",
-      "Editable": false,
-      "InUse": false,
-      "Mandatory": false,
-      "Rank": 308,
-      "RestrictEdit": false
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SaveQuoteLineConfigurations.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteLineConfigurationId": 173,
-    "FieldName": "Jakubowski-Abernathy",
-    "Label": "tempore",
-    "Tooltip": "neque",
-    "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 269,
-    "RestrictEdit": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 537
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SaveQuoteLineConfigurations.md)]

@@ -69,39 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_DefaultRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 502,
-  "Name": "King-Ortiz",
-  "Tooltip": "modi",
-  "RoleType": "Anonymous",
-  "Deleted": 828,
-  "Rank": 831,
-  "Created": "2000-07-14T02:30:52.8349052+02:00",
-  "UseCategories": 621,
-  "CreatedBy": null,
-  "Updated": "2024-07-28T02:30:52.8349052+02:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_DefaultRoleEntity.md)]

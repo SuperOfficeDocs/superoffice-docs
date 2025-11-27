@@ -65,34 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 195,
-  "Name": "Auer-Franecki",
-  "Tooltip": "pariatur",
-  "Rank": 720,
-  "Rate": 30681.86,
-  "Units": 22053.958,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetCurrencyEntity.md)]

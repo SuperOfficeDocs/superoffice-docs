@@ -85,43 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetAttachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerId": 570,
-  "AttachmentId": "id"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Pre-emptive reciprocal budgetary management",
-  "Filename": "a",
-  "Size": 480,
-  "Type": "placeat",
-  "Encoding": "earum",
-  "Id": "iure",
-  "Disposition": "occaecati",
-  "IsSafeFileExtension": false,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetAttachment.md)]

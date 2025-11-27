@@ -63,6 +63,7 @@ items:
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
   - SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
   - SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  - SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
   - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
@@ -71,6 +72,7 @@ items:
   - SuperOffice.Data.SQL.ChatStatusFieldInfo
   - SuperOffice.Data.SQL.ChatTopicFlagFieldInfo
   - SuperOffice.Data.SQL.ConfigTypeFieldInfo
+  - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
@@ -167,6 +169,7 @@ items:
   - SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo
   - SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo
   - SuperOffice.Data.SQL.TicketReadStatusFieldInfo
+  - SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
   - SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
   - SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
   - SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo

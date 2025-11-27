@@ -75,6 +75,7 @@ items:
   - SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
   - SuperOffice.CRM.Data.AudienceLayoutTableInfo
   - SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+  - SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
   - SuperOffice.CRM.Data.AutosaveTableInfo
   - SuperOffice.CRM.Data.BaseTZLocationTableInfo
   - SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
@@ -114,6 +115,9 @@ items:
   - SuperOffice.CRM.Data.ContIntTableInfo
   - SuperOffice.CRM.Data.ContactInterestTableInfo
   - SuperOffice.CRM.Data.ContactTableInfo
+  - SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+  - SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+  - SuperOffice.CRM.Data.CopilotTableInfo
   - SuperOffice.CRM.Data.CounterValueTableInfo
   - SuperOffice.CRM.Data.CountryGroupLinkTableInfo
   - SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
@@ -530,6 +534,9 @@ items:
   - SuperOffice.CRM.Data.TicketLogChangeTableInfo
   - SuperOffice.CRM.Data.TicketLogTableInfo
   - SuperOffice.CRM.Data.TicketPriorityTableInfo
+  - SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+  - SuperOffice.CRM.Data.TicketRelationDefTableInfo
+  - SuperOffice.CRM.Data.TicketRelationTableInfo
   - SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
   - SuperOffice.CRM.Data.TicketStatusTableInfo
   - SuperOffice.CRM.Data.TicketTableInfo

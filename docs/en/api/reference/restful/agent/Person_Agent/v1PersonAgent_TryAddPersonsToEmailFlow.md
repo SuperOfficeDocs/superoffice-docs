@@ -68,30 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/TryAddPersonsToEmailFlow
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailFlowId": 327,
-  "PersonIds": [
-    137,
-    669
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_TryAddPersonsToEmailFlow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  true,
-  false
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_TryAddPersonsToEmailFlow.md)]

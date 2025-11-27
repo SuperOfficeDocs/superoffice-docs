@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=702
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=33
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -75,37 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetSystemEventEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 208,
-  "Scope": "Database",
-  "Eta": "2017-11-28T02:30:46.9288431+01:00",
-  "Eventkey": "reprehenderit",
-  "Eventmess": "sed",
-  "ExtraInfo": 177,
-  "Owner": 451,
-  "UpdatedCount": 971,
-  "Registered": "2009-06-03T02:30:46.9288431+02:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetSystemEventEntity.md)]

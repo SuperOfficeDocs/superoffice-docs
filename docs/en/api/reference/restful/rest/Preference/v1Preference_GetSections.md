@@ -65,67 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Preference
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Preference_GetSections.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 654,
-    "Name": "Hammes Group",
-    "ToolTip": "Magni reiciendis ea laudantium consequatur aperiam non.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "nobis",
-    "ChildItems": [
-      {
-        "Id": 203,
-        "Name": "Ratke-Krajcik",
-        "ToolTip": "Ea corporis numquam vel ex.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "cum",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 185,
-        "ExtraInfo": "amet",
-        "StyleHint": "aperiam",
-        "FullName": "Prof. Dejah Pearl Steuber",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 542
-          }
-        }
-      }
-    ],
-    "IconHint": "nihil",
-    "ColorBlock": 238,
-    "ExtraInfo": "non",
-    "StyleHint": "minus",
-    "FullName": "Ludwig Kuhlman",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 287
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1Preference_GetSections.md)]

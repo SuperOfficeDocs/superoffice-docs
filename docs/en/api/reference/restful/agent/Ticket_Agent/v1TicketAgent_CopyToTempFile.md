@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/CopyToTempFile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Filename": "aliquid",
-  "AttachmentId": 187
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_CopyToTempFile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"quia"
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_CopyToTempFile.md)]

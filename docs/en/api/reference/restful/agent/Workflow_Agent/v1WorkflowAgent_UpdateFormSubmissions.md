@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/UpdateFormSubmissions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "MaxCount": 957
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_UpdateFormSubmissions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-565
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_UpdateFormSubmissions.md)]

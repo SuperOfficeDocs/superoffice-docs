@@ -90,61 +90,8 @@ SaleEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/UdefLayout/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 488,
-  "ColumnId": 881,
-  "FieldDefault": "numquam",
-  "FieldHeight": 828,
-  "FieldLabel": "optio",
-  "FieldLeft": 786,
-  "FieldTop": 163,
-  "FieldType": "Checkbox",
-  "FieldWidth": 341,
-  "FormatMask": "ut",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 762,
-  "LabelLeft": 334,
-  "LabelTop": 70,
-  "LabelWidth": 421,
-  "LastVersionId": 534,
-  "ListTableId": 916,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 504,
-  "ProgId": "distinctio",
-  "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 297,
-  "TextLength": 195,
-  "Tooltip": "et",
-  "UdefIdentity": 420,
-  "UDListDefinitionId": 224,
-  "Justification": "Center",
-  "Version": 464,
-  "TemplateVariableName": "Dooley Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Klein-Hoeger",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 527
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetUdefFieldInfo.md)]

@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Business/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 473,
-    "Name": "Fay-O'Reilly",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 549
-  },
-  {
-    "Id": 473,
-    "Name": "Fay-O'Reilly",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 549
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_PutAllBusiness.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 244,
-    "Name": "Stiedemann, Corkery and O'Keefe",
-    "Tooltip": "quas",
-    "Deleted": true,
-    "UdListDefinitionId": 706,
-    "Rank": 820,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 266
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_PutAllBusiness.md)]

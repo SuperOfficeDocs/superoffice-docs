@@ -96,57 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CreateQuoteAlternative
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 482,
-  "QuoteAlternativeName": "Jaskolski Group",
-  "QuoteAlternativeDescription": "Programmable modular interface"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CreateQuoteAlternative.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 179,
-  "ERPQuoteAlternativeKey": "sit",
-  "QuoteVersionId": 878,
-  "Name": "Abbott-Harber",
-  "Description": "Face to face maximized capacity",
-  "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 6716.1619999999994,
-  "ERPDiscountAmount": 22188.719999999998,
-  "DiscountPercent": 9984.9239999999991,
-  "DiscountAmount": 5099.018,
-  "UserValueOverride": "DiscountAmount",
-  "VATInfo": "soluta",
-  "VAT": 10326.529999999999,
-  "EarningPercent": 31249.113999999998,
-  "EarningAmount": 20486.958,
-  "SubTotal": 16415.892,
-  "TotalPrice": 20499.494,
-  "ExtraField1": "est",
-  "ExtraField2": "ut",
-  "ExtraField3": "nisi",
-  "ExtraField4": "velit",
-  "ExtraField5": "omnis",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 374
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CreateQuoteAlternative.md)]

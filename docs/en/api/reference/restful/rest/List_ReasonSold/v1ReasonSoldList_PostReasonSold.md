@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ReasonSold/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 856,
-  "Name": "Rowe, Carroll and Mayert",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 634,
-  "Rank": 76
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_PostReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 759,
-  "Name": "Ernser, Deckow and Kertzmann",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 180,
-  "Rank": 822,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_PostReasonSold.md)]

@@ -79,69 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Import/PreviewImport
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ImportLines": [
-    {
-      "Values": [
-        "impedit",
-        "sint"
-      ],
-      "Selected": false,
-      "Operation": "ContactAdded",
-      "Type": "Contact",
-      "ExternalKey": "est"
-    },
-    {
-      "Values": [
-        "impedit",
-        "sint"
-      ],
-      "Selected": false,
-      "Operation": "ContactAdded",
-      "Type": "Contact",
-      "ExternalKey": "est"
-    }
-  ],
-  "ColumnDefinition": [
-    "in",
-    "ex"
-  ],
-  "Culture": "unde",
-  "Context": "dolor"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ImportAgent_PreviewImport.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Values": [
-      "vel",
-      "eos"
-    ],
-    "Selected": false,
-    "Operation": "ContactAdded",
-    "Type": "Contact",
-    "ExternalKey": "sit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 506
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ImportAgent_PreviewImport.md)]

@@ -69,27 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "alias",
-  "ProviderName": "Koss Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetAvailableRestrictionColumns.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "tempora",
-  "et"
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetAvailableRestrictionColumns.md)]

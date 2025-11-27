@@ -88,53 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleStakeholders
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 674
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleStakeholders.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "StakeholderRoleName": "Wehner-Schoen",
-    "Comment": "mollitia",
-    "StakeholderRoleId": 775,
-    "CountryId": 435,
-    "PersonId": 29,
-    "EmailDescription": "royal_braun@prohaska.name",
-    "EmailId": 521,
-    "EmailAddress": "fabian@barrowsmcdermott.info",
-    "PhoneId": 945,
-    "ContactName": "Mante, Grady and West",
-    "ContactId": 986,
-    "SaleId": 66,
-    "Mrmrs": "soluta",
-    "Firstname": "Ebony",
-    "MiddleName": "Larkin LLC",
-    "Lastname": "Gorczany",
-    "SaleStakeholderId": 927,
-    "Rank": 503,
-    "Phone": "128-303-4371 x20970",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleStakeholders.md)]

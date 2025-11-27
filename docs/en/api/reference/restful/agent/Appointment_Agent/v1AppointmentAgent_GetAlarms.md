@@ -74,71 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetAlarms
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 519
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetAlarms.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Alarms": [
-    {
-      "AppointmentId": 713,
-      "StartTime": "2002-06-09T02:30:46.5382305+02:00",
-      "EndDate": "2020-01-10T02:30:46.5382305+01:00",
-      "AlarmTime": "2022-02-20T02:30:46.5382305+01:00",
-      "PersonId": 600,
-      "PersonFullName": "Sadie Kling",
-      "ContactName": "Krajcik, Hessel and Walter",
-      "ProjectId": 953,
-      "ProjectName": "Roob, O'Hara and McCullough",
-      "AppointmentText": "sit",
-      "SaleId": 259,
-      "SaleName": "Lehner Inc and Sons",
-      "Location": "nemo",
-      "AppointmentType": "BookingForChecklist",
-      "ContactId": 445,
-      "AssignmentStatus": "Assigning",
-      "InvitationStatus": "Accepted",
-      "BookingType": "None",
-      "FormalName": "Hilpert, Lesch and Goldner",
-      "TaskName": "Gleason-Konopelski",
-      "ContactDepartment": "",
-      "ContactFullName": "Shea Rodrigo Thompson MD",
-      "JoinVideomeetUrl": "http://www.example.com/",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
-        }
-      }
-    }
-  ],
-  "PollingInterval": 913,
-  "SilentAfter": 517,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 658
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetAlarms.md)]

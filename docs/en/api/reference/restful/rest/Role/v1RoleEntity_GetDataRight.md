@@ -58,18 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_GetDataRight.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"esse"
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_GetDataRight.md)]

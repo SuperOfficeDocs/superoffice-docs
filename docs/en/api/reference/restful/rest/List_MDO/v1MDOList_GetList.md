@@ -32,9 +32,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=provident
-GET /api/v1/MDOList/{listname}?query=in
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=accusamus
+GET /api/v1/MDOList/{listname}?query=et
 ```
 
 
@@ -81,67 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/MDOList/{listname}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1MDOList_GetList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 697,
-    "Name": "Hahn Inc and Sons",
-    "ToolTip": "Sint voluptas ratione distinctio sunt.",
-    "Deleted": false,
-    "Rank": 811,
-    "Type": "vel",
-    "ChildItems": [
-      {
-        "Id": 635,
-        "Name": "Fahey LLC",
-        "ToolTip": "At aspernatur temporibus ut.",
-        "Deleted": false,
-        "Rank": 254,
-        "Type": "fuga",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "nihil",
-        "ColorBlock": 840,
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "FullName": "Dr. Loy Ruecker",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
-          }
-        }
-      }
-    ],
-    "IconHint": "ut",
-    "ColorBlock": 927,
-    "ExtraInfo": "aut",
-    "StyleHint": "iusto",
-    "FullName": "Mr. Irving Cremin",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 805
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MDOList_GetList.md)]

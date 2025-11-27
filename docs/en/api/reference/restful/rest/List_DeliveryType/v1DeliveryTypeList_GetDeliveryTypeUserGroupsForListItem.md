@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 485,
-    "Name": "Hintz LLC",
-    "ToolTip": "Vel nemo corporis ipsam laboriosam.",
-    "Deleted": false,
-    "Rank": 448,
-    "Type": "et",
-    "ColorBlock": 831,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2017-12-24T02:30:53.2723907+01:00",
-    "ChildItems": [
-      {
-        "Id": 490,
-        "Name": "Bergnaum Group",
-        "ToolTip": "Voluptatibus aliquam dolore.",
-        "Deleted": true,
-        "Rank": 356,
-        "Type": "est",
-        "ColorBlock": 359,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2016-09-05T02:30:53.2723907+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Miss Felicity Dickinson Jr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 378
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Alessia Corwin",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=165
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=483
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -87,49 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetExtAppEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetExtAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExtAppId": 645,
-  "Name": "Kshlerin, Welch and Feeney",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 994,
-  "Filename": "et",
-  "Parameters": "iusto",
-  "Workdir": "hic",
-  "ShowState": "AddressBar",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 427,
-  "WaitToFinish": false,
-  "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ab",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetExtAppEntity.md)]

@@ -168,73 +168,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetAvailableEntities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Sauer-Hoeger",
-  "Context": "nihil"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetAvailableEntities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 998,
-    "Name": "Breitenberg-Mann",
-    "ToolTip": "Dolor enim unde quia nostrum voluptas labore ut.",
-    "Deleted": false,
-    "Rank": 482,
-    "Type": "accusantium",
-    "ChildItems": [
-      {
-        "Id": 763,
-        "Name": "King Group",
-        "ToolTip": "Voluptatem dolor maxime cupiditate.",
-        "Deleted": true,
-        "Rank": 986,
-        "Type": "enim",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "deleniti",
-        "ColorBlock": 273,
-        "ExtraInfo": "et",
-        "StyleHint": "laboriosam",
-        "FullName": "Deontae Koelpin",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 663
-          }
-        }
-      }
-    ],
-    "IconHint": "quidem",
-    "ColorBlock": 675,
-    "ExtraInfo": "sit",
-    "StyleHint": "perspiciatis",
-    "FullName": "Prof. Arnold Maya Boyer",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetAvailableEntities.md)]

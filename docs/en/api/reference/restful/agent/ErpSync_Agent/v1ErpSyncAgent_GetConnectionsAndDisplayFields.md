@@ -82,66 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CrmActorType": "Contact",
-  "EntityId": 627
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetConnectionsAndDisplayFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ErpConnectionId": 294,
-    "ConnectionName": "Greenholt-Ruecker",
-    "Connected": false,
-    "ErpFields": [
-      {
-        "FieldKey": "omnis",
-        "Rank": 786,
-        "DisplayName": "Keebler Inc and Sons",
-        "DisplayDescription": "Enterprise-wide 4th generation support",
-        "FieldType": "Checkbox",
-        "ListName": "Rippin Inc and Sons",
-        "DefaultValue": "voluptas",
-        "MaxLength": 180,
-        "Access": "Mandatory",
-        "ShowInSearch": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 948
-          }
-        }
-      }
-    ],
-    "CrmActorType": "Contact",
-    "ErpActorType": "Customer",
-    "ErpActorTypes": [
-      "non",
-      "qui"
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 374
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetConnectionsAndDisplayFields.md)]

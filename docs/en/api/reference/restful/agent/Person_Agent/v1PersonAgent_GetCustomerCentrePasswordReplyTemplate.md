@@ -76,56 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 119
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetCustomerCentrePasswordReplyTemplate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReplyTemplateId": 929,
-  "PlainParsed": "et",
-  "HtmlParsed": "voluptas",
-  "Attachments": [
-    {
-      "AttachmentId": 183,
-      "Name": "Von, Dare and Hamill",
-      "ContentType": "quia",
-      "AttSize": 888,
-      "InlineImage": false,
-      "ContentId": "tenetur",
-      "AuthKey": "delectus",
-      "IsSafeFileExtension": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 622
-        }
-      }
-    }
-  ],
-  "Subject": "rerum",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetCustomerCentrePasswordReplyTemplate.md)]

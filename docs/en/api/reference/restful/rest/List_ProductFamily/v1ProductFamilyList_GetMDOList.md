@@ -27,8 +27,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=harum
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=totam
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductFamily/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 805,
-    "Name": "Stokes, Kertzmann and Graham",
-    "ToolTip": "Voluptas nam accusamus ab quo praesentium aut dolor.",
-    "Deleted": false,
-    "Rank": 552,
-    "Type": "aut",
-    "ChildItems": [
-      {
-        "Id": 312,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Dicta odio soluta libero ut.",
-        "Deleted": true,
-        "Rank": 551,
-        "Type": "laudantium",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sunt",
-        "ColorBlock": 780,
-        "ExtraInfo": "ea",
-        "StyleHint": "est",
-        "FullName": "Monserrate Schuster",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 49
-          }
-        }
-      }
-    ],
-    "IconHint": "eaque",
-    "ColorBlock": 756,
-    "ExtraInfo": "aliquam",
-    "StyleHint": "et",
-    "FullName": "Ms. Carmen Elena Considine MD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_GetMDOList.md)]

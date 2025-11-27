@@ -76,39 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetDuplicates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Goyette, Lubowitz and Pacocha"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Ankunding, Bashirian and Bradtke",
-    "SoPrimaryKey": 196,
-    "EntryName": "Marquardt Group",
-    "EntryIdentifier": "minima",
-    "RuleDisplayName": "Lesch, Hamill and Eichmann",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetDuplicates.md)]

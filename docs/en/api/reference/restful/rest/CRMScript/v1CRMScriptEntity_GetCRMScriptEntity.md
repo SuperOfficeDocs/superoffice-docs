@@ -92,72 +92,8 @@ CRMScriptEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/CRMScript/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CRMScriptEntity_GetCRMScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 CRMScriptEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 307,
-  "UniqueIdentifier": "non",
-  "Name": "Olson-Simonis",
-  "Description": "Expanded methodical knowledge user",
-  "IncludeId": "omnis",
-  "AccessKey": "ut",
-  "HierarchyId": 492,
-  "Source": "dolorem",
-  "SourceCode": "harum",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 542,
-  "Includes": [
-    33,
-    973
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 384,
-      "LineNumberTo": 374,
-      "Delta": 442,
-      "IncludeId": "sint",
-      "IncludedFrom": [
-        "tempora",
-        "earum"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 26
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2013-05-04T02:30:52.522416+02:00",
-  "RegisteredAssociateId": 579,
-  "Updated": "2009-01-06T02:30:52.522416+01:00",
-  "UpdatedAssociateId": 957,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CRMScriptEntity_GetCRMScriptEntity.md)]

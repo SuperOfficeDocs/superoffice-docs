@@ -86,85 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketPriority/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_GetTicketPriorityEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketPriorityId": 399,
-  "Name": "Schamberger, Jaskolski and Wiza",
-  "Status": "Deleted",
-  "Flags": "AlertSchedule",
-  "SortOrder": 582,
-  "TicketRead": "Continue",
-  "ChangedOwner": "Continue",
-  "TicketNewinfo": "Continue",
-  "TicketClosed": "Continue",
-  "TicketChangedPriority": "Continue",
-  "TicketNew": "Continue",
-  "Deadline": 894,
-  "MonStart": "2010-11-14T02:30:53.5223788+01:00",
-  "MonStop": "2011-07-06T02:30:53.5223788+02:00",
-  "TueStart": "2001-11-16T02:30:53.5223788+01:00",
-  "TueStop": "2003-10-10T02:30:53.5223788+02:00",
-  "WedStart": "2020-11-30T02:30:53.5223788+01:00",
-  "WedStop": "2005-01-25T02:30:53.5223788+01:00",
-  "ThuStart": "2003-03-02T02:30:53.5223788+01:00",
-  "ThuStop": "2009-04-23T02:30:53.5223788+02:00",
-  "FriStart": "2024-07-13T02:30:53.5223788+02:00",
-  "FriStop": "2012-12-31T02:30:53.5223788+01:00",
-  "SatStart": "2005-01-14T02:30:53.5223788+01:00",
-  "SatStop": "2008-10-05T02:30:53.5223788+02:00",
-  "SunStart": "2006-06-05T02:30:53.5223788+02:00",
-  "SunStop": "2013-12-08T02:30:53.5223788+01:00",
-  "NonDates": [
-    "voluptate",
-    "vel"
-  ],
-  "EscalationLevels": [
-    {
-      "TicketAlertId": 283,
-      "AlertLevel": 72,
-      "AlertTimeout": 956,
-      "Action": 775,
-      "DelegateTo": 407,
-      "ScriptId": 222,
-      "EmailTo": "unique@okonwolff.com",
-      "SmsTo": "iure",
-      "ReplyTemplateIdCustomer": 597,
-      "ReplyTemplateIdUser": 174,
-      "ReplyTemplateIdCatmast": 237,
-      "ReplyTemplateIdEmail": 749,
-      "RtiCustomerSms": 36,
-      "ReplyTemplateIdUserSms": 663,
-      "ReplyTemplateIdCatmastSms": 332,
-      "ReplyTemplateIdSms": 737,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 775
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_GetTicketPriorityEntity.md)]

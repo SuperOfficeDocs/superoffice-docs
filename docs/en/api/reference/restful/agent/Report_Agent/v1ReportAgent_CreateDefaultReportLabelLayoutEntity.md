@@ -65,39 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ReportAgent_CreateDefaultReportLabelLayoutEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReportLabelLayoutId": 835,
-  "Name": "Ferry Group",
-  "Description": "Multi-tiered 3rd generation application",
-  "Orientation": "Landscape",
-  "PaperWidth": 391,
-  "PaperHeight": 12,
-  "LeftMargin": 715,
-  "RightMargin": 266,
-  "TopMargin": 219,
-  "BottomMargin": 461,
-  "CountColumns": 55,
-  "CountRows": 586,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ReportAgent_CreateDefaultReportLabelLayoutEntity.md)]

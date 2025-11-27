@@ -63,32 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/UserGroup/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1UserGroupList_GetUserGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Value": "qui",
-  "Tooltip": "sequi",
-  "Id": 166,
-  "Rank": 923,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1UserGroupList_GetUserGroup.md)]

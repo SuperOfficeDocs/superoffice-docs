@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_CreateDefaultUntrustedCredentials.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ValidFrom": "2000-08-05T02:30:48.1006818+02:00",
-  "ValidTo": "2009-08-07T02:30:48.1006818+02:00",
-  "Comment": "dolorem",
-  "SecretValue": "voluptatem",
-  "PublicValue": "aliquid",
-  "IsActive": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_CreateDefaultUntrustedCredentials.md)]

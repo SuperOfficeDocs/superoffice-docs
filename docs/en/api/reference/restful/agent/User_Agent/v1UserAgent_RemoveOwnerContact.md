@@ -66,23 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/RemoveOwnerContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 1000
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_RemoveOwnerContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_RemoveOwnerContact.md)]

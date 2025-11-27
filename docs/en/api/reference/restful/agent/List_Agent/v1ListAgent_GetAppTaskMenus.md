@@ -77,43 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAppTaskMenus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAppTaskMenus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TaskMenuId": 182,
-    "Name": "Hermann, Kuhic and Kiehn",
-    "Tooltip": "quia",
-    "TableName": "Hintz-Mann",
-    "Area": "neque",
-    "UrlOrSoprotocol": "http://www.example.com/",
-    "TaskType": "CrmScript",
-    "CrmScriptId": 484,
-    "ShowInClient": "Mobile",
-    "ArchiveBehaviour": "InArchives",
-    "Rank": 20,
-    "Encoding": "ANSI",
-    "ProgId": "ipsam",
-    "Deleted": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAppTaskMenus.md)]

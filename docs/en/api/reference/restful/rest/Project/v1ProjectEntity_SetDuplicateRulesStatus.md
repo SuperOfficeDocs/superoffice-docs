@@ -54,34 +54,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Project/DuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Hintz LLC",
-    "DisplayName": "Donnelly, Botsford and Hettinger",
-    "DisplayTooltip": "omnis",
-    "IsActive": false
-  },
-  {
-    "Name": "Hintz LLC",
-    "DisplayName": "Donnelly, Botsford and Hettinger",
-    "DisplayTooltip": "omnis",
-    "IsActive": false
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_SetDuplicateRulesStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_SetDuplicateRulesStatus.md)]

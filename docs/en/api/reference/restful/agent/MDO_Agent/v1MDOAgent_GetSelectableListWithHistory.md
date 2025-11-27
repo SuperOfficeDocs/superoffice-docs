@@ -90,85 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetSelectableListWithHistory
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "D'Amore Inc and Sons",
-  "ForceFlatList": false,
-  "AdditionalInfo": "ducimus",
-  "HistoryItems": [
-    722,
-    478
-  ],
-  "OnlyHistory": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetSelectableListWithHistory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 105,
-    "Name": "Hammes-Denesik",
-    "ToolTip": "Distinctio nihil in unde sunt sed.",
-    "Deleted": true,
-    "Rank": 651,
-    "Type": "dicta",
-    "ColorBlock": 42,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2015-07-19T02:30:47.4757021+02:00",
-    "ChildItems": [
-      {
-        "Id": 775,
-        "Name": "Crona-Rice",
-        "ToolTip": "Sunt expedita voluptatibus minima enim laudantium voluptatem.",
-        "Deleted": true,
-        "Rank": 630,
-        "Type": "tempora",
-        "ColorBlock": 914,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2011-10-14T02:30:47.4757021+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "minima",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Mr. Mayra Borer IV",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 362
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "sint",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Jeffrey Dicki",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetSelectableListWithHistory.md)]

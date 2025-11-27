@@ -71,45 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1RelationAgent_CreateDefaultContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 363,
-  "SourcePersonId": 748,
-  "DestinationContactId": 746,
-  "DestinationPersonId": 381,
-  "RelationId": 964,
-  "Comment": "animi",
-  "RelationDefinitionId": 428,
-  "Reversed": 724,
-  "UpdatedDate": "2019-07-24T02:30:47.7413192+02:00",
-  "CreatedDate": "2007-10-26T02:30:47.7413192+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Boyle LLC",
-  "SourcePersonName": "Champlin, Muller and Marks",
-  "DestinationContactName": "Kuphal LLC",
-  "DestinationPersonName": "Fritsch-Kessler",
-  "ActiveText": "ex",
-  "PassiveText": "nisi",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1RelationAgent_CreateDefaultContactRelationEntity.md)]

@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetProjectTypeUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 44,
-    "Name": "Schroeder, Farrell and Weissnat",
-    "ToolTip": "Omnis eius sunt reiciendis mollitia.",
-    "Deleted": false,
-    "Rank": 136,
-    "Type": "aut",
-    "ColorBlock": 604,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2000-01-14T02:30:53.3817624+01:00",
-    "ChildItems": [
-      {
-        "Id": 703,
-        "Name": "Dicki-Parker",
-        "ToolTip": "Est amet iste qui.",
-        "Deleted": false,
-        "Rank": 305,
-        "Type": "id",
-        "ColorBlock": 457,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2025-01-06T02:30:53.3817624+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "esse",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Darius Durgan",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 897
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "amet",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Mrs. Dee Lon Schultz Sr.",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetProjectTypeUserGroupsForListItem.md)]

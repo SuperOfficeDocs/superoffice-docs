@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"superListColumnSize"|[superListColumnSize]|
+|"superListColumnSize"|superListColumnSize|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

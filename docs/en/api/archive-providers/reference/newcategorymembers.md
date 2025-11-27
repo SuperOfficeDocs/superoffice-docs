@@ -18,7 +18,7 @@ Lists new CategoryMembers added through restriction.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"newCategoryMember"|[newCategoryMember]|
+|"newCategoryMember"|newCategoryMember|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -64,7 +64,7 @@ Lists new CategoryMembers added through restriction.
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=associateDbId,contactCategory
+GET /api/v1/archive/NewCategoryMembers?$select=credentialDisplayValue,associateDbId,contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

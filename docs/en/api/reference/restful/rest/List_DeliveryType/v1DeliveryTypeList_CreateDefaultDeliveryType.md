@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_CreateDefaultDeliveryType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 440,
-  "Name": "Barton Inc and Sons",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 495,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_CreateDefaultDeliveryType.md)]

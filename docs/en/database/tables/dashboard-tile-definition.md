@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# dashboard\_tile\_definition Table (481)
+# dashboard\_tile\_definition Table (484)
 
 Describes the contents of a tile
 

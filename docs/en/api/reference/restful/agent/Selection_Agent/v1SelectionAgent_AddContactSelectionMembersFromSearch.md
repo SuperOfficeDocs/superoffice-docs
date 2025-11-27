@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 327,
-  "StorageKey": "id"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_AddContactSelectionMembersFromSearch.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-808
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_AddContactSelectionMembersFromSearch.md)]

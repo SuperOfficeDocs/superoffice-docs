@@ -76,37 +76,8 @@ DashTheme found.
 
 ## Sample request
 
-```http!
-GET /api/v1/DashTheme/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DashTheme_GetDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTheme found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 490,
-  "Name": "Schmitt, Huel and Greenholt",
-  "Config": "quia",
-  "Rank": 966,
-  "Client": "quo",
-  "Style": "porro",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTheme_GetDashTheme.md)]

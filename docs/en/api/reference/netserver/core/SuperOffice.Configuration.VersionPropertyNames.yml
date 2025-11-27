@@ -15,6 +15,7 @@ items:
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
   - SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
+  - SuperOffice.Configuration.VersionPropertyNames.DisconnectDatabaseDuringFlush
   - SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
   - SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   langs:
@@ -300,6 +301,32 @@ items:
     return:
       type: System.String
     content.vb: Public Const ReportEndpointUsage As String = "ReportEndpointUsage"
+- uid: SuperOffice.Configuration.VersionPropertyNames.DisconnectDatabaseDuringFlush
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.DisconnectDatabaseDuringFlush
+  id: DisconnectDatabaseDuringFlush
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: DisconnectDatabaseDuringFlush
+  nameWithType: VersionPropertyNames.DisconnectDatabaseDuringFlush
+  fullName: SuperOffice.Configuration.VersionPropertyNames.DisconnectDatabaseDuringFlush
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    If set, enables the old-style behaviour of the Flush api, where a pseudo-cache called DatabaseConnection can be requested for a flush.
+
+    If so, the database and its InstanceContainer are thrown away, which is a fairly drastic thing to do. By default we don't want to do that.
+
+    This versionproperty can be enabled to reintroduce the original, flushing, behaviour.
+  example: []
+  syntax:
+    content: public const string DisconnectDatabaseDuringFlush = "DisconnectDatabaseDuringFlush"
+    return:
+      type: System.String
+    content.vb: Public Const DisconnectDatabaseDuringFlush As String = "DisconnectDatabaseDuringFlush"
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration

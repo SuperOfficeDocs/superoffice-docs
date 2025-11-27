@@ -115,75 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailAddress": "lea@conroy.uk"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetPersonsFromEmailAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "neque",
-    "PersonId": 137,
-    "Mrmrs": "quibusdam",
-    "Firstname": "Jazmyne",
-    "Lastname": "Hoppe",
-    "MiddleName": "Cummings, Turcotte and Upton",
-    "Title": "voluptate",
-    "Description": "Expanded dedicated leverage",
-    "Email": "devante_morissette@dooley.biz",
-    "FullName": "Alta Halvorson",
-    "DirectPhone": "(711)947-4755 x24159",
-    "FormalName": "Hahn-Spinka",
-    "CountryId": 631,
-    "ContactId": 977,
-    "ContactName": "Jenkins LLC",
-    "Retired": 494,
-    "Rank": 288,
-    "ActiveInterests": 639,
-    "ContactDepartment": "",
-    "ContactCountryId": 527,
-    "ContactOrgNr": "1270097",
-    "FaxPhone": "835.040.9708",
-    "MobilePhone": "731-567-0883",
-    "ContactPhone": "(488)971-0455 x4561",
-    "AssociateName": "Murazik, Monahan and Goyette",
-    "AssociateId": 212,
-    "UsePersonAddress": false,
-    "ContactFax": "facere",
-    "Kanafname": "officia",
-    "Kanalname": "sit",
-    "Post1": "nulla",
-    "Post2": "tempore",
-    "Post3": "vero",
-    "EmailName": "genoveva@rath.co.uk",
-    "ContactFullName": "Ewald Lehner",
-    "ActiveErpLinks": 477,
-    "TicketPriorityId": 197,
-    "SupportLanguageId": 370,
-    "SupportAssociateId": 546,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "1505807",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetPersonsFromEmailAddress.md)]

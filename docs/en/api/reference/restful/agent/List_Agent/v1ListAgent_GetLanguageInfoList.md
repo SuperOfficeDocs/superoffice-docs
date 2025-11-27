@@ -75,36 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLanguageInfoList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLanguageInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageInfoId": 31,
-    "LCID": 454,
-    "EnglishName": "Hoeger Inc and Sons",
-    "NativeName": "Rodriguez, Rosenbaum and Turcotte",
-    "ThreeLetterISOLanguageName": "Stehr-Graham",
-    "TwoLetterISOLanguageName": "Mayer, Lindgren and Pacocha",
-    "IsBuiltIn": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLanguageInfoList.md)]

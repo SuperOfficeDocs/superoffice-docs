@@ -93,73 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "CrmScriptEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_SaveCRMScriptEntityWithoutCompile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 531,
-  "UniqueIdentifier": "perspiciatis",
-  "Name": "Kunde, Hauck and Cummings",
-  "Description": "Managed explicit attitude",
-  "IncludeId": "porro",
-  "AccessKey": "dolorum",
-  "HierarchyId": 852,
-  "Source": "est",
-  "SourceCode": "est",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 17,
-  "Includes": [
-    731,
-    907
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 848,
-      "LineNumberTo": 961,
-      "Delta": 777,
-      "IncludeId": "dignissimos",
-      "IncludedFrom": [
-        "pariatur",
-        "rerum"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2008-02-10T02:30:47.0382145+01:00",
-  "RegisteredAssociateId": 245,
-  "Updated": "2013-08-06T02:30:47.0382145+02:00",
-  "UpdatedAssociateId": 747,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_SaveCRMScriptEntityWithoutCompile.md)]

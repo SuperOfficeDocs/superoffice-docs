@@ -88,59 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedAppointmentId": 325,
-  "Name": "Wolf Inc and Sons",
-  "Tooltip": "earum",
-  "Rank": 424,
-  "Deleted": false,
-  "DaysFuture": 799,
-  "Duration": "nihil",
-  "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "dolores",
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "Type": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_SaveSuggestedAppointmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedAppointmentId": 525,
-  "Name": "Spinka Group",
-  "Tooltip": "praesentium",
-  "Rank": 778,
-  "Deleted": true,
-  "DaysFuture": 466,
-  "Duration": "voluptas",
-  "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "voluptatem",
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "Type": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_SaveSuggestedAppointmentEntity.md)]

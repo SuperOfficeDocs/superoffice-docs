@@ -64,60 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Infos": [
-    {
-      "UDefFieldId": 594,
-      "ColumnId": 211,
-      "FieldDefault": "minima",
-      "FieldHeight": 985,
-      "FieldLabel": "aut",
-      "FieldLeft": 81,
-      "FieldTop": 107,
-      "FieldType": "Checkbox",
-      "FieldWidth": 976,
-      "FormatMask": "aspernatur",
-      "HideLabel": false,
-      "IsIndexed": false,
-      "LabelHeight": 819,
-      "LabelLeft": 301,
-      "LabelTop": 996,
-      "LabelWidth": 319,
-      "LastVersionId": 328,
-      "ListTableId": 46,
-      "IsMandatory": false,
-      "Type": "Appointment",
-      "Page1LineNo": 473,
-      "ProgId": "quis",
-      "IsReadOnly": true,
-      "ShortLabel": "qui",
-      "TabOrder": 654,
-      "TextLength": 590,
-      "Tooltip": "temporibus",
-      "UdefIdentity": 373,
-      "UDListDefinitionId": 298,
-      "Justification": "Center",
-      "Version": 319,
-      "TemplateVariableName": "McDermott-Nicolas",
-      "HasBeenPublished": false,
-      "MdoListName": "Bosco, Ledner and Dooley"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos.md)]

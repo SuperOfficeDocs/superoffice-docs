@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/SummarizeContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 561,
-  "NumSentences": 152,
-  "IsoLangCode": "dolor"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_SummarizeContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"natus"
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_SummarizeContact.md)]

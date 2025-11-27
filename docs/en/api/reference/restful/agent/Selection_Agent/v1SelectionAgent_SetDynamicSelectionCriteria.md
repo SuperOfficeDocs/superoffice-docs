@@ -81,87 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 6,
-  "Criteria": [
-    {
-      "Name": "Kling LLC",
-      "Operator": "veniam",
-      "Values": [
-        "voluptatem",
-        "animi"
-      ],
-      "DisplayValues": [
-        "ea",
-        "modi"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 747,
-      "InterOperator": "And",
-      "UniqueHash": 500
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_SetDynamicSelectionCriteria.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Klein Group",
-    "Operator": "sit",
-    "Values": [
-      "enim",
-      "aut"
-    ],
-    "DisplayValues": [
-      "est",
-      "nisi"
-    ],
-    "ColumnInfo": null,
-    "IsActive": false,
-    "SubRestrictions": [
-      {
-        "Name": "Leffler Group",
-        "Operator": "est",
-        "Values": [
-          "est",
-          "possimus"
-        ],
-        "DisplayValues": [
-          "maiores",
-          "dolores"
-        ],
-        "ColumnInfo": null,
-        "IsActive": false,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 234,
-        "InterOperator": "And",
-        "UniqueHash": 19
-      }
-    ],
-    "InterParenthesis": 58,
-    "InterOperator": "And",
-    "UniqueHash": 124
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_SetDynamicSelectionCriteria.md)]

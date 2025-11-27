@@ -76,45 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Country/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_GetCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 384,
-  "Name": "O'Keefe-Walsh",
-  "CurrencyId": 56,
-  "EnglishName": "Gerhold Group",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Pre-emptive well-modulated time-frame",
-  "OrgNrText": "321171",
-  "InterAreaPrefix": "deleniti",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "quasi",
-  "DomainName": "Hackett Inc and Sons",
-  "AddressLayoutId": 90,
-  "DomesticAddressLayoutId": 799,
-  "ForeignAddressLayoutId": 567,
-  "Rank": 160,
-  "Tooltip": "totam",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 90
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_GetCountry.md)]

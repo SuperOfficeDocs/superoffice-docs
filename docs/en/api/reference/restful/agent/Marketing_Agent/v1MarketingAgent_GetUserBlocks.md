@@ -79,42 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/GetUserBlocks
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 732
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_GetUserBlocks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ShipmentMessageBlockId": 918,
-    "AssociateId": 271,
-    "Block": "nulla",
-    "Registered": "2003-11-16T02:30:47.4600781+01:00",
-    "RegisteredAssociateId": 174,
-    "Updated": "2003-10-01T02:30:47.4600781+02:00",
-    "UpdatedAssociateId": 320,
-    "UpdatedCount": 138,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_GetUserBlocks.md)]

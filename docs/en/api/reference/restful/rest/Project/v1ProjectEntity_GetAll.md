@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=repellat
-GET /api/v1/Project?$top=409
-GET /api/v1/Project?$skip=744
+GET /api/v1/Project?$entities=et
+GET /api/v1/Project?$top=914
+GET /api/v1/Project?$skip=40
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=saepe
+GET /api/v1/Project?$context=enim
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=True
 GET /api/v1/Project?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "enim",
-  "value": [
-    {
-      "PrimaryKey": 9313,
-      "EntityName": "sale",
-      "saleId": 9313,
-      "contactId": 2088,
-      "name": "Bruen Inc and Sons"
-    },
-    {
-      "PrimaryKey": 7880,
-      "EntityName": "sale",
-      "saleId": 7880,
-      "contactId": 178,
-      "name": "Kilback, Sipes and Towne"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetAll.md)]

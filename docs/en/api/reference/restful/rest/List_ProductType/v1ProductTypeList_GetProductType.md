@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetProductType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 728,
-  "Name": "Schamberger, Kessler and Lebsack",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "UdListDefinitionId": 542,
-  "Rank": 866,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetProductType.md)]

@@ -64,37 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_DefaultListEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 252,
-  "Name": "Hammes LLC",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 490,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_DefaultListEntity.md)]

@@ -76,39 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetDuplicates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Watsica-Turcotte"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Jewess, Olson and Dickens",
-    "SoPrimaryKey": 620,
-    "EntryName": "Schulist, Mayer and Moen",
-    "EntryIdentifier": "exercitationem",
-    "RuleDisplayName": "Abbott-Heathcote",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 166
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetDuplicates.md)]

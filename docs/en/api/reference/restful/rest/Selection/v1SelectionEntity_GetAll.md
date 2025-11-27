@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=debitis
-GET /api/v1/Selection?$top=934
-GET /api/v1/Selection?$skip=534
+GET /api/v1/Selection?$entities=assumenda
+GET /api/v1/Selection?$top=935
+GET /api/v1/Selection?$skip=491
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=soluta
+GET /api/v1/Selection?$context=incidunt
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "at",
-  "value": [
-    {
-      "PrimaryKey": 4877,
-      "EntityName": "sale",
-      "saleId": 4877,
-      "contactId": 5513,
-      "name": "Schmidt-Gutkowski"
-    },
-    {
-      "PrimaryKey": 1627,
-      "EntityName": "sale",
-      "saleId": 1627,
-      "contactId": 5727,
-      "name": "Terry-Vandervort"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetAll.md)]

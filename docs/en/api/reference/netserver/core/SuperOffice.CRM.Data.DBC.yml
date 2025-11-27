@@ -27,6 +27,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AudienceLayout
   - SuperOffice.CRM.Data.DBC.AudienceLayoutLink
   - SuperOffice.CRM.Data.DBC.AudienceVisibility
+  - SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdate
   - SuperOffice.CRM.Data.DBC.Autosave
   - SuperOffice.CRM.Data.DBC.BaseTZLocation
   - SuperOffice.CRM.Data.DBC.BatchTask
@@ -66,6 +67,9 @@ items:
   - SuperOffice.CRM.Data.DBC.ContIntHeadingLink
   - SuperOffice.CRM.Data.DBC.Contact
   - SuperOffice.CRM.Data.DBC.ContactInterest
+  - SuperOffice.CRM.Data.DBC.Copilot
+  - SuperOffice.CRM.Data.DBC.CopilotDataSource
+  - SuperOffice.CRM.Data.DBC.CopilotDataSourceSetting
   - SuperOffice.CRM.Data.DBC.CounterValue
   - SuperOffice.CRM.Data.DBC.Country
   - SuperOffice.CRM.Data.DBC.CountryGroupLink
@@ -482,6 +486,9 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketLogAction
   - SuperOffice.CRM.Data.DBC.TicketLogChange
   - SuperOffice.CRM.Data.DBC.TicketPriority
+  - SuperOffice.CRM.Data.DBC.TicketRelDefTicketType
+  - SuperOffice.CRM.Data.DBC.TicketRelation
+  - SuperOffice.CRM.Data.DBC.TicketRelationDef
   - SuperOffice.CRM.Data.DBC.TicketStatus
   - SuperOffice.CRM.Data.DBC.TicketStatusHistory
   - SuperOffice.CRM.Data.DBC.TicketType
@@ -10503,6 +10510,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const CategoryFamily As String = "CategoryFamily"
+- uid: SuperOffice.CRM.Data.DBC.Copilot
+  commentId: F:SuperOffice.CRM.Data.DBC.Copilot
+  id: Copilot
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: Copilot
+  nameWithType: DBC.Copilot
+  fullName: SuperOffice.CRM.Data.DBC.Copilot
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Copilot: Contains all available copilots'
+  example: []
+  syntax:
+    content: public const string Copilot = "copilot"
+    return:
+      type: System.String
+    content.vb: Public Const Copilot As String = "copilot"
+- uid: SuperOffice.CRM.Data.DBC.CopilotDataSource
+  commentId: F:SuperOffice.CRM.Data.DBC.CopilotDataSource
+  id: CopilotDataSource
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSource
+  nameWithType: DBC.CopilotDataSource
+  fullName: SuperOffice.CRM.Data.DBC.CopilotDataSource
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'CopilotDataSource: Stores data sources for each copilot'
+  example: []
+  syntax:
+    content: public const string CopilotDataSource = "copilot_data_source"
+    return:
+      type: System.String
+    content.vb: Public Const CopilotDataSource As String = "copilot_data_source"
+- uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceSetting
+  commentId: F:SuperOffice.CRM.Data.DBC.CopilotDataSourceSetting
+  id: CopilotDataSourceSetting
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceSetting
+  nameWithType: DBC.CopilotDataSourceSetting
+  fullName: SuperOffice.CRM.Data.DBC.CopilotDataSourceSetting
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'CopilotDataSourceSetting: Stores specific configuration values for each data source'
+  example: []
+  syntax:
+    content: public const string CopilotDataSourceSetting = "copilot_data_source_setting"
+    return:
+      type: System.String
+    content.vb: Public Const CopilotDataSourceSetting As String = "copilot_data_source_setting"
 - uid: SuperOffice.CRM.Data.DBC.ScriptTrace
   commentId: F:SuperOffice.CRM.Data.DBC.ScriptTrace
   id: ScriptTrace
@@ -11847,6 +11917,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const Leadstatus As String = "leadstatus"
+- uid: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdate
+  commentId: F:SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdate
+  id: AutomatedCategoryUpdate
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: AutomatedCategoryUpdate
+  nameWithType: DBC.AutomatedCategoryUpdate
+  fullName: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AutomatedCategoryUpdate: Info on how to autoupdate category when changing sale or leadstatus on person'
+  example: []
+  syntax:
+    content: public const string AutomatedCategoryUpdate = "AutomatedCategoryUpdate"
+    return:
+      type: System.String
+    content.vb: Public Const AutomatedCategoryUpdate As String = "AutomatedCategoryUpdate"
 - uid: SuperOffice.CRM.Data.DBC.TicketType
   commentId: F:SuperOffice.CRM.Data.DBC.TicketType
   id: TicketType
@@ -11910,6 +12001,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const TicketTypeStatus As String = "ticket_type_status"
+- uid: SuperOffice.CRM.Data.DBC.TicketRelationDef
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelationDef
+  id: TicketRelationDef
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDef
+  nameWithType: DBC.TicketRelationDef
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelationDef
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketRelationDef: Ticket relation definition'
+  example: []
+  syntax:
+    content: public const string TicketRelationDef = "ticket_relation_def"
+    return:
+      type: System.String
+    content.vb: Public Const TicketRelationDef As String = "ticket_relation_def"
+- uid: SuperOffice.CRM.Data.DBC.TicketRelDefTicketType
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelDefTicketType
+  id: TicketRelDefTicketType
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketRelDefTicketType
+  nameWithType: DBC.TicketRelDefTicketType
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelDefTicketType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketRelDefTicketType: Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition'
+  example: []
+  syntax:
+    content: public const string TicketRelDefTicketType = "ticket_rel_def_ticket_type"
+    return:
+      type: System.String
+    content.vb: Public Const TicketRelDefTicketType As String = "ticket_rel_def_ticket_type"
+- uid: SuperOffice.CRM.Data.DBC.TicketRelation
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelation
+  id: TicketRelation
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketRelation
+  nameWithType: DBC.TicketRelation
+  fullName: SuperOffice.CRM.Data.DBC.TicketRelation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketRelation: A relation between 2 tickets'
+  example: []
+  syntax:
+    content: public const string TicketRelation = "ticket_relation"
+    return:
+      type: System.String
+    content.vb: Public Const TicketRelation As String = "ticket_relation"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

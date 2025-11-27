@@ -87,63 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 197,
-    "ColumnId": 192,
-    "FieldDefault": "voluptatibus",
-    "FieldHeight": 877,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 323,
-    "FieldTop": 281,
-    "FieldType": "Checkbox",
-    "FieldWidth": 915,
-    "FormatMask": "libero",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 934,
-    "LabelLeft": 437,
-    "LabelTop": 292,
-    "LabelWidth": 186,
-    "LastVersionId": 358,
-    "ListTableId": 839,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 189,
-    "ProgId": "velit",
-    "IsReadOnly": false,
-    "ShortLabel": "harum",
-    "TabOrder": 398,
-    "TextLength": 205,
-    "Tooltip": "quia",
-    "UdefIdentity": 819,
-    "UDListDefinitionId": 794,
-    "Justification": "Center",
-    "Version": 726,
-    "TemplateVariableName": "Satterfield, Russel and Homenick",
-    "HasBeenPublished": false,
-    "MdoListName": "Haag-Hartmann",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetUdefLayout.md)]

@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Business/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_GetBusinessHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 273,
-    "Name": "Konopelski Inc and Sons",
-    "ToolTip": "Odit est.",
-    "Deleted": false,
-    "Rank": 418,
-    "Type": "quos",
-    "ColorBlock": 843,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2012-03-14T02:30:53.2098926+01:00",
-    "ChildItems": [
-      {
-        "Id": 22,
-        "Name": "Prohaska, Mann and Daugherty",
-        "ToolTip": "Odio dolores ut dolor quis.",
-        "Deleted": false,
-        "Rank": 558,
-        "Type": "autem",
-        "ColorBlock": 212,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2002-07-18T02:30:53.2098926+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "eos",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Imogene Lehner",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 226
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "in",
-    "StyleHint": "nobis",
-    "Hidden": false,
-    "FullName": "Filomena Willms",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 484
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_GetBusinessHeadingsForListItem.md)]

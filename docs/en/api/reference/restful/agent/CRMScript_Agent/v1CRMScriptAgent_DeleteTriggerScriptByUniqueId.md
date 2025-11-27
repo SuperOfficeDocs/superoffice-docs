@@ -66,23 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TriggerScriptUniqueId": "atque"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_DeleteTriggerScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_DeleteTriggerScriptByUniqueId.md)]

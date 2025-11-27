@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetProjectImage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 811
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetProjectImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-99.99
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetProjectImage.md)]

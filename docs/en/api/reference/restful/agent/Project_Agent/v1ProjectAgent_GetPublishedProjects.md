@@ -89,55 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetPublishedProjects
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectIds": [
-    914,
-    843
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetPublishedProjects.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 567,
-    "Name": "Thiel Group",
-    "Description": "User-centric needs-based hardware",
-    "URL": "http://www.example.com/",
-    "Type": "at",
-    "AssociateId": 96,
-    "AssociateFullName": "Prof. Hanna Toy Jr.",
-    "TypeId": 454,
-    "Updated": "2002-03-16T02:30:47.6944454+01:00",
-    "StatusId": 977,
-    "Status": "libero",
-    "TextId": 462,
-    "PublishTo": "2010-08-16T02:30:47.6944454+02:00",
-    "PublishFrom": "2000-05-29T02:30:47.6944454+02:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1058167",
-    "ActiveErpLinks": 665,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetPublishedProjects.md)]

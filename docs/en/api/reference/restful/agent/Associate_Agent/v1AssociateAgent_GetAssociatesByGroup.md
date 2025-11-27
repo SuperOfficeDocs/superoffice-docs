@@ -87,55 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Associate/GetAssociatesByGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "GroupId": 134,
-  "Type": 498
-}
-```
+[!include[sample request](../../samples/agent/request/v1AssociateAgent_GetAssociatesByGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AssociateId": 655,
-    "Name": "Quitzon LLC",
-    "PersonId": 227,
-    "Rank": 565,
-    "Tooltip": "dignissimos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 821,
-    "FullName": "Juana Wiza",
-    "FormalName": "Crooks Group",
-    "Deleted": false,
-    "EjUserId": 43,
-    "UserName": "Quitzon Group",
-    "ExtraFields": {
-      "ExtraFields1": "sequi",
-      "ExtraFields2": "quia"
-    },
-    "CustomFields": {
-      "CustomFields1": "debitis",
-      "CustomFields2": "est"
-    },
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AssociateAgent_GetAssociatesByGroup.md)]

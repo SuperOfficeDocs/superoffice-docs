@@ -70,23 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/CanChangePassword
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 523
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_CanChangePassword.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_CanChangePassword.md)]

@@ -104,75 +104,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveExtAppEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExtAppId": 920,
-  "Name": "Mills, Kunze and Robel",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 975,
-  "Filename": "et",
-  "Parameters": "velit",
-  "Workdir": "blanditiis",
-  "ShowState": "AddressBar",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 464,
-  "WaitToFinish": false,
-  "ExecuteOnEvent": "LocalUpdate",
-  "Path": "eos"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveExtAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExtAppId": 763,
-  "Name": "Greenholt LLC",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 357,
-  "Filename": "quidem",
-  "Parameters": "officiis",
-  "Workdir": "in",
-  "ShowState": "AddressBar",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 643,
-  "WaitToFinish": false,
-  "ExecuteOnEvent": "LocalUpdate",
-  "Path": "occaecati",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveExtAppEntity.md)]

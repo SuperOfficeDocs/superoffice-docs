@@ -82,44 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/GetDepartmentPhones
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DepartmentId": 322
-}
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_GetDepartmentPhones.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonDirectPhone": "(188)205-0612 x34848",
-    "PersonCellPhone": "348-790-2731 x932",
-    "PersonPrivatePhone": "718.997.1109",
-    "PersonFaxNumber": "447169",
-    "PersonPagerNumber": "1212573",
-    "PersonEmail": "olin@kohler.name",
-    "Id": 655,
-    "Name": "Mraz-Becker",
-    "Tooltip": "voluptatem",
-    "UniqueId": "et",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 191
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_GetDepartmentPhones.md)]

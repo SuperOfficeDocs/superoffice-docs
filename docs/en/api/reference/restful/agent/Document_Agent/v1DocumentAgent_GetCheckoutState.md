@@ -72,27 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetCheckoutState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 905
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetCheckoutState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "State": "CheckedOutOther",
-  "AssociateId": 44,
-  "Name": "Flatley Inc and Sons"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetCheckoutState.md)]

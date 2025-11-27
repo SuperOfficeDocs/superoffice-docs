@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/ReportSessionActive
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SessionKey": "sit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_ReportSessionActive.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-780
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_ReportSessionActive.md)]

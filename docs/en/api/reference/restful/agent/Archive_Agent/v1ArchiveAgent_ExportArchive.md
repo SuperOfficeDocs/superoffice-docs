@@ -82,83 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/ExportArchive
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Satterfield Inc and Sons",
-  "Context": "illum",
-  "DesiredEntities": [
-    "ut",
-    "mollitia"
-  ],
-  "Columns": [
-    "nesciunt",
-    "tempore"
-  ],
-  "SortOrder": [
-    {
-      "Name": "Jenkins-Walsh",
-      "Direction": "ASC"
-    },
-    {
-      "Name": "Jenkins-Walsh",
-      "Direction": "ASC"
-    }
-  ],
-  "Restrictions": [
-    {
-      "Name": "Ruecker-Olson",
-      "Operator": "error",
-      "Values": [
-        "corrupti",
-        "soluta"
-      ],
-      "DisplayValues": [
-        "harum",
-        "quod"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 70,
-      "InterOperator": "And",
-      "UniqueHash": 408
-    }
-  ],
-  "ExportType": "et",
-  "SelectedRowIds": [
-    "ducimus",
-    "numquam"
-  ],
-  "EstimatedRowCount": 940
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_ExportArchive.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BatchTaskId": 463,
-  "FileName": "Kunze, Braun and Dach",
-  "Message": "vel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_ExportArchive.md)]

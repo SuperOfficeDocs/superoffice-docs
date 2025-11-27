@@ -79,52 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetChatbotTurns
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatId": "facere"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetChatbotTurns.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
-    "UserPrompt": "quia",
-    "UserDisplayText": "id",
-    "BotResponse": "rem",
-    "BotActions": {
-      "BotActions1": "sed",
-      "BotActions2": "est"
-    },
-    "Attachments": [
-      "nobis",
-      "id"
-    ]
-  },
-  {
-    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
-    "UserPrompt": "quia",
-    "UserDisplayText": "id",
-    "BotResponse": "rem",
-    "BotActions": {
-      "BotActions1": "sed",
-      "BotActions2": "est"
-    },
-    "Attachments": [
-      "nobis",
-      "id"
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetChatbotTurns.md)]

@@ -75,38 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveLegalBase
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBase": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveLegalBase.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBaseId": 960,
-  "Name": "Keebler Group",
-  "Tooltip": "omnis",
-  "Rank": 932,
-  "Key": "earum",
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveLegalBase.md)]

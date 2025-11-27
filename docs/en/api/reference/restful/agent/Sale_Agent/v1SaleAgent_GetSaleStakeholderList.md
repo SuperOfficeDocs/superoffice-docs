@@ -87,48 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleStakeholderList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleStakeholderList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "StakeholderRoleName": "Pacocha-Waters",
-    "Comment": "ut",
-    "StakeholderRoleId": 823,
-    "CountryId": 866,
-    "PersonId": 413,
-    "EmailDescription": "lexi@corkerymonahan.uk",
-    "EmailId": 974,
-    "EmailAddress": "quinton@dubuquestreich.biz",
-    "PhoneId": 186,
-    "ContactName": "Rippin-Feil",
-    "ContactId": 171,
-    "SaleId": 397,
-    "Mrmrs": "enim",
-    "Firstname": "Carley",
-    "MiddleName": "Collins-Schulist",
-    "Lastname": "Breitenberg",
-    "SaleStakeholderId": 333,
-    "Rank": 356,
-    "Phone": "1-529-117-8804",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleStakeholderList.md)]

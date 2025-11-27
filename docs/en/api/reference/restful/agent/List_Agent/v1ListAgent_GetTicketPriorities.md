@@ -64,45 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketPriorities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketPriorities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 976,
-    "Value": "praesentium",
-    "Tooltip": "magnam",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
-      }
-    }
-  },
-  {
-    "Id": 976,
-    "Value": "praesentium",
-    "Tooltip": "magnam",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketPriorities.md)]

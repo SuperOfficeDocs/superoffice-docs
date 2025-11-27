@@ -80,41 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentEntity": null,
-  "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
-  "SmtpEMailConnectionInfo": null,
-  "ImapEMailConnectionInfo": null,
-  "EmailBody": "stephen@wuckert.name",
-  "Subject": "commodi",
-  "TemplateLanguage": "at"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_SaveWithCustomInvitation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentEntity": null,
-  "EmailCreated": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_SaveWithCustomInvitation.md)]

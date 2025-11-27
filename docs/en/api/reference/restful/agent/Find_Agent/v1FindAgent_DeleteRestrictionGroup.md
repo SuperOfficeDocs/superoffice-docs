@@ -67,27 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/DeleteRestrictionGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "voluptas",
-  "ProviderName": "Jenkins LLC",
-  "StorageKey": "voluptatem",
-  "Rank": 507,
-  "Context": "ea"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_DeleteRestrictionGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_DeleteRestrictionGroup.md)]

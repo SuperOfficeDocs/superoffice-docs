@@ -17,7 +17,7 @@ Provides list of subscribed and unsubscribed mail folders available for an accou
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"mailfolder"|[(mailfolder)]|
+|"mailfolder"|(mailfolder)|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

@@ -107,67 +107,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgId": "aut",
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 616,
-  "ColumnId": 937,
-  "FieldDefault": "tenetur",
-  "FieldHeight": 486,
-  "FieldLabel": "dicta",
-  "FieldLeft": 505,
-  "FieldTop": 212,
-  "FieldType": "Checkbox",
-  "FieldWidth": 685,
-  "FormatMask": "sed",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 687,
-  "LabelLeft": 270,
-  "LabelTop": 602,
-  "LabelWidth": 40,
-  "LastVersionId": 371,
-  "ListTableId": 575,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "minus",
-  "IsReadOnly": true,
-  "ShortLabel": "facilis",
-  "TabOrder": 205,
-  "TextLength": 837,
-  "Tooltip": "perferendis",
-  "UdefIdentity": 752,
-  "UDListDefinitionId": 24,
-  "Justification": "Center",
-  "Version": 171,
-  "TemplateVariableName": "Gerhold-Swift",
-  "HasBeenPublished": true,
-  "MdoListName": "Shanahan Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId.md)]

@@ -68,37 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatPresence
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatPresence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UserId": 211,
-    "DisplayName": "Bode Group",
-    "OngoingChats": 982,
-    "Present": false,
-    "ChatTopics": [
-      172,
-      996
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 950
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatPresence.md)]

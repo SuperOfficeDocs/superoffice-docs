@@ -684,14 +684,15 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |documentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |documentInstance/sale/saleNumber|string|Number: Number| x |
-|documentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|documentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|documentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |documentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |documentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |documentInstance/sale/description|string|Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
@@ -747,7 +748,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personAddress/line2,documentInstance/person/personAssociate/contactFullName,documentInstance/person/correspondingAssociate/ejDisplayName,documentInstance/contact/email/emailId,documentInstance/contact/restrictionAddress/formattedAddress
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personMobilePhone/formattedNumber,documentInstance/person/restrictionAddress/zip,documentInstance/person/personExtra/x_person_float,documentInstance/person/personAssociate/contactName,documentInstance/contact/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

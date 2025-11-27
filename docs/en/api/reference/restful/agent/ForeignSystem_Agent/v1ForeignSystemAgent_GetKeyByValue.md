@@ -83,44 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetKeyByValue
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Lockman LLC",
-  "DeviceName": "Prohaska Group",
-  "KeyName": "Tromp Inc and Sons",
-  "KeyValue": "est",
-  "TableName": "Brown LLC"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetKeyByValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "accusantium",
-  "Value": "aut",
-  "RecordId": 822,
-  "CreatedDate": "2005-05-09T02:30:47.366331+02:00",
-  "UpdatedDate": "2006-06-11T02:30:47.366331+02:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "ullam",
-  "TableName": "Olson-Veum",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetKeyByValue.md)]

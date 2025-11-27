@@ -64,54 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/ForeignApp/{appName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_PostForeignApp_PUT.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 168,
-  "Name": "Rodriguez Group",
-  "CreatedDate": "2001-11-16T02:30:52.631787+01:00",
-  "UpdatedDate": "2003-10-14T02:30:52.631787+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 45,
-      "Name": "Gutkowski Inc and Sons",
-      "CreatedDate": "2007-03-08T02:30:52.6474115+01:00",
-      "UpdatedDate": "2012-02-13T02:30:52.6474115+01:00",
-      "AssociateFullName": "Ofelia Mills",
-      "CreatedBy": "sint",
-      "UpdatedBy": "quidem",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 430,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 623
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 470
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_PostForeignApp_PUT.md)]

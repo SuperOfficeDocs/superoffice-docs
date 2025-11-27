@@ -98,87 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveTicketTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 184,
-  "Name": "Kiehn Inc and Sons",
-  "Rank": 167,
-  "Tooltip": "occaecati",
-  "Icon": "rerum",
-  "DefaultTicketStatus": 695,
-  "TicketStatuses": [
-    919,
-    830
-  ],
-  "DefaultTicketPriority": 845,
-  "TicketPriorities": [
-    877,
-    334
-  ],
-  "ReplyTemplate": 264,
-  "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    357,
-    349
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 243,
-  "Name": "Haley-Boyer",
-  "Rank": 224,
-  "Tooltip": "voluptatem",
-  "Icon": "et",
-  "DefaultTicketStatus": 566,
-  "TicketStatuses": [
-    334,
-    73
-  ],
-  "DefaultTicketPriority": 579,
-  "TicketPriorities": [
-    551,
-    796
-  ],
-  "ReplyTemplate": 41,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    672,
-    240
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveTicketTypeEntity.md)]

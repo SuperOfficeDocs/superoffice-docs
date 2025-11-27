@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Reason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 259,
-    "Name": "Stroman-Luettgen",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 946,
-    "UdListDefinitionId": 426
-  },
-  {
-    "HeadingId": 259,
-    "Name": "Stroman-Luettgen",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 946,
-    "UdListDefinitionId": 426
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_PutReasonHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 806,
-    "Name": "Rath Group",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 249,
-    "UdListDefinitionId": 430,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 634
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_PutReasonHeadings.md)]

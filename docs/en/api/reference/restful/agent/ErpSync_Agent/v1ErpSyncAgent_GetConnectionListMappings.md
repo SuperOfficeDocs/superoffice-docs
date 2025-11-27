@@ -77,54 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetConnectionListMappings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 246
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetConnectionListMappings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpListItemMappings": [
-    {
-      "CrmList": null,
-      "ErpListName": "Langosh, Huels and Sauer",
-      "ErpCrmListItemMappings": [
-        {},
-        {}
-      ],
-      "ErpActorTypeName": "Crist, Turcotte and Lueilwitz",
-      "ErpFieldId": 831,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
-        }
-      }
-    }
-  ],
-  "ErpConnectionId": 609,
-  "ErpConnectionName": "Armstrong-Weissnat",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetConnectionListMappings.md)]

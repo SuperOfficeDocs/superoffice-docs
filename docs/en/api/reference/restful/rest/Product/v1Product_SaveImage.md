@@ -59,18 +59,8 @@ The blob id
 
 ## Sample request
 
-```http!
-PUT /api/v1/Product/{productId}/Image
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Product_SaveImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 The blob id
-Content-Type: application/json; charset=utf-8
-
-848
-```
+[!include[sample response](../../samples/rest/response/v1Product_SaveImage.md)]

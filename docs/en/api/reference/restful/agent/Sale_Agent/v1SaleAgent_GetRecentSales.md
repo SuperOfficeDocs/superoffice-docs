@@ -98,60 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetRecentSales
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AmountLimit": 113,
-  "Count": 137
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetRecentSales.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Cartwright-Larson",
-    "SaleDate": "2003-08-19T02:30:47.7881925+02:00",
-    "SaleId": 434,
-    "Probability": 928,
-    "Title": "dolore",
-    "Amount": 7900.8139999999994,
-    "Currency": "quia",
-    "ProjectName": "Klein, Wintheiser and Kozey",
-    "AssociateFullName": "Quincy Cormier",
-    "Description": "Secured solution-oriented access",
-    "Status": "Lost",
-    "WeightedAmount": 20678.131999999998,
-    "ProjectId": 829,
-    "EarningPercent": 4707.268,
-    "Earning": 17240.134,
-    "ContactId": 993,
-    "AssociateId": 697,
-    "PersonId": 850,
-    "SaleTypeId": 29,
-    "SaleTypeName": "Haag, Schaden and Rutherford",
-    "PersonFullName": "Ms. Alisa Cormier",
-    "Completed": "Completed",
-    "ActiveErpLinks": 859,
-    "NextDueDate": "2022-03-26T02:30:47.7881925+01:00",
-    "Number": "1402226",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 195
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetRecentSales.md)]

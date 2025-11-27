@@ -64,39 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/Devices
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetApplicationDevices.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Jun 2021 02:30:52 G6T
-
-[
-  {
-    "ForeignDeviceId": 855,
-    "Name": "Kshlerin, Huels and Durgan",
-    "CreatedDate": "2000-01-25T02:30:52.6474115+01:00",
-    "UpdatedDate": "2021-06-04T02:30:52.6474115+02:00",
-    "AssociateFullName": "Vilma Waters",
-    "CreatedBy": "adipisci",
-    "UpdatedBy": "omnis",
-    "DeviceIdentifier": "dolore",
-    "ForeignAppId": 555,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetApplicationDevices.md)]

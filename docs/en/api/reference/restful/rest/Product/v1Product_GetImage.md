@@ -36,9 +36,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Product/{productId}/Image?w=114
-GET /api/v1/Product/{productId}/Image?h=235
-GET /api/v1/Product/{productId}/Image?type=vel
+GET /api/v1/Product/{productId}/Image?w=445
+GET /api/v1/Product/{productId}/Image?h=277
+GET /api/v1/Product/{productId}/Image?type=voluptatem
 GET /api/v1/Product/{productId}/Image?ifBlank=ClearPixel
 ```
 
@@ -71,18 +71,8 @@ An image
 
 ## Sample request
 
-```http!
-GET /api/v1/Product/{productId}/Image
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1Product_GetImage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 An image
-Content-Type: application/json; charset=utf-8
-
-"GIF89....File contents as raw bytes..."
-```
+[!include[sample response](../../samples/rest/response/v1Product_GetImage.md)]

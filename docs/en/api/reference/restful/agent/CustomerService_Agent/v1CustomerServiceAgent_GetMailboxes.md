@@ -67,47 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetMailboxes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetMailboxes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "MailInFilterId": 4,
-    "Address": "esse",
-    "CategoryName": "VIP Customer",
-    "PriorityName": "Prosacco Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
-      }
-    }
-  },
-  {
-    "MailInFilterId": 4,
-    "Address": "esse",
-    "CategoryName": "VIP Customer",
-    "PriorityName": "Prosacco Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetMailboxes.md)]

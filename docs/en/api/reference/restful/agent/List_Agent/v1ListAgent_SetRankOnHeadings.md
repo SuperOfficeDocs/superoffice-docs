@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetRankOnHeadings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 5,
-  "HeadingIds": [
-    767,
-    434
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetRankOnHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetRankOnHeadings.md)]

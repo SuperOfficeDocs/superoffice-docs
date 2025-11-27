@@ -669,7 +669,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/postAddress/line3,mailingAddr/contact/contactAssociate/ejStatus,mailingAddr/contact/contactExtra/x_contact_timespan,mailingAddr/person/supportLanguage,mailingAddr/person/personAddress/line1
+GET /api/v1/archive/Mailings?$select=mailingAddr/contact/name,mailingAddr/contact/updatedByFullName,mailingAddr/contact/LastCompletedTicket,mailingAddr/person/personCategoryRank,mailingAddr/person/whenUpdatedByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

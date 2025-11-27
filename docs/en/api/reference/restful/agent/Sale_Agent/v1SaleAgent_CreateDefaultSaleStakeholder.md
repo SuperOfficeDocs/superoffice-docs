@@ -72,46 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_CreateDefaultSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Murray-Dickinson",
-  "Comment": "quae",
-  "StakeholderRoleId": 186,
-  "CountryId": 764,
-  "PersonId": 373,
-  "EmailDescription": "arvid@herzog.co.uk",
-  "EmailId": 421,
-  "EmailAddress": "rosalia.grady@schuppe.ca",
-  "PhoneId": 144,
-  "ContactName": "Howe, Buckridge and Denesik",
-  "ContactId": 871,
-  "SaleId": 512,
-  "Mrmrs": "consequatur",
-  "Firstname": "Russell",
-  "MiddleName": "Kreiger-Emard",
-  "Lastname": "Lakin",
-  "SaleStakeholderId": 998,
-  "Rank": 524,
-  "Phone": "162-021-3189 x39868",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_CreateDefaultSaleStakeholder.md)]

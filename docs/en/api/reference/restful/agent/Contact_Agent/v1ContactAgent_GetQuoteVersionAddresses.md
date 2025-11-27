@@ -78,77 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 596
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetQuoteVersionAddresses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Wgs84Latitude": 22868.798,
-    "Wgs84Longitude": 6991.954,
-    "LocalizedAddress": [
-      [
-        {
-          "Name": "Emmerich LLC",
-          "Value": "ullam",
-          "Tooltip": "omnis",
-          "Label": "provident",
-          "ValueLength": 643,
-          "AddressType": "et",
-          "TableRight": null,
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 991
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Feest Group",
-          "Value": "non",
-          "Tooltip": "nobis",
-          "Label": "dolore",
-          "ValueLength": 325,
-          "AddressType": "praesentium",
-          "TableRight": null,
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 690
-            }
-          }
-        }
-      ]
-    ],
-    "Street": null,
-    "Postal": null,
-    "Formatted": "veritatis",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 347
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetQuoteVersionAddresses.md)]

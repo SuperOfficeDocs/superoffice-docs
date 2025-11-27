@@ -87,55 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetAllConnections
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetAllConnections.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ErpConnectionId": 993,
-    "ErpConnectorId": 685,
-    "DisplayName": "Blick LLC",
-    "DisplayDescription": "Virtual transitional leverage",
-    "Active": false,
-    "ConnectionId": "nulla",
-    "MostRecentTimestamp": "laudantium",
-    "ConfigFields": {
-      "ConfigFields1": "assumenda",
-      "ConfigFields2": "ut"
-    },
-    "Deleted": false,
-    "AllAccess": false,
-    "UserGroupAccessIds": [
-      363,
-      648
-    ],
-    "AssociateAccessIds": [
-      292,
-      244
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetAllConnections.md)]

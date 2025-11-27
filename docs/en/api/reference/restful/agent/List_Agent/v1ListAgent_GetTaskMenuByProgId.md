@@ -85,46 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTaskMenuByProgId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProgId": "nisi"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTaskMenuByProgId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskMenuId": 881,
-  "Name": "Herzog, Kris and Runolfsson",
-  "Tooltip": "architecto",
-  "TableName": "Feest-Vandervort",
-  "Area": "et",
-  "UrlOrSoprotocol": "http://www.example.com/",
-  "TaskType": "CrmScript",
-  "CrmScriptId": 325,
-  "ShowInClient": "Mobile",
-  "ArchiveBehaviour": "InArchives",
-  "Rank": 354,
-  "Encoding": "ANSI",
-  "ProgId": "ea",
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTaskMenuByProgId.md)]

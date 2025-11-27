@@ -7,7 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Rows.TimeKeepingRecordData.#ctor
   - SuperOffice.CRM.Rows.TimeKeepingRecordData.AccumulatedMinutes
-  - SuperOffice.CRM.Rows.TimeKeepingRecordData.EntityId
+  - SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerRecord
+  - SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerTable
   - SuperOffice.CRM.Rows.TimeKeepingRecordData.Registered
   - SuperOffice.CRM.Rows.TimeKeepingRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.TimeKeepingRecordData.StartTime
@@ -101,27 +102,6 @@ items:
     return:
       type: SuperOffice.Data.TimeKeepingType
     content.vb: Public TimeKeepingType As TimeKeepingType
-- uid: SuperOffice.CRM.Rows.TimeKeepingRecordData.EntityId
-  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRecordData.EntityId
-  id: EntityId
-  parent: SuperOffice.CRM.Rows.TimeKeepingRecordData
-  langs:
-  - csharp
-  - vb
-  name: EntityId
-  nameWithType: TimeKeepingRecordData.EntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRecordData.EntityId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: The entity we are keeping time of (a sale, project - given by time_keeping_type)
-  example: []
-  syntax:
-    content: public int EntityId
-    return:
-      type: System.Int32
-    content.vb: Public EntityId As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRecordData.StateId
   commentId: F:SuperOffice.CRM.Rows.TimeKeepingRecordData.StateId
   id: StateId
@@ -290,6 +270,48 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerTable
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Rows.TimeKeepingRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: TimeKeepingRecordData.OwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerTable
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The table that is the owning entity
+  example: []
+  syntax:
+    content: public short OwnerTable
+    return:
+      type: System.Int16
+    content.vb: Public OwnerTable As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerRecord
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Rows.TimeKeepingRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: TimeKeepingRecordData.OwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRecordData.OwnerRecord
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Optional owner record id, if layout is bound to an owner
+  example: []
+  syntax:
+    content: public int OwnerRecord
+    return:
+      type: System.Int32
+    content.vb: Public OwnerRecord As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TimeKeepingRecordData.#ctor
   id: '#ctor'

@@ -91,57 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ConsentPurpose/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurposeId": 880,
-  "Name": "Hauck Group",
-  "ConsentText": "impedit",
-  "FormText": "perspiciatis",
-  "Key": "assumenda",
-  "Tooltip": "totam",
-  "Active": 952,
-  "UpdatedDate": "2015-04-16T02:30:53.2255171+02:00",
-  "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 64,
-  "PrivacyStatementDesc": "et",
-  "PrivacyStatementUrl": "http://www.example.com/"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_PutConsentPurpose.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurposeId": 390,
-  "Name": "Kris Inc and Sons",
-  "ConsentText": "nesciunt",
-  "FormText": "occaecati",
-  "Key": "ex",
-  "Tooltip": "autem",
-  "Active": 179,
-  "UpdatedDate": "2025-05-10T02:30:53.2255171+02:00",
-  "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 398,
-  "PrivacyStatementDesc": "dolores",
-  "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_PutConsentPurpose.md)]

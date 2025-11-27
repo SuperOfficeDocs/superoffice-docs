@@ -8,7 +8,6 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRow.#ctor(SuperOffice.CRM.Rows.TimeKeepingRow.TimeKeepingRowIdxBase)
   - SuperOffice.CRM.Rows.TimeKeepingRow.AccumulatedMinutes
   - SuperOffice.CRM.Rows.TimeKeepingRow.CreateNew
-  - SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
   - SuperOffice.CRM.Rows.TimeKeepingRow.GetFromCustomSearch(SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch)
   - SuperOffice.CRM.Rows.TimeKeepingRow.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TimeKeepingRow.GetFromIdxTimeKeepingIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -25,6 +24,8 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TimeKeepingRow.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.TimeKeepingRow.OnSavedAsync(System.Boolean)
+  - SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  - SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
   - SuperOffice.CRM.Rows.TimeKeepingRow.Registered
   - SuperOffice.CRM.Rows.TimeKeepingRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.TimeKeepingRow.Reset
@@ -43,7 +44,8 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRow.UpdatedCount
   - SuperOffice.CRM.Rows.TimeKeepingRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentAccumulatedMinutes
-  - SuperOffice.CRM.Rows.TimeKeepingRow._currentEntityId
+  - SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerRecord
+  - SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerTable
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentRegistered
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentStartTime
@@ -54,7 +56,8 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.TimeKeepingRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.TimeKeepingRow._persistedAccumulatedMinutes
-  - SuperOffice.CRM.Rows.TimeKeepingRow._persistedEntityId
+  - SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerRecord
+  - SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerTable
   - SuperOffice.CRM.Rows.TimeKeepingRow._persistedRegistered
   - SuperOffice.CRM.Rows.TimeKeepingRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.TimeKeepingRow._persistedStartTime
@@ -254,27 +257,6 @@ items:
     return:
       type: SuperOffice.Data.TimeKeepingType
     content.vb: Protected _persistedTimeKeepingType As TimeKeepingType
-- uid: SuperOffice.CRM.Rows.TimeKeepingRow._persistedEntityId
-  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._persistedEntityId
-  id: _persistedEntityId
-  parent: SuperOffice.CRM.Rows.TimeKeepingRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedEntityId
-  nameWithType: TimeKeepingRow._persistedEntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._persistedEntityId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.EntityId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedEntityId
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedEntityId As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow._persistedStateId
   commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._persistedStateId
   id: _persistedStateId
@@ -443,6 +425,48 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerTable
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerTable
+  id: _persistedOwnerTable
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOwnerTable
+  nameWithType: TimeKeepingRow._persistedOwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerTable
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedOwnerTable
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedOwnerTable As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerRecord
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerRecord
+  id: _persistedOwnerRecord
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOwnerRecord
+  nameWithType: TimeKeepingRow._persistedOwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._persistedOwnerRecord
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedOwnerRecord
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedOwnerRecord As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow._currentTimeKeepingId
   commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._currentTimeKeepingId
   id: _currentTimeKeepingId
@@ -485,27 +509,6 @@ items:
     return:
       type: SuperOffice.Data.TimeKeepingType
     content.vb: Protected _currentTimeKeepingType As TimeKeepingType
-- uid: SuperOffice.CRM.Rows.TimeKeepingRow._currentEntityId
-  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._currentEntityId
-  id: _currentEntityId
-  parent: SuperOffice.CRM.Rows.TimeKeepingRow
-  langs:
-  - csharp
-  - vb
-  name: _currentEntityId
-  nameWithType: TimeKeepingRow._currentEntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._currentEntityId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.EntityId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentEntityId
-    return:
-      type: System.Int32
-    content.vb: Protected _currentEntityId As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow._currentStateId
   commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._currentStateId
   id: _currentStateId
@@ -674,6 +677,48 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerTable
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerTable
+  id: _currentOwnerTable
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOwnerTable
+  nameWithType: TimeKeepingRow._currentOwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerTable
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentOwnerTable
+    return:
+      type: System.Int16
+    content.vb: Protected _currentOwnerTable As Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerRecord
+  commentId: F:SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerRecord
+  id: _currentOwnerRecord
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOwnerRecord
+  nameWithType: TimeKeepingRow._currentOwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow._currentOwnerRecord
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentOwnerRecord
+    return:
+      type: System.Int32
+    content.vb: Protected _currentOwnerRecord As Integer
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TimeKeepingRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1497,37 +1542,6 @@ items:
       type: SuperOffice.Data.TimeKeepingType
     content.vb: Public Overridable Property TimeKeepingType As TimeKeepingType
   overload: SuperOffice.CRM.Rows.TimeKeepingRow.TimeKeepingType*
-- uid: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  id: EntityId
-  parent: SuperOffice.CRM.Rows.TimeKeepingRow
-  langs:
-  - csharp
-  - vb
-  name: EntityId
-  nameWithType: TimeKeepingRow.EntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. The entity we are keeping time of (a sale, project - given by time_keeping_type)'
-  remarks: >-
-    Original type in dictionary:  Int.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual int EntityId { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property EntityId As Integer
-  overload: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId*
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow.StateId
   commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.StateId
   id: StateId
@@ -1776,6 +1790,68 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.TimeKeepingRow.UpdatedCount*
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: TimeKeepingRow.OwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. The table that is the owning entity'
+  remarks: >-
+    Original type in dictionary:  TableNumber.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short OwnerTable { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property OwnerTable As Short
+  overload: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable*
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Rows.TimeKeepingRow
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: TimeKeepingRow.OwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Optional owner record id, if layout is bound to an owner'
+  remarks: >-
+    Original type in dictionary:  RecordId.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int OwnerRecord { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerRecord As Integer
+  overload: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord*
 references:
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.TimeKeepingRow.CreateNew
@@ -4741,13 +4817,6 @@ references:
   name: TimeKeepingType
   nameWithType: TimeKeepingType
   fullName: SuperOffice.Data.TimeKeepingType
-- uid: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_EntityId
-  name: EntityId
-  nameWithType: TimeKeepingRow.EntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow.StateId
   commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.StateId
   isExternal: true
@@ -4826,6 +4895,20 @@ references:
   nameWithType.vb: Short
   fullName.vb: Short
   name.vb: Short
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_OwnerTable
+  name: OwnerTable
+  nameWithType: TimeKeepingRow.OwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  commentId: P:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_OwnerRecord
+  name: OwnerRecord
+  nameWithType: TimeKeepingRow.OwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5760,13 +5843,6 @@ references:
   name: TimeKeepingType
   nameWithType: TimeKeepingRow.TimeKeepingType
   fullName: SuperOffice.CRM.Rows.TimeKeepingRow.TimeKeepingType
-- uid: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId*
-  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_EntityId
-  name: EntityId
-  nameWithType: TimeKeepingRow.EntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.EntityId
 - uid: SuperOffice.CRM.Rows.TimeKeepingRow.StateId*
   commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRow.StateId
   isExternal: true
@@ -5823,3 +5899,17 @@ references:
   name: UpdatedCount
   nameWithType: TimeKeepingRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.TimeKeepingRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable*
+  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_OwnerTable
+  name: OwnerTable
+  nameWithType: TimeKeepingRow.OwnerTable
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerTable
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html#SuperOffice_CRM_Rows_TimeKeepingRow_OwnerRecord
+  name: OwnerRecord
+  nameWithType: TimeKeepingRow.OwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.OwnerRecord

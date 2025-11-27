@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 604,
-  "TemplateId": 609
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetBestSoLanguageForTemplate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"impedit"
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetBestSoLanguageForTemplate.md)]

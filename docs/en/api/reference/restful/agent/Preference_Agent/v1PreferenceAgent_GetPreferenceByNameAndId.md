@@ -85,46 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefSection": "blanditiis",
-  "PrefKey": "sint",
-  "PrefLevel": "Database",
-  "OwnerId": 884
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetPreferenceByNameAndId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "aut",
-  "Specification": null,
-  "DisplayValue": "quidem",
-  "DisplayTooltip": "tempora",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 884,
-  "PrefDescId": 495,
-  "TableName": "Bins Group",
-  "UserPreferenceId": 717,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetPreferenceByNameAndId.md)]

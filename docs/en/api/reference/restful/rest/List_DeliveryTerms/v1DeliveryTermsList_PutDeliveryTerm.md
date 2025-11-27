@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryTerm/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 968,
-  "Name": "West-Erdman",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "UdListDefinitionId": 849,
-  "Rank": 905
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_PutDeliveryTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 45,
-  "Name": "Orn-Schimmel",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "UdListDefinitionId": 440,
-  "Rank": 363,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_PutDeliveryTerm.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentTerm/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 186,
-    "Name": "Kreiger Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 281,
-    "UdListDefinitionId": 739
-  },
-  {
-    "HeadingId": 186,
-    "Name": "Kreiger Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 281,
-    "UdListDefinitionId": 739
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_PutPaymentTermHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 780,
-    "Name": "Goodwin-Macejkovic",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 376,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_PutPaymentTermHeadings.md)]

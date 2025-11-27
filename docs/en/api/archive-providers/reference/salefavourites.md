@@ -68,14 +68,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
-|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
-|associate/isLocation|bool|Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|associate/isLocation|bool|Is a location: Is a location| x |
 |saleUdef/SuperOffice:1|string|saleshorttext| x |
 |saleUdef/SuperOffice:2|string|salelongtext| x |
 |saleUdef/SuperOffice:3|int|salenumber| x |
@@ -135,7 +136,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=originalStage,stage,createdByWorkflow
+GET /api/v1/archive/salefavourites?$select=stageId,stageName,createdByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

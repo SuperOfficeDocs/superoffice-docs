@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/DuplicateTile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashTileId": 243,
-  "Name": "Senger LLC"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_DuplicateTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 609,
-  "DashboardId": 985,
-  "Height": 769,
-  "Width": 28,
-  "Rank": 847,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_DuplicateTile.md)]

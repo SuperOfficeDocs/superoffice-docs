@@ -83,44 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Kerluke-Legros",
-  "DeviceName": "Goodwin LLC",
-  "DeviceIdentifier": "sit",
-  "ForeignDevice": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_SaveDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 382,
-  "Name": "Bashirian LLC",
-  "CreatedDate": "2025-05-31T02:30:47.366331+02:00",
-  "UpdatedDate": "2024-09-07T02:30:47.366331+02:00",
-  "AssociateFullName": "Dr. Westley Kyleigh Wolff",
-  "CreatedBy": "minima",
-  "UpdatedBy": "numquam",
-  "DeviceIdentifier": "harum",
-  "ForeignAppId": 784,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_SaveDeviceByIdentifier.md)]

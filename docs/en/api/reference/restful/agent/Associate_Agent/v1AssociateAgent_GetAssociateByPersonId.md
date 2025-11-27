@@ -85,52 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Associate/GetAssociateByPersonId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 518
-}
-```
+[!include[sample request](../../samples/agent/request/v1AssociateAgent_GetAssociateByPersonId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 952,
-  "Name": "Paucek-Friesen",
-  "PersonId": 530,
-  "Rank": 806,
-  "Tooltip": "in",
-  "Type": "AnonymousAssociate",
-  "GroupIdx": 271,
-  "FullName": "Miss Mariela Veum",
-  "FormalName": "Nienow-Gaylord",
-  "Deleted": true,
-  "EjUserId": 920,
-  "UserName": "Kemmer-Roob",
-  "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "atque"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "et"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 159
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AssociateAgent_GetAssociateByPersonId.md)]

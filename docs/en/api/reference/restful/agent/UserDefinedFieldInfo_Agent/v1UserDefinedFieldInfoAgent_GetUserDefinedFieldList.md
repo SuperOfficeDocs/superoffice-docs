@@ -106,68 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerType": "Appointment"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 911,
-    "ColumnId": 107,
-    "FieldDefault": "nihil",
-    "FieldHeight": 925,
-    "FieldLabel": "quaerat",
-    "FieldLeft": 344,
-    "FieldTop": 832,
-    "FieldType": "Checkbox",
-    "FieldWidth": 274,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 328,
-    "LabelLeft": 894,
-    "LabelTop": 902,
-    "LabelWidth": 520,
-    "LastVersionId": 497,
-    "ListTableId": 104,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 988,
-    "ProgId": "modi",
-    "IsReadOnly": true,
-    "ShortLabel": "quam",
-    "TabOrder": 201,
-    "TextLength": 717,
-    "Tooltip": "officia",
-    "UdefIdentity": 702,
-    "UDListDefinitionId": 432,
-    "Justification": "Center",
-    "Version": 468,
-    "TemplateVariableName": "Veum-Eichmann",
-    "HasBeenPublished": true,
-    "MdoListName": "Lubowitz LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 708
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList.md)]

@@ -74,43 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/{udListDefinitionName}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 237,
-  "Name": "Abbott-Moore",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 102,
-  "Rank": 736
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_AddFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 923,
-  "Name": "Hodkiewicz, Vandervort and Conroy",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 692,
-  "Rank": 726,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_AddFromListName.md)]

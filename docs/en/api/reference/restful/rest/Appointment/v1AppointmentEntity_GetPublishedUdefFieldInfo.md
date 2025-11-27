@@ -90,61 +90,8 @@ AppointmentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AppointmentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 954,
-  "ColumnId": 193,
-  "FieldDefault": "dolores",
-  "FieldHeight": 804,
-  "FieldLabel": "nulla",
-  "FieldLeft": 637,
-  "FieldTop": 572,
-  "FieldType": "Checkbox",
-  "FieldWidth": 499,
-  "FormatMask": "veniam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 21,
-  "LabelLeft": 331,
-  "LabelTop": 594,
-  "LabelWidth": 472,
-  "LastVersionId": 638,
-  "ListTableId": 925,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 206,
-  "ProgId": "quis",
-  "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 583,
-  "TextLength": 501,
-  "Tooltip": "numquam",
-  "UdefIdentity": 699,
-  "UDListDefinitionId": 657,
-  "Justification": "Center",
-  "Version": 135,
-  "TemplateVariableName": "Smith, Jewess and Wuckert",
-  "HasBeenPublished": false,
-  "MdoListName": "Simonis-Tremblay",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 333
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_GetPublishedUdefFieldInfo.md)]

@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Person/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 11,
-  "ColumnId": 491,
-  "FieldDefault": "totam",
-  "FieldHeight": 948,
-  "FieldLabel": "id",
-  "FieldLeft": 750,
-  "FieldTop": 635,
-  "FieldType": "Checkbox",
-  "FieldWidth": 645,
-  "FormatMask": "necessitatibus",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 651,
-  "LabelLeft": 940,
-  "LabelTop": 492,
-  "LabelWidth": 712,
-  "LastVersionId": 424,
-  "ListTableId": 141,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 638,
-  "ProgId": "sint",
-  "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 786,
-  "TextLength": 694,
-  "Tooltip": "commodi",
-  "UdefIdentity": 395,
-  "UDListDefinitionId": 230,
-  "Justification": "Center",
-  "Version": 87,
-  "TemplateVariableName": "Roob, Waters and Zulauf",
-  "HasBeenPublished": false,
-  "MdoListName": "Gleason-Spencer",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_AddUdefField.md)]

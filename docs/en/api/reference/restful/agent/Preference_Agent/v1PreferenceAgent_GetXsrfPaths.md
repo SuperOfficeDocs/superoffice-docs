@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetXsrfPaths
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Hostname": "error"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetXsrfPaths.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "amet",
-  "ducimus"
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetXsrfPaths.md)]

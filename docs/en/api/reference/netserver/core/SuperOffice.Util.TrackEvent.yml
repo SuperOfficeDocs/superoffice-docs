@@ -6,8 +6,10 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.TrackEvent.#ctor(System.String)
+  - SuperOffice.Util.TrackEvent.#ctor(System.String,System.ValueTuple{System.String,System.Object}[])
   - SuperOffice.Util.TrackEvent.ContextIdentifier
   - SuperOffice.Util.TrackEvent.EventName
+  - SuperOffice.Util.TrackEvent.EventProperties
   - SuperOffice.Util.TrackEvent.UserId
   langs:
   - csharp
@@ -61,6 +63,32 @@ items:
   nameWithType.vb: TrackEvent.New(String)
   fullName.vb: SuperOffice.Util.TrackEvent.New(String)
   name.vb: New(String)
+- uid: SuperOffice.Util.TrackEvent.#ctor(System.String,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Util.TrackEvent.#ctor(System.String,System.ValueTuple{System.String,System.Object}[])
+  id: '#ctor(System.String,System.ValueTuple{System.String,System.Object}[])'
+  parent: SuperOffice.Util.TrackEvent
+  langs:
+  - csharp
+  - vb
+  name: TrackEvent(string, (string argName, object argVal)[])
+  nameWithType: TrackEvent.TrackEvent(string, (string argName, object argVal)[])
+  fullName: SuperOffice.Util.TrackEvent.TrackEvent(string, (string argName, object argVal)[])
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TrackEvent(string eventName, (string argName, object argVal)[] args)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: args
+      type: System.ValueTuple{System.String,System.Object}[]
+    content.vb: Public Sub New(eventName As String, args As (argName As String, argVal As Object)())
+  overload: SuperOffice.Util.TrackEvent.#ctor*
+  nameWithType.vb: TrackEvent.New(String, (argName As String, argVal As Object)())
+  fullName.vb: SuperOffice.Util.TrackEvent.New(String, (argName As String, argVal As Object)())
+  name.vb: New(String, (argName As String, argVal As Object)())
 - uid: SuperOffice.Util.TrackEvent.ContextIdentifier
   commentId: P:SuperOffice.Util.TrackEvent.ContextIdentifier
   id: ContextIdentifier
@@ -130,6 +158,27 @@ items:
       type: System.String
     content.vb: Public Property EventName As String
   overload: SuperOffice.Util.TrackEvent.EventName*
+- uid: SuperOffice.Util.TrackEvent.EventProperties
+  commentId: P:SuperOffice.Util.TrackEvent.EventProperties
+  id: EventProperties
+  parent: SuperOffice.Util.TrackEvent
+  langs:
+  - csharp
+  - vb
+  name: EventProperties
+  nameWithType: TrackEvent.EventProperties
+  fullName: SuperOffice.Util.TrackEvent.EventProperties
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Dictionary<string, object> EventProperties { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Property EventProperties As Dictionary(Of String, Object)
+  overload: SuperOffice.Util.TrackEvent.EventProperties*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -654,6 +703,69 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.ValueTuple{System.String,System.Object}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string parameter, object argument)[]
+  nameWithType: (string parameter, object argument)[]
+  fullName: (string parameter, object argument)[]
+  nameWithType.vb: (parameter As String, argument As Object)()
+  fullName.vb: (parameter As String, argument As Object)()
+  name.vb: (parameter As String, argument As Object)()
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: )
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.TrackEvent.ContextIdentifier*
   commentId: Overload:SuperOffice.Util.TrackEvent.ContextIdentifier
   isExternal: true
@@ -675,3 +787,128 @@ references:
   name: EventName
   nameWithType: TrackEvent.EventName
   fullName: SuperOffice.Util.TrackEvent.EventName
+- uid: SuperOffice.Util.TrackEvent.EventProperties*
+  commentId: Overload:SuperOffice.Util.TrackEvent.EventProperties
+  isExternal: true
+  href: SuperOffice.Util.TrackEvent.html#SuperOffice_Util_TrackEvent_EventProperties
+  name: EventProperties
+  nameWithType: TrackEvent.EventProperties
+  fullName: SuperOffice.Util.TrackEvent.EventProperties
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

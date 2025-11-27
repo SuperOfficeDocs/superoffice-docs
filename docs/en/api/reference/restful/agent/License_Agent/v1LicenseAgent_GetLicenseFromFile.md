@@ -75,41 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetLicenseFromFile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FileContent": "ut"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetLicenseFromFile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "CanBeActivated": false,
-  "New": null,
-  "Current": null,
-  "ExtendedModuleLicenses": [
-    {
-      "New": null,
-      "Current": null,
-      "NumberOfLicensesInUse": 174,
-      "NumberOfLicensesFree": 703,
-      "NumberOfLicensesAdded": 915,
-      "NumberOfLicensesNewTotal": 212,
-      "NumberOfLicensesNewFree": 438,
-      "NumberOfLicensesTotal": 760
-    }
-  ],
-  "AccumulatedNextCheckDate": "2008-12-07T02:30:47.3819557+01:00"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetLicenseFromFile.md)]

@@ -108,71 +108,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Relation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 918,
-  "SourcePersonId": 686,
-  "DestinationContactId": 315,
-  "DestinationPersonId": 308,
-  "RelationId": 352,
-  "Comment": "minima",
-  "RelationDefinitionId": 718,
-  "Reversed": 922,
-  "UpdatedDate": "2009-08-09T02:30:52.506791+02:00",
-  "CreatedDate": "2004-09-03T02:30:52.506791+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Cartwright, Dach and Schamberger",
-  "SourcePersonName": "Kuphal-Wolff",
-  "DestinationContactName": "Maggio Group",
-  "DestinationPersonName": "Cole LLC",
-  "ActiveText": "dolorum",
-  "PassiveText": "est"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ContactRelationEntity_PostContactRelationEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceContactId": 483,
-  "SourcePersonId": 459,
-  "DestinationContactId": 702,
-  "DestinationPersonId": 338,
-  "RelationId": 35,
-  "Comment": "vel",
-  "RelationDefinitionId": 217,
-  "Reversed": 652,
-  "UpdatedDate": "2007-02-25T02:30:52.506791+01:00",
-  "CreatedDate": "2008-09-05T02:30:52.506791+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "SourceContactName": "Carroll-Morissette",
-  "SourcePersonName": "Maggio, Hagenes and Cartwright",
-  "DestinationContactName": "Hyatt Group",
-  "DestinationPersonName": "Wintheiser-Wunsch",
-  "ActiveText": "error",
-  "PassiveText": "inventore",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactRelationEntity_PostContactRelationEntity.md)]

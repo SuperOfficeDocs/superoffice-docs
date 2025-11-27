@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TicketMessage/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketMessageEntity_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Thompson-Greenfelder",
-  "DisplayName": "Wintheiser Group",
-  "Description": "Centralized transitional moratorium",
-  "ShortLabel": "aut",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 558,
-  "TemplateVariableName": "Dibbert-Price"
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketMessageEntity_GetCustomFieldInfo.md)]

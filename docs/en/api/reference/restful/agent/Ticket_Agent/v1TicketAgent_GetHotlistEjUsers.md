@@ -70,32 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetHotlistEjUsers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 225,
-  "SkipAssociateIds": [
-    134,
-    423
-  ],
-  "NotifyType": "ActiveTickets",
-  "Channel": "Email"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetHotlistEjUsers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  953,
-  825
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetHotlistEjUsers.md)]

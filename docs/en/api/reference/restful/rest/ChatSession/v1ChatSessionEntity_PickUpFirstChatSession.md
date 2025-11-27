@@ -84,58 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/Pickup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_PickUpFirstChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 134,
-  "TopicId": 470,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "unde",
-  "CustomerHost": "tempora",
-  "CustomerName": "Sipes, Mayert and Dibbert",
-  "CustomerEmail": "marcos.fahey@stokesborer.us",
-  "CustomerPhone": "(340)913-6834 x705",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Mitchell-Kunze",
-  "Status": "Closed",
-  "FirstMessage": "quaerat",
-  "LastMessage": "cupiditate",
-  "WhenRequested": "2017-01-30T02:30:52.413044+01:00",
-  "WhenStarted": "1999-12-04T02:30:52.413044+01:00",
-  "WhenEnded": "2007-08-26T02:30:52.413044+02:00",
-  "WhenIdle": "2015-07-05T02:30:52.413044+02:00",
-  "WhenFetched": "2001-07-05T02:30:52.413044+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 446,
-  "AlertLevel": 195,
-  "Rank": 36,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 584,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_PickUpFirstChatSession.md)]

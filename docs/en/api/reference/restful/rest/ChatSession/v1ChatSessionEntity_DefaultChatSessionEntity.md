@@ -85,58 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatSession/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_DefaultChatSessionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 621,
-  "TopicId": 924,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "quae",
-  "CustomerHost": "nam",
-  "CustomerName": "Gaylord-Kuphal",
-  "CustomerEmail": "makayla.feeney@carrollcorwin.biz",
-  "CustomerPhone": "(018)620-9116 x264",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Schneider Group",
-  "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2007-06-11T02:30:52.350546+02:00",
-  "WhenStarted": "2003-07-24T02:30:52.350546+02:00",
-  "WhenEnded": "2023-03-30T02:30:52.350546+02:00",
-  "WhenIdle": "2025-08-29T02:30:52.350546+02:00",
-  "WhenFetched": "2010-02-09T02:30:52.350546+01:00",
-  "SessionKey": "voluptatum",
-  "InitialQueuePos": 993,
-  "AlertLevel": 705,
-  "Rank": 189,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 755,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_DefaultChatSessionEntity.md)]

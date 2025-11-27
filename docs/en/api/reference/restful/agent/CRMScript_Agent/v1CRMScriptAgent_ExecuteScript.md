@@ -71,27 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptId": 460,
-  "Parameters": {
-    "Parameters1": "consectetur",
-    "Parameters2": "quaerat"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"temporibus"
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScript.md)]

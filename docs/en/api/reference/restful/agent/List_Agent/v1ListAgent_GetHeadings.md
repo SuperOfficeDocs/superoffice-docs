@@ -88,80 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetHeadings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 294,
-  "ListItemId": 74,
-  "ShowDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 327,
-    "Name": "Batz-Reilly",
-    "ToolTip": "Facere rerum voluptate qui ipsa vitae aut.",
-    "Deleted": false,
-    "Rank": 951,
-    "Type": "aspernatur",
-    "ColorBlock": 39,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "2004-01-26T02:30:47.4132046+01:00",
-    "ChildItems": [
-      {
-        "Id": 277,
-        "Name": "VonRueden, Cassin and Schmitt",
-        "ToolTip": "Vero architecto veniam.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "ut",
-        "ColorBlock": 276,
-        "IconHint": "nesciunt",
-        "Selected": true,
-        "LastChanged": "2018-12-22T02:30:47.4132046+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quas",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Maximilian Lebsack",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 940
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Prof. Hank Brent Bahringer",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetHeadings.md)]

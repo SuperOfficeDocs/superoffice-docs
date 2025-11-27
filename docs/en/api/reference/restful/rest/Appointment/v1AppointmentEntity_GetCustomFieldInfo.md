@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Runolfsdottir-Herman",
-  "DisplayName": "Auer, Osinski and Anderson",
-  "Description": "Upgradable uniform application",
-  "ShortLabel": "et",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 496,
-  "TemplateVariableName": "Skiles Inc and Sons"
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_GetCustomFieldInfo.md)]

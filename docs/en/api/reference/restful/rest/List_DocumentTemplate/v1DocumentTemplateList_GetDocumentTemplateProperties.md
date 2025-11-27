@@ -61,21 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTemplateProperties.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "harum",
-  "2": "et"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTemplateProperties.md)]

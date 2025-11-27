@@ -90,65 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptUniqueId": "molestiae",
-  "EventData": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "ChatAfterSaveNewMessage",
-  "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "numquam"
-  },
-  "BlockExecution": false,
-  "NavigateTo": "sit",
-  "Message": "laborum",
-  "ShowDialog": "autem",
-  "OutputValues": {
-    "OutputValues1": "asperiores",
-    "OutputValues2": "voluptas"
-  },
-  "StateValues": {
-    "StateValues1": "totam",
-    "StateValues2": "impedit"
-  },
-  "Exception": "minus",
-  "ParserValues": {
-    "ParserValues1": "non",
-    "ParserValues2": "dolore"
-  },
-  "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "ullam"
-  },
-  "CgiContent": "aut",
-  "Headers": {
-    "Headers1": "sunt",
-    "Headers2": "ipsa"
-  },
-  "TraceExecution": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId.md)]

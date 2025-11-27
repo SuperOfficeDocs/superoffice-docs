@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | preferenceDescriptionId | int32 | **Required** The identity of the PreferenceDescription |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescription?preferenceDescriptionId=569
+POST /api/v1/Agents/Preference/DeletePreferenceDescription?preferenceDescriptionId=73
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/DeletePreferenceDescription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_DeletePreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_DeletePreferenceDescription.md)]

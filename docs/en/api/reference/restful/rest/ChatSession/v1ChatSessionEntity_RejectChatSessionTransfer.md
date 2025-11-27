@@ -88,58 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_RejectChatSessionTransfer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 576,
-  "TopicId": 495,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "provident",
-  "CustomerName": "Lakin Inc and Sons",
-  "CustomerEmail": "reyes.collier@lehner.ca",
-  "CustomerPhone": "665-545-4386 x909",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Grady Group",
-  "Status": "Closed",
-  "FirstMessage": "blanditiis",
-  "LastMessage": "sit",
-  "WhenRequested": "2000-02-04T02:30:52.3974196+01:00",
-  "WhenStarted": "2001-05-25T02:30:52.3974196+02:00",
-  "WhenEnded": "2016-12-29T02:30:52.3974196+01:00",
-  "WhenIdle": "2014-08-27T02:30:52.3974196+02:00",
-  "WhenFetched": "2002-09-07T02:30:52.3974196+02:00",
-  "SessionKey": "repellendus",
-  "InitialQueuePos": 319,
-  "AlertLevel": 457,
-  "Rank": 404,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 933,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_RejectChatSessionTransfer.md)]

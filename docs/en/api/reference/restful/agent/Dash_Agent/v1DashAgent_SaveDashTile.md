@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashTile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 174,
-  "DashboardId": 941,
-  "Height": 588,
-  "Width": 278,
-  "Rank": 640,
-  "DashTileDefinition": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 19,
-  "DashboardId": 54,
-  "Height": 918,
-  "Width": 465,
-  "Rank": 609,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashTile.md)]

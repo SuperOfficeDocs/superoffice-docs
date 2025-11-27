@@ -65,22 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetVideoMeetingConnectedState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetVideoMeetingConnectedState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsConnected": false,
-  "ProviderId": "id",
-  "LoginUrl": "http://www.example.com/"
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetVideoMeetingConnectedState.md)]

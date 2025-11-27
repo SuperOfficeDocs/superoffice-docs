@@ -84,50 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DeltaQuery": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ConfigurableScreenDeltaId": 985,
-    "Name": "Erdman, Donnelly and Fritsch",
-    "Description": "Profound executive neural-net",
-    "DeltaJson": "nihil",
-    "DeltaType": "CustomFields",
-    "DeltaState": "Draft",
-    "RecipeId": "animi",
-    "UpdatedDate": "2006-05-05T02:30:46.9288431+02:00",
-    "CreatedDate": "2025-01-18T02:30:46.9288431+01:00",
-    "UpdatedBy": null,
-    "CreatedBy": null,
-    "AppliesToIds": [
-      105,
-      250
-    ],
-    "AppliesToKey": "porro",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery.md)]

@@ -58,34 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_CreateDefaultCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 726,
-  "Name": "Prosacco Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 594,
-  "Rate": 27648.147999999997,
-  "Units": 27795.446,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_CreateDefaultCurrencyEntity.md)]

@@ -73,36 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CacheFolderList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CacheFolderList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Littel LLC",
-    "Delimiter": "consectetur",
-    "Flags": "adipisci",
-    "TotalItems": 562,
-    "UnreadItems": 921,
-    "Subscribed": false,
-    "EmailFolderId": 783,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CacheFolderList.md)]

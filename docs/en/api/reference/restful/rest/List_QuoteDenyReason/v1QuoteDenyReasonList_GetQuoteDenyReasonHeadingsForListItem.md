@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_GetQuoteDenyReasonHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 894,
-    "Name": "Buckridge-Ledner",
-    "ToolTip": "Officiis molestiae eveniet vero.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "qui",
-    "ColorBlock": 133,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2017-01-15T02:30:53.3973865+01:00",
-    "ChildItems": [
-      {
-        "Id": 170,
-        "Name": "Schaden LLC",
-        "ToolTip": "Aut dolor iusto et aut dolorum est placeat.",
-        "Deleted": false,
-        "Rank": 643,
-        "Type": "libero",
-        "ColorBlock": 135,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2010-01-30T02:30:53.3973865+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "dignissimos",
-        "Hidden": true,
-        "FullName": "Kamren Ritchie",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 329
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Dedric Strosin III",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 592
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_GetQuoteDenyReasonHeadingsForListItem.md)]

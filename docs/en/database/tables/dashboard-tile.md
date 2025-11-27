@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# dashboard\_tile Table (482)
+# dashboard\_tile Table (485)
 
 Represents one tile in the dashboard
 

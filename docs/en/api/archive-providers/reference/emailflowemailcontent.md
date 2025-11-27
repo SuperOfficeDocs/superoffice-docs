@@ -18,7 +18,7 @@ Lists all email flow message content
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"SMessage"|[SMessage]|
+|"SMessage"|SMessage|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -260,7 +260,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActive
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/type,shipment/project/projectAssociate/credentialType,shipment/project/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetPageConfiguration
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Application": "eius",
-  "Instance": "delectus",
-  "Page": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetPageConfiguration.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"cupiditate"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetPageConfiguration.md)]

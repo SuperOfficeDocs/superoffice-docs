@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/RemoveSystemMessageForAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "OnlineappId": 993,
-  "SystemMessageId": "ab",
-  "AssociateId": 827
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_RemoveSystemMessageForAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_RemoveSystemMessageForAssociate.md)]

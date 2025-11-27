@@ -76,37 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/IsPasswordValidWithReason
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 55,
-  "Type": "AnonymousAssociate",
-  "PersonId": 38,
-  "Password": "maxime"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_IsPasswordValidWithReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "aggregate synergistic action-items",
-  "Result": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_IsPasswordValidWithReason.md)]

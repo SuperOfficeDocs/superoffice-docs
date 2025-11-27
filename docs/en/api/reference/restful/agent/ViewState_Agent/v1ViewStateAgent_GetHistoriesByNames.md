@@ -78,44 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetHistoriesByNames
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "HistoryNames": [
-    "Ferry-Rolfson",
-    "Wolf, Maggio and Dach"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetHistoriesByNames.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Rank": 439,
-    "Id": 259,
-    "HistoryName": "Batz-Ortiz",
-    "HistoryId": 861,
-    "AssociateId": 626,
-    "Name": "Wolff Group",
-    "ItemInfo": "ducimus",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 389
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetHistoriesByNames.md)]

@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | workflowWaitForActionId | int32 | **Required** The identity of the WorkflowWaitForAction |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=910
+POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=290
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_DeleteWorkflowWaitForAction.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_DeleteWorkflowWaitForAction.md)]

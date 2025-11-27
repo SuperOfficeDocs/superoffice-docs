@@ -80,65 +80,8 @@ HierarchyEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Hierarchy/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1HierarchyEntity_GetHierarchyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 HierarchyEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 12,
-  "Domain": "Dashboards",
-  "Name": "Schinner, Deckow and Shields",
-  "Fullname": "nisi",
-  "ParentId": 590,
-  "Children": [
-    {
-      "HierarchyId": 131,
-      "Domain": "Dashboards",
-      "Name": "Aufderhar, Rosenbaum and Bosco",
-      "Fullname": "aspernatur",
-      "ParentId": 769,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2007-01-16T02:30:52.6630355+01:00",
-      "RegisteredAssociateId": 178,
-      "Updated": "2020-12-24T02:30:52.6630355+01:00",
-      "UpdatedAssociateId": 433,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
-        }
-      }
-    }
-  ],
-  "Registered": "2012-08-06T02:30:52.6630355+02:00",
-  "RegisteredAssociateId": 868,
-  "Updated": "2015-09-02T02:30:52.6630355+02:00",
-  "UpdatedAssociateId": 281,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1HierarchyEntity_GetHierarchyEntity.md)]

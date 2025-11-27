@@ -67,34 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetSmsConfig
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetSmsConfig.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "est",
-  "NsPluginSender": "quis",
-  "NsPluginConfig": {
-    "NsPluginConfig1": "vitae",
-    "NsPluginConfig2": "qui"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetSmsConfig.md)]

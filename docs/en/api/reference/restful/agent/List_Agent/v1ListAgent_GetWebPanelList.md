@@ -85,51 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetWebPanelList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetWebPanelList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebPanelId": 709,
-    "Name": "Johnson, Jenkins and Rogahn",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 293,
-    "UrlEncoding": "ANSI",
-    "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Heathcote-Kihn",
-    "Url": "http://www.example.com/",
-    "ProgId": "aut",
-    "Icon": 15,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetWebPanelList.md)]

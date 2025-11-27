@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveCurrencyEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 578,
-  "Name": "Feil-D'Amore",
-  "Tooltip": "porro",
-  "Rank": 754,
-  "Rate": 764.696,
-  "Units": 20540.236,
-  "Deleted": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 862,
-  "Name": "Ratke, Anderson and Sporer",
-  "Tooltip": "nisi",
-  "Rank": 744,
-  "Rate": 17707.1,
-  "Units": 1585.8039999999999,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveCurrencyEntity.md)]

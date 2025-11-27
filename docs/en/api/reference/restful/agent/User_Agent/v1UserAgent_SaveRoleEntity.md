@@ -87,55 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SaveRoleEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 815,
-  "Name": "Bogisich, Powlowski and Bednar",
-  "Tooltip": "sint",
-  "RoleType": "Anonymous",
-  "Deleted": 109,
-  "Rank": 116,
-  "Created": "2003-10-26T02:30:48.0850579+01:00",
-  "UseCategories": 222,
-  "CreatedBy": null,
-  "Updated": "2015-05-06T02:30:48.0850579+02:00",
-  "UpdatedBy": null,
-  "DataRights": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SaveRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 963,
-  "Name": "Streich-Koepp",
-  "Tooltip": "quia",
-  "RoleType": "Anonymous",
-  "Deleted": 5,
-  "Rank": 148,
-  "Created": "2010-02-21T02:30:48.0850579+01:00",
-  "UseCategories": 636,
-  "CreatedBy": null,
-  "Updated": "2013-01-07T02:30:48.0850579+01:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SaveRoleEntity.md)]

@@ -73,78 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_CreateDefaultSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeId": 969,
-  "Name": "Mayert-Raynor",
-  "Tooltip": "eum",
-  "Rank": 581,
-  "DurationUnit": "Century",
-  "SaleDuration": 891,
-  "SaleTypeCatId": 787,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 910,
-  "QuoteLinesTemplate": 273,
-  "ConfirmationLinesTemplate": 329,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 511,
-  "MinEarningPercent": 137,
-  "GroupQuoteLinesBy": 735,
-  "SortGroupLinesBy": 995,
-  "Stages": [
-    {
-      "Id": 784,
-      "Name": "McLaughlin, Bartoletti and Robel",
-      "ToolTip": "Provident in quia et sequi.",
-      "Deleted": false,
-      "Rank": 446,
-      "Type": "vitae",
-      "ColorBlock": 989,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "2012-06-01T02:30:53.4286352+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "vitae",
-      "Hidden": false,
-      "FullName": "Richmond Gerlach",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_CreateDefaultSaleTypeEntity.md)]

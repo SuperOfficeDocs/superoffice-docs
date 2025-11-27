@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SetGeneratedPassword
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 19
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SetGeneratedPassword.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"cum"
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SetGeneratedPassword.md)]

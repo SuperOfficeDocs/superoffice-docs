@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Priority/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 519,
-    "Name": "Gutkowski-Lueilwitz",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 515,
-    "UdListDefinitionId": 391
-  },
-  {
-    "HeadingId": 519,
-    "Name": "Gutkowski-Lueilwitz",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 515,
-    "UdListDefinitionId": 391
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_PutPriorityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 781,
-    "Name": "Doyle, Marquardt and Murray",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 690,
-    "UdListDefinitionId": 992,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_PutPriorityHeadings.md)]

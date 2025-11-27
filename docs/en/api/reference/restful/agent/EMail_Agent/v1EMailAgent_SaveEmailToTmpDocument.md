@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Email": null,
-  "FolderId": 274,
-  "StripAttachments": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_SaveEmailToTmpDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"earlene.walsh@connelly.us"
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_SaveEmailToTmpDocument.md)]

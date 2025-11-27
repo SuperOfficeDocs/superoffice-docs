@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -81,73 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 476,
-    "Name": "Pouros-Greenfelder",
-    "ToolTip": "Ex accusamus dolor laborum eum consequatur iste assumenda.",
-    "Deleted": false,
-    "Rank": 764,
-    "Type": "quis",
-    "ColorBlock": 92,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2005-06-21T02:30:53.194268+02:00",
-    "ChildItems": [
-      {
-        "Id": 459,
-        "Name": "Douglas, Schmeler and Nikolaus",
-        "ToolTip": "Non quia est cum.",
-        "Deleted": false,
-        "Rank": 261,
-        "Type": "cum",
-        "ColorBlock": 71,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "2005-11-19T02:30:53.194268+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Ms. Uriah Mittie Hamill I",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 957
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Miss Jodie Rau V",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetHeadings.md)]

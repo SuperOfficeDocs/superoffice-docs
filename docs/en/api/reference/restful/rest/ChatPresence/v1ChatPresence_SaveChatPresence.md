@@ -55,42 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Presence/SaveAll
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UserId": 808,
-    "DisplayName": "Lueilwitz Inc and Sons",
-    "OngoingChats": 171,
-    "Present": false,
-    "ChatTopics": [
-      306,
-      809
-    ]
-  },
-  {
-    "UserId": 808,
-    "DisplayName": "Lueilwitz Inc and Sons",
-    "OngoingChats": 171,
-    "Present": false,
-    "ChatTopics": [
-      306,
-      809
-    ]
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ChatPresence_SaveChatPresence.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ChatPresence_SaveChatPresence.md)]

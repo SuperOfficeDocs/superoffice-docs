@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/SaleHasQuote
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 120
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_SaleHasQuote.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-true
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_SaleHasQuote.md)]

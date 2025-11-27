@@ -166,52 +166,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Yundt LLC",
-  "Columns": "voluptatibus",
-  "SortOrder": "porro",
-  "Restriction": "repellendus",
-  "Entities": "aut",
-  "Page": 856,
-  "PageSize": 254,
-  "Context": "nostrum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListByColumnsWithContext2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Christiansen-Stark",
-    "PrimaryKey": 851,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "necessitatibus",
-        "TooltipHint": "ipsa",
-        "LinkHint": "dignissimos"
-      }
-    },
-    "LinkHint": "rem",
-    "StyleHint": "in",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 159
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListByColumnsWithContext2.md)]

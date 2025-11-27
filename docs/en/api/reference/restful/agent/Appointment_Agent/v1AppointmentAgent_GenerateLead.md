@@ -86,81 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GenerateLead
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateIdForNewContact": 213,
-  "LeadDescription": "Organized dedicated instruction set",
-  "Relation": "iste",
-  "RelationId": 453,
-  "LeadContact": "culpa",
-  "LeadPersonFirstname": "Tyree",
-  "LeadPersonLastname": "Beatty",
-  "LeadPersonEmail": "lavonne@schaefer.biz",
-  "LeadPhoneNumber": "405475",
-  "CreatorsContact": "ipsam",
-  "CreatorsFirstname": "Wanda",
-  "CreatorsLastname": "Heller"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GenerateLead.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RequestedContacts": [
-    {
-      "ContactId": 634,
-      "Name": "Brown-Willms",
-      "OrgNr": "1400053",
-      "Department": "",
-      "URL": "http://www.example.com/",
-      "City": "sint",
-      "DirectPhone": "446.894.3182 x588",
-      "AssociateId": 788,
-      "CountryId": 789,
-      "EmailAddress": "enola@quitzonpfeffer.com",
-      "Kananame": "nemo",
-      "EmailAddressName": "velda@fritsch.info",
-      "URLName": "http://www.example.com/",
-      "AssociateFullName": "Mireille Weber DVM",
-      "BusinessName": "Information Technology",
-      "CategoryName": "VIP Customer",
-      "CountryName": "Sokovia",
-      "Address": null,
-      "FormattedAddress": "dolor",
-      "FullName": "Wiley Jenkins",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 16,
-      "Number1": "903496",
-      "Number2": "420967",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 167
-        }
-      }
-    }
-  ],
-  "RequestedPerson": null,
-  "SalesRep": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GenerateLead.md)]

@@ -66,37 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Aug 2018 02:30:52 G8T
-
-{
-  "ForeignDeviceId": 910,
-  "Name": "Maggio, Medhurst and Labadie",
-  "CreatedDate": "2002-07-10T02:30:52.6474115+02:00",
-  "UpdatedDate": "2018-08-05T02:30:52.6474115+02:00",
-  "AssociateFullName": "Prof. Emmitt Roberts PhD",
-  "CreatedBy": "tempora",
-  "UpdatedBy": "nobis",
-  "DeviceIdentifier": "reiciendis",
-  "ForeignAppId": 582,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetDeviceByIdentifier.md)]

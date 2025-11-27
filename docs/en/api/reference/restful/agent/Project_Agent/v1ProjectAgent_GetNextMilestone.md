@@ -126,87 +126,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetNextMilestone
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 278
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetNextMilestone.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 788,
-  "StartDate": "2005-05-04T02:30:47.6788214+02:00",
-  "EndDate": "2025-07-28T02:30:47.6788214+02:00",
-  "Type": "BookingForChecklist",
-  "Task": "numquam",
-  "AssociateFullName": "Joan Barton Jr.",
-  "ContactName": "Pacocha-Klocko",
-  "Description": "Total reciprocal protocol",
-  "PersonFullName": "Mr. Ceasar Sandrine Gleichner",
-  "PersonId": 973,
-  "ContactId": 60,
-  "ProjectId": 431,
-  "ProjectName": "Parisian Inc and Sons",
-  "IsPublished": false,
-  "AssociateId": 98,
-  "ColorIndex": 54,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
-  "Private": "PrivateGroup",
-  "PriorityId": 707,
-  "PriorityName": "Fritsch-VonRueden",
-  "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2012-09-22T02:30:47.6788214+02:00",
-  "AssignmentStatus": "Assigning",
-  "InvitationStatus": "Accepted",
-  "BookingType": "None",
-  "Completed": "Completed",
-  "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-03-28T02:30:47.6788214+01:00",
-  "RecurringEndDate": "2021-07-19T02:30:47.6788214+02:00",
-  "MotherId": 470,
-  "AssignedBy": 112,
-  "AssignedByFullName": "Victoria Leannon",
-  "RejectReason": "",
-  "Location": "perferendis",
-  "AlarmLeadTime": "eum",
-  "SaleId": 791,
-  "SaleName": "Runolfsdottir, Krajcik and Marquardt",
-  "AssociateName": "Cummerata Group",
-  "CreatedDate": "2012-01-21T02:30:47.6788214+01:00",
-  "CreatedBy": "quas",
-  "CreatedByFullName": "Afton Aufderhar",
-  "CreatedByAssociateId": 664,
-  "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-  "OwnedExternally": "Google",
-  "MotherAssociateId": 631,
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 14,
-  "Title": "omnis",
-  "Agenda": "eum",
-  "InternalNotes": "rerum",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 118
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetNextMilestone.md)]

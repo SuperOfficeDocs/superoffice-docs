@@ -50,18 +50,8 @@ DashTile deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/DashTile/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DashTile_DeleteDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 DashTile deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1DashTile_DeleteDashTile.md)]

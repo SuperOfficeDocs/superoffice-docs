@@ -70,36 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetInstalledLanguages
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetInstalledLanguages.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageInfoId": 390,
-    "LCID": 341,
-    "EnglishName": "Hamill-Olson",
-    "NativeName": "Connelly, Schulist and Green",
-    "ThreeLetterISOLanguageName": "Gibson, Walter and Zieme",
-    "TwoLetterISOLanguageName": "Grimes, Runte and Streich",
-    "IsBuiltIn": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetInstalledLanguages.md)]

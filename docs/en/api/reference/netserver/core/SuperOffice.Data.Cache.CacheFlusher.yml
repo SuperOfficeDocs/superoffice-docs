@@ -135,15 +135,11 @@ items:
   summary: Flushes the caches
   example: []
   syntax:
-    content: public void Flush(IEnumerable<string> cacheNames)
+    content: public void Flush(IEnumerable<string> cacheNamesAsEnum)
     parameters:
-    - id: cacheNames
+    - id: cacheNamesAsEnum
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: >-
-        Caches to flush. Input can be technical name of the cache, or it can be the table name from the database and it'll do a
-
-        lookup to find all the caches that's associated with that table and flush.
-    content.vb: Public Sub Flush(cacheNames As IEnumerable(Of String))
+    content.vb: Public Sub Flush(cacheNamesAsEnum As IEnumerable(Of String))
   overload: SuperOffice.Data.Cache.CacheFlusher.Flush*
   implements:
   - SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})

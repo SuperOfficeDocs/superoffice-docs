@@ -84,60 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatSession/ForCurrentUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_ChatSessionsForUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ChatSessionId": 44,
-    "TopicId": 230,
-    "User": null,
-    "Person": null,
-    "CustomerAlias": "fugit",
-    "CustomerHost": "molestiae",
-    "CustomerName": "Champlin-Wehner",
-    "CustomerEmail": "amina@casper.info",
-    "CustomerPhone": "711.643.7428 x09146",
-    "CustomerConsented": false,
-    "CustomerCompanyName": "Schmitt Inc and Sons",
-    "Status": "Closed",
-    "FirstMessage": "exercitationem",
-    "LastMessage": "ea",
-    "WhenRequested": "2009-03-12T02:30:52.3817956+01:00",
-    "WhenStarted": "2022-12-21T02:30:52.3817956+01:00",
-    "WhenEnded": "2011-07-16T02:30:52.3817956+02:00",
-    "WhenIdle": "2000-10-15T02:30:52.3817956+02:00",
-    "WhenFetched": "2016-08-14T02:30:52.3817956+02:00",
-    "SessionKey": "et",
-    "InitialQueuePos": 160,
-    "AlertLevel": 760,
-    "Rank": 131,
-    "Flags": "CustomerIsTyping",
-    "Contact": null,
-    "Project": null,
-    "Sale": null,
-    "Ticket": null,
-    "TransferTo": null,
-    "ChatbotIsActive": true,
-    "Rating": 470,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 159
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_ChatSessionsForUser.md)]

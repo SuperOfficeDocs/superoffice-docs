@@ -67,41 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultTaskMenu
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultTaskMenu.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskMenuId": 193,
-  "Name": "Daugherty Group",
-  "Tooltip": "facilis",
-  "TableName": "Kub-Metz",
-  "Area": "modi",
-  "UrlOrSoprotocol": "http://www.example.com/",
-  "TaskType": "CrmScript",
-  "CrmScriptId": 25,
-  "ShowInClient": "Mobile",
-  "ArchiveBehaviour": "InArchives",
-  "Rank": 722,
-  "Encoding": "ANSI",
-  "ProgId": "ratione",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultTaskMenu.md)]

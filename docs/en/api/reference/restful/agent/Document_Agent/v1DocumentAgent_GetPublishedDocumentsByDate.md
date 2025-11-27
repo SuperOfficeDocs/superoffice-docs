@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 722,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2022-03-17T02:30:47.2257111+01:00",
-  "EndTime": "2019-07-28T02:30:47.2257111+02:00",
-  "Count": 214
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPublishedDocumentsByDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 955,
-    "Attention": "iste",
-    "Header": "possimus",
-    "Name": "Reynolds Inc and Sons",
-    "OurRef": "rerum",
-    "YourRef": "est",
-    "Description": "Customizable global core",
-    "DocumentTemplate": "necessitatibus",
-    "IsPublished": false,
-    "PersonId": 547,
-    "PersonFullName": "Miss Opal Magnolia Crist MD",
-    "AssociateFullName": "Rhianna Nienow",
-    "ContactId": 329,
-    "ContactName": "Kshlerin, Fritsch and Torp",
-    "ProjectId": 821,
-    "ProjectName": "Davis Group",
-    "AssociateId": 924,
-    "Snum": 42,
-    "SaleId": 985,
-    "SaleName": "Mitchell, Cartwright and Morar",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPublishedDocumentsByDate.md)]

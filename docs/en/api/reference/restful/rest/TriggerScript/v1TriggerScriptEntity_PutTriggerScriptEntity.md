@@ -99,55 +99,8 @@ TriggerScriptEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/TriggerScript/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 118,
-  "Name": "Goyette-Tillman",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sunt",
-  "Source": "temporibus",
-  "Registered": "2014-05-20T02:30:53.022399+02:00",
-  "RegisteredAssociateId": 369,
-  "Updated": "2011-05-21T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 893
-}
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_PutTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 TriggerScriptEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 310,
-  "Name": "Bahringer, Rempel and Russel",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptatibus",
-  "Source": "perferendis",
-  "Registered": "2022-03-28T02:30:53.022399+02:00",
-  "RegisteredAssociateId": 769,
-  "Updated": "2015-06-14T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 311,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_PutTriggerScriptEntity.md)]

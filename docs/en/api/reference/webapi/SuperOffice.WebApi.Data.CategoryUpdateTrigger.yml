@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  id: CategoryUpdateTrigger
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger.LeadStatusChanged
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger.None
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleLost
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleRegistered
+  - SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleSold
+  langs:
+  - csharp
+  - vb
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Enum for type of change to trigger update of category 
+
+    This Enum is used by:  AutomatedCategoryUpdate.trigger_type
+  example: []
+  syntax:
+    content: 'public enum CategoryUpdateTrigger : short'
+    content.vb: Public Enum CategoryUpdateTrigger As Short
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger.None
+  commentId: F:SuperOffice.WebApi.Data.CategoryUpdateTrigger.None
+  id: None
+  parent: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CategoryUpdateTrigger.None
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleRegistered
+  commentId: F:SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleRegistered
+  id: SaleRegistered
+  parent: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleRegistered
+  nameWithType: CategoryUpdateTrigger.SaleRegistered
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleRegistered
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: SaleRegistered'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleRegistered = 1
+    return:
+      type: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleRegistered = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleSold
+  commentId: F:SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleSold
+  id: SaleSold
+  parent: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: CategoryUpdateTrigger.SaleSold
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleSold
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: SaleSold'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleSold = 2
+    return:
+      type: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleSold = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleLost
+  commentId: F:SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleLost
+  id: SaleLost
+  parent: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: CategoryUpdateTrigger.SaleLost
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger.SaleLost
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: SaleLost'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SaleLost = 3
+    return:
+      type: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      SaleLost = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger.LeadStatusChanged
+  commentId: F:SuperOffice.WebApi.Data.CategoryUpdateTrigger.LeadStatusChanged
+  id: LeadStatusChanged
+  parent: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  langs:
+  - csharp
+  - vb
+  name: LeadStatusChanged
+  nameWithType: CategoryUpdateTrigger.LeadStatusChanged
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger.LeadStatusChanged
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: LeadStatusChanged'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      LeadStatusChanged = 4
+    return:
+      type: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    content.vb: >-
+      <EnumMember>
+
+      LeadStatusChanged = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.WebApi.Data.CategoryUpdateTrigger
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger

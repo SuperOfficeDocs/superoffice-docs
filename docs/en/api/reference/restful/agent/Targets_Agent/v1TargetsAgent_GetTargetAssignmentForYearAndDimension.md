@@ -84,48 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetYear": 802,
-  "EntityType": "None",
-  "TargetLevel": "Associate",
-  "Id": 839,
-  "DimensionId": 196
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetAssignmentForYearAndDimension.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetAssignmentInfoId": 144,
-  "Values": [
-    555,
-    71
-  ],
-  "Locked": true,
-  "TargetAssociate": null,
-  "TargetContact": null,
-  "TargetUserGroup": null,
-  "Currency": null,
-  "DimensionListItem": 36,
-  "DimensionListItemDisplayName": "Kreiger-Heidenreich",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetAssignmentForYearAndDimension.md)]

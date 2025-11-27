@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Reason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 691,
-  "Name": "Kunde-Braun",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 881,
-  "UdListDefinitionId": 90
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_PostReasonHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 859,
-  "Name": "Hilpert Group",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 753,
-  "UdListDefinitionId": 197,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 255
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_PostReasonHeading.md)]

@@ -9,6 +9,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   - SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   - SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  - SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds
   - SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   - SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   - SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
@@ -630,6 +631,29 @@ items:
       type: System.String
     content.vb: Public Shared Property HighchartsExportServiceUrl As String
   overload: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl*
+- uid: SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds
+  id: DashboardTileTimeoutSeconds
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileTimeoutSeconds
+  nameWithType: ConfigFile.Client.DashboardTileTimeoutSeconds
+  fullName: SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Timeout in seconds for dashboard tile requests.
+  example: []
+  syntax:
+    content: public static int DashboardTileTimeoutSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property DashboardTileTimeoutSeconds As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds*
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -1103,3 +1127,10 @@ references:
   name: HighchartsExportServiceUrl
   nameWithType: ConfigFile.Client.HighchartsExportServiceUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
+- uid: SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_DashboardTileTimeoutSeconds
+  name: DashboardTileTimeoutSeconds
+  nameWithType: ConfigFile.Client.DashboardTileTimeoutSeconds
+  fullName: SuperOffice.Configuration.ConfigFile.Client.DashboardTileTimeoutSeconds

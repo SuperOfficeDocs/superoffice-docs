@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveHeadingEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 300,
-  "Name": "Deckow, Larson and Ondricka",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 362,
-  "UdListDefinitionId": 40
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveHeadingEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 298,
-  "Name": "Nader Inc and Sons",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 14,
-  "UdListDefinitionId": 423,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveHeadingEntity.md)]

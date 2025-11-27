@@ -26,7 +26,7 @@ Gets all the QuoteApproveReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=True
 ```
 
 
@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteApproveReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 395,
-    "Name": "Kling-Reynolds",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "UdListDefinitionId": 801,
-    "Rank": 662,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 217
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_GetAll.md)]

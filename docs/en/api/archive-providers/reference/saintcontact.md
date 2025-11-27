@@ -325,18 +325,19 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|sale/description|string|Description: The long description field on Sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -432,11 +433,11 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
@@ -536,11 +537,11 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -640,11 +641,11 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personEmail/emailAddress|string|E-mail| x |
 |personEmail/emailDescription|string|Description| x |
 |personEmail/emailId|int|ID| x |
-|personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |personEmail/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |personEmail/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |personEmail/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -744,11 +745,11 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
@@ -782,7 +783,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=contactExtra/x_contact_date,appointment/booking,document/documentUdef/SuperOffice:5,correspondingAssociate/personId,correspondingAssociate/assocTooltip
+GET /api/v1/archive/SaintContact?$select=contactExtra/x_contact_contact,sale/associate/lastName,appointment/location,appointment/createdByWorkflow,document/documentPublish/publishedFrom
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

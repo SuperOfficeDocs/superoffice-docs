@@ -87,53 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/UnassignThirdPartyLicenses
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 152,
-  "ModuleOwner": "et",
-  "ModuleLicenseNames": [
-    "Fadel, Champlin and Schuster",
-    "Ankunding, Mosciski and Hansen"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_UnassignThirdPartyLicenses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": true,
-    "Total": 477,
-    "Tooltip": "quisquam",
-    "CanAssign": false,
-    "Free": 10,
-    "InUse": 712,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 382,
-    "Name": "Parker Group",
-    "Description": "Reduced uniform adapter",
-    "PrerequisiteModuleName": "Gulgowski Group",
-    "SortOrder": 689,
-    "ExtraFlags": 985,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 684
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_UnassignThirdPartyLicenses.md)]

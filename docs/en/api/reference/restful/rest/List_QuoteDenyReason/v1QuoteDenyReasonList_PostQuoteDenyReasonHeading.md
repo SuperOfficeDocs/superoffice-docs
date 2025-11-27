@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/QuoteDenyReason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 974,
-  "Name": "Schmitt, Barton and Littel",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 86,
-  "UdListDefinitionId": 889
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_PostQuoteDenyReasonHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 503,
-  "Name": "Kohler-Kertzmann",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 855,
-  "UdListDefinitionId": 582,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_PostQuoteDenyReasonHeading.md)]

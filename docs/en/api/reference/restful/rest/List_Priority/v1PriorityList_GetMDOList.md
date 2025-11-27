@@ -27,8 +27,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=sed
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=porro
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 49,
-    "Name": "Wisozk Inc and Sons",
-    "ToolTip": "Inventore soluta consequatur et quis asperiores molestiae.",
-    "Deleted": false,
-    "Rank": 409,
-    "Type": "harum",
-    "ChildItems": [
-      {
-        "Id": 862,
-        "Name": "D'Amore Inc and Sons",
-        "ToolTip": "In velit facilis provident eligendi recusandae veritatis.",
-        "Deleted": false,
-        "Rank": 436,
-        "Type": "minima",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "rem",
-        "ColorBlock": 952,
-        "ExtraInfo": "et",
-        "StyleHint": "neque",
-        "FullName": "Dr. Brayan Rice",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 854
-          }
-        }
-      }
-    ],
-    "IconHint": "quod",
-    "ColorBlock": 536,
-    "ExtraInfo": "est",
-    "StyleHint": "hic",
-    "FullName": "Kellen DuBuque",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetMDOList.md)]

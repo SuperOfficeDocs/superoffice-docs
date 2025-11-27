@@ -90,51 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityName": "Heathcote Inc and Sons"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultTileDefinitionForEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 669,
-  "Name": "Jaskolski-Ryan",
-  "Description": "Versatile leading edge circuit",
-  "DefaultHeight": 670,
-  "DefaultWidth": 818,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Schaden-Casper",
-  "SelectionId": 19,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "provident",
-  "Measure": "Average",
-  "MeasureField": "praesentium",
-  "SortBy": "et",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 237,
-  "MeasureByField": "asperiores",
-  "Usage": "Dashboard",
-  "ProviderName": "Will Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultTileDefinitionForEntity.md)]

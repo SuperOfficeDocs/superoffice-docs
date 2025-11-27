@@ -85,45 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Morissette, Lind and Witting",
-  "DeviceName": "Halvorson Group",
-  "DeviceIdentifier": "velit",
-  "KeyName": "Stamm, Moen and O'Keefe",
-  "TableName": "Koss, Cole and Cole",
-  "RecordId": 591
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetKeyOnDeviceIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "molestiae",
-  "Value": "repellat",
-  "RecordId": 619,
-  "CreatedDate": "2015-01-27T02:30:47.366331+01:00",
-  "UpdatedDate": "2009-10-09T02:30:47.366331+02:00",
-  "UpdatedBy": "molestias",
-  "CreatedBy": "commodi",
-  "TableName": "Goldner, Lindgren and Schaden",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetKeyOnDeviceIdentifier.md)]

@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ConsentSource/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 407,
-  "Name": "Doyle-Kerluke",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 517,
-  "UdListDefinitionId": 107
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_PostConsentSourceHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 564,
-  "Name": "Gutkowski, Kuphal and Lesch",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "Rank": 679,
-  "UdListDefinitionId": 307,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_PostConsentSourceHeading.md)]

@@ -79,39 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/SaveCurrent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Current": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_SaveCurrent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rank": 971,
-  "Id": 769,
-  "HistoryName": "Keeling Group",
-  "HistoryId": 637,
-  "AssociateId": 478,
-  "Name": "Jacobson, Labadie and Wiza",
-  "ItemInfo": "reiciendis",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_SaveCurrent.md)]

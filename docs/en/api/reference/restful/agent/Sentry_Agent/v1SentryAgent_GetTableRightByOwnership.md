@@ -73,28 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sentry/GetTableRightByOwnership
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Weimann, Grimes and Beier",
-  "ContactGroupId": 959,
-  "ContactAssociateId": 249
-}
-```
+[!include[sample request](../../samples/agent/request/v1SentryAgent_GetTableRightByOwnership.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Mask": "ut",
-  "Reason": ""
-}
-```
+[!include[sample response](../../samples/agent/response/v1SentryAgent_GetTableRightByOwnership.md)]

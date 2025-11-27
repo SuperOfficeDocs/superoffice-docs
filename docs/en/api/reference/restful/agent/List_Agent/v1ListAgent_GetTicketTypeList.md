@@ -87,57 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketTypeList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketTypeList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketTypeId": 162,
-    "Name": "Harber Inc and Sons",
-    "Rank": 749,
-    "Tooltip": "ut",
-    "Icon": "enim",
-    "DefaultTicketStatus": 436,
-    "TicketStatuses": [
-      159,
-      687
-    ],
-    "DefaultTicketPriority": 59,
-    "TicketPriorities": [
-      610,
-      660
-    ],
-    "ReplyTemplate": 632,
-    "IsExternalVisible": true,
-    "IsDefault": false,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
-    "VisibleForGroups": [
-      2,
-      580
-    ],
-    "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 657
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketTypeList.md)]

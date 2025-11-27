@@ -75,58 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UserId": 39
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetCustomerServiceStartupByOwner.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TimezoneEnabled": false,
-  "TZOffset": 828,
-  "RecaptchaSiteKey": "sit",
-  "SelectedPreferences": [
-    {
-      "Level": "Database",
-      "RawValue": "dolore",
-      "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "Bool",
-      "TabOrder": null,
-      "TargetId": 405,
-      "PrefDescId": 716,
-      "TableName": "Weber, Wuckert and Harber",
-      "UserPreferenceId": 629,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetCustomerServiceStartupByOwner.md)]

@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetTaskListItemUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 885,
-    "Name": "Keebler, Bernhard and Homenick",
-    "ToolTip": "Nisi quis est accusantium dolorem quaerat totam.",
-    "Deleted": true,
-    "Rank": 24,
-    "Type": "molestiae",
-    "ColorBlock": 773,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2001-10-24T02:30:53.4598845+02:00",
-    "ChildItems": [
-      {
-        "Id": 784,
-        "Name": "Steuber-Crona",
-        "ToolTip": "Laudantium iusto sit dolores id velit et.",
-        "Deleted": true,
-        "Rank": 644,
-        "Type": "id",
-        "ColorBlock": 423,
-        "IconHint": "neque",
-        "Selected": false,
-        "LastChanged": "2014-09-01T02:30:53.4598845+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "incidunt",
-        "Hidden": true,
-        "FullName": "Deon Balistreri",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 245
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "iste",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Lukas Beier",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetTaskListItemUserGroupsForListItem.md)]

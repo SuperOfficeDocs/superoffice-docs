@@ -90,51 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetFromSectionAndKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Section": "voluptas",
-  "Key": "libero"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetFromSectionAndKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 816,
-  "Section": "dolore",
-  "Key": "deleniti",
-  "Name": "Greenfelder, Ratke and Considine",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Balanced local moderator",
-  "IsBuiltin": true,
-  "TableName": "Renner, Jakubowski and Schmitt",
-  "UserDefinedListId": 40,
-  "Rank": 669,
-  "SubGroup": "voluptate",
-  "MinLevel": 713,
-  "MaxValue": 478,
-  "MinValue": 40,
-  "RequiredLicense": "sed",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetFromSectionAndKey.md)]

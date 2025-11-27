@@ -113,82 +113,8 @@ AppointmentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/{id}/Simple
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_Simple.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 AppointmentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 895,
-  "StartDate": "2016-11-07T02:30:52.3349215+01:00",
-  "EndDate": "2014-09-30T02:30:52.3349215+02:00",
-  "Type": "BookingForChecklist",
-  "Task": "fuga",
-  "AssociateFullName": "Halle Ruecker",
-  "ContactName": "Jerde Inc and Sons",
-  "Description": "Digitized next generation solution",
-  "PersonFullName": "Lenny Brakus",
-  "PersonId": 719,
-  "ContactId": 776,
-  "ProjectId": 77,
-  "ProjectName": "Kub LLC",
-  "IsPublished": false,
-  "AssociateId": 257,
-  "ColorIndex": 767,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
-  "Private": "PrivateGroup",
-  "PriorityId": 662,
-  "PriorityName": "Jakubowski, Leannon and Haag",
-  "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2021-04-10T02:30:52.3349215+02:00",
-  "AssignmentStatus": "Assigning",
-  "InvitationStatus": "Accepted",
-  "BookingType": "None",
-  "Completed": "Completed",
-  "RecurringPattern": "Custom",
-  "RecurringStartDate": "2003-10-14T02:30:52.3349215+02:00",
-  "RecurringEndDate": "2010-11-08T02:30:52.3349215+01:00",
-  "MotherId": 945,
-  "AssignedBy": 967,
-  "AssignedByFullName": "Samantha Langosh Jr.",
-  "RejectReason": "",
-  "Location": "totam",
-  "AlarmLeadTime": "dolore",
-  "SaleId": 440,
-  "SaleName": "Gerhold-Herzog",
-  "AssociateName": "Lang-Spinka",
-  "CreatedDate": "2012-08-29T02:30:52.3349215+02:00",
-  "CreatedBy": "quia",
-  "CreatedByFullName": "Zita Mraz",
-  "CreatedByAssociateId": 487,
-  "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-  "OwnedExternally": "Google",
-  "MotherAssociateId": 368,
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 730,
-  "Title": "et",
-  "Agenda": "nihil",
-  "InternalNotes": "aut",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_Simple.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Task/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 399,
-    "Name": "Streich-Ortiz",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 274,
-    "UdListDefinitionId": 646
-  },
-  {
-    "HeadingId": 399,
-    "Name": "Streich-Ortiz",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 274,
-    "UdListDefinitionId": 646
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_PutTaskListItemHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 879,
-    "Name": "Schmeler LLC",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 1001,
-    "UdListDefinitionId": 586,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 656
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_PutTaskListItemHeadings.md)]

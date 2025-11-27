@@ -97,58 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourceDocumentTemplateId": 62,
-  "DocumentTemplateEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetDocumentTemplateFromDocumentTemplate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 322,
-  "Name": "Willms LLC",
-  "Tooltip": "in",
-  "SaveInDb": 827,
-  "Filename": "sed",
-  "DefaultOref": "eum",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 981,
-  "IntentId": 899,
-  "IsDefaultPublished": true,
-  "Rank": 278,
-  "LoadTemplateFromPlugin": 631,
-  "MimeType": "tempore",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 126,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "cortez@weissnat.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "serenity.boyer@hahndeckow.biz",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetDocumentTemplateFromDocumentTemplate.md)]

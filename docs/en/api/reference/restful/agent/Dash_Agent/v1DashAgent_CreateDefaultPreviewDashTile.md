@@ -55,29 +55,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultPreviewDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Conn-Kuhlman",
-  "TileType": "Area",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultPreviewDashTile.md)]

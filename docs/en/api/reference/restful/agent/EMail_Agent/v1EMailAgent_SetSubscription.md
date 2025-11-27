@@ -67,34 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/SetSubscription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "Folders": [
-    {
-      "Name": "Windler-Spinka",
-      "Delimiter": "delectus",
-      "Flags": "et",
-      "TotalItems": 304,
-      "UnreadItems": 866,
-      "Subscribed": false,
-      "EmailFolderId": 97
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_SetSubscription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_SetSubscription.md)]

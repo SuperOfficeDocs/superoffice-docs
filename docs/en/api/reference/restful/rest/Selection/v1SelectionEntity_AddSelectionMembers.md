@@ -56,18 +56,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Selection/{selectionId}/Members/Add
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_AddSelectionMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-299
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_AddSelectionMembers.md)]

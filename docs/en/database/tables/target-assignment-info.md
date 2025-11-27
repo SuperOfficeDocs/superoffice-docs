@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_assignment\_info Table (506)
+# target\_assignment\_info Table (509)
 
 Linking associate, company or user group target and other information with target values
 

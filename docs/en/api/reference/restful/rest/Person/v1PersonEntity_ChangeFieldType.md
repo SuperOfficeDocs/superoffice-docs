@@ -101,61 +101,8 @@ PersonEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PersonEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 679,
-  "ColumnId": 189,
-  "FieldDefault": "sunt",
-  "FieldHeight": 751,
-  "FieldLabel": "sunt",
-  "FieldLeft": 662,
-  "FieldTop": 297,
-  "FieldType": "Checkbox",
-  "FieldWidth": 915,
-  "FormatMask": "saepe",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 219,
-  "LabelLeft": 358,
-  "LabelTop": 248,
-  "LabelWidth": 161,
-  "LastVersionId": 610,
-  "ListTableId": 537,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 994,
-  "ProgId": "dolore",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptate",
-  "TabOrder": 906,
-  "TextLength": 40,
-  "Tooltip": "hic",
-  "UdefIdentity": 415,
-  "UDListDefinitionId": 983,
-  "Justification": "Center",
-  "Version": 280,
-  "TemplateVariableName": "Bernhard, Schuppe and Spinka",
-  "HasBeenPublished": false,
-  "MdoListName": "Schamberger, Abbott and Johnston",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_ChangeFieldType.md)]

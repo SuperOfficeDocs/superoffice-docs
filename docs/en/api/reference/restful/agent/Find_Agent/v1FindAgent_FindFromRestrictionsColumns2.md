@@ -162,77 +162,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Restrictions": "et",
-  "ProviderName": "Mills, Powlowski and Grant",
-  "DesiredColumns": "consequatur",
-  "PageSize": 333,
-  "PageNumber": 264
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindFromRestrictionsColumns2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Stracke, Vandervort and McDermott",
-      "DisplayTooltip": "porro",
-      "DisplayType": "reprehenderit",
-      "CanOrderBy": false,
-      "Name": "Ritchie-Anderson",
-      "CanRestrictBy": false,
-      "RestrictionType": "similique",
-      "RestrictionListName": "Gorczany, Turcotte and Jewess",
-      "IsVisible": false,
-      "ExtraInfo": "perspiciatis",
-      "Width": "voluptas",
-      "IconHint": "cum",
-      "HeadingIconHint": "fugiat"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Hettinger, Walker and Goodwin",
-      "PrimaryKey": 83,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "beatae",
-          "LinkHint": "reiciendis"
-        }
-      },
-      "LinkHint": "consequatur",
-      "StyleHint": "quam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 804
-        }
-      }
-    }
-  ],
-  "RowCount": 853,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindFromRestrictionsColumns2.md)]

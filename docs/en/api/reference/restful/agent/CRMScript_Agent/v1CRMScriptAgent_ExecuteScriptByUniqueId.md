@@ -71,27 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScriptByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptUniqueId": "et",
-  "Parameters": {
-    "Parameters1": "libero",
-    "Parameters2": "ex"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"soluta"
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScriptByUniqueId.md)]

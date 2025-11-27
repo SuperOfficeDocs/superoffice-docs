@@ -58,46 +58,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TimeZone/base
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TimeZone_GetBaseTimeZone.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TZLocationID": 672,
-  "Name": "Waelchi, Christiansen and Marvin",
-  "TZLocationCode": "facere",
-  "TZLocationCities": "maxime",
-  "IsoNumber": 373,
-  "TimeZoneSTDRules": {
-    "fieldName": {
-      "StartDay": 714,
-      "StartMonth": 392,
-      "EndDay": 247,
-      "EndMonth": 324,
-      "TZOffset": 95,
-      "StartRulePattern": "consequatur",
-      "EndRulePattern": "magni"
-    }
-  },
-  "TimeZoneDSTRules": {
-    "fieldName": {
-      "StartDay": 907,
-      "StartMonth": 537,
-      "EndDay": 950,
-      "EndMonth": 563,
-      "TZOffset": 493,
-      "StartRulePattern": "sit",
-      "EndRulePattern": "neque"
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TimeZone_GetBaseTimeZone.md)]

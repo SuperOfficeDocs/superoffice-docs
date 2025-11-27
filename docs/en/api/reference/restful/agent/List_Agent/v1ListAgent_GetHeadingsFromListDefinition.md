@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetHeadingsFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 414
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetHeadingsFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 854,
-    "Name": "Hane Inc and Sons",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 460,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetHeadingsFromListDefinition.md)]

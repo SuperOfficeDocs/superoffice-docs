@@ -64,38 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/CreateDefaultPreference
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_CreateDefaultPreference.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "sunt",
-  "Specification": null,
-  "DisplayValue": "corporis",
-  "DisplayTooltip": "optio",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 218,
-  "PrefDescId": 158,
-  "TableName": "Davis-Reinger",
-  "UserPreferenceId": 529,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_CreateDefaultPreference.md)]

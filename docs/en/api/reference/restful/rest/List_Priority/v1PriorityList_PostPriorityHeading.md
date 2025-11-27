@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Priority/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 364,
-  "Name": "Reinger LLC",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 558,
-  "UdListDefinitionId": 259
-}
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_PostPriorityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 777,
-  "Name": "Bahringer-Mosciski",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 102,
-  "UdListDefinitionId": 284,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_PostPriorityHeading.md)]

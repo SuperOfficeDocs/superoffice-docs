@@ -78,76 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetAddressByCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 336,
-  "CountryId": 479
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetAddressByCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Wgs84Latitude": 6546.9259999999995,
-  "Wgs84Longitude": 8173.472,
-  "LocalizedAddress": [
-    [
-      {
-        "Name": "Dicki-Hane",
-        "Value": "aut",
-        "Tooltip": "corporis",
-        "Label": "eos",
-        "ValueLength": 507,
-        "AddressType": "autem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 407
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Willms, Franecki and Dibbert",
-        "Value": "itaque",
-        "Tooltip": "dolores",
-        "Label": "incidunt",
-        "ValueLength": 996,
-        "AddressType": "aliquid",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 863
-          }
-        }
-      }
-    ]
-  ],
-  "Street": null,
-  "Postal": null,
-  "Formatted": "nisi",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetAddressByCountry.md)]

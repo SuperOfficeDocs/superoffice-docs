@@ -72,57 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_GetAllTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketTypeId": 241,
-    "Name": "Yost-Lang",
-    "Rank": 791,
-    "Tooltip": "sed",
-    "Icon": "aut",
-    "DefaultTicketStatus": 866,
-    "TicketStatuses": [
-      603,
-      848
-    ],
-    "DefaultTicketPriority": 6,
-    "TicketPriorities": [
-      577,
-      854
-    ],
-    "ReplyTemplate": 589,
-    "IsExternalVisible": true,
-    "IsDefault": false,
-    "ShowInNew": false,
-    "ExcludeSignature": false,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": false,
-    "VisibleForGroups": [
-      653,
-      849
-    ],
-    "ReplyForwardNoSignature": true,
-    "ReplyExternalAsDefault": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_GetAllTicketTypeEntity.md)]

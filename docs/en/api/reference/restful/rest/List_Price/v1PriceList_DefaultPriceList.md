@@ -64,37 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Pricelist/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_DefaultPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 434,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 297,
-  "Name": "Oberbrunner, Haley and Boehm",
-  "Description": "Assimilated regional conglomeration",
-  "Currency": "et",
-  "CurrencyName": "Collier-Doyle",
-  "ValidFrom": "2005-09-17T02:30:53.3348881+02:00",
-  "ValidTo": "2008-10-16T02:30:53.3348881+02:00",
-  "IsActive": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_DefaultPriceList.md)]

@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 587,
-  "UdListDefinitionName": "Schroeder LLC",
-  "Item": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 171,
-  "Name": "Fadel Group",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 390,
-  "Rank": 947,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveFromListName.md)]

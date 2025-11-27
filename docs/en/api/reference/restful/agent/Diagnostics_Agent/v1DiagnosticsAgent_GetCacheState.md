@@ -68,26 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/GetCacheState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "CacheNames": [
-    "Stark, Lockman and Kris",
-    "Waters Group"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_GetCacheState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"sunt"
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_GetCacheState.md)]

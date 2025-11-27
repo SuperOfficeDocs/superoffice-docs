@@ -94,56 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEventsOnPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 499
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEventsOnPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AssociateFullName": "Tristin Grant",
-    "Description": "Centralized secondary internet solution",
-    "ProjectId": 168,
-    "EventName": "Walter-O'Keefe",
-    "AssociateId": 23,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "ullam",
-    "SignOffText": "doloremque",
-    "SignOnConfirmationText": "minus",
-    "SignOnText": "et",
-    "EventDate": "2014-10-21T02:30:47.6788214+02:00",
-    "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 403,
-    "SignOnTaskId": 567,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 584,
-    "SignOffPersonId": 364,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEventsOnPerson.md)]

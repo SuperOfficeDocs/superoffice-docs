@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 461,
-  "Name": "Huels-Bauch",
-  "Rank": 705,
-  "Tooltip": "vero",
-  "Icon": "sunt",
-  "DefaultTicketStatus": 280,
-  "TicketStatuses": [
-    179,
-    723
-  ],
-  "DefaultTicketPriority": 678,
-  "TicketPriorities": [
-    141,
-    860
-  ],
-  "ReplyTemplate": 276,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    293,
-    348
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 341
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultTicketTypeEntity.md)]

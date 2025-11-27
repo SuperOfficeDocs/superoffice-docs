@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/TranslateEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityName": "Schuppe, Schiller and Dickinson",
-  "EntityId": 220,
-  "TargetLanguage": "facere"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_TranslateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"sunt"
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_TranslateEntity.md)]

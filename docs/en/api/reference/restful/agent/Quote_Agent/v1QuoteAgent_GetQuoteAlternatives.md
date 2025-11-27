@@ -94,57 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetQuoteAlternatives
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 471
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetQuoteAlternatives.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "QuoteAlternativeId": 986,
-    "ERPQuoteAlternativeKey": "ratione",
-    "QuoteVersionId": 112,
-    "Name": "Robel Inc and Sons",
-    "Description": "Innovative heuristic ability",
-    "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 25432.41,
-    "ERPDiscountAmount": 25673.728,
-    "DiscountPercent": 26874.05,
-    "DiscountAmount": 27378.624,
-    "UserValueOverride": "DiscountAmount",
-    "VATInfo": "amet",
-    "VAT": 6775.708,
-    "EarningPercent": 21402.086,
-    "EarningAmount": 31302.392,
-    "SubTotal": 31136.289999999997,
-    "TotalPrice": 14206.421999999999,
-    "ExtraField1": "quis",
-    "ExtraField2": "dicta",
-    "ExtraField3": "at",
-    "ExtraField4": "ipsa",
-    "ExtraField5": "consequatur",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 359
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetQuoteAlternatives.md)]

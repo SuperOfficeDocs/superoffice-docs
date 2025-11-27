@@ -18,7 +18,7 @@ Lists all Roles in table.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"role"|[role]|
+|"role"|role|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

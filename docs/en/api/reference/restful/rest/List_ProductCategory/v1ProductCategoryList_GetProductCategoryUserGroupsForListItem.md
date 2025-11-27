@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_GetProductCategoryUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 905,
-    "Name": "Roob, Rau and Muller",
-    "ToolTip": "Modi quaerat.",
-    "Deleted": false,
-    "Rank": 540,
-    "Type": "non",
-    "ColorBlock": 167,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2024-11-20T02:30:53.3505129+01:00",
-    "ChildItems": [
-      {
-        "Id": 317,
-        "Name": "Donnelly Group",
-        "ToolTip": "Odio inventore rerum.",
-        "Deleted": false,
-        "Rank": 515,
-        "Type": "velit",
-        "ColorBlock": 807,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "2008-02-22T02:30:53.3505129+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sint",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Stephany Bernier",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 369
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Rudy Bruen",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_GetProductCategoryUserGroupsForListItem.md)]

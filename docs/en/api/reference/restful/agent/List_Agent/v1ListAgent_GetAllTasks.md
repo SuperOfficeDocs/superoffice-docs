@@ -84,47 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllTasks
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllTasks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TaskListItemId": 783,
-    "Value": "eveniet",
-    "Direction": "Incoming",
-    "Type": "Appointment",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "IntentId": 201,
-    "Rank": 535,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": false,
-    "ColorIndex": "BlueAlt1",
-    "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 491
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllTasks.md)]

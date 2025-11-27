@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 103,
-    "Name": "Bosco-Wuckert",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 260,
-    "Rank": 965,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_GetAll.md)]

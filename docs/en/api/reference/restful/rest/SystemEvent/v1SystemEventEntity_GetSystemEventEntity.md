@@ -80,41 +80,8 @@ SystemEventEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/SystemEvent/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SystemEventEntity_GetSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SystemEventEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 823,
-  "Scope": "Database",
-  "Eta": "2015-09-05T02:30:52.9442767+02:00",
-  "Eventkey": "enim",
-  "Eventmess": "doloremque",
-  "ExtraInfo": 603,
-  "Owner": 564,
-  "UpdatedCount": 556,
-  "Registered": "2024-11-28T02:30:52.9442767+01:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SystemEventEntity_GetSystemEventEntity.md)]

@@ -96,55 +96,8 @@ SystemEventEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/SystemEvent/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 767,
-  "Scope": "Database",
-  "Eta": "2006-07-20T02:30:52.9442767+02:00",
-  "Eventkey": "maxime",
-  "Eventmess": "aspernatur",
-  "ExtraInfo": 437,
-  "Owner": 453,
-  "UpdatedCount": 166,
-  "Registered": "2018-01-16T02:30:52.9442767+01:00",
-  "ActivatedBy": null
-}
-```
+[!include[sample request](../../samples/rest/request/v1SystemEventEntity_PutSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SystemEventEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 339,
-  "Scope": "Database",
-  "Eta": "2013-02-18T02:30:52.9442767+01:00",
-  "Eventkey": "quia",
-  "Eventmess": "illo",
-  "ExtraInfo": 962,
-  "Owner": 615,
-  "UpdatedCount": 353,
-  "Registered": "2010-07-19T02:30:52.9442767+02:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SystemEventEntity_PutSystemEventEntity.md)]

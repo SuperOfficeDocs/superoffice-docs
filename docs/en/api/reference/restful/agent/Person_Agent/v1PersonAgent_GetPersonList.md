@@ -109,70 +109,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetPersonList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetPersonList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "laborum",
-    "PersonId": 460,
-    "Mrmrs": "molestias",
-    "Firstname": "Kendrick",
-    "Lastname": "Herzog",
-    "MiddleName": "Douglas, Gerlach and Yost",
-    "Title": "dolores",
-    "Description": "Programmable actuating core",
-    "Email": "boyd@cummings.uk",
-    "FullName": "Samir Damien Volkman MD",
-    "DirectPhone": "638-900-3523",
-    "FormalName": "Brown Inc and Sons",
-    "CountryId": 618,
-    "ContactId": 571,
-    "ContactName": "Hackett-Stroman",
-    "Retired": 718,
-    "Rank": 435,
-    "ActiveInterests": 603,
-    "ContactDepartment": "",
-    "ContactCountryId": 571,
-    "ContactOrgNr": "1115514",
-    "FaxPhone": "450.603.1409",
-    "MobilePhone": "551.605.6512 x101",
-    "ContactPhone": "(463)987-3060 x348",
-    "AssociateName": "Mann-Aufderhar",
-    "AssociateId": 136,
-    "UsePersonAddress": false,
-    "ContactFax": "voluptas",
-    "Kanafname": "sit",
-    "Kanalname": "sit",
-    "Post1": "sit",
-    "Post2": "sint",
-    "Post3": "ad",
-    "EmailName": "brannon.bradtke@sipes.biz",
-    "ContactFullName": "Raleigh Muller",
-    "ActiveErpLinks": 149,
-    "TicketPriorityId": 932,
-    "SupportLanguageId": 407,
-    "SupportAssociateId": 248,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "1031715",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetPersonList.md)]

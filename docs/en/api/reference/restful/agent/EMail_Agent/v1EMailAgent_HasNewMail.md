@@ -71,24 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/HasNewMail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailItemId": 925,
-  "FolderId": 323
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_HasNewMail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-true
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_HasNewMail.md)]

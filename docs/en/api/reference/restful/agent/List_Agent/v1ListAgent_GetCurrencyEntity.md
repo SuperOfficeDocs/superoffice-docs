@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=722
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=968
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -72,34 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetCurrencyEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 37,
-  "Name": "Schumm, Cormier and Lemke",
-  "Tooltip": "repudiandae",
-  "Rank": 753,
-  "Rate": 14300.442,
-  "Units": 17838.728,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetCurrencyEntity.md)]

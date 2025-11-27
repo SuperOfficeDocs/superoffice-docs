@@ -83,41 +83,8 @@ TriggerScriptEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/TriggerScript/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_GetTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 TriggerScriptEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 894,
-  "Name": "Boehm-Altenwerth",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "magni",
-  "Source": "itaque",
-  "Registered": "2013-02-06T02:30:53.022399+01:00",
-  "RegisteredAssociateId": 414,
-  "Updated": "2002-08-28T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 452,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_GetTriggerScriptEntity.md)]

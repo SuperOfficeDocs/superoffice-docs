@@ -78,58 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveAllFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Connelly-Harvey",
-  "Items": [
-    {
-      "Id": 540,
-      "Name": "Kemmer-Rolfson",
-      "Tooltip": "beatae",
-      "Deleted": true,
-      "UdListDefinitionId": 796,
-      "Rank": 119
-    },
-    {
-      "Id": 540,
-      "Name": "Kemmer-Rolfson",
-      "Tooltip": "beatae",
-      "Deleted": true,
-      "UdListDefinitionId": 796,
-      "Rank": 119
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveAllFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 156,
-    "Name": "Heaney LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 292,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 657
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveAllFromListName.md)]

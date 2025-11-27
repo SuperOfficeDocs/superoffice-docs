@@ -74,55 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{udListDefinitionId}/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 712,
-    "Name": "Bauch, Kulas and Mante",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 87,
-    "Rank": 399
-  },
-  {
-    "Id": 712,
-    "Name": "Bauch, Kulas and Mante",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 87,
-    "Rank": 399
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveAllFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 439,
-    "Name": "Sauer-Watsica",
-    "Tooltip": "fugit",
-    "Deleted": false,
-    "UdListDefinitionId": 45,
-    "Rank": 861,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 947
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveAllFromListDefinition.md)]

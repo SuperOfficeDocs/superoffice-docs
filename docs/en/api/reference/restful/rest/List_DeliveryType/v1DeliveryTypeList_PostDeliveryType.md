@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DeliveryType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 773,
-  "Name": "Lehner LLC",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 852,
-  "Rank": 907
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_PostDeliveryType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 778,
-  "Name": "Cummerata Inc and Sons",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "UdListDefinitionId": 456,
-  "Rank": 955,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_PostDeliveryType.md)]

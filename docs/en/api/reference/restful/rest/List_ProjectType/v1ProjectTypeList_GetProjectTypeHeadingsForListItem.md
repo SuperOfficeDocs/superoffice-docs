@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetProjectTypeHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 687,
-    "Name": "Larkin-Price",
-    "ToolTip": "Eos quia libero exercitationem ipsam sed voluptas.",
-    "Deleted": false,
-    "Rank": 151,
-    "Type": "adipisci",
-    "ColorBlock": 286,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2006-12-06T02:30:53.3817624+01:00",
-    "ChildItems": [
-      {
-        "Id": 168,
-        "Name": "Schumm, Douglas and Jast",
-        "ToolTip": "Tempora impedit eum.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "saepe",
-        "ColorBlock": 357,
-        "IconHint": "voluptatibus",
-        "Selected": true,
-        "LastChanged": "2003-10-08T02:30:53.3817624+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Brown McDermott MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 21
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "consectetur",
-    "Hidden": true,
-    "FullName": "Mrs. Jadyn Stanton Wilkinson PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetProjectTypeHeadingsForListItem.md)]

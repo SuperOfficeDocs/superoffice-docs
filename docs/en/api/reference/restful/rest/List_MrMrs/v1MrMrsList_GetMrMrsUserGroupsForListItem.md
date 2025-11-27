@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_GetMrMrsUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 160,
-    "Name": "Kovacek Inc and Sons",
-    "ToolTip": "Dolorem error qui magni at doloremque.",
-    "Deleted": true,
-    "Rank": 514,
-    "Type": "doloribus",
-    "ColorBlock": 980,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2018-11-07T02:30:53.3036395+01:00",
-    "ChildItems": [
-      {
-        "Id": 1002,
-        "Name": "Streich-Bode",
-        "ToolTip": "Voluptate ut dignissimos.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "minus",
-        "ColorBlock": 306,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "1999-08-21T02:30:53.3036395+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quo",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Ms. Chadd Klocko",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 475
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "cum",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Amiya Beahan",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_GetMrMrsUserGroupsForListItem.md)]

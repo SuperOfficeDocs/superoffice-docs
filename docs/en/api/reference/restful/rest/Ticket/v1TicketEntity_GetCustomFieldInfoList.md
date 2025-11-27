@@ -65,35 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Ticket/CustomField
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1TicketEntity_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Leannon-Powlowski",
-    "DisplayName": "Marks-Turcotte",
-    "Description": "Inverse scalable implementation",
-    "ShortLabel": "laboriosam",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 143,
-    "TemplateVariableName": "Windler, Schultz and Anderson"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketEntity_GetCustomFieldInfoList.md)]

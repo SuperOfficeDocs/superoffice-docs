@@ -72,81 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/SaveTargetGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 937,
-  "Year": 944,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
-  "TargetAssignments": [
-    {
-      "TargetAssignmentInfoId": 563,
-      "Values": [
-        389,
-        403
-      ],
-      "Locked": true,
-      "TargetAssociate": null,
-      "TargetContact": null,
-      "TargetUserGroup": null,
-      "Currency": null,
-      "DimensionListItem": 430,
-      "DimensionListItemDisplayName": "Spencer, Bednar and Koss"
-    }
-  ],
-  "TargetDimension": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_SaveTargetGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 71,
-  "Year": 12,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
-  "TargetAssignments": [
-    {
-      "TargetAssignmentInfoId": 459,
-      "Values": [
-        800,
-        761
-      ],
-      "Locked": false,
-      "TargetAssociate": null,
-      "TargetContact": null,
-      "TargetUserGroup": null,
-      "Currency": null,
-      "DimensionListItem": 70,
-      "DimensionListItemDisplayName": "Murazik, McClure and Keeling",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 940
-        }
-      }
-    }
-  ],
-  "TargetDimension": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_SaveTargetGroup.md)]

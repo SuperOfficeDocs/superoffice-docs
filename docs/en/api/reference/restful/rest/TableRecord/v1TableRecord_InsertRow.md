@@ -56,18 +56,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Table/{tableName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1TableRecord_InsertRow.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-902
-```
+[!include[sample response](../../samples/rest/response/v1TableRecord_InsertRow.md)]

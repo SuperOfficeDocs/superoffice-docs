@@ -326,18 +326,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |sale/saleNumber| *None* |Number: Number|  |
-|sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
-|sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
+|sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
+|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |sale/description| *None* |Description: The long description field on Sale|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
@@ -431,11 +432,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/duration| *None* |Duration: The duration of the chat session|  |
 |appointment/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |appointment/visibleFor| *None* |Visible for|  |
-|appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |appointment/appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
@@ -535,11 +536,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |document/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |document/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|document/associate/associateDbId| *None* |ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/associateDbId| *None* |ID|  |
 |document/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |document/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |document/associate/usergroup| *None* |Primary group: The user's primary user group|  |
@@ -639,11 +640,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -743,11 +744,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/personRegisteredBy| *None* |Source - Registered by: The user who registered the data|  |
 |personSourceRelation/personRegisteredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
 |personSourceRelation/personRegisteredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
-|personSourceRelation/portraitThumbnail| *None* |Source - Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/portraitThumbnail| *None* |Source - Person image: Person image|  |
 |personSourceRelation/personActiveErpLinks| *None* |Source - ERP connected: Is there an active ERP Sync?|  |
 |personSourceRelation/ticketPriority| *None* |Source - Service priority: Default service priority for this contact|  |
 |personSourceRelation/supportLanguage| *None* |Source - Preferred language: Preferred language used for reply templates and more|  |
@@ -847,11 +848,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |personAssociate/contactCategory| *None* |Category: Category|  |
-|personAssociate/role| *None* |Role : Role|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/role| *None* |Role : Role|  |
 |personAssociate/assocName| *None* |User ID : User ID|  |
 |personAssociate/assocTooltip| *None* |Description : Description|  |
 |personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
@@ -951,11 +952,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/content| *None* |Content: Search for content in messages related to requests|  |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
-|request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence|  |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
 |request/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
@@ -1055,11 +1056,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
 |projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
 |projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
-|projectMembers/icon| *None* |Category: Displays the icon for an activity type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/icon| *None* |Category: Displays the icon for an activity type|  |
 |projectMembers/text| *None* |Text: Displays a descriptive text for the item|  |
 |projectMembers/description| *None* |Description : Description|  |
 |projectMembers/updatedBy| *None* |Updated by: The user who last updated the data|  |
@@ -1159,11 +1160,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/recordType| *None* |Record type : Shows the record type|  |
 |personAppointment/text| *None* |Text: Displays a descriptive text for the item|  |
 |personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|personAppointment/contactId| *None* |Company ID: Database ID of company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/contactId| *None* |Company ID: Database ID of company|  |
 |personAppointment/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAppointment/projectId| *None* |Project ID: Database ID of project record|  |
 |personAppointment/saleId| *None* |Sale ID: The database ID of the sale record|  |
@@ -1257,7 +1258,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=contactFax/description,LastCompletedTicket,appointment/updatedBy,birthMonth,personAddress/addressId
+GET /api/v1/archive/ContactStaticSelection?$select=contactUdef/SuperOffice:13,targetRelation/contactNoMail,document/recordType,document/documentPublish/publishedFrom,document/associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

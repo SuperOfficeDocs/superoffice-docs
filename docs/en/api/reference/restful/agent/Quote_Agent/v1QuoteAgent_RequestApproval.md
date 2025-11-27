@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/RequestApproval
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 775,
-  "AssociateId": 762,
-  "Comment": "quo"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_RequestApproval.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "aut",
-  "TechExplanation": "et",
-  "ErrorCode": "et",
-  "Changes": null,
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 888
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_RequestApproval.md)]

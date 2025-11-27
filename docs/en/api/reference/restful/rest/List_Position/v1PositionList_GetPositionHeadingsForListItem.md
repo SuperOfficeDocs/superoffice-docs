@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Position/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_GetPositionHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 724,
-    "Name": "Funk, Mante and Smith",
-    "ToolTip": "Est omnis fugit.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "et",
-    "ColorBlock": 530,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2014-05-15T02:30:53.3348881+02:00",
-    "ChildItems": [
-      {
-        "Id": 728,
-        "Name": "Stroman-Heller",
-        "ToolTip": "Deserunt accusamus facilis et rem.",
-        "Deleted": false,
-        "Rank": 332,
-        "Type": "ipsam",
-        "ColorBlock": 795,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2018-03-01T02:30:53.3348881+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quo",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Demario Damion Ferry DVM",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 871
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "numquam",
-    "Hidden": true,
-    "FullName": "Lonnie Carlo Schumm DDS",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 195
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_GetPositionHeadingsForListItem.md)]

@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/WebPanel/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_GetWebPanelEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 782,
-    "Name": "Beier-Morissette",
-    "Tooltip": "corrupti",
-    "Deleted": true,
-    "Rank": 950,
-    "UdListDefinitionId": 693,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 776
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_GetWebPanelEntityHeadings.md)]

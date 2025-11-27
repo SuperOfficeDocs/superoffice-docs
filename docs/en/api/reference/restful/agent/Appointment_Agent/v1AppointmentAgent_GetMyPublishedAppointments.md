@@ -118,84 +118,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetMyPublishedAppointments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AppointmentId": 54,
-    "StartDate": "2019-09-03T02:30:46.522607+02:00",
-    "EndDate": "2011-07-20T02:30:46.522607+02:00",
-    "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Prof. Rogers Keeling",
-    "ContactName": "Eichmann, O'Conner and Oberbrunner",
-    "Description": "Extended grid-enabled infrastructure",
-    "PersonFullName": "Alta Kuhn II",
-    "PersonId": 867,
-    "ContactId": 507,
-    "ProjectId": 354,
-    "ProjectName": "Dickinson LLC",
-    "IsPublished": true,
-    "AssociateId": 973,
-    "ColorIndex": 148,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
-    "Private": "PrivateGroup",
-    "PriorityId": 793,
-    "PriorityName": "Kirlin LLC",
-    "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2012-03-12T02:30:46.522607+01:00",
-    "AssignmentStatus": "Assigning",
-    "InvitationStatus": "Accepted",
-    "BookingType": "None",
-    "Completed": "Completed",
-    "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-01-22T02:30:46.522607+01:00",
-    "RecurringEndDate": "2008-06-17T02:30:46.522607+02:00",
-    "MotherId": 219,
-    "AssignedBy": 768,
-    "AssignedByFullName": "Madalyn Hessel",
-    "RejectReason": "",
-    "Location": "ab",
-    "AlarmLeadTime": "recusandae",
-    "SaleId": 400,
-    "SaleName": "Schuster-Goodwin",
-    "AssociateName": "Gleichner-Price",
-    "CreatedDate": "2003-08-15T02:30:46.522607+02:00",
-    "CreatedBy": "beatae",
-    "CreatedByFullName": "Jamil Hilll",
-    "CreatedByAssociateId": 403,
-    "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-    "OwnedExternally": "Google",
-    "MotherAssociateId": 1002,
-    "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 5,
-    "Title": "deleniti",
-    "Agenda": "ea",
-    "InternalNotes": "voluptatibus",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 691
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetMyPublishedAppointments.md)]

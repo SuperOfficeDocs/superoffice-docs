@@ -93,59 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskName": "Hessel, Pacocha and Reichert"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetAllBatchTaskInfosByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 965,
-    "Name": "McClure LLC",
-    "AssociateId": 393,
-    "DetailsTable": 490,
-    "DetailsRecord": 78,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "quasi",
-      "ParameterObject2": "aperiam"
-    },
-    "LastStarted": "2020-12-03T02:30:46.8194719+01:00",
-    "Created": "2014-12-27T02:30:46.8194719+01:00",
-    "StartCount": 719,
-    "DatabaseSerialNumber": "1045147",
-    "Context": "similique",
-    "Result": "voluptates",
-    "State": "All",
-    "Description": "Right-sized didactic framework",
-    "Response": "voluptatem",
-    "Request": "necessitatibus",
-    "ProgressDescription": "Advanced content-based access",
-    "ProgressPercent": 431,
-    "FileName": "Casper-Feeney",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetAllBatchTaskInfosByName.md)]

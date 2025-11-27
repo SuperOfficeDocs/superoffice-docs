@@ -84,47 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/PreferenceDescriptionLine
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 792,
-  "PrefDescId": 57,
-  "PrefValue": "autem",
-  "PrefShowValue": "qui",
-  "Description": "Open-architected full-range analyzer",
-  "IsBuiltin": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescriptionLine_PostPreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 687,
-  "PrefDescId": 628,
-  "PrefValue": "est",
-  "PrefShowValue": "voluptatem",
-  "Description": "Reduced mobile hierarchy",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescriptionLine_PostPreferenceDescriptionLine.md)]

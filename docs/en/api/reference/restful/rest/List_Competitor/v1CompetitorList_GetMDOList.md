@@ -28,7 +28,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=temporibus
+GET /api/v1/List/Competitor/MDOItems?query=sapiente
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Competitor/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 319,
-    "Name": "Auer-Waters",
-    "ToolTip": "Laborum et minus aperiam quasi architecto.",
-    "Deleted": false,
-    "Rank": 260,
-    "Type": "rerum",
-    "ChildItems": [
-      {
-        "Id": 155,
-        "Name": "Green Group",
-        "ToolTip": "Esse vel esse.",
-        "Deleted": false,
-        "Rank": 961,
-        "Type": "necessitatibus",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "ex",
-        "ColorBlock": 917,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptatibus",
-        "FullName": "Mrs. Dejon Jacobson II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 470
-          }
-        }
-      }
-    ],
-    "IconHint": "hic",
-    "ColorBlock": 497,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "dolorum",
-    "FullName": "Miss Cordia Heller",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_GetMDOList.md)]

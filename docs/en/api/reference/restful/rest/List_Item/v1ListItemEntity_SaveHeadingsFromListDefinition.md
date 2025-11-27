@@ -75,55 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{id}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 812,
-    "Name": "Rippin, Nader and Lehner",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 398,
-    "UdListDefinitionId": 61
-  },
-  {
-    "HeadingId": 812,
-    "Name": "Rippin, Nader and Lehner",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 398,
-    "UdListDefinitionId": 61
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveHeadingsFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 137,
-    "Name": "Bergstrom-Schmeler",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 15,
-    "UdListDefinitionId": 879,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveHeadingsFromListDefinition.md)]

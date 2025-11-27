@@ -83,68 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/AddHierarchyToPath
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "Dashboards",
-  "Path": "occaecati",
-  "Name": "Hoppe-Hackett"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_AddHierarchyToPath.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 788,
-  "Domain": "Dashboards",
-  "Name": "Jacobs, Tremblay and Russel",
-  "Fullname": "eius",
-  "ParentId": 358,
-  "Children": [
-    {
-      "HierarchyId": 674,
-      "Domain": "Dashboards",
-      "Name": "Lesch, Steuber and Pfeffer",
-      "Fullname": "eius",
-      "ParentId": 172,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2012-09-15T02:30:47.4288293+02:00",
-      "RegisteredAssociateId": 484,
-      "Updated": "2020-09-12T02:30:47.4288293+02:00",
-      "UpdatedAssociateId": 993,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
-        }
-      }
-    }
-  ],
-  "Registered": "2018-03-11T02:30:47.4288293+01:00",
-  "RegisteredAssociateId": 354,
-  "Updated": "2017-09-24T02:30:47.4288293+02:00",
-  "UpdatedAssociateId": 429,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_AddHierarchyToPath.md)]

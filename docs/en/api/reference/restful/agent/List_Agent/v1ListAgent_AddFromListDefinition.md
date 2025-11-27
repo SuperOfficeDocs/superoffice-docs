@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/AddFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 234,
-  "Item": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_AddFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 748,
-  "Name": "Ferry LLC",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "UdListDefinitionId": 521,
-  "Rank": 486,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_AddFromListDefinition.md)]

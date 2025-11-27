@@ -102,85 +102,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "GuiName": "Ledner-Lebsack",
-  "ProviderName": "Wiza Inc and Sons",
-  "SortOrder": [
-    {
-      "Name": "Sanford Inc and Sons",
-      "Direction": "ASC"
-    },
-    {
-      "Name": "Sanford Inc and Sons",
-      "Direction": "ASC"
-    }
-  ],
-  "Restriction": [
-    {
-      "Name": "Nicolas Group",
-      "Operator": "dolor",
-      "Values": [
-        "voluptates",
-        "minima"
-      ],
-      "DisplayValues": [
-        "omnis",
-        "est"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 35,
-      "InterOperator": "And",
-      "UniqueHash": 311
-    }
-  ],
-  "Entities": [
-    "sed",
-    "autem"
-  ],
-  "Page": 992,
-  "PageSize": 420
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Lesch LLC",
-    "PrimaryKey": 739,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "perferendis",
-        "LinkHint": "dolorem"
-      }
-    },
-    "LinkHint": "sunt",
-    "StyleHint": "minima",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 393
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveList.md)]

@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListItemsForUserGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 50,
-  "GroupId": 723
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListItemsForUserGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 216,
-    "Name": "Ebert-Bins",
-    "ToolTip": "Architecto cumque sint iste eligendi.",
-    "Deleted": true,
-    "Rank": 177,
-    "Type": "perferendis",
-    "ColorBlock": 803,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2024-07-18T02:30:47.4132046+02:00",
-    "ChildItems": [
-      {
-        "Id": 252,
-        "Name": "Grimes-Hilll",
-        "ToolTip": "Sunt et exercitationem nam et quisquam.",
-        "Deleted": true,
-        "Rank": 815,
-        "Type": "voluptas",
-        "ColorBlock": 147,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2023-06-26T02:30:47.4132046+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Rosemarie Block",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 854
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quis",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Lexi O'Hara",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListItemsForUserGroup.md)]

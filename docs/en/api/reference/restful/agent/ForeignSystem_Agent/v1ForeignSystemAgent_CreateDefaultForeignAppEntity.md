@@ -60,54 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_CreateDefaultForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 789,
-  "Name": "Adams LLC",
-  "CreatedDate": "2023-01-08T02:30:47.350707+01:00",
-  "UpdatedDate": "2017-06-06T02:30:47.350707+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 916,
-      "Name": "Hermiston-Kreiger",
-      "CreatedDate": "2011-11-10T02:30:47.350707+01:00",
-      "UpdatedDate": "2012-05-24T02:30:47.350707+02:00",
-      "AssociateFullName": "Hillary Luettgen",
-      "CreatedBy": "placeat",
-      "UpdatedBy": "accusamus",
-      "DeviceIdentifier": "dolores",
-      "ForeignAppId": 979,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 404
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_CreateDefaultForeignAppEntity.md)]

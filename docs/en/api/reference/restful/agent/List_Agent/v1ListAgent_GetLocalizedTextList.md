@@ -74,35 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLocalizedTextList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLocalizedTextList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageId": 445,
-    "ResourceId": 826,
-    "Text": "omnis",
-    "Type": "Column",
-    "LocalizedTextId": 652,
-    "IsBuiltIn": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 592
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLocalizedTextList.md)]

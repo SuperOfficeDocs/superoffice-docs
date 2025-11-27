@@ -67,24 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/ToggleSubscription
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FolderId": 604,
-  "SubscriptionStatus": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_ToggleSubscription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_ToggleSubscription.md)]

@@ -23,7 +23,7 @@ the email_id.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"email"|[email]|
+|"email"|email|
 |"person"|Contacts|
 
 ## Supported Columns
@@ -196,7 +196,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personContact/business,personContact/postAddress/city,personCategory
+GET /api/v1/archive/emailpersonaddress?$select=personNoMail,personContact/country,personCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

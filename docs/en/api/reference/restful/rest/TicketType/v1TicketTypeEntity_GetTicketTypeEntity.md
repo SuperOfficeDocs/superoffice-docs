@@ -89,59 +89,8 @@ TicketTypeEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/TicketType/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeEntity_GetTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 TicketTypeEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 286,
-  "Name": "Daniel-Morar",
-  "Rank": 193,
-  "Tooltip": "facere",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 735,
-  "TicketStatuses": [
-    433,
-    777
-  ],
-  "DefaultTicketPriority": 855,
-  "TicketPriorities": [
-    431,
-    171
-  ],
-  "ReplyTemplate": 502,
-  "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    466,
-    514
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 455
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeEntity_GetTicketTypeEntity.md)]

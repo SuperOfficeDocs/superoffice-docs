@@ -98,69 +98,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/SaveSaleStakeholder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Nienow Group",
-  "Comment": "sapiente",
-  "StakeholderRoleId": 455,
-  "CountryId": 221,
-  "PersonId": 689,
-  "EmailDescription": "clifton.huel@boganheathcote.ca",
-  "EmailId": 842,
-  "EmailAddress": "newton_cassin@wymantorphy.info",
-  "PhoneId": 427,
-  "ContactName": "Wilkinson, Waelchi and Casper",
-  "ContactId": 535,
-  "SaleId": 246,
-  "Mrmrs": "et",
-  "Firstname": "Marc",
-  "MiddleName": "Emmerich Group",
-  "Lastname": "Glover",
-  "SaleStakeholderId": 908,
-  "Rank": 269,
-  "Phone": "1-608-027-7242 x2271"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_SaveSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "McGlynn Group",
-  "Comment": "laboriosam",
-  "StakeholderRoleId": 100,
-  "CountryId": 342,
-  "PersonId": 617,
-  "EmailDescription": "jenifer@stoltenbergmoore.uk",
-  "EmailId": 299,
-  "EmailAddress": "icie_witting@fritsch.name",
-  "PhoneId": 373,
-  "ContactName": "Nolan-O'Conner",
-  "ContactId": 272,
-  "SaleId": 558,
-  "Mrmrs": "omnis",
-  "Firstname": "Estelle",
-  "MiddleName": "Cassin-Wilderman",
-  "Lastname": "Kunze",
-  "SaleStakeholderId": 528,
-  "Rank": 10,
-  "Phone": "1-533-852-6030",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_SaveSaleStakeholder.md)]

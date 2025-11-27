@@ -76,55 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Webhook/Test
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 345,
-  "Name": "Goyette Group",
-  "Events": [
-    "non",
-    "consectetur"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
-  "State": "Active",
-  "Type": "blanditiis",
-  "Headers": {
-    "Headers1": "ad",
-    "Headers2": "voluptatem"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2025-02-20T02:30:53.1786436+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2024-03-05T02:30:53.1786436+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "alan_orn@simonis.info"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_TestWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": false,
-  "Message": "in",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_TestWebhook.md)]

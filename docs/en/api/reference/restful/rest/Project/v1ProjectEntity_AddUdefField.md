@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Project/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 253,
-  "ColumnId": 677,
-  "FieldDefault": "necessitatibus",
-  "FieldHeight": 599,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 970,
-  "FieldTop": 631,
-  "FieldType": "Checkbox",
-  "FieldWidth": 559,
-  "FormatMask": "sint",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 776,
-  "LabelLeft": 60,
-  "LabelTop": 862,
-  "LabelWidth": 300,
-  "LastVersionId": 212,
-  "ListTableId": 595,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 956,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "eos",
-  "TabOrder": 984,
-  "TextLength": 451,
-  "Tooltip": "corporis",
-  "UdefIdentity": 168,
-  "UDListDefinitionId": 674,
-  "Justification": "Center",
-  "Version": 178,
-  "TemplateVariableName": "Kiehn-Terry",
-  "HasBeenPublished": false,
-  "MdoListName": "Parisian Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_AddUdefField.md)]

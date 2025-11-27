@@ -82,69 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/ValidateQuoteVersion
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 540,
-  "Action": "Approve"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_ValidateQuoteVersion.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "deserunt",
-  "TechExplanation": "deserunt",
-  "ErrorCode": "qui",
-  "ChangedSale": null,
-  "ChangedQuote": null,
-  "ChangedQuoteVersion": null,
-  "ChangedQuoteAlternatives": [
-    {
-      "QuoteLinesHasChanged": true,
-      "ChangedQuoteAlternative": null,
-      "Changes": null,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 838
-        }
-      }
-    },
-    {
-      "QuoteLinesHasChanged": true,
-      "ChangedQuoteAlternative": null,
-      "Changes": null,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 838
-        }
-      }
-    }
-  ],
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_ValidateQuoteVersion.md)]

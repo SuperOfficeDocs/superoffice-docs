@@ -80,40 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetPreviousCurrent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HistoryName": "Oberbrunner-Haley",
-  "Id": 894
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetPreviousCurrent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rank": 804,
-  "Id": 556,
-  "HistoryName": "Buckridge LLC",
-  "HistoryId": 728,
-  "AssociateId": 985,
-  "Name": "Cronin-Littel",
-  "ItemInfo": "adipisci",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetPreviousCurrent.md)]

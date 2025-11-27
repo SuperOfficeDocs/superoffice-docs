@@ -66,23 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/RemoveLicenses
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 989
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_RemoveLicenses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_RemoveLicenses.md)]

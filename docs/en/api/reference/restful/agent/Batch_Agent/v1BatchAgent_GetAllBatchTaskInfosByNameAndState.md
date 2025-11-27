@@ -94,60 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskName": "Wisoky Group",
-  "State": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetAllBatchTaskInfosByNameAndState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 886,
-    "Name": "Feil-Bins",
-    "AssociateId": 411,
-    "DetailsTable": 973,
-    "DetailsRecord": 844,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "natus"
-    },
-    "LastStarted": "2021-08-02T02:30:46.8194719+02:00",
-    "Created": "2017-12-08T02:30:46.8194719+01:00",
-    "StartCount": 46,
-    "DatabaseSerialNumber": "1081324",
-    "Context": "sit",
-    "Result": "minima",
-    "State": "All",
-    "Description": "Fundamental 4th generation parallelism",
-    "Response": "eaque",
-    "Request": "rerum",
-    "ProgressDescription": "Managed zero defect project",
-    "ProgressPercent": 813,
-    "FileName": "Lowe, Waelchi and Runolfsdottir",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 624
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetAllBatchTaskInfosByNameAndState.md)]

@@ -9,9 +9,10 @@ items:
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.Definition
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableNumber
-  - SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
-  - SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId(System.Int32)
-  - SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord(System.Int32)
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.Registered
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -112,70 +113,70 @@ items:
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "time_keeping"
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId(System.Int32)
-  commentId: M:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId(System.Int32)
-  id: IdxEntityId(System.Int32)
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord(System.Int32)
+  id: IdxOwnerRecord(System.Int32)
   parent: SuperOffice.CRM.Data.TimeKeepingTableInfo
   langs:
   - csharp
   - vb
-  name: IdxEntityId(int)
-  nameWithType: TimeKeepingTableInfo.IdxEntityId(int)
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId(int)
+  name: IdxOwnerRecord(int)
+  nameWithType: TimeKeepingTableInfo.IdxOwnerRecord(int)
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord(int)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
   summary: >-
-    Shortcut method for looking up using the database index EntityId, which spans the following fields:
+    Shortcut method for looking up using the database index OwnerRecord, which spans the following fields:
 
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">EntityId</td><td class="description">The entity we are keeping time of (a sale, project - given by time_keeping_type)</td></tr></tbody></table>
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">OwnerRecord</td><td class="description">Optional owner record id, if layout is bound to an owner</td></tr></tbody></table>
   example: []
   syntax:
-    content: public Restriction IdxEntityId(int entityId)
+    content: public Restriction IdxOwnerRecord(int ownerRecord)
     parameters:
-    - id: entityId
+    - id: ownerRecord
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxEntityId(entityId As Integer) As Restriction
-  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId*
-  nameWithType.vb: TimeKeepingTableInfo.IdxEntityId(Integer)
-  fullName.vb: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId(Integer)
-  name.vb: IdxEntityId(Integer)
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId(System.Int32,System.Int32)
-  id: IdxEntityIdStateId(System.Int32,System.Int32)
+    content.vb: Public Function IdxOwnerRecord(ownerRecord As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord*
+  nameWithType.vb: TimeKeepingTableInfo.IdxOwnerRecord(Integer)
+  fullName.vb: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord(Integer)
+  name.vb: IdxOwnerRecord(Integer)
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId(System.Int32,System.Int32)
+  id: IdxOwnerRecordStateId(System.Int32,System.Int32)
   parent: SuperOffice.CRM.Data.TimeKeepingTableInfo
   langs:
   - csharp
   - vb
-  name: IdxEntityIdStateId(int, int)
-  nameWithType: TimeKeepingTableInfo.IdxEntityIdStateId(int, int)
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId(int, int)
+  name: IdxOwnerRecordStateId(int, int)
+  nameWithType: TimeKeepingTableInfo.IdxOwnerRecordStateId(int, int)
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId(int, int)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
   summary: >-
-    Shortcut method for looking up using the database index EntityIdStateId, which spans the following fields:
+    Shortcut method for looking up using the database index OwnerRecordStateId, which spans the following fields:
 
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">EntityId</td><td class="description">The entity we are keeping time of (a sale, project - given by time_keeping_type)</td></tr><tr><td class="term">StateId</td><td class="description">The id of the state we are keeping time of (a sale stage, or other thing - given by time_keeping_type)</td></tr></tbody></table>
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">OwnerRecord</td><td class="description">Optional owner record id, if layout is bound to an owner</td></tr><tr><td class="term">StateId</td><td class="description">The id of the state we are keeping time of (a sale stage, or other thing - given by time_keeping_type)</td></tr></tbody></table>
   example: []
   syntax:
-    content: public Restriction IdxEntityIdStateId(int entityId, int stateId)
+    content: public Restriction IdxOwnerRecordStateId(int ownerRecord, int stateId)
     parameters:
-    - id: entityId
+    - id: ownerRecord
       type: System.Int32
     - id: stateId
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxEntityIdStateId(entityId As Integer, stateId As Integer) As Restriction
-  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId*
-  nameWithType.vb: TimeKeepingTableInfo.IdxEntityIdStateId(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId(Integer, Integer)
-  name.vb: IdxEntityIdStateId(Integer, Integer)
+    content.vb: Public Function IdxOwnerRecordStateId(ownerRecord As Integer, stateId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId*
+  nameWithType.vb: TimeKeepingTableInfo.IdxOwnerRecordStateId(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId(Integer, Integer)
+  name.vb: IdxOwnerRecordStateId(Integer, Integer)
 - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -315,32 +316,6 @@ items:
       type: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
     content.vb: Public ReadOnly Property TimeKeepingType As TimeKeepingTypeFieldInfo
   overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.TimeKeepingType*
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
-  commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
-  id: EntityId
-  parent: SuperOffice.CRM.Data.TimeKeepingTableInfo
-  langs:
-  - csharp
-  - vb
-  name: EntityId
-  nameWithType: TimeKeepingTableInfo.EntityId
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'entity_id' in table 'time_keeping': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The entity we are keeping time of (a sale, project - given by time_keeping_type)
-  example: []
-  syntax:
-    content: public Int32FieldInfo EntityId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property EntityId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId*
 - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.StateId
   commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.StateId
   id: StateId
@@ -549,6 +524,58 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
+  commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.TimeKeepingTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: TimeKeepingTableInfo.OwnerTable
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ownerTable' in table 'time_keeping': Dictionary type TableNumber, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The table that is the owning entity
+  example: []
+  syntax:
+    content: public UInt16FieldInfo OwnerTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property OwnerTable As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable*
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
+  commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Data.TimeKeepingTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: TimeKeepingTableInfo.OwnerRecord
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ownerRecord' in table 'time_keeping': Dictionary type RecordId, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Optional owner record id, if layout is bound to an owner
+  example: []
+  syntax:
+    content: public Int32FieldInfo OwnerRecord { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OwnerRecord As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord*
 - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1420,13 +1447,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId*
-  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord*
+  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord
   isExternal: true
-  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_IdxEntityId_System_Int32_
-  name: IdxEntityId
-  nameWithType: TimeKeepingTableInfo.IdxEntityId
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityId
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_IdxOwnerRecord_System_Int32_
+  name: IdxOwnerRecord
+  nameWithType: TimeKeepingTableInfo.IdxOwnerRecord
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecord
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1446,13 +1473,13 @@ references:
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId*
-  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId*
+  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId
   isExternal: true
-  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_IdxEntityIdStateId_System_Int32_System_Int32_
-  name: IdxEntityIdStateId
-  nameWithType: TimeKeepingTableInfo.IdxEntityIdStateId
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxEntityIdStateId
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_IdxOwnerRecordStateId_System_Int32_System_Int32_
+  name: IdxOwnerRecordStateId
+  nameWithType: TimeKeepingTableInfo.IdxOwnerRecordStateId
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.IdxOwnerRecordStateId
 - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.DictionaryTableNumber
   isExternal: true
@@ -1564,13 +1591,6 @@ references:
   name: TimeKeepingTypeFieldInfo
   nameWithType: TimeKeepingTypeFieldInfo
   fullName: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
-- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId*
-  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
-  isExternal: true
-  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_EntityId
-  name: EntityId
-  nameWithType: TimeKeepingTableInfo.EntityId
-  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.EntityId
 - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.StateId*
   commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.StateId
   isExternal: true
@@ -1665,6 +1685,20 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable*
+  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_OwnerTable
+  name: OwnerTable
+  nameWithType: TimeKeepingTableInfo.OwnerTable
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerTable
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord*
+  commentId: Overload:SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_OwnerRecord
+  name: OwnerRecord
+  nameWithType: TimeKeepingTableInfo.OwnerRecord
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.OwnerRecord
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

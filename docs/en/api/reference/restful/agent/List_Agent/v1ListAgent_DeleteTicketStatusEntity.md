@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | ticketStatusEntityId | int32 | **Required** The identity of the TicketStatusEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketStatusEntity?ticketStatusEntityId=960
+POST /api/v1/Agents/List/DeleteTicketStatusEntity?ticketStatusEntityId=6
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/DeleteTicketStatusEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_DeleteTicketStatusEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_DeleteTicketStatusEntity.md)]

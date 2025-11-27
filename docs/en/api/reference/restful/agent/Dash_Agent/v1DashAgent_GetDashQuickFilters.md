@@ -72,34 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashQuickFilters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 133
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashQuickFilters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Restriction": null,
-    "Provider": "odit",
-    "DashboardId": 564
-  },
-  {
-    "Restriction": null,
-    "Provider": "odit",
-    "DashboardId": 564
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashQuickFilters.md)]

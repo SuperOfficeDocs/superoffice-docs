@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 489,
-  "PrefDescId": 187,
-  "PrefValue": "tempore",
-  "PrefShowValue": "omnis",
-  "Description": "Diverse system-worthy benchmark",
-  "IsBuiltin": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 361,
-  "PrefDescId": 281,
-  "PrefValue": "possimus",
-  "PrefShowValue": "suscipit",
-  "Description": "Cross-group demand-driven intranet",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferenceDescriptionLine.md)]

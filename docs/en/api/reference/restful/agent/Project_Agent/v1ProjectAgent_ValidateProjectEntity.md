@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/ValidateProjectEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_ValidateProjectEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "quia",
-  "2": "nam"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_ValidateProjectEntity.md)]

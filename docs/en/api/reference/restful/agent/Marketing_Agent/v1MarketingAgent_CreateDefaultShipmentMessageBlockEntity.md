@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 903,
-  "AssociateId": 329,
-  "Block": "sit",
-  "Registered": "2009-07-26T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2001-05-12T02:30:47.4600781+02:00",
-  "UpdatedAssociateId": 253,
-  "UpdatedCount": 405,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 733
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity.md)]

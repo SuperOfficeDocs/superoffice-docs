@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 877,
-  "Name": "Lang-Bartoletti",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 505,
-  "Rank": 600
-}
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_PutDeliveryType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 797,
-  "Name": "Koelpin LLC",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "UdListDefinitionId": 829,
-  "Rank": 303,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_PutDeliveryType.md)]

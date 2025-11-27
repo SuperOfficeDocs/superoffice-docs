@@ -75,42 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/ValidateDays
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentEntity": null,
-  "Dates": [
-    "harum",
-    "velit"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_ValidateDays.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Date": "2002-09-06T02:30:46.6163546+02:00",
-    "IsConflict": false,
-    "Description": "Adaptive assymetric Graphic Interface",
-    "DescriptionStyleHint": "Innovative interactive pricing structure",
-    "Tooltip": "similique"
-  },
-  {
-    "Date": "2002-09-06T02:30:46.6163546+02:00",
-    "IsConflict": false,
-    "Description": "Adaptive assymetric Graphic Interface",
-    "DescriptionStyleHint": "Innovative interactive pricing structure",
-    "Tooltip": "similique"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_ValidateDays.md)]

@@ -83,68 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetHierarchyFromPath
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "Dashboards",
-  "Path": "tempore",
-  "Children": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetHierarchyFromPath.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 448,
-  "Domain": "Dashboards",
-  "Name": "Boyer, Reichert and Williamson",
-  "Fullname": "inventore",
-  "ParentId": 313,
-  "Children": [
-    {
-      "HierarchyId": 388,
-      "Domain": "Dashboards",
-      "Name": "Legros, Bednar and Schamberger",
-      "Fullname": "est",
-      "ParentId": 727,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2000-10-18T02:30:47.4288293+02:00",
-      "RegisteredAssociateId": 456,
-      "Updated": "2002-06-21T02:30:47.4288293+02:00",
-      "UpdatedAssociateId": 186,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 73
-        }
-      }
-    }
-  ],
-  "Registered": "2004-10-26T02:30:47.4288293+02:00",
-  "RegisteredAssociateId": 330,
-  "Updated": "2007-04-23T02:30:47.4288293+02:00",
-  "UpdatedAssociateId": 210,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetHierarchyFromPath.md)]

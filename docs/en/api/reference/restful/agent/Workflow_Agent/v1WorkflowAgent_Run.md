@@ -59,18 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/Run
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_Run.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"2009-07-30T02:30:48.16318+02:00"
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_Run.md)]

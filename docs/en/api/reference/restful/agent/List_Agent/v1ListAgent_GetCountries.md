@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetCountries
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetCountries.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CountryId": 250,
-    "Name": "Huel LLC",
-    "CurrencyId": 116,
-    "EnglishName": "Kozey, Grady and Grant",
-    "TwoLetterISOCountry": "Sokovia",
-    "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Business-focused 4th generation framework",
-    "OrgNrText": "1271345",
-    "InterAreaPrefix": "rem",
-    "DialInPrefix": "quam",
-    "ZipPrefix": "odit",
-    "DomainName": "Gutmann, Hermann and Jewess",
-    "AddressLayoutId": 538,
-    "DomesticAddressLayoutId": 126,
-    "ForeignAddressLayoutId": 238,
-    "Rank": 243,
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetCountries.md)]

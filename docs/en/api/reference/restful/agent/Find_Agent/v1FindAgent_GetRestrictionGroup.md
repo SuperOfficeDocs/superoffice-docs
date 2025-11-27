@@ -77,54 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetRestrictionGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "et",
-  "ProviderName": "DuBuque, Goyette and Dibbert",
-  "StorageKey": "unde",
-  "Rank": 838,
-  "Context": "cupiditate"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetRestrictionGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Friesen-Bernhard",
-  "Description": "Vision-oriented intangible framework",
-  "Rank": 732,
-  "Restrictions": [
-    {
-      "Name": "Klein, Osinski and Abernathy",
-      "Operator": "ad",
-      "Values": [
-        "voluptas",
-        "officia"
-      ],
-      "DisplayValues": [
-        "molestias",
-        "ad"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 287,
-      "InterOperator": "And",
-      "UniqueHash": 207
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetRestrictionGroup.md)]

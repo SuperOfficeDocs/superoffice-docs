@@ -94,60 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Bosco LLC",
-  "State": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetBatchTaskInfosByNameAndState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 106,
-    "Name": "Considine, Miller and Price",
-    "AssociateId": 684,
-    "DetailsTable": 367,
-    "DetailsRecord": 272,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
-    "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "soluta"
-    },
-    "LastStarted": "2018-05-15T02:30:46.8194719+02:00",
-    "Created": "2021-12-16T02:30:46.8194719+01:00",
-    "StartCount": 564,
-    "DatabaseSerialNumber": "835313",
-    "Context": "et",
-    "Result": "ea",
-    "State": "All",
-    "Description": "Expanded solution-oriented hardware",
-    "Response": "deserunt",
-    "Request": "perferendis",
-    "ProgressDescription": "Team-oriented 4th generation challenge",
-    "ProgressPercent": 732,
-    "FileName": "Gorczany-Mitchell",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 510
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetBatchTaskInfosByNameAndState.md)]

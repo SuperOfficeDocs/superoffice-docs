@@ -32,7 +32,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=618
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=890
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
 
@@ -73,32 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetUserGroup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetUserGroup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Value": "vitae",
-  "Tooltip": "sequi",
-  "Id": 101,
-  "Rank": 327,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetUserGroup.md)]

@@ -64,27 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetRankOnProjectDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectTypeStatusLinkId": 110,
-  "ItemsIds": [
-    408,
-    367
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetRankOnProjectDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetRankOnProjectDocument.md)]

@@ -74,26 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SendChangePasswordEMail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 178
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SendChangePasswordEMail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": false,
-  "Message": "aliquid"
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SendChangePasswordEMail.md)]

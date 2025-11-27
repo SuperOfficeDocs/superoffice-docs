@@ -83,52 +83,8 @@ SaleEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/{id}/Simple
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_Simple.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactName": "Jacobson-McGlynn",
-  "SaleDate": "2000-12-29T02:30:52.8974033+01:00",
-  "SaleId": 801,
-  "Probability": 168,
-  "Title": "consequatur",
-  "Amount": 3591.564,
-  "Currency": "sit",
-  "ProjectName": "Miller Group",
-  "AssociateFullName": "Horacio Feil",
-  "Description": "Extended global architecture",
-  "Status": "Lost",
-  "WeightedAmount": 20026.26,
-  "ProjectId": 889,
-  "EarningPercent": 18982.638,
-  "Earning": 9311.114,
-  "ContactId": 535,
-  "AssociateId": 590,
-  "PersonId": 184,
-  "SaleTypeId": 165,
-  "SaleTypeName": "Ferry Group",
-  "PersonFullName": "Lorenzo Heller",
-  "Completed": "Completed",
-  "ActiveErpLinks": 314,
-  "NextDueDate": "2016-06-20T02:30:52.8974033+02:00",
-  "Number": "1021871",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_Simple.md)]

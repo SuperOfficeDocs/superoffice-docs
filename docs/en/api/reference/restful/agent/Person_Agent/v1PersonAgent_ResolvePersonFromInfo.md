@@ -77,43 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/ResolvePersonFromInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 115,
-  "PersonName": "Flatley, Yost and Herzog",
-  "PhoneNumbers": [
-    "1169936",
-    "287847"
-  ],
-  "Emails": [
-    "tyrese@gorczanyjacobson.biz",
-    "javon@zulauf.name"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_ResolvePersonFromInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Person": null,
-  "PersonCreated": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_ResolvePersonFromInfo.md)]

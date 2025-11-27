@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/QuoteDenyReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 945,
-  "Name": "Lueilwitz LLC",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "UdListDefinitionId": 839,
-  "Rank": 661
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_PostQuoteDenyReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 142,
-  "Name": "Haag Group",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "UdListDefinitionId": 862,
-  "Rank": 182,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_PostQuoteDenyReason.md)]

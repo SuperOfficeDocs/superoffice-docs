@@ -77,35 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Schema/{tableName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1FieldInfoBase_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Blick-Gutmann",
-    "DisplayName": "Kemmer Inc and Sons",
-    "Description": "Expanded executive encryption",
-    "ShortLabel": "ex",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 592,
-    "TemplateVariableName": "Rodriguez, Hoppe and Klein"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1FieldInfoBase_GetCustomFieldInfoList.md)]

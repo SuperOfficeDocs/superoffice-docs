@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"salestakeholder"|[Sale Stakeholder]|
+|"salestakeholder"|Sale Stakeholder|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
@@ -437,7 +437,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personUpdatedBy,person/restrictionAddress/county,contact/restrictionAddress/state,contact/restrictionAddress/formattedAddress,contact/url/URLAddress
+GET /api/v1/archive/SaleStakeholder?$select=person/personMobilePhone/formattedNumber,person/restrictionAddress/zip,person/personExtra/x_person_float,person/correspondingAssociate/firstName,contact/contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

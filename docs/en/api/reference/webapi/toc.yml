@@ -326,6 +326,10 @@ items:
     name: AI_GetChatbotResponseRequest
   - uid: SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
     name: AI_GetChatbotTurnsRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
+    name: AI_GetFormDesignFromImageRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
+    name: AI_GetFormDesignFromUrlRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
     name: AI_GetSummarizeContactPromptRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
@@ -706,6 +710,8 @@ items:
     name: AttachmentPreview
   - uid: SuperOffice.WebApi.Data.AttachmentValidationResult
     name: AttachmentValidationResult
+  - uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
   - uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
     name: BLOB_ChangeContactImageRequest
   - uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
@@ -916,6 +922,8 @@ items:
     name: CategoryGroup
   - uid: SuperOffice.WebApi.Data.CategoryGuess
     name: CategoryGuess
+  - uid: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
   - uid: SuperOffice.WebApi.Data.ChangePasswordType
     name: ChangePasswordType
   - uid: SuperOffice.WebApi.Data.ChangedData
@@ -1192,6 +1200,14 @@ items:
     name: Contact_ValidateContactEntityRequest
   - uid: SuperOffice.WebApi.Data.ControlInfo
     name: ControlInfo
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceSetting
+    name: CopilotDataSourceSetting
+  - uid: SuperOffice.WebApi.Data.CopilotDataSourceType
+    name: CopilotDataSourceType
+  - uid: SuperOffice.WebApi.Data.CopilotEntity
+    name: CopilotEntity
   - uid: SuperOffice.WebApi.Data.Country
     name: Country
   - uid: SuperOffice.WebApi.Data.Credential
@@ -2256,6 +2272,8 @@ items:
     name: ForeignSystem_SaveForeignDeviceRequest
   - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest
     name: ForeignSystem_SaveForeignKeyRequest
+  - uid: SuperOffice.WebApi.Data.FormDesignCarrier
+    name: FormDesignCarrier
   - uid: SuperOffice.WebApi.Data.FormEntity
     name: FormEntity
   - uid: SuperOffice.WebApi.Data.FormSubmissionEntity
@@ -2436,12 +2454,12 @@ items:
     name: List_DeleteListEntityByNameRequest
   - uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
     name: List_DeleteProjectStatusRequest
-  - uid: SuperOffice.WebApi.Data.List_DeleteTaskMenuRequest
-    name: List_DeleteTaskMenuRequest
   - uid: SuperOffice.WebApi.Data.List_DeleteWebPanelRequest
     name: List_DeleteWebPanelRequest
   - uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
     name: List_GenerateNavigationUrlRequest
+  - uid: SuperOffice.WebApi.Data.List_GetAllAutomatedCategoryUpdatesRequest
+    name: List_GetAllAutomatedCategoryUpdatesRequest
   - uid: SuperOffice.WebApi.Data.List_GetAllCountriesRequest
     name: List_GetAllCountriesRequest
   - uid: SuperOffice.WebApi.Data.List_GetAllCurrenciesRequest
@@ -2560,6 +2578,10 @@ items:
     name: List_GetLocalizedTextsRequest
   - uid: SuperOffice.WebApi.Data.List_GetMrMrsesRequest
     name: List_GetMrMrsesRequest
+  - uid: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
+    name: List_GetNeedCategoryUpdateForPersonRequest
+  - uid: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForSaleRequest
+    name: List_GetNeedCategoryUpdateForSaleRequest
   - uid: SuperOffice.WebApi.Data.List_GetOurCurrencyRequest
     name: List_GetOurCurrencyRequest
   - uid: SuperOffice.WebApi.Data.List_GetOwnerCompanysCurrencyRequest
@@ -2630,6 +2652,8 @@ items:
     name: List_MoveListItemRequest
   - uid: SuperOffice.WebApi.Data.List_RebuildFullnamesRequest
     name: List_RebuildFullnamesRequest
+  - uid: SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
+    name: List_SaveAllAutomatedCategoryUpdatesRequest
   - uid: SuperOffice.WebApi.Data.List_SaveAllFromListDefinitionRequest
     name: List_SaveAllFromListDefinitionRequest
   - uid: SuperOffice.WebApi.Data.List_SaveAllFromListNameRequest
@@ -2666,10 +2690,6 @@ items:
     name: List_SaveListItemEntityRequest
   - uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
     name: List_SaveQuickRepliesRequest
-  - uid: SuperOffice.WebApi.Data.List_SaveTaskMenuRequest
-    name: List_SaveTaskMenuRequest
-  - uid: SuperOffice.WebApi.Data.List_SaveWebPanelEntityRequest
-    name: List_SaveWebPanelEntityRequest
   - uid: SuperOffice.WebApi.Data.List_SetDocumentPluginForAllDocumentTemplatesRequest
     name: List_SetDocumentPluginForAllDocumentTemplatesRequest
   - uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest

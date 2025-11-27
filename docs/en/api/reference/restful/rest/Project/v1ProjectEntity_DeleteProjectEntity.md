@@ -51,18 +51,8 @@ ProjectEntity deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/Project/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_DeleteProjectEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 ProjectEntity deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_DeleteProjectEntity.md)]

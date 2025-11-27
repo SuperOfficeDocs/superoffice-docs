@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 516
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetBlobEntityOnPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 925,
-  "BlobSize": 105,
-  "Description": "Automated web-enabled workforce",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "dolorum",
-  "OriginalSize": 667,
-  "CreatedDate": "2020-05-29T02:30:46.8194719+02:00",
-  "UpdatedDate": "2010-10-27T02:30:46.8194719+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "aperiam",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetBlobEntityOnPerson.md)]

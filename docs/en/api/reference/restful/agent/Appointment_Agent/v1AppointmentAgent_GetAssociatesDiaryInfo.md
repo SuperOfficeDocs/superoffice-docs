@@ -100,66 +100,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateIds": [
-    671,
-    216
-  ],
-  "StartTime": "2003-06-27T02:30:46.5382305+02:00",
-  "EndTime": "2003-11-30T02:30:46.5382305+01:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetAssociatesDiaryInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AppointmentId": 672,
-    "AssociateId": 937,
-    "MotherId": 803,
-    "StartDate": "2005-08-16T02:30:46.5382305+02:00",
-    "EndDate": "2005-08-09T02:30:46.5382305+02:00",
-    "ColorIndex": "BlueAlt1",
-    "TaskName": "Carter Inc and Sons",
-    "ContactName": "Harris Group",
-    "ProjectName": "Rempel Inc and Sons",
-    "Title": "voluptas",
-    "Agenda": "nobis",
-    "IsAllDay": true,
-    "IsBusy": false,
-    "IsRecurring": true,
-    "IsVideoMeeting": true,
-    "HasAlarm": true,
-    "IsCompleted": false,
-    "IsTentative": false,
-    "IsBookingMain": false,
-    "SendEmail": true,
-    "AnySendEmail": false,
-    "IsPrivate": false,
-    "RecurrenceInfo": null,
-    "PersonName": "Bashirian Inc and Sons",
-    "IsBooking": false,
-    "OwnedExternally": "Google",
-    "MotherAssociateId": 240,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetAssociatesDiaryInfo.md)]

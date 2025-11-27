@@ -67,27 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/SendSystemMessage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemMessageId": "quas",
-  "AssociateId": 342,
-  "MarkdownMessage": "minus",
-  "Expire": "2017-06-26T02:30:47.0694635+02:00",
-  "Type": "Error"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_SendSystemMessage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_SendSystemMessage.md)]

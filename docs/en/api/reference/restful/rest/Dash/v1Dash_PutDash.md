@@ -102,85 +102,8 @@ Dash updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/Dash/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 15,
-  "UniqueId": "cum",
-  "Name": "Russel Group",
-  "Description": "Right-sized explicit website",
-  "AssociateId": 822,
-  "Columns": 340,
-  "Theme": null,
-  "VisibleForAll": 517,
-  "VisibleForAssociates": [
-    128,
-    917
-  ],
-  "VisibleForGroups": [
-    241,
-    114
-  ],
-  "PinForAll": 696,
-  "PinForAssociates": [
-    286,
-    981
-  ],
-  "PinForGroups": [
-    890,
-    96
-  ]
-}
-```
+[!include[sample request](../../samples/rest/request/v1Dash_PutDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 Dash updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 259,
-  "UniqueId": "velit",
-  "Name": "Hartmann LLC",
-  "Description": "Compatible regional throughput",
-  "AssociateId": 762,
-  "Columns": 976,
-  "Theme": null,
-  "VisibleForAll": 283,
-  "VisibleForAssociates": [
-    46,
-    790
-  ],
-  "VisibleForGroups": [
-    111,
-    991
-  ],
-  "PinForAll": 365,
-  "PinForAssociates": [
-    954,
-    110
-  ],
-  "PinForGroups": [
-    122,
-    114
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Dash_PutDash.md)]

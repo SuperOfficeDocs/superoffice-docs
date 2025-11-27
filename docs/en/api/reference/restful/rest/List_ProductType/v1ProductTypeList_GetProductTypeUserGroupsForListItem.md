@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetProductTypeUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 61,
-    "Name": "Gutkowski, Stroman and Abernathy",
-    "ToolTip": "Sunt in odio ipsam.",
-    "Deleted": true,
-    "Rank": 863,
-    "Type": "dicta",
-    "ColorBlock": 827,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2006-02-14T02:30:53.3661371+01:00",
-    "ChildItems": [
-      {
-        "Id": 265,
-        "Name": "Swift Inc and Sons",
-        "ToolTip": "Omnis id id dolores rerum non ut neque.",
-        "Deleted": false,
-        "Rank": 496,
-        "Type": "debitis",
-        "ColorBlock": 1002,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2005-01-29T02:30:53.3661371+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Augustine Wolff",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 796
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Lelia Nicolas",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetProductTypeUserGroupsForListItem.md)]

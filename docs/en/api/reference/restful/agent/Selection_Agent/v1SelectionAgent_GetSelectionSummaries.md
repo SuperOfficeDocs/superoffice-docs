@@ -74,41 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetSelectionSummaries
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionIds": [
-    438,
-    644
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetSelectionSummaries.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "SelectionId": 886,
-    "Name": "Erdman LLC",
-    "TargetTable": "quo",
-    "Registered": "2010-11-10T02:30:47.8506907+01:00",
-    "ProviderName": "Hansen-Lubowitz"
-  },
-  {
-    "SelectionId": 886,
-    "Name": "Erdman LLC",
-    "TargetTable": "quo",
-    "Registered": "2010-11-10T02:30:47.8506907+01:00",
-    "ProviderName": "Hansen-Lubowitz"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetSelectionSummaries.md)]

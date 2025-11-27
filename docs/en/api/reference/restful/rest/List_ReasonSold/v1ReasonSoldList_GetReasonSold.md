@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_GetReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 299,
-  "Name": "Torp, Murray and Sipes",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 315,
-  "Rank": 616,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_GetReasonSold.md)]

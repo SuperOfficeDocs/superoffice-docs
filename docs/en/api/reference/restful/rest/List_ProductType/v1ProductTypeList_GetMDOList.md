@@ -27,8 +27,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=omnis
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=blanditiis
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 328,
-    "Name": "Stiedemann LLC",
-    "ToolTip": "Qui dolore.",
-    "Deleted": false,
-    "Rank": 527,
-    "Type": "maiores",
-    "ChildItems": [
-      {
-        "Id": 577,
-        "Name": "Dickinson Group",
-        "ToolTip": "Ut velit voluptatem.",
-        "Deleted": true,
-        "Rank": 471,
-        "Type": "dolor",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "aut",
-        "ColorBlock": 753,
-        "ExtraInfo": "qui",
-        "StyleHint": "commodi",
-        "FullName": "Bria Abbott",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 961
-          }
-        }
-      }
-    ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 547,
-    "ExtraInfo": "expedita",
-    "StyleHint": "minus",
-    "FullName": "Kendall Cruickshank PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 143
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetMDOList.md)]

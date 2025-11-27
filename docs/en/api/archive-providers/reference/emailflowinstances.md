@@ -18,7 +18,7 @@ Lists all email flow Instances
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"emailflowinstance"|[emailflowinstance]|
+|"emailflowinstance"|emailflowinstance|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -512,7 +512,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/hierarchyParentId,person/personAddress/addressId,person/personAssociate/assocType
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowAssociate/mrMrs,contact/restrictionAddress/state,contact/NumberOfActivities,contact/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

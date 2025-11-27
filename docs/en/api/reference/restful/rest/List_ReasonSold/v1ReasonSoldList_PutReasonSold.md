@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonSold/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 858,
-  "Name": "Hirthe Group",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "UdListDefinitionId": 724,
-  "Rank": 757
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_PutReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 241,
-  "Name": "VonRueden, Mann and Bernhard",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 733,
-  "Rank": 937,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_PutReasonSold.md)]

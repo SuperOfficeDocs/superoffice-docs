@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/CalculateMailingStatistics
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentId": 211
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_CalculateMailingStatistics.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-725
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_CalculateMailingStatistics.md)]

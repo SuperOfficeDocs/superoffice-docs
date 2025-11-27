@@ -76,34 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/CheckoutDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 132,
-  "AllowedReturnTypes": [
-    "ex",
-    "et"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_CheckoutDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExternalReference": "nemo",
-  "VersionId": "et",
-  "Success": false,
-  "Type": "CustomGui",
-  "Value": "rerum",
-  "AdditionalInfo": "voluptas"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_CheckoutDocument.md)]

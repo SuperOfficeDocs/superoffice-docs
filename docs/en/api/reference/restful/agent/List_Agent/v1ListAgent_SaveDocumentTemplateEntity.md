@@ -110,81 +110,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveDocumentTemplateEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 878,
-  "Name": "Schmitt LLC",
-  "Tooltip": "qui",
-  "SaveInDb": 991,
-  "Filename": "qui",
-  "DefaultOref": "nihil",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 638,
-  "IntentId": 529,
-  "IsDefaultPublished": true,
-  "Rank": 202,
-  "LoadTemplateFromPlugin": 964,
-  "MimeType": "voluptatem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 420,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "sigmund_greenfelder@gusikowski.co.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sid@berniermorar.co.uk",
-  "InvitationDocType": "Cancelled"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 679,
-  "Name": "Cruickshank-Reichel",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 39,
-  "Filename": "fuga",
-  "DefaultOref": "in",
-  "RecordType": "Appointment",
-  "Deleted": false,
-  "Direction": "Incoming",
-  "AutoeventId": 530,
-  "IntentId": 227,
-  "IsDefaultPublished": true,
-  "Rank": 811,
-  "LoadTemplateFromPlugin": 47,
-  "MimeType": "at",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 331,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "juvenal@mcculloughquigley.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lambert@waelchi.us",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveDocumentTemplateEntity.md)]

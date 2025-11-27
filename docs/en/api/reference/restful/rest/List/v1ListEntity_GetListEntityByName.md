@@ -65,37 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{name}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_GetListEntityByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 328,
-  "Name": "Lakin-Fadel",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 484,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_GetListEntityByName.md)]

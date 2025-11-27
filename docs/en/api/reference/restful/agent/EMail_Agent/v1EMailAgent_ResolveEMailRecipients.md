@@ -84,46 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/ResolveEMailRecipients
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailAddress": "ofelia@robertshalvorson.biz"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_ResolveEMailRecipients.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 15,
-    "ContactName": "Monahan LLC",
-    "PersonId": 274,
-    "PersonName": "Torphy, Bruen and Rosenbaum",
-    "AssociateId": 477,
-    "Address": "et",
-    "EmailId": 111,
-    "DuplicatePersonIds": [
-      145,
-      473
-    ],
-    "Name": "McGlynn, Stark and Rogahn",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_ResolveEMailRecipients.md)]

@@ -70,23 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/GetLastError
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 50
-}
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_GetLastError.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"nulla"
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_GetLastError.md)]

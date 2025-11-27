@@ -94,55 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetUtmParameters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 225
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetUtmParameters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UtmParametersId": 620,
-  "CreatedContactId": 253,
-  "CreatedPersonId": 461,
-  "FormSubmissionId": 171,
-  "FirstTouchSource": "repellendus",
-  "FirstTouchMedium": "cupiditate",
-  "FirstTouchCampaign": "aut",
-  "FirstTouchTerm": "totam",
-  "FirstTouchContent": "a",
-  "FirstTouchReferrerDomain": "beatae",
-  "FirstTouchWhen": "2019-01-31T02:30:47.5694498+01:00",
-  "Source": "rerum",
-  "Medium": "deleniti",
-  "Campaign": "voluptatem",
-  "Term": "cumque",
-  "Content": "rem",
-  "ReferrerDomain": "veniam",
-  "When": "2019-04-14T02:30:47.5694498+02:00",
-  "Registered": "2007-11-16T02:30:47.5694498+01:00",
-  "RegisteredAssociateId": 812,
-  "Updated": "2002-04-17T02:30:47.5694498+02:00",
-  "UpdatedAssociateId": 291,
-  "UpdatedCount": 903,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetUtmParameters.md)]

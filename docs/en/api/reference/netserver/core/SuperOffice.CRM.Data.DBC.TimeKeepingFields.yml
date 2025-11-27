@@ -6,7 +6,8 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.TimeKeepingFields.AccumulatedMinutes
-  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerRecord
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerTable
   - SuperOffice.CRM.Data.DBC.TimeKeepingFields.Registered
   - SuperOffice.CRM.Data.DBC.TimeKeepingFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.TimeKeepingFields.StartTime
@@ -83,27 +84,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeKeepingType As String = "time_keeping_type"
-- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
-  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
-  id: EntityId
-  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
-  langs:
-  - csharp
-  - vb
-  name: EntityId
-  nameWithType: DBC.TimeKeepingFields.EntityId
-  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'TimeKeeping.EntityId: The entity we are keeping time of (a sale, project - given by time_keeping_type)'
-  example: []
-  syntax:
-    content: public const string EntityId = "entity_id"
-    return:
-      type: System.String
-    content.vb: Public Const EntityId As String = "entity_id"
 - uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
   commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
   id: StateId
@@ -272,6 +252,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerTable
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: DBC.TimeKeepingFields.OwnerTable
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerTable
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.OwnerTable: The table that is the owning entity'
+  example: []
+  syntax:
+    content: public const string OwnerTable = "ownerTable"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerTable As String = "ownerTable"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: DBC.TimeKeepingFields.OwnerRecord
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.OwnerRecord
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.OwnerRecord: Optional owner record id, if layout is bound to an owner'
+  example: []
+  syntax:
+    content: public const string OwnerRecord = "ownerRecord"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerRecord As String = "ownerRecord"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

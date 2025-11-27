@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/{id}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 566,
-  "Name": "Funk-Vandervort",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 546,
-  "UdListDefinitionId": 265
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveHeadingFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 789,
-  "Name": "Fahey, Corwin and Borer",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "Rank": 119,
-  "UdListDefinitionId": 64,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveHeadingFromListDefinition.md)]

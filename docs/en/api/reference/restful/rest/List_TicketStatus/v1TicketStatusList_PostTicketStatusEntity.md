@@ -74,45 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketStatus/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 98,
-  "Name": "Green-Lesch",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_PostTicketStatusEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketStatusId": 691,
-  "Name": "Lebsack LLC",
-  "Status": "Active",
-  "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 699
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_PostTicketStatusEntity.md)]

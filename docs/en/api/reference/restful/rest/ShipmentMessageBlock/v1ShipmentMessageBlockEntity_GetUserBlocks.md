@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageBlockEntity_GetUserBlocks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ShipmentMessageBlockId": 593,
-    "AssociateId": 754,
-    "Block": "quaerat",
-    "Registered": "2000-09-18T02:30:52.9286519+02:00",
-    "RegisteredAssociateId": 300,
-    "Updated": "2013-09-20T02:30:52.9286519+02:00",
-    "UpdatedAssociateId": 391,
-    "UpdatedCount": 527,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageBlockEntity_GetUserBlocks.md)]

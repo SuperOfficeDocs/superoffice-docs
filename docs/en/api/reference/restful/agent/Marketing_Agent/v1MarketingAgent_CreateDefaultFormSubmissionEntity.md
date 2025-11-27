@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_CreateDefaultFormSubmissionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormSubmissionId": 957,
-  "FormId": 193,
-  "WhenSubmitted": "2010-02-21T02:30:47.4600781+01:00",
-  "ContactId": 299,
-  "PersonId": 668,
-  "EmailAddress": "dejuan@kreiger.us",
-  "ResponseShipmentAddrId": 988,
-  "Response": "illo",
-  "Status": "EmailVerification",
-  "ProcessingLog": "sed",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_CreateDefaultFormSubmissionEntity.md)]

@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=non
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=expedita
 ```
 
 
@@ -76,36 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetKeyByValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Jan 2018 02:30:52 G1T
-
-{
-  "Key": "velit",
-  "Value": "rerum",
-  "RecordId": 933,
-  "CreatedDate": "2017-01-21T02:30:52.6630355+01:00",
-  "UpdatedDate": "2018-01-03T02:30:52.6630355+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "perspiciatis",
-  "TableName": "Raynor-Kris",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 561
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetKeyByValue.md)]

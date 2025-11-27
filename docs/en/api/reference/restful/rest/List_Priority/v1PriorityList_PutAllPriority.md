@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Priority/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 760,
-    "Name": "Bogisich LLC",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 72,
-    "Rank": 389
-  },
-  {
-    "Id": 760,
-    "Name": "Bogisich LLC",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 72,
-    "Rank": 389
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_PutAllPriority.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 893,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "UdListDefinitionId": 400,
-    "Rank": 700,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 193
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_PutAllPriority.md)]

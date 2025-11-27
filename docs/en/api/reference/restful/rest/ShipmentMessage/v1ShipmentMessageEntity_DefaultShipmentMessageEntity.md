@@ -75,48 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ShipmentMessage/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 526,
-  "PlainMessage": "atque",
-  "HtmlMessage": "illum",
-  "SmsMessage": "autem",
-  "Description": "Vision-oriented analyzing middleware",
-  "Subject": "maxime",
-  "FolderId": 887,
-  "HeaderField": "occaecati",
-  "Design": "dolor",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Self-enabling 3rd generation capability",
-  "AccessKey": "ut",
-  "DocumentMessage": 289,
-  "Registered": "2009-08-16T02:30:52.9286519+02:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2004-09-24T02:30:52.9286519+02:00",
-  "UpdatedAssociateId": 544,
-  "UpdatedCount": 796,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md)]

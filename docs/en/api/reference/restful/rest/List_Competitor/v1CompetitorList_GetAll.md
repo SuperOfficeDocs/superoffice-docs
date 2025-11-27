@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Competitor/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 39,
-    "Name": "Batz Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 440,
-    "Rank": 108,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 698
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_GetAll.md)]

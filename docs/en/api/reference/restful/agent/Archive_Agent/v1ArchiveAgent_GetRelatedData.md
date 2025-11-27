@@ -74,37 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetRelatedData
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Table": "expedita",
-  "RecordId": 267,
-  "Fields": [
-    "aliquid",
-    "labore"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetRelatedData.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Field": "dolorum",
-    "FieldValue": null
-  },
-  {
-    "Field": "dolorum",
-    "FieldValue": null
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetRelatedData.md)]

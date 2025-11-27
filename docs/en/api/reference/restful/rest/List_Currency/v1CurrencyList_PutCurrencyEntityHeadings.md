@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Currency/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 840,
-    "Name": "Hudson-Bayer",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 264
-  },
-  {
-    "HeadingId": 840,
-    "Name": "Hudson-Bayer",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 264
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_PutCurrencyEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 156,
-    "Name": "Wilderman Inc and Sons",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 634,
-    "UdListDefinitionId": 470,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_PutCurrencyEntityHeadings.md)]

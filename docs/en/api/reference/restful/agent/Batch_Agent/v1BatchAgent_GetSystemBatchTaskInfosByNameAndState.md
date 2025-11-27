@@ -94,60 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskName": "O'Kon-Denesik",
-  "State": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetSystemBatchTaskInfosByNameAndState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 631,
-    "Name": "Heller-Mertz",
-    "AssociateId": 848,
-    "DetailsTable": 559,
-    "DetailsRecord": 35,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
-    "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "placeat"
-    },
-    "LastStarted": "2010-10-15T02:30:46.8194719+02:00",
-    "Created": "2018-09-20T02:30:46.8194719+02:00",
-    "StartCount": 805,
-    "DatabaseSerialNumber": "816273",
-    "Context": "reprehenderit",
-    "Result": "consequuntur",
-    "State": "All",
-    "Description": "Persistent bottom-line capacity",
-    "Response": "ut",
-    "Request": "eos",
-    "ProgressDescription": "Organized 6th generation hierarchy",
-    "ProgressPercent": 632,
-    "FileName": "Becker-Parker",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 266
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetSystemBatchTaskInfosByNameAndState.md)]

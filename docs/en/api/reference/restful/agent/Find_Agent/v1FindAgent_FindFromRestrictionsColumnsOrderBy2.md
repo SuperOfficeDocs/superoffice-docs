@@ -163,78 +163,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Restrictions": "eos",
-  "ProviderName": "Bogisich-Schmitt",
-  "DesiredColumns": "sed",
-  "OrderBy": "in",
-  "PageSize": 7,
-  "PageNumber": 350
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindFromRestrictionsColumnsOrderBy2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Spencer, Stokes and Connelly",
-      "DisplayTooltip": "facere",
-      "DisplayType": "impedit",
-      "CanOrderBy": false,
-      "Name": "Lockman-Hirthe",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Nader, Yost and Kuhlman",
-      "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "qui",
-      "IconHint": "quod",
-      "HeadingIconHint": "molestias"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Fay, Nicolas and Murazik",
-      "PrimaryKey": 726,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "dolorum",
-          "LinkHint": "delectus"
-        }
-      },
-      "LinkHint": "odit",
-      "StyleHint": "autem",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 973
-        }
-      }
-    }
-  ],
-  "RowCount": 706,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindFromRestrictionsColumnsOrderBy2.md)]

@@ -71,37 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetAllCustomerCenterConfigs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "CustConfigId": 669,
-    "Type": "Options",
-    "Config": "eos",
-    "CustLangId": 686,
-    "Registered": "2010-02-07T02:30:47.0538389+01:00",
-    "RegisteredAssociateId": 663,
-    "Updated": "2009-03-15T02:30:47.0538389+01:00",
-    "UpdatedAssociateId": 722,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetAllCustomerCenterConfigs.md)]

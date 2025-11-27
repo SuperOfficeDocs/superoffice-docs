@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryTerm/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_GetDeliveryTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 287,
-  "Name": "Shields Group",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 195,
-  "Rank": 953,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_GetDeliveryTerm.md)]

@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_GetTicketTypeEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 635,
-    "Name": "Hayes-Bogisich",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 537,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_GetTicketTypeEntityHeadings.md)]

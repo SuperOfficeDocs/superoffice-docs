@@ -50,18 +50,8 @@ DashTileDefinition deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/DashTileDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_DeleteDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 DashTileDefinition deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_DeleteDashTileDefinition.md)]

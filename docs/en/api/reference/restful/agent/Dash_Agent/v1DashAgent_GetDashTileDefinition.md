@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=713
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=809
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -84,46 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashTileDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 296,
-  "Name": "Kris Group",
-  "Description": "Universal didactic synergy",
-  "DefaultHeight": 723,
-  "DefaultWidth": 781,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Jerde-Bednar",
-  "SelectionId": 156,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "modi",
-  "Measure": "Average",
-  "MeasureField": "accusantium",
-  "SortBy": "mollitia",
-  "LayoutConfig": "dolorum",
-  "SecondarySelectionId": 533,
-  "MeasureByField": "ut",
-  "Usage": "Dashboard",
-  "ProviderName": "Hartmann-Trantow",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashTileDefinition.md)]

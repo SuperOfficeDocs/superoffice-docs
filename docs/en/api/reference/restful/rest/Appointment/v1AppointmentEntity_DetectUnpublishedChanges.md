@@ -28,7 +28,7 @@ True if the AppointmentEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Appointment/UdefLayout/Changed?columnChangesOnly=True
+GET /api/v1/Appointment/UdefLayout/Changed?columnChangesOnly=False
 ```
 
 
@@ -59,18 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/UdefLayout/Changed
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_DetectUnpublishedChanges.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_DetectUnpublishedChanges.md)]

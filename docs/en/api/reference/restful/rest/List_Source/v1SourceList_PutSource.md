@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Source/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 134,
-  "Name": "Dietrich, Schamberger and Fadel",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "UdListDefinitionId": 315,
-  "Rank": 738
-}
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_PutSource.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 72,
-  "Name": "Windler, Abbott and Auer",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 258,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_PutSource.md)]

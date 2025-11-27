@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentTerm/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 766,
-    "Name": "Abbott-Stark",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 115,
-    "Rank": 294
-  },
-  {
-    "Id": 766,
-    "Name": "Abbott-Stark",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 115,
-    "Rank": 294
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_PutAllPaymentTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 346,
-    "Name": "Weimann, Luettgen and Brekke",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "UdListDefinitionId": 100,
-    "Rank": 54,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 670
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_PutAllPaymentTerm.md)]

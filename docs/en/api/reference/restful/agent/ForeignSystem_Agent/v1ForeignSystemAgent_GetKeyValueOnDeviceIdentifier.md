@@ -73,28 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Okuneva-Nienow",
-  "DeviceName": "Adams, Russel and Eichmann",
-  "DeviceIdentifier": "molestiae",
-  "KeyName": "Herman, Lockman and Marquardt",
-  "TableName": "Murphy-Kris",
-  "RecordId": 777
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"expedita"
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier.md)]

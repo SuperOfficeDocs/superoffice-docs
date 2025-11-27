@@ -80,43 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TitleOrId": "numquam",
-  "MaxRows": 204
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_FindTicketsByTitleOrId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketId": 111,
-    "Title": "sit",
-    "OwnerName": "Mertz, Senger and Renner",
-    "CategoryName": "VIP Customer",
-    "PriorityName": "Gutkowski, Kreiger and Adams",
-    "TicketUrl": "http://www.example.com/",
-    "PersonName": "O'Reilly Group",
-    "ContactName": "Bradtke-Tromp",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_FindTicketsByTitleOrId.md)]

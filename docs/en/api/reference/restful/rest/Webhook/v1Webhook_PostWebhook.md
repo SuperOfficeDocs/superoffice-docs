@@ -101,71 +101,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Webhook
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 344,
-  "Name": "Murray-Jenkins",
-  "Events": [
-    "voluptatibus",
-    "beatae"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
-  "State": "Active",
-  "Type": "omnis",
-  "Headers": {
-    "Headers1": "quis",
-    "Headers2": "qui"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2018-11-22T02:30:53.1786436+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2016-01-22T02:30:53.1786436+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "elouise@casperreynolds.com"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_PostWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 80,
-  "Name": "Hudson LLC",
-  "Events": [
-    "saepe",
-    "quia"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
-  "State": "Active",
-  "Type": "et",
-  "Headers": {
-    "Headers1": "amet",
-    "Headers2": "doloremque"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2004-02-25T02:30:53.1786436+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2000-09-28T02:30:53.1786436+02:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "colleen_schaefer@cormierbruen.biz",
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_PostWebhook.md)]

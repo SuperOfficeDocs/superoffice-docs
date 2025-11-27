@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Source/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 209,
-  "Name": "Simonis-Streich",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 778,
-  "UdListDefinitionId": 261
-}
-```
+[!include[sample request](../../samples/rest/request/v1SourceList_PostSourceHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 650,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 114,
-  "UdListDefinitionId": 689,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 240
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SourceList_PostSourceHeading.md)]

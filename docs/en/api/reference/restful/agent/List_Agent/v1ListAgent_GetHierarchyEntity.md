@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=352
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=865
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -75,61 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetHierarchyEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetHierarchyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 365,
-  "Domain": "Dashboards",
-  "Name": "Wilkinson-Stehr",
-  "Fullname": "dolores",
-  "ParentId": 213,
-  "Children": [
-    {
-      "HierarchyId": 146,
-      "Domain": "Dashboards",
-      "Name": "Purdy-Abshire",
-      "Fullname": "quo",
-      "ParentId": 245,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2003-06-01T02:30:47.4288293+02:00",
-      "RegisteredAssociateId": 602,
-      "Updated": "2010-04-23T02:30:47.4288293+02:00",
-      "UpdatedAssociateId": 750,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
-        }
-      }
-    }
-  ],
-  "Registered": "2004-05-13T02:30:47.4288293+02:00",
-  "RegisteredAssociateId": 217,
-  "Updated": "2023-12-18T02:30:47.4288293+01:00",
-  "UpdatedAssociateId": 178,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetHierarchyEntity.md)]

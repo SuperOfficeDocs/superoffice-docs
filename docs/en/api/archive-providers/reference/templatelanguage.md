@@ -18,7 +18,7 @@ The provider will use the document plugin to get the languages registered.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"templatelanguage"|[(templatelanguage)]|
+|"templatelanguage"|(templatelanguage)|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

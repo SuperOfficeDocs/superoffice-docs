@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetAllPriceLists
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 981,
-  "Currency": "tenetur"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetAllPriceLists.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PriceListId": 661,
-    "ERPPriceListKey": "praesentium",
-    "QuoteConnectionId": 389,
-    "Name": "Hoppe-Considine",
-    "Description": "Optimized scalable policy",
-    "Currency": "quod",
-    "CurrencyName": "Gibson-Dietrich",
-    "ValidFrom": "2014-07-14T02:30:47.7413192+02:00",
-    "ValidTo": "2012-05-07T02:30:47.7413192+02:00",
-    "IsActive": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 850
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetAllPriceLists.md)]

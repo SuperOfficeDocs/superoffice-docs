@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetProjectTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 19,
-    "Name": "Gislason Group",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 26,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetProjectTypeHeadings.md)]

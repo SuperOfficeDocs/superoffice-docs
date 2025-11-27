@@ -77,43 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLocalizedTextsByType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TextTypes": [
-    "reiciendis",
-    "accusantium"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLocalizedTextsByType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageId": 279,
-    "ResourceId": 565,
-    "Text": "quia",
-    "Type": "Column",
-    "LocalizedTextId": 918,
-    "IsBuiltIn": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 36
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLocalizedTextsByType.md)]

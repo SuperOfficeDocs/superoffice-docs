@@ -71,24 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/SetPasswordFromName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateName": "Streich, Beier and Hartmann",
-  "Password": "odio"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_SetPasswordFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_SetPasswordFromName.md)]

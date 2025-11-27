@@ -74,37 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetPersonImages
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonIds": [
-    975,
-    261
-  ],
-  "ScaledWidth": 248,
-  "ScaledHeight": 465
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetPersonImages.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PersonId": 707,
-    "ImageData": "GIF89....File contents as raw bytes..."
-  },
-  {
-    "PersonId": 707,
-    "ImageData": "GIF89....File contents as raw bytes..."
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetPersonImages.md)]

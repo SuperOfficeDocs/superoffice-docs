@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteApproveReason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 466,
-    "Name": "Kling, Miller and Purdy",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 208,
-    "UdListDefinitionId": 268
-  },
-  {
-    "HeadingId": 466,
-    "Name": "Kling, Miller and Purdy",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 208,
-    "UdListDefinitionId": 268
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_PutQuoteApproveReasonHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 86,
-    "Name": "Russel-DuBuque",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 767,
-    "UdListDefinitionId": 55,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 452
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_PutQuoteApproveReasonHeadings.md)]

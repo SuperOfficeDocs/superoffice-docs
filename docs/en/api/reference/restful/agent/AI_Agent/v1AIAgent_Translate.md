@@ -72,24 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/Translate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Text": "neque",
-  "TargetLanguage": "error"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_Translate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"vel"
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_Translate.md)]

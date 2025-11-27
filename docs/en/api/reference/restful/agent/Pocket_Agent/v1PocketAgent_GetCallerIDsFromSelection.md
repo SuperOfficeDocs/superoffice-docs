@@ -73,37 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 25,
-  "LastHash": "voluptate"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PocketAgent_GetCallerIDsFromSelection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CallerIDHash": "sed",
-  "CallerIDs": [
-    {
-      "PhoneNumber": 99.99,
-      "DialInPrefix": 919,
-      "PersonId": 518,
-      "PersonName": "Terry LLC",
-      "Mrmrs": "veniam",
-      "ContactId": 337,
-      "ContactName": "Rath Inc and Sons"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1PocketAgent_GetCallerIDsFromSelection.md)]

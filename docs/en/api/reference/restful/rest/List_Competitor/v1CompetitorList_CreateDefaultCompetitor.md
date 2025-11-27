@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Competitor/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_CreateDefaultCompetitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 161,
-  "Name": "Leuschke, Medhurst and O'Kon",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 26,
-  "Rank": 698,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_CreateDefaultCompetitor.md)]

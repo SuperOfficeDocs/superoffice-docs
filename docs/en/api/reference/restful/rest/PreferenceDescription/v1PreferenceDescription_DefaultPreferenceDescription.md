@@ -72,45 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/PreferenceDescription/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_DefaultPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 75,
-  "Section": "suscipit",
-  "Key": "quos",
-  "Name": "Kuphal LLC",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "De-engineered background system engine",
-  "IsBuiltin": false,
-  "TableName": "Fay-Graham",
-  "UserDefinedListId": 285,
-  "Rank": 270,
-  "SubGroup": "molestias",
-  "MinLevel": 758,
-  "MaxValue": 646,
-  "MinValue": 399,
-  "RequiredLicense": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_DefaultPreferenceDescription.md)]

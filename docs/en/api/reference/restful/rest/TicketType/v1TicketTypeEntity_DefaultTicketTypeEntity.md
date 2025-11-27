@@ -73,55 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TicketType/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeEntity_DefaultTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 670,
-  "Name": "Bode, Jacobs and Mayert",
-  "Rank": 557,
-  "Tooltip": "nisi",
-  "Icon": "alias",
-  "DefaultTicketStatus": 749,
-  "TicketStatuses": [
-    1001,
-    952
-  ],
-  "DefaultTicketPriority": 814,
-  "TicketPriorities": [
-    156,
-    776
-  ],
-  "ReplyTemplate": 785,
-  "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    258,
-    7
-  ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeEntity_DefaultTicketTypeEntity.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=695
+POST /api/v1/Agents/Project/GetProject?projectId=669
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProject
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProject.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 257,
-  "Name": "Langworth Group",
-  "Description": "Business-focused background framework",
-  "URL": "http://www.example.com/",
-  "Type": "atque",
-  "AssociateId": 956,
-  "AssociateFullName": "Dr. Milo Trantow III",
-  "TypeId": 265,
-  "Updated": "2024-11-10T02:30:47.6006984+01:00",
-  "StatusId": 767,
-  "Status": "accusamus",
-  "TextId": 511,
-  "PublishTo": "2002-06-02T02:30:47.6006984+02:00",
-  "PublishFrom": "2007-10-03T02:30:47.6006984+02:00",
-  "IsPublished": false,
-  "URLName": "http://www.example.com/",
-  "ProjectNumber": "1376442",
-  "ActiveErpLinks": 63,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 5
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProject.md)]

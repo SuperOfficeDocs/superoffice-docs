@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Reason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 636,
-  "Name": "Koelpin Group",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "UdListDefinitionId": 505,
-  "Rank": 228
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_PostReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 517,
-  "Name": "Orn, Greenholt and Bartell",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 743,
-  "Rank": 351,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_PostReason.md)]

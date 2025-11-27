@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveConsentPurpose
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurpose": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveConsentPurpose.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPurposeId": 166,
-  "Name": "Kessler Inc and Sons",
-  "ConsentText": "placeat",
-  "FormText": "velit",
-  "Key": "et",
-  "Tooltip": "labore",
-  "Active": 908,
-  "UpdatedDate": "2017-04-05T02:30:47.4444538+02:00",
-  "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 22,
-  "PrivacyStatementDesc": "assumenda",
-  "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveConsentPurpose.md)]

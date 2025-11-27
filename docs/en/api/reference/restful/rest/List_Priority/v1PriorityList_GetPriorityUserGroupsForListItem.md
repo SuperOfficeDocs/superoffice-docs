@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_GetPriorityUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 462,
-    "Name": "Johnson-Greenholt",
-    "ToolTip": "Laboriosam qui dolorem voluptatem.",
-    "Deleted": false,
-    "Rank": 561,
-    "Type": "veritatis",
-    "ColorBlock": 446,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2016-06-09T02:30:53.3505129+02:00",
-    "ChildItems": [
-      {
-        "Id": 987,
-        "Name": "Fisher LLC",
-        "ToolTip": "Nemo ut hic voluptatibus deserunt aut.",
-        "Deleted": true,
-        "Rank": 944,
-        "Type": "adipisci",
-        "ColorBlock": 90,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2003-09-29T02:30:53.3505129+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Berry Block",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 695
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Bert Klocko",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_GetPriorityUserGroupsForListItem.md)]

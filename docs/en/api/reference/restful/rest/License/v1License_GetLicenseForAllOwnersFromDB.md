@@ -55,57 +55,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/License
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1License_GetLicenseForAllOwnersFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Reason": "streamline front-end supply-chains",
-    "CanBeActivated": false,
-    "New": null,
-    "Current": null,
-    "ExtendedModuleLicenses": [
-      {
-        "New": null,
-        "Current": null,
-        "NumberOfLicensesInUse": 324,
-        "NumberOfLicensesFree": 909,
-        "NumberOfLicensesAdded": 414,
-        "NumberOfLicensesNewTotal": 814,
-        "NumberOfLicensesNewFree": 460,
-        "NumberOfLicensesTotal": 116
-      }
-    ],
-    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
-  },
-  {
-    "Reason": "streamline front-end supply-chains",
-    "CanBeActivated": false,
-    "New": null,
-    "Current": null,
-    "ExtendedModuleLicenses": [
-      {
-        "New": null,
-        "Current": null,
-        "NumberOfLicensesInUse": 324,
-        "NumberOfLicensesFree": 909,
-        "NumberOfLicensesAdded": 414,
-        "NumberOfLicensesNewTotal": 814,
-        "NumberOfLicensesNewFree": 460,
-        "NumberOfLicensesTotal": 116
-      }
-    ],
-    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1License_GetLicenseForAllOwnersFromDB.md)]

@@ -97,59 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 129,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2017-09-21T02:30:47.1319685+02:00",
-  "EndTime": "2010-02-12T02:30:47.1319685+01:00",
-  "Count": 388,
-  "TemplateHeadingId": 509
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPersonDocumentsByTemplateHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 643,
-    "Attention": "laudantium",
-    "Header": "rerum",
-    "Name": "Shanahan, Turcotte and Turner",
-    "OurRef": "enim",
-    "YourRef": "illum",
-    "Description": "Reduced next generation workforce",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": false,
-    "PersonId": 335,
-    "PersonFullName": "Fausto Oma Fay MD",
-    "AssociateFullName": "Branson Hermiston III",
-    "ContactId": 861,
-    "ContactName": "Hudson-Murray",
-    "ProjectId": 909,
-    "ProjectName": "Shields, Zulauf and Mitchell",
-    "AssociateId": 484,
-    "Snum": 473,
-    "SaleId": 407,
-    "SaleName": "Wiza, Walker and Leannon",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 933
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPersonDocumentsByTemplateHeading.md)]

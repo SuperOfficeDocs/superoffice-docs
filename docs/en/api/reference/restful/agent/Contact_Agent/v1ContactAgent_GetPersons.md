@@ -112,75 +112,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetPersons
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 680
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetPersons.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "sapiente",
-    "PersonId": 199,
-    "Mrmrs": "fugit",
-    "Firstname": "Velma",
-    "Lastname": "Tromp",
-    "MiddleName": "Mayert LLC",
-    "Title": "doloribus",
-    "Description": "Seamless 24 hour website",
-    "Email": "brad@blandakerluke.biz",
-    "FullName": "Fatima Cassin",
-    "DirectPhone": "913.206.0381 x001",
-    "FormalName": "Schamberger, Jacobson and Grant",
-    "CountryId": 411,
-    "ContactId": 951,
-    "ContactName": "Bogan, Doyle and Langosh",
-    "Retired": 118,
-    "Rank": 462,
-    "ActiveInterests": 437,
-    "ContactDepartment": "",
-    "ContactCountryId": 200,
-    "ContactOrgNr": "1836440",
-    "FaxPhone": "501-436-5457 x772",
-    "MobilePhone": "078.283.4740 x659",
-    "ContactPhone": "1-911-778-4393 x18653",
-    "AssociateName": "Beahan, Auer and Leannon",
-    "AssociateId": 858,
-    "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "error",
-    "Kanalname": "quasi",
-    "Post1": "omnis",
-    "Post2": "dolor",
-    "Post3": "maiores",
-    "EmailName": "marcos_pagac@friesen.com",
-    "ContactFullName": "Lora Murazik",
-    "ActiveErpLinks": 307,
-    "TicketPriorityId": 355,
-    "SupportLanguageId": 385,
-    "SupportAssociateId": 961,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "863395",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetPersons.md)]

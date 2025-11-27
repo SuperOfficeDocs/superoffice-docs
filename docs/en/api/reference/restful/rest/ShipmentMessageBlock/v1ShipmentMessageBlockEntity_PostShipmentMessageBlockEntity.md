@@ -88,51 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ShipmentMessageBlock
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 736,
-  "AssociateId": 998,
-  "Block": "quibusdam",
-  "Registered": "2021-07-31T02:30:52.9286519+02:00",
-  "RegisteredAssociateId": 6,
-  "Updated": "2019-02-04T02:30:52.9286519+01:00",
-  "UpdatedAssociateId": 734,
-  "UpdatedCount": 649
-}
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageBlockEntity_PostShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 620,
-  "AssociateId": 721,
-  "Block": "ea",
-  "Registered": "2020-07-11T02:30:52.9286519+02:00",
-  "RegisteredAssociateId": 628,
-  "Updated": "2019-07-27T02:30:52.9286519+02:00",
-  "UpdatedAssociateId": 191,
-  "UpdatedCount": 271,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageBlockEntity_PostShipmentMessageBlockEntity.md)]

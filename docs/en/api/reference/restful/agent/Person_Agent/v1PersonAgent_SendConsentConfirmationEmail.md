@@ -67,27 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SendConsentConfirmationEmail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 741,
-  "EmailAddress": "amya@reichel.co.uk",
-  "EmailTemplateId": 220,
-  "CultureLcidId": 538,
-  "Subject": "tenetur"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SendConsentConfirmationEmail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SendConsentConfirmationEmail.md)]

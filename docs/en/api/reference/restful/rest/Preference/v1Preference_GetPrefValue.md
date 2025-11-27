@@ -69,38 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Preference/{section}/{key}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Preference_GetPrefValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "porro",
-  "Specification": null,
-  "DisplayValue": "velit",
-  "DisplayTooltip": "ad",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 207,
-  "PrefDescId": 465,
-  "TableName": "Ward LLC",
-  "UserPreferenceId": 476,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 695
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Preference_GetPrefValue.md)]

@@ -28,7 +28,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=corporis
+GET /api/v1/List/Category/MDOItems?query=ipsum
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Category/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 25,
-    "Name": "Goyette, Reinger and Reinger",
-    "ToolTip": "Et sit sed sint recusandae et voluptatem maiores.",
-    "Deleted": true,
-    "Rank": 22,
-    "Type": "veniam",
-    "ChildItems": [
-      {
-        "Id": 69,
-        "Name": "Dickens Inc and Sons",
-        "ToolTip": "Alias nemo.",
-        "Deleted": true,
-        "Rank": 690,
-        "Type": "debitis",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "suscipit",
-        "ColorBlock": 178,
-        "ExtraInfo": "quae",
-        "StyleHint": "nam",
-        "FullName": "Prof. Adah America Fadel I",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
-          }
-        }
-      }
-    ],
-    "IconHint": "soluta",
-    "ColorBlock": 243,
-    "ExtraInfo": "quam",
-    "StyleHint": "ut",
-    "FullName": "Prudence Raynor",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_GetMDOList.md)]

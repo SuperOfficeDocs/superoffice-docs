@@ -99,6 +99,7 @@ items:
   - SuperOffice.CRM.Rows.AudienceLayoutLinkRows
   - SuperOffice.CRM.Rows.AudienceLayoutRows
   - SuperOffice.CRM.Rows.AudienceVisibilityRows
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
   - SuperOffice.CRM.Rows.AutosaveRows
   - SuperOffice.CRM.Rows.BaseTZLocationRows
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRows
@@ -138,6 +139,9 @@ items:
   - SuperOffice.CRM.Rows.ContIntRows
   - SuperOffice.CRM.Rows.ContactInterestRows
   - SuperOffice.CRM.Rows.ContactRows
+  - SuperOffice.CRM.Rows.CopilotDataSourceRows
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+  - SuperOffice.CRM.Rows.CopilotRows
   - SuperOffice.CRM.Rows.CounterValueRows
   - SuperOffice.CRM.Rows.CountryGroupLinkRows
   - SuperOffice.CRM.Rows.CountryHeadingLinkRows
@@ -553,6 +557,9 @@ items:
   - SuperOffice.CRM.Rows.TicketLogChangeRows
   - SuperOffice.CRM.Rows.TicketLogRows
   - SuperOffice.CRM.Rows.TicketPriorityRows
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+  - SuperOffice.CRM.Rows.TicketRelationDefRows
+  - SuperOffice.CRM.Rows.TicketRelationRows
   - SuperOffice.CRM.Rows.TicketRows
   - SuperOffice.CRM.Rows.TicketStatusHistoryRows
   - SuperOffice.CRM.Rows.TicketStatusRows

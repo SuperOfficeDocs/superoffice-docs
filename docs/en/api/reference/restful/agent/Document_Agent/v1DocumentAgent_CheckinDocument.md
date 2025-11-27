@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/CheckinDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 304,
-  "AllowedReturnTypes": [
-    "similique",
-    "totam"
-  ],
-  "VersionDescription": "Object-based bifurcated service-desk",
-  "VersionExtraFields": [
-    "quasi",
-    "est"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_CheckinDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExternalReference": "ut",
-  "VersionId": "sunt",
-  "Success": false,
-  "Type": "CustomGui",
-  "Value": "quia",
-  "AdditionalInfo": "sint"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_CheckinDocument.md)]

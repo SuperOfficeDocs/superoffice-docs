@@ -72,37 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/{selectionId}/Members
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetSelectionMembersArchiveRows.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "praesentium",
-  "value": [
-    {
-      "PrimaryKey": 944,
-      "EntityName": "sale",
-      "saleId": 944,
-      "contactId": 8768,
-      "name": "Boehm LLC"
-    },
-    {
-      "PrimaryKey": 9945,
-      "EntityName": "sale",
-      "saleId": 9945,
-      "contactId": 6878,
-      "name": "Feest-Boyer"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetSelectionMembersArchiveRows.md)]

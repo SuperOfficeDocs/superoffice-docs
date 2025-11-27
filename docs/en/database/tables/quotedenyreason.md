@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# QuoteDenyReason Table (532)
+# QuoteDenyReason Table (535)
 
 QuoteDenyReason MDO list item table.
 Predefined reasons for quote denial

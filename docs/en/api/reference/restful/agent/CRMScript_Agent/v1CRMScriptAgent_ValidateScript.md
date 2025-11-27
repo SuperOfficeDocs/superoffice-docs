@@ -82,61 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ValidateScript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptId": 180
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ValidateScript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": false,
-  "ErrorMessage": "vel",
-  "LineNumber": 200,
-  "ErrorInformation": null,
-  "Transpiled": "ut",
-  "Includes": [
-    868,
-    642
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 508,
-      "LineNumberTo": 820,
-      "Delta": 950,
-      "IncludeId": "neque",
-      "IncludedFrom": [
-        "voluptatem",
-        "est"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ValidateScript.md)]

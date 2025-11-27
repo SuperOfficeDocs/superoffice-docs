@@ -78,62 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetGroupForYear
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetYear": 369,
-  "EntityType": "None"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetGroupForYear.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 44,
-  "Year": 305,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
-  "TargetAssignments": [
-    {
-      "TargetAssignmentInfoId": 313,
-      "Values": [
-        201,
-        175
-      ],
-      "Locked": false,
-      "TargetAssociate": null,
-      "TargetContact": null,
-      "TargetUserGroup": null,
-      "Currency": null,
-      "DimensionListItem": 41,
-      "DimensionListItemDisplayName": "Lindgren, Ziemann and Stehr",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
-        }
-      }
-    }
-  ],
-  "TargetDimension": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetGroupForYear.md)]

@@ -84,41 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Purdy-Pollich",
-  "IncludeStandard": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Marquardt, Heller and Lesch",
-    "DisplayName": "Ritchie Inc and Sons",
-    "Description": "Ameliorated empowering synergy",
-    "ShortLabel": "porro",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 658,
-    "TemplateVariableName": "Purdy-Pacocha"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList.md)]

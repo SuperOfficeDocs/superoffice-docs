@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/MrMrs/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 585,
-  "Name": "Kuhn LLC",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "UdListDefinitionId": 648,
-  "Rank": 171
-}
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_PostMrMrs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 299,
-  "Name": "Robel-Heathcote",
-  "Tooltip": "quaerat",
-  "Deleted": false,
-  "UdListDefinitionId": 979,
-  "Rank": 149,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_PostMrMrs.md)]

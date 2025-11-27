@@ -62,46 +62,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/AddSaleStakeholders
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 404,
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "O'Conner-Larson",
-      "Comment": "consequuntur",
-      "StakeholderRoleId": 988,
-      "CountryId": 60,
-      "PersonId": 753,
-      "EmailDescription": "ambrose@huel.co.uk",
-      "EmailId": 560,
-      "EmailAddress": "chaim@bednar.ca",
-      "PhoneId": 100,
-      "ContactName": "Hintz, Padberg and Turcotte",
-      "ContactId": 252,
-      "SaleId": 543,
-      "Mrmrs": "quisquam",
-      "Firstname": "Rick",
-      "MiddleName": "McLaughlin-Schmidt",
-      "Lastname": "Steuber",
-      "SaleStakeholderId": 575,
-      "Rank": 272,
-      "Phone": "1-276-722-6398 x72110"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_AddSaleStakeholders.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_AddSaleStakeholders.md)]

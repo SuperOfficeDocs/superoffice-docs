@@ -74,70 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetRevisionHistory
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetAssignmentInfoId": 783
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetRevisionHistory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 97,
-  "Year": 383,
-  "Revisions": [
-    {
-      "LogEvent": "Create",
-      "Who": null,
-      "When": "2020-10-22T02:30:47.8663151+02:00",
-      "Changes": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
-        }
-      }
-    },
-    {
-      "LogEvent": "Create",
-      "Who": null,
-      "When": "2020-10-22T02:30:47.8663151+02:00",
-      "Changes": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 532
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetRevisionHistory.md)]

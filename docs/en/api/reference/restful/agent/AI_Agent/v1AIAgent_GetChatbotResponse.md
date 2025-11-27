@@ -84,70 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetChatbotResponse
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatId": "quidem",
-  "IsoLangCode": "enim",
-  "UserPrompt": "nostrum",
-  "DisplayValue": "harum",
-  "PreviousTurns": [
-    {
-      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
-      "UserPrompt": "voluptas",
-      "UserDisplayText": "est",
-      "BotResponse": "quia",
-      "BotActions": {
-        "BotActions1": "et",
-        "BotActions2": "ut"
-      },
-      "Attachments": [
-        "nihil",
-        "velit"
-      ]
-    },
-    {
-      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
-      "UserPrompt": "voluptas",
-      "UserDisplayText": "est",
-      "BotResponse": "quia",
-      "BotActions": {
-        "BotActions1": "et",
-        "BotActions2": "ut"
-      },
-      "Attachments": [
-        "nihil",
-        "velit"
-      ]
-    }
-  ],
-  "ApiUrl": "http://www.example.com/"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetChatbotResponse.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Timestamp": "2005-01-29T02:30:46.4913585+01:00",
-  "UserPrompt": "veniam",
-  "UserDisplayText": "optio",
-  "BotResponse": "a",
-  "BotActions": {
-    "BotActions1": "eius",
-    "BotActions2": "veniam"
-  },
-  "Attachments": [
-    "amet",
-    "dolores"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetChatbotResponse.md)]

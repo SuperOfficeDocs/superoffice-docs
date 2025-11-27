@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/MrMrs/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_GetMrMrs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 163,
-  "Name": "Nikolaus LLC",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "UdListDefinitionId": 556,
-  "Rank": 967,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_GetMrMrs.md)]

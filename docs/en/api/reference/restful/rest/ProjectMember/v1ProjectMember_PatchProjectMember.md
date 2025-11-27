@@ -128,68 +128,8 @@ ProjectMember  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/ProjectMember/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "adipisci",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "adipisci",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_PatchProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectMember  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 323,
-  "ContactId": 211,
-  "ProjectId": 510,
-  "ContactName": "Cole LLC",
-  "ContactDepartment": "",
-  "ProjectName": "Schroeder-Batz",
-  "EmailId": 112,
-  "EmailAddress": "lyda_lueilwitz@wuckerthuel.name",
-  "CountryId": 608,
-  "Firstname": "Terence",
-  "MiddleName": "Pouros, Kovacek and Mraz",
-  "Lastname": "Stark",
-  "PersonId": 487,
-  "Mrmrs": "voluptatum",
-  "ProjectMemberTypeName": "Carter-Gutkowski",
-  "Phone": "(289)594-6883 x820",
-  "PhoneId": 119,
-  "ProjectMemberTypeId": 149,
-  "EmailAddressName": "loyce@hirtherussel.com",
-  "Comment": "dolor",
-  "FullName": "Dorothea Pacocha PhD",
-  "Registered": "2016-10-12T02:30:53.0692723+02:00",
-  "Updated": "2005-05-26T02:30:53.0692723+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 849
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_PatchProjectMember.md)]

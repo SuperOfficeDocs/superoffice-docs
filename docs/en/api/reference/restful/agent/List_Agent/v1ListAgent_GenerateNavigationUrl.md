@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GenerateNavigationUrl
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "VisibleIn": "ActivityDialog",
-  "WindowName": "Kunde LLC"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GenerateNavigationUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GenerateNavigationUrl.md)]

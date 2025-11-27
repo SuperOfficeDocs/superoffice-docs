@@ -95,55 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/TriggerScript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 302,
-  "Name": "Gutkowski-Jones",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "praesentium",
-  "Source": "iste",
-  "Registered": "2016-10-03T02:30:53.022399+02:00",
-  "RegisteredAssociateId": 481,
-  "Updated": "2015-10-23T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 239
-}
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_PostTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 809,
-  "Name": "Haag LLC",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sequi",
-  "Source": "sunt",
-  "Registered": "2007-01-11T02:30:53.022399+01:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "2011-09-05T02:30:53.022399+02:00",
-  "UpdatedAssociateId": 690,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_PostTriggerScriptEntity.md)]

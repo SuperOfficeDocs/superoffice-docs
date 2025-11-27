@@ -71,27 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ResolveIncludes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Script": "aut",
-  "IgnoreErrors": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ResolveIncludes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  40,
-  904
-]
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ResolveIncludes.md)]

@@ -90,61 +90,8 @@ SaleEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 898,
-  "ColumnId": 799,
-  "FieldDefault": "aut",
-  "FieldHeight": 980,
-  "FieldLabel": "eaque",
-  "FieldLeft": 853,
-  "FieldTop": 470,
-  "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "nam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 934,
-  "LabelLeft": 373,
-  "LabelTop": 183,
-  "LabelWidth": 951,
-  "LastVersionId": 830,
-  "ListTableId": 120,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 812,
-  "ProgId": "molestiae",
-  "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 878,
-  "TextLength": 504,
-  "Tooltip": "vel",
-  "UdefIdentity": 375,
-  "UDListDefinitionId": 504,
-  "Justification": "Center",
-  "Version": 270,
-  "TemplateVariableName": "Skiles, Feeney and Pacocha",
-  "HasBeenPublished": false,
-  "MdoListName": "Hackett-Denesik",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 816
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetPublishedUdefFieldInfo.md)]

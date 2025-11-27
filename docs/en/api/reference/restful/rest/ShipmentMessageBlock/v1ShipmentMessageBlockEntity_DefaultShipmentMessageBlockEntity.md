@@ -62,35 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ShipmentMessageBlock/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageBlockId": 565,
-  "AssociateId": 131,
-  "Block": "quia",
-  "Registered": "2009-11-08T02:30:52.9286519+01:00",
-  "RegisteredAssociateId": 797,
-  "Updated": "2002-10-28T02:30:52.9286519+01:00",
-  "UpdatedAssociateId": 862,
-  "UpdatedCount": 253,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md)]

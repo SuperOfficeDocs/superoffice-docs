@@ -82,51 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/CalculateDays
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_CalculateDays.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RecurrenceId": 311,
-  "StartDate": "2018-01-22T02:30:46.6163546+01:00",
-  "EndDate": "2017-07-28T02:30:46.6163546+02:00",
-  "RecurrenceCounter": 235,
-  "RecurrenceEndType": "Counter",
-  "Pattern": "Custom",
-  "DayPattern": null,
-  "WeekPattern": null,
-  "MonthPattern": null,
-  "YearPattern": null,
-  "Dates": [
-    {
-      "Date": "2021-10-21T02:30:46.6163546+02:00",
-      "IsConflict": false,
-      "Description": "Public-key local project",
-      "DescriptionStyleHint": "Optional zero defect archive",
-      "Tooltip": "repellendus"
-    },
-    {
-      "Date": "2021-10-21T02:30:46.6163546+02:00",
-      "IsConflict": false,
-      "Description": "Public-key local project",
-      "DescriptionStyleHint": "Optional zero defect archive",
-      "Tooltip": "repellendus"
-    }
-  ],
-  "IsRecurrence": true
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_CalculateDays.md)]

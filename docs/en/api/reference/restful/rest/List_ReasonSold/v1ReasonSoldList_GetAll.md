@@ -26,7 +26,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=False
+GET /api/v1/List/ReasonSold/Items?includeDeleted=True
 ```
 
 
@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 485,
-    "Name": "Kertzmann-Klocko",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "UdListDefinitionId": 263,
-    "Rank": 625,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 87
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_GetAll.md)]

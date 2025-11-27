@@ -65,35 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/CustomField
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Legros-Hickle",
-    "DisplayName": "Bogan-Rau",
-    "Description": "Profound bottom-line utilisation",
-    "ShortLabel": "totam",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 324,
-    "TemplateVariableName": "O'Kon Group"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetCustomFieldInfoList.md)]

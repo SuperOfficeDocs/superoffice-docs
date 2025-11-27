@@ -79,45 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Currency/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 453,
-  "Name": "Will Inc and Sons",
-  "Tooltip": "tempora",
-  "Rank": 921,
-  "Rate": 28428.514,
-  "Units": 12955.956,
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_PutCurrencyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 489,
-  "Name": "Wuckert, Conn and Lowe",
-  "Tooltip": "sequi",
-  "Rank": 454,
-  "Rate": 28397.174,
-  "Units": 18042.438,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 527
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_PutCurrencyEntity.md)]

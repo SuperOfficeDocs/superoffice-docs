@@ -95,57 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectMemberDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 924,
-  "StartTime": "2020-10-06T02:30:47.0850878+02:00",
-  "EndTime": "2011-09-24T02:30:47.0850878+02:00",
-  "Count": 949
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectMemberDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 488,
-    "Attention": "tempora",
-    "Header": "impedit",
-    "Name": "Fay LLC",
-    "OurRef": "distinctio",
-    "YourRef": "ex",
-    "Description": "Re-contextualized uniform groupware",
-    "DocumentTemplate": "vero",
-    "IsPublished": true,
-    "PersonId": 785,
-    "PersonFullName": "Prof. Arvid Lia Fay",
-    "AssociateFullName": "Prof. Manley Haley Jr.",
-    "ContactId": 223,
-    "ContactName": "Aufderhar Inc and Sons",
-    "ProjectId": 793,
-    "ProjectName": "Legros-Lind",
-    "AssociateId": 87,
-    "Snum": 630,
-    "SaleId": 649,
-    "SaleName": "Lakin-Stoltenberg",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 964
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectMemberDocuments.md)]

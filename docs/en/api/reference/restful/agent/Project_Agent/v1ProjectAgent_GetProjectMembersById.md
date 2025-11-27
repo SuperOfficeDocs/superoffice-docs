@@ -94,60 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectMembersById
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectMemberIds": [
-    343,
-    810
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectMembersById.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectmemberId": 468,
-    "ContactId": 934,
-    "ProjectId": 961,
-    "ContactName": "Corkery Inc and Sons",
-    "ContactDepartment": "transition leading-edge niches",
-    "ProjectName": "Walter, Bosco and Borer",
-    "EmailId": 43,
-    "EmailAddress": "jennie@lakin.co.uk",
-    "CountryId": 942,
-    "Firstname": "Jacinthe",
-    "MiddleName": "Jones Inc and Sons",
-    "Lastname": "Luettgen",
-    "PersonId": 417,
-    "Mrmrs": "expedita",
-    "ProjectMemberTypeName": "McDermott LLC",
-    "Phone": "(232)332-4235",
-    "PhoneId": 171,
-    "ProjectMemberTypeId": 432,
-    "EmailAddressName": "lawson_reichel@fahey.biz",
-    "Comment": "debitis",
-    "FullName": "Owen Corwin V",
-    "Registered": "2018-09-10T02:30:47.7100701+02:00",
-    "Updated": "2023-05-18T02:30:47.7100701+02:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 239
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectMembersById.md)]

@@ -78,39 +78,8 @@ RelationDefinitionEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/RelationDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1RelationDefinitionEntity_GetRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 RelationDefinitionEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 835,
-  "Name": "Wehner-Runolfsdottir",
-  "Tooltip": "non",
-  "PassiveText": "esse",
-  "Deleted": true,
-  "Rank": 998,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RelationDefinitionEntity_GetRelationDefinitionEntity.md)]

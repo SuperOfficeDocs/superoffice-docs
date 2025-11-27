@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetVisibleForUserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 201,
-  "ListItemId": 17
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetVisibleForUserGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 397,
-    "Name": "Langosh-Moore",
-    "ToolTip": "Qui fugiat doloribus ut ipsam.",
-    "Deleted": false,
-    "Rank": 561,
-    "Type": "sit",
-    "ColorBlock": 492,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2024-07-27T02:30:47.4444538+02:00",
-    "ChildItems": [
-      {
-        "Id": 603,
-        "Name": "Yundt Group",
-        "ToolTip": "Odio commodi a temporibus modi.",
-        "Deleted": false,
-        "Rank": 511,
-        "Type": "minima",
-        "ColorBlock": 272,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2001-10-17T02:30:47.4444538+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Nyasia Little",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 34
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "qui",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Bennie Daniel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 738
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetVisibleForUserGroups.md)]

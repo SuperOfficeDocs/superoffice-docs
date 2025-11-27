@@ -60,34 +60,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/Duplicates/{name}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "O'Reilly LLC",
-    "SoPrimaryKey": 833,
-    "EntryName": "Greenholt, Wintheiser and Lubowitz",
-    "EntryIdentifier": "labore",
-    "RuleDisplayName": "Kozey, Spencer and Dickinson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetDuplicates.md)]

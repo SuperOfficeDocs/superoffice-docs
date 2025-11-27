@@ -76,52 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 501,
-  "Name": "Rodriguez Inc and Sons",
-  "Tooltip": "ratione",
-  "SaveInDb": 554,
-  "Filename": "illo",
-  "DefaultOref": "nostrum",
-  "RecordType": "Appointment",
-  "Deleted": false,
-  "Direction": "Incoming",
-  "AutoeventId": 932,
-  "IntentId": 970,
-  "IsDefaultPublished": true,
-  "Rank": 833,
-  "LoadTemplateFromPlugin": 596,
-  "MimeType": "nobis",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 225,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "adrian@hilllfritsch.us",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lelah@bernierkoelpin.name",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity.md)]

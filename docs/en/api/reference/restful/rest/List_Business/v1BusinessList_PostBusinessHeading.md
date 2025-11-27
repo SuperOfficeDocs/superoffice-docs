@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Business/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 215,
-  "Name": "Littel LLC",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 39,
-  "UdListDefinitionId": 439
-}
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_PostBusinessHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 375,
-  "Name": "Hermann Inc and Sons",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "Rank": 854,
-  "UdListDefinitionId": 879,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_PostBusinessHeading.md)]

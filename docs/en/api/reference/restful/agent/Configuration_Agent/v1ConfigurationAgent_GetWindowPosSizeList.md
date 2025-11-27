@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetWindowPosSizeList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetWindowPosSizeList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "OwnerWindow": "beatae",
-    "PersonId": 86,
-    "AssociateId": 141,
-    "ExtraId": 889,
-    "ExtraInfo": "autem",
-    "Height": 91,
-    "LeftX": 518,
-    "State": "Maximized",
-    "UpperY": 548,
-    "Width": 345,
-    "WindowPosSizeId": 798,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetWindowPosSizeList.md)]

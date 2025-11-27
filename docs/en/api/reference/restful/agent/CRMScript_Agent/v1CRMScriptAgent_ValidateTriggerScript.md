@@ -82,61 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ValidateTriggerScript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TriggerScriptId": 904
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ValidateTriggerScript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": true,
-  "ErrorMessage": "neque",
-  "LineNumber": 693,
-  "ErrorInformation": null,
-  "Transpiled": "modi",
-  "Includes": [
-    976,
-    758
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 122,
-      "LineNumberTo": 498,
-      "Delta": 568,
-      "IncludeId": "labore",
-      "IncludedFrom": [
-        "nihil",
-        "quisquam"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 826
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ValidateTriggerScript.md)]

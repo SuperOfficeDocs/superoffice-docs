@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonStalled/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 111,
-    "Name": "Kilback, Christiansen and Cummerata",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 382,
-    "Rank": 772
-  },
-  {
-    "Id": 111,
-    "Name": "Kilback, Christiansen and Cummerata",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 382,
-    "Rank": 772
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_PutAllReasonStalled.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 58,
-    "Name": "Konopelski-Turcotte",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "UdListDefinitionId": 329,
-    "Rank": 619,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_PutAllReasonStalled.md)]

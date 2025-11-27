@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=asperiores
+GET /api/v1/List/Task/MDOItems?query=perspiciatis
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 277,
-    "Name": "Heidenreich Inc and Sons",
-    "ToolTip": "Provident illum iusto non id temporibus.",
-    "Deleted": false,
-    "Rank": 836,
-    "Type": "aliquam",
-    "ChildItems": [
-      {
-        "Id": 330,
-        "Name": "Huel-Mante",
-        "ToolTip": "Dignissimos maxime atque tempore.",
-        "Deleted": false,
-        "Rank": 559,
-        "Type": "et",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "aut",
-        "ColorBlock": 189,
-        "ExtraInfo": "ut",
-        "StyleHint": "aperiam",
-        "FullName": "Misael Reichert",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 712
-          }
-        }
-      }
-    ],
-    "IconHint": "et",
-    "ColorBlock": 700,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quis",
-    "FullName": "Elroy Dickens",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 665
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_GetMDOList.md)]

@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/CopyDocumentToCsAttachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 996
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_CopyDocumentToCsAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-149
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_CopyDocumentToCsAttachment.md)]

@@ -82,53 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedDocumentId": 252,
-  "Name": "Koepp, Gulgowski and Beatty",
-  "Tooltip": "eos",
-  "Rank": 815,
-  "DoctmplId": 199,
-  "Header": "qui",
-  "OurRef": "molestiae",
-  "Deleted": true,
-  "DocTmpl": null,
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SaveSuggestedDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedDocumentId": 127,
-  "Name": "Abshire LLC",
-  "Tooltip": "est",
-  "Rank": 828,
-  "DoctmplId": 795,
-  "Header": "esse",
-  "OurRef": "impedit",
-  "Deleted": true,
-  "DocTmpl": null,
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SaveSuggestedDocumentEntity.md)]

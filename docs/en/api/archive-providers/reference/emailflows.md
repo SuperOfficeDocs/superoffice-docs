@@ -18,7 +18,7 @@ Lists all email flows
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"emailflow"|[emailflow]|
+|"emailflow"|emailflow|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -89,7 +89,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlows?$select=workflowAssociate/ejDisplayName,updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

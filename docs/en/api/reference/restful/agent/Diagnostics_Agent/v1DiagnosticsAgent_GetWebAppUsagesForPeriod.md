@@ -80,43 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FromDate": "2004-02-21T02:30:47.0694635+01:00",
-  "ToDate": "2023-08-18T02:30:47.0694635+02:00",
-  "SearchTerm": "odio"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_GetWebAppUsagesForPeriod.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebAppUsageId": 714,
-    "AssocId": 557,
-    "Timestamp": "2007-10-15T02:30:47.0694635+02:00",
-    "ViewState": "occaecati",
-    "AggregateCount": 927,
-    "AggregateBin": 755,
-    "Version": 344,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_GetWebAppUsagesForPeriod.md)]

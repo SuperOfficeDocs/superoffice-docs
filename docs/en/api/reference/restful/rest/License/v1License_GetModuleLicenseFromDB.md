@@ -69,34 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/License/{ownerName}/{moduleName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1License_GetModuleLicenseFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "Sanford, Emard and Runolfsdottir",
-  "ModuleName": "Gleason-Schamberger",
-  "ModuleDescription": "Automated disintermediate matrix",
-  "ModuleTooltip": "soluta",
-  "ModuleVersion": "nihil",
-  "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
-  "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 640,
-  "ExtraFlags": 342,
-  "ExtraInfo": "animi",
-  "SortOrder": 228,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Cartwright-Keebler",
-  "Signature": "voluptatem"
-}
-```
+[!include[sample response](../../samples/rest/response/v1License_GetModuleLicenseFromDB.md)]

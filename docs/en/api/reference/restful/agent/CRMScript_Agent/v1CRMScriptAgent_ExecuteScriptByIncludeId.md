@@ -71,27 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptIncludeId": "aliquid",
-  "Parameters": {
-    "Parameters1": "et",
-    "Parameters2": "at"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ExecuteScriptByIncludeId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"iure"
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ExecuteScriptByIncludeId.md)]

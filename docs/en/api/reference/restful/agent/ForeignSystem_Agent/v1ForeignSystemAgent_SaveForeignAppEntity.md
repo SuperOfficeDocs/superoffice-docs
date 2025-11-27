@@ -74,77 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 760,
-  "Name": "Schimmel-Maggio",
-  "CreatedDate": "2009-12-31T02:30:47.350707+01:00",
-  "UpdatedDate": "2000-11-02T02:30:47.350707+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 877,
-      "Name": "Wiegand-Ullrich",
-      "CreatedDate": "2012-12-05T02:30:47.350707+01:00",
-      "UpdatedDate": "2011-09-08T02:30:47.350707+02:00",
-      "AssociateFullName": "Prof. Maudie Halvorson V",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "molestias",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 568
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_SaveForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 291,
-  "Name": "Dickens-Little",
-  "CreatedDate": "2013-08-25T02:30:47.350707+02:00",
-  "UpdatedDate": "2002-06-18T02:30:47.350707+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 260,
-      "Name": "Lind-Kuhlman",
-      "CreatedDate": "2019-10-29T02:30:47.350707+01:00",
-      "UpdatedDate": "2015-09-28T02:30:47.350707+02:00",
-      "AssociateFullName": "Ismael Paucek",
-      "CreatedBy": "excepturi",
-      "UpdatedBy": "ea",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 833,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 377
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_SaveForeignAppEntity.md)]

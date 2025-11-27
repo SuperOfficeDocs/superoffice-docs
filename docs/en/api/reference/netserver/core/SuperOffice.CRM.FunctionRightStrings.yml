@@ -66,6 +66,7 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.ExtUseSameProjectRights
   - SuperOffice.CRM.FunctionRightStrings.HideCompany
   - SuperOffice.CRM.FunctionRightStrings.HideInbox
+  - SuperOffice.CRM.FunctionRightStrings.HideMailings
   - SuperOffice.CRM.FunctionRightStrings.HideProject
   - SuperOffice.CRM.FunctionRightStrings.HideReporter
   - SuperOffice.CRM.FunctionRightStrings.HideSale
@@ -89,8 +90,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: The programmatic, well-known and constant names of functional rights
-  example: []
   syntax:
     content: public static class FunctionRightStrings
     content.vb: Public Module FunctionRightStrings
@@ -482,6 +481,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const HideService As String = "hide-service"
+- uid: SuperOffice.CRM.FunctionRightStrings.HideMailings
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.HideMailings
+  id: HideMailings
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideMailings
+  nameWithType: FunctionRightStrings.HideMailings
+  fullName: SuperOffice.CRM.FunctionRightStrings.HideMailings
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: ''
+  example: []
+  syntax:
+    content: public const string HideMailings = "hide-mailings"
+    return:
+      type: System.String
+    content.vb: Public Const HideMailings As String = "hide-mailings"
 - uid: SuperOffice.CRM.FunctionRightStrings.HideReporter
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideReporter
   id: HideReporter

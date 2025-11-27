@@ -106,83 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/SaveFormEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormId": 902,
-  "FormKey": "est",
-  "Name": "Schaefer-Hilll",
-  "Description": "Customer-focused mobile toolset",
-  "Config": "dolorum",
-  "FolderId": 532,
-  "ScriptId": 480,
-  "ResponseShipmentId": 466,
-  "Active": true,
-  "Expires": "2016-01-02T02:30:47.4600781+01:00",
-  "MaxSubmits": 778,
-  "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 859,
-  "NewTicket": true,
-  "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-01-16T02:30:47.4600781+01:00",
-  "RegisteredAssociateId": 233,
-  "Updated": "2001-11-22T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 881,
-  "UpdatedCount": 258,
-  "EmailFlows": [
-    97,
-    881
-  ],
-  "FolderName": "Sipes-Breitenberg"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_SaveFormEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormId": 34,
-  "FormKey": "sint",
-  "Name": "Dare, Kovacek and Hyatt",
-  "Description": "Virtual intermediate extranet",
-  "Config": "dolor",
-  "FolderId": 472,
-  "ScriptId": 445,
-  "ResponseShipmentId": 680,
-  "Active": false,
-  "Expires": "2016-10-19T02:30:47.4600781+02:00",
-  "MaxSubmits": 857,
-  "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 228,
-  "NewTicket": false,
-  "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2021-09-03T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 891,
-  "Updated": "1999-06-13T02:30:47.4600781+02:00",
-  "UpdatedAssociateId": 673,
-  "UpdatedCount": 582,
-  "EmailFlows": [
-    794,
-    456
-  ],
-  "FolderName": "Kuhn Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_SaveFormEntity.md)]

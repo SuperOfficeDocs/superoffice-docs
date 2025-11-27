@@ -69,27 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityType": "soluta",
-  "EntityId": 157
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetAllForeignKeysOnEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "illum",
-  "2": "exercitationem"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetAllForeignKeysOnEntity.md)]

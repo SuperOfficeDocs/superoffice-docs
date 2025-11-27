@@ -11,19 +11,29 @@ items:
   - SuperOffice.CRM.Services.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.StartRagIndexingAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
@@ -612,6 +622,355 @@ items:
   nameWithType.vb: IAIAgent.ClearChatbotTurnsAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(String, System.Threading.CancellationToken)
   name.vb: ClearChatbotTurnsAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCopilotDataSourceEntityAsync(CancellationToken)
+  nameWithType: IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new CopilotDataSourceEntity.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotDataSourceEntity> CreateDefaultCopilotDataSourceEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotDataSourceEntity}
+      description: New CopilotDataSourceEntity with default values
+    content.vb: Function CreateDefaultCopilotDataSourceEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity,System.Threading.CancellationToken)
+  id: SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, CancellationToken)
+  nameWithType: IAIAgent.SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Updates the existing CopilotDataSourceEntity or creates a new CopilotDataSourceEntity if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotDataSourceEntity> SaveCopilotDataSourceEntityAsync(CopilotDataSourceEntity copilotDataSourceEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotDataSourceEntity
+      type: SuperOffice.CRM.Services.CopilotDataSourceEntity
+      description: The CopilotDataSourceEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotDataSourceEntity}
+      description: New or updated CopilotDataSourceEntity
+    content.vb: Function SaveCopilotDataSourceEntityAsync(copilotDataSourceEntity As CopilotDataSourceEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCopilotDataSourceEntityAsync(int, CancellationToken)
+  nameWithType: IAIAgent.DeleteCopilotDataSourceEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deletes the CopilotDataSourceEntity
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task DeleteCopilotDataSourceEntityAsync(int copilotDataSourceEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotDataSourceEntityId
+      type: System.Int32
+      description: The identity of the CopilotDataSourceEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteCopilotDataSourceEntityAsync(copilotDataSourceEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync*
+  nameWithType.vb: IAIAgent.DeleteCopilotDataSourceEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCopilotDataSourceEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotDataSourceEntityAsync(int, CancellationToken)
+  nameWithType: IAIAgent.GetCopilotDataSourceEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Gets a CopilotDataSourceEntity object.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotDataSourceEntity> GetCopilotDataSourceEntityAsync(int copilotDataSourceEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotDataSourceEntityId
+      type: System.Int32
+      description: The identifier of the CopilotDataSourceEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotDataSourceEntity}
+      description: A single CopilotDataSourceEntity
+    content.vb: Function GetCopilotDataSourceEntityAsync(copilotDataSourceEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CopilotDataSourceEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync*
+  nameWithType.vb: IAIAgent.GetCopilotDataSourceEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCopilotDataSourceEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCopilotEntityAsync(CancellationToken)
+  nameWithType: IAIAgent.CreateDefaultCopilotEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new CopilotEntity.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotEntity> CreateDefaultCopilotEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotEntity}
+      description: New CopilotEntity with default values
+    content.vb: Function CreateDefaultCopilotEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity,System.Threading.CancellationToken)
+  id: SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCopilotEntityAsync(CopilotEntity, CancellationToken)
+  nameWithType: IAIAgent.SaveCopilotEntityAsync(CopilotEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Updates the existing CopilotEntity or creates a new CopilotEntity if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotEntity> SaveCopilotEntityAsync(CopilotEntity copilotEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotEntity
+      type: SuperOffice.CRM.Services.CopilotEntity
+      description: The CopilotEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotEntity}
+      description: New or updated CopilotEntity
+    content.vb: Function SaveCopilotEntityAsync(copilotEntity As CopilotEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCopilotEntityAsync(int, CancellationToken)
+  nameWithType: IAIAgent.DeleteCopilotEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deletes the CopilotEntity
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task DeleteCopilotEntityAsync(int copilotEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotEntityId
+      type: System.Int32
+      description: The identity of the CopilotEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteCopilotEntityAsync(copilotEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync*
+  nameWithType.vb: IAIAgent.DeleteCopilotEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCopilotEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCopilotEntityAsync(int, CancellationToken)
+  nameWithType: IAIAgent.GetCopilotEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Gets a CopilotEntity object.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<CopilotEntity> GetCopilotEntityAsync(int copilotEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: copilotEntityId
+      type: System.Int32
+      description: The identifier of the CopilotEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotEntity}
+      description: A single CopilotEntity
+    content.vb: Function GetCopilotEntityAsync(copilotEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CopilotEntity)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync*
+  nameWithType.vb: IAIAgent.GetCopilotEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCopilotEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
+  id: GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignFromImageAsync(Stream, CancellationToken)
+  nameWithType: IAIAgent.GetFormDesignFromImageAsync(Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns Form Designer properties based on the look of a picture
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<StringDictionary> GetFormDesignFromImageAsync(Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+      description: Image data to analyze for design
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+      description: Returns a Form Designer properties.
+    content.vb: Function GetFormDesignFromImageAsync(image As Stream, cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
+  id: GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignFromUrlAsync(string, CancellationToken)
+  nameWithType: IAIAgent.GetFormDesignFromUrlAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns Form Designer properties based on the look of a web page
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<StringDictionary> GetFormDesignFromUrlAsync(string url, CancellationToken cancellationToken = default)
+    parameters:
+    - id: url
+      type: System.String
+      description: Url of the web page to extract style from.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+      description: Returns a Form Designer properties.
+    content.vb: Function GetFormDesignFromUrlAsync(url As String, cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync*
+  nameWithType.vb: IAIAgent.GetFormDesignFromUrlAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(String, System.Threading.CancellationToken)
+  name.vb: GetFormDesignFromUrlAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   id: DetectLanguageAsync(System.String,System.Threading.CancellationToken)
@@ -1807,6 +2166,195 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CreateDefaultCopilotDataSourceEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultCopilotDataSourceEntityAsync
+  nameWithType: IAIAgent.CreateDefaultCopilotDataSourceEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotDataSourceEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotDataSourceEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CopilotDataSourceEntity>
+  nameWithType: Task<CopilotDataSourceEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CopilotDataSourceEntity>
+  nameWithType.vb: Task(Of CopilotDataSourceEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CopilotDataSourceEntity)
+  name.vb: Task(Of CopilotDataSourceEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_SaveCopilotDataSourceEntityAsync_SuperOffice_CRM_Services_CopilotDataSourceEntity_System_Threading_CancellationToken_
+  name: SaveCopilotDataSourceEntityAsync
+  nameWithType: IAIAgent.SaveCopilotDataSourceEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  commentId: T:SuperOffice.CRM.Services.CopilotDataSourceEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity
+- uid: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_DeleteCopilotDataSourceEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteCopilotDataSourceEntityAsync
+  nameWithType: IAIAgent.DeleteCopilotDataSourceEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotDataSourceEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetCopilotDataSourceEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCopilotDataSourceEntityAsync
+  nameWithType: IAIAgent.GetCopilotDataSourceEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CreateDefaultCopilotEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultCopilotEntityAsync
+  nameWithType: IAIAgent.CreateDefaultCopilotEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CopilotEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CopilotEntity>
+  nameWithType: Task<CopilotEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CopilotEntity>
+  nameWithType.vb: Task(Of CopilotEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CopilotEntity)
+  name.vb: Task(Of CopilotEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CopilotEntity
+    name: CopilotEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CopilotEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_SaveCopilotEntityAsync_SuperOffice_CRM_Services_CopilotEntity_System_Threading_CancellationToken_
+  name: SaveCopilotEntityAsync
+  nameWithType: IAIAgent.SaveCopilotEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync
+- uid: SuperOffice.CRM.Services.CopilotEntity
+  commentId: T:SuperOffice.CRM.Services.CopilotEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotEntity.html
+  name: CopilotEntity
+  nameWithType: CopilotEntity
+  fullName: SuperOffice.CRM.Services.CopilotEntity
+- uid: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_DeleteCopilotEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteCopilotEntityAsync
+  nameWithType: IAIAgent.DeleteCopilotEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.DeleteCopilotEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetCopilotEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCopilotEntityAsync
+  nameWithType: IAIAgent.GetCopilotEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetFormDesignFromImageAsync_System_IO_Stream_System_Threading_CancellationToken_
+  name: GetFormDesignFromImageAsync
+  nameWithType: IAIAgent.GetFormDesignFromImageAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetFormDesignFromUrlAsync_System_String_System_Threading_CancellationToken_
+  name: GetFormDesignFromUrlAsync
+  nameWithType: IAIAgent.GetFormDesignFromUrlAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync
 - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync
   isExternal: true

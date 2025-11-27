@@ -80,40 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetNextCurrent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "HistoryName": "Thompson-Hegmann",
-  "Id": 47
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetNextCurrent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Rank": 650,
-  "Id": 869,
-  "HistoryName": "Schuppe, Johnson and Kunde",
-  "HistoryId": 435,
-  "AssociateId": 746,
-  "Name": "Collins-Wolf",
-  "ItemInfo": "reiciendis",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetNextCurrent.md)]

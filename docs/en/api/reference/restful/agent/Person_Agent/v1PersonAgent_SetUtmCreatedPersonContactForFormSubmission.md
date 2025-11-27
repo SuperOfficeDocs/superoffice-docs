@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SetUtmCreatedPersonContactForFormSubmission
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormSubmissionId": 44,
-  "PersonId": 997,
-  "ContactId": 902
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SetUtmCreatedPersonContactForFormSubmission.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SetUtmCreatedPersonContactForFormSubmission.md)]

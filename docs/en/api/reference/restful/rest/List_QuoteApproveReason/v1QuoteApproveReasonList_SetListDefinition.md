@@ -81,51 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteApproveReason
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 211,
-  "Name": "Turner, Gutkowski and Marquardt",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 793,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_SetListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 660,
-  "Name": "Howe, Kunde and Okuneva",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "Rank": 830,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_SetListDefinition.md)]

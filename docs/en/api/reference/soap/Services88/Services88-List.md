@@ -14,10 +14,10 @@ content_type: reference
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="GetAllSaleTypeEntities">
+      <xs:element name="GetSaleStageEntity">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="IncludeDeleted" type="xs:boolean" />
+            <xs:element minOccurs="0" name="SaleStageEntityId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -37,50 +37,28 @@ content_type: reference
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="GetAllSaleTypeEntitiesResponse">
+      <xs:element name="GetSaleStageEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleTypeEntity" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleStageEntity" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="ArrayOfSaleTypeEntity">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleTypeEntity" nillable="true" type="tns:SaleTypeEntity" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfSaleTypeEntity" nillable="true" type="tns:ArrayOfSaleTypeEntity" />
-      <xs:complexType name="SaleTypeEntity">
+      <xs:complexType name="SaleStageEntity">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SaleStageId" type="xs:int" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="DurationUnit" type="tns:DurationUnit" />
-              <xs:element minOccurs="0" name="SaleDuration" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleTypeCatId" type="xs:int" />
+              <xs:element minOccurs="0" name="Probability" type="xs:short" />
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="HasGuide" type="xs:boolean" />
-              <xs:element minOccurs="0" name="HasStakeholders" type="xs:boolean" />
-              <xs:element minOccurs="0" name="IsAutoAdvance" type="xs:boolean" />
-              <xs:element minOccurs="0" name="AllowQuoteAlternatives" type="xs:boolean" />
-              <xs:element minOccurs="0" name="DefaultQuoteValidity" type="xs:int" />
-              <xs:element minOccurs="0" name="QuoteLinesTemplate" type="xs:int" />
-              <xs:element minOccurs="0" name="ConfirmationLinesTemplate" type="xs:int" />
-              <xs:element minOccurs="0" name="MaxDiscountPercentSet" type="xs:boolean" />
-              <xs:element minOccurs="0" name="MinEarningPercentSet" type="xs:boolean" />
-              <xs:element minOccurs="0" name="MaxDiscountPercent" type="xs:int" />
-              <xs:element minOccurs="0" name="MinEarningPercent" type="xs:int" />
-              <xs:element minOccurs="0" name="GroupQuoteLinesBy" type="xs:int" />
-              <xs:element minOccurs="0" name="SortGroupLinesBy" type="xs:int" />
-              <xs:element minOccurs="0" name="Stages" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SaleTypeEntity" nillable="true" type="tns:SaleTypeEntity" />
+      <xs:element name="SaleStageEntity" nillable="true" type="tns:SaleStageEntity" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -184,6 +162,128 @@ content_type: reference
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="GetSaleType">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSaleTypeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SaleType">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SaleType" nillable="true" type="tns:SaleType" />
+      <xs:element name="GetSaleTypeEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSaleTypeEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleTypeEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SaleTypeEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="DurationUnit" type="tns:DurationUnit" />
+              <xs:element minOccurs="0" name="SaleDuration" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeCatId" type="xs:int" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasGuide" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasStakeholders" type="xs:boolean" />
+              <xs:element minOccurs="0" name="IsAutoAdvance" type="xs:boolean" />
+              <xs:element minOccurs="0" name="AllowQuoteAlternatives" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DefaultQuoteValidity" type="xs:int" />
+              <xs:element minOccurs="0" name="QuoteLinesTemplate" type="xs:int" />
+              <xs:element minOccurs="0" name="ConfirmationLinesTemplate" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxDiscountPercentSet" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MinEarningPercentSet" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MaxDiscountPercent" type="xs:int" />
+              <xs:element minOccurs="0" name="MinEarningPercent" type="xs:int" />
+              <xs:element minOccurs="0" name="GroupQuoteLinesBy" type="xs:int" />
+              <xs:element minOccurs="0" name="SortGroupLinesBy" type="xs:int" />
+              <xs:element minOccurs="0" name="Stages" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SaleTypeEntity" nillable="true" type="tns:SaleTypeEntity" />
       <xs:simpleType name="DurationUnit">
         <xs:annotation>
           <xs:appinfo>
@@ -237,57 +337,58 @@ content_type: reference
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="SelectableMDOListItem" nillable="true" type="tns:SelectableMDOListItem" />
-      <xs:complexType name="SoExceptionInfo">
+      <xs:element name="GetSaleTypeList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSaleTypeListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfSaleType">
         <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleType" nillable="true" type="tns:SaleType" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
+      <xs:element name="ArrayOfSaleType" nillable="true" type="tns:ArrayOfSaleType" />
+      <xs:element name="GetAllSaleType">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllSaleTypeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllSaleTypeEntities">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="IncludeDeleted" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllSaleTypeEntitiesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleTypeEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfSaleTypeEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleTypeEntity" nillable="true" type="tns:SaleTypeEntity" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="ArrayOfSaleTypeEntity" nillable="true" type="tns:ArrayOfSaleTypeEntity" />
       <xs:element name="GetSelectionCategory">
         <xs:complexType>
           <xs:sequence>
@@ -335,7 +436,7 @@ content_type: reference
       <xs:element name="GetSelectionCategoryList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SelectionCategoryIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SelectionCategoryIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -375,7 +476,7 @@ content_type: reference
       <xs:element name="GetSourceList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SourceIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SourceIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -447,7 +548,7 @@ content_type: reference
       <xs:element name="GetTaskList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SoTaskIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SoTaskIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -864,7 +965,7 @@ content_type: reference
       <xs:element name="GetTicketCategoryList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketCategoryEntityIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketCategoryEntityIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -896,7 +997,7 @@ content_type: reference
       <xs:element name="GetTicketCategoriesForUserGroups">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -938,7 +1039,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
-            <xs:element minOccurs="0" name="CategoryIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CategoryIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1083,7 +1184,7 @@ content_type: reference
               <xs:element minOccurs="0" name="SatStop" type="xs:dateTime" />
               <xs:element minOccurs="0" name="SunStart" type="xs:dateTime" />
               <xs:element minOccurs="0" name="SunStop" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="NonDates" nillable="true" type="q7:ArrayOfdateTime" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="NonDates" nillable="true" type="q8:ArrayOfdateTime" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="EscalationLevels" nillable="true" type="tns:ArrayOfTicketPriorityEscalationLevelEntity" />
             </xs:sequence>
           </xs:extension>
@@ -1195,7 +1296,7 @@ content_type: reference
       <xs:element name="GetTicketPriorityList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketPriorityIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketPriorityIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1287,7 +1388,7 @@ content_type: reference
       <xs:element name="GetTicketStatusList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketStatusEntityIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketStatusEntityIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1340,9 +1441,9 @@ content_type: reference
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DefaultTicketStatus" type="xs:int" />
-              <xs:element minOccurs="0" name="TicketStatuses" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="TicketStatuses" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="DefaultTicketPriority" type="xs:int" />
-              <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyTemplate" type="xs:int" />
               <xs:element minOccurs="0" name="IsExternalVisible" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
@@ -1350,7 +1451,7 @@ content_type: reference
               <xs:element minOccurs="0" name="ExcludeSignature" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyForwardNoSignature" type="xs:boolean" />
               <xs:element minOccurs="0" name="ReplyExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
@@ -1387,7 +1488,7 @@ content_type: reference
       <xs:element name="GetTicketTypeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketTypeEntityIds" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketTypeEntityIds" nillable="true" type="q14:ArrayOfint" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1558,20 +1659,6 @@ content_type: reference
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="tns:Navigation" />
-      <xs:element name="SaveWebPanelEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="WebPanelEntity" nillable="true" type="tns:WebPanelEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveWebPanelEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WebPanelEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GenerateNavigationUrl">
         <xs:complexType>
           <xs:sequence>
@@ -1653,11 +1740,80 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SetListItemsForHeadingFromListName">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UdListDefinitionName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="HeadingId" type="xs:int" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q15:ArrayOfint" xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetListItemsForHeadingFromListNameResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetHeadingsForListItem">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
+            <xs:element minOccurs="0" name="ListItemId" type="xs:int" />
+            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q16:ArrayOfint" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetHeadingsForListItemResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnHeadings">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
+            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q17:ArrayOfint" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnHeadingsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnSaleActivity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q18:ArrayOfint" xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnSaleActivityResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnSaleDocument">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q19:ArrayOfint" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetRankOnSaleDocumentResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SetRankOnProjectActivity">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q14:ArrayOfint" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q20:ArrayOfint" xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1670,7 +1826,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q15:ArrayOfint" xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q21:ArrayOfint" xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2166,7 +2322,7 @@ content_type: reference
       <xs:element name="GetLocalizedTextList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LocalizedTextIds" nillable="true" type="q16:ArrayOfint" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LocalizedTextIds" nillable="true" type="q22:ArrayOfint" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2258,7 +2414,7 @@ content_type: reference
       <xs:element name="GetMrMrsList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="MrMrsIds" nillable="true" type="q17:ArrayOfint" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="MrMrsIds" nillable="true" type="q23:ArrayOfint" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2404,7 +2560,7 @@ content_type: reference
       <xs:element name="GetPositionList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PositionIds" nillable="true" type="q18:ArrayOfint" xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PositionIds" nillable="true" type="q24:ArrayOfint" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2462,7 +2618,7 @@ content_type: reference
       <xs:element name="GetPriorityList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PriorityIds" nillable="true" type="q19:ArrayOfint" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PriorityIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2664,7 +2820,7 @@ content_type: reference
       <xs:element name="GetProjectStatusList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectStatusIds" nillable="true" type="q20:ArrayOfint" xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectStatusIds" nillable="true" type="q26:ArrayOfint" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2755,7 +2911,7 @@ content_type: reference
       <xs:element name="GetProjectTypeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectTypeIds" nillable="true" type="q21:ArrayOfint" xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectTypeIds" nillable="true" type="q27:ArrayOfint" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2855,7 +3011,7 @@ content_type: reference
       <xs:element name="GetRatingList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="RatingIds" nillable="true" type="q22:ArrayOfint" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RatingIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2904,21 +3060,6 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfSaleStageEntity" nillable="true" type="tns:ArrayOfSaleStageEntity" />
-      <xs:complexType name="SaleStageEntity">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="SaleStageId" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Probability" type="xs:short" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="SaleStageEntity" nillable="true" type="tns:SaleStageEntity" />
       <xs:element name="GetReason">
         <xs:complexType>
           <xs:sequence>
@@ -2948,7 +3089,7 @@ content_type: reference
       <xs:element name="GetReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ReasonIds" nillable="true" type="q23:ArrayOfint" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ReasonIds" nillable="true" type="q29:ArrayOfint" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3006,7 +3147,7 @@ content_type: reference
       <xs:element name="GetQuoteApproveReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteApproveReasonIds" nillable="true" type="q24:ArrayOfint" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="QuoteApproveReasonIds" nillable="true" type="q30:ArrayOfint" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3064,7 +3205,7 @@ content_type: reference
       <xs:element name="GetQuoteDenyReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteDenyReasonIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="QuoteDenyReasonIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3140,7 +3281,7 @@ content_type: reference
       <xs:element name="GetReasonSoldList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ReasonSoldIds" nillable="true" type="q26:ArrayOfint" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ReasonSoldIds" nillable="true" type="q32:ArrayOfint" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3198,7 +3339,7 @@ content_type: reference
       <xs:element name="GetReasonStalledList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ReasonStalledIds" nillable="true" type="q27:ArrayOfint" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ReasonStalledIds" nillable="true" type="q33:ArrayOfint" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3279,35 +3420,25 @@ content_type: reference
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="ResourceEntity" nillable="true" type="tns:ResourceEntity" />
-      <xs:element name="GetSaleStageEntity">
+      <xs:element name="GetCrediteds">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCreditedsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SaleStageEntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCredited" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSaleStageEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleStageEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSaleType">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSaleTypeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleType" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="SaleType">
+      <xs:complexType name="ArrayOfCredited">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Credited" nillable="true" type="tns:Credited" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCredited" nillable="true" type="tns:ArrayOfCredited" />
+      <xs:complexType name="Credited">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
@@ -3318,50 +3449,70 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SaleType" nillable="true" type="tns:SaleType" />
-      <xs:element name="GetSaleTypeEntity">
+      <xs:element name="Credited" nillable="true" type="tns:Credited" />
+      <xs:element name="GetCurrency">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeEntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="CurrencyId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSaleTypeEntityResponse">
+      <xs:element name="GetCurrencyResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaleTypeEntity" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSaleTypeList">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSaleTypeListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleType" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfSaleType">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleType" nillable="true" type="tns:SaleType" />
-        </xs:sequence>
+      <xs:complexType name="Currency">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ArrayOfSaleType" nillable="true" type="tns:ArrayOfSaleType" />
-      <xs:element name="GetAllSaleType">
+      <xs:element name="Currency" nillable="true" type="tns:Currency" />
+      <xs:element name="GetOurCurrency">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetAllSaleTypeResponse">
+      <xs:element name="GetOurCurrencyResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaleType" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangeCurrency">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Amount" type="xs:double" />
+            <xs:element minOccurs="0" name="FromCurrency" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ToCurrency" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangeCurrencyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:double" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOwnerCompanysCurrency">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOwnerCompanysCurrencyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3410,7 +3561,7 @@ content_type: reference
       <xs:element name="GetCurrencyList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CurrencyIds" nillable="true" type="q29:ArrayOfint" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CurrencyIds" nillable="true" type="q34:ArrayOfint" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3427,18 +3578,6 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfCurrency" nillable="true" type="tns:ArrayOfCurrency" />
-      <xs:complexType name="Currency">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Currency" nillable="true" type="tns:Currency" />
       <xs:element name="GetCurrencies">
         <xs:complexType>
           <xs:sequence />
@@ -3500,7 +3639,7 @@ content_type: reference
       <xs:element name="GetCustomerLanguageList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CustomerLanguageIds" nillable="true" type="q30:ArrayOfint" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CustomerLanguageIds" nillable="true" type="q35:ArrayOfint" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3646,7 +3785,7 @@ content_type: reference
       <xs:element name="GetDepartmentList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DepartmentIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DepartmentIds" nillable="true" type="q36:ArrayOfint" xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3874,7 +4013,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateUsedInSalesStageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q32:ArrayOfstring" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q37:ArrayOfstring" xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3888,7 +4027,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateUsedInProjectStageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q33:ArrayOfstring" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q38:ArrayOfstring" xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3912,7 +4051,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="DocumentTemplateId" type="xs:int" />
-            <xs:element minOccurs="0" name="RequestedProperties" nillable="true" type="q34:ArrayOfstring" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RequestedProperties" nillable="true" type="q39:ArrayOfstring" xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3933,7 +4072,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateLanguagesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q35:ArrayOfstring" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q40:ArrayOfstring" xmlns:q40="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4094,7 +4233,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DocumentTemplateIds" nillable="true" type="q36:ArrayOfint" xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DocumentTemplateIds" nillable="true" type="q41:ArrayOfint" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4456,7 +4595,7 @@ content_type: reference
       <xs:element name="GetLanguageInfoList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LanguageInfoIds" nillable="true" type="q37:ArrayOfint" xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LanguageInfoIds" nillable="true" type="q42:ArrayOfint" xmlns:q42="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4549,7 +4688,7 @@ content_type: reference
       <xs:element name="GetLegalBaseList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LegalBaseIds" nillable="true" type="q38:ArrayOfint" xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LegalBaseIds" nillable="true" type="q43:ArrayOfint" xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4603,7 +4742,7 @@ content_type: reference
       <xs:element name="GetLinkList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LinkIds" nillable="true" type="q39:ArrayOfint" xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LinkIds" nillable="true" type="q44:ArrayOfint" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4822,7 +4961,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="ListItemId" type="xs:int" />
-            <xs:element minOccurs="0" name="UserGroupId" nillable="true" type="q40:ArrayOfint" xmlns:q40="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="UserGroupId" nillable="true" type="q45:ArrayOfint" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -4867,7 +5006,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="UsergroupId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q41:ArrayOfint" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q46:ArrayOfint" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -4882,7 +5021,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionName" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="UsergroupId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemsID" nillable="true" type="q42:ArrayOfint" xmlns:q42="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemsID" nillable="true" type="q47:ArrayOfint" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -4991,81 +5130,12 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="HeadingId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q43:ArrayOfint" xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q48:ArrayOfint" xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SetListItemsForHeadingResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetListItemsForHeadingFromListName">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UdListDefinitionName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="HeadingId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q44:ArrayOfint" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetListItemsForHeadingFromListNameResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetHeadingsForListItem">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemId" type="xs:int" />
-            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q45:ArrayOfint" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetHeadingsForListItemResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnHeadings">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
-            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q46:ArrayOfint" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnHeadingsResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnSaleActivity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q47:ArrayOfint" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnSaleActivityResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnSaleDocument">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q48:ArrayOfint" xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetRankOnSaleDocumentResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -5253,6 +5323,32 @@ content_type: reference
         </xs:list>
       </xs:simpleType>
       <xs:element name="ArchiveBehaviour" nillable="true" type="tns:ArchiveBehaviour" />
+      <xs:element name="SaveTaskMenu">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskMenu" nillable="true" type="tns:TaskMenu" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveTaskMenuResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TaskMenu" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteTaskMenu">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskMenuId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteTaskMenuResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CreateDefaultCurrencyEntity">
         <xs:complexType>
           <xs:sequence />
@@ -5751,6 +5847,20 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SaveWebPanelEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="WebPanelEntity" nillable="true" type="tns:WebPanelEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveWebPanelEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WebPanelEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetAmountClassEntity">
         <xs:complexType>
           <xs:sequence>
@@ -5762,6 +5872,123 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AmountClassEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveAllAutomatedCategoryUpdates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfAutomatedCategoryUpdate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfAutomatedCategoryUpdate">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="AutomatedCategoryUpdate" nillable="true" type="tns:AutomatedCategoryUpdate" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfAutomatedCategoryUpdate" nillable="true" type="tns:ArrayOfAutomatedCategoryUpdate" />
+      <xs:complexType name="AutomatedCategoryUpdate">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
+              <xs:element minOccurs="0" name="TriggerType" type="tns:CategoryUpdateTrigger" />
+              <xs:element minOccurs="0" name="UserConfirmation" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DefaultCategory" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadstatusId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AutomatedCategoryUpdate" nillable="true" type="tns:AutomatedCategoryUpdate" />
+      <xs:simpleType name="CategoryUpdateTrigger">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="SaleRegistered" />
+          <xs:enumeration value="SaleSold" />
+          <xs:enumeration value="SaleLost" />
+          <xs:enumeration value="LeadStatusChanged" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="CategoryUpdateTrigger" nillable="true" type="tns:CategoryUpdateTrigger" />
+      <xs:element name="SaveAllAutomatedCategoryUpdatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfAutomatedCategoryUpdate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllAutomatedCategoryUpdates">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllAutomatedCategoryUpdatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfAutomatedCategoryUpdate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNeedCategoryUpdateForSale">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleStatus" type="tns:SaleStatus" />
+            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="SaleStatus">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Open" />
+          <xs:enumeration value="Sold" />
+          <xs:enumeration value="Lost" />
+          <xs:enumeration value="Stalled" />
+          <xs:enumeration value="SaintAll">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1000</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="SaleStatus" nillable="true" type="tns:SaleStatus" />
+      <xs:element name="GetNeedCategoryUpdateForSaleResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AutomatedCategoryUpdate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNeedCategoryUpdateForPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LeadStatus" type="xs:int" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+            <xs:element minOccurs="0" name="CategoryId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNeedCategoryUpdateForPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AutomatedCategoryUpdate" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -5965,32 +6192,6 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TaskMenu" />
           </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveTaskMenu">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TaskMenu" nillable="true" type="tns:TaskMenu" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveTaskMenuResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TaskMenu" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteTaskMenu">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TaskMenuId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteTaskMenuResponse">
-        <xs:complexType>
-          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="GetAppTaskMenus">
@@ -6356,18 +6557,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="Credited">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Credited" nillable="true" type="tns:Credited" />
       <xs:element name="GetCreditedList">
         <xs:complexType>
           <xs:sequence>
@@ -6379,78 +6568,6 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCredited" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfCredited">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Credited" nillable="true" type="tns:Credited" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfCredited" nillable="true" type="tns:ArrayOfCredited" />
-      <xs:element name="GetCrediteds">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCreditedsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCredited" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCurrency">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CurrencyId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCurrencyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetOurCurrency">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetOurCurrencyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ChangeCurrency">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Amount" type="xs:double" />
-            <xs:element minOccurs="0" name="FromCurrency" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ToCurrency" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ChangeCurrencyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:double" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetOwnerCompanysCurrency">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetOwnerCompanysCurrencyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Currency" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6517,6 +6634,91 @@ content_type: reference
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetSaleStageEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetSaleStageEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleStageEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleStageEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetSaleStageEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleStageEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeRequest">
+    <wsdl:part name="parameters" element="tns:GetSaleType" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeResponse">
+    <wsdl:part name="parameters" element="tns:GetSaleTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetSaleTypeEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetSaleTypeEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeListRequest">
+    <wsdl:part name="parameters" element="tns:GetSaleTypeList" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeListRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeListResponse">
+    <wsdl:part name="parameters" element="tns:GetSaleTypeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleTypeListResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSaleTypeRequest">
+    <wsdl:part name="parameters" element="tns:GetAllSaleType" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSaleTypeRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSaleTypeResponse">
+    <wsdl:part name="parameters" element="tns:GetAllSaleTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSaleTypeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetAllSaleTypeEntitiesRequest">
     <wsdl:part name="parameters" element="tns:GetAllSaleTypeEntities" />
   </wsdl:message>
@@ -7180,23 +7382,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SaveWebPanelEntityRequest">
-    <wsdl:part name="parameters" element="tns:SaveWebPanelEntity" />
-  </wsdl:message>
-  <wsdl:message name="SaveWebPanelEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveWebPanelEntityResponse">
-    <wsdl:part name="parameters" element="tns:SaveWebPanelEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveWebPanelEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GenerateNavigationUrlRequest">
     <wsdl:part name="parameters" element="tns:GenerateNavigationUrl" />
   </wsdl:message>
@@ -7294,6 +7479,91 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetWebPanelByProgIdResponse" />
   </wsdl:message>
   <wsdl:message name="GetWebPanelByProgIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetListItemsForHeadingFromListNameRequest">
+    <wsdl:part name="parameters" element="tns:SetListItemsForHeadingFromListName" />
+  </wsdl:message>
+  <wsdl:message name="SetListItemsForHeadingFromListNameRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetListItemsForHeadingFromListNameResponse">
+    <wsdl:part name="parameters" element="tns:SetListItemsForHeadingFromListNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetListItemsForHeadingFromListNameResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetHeadingsForListItemRequest">
+    <wsdl:part name="parameters" element="tns:SetHeadingsForListItem" />
+  </wsdl:message>
+  <wsdl:message name="SetHeadingsForListItemRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetHeadingsForListItemResponse">
+    <wsdl:part name="parameters" element="tns:SetHeadingsForListItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetHeadingsForListItemResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnHeadingsRequest">
+    <wsdl:part name="parameters" element="tns:SetRankOnHeadings" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnHeadingsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnHeadingsResponse">
+    <wsdl:part name="parameters" element="tns:SetRankOnHeadingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnHeadingsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleActivityRequest">
+    <wsdl:part name="parameters" element="tns:SetRankOnSaleActivity" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleActivityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleActivityResponse">
+    <wsdl:part name="parameters" element="tns:SetRankOnSaleActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleActivityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleDocumentRequest">
+    <wsdl:part name="parameters" element="tns:SetRankOnSaleDocument" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleDocumentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleDocumentResponse">
+    <wsdl:part name="parameters" element="tns:SetRankOnSaleDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetRankOnSaleDocumentResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -8659,86 +8929,86 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleStageEntityRequest">
-    <wsdl:part name="parameters" element="tns:GetSaleStageEntity" />
+  <wsdl:message name="GetCreditedsRequest">
+    <wsdl:part name="parameters" element="tns:GetCrediteds" />
   </wsdl:message>
-  <wsdl:message name="GetSaleStageEntityRequest_Headers">
+  <wsdl:message name="GetCreditedsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleStageEntityResponse">
-    <wsdl:part name="parameters" element="tns:GetSaleStageEntityResponse" />
+  <wsdl:message name="GetCreditedsResponse">
+    <wsdl:part name="parameters" element="tns:GetCreditedsResponse" />
   </wsdl:message>
-  <wsdl:message name="GetSaleStageEntityResponse_Headers">
+  <wsdl:message name="GetCreditedsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeRequest">
-    <wsdl:part name="parameters" element="tns:GetSaleType" />
+  <wsdl:message name="GetCurrencyRequest">
+    <wsdl:part name="parameters" element="tns:GetCurrency" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeRequest_Headers">
+  <wsdl:message name="GetCurrencyRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeResponse">
-    <wsdl:part name="parameters" element="tns:GetSaleTypeResponse" />
+  <wsdl:message name="GetCurrencyResponse">
+    <wsdl:part name="parameters" element="tns:GetCurrencyResponse" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeResponse_Headers">
+  <wsdl:message name="GetCurrencyResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeEntityRequest">
-    <wsdl:part name="parameters" element="tns:GetSaleTypeEntity" />
+  <wsdl:message name="GetOurCurrencyRequest">
+    <wsdl:part name="parameters" element="tns:GetOurCurrency" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeEntityRequest_Headers">
+  <wsdl:message name="GetOurCurrencyRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeEntityResponse">
-    <wsdl:part name="parameters" element="tns:GetSaleTypeEntityResponse" />
+  <wsdl:message name="GetOurCurrencyResponse">
+    <wsdl:part name="parameters" element="tns:GetOurCurrencyResponse" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeEntityResponse_Headers">
+  <wsdl:message name="GetOurCurrencyResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeListRequest">
-    <wsdl:part name="parameters" element="tns:GetSaleTypeList" />
+  <wsdl:message name="ChangeCurrencyRequest">
+    <wsdl:part name="parameters" element="tns:ChangeCurrency" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeListRequest_Headers">
+  <wsdl:message name="ChangeCurrencyRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeListResponse">
-    <wsdl:part name="parameters" element="tns:GetSaleTypeListResponse" />
+  <wsdl:message name="ChangeCurrencyResponse">
+    <wsdl:part name="parameters" element="tns:ChangeCurrencyResponse" />
   </wsdl:message>
-  <wsdl:message name="GetSaleTypeListResponse_Headers">
+  <wsdl:message name="ChangeCurrencyResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetAllSaleTypeRequest">
-    <wsdl:part name="parameters" element="tns:GetAllSaleType" />
+  <wsdl:message name="GetOwnerCompanysCurrencyRequest">
+    <wsdl:part name="parameters" element="tns:GetOwnerCompanysCurrency" />
   </wsdl:message>
-  <wsdl:message name="GetAllSaleTypeRequest_Headers">
+  <wsdl:message name="GetOwnerCompanysCurrencyRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetAllSaleTypeResponse">
-    <wsdl:part name="parameters" element="tns:GetAllSaleTypeResponse" />
+  <wsdl:message name="GetOwnerCompanysCurrencyResponse">
+    <wsdl:part name="parameters" element="tns:GetOwnerCompanysCurrencyResponse" />
   </wsdl:message>
-  <wsdl:message name="GetAllSaleTypeResponse_Headers">
+  <wsdl:message name="GetOwnerCompanysCurrencyResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -10104,91 +10374,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SetListItemsForHeadingFromListNameRequest">
-    <wsdl:part name="parameters" element="tns:SetListItemsForHeadingFromListName" />
-  </wsdl:message>
-  <wsdl:message name="SetListItemsForHeadingFromListNameRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetListItemsForHeadingFromListNameResponse">
-    <wsdl:part name="parameters" element="tns:SetListItemsForHeadingFromListNameResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetListItemsForHeadingFromListNameResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetHeadingsForListItemRequest">
-    <wsdl:part name="parameters" element="tns:SetHeadingsForListItem" />
-  </wsdl:message>
-  <wsdl:message name="SetHeadingsForListItemRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetHeadingsForListItemResponse">
-    <wsdl:part name="parameters" element="tns:SetHeadingsForListItemResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetHeadingsForListItemResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnHeadingsRequest">
-    <wsdl:part name="parameters" element="tns:SetRankOnHeadings" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnHeadingsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnHeadingsResponse">
-    <wsdl:part name="parameters" element="tns:SetRankOnHeadingsResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnHeadingsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleActivityRequest">
-    <wsdl:part name="parameters" element="tns:SetRankOnSaleActivity" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleActivityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleActivityResponse">
-    <wsdl:part name="parameters" element="tns:SetRankOnSaleActivityResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleActivityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleDocumentRequest">
-    <wsdl:part name="parameters" element="tns:SetRankOnSaleDocument" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleDocumentRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleDocumentResponse">
-    <wsdl:part name="parameters" element="tns:SetRankOnSaleDocumentResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetRankOnSaleDocumentResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="CreateDefaultAmountClassEntityRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultAmountClassEntity" />
   </wsdl:message>
@@ -10269,6 +10454,40 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:CreateDefaultTaskMenuResponse" />
   </wsdl:message>
   <wsdl:message name="CreateDefaultTaskMenuResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveTaskMenuRequest">
+    <wsdl:part name="parameters" element="tns:SaveTaskMenu" />
+  </wsdl:message>
+  <wsdl:message name="SaveTaskMenuRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveTaskMenuResponse">
+    <wsdl:part name="parameters" element="tns:SaveTaskMenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveTaskMenuResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTaskMenuRequest">
+    <wsdl:part name="parameters" element="tns:DeleteTaskMenu" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTaskMenuRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTaskMenuResponse">
+    <wsdl:part name="parameters" element="tns:DeleteTaskMenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTaskMenuResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -10937,6 +11156,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SaveWebPanelEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveWebPanelEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveWebPanelEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveWebPanelEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveWebPanelEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveWebPanelEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetAmountClassEntityRequest">
     <wsdl:part name="parameters" element="tns:GetAmountClassEntity" />
   </wsdl:message>
@@ -10949,6 +11185,74 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetAmountClassEntityResponse" />
   </wsdl:message>
   <wsdl:message name="GetAmountClassEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllAutomatedCategoryUpdatesRequest">
+    <wsdl:part name="parameters" element="tns:SaveAllAutomatedCategoryUpdates" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllAutomatedCategoryUpdatesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllAutomatedCategoryUpdatesResponse">
+    <wsdl:part name="parameters" element="tns:SaveAllAutomatedCategoryUpdatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllAutomatedCategoryUpdatesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllAutomatedCategoryUpdatesRequest">
+    <wsdl:part name="parameters" element="tns:GetAllAutomatedCategoryUpdates" />
+  </wsdl:message>
+  <wsdl:message name="GetAllAutomatedCategoryUpdatesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllAutomatedCategoryUpdatesResponse">
+    <wsdl:part name="parameters" element="tns:GetAllAutomatedCategoryUpdatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllAutomatedCategoryUpdatesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForSaleRequest">
+    <wsdl:part name="parameters" element="tns:GetNeedCategoryUpdateForSale" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForSaleRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForSaleResponse">
+    <wsdl:part name="parameters" element="tns:GetNeedCategoryUpdateForSaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForSaleResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForPersonRequest">
+    <wsdl:part name="parameters" element="tns:GetNeedCategoryUpdateForPerson" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForPersonResponse">
+    <wsdl:part name="parameters" element="tns:GetNeedCategoryUpdateForPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNeedCategoryUpdateForPersonResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -11136,40 +11440,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetTaskMenuResponse" />
   </wsdl:message>
   <wsdl:message name="GetTaskMenuResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveTaskMenuRequest">
-    <wsdl:part name="parameters" element="tns:SaveTaskMenu" />
-  </wsdl:message>
-  <wsdl:message name="SaveTaskMenuRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveTaskMenuResponse">
-    <wsdl:part name="parameters" element="tns:SaveTaskMenuResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveTaskMenuResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteTaskMenuRequest">
-    <wsdl:part name="parameters" element="tns:DeleteTaskMenu" />
-  </wsdl:message>
-  <wsdl:message name="DeleteTaskMenuRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteTaskMenuResponse">
-    <wsdl:part name="parameters" element="tns:DeleteTaskMenuResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteTaskMenuResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -11549,92 +11819,27 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetCreditedsRequest">
-    <wsdl:part name="parameters" element="tns:GetCrediteds" />
-  </wsdl:message>
-  <wsdl:message name="GetCreditedsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCreditedsResponse">
-    <wsdl:part name="parameters" element="tns:GetCreditedsResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCreditedsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCurrencyRequest">
-    <wsdl:part name="parameters" element="tns:GetCurrency" />
-  </wsdl:message>
-  <wsdl:message name="GetCurrencyRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCurrencyResponse">
-    <wsdl:part name="parameters" element="tns:GetCurrencyResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCurrencyResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOurCurrencyRequest">
-    <wsdl:part name="parameters" element="tns:GetOurCurrency" />
-  </wsdl:message>
-  <wsdl:message name="GetOurCurrencyRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOurCurrencyResponse">
-    <wsdl:part name="parameters" element="tns:GetOurCurrencyResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetOurCurrencyResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ChangeCurrencyRequest">
-    <wsdl:part name="parameters" element="tns:ChangeCurrency" />
-  </wsdl:message>
-  <wsdl:message name="ChangeCurrencyRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ChangeCurrencyResponse">
-    <wsdl:part name="parameters" element="tns:ChangeCurrencyResponse" />
-  </wsdl:message>
-  <wsdl:message name="ChangeCurrencyResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOwnerCompanysCurrencyRequest">
-    <wsdl:part name="parameters" element="tns:GetOwnerCompanysCurrency" />
-  </wsdl:message>
-  <wsdl:message name="GetOwnerCompanysCurrencyRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOwnerCompanysCurrencyResponse">
-    <wsdl:part name="parameters" element="tns:GetOwnerCompanysCurrencyResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetOwnerCompanysCurrencyResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="List">
+    <wsdl:operation name="GetSaleStageEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntity" name="GetSaleStageEntityRequest" message="tns:GetSaleStageEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntityResponse" name="GetSaleStageEntityResponse" message="tns:GetSaleStageEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleType">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleType" name="GetSaleTypeRequest" message="tns:GetSaleTypeRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeResponse" name="GetSaleTypeResponse" message="tns:GetSaleTypeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleTypeEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntity" name="GetSaleTypeEntityRequest" message="tns:GetSaleTypeEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntityResponse" name="GetSaleTypeEntityResponse" message="tns:GetSaleTypeEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleTypeList">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeList" name="GetSaleTypeListRequest" message="tns:GetSaleTypeListRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeListResponse" name="GetSaleTypeListResponse" message="tns:GetSaleTypeListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSaleType">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleType" name="GetAllSaleTypeRequest" message="tns:GetAllSaleTypeRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleTypeResponse" name="GetAllSaleTypeResponse" message="tns:GetAllSaleTypeResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetAllSaleTypeEntities">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleTypeEntities" name="GetAllSaleTypeEntitiesRequest" message="tns:GetAllSaleTypeEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleTypeEntitiesResponse" name="GetAllSaleTypeEntitiesResponse" message="tns:GetAllSaleTypeEntitiesResponse" />
@@ -11791,10 +11996,6 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetWebPanelEntity" name="GetWebPanelEntityRequest" message="tns:GetWebPanelEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetWebPanelEntityResponse" name="GetWebPanelEntityResponse" message="tns:GetWebPanelEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SaveWebPanelEntity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntity" name="SaveWebPanelEntityRequest" message="tns:SaveWebPanelEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntityResponse" name="SaveWebPanelEntityResponse" message="tns:SaveWebPanelEntityResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GenerateNavigationUrl">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GenerateNavigationUrl" name="GenerateNavigationUrlRequest" message="tns:GenerateNavigationUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GenerateNavigationUrlResponse" name="GenerateNavigationUrlResponse" message="tns:GenerateNavigationUrlResponse" />
@@ -11818,6 +12019,26 @@ content_type: reference
     <wsdl:operation name="GetWebPanelByProgId">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetWebPanelByProgId" name="GetWebPanelByProgIdRequest" message="tns:GetWebPanelByProgIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetWebPanelByProgIdResponse" name="GetWebPanelByProgIdResponse" message="tns:GetWebPanelByProgIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetListItemsForHeadingFromListName">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListName" name="SetListItemsForHeadingFromListNameRequest" message="tns:SetListItemsForHeadingFromListNameRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListNameResponse" name="SetListItemsForHeadingFromListNameResponse" message="tns:SetListItemsForHeadingFromListNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetHeadingsForListItem">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItem" name="SetHeadingsForListItemRequest" message="tns:SetHeadingsForListItemRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItemResponse" name="SetHeadingsForListItemResponse" message="tns:SetHeadingsForListItemResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnHeadings">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadings" name="SetRankOnHeadingsRequest" message="tns:SetRankOnHeadingsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadingsResponse" name="SetRankOnHeadingsResponse" message="tns:SetRankOnHeadingsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnSaleActivity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivity" name="SetRankOnSaleActivityRequest" message="tns:SetRankOnSaleActivityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivityResponse" name="SetRankOnSaleActivityResponse" message="tns:SetRankOnSaleActivityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnSaleDocument">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocument" name="SetRankOnSaleDocumentRequest" message="tns:SetRankOnSaleDocumentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocumentResponse" name="SetRankOnSaleDocumentResponse" message="tns:SetRankOnSaleDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnProjectActivity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnProjectActivity" name="SetRankOnProjectActivityRequest" message="tns:SetRankOnProjectActivityRequest" />
@@ -12139,25 +12360,25 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetResourceEntity" name="GetResourceEntityRequest" message="tns:GetResourceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetResourceEntityResponse" name="GetResourceEntityResponse" message="tns:GetResourceEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSaleStageEntity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntity" name="GetSaleStageEntityRequest" message="tns:GetSaleStageEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntityResponse" name="GetSaleStageEntityResponse" message="tns:GetSaleStageEntityResponse" />
+    <wsdl:operation name="GetCrediteds">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCrediteds" name="GetCreditedsRequest" message="tns:GetCreditedsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCreditedsResponse" name="GetCreditedsResponse" message="tns:GetCreditedsResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSaleType">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleType" name="GetSaleTypeRequest" message="tns:GetSaleTypeRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeResponse" name="GetSaleTypeResponse" message="tns:GetSaleTypeResponse" />
+    <wsdl:operation name="GetCurrency">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrency" name="GetCurrencyRequest" message="tns:GetCurrencyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrencyResponse" name="GetCurrencyResponse" message="tns:GetCurrencyResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSaleTypeEntity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntity" name="GetSaleTypeEntityRequest" message="tns:GetSaleTypeEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntityResponse" name="GetSaleTypeEntityResponse" message="tns:GetSaleTypeEntityResponse" />
+    <wsdl:operation name="GetOurCurrency">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrency" name="GetOurCurrencyRequest" message="tns:GetOurCurrencyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrencyResponse" name="GetOurCurrencyResponse" message="tns:GetOurCurrencyResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSaleTypeList">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeList" name="GetSaleTypeListRequest" message="tns:GetSaleTypeListRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeListResponse" name="GetSaleTypeListResponse" message="tns:GetSaleTypeListResponse" />
+    <wsdl:operation name="ChangeCurrency">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrency" name="ChangeCurrencyRequest" message="tns:ChangeCurrencyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrencyResponse" name="ChangeCurrencyResponse" message="tns:ChangeCurrencyResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetAllSaleType">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleType" name="GetAllSaleTypeRequest" message="tns:GetAllSaleTypeRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleTypeResponse" name="GetAllSaleTypeResponse" message="tns:GetAllSaleTypeResponse" />
+    <wsdl:operation name="GetOwnerCompanysCurrency">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrency" name="GetOwnerCompanysCurrencyRequest" message="tns:GetOwnerCompanysCurrencyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrencyResponse" name="GetOwnerCompanysCurrencyResponse" message="tns:GetOwnerCompanysCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrencyEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrencyEntity" name="GetCurrencyEntityRequest" message="tns:GetCurrencyEntityRequest" />
@@ -12479,26 +12700,6 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeading" name="SetListItemsForHeadingRequest" message="tns:SetListItemsForHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingResponse" name="SetListItemsForHeadingResponse" message="tns:SetListItemsForHeadingResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SetListItemsForHeadingFromListName">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListName" name="SetListItemsForHeadingFromListNameRequest" message="tns:SetListItemsForHeadingFromListNameRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListNameResponse" name="SetListItemsForHeadingFromListNameResponse" message="tns:SetListItemsForHeadingFromListNameResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetHeadingsForListItem">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItem" name="SetHeadingsForListItemRequest" message="tns:SetHeadingsForListItemRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItemResponse" name="SetHeadingsForListItemResponse" message="tns:SetHeadingsForListItemResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnHeadings">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadings" name="SetRankOnHeadingsRequest" message="tns:SetRankOnHeadingsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadingsResponse" name="SetRankOnHeadingsResponse" message="tns:SetRankOnHeadingsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnSaleActivity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivity" name="SetRankOnSaleActivityRequest" message="tns:SetRankOnSaleActivityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivityResponse" name="SetRankOnSaleActivityResponse" message="tns:SetRankOnSaleActivityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnSaleDocument">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocument" name="SetRankOnSaleDocumentRequest" message="tns:SetRankOnSaleDocumentRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocumentResponse" name="SetRankOnSaleDocumentResponse" message="tns:SetRankOnSaleDocumentResponse" />
-    </wsdl:operation>
     <wsdl:operation name="CreateDefaultAmountClassEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultAmountClassEntity" name="CreateDefaultAmountClassEntityRequest" message="tns:CreateDefaultAmountClassEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultAmountClassEntityResponse" name="CreateDefaultAmountClassEntityResponse" message="tns:CreateDefaultAmountClassEntityResponse" />
@@ -12518,6 +12719,14 @@ content_type: reference
     <wsdl:operation name="CreateDefaultTaskMenu">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultTaskMenu" name="CreateDefaultTaskMenuRequest" message="tns:CreateDefaultTaskMenuRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultTaskMenuResponse" name="CreateDefaultTaskMenuResponse" message="tns:CreateDefaultTaskMenuResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTaskMenu">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenu" name="SaveTaskMenuRequest" message="tns:SaveTaskMenuRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenuResponse" name="SaveTaskMenuResponse" message="tns:SaveTaskMenuResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTaskMenu">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenu" name="DeleteTaskMenuRequest" message="tns:DeleteTaskMenuRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenuResponse" name="DeleteTaskMenuResponse" message="tns:DeleteTaskMenuResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultCurrencyEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultCurrencyEntity" name="CreateDefaultCurrencyEntityRequest" message="tns:CreateDefaultCurrencyEntityRequest" />
@@ -12675,9 +12884,29 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultWebPanelEntity" name="CreateDefaultWebPanelEntityRequest" message="tns:CreateDefaultWebPanelEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultWebPanelEntityResponse" name="CreateDefaultWebPanelEntityResponse" message="tns:CreateDefaultWebPanelEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SaveWebPanelEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntity" name="SaveWebPanelEntityRequest" message="tns:SaveWebPanelEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntityResponse" name="SaveWebPanelEntityResponse" message="tns:SaveWebPanelEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetAmountClassEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAmountClassEntity" name="GetAmountClassEntityRequest" message="tns:GetAmountClassEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAmountClassEntityResponse" name="GetAmountClassEntityResponse" message="tns:GetAmountClassEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAllAutomatedCategoryUpdates">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveAllAutomatedCategoryUpdates" name="SaveAllAutomatedCategoryUpdatesRequest" message="tns:SaveAllAutomatedCategoryUpdatesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveAllAutomatedCategoryUpdatesResponse" name="SaveAllAutomatedCategoryUpdatesResponse" message="tns:SaveAllAutomatedCategoryUpdatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAutomatedCategoryUpdates">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllAutomatedCategoryUpdates" name="GetAllAutomatedCategoryUpdatesRequest" message="tns:GetAllAutomatedCategoryUpdatesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllAutomatedCategoryUpdatesResponse" name="GetAllAutomatedCategoryUpdatesResponse" message="tns:GetAllAutomatedCategoryUpdatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNeedCategoryUpdateForSale">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForSale" name="GetNeedCategoryUpdateForSaleRequest" message="tns:GetNeedCategoryUpdateForSaleRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForSaleResponse" name="GetNeedCategoryUpdateForSaleResponse" message="tns:GetNeedCategoryUpdateForSaleResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNeedCategoryUpdateForPerson">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForPerson" name="GetNeedCategoryUpdateForPersonRequest" message="tns:GetNeedCategoryUpdateForPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForPersonResponse" name="GetNeedCategoryUpdateForPersonResponse" message="tns:GetNeedCategoryUpdateForPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBusiness">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetBusiness" name="GetBusinessRequest" message="tns:GetBusinessRequest" />
@@ -12722,14 +12951,6 @@ content_type: reference
     <wsdl:operation name="GetTaskMenu">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTaskMenu" name="GetTaskMenuRequest" message="tns:GetTaskMenuRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTaskMenuResponse" name="GetTaskMenuResponse" message="tns:GetTaskMenuResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveTaskMenu">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenu" name="SaveTaskMenuRequest" message="tns:SaveTaskMenuRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenuResponse" name="SaveTaskMenuResponse" message="tns:SaveTaskMenuResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteTaskMenu">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenu" name="DeleteTaskMenuRequest" message="tns:DeleteTaskMenuRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenuResponse" name="DeleteTaskMenuResponse" message="tns:DeleteTaskMenuResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppTaskMenus">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAppTaskMenus" name="GetAppTaskMenusRequest" message="tns:GetAppTaskMenusRequest" />
@@ -12819,29 +13040,89 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCreditedList" name="GetCreditedListRequest" message="tns:GetCreditedListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCreditedListResponse" name="GetCreditedListResponse" message="tns:GetCreditedListResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetCrediteds">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCrediteds" name="GetCreditedsRequest" message="tns:GetCreditedsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCreditedsResponse" name="GetCreditedsResponse" message="tns:GetCreditedsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetCurrency">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrency" name="GetCurrencyRequest" message="tns:GetCurrencyRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrencyResponse" name="GetCurrencyResponse" message="tns:GetCurrencyResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetOurCurrency">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrency" name="GetOurCurrencyRequest" message="tns:GetOurCurrencyRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrencyResponse" name="GetOurCurrencyResponse" message="tns:GetOurCurrencyResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ChangeCurrency">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrency" name="ChangeCurrencyRequest" message="tns:ChangeCurrencyRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrencyResponse" name="ChangeCurrencyResponse" message="tns:ChangeCurrencyResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetOwnerCompanysCurrency">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrency" name="GetOwnerCompanysCurrencyRequest" message="tns:GetOwnerCompanysCurrencyRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrencyResponse" name="GetOwnerCompanysCurrencyResponse" message="tns:GetOwnerCompanysCurrencyResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_List" type="tns:List">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSaleStageEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntity" style="document" />
+      <wsdl:input name="GetSaleStageEntityRequest">
+        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSaleStageEntityResponse">
+        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleType">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleType" style="document" />
+      <wsdl:input name="GetSaleTypeRequest">
+        <soap:header message="tns:GetSaleTypeRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSaleTypeRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSaleTypeRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSaleTypeResponse">
+        <soap:header message="tns:GetSaleTypeResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSaleTypeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleTypeEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntity" style="document" />
+      <wsdl:input name="GetSaleTypeEntityRequest">
+        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSaleTypeEntityResponse">
+        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleTypeList">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeList" style="document" />
+      <wsdl:input name="GetSaleTypeListRequest">
+        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSaleTypeListResponse">
+        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSaleType">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleType" style="document" />
+      <wsdl:input name="GetAllSaleTypeRequest">
+        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllSaleTypeResponse">
+        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetAllSaleTypeEntities">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleTypeEntities" style="document" />
       <wsdl:input name="GetAllSaleTypeEntitiesRequest">
@@ -13466,22 +13747,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SaveWebPanelEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntity" style="document" />
-      <wsdl:input name="SaveWebPanelEntityRequest">
-        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveWebPanelEntityResponse">
-        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GenerateNavigationUrl">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GenerateNavigationUrl" style="document" />
       <wsdl:input name="GenerateNavigationUrlRequest">
@@ -13575,6 +13840,86 @@ content_type: reference
         <soap:header message="tns:GetWebPanelByProgIdResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetWebPanelByProgIdResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetWebPanelByProgIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetListItemsForHeadingFromListName">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListName" style="document" />
+      <wsdl:input name="SetListItemsForHeadingFromListNameRequest">
+        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetListItemsForHeadingFromListNameResponse">
+        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetHeadingsForListItem">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItem" style="document" />
+      <wsdl:input name="SetHeadingsForListItemRequest">
+        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetHeadingsForListItemResponse">
+        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnHeadings">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadings" style="document" />
+      <wsdl:input name="SetRankOnHeadingsRequest">
+        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetRankOnHeadingsResponse">
+        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnSaleActivity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivity" style="document" />
+      <wsdl:input name="SetRankOnSaleActivityRequest">
+        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetRankOnSaleActivityResponse">
+        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRankOnSaleDocument">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocument" style="document" />
+      <wsdl:input name="SetRankOnSaleDocumentRequest">
+        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetRankOnSaleDocumentResponse">
+        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -14858,83 +15203,83 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetSaleStageEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleStageEntity" style="document" />
-      <wsdl:input name="GetSaleStageEntityRequest">
-        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSaleStageEntityRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetCrediteds">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCrediteds" style="document" />
+      <wsdl:input name="GetCreditedsRequest">
+        <soap:header message="tns:GetCreditedsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCreditedsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCreditedsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetSaleStageEntityResponse">
-        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSaleStageEntityResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetCreditedsResponse">
+        <soap:header message="tns:GetCreditedsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCreditedsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCreditedsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCreditedsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetSaleType">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleType" style="document" />
-      <wsdl:input name="GetSaleTypeRequest">
-        <soap:header message="tns:GetSaleTypeRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSaleTypeRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSaleTypeRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetCurrency">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrency" style="document" />
+      <wsdl:input name="GetCurrencyRequest">
+        <soap:header message="tns:GetCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCurrencyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCurrencyRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetSaleTypeResponse">
-        <soap:header message="tns:GetSaleTypeResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSaleTypeResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetCurrencyResponse">
+        <soap:header message="tns:GetCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCurrencyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCurrencyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetSaleTypeEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeEntity" style="document" />
-      <wsdl:input name="GetSaleTypeEntityRequest">
-        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSaleTypeEntityRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetOurCurrency">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrency" style="document" />
+      <wsdl:input name="GetOurCurrencyRequest">
+        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetSaleTypeEntityResponse">
-        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSaleTypeEntityResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetOurCurrencyResponse">
+        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetSaleTypeList">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetSaleTypeList" style="document" />
-      <wsdl:input name="GetSaleTypeListRequest">
-        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSaleTypeListRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="ChangeCurrency">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrency" style="document" />
+      <wsdl:input name="ChangeCurrencyRequest">
+        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetSaleTypeListResponse">
-        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSaleTypeListResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="ChangeCurrencyResponse">
+        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetAllSaleType">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllSaleType" style="document" />
-      <wsdl:input name="GetAllSaleTypeRequest">
-        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetAllSaleTypeRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetOwnerCompanysCurrency">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrency" style="document" />
+      <wsdl:input name="GetOwnerCompanysCurrencyRequest">
+        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetAllSaleTypeResponse">
-        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetAllSaleTypeResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetOwnerCompanysCurrencyResponse">
+        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -16218,86 +16563,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SetListItemsForHeadingFromListName">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetListItemsForHeadingFromListName" style="document" />
-      <wsdl:input name="SetListItemsForHeadingFromListNameRequest">
-        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetListItemsForHeadingFromListNameRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetListItemsForHeadingFromListNameResponse">
-        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetListItemsForHeadingFromListNameResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetHeadingsForListItem">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetHeadingsForListItem" style="document" />
-      <wsdl:input name="SetHeadingsForListItemRequest">
-        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetHeadingsForListItemRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetHeadingsForListItemResponse">
-        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetHeadingsForListItemResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnHeadings">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnHeadings" style="document" />
-      <wsdl:input name="SetRankOnHeadingsRequest">
-        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetRankOnHeadingsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetRankOnHeadingsResponse">
-        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetRankOnHeadingsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnSaleActivity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleActivity" style="document" />
-      <wsdl:input name="SetRankOnSaleActivityRequest">
-        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetRankOnSaleActivityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetRankOnSaleActivityResponse">
-        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetRankOnSaleActivityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetRankOnSaleDocument">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetRankOnSaleDocument" style="document" />
-      <wsdl:input name="SetRankOnSaleDocumentRequest">
-        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetRankOnSaleDocumentRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetRankOnSaleDocumentResponse">
-        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetRankOnSaleDocumentResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="CreateDefaultAmountClassEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/CreateDefaultAmountClassEntity" style="document" />
       <wsdl:input name="CreateDefaultAmountClassEntityRequest">
@@ -16375,6 +16640,38 @@ content_type: reference
         <soap:header message="tns:CreateDefaultTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CreateDefaultTaskMenuResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CreateDefaultTaskMenuResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTaskMenu">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenu" style="document" />
+      <wsdl:input name="SaveTaskMenuRequest">
+        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveTaskMenuResponse">
+        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTaskMenu">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenu" style="document" />
+      <wsdl:input name="DeleteTaskMenuRequest">
+        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteTaskMenuResponse">
+        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -17002,6 +17299,22 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SaveWebPanelEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveWebPanelEntity" style="document" />
+      <wsdl:input name="SaveWebPanelEntityRequest">
+        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveWebPanelEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveWebPanelEntityResponse">
+        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveWebPanelEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetAmountClassEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAmountClassEntity" style="document" />
       <wsdl:input name="GetAmountClassEntityRequest">
@@ -17015,6 +17328,70 @@ content_type: reference
         <soap:header message="tns:GetAmountClassEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetAmountClassEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetAmountClassEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAllAutomatedCategoryUpdates">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveAllAutomatedCategoryUpdates" style="document" />
+      <wsdl:input name="SaveAllAutomatedCategoryUpdatesRequest">
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveAllAutomatedCategoryUpdatesResponse">
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveAllAutomatedCategoryUpdatesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAutomatedCategoryUpdates">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllAutomatedCategoryUpdates" style="document" />
+      <wsdl:input name="GetAllAutomatedCategoryUpdatesRequest">
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllAutomatedCategoryUpdatesResponse">
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllAutomatedCategoryUpdatesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNeedCategoryUpdateForSale">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForSale" style="document" />
+      <wsdl:input name="GetNeedCategoryUpdateForSaleRequest">
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetNeedCategoryUpdateForSaleResponse">
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForSaleResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNeedCategoryUpdateForPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetNeedCategoryUpdateForPerson" style="document" />
+      <wsdl:input name="GetNeedCategoryUpdateForPersonRequest">
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetNeedCategoryUpdateForPersonResponse">
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetNeedCategoryUpdateForPersonResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -17191,38 +17568,6 @@ content_type: reference
         <soap:header message="tns:GetTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetTaskMenuResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetTaskMenuResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveTaskMenu">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SaveTaskMenu" style="document" />
-      <wsdl:input name="SaveTaskMenuRequest">
-        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveTaskMenuRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveTaskMenuResponse">
-        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveTaskMenuResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteTaskMenu">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/DeleteTaskMenu" style="document" />
-      <wsdl:input name="DeleteTaskMenuRequest">
-        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteTaskMenuRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteTaskMenuResponse">
-        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteTaskMenuResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -17575,86 +17920,6 @@ content_type: reference
         <soap:header message="tns:GetCreditedListResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCreditedListResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCreditedListResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCrediteds">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCrediteds" style="document" />
-      <wsdl:input name="GetCreditedsRequest">
-        <soap:header message="tns:GetCreditedsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCreditedsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCreditedsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCreditedsResponse">
-        <soap:header message="tns:GetCreditedsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCreditedsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCreditedsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCreditedsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCurrency">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetCurrency" style="document" />
-      <wsdl:input name="GetCurrencyRequest">
-        <soap:header message="tns:GetCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCurrencyRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCurrencyRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCurrencyResponse">
-        <soap:header message="tns:GetCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCurrencyResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCurrencyResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetOurCurrency">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOurCurrency" style="document" />
-      <wsdl:input name="GetOurCurrencyRequest">
-        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetOurCurrencyRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetOurCurrencyResponse">
-        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetOurCurrencyResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ChangeCurrency">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ChangeCurrency" style="document" />
-      <wsdl:input name="ChangeCurrencyRequest">
-        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:ChangeCurrencyRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="ChangeCurrencyResponse">
-        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:ChangeCurrencyResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetOwnerCompanysCurrency">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetOwnerCompanysCurrency" style="document" />
-      <wsdl:input name="GetOwnerCompanysCurrencyRequest">
-        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetOwnerCompanysCurrencyRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetOwnerCompanysCurrencyResponse">
-        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetOwnerCompanysCurrencyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

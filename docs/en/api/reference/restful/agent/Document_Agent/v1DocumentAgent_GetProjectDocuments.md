@@ -95,57 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 612,
-  "StartTime": "2015-06-06T02:30:47.0850878+02:00",
-  "EndTime": "1999-05-22T02:30:47.0850878+02:00",
-  "Count": 565
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 610,
-    "Attention": "eos",
-    "Header": "consectetur",
-    "Name": "McLaughlin Inc and Sons",
-    "OurRef": "maiores",
-    "YourRef": "omnis",
-    "Description": "Organic user-facing leverage",
-    "DocumentTemplate": "maxime",
-    "IsPublished": false,
-    "PersonId": 407,
-    "PersonFullName": "Favian Schneider",
-    "AssociateFullName": "Markus Wolff",
-    "ContactId": 63,
-    "ContactName": "Runolfsdottir Inc and Sons",
-    "ProjectId": 405,
-    "ProjectName": "Sipes-Jerde",
-    "AssociateId": 855,
-    "Snum": 54,
-    "SaleId": 602,
-    "SaleName": "Watsica Inc and Sons",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectDocuments.md)]

@@ -74,48 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetDashTileHtmlList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 226
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetDashTileHtmlList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageCode": "maiores",
-    "Html": "vel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
-      }
-    }
-  },
-  {
-    "LanguageCode": "maiores",
-    "Html": "vel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetDashTileHtmlList.md)]

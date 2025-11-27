@@ -86,53 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 32
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 485,
-  "ErpConnectorId": 353,
-  "DisplayName": "Grady, Schimmel and O'Reilly",
-  "DisplayDescription": "Proactive bifurcated monitoring",
-  "Active": false,
-  "ConnectionId": "ut",
-  "MostRecentTimestamp": "molestias",
-  "ConfigFields": {
-    "ConfigFields1": "officia",
-    "ConfigFields2": "dolor"
-  },
-  "Deleted": false,
-  "AllAccess": true,
-  "UserGroupAccessIds": [
-    86,
-    882
-  ],
-  "AssociateAccessIds": [
-    108,
-    468
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetConnection.md)]

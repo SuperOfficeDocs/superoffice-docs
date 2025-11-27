@@ -104,75 +104,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/WebPanel/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 496,
-  "Name": "Schneider, Stark and Kuphal",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 388,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wisoky-Schaden",
-  "Url": "http://www.example.com/",
-  "ProgId": "iste",
-  "Icon": 860,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_PostWebPanelEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 486,
-  "Name": "Moore LLC",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 617,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Schneider LLC",
-  "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 388,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_PostWebPanelEntity.md)]

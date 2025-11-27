@@ -990,14 +990,15 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -1056,11 +1057,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/description|string|Description: Description of the quote version| x |
 |sale/quote/version/number|string|Number: Reference number for the quote version| x |
 |sale/quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
-|sale/quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
 |sale/quote/version/state|listAny|State: The current state the quote is in| x |
 |sale/quote/version/status|listAny|Quote status: Status field showing the status of each line.| x |
 |sale/quote/version/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
@@ -1148,7 +1149,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=hasInfoText,category,personSourceRelation/personActiveErpLinks,personTargetRelation/personCategoryRank,personAssociate/usergroupId
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=birthDay,personSourceRelation/hasInterests,personTargetRelation/personNoMail,personTargetRelation/personPersonRelation,url/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

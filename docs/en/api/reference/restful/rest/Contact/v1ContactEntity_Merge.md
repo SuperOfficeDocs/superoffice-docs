@@ -35,7 +35,7 @@ The destination contact will remain.
 
 ```http
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdenticalPersons=False
-POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=False
+POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
 ```
 
 
@@ -62,18 +62,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_Merge.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_Merge.md)]

@@ -71,29 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/FindRolesWithFunctionalRights
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FunctionalRightNames": [
-    "Stanton-Connelly",
-    "Abbott Inc and Sons"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_FindRolesWithFunctionalRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  25,
-  428
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_FindRolesWithFunctionalRights.md)]

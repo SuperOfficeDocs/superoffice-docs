@@ -74,34 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetRelatedData2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Table": "earum",
-  "RecordId": 349,
-  "Fields": "est"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetRelatedData2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Field": "fugiat",
-    "FieldValue": null
-  },
-  {
-    "Field": "fugiat",
-    "FieldValue": null
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetRelatedData2.md)]

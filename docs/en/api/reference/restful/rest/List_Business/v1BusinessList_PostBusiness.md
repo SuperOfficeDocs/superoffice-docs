@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Business/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 711,
-  "Name": "Turcotte-Purdy",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "UdListDefinitionId": 973,
-  "Rank": 286
-}
-```
+[!include[sample request](../../samples/rest/request/v1BusinessList_PostBusiness.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 519,
-  "Name": "Koss LLC",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 830,
-  "Rank": 685,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1BusinessList_PostBusiness.md)]

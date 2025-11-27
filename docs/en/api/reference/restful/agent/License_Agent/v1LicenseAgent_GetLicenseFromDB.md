@@ -75,41 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetLicenseFromDB
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerName": "Gulgowski, Hauck and Sawayn"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetLicenseFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "CanBeActivated": false,
-  "New": null,
-  "Current": null,
-  "ExtendedModuleLicenses": [
-    {
-      "New": null,
-      "Current": null,
-      "NumberOfLicensesInUse": 669,
-      "NumberOfLicensesFree": 662,
-      "NumberOfLicensesAdded": 81,
-      "NumberOfLicensesNewTotal": 829,
-      "NumberOfLicensesNewFree": 745,
-      "NumberOfLicensesTotal": 608
-    }
-  ],
-  "AccumulatedNextCheckDate": "2019-09-29T02:30:47.366331+02:00"
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetLicenseFromDB.md)]

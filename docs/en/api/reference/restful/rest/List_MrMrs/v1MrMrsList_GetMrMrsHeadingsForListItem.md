@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_GetMrMrsHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 649,
-    "Name": "Farrell, Zieme and Heller",
-    "ToolTip": "Facilis rerum ratione minima aut.",
-    "Deleted": true,
-    "Rank": 909,
-    "Type": "soluta",
-    "ColorBlock": 762,
-    "IconHint": "ipsa",
-    "Selected": false,
-    "LastChanged": "2018-03-22T02:30:53.3192639+01:00",
-    "ChildItems": [
-      {
-        "Id": 68,
-        "Name": "Little-Rice",
-        "ToolTip": "Dolorem minima pariatur asperiores esse nesciunt consequatur est.",
-        "Deleted": true,
-        "Rank": 395,
-        "Type": "dignissimos",
-        "ColorBlock": 395,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2012-03-15T02:30:53.3192639+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Danial Watsica",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 229
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Adah Torp",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 602
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_GetMrMrsHeadingsForListItem.md)]

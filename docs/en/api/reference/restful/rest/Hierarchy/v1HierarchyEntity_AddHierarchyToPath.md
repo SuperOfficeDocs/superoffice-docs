@@ -71,61 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Hierarchy/{domain}/{path}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1HierarchyEntity_AddHierarchyToPath.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 265,
-  "Domain": "Dashboards",
-  "Name": "Harvey, Bergstrom and Pouros",
-  "Fullname": "cum",
-  "ParentId": 110,
-  "Children": [
-    {
-      "HierarchyId": 640,
-      "Domain": "Dashboards",
-      "Name": "Ebert, King and Kling",
-      "Fullname": "officiis",
-      "ParentId": 517,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2006-12-07T02:30:52.6630355+01:00",
-      "RegisteredAssociateId": 419,
-      "Updated": "2016-04-15T02:30:52.6630355+02:00",
-      "UpdatedAssociateId": 952,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
-        }
-      }
-    }
-  ],
-  "Registered": "2002-09-28T02:30:52.6630355+02:00",
-  "RegisteredAssociateId": 799,
-  "Updated": "2022-03-24T02:30:52.6630355+01:00",
-  "UpdatedAssociateId": 171,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1HierarchyEntity_AddHierarchyToPath.md)]

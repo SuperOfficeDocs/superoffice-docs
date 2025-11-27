@@ -69,41 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Webhook/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Webhook_DefaultWebhook.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebhookId": 993,
-  "Name": "Koelpin LLC",
-  "Events": [
-    "excepturi",
-    "totam"
-  ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "adipisci",
-  "State": "Active",
-  "Type": "velit",
-  "Headers": {
-    "Headers1": "sapiente",
-    "Headers2": "ipsa"
-  },
-  "Properties": {
-    "fieldName": {}
-  },
-  "Registered": "2001-02-12T02:30:53.1786436+01:00",
-  "RegisteredAssociate": null,
-  "Updated": "2001-01-27T02:30:53.1786436+01:00",
-  "UpdatedAssociate": null,
-  "ErrorsEmail": "presley@kemmer.info"
-}
-```
+[!include[sample response](../../samples/rest/response/v1Webhook_DefaultWebhook.md)]

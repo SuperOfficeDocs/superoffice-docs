@@ -78,46 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 356,
-  "Select": "non"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetSelectionShadowMembersArchiveRows.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EntityName": "Daugherty-Kunze",
-    "PrimaryKey": 553,
-    "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "recusandae",
-        "TooltipHint": "est",
-        "LinkHint": "amet"
-      }
-    },
-    "LinkHint": "incidunt",
-    "StyleHint": "possimus",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetSelectionShadowMembersArchiveRows.md)]

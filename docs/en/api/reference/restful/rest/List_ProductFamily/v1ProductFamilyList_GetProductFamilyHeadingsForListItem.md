@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_GetProductFamilyHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 501,
-    "Name": "Howe LLC",
-    "ToolTip": "Soluta repellat.",
-    "Deleted": false,
-    "Rank": 394,
-    "Type": "ut",
-    "ColorBlock": 33,
-    "IconHint": "illo",
-    "Selected": false,
-    "LastChanged": "2004-06-13T02:30:53.3661371+02:00",
-    "ChildItems": [
-      {
-        "Id": 750,
-        "Name": "Larson, Lehner and Stanton",
-        "ToolTip": "Rem assumenda enim blanditiis.",
-        "Deleted": false,
-        "Rank": 752,
-        "Type": "eveniet",
-        "ColorBlock": 93,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2015-12-05T02:30:53.3661371+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Brielle Morissette",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 930
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "error",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Jerel Haag",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 788
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_GetProductFamilyHeadingsForListItem.md)]

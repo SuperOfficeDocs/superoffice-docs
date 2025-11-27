@@ -82,61 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CRMScriptIncludeId": "unde"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_ValidateScriptByIncludeId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": false,
-  "ErrorMessage": "non",
-  "LineNumber": 530,
-  "ErrorInformation": null,
-  "Transpiled": "accusamus",
-  "Includes": [
-    281,
-    423
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 519,
-      "LineNumberTo": 822,
-      "Delta": 958,
-      "IncludeId": "nisi",
-      "IncludedFrom": [
-        "et",
-        "aliquid"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_ValidateScriptByIncludeId.md)]

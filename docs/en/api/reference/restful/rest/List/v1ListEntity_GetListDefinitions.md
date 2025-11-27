@@ -71,39 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_GetListDefinitions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 794,
-    "Name": "Rosenbaum-Ankunding",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 458,
-    "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "qui",
-    "InUseByUserDefinedFields": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 863
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_GetListDefinitions.md)]

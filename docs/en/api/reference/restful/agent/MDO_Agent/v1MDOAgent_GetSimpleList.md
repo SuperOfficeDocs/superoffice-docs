@@ -83,72 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetSimpleList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Lakin, Lowe and Zemlak"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetSimpleList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 160,
-    "Name": "Waelchi-Simonis",
-    "ToolTip": "Aut perferendis voluptates et nihil non.",
-    "Deleted": false,
-    "Rank": 561,
-    "Type": "natus",
-    "ChildItems": [
-      {
-        "Id": 890,
-        "Name": "Eichmann-Wiegand",
-        "ToolTip": "Qui ut fugit dolorem sed iure.",
-        "Deleted": false,
-        "Rank": 589,
-        "Type": "quia",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 427,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "magnam",
-        "FullName": "Mrs. Macy Tyrell Jast",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 778
-          }
-        }
-      }
-    ],
-    "IconHint": "non",
-    "ColorBlock": 821,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatibus",
-    "FullName": "Parker Bode",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetSimpleList.md)]

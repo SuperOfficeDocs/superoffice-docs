@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetConnectionConfigFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 145
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetConnectionConfigFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "amet",
-  "2": "numquam"
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetConnectionConfigFields.md)]

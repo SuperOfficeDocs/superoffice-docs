@@ -67,47 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetDuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetDuplicateRules.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Heaney, Mitchell and Goyette",
-    "DisplayName": "Stracke Group",
-    "DisplayTooltip": "aperiam",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
-      }
-    }
-  },
-  {
-    "Name": "Heaney, Mitchell and Goyette",
-    "DisplayName": "Stracke Group",
-    "DisplayTooltip": "aperiam",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetDuplicateRules.md)]

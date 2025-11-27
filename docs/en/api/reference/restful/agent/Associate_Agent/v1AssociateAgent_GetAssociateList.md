@@ -82,49 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Associate/GetAssociateList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1AssociateAgent_GetAssociateList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AssociateId": 890,
-    "Name": "Jenkins Inc and Sons",
-    "PersonId": 510,
-    "Rank": 36,
-    "Tooltip": "itaque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 766,
-    "FullName": "Hillary Bechtelar",
-    "FormalName": "Kris-Moore",
-    "Deleted": true,
-    "EjUserId": 662,
-    "UserName": "Kertzmann-Price",
-    "ExtraFields": {
-      "ExtraFields1": "nihil",
-      "ExtraFields2": "consequatur"
-    },
-    "CustomFields": {
-      "CustomFields1": "aut",
-      "CustomFields2": "culpa"
-    },
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AssociateAgent_GetAssociateList.md)]

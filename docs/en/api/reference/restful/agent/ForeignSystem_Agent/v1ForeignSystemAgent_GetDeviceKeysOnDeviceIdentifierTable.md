@@ -82,45 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Koss, Monahan and McLaughlin",
-  "DeviceName": "Strosin-Farrell",
-  "DeviceIdentifier": "porro",
-  "TableName": "Hackett Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Key": "sit",
-    "Value": "maiores",
-    "RecordId": 549,
-    "CreatedDate": "2012-02-27T02:30:47.366331+01:00",
-    "UpdatedDate": "2023-10-10T02:30:47.366331+02:00",
-    "UpdatedBy": "maxime",
-    "CreatedBy": "placeat",
-    "TableName": "Boehm, McLaughlin and Quitzon",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable.md)]

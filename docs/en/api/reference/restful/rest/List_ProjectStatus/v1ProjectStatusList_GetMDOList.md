@@ -28,7 +28,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=ea
+GET /api/v1/List/ProjectStatus/MDOItems?query=omnis
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectStatus/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 440,
-    "Name": "Lowe LLC",
-    "ToolTip": "Odit tempora.",
-    "Deleted": false,
-    "Rank": 319,
-    "Type": "pariatur",
-    "ChildItems": [
-      {
-        "Id": 209,
-        "Name": "Hickle Group",
-        "ToolTip": "Autem qui quis ab dolor fugit optio.",
-        "Deleted": true,
-        "Rank": 689,
-        "Type": "quis",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "ipsa",
-        "ColorBlock": 568,
-        "ExtraInfo": "possimus",
-        "StyleHint": "laborum",
-        "FullName": "Lexi Heaney",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 59
-          }
-        }
-      }
-    ],
-    "IconHint": "necessitatibus",
-    "ColorBlock": 425,
-    "ExtraInfo": "rem",
-    "StyleHint": "ipsam",
-    "FullName": "Miss Willard Vesta Kihn Jr.",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 37
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_GetMDOList.md)]

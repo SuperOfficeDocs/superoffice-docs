@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Priority/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_CreateDefaultPriority.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 995,
-  "Name": "Champlin-Lind",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "UdListDefinitionId": 943,
-  "Rank": 957,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 83
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_CreateDefaultPriority.md)]

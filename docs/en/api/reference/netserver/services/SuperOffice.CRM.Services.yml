@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Services.AttachmentValidationResult
   - SuperOffice.CRM.Services.AudienceConfigParameter
   - SuperOffice.CRM.Services.AudienceLayoutEntity
+  - SuperOffice.CRM.Services.AutomatedCategoryUpdate
   - SuperOffice.CRM.Services.BLOBAgent
   - SuperOffice.CRM.Services.Batch
   - SuperOffice.CRM.Services.BatchAgent
@@ -90,6 +91,9 @@ items:
   - SuperOffice.CRM.Services.ContactRelationEntity
   - SuperOffice.CRM.Services.ContactSummary
   - SuperOffice.CRM.Services.ControlInfo
+  - SuperOffice.CRM.Services.CopilotDataSourceEntity
+  - SuperOffice.CRM.Services.CopilotDataSourceSetting
+  - SuperOffice.CRM.Services.CopilotEntity
   - SuperOffice.CRM.Services.Country
   - SuperOffice.CRM.Services.CreateSystemMessageList
   - SuperOffice.CRM.Services.Credential
@@ -214,6 +218,7 @@ items:
   - SuperOffice.CRM.Services.ForeignDevice
   - SuperOffice.CRM.Services.ForeignKey
   - SuperOffice.CRM.Services.ForeignSystemAgent
+  - SuperOffice.CRM.Services.FormDesignCarrier
   - SuperOffice.CRM.Services.FormEntity
   - SuperOffice.CRM.Services.FormSubmissionEntity
   - SuperOffice.CRM.Services.FreeText
@@ -1234,6 +1239,13 @@ references:
   name: AudienceLayoutEntity
   nameWithType: AudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
+- uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  commentId: T:SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  isExternal: true
+  href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  name: AutomatedCategoryUpdate
+  nameWithType: AutomatedCategoryUpdate
+  fullName: SuperOffice.CRM.Services.AutomatedCategoryUpdate
 - uid: SuperOffice.CRM.Services.Batch
   commentId: T:SuperOffice.CRM.Services.Batch
   isExternal: true
@@ -1573,6 +1585,29 @@ references:
   name: ControlInfo
   nameWithType: ControlInfo
   fullName: SuperOffice.CRM.Services.ControlInfo
+- uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+  commentId: T:SuperOffice.CRM.Services.CopilotDataSourceEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceEntity.html
+  name: CopilotDataSourceEntity
+  nameWithType: CopilotDataSourceEntity
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceEntity
+- uid: SuperOffice.CRM.Services.CopilotDataSourceSetting
+  commentId: T:SuperOffice.CRM.Services.CopilotDataSourceSetting
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotDataSourceSetting.html
+  name: CopilotDataSourceSetting
+  nameWithType: CopilotDataSourceSetting
+  fullName: SuperOffice.CRM.Services.CopilotDataSourceSetting
+- uid: SuperOffice.CRM.Services.CopilotEntity
+  commentId: T:SuperOffice.CRM.Services.CopilotEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CopilotEntity.html
+  name: CopilotEntity
+  nameWithType: CopilotEntity
+  fullName: SuperOffice.CRM.Services.CopilotEntity
 - uid: SuperOffice.CRM.Services.Country
   commentId: T:SuperOffice.CRM.Services.Country
   parent: SuperOffice.CRM.Services
@@ -2433,6 +2468,13 @@ references:
   name: ForeignKey
   nameWithType: ForeignKey
   fullName: SuperOffice.CRM.Services.ForeignKey
+- uid: SuperOffice.CRM.Services.FormDesignCarrier
+  commentId: T:SuperOffice.CRM.Services.FormDesignCarrier
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormDesignCarrier.html
+  name: FormDesignCarrier
+  nameWithType: FormDesignCarrier
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier
 - uid: SuperOffice.CRM.Services.FormEntity
   commentId: T:SuperOffice.CRM.Services.FormEntity
   parent: SuperOffice.CRM.Services

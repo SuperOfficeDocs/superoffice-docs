@@ -111,51 +111,8 @@ DashTile  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/DashTile/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "est",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "est",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DashTile_PatchDashTile.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTile  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileId": 81,
-  "DashboardId": 734,
-  "Height": 692,
-  "Width": 130,
-  "Rank": 381,
-  "DashTileDefinition": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTile_PatchDashTile.md)]

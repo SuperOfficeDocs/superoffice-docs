@@ -87,44 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "Anonymous"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_CreateDefaultRoleEntityFromType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 834,
-  "Name": "Jacobi-Armstrong",
-  "Tooltip": "vel",
-  "RoleType": "Anonymous",
-  "Deleted": 854,
-  "Rank": 329,
-  "Created": "2022-05-26T02:30:48.0850579+02:00",
-  "UseCategories": 387,
-  "CreatedBy": null,
-  "Updated": "2025-02-07T02:30:48.0850579+01:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 903
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_CreateDefaultRoleEntityFromType.md)]

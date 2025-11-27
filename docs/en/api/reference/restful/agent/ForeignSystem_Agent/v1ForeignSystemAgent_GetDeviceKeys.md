@@ -80,43 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Tromp, Becker and Stroman",
-  "DeviceName": "Deckow, Collier and Ledner"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceKeys.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Key": "voluptatem",
-    "Value": "dicta",
-    "RecordId": 643,
-    "CreatedDate": "2007-03-04T02:30:47.366331+01:00",
-    "UpdatedDate": "2000-12-15T02:30:47.366331+01:00",
-    "UpdatedBy": "occaecati",
-    "CreatedBy": "voluptas",
-    "TableName": "McDermott Inc and Sons",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 184
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceKeys.md)]

@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 304,
-    "Name": "Langosh Group",
-    "ToolTip": "Rerum et sunt.",
-    "Deleted": false,
-    "Rank": 838,
-    "Type": "sint",
-    "ColorBlock": 504,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2008-05-02T02:30:53.288015+02:00",
-    "ChildItems": [
-      {
-        "Id": 166,
-        "Name": "Jaskolski LLC",
-        "ToolTip": "Voluptatem fuga.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "nam",
-        "ColorBlock": 781,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2020-09-27T02:30:53.288015+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Abbey Kunde",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 672
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Miss Ewell Fahey DVM",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem.md)]

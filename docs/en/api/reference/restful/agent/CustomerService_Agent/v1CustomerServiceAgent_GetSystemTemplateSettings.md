@@ -84,48 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetSystemTemplateSettings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CustomerNewCustomerTemplateId": 72,
-  "CustomerCustomerReplyTemplateId": 266,
-  "CustomerPasswordTemplateId": 329,
-  "CustomerConfirmEmailTemplateId": 243,
-  "CustomerChatLogTemplateId": 813,
-  "NewLinkTemplateId": 292,
-  "HotlistNewMessageTemplateId": 601,
-  "HotlistTicketActivatedTemplateId": 875,
-  "UserTicketAlarmTemplateId": 973,
-  "HotlistTicketTakenOverTemplateId": 748,
-  "UserActiveTicketsTemplateId": 491,
-  "UserNewMessageTemplateId": 701,
-  "UserTicketActivatedTemplateId": 471,
-  "UserNewTicketTemplateId": 220,
-  "PublishKbQuestionTemplateId": 887,
-  "PublishKbAnswerTemplateId": 453,
-  "UserTicketTakenOverTemplateId": 715,
-  "PrintTicketTemplateId": 500,
-  "WeekStatTemplateId": 11,
-  "TicketAlarmHotlistTemplateId": 481,
-  "EmailAddresses": "monte_keebler@ankunding.ca",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetSystemTemplateSettings.md)]

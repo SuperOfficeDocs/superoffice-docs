@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_GetReasonSoldHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 855,
-    "Name": "Boehm, Corkery and Mitchell",
-    "ToolTip": "In quo sit voluptatem.",
-    "Deleted": false,
-    "Rank": 724,
-    "Type": "corporis",
-    "ColorBlock": 566,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "2012-04-06T02:30:53.4286352+02:00",
-    "ChildItems": [
-      {
-        "Id": 246,
-        "Name": "Bernier-Murray",
-        "ToolTip": "Eveniet aliquam quam reiciendis id voluptates ipsa tenetur.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "officiis",
-        "ColorBlock": 57,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2025-10-17T02:30:53.4286352+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Pedro Will",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 386
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "harum",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Miss Mikayla Garland Pouros II",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 748
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_GetReasonSoldHeadingsForListItem.md)]

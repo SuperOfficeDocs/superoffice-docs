@@ -91,57 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Task/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 862,
-  "Value": "vero",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "IntentId": 408,
-  "Rank": 785,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange"
-}
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_PutTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 109,
-  "Value": "quod",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "IntentId": 359,
-  "Rank": 33,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_PutTaskListItem.md)]

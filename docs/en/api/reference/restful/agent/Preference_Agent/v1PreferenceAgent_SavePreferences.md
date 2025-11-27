@@ -64,37 +64,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferences
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Preferences": [
-    {
-      "Level": "Database",
-      "RawValue": "ut",
-      "Specification": null,
-      "DisplayValue": "odit",
-      "DisplayTooltip": "saepe",
-      "DisplayType": "Bool",
-      "TabOrder": null,
-      "TargetId": 744,
-      "PrefDescId": 944,
-      "TableName": "Effertz, Tremblay and O'Hara",
-      "UserPreferenceId": 567
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferences.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferences.md)]

@@ -321,18 +321,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
-|appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |appointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |appointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
@@ -534,11 +535,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
@@ -573,7 +574,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=email/emailLastSent,streetAddress/line1,sourceRelation/updatedByFullName,sale/saleUdef/SuperOffice:8,appointment/booking
+GET /api/v1/archive/DummySelectionContact?$select=searchPhone/formattedNumber,LastCompletedActivity,targetRelation/code,sale/associate/firstName,sale/associate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

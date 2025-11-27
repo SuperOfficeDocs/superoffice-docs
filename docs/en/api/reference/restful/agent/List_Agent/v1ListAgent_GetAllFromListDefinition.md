@@ -78,41 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 442,
-  "IncludeDeleted": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 541,
-    "Name": "Raynor, Kautzer and Mosciski",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 840,
-    "Rank": 553,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllFromListDefinition.md)]

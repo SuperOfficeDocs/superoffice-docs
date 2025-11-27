@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Ticket/{ticketEntityId}/Attachments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1TicketEntity_GetTicketAttachments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 453,
-    "Name": "Bahringer-O'Conner",
-    "ContentType": "placeat",
-    "AttSize": 535,
-    "InlineImage": true,
-    "ContentId": "laboriosam",
-    "AuthKey": "eveniet",
-    "IsSafeFileExtension": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketEntity_GetTicketAttachments.md)]

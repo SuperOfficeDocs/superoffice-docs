@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteApproveReason/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_GetQuoteApproveReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 989,
-  "Name": "Berge, Lesch and Rice",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "UdListDefinitionId": 851,
-  "Rank": 66,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_GetQuoteApproveReason.md)]

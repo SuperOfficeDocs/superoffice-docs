@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CompetitorList_GetCompetitorUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 798,
-    "Name": "Lowe-Kiehn",
-    "ToolTip": "Ut velit iure voluptas est.",
-    "Deleted": false,
-    "Rank": 627,
-    "Type": "perferendis",
-    "ColorBlock": 272,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2011-07-22T02:30:53.2255171+02:00",
-    "ChildItems": [
-      {
-        "Id": 30,
-        "Name": "Simonis-Kub",
-        "ToolTip": "Exercitationem cupiditate error natus.",
-        "Deleted": false,
-        "Rank": 368,
-        "Type": "animi",
-        "ColorBlock": 997,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "2012-12-12T02:30:53.2255171+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "sint",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Claudie Alexanne Hand Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 702
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Janie Windler",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 598
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CompetitorList_GetCompetitorUserGroupsForListItem.md)]

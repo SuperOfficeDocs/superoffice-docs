@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_GetLegalBaseUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 28,
-    "Name": "Willms, Bradtke and Mosciski",
-    "ToolTip": "Nobis nihil nemo soluta recusandae beatae assumenda.",
-    "Deleted": false,
-    "Rank": 658,
-    "Type": "quas",
-    "ColorBlock": 367,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2008-08-15T02:30:53.3036395+02:00",
-    "ChildItems": [
-      {
-        "Id": 65,
-        "Name": "Marvin LLC",
-        "ToolTip": "Optio quam qui ex error tempore quia eos.",
-        "Deleted": false,
-        "Rank": 623,
-        "Type": "vel",
-        "ColorBlock": 897,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2012-07-26T02:30:53.3036395+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Arden Dickens Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 46
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "vero",
-    "StyleHint": "numquam",
-    "Hidden": true,
-    "FullName": "Miss Laverna Karlie Moen",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_GetLegalBaseUserGroupsForListItem.md)]

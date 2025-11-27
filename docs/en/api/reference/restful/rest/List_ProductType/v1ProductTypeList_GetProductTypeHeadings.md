@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetProductTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 877,
-    "Name": "Rowe, Bednar and Ernser",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 621,
-    "UdListDefinitionId": 28,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 424
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetProductTypeHeadings.md)]

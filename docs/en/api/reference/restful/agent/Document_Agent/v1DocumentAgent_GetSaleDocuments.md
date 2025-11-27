@@ -92,54 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetSaleDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 652
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetSaleDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 720,
-    "Attention": "sed",
-    "Header": "quam",
-    "Name": "Aufderhar-VonRueden",
-    "OurRef": "cumque",
-    "YourRef": "nesciunt",
-    "Description": "Ergonomic analyzing process improvement",
-    "DocumentTemplate": "in",
-    "IsPublished": false,
-    "PersonId": 264,
-    "PersonFullName": "Prof. Pamela Columbus Hickle DDS",
-    "AssociateFullName": "Erna Marks",
-    "ContactId": 65,
-    "ContactName": "Schneider Inc and Sons",
-    "ProjectId": 969,
-    "ProjectName": "Stiedemann, Willms and Littel",
-    "AssociateId": 336,
-    "Snum": 581,
-    "SaleId": 354,
-    "SaleName": "Harber, Kling and Morar",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetSaleDocuments.md)]

@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 910
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetBlobEntityOnContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 100,
-  "BlobSize": 701,
-  "Description": "Profit-focused zero tolerance moratorium",
-  "ExtraInfo": "nihil",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 514,
-  "CreatedDate": "2013-09-30T02:30:46.8350962+02:00",
-  "UpdatedDate": "2002-09-29T02:30:46.8350962+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "nam",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetBlobEntityOnContact.md)]

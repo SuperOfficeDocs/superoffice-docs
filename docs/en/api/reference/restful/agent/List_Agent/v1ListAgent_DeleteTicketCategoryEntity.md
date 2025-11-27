@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | ticketCategoryEntityId | int32 | **Required** The identity of the TicketCategoryEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity?ticketCategoryEntityId=346
+POST /api/v1/Agents/List/DeleteTicketCategoryEntity?ticketCategoryEntityId=223
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_DeleteTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_DeleteTicketCategoryEntity.md)]

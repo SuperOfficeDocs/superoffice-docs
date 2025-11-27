@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveHeadingFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 78,
-  "Entity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveHeadingFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 143,
-  "Name": "Cassin-Kuhic",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 405,
-  "UdListDefinitionId": 85,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveHeadingFromListDefinition.md)]

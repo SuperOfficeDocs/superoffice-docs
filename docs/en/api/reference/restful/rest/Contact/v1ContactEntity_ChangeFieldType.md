@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -101,61 +101,8 @@ ContactEntity found.
 
 ## Sample request
 
-```http!
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_ChangeFieldType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 634,
-  "ColumnId": 757,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 764,
-  "FieldLabel": "omnis",
-  "FieldLeft": 561,
-  "FieldTop": 753,
-  "FieldType": "Checkbox",
-  "FieldWidth": 837,
-  "FormatMask": "minima",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 654,
-  "LabelLeft": 41,
-  "LabelTop": 416,
-  "LabelWidth": 281,
-  "LastVersionId": 695,
-  "ListTableId": 678,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 770,
-  "ProgId": "ea",
-  "IsReadOnly": false,
-  "ShortLabel": "ipsam",
-  "TabOrder": 331,
-  "TextLength": 369,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 574,
-  "UDListDefinitionId": 336,
-  "Justification": "Center",
-  "Version": 338,
-  "TemplateVariableName": "Herman Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Welch, Cassin and Lehner",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_ChangeFieldType.md)]

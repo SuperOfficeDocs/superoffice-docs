@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 199,
-  "StartTime": "2003-03-31T02:30:47.0694635+02:00",
-  "EndTime": "2003-12-11T02:30:47.0694635+01:00",
-  "Count": 929,
-  "DocumentTemplateId": 72
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetContactDocumentsByTemplateType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 277,
-    "Attention": "voluptas",
-    "Header": "ipsum",
-    "Name": "Ortiz LLC",
-    "OurRef": "qui",
-    "YourRef": "dolor",
-    "Description": "Configurable real-time capacity",
-    "DocumentTemplate": "officia",
-    "IsPublished": false,
-    "PersonId": 65,
-    "PersonFullName": "Prof. Braulio Rebekah Schoen",
-    "AssociateFullName": "Linnie Roob",
-    "ContactId": 826,
-    "ContactName": "Hauck Group",
-    "ProjectId": 971,
-    "ProjectName": "Bednar-Jerde",
-    "AssociateId": 356,
-    "Snum": 884,
-    "SaleId": 756,
-    "SaleName": "Nikolaus, Hahn and Terry",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetContactDocumentsByTemplateType.md)]

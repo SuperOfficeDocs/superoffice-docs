@@ -67,27 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SetConsent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 52,
-  "Purpose": "sint",
-  "Source": "odit",
-  "LegalBase": "fuga",
-  "Comment": "dolore"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SetConsent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SetConsent.md)]

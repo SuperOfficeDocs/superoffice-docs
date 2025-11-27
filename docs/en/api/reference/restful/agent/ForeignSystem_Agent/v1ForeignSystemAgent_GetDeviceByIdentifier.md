@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Purdy, Walsh and Fisher",
-  "DeviceName": "Hills-Stiedemann",
-  "DeviceIdentifier": "illo"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetDeviceByIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignDeviceId": 801,
-  "Name": "Kessler, Flatley and Beatty",
-  "CreatedDate": "2007-04-21T02:30:47.366331+02:00",
-  "UpdatedDate": "2021-03-17T02:30:47.366331+01:00",
-  "AssociateFullName": "Casper Runolfsson",
-  "CreatedBy": "expedita",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "aliquid",
-  "ForeignAppId": 881,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetDeviceByIdentifier.md)]

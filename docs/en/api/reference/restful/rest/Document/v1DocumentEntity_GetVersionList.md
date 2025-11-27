@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/{documentId}/Version
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetVersionList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ExternalReference": "recusandae",
-    "DocumentId": 113,
-    "VersionId": "a",
-    "CheckedInDate": "2011-11-30T02:30:52.631787+01:00",
-    "CheckedInByName": "Emmerich-Kovacek",
-    "CheckedInByAssociateId": 474,
-    "Description": "Exclusive directional instruction set",
-    "DisplayText": "in",
-    "ExtraFields": [
-      "ipsa",
-      "perferendis"
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetVersionList.md)]

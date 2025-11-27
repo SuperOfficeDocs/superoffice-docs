@@ -93,85 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllSaleTypeEntities
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllSaleTypeEntities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "SaleTypeId": 791,
-    "Name": "Schmidt-Howell",
-    "Tooltip": "cum",
-    "Rank": 232,
-    "DurationUnit": "Century",
-    "SaleDuration": 192,
-    "SaleTypeCatId": 971,
-    "Deleted": true,
-    "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 282,
-    "QuoteLinesTemplate": 971,
-    "ConfirmationLinesTemplate": 490,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 10,
-    "MinEarningPercent": 749,
-    "GroupQuoteLinesBy": 596,
-    "SortGroupLinesBy": 27,
-    "Stages": [
-      {
-        "Id": 403,
-        "Name": "Schultz-Rutherford",
-        "ToolTip": "Possimus enim labore aut quos aspernatur quia.",
-        "Deleted": false,
-        "Rank": 654,
-        "Type": "dolorem",
-        "ColorBlock": 3,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2003-05-29T02:30:47.3975807+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Mrs. Shanie Turcotte MD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 211
-          }
-        }
-      }
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllSaleTypeEntities.md)]

@@ -77,55 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_GetTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 811,
-  "Name": "Krajcik-Bechtelar",
-  "Rank": 202,
-  "Tooltip": "voluptas",
-  "Icon": "modi",
-  "DefaultTicketStatus": 604,
-  "TicketStatuses": [
-    974,
-    924
-  ],
-  "DefaultTicketPriority": 141,
-  "TicketPriorities": [
-    553,
-    594
-  ],
-  "ReplyTemplate": 409,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
-  "VisibleForGroups": [
-    25,
-    969
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_GetTicketTypeEntity.md)]

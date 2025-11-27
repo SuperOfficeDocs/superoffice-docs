@@ -66,29 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Collier, Lemke and Runte",
-  "HeadingId": 751,
-  "ListItemIds": [
-    992,
-    444
-  ],
-  "Enable": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetListItemsForHeadingFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetListItemsForHeadingFromListName.md)]

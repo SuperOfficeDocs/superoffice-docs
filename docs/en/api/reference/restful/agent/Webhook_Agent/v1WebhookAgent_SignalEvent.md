@@ -69,27 +69,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/SignalEvent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EventName": "Effertz-Yundt",
-  "PrimaryKey": 71,
-  "Data": {
-    "fieldName": {}
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_SignalEvent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_SignalEvent.md)]

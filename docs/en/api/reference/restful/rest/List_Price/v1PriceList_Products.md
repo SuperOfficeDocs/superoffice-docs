@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=perferendis
-GET /api/v1/Pricelist/{id}/Products?$top=84
-GET /api/v1/Pricelist/{id}/Products?$skip=319
+GET /api/v1/Pricelist/{id}/Products?$entities=ut
+GET /api/v1/Pricelist/{id}/Products?$top=908
+GET /api/v1/Pricelist/{id}/Products?$skip=458
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=ipsam
+GET /api/v1/Pricelist/{id}/Products?$context=voluptatibus
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Pricelist/{id}/Products
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_Products.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "harum",
-  "value": [
-    {
-      "PrimaryKey": 8099,
-      "EntityName": "sale",
-      "saleId": 8099,
-      "contactId": 1958,
-      "name": "Spinka Inc and Sons"
-    },
-    {
-      "PrimaryKey": 6029,
-      "EntityName": "sale",
-      "saleId": 6029,
-      "contactId": 8593,
-      "name": "Herzog-Hintz"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_Products.md)]

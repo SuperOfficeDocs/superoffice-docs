@@ -74,30 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionId": 392,
-  "CrmEntityId": 960,
-  "ErpActorType": "Customer",
-  "CrmActorType": "Contact",
-  "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "pariatur",
-    "ErpFieldKeyValues2": "beatae"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_CreateErpActorFromCrm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_CreateErpActorFromCrm.md)]

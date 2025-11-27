@@ -97,59 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 478,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2014-01-21T02:30:47.0850878+01:00",
-  "EndTime": "2000-12-02T02:30:47.0850878+01:00",
-  "Count": 715,
-  "DocumentTemplateId": 900
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPersonDocumentsByTemplateType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 955,
-    "Attention": "rem",
-    "Header": "qui",
-    "Name": "Lehner, Cassin and Howell",
-    "OurRef": "et",
-    "YourRef": "facere",
-    "Description": "Down-sized heuristic extranet",
-    "DocumentTemplate": "eum",
-    "IsPublished": false,
-    "PersonId": 132,
-    "PersonFullName": "Prof. Eldred Bashirian Jr.",
-    "AssociateFullName": "Ms. Trycia Hansen",
-    "ContactId": 48,
-    "ContactName": "Davis-Bernier",
-    "ProjectId": 884,
-    "ProjectName": "Hagenes, Kuvalis and Marvin",
-    "AssociateId": 297,
-    "Snum": 206,
-    "SaleId": 924,
-    "SaleName": "West-McCullough",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 475
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPersonDocumentsByTemplateType.md)]

@@ -11515,8 +11515,16 @@
       href: Services88/AI/AnswerFeedback.md
     - name: ClearChatbotTurns
       href: Services88/AI/ClearChatbotTurns.md
+    - name: CreateDefaultCopilotDataSourceEntity
+      href: Services88/AI/CreateDefaultCopilotDataSourceEntity.md
+    - name: CreateDefaultCopilotEntity
+      href: Services88/AI/CreateDefaultCopilotEntity.md
     - name: CreateTextForAppointment
       href: Services88/AI/CreateTextForAppointment.md
+    - name: DeleteCopilotDataSourceEntity
+      href: Services88/AI/DeleteCopilotDataSourceEntity.md
+    - name: DeleteCopilotEntity
+      href: Services88/AI/DeleteCopilotEntity.md
     - name: DetectLanguage
       href: Services88/AI/DetectLanguage.md
     - name: DetectSentiment
@@ -11529,6 +11537,14 @@
       href: Services88/AI/GetChatbotResponse.md
     - name: GetChatbotTurns
       href: Services88/AI/GetChatbotTurns.md
+    - name: GetCopilotDataSourceEntity
+      href: Services88/AI/GetCopilotDataSourceEntity.md
+    - name: GetCopilotEntity
+      href: Services88/AI/GetCopilotEntity.md
+    - name: GetFormDesignFromImage
+      href: Services88/AI/GetFormDesignFromImage.md
+    - name: GetFormDesignFromUrl
+      href: Services88/AI/GetFormDesignFromUrl.md
     - name: GetSummarizeContactPrompt
       href: Services88/AI/GetSummarizeContactPrompt.md
     - name: GetSummarizeSalePrompt
@@ -11541,6 +11557,10 @@
       href: Services88/AI/GuessCategory.md
     - name: RephraseText
       href: Services88/AI/RephraseText.md
+    - name: SaveCopilotDataSourceEntity
+      href: Services88/AI/SaveCopilotDataSourceEntity.md
+    - name: SaveCopilotEntity
+      href: Services88/AI/SaveCopilotEntity.md
     - name: Search
       href: Services88/AI/Search.md
     - name: StartRagIndexing
@@ -13463,6 +13483,8 @@
       href: Services88/List/DeleteWebPanel.md
     - name: GenerateNavigationUrl
       href: Services88/List/GenerateNavigationUrl.md
+    - name: GetAllAutomatedCategoryUpdates
+      href: Services88/List/GetAllAutomatedCategoryUpdates.md
     - name: GetAllConsentSource
       href: Services88/List/GetAllConsentSource.md
     - name: GetAllCountries
@@ -13675,6 +13697,10 @@
       href: Services88/List/GetMrMrses.md
     - name: GetMrMrsList
       href: Services88/List/GetMrMrsList.md
+    - name: GetNeedCategoryUpdateForPerson
+      href: Services88/List/GetNeedCategoryUpdateForPerson.md
+    - name: GetNeedCategoryUpdateForSale
+      href: Services88/List/GetNeedCategoryUpdateForSale.md
     - name: GetOurCurrency
       href: Services88/List/GetOurCurrency.md
     - name: GetOwnerCompanysCurrency
@@ -13845,6 +13871,8 @@
       href: Services88/List/MoveListItem.md
     - name: RebuildFullnames
       href: Services88/List/RebuildFullnames.md
+    - name: SaveAllAutomatedCategoryUpdates
+      href: Services88/List/SaveAllAutomatedCategoryUpdates.md
     - name: SaveAllFromListDefinition
       href: Services88/List/SaveAllFromListDefinition.md
     - name: SaveAllFromListName

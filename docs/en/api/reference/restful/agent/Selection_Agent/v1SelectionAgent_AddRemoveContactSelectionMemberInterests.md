@@ -67,39 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 95,
-  "AddCompanyInterests": [
-    834,
-    98
-  ],
-  "RemoveCompanyInterests": [
-    616,
-    515
-  ],
-  "AddContactInterests": [
-    473,
-    810
-  ],
-  "RemoveContactInterests": [
-    860,
-    74
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_AddRemoveContactSelectionMemberInterests.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_AddRemoveContactSelectionMemberInterests.md)]

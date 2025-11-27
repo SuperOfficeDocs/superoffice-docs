@@ -86,63 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDeltaId": 488,
-  "Name": "Kessler LLC",
-  "Description": "Digitized responsive artificial intelligence",
-  "DeltaJson": "esse",
-  "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "nihil",
-  "UpdatedDate": "2022-03-25T02:30:46.9132188+01:00",
-  "CreatedDate": "2011-06-27T02:30:46.9132188+02:00",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "AppliesToIds": [
-    151,
-    502
-  ],
-  "AppliesToKey": "sit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_SaveConfigurableScreenDelta.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDeltaId": 654,
-  "Name": "Bins-Larkin",
-  "Description": "Cross-platform scalable firmware",
-  "DeltaJson": "quam",
-  "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2016-03-21T02:30:46.9132188+01:00",
-  "CreatedDate": "2012-01-25T02:30:46.9132188+01:00",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "AppliesToIds": [
-    332,
-    120
-  ],
-  "AppliesToKey": "impedit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_SaveConfigurableScreenDelta.md)]

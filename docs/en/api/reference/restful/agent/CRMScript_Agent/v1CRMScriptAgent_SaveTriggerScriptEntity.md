@@ -83,51 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 657,
-  "Name": "Jakubowski Group",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ipsum",
-  "Source": "voluptas",
-  "Registered": "2017-06-17T02:30:47.0382145+02:00",
-  "RegisteredAssociateId": 727,
-  "Updated": "2001-01-28T02:30:47.0382145+01:00",
-  "UpdatedAssociateId": 342
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_SaveTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 285,
-  "Name": "Schroeder, McClure and Torp",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "esse",
-  "Registered": "2016-05-02T02:30:47.0538389+02:00",
-  "RegisteredAssociateId": 117,
-  "Updated": "2024-06-09T02:30:47.0538389+02:00",
-  "UpdatedAssociateId": 563,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_SaveTriggerScriptEntity.md)]

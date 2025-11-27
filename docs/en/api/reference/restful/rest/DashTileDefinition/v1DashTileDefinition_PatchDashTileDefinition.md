@@ -124,64 +124,8 @@ DashTileDefinition  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/DashTileDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "culpa",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "culpa",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_PatchDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTileDefinition  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 127,
-  "Name": "Adams-Altenwerth",
-  "Description": "Progressive attitude-oriented neural-net",
-  "DefaultHeight": 308,
-  "DefaultWidth": 746,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Bosco LLC",
-  "SelectionId": 720,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
-  "Measure": "Average",
-  "MeasureField": "culpa",
-  "SortBy": "corporis",
-  "LayoutConfig": "eveniet",
-  "SecondarySelectionId": 996,
-  "MeasureByField": "voluptatem",
-  "Usage": "Dashboard",
-  "ProviderName": "Waelchi Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_PatchDashTileDefinition.md)]

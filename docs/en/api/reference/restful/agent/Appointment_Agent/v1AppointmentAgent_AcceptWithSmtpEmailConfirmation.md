@@ -65,25 +65,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/AcceptWithSmtpEmailConfirmation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 933,
-  "UpdateMode": "OnlyThis",
-  "SmtpEMailConnectionInfo": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_AcceptWithSmtpEmailConfirmation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_AcceptWithSmtpEmailConfirmation.md)]

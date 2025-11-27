@@ -101,62 +101,8 @@ ChatSessionEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatSession/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_GetChatSessionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ChatSessionEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 770,
-  "TopicId": 7,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "debitis",
-  "CustomerHost": "tenetur",
-  "CustomerName": "Parker Inc and Sons",
-  "CustomerEmail": "theo.nader@schroedercasper.ca",
-  "CustomerPhone": "(594)446-4144",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Turner, Kiehn and Anderson",
-  "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "esse",
-  "WhenRequested": "2007-11-04T02:30:52.3661722+01:00",
-  "WhenStarted": "2005-01-05T02:30:52.3661722+01:00",
-  "WhenEnded": "2017-05-09T02:30:52.3661722+02:00",
-  "WhenIdle": "2004-11-09T02:30:52.3661722+01:00",
-  "WhenFetched": "2015-12-27T02:30:52.3661722+01:00",
-  "SessionKey": "quae",
-  "InitialQueuePos": 45,
-  "AlertLevel": 222,
-  "Rank": 238,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 665,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_GetChatSessionEntity.md)]

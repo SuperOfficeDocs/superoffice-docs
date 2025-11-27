@@ -81,65 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 591,
-  "Filter": "voluptates"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_SetDynamicSelectionCriteria2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Rogahn-Zieme",
-    "Operator": "nesciunt",
-    "Values": [
-      "molestias",
-      "perferendis"
-    ],
-    "DisplayValues": [
-      "maiores",
-      "sequi"
-    ],
-    "ColumnInfo": null,
-    "IsActive": false,
-    "SubRestrictions": [
-      {
-        "Name": "Senger, Eichmann and Quitzon",
-        "Operator": "ex",
-        "Values": [
-          "et",
-          "in"
-        ],
-        "DisplayValues": [
-          "ratione",
-          "explicabo"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 968,
-        "InterOperator": "And",
-        "UniqueHash": 499
-      }
-    ],
-    "InterParenthesis": 231,
-    "InterOperator": "And",
-    "UniqueHash": 575
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_SetDynamicSelectionCriteria2.md)]

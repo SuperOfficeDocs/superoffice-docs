@@ -86,58 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatTopic/{chatTopicId}/Sessions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_CreateChatSessionForTopic.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 683,
-  "TopicId": 51,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "itaque",
-  "CustomerHost": "rerum",
-  "CustomerName": "Witting, Hansen and Parker",
-  "CustomerEmail": "vallie@ratkewunsch.ca",
-  "CustomerPhone": "892.820.2593",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Wyman LLC",
-  "Status": "Closed",
-  "FirstMessage": "dolorem",
-  "LastMessage": "quaerat",
-  "WhenRequested": "2009-01-04T02:30:52.4286686+01:00",
-  "WhenStarted": "2014-06-06T02:30:52.4286686+02:00",
-  "WhenEnded": "2020-03-14T02:30:52.4286686+01:00",
-  "WhenIdle": "2023-08-19T02:30:52.4286686+02:00",
-  "WhenFetched": "2000-08-27T02:30:52.4286686+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 379,
-  "AlertLevel": 221,
-  "Rank": 123,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 942,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_CreateChatSessionForTopic.md)]

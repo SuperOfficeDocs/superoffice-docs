@@ -99,62 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSummaryByContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 114,
-  "FromDate": "1999-03-18T02:30:47.8038176+01:00",
-  "ToDate": "2006-07-14T02:30:47.8038176+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSummaryByContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BaseCurrency": "sunt",
-  "OwnCurrency": "tempore",
-  "SoldTotalBaseCurrency": 12307.217999999999,
-  "Sold": 134,
-  "SoldTotalOwnCurrency": 2453.922,
-  "Lost": 708,
-  "LostTotalBaseCurrency": 20850.502,
-  "LostTotalOwnCurrency": 16372.016,
-  "Open": 378,
-  "OpenTotalBaseCurrency": 15228.106,
-  "OpenTotalOwnCurrency": 2400.644,
-  "OpenWeightedBaseCurrency": 20684.399999999998,
-  "OpenWeightedOwnCurrency": 18847.876,
-  "PreviousOverdue": 969,
-  "PreviousOverdueTotalBaseCurrency": 29801.206,
-  "PreviousOverdueTotalOwnCurrency": 22151.112,
-  "PreviousOverdueWeightedBaseCurrency": 1344.4859999999999,
-  "PreviousOverdueWeightedOwnCurrency": 18763.257999999998,
-  "CurrentOverdue": 203,
-  "CurrentOverdueTotalBaseCurrency": 15268.848,
-  "CurrentOverdueTotalOwnCurrency": 2306.624,
-  "CurrentOverdueWeightedBaseCurrency": 25683.129999999997,
-  "CurrentOverdueWeightedOwnCurrency": 30014.318,
-  "FutureOpen": 562,
-  "FutureOpenTotalBaseCurrency": 23251.146,
-  "FutureOpenTotalOwnCurrency": 18390.311999999998,
-  "FutureOpenWeightedBaseCurrency": 30340.254,
-  "FutureOpenWeightedOwnCurrency": 10630.528,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSummaryByContact.md)]

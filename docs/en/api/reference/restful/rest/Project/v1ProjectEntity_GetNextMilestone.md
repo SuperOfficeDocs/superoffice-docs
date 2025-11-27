@@ -110,82 +110,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/{projectId}/NextMilestone
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetNextMilestone.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentId": 110,
-  "StartDate": "2020-09-17T02:30:52.8192812+02:00",
-  "EndDate": "2006-05-31T02:30:52.8192812+02:00",
-  "Type": "BookingForChecklist",
-  "Task": "veniam",
-  "AssociateFullName": "Brandon Becker",
-  "ContactName": "Wuckert Group",
-  "Description": "Balanced client-server projection",
-  "PersonFullName": "Andy Kutch",
-  "PersonId": 201,
-  "ContactId": 569,
-  "ProjectId": 712,
-  "ProjectName": "Connelly LLC",
-  "IsPublished": false,
-  "AssociateId": 132,
-  "ColorIndex": 134,
-  "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
-  "Private": "PrivateGroup",
-  "PriorityId": 658,
-  "PriorityName": "O'Hara, Ondricka and Brakus",
-  "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2018-07-02T02:30:52.8192812+02:00",
-  "AssignmentStatus": "Assigning",
-  "InvitationStatus": "Accepted",
-  "BookingType": "None",
-  "Completed": "Completed",
-  "RecurringPattern": "Custom",
-  "RecurringStartDate": "2009-02-20T02:30:52.8192812+01:00",
-  "RecurringEndDate": "1998-08-03T02:30:52.8192812+02:00",
-  "MotherId": 276,
-  "AssignedBy": 735,
-  "AssignedByFullName": "Amanda Mann",
-  "RejectReason": "",
-  "Location": "quae",
-  "AlarmLeadTime": "et",
-  "SaleId": 742,
-  "SaleName": "Gaylord, Hilpert and Glover",
-  "AssociateName": "Zieme-Anderson",
-  "CreatedDate": "2001-11-11T02:30:52.8192812+01:00",
-  "CreatedBy": "molestiae",
-  "CreatedByFullName": "Dr. Juliana Elvera Wilkinson MD",
-  "CreatedByAssociateId": 592,
-  "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-  "OwnedExternally": "Google",
-  "MotherAssociateId": 652,
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 412,
-  "Title": "qui",
-  "Agenda": "et",
-  "InternalNotes": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetNextMilestone.md)]

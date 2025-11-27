@@ -82,42 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 665,
-  "ActorTypeErp": "Customer",
-  "ErpKey": "consequatur"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetFieldValuesFromErp.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayName": "Funk, Brekke and Jaskolski",
-    "CrmFieldKey": "ullam",
-    "Value": "a",
-    "DisplayValue": "illo",
-    "SyncToCrm": true,
-    "SyncToErp": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetFieldValuesFromErp.md)]

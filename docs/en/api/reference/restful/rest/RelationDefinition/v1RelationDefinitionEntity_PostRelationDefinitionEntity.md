@@ -88,51 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/RelationDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 850,
-  "Name": "Brakus-Littel",
-  "Tooltip": "optio",
-  "PassiveText": "non",
-  "Deleted": false,
-  "Rank": 640,
-  "Source": "Both",
-  "Destination": "Both"
-}
-```
+[!include[sample request](../../samples/rest/request/v1RelationDefinitionEntity_PostRelationDefinitionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ReldefId": 625,
-  "Name": "Price LLC",
-  "Tooltip": "enim",
-  "PassiveText": "repudiandae",
-  "Deleted": false,
-  "Rank": 138,
-  "Source": "Both",
-  "Destination": "Both",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RelationDefinitionEntity_PostRelationDefinitionEntity.md)]

@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 477,
-    "Name": "Cummerata Inc and Sons",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "UdListDefinitionId": 990,
-    "Rank": 543,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 507
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_GetAll.md)]

@@ -71,59 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldValueInfos": [
-    {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "magni",
-      "ValueType": "dignissimos",
-      "Mandatory": false,
-      "EncodedDisplayName": "Lockman, Welch and Keebler",
-      "EncodedDisplayDescription": "Progressive fresh-thinking attitude",
-      "IconHint": "praesentium",
-      "ControlInfos": [
-        {},
-        {}
-      ],
-      "EncodedDataCaption": "est",
-      "EncodedDataCaptionDescription": "Optimized zero defect throughput",
-      "CurrentOperationType": "reprehenderit",
-      "Values": [
-        "non",
-        "blanditiis"
-      ],
-      "DisplayValues": [
-        "odit",
-        "alias"
-      ],
-      "OperationInfos": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableName": "Wilkinson, Rowe and Tillman",
-  "Context": "optio",
-  "SelectionId": 88,
-  "IsShadow": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1BulkUpdateAgent_ExecuteBySelectionId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-319
-```
+[!include[sample response](../../samples/agent/response/v1BulkUpdateAgent_ExecuteBySelectionId.md)]

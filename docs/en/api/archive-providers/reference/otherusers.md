@@ -19,7 +19,7 @@ the actual functionality of the provider.
 | Name | Description |
 | ---- | ----- |
 |"all"|All|
-|"superoffice_system-user-cal"|[System user]|
+|"superoffice_system-user-cal"|System user|
 |"expired"|Expired|
 
 ## Supported Columns

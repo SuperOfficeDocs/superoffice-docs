@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Priority/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 768,
-  "Name": "McClure Group",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "UdListDefinitionId": 23,
-  "Rank": 894
-}
-```
+[!include[sample request](../../samples/rest/request/v1PriorityList_PostPriority.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 345,
-  "Name": "Schuppe, Wiza and Jast",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 329,
-  "Rank": 1002,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 453
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriorityList_PostPriority.md)]

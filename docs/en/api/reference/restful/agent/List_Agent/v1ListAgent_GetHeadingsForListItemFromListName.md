@@ -88,80 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Larkin, Grant and Greenfelder",
-  "ListItemId": 842,
-  "ShowDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetHeadingsForListItemFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 109,
-    "Name": "Fahey LLC",
-    "ToolTip": "Autem vero quae delectus quia.",
-    "Deleted": true,
-    "Rank": 955,
-    "Type": "et",
-    "ColorBlock": 911,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2004-11-13T02:30:47.4132046+01:00",
-    "ChildItems": [
-      {
-        "Id": 601,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Aperiam excepturi.",
-        "Deleted": true,
-        "Rank": 883,
-        "Type": "quae",
-        "ColorBlock": 132,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2006-04-06T02:30:47.4132046+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Regan Walker DVM",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 979
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "ut",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Mrs. Roy Wyman",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetHeadingsForListItemFromListName.md)]

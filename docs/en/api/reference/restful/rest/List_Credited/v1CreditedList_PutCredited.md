@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Credited/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 778,
-  "Name": "Kirlin, Windler and Predovic",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 753,
-  "Rank": 768
-}
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_PutCredited.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 225,
-  "Name": "Koch, Effertz and Hoeger",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 379,
-  "Rank": 740,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_PutCredited.md)]

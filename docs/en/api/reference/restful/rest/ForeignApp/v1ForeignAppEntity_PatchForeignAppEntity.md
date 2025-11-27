@@ -112,72 +112,8 @@ ForeignAppEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/ForeignApp/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "sed",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "sed",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_PatchForeignAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ForeignAppEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ForeignAppId": 149,
-  "Name": "Reilly, Huel and Rippin",
-  "CreatedDate": "2016-06-09T02:30:52.6474115+02:00",
-  "UpdatedDate": "2000-09-19T02:30:52.6474115+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Devices": [
-    {
-      "ForeignDeviceId": 990,
-      "Name": "Stoltenberg LLC",
-      "CreatedDate": "2004-01-31T02:30:52.6474115+01:00",
-      "UpdatedDate": "2001-04-22T02:30:52.6474115+02:00",
-      "AssociateFullName": "Zachery Keeling",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "dolores",
-      "ForeignAppId": 849,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 280
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_PatchForeignAppEntity.md)]

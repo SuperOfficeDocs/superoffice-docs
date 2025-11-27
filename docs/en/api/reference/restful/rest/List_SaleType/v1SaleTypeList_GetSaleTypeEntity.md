@@ -80,78 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeId": 117,
-  "Name": "Prohaska, Williamson and Wintheiser",
-  "Tooltip": "quaerat",
-  "Rank": 318,
-  "DurationUnit": "Century",
-  "SaleDuration": 482,
-  "SaleTypeCatId": 428,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 340,
-  "QuoteLinesTemplate": 166,
-  "ConfirmationLinesTemplate": 787,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 304,
-  "MinEarningPercent": 555,
-  "GroupQuoteLinesBy": 849,
-  "SortGroupLinesBy": 523,
-  "Stages": [
-    {
-      "Id": 772,
-      "Name": "Grant Group",
-      "ToolTip": "Animi deleniti.",
-      "Deleted": true,
-      "Rank": 513,
-      "Type": "odit",
-      "ColorBlock": 541,
-      "IconHint": "saepe",
-      "Selected": false,
-      "LastChanged": "2019-10-26T02:30:53.4442597+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "itaque",
-      "Hidden": true,
-      "FullName": "Prof. Lillie Bechtelar",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 813
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetSaleTypeEntity.md)]

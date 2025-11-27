@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | personEntityId | int32 | **Required** The identity of the PersonEntity |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=286
+POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=815
 ```
 
 
@@ -56,18 +56,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/DeletePersonEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_DeletePersonEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_DeletePersonEntity.md)]

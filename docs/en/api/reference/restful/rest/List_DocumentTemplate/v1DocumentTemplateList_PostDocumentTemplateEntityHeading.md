@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DocumentTemplate/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 355,
-  "Name": "Pollich, Hane and DuBuque",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 177,
-  "UdListDefinitionId": 984
-}
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_PostDocumentTemplateEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 520,
-  "Name": "Jerde, Dickinson and Ward",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 105,
-  "UdListDefinitionId": 752,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_PostDocumentTemplateEntityHeading.md)]

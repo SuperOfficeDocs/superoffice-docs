@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceType
+  id: CopilotDataSourceType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.Documents
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.FAQs
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.Products
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.ReplyTemplates
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.Requests
+  - SuperOffice.WebApi.Data.CopilotDataSourceType.WebContent
+  langs:
+  - csharp
+  - vb
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Copilot data source type
+
+    This Enum is used by:  copilot_data_source.copilot_data_source_type
+  example: []
+  syntax:
+    content: 'public enum CopilotDataSourceType : short'
+    content.vb: Public Enum CopilotDataSourceType As Short
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.Requests
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.Requests
+  id: Requests
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: Requests
+  nameWithType: CopilotDataSourceType.Requests
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.Requests
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Set copilot data source type to requests'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Requests = 0
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      Requests = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.FAQs
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.FAQs
+  id: FAQs
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: FAQs
+  nameWithType: CopilotDataSourceType.FAQs
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.FAQs
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Set copilot data source type to FAQs'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      FAQs = 1
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      FAQs = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.ReplyTemplates
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.ReplyTemplates
+  id: ReplyTemplates
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplates
+  nameWithType: CopilotDataSourceType.ReplyTemplates
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.ReplyTemplates
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Set copilot data source type to reply templates'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ReplyTemplates = 2
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      ReplyTemplates = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.Documents
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.Documents
+  id: Documents
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: CopilotDataSourceType.Documents
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.Documents
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Set copilot data source type to documents'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Documents = 3
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      Documents = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.Products
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.Products
+  id: Products
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: CopilotDataSourceType.Products
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.Products
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Set copilot data source type to products'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Products = 4
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      Products = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType.WebContent
+  commentId: F:SuperOffice.WebApi.Data.CopilotDataSourceType.WebContent
+  id: WebContent
+  parent: SuperOffice.WebApi.Data.CopilotDataSourceType
+  langs:
+  - csharp
+  - vb
+  name: WebContent
+  nameWithType: CopilotDataSourceType.WebContent
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType.WebContent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '5: Set copilot data source type to web content'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      WebContent = 5
+    return:
+      type: SuperOffice.WebApi.Data.CopilotDataSourceType
+    content.vb: >-
+      <EnumMember>
+
+      WebContent = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.CopilotDataSourceType
+  commentId: T:SuperOffice.WebApi.Data.CopilotDataSourceType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CopilotDataSourceType.html
+  name: CopilotDataSourceType
+  nameWithType: CopilotDataSourceType
+  fullName: SuperOffice.WebApi.Data.CopilotDataSourceType

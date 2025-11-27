@@ -79,85 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketPriority/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_CreateDefaultTicketPriorityEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketPriorityId": 360,
-  "Name": "Ondricka-Daniel",
-  "Status": "Deleted",
-  "Flags": "AlertSchedule",
-  "SortOrder": 468,
-  "TicketRead": "Continue",
-  "ChangedOwner": "Continue",
-  "TicketNewinfo": "Continue",
-  "TicketClosed": "Continue",
-  "TicketChangedPriority": "Continue",
-  "TicketNew": "Continue",
-  "Deadline": 737,
-  "MonStart": "2023-09-22T02:30:53.5223788+02:00",
-  "MonStop": "2006-06-12T02:30:53.5223788+02:00",
-  "TueStart": "2004-02-20T02:30:53.5223788+01:00",
-  "TueStop": "2024-05-03T02:30:53.5223788+02:00",
-  "WedStart": "2003-02-28T02:30:53.5223788+01:00",
-  "WedStop": "2005-07-28T02:30:53.5223788+02:00",
-  "ThuStart": "2011-11-05T02:30:53.5223788+01:00",
-  "ThuStop": "2024-10-29T02:30:53.5223788+01:00",
-  "FriStart": "2012-05-12T02:30:53.5223788+02:00",
-  "FriStop": "2005-08-22T02:30:53.5223788+02:00",
-  "SatStart": "2021-05-22T02:30:53.5223788+02:00",
-  "SatStop": "2014-06-11T02:30:53.5223788+02:00",
-  "SunStart": "2009-12-12T02:30:53.5223788+01:00",
-  "SunStop": "2022-05-24T02:30:53.5223788+02:00",
-  "NonDates": [
-    "vitae",
-    "aut"
-  ],
-  "EscalationLevels": [
-    {
-      "TicketAlertId": 51,
-      "AlertLevel": 57,
-      "AlertTimeout": 315,
-      "Action": 567,
-      "DelegateTo": 464,
-      "ScriptId": 386,
-      "EmailTo": "hal.hodkiewicz@greenhalvorson.us",
-      "SmsTo": "quidem",
-      "ReplyTemplateIdCustomer": 929,
-      "ReplyTemplateIdUser": 680,
-      "ReplyTemplateIdCatmast": 454,
-      "ReplyTemplateIdEmail": 663,
-      "RtiCustomerSms": 640,
-      "ReplyTemplateIdUserSms": 650,
-      "ReplyTemplateIdCatmastSms": 310,
-      "ReplyTemplateIdSms": 97,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 581
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_CreateDefaultTicketPriorityEntity.md)]

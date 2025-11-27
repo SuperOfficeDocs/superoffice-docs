@@ -81,49 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetMyPublishedDocuments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetMyPublishedDocuments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 878,
-    "Attention": "incidunt",
-    "Header": "repellendus",
-    "Name": "Greenholt, Rolfson and Rowe",
-    "OurRef": "mollitia",
-    "YourRef": "architecto",
-    "Description": "Future-proofed asynchronous contingency",
-    "DocumentTemplate": "nemo",
-    "IsPublished": false,
-    "PersonId": 48,
-    "PersonFullName": "Blair Zemlak",
-    "AssociateFullName": "Prof. Katlynn Tremayne Trantow",
-    "ContactId": 479,
-    "ContactName": "Schmeler, Miller and Larkin",
-    "ProjectId": 823,
-    "ProjectName": "Beatty-Bode",
-    "AssociateId": 268,
-    "Snum": 292,
-    "SaleId": 470,
-    "SaleName": "Rice, Schinner and Luettgen",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 699
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetMyPublishedDocuments.md)]

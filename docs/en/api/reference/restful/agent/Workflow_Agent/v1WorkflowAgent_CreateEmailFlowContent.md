@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateEmailFlowContent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailFlowId": 153,
-  "ContentName": "Lueilwitz, Kris and Lind"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateEmailFlowContent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-110
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateEmailFlowContent.md)]

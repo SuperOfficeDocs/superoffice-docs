@@ -70,14 +70,15 @@ Sale archive provider for the Diary card
 |saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
-|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
@@ -120,11 +121,11 @@ Sale archive provider for the Diary card
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
@@ -224,11 +225,11 @@ Sale archive provider for the Diary card
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -328,11 +329,11 @@ Sale archive provider for the Diary card
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
-|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -432,11 +433,11 @@ Sale archive provider for the Diary card
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
-|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
@@ -536,11 +537,11 @@ Sale archive provider for the Diary card
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
-|project/projectId|int|DB ID: Displays the database ID for a project row| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
@@ -640,11 +641,11 @@ Sale archive provider for the Diary card
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
-|saleStakeholder/saleId|int|Stakeholder - Sale ID: The database ID of the sale record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/saleId|int|Stakeholder - Sale ID: The database ID of the sale record| x |
 |saleStakeholder/comment|string|Stakeholder - Sales role comment text: Sales role comment text| x |
 |saleStakeholder/salesRoleId|listAny|Stakeholder - Sales role: Sales role| x |
 |saleStakeholder/hasInfoText|bool|Stakeholder - Sales role comment: Sales role comment| x |
@@ -744,11 +745,11 @@ Sale archive provider for the Diary card
 |saleStakeholder/person/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
 |saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
 |saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
@@ -848,11 +849,11 @@ Sale archive provider for the Diary card
 |saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
-|saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
 |saleStakeholder/person/correspondingAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 |saleStakeholder/person/correspondingAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
@@ -952,11 +953,11 @@ Sale archive provider for the Diary card
 |saleStakeholder/contact/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
-|saleStakeholder/contact/url/URLAddress|string|Stakeholder - URL| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/url/URLAddress|string|Stakeholder - URL| x |
 |saleStakeholder/contact/url/URLDescription|string|Stakeholder - Description| x |
 |saleStakeholder/contact/contactAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/contact/contactAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
@@ -1056,11 +1057,11 @@ Sale archive provider for the Diary card
 |quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
 |quote/orderComment|string|Comment: Customer's comment| x |
 |quote/connectionId|int|DB-ID: Database ID| x |
-|quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/description|string|Description: Description of the quote version| x |
 |quote/version/number|string|Number: Reference number for the quote version| x |
@@ -1153,7 +1154,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personUdef/SuperOffice:1,person/personAssociate/contactId,person/hasStoreConsent,contact/contactDeleted,contact/mainContact
+GET /api/v1/archive/SaleDiary?$select=person/retired,contact/associateId,project/projectAssociate/ejUserId,saleStakeholder/person/birthMonth,saleStakeholder/person/updatedByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

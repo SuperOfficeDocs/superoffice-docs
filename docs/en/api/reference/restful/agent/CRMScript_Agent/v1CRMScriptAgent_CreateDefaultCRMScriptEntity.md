@@ -75,68 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_CreateDefaultCRMScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "EjscriptId": 717,
-  "UniqueIdentifier": "ipsam",
-  "Name": "Will, Marquardt and Sanford",
-  "Description": "Seamless user-facing software",
-  "IncludeId": "doloribus",
-  "AccessKey": "voluptas",
-  "HierarchyId": 480,
-  "Source": "ut",
-  "SourceCode": "magnam",
-  "ScriptType": "CRMScript",
-  "HtmlOutput": 563,
-  "Includes": [
-    842,
-    692
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 838,
-      "LineNumberTo": 94,
-      "Delta": 717,
-      "IncludeId": "laudantium",
-      "IncludedFrom": [
-        "dignissimos",
-        "repellat"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 586
-        }
-      }
-    }
-  ],
-  "ValidationResult": null,
-  "Registered": "2010-02-19T02:30:47.0382145+01:00",
-  "RegisteredAssociateId": 725,
-  "Updated": "2006-07-12T02:30:47.0382145+02:00",
-  "UpdatedAssociateId": 966,
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 156
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_CreateDefaultCRMScriptEntity.md)]

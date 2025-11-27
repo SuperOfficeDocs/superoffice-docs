@@ -70,33 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/{documentId}/Command
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetDocumentCommands.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Gutmann, Jones and Green",
-    "DisplayName": "Wuckert LLC",
-    "DisplayTooltip": "quam",
-    "IconHint": "et",
-    "ReturnType": "CustomGui"
-  },
-  {
-    "Name": "Gutmann, Jones and Green",
-    "DisplayName": "Wuckert LLC",
-    "DisplayTooltip": "quam",
-    "IconHint": "et",
-    "ReturnType": "CustomGui"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetDocumentCommands.md)]

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetCurrencyEntityHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 338,
-    "Name": "Streich, Walsh and Kunze",
-    "ToolTip": "Expedita culpa.",
-    "Deleted": true,
-    "Rank": 81,
-    "Type": "quis",
-    "ColorBlock": 922,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2014-09-30T02:30:53.2723907+02:00",
-    "ChildItems": [
-      {
-        "Id": 397,
-        "Name": "Langworth Group",
-        "ToolTip": "Ad sed cum voluptate officia libero.",
-        "Deleted": true,
-        "Rank": 712,
-        "Type": "aspernatur",
-        "ColorBlock": 394,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2014-12-09T02:30:53.2723907+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Ms. Zena Kertzmann",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 677
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "facere",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Dr. Grayce Geo Runte",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetCurrencyEntityHeadingsForListItem.md)]

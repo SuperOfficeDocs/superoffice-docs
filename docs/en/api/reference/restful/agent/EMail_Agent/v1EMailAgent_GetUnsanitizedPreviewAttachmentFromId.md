@@ -87,44 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailItemId": 794,
-  "AttachmentId": "quo",
-  "AttachmentType": "magni",
-  "AttachmentFilename": "qui"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Triple-buffered client-driven open system",
-  "Filename": "cum",
-  "Size": 190,
-  "Type": "dolor",
-  "Encoding": "non",
-  "Id": "rerum",
-  "Disposition": "modi",
-  "IsSafeFileExtension": true,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId.md)]

@@ -80,47 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "maiores",
-  "Value": "et",
-  "RecordId": 776,
-  "CreatedDate": "2010-01-07T02:30:52.6630355+01:00",
-  "UpdatedDate": "2022-03-08T02:30:52.6630355+01:00",
-  "UpdatedBy": "deserunt",
-  "CreatedBy": "quisquam",
-  "TableName": "Klocko Group"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_AddForeignKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "quis",
-  "Value": "quisquam",
-  "RecordId": 824,
-  "CreatedDate": "2008-06-10T02:30:52.6630355+02:00",
-  "UpdatedDate": "2004-01-01T02:30:52.6630355+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "voluptatum",
-  "TableName": "D'Amore Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_AddForeignKey.md)]

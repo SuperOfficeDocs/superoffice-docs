@@ -66,23 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/DeleteConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 906
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_DeleteConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_DeleteConnection.md)]

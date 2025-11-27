@@ -72,25 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/ChangePasswordFromName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateName": "Abshire-Hayes",
-  "OldPassword": "harum",
-  "NewPassword": "suscipit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_ChangePasswordFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_ChangePasswordFromName.md)]

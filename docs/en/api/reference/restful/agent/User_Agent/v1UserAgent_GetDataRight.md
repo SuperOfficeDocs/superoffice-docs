@@ -73,25 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetDataRight
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 505,
-  "TableName": "Stracke-Renner",
-  "RelationToOwner": "Anonymous"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetDataRight.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"animi"
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetDataRight.md)]

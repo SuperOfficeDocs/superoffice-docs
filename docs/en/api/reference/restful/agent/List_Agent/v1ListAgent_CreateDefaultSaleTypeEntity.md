@@ -75,78 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleTypeId": 529,
-  "Name": "Heller Inc and Sons",
-  "Tooltip": "atque",
-  "Rank": 81,
-  "DurationUnit": "Century",
-  "SaleDuration": 224,
-  "SaleTypeCatId": 799,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 743,
-  "QuoteLinesTemplate": 64,
-  "ConfirmationLinesTemplate": 423,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 551,
-  "MinEarningPercent": 971,
-  "GroupQuoteLinesBy": 66,
-  "SortGroupLinesBy": 465,
-  "Stages": [
-    {
-      "Id": 341,
-      "Name": "Reichert Inc and Sons",
-      "ToolTip": "Nesciunt quia est et.",
-      "Deleted": false,
-      "Rank": 985,
-      "Type": "veritatis",
-      "ColorBlock": 721,
-      "IconHint": "distinctio",
-      "Selected": false,
-      "LastChanged": "2002-08-20T02:30:47.3975807+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "et",
-      "StyleHint": "vel",
-      "Hidden": true,
-      "FullName": "Ms. Jett Toy II",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 620
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultSaleTypeEntity.md)]

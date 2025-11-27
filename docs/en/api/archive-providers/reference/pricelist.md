@@ -18,7 +18,7 @@ Lists all Pricelist in table.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"pricelist"|[pricelist]|
+|"pricelist"|pricelist|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

@@ -89,52 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetAllFromSection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Section": "inventore"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetAllFromSection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescId": 138,
-    "Section": "praesentium",
-    "Key": "officiis",
-    "Name": "Hegmann-Denesik",
-    "ValueType": "Bool",
-    "MaxLevel": "Database",
-    "SysMaxLevel": "Database",
-    "AccessFlags": "adminGUI",
-    "Description": "Fundamental tertiary protocol",
-    "IsBuiltin": false,
-    "TableName": "Rowe-Ledner",
-    "UserDefinedListId": 704,
-    "Rank": 282,
-    "SubGroup": "enim",
-    "MinLevel": 222,
-    "MaxValue": 822,
-    "MinValue": 941,
-    "RequiredLicense": "itaque",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetAllFromSection.md)]

@@ -76,39 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetDomainDuplicates
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "delectus"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetDomainDuplicates.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "RuleName": "Runolfsdottir, Hane and Gleichner",
-    "SoPrimaryKey": 810,
-    "EntryName": "Bailey-Lakin",
-    "EntryIdentifier": "praesentium",
-    "RuleDisplayName": "Lubowitz LLC",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetDomainDuplicates.md)]

@@ -27,8 +27,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=dolorum
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=placeat
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Reason/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 956,
-    "Name": "Ankunding-Koss",
-    "ToolTip": "Ipsa nam quo assumenda velit.",
-    "Deleted": false,
-    "Rank": 672,
-    "Type": "animi",
-    "ChildItems": [
-      {
-        "Id": 971,
-        "Name": "Gerlach-Parisian",
-        "ToolTip": "Consectetur optio tempore fuga.",
-        "Deleted": false,
-        "Rank": 264,
-        "Type": "nesciunt",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "et",
-        "ColorBlock": 474,
-        "ExtraInfo": "maxime",
-        "StyleHint": "officia",
-        "FullName": "Korbin Blanca Dicki II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 609
-          }
-        }
-      }
-    ],
-    "IconHint": "dolores",
-    "ColorBlock": 938,
-    "ExtraInfo": "expedita",
-    "StyleHint": "nam",
-    "FullName": "Koby Rempel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 265
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_GetMDOList.md)]

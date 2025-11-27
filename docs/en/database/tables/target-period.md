@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_period Table (505)
+# target\_period Table (508)
 
 A set of periods linked with target amounts for users/usergroups and the target groups/years.
 

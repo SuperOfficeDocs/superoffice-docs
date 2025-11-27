@@ -76,34 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/UndoCheckoutDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 18,
-  "AllowedReturnTypes": [
-    "quia",
-    "nihil"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_UndoCheckoutDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExternalReference": "et",
-  "VersionId": "modi",
-  "Success": true,
-  "Type": "CustomGui",
-  "Value": "omnis",
-  "AdditionalInfo": "et"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_UndoCheckoutDocument.md)]

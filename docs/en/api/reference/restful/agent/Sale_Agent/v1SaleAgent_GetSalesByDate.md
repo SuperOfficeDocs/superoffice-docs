@@ -100,62 +100,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSalesByDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "FromDate": "2025-06-10T02:30:47.7881925+02:00",
-  "ToDate": "2017-08-21T02:30:47.7881925+02:00",
-  "AmountLimit": 351,
-  "Status": "Lost"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSalesByDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Daniel, Bins and Spinka",
-    "SaleDate": "2015-12-11T02:30:47.7881925+01:00",
-    "SaleId": 234,
-    "Probability": 886,
-    "Title": "dolore",
-    "Amount": 24818.146,
-    "Currency": "voluptatem",
-    "ProjectName": "White, Kerluke and Balistreri",
-    "AssociateFullName": "Kianna Howell",
-    "Description": "Phased bi-directional ability",
-    "Status": "Lost",
-    "WeightedAmount": 7806.794,
-    "ProjectId": 746,
-    "EarningPercent": 12344.826,
-    "Earning": 9273.506,
-    "ContactId": 515,
-    "AssociateId": 20,
-    "PersonId": 185,
-    "SaleTypeId": 54,
-    "SaleTypeName": "Langworth-Pfeffer",
-    "PersonFullName": "Dr. Alexa Sporer I",
-    "Completed": "Completed",
-    "ActiveErpLinks": 942,
-    "NextDueDate": "2017-05-14T02:30:47.7881925+02:00",
-    "Number": "696486",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 907
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSalesByDate.md)]

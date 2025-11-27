@@ -78,52 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/BatchTask/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Batch_GetBatchTaskInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 682,
-  "Name": "Kassulke-Wyman",
-  "AssociateId": 466,
-  "DetailsTable": 338,
-  "DetailsRecord": 245,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "veritatis"
-  },
-  "LastStarted": "2004-09-23T02:30:53.022399+02:00",
-  "Created": "2015-09-05T02:30:53.022399+02:00",
-  "StartCount": 180,
-  "DatabaseSerialNumber": "56739",
-  "Context": "corrupti",
-  "Result": "molestiae",
-  "State": "All",
-  "Description": "Team-oriented modular functionalities",
-  "Response": "enim",
-  "Request": "eligendi",
-  "ProgressDescription": "Future-proofed executive neural-net",
-  "ProgressPercent": 684,
-  "FileName": "Bergstrom-Rath",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Batch_GetBatchTaskInfo.md)]

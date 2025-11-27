@@ -66,29 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionName": "Corkery-Batz",
-  "UsergroupId": 383,
-  "ListItemsID": [
-    620,
-    681
-  ],
-  "Enable": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetListItemsForUserGroupFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetListItemsForUserGroupFromListName.md)]

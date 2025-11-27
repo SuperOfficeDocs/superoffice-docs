@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 352,
-    "Name": "Jast, Reichel and Heaney",
-    "ToolTip": "Autem saepe eos aut aut.",
-    "Deleted": true,
-    "Rank": 171,
-    "Type": "fugiat",
-    "ColorBlock": 496,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2008-01-06T02:30:53.2723907+01:00",
-    "ChildItems": [
-      {
-        "Id": 286,
-        "Name": "Flatley-Becker",
-        "ToolTip": "Eaque est.",
-        "Deleted": false,
-        "Rank": 639,
-        "Type": "incidunt",
-        "ColorBlock": 801,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2005-02-06T02:30:53.2723907+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Cyrus Reynolds",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 87
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "at",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Dusty Gaylord DVM",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem.md)]

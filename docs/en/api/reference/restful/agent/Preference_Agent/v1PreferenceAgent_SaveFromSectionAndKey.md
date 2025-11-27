@@ -91,52 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SaveFromSectionAndKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Section": "vel",
-  "Key": "quo",
-  "PreferenceDescription": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SaveFromSectionAndKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 148,
-  "Section": "perspiciatis",
-  "Key": "nesciunt",
-  "Name": "Marks-Dickinson",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Profound actuating archive",
-  "IsBuiltin": false,
-  "TableName": "Cormier Group",
-  "UserDefinedListId": 995,
-  "Rank": 741,
-  "SubGroup": "est",
-  "MinLevel": 799,
-  "MaxValue": 729,
-  "MinValue": 537,
-  "RequiredLicense": "perspiciatis",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 732
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SaveFromSectionAndKey.md)]

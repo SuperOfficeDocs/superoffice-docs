@@ -81,41 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "MailboxId": 417,
-  "Data": "nobis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_CreateTicketFromMailData.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 19,
-  "Title": "earum",
-  "OwnerName": "Feest-Wehner",
-  "CategoryName": "VIP Customer",
-  "PriorityName": "Yost-Huel",
-  "TicketUrl": "http://www.example.com/",
-  "PersonName": "Labadie Group",
-  "ContactName": "Crist Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 257
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_CreateTicketFromMailData.md)]

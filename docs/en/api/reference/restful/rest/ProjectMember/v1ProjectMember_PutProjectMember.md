@@ -122,81 +122,8 @@ ProjectMember updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/ProjectMember/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 688,
-  "ContactId": 774,
-  "ProjectId": 256,
-  "ContactName": "Parker, Mohr and Watsica",
-  "ContactDepartment": "",
-  "ProjectName": "Hartmann LLC",
-  "EmailId": 618,
-  "EmailAddress": "bennett_turner@hodkiewicz.ca",
-  "CountryId": 555,
-  "Firstname": "Louie",
-  "MiddleName": "Ferry, Stoltenberg and Bode",
-  "Lastname": "Vandervort",
-  "PersonId": 564,
-  "Mrmrs": "tempore",
-  "ProjectMemberTypeName": "Schimmel Inc and Sons",
-  "Phone": "609-979-9678 x4136",
-  "PhoneId": 140,
-  "ProjectMemberTypeId": 415,
-  "EmailAddressName": "betty_conroy@erdman.name",
-  "Comment": "porro",
-  "FullName": "Justyn Reinger",
-  "Registered": "2010-05-08T02:30:53.0692723+02:00",
-  "Updated": "2017-09-17T02:30:53.0692723+02:00"
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_PutProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ProjectMember updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 301,
-  "ContactId": 224,
-  "ProjectId": 892,
-  "ContactName": "Prosacco-Kris",
-  "ContactDepartment": "",
-  "ProjectName": "Olson, Kautzer and Bradtke",
-  "EmailId": 143,
-  "EmailAddress": "tanner@hoppe.uk",
-  "CountryId": 676,
-  "Firstname": "Rollin",
-  "MiddleName": "Franecki, Bosco and Bahringer",
-  "Lastname": "Deckow",
-  "PersonId": 635,
-  "Mrmrs": "quidem",
-  "ProjectMemberTypeName": "Collins LLC",
-  "Phone": "830-629-9242 x02258",
-  "PhoneId": 623,
-  "ProjectMemberTypeId": 947,
-  "EmailAddressName": "felicia@kohlerokeefe.uk",
-  "Comment": "esse",
-  "FullName": "Coy Braun",
-  "Registered": "2021-01-12T02:30:53.0692723+01:00",
-  "Updated": "2008-12-30T02:30:53.0692723+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_PutProjectMember.md)]

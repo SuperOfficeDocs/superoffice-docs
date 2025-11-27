@@ -74,41 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetTicketSummaries
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketIds": [
-    116,
-    365
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetTicketSummaries.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketId": 345,
-    "TicketStatus": 150,
-    "Title": "quis",
-    "Registered": "2003-03-18T02:30:47.8819394+01:00",
-    "IconHint": "est"
-  },
-  {
-    "TicketId": 345,
-    "TicketStatus": 150,
-    "Title": "quis",
-    "Registered": "2003-03-18T02:30:47.8819394+01:00",
-    "IconHint": "est"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetTicketSummaries.md)]

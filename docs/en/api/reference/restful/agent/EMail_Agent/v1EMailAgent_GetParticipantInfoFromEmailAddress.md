@@ -116,74 +116,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "EmailAddress": "bridie@crooks.name",
-  "AppointmentId": 229
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetParticipantInfoFromEmailAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Position": "voluptate",
-  "PersonId": 617,
-  "Mrmrs": "qui",
-  "Firstname": "Sebastian",
-  "Lastname": "Schumm",
-  "MiddleName": "Ebert-Hahn",
-  "Title": "optio",
-  "Description": "Inverse modular extranet",
-  "Email": "gillian@vonruedengleichner.name",
-  "FullName": "Pauline Streich",
-  "DirectPhone": "344-998-0327 x27398",
-  "FormalName": "Conroy Inc and Sons",
-  "CountryId": 187,
-  "ContactId": 388,
-  "ContactName": "Glover-Stanton",
-  "Retired": 562,
-  "Rank": 106,
-  "ActiveInterests": 94,
-  "ContactDepartment": "",
-  "ContactCountryId": 729,
-  "ContactOrgNr": "889973",
-  "FaxPhone": "(254)912-4352",
-  "MobilePhone": "726-619-4579 x4694",
-  "ContactPhone": "275.121.4056 x48000",
-  "AssociateName": "Renner LLC",
-  "AssociateId": 773,
-  "UsePersonAddress": false,
-  "ContactFax": "perspiciatis",
-  "Kanafname": "temporibus",
-  "Kanalname": "in",
-  "Post1": "qui",
-  "Post2": "iure",
-  "Post3": "repellat",
-  "EmailName": "adonis_anderson@bradtke.biz",
-  "ContactFullName": "Mr. Isaac Carolyn Grady DDS",
-  "ActiveErpLinks": 75,
-  "TicketPriorityId": 134,
-  "SupportLanguageId": 444,
-  "SupportAssociateId": 582,
-  "CategoryName": "VIP Customer",
-  "PersonNumber": "325312",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 939
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetParticipantInfoFromEmailAddress.md)]

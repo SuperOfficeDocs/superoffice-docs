@@ -115,55 +115,8 @@ SystemEventEntity  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/SystemEvent/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "quam",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "quam",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1SystemEventEntity_PatchSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SystemEventEntity  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 910,
-  "Scope": "Database",
-  "Eta": "2007-06-01T02:30:52.9442767+02:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "quis",
-  "ExtraInfo": 614,
-  "Owner": 293,
-  "UpdatedCount": 617,
-  "Registered": "2001-06-15T02:30:52.9442767+02:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SystemEventEntity_PatchSystemEventEntity.md)]

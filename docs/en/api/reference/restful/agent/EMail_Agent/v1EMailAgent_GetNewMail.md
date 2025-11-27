@@ -84,70 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetNewMail
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Folders": [
-    463,
-    676
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetNewMail.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ServerId": 37,
-    "MessageId": "consequatur",
-    "Subject": "nemo",
-    "From": null,
-    "To": [
-      {
-        "ContactId": 585,
-        "ContactName": "Swaniawski Inc and Sons",
-        "PersonId": 676,
-        "PersonName": "Ritchie-Stracke",
-        "AssociateId": 688,
-        "Address": "reprehenderit",
-        "EmailId": 221,
-        "DuplicatePersonIds": [
-          288,
-          897
-        ],
-        "Name": "Thompson, Hilll and Auer",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 855
-          }
-        }
-      }
-    ],
-    "Sent": "1999-08-05T02:30:47.2413353+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 483,
-    "EMailSOInfo": null,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 871
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetNewMail.md)]

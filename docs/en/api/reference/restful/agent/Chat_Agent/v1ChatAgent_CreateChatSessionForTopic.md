@@ -102,63 +102,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/CreateChatSessionForTopic
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 397
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_CreateChatSessionForTopic.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 649,
-  "TopicId": 60,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "saepe",
-  "CustomerHost": "dolorum",
-  "CustomerName": "Lang-Kunde",
-  "CustomerEmail": "beatrice.klocko@leffler.info",
-  "CustomerPhone": "201-354-4025 x95796",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Ankunding-Wehner",
-  "Status": "Closed",
-  "FirstMessage": "illum",
-  "LastMessage": "nihil",
-  "WhenRequested": "1998-11-25T02:30:46.9132188+01:00",
-  "WhenStarted": "2000-12-22T02:30:46.9132188+01:00",
-  "WhenEnded": "2022-01-06T02:30:46.9132188+01:00",
-  "WhenIdle": "1998-08-27T02:30:46.9132188+02:00",
-  "WhenFetched": "2021-08-20T02:30:46.9132188+02:00",
-  "SessionKey": "reiciendis",
-  "InitialQueuePos": 74,
-  "AlertLevel": 468,
-  "Rank": 129,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 851,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_CreateChatSessionForTopic.md)]

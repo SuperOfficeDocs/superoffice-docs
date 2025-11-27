@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryTerm/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_CreateDefaultDeliveryTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 627,
-  "Name": "Bahringer Group",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "UdListDefinitionId": 289,
-  "Rank": 61,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_CreateDefaultDeliveryTerm.md)]

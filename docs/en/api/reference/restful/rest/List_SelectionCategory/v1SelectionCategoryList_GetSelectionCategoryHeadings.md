@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SelectionCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_GetSelectionCategoryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 51,
-    "Name": "Grimes-Deckow",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "Rank": 29,
-    "UdListDefinitionId": 687,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 279
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_GetSelectionCategoryHeadings.md)]

@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentUrl
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 39,
-  "VersionId": "quis",
-  "WriteableUrl": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentUrl.md)]

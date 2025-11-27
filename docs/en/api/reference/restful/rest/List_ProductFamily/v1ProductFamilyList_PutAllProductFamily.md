@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductFamily/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 309,
-    "Name": "Huels, Konopelski and Connelly",
-    "Tooltip": "quidem",
-    "Deleted": true,
-    "UdListDefinitionId": 304,
-    "Rank": 344
-  },
-  {
-    "Id": 309,
-    "Name": "Huels, Konopelski and Connelly",
-    "Tooltip": "quidem",
-    "Deleted": true,
-    "UdListDefinitionId": 304,
-    "Rank": 344
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_PutAllProductFamily.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 294,
-    "Name": "Marvin-Murphy",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "UdListDefinitionId": 912,
-    "Rank": 319,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_PutAllProductFamily.md)]

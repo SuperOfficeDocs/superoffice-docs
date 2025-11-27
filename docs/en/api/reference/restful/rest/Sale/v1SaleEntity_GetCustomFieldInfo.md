@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Nolan, Okuneva and Bode",
-  "DisplayName": "Okuneva-Kunze",
-  "Description": "Realigned real-time data-warehouse",
-  "ShortLabel": "at",
-  "HideLabel": true,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 333,
-  "TemplateVariableName": "Sipes, Runolfsson and Halvorson"
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetCustomFieldInfo.md)]

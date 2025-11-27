@@ -77,32 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SaveDocumentTemplateStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 363,
-  "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 686
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SaveDocumentTemplateStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Brakus-Weissnat",
-  "Description": "Digitized tangible approach",
-  "ExternalReference": "neque",
-  "MimeType": "aperiam",
-  "PluginId": 245
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SaveDocumentTemplateStream.md)]

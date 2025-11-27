@@ -65,36 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailAttachment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Team-oriented uniform software",
-  "Filename": "officiis",
-  "Size": 644,
-  "Type": "quia",
-  "Encoding": "delectus",
-  "Id": "et",
-  "Disposition": "optio",
-  "IsSafeFileExtension": false,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailAttachment.md)]

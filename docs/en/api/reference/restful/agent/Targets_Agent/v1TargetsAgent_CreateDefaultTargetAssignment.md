@@ -62,39 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetAssignment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetAssignmentInfoId": 391,
-  "Values": [
-    730,
-    52
-  ],
-  "Locked": false,
-  "TargetAssociate": null,
-  "TargetContact": null,
-  "TargetUserGroup": null,
-  "Currency": null,
-  "DimensionListItem": 176,
-  "DimensionListItemDisplayName": "Lang-Klein",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetAssignment.md)]

@@ -61,6 +61,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AudienceLayout_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AudienceVisibility_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AudienceVisibility_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BaseTZLocation_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BaseTZLocation_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BatchTaskDefinition_RegisteredAssociateId
@@ -122,6 +124,12 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Contact_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Contact_SupportAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Contact_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CounterValue_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CounterValue_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CountryGroupLink_RegisteredAssociateId
@@ -705,6 +713,10 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TemporaryKey_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Text_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Text_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypePriority_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypePriority_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypeStatus_RegisteredAssociateId
@@ -16421,6 +16433,144 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CategoryFamilyTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_CategoryFamily_UpdatedAssociateId As TargetedLeftOuterJoin(Of CategoryFamilyTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CategoryFamily_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  id: LeftOuterJoin_Copilot_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Copilot_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to Copilot.<xref href="SuperOffice.CRM.Data.CopilotTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotTableInfo> LeftOuterJoin_Copilot_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Copilot_RegisteredAssociateId As TargetedLeftOuterJoin(Of CopilotTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  id: LeftOuterJoin_Copilot_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Copilot_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to Copilot.<xref href="SuperOffice.CRM.Data.CopilotTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotTableInfo> LeftOuterJoin_Copilot_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Copilot_UpdatedAssociateId As TargetedLeftOuterJoin(Of CopilotTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  id: LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to CopilotDataSource.<xref href="SuperOffice.CRM.Data.CopilotDataSourceTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotDataSourceTableInfo> LeftOuterJoin_CopilotDataSource_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CopilotDataSource_RegisteredAssociateId As TargetedLeftOuterJoin(Of CopilotDataSourceTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  id: LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to CopilotDataSource.<xref href="SuperOffice.CRM.Data.CopilotDataSourceTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotDataSourceTableInfo> LeftOuterJoin_CopilotDataSource_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CopilotDataSource_UpdatedAssociateId As TargetedLeftOuterJoin(Of CopilotDataSourceTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  id: LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to CopilotDataSourceSetting.<xref href="SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotDataSourceSettingTableInfo> LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId As TargetedLeftOuterJoin(Of CopilotDataSourceSettingTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  id: LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to CopilotDataSourceSetting.<xref href="SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<CopilotDataSourceSettingTableInfo> LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId As TargetedLeftOuterJoin(Of CopilotDataSourceSettingTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ScriptTrace_AssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ScriptTrace_AssociateId
   id: LeftOuterJoin_ScriptTrace_AssociateId
@@ -19342,6 +19492,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_UtmParameters_UpdatedAssociateId As TargetedLeftOuterJoin(Of UtmParametersTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  id: LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to AutomatedCategoryUpdate.<xref href="SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo> LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId As TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  id: LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to AutomatedCategoryUpdate.<xref href="SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo> LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId As TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   id: LeftOuterJoin_TicketType_RegisteredAssociateId
@@ -19480,6 +19676,98 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId As TargetedLeftOuterJoin(Of TicketTypeStatusTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  id: LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TicketRelationDef.<xref href="SuperOffice.CRM.Data.TicketRelationDefTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelationDefTableInfo> LeftOuterJoin_TicketRelationDef_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationDefTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelationDef_RegisteredAssociateId As TargetedLeftOuterJoin(Of TicketRelationDefTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  id: LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TicketRelationDef.<xref href="SuperOffice.CRM.Data.TicketRelationDefTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelationDefTableInfo> LeftOuterJoin_TicketRelationDef_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationDefTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelationDef_UpdatedAssociateId As TargetedLeftOuterJoin(Of TicketRelationDefTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  id: LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TicketRelation.<xref href="SuperOffice.CRM.Data.TicketRelationTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelationTableInfo> LeftOuterJoin_TicketRelation_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelation_RegisteredAssociateId As TargetedLeftOuterJoin(Of TicketRelationTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  id: LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TicketRelation.<xref href="SuperOffice.CRM.Data.TicketRelationTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketRelationTableInfo> LeftOuterJoin_TicketRelation_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelation_UpdatedAssociateId As TargetedLeftOuterJoin(Of TicketRelationTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -40400,6 +40688,195 @@ references:
   name: LeftOuterJoin_CategoryFamily_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_CategoryFamily_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CategoryFamily_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.CopilotTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotTableInfo.html#SuperOffice_CRM_Data_CopilotTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: CopilotTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_Copilot_RegisteredAssociateId
+  name: LeftOuterJoin_Copilot_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<CopilotTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CopilotTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CopilotTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CopilotTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CopilotTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CopilotTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.CopilotTableInfo
+    name: CopilotTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.CopilotTableInfo
+    name: CopilotTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.CopilotTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotTableInfo.html#SuperOffice_CRM_Data_CopilotTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: CopilotTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_Copilot_UpdatedAssociateId
+  name: LeftOuterJoin_Copilot_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Copilot_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotDataSourceTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html#SuperOffice_CRM_Data_CopilotDataSourceTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: CopilotDataSourceTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  name: LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<CopilotDataSourceTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CopilotDataSourceTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CopilotDataSourceTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CopilotDataSourceTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CopilotDataSourceTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CopilotDataSourceTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+    name: CopilotDataSourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+    name: CopilotDataSourceTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotDataSourceTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.html#SuperOffice_CRM_Data_CopilotDataSourceTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: CopilotDataSourceTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  name: LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSource_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html#SuperOffice_CRM_Data_CopilotDataSourceSettingTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: CopilotDataSourceSettingTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  name: LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<CopilotDataSourceSettingTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CopilotDataSourceSettingTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CopilotDataSourceSettingTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CopilotDataSourceSettingTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+    name: CopilotDataSourceSettingTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+    name: CopilotDataSourceSettingTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.html#SuperOffice_CRM_Data_CopilotDataSourceSettingTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: CopilotDataSourceSettingTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  name: LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_CopilotDataSourceSetting_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.ScriptTraceTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.ScriptTraceTableInfo.AssociateId
   isExternal: true
@@ -44278,6 +44755,69 @@ references:
   name: LeftOuterJoin_UtmParameters_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html#SuperOffice_CRM_Data_AutomatedCategoryUpdateTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: AutomatedCategoryUpdateTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  name: LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AutomatedCategoryUpdateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html#SuperOffice_CRM_Data_AutomatedCategoryUpdateTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: AutomatedCategoryUpdateTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  name: LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   isExternal: true
@@ -44467,3 +45007,129 @@ references:
   name: LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.TicketRelationDefTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html#SuperOffice_CRM_Data_TicketRelationDefTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: TicketRelationDefTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TicketRelationDefTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  name: LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationDefTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationDefTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TicketRelationDefTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketRelationDefTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketRelationDefTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketRelationDefTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketRelationDefTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketRelationDefTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+    name: TicketRelationDefTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+    name: TicketRelationDefTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.TicketRelationDefTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationDefTableInfo.html#SuperOffice_CRM_Data_TicketRelationDefTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: TicketRelationDefTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TicketRelationDefTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  name: LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelationDef_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.TicketRelationTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.TicketRelationTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationTableInfo.html#SuperOffice_CRM_Data_TicketRelationTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: TicketRelationTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  name: LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TicketRelationTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketRelationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketRelationTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketRelationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketRelationTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketRelationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+    name: TicketRelationTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelationTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+    name: TicketRelationTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketRelationTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.TicketRelationTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.TicketRelationTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketRelationTableInfo.html#SuperOffice_CRM_Data_TicketRelationTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: TicketRelationTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  name: LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketRelation_UpdatedAssociateId

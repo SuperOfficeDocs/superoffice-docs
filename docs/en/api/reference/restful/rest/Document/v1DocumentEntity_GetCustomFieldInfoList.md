@@ -65,35 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/CustomField
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetCustomFieldInfoList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldType": "Attachment",
-    "FieldName": "Cartwright Inc and Sons",
-    "DisplayName": "Schaden Group",
-    "Description": "User-centric 4th generation budgetary management",
-    "ShortLabel": "atque",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 717,
-    "TemplateVariableName": "Wintheiser LLC"
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetCustomFieldInfoList.md)]

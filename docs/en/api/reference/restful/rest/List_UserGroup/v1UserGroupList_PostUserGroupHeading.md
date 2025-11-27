@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/UserGroup/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 491,
-  "Name": "Greenfelder Inc and Sons",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 897,
-  "UdListDefinitionId": 367
-}
-```
+[!include[sample request](../../samples/rest/request/v1UserGroupList_PostUserGroupHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 992,
-  "Name": "Waelchi LLC",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 502,
-  "UdListDefinitionId": 257,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1UserGroupList_PostUserGroupHeading.md)]

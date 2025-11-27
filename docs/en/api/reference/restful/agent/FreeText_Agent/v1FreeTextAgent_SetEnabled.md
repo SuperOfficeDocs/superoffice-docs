@@ -63,23 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/FreeText/SetEnabled
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Enabled": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1FreeTextAgent_SetEnabled.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FreeTextAgent_SetEnabled.md)]

@@ -95,60 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/ChatTopicsForUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_ChatTopicsForUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ChatTopicId": 803,
-    "Name": "Kshlerin, Zulauf and Hirthe",
-    "Description": "Proactive clear-thinking pricing structure",
-    "WelcomeMessage": "animi",
-    "Language": null,
-    "LastAccept": "2012-08-17T02:30:46.8975935+02:00",
-    "SecondsPrAccept": 132,
-    "AlertRecipient": "dolorem",
-    "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "provident",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "harum",
-    "WarnNewChatMinutes": 645,
-    "WarnManagerNewChatMinutes": 453,
-    "TicketEnabled": true,
-    "TicketCategory": null,
-    "TicketPriority": null,
-    "OpeningHoursEnabled": false,
-    "OpeningHours": null,
-    "Widget": null,
-    "BotEnabled": true,
-    "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 502,
-    "WarnManagerChatMessageMinutes": 717,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 975,
-    "OfflineFormQueueLength": 385,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "in",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 212
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_ChatTopicsForUser.md)]

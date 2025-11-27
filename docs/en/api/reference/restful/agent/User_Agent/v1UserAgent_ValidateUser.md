@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/ValidateUser
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "User": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_ValidateUser.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "voluptatem",
-  "2": "atque"
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_ValidateUser.md)]

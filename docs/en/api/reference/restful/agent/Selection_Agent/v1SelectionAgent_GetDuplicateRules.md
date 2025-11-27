@@ -67,47 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetDuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetDuplicateRules.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Kuhlman Inc and Sons",
-    "DisplayName": "Price, Schowalter and Gulgowski",
-    "DisplayTooltip": "officiis",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
-      }
-    }
-  },
-  {
-    "Name": "Kuhlman Inc and Sons",
-    "DisplayName": "Price, Schowalter and Gulgowski",
-    "DisplayTooltip": "officiis",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetDuplicateRules.md)]

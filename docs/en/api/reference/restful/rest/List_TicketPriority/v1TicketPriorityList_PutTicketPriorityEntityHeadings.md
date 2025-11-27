@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketPriority/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 562,
-    "Name": "Schuppe-Schinner",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "Rank": 792,
-    "UdListDefinitionId": 678
-  },
-  {
-    "HeadingId": 562,
-    "Name": "Schuppe-Schinner",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "Rank": 792,
-    "UdListDefinitionId": 678
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TicketPriorityList_PutTicketPriorityEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 440,
-    "Name": "Ryan-Williamson",
-    "Tooltip": "vero",
-    "Deleted": true,
-    "Rank": 30,
-    "UdListDefinitionId": 117,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 279
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketPriorityList_PutTicketPriorityEntityHeadings.md)]

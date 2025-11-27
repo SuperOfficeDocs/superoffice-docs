@@ -81,45 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 99,
-  "Name": "Hoeger, Bins and Marvin",
-  "CurrencyId": 336,
-  "EnglishName": "Mayert Group",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Right-sized zero defect support",
-  "OrgNrText": "631935",
-  "InterAreaPrefix": "in",
-  "DialInPrefix": "cupiditate",
-  "ZipPrefix": "ut",
-  "DomainName": "Wolff-Walter",
-  "AddressLayoutId": 96,
-  "DomesticAddressLayoutId": 348,
-  "ForeignAddressLayoutId": 714,
-  "Rank": 819,
-  "Tooltip": "sit",
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultCountry.md)]

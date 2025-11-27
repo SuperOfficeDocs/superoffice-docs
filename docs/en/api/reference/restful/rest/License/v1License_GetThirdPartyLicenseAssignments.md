@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/License/{moduleOwner}/{associateId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1License_GetThirdPartyLicenseAssignments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": false,
-    "Total": 581,
-    "Tooltip": "ut",
-    "CanAssign": true,
-    "Free": 861,
-    "InUse": 993,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 669,
-    "Name": "Rau-Rice",
-    "Description": "Profound tertiary help-desk",
-    "PrerequisiteModuleName": "Langosh-Kulas",
-    "SortOrder": 107,
-    "ExtraFlags": 844,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 626
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1License_GetThirdPartyLicenseAssignments.md)]

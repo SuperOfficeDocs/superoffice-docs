@@ -96,61 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 881,
-  "StartTime": "2009-06-25T02:30:47.2257111+02:00",
-  "EndTime": "2006-12-20T02:30:47.2257111+01:00",
-  "Count": 835,
-  "DocumentTemplateIds": [
-    2,
-    897
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetContactDocumentsByTemplateTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 89,
-    "Attention": "dignissimos",
-    "Header": "atque",
-    "Name": "Kunde, Christiansen and Rohan",
-    "OurRef": "maiores",
-    "YourRef": "saepe",
-    "Description": "Programmable cohesive benchmark",
-    "DocumentTemplate": "architecto",
-    "IsPublished": true,
-    "PersonId": 285,
-    "PersonFullName": "Ada Balistreri",
-    "AssociateFullName": "Kyle Kautzer",
-    "ContactId": 458,
-    "ContactName": "Cremin Group",
-    "ProjectId": 2,
-    "ProjectName": "Stehr-Kuhn",
-    "AssociateId": 743,
-    "Snum": 817,
-    "SaleId": 116,
-    "SaleName": "Rohan, Donnelly and Quigley",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 588
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetContactDocumentsByTemplateTypes.md)]

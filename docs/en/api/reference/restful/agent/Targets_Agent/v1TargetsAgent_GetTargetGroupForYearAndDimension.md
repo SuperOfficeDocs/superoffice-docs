@@ -78,62 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetYear": 310,
-  "DimensionId": 535
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetGroupForYearAndDimension.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 155,
-  "Year": 940,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
-  "TargetAssignments": [
-    {
-      "TargetAssignmentInfoId": 745,
-      "Values": [
-        365,
-        771
-      ],
-      "Locked": false,
-      "TargetAssociate": null,
-      "TargetContact": null,
-      "TargetUserGroup": null,
-      "Currency": null,
-      "DimensionListItem": 51,
-      "DimensionListItemDisplayName": "Thiel-Osinski",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
-        }
-      }
-    }
-  ],
-  "TargetDimension": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetGroupForYearAndDimension.md)]

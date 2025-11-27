@@ -87,48 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/GetPreviewMailing
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentAddrId": 593
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_GetPreviewMailing.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SendingTime": "2004-04-14T02:30:47.4600781+02:00",
-  "Status": "Blocked",
-  "ShipmentId": 578,
-  "ShipmentDescription": "Function-based hybrid system engine",
-  "FromAddress": "vitae",
-  "Configuration": 538,
-  "ContactId": 732,
-  "ContactName": "Kemmer, Marks and Reinger",
-  "PersonId": 21,
-  "PersonFullName": "Mrs. Obie Kuhic",
-  "ShipmentType": "aut",
-  "MessageId": 7,
-  "MessageSubject": "totam",
-  "DocumentMessageId": 675,
-  "Opened": "2010-01-21T02:30:47.4600781+01:00",
-  "LinkClicks": 199,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 313
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_GetPreviewMailing.md)]

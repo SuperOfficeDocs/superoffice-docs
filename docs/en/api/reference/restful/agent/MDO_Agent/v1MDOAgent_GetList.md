@@ -86,75 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Wehner, Kautzer and Zieme",
-  "ForceFlatList": false,
-  "AdditionalInfo": "rerum",
-  "OnlyHistory": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 283,
-    "Name": "Prosacco, Dicki and Dibbert",
-    "ToolTip": "Eum doloribus eum quia ut sed magnam aut.",
-    "Deleted": false,
-    "Rank": 202,
-    "Type": "eaque",
-    "ChildItems": [
-      {
-        "Id": 716,
-        "Name": "Bailey Group",
-        "ToolTip": "Libero similique ut maiores quia laudantium.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "eveniet",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "et",
-        "ColorBlock": 9,
-        "ExtraInfo": "quod",
-        "StyleHint": "commodi",
-        "FullName": "Miss Rigoberto Joey Conn Jr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 578
-          }
-        }
-      }
-    ],
-    "IconHint": "excepturi",
-    "ColorBlock": 91,
-    "ExtraInfo": "eius",
-    "StyleHint": "ea",
-    "FullName": "Ms. Torrance Considine",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetList.md)]

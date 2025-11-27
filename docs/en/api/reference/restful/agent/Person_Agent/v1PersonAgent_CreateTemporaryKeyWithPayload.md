@@ -72,27 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/CreateTemporaryKeyWithPayload
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 761,
-  "PersonId": 201,
-  "Expires": "2018-12-18T02:30:47.5538257+01:00",
-  "Payload": "non"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_CreateTemporaryKeyWithPayload.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"in"
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_CreateTemporaryKeyWithPayload.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=306
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=956
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,113 +99,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetDocumentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 19,
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "illum",
-  "Name": "Lebsack LLC",
-  "OurRef": "rerum",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2024-01-22T02:30:47.1632139+01:00",
-  "UpdatedDate": "2016-04-13T02:30:47.1632139+02:00",
-  "Description": "User-centric zero tolerance initiative",
-  "DocumentTemplate": null,
-  "Person": null,
-  "Associate": null,
-  "Contact": null,
-  "Project": null,
-  "Date": "2014-06-26T02:30:47.1632139+02:00",
-  "ExternalRef": "qui",
-  "Completed": "Completed",
-  "ActiveLinks": 392,
-  "Type": "BookingForChecklist",
-  "Links": [
-    {
-      "EntityName": "Ward Inc and Sons",
-      "Id": 866,
-      "Description": "Quality-focused intangible structure",
-      "ExtraInfo": "illum",
-      "LinkId": 756,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 287
-        }
-      }
-    }
-  ],
-  "LockSemantics": "Locking",
-  "Sale": null,
-  "SuggestedDocumentId": 123,
-  "Snum": 193,
-  "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Miss Dianna Kitty Torp"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "iure"
-  },
-  "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "qui"
-  },
-  "PublishEventDate": "2015-11-09T02:30:47.1632139+01:00",
-  "PublishTo": "2012-06-11T02:30:47.1632139+02:00",
-  "PublishFrom": "2019-03-07T02:30:47.1632139+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 649,
-      "Visibility": "All",
-      "DisplayValue": "corrupti",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 534
-        }
-      }
-    },
-    {
-      "VisibleId": 649,
-      "Visibility": "All",
-      "DisplayValue": "corrupti",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 534
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetDocumentEntity.md)]

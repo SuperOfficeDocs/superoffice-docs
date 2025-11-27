@@ -66,40 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_CreateDefaultBlobEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 543,
-  "BlobSize": 643,
-  "Description": "Compatible didactic utilisation",
-  "ExtraInfo": "sapiente",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "similique",
-  "OriginalSize": 620,
-  "CreatedDate": "2013-01-14T02:30:46.8194719+01:00",
-  "UpdatedDate": "2019-09-18T02:30:46.8194719+02:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "distinctio",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_CreateDefaultBlobEntity.md)]

@@ -62,37 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Archive/{archiveProviderName}/$metadata
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1Archive_GetArchiveMetadata.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
-  "value": [
-    {
-      "PrimaryKey": 2840,
-      "EntityName": "sale",
-      "saleId": 2840,
-      "contactId": 4908,
-      "name": "Klein-Kozey"
-    },
-    {
-      "PrimaryKey": 1945,
-      "EntityName": "sale",
-      "saleId": 1945,
-      "contactId": 7726,
-      "name": "Thiel, Gibson and Kuhlman"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1Archive_GetArchiveMetadata.md)]

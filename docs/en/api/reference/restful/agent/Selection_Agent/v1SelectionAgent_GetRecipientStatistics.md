@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/GetRecipientStatistics
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 235
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_GetRecipientStatistics.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Total": 520,
-  "ValidPostalAddresses": 389,
-  "ValidEmailAddresses": 225,
-  "ValidFaxNumbers": 277,
-  "NoAddresses": 886,
-  "NoFaxOrEmails": 264,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_GetRecipientStatistics.md)]

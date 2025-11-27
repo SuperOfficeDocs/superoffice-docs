@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/PaymentTerm/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 326,
-  "Name": "Kuvalis-Quitzon",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "UdListDefinitionId": 532,
-  "Rank": 25
-}
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_PutPaymentTerm.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 725,
-  "Name": "Bruen-Bartell",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "UdListDefinitionId": 382,
-  "Rank": 896,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_PutPaymentTerm.md)]

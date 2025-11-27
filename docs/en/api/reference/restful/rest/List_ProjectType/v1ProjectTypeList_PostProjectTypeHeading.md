@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ProjectType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 706,
-  "Name": "Daugherty-Swift",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "Rank": 420,
-  "UdListDefinitionId": 238
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_PostProjectTypeHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 572,
-  "Name": "Strosin Inc and Sons",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 746,
-  "UdListDefinitionId": 516,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_PostProjectTypeHeading.md)]

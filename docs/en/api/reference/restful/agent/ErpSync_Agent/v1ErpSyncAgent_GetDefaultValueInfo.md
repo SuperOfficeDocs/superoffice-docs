@@ -84,42 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpFieldId": 795
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetDefaultValueInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpFieldId": 277,
-  "DefaultValue": "reiciendis",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "quia",
-  "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "dolor",
-  "FieldType": "Checkbox",
-  "ListName": "Sipes-Aufderhar",
-  "Access": "Mandatory",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 687
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetDefaultValueInfo.md)]

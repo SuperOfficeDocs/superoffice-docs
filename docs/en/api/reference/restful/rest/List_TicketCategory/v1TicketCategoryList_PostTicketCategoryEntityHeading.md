@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/TicketCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 316,
-  "Name": "Morar LLC",
-  "Tooltip": "magnam",
-  "Deleted": true,
-  "Rank": 249,
-  "UdListDefinitionId": 404
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_PostTicketCategoryEntityHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 38,
-  "Name": "Schmeler-Flatley",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 795,
-  "UdListDefinitionId": 626,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 461
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_PostTicketCategoryEntityHeading.md)]

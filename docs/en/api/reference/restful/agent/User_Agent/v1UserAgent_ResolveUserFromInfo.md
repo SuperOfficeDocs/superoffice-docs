@@ -82,45 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/ResolveUserFromInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 62,
-  "PersonName": "Strosin-Jerde",
-  "PhoneNumbers": [
-    "875779",
-    "1186348"
-  ],
-  "Emails": [
-    "lillie_turner@yundt.ca",
-    "nina@bruen.us"
-  ],
-  "UserType": "AnonymousAssociate",
-  "Credential": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_ResolveUserFromInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "User": null,
-  "PersonCreated": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_ResolveUserFromInfo.md)]

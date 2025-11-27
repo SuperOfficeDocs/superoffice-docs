@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=586
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=470
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -83,51 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 806,
-  "ParentId": 672,
-  "Name": "O'Hara Group",
-  "Fullname": "itaque",
-  "CategoryMaster": 230,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Morissette-D'Amore",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 602,
-  "ReplyTemplate": 120,
-  "NotificationEmail": "walker_muller@ondrickaschumm.biz",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 303,
-  "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "quas"
-  },
-  "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "vel"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketCategoryEntity.md)]

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | shipmentMessageBlockEntityId | int32 | **Required** The identity of the ShipmentMessageBlockEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=117
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=831
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_DeleteShipmentMessageBlockEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_DeleteShipmentMessageBlockEntity.md)]

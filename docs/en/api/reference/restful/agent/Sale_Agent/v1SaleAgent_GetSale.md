@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=925
+POST /api/v1/Agents/Sale/GetSale?saleId=58
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -90,52 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSale
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSale.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactName": "Kuphal, Strosin and Parisian",
-  "SaleDate": "2013-09-03T02:30:47.7569437+02:00",
-  "SaleId": 582,
-  "Probability": 610,
-  "Title": "explicabo",
-  "Amount": 25263.174,
-  "Currency": "recusandae",
-  "ProjectName": "Renner, Carroll and Connelly",
-  "AssociateFullName": "Mr. Dayna Doyle PhD",
-  "Description": "Open-architected even-keeled installation",
-  "Status": "Lost",
-  "WeightedAmount": 3046.248,
-  "ProjectId": 908,
-  "EarningPercent": 27171.78,
-  "Earning": 3951.9739999999997,
-  "ContactId": 899,
-  "AssociateId": 211,
-  "PersonId": 974,
-  "SaleTypeId": 976,
-  "SaleTypeName": "Gerlach-Wyman",
-  "PersonFullName": "Marvin Crooks",
-  "Completed": "Completed",
-  "ActiveErpLinks": 958,
-  "NextDueDate": "2025-03-08T02:30:47.7569437+01:00",
-  "Number": "449956",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 830
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSale.md)]

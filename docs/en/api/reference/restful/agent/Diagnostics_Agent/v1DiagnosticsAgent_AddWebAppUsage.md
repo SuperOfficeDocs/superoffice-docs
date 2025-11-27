@@ -63,33 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/AddWebAppUsage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebAppUsages": [
-    {
-      "WebAppUsageId": 105,
-      "AssocId": 552,
-      "Timestamp": "2005-12-10T02:30:47.0694635+01:00",
-      "ViewState": "aut",
-      "AggregateCount": 646,
-      "AggregateBin": 579,
-      "Version": 144
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_AddWebAppUsage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_AddWebAppUsage.md)]

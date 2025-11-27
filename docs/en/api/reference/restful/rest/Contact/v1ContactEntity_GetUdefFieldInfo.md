@@ -90,61 +90,8 @@ ContactEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/UdefLayout/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 458,
-  "ColumnId": 150,
-  "FieldDefault": "commodi",
-  "FieldHeight": 901,
-  "FieldLabel": "dolorem",
-  "FieldLeft": 925,
-  "FieldTop": 697,
-  "FieldType": "Checkbox",
-  "FieldWidth": 692,
-  "FormatMask": "dolorum",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 413,
-  "LabelLeft": 438,
-  "LabelTop": 344,
-  "LabelWidth": 768,
-  "LastVersionId": 337,
-  "ListTableId": 284,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 411,
-  "ProgId": "eos",
-  "IsReadOnly": false,
-  "ShortLabel": "dicta",
-  "TabOrder": 47,
-  "TextLength": 59,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 343,
-  "UDListDefinitionId": 224,
-  "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Halvorson Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Windler-Rowe",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetUdefFieldInfo.md)]

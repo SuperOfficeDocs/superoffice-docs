@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/QuoteApproveReason/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 731,
-  "Name": "Lind Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 373,
-  "UdListDefinitionId": 489
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_PostQuoteApproveReasonHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 59,
-  "Name": "Yundt-Sanford",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 533,
-  "UdListDefinitionId": 712,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_PostQuoteApproveReasonHeading.md)]

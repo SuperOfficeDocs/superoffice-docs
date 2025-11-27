@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentSource/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_GetConsentSourceHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 487,
-    "Name": "Lowe, Mills and Dickinson",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "Rank": 2,
-    "UdListDefinitionId": 667,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_GetConsentSourceHeadings.md)]

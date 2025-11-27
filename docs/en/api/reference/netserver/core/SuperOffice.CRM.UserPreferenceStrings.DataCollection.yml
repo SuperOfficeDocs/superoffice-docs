@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.TimeKeeping
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
@@ -251,6 +252,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UserSync As String = "UserSync"
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.TimeKeeping
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.TimeKeeping
+  id: TimeKeeping
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: TimeKeeping
+  nameWithType: UserPreferenceStrings.DataCollection.TimeKeeping
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.TimeKeeping
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: Opt-in preference for UserSync
+  example: []
+  syntax:
+    content: public const string TimeKeeping = "TimeKeeping"
+    return:
+      type: System.String
+    content.vb: Public Const TimeKeeping As String = "TimeKeeping"
 - uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
   id: CollectionUrl

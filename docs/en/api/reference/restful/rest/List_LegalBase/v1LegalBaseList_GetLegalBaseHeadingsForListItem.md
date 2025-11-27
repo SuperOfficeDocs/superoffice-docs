@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_GetLegalBaseHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 4,
-    "Name": "Gulgowski, Armstrong and Veum",
-    "ToolTip": "Quod illum.",
-    "Deleted": true,
-    "Rank": 539,
-    "Type": "blanditiis",
-    "ColorBlock": 519,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "1998-08-02T02:30:53.3036395+02:00",
-    "ChildItems": [
-      {
-        "Id": 495,
-        "Name": "Goldner, Mann and Schamberger",
-        "ToolTip": "Fuga est vel aut.",
-        "Deleted": false,
-        "Rank": 740,
-        "Type": "reprehenderit",
-        "ColorBlock": 429,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2008-12-19T02:30:53.3036395+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "quod",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Jessyca Nikolaus",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 143
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Sean Gutmann",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_GetLegalBaseHeadingsForListItem.md)]

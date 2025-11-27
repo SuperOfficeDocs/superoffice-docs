@@ -68,29 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/SetDeletedStatusByIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketIds": [
-    872,
-    188
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_SetDeletedStatusByIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  346,
-  285
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_SetDeletedStatusByIds.md)]

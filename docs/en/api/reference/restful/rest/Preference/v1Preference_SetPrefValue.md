@@ -68,33 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Preference/{section}/{key}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "quia",
-  "Specification": null,
-  "DisplayValue": "quae",
-  "DisplayTooltip": "veritatis",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 407,
-  "PrefDescId": 830,
-  "TableName": "Swift, D'Amore and Trantow",
-  "UserPreferenceId": 239
-}
-```
+[!include[sample request](../../samples/rest/request/v1Preference_SetPrefValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1Preference_SetPrefValue.md)]

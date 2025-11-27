@@ -17,7 +17,7 @@ Archive of TargetValue - used by .
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"targetValue"|[targetValue]|
+|"targetValue"|targetValue|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -414,7 +414,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=contact/contactId,contact/contactAssociate/portraitThumbnail,contact/contactSupportPerson/consentSourceEmarketing
+GET /api/v1/archive/TargetValueSub?$select=contact/contactSupportPerson/whenUpdatedByWorkflow,contact/contactSupportPerson/personExtra/x_person_time,contact/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

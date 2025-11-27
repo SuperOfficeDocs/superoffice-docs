@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteDenyReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 883,
-    "Name": "Feeney Inc and Sons",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 479
-  },
-  {
-    "Id": 883,
-    "Name": "Feeney Inc and Sons",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 479
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_PutAllQuoteDenyReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 211,
-    "Name": "Haley-Lynch",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 578,
-    "Rank": 564,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_PutAllQuoteDenyReason.md)]

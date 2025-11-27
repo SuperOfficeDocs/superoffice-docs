@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=et
-GET /api/v1/Contact/{id}/Sales?$top=197
-GET /api/v1/Contact/{id}/Sales?$skip=865
+GET /api/v1/Contact/{id}/Sales?$entities=aut
+GET /api/v1/Contact/{id}/Sales?$top=13
+GET /api/v1/Contact/{id}/Sales?$skip=693
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=quia
+GET /api/v1/Contact/{id}/Sales?$context=quis
 GET /api/v1/Contact/{id}/Sales?$format=JSON
-GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
+GET /api/v1/Contact/{id}/Sales?$jsonSafe=True
 GET /api/v1/Contact/{id}/Sales?$output=Display
 ```
 
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/{id}/Sales
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_Sales.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
-  "value": [
-    {
-      "PrimaryKey": 6011,
-      "EntityName": "sale",
-      "saleId": 6011,
-      "contactId": 2227,
-      "name": "Funk Inc and Sons"
-    },
-    {
-      "PrimaryKey": 1360,
-      "EntityName": "sale",
-      "saleId": 1360,
-      "contactId": 9219,
-      "name": "Kunde-Hand"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_Sales.md)]

@@ -97,60 +97,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSalesFromContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 805,
-  "OnlyOpenSales": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSalesFromContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Jaskolski, Dooley and Kunze",
-    "SaleDate": "2005-03-25T02:30:47.7881925+01:00",
-    "SaleId": 342,
-    "Probability": 169,
-    "Title": "officiis",
-    "Amount": 24592.498,
-    "Currency": "mollitia",
-    "ProjectName": "Fisher Group",
-    "AssociateFullName": "Abagail Gibson",
-    "Description": "Ergonomic object-oriented open system",
-    "Status": "Lost",
-    "WeightedAmount": 30851.095999999998,
-    "ProjectId": 173,
-    "EarningPercent": 19954.178,
-    "Earning": 11843.386,
-    "ContactId": 491,
-    "AssociateId": 469,
-    "PersonId": 93,
-    "SaleTypeId": 993,
-    "SaleTypeName": "Auer-Kub",
-    "PersonFullName": "Miss Ciara Jast",
-    "Completed": "Completed",
-    "ActiveErpLinks": 447,
-    "NextDueDate": "2021-01-16T02:30:47.7881925+01:00",
-    "Number": "1581301",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSalesFromContact.md)]

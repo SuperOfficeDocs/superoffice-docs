@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=96
+POST /api/v1/Agents/List/GetCountry?countryId=115
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 566,
-  "Name": "Purdy LLC",
-  "CurrencyId": 28,
-  "EnglishName": "Torp, King and Bradtke",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synchronised 6th generation infrastructure",
-  "OrgNrText": "583531",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "eum",
-  "DomainName": "Windler-Wolf",
-  "AddressLayoutId": 79,
-  "DomesticAddressLayoutId": 668,
-  "ForeignAddressLayoutId": 875,
-  "Rank": 784,
-  "Tooltip": "quia",
-  "Deleted": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetCountry.md)]

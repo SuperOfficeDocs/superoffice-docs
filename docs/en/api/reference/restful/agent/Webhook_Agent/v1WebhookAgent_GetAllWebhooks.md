@@ -88,50 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Webhook/GetAllWebhooks
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "NameFilter": "Rosenbaum-Oberbrunner",
-  "EventFilter": "quisquam",
-  "StatusFilter": "Active"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WebhookAgent_GetAllWebhooks.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebhookId": 124,
-    "Name": "Hayes, Larson and Hilll",
-    "Events": [
-      "nostrum",
-      "et"
-    ],
-    "TargetUrl": "http://www.example.com/",
-    "Secret": "sed",
-    "State": "Active",
-    "Type": "dolores",
-    "Headers": {
-      "Headers1": "et",
-      "Headers2": "est"
-    },
-    "Properties": {
-      "fieldName": {}
-    },
-    "Registered": "2011-10-20T02:30:48.1475549+02:00",
-    "RegisteredAssociate": null,
-    "Updated": "2002-10-10T02:30:48.1475549+02:00",
-    "UpdatedAssociate": null,
-    "ErrorsEmail": "mae@weimann.uk"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1WebhookAgent_GetAllWebhooks.md)]

@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Rating/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 900,
-    "Name": "Sawayn-Auer",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 794,
-    "UdListDefinitionId": 79
-  },
-  {
-    "HeadingId": 900,
-    "Name": "Sawayn-Auer",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 794,
-    "UdListDefinitionId": 79
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_PutSaleStageEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 190,
-    "Name": "Langworth-Krajcik",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 51,
-    "UdListDefinitionId": 334,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 722
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_PutSaleStageEntityHeadings.md)]

@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/CreateNewEntry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Duplicate": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_CreateNewEntry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-356
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_CreateNewEntry.md)]

@@ -76,43 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{udListDefinitionId}/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 124,
-  "Name": "Jones-Swaniawski",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 642,
-  "Rank": 231
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 359,
-  "Name": "Vandervort LLC",
-  "Tooltip": "a",
-  "Deleted": false,
-  "UdListDefinitionId": 899,
-  "Rank": 845,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveFromListDefinition.md)]

@@ -85,58 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatTopic/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_DefaultChatTopicEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 945,
-  "Name": "Waelchi-Halvorson",
-  "Description": "Seamless heuristic software",
-  "WelcomeMessage": "illum",
-  "Language": null,
-  "LastAccept": "2020-05-12T02:30:52.413044+02:00",
-  "SecondsPrAccept": 427,
-  "AlertRecipient": "assumenda",
-  "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "omnis",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 672,
-  "WarnManagerNewChatMinutes": 77,
-  "TicketEnabled": false,
-  "TicketCategory": null,
-  "TicketPriority": null,
-  "OpeningHoursEnabled": true,
-  "OpeningHours": null,
-  "Widget": null,
-  "BotEnabled": false,
-  "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 355,
-  "WarnManagerChatMessageMinutes": 780,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 276,
-  "OfflineFormQueueLength": 286,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "reprehenderit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_DefaultChatTopicEntity.md)]

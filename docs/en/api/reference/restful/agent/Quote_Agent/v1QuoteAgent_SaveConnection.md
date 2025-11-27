@@ -86,74 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SaveConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Connection": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SaveConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 463,
-  "ERPName": "O'Kon, Crist and Jenkins",
-  "DisplayName": "Ebert Inc and Sons",
-  "DisplayDescription": "Reduced empowering encoding",
-  "Rank": 428,
-  "ConnectorName": "Pacocha Inc and Sons",
-  "ErpConnectionId": 406,
-  "ExtraData": "ut",
-  "IsAvailable": false,
-  "InitializeResponse": null,
-  "PriceLists": [
-    {
-      "PriceListId": 16,
-      "ERPPriceListKey": "voluptatem",
-      "QuoteConnectionId": 605,
-      "Name": "Reinger Group",
-      "Description": "Intuitive value-added task-force",
-      "Currency": "doloribus",
-      "CurrencyName": "Block-Rosenbaum",
-      "ValidFrom": "2019-07-20T02:30:47.7256947+02:00",
-      "ValidTo": "2004-07-06T02:30:47.7256947+02:00",
-      "IsActive": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 618
-        }
-      }
-    }
-  ],
-  "AllAccess": false,
-  "Deleted": true,
-  "UserGroupAccessIds": [
-    325,
-    965
-  ],
-  "AssociateAccessIds": [
-    785,
-    411
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SaveConnection.md)]

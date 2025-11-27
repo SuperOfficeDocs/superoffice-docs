@@ -79,53 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketCategories
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketCategories.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketCategoryId": 363,
-    "ParentId": 154,
-    "Name": "Gorczany-Champlin",
-    "Fullname": "molestiae",
-    "CategoryMaster": 619,
-    "Flags": "AcceptWhenReplying",
-    "DelegateMethod": "Even",
-    "ExternalName": "Sporer-Smith",
-    "ClosingStatus": "Active",
-    "MsgClosingStatus": "Active",
-    "AssignmentLag": 306,
-    "ReplyTemplate": 74,
-    "NotificationEmail": "edgar_turner@shanahanmuller.name",
-    "DefaultTicketStatus": null,
-    "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 564,
-    "ExtraFields": {
-      "ExtraFields1": "in",
-      "ExtraFields2": "culpa"
-    },
-    "CustomFields": {
-      "CustomFields1": "ipsam",
-      "CustomFields2": "dolores"
-    },
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 758
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketCategories.md)]

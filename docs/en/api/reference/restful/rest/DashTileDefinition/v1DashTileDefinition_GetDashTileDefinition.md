@@ -89,50 +89,8 @@ DashTileDefinition found.
 
 ## Sample request
 
-```http!
-GET /api/v1/DashTileDefinition/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DashTileDefinition_GetDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DashTileDefinition found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 48,
-  "Name": "Pfannerstill Group",
-  "Description": "Automated reciprocal knowledge base",
-  "DefaultHeight": 420,
-  "DefaultWidth": 167,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Larson, Schmitt and Schinner",
-  "SelectionId": 587,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "tenetur",
-  "Measure": "Average",
-  "MeasureField": "dolore",
-  "SortBy": "eos",
-  "LayoutConfig": "neque",
-  "SecondarySelectionId": 492,
-  "MeasureByField": "assumenda",
-  "Usage": "Dashboard",
-  "ProviderName": "Crooks-Bernier",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTileDefinition_GetDashTileDefinition.md)]

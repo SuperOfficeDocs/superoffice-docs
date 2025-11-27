@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/QuoteApproveReason/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 133,
-  "Name": "Kling, Hagenes and Heathcote",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "UdListDefinitionId": 984,
-  "Rank": 548
-}
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_PutQuoteApproveReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 960,
-  "Name": "Hoppe-Hilpert",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 445,
-  "Rank": 758,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_PutQuoteApproveReason.md)]

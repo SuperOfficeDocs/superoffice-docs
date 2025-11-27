@@ -75,36 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuickReplyId": 177
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetPreviewQuickReply.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Leffler-Koepp",
-  "UpdatedByFullName": "Rosella Kohler",
-  "Updated": "2023-12-12T02:30:47.0538389+01:00",
-  "HtmlBody": "fugit",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetPreviewQuickReply.md)]

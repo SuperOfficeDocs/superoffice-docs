@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 808,
-    "Name": "Feil, Mayer and Donnelly",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 20
-  },
-  {
-    "HeadingId": 808,
-    "Name": "Feil, Mayer and Donnelly",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 20
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_PutProductTypeHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 101,
-    "Name": "Pollich Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 998,
-    "UdListDefinitionId": 86,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 750
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_PutProductTypeHeadings.md)]

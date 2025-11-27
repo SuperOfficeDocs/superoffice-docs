@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Reason/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_GetReasonHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 322,
-    "Name": "Hyatt, Collier and Bernhard",
-    "ToolTip": "Autem natus tempore sint.",
-    "Deleted": false,
-    "Rank": 183,
-    "Type": "placeat",
-    "ColorBlock": 660,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2007-01-16T02:30:53.4130107+01:00",
-    "ChildItems": [
-      {
-        "Id": 917,
-        "Name": "Rau, Torphy and Considine",
-        "ToolTip": "Praesentium et dolorem quo velit doloribus vero.",
-        "Deleted": false,
-        "Rank": 199,
-        "Type": "quibusdam",
-        "ColorBlock": 131,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2024-10-13T02:30:53.4130107+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "error",
-        "Hidden": false,
-        "FullName": "Amy Kunde Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 455
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "quia",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Christopher Gusikowski I",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_GetReasonHeadingsForListItem.md)]

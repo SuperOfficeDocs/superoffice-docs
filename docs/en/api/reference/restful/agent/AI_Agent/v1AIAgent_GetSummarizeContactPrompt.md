@@ -82,39 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetSummarizeContactPrompt
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 905,
-  "NumSentences": 12,
-  "Summary": "aut",
-  "IsoLangCode": "quia"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetSummarizeContactPrompt.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Timestamp": "2016-08-31T02:30:46.4913585+02:00",
-  "UserPrompt": "facilis",
-  "UserDisplayText": "et",
-  "BotResponse": "sit",
-  "BotActions": {
-    "BotActions1": "numquam",
-    "BotActions2": "sit"
-  },
-  "Attachments": [
-    "eum",
-    "impedit"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetSummarizeContactPrompt.md)]

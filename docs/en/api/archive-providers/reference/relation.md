@@ -18,7 +18,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"relation"|[Relation]|
+|"relation"|Relation|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
@@ -576,7 +576,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/personPrivate/description,target/department,target/email/emailHasBounced,target/contactAssociate/isActive,target/LastTicket
+GET /api/v1/archive/Relation?$select=getNoRows,target/contactUdef/SuperOffice:6,target/SaintStatus2,source/contactAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

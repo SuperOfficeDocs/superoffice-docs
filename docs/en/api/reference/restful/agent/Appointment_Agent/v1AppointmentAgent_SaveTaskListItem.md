@@ -86,57 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/SaveTaskListItem
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 592,
-  "Value": "omnis",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "IntentId": 662,
-  "Rank": 506,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_SaveTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 681,
-  "Value": "doloremque",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "IntentId": 521,
-  "Rank": 5,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_SaveTaskListItem.md)]

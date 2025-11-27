@@ -27,8 +27,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=mollitia
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=et
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 86,
-    "Name": "Shanahan-Mayert",
-    "ToolTip": "Quod est nihil assumenda quo id.",
-    "Deleted": false,
-    "Rank": 669,
-    "Type": "est",
-    "ChildItems": [
-      {
-        "Id": 963,
-        "Name": "Mohr, Steuber and Graham",
-        "ToolTip": "Et velit eligendi temporibus.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "magnam",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "vel",
-        "ColorBlock": 112,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quod",
-        "FullName": "Ms. Emerald Junius D'Amore PhD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 186
-          }
-        }
-      }
-    ],
-    "IconHint": "corporis",
-    "ColorBlock": 405,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "repellendus",
-    "FullName": "Miss Dovie Guadalupe O'Reilly I",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 492
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetMDOList.md)]

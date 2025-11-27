@@ -67,35 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SelectionCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 138,
-    "Name": "Jones, Sanford and Bernier",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 773,
-    "Rank": 583,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_GetAll.md)]

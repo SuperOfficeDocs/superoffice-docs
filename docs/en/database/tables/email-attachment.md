@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_attachment Table (492)
+# email\_attachment Table (495)
 
 Attachment info related to an email_item
 

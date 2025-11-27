@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetProjectType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 72,
-  "Name": "Reilly-Frami",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 113,
-  "Rank": 988,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetProjectType.md)]

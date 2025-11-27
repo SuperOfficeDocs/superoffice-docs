@@ -69,32 +69,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SendEmailWithEventName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "From": "nobis",
-  "To": "beatae",
-  "Subject": "recusandae",
-  "PlainBody": "iusto",
-  "HtmlBody": "ut",
-  "AttachmentIds": [
-    482,
-    60
-  ],
-  "EventName": "Hirthe Group"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SendEmailWithEventName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SendEmailWithEventName.md)]

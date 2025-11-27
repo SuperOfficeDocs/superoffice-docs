@@ -27,8 +27,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=porro
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=consectetur
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Rating/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RatingList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 515,
-    "Name": "Miller Group",
-    "ToolTip": "Temporibus libero suscipit autem.",
-    "Deleted": true,
-    "Rank": 748,
-    "Type": "facilis",
-    "ChildItems": [
-      {
-        "Id": 920,
-        "Name": "Armstrong-Gleichner",
-        "ToolTip": "Vel perferendis consequatur aliquam sed iste voluptatibus.",
-        "Deleted": false,
-        "Rank": 313,
-        "Type": "aut",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "iusto",
-        "ColorBlock": 790,
-        "ExtraInfo": "qui",
-        "StyleHint": "occaecati",
-        "FullName": "Coby Klein III",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 29
-          }
-        }
-      }
-    ],
-    "IconHint": "est",
-    "ColorBlock": 815,
-    "ExtraInfo": "dolor",
-    "StyleHint": "assumenda",
-    "FullName": "Roosevelt Paucek",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1RatingList_GetMDOList.md)]

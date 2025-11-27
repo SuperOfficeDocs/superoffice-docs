@@ -84,44 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ForeignSystem/GetKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ApplicationName": "Bartoletti, Altenwerth and Nikolaus",
-  "DeviceName": "Kutch LLC",
-  "KeyName": "Herman-Turcotte",
-  "TableName": "Ebert-Franecki",
-  "RecordId": 413
-}
-```
+[!include[sample request](../../samples/agent/request/v1ForeignSystemAgent_GetKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "voluptas",
-  "Value": "blanditiis",
-  "RecordId": 118,
-  "CreatedDate": "2000-07-30T02:30:47.366331+02:00",
-  "UpdatedDate": "2002-11-06T02:30:47.366331+01:00",
-  "UpdatedBy": "at",
-  "CreatedBy": "debitis",
-  "TableName": "Schaden Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 106
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ForeignSystemAgent_GetKey.md)]

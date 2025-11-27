@@ -88,49 +88,8 @@ PreferenceDescription found.
 
 ## Sample request
 
-```http!
-GET /api/v1/PreferenceDescription/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_GetPreferenceDescription.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PreferenceDescription found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescId": 172,
-  "Section": "vel",
-  "Key": "corrupti",
-  "Name": "Ratke Inc and Sons",
-  "ValueType": "Bool",
-  "MaxLevel": "Database",
-  "SysMaxLevel": "Database",
-  "AccessFlags": "adminGUI",
-  "Description": "Assimilated methodical instruction set",
-  "IsBuiltin": false,
-  "TableName": "Kuhlman-Hessel",
-  "UserDefinedListId": 489,
-  "Rank": 357,
-  "SubGroup": "commodi",
-  "MinLevel": 80,
-  "MaxValue": 756,
-  "MinValue": 821,
-  "RequiredLicense": "ea",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_GetPreferenceDescription.md)]

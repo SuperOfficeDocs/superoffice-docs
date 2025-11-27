@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 907
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetConnectorCapabilityNames.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "quia",
-  "numquam"
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetConnectorCapabilityNames.md)]

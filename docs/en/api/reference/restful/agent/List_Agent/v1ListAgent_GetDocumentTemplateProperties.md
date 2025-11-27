@@ -68,30 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplateProperties
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 614,
-  "RequestedProperties": [
-    "saepe",
-    "autem"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplateProperties.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "aspernatur",
-  "2": "iure"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplateProperties.md)]

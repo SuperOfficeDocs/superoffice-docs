@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Reason/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_CreateDefaultReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 923,
-  "Name": "Abshire Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 928,
-  "Rank": 177,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_CreateDefaultReason.md)]

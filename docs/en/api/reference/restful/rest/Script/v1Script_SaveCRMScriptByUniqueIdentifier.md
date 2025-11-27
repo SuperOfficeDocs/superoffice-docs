@@ -86,53 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/Script/{uniqueIdentifier}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "id",
-  "Name": "Cummerata-O'Hara",
-  "Description": "Grass-roots optimal task-force",
-  "IncludeId": "iste",
-  "Source": "officiis",
-  "Registered": "2016-05-30T02:30:53.084897+02:00",
-  "RegisteredBy": "facere",
-  "Updated": "2021-12-08T02:30:53.084897+01:00",
-  "UpdatedBy": "omnis",
-  "Path": "nihil",
-  "BlockedVerbs": "BlockAll"
-}
-```
+[!include[sample request](../../samples/rest/request/v1Script_SaveCRMScriptByUniqueIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "sapiente",
-  "Name": "Yundt, Mraz and Hermann",
-  "Description": "Polarised mission-critical utilisation",
-  "IncludeId": "impedit",
-  "Source": "quia",
-  "Registered": "2023-12-21T02:30:53.084897+01:00",
-  "RegisteredBy": "provident",
-  "Updated": "2010-03-02T02:30:53.084897+01:00",
-  "UpdatedBy": "consequatur",
-  "Path": "eum",
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 482
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1Script_SaveCRMScriptByUniqueIdentifier.md)]

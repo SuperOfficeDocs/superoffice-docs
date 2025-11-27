@@ -78,50 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{personId}/UtmParameters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetUtmParameters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UtmParametersId": 13,
-  "CreatedContactId": 566,
-  "CreatedPersonId": 743,
-  "FormSubmissionId": 270,
-  "FirstTouchSource": "corrupti",
-  "FirstTouchMedium": "aspernatur",
-  "FirstTouchCampaign": "beatae",
-  "FirstTouchTerm": "commodi",
-  "FirstTouchContent": "quia",
-  "FirstTouchReferrerDomain": "ut",
-  "FirstTouchWhen": "2005-12-22T02:30:52.7880482+01:00",
-  "Source": "cum",
-  "Medium": "est",
-  "Campaign": "cum",
-  "Term": "rerum",
-  "Content": "quaerat",
-  "ReferrerDomain": "quo",
-  "When": "2019-06-19T02:30:52.7880482+02:00",
-  "Registered": "2024-12-25T02:30:52.7880482+01:00",
-  "RegisteredAssociateId": 855,
-  "Updated": "2014-04-03T02:30:52.7880482+02:00",
-  "UpdatedAssociateId": 665,
-  "UpdatedCount": 199,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetUtmParameters.md)]

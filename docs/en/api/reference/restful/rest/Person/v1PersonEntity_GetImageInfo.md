@@ -70,41 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{personId}/ImageInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Oct 2017 02:30:52 G10T
-
-{
-  "BlobId": 163,
-  "BlobSize": 101,
-  "Description": "Inverse mobile paradigm",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "autem",
-  "OriginalSize": 694,
-  "CreatedDate": "2002-11-06T02:30:52.7880482+01:00",
-  "UpdatedDate": "2017-10-29T02:30:52.7880482+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "minus",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetImageInfo.md)]

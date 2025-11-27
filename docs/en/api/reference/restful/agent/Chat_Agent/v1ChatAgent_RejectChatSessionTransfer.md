@@ -103,63 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/RejectChatSessionTransfer
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 999
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_RejectChatSessionTransfer.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 949,
-  "TopicId": 271,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "neque",
-  "CustomerHost": "eos",
-  "CustomerName": "Wilderman-Reynolds",
-  "CustomerEmail": "floy@gleichnerbrekke.biz",
-  "CustomerPhone": "(228)490-7031 x044",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Krajcik-Nader",
-  "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "est",
-  "WhenRequested": "2006-04-08T02:30:46.8819694+02:00",
-  "WhenStarted": "2000-06-13T02:30:46.8819694+02:00",
-  "WhenEnded": "2017-10-24T02:30:46.8819694+02:00",
-  "WhenIdle": "2013-10-01T02:30:46.8819694+02:00",
-  "WhenFetched": "2005-05-24T02:30:46.8819694+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 867,
-  "AlertLevel": 124,
-  "Rank": 779,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 458,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_RejectChatSessionTransfer.md)]

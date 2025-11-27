@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetExtendedEmailMessageIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfoExtended": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetExtendedEmailMessageIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "velit",
-  "non"
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetExtendedEmailMessageIds.md)]

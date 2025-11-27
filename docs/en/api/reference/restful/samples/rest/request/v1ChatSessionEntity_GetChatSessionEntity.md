@@ -1,6 +1,0 @@
-```http!
-GET /api/v1/ChatSession/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```

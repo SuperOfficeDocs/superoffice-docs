@@ -61,64 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DiaryViewId": 959,
-  "Name": "Becker, Mante and Corwin",
-  "Tooltip": "fugit",
-  "VisibleColumns": 483,
-  "Rank": 135,
-  "AssocId": 199,
-  "AssociateList": [
-    {
-      "Id": 182,
-      "Name": "Torphy Group",
-      "ToolTip": "Aut sed quas nulla quam dolorem.",
-      "Deleted": false,
-      "Rank": 546,
-      "Type": "laboriosam",
-      "ColorBlock": 603,
-      "IconHint": "at",
-      "Selected": false,
-      "LastChanged": "2020-02-19T02:30:46.9288431+01:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "magni",
-      "StyleHint": "quis",
-      "Hidden": false,
-      "FullName": "Concepcion Keeling",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 289
-        }
-      }
-    }
-  ],
-  "TzLocationId": 978,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)]

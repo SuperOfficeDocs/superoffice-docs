@@ -30,7 +30,7 @@ Get the chat transcript, formatted as plain text or html
 | html | bool |  Get transcript as HTML |
 
 ```http
-POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
+POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
 ```
 
 
@@ -61,18 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ChatSession/{chatSessionId}/Transcript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_GetChatTranscript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"ipsam"
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_GetChatTranscript.md)]

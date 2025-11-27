@@ -82,43 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/SaveWindowPosSize
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "WindowPosSize": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_SaveWindowPosSize.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerWindow": "magnam",
-  "PersonId": 815,
-  "AssociateId": 978,
-  "ExtraId": 583,
-  "ExtraInfo": "et",
-  "Height": 1001,
-  "LeftX": 947,
-  "State": "Maximized",
-  "UpperY": 803,
-  "Width": 964,
-  "WindowPosSizeId": 645,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_SaveWindowPosSize.md)]

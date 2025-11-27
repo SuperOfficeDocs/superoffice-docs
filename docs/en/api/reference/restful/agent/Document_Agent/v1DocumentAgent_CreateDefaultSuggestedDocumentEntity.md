@@ -64,38 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_CreateDefaultSuggestedDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedDocumentId": 857,
-  "Name": "Balistreri, Nienow and Bartell",
-  "Tooltip": "soluta",
-  "Rank": 834,
-  "DoctmplId": 313,
-  "Header": "deleniti",
-  "OurRef": "cum",
-  "Deleted": true,
-  "DocTmpl": null,
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_CreateDefaultSuggestedDocumentEntity.md)]

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# quick\_filter\_info Table (484)
+# quick\_filter\_info Table (487)
 
 Connect quick filter info from a specific provider to a dashboard
 

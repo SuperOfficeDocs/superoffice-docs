@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ConsentSourceList_GetConsentSourceUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 407,
-    "Name": "Mertz, Reichel and Stiedemann",
-    "ToolTip": "Et dolorem nostrum eum non voluptas.",
-    "Deleted": false,
-    "Rank": 873,
-    "Type": "incidunt",
-    "ColorBlock": 136,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2019-05-27T02:30:53.2411414+02:00",
-    "ChildItems": [
-      {
-        "Id": 872,
-        "Name": "Wilkinson-Luettgen",
-        "ToolTip": "Quis aut alias atque inventore distinctio et.",
-        "Deleted": false,
-        "Rank": 786,
-        "Type": "et",
-        "ColorBlock": 198,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2002-11-04T02:30:53.2411414+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Blanche Tillman",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 433
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "a",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Mr. Isabel Quitzon PhD",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ConsentSourceList_GetConsentSourceUserGroupsForListItem.md)]

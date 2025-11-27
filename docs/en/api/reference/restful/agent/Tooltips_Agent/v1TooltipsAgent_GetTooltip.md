@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Tooltips/GetTooltip
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TooltipHint": "non"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TooltipsAgent_GetTooltip.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"architecto"
-```
+[!include[sample response](../../samples/agent/response/v1TooltipsAgent_GetTooltip.md)]

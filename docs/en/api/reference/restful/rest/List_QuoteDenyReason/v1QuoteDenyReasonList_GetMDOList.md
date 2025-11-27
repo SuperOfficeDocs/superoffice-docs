@@ -27,8 +27,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=qui
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=eius
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteDenyReason/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 784,
-    "Name": "Marvin, O'Connell and Friesen",
-    "ToolTip": "Dolor est et consequatur praesentium magni aut impedit.",
-    "Deleted": false,
-    "Rank": 62,
-    "Type": "quia",
-    "ChildItems": [
-      {
-        "Id": 340,
-        "Name": "O'Connell-Rowe",
-        "ToolTip": "Rerum dolor dolor repellendus minima omnis eveniet.",
-        "Deleted": false,
-        "Rank": 922,
-        "Type": "commodi",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "distinctio",
-        "ColorBlock": 721,
-        "ExtraInfo": "ut",
-        "StyleHint": "debitis",
-        "FullName": "Delta Zemlak",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 561
-          }
-        }
-      }
-    ],
-    "IconHint": "quisquam",
-    "ColorBlock": 294,
-    "ExtraInfo": "repellat",
-    "StyleHint": "necessitatibus",
-    "FullName": "Elena Wunsch",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_GetMDOList.md)]

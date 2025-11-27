@@ -79,52 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Requests": [
-    {
-      "EntityName": "Deckow, Roob and Kerluke",
-      "EntityOrParentId": 17,
-      "RequestForNewRecord": false
-    },
-    {
-      "EntityName": "Deckow, Roob and Kerluke",
-      "EntityOrParentId": 17,
-      "RequestForNewRecord": false
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetHistoriesByNamesAndIds.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Rank": 188,
-    "Id": 459,
-    "HistoryName": "Dickinson, Ferry and Kuhic",
-    "HistoryId": 600,
-    "AssociateId": 753,
-    "Name": "Goodwin Group",
-    "ItemInfo": "velit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetHistoriesByNamesAndIds.md)]

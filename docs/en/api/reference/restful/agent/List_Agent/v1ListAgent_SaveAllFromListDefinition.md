@@ -78,58 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveAllFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 712,
-  "Items": [
-    {
-      "Id": 64,
-      "Name": "Schowalter, Ernser and Ledner",
-      "Tooltip": "qui",
-      "Deleted": true,
-      "UdListDefinitionId": 59,
-      "Rank": 627
-    },
-    {
-      "Id": 64,
-      "Name": "Schowalter, Ernser and Ledner",
-      "Tooltip": "qui",
-      "Deleted": true,
-      "UdListDefinitionId": 59,
-      "Rank": 627
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveAllFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 189,
-    "Name": "Hyatt Inc and Sons",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "UdListDefinitionId": 832,
-    "Rank": 387,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 819
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveAllFromListDefinition.md)]

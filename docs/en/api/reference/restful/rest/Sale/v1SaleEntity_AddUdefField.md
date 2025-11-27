@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Sale/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 962,
-  "ColumnId": 920,
-  "FieldDefault": "maiores",
-  "FieldHeight": 187,
-  "FieldLabel": "doloremque",
-  "FieldLeft": 238,
-  "FieldTop": 94,
-  "FieldType": "Checkbox",
-  "FieldWidth": 569,
-  "FormatMask": "molestias",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 186,
-  "LabelLeft": 187,
-  "LabelTop": 49,
-  "LabelWidth": 252,
-  "LastVersionId": 142,
-  "ListTableId": 54,
-  "IsMandatory": true,
-  "Type": "Appointment",
-  "Page1LineNo": 415,
-  "ProgId": "ab",
-  "IsReadOnly": false,
-  "ShortLabel": "explicabo",
-  "TabOrder": 959,
-  "TextLength": 396,
-  "Tooltip": "minima",
-  "UdefIdentity": 743,
-  "UDListDefinitionId": 556,
-  "Justification": "Center",
-  "Version": 339,
-  "TemplateVariableName": "Ullrich, Hettinger and Christiansen",
-  "HasBeenPublished": false,
-  "MdoListName": "Dickens-Mayert",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 596
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_AddUdefField.md)]

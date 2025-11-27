@@ -111,51 +111,8 @@ PreferenceDescriptionLine  updated.
 
 ## Sample request
 
-```http!
-PATCH /api/v1/PreferenceDescriptionLine/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "op": "add",
-    "path": "quisquam",
-    "value": {}
-  },
-  {
-    "op": "add",
-    "path": "quisquam",
-    "value": {}
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PreferenceDescriptionLine  updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 21,
-  "PrefDescId": 617,
-  "PrefValue": "omnis",
-  "PrefShowValue": "maxime",
-  "Description": "Fundamental multi-state challenge",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine.md)]

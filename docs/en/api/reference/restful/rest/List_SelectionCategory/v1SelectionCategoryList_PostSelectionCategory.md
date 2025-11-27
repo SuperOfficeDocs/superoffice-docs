@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/SelectionCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 810,
-  "Name": "Grimes Group",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "UdListDefinitionId": 527,
-  "Rank": 778
-}
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_PostSelectionCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 652,
-  "Name": "Bechtelar-Vandervort",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 385,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_PostSelectionCategory.md)]

@@ -62,35 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Attachment/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AttachmentEntity_DefaultAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 732,
-  "Name": "Jones Inc and Sons",
-  "ContentType": "optio",
-  "AttSize": 309,
-  "InlineImage": false,
-  "ContentId": "odio",
-  "AuthKey": "sint",
-  "IsSafeFileExtension": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1AttachmentEntity_DefaultAttachmentEntity.md)]

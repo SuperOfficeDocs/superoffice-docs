@@ -80,46 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "EntityType": "None"
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetDimensionsForEntityType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TargetDimensionId": 290,
-    "AssignmentLevel": "Associate",
-    "EntityType": "None",
-    "MeasurementUnit": "Amount",
-    "DimensionListField": "laboriosam",
-    "DimensionListName": "Armstrong, Balistreri and Ortiz",
-    "DimensionListId": 296,
-    "DimensionListLabel": "molestias",
-    "SelectedDimensions": [
-      807,
-      160
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetDimensionsForEntityType.md)]

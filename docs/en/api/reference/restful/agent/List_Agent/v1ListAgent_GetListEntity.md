@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=855
+POST /api/v1/Agents/List/GetListEntity?listEntityId=802
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -75,37 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetListEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetListEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 150,
-  "Name": "Bernier, Krajcik and Schowalter",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 480,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetListEntity.md)]

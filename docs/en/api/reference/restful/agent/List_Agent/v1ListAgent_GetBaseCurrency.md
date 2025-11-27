@@ -70,34 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetBaseCurrency
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetBaseCurrency.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CurrencyId": 856,
-  "Name": "Bernhard, Kovacek and Murray",
-  "Tooltip": "quos",
-  "Rank": 318,
-  "Rate": 16108.76,
-  "Units": 22561.666,
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 578
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetBaseCurrency.md)]

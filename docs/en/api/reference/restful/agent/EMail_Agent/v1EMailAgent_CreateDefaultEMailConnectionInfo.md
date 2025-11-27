@@ -61,32 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailConnectionInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ServerName": "Wehner-Marks",
-  "UserName": "Beatty Inc and Sons",
-  "Password": "molestiae",
-  "Folder": "non",
-  "UseSSL": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailConnectionInfo.md)]

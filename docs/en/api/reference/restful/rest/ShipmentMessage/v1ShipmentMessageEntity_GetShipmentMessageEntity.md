@@ -91,52 +91,8 @@ ShipmentMessageEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ShipmentMessage/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageEntity_GetShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ShipmentMessageEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 464,
-  "PlainMessage": "quia",
-  "HtmlMessage": "id",
-  "SmsMessage": "veniam",
-  "Description": "Multi-tiered holistic encryption",
-  "Subject": "cupiditate",
-  "FolderId": 799,
-  "HeaderField": "et",
-  "Design": "necessitatibus",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Realigned coherent access",
-  "AccessKey": "deserunt",
-  "DocumentMessage": 697,
-  "Registered": "2000-01-07T02:30:52.9442767+01:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2022-07-28T02:30:52.9442767+02:00",
-  "UpdatedAssociateId": 419,
-  "UpdatedCount": 522,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 389
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageEntity_GetShipmentMessageEntity.md)]

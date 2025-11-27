@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Previews/GetPreview
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "PreviewHint": "enim"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreviewsAgent_GetPreview.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"dolorem"
-```
+[!include[sample response](../../samples/agent/response/v1PreviewsAgent_GetPreview.md)]

@@ -59,18 +59,8 @@ The blob id for the image
 
 ## Sample request
 
-```http!
-POST /api/v1/Contact/{contactId}/Image
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_SaveImage_POST.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 The blob id for the image
-Content-Type: application/json; charset=utf-8
-
-833
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_SaveImage_POST.md)]

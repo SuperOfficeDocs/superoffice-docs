@@ -68,27 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/Merge
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "SourcePersonId": 532,
-  "DestinationPersonId": 516,
-  "MoveAfterDate": "2019-12-08T02:30:47.5382007+01:00",
-  "DeleteSource": false,
-  "ReplaceEmptyFieldsOnDestination": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_Merge.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_Merge.md)]

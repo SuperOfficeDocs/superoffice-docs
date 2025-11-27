@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=880
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=850
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -79,41 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetSuggestedAppointmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SuggestedAppointmentId": 847,
-  "Name": "Kling, Kiehn and Bauch",
-  "Tooltip": "repellendus",
-  "Rank": 935,
-  "Deleted": false,
-  "DaysFuture": 954,
-  "Duration": "aut",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "ullam",
-  "ProjectTypeStatusLink": null,
-  "SaleTypeStageLink": null,
-  "Type": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetSuggestedAppointmentEntity.md)]

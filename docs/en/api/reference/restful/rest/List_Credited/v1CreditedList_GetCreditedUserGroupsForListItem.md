@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Credited/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CreditedList_GetCreditedUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 136,
-    "Name": "Waelchi, Roberts and Parker",
-    "ToolTip": "Harum et rerum.",
-    "Deleted": false,
-    "Rank": 795,
-    "Type": "qui",
-    "ColorBlock": 572,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2000-06-28T02:30:53.2567659+02:00",
-    "ChildItems": [
-      {
-        "Id": 357,
-        "Name": "Bogan Group",
-        "ToolTip": "Atque magni fugiat et omnis dolor eveniet.",
-        "Deleted": true,
-        "Rank": 654,
-        "Type": "eum",
-        "ColorBlock": 296,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2020-05-14T02:30:53.2567659+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Murphy Krajcik III",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Russ Wilderman",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CreditedList_GetCreditedUserGroupsForListItem.md)]

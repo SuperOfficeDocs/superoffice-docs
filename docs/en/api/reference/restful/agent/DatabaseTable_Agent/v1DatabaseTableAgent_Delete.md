@@ -78,75 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/DatabaseTable/Delete
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "Littel Inc and Sons",
-  "IDs": [
-    330,
-    729
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DatabaseTableAgent_Delete.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Success": false,
-  "Message": "id",
-  "Inserts": 272,
-  "Updates": 189,
-  "Deletes": 734,
-  "RowStatus": [
-    {
-      "PrimaryKey": 423,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "molestiae",
-        "unde"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
-        }
-      }
-    },
-    {
-      "PrimaryKey": 423,
-      "Action": "ColumnsZeroed",
-      "RowKeys": [
-        "molestiae",
-        "unde"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DatabaseTableAgent_Delete.md)]

@@ -18,7 +18,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"existingCategoryMember"|[existingCategoryMember]|
+|"existingCategoryMember"|existingCategoryMember|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -68,7 +68,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=usergroup,personId,usergroupId
+GET /api/v1/archive/ExistingCategoryMembers?$select=personId,usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

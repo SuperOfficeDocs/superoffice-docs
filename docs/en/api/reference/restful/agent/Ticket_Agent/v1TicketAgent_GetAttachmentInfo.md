@@ -79,42 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/GetAttachmentInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketMessageEntityId": 39
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_GetAttachmentInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 754,
-    "Name": "Rosenbaum LLC",
-    "ContentType": "eveniet",
-    "AttSize": 544,
-    "InlineImage": false,
-    "ContentId": "dolor",
-    "AuthKey": "quia",
-    "IsSafeFileExtension": true,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 436
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_GetAttachmentInfo.md)]

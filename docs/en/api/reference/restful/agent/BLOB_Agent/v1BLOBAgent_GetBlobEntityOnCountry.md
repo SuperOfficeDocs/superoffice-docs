@@ -84,45 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 197
-}
-```
+[!include[sample request](../../samples/agent/request/v1BLOBAgent_GetBlobEntityOnCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BlobId": 745,
-  "BlobSize": 415,
-  "Description": "Digitized multimedia budgetary management",
-  "ExtraInfo": "ducimus",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "delectus",
-  "OriginalSize": 651,
-  "CreatedDate": "2007-06-20T02:30:46.8350962+02:00",
-  "UpdatedDate": "2018-11-06T02:30:46.8350962+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1BLOBAgent_GetBlobEntityOnCountry.md)]

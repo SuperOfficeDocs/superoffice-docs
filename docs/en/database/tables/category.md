@@ -48,6 +48,7 @@ Category list table
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[AutomatedCategoryUpdate](automatedcategoryupdate.md)  |Info on how to autoupdate category when changing sale or leadstatus on person |
 |[CategoryFamily](categoryfamily.md)  |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos; |
 |[CategoryGroupLink](categorygrouplink.md)  |User group link table for Category, for MDO item hiding |
 |[CategoryHeadingLink](categoryheadinglink.md)  |Heading link table for Category, for MDO headers |

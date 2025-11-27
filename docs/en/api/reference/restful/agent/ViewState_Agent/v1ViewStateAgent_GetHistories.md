@@ -70,36 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/GetHistories
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_GetHistories.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Rank": 450,
-    "Id": 533,
-    "HistoryName": "Greenfelder Group",
-    "HistoryId": 326,
-    "AssociateId": 199,
-    "Name": "Bernhard Group",
-    "ItemInfo": "quo",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_GetHistories.md)]

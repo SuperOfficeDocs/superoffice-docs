@@ -76,44 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "OptionType": "FormData"
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OptionType": "FormData",
-  "WorkflowStepOptionId": 962,
-  "WorkflowStepId": 706,
-  "WorkflowId": 153,
-  "Name": "White, Crona and Lubowitz",
-  "Rank": 324,
-  "Steps": [
-    {
-      "WorkflowStepId": 857,
-      "WorkflowId": 308,
-      "StepType": "AddToList",
-      "Rank": 164
-    },
-    {
-      "WorkflowStepId": 857,
-      "WorkflowId": 308,
-      "StepType": "AddToList",
-      "Rank": 164
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md)]

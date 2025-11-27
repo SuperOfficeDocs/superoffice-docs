@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 21,
-    "Name": "Rowe-Bechtelar",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "UdListDefinitionId": 158,
-    "Rank": 746
-  },
-  {
-    "Id": 21,
-    "Name": "Rowe-Bechtelar",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "UdListDefinitionId": 158,
-    "Rank": 746
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_PutAllProductCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 813,
-    "Name": "Mills-Gaylord",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "UdListDefinitionId": 499,
-    "Rank": 207,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 356
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_PutAllProductCategory.md)]

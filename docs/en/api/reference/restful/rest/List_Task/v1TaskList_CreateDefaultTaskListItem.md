@@ -64,40 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Task/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TaskList_CreateDefaultTaskListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskListItemId": 465,
-  "Value": "magnam",
-  "Direction": "Incoming",
-  "Type": "Appointment",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "IntentId": 438,
-  "Rank": 546,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
-  "ColorIndex": "BlueAlt1",
-  "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TaskList_CreateDefaultTaskListItem.md)]

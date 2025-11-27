@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"assignmentCompany"|[!!Company assignment]|
+|"assignmentCompany"|!!Company assignment|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

@@ -82,51 +82,8 @@ ContactEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/{id}/Simple
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_Simple.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ContactEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 365,
-  "Name": "Bosco-Wilderman",
-  "OrgNr": "410259",
-  "Department": "",
-  "URL": "http://www.example.com/",
-  "City": "repellendus",
-  "DirectPhone": "1-518-486-5740",
-  "AssociateId": 647,
-  "CountryId": 543,
-  "EmailAddress": "damaris_ferry@stoltenberg.uk",
-  "Kananame": "ipsum",
-  "EmailAddressName": "cheyanne.welch@zulaufmurphy.uk",
-  "URLName": "http://www.example.com/",
-  "AssociateFullName": "Eric Prohaska",
-  "BusinessName": "Information Technology",
-  "CategoryName": "VIP Customer",
-  "CountryName": "Sokovia",
-  "Address": null,
-  "FormattedAddress": "ea",
-  "FullName": "Vernon Wuckert",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 960,
-  "Number1": "805014",
-  "Number2": "1276286",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_Simple.md)]

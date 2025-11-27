@@ -87,53 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/AssignThirdPartyLicenses
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 637,
-  "ModuleOwner": "aut",
-  "ModuleLicenseNames": [
-    "Rutherford Group",
-    "Dach Group"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_AssignThirdPartyLicenses.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": true,
-    "Total": 132,
-    "Tooltip": "est",
-    "CanAssign": true,
-    "Free": 942,
-    "InUse": 116,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 8,
-    "Name": "Carter-Raynor",
-    "Description": "Upgradable value-added instruction set",
-    "PrerequisiteModuleName": "Ryan-Daugherty",
-    "SortOrder": 489,
-    "ExtraFlags": 376,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_AssignThirdPartyLicenses.md)]

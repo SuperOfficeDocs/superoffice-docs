@@ -86,53 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/SaveConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Connection": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_SaveConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 945,
-  "ErpConnectorId": 571,
-  "DisplayName": "Stoltenberg-Lindgren",
-  "DisplayDescription": "Stand-alone client-server utilisation",
-  "Active": false,
-  "ConnectionId": "cupiditate",
-  "MostRecentTimestamp": "voluptatem",
-  "ConfigFields": {
-    "ConfigFields1": "quia",
-    "ConfigFields2": "porro"
-  },
-  "Deleted": true,
-  "AllAccess": false,
-  "UserGroupAccessIds": [
-    783,
-    600
-  ],
-  "AssociateAccessIds": [
-    4,
-    994
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_SaveConnection.md)]

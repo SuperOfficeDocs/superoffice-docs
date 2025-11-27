@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 632,
-    "Name": "Hickle-Runte",
-    "ToolTip": "Sunt incidunt dignissimos voluptatem ea dolore sequi magnam.",
-    "Deleted": false,
-    "Rank": 159,
-    "Type": "labore",
-    "ColorBlock": 913,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2013-10-19T02:30:53.2723907+02:00",
-    "ChildItems": [
-      {
-        "Id": 394,
-        "Name": "Cole, Koch and King",
-        "ToolTip": "Expedita enim quo est qui doloremque sunt suscipit.",
-        "Deleted": true,
-        "Rank": 751,
-        "Type": "nam",
-        "ColorBlock": 612,
-        "IconHint": "molestias",
-        "Selected": false,
-        "LastChanged": "2006-06-18T02:30:53.2723907+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "illo",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Prof. Aric DuBuque",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 63
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Casandra Hammes",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem.md)]

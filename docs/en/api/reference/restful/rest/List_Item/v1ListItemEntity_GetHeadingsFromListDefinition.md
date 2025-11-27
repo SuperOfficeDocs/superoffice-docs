@@ -62,35 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{id}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetHeadingsFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 428,
-    "Name": "Johnson-Gaylord",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 4,
-    "UdListDefinitionId": 56,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetHeadingsFromListDefinition.md)]

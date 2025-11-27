@@ -86,78 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetSelectableSimpleList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Keebler-Gorczany"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetSelectableSimpleList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 653,
-    "Name": "Deckow, Predovic and Hagenes",
-    "ToolTip": "Facilis accusantium.",
-    "Deleted": false,
-    "Rank": 293,
-    "Type": "aliquid",
-    "ColorBlock": 933,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-03-07T02:30:47.4757021+01:00",
-    "ChildItems": [
-      {
-        "Id": 629,
-        "Name": "Davis, Champlin and Quitzon",
-        "ToolTip": "Id rerum enim tenetur.",
-        "Deleted": false,
-        "Rank": 29,
-        "Type": "in",
-        "ColorBlock": 55,
-        "IconHint": "quibusdam",
-        "Selected": true,
-        "LastChanged": "2015-12-04T02:30:47.4757021+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "labore",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Marilou Ortiz",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 965
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Gertrude Larson",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 337
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetSelectableSimpleList.md)]

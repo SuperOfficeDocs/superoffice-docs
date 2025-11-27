@@ -84,42 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TriggerScriptUniqueId": "doloremque"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_GetTriggerScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 836,
-  "Name": "Moen Inc and Sons",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "blanditiis",
-  "Source": "nobis",
-  "Registered": "2024-12-10T02:30:47.0538389+01:00",
-  "RegisteredAssociateId": 52,
-  "Updated": "2009-11-03T02:30:47.0538389+01:00",
-  "UpdatedAssociateId": 190,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_GetTriggerScriptByUniqueId.md)]

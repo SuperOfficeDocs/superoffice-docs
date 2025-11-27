@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProjectStatus/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 791,
-    "Name": "Spinka-Huels",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 227
-  },
-  {
-    "Id": 791,
-    "Name": "Spinka-Huels",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 227
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_PutAllProjectStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 689,
-    "Name": "Roberts Group",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "UdListDefinitionId": 755,
-    "Rank": 419,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_PutAllProjectStatus.md)]

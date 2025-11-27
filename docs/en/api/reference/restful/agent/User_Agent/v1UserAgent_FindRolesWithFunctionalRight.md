@@ -87,72 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/FindRolesWithFunctionalRight
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FunctionalRightName": "Ankunding, Barrows and Rice"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_FindRolesWithFunctionalRight.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 658,
-    "Name": "Buckridge-Armstrong",
-    "ToolTip": "Maiores reiciendis architecto.",
-    "Deleted": false,
-    "Rank": 904,
-    "Type": "qui",
-    "ChildItems": [
-      {
-        "Id": 67,
-        "Name": "Kub LLC",
-        "ToolTip": "Tenetur cum maxime aperiam fuga ad facilis.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "voluptatibus",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "possimus",
-        "ColorBlock": 771,
-        "ExtraInfo": "sed",
-        "StyleHint": "accusamus",
-        "FullName": "Ms. Melvin Littel III",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 467
-          }
-        }
-      }
-    ],
-    "IconHint": "qui",
-    "ColorBlock": 222,
-    "ExtraInfo": "facilis",
-    "StyleHint": "amet",
-    "FullName": "Prof. Darius Karelle Gleichner IV",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_FindRolesWithFunctionalRight.md)]

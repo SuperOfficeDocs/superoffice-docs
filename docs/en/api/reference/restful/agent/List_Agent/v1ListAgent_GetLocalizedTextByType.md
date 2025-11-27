@@ -79,40 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLocalizedTextByType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TextType": "Column",
-  "ResourceId": 477,
-  "LanguageId": 965
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLocalizedTextByType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LanguageId": 227,
-  "ResourceId": 479,
-  "Text": "iusto",
-  "Type": "Column",
-  "LocalizedTextId": 606,
-  "IsBuiltIn": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLocalizedTextByType.md)]

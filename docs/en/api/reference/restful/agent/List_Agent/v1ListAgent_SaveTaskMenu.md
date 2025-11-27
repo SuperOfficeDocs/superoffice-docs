@@ -21,16 +21,6 @@ NsApiSlow threshold: 5000 ms.
 
 
 
-## Query String Parameters
-
-| Parameter Name | Type |  Description |
-|----------------|------|--------------|
-| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
-
-```http
-POST /api/v1/Agents/List/SaveTaskMenu?$select=name,department,category/id
-```
-
 
 ## Request Headers
 
@@ -46,13 +36,26 @@ POST /api/v1/Agents/List/SaveTaskMenu?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request 
+## Request Body: taskMenu 
 
-TaskMenu 
+The TaskMenu that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskMenu | TaskMenu | Configurable Menu Items are items that will be merged into menus in given area and entity <para /> Carrier object for TaskMenu. Services for the TaskMenu Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| TaskMenuId | Integer | Primary key |
+| Name | String | The list item |
+| Tooltip | String | Tooltip or other description |
+| TableName | String | The name of entity that this task item can be used at |
+| Area | String | Can be Task or other that can identify which menu recipe to merge the item into |
+| UrlOrSoprotocol | String | The url or soprotocol |
+| TaskType | String | Type of task item Url, SoProtocol or CRMScript. |
+| CrmScriptId | Integer | The CRMScript or Macro which will be run task item is selected. |
+| ShowInClient | String | Show task list item in which clients (web, mobile) |
+| ArchiveBehaviour | String | None, rightclick on, multiselect |
+| Rank | Integer | Rank order |
+| Encoding | String | Encoding for url |
+| ProgId | String | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
+| Deleted | Boolean | True if deleted |
 
 ## Response:
 
@@ -85,46 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveTaskMenu
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskMenu": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveTaskMenu.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskMenuId": 162,
-  "Name": "Beier Inc and Sons",
-  "Tooltip": "non",
-  "TableName": "Reinger LLC",
-  "Area": "sunt",
-  "UrlOrSoprotocol": "http://www.example.com/",
-  "TaskType": "CrmScript",
-  "CrmScriptId": 794,
-  "ShowInClient": "Mobile",
-  "ArchiveBehaviour": "InArchives",
-  "Rank": 887,
-  "Encoding": "ANSI",
-  "ProgId": "quia",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveTaskMenu.md)]

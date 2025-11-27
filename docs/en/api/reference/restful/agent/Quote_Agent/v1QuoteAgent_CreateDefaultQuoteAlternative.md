@@ -76,50 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CreateDefaultQuoteAlternative.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteAlternativeId": 557,
-  "ERPQuoteAlternativeKey": "laboriosam",
-  "QuoteVersionId": 538,
-  "Name": "Larkin Group",
-  "Description": "Multi-layered systemic hierarchy",
-  "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 26093.683999999997,
-  "ERPDiscountAmount": 17832.46,
-  "DiscountPercent": 13413.52,
-  "DiscountAmount": 9806.286,
-  "UserValueOverride": "DiscountAmount",
-  "VATInfo": "optio",
-  "VAT": 11959.344,
-  "EarningPercent": 12463.918,
-  "EarningAmount": 27939.61,
-  "SubTotal": 213.112,
-  "TotalPrice": 18966.968,
-  "ExtraField1": "quibusdam",
-  "ExtraField2": "sit",
-  "ExtraField3": "laborum",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "nulla",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CreateDefaultQuoteAlternative.md)]

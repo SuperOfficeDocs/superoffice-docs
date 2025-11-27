@@ -70,36 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetKeyOnDeviceIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 24 Apr 2017 02:30:52 G4T
-
-{
-  "Key": "ea",
-  "Value": "voluptas",
-  "RecordId": 756,
-  "CreatedDate": "2020-03-30T02:30:52.6474115+02:00",
-  "UpdatedDate": "2017-04-24T02:30:52.6474115+02:00",
-  "UpdatedBy": "inventore",
-  "CreatedBy": "quaerat",
-  "TableName": "Purdy, Quigley and Kerluke",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 38
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetKeyOnDeviceIdentifier.md)]

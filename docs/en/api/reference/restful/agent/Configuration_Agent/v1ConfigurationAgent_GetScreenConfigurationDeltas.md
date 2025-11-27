@@ -59,18 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetScreenConfigurationDeltas
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetScreenConfigurationDeltas.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"eos"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetScreenConfigurationDeltas.md)]

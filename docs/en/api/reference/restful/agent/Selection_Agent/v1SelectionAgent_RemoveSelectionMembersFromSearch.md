@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Selection/RemoveSelectionMembersFromSearch
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SelectionId": 126,
-  "StorageKey": "fugit"
-}
-```
+[!include[sample request](../../samples/agent/request/v1SelectionAgent_RemoveSelectionMembersFromSearch.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-275
-```
+[!include[sample response](../../samples/agent/response/v1SelectionAgent_RemoveSelectionMembersFromSearch.md)]

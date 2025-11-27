@@ -77,38 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "UdListDefinitionId": 728
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultHeadingFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 125,
-  "Name": "Bradtke, Adams and Stiedemann",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "Rank": 443,
-  "UdListDefinitionId": 32,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 718
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultHeadingFromListDefinition.md)]

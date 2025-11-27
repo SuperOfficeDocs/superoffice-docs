@@ -77,35 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetExternalTokens
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Key": "beatae"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetExternalTokens.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Provider": "odit",
-  "AccessToken": "unde",
-  "RefreshToken": "non",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetExternalTokens.md)]

@@ -34,10 +34,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/01/2008 02:30:54
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/22/2015 02:30:54
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=247
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/01/2021 13:09:17
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/30/2012 13:09:17
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=535
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -82,37 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_CopySuperOfficePriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 968,
-  "ERPPriceListKey": "recusandae",
-  "QuoteConnectionId": 818,
-  "Name": "Jast, Jenkins and Kuhn",
-  "Description": "Multi-tiered high-level definition",
-  "Currency": "maiores",
-  "CurrencyName": "Gorczany, Beier and Bashirian",
-  "ValidFrom": "2017-06-08T02:30:53.3348881+02:00",
-  "ValidTo": "2003-03-26T02:30:53.3348881+01:00",
-  "IsActive": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_CopySuperOfficePriceList.md)]

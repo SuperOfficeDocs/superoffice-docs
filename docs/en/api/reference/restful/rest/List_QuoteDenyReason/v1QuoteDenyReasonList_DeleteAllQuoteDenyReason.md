@@ -45,18 +45,8 @@ No Content
 
 ## Sample request
 
-```http!
-DELETE /api/v1/List/QuoteDenyReason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1QuoteDenyReasonList_DeleteAllQuoteDenyReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1QuoteDenyReasonList_DeleteAllQuoteDenyReason.md)]

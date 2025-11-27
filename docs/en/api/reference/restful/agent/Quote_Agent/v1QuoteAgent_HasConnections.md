@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/HasConnections
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_HasConnections.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": true,
-  "UserExplanation": "distinctio",
-  "TechExplanation": "aspernatur",
-  "ErrorCode": "ex",
-  "Changes": null,
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_HasConnections.md)]

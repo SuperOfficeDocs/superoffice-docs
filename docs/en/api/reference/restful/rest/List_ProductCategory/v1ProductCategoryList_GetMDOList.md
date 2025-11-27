@@ -28,7 +28,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=consectetur
+GET /api/v1/List/ProductCategory/MDOItems?query=totam
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductCategory/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 590,
-    "Name": "Rowe LLC",
-    "ToolTip": "Et voluptatem qui aut.",
-    "Deleted": false,
-    "Rank": 326,
-    "Type": "dolore",
-    "ChildItems": [
-      {
-        "Id": 384,
-        "Name": "Lebsack, Wolff and Wisoky",
-        "ToolTip": "A ipsa non in.",
-        "Deleted": false,
-        "Rank": 766,
-        "Type": "autem",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "qui",
-        "ColorBlock": 293,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "dicta",
-        "FullName": "Jonas Stehr",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 520
-          }
-        }
-      }
-    ],
-    "IconHint": "qui",
-    "ColorBlock": 13,
-    "ExtraInfo": "officia",
-    "StyleHint": "beatae",
-    "FullName": "Stanford Mueller",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 95
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_GetMDOList.md)]

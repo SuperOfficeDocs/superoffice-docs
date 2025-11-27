@@ -114,77 +114,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/ShipmentMessage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 313,
-  "PlainMessage": "qui",
-  "HtmlMessage": "quia",
-  "SmsMessage": "molestiae",
-  "Description": "Universal exuding emulation",
-  "Subject": "rerum",
-  "FolderId": 372,
-  "HeaderField": "amet",
-  "Design": "quas",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Synergistic bottom-line database",
-  "AccessKey": "qui",
-  "DocumentMessage": 332,
-  "Registered": "2011-02-06T02:30:52.9286519+01:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2018-07-05T02:30:52.9286519+02:00",
-  "UpdatedAssociateId": 349,
-  "UpdatedCount": 843
-}
-```
+[!include[sample request](../../samples/rest/request/v1ShipmentMessageEntity_PostShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 206,
-  "PlainMessage": "sed",
-  "HtmlMessage": "aut",
-  "SmsMessage": "rem",
-  "Description": "Expanded mobile synergy",
-  "Subject": "nulla",
-  "FolderId": 140,
-  "HeaderField": "voluptatum",
-  "Design": "laudantium",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Visionary needs-based ability",
-  "AccessKey": "quibusdam",
-  "DocumentMessage": 405,
-  "Registered": "1999-02-16T02:30:52.9442767+01:00",
-  "RegisteredAssociateId": 497,
-  "Updated": "2004-04-10T02:30:52.9442767+02:00",
-  "UpdatedAssociateId": 904,
-  "UpdatedCount": 128,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ShipmentMessageEntity_PostShipmentMessageEntity.md)]

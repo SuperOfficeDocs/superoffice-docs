@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=corporis
-GET /api/v1/Sale/{id}/History?$top=519
-GET /api/v1/Sale/{id}/History?$skip=559
+GET /api/v1/Sale/{id}/History?$entities=nam
+GET /api/v1/Sale/{id}/History?$top=119
+GET /api/v1/Sale/{id}/History?$skip=280
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=repellat
+GET /api/v1/Sale/{id}/History?$context=ut
 GET /api/v1/Sale/{id}/History?$format=JSON
-GET /api/v1/Sale/{id}/History?$jsonSafe=False
+GET /api/v1/Sale/{id}/History?$jsonSafe=True
 GET /api/v1/Sale/{id}/History?$output=Display
 ```
 
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/{id}/History
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_History.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
-  "value": [
-    {
-      "PrimaryKey": 70,
-      "EntityName": "sale",
-      "saleId": 70,
-      "contactId": 898,
-      "name": "Abernathy, Hintz and Reinger"
-    },
-    {
-      "PrimaryKey": 2224,
-      "EntityName": "sale",
-      "saleId": 2224,
-      "contactId": 4251,
-      "name": "Labadie Inc and Sons"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_History.md)]

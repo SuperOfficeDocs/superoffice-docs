@@ -76,40 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Import/CreateDefaultImportLine
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountColumns": 682
-}
-```
+[!include[sample request](../../samples/agent/request/v1ImportAgent_CreateDefaultImportLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Values": [
-    "magni",
-    "eligendi"
-  ],
-  "Selected": false,
-  "Operation": "ContactAdded",
-  "Type": "Contact",
-  "ExternalKey": "aliquid",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ImportAgent_CreateDefaultImportLine.md)]

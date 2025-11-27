@@ -35,7 +35,7 @@ NsApiSlow threshold: 2000 ms.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -107,118 +107,8 @@ DocumentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DocumentEntity found.
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Feb 2020 02:30:52 G2T
-
-{
-  "DocumentId": 365,
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "Attention": "quibusdam",
-  "Header": "ducimus",
-  "Name": "Cassin-Satterfield",
-  "OurRef": "totam",
-  "YourRef": "nam",
-  "CreatedDate": "2024-05-11T02:30:52.6005389+02:00",
-  "UpdatedDate": "2020-02-23T02:30:52.6005389+01:00",
-  "Description": "Distributed responsive process improvement",
-  "DocumentTemplate": null,
-  "Person": null,
-  "Associate": null,
-  "Contact": null,
-  "Project": null,
-  "Date": "2000-11-30T02:30:52.6005389+01:00",
-  "ExternalRef": "harum",
-  "Completed": "Completed",
-  "ActiveLinks": 296,
-  "Type": "BookingForChecklist",
-  "Links": [
-    {
-      "EntityName": "Crona-Langosh",
-      "Id": 989,
-      "Description": "Ameliorated 5th generation neural-net",
-      "ExtraInfo": "dolore",
-      "LinkId": 310,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
-        }
-      }
-    }
-  ],
-  "LockSemantics": "Locking",
-  "Sale": null,
-  "SuggestedDocumentId": 610,
-  "Snum": 852,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1827137812",
-    "SuperOffice:2": "Terrence Considine"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "dignissimos"
-  },
-  "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "non"
-  },
-  "PublishEventDate": "2012-05-25T02:30:52.6005389+02:00",
-  "PublishTo": "2009-04-12T02:30:52.6005389+02:00",
-  "PublishFrom": "2015-04-04T02:30:52.6005389+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 377,
-      "Visibility": "All",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
-        }
-      }
-    },
-    {
-      "VisibleId": 377,
-      "Visibility": "All",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetDocumentEntity.md)]

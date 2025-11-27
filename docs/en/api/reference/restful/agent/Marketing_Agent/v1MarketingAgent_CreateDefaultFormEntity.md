@@ -76,53 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_CreateDefaultFormEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormId": 76,
-  "FormKey": "et",
-  "Name": "Kessler, Koepp and Johnson",
-  "Description": "Programmable composite solution",
-  "Config": "placeat",
-  "FolderId": 522,
-  "ScriptId": 393,
-  "ResponseShipmentId": 358,
-  "Active": false,
-  "Expires": "2017-05-26T02:30:47.4600781+02:00",
-  "MaxSubmits": 917,
-  "Type": "Normal",
-  "Recipe": "natus",
-  "GroupId": 708,
-  "NewTicket": true,
-  "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2025-06-28T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 979,
-  "Updated": "2016-11-22T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 842,
-  "UpdatedCount": 656,
-  "EmailFlows": [
-    542,
-    71
-  ],
-  "FolderName": "Fadel Group",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_CreateDefaultFormEntity.md)]

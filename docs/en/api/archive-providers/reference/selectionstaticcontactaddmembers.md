@@ -353,18 +353,19 @@ a non-null value for those contacts or persons that exist in the given static se
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
-|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -459,11 +460,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
@@ -563,11 +564,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
-|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
@@ -667,11 +668,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |personInfo/textId|int|Text ID| x |
 |personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personEmail/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|personEmail/emailAddress|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personEmail/emailAddress|string|E-mail| x |
 |personEmail/emailDescription|string|Description| x |
 |personEmail/emailId|int|ID| x |
 |personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -771,11 +772,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory|listAny|Source - Category| x |
 |personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
-|personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
 |personSourceRelation/personBusiness|listAny|Source - Business| x |
 |personSourceRelation/leadStatus|listAny|Source - Lead status| x |
 |personSourceRelation/leadstatusRank|int|Source - !!Lead status RANK| x |
@@ -875,11 +876,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -979,11 +980,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
-|request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
@@ -1083,11 +1084,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-|projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -1187,11 +1188,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -1285,7 +1286,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=sourceRelation/contactDeleted,sourceRelation/activeErpLinks,sale/associate/personEmail,mrMrs,personCategoryGroup
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=streetAddress/wgs84longitude,restrictionAddress/city,targetRelation/code,sale/personId,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

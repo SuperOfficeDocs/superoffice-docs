@@ -662,14 +662,15 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |appointmentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |appointmentInstance/sale/saleNumber|string|Number: Number| x |
-|appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|appointmentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |appointmentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |appointmentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |appointmentInstance/sale/description|string|Description: The long description field on Sale|  |
 |appointmentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |appointmentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |appointmentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |appointmentInstance/sale/visibleFor|listAny|Visible for|  |
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
@@ -748,11 +749,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|appointmentInstance/associate/userName|string|User name: User name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/associate/userName|string|User name: User name| x |
 |appointmentInstance/associate/personEmail|string|E-mail| x |
 |appointmentInstance/associate/locationAddress|string|Location: Location| x |
 |appointmentInstance/associate/isLocation|bool|Is a location: Is a location| x |
@@ -769,7 +770,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/who,appointmentInstance/contact/restrictionAddress/line1,appointmentInstance/contact/contactUdef/SuperOffice:10,appointmentInstance/person/retired,appointmentInstance/person/isStakeholder
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/hasInfoText,appointmentInstance/contact/NumberOfNotCompletedActivities,appointmentInstance/person/personExtra/y_rental/x_contact,appointmentInstance/person/personAssociate/usergroupId,appointmentInstance/project/projectAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

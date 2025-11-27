@@ -18,7 +18,7 @@ Lists all email flow form content
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"Form"|[Form]|
+|"Form"|Form|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

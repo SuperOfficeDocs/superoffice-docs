@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ProjectMember?$select=name,department,category/id
 GET /api/v1/ProjectMember?$filter=name begins 'S'
 GET /api/v1/ProjectMember?$orderBy=name asc
-GET /api/v1/ProjectMember?$entities=explicabo
-GET /api/v1/ProjectMember?$top=730
-GET /api/v1/ProjectMember?$skip=397
+GET /api/v1/ProjectMember?$entities=incidunt
+GET /api/v1/ProjectMember?$top=258
+GET /api/v1/ProjectMember?$skip=62
 GET /api/v1/ProjectMember?$mode=Full
 GET /api/v1/ProjectMember?$options=GrandTotal=true
-GET /api/v1/ProjectMember?$context=aut
+GET /api/v1/ProjectMember?$context=omnis
 GET /api/v1/ProjectMember?$format=JSON
 GET /api/v1/ProjectMember?$jsonSafe=False
 GET /api/v1/ProjectMember?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ProjectMember_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "libero",
-  "value": [
-    {
-      "PrimaryKey": 4733,
-      "EntityName": "sale",
-      "saleId": 4733,
-      "contactId": 5159,
-      "name": "Beatty-Reinger"
-    },
-    {
-      "PrimaryKey": 6886,
-      "EntityName": "sale",
-      "saleId": 6886,
-      "contactId": 766,
-      "name": "Reilly LLC"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectMember_GetAll.md)]

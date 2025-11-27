@@ -63,23 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Relation/DeleteContactRelation
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactRelationEntityId": 234
-}
-```
+[!include[sample request](../../samples/agent/request/v1RelationAgent_DeleteContactRelation.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1RelationAgent_DeleteContactRelation.md)]

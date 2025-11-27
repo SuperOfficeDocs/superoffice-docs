@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=26
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=814
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -75,66 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetProjectTypeEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetProjectTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjTypeId": 350,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 995,
-  "DurationUnit": "Century",
-  "ProjectDuration": 390,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": true,
-  "Stages": [
-    {
-      "Id": 786,
-      "Name": "Reilly Inc and Sons",
-      "ToolTip": "Quia beatae harum dolor in.",
-      "Deleted": true,
-      "Rank": 671,
-      "Type": "sed",
-      "ColorBlock": 343,
-      "IconHint": "excepturi",
-      "Selected": false,
-      "LastChanged": "1999-10-22T02:30:47.3975807+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "illo",
-      "StyleHint": "neque",
-      "Hidden": false,
-      "FullName": "Noah Johnston MD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetProjectTypeEntity.md)]

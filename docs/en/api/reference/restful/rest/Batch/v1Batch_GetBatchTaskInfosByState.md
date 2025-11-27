@@ -77,54 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/BatchTask/{state}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1Batch_GetBatchTaskInfosByState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 768,
-    "Name": "Roob-Howe",
-    "AssociateId": 768,
-    "DetailsTable": 61,
-    "DetailsRecord": 695,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "saepe",
-      "ParameterObject2": "libero"
-    },
-    "LastStarted": "2013-04-11T02:30:53.0380235+02:00",
-    "Created": "2000-06-27T02:30:53.0380235+02:00",
-    "StartCount": 380,
-    "DatabaseSerialNumber": "305135",
-    "Context": "natus",
-    "Result": "magni",
-    "State": "All",
-    "Description": "Reverse-engineered transitional internet solution",
-    "Response": "sapiente",
-    "Request": "numquam",
-    "ProgressDescription": "Mandatory executive model",
-    "ProgressPercent": 35,
-    "FileName": "Jenkins LLC",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 390
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1Batch_GetBatchTaskInfosByState.md)]

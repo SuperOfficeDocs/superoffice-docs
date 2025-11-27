@@ -3431,6 +3431,8 @@ items:
     name: AudienceLayoutTableInfo
   - uid: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
     name: AudienceVisibilityTableInfo
+  - uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+    name: AutomatedCategoryUpdateTableInfo
   - uid: SuperOffice.CRM.Data.AutosaveTableInfo
     name: AutosaveTableInfo
   - uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
@@ -3509,6 +3511,12 @@ items:
     name: ContactInterestTableInfo
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceSettingTableInfo
+    name: CopilotDataSourceSettingTableInfo
+  - uid: SuperOffice.CRM.Data.CopilotDataSourceTableInfo
+    name: CopilotDataSourceTableInfo
+  - uid: SuperOffice.CRM.Data.CopilotTableInfo
+    name: CopilotTableInfo
   - uid: SuperOffice.CRM.Data.CounterValueTableInfo
     name: CounterValueTableInfo
   - uid: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
@@ -3583,6 +3591,8 @@ items:
     name: DBC.AudienceLayoutLinkFields
   - uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
     name: DBC.AudienceVisibilityFields
+  - uid: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
+    name: DBC.AutomatedCategoryUpdateFields
   - uid: SuperOffice.CRM.Data.DBC.AutosaveFields
     name: DBC.AutosaveFields
   - uid: SuperOffice.CRM.Data.DBC.BaseTZLocationFields
@@ -3661,6 +3671,12 @@ items:
     name: DBC.ContactFields
   - uid: SuperOffice.CRM.Data.DBC.ContactInterestFields
     name: DBC.ContactInterestFields
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceFields
+    name: DBC.CopilotDataSourceFields
+  - uid: SuperOffice.CRM.Data.DBC.CopilotDataSourceSettingFields
+    name: DBC.CopilotDataSourceSettingFields
+  - uid: SuperOffice.CRM.Data.DBC.CopilotFields
+    name: DBC.CopilotFields
   - uid: SuperOffice.CRM.Data.DBC.CounterValueFields
     name: DBC.CounterValueFields
   - uid: SuperOffice.CRM.Data.DBC.CountryFields
@@ -4493,6 +4509,12 @@ items:
     name: DBC.TicketLogFields
   - uid: SuperOffice.CRM.Data.DBC.TicketPriorityFields
     name: DBC.TicketPriorityFields
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelDefTicketTypeFields
+    name: DBC.TicketRelDefTicketTypeFields
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationDefFields
+    name: DBC.TicketRelationDefFields
+  - uid: SuperOffice.CRM.Data.DBC.TicketRelationFields
+    name: DBC.TicketRelationFields
   - uid: SuperOffice.CRM.Data.DBC.TicketStatusFields
     name: DBC.TicketStatusFields
   - uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
@@ -5423,6 +5445,12 @@ items:
     name: TicketLogTableInfo
   - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
     name: TicketPriorityTableInfo
+  - uid: SuperOffice.CRM.Data.TicketRelDefTicketTypeTableInfo
+    name: TicketRelDefTicketTypeTableInfo
+  - uid: SuperOffice.CRM.Data.TicketRelationDefTableInfo
+    name: TicketRelationDefTableInfo
+  - uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+    name: TicketRelationTableInfo
   - uid: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
     name: TicketStatusHistoryTableInfo
   - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
@@ -7428,6 +7456,22 @@ items:
     name: AudienceVisibilityRows.IdxSourceTable
   - uid: SuperOffice.CRM.Rows.AudienceVisibilityRows.IdxSourceTableSourceRecord
     name: AudienceVisibilityRows.IdxSourceTableSourceRecord
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+    name: AutomatedCategoryUpdateRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+    name: AutomatedCategoryUpdateRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+    name: AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+    name: AutomatedCategoryUpdateRow.IdxTriggerType
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+    name: AutomatedCategoryUpdateRows
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+    name: AutomatedCategoryUpdateRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.AutosaveRecordData
     name: AutosaveRecordData
   - uid: SuperOffice.CRM.Rows.AutosaveRecordDataExtensions
@@ -8140,6 +8184,48 @@ items:
     name: ContactRows.IdxUserdef2Id
   - uid: SuperOffice.CRM.Rows.ContactRows.IdxUserdefId
     name: ContactRows.IdxUserdefId
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRecordData
+    name: CopilotDataSourceRecordData
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions
+    name: CopilotDataSourceRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+    name: CopilotDataSourceRow
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+    name: CopilotDataSourceRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+    name: CopilotDataSourceRow.IdxCopilotDataSourceId
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows
+    name: CopilotDataSourceRows
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+    name: CopilotDataSourceRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData
+    name: CopilotDataSourceSettingRecordData
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions
+    name: CopilotDataSourceSettingRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+    name: CopilotDataSourceSettingRow
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+    name: CopilotDataSourceSettingRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+    name: CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+    name: CopilotDataSourceSettingRows
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+    name: CopilotDataSourceSettingRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.CopilotRecordData
+    name: CopilotRecordData
+  - uid: SuperOffice.CRM.Rows.CopilotRecordDataExtensions
+    name: CopilotRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.CopilotRow
+    name: CopilotRow
+  - uid: SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+    name: CopilotRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+    name: CopilotRow.IdxCopilotId
+  - uid: SuperOffice.CRM.Rows.CopilotRows
+    name: CopilotRows
+  - uid: SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+    name: CopilotRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
     name: CounterValueBulkImportFacade
   - uid: SuperOffice.CRM.Rows.CounterValueRecordData
@@ -15930,6 +16016,60 @@ items:
     name: TicketRecordData
   - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions
     name: TicketRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData
+    name: TicketRelDefTicketTypeRecordData
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions
+    name: TicketRelDefTicketTypeRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+    name: TicketRelDefTicketTypeRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+    name: TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+    name: TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+    name: TicketRelDefTicketTypeRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+    name: TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+    name: TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRecordData
+    name: TicketRelationDefRecordData
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions
+    name: TicketRelationDefRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+    name: TicketRelationDefRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+    name: TicketRelationDefRow.IdxName
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+    name: TicketRelationDefRow.IdxTicketRelationDefId
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows
+    name: TicketRelationDefRows
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+    name: TicketRelationDefRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelationRecordData
+    name: TicketRelationRecordData
+  - uid: SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions
+    name: TicketRelationRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow
+    name: TicketRelationRow
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+    name: TicketRelationRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+    name: TicketRelationRow.IdxTicketRelationId
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+    name: TicketRelationRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+    name: TicketRelationRows.IdxDestinationTicketId
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+    name: TicketRelationRows.IdxSourceTicketId
   - uid: SuperOffice.CRM.Rows.TicketRow
     name: TicketRow
   - uid: SuperOffice.CRM.Rows.TicketRow.CustomSearch
@@ -16082,12 +16222,12 @@ items:
     name: TimeKeepingRows
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
     name: TimeKeepingRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
-    name: TimeKeepingRows.IdxEntityId
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
-    name: TimeKeepingRows.IdxEntityIdStateId
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-    name: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
+    name: TimeKeepingRows.IdxOwnerRecord
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
+    name: TimeKeepingRows.IdxOwnerRecordStateId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+    name: TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
   - uid: SuperOffice.CRM.Rows.TimestampsRecordData
     name: TimestampsRecordData
   - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions
@@ -18211,6 +18351,8 @@ items:
     name: CalReplyStatus
   - uid: SuperOffice.Data.CategoryGroup
     name: CategoryGroup
+  - uid: SuperOffice.Data.CategoryUpdateTrigger
+    name: CategoryUpdateTrigger
   - uid: SuperOffice.Data.CcTemplateType
     name: CcTemplateType
   - uid: SuperOffice.Data.ChangePasswordType
@@ -18241,6 +18383,8 @@ items:
     name: ConfigType
   - uid: SuperOffice.Data.ContactPersonBoardEntity
     name: ContactPersonBoardEntity
+  - uid: SuperOffice.Data.CopilotDataSourceType
+    name: CopilotDataSourceType
   - uid: SuperOffice.Data.CredentialControlType
     name: CredentialControlType
   - uid: SuperOffice.Data.CredentialUsage
@@ -18655,6 +18799,8 @@ items:
     name: SoCommand
   - uid: SuperOffice.Data.SoConnection
     name: SoConnection
+  - uid: SuperOffice.Data.SoConnection.ConnectionInfo
+    name: SoConnection.ConnectionInfo
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
   - uid: SuperOffice.Data.SoDatabase
@@ -18751,6 +18897,8 @@ items:
     name: TicketPriorityStatus
   - uid: SuperOffice.Data.TicketReadStatus
     name: TicketReadStatus
+  - uid: SuperOffice.Data.TicketRelationType
+    name: TicketRelationType
   - uid: SuperOffice.Data.TicketSecurityLevel
     name: TicketSecurityLevel
   - uid: SuperOffice.Data.TicketStatusTimeCounter
@@ -18842,6 +18990,8 @@ items:
     name: BaseFlushCacheAndBroadcastPlugin
   - uid: SuperOffice.Data.Cache.CacheBaseV2
     name: CacheBaseV2
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
   - uid: SuperOffice.Data.Cache.CacheFlusher
     name: CacheFlusher
   - uid: SuperOffice.Data.Cache.CacheInvalidationOperations
@@ -19017,6 +19167,8 @@ items:
     name: Bool
   - uid: SuperOffice.Data.SQL.CategoryGroupFieldInfo
     name: CategoryGroupFieldInfo
+  - uid: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
+    name: CategoryUpdateTriggerFieldInfo
   - uid: SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
     name: CcTemplateTypeFieldInfo
   - uid: SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
@@ -19035,6 +19187,8 @@ items:
     name: Compare
   - uid: SuperOffice.Data.SQL.ConfigTypeFieldInfo
     name: ConfigTypeFieldInfo
+  - uid: SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
+    name: CopilotDataSourceTypeFieldInfo
   - uid: SuperOffice.Data.SQL.Count
     name: Count
   - uid: SuperOffice.Data.SQL.CountAll
@@ -19393,6 +19547,8 @@ items:
     name: TicketPriorityStatusFieldInfo
   - uid: SuperOffice.Data.SQL.TicketReadStatusFieldInfo
     name: TicketReadStatusFieldInfo
+  - uid: SuperOffice.Data.SQL.TicketRelationTypeFieldInfo
+    name: TicketRelationTypeFieldInfo
   - uid: SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
     name: TicketSecurityLevelFieldInfo
   - uid: SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
@@ -19708,6 +19864,8 @@ items:
     name: SoExceptionInfoParameters
   - uid: SuperOffice.Exceptions.SoFileNotFoundException
     name: SoFileNotFoundException
+  - uid: SuperOffice.Exceptions.SoFunctionRightException
+    name: SoFunctionRightException
   - uid: SuperOffice.Exceptions.SoHttpResponseException
     name: SoHttpResponseException
   - uid: SuperOffice.Exceptions.SoIllegalOperationException

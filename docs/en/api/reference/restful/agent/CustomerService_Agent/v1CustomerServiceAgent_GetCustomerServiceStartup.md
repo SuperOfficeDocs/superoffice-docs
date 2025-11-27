@@ -67,53 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_GetCustomerServiceStartup.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TimezoneEnabled": true,
-  "TZOffset": 132,
-  "RecaptchaSiteKey": "alias",
-  "SelectedPreferences": [
-    {
-      "Level": "Database",
-      "RawValue": "labore",
-      "Specification": null,
-      "DisplayValue": "quia",
-      "DisplayTooltip": "eaque",
-      "DisplayType": "Bool",
-      "TabOrder": null,
-      "TargetId": 421,
-      "PrefDescId": 1002,
-      "TableName": "Farrell-Volkman",
-      "UserPreferenceId": 486,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_GetCustomerServiceStartup.md)]

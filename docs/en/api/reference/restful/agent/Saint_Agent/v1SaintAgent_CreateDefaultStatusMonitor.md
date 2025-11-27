@@ -68,42 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_CreateDefaultStatusMonitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerTable": 504,
-  "Rank": 919,
-  "DefaultTask": 270,
-  "DefaultTaskText": "qui",
-  "IsVisual": true,
-  "LastGenerated": "2007-01-23T02:30:47.7569437+01:00",
-  "Description": "Versatile 6th generation interface",
-  "Name": "Harber, Monahan and McLaughlin",
-  "StatusMonitorId": 400,
-  "PictureId": 694,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 64,
-  "NumNeedUpdate": 533,
-  "GenerationStart": "2004-09-10T02:30:47.7569437+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_CreateDefaultStatusMonitor.md)]

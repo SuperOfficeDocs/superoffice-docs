@@ -75,36 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/GetTabOrder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TabName": "Muller-Vandervort"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_GetTabOrder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TabOrderId": 857,
-  "TabName": "Wolff Inc and Sons",
-  "Order": "hic",
-  "AssociateId": 632,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_GetTabOrder.md)]

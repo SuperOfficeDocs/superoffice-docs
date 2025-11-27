@@ -50,18 +50,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/User/currentToken
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1User_GetCurrentToken.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"sunt"
-```
+[!include[sample response](../../samples/rest/response/v1User_GetCurrentToken.md)]

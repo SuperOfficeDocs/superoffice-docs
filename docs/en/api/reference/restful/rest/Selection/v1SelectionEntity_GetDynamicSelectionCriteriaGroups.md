@@ -59,75 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/{selectionId}/CriteriaGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetDynamicSelectionCriteriaGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Fay-Wilkinson",
-    "Description": "Programmable composite middleware",
-    "Rank": 292,
-    "Restrictions": [
-      {
-        "Name": "Dach, DuBuque and Langworth",
-        "Operator": "facere",
-        "Values": [
-          "earum",
-          "officia"
-        ],
-        "DisplayValues": [
-          "nesciunt",
-          "ratione"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 183,
-        "InterOperator": "And",
-        "UniqueHash": 101
-      }
-    ]
-  },
-  {
-    "Name": "Fay-Wilkinson",
-    "Description": "Programmable composite middleware",
-    "Rank": 292,
-    "Restrictions": [
-      {
-        "Name": "Dach, DuBuque and Langworth",
-        "Operator": "facere",
-        "Values": [
-          "earum",
-          "officia"
-        ],
-        "DisplayValues": [
-          "nesciunt",
-          "ratione"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 183,
-        "InterOperator": "And",
-        "UniqueHash": 101
-      }
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetDynamicSelectionCriteriaGroups.md)]

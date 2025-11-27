@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Project/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ProjectEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 938,
-    "ColumnId": 115,
-    "FieldDefault": "adipisci",
-    "FieldHeight": 719,
-    "FieldLabel": "magni",
-    "FieldLeft": 888,
-    "FieldTop": 538,
-    "FieldType": "Checkbox",
-    "FieldWidth": 554,
-    "FormatMask": "consequuntur",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 639,
-    "LabelLeft": 266,
-    "LabelTop": 532,
-    "LabelWidth": 75,
-    "LastVersionId": 60,
-    "ListTableId": 622,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 246,
-    "ProgId": "magni",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 588,
-    "TextLength": 763,
-    "Tooltip": "consequatur",
-    "UdefIdentity": 301,
-    "UDListDefinitionId": 774,
-    "Justification": "Center",
-    "Version": 51,
-    "TemplateVariableName": "Bechtelar, Jewess and Rosenbaum",
-    "HasBeenPublished": false,
-    "MdoListName": "Reichel, Gibson and Champlin",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 563
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectEntity_GetPublishedUdefLayout.md)]

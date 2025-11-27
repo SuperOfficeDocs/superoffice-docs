@@ -88,47 +88,8 @@ PreferenceDescriptionLine updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/PreferenceDescriptionLine/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 174,
-  "PrefDescId": 15,
-  "PrefValue": "doloribus",
-  "PrefShowValue": "placeat",
-  "Description": "Assimilated 4th generation structure",
-  "IsBuiltin": true
-}
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescriptionLine_PutPreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PreferenceDescriptionLine updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PrefDescLineId": 142,
-  "PrefDescId": 766,
-  "PrefValue": "earum",
-  "PrefShowValue": "ut",
-  "Description": "Integrated secondary customer loyalty",
-  "IsBuiltin": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescriptionLine_PutPreferenceDescriptionLine.md)]

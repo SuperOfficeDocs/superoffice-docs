@@ -85,58 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/DuplicateDashboard
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 918,
-  "Name": "Fay-Haag"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_DuplicateDashboard.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 138,
-  "UniqueId": "eum",
-  "Name": "Marks-Kris",
-  "Description": "Synchronised fault-tolerant customer loyalty",
-  "AssociateId": 919,
-  "Columns": 545,
-  "Theme": null,
-  "VisibleForAll": 569,
-  "VisibleForAssociates": [
-    519,
-    981
-  ],
-  "VisibleForGroups": [
-    790,
-    572
-  ],
-  "PinForAll": 117,
-  "PinForAssociates": [
-    242,
-    534
-  ],
-  "PinForGroups": [
-    467,
-    455
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_DuplicateDashboard.md)]

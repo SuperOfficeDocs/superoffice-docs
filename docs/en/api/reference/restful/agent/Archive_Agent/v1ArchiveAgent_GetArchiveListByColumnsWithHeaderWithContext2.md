@@ -165,64 +165,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Robel LLC",
-  "Columns": "ea",
-  "SortOrder": "odio",
-  "Restriction": "id",
-  "Entities": "in",
-  "Page": 268,
-  "PageSize": 579,
-  "Options": "sequi",
-  "Context": "tempore"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "RowCount": 63,
-  "Rows": [
-    {
-      "EntityName": "Okuneva Group",
-      "PrimaryKey": 984,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "assumenda",
-          "LinkHint": "sint"
-        }
-      },
-      "LinkHint": "cumque",
-      "StyleHint": "sapiente",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)]

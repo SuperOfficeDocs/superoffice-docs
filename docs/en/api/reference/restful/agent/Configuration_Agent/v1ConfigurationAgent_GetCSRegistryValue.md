@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetCSRegistryValue
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Entry": 353
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetCSRegistryValue.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"eligendi"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetCSRegistryValue.md)]

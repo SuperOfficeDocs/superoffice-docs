@@ -67,23 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetProbabilityFromStage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StageId": 589
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetProbabilityFromStage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-19
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetProbabilityFromStage.md)]

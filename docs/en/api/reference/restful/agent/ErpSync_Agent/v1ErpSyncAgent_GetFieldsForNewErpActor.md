@@ -85,45 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 7,
-  "ErpActorType": "Customer"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetFieldsForNewErpActor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "FieldKey": "illum",
-    "Rank": 555,
-    "DisplayName": "Streich Group",
-    "DisplayDescription": "User-friendly neutral secured line",
-    "FieldType": "Checkbox",
-    "ListName": "Rosenbaum, Rutherford and Runolfsson",
-    "DefaultValue": "earum",
-    "MaxLength": 862,
-    "Access": "Mandatory",
-    "ShowInSearch": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetFieldsForNewErpActor.md)]

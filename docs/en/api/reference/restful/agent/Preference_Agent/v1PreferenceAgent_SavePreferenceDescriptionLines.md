@@ -77,57 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PreferenceDescriptionLines": [
-    {
-      "PrefDescLineId": 150,
-      "PrefDescId": 339,
-      "PrefValue": "sunt",
-      "PrefShowValue": "ab",
-      "Description": "Stand-alone motivating benchmark",
-      "IsBuiltin": false
-    },
-    {
-      "PrefDescLineId": 150,
-      "PrefDescId": 339,
-      "PrefValue": "sunt",
-      "PrefShowValue": "ab",
-      "Description": "Stand-alone motivating benchmark",
-      "IsBuiltin": false
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferenceDescriptionLines.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescLineId": 449,
-    "PrefDescId": 371,
-    "PrefValue": "provident",
-    "PrefShowValue": "ad",
-    "Description": "Re-contextualized dynamic paradigm",
-    "IsBuiltin": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 496
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferenceDescriptionLines.md)]

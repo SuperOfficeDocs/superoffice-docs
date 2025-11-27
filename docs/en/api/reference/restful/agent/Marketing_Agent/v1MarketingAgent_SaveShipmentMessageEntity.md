@@ -102,73 +102,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 865,
-  "PlainMessage": "quia",
-  "HtmlMessage": "eaque",
-  "SmsMessage": "quis",
-  "Description": "Integrated analyzing paradigm",
-  "Subject": "nemo",
-  "FolderId": 829,
-  "HeaderField": "ab",
-  "Design": "ea",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Multi-lateral non-volatile moderator",
-  "AccessKey": "ex",
-  "DocumentMessage": 79,
-  "Registered": "2018-02-09T02:30:47.4600781+01:00",
-  "RegisteredAssociateId": 838,
-  "Updated": "2021-06-26T02:30:47.4600781+02:00",
-  "UpdatedAssociateId": 653,
-  "UpdatedCount": 155
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_SaveShipmentMessageEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ShipmentMessageId": 668,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "dolores",
-  "SmsMessage": "nemo",
-  "Description": "User-friendly interactive paradigm",
-  "Subject": "velit",
-  "FolderId": 476,
-  "HeaderField": "officia",
-  "Design": "laborum",
-  "Designtype": "SOEditor",
-  "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Total multimedia hierarchy",
-  "AccessKey": "et",
-  "DocumentMessage": 711,
-  "Registered": "2016-07-11T02:30:47.4600781+02:00",
-  "RegisteredAssociateId": 347,
-  "Updated": "2009-11-17T02:30:47.4600781+01:00",
-  "UpdatedAssociateId": 123,
-  "UpdatedCount": 113,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_SaveShipmentMessageEntity.md)]

@@ -63,59 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/{selectionId}/Criteria
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetDynamicSelectionCriteria.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Schumm, Wintheiser and Lang",
-    "Operator": "dolor",
-    "Values": [
-      "similique",
-      "est"
-    ],
-    "DisplayValues": [
-      "voluptates",
-      "error"
-    ],
-    "ColumnInfo": null,
-    "IsActive": true,
-    "SubRestrictions": [
-      {
-        "Name": "Spinka-Langworth",
-        "Operator": "eligendi",
-        "Values": [
-          "animi",
-          "tenetur"
-        ],
-        "DisplayValues": [
-          "magnam",
-          "consectetur"
-        ],
-        "ColumnInfo": null,
-        "IsActive": true,
-        "SubRestrictions": [
-          {},
-          {}
-        ],
-        "InterParenthesis": 847,
-        "InterOperator": "And",
-        "UniqueHash": 197
-      }
-    ],
-    "InterParenthesis": 649,
-    "InterOperator": "And",
-    "UniqueHash": 144
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetDynamicSelectionCriteria.md)]

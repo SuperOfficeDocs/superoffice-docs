@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_GetQuoteApproveReasonUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 287,
-    "Name": "Block-Greenholt",
-    "ToolTip": "Quo non sit.",
-    "Deleted": false,
-    "Rank": 741,
-    "Type": "asperiores",
-    "ColorBlock": 808,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2011-05-31T02:30:53.3973865+02:00",
-    "ChildItems": [
-      {
-        "Id": 758,
-        "Name": "Kozey-Aufderhar",
-        "ToolTip": "Optio magni temporibus omnis perferendis fugit.",
-        "Deleted": true,
-        "Rank": 206,
-        "Type": "ratione",
-        "ColorBlock": 433,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2017-05-03T02:30:53.3973865+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Tressa Lavinia Spinka DVM",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 619
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Arch O'Connell",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 567
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_GetQuoteApproveReasonUserGroupsForListItem.md)]

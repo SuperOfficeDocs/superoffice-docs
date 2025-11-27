@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# dashboard\_theme Table (480)
+# dashboard\_theme Table (483)
 
 A set of style rules for the Dashboard
 

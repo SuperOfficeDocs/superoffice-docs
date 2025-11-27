@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketStatus/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 584,
-    "Name": "Denesik LLC",
-    "Tooltip": "minima",
-    "Deleted": false,
-    "Rank": 526,
-    "UdListDefinitionId": 876
-  },
-  {
-    "HeadingId": 584,
-    "Name": "Denesik LLC",
-    "Tooltip": "minima",
-    "Deleted": false,
-    "Rank": 526,
-    "UdListDefinitionId": 876
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1TicketStatusList_PutTicketStatusEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 175,
-    "Name": "Miller, Kuhlman and Williamson",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 603,
-    "UdListDefinitionId": 176,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 435
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketStatusList_PutTicketStatusEntityHeadings.md)]

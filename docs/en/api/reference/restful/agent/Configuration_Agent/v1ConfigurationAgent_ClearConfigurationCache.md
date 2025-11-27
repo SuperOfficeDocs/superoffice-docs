@@ -66,25 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/ClearConfigurationCache
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Application": "labore",
-  "Instance": "ipsum",
-  "ForAllAssociates": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_ClearConfigurationCache.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_ClearConfigurationCache.md)]

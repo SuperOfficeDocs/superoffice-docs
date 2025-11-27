@@ -83,47 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetYear": 456,
-  "EntityType": "None",
-  "TargetLevel": "Associate",
-  "Id": 683
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_GetTargetAssignmentForYear.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetAssignmentInfoId": 535,
-  "Values": [
-    859,
-    635
-  ],
-  "Locked": true,
-  "TargetAssociate": null,
-  "TargetContact": null,
-  "TargetUserGroup": null,
-  "Currency": null,
-  "DimensionListItem": 337,
-  "DimensionListItemDisplayName": "Franecki Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_GetTargetAssignmentForYear.md)]

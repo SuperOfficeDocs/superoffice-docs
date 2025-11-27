@@ -100,60 +100,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SetDocumentTemplateStream
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateEntity": null,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "a",
-  "PluginId": 220
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SetDocumentTemplateStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 550,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "hic",
-  "SaveInDb": 853,
-  "Filename": "quia",
-  "DefaultOref": "consequatur",
-  "RecordType": "Appointment",
-  "Deleted": false,
-  "Direction": "Incoming",
-  "AutoeventId": 82,
-  "IntentId": 357,
-  "IsDefaultPublished": false,
-  "Rank": 815,
-  "LoadTemplateFromPlugin": 277,
-  "MimeType": "incidunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 966,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "cicero@gislasonwatsica.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mireille.haag@lesch.co.uk",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SetDocumentTemplateStream.md)]

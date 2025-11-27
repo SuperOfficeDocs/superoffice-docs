@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Reason/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_GetReasonUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 265,
-    "Name": "Bednar, Cruickshank and Abernathy",
-    "ToolTip": "Est qui tenetur est et et ex possimus.",
-    "Deleted": false,
-    "Rank": 726,
-    "Type": "voluptatem",
-    "ColorBlock": 489,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2005-06-23T02:30:53.4130107+02:00",
-    "ChildItems": [
-      {
-        "Id": 538,
-        "Name": "Hessel, Altenwerth and Breitenberg",
-        "ToolTip": "Et voluptatem voluptates fuga aliquam maiores et fugiat.",
-        "Deleted": true,
-        "Rank": 117,
-        "Type": "atque",
-        "ColorBlock": 584,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "1999-04-14T02:30:53.4130107+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Miss Junius Lakin II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 55
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Tomasa Murazik",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 98
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_GetReasonUserGroupsForListItem.md)]

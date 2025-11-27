@@ -94,57 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectMembers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 521
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectMembers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectmemberId": 494,
-    "ContactId": 690,
-    "ProjectId": 311,
-    "ContactName": "Bosco-Becker",
-    "ContactDepartment": "",
-    "ProjectName": "Boehm Group",
-    "EmailId": 977,
-    "EmailAddress": "joanie@goyettelang.ca",
-    "CountryId": 358,
-    "Firstname": "Ardith",
-    "MiddleName": "Jacobi LLC",
-    "Lastname": "Hayes",
-    "PersonId": 155,
-    "Mrmrs": "soluta",
-    "ProjectMemberTypeName": "Spinka-Johnson",
-    "Phone": "346-020-8493",
-    "PhoneId": 120,
-    "ProjectMemberTypeId": 445,
-    "EmailAddressName": "elvie.mcdermott@braun.biz",
-    "Comment": "magnam",
-    "FullName": "Reinhold Ruecker",
-    "Registered": "2000-12-14T02:30:47.6944454+01:00",
-    "Updated": "2006-04-18T02:30:47.6944454+02:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 439
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectMembers.md)]

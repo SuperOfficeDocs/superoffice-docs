@@ -63,37 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1TicketMessageEntity_GetAttachmentInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 888,
-    "Name": "Herman Inc and Sons",
-    "ContentType": "voluptatem",
-    "AttSize": 204,
-    "InlineImage": true,
-    "ContentId": "non",
-    "AuthKey": "sed",
-    "IsSafeFileExtension": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 890
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketMessageEntity_GetAttachmentInfo.md)]

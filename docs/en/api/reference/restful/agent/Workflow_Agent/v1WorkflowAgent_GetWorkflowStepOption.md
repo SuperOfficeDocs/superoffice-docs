@@ -76,44 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/GetWorkflowStepOption
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowStepOptionId": 625
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_GetWorkflowStepOption.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OptionType": "FormData",
-  "WorkflowStepOptionId": 249,
-  "WorkflowStepId": 998,
-  "WorkflowId": 40,
-  "Name": "Heidenreich, Daniel and Morar",
-  "Rank": 395,
-  "Steps": [
-    {
-      "WorkflowStepId": 154,
-      "WorkflowId": 492,
-      "StepType": "AddToList",
-      "Rank": 183
-    },
-    {
-      "WorkflowStepId": 154,
-      "WorkflowId": 492,
-      "StepType": "AddToList",
-      "Rank": 183
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_GetWorkflowStepOption.md)]

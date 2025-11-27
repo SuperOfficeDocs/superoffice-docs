@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetSaleTypeEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 802,
-    "Name": "Nienow Inc and Sons",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 688,
-    "UdListDefinitionId": 663,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 445
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetSaleTypeEntityHeadings.md)]

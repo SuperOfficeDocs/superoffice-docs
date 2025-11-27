@@ -103,63 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/ResetChatSession
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 811
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_ResetChatSession.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 435,
-  "TopicId": 706,
-  "User": null,
-  "Person": null,
-  "CustomerAlias": "sequi",
-  "CustomerHost": "consequuntur",
-  "CustomerName": "Kulas LLC",
-  "CustomerEmail": "breana_kuhlman@luettgen.co.uk",
-  "CustomerPhone": "(373)706-2053",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Gleason Group",
-  "Status": "Closed",
-  "FirstMessage": "placeat",
-  "LastMessage": "non",
-  "WhenRequested": "2023-06-01T02:30:46.8975935+02:00",
-  "WhenStarted": "2011-11-20T02:30:46.8975935+01:00",
-  "WhenEnded": "2012-12-14T02:30:46.8975935+01:00",
-  "WhenIdle": "2020-09-18T02:30:46.8975935+02:00",
-  "WhenFetched": "2005-08-06T02:30:46.8975935+02:00",
-  "SessionKey": "explicabo",
-  "InitialQueuePos": 803,
-  "AlertLevel": 25,
-  "Rank": 83,
-  "Flags": "CustomerIsTyping",
-  "Contact": null,
-  "Project": null,
-  "Sale": null,
-  "Ticket": null,
-  "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 851,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 11
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_ResetChatSession.md)]

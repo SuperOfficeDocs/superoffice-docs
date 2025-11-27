@@ -90,61 +90,8 @@ DocumentEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/UdefLayout/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 DocumentEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 807,
-  "ColumnId": 594,
-  "FieldDefault": "rem",
-  "FieldHeight": 674,
-  "FieldLabel": "dolores",
-  "FieldLeft": 719,
-  "FieldTop": 31,
-  "FieldType": "Checkbox",
-  "FieldWidth": 41,
-  "FormatMask": "nihil",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 872,
-  "LabelLeft": 207,
-  "LabelTop": 48,
-  "LabelWidth": 921,
-  "LastVersionId": 683,
-  "ListTableId": 410,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 660,
-  "ProgId": "enim",
-  "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 963,
-  "TextLength": 948,
-  "Tooltip": "corporis",
-  "UdefIdentity": 956,
-  "UDListDefinitionId": 913,
-  "Justification": "Center",
-  "Version": 296,
-  "TemplateVariableName": "Langworth-Vandervort",
-  "HasBeenPublished": false,
-  "MdoListName": "Renner-Effertz",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetUdefFieldInfo.md)]

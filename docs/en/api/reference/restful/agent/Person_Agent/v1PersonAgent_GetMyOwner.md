@@ -104,68 +104,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetMyOwner
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetMyOwner.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Position": "hic",
-  "PersonId": 981,
-  "Mrmrs": "quia",
-  "Firstname": "Michale",
-  "Lastname": "Douglas",
-  "MiddleName": "Deckow-O'Connell",
-  "Title": "quam",
-  "Description": "Face to face fresh-thinking attitude",
-  "Email": "lenora@collins.name",
-  "FullName": "Dr. Buddy Nienow DDS",
-  "DirectPhone": "885-074-3588 x981",
-  "FormalName": "Deckow, Witting and Goodwin",
-  "CountryId": 287,
-  "ContactId": 945,
-  "ContactName": "Davis-Collins",
-  "Retired": 199,
-  "Rank": 839,
-  "ActiveInterests": 28,
-  "ContactDepartment": "",
-  "ContactCountryId": 342,
-  "ContactOrgNr": "1391293",
-  "FaxPhone": "1-674-908-2734 x15005",
-  "MobilePhone": "(746)103-2941 x661",
-  "ContactPhone": "1-291-476-7734",
-  "AssociateName": "Lesch, Heathcote and Cronin",
-  "AssociateId": 407,
-  "UsePersonAddress": false,
-  "ContactFax": "debitis",
-  "Kanafname": "soluta",
-  "Kanalname": "atque",
-  "Post1": "numquam",
-  "Post2": "itaque",
-  "Post3": "ipsam",
-  "EmailName": "cathy.mitchell@boyle.us",
-  "ContactFullName": "Mr. Jon Miller Sr.",
-  "ActiveErpLinks": 502,
-  "TicketPriorityId": 420,
-  "SupportLanguageId": 110,
-  "SupportAssociateId": 24,
-  "CategoryName": "VIP Customer",
-  "PersonNumber": "100142",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 718
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetMyOwner.md)]

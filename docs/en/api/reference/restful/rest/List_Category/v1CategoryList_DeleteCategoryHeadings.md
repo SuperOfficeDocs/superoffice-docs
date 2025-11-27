@@ -45,18 +45,8 @@ No Content
 
 ## Sample request
 
-```http!
-DELETE /api/v1/List/Category/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1CategoryList_DeleteCategoryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1CategoryList_DeleteCategoryHeadings.md)]

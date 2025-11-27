@@ -95,61 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Document/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_AddUdefField.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 17,
-  "ColumnId": 254,
-  "FieldDefault": "fugit",
-  "FieldHeight": 500,
-  "FieldLabel": "hic",
-  "FieldLeft": 436,
-  "FieldTop": 76,
-  "FieldType": "Checkbox",
-  "FieldWidth": 936,
-  "FormatMask": "ducimus",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 774,
-  "LabelLeft": 409,
-  "LabelTop": 968,
-  "LabelWidth": 115,
-  "LastVersionId": 913,
-  "ListTableId": 924,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 165,
-  "ProgId": "voluptatem",
-  "IsReadOnly": false,
-  "ShortLabel": "nisi",
-  "TabOrder": 377,
-  "TextLength": 913,
-  "Tooltip": "et",
-  "UdefIdentity": 330,
-  "UDListDefinitionId": 37,
-  "Justification": "Center",
-  "Version": 10,
-  "TemplateVariableName": "VonRueden-Altenwerth",
-  "HasBeenPublished": false,
-  "MdoListName": "Orn, Sauer and Jewess",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_AddUdefField.md)]

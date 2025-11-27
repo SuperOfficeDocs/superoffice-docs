@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectId": 190,
-  "StartTime": "2013-12-15T02:30:47.0850878+01:00",
-  "EndTime": "2016-03-25T02:30:47.0850878+01:00",
-  "Count": 712,
-  "DocumentTemplateId": 84
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectDocumentsByTemplateType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 518,
-    "Attention": "incidunt",
-    "Header": "sit",
-    "Name": "Krajcik-Hoeger",
-    "OurRef": "est",
-    "YourRef": "odio",
-    "Description": "Innovative multi-state process improvement",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 368,
-    "PersonFullName": "Daniella Eichmann",
-    "AssociateFullName": "Kathleen Rippin",
-    "ContactId": 561,
-    "ContactName": "Hodkiewicz-Strosin",
-    "ProjectId": 629,
-    "ProjectName": "Klein-Mitchell",
-    "AssociateId": 286,
-    "Snum": 711,
-    "SaleId": 246,
-    "SaleName": "Emmerich-Keeling",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 851
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectDocumentsByTemplateType.md)]

@@ -74,35 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetGroupId": 159
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_ExportTargetGroupToExcel.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "BatchTaskId": 914,
-  "FileName": "Sipes LLC",
-  "Message": "libero",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_ExportTargetGroupToExcel.md)]

@@ -86,49 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 485,
-  "ModuleOwner": "ipsa"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_GetThirdPartyLicenseAssignments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Unrestricted": false,
-    "Total": 734,
-    "Tooltip": "voluptatem",
-    "CanAssign": false,
-    "Free": 101,
-    "InUse": 561,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 257,
-    "Name": "Harris-Nolan",
-    "Description": "Multi-channelled grid-enabled extranet",
-    "PrerequisiteModuleName": "Gulgowski Inc and Sons",
-    "SortOrder": 108,
-    "ExtraFlags": 236,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_GetThirdPartyLicenseAssignments.md)]

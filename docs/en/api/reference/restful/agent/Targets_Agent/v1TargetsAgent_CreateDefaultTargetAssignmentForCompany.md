@@ -72,39 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetAssignmentForCompany.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetAssignmentInfoId": 189,
-  "Values": [
-    299,
-    304
-  ],
-  "Locked": false,
-  "TargetAssociate": null,
-  "TargetContact": null,
-  "TargetUserGroup": null,
-  "Currency": null,
-  "DimensionListItem": 794,
-  "DimensionListItemDisplayName": "Turcotte-Kuphal",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetAssignmentForCompany.md)]

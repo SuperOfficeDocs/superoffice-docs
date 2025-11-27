@@ -50,18 +50,8 @@ SaleStakeholder deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/SaleStakeholder/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleStakeholder_DeleteSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 SaleStakeholder deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SaleStakeholder_DeleteSaleStakeholder.md)]

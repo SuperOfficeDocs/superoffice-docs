@@ -85,51 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAppWebPanels
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAppWebPanels.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "WebPanelId": 247,
-    "Name": "Feest-Kautzer",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 355,
-    "UrlEncoding": "ANSI",
-    "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": true,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Pouros LLC",
-    "Url": "http://www.example.com/",
-    "ProgId": "natus",
-    "Icon": 862,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 861
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAppWebPanels.md)]

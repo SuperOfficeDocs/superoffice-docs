@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetValidUserName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 674,
-  "Type": "AnonymousAssociate",
-  "PersonId": 263,
-  "UserName": "Johnson-Blick"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetValidUserName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"Farrell LLC"
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetValidUserName.md)]

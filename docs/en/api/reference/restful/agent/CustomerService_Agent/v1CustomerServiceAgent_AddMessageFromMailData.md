@@ -81,41 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CustomerService/AddMessageFromMailData
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 584,
-  "Data": "in"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CustomerServiceAgent_AddMessageFromMailData.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketId": 610,
-  "Title": "harum",
-  "OwnerName": "White-Jones",
-  "CategoryName": "VIP Customer",
-  "PriorityName": "Bayer Inc and Sons",
-  "TicketUrl": "http://www.example.com/",
-  "PersonName": "Schinner LLC",
-  "ContactName": "Stroman, Kub and Feest",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CustomerServiceAgent_AddMessageFromMailData.md)]

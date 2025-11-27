@@ -89,50 +89,8 @@ SaleStakeholder found.
 
 ## Sample request
 
-```http!
-GET /api/v1/SaleStakeholder/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleStakeholder_GetSaleStakeholder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleStakeholder found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "StakeholderRoleName": "Paucek Group",
-  "Comment": "id",
-  "StakeholderRoleId": 751,
-  "CountryId": 119,
-  "PersonId": 732,
-  "EmailDescription": "myrtis@mcglynnframi.biz",
-  "EmailId": 622,
-  "EmailAddress": "beverly@nikolaus.com",
-  "PhoneId": 669,
-  "ContactName": "Kovacek, Russel and Wyman",
-  "ContactId": 355,
-  "SaleId": 158,
-  "Mrmrs": "iusto",
-  "Firstname": "Jimmie",
-  "MiddleName": "O'Reilly-Baumbach",
-  "Lastname": "Barton",
-  "SaleStakeholderId": 248,
-  "Rank": 776,
-  "Phone": "(843)994-1788 x463",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 150
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleStakeholder_GetSaleStakeholder.md)]

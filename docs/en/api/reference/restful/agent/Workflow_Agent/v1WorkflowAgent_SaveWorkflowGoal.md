@@ -68,77 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/SaveWorkflowGoal
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowGoalId": 80,
-  "WorkflowId": 628,
-  "GoalType": "AddedToProject",
-  "RestrictionGroups": [
-    {
-      "Name": "Ebert LLC",
-      "Description": "Customer-focused attitude-oriented initiative",
-      "Rank": 216,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Ebert LLC",
-      "Description": "Customer-focused attitude-oriented initiative",
-      "Rank": 216,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_SaveWorkflowGoal.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowGoalId": 876,
-  "WorkflowId": 272,
-  "GoalType": "AddedToProject",
-  "RestrictionGroups": [
-    {
-      "Name": "Kris-Schultz",
-      "Description": "Public-key secondary intranet",
-      "Rank": 718,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Kris-Schultz",
-      "Description": "Public-key secondary intranet",
-      "Rank": 718,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_SaveWorkflowGoal.md)]

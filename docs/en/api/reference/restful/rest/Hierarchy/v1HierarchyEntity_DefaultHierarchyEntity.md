@@ -64,61 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Hierarchy/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1HierarchyEntity_DefaultHierarchyEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HierarchyId": 767,
-  "Domain": "Dashboards",
-  "Name": "Champlin LLC",
-  "Fullname": "eveniet",
-  "ParentId": 225,
-  "Children": [
-    {
-      "HierarchyId": 272,
-      "Domain": "Dashboards",
-      "Name": "Schaden-Lemke",
-      "Fullname": "est",
-      "ParentId": 320,
-      "Children": [
-        {},
-        {}
-      ],
-      "Registered": "2020-12-08T02:30:52.6630355+01:00",
-      "RegisteredAssociateId": 461,
-      "Updated": "2015-03-26T02:30:52.6630355+01:00",
-      "UpdatedAssociateId": 88,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
-        }
-      }
-    }
-  ],
-  "Registered": "2013-11-09T02:30:52.6630355+01:00",
-  "RegisteredAssociateId": 312,
-  "Updated": "2004-02-01T02:30:52.6630355+01:00",
-  "UpdatedAssociateId": 513,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1HierarchyEntity_DefaultHierarchyEntity.md)]

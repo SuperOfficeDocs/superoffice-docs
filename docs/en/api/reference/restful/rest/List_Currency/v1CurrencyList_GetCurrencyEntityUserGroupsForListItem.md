@@ -72,73 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/Currency/Items/{itemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1CurrencyList_GetCurrencyEntityUserGroupsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 757,
-    "Name": "Gleichner-Abernathy",
-    "ToolTip": "Rerum quis veritatis magni in debitis dolores ipsam.",
-    "Deleted": false,
-    "Rank": 270,
-    "Type": "veritatis",
-    "ColorBlock": 208,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2022-06-04T02:30:53.2567659+02:00",
-    "ChildItems": [
-      {
-        "Id": 691,
-        "Name": "Stehr, Smitham and Jakubowski",
-        "ToolTip": "Expedita ipsam.",
-        "Deleted": false,
-        "Rank": 555,
-        "Type": "ratione",
-        "ColorBlock": 640,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2018-02-03T02:30:53.2567659+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Miss Stefanie Brakus IV",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "hic",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Lavinia Pfannerstill DVM",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1CurrencyList_GetCurrencyEntityUserGroupsForListItem.md)]

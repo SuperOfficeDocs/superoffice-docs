@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashId | int32 | **Required** The identity of the Dash |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?dashId=287
+POST /api/v1/Agents/Dash/DeleteDash?dashId=86
 ```
 
 
@@ -55,18 +55,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/DeleteDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_DeleteDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_DeleteDash.md)]

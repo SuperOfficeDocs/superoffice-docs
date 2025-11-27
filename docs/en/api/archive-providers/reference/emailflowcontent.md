@@ -18,8 +18,8 @@ Lists all email flow content
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"SMessage"|[SMessage]|
-|"Form"|[Form]|
+|"SMessage"|SMessage|
+|"Form"|Form|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -261,7 +261,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/type,shipment/project/projectAssociate/fullName,shipment/emailFlow/workflowEnrolledCount
+GET /api/v1/archive/EmailFlowContent?$select=emailFlow/mediumThumbnail,shipment/emailFlow/thumbnail,shipment/emailFlow/workflowEnrolledCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

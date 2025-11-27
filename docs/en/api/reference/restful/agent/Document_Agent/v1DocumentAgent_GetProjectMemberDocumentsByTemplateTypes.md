@@ -96,61 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 81,
-  "StartTime": "2016-08-04T02:30:47.0850878+02:00",
-  "EndTime": "2002-10-17T02:30:47.0850878+02:00",
-  "Count": 368,
-  "DocumentTemplateIds": [
-    146,
-    661
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 242,
-    "Attention": "eum",
-    "Header": "necessitatibus",
-    "Name": "Bashirian LLC",
-    "OurRef": "neque",
-    "YourRef": "voluptas",
-    "Description": "Optimized radical algorithm",
-    "DocumentTemplate": "est",
-    "IsPublished": false,
-    "PersonId": 850,
-    "PersonFullName": "Rodger Jenkins",
-    "AssociateFullName": "Charlie Lind PhD",
-    "ContactId": 367,
-    "ContactName": "Toy-Beier",
-    "ProjectId": 469,
-    "ProjectName": "Marvin, Gutmann and Hilll",
-    "AssociateId": 495,
-    "Snum": 52,
-    "SaleId": 551,
-    "SaleName": "Turner, Hamill and Emard",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 192
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes.md)]

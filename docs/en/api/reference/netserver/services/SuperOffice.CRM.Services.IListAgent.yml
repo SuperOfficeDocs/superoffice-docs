@@ -54,6 +54,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.DeleteTicketTypeEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteWebPanelAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GenerateNavigationUrlAsync(SuperOffice.Data.Navigation,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetAllConsentSourceAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetAllCountriesAsync(System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetAllCurrenciesAsync(System.Boolean,System.Threading.CancellationToken)
@@ -160,6 +161,8 @@ items:
   - SuperOffice.CRM.Services.IListAgent.GetMrMrsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetMrMrsListAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetMrMrsesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetOurCurrencyAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetOwnerCompanysCurrencyAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetPaymentTermAsync(System.Int32,System.Threading.CancellationToken)
@@ -245,6 +248,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.MoveAllTicketsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.MoveListItemAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.RebuildFullnamesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveAllFromListDefinitionAsync(System.Int32,SuperOffice.CRM.Services.ListItemEntity[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveAllFromListNameAsync(System.String,SuperOffice.CRM.Services.ListItemEntity[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveAmountClassEntityAsync(SuperOffice.CRM.Services.AmountClassEntity,System.Threading.CancellationToken)
@@ -439,6 +443,146 @@ items:
   nameWithType.vb: IListAgent.GetAmountClassEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IListAgent.GetAmountClassEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetAmountClassEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[],System.Threading.CancellationToken)
+  id: SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate[], CancellationToken)
+  nameWithType: IListAgent.SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Save the automated category update settings
+  example: []
+  syntax:
+    content: Task<AutomatedCategoryUpdate[]> SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate[] settings, CancellationToken cancellationToken = default)
+    parameters:
+    - id: settings
+      type: SuperOffice.CRM.Services.AutomatedCategoryUpdate[]
+      description: All settings for autoupdate category
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate[]}
+      description: Returns the saved settings
+    content.vb: Function SaveAllAutomatedCategoryUpdatesAsync(settings As AutomatedCategoryUpdate(), cancellationToken As CancellationToken = Nothing) As Task(Of AutomatedCategoryUpdate())
+  overload: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync*
+  nameWithType.vb: IListAgent.SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate(), System.Threading.CancellationToken)
+  name.vb: SaveAllAutomatedCategoryUpdatesAsync(AutomatedCategoryUpdate(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync(System.Threading.CancellationToken)
+  id: GetAllAutomatedCategoryUpdatesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllAutomatedCategoryUpdatesAsync(CancellationToken)
+  nameWithType: IListAgent.GetAllAutomatedCategoryUpdatesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Save the automated category update settings
+  example: []
+  syntax:
+    content: Task<AutomatedCategoryUpdate[]> GetAllAutomatedCategoryUpdatesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate[]}
+      description: Returns all settings
+    content.vb: Function GetAllAutomatedCategoryUpdatesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AutomatedCategoryUpdate())
+  overload: SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNeedCategoryUpdateForSaleAsync(SaleStatus, int, int, int, CancellationToken)
+  nameWithType: IListAgent.GetNeedCategoryUpdateForSaleAsync(SaleStatus, int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus, int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the settings for an update when saving a sale
+  example: []
+  syntax:
+    content: Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForSaleAsync(SaleStatus saleStatus, int saleId, int contactId, int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: saleStatus
+      type: SuperOffice.Data.SaleStatus
+      description: The saleEntity that might trigger the category update
+    - id: saleId
+      type: System.Int32
+      description: The sale id that might trigger the category update
+    - id: contactId
+      type: System.Int32
+      description: The contact id that might get the resulting update
+    - id: personId
+      type: System.Int32
+      description: The person id that might get the resulting update
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate}
+      description: Returns the info on the trigger that will update with userconfirmation. Returns void if no update or no need for confirmation
+    content.vb: Function GetNeedCategoryUpdateForSaleAsync(saleStatus As SaleStatus, saleId As Integer, contactId As Integer, personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AutomatedCategoryUpdate)
+  overload: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync*
+  nameWithType.vb: IListAgent.GetNeedCategoryUpdateForSaleAsync(SaleStatus, Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync(SuperOffice.Data.SaleStatus, Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetNeedCategoryUpdateForSaleAsync(SaleStatus, Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetNeedCategoryUpdateForPersonAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNeedCategoryUpdateForPersonAsync(int, int, int, int, CancellationToken)
+  nameWithType: IListAgent.GetNeedCategoryUpdateForPersonAsync(int, int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(int, int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the settings for an update when saving a sale
+  example: []
+  syntax:
+    content: Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForPersonAsync(int leadStatus, int personId, int contactId, int categoryId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: leadStatus
+      type: System.Int32
+      description: The leadstatus that might trigger the category update
+    - id: personId
+      type: System.Int32
+      description: The person id that might trigger the category update
+    - id: contactId
+      type: System.Int32
+      description: The contact id that might get the resulting update
+    - id: categoryId
+      type: System.Int32
+      description: The person id that might get the resulting update
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate}
+      description: Returns the info on the trigger that will update with userconfirmation. Returns void if no update or no need for confirmation
+    content.vb: Function GetNeedCategoryUpdateForPersonAsync(leadStatus As Integer, personId As Integer, contactId As Integer, categoryId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AutomatedCategoryUpdate)
+  overload: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync*
+  nameWithType.vb: IListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IListAgent.GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
   id: GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
@@ -822,6 +966,67 @@ items:
       description: New TaskMenu with default values
     content.vb: Function CreateDefaultTaskMenuAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TaskMenu)
   overload: SuperOffice.CRM.Services.IListAgent.CreateDefaultTaskMenuAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
+  id: SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTaskMenuAsync(TaskMenu, CancellationToken)
+  nameWithType: IListAgent.SaveTaskMenuAsync(TaskMenu, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<TaskMenu> SaveTaskMenuAsync(TaskMenu taskMenu, CancellationToken cancellationToken = default)
+    parameters:
+    - id: taskMenu
+      type: SuperOffice.CRM.Services.TaskMenu
+      description: The TaskMenu that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskMenu}
+      description: New or updated TaskMenu
+    content.vb: Function SaveTaskMenuAsync(taskMenu As TaskMenu, cancellationToken As CancellationToken = Nothing) As Task(Of TaskMenu)
+  overload: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTaskMenuAsync(int, CancellationToken)
+  nameWithType: IListAgent.DeleteTaskMenuAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the TaskMenu
+  example: []
+  syntax:
+    content: Task DeleteTaskMenuAsync(int taskMenuId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: taskMenuId
+      type: System.Int32
+      description: The identity of the TaskMenu
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteTaskMenuAsync(taskMenuId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync*
+  nameWithType.vb: IListAgent.DeleteTaskMenuAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTaskMenuAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
@@ -854,67 +1059,6 @@ items:
   nameWithType.vb: IListAgent.GetTaskMenuAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetTaskMenuAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
-  id: SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IListAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTaskMenuAsync(TaskMenu, CancellationToken)
-  nameWithType: IListAgent.SaveTaskMenuAsync(TaskMenu, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
-  example: []
-  syntax:
-    content: Task<TaskMenu> SaveTaskMenuAsync(TaskMenu taskMenu, CancellationToken cancellationToken = default)
-    parameters:
-    - id: taskMenu
-      type: SuperOffice.CRM.Services.TaskMenu
-      description: The TaskMenu that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskMenu}
-      description: New or updated TaskMenu
-    content.vb: Function SaveTaskMenuAsync(taskMenu As TaskMenu, cancellationToken As CancellationToken = Nothing) As Task(Of TaskMenu)
-  overload: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync*
-- uid: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IListAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteTaskMenuAsync(int, CancellationToken)
-  nameWithType: IListAgent.DeleteTaskMenuAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the TaskMenu
-  example: []
-  syntax:
-    content: Task DeleteTaskMenuAsync(int taskMenuId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: taskMenuId
-      type: System.Int32
-      description: The identity of the TaskMenu.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-      description: This method has no return value
-    content.vb: Function DeleteTaskMenuAsync(taskMenuId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync*
-  nameWithType.vb: IListAgent.DeleteTaskMenuAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteTaskMenuAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IListAgent.GetAppTaskMenusAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetAppTaskMenusAsync(System.Threading.CancellationToken)
   id: GetAppTaskMenusAsync(System.Threading.CancellationToken)
@@ -9509,6 +9653,35 @@ items:
       description: New WebPanelEntity with default values
     content.vb: Function CreateDefaultWebPanelEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WebPanelEntity)
   overload: SuperOffice.CRM.Services.IListAgent.CreateDefaultWebPanelEntityAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
+  id: SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWebPanelEntityAsync(WebPanelEntity, CancellationToken)
+  nameWithType: IListAgent.SaveWebPanelEntityAsync(WebPanelEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<WebPanelEntity> SaveWebPanelEntityAsync(WebPanelEntity webPanelEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: webPanelEntity
+      type: SuperOffice.CRM.Services.WebPanelEntity
+      description: The WebPanelEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WebPanelEntity}
+      description: New or updated WebPanelEntity
+    content.vb: Function SaveWebPanelEntityAsync(webPanelEntity As WebPanelEntity, cancellationToken As CancellationToken = Nothing) As Task(Of WebPanelEntity)
+  overload: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync*
 - uid: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetWebPanelEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -9541,35 +9714,6 @@ items:
   nameWithType.vb: IListAgent.GetWebPanelEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetWebPanelEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
-  id: SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IListAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveWebPanelEntityAsync(WebPanelEntity, CancellationToken)
-  nameWithType: IListAgent.SaveWebPanelEntityAsync(WebPanelEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
-  example: []
-  syntax:
-    content: Task<WebPanelEntity> SaveWebPanelEntityAsync(WebPanelEntity webPanelEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: webPanelEntity
-      type: SuperOffice.CRM.Services.WebPanelEntity
-      description: The WebPanelEntity to save.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WebPanelEntity}
-      description: New or updated WebPanelEntity.
-    content.vb: Function SaveWebPanelEntityAsync(webPanelEntity As WebPanelEntity, cancellationToken As CancellationToken = Nothing) As Task(Of WebPanelEntity)
-  overload: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync*
 - uid: SuperOffice.CRM.Services.IListAgent.GenerateNavigationUrlAsync(SuperOffice.Data.Navigation,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GenerateNavigationUrlAsync(SuperOffice.Data.Navigation,System.String,System.Threading.CancellationToken)
   id: GenerateNavigationUrlAsync(SuperOffice.Data.Navigation,System.String,System.Threading.CancellationToken)
@@ -9967,6 +10111,136 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_SaveAllAutomatedCategoryUpdatesAsync_SuperOffice_CRM_Services_AutomatedCategoryUpdate___System_Threading_CancellationToken_
+  name: SaveAllAutomatedCategoryUpdatesAsync
+  nameWithType: IListAgent.SaveAllAutomatedCategoryUpdatesAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync
+- uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  name: AutomatedCategoryUpdate[]
+  nameWithType: AutomatedCategoryUpdate[]
+  fullName: SuperOffice.CRM.Services.AutomatedCategoryUpdate[]
+  nameWithType.vb: AutomatedCategoryUpdate()
+  fullName.vb: SuperOffice.CRM.Services.AutomatedCategoryUpdate()
+  name.vb: AutomatedCategoryUpdate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AutomatedCategoryUpdate[]>
+  nameWithType: Task<AutomatedCategoryUpdate[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AutomatedCategoryUpdate[]>
+  nameWithType.vb: Task(Of AutomatedCategoryUpdate())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AutomatedCategoryUpdate())
+  name.vb: Task(Of AutomatedCategoryUpdate())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetAllAutomatedCategoryUpdatesAsync_System_Threading_CancellationToken_
+  name: GetAllAutomatedCategoryUpdatesAsync
+  nameWithType: IListAgent.GetAllAutomatedCategoryUpdatesAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetAllAutomatedCategoryUpdatesAsync
+- uid: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetNeedCategoryUpdateForSaleAsync_SuperOffice_Data_SaleStatus_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetNeedCategoryUpdateForSaleAsync
+  nameWithType: IListAgent.GetNeedCategoryUpdateForSaleAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForSaleAsync
+- uid: SuperOffice.Data.SaleStatus
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AutomatedCategoryUpdate}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AutomatedCategoryUpdate>
+  nameWithType: Task<AutomatedCategoryUpdate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AutomatedCategoryUpdate>
+  nameWithType.vb: Task(Of AutomatedCategoryUpdate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AutomatedCategoryUpdate)
+  name.vb: Task(Of AutomatedCategoryUpdate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetNeedCategoryUpdateForPersonAsync_System_Int32_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetNeedCategoryUpdateForPersonAsync
+  nameWithType: IListAgent.GetNeedCategoryUpdateForPersonAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync
 - uid: SuperOffice.CRM.Services.IListAgent.GetBusinessAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetBusinessAsync
   isExternal: true
@@ -10381,13 +10655,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.TaskMenu.html
   - name: )
-- uid: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetTaskMenuAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetTaskMenuAsync
-  nameWithType: IListAgent.GetTaskMenuAsync
-  fullName: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync
 - uid: SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync
   isExternal: true
@@ -10418,6 +10685,13 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetTaskMenuAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTaskMenuAsync
+  nameWithType: IListAgent.GetTaskMenuAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync
 - uid: SuperOffice.CRM.Services.IListAgent.GetAppTaskMenusAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetAppTaskMenusAsync
   isExternal: true
@@ -16930,13 +17204,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.WebPanelEntity.html
   - name: )
-- uid: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetWebPanelEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetWebPanelEntityAsync
-  nameWithType: IListAgent.GetWebPanelEntityAsync
-  fullName: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync
 - uid: SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync
   isExternal: true
@@ -16952,6 +17219,13 @@ references:
   name: WebPanelEntity
   nameWithType: WebPanelEntity
   fullName: SuperOffice.CRM.Services.WebPanelEntity
+- uid: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetWebPanelEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetWebPanelEntityAsync
+  nameWithType: IListAgent.GetWebPanelEntityAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetWebPanelEntityAsync
 - uid: SuperOffice.CRM.Services.IListAgent.GenerateNavigationUrlAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GenerateNavigationUrlAsync
   isExternal: true

@@ -69,49 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Botsford-Sauer",
-  "Restrictions": [
-    {
-      "Name": "Nicolas-McCullough",
-      "Operator": "non",
-      "Values": [
-        "qui",
-        "nemo"
-      ],
-      "DisplayValues": [
-        "perferendis",
-        "necessitatibus"
-      ],
-      "ColumnInfo": null,
-      "IsActive": false,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 197,
-      "InterOperator": "And",
-      "UniqueHash": 33
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_SetDeletedStatusByProvider.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  170,
-  139
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_SetDeletedStatusByProvider.md)]

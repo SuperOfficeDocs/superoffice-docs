@@ -83,75 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UserGroupIds": [
-    462,
-    970
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketCategoriesForUserGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 795,
-    "Name": "Thompson LLC",
-    "ToolTip": "Voluptates praesentium quo enim quo.",
-    "Deleted": false,
-    "Rank": 112,
-    "Type": "dicta",
-    "ChildItems": [
-      {
-        "Id": 239,
-        "Name": "Hickle, Mann and Williamson",
-        "ToolTip": "Voluptatem qui.",
-        "Deleted": true,
-        "Rank": 771,
-        "Type": "possimus",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "illo",
-        "ColorBlock": 323,
-        "ExtraInfo": "eveniet",
-        "StyleHint": "rerum",
-        "FullName": "Lauren Wisoky Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 267
-          }
-        }
-      }
-    ],
-    "IconHint": "rerum",
-    "ColorBlock": 251,
-    "ExtraInfo": "facere",
-    "StyleHint": "ipsa",
-    "FullName": "Sam Halvorson DDS",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketCategoriesForUserGroups.md)]

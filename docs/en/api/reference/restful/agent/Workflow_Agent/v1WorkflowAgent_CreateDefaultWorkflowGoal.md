@@ -57,50 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_CreateDefaultWorkflowGoal.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowGoalId": 564,
-  "WorkflowId": 312,
-  "GoalType": "AddedToProject",
-  "RestrictionGroups": [
-    {
-      "Name": "Rodriguez, Reichel and Hammes",
-      "Description": "Switchable zero administration policy",
-      "Rank": 951,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Rodriguez, Reichel and Hammes",
-      "Description": "Switchable zero administration policy",
-      "Rank": 951,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_CreateDefaultWorkflowGoal.md)]

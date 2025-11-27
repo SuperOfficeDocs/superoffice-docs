@@ -72,46 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_CreateDefaultDashTileDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardTileDefinitionId": 404,
-  "Name": "Powlowski Inc and Sons",
-  "Description": "Extended eco-centric architecture",
-  "DefaultHeight": 166,
-  "DefaultWidth": 767,
-  "TileType": "Area",
-  "EntityType": "Appointment",
-  "EntityName": "Sawayn Inc and Sons",
-  "SelectionId": 679,
-  "CurrencyMode": "Base",
-  "CurrencyCode": "enim",
-  "Measure": "Average",
-  "MeasureField": "maxime",
-  "SortBy": "voluptas",
-  "LayoutConfig": "magnam",
-  "SecondarySelectionId": 584,
-  "MeasureByField": "nam",
-  "Usage": "Dashboard",
-  "ProviderName": "Bernier-Murphy",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_CreateDefaultDashTileDefinition.md)]

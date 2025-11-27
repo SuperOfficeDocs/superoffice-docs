@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Appointment/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1AppointmentEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 992,
-    "ColumnId": 131,
-    "FieldDefault": "in",
-    "FieldHeight": 477,
-    "FieldLabel": "minima",
-    "FieldLeft": 929,
-    "FieldTop": 650,
-    "FieldType": "Checkbox",
-    "FieldWidth": 493,
-    "FormatMask": "omnis",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 724,
-    "LabelLeft": 147,
-    "LabelTop": 796,
-    "LabelWidth": 116,
-    "LastVersionId": 823,
-    "ListTableId": 720,
-    "IsMandatory": false,
-    "Type": "Appointment",
-    "Page1LineNo": 344,
-    "ProgId": "sit",
-    "IsReadOnly": true,
-    "ShortLabel": "in",
-    "TabOrder": 232,
-    "TextLength": 542,
-    "Tooltip": "dolores",
-    "UdefIdentity": 381,
-    "UDListDefinitionId": 95,
-    "Justification": "Center",
-    "Version": 207,
-    "TemplateVariableName": "Rogahn-Feest",
-    "HasBeenPublished": true,
-    "MdoListName": "Windler-Botsford",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1AppointmentEntity_GetPublishedUdefLayout.md)]

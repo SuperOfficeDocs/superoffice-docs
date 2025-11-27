@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/LegalBase/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_GetLegalBaseHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 225,
-    "Name": "Hand, Kohler and Beer",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 928,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_GetLegalBaseHeadings.md)]

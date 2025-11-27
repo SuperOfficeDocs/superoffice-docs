@@ -62,33 +62,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectStatus/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_GetProjectStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 539,
-  "Name": "Bayer-Blanda",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "UdListDefinitionId": 32,
-  "Rank": 69,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_GetProjectStatus.md)]

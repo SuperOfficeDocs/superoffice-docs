@@ -73,47 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/PreferenceDescription/{section}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescription_GetAllFromSection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PrefDescId": 436,
-    "Section": "voluptates",
-    "Key": "tempora",
-    "Name": "Denesik, Ortiz and Kutch",
-    "ValueType": "Bool",
-    "MaxLevel": "Database",
-    "SysMaxLevel": "Database",
-    "AccessFlags": "adminGUI",
-    "Description": "Cross-platform optimizing solution",
-    "IsBuiltin": true,
-    "TableName": "Reichel, Waelchi and Emard",
-    "UserDefinedListId": 231,
-    "Rank": 111,
-    "SubGroup": "aliquam",
-    "MinLevel": 779,
-    "MaxValue": 582,
-    "MinValue": 35,
-    "RequiredLicense": "consequatur",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 394
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescription_GetAllFromSection.md)]

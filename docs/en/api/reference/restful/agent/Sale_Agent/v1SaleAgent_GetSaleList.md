@@ -93,54 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetSaleList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetSaleList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactName": "Barrows, Simonis and Homenick",
-    "SaleDate": "2014-05-23T02:30:47.7881925+02:00",
-    "SaleId": 339,
-    "Probability": 581,
-    "Title": "officiis",
-    "Amount": 17312.216,
-    "Currency": "tempore",
-    "ProjectName": "Robel-Schaefer",
-    "AssociateFullName": "Eliza Velva Johnson II",
-    "Description": "User-friendly bi-directional service-desk",
-    "Status": "Lost",
-    "WeightedAmount": 6553.1939999999995,
-    "ProjectId": 225,
-    "EarningPercent": 16393.953999999998,
-    "Earning": 11075.556,
-    "ContactId": 708,
-    "AssociateId": 965,
-    "PersonId": 178,
-    "SaleTypeId": 834,
-    "SaleTypeName": "Borer, Price and Bins",
-    "PersonFullName": "Aurelio Wunsch",
-    "Completed": "Completed",
-    "ActiveErpLinks": 861,
-    "NextDueDate": "2006-02-25T02:30:47.7881925+01:00",
-    "Number": "649807",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetSaleList.md)]

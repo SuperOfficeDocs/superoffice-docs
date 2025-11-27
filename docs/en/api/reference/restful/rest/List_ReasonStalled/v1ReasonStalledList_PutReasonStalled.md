@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonStalled/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 16,
-  "Name": "Considine-Donnelly",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "UdListDefinitionId": 24,
-  "Rank": 289
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_PutReasonStalled.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 887,
-  "Name": "Stanton-Dare",
-  "Tooltip": "facere",
-  "Deleted": false,
-  "UdListDefinitionId": 856,
-  "Rank": 992,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_PutReasonStalled.md)]

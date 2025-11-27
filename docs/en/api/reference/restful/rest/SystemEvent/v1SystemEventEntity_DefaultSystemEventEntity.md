@@ -64,37 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/SystemEvent/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SystemEventEntity_DefaultSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 597,
-  "Scope": "Database",
-  "Eta": "2024-12-15T02:30:52.9442767+01:00",
-  "Eventkey": "eligendi",
-  "Eventmess": "quod",
-  "ExtraInfo": 152,
-  "Owner": 806,
-  "UpdatedCount": 956,
-  "Registered": "2005-12-03T02:30:52.9442767+01:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SystemEventEntity_DefaultSystemEventEntity.md)]

@@ -67,37 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/TriggerScript/default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TriggerScriptEntity_DefaultTriggerScriptEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 708,
-  "Name": "Mohr-Satterfield",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "accusamus",
-  "Source": "nisi",
-  "Registered": "2020-01-11T02:30:53.022399+01:00",
-  "RegisteredAssociateId": 146,
-  "Updated": "2006-03-19T02:30:53.022399+01:00",
-  "UpdatedAssociateId": 948,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TriggerScriptEntity_DefaultTriggerScriptEntity.md)]

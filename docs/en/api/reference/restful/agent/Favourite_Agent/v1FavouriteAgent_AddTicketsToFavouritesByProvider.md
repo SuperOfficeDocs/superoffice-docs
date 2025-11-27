@@ -66,48 +66,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Donnelly-Hilpert",
-  "Restrictions": [
-    {
-      "Name": "Emard-Swaniawski",
-      "Operator": "ducimus",
-      "Values": [
-        "magnam",
-        "odio"
-      ],
-      "DisplayValues": [
-        "minus",
-        "repudiandae"
-      ],
-      "ColumnInfo": null,
-      "IsActive": true,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 264,
-      "InterOperator": "And",
-      "UniqueHash": 393
-    }
-  ],
-  "AssociateId": 515,
-  "ExtraInfo": "sapiente"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FavouriteAgent_AddTicketsToFavouritesByProvider.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FavouriteAgent_AddTicketsToFavouritesByProvider.md)]

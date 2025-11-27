@@ -67,49 +67,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/SaveRestrictionsWithContext
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "corrupti",
-  "ProviderName": "Boehm-Ernser",
-  "StorageKey": "tempore",
-  "Restrictions": [
-    {
-      "Name": "Osinski, Quitzon and Gerlach",
-      "Operator": "velit",
-      "Values": [
-        "et",
-        "nemo"
-      ],
-      "DisplayValues": [
-        "vel",
-        "omnis"
-      ],
-      "ColumnInfo": null,
-      "IsActive": true,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 125,
-      "InterOperator": "And",
-      "UniqueHash": 132
-    }
-  ],
-  "Context": "possimus"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_SaveRestrictionsWithContext.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_SaveRestrictionsWithContext.md)]

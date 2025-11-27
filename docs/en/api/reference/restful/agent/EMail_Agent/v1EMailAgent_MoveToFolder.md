@@ -68,28 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/MoveToFolder
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "MessageServerIds": [
-    815,
-    7
-  ],
-  "TargetFolder": "in"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_MoveToFolder.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_MoveToFolder.md)]

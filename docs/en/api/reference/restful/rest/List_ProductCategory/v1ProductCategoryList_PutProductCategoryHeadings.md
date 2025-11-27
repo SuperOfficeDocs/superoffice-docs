@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductCategory/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 82,
-    "Name": "Sawayn LLC",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 591
-  },
-  {
-    "HeadingId": 82,
-    "Name": "Sawayn LLC",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 591
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductCategoryList_PutProductCategoryHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 766,
-    "Name": "Pagac, Hoeger and Ratke",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "Rank": 549,
-    "UdListDefinitionId": 446,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductCategoryList_PutProductCategoryHeadings.md)]

@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
+GET /api/v1/List/PaymentTerm/MDOItems?query=eveniet
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/PaymentTerm/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PaymentTermsList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 569,
-    "Name": "Harris-McLaughlin",
-    "ToolTip": "Quae minus quis quos repudiandae aliquam.",
-    "Deleted": false,
-    "Rank": 672,
-    "Type": "consequatur",
-    "ChildItems": [
-      {
-        "Id": 660,
-        "Name": "Schaefer LLC",
-        "ToolTip": "Ratione earum voluptas quo aperiam.",
-        "Deleted": true,
-        "Rank": 31,
-        "Type": "omnis",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 207,
-        "ExtraInfo": "est",
-        "StyleHint": "quia",
-        "FullName": "Susanna Twila Dare II",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 546
-          }
-        }
-      }
-    ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 627,
-    "ExtraInfo": "totam",
-    "StyleHint": "blanditiis",
-    "FullName": "Alexzander Boyle",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PaymentTermsList_GetMDOList.md)]

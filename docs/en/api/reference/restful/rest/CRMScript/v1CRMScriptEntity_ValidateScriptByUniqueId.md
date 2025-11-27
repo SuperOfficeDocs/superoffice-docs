@@ -67,56 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/CRMScript/{cRMScriptUniqueId}/Validate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1CRMScriptEntity_ValidateScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Valid": false,
-  "ErrorMessage": "aspernatur",
-  "LineNumber": 971,
-  "ErrorInformation": null,
-  "Transpiled": "quo",
-  "Includes": [
-    379,
-    41
-  ],
-  "SourceMaps": [
-    {
-      "LineNumberFrom": 854,
-      "LineNumberTo": 222,
-      "Delta": 342,
-      "IncludeId": "inventore",
-      "IncludedFrom": [
-        "qui",
-        "sed"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 757
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CRMScriptEntity_ValidateScriptByUniqueId.md)]

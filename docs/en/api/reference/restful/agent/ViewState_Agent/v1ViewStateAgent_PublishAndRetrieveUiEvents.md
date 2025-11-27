@@ -81,62 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "LatestKnownEventId": 408,
-  "PublishEvents": [
-    {
-      "EventId": 695,
-      "EventName": "Blick-Mraz",
-      "EntityType": "qui",
-      "EntityKey": 218,
-      "AssociateId": 480,
-      "AssociateName": "Heaney-Jast",
-      "EventDateTime": "2020-08-25T02:30:48.1475549+02:00"
-    }
-  ],
-  "Metrics": [
-    {
-      "Name": "Zulauf, Kozey and Watsica",
-      "Value": 23
-    },
-    {
-      "Name": "Zulauf, Kozey and Watsica",
-      "Value": 23
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ViewStateAgent_PublishAndRetrieveUiEvents.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "EventId": 628,
-    "EventName": "VonRueden, Klein and Cremin",
-    "EntityType": "hic",
-    "EntityKey": 49,
-    "AssociateId": 796,
-    "AssociateName": "Padberg, Schiller and Zieme",
-    "EventDateTime": "2024-03-13T02:30:48.1475549+01:00",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ViewStateAgent_PublishAndRetrieveUiEvents.md)]

@@ -54,34 +54,8 @@ No Content
 
 ## Sample request
 
-```http!
-PUT /api/v1/Contact/DuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Blick, Paucek and Emmerich",
-    "DisplayName": "Kautzer Inc and Sons",
-    "DisplayTooltip": "natus",
-    "IsActive": false
-  },
-  {
-    "Name": "Blick, Paucek and Emmerich",
-    "DisplayName": "Kautzer Inc and Sons",
-    "DisplayTooltip": "natus",
-    "IsActive": false
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_SetDuplicateRulesStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_SetDuplicateRulesStatus.md)]

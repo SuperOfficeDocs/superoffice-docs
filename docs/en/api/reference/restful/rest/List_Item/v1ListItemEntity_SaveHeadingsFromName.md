@@ -74,55 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{name}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 986,
-    "Name": "Hane Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 160,
-    "UdListDefinitionId": 402
-  },
-  {
-    "HeadingId": 986,
-    "Name": "Hane Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 160,
-    "UdListDefinitionId": 402
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_SaveHeadingsFromName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 900,
-    "Name": "Harvey LLC",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "Rank": 920,
-    "UdListDefinitionId": 554,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_SaveHeadingsFromName.md)]

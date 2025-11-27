@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProductFamily/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProductFamilyList_CreateDefaultProductFamily.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 969,
-  "Name": "Weimann, Schroeder and Lockman",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 104,
-  "Rank": 918,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProductFamilyList_CreateDefaultProductFamily.md)]

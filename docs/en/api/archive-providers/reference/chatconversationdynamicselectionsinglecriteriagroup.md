@@ -494,7 +494,7 @@ ChatConversation selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=person/personAddress/formattedMultiLineAddress,person/personAssociate/portraitThumbnail
+GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=contact/code,person/personAddress/formattedMultiLineAddress,person/personAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

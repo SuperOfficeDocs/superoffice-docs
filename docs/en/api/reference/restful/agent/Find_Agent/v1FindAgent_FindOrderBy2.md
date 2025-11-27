@@ -80,78 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/FindOrderBy2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "voluptas",
-  "ProviderName": "Tromp Inc and Sons",
-  "StorageKey": "voluptatum",
-  "PageSize": 628,
-  "PageNumber": 806,
-  "OrderBy": "aperiam"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_FindOrderBy2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ArchiveColumns": [
-    {
-      "DisplayName": "Miller Group",
-      "DisplayTooltip": "qui",
-      "DisplayType": "accusamus",
-      "CanOrderBy": false,
-      "Name": "Erdman-Prohaska",
-      "CanRestrictBy": false,
-      "RestrictionType": "incidunt",
-      "RestrictionListName": "Reilly LLC",
-      "IsVisible": false,
-      "ExtraInfo": "illum",
-      "Width": "laudantium",
-      "IconHint": "laudantium",
-      "HeadingIconHint": "consequatur"
-    }
-  ],
-  "ArchiveRows": [
-    {
-      "EntityName": "Zemlak, Stark and Zemlak",
-      "PrimaryKey": 428,
-      "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "consequuntur",
-          "TooltipHint": "necessitatibus",
-          "LinkHint": "vero"
-        }
-      },
-      "LinkHint": "perferendis",
-      "StyleHint": "at",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
-        }
-      }
-    }
-  ],
-  "RowCount": 189,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 420
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_FindOrderBy2.md)]

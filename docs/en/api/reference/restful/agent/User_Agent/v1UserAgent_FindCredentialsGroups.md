@@ -78,49 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/FindCredentialsGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "omnis",
-  "SearchString": "enim"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_FindCredentialsGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Bartoletti-Hettinger",
-    "DisplayName": "Feest-Konopelski",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
-      }
-    }
-  },
-  {
-    "Name": "Bartoletti-Hettinger",
-    "DisplayName": "Feest-Konopelski",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_FindCredentialsGroups.md)]

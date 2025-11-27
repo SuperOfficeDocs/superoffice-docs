@@ -55,47 +55,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/DuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetDuplicateRules.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Smith-Abshire",
-    "DisplayName": "Windler-Moore",
-    "DisplayTooltip": "aut",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
-      }
-    }
-  },
-  {
-    "Name": "Smith-Abshire",
-    "DisplayName": "Windler-Moore",
-    "DisplayTooltip": "aut",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetDuplicateRules.md)]

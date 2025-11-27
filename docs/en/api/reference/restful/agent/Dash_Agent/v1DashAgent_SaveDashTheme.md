@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashTheme
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 139,
-  "Name": "Grady LLC",
-  "Config": "est",
-  "Rank": 849,
-  "Client": "ut",
-  "Style": "accusantium"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 849,
-  "Name": "Renner, Nicolas and Towne",
-  "Config": "quisquam",
-  "Rank": 67,
-  "Client": "fuga",
-  "Style": "molestiae",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashTheme.md)]

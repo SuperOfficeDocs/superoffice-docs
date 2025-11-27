@@ -89,50 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveCountry
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Country": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 439,
-  "Name": "Dickinson-Monahan",
-  "CurrencyId": 10,
-  "EnglishName": "Ritchie-Douglas",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Implemented context-sensitive synergy",
-  "OrgNrText": "970632",
-  "InterAreaPrefix": "dolor",
-  "DialInPrefix": "odit",
-  "ZipPrefix": "fugiat",
-  "DomainName": "Konopelski Group",
-  "AddressLayoutId": 537,
-  "DomesticAddressLayoutId": 508,
-  "ForeignAddressLayoutId": 843,
-  "Rank": 755,
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveCountry.md)]

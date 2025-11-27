@@ -68,30 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SaveConnectionConfigFields
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 633,
-  "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "vitae",
-    "ConnectionConfigFields2": "incidunt"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SaveConnectionConfigFields.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "error",
-  "2": "quidem"
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SaveConnectionConfigFields.md)]

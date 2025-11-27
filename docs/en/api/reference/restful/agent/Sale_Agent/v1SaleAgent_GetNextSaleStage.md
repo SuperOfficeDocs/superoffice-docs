@@ -69,24 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetNextSaleStage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 189,
-  "IncludeCurrentStage": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetNextSaleStage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-285
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetNextSaleStage.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=332
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=649
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -95,109 +95,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectEventEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SignOffConfirmationText": "illo",
-  "SignOffText": "officia",
-  "SignOnConfirmationText": "pariatur",
-  "SignOnText": "voluptas",
-  "EventDate": "2008-07-27T02:30:47.6788214+02:00",
-  "Enabled": true,
-  "CreatedDate": "2016-09-19T02:30:47.6788214+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 810,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 231,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2013-03-20T02:30:47.6788214+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ProjectId": 846,
-  "Id": 101,
-  "PublishFrom": "2011-02-17T02:30:47.6788214+01:00",
-  "PublishType": "External",
-  "PublishTo": "2005-08-15T02:30:47.6788214+02:00",
-  "VisibleForCategories": [
-    {
-      "Id": 976,
-      "Name": "Jacobi-Mayert",
-      "ToolTip": "Aut fuga illo aut.",
-      "Deleted": false,
-      "Rank": 308,
-      "Type": "sit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "iste",
-      "ColorBlock": 246,
-      "ExtraInfo": "ullam",
-      "StyleHint": "impedit",
-      "FullName": "Miss Mack Thomas Conn III",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 185
-        }
-      }
-    }
-  ],
-  "VisibleForPersonInterests": [
-    {
-      "Id": 245,
-      "Name": "Dach-Kertzmann",
-      "ToolTip": "Quia voluptas.",
-      "Deleted": false,
-      "Rank": 159,
-      "Type": "quaerat",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "error",
-      "ColorBlock": 940,
-      "ExtraInfo": "eligendi",
-      "StyleHint": "et",
-      "FullName": "Alvah Gutmann",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 928
-        }
-      }
-    }
-  ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 308,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectEventEntity.md)]

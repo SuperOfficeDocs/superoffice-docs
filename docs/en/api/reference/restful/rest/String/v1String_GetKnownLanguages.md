@@ -47,21 +47,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/String/KnownLanguages
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1String_GetKnownLanguages.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "nihil",
-  "rerum"
-]
-```
+[!include[sample response](../../samples/rest/response/v1String_GetKnownLanguages.md)]

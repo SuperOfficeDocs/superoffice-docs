@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultAmountClassEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AmountClassId": 974,
-  "Name": "Smitham-Baumbach",
-  "Tooltip": "perspiciatis",
-  "Rank": 287,
-  "AmountFrom": 13071.913999999999,
-  "AmountTo": 7430.714,
-  "Deleted": true,
-  "CurrencyId": 468,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultAmountClassEntity.md)]

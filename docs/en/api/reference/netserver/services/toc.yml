@@ -107,6 +107,8 @@ items:
     name: AudienceConfigParameter
   - uid: SuperOffice.CRM.Services.AudienceLayoutEntity
     name: AudienceLayoutEntity
+  - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
   - uid: SuperOffice.CRM.Services.BLOBAgent
     name: BLOBAgent
   - uid: SuperOffice.CRM.Services.Batch
@@ -221,6 +223,12 @@ items:
     name: ContactSummary
   - uid: SuperOffice.CRM.Services.ControlInfo
     name: ControlInfo
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceEntity
+    name: CopilotDataSourceEntity
+  - uid: SuperOffice.CRM.Services.CopilotDataSourceSetting
+    name: CopilotDataSourceSetting
+  - uid: SuperOffice.CRM.Services.CopilotEntity
+    name: CopilotEntity
   - uid: SuperOffice.CRM.Services.Country
     name: Country
   - uid: SuperOffice.CRM.Services.CreateSystemMessageList
@@ -469,6 +477,8 @@ items:
     name: ForeignKey
   - uid: SuperOffice.CRM.Services.ForeignSystemAgent
     name: ForeignSystemAgent
+  - uid: SuperOffice.CRM.Services.FormDesignCarrier
+    name: FormDesignCarrier
   - uid: SuperOffice.CRM.Services.FormEntity
     name: FormEntity
   - uid: SuperOffice.CRM.Services.FormSubmissionEntity

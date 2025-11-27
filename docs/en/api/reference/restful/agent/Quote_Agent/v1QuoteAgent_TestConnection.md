@@ -79,42 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/TestConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectorName": "Barrows Inc and Sons",
-  "ConnectionData": {
-    "ConnectionData1": "est",
-    "ConnectionData2": "quasi"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_TestConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "qui",
-  "ErrorCode": "iusto",
-  "Changes": null,
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_TestConnection.md)]

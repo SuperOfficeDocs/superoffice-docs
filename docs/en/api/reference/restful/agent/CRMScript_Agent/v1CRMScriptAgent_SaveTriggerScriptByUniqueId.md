@@ -86,43 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TriggerScriptUniqueId": "dolores",
-  "Entity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_SaveTriggerScriptByUniqueId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ScreenChooserId": 723,
-  "Name": "Kuhlman, Murphy and Fahey",
-  "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nemo",
-  "Source": "error",
-  "Registered": "2012-08-20T02:30:47.0538389+02:00",
-  "RegisteredAssociateId": 385,
-  "Updated": "2007-03-17T02:30:47.0538389+01:00",
-  "UpdatedAssociateId": 565,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 605
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_SaveTriggerScriptByUniqueId.md)]

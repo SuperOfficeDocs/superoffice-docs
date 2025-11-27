@@ -1,0 +1,1159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  commentId: T:SuperOffice.Data.Cache.CacheBlockInformationCollector
+  id: CacheBlockInformationCollector
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.Event
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent(System.String)
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent(System.Int64)
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.StackTrace
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.ThreadId
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.Timestamp
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector._cacheBlockInformation
+  langs:
+  - csharp
+  - vb
+  name: CacheBlockInformationCollector
+  nameWithType: CacheBlockInformationCollector
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: >-
+    We have had cases where 'everyone' is waiting in a CacheBaseV2.Load(), but noone actually seems to have the lock.
+
+    This class is used to collect information on relevant events to try to find out wtf is the root cause.
+
+    The information is visible and easy-to-find in dumps
+  example: []
+  syntax:
+    content: public class CacheBlockInformationCollector
+    content.vb: Public Class CacheBlockInformationCollector
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  - SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.StackTrace
+  commentId: F:SuperOffice.Data.Cache.CacheBlockInformationCollector.StackTrace
+  id: StackTrace
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: CacheBlockInformationCollector.StackTrace
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.StackTrace
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public string StackTrace
+    return:
+      type: System.String
+    content.vb: Public StackTrace As String
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.Timestamp
+  commentId: F:SuperOffice.Data.Cache.CacheBlockInformationCollector.Timestamp
+  id: Timestamp
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: CacheBlockInformationCollector.Timestamp
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.Timestamp
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public DateTime Timestamp
+    return:
+      type: System.DateTime
+    content.vb: Public Timestamp As Date
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.Event
+  commentId: F:SuperOffice.Data.Cache.CacheBlockInformationCollector.Event
+  id: Event
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: CacheBlockInformationCollector.Event
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.Event
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public string Event
+    return:
+      type: System.String
+    content.vb: Public [Event] As String
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.ThreadId
+  commentId: F:SuperOffice.Data.Cache.CacheBlockInformationCollector.ThreadId
+  id: ThreadId
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: ThreadId
+  nameWithType: CacheBlockInformationCollector.ThreadId
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.ThreadId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public int ThreadId
+    return:
+      type: System.Int32
+    content.vb: Public ThreadId As Integer
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector._cacheBlockInformation
+  commentId: F:SuperOffice.Data.Cache.CacheBlockInformationCollector._cacheBlockInformation
+  id: _cacheBlockInformation
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: _cacheBlockInformation
+  nameWithType: CacheBlockInformationCollector._cacheBlockInformation
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector._cacheBlockInformation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public static ConcurrentDictionary<long, CacheBlockInformationCollector> _cacheBlockInformation
+    return:
+      type: System.Collections.Concurrent.ConcurrentDictionary{System.Int64,SuperOffice.Data.Cache.CacheBlockInformationCollector}
+    content.vb: Public Shared _cacheBlockInformation As ConcurrentDictionary(Of Long, CacheBlockInformationCollector)
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString
+  commentId: M:SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString
+  id: ToString
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CacheBlockInformationCollector.ToString()
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString*
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent(System.String)
+  commentId: M:SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent(System.String)
+  id: RegisterEvent(System.String)
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: RegisterEvent(string)
+  nameWithType: CacheBlockInformationCollector.RegisterEvent(string)
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public static long RegisterEvent(string eventName)
+    parameters:
+    - id: eventName
+      type: System.String
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function RegisterEvent(eventName As String) As Long
+  overload: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent*
+  nameWithType.vb: CacheBlockInformationCollector.RegisterEvent(String)
+  fullName.vb: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent(String)
+  name.vb: RegisterEvent(String)
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent(System.Int64)
+  commentId: M:SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent(System.Int64)
+  id: RemoveEvent(System.Int64)
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: RemoveEvent(long)
+  nameWithType: CacheBlockInformationCollector.RemoveEvent(long)
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent(long)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public static void RemoveEvent(long key)
+    parameters:
+    - id: key
+      type: System.Int64
+    content.vb: Public Shared Sub RemoveEvent(key As Long)
+  overload: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent*
+  nameWithType.vb: CacheBlockInformationCollector.RemoveEvent(Long)
+  fullName.vb: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent(Long)
+  name.vb: RemoveEvent(Long)
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor
+  commentId: M:SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Cache.CacheBlockInformationCollector
+  langs:
+  - csharp
+  - vb
+  name: CacheBlockInformationCollector()
+  nameWithType: CacheBlockInformationCollector.CacheBlockInformationCollector()
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.CacheBlockInformationCollector()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public CacheBlockInformationCollector()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor*
+  nameWithType.vb: CacheBlockInformationCollector.New()
+  fullName.vb: SuperOffice.Data.Cache.CacheBlockInformationCollector.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CacheBlockInformationCollector, To>(CacheBlockInformationCollector)
+  nameWithType: EnumUtil.MapEnums<CacheBlockInformationCollector, To>(CacheBlockInformationCollector)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheBlockInformationCollector, To>(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheBlockInformationCollector, To)(CacheBlockInformationCollector)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheBlockInformationCollector, To)(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  name.vb: MapEnums(Of CacheBlockInformationCollector, To)(CacheBlockInformationCollector)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CacheBlockInformationCollector, To>(CacheBlockInformationCollector)
+  nameWithType: Converters.MapEnums<CacheBlockInformationCollector, To>(CacheBlockInformationCollector)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheBlockInformationCollector, To>(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  nameWithType.vb: Converters.MapEnums(Of CacheBlockInformationCollector, To)(CacheBlockInformationCollector)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheBlockInformationCollector, To)(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  name.vb: MapEnums(Of CacheBlockInformationCollector, To)(CacheBlockInformationCollector)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CacheBlockInformationCollector>(CacheBlockInformationCollector, CacheBlockInformationCollector)
+  nameWithType: ObjectExtensions.AssignByReflection<CacheBlockInformationCollector>(CacheBlockInformationCollector, CacheBlockInformationCollector)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Cache.CacheBlockInformationCollector>(SuperOffice.Data.Cache.CacheBlockInformationCollector, SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CacheBlockInformationCollector)(CacheBlockInformationCollector, CacheBlockInformationCollector)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Cache.CacheBlockInformationCollector)(SuperOffice.Data.Cache.CacheBlockInformationCollector, SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  name.vb: AssignByReflection(Of CacheBlockInformationCollector)(CacheBlockInformationCollector, CacheBlockInformationCollector)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBlockInformationCollector,SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBlockInformationCollector,SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CacheBlockInformationCollector>(CacheBlockInformationCollector)
+  nameWithType: ObjectExtensions.GraphCopy<CacheBlockInformationCollector>(CacheBlockInformationCollector)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Cache.CacheBlockInformationCollector>(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CacheBlockInformationCollector)(CacheBlockInformationCollector)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Cache.CacheBlockInformationCollector)(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  name.vb: GraphCopy(Of CacheBlockInformationCollector)(CacheBlockInformationCollector)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.Cache.CacheBlockInformationCollector)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Concurrent.ConcurrentDictionary{System.Int64,SuperOffice.Data.Cache.CacheBlockInformationCollector}
+  commentId: T:System.Collections.Concurrent.ConcurrentDictionary{System.Int64,SuperOffice.Data.Cache.CacheBlockInformationCollector}
+  parent: System.Collections.Concurrent
+  definition: System.Collections.Concurrent.ConcurrentDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  name: ConcurrentDictionary<long, CacheBlockInformationCollector>
+  nameWithType: ConcurrentDictionary<long, CacheBlockInformationCollector>
+  fullName: System.Collections.Concurrent.ConcurrentDictionary<long, SuperOffice.Data.Cache.CacheBlockInformationCollector>
+  nameWithType.vb: ConcurrentDictionary(Of Long, CacheBlockInformationCollector)
+  fullName.vb: System.Collections.Concurrent.ConcurrentDictionary(Of Long, SuperOffice.Data.Cache.CacheBlockInformationCollector)
+  name.vb: ConcurrentDictionary(Of Long, CacheBlockInformationCollector)
+  spec.csharp:
+  - uid: System.Collections.Concurrent.ConcurrentDictionary`2
+    name: ConcurrentDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  - name: <
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Concurrent.ConcurrentDictionary`2
+    name: ConcurrentDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
+    name: CacheBlockInformationCollector
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html
+  - name: )
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2
+  commentId: T:System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  name: ConcurrentDictionary<TKey, TValue>
+  nameWithType: ConcurrentDictionary<TKey, TValue>
+  fullName: System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>
+  nameWithType.vb: ConcurrentDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Concurrent.ConcurrentDictionary(Of TKey, TValue)
+  name.vb: ConcurrentDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Concurrent.ConcurrentDictionary`2
+    name: ConcurrentDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Concurrent.ConcurrentDictionary`2
+    name: ConcurrentDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Concurrent
+  commentId: N:System.Collections.Concurrent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Concurrent
+  nameWithType: System.Collections.Concurrent
+  fullName: System.Collections.Concurrent
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Concurrent
+    name: Concurrent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Concurrent
+    name: Concurrent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.concurrent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html#SuperOffice_Data_Cache_CacheBlockInformationCollector_ToString
+  name: ToString
+  nameWithType: CacheBlockInformationCollector.ToString
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.ToString
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html#SuperOffice_Data_Cache_CacheBlockInformationCollector_RegisterEvent_System_String_
+  name: RegisterEvent
+  nameWithType: CacheBlockInformationCollector.RegisterEvent
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.RegisterEvent
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html#SuperOffice_Data_Cache_CacheBlockInformationCollector_RemoveEvent_System_Int64_
+  name: RemoveEvent
+  nameWithType: CacheBlockInformationCollector.RemoveEvent
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.RemoveEvent
+- uid: SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBlockInformationCollector.#ctor
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockInformationCollector.html#SuperOffice_Data_Cache_CacheBlockInformationCollector__ctor
+  name: CacheBlockInformationCollector
+  nameWithType: CacheBlockInformationCollector.CacheBlockInformationCollector
+  fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector.CacheBlockInformationCollector
+  nameWithType.vb: CacheBlockInformationCollector.New
+  fullName.vb: SuperOffice.Data.Cache.CacheBlockInformationCollector.New
+  name.vb: New

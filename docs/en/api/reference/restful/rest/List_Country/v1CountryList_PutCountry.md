@@ -101,67 +101,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Country/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 209,
-  "Name": "Klocko, Funk and Hudson",
-  "CurrencyId": 312,
-  "EnglishName": "Runte LLC",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced motivating algorithm",
-  "OrgNrText": "574905",
-  "InterAreaPrefix": "mollitia",
-  "DialInPrefix": "adipisci",
-  "ZipPrefix": "quia",
-  "DomainName": "Huels-Jacobi",
-  "AddressLayoutId": 635,
-  "DomesticAddressLayoutId": 421,
-  "ForeignAddressLayoutId": 379,
-  "Rank": 241,
-  "Tooltip": "aliquam",
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_PutCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 158,
-  "Name": "Goldner Inc and Sons",
-  "CurrencyId": 297,
-  "EnglishName": "Hessel LLC",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless modular workforce",
-  "OrgNrText": "834906",
-  "InterAreaPrefix": "a",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "dicta",
-  "DomainName": "Donnelly LLC",
-  "AddressLayoutId": 611,
-  "DomesticAddressLayoutId": 698,
-  "ForeignAddressLayoutId": 62,
-  "Rank": 986,
-  "Tooltip": "est",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_PutCountry.md)]

@@ -96,79 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveTicketCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 189,
-  "ParentId": 164,
-  "Name": "Ward, Hand and Boyer",
-  "Fullname": "tempora",
-  "CategoryMaster": 218,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "McClure Group",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 248,
-  "ReplyTemplate": 619,
-  "NotificationEmail": "emil_buckridge@jacobsoncummings.com",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 375,
-  "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "nulla"
-  },
-  "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "consequatur"
-  }
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 330,
-  "ParentId": 220,
-  "Name": "Jaskolski-Herzog",
-  "Fullname": "nulla",
-  "CategoryMaster": 85,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Shanahan, Bailey and Smith",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 264,
-  "ReplyTemplate": 399,
-  "NotificationEmail": "kathryn.jakubowski@legros.ca",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 1000,
-  "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "qui"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveTicketCategoryEntity.md)]

@@ -89,52 +89,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetProjectsFromPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 14
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetProjectsFromPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 933,
-    "Name": "Miller-Renner",
-    "Description": "Realigned leading edge orchestration",
-    "URL": "http://www.example.com/",
-    "Type": "nisi",
-    "AssociateId": 222,
-    "AssociateFullName": "Emmet Runolfsson",
-    "TypeId": 440,
-    "Updated": "2005-06-25T02:30:47.6944454+02:00",
-    "StatusId": 311,
-    "Status": "quia",
-    "TextId": 858,
-    "PublishTo": "2021-07-09T02:30:47.6944454+02:00",
-    "PublishFrom": "2024-12-01T02:30:47.6944454+01:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "991798",
-    "ActiveErpLinks": 64,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 168
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetProjectsFromPerson.md)]

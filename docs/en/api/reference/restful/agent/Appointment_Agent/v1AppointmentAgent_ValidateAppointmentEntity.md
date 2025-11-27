@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AppointmentEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_ValidateAppointmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "rerum",
-  "2": "voluptas"
-}
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_ValidateAppointmentEntity.md)]

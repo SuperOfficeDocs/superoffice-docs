@@ -59,36 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/License/{ownerName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1License_GetLicenseFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Reason": "",
-  "CanBeActivated": false,
-  "New": null,
-  "Current": null,
-  "ExtendedModuleLicenses": [
-    {
-      "New": null,
-      "Current": null,
-      "NumberOfLicensesInUse": 458,
-      "NumberOfLicensesFree": 177,
-      "NumberOfLicensesAdded": 985,
-      "NumberOfLicensesNewTotal": 331,
-      "NumberOfLicensesNewFree": 571,
-      "NumberOfLicensesTotal": 576
-    }
-  ],
-  "AccumulatedNextCheckDate": "2013-04-24T02:30:53.0380235+02:00"
-}
-```
+[!include[sample response](../../samples/rest/response/v1License_GetLicenseFromDB.md)]

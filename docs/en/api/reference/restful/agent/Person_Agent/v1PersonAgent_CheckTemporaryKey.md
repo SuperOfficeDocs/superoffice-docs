@@ -76,37 +76,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/CheckTemporaryKey
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TemporaryKey": "voluptate"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_CheckTemporaryKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 1002,
-  "PersonId": 953,
-  "IsExpired": true,
-  "Payload": "dignissimos",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_CheckTemporaryKey.md)]

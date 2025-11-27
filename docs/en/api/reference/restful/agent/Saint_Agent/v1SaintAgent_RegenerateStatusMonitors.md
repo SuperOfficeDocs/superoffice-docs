@@ -93,57 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/RegenerateStatusMonitors
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "RunAsBatch": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_RegenerateStatusMonitors.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 447,
-  "Name": "Lebsack-Miller",
-  "AssociateId": 717,
-  "DetailsTable": 209,
-  "DetailsRecord": 295,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
-  "ParameterObject": {
-    "ParameterObject1": "facilis",
-    "ParameterObject2": "alias"
-  },
-  "LastStarted": "2005-09-24T02:30:47.7569437+02:00",
-  "Created": "2025-09-01T02:30:47.7569437+02:00",
-  "StartCount": 670,
-  "DatabaseSerialNumber": "1462411",
-  "Context": "laboriosam",
-  "Result": "excepturi",
-  "State": "All",
-  "Description": "Future-proofed intangible open architecture",
-  "Response": "omnis",
-  "Request": "quas",
-  "ProgressDescription": "Adaptive analyzing utilisation",
-  "ProgressPercent": 594,
-  "FileName": "Lubowitz-Romaguera",
-  "CancellationBehaviour": "CanCancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_RegenerateStatusMonitors.md)]

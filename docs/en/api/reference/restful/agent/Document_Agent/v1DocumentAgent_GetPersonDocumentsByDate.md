@@ -96,58 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPersonDocumentsByDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 257,
-  "IncludeProjectDocuments": false,
-  "StartTime": "1998-11-28T02:30:47.1475873+01:00",
-  "EndTime": "2003-02-21T02:30:47.1475873+01:00",
-  "Count": 747
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPersonDocumentsByDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DocumentId": 807,
-    "Attention": "quod",
-    "Header": "voluptatem",
-    "Name": "Watsica-Shanahan",
-    "OurRef": "ad",
-    "YourRef": "sit",
-    "Description": "Progressive asynchronous adapter",
-    "DocumentTemplate": "sint",
-    "IsPublished": false,
-    "PersonId": 46,
-    "PersonFullName": "Maude Hintz",
-    "AssociateFullName": "Jace Batz",
-    "ContactId": 964,
-    "ContactName": "Schneider Group",
-    "ProjectId": 881,
-    "ProjectName": "Steuber-O'Hara",
-    "AssociateId": 669,
-    "Snum": 274,
-    "SaleId": 632,
-    "SaleName": "Hegmann Inc and Sons",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPersonDocumentsByDate.md)]

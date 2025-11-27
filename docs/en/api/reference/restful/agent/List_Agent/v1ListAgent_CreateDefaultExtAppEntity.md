@@ -75,49 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultExtAppEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultExtAppEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExtAppId": 475,
-  "Name": "Schamberger, Treutel and Barrows",
-  "Tooltip": "facere",
-  "Deleted": false,
-  "Rank": 737,
-  "Filename": "explicabo",
-  "Parameters": "quod",
-  "Workdir": "natus",
-  "ShowState": "AddressBar",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 192,
-  "WaitToFinish": false,
-  "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quas",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultExtAppEntity.md)]

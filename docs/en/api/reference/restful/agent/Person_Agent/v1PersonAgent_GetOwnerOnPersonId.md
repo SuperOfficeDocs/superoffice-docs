@@ -112,73 +112,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetOwnerOnPersonId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "PersonId": 48
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetOwnerOnPersonId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Position": "unde",
-  "PersonId": 50,
-  "Mrmrs": "nihil",
-  "Firstname": "Audie",
-  "Lastname": "Schuppe",
-  "MiddleName": "Steuber, Rath and Hintz",
-  "Title": "sit",
-  "Description": "Assimilated systematic hub",
-  "Email": "travon@wuckertjewess.info",
-  "FullName": "Kiel Armstrong",
-  "DirectPhone": "(059)595-9016 x32751",
-  "FormalName": "Koepp, Armstrong and Conn",
-  "CountryId": 48,
-  "ContactId": 186,
-  "ContactName": "Dickens LLC",
-  "Retired": 475,
-  "Rank": 78,
-  "ActiveInterests": 489,
-  "ContactDepartment": "",
-  "ContactCountryId": 134,
-  "ContactOrgNr": "413589",
-  "FaxPhone": "450.240.5471",
-  "MobilePhone": "505-701-0733 x499",
-  "ContactPhone": "(972)430-8978 x5279",
-  "AssociateName": "Langworth-Beahan",
-  "AssociateId": 212,
-  "UsePersonAddress": false,
-  "ContactFax": "laudantium",
-  "Kanafname": "cupiditate",
-  "Kanalname": "laudantium",
-  "Post1": "distinctio",
-  "Post2": "qui",
-  "Post3": "porro",
-  "EmailName": "sammy.brown@dietrich.co.uk",
-  "ContactFullName": "Barney Nienow",
-  "ActiveErpLinks": 270,
-  "TicketPriorityId": 26,
-  "SupportLanguageId": 377,
-  "SupportAssociateId": 648,
-  "CategoryName": "VIP Customer",
-  "PersonNumber": "1245238",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetOwnerOnPersonId.md)]

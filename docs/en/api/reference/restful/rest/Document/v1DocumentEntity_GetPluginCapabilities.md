@@ -53,21 +53,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Document/Plugin/{pluginId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_GetPluginCapabilities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "doloribus",
-  "2": "totam"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_GetPluginCapabilities.md)]

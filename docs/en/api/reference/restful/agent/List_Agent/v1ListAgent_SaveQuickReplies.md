@@ -63,34 +63,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveQuickReplies
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuickReplies": [
-    {
-      "QuickReplyId": 413,
-      "Name": "Leannon-Hessel",
-      "HtmlBody": "id"
-    },
-    {
-      "QuickReplyId": 413,
-      "Name": "Leannon-Hessel",
-      "HtmlBody": "id"
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveQuickReplies.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveQuickReplies.md)]

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=445
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=241
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -93,85 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetTicketPriorityEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetTicketPriorityEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketPriorityId": 243,
-  "Name": "Muller LLC",
-  "Status": "Deleted",
-  "Flags": "AlertSchedule",
-  "SortOrder": 571,
-  "TicketRead": "Continue",
-  "ChangedOwner": "Continue",
-  "TicketNewinfo": "Continue",
-  "TicketClosed": "Continue",
-  "TicketChangedPriority": "Continue",
-  "TicketNew": "Continue",
-  "Deadline": 987,
-  "MonStart": "2004-06-25T02:30:47.3819557+02:00",
-  "MonStop": "2015-07-02T02:30:47.3819557+02:00",
-  "TueStart": "2018-06-04T02:30:47.3819557+02:00",
-  "TueStop": "2001-02-18T02:30:47.3819557+01:00",
-  "WedStart": "1998-10-24T02:30:47.3819557+02:00",
-  "WedStop": "2015-04-14T02:30:47.3819557+02:00",
-  "ThuStart": "2018-06-05T02:30:47.3819557+02:00",
-  "ThuStop": "2000-10-19T02:30:47.3819557+02:00",
-  "FriStart": "2004-02-26T02:30:47.3819557+01:00",
-  "FriStop": "2021-01-11T02:30:47.3819557+01:00",
-  "SatStart": "2008-10-22T02:30:47.3819557+02:00",
-  "SatStop": "2019-03-06T02:30:47.3819557+01:00",
-  "SunStart": "2004-03-10T02:30:47.3819557+01:00",
-  "SunStop": "2012-04-01T02:30:47.3819557+02:00",
-  "NonDates": [
-    "debitis",
-    "repudiandae"
-  ],
-  "EscalationLevels": [
-    {
-      "TicketAlertId": 602,
-      "AlertLevel": 70,
-      "AlertTimeout": 305,
-      "Action": 506,
-      "DelegateTo": 301,
-      "ScriptId": 530,
-      "EmailTo": "lia_morar@mcdermott.com",
-      "SmsTo": "ut",
-      "ReplyTemplateIdCustomer": 608,
-      "ReplyTemplateIdUser": 492,
-      "ReplyTemplateIdCatmast": 331,
-      "ReplyTemplateIdEmail": 779,
-      "RtiCustomerSms": 403,
-      "ReplyTemplateIdUserSms": 837,
-      "ReplyTemplateIdCatmastSms": 118,
-      "ReplyTemplateIdSms": 821,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetTicketPriorityEntity.md)]

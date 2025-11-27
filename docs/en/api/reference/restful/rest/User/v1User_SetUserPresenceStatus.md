@@ -66,27 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/User/{associateId}/UserPresenceStatus
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Status": "StatusDeleted",
-  "Message": "nisi"
-}
-```
+[!include[sample request](../../samples/rest/request/v1User_SetUserPresenceStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Status": "StatusDeleted",
-  "Message": "laborum"
-}
-```
+[!include[sample response](../../samples/rest/response/v1User_SetUserPresenceStatus.md)]

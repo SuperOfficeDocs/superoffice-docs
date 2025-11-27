@@ -31,7 +31,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=1000
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=190
 ```
 
 
@@ -74,24 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_SaveDocumentTemplateStream.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Crist-Ratke",
-  "Description": "Enhanced asynchronous extranet",
-  "ExternalReference": "natus",
-  "MimeType": "nihil",
-  "PluginId": 998
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_SaveDocumentTemplateStream.md)]

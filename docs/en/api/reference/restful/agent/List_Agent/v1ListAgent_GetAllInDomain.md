@@ -82,69 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetAllInDomain
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Domain": "Dashboards",
-  "Children": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetAllInDomain.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HierarchyId": 484,
-    "Domain": "Dashboards",
-    "Name": "Quigley-Marvin",
-    "Fullname": "necessitatibus",
-    "ParentId": 25,
-    "Children": [
-      {
-        "HierarchyId": 45,
-        "Domain": "Dashboards",
-        "Name": "Cummings Inc and Sons",
-        "Fullname": "delectus",
-        "ParentId": 552,
-        "Children": [
-          {},
-          {}
-        ],
-        "Registered": "2002-05-08T02:30:47.4288293+02:00",
-        "RegisteredAssociateId": 815,
-        "Updated": "2017-06-29T02:30:47.4288293+02:00",
-        "UpdatedAssociateId": 686,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 526
-          }
-        }
-      }
-    ],
-    "Registered": "2020-04-06T02:30:47.4288293+02:00",
-    "RegisteredAssociateId": 389,
-    "Updated": "1998-08-10T02:30:47.4288293+02:00",
-    "UpdatedAssociateId": 628,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetAllInDomain.md)]

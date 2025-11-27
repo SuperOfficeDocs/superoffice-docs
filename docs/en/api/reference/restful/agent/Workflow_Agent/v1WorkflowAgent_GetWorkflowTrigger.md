@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=574
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=350
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -69,50 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1WorkflowAgent_GetWorkflowTrigger.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WorkflowTriggerId": 395,
-  "WorkflowId": 250,
-  "TriggerType": "AddedMessage",
-  "RestrictionGroups": [
-    {
-      "Name": "Langosh, Glover and Ward",
-      "Description": "Total client-driven capability",
-      "Rank": 942,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    },
-    {
-      "Name": "Langosh, Glover and Ward",
-      "Description": "Total client-driven capability",
-      "Rank": 942,
-      "Restrictions": [
-        {},
-        {}
-      ]
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1WorkflowAgent_GetWorkflowTrigger.md)]

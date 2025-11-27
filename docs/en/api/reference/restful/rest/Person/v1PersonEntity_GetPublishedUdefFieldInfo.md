@@ -90,61 +90,8 @@ PersonEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetPublishedUdefFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PersonEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "UDefFieldId": 260,
-  "ColumnId": 525,
-  "FieldDefault": "ea",
-  "FieldHeight": 948,
-  "FieldLabel": "possimus",
-  "FieldLeft": 976,
-  "FieldTop": 193,
-  "FieldType": "Checkbox",
-  "FieldWidth": 315,
-  "FormatMask": "distinctio",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 521,
-  "LabelLeft": 436,
-  "LabelTop": 675,
-  "LabelWidth": 53,
-  "LastVersionId": 132,
-  "ListTableId": 474,
-  "IsMandatory": false,
-  "Type": "Appointment",
-  "Page1LineNo": 787,
-  "ProgId": "voluptas",
-  "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 105,
-  "TextLength": 604,
-  "Tooltip": "quo",
-  "UdefIdentity": 769,
-  "UDListDefinitionId": 39,
-  "Justification": "Center",
-  "Version": 330,
-  "TemplateVariableName": "Kub-Gleason",
-  "HasBeenPublished": true,
-  "MdoListName": "Huel, Stroman and O'Hara",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 573
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetPublishedUdefFieldInfo.md)]

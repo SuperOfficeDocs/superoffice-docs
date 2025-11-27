@@ -90,78 +90,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetAllFunctionalRights
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleType": "Anonymous"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetAllFunctionalRights.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 900,
-    "Name": "Bartell Group",
-    "ToolTip": "Alias debitis nesciunt at.",
-    "Deleted": false,
-    "Rank": 662,
-    "Type": "aliquam",
-    "ColorBlock": 334,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2006-08-18T02:30:48.0850579+02:00",
-    "ChildItems": [
-      {
-        "Id": 498,
-        "Name": "Haley, Lakin and Mohr",
-        "ToolTip": "Laudantium cumque mollitia omnis.",
-        "Deleted": false,
-        "Rank": 527,
-        "Type": "totam",
-        "ColorBlock": 604,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2003-06-27T02:30:48.0850579+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "et",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Laisha Hayley Witting V",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 350
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Prof. Yolanda Bessie Connelly",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 470
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetAllFunctionalRights.md)]

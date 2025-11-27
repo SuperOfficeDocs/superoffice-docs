@@ -94,55 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/UpdateProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectMember": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_UpdateProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 430,
-  "ContactId": 253,
-  "ProjectId": 954,
-  "ContactName": "Collier LLC",
-  "ContactDepartment": "aggregate one-to-one synergies",
-  "ProjectName": "Strosin Group",
-  "EmailId": 82,
-  "EmailAddress": "dashawn.hayes@kreiger.uk",
-  "CountryId": 128,
-  "Firstname": "Nelle",
-  "MiddleName": "Klocko-Kulas",
-  "Lastname": "Powlowski",
-  "PersonId": 2,
-  "Mrmrs": "earum",
-  "ProjectMemberTypeName": "Armstrong Inc and Sons",
-  "Phone": "(761)156-3589",
-  "PhoneId": 489,
-  "ProjectMemberTypeId": 469,
-  "EmailAddressName": "verda_hodkiewicz@kuhicschmidt.name",
-  "Comment": "corrupti",
-  "FullName": "Alexa Spinka",
-  "Registered": "2022-03-26T02:30:47.6944454+01:00",
-  "Updated": "2011-02-22T02:30:47.6944454+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_UpdateProjectMember.md)]

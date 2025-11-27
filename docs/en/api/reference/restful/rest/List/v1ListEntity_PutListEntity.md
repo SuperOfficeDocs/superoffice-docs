@@ -96,55 +96,8 @@ ListEntity updated.
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 545,
-  "Name": "Metz LLC",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 967,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ListEntity_PutListEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ListEntity updated.
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 856,
-  "Name": "Ullrich-Miller",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 944,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ListEntity_PutListEntity.md)]

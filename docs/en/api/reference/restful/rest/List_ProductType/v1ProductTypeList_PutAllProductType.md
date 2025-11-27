@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProductType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 421,
-    "Name": "Hessel-Connelly",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "UdListDefinitionId": 455,
-    "Rank": 210
-  },
-  {
-    "Id": 421,
-    "Name": "Hessel-Connelly",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "UdListDefinitionId": 455,
-    "Rank": 210
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ProductTypeList_PutAllProductType.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 192,
-    "Name": "Nitzsche-Wisoky",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 725,
-    "Rank": 300,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProductTypeList_PutAllProductType.md)]

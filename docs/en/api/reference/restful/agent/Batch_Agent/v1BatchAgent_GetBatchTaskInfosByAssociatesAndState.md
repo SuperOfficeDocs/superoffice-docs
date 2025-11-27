@@ -94,63 +94,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateIds": [
-    940,
-    27
-  ],
-  "State": "All"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetBatchTaskInfosByAssociatesAndState.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 745,
-    "Name": "Wolff-O'Connell",
-    "AssociateId": 416,
-    "DetailsTable": 130,
-    "DetailsRecord": 782,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "odit",
-      "ParameterObject2": "eos"
-    },
-    "LastStarted": "2012-06-27T02:30:46.8194719+02:00",
-    "Created": "2006-07-22T02:30:46.8194719+02:00",
-    "StartCount": 635,
-    "DatabaseSerialNumber": "1218532",
-    "Context": "sit",
-    "Result": "quia",
-    "State": "All",
-    "Description": "Stand-alone interactive array",
-    "Response": "enim",
-    "Request": "optio",
-    "ProgressDescription": "Fundamental executive framework",
-    "ProgressPercent": 446,
-    "FileName": "Hyatt, Medhurst and Predovic",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetBatchTaskInfosByAssociatesAndState.md)]

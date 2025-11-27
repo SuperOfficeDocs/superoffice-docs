@@ -80,51 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormSubmissionId": 47,
-  "FormId": 192,
-  "WhenSubmitted": "2020-06-23T02:30:47.4600781+02:00",
-  "ContactId": 728,
-  "PersonId": 941,
-  "EmailAddress": "alvah@feeneyfritsch.com",
-  "ResponseShipmentAddrId": 53,
-  "Response": "fugiat",
-  "Status": "EmailVerification",
-  "ProcessingLog": "exercitationem"
-}
-```
+[!include[sample request](../../samples/agent/request/v1MarketingAgent_SaveFormSubmissionEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FormSubmissionId": 232,
-  "FormId": 775,
-  "WhenSubmitted": "2003-01-09T02:30:47.4600781+01:00",
-  "ContactId": 849,
-  "PersonId": 363,
-  "EmailAddress": "burnice_dach@veum.name",
-  "ResponseShipmentAddrId": 107,
-  "Response": "id",
-  "Status": "EmailVerification",
-  "ProcessingLog": "et",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1MarketingAgent_SaveFormSubmissionEntity.md)]

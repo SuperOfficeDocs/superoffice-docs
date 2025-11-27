@@ -110,81 +110,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/DocumentTemplate/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 470,
-  "Name": "Kunde-Bode",
-  "Tooltip": "aut",
-  "SaveInDb": 651,
-  "Filename": "omnis",
-  "DefaultOref": "id",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 822,
-  "IntentId": 409,
-  "IsDefaultPublished": true,
-  "Rank": 329,
-  "LoadTemplateFromPlugin": 230,
-  "MimeType": "eos",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 87,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "delores_nitzsche@hickledaniel.co.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "antwan_mertz@ebert.us",
-  "InvitationDocType": "Cancelled"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_PostDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 827,
-  "Name": "Erdman-Jerde",
-  "Tooltip": "labore",
-  "SaveInDb": 396,
-  "Filename": "ad",
-  "DefaultOref": "dolorum",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 205,
-  "IntentId": 274,
-  "IsDefaultPublished": false,
-  "Rank": 291,
-  "LoadTemplateFromPlugin": 353,
-  "MimeType": "cum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 126,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "royal@harber.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maximillia@wisokyzulauf.com",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 770
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_PostDocumentTemplateEntity.md)]

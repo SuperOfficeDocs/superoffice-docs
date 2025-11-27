@@ -70,41 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/{contactId}/Imageinfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetImageInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Dec 2022 02:30:52 G12T
-
-{
-  "BlobId": 217,
-  "BlobSize": 62,
-  "Description": "Synchronised client-server data-warehouse",
-  "ExtraInfo": "amet",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "iste",
-  "OriginalSize": 608,
-  "CreatedDate": "2010-12-22T02:30:52.4442929+01:00",
-  "UpdatedDate": "2022-12-27T02:30:52.4442929+01:00",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "ConceptualType": "architecto",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 758
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetImageInfo.md)]

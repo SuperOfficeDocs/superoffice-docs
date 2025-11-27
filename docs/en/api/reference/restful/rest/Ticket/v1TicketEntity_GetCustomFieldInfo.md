@@ -69,33 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Ticket/CustomField/{fieldName}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1TicketEntity_GetCustomFieldInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "FieldType": "Attachment",
-  "FieldName": "Cummerata, Harber and Quitzon",
-  "DisplayName": "Hessel, Anderson and Ziemann",
-  "Description": "Fundamental optimizing Graphical User Interface",
-  "ShortLabel": "est",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 761,
-  "TemplateVariableName": "Bartell, Blanda and Gislason"
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketEntity_GetCustomFieldInfo.md)]

@@ -83,43 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/SendQuoteVersion
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteVersionId": 540,
-  "ExpiryDate": "2021-05-19T02:30:47.7100701+02:00",
-  "FollowupDate": "2014-10-26T02:30:47.7100701+01:00",
-  "FollowupText": "a",
-  "Culture": "et"
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_SendQuoteVersion.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "IsOk": false,
-  "UserExplanation": "cumque",
-  "TechExplanation": "id",
-  "ErrorCode": "illo",
-  "Changes": null,
-  "Url": "http://www.example.com/",
-  "Status": "Error",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_SendQuoteVersion.md)]

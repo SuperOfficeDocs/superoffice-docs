@@ -78,58 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 392,
-  "Entities": [
-    {
-      "HeadingId": 614,
-      "Name": "Turner-Renner",
-      "Tooltip": "nam",
-      "Deleted": false,
-      "Rank": 609,
-      "UdListDefinitionId": 341
-    },
-    {
-      "HeadingId": 614,
-      "Name": "Turner-Renner",
-      "Tooltip": "nam",
-      "Deleted": false,
-      "Rank": 609,
-      "UdListDefinitionId": 341
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveHeadingsFromListDefinition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 915,
-    "Name": "Carroll-Cruickshank",
-    "Tooltip": "iure",
-    "Deleted": false,
-    "Rank": 146,
-    "UdListDefinitionId": 434,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveHeadingsFromListDefinition.md)]

@@ -73,35 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "TopicId": 1001,
-  "User": null,
-  "CanListen": true,
-  "CanRespond": true,
-  "CanManage": true,
-  "CanNotify": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_UpdateChatTopicUserAgent.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TopicId": 712,
-  "User": null,
-  "CanListen": true,
-  "CanRespond": false,
-  "CanManage": false,
-  "CanNotify": false
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_UpdateChatTopicUserAgent.md)]

@@ -82,41 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 283,
-  "Type": "voluptas"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_GetUntrustedCredentialsForAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ValidFrom": "2015-06-21T02:30:48.1163068+02:00",
-    "ValidTo": "2025-02-06T02:30:48.1163068+01:00",
-    "Comment": "omnis",
-    "SecretValue": "aliquid",
-    "PublicValue": "aspernatur",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 254
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_GetUntrustedCredentialsForAssociate.md)]

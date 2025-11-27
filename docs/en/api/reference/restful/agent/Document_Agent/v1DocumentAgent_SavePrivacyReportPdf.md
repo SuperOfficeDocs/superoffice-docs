@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SavePrivacyReportPdf
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Stream": "GIF89....File contents as raw bytes...",
-  "Title": "iure",
-  "PersonId": 32
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SavePrivacyReportPdf.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-315
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SavePrivacyReportPdf.md)]

@@ -77,57 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Resource/GetResourceSubstitutions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ResourceNames": [
-    "Batz-McDermott",
-    "Wiza, Braun and Weber"
-  ],
-  "Culture": "eveniet",
-  "ActiveOnly": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ResourceAgent_GetResourceSubstitutions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ResourceName": "Schumm, Simonis and Hoppe",
-    "ResourceValue": "dolorem",
-    "Culture": "eos",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
-      }
-    }
-  },
-  {
-    "ResourceName": "Schumm, Simonis and Hoppe",
-    "ResourceValue": "dolorem",
-    "Culture": "eos",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ResourceAgent_GetResourceSubstitutions.md)]

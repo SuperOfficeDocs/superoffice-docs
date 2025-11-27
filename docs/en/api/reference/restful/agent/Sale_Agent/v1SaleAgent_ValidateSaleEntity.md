@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/ValidateSaleEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_ValidateSaleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "fugiat",
-  "2": "deleniti"
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_ValidateSaleEntity.md)]

@@ -85,43 +85,8 @@ RoleEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Role/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1RoleEntity_GetRoleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 RoleEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "RoleId": 126,
-  "Name": "Gorczany, Osinski and Hammes",
-  "Tooltip": "laboriosam",
-  "RoleType": "Anonymous",
-  "Deleted": 918,
-  "Rank": 429,
-  "Created": "2001-08-02T02:30:52.8349052+02:00",
-  "UseCategories": 589,
-  "CreatedBy": null,
-  "Updated": "2019-11-05T02:30:52.8349052+01:00",
-  "UpdatedBy": null,
-  "DataRights": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1RoleEntity_GetRoleEntity.md)]

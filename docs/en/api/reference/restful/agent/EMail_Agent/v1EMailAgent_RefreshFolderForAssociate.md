@@ -70,26 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/RefreshFolderForAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Folders": [
-    "nobis",
-    "non"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_RefreshFolderForAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"possimus"
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_RefreshFolderForAssociate.md)]

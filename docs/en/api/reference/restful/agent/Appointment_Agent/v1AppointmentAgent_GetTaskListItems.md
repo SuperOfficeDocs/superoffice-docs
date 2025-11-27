@@ -84,47 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Appointment/GetTaskListItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "IncludeDeleted": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1AppointmentAgent_GetTaskListItems.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TaskListItemId": 195,
-    "Value": "maiores",
-    "Direction": "Incoming",
-    "Type": "Appointment",
-    "Tooltip": "error",
-    "Deleted": false,
-    "IntentId": 744,
-    "Rank": 674,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": true,
-    "ColorIndex": "BlueAlt1",
-    "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1AppointmentAgent_GetTaskListItems.md)]

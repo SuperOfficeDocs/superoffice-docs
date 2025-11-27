@@ -73,32 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/GetErpFieldValues
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpConnectionId": 971,
-  "CrmActorType": "Contact",
-  "EntityId": 824,
-  "FieldKeys": [
-    "voluptas",
-    "unde"
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_GetErpFieldValues.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  "dolor",
-  "ipsum"
-]
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_GetErpFieldValues.md)]

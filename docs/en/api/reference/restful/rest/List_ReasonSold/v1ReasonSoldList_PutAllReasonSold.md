@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ReasonSold/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 102,
-    "Name": "Barrows, Predovic and Terry",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 750,
-    "Rank": 746
-  },
-  {
-    "Id": 102,
-    "Name": "Barrows, Predovic and Terry",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 750,
-    "Rank": 746
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_PutAllReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 198,
-    "Name": "Hauck, Balistreri and Kshlerin",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 223,
-    "Rank": 252,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_PutAllReasonSold.md)]

@@ -18,8 +18,8 @@ actually live in the Service tables.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"default"|[default]|
-|"system"|[system]|
+|"default"|default|
+|"system"|system|
 |"database"|Database|
 |"group"|Group|
 |"user"|User|

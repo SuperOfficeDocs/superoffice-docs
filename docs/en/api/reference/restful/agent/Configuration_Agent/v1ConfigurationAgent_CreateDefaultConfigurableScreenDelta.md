@@ -66,43 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConfigurableScreenDeltaId": 990,
-  "Name": "Kunze LLC",
-  "Description": "Vision-oriented dynamic knowledge user",
-  "DeltaJson": "debitis",
-  "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2018-04-20T02:30:46.9132188+02:00",
-  "CreatedDate": "2001-12-02T02:30:46.9132188+01:00",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "AppliesToIds": [
-    970,
-    447
-  ],
-  "AppliesToKey": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta.md)]

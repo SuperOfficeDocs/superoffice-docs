@@ -87,79 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/MDO/GetListWithHistory
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "Hahn-Rogahn",
-  "ForceFlatList": false,
-  "AdditionalInfo": "et",
-  "HistoryItems": [
-    694,
-    410
-  ],
-  "OnlyHistory": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1MDOAgent_GetListWithHistory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 51,
-    "Name": "Mann, Hoeger and Macejkovic",
-    "ToolTip": "Amet aut sint nihil.",
-    "Deleted": true,
-    "Rank": 670,
-    "Type": "quaerat",
-    "ChildItems": [
-      {
-        "Id": 627,
-        "Name": "Christiansen Group",
-        "ToolTip": "Et iure magnam.",
-        "Deleted": true,
-        "Rank": 137,
-        "Type": "qui",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "quo",
-        "ColorBlock": 586,
-        "ExtraInfo": "ipsa",
-        "StyleHint": "quam",
-        "FullName": "Mortimer Schmitt",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 25
-          }
-        }
-      }
-    ],
-    "IconHint": "inventore",
-    "ColorBlock": 460,
-    "ExtraInfo": "fuga",
-    "StyleHint": "aut",
-    "FullName": "Alexa Welch",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1MDOAgent_GetListWithHistory.md)]

@@ -81,85 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultTicketPriorityEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketPriorityId": 12,
-  "Name": "Johnson LLC",
-  "Status": "Deleted",
-  "Flags": "AlertSchedule",
-  "SortOrder": 438,
-  "TicketRead": "Continue",
-  "ChangedOwner": "Continue",
-  "TicketNewinfo": "Continue",
-  "TicketClosed": "Continue",
-  "TicketChangedPriority": "Continue",
-  "TicketNew": "Continue",
-  "Deadline": 617,
-  "MonStart": "2000-08-10T02:30:47.3819557+02:00",
-  "MonStop": "2021-07-02T02:30:47.3819557+02:00",
-  "TueStart": "2019-08-22T02:30:47.3819557+02:00",
-  "TueStop": "2025-03-04T02:30:47.3819557+01:00",
-  "WedStart": "2014-07-16T02:30:47.3819557+02:00",
-  "WedStop": "2019-03-04T02:30:47.3819557+01:00",
-  "ThuStart": "2008-09-09T02:30:47.3819557+02:00",
-  "ThuStop": "2000-12-24T02:30:47.3819557+01:00",
-  "FriStart": "2025-02-16T02:30:47.3819557+01:00",
-  "FriStop": "2017-05-06T02:30:47.3819557+02:00",
-  "SatStart": "2014-03-22T02:30:47.3819557+01:00",
-  "SatStop": "2014-01-22T02:30:47.3819557+01:00",
-  "SunStart": "2019-11-19T02:30:47.3819557+01:00",
-  "SunStop": "2009-08-05T02:30:47.3819557+02:00",
-  "NonDates": [
-    "voluptas",
-    "a"
-  ],
-  "EscalationLevels": [
-    {
-      "TicketAlertId": 715,
-      "AlertLevel": 474,
-      "AlertTimeout": 531,
-      "Action": 252,
-      "DelegateTo": 507,
-      "ScriptId": 95,
-      "EmailTo": "freeman@handmills.uk",
-      "SmsTo": "minima",
-      "ReplyTemplateIdCustomer": 327,
-      "ReplyTemplateIdUser": 312,
-      "ReplyTemplateIdCatmast": 880,
-      "ReplyTemplateIdEmail": 211,
-      "RtiCustomerSms": 853,
-      "ReplyTemplateIdUserSms": 667,
-      "ReplyTemplateIdCatmastSms": 532,
-      "ReplyTemplateIdSms": 594,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 314
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultTicketPriorityEntity.md)]

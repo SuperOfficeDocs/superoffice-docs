@@ -92,55 +92,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/SystemEvent
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 320,
-  "Scope": "Database",
-  "Eta": "2022-01-20T02:30:52.9442767+01:00",
-  "Eventkey": "ab",
-  "Eventmess": "asperiores",
-  "ExtraInfo": 732,
-  "Owner": 753,
-  "UpdatedCount": 412,
-  "Registered": "2000-07-17T02:30:52.9442767+02:00",
-  "ActivatedBy": null
-}
-```
+[!include[sample request](../../samples/rest/request/v1SystemEventEntity_PostSystemEventEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SystemEventId": 208,
-  "Scope": "Database",
-  "Eta": "2025-08-03T02:30:52.9442767+02:00",
-  "Eventkey": "adipisci",
-  "Eventmess": "ut",
-  "ExtraInfo": 377,
-  "Owner": 799,
-  "UpdatedCount": 838,
-  "Registered": "1999-03-07T02:30:52.9442767+01:00",
-  "ActivatedBy": null,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SystemEventEntity_PostSystemEventEntity.md)]

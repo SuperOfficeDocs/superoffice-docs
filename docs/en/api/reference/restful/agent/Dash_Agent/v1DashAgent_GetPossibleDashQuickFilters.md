@@ -72,34 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/GetPossibleDashQuickFilters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 35
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_GetPossibleDashQuickFilters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Restriction": null,
-    "Provider": "totam",
-    "DashboardId": 304
-  },
-  {
-    "Restriction": null,
-    "Provider": "totam",
-    "DashboardId": 304
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_GetPossibleDashQuickFilters.md)]

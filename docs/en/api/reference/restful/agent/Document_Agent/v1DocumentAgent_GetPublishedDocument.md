@@ -91,52 +91,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetPublishedDocument
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 74
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetPublishedDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 547,
-  "Attention": "magnam",
-  "Header": "sunt",
-  "Name": "Johnston-Wisoky",
-  "OurRef": "ea",
-  "YourRef": "amet",
-  "Description": "Automated composite array",
-  "DocumentTemplate": "quia",
-  "IsPublished": false,
-  "PersonId": 555,
-  "PersonFullName": "Mr. Alverta Oswald Watsica",
-  "AssociateFullName": "Mr. Liliana Terry IV",
-  "ContactId": 472,
-  "ContactName": "Gleason, Bahringer and Rohan",
-  "ProjectId": 17,
-  "ProjectName": "Dickens-Senger",
-  "AssociateId": 550,
-  "Snum": 489,
-  "SaleId": 66,
-  "SaleName": "Gorczany, Braun and Stark",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetPublishedDocument.md)]

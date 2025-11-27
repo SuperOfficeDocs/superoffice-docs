@@ -68,33 +68,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Preference/{section}/{key}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "quos",
-  "Specification": null,
-  "DisplayValue": "nemo",
-  "DisplayTooltip": "consequatur",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 27,
-  "PrefDescId": 868,
-  "TableName": "Williamson Group",
-  "UserPreferenceId": 171
-}
-```
+[!include[sample request](../../samples/rest/request/v1Preference_SetPrefValue_POST.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1Preference_SetPrefValue_POST.md)]

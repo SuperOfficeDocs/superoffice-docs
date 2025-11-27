@@ -28,7 +28,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=aut
+GET /api/v1/List/ProjectType/MDOItems?query=laudantium
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ProjectType/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1ProjectTypeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 494,
-    "Name": "Hamill LLC",
-    "ToolTip": "Voluptatem harum doloremque commodi voluptatum.",
-    "Deleted": false,
-    "Rank": 943,
-    "Type": "tempora",
-    "ChildItems": [
-      {
-        "Id": 103,
-        "Name": "Bauch-Ebert",
-        "ToolTip": "Quasi fugit saepe illum quasi quis aperiam sit.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "corrupti",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 781,
-        "ExtraInfo": "maiores",
-        "StyleHint": "molestiae",
-        "FullName": "Mr. Audreanne Laverne Schaefer",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 312
-          }
-        }
-      }
-    ],
-    "IconHint": "est",
-    "ColorBlock": 2,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "illum",
-    "FullName": "Mae Thiel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ProjectTypeList_GetMDOList.md)]

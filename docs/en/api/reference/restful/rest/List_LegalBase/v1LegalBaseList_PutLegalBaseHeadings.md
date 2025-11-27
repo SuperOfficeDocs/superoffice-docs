@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/LegalBase/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 800,
-    "Name": "Weimann, Kunze and Schulist",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 174,
-    "UdListDefinitionId": 696
-  },
-  {
-    "HeadingId": 800,
-    "Name": "Weimann, Kunze and Schulist",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 174,
-    "UdListDefinitionId": 696
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_PutLegalBaseHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 982,
-    "Name": "Larson Inc and Sons",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "Rank": 144,
-    "UdListDefinitionId": 706,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_PutLegalBaseHeadings.md)]

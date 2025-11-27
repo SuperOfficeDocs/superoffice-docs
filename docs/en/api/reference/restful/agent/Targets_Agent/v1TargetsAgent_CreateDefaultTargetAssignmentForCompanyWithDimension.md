@@ -80,46 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TargetDimensionId": 491
-}
-```
+[!include[sample request](../../samples/agent/request/v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TargetAssignmentInfoId": 700,
-    "Values": [
-      923,
-      29
-    ],
-    "Locked": false,
-    "TargetAssociate": null,
-    "TargetContact": null,
-    "TargetUserGroup": null,
-    "Currency": null,
-    "DimensionListItem": 778,
-    "DimensionListItemDisplayName": "Runolfsdottir-Abernathy",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension.md)]

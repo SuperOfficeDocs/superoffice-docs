@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=enim
-GET /api/v1/ChatSession?$top=882
-GET /api/v1/ChatSession?$skip=146
+GET /api/v1/ChatSession?$entities=rerum
+GET /api/v1/ChatSession?$top=90
+GET /api/v1/ChatSession?$skip=407
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=nihil
+GET /api/v1/ChatSession?$context=tenetur
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
@@ -115,37 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatSession
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatSessionEntity_GetAll.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatum",
-  "value": [
-    {
-      "PrimaryKey": 7509,
-      "EntityName": "sale",
-      "saleId": 7509,
-      "contactId": 8983,
-      "name": "Kirlin, Ritchie and Barrows"
-    },
-    {
-      "PrimaryKey": 9730,
-      "EntityName": "sale",
-      "saleId": 9730,
-      "contactId": 2446,
-      "name": "Grady, McDermott and Volkman"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatSessionEntity_GetAll.md)]

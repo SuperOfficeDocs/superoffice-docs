@@ -106,77 +106,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/SaveProjectMember
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 8,
-  "ContactId": 42,
-  "ProjectId": 385,
-  "ContactName": "Adams Inc and Sons",
-  "ContactDepartment": "visualize 24/365 users",
-  "ProjectName": "Stracke-Collier",
-  "EmailId": 771,
-  "EmailAddress": "lera.keeling@franecki.co.uk",
-  "CountryId": 311,
-  "Firstname": "Savion",
-  "MiddleName": "Boehm-Larson",
-  "Lastname": "Cruickshank",
-  "PersonId": 765,
-  "Mrmrs": "autem",
-  "ProjectMemberTypeName": "Reinger, Tillman and Hyatt",
-  "Phone": "(892)733-1429 x15454",
-  "PhoneId": 517,
-  "ProjectMemberTypeId": 434,
-  "EmailAddressName": "larue.fritsch@vonschamberger.name",
-  "Comment": "itaque",
-  "FullName": "Lacey Nienow",
-  "Registered": "2003-11-15T02:30:47.6944454+01:00",
-  "Updated": "2008-06-23T02:30:47.6944454+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_SaveProjectMember.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProjectmemberId": 966,
-  "ContactId": 299,
-  "ProjectId": 858,
-  "ContactName": "Gottlieb-Wisoky",
-  "ContactDepartment": "",
-  "ProjectName": "O'Keefe-Cummerata",
-  "EmailId": 488,
-  "EmailAddress": "lyric.jast@abbott.us",
-  "CountryId": 868,
-  "Firstname": "Mohamed",
-  "MiddleName": "Fadel, Casper and Monahan",
-  "Lastname": "Schultz",
-  "PersonId": 767,
-  "Mrmrs": "praesentium",
-  "ProjectMemberTypeName": "Hickle-Sauer",
-  "Phone": "452-624-5642",
-  "PhoneId": 402,
-  "ProjectMemberTypeId": 734,
-  "EmailAddressName": "scot.kuphal@keeling.co.uk",
-  "Comment": "est",
-  "FullName": "Sim Schaefer",
-  "Registered": "2024-07-25T02:30:47.6944454+02:00",
-  "Updated": "2019-05-15T02:30:47.6944454+02:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 322
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_SaveProjectMember.md)]

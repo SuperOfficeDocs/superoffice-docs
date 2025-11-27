@@ -70,25 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 960,
-  "ViewState": "omnis",
-  "FromDate": "1999-09-17T02:30:47.0694635+02:00"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DiagnosticsAgent_WebAppUsageExistsInPeriod.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1DiagnosticsAgent_WebAppUsageExistsInPeriod.md)]

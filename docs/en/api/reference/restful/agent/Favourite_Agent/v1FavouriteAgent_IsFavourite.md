@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Favourite/IsFavourite
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TableName": "O'Hara-Osinski",
-  "RecordId": 850,
-  "AssociateId": 799
-}
-```
+[!include[sample request](../../samples/agent/request/v1FavouriteAgent_IsFavourite.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-false
-```
+[!include[sample response](../../samples/agent/response/v1FavouriteAgent_IsFavourite.md)]

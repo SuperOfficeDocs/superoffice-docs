@@ -78,14 +78,15 @@ Archive provider for the list of favourites
 |saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |soldReason| *None* |Reason (sold: Reason (sold)|  |
 |saleNumber| *None* |Number: Number|  |
-|hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
+|hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
+|stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
 |hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |description| *None* |Description: The long description field on Sale|  |
 |activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
-|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
@@ -128,11 +129,11 @@ Archive provider for the list of favourites
 |associate/userName| *None* |User name: User name|  |
 |associate/personEmail| *None* |E-mail|  |
 |associate/locationAddress| *None* |Location: Location|  |
-|associate/isLocation| *None* |Is a location: Is a location|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|associate/isLocation| *None* |Is a location: Is a location|  |
 |saleUdef/SuperOffice:1| *None* |saleshorttext|  |
 |saleUdef/SuperOffice:2| *None* |salelongtext|  |
 |saleUdef/SuperOffice:3| *None* |salenumber|  |
@@ -232,11 +233,11 @@ Archive provider for the list of favourites
 |contactAssociate/contactCategory| *None* |Category: Category|  |
 |contactAssociate/role| *None* |Role : Role|  |
 |contactAssociate/assocName| *None* |User ID : User ID|  |
-|contactAssociate/assocTooltip| *None* |Description : Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/assocTooltip| *None* |Description : Description|  |
 |contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |contactAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -336,11 +337,11 @@ Archive provider for the list of favourites
 |birthMonth| *None* |Birth month: Displays contact's birth month|  |
 |birthDay| *None* |Birth day: Displays contact's birth day (day of month)|  |
 |kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
-|kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
 |personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
 |personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
@@ -440,11 +441,11 @@ Archive provider for the list of favourites
 |personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|personAssociate/associateDbId| *None* |ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/associateDbId| *None* |ID|  |
 |personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
@@ -544,11 +545,11 @@ Archive provider for the list of favourites
 |selectionAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |selectionAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |selectionAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|selectionAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |selectionAssociate/contactCategory| *None* |Category: Category|  |
 |selectionAssociate/role| *None* |Role : Role|  |
 |selectionAssociate/assocName| *None* |User ID : User ID|  |
@@ -648,11 +649,11 @@ Archive provider for the list of favourites
 |project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |project/projectAssociate/userName| *None* |User name: User name|  |
 |project/projectAssociate/personEmail| *None* |E-mail|  |
 |project/projectAssociate/locationAddress| *None* |Location: Location|  |
@@ -752,11 +753,11 @@ Archive provider for the list of favourites
 |appointment/title| *None* |Title|  |
 |appointment/titleHtml| *None* |!!Title Html|  |
 |appointment/agenda| *None* |Agenda|  |
-|appointment/agendaHtml| *None* |!!Agenda Html|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/agendaHtml| *None* |!!Agenda Html|  |
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId| *None* |Text ID|  |
 |appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
@@ -856,11 +857,11 @@ Archive provider for the list of favourites
 |ownedBy/contactCategory| *None* |Owner - Category: Category|  |
 |ownedBy/role| *None* |Owner - Role: Role|  |
 |ownedBy/assocName| *None* |Owner - User ID: User ID|  |
-|ownedBy/assocTooltip| *None* |Owner - Description: Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/assocTooltip| *None* |Owner - Description: Description|  |
 |ownedBy/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
 |ownedBy/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -902,7 +903,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=associate/personId,LastActivity,personDeletedDate,rawType,ticketTypeName
+GET /api/v1/archive/Favourites?$select=salePublish/publishedBy,retired,personUdef/SuperOffice:3,project/completed,appointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

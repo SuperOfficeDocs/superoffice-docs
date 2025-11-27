@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/MrMrs/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 319,
-    "Name": "Yundt-Kutch",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 337,
-    "Rank": 145
-  },
-  {
-    "Id": 319,
-    "Name": "Yundt-Kutch",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 337,
-    "Rank": 145
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1MrMrsList_PutAllMrMrs.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 239,
-    "Name": "Ferry-Goyette",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "UdListDefinitionId": 89,
-    "Rank": 939,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1MrMrsList_PutAllMrMrs.md)]

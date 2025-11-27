@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Position/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 240,
-  "Name": "Roberts-Reilly",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 145,
-  "UdListDefinitionId": 950
-}
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_PostPositionHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 624,
-  "Name": "Casper-Schinner",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 521,
-  "UdListDefinitionId": 504,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_PostPositionHeading.md)]

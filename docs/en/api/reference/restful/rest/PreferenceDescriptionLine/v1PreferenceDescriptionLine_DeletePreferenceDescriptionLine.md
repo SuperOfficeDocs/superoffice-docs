@@ -50,18 +50,8 @@ PreferenceDescriptionLine deleted.
 
 ## Sample request
 
-```http!
-DELETE /api/v1/PreferenceDescriptionLine/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1PreferenceDescriptionLine_DeletePreferenceDescriptionLine.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 PreferenceDescriptionLine deleted.
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1PreferenceDescriptionLine_DeletePreferenceDescriptionLine.md)]

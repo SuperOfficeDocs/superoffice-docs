@@ -103,87 +103,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/TicketType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 439,
-  "Name": "Marks Inc and Sons",
-  "Rank": 943,
-  "Tooltip": "aut",
-  "Icon": "quia",
-  "DefaultTicketStatus": 420,
-  "TicketStatuses": [
-    15,
-    931
-  ],
-  "DefaultTicketPriority": 86,
-  "TicketPriorities": [
-    290,
-    483
-  ],
-  "ReplyTemplate": 515,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
-  "VisibleForGroups": [
-    675,
-    822
-  ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1TicketTypeList_PutTicketTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketTypeId": 156,
-  "Name": "Hansen, Hills and Pouros",
-  "Rank": 596,
-  "Tooltip": "cupiditate",
-  "Icon": "qui",
-  "DefaultTicketStatus": 983,
-  "TicketStatuses": [
-    502,
-    659
-  ],
-  "DefaultTicketPriority": 359,
-  "TicketPriorities": [
-    576,
-    820
-  ],
-  "ReplyTemplate": 902,
-  "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
-  "VisibleForGroups": [
-    491,
-    460
-  ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1TicketTypeList_PutTicketTypeEntity.md)]

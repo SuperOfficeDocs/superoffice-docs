@@ -83,7 +83,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
-|"emailParticipant"|[Email Participant]|
+|"emailParticipant"|Email Participant|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -254,7 +254,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=contactCategory,fullNameWithContact,ticketPriority
+GET /api/v1/archive/Participants?$select=sendEmail,personContact/forceCompany,fullNameWithContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

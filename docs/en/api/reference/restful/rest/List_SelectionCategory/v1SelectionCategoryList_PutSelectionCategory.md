@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/SelectionCategory/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 768,
-  "Name": "Tromp LLC",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 115,
-  "Rank": 595
-}
-```
+[!include[sample request](../../samples/rest/request/v1SelectionCategoryList_PutSelectionCategory.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 702,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "UdListDefinitionId": 922,
-  "Rank": 444,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SelectionCategoryList_PutSelectionCategory.md)]

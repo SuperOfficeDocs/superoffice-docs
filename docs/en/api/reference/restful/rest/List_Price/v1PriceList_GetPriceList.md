@@ -80,41 +80,8 @@ PriceList found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Pricelist/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PriceList_GetPriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 PriceList found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 544,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 952,
-  "Name": "Osinski, Romaguera and Rodriguez",
-  "Description": "Enterprise-wide contextually-based array",
-  "Currency": "assumenda",
-  "CurrencyName": "McLaughlin Group",
-  "ValidFrom": "2014-01-18T02:30:53.3348881+01:00",
-  "ValidTo": "2019-12-23T02:30:53.3348881+01:00",
-  "IsActive": true,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1PriceList_GetPriceList.md)]

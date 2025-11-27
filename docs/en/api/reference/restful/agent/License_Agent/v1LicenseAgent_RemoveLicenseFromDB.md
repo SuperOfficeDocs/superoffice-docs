@@ -74,34 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/License/RemoveLicenseFromDB
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ModuleOwner": "qui"
-}
-```
+[!include[sample request](../../samples/agent/request/v1LicenseAgent_RemoveLicenseFromDB.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Succeeded": true,
-  "Reason": "",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1LicenseAgent_RemoveLicenseFromDB.md)]

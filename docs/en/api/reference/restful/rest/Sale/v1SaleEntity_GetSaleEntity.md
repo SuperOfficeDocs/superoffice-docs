@@ -35,7 +35,7 @@ NsApiSlow threshold: 2000 ms.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -117,158 +117,8 @@ SaleEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetSaleEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 SaleEntity found.
-Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Dec 2019 02:30:52 G12T
-
-{
-  "Appointment": null,
-  "Associate": null,
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "Contact": null,
-  "Project": null,
-  "SaleText": "suscipit",
-  "Person": null,
-  "Currency": null,
-  "Competitor": null,
-  "Credited": null,
-  "Rating": null,
-  "Reason": null,
-  "Source": null,
-  "Status": "Lost",
-  "Saledate": "2024-07-08T02:30:52.866154+02:00",
-  "Amount": 16083.688,
-  "SaleId": 345,
-  "Earning": 28992.634,
-  "EarningPercent": 24504.746,
-  "Heading": "vel",
-  "Number": "344770",
-  "Probability": 243,
-  "CreatedDate": "2019-11-28T02:30:52.866154+01:00",
-  "UpdatedDate": "2019-12-09T02:30:52.866154+01:00",
-  "Completed": "Completed",
-  "ActiveLinks": 894,
-  "Links": [
-    {
-      "EntityName": "Corkery LLC",
-      "Id": 842,
-      "Description": "Multi-channelled logistical concept",
-      "ExtraInfo": "id",
-      "LinkId": 937,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 130
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2007-09-19T02:30:52.866154+02:00",
-  "Postit": "ad",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2015-04-20T02:30:52.866154+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Walter LLC",
-      "Comment": "numquam",
-      "StakeholderRoleId": 744,
-      "CountryId": 652,
-      "PersonId": 838,
-      "EmailDescription": "elvera@wiegandkuvalis.co.uk",
-      "EmailId": 854,
-      "EmailAddress": "lupe@graham.ca",
-      "PhoneId": 474,
-      "ContactName": "Zulauf, Runolfsdottir and Collins",
-      "ContactId": 460,
-      "SaleId": 492,
-      "Mrmrs": "ex",
-      "Firstname": "Sylvester",
-      "MiddleName": "Bechtelar-Corwin",
-      "Lastname": "Abernathy",
-      "SaleStakeholderId": 972,
-      "Rank": 502,
-      "Phone": "467-884-0043 x1726",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 331
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 573,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Heather Olson"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "excepturi"
-  },
-  "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "odit"
-  },
-  "PublishEventDate": "2025-01-26T02:30:52.8817786+01:00",
-  "PublishTo": "2022-12-10T02:30:52.8817786+01:00",
-  "PublishFrom": "2023-11-19T02:30:52.8817786+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 995,
-      "Visibility": "All",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
-        }
-      }
-    },
-    {
-      "VisibleId": 995,
-      "Visibility": "All",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetSaleEntity.md)]

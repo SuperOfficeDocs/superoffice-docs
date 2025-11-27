@@ -78,39 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetFromListName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 791,
-  "UdListDefinitionName": "Lueilwitz-Veum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 839,
-  "Name": "Dach-Walter",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "UdListDefinitionId": 303,
-  "Rank": 825,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 314
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetFromListName.md)]

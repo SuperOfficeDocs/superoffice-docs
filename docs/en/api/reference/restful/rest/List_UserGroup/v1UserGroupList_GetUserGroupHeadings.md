@@ -59,35 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/UserGroup/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1UserGroupList_GetUserGroupHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 386,
-    "Name": "Lehner Group",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 773,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1UserGroupList_GetUserGroupHeadings.md)]

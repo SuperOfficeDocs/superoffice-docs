@@ -67,26 +67,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/ValidateDocumentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentEntity": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_ValidateDocumentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "magnam",
-  "2": "suscipit"
-}
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_ValidateDocumentEntity.md)]

@@ -87,63 +87,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/UdefLayout
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_GetUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 844,
-    "ColumnId": 144,
-    "FieldDefault": "doloribus",
-    "FieldHeight": 33,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 892,
-    "FieldTop": 496,
-    "FieldType": "Checkbox",
-    "FieldWidth": 924,
-    "FormatMask": "rerum",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 902,
-    "LabelLeft": 966,
-    "LabelTop": 292,
-    "LabelWidth": 22,
-    "LastVersionId": 93,
-    "ListTableId": 229,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 342,
-    "ProgId": "inventore",
-    "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 920,
-    "TextLength": 220,
-    "Tooltip": "voluptate",
-    "UdefIdentity": 558,
-    "UDListDefinitionId": 717,
-    "Justification": "Center",
-    "Version": 663,
-    "TemplateVariableName": "Okuneva-Predovic",
-    "HasBeenPublished": false,
-    "MdoListName": "Buckridge Inc and Sons",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_GetUdefLayout.md)]

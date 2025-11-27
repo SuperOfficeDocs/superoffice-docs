@@ -84,62 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ProviderName": "Boyle-Dickens",
-  "Restrictions": [
-    {
-      "Name": "Heller-Wintheiser",
-      "Operator": "consectetur",
-      "Values": [
-        "ab",
-        "fugit"
-      ],
-      "DisplayValues": [
-        "dolorem",
-        "cupiditate"
-      ],
-      "ColumnInfo": null,
-      "IsActive": true,
-      "SubRestrictions": [
-        {},
-        {}
-      ],
-      "InterParenthesis": 105,
-      "InterOperator": "And",
-      "UniqueHash": 115
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetDefaultDesiredColumnsFromRestrictions.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "DisplayName": "Lesch Group",
-    "DisplayTooltip": "asperiores",
-    "DisplayType": "vero",
-    "CanOrderBy": false,
-    "Name": "Ziemann, Rodriguez and Hand",
-    "CanRestrictBy": false,
-    "RestrictionType": "saepe",
-    "RestrictionListName": "Cassin-Zulauf",
-    "IsVisible": false,
-    "ExtraInfo": "enim",
-    "Width": "architecto",
-    "IconHint": "sit",
-    "HeadingIconHint": "consequatur"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetDefaultDesiredColumnsFromRestrictions.md)]

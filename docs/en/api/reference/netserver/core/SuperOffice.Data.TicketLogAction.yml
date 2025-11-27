@@ -96,11 +96,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
 
       public enum TicketLogAction
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.6.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
 
       Public Enum TicketLogAction
   extensionMethods:
@@ -116,7 +116,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.6.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
 - uid: SuperOffice.Data.TicketLogAction.No_Logging
   commentId: F:SuperOffice.Data.TicketLogAction.No_Logging
   id: No_Logging

@@ -65,39 +65,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 240,
-  "ContactName": "McClure, Anderson and Schaefer",
-  "PersonId": 409,
-  "PersonName": "Crooks LLC",
-  "AssociateId": 828,
-  "Address": "illo",
-  "EmailId": 894,
-  "DuplicatePersonIds": [
-    413,
-    942
-  ],
-  "Name": "Torp, Kovacek and Tromp",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailAddress.md)]

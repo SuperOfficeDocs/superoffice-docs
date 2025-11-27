@@ -83,45 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 910,
-  "CurrencyId": 726
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetActivePriceListsByCurrencyId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "PriceListId": 191,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 879,
-    "Name": "Champlin Group",
-    "Description": "User-friendly discrete toolset",
-    "Currency": "a",
-    "CurrencyName": "Emard LLC",
-    "ValidFrom": "2008-06-30T02:30:47.7256947+02:00",
-    "ValidTo": "2000-07-31T02:30:47.7256947+02:00",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 19
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetActivePriceListsByCurrencyId.md)]

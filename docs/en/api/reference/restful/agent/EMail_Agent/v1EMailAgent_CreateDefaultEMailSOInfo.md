@@ -64,35 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailSOInfo.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 240,
-  "AppointmentId": 948,
-  "ProjectId": 80,
-  "SaleId": 463,
-  "Archived": false,
-  "ArchivedAt": "2025-09-29T02:30:47.2725845+02:00",
-  "ArchivedBy": 513,
-  "ArchivedDisplayName": "Senger-Watsica",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailSOInfo.md)]

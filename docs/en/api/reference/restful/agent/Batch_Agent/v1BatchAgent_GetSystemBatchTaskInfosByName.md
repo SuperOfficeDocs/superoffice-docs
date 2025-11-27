@@ -93,59 +93,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "TaskName": "Rogahn LLC"
-}
-```
+[!include[sample request](../../samples/agent/request/v1BatchAgent_GetSystemBatchTaskInfosByName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 953,
-    "Name": "Hane LLC",
-    "AssociateId": 439,
-    "DetailsTable": 704,
-    "DetailsRecord": 789,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "incidunt",
-      "ParameterObject2": "unde"
-    },
-    "LastStarted": "2013-08-24T02:30:46.8194719+02:00",
-    "Created": "2010-09-02T02:30:46.8194719+02:00",
-    "StartCount": 533,
-    "DatabaseSerialNumber": "1080616",
-    "Context": "laboriosam",
-    "Result": "maiores",
-    "State": "All",
-    "Description": "Team-oriented human-resource success",
-    "Response": "consequuntur",
-    "Request": "corrupti",
-    "ProgressDescription": "Horizontal grid-enabled functionalities",
-    "ProgressPercent": 70,
-    "FileName": "Dicki, Langosh and Stroman",
-    "CancellationBehaviour": "CanCancel",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1BatchAgent_GetSystemBatchTaskInfosByName.md)]

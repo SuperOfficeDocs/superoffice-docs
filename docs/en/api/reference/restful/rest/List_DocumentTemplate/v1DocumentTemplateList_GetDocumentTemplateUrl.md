@@ -31,8 +31,8 @@ Get a url to the document template
 | languageCode | string |  The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=et
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=quod
 ```
 
 
@@ -63,18 +63,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetDocumentTemplateUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetDocumentTemplateUrl.md)]

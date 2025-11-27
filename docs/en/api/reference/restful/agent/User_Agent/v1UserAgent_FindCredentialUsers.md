@@ -77,73 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/User/FindCredentialUsers
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Type": "harum",
-  "SearchString": "perspiciatis"
-}
-```
+[!include[sample request](../../samples/agent/request/v1UserAgent_FindCredentialUsers.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Headings": [
-    "eum",
-    "molestiae"
-  ],
-  "Users": [
-    {
-      "Value": "magnam",
-      "DisplayValue": "totam",
-      "Columns": [
-        "fugiat",
-        "dignissimos"
-      ],
-      "CanCreatePerson": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 678
-        }
-      }
-    },
-    {
-      "Value": "magnam",
-      "DisplayValue": "totam",
-      "Columns": [
-        "fugiat",
-        "dignissimos"
-      ],
-      "CanCreatePerson": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 678
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 240
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1UserAgent_FindCredentialUsers.md)]

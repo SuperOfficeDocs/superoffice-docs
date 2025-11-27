@@ -78,36 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "Source": "ipsa",
-  "GeneratorEncoding": "Html",
-  "CustomTags": {
-    "CustomTags1": "et",
-    "CustomTags2": "et"
-  },
-  "ContactId": 630,
-  "PersonId": 13,
-  "AppointmentId": 831,
-  "DocumentId": 591,
-  "SaleId": 534,
-  "SelectionId": 611,
-  "ProjectId": 255,
-  "CultureName": "sv"
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags2.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"iste"
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags2.md)]

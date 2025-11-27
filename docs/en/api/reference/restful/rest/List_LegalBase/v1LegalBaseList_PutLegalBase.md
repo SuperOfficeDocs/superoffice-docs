@@ -77,43 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/LegalBase/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBaseId": 160,
-  "Name": "Beier-Ebert",
-  "Tooltip": "accusamus",
-  "Rank": 22,
-  "Key": "beatae",
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_PutLegalBase.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBaseId": 865,
-  "Name": "Cormier, Emmerich and Wuckert",
-  "Tooltip": "dolores",
-  "Rank": 630,
-  "Key": "porro",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_PutLegalBase.md)]

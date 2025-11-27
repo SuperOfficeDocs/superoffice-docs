@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=qui
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=eos
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DeliveryType/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTypeList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 844,
-    "Name": "Boyle LLC",
-    "ToolTip": "Aliquam voluptates quos eaque nihil iure officia nisi.",
-    "Deleted": false,
-    "Rank": 236,
-    "Type": "impedit",
-    "ChildItems": [
-      {
-        "Id": 551,
-        "Name": "Cormier, Morissette and Koelpin",
-        "ToolTip": "Qui excepturi repellendus veritatis laudantium.",
-        "Deleted": true,
-        "Rank": 645,
-        "Type": "reiciendis",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "recusandae",
-        "ColorBlock": 418,
-        "ExtraInfo": "unde",
-        "StyleHint": "quaerat",
-        "FullName": "Torey Hammes",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 288
-          }
-        }
-      }
-    ],
-    "IconHint": "nobis",
-    "ColorBlock": 732,
-    "ExtraInfo": "ut",
-    "StyleHint": "sit",
-    "FullName": "Nettie Gerlach II",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTypeList_GetMDOList.md)]

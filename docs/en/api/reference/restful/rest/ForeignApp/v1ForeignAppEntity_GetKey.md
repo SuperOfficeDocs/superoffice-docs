@@ -69,36 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ForeignAppEntity_GetKey.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 08 Oct 2000 02:30:52 G10T
-
-{
-  "Key": "neque",
-  "Value": "aut",
-  "RecordId": 255,
-  "CreatedDate": "2005-03-08T02:30:52.6474115+01:00",
-  "UpdatedDate": "2000-10-08T02:30:52.6474115+02:00",
-  "UpdatedBy": "excepturi",
-  "CreatedBy": "dolor",
-  "TableName": "Harvey Inc and Sons",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 431
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ForeignAppEntity_GetKey.md)]

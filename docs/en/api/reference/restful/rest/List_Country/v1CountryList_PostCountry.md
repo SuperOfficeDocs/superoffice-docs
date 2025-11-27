@@ -96,67 +96,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/Country/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 321,
-  "Name": "Treutel, Luettgen and Grimes",
-  "CurrencyId": 862,
-  "EnglishName": "Langworth LLC",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored optimal approach",
-  "OrgNrText": "510027",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "ut",
-  "DomainName": "O'Keefe, Cummerata and Conroy",
-  "AddressLayoutId": 815,
-  "DomesticAddressLayoutId": 737,
-  "ForeignAddressLayoutId": 445,
-  "Rank": 983,
-  "Tooltip": "qui",
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1CountryList_PostCountry.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "CountryId": 840,
-  "Name": "Zulauf-Klein",
-  "CurrencyId": 10,
-  "EnglishName": "Pfeffer, Hamill and Ratke",
-  "TwoLetterISOCountry": "Sokovia",
-  "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Innovative coherent capacity",
-  "OrgNrText": "585878",
-  "InterAreaPrefix": "unde",
-  "DialInPrefix": "culpa",
-  "ZipPrefix": "ipsam",
-  "DomainName": "O'Keefe-Emmerich",
-  "AddressLayoutId": 649,
-  "DomesticAddressLayoutId": 341,
-  "ForeignAddressLayoutId": 549,
-  "Rank": 829,
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1CountryList_PostCountry.md)]

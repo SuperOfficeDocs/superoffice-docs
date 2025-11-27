@@ -73,46 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDashQuickFilters
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 892,
-  "QuickFilters": [
-    {
-      "Restriction": null,
-      "Provider": "cupiditate",
-      "DashboardId": 930
-    },
-    {
-      "Restriction": null,
-      "Provider": "cupiditate",
-      "DashboardId": 930
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDashQuickFilters.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Restriction": null,
-    "Provider": "dolores",
-    "DashboardId": 83
-  },
-  {
-    "Restriction": null,
-    "Provider": "dolores",
-    "DashboardId": 83
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDashQuickFilters.md)]

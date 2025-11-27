@@ -86,74 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/GetConnection
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 481
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_GetConnection.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "QuoteConnectionId": 939,
-  "ERPName": "Schaefer Group",
-  "DisplayName": "Wilderman-Beatty",
-  "DisplayDescription": "Synergized impactful function",
-  "Rank": 562,
-  "ConnectorName": "Cummerata, Mayert and Bechtelar",
-  "ErpConnectionId": 955,
-  "ExtraData": "et",
-  "IsAvailable": false,
-  "InitializeResponse": null,
-  "PriceLists": [
-    {
-      "PriceListId": 654,
-      "ERPPriceListKey": "laborum",
-      "QuoteConnectionId": 575,
-      "Name": "Jewess, Brekke and Aufderhar",
-      "Description": "Compatible local help-desk",
-      "Currency": "est",
-      "CurrencyName": "Rath Group",
-      "ValidFrom": "2024-01-29T02:30:47.7256947+01:00",
-      "ValidTo": "2008-06-02T02:30:47.7256947+02:00",
-      "IsActive": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
-        }
-      }
-    }
-  ],
-  "AllAccess": false,
-  "Deleted": false,
-  "UserGroupAccessIds": [
-    883,
-    210
-  ],
-  "AssociateAccessIds": [
-    274,
-    781
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_GetConnection.md)]

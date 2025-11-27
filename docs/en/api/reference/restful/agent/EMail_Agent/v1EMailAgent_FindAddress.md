@@ -83,46 +83,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/FindAddress
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Address": "labore"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_FindAddress.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 807,
-    "ContactName": "Pouros Inc and Sons",
-    "PersonId": 834,
-    "PersonName": "Friesen Group",
-    "AssociateId": 654,
-    "Address": "ea",
-    "EmailId": 526,
-    "DuplicatePersonIds": [
-      675,
-      704
-    ],
-    "Name": "O'Reilly, Bailey and Jerde",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_FindAddress.md)]

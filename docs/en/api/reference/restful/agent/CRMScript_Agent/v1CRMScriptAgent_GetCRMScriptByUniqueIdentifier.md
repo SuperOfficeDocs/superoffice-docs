@@ -85,43 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "incidunt"
-}
-```
+[!include[sample request](../../samples/agent/request/v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "UniqueIdentifier": "sit",
-  "Name": "Gulgowski-Gibson",
-  "Description": "Streamlined responsive interface",
-  "IncludeId": "aspernatur",
-  "Source": "fugiat",
-  "Registered": "2002-07-08T02:30:47.0382145+02:00",
-  "RegisteredBy": "necessitatibus",
-  "Updated": "2002-01-13T02:30:47.0382145+01:00",
-  "UpdatedBy": "ea",
-  "Path": "dolorum",
-  "BlockedVerbs": "BlockAll",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier.md)]

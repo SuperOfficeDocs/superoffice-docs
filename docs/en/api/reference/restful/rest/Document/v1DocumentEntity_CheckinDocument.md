@@ -33,8 +33,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Inverse uniform installation
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=rem,eius
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Profit-focused regional forecast
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=consequatur,aut
 ```
 
 
@@ -73,25 +73,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/Document/{documentId}/Lock
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1DocumentEntity_CheckinDocument.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ExternalReference": "assumenda",
-  "VersionId": "explicabo",
-  "Success": true,
-  "Type": "CustomGui",
-  "Value": "vel",
-  "AdditionalInfo": "velit"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentEntity_CheckinDocument.md)]

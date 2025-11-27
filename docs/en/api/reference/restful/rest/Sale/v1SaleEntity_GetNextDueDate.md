@@ -53,18 +53,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Sale/{saleId}/NextDueDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1SaleEntity_GetNextDueDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"2005-01-05T02:30:52.8974033+01:00"
-```
+[!include[sample response](../../samples/rest/response/v1SaleEntity_GetNextDueDate.md)]

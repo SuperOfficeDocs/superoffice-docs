@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=750
+POST /api/v1/Agents/Associate/GetAssociate?associateId=33
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -79,47 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Associate/GetAssociate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1AssociateAgent_GetAssociate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AssociateId": 865,
-  "Name": "Bergnaum-Reichert",
-  "PersonId": 139,
-  "Rank": 755,
-  "Tooltip": "sit",
-  "Type": "AnonymousAssociate",
-  "GroupIdx": 525,
-  "FullName": "Furman Abshire",
-  "FormalName": "Bayer, Gaylord and DuBuque",
-  "Deleted": true,
-  "EjUserId": 357,
-  "UserName": "Rosenbaum LLC",
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "impedit"
-  },
-  "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "consequuntur"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1AssociateAgent_GetAssociate.md)]

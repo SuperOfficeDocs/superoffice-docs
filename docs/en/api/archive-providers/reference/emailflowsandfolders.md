@@ -18,8 +18,8 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"emailflow"|[emailflow]|
-|"emailflowfolder"|[emailflowfolder]|
+|"emailflow"|emailflow|
+|"emailflowfolder"|emailflowfolder|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -90,7 +90,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowAssociate/ejDisplayName,updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

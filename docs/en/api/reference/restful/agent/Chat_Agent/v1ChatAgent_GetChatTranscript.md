@@ -68,24 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetChatTranscript
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 912,
-  "Html": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetChatTranscript.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"quae"
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetChatTranscript.md)]

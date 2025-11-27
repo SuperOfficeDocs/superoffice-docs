@@ -59,18 +59,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/GetCustomerUrl
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_GetCustomerUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_GetCustomerUrl.md)]

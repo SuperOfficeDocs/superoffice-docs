@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DeliveryTerm/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 537,
-    "Name": "Collier, VonRueden and Koepp",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 34,
-    "UdListDefinitionId": 259
-  },
-  {
-    "HeadingId": 537,
-    "Name": "Collier, VonRueden and Koepp",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 34,
-    "UdListDefinitionId": 259
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1DeliveryTermsList_PutDeliveryTermHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 12,
-    "Name": "Hoeger Group",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 441,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 882
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1DeliveryTermsList_PutDeliveryTermHeadings.md)]

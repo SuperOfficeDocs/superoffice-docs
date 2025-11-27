@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Position/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 739,
-    "Name": "Reilly LLC",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 239,
-    "Rank": 951
-  },
-  {
-    "Id": 739,
-    "Name": "Reilly LLC",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 239,
-    "Rank": 951
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1PositionList_PutAllPosition.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 146,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 567,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 824
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1PositionList_PutAllPosition.md)]

@@ -71,53 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/TicketCategory/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1TicketCategoryList_GetAllTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "TicketCategoryId": 607,
-    "ParentId": 654,
-    "Name": "Heaney-Hand",
-    "Fullname": "possimus",
-    "CategoryMaster": 491,
-    "Flags": "AcceptWhenReplying",
-    "DelegateMethod": "Even",
-    "ExternalName": "Lehner, Armstrong and Denesik",
-    "ClosingStatus": "Active",
-    "MsgClosingStatus": "Active",
-    "AssignmentLag": 571,
-    "ReplyTemplate": 277,
-    "NotificationEmail": "kelli@legros.info",
-    "DefaultTicketStatus": null,
-    "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 255,
-    "ExtraFields": {
-      "ExtraFields1": "corrupti",
-      "ExtraFields2": "beatae"
-    },
-    "CustomFields": {
-      "CustomFields1": "mollitia",
-      "CustomFields2": "et"
-    },
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 528
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1TicketCategoryList_GetAllTicketCategoryEntity.md)]

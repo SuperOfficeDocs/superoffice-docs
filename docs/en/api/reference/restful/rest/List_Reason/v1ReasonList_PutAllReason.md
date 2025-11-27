@@ -70,55 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/Reason/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 801,
-    "Name": "Runolfsson-Grady",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 426,
-    "Rank": 325
-  },
-  {
-    "Id": 801,
-    "Name": "Runolfsson-Grady",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 426,
-    "Rank": 325
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1ReasonList_PutAllReason.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 772,
-    "Name": "Stamm Inc and Sons",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "UdListDefinitionId": 570,
-    "Rank": 298,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 309
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonList_PutAllReason.md)]

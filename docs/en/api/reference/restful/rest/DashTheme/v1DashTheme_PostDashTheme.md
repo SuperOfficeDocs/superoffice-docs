@@ -84,47 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/DashTheme
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 73,
-  "Name": "Keebler, Langosh and Turner",
-  "Config": "ea",
-  "Rank": 115,
-  "Client": "rem",
-  "Style": "dolorem"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DashTheme_PostDashTheme.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardThemeId": 645,
-  "Name": "Littel-Bergnaum",
-  "Config": "rerum",
-  "Rank": 810,
-  "Client": "dolores",
-  "Style": "corrupti",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 427
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DashTheme_PostDashTheme.md)]

@@ -55,47 +55,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Selection/DuplicateRules
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SelectionEntity_GetDuplicateRules.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Will Inc and Sons",
-    "DisplayName": "Shanahan-Hauck",
-    "DisplayTooltip": "quo",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
-      }
-    }
-  },
-  {
-    "Name": "Will Inc and Sons",
-    "DisplayName": "Shanahan-Hauck",
-    "DisplayTooltip": "quo",
-    "IsActive": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SelectionEntity_GetDuplicateRules.md)]

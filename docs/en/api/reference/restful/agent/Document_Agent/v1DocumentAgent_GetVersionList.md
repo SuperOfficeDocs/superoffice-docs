@@ -78,38 +78,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Document/GetVersionList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentId": 988
-}
-```
+[!include[sample request](../../samples/agent/request/v1DocumentAgent_GetVersionList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ExternalReference": "voluptate",
-    "DocumentId": 965,
-    "VersionId": "dolor",
-    "CheckedInDate": "2002-10-30T02:30:47.2100867+01:00",
-    "CheckedInByName": "Beahan Group",
-    "CheckedInByAssociateId": 487,
-    "Description": "Automated fresh-thinking database",
-    "DisplayText": "nesciunt",
-    "ExtraFields": [
-      "repellendus",
-      "provident"
-    ]
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1DocumentAgent_GetVersionList.md)]

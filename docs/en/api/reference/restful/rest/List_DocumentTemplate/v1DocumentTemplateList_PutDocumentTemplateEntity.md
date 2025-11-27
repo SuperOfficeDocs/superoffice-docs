@@ -115,81 +115,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/DocumentTemplate/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 40,
-  "Name": "Osinski LLC",
-  "Tooltip": "aut",
-  "SaveInDb": 195,
-  "Filename": "beatae",
-  "DefaultOref": "est",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 210,
-  "IntentId": 853,
-  "IsDefaultPublished": false,
-  "Rank": 897,
-  "LoadTemplateFromPlugin": 98,
-  "MimeType": "saepe",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 410,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "noelia@trantow.ca",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kayli.romaguera@aufderhar.us",
-  "InvitationDocType": "Cancelled"
-}
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_PutDocumentTemplateEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 522,
-  "Name": "King-Bruen",
-  "Tooltip": "facere",
-  "SaveInDb": 91,
-  "Filename": "corporis",
-  "DefaultOref": "et",
-  "RecordType": "Appointment",
-  "Deleted": true,
-  "Direction": "Incoming",
-  "AutoeventId": 772,
-  "IntentId": 546,
-  "IsDefaultPublished": false,
-  "Rank": 38,
-  "LoadTemplateFromPlugin": 692,
-  "MimeType": "dolorem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 175,
-  "QuoteDocType": "ConfirmationLines",
-  "PrivacyDocType": "None",
-  "EmailSubject": "jairo@reichert.us",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
-  "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "addie.morar@bradtke.us",
-  "InvitationDocType": "Cancelled",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_PutDocumentTemplateEntity.md)]

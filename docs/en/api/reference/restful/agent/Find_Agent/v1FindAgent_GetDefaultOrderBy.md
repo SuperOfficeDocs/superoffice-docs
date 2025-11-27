@@ -74,34 +74,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Find/GetDefaultOrderBy
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "StorageType": "perspiciatis",
-  "ProviderName": "Treutel-Will",
-  "StorageKey": "cum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1FindAgent_GetDefaultOrderBy.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Name": "Jacobi, Abbott and Luettgen",
-    "Direction": "ASC"
-  },
-  {
-    "Name": "Jacobi, Abbott and Luettgen",
-    "Direction": "ASC"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1FindAgent_GetDefaultOrderBy.md)]

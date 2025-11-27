@@ -82,59 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Configuration/SaveWindowPosSizes
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "WindowPosSizes": [
-    {
-      "OwnerWindow": "temporibus",
-      "PersonId": 338,
-      "AssociateId": 887,
-      "ExtraId": 740,
-      "ExtraInfo": "eaque",
-      "Height": 390,
-      "LeftX": 525,
-      "State": "Maximized",
-      "UpperY": 167,
-      "Width": 367,
-      "WindowPosSizeId": 791
-    }
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1ConfigurationAgent_SaveWindowPosSizes.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "OwnerWindow": "aliquam",
-    "PersonId": 408,
-    "AssociateId": 724,
-    "ExtraId": 248,
-    "ExtraInfo": "aut",
-    "Height": 364,
-    "LeftX": 601,
-    "State": "Maximized",
-    "UpperY": 676,
-    "Width": 216,
-    "WindowPosSizeId": 722,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ConfigurationAgent_SaveWindowPosSizes.md)]

@@ -68,23 +68,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Sale/GetNextDueDate
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 661
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaleAgent_GetNextDueDate.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"2004-02-03T02:30:47.7881925+01:00"
-```
+[!include[sample response](../../samples/agent/response/v1SaleAgent_GetNextDueDate.md)]

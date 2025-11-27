@@ -72,37 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/ValidateAttachments
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentIds": [
-    137,
-    244
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_ValidateAttachments.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "AttachmentId": 178,
-    "IsValid": true,
-    "ErrorMessage": "magni"
-  },
-  {
-    "AttachmentId": 178,
-    "IsValid": true,
-    "ErrorMessage": "magni"
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_ValidateAttachments.md)]

@@ -69,26 +69,8 @@ No Content
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/ErpSync/MoveErpFieldItem
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ErpFieldId": 479,
-  "Direction": 41,
-  "ErpConnectionId": 968,
-  "ErpActorType": "Customer"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ErpSyncAgent_MoveErpFieldItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/agent/response/v1ErpSyncAgent_MoveErpFieldItem.md)]

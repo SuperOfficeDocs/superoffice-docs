@@ -655,14 +655,15 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
@@ -754,12 +755,16 @@ because someone may explicitly request an instance an a recurring booking, so th
 |appointment/textId|int|Text ID| x |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |invitationRestrictionIds|int|Invitation ID: ID of follow-ups to be shown as invitations, regardless of actual status|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=updatedDate,contact/restrictionAddress/zip,contact/NumberOfNotCompletedTickets,person/personHasInterests,person/personExtra/y_rental/x_contact
+GET /api/v1/archive/Invitation?$select=icon,saleId,person/personExtra/x_person_appointment_relation,project/hasGuide,sale/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

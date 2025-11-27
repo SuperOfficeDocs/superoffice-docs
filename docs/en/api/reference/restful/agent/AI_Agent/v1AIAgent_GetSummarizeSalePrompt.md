@@ -82,39 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/AI/GetSummarizeSalePrompt
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "SaleId": 522,
-  "NumSentences": 601,
-  "Summary": "saepe",
-  "IsoLangCode": "rerum"
-}
-```
+[!include[sample request](../../samples/agent/request/v1AIAgent_GetSummarizeSalePrompt.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Timestamp": "2002-03-28T02:30:46.4913585+01:00",
-  "UserPrompt": "reprehenderit",
-  "UserDisplayText": "tempore",
-  "BotResponse": "qui",
-  "BotActions": {
-    "BotActions1": "libero",
-    "BotActions2": "itaque"
-  },
-  "Attachments": [
-    "saepe",
-    "incidunt"
-  ]
-}
-```
+[!include[sample response](../../samples/agent/response/v1AIAgent_GetSummarizeSalePrompt.md)]

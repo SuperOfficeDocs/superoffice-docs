@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/LegalBase/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBaseId": 363,
-  "Name": "Ernser-Franecki",
-  "Tooltip": "nihil",
-  "Rank": 77,
-  "Key": "reiciendis",
-  "Deleted": false
-}
-```
+[!include[sample request](../../samples/rest/request/v1LegalBaseList_PostLegalBase.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "LegalBaseId": 874,
-  "Name": "Denesik-Mertz",
-  "Tooltip": "dolore",
-  "Rank": 744,
-  "Key": "dolor",
-  "Deleted": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1LegalBaseList_PostLegalBase.md)]

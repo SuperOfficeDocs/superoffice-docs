@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/SaveConsentPerson
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPersonId": 875,
-  "ConsentSource": null,
-  "LegalBase": null,
-  "PersonId": 696,
-  "ConsentPurpose": null,
-  "Comment": "vel"
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_SaveConsentPerson.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConsentPersonId": 954,
-  "ConsentSource": null,
-  "LegalBase": null,
-  "PersonId": 334,
-  "ConsentPurpose": null,
-  "Comment": "id",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_SaveConsentPerson.md)]

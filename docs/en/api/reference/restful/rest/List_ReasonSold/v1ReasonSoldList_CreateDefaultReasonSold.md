@@ -57,33 +57,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/Items/Default
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_CreateDefaultReasonSold.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 932,
-  "Name": "Pollich-Jast",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "UdListDefinitionId": 310,
-  "Rank": 422,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_CreateDefaultReasonSold.md)]

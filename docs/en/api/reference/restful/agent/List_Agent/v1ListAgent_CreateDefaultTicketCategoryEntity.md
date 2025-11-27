@@ -71,51 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_CreateDefaultTicketCategoryEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "TicketCategoryId": 578,
-  "ParentId": 79,
-  "Name": "Langworth, McKenzie and Glover",
-  "Fullname": "quis",
-  "CategoryMaster": 804,
-  "Flags": "AcceptWhenReplying",
-  "DelegateMethod": "Even",
-  "ExternalName": "Bins Group",
-  "ClosingStatus": "Active",
-  "MsgClosingStatus": "Active",
-  "AssignmentLag": 34,
-  "ReplyTemplate": 115,
-  "NotificationEmail": "annamarie@veum.com",
-  "DefaultTicketStatus": null,
-  "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 738,
-  "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "cupiditate"
-  },
-  "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "necessitatibus"
-  },
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_CreateDefaultTicketCategoryEntity.md)]

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# script\_trace Table (474)
+# script\_trace Table (477)
 
 Scripts which should be traced
 

@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetMyMemberProjects
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetMyMemberProjects.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 979,
-    "Name": "Runolfsson, Lueilwitz and Rath",
-    "Description": "Sharable encompassing infrastructure",
-    "URL": "http://www.example.com/",
-    "Type": "nostrum",
-    "AssociateId": 162,
-    "AssociateFullName": "Estel Schaden",
-    "TypeId": 987,
-    "Updated": "2008-07-07T02:30:47.6944454+02:00",
-    "StatusId": 608,
-    "Status": "est",
-    "TextId": 967,
-    "PublishTo": "2006-04-03T02:30:47.6944454+02:00",
-    "PublishFrom": "2006-11-23T02:30:47.6944454+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1461569",
-    "ActiveErpLinks": 265,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetMyMemberProjects.md)]

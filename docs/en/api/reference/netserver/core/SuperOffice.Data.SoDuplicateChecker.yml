@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValueAsync(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Nullable{System.Int32},System.Threading.CancellationToken)
+  - SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -62,6 +63,46 @@ items:
   nameWithType.vb: SoDuplicateChecker.CheckIfFieldHasValueAsync(FieldInfo, Object, Integer?, CancellationToken)
   fullName.vb: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValueAsync(SuperOffice.Data.SQL.FieldInfo, Object, Integer?, System.Threading.CancellationToken)
   name.vb: CheckIfFieldHasValueAsync(FieldInfo, Object, Integer?, CancellationToken)
+- uid: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)
+  id: CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.SoDuplicateChecker
+  langs:
+  - csharp
+  - vb
+  name: CheckIfMultilingualFieldHasDuplications(FieldInfo, string, int?, CancellationToken)
+  nameWithType: SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(FieldInfo, string, int?, CancellationToken)
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo, string, int?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data
+  summary: Checks a field which is supposed to be multilingual like (US:"Request";GE:"Anfrage")
+  example: []
+  syntax:
+    content: public static Task<(bool isDuplication, string language, string value)> CheckIfMultilingualFieldHasDuplications(this FieldInfo field, string value, int? excludedPrimaryKey = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: The multilingual field to check
+    - id: value
+      type: System.String
+      description: Value to check
+    - id: excludedPrimaryKey
+      type: System.Nullable{System.Int32}
+      description: Id of the row to skip (useful when updating the row)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: The cancellation token
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.String}}
+      description: A tuple which indicates whether the value for the field is a duplication and specifies the language and value if duplication is found
+    content.vb: Public Shared Function CheckIfMultilingualFieldHasDuplications(field As FieldInfo, value As String, excludedPrimaryKey As Integer? = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of (isDuplication As Boolean, language As String, value As String))
+  overload: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications*
+  nameWithType.vb: SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(FieldInfo, String, Integer?, CancellationToken)
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications(SuperOffice.Data.SQL.FieldInfo, String, Integer?, System.Threading.CancellationToken)
+  name.vb: CheckIfMultilingualFieldHasDuplications(FieldInfo, String, Integer?, CancellationToken)
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -565,3 +606,120 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications*
+  commentId: Overload:SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications
+  isExternal: true
+  href: SuperOffice.Data.SoDuplicateChecker.html#SuperOffice_Data_SoDuplicateChecker_CheckIfMultilingualFieldHasDuplications_SuperOffice_Data_SQL_FieldInfo_System_String_System_Nullable_System_Int32__System_Threading_CancellationToken_
+  name: CheckIfMultilingualFieldHasDuplications
+  nameWithType: SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfMultilingualFieldHasDuplications
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool isDuplication, string language, string value)>
+  nameWithType: Task<(bool isDuplication, string language, string value)>
+  fullName: System.Threading.Tasks.Task<(bool isDuplication, string language, string value)>
+  nameWithType.vb: Task(Of (isDuplication As Boolean, language As String, value As String))
+  fullName.vb: System.Threading.Tasks.Task(Of (isDuplication As Boolean, language As String, value As String))
+  name.vb: Task(Of (isDuplication As Boolean, language As String, value As String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.isDuplication
+    name: isDuplication
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.isduplication
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.language
+    name: language
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.language
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.value
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.isDuplication
+    name: isDuplication
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.isduplication
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.language
+    name: language
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.language
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string,system.string-.value
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )

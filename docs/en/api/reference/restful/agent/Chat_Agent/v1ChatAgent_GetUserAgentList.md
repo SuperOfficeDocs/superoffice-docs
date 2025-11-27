@@ -85,73 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/GetUserAgentList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Flat": true,
-  "OnlyPresent": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_GetUserAgentList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 926,
-    "Name": "Jacobs-Harris",
-    "ToolTip": "Similique nam excepturi id ut rem doloribus suscipit.",
-    "Deleted": false,
-    "Rank": 176,
-    "Type": "cum",
-    "ChildItems": [
-      {
-        "Id": 132,
-        "Name": "Kling, Ernser and Sawayn",
-        "ToolTip": "At perspiciatis optio aut.",
-        "Deleted": true,
-        "Rank": 227,
-        "Type": "molestiae",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "aut",
-        "ColorBlock": 860,
-        "ExtraInfo": "tempore",
-        "StyleHint": "doloremque",
-        "FullName": "Mrs. Constance Glover",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 237
-          }
-        }
-      }
-    ],
-    "IconHint": "quia",
-    "ColorBlock": 180,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sequi",
-    "FullName": "Ms. London Amanda Rohan",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 232
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_GetUserAgentList.md)]

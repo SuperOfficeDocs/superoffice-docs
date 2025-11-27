@@ -53,21 +53,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1DocumentTemplateList_GetPluginCapabilities.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "1": "autem",
-  "2": "sed"
-}
-```
+[!include[sample response](../../samples/rest/response/v1DocumentTemplateList_GetPluginCapabilities.md)]

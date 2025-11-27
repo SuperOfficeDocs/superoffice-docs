@@ -16,8 +16,16 @@ items:
     href: aiagent/answerfeedbackasync.md
   - name: ClearChatbotTurnsAsync
     href: aiagent/clearchatbotturnsasync.md
+  - name: CreateDefaultCopilotDataSourceEntityAsync
+    href: aiagent/createdefaultcopilotdatasourceentityasync.md
+  - name: CreateDefaultCopilotEntityAsync
+    href: aiagent/createdefaultcopilotentityasync.md
   - name: CreateTextForAppointmentAsync
     href: aiagent/createtextforappointmentasync.md
+  - name: DeleteCopilotDataSourceEntityAsync
+    href: aiagent/deletecopilotdatasourceentityasync.md
+  - name: DeleteCopilotEntityAsync
+    href: aiagent/deletecopilotentityasync.md
   - name: DetectLanguageAsync
     href: aiagent/detectlanguageasync.md
   - name: DetectSentimentAsync
@@ -30,6 +38,14 @@ items:
     href: aiagent/getchatbotresponseasync.md
   - name: GetChatbotTurnsAsync
     href: aiagent/getchatbotturnsasync.md
+  - name: GetCopilotDataSourceEntityAsync
+    href: aiagent/getcopilotdatasourceentityasync.md
+  - name: GetCopilotEntityAsync
+    href: aiagent/getcopilotentityasync.md
+  - name: GetFormDesignFromImageAsync
+    href: aiagent/getformdesignfromimageasync.md
+  - name: GetFormDesignFromUrlAsync
+    href: aiagent/getformdesignfromurlasync.md
   - name: GetSummarizeContactPromptAsync
     href: aiagent/getsummarizecontactpromptasync.md
   - name: GetSummarizeSalePromptAsync
@@ -42,6 +58,10 @@ items:
     href: aiagent/guesscategoryasync.md
   - name: RephraseTextAsync
     href: aiagent/rephrasetextasync.md
+  - name: SaveCopilotDataSourceEntityAsync
+    href: aiagent/savecopilotdatasourceentityasync.md
+  - name: SaveCopilotEntityAsync
+    href: aiagent/savecopilotentityasync.md
   - name: SearchAsync
     href: aiagent/searchasync.md
   - name: StartRagIndexingAsync
@@ -1821,6 +1841,8 @@ items:
     href: listagent/deletewebpanelasync.md
   - name: GenerateNavigationUrlAsync
     href: listagent/generatenavigationurlasync.md
+  - name: GetAllAutomatedCategoryUpdatesAsync
+    href: listagent/getallautomatedcategoryupdatesasync.md
   - name: GetAllConsentSourceAsync
     href: listagent/getallconsentsourceasync.md
   - name: GetAllCountriesAsync
@@ -2033,6 +2055,10 @@ items:
     href: listagent/getmrmrsesasync.md
   - name: GetMrMrsListAsync
     href: listagent/getmrmrslistasync.md
+  - name: GetNeedCategoryUpdateForPersonAsync
+    href: listagent/getneedcategoryupdateforpersonasync.md
+  - name: GetNeedCategoryUpdateForSaleAsync
+    href: listagent/getneedcategoryupdateforsaleasync.md
   - name: GetOurCurrencyAsync
     href: listagent/getourcurrencyasync.md
   - name: GetOwnerCompanysCurrencyAsync
@@ -2203,6 +2229,8 @@ items:
     href: listagent/movelistitemasync.md
   - name: RebuildFullnamesAsync
     href: listagent/rebuildfullnamesasync.md
+  - name: SaveAllAutomatedCategoryUpdatesAsync
+    href: listagent/saveallautomatedcategoryupdatesasync.md
   - name: SaveAllFromListDefinitionAsync
     href: listagent/saveallfromlistdefinitionasync.md
   - name: SaveAllFromListNameAsync

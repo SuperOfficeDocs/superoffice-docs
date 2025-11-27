@@ -77,40 +77,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "LanguageId": 404
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetLocalizedTextsByLanguageId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "LanguageId": 826,
-    "ResourceId": 785,
-    "Text": "id",
-    "Type": "Column",
-    "LocalizedTextId": 758,
-    "IsBuiltIn": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetLocalizedTextsByLanguageId.md)]

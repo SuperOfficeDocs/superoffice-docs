@@ -70,43 +70,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ReasonStalled/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 293,
-  "Name": "Hane LLC",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "UdListDefinitionId": 661,
-  "Rank": 997
-}
-```
+[!include[sample request](../../samples/rest/request/v1ReasonStalledList_PostReasonStalled.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 436,
-  "Name": "Purdy Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 768,
-  "Rank": 452,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ReasonStalledList_PostReasonStalled.md)]

@@ -86,81 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Dash/SaveDash
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 616,
-  "UniqueId": "impedit",
-  "Name": "Schuppe, Fisher and Rodriguez",
-  "Description": "Profound 3rd generation definition",
-  "AssociateId": 982,
-  "Columns": 624,
-  "Theme": null,
-  "VisibleForAll": 566,
-  "VisibleForAssociates": [
-    155,
-    81
-  ],
-  "VisibleForGroups": [
-    653,
-    45
-  ],
-  "PinForAll": 942,
-  "PinForAssociates": [
-    302,
-    882
-  ],
-  "PinForGroups": [
-    295,
-    861
-  ]
-}
-```
+[!include[sample request](../../samples/agent/request/v1DashAgent_SaveDash.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "DashboardId": 540,
-  "UniqueId": "accusantium",
-  "Name": "Waters, Walter and Effertz",
-  "Description": "Assimilated national success",
-  "AssociateId": 13,
-  "Columns": 585,
-  "Theme": null,
-  "VisibleForAll": 318,
-  "VisibleForAssociates": [
-    145,
-    752
-  ],
-  "VisibleForGroups": [
-    330,
-    142
-  ],
-  "PinForAll": 844,
-  "PinForAssociates": [
-    126,
-    588
-  ],
-  "PinForGroups": [
-    378,
-    672
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1DashAgent_SaveDash.md)]

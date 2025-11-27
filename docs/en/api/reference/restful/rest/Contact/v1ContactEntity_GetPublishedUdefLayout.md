@@ -85,63 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Contact/UdefLayout/Published
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ContactEntity_GetPublishedUdefLayout.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "UDefFieldId": 394,
-    "ColumnId": 794,
-    "FieldDefault": "aut",
-    "FieldHeight": 531,
-    "FieldLabel": "sint",
-    "FieldLeft": 764,
-    "FieldTop": 279,
-    "FieldType": "Checkbox",
-    "FieldWidth": 937,
-    "FormatMask": "quod",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 371,
-    "LabelLeft": 612,
-    "LabelTop": 565,
-    "LabelWidth": 535,
-    "LastVersionId": 894,
-    "ListTableId": 878,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 542,
-    "ProgId": "sit",
-    "IsReadOnly": false,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 26,
-    "TextLength": 926,
-    "Tooltip": "officiis",
-    "UdefIdentity": 433,
-    "UDListDefinitionId": 537,
-    "Justification": "Center",
-    "Version": 182,
-    "TemplateVariableName": "Murray-Kovacek",
-    "HasBeenPublished": false,
-    "MdoListName": "Daugherty Group",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ContactEntity_GetPublishedUdefLayout.md)]

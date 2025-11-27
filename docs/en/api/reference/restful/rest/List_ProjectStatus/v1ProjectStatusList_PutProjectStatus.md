@@ -75,43 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/ProjectStatus/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 226,
-  "Name": "Strosin, Windler and Hoppe",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "UdListDefinitionId": 416,
-  "Rank": 982
-}
-```
+[!include[sample request](../../samples/rest/request/v1ProjectStatusList_PutProjectStatus.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 902,
-  "Name": "O'Kon-Conroy",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 811,
-  "Rank": 552,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ProjectStatusList_PutProjectStatus.md)]

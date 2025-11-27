@@ -86,47 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Quote/CopySuperOfficePriceList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-Content-Type: application/json; charset=utf-8
-
-{
-  "OriginalPriceListId": 165,
-  "NewName": "Kuhn, Will and Hermiston",
-  "ValidFrom": "2019-11-14T02:30:47.7100701+01:00",
-  "ValidTo": "2021-01-22T02:30:47.7100701+01:00",
-  "NewCurrencyId": 650,
-  "ConvertCurrency": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1QuoteAgent_CopySuperOfficePriceList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "PriceListId": 296,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 171,
-  "Name": "Marvin-Upton",
-  "Description": "Down-sized logistical capability",
-  "Currency": "possimus",
-  "CurrencyName": "Adams-Rogahn",
-  "ValidFrom": "2009-01-28T02:30:47.7100701+01:00",
-  "ValidTo": "2022-12-29T02:30:47.7100701+01:00",
-  "IsActive": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1QuoteAgent_CopySuperOfficePriceList.md)]

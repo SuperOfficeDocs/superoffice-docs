@@ -66,73 +66,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/License/User/MdoList
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1License_GetUserLicensesMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 74,
-    "Name": "Metz Inc and Sons",
-    "ToolTip": "Sunt provident velit unde inventore.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "ullam",
-    "ColorBlock": 675,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "2005-08-10T02:30:53.0380235+02:00",
-    "ChildItems": [
-      {
-        "Id": 653,
-        "Name": "Collier Group",
-        "ToolTip": "Dolore quae aperiam.",
-        "Deleted": true,
-        "Rank": 116,
-        "Type": "earum",
-        "ColorBlock": 424,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2016-06-30T02:30:53.0380235+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Stacy Langworth",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 866
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "iste",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Prof. Joanny Bogisich",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 770
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1License_GetUserLicensesMDOList.md)]

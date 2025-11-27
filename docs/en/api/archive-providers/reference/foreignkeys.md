@@ -18,7 +18,7 @@ Lists all foreign apps, and outer joins any devices + keys associated with the a
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"foreignKey"|[foreignKey]|
+|"foreignKey"|foreignKey|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

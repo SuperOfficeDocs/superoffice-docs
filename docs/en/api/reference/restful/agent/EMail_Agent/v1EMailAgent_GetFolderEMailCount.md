@@ -71,24 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetFolderEMailCount
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ConnectionInfo": null,
-  "OnlyUnread": true
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetFolderEMailCount.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-382
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetFolderEMailCount.md)]

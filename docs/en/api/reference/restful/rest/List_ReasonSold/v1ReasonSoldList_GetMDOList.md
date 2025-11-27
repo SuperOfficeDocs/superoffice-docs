@@ -28,7 +28,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=consequuntur
+GET /api/v1/List/ReasonSold/MDOItems?query=eius
 ```
 
 
@@ -75,67 +75,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/ReasonSold/MDOItems
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ReasonSoldList_GetMDOList.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 898,
-    "Name": "Runolfsdottir Inc and Sons",
-    "ToolTip": "Eius rerum repellat.",
-    "Deleted": true,
-    "Rank": 511,
-    "Type": "aut",
-    "ChildItems": [
-      {
-        "Id": 301,
-        "Name": "Herman, Jacobs and Williamson",
-        "ToolTip": "Adipisci quam eum unde ut temporibus similique aspernatur.",
-        "Deleted": false,
-        "Rank": 197,
-        "Type": "et",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sequi",
-        "ColorBlock": 323,
-        "ExtraInfo": "sequi",
-        "StyleHint": "sequi",
-        "FullName": "Dana Greenholt",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 516
-          }
-        }
-      }
-    ],
-    "IconHint": "atque",
-    "ColorBlock": 773,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "numquam",
-    "FullName": "Adolfo Satterfield",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 312
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ReasonSoldList_GetMDOList.md)]

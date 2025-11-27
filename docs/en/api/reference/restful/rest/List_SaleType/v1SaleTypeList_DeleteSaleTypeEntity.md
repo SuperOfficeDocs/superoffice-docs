@@ -49,18 +49,8 @@ No Content
 
 ## Sample request
 
-```http!
-DELETE /api/v1/List/SaleType/Items/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_DeleteSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 204 No Content
-Content-Type: application/json; charset=utf-8
-
-null
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_DeleteSaleTypeEntity.md)]

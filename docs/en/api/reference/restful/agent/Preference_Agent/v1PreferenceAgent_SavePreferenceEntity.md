@@ -84,44 +84,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Preference/SavePreferenceEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "Preference": null,
-  "RemoveLowerLevels": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1PreferenceAgent_SavePreferenceEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Level": "Database",
-  "RawValue": "necessitatibus",
-  "Specification": null,
-  "DisplayValue": "saepe",
-  "DisplayTooltip": "saepe",
-  "DisplayType": "Bool",
-  "TabOrder": null,
-  "TargetId": 147,
-  "PrefDescId": 126,
-  "TableName": "Larson, Ortiz and Rosenbaum",
-  "UserPreferenceId": 972,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PreferenceAgent_SavePreferenceEntity.md)]

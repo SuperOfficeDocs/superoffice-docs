@@ -69,25 +69,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/GetDocumentTemplateUrl
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocumentTemplateId": 913,
-  "WritableUrl": false,
-  "LanguageCode": "molestias"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_GetDocumentTemplateUrl.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-"http://www.example.com/"
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_GetDocumentTemplateUrl.md)]

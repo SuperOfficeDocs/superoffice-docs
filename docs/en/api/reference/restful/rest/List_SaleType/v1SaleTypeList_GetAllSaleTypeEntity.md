@@ -28,7 +28,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -85,80 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/SaleType/Items
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1SaleTypeList_GetAllSaleTypeEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "SaleTypeId": 650,
-    "Name": "Hagenes-Weber",
-    "Tooltip": "molestias",
-    "Rank": 383,
-    "DurationUnit": "Century",
-    "SaleDuration": 390,
-    "SaleTypeCatId": 782,
-    "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 73,
-    "QuoteLinesTemplate": 194,
-    "ConfirmationLinesTemplate": 225,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 914,
-    "MinEarningPercent": 350,
-    "GroupQuoteLinesBy": 788,
-    "SortGroupLinesBy": 450,
-    "Stages": [
-      {
-        "Id": 552,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Voluptas corrupti quia tenetur nobis eligendi qui.",
-        "Deleted": true,
-        "Rank": 764,
-        "Type": "quia",
-        "ColorBlock": 864,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2021-04-07T02:30:53.4286352+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Miss Lisandro Leonel Stokes Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 325
-          }
-        }
-      }
-    ],
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 277
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1SaleTypeList_GetAllSaleTypeEntity.md)]

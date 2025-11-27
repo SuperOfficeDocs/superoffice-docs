@@ -72,55 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-PUT /api/v1/List/WebPanel/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 76,
-    "Name": "Kunde Group",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 284,
-    "UdListDefinitionId": 404
-  },
-  {
-    "HeadingId": 76,
-    "Name": "Kunde Group",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 284,
-    "UdListDefinitionId": 404
-  }
-]
-```
+[!include[sample request](../../samples/rest/request/v1WebPanelEntityList_PutWebPanelEntityHeadings.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "HeadingId": 491,
-    "Name": "Gislason Inc and Sons",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "Rank": 949,
-    "UdListDefinitionId": 23,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 711
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1WebPanelEntityList_PutWebPanelEntityHeadings.md)]

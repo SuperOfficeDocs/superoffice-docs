@@ -101,62 +101,8 @@ ChatTopicEntity found.
 
 ## Sample request
 
-```http!
-GET /api/v1/ChatTopic/{id}
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ChatTopicEntity_GetChatTopicEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 ChatTopicEntity found.
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatTopicId": 337,
-  "Name": "Heaney LLC",
-  "Description": "Cloned analyzing initiative",
-  "WelcomeMessage": "qui",
-  "Language": null,
-  "LastAccept": "2003-07-07T02:30:52.4286686+02:00",
-  "SecondsPrAccept": 562,
-  "AlertRecipient": "quia",
-  "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "natus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 962,
-  "WarnManagerNewChatMinutes": 809,
-  "TicketEnabled": false,
-  "TicketCategory": null,
-  "TicketPriority": null,
-  "OpeningHoursEnabled": false,
-  "OpeningHours": null,
-  "Widget": null,
-  "BotEnabled": false,
-  "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 605,
-  "WarnManagerChatMessageMinutes": 602,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 505,
-  "OfflineFormQueueLength": 83,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
-    }
-  },
-  "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ChatTopicEntity_GetChatTopicEntity.md)]

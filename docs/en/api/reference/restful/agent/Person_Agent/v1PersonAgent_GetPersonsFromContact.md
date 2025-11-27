@@ -112,75 +112,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Person/GetPersonsFromContact
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ContactId": 37
-}
-```
+[!include[sample request](../../samples/agent/request/v1PersonAgent_GetPersonsFromContact.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Position": "dolorum",
-    "PersonId": 668,
-    "Mrmrs": "esse",
-    "Firstname": "Riley",
-    "Lastname": "Bogan",
-    "MiddleName": "Kessler LLC",
-    "Title": "expedita",
-    "Description": "Distributed bottom-line contingency",
-    "Email": "dawn.macejkovic@spinka.co.uk",
-    "FullName": "Minerva Gutkowski",
-    "DirectPhone": "(695)203-6798",
-    "FormalName": "Herzog-Feeney",
-    "CountryId": 987,
-    "ContactId": 53,
-    "ContactName": "Bahringer-Daniel",
-    "Retired": 511,
-    "Rank": 794,
-    "ActiveInterests": 725,
-    "ContactDepartment": "",
-    "ContactCountryId": 571,
-    "ContactOrgNr": "748263",
-    "FaxPhone": "(407)879-8876 x3891",
-    "MobilePhone": "733.082.1355 x382",
-    "ContactPhone": "(818)301-6796 x26588",
-    "AssociateName": "Parisian-Blanda",
-    "AssociateId": 592,
-    "UsePersonAddress": true,
-    "ContactFax": "voluptas",
-    "Kanafname": "impedit",
-    "Kanalname": "in",
-    "Post1": "consequatur",
-    "Post2": "fuga",
-    "Post3": "harum",
-    "EmailName": "vena@connelly.uk",
-    "ContactFullName": "Isaac Padberg",
-    "ActiveErpLinks": 948,
-    "TicketPriorityId": 514,
-    "SupportLanguageId": 666,
-    "SupportAssociateId": 551,
-    "CategoryName": "VIP Customer",
-    "PersonNumber": "1138096",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 354
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1PersonAgent_GetPersonsFromContact.md)]

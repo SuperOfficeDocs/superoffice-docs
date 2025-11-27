@@ -88,53 +88,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Contact/GetMyActiveContacts
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "ActivityStartTime": "2021-07-03T02:30:46.9444678+02:00",
-  "ContactCategories": [
-    667,
-    295
-  ],
-  "ActionType": "ActivityCompleted"
-}
-```
+[!include[sample request](../../samples/agent/request/v1ContactAgent_GetMyActiveContacts.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ContactId": 465,
-    "Department": "",
-    "OrgNr": "1671635",
-    "Name": "Beatty Group",
-    "URL": "http://www.example.com/",
-    "AssociateFullName": "Dr. Marquis Huels",
-    "Action": "ActivityCompleted",
-    "ActionTime": "2011-11-15T02:30:46.9444678+01:00",
-    "Category": "VIP Customer",
-    "ActivityPersonName": "Dach Group",
-    "ActionId": 128,
-    "PersonId": 315,
-    "ActivityPersonId": 506,
-    "AssociateId": 873,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 205
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ContactAgent_GetMyActiveContacts.md)]

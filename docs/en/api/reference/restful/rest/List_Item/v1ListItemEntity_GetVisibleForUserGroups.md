@@ -71,73 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetVisibleForUserGroups.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 863,
-    "Name": "Durgan-Conn",
-    "ToolTip": "Eius impedit.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "sit",
-    "ColorBlock": 530,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2016-12-24T02:30:53.1786436+01:00",
-    "ChildItems": [
-      {
-        "Id": 20,
-        "Name": "Brown LLC",
-        "ToolTip": "Dicta ipsa.",
-        "Deleted": true,
-        "Rank": 496,
-        "Type": "dolor",
-        "ColorBlock": 54,
-        "IconHint": "nemo",
-        "Selected": true,
-        "LastChanged": "2003-04-17T02:30:53.1786436+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "modi",
-        "StyleHint": "quod",
-        "Hidden": false,
-        "FullName": "Courtney Hudson",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 416
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Selina D'Amore",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 767
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetVisibleForUserGroups.md)]

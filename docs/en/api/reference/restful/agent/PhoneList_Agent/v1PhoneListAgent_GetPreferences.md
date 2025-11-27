@@ -71,35 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/PhoneList/GetPreferences
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/agent/request/v1PhoneListAgent_GetPreferences.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "SearchCompany": false,
-  "SearchFirstname": false,
-  "SearchLastname": false,
-  "SearchDepartment": false,
-  "SearchModeCompany": "BeginsWith",
-  "SearchModeDepartment": "BeginsWith",
-  "SearchModeFirstname": "BeginsWith",
-  "SearchModeLastname": "BeginsWith",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1PhoneListAgent_GetPreferences.md)]

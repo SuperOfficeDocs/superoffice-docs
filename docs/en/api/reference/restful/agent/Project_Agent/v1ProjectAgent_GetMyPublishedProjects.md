@@ -81,47 +81,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Project/GetMyPublishedProjects
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1ProjectAgent_GetMyPublishedProjects.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "ProjectId": 362,
-    "Name": "Crona, Schoen and Roberts",
-    "Description": "Streamlined 24 hour local area network",
-    "URL": "http://www.example.com/",
-    "Type": "numquam",
-    "AssociateId": 723,
-    "AssociateFullName": "Wilson Quigley",
-    "TypeId": 584,
-    "Updated": "2011-08-24T02:30:47.6944454+02:00",
-    "StatusId": 699,
-    "Status": "amet",
-    "TextId": 18,
-    "PublishTo": "2001-06-19T02:30:47.6944454+02:00",
-    "PublishFrom": "2001-03-24T02:30:47.6944454+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "801548",
-    "ActiveErpLinks": 853,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 275
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/agent/response/v1ProjectAgent_GetMyPublishedProjects.md)]

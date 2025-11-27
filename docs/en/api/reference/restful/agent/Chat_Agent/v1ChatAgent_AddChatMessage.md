@@ -79,34 +79,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Chat/AddChatMessage
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatSessionId": 511,
-  "Message": null
-}
-```
+[!include[sample request](../../samples/agent/request/v1ChatAgent_AddChatMessage.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "ChatMessageId": 965,
-  "ChatSessionId": 32,
-  "Type": "Invalid",
-  "Message": "consequatur",
-  "Author": "inventore",
-  "ReadByCustomer": 491,
-  "SpecialType": "Block",
-  "SpecialParam": "quod",
-  "WhenPosted": "2025-01-20T02:30:46.8975935+01:00"
-}
-```
+[!include[sample response](../../samples/agent/response/v1ChatAgent_AddChatMessage.md)]

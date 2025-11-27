@@ -71,73 +71,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
-```
+[!include[sample request](../../samples/rest/request/v1ListItemEntity_GetVisibleForUserGroupsFromListName.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 501,
-    "Name": "Wolf Inc and Sons",
-    "ToolTip": "Est sunt nostrum ipsa placeat.",
-    "Deleted": false,
-    "Rank": 444,
-    "Type": "quam",
-    "ColorBlock": 31,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2018-06-21T02:30:53.194268+02:00",
-    "ChildItems": [
-      {
-        "Id": 282,
-        "Name": "Harber, Rosenbaum and Tromp",
-        "ToolTip": "Rerum laudantium nesciunt atque rerum officia perspiciatis nihil.",
-        "Deleted": true,
-        "Rank": 790,
-        "Type": "soluta",
-        "ColorBlock": 475,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2003-02-11T02:30:53.194268+01:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Miss Rachel Rogahn I",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 938
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Gaetano Balistreri",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1ListItemEntity_GetVisibleForUserGroupsFromListName.md)]

@@ -1,0 +1,1241 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  id: AutomatedCategoryUpdateRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateId
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.DefaultCategory
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.LeadstatusId
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Registered
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.TriggerType
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Updated
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UserConfirmation
+  langs:
+  - csharp
+  - vb
+  name: AutomatedCategoryUpdateRecordData
+  nameWithType: AutomatedCategoryUpdateRecordData
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the AutomatedCategoryUpdate table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
+  syntax:
+    content: public class AutomatedCategoryUpdateRecordData
+    content.vb: Public Class AutomatedCategoryUpdateRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateId
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateId
+  id: AutomatedCategoryUpdateId
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: AutomatedCategoryUpdateId
+  nameWithType: AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateId
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Primary key
+  example: []
+  syntax:
+    content: public int AutomatedCategoryUpdateId
+    return:
+      type: System.Int32
+    content.vb: Public AutomatedCategoryUpdateId As Integer
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.TriggerType
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.TriggerType
+  id: TriggerType
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: TriggerType
+  nameWithType: AutomatedCategoryUpdateRecordData.TriggerType
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.TriggerType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The type of change to trigger the auto update
+  example: []
+  syntax:
+    content: public CategoryUpdateTrigger TriggerType
+    return:
+      type: SuperOffice.Data.CategoryUpdateTrigger
+    content.vb: Public TriggerType As CategoryUpdateTrigger
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UserConfirmation
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UserConfirmation
+  id: UserConfirmation
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserConfirmation
+  nameWithType: AutomatedCategoryUpdateRecordData.UserConfirmation
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UserConfirmation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Whether to ask the user for confirmation before applying the autoupdate
+  example: []
+  syntax:
+    content: public short UserConfirmation
+    return:
+      type: System.Int16
+    content.vb: Public UserConfirmation As Short
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.DefaultCategory
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.DefaultCategory
+  id: DefaultCategory
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: DefaultCategory
+  nameWithType: AutomatedCategoryUpdateRecordData.DefaultCategory
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.DefaultCategory
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The default category id to update to, and the actual new value if no user confirmation is needed
+  example: []
+  syntax:
+    content: public int DefaultCategory
+    return:
+      type: System.Int32
+    content.vb: Public DefaultCategory As Integer
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: AutomatedCategoryUpdateRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Registered when in UTC.
+  example: []
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: AutomatedCategoryUpdateRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Registered by whom
+  example: []
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: AutomatedCategoryUpdateRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Last updated when in UTC.
+  example: []
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: AutomatedCategoryUpdateRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Last updated by whom
+  example: []
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: AutomatedCategoryUpdateRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Number of updates made to this record
+  example: []
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.LeadstatusId
+  commentId: F:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: AutomatedCategoryUpdateRecordData.LeadstatusId
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.LeadstatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The leadstatus id to match on person, to trigger autoupdate of category
+  example: []
+  syntax:
+    content: public int LeadstatusId
+    return:
+      type: System.Int32
+    content.vb: Public LeadstatusId As Integer
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  langs:
+  - csharp
+  - vb
+  name: AutomatedCategoryUpdateRecordData()
+  nameWithType: AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateRecordData()
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateRecordData()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public AutomatedCategoryUpdateRecordData()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor*
+  nameWithType.vb: AutomatedCategoryUpdateRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  name: AutomatedCategoryUpdateRow
+  nameWithType: AutomatedCategoryUpdateRow
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+- uid: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo.html
+  name: AutomatedCategoryUpdateTableInfo
+  nameWithType: AutomatedCategoryUpdateTableInfo
+  fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AutomatedCategoryUpdateRecordData, To>(AutomatedCategoryUpdateRecordData)
+  nameWithType: EnumUtil.MapEnums<AutomatedCategoryUpdateRecordData, To>(AutomatedCategoryUpdateRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, To>(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of AutomatedCategoryUpdateRecordData, To)(AutomatedCategoryUpdateRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, To)(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  name.vb: MapEnums(Of AutomatedCategoryUpdateRecordData, To)(AutomatedCategoryUpdateRecordData)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(AutomatedCategoryUpdateRecordData, CancellationToken)
+  nameWithType: AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(AutomatedCategoryUpdateRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AutomatedCategoryUpdateRecordData, To>(AutomatedCategoryUpdateRecordData)
+  nameWithType: Converters.MapEnums<AutomatedCategoryUpdateRecordData, To>(AutomatedCategoryUpdateRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, To>(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  nameWithType.vb: Converters.MapEnums(Of AutomatedCategoryUpdateRecordData, To)(AutomatedCategoryUpdateRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, To)(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  name.vb: MapEnums(Of AutomatedCategoryUpdateRecordData, To)(AutomatedCategoryUpdateRecordData)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<AutomatedCategoryUpdateRecordData>(AutomatedCategoryUpdateRecordData, AutomatedCategoryUpdateRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<AutomatedCategoryUpdateRecordData>(AutomatedCategoryUpdateRecordData, AutomatedCategoryUpdateRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData>(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AutomatedCategoryUpdateRecordData)(AutomatedCategoryUpdateRecordData, AutomatedCategoryUpdateRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  name.vb: AssignByReflection(Of AutomatedCategoryUpdateRecordData)(AutomatedCategoryUpdateRecordData, AutomatedCategoryUpdateRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<AutomatedCategoryUpdateRecordData>(AutomatedCategoryUpdateRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<AutomatedCategoryUpdateRecordData>(AutomatedCategoryUpdateRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData>(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AutomatedCategoryUpdateRecordData)(AutomatedCategoryUpdateRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+  name.vb: GraphCopy(Of AutomatedCategoryUpdateRecordData)(AutomatedCategoryUpdateRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(AutomatedCategoryUpdateRecordData, CancellationToken)
+  nameWithType: AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(AutomatedCategoryUpdateRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+    name: AutomatedCategoryUpdateRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html
+  name: AutomatedCategoryUpdateRecordDataExtensions
+  nameWithType: AutomatedCategoryUpdateRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.CategoryUpdateTrigger
+  commentId: T:SuperOffice.Data.CategoryUpdateTrigger
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryUpdateTrigger.html
+  name: CategoryUpdateTrigger
+  nameWithType: CategoryUpdateTrigger
+  fullName: SuperOffice.Data.CategoryUpdateTrigger
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html#SuperOffice_CRM_Rows_AutomatedCategoryUpdateRecordData__ctor
+  name: AutomatedCategoryUpdateRecordData
+  nameWithType: AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateRecordData
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.AutomatedCategoryUpdateRecordData
+  nameWithType.vb: AutomatedCategoryUpdateRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.New
+  name.vb: New

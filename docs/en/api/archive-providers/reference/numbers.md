@@ -17,7 +17,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"number"|[number]|
+|"number"|number|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

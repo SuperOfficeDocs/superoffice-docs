@@ -85,42 +85,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "DocId": 917,
-  "AttachmentId": "aliquid"
-}
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_GetPreviewAttachmentFromDocId.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Description": "Re-contextualized radical access",
-  "Filename": "sunt",
-  "Size": 712,
-  "Type": "distinctio",
-  "Encoding": "vero",
-  "Id": "expedita",
-  "Disposition": "aut",
-  "IsSafeFileExtension": true,
-  "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_GetPreviewAttachmentFromDocId.md)]

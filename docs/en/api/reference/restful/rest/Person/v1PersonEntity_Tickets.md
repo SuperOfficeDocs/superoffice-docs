@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Tickets?$select=name,department,category/id
 GET /api/v1/Person/{id}/Tickets?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Tickets?$orderBy=name asc
-GET /api/v1/Person/{id}/Tickets?$entities=pariatur
-GET /api/v1/Person/{id}/Tickets?$top=661
-GET /api/v1/Person/{id}/Tickets?$skip=167
+GET /api/v1/Person/{id}/Tickets?$entities=illum
+GET /api/v1/Person/{id}/Tickets?$top=857
+GET /api/v1/Person/{id}/Tickets?$skip=523
 GET /api/v1/Person/{id}/Tickets?$mode=Full
 GET /api/v1/Person/{id}/Tickets?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Tickets?$context=hic
+GET /api/v1/Person/{id}/Tickets?$context=voluptate
 GET /api/v1/Person/{id}/Tickets?$format=JSON
-GET /api/v1/Person/{id}/Tickets?$jsonSafe=False
+GET /api/v1/Person/{id}/Tickets?$jsonSafe=True
 GET /api/v1/Person/{id}/Tickets?$output=Display
 ```
 
@@ -120,37 +120,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/Person/{id}/Tickets
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/rest/request/v1PersonEntity_Tickets.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ducimus",
-  "value": [
-    {
-      "PrimaryKey": 4942,
-      "EntityName": "sale",
-      "saleId": 4942,
-      "contactId": 2567,
-      "name": "Conroy LLC"
-    },
-    {
-      "PrimaryKey": 5211,
-      "EntityName": "sale",
-      "saleId": 5211,
-      "contactId": 5753,
-      "name": "Willms, Ratke and Cummings"
-    }
-  ]
-}
-```
+[!include[sample response](../../samples/rest/response/v1PersonEntity_Tickets.md)]

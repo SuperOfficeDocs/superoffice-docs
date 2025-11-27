@@ -82,73 +82,8 @@ OK
 
 ## Sample request
 
-```http!
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-```
+[!include[sample request](../../samples/rest/request/v1QuoteApproveReasonList_GetQuoteApproveReasonHeadingsForListItem.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-[
-  {
-    "Id": 795,
-    "Name": "Gorczany Group",
-    "ToolTip": "Quam qui aut non veniam dolorem.",
-    "Deleted": false,
-    "Rank": 145,
-    "Type": "dolorem",
-    "ColorBlock": 716,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2010-07-22T02:30:53.3973865+02:00",
-    "ChildItems": [
-      {
-        "Id": 427,
-        "Name": "Armstrong Group",
-        "ToolTip": "Impedit rerum.",
-        "Deleted": false,
-        "Rank": 981,
-        "Type": "veritatis",
-        "ColorBlock": 218,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2011-07-09T02:30:53.3973865+02:00",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "ExtraInfo": "qui",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Jefferey Greenfelder",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 492
-          }
-        }
-      }
-    ],
-    "ExtraInfo": "minima",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Dr. Beatrice Schimmel III",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
-      }
-    }
-  }
-]
-```
+[!include[sample response](../../samples/rest/response/v1QuoteApproveReasonList_GetQuoteApproveReasonHeadingsForListItem.md)]

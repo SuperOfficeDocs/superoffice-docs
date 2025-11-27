@@ -64,38 +64,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-```
+[!include[sample request](../../samples/agent/request/v1EMailAgent_CreateDefaultEMailAppointment.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Appointment": null,
-  "CalMethod": "Add",
-  "Participants": [
-    "fugiat",
-    "eius"
-  ],
-  "Comment": "laboriosam",
-  "Sequence": 866,
-  "DtStart": "2006-11-18T02:30:47.2882099+01:00",
-  "DtEnd": "1998-10-03T02:30:47.2882099+02:00",
-  "Superseded": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1EMailAgent_CreateDefaultEMailAppointment.md)]

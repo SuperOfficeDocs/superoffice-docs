@@ -72,43 +72,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/List/ConsentPurpose/Headings
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: *
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 944,
-  "Name": "Rodriguez-Goldner",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 134,
-  "UdListDefinitionId": 790
-}
-```
+[!include[sample request](../../samples/rest/request/v1ConsentPurposeList_PostConsentPurposeHeading.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "HeadingId": 839,
-  "Name": "Okuneva, Kshlerin and Walsh",
-  "Tooltip": "quaerat",
-  "Deleted": false,
-  "Rank": 826,
-  "UdListDefinitionId": 211,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
-    }
-  }
-}
-```
+[!include[sample response](../../samples/rest/response/v1ConsentPurposeList_PostConsentPurposeHeading.md)]

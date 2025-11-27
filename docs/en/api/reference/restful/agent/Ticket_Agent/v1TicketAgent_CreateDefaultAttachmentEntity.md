@@ -61,35 +61,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-```
+[!include[sample request](../../samples/agent/request/v1TicketAgent_CreateDefaultAttachmentEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "AttachmentId": 850,
-  "Name": "Rath-Jacobi",
-  "ContentType": "eveniet",
-  "AttSize": 824,
-  "InlineImage": false,
-  "ContentId": "omnis",
-  "AuthKey": "laboriosam",
-  "IsSafeFileExtension": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1TicketAgent_CreateDefaultAttachmentEntity.md)]

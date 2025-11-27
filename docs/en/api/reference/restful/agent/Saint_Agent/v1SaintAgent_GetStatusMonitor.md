@@ -86,47 +86,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/Saint/GetStatusMonitor
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 486
-}
-```
+[!include[sample request](../../samples/agent/request/v1SaintAgent_GetStatusMonitor.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "OwnerTable": 284,
-  "Rank": 458,
-  "DefaultTask": 584,
-  "DefaultTaskText": "sunt",
-  "IsVisual": false,
-  "LastGenerated": "2019-04-12T02:30:47.7569437+02:00",
-  "Description": "Quality-focused intangible system engine",
-  "Name": "Wiza-Boehm",
-  "StatusMonitorId": 718,
-  "PictureId": 46,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 367,
-  "NumNeedUpdate": 637,
-  "GenerationStart": "2018-12-07T02:30:47.7569437+01:00",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1SaintAgent_GetStatusMonitor.md)]

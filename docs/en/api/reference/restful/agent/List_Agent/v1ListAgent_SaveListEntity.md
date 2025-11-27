@@ -80,51 +80,8 @@ OK
 
 ## Sample request
 
-```http!
-POST /api/v1/Agents/List/SaveListEntity
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 321,
-  "Name": "O'Hara Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 322,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officia",
-  "InUseByUserDefinedFields": false
-}
-```
+[!include[sample request](../../samples/agent/request/v1ListAgent_SaveListEntity.md)]
 
 ## Sample response
 
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "Id": 594,
-  "Name": "Hartmann, Blanda and Kuhn",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 541,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": false,
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
-    }
-  }
-}
-```
+[!include[sample response](../../samples/agent/response/v1ListAgent_SaveListEntity.md)]
