@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Medhurst-Bednar",
-    "ToolTip": "Reiciendis ad adipisci consequatur qui voluptatibus.",
+    "Id": 1,
+    "Name": "Customer",
+    "ToolTip": "Active customer relationship",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "accusamus",
+    "Rank": 1,
+    "Type": "Category",
     "ChildItems": [
       {
         "Id": 13,
-        "Name": "Nitzsche-Kerluke",
-        "ToolTip": "Consequatur dignissimos labore odio.",
+        "Name": "VIP Customer",
+        "ToolTip": "High-value customer accounts",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "recusandae",
+        "Rank": 1,
+        "Type": "SubCategory",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
+        "IconHint": "vip",
         "ColorBlock": 945,
-        "ExtraInfo": "sint",
-        "StyleHint": "dolorum",
-        "FullName": "Mr. Berta Furman Boyle",
+        "ExtraInfo": "category_id=13",
+        "StyleHint": "bold",
+        "FullName": "Customer/VIP Customer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -37,11 +37,11 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "IconHint": "sed",
+    "IconHint": "customer",
     "ColorBlock": 41,
-    "ExtraInfo": "dolores",
-    "StyleHint": "quod",
-    "FullName": "Coleman Ryan",
+    "ExtraInfo": "category_id=1",
+    "StyleHint": "default",
+    "FullName": "Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
