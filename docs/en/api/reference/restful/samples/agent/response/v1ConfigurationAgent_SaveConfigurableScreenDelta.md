@@ -3,22 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 36,
-  "Name": "Ferry, Gibson and Abernathy",
-  "Description": "Pre-emptive national pricing structure",
-  "DeltaJson": "minus",
+  "ConfigurableScreenDeltaId": 456,
+  "Name": "Contact Custom Fields",
+  "Description": "Additional fields for contact management",
+  "DeltaJson": "{\"fields\":[{\"name\":\"Industry\",\"type\":\"list\",\"required\":true},{\"name\":\"AnnualRevenue\",\"type\":\"decimal\",\"required\":false}]}",
   "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "itaque",
-  "UpdatedDate": "2015-01-16T10:10:59.2479151+01:00",
-  "CreatedDate": "2003-09-20T10:10:59.2479151+02:00",
+  "DeltaState": "Published",
+  "RecipeId": "contact-extra-fields-v2",
+  "UpdatedDate": "2024-11-20T09:15:00+01:00",
+  "CreatedDate": "2024-10-15T14:30:00+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    541,
-    221
+    1,
+    2,
+    3
   ],
-  "AppliesToKey": "esse",
+  "AppliesToKey": "contact-card",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

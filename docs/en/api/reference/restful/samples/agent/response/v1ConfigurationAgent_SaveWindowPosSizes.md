@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "aut",
-    "PersonId": 422,
-    "AssociateId": 744,
-    "ExtraId": 347,
-    "ExtraInfo": "molestiae",
-    "Height": 213,
-    "LeftX": 831,
-    "State": "Maximized",
-    "UpperY": 81,
-    "Width": 128,
-    "WindowPosSizeId": 840,
+    "OwnerWindow": "ContactDialog",
+    "PersonId": 143,
+    "AssociateId": 143,
+    "ExtraId": 0,
+    "ExtraInfo": "",
+    "Height": 768,
+    "LeftX": 100,
+    "State": "Normal",
+    "UpperY": 50,
+    "Width": 1024,
+    "WindowPosSizeId": 1205,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

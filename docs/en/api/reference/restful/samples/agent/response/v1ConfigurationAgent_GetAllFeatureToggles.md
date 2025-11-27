@@ -3,7 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": false,
-  "2": true
+  "EnableAIAssistant": true,
+  "EnableAdvancedSearch": true,
+  "EnableBulkOperations": false,
+  "EnableChatWidget": true,
+  "EnableEmailTracking": true,
+  "EnableMobileSync": true,
+  "EnableRealtimeNotifications": true,
+  "EnableVoiceIntegration": false
 }
 ```

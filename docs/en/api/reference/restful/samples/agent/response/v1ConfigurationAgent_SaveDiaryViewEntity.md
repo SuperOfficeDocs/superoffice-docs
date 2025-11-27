@@ -3,32 +3,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 221,
-  "Name": "Wilderman, Hyatt and Hudson",
-  "Tooltip": "omnis",
-  "VisibleColumns": 98,
-  "Rank": 959,
-  "AssocId": 569,
+  "DiaryViewId": 1,
+  "Name": "Week View",
+  "Tooltip": "Display appointments in weekly calendar view",
+  "VisibleColumns": 7,
+  "Rank": 1,
+  "AssocId": 143,
   "AssociateList": [
     {
-      "Id": 305,
-      "Name": "Kerluke Inc and Sons",
-      "ToolTip": "Nihil voluptatem reprehenderit praesentium sapiente.",
+      "Id": 143,
+      "Name": "Sarah Johnson",
+      "ToolTip": "Customer Support Agent - Available",
       "Deleted": false,
-      "Rank": 165,
-      "Type": "qui",
-      "ColorBlock": 787,
-      "IconHint": "odio",
-      "Selected": false,
-      "LastChanged": "2011-12-05T10:10:59.3019914+01:00",
+      "Rank": 1,
+      "Type": "Associate",
+      "ColorBlock": 2,
+      "IconHint": "user",
+      "Selected": true,
+      "LastChanged": "2024-11-15T14:30:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "qui",
+      "ExtraInfo": "sarah.johnson@acme.com",
+      "StyleHint": "available",
       "Hidden": false,
-      "FullName": "Miss Ines McGlynn DVM",
+      "FullName": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -39,7 +39,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "TzLocationId": 152,
+  "TzLocationId": 1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

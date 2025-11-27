@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "tenetur",
-    "PersonId": 305,
-    "AssociateId": 213,
-    "ExtraId": 161,
-    "ExtraInfo": "labore",
-    "Height": 346,
-    "LeftX": 635,
+    "OwnerWindow": "MainWindow",
+    "PersonId": 143,
+    "AssociateId": 143,
+    "ExtraId": 0,
+    "ExtraInfo": "",
+    "Height": 900,
+    "LeftX": 0,
     "State": "Maximized",
-    "UpperY": 780,
-    "Width": 444,
-    "WindowPosSizeId": 541,
+    "UpperY": 0,
+    "Width": 1920,
+    "WindowPosSizeId": 1200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

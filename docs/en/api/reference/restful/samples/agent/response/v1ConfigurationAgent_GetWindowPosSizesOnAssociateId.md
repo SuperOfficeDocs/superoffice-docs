@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "quis",
-    "PersonId": 896,
-    "AssociateId": 384,
-    "ExtraId": 279,
-    "ExtraInfo": "adipisci",
-    "Height": 20,
-    "LeftX": 992,
+    "OwnerWindow": "MainWindow",
+    "PersonId": 143,
+    "AssociateId": 143,
+    "ExtraId": 0,
+    "ExtraInfo": "",
+    "Height": 900,
+    "LeftX": 0,
     "State": "Maximized",
-    "UpperY": 410,
-    "Width": 341,
-    "WindowPosSizeId": 62,
+    "UpperY": 0,
+    "Width": 1920,
+    "WindowPosSizeId": 1200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "nesciunt",
-    "PersonId": 984,
-    "AssociateId": 794,
-    "ExtraId": 793,
-    "ExtraInfo": "suscipit",
-    "Height": 226,
-    "LeftX": 961,
-    "State": "Maximized",
-    "UpperY": 406,
-    "Width": 569,
-    "WindowPosSizeId": 70,
+    "OwnerWindow": "ContactDialog",
+    "PersonId": 143,
+    "AssociateId": 143,
+    "ExtraId": 0,
+    "ExtraInfo": "",
+    "Height": 768,
+    "LeftX": 100,
+    "State": "Normal",
+    "UpperY": 50,
+    "Width": 1024,
+    "WindowPosSizeId": 1205,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
