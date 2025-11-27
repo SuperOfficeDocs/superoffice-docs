@@ -70,7 +70,7 @@ In SuperOffice you can create web panels that can contain table information. To 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../../automation/webhook/overview.md
+[2]: ../../automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
