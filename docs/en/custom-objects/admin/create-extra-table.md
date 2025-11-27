@@ -62,6 +62,7 @@ You can now open the table in the UI to add content to it **or** populate it via
 | Full name |  If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries. |
 | Hide ID field | If selected, the ID field will not be shown when listing entries in the table. |
 | Hide the table | If selected, the table will not be visible from **System design** > **Tables**. |
+| Enable batch webhook in Service | If selected, batch updates on this table will trigger [webhooks][2] |
 
 ## Show table in a web panel
 
@@ -69,6 +70,7 @@ In SuperOffice you can create web panels that can contain table information. To 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
+[2]: ../../../automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
