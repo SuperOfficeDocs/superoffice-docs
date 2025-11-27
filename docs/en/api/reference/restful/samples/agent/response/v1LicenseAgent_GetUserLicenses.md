@@ -4,24 +4,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koepp Inc and Sons",
-    "Description": "Ergonomic well-modulated support",
+    "Name": "Sales",
+    "Description": "Sales module licenses",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 359,
-        "Tooltip": "vel",
-        "CanAssign": false,
-        "Free": 154,
-        "InUse": 979,
+        "Unrestricted": false,
+        "Total": 50,
+        "Tooltip": "Sales Premium license",
+        "CanAssign": true,
+        "Free": 5,
+        "InUse": 45,
         "IsHidden": false,
-        "Assigned": false,
+        "Assigned": true,
         "ModuleLicenseId": 525,
-        "Name": "Towne LLC",
-        "Description": "Fundamental systemic framework",
-        "PrerequisiteModuleName": "Funk, Torphy and Hoppe",
-        "SortOrder": 465,
-        "ExtraFlags": 59,
+        "Name": "Sales Premium",
+        "Description": "Advanced sales management and forecasting",
+        "PrerequisiteModuleName": "Sales Essentials",
+        "SortOrder": 1,
+        "ExtraFlags": 0,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -68,24 +68,24 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Koepp Inc and Sons",
-    "Description": "Ergonomic well-modulated support",
+    "Name": "Marketing",
+    "Description": "Marketing module licenses",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 359,
-        "Tooltip": "vel",
-        "CanAssign": false,
-        "Free": 154,
-        "InUse": 979,
+        "Unrestricted": false,
+        "Total": 25,
+        "Tooltip": "Marketing automation and campaigns",
+        "CanAssign": true,
+        "Free": 10,
+        "InUse": 15,
         "IsHidden": false,
         "Assigned": false,
         "ModuleLicenseId": 525,
-        "Name": "Towne LLC",
-        "Description": "Fundamental systemic framework",
-        "PrerequisiteModuleName": "Funk, Torphy and Hoppe",
-        "SortOrder": 465,
-        "ExtraFlags": 59,
+        "Name": "Marketing Premium",
+        "Description": "Advanced marketing automation with AI insights",
+        "PrerequisiteModuleName": "Marketing Essentials",
+        "SortOrder": 20,
+        "ExtraFlags": 0,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
