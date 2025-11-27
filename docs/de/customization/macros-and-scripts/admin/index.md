@@ -13,7 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from:
   - /de/automation/crmscript/learn/macro-script
-  - /de/automation/crmscript/learn/screen/
+  - /de/automation/crmscript/learn/screen/index
   - /de/automation/crmscript/learn/index
 language: de
 index: true
@@ -65,14 +65,7 @@ So wechseln Sie zur Registerkarte **Makros und Skripts**:
 
 1. Klicken Sie auf **CRMScript** und wählen Sie die Registerkarte **Makros und Skripts** aus.
 
-Diese Ansicht enthält die folgenden Optionen:
-
-| Option | Beschreibung |
-|---|---|
-| Neues Skript | Wird verwendet, damit Sie ein [neues Skript erstellen][8] können. |
-| Neues Makro | Wird verwendet, damit Sie ein [neues Makro erstellen][9] können. |
-| Neuer Ordner | Wird verwendet, damit Sie einen [neuen Ordner erstellen][10] können. |
-| Suche | Wird verwendet, um nach Makros und Skripten im ausgewählten Ordner und in Unterordnern zu suchen. |
+Die Registerkarte **Makros und Skripts** enthält die folgenden Schaltflächen: **Neues Skript**, **Neues Makro**, **Neuer Ordner** und **Suche**.
 
 #### Skript-Anzeige
 

@@ -13,7 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from:
   - /nl/automation/crmscript/learn/macro-script
-  - /nl/automation/crmscript/learn/screen/
+  - /nl/automation/crmscript/learn/screen/index
   - /nl/automation/crmscript/learn/index
 language: nl
 index: true
@@ -65,14 +65,7 @@ Ga als volgt naar het tabblad **Macro's en scripts**:
 
 1. Klik op **CRMScript** en selecteer het tabblad **Macro's en scripts** .
 
-Dit scherm biedt de volgende opties:
-
-| Optie | Beschrijving |
-|---|---|
-| Nieuw script | Wordt gebruikt om [een nieuw script te maken][8]. |
-| Nieuwe macro | Wordt gebruikt om [een nieuwe macro te maken][9]. |
-| Nieuwe map | Wordt gebruikt om [een nieuwe map te maken][10]. |
-| Zoeken | Wordt gebruikt om te zoeken naar macro's en scripts in de geselecteerde map en submappen. |
+Het tabblad **Macro's en scripts** bevat de volgende knoppen: **Nieuw script**, **Nieuwe macro**, **Nieuwe map** en **Zoeken**.
 
 #### Scriptscherm
 

@@ -13,7 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from:
   - /sv/automation/crmscript/learn/macro-script
-  - /sv/automation/crmscript/learn/screen/
+  - /sv/automation/crmscript/learn/screen/index
   - /sv/automation/crmscript/learn/index
 language: sv
 index: true
@@ -65,14 +65,7 @@ Så här går du till fliken **Makron och skript**:
 
 1. Klicka på **CRMScript** och gå till fliken **Makron och skript**.
 
-På skärmen finns följande alternativ:
-
-| Alternativ | Beskrivning |
-|---|---|
-| Nytt skript | Används för att [skapa ett nytt skript][8]. |
-| Nytt makro | Används för att [skapa ett nytt makro][9]. |
-| Ny mapp | Används för att [skapa en ny mapp][10]. |
-| Sök | Används för att söka efter makron och skript i de valda mapparna och undermapparna. |
+Fliken **Makron och skript** innehåller följande knappar: **Nytt skript**, **Nytt makro**, **Ny mapp** och **Sök**.
 
 #### Fönstret Skript
 

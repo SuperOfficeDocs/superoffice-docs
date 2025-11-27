@@ -13,7 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from:
   - /en/automation/crmscript/learn/macro-script
-  - /en/automation/crmscript/learn/screen/
+  - /en/automation/crmscript/learn/screen/index
   - /en/automation/crmscript/learn/index
 language: en
 index: true
@@ -65,14 +65,7 @@ A script is a small program written to perform specific tasks, and requires prog
 
 In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it.
 
-This screen has following options:
-
-| Option | Description |
-|---|---|
-| New script | Used to [create a new script][8]. |
-| New macro | Used to [create a new macro][9]. |
-| New folder | Used to [create a new folder][10]. |
-| Search | Used to search for macros and scripts in the selected folder and sub-folders. |
+The **Macros and scripts** tab includes the following buttons: **New script**, **New macro**, **New folder**, and **Search**.
 
 ### Script screen
 
