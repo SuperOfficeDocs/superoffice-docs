@@ -52,5 +52,5 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [16]: ../../ui/blogic/learn/profiles/index.md
 
 [21]: ../../customer-center/learn/index.md
-[22]: ../../email/service/learn/index.md
+[22]: ../../email/admin/mailbox/index.md
 [23]: ../../chat/admin/index.md

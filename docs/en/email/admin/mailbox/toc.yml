@@ -1,0 +1,11 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Create mailbox
+  href: create-mailbox.md
+- name: Create SMS mailbox
+  href: create-sms-mailbox.md
+- name: Create email filter
+  href: create-email-filter.md
+- name: Delete mailbox
+  href: delete-mailbox.md

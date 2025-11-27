@@ -1,0 +1,11 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Postfach erstellen
+  href: create-mailbox.md
+- name: SMS-Postfach erstellen
+  href: create-sms-mailbox.md
+- name: E-Mail-Filter erstellen
+  href: create-email-filter.md
+- name: Postfach löschen
+  href: delete-mailbox.md

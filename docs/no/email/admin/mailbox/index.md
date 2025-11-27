@@ -1,0 +1,164 @@
+---
+uid: help-no-email-service
+title: Service-e-poster
+description: Service-e-poster
+author: digitaldiina
+keywords: e-postkasse
+date: 11.27.2025
+version: 11.6
+content_type: concept
+category: email
+topic: Service mailbox
+functional_right:
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+language: no
+redirect_from:
+  - /no/email/service/learn/index
+  - /no/email/service/learn/screen/tab-inbox-for-email
+  - /no/email/service/learn/screen/tab-outbox-for-email
+  - /no/email/service/learn/screen/tab-blocked-email
+  - /no/email/service/learn/screen/sms-inbox
+  - /no/email/service/learn/screen/sms-outbox
+  - /no/email/service/learn/email-filters/index
+---
+
+# Service-e-poster
+
+[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
+
+I **E-post**-skjermbildet kontrollerer du mekanismene som håndterer innkommende og utgående e-post . E-poster importeres av SuperOffice Service som regelmessig samler inn e-post fra en eller flere e-postkasser. Disse e-postmeldingene kan skannes av e-postfiltre som behandler e-postmeldinger basert på innhold og genererer saker. Utgående e-post (svar) fra systemet plasseres i utboksen og sendes regelmessig til en e-postserver som videresender meldingene. Importerte e-postmeldinger som er blokkert (av et filter), vises i fanen**Blokkert e-post** og må gjennomgås manuelt.
+
+## E-postkasser
+
+I fanen **E-postkasser** finner du en oversikt over de installerte e-postkassene. Denne listen inneholder følgende kolonner:
+
+* **Adresse**: E-postkassens avsenderadresse.
+* **Kategori**: Saker fra e-postkassen tilordnes til denne kategorien.
+* **Prioritet**: Prioriteten som nye saker tilordnes når de registreres fra denne e-postkassen.
+* **Videresendingsadresse**: Hvis du ikke bruker e-postfunksjonene i SuperOffice, videresendes e-poster til denne adressen.
+* **Protokoll**: Protokollen som e-postkassen bruker.
+
+### <a id="email-in"></a>Innboks for e-post
+
+I fanen **Innboks for e-post** finner du en liste over e-postene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra knappen <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
+
+* **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
+
+* **Slett**: Brukes til å slette de valgte e-postene.
+
+    > [!NOTE]
+    > Du kan ikke angre denne operasjonen.
+
+Hvis du klikker en av meldingene i denne fanen, vises skjermbildet **Innkommende e-post** . Her finner du informasjon om den aktuelle meldingen. I feltet **Siste feilmelding** kan du se hva som forårsaket problemet, for eksempel om det er et problem med e-postadressen eller e-postserveren. Hvis du får en feilmelding fra SuperOffice Service, kan du klikke på **Importer med feilsøking** for å vise teknisk informasjon for å hjelpe brukerstøtten med feilsøking.
+
+### <a id="email-out"></a>Utboks for e-post
+
+I fanen **Utboks for e-post** er en liste over e-postene i køen som skal sendes ut.
+
+Velg **Vis sendte e-postmeldinger** i nedre høyre hjørne for å vise også de siste e-postmeldingene.
+
+Følgende alternativer er også tilgjengelige fra knappen <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
+
+* **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
+
+* **Send**: Brukes til å sende de valgte e-postene på nytt bare hvis det var en feil med den automatiske utsendelsen.
+
+* **Slett**: Brukes til å slette de valgte e-postene.
+
+    > [!NOTE]
+    > Du kan ikke angre denne operasjonen.
+
+Hvis du klikker på en av meldingene i denne fanen, vises skjermbildet **Utgående e-post**. Her finner du informasjon om den aktuelle meldingen, f.eks. størrelse og hvem som opprettet den. Eventuelle feilmeldinger vises også.
+
+### <a id="email-blocked"></a>Blokkert e-post
+
+I fanen **Blokkert e-post** finner du en liste over innkommende e-poster blokkert av et e-postfilter. Klikk på en e-post for å vise innholdet. Hvis det ikke er nok plass til alle e-postene på én side, kan du klikke <i class="ph ph-arrow-right" aria-label="Arrow right"></i> for å navigere til neste side. Denne listen inneholder følgende kolonner:
+
+* **Når**: Angir når e-posten ble blokkert.
+* **E-postkasse**: Angir hvilken e-postkasse som importerte e-posten.
+* **E-postfilter**: Angir hvilket e-postfilter som blokkerte e-posten.
+* **E-postoverskrift**: Viser overskriften for meldingen.
+
+Følgende alternativer er også tilgjengelige fra <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
+
+* **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
+* **Importer**: Brukes til å importere de valgte e-postene. E-postfilteret som blokkerte e-posten, blir deretter ignorert, men andre e-postfiltre kan være aktivert.
+* **Slett**: Brukes til å slette de valgte blokkerte e-postene.
+
+### <a id="sms-in"></a>Innboks for SMS
+
+> [!NOTE]
+> Hvis denne fanen ikke er synlig, betyr dette at du ikke har SMS-modulen installert eller at SMS ikke er aktivert for lisensen du bruker. Ta kontakt med systemansvarlig hvis du ønsker mer informasjon.
+
+**I SMS-innboks**-fanen er en liste over SMS-meldingene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra menyknappen:
+
+* **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
+
+* **Slett**: Brukes til å slette de valgte meldingene.
+
+    > [!NOTE]
+    > Du kan ikke angre denne operasjonen.
+
+Klikk på en av meldingene i denne fanen for å vise informasjon om den valgte meldingen.
+
+### <a id="sms-out"></a>Utboks for SMS
+
+Fanen **Utboks for SMS** inneholder alle utgående SMS-er som ennå ikke er blitt sendt, eller som har forårsaket en feil.
+
+> [!NOTE]
+> Hvis denne fanen ikke er synlig, betyr dette at du ikke har SMS-modulen installert eller at SMS ikke er aktivert for lisensen du bruker. Ta kontakt med systemansvarlig hvis du ønsker mer informasjon.
+
+Følgende alternativer er også tilgjengelige fra menyknappen:
+
+* **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
+
+* **Send**: Brukes til å sende de valgte meldingene på nytt bare hvis det var en feil med den automatiske utsendelsen.
+
+* **Slett**: Brukes til å slette de valgte meldingene.
+
+    > [!NOTE]
+    > Du kan ikke angre denne operasjonen.
+
+Hvis du klikker på en av meldingene i denne fanen, vil **Utgående SMS** vises. Her finner du informasjon om den aktuelle meldingen, f.eks. størrelse og hvem som opprettet den. Eventuelle feilmeldinger vises også.
+
+## <a id="filter"></a>E-postfiltre
+
+Et e-postfilter er et verktøy som brukes til å analysere innholdet i innkommende e-post, og genererer en sak basert på dette innholdet.
+
+Du kan også legge til avanserte regler for håndtering av e-post fra bestemte avsendere. E-postfiltre brukes ofte i forbindelse med nettskjemaer som firmaet har publisert og som genererer en e-postmelding i fast format som importeres til SuperOffice Service.
+
+### Eksempel relatert til innkommende e-post fra nettskjemaer
+
+Du kan for eksempel definere faste uttrykk for å trekke ut informasjon som en kunde har sendt inn ved hjelp av skjemaet. Basert på et definert regelsett legges data fra skjemaet inn i kundedatabasen. Saken generert fra e-posten / skjemaet blir deretter plassert i en bestemt kategori og en saksbehandler blir valgt. Deretter lukkes saken, og kunden mottar en tilpasset kvittering basert på en svarmal. Det er med andre ord mange alternativer for automatisk håndtering av innkommende e-post.
+
+* E-post som mottas fra et webskjema, har vanligvis en standard avsenderadresse. Du kan erstatte denne adressen med kundens egen e-postadresse.
+* Du kan sammenligne kundens telefonnummer med informasjonen i kundedatabasen og koble saken til riktig kunde basert på dette.
+* Du kan overskrive adressedata hvis det skjer en adresseendring.
+* Du kan sende kvittering med skreddersydd informasjon hvis en kunde ønsker mer informasjon om et bestemt produkt, samt fordele til riktig underkategori og saksbehandler.
+
+### Kolonner i listen over filtre
+
+Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne listen inneholder følgende kolonner:
+
+| Kolonne | Beskrivelse |
+|---|---|
+| Beskrivelse | En beskrivelse av e-postfilteret. |
+| Prioritet | E-postfilterets prioritet. Bare ett filter per e-post er aktivert. Hvis mer enn ett filter inneholder søkekriterier som samsvarer med en innkommende e-post, aktiveres filteret med høyest prioritet. |
+| E-postadresser | Adressene til e-postkassen filteret gjelder for. |
+| Søkestreng | Søkestrengen som e-postfilteret bruker. |
+
+## Relatert innhold
+
+* [Opprette e-postkasser][1]
+* [Slette e-postkasser][2]
+* [E-postfiltre][3]
+
+<!-- Referenced links -->
+[1]: create-mailbox.md
+[2]: delete-mailbox.md
+[3]: create-email-filter.md
+
+<!-- Referenced images -->

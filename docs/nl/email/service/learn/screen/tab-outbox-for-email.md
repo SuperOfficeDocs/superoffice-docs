@@ -1,4 +1,3 @@
 ---
-uid: help-nl-service-mailboxes-out
-redirect_url: https://docs.superoffice.com/nl/email/service/learn/index.html#email-out
+redirect_url: https://docs.superoffice.com/nl/email/admin/mailbox/index.html#email-out
 ---

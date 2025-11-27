@@ -10,10 +10,6 @@ items:
 - name: Macros and scripts
   href: ../macros-and-scripts/admin/toc.yml
   topicHref: ../macros-and-scripts/admin/index.md
-- name: Email
-  href: ../../email/service/learn/toc.yml
-  topicHref: ../../email/service/learn/index.md
-  
 - name: Customer center
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md

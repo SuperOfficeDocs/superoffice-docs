@@ -1,18 +1,3 @@
 ---
-uid: help-da-service-mailbox-delete
-title: Sletning af e-mail-konti
-description: Sletning af e-mail-konti
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: e-mail
-content_type: howto
-language: da
+redirect_url: https://docs.superoffice.com/da/email/admin/mailbox/delete-mailbox.html
 ---
-
-# Slet e-mailkonto
-
-1. [!include[Go to email](includes/goto-email.md)]
-
-1. Klik på den ønskede e-mail-konto. Skærmbilledet Egenskaber vises.
-
-1. Klik på knappen **Slet** nederst i skærmbilledet. E-mailkontoen fjernes.

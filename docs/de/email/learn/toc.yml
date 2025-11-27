@@ -13,3 +13,6 @@ items:
   items:
   - name: E-Mail-Vorlage hinzufügen
     href: ../admin/add-email-template.md
+  - name: Postfachverwaltung
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

@@ -13,3 +13,6 @@ items:
   items:
   - name: Lägga till e-postmall
     href: ../admin/add-email-template.md
+  - name: Postlådeadministration
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

@@ -52,7 +52,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [16]: ../../ui/blogic/learn/profiles/index.md
 
 [21]: ../../customer-center/learn/index.md
-[22]: ../../email/service/learn/index.md
+[22]: ../../email/admin/mailbox/index.md
 [23]: ../../chat/admin/index.md
 
 <!-- Referenced images -->

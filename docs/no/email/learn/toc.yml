@@ -13,3 +13,6 @@ items:
   items:
   - name: Legge til e-postmal
     href: ../admin/add-email-template.md
+  - name: Postkasseadministrasjon
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

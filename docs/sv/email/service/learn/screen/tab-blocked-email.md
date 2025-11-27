@@ -1,4 +1,3 @@
 ---
-uid: help-sv-email-blocked-service
-redirect_url: https://docs.superoffice.com/sv/email/service/learn/index.html#email-blocked
+redirect_url: https://docs.superoffice.com/sv/email/admin/mailbox/index.html#email-blocked
 ---

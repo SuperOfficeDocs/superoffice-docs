@@ -1,0 +1,121 @@
+---
+uid: help-sv-email-filter-create
+title: E-postfilter
+description: Skapa e-postfilter
+keywords: e-post, e-postfilter, filter
+author: digitaldiina
+date: 11.27.2025
+version: 11.6
+content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+language: sv
+redirect_from:
+  - /sv/email/service/learn/email-filters/delete-email-filter
+  - /sv/email/service/learn/email-filters/create-email-filter
+---
+
+# E-postfilter
+
+## Skapa e-postfilter
+
+1. [!include[Go to email](includes/goto-email.md)]
+
+1. Välj fliken **E-postfilter**.
+
+1. Klicka på **Nytt e-postfilter**. Fönstret **Egenskaper för e-postfilter** visas.
+
+1. På fliken **Filter** kan du ange vilka e-postmeddelanden som ska filtreras genom att ange följande information:
+
+    * **Beskrivning**: Skriv in en kort beskrivning av e-postfiltret.
+    * **Prioritet**: I denna listruta väljer du filtrets prioritet. 100 är högsta prioritet och 1 är lägsta.
+    * **Skript**: Här kan du välja ett [skript eller makro][1] som filtret ska köra.
+
+1. Välj vad filtret ska tillämpas på:
+
+    * **All inkommande e-post**: Om du väljer det här alternativet används e-postfiltret för alla inkommande e-postmeddelanden.
+    * **E-post som innehåller**: Om du väljer det här alternativet aktiveras e-postfiltret av e-postmeddelanden som innehåller det fasta uttryck (regexp) som anges i fälten till höger. Du kan välja mellan e-postmeddelandets sidhuvud och/eller brödtext.
+
+1. På fliken **Sök fasta uttryck** kan du definiera reguljära uttryck som hittar text i e-postmeddelanden och spara dem som variabler. Om du vill infoga ett värde från ett reguljärt uttryck i en variabel som heter minVariabel använder du följande format: minVariabel = &lt;regexp&gt;.
+
+1. På fliken **Ange kopplingar** kan du ange hur ett inkommande e-postmeddelande ska kopplas till ett ärende och/eller en kontakt baserat på innehållet i meddelandet:
+    * **Koppla till kontakt där**: Om du vill koppla det genererade ärendet till en kontakt baserat på information från e-postmeddelandet väljer du ett av kontaktfälten i listan och anger ett fast uttryck som returnerar det värde som identifierar kontakten.
+    * **Koppla till ärende där**: Här kan du koppla e-postmeddelandet till ett befintligt ärende baserat på ett reguljärt uttryck som hämtar information från e-postmeddelandet.
+
+1. På fliken **Ange värden** kan du lägga till eller byta ut värden för kontakter, företag och ärenden baserat på innehållet i e-postmeddelandet:
+    1. I listrutan till vänster väljer du önskat fält för kontakten, företaget eller ärendet.
+
+    2. Ange något av följande i fältet till höger:
+        * det reguljära uttryck som ska hitta det värde som ska anges
+        * ett fast värde (måste förevigas med =)
+
+    3. Om du markerar **Skriv över** ersätts det befintliga värdet med det värde som hittas.
+
+    4. Klicka på **Lägg till** för att lägga till värdet.
+
+        > [!TIP]
+        > Du kan ta bort ett värde igen genom att markera det och klicka på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
+
+1. På fliken **Ange egenskaper** kan du ange specifika egenskaper för ärenden som genereras från e-postmeddelanden som matchar det aktuella filtret. Se egenskaper nedan.
+
+1. På fliken **E-postsvar** kan du skapa olika e-postmeddelanden som ska skickas när det här filtret aktiveras. Här kan du ange följande information:
+    * **Skicka svarsmall**: Här kan du välja vilken [svarsmall][2] som ska skickas om filtret aktiveras.
+    * **... till kontakt**: Om du markerar det här alternativet skickas den valda svarsmallen tillbaka till kontakten.
+    * **... till**: Om du markerar det här alternativet skickas den valda svarsmallen till den e-postadress som anges i fältet till höger.
+    * **Föreslå FAQ-poster från**: Om du markerar det här alternativet [föreslår systemet FAQ-poster baserat på texten][3] i inkommande e-postmeddelanden. De föreslagna posterna blir tillgängliga som mallvariabler och kan därför upprepas i den valda svarsmallen. Du kan även specificera vilken gren av FAQ-trädet sökningen ska göras i, genom att specificera önskad mapp.
+    * **Skicka inte automatiskt svar**: Om du markerar det här alternativet skickar inte systemet automatiska svar på dessa e-postmeddelanden.
+
+1. På fliken **Brevlådor** kan du välja vilka brevlådor filtret ska tillämpas på.
+
+1. Klicka på **OK**. E-postfiltret skapas.
+
+## Egenskaper för genererade ärenden
+
+* **Ange handläggare**: Om det här alternativet markeras kan du välja vilken användare som ska tilldelas e-postmeddelanden som bearbetas av det här filtret.
+
+* **Ange kategori**: Om du markerar här och väljer en kategori hamnar e-posten som bearbetas av det här filtret i den angivna kategorin.
+
+* **Ärendetyp**: Om du markerar här och väljer en typ tilldelas den e-post som behandlas av det här filtret den angivna [ärendetypen][4].
+
+* **Ange prioritet**: Om du markerar här och väljer en prioritet tilldelas den e-post som bearbetas av det här filtret den angivna prioriteten.
+
+* **Ange åtkomstnivå**: Om du markerar det här och väljer en åtkomstnivå i listan kommer de e-postmeddelanden som bearbetas av det här filtret tilldelas den angivna åtkomstnivån. Om du väljer **Extern** blir det genererade ärendet tillgängligt i SuperOffice Kundcenter.
+
+* **Formatera meddelande**: Om du markerar det här och väljer en svarsmall formateras ärendemeddelandet enligt den valda mallen, sammanfogad med alla vanliga uttryck som hittades. Du kan använda detta till att visa ett formulär som skickats via e-post, och det är mycket renare. Meddelandet ersätter det ursprungliga e-postmeddelandet.
+
+* **Stäng ärende**: Om du markerar det här stängs ärendet direkt och tilldelas statusen **Stängd**.
+
+* **Ignorera avsändaradressen**: Om det här alternativet har valts ignorerar SuperOffice Service den ursprungliga avsändaradressen. Ärendet kopplas då inte till en person såvida inte andra regler i e-postfiltret skapar länken till en person.
+
+* **Blockera e-post**: Om detta alternativ har valts importeras inte e-posten till SuperOffice Service. Den läggs istället till listan på fliken **Blockerad e-post**.
+
+* **Ta bort e-postmeddelande permanent**: Om du markerar det här tas e-postmeddelandet bort permanent.
+
+    > [!NOTE]
+    > Det är inte möjligt att återställa e-postmeddelanden som har tagits bort permanent.
+
+* **Vidarebefordra till**: Om du markerar det här och skriver in en e-postadress vidarebefordras e-posten till denna adress.
+
+* **Inkludera information för felsökning i meddelandet**: Om detta alternativ har valts innehåller meddelandet felsökningsdata som du kan använda för att kontrollera att e-postfiltret fungerar som det ska.
+
+* **Markera e-post som returnerande**: Om detta är valt kommer de e-postmeddelanden som bearbetas av det här filtret att markeras som returnerade. Detta kan vara relevant för e-postmeddelanden som tagits emot från postmaster, mailer-daemon och så vidare.
+
+## <a id="delete"></a>Ta bort e-postfilter
+
+1. Välj fliken **E-postfilter**.
+
+1. Klicka på önskat e-postfilter. Fönstret **Egenskaper för e-postfilter** visas.
+
+1. Klicka på knappen **Ta bort** längst ned på skärmen.
+
+1. Bekräfta genom att klicka på **OK**. E-postfiltret tas bort från SuperOffice Service.
+
+<!-- Referenced links -->
+[1]: ../../../customization/macros-and-scripts/admin/index.md
+[2]: ../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../knowledge-base/learn/reply-templates/create.md#faq
+[4]: ../../../request/admin/type/index.md

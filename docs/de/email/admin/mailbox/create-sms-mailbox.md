@@ -1,0 +1,45 @@
+---
+uid: help-de-sms-mailbox-create
+title: SMS-Postfach erstellen
+description: SMS-Postfach erstellen
+author: digitaldiina
+date: 11.27.2025
+keywords: E-Mail
+content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+language: de
+redirect_from: /de/email/service/learn/create-sms-mailbox
+---
+
+# SMS-Postfach erstellen
+
+SuperOffice kann SMS-Nachrichten importieren. Dazu muss ein SMS-Postfach eingerichtet werden:
+
+1. [!include[Go to email](includes/goto-email.md)]
+
+1. Klicken Sie auf **Neues SMS-Postfach**.
+
+    > [!NOTE]
+    > Wenn bereits ein SMS-Postfach vorhanden ist, wird die Schaltfläche **Neues SMS-Postfach** nicht angezeigt.
+
+1. Wählen Sie im Listenfeld **Kategorie** die Standardkategorie aus, die auf Anfragen angewendet werden soll, die aus SMS-Nachrichten erstellt wurden.
+
+1. Wählen Sie im Listenfeld **Priorität** aus, welche Priorität den über SMS eingehenden Anfragen zugeordnet werden soll.
+
+1. [!include[Set customer language](includes/step-set-language.md)]
+
+1. Klicken Sie auf **OK**. Das SMS-Postfach wird erstellt.
+
+## Verwandte Themen
+
+* [SMS-Eingang][2]
+* [SMS-Postausgang][3]
+
+<!-- Referenced links -->
+[2]: index.md#sms-in
+[3]: index.md#sms-out

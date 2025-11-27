@@ -1,0 +1,11 @@
+items:
+- name: Inleiding
+  href: index.md
+- name: Postbussen maken
+  href: create-mailbox.md
+- name: SMS-postbus maken
+  href: create-sms-mailbox.md
+- name: E-mailfilter maken
+  href: create-email-filter.md
+- name: Postbussen verwijderen
+  href: delete-mailbox.md

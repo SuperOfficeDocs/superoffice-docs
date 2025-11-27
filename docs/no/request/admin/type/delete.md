@@ -42,5 +42,5 @@ index: true
 1. Klikk på **OK** for å bekrefte. Sakstypen slettes, og alle sakene flyttes til den valgte alternative typen.
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/email-filters/create-email-filter.md
-[2]: ../../../email/service/learn/create-mailbox.md
+[1]: ../../../email/admin/mailbox/create-email-filter.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md

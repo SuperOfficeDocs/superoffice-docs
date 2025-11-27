@@ -1,0 +1,45 @@
+---
+uid: help-no-sms-mailbox-create
+title: Opprette SMS-postkasse
+description: Opprette SMS-postkasse
+author: digitaldiina
+date: 11.27.2025
+keywords: e-post
+content_type: howto
+category: email
+topic: Service mailbox
+license: serviceessentials
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+language: no
+redirect_from: /no/email/service/learn/create-sms-mailbox
+---
+
+# Opprette SMS-postkasse
+
+SuperOffice kan importere SMS-meldinger. For at dette skal fungere må du konfigurere en SMS-postkasse:
+
+1. [!include[Go to email](includes/goto-email.md)]
+
+1. Klikk på **Ny SMS-postkasse**.
+
+    > [!NOTE]
+    > Hvis det allerede finnes en SMS-postkasse, er ikke knappen **Ny SMS-postkasse** synlig.
+
+1. I **Kategori**-listen velger du standardkategorien som skal brukes på saker som er opprettet fra SMS-meldinger.
+
+1. I listeboksen **Prioritet** velger du hvilken prioritet saker som mottas via SMS skal få.
+
+1. [!include[Set customer language](includes/step-set-language.md)]
+
+1. Klikk på **OK**. SMS-postkassen opprettes.
+
+## Relatert innhold
+
+* [Innboks for SMS][2]
+* [Utboks for SMS][3]
+
+<!-- Referenced links -->
+[2]: index.md#sms-in
+[3]: index.md#sms-out
