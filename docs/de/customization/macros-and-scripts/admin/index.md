@@ -31,11 +31,7 @@ Um auf die Funktionen in CRMScript zuzugreifen, öffnen Sie SuperOffice Einstell
 
 Auslöser sind Skripts, die bei bestimmten Ereignissen im System ausgeführt werden, beispielsweise wenn ein neuer Verkauf erstellt oder eine Anfrage geschlossen wird. Auslöser können im Hintergrund auf das Geschehen reagieren oder den Vorgang blockieren und dem Benutzer eine Erklärung anzeigen.
 
-## Makros und Skripts
-
-Auf der Registerkarte **Makros und Skripte** auf **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es anzeigen, bearbeiten oder ausführen können.
-
-### Über Makros
+## Über Makros
 
 Makros sind die benutzerfreundliche Version von Skripts: Sie benötigen keine umfangreichen Kenntnisse über Skripterstellung oder CRMScript, um Makros zu erstellen.
 
@@ -66,6 +62,8 @@ Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt we
 * [Ablaufverfolgung][5] – Hier können Sie die Ausführung eines Skripts oder Makros in allen Einzelheiten aufzeichnen und in einem Protokoll speichern.
 
 ## Registerkarte Makros und Skripte
+
+Auf der Registerkarte **Makros und Skripte** auf **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es anzeigen, bearbeiten oder ausführen können.
 
 So wechseln Sie zur Registerkarte **Makros und Skripts**:
 

@@ -31,11 +31,7 @@ For at få adgang til funktionerne i CRMScript skal du åbne SuperOffice Indstil
 
 Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. når der oprettes et nyt salg, eller når en sag lukkes. Udløsere kan reagere lydløst på, hvad der sker, eller blokere handlingen og vise en forklaring tilbage til brugeren.
 
-## Makroer og script
-
-På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at vise, redigere eller køre den.
-
-### Om makroer
+## Om makroer
 
 Makroer er den brugervenlige version af scripts: Du behøver ikke omfattende viden om scripting eller CRMScript for at oprette makroer.
 
@@ -66,6 +62,8 @@ Et script er et lille program, der er skrevet til at udføre bestemte opgaver, o
 * [Sporing][5] - Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
 
 ## Fanen makroer og scripts
+
+På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at vise, redigere eller køre den.
 
 Sådan går du til fanen **Makroer og script**:
 

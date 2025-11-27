@@ -31,11 +31,7 @@ Om du vill komma åt funktionerna i CRMScript öppnar du Inställningar och unde
 
 Utlösare är skript som körs för specifika händelser i systemet, till exempel när en ny försäljning skapas eller ett ärende stängs. Utlösare kan reagera tyst på vad som händer, eller blockera åtgärden och visa en förklaring för användaren.
 
-## Makron och skript
-
-Under **CRMScript** på fliken **Makron och skript** finns en lista över alla skript och makron i systemet indelade i mappar. Klicka på ett skript eller makro i listan om du vill visa, redigera eller köra det.
-
-### Om makron
+## Om makron
 
 Makron är den användarvänliga versionen av skript: Du behöver inte ha betydande kunskaper om skript eller CRMScript för att skapa makron.
 
@@ -66,6 +62,8 @@ Ett skript är ett litet program som har skrivits för att utföra specifika upp
 * [Spårning][5] – Registrera varje detalj i körningen av ett skript eller makro och spara i en logg.
 
 ## Fliken Makron och skript
+
+Under **CRMScript** på fliken **Makron och skript** finns en lista över alla skript och makron i systemet indelade i mappar. Klicka på ett skript eller makro i listan om du vill visa, redigera eller köra det.
 
 Så här går du till fliken **Makron och skript**:
 

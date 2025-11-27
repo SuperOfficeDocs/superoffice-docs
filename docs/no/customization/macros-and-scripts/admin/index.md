@@ -31,11 +31,7 @@ For å få tilgang til funksjonene i CRMScript åpner du Innstillinger og vedlik
 
 Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel når et nytt salg opprettes eller når en sak lukkes. Triggere kan reagere stille på hva som skjer, eller blokkere operasjonen og vise en forklaring for brukeren.
 
-## Makroer og skript
-
-I fanen **Makroer og skript** for **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å vise, redigere eller kjøre det/den.
-
-### Om makroer
+## Om makroer
 
 Makroer er den brukervennlige versjonen av skript: Du trenger ikke omfattende kunnskap om skripting eller CRMScript for å kunne lage makroer.
 
@@ -66,6 +62,8 @@ Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og
 * [Sporing][5] – Registrer alle detaljer under kjøringen av skript eller makroer og lagre dem i en logg.
 
 ## Makroer og skript-fanen
+
+I fanen **Makroer og skript** for **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å vise, redigere eller kjøre det/den.
 
 Slik går du til fanen **Makroer og skript**:
 

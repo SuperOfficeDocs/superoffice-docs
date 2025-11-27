@@ -31,11 +31,7 @@ Om toegang te krijgen tot de functies in CRMScript, opent u SuperOffice-instelli
 
 Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in het systeem, zoals wanneer een nieuwe verkoop wordt gemaakt of een verzoek wordt gesloten. Triggers kunnen in stilte reageren op wat er gebeurt, of de bewerking blokkeren en de gebruiker voorzien van uitleg hierover.
 
-## Macro's en scripts
-
-Op het tabblad **Macro's en scripts** op **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor weergave, bewerking of uitvoering.
-
-### Over macro's
+## Over macro's
 
 Macro's zijn de gebruiksvriendelijke versie van scripts: U hebt geen uitgebreide kennis over scriptverwerking of CRMScript nodig om macro's te kunnen maken.
 
@@ -66,6 +62,8 @@ Een script is een klein programma geschreven om specifieke taken uit te voeren; 
 * [Traceren][5] - Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
 
 ## Tabblad Macro's en scripts
+
+Op het tabblad **Macro's en scripts** op **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor weergave, bewerking of uitvoering.
 
 Ga als volgt naar het tabblad **Macro's en scripts**:
 
