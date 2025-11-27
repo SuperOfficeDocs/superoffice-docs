@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FreeTextEnabled": false,
+  "FreeTextEnabled": true,
   "SingleWordOperator": "Contains",
-  "MultiWordOperator": "Contains",
-  "CountWords": 983,
-  "Occurrences": 722,
-  "LastGenerated": "2022-05-20T10:11:00.228653+02:00",
+  "MultiWordOperator": "And",
+  "CountWords": 45678,
+  "Occurrences": 123456,
+  "LastGenerated": "2024-11-27T08:30:00.228653+01:00",
   "AutoEnableTravelAreas": true,
   "TableRight": null,
   "FieldProperties": {
