@@ -2,43 +2,56 @@
 uid: crmscript-debug-using-trace
 title: Using trace
 description: How to trace a CRMScript.
-author: Bergfrid Dias
-date: 12.21.2023
-keywords: CRMScript, trace, debug
+keywords: Trace script, trace CRMScript, debug CRMScript
+author: digitaldiina
+date: 11.26.2025
+version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
+index: true
+redirect_from:
+  - /en/automation/crmscript/learn/tracing
+  - /da/automation/crmscript/learn/tracing
+  - /de/automation/crmscript/learn/tracing
+  - /nl/automation/crmscript/learn/tracing
+  - /no/automation/crmscript/learn/tracing
+  - /sv/automation/crmscript/learn/tracing
 ---
 
 # Using trace
 
-SuperOffice CRM Online has a built-in tracing feature. When turned on, all details will be logged when the script is run. You can then investigate the behavior of the script step by step by rewinding and fast-forwarding the [log][1]. You can also see all the variables at any given point.
+SuperOffice CRM Online has a built-in tracing feature. When enabled, each run of a script or macro is recorded and stored in a [log][1]. You can investigate the behavior of the script step by step by rewinding and fast-forwarding through the recording. You can also inspect the variables at any point in the run.
 
-## Starting a trace
+## Tracing tab
 
-1. Bring up your script in SuperOffice Settings and maintenance.
-2. Click **Trace script**.
-3. Make sure the trace has a description and is enabled.
-4. Optionally, set **User filter** if you want a user-specific trace.
-5. Optionally, enable notifications.
-6. Optionally, specify sampling frequency, expiration, and exception-only tracing.
-7. Click **OK**.
+The **Tracing** tab lists all traces in the system. Select any trace to view its details.
 
 ![Trace CRMScript statistics -screenshot][img1]
 
-Now you've activated tracing on the script. Keep this tab open for now. In a new tab, do the task that will trigger the script. For example, if your script should run before saving a company, go to a company card, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) and then click **Save**. Return to the open trace tab.
+## Start a trace
 
-## Inspecting a trace
+1. Open your script or macro in Settings and maintenance.
+1. Click **Trace script**.
+1. Enter a clear **description**.
+1. Optionally, set **User filter** to trace only runs by a specific user.
+1. Optionally, enable notifications.
+1. Optionally, configure sampling frequency, retention settings, and exception-only tracing.
+1. Select **Enabled**.
+1. Click **OK**.
+
+After enabling a trace, keep the tab open. In a new tab, perform the action that triggers the script. For example, if your script runs before saving a company, go to a company card, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), and then click **Save**. Return to the trace tab and refresh.
+
+## Inspect a trace
 
 1. Click **Refresh** and select the row from the recent run.
-    * The left side shows the script. The row you're tracing is highlighted.
-    * The right side shows all available variables. Click the ellipse (…) to expand.
+    * The left side shows the script, with the current line highlighted.
+    * The right side shows all variables. Click the ellipse (…) to expand.
+1. Use the slider or **Step** buttons to move through the variables and statements.
+1. Click **Return** when done.
 
-2. Use the slider or the **Step** buttons to "re-run" the script and explore the variables and statements.
-
-3. When you are done, or want to update your script, click **Return**.
-
-### Call stack depth
+### Call-stack depth
 
 CRMScript keeps track of its current call stack depth, and saves it with the tracing information.
 
@@ -46,30 +59,55 @@ Consecutive code lines are usually at the same depth. Staying at a certain depth
 
 Using the call-stack depth, you can do much more advanced stepping when inspecting a trace:
 
-* Step back: Go back to the previous statement at the current depth.
+* **Step back:** Go to the previous statement at the current depth.
+* **Step in:** Go to the next frame.
+* **Step out scope:** Exit the current scope (for example, a loop) and go to the next statement.
+* **Step out:** Exit the current function and go to the next statement.
+* **Step next:** Go to the next statement at the same depth or higher.
 
-* Step in: Go to the next trace frame.
+## Manage all traces
 
-* Step out scope: Exit current scope (for example a loop) and go to the next statement.
+1. Go to **CRMScript** > **Debug sessions**.
+1. Click **Start tracing scripts** to turn on all enabled traces.
+1. Click **Stop tracing scripts** to pause tracing.
 
-* Step out: Exit current function and go to the next statement.
+## Edit a trace
 
-* Step next: Go to the next statement at the same depth or higher in the stack.
+1. In the **Tracing** tab, select a trace.
+1. Click **Edit trace**.
+1. Update the fields as needed.
+1. Click **OK**.
 
-## Max number of trace-runs and storage
+## <a id="fields"></a>Field reference
 
-A script trace will be disabled when it has traced 100 times or the sum of saved data for that trace reaches 100MB. If you have reached the limit, manually delete some trace-runs or wait until they expire. Expired trace-runs are automatically deleted nightly. Remember to re-enable the trace to resume tracing.
+| Field | Description |
+|---|---|
+| Description | A label for identifying the trace. |
+| User filter | Limits tracing to a specific user. |
+| Trace resolution | Sampling frequency. For example, 1 traces every run; 5 traces every fifth run. |
+| Keep traces | How long to keep trace data before deletion. |
+| Enabled | Activates the trace. |
+| Notify | Sends notification emails. |
+| Max number of notifications | Maximum number of emails to send. |
+| Notification email | Recipient email address. |
+| Only save if there is an unhandled exception | Saves trace runs only when an exception occurs, or when `forceSaveTrace(true)` is called. |
 
-The number of runs and accumulated data size are shown per trace and in the list of traces.
+## Limits and storage
 
-Consider when and what you need to trace. The **Only trace when it is required** checkbox logs only unhandled exceptions or if the function `forceSaveTrace(true)` is called within the script. Pair this with notifications to monitor your scripts.
+A trace is disabled when it reaches 100 runs or 100 MB of stored data. Delete older runs or wait for automatic nightly cleanup. Re-enable the trace to continue tracing.
+
+Consider what you need to trace. The **Only trace when it is required** setting logs only unhandled exceptions or calls to `forceSaveTrace(true)`. Use this together with notifications to monitor scripts efficiently.
 
 ## Notifications
 
-While editing the trace, you have the option to enable notifications. This feature pairs well with the exception-only setting. Input the email address where you'd like notifications sent after saving a trace run. To avoid excessive emails, indicate the number of emails you wish to dispatch; this count will decrease with each email sent.
+If notifications are enabled, emails are sent after saving a trace run. To avoid excessive messages, you can limit the number of emails sent. The counter decreases with each email.
+
+## Related content
+
+* [Log messages][1]
 
 <!-- Referenced links -->
-[1]: ./log-messages.md
+[1]: log-messages.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/automation/trace.png

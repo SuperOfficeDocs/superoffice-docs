@@ -54,4 +54,4 @@ index: true
 | 33 | Wait for customers IIS ApplicationHost.config operations to complete | |
 
 <!-- Referenced links -->
-[1]: ../../automation/crmscript/learn/schedule-task.md
+[1]: ../../customization/macros-and-scripts/admin/schedule-task.md

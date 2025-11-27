@@ -50,12 +50,12 @@ Ved å [legge til ekstra tabeller og felt][1] i SuperOffice kan du lagre en meng
 
 <!-- Referenced links -->
 [1]: ../../../custom-objects/learn/extra-table.md
-[2]: ../../../automation/crmscript/learn/index.md
-[3]: ../../../automation/crmscript/learn/macro-script.md
-[4]: ../../../automation/crmscript/learn/trigger.md
-[5]: ../../../automation/crmscript/learn/schedule-task.md
-[6]: ../../../automation/crmscript/learn/debug.md
-[7]: ../../../automation/crmscript/learn/tracing.md
+[2]: ../../../../en/automation/crmscript/overview/index.md
+[3]: ../../../customization/macros-and-scripts/admin/index.md
+[4]: ../../../customization/macros-and-scripts/admin/trigger.md
+[5]: ../../../customization/macros-and-scripts/admin/schedule-task.md
+[6]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
+[7]: ../../../../en/automation/crmscript/debugging/using-trace.md
 [8]: screen-properties.md
 [9]: screen-chooser.md
 [11]: extra-menus/index.md

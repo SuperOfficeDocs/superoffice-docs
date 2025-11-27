@@ -59,20 +59,20 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: "Macro's en scripts"
-          url: ../automation/crmscript/learn/macro-script.md
+        - text: Macro's en scripts
+          url: macros-and-scripts/admin/index.md
         - text: Een macro maken
-          url: ../automation/crmscript/learn/create-macro.md
+          url: macros-and-scripts/admin/create-macro.md
         - text: Een script maken
-          url: ../automation/crmscript/learn/create-script.md
+          url: macros-and-scripts/admin/create-script.md
         - text: Foutopsporingssessies
-          url: ../automation/crmscript/learn/debug.md
-        - text: Een geplande taak maken
-          url: ../automation/crmscript/learn/schedule-task.md
-        - text: Traceren
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
+        - text: Geplande taken maken
+          url: macros-and-scripts/admin/schedule-task.md
+        - text: Tracering
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Triggers
-          url: ../automation/crmscript/learn/trigger.md
+          url: macros-and-scripts/admin/trigger.md
 
   # Card
   - title: Webpanelen
@@ -87,9 +87,9 @@ landingContent:
         - text: URL-codering
           url: web-panels/admin/url-encoding.md
         - text: Gegevens doorgeven met sjabloonvariabelen
-          url: ../en/customization/web-panels/dev/index.md#variables
+          url: ../../en/customization/web-panels/dev/index.md#variables
         - text: Link maken naar
-          url: ../en/customization/web-panels/dev/index.md
+          url: ../../en/customization/web-panels/dev/index.md
 
   # Card
   - title: SOProtocol
@@ -98,17 +98,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Intro
-          url: ../en/customization/soprotocol/index.md
+          url: ../../en/customization/soprotocol/index.md
         - text: Navigatiepunten
-          url: ../en/customization/soprotocol/navigation-points.md
+          url: ../../en/customization/soprotocol/navigation-points.md
         - text: Paginacontrole en cache
-          url: ../en/customization/soprotocol/page-control-and-cache.md
+          url: ../../en/customization/soprotocol/page-control-and-cache.md
         - text: In CRMScript
-          url: ../en/customization/soprotocol/in-crmscript.md
+          url: ../../en/customization/soprotocol/in-crmscript.md
         - text: In webpanelen
-          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+          url: ../../en/customization/soprotocol/used-in-webpanels-web.md
         - text: Hoe u een persoon kunt ophalen
-          url: ../en/customization/soprotocol/howto/open-contact.md
+          url: ../../en/customization/soprotocol/howto/open-contact.md
 
   # Card
   - title: Aangepaste schermen (Service)

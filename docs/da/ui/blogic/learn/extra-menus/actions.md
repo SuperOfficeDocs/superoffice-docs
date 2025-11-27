@@ -28,4 +28,4 @@ Følg nedenstående fremgangsmåde for at tilføje en makro til knappen **Opgave
 > Du kan også føje en makro til knappen **Opgave**, når du [opretter eller redigerer en makro][1].
 
 <!-- Referenced links -->
-[1]: ../../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../customization/macros-and-scripts/admin/create-macro.md

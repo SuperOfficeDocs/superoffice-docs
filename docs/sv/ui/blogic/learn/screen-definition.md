@@ -54,6 +54,6 @@ Många av objekten innehåller exempeldata när de infogas för att visa hur de 
 
 <!-- Referenced links -->
 [1]: screen-properties.md
-[5]: ../../../automation/crmscript/learn/create-macro.md
+[5]: ../../../customization/macros-and-scripts/admin/create-macro.md
 
 <!-- Referenced images -->

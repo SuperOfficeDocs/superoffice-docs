@@ -54,6 +54,6 @@ Mange af elementerne indeholder eksempeldata, når de bliver sat ind, der illust
 
 <!-- Referenced links -->
 [1]: screen-properties.md
-[5]: ../../../automation/crmscript/learn/create-macro.md
+[5]: ../../../customization/macros-and-scripts/admin/create-macro.md
 
 <!-- Referenced images -->

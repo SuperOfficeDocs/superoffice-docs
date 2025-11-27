@@ -1,0 +1,11 @@
+﻿items:
+- name: Introduktion
+  href: index.md
+- name: Opret et script
+  href: create-script.md
+- name: Opret en makro
+  href: create-macro.md
+- name: Triggers
+  href: trigger.md
+- name: Planlagte opgaver
+  href: schedule-task.md

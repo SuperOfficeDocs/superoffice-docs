@@ -60,19 +60,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Makroer og scripts
-          url: ../automation/crmscript/learn/macro-script.md
+          url: macros-and-scripts/admin/index.md
         - text: Opret en makro
-          url: ../automation/crmscript/learn/create-macro.md
+          url: macros-and-scripts/admin/create-macro.md
         - text: Opret et script
-          url: ../automation/crmscript/learn/create-script.md
+          url: macros-and-scripts/admin/create-script.md
         - text: Fejlfindingssessioner
-          url: ../automation/crmscript/learn/debug.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Opret en planlagt opgave
-          url: ../automation/crmscript/learn/schedule-task.md
+          url: macros-and-scripts/admin/schedule-task.md
         - text: Sporing
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Udløsere
-          url: ../automation/crmscript/learn/trigger.md
+          url: macros-and-scripts/admin/trigger.md
 
   # Card
   - title: Webpaneler
@@ -87,9 +87,9 @@ landingContent:
         - text: URL-kodning
           url: web-panels/admin/url-encoding.md
         - text: Overfør data med skabelonvariabler
-          url: ../en/customization/web-panels/dev/index.md#variables
+          url: ../../en/customization/web-panels/dev/index.md#variables
         - text: Opret link til
-          url: ../en/customization/web-panels/dev/index.md
+          url: ../../en/customization/web-panels/dev/index.md
 
   # Card
   - title: SOProtocol
@@ -98,17 +98,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Oversigt
-          url: ../en/customization/soprotocol/index.md
+          url: ../../en/customization/soprotocol/index.md
         - text: Navigationspunkter
-          url: ../en/customization/soprotocol/navigation-points.md
+          url: ../../en/customization/soprotocol/navigation-points.md
         - text: Sidekontrol og cache
-          url: ../en/customization/soprotocol/page-control-and-cache.md
+          url: ../../en/customization/soprotocol/page-control-and-cache.md
         - text: I CRMScript
-          url: ../en/customization/soprotocol/in-crmscript.md
+          url: ../../en/customization/soprotocol/in-crmscript.md
         - text: I webpaneler
-          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+          url: ../../en/customization/soprotocol/used-in-webpanels-web.md
         - text: Sådan henter du en person
-          url: ../en/customization/soprotocol/howto/open-contact.md
+          url: ../../en/customization/soprotocol/howto/open-contact.md
 
   # Card
   - title: Brugerdefinerede skærme (Service)

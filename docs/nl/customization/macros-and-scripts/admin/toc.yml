@@ -1,0 +1,11 @@
+﻿items:
+- name: Inleiding
+  href: index.md
+- name: Een script maken
+  href: create-script.md
+- name: Een macro maken
+  href: create-macro.md
+- name: Triggers
+  href: trigger.md
+- name: Geplande taken
+  href: schedule-task.md

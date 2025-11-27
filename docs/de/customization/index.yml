@@ -60,19 +60,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Makros und Skripts
-          url: ../automation/crmscript/learn/macro-script.md
+          url: macros-and-scripts/admin/index.md
         - text: Ein Makro erstellen
-          url: ../automation/crmscript/learn/create-macro.md
+          url: macros-and-scripts/admin/create-macro.md
         - text: Ein Skript erstellen
-          url: ../automation/crmscript/learn/create-script.md
+          url: macros-and-scripts/admin/create-script.md
         - text: Debugsitzungen
-          url: ../automation/crmscript/learn/debug.md
+          url: ../../en/automation/crmscript/debugging/built-in-debugger.md
         - text: Eine geplante Aufgabe erstellen
-          url: ../automation/crmscript/learn/schedule-task.md
+          url: macros-and-scripts/admin/schedule-task.md
         - text: Ablaufverfolgung
-          url: ../automation/crmscript/learn/tracing.md
+          url: ../../en/automation/crmscript/debugging/using-trace.md
         - text: Auslöser
-          url: ../automation/crmscript/learn/trigger.md
+          url: macros-and-scripts/admin/trigger.md
 
   # Card
   - title: Web-Bildschirme
@@ -87,9 +87,9 @@ landingContent:
         - text: URL-Codierung
           url: web-panels/admin/url-encoding.md
         - text: Daten mit Vorlagenvariablen übergeben
-          url: ../en/customization/web-panels/dev/index.md#variables
+          url: ../../en/customization/web-panels/dev/index.md#variables
         - text: Link erstellen zu
-          url: ../en/customization/web-panels/dev/index.md
+          url: ../../en/customization/web-panels/dev/index.md
 
   # Card
   - title: SOProtocol
@@ -98,17 +98,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Intro
-          url: ../en/customization/soprotocol/index.md
+          url: ../../en/customization/soprotocol/index.md
         - text: Navigationspunkte
-          url: ../en/customization/soprotocol/navigation-points.md
+          url: ../../en/customization/soprotocol/navigation-points.md
         - text: Seitensteuerung und Cache
-          url: ../en/customization/soprotocol/page-control-and-cache.md
+          url: ../../en/customization/soprotocol/page-control-and-cache.md
         - text: In CRMScript
-          url: ../en/customization/soprotocol/in-crmscript.md
+          url: ../../en/customization/soprotocol/in-crmscript.md
         - text: In Web-Bildschirmen
-          url: ../en/customization/soprotocol/used-in-webpanels-web.md
+          url: ../../en/customization/soprotocol/used-in-webpanels-web.md
         - text: So erhalten Sie eine Person
-          url: ../en/customization/soprotocol/howto/open-contact.md
+          url: ../../en/customization/soprotocol/howto/open-contact.md
 
   # Card
   - title: Benutzerdefinierte Bildschirme (Service)
