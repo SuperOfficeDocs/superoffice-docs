@@ -13,3 +13,6 @@ items:
   items:
   - name: Tilføj e-mailskabelon
     href: ../admin/add-email-template.md
+  - name: Postkasseadministration
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

@@ -13,3 +13,6 @@ items:
   items:
   - name: E-mailsjabloon toevoegen
     href: ../admin/add-email-template.md
+  - name: Postbusbeheer
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

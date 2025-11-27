@@ -13,3 +13,6 @@ items:
   items:
   - name: Add email template
     href: ../admin/add-email-template.md
+  - name: Mailbox administration
+    href: ../admin/mailbox/toc.yml
+    topicHref: ../admin/mailbox/index.md

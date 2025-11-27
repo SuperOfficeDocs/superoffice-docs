@@ -1,5 +1,5 @@
 items:
-- name: Mailbox administration
+- name: Introduction
   href: index.md
 - name: Create mailbox
   href: create-mailbox.md

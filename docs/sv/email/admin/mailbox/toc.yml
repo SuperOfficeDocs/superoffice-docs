@@ -1,5 +1,5 @@
 items:
-- name: Postlådeadministration
+- name: Introduktion
   href: index.md
 - name: Skapa e-postlådor
   href: create-mailbox.md

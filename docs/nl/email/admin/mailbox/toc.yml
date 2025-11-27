@@ -1,5 +1,5 @@
 items:
-- name: Postbusbeheer
+- name: Inleiding
   href: index.md
 - name: Postbussen maken
   href: create-mailbox.md

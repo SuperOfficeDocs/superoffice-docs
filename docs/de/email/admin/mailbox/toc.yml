@@ -1,5 +1,5 @@
 items:
-- name: Postfachverwaltung
+- name: Einführung
   href: index.md
 - name: Postfach erstellen
   href: create-mailbox.md

@@ -1,5 +1,5 @@
 items:
-- name: Postkasseadministration
+- name: Introduktion
   href: index.md
 - name: Opret e-mailkonti
   href: create-mailbox.md

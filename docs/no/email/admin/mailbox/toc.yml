@@ -1,5 +1,5 @@
 items:
-- name: Postkasseadministrasjon
+- name: Introduksjon
   href: index.md
 - name: Opprette postkasse
   href: create-mailbox.md
