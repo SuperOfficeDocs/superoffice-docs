@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "RowCount": 759,
   "Rows": [
     {
-      "EntityName": "Bins-Towne",
+      "EntityName": "person",
       "PrimaryKey": 801,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "velit",
-          "LinkHint": "et"
+        "fullName": {
+          "DisplayValue": "Sarah Johnson",
+          "TooltipHint": "Chief Technology Officer at Acme Corp",
+          "LinkHint": "person.main?person_id=801"
         }
       },
-      "LinkHint": "ex",
-      "StyleHint": "repudiandae",
+      "LinkHint": "view-person",
+      "StyleHint": "contact-person",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

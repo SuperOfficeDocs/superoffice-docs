@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McLaughlin Group",
+    "EntityName": "project",
     "PrimaryKey": 574,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "tempore",
-        "TooltipHint": "vitae",
-        "LinkHint": "odit"
+      "name": {
+        "DisplayValue": "CRM Implementation - Phase 2",
+        "TooltipHint": "Second phase of enterprise CRM rollout",
+        "LinkHint": "project.main?project_id=574"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "est",
+    "LinkHint": "view-project",
+    "StyleHint": "active-project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

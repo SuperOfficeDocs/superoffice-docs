@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "RowCount": 865,
   "Rows": [
     {
-      "EntityName": "Schultz LLC",
+      "EntityName": "selection",
       "PrimaryKey": 273,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "magni",
-          "TooltipHint": "aut",
-          "LinkHint": "vel"
+        "name": {
+          "DisplayValue": "Active Customers - North Region",
+          "TooltipHint": "Dynamic selection of active customers in the northern region",
+          "LinkHint": "selection.main?selection_id=273"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "unde",
+      "LinkHint": "view-selection",
+      "StyleHint": "dynamic-selection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
