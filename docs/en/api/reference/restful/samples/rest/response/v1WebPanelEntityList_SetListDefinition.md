@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 676,
-  "Name": "Mante, Prosacco and Medhurst",
+  "Name": "Partner Dashboard",
   "Tooltip": "nemo",
   "Deleted": false,
   "Rank": 423,

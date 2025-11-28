@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "WebPanelId": 473,
-    "Name": "Schmidt-Tromp",
+    "Name": "Customer Portal",
     "Tooltip": "et",
     "Deleted": false,
     "Rank": 259,

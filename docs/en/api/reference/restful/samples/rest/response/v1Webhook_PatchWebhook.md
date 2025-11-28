@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "WebhookId": 109,
-  "Name": "Jacobi-Baumbach",
+  "Name": "Contact Created Webhook",
   "Events": [
     "occaecati",
     "consequuntur"

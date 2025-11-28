@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 536,
-  "Name": "Howell, Bahringer and Steuber",
-  "Tooltip": "recusandae",
+  "Name": "Support Team",
+  "Tooltip": "User group",
   "Deleted": false,
   "Rank": 842,
   "IsCustomList": true,

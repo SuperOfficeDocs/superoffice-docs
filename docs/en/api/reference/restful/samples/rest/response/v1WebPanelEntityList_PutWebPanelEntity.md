@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "WebPanelId": 174,
-  "Name": "Feeney, Rodriguez and Abernathy",
+  "Name": "Partner Dashboard",
   "Tooltip": "aliquam",
   "Deleted": false,
   "Rank": 221,

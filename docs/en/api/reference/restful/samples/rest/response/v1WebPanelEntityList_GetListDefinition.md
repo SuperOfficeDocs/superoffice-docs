@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 309,
-  "Name": "Reynolds, Zemlak and Nader",
+  "Name": "Partner Dashboard",
   "Tooltip": "quod",
   "Deleted": true,
   "Rank": 88,

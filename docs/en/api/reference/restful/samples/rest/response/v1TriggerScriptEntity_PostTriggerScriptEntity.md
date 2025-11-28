@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ScreenChooserId": 775,
-  "Name": "Considine-Marks",
+  "Name": "Before Save Trigger",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
   "UniqueIdentifier": "quo",

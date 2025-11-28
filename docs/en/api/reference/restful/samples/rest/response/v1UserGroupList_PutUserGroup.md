@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Value": "impedit",
-  "Tooltip": "a",
+  "Tooltip": "User group",
   "Id": 470,
   "Rank": 615,
   "Deleted": true,

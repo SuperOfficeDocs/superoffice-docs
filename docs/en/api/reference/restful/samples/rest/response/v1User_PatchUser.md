@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 741,
       "ExtraInfo": "et",
       "StyleHint": "dolorem",
-      "FullName": "Keenan Kunze",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

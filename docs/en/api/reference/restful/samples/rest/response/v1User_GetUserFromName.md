@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 642,
       "ExtraInfo": "vero",
       "StyleHint": "velit",
-      "FullName": "Laury Lowe",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

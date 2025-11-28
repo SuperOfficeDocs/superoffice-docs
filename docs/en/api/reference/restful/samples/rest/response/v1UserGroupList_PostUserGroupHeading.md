@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 152,
   "Name": "Leffler LLC",
-  "Tooltip": "voluptates",
+  "Tooltip": "User group",
   "Deleted": false,
   "Rank": 599,
   "UdListDefinitionId": 854,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 462,
-    "Name": "Koepp, Cronin and Howe",
-    "Tooltip": "eaque",
+    "Name": "Support Team",
+    "Tooltip": "User group",
     "Deleted": true,
     "Rank": 854,
     "UdListDefinitionId": 196,

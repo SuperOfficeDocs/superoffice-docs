@@ -10,7 +10,7 @@ Content-Type: application/json; charset=utf-8
   "Tooltip": "voluptatem",
   "Type": "AnonymousAssociate",
   "GroupIdx": 526,
-  "FullName": "Cody Klein",
+  "FullName": "John Smith",
   "FormalName": "West Group",
   "Deleted": false,
   "EjUserId": 790,

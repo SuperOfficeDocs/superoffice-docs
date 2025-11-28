@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 214,
       "ExtraInfo": "ullam",
       "StyleHint": "numquam",
-      "FullName": "Macey Wilkinson",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
