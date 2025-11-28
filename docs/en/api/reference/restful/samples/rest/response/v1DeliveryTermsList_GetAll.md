@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 867,
-    "Name": "Wiza-Mosciski",
-    "Tooltip": "placeat",
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
     "Deleted": false,
     "UdListDefinitionId": 32,
     "Rank": 643,

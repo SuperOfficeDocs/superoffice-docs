@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 780,
-    "Name": "Hills-Auer",
-    "Tooltip": "occaecati",
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
     "Deleted": false,
     "Rank": 636,
     "UdListDefinitionId": 10,

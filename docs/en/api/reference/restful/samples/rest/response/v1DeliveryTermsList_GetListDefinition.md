@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 750,
-  "Name": "Davis-Tromp",
-  "Tooltip": "esse",
+  "Name": "FOB",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "Rank": 1000,
   "IsCustomList": true,

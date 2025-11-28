@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 139,
-  "Name": "Leannon, Fahey and Armstrong",
-  "Tooltip": "dolorem",
+  "Name": "CIF",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "UdListDefinitionId": 185,
   "Rank": 192,

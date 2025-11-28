@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 779,
-  "Name": "Schmeler-Schmeler",
-  "Tooltip": "rerum",
+  "Name": "FOB",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "UdListDefinitionId": 621,
   "Rank": 360,
