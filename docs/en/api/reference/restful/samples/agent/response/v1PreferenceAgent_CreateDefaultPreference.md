@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "false",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "officia",
+  "DisplayValue": "Disabled",
+  "DisplayTooltip": "Enable automatic email synchronization",
   "DisplayType": "Bool",
   "TabOrder": null,
   "TargetId": 128,
   "PrefDescId": 781,
-  "TableName": "Cassin LLC",
+  "TableName": "UserPreference",
   "UserPreferenceId": 507,
   "TableRight": null,
   "FieldProperties": {

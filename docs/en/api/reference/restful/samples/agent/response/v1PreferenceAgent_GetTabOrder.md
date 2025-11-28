@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TabOrderId": 866,
-  "TabName": "Dickens, Orn and Feeney",
-  "Order": "quis",
+  "TabName": "Contact",
+  "Order": "Person,Activity,Project,Sale,Request",
   "AssociateId": 212,
   "TableRight": null,
   "FieldProperties": {
