@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "eum",
+  "Success": true,
+  "Message": "Webhook test successful. Response: 200 OK",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

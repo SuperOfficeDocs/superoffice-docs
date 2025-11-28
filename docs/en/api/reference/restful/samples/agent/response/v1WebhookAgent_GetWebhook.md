@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 839,
-  "Name": "Schneider, Torphy and Dibbert",
+  "WebhookId": 1,
+  "Name": "Contact Created Notification",
   "Events": [
-    "sint",
-    "aliquam"
+    "contact.created",
+    "contact.changed"
   ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "impedit",
+  "TargetUrl": "https://api.example.com/webhooks/superoffice/contacts",
+  "Secret": "sk_live_1a2b3c4d5e6f7g8h9i0j",
   "State": "Active",
-  "Type": "odio",
+  "Type": "webhook",
   "Headers": {
-    "Headers1": "natus",
-    "Headers2": "quod"
+    "X-Custom-Header": "ContactIntegration",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2003-03-28T10:11:01.8819209+01:00",
+  "Registered": "2024-01-15T09:00:00+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-12-16T10:11:01.8819209+01:00",
+  "Updated": "2024-11-28T10:30:00+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "vaughn@parisian.name"
+  "ErrorsEmail": "admin@example.com"
 }
 ```
