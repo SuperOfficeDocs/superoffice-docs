@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 453,
-  "Name": "Stoltenberg, Medhurst and Moore",
-  "ContentType": "cum",
-  "AttSize": 442,
+  "Name": "Invoice_2024_Q4.xlsx",
+  "ContentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "AttSize": 76800,
   "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "itaque",
-  "IsSafeFileExtension": false,
+  "ContentId": "attachment-005",
+  "AuthKey": "y5z6a7b8c9d0",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

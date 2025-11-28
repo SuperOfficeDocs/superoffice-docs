@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 482,
-  "Name": "White, Fadel and Kovacek",
-  "ContentType": "aut",
-  "AttSize": 497,
+  "Name": "Contract_Proposal_2024.docx",
+  "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "AttSize": 524288,
   "InlineImage": false,
-  "ContentId": "animi",
-  "AuthKey": "nulla",
-  "IsSafeFileExtension": false,
+  "ContentId": "attachment-002",
+  "AuthKey": "x7y8z9w0v1u2",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 639,
-  "Name": "Hahn-Rath",
-  "ContentType": "qui",
-  "AttSize": 89,
+  "Name": "Q4_Sales_Report.pdf",
+  "ContentType": "application/pdf",
+  "AttSize": 245760,
   "InlineImage": true,
-  "ContentId": "non",
-  "AuthKey": "id",
+  "ContentId": "attachment-001",
+  "AuthKey": "a1b2c3d4e5f6",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
