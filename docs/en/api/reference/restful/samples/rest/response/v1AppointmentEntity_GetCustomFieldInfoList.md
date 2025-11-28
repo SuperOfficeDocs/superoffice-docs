@@ -5,10 +5,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Heidenreich, Schmeler and Little",
-    "DisplayName": "Turcotte-Lynch",
-    "Description": "Profound next generation contingency",
-    "ShortLabel": "dolor",
+    "FieldName": "MeetingAgenda",
+    "DisplayName": "Meeting Agenda",
+    "Description": "Attachment field for meeting agendas and preparation materials",
+    "ShortLabel": "Agenda",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "IsExternal": false,
     "IsDisplayField": false,
     "Rank": 679,
-    "TemplateVariableName": "Wolff-Stracke"
+    "TemplateVariableName": "MeetingAgenda"
   }
 ]
 ```

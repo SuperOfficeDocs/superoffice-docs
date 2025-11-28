@@ -10,12 +10,12 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
   "UpdatedBy": null,
   "CreatedDate": "2003-12-22T14:34:01.4402841+01:00",
   "AppointmentId": 182,
-  "Description": "Upgradable composite orchestration",
-  "Title": "in",
-  "Agenda": "deleniti",
-  "InternalNotes": "est",
-  "StartDate": "2018-05-01T14:34:01.4402841+02:00",
-  "EndDate": "2014-02-13T14:34:01.4402841+01:00",
+  "Description": "Quarterly Business Review with Acme Corporation to discuss Q4 performance, upcoming initiatives, and contract renewal.",
+  "Title": "Q4 Business Review - Acme Corp",
+  "Agenda": "1. Review Q4 metrics\n2. Discuss new feature requests\n3. Contract renewal terms\n4. Q&A",
+  "InternalNotes": "Bring updated pricing proposal. Customer mentioned budget concerns last meeting.",
+  "StartDate": "2024-12-05T14:00:00+01:00",
+  "EndDate": "2024-12-05T15:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 150,
@@ -30,7 +30,7 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
     {
       "EntityName": "Reynolds LLC",
       "Id": 310,
-      "Description": "Sharable motivating standardization",
+      "Description": "Link to contract documentation",
       "ExtraInfo": "eius",
       "LinkId": 107,
       "TableRight": null,
@@ -43,15 +43,15 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
       }
     }
   ],
-  "AlarmLeadTime": "esse",
-  "HasAlarm": false,
+  "AlarmLeadTime": "PT30M",
+  "HasAlarm": true,
   "ColorIndex": 983,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "autem",
-  "LeadTime": "id",
-  "Location": "odio",
-  "RejectCounter": 272,
+  "IsAlldayEvent": false,
+  "LagTime": "PT0M",
+  "LeadTime": "PT15M",
+  "Location": "Conference Room A, Oslo Office",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -62,8 +62,8 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
       "EmailId": 169,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "candida_luettgen@spencer.uk",
-      "Description": "Proactive regional throughput"
+      "EmailAddress": "sarah.johnson@acmecorp.com",
+      "Description": "Marketing Director at Acme Corporation"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -81,19 +81,19 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "veritatis",
+  "JoinVideomeetUrl": "https://meet.superoffice.com/meeting/abc123xyz",
+  "CentralserviceVideomeetId": "abc123xyz",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Anahi Matilda Kertzmann DDS",
-    "SuperOffice:2": "Hallie DuBuque"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "in"
+    "ExtraFields1": "Priority customer",
+    "ExtraFields2": "Renewal pending"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "est"
+    "CustomFields1": "Enterprise",
+    "CustomFields2": "2024"
   },
   "PublishEventDate": "2015-07-18T14:34:01.4402841+02:00",
   "PublishTo": "2008-07-29T14:34:01.4402841+02:00",
@@ -103,7 +103,7 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
     {
       "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -116,7 +116,7 @@ Last-Modified: Sat, 07 May 2022 14:34:01 G5T
     {
       "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

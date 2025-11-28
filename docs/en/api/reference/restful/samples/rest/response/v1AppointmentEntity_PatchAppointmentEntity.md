@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2017-04-27T14:34:01.485407+02:00",
   "AppointmentId": 982,
-  "Description": "Ameliorated tangible extranet",
-  "Title": "molestiae",
-  "Agenda": "non",
-  "InternalNotes": "eos",
-  "StartDate": "2000-08-04T14:34:01.485407+02:00",
-  "EndDate": "2018-02-15T14:34:01.485407+01:00",
+  "Description": "Follow-up meeting to discuss implementation progress and address any technical questions.",
+  "Title": "Implementation Follow-up - TechStart Inc",
+  "Agenda": "1. Review progress since last meeting\n2. Address technical questions\n3. Discuss timeline adjustments\n4. Plan next steps",
+  "InternalNotes": "Customer requested additional integration support. Prepare API documentation.",
+  "StartDate": "2024-12-18T11:00:00+01:00",
+  "EndDate": "2024-12-18T12:00:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 214,
@@ -29,7 +29,7 @@ Content-Type: application/json; charset=utf-8
     {
       "EntityName": "Quitzon-Nader",
       "Id": 652,
-      "Description": "Progressive radical support",
+      "Description": "Link to implementation checklist",
       "ExtraInfo": "ipsa",
       "LinkId": 235,
       "TableRight": null,
@@ -42,15 +42,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "AlarmLeadTime": "error",
-  "HasAlarm": false,
+  "AlarmLeadTime": "PT15M",
+  "HasAlarm": true,
   "ColorIndex": 809,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "sed",
-  "LeadTime": "labore",
-  "Location": "quibusdam",
-  "RejectCounter": 684,
+  "LagTime": "PT0M",
+  "LeadTime": "PT10M",
+  "Location": "Google Meet",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 527,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kristin@trompcassin.name",
-      "Description": "Synergized high-level circuit"
+      "EmailAddress": "david.tech@techstart.io",
+      "Description": "CTO at TechStart Inc"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "JoinVideomeetUrl": "https://meet.google.com/abc-defg-hij",
+  "CentralserviceVideomeetId": "abc-defg-hij",
   "UserDefinedFields": {
-    "SuperOffice:1": "209285560",
-    "SuperOffice:2": "Dr. Akeem Queen Jacobs II"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "Implementation",
+    "ExtraFields2": "In progress"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "natus"
+    "CustomFields1": "Technical",
+    "CustomFields2": "Support"
   },
   "PublishEventDate": "2009-01-31T14:34:01.4916331+01:00",
   "PublishTo": "2004-03-17T14:34:01.4916331+01:00",
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

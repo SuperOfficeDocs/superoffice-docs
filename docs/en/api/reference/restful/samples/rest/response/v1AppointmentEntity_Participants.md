@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "page=2",
   "value": [
     {
       "PrimaryKey": 9614,
       "EntityName": "person",
       "personId": 9614,
-      "fullName": "Maximo Bashirian"
+      "fullName": "Sarah Johnson"
     },
     {
       "PrimaryKey": 6253,
       "EntityName": "person",
       "personId": 6253,
-      "fullName": "Bryana Conn"
+      "fullName": "Michael Chen"
     }
   ]
 }

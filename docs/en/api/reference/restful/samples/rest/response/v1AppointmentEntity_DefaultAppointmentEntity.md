@@ -10,12 +10,12 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
   "UpdatedBy": null,
   "CreatedDate": "2007-06-25T14:34:01.3412634+02:00",
   "AppointmentId": 47,
-  "Description": "Ameliorated client-driven budgetary management",
-  "Title": "sed",
-  "Agenda": "accusantium",
-  "InternalNotes": "molestiae",
-  "StartDate": "2008-11-12T14:34:01.3412634+01:00",
-  "EndDate": "2023-04-12T14:34:01.3412634+02:00",
+  "Description": "Team standup meeting to review daily progress, discuss blockers, and coordinate on priorities.",
+  "Title": "Daily Team Standup",
+  "Agenda": "1. Yesterday's achievements\n2. Today's priorities\n3. Blockers and issues",
+  "InternalNotes": "Keep meeting focused and under 30 minutes.",
+  "StartDate": "2024-11-28T09:00:00+01:00",
+  "EndDate": "2024-11-28T09:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 433,
@@ -30,7 +30,7 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
     {
       "EntityName": "Koelpin, Gerlach and Barrows",
       "Id": 315,
-      "Description": "Progressive motivating leverage",
+      "Description": "Link to project documentation",
       "ExtraInfo": "dolor",
       "LinkId": 550,
       "TableRight": null,
@@ -43,15 +43,15 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
       }
     }
   ],
-  "AlarmLeadTime": "sunt",
+  "AlarmLeadTime": "PT15M",
   "HasAlarm": false,
   "ColorIndex": 114,
   "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "quo",
-  "LeadTime": "assumenda",
-  "Location": "animi",
-  "RejectCounter": 496,
+  "LagTime": "PT0M",
+  "LeadTime": "PT15M",
+  "Location": "Zoom Meeting",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -62,8 +62,8 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
       "EmailId": 330,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "krista.stracke@jenkins.us",
-      "Description": "Switchable well-modulated productivity"
+      "EmailAddress": "team@superoffice.com",
+      "Description": "Development Team Members"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -81,19 +81,19 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "occaecati",
+  "JoinVideomeetUrl": "https://zoom.us/j/123456789",
+  "CentralserviceVideomeetId": "123456789",
   "UserDefinedFields": {
-    "SuperOffice:1": "Maudie Halvorson",
-    "SuperOffice:2": "363943382"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "non"
+    "CustomFields1": "atque",
+    "CustomFields2": "adipisci"
   },
   "PublishEventDate": "2018-03-03T14:34:01.3467227+01:00",
   "PublishTo": "1999-01-27T14:34:01.3467227+01:00",
@@ -103,7 +103,7 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
     {
       "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -116,7 +116,7 @@ Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
     {
       "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

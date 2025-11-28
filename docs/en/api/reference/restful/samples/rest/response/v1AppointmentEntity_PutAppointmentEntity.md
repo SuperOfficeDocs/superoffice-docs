@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2010-02-23T14:34:01.4560497+01:00",
   "AppointmentId": 401,
-  "Description": "Intuitive dedicated framework",
-  "Title": "similique",
-  "Agenda": "perferendis",
-  "InternalNotes": "ea",
-  "StartDate": "2020-10-23T14:34:01.4560497+02:00",
-  "EndDate": "2016-05-13T14:34:01.4560497+02:00",
+  "Description": "Product training session for the new CRM features. Focus on dashboard customization and reporting tools.",
+  "Title": "CRM Training Session - Advanced Features",
+  "Agenda": "1. Dashboard overview\n2. Custom report creation\n3. Automation features\n4. Hands-on exercises\n5. Q&A",
+  "InternalNotes": "Participants should have completed basic training. Prepare demo environment.",
+  "StartDate": "2024-12-15T13:00:00+01:00",
+  "EndDate": "2024-12-15T15:00:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 418,
@@ -29,7 +29,7 @@ Content-Type: application/json; charset=utf-8
     {
       "EntityName": "Crist-Stehr",
       "Id": 534,
-      "Description": "Focused client-server benchmark",
+      "Description": "Link to training materials",
       "ExtraInfo": "ut",
       "LinkId": 921,
       "TableRight": null,
@@ -42,15 +42,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "AlarmLeadTime": "aut",
-  "HasAlarm": false,
+  "AlarmLeadTime": "PT15M",
+  "HasAlarm": true,
   "ColorIndex": 444,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "facilis",
-  "LeadTime": "fuga",
-  "Location": "fuga",
-  "RejectCounter": 846,
+  "LagTime": "PT0M",
+  "LeadTime": "PT10M",
+  "Location": "Training Room 2, Floor 3",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 495,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "katrine_marks@auerwolff.name",
-      "Description": "Devolved explicit frame"
+      "EmailAddress": "anna.larsen@company.no",
+      "Description": "Sales Representative"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facere",
+  "JoinVideomeetUrl": "https://meet.superoffice.com/training/xyz789",
+  "CentralserviceVideomeetId": "xyz789",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Federico Pierre Ritchie II",
-    "SuperOffice:2": "Sophia Swaniawski"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "Internal training",
+    "ExtraFields2": "Q4 2024"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "ea"
+    "CustomFields1": "Training",
+    "CustomFields2": "CRM"
   },
   "PublishEventDate": "2013-07-16T14:34:01.4733726+02:00",
   "PublishTo": "2004-02-14T14:34:01.4733726+01:00",
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

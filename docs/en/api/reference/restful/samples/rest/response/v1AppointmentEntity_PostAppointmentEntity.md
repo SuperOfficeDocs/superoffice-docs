@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2019-04-06T14:34:01.4264516+02:00",
   "AppointmentId": 598,
-  "Description": "Profit-focused web-enabled artificial intelligence",
-  "Title": "sapiente",
-  "Agenda": "et",
-  "InternalNotes": "qui",
-  "StartDate": "2001-11-16T14:34:01.4264516+01:00",
-  "EndDate": "1999-04-22T14:34:01.4264516+02:00",
+  "Description": "Initial sales presentation for Enterprise CRM package. Demonstrate key features, pricing, and implementation timeline.",
+  "Title": "Sales Demo - Enterprise CRM",
+  "Agenda": "1. Company intro\n2. Product demo\n3. Pricing options\n4. Implementation timeline\n5. Next steps",
+  "InternalNotes": "Prospect is evaluating 3 vendors. Emphasize our superior customer support.",
+  "StartDate": "2024-12-10T10:00:00+01:00",
+  "EndDate": "2024-12-10T11:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 218,
@@ -29,7 +29,7 @@ Content-Type: application/json; charset=utf-8
     {
       "EntityName": "Abshire, Little and Bednar",
       "Id": 59,
-      "Description": "Open-architected leading edge access",
+      "Description": "Link to sales proposal document",
       "ExtraInfo": "incidunt",
       "LinkId": 200,
       "TableRight": null,
@@ -42,15 +42,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "AlarmLeadTime": "aliquid",
-  "HasAlarm": false,
+  "AlarmLeadTime": "PT30M",
+  "HasAlarm": true,
   "ColorIndex": 49,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quas",
-  "LeadTime": "odit",
-  "Location": "est",
-  "RejectCounter": 75,
+  "IsAlldayEvent": false,
+  "LagTime": "PT0M",
+  "LeadTime": "PT15M",
+  "Location": "Microsoft Teams Meeting",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 458,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "joany.hoeger@boehm.com",
-      "Description": "Open-source background support"
+      "EmailAddress": "michael.chen@prospectcorp.com",
+      "Description": "IT Director at Prospect Corporation"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
+  "JoinVideomeetUrl": "https://teams.microsoft.com/l/meetup-join/def456uvw",
+  "CentralserviceVideomeetId": "def456uvw",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Jaqueline Buckridge"
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "Hot lead",
+    "ExtraFields2": "Q4 2024"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "alias"
+    "CustomFields1": "Enterprise",
+    "CustomFields2": "New customer"
   },
   "PublishEventDate": "2008-03-03T14:34:01.4314504+01:00",
   "PublishTo": "2007-09-19T14:34:01.4314504+02:00",
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
