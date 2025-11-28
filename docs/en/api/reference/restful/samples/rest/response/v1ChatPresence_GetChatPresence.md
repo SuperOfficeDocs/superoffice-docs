@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "UserId": 856,
-    "DisplayName": "Beatty-Prosacco",
-    "OngoingChats": 725,
+    "DisplayName": "Sarah Johnson",
+    "OngoingChats": 3,
     "Present": false,
     "ChatTopics": [
       907,
