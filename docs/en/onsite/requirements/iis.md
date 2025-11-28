@@ -3,7 +3,7 @@ title: Requirements
 uid: iis_server_requirements
 description: System requirements for SuperOffice server
 author: SuperOffice Product and Engineering
-date: 09.12.2023
+date: 28.11.2025
 keywords:
 content_type: reference
 deployment: onsite
@@ -24,14 +24,10 @@ This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOf
 
 ## Operating system
 
+* Microsoft Windows Server 2025
 * Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
-
-## Internet Information Server
-
-* Microsoft IIS 10
-* Microsoft IIS 8.5
 
 ## Network/Bandwidth
 
@@ -42,7 +38,6 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 * Exchange Server 2010 64bit and newer
 * Domino Server 10.0
 * Domino Server 9.0
-* MAPI/SoMaGate (Win client only)
 
 ## Built-in mail client
 
@@ -54,7 +49,7 @@ For the built-in mail client, the following ports must be opened between the Sal
 
 [!include[.NET Requirements](../includes/dotnet-requirements.md)]
 
-* Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
+* Windows Communication Foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
 * Local administrator rights (installation)
 
 > [!NOTE]
