@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Mohr, Klein and Waelchi",
-  "DisplayName": "Connelly, Green and Wunsch",
-  "Description": "Organized reciprocal moderator",
-  "ShortLabel": "a",
+  "FieldName": "MeetingNotes",
+  "DisplayName": "Meeting Notes",
+  "Description": "Attachment field for meeting notes and related documents",
+  "ShortLabel": "Notes",
   "HideLabel": true,
   "HideField": true,
   "IsIndexed": true,
@@ -16,6 +16,6 @@ Content-Type: application/json; charset=utf-8
   "IsExternal": false,
   "IsDisplayField": false,
   "Rank": 872,
-  "TemplateVariableName": "Howe-Windler"
+  "TemplateVariableName": "MeetingNotes"
 }
 ```
