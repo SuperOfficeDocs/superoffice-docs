@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 602,
-  "Name": "Lesch-Stracke",
-  "Tooltip": "omnis",
+  "Name": "FOB",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "Rank": 68,
   "IsCustomList": true,

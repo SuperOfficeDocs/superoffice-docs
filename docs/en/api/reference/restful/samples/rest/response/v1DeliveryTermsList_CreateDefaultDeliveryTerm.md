@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 508,
-  "Name": "Jakubowski, Hammes and Harber",
-  "Tooltip": "autem",
+  "Name": "CIF",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "UdListDefinitionId": 428,
   "Rank": 116,

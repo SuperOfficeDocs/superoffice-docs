@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 795,
-  "Name": "Jaskolski, Mitchell and Johnson",
-  "Tooltip": "voluptatibus",
+  "Name": "CIF",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
   "Rank": 364,
   "UdListDefinitionId": 956,

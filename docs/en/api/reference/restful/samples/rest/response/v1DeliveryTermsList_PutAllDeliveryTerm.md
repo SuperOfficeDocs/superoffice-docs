@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 941,
-    "Name": "Braun-Klocko",
-    "Tooltip": "consequuntur",
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
     "Deleted": true,
     "UdListDefinitionId": 693,
     "Rank": 84,
