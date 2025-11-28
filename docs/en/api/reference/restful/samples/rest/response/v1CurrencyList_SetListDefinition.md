@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 706,
-  "Name": "Lebsack-Feeney",
-  "Tooltip": "enim",
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
   "Deleted": true,
   "Rank": 34,
   "IsCustomList": false,

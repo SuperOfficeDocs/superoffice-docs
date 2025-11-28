@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 701,
   "Name": "Collins, O'Hara and Braun",
-  "Tooltip": "aut",
+  "Tooltip": "Currency type",
   "Deleted": true,
   "Rank": 799,
   "UdListDefinitionId": 612,

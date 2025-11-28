@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CurrencyId": 241,
-  "Name": "Bahringer-Volkman",
-  "Tooltip": "qui",
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
   "Rank": 431,
   "Rate": 9771.812,
   "Units": 6032.95,

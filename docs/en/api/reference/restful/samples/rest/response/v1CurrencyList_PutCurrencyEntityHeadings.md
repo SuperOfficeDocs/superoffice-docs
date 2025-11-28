@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 286,
     "Name": "Gorczany, McLaughlin and Donnelly",
-    "Tooltip": "id",
+    "Tooltip": "Currency type",
     "Deleted": false,
     "Rank": 618,
     "UdListDefinitionId": 109,
