@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum-Stroman",
+    "Name": "Q4 Prospects",
     "DisplayName": "O'Conner LLC",
     "DisplayTooltip": "inventore",
     "IsActive": false,
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Bergnaum-Stroman",
+    "Name": "Q4 Prospects",
     "DisplayName": "O'Conner LLC",
     "DisplayTooltip": "inventore",
     "IsActive": false,

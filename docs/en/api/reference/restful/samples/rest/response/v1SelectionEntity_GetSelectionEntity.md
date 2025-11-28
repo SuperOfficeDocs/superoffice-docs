@@ -13,7 +13,7 @@ Last-Modified: Tue, 10 May 2005 14:34:02 G5T
   "GroupIdx": 318,
   "IncludePerson": 133,
   "MemberCount": 99.99,
-  "Name": "Mayer, Shanahan and Nader",
+  "Name": "VIP Customers",
   "PostitTextId": 547,
   "CreatedDate": "2017-10-08T14:34:02.3943037+02:00",
   "SelectionId": 127,

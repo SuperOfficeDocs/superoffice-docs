@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nader-Prosacco",
-    "Description": "Cloned optimizing standardization",
+    "Name": "Q4 Prospects",
+    "Description": "Selection of contacts",
     "Rank": 700,
     "Restrictions": [
       {
-        "Name": "Hilll, Gutkowski and Kunde",
+        "Name": "VIP Customers",
         "Operator": "magnam",
         "Values": [
           "alias",
@@ -32,12 +32,12 @@ Content-Type: application/json; charset=utf-8
     ]
   },
   {
-    "Name": "Nader-Prosacco",
-    "Description": "Cloned optimizing standardization",
+    "Name": "Q4 Prospects",
+    "Description": "Selection of contacts",
     "Rank": 700,
     "Restrictions": [
       {
-        "Name": "Hilll, Gutkowski and Kunde",
+        "Name": "VIP Customers",
         "Operator": "magnam",
         "Values": [
           "alias",

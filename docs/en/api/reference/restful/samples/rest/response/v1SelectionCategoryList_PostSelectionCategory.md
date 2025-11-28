@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 363,
-  "Name": "Walker, Kunze and Cassin",
-  "Tooltip": "similique",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": true,
   "UdListDefinitionId": 119,
   "Rank": 641,

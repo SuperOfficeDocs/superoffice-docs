@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded modular algorithm",
+  "Description": "Selection of contacts",
   "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "GroupIdx": 105,
   "IncludePerson": 664,
   "MemberCount": 99.99,
-  "Name": "Considine, Johnston and Schoen",
+  "Name": "VIP Customers",
   "PostitTextId": 462,
   "CreatedDate": "2000-05-31T14:34:02.3782736+02:00",
   "SelectionId": 701,

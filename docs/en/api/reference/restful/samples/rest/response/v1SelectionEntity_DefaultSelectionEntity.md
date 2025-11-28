@@ -13,7 +13,7 @@ Last-Modified: Sat, 09 Dec 2023 14:34:02 G12T
   "GroupIdx": 748,
   "IncludePerson": 621,
   "MemberCount": 99.99,
-  "Name": "Barton-Bartell",
+  "Name": "Q4 Prospects",
   "PostitTextId": 258,
   "CreatedDate": "2011-01-10T14:34:02.3782736+01:00",
   "SelectionId": 487,

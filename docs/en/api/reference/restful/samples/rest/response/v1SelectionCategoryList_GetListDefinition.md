@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 941,
-  "Name": "Keeling, Bosco and Treutel",
-  "Tooltip": "debitis",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
   "Rank": 142,
   "IsCustomList": false,

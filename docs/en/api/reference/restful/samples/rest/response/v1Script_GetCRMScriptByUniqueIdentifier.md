@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "UniqueIdentifier": "natus",
   "Name": "Jerde, Barrows and Mills",
-  "Description": "Visionary assymetric installation",
+  "Description": "Custom validation logic",
   "IncludeId": "voluptatibus",
   "Source": "consequuntur",
   "Registered": "2004-05-04T14:34:02.8482798+02:00",

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 38,
-    "Name": "Pouros, Mayert and Wilkinson",
-    "Tooltip": "veniam",
+    "Name": "Sales Targets",
+    "Tooltip": "Selection category",
     "Deleted": false,
     "Rank": 3,
     "UdListDefinitionId": 749,

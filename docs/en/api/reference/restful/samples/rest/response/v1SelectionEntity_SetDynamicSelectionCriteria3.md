@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schneider, Schoen and Gusikowski",
+    "Name": "VIP Customers",
     "Operator": "fuga",
     "Values": [
       "atque",
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Raynor, Sipes and Schowalter",
+        "Name": "VIP Customers",
         "Operator": "ducimus",
         "Values": [
           "numquam",

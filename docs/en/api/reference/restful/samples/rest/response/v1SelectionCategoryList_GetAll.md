@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 614,
     "Name": "Hartmann Inc and Sons",
-    "Tooltip": "odit",
+    "Tooltip": "Selection category",
     "Deleted": true,
     "UdListDefinitionId": 846,
     "Rank": 195,

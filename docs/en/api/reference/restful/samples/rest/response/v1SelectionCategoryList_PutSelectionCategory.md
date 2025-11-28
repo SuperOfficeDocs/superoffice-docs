@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 172,
-  "Name": "Daniel, Hansen and Crist",
-  "Tooltip": "optio",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
   "UdListDefinitionId": 607,
   "Rank": 607,

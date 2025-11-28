@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "Rank": 806,
     "Restrictions": [
       {
-        "Name": "Connelly, Schuppe and Hammes",
+        "Name": "VIP Customers",
         "Operator": "ut",
         "Values": [
           "dolores",
@@ -37,7 +37,7 @@ Content-Type: application/json; charset=utf-8
     "Rank": 806,
     "Restrictions": [
       {
-        "Name": "Connelly, Schuppe and Hammes",
+        "Name": "VIP Customers",
         "Operator": "ut",
         "Values": [
           "dolores",

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 159,
-  "Name": "Ondricka, Fay and Rogahn",
-  "Tooltip": "ipsum",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": true,
   "UdListDefinitionId": 983,
   "Rank": 84,

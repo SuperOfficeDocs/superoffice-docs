@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 643,
     "Name": "Ward Group",
-    "Tooltip": "odio",
+    "Tooltip": "Selection category",
     "Deleted": false,
     "UdListDefinitionId": 715,
     "Rank": 30,

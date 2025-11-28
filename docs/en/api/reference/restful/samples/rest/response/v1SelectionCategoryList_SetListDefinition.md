@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 555,
-  "Name": "Ryan-Monahan",
-  "Tooltip": "maxime",
+  "Name": "Marketing Lists",
+  "Tooltip": "Selection category",
   "Deleted": false,
   "Rank": 852,
   "IsCustomList": false,
