@@ -4,8 +4,8 @@ title: Anpassa din dashboard
 description: Lär dig hur du byter namn på, konfigurerar och tar bort dashboards i SuperOffice CRM. Anpassa layout, kolumner och synlighetsinställningar efter behov.
 keywords: redigera dashboard, ta bort dashboard, dashboardkolumner, dashboard, panel, layout
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,13 +33,22 @@ Du kan uppdatera namn, beskrivning, layout eller synlighet för en befintlig das
     * Justera antal **kolumner**
     * Om du har rätt behörighet kan du uppdatera fälten **Synlig för** och **Fäst på**
 
-    > [!NOTE]
-    > Den person som skapar dashboarden anges som **ägare**. Ägarskap kan inte ändras senare.
-
 1. Klicka på **Spara**.
 
 > [!NOTE]
 > Om du ändrar antalet kolumner justeras panelerna automatiskt för att passa det nya upplägget. Inga paneler tas bort, men layouten kan få tomma utrymmen. Du kan sedan flytta eller ändra storlek på panelerna.
+
+## <a id="owner"></a>Överföra ägarskap
+
+Som ägare eller administratör kan du överföra ägandet av en dashboard till en annan användare.
+
+1. Klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Redigera dashboard-information**.
+
+1. I **Ägare** väljer du den nya ägaren.
+
+    ![Dialogrutan Redigera dashboard-information med Ägare-listan utökad för att visa tillgängliga användare -screenshot][img1]
+
+1. Klicka på **Spara**.
 
 ## Redigera paneler och layout
 
@@ -51,7 +60,7 @@ Så här lägger du till, flyttar, redigerar eller tar bort paneler:
 
 ## <a id="delete"></a>Ta bort en dashboard
 
-Endast **ägaren** till en dashboard kan ta bort den. Inte ens administratörer kan ta bort dashboards de inte äger. Ägarskap kan inte överföras.
+Endast **ägaren** till en dashboard, en allmän administratör eller en dashboard-administratör kan ta bort en dashboard.
 
 1. Öppna skärmen **Dashboard**.
 1. Välj dashboarden du vill ta bort.
@@ -69,3 +78,6 @@ Endast **ägaren** till en dashboard kan ta bort den. Inte ens administratörer 
 <!-- Referenced links -->
 [1]: create.md
 [2]: working-with-tiles.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/transfer-dashboard-to-new-owner.png

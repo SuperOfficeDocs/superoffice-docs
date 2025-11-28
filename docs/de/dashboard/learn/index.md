@@ -182,11 +182,13 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 
 * [Ein neues Dashboard erstellen oder ein vorhandenes duplizieren][1]
 * [Ein Dashboard bearbeiten][3]
+* [Dashboard an einen Mitarbeiter übertragen][4]
 * [Kacheln bearbeiten][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

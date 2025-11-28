@@ -182,11 +182,13 @@ Bare **eieren** av et dashbord kan slette det.
 
 * [Opprette et nytt dashbord eller duplisere et eksisterende][1]
 * [Redigere et dashbord][3]
+* [Overføre et dashbord til en kollega][4]
 * [Rediger dashbordfigurer][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

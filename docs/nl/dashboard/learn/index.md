@@ -182,11 +182,13 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 
 * [Een nieuw dashboard maken of een bestaand dupliceren][1]
 * [Een dashboard bewerken][3]
+* [Een dashboard overdragen aan een medewerker][4]
 * [Tegels bewerken][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

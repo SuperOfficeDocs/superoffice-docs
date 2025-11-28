@@ -4,8 +4,8 @@ title: Customize your dashboard
 description: Learn how to rename, configure, and delete dashboards in SuperOffice CRM. Customize layout, columns, and visibility settings to suit your needs.
 keywords: edit dashboard details, delete dashboard, dashboard columns, dashboard, tile, layout
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,13 +33,22 @@ You can update the name, description, layout, or visibility of an existing dashb
     * Adjust the number of **columns**
     * If you have the required functional rights, update **Visible for** and **Pin to** settings
 
-    > [!NOTE]
-    > The person who created the dashboard is the **owner**. Ownership cannot be changed.
-
 1. Click **Save**.
 
 > [!NOTE]
 > If you change the number of columns, the tiles are automatically rearranged to fit the new layout. No tiles are removed, but the grid may reflow in a way that creates empty spaces. You can move or resize tiles afterward to improve the visual layout.
+
+## <a id="owner"></a>Transfer ownership
+
+As the owner or an administrator, you can transfer ownership of a dashboard to another user.
+
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Edit dashboard details**.
+
+1. In **Owner**, select the new owner.
+
+    ![The Edit dashboard details dialog with the Owner list expanded to show available users -screenshot][img1]
+
+1. Click **Save**.
 
 ## Edit tiles and layout
 
@@ -51,7 +60,7 @@ To add, edit, move, or remove tiles:
 
 ## <a id="delete"></a>Delete a dashboard
 
-Only the **owner** of a dashboard can delete it. Even administrators cannot delete dashboards owned by others. Ownership cannot be transferred.
+Only the **owner** of a dashboard, a general administrator, or a dashboard administrator can delete a dashboard.
 
 1. Open the **Dashboard** screen.
 1. Select the dashboard you want to remove.
@@ -71,3 +80,4 @@ Only the **owner** of a dashboard can delete it. Even administrators cannot dele
 [2]: working-with-tiles.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/transfer-dashboard-to-new-owner.png

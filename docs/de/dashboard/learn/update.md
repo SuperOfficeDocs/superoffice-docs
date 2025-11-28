@@ -4,8 +4,8 @@ title: Dashboards personalisieren
 description: Erfahren Sie, wie Sie Dashboards in SuperOffice CRM umbenennen, konfigurieren und löschen. Passen Sie Layout, Spalten und Sichtbarkeit an.
 keywords: Dashboard bearbeiten, Dashboard löschen, Dashboard Spalten, Dashboard, Kachel, Layout
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,13 +33,22 @@ Sie können Name, Beschreibung, Layout oder Sichtbarkeit eines bestehenden Dashb
     * Passen Sie die Anzahl der **Spalten** an
     * Wenn Sie über die erforderlichen Rechte verfügen, aktualisieren Sie die Felder **Sichtbar für** und **Anheften für**
 
-    > [!NOTE]
-    > Der Ersteller des Dashboards ist der **Eigentümer**. Die Eigentümerschaft kann nicht übertragen werden.
-
 1. Klicken Sie auf **Speichern**.
 
 > [!NOTE]
 > Wenn Sie die Anzahl der Spalten ändern, werden die Kacheln automatisch an das neue Layout angepasst. Keine Kacheln werden gelöscht, aber das Raster kann neu angeordnet werden, wodurch Lücken entstehen. Sie können die Kacheln anschließend verschieben oder ihre Größe ändern.
+
+## <a id="owner"></a>Eigentümerschaft übertragen
+
+Als Eigentümer oder Administrator können Sie die Eigentümerschaft eines Dashboards auf einen anderen Benutzer übertragen.
+
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Dashboard-Details bearbeiten** aus.
+
+1. Wählen Sie unter **Eigentümer** den neuen Eigentümer aus.
+
+    ![Das Dialogfeld Dashboard-Details bearbeiten mit der erweiterten Eigentümer-Liste, die verfügbare Benutzer anzeigt -screenshot][img1]
+
+1. Klicken Sie auf **Speichern**.
 
 ## Kacheln und Layout bearbeiten
 
@@ -51,7 +60,7 @@ So fügen Sie Kacheln hinzu, bearbeiten, verschieben oder entfernen Sie sie:
 
 ## <a id="delete"></a>Ein Dashboard löschen
 
-Nur der **Eigentümer** eines Dashboards kann es löschen. Selbst Administratoren können keine fremden Dashboards löschen. Eigentümerschaft kann nicht geändert werden.
+Nur der **Eigentümer** eines Dashboards, ein allgemeiner Administrator oder ein Dashboard-Administrator kann ein Dashboard löschen.
 
 1. Öffnen Sie die Ansicht **Dashboard**.
 1. Wählen Sie das Dashboard aus, das Sie löschen möchten.
@@ -69,3 +78,6 @@ Nur der **Eigentümer** eines Dashboards kann es löschen. Selbst Administratore
 <!-- Referenced links -->
 [1]: create.md
 [2]: working-with-tiles.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/transfer-dashboard-to-new-owner.png
