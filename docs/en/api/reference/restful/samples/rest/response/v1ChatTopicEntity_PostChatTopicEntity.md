@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatTopicId": 744,
-  "Name": "Frami LLC",
+  "Name": "Technical Support",
   "Description": "Versatile human-resource pricing structure",
-  "WelcomeMessage": "aut",
+  "WelcomeMessage": "Welcome! How can we help you today?",
   "Language": null,
   "LastAccept": "2000-05-23T14:34:01.6704923+02:00",
   "SecondsPrAccept": 10,
