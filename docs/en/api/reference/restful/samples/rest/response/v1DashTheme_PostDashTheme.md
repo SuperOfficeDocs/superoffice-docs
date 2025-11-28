@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardThemeId": 120,
-  "Name": "Crist-Bartoletti",
+  "Name": "Corporate Blue",
   "Config": "accusamus",
   "Rank": 879,
   "Client": "quasi",

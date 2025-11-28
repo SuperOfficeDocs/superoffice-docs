@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardThemeId": 188,
-  "Name": "Koss-Jerde",
+  "Name": "Corporate Blue",
   "Config": "aut",
   "Rank": 236,
   "Client": "id",
