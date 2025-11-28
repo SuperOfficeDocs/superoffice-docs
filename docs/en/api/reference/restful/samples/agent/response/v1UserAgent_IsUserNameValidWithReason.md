@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "Username is available and valid",
   "Result": true,
   "TableRight": null,
   "FieldProperties": {

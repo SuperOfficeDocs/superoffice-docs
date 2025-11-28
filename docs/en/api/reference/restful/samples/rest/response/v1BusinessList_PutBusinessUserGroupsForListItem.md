@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Schaefer, Hoppe and Zieme",
-    "ToolTip": "Facilis praesentium.",
+    "Id": 777,
+    "Name": "Support Team",
+    "ToolTip": "Support team access group",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "non",
-    "ColorBlock": 905,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2007-04-27T14:35:44.7906981+02:00",
+    "Rank": 117,
+    "Type": "Business",
+    "ColorBlock": 218,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2000-07-02T14:34:02.9892509+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Strosin Inc and Sons",
-        "ToolTip": "Deserunt deserunt quasi unde dolore maiores mollitia.",
+        "Id": 148,
+        "Name": "Development Team",
+        "ToolTip": "Voluptas iusto.",
         "Deleted": false,
-        "Rank": 561,
-        "Type": "aperiam",
-        "ColorBlock": 502,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2017-04-30T14:35:44.7906981+02:00",
+        "Rank": 612,
+        "Type": "nemo",
+        "ColorBlock": 423,
+        "IconHint": "ipsum",
+        "Selected": true,
+        "LastChanged": "1999-09-04T14:34:02.9892509+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "ratione",
+        "ExtraInfo": "alias",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Miss Leo Sheila O'Conner",
+        "FullName": "Marcella Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Kyle Upton III",
+    "ExtraInfo": "neque",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Madelyn Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldType": "System.String",
+        "FieldLength": 981
       }
     }
   }

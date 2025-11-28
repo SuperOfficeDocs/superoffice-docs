@@ -4,29 +4,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Paucek Inc and Sons",
-    "Operator": "dolores",
+    "Name": "Country",
+    "Operator": "oneOf",
     "Values": [
-      "atque",
-      "voluptatem"
+      "Norway",
+      "Sweden",
+      "Denmark"
     ],
     "DisplayValues": [
-      "voluptatibus",
-      "eos"
+      "Norway",
+      "Sweden",
+      "Denmark"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lueilwitz, Treutel and Frami",
-        "Operator": "dolorem",
+        "Name": "Category",
+        "Operator": "equals",
         "Values": [
-          "qui",
-          "mollitia"
+          "Customer",
+          "Prospect"
         ],
         "DisplayValues": [
-          "quia",
-          "vero"
+          "Customer",
+          "Prospect"
         ],
         "ColumnInfo": null,
         "IsActive": true,

@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Zemlak-Paucek",
-    "ResourceValue": "delectus",
-    "Culture": "perspiciatis",
+    "ResourceName": "SR_CONTACT_SINGULAR",
+    "ResourceValue": "Customer",
+    "Culture": "en-US",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
@@ -18,9 +18,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "ResourceName": "Zemlak-Paucek",
-    "ResourceValue": "delectus",
-    "Culture": "perspiciatis",
+    "ResourceName": "SR_CONTACT_PLURAL",
+    "ResourceValue": "Customers",
+    "Culture": "en-US",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {

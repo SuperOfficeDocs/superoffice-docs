@@ -4,23 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "harum",
-  "LineNumber": 986,
+  "ErrorMessage": "Syntax error: Missing closing bracket on line 8",
+  "LineNumber": 8,
   "ErrorInformation": null,
-  "Transpiled": "dolor",
+  "Transpiled": "",
   "Includes": [
-    944,
-    729
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 993,
-      "LineNumberTo": 378,
-      "Delta": 460,
-      "IncludeId": "illo",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 8,
+      "Delta": 0,
+      "IncludeId": "",
       "IncludedFrom": [
-        "fugit",
-        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {

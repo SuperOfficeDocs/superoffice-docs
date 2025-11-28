@@ -3,31 +3,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "eveniet",
-  "LineNumber": 603,
+  "Valid": false,
+  "ErrorMessage": "explicabo",
+  "LineNumber": 917,
   "ErrorInformation": null,
-  "Transpiled": "totam",
+  "Transpiled": "non",
   "Includes": [
-    60,
-    550
+    238,
+    693
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 136,
-      "LineNumberTo": 600,
-      "Delta": 69,
-      "IncludeId": "quae",
+      "LineNumberFrom": 904,
+      "LineNumberTo": 746,
+      "Delta": 631,
+      "IncludeId": "in",
       "IncludedFrom": [
-        "qui",
-        "facilis"
+        "in",
+        "doloribus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 361
         }
       }
     }
@@ -36,8 +36,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 175
     }
   }
 }

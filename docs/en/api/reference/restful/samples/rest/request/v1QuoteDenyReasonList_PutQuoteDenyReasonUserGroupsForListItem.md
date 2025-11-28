@@ -2,47 +2,47 @@
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Homenick LLC",
-    "ToolTip": "Tempora eaque numquam dignissimos nostrum eos.",
-    "Deleted": false,
-    "Rank": 200,
-    "Type": "id",
-    "ColorBlock": 281,
-    "IconHint": "doloremque",
-    "Selected": false,
-    "LastChanged": "2021-03-27T14:35:45.1974664+01:00",
+    "Id": 608,
+    "Name": "Bins-Gutkowski",
+    "ToolTip": "Qui molestias qui enim quas veniam esse doloribus.",
+    "Deleted": true,
+    "Rank": 411,
+    "Type": "consequuntur",
+    "ColorBlock": 248,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2009-03-28T14:34:03.4247688+01:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Johns, Kautzer and Kub",
-        "ToolTip": "Ratione voluptatibus sed quia ut dolorem aliquid eius.",
-        "Deleted": false,
-        "Rank": 972,
-        "Type": "sed",
-        "ColorBlock": 584,
-        "IconHint": "molestiae",
+        "Id": 468,
+        "Name": "Yost, Johnston and Kozey",
+        "ToolTip": "Dolor officiis sed ipsa qui magni iusto necessitatibus.",
+        "Deleted": true,
+        "Rank": 71,
+        "Type": "aut",
+        "ColorBlock": 454,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2001-11-15T14:35:45.1974664+01:00",
+        "LastChanged": "2008-09-18T14:34:03.4247688+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Lera Leannon II"
+        "ExtraInfo": "adipisci",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Ms. Linda Novella Moore I"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Kyra Stoltenberg"
+    "FullName": "Mateo Cayla Berge DVM"
   }
 ]
 ```

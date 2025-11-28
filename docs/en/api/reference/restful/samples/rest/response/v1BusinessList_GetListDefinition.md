@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Herzog-Tillman",
-  "Tooltip": "voluptatem",
+  "Id": 634,
+  "Name": "Business",
+  "Tooltip": "Business type classification list",
   "Deleted": false,
-  "Rank": 687,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 331,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "Business",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 411
     }
   },
   "_Links": {

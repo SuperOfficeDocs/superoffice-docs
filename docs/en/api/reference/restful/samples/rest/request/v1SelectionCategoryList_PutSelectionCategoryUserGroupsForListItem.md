@@ -2,47 +2,47 @@
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Abernathy-Nikolaus",
-    "ToolTip": "Libero consequatur rerum.",
-    "Deleted": false,
-    "Rank": 688,
-    "Type": "accusamus",
-    "ColorBlock": 62,
-    "IconHint": "natus",
+    "Id": 302,
+    "Name": "Dare-Marquardt",
+    "ToolTip": "In ducimus praesentium quisquam repudiandae ab.",
+    "Deleted": true,
+    "Rank": 768,
+    "Type": "est",
+    "ColorBlock": 225,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2017-10-05T14:35:45.2926759+02:00",
+    "LastChanged": "2022-07-29T14:34:03.503221+02:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Orn, Bashirian and McCullough",
-        "ToolTip": "Ut exercitationem quia aliquam sequi quia nemo et.",
+        "Id": 788,
+        "Name": "Price, Langworth and Effertz",
+        "ToolTip": "Voluptas aut quisquam rerum voluptas aut.",
         "Deleted": true,
-        "Rank": 63,
-        "Type": "et",
-        "ColorBlock": 450,
-        "IconHint": "doloremque",
+        "Rank": 920,
+        "Type": "in",
+        "ColorBlock": 186,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2021-12-31T14:35:45.2926759+01:00",
+        "LastChanged": "2009-03-02T14:34:03.503221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "fuga",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Barrett Carter"
+        "FullName": "Miss Steve Steuber"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sequi",
-    "Hidden": true,
-    "FullName": "Felton Angel Mraz DDS"
+    "ExtraInfo": "quaerat",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Abelardo Donnelly"
   }
 ]
 ```

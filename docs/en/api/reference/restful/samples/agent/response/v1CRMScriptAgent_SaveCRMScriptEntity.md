@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 165,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Anderson, Eichmann and Parisian",
-  "Description": "Future-proofed 24 hour budgetary management",
-  "IncludeId": "quidem",
-  "AccessKey": "facilis",
+  "UniqueIdentifier": "ticket-priority-calculator",
+  "Name": "Ticket Priority Calculator",
+  "Description": "Automatically calculates and updates ticket priority based on customer VIP status and urgency",
+  "IncludeId": "priority-calc",
+  "AccessKey": "api-key-67890",
   "HierarchyId": 816,
-  "Source": "omnis",
-  "SourceCode": "quia",
+  "Source": "#setLanguageLevel 3;\nInteger priority = 3;\nif (customer.isVIP()) { priority = 1; }\nticket.setValue(\"priority\", priority.toString());",
+  "SourceCode": "#setLanguageLevel 3;\nInteger priority = 3;\nif (customer.isVIP()) { priority = 1; }\nticket.setValue(\"priority\", priority.toString());",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 992,
+  "HtmlOutput": 0,
   "Includes": [
     998,
     408
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 539,
-      "LineNumberTo": 273,
-      "Delta": 230,
-      "IncludeId": "et",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 4,
+      "Delta": 0,
+      "IncludeId": "customer-utils",
       "IncludedFrom": [
-        "sit",
-        "nesciunt"
+        "priority-calc",
+        "ticket-handler"
       ],
       "TableRight": null,
       "FieldProperties": {

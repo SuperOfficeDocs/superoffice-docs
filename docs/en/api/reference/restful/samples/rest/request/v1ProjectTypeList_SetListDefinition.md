@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Goldner Inc and Sons",
-  "Tooltip": "et",
+  "Id": 666,
+  "Name": "Monahan-Rempel",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 825,
-  "IsCustomList": true,
+  "Rank": 632,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "at",
+  "InUseByUserDefinedFields": true
 }
 ```

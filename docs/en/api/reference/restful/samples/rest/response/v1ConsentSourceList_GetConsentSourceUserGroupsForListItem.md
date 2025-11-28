@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Kiehn Group",
-    "ToolTip": "Tenetur ipsa impedit.",
-    "Deleted": true,
-    "Rank": 166,
-    "Type": "veritatis",
-    "ColorBlock": 969,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2020-10-07T14:35:44.8499242+02:00",
+    "Id": 63,
+    "Name": "Email Campaign",
+    "ToolTip": "Quisquam in ab quod doloremque doloremque.",
+    "Deleted": false,
+    "Rank": 50,
+    "Type": "ConsentSource",
+    "ColorBlock": 10,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2023-04-29T14:34:03.0527232+02:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Kuvalis-Marks",
-        "ToolTip": "Quo ex excepturi.",
+        "Id": 989,
+        "Name": "In-Person Meeting",
+        "ToolTip": "Et culpa esse est eos.",
         "Deleted": true,
-        "Rank": 784,
-        "Type": "fugit",
-        "ColorBlock": 834,
-        "IconHint": "repellendus",
+        "Rank": 26,
+        "Type": "ConsentSource",
+        "ColorBlock": 82,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2005-07-07T14:35:44.8499242+02:00",
+        "LastChanged": "2006-06-02T14:34:03.0527232+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Ms. Virginia Jeffrey Renner II",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mrs. Gwen Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldType": "System.String",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "odio",
+    "ExtraInfo": "quia",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Miss Antonina Germaine Nitzsche Jr.",
+    "FullName": "Winifred Heaney PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 154
       }
     }
   }

@@ -3,7 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolor",
-  "qui"
+  "name",
+  "contact/category",
+  "contact/business",
+  "contact/department",
+  "emailAddress",
+  "phone/formattedNumber",
+  "contact/country",
+  "contact/createdDate"
 ]
 ```

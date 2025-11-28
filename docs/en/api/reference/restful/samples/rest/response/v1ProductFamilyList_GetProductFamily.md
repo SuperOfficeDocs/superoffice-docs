@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Cassin-Connelly",
-  "Tooltip": "tenetur",
+  "Id": 640,
+  "Name": "CRM Products",
+  "Tooltip": "Product family",
   "Deleted": false,
-  "UdListDefinitionId": 464,
-  "Rank": 237,
+  "UdListDefinitionId": 64,
+  "Rank": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   }
 }

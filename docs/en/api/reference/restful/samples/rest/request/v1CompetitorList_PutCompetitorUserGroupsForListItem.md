@@ -2,47 +2,47 @@
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Runolfsdottir Inc and Sons",
-    "ToolTip": "Quisquam illo quo ab maiores.",
-    "Deleted": false,
-    "Rank": 407,
-    "Type": "distinctio",
-    "ColorBlock": 841,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2002-09-12T14:35:44.8172675+02:00",
+    "Id": 580,
+    "Name": "Sauer-Flatley",
+    "ToolTip": "Tempore maxime quasi iusto.",
+    "Deleted": true,
+    "Rank": 404,
+    "Type": "sint",
+    "ColorBlock": 308,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "1999-07-19T14:34:03.0038304+02:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Leffler, Larson and Vandervort",
-        "ToolTip": "Quisquam molestias unde.",
+        "Id": 705,
+        "Name": "Harvey-Reynolds",
+        "ToolTip": "Quo et.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "ipsam",
-        "ColorBlock": 669,
-        "IconHint": "est",
+        "Rank": 893,
+        "Type": "aut",
+        "ColorBlock": 143,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2025-04-29T14:35:44.8172675+02:00",
+        "LastChanged": "2022-12-16T14:34:03.0038304+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "earum",
+        "ExtraInfo": "harum",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Merl Sienna Mohr DVM"
+        "FullName": "Bertha Ebert"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Allen Borer"
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Jaqueline Luettgen DVM"
   }
 ]
 ```

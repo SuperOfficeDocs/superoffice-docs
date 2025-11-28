@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 32,
-  "Name": "Schaefer-Luettgen",
+  "ScreenChooserId": 0,
+  "Name": "",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quibusdam",
-  "Source": "debitis",
-  "Registered": "2007-09-18T10:10:59.5672471+02:00",
-  "RegisteredAssociateId": 394,
-  "Updated": "2002-10-10T10:10:59.5672471+02:00",
-  "UpdatedAssociateId": 342,
+  "UniqueIdentifier": "",
+  "Source": "",
+  "Registered": "2024-01-01T00:00:00+01:00",
+  "RegisteredAssociateId": 0,
+  "Updated": "2024-01-01T00:00:00+01:00",
+  "UpdatedAssociateId": 0,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

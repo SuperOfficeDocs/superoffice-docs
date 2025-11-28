@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 718,
-  "ChatSessionId": 274,
+  "ChatMessageId": 434,
+  "ChatSessionId": 549,
   "Type": "Invalid",
-  "Message": "omnis",
-  "Author": "qui",
-  "ReadByCustomer": 3,
+  "Message": "How can I help you today?",
+  "Author": "Support Agent",
+  "ReadByCustomer": 705,
   "SpecialType": "Block",
-  "SpecialParam": "nihil",
-  "WhenPosted": "2016-01-27T14:35:43.3875651+01:00"
+  "SpecialParam": "priority=high",
+  "WhenPosted": "2025-04-22T14:34:01.664492+02:00"
 }
 ```

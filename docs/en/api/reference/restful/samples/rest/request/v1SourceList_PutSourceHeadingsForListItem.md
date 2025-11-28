@@ -2,47 +2,47 @@
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Lindgren-Roob",
-    "ToolTip": "Voluptas dolores quas rem cum.",
-    "Deleted": false,
-    "Rank": 579,
-    "Type": "omnis",
-    "ColorBlock": 349,
-    "IconHint": "voluptatem",
+    "Id": 673,
+    "Name": "Shields-Sporer",
+    "ToolTip": "Libero itaque.",
+    "Deleted": true,
+    "Rank": 956,
+    "Type": "a",
+    "ColorBlock": 128,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2015-04-08T14:35:45.3097047+02:00",
+    "LastChanged": "2015-02-21T14:34:03.538861+01:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Reinger, Daniel and Cole",
-        "ToolTip": "Explicabo nulla deserunt impedit corporis et dolore.",
+        "Id": 147,
+        "Name": "Daugherty-Sawayn",
+        "ToolTip": "Quas incidunt dignissimos laudantium natus assumenda quis est.",
         "Deleted": true,
-        "Rank": 811,
-        "Type": "ipsa",
-        "ColorBlock": 78,
-        "IconHint": "harum",
+        "Rank": 82,
+        "Type": "ad",
+        "ColorBlock": 431,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2003-11-29T14:35:45.310705+01:00",
+        "LastChanged": "2012-01-18T14:34:03.5398608+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "expedita",
+        "ExtraInfo": "culpa",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Mr. Elfrieda Zieme"
+        "FullName": "Mr. Ubaldo Cartwright Jr."
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Giuseppe D'Amore"
+    "ExtraInfo": "fugit",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Miss Soledad Pagac III"
   }
 ]
 ```

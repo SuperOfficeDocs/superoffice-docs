@@ -4,34 +4,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 192,
-    "Name": "Morar, Pagac and Halvorson",
+    "WebPanelId": 473,
+    "Name": "Customer Portal",
     "Tooltip": "et",
     "Deleted": false,
-    "Rank": 987,
+    "Rank": 259,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
+    "OnCentral": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Kovacek, Monahan and Powlowski",
+    "WindowName": "Kub Group",
     "Url": "http://www.example.com/",
     "ProgId": "et",
-    "Icon": 155,
-    "AlwaysReloadOnShow": true,
+    "Icon": 835,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 206
       }
     }
   }

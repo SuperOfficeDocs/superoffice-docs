@@ -3,25 +3,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 873,
-  "BlobSize": 484,
-  "Description": "Down-sized mission-critical superstructure",
-  "ExtraInfo": "porro",
+  "BlobId": 706,
+  "BlobSize": 119,
+  "Description": "Grass-roots bottom-line utilisation",
+  "ExtraInfo": "fugiat",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 386,
-  "CreatedDate": "2009-10-30T14:35:43.4315821+01:00",
-  "UpdatedDate": "2003-09-25T14:35:43.4315821+02:00",
+  "MimeType": "repudiandae",
+  "OriginalSize": 896,
+  "CreatedDate": "2011-04-15T14:34:01.6958829+02:00",
+  "UpdatedDate": "2005-11-20T14:34:01.6958829+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldLength": 240
     }
   }
 }

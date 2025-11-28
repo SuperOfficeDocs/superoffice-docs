@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SuggestedDocumentId": 927,
-  "Name": "Rowe LLC",
-  "Tooltip": "possimus",
+  "Name": "Meeting Minutes Template",
+  "Tooltip": "Use this template for recording meeting minutes",
   "Rank": 42,
   "DoctmplId": 240,
-  "Header": "autem",
-  "OurRef": "magnam",
+  "Header": "Meeting Minutes",
+  "OurRef": "TMPL-MINUTES-001",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,

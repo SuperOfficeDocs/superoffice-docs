@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 440,
-  "Value": "omnis",
-  "Tooltip": "itaque",
-  "Probability": 866,
+  "SaleStageId": 998,
+  "Value": "quos",
+  "Tooltip": "Rating level",
+  "Probability": 359,
   "Deleted": false,
-  "Rank": 795,
+  "Rank": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

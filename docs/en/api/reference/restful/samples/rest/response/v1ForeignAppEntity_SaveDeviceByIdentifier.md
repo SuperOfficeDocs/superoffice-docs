@@ -3,21 +3,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 102,
-  "Name": "Wuckert, Roob and Durgan",
-  "CreatedDate": "2011-08-20T14:35:43.7796889+02:00",
-  "UpdatedDate": "2025-06-10T14:35:43.7796889+02:00",
-  "AssociateFullName": "Ms. Neil Torphy Jr.",
-  "CreatedBy": "aperiam",
-  "UpdatedBy": "necessitatibus",
-  "DeviceIdentifier": "doloribus",
-  "ForeignAppId": 899,
+  "ForeignDeviceId": 1001,
+  "Name": "Armstrong LLC",
+  "CreatedDate": "2012-08-01T14:34:02.0200617+02:00",
+  "UpdatedDate": "2021-08-02T14:34:02.0200617+02:00",
+  "AssociateFullName": "Myrtie Crooks",
+  "CreatedBy": "quis",
+  "UpdatedBy": "eum",
+  "DeviceIdentifier": "aperiam",
+  "ForeignAppId": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldLength": 841
     }
   }
 }

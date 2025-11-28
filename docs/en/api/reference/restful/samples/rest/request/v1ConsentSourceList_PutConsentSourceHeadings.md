@@ -2,25 +2,25 @@
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Johnson Inc and Sons",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 26
+    "HeadingId": 578,
+    "Name": "Rodriguez-Hayes",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 817,
+    "UdListDefinitionId": 713
   },
   {
-    "HeadingId": 420,
-    "Name": "Johnson Inc and Sons",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 26
+    "HeadingId": 578,
+    "Name": "Rodriguez-Hayes",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 817,
+    "UdListDefinitionId": 713
   }
 ]
 ```

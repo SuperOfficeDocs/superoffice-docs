@@ -3,18 +3,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 297,
-  "PrefDescId": 850,
-  "PrefValue": "eveniet",
-  "PrefShowValue": "nam",
-  "Description": "Enterprise-wide didactic definition",
-  "IsBuiltin": false,
+  "PrefDescLineId": 794,
+  "PrefDescId": 497,
+  "PrefValue": "eum",
+  "PrefShowValue": "ad",
+  "Description": "User preference setting",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 115
     }
   },
   "_Links": {

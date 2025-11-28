@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2021-04-25T10:11:01.787424+02:00",
-    "ValidTo": "2024-07-24T10:11:01.787424+02:00",
-    "Comment": "excepturi",
-    "SecretValue": "illum",
-    "PublicValue": "ut",
+    "ValidFrom": "2024-01-15T00:00:00+01:00",
+    "ValidTo": "2025-01-15T00:00:00+01:00",
+    "Comment": "API integration key",
+    "SecretValue": "********",
+    "PublicValue": "api-key-abc123",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {

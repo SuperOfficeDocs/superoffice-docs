@@ -4,30 +4,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sawayn Group",
-    "DisplayName": "Daugherty LLC",
-    "DisplayTooltip": "suscipit",
-    "IsActive": false,
+    "Name": "Global Industries Ltd",
+    "DisplayName": "Dare, Blanda and Klocko",
+    "DisplayTooltip": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 340
       }
     }
   },
   {
-    "Name": "Sawayn Group",
-    "DisplayName": "Daugherty LLC",
-    "DisplayTooltip": "suscipit",
-    "IsActive": false,
+    "Name": "Global Industries Ltd",
+    "DisplayName": "Dare, Blanda and Klocko",
+    "DisplayTooltip": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 340
       }
     }
   }

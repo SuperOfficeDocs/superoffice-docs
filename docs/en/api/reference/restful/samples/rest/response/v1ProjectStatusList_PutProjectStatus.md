@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Medhurst, O'Conner and Baumbach",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 191,
-  "Rank": 138,
+  "Id": 622,
+  "Name": "Kunze Inc and Sons",
+  "Tooltip": "Project status",
+  "Deleted": true,
+  "UdListDefinitionId": 361,
+  "Rank": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

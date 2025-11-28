@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Cummerata, Erdman and Legros",
-    "Tooltip": "corrupti",
+    "Id": 648,
+    "Name": "Torphy Inc and Sons",
+    "Tooltip": "Product type",
     "Deleted": false,
-    "UdListDefinitionId": 681,
-    "Rank": 874,
+    "UdListDefinitionId": 422,
+    "Rank": 988,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 965
       }
     }
   }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Kling, Yost and Bruen",
-  "Tooltip": "aut",
+  "Id": 953,
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "UdListDefinitionId": 244,
-  "Rank": 991,
+  "UdListDefinitionId": 398,
+  "Rank": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldLength": 582
     }
   }
 }

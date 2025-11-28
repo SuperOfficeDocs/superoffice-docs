@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 55,
-  "Name": "Doyle, Turcotte and Bartoletti",
-  "Tooltip": "error",
+  "Id": 600,
+  "Name": "Bahringer-O'Keefe",
+  "Tooltip": "Product family",
   "Deleted": false,
-  "Rank": 859,
+  "Rank": 209,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

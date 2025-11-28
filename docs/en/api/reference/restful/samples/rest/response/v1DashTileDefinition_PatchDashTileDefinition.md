@@ -3,36 +3,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 230,
-  "Name": "Cormier LLC",
-  "Description": "Digitized global projection",
-  "DefaultHeight": 166,
-  "DefaultWidth": 451,
+  "DashboardTileDefinitionId": 487,
+  "Name": "Sales Pipeline Chart",
+  "Description": "Enterprise-wide context-sensitive flexibility",
+  "DefaultHeight": 905,
+  "DefaultWidth": 312,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Powlowski-Bartell",
-  "SelectionId": 475,
+  "EntityName": "Price, Daniel and Hammes",
+  "SelectionId": 694,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "unde",
   "Measure": "Average",
-  "MeasureField": "dolorem",
-  "SortBy": "porro",
-  "LayoutConfig": "velit",
-  "SecondarySelectionId": 260,
-  "MeasureByField": "qui",
+  "MeasureField": "impedit",
+  "SortBy": "et",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 235,
+  "MeasureByField": "dolorem",
   "Usage": "Dashboard",
-  "ProviderName": "Macejkovic, Greenfelder and Ziemann",
+  "ProviderName": "Ankunding LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

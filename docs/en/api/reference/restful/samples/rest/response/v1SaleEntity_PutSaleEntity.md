@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "corrupti",
+  "SaleText": "dolorem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -18,113 +18,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-02-10T14:35:44.225205+01:00",
-  "Amount": 5813.57,
-  "SaleId": 395,
-  "Earning": 12498.392,
-  "EarningPercent": 2877.0119999999997,
-  "Heading": "eaque",
-  "Number": "884355",
-  "Probability": 705,
-  "CreatedDate": "2021-05-21T14:35:44.225205+02:00",
-  "UpdatedDate": "2008-01-26T14:35:44.225205+01:00",
+  "Saledate": "2013-04-07T14:34:02.3378082+02:00",
+  "Amount": 21571.322,
+  "SaleId": 334,
+  "Earning": 22859.396,
+  "EarningPercent": 24194.48,
+  "Heading": "dolor",
+  "Number": "1089712",
+  "Probability": 589,
+  "CreatedDate": "2023-06-13T14:34:02.3378082+02:00",
+  "UpdatedDate": "2013-01-10T14:34:02.3378082+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 639,
+  "ActiveLinks": 534,
   "Links": [
     {
-      "EntityName": "Sawayn-Osinski",
-      "Id": 144,
-      "Description": "Profound actuating architecture",
-      "ExtraInfo": "hic",
-      "LinkId": 724,
+      "EntityName": "Dicki, Konopelski and Cole",
+      "Id": 99,
+      "Description": "Intuitive bandwidth-monitored help-desk",
+      "ExtraInfo": "sed",
+      "LinkId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 982
         }
       }
     }
   ],
-  "NextDueDate": "2010-01-30T14:35:44.225205+01:00",
-  "Postit": "doloremque",
+  "NextDueDate": "2019-12-24T14:34:02.3378082+01:00",
+  "Postit": "quo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-02-27T14:35:44.225205+01:00",
+  "ReopenDate": "2015-08-21T14:34:02.3378082+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Terry Group",
-      "Comment": "qui",
-      "StakeholderRoleId": 74,
-      "CountryId": 295,
-      "PersonId": 959,
-      "EmailDescription": "osbaldo@macejkovic.uk",
-      "EmailId": 911,
-      "EmailAddress": "elenora@reilly.co.uk",
-      "PhoneId": 138,
-      "ContactName": "Corkery-Fritsch",
-      "ContactId": 14,
-      "SaleId": 997,
-      "Mrmrs": "voluptatum",
-      "Firstname": "Kyle",
-      "MiddleName": "Kreiger-Franecki",
-      "Lastname": "Volkman",
-      "SaleStakeholderId": 744,
-      "Rank": 275,
-      "Phone": "873.069.3364",
+      "StakeholderRoleName": "Brekke, Casper and Beahan",
+      "Comment": "non",
+      "StakeholderRoleId": 873,
+      "CountryId": 107,
+      "PersonId": 88,
+      "EmailDescription": "keith_casper@ziemann.name",
+      "EmailId": 607,
+      "EmailAddress": "eladio_bode@satterfieldhomenick.ca",
+      "PhoneId": 953,
+      "ContactName": "Jakubowski, Kreiger and Schroeder",
+      "ContactId": 579,
+      "SaleId": 340,
+      "Mrmrs": "temporibus",
+      "Firstname": "Stephan",
+      "MiddleName": "Miller, O'Reilly and Zieme",
+      "Lastname": "Kozey",
+      "SaleStakeholderId": 58,
+      "Rank": 448,
+      "Phone": "998.337.3627 x55828",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldType": "System.Int32",
+          "FieldLength": 273
         }
       }
     }
   ],
-  "ActiveErpLinks": 567,
+  "ActiveErpLinks": 530,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Meghan Wisoky"
+    "SuperOffice:2": "Ms. Eldora Lillian Douglas PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2021-06-29T14:35:44.2262054+02:00",
-  "PublishTo": "2014-04-19T14:35:44.2262054+02:00",
-  "PublishFrom": "2001-03-31T14:35:44.2262054+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-05-16T14:34:02.3398081+02:00",
+  "PublishTo": "2010-05-16T14:34:02.3398081+02:00",
+  "PublishFrom": "2016-10-13T14:34:02.3398081+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 397,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     },
     {
-      "VisibleId": 397,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   },
   "_Links": {

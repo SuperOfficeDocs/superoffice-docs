@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReplyTemplateId": 706,
-  "PlainParsed": "delectus",
-  "HtmlParsed": "aut",
+  "PlainParsed": "Dear Customer,\n\nThank you for contacting us. We have received your request and will respond within 24 hours.\n\nBest regards,\nCustomer Support Team",
+  "HtmlParsed": "<p>Dear Customer,</p><p>Thank you for contacting us. We have received your request and will respond within 24 hours.</p><p>Best regards,<br/>Customer Support Team</p>",
   "Attachments": [
     {
-      "AttachmentId": 960,
-      "Name": "Boyle, Ruecker and Kuphal",
+      "AttachmentId": 964,
+      "Name": "company-logo.png",
       "ContentType": "non",
       "AttSize": 427,
       "InlineImage": false,
@@ -26,7 +26,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "delectus",
+  "Subject": "Re: Your support request has been received",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

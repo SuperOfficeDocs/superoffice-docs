@@ -1,23 +1,23 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 20 Oct 2021 14:35:43 G10T
+Last-Modified: Wed, 16 Feb 2005 14:34:02 G2T
 
 {
-  "Key": "adipisci",
-  "Value": "ex",
-  "RecordId": 696,
-  "CreatedDate": "2021-01-07T14:35:43.7846913+01:00",
-  "UpdatedDate": "2021-10-20T14:35:43.7846913+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "consequatur",
-  "TableName": "Raynor LLC",
+  "Key": "quasi",
+  "Value": "quam",
+  "RecordId": 590,
+  "CreatedDate": "2006-11-27T14:34:02.0250857+01:00",
+  "UpdatedDate": "2005-02-16T14:34:02.0250857+01:00",
+  "UpdatedBy": "dolorem",
+  "CreatedBy": "nobis",
+  "TableName": "Gibson, Turcotte and Mayert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldType": "System.String",
+      "FieldLength": 919
     }
   }
 }

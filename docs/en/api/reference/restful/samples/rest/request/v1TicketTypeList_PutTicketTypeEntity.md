@@ -2,35 +2,35 @@
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 601,
-  "Name": "Ryan Group",
-  "Rank": 471,
-  "Tooltip": "odio",
-  "Icon": "cumque",
-  "DefaultTicketStatus": 81,
+  "TicketTypeId": 646,
+  "Name": "Becker, Cormier and Stamm",
+  "Rank": 540,
+  "Tooltip": "molestiae",
+  "Icon": "corrupti",
+  "DefaultTicketStatus": 546,
   "TicketStatuses": [
-    367,
-    192
+    684,
+    722
   ],
-  "DefaultTicketPriority": 990,
+  "DefaultTicketPriority": 868,
   "TicketPriorities": [
-    318,
-    808
+    796,
+    684
   ],
-  "ReplyTemplate": 51,
+  "ReplyTemplate": 1002,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    803,
-    126
+    365,
+    753
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Paucek-Barrows",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 290,
-    "Rank": 225,
+    "Id": 724,
+    "Name": "Larkin Inc and Sons",
+    "Tooltip": "Product type",
+    "Deleted": false,
+    "UdListDefinitionId": 854,
+    "Rank": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 545
       }
     }
   }

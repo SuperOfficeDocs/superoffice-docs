@@ -2,7 +2,7 @@
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "distinctio",
+  "SaleText": "vel",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -21,90 +21,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-10-28T14:35:44.253742+02:00",
-  "Amount": 22793.582,
-  "SaleId": 825,
-  "Earning": 2751.652,
-  "EarningPercent": 777.232,
-  "Heading": "error",
-  "Number": "513269",
-  "Probability": 68,
-  "CreatedDate": "2019-04-30T14:35:44.253742+02:00",
-  "UpdatedDate": "2022-10-17T14:35:44.253742+02:00",
+  "Saledate": "2014-06-12T14:34:02.3624465+02:00",
+  "Amount": 24379.386,
+  "SaleId": 691,
+  "Earning": 9336.186,
+  "EarningPercent": 16390.82,
+  "Heading": "sed",
+  "Number": "746384",
+  "Probability": 571,
+  "CreatedDate": "2024-07-31T14:34:02.3624465+02:00",
+  "UpdatedDate": "2018-08-18T14:34:02.3624465+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 766,
+  "ActiveLinks": 616,
   "Links": [
     {
-      "EntityName": "Stark, Ritchie and Yundt",
-      "Id": 95,
-      "Description": "Fully-configurable even-keeled data-warehouse",
-      "ExtraInfo": "quos",
-      "LinkId": 157
+      "EntityName": "Lebsack, Smith and Roberts",
+      "Id": 811,
+      "Description": "Open-architected logistical orchestration",
+      "ExtraInfo": "consequatur",
+      "LinkId": 657
     },
     {
-      "EntityName": "Stark, Ritchie and Yundt",
-      "Id": 95,
-      "Description": "Fully-configurable even-keeled data-warehouse",
-      "ExtraInfo": "quos",
-      "LinkId": 157
+      "EntityName": "Lebsack, Smith and Roberts",
+      "Id": 811,
+      "Description": "Open-architected logistical orchestration",
+      "ExtraInfo": "consequatur",
+      "LinkId": 657
     }
   ],
-  "NextDueDate": "2000-09-30T14:35:44.253742+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2025-10-12T14:34:02.3624465+02:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-01-23T14:35:44.253742+01:00",
+  "ReopenDate": "2018-09-26T14:34:02.3624465+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stokes, Fisher and Lakin",
-      "Comment": "a",
-      "StakeholderRoleId": 987,
-      "CountryId": 663,
-      "PersonId": 437,
-      "EmailDescription": "clinton.anderson@murraybergstrom.ca",
-      "EmailId": 220,
-      "EmailAddress": "wilmer_welch@hilpert.biz",
-      "PhoneId": 47,
-      "ContactName": "Langworth, Rempel and Haag",
-      "ContactId": 183,
-      "SaleId": 865,
-      "Mrmrs": "vero",
-      "Firstname": "Adelle",
-      "MiddleName": "Bednar-Hermann",
-      "Lastname": "Heller",
-      "SaleStakeholderId": 313,
-      "Rank": 495,
-      "Phone": "(756)824-4046 x9935"
+      "StakeholderRoleName": "Hilpert-Nolan",
+      "Comment": "ipsam",
+      "StakeholderRoleId": 675,
+      "CountryId": 993,
+      "PersonId": 459,
+      "EmailDescription": "carroll.prohaska@hamillcole.co.uk",
+      "EmailId": 652,
+      "EmailAddress": "amara@upton.us",
+      "PhoneId": 413,
+      "ContactName": "Ward LLC",
+      "ContactId": 764,
+      "SaleId": 60,
+      "Mrmrs": "voluptate",
+      "Firstname": "Jaeden",
+      "MiddleName": "VonRueden Inc and Sons",
+      "Lastname": "Kuhic",
+      "SaleStakeholderId": 475,
+      "Rank": 719,
+      "Phone": "1-526-101-4626"
     }
   ],
-  "ActiveErpLinks": 40,
+  "ActiveErpLinks": 997,
   "UserDefinedFields": {
-    "SuperOffice:1": "1763445209",
-    "SuperOffice:2": "276242446"
+    "SuperOffice:1": "Mrs. Constance Wiley Corkery",
+    "SuperOffice:2": "Rosemarie Boyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "est",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "aut",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2021-10-11T14:35:44.254742+02:00",
-  "PublishTo": "2007-11-02T14:35:44.254742+01:00",
-  "PublishFrom": "2024-01-24T14:35:44.254742+01:00",
+  "PublishEventDate": "2019-12-16T14:34:02.3624465+01:00",
+  "PublishTo": "2023-04-19T14:34:02.3624465+02:00",
+  "PublishFrom": "2019-03-31T14:34:02.3624465+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 130,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "ab"
     },
     {
-      "VisibleId": 130,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "ab"
     }
   ]
 }

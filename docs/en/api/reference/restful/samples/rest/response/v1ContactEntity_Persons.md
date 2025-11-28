@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "id",
+  "odata.nextLink": "delectus",
   "value": [
     {
-      "PrimaryKey": 7517,
+      "PrimaryKey": 1728,
       "EntityName": "person",
-      "personId": 7517,
-      "fullName": "Miss Khalil Lexie Crooks"
+      "personId": 1728,
+      "fullName": "Magnolia Schinner III"
     },
     {
-      "PrimaryKey": 4949,
+      "PrimaryKey": 985,
       "EntityName": "person",
-      "personId": 4949,
-      "fullName": "Karolann Luettgen"
+      "personId": 985,
+      "fullName": "Chyna Gerlach"
     }
   ]
 }

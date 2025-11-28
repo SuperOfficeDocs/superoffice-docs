@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Braun Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 965,
+  "Name": "Aufderhar Group",
+  "Tooltip": "Payment terms",
   "Deleted": false,
-  "UdListDefinitionId": 322,
-  "Rank": 26,
+  "UdListDefinitionId": 687,
+  "Rank": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 720
     }
   }
 }

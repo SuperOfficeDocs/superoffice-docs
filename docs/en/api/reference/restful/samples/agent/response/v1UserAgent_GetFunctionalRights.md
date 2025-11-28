@@ -4,28 +4,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Heaney Inc and Sons",
-    "ToolTip": "Sed consequatur beatae est suscipit quia corrupti et.",
+    "Id": 1,
+    "Name": "Allow bulk update",
+    "ToolTip": "Permission to update multiple records at once",
     "Deleted": false,
-    "Rank": 844,
-    "Type": "officia",
-    "ColorBlock": 734,
-    "IconHint": "quod",
+    "Rank": 1,
+    "Type": "Functional",
+    "ColorBlock": 0,
+    "IconHint": "update",
     "Selected": true,
-    "LastChanged": "2009-06-20T10:11:01.7377856+02:00",
+    "LastChanged": "2024-10-15T10:00:00+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Rath Inc and Sons",
-        "ToolTip": "Pariatur quia id et vel maxime omnis id.",
+        "Id": 2,
+        "Name": "Export to Excel",
+        "ToolTip": "Permission to export data to Excel format",
         "Deleted": false,
-        "Rank": 961,
-        "Type": "similique",
-        "ColorBlock": 291,
-        "IconHint": "pariatur",
+        "Rank": 2,
+        "Type": "Functional",
+        "ColorBlock": 0,
+        "IconHint": "export",
         "Selected": true,
-        "LastChanged": "2009-08-26T10:11:01.7377856+02:00",
+        "LastChanged": "2024-09-20T14:30:00+02:00",
         "ChildItems": [
           {},
           {}
@@ -33,7 +33,7 @@ Content-Type: application/json; charset=utf-8
         "ExtraInfo": "quidem",
         "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Anahi Mante",
+        "FullName": "Export to Excel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

@@ -6,11 +6,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Will, Runolfsdottir and Heidenreich",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "UdListDefinitionId": 833,
-  "Rank": 672
+  "Id": 496,
+  "Name": "Heller-Kub",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 876,
+  "Rank": 507
 }
 ```

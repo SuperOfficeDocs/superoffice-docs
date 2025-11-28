@@ -3,53 +3,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 731,
-  "Name": "Waters, Bode and Gerhold",
-  "Tooltip": "qui",
-  "Rank": 892,
+  "SaleTypeId": 28,
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
+  "Rank": 499,
   "DurationUnit": "Century",
-  "SaleDuration": 178,
-  "SaleTypeCatId": 247,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 28,
+  "SaleTypeCatId": 113,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 779,
-  "QuoteLinesTemplate": 683,
-  "ConfirmationLinesTemplate": 209,
+  "DefaultQuoteValidity": 237,
+  "QuoteLinesTemplate": 625,
+  "ConfirmationLinesTemplate": 127,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 333,
-  "MinEarningPercent": 828,
-  "GroupQuoteLinesBy": 780,
-  "SortGroupLinesBy": 459,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 594,
+  "MinEarningPercent": 902,
+  "GroupQuoteLinesBy": 351,
+  "SortGroupLinesBy": 877,
   "Stages": [
     {
-      "Id": 304,
-      "Name": "McDermott Inc and Sons",
-      "ToolTip": "Et pariatur illum rerum fuga et.",
+      "Id": 643,
+      "Name": "Renewal",
+      "ToolTip": "Quia vitae dolore consequatur et perspiciatis.",
       "Deleted": false,
-      "Rank": 653,
-      "Type": "et",
-      "ColorBlock": 782,
-      "IconHint": "aperiam",
+      "Rank": 33,
+      "Type": "reiciendis",
+      "ColorBlock": 837,
+      "IconHint": "porro",
       "Selected": false,
-      "LastChanged": "2016-07-05T14:35:45.274485+02:00",
+      "LastChanged": "2003-03-04T14:34:03.4986489+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "ullam",
+      "ExtraInfo": "unde",
+      "StyleHint": "alias",
       "Hidden": true,
-      "FullName": "Zoe Pacocha",
+      "FullName": "Mr. Trenton Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     }
@@ -58,8 +58,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

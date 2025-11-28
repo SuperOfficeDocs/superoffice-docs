@@ -6,23 +6,23 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 88,
-  "Name": "Kautzer Group",
-  "CreatedDate": "1999-01-06T14:35:43.7616537+01:00",
-  "UpdatedDate": "2015-04-12T14:35:43.7616537+02:00",
+  "ForeignAppId": 378,
+  "Name": "Stehr Inc and Sons",
+  "CreatedDate": "2000-12-29T14:34:01.9870942+01:00",
+  "UpdatedDate": "2004-01-24T14:34:01.9870942+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 743,
-      "Name": "Herman Inc and Sons",
-      "CreatedDate": "1999-12-24T14:35:43.7626527+01:00",
-      "UpdatedDate": "2010-12-29T14:35:43.7626527+01:00",
-      "AssociateFullName": "Nina Jakubowski",
-      "CreatedBy": "aperiam",
-      "UpdatedBy": "fugiat",
-      "DeviceIdentifier": "nobis",
-      "ForeignAppId": 498
+      "ForeignDeviceId": 678,
+      "Name": "Goodwin-Weissnat",
+      "CreatedDate": "2017-09-13T14:34:01.9870942+02:00",
+      "UpdatedDate": "2015-07-24T14:34:01.9870942+02:00",
+      "AssociateFullName": "Francis Jacobi MD",
+      "CreatedBy": "qui",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "officiis",
+      "ForeignAppId": 896
     }
   ]
 }

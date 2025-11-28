@@ -3,9 +3,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "aut",
-  "NsPluginSender": "natus",
+  "DefaultSmsCountry": "United States",
+  "NetServerSmsProvider": "Twilio",
+  "NsPluginSender": "+15551234567",
   "NsPluginConfig": {
     "NsPluginConfig1": "optio",
     "NsPluginConfig2": "quo"

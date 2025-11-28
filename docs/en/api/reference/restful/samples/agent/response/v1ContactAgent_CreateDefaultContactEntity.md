@@ -3,19 +3,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 835,
-  "Name": "Hagenes-Parisian",
+  "ContactId": 0,
+  "Name": "",
   "Department": "",
-  "OrgNr": "627713",
-  "Number1": "509597",
-  "Number2": "650793",
+  "OrgNr": "",
+  "Number1": "",
+  "Number2": "",
   "UpdatedDate": "2004-04-22T10:10:59.3347031+02:00",
   "CreatedDate": "2007-02-20T10:10:59.3347031+01:00",
   "Emails": [
     {
-      "Value": "ut",
-      "StrippedValue": "sit",
-      "Description": "Programmable incremental project",
+      "Value": "",
+      "StrippedValue": "",
+      "Description": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -41,9 +41,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Interests": [
     {
-      "Id": 182,
-      "Name": "Koss, Ledner and McKenzie",
-      "ToolTip": "Sapiente ut rerum rem officiis.",
+      "Id": 0,
+      "Name": "",
+      "ToolTip": "",
       "Deleted": false,
       "Rank": 385,
       "Type": "dolorem",
@@ -71,9 +71,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Urls": [
     {
-      "Value": "dicta",
-      "StrippedValue": "iure",
-      "Description": "Inverse bifurcated info-mediaries",
+      "Value": "",
+      "StrippedValue": "",
+      "Description": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -99,9 +99,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Phones": [
     {
-      "Value": "eligendi",
-      "StrippedValue": "repellat",
-      "Description": "Extended next generation artificial intelligence",
+      "Value": "",
+      "StrippedValue": "",
+      "Description": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Faxes": [
     {
-      "Value": "officiis",
-      "StrippedValue": "quis",
-      "Description": "Function-based analyzing productivity",
+      "Value": "",
+      "StrippedValue": "",
+      "Description": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -162,31 +162,31 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "cumque",
-      "PersonId": 710,
-      "Mrmrs": "itaque",
-      "Firstname": "Sage",
-      "Lastname": "Borer",
-      "MiddleName": "Stehr-Schroeder",
-      "Title": "et",
-      "Description": "Upgradable heuristic middleware",
-      "Email": "stewart_crist@smithamullrich.biz",
-      "FullName": "Sonya Deckow",
-      "DirectPhone": "(876)562-4273 x23095",
-      "FormalName": "Halvorson, Schimmel and Walsh",
-      "CountryId": 411,
-      "ContactId": 362,
-      "ContactName": "Rutherford, Schiller and Ward",
+      "Position": "",
+      "PersonId": 0,
+      "Mrmrs": "",
+      "Firstname": "",
+      "Lastname": "",
+      "MiddleName": "",
+      "Title": "",
+      "Description": "",
+      "Email": "",
+      "FullName": "",
+      "DirectPhone": "",
+      "FormalName": "",
+      "CountryId": 0,
+      "ContactId": 0,
+      "ContactName": "",
       "Retired": 318,
       "Rank": 151,
       "ActiveInterests": 220,
       "ContactDepartment": "",
       "ContactCountryId": 17,
-      "ContactOrgNr": "1277547",
-      "FaxPhone": "619.402.8462",
-      "MobilePhone": "614.959.2072 x091",
-      "ContactPhone": "859.255.9319 x44080",
-      "AssociateName": "Batz, Bernier and Klocko",
+      "ContactOrgNr": "",
+      "FaxPhone": "",
+      "MobilePhone": "",
+      "ContactPhone": "",
+      "AssociateName": "",
       "AssociateId": 449,
       "UsePersonAddress": false,
       "ContactFax": "nisi",
@@ -195,14 +195,14 @@ Content-Type: application/json; charset=utf-8
       "Post1": "rerum",
       "Post2": "debitis",
       "Post3": "nisi",
-      "EmailName": "baby_jast@larson.uk",
-      "ContactFullName": "Koby Little I",
-      "ActiveErpLinks": 711,
-      "TicketPriorityId": 220,
-      "SupportLanguageId": 902,
-      "SupportAssociateId": 886,
-      "CategoryName": "VIP Customer",
-      "PersonNumber": "569306",
+      "EmailName": "",
+      "ContactFullName": "",
+      "ActiveErpLinks": 0,
+      "TicketPriorityId": 0,
+      "SupportLanguageId": 0,
+      "SupportAssociateId": 0,
+      "CategoryName": "",
+      "PersonNumber": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -232,8 +232,6 @@ Content-Type: application/json; charset=utf-8
   "Source": 943,
   "ActiveErpLinks": 696,
   "BounceEmails": [
-    "gerard@bernierstehr.us",
-    "queen.schinner@harrisgottlieb.info"
   ],
   "Domains": [
     "pariatur",

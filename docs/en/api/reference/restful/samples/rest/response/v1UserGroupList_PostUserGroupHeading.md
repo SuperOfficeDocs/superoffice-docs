@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 870,
-  "Name": "Bernhard-Abbott",
-  "Tooltip": "voluptatem",
+  "HeadingId": 152,
+  "Name": "Leffler LLC",
+  "Tooltip": "User group",
   "Deleted": false,
-  "Rank": 213,
-  "UdListDefinitionId": 692,
+  "Rank": 599,
+  "UdListDefinitionId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 594
     }
   }
 }

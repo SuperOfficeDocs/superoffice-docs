@@ -2,16 +2,16 @@
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 840,
-  "Name": "Nolan-Stark",
-  "Tooltip": "ut",
-  "Rank": 801,
-  "Rate": 28121.381999999998,
-  "Units": 4854.566,
+  "CurrencyId": 176,
+  "Name": "Fisher-West",
+  "Tooltip": "libero",
+  "Rank": 223,
+  "Rate": 25764.613999999998,
+  "Units": 30938.847999999998,
   "Deleted": false
 }
 ```

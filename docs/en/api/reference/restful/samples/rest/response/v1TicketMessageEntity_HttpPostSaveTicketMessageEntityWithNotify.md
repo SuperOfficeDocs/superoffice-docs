@@ -3,79 +3,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 196,
+  "EjMessageId": 23,
   "Ticket": null,
-  "CreatedAt": "2016-08-09T14:35:44.476877+02:00",
+  "CreatedAt": "1998-10-19T14:34:02.5970632+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "mollitia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "totam",
-  "TimeSpent": 654,
-  "Body": "voluptas",
-  "HtmlBody": "et",
-  "EmailHeader": "leland.schroeder@carterokuneva.name",
-  "DebugInfo": "natus",
-  "MailSorter": "consequatur",
+  "MessageId": "quia",
+  "TimeSpent": 166,
+  "Body": "Thank you for contacting support. We will review your request.",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "sylvia@nicolas.name",
+  "DebugInfo": "perspiciatis",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dignissimos",
+  "SearchTitle": "rerum",
   "MessageHeaders": [
     {
-      "Id": 77,
-      "Name": "Becker, Schmitt and Lemke",
-      "Value": "asperiores",
+      "Id": 322,
+      "Name": "Muller Group",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 824
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "occaecati",
-  "Sentiment": 787,
-  "SentimentConfidence": 732,
+  "Important": true,
+  "Language": "beatae",
+  "Sentiment": 686,
+  "SentimentConfidence": 713,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 753,
-      "Name": "Roberts-Ritchie",
-      "ContentType": "recusandae",
-      "AttSize": 627,
+      "AttachmentId": 531,
+      "Name": "Kutch Inc and Sons",
+      "ContentType": "qui",
+      "AttSize": 61,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "libero",
+      "ContentId": "qui",
+      "AuthKey": "officia",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 325
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "autem"
+    "CustomFields1": "et",
+    "CustomFields2": "reprehenderit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

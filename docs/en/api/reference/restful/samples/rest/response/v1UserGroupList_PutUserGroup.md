@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "amet",
-  "Tooltip": "beatae",
-  "Id": 814,
-  "Rank": 599,
+  "Value": "impedit",
+  "Tooltip": "User group",
+  "Id": 470,
+  "Rank": 615,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 429
     }
   }
 }

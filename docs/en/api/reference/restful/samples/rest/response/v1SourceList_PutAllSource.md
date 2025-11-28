@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Pfeffer-Gleason",
-    "Tooltip": "cumque",
+    "Id": 213,
+    "Name": "Zulauf LLC",
+    "Tooltip": "Lead source",
     "Deleted": true,
-    "UdListDefinitionId": 983,
-    "Rank": 484,
+    "UdListDefinitionId": 1001,
+    "Rank": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldLength": 372
       }
     }
   }

@@ -6,63 +6,63 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 826,
+  "EjMessageId": 733,
   "Ticket": null,
-  "CreatedAt": "2006-11-11T14:35:44.4699907+01:00",
+  "CreatedAt": "2022-12-05T14:34:02.5970632+01:00",
   "CreatedBy": null,
-  "Author": "voluptatem",
+  "Author": "molestiae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "a",
-  "TimeSpent": 673,
-  "Body": "recusandae",
-  "HtmlBody": "qui",
-  "EmailHeader": "gustave.fay@damoremorar.us",
-  "DebugInfo": "minima",
-  "MailSorter": "illo",
+  "MessageId": "ut",
+  "TimeSpent": 666,
+  "Body": "eum",
+  "HtmlBody": "rerum",
+  "EmailHeader": "geraldine_lueilwitz@blick.us",
+  "DebugInfo": "impedit",
+  "MailSorter": "occaecati",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 895,
-      "Name": "Gislason, Rath and Waters",
-      "Value": "delectus",
+      "Id": 483,
+      "Name": "Auer, Kuhlman and Kemmer",
+      "Value": "fugiat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 895,
-      "Name": "Gislason, Rath and Waters",
-      "Value": "delectus",
+      "Id": 483,
+      "Name": "Auer, Kuhlman and Kemmer",
+      "Value": "fugiat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "voluptatum",
-  "Sentiment": 168,
-  "SentimentConfidence": 329,
+  "Important": false,
+  "Language": "quis",
+  "Sentiment": 480,
+  "SentimentConfidence": 291,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 438,
-      "Name": "O'Keefe-Kautzer",
-      "ContentType": "aut",
-      "AttSize": 458,
+      "AttachmentId": 658,
+      "Name": "Leannon, Frami and Heller",
+      "ContentType": "est",
+      "AttSize": 915,
       "InlineImage": false,
-      "ContentId": "natus",
-      "AuthKey": "sit",
+      "ContentId": "et",
+      "AuthKey": "sint",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "placeat"
+    "CustomFields1": "eum",
+    "CustomFields2": "possimus"
   }
 }
 ```

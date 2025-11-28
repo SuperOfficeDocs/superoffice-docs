@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Keebler, Waelchi and Simonis",
-  "Tooltip": "officia",
+  "Id": 285,
+  "Name": "Completed",
+  "Tooltip": "Project status",
   "Deleted": true,
-  "UdListDefinitionId": 200,
-  "Rank": 86,
+  "UdListDefinitionId": 556,
+  "Rank": 868,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 136
     }
   }
 }

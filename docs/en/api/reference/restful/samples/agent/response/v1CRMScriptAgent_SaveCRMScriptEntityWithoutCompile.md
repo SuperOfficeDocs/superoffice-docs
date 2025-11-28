@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 864,
-  "UniqueIdentifier": "eaque",
-  "Name": "Tremblay, Gerhold and Cummings",
-  "Description": "Public-key hybrid initiative",
-  "IncludeId": "distinctio",
-  "AccessKey": "repellat",
+  "UniqueIdentifier": "contact-data-enrichment",
+  "Name": "Contact Data Enrichment",
+  "Description": "Enriches contact records with additional data from external sources",
+  "IncludeId": "contact-enrich",
+  "AccessKey": "api-key-24680",
   "HierarchyId": 108,
-  "Source": "maxime",
-  "SourceCode": "voluptate",
+  "Source": "#setLanguageLevel 3;\nContact contact = getActiveContact();\nMap enrichedData = fetchExternalData(contact);\ncontact.setValue(\"industry\", enrichedData.get(\"industry\"));\ncontact.setValue(\"companySize\", enrichedData.get(\"size\"));",
+  "SourceCode": "#setLanguageLevel 3;\nContact contact = getActiveContact();\nMap enrichedData = fetchExternalData(contact);\ncontact.setValue(\"industry\", enrichedData.get(\"industry\"));\ncontact.setValue(\"companySize\", enrichedData.get(\"size\"));",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 997,
+  "HtmlOutput": 0,
   "Includes": [
     773,
     88
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 156,
-      "LineNumberTo": 827,
-      "Delta": 767,
-      "IncludeId": "totam",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 5,
+      "Delta": 0,
+      "IncludeId": "external-api-utils",
       "IncludedFrom": [
-        "fuga",
-        "eum"
+        "contact-enrich",
+        "data-enrichment"
       ],
       "TableRight": null,
       "FieldProperties": {

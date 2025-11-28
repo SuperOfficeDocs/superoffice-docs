@@ -3,45 +3,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 180,
-  "Name": "Hintz, Swift and Jacobs",
-  "Rank": 557,
-  "Tooltip": "minima",
-  "Icon": "aut",
-  "DefaultTicketStatus": 785,
+  "TicketTypeId": 661,
+  "Name": "Service Request",
+  "Rank": 131,
+  "Tooltip": "facere",
+  "Icon": "labore",
+  "DefaultTicketStatus": 793,
   "TicketStatuses": [
-    673,
-    440
+    316,
+    335
   ],
-  "DefaultTicketPriority": 293,
+  "DefaultTicketPriority": 390,
   "TicketPriorities": [
-    517,
-    373
+    550,
+    111
   ],
-  "ReplyTemplate": 999,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "ReplyTemplate": 55,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    360,
-    900
+    951,
+    492
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 502
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

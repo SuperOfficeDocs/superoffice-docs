@@ -2,15 +2,15 @@
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Hettinger Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "UdListDefinitionId": 848,
-  "Rank": 336
+  "Id": 804,
+  "Name": "Hintz LLC",
+  "Tooltip": "error",
+  "Deleted": true,
+  "UdListDefinitionId": 482,
+  "Rank": 69
 }
 ```

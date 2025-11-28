@@ -6,12 +6,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 408,
-  "Name": "Goyette-Dooley",
+  "TicketStatusId": 98,
+  "Name": "Sporer-Ryan",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```

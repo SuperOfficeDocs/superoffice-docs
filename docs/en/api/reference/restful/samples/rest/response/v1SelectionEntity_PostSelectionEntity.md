@@ -3,70 +3,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Business-focused content-based middleware",
-  "Postit": "quo",
+  "Description": "Selection of contacts",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 24,
-  "IncludePerson": 3,
+  "GroupIdx": 105,
+  "IncludePerson": 664,
   "MemberCount": 99.99,
-  "Name": "Emmerich-Schamberger",
-  "PostitTextId": 503,
-  "CreatedDate": "2009-07-12T14:35:44.2773897+02:00",
-  "SelectionId": 956,
-  "SoundEx": "veritatis",
-  "Source": 300,
-  "TextId": 651,
-  "UpdatedDate": "2017-05-15T14:35:44.2773897+02:00",
-  "UpdatedCount": 886,
-  "Visibility": 896,
+  "Name": "VIP Customers",
+  "PostitTextId": 462,
+  "CreatedDate": "2000-05-31T14:34:02.3782736+02:00",
+  "SelectionId": 701,
+  "SoundEx": "adipisci",
+  "Source": 441,
+  "TextId": 682,
+  "UpdatedDate": "2013-10-18T14:34:02.3782736+02:00",
+  "UpdatedCount": 686,
+  "Visibility": 933,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 591,
-  "TargetTableName": "Kunze-Swift",
-  "Completed": true,
-  "LeftSelectionId": 218,
-  "RightSelectionId": 989,
+  "TargetTableNumber": 429,
+  "TargetTableName": "Green, Jenkins and Jones",
+  "Completed": false,
+  "LeftSelectionId": 861,
+  "RightSelectionId": 200,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Baumbach Inc and Sons",
-  "ShadowProviderName": "Ratke-Welch",
-  "ChartKey": "eaque",
-  "LastLoaded": "2000-07-12T14:35:44.2773897+02:00",
-  "LastLoadedBy": 903,
+  "MainProviderName": "Mohr, Bechtelar and Miller",
+  "ShadowProviderName": "Anderson-Kutch",
+  "ChartKey": "qui",
+  "LastLoaded": "2007-12-24T14:34:02.3782736+01:00",
+  "LastLoadedBy": 977,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-04-29T14:35:44.2773897+02:00",
-  "LastMembershipChangeBy": 373,
+  "LastMembershipChange": "2012-05-04T14:34:02.3782736+02:00",
+  "LastMembershipChangeBy": 204,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "hic",
-  "MemberTabHeading": "incidunt",
-  "MailingsProviderName": "White, Zboncak and Veum",
-  "DashboardTileDefinitionId": 562,
+  "MainHeading": "laudantium",
+  "MemberTabHeading": "officia",
+  "MailingsProviderName": "Hermann LLC",
+  "DashboardTileDefinitionId": 56,
   "VisibleFor": [
     {
-      "VisibleId": 541,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 599
+          "FieldLength": 708
         }
       }
     },
     {
-      "VisibleId": 541,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 599
+          "FieldLength": 708
         }
       }
     }
@@ -76,12 +76,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 491
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

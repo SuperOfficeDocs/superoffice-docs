@@ -3,31 +3,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 953,
-  "Name": "Bergstrom, Pouros and Zboncak",
-  "Description": "Optional encompassing info-mediaries",
-  "DefaultHeight": 642,
-  "DefaultWidth": 732,
+  "DashboardTileDefinitionId": 84,
+  "Name": "Goodwin Group",
+  "Description": "Dashboard tile for sales data",
+  "DefaultHeight": 101,
+  "DefaultWidth": 151,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rogahn, Pouros and Greenholt",
-  "SelectionId": 647,
+  "EntityName": "Lehner-O'Keefe",
+  "SelectionId": 490,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ex",
+  "CurrencyCode": "corrupti",
   "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "reprehenderit",
-  "LayoutConfig": "deserunt",
-  "SecondarySelectionId": 835,
-  "MeasureByField": "fuga",
+  "MeasureField": "est",
+  "SortBy": "rerum",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 54,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Hahn, Mills and Weimann",
+  "ProviderName": "Rodriguez, Hane and Heaney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   },
   "_Links": {

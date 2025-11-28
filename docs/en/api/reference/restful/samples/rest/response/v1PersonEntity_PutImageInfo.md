@@ -3,25 +3,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 428,
-  "BlobSize": 713,
-  "Description": "Cross-platform homogeneous access",
-  "ExtraInfo": "ea",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "incidunt",
-  "OriginalSize": 23,
-  "CreatedDate": "2022-03-11T14:35:43.9895228+01:00",
-  "UpdatedDate": "2023-04-26T14:35:43.9895228+02:00",
+  "BlobId": 763,
+  "BlobSize": 664,
+  "Description": "Primary contact",
+  "ExtraInfo": "sit",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "minima",
+  "OriginalSize": 760,
+  "CreatedDate": "2020-05-25T14:34:02.1587158+02:00",
+  "UpdatedDate": "2018-12-20T14:34:02.1587158+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 359
     }
   }
 }

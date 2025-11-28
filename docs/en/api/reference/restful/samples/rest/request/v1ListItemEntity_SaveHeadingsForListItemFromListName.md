@@ -2,47 +2,47 @@
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Gleason, O'Conner and Breitenberg",
-    "ToolTip": "Et saepe commodi quia blanditiis voluptatem.",
-    "Deleted": false,
-    "Rank": 900,
-    "Type": "amet",
-    "ColorBlock": 498,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2011-04-29T14:35:44.7641288+02:00",
+    "Id": 204,
+    "Name": "Hermiston, Herzog and Carroll",
+    "ToolTip": "Sit explicabo occaecati eos.",
+    "Deleted": true,
+    "Rank": 664,
+    "Type": "laudantium",
+    "ColorBlock": 505,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2004-08-31T14:34:02.9633579+02:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Grant, Bechtelar and Waters",
-        "ToolTip": "Molestiae qui velit.",
+        "Id": 645,
+        "Name": "Thiel LLC",
+        "ToolTip": "Est laboriosam in.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "corporis",
-        "ColorBlock": 318,
-        "IconHint": "qui",
+        "Rank": 777,
+        "Type": "est",
+        "ColorBlock": 13,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2017-06-01T14:35:44.7641288+02:00",
+        "LastChanged": "2008-06-25T14:34:02.9633579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "officia",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Rosella Adams I"
+        "FullName": "Tillman Feest DVM"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "veniam",
+    "ExtraInfo": "dolor",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Eduardo Ulises Veum DDS"
+    "FullName": "Kip Raynor"
   }
 ]
 ```

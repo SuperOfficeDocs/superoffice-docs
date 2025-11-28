@@ -2,47 +2,47 @@
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Metz, DuBuque and Prohaska",
-    "ToolTip": "Exercitationem voluptatem molestias sint velit deserunt minus quisquam.",
+    "Id": 275,
+    "Name": "Ernser-Breitenberg",
+    "ToolTip": "Dignissimos est qui expedita.",
     "Deleted": false,
-    "Rank": 523,
-    "Type": "vel",
-    "ColorBlock": 917,
-    "IconHint": "natus",
+    "Rank": 820,
+    "Type": "voluptate",
+    "ColorBlock": 401,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2008-09-23T14:35:45.0701314+02:00",
+    "LastChanged": "2023-03-23T14:34:03.2815035+01:00",
     "ChildItems": [
       {
-        "Id": 911,
-        "Name": "Reichel-Greenholt",
-        "ToolTip": "Sint repudiandae.",
+        "Id": 826,
+        "Name": "Parisian, Wilkinson and Zieme",
+        "ToolTip": "Quibusdam magnam ut est ut nihil ipsa natus.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "esse",
-        "ColorBlock": 452,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2003-02-23T14:35:45.0711312+01:00",
+        "Rank": 397,
+        "Type": "sapiente",
+        "ColorBlock": 774,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2013-02-25T14:34:03.2815035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Mrs. Sid Breitenberg V"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Mr. Nick Nayeli Lueilwitz IV"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "id",
+    "StyleHint": "eius",
     "Hidden": false,
-    "FullName": "Henry Flatley"
+    "FullName": "Cloyd Lebsack"
   }
 ]
 ```

@@ -2,47 +2,47 @@
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Boyer-Luettgen",
-    "ToolTip": "Cumque eum quis ab aut repellat.",
-    "Deleted": true,
-    "Rank": 200,
-    "Type": "asperiores",
-    "ColorBlock": 467,
-    "IconHint": "ut",
+    "Id": 823,
+    "Name": "Friesen, Morissette and Hartmann",
+    "ToolTip": "Et nesciunt est non rerum culpa et sapiente.",
+    "Deleted": false,
+    "Rank": 336,
+    "Type": "soluta",
+    "ColorBlock": 559,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2001-07-26T14:35:45.2784876+02:00",
+    "LastChanged": "2007-02-04T14:34:03.5021832+01:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Haley, Luettgen and Cummerata",
-        "ToolTip": "In qui optio.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "inventore",
-        "ColorBlock": 372,
-        "IconHint": "nobis",
+        "Id": 629,
+        "Name": "Casper Group",
+        "ToolTip": "Explicabo eos.",
+        "Deleted": false,
+        "Rank": 969,
+        "Type": "autem",
+        "ColorBlock": 659,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2002-11-20T14:35:45.2784876+01:00",
+        "LastChanged": "1999-02-12T14:34:03.5021832+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "expedita",
+        "ExtraInfo": "qui",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Kathryn Goyette"
+        "FullName": "Jess Huel"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Yesenia Hansen MD"
+    "FullName": "Dr. Anabel Linnie Little"
   }
 ]
 ```

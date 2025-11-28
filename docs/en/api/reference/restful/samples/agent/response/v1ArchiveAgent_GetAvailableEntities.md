@@ -5,28 +5,28 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 693,
-    "Name": "Beahan, Spencer and Wiegand",
-    "ToolTip": "Ad non aut.",
+    "Name": "Contact",
+    "ToolTip": "Company and organization records",
     "Deleted": false,
-    "Rank": 307,
-    "Type": "in",
+    "Rank": 1,
+    "Type": "ArchiveProvider",
     "ChildItems": [
       {
         "Id": 830,
-        "Name": "Bechtelar-Borer",
-        "ToolTip": "Accusamus aperiam similique aspernatur dolore et libero nihil.",
-        "Deleted": true,
-        "Rank": 70,
-        "Type": "qui",
+        "Name": "Person",
+        "ToolTip": "Individual contact persons within companies",
+        "Deleted": false,
+        "Rank": 2,
+        "Type": "ArchiveProvider",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
+        "IconHint": "person",
         "ColorBlock": 751,
-        "ExtraInfo": "expedita",
-        "StyleHint": "beatae",
-        "FullName": "Natalie Spencer",
+        "ExtraInfo": "PersonArchive",
+        "StyleHint": "entity",
+        "FullName": "Person Archive",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -37,11 +37,11 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "IconHint": "ipsam",
+    "IconHint": "company",
     "ColorBlock": 71,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "laboriosam",
-    "FullName": "Prof. Seamus Wilderman",
+    "ExtraInfo": "ContactArchive",
+    "StyleHint": "entity",
+    "FullName": "Contact Archive",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

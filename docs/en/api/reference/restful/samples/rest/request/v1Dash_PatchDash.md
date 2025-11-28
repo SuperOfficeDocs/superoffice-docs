@@ -2,18 +2,18 @@
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "reprehenderit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "reprehenderit",
     "value": {}
   }
 ]

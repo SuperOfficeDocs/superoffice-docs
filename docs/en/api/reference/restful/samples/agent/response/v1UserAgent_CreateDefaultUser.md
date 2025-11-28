@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 845,
-  "Name": "Koss-Zemlak",
-  "Rank": 982,
-  "Tooltip": "quo",
+  "AssociateId": 0,
+  "Name": "",
+  "Rank": 0,
+  "Tooltip": "",
   "LicenseOwners": [
     {
       "Name": "Legros LLC",
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-07-07T10:11:01.7537887+02:00",
-  "Lastlogout": "2011-01-20T10:11:01.7537887+01:00",
-  "EjUserId": 229,
-  "RequestSignature": "deserunt",
-  "Type": "AnonymousAssociate",
+  "Lastlogin": "2024-01-01T00:00:00+01:00",
+  "Lastlogout": "2024-01-01T00:00:00+01:00",
+  "EjUserId": 0,
+  "RequestSignature": "",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dicta",
-      "DisplayValue": "quibusdam",
+      "Value": "",
+      "DisplayValue": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "Type": null,
-      "Value": "dicta",
-      "DisplayValue": "quibusdam",
+      "Value": "",
+      "DisplayValue": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -105,12 +105,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "UserName": "Orn LLC",
+  "UserName": "",
   "TicketCategories": [
     {
       "Id": 260,
-      "Name": "Mueller, O'Hara and Volkman",
-      "ToolTip": "Dolorem rerum totam aut esse ipsum qui.",
+      "Name": "Support Request",
+      "ToolTip": "Customer support tickets",
       "Deleted": true,
       "Rank": 252,
       "Type": "dolores",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 750,
       "ExtraInfo": "id",
       "StyleHint": "minus",
-      "FullName": "Prof. Wilfred Tina Dickens III",
+      "FullName": "Support Request",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "NickName": "Mante, Jewess and Buckridge",
-  "WaitingForApproval": true,
+  "NickName": "",
+  "WaitingForApproval": false,
   "ExtraFields": {
     "ExtraFields1": "qui",
     "ExtraFields2": "ea"

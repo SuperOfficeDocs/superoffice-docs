@@ -3,12 +3,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 833,
-  "Name": "Ortiz-Bahringer",
-  "Tooltip": "non",
-  "PassiveText": "mollitia",
+  "ReldefId": 903,
+  "Name": "Standard User",
+  "Tooltip": "voluptatem",
+  "PassiveText": "est",
   "Deleted": true,
-  "Rank": 402,
+  "Rank": 71,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -16,7 +16,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 410
     }
   },
   "_Links": {

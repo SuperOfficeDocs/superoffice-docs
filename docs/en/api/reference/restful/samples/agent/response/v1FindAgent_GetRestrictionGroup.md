@@ -3,23 +3,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gutmann, Boyer and Rath",
-  "Description": "Down-sized 24/7 open architecture",
-  "Rank": 636,
+  "Name": "Active Sales Contacts",
+  "Description": "Contacts with active sales opportunities",
+  "Rank": 1,
   "Restrictions": [
     {
-      "Name": "Jones LLC",
-      "Operator": "quo",
+      "Name": "contact/category",
+      "Operator": "equals",
       "Values": [
-        "fugit",
-        "quo"
+        "1"
       ],
       "DisplayValues": [
-        "dolorem",
-        "dicta"
+        "Customer"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}

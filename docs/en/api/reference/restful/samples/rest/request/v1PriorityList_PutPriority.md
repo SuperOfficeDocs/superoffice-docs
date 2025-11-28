@@ -2,15 +2,15 @@
 PUT /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Mann LLC",
+  "Id": 1002,
+  "Name": "Ledner Inc and Sons",
   "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 73,
-  "Rank": 877
+  "Deleted": false,
+  "UdListDefinitionId": 13,
+  "Rank": 979
 }
 ```

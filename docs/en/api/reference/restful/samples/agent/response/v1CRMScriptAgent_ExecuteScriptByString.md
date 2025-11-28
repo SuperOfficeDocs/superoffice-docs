@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "dolorem",
+  "Output": "Ticket #12345 priority updated to High",
   "Parameters": {
-    "Parameters1": "saepe",
-    "Parameters2": "aut"
+    "ticketId": "12345",
+    "priority": "High"
   },
   "TraceRun": null,
   "Eventdata": null,
-  "Success": false,
+  "Success": true,
   "ErrorInformation": null,
-  "StatusCode": 685,
-  "StatusMessage": "earum",
+  "StatusCode": 200,
+  "StatusMessage": "OK",
   "Headers": {
-    "Headers1": "nostrum",
-    "Headers2": "ea"
+    "Content-Type": "application/json",
+    "X-Execution-Time": "145ms"
   },
   "TableRight": null,
   "FieldProperties": {

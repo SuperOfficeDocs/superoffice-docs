@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 662,
-  "Name": "Adams-Treutel",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 494,
-  "UdListDefinitionId": 484,
+  "HeadingId": 406,
+  "Name": "Budget Approved",
+  "Tooltip": "Quote reason",
+  "Deleted": true,
+  "Rank": 48,
+  "UdListDefinitionId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

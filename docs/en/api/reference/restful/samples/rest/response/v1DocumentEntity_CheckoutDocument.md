@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nihil",
-  "VersionId": "molestiae",
+  "ExternalReference": "est",
+  "VersionId": "similique",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "est",
-  "AdditionalInfo": "explicabo"
+  "Value": "eum",
+  "AdditionalInfo": "rerum"
 }
 ```

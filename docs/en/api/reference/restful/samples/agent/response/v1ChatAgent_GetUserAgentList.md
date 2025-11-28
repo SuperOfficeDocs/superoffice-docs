@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Towne, Smitham and DuBuque",
-    "ToolTip": "Et sed vel sit.",
-    "Deleted": true,
-    "Rank": 160,
-    "Type": "explicabo",
+    "Id": 143,
+    "Name": "Sarah Johnson",
+    "ToolTip": "Customer Support Agent - Available",
+    "Deleted": false,
+    "Rank": 1,
+    "Type": "ChatAgent",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Ratke Inc and Sons",
-        "ToolTip": "Cupiditate repudiandae doloribus accusantium perferendis aut consequatur eius.",
+        "Id": 156,
+        "Name": "Michael Chen",
+        "ToolTip": "Customer Support Agent - Busy",
         "Deleted": false,
-        "Rank": 778,
-        "Type": "quasi",
+        "Rank": 2,
+        "Type": "ChatAgent",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 833,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "et",
-        "FullName": "Prof. Tianna Juanita Barrows II",
+        "IconHint": "user",
+        "ColorBlock": 3,
+        "ExtraInfo": "3 ongoing chats",
+        "StyleHint": "busy",
+        "FullName": "Michael Chen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -37,11 +37,11 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 68,
-    "ExtraInfo": "dolores",
-    "StyleHint": "pariatur",
-    "FullName": "Sherman Smith",
+    "IconHint": "user",
+    "ColorBlock": 2,
+    "ExtraInfo": "3 ongoing chats",
+    "StyleHint": "available",
+    "FullName": "Sarah Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Nikolaus Group",
-    "ToolTip": "Consequuntur doloribus.",
+    "Id": 152,
+    "Name": "Kemmer Group",
+    "ToolTip": "Adipisci aut modi vel.",
     "Deleted": false,
-    "Rank": 983,
-    "Type": "magni",
-    "ColorBlock": 240,
-    "IconHint": "recusandae",
+    "Rank": 430,
+    "Type": "est",
+    "ColorBlock": 413,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2003-02-15T14:35:45.0051303+01:00",
+    "LastChanged": "2024-01-24T14:34:03.228671+01:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Kunde, Hodkiewicz and Funk",
-        "ToolTip": "Saepe commodi impedit iusto quasi velit.",
+        "Id": 675,
+        "Name": "Net 30",
+        "ToolTip": "Reiciendis ipsum quia mollitia aperiam nesciunt dolores.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "consequatur",
-        "ColorBlock": 1000,
-        "IconHint": "quod",
+        "Rank": 630,
+        "Type": "repellendus",
+        "ColorBlock": 137,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2003-12-12T14:35:45.0051303+01:00",
+        "LastChanged": "2018-07-22T14:34:03.228671+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Mrs. Jeromy Gaylord",
+        "ExtraInfo": "corporis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Prof. Dagmar Toy Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 143
+            "FieldType": "System.Int32",
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "harum",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Keely Rau",
+    "FullName": "Terrence Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 17
       }
     }
   }

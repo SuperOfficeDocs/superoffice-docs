@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veritatis",
+  "SaleText": "eum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -21,90 +21,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-09-30T14:35:44.1772532+02:00",
-  "Amount": 27792.311999999998,
-  "SaleId": 288,
-  "Earning": 17879.47,
-  "EarningPercent": 4155.684,
-  "Heading": "ea",
-  "Number": "1016115",
-  "Probability": 454,
-  "CreatedDate": "2011-08-20T14:35:44.1772532+02:00",
-  "UpdatedDate": "2006-07-06T14:35:44.1772532+02:00",
+  "Saledate": "2018-11-10T14:34:02.3247742+01:00",
+  "Amount": 21261.056,
+  "SaleId": 299,
+  "Earning": 15403.609999999999,
+  "EarningPercent": 17638.152,
+  "Heading": "quia",
+  "Number": "978406",
+  "Probability": 938,
+  "CreatedDate": "2012-05-27T14:34:02.3247742+02:00",
+  "UpdatedDate": "2016-01-11T14:34:02.3247742+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 847,
+  "ActiveLinks": 997,
   "Links": [
     {
-      "EntityName": "Collins Group",
-      "Id": 264,
-      "Description": "Reduced next generation complexity",
-      "ExtraInfo": "quia",
-      "LinkId": 288
+      "EntityName": "Schulist-O'Reilly",
+      "Id": 999,
+      "Description": "Compatible demand-driven moderator",
+      "ExtraInfo": "recusandae",
+      "LinkId": 473
     },
     {
-      "EntityName": "Collins Group",
-      "Id": 264,
-      "Description": "Reduced next generation complexity",
-      "ExtraInfo": "quia",
-      "LinkId": 288
+      "EntityName": "Schulist-O'Reilly",
+      "Id": 999,
+      "Description": "Compatible demand-driven moderator",
+      "ExtraInfo": "recusandae",
+      "LinkId": 473
     }
   ],
-  "NextDueDate": "2001-01-06T14:35:44.1772532+01:00",
-  "Postit": "iusto",
+  "NextDueDate": "2014-05-31T14:34:02.3247742+02:00",
+  "Postit": "cumque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-06-01T14:35:44.1772532+02:00",
+  "ReopenDate": "2004-03-18T14:34:02.3257722+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kunde, Douglas and Kulas",
-      "Comment": "itaque",
-      "StakeholderRoleId": 297,
-      "CountryId": 503,
-      "PersonId": 403,
-      "EmailDescription": "sallie.graham@powlowski.com",
-      "EmailId": 744,
-      "EmailAddress": "jarvis@hoppe.uk",
-      "PhoneId": 232,
-      "ContactName": "Gibson, Hammes and Harvey",
-      "ContactId": 604,
-      "SaleId": 572,
-      "Mrmrs": "ut",
-      "Firstname": "Deondre",
-      "MiddleName": "Hand Inc and Sons",
-      "Lastname": "Boyer",
-      "SaleStakeholderId": 287,
-      "Rank": 449,
-      "Phone": "1-060-677-6636 x5152"
+      "StakeholderRoleName": "Donnelly Inc and Sons",
+      "Comment": "tempore",
+      "StakeholderRoleId": 800,
+      "CountryId": 419,
+      "PersonId": 577,
+      "EmailDescription": "salvador.zemlak@mrazfay.us",
+      "EmailId": 547,
+      "EmailAddress": "devante@sawayn.us",
+      "PhoneId": 104,
+      "ContactName": "Brekke-Goodwin",
+      "ContactId": 385,
+      "SaleId": 250,
+      "Mrmrs": "sequi",
+      "Firstname": "Darian",
+      "MiddleName": "Barton Inc and Sons",
+      "Lastname": "Kautzer",
+      "SaleStakeholderId": 569,
+      "Rank": 522,
+      "Phone": "483-581-0704"
     }
   ],
-  "ActiveErpLinks": 395,
+  "ActiveErpLinks": 108,
   "UserDefinedFields": {
-    "SuperOffice:1": "Clovis Johnson",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Clemmie Cummings",
+    "SuperOffice:2": "1076341826"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
+    "CustomFields1": "repellat",
     "CustomFields2": "ullam"
   },
-  "PublishEventDate": "2015-05-02T14:35:44.1772532+02:00",
-  "PublishTo": "2024-02-08T14:35:44.1772532+01:00",
-  "PublishFrom": "2000-01-25T14:35:44.1772532+01:00",
+  "PublishEventDate": "2022-03-13T14:34:02.3257722+01:00",
+  "PublishTo": "2000-11-25T14:34:02.3257722+01:00",
+  "PublishFrom": "2013-11-24T14:34:02.3257722+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 10,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 10,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "vel"
     }
   ]
 }

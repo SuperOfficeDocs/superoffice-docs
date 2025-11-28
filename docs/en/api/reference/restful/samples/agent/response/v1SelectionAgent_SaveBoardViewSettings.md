@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 396,
-  "EntityType": "None",
-  "AssociateId": 36,
-  "SelectionId": 373,
-  "HideEmptyGroups": false,
-  "GroupBy": "qui",
-  "SubGroupBy": "dicta",
-  "SortBy": "voluptates",
+  "BoardViewSettingsId": 53,
+  "EntityType": "Contact",
+  "AssociateId": 12,
+  "SelectionId": 127,
+  "HideEmptyGroups": true,
+  "GroupBy": "category",
+  "SubGroupBy": "business",
+  "SortBy": "name",
   "SortDesc": false,
-  "SumBy": "nihil",
-  "ColorBy": "maxime",
-  "Filters": "non"
+  "SumBy": "none",
+  "ColorBy": "category",
+  "Filters": ""
 }
 ```

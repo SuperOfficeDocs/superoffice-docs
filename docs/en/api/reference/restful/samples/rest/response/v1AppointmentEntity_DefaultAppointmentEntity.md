@@ -1,128 +1,128 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Jun 2000 14:35:42 G6T
+Last-Modified: Tue, 18 Sep 2007 14:34:01 G9T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2025-10-03T14:35:42.9851506+02:00",
-  "AppointmentId": 386,
-  "Description": "Reverse-engineered regional toolset",
-  "Title": "mollitia",
-  "Agenda": "quia",
-  "InternalNotes": "labore",
-  "StartDate": "2022-02-02T14:35:42.9851506+01:00",
-  "EndDate": "2023-06-07T14:35:42.9851506+02:00",
+  "CreatedDate": "2007-06-25T14:34:01.3412634+02:00",
+  "AppointmentId": 47,
+  "Description": "Team standup meeting to review daily progress, discuss blockers, and coordinate on priorities.",
+  "Title": "Daily Team Standup",
+  "Agenda": "1. Yesterday's achievements\n2. Today's priorities\n3. Blockers and issues",
+  "InternalNotes": "Keep meeting focused and under 30 minutes.",
+  "StartDate": "2024-11-28T09:00:00+01:00",
+  "EndDate": "2024-11-28T09:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 735,
+  "MotherId": 433,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-06-26T14:35:42.9881525+02:00",
+  "UpdatedDate": "2007-09-18T14:34:01.3432814+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 386,
+  "ActiveLinks": 581,
   "Links": [
     {
-      "EntityName": "Paucek, McGlynn and Blanda",
-      "Id": 852,
-      "Description": "Operative composite standardization",
-      "ExtraInfo": "quaerat",
-      "LinkId": 319,
+      "EntityName": "Koelpin, Gerlach and Barrows",
+      "Id": 315,
+      "Description": "Link to project documentation",
+      "ExtraInfo": "dolor",
+      "LinkId": 550,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 643
         }
       }
     }
   ],
-  "AlarmLeadTime": "labore",
+  "AlarmLeadTime": "PT15M",
   "HasAlarm": false,
-  "ColorIndex": 501,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "rem",
-  "LeadTime": "id",
-  "Location": "aut",
-  "RejectCounter": 210,
+  "ColorIndex": 114,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "PT0M",
+  "LeadTime": "PT15M",
+  "Location": "Zoom Meeting",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 286,
-      "PersonId": 661,
-      "ContactId": 298,
-      "EmailId": 558,
+      "AssociateId": 165,
+      "PersonId": 540,
+      "ContactId": 490,
+      "EmailId": 330,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "daryl@nienowcronin.co.uk",
-      "Description": "Switchable scalable challenge"
+      "EmailAddress": "team@superoffice.com",
+      "Description": "Development Team Members"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-07-21T14:35:42.9891548+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-05-30T14:34:01.3442511+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 114,
+  "PreferredTZLocation": 1002,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 301,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 481,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laudantium",
+  "JoinVideomeetUrl": "https://zoom.us/j/123456789",
+  "CentralserviceVideomeetId": "123456789",
   "UserDefinedFields": {
-    "SuperOffice:1": "2051024697",
-    "SuperOffice:2": "1413791726"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "qui"
+    "CustomFields1": "atque",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2009-01-10T14:35:42.9901892+01:00",
-  "PublishTo": "2018-10-10T14:35:42.9901892+02:00",
-  "PublishFrom": "2006-08-19T14:35:42.9901892+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-03-03T14:34:01.3467227+01:00",
+  "PublishTo": "1999-01-27T14:34:01.3467227+01:00",
+  "PublishFrom": "2012-05-11T14:34:01.3467227+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 626,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     },
     {
-      "VisibleId": 626,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
@@ -131,8 +131,8 @@ Last-Modified: Mon, 26 Jun 2000 14:35:42 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

@@ -2,15 +2,15 @@
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Koss LLC",
-  "Tooltip": "excepturi",
+  "Id": 95,
+  "Name": "Erdman-Spencer",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 480,
-  "Rank": 235
+  "UdListDefinitionId": 491,
+  "Rank": 38
 }
 ```

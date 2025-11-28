@@ -2,25 +2,25 @@
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "McKenzie, Gusikowski and Goodwin",
-    "Tooltip": "repellendus",
+    "Id": 58,
+    "Name": "Gislason Group",
+    "Tooltip": "eaque",
     "Deleted": true,
-    "UdListDefinitionId": 166,
-    "Rank": 681
+    "UdListDefinitionId": 563,
+    "Rank": 588
   },
   {
-    "Id": 760,
-    "Name": "McKenzie, Gusikowski and Goodwin",
-    "Tooltip": "repellendus",
+    "Id": 58,
+    "Name": "Gislason Group",
+    "Tooltip": "eaque",
     "Deleted": true,
-    "UdListDefinitionId": 166,
-    "Rank": 681
+    "UdListDefinitionId": 563,
+    "Rank": 588
   }
 ]
 ```

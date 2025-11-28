@@ -5,25 +5,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 462,
-    "Tooltip": "itaque",
+    "Total": 592,
+    "Tooltip": "porro",
     "CanAssign": false,
-    "Free": 877,
-    "InUse": 662,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 961,
-    "Name": "Yost-Trantow",
-    "Description": "Future-proofed local data-warehouse",
-    "PrerequisiteModuleName": "Hickle Group",
-    "SortOrder": 908,
-    "ExtraFlags": 916,
+    "Free": 122,
+    "InUse": 56,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 954,
+    "Name": "Professional License",
+    "Description": "Object-based 24 hour approach",
+    "PrerequisiteModuleName": "Roberts-Grady",
+    "SortOrder": 685,
+    "ExtraFlags": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

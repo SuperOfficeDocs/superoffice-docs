@@ -2,18 +2,18 @@
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "debitis",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "debitis",
+    "path": "quia",
     "value": {}
   }
 ]

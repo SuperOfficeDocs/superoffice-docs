@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kuhlman, Stracke and Dickens",
+    "EntityName": "sale",
     "PrimaryKey": 519,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "nihil",
-        "TooltipHint": "libero",
-        "LinkHint": "consectetur"
+      "heading": {
+        "DisplayValue": "Enterprise Software License - Q1 2025",
+        "TooltipHint": "Major software license renewal opportunity",
+        "LinkHint": "sale.main?sale_id=519"
       }
     },
-    "LinkHint": "veritatis",
-    "StyleHint": "perferendis",
+    "LinkHint": "view-sale",
+    "StyleHint": "open-sale",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -2,34 +2,34 @@
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Crooks-Toy",
-  "AssociateId": 947,
-  "DetailsTable": 423,
-  "DetailsRecord": 818,
-  "IsSystemTask": false,
+  "Id": 254,
+  "Name": "Lubowitz, Balistreri and Hermann",
+  "AssociateId": 602,
+  "DetailsTable": 239,
+  "DetailsRecord": 63,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "tenetur",
-    "ParameterObject2": "deserunt"
+    "ParameterObject1": "iusto",
+    "ParameterObject2": "dolorem"
   },
-  "LastStarted": "2018-06-17T14:35:44.5229994+02:00",
-  "Created": "2000-12-03T14:35:44.5229994+01:00",
-  "StartCount": 690,
-  "DatabaseSerialNumber": "851133",
-  "Context": "laboriosam",
-  "Result": "quis",
+  "LastStarted": "2018-06-01T14:34:02.7132229+02:00",
+  "Created": "2014-07-15T14:34:02.7132229+02:00",
+  "StartCount": 475,
+  "DatabaseSerialNumber": "706323",
+  "Context": "quia",
+  "Result": "ratione",
   "State": "All",
-  "Description": "Focused logistical framework",
-  "Response": "vel",
-  "Request": "accusantium",
-  "ProgressDescription": "Function-based system-worthy initiative",
-  "ProgressPercent": 726,
-  "FileName": "Corkery LLC",
+  "Description": "Mandatory asynchronous capacity",
+  "Response": "vero",
+  "Request": "aperiam",
+  "ProgressDescription": "Quality-focused encompassing synergy",
+  "ProgressPercent": 762,
+  "FileName": "Hodkiewicz, Green and Klein",
   "CancellationBehaviour": "CanCancel"
 }
 ```

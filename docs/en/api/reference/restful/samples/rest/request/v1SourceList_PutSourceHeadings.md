@@ -2,25 +2,25 @@
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 569,
-    "Name": "Schmidt Group",
-    "Tooltip": "et",
+    "HeadingId": 857,
+    "Name": "Goldner LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 564
+    "Rank": 21,
+    "UdListDefinitionId": 209
   },
   {
-    "HeadingId": 569,
-    "Name": "Schmidt Group",
-    "Tooltip": "et",
+    "HeadingId": 857,
+    "Name": "Goldner LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 564
+    "Rank": 21,
+    "UdListDefinitionId": 209
   }
 ]
 ```

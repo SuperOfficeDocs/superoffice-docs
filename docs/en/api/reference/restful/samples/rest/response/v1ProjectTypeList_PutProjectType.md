@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Daniel, Abshire and Fahey",
-  "Tooltip": "quidem",
+  "Id": 353,
+  "Name": "Kuvalis Group",
+  "Tooltip": "Project type",
   "Deleted": false,
-  "UdListDefinitionId": 783,
-  "Rank": 622,
+  "UdListDefinitionId": 687,
+  "Rank": 584,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 414
     }
   }
 }

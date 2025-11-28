@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Effertz Group",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 334,
+  "Id": 312,
+  "Name": "Parisian, Nienow and Gottlieb",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 374,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "doloribus",
+  "InUseByUserDefinedFields": false
 }
 ```

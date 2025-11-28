@@ -2,25 +2,25 @@
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 980,
-    "Name": "Kling-Schneider",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 91,
-    "UdListDefinitionId": 257
+    "HeadingId": 607,
+    "Name": "Torp, Wyman and Howell",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 573,
+    "UdListDefinitionId": 275
   },
   {
-    "HeadingId": 980,
-    "Name": "Kling-Schneider",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 91,
-    "UdListDefinitionId": 257
+    "HeadingId": 607,
+    "Name": "Torp, Wyman and Howell",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 573,
+    "UdListDefinitionId": 275
   }
 ]
 ```

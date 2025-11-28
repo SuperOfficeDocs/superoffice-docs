@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Mohr Inc and Sons",
-  "Tooltip": "dicta",
+  "Id": 710,
+  "Name": "Harvey Group",
+  "Tooltip": "Project type",
   "Deleted": false,
-  "Rank": 413,
-  "IsCustomList": true,
+  "Rank": 456,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 221
     }
   }
 }

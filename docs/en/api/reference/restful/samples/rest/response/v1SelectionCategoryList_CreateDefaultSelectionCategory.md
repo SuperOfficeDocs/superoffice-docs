@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Schroeder-Stroman",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "UdListDefinitionId": 329,
-  "Rank": 467,
+  "Id": 538,
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
+  "Deleted": false,
+  "UdListDefinitionId": 841,
+  "Rank": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 429,
-  "ServerName": "Brown, Nicolas and Will",
-  "Protocol": "rem",
-  "UserName": "Goyette-Kovacek",
-  "Password": "animi",
-  "UseSSL": false,
-  "Folder": "quasi",
+  "Port": 993,
+  "ServerName": "imap.acmecorp.com",
+  "Protocol": "IMAP",
+  "UserName": "john.anderson",
+  "Password": "********",
+  "UseSSL": true,
+  "Folder": "INBOX",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

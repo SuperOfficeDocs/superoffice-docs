@@ -1,25 +1,25 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Oct 2005 14:35:43 G10T
+Last-Modified: Thu, 23 May 2019 14:34:02 G5T
 
 [
   {
-    "ForeignDeviceId": 639,
-    "Name": "Langworth, Goldner and McKenzie",
-    "CreatedDate": "2017-11-15T14:35:43.7776909+01:00",
-    "UpdatedDate": "2005-10-19T14:35:43.7776909+02:00",
-    "AssociateFullName": "Ms. Jeffrey Stephany Torphy MD",
-    "CreatedBy": "optio",
-    "UpdatedBy": "nisi",
-    "DeviceIdentifier": "molestias",
-    "ForeignAppId": 510,
+    "ForeignDeviceId": 467,
+    "Name": "Google Sync",
+    "CreatedDate": "2004-01-30T14:34:02.0182398+01:00",
+    "UpdatedDate": "2019-05-23T14:34:02.0182398+02:00",
+    "AssociateFullName": "Ms. Noemy Dario Heaney",
+    "CreatedBy": "omnis",
+    "UpdatedBy": "voluptas",
+    "DeviceIdentifier": "aliquam",
+    "ForeignAppId": 808,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 519
       }
     }
   }

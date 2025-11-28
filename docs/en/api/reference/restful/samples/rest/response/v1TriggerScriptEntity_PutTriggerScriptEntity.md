@@ -3,27 +3,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 771,
-  "Name": "Marquardt, Feil and Heller",
+  "ScreenChooserId": 743,
+  "Name": "McLaughlin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "fugit",
-  "Source": "doloribus",
-  "Registered": "2025-08-25T14:35:44.5065066+02:00",
-  "RegisteredAssociateId": 802,
-  "Updated": "2018-01-15T14:35:44.5065066+01:00",
-  "UpdatedAssociateId": 214,
+  "UniqueIdentifier": "quibusdam",
+  "Source": "pariatur",
+  "Registered": "2019-01-14T14:34:02.7057421+01:00",
+  "RegisteredAssociateId": 836,
+  "Updated": "2025-03-25T14:34:02.7057421+01:00",
+  "UpdatedAssociateId": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

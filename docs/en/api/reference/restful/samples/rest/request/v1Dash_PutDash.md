@@ -6,30 +6,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 307,
-  "UniqueId": "temporibus",
-  "Name": "Graham-Haley",
-  "Description": "Proactive encompassing complexity",
-  "AssociateId": 576,
-  "Columns": 113,
+  "DashboardId": 152,
+  "UniqueId": "consequatur",
+  "Name": "Spencer, Becker and Wisozk",
+  "Description": "Re-engineered full-range intranet",
+  "AssociateId": 404,
+  "Columns": 45,
   "Theme": null,
-  "VisibleForAll": 392,
+  "VisibleForAll": 64,
   "VisibleForAssociates": [
-    667,
-    178
+    592,
+    998
   ],
   "VisibleForGroups": [
-    167,
-    112
+    805,
+    675
   ],
-  "PinForAll": 359,
+  "PinForAll": 535,
   "PinForAssociates": [
-    845,
-    762
+    616,
+    185
   ],
   "PinForGroups": [
-    73,
-    170
+    354,
+    900
   ]
 }
 ```

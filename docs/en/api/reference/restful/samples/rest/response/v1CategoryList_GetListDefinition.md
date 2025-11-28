@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 281,
-  "Name": "McGlynn, Bins and Stanton",
-  "Tooltip": "aut",
+  "Id": 210,
+  "Name": "Customer",
+  "Tooltip": "Contact category classification",
   "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "suscipit",
+  "Rank": 567,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "Category",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 650
     }
   },
   "_Links": {

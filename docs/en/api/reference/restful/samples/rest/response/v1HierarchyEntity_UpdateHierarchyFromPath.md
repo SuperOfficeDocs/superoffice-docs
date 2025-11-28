@@ -3,46 +3,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 865,
+  "HierarchyId": 947,
   "Domain": "Dashboards",
-  "Name": "Christiansen-Stehr",
-  "Fullname": "eum",
-  "ParentId": 737,
+  "Name": "Corwin Group",
+  "Fullname": "unde",
+  "ParentId": 575,
   "Children": [
     {
-      "HierarchyId": 796,
+      "HierarchyId": 781,
       "Domain": "Dashboards",
-      "Name": "Ondricka-Weber",
+      "Name": "Sales Department",
       "Fullname": "voluptatem",
-      "ParentId": 425,
+      "ParentId": 50,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-07-02T14:35:43.7873563+02:00",
-      "RegisteredAssociateId": 853,
-      "Updated": "2008-05-28T14:35:43.7873563+02:00",
-      "UpdatedAssociateId": 835,
+      "Registered": "2019-11-13T14:34:02.0310981+01:00",
+      "RegisteredAssociateId": 427,
+      "Updated": "2000-01-14T14:34:02.0310981+01:00",
+      "UpdatedAssociateId": 771,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 217
         }
       }
     }
   ],
-  "Registered": "2018-08-26T14:35:43.7873563+02:00",
-  "RegisteredAssociateId": 326,
-  "Updated": "2008-01-27T14:35:43.7873563+01:00",
-  "UpdatedAssociateId": 701,
+  "Registered": "2024-09-12T14:34:02.0310981+02:00",
+  "RegisteredAssociateId": 490,
+  "Updated": "2014-12-21T14:34:02.0310981+01:00",
+  "UpdatedAssociateId": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 48
     }
   }
 }

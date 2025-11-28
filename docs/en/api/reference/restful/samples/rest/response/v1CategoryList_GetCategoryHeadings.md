@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Bergnaum-Rowe",
-    "Tooltip": "sit",
+    "HeadingId": 450,
+    "Name": "Kemmer-O'Kon",
+    "Tooltip": "Contact category classification",
     "Deleted": false,
-    "Rank": 619,
-    "UdListDefinitionId": 370,
+    "Rank": 520,
+    "UdListDefinitionId": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 601
       }
     }
   }

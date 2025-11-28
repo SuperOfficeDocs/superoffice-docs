@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 876,
-  "EntityType": "None",
-  "AssociateId": 315,
-  "SelectionId": 551,
+  "BoardViewSettingsId": 52,
+  "EntityType": "Project",
+  "AssociateId": 12,
+  "SelectionId": 127,
   "HideEmptyGroups": false,
-  "GroupBy": "ducimus",
-  "SubGroupBy": "vitae",
-  "SortBy": "non",
+  "GroupBy": "projectType",
+  "SubGroupBy": "status",
+  "SortBy": "name",
   "SortDesc": false,
-  "SumBy": "rerum",
-  "ColorBy": "ut",
-  "Filters": "ullam"
+  "SumBy": "none",
+  "ColorBy": "status",
+  "Filters": ""
 }
 ```

@@ -8,12 +8,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "minima",
     "value": {}
   }
 ]

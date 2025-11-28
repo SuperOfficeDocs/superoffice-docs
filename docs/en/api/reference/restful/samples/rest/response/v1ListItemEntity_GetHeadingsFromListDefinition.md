@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 34,
-    "Name": "Weissnat LLC",
-    "Tooltip": "aut",
+    "HeadingId": 423,
+    "Name": "List Item",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 916,
-    "UdListDefinitionId": 276,
+    "Rank": 405,
+    "UdListDefinitionId": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

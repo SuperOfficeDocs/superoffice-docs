@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 360,
-  "Name": "Schmeler-Effertz",
-  "Tooltip": "fugit",
-  "SaveInDb": 356,
-  "Filename": "ducimus",
-  "DefaultOref": "eveniet",
+  "DocumentTemplateId": 528,
+  "Name": "Stanton Group",
+  "Tooltip": "Document template",
+  "SaveInDb": 59,
+  "Filename": "officia",
+  "DefaultOref": "dolor",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 131,
-  "IntentId": 208,
+  "AutoeventId": 365,
+  "IntentId": 813,
   "IsDefaultPublished": false,
-  "Rank": 833,
-  "LoadTemplateFromPlugin": 736,
-  "MimeType": "et",
+  "Rank": 473,
+  "LoadTemplateFromPlugin": 706,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 327,
+  "DocumentTypeKey": 353,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "destany.keeling@schummmurazik.name",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "gerry_rogahn@kautzer.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nikita@doyledooley.info",
+  "SenderEmailAddress": "drake@bradtke.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 231
     }
   }
 }

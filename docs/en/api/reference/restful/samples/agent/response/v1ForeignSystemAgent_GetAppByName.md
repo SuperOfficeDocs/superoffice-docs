@@ -4,22 +4,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignAppId": 966,
-  "Name": "Hudson-Kemmer",
-  "CreatedDate": "2024-08-07T10:11:00.1924655+02:00",
-  "UpdatedDate": "1999-09-30T10:11:00.1924655+02:00",
+  "Name": "Mobile CRM App",
+  "CreatedDate": "2024-03-10T10:11:00.1924655+01:00",
+  "UpdatedDate": "2024-11-25T10:11:00.1924655+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
       "ForeignDeviceId": 970,
-      "Name": "Dickinson LLC",
-      "CreatedDate": "2015-09-02T10:11:00.1924655+02:00",
-      "UpdatedDate": "2005-07-07T10:11:00.1924655+02:00",
-      "AssociateFullName": "Jessica Wilderman",
-      "CreatedBy": "aut",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 598,
+      "Name": "Sarah's iPhone",
+      "CreatedDate": "2024-03-15T10:11:00.1924655+01:00",
+      "UpdatedDate": "2024-11-27T10:11:00.1924655+01:00",
+      "AssociateFullName": "Sarah Johnson",
+      "CreatedBy": "sarah.johnson@techcorp.com",
+      "UpdatedBy": "sarah.johnson@techcorp.com",
+      "DeviceIdentifier": "iPhone-SJ-14Pro",
+      "ForeignAppId": 966,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

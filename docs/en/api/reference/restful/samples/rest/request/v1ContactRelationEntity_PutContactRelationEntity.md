@@ -2,27 +2,27 @@
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 317,
-  "SourcePersonId": 97,
-  "DestinationContactId": 52,
-  "DestinationPersonId": 315,
-  "RelationId": 415,
-  "Comment": "asperiores",
-  "RelationDefinitionId": 597,
-  "Reversed": 668,
-  "UpdatedDate": "2024-12-14T14:35:43.5906508+01:00",
-  "CreatedDate": "2011-10-15T14:35:43.5906508+02:00",
+  "SourceContactId": 432,
+  "SourcePersonId": 852,
+  "DestinationContactId": 539,
+  "DestinationPersonId": 789,
+  "RelationId": 662,
+  "Comment": "ut",
+  "RelationDefinitionId": 714,
+  "Reversed": 714,
+  "UpdatedDate": "2017-03-12T14:34:01.8459763+01:00",
+  "CreatedDate": "2019-04-15T14:34:01.8459763+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Steuber-Ferry",
-  "SourcePersonName": "Olson LLC",
-  "DestinationContactName": "Brown-Toy",
-  "DestinationPersonName": "Steuber-Berge",
-  "ActiveText": "animi",
-  "PassiveText": "non"
+  "SourceContactName": "Cassin-Zieme",
+  "SourcePersonName": "Farrell Group",
+  "DestinationContactName": "Greenholt LLC",
+  "DestinationPersonName": "Yundt LLC",
+  "ActiveText": "occaecati",
+  "PassiveText": "in"
 }
 ```

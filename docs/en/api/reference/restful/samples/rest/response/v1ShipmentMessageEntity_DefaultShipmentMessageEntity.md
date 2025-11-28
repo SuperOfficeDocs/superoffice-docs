@@ -3,33 +3,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 821,
-  "PlainMessage": "ducimus",
-  "HtmlMessage": "ut",
-  "SmsMessage": "quod",
-  "Description": "Adaptive assymetric internet solution",
-  "Subject": "nemo",
-  "FolderId": 811,
-  "HeaderField": "porro",
-  "Design": "earum",
+  "ShipmentMessageId": 583,
+  "PlainMessage": "deleniti",
+  "HtmlMessage": "at",
+  "SmsMessage": "corporis",
+  "Description": "Exclusive upward-trending internet solution",
+  "Subject": "ut",
+  "FolderId": 16,
+  "HeaderField": "hic",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Face to face 3rd generation capacity",
-  "AccessKey": "nostrum",
-  "DocumentMessage": 799,
-  "Registered": "2020-09-04T14:35:44.302167+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2002-07-20T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 538,
-  "UpdatedCount": 267,
+  "LongDescription": "Customer-focused intermediate archive",
+  "AccessKey": "molestiae",
+  "DocumentMessage": 731,
+  "Registered": "2011-10-07T14:34:02.426041+02:00",
+  "RegisteredAssociateId": 395,
+  "Updated": "2001-07-15T14:34:02.426041+02:00",
+  "UpdatedAssociateId": 652,
+  "UpdatedCount": 716,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

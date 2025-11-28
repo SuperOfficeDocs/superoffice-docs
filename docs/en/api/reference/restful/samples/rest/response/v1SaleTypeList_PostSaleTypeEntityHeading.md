@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Metz Group",
-  "Tooltip": "nobis",
+  "HeadingId": 379,
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
   "Deleted": true,
-  "Rank": 11,
-  "UdListDefinitionId": 313,
+  "Rank": 1002,
+  "UdListDefinitionId": 849,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 90
     }
   }
 }

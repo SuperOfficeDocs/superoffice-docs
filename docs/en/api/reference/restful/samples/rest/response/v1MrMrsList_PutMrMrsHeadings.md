@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Turcotte Inc and Sons",
-    "Tooltip": "praesentium",
+    "HeadingId": 553,
+    "Name": "Luettgen Inc and Sons",
+    "Tooltip": "Title or salutation",
     "Deleted": false,
-    "Rank": 858,
-    "UdListDefinitionId": 124,
+    "Rank": 629,
+    "UdListDefinitionId": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

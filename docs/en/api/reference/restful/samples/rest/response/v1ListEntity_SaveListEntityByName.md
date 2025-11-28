@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Spinka-Luettgen",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 458,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 365,
+  "Name": "Barton Group",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 430,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 622
     }
   }
 }

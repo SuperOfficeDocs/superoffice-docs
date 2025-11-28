@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "esse",
+  "SaleText": "dolore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -18,113 +18,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-11-13T14:35:44.1615931+01:00",
-  "Amount": 25868.036,
-  "SaleId": 24,
-  "Earning": 26886.586,
-  "EarningPercent": 29725.989999999998,
-  "Heading": "blanditiis",
-  "Number": "1465370",
-  "Probability": 294,
-  "CreatedDate": "2017-11-16T14:35:44.1615931+01:00",
-  "UpdatedDate": "2009-12-19T14:35:44.1615931+01:00",
+  "Saledate": "2023-10-13T14:34:02.2845767+02:00",
+  "Amount": 4660.258,
+  "SaleId": 902,
+  "Earning": 1241.0639999999999,
+  "EarningPercent": 26034.138,
+  "Heading": "dolorem",
+  "Number": "796410",
+  "Probability": 871,
+  "CreatedDate": "2013-08-26T14:34:02.2845767+02:00",
+  "UpdatedDate": "2014-06-07T14:34:02.2845767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 947,
+  "ActiveLinks": 130,
   "Links": [
     {
-      "EntityName": "Nitzsche, Schamberger and Bechtelar",
-      "Id": 296,
-      "Description": "Exclusive object-oriented flexibility",
-      "ExtraInfo": "est",
-      "LinkId": 860,
+      "EntityName": "McDermott-Hudson",
+      "Id": 458,
+      "Description": "Persevering real-time circuit",
+      "ExtraInfo": "sunt",
+      "LinkId": 757,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldLength": 48
         }
       }
     }
   ],
-  "NextDueDate": "2014-04-30T14:35:44.1615931+02:00",
-  "Postit": "inventore",
+  "NextDueDate": "2021-10-11T14:34:02.2845767+02:00",
+  "Postit": "delectus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-03-07T14:35:44.1615931+01:00",
+  "ReopenDate": "2014-09-19T14:34:02.3003233+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Thompson Inc and Sons",
-      "Comment": "voluptate",
-      "StakeholderRoleId": 671,
-      "CountryId": 580,
-      "PersonId": 787,
-      "EmailDescription": "cleta.mitchell@pfannerstill.us",
-      "EmailId": 179,
-      "EmailAddress": "buck_rutherford@hermiston.com",
-      "PhoneId": 655,
-      "ContactName": "Keeling-Konopelski",
-      "ContactId": 17,
-      "SaleId": 256,
-      "Mrmrs": "ad",
-      "Firstname": "Giuseppe",
-      "MiddleName": "Conroy Inc and Sons",
-      "Lastname": "Okuneva",
-      "SaleStakeholderId": 473,
-      "Rank": 1002,
-      "Phone": "1-185-517-0899 x02702",
+      "StakeholderRoleName": "Cummings, Harber and Sipes",
+      "Comment": "assumenda",
+      "StakeholderRoleId": 783,
+      "CountryId": 424,
+      "PersonId": 417,
+      "EmailDescription": "landen.lebsack@hahnrath.name",
+      "EmailId": 223,
+      "EmailAddress": "jaunita_haag@connblanda.ca",
+      "PhoneId": 137,
+      "ContactName": "Bogan, Stracke and Kilback",
+      "ContactId": 441,
+      "SaleId": 423,
+      "Mrmrs": "quisquam",
+      "Firstname": "Aletha",
+      "MiddleName": "Jacobi LLC",
+      "Lastname": "Cummerata",
+      "SaleStakeholderId": 378,
+      "Rank": 298,
+      "Phone": "(181)023-2876 x1533",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldType": "System.String",
+          "FieldLength": 278
         }
       }
     }
   ],
-  "ActiveErpLinks": 89,
+  "ActiveErpLinks": 147,
   "UserDefinedFields": {
-    "SuperOffice:1": "Cassie Langosh",
-    "SuperOffice:2": "1708578260"
+    "SuperOffice:1": "1805161853",
+    "SuperOffice:2": "Vivienne Pollich"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "qui"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2019-06-14T14:35:44.1615931+02:00",
-  "PublishTo": "2006-09-05T14:35:44.1615931+02:00",
-  "PublishFrom": "2023-09-10T14:35:44.1615931+02:00",
+  "PublishEventDate": "2005-11-18T14:34:02.3003233+01:00",
+  "PublishTo": "2015-05-02T14:34:02.3003233+02:00",
+  "PublishFrom": "2009-02-07T14:34:02.3003233+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 788,
+      "VisibleId": 451,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     },
     {
-      "VisibleId": 788,
+      "VisibleId": 451,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 716
     }
   },
   "_Links": {

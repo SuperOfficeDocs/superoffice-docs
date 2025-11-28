@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Schuster, Monahan and Willms",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "UdListDefinitionId": 522,
-    "Rank": 357,
+    "Id": 614,
+    "Name": "Hartmann Inc and Sons",
+    "Tooltip": "Selection category",
+    "Deleted": true,
+    "UdListDefinitionId": 846,
+    "Rank": 195,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 251
       }
     }
   }

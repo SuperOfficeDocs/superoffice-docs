@@ -3,33 +3,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 757,
-  "PlainMessage": "sed",
-  "HtmlMessage": "et",
-  "SmsMessage": "et",
-  "Description": "Proactive scalable definition",
-  "Subject": "optio",
-  "FolderId": 100,
-  "HeaderField": "similique",
-  "Design": "modi",
+  "ShipmentMessageId": 581,
+  "PlainMessage": "qui",
+  "HtmlMessage": "velit",
+  "SmsMessage": "modi",
+  "Description": "Realigned optimal internet solution",
+  "Subject": "et",
+  "FolderId": 464,
+  "HeaderField": "tempora",
+  "Design": "id",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Public-key 24 hour benchmark",
-  "AccessKey": "sed",
-  "DocumentMessage": 536,
-  "Registered": "2021-01-07T14:35:44.302167+01:00",
-  "RegisteredAssociateId": 75,
-  "Updated": "1998-06-09T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 177,
-  "UpdatedCount": 5,
+  "LongDescription": "Grass-roots assymetric orchestration",
+  "AccessKey": "nisi",
+  "DocumentMessage": 788,
+  "Registered": "2012-08-24T14:34:02.426041+02:00",
+  "RegisteredAssociateId": 408,
+  "Updated": "2014-12-23T14:34:02.426041+01:00",
+  "UpdatedAssociateId": 668,
+  "UpdatedCount": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   },
   "_Links": {

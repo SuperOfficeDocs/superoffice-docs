@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "in",
+  "odata.nextLink": "molestias",
   "value": [
     {
-      "PrimaryKey": 1264,
+      "PrimaryKey": 4234,
       "EntityName": "person",
-      "personId": 1264,
-      "fullName": "Ms. Maud Nyah Kozey"
+      "personId": 4234,
+      "fullName": "Bradley Ward"
     },
     {
-      "PrimaryKey": 5450,
+      "PrimaryKey": 9150,
       "EntityName": "person",
-      "personId": 5450,
-      "fullName": "Candido Robel"
+      "personId": 9150,
+      "fullName": "Maia Goldner"
     }
   ]
 }

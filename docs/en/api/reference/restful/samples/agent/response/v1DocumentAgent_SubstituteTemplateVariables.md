@@ -2,5 +2,5 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"doc-12345-merged"
 ```

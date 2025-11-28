@@ -3,42 +3,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 187,
-  "UniqueId": "ipsa",
-  "Name": "Carroll-Sipes",
-  "Description": "Monitored empowering encoding",
-  "AssociateId": 744,
-  "Columns": 912,
+  "DashboardId": 391,
+  "UniqueId": "ut",
+  "Name": "Sales Dashboard",
+  "Description": "Dashboard for sales metrics",
+  "AssociateId": 233,
+  "Columns": 477,
   "Theme": null,
-  "VisibleForAll": 533,
+  "VisibleForAll": 18,
   "VisibleForAssociates": [
-    84,
-    763
+    148,
+    549
   ],
   "VisibleForGroups": [
-    210,
-    827
+    240,
+    406
   ],
-  "PinForAll": 147,
+  "PinForAll": 846,
   "PinForAssociates": [
-    565,
-    907
+    271,
+    369
   ],
   "PinForGroups": [
-    673,
-    986
+    810,
+    524
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 984
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

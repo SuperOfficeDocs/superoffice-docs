@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Champlin-Mueller",
-    "DisplayName": "Haley Group",
-    "Description": "Distributed solution-oriented workforce",
-    "ShortLabel": "perferendis",
+    "FieldName": "Swift Inc and Sons",
+    "DisplayName": "Ferry Inc and Sons",
+    "Description": "Integrated intangible intranet",
+    "ShortLabel": "vel",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 10,
-    "TemplateVariableName": "Wehner, Bosco and Turner"
+    "Rank": 151,
+    "TemplateVariableName": "Lubowitz-Vandervort"
   }
 ]
 ```

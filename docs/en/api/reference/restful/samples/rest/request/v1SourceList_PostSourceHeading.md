@@ -2,15 +2,15 @@
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 788,
-  "Name": "Gerlach LLC",
-  "Tooltip": "est",
+  "HeadingId": 905,
+  "Name": "Paucek-Hilll",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 375,
-  "UdListDefinitionId": 783
+  "Rank": 308,
+  "UdListDefinitionId": 394
 }
 ```

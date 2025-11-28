@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Wilkinson Group",
-    "ToolTip": "Voluptatem temporibus qui temporibus enim quo sunt.",
+    "Id": 97,
+    "Name": "Jaskolski Inc and Sons",
+    "ToolTip": "Harum doloribus et.",
     "Deleted": false,
-    "Rank": 630,
-    "Type": "consequatur",
-    "ColorBlock": 764,
+    "Rank": 300,
+    "Type": "ab",
+    "ColorBlock": 716,
     "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2024-12-14T14:35:45.2247869+01:00",
+    "LastChanged": "2022-04-12T14:34:03.458137+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Blanda-Littel",
-        "ToolTip": "Nisi sit velit perferendis voluptas porro.",
+        "Id": 409,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Laborum aliquid.",
         "Deleted": false,
-        "Rank": 153,
-        "Type": "sint",
-        "ColorBlock": 920,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2009-12-06T14:35:45.2247869+01:00",
+        "Rank": 236,
+        "Type": "accusamus",
+        "ColorBlock": 683,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2005-09-23T14:34:03.458137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "ut",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Miss Eloy Zboncak",
+        "FullName": "Prof. Jaylen Okey Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 635
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "odio",
-    "Hidden": true,
-    "FullName": "Miss Brycen Cole",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Esperanza Cremin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 866
       }
     }
   }

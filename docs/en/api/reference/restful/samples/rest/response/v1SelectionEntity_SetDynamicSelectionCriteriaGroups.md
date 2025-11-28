@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom Group",
-    "Description": "Automated logistical system engine",
-    "Rank": 660,
+    "Name": "Q4 Prospects",
+    "Description": "Selection of contacts",
+    "Rank": 700,
     "Restrictions": [
       {
-        "Name": "Turner Group",
-        "Operator": "quia",
+        "Name": "VIP Customers",
+        "Operator": "magnam",
         "Values": [
-          "dolore",
-          "sit"
+          "alias",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "quas",
-          "et"
+          "nisi",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -25,27 +25,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 441,
+        "InterParenthesis": 369,
         "InterOperator": "And",
-        "UniqueHash": 697
+        "UniqueHash": 630
       }
     ]
   },
   {
-    "Name": "Bergstrom Group",
-    "Description": "Automated logistical system engine",
-    "Rank": 660,
+    "Name": "Q4 Prospects",
+    "Description": "Selection of contacts",
+    "Rank": 700,
     "Restrictions": [
       {
-        "Name": "Turner Group",
-        "Operator": "quia",
+        "Name": "VIP Customers",
+        "Operator": "magnam",
         "Values": [
-          "dolore",
-          "sit"
+          "alias",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "quas",
-          "et"
+          "nisi",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -53,9 +53,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 441,
+        "InterParenthesis": 369,
         "InterOperator": "And",
-        "UniqueHash": 697
+        "UniqueHash": 630
       }
     ]
   }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 998,
-    "Name": "Zulauf-O'Kon",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 449,
-    "UdListDefinitionId": 897,
+    "HeadingId": 522,
+    "Name": "Budget Approved",
+    "Tooltip": "Quote reason",
+    "Deleted": false,
+    "Rank": 62,
+    "UdListDefinitionId": 754,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 861
       }
     }
   }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Stiedemann, Kertzmann and Stracke",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 194,
-  "IsCustomList": true,
+  "Id": 427,
+  "Name": "Customer",
+  "Tooltip": "Project type",
+  "Deleted": false,
+  "Rank": 612,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 21
     }
   },
   "_Links": {

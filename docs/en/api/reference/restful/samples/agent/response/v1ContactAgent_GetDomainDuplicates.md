@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Moore LLC",
-    "SoPrimaryKey": 237,
-    "EntryName": "Kertzmann Inc and Sons",
-    "EntryIdentifier": "assumenda",
-    "RuleDisplayName": "Welch-Haley",
+    "RuleName": "DuplicateEmailDomain",
+    "SoPrimaryKey": 236,
+    "EntryName": "Acme Corporation",
+    "EntryIdentifier": "acmecorp.com",
+    "RuleDisplayName": "Email Domain Match",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldType": "Attachment",
-    "FieldName": "Gutmann-Toy",
-    "DisplayName": "Weber-Krajcik",
-    "Description": "Decentralized multi-tasking product",
-    "ShortLabel": "aperiam",
+    "FieldType": "Decimal",
+    "FieldName": "x_projectBudget",
+    "DisplayName": "Project Budget",
+    "Description": "Total project budget amount",
+    "ShortLabel": "Budget",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 474,
-    "TemplateVariableName": "Okuneva-King"
+    "IsDisplayField": true,
+    "Rank": 2,
+    "TemplateVariableName": "udef_projectBudget"
   }
 ]
 ```

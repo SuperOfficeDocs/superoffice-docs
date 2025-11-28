@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Schuster, Wunsch and Heller",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "Rank": 952,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 781,
+  "Name": "Legitimate Interest",
+  "Tooltip": "Legal basis for data processing",
+  "Deleted": true,
+  "Rank": 394,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "facilis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 868
     }
   }
 }

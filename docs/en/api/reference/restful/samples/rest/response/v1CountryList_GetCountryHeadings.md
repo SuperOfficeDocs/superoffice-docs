@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 659,
-    "Name": "Abernathy, Lynch and Doyle",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 812,
-    "UdListDefinitionId": 191,
+    "HeadingId": 216,
+    "Name": "United States",
+    "Tooltip": "Country entry",
+    "Deleted": true,
+    "Rank": 143,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 58
       }
     }
   }

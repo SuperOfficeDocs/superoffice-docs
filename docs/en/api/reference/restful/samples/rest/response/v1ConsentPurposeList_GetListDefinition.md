@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 648,
-  "Name": "Parisian Inc and Sons",
-  "Tooltip": "labore",
+  "Id": 702,
+  "Name": "Sales Follow-up",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Deleted": false,
-  "Rank": 586,
-  "IsCustomList": true,
+  "Rank": 991,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ConsentPurpose",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldLength": 673
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

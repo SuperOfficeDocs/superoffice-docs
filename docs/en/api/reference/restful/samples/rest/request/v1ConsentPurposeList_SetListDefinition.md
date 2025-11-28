@@ -2,19 +2,19 @@
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Tillman, Bartell and Nolan",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 496,
-  "IsCustomList": true,
+  "Id": 314,
+  "Name": "Ziemann Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 661,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```

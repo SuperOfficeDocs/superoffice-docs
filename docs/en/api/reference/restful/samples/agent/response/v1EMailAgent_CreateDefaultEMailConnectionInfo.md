@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Orn, Zieme and Nitzsche",
-  "UserName": "Kessler-Veum",
-  "Password": "harum",
-  "Folder": "nihil",
+  "ServerName": "mail.acmecorp.com",
+  "UserName": "john.anderson",
+  "Password": "********",
+  "Folder": "INBOX",
   "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {

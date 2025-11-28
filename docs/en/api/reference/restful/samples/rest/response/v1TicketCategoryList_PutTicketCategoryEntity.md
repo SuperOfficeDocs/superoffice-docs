@@ -3,36 +3,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 629,
-  "ParentId": 561,
-  "Name": "Graham-Sawayn",
-  "Fullname": "sunt",
-  "CategoryMaster": 998,
+  "TicketCategoryId": 377,
+  "ParentId": 600,
+  "Name": "Deckow Group",
+  "Fullname": "repellendus",
+  "CategoryMaster": 749,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hoppe-Thompson",
+  "ExternalName": "Stracke, Cummings and Morar",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 921,
-  "ReplyTemplate": 309,
-  "NotificationEmail": "freda@stehr.name",
+  "AssignmentLag": 447,
+  "ReplyTemplate": 843,
+  "NotificationEmail": "shany.eichmann@jones.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 571,
+  "EffectiveReplyTemplateId": 249,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "iste"
+    "CustomFields1": "aut",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 944
     }
   }
 }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Simonis, McKenzie and Powlowski",
-  "Tooltip": "sequi",
+  "Id": 811,
+  "Name": "Subscription",
+  "Tooltip": "Product type",
   "Deleted": false,
-  "UdListDefinitionId": 154,
-  "Rank": 706,
+  "UdListDefinitionId": 274,
+  "Rank": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

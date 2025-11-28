@@ -5,34 +5,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quibusdam",
-    "InputValues2": "voluptate"
+    "TicketId": "1234",
+    "MessageBody": "Thank you for contacting support"
   },
   "BlockExecution": true,
-  "NavigateTo": "dolorem",
-  "Message": "tempore",
-  "ShowDialog": "rerum",
+  "NavigateTo": "/tickets/1234",
+  "Message": "Event handler executed successfully",
+  "ShowDialog": "Notification sent to customer",
   "OutputValues": {
-    "OutputValues1": "est",
-    "OutputValues2": "omnis"
+    "Status": "Success",
+    "NotificationSent": "true"
   },
   "StateValues": {
-    "StateValues1": "saepe",
-    "StateValues2": "repellendus"
+    "LastExecuted": "2024-01-15T10:30:00",
+    "ExecutionCount": "42"
   },
-  "Exception": "ut",
+  "Exception": "",
   "ParserValues": {
-    "ParserValues1": "nemo",
-    "ParserValues2": "aliquam"
+    "CustomerName": "John Doe",
+    "TicketTitle": "Login issue"
   },
   "CgiVariables": {
-    "CgiVariables1": "deleniti",
-    "CgiVariables2": "quo"
+    "HTTP_USER_AGENT": "Mozilla/5.0",
+    "REMOTE_ADDR": "192.168.1.100"
   },
-  "CgiContent": "et",
+  "CgiContent": "action=send_notification",
   "Headers": {
-    "Headers1": "molestias",
-    "Headers2": "quae"
+    "Content-Type": "application/json",
+    "Authorization": "Bearer token_abc123"
   },
   "TraceExecution": false,
   "TableRight": null,

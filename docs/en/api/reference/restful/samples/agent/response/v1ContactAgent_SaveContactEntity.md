@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 191,
-  "Name": "Rogahn-Waelchi",
-  "Department": "",
-  "OrgNr": "1504450",
-  "Number1": "1114681",
-  "Number2": "1803105",
+  "Name": "Manufacturing Solutions Ltd",
+  "Department": "Production",
+  "OrgNr": "321654987",
+  "Number1": "10004",
+  "Number2": "20004",
   "UpdatedDate": "2018-12-18T10:10:59.3601799+01:00",
   "CreatedDate": "1998-11-18T10:10:59.3601799+01:00",
   "Emails": [
     {
-      "Value": "magni",
-      "StrippedValue": "id",
-      "Description": "Polarised contextually-based firmware",
+      "Value": "contact@manufacturing-solutions.com",
+      "StrippedValue": "contact@manufacturing-solutions.com",
+      "Description": "Main contact email",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -42,8 +42,8 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 171,
-      "Name": "Langosh LLC",
-      "ToolTip": "Qui non doloribus provident et omnis.",
+      "Name": "Manufacturing Trade Association",
+      "ToolTip": "Industry association for manufacturers",
       "Deleted": false,
       "Rank": 460,
       "Type": "sequi",

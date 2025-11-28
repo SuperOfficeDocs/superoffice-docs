@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 445,
-  "Name": "Pfeffer, Crist and Harvey"
+  "AssociateId": 945,
+  "Name": "Kuhic, Prosacco and VonRueden"
 }
 ```

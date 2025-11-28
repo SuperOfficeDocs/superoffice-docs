@@ -2,21 +2,21 @@
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 597,
-  "Value": "a",
+  "TaskListItemId": 14,
+  "Value": "ad",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "IntentId": 104,
-  "Rank": 106,
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "IntentId": 448,
+  "Rank": 389,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }

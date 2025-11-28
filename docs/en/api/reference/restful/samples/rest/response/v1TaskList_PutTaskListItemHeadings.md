@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Tremblay LLC",
-    "Tooltip": "ipsam",
+    "HeadingId": 863,
+    "Name": "Beer Group",
+    "Tooltip": "Task type",
     "Deleted": false,
-    "Rank": 933,
-    "UdListDefinitionId": 801,
+    "Rank": 897,
+    "UdListDefinitionId": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   }

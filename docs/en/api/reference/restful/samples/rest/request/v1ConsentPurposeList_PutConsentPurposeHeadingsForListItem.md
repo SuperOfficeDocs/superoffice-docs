@@ -2,47 +2,47 @@
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Feeney-Runolfsson",
-    "ToolTip": "Nisi expedita quo quo accusantium voluptas qui.",
+    "Id": 673,
+    "Name": "Bahringer, Abshire and Lubowitz",
+    "ToolTip": "Omnis excepturi et atque laboriosam optio quisquam eos.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "tenetur",
-    "ColorBlock": 146,
-    "IconHint": "veritatis",
+    "Rank": 557,
+    "Type": "ab",
+    "ColorBlock": 157,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2001-05-17T14:35:44.8404694+02:00",
+    "LastChanged": "2009-11-28T14:34:03.0426865+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Beer, McCullough and Collins",
-        "ToolTip": "Vel et dicta commodi quibusdam rerum aut.",
-        "Deleted": true,
-        "Rank": 624,
-        "Type": "error",
-        "ColorBlock": 500,
-        "IconHint": "reiciendis",
+        "Id": 532,
+        "Name": "Hagenes Inc and Sons",
+        "ToolTip": "Dolores laborum numquam.",
+        "Deleted": false,
+        "Rank": 191,
+        "Type": "est",
+        "ColorBlock": 397,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2025-08-11T14:35:44.8404694+02:00",
+        "LastChanged": "2004-11-11T14:34:03.0426865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "cum",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Dr. Marie Darion Spinka"
+        "FullName": "Claudie Gleichner"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "in",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Jeramy Medhurst"
+    "FullName": "Vidal Beier"
   }
 ]
 ```

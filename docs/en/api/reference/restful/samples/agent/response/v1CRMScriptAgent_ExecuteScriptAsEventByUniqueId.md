@@ -5,36 +5,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aut",
-    "InputValues2": "vitae"
+    "saleId": "54321",
+    "amount": "150000"
   },
   "BlockExecution": false,
-  "NavigateTo": "quo",
-  "Message": "quis",
-  "ShowDialog": "iure",
+  "NavigateTo": "sale.main?id=54321",
+  "Message": "Sales opportunity score calculated and updated",
+  "ShowDialog": "Information",
   "OutputValues": {
-    "OutputValues1": "libero",
-    "OutputValues2": "reiciendis"
+    "calculatedScore": "85",
+    "scoringCriteria": "Customer value, Deal size, Timeline"
   },
   "StateValues": {
-    "StateValues1": "dolor",
-    "StateValues2": "impedit"
+    "saleStatus": "Qualified",
+    "lastScored": "2024-11-27T10:15:00Z"
   },
-  "Exception": "suscipit",
+  "Exception": "",
   "ParserValues": {
-    "ParserValues1": "unde",
-    "ParserValues2": "reprehenderit"
+    "scriptName": "sales-opportunity-scorer",
+    "executionTime": "92ms"
   },
   "CgiVariables": {
-    "CgiVariables1": "asperiores",
-    "CgiVariables2": "culpa"
+    "HTTP_USER_AGENT": "SuperOffice/10.3",
+    "REMOTE_ADDR": "10.0.1.50"
   },
-  "CgiContent": "aut",
+  "CgiContent": "{\"action\":\"score\",\"entity\":\"sale\"}",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "amet"
+    "Content-Type": "application/json",
+    "X-Script-Version": "1.2.0"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

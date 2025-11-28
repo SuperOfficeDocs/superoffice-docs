@@ -2,19 +2,19 @@
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "Name": "Stehr, Cummerata and Adams",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 576,
+  "Id": 316,
+  "Name": "Grady-Brakus",
+  "Tooltip": "incidunt",
+  "Deleted": false,
+  "Rank": 408,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```

@@ -2,33 +2,33 @@
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 259,
-  "ParentId": 144,
-  "Name": "Kertzmann-Rau",
-  "Fullname": "accusantium",
-  "CategoryMaster": 384,
+  "TicketCategoryId": 335,
+  "ParentId": 170,
+  "Name": "Zemlak-Tromp",
+  "Fullname": "non",
+  "CategoryMaster": 130,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cole LLC",
+  "ExternalName": "Mann Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 413,
-  "ReplyTemplate": 601,
-  "NotificationEmail": "mitchel@olson.biz",
+  "AssignmentLag": 215,
+  "ReplyTemplate": 513,
+  "NotificationEmail": "dortha.botsford@nikolaus.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 386,
+  "EffectiveReplyTemplateId": 383,
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "id",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "est"
+    "CustomFields1": "totam",
+    "CustomFields2": "debitis"
   }
 }
 ```

@@ -6,15 +6,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Miller-Heidenreich",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 139,
+  "Id": 34,
+  "Name": "King-Prohaska",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 267,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true
 }
 ```

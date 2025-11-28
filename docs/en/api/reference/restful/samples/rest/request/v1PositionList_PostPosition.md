@@ -2,15 +2,15 @@
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Mante Inc and Sons",
-  "Tooltip": "numquam",
+  "Id": 240,
+  "Name": "Buckridge-Reynolds",
+  "Tooltip": "sed",
   "Deleted": true,
-  "UdListDefinitionId": 158,
-  "Rank": 923
+  "UdListDefinitionId": 648,
+  "Rank": 81
 }
 ```

@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 186,
-    "Name": "Hermann, Cruickshank and Cruickshank",
-    "ContentType": "eum",
-    "AttSize": 211,
+    "AttachmentId": 783,
+    "Name": "Becker-Volkman",
+    "ContentType": "quam",
+    "AttSize": 358,
     "InlineImage": false,
-    "ContentId": "in",
-    "AuthKey": "quasi",
+    "ContentId": "ipsum",
+    "AuthKey": "quam",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 197
       }
     }
   }

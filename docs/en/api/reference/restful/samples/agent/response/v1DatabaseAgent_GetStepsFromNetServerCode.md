@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collins-Kreiger",
-    "StepNumber": 62,
+    "Name": "CreateContactTable",
+    "StepNumber": 1,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -16,8 +16,8 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Collins-Kreiger",
-    "StepNumber": 62,
+    "Name": "AddContactIndexes",
+    "StepNumber": 2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

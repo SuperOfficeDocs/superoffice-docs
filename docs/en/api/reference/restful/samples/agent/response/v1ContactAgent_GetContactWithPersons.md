@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 539,
-  "Name": "Stroman LLC",
-  "Department": "",
-  "OrgNr": "1440028",
-  "Number1": "669342",
-  "Number2": "1387288",
+  "Name": "Consulting Partners Inc",
+  "Department": "Advisory Services",
+  "OrgNr": "654987321",
+  "Number1": "10005",
+  "Number2": "20005",
   "UpdatedDate": "2022-07-23T10:10:59.3854658+02:00",
   "CreatedDate": "2001-12-03T10:10:59.3854658+01:00",
   "Emails": [
     {
-      "Value": "id",
-      "StrippedValue": "dolorem",
-      "Description": "Switchable web-enabled projection",
+      "Value": "info@consultingpartners.com",
+      "StrippedValue": "info@consultingpartners.com",
+      "Description": "General inquiries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -42,8 +42,8 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 963,
-      "Name": "Ward, Farrell and Strosin",
-      "ToolTip": "Iste cupiditate neque.",
+      "Name": "Business Advisory Network",
+      "ToolTip": "Professional network for business consultants",
       "Deleted": false,
       "Rank": 641,
       "Type": "et",

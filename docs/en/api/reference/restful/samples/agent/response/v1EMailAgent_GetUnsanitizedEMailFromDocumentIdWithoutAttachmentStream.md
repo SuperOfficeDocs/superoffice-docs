@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 794,
-      "ContactName": "Jenkins-Bogan",
+      "ContactName": "Acme Corporation",
       "PersonId": 448,
-      "PersonName": "Schultz, Kunde and Doyle",
+      "PersonName": "John Anderson",
       "AssociateId": 816,
-      "Address": "beatae",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 141,
       "DuplicatePersonIds": [
         944,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "sapiente",
-  "HTMLBody": "dignissimos",
+  "Subject": "Contract Review Required",
+  "HTMLBody": "<html><body><p>The contract has been updated and requires your final review.</p></body></html>",
   "From": null,
   "Sent": "2013-02-12T10:10:59.9789606+01:00",
-  "Size": 177,
+  "Size": 134567,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "non",
+  "MessageID": "<20240114120000.msg014@acmecorp.com>",
+  "PlainBody": "The contract has been updated and requires your final review.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 657,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Goldner, Nicolas and Deckow",
+  "FolderName": "Documents",
   "EmailItemId": 751,
   "AccountId": 740,
   "ReceivedAt": "2008-03-11T10:10:59.9799627+01:00",

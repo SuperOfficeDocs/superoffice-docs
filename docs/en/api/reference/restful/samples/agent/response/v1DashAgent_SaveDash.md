@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 290,
-  "UniqueId": "aut",
-  "Name": "Rosenbaum, Schulist and Huels",
-  "Description": "Intuitive zero defect projection",
+  "UniqueId": "customer-service-metrics",
+  "Name": "Customer Service Dashboard",
+  "Description": "Real-time view of support tickets, response times, and customer satisfaction metrics",
   "AssociateId": 453,
-  "Columns": 616,
+  "Columns": 3,
   "Theme": null,
   "VisibleForAll": 161,
   "VisibleForAssociates": [

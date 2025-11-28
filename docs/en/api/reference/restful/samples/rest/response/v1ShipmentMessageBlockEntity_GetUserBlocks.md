@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 770,
-    "AssociateId": 954,
-    "Block": "quisquam",
-    "Registered": "2017-06-30T14:35:44.302167+02:00",
-    "RegisteredAssociateId": 708,
-    "Updated": "2015-04-14T14:35:44.302167+02:00",
-    "UpdatedAssociateId": 163,
-    "UpdatedCount": 346,
+    "ShipmentMessageBlockId": 820,
+    "AssociateId": 328,
+    "Block": "ullam",
+    "Registered": "2009-05-25T14:34:02.426041+02:00",
+    "RegisteredAssociateId": 525,
+    "Updated": "2013-11-07T14:34:02.426041+01:00",
+    "UpdatedAssociateId": 861,
+    "UpdatedCount": 839,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

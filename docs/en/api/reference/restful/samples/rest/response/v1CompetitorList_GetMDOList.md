@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Daugherty, Beer and Bartell",
-    "ToolTip": "Aspernatur aut alias sint fugit.",
+    "Id": 228,
+    "Name": "Tech Giants Inc",
+    "ToolTip": "Autem tempora commodi cum voluptatem provident.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "commodi",
+    "Rank": 805,
+    "Type": "Competitor",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Becker-Stroman",
-        "ToolTip": "Nihil totam vitae et porro sed dicta.",
+        "Id": 898,
+        "Name": "Innovation Corp",
+        "ToolTip": "Non inventore exercitationem voluptatibus ex accusamus.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "eius",
+        "Rank": 154,
+        "Type": "Competitor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 733,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "provident",
-        "FullName": "Torrey Schowalter",
+        "IconHint": "voluptatibus",
+        "ColorBlock": 571,
+        "ExtraInfo": "aut",
+        "StyleHint": "laudantium",
+        "FullName": "Lenna O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 382
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 117,
-    "ExtraInfo": "sint",
-    "StyleHint": "voluptates",
-    "FullName": "Damien Denesik II",
+    "IconHint": "repudiandae",
+    "ColorBlock": 798,
+    "ExtraInfo": "non",
+    "StyleHint": "nihil",
+    "FullName": "Clark Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 997
       }
     }
   }

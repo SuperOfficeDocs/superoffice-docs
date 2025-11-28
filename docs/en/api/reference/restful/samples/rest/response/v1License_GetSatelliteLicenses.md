@@ -4,30 +4,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann-Nitzsche",
-    "Description": "Synergized encompassing initiative",
+    "Name": "Glover Inc and Sons",
+    "Description": "Re-engineered solution-oriented local area network",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "non",
+        "Unrestricted": true,
+        "Total": 748,
+        "Tooltip": "rerum",
         "CanAssign": false,
-        "Free": 674,
-        "InUse": 559,
+        "Free": 57,
+        "InUse": 228,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 274,
-        "Name": "Torphy, Legros and Koelpin",
-        "Description": "Quality-focused maximized methodology",
-        "PrerequisiteModuleName": "Grady Group",
-        "SortOrder": 259,
-        "ExtraFlags": 960,
+        "ModuleLicenseId": 867,
+        "Name": "Enterprise License",
+        "Description": "Reactive human-resource workforce",
+        "PrerequisiteModuleName": "Balistreri, Goldner and Dare",
+        "SortOrder": 963,
+        "ExtraFlags": 441,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 273
           }
         }
       }
@@ -35,25 +35,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 921,
-        "Tooltip": "ex",
-        "CanAssign": false,
-        "Free": 552,
-        "InUse": 430,
-        "IsHidden": false,
+        "Total": 192,
+        "Tooltip": "error",
+        "CanAssign": true,
+        "Free": 82,
+        "InUse": 474,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 981,
-        "Name": "Hane, Stiedemann and Orn",
-        "Description": "Visionary intangible analyzer",
-        "PrerequisiteModuleName": "Crooks-Waters",
-        "SortOrder": 662,
-        "ExtraFlags": 159,
+        "ModuleLicenseId": 830,
+        "Name": "Enterprise License",
+        "Description": "Compatible value-added strategy",
+        "PrerequisiteModuleName": "Senger-O'Hara",
+        "SortOrder": 956,
+        "ExtraFlags": 646,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 383
           }
         }
       }
@@ -62,36 +62,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 947
       }
     }
   },
   {
-    "Name": "Gutmann-Nitzsche",
-    "Description": "Synergized encompassing initiative",
+    "Name": "Glover Inc and Sons",
+    "Description": "Re-engineered solution-oriented local area network",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "non",
+        "Unrestricted": true,
+        "Total": 748,
+        "Tooltip": "rerum",
         "CanAssign": false,
-        "Free": 674,
-        "InUse": 559,
+        "Free": 57,
+        "InUse": 228,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 274,
-        "Name": "Torphy, Legros and Koelpin",
-        "Description": "Quality-focused maximized methodology",
-        "PrerequisiteModuleName": "Grady Group",
-        "SortOrder": 259,
-        "ExtraFlags": 960,
+        "ModuleLicenseId": 867,
+        "Name": "Enterprise License",
+        "Description": "Reactive human-resource workforce",
+        "PrerequisiteModuleName": "Balistreri, Goldner and Dare",
+        "SortOrder": 963,
+        "ExtraFlags": 441,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 273
           }
         }
       }
@@ -99,25 +99,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 921,
-        "Tooltip": "ex",
-        "CanAssign": false,
-        "Free": 552,
-        "InUse": 430,
-        "IsHidden": false,
+        "Total": 192,
+        "Tooltip": "error",
+        "CanAssign": true,
+        "Free": 82,
+        "InUse": 474,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 981,
-        "Name": "Hane, Stiedemann and Orn",
-        "Description": "Visionary intangible analyzer",
-        "PrerequisiteModuleName": "Crooks-Waters",
-        "SortOrder": 662,
-        "ExtraFlags": 159,
+        "ModuleLicenseId": 830,
+        "Name": "Enterprise License",
+        "Description": "Compatible value-added strategy",
+        "PrerequisiteModuleName": "Senger-O'Hara",
+        "SortOrder": 956,
+        "ExtraFlags": 646,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 383
           }
         }
       }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 947
       }
     }
   }

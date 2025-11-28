@@ -3,45 +3,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 899,
-  "Name": "Kirlin-Mueller",
-  "Rank": 884,
-  "Tooltip": "dolorem",
-  "Icon": "dolorem",
-  "DefaultTicketStatus": 892,
+  "TicketTypeId": 744,
+  "Name": "Greenholt, Brekke and Mills",
+  "Rank": 422,
+  "Tooltip": "quia",
+  "Icon": "eos",
+  "DefaultTicketStatus": 962,
   "TicketStatuses": [
-    684,
-    610
+    678,
+    210
   ],
-  "DefaultTicketPriority": 737,
+  "DefaultTicketPriority": 387,
   "TicketPriorities": [
-    939,
-    64
+    155,
+    341
   ],
-  "ReplyTemplate": 533,
+  "ReplyTemplate": 553,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    108,
-    311
+    105,
+    975
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

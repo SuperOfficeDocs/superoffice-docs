@@ -2,19 +2,19 @@
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Walter Group",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 80,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 98,
+  "Name": "Hudson-Gerlach",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 666,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "at",
   "InUseByUserDefinedFields": false
 }
 ```

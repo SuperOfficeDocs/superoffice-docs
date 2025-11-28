@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "incidunt",
+    "ExternalReference": "doc-v3-2024-01-15",
     "DocumentId": 86,
-    "VersionId": "dolore",
-    "CheckedInDate": "2014-08-10T10:10:59.8339678+02:00",
-    "CheckedInByName": "Strosin Group",
+    "VersionId": "v3.0",
+    "CheckedInDate": "2024-01-15T14:30:00+01:00",
+    "CheckedInByName": "John Anderson",
     "CheckedInByAssociateId": 871,
-    "Description": "Operative analyzing knowledge user",
-    "DisplayText": "dolorem",
+    "Description": "Updated pricing section and added Q1 2024 deliverables",
+    "DisplayText": "Version 3.0 - Final revision",
     "ExtraFields": [
       "doloribus",
       "delectus"

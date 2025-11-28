@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Harris, O'Conner and Pollich",
-    "ToolTip": "Necessitatibus natus sed est sint.",
+    "Id": 492,
+    "Name": "Sales Team",
+    "ToolTip": "Quia in aut.",
     "Deleted": false,
-    "Rank": 749,
-    "Type": "quidem",
-    "ColorBlock": 534,
-    "IconHint": "sequi",
+    "Rank": 777,
+    "Type": "ullam",
+    "ColorBlock": 577,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2015-07-11T14:35:44.9110606+02:00",
+    "LastChanged": "1998-08-16T14:34:03.1166771+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Rice-Russel",
-        "ToolTip": "Eveniet modi.",
+        "Id": 786,
+        "Name": "Sales Team",
+        "ToolTip": "Nisi dignissimos aliquam et molestias non totam.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "perspiciatis",
-        "ColorBlock": 838,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2000-10-07T14:35:44.9120957+02:00",
+        "Rank": 616,
+        "Type": "qui",
+        "ColorBlock": 441,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2019-12-03T14:34:03.1166771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "dolores",
+        "ExtraInfo": "est",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Phyllis Moore",
+        "FullName": "Wade Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 662
+            "FieldType": "System.String",
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Mr. Cyril Wolff Jr.",
+    "ExtraInfo": "quia",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Prof. Eleonore Stewart Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 61
       }
     }
   }

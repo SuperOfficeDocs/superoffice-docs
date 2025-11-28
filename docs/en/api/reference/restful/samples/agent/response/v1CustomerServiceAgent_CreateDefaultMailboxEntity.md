@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "MailInFilterId": 875,
-  "ServerType": "Facebook",
-  "Address": "nesciunt",
-  "Username": "hic",
-  "Password": "officiis",
-  "Server": "error",
-  "Port": 839,
+  "ServerType": "IMAP",
+  "Address": "support@techcorp.com",
+  "Username": "support.inbox",
+  "Password": "encrypted_password",
+  "Server": "imap.techcorp.com",
+  "Port": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

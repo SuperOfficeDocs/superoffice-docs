@@ -6,15 +6,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Corkery LLC",
-  "Tooltip": "molestias",
+  "Id": 662,
+  "Name": "Lueilwitz Group",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 597,
+  "Rank": 953,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```

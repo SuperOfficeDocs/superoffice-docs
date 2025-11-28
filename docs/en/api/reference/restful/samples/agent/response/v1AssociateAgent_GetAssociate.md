@@ -4,24 +4,24 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateId": 942,
-  "Name": "Beatty-Wunsch",
+  "Name": "JA",
   "PersonId": 478,
-  "Rank": 607,
-  "Tooltip": "tempore",
-  "Type": "AnonymousAssociate",
+  "Rank": 1,
+  "Tooltip": "Sales Representative - North Region",
+  "Type": "InternalAssociate",
   "GroupIdx": 910,
-  "FullName": "Salma Bode",
-  "FormalName": "Cummings-Reichel",
-  "Deleted": true,
+  "FullName": "John Anderson",
+  "FormalName": "Anderson, John",
+  "Deleted": false,
   "EjUserId": 886,
-  "UserName": "Runte Inc and Sons",
+  "UserName": "john.anderson",
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "Sales",
+    "ExtraFields2": "North"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "Department: Sales",
+    "CustomFields2": "Region: North"
   },
   "TableRight": null,
   "FieldProperties": {

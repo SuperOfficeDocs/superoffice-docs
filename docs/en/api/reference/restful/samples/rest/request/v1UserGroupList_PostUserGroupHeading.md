@@ -2,15 +2,15 @@
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 526,
-  "Name": "Bartell, Kub and Rohan",
-  "Tooltip": "facere",
+  "HeadingId": 806,
+  "Name": "Wyman-Pfeffer",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 929,
-  "UdListDefinitionId": 586
+  "Rank": 839,
+  "UdListDefinitionId": 341
 }
 ```

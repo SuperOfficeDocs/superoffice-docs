@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Schulist Group",
-  "Tooltip": "ut",
+  "Id": 980,
+  "Name": "Goyette Group",
+  "Tooltip": "Payment method",
   "Deleted": false,
-  "UdListDefinitionId": 748,
-  "Rank": 759,
+  "UdListDefinitionId": 141,
+  "Rank": 436,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 531
     }
   }
 }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Kerluke, Blick and Gerlach",
-  "Tooltip": "aut",
+  "Id": 722,
+  "Name": "Meeting Minutes",
+  "Tooltip": "Document template",
   "Deleted": true,
-  "Rank": 374,
-  "IsCustomList": false,
+  "Rank": 101,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
+  "ListType": "labore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldLength": 585
     }
   }
 }

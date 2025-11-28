@@ -3,18 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 658,
+  "TargetAssignmentInfoId": 158,
   "Values": [
-    302,
-    19
+    400000,
+    450000,
+    425000,
+    475000
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 329,
-  "DimensionListItemDisplayName": "Berge Inc and Sons",
+  "DimensionListItem": 15,
+  "DimensionListItemDisplayName": "Sales Revenue",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Murphy, Price and Green",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 468,
-  "Rank": 61,
+  "Id": 57,
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
+  "Deleted": false,
+  "UdListDefinitionId": 438,
+  "Rank": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

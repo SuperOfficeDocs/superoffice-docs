@@ -6,11 +6,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 867,
-  "Name": "Schmitt, Ryan and Stokes",
-  "Tooltip": "facilis",
+  "WebPanelId": 101,
+  "Name": "Littel-Klocko",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 607,
+  "Rank": 32,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -20,12 +20,12 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Anderson Inc and Sons",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Labadie-Cronin",
   "Url": "http://www.example.com/",
-  "ProgId": "ratione",
-  "Icon": 200,
+  "ProgId": "et",
+  "Icon": 978,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }

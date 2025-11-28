@@ -2,25 +2,25 @@
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "magnam",
+    "HeadingId": 582,
+    "Name": "Cole-Rosenbaum",
+    "Tooltip": "eius",
     "Deleted": false,
-    "Rank": 398,
-    "UdListDefinitionId": 920
+    "Rank": 359,
+    "UdListDefinitionId": 295
   },
   {
-    "HeadingId": 72,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "magnam",
+    "HeadingId": 582,
+    "Name": "Cole-Rosenbaum",
+    "Tooltip": "eius",
     "Deleted": false,
-    "Rank": 398,
-    "UdListDefinitionId": 920
+    "Rank": 359,
+    "UdListDefinitionId": 295
   }
 ]
 ```

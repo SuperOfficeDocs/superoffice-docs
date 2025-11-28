@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 351,
-  "Name": "Morar Group",
-  "Department": "",
-  "OrgNr": "1088453",
-  "Number1": "1420116",
-  "Number2": "1753608",
+  "Name": "Education Services Inc",
+  "Department": "Academic Programs",
+  "OrgNr": "852456789",
+  "Number1": "10010",
+  "Number2": "20010",
   "UpdatedDate": "2008-11-26T10:10:59.5063204+01:00",
   "CreatedDate": "2017-03-25T10:10:59.5063204+01:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "error",
-      "Description": "Enhanced grid-enabled throughput",
+      "Value": "info@educationservices.edu",
+      "StrippedValue": "info@educationservices.edu",
+      "Description": "General inquiries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -42,8 +42,8 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 269,
-      "Name": "Monahan Group",
-      "ToolTip": "Est voluptatem.",
+      "Name": "Higher Education Network",
+      "ToolTip": "Professional network for educational institutions",
       "Deleted": false,
       "Rank": 771,
       "Type": "ipsam",

@@ -6,15 +6,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Barrows, Walsh and Larkin",
-  "Tooltip": "labore",
+  "Id": 223,
+  "Name": "Jacobs Group",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 8,
+  "Rank": 831,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```

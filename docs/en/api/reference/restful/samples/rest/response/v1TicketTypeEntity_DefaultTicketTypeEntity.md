@@ -3,40 +3,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 530,
-  "Name": "Lemke-Marquardt",
-  "Rank": 695,
-  "Tooltip": "nostrum",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 509,
+  "TicketTypeId": 218,
+  "Name": "Service Request",
+  "Rank": 241,
+  "Tooltip": "laboriosam",
+  "Icon": "asperiores",
+  "DefaultTicketStatus": 9,
   "TicketStatuses": [
-    637,
-    738
+    258,
+    988
   ],
-  "DefaultTicketPriority": 140,
+  "DefaultTicketPriority": 684,
   "TicketPriorities": [
-    861,
-    900
+    776,
+    109
   ],
-  "ReplyTemplate": 327,
+  "ReplyTemplate": 940,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    942,
-    428
+    135,
+    544
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 619
     }
   }
 }

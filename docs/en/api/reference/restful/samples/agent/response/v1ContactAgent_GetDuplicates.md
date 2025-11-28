@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Emard Inc and Sons",
-    "SoPrimaryKey": 586,
-    "EntryName": "Krajcik-Watsica",
-    "EntryIdentifier": "ducimus",
-    "RuleDisplayName": "Franecki Group",
+    "RuleName": "DuplicatePhoneNumber",
+    "SoPrimaryKey": 236,
+    "EntryName": "Acme Corporation",
+    "EntryIdentifier": "+1-555-0123",
+    "RuleDisplayName": "Phone Number Match",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

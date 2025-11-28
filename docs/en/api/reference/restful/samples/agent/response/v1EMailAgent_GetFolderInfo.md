@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West, Kutch and Cruickshank",
-    "Delimiter": "voluptates",
-    "Flags": "et",
-    "TotalItems": 962,
-    "UnreadItems": 622,
+    "Name": "Sent Items",
+    "Delimiter": "/",
+    "Flags": "\\Sent",
+    "TotalItems": 342,
+    "UnreadItems": 0,
     "Subscribed": false,
     "EmailFolderId": 702,
     "TableRight": null,

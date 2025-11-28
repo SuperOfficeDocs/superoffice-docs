@@ -3,40 +3,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 727,
-  "Name": "Renner, Trantow and Blanda",
-  "Rank": 995,
-  "Tooltip": "quo",
-  "Icon": "a",
-  "DefaultTicketStatus": 19,
+  "TicketTypeId": 713,
+  "Name": "Technical Support",
+  "Rank": 53,
+  "Tooltip": "Ticket classification",
+  "Icon": "saepe",
+  "DefaultTicketStatus": 381,
   "TicketStatuses": [
-    668,
-    647
+    998,
+    208
   ],
-  "DefaultTicketPriority": 748,
+  "DefaultTicketPriority": 126,
   "TicketPriorities": [
-    57,
-    574
+    179,
+    234
   ],
-  "ReplyTemplate": 206,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 512,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    226,
-    308
+    223,
+    476
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

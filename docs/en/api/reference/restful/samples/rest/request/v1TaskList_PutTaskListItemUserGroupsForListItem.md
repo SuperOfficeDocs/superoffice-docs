@@ -2,47 +2,47 @@
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Turner Group",
-    "ToolTip": "Voluptatibus ut quas optio reprehenderit ipsa.",
+    "Id": 437,
+    "Name": "D'Amore LLC",
+    "ToolTip": "Eos dolorem inventore aut officia.",
     "Deleted": false,
-    "Rank": 760,
-    "Type": "explicabo",
-    "ColorBlock": 142,
-    "IconHint": "tempora",
+    "Rank": 950,
+    "Type": "quo",
+    "ColorBlock": 660,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2006-05-05T14:35:45.3336624+02:00",
+    "LastChanged": "2019-05-12T14:34:03.5498937+02:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Collins LLC",
-        "ToolTip": "Minus sint.",
+        "Id": 491,
+        "Name": "Stamm-Stehr",
+        "ToolTip": "Tenetur molestiae blanditiis enim.",
         "Deleted": false,
-        "Rank": 882,
-        "Type": "vero",
-        "ColorBlock": 592,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2015-10-28T14:35:45.3336624+01:00",
+        "Rank": 995,
+        "Type": "occaecati",
+        "ColorBlock": 552,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2014-09-11T14:34:03.5498937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Dr. Kim Walter"
+        "ExtraInfo": "architecto",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Hilario Kessler MD"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "et",
+    "ExtraInfo": "non",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Prof. Leonora Ruthe Ortiz DDS"
+    "FullName": "Hailee Gottlieb"
   }
 ]
 ```

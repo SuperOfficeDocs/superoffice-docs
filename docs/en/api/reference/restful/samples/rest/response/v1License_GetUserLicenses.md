@@ -4,30 +4,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haley-Huels",
-    "Description": "Enhanced incremental budgetary management",
+    "Name": "Professional License",
+    "Description": "Expanded attitude-oriented interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 121,
-        "Tooltip": "earum",
-        "CanAssign": false,
-        "Free": 880,
-        "InUse": 981,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 254,
+        "Tooltip": "soluta",
+        "CanAssign": true,
+        "Free": 374,
+        "InUse": 544,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 621,
-        "Name": "Schuppe Group",
-        "Description": "Innovative asynchronous time-frame",
-        "PrerequisiteModuleName": "Bartoletti-Bahringer",
-        "SortOrder": 680,
-        "ExtraFlags": 111,
+        "ModuleLicenseId": 129,
+        "Name": "Schinner Inc and Sons",
+        "Description": "Cross-group secondary service-desk",
+        "PrerequisiteModuleName": "Cormier-Rau",
+        "SortOrder": 264,
+        "ExtraFlags": 877,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 501
           }
         }
       }
@@ -35,25 +35,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 305,
-        "Tooltip": "dolorum",
+        "Total": 234,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 583,
-        "InUse": 336,
-        "IsHidden": true,
+        "Free": 63,
+        "InUse": 196,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 304,
-        "Name": "Gislason, Hermann and Osinski",
-        "Description": "Configurable user-facing benchmark",
-        "PrerequisiteModuleName": "Kris, Ullrich and Botsford",
-        "SortOrder": 58,
-        "ExtraFlags": 176,
+        "ModuleLicenseId": 733,
+        "Name": "Professional License",
+        "Description": "Pre-emptive dedicated interface",
+        "PrerequisiteModuleName": "Ratke, Price and Dach",
+        "SortOrder": 515,
+        "ExtraFlags": 815,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 204
           }
         }
       }
@@ -63,35 +63,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 933
       }
     }
   },
   {
-    "Name": "Haley-Huels",
-    "Description": "Enhanced incremental budgetary management",
+    "Name": "Professional License",
+    "Description": "Expanded attitude-oriented interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 121,
-        "Tooltip": "earum",
-        "CanAssign": false,
-        "Free": 880,
-        "InUse": 981,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 254,
+        "Tooltip": "soluta",
+        "CanAssign": true,
+        "Free": 374,
+        "InUse": 544,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 621,
-        "Name": "Schuppe Group",
-        "Description": "Innovative asynchronous time-frame",
-        "PrerequisiteModuleName": "Bartoletti-Bahringer",
-        "SortOrder": 680,
-        "ExtraFlags": 111,
+        "ModuleLicenseId": 129,
+        "Name": "Schinner Inc and Sons",
+        "Description": "Cross-group secondary service-desk",
+        "PrerequisiteModuleName": "Cormier-Rau",
+        "SortOrder": 264,
+        "ExtraFlags": 877,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 501
           }
         }
       }
@@ -99,25 +99,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 305,
-        "Tooltip": "dolorum",
+        "Total": 234,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 583,
-        "InUse": 336,
-        "IsHidden": true,
+        "Free": 63,
+        "InUse": 196,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 304,
-        "Name": "Gislason, Hermann and Osinski",
-        "Description": "Configurable user-facing benchmark",
-        "PrerequisiteModuleName": "Kris, Ullrich and Botsford",
-        "SortOrder": 58,
-        "ExtraFlags": 176,
+        "ModuleLicenseId": 733,
+        "Name": "Professional License",
+        "Description": "Pre-emptive dedicated interface",
+        "PrerequisiteModuleName": "Ratke, Price and Dach",
+        "SortOrder": 515,
+        "ExtraFlags": 815,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 204
           }
         }
       }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 933
       }
     }
   }

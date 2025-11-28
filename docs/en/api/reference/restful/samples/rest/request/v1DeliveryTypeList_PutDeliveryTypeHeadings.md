@@ -2,25 +2,25 @@
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 944,
-    "Name": "Wyman LLC",
-    "Tooltip": "accusantium",
+    "HeadingId": 143,
+    "Name": "Conn Group",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 152
+    "Rank": 351,
+    "UdListDefinitionId": 62
   },
   {
-    "HeadingId": 944,
-    "Name": "Wyman LLC",
-    "Tooltip": "accusantium",
+    "HeadingId": 143,
+    "Name": "Conn Group",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 152
+    "Rank": 351,
+    "UdListDefinitionId": 62
   }
 ]
 ```

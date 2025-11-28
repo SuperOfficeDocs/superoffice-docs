@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Connelly-Carroll",
-    "Records": 775,
+    "EntityName": "Appointment",
+    "Records": 8542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -16,8 +16,8 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "EntityName": "Connelly-Carroll",
-    "Records": 775,
+    "EntityName": "Project",
+    "Records": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

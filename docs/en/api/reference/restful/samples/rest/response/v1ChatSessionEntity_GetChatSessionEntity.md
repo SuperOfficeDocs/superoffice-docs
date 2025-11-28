@@ -3,29 +3,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 722,
-  "TopicId": 489,
+  "ChatSessionId": 865,
+  "TopicId": 573,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "delectus",
-  "CustomerName": "Morar-O'Conner",
-  "CustomerEmail": "henri_langworth@bergekirlin.biz",
-  "CustomerPhone": "1-991-891-8649 x1209",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Denesik, Bechtelar and Zboncak",
+  "CustomerAlias": "voluptates",
+  "CustomerHost": "aperiam",
+  "CustomerName": "Customer Name",
+  "CustomerEmail": "maximo@brakus.com",
+  "CustomerPhone": "456.951.3506 x848",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Russel Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "laborum",
-  "WhenRequested": "2021-03-03T14:35:43.1846346+01:00",
-  "WhenStarted": "2004-03-20T14:35:43.1846346+01:00",
-  "WhenEnded": "2014-08-20T14:35:43.1846346+02:00",
-  "WhenIdle": "2004-03-12T14:35:43.1846346+01:00",
-  "WhenFetched": "2004-03-13T14:35:43.1846346+01:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 169,
-  "AlertLevel": 938,
-  "Rank": 269,
+  "FirstMessage": "autem",
+  "LastMessage": "aut",
+  "WhenRequested": "2000-03-27T14:34:01.555181+02:00",
+  "WhenStarted": "2017-12-02T14:34:01.555181+01:00",
+  "WhenEnded": "2015-06-05T14:34:01.555181+02:00",
+  "WhenIdle": "2025-01-04T14:34:01.555181+01:00",
+  "WhenFetched": "2016-11-27T14:34:01.555181+01:00",
+  "SessionKey": "libero",
+  "InitialQueuePos": 432,
+  "AlertLevel": 404,
+  "Rank": 155,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -33,18 +33,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 725,
+  "Rating": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 954
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

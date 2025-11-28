@@ -4,40 +4,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 284,
-    "Name": "Jacobs, Schinner and Green",
-    "Rank": 920,
-    "Tooltip": "officiis",
-    "Icon": "nemo",
-    "DefaultTicketStatus": 570,
+    "TicketTypeId": 719,
+    "Name": "Sales Inquiry",
+    "Rank": 558,
+    "Tooltip": "Ticket classification",
+    "Icon": "repudiandae",
+    "DefaultTicketStatus": 258,
     "TicketStatuses": [
-      727,
-      60
+      910,
+      390
     ],
-    "DefaultTicketPriority": 577,
+    "DefaultTicketPriority": 500,
     "TicketPriorities": [
-      813,
-      883
+      745,
+      360
     ],
-    "ReplyTemplate": 705,
-    "IsExternalVisible": false,
-    "IsDefault": false,
+    "ReplyTemplate": 167,
+    "IsExternalVisible": true,
+    "IsDefault": true,
     "ShowInNew": false,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": true,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      646,
-      362
+      554,
+      664
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 87
       }
     }
   }

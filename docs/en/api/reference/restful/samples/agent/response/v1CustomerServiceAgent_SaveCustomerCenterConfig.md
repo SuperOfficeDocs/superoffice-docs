@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigId": 181,
   "Type": "Options",
-  "Config": "ut",
+  "Config": "{\"theme\":\"dark\",\"showFAQ\":true,\"allowAttachments\":false,\"requireLogin\":true}",
   "CustLangId": 427,
   "Registered": "2025-02-06T10:10:59.5768349+01:00",
   "RegisteredAssociateId": 716,

@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Bauch, Boehm and Paucek",
-  "Tooltip": "enim",
+  "Id": 285,
+  "Name": "Steuber, Zieme and Haley",
+  "Tooltip": "cum",
   "Deleted": true,
-  "Rank": 885,
+  "Rank": 197,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": false
+  "ListType": "non",
+  "InUseByUserDefinedFields": true
 }
 ```

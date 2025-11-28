@@ -5,6 +5,6 @@ Content-Type: application/json; charset=utf-8
 {
   "State": "CheckedOutOther",
   "AssociateId": 844,
-  "Name": "Watsica, Luettgen and Ernser"
+  "Name": "Sarah Johnson"
 }
 ```

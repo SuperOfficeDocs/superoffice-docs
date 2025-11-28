@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Brekke, Schiller and Ziemann",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 924,
-    "Rank": 704,
+    "Id": 306,
+    "Name": "Wuckert Inc and Sons",
+    "Tooltip": "Priority level",
+    "Deleted": true,
+    "UdListDefinitionId": 482,
+    "Rank": 317,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

@@ -3,35 +3,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 607,
-  "Section": "et",
-  "Key": "ipsam",
-  "Name": "O'Kon LLC",
+  "PrefDescId": 224,
+  "Section": "dolorem",
+  "Key": "voluptatum",
+  "Name": "Email Notifications",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured 5th generation portal",
+  "Description": "Inverse 6th generation matrices",
   "IsBuiltin": false,
-  "TableName": "Braun Group",
-  "UserDefinedListId": 633,
-  "Rank": 156,
+  "TableName": "Nolan, Bednar and Abshire",
+  "UserDefinedListId": 273,
+  "Rank": 991,
   "SubGroup": "ut",
-  "MinLevel": 318,
-  "MaxValue": 21,
-  "MinValue": 953,
-  "RequiredLicense": "impedit",
+  "MinLevel": 254,
+  "MaxValue": 442,
+  "MinValue": 347,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

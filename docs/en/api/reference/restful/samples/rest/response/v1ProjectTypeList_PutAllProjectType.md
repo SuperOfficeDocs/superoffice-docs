@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Weissnat-Roberts",
-    "Tooltip": "earum",
+    "Id": 559,
+    "Name": "Customer",
+    "Tooltip": "Project type",
     "Deleted": false,
-    "UdListDefinitionId": 798,
-    "Rank": 775,
+    "UdListDefinitionId": 214,
+    "Rank": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "Name": "Kihn Inc and Sons",
-  "AssociateId": 376,
-  "DetailsTable": 567,
-  "DetailsRecord": 713,
-  "IsSystemTask": true,
+  "Id": 95,
+  "Name": "Database Cleanup Task",
+  "AssociateId": 617,
+  "DetailsTable": 827,
+  "DetailsRecord": 685,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "similique",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "daysOld=365",
+    "ParameterObject2": "includeArchived=true"
   },
-  "LastStarted": "2018-12-11T14:35:44.5229994+01:00",
-  "Created": "2001-02-13T14:35:44.5229994+01:00",
-  "StartCount": 367,
-  "DatabaseSerialNumber": "875080",
-  "Context": "sit",
-  "Result": "exercitationem",
+  "LastStarted": "2015-12-21T14:34:02.7223333+01:00",
+  "Created": "2020-01-13T14:34:02.7223333+01:00",
+  "StartCount": 198,
+  "DatabaseSerialNumber": "891084",
+  "Context": "Maintenance",
+  "Result": "Pending",
   "State": "All",
-  "Description": "Managed bi-directional array",
-  "Response": "illo",
-  "Request": "asperiores",
-  "ProgressDescription": "Synchronised zero administration analyzer",
-  "ProgressPercent": 476,
-  "FileName": "Weimann Group",
+  "Description": "Clean up old database records and optimize tables",
+  "Response": "Waiting for scheduled time",
+  "Request": "DatabaseCleanup",
+  "ProgressDescription": "Scheduled for execution",
+  "ProgressPercent": 0,
+  "FileName": "cleanup_log_2024.txt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

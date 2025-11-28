@@ -2,15 +2,15 @@
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 730,
-  "Name": "Buckridge, Mante and Spinka",
-  "Tooltip": "magnam",
+  "HeadingId": 11,
+  "Name": "McLaughlin-Turner",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 383,
-  "UdListDefinitionId": 324
+  "Rank": 835,
+  "UdListDefinitionId": 907
 }
 ```

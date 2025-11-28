@@ -3,9 +3,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Value": "aliquid",
-  "Tooltip": "ut",
+  "Id": 1,
+  "Value": "Sales Representative",
+  "Tooltip": "Standard sales user role",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 692,
-  "WorkflowId": 854,
-  "GoalType": "AddedToProject",
+  "WorkflowGoalId": 1,
+  "WorkflowId": 1,
+  "GoalType": "LinkClicked",
   "RestrictionGroups": [
     {
-      "Name": "Gerlach-Lebsack",
-      "Description": "Ergonomic next generation project",
-      "Rank": 125,
+      "Name": "Email Link Clicked",
+      "Description": "Customer clicked specific link in email",
+      "Rank": 1,
       "Restrictions": [
         {},
         {}

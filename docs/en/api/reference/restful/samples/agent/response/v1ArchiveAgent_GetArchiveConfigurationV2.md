@@ -5,41 +5,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Skiles Inc and Sons",
-      "DisplayTooltip": "non",
-      "DisplayType": "quo",
-      "CanOrderBy": false,
-      "Name": "Harris Group",
+      "DisplayName": "Sale Amount",
+      "DisplayTooltip": "Total sale amount",
+      "DisplayType": "decimal",
+      "CanOrderBy": true,
+      "Name": "amount",
       "CanRestrictBy": true,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Huel, Steuber and Brakus",
+      "RestrictionType": "decimal",
+      "RestrictionListName": "",
       "IsVisible": true,
-      "ExtraInfo": "perspiciatis",
-      "Width": "quidem",
-      "IconHint": "totam",
-      "HeadingIconHint": "exercitationem"
+      "ExtraInfo": "sale.amount",
+      "Width": "120",
+      "IconHint": "currency",
+      "HeadingIconHint": "money"
     }
   ],
   "ArchiveEntityInfo": [
     {
       "Id": 745,
-      "Name": "Durgan, Klein and Reinger",
-      "ToolTip": "Porro hic aut culpa aliquam.",
+      "Name": "Sale",
+      "ToolTip": "Sales and opportunities archive",
       "Deleted": false,
-      "Rank": 49,
-      "Type": "ratione",
+      "Rank": 1,
+      "Type": "ArchiveProvider",
       "ColorBlock": 323,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "2019-08-07T10:10:58.9968606+02:00",
+      "IconHint": "sale",
+      "Selected": true,
+      "LastChanged": "2024-11-20T10:00:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "minima",
+      "ExtraInfo": "SaleArchive",
+      "StyleHint": "entity",
       "Hidden": false,
-      "FullName": "Timmy Johnston",
+      "FullName": "Sale Archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -52,15 +52,15 @@ Content-Type: application/json; charset=utf-8
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "O'Keefe-Orn",
-      "Direction": "ASC"
+      "Name": "saleDate",
+      "Direction": "DESC"
     },
     {
-      "Name": "O'Keefe-Orn",
-      "Direction": "ASC"
+      "Name": "amount",
+      "Direction": "DESC"
     }
   ],
-  "OwnerKeys": "debitis",
+  "OwnerKeys": "sale=400,contact=123",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

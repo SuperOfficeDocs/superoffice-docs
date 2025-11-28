@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Stamm, Veum and Gusikowski",
-    "Tooltip": "pariatur",
+    "Id": 229,
+    "Name": "Website",
+    "Tooltip": "Lead source",
     "Deleted": true,
-    "UdListDefinitionId": 912,
-    "Rank": 157,
+    "UdListDefinitionId": 831,
+    "Rank": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

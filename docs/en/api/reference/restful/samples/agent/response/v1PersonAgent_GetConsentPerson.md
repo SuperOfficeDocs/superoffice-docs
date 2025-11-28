@@ -8,7 +8,7 @@ Content-Type: application/json; charset=utf-8
   "LegalBase": null,
   "PersonId": 83,
   "ConsentPurpose": null,
-  "Comment": "tenetur",
+  "Comment": "Customer provided consent for email marketing during product demo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Johnson-O'Connell",
-  "Tooltip": "qui",
+  "Id": 616,
+  "Name": "Prospect",
+  "Tooltip": "Contact category classification",
   "Deleted": false,
-  "UdListDefinitionId": 990,
-  "Rank": 299,
+  "UdListDefinitionId": 386,
+  "Rank": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

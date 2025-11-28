@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Jacobi Group",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "UdListDefinitionId": 739,
-  "Rank": 79,
+  "Id": 981,
+  "Name": "Completed",
+  "Tooltip": "Project status",
+  "Deleted": false,
+  "UdListDefinitionId": 536,
+  "Rank": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

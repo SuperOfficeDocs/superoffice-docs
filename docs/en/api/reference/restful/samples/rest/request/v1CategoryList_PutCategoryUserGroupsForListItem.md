@@ -2,47 +2,47 @@
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 158,
-    "Name": "Runolfsson Group",
-    "ToolTip": "Dolore eos saepe minima veritatis qui adipisci.",
+    "Id": 248,
+    "Name": "Murray-Altenwerth",
+    "ToolTip": "Velit sunt ut ratione.",
     "Deleted": true,
-    "Rank": 184,
-    "Type": "inventore",
-    "ColorBlock": 395,
-    "IconHint": "ab",
-    "Selected": false,
-    "LastChanged": "2012-12-10T14:35:44.8027333+01:00",
+    "Rank": 244,
+    "Type": "molestias",
+    "ColorBlock": 436,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2015-09-16T14:34:03.0038304+02:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Borer, Donnelly and Pouros",
-        "ToolTip": "Vel ea.",
+        "Id": 369,
+        "Name": "Kessler, Bogisich and Tromp",
+        "ToolTip": "Sequi magnam occaecati ullam exercitationem repellendus beatae.",
         "Deleted": true,
-        "Rank": 884,
-        "Type": "ut",
-        "ColorBlock": 707,
-        "IconHint": "laborum",
+        "Rank": 953,
+        "Type": "dolores",
+        "ColorBlock": 53,
+        "IconHint": "illum",
         "Selected": true,
-        "LastChanged": "2004-02-22T14:35:44.8027333+01:00",
+        "LastChanged": "2004-04-10T14:34:03.0038304+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Reid Hickle Jr."
+        "ExtraInfo": "sunt",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Clifton Welch"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Tillman Little"
+    "ExtraInfo": "consectetur",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Jailyn Watsica"
   }
 ]
 ```

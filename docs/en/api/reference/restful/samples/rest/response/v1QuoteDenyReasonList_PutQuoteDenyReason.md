@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "et",
+  "Id": 783,
+  "Name": "Witting, O'Hara and Block",
+  "Tooltip": "Quote reason",
   "Deleted": false,
-  "UdListDefinitionId": 372,
-  "Rank": 553,
+  "UdListDefinitionId": 241,
+  "Rank": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

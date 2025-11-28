@@ -2,67 +2,67 @@
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 69,
+  "EjMessageId": 925,
   "Ticket": null,
-  "CreatedAt": "2004-09-09T14:35:44.4878761+02:00",
+  "CreatedAt": "2021-04-24T14:34:02.6746686+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "praesentium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 444,
-  "Body": "occaecati",
-  "HtmlBody": "minima",
-  "EmailHeader": "kattie_hane@leschrosenbaum.us",
-  "DebugInfo": "nihil",
-  "MailSorter": "tempore",
+  "MessageId": "quia",
+  "TimeSpent": 454,
+  "Body": "officia",
+  "HtmlBody": "iure",
+  "EmailHeader": "bridgette@nitzschetillman.info",
+  "DebugInfo": "autem",
+  "MailSorter": "amet",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nisi",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 301,
-      "Name": "Zboncak-Little",
-      "Value": "ad",
+      "Id": 651,
+      "Name": "Hettinger, Goldner and Cole",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 301,
-      "Name": "Zboncak-Little",
-      "Value": "ad",
+      "Id": 651,
+      "Name": "Hettinger, Goldner and Cole",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "et",
-  "Sentiment": 845,
-  "SentimentConfidence": 992,
+  "Language": "temporibus",
+  "Sentiment": 646,
+  "SentimentConfidence": 227,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 857,
-      "Name": "Schoen, Miller and Runolfsson",
-      "ContentType": "et",
-      "AttSize": 685,
-      "InlineImage": false,
-      "ContentId": "recusandae",
-      "AuthKey": "facere",
-      "IsSafeFileExtension": false
+      "AttachmentId": 826,
+      "Name": "Corkery-Stark",
+      "ContentType": "minima",
+      "AttSize": 327,
+      "InlineImage": true,
+      "ContentId": "dolorum",
+      "AuthKey": "quisquam",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "et",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "eum"
+    "CustomFields1": "saepe",
+    "CustomFields2": "adipisci"
   }
 }
 ```

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Koss-Daniel",
-  "Tooltip": "rerum",
+  "Id": 659,
+  "Name": "Express Delivery",
+  "Tooltip": "Delivery type",
   "Deleted": false,
-  "UdListDefinitionId": 470,
-  "Rank": 192,
+  "UdListDefinitionId": 642,
+  "Rank": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Rempel-Wiegand",
-  "Tooltip": "in",
+  "Id": 61,
+  "Name": "McKenzie-Quitzon",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
-  "UdListDefinitionId": 215,
-  "Rank": 291,
+  "UdListDefinitionId": 229,
+  "Rank": 240,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldLength": 51
     }
   }
 }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 497,
-  "Name": "Paucek, Oberbrunner and Lind",
-  "Tooltip": "ipsa",
+  "HeadingId": 99,
+  "Name": "Ms.",
+  "Tooltip": "Title or salutation",
   "Deleted": false,
-  "Rank": 955,
-  "UdListDefinitionId": 678,
+  "Rank": 715,
+  "UdListDefinitionId": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

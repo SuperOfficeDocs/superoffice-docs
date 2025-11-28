@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Koelpin, Eichmann and Kessler",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 228,
-  "IsCustomList": true,
+  "Id": 366,
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
+  "Deleted": true,
+  "Rank": 875,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "soluta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Simonis Group",
-    "Tooltip": "praesentium",
+    "Id": 867,
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
     "Deleted": false,
-    "UdListDefinitionId": 868,
-    "Rank": 406,
+    "UdListDefinitionId": 32,
+    "Rank": 643,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldType": "System.Int32",
+        "FieldLength": 776
       }
     }
   }

@@ -2,25 +2,25 @@
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 10,
-    "Name": "Yundt-Beatty",
-    "Tooltip": "eligendi",
+    "HeadingId": 179,
+    "Name": "Kovacek-Sipes",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 520,
-    "UdListDefinitionId": 516
+    "Rank": 545,
+    "UdListDefinitionId": 531
   },
   {
-    "HeadingId": 10,
-    "Name": "Yundt-Beatty",
-    "Tooltip": "eligendi",
+    "HeadingId": 179,
+    "Name": "Kovacek-Sipes",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 520,
-    "UdListDefinitionId": 516
+    "Rank": 545,
+    "UdListDefinitionId": 531
   }
 ]
 ```

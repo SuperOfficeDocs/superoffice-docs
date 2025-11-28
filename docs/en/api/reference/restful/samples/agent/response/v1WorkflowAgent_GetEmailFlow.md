@@ -3,34 +3,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 399,
-  "Name": "Cassin-Sanford",
-  "Description": "Right-sized eco-centric utilisation",
-  "Status": "None",
+  "EmailFlowId": 1,
+  "Name": "New Customer Welcome Campaign",
+  "Description": "Automated welcome email series for new customers with onboarding information and product tips",
+  "Status": "Active",
   "JumpToFinish": false,
-  "StartOnlyOnce": false,
+  "StartOnlyOnce": true,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Mann Inc and Sons",
-  "FromAddr": "eos",
-  "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "quia",
-  "ReplyToName": "DuBuque, Hammes and Johns",
-  "SmsSender": "temporibus",
-  "UseGoogleAnalytics": false,
-  "GaSource": "autem",
-  "GaCampaign": "minus",
+  "FromName": "Customer Success Team",
+  "FromAddr": "success@acmecorp.com",
+  "ReplyToType": "ReplyToOnlySpecified",
+  "ReplyToAddr": "support@acmecorp.com",
+  "ReplyToName": "Acme Support",
+  "SmsSender": "AcmeCorp",
+  "UseGoogleAnalytics": true,
+  "GaSource": "email_campaign",
+  "GaCampaign": "welcome_series_2024",
   "UseTimeframe": true,
-  "SelectedDays": "Friday",
-  "TimeframeStart": "saepe",
-  "TimeframeEnd": "ipsum",
+  "SelectedDays": "Monday,Tuesday,Wednesday,Thursday,Friday",
+  "TimeframeStart": "09:00",
+  "TimeframeEnd": "17:00",
   "UseWorkflowStart": true,
-  "WorkflowStart": "quod",
+  "WorkflowStart": "2024-01-01T00:00:00",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "perferendis",
+  "EnrollmentEnd": "",
   "RemoveFromFlows": [
-    550,
-    225
+    5,
+    12
   ],
   "TzLocation": null,
   "Folder": null,
@@ -38,23 +38,23 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 660,
-      "WorkflowId": 232,
-      "StepType": "AddToList",
-      "Rank": 982
+      "WorkflowStepId": 1,
+      "WorkflowId": 1,
+      "StepType": "SendEmail",
+      "Rank": 1
     },
     {
-      "WorkflowStepId": 660,
-      "WorkflowId": 232,
-      "StepType": "AddToList",
-      "Rank": 982
+      "WorkflowStepId": 2,
+      "WorkflowId": 1,
+      "StepType": "Wait",
+      "Rank": 2
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 453,
-      "WorkflowId": 651,
-      "TriggerType": "AddedMessage",
+      "WorkflowTriggerId": 1,
+      "WorkflowId": 1,
+      "TriggerType": "ContactCreated",
       "RestrictionGroups": [
         {},
         {}
@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 766,
-      "WorkflowId": 655,
-      "GoalType": "AddedToProject",
+      "WorkflowGoalId": 1,
+      "WorkflowId": 1,
+      "GoalType": "LinkClicked",
       "RestrictionGroups": [
         {},
         {}
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   ],
   "ContentInfo": [
     {
-      "WorkflowContentType": "Form",
-      "Id": 750,
+      "WorkflowContentType": "Email",
+      "Id": 101,
       "Actions": true,
       "TableRight": null,
       "FieldProperties": {
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "WorkflowContentType": "Form",
-      "Id": 750,
+      "Id": 25,
       "Actions": true,
       "TableRight": null,
       "FieldProperties": {
@@ -155,12 +155,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "ExitFlowId": 77,
-  "ExitSuccessFlowId": 435,
+  "ExitFlowId": 0,
+  "ExitSuccessFlowId": 0,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-07-11T10:11:01.9159874+02:00",
-  "UpdatedDate": "2019-07-07T10:11:01.9159874+02:00",
+  "CreatedDate": "2024-01-15T10:00:00+01:00",
+  "UpdatedDate": "2024-11-28T14:30:00+01:00",
   "VisibleFor": [
     {
       "VisibleId": 780,

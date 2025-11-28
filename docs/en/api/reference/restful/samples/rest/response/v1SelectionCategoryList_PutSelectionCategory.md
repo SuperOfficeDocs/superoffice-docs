@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Hoppe LLC",
-  "Tooltip": "aut",
+  "Id": 172,
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
-  "UdListDefinitionId": 76,
-  "Rank": 829,
+  "UdListDefinitionId": 607,
+  "Rank": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 692
     }
   }
 }

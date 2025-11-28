@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Little-Kuhic",
-    "Tooltip": "quia",
+    "HeadingId": 9,
+    "Name": "Fay Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": true,
-    "Rank": 456,
-    "UdListDefinitionId": 104,
+    "Rank": 335,
+    "UdListDefinitionId": 798,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 568,
-  "Server": "consequatur",
-  "Port": 490,
-  "AuthType": "explicabo",
-  "Username": "et",
-  "Password": "dolore",
+  "ServiceAuthId": 2,
+  "Server": "smtp.techcorp.com",
+  "Port": 587,
+  "AuthType": "SMTP",
+  "Username": "notifications@techcorp.com",
+  "Password": "********",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,28 +4,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 869,
-    "Name": "Schamberger, McKenzie and Toy",
+    "WebhookId": 562,
+    "Name": "Fritsch LLC",
     "Events": [
-      "modi",
-      "ipsam"
+      "itaque",
+      "magni"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "fuga",
+    "Secret": "aut",
     "State": "Active",
-    "Type": "cumque",
+    "Type": "animi",
     "Headers": {
-      "Headers1": "ut",
-      "Headers2": "sequi"
+      "Headers1": "ea",
+      "Headers2": "facilis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2004-02-02T14:35:44.725646+01:00",
+    "Registered": "2023-06-16T14:34:02.9242705+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2013-08-01T14:35:44.725646+02:00",
+    "Updated": "2008-08-16T14:34:02.9242705+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "scot@walshwintheiser.info"
+    "ErrorsEmail": "amalia.pfeffer@fritsch.us"
   }
 ]
 ```

@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 509,
-  "UniqueId": "quis",
-  "Name": "Durgan Inc and Sons",
-  "Description": "Persevering 3rd generation process improvement",
-  "AssociateId": 587,
-  "Columns": 915,
+  "DashboardId": 673,
+  "UniqueId": "aut",
+  "Name": "Marketing Overview",
+  "Description": "Multi-channelled foreground throughput",
+  "AssociateId": 209,
+  "Columns": 697,
   "Theme": null,
-  "VisibleForAll": 669,
+  "VisibleForAll": 295,
   "VisibleForAssociates": [
-    819,
-    404
+    909,
+    227
   ],
   "VisibleForGroups": [
-    170,
-    132
+    515,
+    394
   ],
-  "PinForAll": 700,
+  "PinForAll": 100,
   "PinForAssociates": [
-    341,
-    719
+    558,
+    972
   ],
   "PinForGroups": [
-    384,
-    450
+    727,
+    742
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 307
     }
   },
   "_Links": {

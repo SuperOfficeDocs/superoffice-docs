@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "VonRueden Inc and Sons",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "Rank": 566,
+  "Id": 613,
+  "Name": "Wunsch Group",
+  "Tooltip": "Quote reason",
+  "Deleted": true,
+  "Rank": 877,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 450
     }
   },
   "_Links": {

@@ -2,19 +2,19 @@
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Kautzer Group",
-  "Tooltip": "et",
+  "Id": 929,
+  "Name": "Donnelly-Ledner",
+  "Tooltip": "quod",
   "Deleted": true,
-  "Rank": 749,
+  "Rank": 209,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptate",
   "InUseByUserDefinedFields": true
 }
 ```

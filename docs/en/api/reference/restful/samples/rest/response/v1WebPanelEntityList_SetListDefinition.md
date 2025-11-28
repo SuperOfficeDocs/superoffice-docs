@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Greenfelder, Leffler and Wolf",
-  "Tooltip": "qui",
+  "Id": 676,
+  "Name": "Partner Dashboard",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 289,
-  "IsCustomList": true,
+  "Rank": 423,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldLength": 448
     }
   }
 }

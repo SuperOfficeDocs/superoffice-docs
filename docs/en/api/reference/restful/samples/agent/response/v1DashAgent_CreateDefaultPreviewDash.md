@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 959,
-  "Name": "Haley-Sanford",
-  "Description": "Fully-configurable neutral process improvement",
-  "OwnedByFullName": "Gideon Armstrong",
+  "Name": "Quarterly Review Dashboard",
+  "Description": "Comprehensive quarterly performance metrics and goal tracking",
+  "OwnedByFullName": "Sarah Johnson",
   "Registered": "2017-04-12T10:10:59.615544+02:00",
   "Tiles": [
     {
-      "Name": "Beatty-Abshire",
+      "Name": "Revenue vs Target",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
@@ -22,8 +22,8 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Beatty-Abshire",
-      "TileType": "Area",
+      "Name": "Active Opportunities",
+      "TileType": "List",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-02-24T10:10:58.303636+01:00",
-  "UserPrompt": "amet",
-  "UserDisplayText": "ut",
-  "BotResponse": "ut",
+  "Timestamp": "2024-11-24T14:36:45.567890+01:00",
+  "UserPrompt": "Summarize sale opportunity with key milestones and risks",
+  "UserDisplayText": "Create a sale summary",
+  "BotResponse": "I'll generate a summary covering sale value, stage, probability, key stakeholders, recent activities, and potential risks or opportunities.",
   "BotActions": {
-    "BotActions1": "quaerat",
-    "BotActions2": "nemo"
+    "includeTimeline": "true",
+    "includeStakeholders": "true",
+    "includeRisks": "true"
   },
   "Attachments": [
-    "consectetur",
-    "asperiores"
+    "sale-summary-template.json"
   ]
 }
 ```

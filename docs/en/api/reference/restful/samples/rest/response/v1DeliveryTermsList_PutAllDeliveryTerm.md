@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "VonRueden Group",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "UdListDefinitionId": 473,
-    "Rank": 317,
+    "Id": 941,
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
+    "Deleted": true,
+    "UdListDefinitionId": 693,
+    "Rank": 84,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldType": "System.Int32",
+        "FieldLength": 37
       }
     }
   }

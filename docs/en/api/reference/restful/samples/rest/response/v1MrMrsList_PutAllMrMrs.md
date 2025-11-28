@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Hintz Inc and Sons",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 87,
-    "Rank": 808,
+    "Id": 17,
+    "Name": "Ankunding, Hickle and McCullough",
+    "Tooltip": "Title or salutation",
+    "Deleted": false,
+    "UdListDefinitionId": 850,
+    "Rank": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 283
       }
     }
   }

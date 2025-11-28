@@ -3,18 +3,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 136,
-  "DashboardId": 531,
-  "Height": 957,
-  "Width": 807,
-  "Rank": 492,
+  "DashboardTileId": 893,
+  "DashboardId": 249,
+  "Height": 183,
+  "Width": 326,
+  "Rank": 174,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 576
     }
   },
   "_Links": {

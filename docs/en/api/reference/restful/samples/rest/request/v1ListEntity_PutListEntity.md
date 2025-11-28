@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Trantow, Nitzsche and Jast",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 729,
-  "IsCustomList": false,
+  "Id": 714,
+  "Name": "Wilderman Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 973,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": false
 }
 ```

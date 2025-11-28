@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 844,
-  "Name": "Rogahn, Marvin and Koch",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "Rank": 163,
-  "UdListDefinitionId": 213,
+  "HeadingId": 32,
+  "Name": "Purdy LLC",
+  "Tooltip": "Product type",
+  "Deleted": false,
+  "Rank": 636,
+  "UdListDefinitionId": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

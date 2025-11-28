@@ -1,32 +1,32 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Jun 2019 14:35:43 G6T
+Last-Modified: Sat, 02 Oct 2004 14:34:01 G10T
 
 {
-  "ForeignAppId": 214,
-  "Name": "Blick Group",
-  "CreatedDate": "2011-02-10T14:35:43.7596526+01:00",
-  "UpdatedDate": "2019-06-03T14:35:43.7596526+02:00",
+  "ForeignAppId": 294,
+  "Name": "Outlook Integration",
+  "CreatedDate": "2025-10-24T14:34:01.9870942+02:00",
+  "UpdatedDate": "2004-10-02T14:34:01.9870942+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 557,
-      "Name": "Barrows, Yost and Koss",
-      "CreatedDate": "2024-12-02T14:35:43.7606518+01:00",
-      "UpdatedDate": "2021-10-01T14:35:43.7606518+02:00",
-      "AssociateFullName": "Lonny Hammes",
-      "CreatedBy": "qui",
-      "UpdatedBy": "debitis",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 246,
+      "ForeignDeviceId": 164,
+      "Name": "Outlook Integration",
+      "CreatedDate": "2003-05-04T14:34:01.9870942+02:00",
+      "UpdatedDate": "2022-10-08T14:34:01.9870942+02:00",
+      "AssociateFullName": "Wilma Batz",
+      "CreatedBy": "similique",
+      "UpdatedBy": "adipisci",
+      "DeviceIdentifier": "ullam",
+      "ForeignAppId": 909,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 579
         }
       }
     }
@@ -36,7 +36,7 @@ Last-Modified: Mon, 03 Jun 2019 14:35:43 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 758
     }
   }
 }

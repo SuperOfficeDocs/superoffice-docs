@@ -2,47 +2,47 @@
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Wisoky, Heidenreich and VonRueden",
-    "ToolTip": "Excepturi sit nisi.",
+    "Id": 722,
+    "Name": "Satterfield Group",
+    "ToolTip": "Ullam eligendi est ducimus rerum qui quas possimus.",
     "Deleted": false,
-    "Rank": 359,
-    "Type": "dolorem",
-    "ColorBlock": 931,
-    "IconHint": "aut",
+    "Rank": 124,
+    "Type": "qui",
+    "ColorBlock": 66,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2017-12-25T14:35:44.8183947+01:00",
+    "LastChanged": "2020-06-08T14:34:03.024011+02:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Bednar Inc and Sons",
-        "ToolTip": "Esse vitae non sit.",
+        "Id": 53,
+        "Name": "Pacocha-Smith",
+        "ToolTip": "Eos facere neque in facere eligendi.",
         "Deleted": false,
-        "Rank": 21,
-        "Type": "officiis",
-        "ColorBlock": 801,
-        "IconHint": "non",
+        "Rank": 992,
+        "Type": "veniam",
+        "ColorBlock": 378,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2018-10-31T14:35:44.8183947+01:00",
+        "LastChanged": "2004-07-26T14:34:03.024011+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "dolor",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Miss Guido Johnson"
+        "FullName": "Selmer Daniel"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Miss Brionna Lourdes Wolff DVM"
+    "ExtraInfo": "id",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Dedric Pouros"
   }
 ]
 ```

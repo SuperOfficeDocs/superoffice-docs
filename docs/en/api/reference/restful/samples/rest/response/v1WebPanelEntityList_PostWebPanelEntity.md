@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 602,
-  "Name": "Windler, Feil and Block",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 36,
+  "WebPanelId": 388,
+  "Name": "Customer Portal",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 520,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -15,22 +15,22 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Upton, Treutel and Witting",
+  "ShowInStatusBar": false,
+  "WindowName": "Fay-Carter",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 879,
+  "ProgId": "amet",
+  "Icon": 678,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

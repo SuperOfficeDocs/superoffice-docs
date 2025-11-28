@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 487,
-    "Name": "Prosacco, Hane and Spinka",
-    "Tooltip": "sunt",
+    "HeadingId": 659,
+    "Name": "Software",
+    "Tooltip": "Product category",
     "Deleted": false,
-    "Rank": 649,
-    "UdListDefinitionId": 289,
+    "Rank": 846,
+    "UdListDefinitionId": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

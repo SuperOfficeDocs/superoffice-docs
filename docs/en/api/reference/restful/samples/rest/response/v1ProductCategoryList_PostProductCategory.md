@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Kuphal, Armstrong and Leffler",
-  "Tooltip": "facere",
+  "Id": 105,
+  "Name": "Bechtelar Inc and Sons",
+  "Tooltip": "Product category",
   "Deleted": false,
-  "UdListDefinitionId": 719,
-  "Rank": 206,
+  "UdListDefinitionId": 462,
+  "Rank": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 256,
-    "Name": "Goldner, Thiel and Aufderhar",
-    "Tooltip": "repellendus",
+    "HeadingId": 780,
+    "Name": "FOB",
+    "Tooltip": "Delivery terms",
     "Deleted": false,
-    "Rank": 536,
-    "UdListDefinitionId": 19,
+    "Rank": 636,
+    "UdListDefinitionId": 10,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 901
       }
     }
   }

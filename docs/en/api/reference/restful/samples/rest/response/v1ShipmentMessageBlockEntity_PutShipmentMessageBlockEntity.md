@@ -3,20 +3,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 880,
-  "AssociateId": 472,
-  "Block": "dignissimos",
-  "Registered": "2010-05-12T14:35:44.302167+02:00",
-  "RegisteredAssociateId": 12,
-  "Updated": "2013-08-26T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 366,
-  "UpdatedCount": 652,
+  "ShipmentMessageBlockId": 268,
+  "AssociateId": 430,
+  "Block": "et",
+  "Registered": "2001-03-02T14:34:02.426041+01:00",
+  "RegisteredAssociateId": 226,
+  "Updated": "2003-06-23T14:34:02.426041+02:00",
+  "UpdatedAssociateId": 452,
+  "UpdatedCount": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   },
   "_Links": {

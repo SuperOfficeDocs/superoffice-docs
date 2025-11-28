@@ -6,15 +6,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Kemmer-Rogahn",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 168,
+  "Id": 384,
+  "Name": "Schinner-Thiel",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 627,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```

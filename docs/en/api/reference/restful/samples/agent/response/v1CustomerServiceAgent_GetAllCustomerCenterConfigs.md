@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "CustConfigId": 528,
     "Type": "Options",
-    "Config": "nesciunt",
+    "Config": "{\"theme\":\"light\",\"showFAQ\":true,\"allowAttachments\":true,\"maxFileSize\":10485760}",
     "CustLangId": 567,
     "Registered": "2020-09-07T10:10:59.5778352+02:00",
     "RegisteredAssociateId": 686,

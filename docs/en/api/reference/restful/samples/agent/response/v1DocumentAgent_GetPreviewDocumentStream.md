@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm-Thiel",
-  "Type": "iure",
-  "Size": 389,
-  "Stream": "GIF89....File contents as raw bytes...",
+  "Name": "Contract_Preview.pdf",
+  "Type": "application/pdf",
+  "Size": 327680,
+  "Stream": "JVBERi0xLjQK...Contract preview PDF contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

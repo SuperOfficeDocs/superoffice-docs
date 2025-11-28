@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Reilly-Hermann",
-    "ToolTip": "Rerum et et ut iste natus quisquam.",
-    "Deleted": true,
-    "Rank": 884,
-    "Type": "nemo",
-    "ColorBlock": 453,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2014-01-26T14:35:45.0207912+01:00",
+    "Id": 36,
+    "Name": "Abbott Group",
+    "ToolTip": "Nihil eligendi aliquid fugit distinctio molestias voluptates.",
+    "Deleted": false,
+    "Rank": 885,
+    "Type": "quod",
+    "ColorBlock": 771,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2002-11-19T14:34:03.2386935+01:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Bauch-Kilback",
-        "ToolTip": "Aut est reiciendis excepturi.",
+        "Id": 695,
+        "Name": "Bank Transfer",
+        "ToolTip": "Voluptate quidem quae.",
         "Deleted": false,
-        "Rank": 151,
-        "Type": "ut",
-        "ColorBlock": 587,
-        "IconHint": "sed",
+        "Rank": 429,
+        "Type": "dignissimos",
+        "ColorBlock": 396,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2009-05-09T14:35:45.0207912+02:00",
+        "LastChanged": "2020-07-20T14:34:03.2386935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "vero",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Samson Senger Jr.",
+        "FullName": "Shyann Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 59
+            "FieldType": "System.String",
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "similique",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Collin Prohaska",
+    "FullName": "Garland Padberg V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 751
       }
     }
   }

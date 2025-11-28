@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 42,
-    "Name": "Schmeler, Hickle and Auer",
-    "Tooltip": "eos",
+    "HeadingId": 853,
+    "Name": "Customer Portal",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 990,
-    "UdListDefinitionId": 478,
+    "Rank": 798,
+    "UdListDefinitionId": 347,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

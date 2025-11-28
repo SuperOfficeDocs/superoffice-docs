@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 263,
-  "NumDocumentsAlreadyMigrated": 55,
+  "NumDocumentsOmitted": 12,
+  "NumDocumentsAlreadyMigrated": 456,
   "Documents": [
     {
       "DocumentId": 273,
@@ -21,11 +21,11 @@ Content-Type: application/json; charset=utf-8
   "Associates": [
     {
       "AssociateId": 809,
-      "EmailAddress": "ressie@gradygorczany.us"
+      "EmailAddress": "robert.hansen@globalcorp.com"
     },
     {
-      "AssociateId": 809,
-      "EmailAddress": "ressie@gradygorczany.us"
+      "AssociateId": 810,
+      "EmailAddress": "linda.chen@globalcorp.com"
     }
   ]
 }

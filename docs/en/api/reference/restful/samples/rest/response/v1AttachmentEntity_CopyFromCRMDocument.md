@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 487,
-  "Name": "Franecki, Pollich and Hauck",
-  "ContentType": "sit",
-  "AttSize": 176,
-  "InlineImage": true,
-  "ContentId": "velit",
-  "AuthKey": "dolores",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 604,
+  "Name": "Meeting_Minutes.pdf",
+  "ContentType": "application/pdf",
+  "AttSize": 102400,
+  "InlineImage": false,
+  "ContentId": "attachment-003",
+  "AuthKey": "m3n4o5p6q7r8",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

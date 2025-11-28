@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Reichel, Hansen and Terry",
-  "Tooltip": "quos",
+  "Id": 308,
+  "Name": "Lemke-VonRueden",
+  "Tooltip": "Lead source",
   "Deleted": true,
-  "Rank": 615,
+  "Rank": 719,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

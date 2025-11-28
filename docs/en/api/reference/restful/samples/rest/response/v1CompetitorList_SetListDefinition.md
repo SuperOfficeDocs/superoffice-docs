@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 203,
-  "Name": "Hagenes, Spinka and Willms",
-  "Tooltip": "qui",
+  "Id": 133,
+  "Name": "Global Solutions Ltd",
+  "Tooltip": "Competitor company",
   "Deleted": false,
-  "Rank": 152,
-  "IsCustomList": true,
+  "Rank": 345,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "Competitor",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 475
     }
   }
 }

@@ -2,15 +2,15 @@
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 393,
-  "Name": "Rosenbaum, Wiegand and Boehm",
-  "Config": "officiis",
-  "Rank": 726,
-  "Client": "consequatur",
-  "Style": "dolore"
+  "DashboardThemeId": 841,
+  "Name": "O'Connell-Fritsch",
+  "Config": "placeat",
+  "Rank": 327,
+  "Client": "quam",
+  "Style": "placeat"
 }
 ```

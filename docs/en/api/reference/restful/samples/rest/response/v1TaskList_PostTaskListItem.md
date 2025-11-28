@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 490,
-  "Value": "dolor",
+  "TaskListItemId": 963,
+  "Value": "iure",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dolorem",
+  "Tooltip": "Task type",
   "Deleted": false,
-  "IntentId": 541,
-  "Rank": 56,
+  "IntentId": 674,
+  "Rank": 442,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
@@ -21,7 +21,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 3
     }
   }
 }

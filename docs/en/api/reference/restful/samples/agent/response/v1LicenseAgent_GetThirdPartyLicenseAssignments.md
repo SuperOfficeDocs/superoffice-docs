@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 263,
-    "Tooltip": "dignissimos",
-    "CanAssign": false,
-    "Free": 174,
-    "InUse": 408,
+    "Unrestricted": false,
+    "Total": 10,
+    "Tooltip": "ERP integration license",
+    "CanAssign": true,
+    "Free": 3,
+    "InUse": 7,
     "IsHidden": false,
-    "Assigned": false,
+    "Assigned": true,
     "ModuleLicenseId": 923,
-    "Name": "Weimann-Paucek",
-    "Description": "Self-enabling heuristic forecast",
-    "PrerequisiteModuleName": "Heathcote-Luettgen",
-    "SortOrder": 997,
-    "ExtraFlags": 238,
+    "Name": "ERP Sync",
+    "Description": "Integration with external ERP systems",
+    "PrerequisiteModuleName": "Sales Premium",
+    "SortOrder": 100,
+    "ExtraFlags": 0,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

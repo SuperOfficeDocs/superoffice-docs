@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Name": "Jacobson-Abernathy",
-    "ToolTip": "In aspernatur et ullam tempora et et dicta.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "quod",
-    "ColorBlock": 661,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2000-04-16T14:35:44.7417168+02:00",
+    "Id": 37,
+    "Name": "Custom Item",
+    "ToolTip": "Consequuntur soluta.",
+    "Deleted": true,
+    "Rank": 559,
+    "Type": "harum",
+    "ColorBlock": 826,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2015-04-04T14:34:02.9513198+02:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Ferry-Volkman",
-        "ToolTip": "Et nesciunt voluptas et ut eveniet consequatur.",
+        "Id": 503,
+        "Name": "Hessel Inc and Sons",
+        "ToolTip": "Similique sit.",
         "Deleted": true,
-        "Rank": 159,
-        "Type": "possimus",
-        "ColorBlock": 648,
-        "IconHint": "qui",
+        "Rank": 828,
+        "Type": "fuga",
+        "ColorBlock": 887,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2016-12-15T14:35:44.7417168+01:00",
+        "LastChanged": "2012-12-23T14:34:02.9513198+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "sequi",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Mr. Dylan Pacocha",
+        "FullName": "Jazlyn Rath Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 795
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Ms. Ardith Mueller",
+    "ExtraInfo": "nihil",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Ms. Russel Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 836,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 39,
-    "UdListDefinitionId": 18,
+    "HeadingId": 386,
+    "Name": "Waelchi Inc and Sons",
+    "Tooltip": "Sale reason",
+    "Deleted": true,
+    "Rank": 562,
+    "UdListDefinitionId": 496,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 732
+        "FieldLength": 875
       }
     }
   }

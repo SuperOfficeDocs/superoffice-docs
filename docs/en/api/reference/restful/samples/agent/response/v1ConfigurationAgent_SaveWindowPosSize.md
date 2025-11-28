@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "error",
-  "PersonId": 913,
-  "AssociateId": 857,
-  "ExtraId": 975,
-  "ExtraInfo": "qui",
-  "Height": 160,
-  "LeftX": 435,
-  "State": "Maximized",
-  "UpperY": 226,
-  "Width": 999,
-  "WindowPosSizeId": 281,
+  "OwnerWindow": "ContactDialog",
+  "PersonId": 143,
+  "AssociateId": 143,
+  "ExtraId": 0,
+  "ExtraInfo": "",
+  "Height": 768,
+  "LeftX": 100,
+  "State": "Normal",
+  "UpperY": 50,
+  "Width": 1024,
+  "WindowPosSizeId": 1205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

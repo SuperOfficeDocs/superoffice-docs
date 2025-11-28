@@ -2,19 +2,19 @@
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 193,
+  "Id": 566,
+  "Name": "Hills, O'Connell and Gleason",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 841,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": false
 }
 ```

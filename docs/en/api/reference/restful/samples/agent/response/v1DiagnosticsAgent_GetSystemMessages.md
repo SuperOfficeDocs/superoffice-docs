@@ -7,10 +7,10 @@ Content-Type: application/json; charset=utf-8
     "MessageId": 994,
     "AssociateId": 984,
     "OnlineappId": 138,
-    "SystemMessageId": "qui",
-    "MarkdownMessage": "ut",
-    "Expire": "2021-01-22T10:10:59.6372155+01:00",
-    "Type": "Error",
+    "SystemMessageId": "maintenance-notification-2024-01",
+    "MarkdownMessage": "**Scheduled Maintenance**: System will be unavailable on Jan 15, 2024 from 02:00-04:00 UTC for database optimization.",
+    "Expire": "2024-01-16T10:00:00+01:00",
+    "Type": "Information",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

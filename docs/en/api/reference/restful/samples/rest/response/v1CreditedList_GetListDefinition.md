@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "Name": "Dietrich LLC",
-  "Tooltip": "accusantium",
+  "Id": 918,
+  "Name": "Sales Team",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
-  "Rank": 845,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "Rank": 629,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "soluta",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 183
     }
   },
   "_Links": {

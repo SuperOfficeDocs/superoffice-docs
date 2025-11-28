@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Ullrich-Grant",
-  "Tooltip": "asperiores",
+  "Id": 672,
+  "Name": "D'Amore-Jaskolski",
+  "Tooltip": "Delivery type",
   "Deleted": true,
-  "Rank": 885,
+  "Rank": 187,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "culpa",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 748
     }
   }
 }

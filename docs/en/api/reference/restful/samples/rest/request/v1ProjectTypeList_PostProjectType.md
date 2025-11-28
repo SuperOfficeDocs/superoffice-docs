@@ -2,15 +2,15 @@
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Kulas, Tremblay and Nader",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 314,
-  "Rank": 511
+  "Id": 885,
+  "Name": "Botsford Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 2,
+  "Rank": 147
 }
 ```

@@ -3,60 +3,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 742,
-  "Name": "Kovacek-Becker",
+  "TicketPriorityId": 250,
+  "Name": "Sales Inquiry",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 271,
+  "SortOrder": 188,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 690,
-  "MonStart": "2007-03-28T14:35:45.3654202+02:00",
-  "MonStop": "2007-04-01T14:35:45.3654202+02:00",
-  "TueStart": "2024-02-10T14:35:45.3654202+01:00",
-  "TueStop": "2025-08-12T14:35:45.3654202+02:00",
-  "WedStart": "2018-10-23T14:35:45.3654202+02:00",
-  "WedStop": "2015-02-18T14:35:45.3654202+01:00",
-  "ThuStart": "2008-05-26T14:35:45.3654202+02:00",
-  "ThuStop": "2024-11-24T14:35:45.3654202+01:00",
-  "FriStart": "2003-05-18T14:35:45.3654202+02:00",
-  "FriStop": "2013-04-07T14:35:45.3654202+02:00",
-  "SatStart": "2015-09-08T14:35:45.3654202+02:00",
-  "SatStop": "2018-05-12T14:35:45.3654202+02:00",
-  "SunStart": "2012-06-22T14:35:45.3654202+02:00",
-  "SunStop": "2019-05-31T14:35:45.3654202+02:00",
+  "Deadline": 859,
+  "MonStart": "2020-01-05T14:34:03.6131895+01:00",
+  "MonStop": "2023-10-03T14:34:03.6131895+02:00",
+  "TueStart": "2010-05-12T14:34:03.6131895+02:00",
+  "TueStop": "2014-05-09T14:34:03.6131895+02:00",
+  "WedStart": "2011-03-26T14:34:03.6131895+01:00",
+  "WedStop": "2017-03-16T14:34:03.6131895+01:00",
+  "ThuStart": "2017-11-26T14:34:03.6131895+01:00",
+  "ThuStop": "2013-12-01T14:34:03.6131895+01:00",
+  "FriStart": "2007-06-19T14:34:03.6131895+02:00",
+  "FriStop": "2021-12-01T14:34:03.6131895+01:00",
+  "SatStart": "2021-06-13T14:34:03.6131895+02:00",
+  "SatStop": "2006-09-04T14:34:03.6131895+02:00",
+  "SunStart": "2008-06-16T14:34:03.6131895+02:00",
+  "SunStop": "2019-08-01T14:34:03.6131895+02:00",
   "NonDates": [
-    "nihil",
-    "eius"
+    "cupiditate",
+    "voluptatibus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 885,
-      "AlertLevel": 547,
-      "AlertTimeout": 909,
-      "Action": 306,
-      "DelegateTo": 349,
-      "ScriptId": 977,
-      "EmailTo": "greyson.mosciski@white.us",
-      "SmsTo": "eum",
-      "ReplyTemplateIdCustomer": 829,
-      "ReplyTemplateIdUser": 665,
-      "ReplyTemplateIdCatmast": 593,
-      "ReplyTemplateIdEmail": 488,
-      "RtiCustomerSms": 936,
-      "ReplyTemplateIdUserSms": 718,
-      "ReplyTemplateIdCatmastSms": 111,
-      "ReplyTemplateIdSms": 149,
+      "TicketAlertId": 76,
+      "AlertLevel": 537,
+      "AlertTimeout": 833,
+      "Action": 406,
+      "DelegateTo": 276,
+      "ScriptId": 581,
+      "EmailTo": "roy@kundekuvalis.com",
+      "SmsTo": "autem",
+      "ReplyTemplateIdCustomer": 166,
+      "ReplyTemplateIdUser": 328,
+      "ReplyTemplateIdCatmast": 303,
+      "ReplyTemplateIdEmail": 912,
+      "RtiCustomerSms": 459,
+      "ReplyTemplateIdUserSms": 212,
+      "ReplyTemplateIdCatmastSms": 134,
+      "ReplyTemplateIdSms": 826,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldLength": 281
         }
       }
     }
@@ -65,8 +65,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

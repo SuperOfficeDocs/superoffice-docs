@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined secondary interface",
-  "Filename": "occaecati",
-  "Size": 968,
-  "Type": "dolore",
-  "Encoding": "aut",
-  "Id": "qui",
-  "Disposition": "aperiam",
+  "Description": "Q1 Sales Proposal Document",
+  "Filename": "Sales_Proposal_Q1_2024.pdf",
+  "Size": 245680,
+  "Type": "application/pdf",
+  "Encoding": "base64",
+  "Id": "att_20240101_001",
+  "Disposition": "attachment",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,

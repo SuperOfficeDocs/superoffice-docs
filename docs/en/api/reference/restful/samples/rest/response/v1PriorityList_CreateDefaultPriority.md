@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Wisoky LLC",
-  "Tooltip": "qui",
+  "Id": 483,
+  "Name": "Strosin Inc and Sons",
+  "Tooltip": "Priority level",
   "Deleted": false,
-  "UdListDefinitionId": 425,
-  "Rank": 78,
+  "UdListDefinitionId": 46,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

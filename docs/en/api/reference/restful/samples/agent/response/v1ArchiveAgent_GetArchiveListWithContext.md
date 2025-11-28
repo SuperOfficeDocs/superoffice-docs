@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hintz, Johnston and Grady",
+    "EntityName": "appointment",
     "PrimaryKey": 139,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "pariatur",
-        "TooltipHint": "nesciunt",
-        "LinkHint": "tempore"
+      "text": {
+        "DisplayValue": "Customer Onboarding Meeting - TechVision",
+        "TooltipHint": "Initial kickoff for new customer implementation",
+        "LinkHint": "appointment.main?appointment_id=139"
       }
     },
-    "LinkHint": "illum",
-    "StyleHint": "iure",
+    "LinkHint": "view-appointment",
+    "StyleHint": "meeting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

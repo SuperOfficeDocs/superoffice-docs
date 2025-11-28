@@ -2,25 +2,25 @@
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 79,
-    "Name": "Cruickshank, Krajcik and Kunze",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 219,
-    "UdListDefinitionId": 207
+    "HeadingId": 64,
+    "Name": "Wuckert Group",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 837,
+    "UdListDefinitionId": 4
   },
   {
-    "HeadingId": 79,
-    "Name": "Cruickshank, Krajcik and Kunze",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 219,
-    "UdListDefinitionId": 207
+    "HeadingId": 64,
+    "Name": "Wuckert Group",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 837,
+    "UdListDefinitionId": 4
   }
 ]
 ```

@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "Pinned": [
     {
       "DashboardId": 561,
-      "UniqueId": "nemo",
-      "Name": "Jacobs-Littel",
-      "Description": "Persistent maximized matrix",
+      "UniqueId": "executive-overview",
+      "Name": "Executive Overview",
+      "Description": "High-level KPIs and performance metrics for executive decision making",
       "AssociateId": 288,
-      "Columns": 615,
+      "Columns": 4,
       "Theme": null,
       "VisibleForAll": 139,
       "VisibleForAssociates": [
@@ -43,11 +43,11 @@ Content-Type: application/json; charset=utf-8
   "Favourites": [
     {
       "DashboardId": 173,
-      "UniqueId": "blanditiis",
-      "Name": "Stokes-Hodkiewicz",
-      "Description": "Fundamental object-oriented utilisation",
+      "UniqueId": "team-activity",
+      "Name": "Team Activity Dashboard",
+      "Description": "Daily activities, tasks completion, and team collaboration metrics",
       "AssociateId": 901,
-      "Columns": 725,
+      "Columns": 3,
       "Theme": null,
       "VisibleForAll": 862,
       "VisibleForAssociates": [
@@ -80,11 +80,11 @@ Content-Type: application/json; charset=utf-8
   "Other": [
     {
       "DashboardId": 445,
-      "UniqueId": "fugit",
-      "Name": "Lang-Schowalter",
-      "Description": "Adaptive contextually-based ability",
+      "UniqueId": "project-tracking",
+      "Name": "Project Tracking",
+      "Description": "Project milestones, resource allocation, and progress monitoring",
       "AssociateId": 706,
-      "Columns": 28,
+      "Columns": 3,
       "Theme": null,
       "VisibleForAll": 186,
       "VisibleForAssociates": [

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "O'Kon-Barrows",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 370,
+  "Id": 244,
+  "Name": "In-Person Meeting",
+  "Tooltip": "Source of consent collection",
+  "Deleted": true,
+  "Rank": 512,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ConsentSource",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 385
     }
   },
   "_Links": {

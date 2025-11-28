@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "quo",
-    "quibusdam"
+    "Username",
+    "Email"
   ],
   "Users": [
     {

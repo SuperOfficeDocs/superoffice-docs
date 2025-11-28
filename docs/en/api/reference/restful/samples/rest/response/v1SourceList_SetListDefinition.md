@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Jacobi, Kertzmann and Luettgen",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 832,
+  "Id": 606,
+  "Name": "Marquardt Inc and Sons",
+  "Tooltip": "Lead source",
+  "Deleted": false,
+  "Rank": 353,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

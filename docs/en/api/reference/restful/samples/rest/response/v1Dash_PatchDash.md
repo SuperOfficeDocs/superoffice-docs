@@ -3,42 +3,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 54,
-  "UniqueId": "ut",
-  "Name": "Koelpin LLC",
-  "Description": "User-centric optimal productivity",
-  "AssociateId": 714,
-  "Columns": 231,
+  "DashboardId": 487,
+  "UniqueId": "facilis",
+  "Name": "Thompson Inc and Sons",
+  "Description": "Reverse-engineered discrete productivity",
+  "AssociateId": 678,
+  "Columns": 315,
   "Theme": null,
-  "VisibleForAll": 651,
+  "VisibleForAll": 687,
   "VisibleForAssociates": [
-    237,
-    212
+    938,
+    121
   ],
   "VisibleForGroups": [
-    731,
-    668
+    128,
+    75
   ],
-  "PinForAll": 24,
+  "PinForAll": 384,
   "PinForAssociates": [
-    328,
-    582
+    698,
+    515
   ],
   "PinForGroups": [
-    865,
-    887
+    177,
+    204
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

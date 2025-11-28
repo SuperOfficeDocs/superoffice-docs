@@ -2,47 +2,47 @@
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Baumbach-Jaskolski",
-    "ToolTip": "Laboriosam adipisci.",
+    "Id": 128,
+    "Name": "Kuhic LLC",
+    "ToolTip": "Consectetur ratione.",
     "Deleted": true,
-    "Rank": 117,
-    "Type": "ad",
-    "ColorBlock": 158,
-    "IconHint": "aliquam",
-    "Selected": true,
-    "LastChanged": "2009-10-29T14:35:45.1475521+01:00",
+    "Rank": 494,
+    "Type": "assumenda",
+    "ColorBlock": 917,
+    "IconHint": "perspiciatis",
+    "Selected": false,
+    "LastChanged": "2021-05-15T14:34:03.3773315+02:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "West Inc and Sons",
-        "ToolTip": "Perspiciatis perspiciatis velit pariatur nam tempore.",
-        "Deleted": true,
-        "Rank": 5,
-        "Type": "animi",
-        "ColorBlock": 434,
-        "IconHint": "occaecati",
+        "Id": 570,
+        "Name": "Waelchi LLC",
+        "ToolTip": "Non sit.",
+        "Deleted": false,
+        "Rank": 282,
+        "Type": "consequatur",
+        "ColorBlock": 580,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2008-06-06T14:35:45.1475521+02:00",
+        "LastChanged": "2008-01-30T14:34:03.3773315+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Jennie Satterfield"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Adalberto Collier"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Dr. Gene Jacey Senger DVM"
+    "ExtraInfo": "enim",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Rachel Koelpin"
   }
 ]
 ```

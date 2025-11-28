@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Konopelski, Harvey and Robel",
-    "StepNumber": 772,
+    "Name": "InitializeDatabase",
+    "StepNumber": 1,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -16,8 +16,8 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Konopelski, Harvey and Robel",
-    "StepNumber": 772,
+    "Name": "CreateBaseTables",
+    "StepNumber": 2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

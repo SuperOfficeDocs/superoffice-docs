@@ -2,19 +2,19 @@
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Schroeder LLC",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 642,
+  "Id": 987,
+  "Name": "Harber, Littel and Sipes",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "Rank": 837,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```

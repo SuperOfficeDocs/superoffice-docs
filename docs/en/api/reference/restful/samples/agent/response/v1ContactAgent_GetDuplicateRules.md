@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Skiles-Luettgen",
-    "DisplayName": "Prosacco Inc and Sons",
-    "DisplayTooltip": "earum",
-    "IsActive": false,
+    "Name": "PhoneNumberMatch",
+    "DisplayName": "Duplicate Phone Numbers",
+    "DisplayTooltip": "Finds contacts with matching phone numbers",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -18,10 +18,10 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Skiles-Luettgen",
-    "DisplayName": "Prosacco Inc and Sons",
-    "DisplayTooltip": "earum",
-    "IsActive": false,
+    "Name": "EmailMatch",
+    "DisplayName": "Duplicate Email Addresses",
+    "DisplayTooltip": "Finds contacts with matching email addresses",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

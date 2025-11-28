@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 3,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "at",
+  "HeadingId": 156,
+  "Name": "List Item",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 12,
-  "UdListDefinitionId": 155,
+  "Rank": 2,
+  "UdListDefinitionId": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "corrupti",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 1357,
-      "EntityName": "person",
-      "personId": 1357,
-      "fullName": "Delfina Zieme Jr."
+      "PrimaryKey": 9700,
+      "EntityName": "batchTask",
+      "batchTaskId": 9700,
+      "name": "Weekly Report Generation"
     },
     {
-      "PrimaryKey": 3891,
-      "EntityName": "person",
-      "personId": 3891,
-      "fullName": "Arne Beier"
+      "PrimaryKey": 1337,
+      "EntityName": "batchTask",
+      "batchTaskId": 1337,
+      "name": "Contact Sync Task"
     }
   ]
 }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 54,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 908,
-  "Name": "Hayes, Runte and Cartwright",
-  "Description": "Synergistic radical Graphical User Interface",
-  "Currency": "aperiam",
-  "CurrencyName": "Borer Inc and Sons",
-  "ValidFrom": "2017-12-20T14:35:45.0589074+01:00",
-  "ValidTo": "2006-11-05T14:35:45.0589074+01:00",
+  "PriceListId": 485,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 279,
+  "Name": "Welch Group",
+  "Description": "Configurable radical Graphical User Interface",
+  "Currency": "dolorem",
+  "CurrencyName": "Haley, Pfannerstill and Kilback",
+  "ValidFrom": "2022-03-16T14:34:03.2705045+01:00",
+  "ValidTo": "2011-02-14T14:34:03.2705045+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 957
     }
   }
 }

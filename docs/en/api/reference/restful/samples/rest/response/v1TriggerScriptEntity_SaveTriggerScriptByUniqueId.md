@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 454,
-  "Name": "Beer Group",
+  "ScreenChooserId": 807,
+  "Name": "Gleichner, Goodwin and Schmitt",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quam",
-  "Source": "qui",
-  "Registered": "2019-06-11T14:35:44.5065066+02:00",
-  "RegisteredAssociateId": 46,
-  "Updated": "2013-06-20T14:35:44.5065066+02:00",
-  "UpdatedAssociateId": 155,
+  "UniqueIdentifier": "vero",
+  "Source": "voluptatem",
+  "Registered": "2006-02-24T14:34:02.7111931+01:00",
+  "RegisteredAssociateId": 83,
+  "Updated": "2025-04-04T14:34:02.7111931+02:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldLength": 71
     }
   }
 }

@@ -8,12 +8,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "sed",
     "value": {}
   }
 ]

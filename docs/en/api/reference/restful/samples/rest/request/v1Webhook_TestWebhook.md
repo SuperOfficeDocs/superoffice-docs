@@ -6,27 +6,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 80,
-  "Name": "Stoltenberg-Emmerich",
+  "WebhookId": 566,
+  "Name": "Klocko, Effertz and Jast",
   "Events": [
-    "aliquid",
-    "nesciunt"
+    "harum",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "dolor",
   "State": "Active",
-  "Type": "inventore",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "ut"
+    "Headers1": "tempore",
+    "Headers2": "similique"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-06-27T14:35:44.7417168+02:00",
+  "Registered": "2000-07-25T14:34:02.9443202+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-03-12T14:35:44.7417168+01:00",
+  "Updated": "2003-03-24T14:34:02.9453217+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jaqueline.ratke@rogahn.ca"
+  "ErrorsEmail": "jameson.zemlak@osinski.com"
 }
 ```

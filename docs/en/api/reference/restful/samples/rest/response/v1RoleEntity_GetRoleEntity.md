@@ -3,16 +3,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 496,
-  "Name": "Terry, Yundt and Torp",
-  "Tooltip": "cupiditate",
+  "RoleId": 534,
+  "Name": "Administrator",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 522,
-  "Rank": 866,
-  "Created": "2020-06-30T14:35:44.0997926+02:00",
-  "UseCategories": 911,
+  "Deleted": 145,
+  "Rank": 506,
+  "Created": "2001-08-31T14:34:02.2490247+02:00",
+  "UseCategories": 530,
   "CreatedBy": null,
-  "Updated": "2011-06-26T14:35:44.0997926+02:00",
+  "Updated": "2001-02-16T14:34:02.2490247+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 764
     }
   },
   "_Links": {

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Klocko LLC",
-  "Tooltip": "earum",
+  "Id": 197,
+  "Name": "One-time Purchase",
+  "Tooltip": "Product type",
   "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 952,
+  "UdListDefinitionId": 445,
+  "Rank": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 125
     }
   }
 }

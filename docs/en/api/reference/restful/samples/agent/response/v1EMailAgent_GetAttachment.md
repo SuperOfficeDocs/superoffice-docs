@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused full-range strategy",
-  "Filename": "possimus",
+  "Description": "Monthly Financial Report",
+  "Filename": "Financial_Report_December_2024.xlsx",
   "Size": 17,
-  "Type": "totam",
-  "Encoding": "architecto",
-  "Id": "nobis",
-  "Disposition": "in",
+  "Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "Encoding": "base64",
+  "Id": "att_20241215_006",
+  "Disposition": "attachment",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,

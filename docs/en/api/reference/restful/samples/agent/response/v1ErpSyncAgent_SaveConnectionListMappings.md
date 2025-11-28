@@ -6,12 +6,12 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Nolan Inc and Sons",
+      "ErpListName": "Payment Terms",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Walsh Group",
+      "ErpActorTypeName": "Customer",
       "ErpFieldId": 679,
       "TableRight": null,
       "FieldProperties": {
@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "ErpConnectionId": 984,
-  "ErpConnectionName": "Turcotte Inc and Sons",
+  "ErpConnectionName": "Microsoft Dynamics 365 Sales",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

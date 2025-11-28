@@ -3,32 +3,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 171,
-  "Name": "Hegmann LLC",
-  "Tooltip": "eveniet",
-  "VisibleColumns": 198,
-  "Rank": 178,
-  "AssocId": 971,
+  "DiaryViewId": 1,
+  "Name": "Week View",
+  "Tooltip": "Display appointments in weekly calendar view",
+  "VisibleColumns": 7,
+  "Rank": 1,
+  "AssocId": 143,
   "AssociateList": [
     {
-      "Id": 851,
-      "Name": "Howell-Maggio",
-      "ToolTip": "Deleniti in repudiandae iste qui sed inventore ut.",
+      "Id": 143,
+      "Name": "Sarah Johnson",
+      "ToolTip": "Customer Support Agent - Available",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "cupiditate",
-      "ColorBlock": 800,
-      "IconHint": "illum",
-      "Selected": false,
-      "LastChanged": "2007-09-02T10:10:59.3019914+02:00",
+      "Rank": 1,
+      "Type": "Associate",
+      "ColorBlock": 2,
+      "IconHint": "user",
+      "Selected": true,
+      "LastChanged": "2024-11-15T14:30:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "est",
+      "ExtraInfo": "sarah.johnson@acme.com",
+      "StyleHint": "available",
       "Hidden": false,
-      "FullName": "Sim Schiller DDS",
+      "FullName": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -39,7 +39,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "TzLocationId": 910,
+  "TzLocationId": 1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

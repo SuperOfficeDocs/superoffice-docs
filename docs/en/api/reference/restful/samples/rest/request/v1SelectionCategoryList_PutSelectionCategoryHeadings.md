@@ -2,25 +2,25 @@
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 410,
-    "Name": "Labadie Group",
-    "Tooltip": "iste",
+    "HeadingId": 693,
+    "Name": "Hamill, Cole and Durgan",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 916,
-    "UdListDefinitionId": 505
+    "Rank": 67,
+    "UdListDefinitionId": 817
   },
   {
-    "HeadingId": 410,
-    "Name": "Labadie Group",
-    "Tooltip": "iste",
+    "HeadingId": 693,
+    "Name": "Hamill, Cole and Durgan",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 916,
-    "UdListDefinitionId": 505
+    "Rank": 67,
+    "UdListDefinitionId": 817
   }
 ]
 ```

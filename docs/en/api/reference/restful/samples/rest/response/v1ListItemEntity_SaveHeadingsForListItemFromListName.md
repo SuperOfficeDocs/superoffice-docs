@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Walter, Hammes and Kuhic",
-    "ToolTip": "Doloremque eaque vel odit.",
+    "Id": 343,
+    "Name": "Custom Item",
+    "ToolTip": "Sunt at consectetur delectus.",
     "Deleted": false,
-    "Rank": 411,
-    "Type": "quo",
-    "ColorBlock": 903,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2013-03-08T14:35:44.7661285+01:00",
+    "Rank": 314,
+    "Type": "ad",
+    "ColorBlock": 659,
+    "IconHint": "ratione",
+    "Selected": false,
+    "LastChanged": "2012-04-14T14:34:02.9653555+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Swift-Leannon",
-        "ToolTip": "Sed libero.",
+        "Id": 130,
+        "Name": "Kerluke Group",
+        "ToolTip": "Et id et voluptas.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "architecto",
-        "ColorBlock": 526,
-        "IconHint": "porro",
+        "Rank": 940,
+        "Type": "quae",
+        "ColorBlock": 689,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2012-05-22T14:35:44.7671327+02:00",
+        "LastChanged": "2023-08-03T14:34:02.9653555+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "sunt",
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Ms. Clara Pagac",
+        "FullName": "Fleta Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldType": "System.Int32",
+            "FieldLength": 229
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Tyree Meredith Thompson DDS",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Bethany Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 811
       }
     }
   }

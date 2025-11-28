@@ -2,47 +2,47 @@
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Bode-Bernhard",
-    "ToolTip": "Recusandae debitis fugiat at pariatur suscipit tenetur inventore.",
+    "Id": 595,
+    "Name": "Medhurst, Dicki and Pollich",
+    "ToolTip": "Aut debitis deleniti illum possimus aut.",
     "Deleted": false,
-    "Rank": 380,
-    "Type": "excepturi",
-    "ColorBlock": 803,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2010-07-23T14:35:45.1715065+02:00",
+    "Rank": 87,
+    "Type": "aliquid",
+    "ColorBlock": 708,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2018-04-09T14:34:03.3932168+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Reynolds, Rogahn and Bradtke",
-        "ToolTip": "Quis ut doloremque omnis.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "sed",
-        "ColorBlock": 491,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2014-09-16T14:35:45.1725067+02:00",
+        "Id": 431,
+        "Name": "Konopelski-Terry",
+        "ToolTip": "Quia iste fugiat doloribus.",
+        "Deleted": false,
+        "Rank": 895,
+        "Type": "eum",
+        "ColorBlock": 102,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2007-07-21T14:34:03.3932168+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Emory Gutmann"
+        "ExtraInfo": "unde",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Chadrick Johnston"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "esse",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Mrs. Arnaldo Blanda V"
+    "FullName": "Nia Mertz"
   }
 ]
 ```

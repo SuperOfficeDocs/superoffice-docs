@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Emmerich, Marvin and Goodwin",
-    "ToolTip": "Est nihil omnis.",
+    "Id": 452,
+    "Name": "Sales Follow-up",
+    "ToolTip": "Placeat sapiente eligendi et doloribus aut enim ut.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "iusto",
-    "ColorBlock": 241,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2014-02-21T14:35:44.8381711+01:00",
+    "Rank": 468,
+    "Type": "ConsentPurpose",
+    "ColorBlock": 795,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2021-06-28T14:34:03.0416933+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Rosenbaum-Borer",
-        "ToolTip": "Quaerat rerum.",
+        "Id": 298,
+        "Name": "Product Updates",
+        "ToolTip": "Tempora repellat ea distinctio.",
         "Deleted": true,
-        "Rank": 821,
-        "Type": "sit",
-        "ColorBlock": 601,
-        "IconHint": "debitis",
+        "Rank": 463,
+        "Type": "ConsentPurpose",
+        "ColorBlock": 279,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2023-11-09T14:35:44.8381711+01:00",
+        "LastChanged": "2012-02-06T14:34:03.0426865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Dr. Modesto Shawn Corkery",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Aniya Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 652
+            "FieldType": "System.Int32",
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "quos",
+    "ExtraInfo": "dolores",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Titus Wilkinson",
+    "FullName": "Karianne Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

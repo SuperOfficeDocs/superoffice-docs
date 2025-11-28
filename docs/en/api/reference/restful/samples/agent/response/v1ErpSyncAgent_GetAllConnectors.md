@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Daniel-McKenzie",
-    "ToolTip": "Velit quos soluta sapiente delectus quia excepturi molestiae."
+    "Id": 1,
+    "Name": "SAP Business One",
+    "ToolTip": "SAP Business One ERP connector for small and medium-sized businesses"
   },
   {
-    "Id": 358,
-    "Name": "Daniel-McKenzie",
-    "ToolTip": "Velit quos soluta sapiente delectus quia excepturi molestiae."
+    "Id": 2,
+    "Name": "Microsoft Dynamics 365",
+    "ToolTip": "Microsoft Dynamics 365 Business Central and Sales integration connector"
   }
 ]
 ```

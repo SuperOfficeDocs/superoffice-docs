@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 694,
-  "ERPPriceListKey": "suscipit",
-  "QuoteConnectionId": 350,
-  "Name": "Fisher, Hintz and Lueilwitz",
-  "Description": "Managed logistical system engine",
-  "Currency": "reprehenderit",
-  "CurrencyName": "Jast-Hansen",
-  "ValidFrom": "2010-05-09T14:35:45.0432486+02:00",
-  "ValidTo": "2025-04-23T14:35:45.0432486+02:00",
+  "PriceListId": 324,
+  "ERPPriceListKey": "aliquam",
+  "QuoteConnectionId": 821,
+  "Name": "Standard Price List",
+  "Description": "Standard pricing for products",
+  "Currency": "ipsa",
+  "CurrencyName": "Jakubowski, Wuckert and Jakubowski",
+  "ValidFrom": "2022-09-01T14:34:03.2674693+02:00",
+  "ValidTo": "2023-10-23T14:34:03.2674693+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 681
     }
   },
   "_Links": {

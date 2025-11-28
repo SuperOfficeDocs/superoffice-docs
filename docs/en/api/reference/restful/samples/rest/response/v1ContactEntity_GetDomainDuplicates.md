@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hudson Group",
-    "SoPrimaryKey": 605,
-    "EntryName": "Haag-Mohr",
-    "EntryIdentifier": "minus",
-    "RuleDisplayName": "Howell Group",
+    "RuleName": "Kub LLC",
+    "SoPrimaryKey": 645,
+    "EntryName": "Huel Inc and Sons",
+    "EntryIdentifier": "amet",
+    "RuleDisplayName": "Okuneva Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 146
       }
     }
   }

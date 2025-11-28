@@ -2,19 +2,19 @@
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 656,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 902,
-  "Name": "Gorczany-Goodwin",
-  "Description": "Phased background architecture",
-  "Currency": "eveniet",
-  "CurrencyName": "Nikolaus-Reinger",
-  "ValidFrom": "2012-12-29T14:35:45.0432486+01:00",
-  "ValidTo": "2001-06-16T14:35:45.0432486+02:00",
+  "PriceListId": 393,
+  "ERPPriceListKey": "soluta",
+  "QuoteConnectionId": 733,
+  "Name": "Macejkovic, Cartwright and Hudson",
+  "Description": "Down-sized maximized hardware",
+  "Currency": "nihil",
+  "CurrencyName": "Wolff LLC",
+  "ValidFrom": "2021-12-25T14:34:03.2654691+01:00",
+  "ValidTo": "1999-12-22T14:34:03.2654691+01:00",
   "IsActive": false
 }
 ```

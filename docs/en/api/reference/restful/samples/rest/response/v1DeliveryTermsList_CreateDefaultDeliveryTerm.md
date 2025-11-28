@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Zieme-Hayes",
-  "Tooltip": "voluptas",
+  "Id": 508,
+  "Name": "CIF",
+  "Tooltip": "Delivery terms",
   "Deleted": false,
-  "UdListDefinitionId": 574,
-  "Rank": 902,
+  "UdListDefinitionId": 428,
+  "Rank": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 550
     }
   }
 }

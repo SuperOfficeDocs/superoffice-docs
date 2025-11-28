@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Renner-Nicolas",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 360,
-  "Rank": 304,
+  "Id": 673,
+  "Name": "Internal",
+  "Tooltip": "Project type",
+  "Deleted": true,
+  "UdListDefinitionId": 154,
+  "Rank": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 527
     }
   }
 }

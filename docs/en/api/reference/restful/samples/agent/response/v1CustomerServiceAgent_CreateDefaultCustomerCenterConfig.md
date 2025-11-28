@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigId": 327,
   "Type": "Options",
-  "Config": "ut",
+  "Config": "{\"theme\":\"light\",\"showFAQ\":true,\"allowAttachments\":true,\"maxFileSize\":10485760}",
   "CustLangId": 638,
   "Registered": "2016-01-20T10:10:59.5768349+01:00",
   "RegisteredAssociateId": 10,

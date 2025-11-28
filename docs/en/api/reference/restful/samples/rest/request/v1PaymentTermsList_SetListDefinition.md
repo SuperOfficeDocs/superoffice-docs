@@ -2,19 +2,19 @@
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "in",
+  "Id": 181,
+  "Name": "Lowe Group",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 671,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 80,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false
 }
 ```

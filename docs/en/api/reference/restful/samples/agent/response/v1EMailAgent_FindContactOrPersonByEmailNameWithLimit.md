@@ -5,13 +5,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "PersonId": 924,
-    "FullName": "Lelia Rolfson",
-    "EmailAddress": "darian.zemlak@boyer.us",
+    "FullName": "David Martinez",
+    "EmailAddress": "david.martinez@globalcorp.com",
     "ContactId": 680,
-    "ContactName": "Hirthe, Simonis and Hauck",
-    "ContactDepartment": "",
-    "ContactCategory": "VIP Customer",
-    "SortName": "Nolan-Bins",
+    "ContactName": "GlobalCorp Industries",
+    "ContactDepartment": "Operations",
+    "ContactCategory": "Partner",
+    "SortName": "Martinez, David",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

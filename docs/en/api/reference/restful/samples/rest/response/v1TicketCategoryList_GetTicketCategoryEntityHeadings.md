@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 576,
-    "Name": "O'Kon Group",
-    "Tooltip": "sint",
+    "HeadingId": 923,
+    "Name": "Quitzon Inc and Sons",
+    "Tooltip": "Ticket classification",
     "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 431,
+    "Rank": 855,
+    "UdListDefinitionId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

@@ -2,15 +2,15 @@
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 397,
-  "Name": "Bashirian Group",
+  "HeadingId": 287,
+  "Name": "Mraz-Hackett",
   "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 368,
-  "UdListDefinitionId": 327
+  "Deleted": true,
+  "Rank": 63,
+  "UdListDefinitionId": 531
 }
 ```

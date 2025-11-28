@@ -2,16 +2,16 @@
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 597,
-  "Name": "Kautzer-Reynolds",
-  "Tooltip": "molestias",
-  "Rank": 128,
-  "Rate": 18600.29,
-  "Units": 1062.426,
+  "CurrencyId": 705,
+  "Name": "Smitham, Keebler and Aufderhar",
+  "Tooltip": "rerum",
+  "Rank": 967,
+  "Rate": 2388.1079999999997,
+  "Units": 27359.82,
   "Deleted": false
 }
 ```

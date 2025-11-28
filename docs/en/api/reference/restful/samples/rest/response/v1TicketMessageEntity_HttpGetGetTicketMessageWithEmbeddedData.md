@@ -3,28 +3,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 546,
+  "EjMessageId": 449,
   "Ticket": null,
-  "CreatedAt": "2017-05-18T14:35:44.4838759+02:00",
+  "CreatedAt": "2002-05-27T14:34:02.6587903+02:00",
   "CreatedBy": null,
-  "Author": "ab",
+  "Author": "accusantium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 658,
-  "Body": "ea",
-  "HtmlBody": "dolor",
-  "EmailHeader": "breana.franecki@hettingerkoch.ca",
-  "DebugInfo": "tenetur",
-  "MailSorter": "ut",
+  "MessageId": "laudantium",
+  "TimeSpent": 412,
+  "Body": "Thank you for contacting support. We will review your request.",
+  "HtmlBody": "ut",
+  "EmailHeader": "eveline@cremin.uk",
+  "DebugInfo": "velit",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptas",
+  "SearchTitle": "quidem",
   "MessageHeaders": [
     {
-      "Id": 142,
-      "Name": "Pacocha, Green and Senger",
-      "Value": "facilis",
+      "Id": 514,
+      "Name": "Fisher-Roberts",
+      "Value": "velit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -32,50 +32,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldLength": 655
         }
       }
     }
   ],
   "Important": false,
-  "Language": "magnam",
-  "Sentiment": 766,
-  "SentimentConfidence": 860,
+  "Language": "est",
+  "Sentiment": 989,
+  "SentimentConfidence": 14,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 906,
-      "Name": "Kling, Lueilwitz and Hauck",
-      "ContentType": "consequuntur",
-      "AttSize": 137,
+      "AttachmentId": 877,
+      "Name": "Dietrich-Anderson",
+      "ContentType": "cupiditate",
+      "AttSize": 204,
       "InlineImage": true,
-      "ContentId": "soluta",
-      "AuthKey": "delectus",
-      "IsSafeFileExtension": false,
+      "ContentId": "atque",
+      "AuthKey": "dolores",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 591
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "iusto"
+    "CustomFields1": "quia",
+    "CustomFields2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 472
     }
   }
 }

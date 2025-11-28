@@ -3,35 +3,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 393,
-  "Section": "velit",
-  "Key": "accusamus",
-  "Name": "Borer Inc and Sons",
+  "PrefDescId": 84,
+  "Section": "ut",
+  "Key": "sint",
+  "Name": "Default Language",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased grid-enabled orchestration",
+  "Description": "Realigned static help-desk",
   "IsBuiltin": false,
-  "TableName": "Kassulke LLC",
-  "UserDefinedListId": 487,
-  "Rank": 411,
-  "SubGroup": "et",
-  "MinLevel": 478,
-  "MaxValue": 266,
-  "MinValue": 684,
-  "RequiredLicense": "deleniti",
+  "TableName": "Schimmel Inc and Sons",
+  "UserDefinedListId": 997,
+  "Rank": 77,
+  "SubGroup": "ut",
+  "MinLevel": 847,
+  "MaxValue": 506,
+  "MinValue": 1001,
+  "RequiredLicense": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldLength": 672
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

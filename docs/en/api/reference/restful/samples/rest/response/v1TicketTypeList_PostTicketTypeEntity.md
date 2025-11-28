@@ -3,31 +3,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 550,
-  "Name": "Mitchell LLC",
-  "Rank": 712,
-  "Tooltip": "aut",
-  "Icon": "consequatur",
-  "DefaultTicketStatus": 979,
+  "TicketTypeId": 34,
+  "Name": "Technical Support",
+  "Rank": 136,
+  "Tooltip": "Ticket classification",
+  "Icon": "maxime",
+  "DefaultTicketStatus": 707,
   "TicketStatuses": [
-    54,
-    243
+    255,
+    702
   ],
-  "DefaultTicketPriority": 506,
+  "DefaultTicketPriority": 254,
   "TicketPriorities": [
-    686,
-    371
+    597,
+    632
   ],
-  "ReplyTemplate": 549,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 251,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    517,
-    478
+    781,
+    365
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -36,7 +36,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 461
     }
   }
 }

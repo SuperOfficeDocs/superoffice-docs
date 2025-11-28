@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Schoen-Dare",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "UdListDefinitionId": 269,
-  "Rank": 821,
+  "Id": 714,
+  "Name": "Real Estate",
+  "Tooltip": "Real estate and property",
+  "Deleted": true,
+  "UdListDefinitionId": 518,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 252
     }
   }
 }

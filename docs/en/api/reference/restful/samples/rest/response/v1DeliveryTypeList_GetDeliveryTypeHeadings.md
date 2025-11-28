@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 25,
-    "Name": "Krajcik, Hegmann and Rosenbaum",
-    "Tooltip": "exercitationem",
+    "HeadingId": 145,
+    "Name": "Express Delivery",
+    "Tooltip": "Delivery type",
     "Deleted": false,
-    "Rank": 722,
-    "UdListDefinitionId": 503,
+    "Rank": 476,
+    "UdListDefinitionId": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 71
       }
     }
   }

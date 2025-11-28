@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Nader LLC",
-  "Tooltip": "itaque",
+  "Id": 250,
+  "Name": "Marketing Tools",
+  "Tooltip": "Product family",
   "Deleted": false,
-  "UdListDefinitionId": 155,
-  "Rank": 958,
+  "UdListDefinitionId": 332,
+  "Rank": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

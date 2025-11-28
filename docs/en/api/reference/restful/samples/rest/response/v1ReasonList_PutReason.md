@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Koepp-Leannon",
-  "Tooltip": "voluptate",
+  "Id": 385,
+  "Name": "Brown Group",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "UdListDefinitionId": 385,
-  "Rank": 190,
+  "UdListDefinitionId": 36,
+  "Rank": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 440
     }
   }
 }

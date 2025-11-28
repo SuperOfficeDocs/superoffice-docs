@@ -3,22 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 485,
-  "Name": "Bogan-Ankunding",
-  "Description": "Multi-channelled 5th generation collaboration",
-  "DeltaJson": "qui",
+  "ConfigurableScreenDeltaId": 456,
+  "Name": "Contact Custom Fields",
+  "Description": "Additional fields for contact management",
+  "DeltaJson": "{\"fields\":[{\"name\":\"Industry\",\"type\":\"list\",\"required\":true},{\"name\":\"AnnualRevenue\",\"type\":\"decimal\",\"required\":false}]}",
   "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "ipsa",
-  "UpdatedDate": "2007-12-03T10:10:59.2581914+01:00",
-  "CreatedDate": "2014-03-13T10:10:59.2581914+01:00",
+  "DeltaState": "Published",
+  "RecipeId": "contact-extra-fields-v2",
+  "UpdatedDate": "2024-11-20T09:15:00+01:00",
+  "CreatedDate": "2024-10-15T14:30:00+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    125,
-    744
+    1,
+    2,
+    3
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "contact-card",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

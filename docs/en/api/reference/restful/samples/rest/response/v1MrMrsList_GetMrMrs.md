@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Cremin, Barton and Robel",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "UdListDefinitionId": 679,
-  "Rank": 7,
+  "Id": 666,
+  "Name": "Heathcote Group",
+  "Tooltip": "Title or salutation",
+  "Deleted": false,
+  "UdListDefinitionId": 471,
+  "Rank": 968,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldType": "System.Int32",
+      "FieldLength": 622
     }
   }
 }

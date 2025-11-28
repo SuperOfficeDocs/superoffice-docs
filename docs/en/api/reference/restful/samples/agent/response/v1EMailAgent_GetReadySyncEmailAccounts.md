@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "AccountId": 125,
-    "AssociateName": "Jaskolski, Cronin and Jakubowski",
+    "AssociateName": "John Anderson",
     "AssociateId": 227,
     "TableRight": null,
     "FieldProperties": {
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
   },
   {
     "AccountId": 125,
-    "AssociateName": "Jaskolski, Cronin and Jakubowski",
+    "AssociateName": "Sarah Johnson",
     "AssociateId": 227,
     "TableRight": null,
     "FieldProperties": {

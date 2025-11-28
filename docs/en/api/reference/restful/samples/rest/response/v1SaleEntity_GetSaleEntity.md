@@ -1,7 +1,7 @@
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Aug 2022 14:35:44 G8T
+Last-Modified: Thu, 05 Nov 2020 14:34:02 G11T
 
 {
   "Appointment": null,
@@ -10,7 +10,7 @@ Last-Modified: Sun, 14 Aug 2022 14:35:44 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quod",
+  "SaleText": "molestiae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -19,113 +19,113 @@ Last-Modified: Sun, 14 Aug 2022 14:35:44 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-05-13T14:35:44.1772532+02:00",
-  "Amount": 20950.79,
-  "SaleId": 652,
-  "Earning": 4685.33,
-  "EarningPercent": 23533.206,
-  "Heading": "aut",
-  "Number": "717510",
-  "Probability": 625,
-  "CreatedDate": "2013-04-20T14:35:44.1772532+02:00",
-  "UpdatedDate": "2022-08-14T14:35:44.1772532+02:00",
+  "Saledate": "2020-08-01T14:34:02.3172092+02:00",
+  "Amount": 8468.068,
+  "SaleId": 510,
+  "Earning": 23429.784,
+  "EarningPercent": 8035.576,
+  "Heading": "autem",
+  "Number": "1347804",
+  "Probability": 821,
+  "CreatedDate": "2001-10-09T14:34:02.3172092+02:00",
+  "UpdatedDate": "2020-11-05T14:34:02.3172092+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 356,
+  "ActiveLinks": 889,
   "Links": [
     {
-      "EntityName": "Wisoky, Williamson and Huel",
-      "Id": 219,
-      "Description": "Configurable directional flexibility",
-      "ExtraInfo": "voluptas",
-      "LinkId": 397,
+      "EntityName": "Flatley, Bednar and West",
+      "Id": 327,
+      "Description": "Expanded scalable open architecture",
+      "ExtraInfo": "quia",
+      "LinkId": 430,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 644
         }
       }
     }
   ],
-  "NextDueDate": "2001-12-20T14:35:44.1772532+01:00",
-  "Postit": "dolores",
+  "NextDueDate": "2006-11-10T14:34:02.3172092+01:00",
+  "Postit": "dolorum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-03-19T14:35:44.1772532+01:00",
+  "ReopenDate": "2003-07-15T14:34:02.3172092+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wuckert Group",
-      "Comment": "ea",
-      "StakeholderRoleId": 529,
-      "CountryId": 647,
-      "PersonId": 921,
-      "EmailDescription": "orie@mohr.ca",
-      "EmailId": 731,
-      "EmailAddress": "golda_ohara@gislasonpagac.uk",
-      "PhoneId": 129,
-      "ContactName": "Fadel-Hilpert",
-      "ContactId": 235,
-      "SaleId": 857,
-      "Mrmrs": "optio",
-      "Firstname": "Shannon",
-      "MiddleName": "Gulgowski, Kling and O'Conner",
-      "Lastname": "Hackett",
-      "SaleStakeholderId": 141,
-      "Rank": 893,
-      "Phone": "(169)370-8355",
+      "StakeholderRoleName": "Kulas, Williamson and Marquardt",
+      "Comment": "minima",
+      "StakeholderRoleId": 32,
+      "CountryId": 723,
+      "PersonId": 362,
+      "EmailDescription": "akeem_hudson@flatleytorphy.info",
+      "EmailId": 572,
+      "EmailAddress": "clementine_towne@frami.co.uk",
+      "PhoneId": 359,
+      "ContactName": "Predovic LLC",
+      "ContactId": 157,
+      "SaleId": 439,
+      "Mrmrs": "alias",
+      "Firstname": "Irma",
+      "MiddleName": "Cole, Steuber and Vandervort",
+      "Lastname": "Von",
+      "SaleStakeholderId": 477,
+      "Rank": 292,
+      "Phone": "(941)862-5407",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 840
         }
       }
     }
   ],
-  "ActiveErpLinks": 612,
+  "ActiveErpLinks": 197,
   "UserDefinedFields": {
-    "SuperOffice:1": "Wilfredo Orn",
-    "SuperOffice:2": "Eugene Purdy"
+    "SuperOffice:1": "Barney Denesik",
+    "SuperOffice:2": "2032770032"
   },
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "nemo"
+    "CustomFields1": "earum",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2023-09-28T14:35:44.1772532+02:00",
-  "PublishTo": "2008-05-04T14:35:44.1772532+02:00",
-  "PublishFrom": "2021-04-18T14:35:44.1772532+02:00",
+  "PublishEventDate": "2005-09-08T14:34:02.3191971+02:00",
+  "PublishTo": "2015-09-03T14:34:02.3191971+02:00",
+  "PublishFrom": "2010-02-25T14:34:02.3191971+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 420,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 367
         }
       }
     },
     {
-      "VisibleId": 420,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 367
         }
       }
     }
@@ -135,7 +135,7 @@ Last-Modified: Sun, 14 Aug 2022 14:35:44 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldLength": 671
     }
   },
   "_Links": {

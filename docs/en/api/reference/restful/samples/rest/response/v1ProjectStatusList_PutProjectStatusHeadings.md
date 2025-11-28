@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 459,
-    "Name": "Rohan, Langworth and Altenwerth",
-    "Tooltip": "vel",
+    "HeadingId": 230,
+    "Name": "In Progress",
+    "Tooltip": "Project status",
     "Deleted": false,
-    "Rank": 546,
-    "UdListDefinitionId": 579,
+    "Rank": 708,
+    "UdListDefinitionId": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 664
       }
     }
   }

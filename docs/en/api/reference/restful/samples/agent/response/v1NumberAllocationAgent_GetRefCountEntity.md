@@ -4,25 +4,25 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RefCountsId": 260,
-  "Field": "deserunt",
+  "Field": "contact_number",
   "RecordId": 56,
   "SuggestedRecords": [
     {
       "Id": 512,
-      "Name": "Walker, Schneider and O'Hara",
-      "ToolTip": "Et quo debitis provident rerum sint veritatis.",
+      "Name": "10001",
+      "ToolTip": "Next available contact number",
       "Deleted": false,
-      "Rank": 928,
-      "Type": "inventore",
+      "Rank": 1,
+      "Type": "ContactNumber",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
+      "IconHint": "number",
       "ColorBlock": 48,
-      "ExtraInfo": "sit",
-      "StyleHint": "aut",
-      "FullName": "Prof. Paxton Haag IV",
+      "ExtraInfo": "auto_increment",
+      "StyleHint": "default",
+      "FullName": "Contact Number: 10001",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -33,12 +33,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "CurrentValue": 192,
-  "TravelPrefix": 631,
-  "SatPrefix": 642,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
+  "CurrentValue": 10000,
+  "TravelPrefix": 0,
+  "SatPrefix": 0,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {

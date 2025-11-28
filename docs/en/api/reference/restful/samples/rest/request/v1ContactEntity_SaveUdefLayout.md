@@ -2,45 +2,45 @@
 PUT /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 835,
-    "ColumnId": 821,
-    "FieldDefault": "similique",
-    "FieldHeight": 11,
-    "FieldLabel": "quasi",
-    "FieldLeft": 619,
-    "FieldTop": 78,
+    "UDefFieldId": 48,
+    "ColumnId": 934,
+    "FieldDefault": "et",
+    "FieldHeight": 415,
+    "FieldLabel": "vitae",
+    "FieldLeft": 905,
+    "FieldTop": 543,
     "FieldType": "Checkbox",
-    "FieldWidth": 553,
-    "FormatMask": "est",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 515,
-    "LabelLeft": 467,
-    "LabelTop": 717,
-    "LabelWidth": 739,
-    "LastVersionId": 469,
-    "ListTableId": 396,
-    "IsMandatory": false,
+    "FieldWidth": 531,
+    "FormatMask": "vel",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 699,
+    "LabelLeft": 966,
+    "LabelTop": 429,
+    "LabelWidth": 526,
+    "LastVersionId": 983,
+    "ListTableId": 843,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 505,
-    "ProgId": "assumenda",
-    "IsReadOnly": true,
-    "ShortLabel": "pariatur",
-    "TabOrder": 905,
-    "TextLength": 498,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 192,
-    "UDListDefinitionId": 796,
+    "Page1LineNo": 928,
+    "ProgId": "voluptas",
+    "IsReadOnly": false,
+    "ShortLabel": "molestiae",
+    "TabOrder": 123,
+    "TextLength": 746,
+    "Tooltip": "laudantium",
+    "UdefIdentity": 821,
+    "UDListDefinitionId": 825,
     "Justification": "Center",
-    "Version": 107,
-    "TemplateVariableName": "Nienow Group",
+    "Version": 161,
+    "TemplateVariableName": "Kunde, Bins and Kunde",
     "HasBeenPublished": false,
-    "MdoListName": "Jast, Jones and Schmitt"
+    "MdoListName": "Friesen Group"
   }
 ]
 ```

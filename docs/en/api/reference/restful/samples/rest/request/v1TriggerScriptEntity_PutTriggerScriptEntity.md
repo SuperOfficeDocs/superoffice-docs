@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 301,
-  "Name": "Ferry-Pacocha",
+  "ScreenChooserId": 723,
+  "Name": "Gislason, Toy and Herzog",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "iste",
-  "Source": "quis",
-  "Registered": "2004-12-20T14:35:44.5065066+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2021-09-30T14:35:44.5065066+02:00",
-  "UpdatedAssociateId": 738
+  "Enabled": true,
+  "UniqueIdentifier": "molestiae",
+  "Source": "et",
+  "Registered": "2025-07-05T14:34:02.7057421+02:00",
+  "RegisteredAssociateId": 697,
+  "Updated": "2008-11-03T14:34:02.7057421+01:00",
+  "UpdatedAssociateId": 143
 }
 ```

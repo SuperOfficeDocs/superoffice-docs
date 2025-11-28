@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Lemke, Schumm and Williamson",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 51,
+    "HeadingId": 488,
+    "Name": "Hilpert LLC",
+    "Tooltip": "Document template",
+    "Deleted": true,
+    "Rank": 825,
+    "UdListDefinitionId": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldType": "System.Int32",
+        "FieldLength": 313
       }
     }
   }

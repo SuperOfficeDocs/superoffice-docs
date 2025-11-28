@@ -3,33 +3,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 941,
-  "PlainMessage": "est",
-  "HtmlMessage": "temporibus",
-  "SmsMessage": "excepturi",
-  "Description": "Advanced interactive website",
-  "Subject": "iure",
-  "FolderId": 830,
-  "HeaderField": "est",
-  "Design": "ea",
+  "ShipmentMessageId": 351,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "quia",
+  "SmsMessage": "possimus",
+  "Description": "Re-contextualized composite capability",
+  "Subject": "consequuntur",
+  "FolderId": 46,
+  "HeaderField": "tempora",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Operative stable Graphical User Interface",
-  "AccessKey": "magni",
-  "DocumentMessage": 5,
-  "Registered": "2021-11-22T14:35:44.302167+01:00",
-  "RegisteredAssociateId": 281,
-  "Updated": "2005-04-03T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 901,
-  "UpdatedCount": 617,
+  "LongDescription": "Innovative contextually-based encoding",
+  "AccessKey": "porro",
+  "DocumentMessage": 585,
+  "Registered": "2014-10-01T14:34:02.426041+02:00",
+  "RegisteredAssociateId": 698,
+  "Updated": "2016-08-29T14:34:02.426041+02:00",
+  "UpdatedAssociateId": 882,
+  "UpdatedCount": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 98
     }
   },
   "_Links": {

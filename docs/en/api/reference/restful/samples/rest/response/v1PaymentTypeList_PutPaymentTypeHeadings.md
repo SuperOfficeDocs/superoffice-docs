@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 590,
-    "Name": "Wyman-Kihn",
-    "Tooltip": "quibusdam",
+    "HeadingId": 999,
+    "Name": "Credit Card",
+    "Tooltip": "Payment method",
     "Deleted": false,
-    "Rank": 87,
-    "UdListDefinitionId": 697,
+    "Rank": 499,
+    "UdListDefinitionId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 387
       }
     }
   }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 831,
-  "Name": "Mayer, Lindgren and Kris",
-  "Tooltip": "non",
+  "Id": 215,
+  "Name": "Medium",
+  "Tooltip": "Priority level",
   "Deleted": false,
-  "UdListDefinitionId": 861,
-  "Rank": 169,
+  "UdListDefinitionId": 717,
+  "Rank": 209,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

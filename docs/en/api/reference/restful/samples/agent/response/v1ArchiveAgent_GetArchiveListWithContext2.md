@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Weber, Klocko and Dickinson",
+    "EntityName": "document",
     "PrimaryKey": 928,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "laudantium",
-        "TooltipHint": "dignissimos",
-        "LinkHint": "maiores"
+      "heading": {
+        "DisplayValue": "Q4 2024 Sales Report",
+        "TooltipHint": "Quarterly sales performance analysis",
+        "LinkHint": "document.main?document_id=928"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "quaerat",
+    "LinkHint": "view-document",
+    "StyleHint": "pdf-document",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

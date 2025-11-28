@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 305,
-    "Name": "Kirlin Group",
-    "Tooltip": "est",
+    "HeadingId": 527,
+    "Name": "Corporate",
+    "Tooltip": "Corporate business type",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 785,
+    "Rank": 651,
+    "UdListDefinitionId": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

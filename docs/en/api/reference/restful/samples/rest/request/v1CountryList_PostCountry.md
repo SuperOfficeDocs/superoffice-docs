@@ -2,27 +2,27 @@
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 741,
-  "Name": "Quitzon-McCullough",
-  "CurrencyId": 96,
-  "EnglishName": "Champlin LLC",
+  "CountryId": 112,
+  "Name": "Glover, Schuster and Boehm",
+  "CurrencyId": 768,
+  "EnglishName": "Weber-Treutel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized 5th generation implementation",
-  "OrgNrText": "739348",
-  "InterAreaPrefix": "quia",
+  "ImageDescription": "Team-oriented value-added parallelism",
+  "OrgNrText": "1315009",
+  "InterAreaPrefix": "inventore",
   "DialInPrefix": "et",
-  "ZipPrefix": "aut",
-  "DomainName": "Muller LLC",
-  "AddressLayoutId": 223,
-  "DomesticAddressLayoutId": 55,
-  "ForeignAddressLayoutId": 936,
-  "Rank": 195,
-  "Tooltip": "dignissimos",
-  "Deleted": true
+  "ZipPrefix": "veritatis",
+  "DomainName": "Bayer-Pagac",
+  "AddressLayoutId": 129,
+  "DomesticAddressLayoutId": 436,
+  "ForeignAddressLayoutId": 487,
+  "Rank": 205,
+  "Tooltip": "repellendus",
+  "Deleted": false
 }
 ```

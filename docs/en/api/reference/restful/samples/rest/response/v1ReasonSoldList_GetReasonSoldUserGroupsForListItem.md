@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Herman, Durgan and Daugherty",
-    "ToolTip": "Consequatur minima minima inventore aliquam.",
-    "Deleted": true,
-    "Rank": 462,
-    "Type": "quia",
-    "ColorBlock": 303,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2014-06-28T14:35:45.2247869+02:00",
+    "Id": 973,
+    "Name": "Schroeder LLC",
+    "ToolTip": "Molestiae ad ex sed aliquid enim nostrum.",
+    "Deleted": false,
+    "Rank": 2,
+    "Type": "eos",
+    "ColorBlock": 967,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2002-03-12T14:34:03.4681385+01:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Wehner-Nitzsche",
-        "ToolTip": "Unde impedit sit ut voluptatum facere culpa.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "distinctio",
-        "ColorBlock": 623,
-        "IconHint": "eveniet",
+        "Id": 853,
+        "Name": "Better Features",
+        "ToolTip": "Sint expedita sapiente veniam excepturi sint.",
+        "Deleted": true,
+        "Rank": 463,
+        "Type": "nobis",
+        "ColorBlock": 41,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2004-01-06T14:35:45.2247869+01:00",
+        "LastChanged": "2008-11-02T14:34:03.4681385+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "commodi",
+        "ExtraInfo": "qui",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Hoyt Bruen PhD",
+        "FullName": "Brent Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Arnoldo Stark",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Miss Leonora Javon Collier Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

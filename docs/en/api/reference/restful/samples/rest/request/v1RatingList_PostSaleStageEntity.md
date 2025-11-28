@@ -6,11 +6,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 546,
-  "Value": "quas",
-  "Tooltip": "molestias",
-  "Probability": 528,
+  "SaleStageId": 46,
+  "Value": "illum",
+  "Tooltip": "doloribus",
+  "Probability": 389,
   "Deleted": false,
-  "Rank": 347
+  "Rank": 709
 }
 ```

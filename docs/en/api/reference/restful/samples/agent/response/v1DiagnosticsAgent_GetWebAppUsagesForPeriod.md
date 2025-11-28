@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   {
     "WebAppUsageId": 999,
     "AssocId": 408,
-    "Timestamp": "2014-02-26T10:10:59.6381965+01:00",
-    "ViewState": "molestias",
-    "AggregateCount": 486,
-    "AggregateBin": 548,
-    "Version": 508,
+    "Timestamp": "2024-01-15T14:23:45+01:00",
+    "ViewState": "Contact.Main.View",
+    "AggregateCount": 127,
+    "AggregateBin": 14,
+    "Version": 10,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

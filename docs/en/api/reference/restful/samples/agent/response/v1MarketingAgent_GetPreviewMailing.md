@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2006-05-16T10:11:00.4436179+02:00",
-  "Status": "Blocked",
+  "SendingTime": "2024-12-01T09:00:00.4436179+01:00",
+  "Status": "Scheduled",
   "ShipmentId": 422,
-  "ShipmentDescription": "Seamless modular time-frame",
-  "FromAddress": "placeat",
+  "ShipmentDescription": "Q4 Product Launch Email Campaign",
+  "FromAddress": "events@acmecorp.com",
   "Configuration": 938,
   "ContactId": 189,
-  "ContactName": "Oberbrunner-Heidenreich",
+  "ContactName": "Acme Corporation",
   "PersonId": 99,
-  "PersonFullName": "Prof. Erika Maggio",
-  "ShipmentType": "dolore",
+  "PersonFullName": "John Anderson",
+  "ShipmentType": "Email",
   "MessageId": 329,
-  "MessageSubject": "ipsam",
+  "MessageSubject": "You're Invited: Q4 Product Launch Event",
   "DocumentMessageId": 767,
-  "Opened": "2005-12-22T10:11:00.4436179+01:00",
-  "LinkClicks": 70,
+  "Opened": "2024-12-01T10:30:00.4436179+01:00",
+  "LinkClicks": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

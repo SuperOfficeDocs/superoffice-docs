@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Status": "StatusDeleted",
-  "Message": "iusto"
+  "Status": "StatusActive",
+  "Message": "Available"
 }
 ```

@@ -5,41 +5,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Dach, Kuhic and Ondricka",
-      "DisplayTooltip": "et",
-      "DisplayType": "reprehenderit",
-      "CanOrderBy": false,
-      "Name": "Rogahn-Dickinson",
-      "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "Koelpin LLC",
+      "DisplayName": "Contact ID",
+      "DisplayTooltip": "Unique identifier for the contact",
+      "DisplayType": "int",
+      "CanOrderBy": true,
+      "Name": "contactId",
+      "CanRestrictBy": true,
+      "RestrictionType": "int",
+      "RestrictionListName": "",
       "IsVisible": true,
-      "ExtraInfo": "culpa",
-      "Width": "non",
-      "IconHint": "occaecati",
-      "HeadingIconHint": "tempora"
+      "ExtraInfo": "contact.contact_id",
+      "Width": "80",
+      "IconHint": "id",
+      "HeadingIconHint": "number"
     }
   ],
   "ArchiveEntityInfo": [
     {
       "Id": 658,
-      "Name": "Schultz-Mertz",
-      "ToolTip": "Dolore rerum dolorem aut iste rerum ut.",
-      "Deleted": true,
-      "Rank": 743,
-      "Type": "dolorem",
+      "Name": "Appointment",
+      "ToolTip": "Calendar appointments and meetings",
+      "Deleted": false,
+      "Rank": 1,
+      "Type": "ArchiveProvider",
       "ColorBlock": 864,
-      "IconHint": "tempore",
+      "IconHint": "appointment",
       "Selected": true,
-      "LastChanged": "2020-11-12T10:10:58.9928609+01:00",
+      "LastChanged": "2024-11-20T10:00:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "aperiam",
-      "Hidden": true,
-      "FullName": "Macy Sipes",
+      "ExtraInfo": "AppointmentArchive",
+      "StyleHint": "entity",
+      "Hidden": false,
+      "FullName": "Appointment Archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -52,15 +52,15 @@ Content-Type: application/json; charset=utf-8
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Goyette LLC",
-      "Direction": "ASC"
+      "Name": "date",
+      "Direction": "DESC"
     },
     {
-      "Name": "Goyette LLC",
+      "Name": "time",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "rerum",
+  "OwnerKeys": "appointment=139,person=456",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

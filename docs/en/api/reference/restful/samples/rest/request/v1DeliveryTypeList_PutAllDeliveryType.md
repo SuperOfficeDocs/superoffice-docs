@@ -2,25 +2,25 @@
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Schamberger, O'Connell and Lueilwitz",
-    "Tooltip": "laboriosam",
+    "Id": 895,
+    "Name": "Howe-Stark",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 643
+    "UdListDefinitionId": 921,
+    "Rank": 854
   },
   {
-    "Id": 835,
-    "Name": "Schamberger, O'Connell and Lueilwitz",
-    "Tooltip": "laboriosam",
+    "Id": 895,
+    "Name": "Howe-Stark",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 643
+    "UdListDefinitionId": 921,
+    "Rank": 854
   }
 ]
 ```

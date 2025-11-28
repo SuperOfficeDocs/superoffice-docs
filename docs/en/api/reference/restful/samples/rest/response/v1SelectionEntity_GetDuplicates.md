@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Beer-Spinka",
-    "SoPrimaryKey": 779,
-    "EntryName": "Hane-Ernser",
-    "EntryIdentifier": "rerum",
-    "RuleDisplayName": "Kuvalis-Bauch",
+    "RuleName": "Schuster-Stamm",
+    "SoPrimaryKey": 636,
+    "EntryName": "Dach-McClure",
+    "EntryIdentifier": "est",
+    "RuleDisplayName": "Bailey Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 308
       }
     }
   }

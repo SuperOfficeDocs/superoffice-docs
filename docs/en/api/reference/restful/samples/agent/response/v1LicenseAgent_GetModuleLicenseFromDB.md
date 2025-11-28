@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jewess-Terry",
-  "ModuleName": "Turcotte Group",
-  "ModuleDescription": "Robust system-worthy product",
-  "ModuleTooltip": "est",
-  "ModuleVersion": "architecto",
+  "OwnerName": "Acme Corporation",
+  "ModuleName": "Sales Premium",
+  "ModuleDescription": "Advanced sales management and forecasting",
+  "ModuleTooltip": "Includes quote management, sales intelligence, and advanced reporting",
+  "ModuleVersion": "10.3",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 304,
-  "ExtraFlags": 341,
-  "ExtraInfo": "officiis",
-  "SortOrder": 201,
+  "NumberOfLicenses": 50,
+  "ExtraFlags": 0,
+  "ExtraInfo": "Enterprise Edition",
+  "SortOrder": 1,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Parker Inc and Sons",
-  "Signature": "cum"
+  "PrerequisiteModuleName": "Sales Essentials",
+  "Signature": "SO-LICENSE-2024-ENT-50"
 }
 ```

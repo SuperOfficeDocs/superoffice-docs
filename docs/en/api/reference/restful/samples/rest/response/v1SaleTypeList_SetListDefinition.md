@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 147,
-  "Name": "Reilly-Donnelly",
-  "Tooltip": "tenetur",
+  "Id": 800,
+  "Name": "New Business",
+  "Tooltip": "Sale type",
   "Deleted": false,
-  "Rank": 637,
+  "Rank": 770,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 412
     }
   }
 }

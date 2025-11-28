@@ -3,20 +3,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 312,
-  "Name": "Kutch Group",
-  "ContentType": "maiores",
-  "AttSize": 590,
-  "InlineImage": true,
-  "ContentId": "maiores",
-  "AuthKey": "commodi",
+  "AttachmentId": 97,
+  "Name": "Product_Brochure.pdf",
+  "ContentType": "application/pdf",
+  "AttSize": 1048576,
+  "InlineImage": false,
+  "ContentId": "attachment-004",
+  "AuthKey": "s9t0u1v2w3x4",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 537
     }
   },
   "_Links": {

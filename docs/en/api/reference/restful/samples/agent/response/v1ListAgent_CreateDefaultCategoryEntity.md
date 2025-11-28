@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CategoryId": 657,
-  "Name": "Waters-Abernathy",
+  "Name": "VIP Customer",
   "CategoryGroup": "Customer",
-  "Tooltip": "est",
-  "Rank": 976,
-  "EnableLeadStatus": false,
+  "Tooltip": "High-value customer accounts",
+  "Rank": 1,
+  "EnableLeadStatus": true,
   "CategoryFamilyId": 845,
   "Deleted": false,
   "TableRight": null,

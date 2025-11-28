@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hyatt, Jast and Metz",
+    "EntityName": "contact",
     "PrimaryKey": 73,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "fuga",
-        "TooltipHint": "voluptatem",
-        "LinkHint": "eius"
+      "name": {
+        "DisplayValue": "TechVision Solutions",
+        "TooltipHint": "Technology consulting and services",
+        "LinkHint": "contact.main?contact_id=73"
       }
     },
-    "LinkHint": "tempora",
-    "StyleHint": "dolorem",
+    "LinkHint": "view-contact",
+    "StyleHint": "active-customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

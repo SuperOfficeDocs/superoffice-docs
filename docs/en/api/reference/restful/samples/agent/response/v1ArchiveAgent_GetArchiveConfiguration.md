@@ -5,41 +5,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Lowe-Trantow",
-      "DisplayTooltip": "pariatur",
-      "DisplayType": "sunt",
-      "CanOrderBy": false,
-      "Name": "Smith-Predovic",
-      "CanRestrictBy": false,
-      "RestrictionType": "quidem",
-      "RestrictionListName": "Abshire LLC",
+      "DisplayName": "Contact Name",
+      "DisplayTooltip": "The name of the contact/company",
+      "DisplayType": "string",
+      "CanOrderBy": true,
+      "Name": "contactName",
+      "CanRestrictBy": true,
+      "RestrictionType": "string",
+      "RestrictionListName": "",
       "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "laborum",
-      "IconHint": "accusantium",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "Primary contact field",
+      "Width": "200",
+      "IconHint": "company",
+      "HeadingIconHint": "company"
     }
   ],
   "ArchiveEntityInfo": [
     {
       "Id": 4,
-      "Name": "Windler-Connelly",
-      "ToolTip": "Sit est totam.",
+      "Name": "Contact",
+      "ToolTip": "Company/organization entity",
       "Deleted": false,
-      "Rank": 906,
-      "Type": "perspiciatis",
+      "Rank": 1,
+      "Type": "Entity",
       "ColorBlock": 538,
-      "IconHint": "occaecati",
-      "Selected": false,
-      "LastChanged": "2020-02-02T10:10:58.9908617+01:00",
+      "IconHint": "company",
+      "Selected": true,
+      "LastChanged": "2024-11-20T10:00:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "placeat",
-      "Hidden": true,
-      "FullName": "Lenore Aisha Cruickshank III",
+      "ExtraInfo": "Company/Contact archive",
+      "StyleHint": "entity",
+      "Hidden": false,
+      "FullName": "Contact Archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -52,15 +52,15 @@ Content-Type: application/json; charset=utf-8
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Kling-Wilderman",
+      "Name": "name",
       "Direction": "ASC"
     },
     {
-      "Name": "Kling-Wilderman",
-      "Direction": "ASC"
+      "Name": "updatedDate",
+      "Direction": "DESC"
     }
   ],
-  "OwnerKeys": "et",
+  "OwnerKeys": "contact=123,person=456",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

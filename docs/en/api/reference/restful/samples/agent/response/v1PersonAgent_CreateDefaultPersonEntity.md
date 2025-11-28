@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PersonId": 353,
-  "Firstname": "Martina",
-  "MiddleName": "Jewess-Swaniawski",
-  "Lastname": "Wolf",
-  "Mrmrs": "soluta",
-  "Title": "voluptatem",
-  "UpdatedDate": "2014-02-17T10:11:00.5019402+01:00",
-  "CreatedDate": "2020-08-07T10:11:00.5019402+02:00",
-  "BirthDate": "2010-08-06T10:11:00.5019402+02:00",
+  "Firstname": "Emily",
+  "MiddleName": "Rose",
+  "Lastname": "Wilson",
+  "Mrmrs": "Ms.",
+  "Title": "Account Executive",
+  "UpdatedDate": "2024-11-27T16:00:00+01:00",
+  "CreatedDate": "2024-11-27T16:00:00+01:00",
+  "BirthDate": "1990-05-20T00:00:00+01:00",
   "CreatedBy": null,
   "Emails": [
     {
@@ -41,7 +41,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Description": "User-friendly static frame",
+  "Description": "Account Executive specializing in enterprise solutions",
   "IsAssociate": false,
   "PrivatePhones": [
     {
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "PersonNumber": "879158",
-  "FullName": "Mellie Madyson Altenwerth Sr.",
+  "PersonNumber": "10003",
+  "FullName": "Emily Rose Wilson",
   "NoMailing": false,
   "UsePersonAddress": true,
   "Retired": false,
@@ -250,18 +250,18 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FormalName": "O'Conner-Weber",
+  "FormalName": "Ms. Emily Rose Wilson",
   "Address": null,
-  "Post3": "qui",
-  "Post2": "quam",
-  "Post1": "rerum",
+  "Post3": "United Kingdom",
+  "Post2": "London W1A 1AA",
+  "Post1": "789 Oxford Street",
   "Kanalname": "reprehenderit",
   "Kanafname": "doloremque",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "at",
+  "Salutation": "Dear Ms. Wilson",
   "ActiveInterests": 518,
   "SupportAssociate": null,
   "TicketPriority": null,
@@ -364,20 +364,20 @@ Content-Type: application/json; charset=utf-8
   "Consents": [
     {
       "ConsentPersonId": 558,
-      "Comment": "est",
-      "Registered": "2008-08-20T10:11:00.5092699+02:00",
+      "Comment": "Initial consent for business communications",
+      "Registered": "2024-11-27T16:00:00+01:00",
       "RegisteredAssociateId": 310,
-      "Updated": "2025-01-15T10:11:00.5092699+01:00",
+      "Updated": "2024-11-27T16:00:00+01:00",
       "UpdatedAssociateId": 690,
       "LegalBaseId": 656,
-      "LegalBaseKey": "aut",
-      "LegalBaseName": "Mills LLC",
+      "LegalBaseKey": "consent",
+      "LegalBaseName": "Consent",
       "ConsentPurposeId": 43,
-      "ConsentPurposeKey": "sit",
-      "ConsentPurposeName": "Bernier, Vandervort and Schaefer",
+      "ConsentPurposeKey": "business_communication",
+      "ConsentPurposeName": "Business Communications",
       "ConsentSourceId": 547,
-      "ConsentSourceKey": "maiores",
-      "ConsentSourceName": "Moore Inc and Sons",
+      "ConsentSourceKey": "crm_system",
+      "ConsentSourceName": "CRM System",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -388,10 +388,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "BounceEmails": [
-    "gunner@littelhauck.name",
-    "marshall@mayertwitting.ca"
-  ],
+  "BounceEmails": [],
   "ActiveStatusMonitorId": 873,
   "CreatedByFormId": 530,
   "InitialUtmParameters": null,

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 47,
-  "Name": "Bergstrom-Sauer",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 175,
-  "UdListDefinitionId": 390,
+  "HeadingId": 753,
+  "Name": "Customer",
+  "Tooltip": "Contact category classification",
+  "Deleted": false,
+  "Rank": 719,
+  "UdListDefinitionId": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 422
     }
   }
 }

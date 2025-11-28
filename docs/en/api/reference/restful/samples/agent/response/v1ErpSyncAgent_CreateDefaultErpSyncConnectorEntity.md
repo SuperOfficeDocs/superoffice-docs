@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectorId": 953,
-  "DisplayName": "Bogan Group",
-  "URL": "http://www.example.com/",
+  "DisplayName": "NetSuite Connector",
+  "URL": "https://erp-connector.superoffice.com/netsuite",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {

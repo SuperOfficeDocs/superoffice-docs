@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 271,
-    "Name": "Price Group",
-    "Tooltip": "inventore",
-    "Deleted": true,
-    "Rank": 738,
-    "UdListDefinitionId": 196,
+    "HeadingId": 390,
+    "Name": "Budget Approved",
+    "Tooltip": "Quote reason",
+    "Deleted": false,
+    "Rank": 177,
+    "UdListDefinitionId": 304,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 797
       }
     }
   }

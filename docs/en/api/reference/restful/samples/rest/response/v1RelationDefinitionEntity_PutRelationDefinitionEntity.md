@@ -3,20 +3,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 599,
-  "Name": "Gibson, Koss and Kemmer",
-  "Tooltip": "sint",
-  "PassiveText": "eum",
-  "Deleted": false,
-  "Rank": 546,
+  "ReldefId": 639,
+  "Name": "Standard User",
+  "Tooltip": "autem",
+  "PassiveText": "repellendus",
+  "Deleted": true,
+  "Rank": 514,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   },
   "_Links": {

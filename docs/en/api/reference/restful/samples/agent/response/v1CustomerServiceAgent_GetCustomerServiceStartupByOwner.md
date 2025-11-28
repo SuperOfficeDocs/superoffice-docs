@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "TimezoneEnabled": true,
   "TZOffset": 551,
-  "RecaptchaSiteKey": "fugiat",
+  "RecaptchaSiteKey": "6LcExample_SiteKey_QRSTUVWXYZ123456",
   "SelectedPreferences": [
     {
       "Level": "Database",
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
       "TabOrder": null,
       "TargetId": 846,
       "PrefDescId": 316,
-      "TableName": "Gibson-Hudson",
+      "TableName": "UserPreference",
       "UserPreferenceId": 485,
       "TableRight": null,
       "FieldProperties": {

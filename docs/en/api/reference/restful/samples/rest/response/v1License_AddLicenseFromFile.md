@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "streamline user-centric applications",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -11,14 +11,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 25,
-      "NumberOfLicensesFree": 720,
-      "NumberOfLicensesAdded": 259,
-      "NumberOfLicensesNewTotal": 602,
-      "NumberOfLicensesNewFree": 588,
-      "NumberOfLicensesTotal": 206
+      "NumberOfLicensesInUse": 708,
+      "NumberOfLicensesFree": 715,
+      "NumberOfLicensesAdded": 506,
+      "NumberOfLicensesNewTotal": 483,
+      "NumberOfLicensesNewFree": 985,
+      "NumberOfLicensesTotal": 589
     }
   ],
-  "AccumulatedNextCheckDate": "2006-04-02T14:35:44.5500048+02:00"
+  "AccumulatedNextCheckDate": "2000-05-06T14:34:02.7439397+02:00"
 }
 ```

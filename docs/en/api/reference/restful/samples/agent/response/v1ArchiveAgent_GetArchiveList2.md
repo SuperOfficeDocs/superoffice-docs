@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Luettgen LLC",
+    "EntityName": "contact",
     "PrimaryKey": 457,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "mollitia",
-        "TooltipHint": "quae",
-        "LinkHint": "corporis"
+      "name": {
+        "DisplayValue": "Global Tech Industries",
+        "TooltipHint": "International technology manufacturing company",
+        "LinkHint": "contact.main?contact_id=457"
       }
     },
-    "LinkHint": "aspernatur",
-    "StyleHint": "vel",
+    "LinkHint": "view-contact",
+    "StyleHint": "enterprise-customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

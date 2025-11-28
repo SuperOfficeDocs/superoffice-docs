@@ -2,47 +2,47 @@
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Cummings LLC",
-    "ToolTip": "Et sint.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "expedita",
-    "ColorBlock": 137,
-    "IconHint": "recusandae",
+    "Id": 204,
+    "Name": "Schinner, O'Kon and Connelly",
+    "ToolTip": "Quibusdam commodi quis.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "corporis",
+    "ColorBlock": 378,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "1998-12-31T14:35:44.9095249+01:00",
+    "LastChanged": "2003-12-07T14:34:03.0970502+01:00",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Willms, Waelchi and Reichert",
-        "ToolTip": "Rerum qui eveniet et architecto quia eum.",
+        "Id": 381,
+        "Name": "Kovacek Inc and Sons",
+        "ToolTip": "Exercitationem et possimus eaque autem rem eveniet eius.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "provident",
-        "ColorBlock": 474,
-        "IconHint": "consectetur",
+        "Rank": 4,
+        "Type": "dignissimos",
+        "ColorBlock": 529,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2024-04-01T14:35:44.9095249+02:00",
+        "LastChanged": "2004-04-18T14:34:03.0970502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "sequi",
+        "ExtraInfo": "magni",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Austyn Runolfsson"
+        "FullName": "Mr. Jermey Stanton Lind"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Ismael Cruickshank"
+    "ExtraInfo": "qui",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Mrs. Teagan Chasity Doyle"
   }
 ]
 ```

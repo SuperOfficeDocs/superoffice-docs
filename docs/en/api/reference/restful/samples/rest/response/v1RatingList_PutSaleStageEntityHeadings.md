@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 823,
-    "Name": "Shanahan Inc and Sons",
-    "Tooltip": "modi",
+    "HeadingId": 32,
+    "Name": "Rolfson LLC",
+    "Tooltip": "Rating level",
     "Deleted": false,
-    "Rank": 966,
-    "UdListDefinitionId": 95,
+    "Rank": 108,
+    "UdListDefinitionId": 898,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

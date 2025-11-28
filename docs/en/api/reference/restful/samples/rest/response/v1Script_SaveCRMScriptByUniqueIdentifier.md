@@ -3,23 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "non",
-  "Name": "Breitenberg-Shields",
-  "Description": "Cloned logistical model",
-  "IncludeId": "non",
-  "Source": "id",
-  "Registered": "2009-02-19T14:35:44.6207383+01:00",
-  "RegisteredBy": "nulla",
-  "Updated": "2019-01-04T14:35:44.6207383+01:00",
-  "UpdatedBy": "porro",
-  "Path": "vel",
+  "UniqueIdentifier": "facere",
+  "Name": "Validation Script",
+  "Description": "Custom validation logic",
+  "IncludeId": "possimus",
+  "Source": "porro",
+  "Registered": "2008-10-27T14:34:02.8492791+01:00",
+  "RegisteredBy": "recusandae",
+  "Updated": "2020-12-22T14:34:02.8492791+01:00",
+  "UpdatedBy": "quos",
+  "Path": "molestiae",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

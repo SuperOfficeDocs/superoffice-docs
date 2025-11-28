@@ -3,23 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 119,
-  "CreatedAt": "2012-02-28T10:11:01.5687562+01:00",
+  "TicketMessageId": 5678,
+  "CreatedAt": "2024-11-15T11:30:00+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "aut",
-  "PersonId": 205,
-  "PersonFullName": "Seth Cronin",
-  "ContactId": 626,
-  "ContactName": "Reichert, Halvorson and Ebert",
-  "ContactDepartment": "",
-  "NumAttachments": 182,
-  "EmailHeader": "dangelo@wymanzulauf.co.uk",
+  "Author": "support@company.com",
+  "PersonId": 10,
+  "PersonFullName": "Sarah Johnson",
+  "ContactId": 123,
+  "ContactName": "Acme Corporation",
+  "ContactDepartment": "Support",
+  "NumAttachments": 1,
+  "EmailHeader": "support@company.com",
   "MessageHeaders": [
     {
-      "Id": 378,
-      "Name": "Hermann-Walter",
-      "Value": "quos",
+      "Id": 101,
+      "Name": "Subject",
+      "Value": "Re: Cannot access customer portal - Login button not working",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -32,12 +32,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Language": "minus",
-  "Sentiment": 285,
-  "SentimentConfidence": 622,
-  "CreatedBy": 161,
-  "ChangedAt": "2001-08-02T10:11:01.5687562+02:00",
-  "Badge": "Comment",
+  "Language": "en",
+  "Sentiment": 85,
+  "SentimentConfidence": 92,
+  "CreatedBy": 10,
+  "ChangedAt": "2024-11-15T11:30:00+01:00",
+  "Badge": "Reply",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

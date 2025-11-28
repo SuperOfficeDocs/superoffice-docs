@@ -6,23 +6,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 775,
-  "Name": "Shields-Ratke",
-  "CurrencyId": 568,
-  "EnglishName": "Braun-Brakus",
+  "CountryId": 343,
+  "Name": "Runte LLC",
+  "CurrencyId": 719,
+  "EnglishName": "Orn, Stiedemann and Corwin",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-contextualized zero tolerance support",
-  "OrgNrText": "324926",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "illum",
-  "DomainName": "Schmeler-Aufderhar",
-  "AddressLayoutId": 343,
-  "DomesticAddressLayoutId": 375,
-  "ForeignAddressLayoutId": 865,
-  "Rank": 630,
-  "Tooltip": "animi",
-  "Deleted": true
+  "ImageDescription": "Cloned foreground Graphic Interface",
+  "OrgNrText": "1544709",
+  "InterAreaPrefix": "itaque",
+  "DialInPrefix": "magnam",
+  "ZipPrefix": "quas",
+  "DomainName": "Gleichner, Conroy and Ward",
+  "AddressLayoutId": 845,
+  "DomesticAddressLayoutId": 779,
+  "ForeignAddressLayoutId": 979,
+  "Rank": 108,
+  "Tooltip": "voluptas",
+  "Deleted": false
 }
 ```

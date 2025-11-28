@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Hartmann, Bruen and Durgan",
-  "Tooltip": "aut",
+  "Id": 985,
+  "Name": "Technology",
+  "Tooltip": "Technology sector businesses",
   "Deleted": false,
-  "UdListDefinitionId": 603,
-  "Rank": 846,
+  "UdListDefinitionId": 21,
+  "Rank": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

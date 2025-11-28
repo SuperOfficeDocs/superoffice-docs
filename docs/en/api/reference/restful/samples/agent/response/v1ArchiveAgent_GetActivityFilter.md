@@ -3,28 +3,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2005-08-05T10:10:58.9878548+02:00",
-  "ToDate": "2000-09-22T10:10:58.9878548+02:00",
+  "FromDate": "2024-11-01T00:00:00+01:00",
+  "ToDate": "2024-12-31T23:59:59+01:00",
   "AssociateList": [
     {
       "Id": 397,
-      "Name": "Johnston-Ondricka",
-      "ToolTip": "In et eos non sed.",
+      "Name": "John Anderson",
+      "ToolTip": "Sales Representative - North Region",
       "Deleted": false,
-      "Rank": 465,
-      "Type": "qui",
+      "Rank": 1,
+      "Type": "Associate",
       "ColorBlock": 529,
-      "IconHint": "nihil",
-      "Selected": false,
-      "LastChanged": "2015-12-21T10:10:58.9878548+01:00",
+      "IconHint": "user",
+      "Selected": true,
+      "LastChanged": "2024-11-15T10:30:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "distinctio",
+      "ExtraInfo": "Sales Department",
+      "StyleHint": "selected",
       "Hidden": false,
-      "FullName": "Kody Kirlin",
+      "FullName": "John Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -38,23 +38,23 @@ Content-Type: application/json; charset=utf-8
   "GroupList": [
     {
       "Id": 769,
-      "Name": "Macejkovic-Emmerich",
-      "ToolTip": "Et consequatur qui temporibus.",
+      "Name": "Sales Team",
+      "ToolTip": "Sales department user group",
       "Deleted": false,
-      "Rank": 991,
-      "Type": "consequuntur",
+      "Rank": 1,
+      "Type": "UserGroup",
       "ColorBlock": 524,
-      "IconHint": "iusto",
-      "Selected": false,
-      "LastChanged": "2024-07-21T10:10:58.9878548+02:00",
+      "IconHint": "group",
+      "Selected": true,
+      "LastChanged": "2024-11-20T14:15:00+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "officiis",
+      "ExtraInfo": "Primary sales team for North region",
+      "StyleHint": "selected",
       "Hidden": false,
-      "FullName": "Mrs. Ashlee Mazie Dooley",
+      "FullName": "Sales Team - North",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -68,20 +68,20 @@ Content-Type: application/json; charset=utf-8
   "FutureDateList": [
     {
       "Id": 282,
-      "Name": "Klocko, Wisozk and Wilderman",
-      "ToolTip": "Ducimus aliquam rerum blanditiis cumque laboriosam.",
+      "Name": "Next 30 days",
+      "ToolTip": "Show activities for the next 30 days",
       "Deleted": false,
-      "Rank": 828,
-      "Type": "exercitationem",
+      "Rank": 1,
+      "Type": "DateRange",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
+      "IconHint": "calendar",
       "ColorBlock": 634,
-      "ExtraInfo": "enim",
-      "StyleHint": "voluptatibus",
-      "FullName": "Yasmine Douglas",
+      "ExtraInfo": "2024-11-27 to 2024-12-27",
+      "StyleHint": "daterange",
+      "FullName": "Next 30 days",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

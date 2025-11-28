@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Medhurst-Treutel",
-    "ToolTip": "Quos aliquid non architecto tempora sit.",
-    "Deleted": false,
-    "Rank": 686,
-    "Type": "dolorem",
-    "ColorBlock": 700,
-    "IconHint": "est",
+    "Id": 700,
+    "Name": "Sales Team",
+    "ToolTip": "Sales team access group",
+    "Deleted": true,
+    "Rank": 543,
+    "Type": "UserGroup",
+    "ColorBlock": 832,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2005-07-11T14:35:44.7876975+02:00",
+    "LastChanged": "2021-03-10T14:34:02.987216+01:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Schaden-Bernier",
-        "ToolTip": "Porro sapiente magni iure nobis quas rerum expedita.",
-        "Deleted": true,
-        "Rank": 522,
-        "Type": "eius",
-        "ColorBlock": 291,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2022-01-12T14:35:44.7876975+01:00",
+        "Id": 10,
+        "Name": "Marketing Team",
+        "ToolTip": "Enim sit itaque ad.",
+        "Deleted": false,
+        "Rank": 597,
+        "Type": "itaque",
+        "ColorBlock": 887,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2003-10-13T14:34:02.987216+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "maiores",
+        "ExtraInfo": "expedita",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Patience Reilly DVM",
+        "FullName": "Walker Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldType": "System.String",
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "unde",
+    "ExtraInfo": "dolores",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Miss Abigale Hayes",
+    "FullName": "Giovanna Johns Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 324
       }
     }
   }

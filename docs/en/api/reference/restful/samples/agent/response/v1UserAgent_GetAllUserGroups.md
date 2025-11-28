@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "nobis",
-    "Tooltip": "excepturi",
-    "Id": 687,
-    "Rank": 943,
-    "Deleted": true,
+    "Value": "Sales Team",
+    "Tooltip": "Sales department group",
+    "Id": 1,
+    "Rank": 1,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

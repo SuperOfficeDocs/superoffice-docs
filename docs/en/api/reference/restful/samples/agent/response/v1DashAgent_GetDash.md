@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 783,
-  "UniqueId": "et",
-  "Name": "McClure-Bode",
-  "Description": "Balanced grid-enabled encryption",
+  "UniqueId": "sales-overview-2024",
+  "Name": "Sales Overview Dashboard",
+  "Description": "Comprehensive view of sales pipeline, revenue trends, and team performance metrics",
   "AssociateId": 21,
-  "Columns": 711,
+  "Columns": 3,
   "Theme": null,
   "VisibleForAll": 481,
   "VisibleForAssociates": [

@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 740,
-    "DisplayName": "Schneider LLC",
-    "OngoingChats": 262,
+    "UserId": 856,
+    "DisplayName": "Sarah Johnson",
+    "OngoingChats": 3,
     "Present": false,
     "ChatTopics": [
-      431,
-      585
+      907,
+      203
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Wehner-Maggio",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 459,
-    "Rank": 930,
+    "Id": 473,
+    "Name": "Price Too High",
+    "Tooltip": "Quote reason",
+    "Deleted": false,
+    "UdListDefinitionId": 23,
+    "Rank": 360,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

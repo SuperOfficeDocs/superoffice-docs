@@ -5,18 +5,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ErpConnectionId": 301,
-    "ConnectionName": "Nader-Wilkinson",
-    "Connected": false,
+    "ConnectionName": "SAP Business One Connection",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "provident",
-        "Rank": 371,
-        "DisplayName": "Glover-Harvey",
-        "DisplayDescription": "Up-sized intermediate help-desk",
-        "FieldType": "Checkbox",
-        "ListName": "Farrell Inc and Sons",
-        "DefaultValue": "neque",
-        "MaxLength": 681,
+        "FieldKey": "erp_customer_id",
+        "Rank": 1,
+        "DisplayName": "Customer ID",
+        "DisplayDescription": "Unique customer identifier in SAP Business One",
+        "FieldType": "Text",
+        "ListName": "",
+        "DefaultValue": "",
+        "MaxLength": 50,
         "Access": "Mandatory",
         "ShowInSearch": true,
         "TableRight": null,
@@ -32,8 +32,8 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "enim",
-      "eveniet"
+      "Customer",
+      "Supplier"
     ],
     "TableRight": null,
     "FieldProperties": {

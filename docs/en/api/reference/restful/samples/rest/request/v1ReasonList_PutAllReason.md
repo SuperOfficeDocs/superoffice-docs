@@ -2,25 +2,25 @@
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Breitenberg-Auer",
-    "Tooltip": "aut",
+    "Id": 112,
+    "Name": "Lind-Schuppe",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 254,
-    "Rank": 155
+    "UdListDefinitionId": 686,
+    "Rank": 457
   },
   {
-    "Id": 88,
-    "Name": "Breitenberg-Auer",
-    "Tooltip": "aut",
+    "Id": 112,
+    "Name": "Lind-Schuppe",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 254,
-    "Rank": 155
+    "UdListDefinitionId": 686,
+    "Rank": 457
   }
 ]
 ```

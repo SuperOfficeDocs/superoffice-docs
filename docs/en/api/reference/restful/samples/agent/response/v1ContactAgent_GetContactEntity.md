@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 236,
-  "Name": "Hilll-Hackett",
-  "Department": "",
-  "OrgNr": "1244655",
-  "Number1": "934631",
-  "Number2": "1440245",
+  "Name": "Acme Corporation",
+  "Department": "Sales and Marketing",
+  "OrgNr": "987654321",
+  "Number1": "10001",
+  "Number2": "20001",
   "UpdatedDate": "2024-12-29T10:10:59.3771845+01:00",
   "CreatedDate": "2001-11-09T10:10:59.3771845+01:00",
   "Emails": [
@@ -42,7 +42,7 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 978,
-      "Name": "Weber, Shields and Volkman",
+      "Name": "Technology Innovation Forum",
       "ToolTip": "Perferendis necessitatibus nam porro quisquam.",
       "Deleted": true,
       "Rank": 390,

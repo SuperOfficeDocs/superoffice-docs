@@ -3,22 +3,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 928,
-  "Name": "Tremblay Group",
+  "ScreenChooserId": 491,
+  "Name": "Strosin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "accusamus",
-  "Source": "necessitatibus",
-  "Registered": "2003-05-21T14:35:44.5065066+02:00",
-  "RegisteredAssociateId": 427,
-  "Updated": "2000-10-24T14:35:44.5065066+02:00",
-  "UpdatedAssociateId": 113,
+  "Enabled": true,
+  "UniqueIdentifier": "nemo",
+  "Source": "aliquid",
+  "Registered": "1999-12-14T14:34:02.6914737+01:00",
+  "RegisteredAssociateId": 322,
+  "Updated": "2010-10-25T14:34:02.6914737+02:00",
+  "UpdatedAssociateId": 207,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 309
     }
   },
   "_Links": {

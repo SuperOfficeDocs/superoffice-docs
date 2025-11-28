@@ -3,53 +3,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 245,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "quo",
-  "Rank": 884,
+  "SaleTypeId": 251,
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
+  "Rank": 853,
   "DurationUnit": "Century",
-  "SaleDuration": 415,
-  "SaleTypeCatId": 244,
+  "SaleDuration": 580,
+  "SaleTypeCatId": 415,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 658,
-  "QuoteLinesTemplate": 928,
-  "ConfirmationLinesTemplate": 253,
+  "DefaultQuoteValidity": 816,
+  "QuoteLinesTemplate": 521,
+  "ConfirmationLinesTemplate": 585,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 197,
-  "MinEarningPercent": 767,
-  "GroupQuoteLinesBy": 236,
-  "SortGroupLinesBy": 932,
+  "MaxDiscountPercent": 883,
+  "MinEarningPercent": 478,
+  "GroupQuoteLinesBy": 785,
+  "SortGroupLinesBy": 763,
   "Stages": [
     {
-      "Id": 747,
-      "Name": "Bogan Inc and Sons",
-      "ToolTip": "Rerum voluptatem et.",
+      "Id": 201,
+      "Name": "New Business",
+      "ToolTip": "Dignissimos pariatur quo aut hic voluptates omnis et.",
       "Deleted": false,
-      "Rank": 87,
-      "Type": "ratione",
-      "ColorBlock": 930,
-      "IconHint": "ut",
+      "Rank": 514,
+      "Type": "voluptatem",
+      "ColorBlock": 316,
+      "IconHint": "ipsam",
       "Selected": false,
-      "LastChanged": "2013-11-28T14:35:45.2714881+01:00",
+      "LastChanged": "2007-07-15T14:34:03.4946482+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "animi",
+      "ExtraInfo": "quam",
+      "StyleHint": "labore",
       "Hidden": false,
-      "FullName": "Ms. Hiram Bradtke DDS",
+      "FullName": "Angie Hilll",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldType": "System.String",
+          "FieldLength": 702
         }
       }
     }
@@ -59,7 +59,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 761
     }
   }
 }

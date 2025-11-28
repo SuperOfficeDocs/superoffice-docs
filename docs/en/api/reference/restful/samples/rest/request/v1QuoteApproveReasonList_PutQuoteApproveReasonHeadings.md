@@ -2,25 +2,25 @@
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 666,
-    "Name": "Hoppe, Kulas and O'Reilly",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 237,
-    "UdListDefinitionId": 114
+    "HeadingId": 39,
+    "Name": "Schaefer, Smith and Kautzer",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "Rank": 592,
+    "UdListDefinitionId": 188
   },
   {
-    "HeadingId": 666,
-    "Name": "Hoppe, Kulas and O'Reilly",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 237,
-    "UdListDefinitionId": 114
+    "HeadingId": 39,
+    "Name": "Schaefer, Smith and Kautzer",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "Rank": 592,
+    "UdListDefinitionId": 188
   }
 ]
 ```

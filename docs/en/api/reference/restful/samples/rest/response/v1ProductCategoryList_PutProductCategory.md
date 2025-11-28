@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746,
-  "Name": "Cormier, Simonis and Graham",
-  "Tooltip": "sit",
+  "Id": 631,
+  "Name": "Spinka LLC",
+  "Tooltip": "Product category",
   "Deleted": true,
-  "UdListDefinitionId": 730,
-  "Rank": 778,
+  "UdListDefinitionId": 362,
+  "Rank": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

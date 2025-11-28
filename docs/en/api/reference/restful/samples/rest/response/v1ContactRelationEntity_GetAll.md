@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "alias",
+  "odata.nextLink": "cupiditate",
   "value": [
     {
-      "PrimaryKey": 7237,
+      "PrimaryKey": 1236,
       "EntityName": "person",
-      "personId": 7237,
-      "fullName": "Miss Matilde Clare Yost PhD"
+      "personId": 1236,
+      "fullName": "Korbin Parker"
     },
     {
-      "PrimaryKey": 7833,
+      "PrimaryKey": 6384,
       "EntityName": "person",
-      "personId": 7833,
-      "fullName": "Cloyd Tromp"
+      "personId": 6384,
+      "fullName": "Prof. Enola Nova Runte V"
     }
   ]
 }

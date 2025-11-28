@@ -3,46 +3,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 707,
+  "HierarchyId": 334,
   "Domain": "Dashboards",
-  "Name": "D'Amore-Ryan",
-  "Fullname": "est",
-  "ParentId": 54,
+  "Name": "Sales Department",
+  "Fullname": "harum",
+  "ParentId": 632,
   "Children": [
     {
-      "HierarchyId": 555,
+      "HierarchyId": 751,
       "Domain": "Dashboards",
-      "Name": "Hilpert, Turner and Nikolaus",
-      "Fullname": "placeat",
-      "ParentId": 974,
+      "Name": "Marketing Division",
+      "Fullname": "fugiat",
+      "ParentId": 268,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-11-22T14:35:43.7873563+01:00",
-      "RegisteredAssociateId": 211,
-      "Updated": "2015-07-29T14:35:43.7873563+02:00",
-      "UpdatedAssociateId": 362,
+      "Registered": "2019-04-29T14:34:02.0290941+02:00",
+      "RegisteredAssociateId": 718,
+      "Updated": "2002-09-18T14:34:02.0290941+02:00",
+      "UpdatedAssociateId": 932,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 77
         }
       }
     }
   ],
-  "Registered": "2012-08-10T14:35:43.7873563+02:00",
-  "RegisteredAssociateId": 409,
-  "Updated": "2007-08-27T14:35:43.7873563+02:00",
-  "UpdatedAssociateId": 644,
+  "Registered": "2022-12-07T14:34:02.0290941+01:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2019-01-19T14:34:02.0290941+01:00",
+  "UpdatedAssociateId": 136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 644
     }
   },
   "_Links": {

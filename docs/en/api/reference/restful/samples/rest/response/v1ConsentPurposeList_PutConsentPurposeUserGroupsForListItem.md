@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Connelly, Dooley and Corwin",
-    "ToolTip": "Minima ipsum iure sit sit quod accusantium.",
-    "Deleted": true,
-    "Rank": 278,
-    "Type": "voluptatem",
-    "ColorBlock": 766,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2000-02-23T14:35:44.8371318+01:00",
+    "Id": 307,
+    "Name": "Marketing Communications",
+    "ToolTip": "Reiciendis repudiandae autem officia tempora dolorum.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "ConsentPurpose",
+    "ColorBlock": 412,
+    "IconHint": "libero",
+    "Selected": false,
+    "LastChanged": "2024-08-12T14:34:03.0406868+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Turner LLC",
-        "ToolTip": "Dolor ut hic fugiat corrupti.",
+        "Id": 523,
+        "Name": "Product Updates",
+        "ToolTip": "Asperiores tempore accusamus inventore velit rerum sint aspernatur.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "quod",
-        "ColorBlock": 439,
-        "IconHint": "numquam",
+        "Rank": 905,
+        "Type": "ConsentPurpose",
+        "ColorBlock": 55,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2000-08-07T14:35:44.8371318+02:00",
+        "LastChanged": "2015-12-04T14:34:03.0406868+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Prof. Jody Schowalter I",
+        "ExtraInfo": "ut",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Macy Johnson Maggio I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldLength": 824
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Jonatan Little DVM",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Dr. Gerda Helene Kessler DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 817
       }
     }
   }

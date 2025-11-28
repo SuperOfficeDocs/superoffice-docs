@@ -2,19 +2,19 @@
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Ondricka-Zemlak",
-  "Tooltip": "rerum",
+  "Id": 425,
+  "Name": "Windler, Murazik and Schimmel",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 148,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 375,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```

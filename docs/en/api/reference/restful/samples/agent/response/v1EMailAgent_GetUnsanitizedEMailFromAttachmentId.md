@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 375,
-      "ContactName": "Bashirian, Farrell and Oberbrunner",
+      "ContactName": "Acme Corporation",
       "PersonId": 817,
-      "PersonName": "Medhurst-Nicolas",
+      "PersonName": "Linda Chen",
       "AssociateId": 459,
-      "Address": "necessitatibus",
+      "Address": "linda.chen@globalcorp.com",
       "EmailId": 645,
       "DuplicatePersonIds": [
         699,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "vel",
-  "HTMLBody": "reprehenderit",
+  "Subject": "Meeting Agenda",
+  "HTMLBody": "<html><body><p>Attached is the agenda for next week's strategic planning meeting.</p></body></html>",
   "From": null,
   "Sent": "2025-03-30T10:11:00.0530368+02:00",
-  "Size": 686,
+  "Size": 45678,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "nesciunt",
+  "MessageID": "<20240111120000.msg011@globalcorp.com>",
+  "PlainBody": "Attached is the agenda for next week's strategic planning meeting.",
   "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 761,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Schoen, Bartell and Barrows",
+  "FolderName": "Inbox",
   "EmailItemId": 807,
   "AccountId": 864,
   "ReceivedAt": "2017-09-07T10:11:00.0530368+02:00",

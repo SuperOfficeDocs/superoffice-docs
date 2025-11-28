@@ -5,25 +5,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 322,
-    "Tooltip": "ea",
+    "Total": 271,
+    "Tooltip": "neque",
     "CanAssign": false,
-    "Free": 692,
-    "InUse": 175,
+    "Free": 278,
+    "InUse": 531,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 387,
-    "Name": "Hagenes, Powlowski and Berge",
-    "Description": "Streamlined client-driven neural-net",
-    "PrerequisiteModuleName": "Moen-Frami",
-    "SortOrder": 341,
-    "ExtraFlags": 225,
+    "ModuleLicenseId": 534,
+    "Name": "Professional License",
+    "Description": "User-centric stable monitoring",
+    "PrerequisiteModuleName": "Medhurst, Beahan and Mann",
+    "SortOrder": 735,
+    "ExtraFlags": 945,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

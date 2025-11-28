@@ -2,25 +2,25 @@
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Steuber Inc and Sons",
-    "Tooltip": "perferendis",
+    "Id": 612,
+    "Name": "Abshire-Hintz",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 76
+    "UdListDefinitionId": 617,
+    "Rank": 119
   },
   {
-    "Id": 771,
-    "Name": "Steuber Inc and Sons",
-    "Tooltip": "perferendis",
+    "Id": 612,
+    "Name": "Abshire-Hintz",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 76
+    "UdListDefinitionId": 617,
+    "Rank": 119
   }
 ]
 ```

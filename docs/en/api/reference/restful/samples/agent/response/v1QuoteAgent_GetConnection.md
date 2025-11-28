@@ -4,26 +4,26 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteConnectionId": 603,
-  "ERPName": "Quitzon Inc and Sons",
-  "DisplayName": "Carroll LLC",
-  "DisplayDescription": "Polarised context-sensitive system engine",
+  "ERPName": "SAP Business One",
+  "DisplayName": "SAP B1 Integration",
+  "DisplayDescription": "Integration with SAP Business One ERP system for order processing",
   "Rank": 11,
-  "ConnectorName": "Kemmer, Grant and Cormier",
+  "ConnectorName": "SAP Business One Connector",
   "ErpConnectionId": 240,
-  "ExtraData": "accusamus",
-  "IsAvailable": false,
+  "ExtraData": "Connection configuration data",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
       "PriceListId": 139,
-      "ERPPriceListKey": "vel",
+      "ERPPriceListKey": "PRICELIST-2024-SAP",
       "QuoteConnectionId": 913,
-      "Name": "Lang-McClure",
-      "Description": "Advanced empowering migration",
-      "Currency": "provident",
-      "CurrencyName": "Schmidt-Marvin",
-      "ValidFrom": "1999-03-02T10:11:00.9408673+01:00",
-      "ValidTo": "2015-10-18T10:11:00.9408673+02:00",
+      "Name": "SAP B1 Standard Price List 2024",
+      "Description": "Standard pricing from SAP Business One - effective 2024",
+      "Currency": "USD",
+      "CurrencyName": "United States Dollar",
+      "ValidFrom": "2024-01-01T00:00:00+01:00",
+      "ValidTo": "2024-12-31T23:59:00+01:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
@@ -35,8 +35,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": true,
+  "AllAccess": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
     901,
     319

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 647,
-    "Name": "Reilly-Schmidt",
-    "Tooltip": "nesciunt",
+    "HeadingId": 876,
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
-    "Rank": 880,
-    "UdListDefinitionId": 276,
+    "Rank": 878,
+    "UdListDefinitionId": 994,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

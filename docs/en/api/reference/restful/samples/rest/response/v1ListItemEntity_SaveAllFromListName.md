@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Rosenbaum Group",
-    "Tooltip": "sit",
+    "Id": 228,
+    "Name": "Custom Item",
+    "Tooltip": "quae",
     "Deleted": true,
-    "UdListDefinitionId": 133,
-    "Rank": 418,
+    "UdListDefinitionId": 3,
+    "Rank": 465,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 144
       }
     }
   }

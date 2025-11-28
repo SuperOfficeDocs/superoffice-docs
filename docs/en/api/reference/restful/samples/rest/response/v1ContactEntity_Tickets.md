@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laudantium",
+  "odata.nextLink": "eos",
   "value": [
     {
-      "PrimaryKey": 9557,
+      "PrimaryKey": 5617,
       "EntityName": "person",
-      "personId": 9557,
-      "fullName": "King Stracke"
+      "personId": 5617,
+      "fullName": "Elwyn O'Keefe"
     },
     {
-      "PrimaryKey": 7196,
+      "PrimaryKey": 5172,
       "EntityName": "person",
-      "personId": 7196,
-      "fullName": "Prof. Jakob DuBuque I"
+      "personId": 5172,
+      "fullName": "Jasper Schulist"
     }
   ]
 }

@@ -3,17 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 200,
+  "TargetDimensionId": 8,
   "AssignmentLevel": "Associate",
-  "EntityType": "None",
+  "EntityType": "Sale",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ut",
-  "DimensionListName": "Cronin-Ratke",
-  "DimensionListId": 252,
-  "DimensionListLabel": "quo",
+  "DimensionListField": "category",
+  "DimensionListName": "Sale Categories",
+  "DimensionListId": 125,
+  "DimensionListLabel": "Category",
   "SelectedDimensions": [
-    105,
-    726
+    1,
+    2,
+    3
   ],
   "TableRight": null,
   "FieldProperties": {

@@ -8,12 +8,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "dolorum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "dolorum",
     "value": {}
   }
 ]

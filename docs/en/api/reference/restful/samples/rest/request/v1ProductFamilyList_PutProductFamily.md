@@ -2,15 +2,15 @@
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 596,
-  "Name": "Hoppe, Borer and Emard",
-  "Tooltip": "perspiciatis",
+  "Id": 721,
+  "Name": "Shields, Torp and Douglas",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "UdListDefinitionId": 677,
-  "Rank": 259
+  "UdListDefinitionId": 996,
+  "Rank": 613
 }
 ```

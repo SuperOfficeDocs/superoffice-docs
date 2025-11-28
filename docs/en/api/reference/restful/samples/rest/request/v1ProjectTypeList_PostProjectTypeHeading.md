@@ -2,15 +2,15 @@
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 69,
-  "Name": "Aufderhar, Rempel and Hansen",
-  "Tooltip": "explicabo",
+  "HeadingId": 731,
+  "Name": "Wiza, Bogan and Veum",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 491,
-  "UdListDefinitionId": 37
+  "Rank": 823,
+  "UdListDefinitionId": 595
 }
 ```

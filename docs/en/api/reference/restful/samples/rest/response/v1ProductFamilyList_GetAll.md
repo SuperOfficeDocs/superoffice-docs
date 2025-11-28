@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Jacobson LLC",
-    "Tooltip": "aut",
+    "Id": 922,
+    "Name": "Marketing Tools",
+    "Tooltip": "Product family",
     "Deleted": false,
-    "UdListDefinitionId": 874,
-    "Rank": 145,
+    "UdListDefinitionId": 521,
+    "Rank": 705,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 575
       }
     }
   }

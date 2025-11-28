@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 641,
-    "Name": "Greenholt-Watsica",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 390,
-    "UdListDefinitionId": 372,
+    "HeadingId": 510,
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
+    "Deleted": false,
+    "Rank": 650,
+    "UdListDefinitionId": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldLength": 850
       }
     }
   }

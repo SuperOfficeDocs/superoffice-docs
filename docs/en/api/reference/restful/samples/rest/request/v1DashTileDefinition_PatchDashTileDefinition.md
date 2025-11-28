@@ -2,18 +2,18 @@
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "quo",
     "value": {}
   }
 ]

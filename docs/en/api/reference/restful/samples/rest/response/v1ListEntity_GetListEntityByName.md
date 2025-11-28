@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Hahn-Streich",
+  "Id": 638,
+  "Name": "User Defined List",
   "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 740,
+  "Deleted": false,
+  "Rank": 564,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facilis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

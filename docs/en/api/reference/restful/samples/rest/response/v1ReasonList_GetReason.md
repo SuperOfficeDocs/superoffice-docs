@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 762,
-  "Name": "Ondricka, Cartwright and Bosco",
-  "Tooltip": "delectus",
+  "Id": 76,
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "UdListDefinitionId": 225,
-  "Rank": 156,
+  "UdListDefinitionId": 950,
+  "Rank": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

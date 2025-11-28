@@ -3,30 +3,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 455,
-  "Name": "Kulas, Ledner and Koelpin",
-  "CurrencyId": 598,
-  "EnglishName": "Powlowski, Kohler and Wiza",
+  "CountryId": 69,
+  "Name": "Norway",
+  "CurrencyId": 889,
+  "EnglishName": "Kub, Heaney and Stiedemann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Triple-buffered cohesive installation",
-  "OrgNrText": "822930",
-  "InterAreaPrefix": "aperiam",
-  "DialInPrefix": "facilis",
-  "ZipPrefix": "beatae",
-  "DomainName": "Torphy-Swaniawski",
-  "AddressLayoutId": 127,
-  "DomesticAddressLayoutId": 882,
-  "ForeignAddressLayoutId": 793,
-  "Rank": 141,
-  "Tooltip": "commodi",
+  "ImageDescription": "User-centric maximized circuit",
+  "OrgNrText": "1243620",
+  "InterAreaPrefix": "accusantium",
+  "DialInPrefix": "cumque",
+  "ZipPrefix": "consectetur",
+  "DomainName": "Muller-Wyman",
+  "AddressLayoutId": 612,
+  "DomesticAddressLayoutId": 732,
+  "ForeignAddressLayoutId": 242,
+  "Rank": 515,
+  "Tooltip": "Country entry",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

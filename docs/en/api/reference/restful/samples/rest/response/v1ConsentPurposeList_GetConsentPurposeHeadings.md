@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 982,
-    "Name": "Williamson Group",
-    "Tooltip": "omnis",
+    "HeadingId": 831,
+    "Name": "Newsletter Subscription",
+    "Tooltip": "Consent purpose for GDPR compliance",
     "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 960,
+    "Rank": 637,
+    "UdListDefinitionId": 483,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

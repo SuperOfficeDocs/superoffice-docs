@@ -3,40 +3,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 193,
-  "Name": "Dach Group",
-  "Rank": 258,
-  "Tooltip": "consequatur",
-  "Icon": "nisi",
-  "DefaultTicketStatus": 748,
+  "TicketTypeId": 389,
+  "Name": "Sales Inquiry",
+  "Rank": 230,
+  "Tooltip": "Ticket classification",
+  "Icon": "reprehenderit",
+  "DefaultTicketStatus": 587,
   "TicketStatuses": [
-    7,
-    812
+    556,
+    96
   ],
-  "DefaultTicketPriority": 386,
+  "DefaultTicketPriority": 321,
   "TicketPriorities": [
-    81,
-    475
+    541,
+    424
   ],
-  "ReplyTemplate": 883,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 352,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    258,
-    671
+    523,
+    290
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

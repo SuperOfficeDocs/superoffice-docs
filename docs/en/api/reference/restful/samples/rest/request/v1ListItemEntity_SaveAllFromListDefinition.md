@@ -2,25 +2,25 @@
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Christiansen, Beer and Smitham",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 904,
-    "Rank": 526
+    "Id": 546,
+    "Name": "Paucek-Hartmann",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 307,
+    "Rank": 83
   },
   {
-    "Id": 422,
-    "Name": "Christiansen, Beer and Smitham",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 904,
-    "Rank": 526
+    "Id": 546,
+    "Name": "Paucek-Hartmann",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 307,
+    "Rank": 83
   }
 ]
 ```

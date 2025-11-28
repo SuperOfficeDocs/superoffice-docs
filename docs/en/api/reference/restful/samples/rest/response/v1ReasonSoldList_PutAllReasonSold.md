@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Turner-Hamill",
-    "Tooltip": "nesciunt",
-    "Deleted": true,
-    "UdListDefinitionId": 63,
-    "Rank": 199,
+    "Id": 117,
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
+    "Deleted": false,
+    "UdListDefinitionId": 903,
+    "Rank": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldType": "System.Int32",
+        "FieldLength": 468
       }
     }
   }

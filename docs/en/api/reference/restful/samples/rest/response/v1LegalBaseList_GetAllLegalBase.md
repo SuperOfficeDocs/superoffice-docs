@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 81,
-    "Name": "Walsh-Pollich",
-    "Tooltip": "voluptatum",
-    "Rank": 710,
-    "Key": "error",
+    "LegalBaseId": 588,
+    "Name": "Consent Given",
+    "Tooltip": "Legal basis for data processing",
+    "Rank": 614,
+    "Key": "temporibus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 513
       }
     }
   }

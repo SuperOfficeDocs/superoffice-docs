@@ -2,28 +2,28 @@
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 825,
-    "DisplayName": "Cummings LLC",
-    "OngoingChats": 253,
+    "UserId": 880,
+    "DisplayName": "Schowalter Inc and Sons",
+    "OngoingChats": 55,
     "Present": true,
     "ChatTopics": [
-      424,
-      522
+      554,
+      897
     ]
   },
   {
-    "UserId": 825,
-    "DisplayName": "Cummings LLC",
-    "OngoingChats": 253,
+    "UserId": 880,
+    "DisplayName": "Schowalter Inc and Sons",
+    "OngoingChats": 55,
     "Present": true,
     "ChatTopics": [
-      424,
-      522
+      554,
+      897
     ]
   }
 ]

@@ -3,32 +3,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 17,
-  "Name": "Mills-Runte",
-  "PersonId": 332,
-  "Rank": 590,
-  "Tooltip": "consequatur",
+  "AssociateId": 604,
+  "Name": "Gaylord Inc and Sons",
+  "PersonId": 235,
+  "Rank": 370,
+  "Tooltip": "voluptatem",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 172,
-  "FullName": "Lilian Dickinson",
-  "FormalName": "Boyle, Brekke and Johnston",
-  "Deleted": true,
-  "EjUserId": 606,
-  "UserName": "Wisoky, Rolfson and Kulas",
+  "GroupIdx": 526,
+  "FullName": "John Smith",
+  "FormalName": "West Group",
+  "Deleted": false,
+  "EjUserId": 790,
+  "UserName": "Flatley Group",
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "at",
+    "CustomFields2": "impedit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

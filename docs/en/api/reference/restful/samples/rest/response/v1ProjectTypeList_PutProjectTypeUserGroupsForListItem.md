@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Kunze-Renner",
-    "ToolTip": "Officia sit qui reprehenderit rerum quas aspernatur aut.",
+    "Id": 414,
+    "Name": "Customer",
+    "ToolTip": "Et rem provident voluptatem earum et quod vero.",
     "Deleted": true,
-    "Rank": 967,
-    "Type": "doloribus",
-    "ColorBlock": 418,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2009-08-24T14:35:45.1695077+02:00",
+    "Rank": 986,
+    "Type": "consequatur",
+    "ColorBlock": 610,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2022-12-26T14:34:03.3932168+01:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Parker-Grady",
-        "ToolTip": "Quisquam adipisci iusto rerum.",
+        "Id": 984,
+        "Name": "Ruecker LLC",
+        "ToolTip": "Debitis debitis quisquam non fuga consectetur.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "cum",
-        "ColorBlock": 170,
-        "IconHint": "omnis",
+        "Rank": 9,
+        "Type": "iusto",
+        "ColorBlock": 280,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2021-10-15T14:35:45.1705064+02:00",
+        "LastChanged": "2023-01-13T14:34:03.3932168+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "nam",
-        "Hidden": true,
-        "FullName": "Rudy Franecki",
+        "ExtraInfo": "quis",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Mr. Jennifer Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 585
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Santino Thompson",
+    "ExtraInfo": "iste",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Wyman Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

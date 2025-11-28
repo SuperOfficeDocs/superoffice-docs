@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Brekke, Nolan and Leannon",
-  "Tooltip": "repellendus",
+  "Id": 410,
+  "Name": "Wintheiser LLC",
+  "Tooltip": "Payment terms",
   "Deleted": false,
-  "UdListDefinitionId": 799,
-  "Rank": 329,
+  "UdListDefinitionId": 342,
+  "Rank": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 329
     }
   }
 }

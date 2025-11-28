@@ -4,58 +4,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hoppe Inc and Sons",
-    "Description": "Monitored holistic analyzer",
-    "Rank": 148,
+    "Name": "Feil Inc and Sons",
+    "Description": "Re-engineered client-driven infrastructure",
+    "Rank": 806,
     "Restrictions": [
       {
-        "Name": "Emard Inc and Sons",
-        "Operator": "eos",
+        "Name": "VIP Customers",
+        "Operator": "ut",
         "Values": [
-          "qui",
-          "reprehenderit"
+          "dolores",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "voluptas",
-          "libero"
+          "maiores",
+          "labore"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 260,
         "InterOperator": "And",
-        "UniqueHash": 823
+        "UniqueHash": 457
       }
     ]
   },
   {
-    "Name": "Hoppe Inc and Sons",
-    "Description": "Monitored holistic analyzer",
-    "Rank": 148,
+    "Name": "Feil Inc and Sons",
+    "Description": "Re-engineered client-driven infrastructure",
+    "Rank": 806,
     "Restrictions": [
       {
-        "Name": "Emard Inc and Sons",
-        "Operator": "eos",
+        "Name": "VIP Customers",
+        "Operator": "ut",
         "Values": [
-          "qui",
-          "reprehenderit"
+          "dolores",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "voluptas",
-          "libero"
+          "maiores",
+          "labore"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 260,
         "InterOperator": "And",
-        "UniqueHash": 823
+        "UniqueHash": 457
       }
     ]
   }

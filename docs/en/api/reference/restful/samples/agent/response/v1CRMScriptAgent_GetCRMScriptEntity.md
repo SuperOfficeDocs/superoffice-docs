@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 327,
-  "UniqueIdentifier": "tempora",
-  "Name": "Kuhic-Schuster",
-  "Description": "Triple-buffered global approach",
-  "IncludeId": "totam",
-  "AccessKey": "aliquid",
+  "UniqueIdentifier": "email-notification-handler",
+  "Name": "Email Notification Handler",
+  "Description": "Sends automated email notifications when new tickets are created",
+  "IncludeId": "email-handler",
+  "AccessKey": "api-key-12345",
   "HierarchyId": 293,
-  "Source": "officiis",
-  "SourceCode": "id",
+  "Source": "#setLanguageLevel 3;\nString recipientEmail = getVariable(\"recipientEmail\");\nEmail().send(recipientEmail, \"New Ticket\", \"A new ticket has been created\");",
+  "SourceCode": "#setLanguageLevel 3;\nString recipientEmail = getVariable(\"recipientEmail\");\nEmail().send(recipientEmail, \"New Ticket\", \"A new ticket has been created\");",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 718,
+  "HtmlOutput": 0,
   "Includes": [
     55,
     554
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 184,
-      "LineNumberTo": 703,
-      "Delta": 588,
-      "IncludeId": "enim",
+      "LineNumberFrom": 1,
+      "LineNumberTo": 3,
+      "Delta": 0,
+      "IncludeId": "email-utils",
       "IncludedFrom": [
-        "quibusdam",
-        "ipsam"
+        "email-handler",
+        "notification-system"
       ],
       "TableRight": null,
       "FieldProperties": {

@@ -3,73 +3,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 192,
-  "ERPProductKey": "veniam",
-  "ERPPriceListKey": "rerum",
-  "Name": "Renner Group",
-  "Description": "Realigned logistical help-desk",
-  "Code": "laborum",
-  "PriceUnit": "vel",
-  "QuantityUnit": "eligendi",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repudiandae",
-  "DefaultSubscriptionQuantity": 11567.594,
-  "ItemNumber": "636502",
+  "ProductId": 546,
+  "ERPProductKey": "fuga",
+  "ERPPriceListKey": "sit",
+  "Name": "Enterprise Package",
+  "Description": "Complete CRM solution",
+  "Code": "rem",
+  "PriceUnit": "velit",
+  "QuantityUnit": "occaecati",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 1839.658,
+  "ItemNumber": "986605",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "commodi",
-  "ProductTypeKey": "ducimus",
-  "VAT": 8706.252,
-  "VATInfo": "enim",
-  "UnitCost": 24915.3,
-  "UnitMinimumPrice": 14391.328,
-  "UnitListPrice": 19672.118,
-  "InAssortment": false,
-  "Supplier": "qui",
-  "SupplierCode": "dolor",
-  "Rights": "consequatur",
-  "Rule": "dolorum",
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "sed",
+  "VAT": 21746.826,
+  "VATInfo": "dolor",
+  "UnitCost": 21599.528,
+  "UnitMinimumPrice": 17898.273999999998,
+  "UnitListPrice": 3090.124,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "aperiam",
+  "Rights": "repellendus",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Becker Group",
-      "Value": "commodi",
+      "Name": "CRM Suite",
+      "Value": "repellat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     },
     {
-      "Name": "Becker Group",
-      "Value": "commodi",
+      "Name": "CRM Suite",
+      "Value": "repellat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "dolorum",
-  "ExtraField2": "maiores",
-  "ExtraField3": "praesentium",
-  "ExtraField4": "laboriosam",
-  "ExtraField5": "recusandae",
-  "InStock": 6268.0,
+  "RawExtraInfo": "rerum",
+  "ExtraField1": "nulla",
+  "ExtraField2": "et",
+  "ExtraField3": "quasi",
+  "ExtraField4": "inventore",
+  "ExtraField5": "neque",
+  "InStock": 18919.958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldLength": 976
     }
   }
 }

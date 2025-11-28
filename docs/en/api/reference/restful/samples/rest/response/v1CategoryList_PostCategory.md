@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Dare-Stoltenberg",
-  "Tooltip": "soluta",
+  "Id": 90,
+  "Name": "Supplier",
+  "Tooltip": "Contact category classification",
   "Deleted": true,
-  "UdListDefinitionId": 691,
-  "Rank": 230,
+  "UdListDefinitionId": 759,
+  "Rank": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldLength": 356
     }
   }
 }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Rempel, Lesch and Sanford",
-  "Tooltip": "et",
+  "Id": 820,
+  "Name": "Newsletter Subscription",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Deleted": true,
-  "Rank": 671,
+  "Rank": 661,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "ConsentPurpose",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 868
     }
   }
 }

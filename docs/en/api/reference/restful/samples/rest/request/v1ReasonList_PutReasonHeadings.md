@@ -2,25 +2,25 @@
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 339,
-    "Name": "Denesik, Terry and Hilll",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 545,
-    "UdListDefinitionId": 1001
+    "HeadingId": 675,
+    "Name": "Schaden, Abshire and Zboncak",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "Rank": 718,
+    "UdListDefinitionId": 272
   },
   {
-    "HeadingId": 339,
-    "Name": "Denesik, Terry and Hilll",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 545,
-    "UdListDefinitionId": 1001
+    "HeadingId": 675,
+    "Name": "Schaden, Abshire and Zboncak",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "Rank": 718,
+    "UdListDefinitionId": 272
   }
 ]
 ```

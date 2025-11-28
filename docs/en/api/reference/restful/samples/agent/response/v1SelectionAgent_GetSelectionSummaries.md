@@ -5,17 +5,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "SelectionId": 606,
-    "Name": "Abshire Inc and Sons",
-    "TargetTable": "unde",
-    "Registered": "2025-09-03T10:11:01.2402056+02:00",
-    "ProviderName": "Frami, Schuster and Spencer"
+    "Name": "Active Customers - Q4 2024",
+    "TargetTable": "contact",
+    "Registered": "2024-10-15T09:30:00+02:00",
+    "ProviderName": "ContactSelection"
   },
   {
     "SelectionId": 606,
-    "Name": "Abshire Inc and Sons",
-    "TargetTable": "unde",
-    "Registered": "2025-09-03T10:11:01.2402056+02:00",
-    "ProviderName": "Frami, Schuster and Spencer"
+    "Name": "Active Customers - Q4 2024",
+    "TargetTable": "contact",
+    "Registered": "2024-10-15T09:30:00+02:00",
+    "ProviderName": "ContactSelection"
   }
 ]
 ```

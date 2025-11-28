@@ -4,46 +4,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 691,
+    "HierarchyId": 509,
     "Domain": "Dashboards",
-    "Name": "Jaskolski-Romaguera",
-    "Fullname": "saepe",
-    "ParentId": 391,
+    "Name": "Sales Department",
+    "Fullname": "repellat",
+    "ParentId": 509,
     "Children": [
       {
-        "HierarchyId": 27,
+        "HierarchyId": 632,
         "Domain": "Dashboards",
-        "Name": "Medhurst-Carroll",
-        "Fullname": "eius",
-        "ParentId": 346,
+        "Name": "Ortiz LLC",
+        "Fullname": "ut",
+        "ParentId": 468,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2012-06-27T14:35:43.7873563+02:00",
-        "RegisteredAssociateId": 679,
-        "Updated": "2003-01-25T14:35:43.7873563+01:00",
-        "UpdatedAssociateId": 28,
+        "Registered": "2025-04-03T14:34:02.0290941+02:00",
+        "RegisteredAssociateId": 300,
+        "Updated": "2024-05-24T14:34:02.0290941+02:00",
+        "UpdatedAssociateId": 146,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 681
+            "FieldLength": 962
           }
         }
       }
     ],
-    "Registered": "2000-02-17T14:35:43.7873563+01:00",
-    "RegisteredAssociateId": 807,
-    "Updated": "2021-07-10T14:35:43.7873563+02:00",
-    "UpdatedAssociateId": 352,
+    "Registered": "2003-08-02T14:34:02.0290941+02:00",
+    "RegisteredAssociateId": 362,
+    "Updated": "2025-03-10T14:34:02.0290941+01:00",
+    "UpdatedAssociateId": 822,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 433
       }
     }
   }

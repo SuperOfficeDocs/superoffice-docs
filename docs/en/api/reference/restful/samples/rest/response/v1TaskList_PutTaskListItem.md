@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 588,
-  "Value": "voluptates",
+  "TaskListItemId": 261,
+  "Value": "dolorem",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "IntentId": 609,
-  "Rank": 905,
+  "Tooltip": "Task type",
+  "Deleted": true,
+  "IntentId": 802,
+  "Rank": 514,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -20,8 +20,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

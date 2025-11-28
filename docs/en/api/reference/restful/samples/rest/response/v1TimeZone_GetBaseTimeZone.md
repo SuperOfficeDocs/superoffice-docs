@@ -3,31 +3,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 298,
-  "Name": "Nolan-Murazik",
-  "TZLocationCode": "cupiditate",
-  "TZLocationCities": "asperiores",
-  "IsoNumber": 503,
+  "TZLocationID": 909,
+  "Name": "Wilderman Inc and Sons",
+  "TZLocationCode": "laudantium",
+  "TZLocationCities": "impedit",
+  "IsoNumber": 156,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 586,
-      "StartMonth": 483,
-      "EndDay": 37,
-      "EndMonth": 624,
-      "TZOffset": 599,
-      "StartRulePattern": "nam",
-      "EndRulePattern": "aut"
+      "StartDay": 657,
+      "StartMonth": 966,
+      "EndDay": 489,
+      "EndMonth": 433,
+      "TZOffset": 326,
+      "StartRulePattern": "odio",
+      "EndRulePattern": "et"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 401,
-      "StartMonth": 357,
-      "EndDay": 631,
-      "EndMonth": 456,
-      "TZOffset": 867,
-      "StartRulePattern": "velit",
-      "EndRulePattern": "vero"
+      "StartDay": 439,
+      "StartMonth": 543,
+      "EndDay": 799,
+      "EndMonth": 422,
+      "TZOffset": 787,
+      "StartRulePattern": "aut",
+      "EndRulePattern": "dolores"
     }
   }
 }

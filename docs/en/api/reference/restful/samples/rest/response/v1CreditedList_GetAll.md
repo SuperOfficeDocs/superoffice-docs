@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Cassin-Nader",
-    "Tooltip": "vero",
+    "Id": 208,
+    "Name": "Sales Team",
+    "Tooltip": "Credit attribution",
     "Deleted": false,
-    "UdListDefinitionId": 425,
-    "Rank": 930,
+    "UdListDefinitionId": 910,
+    "Rank": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 488
       }
     }
   }

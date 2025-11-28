@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 974,
-  "Server": "amet",
-  "Port": 740,
-  "AuthType": "quod",
-  "Username": "nulla",
-  "Password": "omnis",
+  "ServiceAuthId": 1,
+  "Server": "mail.acmecorp.com",
+  "Port": 993,
+  "AuthType": "IMAP",
+  "Username": "service@acmecorp.com",
+  "Password": "********",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

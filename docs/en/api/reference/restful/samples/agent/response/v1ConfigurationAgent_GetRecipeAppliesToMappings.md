@@ -3,7 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolores",
-  "2": "consectetur"
+  "contact-card": "Contact",
+  "person-card": "Person",
+  "sale-card": "Sale",
+  "project-card": "Project",
+  "ticket-card": "Ticket"
 }
 ```

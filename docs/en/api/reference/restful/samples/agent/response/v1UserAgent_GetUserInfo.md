@@ -4,23 +4,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 296,
-  "UserName": "Weimann, Quitzon and Stroman",
-  "PersonId": 134,
-  "Rank": 674,
-  "Tooltip": "voluptatum",
-  "UserGroupId": 454,
-  "EjUserId": 804,
-  "UserType": "AnonymousAssociate",
+  "UserInfoId": 15,
+  "UserName": "john.anderson",
+  "PersonId": 15,
+  "Rank": 1,
+  "Tooltip": "Sales Representative",
+  "UserGroupId": 1,
+  "EjUserId": 15,
+  "UserType": "InternalAssociate",
   "GrantedLicenses": [
-    "eius",
-    "recusandae"
+    "Sales",
+    "Marketing"
   ],
-  "CanLogon": false,
-  "RoleName": "Pfeffer-Shields",
-  "RoleTooltip": "aut",
-  "UserGroupName": "Wehner-Dickinson",
-  "UserGroupTooltip": "id",
+  "CanLogon": true,
+  "RoleName": "Sales Representative",
+  "RoleTooltip": "Standard sales user role",
+  "UserGroupName": "Sales Team",
+  "UserGroupTooltip": "Sales department group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

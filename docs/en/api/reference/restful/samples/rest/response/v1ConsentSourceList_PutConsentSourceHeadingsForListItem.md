@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Bauch-Hahn",
-    "ToolTip": "Rerum nostrum iste eum velit.",
+    "Id": 240,
+    "Name": "Email Campaign",
+    "ToolTip": "Aut est et eius non placeat facilis cum.",
     "Deleted": true,
-    "Rank": 736,
-    "Type": "ut",
-    "ColorBlock": 191,
-    "IconHint": "ratione",
+    "Rank": 154,
+    "Type": "ConsentSource",
+    "ColorBlock": 505,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2023-06-16T14:35:44.8559264+02:00",
+    "LastChanged": "2015-06-01T14:34:03.0874785+02:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Mueller, Nitzsche and Balistreri",
-        "ToolTip": "Voluptates ut accusantium.",
+        "Id": 153,
+        "Name": "Web Form",
+        "ToolTip": "Quisquam modi consectetur delectus.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "accusantium",
-        "ColorBlock": 819,
-        "IconHint": "ipsam",
-        "Selected": true,
-        "LastChanged": "1999-09-10T14:35:44.8559264+02:00",
+        "Rank": 877,
+        "Type": "ConsentSource",
+        "ColorBlock": 798,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2022-09-02T14:34:03.0874785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "debitis",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kaleigh Wilkinson",
+        "FullName": "Enrico Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 561
+            "FieldType": "System.String",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "aut",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Leonel Hodkiewicz",
+    "FullName": "Dr. Khalil Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 260
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

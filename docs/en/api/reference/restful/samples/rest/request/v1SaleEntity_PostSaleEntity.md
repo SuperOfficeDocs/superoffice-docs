@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vero",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -21,90 +21,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-09-07T14:35:44.1479064+02:00",
-  "Amount": 28641.626,
-  "SaleId": 808,
-  "Earning": 16055.482,
-  "EarningPercent": 15356.6,
-  "Heading": "unde",
-  "Number": "969885",
-  "Probability": 49,
-  "CreatedDate": "2012-02-21T14:35:44.1479064+01:00",
-  "UpdatedDate": "2004-08-15T14:35:44.1479064+02:00",
+  "Saledate": "2019-06-26T14:34:02.2845767+02:00",
+  "Amount": 10395.478,
+  "SaleId": 520,
+  "Earning": 21079.284,
+  "EarningPercent": 288.328,
+  "Heading": "cupiditate",
+  "Number": "1460641",
+  "Probability": 966,
+  "CreatedDate": "2023-10-12T14:34:02.2845767+02:00",
+  "UpdatedDate": "2010-04-28T14:34:02.2845767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 198,
+  "ActiveLinks": 123,
   "Links": [
     {
-      "EntityName": "Moore-Smitham",
-      "Id": 271,
-      "Description": "Vision-oriented empowering implementation",
-      "ExtraInfo": "saepe",
-      "LinkId": 882
+      "EntityName": "Feil, Ernser and Mueller",
+      "Id": 747,
+      "Description": "Self-enabling attitude-oriented complexity",
+      "ExtraInfo": "modi",
+      "LinkId": 255
     },
     {
-      "EntityName": "Moore-Smitham",
-      "Id": 271,
-      "Description": "Vision-oriented empowering implementation",
-      "ExtraInfo": "saepe",
-      "LinkId": 882
+      "EntityName": "Feil, Ernser and Mueller",
+      "Id": 747,
+      "Description": "Self-enabling attitude-oriented complexity",
+      "ExtraInfo": "modi",
+      "LinkId": 255
     }
   ],
-  "NextDueDate": "2001-03-13T14:35:44.1489068+01:00",
-  "Postit": "optio",
+  "NextDueDate": "2004-09-16T14:34:02.2845767+02:00",
+  "Postit": "esse",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-06-30T14:35:44.1489068+02:00",
+  "ReopenDate": "2016-06-24T14:34:02.2845767+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Morissette LLC",
-      "Comment": "repellendus",
-      "StakeholderRoleId": 69,
-      "CountryId": 225,
-      "PersonId": 589,
-      "EmailDescription": "wayne@trantow.ca",
-      "EmailId": 135,
-      "EmailAddress": "rhoda@wolfwolf.com",
-      "PhoneId": 765,
-      "ContactName": "Erdman, Bernhard and Goodwin",
-      "ContactId": 869,
-      "SaleId": 209,
-      "Mrmrs": "expedita",
-      "Firstname": "Royal",
-      "MiddleName": "Bogisich LLC",
-      "Lastname": "Kutch",
-      "SaleStakeholderId": 22,
-      "Rank": 382,
-      "Phone": "599.400.7953 x0588"
+      "StakeholderRoleName": "Reichert-Parker",
+      "Comment": "iusto",
+      "StakeholderRoleId": 57,
+      "CountryId": 18,
+      "PersonId": 211,
+      "EmailDescription": "kayleigh@stiedemannarmstrong.com",
+      "EmailId": 985,
+      "EmailAddress": "maye_ziemann@schaefer.uk",
+      "PhoneId": 745,
+      "ContactName": "Bednar, Braun and Yundt",
+      "ContactId": 46,
+      "SaleId": 894,
+      "Mrmrs": "similique",
+      "Firstname": "Eric",
+      "MiddleName": "McCullough, Simonis and Lindgren",
+      "Lastname": "Nikolaus",
+      "SaleStakeholderId": 942,
+      "Rank": 89,
+      "Phone": "845.549.5016 x946"
     }
   ],
-  "ActiveErpLinks": 170,
+  "ActiveErpLinks": 333,
   "UserDefinedFields": {
-    "SuperOffice:1": "Percy Buckridge",
+    "SuperOffice:1": "Janiya Raynor",
     "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "esse"
+    "CustomFields1": "iste",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2006-10-05T14:35:44.1499072+02:00",
-  "PublishTo": "2013-12-23T14:35:44.1499072+01:00",
-  "PublishFrom": "2000-04-11T14:35:44.1499072+02:00",
+  "PublishEventDate": "2007-09-29T14:34:02.2845767+02:00",
+  "PublishTo": "2022-01-28T14:34:02.2845767+01:00",
+  "PublishFrom": "2022-12-12T14:34:02.2845767+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "ea"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "ea"
+      "DisplayValue": "qui"
     }
   ]
 }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Doyle-Ledner",
-  "Tooltip": "reiciendis",
+  "Id": 845,
+  "Name": "Standard Shipping",
+  "Tooltip": "Delivery type",
   "Deleted": false,
-  "Rank": 262,
+  "Rank": 361,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "id",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   },
   "_Links": {

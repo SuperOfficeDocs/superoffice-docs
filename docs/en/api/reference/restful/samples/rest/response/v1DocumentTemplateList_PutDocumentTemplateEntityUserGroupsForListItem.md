@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Larson-Pfeffer",
-    "ToolTip": "Dolor nulla cupiditate optio rerum fugit.",
-    "Deleted": false,
-    "Rank": 315,
-    "Type": "et",
-    "ColorBlock": 290,
-    "IconHint": "voluptatibus",
+    "Id": 112,
+    "Name": "Meeting Minutes",
+    "ToolTip": "Eos veritatis.",
+    "Deleted": true,
+    "Rank": 120,
+    "Type": "dolorum",
+    "ColorBlock": 449,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2010-02-12T14:35:44.9614999+01:00",
+    "LastChanged": "2017-10-28T14:34:03.178289+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Gerhold Group",
-        "ToolTip": "Corporis asperiores vitae aut architecto sed.",
+        "Id": 740,
+        "Name": "Meeting Minutes",
+        "ToolTip": "Magnam voluptatem non adipisci nostrum dolores et.",
         "Deleted": false,
-        "Rank": 986,
-        "Type": "in",
-        "ColorBlock": 354,
-        "IconHint": "atque",
+        "Rank": 198,
+        "Type": "perferendis",
+        "ColorBlock": 692,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2025-10-17T14:35:44.9614999+02:00",
+        "LastChanged": "2017-04-06T14:34:03.178289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Crystal Pagac",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Miss Verlie Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldType": "System.String",
+            "FieldLength": 72
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Durward Hickle MD",
+    "ExtraInfo": "et",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Joy Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

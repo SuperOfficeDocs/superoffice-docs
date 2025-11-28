@@ -2,58 +2,58 @@
 PUT /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 303,
-  "Name": "King-Lehner",
+  "TicketPriorityId": 847,
+  "Name": "Lueilwitz-Goyette",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 912,
+  "SortOrder": 913,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 656,
-  "MonStart": "2004-11-09T14:35:45.3654202+01:00",
-  "MonStop": "2010-08-28T14:35:45.3654202+02:00",
-  "TueStart": "2018-09-27T14:35:45.3654202+02:00",
-  "TueStop": "2012-03-22T14:35:45.3654202+01:00",
-  "WedStart": "2003-09-01T14:35:45.3654202+02:00",
-  "WedStop": "2022-01-07T14:35:45.3654202+01:00",
-  "ThuStart": "2011-08-13T14:35:45.3654202+02:00",
-  "ThuStop": "2022-04-30T14:35:45.3654202+02:00",
-  "FriStart": "2021-08-02T14:35:45.3654202+02:00",
-  "FriStop": "1999-08-31T14:35:45.3654202+02:00",
-  "SatStart": "2021-05-28T14:35:45.3654202+02:00",
-  "SatStop": "1999-03-02T14:35:45.3654202+01:00",
-  "SunStart": "2007-11-13T14:35:45.3654202+01:00",
-  "SunStop": "2000-07-24T14:35:45.3654202+02:00",
+  "Deadline": 198,
+  "MonStart": "2003-12-24T14:34:03.6131895+01:00",
+  "MonStop": "2020-01-17T14:34:03.6131895+01:00",
+  "TueStart": "2024-02-13T14:34:03.6131895+01:00",
+  "TueStop": "2012-12-04T14:34:03.6131895+01:00",
+  "WedStart": "2024-05-05T14:34:03.6131895+02:00",
+  "WedStop": "2020-10-14T14:34:03.6131895+02:00",
+  "ThuStart": "2008-12-08T14:34:03.6131895+01:00",
+  "ThuStop": "2018-02-04T14:34:03.6131895+01:00",
+  "FriStart": "2025-01-04T14:34:03.6131895+01:00",
+  "FriStop": "2006-09-27T14:34:03.6131895+02:00",
+  "SatStart": "2013-06-05T14:34:03.6131895+02:00",
+  "SatStop": "2016-03-01T14:34:03.6131895+01:00",
+  "SunStart": "2007-11-09T14:34:03.6131895+01:00",
+  "SunStop": "2000-01-11T14:34:03.6131895+01:00",
   "NonDates": [
-    "odit",
-    "eos"
+    "aut",
+    "iusto"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 195,
-      "AlertLevel": 408,
-      "AlertTimeout": 700,
-      "Action": 686,
-      "DelegateTo": 98,
-      "ScriptId": 854,
-      "EmailTo": "sincere_bashirian@okon.biz",
-      "SmsTo": "praesentium",
-      "ReplyTemplateIdCustomer": 915,
-      "ReplyTemplateIdUser": 689,
-      "ReplyTemplateIdCatmast": 715,
-      "ReplyTemplateIdEmail": 907,
-      "RtiCustomerSms": 685,
-      "ReplyTemplateIdUserSms": 300,
-      "ReplyTemplateIdCatmastSms": 116,
-      "ReplyTemplateIdSms": 779
+      "TicketAlertId": 705,
+      "AlertLevel": 655,
+      "AlertTimeout": 531,
+      "Action": 64,
+      "DelegateTo": 559,
+      "ScriptId": 679,
+      "EmailTo": "berenice@damore.biz",
+      "SmsTo": "dolore",
+      "ReplyTemplateIdCustomer": 305,
+      "ReplyTemplateIdUser": 532,
+      "ReplyTemplateIdCatmast": 725,
+      "ReplyTemplateIdEmail": 722,
+      "RtiCustomerSms": 891,
+      "ReplyTemplateIdUserSms": 733,
+      "ReplyTemplateIdCatmastSms": 284,
+      "ReplyTemplateIdSms": 386
     }
   ]
 }

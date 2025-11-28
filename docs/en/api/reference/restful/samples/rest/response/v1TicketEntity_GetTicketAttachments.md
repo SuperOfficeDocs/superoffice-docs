@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 889,
-    "Name": "Hand Group",
-    "ContentType": "non",
-    "AttSize": 858,
+    "AttachmentId": 961,
+    "Name": "Support Ticket",
+    "ContentType": "sit",
+    "AttSize": 976,
     "InlineImage": false,
-    "ContentId": "iure",
-    "AuthKey": "iste",
-    "IsSafeFileExtension": true,
+    "ContentId": "aliquid",
+    "AuthKey": "aut",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 390
       }
     }
   }

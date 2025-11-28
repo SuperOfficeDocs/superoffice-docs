@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "amet",
+  "Message": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 276
     }
   }
 }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 288,
-    "Name": "Donnelly, Senger and Homenick",
-    "Tooltip": "ut",
+    "HeadingId": 59,
+    "Name": "Meeting Minutes",
+    "Tooltip": "Document template",
     "Deleted": false,
-    "Rank": 739,
-    "UdListDefinitionId": 723,
+    "Rank": 504,
+    "UdListDefinitionId": 23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 151
       }
     }
   }

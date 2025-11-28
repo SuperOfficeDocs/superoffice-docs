@@ -2,35 +2,35 @@
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 235,
+  "HierarchyId": 343,
   "Domain": "Dashboards",
-  "Name": "Maggio, Franecki and Turcotte",
-  "Fullname": "laudantium",
-  "ParentId": 610,
+  "Name": "Schultz Group",
+  "Fullname": "in",
+  "ParentId": 408,
   "Children": [
     {
-      "HierarchyId": 751,
+      "HierarchyId": 142,
       "Domain": "Dashboards",
-      "Name": "Reinger, Gislason and Vandervort",
-      "Fullname": "dignissimos",
-      "ParentId": 924,
+      "Name": "Erdman-Bogan",
+      "Fullname": "velit",
+      "ParentId": 634,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-05-05T14:35:43.7873563+02:00",
-      "RegisteredAssociateId": 290,
-      "Updated": "2019-03-21T14:35:43.7873563+01:00",
-      "UpdatedAssociateId": 261
+      "Registered": "2016-05-16T14:34:02.0270898+02:00",
+      "RegisteredAssociateId": 763,
+      "Updated": "2014-03-24T14:34:02.0270898+01:00",
+      "UpdatedAssociateId": 387
     }
   ],
-  "Registered": "2018-04-11T14:35:43.7873563+02:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "2014-05-02T14:35:43.7873563+02:00",
-  "UpdatedAssociateId": 552
+  "Registered": "2020-01-12T14:34:02.0270898+01:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2002-10-15T14:34:02.0270898+02:00",
+  "UpdatedAssociateId": 513
 }
 ```

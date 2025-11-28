@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 67,
-      "ContactName": "Greenfelder-Erdman",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 316,
-      "PersonName": "Douglas-Cole",
+      "PersonName": "Anna Berg",
       "AssociateId": 502,
-      "Address": "qui",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 741,
       "DuplicatePersonIds": [
         480,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "praesentium",
-  "HTMLBody": "praesentium",
+  "Subject": "FW: Budget Approval",
+  "HTMLBody": "<html><body><p>Forwarding the budget approval for your records.</p></body></html>",
   "From": null,
   "Sent": "2013-03-19T10:11:00.1070956+01:00",
-  "Size": 335,
+  "Size": 78654,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quos",
-  "PlainBody": "fugit",
+  "MessageID": "<20240116120000.msg016@nordicsolutions.no>",
+  "PlainBody": "Forwarding the budget approval for your records.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 661,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Abbott, Pacocha and Fay",
+  "FolderName": "Sent Items",
   "EmailItemId": 830,
   "AccountId": 179,
   "ReceivedAt": "2010-03-29T10:11:00.1070956+02:00",

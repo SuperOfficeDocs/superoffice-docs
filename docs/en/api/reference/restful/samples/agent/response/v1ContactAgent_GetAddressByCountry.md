@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1466.712,
-  "Wgs84Longitude": 28854.737999999998,
+  "Wgs84Latitude": 51.5074,
+  "Wgs84Longitude": -0.1278,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kirlin Inc and Sons",
-        "Value": "quo",
-        "Tooltip": "dignissimos",
-        "Label": "labore",
-        "ValueLength": 631,
-        "AddressType": "dignissimos",
+        "Name": "Street Address",
+        "Value": "10 Downing Street",
+        "Tooltip": "Street address",
+        "Label": "Address",
+        "ValueLength": 18,
+        "AddressType": "Street",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -26,12 +26,12 @@ Content-Type: application/json; charset=utf-8
     ],
     [
       {
-        "Name": "Mosciski LLC",
-        "Value": "rerum",
-        "Tooltip": "aspernatur",
-        "Label": "aut",
-        "ValueLength": 996,
-        "AddressType": "vel",
+        "Name": "City",
+        "Value": "London",
+        "Tooltip": "City name",
+        "Label": "City",
+        "ValueLength": 6,
+        "AddressType": "City",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

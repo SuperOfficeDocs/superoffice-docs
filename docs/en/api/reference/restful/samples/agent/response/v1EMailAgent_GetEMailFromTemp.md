@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 492,
-      "ContactName": "Hermiston, Bergnaum and Heaney",
+      "ContactName": "Nordic Solutions AS",
       "PersonId": 98,
-      "PersonName": "Nolan-Cole",
+      "PersonName": "Anna Berg",
       "AssociateId": 213,
-      "Address": "architecto",
+      "Address": "anna.berg@nordicsolutions.no",
       "EmailId": 219,
       "DuplicatePersonIds": [
         977,
@@ -75,15 +75,15 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "modi",
-  "HTMLBody": "veritatis",
+  "Subject": "RE: Q1 Sales Proposal",
+  "HTMLBody": "<html><body><p>Thank you for your interest in our services.</p></body></html>",
   "From": null,
   "Sent": "2002-08-26T10:11:00.0888138+02:00",
-  "Size": 285,
+  "Size": 15420,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "magnam",
-  "PlainBody": "velit",
+  "MessageID": "<20240106120000.msg006@nordicsolutions.no>",
+  "PlainBody": "Thank you for your interest in our services.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 949,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Senger, Parisian and Ebert",
+  "FolderName": "Drafts",
   "EmailItemId": 361,
   "AccountId": 914,
   "ReceivedAt": "2004-11-30T10:11:00.0898126+01:00",

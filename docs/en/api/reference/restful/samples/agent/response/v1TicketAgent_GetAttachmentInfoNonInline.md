@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 416,
-    "Name": "Kertzmann, Turner and Fahey",
-    "ContentType": "deleniti",
-    "AttSize": 963,
+    "AttachmentId": 1003,
+    "Name": "error_log.txt",
+    "ContentType": "text/plain",
+    "AttSize": 2048,
     "InlineImage": false,
-    "ContentId": "dolores",
-    "AuthKey": "est",
-    "IsSafeFileExtension": false,
+    "ContentId": "attach-1003",
+    "AuthKey": "auth-key-1003",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

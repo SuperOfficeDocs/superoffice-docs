@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Rice-O'Kon",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 246,
+  "Id": 550,
+  "Name": "Phone Call",
+  "Tooltip": "Source of consent collection",
+  "Deleted": true,
+  "Rank": 836,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "ConsentSource",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

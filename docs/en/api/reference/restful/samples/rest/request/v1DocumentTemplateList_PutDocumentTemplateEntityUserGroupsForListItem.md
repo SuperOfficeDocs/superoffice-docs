@@ -2,47 +2,47 @@
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Pfeffer Inc and Sons",
-    "ToolTip": "Sint nihil qui.",
-    "Deleted": false,
-    "Rank": 769,
-    "Type": "modi",
-    "ColorBlock": 490,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "1999-03-06T14:35:44.9614999+01:00",
+    "Id": 575,
+    "Name": "Hyatt, Bergnaum and Johnson",
+    "ToolTip": "Non consequatur doloribus laudantium.",
+    "Deleted": true,
+    "Rank": 430,
+    "Type": "exercitationem",
+    "ColorBlock": 45,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2003-10-06T14:34:03.1772897+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Wolff, Stracke and Tremblay",
-        "ToolTip": "Provident voluptatibus.",
+        "Id": 807,
+        "Name": "Trantow, Leffler and Hammes",
+        "ToolTip": "Explicabo id aut.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "iste",
-        "ColorBlock": 894,
-        "IconHint": "ullam",
+        "Rank": 632,
+        "Type": "inventore",
+        "ColorBlock": 900,
+        "IconHint": "unde",
         "Selected": true,
-        "LastChanged": "2019-05-01T14:35:44.9614999+02:00",
+        "LastChanged": "2011-07-18T14:34:03.1772897+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Electa Green"
+        "FullName": "Ms. Pasquale Cole IV"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Makayla Langosh"
+    "ExtraInfo": "corporis",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Roel Mueller"
   }
 ]
 ```

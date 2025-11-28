@@ -2,18 +2,18 @@
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "est",
     "value": {}
   }
 ]

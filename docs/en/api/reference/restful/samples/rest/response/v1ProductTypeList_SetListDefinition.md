@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 831,
-  "Name": "Cremin Group",
-  "Tooltip": "non",
+  "Id": 762,
+  "Name": "Schaden LLC",
+  "Tooltip": "Product type",
   "Deleted": true,
-  "Rank": 379,
+  "Rank": 646,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 864
     }
   }
 }

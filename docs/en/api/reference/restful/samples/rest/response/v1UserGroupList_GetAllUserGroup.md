@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "maiores",
-    "Tooltip": "accusamus",
-    "Id": 569,
-    "Rank": 60,
+    "Value": "cum",
+    "Tooltip": "User group",
+    "Id": 892,
+    "Rank": 305,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 660
       }
     }
   }

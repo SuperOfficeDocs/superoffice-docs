@@ -3,46 +3,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 775,
+  "HierarchyId": 748,
   "Domain": "Dashboards",
-  "Name": "Hermiston, Reichert and Dickens",
-  "Fullname": "dolores",
-  "ParentId": 536,
+  "Name": "O'Conner LLC",
+  "Fullname": "velit",
+  "ParentId": 185,
   "Children": [
     {
-      "HierarchyId": 384,
+      "HierarchyId": 933,
       "Domain": "Dashboards",
-      "Name": "Wunsch LLC",
-      "Fullname": "cum",
-      "ParentId": 256,
+      "Name": "Marketing Division",
+      "Fullname": "sapiente",
+      "ParentId": 221,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-05-18T14:35:43.7873563+02:00",
-      "RegisteredAssociateId": 678,
-      "Updated": "2021-08-16T14:35:43.7873563+02:00",
-      "UpdatedAssociateId": 992,
+      "Registered": "2003-06-14T14:34:02.0310981+02:00",
+      "RegisteredAssociateId": 46,
+      "Updated": "2008-03-26T14:34:02.0310981+01:00",
+      "UpdatedAssociateId": 830,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 869
         }
       }
     }
   ],
-  "Registered": "2015-08-02T14:35:43.7873563+02:00",
-  "RegisteredAssociateId": 470,
-  "Updated": "2012-12-29T14:35:43.7873563+01:00",
-  "UpdatedAssociateId": 569,
+  "Registered": "2000-07-23T14:34:02.0310981+02:00",
+  "RegisteredAssociateId": 776,
+  "Updated": "2005-12-13T14:34:02.0310981+01:00",
+  "UpdatedAssociateId": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

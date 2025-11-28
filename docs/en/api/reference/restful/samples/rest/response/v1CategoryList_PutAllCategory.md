@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Gorczany, Witting and Kulas",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 838,
-    "Rank": 295,
+    "Id": 789,
+    "Name": "Prospect",
+    "Tooltip": "Contact category classification",
+    "Deleted": false,
+    "UdListDefinitionId": 738,
+    "Rank": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 830
       }
     }
   }

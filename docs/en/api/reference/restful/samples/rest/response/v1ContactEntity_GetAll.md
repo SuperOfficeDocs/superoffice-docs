@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "id",
+  "odata.nextLink": "accusantium",
   "value": [
     {
-      "PrimaryKey": 7640,
+      "PrimaryKey": 4172,
       "EntityName": "person",
-      "personId": 7640,
-      "fullName": "Finn Mayer Sr."
+      "personId": 4172,
+      "fullName": "Scottie Welch"
     },
     {
-      "PrimaryKey": 7566,
+      "PrimaryKey": 967,
       "EntityName": "person",
-      "personId": 7566,
-      "fullName": "Miss Ruth Elvie Rowe"
+      "personId": 967,
+      "fullName": "Prof. Laurie Sigrid Hyatt"
     }
   ]
 }

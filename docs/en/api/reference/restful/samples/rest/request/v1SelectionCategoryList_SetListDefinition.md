@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Streich-Ledner",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 416,
-  "IsCustomList": true,
+  "Id": 775,
+  "Name": "Strosin, Bogan and Cole",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "Rank": 371,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```

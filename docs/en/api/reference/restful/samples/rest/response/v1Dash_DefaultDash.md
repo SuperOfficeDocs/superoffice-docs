@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 334,
-  "UniqueId": "quas",
-  "Name": "Thiel-Bergstrom",
-  "Description": "Cloned national emulation",
-  "AssociateId": 471,
-  "Columns": 124,
+  "DashboardId": 57,
+  "UniqueId": "quasi",
+  "Name": "Marketing Overview",
+  "Description": "Versatile 24 hour alliance",
+  "AssociateId": 414,
+  "Columns": 828,
   "Theme": null,
-  "VisibleForAll": 779,
+  "VisibleForAll": 815,
   "VisibleForAssociates": [
-    12,
-    253
+    424,
+    413
   ],
   "VisibleForGroups": [
-    922,
-    345
+    547,
+    974
   ],
-  "PinForAll": 321,
+  "PinForAll": 156,
   "PinForAssociates": [
-    516,
-    14
+    927,
+    110
   ],
   "PinForGroups": [
-    193,
-    950
+    144,
+    90
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldLength": 565
     }
   }
 }

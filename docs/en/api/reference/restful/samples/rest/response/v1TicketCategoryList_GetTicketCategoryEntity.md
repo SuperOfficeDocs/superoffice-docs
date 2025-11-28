@@ -3,36 +3,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 887,
-  "ParentId": 318,
-  "Name": "Tillman, Leffler and Streich",
-  "Fullname": "iste",
-  "CategoryMaster": 307,
+  "TicketCategoryId": 760,
+  "ParentId": 848,
+  "Name": "Lebsack Group",
+  "Fullname": "dolorem",
+  "CategoryMaster": 795,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Moore Inc and Sons",
+  "ExternalName": "Schuppe LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 529,
-  "ReplyTemplate": 83,
-  "NotificationEmail": "mack_oberbrunner@oberbrunnerschumm.ca",
+  "AssignmentLag": 218,
+  "ReplyTemplate": 26,
+  "NotificationEmail": "loy_heaney@considine.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 987,
+  "EffectiveReplyTemplateId": 991,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

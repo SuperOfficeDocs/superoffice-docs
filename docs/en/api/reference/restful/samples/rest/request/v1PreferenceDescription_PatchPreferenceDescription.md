@@ -2,18 +2,18 @@
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "dignissimos",
     "value": {}
   }
 ]

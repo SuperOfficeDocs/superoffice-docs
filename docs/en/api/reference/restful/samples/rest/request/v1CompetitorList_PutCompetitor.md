@@ -2,15 +2,15 @@
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Willms-Crooks",
-  "Tooltip": "laborum",
+  "Id": 16,
+  "Name": "Funk, West and Huel",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 432,
-  "Rank": 409
+  "UdListDefinitionId": 388,
+  "Rank": 304
 }
 ```

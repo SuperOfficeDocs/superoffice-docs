@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Macejkovic Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 843,
-  "Rank": 567,
+  "Id": 226,
+  "Name": "Gutmann LLC",
+  "Tooltip": "Sale reason",
+  "Deleted": false,
+  "UdListDefinitionId": 1002,
+  "Rank": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   }
 }

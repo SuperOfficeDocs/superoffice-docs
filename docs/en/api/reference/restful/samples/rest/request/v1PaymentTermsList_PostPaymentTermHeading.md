@@ -2,15 +2,15 @@
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 35,
-  "Name": "Abshire, McDermott and Gleason",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 812,
-  "UdListDefinitionId": 541
+  "HeadingId": 411,
+  "Name": "Hyatt LLC",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 719,
+  "UdListDefinitionId": 577
 }
 ```

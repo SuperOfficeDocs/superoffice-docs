@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 360,
-    "Name": "Nicolas Inc and Sons",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 148,
+    "Name": "Sales Inquiry",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
-    "Rank": 520,
-    "UdListDefinitionId": 927,
+    "Rank": 486,
+    "UdListDefinitionId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldLength": 210
       }
     }
   }

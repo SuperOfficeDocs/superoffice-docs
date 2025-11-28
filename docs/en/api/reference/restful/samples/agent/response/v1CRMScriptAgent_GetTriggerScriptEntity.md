@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ScreenChooserId": 835,
-  "Name": "Walter, Bailey and Boyer",
+  "Name": "New Ticket Auto-Assignment",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "libero",
-  "Source": "incidunt",
-  "Registered": "2008-05-01T10:10:59.569837+02:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2015-11-03T10:10:59.569837+01:00",
-  "UpdatedAssociateId": 106,
+  "Enabled": true,
+  "UniqueIdentifier": "new-ticket-auto-assign",
+  "Source": "#setLanguageLevel 3;\nTicket ticket = getActiveTicket();\nInteger categoryId = ticket.getValue(\"categoryId\").toInteger();\nticket.setValue(\"ownerId\", findOwnerByCategory(categoryId).toString());",
+  "Registered": "2024-01-15T09:30:00+01:00",
+  "RegisteredAssociateId": 105,
+  "Updated": "2024-11-20T14:45:00+01:00",
+  "UpdatedAssociateId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

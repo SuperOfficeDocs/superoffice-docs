@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Witting, Sauer and Dibbert",
-    "Tooltip": "a",
+    "Id": 12,
+    "Name": "Net 30",
+    "Tooltip": "Payment terms",
     "Deleted": false,
-    "UdListDefinitionId": 869,
-    "Rank": 191,
+    "UdListDefinitionId": 368,
+    "Rank": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 941
       }
     }
   }

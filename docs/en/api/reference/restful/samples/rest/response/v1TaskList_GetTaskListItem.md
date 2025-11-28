@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 947,
-  "Value": "accusantium",
+  "TaskListItemId": 473,
+  "Value": "eos",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "IntentId": 527,
-  "Rank": 781,
+  "Tooltip": "Task type",
+  "Deleted": false,
+  "IntentId": 366,
+  "Rank": 605,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -20,8 +20,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

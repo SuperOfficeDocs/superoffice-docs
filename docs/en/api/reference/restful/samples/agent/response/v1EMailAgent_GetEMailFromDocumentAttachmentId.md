@@ -6,11 +6,11 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 245,
-      "ContactName": "Kovacek, Hane and Oberbrunner",
+      "ContactName": "Acme Corporation",
       "PersonId": 353,
-      "PersonName": "Ward, Klein and Rolfson",
+      "PersonName": "Robert Hansen",
       "AssociateId": 955,
-      "Address": "ut",
+      "Address": "robert.hansen@acmecorp.com",
       "EmailId": 481,
       "DuplicatePersonIds": [
         632,
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "officia",
+  "Subject": "Project Status Update",
+  "HTMLBody": "<html><body><p>Please find the project status update attached.</p></body></html>",
   "From": null,
   "Sent": "2018-01-14T10:11:00.0708347+01:00",
-  "Size": 263,
+  "Size": 34512,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "deserunt",
+  "MessageID": "<20240103120000.msg003@acmecorp.com>",
+  "PlainBody": "Please find the project status update attached.",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 693,
   "Attachments": [
     {
-      "Description": "Self-enabling discrete groupware",
-      "Filename": "dolor",
-      "Size": 366,
-      "Type": "iste",
-      "Encoding": "molestiae",
-      "Id": "culpa",
-      "Disposition": "voluptas",
+      "Description": "Meeting Notes Document",
+      "Filename": "Meeting_Notes.docx",
+      "Size": 34512,
+      "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "Encoding": "base64",
+      "Id": "att_20240103_001",
+      "Disposition": "attachment",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Boyle Group",
+  "FolderName": "Projects",
   "EmailItemId": 332,
   "AccountId": 376,
   "ReceivedAt": "2020-02-28T10:11:00.0708347+01:00",

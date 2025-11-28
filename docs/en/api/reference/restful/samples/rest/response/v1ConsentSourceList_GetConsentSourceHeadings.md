@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 769,
-    "Name": "Waters-Predovic",
-    "Tooltip": "aut",
+    "HeadingId": 674,
+    "Name": "Phone Call",
+    "Tooltip": "Source of consent collection",
     "Deleted": false,
-    "Rank": 183,
-    "UdListDefinitionId": 60,
+    "Rank": 737,
+    "UdListDefinitionId": 591,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldLength": 709
       }
     }
   }

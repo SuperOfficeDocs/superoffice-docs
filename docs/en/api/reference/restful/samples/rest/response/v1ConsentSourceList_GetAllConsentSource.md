@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 139,
-    "Name": "Crooks, Daugherty and Hermiston",
-    "Tooltip": "dolor",
-    "Rank": 609,
-    "Key": "ipsum",
-    "MailTemplateId": 748,
+    "ConsentSourceId": 726,
+    "Name": "Email Campaign",
+    "Tooltip": "Source of consent collection",
+    "Rank": 953,
+    "Key": "amet",
+    "MailTemplateId": 672,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 978
       }
     }
   }

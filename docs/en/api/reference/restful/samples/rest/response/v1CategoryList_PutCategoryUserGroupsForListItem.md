@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Lakin-Hamill",
-    "ToolTip": "Laboriosam veritatis.",
-    "Deleted": true,
-    "Rank": 805,
-    "Type": "saepe",
-    "ColorBlock": 200,
-    "IconHint": "esse",
+    "Id": 936,
+    "Name": "Pfeffer, Schiller and McDermott",
+    "ToolTip": "Voluptas ea est id harum aut ut.",
+    "Deleted": false,
+    "Rank": 104,
+    "Type": "Category",
+    "ColorBlock": 391,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2024-12-08T14:35:44.8047325+01:00",
+    "LastChanged": "2006-09-03T14:34:03.0038304+02:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Murphy-Turner",
-        "ToolTip": "Minus quis beatae quos.",
-        "Deleted": true,
-        "Rank": 307,
-        "Type": "autem",
-        "ColorBlock": 399,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2021-06-28T14:35:44.8047325+02:00",
+        "Id": 994,
+        "Name": "Competitor",
+        "ToolTip": "Laborum et iste qui.",
+        "Deleted": false,
+        "Rank": 355,
+        "Type": "Category",
+        "ColorBlock": 868,
+        "IconHint": "culpa",
+        "Selected": false,
+        "LastChanged": "2010-05-28T14:34:03.0038304+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "iure",
+        "ExtraInfo": "expedita",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Susana Stamm",
+        "FullName": "Stanton Beth Metz DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldType": "System.Int32",
+            "FieldLength": 230
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Rocky Ankunding",
+    "ExtraInfo": "veniam",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Taryn Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

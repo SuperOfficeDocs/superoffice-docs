@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Schoen LLC",
-  "Tooltip": "soluta",
+  "Id": 3,
+  "Name": "Custom Item",
+  "Tooltip": "nam",
   "Deleted": true,
-  "UdListDefinitionId": 943,
-  "Rank": 699,
+  "UdListDefinitionId": 360,
+  "Rank": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

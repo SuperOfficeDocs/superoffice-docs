@@ -2,25 +2,25 @@
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 543,
-    "Name": "Abbott, Osinski and Berge",
-    "Tooltip": "ea",
+    "HeadingId": 102,
+    "Name": "Franecki-Trantow",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 566,
-    "UdListDefinitionId": 712
+    "Rank": 941,
+    "UdListDefinitionId": 91
   },
   {
-    "HeadingId": 543,
-    "Name": "Abbott, Osinski and Berge",
-    "Tooltip": "ea",
+    "HeadingId": 102,
+    "Name": "Franecki-Trantow",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 566,
-    "UdListDefinitionId": 712
+    "Rank": 941,
+    "UdListDefinitionId": 91
   }
 ]
 ```

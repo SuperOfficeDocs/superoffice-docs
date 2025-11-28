@@ -2,15 +2,15 @@
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Schmidt-West",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 869,
-  "Rank": 368
+  "Id": 409,
+  "Name": "Pfeffer-Davis",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "UdListDefinitionId": 819,
+  "Rank": 919
 }
 ```

@@ -4,29 +4,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huels Inc and Sons",
-    "Operator": "numquam",
+    "Name": "Country",
+    "Operator": "oneOf",
     "Values": [
-      "sed",
-      "vitae"
+      "Norway",
+      "Sweden",
+      "Denmark"
     ],
     "DisplayValues": [
-      "velit",
-      "iusto"
+      "Norway",
+      "Sweden",
+      "Denmark"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Strosin-Nicolas",
-        "Operator": "unde",
+        "Name": "Category",
+        "Operator": "oneOf",
         "Values": [
-          "cum",
-          "voluptatibus"
+          "Customer",
+          "Prospect"
         ],
         "DisplayValues": [
-          "cum",
-          "fugit"
+          "Customer",
+          "Prospect"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -34,14 +36,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 819,
+        "InterParenthesis": 0,
         "InterOperator": "And",
-        "UniqueHash": 965
+        "UniqueHash": 2048
       }
     ],
-    "InterParenthesis": 956,
+    "InterParenthesis": 0,
     "InterOperator": "And",
-    "UniqueHash": 521
+    "UniqueHash": 1024
   }
 ]
 ```

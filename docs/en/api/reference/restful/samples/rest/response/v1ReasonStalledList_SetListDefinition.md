@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Bednar-Breitenberg",
-  "Tooltip": "dolor",
+  "Id": 63,
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "Rank": 358,
+  "Rank": 387,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "unde",
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 926
     }
   }
 }

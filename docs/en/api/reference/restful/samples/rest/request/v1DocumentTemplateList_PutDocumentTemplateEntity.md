@@ -2,34 +2,34 @@
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 391,
-  "Name": "Oberbrunner-Considine",
-  "Tooltip": "enim",
-  "SaveInDb": 281,
-  "Filename": "et",
-  "DefaultOref": "est",
+  "DocumentTemplateId": 533,
+  "Name": "O'Hara-Dietrich",
+  "Tooltip": "porro",
+  "SaveInDb": 271,
+  "Filename": "saepe",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 903,
-  "IntentId": 907,
+  "AutoeventId": 671,
+  "IntentId": 403,
   "IsDefaultPublished": false,
-  "Rank": 551,
-  "LoadTemplateFromPlugin": 975,
-  "MimeType": "a",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 278,
+  "Rank": 846,
+  "LoadTemplateFromPlugin": 951,
+  "MimeType": "odit",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 755,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mikayla_lang@kesslerschoen.us",
-  "IncludeSignature": false,
+  "EmailSubject": "donavon_hettinger@hilll.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "paul@davis.info",
+  "SenderEmailAddress": "eldred@morissetteabbott.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```

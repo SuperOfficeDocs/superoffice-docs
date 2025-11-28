@@ -4,8 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "dignissimos",
-    "Values2": "ad"
+    "contact_id": "123",
+    "name": "Acme Corporation",
+    "department": "Sales",
+    "country_id": "840"
   },
   "TableRight": null,
   "FieldProperties": {

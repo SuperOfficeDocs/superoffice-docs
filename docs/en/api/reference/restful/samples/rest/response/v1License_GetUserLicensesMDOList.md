@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "VonRueden, Donnelly and Aufderhar",
-    "ToolTip": "Consequatur voluptatem perferendis unde numquam ut non fugiat.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "et",
-    "ColorBlock": 276,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2015-08-25T14:35:44.5550422+02:00",
+    "Id": 675,
+    "Name": "Marks-McClure",
+    "ToolTip": "Eum sed expedita enim reiciendis deleniti et necessitatibus.",
+    "Deleted": false,
+    "Rank": 37,
+    "Type": "odit",
+    "ColorBlock": 234,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2022-11-23T14:34:02.74894+01:00",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Anderson-Bosco",
-        "ToolTip": "Aut rerum rerum reiciendis sunt aut qui.",
-        "Deleted": true,
-        "Rank": 797,
-        "Type": "ea",
-        "ColorBlock": 926,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2010-10-13T14:35:44.5550422+02:00",
+        "Id": 652,
+        "Name": "Windler-McKenzie",
+        "ToolTip": "Aut similique.",
+        "Deleted": false,
+        "Rank": 544,
+        "Type": "nihil",
+        "ColorBlock": 347,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2015-04-24T14:34:02.74894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "rerum",
+        "ExtraInfo": "quis",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Ms. Wilhelmine Hintz",
+        "FullName": "Nash Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 320
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Tillman VonRueden",
+    "ExtraInfo": "quia",
+    "StyleHint": "beatae",
+    "Hidden": true,
+    "FullName": "Ms. Troy Halvorson Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

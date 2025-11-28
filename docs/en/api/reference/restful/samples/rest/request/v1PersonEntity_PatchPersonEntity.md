@@ -2,18 +2,18 @@
 PATCH /api/v1/Person/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "aspernatur",
     "value": {}
   }
 ]

@@ -3,40 +3,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 450,
-  "Name": "O'Connell Inc and Sons",
-  "Rank": 309,
-  "Tooltip": "nihil",
-  "Icon": "est",
-  "DefaultTicketStatus": 945,
+  "TicketTypeId": 292,
+  "Name": "Hintz Inc and Sons",
+  "Rank": 683,
+  "Tooltip": "quidem",
+  "Icon": "ut",
+  "DefaultTicketStatus": 623,
   "TicketStatuses": [
-    890,
-    227
+    565,
+    158
   ],
-  "DefaultTicketPriority": 839,
+  "DefaultTicketPriority": 630,
   "TicketPriorities": [
-    649,
-    877
+    333,
+    122
   ],
-  "ReplyTemplate": 542,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 683,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    949,
-    213
+    384,
+    265
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   },
   "_Links": {

@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Kub, Heaney and Ziemann",
-    "ToolTip": "Expedita aperiam est minus ex rem.",
+    "Id": 999,
+    "Name": "Becker Group",
+    "ToolTip": "Ratione numquam mollitia blanditiis quae qui earum et.",
     "Deleted": true,
-    "Rank": 382,
-    "Type": "sit",
-    "ColorBlock": 752,
-    "IconHint": "dolor",
+    "Rank": 881,
+    "Type": "doloremque",
+    "ColorBlock": 708,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2023-07-19T14:35:45.3077056+02:00",
+    "LastChanged": "2001-12-18T14:34:03.5368607+01:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Simonis, Watsica and Brakus",
-        "ToolTip": "Consequatur cumque facere sequi perferendis asperiores placeat aliquid.",
-        "Deleted": true,
-        "Rank": 332,
-        "Type": "vel",
-        "ColorBlock": 651,
-        "IconHint": "doloremque",
+        "Id": 509,
+        "Name": "Trade Show",
+        "ToolTip": "Non neque temporibus eaque quia sequi.",
+        "Deleted": false,
+        "Rank": 253,
+        "Type": "totam",
+        "ColorBlock": 638,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2006-03-30T14:35:45.3077056+02:00",
+        "LastChanged": "2004-10-14T14:34:03.5368607+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "rem",
+        "ExtraInfo": "qui",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Monica Feil",
+        "FullName": "Zora Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "eius",
-    "Hidden": false,
-    "FullName": "Miss Wilton Dante Klocko Sr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mr. Edna Crist IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 608
       }
     }
   }

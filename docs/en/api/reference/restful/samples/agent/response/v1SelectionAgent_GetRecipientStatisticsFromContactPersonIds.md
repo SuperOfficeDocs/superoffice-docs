@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 661,
-  "ValidPostalAddresses": 909,
-  "ValidEmailAddresses": 746,
-  "ValidFaxNumbers": 17,
-  "NoAddresses": 694,
-  "NoFaxOrEmails": 22,
+  "Total": 127,
+  "ValidPostalAddresses": 115,
+  "ValidEmailAddresses": 122,
+  "ValidFaxNumbers": 8,
+  "NoAddresses": 5,
+  "NoFaxOrEmails": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

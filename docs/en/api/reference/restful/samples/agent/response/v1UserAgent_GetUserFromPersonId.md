@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 778,
-    "Name": "Schamberger, Bayer and Kunde",
-    "Rank": 409,
-    "Tooltip": "ipsam",
+    "AssociateId": 16,
+    "Name": "Sarah Johnson",
+    "Rank": 2,
+    "Tooltip": "Support Agent - Tech Corporation",
     "LicenseOwners": [
       {
         "Name": "Christiansen LLC",
@@ -70,19 +70,19 @@ Content-Type: application/json; charset=utf-8
       }
     ],
     "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2010-07-24T10:11:01.8030516+02:00",
-    "Lastlogout": "2004-03-15T10:11:01.8030516+01:00",
-    "EjUserId": 661,
-    "RequestSignature": "id",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "Deleted": false,
+    "Lastlogin": "2024-11-20T09:15:00+01:00",
+    "Lastlogout": "2024-11-19T17:30:00+01:00",
+    "EjUserId": 16,
+    "RequestSignature": "SJ-2024",
+    "Type": "InternalAssociate",
+    "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "nihil",
-        "DisplayValue": "quisquam",
+        "Value": "sarah.johnson",
+        "DisplayValue": "SuperOffice Password",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

@@ -3,36 +3,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 996,
-  "Name": "Leuschke-Rosenbaum",
-  "OrgNr": "1210463",
-  "Department": "",
+  "ContactId": 876,
+  "Name": "TechCorp Solutions",
+  "OrgNr": "1073848",
+  "Department": "Sales",
   "URL": "http://www.example.com/",
-  "City": "ut",
-  "DirectPhone": "416-404-2851",
-  "AssociateId": 503,
-  "CountryId": 66,
-  "EmailAddress": "wilfrid@doyle.com",
-  "Kananame": "facilis",
-  "EmailAddressName": "odessa@koepp.com",
+  "City": "qui",
+  "DirectPhone": "1-809-523-9005 x6723",
+  "AssociateId": 299,
+  "CountryId": 185,
+  "EmailAddress": "curt@mosciski.biz",
+  "Kananame": "natus",
+  "EmailAddressName": "alexandrea.balistreri@stehrebert.biz",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Rocky Medhurst",
+  "AssociateFullName": "Dolores Bernier",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "et",
-  "FullName": "Gregory Jakubowski",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 518,
-  "Number1": "242265",
-  "Number2": "1102529",
+  "FormattedAddress": "enim",
+  "FullName": "Emery Amelia Herman III",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 436,
+  "Number1": "1243574",
+  "Number2": "1395427",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 317
     }
   }
 }

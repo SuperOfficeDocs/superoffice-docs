@@ -2,27 +2,27 @@
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 110,
-  "Name": "Langworth, Prosacco and Zulauf",
-  "CreatedDate": "2010-07-17T14:35:43.7686512+02:00",
-  "UpdatedDate": "2023-04-22T14:35:43.7686512+02:00",
+  "ForeignAppId": 509,
+  "Name": "Rau Group",
+  "CreatedDate": "2019-10-20T14:34:01.9870942+02:00",
+  "UpdatedDate": "2025-04-08T14:34:01.9870942+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 679,
-      "Name": "Denesik, Volkman and Schmeler",
-      "CreatedDate": "2001-12-13T14:35:43.7686512+01:00",
-      "UpdatedDate": "2007-07-31T14:35:43.7686512+02:00",
-      "AssociateFullName": "Prof. Clarabelle Lubowitz",
-      "CreatedBy": "earum",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 793
+      "ForeignDeviceId": 251,
+      "Name": "Zieme, Nicolas and Monahan",
+      "CreatedDate": "2023-08-10T14:34:01.9870942+02:00",
+      "UpdatedDate": "2016-11-03T14:34:01.9870942+01:00",
+      "AssociateFullName": "Mrs. Delpha Frieda Roob",
+      "CreatedBy": "ab",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "perspiciatis",
+      "ForeignAppId": 305
     }
   ]
 }

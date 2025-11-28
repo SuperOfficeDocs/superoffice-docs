@@ -3,17 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2006-06-19T10:10:58.2880006+02:00",
-  "UserPrompt": "nulla",
-  "UserDisplayText": "molestiae",
-  "BotResponse": "aut",
+  "Timestamp": "2024-11-24T14:30:22.4567891+01:00",
+  "UserPrompt": "How can I help you today?",
+  "UserDisplayText": "How can I help you today?",
+  "BotResponse": "Here are some common questions I can help you with:",
   "BotActions": {
-    "BotActions1": "mollitia",
-    "BotActions2": "ut"
+    "suggestion1": "How do I reset my password?",
+    "suggestion2": "What are your business hours?",
+    "suggestion3": "How do I create a support ticket?"
   },
   "Attachments": [
-    "consequuntur",
-    "quod"
+    "faq-general.pdf",
+    "quick-start-guide.pdf"
   ]
 }
 ```

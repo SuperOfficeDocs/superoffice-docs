@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schumm-Greenfelder",
-    "DisplayName": "Nienow-Rogahn",
-    "Description": "Decentralized national framework",
-    "ShortLabel": "aspernatur",
+    "FieldName": "Feest-Streich",
+    "DisplayName": "Crona-Paucek",
+    "Description": "Distributed explicit data-warehouse",
+    "ShortLabel": "magnam",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 207,
-    "TemplateVariableName": "Rohan LLC"
+    "IsDisplayField": false,
+    "Rank": 446,
+    "TemplateVariableName": "Jacobs, Von and Kris"
   }
 ]
 ```

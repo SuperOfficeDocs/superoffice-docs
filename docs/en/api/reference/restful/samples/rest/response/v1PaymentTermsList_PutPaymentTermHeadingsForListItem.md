@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Sporer LLC",
-    "ToolTip": "Ut odio illo.",
+    "Id": 548,
+    "Name": "Net 60",
+    "ToolTip": "Eius aspernatur tempora qui.",
     "Deleted": false,
-    "Rank": 819,
-    "Type": "quis",
-    "ColorBlock": 737,
-    "IconHint": "eligendi",
-    "Selected": true,
-    "LastChanged": "1999-03-15T14:35:45.0207912+01:00",
+    "Rank": 41,
+    "Type": "quibusdam",
+    "ColorBlock": 399,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2017-07-15T14:34:03.2306761+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Ward-Sipes",
-        "ToolTip": "Velit est.",
+        "Id": 891,
+        "Name": "Grimes LLC",
+        "ToolTip": "Aliquam quia ducimus voluptate libero.",
         "Deleted": false,
-        "Rank": 961,
-        "Type": "sed",
-        "ColorBlock": 779,
-        "IconHint": "molestiae",
+        "Rank": 237,
+        "Type": "voluptate",
+        "ColorBlock": 73,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2024-08-28T14:35:45.0207912+02:00",
+        "LastChanged": "2003-09-06T14:34:03.2306761+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "similique",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Eldon Lindgren",
+        "FullName": "Mrs. Brielle Mya Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 439
+            "FieldType": "System.Int32",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Mrs. Leanna Kenton Hoppe",
+    "ExtraInfo": "fuga",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Emmitt Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 895
       }
     }
   }

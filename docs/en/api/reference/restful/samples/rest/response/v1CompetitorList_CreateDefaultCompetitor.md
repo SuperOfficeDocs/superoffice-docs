@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 100,
+  "Name": "Tech Giants Inc",
+  "Tooltip": "Competitor company",
   "Deleted": false,
-  "UdListDefinitionId": 677,
-  "Rank": 256,
+  "UdListDefinitionId": 737,
+  "Rank": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 354
     }
   }
 }

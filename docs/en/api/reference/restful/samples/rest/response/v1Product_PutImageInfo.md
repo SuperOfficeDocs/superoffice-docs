@@ -3,25 +3,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 114,
-  "BlobSize": 537,
-  "Description": "Intuitive reciprocal model",
-  "ExtraInfo": "qui",
+  "BlobId": 86,
+  "BlobSize": 623,
+  "Description": "Public-key leading edge monitoring",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "architecto",
-  "OriginalSize": 3,
-  "CreatedDate": "2023-10-09T14:35:44.5833699+02:00",
-  "UpdatedDate": "2001-03-11T14:35:44.5833699+01:00",
+  "MimeType": "ut",
+  "OriginalSize": 56,
+  "CreatedDate": "2023-02-16T14:34:02.7691999+01:00",
+  "UpdatedDate": "2022-11-25T14:34:02.7691999+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldType": "System.String",
+      "FieldLength": 61
     }
   }
 }

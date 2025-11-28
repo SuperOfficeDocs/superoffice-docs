@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ut",
-    "Type": "quia",
-    "Description": "Synergized mobile paradigm",
+    "DisplayType": "ea",
+    "Type": "dolorem",
+    "Description": "Configurable tertiary website",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -14,8 +14,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

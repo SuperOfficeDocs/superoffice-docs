@@ -3,60 +3,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 562,
-  "Name": "Wyman LLC",
+  "TicketPriorityId": 250,
+  "Name": "Technical Support",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 89,
+  "SortOrder": 801,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 198,
-  "MonStart": "2015-02-21T14:35:45.3654202+01:00",
-  "MonStop": "2024-06-07T14:35:45.3654202+02:00",
-  "TueStart": "2025-07-22T14:35:45.3654202+02:00",
-  "TueStop": "2015-03-16T14:35:45.3654202+01:00",
-  "WedStart": "2004-11-03T14:35:45.3654202+01:00",
-  "WedStop": "1998-10-26T14:35:45.3654202+01:00",
-  "ThuStart": "2019-06-10T14:35:45.3654202+02:00",
-  "ThuStop": "2010-11-23T14:35:45.3654202+01:00",
-  "FriStart": "2014-02-25T14:35:45.3654202+01:00",
-  "FriStop": "2012-01-25T14:35:45.3654202+01:00",
-  "SatStart": "2006-10-26T14:35:45.3654202+02:00",
-  "SatStop": "2025-10-14T14:35:45.3654202+02:00",
-  "SunStart": "2008-08-27T14:35:45.3654202+02:00",
-  "SunStop": "1999-11-08T14:35:45.3654202+01:00",
+  "Deadline": 895,
+  "MonStart": "2024-08-27T14:34:03.6131895+02:00",
+  "MonStop": "2007-10-17T14:34:03.6131895+02:00",
+  "TueStart": "2014-02-11T14:34:03.6131895+01:00",
+  "TueStop": "2000-08-01T14:34:03.6131895+02:00",
+  "WedStart": "2008-03-19T14:34:03.6131895+01:00",
+  "WedStop": "2018-03-28T14:34:03.6131895+02:00",
+  "ThuStart": "2013-10-11T14:34:03.6131895+02:00",
+  "ThuStop": "2006-08-19T14:34:03.6131895+02:00",
+  "FriStart": "2006-08-26T14:34:03.6131895+02:00",
+  "FriStop": "2009-05-30T14:34:03.6131895+02:00",
+  "SatStart": "2013-07-30T14:34:03.6131895+02:00",
+  "SatStop": "2008-12-31T14:34:03.6131895+01:00",
+  "SunStart": "2006-09-03T14:34:03.6131895+02:00",
+  "SunStop": "2012-05-21T14:34:03.6131895+02:00",
   "NonDates": [
-    "libero",
-    "harum"
+    "ipsam",
+    "atque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 627,
-      "AlertLevel": 952,
-      "AlertTimeout": 140,
-      "Action": 774,
-      "DelegateTo": 737,
-      "ScriptId": 950,
-      "EmailTo": "damaris@walker.ca",
-      "SmsTo": "laboriosam",
-      "ReplyTemplateIdCustomer": 1000,
-      "ReplyTemplateIdUser": 801,
-      "ReplyTemplateIdCatmast": 385,
-      "ReplyTemplateIdEmail": 849,
-      "RtiCustomerSms": 906,
-      "ReplyTemplateIdUserSms": 608,
-      "ReplyTemplateIdCatmastSms": 835,
-      "ReplyTemplateIdSms": 972,
+      "TicketAlertId": 954,
+      "AlertLevel": 259,
+      "AlertTimeout": 75,
+      "Action": 284,
+      "DelegateTo": 544,
+      "ScriptId": 814,
+      "EmailTo": "filiberto.witting@runolfsdottir.com",
+      "SmsTo": "dolor",
+      "ReplyTemplateIdCustomer": 335,
+      "ReplyTemplateIdUser": 248,
+      "ReplyTemplateIdCatmast": 704,
+      "ReplyTemplateIdEmail": 79,
+      "RtiCustomerSms": 878,
+      "ReplyTemplateIdUserSms": 734,
+      "ReplyTemplateIdCatmastSms": 583,
+      "ReplyTemplateIdSms": 225,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 223
         }
       }
     }
@@ -66,7 +66,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 588
     }
   }
 }

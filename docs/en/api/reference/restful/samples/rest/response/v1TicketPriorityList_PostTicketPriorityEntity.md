@@ -3,60 +3,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 851,
-  "Name": "Windler-Dooley",
+  "TicketPriorityId": 423,
+  "Name": "McLaughlin Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 564,
+  "SortOrder": 823,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 834,
-  "MonStart": "2016-05-01T14:35:45.3654202+02:00",
-  "MonStop": "2022-05-05T14:35:45.3654202+02:00",
-  "TueStart": "2011-06-26T14:35:45.3654202+02:00",
-  "TueStop": "2012-06-13T14:35:45.3654202+02:00",
-  "WedStart": "2010-05-15T14:35:45.3654202+02:00",
-  "WedStop": "2017-02-19T14:35:45.3654202+01:00",
-  "ThuStart": "2019-01-03T14:35:45.3654202+01:00",
-  "ThuStop": "2004-06-12T14:35:45.3654202+02:00",
-  "FriStart": "2020-10-07T14:35:45.3654202+02:00",
-  "FriStop": "2008-07-26T14:35:45.3654202+02:00",
-  "SatStart": "2011-12-27T14:35:45.3654202+01:00",
-  "SatStop": "2019-03-03T14:35:45.3654202+01:00",
-  "SunStart": "2025-07-05T14:35:45.3654202+02:00",
-  "SunStop": "2012-04-12T14:35:45.3654202+02:00",
+  "Deadline": 364,
+  "MonStart": "2024-12-20T14:34:03.6131895+01:00",
+  "MonStop": "2002-09-09T14:34:03.6131895+02:00",
+  "TueStart": "2016-01-03T14:34:03.6131895+01:00",
+  "TueStop": "2001-01-28T14:34:03.6131895+01:00",
+  "WedStart": "2001-09-27T14:34:03.6131895+02:00",
+  "WedStop": "1998-06-29T14:34:03.6131895+02:00",
+  "ThuStart": "1999-09-05T14:34:03.6131895+02:00",
+  "ThuStop": "2003-10-12T14:34:03.6131895+02:00",
+  "FriStart": "2012-11-01T14:34:03.6131895+01:00",
+  "FriStop": "2013-05-24T14:34:03.6131895+02:00",
+  "SatStart": "2016-05-31T14:34:03.6131895+02:00",
+  "SatStop": "2004-05-28T14:34:03.6131895+02:00",
+  "SunStart": "2019-02-16T14:34:03.6131895+01:00",
+  "SunStop": "2025-04-01T14:34:03.6131895+02:00",
   "NonDates": [
-    "sit",
-    "iure"
+    "ad",
+    "itaque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 219,
-      "AlertLevel": 2,
-      "AlertTimeout": 504,
-      "Action": 576,
-      "DelegateTo": 828,
-      "ScriptId": 884,
-      "EmailTo": "ulices_bode@kilback.com",
-      "SmsTo": "dolorem",
-      "ReplyTemplateIdCustomer": 109,
-      "ReplyTemplateIdUser": 17,
-      "ReplyTemplateIdCatmast": 733,
-      "ReplyTemplateIdEmail": 948,
-      "RtiCustomerSms": 111,
-      "ReplyTemplateIdUserSms": 696,
-      "ReplyTemplateIdCatmastSms": 407,
-      "ReplyTemplateIdSms": 652,
+      "TicketAlertId": 308,
+      "AlertLevel": 909,
+      "AlertTimeout": 133,
+      "Action": 318,
+      "DelegateTo": 474,
+      "ScriptId": 395,
+      "EmailTo": "belle@ratke.name",
+      "SmsTo": "quod",
+      "ReplyTemplateIdCustomer": 136,
+      "ReplyTemplateIdUser": 496,
+      "ReplyTemplateIdCatmast": 376,
+      "ReplyTemplateIdEmail": 589,
+      "RtiCustomerSms": 363,
+      "ReplyTemplateIdUserSms": 490,
+      "ReplyTemplateIdCatmastSms": 255,
+      "ReplyTemplateIdSms": 997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldLength": 153
         }
       }
     }
@@ -65,8 +65,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 216
     }
   }
 }

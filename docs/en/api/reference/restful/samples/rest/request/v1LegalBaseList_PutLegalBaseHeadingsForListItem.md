@@ -2,47 +2,47 @@
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Daugherty-Ziemann",
-    "ToolTip": "Ducimus quia omnis nisi non reprehenderit.",
+    "Id": 808,
+    "Name": "McCullough-Roob",
+    "ToolTip": "Iure nulla magni voluptatibus.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "praesentium",
-    "ColorBlock": 788,
-    "IconHint": "earum",
+    "Rank": 829,
+    "Type": "ipsam",
+    "ColorBlock": 68,
+    "IconHint": "iure",
     "Selected": true,
-    "LastChanged": "2020-03-26T14:35:44.988957+01:00",
+    "LastChanged": "2023-06-22T14:34:03.190862+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Fahey-Kerluke",
-        "ToolTip": "Enim et quod voluptates placeat.",
+        "Id": 101,
+        "Name": "VonRueden, Ziemann and Wolff",
+        "ToolTip": "Illum qui voluptatum consequatur quis dolores sint.",
         "Deleted": true,
-        "Rank": 281,
-        "Type": "ratione",
-        "ColorBlock": 720,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "1999-12-02T14:35:44.988957+01:00",
+        "Rank": 267,
+        "Type": "officiis",
+        "ColorBlock": 704,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2025-07-26T14:34:03.190862+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Miss Berniece Kilback"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Luis Christiansen"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Deion King"
+    "ExtraInfo": "laborum",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Stanton Jacobs MD"
   }
 ]
 ```

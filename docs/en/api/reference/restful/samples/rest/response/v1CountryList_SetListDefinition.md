@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Volkman, Stokes and Franecki",
-  "Tooltip": "qui",
+  "Id": 627,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "Country entry",
   "Deleted": false,
-  "Rank": 937,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 278,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 571
     }
   }
 }

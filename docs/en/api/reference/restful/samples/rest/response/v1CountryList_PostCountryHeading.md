@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 992,
-  "Name": "Lakin, Beer and Huel",
-  "Tooltip": "culpa",
+  "HeadingId": 539,
+  "Name": "United States",
+  "Tooltip": "Country entry",
   "Deleted": false,
-  "Rank": 764,
-  "UdListDefinitionId": 253,
+  "Rank": 141,
+  "UdListDefinitionId": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldType": "System.String",
+      "FieldLength": 169
     }
   }
 }

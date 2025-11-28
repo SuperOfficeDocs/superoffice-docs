@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Conn, Murphy and Schuppe",
-    "ToolTip": "Enim error voluptate dolorem numquam repudiandae.",
-    "Deleted": true,
-    "Rank": 879,
-    "Type": "officia",
-    "ColorBlock": 433,
-    "IconHint": "expedita",
+    "Id": 52,
+    "Name": "Global Solutions Ltd",
+    "ToolTip": "Consequuntur aliquid illo ratione ea.",
+    "Deleted": false,
+    "Rank": 318,
+    "Type": "Competitor",
+    "ColorBlock": 281,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2015-01-04T14:35:44.8183947+01:00",
+    "LastChanged": "2007-04-16T14:34:03.0208867+02:00",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Schroeder LLC",
-        "ToolTip": "Harum quidem nobis voluptas consectetur vel incidunt nesciunt.",
-        "Deleted": false,
-        "Rank": 671,
-        "Type": "natus",
-        "ColorBlock": 535,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2015-09-06T14:35:44.8183947+02:00",
+        "Id": 701,
+        "Name": "Schroeder Inc and Sons",
+        "ToolTip": "Aliquam et facilis sit assumenda.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "Competitor",
+        "ColorBlock": 189,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2024-06-28T14:34:03.0208867+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "eos",
+        "ExtraInfo": "aut",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Rod Dickens",
+        "FullName": "Chadrick Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "autem",
+    "ExtraInfo": "omnis",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Scarlett Jacobson",
+    "FullName": "Sister Rowan Schroeder DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

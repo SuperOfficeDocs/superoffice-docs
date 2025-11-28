@@ -6,11 +6,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Name": "Ledner-Dibbert",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "UdListDefinitionId": 192,
-  "Rank": 981
+  "Id": 44,
+  "Name": "Schoen Group",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 154,
+  "Rank": 852
 }
 ```

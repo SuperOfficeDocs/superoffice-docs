@@ -3,79 +3,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 306,
+  "EjMessageId": 599,
   "Ticket": null,
-  "CreatedAt": "1999-09-12T14:35:44.4939139+02:00",
+  "CreatedAt": "2021-03-25T14:34:02.6746686+01:00",
   "CreatedBy": null,
-  "Author": "enim",
+  "Author": "fugiat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 303,
-  "Body": "saepe",
-  "HtmlBody": "ea",
-  "EmailHeader": "brendon.parker@raynorwunsch.biz",
-  "DebugInfo": "molestiae",
-  "MailSorter": "aliquid",
+  "MessageId": "autem",
+  "TimeSpent": 550,
+  "Body": "Thank you for contacting support. We will review your request.",
+  "HtmlBody": "unde",
+  "EmailHeader": "ethyl@anderson.info",
+  "DebugInfo": "ut",
+  "MailSorter": "occaecati",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "voluptatibus",
   "MessageHeaders": [
     {
-      "Id": 760,
-      "Name": "Hoppe Inc and Sons",
-      "Value": "quibusdam",
+      "Id": 935,
+      "Name": "Glover Inc and Sons",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "id",
-  "Sentiment": 46,
-  "SentimentConfidence": 494,
+  "Important": false,
+  "Language": "reprehenderit",
+  "Sentiment": 235,
+  "SentimentConfidence": 429,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 778,
-      "Name": "Auer-Smitham",
-      "ContentType": "est",
-      "AttSize": 609,
-      "InlineImage": true,
-      "ContentId": "quibusdam",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 554,
+      "Name": "Okuneva-Schaefer",
+      "ContentType": "velit",
+      "AttSize": 125,
+      "InlineImage": false,
+      "ContentId": "eligendi",
+      "AuthKey": "architecto",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 831
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "a"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "labore"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 686
     }
   }
 }

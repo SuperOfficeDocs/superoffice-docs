@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigId": 276,
   "Type": "Options",
-  "Config": "quibusdam",
+  "Config": "{\"theme\":\"light\",\"showFAQ\":true,\"allowAttachments\":true}",
   "CustLangId": 34,
   "Registered": "2006-07-04T10:10:59.5768349+02:00",
   "RegisteredAssociateId": 479,

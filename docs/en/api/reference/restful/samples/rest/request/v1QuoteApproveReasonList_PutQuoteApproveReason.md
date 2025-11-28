@@ -2,15 +2,15 @@
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Brekke-Bogan",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 741,
-  "Rank": 984
+  "Id": 333,
+  "Name": "Carroll-Bartell",
+  "Tooltip": "aliquam",
+  "Deleted": true,
+  "UdListDefinitionId": 960,
+  "Rank": 100
 }
 ```

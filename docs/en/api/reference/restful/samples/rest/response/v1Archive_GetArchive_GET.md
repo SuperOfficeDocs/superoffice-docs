@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsum",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 1697,
+      "PrimaryKey": 4966,
       "EntityName": "person",
-      "personId": 1697,
-      "fullName": "Fabiola Kunze MD"
+      "personId": 4966,
+      "fullName": "Lisa Anderson"
     },
     {
-      "PrimaryKey": 8797,
+      "PrimaryKey": 1140,
       "EntityName": "person",
-      "personId": 8797,
-      "fullName": "Boris D'Amore"
+      "personId": 1140,
+      "fullName": "David Martinez"
     }
   ]
 }

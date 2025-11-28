@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 77,
-  "Name": "Terry-Wolf",
-  "Tooltip": "maxime",
+  "RoleId": 749,
+  "Name": "Torp Group",
+  "Tooltip": "magnam",
   "RoleType": "Anonymous",
-  "Deleted": 191,
-  "Rank": 191,
-  "Created": "2015-07-29T14:35:44.1162447+02:00",
-  "UseCategories": 255,
+  "Deleted": 398,
+  "Rank": 919,
+  "Created": "2000-09-02T14:34:02.264002+02:00",
+  "UseCategories": 670,
   "CreatedBy": null,
-  "Updated": "2002-06-28T14:35:44.1162447+02:00",
+  "Updated": "2006-03-13T14:34:02.264002+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 451
     }
   }
 }

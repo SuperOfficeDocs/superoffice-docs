@@ -2,18 +2,18 @@
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
+    "path": "pariatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "inventore",
+    "path": "pariatur",
     "value": {}
   }
 ]

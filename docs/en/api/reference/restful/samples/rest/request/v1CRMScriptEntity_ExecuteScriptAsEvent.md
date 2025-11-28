@@ -8,35 +8,35 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "sed",
-    "InputValues2": "consequatur"
+    "InputValues1": "et",
+    "InputValues2": "beatae"
   },
-  "BlockExecution": true,
-  "NavigateTo": "voluptates",
-  "Message": "sit",
-  "ShowDialog": "ipsam",
+  "BlockExecution": false,
+  "NavigateTo": "consequatur",
+  "Message": "labore",
+  "ShowDialog": "modi",
   "OutputValues": {
-    "OutputValues1": "officiis",
-    "OutputValues2": "perspiciatis"
+    "OutputValues1": "iure",
+    "OutputValues2": "autem"
   },
   "StateValues": {
-    "StateValues1": "ipsam",
-    "StateValues2": "deleniti"
+    "StateValues1": "suscipit",
+    "StateValues2": "quo"
   },
-  "Exception": "aperiam",
+  "Exception": "nam",
   "ParserValues": {
-    "ParserValues1": "rem",
-    "ParserValues2": "fugiat"
+    "ParserValues1": "et",
+    "ParserValues2": "alias"
   },
   "CgiVariables": {
-    "CgiVariables1": "cum",
-    "CgiVariables2": "esse"
+    "CgiVariables1": "nihil",
+    "CgiVariables2": "dolor"
   },
-  "CgiContent": "numquam",
+  "CgiContent": "quam",
   "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "non"
+    "Headers1": "dolores",
+    "Headers2": "aliquid"
   },
-  "TraceExecution": true
+  "TraceExecution": false
 }
 ```

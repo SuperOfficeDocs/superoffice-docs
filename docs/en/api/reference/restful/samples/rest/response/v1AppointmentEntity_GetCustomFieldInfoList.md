@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bergnaum Inc and Sons",
-    "DisplayName": "Bernhard, Beer and Ebert",
-    "Description": "Ameliorated bottom-line open architecture",
-    "ShortLabel": "quibusdam",
-    "HideLabel": true,
-    "HideField": true,
+    "FieldName": "MeetingAgenda",
+    "DisplayName": "Meeting Agenda",
+    "Description": "Attachment field for meeting agendas and preparation materials",
+    "ShortLabel": "Agenda",
+    "HideLabel": false,
+    "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 372,
-    "TemplateVariableName": "Kovacek-Gottlieb"
+    "Rank": 679,
+    "TemplateVariableName": "MeetingAgenda"
   }
 ]
 ```

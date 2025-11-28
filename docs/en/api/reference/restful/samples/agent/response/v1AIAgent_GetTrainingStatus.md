@@ -3,16 +3,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "rerum",
-  "Status": "dicta",
+  "ContextIdentifier": "category-classifier-v2",
+  "Status": "Training completed successfully",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
   "FieldProperties": {
-    "fieldName": {
+    "accuracy": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Double",
+      "FieldLength": 8
+    },
+    "trainingDate": {
+      "FieldRight": null,
+      "FieldType": "System.DateTime",
+      "FieldLength": 19
     }
   }
 }

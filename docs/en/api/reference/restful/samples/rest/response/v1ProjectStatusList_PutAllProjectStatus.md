@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Johnson Group",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "UdListDefinitionId": 640,
-    "Rank": 705,
+    "Id": 793,
+    "Name": "Completed",
+    "Tooltip": "Project status",
+    "Deleted": false,
+    "UdListDefinitionId": 959,
+    "Rank": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 80
       }
     }
   }

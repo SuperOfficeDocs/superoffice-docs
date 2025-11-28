@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 1001,
-  "Name": "Hermiston LLC",
-  "Tooltip": "qui",
-  "PassiveText": "id",
-  "Deleted": true,
-  "Rank": 982,
+  "ReldefId": 16,
+  "Name": "Standard User",
+  "Tooltip": "doloribus",
+  "PassiveText": "unde",
+  "Deleted": false,
+  "Rank": 815,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -16,7 +16,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 565
     }
   }
 }

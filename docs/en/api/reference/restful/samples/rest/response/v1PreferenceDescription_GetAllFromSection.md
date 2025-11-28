@@ -4,30 +4,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 157,
-    "Section": "aspernatur",
-    "Key": "fugiat",
-    "Name": "Koelpin, D'Amore and Murazik",
+    "PrefDescId": 361,
+    "Section": "delectus",
+    "Key": "sit",
+    "Name": "McClure-Oberbrunner",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-lateral secondary archive",
+    "Description": "Multi-layered didactic hardware",
     "IsBuiltin": true,
-    "TableName": "Jaskolski, Marks and Swaniawski",
-    "UserDefinedListId": 486,
-    "Rank": 269,
-    "SubGroup": "itaque",
-    "MinLevel": 484,
-    "MaxValue": 918,
-    "MinValue": 964,
-    "RequiredLicense": "aliquid",
+    "TableName": "Jenkins Group",
+    "UserDefinedListId": 552,
+    "Rank": 829,
+    "SubGroup": "est",
+    "MinLevel": 840,
+    "MaxValue": 932,
+    "MinValue": 544,
+    "RequiredLicense": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 639
       }
     }
   }

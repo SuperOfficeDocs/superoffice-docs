@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Raynor, Erdman and Graham",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "UdListDefinitionId": 366,
-    "Rank": 313,
+    "Id": 457,
+    "Name": "Internal",
+    "Tooltip": "Project type",
+    "Deleted": false,
+    "UdListDefinitionId": 346,
+    "Rank": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

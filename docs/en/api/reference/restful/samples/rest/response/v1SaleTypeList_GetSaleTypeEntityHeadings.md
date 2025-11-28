@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 6,
-    "Name": "Howe, Bednar and Lowe",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 16,
+    "HeadingId": 491,
+    "Name": "New Business",
+    "Tooltip": "Sale type",
+    "Deleted": true,
+    "Rank": 649,
+    "UdListDefinitionId": 319,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

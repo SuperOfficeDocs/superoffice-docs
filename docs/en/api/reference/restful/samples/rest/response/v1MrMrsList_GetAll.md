@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Stamm Inc and Sons",
-    "Tooltip": "qui",
+    "Id": 521,
+    "Name": "Mr.",
+    "Tooltip": "Title or salutation",
     "Deleted": true,
-    "UdListDefinitionId": 387,
-    "Rank": 207,
+    "UdListDefinitionId": 373,
+    "Rank": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

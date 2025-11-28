@@ -3,28 +3,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 341,
+  "EjMessageId": 875,
   "Ticket": null,
-  "CreatedAt": "2024-07-02T14:35:44.5009138+02:00",
+  "CreatedAt": "2007-09-21T14:34:02.6899688+02:00",
   "CreatedBy": null,
-  "Author": "molestiae",
+  "Author": "vel",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "culpa",
-  "TimeSpent": 37,
-  "Body": "maxime",
-  "HtmlBody": "quae",
-  "EmailHeader": "gerardo@kreiger.uk",
-  "DebugInfo": "aut",
-  "MailSorter": "quod",
+  "MessageId": "tenetur",
+  "TimeSpent": 675,
+  "Body": "Thank you for contacting support. We will review your request.",
+  "HtmlBody": "eius",
+  "EmailHeader": "jaquelin@sawayn.biz",
+  "DebugInfo": "eum",
+  "MailSorter": "ipsum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "beatae",
   "MessageHeaders": [
     {
-      "Id": 881,
-      "Name": "Kilback, Bashirian and Morar",
-      "Value": "explicabo",
+      "Id": 355,
+      "Name": "Gottlieb Group",
+      "Value": "deleniti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -32,55 +32,55 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 466
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 357,
-  "SentimentConfidence": 164,
+  "Important": false,
+  "Language": "cumque",
+  "Sentiment": 510,
+  "SentimentConfidence": 959,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 709,
-      "Name": "Rempel-Carter",
-      "ContentType": "non",
-      "AttSize": 334,
+      "AttachmentId": 761,
+      "Name": "Keebler-Feeney",
+      "ContentType": "rem",
+      "AttSize": 937,
       "InlineImage": false,
-      "ContentId": "doloremque",
-      "AuthKey": "quis",
-      "IsSafeFileExtension": false,
+      "ContentId": "beatae",
+      "AuthKey": "reiciendis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldType": "System.Int32",
+          "FieldLength": 318
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "tempora"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "debitis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

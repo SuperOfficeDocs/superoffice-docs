@@ -2,15 +2,15 @@
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "iusto",
+  "Id": 331,
+  "Name": "Osinski-Farrell",
+  "Tooltip": "ab",
   "Deleted": false,
-  "UdListDefinitionId": 336,
-  "Rank": 572
+  "UdListDefinitionId": 553,
+  "Rank": 288
 }
 ```

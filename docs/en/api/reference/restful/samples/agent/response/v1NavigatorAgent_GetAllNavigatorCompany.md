@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Value": "qui",
-    "Tooltip": "eos",
+    "Id": 123,
+    "Value": "Acme Corporation",
+    "Tooltip": "Manufacturing - New York, USA",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -17,9 +17,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Id": 53,
-    "Value": "qui",
-    "Tooltip": "eos",
+    "Id": 456,
+    "Value": "Tech Corporation",
+    "Tooltip": "Technology - San Francisco, USA",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

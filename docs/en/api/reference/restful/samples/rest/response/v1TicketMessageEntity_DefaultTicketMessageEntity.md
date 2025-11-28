@@ -3,28 +3,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 117,
+  "EjMessageId": 24,
   "Ticket": null,
-  "CreatedAt": "2001-06-30T14:35:44.4659925+02:00",
+  "CreatedAt": "2017-07-14T14:34:02.5924917+02:00",
   "CreatedBy": null,
-  "Author": "voluptas",
+  "Author": "dolorum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 487,
-  "Body": "suscipit",
-  "HtmlBody": "pariatur",
-  "EmailHeader": "bryon_hirthe@beer.name",
-  "DebugInfo": "fuga",
-  "MailSorter": "inventore",
+  "MessageId": "esse",
+  "TimeSpent": 762,
+  "Body": "Thank you for contacting support. We will review your request.",
+  "HtmlBody": "cupiditate",
+  "EmailHeader": "billie_ohara@runtefarrell.us",
+  "DebugInfo": "repellat",
+  "MailSorter": "quaerat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "aspernatur",
   "MessageHeaders": [
     {
-      "Id": 297,
-      "Name": "Hammes LLC",
-      "Value": "qui",
+      "Id": 658,
+      "Name": "Hudson, Borer and Schaden",
+      "Value": "id",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -32,50 +32,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 631
         }
       }
     }
   ],
   "Important": false,
-  "Language": "similique",
-  "Sentiment": 238,
-  "SentimentConfidence": 36,
+  "Language": "natus",
+  "Sentiment": 715,
+  "SentimentConfidence": 1001,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 859,
-      "Name": "Lang-Stanton",
-      "ContentType": "qui",
-      "AttSize": 816,
-      "InlineImage": false,
-      "ContentId": "officiis",
-      "AuthKey": "rem",
+      "AttachmentId": 580,
+      "Name": "Schiller-Schultz",
+      "ContentType": "magnam",
+      "AttSize": 961,
+      "InlineImage": true,
+      "ContentId": "alias",
+      "AuthKey": "omnis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "sunt"
+    "CustomFields1": "quos",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 290
     }
   }
 }

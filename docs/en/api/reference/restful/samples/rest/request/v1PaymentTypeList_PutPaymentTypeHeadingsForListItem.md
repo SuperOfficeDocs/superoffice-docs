@@ -2,47 +2,47 @@
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Bogisich, Reynolds and Wuckert",
-    "ToolTip": "Quis temporibus.",
+    "Id": 399,
+    "Name": "Lehner-Smitham",
+    "ToolTip": "Tempora qui optio.",
     "Deleted": true,
-    "Rank": 753,
-    "Type": "commodi",
-    "ColorBlock": 956,
-    "IconHint": "corrupti",
+    "Rank": 972,
+    "Type": "voluptatum",
+    "ColorBlock": 278,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2010-07-04T14:35:45.0207912+02:00",
+    "LastChanged": "2016-04-29T14:34:03.2447073+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Rempel-Kuhn",
-        "ToolTip": "Cum vitae doloremque expedita est.",
+        "Id": 885,
+        "Name": "Wiza, Collier and Goldner",
+        "ToolTip": "Qui earum beatae vel nihil nulla ab.",
         "Deleted": true,
-        "Rank": 680,
-        "Type": "ullam",
-        "ColorBlock": 697,
-        "IconHint": "molestias",
+        "Rank": 946,
+        "Type": "qui",
+        "ColorBlock": 654,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2018-05-12T14:35:45.0207912+02:00",
+        "LastChanged": "2011-03-13T14:34:03.2447073+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "nisi",
+        "ExtraInfo": "ea",
+        "StyleHint": "id",
         "Hidden": true,
-        "FullName": "Maye Hamill"
+        "FullName": "Kenna Kutch MD"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Jettie Imelda Ullrich IV"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Ms. Holly Ernesto Lemke DDS"
   }
 ]
 ```

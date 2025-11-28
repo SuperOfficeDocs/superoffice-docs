@@ -3,51 +3,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 428,
+  "HierarchyId": 956,
   "Domain": "Dashboards",
-  "Name": "Robel, Lynch and Bartell",
-  "Fullname": "dolores",
-  "ParentId": 477,
+  "Name": "Sales Department",
+  "Fullname": "ut",
+  "ParentId": 896,
   "Children": [
     {
-      "HierarchyId": 937,
+      "HierarchyId": 193,
       "Domain": "Dashboards",
-      "Name": "Beatty-Shields",
-      "Fullname": "labore",
-      "ParentId": 53,
+      "Name": "Sales Department",
+      "Fullname": "totam",
+      "ParentId": 134,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-01-27T14:35:43.7873563+01:00",
-      "RegisteredAssociateId": 975,
-      "Updated": "2019-01-31T14:35:43.7873563+01:00",
-      "UpdatedAssociateId": 895,
+      "Registered": "2007-06-19T14:34:02.0270898+02:00",
+      "RegisteredAssociateId": 205,
+      "Updated": "2020-08-20T14:34:02.0270898+02:00",
+      "UpdatedAssociateId": 538,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     }
   ],
-  "Registered": "2002-06-29T14:35:43.7873563+02:00",
-  "RegisteredAssociateId": 418,
-  "Updated": "2003-10-17T14:35:43.7873563+02:00",
-  "UpdatedAssociateId": 514,
+  "Registered": "2014-12-28T14:34:02.0270898+01:00",
+  "RegisteredAssociateId": 9,
+  "Updated": "2008-06-15T14:34:02.0270898+02:00",
+  "UpdatedAssociateId": 842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldLength": 563
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

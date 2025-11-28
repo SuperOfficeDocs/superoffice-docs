@@ -6,23 +6,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 363,
-  "SourcePersonId": 991,
-  "DestinationContactId": 823,
-  "DestinationPersonId": 17,
-  "RelationId": 789,
-  "Comment": "dolorem",
-  "RelationDefinitionId": 632,
-  "Reversed": 809,
-  "UpdatedDate": "2007-08-14T14:35:43.583779+02:00",
-  "CreatedDate": "2004-01-14T14:35:43.583779+01:00",
+  "SourceContactId": 247,
+  "SourcePersonId": 452,
+  "DestinationContactId": 779,
+  "DestinationPersonId": 812,
+  "RelationId": 783,
+  "Comment": "doloremque",
+  "RelationDefinitionId": 873,
+  "Reversed": 986,
+  "UpdatedDate": "2005-04-30T14:34:01.8424366+02:00",
+  "CreatedDate": "2000-08-22T14:34:01.8424366+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Paucek-Beahan",
-  "SourcePersonName": "Toy, Rowe and O'Connell",
-  "DestinationContactName": "Swift Group",
-  "DestinationPersonName": "Wuckert-Lindgren",
-  "ActiveText": "quia",
-  "PassiveText": "eum"
+  "SourceContactName": "Macejkovic-Moen",
+  "SourcePersonName": "Bednar Inc and Sons",
+  "DestinationContactName": "Koch-Kessler",
+  "DestinationPersonName": "Maggio, Yundt and Simonis",
+  "ActiveText": "magnam",
+  "PassiveText": "natus"
 }
 ```

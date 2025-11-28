@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "Stehr Group",
-    "ToolTip": "Asperiores impedit aut a sapiente.",
-    "Deleted": false,
-    "Rank": 181,
-    "Type": "numquam",
-    "ColorBlock": 394,
-    "IconHint": "doloribus",
+    "Id": 997,
+    "Name": "Roberts Inc and Sons",
+    "ToolTip": "Consequuntur quidem totam quod architecto autem quas.",
+    "Deleted": true,
+    "Rank": 422,
+    "Type": "et",
+    "ColorBlock": 459,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1999-05-07T14:35:44.9749571+02:00",
+    "LastChanged": "2004-09-19T14:34:03.1822892+02:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Aufderhar, Little and Murray",
-        "ToolTip": "Fuga delectus alias suscipit sit doloribus tenetur ea.",
+        "Id": 16,
+        "Name": "Meeting Minutes",
+        "ToolTip": "Sed numquam fugiat quisquam eveniet corporis.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "delectus",
-        "ColorBlock": 781,
-        "IconHint": "tempora",
+        "Rank": 80,
+        "Type": "esse",
+        "ColorBlock": 988,
+        "IconHint": "at",
         "Selected": true,
-        "LastChanged": "2009-02-14T14:35:44.9759568+01:00",
+        "LastChanged": "2018-04-25T14:34:03.1822892+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Tom O'Conner",
+        "FullName": "Dr. Delta Golda Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 404
+            "FieldType": "System.Int32",
+            "FieldLength": 252
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "minima",
+    "StyleHint": "consequuntur",
     "Hidden": true,
-    "FullName": "Viviane Ankunding",
+    "FullName": "Laron Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

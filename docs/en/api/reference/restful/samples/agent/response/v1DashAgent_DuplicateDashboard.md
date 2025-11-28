@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 883,
-  "UniqueId": "voluptas",
-  "Name": "Koss, Wisoky and Berge",
-  "Description": "Cross-platform leading edge installation",
+  "UniqueId": "sales-overview-copy",
+  "Name": "Sales Overview Dashboard (Copy)",
+  "Description": "Duplicate of sales metrics dashboard for team customization",
   "AssociateId": 686,
-  "Columns": 425,
+  "Columns": 3,
   "Theme": null,
   "VisibleForAll": 179,
   "VisibleForAssociates": [

@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "dolores",
-  "RecordId": 200,
-  "CreatedDate": "2011-07-13T14:35:43.78369+02:00",
-  "UpdatedDate": "2021-08-24T14:35:43.78369+02:00",
-  "UpdatedBy": "ea",
-  "CreatedBy": "quasi",
-  "TableName": "Wehner-Schumm",
+  "Key": "assumenda",
+  "Value": "ut",
+  "RecordId": 752,
+  "CreatedDate": "2000-06-02T14:34:02.0230751+02:00",
+  "UpdatedDate": "2013-03-29T14:34:02.0230751+01:00",
+  "UpdatedBy": "laboriosam",
+  "CreatedBy": "nam",
+  "TableName": "Davis-Labadie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Bartell, Reinger and Stoltenberg",
-    "ToolTip": "Voluptatem nihil impedit modi.",
-    "Deleted": false,
-    "Rank": 633,
-    "Type": "et",
+    "Id": 309,
+    "Name": "Technical Support",
+    "ToolTip": "Voluptates et.",
+    "Deleted": true,
+    "Rank": 219,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Klocko-Swift",
-        "ToolTip": "Vitae voluptatem mollitia et error modi.",
+        "Id": 544,
+        "Name": "General Support",
+        "ToolTip": "Eligendi suscipit amet iste qui.",
         "Deleted": false,
-        "Rank": 225,
-        "Type": "eveniet",
+        "Rank": 262,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 310,
-        "ExtraInfo": "neque",
-        "StyleHint": "modi",
-        "FullName": "Vicenta Ruecker",
+        "IconHint": "illo",
+        "ColorBlock": 48,
+        "ExtraInfo": "repellat",
+        "StyleHint": "at",
+        "FullName": "Miguel Jovanny Lowe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldType": "System.String",
+            "FieldLength": 301
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 907,
-    "ExtraInfo": "minima",
-    "StyleHint": "ut",
-    "FullName": "Jevon Emmerich DVM",
+    "IconHint": "fuga",
+    "ColorBlock": 369,
+    "ExtraInfo": "officia",
+    "StyleHint": "qui",
+    "FullName": "Mrs. Christop Schmitt DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 86
       }
     }
   }

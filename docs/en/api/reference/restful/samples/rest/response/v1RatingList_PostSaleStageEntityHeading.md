@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 635,
-  "Name": "Russel LLC",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 63,
-  "UdListDefinitionId": 171,
+  "HeadingId": 777,
+  "Name": "Excellent",
+  "Tooltip": "Rating level",
+  "Deleted": true,
+  "Rank": 903,
+  "UdListDefinitionId": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 209
     }
   }
 }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 943,
-    "Name": "Eichmann-Runolfsdottir",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 441,
-    "UdListDefinitionId": 506,
+    "HeadingId": 482,
+    "Name": "Marketing Communications",
+    "Tooltip": "Consent purpose for GDPR compliance",
+    "Deleted": true,
+    "Rank": 185,
+    "UdListDefinitionId": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

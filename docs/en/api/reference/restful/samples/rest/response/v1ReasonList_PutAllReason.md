@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Hilpert-Heathcote",
-    "Tooltip": "eos",
+    "Id": 323,
+    "Name": "Barton Group",
+    "Tooltip": "Sale reason",
     "Deleted": false,
-    "UdListDefinitionId": 556,
-    "Rank": 860,
+    "UdListDefinitionId": 112,
+    "Rank": 212,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

@@ -2,19 +2,19 @@
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Waters, Johnston and Moore",
-  "Tooltip": "possimus",
+  "Id": 731,
+  "Name": "Braun LLC",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 291,
+  "Rank": 111,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": false
+  "ListType": "rem",
+  "InUseByUserDefinedFields": true
 }
 ```

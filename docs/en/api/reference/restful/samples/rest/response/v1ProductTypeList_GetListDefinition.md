@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 565,
-  "Name": "Lubowitz-Ankunding",
-  "Tooltip": "quisquam",
+  "Id": 726,
+  "Name": "Subscription",
+  "Tooltip": "Product type",
   "Deleted": false,
-  "Rank": 509,
+  "Rank": 276,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "UseGroupsAndHeadings": true,
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

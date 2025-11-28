@@ -2,31 +2,31 @@
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 265,
-  "Name": "Morar, Stamm and Lehner",
+  "WebhookId": 22,
+  "Name": "Johnson-Brekke",
   "Events": [
-    "quo",
-    "et"
+    "non",
+    "distinctio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "corporis",
   "State": "Active",
   "Type": "officiis",
   "Headers": {
-    "Headers1": "omnis",
-    "Headers2": "ea"
+    "Headers1": "tempora",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-12-21T14:35:44.725646+01:00",
+  "Registered": "2018-05-23T14:34:02.9327773+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-12-19T14:35:44.725646+01:00",
+  "Updated": "2012-01-20T14:34:02.9327773+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "bryce@prohaska.info"
+  "ErrorsEmail": "kris@lebsackemmerich.biz"
 }
 ```

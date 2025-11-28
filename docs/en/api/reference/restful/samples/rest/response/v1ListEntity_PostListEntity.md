@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 764,
-  "Name": "Pfannerstill, Dare and Grant",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 206,
+  "Id": 589,
+  "Name": "User Defined List",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 335,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 514
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

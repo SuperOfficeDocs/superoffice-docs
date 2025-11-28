@@ -3,36 +3,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 315,
-  "Name": "Sanford-Hoeger",
-  "Description": "Persistent client-driven challenge",
-  "DefaultHeight": 417,
-  "DefaultWidth": 9,
+  "DashboardTileDefinitionId": 686,
+  "Name": "Activity Summary",
+  "Description": "Dashboard tile for sales data",
+  "DefaultHeight": 901,
+  "DefaultWidth": 33,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle-Wisozk",
-  "SelectionId": 243,
+  "EntityName": "Bode, Rutherford and Hilpert",
+  "SelectionId": 524,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "culpa",
   "Measure": "Average",
-  "MeasureField": "fuga",
-  "SortBy": "dicta",
-  "LayoutConfig": "expedita",
-  "SecondarySelectionId": 317,
-  "MeasureByField": "ut",
+  "MeasureField": "velit",
+  "SortBy": "facere",
+  "LayoutConfig": "amet",
+  "SecondarySelectionId": 289,
+  "MeasureByField": "explicabo",
   "Usage": "Dashboard",
-  "ProviderName": "Walsh-Rau",
+  "ProviderName": "Rutherford LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

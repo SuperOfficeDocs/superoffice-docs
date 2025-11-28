@@ -3,29 +3,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 928,
-  "TopicId": 274,
+  "ChatSessionId": 7,
+  "TopicId": 758,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cupiditate",
+  "CustomerAlias": "consectetur",
   "CustomerHost": "et",
-  "CustomerName": "Von-Corwin",
-  "CustomerEmail": "nels_orn@bechtelar.co.uk",
-  "CustomerPhone": "(988)857-7132 x09331",
+  "CustomerName": "Rice-Veum",
+  "CustomerEmail": "lacy@zulaufdamore.biz",
+  "CustomerPhone": "1-814-777-4216 x937",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Sipes, Rippin and Schaefer",
+  "CustomerCompanyName": "Herman, Herzog and Bernhard",
   "Status": "Closed",
-  "FirstMessage": "earum",
-  "LastMessage": "ratione",
-  "WhenRequested": "2011-09-29T14:35:43.4245826+02:00",
-  "WhenStarted": "2012-06-30T14:35:43.4245826+02:00",
-  "WhenEnded": "2005-05-29T14:35:43.4245826+02:00",
-  "WhenIdle": "2013-08-23T14:35:43.4245826+02:00",
-  "WhenFetched": "2007-03-10T14:35:43.4245826+01:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 677,
-  "AlertLevel": 780,
-  "Rank": 662,
+  "FirstMessage": "sed",
+  "LastMessage": "adipisci",
+  "WhenRequested": "2020-11-11T14:34:01.6958829+01:00",
+  "WhenStarted": "2022-07-24T14:34:01.6958829+02:00",
+  "WhenEnded": "2009-08-04T14:34:01.6958829+02:00",
+  "WhenIdle": "2022-12-30T14:34:01.6958829+01:00",
+  "WhenFetched": "2002-10-29T14:34:01.6958829+01:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 660,
+  "AlertLevel": 312,
+  "Rank": 784,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -33,13 +33,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 357,
+  "Rating": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 417
     }
   }
 }

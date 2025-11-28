@@ -2,47 +2,47 @@
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Powlowski Group",
-    "ToolTip": "Sed modi consectetur.",
+    "Id": 264,
+    "Name": "Romaguera-Wiegand",
+    "ToolTip": "Iusto et sed minus reprehenderit similique delectus.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "quo",
+    "Rank": 89,
+    "Type": "porro",
     "ColorBlock": 402,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2025-05-23T14:35:44.9739224+02:00",
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2008-11-11T14:34:03.181289+01:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Okuneva-Bernier",
-        "ToolTip": "Et quia quidem.",
-        "Deleted": false,
-        "Rank": 708,
-        "Type": "unde",
-        "ColorBlock": 622,
-        "IconHint": "consequuntur",
+        "Id": 344,
+        "Name": "Shanahan, Lockman and Lang",
+        "ToolTip": "Maxime dolorum nihil consectetur.",
+        "Deleted": true,
+        "Rank": 445,
+        "Type": "doloribus",
+        "ColorBlock": 547,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2025-10-01T14:35:44.9739224+02:00",
+        "LastChanged": "2012-10-09T14:34:03.181289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "corporis",
+        "ExtraInfo": "soluta",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Franz Ziemann"
+        "FullName": "Mrs. Eve Jessica Medhurst"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "rem",
+    "StyleHint": "nesciunt",
     "Hidden": true,
-    "FullName": "Mr. Magnus Angelica Romaguera Sr."
+    "FullName": "Johnny Douglas III"
   }
 ]
 ```

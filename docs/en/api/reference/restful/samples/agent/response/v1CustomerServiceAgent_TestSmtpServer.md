@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "voluptas",
+  "ErrorMessage": "Unable to connect to SMTP server: Connection timeout. Please verify server address and port settings.",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

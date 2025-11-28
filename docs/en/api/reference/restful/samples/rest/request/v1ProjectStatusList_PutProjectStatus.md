@@ -2,15 +2,15 @@
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Baumbach, Gerhold and Dickens",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 10,
-  "Rank": 509
+  "Id": 369,
+  "Name": "O'Hara, Stanton and Spinka",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "UdListDefinitionId": 465,
+  "Rank": 317
 }
 ```

@@ -2,47 +2,47 @@
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Haag, Kozey and Kiehn",
-    "ToolTip": "Possimus delectus rerum labore quae harum voluptates sed.",
-    "Deleted": true,
-    "Rank": 903,
-    "Type": "ipsa",
-    "ColorBlock": 178,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2008-03-13T14:35:44.9849615+01:00",
+    "Id": 697,
+    "Name": "Green-Macejkovic",
+    "ToolTip": "Eum vel et deleniti labore adipisci ratione.",
+    "Deleted": false,
+    "Rank": 107,
+    "Type": "magni",
+    "ColorBlock": 383,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2022-03-22T14:34:03.190862+01:00",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Nitzsche-Littel",
-        "ToolTip": "Aspernatur deleniti assumenda.",
+        "Id": 773,
+        "Name": "Heidenreich-Rempel",
+        "ToolTip": "Nesciunt quia maxime blanditiis voluptas quam dolores eius.",
         "Deleted": true,
-        "Rank": 479,
-        "Type": "ullam",
-        "ColorBlock": 851,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2004-04-04T14:35:44.9859571+02:00",
+        "Rank": 55,
+        "Type": "accusamus",
+        "ColorBlock": 455,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2011-12-26T14:34:03.190862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Ewell Bradtke"
+        "ExtraInfo": "autem",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Maiya Ruecker"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
+    "ExtraInfo": "eos",
+    "StyleHint": "deleniti",
     "Hidden": true,
-    "FullName": "Delmer Ratke"
+    "FullName": "Will Franecki"
   }
 ]
 ```

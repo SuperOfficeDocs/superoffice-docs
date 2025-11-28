@@ -2,19 +2,19 @@
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Haag, Dickens and Donnelly",
-  "Tooltip": "eius",
+  "Id": 865,
+  "Name": "Bosco-Quigley",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 283,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 240,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```

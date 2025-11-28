@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "ipsum",
-  "Reason": "enable rich applications"
+  "Mask": "CRU",
+  "Reason": "User can create, read, and update records they own"
 }
 ```

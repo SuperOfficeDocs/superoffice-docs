@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 485,
-    "Name": "Balistreri-Renner",
-    "Tooltip": "nam",
+    "HeadingId": 602,
+    "Name": "Norway",
+    "Tooltip": "Country entry",
     "Deleted": true,
-    "Rank": 510,
-    "UdListDefinitionId": 346,
+    "Rank": 516,
+    "UdListDefinitionId": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

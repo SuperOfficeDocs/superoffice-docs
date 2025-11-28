@@ -2,15 +2,15 @@
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Feeney-VonRueden",
-  "Tooltip": "eligendi",
+  "Id": 539,
+  "Name": "Schmidt LLC",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 958
+  "UdListDefinitionId": 609,
+  "Rank": 100
 }
 ```

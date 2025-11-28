@@ -6,31 +6,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 640,
-  "Name": "Jerde-Lubowitz",
-  "Rank": 452,
-  "Tooltip": "eaque",
-  "Icon": "sed",
-  "DefaultTicketStatus": 90,
+  "TicketTypeId": 519,
+  "Name": "Morissette Group",
+  "Rank": 343,
+  "Tooltip": "ut",
+  "Icon": "non",
+  "DefaultTicketStatus": 777,
   "TicketStatuses": [
-    306,
-    683
+    92,
+    857
   ],
-  "DefaultTicketPriority": 608,
+  "DefaultTicketPriority": 80,
   "TicketPriorities": [
-    334,
-    180
+    393,
+    395
   ],
-  "ReplyTemplate": 133,
+  "ReplyTemplate": 743,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    945,
-    309
+    416,
+    539
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false

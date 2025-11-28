@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Hessel-Gislason",
-  "Tooltip": "debitis",
+  "Id": 654,
+  "Name": "Net 30",
+  "Tooltip": "Payment terms",
   "Deleted": false,
-  "UdListDefinitionId": 444,
-  "Rank": 205,
+  "UdListDefinitionId": 109,
+  "Rank": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 959
     }
   }
 }

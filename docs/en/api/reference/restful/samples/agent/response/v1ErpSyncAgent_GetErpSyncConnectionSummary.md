@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Johnston Inc and Sons",
-  "DisplayDescription": "Configurable holistic installation",
+  "DisplayName": "Microsoft Dynamics 365 Sales",
+  "DisplayDescription": "Active ERP integration synchronizing customers, products, and sales data",
   "Active": true,
   "Deleted": false,
-  "LastSync": "2000-12-25T10:11:00.1233217+01:00",
+  "LastSync": "2024-11-27T10:30:00+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "ut",
-      "Mappings": "fuga",
+      "HasMappings": true,
+      "Defaults": "5 default field values configured",
+      "Mappings": "12 fields mapped (Name, Address, VAT, etc.)",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -24,10 +24,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "ut",
-      "Mappings": "fuga",
+      "ActorType": "Project",
+      "HasMappings": true,
+      "Defaults": "3 default field values configured",
+      "Mappings": "8 fields mapped (Name, Status, Budget, etc.)",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

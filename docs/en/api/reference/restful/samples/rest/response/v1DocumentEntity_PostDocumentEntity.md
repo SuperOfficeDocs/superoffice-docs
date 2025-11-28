@@ -3,88 +3,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 128,
+  "DocumentId": 957,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quaerat",
-  "Header": "nobis",
-  "Name": "Gislason, Effertz and Herzog",
-  "OurRef": "cupiditate",
-  "YourRef": "eligendi",
-  "CreatedDate": "1999-08-09T14:35:43.6615156+02:00",
-  "UpdatedDate": "2005-08-08T14:35:43.6615156+02:00",
-  "Description": "Cloned value-added function",
+  "Attention": "laudantium",
+  "Header": "Quarterly Sales Report Q4 2024",
+  "Name": "Sales Proposal",
+  "OurRef": "SO-2024-001",
+  "YourRef": "CUST-REF-123",
+  "CreatedDate": "2018-11-16T14:34:01.8932248+01:00",
+  "UpdatedDate": "2010-03-22T14:34:01.8932248+01:00",
+  "Description": "User-centric hybrid matrices",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-06-10T14:35:43.6615156+02:00",
-  "ExternalRef": "qui",
+  "Date": "2018-11-17T14:34:01.8968866+01:00",
+  "ExternalRef": "sapiente",
   "Completed": "Completed",
-  "ActiveLinks": 2,
+  "ActiveLinks": 32,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wolff Group",
-      "Id": 875,
-      "Description": "Distributed client-server emulation",
-      "ExtraInfo": "eius",
-      "LinkId": 903,
+      "EntityName": "Herzog-Hickle",
+      "Id": 710,
+      "Description": "Enterprise-wide human-resource initiative",
+      "ExtraInfo": "voluptas",
+      "LinkId": 909,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldLength": 878
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 208,
-  "Snum": 12,
+  "SuggestedDocumentId": 401,
+  "Snum": 156,
   "UserDefinedFields": {
-    "SuperOffice:1": "1371223265",
-    "SuperOffice:2": "Merl Keeling Jr."
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2008-04-26T14:35:43.6615156+02:00",
-  "PublishTo": "2002-04-16T14:35:43.6615156+02:00",
-  "PublishFrom": "2003-09-14T14:35:43.6615156+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-02-01T14:34:01.8979281+01:00",
+  "PublishTo": "2023-08-04T14:34:01.8979281+02:00",
+  "PublishFrom": "2008-01-18T14:34:01.8979281+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 764,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 280
         }
       }
     },
     {
-      "VisibleId": 764,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 280
         }
       }
     }
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   },
   "_Links": {

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Zulauf, Monahan and Marquardt",
-  "Tooltip": "dolorem",
+  "Id": 928,
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": false,
-  "Rank": 824,
+  "Rank": 97,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

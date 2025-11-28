@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BlobId": 490,
-  "BlobSize": 402,
-  "Description": "Secured bifurcated function",
-  "ExtraInfo": "adipisci",
+  "BlobSize": 45678,
+  "Description": "Company logo - Acme Corporation",
+  "ExtraInfo": "contact_id=123",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 323,
-  "CreatedDate": "2002-12-04T10:10:59.0372797+01:00",
-  "UpdatedDate": "2019-12-18T10:10:59.0372797+01:00",
+  "IsZipped": false,
+  "MimeType": "image/png",
+  "OriginalSize": 45678,
+  "CreatedDate": "2024-01-15T10:30:00+01:00",
+  "UpdatedDate": "2024-11-20T14:15:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perferendis",
+  "ConceptualType": "contactImage",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

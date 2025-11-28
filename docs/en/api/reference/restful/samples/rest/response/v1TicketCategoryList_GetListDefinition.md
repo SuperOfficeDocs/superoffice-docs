@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Champlin-Weissnat",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 291,
-  "IsCustomList": false,
+  "Id": 540,
+  "Name": "Wisoky Inc and Sons",
+  "Tooltip": "Ticket classification",
+  "Deleted": false,
+  "Rank": 948,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eveniet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 584
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 553,
-    "Name": "Pollich Group",
-    "Tooltip": "corrupti",
+    "HeadingId": 600,
+    "Name": "Crist Group",
+    "Tooltip": "Delivery terms",
     "Deleted": false,
-    "Rank": 234,
-    "UdListDefinitionId": 440,
+    "Rank": 330,
+    "UdListDefinitionId": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldLength": 578
       }
     }
   }

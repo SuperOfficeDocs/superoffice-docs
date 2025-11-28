@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Bednar, Deckow and McLaughlin",
-    "ToolTip": "Quia earum nostrum et quam sapiente qui non.",
-    "Deleted": true,
-    "Rank": 496,
-    "Type": "at",
-    "ColorBlock": 195,
-    "IconHint": "amet",
+    "Id": 772,
+    "Name": "Erdman LLC",
+    "ToolTip": "Aut soluta necessitatibus et eum rem.",
+    "Deleted": false,
+    "Rank": 864,
+    "Type": "molestiae",
+    "ColorBlock": 658,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2006-10-25T14:35:45.0051303+02:00",
+    "LastChanged": "2024-11-25T14:34:03.2066363+01:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Veum, Schamberger and Marquardt",
-        "ToolTip": "Assumenda consequatur voluptatem voluptas rerum omnis voluptates sunt.",
+        "Id": 201,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Iusto qui ab minima aperiam totam earum deleniti.",
         "Deleted": true,
-        "Rank": 69,
-        "Type": "maiores",
-        "ColorBlock": 346,
-        "IconHint": "vero",
+        "Rank": 804,
+        "Type": "aspernatur",
+        "ColorBlock": 443,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "1998-12-19T14:35:45.0051303+01:00",
+        "LastChanged": "2007-01-09T14:34:03.2066363+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "unde",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Ms. Brooke Jules Casper MD",
+        "FullName": "Mrs. Kiarra Nicolas Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 612
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Curtis Kerluke",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Madge Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldLength": 679
       }
     }
   }

@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Legros-Schiller",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 849,
-    "IsCustomList": true,
+    "Id": 642,
+    "Name": "Custom List",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 108,
+    "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
     "ListType": "ut",
@@ -19,7 +19,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 850
       }
     }
   }

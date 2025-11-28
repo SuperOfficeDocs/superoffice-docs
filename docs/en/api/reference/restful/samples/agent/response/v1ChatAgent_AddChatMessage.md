@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 893,
-  "ChatSessionId": 837,
-  "Type": "Invalid",
-  "Message": "et",
-  "Author": "ea",
-  "ReadByCustomer": 223,
-  "SpecialType": "Block",
-  "SpecialParam": "quisquam",
-  "WhenPosted": "2012-12-14T10:10:59.1936344+01:00"
+  "ChatMessageId": 1004,
+  "ChatSessionId": 2347,
+  "Type": "ToCustomer",
+  "Message": "Your order has been shipped and should arrive within 2 business days.",
+  "Author": "Sarah Johnson",
+  "ReadByCustomer": 0,
+  "SpecialType": "None",
+  "SpecialParam": "",
+  "WhenPosted": "2024-12-15T09:25:12+01:00"
 }
 ```

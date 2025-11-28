@@ -2,25 +2,25 @@
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kilback Group",
-    "Description": "Reduced maximized system engine",
-    "Rank": 773,
+    "Name": "Mosciski, Boehm and McGlynn",
+    "Description": "Cross-platform zero administration forecast",
+    "Rank": 168,
     "Restrictions": [
       {
-        "Name": "Labadie, Thiel and Wiegand",
-        "Operator": "non",
+        "Name": "Tromp-Botsford",
+        "Operator": "est",
         "Values": [
-          "et",
-          "et"
+          "ut",
+          "aut"
         ],
         "DisplayValues": [
-          "placeat",
-          "praesentium"
+          "quia",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -28,27 +28,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 281,
+        "InterParenthesis": 131,
         "InterOperator": "And",
-        "UniqueHash": 453
+        "UniqueHash": 754
       }
     ]
   },
   {
-    "Name": "Kilback Group",
-    "Description": "Reduced maximized system engine",
-    "Rank": 773,
+    "Name": "Mosciski, Boehm and McGlynn",
+    "Description": "Cross-platform zero administration forecast",
+    "Rank": 168,
     "Restrictions": [
       {
-        "Name": "Labadie, Thiel and Wiegand",
-        "Operator": "non",
+        "Name": "Tromp-Botsford",
+        "Operator": "est",
         "Values": [
-          "et",
-          "et"
+          "ut",
+          "aut"
         ],
         "DisplayValues": [
-          "placeat",
-          "praesentium"
+          "quia",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -56,9 +56,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 281,
+        "InterParenthesis": 131,
         "InterOperator": "And",
-        "UniqueHash": 453
+        "UniqueHash": 754
       }
     ]
   }

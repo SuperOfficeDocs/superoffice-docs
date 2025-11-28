@@ -6,14 +6,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 301,
-  "ChatSessionId": 640,
+  "ChatMessageId": 719,
+  "ChatSessionId": 311,
   "Type": "Invalid",
-  "Message": "et",
-  "Author": "animi",
-  "ReadByCustomer": 86,
+  "Message": "placeat",
+  "Author": "ducimus",
+  "ReadByCustomer": 833,
   "SpecialType": "Block",
-  "SpecialParam": "id",
-  "WhenPosted": "2004-08-09T14:35:43.3872742+02:00"
+  "SpecialParam": "quisquam",
+  "WhenPosted": "2018-10-25T14:34:01.664492+02:00"
 }
 ```

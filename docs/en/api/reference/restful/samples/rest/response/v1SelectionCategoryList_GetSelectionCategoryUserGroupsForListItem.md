@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Runte, Heaney and Schinner",
-    "ToolTip": "Libero perferendis voluptatem sit sed doloremque aspernatur.",
-    "Deleted": true,
-    "Rank": 522,
-    "Type": "asperiores",
-    "ColorBlock": 796,
-    "IconHint": "a",
+    "Id": 228,
+    "Name": "Marketing Lists",
+    "ToolTip": "Qui nisi architecto dolorem voluptatem aliquam aut sit.",
+    "Deleted": false,
+    "Rank": 840,
+    "Type": "explicabo",
+    "ColorBlock": 249,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2014-08-17T14:35:45.2916733+02:00",
+    "LastChanged": "2009-04-25T14:34:03.503221+02:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Bayer-Rutherford",
-        "ToolTip": "Non possimus temporibus ab minima.",
+        "Id": 441,
+        "Name": "Marketing Lists",
+        "ToolTip": "Omnis placeat.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "quia",
-        "ColorBlock": 92,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2012-12-27T14:35:45.2916733+01:00",
+        "Rank": 778,
+        "Type": "vero",
+        "ColorBlock": 582,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2018-03-03T14:34:03.503221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "quia",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mrs. Elton Kameron Weber DVM",
+        "FullName": "Prof. Cleta Eda Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldType": "System.String",
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "ratione",
+    "ExtraInfo": "animi",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Sofia Ondricka",
+    "FullName": "Christop Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 851
+        "FieldLength": 550
       }
     }
   }

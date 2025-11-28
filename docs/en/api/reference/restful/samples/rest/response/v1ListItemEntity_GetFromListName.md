@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Durgan LLC",
-  "Tooltip": "totam",
-  "Deleted": false,
+  "Id": 941,
+  "Name": "Custom Item",
+  "Tooltip": "repellendus",
+  "Deleted": true,
   "UdListDefinitionId": 19,
-  "Rank": 201,
+  "Rank": 276,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 181
     }
   }
 }

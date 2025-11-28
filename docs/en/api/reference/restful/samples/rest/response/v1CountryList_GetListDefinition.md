@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Lockman, Waters and Parker",
-  "Tooltip": "quo",
+  "Id": 333,
+  "Name": "Marks Inc and Sons",
+  "Tooltip": "Country entry",
   "Deleted": false,
-  "Rank": 909,
-  "IsCustomList": true,
+  "Rank": 439,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   },
   "_Links": {

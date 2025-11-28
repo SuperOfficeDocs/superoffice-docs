@@ -5,42 +5,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "repudiandae",
-    "InputValues2": "aliquam"
+    "InputValues1": "quibusdam",
+    "InputValues2": "natus"
   },
   "BlockExecution": false,
-  "NavigateTo": "adipisci",
-  "Message": "aperiam",
-  "ShowDialog": "consectetur",
+  "NavigateTo": "odio",
+  "Message": "atque",
+  "ShowDialog": "quos",
   "OutputValues": {
-    "OutputValues1": "consequatur",
-    "OutputValues2": "qui"
+    "OutputValues1": "deleniti",
+    "OutputValues2": "deleniti"
   },
   "StateValues": {
-    "StateValues1": "assumenda",
-    "StateValues2": "quam"
+    "StateValues1": "ad",
+    "StateValues2": "iure"
   },
-  "Exception": "voluptas",
+  "Exception": "beatae",
   "ParserValues": {
-    "ParserValues1": "non",
-    "ParserValues2": "dolorem"
+    "ParserValues1": "doloremque",
+    "ParserValues2": "Script executed successfully"
   },
   "CgiVariables": {
-    "CgiVariables1": "non",
-    "CgiVariables2": "expedita"
+    "CgiVariables1": "quis",
+    "CgiVariables2": "perspiciatis"
   },
-  "CgiContent": "nobis",
+  "CgiContent": "maiores",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "soluta"
+    "Headers1": "Script executed successfully",
+    "Headers2": "veritatis"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

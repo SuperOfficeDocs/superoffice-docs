@@ -5,17 +5,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ContactId": 894,
-    "ContactName": "Nienow-Maggio",
+    "ContactName": "Nordic Solutions AS",
     "PersonId": 110,
-    "PersonName": "Cremin-Block",
+    "PersonName": "Anna Berg",
     "AssociateId": 371,
-    "Address": "aut",
+    "Address": "anna.berg@nordicsolutions.no",
     "EmailId": 706,
     "DuplicatePersonIds": [
       691,
       551
     ],
-    "Name": "O'Kon Inc and Sons",
+    "Name": "Anna Berg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

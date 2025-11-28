@@ -2,17 +2,17 @@
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 98,
-  "Name": "Emard-Keebler",
-  "ContentType": "hic",
-  "AttSize": 797,
+  "AttachmentId": 872,
+  "Name": "Kling Inc and Sons",
+  "ContentType": "esse",
+  "AttSize": 63,
   "InlineImage": true,
-  "ContentId": "aut",
-  "AuthKey": "nesciunt",
+  "ContentId": "consectetur",
+  "AuthKey": "distinctio",
   "IsSafeFileExtension": false
 }
 ```

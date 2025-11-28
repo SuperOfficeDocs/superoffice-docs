@@ -3,27 +3,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 849,
-  "Name": "Graham-Baumbach",
+  "WebhookId": 0,
+  "Name": "",
   "Events": [
-    "eum",
-    "est"
+    ""
   ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "unde",
+  "TargetUrl": "",
+  "Secret": "",
   "State": "Active",
-  "Type": "nemo",
+  "Type": "webhook",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "aperiam"
+    "X-Custom-Header": ""
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-03-04T10:11:01.876683+01:00",
+  "Registered": "2024-11-28T12:00:00+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-04-29T10:11:01.876683+02:00",
+  "Updated": "2024-11-28T12:00:00+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jenifer@gaylord.name"
+  "ErrorsEmail": ""
 }
 ```

@@ -5,9 +5,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "MailInFilterId": 144,
-    "Address": "ratione",
+    "Address": "support@acmecorp.com",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Harris-Wolff",
+    "PriorityName": "High",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -19,9 +19,9 @@ Content-Type: application/json; charset=utf-8
   },
   {
     "MailInFilterId": 144,
-    "Address": "ratione",
-    "CategoryName": "VIP Customer",
-    "PriorityName": "Harris-Wolff",
+    "Address": "info@techcorp.com",
+    "CategoryName": "General Support",
+    "PriorityName": "Medium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

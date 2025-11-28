@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Rau LLC",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "UdListDefinitionId": 694,
-  "Rank": 696,
+  "Id": 789,
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
+  "Deleted": false,
+  "UdListDefinitionId": 66,
+  "Rank": 952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 358
     }
   }
 }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Sauer-Haag",
-  "Tooltip": "enim",
+  "Id": 837,
+  "Name": "O'Conner, Donnelly and Goyette",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
-  "Rank": 143,
+  "Rank": 60,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

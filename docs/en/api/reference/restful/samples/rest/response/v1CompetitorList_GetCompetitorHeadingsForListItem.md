@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Koss Inc and Sons",
-    "ToolTip": "Sunt repellendus.",
-    "Deleted": true,
-    "Rank": 3,
-    "Type": "excepturi",
-    "ColorBlock": 947,
-    "IconHint": "distinctio",
+    "Id": 268,
+    "Name": "Tech Giants Inc",
+    "ToolTip": "Omnis placeat consequatur numquam aut.",
+    "Deleted": false,
+    "Rank": 539,
+    "Type": "Competitor",
+    "ColorBlock": 548,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2011-08-11T14:35:44.8183947+02:00",
+    "LastChanged": "2006-04-05T14:34:03.0227446+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Leffler Inc and Sons",
-        "ToolTip": "Quos eum ea est cumque veniam.",
-        "Deleted": false,
-        "Rank": 96,
-        "Type": "quod",
-        "ColorBlock": 145,
-        "IconHint": "voluptate",
+        "Id": 749,
+        "Name": "Global Solutions Ltd",
+        "ToolTip": "Quia iusto.",
+        "Deleted": true,
+        "Rank": 455,
+        "Type": "Competitor",
+        "ColorBlock": 730,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2000-02-16T14:35:44.8183947+01:00",
+        "LastChanged": "2000-11-04T14:34:03.0227446+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Rylan Barrows",
+        "FullName": "Julie Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 960
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "unde",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Odie Cole Sr.",
+    "FullName": "Alysson Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

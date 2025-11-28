@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Kunde-Padberg",
-  "Tooltip": "nihil",
+  "Id": 223,
+  "Name": "Internal",
+  "Tooltip": "Project type",
   "Deleted": false,
-  "UdListDefinitionId": 254,
-  "Rank": 423,
+  "UdListDefinitionId": 346,
+  "Rank": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 139
     }
   }
 }

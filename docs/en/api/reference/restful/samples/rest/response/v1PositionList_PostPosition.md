@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Ernser, Mills and Feeney",
-  "Tooltip": "fugit",
-  "Deleted": true,
-  "UdListDefinitionId": 829,
-  "Rank": 226,
+  "Id": 270,
+  "Name": "Marketing Director",
+  "Tooltip": "Job position",
+  "Deleted": false,
+  "UdListDefinitionId": 428,
+  "Rank": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 938
     }
   }
 }

@@ -3,9 +3,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "quis",
+  "SourceInput": "<customerName/> - <projectName/>",
   "Encoding": "Html",
-  "CultureName": "sv",
+  "CultureName": "en-US",
   "ContactId": 757,
   "PersonId": 801,
   "ProjectId": 875,
@@ -15,7 +15,7 @@ Content-Type: application/json; charset=utf-8
   "SaleId": 587,
   "QuoteLineId": 816,
   "QuoteAlternativeId": 60,
-  "ProductKey": "itaque",
+  "ProductKey": "PROD-2024-001",
   "CustomTags": [
     [
       {}

@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 406,
-  "WorkflowId": 409,
+  "WorkflowTriggerId": 0,
+  "WorkflowId": 0,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kling Group",
-      "Description": "Enterprise-wide multi-tasking middleware",
-      "Rank": 545,
+      "Name": "",
+      "Description": "",
+      "Rank": 0,
       "Restrictions": [
         {},
         {}

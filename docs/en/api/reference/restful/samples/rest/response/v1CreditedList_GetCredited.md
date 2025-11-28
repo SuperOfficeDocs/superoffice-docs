@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Morissette-Strosin",
-  "Tooltip": "sed",
+  "Id": 549,
+  "Name": "Bins Inc and Sons",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 301,
+  "UdListDefinitionId": 515,
+  "Rank": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 164
     }
   }
 }

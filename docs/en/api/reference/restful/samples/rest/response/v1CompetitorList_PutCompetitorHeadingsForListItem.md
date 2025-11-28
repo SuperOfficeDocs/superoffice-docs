@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Gutmann Group",
-    "ToolTip": "Nisi accusantium cum voluptas ut minus nemo officia.",
-    "Deleted": false,
-    "Rank": 11,
-    "Type": "facilis",
-    "ColorBlock": 550,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2007-06-01T14:35:44.8183947+02:00",
+    "Id": 945,
+    "Name": "Tech Giants Inc",
+    "ToolTip": "Rem eos.",
+    "Deleted": true,
+    "Rank": 947,
+    "Type": "Competitor",
+    "ColorBlock": 114,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2016-01-23T14:34:03.0251061+01:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Willms, Kub and Bogisich",
-        "ToolTip": "Doloremque qui aliquid dolor qui consectetur natus sunt.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "totam",
-        "ColorBlock": 930,
-        "IconHint": "et",
+        "Id": 325,
+        "Name": "Tech Giants Inc",
+        "ToolTip": "Maiores qui.",
+        "Deleted": true,
+        "Rank": 266,
+        "Type": "Competitor",
+        "ColorBlock": 170,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2014-09-28T14:35:44.8183947+02:00",
+        "LastChanged": "2004-07-04T14:34:03.0251061+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Niko Hoeger",
+        "ExtraInfo": "a",
+        "StyleHint": "aperiam",
+        "Hidden": false,
+        "FullName": "Lura Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 935
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Dr. Orval Abernathy",
+    "ExtraInfo": "hic",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Maude Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 98
       }
     }
   }

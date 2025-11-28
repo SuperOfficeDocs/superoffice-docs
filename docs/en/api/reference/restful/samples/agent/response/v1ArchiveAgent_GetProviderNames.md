@@ -3,7 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "facilis",
-  "distinctio"
+  "ContactPersonArchive",
+  "PersonArchive",
+  "AppointmentArchive",
+  "SaleArchive",
+  "ProjectArchive",
+  "TicketArchive",
+  "DocumentArchive"
 ]
 ```

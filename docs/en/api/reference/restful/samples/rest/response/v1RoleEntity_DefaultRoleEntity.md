@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 989,
-  "Name": "Langworth LLC",
-  "Tooltip": "in",
+  "RoleId": 742,
+  "Name": "Standard User",
+  "Tooltip": "maxime",
   "RoleType": "Anonymous",
-  "Deleted": 27,
-  "Rank": 807,
-  "Created": "2018-09-17T14:35:44.0997926+02:00",
-  "UseCategories": 958,
+  "Deleted": 868,
+  "Rank": 203,
+  "Created": "2009-06-18T14:34:02.2410248+02:00",
+  "UseCategories": 618,
   "CreatedBy": null,
-  "Updated": "2004-09-12T14:35:44.0997926+02:00",
+  "Updated": "2001-03-23T14:34:02.2420245+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 313
     }
   }
 }

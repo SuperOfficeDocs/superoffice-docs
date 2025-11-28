@@ -2,18 +2,18 @@
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "ut",
     "value": {}
   }
 ]

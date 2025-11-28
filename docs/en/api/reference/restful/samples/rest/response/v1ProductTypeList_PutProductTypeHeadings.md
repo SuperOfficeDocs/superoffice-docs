@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1000,
-    "Name": "Armstrong-McLaughlin",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 932,
-    "UdListDefinitionId": 289,
+    "HeadingId": 380,
+    "Name": "One-time Purchase",
+    "Tooltip": "Product type",
+    "Deleted": false,
+    "Rank": 652,
+    "UdListDefinitionId": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldType": "System.String",
+        "FieldLength": 205
       }
     }
   }

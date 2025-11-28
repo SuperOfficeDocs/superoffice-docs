@@ -2,47 +2,47 @@
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Hessel-Predovic",
-    "ToolTip": "Quisquam perspiciatis consequatur est non est ea sequi.",
+    "Id": 950,
+    "Name": "Bergstrom-Luettgen",
+    "ToolTip": "Est laborum.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "omnis",
-    "ColorBlock": 456,
-    "IconHint": "labore",
+    "Rank": 173,
+    "Type": "officiis",
+    "ColorBlock": 978,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2014-11-30T14:35:45.2966704+01:00",
+    "LastChanged": "2011-09-22T14:34:03.5223015+02:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Carroll LLC",
-        "ToolTip": "Nesciunt modi dolore et natus quia ut.",
+        "Id": 914,
+        "Name": "Kozey-Purdy",
+        "ToolTip": "Dolore est quas consequuntur qui.",
         "Deleted": false,
-        "Rank": 404,
-        "Type": "quidem",
-        "ColorBlock": 323,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2013-11-02T14:35:45.2966704+01:00",
+        "Rank": 564,
+        "Type": "recusandae",
+        "ColorBlock": 750,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2022-02-07T14:34:03.5223015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "delectus",
+        "ExtraInfo": "veniam",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Alvena Windler"
+        "FullName": "Justus Bradtke"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "officia",
+    "ExtraInfo": "ad",
+    "StyleHint": "error",
     "Hidden": true,
-    "FullName": "Tina Lindgren Jr."
+    "FullName": "Dr. Hester Block"
   }
 ]
 ```

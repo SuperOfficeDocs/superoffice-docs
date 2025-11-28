@@ -4,28 +4,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Altenwerth-Herman",
-    "ToolTip": "Voluptatem veritatis porro eius et ut.",
+    "Id": 1,
+    "Name": "Sales Representative",
+    "ToolTip": "Standard sales user role",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "nam",
-    "ColorBlock": 578,
-    "IconHint": "hic",
+    "Rank": 1,
+    "Type": "Employee",
+    "ColorBlock": 0,
+    "IconHint": "sales",
     "Selected": true,
-    "LastChanged": "2004-06-23T10:11:01.7337855+02:00",
+    "LastChanged": "2024-10-20T14:30:00+02:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Bogisich Group",
-        "ToolTip": "Dolor sequi fuga vel nam porro rerum.",
+        "Id": 2,
+        "Name": "Support Agent",
+        "ToolTip": "Customer support role",
         "Deleted": false,
-        "Rank": 666,
-        "Type": "totam",
-        "ColorBlock": 908,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2009-01-05T10:11:01.7337855+01:00",
+        "Rank": 2,
+        "Type": "Employee",
+        "ColorBlock": 0,
+        "IconHint": "support",
+        "Selected": false,
+        "LastChanged": "2024-09-15T11:00:00+02:00",
         "ChildItems": [
           {},
           {}
@@ -33,7 +33,7 @@ Content-Type: application/json; charset=utf-8
         "ExtraInfo": "error",
         "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Jason Lilla Langosh DDS",
+        "FullName": "Support Agent",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -46,8 +46,8 @@ Content-Type: application/json; charset=utf-8
     ],
     "ExtraInfo": "velit",
     "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Rick Harber",
+    "Hidden": false,
+    "FullName": "Sales Representative",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

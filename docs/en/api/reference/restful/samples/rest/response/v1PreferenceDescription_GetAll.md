@@ -4,30 +4,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 12,
-    "Section": "exercitationem",
-    "Key": "qui",
-    "Name": "Corkery-Crist",
+    "PrefDescId": 212,
+    "Section": "fuga",
+    "Key": "deserunt",
+    "Name": "O'Conner, Conroy and Emmerich",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Mandatory contextually-based architecture",
-    "IsBuiltin": true,
-    "TableName": "Hagenes-Zieme",
-    "UserDefinedListId": 939,
-    "Rank": 9,
-    "SubGroup": "delectus",
-    "MinLevel": 386,
-    "MaxValue": 520,
-    "MinValue": 462,
-    "RequiredLicense": "et",
+    "Description": "Reactive multi-tasking open system",
+    "IsBuiltin": false,
+    "TableName": "Beatty LLC",
+    "UserDefinedListId": 114,
+    "Rank": 484,
+    "SubGroup": "voluptate",
+    "MinLevel": 361,
+    "MaxValue": 454,
+    "MinValue": 805,
+    "RequiredLicense": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

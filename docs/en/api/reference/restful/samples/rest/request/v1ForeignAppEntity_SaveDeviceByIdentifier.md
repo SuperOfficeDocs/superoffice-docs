@@ -2,18 +2,18 @@
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 416,
-  "Name": "Orn-Grimes",
-  "CreatedDate": "2006-01-03T14:35:43.778689+01:00",
-  "UpdatedDate": "2010-11-29T14:35:43.778689+01:00",
-  "AssociateFullName": "Carol Glover",
-  "CreatedBy": "iste",
-  "UpdatedBy": "omnis",
-  "DeviceIdentifier": "dignissimos",
-  "ForeignAppId": 833
+  "ForeignDeviceId": 730,
+  "Name": "Borer Inc and Sons",
+  "CreatedDate": "2001-09-15T14:34:02.0195527+02:00",
+  "UpdatedDate": "2010-03-23T14:34:02.0195527+01:00",
+  "AssociateFullName": "Dr. Kennedi Mann V",
+  "CreatedBy": "numquam",
+  "UpdatedBy": "quaerat",
+  "DeviceIdentifier": "impedit",
+  "ForeignAppId": 209
 }
 ```

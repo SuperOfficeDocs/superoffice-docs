@@ -4,53 +4,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 563,
-    "Name": "Leannon, Gislason and Hagenes",
-    "Tooltip": "sed",
-    "Rank": 713,
+    "SaleTypeId": 763,
+    "Name": "Renewal",
+    "Tooltip": "Sale type",
+    "Rank": 694,
     "DurationUnit": "Century",
-    "SaleDuration": 397,
-    "SaleTypeCatId": 436,
+    "SaleDuration": 879,
+    "SaleTypeCatId": 83,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 569,
-    "QuoteLinesTemplate": 289,
-    "ConfirmationLinesTemplate": 207,
-    "MaxDiscountPercentSet": true,
+    "DefaultQuoteValidity": 318,
+    "QuoteLinesTemplate": 864,
+    "ConfirmationLinesTemplate": 96,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 185,
-    "MinEarningPercent": 546,
-    "GroupQuoteLinesBy": 88,
-    "SortGroupLinesBy": 842,
+    "MaxDiscountPercent": 149,
+    "MinEarningPercent": 222,
+    "GroupQuoteLinesBy": 369,
+    "SortGroupLinesBy": 963,
     "Stages": [
       {
-        "Id": 555,
-        "Name": "Gislason, Lindgren and Vandervort",
-        "ToolTip": "Aut est molestias dolore dolores nihil pariatur assumenda.",
-        "Deleted": false,
-        "Rank": 637,
-        "Type": "aut",
-        "ColorBlock": 238,
-        "IconHint": "aut",
+        "Id": 451,
+        "Name": "Eichmann LLC",
+        "ToolTip": "Similique veritatis suscipit quaerat at ut voluptatum officia.",
+        "Deleted": true,
+        "Rank": 241,
+        "Type": "doloremque",
+        "ColorBlock": 436,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2006-07-27T14:35:45.2704509+02:00",
+        "LastChanged": "2001-03-31T14:34:03.492648+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "corporis",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Dr. Bridgette Zemlak",
+        "FullName": "Harrison Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 287
           }
         }
       }
@@ -60,7 +60,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 317
       }
     }
   }

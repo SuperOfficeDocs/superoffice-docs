@@ -3,29 +3,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 979,
-  "Name": "Zulauf, Lemke and Reinger",
-  "CreatedDate": "1999-12-12T14:35:43.7531259+01:00",
-  "UpdatedDate": "2005-12-02T14:35:43.7531259+01:00",
+  "ForeignAppId": 234,
+  "Name": "Google Sync",
+  "CreatedDate": "2006-02-21T14:34:01.9712983+01:00",
+  "UpdatedDate": "2000-11-05T14:34:01.9712983+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 83,
-      "Name": "Wiza Group",
-      "CreatedDate": "2012-06-16T14:35:43.7552879+02:00",
-      "UpdatedDate": "2003-06-20T14:35:43.7552879+02:00",
-      "AssociateFullName": "Jaclyn Douglas DDS",
-      "CreatedBy": "illo",
-      "UpdatedBy": "sequi",
-      "DeviceIdentifier": "nobis",
-      "ForeignAppId": 551,
+      "ForeignDeviceId": 802,
+      "Name": "O'Kon, Conn and Donnelly",
+      "CreatedDate": "2019-08-10T14:34:01.9712983+02:00",
+      "UpdatedDate": "2017-08-02T14:34:01.9712983+02:00",
+      "AssociateFullName": "Shakira Sporer",
+      "CreatedBy": "dolorem",
+      "UpdatedBy": "cupiditate",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 633,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
@@ -34,8 +34,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

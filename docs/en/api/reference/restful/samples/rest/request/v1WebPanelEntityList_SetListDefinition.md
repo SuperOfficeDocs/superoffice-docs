@@ -2,19 +2,19 @@
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Kirlin-Cruickshank",
-  "Tooltip": "sequi",
+  "Id": 448,
+  "Name": "Sanford-Borer",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 70,
+  "Rank": 854,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```

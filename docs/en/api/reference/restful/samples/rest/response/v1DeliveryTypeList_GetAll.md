@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Walter Inc and Sons",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "UdListDefinitionId": 527,
-    "Rank": 273,
+    "Id": 493,
+    "Name": "Standard Shipping",
+    "Tooltip": "Delivery type",
+    "Deleted": false,
+    "UdListDefinitionId": 606,
+    "Rank": 974,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 385
       }
     }
   }

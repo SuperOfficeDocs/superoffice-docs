@@ -3,73 +3,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 431,
-  "ERPProductKey": "maxime",
-  "ERPPriceListKey": "repudiandae",
-  "Name": "Durgan-Boyer",
-  "Description": "Public-key local hierarchy",
-  "Code": "illo",
-  "PriceUnit": "qui",
-  "QuantityUnit": "porro",
+  "ProductId": 240,
+  "ERPProductKey": "veritatis",
+  "ERPPriceListKey": "saepe",
+  "Name": "Enterprise Package",
+  "Description": "Complete CRM solution",
+  "Code": "numquam",
+  "PriceUnit": "sapiente",
+  "QuantityUnit": "vel",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 5826.106,
-  "ItemNumber": "820613",
+  "SubscriptionUnit": "officiis",
+  "DefaultSubscriptionQuantity": 13281.892,
+  "ItemNumber": "1239487",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "odit",
-  "ProductTypeKey": "nemo",
-  "VAT": 2632.56,
-  "VATInfo": "enim",
-  "UnitCost": 29155.602,
-  "UnitMinimumPrice": 20784.688,
-  "UnitListPrice": 758.428,
-  "InAssortment": true,
-  "Supplier": "rem",
-  "SupplierCode": "incidunt",
-  "Rights": "non",
-  "Rule": "autem",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "rerum",
+  "VAT": 10332.797999999999,
+  "VATInfo": "aut",
+  "UnitCost": 5067.678,
+  "UnitMinimumPrice": 11069.288,
+  "UnitListPrice": 17832.46,
+  "InAssortment": false,
+  "Supplier": "perspiciatis",
+  "SupplierCode": "dolor",
+  "Rights": "excepturi",
+  "Rule": "ullam",
   "ExtraInfo": [
     {
-      "Name": "Dach, Howell and Thiel",
-      "Value": "unde",
+      "Name": "Hoppe LLC",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 50
         }
       }
     },
     {
-      "Name": "Dach, Howell and Thiel",
-      "Value": "unde",
+      "Name": "Hoppe LLC",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 50
         }
       }
     }
   ],
-  "RawExtraInfo": "officia",
-  "ExtraField1": "qui",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "laborum",
-  "ExtraField4": "est",
-  "ExtraField5": "distinctio",
-  "InStock": 16531.85,
+  "RawExtraInfo": "quos",
+  "ExtraField1": "id",
+  "ExtraField2": "ad",
+  "ExtraField3": "fuga",
+  "ExtraField4": "expedita",
+  "ExtraField5": "nihil",
+  "InStock": 27149.842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 937
     }
   }
 }

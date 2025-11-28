@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "Name": "Reynolds, Orn and Armstrong",
-  "Tooltip": "consequuntur",
+  "Id": 316,
+  "Name": "Credit Card",
+  "Tooltip": "Payment method",
   "Deleted": true,
-  "UdListDefinitionId": 138,
-  "Rank": 205,
+  "UdListDefinitionId": 851,
+  "Rank": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   }
 }

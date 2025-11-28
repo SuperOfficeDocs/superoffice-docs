@@ -5,15 +5,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jerde-Conroy",
-      "Operator": "eius",
+      "Name": "name",
+      "Operator": "contains",
       "Values": [
-        "voluptate",
-        "eaque"
+        "Anderson"
       ],
       "DisplayValues": [
-        "ducimus",
-        "rerum"
+        "Anderson"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -21,41 +19,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 673,
+      "InterParenthesis": 0,
       "InterOperator": "And",
       "UniqueHash": 769
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Beatty Inc and Sons",
-      "DisplayTooltip": "dolorem",
-      "DisplayType": "inventore",
+      "DisplayName": "Name",
+      "DisplayTooltip": "Contact name",
+      "DisplayType": "string",
       "CanOrderBy": true,
-      "Name": "Kunde-Botsford",
-      "CanRestrictBy": false,
-      "RestrictionType": "consequuntur",
-      "RestrictionListName": "Streich, Langosh and Renner",
+      "Name": "name",
+      "CanRestrictBy": true,
+      "RestrictionType": "string",
+      "RestrictionListName": "",
       "IsVisible": true,
-      "ExtraInfo": "modi",
-      "Width": "similique",
-      "IconHint": "neque",
-      "HeadingIconHint": "ducimus"
+      "ExtraInfo": "",
+      "Width": "200",
+      "IconHint": "person",
+      "HeadingIconHint": "person"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hirthe Inc and Sons",
+      "EntityName": "contact",
       "PrimaryKey": 411,
       "ColumnData": {
-        "fieldName": {
-          "DisplayValue": "totam",
-          "TooltipHint": "quae",
-          "LinkHint": "accusamus"
+        "name": {
+          "DisplayValue": "John Anderson",
+          "TooltipHint": "Sales Manager",
+          "LinkHint": "contact.main?contact_id=411"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "corporis",
+      "LinkHint": "contact.main?contact_id=411",
+      "StyleHint": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -68,18 +66,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "RestrictionGroups": [
     {
-      "Name": "Dickinson, Mann and Bechtelar",
-      "Description": "Networked bifurcated alliance",
-      "Rank": 103,
+      "Name": "Active Contacts",
+      "Description": "Search for active contacts in the system",
+      "Rank": 1,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dickinson, Mann and Bechtelar",
-      "Description": "Networked bifurcated alliance",
-      "Rank": 103,
+      "Name": "Recent Customers",
+      "Description": "Contacts created in the last 30 days",
+      "Rank": 2,
       "Restrictions": [
         {},
         {}

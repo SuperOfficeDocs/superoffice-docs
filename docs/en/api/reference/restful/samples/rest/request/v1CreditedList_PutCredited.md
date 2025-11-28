@@ -6,11 +6,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Homenick, Considine and Block",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 120,
-  "Rank": 648
+  "Id": 752,
+  "Name": "Hirthe-Wisozk",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "UdListDefinitionId": 685,
+  "Rank": 520
 }
 ```

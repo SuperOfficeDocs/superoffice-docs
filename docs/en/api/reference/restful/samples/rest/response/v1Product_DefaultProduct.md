@@ -3,73 +3,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 402,
-  "ERPProductKey": "officiis",
-  "ERPPriceListKey": "aut",
-  "Name": "McGlynn, Crooks and Gusikowski",
-  "Description": "Ameliorated multi-state contingency",
-  "Code": "iusto",
-  "PriceUnit": "ipsa",
-  "QuantityUnit": "accusantium",
+  "ProductId": 490,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "sunt",
+  "Name": "Purdy Inc and Sons",
+  "Description": "Complete CRM solution",
+  "Code": "deserunt",
+  "PriceUnit": "ea",
+  "QuantityUnit": "omnis",
   "IsSubscription": false,
-  "SubscriptionUnit": "veritatis",
-  "DefaultSubscriptionQuantity": 31286.721999999998,
-  "ItemNumber": "1154470",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 11655.346,
+  "ItemNumber": "1257387",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reiciendis",
-  "ProductTypeKey": "provident",
-  "VAT": 20258.176,
-  "VATInfo": "et",
-  "UnitCost": 29547.352,
-  "UnitMinimumPrice": 22853.128,
-  "UnitListPrice": 31308.66,
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "dolores",
+  "VAT": 30691.262,
+  "VATInfo": "id",
+  "UnitCost": 29506.61,
+  "UnitMinimumPrice": 7499.6619999999994,
+  "UnitListPrice": 29252.755999999998,
   "InAssortment": false,
-  "Supplier": "necessitatibus",
+  "Supplier": "minus",
   "SupplierCode": "nihil",
-  "Rights": "nobis",
-  "Rule": "laboriosam",
+  "Rights": "ipsam",
+  "Rule": "quas",
   "ExtraInfo": [
     {
-      "Name": "Zieme-Beier",
-      "Value": "eveniet",
+      "Name": "Hudson Inc and Sons",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldLength": 646
         }
       }
     },
     {
-      "Name": "Zieme-Beier",
-      "Value": "eveniet",
+      "Name": "Hudson Inc and Sons",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldLength": 646
         }
       }
     }
   ],
-  "RawExtraInfo": "consequuntur",
-  "ExtraField1": "sapiente",
-  "ExtraField2": "maiores",
-  "ExtraField3": "sequi",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "id",
-  "InStock": 1438.5059999999999,
+  "RawExtraInfo": "corrupti",
+  "ExtraField1": "ut",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "nihil",
+  "ExtraField4": "architecto",
+  "ExtraField5": "nihil",
+  "InStock": 30826.023999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldLength": 250
     }
   }
 }

@@ -3,19 +3,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 38,
-  "Name": "Kub Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 751,
-  "Rate": 7750.382,
-  "Units": 9392.598,
+  "CurrencyId": 253,
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
+  "Rank": 686,
+  "Rate": 13579.622,
+  "Units": 6186.516,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 163
     }
   }
 }

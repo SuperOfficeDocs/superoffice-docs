@@ -8,12 +8,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "culpa",
+    "path": "odio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "culpa",
+    "path": "odio",
     "value": {}
   }
 ]

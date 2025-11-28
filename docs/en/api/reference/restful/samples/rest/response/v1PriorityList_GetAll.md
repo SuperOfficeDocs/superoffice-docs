@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Auer, Moore and Kerluke",
-    "Tooltip": "blanditiis",
-    "Deleted": false,
-    "UdListDefinitionId": 830,
-    "Rank": 511,
+    "Id": 254,
+    "Name": "Weber LLC",
+    "Tooltip": "Priority level",
+    "Deleted": true,
+    "UdListDefinitionId": 278,
+    "Rank": 452,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

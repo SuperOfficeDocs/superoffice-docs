@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kassulke-Medhurst",
+  "ProviderName": "FindContact",
   "SelectionId": 383,
   "CanSaveAsSelection": true,
-  "MainHeading": "sit",
-  "FilterScreenHeading": "eaque",
-  "SelectionEntityHeading": "nostrum",
+  "MainHeading": "Find Companies",
+  "FilterScreenHeading": "Search Criteria",
+  "SelectionEntityHeading": "Search Results",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

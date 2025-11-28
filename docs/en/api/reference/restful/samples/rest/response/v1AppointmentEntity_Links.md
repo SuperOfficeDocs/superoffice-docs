@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vel",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 3314,
-      "EntityName": "person",
-      "personId": 3314,
-      "fullName": "Edmund Ruecker"
+      "PrimaryKey": 7788,
+      "EntityName": "document",
+      "documentId": 7788,
+      "name": "Meeting Minutes - Q4 Review"
     },
     {
-      "PrimaryKey": 868,
-      "EntityName": "person",
-      "personId": 868,
-      "fullName": "Macie Legros"
+      "PrimaryKey": 1525,
+      "EntityName": "sale",
+      "saleId": 1525,
+      "name": "Enterprise CRM Deal"
     }
   ]
 }

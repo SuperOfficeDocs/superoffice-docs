@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Tremblay, Kozey and Aufderhar",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "UdListDefinitionId": 930,
-    "Rank": 265,
+    "Id": 943,
+    "Name": "Marketing Director",
+    "Tooltip": "Job position",
+    "Deleted": true,
+    "UdListDefinitionId": 990,
+    "Rank": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 842
       }
     }
   }

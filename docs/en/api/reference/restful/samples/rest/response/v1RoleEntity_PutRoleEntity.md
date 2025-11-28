@@ -3,24 +3,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 216,
-  "Name": "Renner, Turcotte and Heaney",
+  "RoleId": 326,
+  "Name": "Rolfson Inc and Sons",
   "Tooltip": "voluptate",
   "RoleType": "Anonymous",
-  "Deleted": 933,
-  "Rank": 634,
-  "Created": "2011-05-05T14:35:44.0997926+02:00",
-  "UseCategories": 503,
+  "Deleted": 874,
+  "Rank": 238,
+  "Created": "2016-02-09T14:34:02.2510245+01:00",
+  "UseCategories": 824,
   "CreatedBy": null,
-  "Updated": "2012-08-31T14:35:44.0997926+02:00",
+  "Updated": "2007-10-13T14:34:02.2529468+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   },
   "_Links": {

@@ -2,25 +2,25 @@
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Lubowitz, Hirthe and Spencer",
-    "Tooltip": "quis",
+    "Id": 289,
+    "Name": "Flatley-Pagac",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "UdListDefinitionId": 366,
-    "Rank": 708
+    "UdListDefinitionId": 629,
+    "Rank": 482
   },
   {
-    "Id": 908,
-    "Name": "Lubowitz, Hirthe and Spencer",
-    "Tooltip": "quis",
+    "Id": 289,
+    "Name": "Flatley-Pagac",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "UdListDefinitionId": 366,
-    "Rank": 708
+    "UdListDefinitionId": 629,
+    "Rank": 482
   }
 ]
 ```

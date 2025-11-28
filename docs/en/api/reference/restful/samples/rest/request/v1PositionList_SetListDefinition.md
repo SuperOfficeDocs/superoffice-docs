@@ -2,19 +2,19 @@
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Windler LLC",
+  "Id": 334,
+  "Name": "Schneider Inc and Sons",
   "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 754,
+  "Rank": 4,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": false
 }
 ```

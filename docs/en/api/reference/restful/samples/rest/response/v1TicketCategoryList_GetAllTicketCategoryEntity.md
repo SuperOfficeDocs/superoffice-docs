@@ -4,36 +4,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 230,
-    "ParentId": 397,
-    "Name": "Rippin-Klein",
-    "Fullname": "rerum",
-    "CategoryMaster": 407,
+    "TicketCategoryId": 936,
+    "ParentId": 753,
+    "Name": "Mohr LLC",
+    "Fullname": "libero",
+    "CategoryMaster": 243,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Renner, Auer and Prosacco",
+    "ExternalName": "Koepp-Bergstrom",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 452,
-    "ReplyTemplate": 322,
-    "NotificationEmail": "eunice@osinski.biz",
+    "AssignmentLag": 270,
+    "ReplyTemplate": 456,
+    "NotificationEmail": "lina@erdmanschoen.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 620,
+    "EffectiveReplyTemplateId": 138,
     "ExtraFields": {
-      "ExtraFields1": "provident",
-      "ExtraFields2": "itaque"
+      "ExtraFields1": "ducimus",
+      "ExtraFields2": "laudantium"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatibus",
-      "CustomFields2": "voluptatum"
+      "CustomFields1": "totam",
+      "CustomFields2": "nobis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

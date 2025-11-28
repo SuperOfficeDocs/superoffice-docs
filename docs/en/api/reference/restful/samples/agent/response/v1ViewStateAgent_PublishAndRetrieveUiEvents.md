@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 889,
-    "EventName": "Pacocha, Bartell and Frami",
-    "EntityType": "ducimus",
-    "EntityKey": 74,
-    "AssociateId": 110,
-    "AssociateName": "Funk, Jacobson and Lang",
-    "EventDateTime": "2022-03-26T10:11:01.874681+01:00",
+    "EventId": 1,
+    "EventName": "ContactChanged",
+    "EntityType": "Contact",
+    "EntityKey": 123,
+    "AssociateId": 5,
+    "AssociateName": "John Anderson",
+    "EventDateTime": "2024-11-28T14:30:00+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

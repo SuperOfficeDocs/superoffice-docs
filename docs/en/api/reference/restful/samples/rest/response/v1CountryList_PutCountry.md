@@ -3,30 +3,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 695,
-  "Name": "Hahn Group",
-  "CurrencyId": 949,
-  "EnglishName": "Emmerich, Predovic and Block",
+  "CountryId": 988,
+  "Name": "United States",
+  "CurrencyId": 677,
+  "EnglishName": "Mertz LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Versatile full-range initiative",
-  "OrgNrText": "987096",
-  "InterAreaPrefix": "eius",
-  "DialInPrefix": "in",
-  "ZipPrefix": "enim",
-  "DomainName": "Collins Group",
-  "AddressLayoutId": 571,
-  "DomesticAddressLayoutId": 375,
-  "ForeignAddressLayoutId": 940,
-  "Rank": 56,
-  "Tooltip": "ad",
+  "ImageDescription": "Proactive neutral open system",
+  "OrgNrText": "1129340",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "tempora",
+  "ZipPrefix": "doloremque",
+  "DomainName": "Kuhn Inc and Sons",
+  "AddressLayoutId": 586,
+  "DomesticAddressLayoutId": 846,
+  "ForeignAddressLayoutId": 590,
+  "Rank": 524,
+  "Tooltip": "Country entry",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

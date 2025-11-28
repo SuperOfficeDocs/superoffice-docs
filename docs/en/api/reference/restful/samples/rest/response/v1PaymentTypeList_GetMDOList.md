@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Treutel LLC",
-    "ToolTip": "Optio ea tempora nobis et nam.",
+    "Id": 610,
+    "Name": "Bank Transfer",
+    "ToolTip": "Aut a et voluptas.",
     "Deleted": false,
-    "Rank": 215,
-    "Type": "sed",
+    "Rank": 800,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Konopelski-Hessel",
-        "ToolTip": "Autem voluptatibus blanditiis ex aut eos facilis occaecati.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "aut",
+        "Id": 903,
+        "Name": "Schulist LLC",
+        "ToolTip": "Odio veritatis dolorem.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 820,
-        "ExtraInfo": "veniam",
-        "StyleHint": "doloremque",
-        "FullName": "Georgiana Morar",
+        "IconHint": "aut",
+        "ColorBlock": 10,
+        "ExtraInfo": "aut",
+        "StyleHint": "maiores",
+        "FullName": "Josephine Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 709
+            "FieldType": "System.Int32",
+            "FieldLength": 677
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 223,
-    "ExtraInfo": "est",
-    "StyleHint": "maxime",
-    "FullName": "Jamal Letha Yost Jr.",
+    "IconHint": "molestias",
+    "ColorBlock": 825,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "animi",
+    "FullName": "Mariana Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 61
       }
     }
   }

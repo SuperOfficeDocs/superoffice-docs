@@ -3,30 +3,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 185,
-  "SourcePersonId": 31,
-  "DestinationContactId": 904,
-  "DestinationPersonId": 439,
-  "RelationId": 654,
-  "Comment": "totam",
-  "RelationDefinitionId": 717,
-  "Reversed": 870,
-  "UpdatedDate": "2004-06-12T14:35:43.598943+02:00",
-  "CreatedDate": "2022-05-23T14:35:43.598943+02:00",
+  "SourceContactId": 973,
+  "SourcePersonId": 104,
+  "DestinationContactId": 353,
+  "DestinationPersonId": 701,
+  "RelationId": 755,
+  "Comment": "Main business relationship",
+  "RelationDefinitionId": 318,
+  "Reversed": 820,
+  "UpdatedDate": "2018-03-19T14:34:01.8459763+01:00",
+  "CreatedDate": "2017-09-23T14:34:01.8459763+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pagac-Smith",
-  "SourcePersonName": "Willms, Parisian and Carter",
-  "DestinationContactName": "Kuhic Inc and Sons",
-  "DestinationPersonName": "Fadel, Hirthe and Lebsack",
-  "ActiveText": "est",
-  "PassiveText": "quia",
+  "SourceContactName": "Rohan Group",
+  "SourcePersonName": "Sanford-Barrows",
+  "DestinationContactName": "Mraz LLC",
+  "DestinationPersonName": "Labadie LLC",
+  "ActiveText": "id",
+  "PassiveText": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 767
     }
   },
   "_Links": {

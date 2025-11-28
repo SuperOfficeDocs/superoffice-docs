@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quos",
-  "2": "dolor"
+  "1": "Valid",
+  "2": "User authenticated successfully"
 }
 ```

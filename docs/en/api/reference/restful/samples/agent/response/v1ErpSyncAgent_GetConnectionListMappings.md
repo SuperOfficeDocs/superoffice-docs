@@ -6,12 +6,12 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Toy, Macejkovic and Hickle",
+      "ErpListName": "Customer Categories",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Cruickshank-Kiehn",
+      "ErpActorTypeName": "Customer",
       "ErpFieldId": 971,
       "TableRight": null,
       "FieldProperties": {
@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "ErpConnectionId": 603,
-  "ErpConnectionName": "Mueller-Rosenbaum",
+  "ErpConnectionName": "SAP Business One Connection",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

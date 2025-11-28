@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 82,
-  "Name": "Erdman, Bosco and Feest",
-  "Tooltip": "quasi",
+  "RoleId": 645,
+  "Name": "Keebler LLC",
+  "Tooltip": "in",
   "RoleType": "Anonymous",
-  "Deleted": 206,
-  "Rank": 755,
-  "Created": "2013-03-12T14:35:44.0997926+01:00",
-  "UseCategories": 501,
+  "Deleted": 705,
+  "Rank": 49,
+  "Created": "2016-06-20T14:34:02.2460246+02:00",
+  "UseCategories": 384,
   "CreatedBy": null,
-  "Updated": "2025-06-26T14:35:44.0997926+02:00",
+  "Updated": "2011-11-29T14:34:02.2460246+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 764
     }
   },
   "_Links": {

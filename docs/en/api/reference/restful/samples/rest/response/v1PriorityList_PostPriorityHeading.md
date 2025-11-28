@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 584,
-  "Name": "Flatley-Schmeler",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "Rank": 358,
-  "UdListDefinitionId": 441,
+  "HeadingId": 71,
+  "Name": "Medium",
+  "Tooltip": "Priority level",
+  "Deleted": false,
+  "Rank": 372,
+  "UdListDefinitionId": 776,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 207
     }
   }
 }

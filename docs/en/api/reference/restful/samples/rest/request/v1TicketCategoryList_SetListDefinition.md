@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "VonRueden, Heidenreich and Reilly",
-  "Tooltip": "quam",
+  "Id": 477,
+  "Name": "Nader, Grimes and Langworth",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 517,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iusto",
-  "InUseByUserDefinedFields": false
+  "Rank": 479,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true
 }
 ```

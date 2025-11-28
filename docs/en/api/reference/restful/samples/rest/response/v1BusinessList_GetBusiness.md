@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 771,
-  "Name": "Corkery-Roberts",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 905,
-  "Rank": 514,
+  "Id": 21,
+  "Name": "Manufacturing",
+  "Tooltip": "Manufacturing and production",
+  "Deleted": false,
+  "UdListDefinitionId": 947,
+  "Rank": 968,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

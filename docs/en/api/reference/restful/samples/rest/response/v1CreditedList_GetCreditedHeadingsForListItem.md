@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Miller, Botsford and Goldner",
-    "ToolTip": "Iure quaerat optio reiciendis quo et eum.",
+    "Id": 948,
+    "Name": "Marketing Team",
+    "ToolTip": "Quas nam eligendi aut aut vel possimus.",
     "Deleted": false,
-    "Rank": 983,
-    "Type": "ut",
-    "ColorBlock": 376,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2014-05-22T14:35:44.9131982+02:00",
+    "Rank": 592,
+    "Type": "aperiam",
+    "ColorBlock": 647,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2010-01-31T14:34:03.1176847+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Zemlak-Bogan",
-        "ToolTip": "Quidem voluptatem.",
+        "Id": 425,
+        "Name": "Marketing Team",
+        "ToolTip": "Modi quia.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "quis",
-        "ColorBlock": 775,
-        "IconHint": "quibusdam",
-        "Selected": true,
-        "LastChanged": "2014-05-04T14:35:44.9131982+02:00",
+        "Rank": 199,
+        "Type": "voluptatibus",
+        "ColorBlock": 105,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2011-12-04T14:34:03.1176847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "illum",
+        "ExtraInfo": "nihil",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Dexter Reichel",
+        "FullName": "Conrad Estel Hills I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldType": "System.String",
+            "FieldLength": 111
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Joesph Mills",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Marvin Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldLength": 584
       }
     }
   }

@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PriceListId": 160,
-  "ERPPriceListKey": "est",
+  "ERPPriceListKey": "PRICELIST-NEW",
   "QuoteConnectionId": 987,
-  "Name": "Schneider, Graham and Weber",
-  "Description": "Synchronised upward-trending flexibility",
-  "Currency": "laborum",
-  "CurrencyName": "Wisoky-Friesen",
-  "ValidFrom": "2012-10-20T10:11:00.9104271+02:00",
-  "ValidTo": "2005-07-16T10:11:00.9104271+02:00",
-  "IsActive": false,
+  "Name": "New Price List",
+  "Description": "New price list",
+  "Currency": "USD",
+  "CurrencyName": "United States Dollar",
+  "ValidFrom": "2024-01-01T00:00:00+01:00",
+  "ValidTo": "2024-12-31T23:59:00+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

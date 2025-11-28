@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Satterfield-Fadel",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "Rank": 632,
-    "UdListDefinitionId": 618,
+    "HeadingId": 68,
+    "Name": "Ortiz LLC",
+    "Tooltip": "Ticket classification",
+    "Deleted": false,
+    "Rank": 552,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

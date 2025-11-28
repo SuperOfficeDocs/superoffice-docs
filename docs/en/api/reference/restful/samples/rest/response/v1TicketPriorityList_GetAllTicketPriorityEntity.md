@@ -4,60 +4,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 13,
-    "Name": "Herman, Johnston and Okuneva",
+    "TicketPriorityId": 372,
+    "Name": "Schmeler LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 959,
+    "SortOrder": 343,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 963,
-    "MonStart": "2016-08-09T14:35:45.3654202+02:00",
-    "MonStop": "2000-02-03T14:35:45.3654202+01:00",
-    "TueStart": "2022-08-16T14:35:45.3654202+02:00",
-    "TueStop": "2012-01-27T14:35:45.3654202+01:00",
-    "WedStart": "2000-10-18T14:35:45.3654202+02:00",
-    "WedStop": "2007-11-12T14:35:45.3654202+01:00",
-    "ThuStart": "2006-06-15T14:35:45.3654202+02:00",
-    "ThuStop": "2022-07-01T14:35:45.3654202+02:00",
-    "FriStart": "2001-06-27T14:35:45.3654202+02:00",
-    "FriStop": "2002-12-12T14:35:45.3654202+01:00",
-    "SatStart": "2025-09-21T14:35:45.3654202+02:00",
-    "SatStop": "2024-12-07T14:35:45.3654202+01:00",
-    "SunStart": "2003-12-24T14:35:45.3654202+01:00",
-    "SunStop": "2017-02-18T14:35:45.3654202+01:00",
+    "Deadline": 942,
+    "MonStart": "2016-01-21T14:34:03.6131895+01:00",
+    "MonStop": "2003-07-24T14:34:03.6131895+02:00",
+    "TueStart": "2015-05-14T14:34:03.6131895+02:00",
+    "TueStop": "2018-11-01T14:34:03.6131895+01:00",
+    "WedStart": "2003-01-01T14:34:03.6131895+01:00",
+    "WedStop": "2019-11-09T14:34:03.6131895+01:00",
+    "ThuStart": "2020-12-09T14:34:03.6131895+01:00",
+    "ThuStop": "2024-07-06T14:34:03.6131895+02:00",
+    "FriStart": "2019-10-14T14:34:03.6131895+02:00",
+    "FriStop": "2006-11-25T14:34:03.6131895+01:00",
+    "SatStart": "2014-08-21T14:34:03.6131895+02:00",
+    "SatStop": "2013-10-13T14:34:03.6131895+02:00",
+    "SunStart": "2019-06-09T14:34:03.6131895+02:00",
+    "SunStop": "2012-12-07T14:34:03.6131895+01:00",
     "NonDates": [
-      "qui",
-      "aliquid"
+      "incidunt",
+      "itaque"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 640,
-        "AlertLevel": 373,
-        "AlertTimeout": 429,
-        "Action": 492,
-        "DelegateTo": 477,
-        "ScriptId": 512,
-        "EmailTo": "leonora@huelfriesen.ca",
-        "SmsTo": "suscipit",
-        "ReplyTemplateIdCustomer": 391,
-        "ReplyTemplateIdUser": 314,
-        "ReplyTemplateIdCatmast": 93,
-        "ReplyTemplateIdEmail": 399,
-        "RtiCustomerSms": 267,
-        "ReplyTemplateIdUserSms": 322,
-        "ReplyTemplateIdCatmastSms": 750,
-        "ReplyTemplateIdSms": 907,
+        "TicketAlertId": 269,
+        "AlertLevel": 719,
+        "AlertTimeout": 683,
+        "Action": 115,
+        "DelegateTo": 426,
+        "ScriptId": 730,
+        "EmailTo": "cleve@farrellnitzsche.ca",
+        "SmsTo": "cupiditate",
+        "ReplyTemplateIdCustomer": 142,
+        "ReplyTemplateIdUser": 576,
+        "ReplyTemplateIdCatmast": 541,
+        "ReplyTemplateIdEmail": 414,
+        "RtiCustomerSms": 248,
+        "ReplyTemplateIdUserSms": 305,
+        "ReplyTemplateIdCatmastSms": 473,
+        "ReplyTemplateIdSms": 107,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 179
+            "FieldLength": 714
           }
         }
       }
@@ -67,7 +67,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 53
       }
     }
   }

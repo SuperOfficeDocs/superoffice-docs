@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Ratke Group",
-  "Tooltip": "praesentium",
+  "Id": 920,
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
   "Deleted": false,
-  "Rank": 704,
+  "Rank": 27,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldLength": 995
     }
   },
   "_Links": {

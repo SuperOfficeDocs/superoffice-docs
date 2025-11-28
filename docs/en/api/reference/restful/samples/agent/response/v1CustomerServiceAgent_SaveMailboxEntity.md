@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "MailInFilterId": 178,
-  "ServerType": "Facebook",
-  "Address": "repudiandae",
-  "Username": "temporibus",
-  "Password": "eaque",
-  "Server": "et",
-  "Port": 893,
+  "ServerType": "Exchange",
+  "Address": "customerservice@globalcorp.com",
+  "Username": "cs.team",
+  "Password": "encrypted_password",
+  "Server": "outlook.office365.com",
+  "Port": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "odit",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 7168,
+      "PrimaryKey": 9614,
       "EntityName": "person",
-      "personId": 7168,
-      "fullName": "Ofelia Candelario Nitzsche V"
+      "personId": 9614,
+      "fullName": "Sarah Johnson"
     },
     {
-      "PrimaryKey": 1173,
+      "PrimaryKey": 6253,
       "EntityName": "person",
-      "personId": 1173,
-      "fullName": "Reuben Glover"
+      "personId": 6253,
+      "fullName": "Michael Chen"
     }
   ]
 }

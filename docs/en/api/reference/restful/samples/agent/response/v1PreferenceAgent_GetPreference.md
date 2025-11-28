@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quod",
+  "RawValue": "true",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "consequatur",
+  "DisplayValue": "Enabled",
+  "DisplayTooltip": "Show notifications for new appointments",
   "DisplayType": "Bool",
   "TabOrder": null,
   "TargetId": 162,
   "PrefDescId": 69,
-  "TableName": "Ziemann-Macejkovic",
+  "TableName": "UserPreference",
   "UserPreferenceId": 309,
   "TableRight": null,
   "FieldProperties": {

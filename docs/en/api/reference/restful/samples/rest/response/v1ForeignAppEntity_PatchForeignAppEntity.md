@@ -3,29 +3,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 607,
-  "Name": "Mohr Inc and Sons",
-  "CreatedDate": "1999-08-26T14:35:43.772689+02:00",
-  "UpdatedDate": "2021-12-06T14:35:43.772689+01:00",
+  "ForeignAppId": 704,
+  "Name": "Lowe Group",
+  "CreatedDate": "2008-05-24T14:34:02.0027636+02:00",
+  "UpdatedDate": "2014-07-22T14:34:02.0027636+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 20,
-      "Name": "Stehr Group",
-      "CreatedDate": "2003-11-23T14:35:43.7736888+01:00",
-      "UpdatedDate": "2007-03-23T14:35:43.7736888+01:00",
-      "AssociateFullName": "Adelia Hansen DDS",
-      "CreatedBy": "qui",
-      "UpdatedBy": "nisi",
-      "DeviceIdentifier": "perferendis",
-      "ForeignAppId": 727,
+      "ForeignDeviceId": 364,
+      "Name": "Google Sync",
+      "CreatedDate": "2013-11-16T14:34:02.0027636+01:00",
+      "UpdatedDate": "1998-10-02T14:34:02.0027636+02:00",
+      "AssociateFullName": "Tanner Eichmann",
+      "CreatedBy": "aliquid",
+      "UpdatedBy": "aperiam",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 736,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 183
         }
       }
     }
@@ -34,8 +34,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   },
   "_Links": {

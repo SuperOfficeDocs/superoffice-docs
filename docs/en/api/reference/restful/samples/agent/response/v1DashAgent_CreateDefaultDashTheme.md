@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardThemeId": 816,
-  "Name": "Torp-O'Keefe",
-  "Config": "quis",
-  "Rank": 494,
-  "Client": "adipisci",
-  "Style": "autem",
+  "Name": "Classic Theme",
+  "Config": "{\"primaryColor\":\"#333333\",\"secondaryColor\":\"#FFFFFF\",\"accentColor\":\"#007ACC\",\"fontFamily\":\"Arial\"}",
+  "Rank": 3,
+  "Client": "Web",
+  "Style": "Classic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

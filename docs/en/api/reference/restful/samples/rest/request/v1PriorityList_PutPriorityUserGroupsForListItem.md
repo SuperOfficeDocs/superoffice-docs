@@ -2,47 +2,47 @@
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Boehm Group",
-    "ToolTip": "Et nobis sunt hic sunt.",
-    "Deleted": false,
-    "Rank": 677,
-    "Type": "aliquam",
-    "ColorBlock": 583,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2019-03-21T14:35:45.0589074+01:00",
+    "Id": 249,
+    "Name": "Greenholt-Walker",
+    "ToolTip": "Doloribus nisi vel harum atque nulla velit.",
+    "Deleted": true,
+    "Rank": 14,
+    "Type": "est",
+    "ColorBlock": 339,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "2024-01-31T14:34:03.2775036+01:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Lockman, Kuvalis and Brown",
-        "ToolTip": "Ut voluptatibus sed.",
+        "Id": 858,
+        "Name": "Ratke Group",
+        "ToolTip": "Animi aut dolores maiores.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "atque",
-        "ColorBlock": 801,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2020-05-23T14:35:45.0589074+02:00",
+        "Rank": 956,
+        "Type": "doloremque",
+        "ColorBlock": 632,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2015-03-18T14:34:03.2775036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nemo",
+        "ExtraInfo": "inventore",
+        "StyleHint": "aliquam",
         "Hidden": true,
-        "FullName": "Prof. Claudine Crooks"
+        "FullName": "Verla Douglas"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "dolores",
+    "ExtraInfo": "veniam",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Ida Ruecker"
+    "FullName": "Mr. Vladimir Abbott DVM"
   }
 ]
 ```

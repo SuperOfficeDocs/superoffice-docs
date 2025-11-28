@@ -2,15 +2,15 @@
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Kertzmann-Gulgowski",
-  "Tooltip": "sit",
+  "Id": 315,
+  "Name": "Lubowitz-Wuckert",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 639,
-  "Rank": 257
+  "UdListDefinitionId": 824,
+  "Rank": 30
 }
 ```

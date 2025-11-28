@@ -2,47 +2,47 @@
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Kassulke-Christiansen",
-    "ToolTip": "Eum sed vero sed vel consequatur.",
+    "Id": 680,
+    "Name": "Murray Inc and Sons",
+    "ToolTip": "Qui debitis eveniet consequatur quasi itaque sequi.",
     "Deleted": false,
-    "Rank": 29,
-    "Type": "doloremque",
-    "ColorBlock": 598,
-    "IconHint": "est",
+    "Rank": 225,
+    "Type": "modi",
+    "ColorBlock": 265,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2021-02-27T14:35:45.0207912+01:00",
+    "LastChanged": "2007-12-15T14:34:03.2306761+01:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Reichel-Casper",
-        "ToolTip": "Nostrum ut qui totam et corrupti.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "quae",
-        "ColorBlock": 269,
-        "IconHint": "odio",
-        "Selected": false,
-        "LastChanged": "2025-09-19T14:35:45.0207912+02:00",
+        "Id": 761,
+        "Name": "Stracke, Emmerich and Emmerich",
+        "ToolTip": "Vitae aut pariatur omnis a sed.",
+        "Deleted": false,
+        "Rank": 285,
+        "Type": "saepe",
+        "ColorBlock": 985,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "2015-02-17T14:34:03.2306761+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "similique",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Aylin Hills DVM"
+        "FullName": "Mr. Pearlie Chandler Blick Jr."
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sit",
+    "ExtraInfo": "velit",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mrs. Frances Bartoletti"
+    "FullName": "Prof. Alec Neal Homenick"
   }
 ]
 ```

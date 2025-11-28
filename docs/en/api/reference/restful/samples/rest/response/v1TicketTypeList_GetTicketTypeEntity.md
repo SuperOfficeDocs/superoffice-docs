@@ -3,40 +3,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 214,
-  "Name": "Daugherty, Mueller and Haley",
-  "Rank": 898,
-  "Tooltip": "debitis",
-  "Icon": "repudiandae",
-  "DefaultTicketStatus": 398,
+  "TicketTypeId": 233,
+  "Name": "Sales Inquiry",
+  "Rank": 748,
+  "Tooltip": "Ticket classification",
+  "Icon": "qui",
+  "DefaultTicketStatus": 895,
   "TicketStatuses": [
-    374,
-    581
+    735,
+    247
   ],
-  "DefaultTicketPriority": 560,
+  "DefaultTicketPriority": 776,
   "TicketPriorities": [
-    633,
-    242
+    365,
+    672
   ],
-  "ReplyTemplate": 138,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "ReplyTemplate": 850,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    805,
-    637
+    679,
+    656
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

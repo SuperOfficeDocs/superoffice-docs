@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "Rank": 573,
+  "Id": 832,
+  "Name": "Romaguera-Fahey",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 963,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true
 }
 ```

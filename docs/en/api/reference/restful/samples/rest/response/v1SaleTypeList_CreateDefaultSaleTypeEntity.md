@@ -3,53 +3,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 241,
-  "Name": "Cormier, White and Emard",
-  "Tooltip": "dolorem",
-  "Rank": 203,
+  "SaleTypeId": 647,
+  "Name": "Quitzon Group",
+  "Tooltip": "Sale type",
+  "Rank": 191,
   "DurationUnit": "Century",
-  "SaleDuration": 99,
-  "SaleTypeCatId": 678,
-  "Deleted": false,
+  "SaleDuration": 198,
+  "SaleTypeCatId": 409,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 181,
-  "QuoteLinesTemplate": 102,
-  "ConfirmationLinesTemplate": 180,
+  "DefaultQuoteValidity": 541,
+  "QuoteLinesTemplate": 527,
+  "ConfirmationLinesTemplate": 846,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 263,
-  "MinEarningPercent": 393,
-  "GroupQuoteLinesBy": 536,
-  "SortGroupLinesBy": 541,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 265,
+  "MinEarningPercent": 788,
+  "GroupQuoteLinesBy": 828,
+  "SortGroupLinesBy": 191,
   "Stages": [
     {
-      "Id": 29,
-      "Name": "Rodriguez, Schneider and Auer",
-      "ToolTip": "Molestiae sed optio dolorum quos quibusdam.",
-      "Deleted": false,
-      "Rank": 654,
-      "Type": "aspernatur",
-      "ColorBlock": 492,
-      "IconHint": "quam",
-      "Selected": false,
-      "LastChanged": "2022-09-27T14:35:45.2724909+02:00",
+      "Id": 72,
+      "Name": "New Business",
+      "ToolTip": "Tempora porro distinctio.",
+      "Deleted": true,
+      "Rank": 768,
+      "Type": "enim",
+      "ColorBlock": 757,
+      "IconHint": "sint",
+      "Selected": true,
+      "LastChanged": "2018-10-07T14:34:03.496648+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Mr. Jaleel Zemlak",
+      "ExtraInfo": "quis",
+      "StyleHint": "fugiat",
+      "Hidden": true,
+      "FullName": "Letitia Blanda Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 235
         }
       }
     }
@@ -58,8 +58,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

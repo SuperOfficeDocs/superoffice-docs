@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReportLabelLayoutId": 148,
-  "Name": "Smitham-Bosco",
-  "Description": "Total bandwidth-monitored portal",
-  "Orientation": "Landscape",
-  "PaperWidth": 379,
-  "PaperHeight": 260,
-  "LeftMargin": 241,
-  "RightMargin": 615,
-  "TopMargin": 594,
-  "BottomMargin": 846,
-  "CountColumns": 637,
-  "CountRows": 226,
+  "Name": "Avery 5160 Address Labels",
+  "Description": "Standard address label layout - 3 columns x 10 rows per page",
+  "Orientation": "Portrait",
+  "PaperWidth": 8500,
+  "PaperHeight": 11000,
+  "LeftMargin": 190,
+  "RightMargin": 190,
+  "TopMargin": 500,
+  "BottomMargin": 500,
+  "CountColumns": 3,
+  "CountRows": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

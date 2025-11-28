@@ -2,60 +2,60 @@
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive attitude-oriented parallelism",
-  "Postit": "cum",
+  "Description": "Adaptive hybrid productivity",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 768,
-  "IncludePerson": 24,
+  "GroupIdx": 861,
+  "IncludePerson": 868,
   "MemberCount": 99.99,
-  "Name": "Grimes-Hansen",
-  "PostitTextId": 704,
-  "CreatedDate": "2014-09-04T14:35:44.2853899+02:00",
-  "SelectionId": 651,
-  "SoundEx": "occaecati",
-  "Source": 826,
-  "TextId": 896,
-  "UpdatedDate": "2025-09-03T14:35:44.2853899+02:00",
-  "UpdatedCount": 386,
-  "Visibility": 254,
+  "Name": "Heidenreich LLC",
+  "PostitTextId": 28,
+  "CreatedDate": "2024-03-01T14:34:02.3943037+01:00",
+  "SelectionId": 956,
+  "SoundEx": "et",
+  "Source": 601,
+  "TextId": 512,
+  "UpdatedDate": "2016-05-01T14:34:02.3943037+02:00",
+  "UpdatedCount": 905,
+  "Visibility": 454,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 262,
-  "TargetTableName": "Kiehn-Boyer",
-  "Completed": true,
-  "LeftSelectionId": 329,
-  "RightSelectionId": 413,
+  "CompanyUnique": false,
+  "TargetTableNumber": 953,
+  "TargetTableName": "Berge, Treutel and Mraz",
+  "Completed": false,
+  "LeftSelectionId": 305,
+  "RightSelectionId": 643,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haag Group",
-  "ShadowProviderName": "Hoeger, Predovic and Schamberger",
-  "ChartKey": "eum",
-  "LastLoaded": "2020-12-02T14:35:44.2863894+01:00",
-  "LastLoadedBy": 80,
+  "MainProviderName": "Sauer-Schuppe",
+  "ShadowProviderName": "Howe Inc and Sons",
+  "ChartKey": "laudantium",
+  "LastLoaded": "2005-07-09T14:34:02.3943037+02:00",
+  "LastLoadedBy": 954,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-10-09T14:35:44.2865026+02:00",
-  "LastMembershipChangeBy": 37,
+  "LastMembershipChange": "2003-06-20T14:34:02.3943037+02:00",
+  "LastMembershipChangeBy": 553,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "amet",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Johnson Group",
-  "DashboardTileDefinitionId": 289,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "veniam",
+  "MailingsProviderName": "Schumm-Stroman",
+  "DashboardTileDefinitionId": 671,
   "VisibleFor": [
     {
-      "VisibleId": 29,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "ex"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 29,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "ex"
+      "DisplayValue": "et"
     }
   ]
 }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 573,
-    "Name": "Marquardt-Langosh",
-    "Tooltip": "nihil",
+    "HeadingId": 284,
+    "Name": "Meeting",
+    "Tooltip": "Task type",
     "Deleted": false,
-    "Rank": 834,
-    "UdListDefinitionId": 919,
+    "Rank": 458,
+    "UdListDefinitionId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 807
       }
     }
   }

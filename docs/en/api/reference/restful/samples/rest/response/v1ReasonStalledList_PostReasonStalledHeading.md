@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 877,
-  "Name": "Green-Keebler",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 858,
-  "UdListDefinitionId": 715,
+  "HeadingId": 655,
+  "Name": "Koelpin Group",
+  "Tooltip": "Sale reason",
+  "Deleted": false,
+  "Rank": 214,
+  "UdListDefinitionId": 267,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 419
     }
   }
 }

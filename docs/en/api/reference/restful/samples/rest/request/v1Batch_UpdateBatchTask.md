@@ -6,30 +6,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471,
-  "Name": "Koss LLC",
-  "AssociateId": 594,
-  "DetailsTable": 19,
-  "DetailsRecord": 549,
-  "IsSystemTask": false,
+  "Id": 230,
+  "Name": "Dach, Herman and Bogisich",
+  "AssociateId": 652,
+  "DetailsTable": 447,
+  "DetailsRecord": 890,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "earum"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "ea"
   },
-  "LastStarted": "2000-05-22T14:35:44.5229994+02:00",
-  "Created": "2012-12-28T14:35:44.5229994+01:00",
-  "StartCount": 487,
-  "DatabaseSerialNumber": "610772",
-  "Context": "ratione",
-  "Result": "suscipit",
+  "LastStarted": "2011-10-12T14:34:02.7210753+02:00",
+  "Created": "2017-10-27T14:34:02.7210753+02:00",
+  "StartCount": 214,
+  "DatabaseSerialNumber": "1024588",
+  "Context": "officia",
+  "Result": "veritatis",
   "State": "All",
-  "Description": "De-engineered tangible core",
-  "Response": "ut",
-  "Request": "deserunt",
-  "ProgressDescription": "Object-based attitude-oriented concept",
-  "ProgressPercent": 50,
-  "FileName": "Williamson-Langosh",
+  "Description": "Distributed bifurcated definition",
+  "Response": "et",
+  "Request": "sed",
+  "ProgressDescription": "Robust scalable frame",
+  "ProgressPercent": 797,
+  "FileName": "Welch LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```

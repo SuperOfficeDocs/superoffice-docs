@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Dietrich, Quigley and Crona",
-    "ToolTip": "Libero consequatur.",
+    "Id": 208,
+    "Name": "Customer",
+    "ToolTip": "Odio maiores non cum vel dolores.",
     "Deleted": false,
-    "Rank": 325,
-    "Type": "tenetur",
-    "ColorBlock": 619,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2016-01-31T14:35:44.8016977+01:00",
+    "Rank": 911,
+    "Type": "Category",
+    "ColorBlock": 16,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2000-08-08T14:34:03.0038304+02:00",
     "ChildItems": [
       {
-        "Id": 719,
-        "Name": "Deckow, Hills and Lueilwitz",
-        "ToolTip": "Maiores autem ducimus officiis.",
-        "Deleted": true,
-        "Rank": 847,
-        "Type": "ipsa",
-        "ColorBlock": 361,
-        "IconHint": "odit",
-        "Selected": true,
-        "LastChanged": "2024-04-25T14:35:44.8016977+02:00",
+        "Id": 297,
+        "Name": "VonRueden-Jacobs",
+        "ToolTip": "Itaque voluptatum.",
+        "Deleted": false,
+        "Rank": 222,
+        "Type": "Category",
+        "ColorBlock": 422,
+        "IconHint": "eaque",
+        "Selected": false,
+        "LastChanged": "2020-10-28T14:34:03.0038304+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Dr. Katelyn Elvera Zboncak",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Mr. Elaina Senger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 380
+            "FieldType": "System.Int32",
+            "FieldLength": 888
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "magni",
+    "ExtraInfo": "non",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Harrison Halvorson",
+    "FullName": "Samir Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 140
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

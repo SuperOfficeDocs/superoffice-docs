@@ -2,25 +2,25 @@
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Hills, Kutch and Krajcik",
-    "Tooltip": "id",
+    "Id": 975,
+    "Name": "Donnelly-O'Connell",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 612,
-    "Rank": 545
+    "UdListDefinitionId": 639,
+    "Rank": 140
   },
   {
-    "Id": 610,
-    "Name": "Hills, Kutch and Krajcik",
-    "Tooltip": "id",
+    "Id": 975,
+    "Name": "Donnelly-O'Connell",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 612,
-    "Rank": 545
+    "UdListDefinitionId": 639,
+    "Rank": 140
   }
 ]
 ```

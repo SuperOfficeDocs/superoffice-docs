@@ -5,36 +5,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "earum",
-    "InputValues2": "quam"
+    "ticketId": "12345",
+    "customerId": "67890"
   },
-  "BlockExecution": true,
-  "NavigateTo": "placeat",
-  "Message": "quia",
-  "ShowDialog": "quaerat",
+  "BlockExecution": false,
+  "NavigateTo": "ticket.main?id=12345",
+  "Message": "Ticket has been successfully created and assigned",
+  "ShowDialog": "Success",
   "OutputValues": {
-    "OutputValues1": "est",
-    "OutputValues2": "dolore"
+    "assignedTo": "John Anderson",
+    "priority": "High"
   },
   "StateValues": {
-    "StateValues1": "animi",
-    "StateValues2": "eum"
+    "ticketStatus": "Open",
+    "lastModified": "2024-11-27T10:00:00Z"
   },
-  "Exception": "et",
+  "Exception": "",
   "ParserValues": {
-    "ParserValues1": "molestiae",
-    "ParserValues2": "eaque"
+    "scriptName": "new-ticket-auto-assign",
+    "executionTime": "85ms"
   },
   "CgiVariables": {
-    "CgiVariables1": "totam",
-    "CgiVariables2": "quod"
+    "HTTP_USER_AGENT": "SuperOffice/10.0",
+    "REMOTE_ADDR": "192.168.1.100"
   },
-  "CgiContent": "quod",
+  "CgiContent": "{\"action\":\"create\",\"entity\":\"ticket\"}",
   "Headers": {
-    "Headers1": "voluptatibus",
-    "Headers2": "et"
+    "Content-Type": "application/json",
+    "X-Execution-Context": "trigger-script"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

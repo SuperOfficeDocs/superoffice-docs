@@ -2,47 +2,47 @@
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Bartoletti-Koelpin",
-    "ToolTip": "Quia consequatur.",
-    "Deleted": true,
-    "Rank": 769,
-    "Type": "ab",
-    "ColorBlock": 215,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2021-03-30T14:35:45.0051303+02:00",
+    "Id": 96,
+    "Name": "Bernhard Inc and Sons",
+    "ToolTip": "Ab et odio.",
+    "Deleted": false,
+    "Rank": 897,
+    "Type": "blanditiis",
+    "ColorBlock": 45,
+    "IconHint": "doloribus",
+    "Selected": false,
+    "LastChanged": "2018-05-30T14:34:03.2066363+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Zboncak-Russel",
-        "ToolTip": "Maxime molestiae alias sit sequi quam.",
+        "Id": 296,
+        "Name": "Fritsch-Carroll",
+        "ToolTip": "Illum ipsum.",
         "Deleted": false,
-        "Rank": 651,
-        "Type": "labore",
-        "ColorBlock": 698,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2022-02-15T14:35:45.0051303+01:00",
+        "Rank": 327,
+        "Type": "sit",
+        "ColorBlock": 441,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2017-11-07T14:34:03.2066363+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Prof. Thora Jerrod Farrell V"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Ms. Jamaal Rice Jr."
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "quia",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Dr. Pattie Zoe Bogisich"
+    "FullName": "Kraig Rempel"
   }
 ]
 ```

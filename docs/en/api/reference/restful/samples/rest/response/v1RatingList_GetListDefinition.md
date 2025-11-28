@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Romaguera-Marvin",
-  "Tooltip": "atque",
+  "Id": 929,
+  "Name": "Excellent",
+  "Tooltip": "Rating level",
   "Deleted": false,
-  "Rank": 812,
+  "Rank": 851,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 339
     }
   },
   "_Links": {

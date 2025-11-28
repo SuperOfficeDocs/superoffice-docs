@@ -2,22 +2,22 @@
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 49,
-  "BlobSize": 478,
-  "Description": "Focused tertiary paradigm",
-  "ExtraInfo": "est",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "vel",
-  "OriginalSize": 231,
-  "CreatedDate": "2025-03-23T14:35:43.9875236+01:00",
-  "UpdatedDate": "2010-07-31T14:35:43.9875236+02:00",
+  "BlobId": 690,
+  "BlobSize": 3,
+  "Description": "Reactive transitional knowledge user",
+  "ExtraInfo": "odio",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "neque",
+  "OriginalSize": 709,
+  "CreatedDate": "2013-01-14T14:34:02.1587158+01:00",
+  "UpdatedDate": "2022-12-25T14:34:02.1587158+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "blanditiis"
+  "ConceptualType": "porro"
 }
 ```

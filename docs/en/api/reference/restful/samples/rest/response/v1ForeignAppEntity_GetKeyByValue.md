@@ -1,23 +1,23 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 12 Sep 2009 14:35:43 G9T
+Last-Modified: Sat, 25 Mar 2000 14:34:02 G3T
 
 {
-  "Key": "minima",
-  "Value": "rerum",
-  "RecordId": 91,
-  "CreatedDate": "2011-03-31T14:35:43.7846913+02:00",
-  "UpdatedDate": "2009-09-12T14:35:43.7846913+02:00",
-  "UpdatedBy": "porro",
-  "CreatedBy": "exercitationem",
-  "TableName": "Willms-Crist",
+  "Key": "vel",
+  "Value": "quidem",
+  "RecordId": 899,
+  "CreatedDate": "2015-07-01T14:34:02.0250857+02:00",
+  "UpdatedDate": "2000-03-25T14:34:02.0250857+01:00",
+  "UpdatedBy": "animi",
+  "CreatedBy": "temporibus",
+  "TableName": "Leffler, Runolfsdottir and Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

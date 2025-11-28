@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huel, Ankunding and Bode",
-    "DisplayName": "Pacocha Inc and Sons",
-    "Description": "Cross-platform executive local area network",
-    "ToolTip": "Ea porro autem delectus.",
+    "Name": "ExportToExcel",
+    "DisplayName": "Export to Excel",
+    "Description": "Export current selection to Excel spreadsheet",
+    "ToolTip": "Export data to Microsoft Excel format",
     "Actions": "Implicit",
-    "ActionData": "veritatis",
+    "ActionData": "export-excel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

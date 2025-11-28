@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2023-05-13T10:11:01.7477886+02:00",
-  "ValidTo": "2019-04-16T10:11:01.7477886+02:00",
-  "Comment": "pariatur",
-  "SecretValue": "quia",
-  "PublicValue": "cupiditate",
+  "ValidFrom": "2024-01-01T00:00:00+01:00",
+  "ValidTo": "2025-01-01T00:00:00+01:00",
+  "Comment": "",
+  "SecretValue": "",
+  "PublicValue": "",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Parker-Spencer",
-    "Tooltip": "quam",
+    "Id": 913,
+    "Name": "Software",
+    "Tooltip": "Product category",
     "Deleted": false,
-    "UdListDefinitionId": 535,
-    "Rank": 909,
+    "UdListDefinitionId": 593,
+    "Rank": 87,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

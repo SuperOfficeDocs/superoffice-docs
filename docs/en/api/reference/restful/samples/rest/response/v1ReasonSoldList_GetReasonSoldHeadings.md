@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 704,
-    "Name": "Auer, Lesch and McLaughlin",
-    "Tooltip": "dicta",
+    "HeadingId": 442,
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 75,
+    "Rank": 774,
+    "UdListDefinitionId": 89,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldLength": 630
       }
     }
   }

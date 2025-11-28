@@ -3,30 +3,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 541,
-  "Section": "ut",
-  "Key": "eos",
-  "Name": "VonRueden Group",
+  "PrefDescId": 330,
+  "Section": "libero",
+  "Key": "nostrum",
+  "Name": "Email Notifications",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined full-range circuit",
-  "IsBuiltin": true,
-  "TableName": "Kozey Group",
-  "UserDefinedListId": 150,
-  "Rank": 760,
-  "SubGroup": "rerum",
-  "MinLevel": 395,
-  "MaxValue": 599,
-  "MinValue": 844,
-  "RequiredLicense": "rerum",
+  "Description": "Cross-platform directional utilisation",
+  "IsBuiltin": false,
+  "TableName": "Okuneva-Crona",
+  "UserDefinedListId": 884,
+  "Rank": 286,
+  "SubGroup": "sit",
+  "MinLevel": 186,
+  "MaxValue": 547,
+  "MinValue": 680,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   }
 }

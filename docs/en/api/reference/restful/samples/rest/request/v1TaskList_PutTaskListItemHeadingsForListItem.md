@@ -2,47 +2,47 @@
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "McClure-Mohr",
-    "ToolTip": "Reiciendis quod ex.",
-    "Deleted": false,
-    "Rank": 859,
-    "Type": "nihil",
-    "ColorBlock": 323,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2013-08-31T14:35:45.3497623+02:00",
+    "Id": 715,
+    "Name": "Zboncak, Gulgowski and Kuhn",
+    "ToolTip": "Dicta ut at cumque omnis autem autem aut.",
+    "Deleted": true,
+    "Rank": 291,
+    "Type": "tenetur",
+    "ColorBlock": 864,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2016-08-26T14:34:03.5539283+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Berge, Jewess and O'Conner",
-        "ToolTip": "Mollitia dolores id reiciendis aut rerum numquam.",
-        "Deleted": true,
-        "Rank": 749,
-        "Type": "voluptas",
-        "ColorBlock": 345,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "1999-01-23T14:35:45.3497623+01:00",
+        "Id": 348,
+        "Name": "Hills-Luettgen",
+        "ToolTip": "Molestiae sit quia.",
+        "Deleted": false,
+        "Rank": 381,
+        "Type": "sequi",
+        "ColorBlock": 1002,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2015-11-02T14:34:03.5539283+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Fletcher Kutch"
+        "ExtraInfo": "quia",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Pearline Beahan"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Nicola Shemar Emmerich DVM"
+    "ExtraInfo": "rem",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Alfonso Mohr"
   }
 ]
 ```

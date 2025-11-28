@@ -2,47 +2,47 @@
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Walter Group",
-    "ToolTip": "Et eveniet illum velit.",
-    "Deleted": false,
-    "Rank": 466,
-    "Type": "est",
-    "ColorBlock": 190,
-    "IconHint": "qui",
+    "Id": 633,
+    "Name": "Kessler Group",
+    "ToolTip": "Optio voluptas debitis non perferendis rerum odio quis.",
+    "Deleted": true,
+    "Rank": 208,
+    "Type": "et",
+    "ColorBlock": 2,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2002-04-16T14:35:45.2144988+02:00",
+    "LastChanged": "2008-04-01T14:34:03.4441023+02:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Brakus Inc and Sons",
-        "ToolTip": "Possimus est.",
-        "Deleted": false,
-        "Rank": 270,
-        "Type": "modi",
-        "ColorBlock": 86,
-        "IconHint": "sint",
+        "Id": 484,
+        "Name": "Leffler-D'Amore",
+        "ToolTip": "Magni et quod.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "omnis",
+        "ColorBlock": 382,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2025-02-03T14:35:45.2144988+01:00",
+        "LastChanged": "2013-06-17T14:34:03.4441023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Noelia Gleason"
+        "FullName": "Prof. Izabella Nasir Kling V"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Cleveland Funk"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "cum",
+    "Hidden": true,
+    "FullName": "Anderson Marianne Feeney DVM"
   }
 ]
 ```

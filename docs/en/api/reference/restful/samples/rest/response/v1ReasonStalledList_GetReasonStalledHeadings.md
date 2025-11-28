@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 110,
-    "Name": "O'Kon-Spinka",
-    "Tooltip": "provident",
+    "HeadingId": 353,
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 712,
+    "Rank": 607,
+    "UdListDefinitionId": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldType": "System.String",
+        "FieldLength": 906
       }
     }
   }

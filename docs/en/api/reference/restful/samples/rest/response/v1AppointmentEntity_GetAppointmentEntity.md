@@ -1,128 +1,128 @@
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 27 Sep 2008 14:35:43 G9T
+Last-Modified: Sat, 07 May 2022 14:34:01 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-07-25T14:35:43.0685443+02:00",
-  "AppointmentId": 133,
-  "Description": "Pre-emptive content-based challenge",
-  "Title": "amet",
-  "Agenda": "numquam",
-  "InternalNotes": "qui",
-  "StartDate": "2014-11-13T14:35:43.0685443+01:00",
-  "EndDate": "2009-12-13T14:35:43.0685443+01:00",
+  "CreatedDate": "2003-12-22T14:34:01.4402841+01:00",
+  "AppointmentId": 182,
+  "Description": "Quarterly Business Review with Acme Corporation to discuss Q4 performance, upcoming initiatives, and contract renewal.",
+  "Title": "Q4 Business Review - Acme Corp",
+  "Agenda": "1. Review Q4 metrics\n2. Discuss new feature requests\n3. Contract renewal terms\n4. Q&A",
+  "InternalNotes": "Bring updated pricing proposal. Customer mentioned budget concerns last meeting.",
+  "StartDate": "2024-12-05T14:00:00+01:00",
+  "EndDate": "2024-12-05T15:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 192,
+  "MotherId": 150,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-09-27T14:35:43.0685443+02:00",
+  "UpdatedDate": "2022-05-07T14:34:01.4402841+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 328,
+  "ActiveLinks": 1002,
   "Links": [
     {
-      "EntityName": "O'Connell, Dickinson and Mitchell",
-      "Id": 134,
-      "Description": "Decentralized high-level strategy",
-      "ExtraInfo": "vitae",
-      "LinkId": 450,
+      "EntityName": "Reynolds LLC",
+      "Id": 310,
+      "Description": "Link to contract documentation",
+      "ExtraInfo": "eius",
+      "LinkId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldType": "System.String",
+          "FieldLength": 32
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptate",
+  "AlarmLeadTime": "PT30M",
   "HasAlarm": true,
-  "ColorIndex": 155,
-  "IsFree": true,
+  "ColorIndex": 983,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "a",
-  "Location": "architecto",
-  "RejectCounter": 779,
+  "LagTime": "PT0M",
+  "LeadTime": "PT15M",
+  "Location": "Conference Room A, Oslo Office",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 84,
-      "PersonId": 997,
-      "ContactId": 421,
-      "EmailId": 405,
-      "SendEmail": false,
+      "AssociateId": 356,
+      "PersonId": 8,
+      "ContactId": 293,
+      "EmailId": 169,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "angelica@mitchellnikolaus.info",
-      "Description": "Public-key holistic collaboration"
+      "EmailAddress": "sarah.johnson@acmecorp.com",
+      "Description": "Marketing Director at Acme Corporation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-02-04T14:35:43.0685443+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2019-06-16T14:34:01.4402841+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 224,
+  "PreferredTZLocation": 862,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 322,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 588,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloribus",
+  "JoinVideomeetUrl": "https://meet.superoffice.com/meeting/abc123xyz",
+  "CentralserviceVideomeetId": "abc123xyz",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "67917858"
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "et"
+    "ExtraFields1": "Priority customer",
+    "ExtraFields2": "Renewal pending"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "Enterprise",
+    "CustomFields2": "2024"
   },
-  "PublishEventDate": "2002-11-29T14:35:43.0842025+01:00",
-  "PublishTo": "2021-05-04T14:35:43.0842025+02:00",
-  "PublishFrom": "2000-06-25T14:35:43.0842025+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-07-18T14:34:01.4402841+02:00",
+  "PublishTo": "2008-07-29T14:34:01.4402841+02:00",
+  "PublishFrom": "2003-08-18T14:34:01.4402841+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 911,
+      "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     },
     {
-      "VisibleId": 911,
+      "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "All users",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     }
@@ -132,7 +132,7 @@ Last-Modified: Sat, 27 Sep 2008 14:35:43 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 296
     }
   },
   "_Links": {

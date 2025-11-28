@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 746,
-  "PrefDescId": 623,
-  "PrefValue": "nihil",
-  "PrefShowValue": "consectetur",
-  "Description": "Future-proofed local neural-net",
+  "PrefDescLineId": 576,
+  "PrefDescId": 409,
+  "PrefValue": "fuga",
+  "PrefShowValue": "dignissimos",
+  "Description": "User preference setting",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 831
     }
   },
   "_Links": {

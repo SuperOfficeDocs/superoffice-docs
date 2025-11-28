@@ -2,47 +2,47 @@
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Schuster, Krajcik and Huel",
-    "ToolTip": "Quisquam aperiam non vel.",
+    "Id": 799,
+    "Name": "Hodkiewicz Group",
+    "ToolTip": "Deleniti et vel.",
     "Deleted": false,
-    "Rank": 638,
-    "Type": "ipsam",
-    "ColorBlock": 374,
-    "IconHint": "reprehenderit",
+    "Rank": 141,
+    "Type": "autem",
+    "ColorBlock": 792,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2020-08-05T14:35:44.8659598+02:00",
+    "LastChanged": "2006-09-11T14:34:03.0970502+02:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Rosenbaum, Trantow and Daugherty",
-        "ToolTip": "Velit amet recusandae asperiores libero nam.",
+        "Id": 71,
+        "Name": "Mertz Group",
+        "ToolTip": "Qui eaque laborum qui voluptates porro ab.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "ducimus",
-        "ColorBlock": 145,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2017-07-14T14:35:44.8659598+02:00",
+        "Rank": 917,
+        "Type": "animi",
+        "ColorBlock": 425,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2014-08-15T14:34:03.0970502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Bridget Schinner"
+        "ExtraInfo": "autem",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Miss Quinn Reese Champlin"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Clotilde Larkin"
+    "ExtraInfo": "sit",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Ms. Augustine Koepp"
   }
 ]
 ```

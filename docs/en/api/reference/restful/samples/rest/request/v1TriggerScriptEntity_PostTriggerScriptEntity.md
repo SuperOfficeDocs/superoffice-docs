@@ -2,19 +2,19 @@
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 159,
-  "Name": "Adams-Nikolaus",
+  "ScreenChooserId": 474,
+  "Name": "Schumm Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "doloribus",
-  "Source": "odio",
-  "Registered": "2000-06-07T14:35:44.5065066+02:00",
-  "RegisteredAssociateId": 443,
-  "Updated": "2012-11-18T14:35:44.5065066+01:00",
-  "UpdatedAssociateId": 65
+  "Enabled": false,
+  "UniqueIdentifier": "autem",
+  "Source": "vero",
+  "Registered": "2024-12-22T14:34:02.6914737+01:00",
+  "RegisteredAssociateId": 236,
+  "Updated": "2005-02-17T14:34:02.6914737+01:00",
+  "UpdatedAssociateId": 535
 }
 ```

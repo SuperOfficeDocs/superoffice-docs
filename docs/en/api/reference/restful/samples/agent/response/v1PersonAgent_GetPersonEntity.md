@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PersonId": 773,
-  "Firstname": "Quinten",
-  "MiddleName": "Murray-Ruecker",
-  "Lastname": "Murphy",
-  "Mrmrs": "non",
-  "Title": "vel",
-  "UpdatedDate": "2009-11-18T10:11:00.5370087+01:00",
-  "CreatedDate": "2007-01-14T10:11:00.5370087+01:00",
-  "BirthDate": "2017-08-27T10:11:00.5370087+02:00",
+  "Firstname": "John",
+  "MiddleName": "Michael",
+  "Lastname": "Anderson",
+  "Mrmrs": "Mr.",
+  "Title": "Sales Manager",
+  "UpdatedDate": "2024-11-27T10:15:00+01:00",
+  "CreatedDate": "2023-01-14T09:30:00+01:00",
+  "BirthDate": "1985-03-15T00:00:00+01:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "ut",
-      "StrippedValue": "sapiente",
-      "Description": "Right-sized global secured line",
+      "Value": "john.anderson@acmecorp.com",
+      "StrippedValue": "john.anderson@acmecorp.com",
+      "Description": "Work Email",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -28,9 +28,9 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "sapiente",
-      "Description": "Right-sized global secured line",
+      "Value": "j.anderson@personal.com",
+      "StrippedValue": "j.anderson@personal.com",
+      "Description": "Private Email",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -41,13 +41,13 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Description": "Digitized explicit orchestration",
+  "Description": "Senior Sales Manager at Acme Corporation, responsible for North American market",
   "IsAssociate": false,
   "PrivatePhones": [
     {
-      "Value": "cupiditate",
-      "StrippedValue": "aperiam",
-      "Description": "Versatile mobile orchestration",
+      "Value": "+1 555-0199",
+      "StrippedValue": "+1 555-0199",
+      "Description": "Home Phone",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "MobilePhones": [
     {
-      "Value": "voluptatibus",
-      "StrippedValue": "commodi",
-      "Description": "Self-enabling uniform projection",
+      "Value": "+1 555-0123",
+      "StrippedValue": "+1 555-0123",
+      "Description": "Mobile Phone",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -129,9 +129,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "OfficePhones": [
     {
-      "Value": "nihil",
-      "StrippedValue": "dicta",
-      "Description": "Adaptive 5th generation productivity",
+      "Value": "+1 555-0100",
+      "StrippedValue": "+1 555-0100",
+      "Description": "Office Direct Line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "PersonNumber": "821096",
-  "FullName": "Brad Cole",
+  "PersonNumber": "10000",
+  "FullName": "John Michael Anderson",
   "NoMailing": false,
   "UsePersonAddress": false,
   "Retired": false,
@@ -250,18 +250,18 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FormalName": "Spinka Group",
+  "FormalName": "Mr. John Michael Anderson",
   "Address": null,
-  "Post3": "voluptatem",
-  "Post2": "quod",
-  "Post1": "est",
+  "Post3": "USA",
+  "Post2": "New York, NY 10001",
+  "Post1": "123 Main Street",
   "Kanalname": "nostrum",
   "Kanafname": "cupiditate",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "nulla",
+  "Salutation": "Dear Mr. Anderson",
   "ActiveInterests": 550,
   "SupportAssociate": null,
   "TicketPriority": null,
@@ -364,20 +364,20 @@ Content-Type: application/json; charset=utf-8
   "Consents": [
     {
       "ConsentPersonId": 229,
-      "Comment": "vel",
-      "Registered": "2021-06-15T10:11:00.5370087+02:00",
+      "Comment": "Consent provided via web form during account registration",
+      "Registered": "2024-01-15T09:30:00+01:00",
       "RegisteredAssociateId": 620,
-      "Updated": "2003-09-02T10:11:00.5370087+02:00",
+      "Updated": "2024-11-27T14:20:00+01:00",
       "UpdatedAssociateId": 231,
       "LegalBaseId": 800,
-      "LegalBaseKey": "architecto",
-      "LegalBaseName": "Barrows-King",
+      "LegalBaseKey": "consent",
+      "LegalBaseName": "Consent",
       "ConsentPurposeId": 506,
-      "ConsentPurposeKey": "sit",
-      "ConsentPurposeName": "McLaughlin Inc and Sons",
+      "ConsentPurposeKey": "sales_marketing",
+      "ConsentPurposeName": "Sales and Marketing Communications",
       "ConsentSourceId": 266,
-      "ConsentSourceKey": "sequi",
-      "ConsentSourceName": "Koch-Mraz",
+      "ConsentSourceKey": "web_form",
+      "ConsentSourceName": "Web Form",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -389,8 +389,8 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "BounceEmails": [
-    "merle.macejkovic@leschcole.us",
-    "bill_connelly@bartoletti.info"
+    "old.email@bounced.com",
+    "invalid.address@nonexistent.org"
   ],
   "ActiveStatusMonitorId": 542,
   "CreatedByFormId": 27,

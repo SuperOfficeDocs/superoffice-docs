@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Heller-Lubowitz",
-  "Tooltip": "quasi",
+  "Id": 458,
+  "Name": "Hudson Group",
+  "Tooltip": "Sale reason",
   "Deleted": true,
-  "Rank": 461,
+  "Rank": 789,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
+  "ListType": "architecto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 231
     }
   }
 }

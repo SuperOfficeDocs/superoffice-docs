@@ -3,34 +3,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 709,
-  "Name": "Tromp-Maggio",
+  "WebPanelId": 174,
+  "Name": "Partner Dashboard",
   "Tooltip": "aliquam",
-  "Deleted": true,
-  "Rank": 542,
+  "Deleted": false,
+  "Rank": 221,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Satterfield LLC",
+  "WindowName": "Kemmer Group",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 894,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "aut",
+  "Icon": 660,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

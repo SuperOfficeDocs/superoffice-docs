@@ -2,18 +2,18 @@
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 957,
-  "Name": "Ryan Inc and Sons",
-  "Rank": 363,
-  "Tooltip": "ut",
+  "AssociateId": 642,
+  "Name": "Gusikowski-Ward",
+  "Rank": 182,
+  "Tooltip": "ratione",
   "LicenseOwners": [
     {
-      "Name": "Lebsack Inc and Sons",
-      "Description": "Streamlined mission-critical workforce",
+      "Name": "Veum, Welch and Thiel",
+      "Description": "Multi-lateral discrete Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -24,8 +24,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lebsack Inc and Sons",
-      "Description": "Streamlined mission-critical workforce",
+      "Name": "Veum, Welch and Thiel",
+      "Description": "Multi-lateral discrete Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -40,87 +40,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "quia",
-      "Id": 866,
-      "Rank": 691,
-      "Deleted": false
+      "Value": "illum",
+      "Tooltip": "est",
+      "Id": 970,
+      "Rank": 422,
+      "Deleted": true
     },
     {
-      "Value": "sed",
-      "Tooltip": "quia",
-      "Id": 866,
-      "Rank": 691,
-      "Deleted": false
+      "Value": "illum",
+      "Tooltip": "est",
+      "Id": 970,
+      "Rank": 422,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2023-09-27T14:35:44.7089208+02:00",
-  "Lastlogout": "2013-01-31T14:35:44.7089208+01:00",
-  "EjUserId": 838,
-  "RequestSignature": "est",
+  "Lastlogin": "2010-04-14T14:34:02.9094863+02:00",
+  "Lastlogout": "2000-01-31T14:34:02.9094863+01:00",
+  "EjUserId": 813,
+  "RequestSignature": "doloremque",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "ut"
+      "Value": "numquam",
+      "DisplayValue": "ea"
     },
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "ut"
+      "Value": "numquam",
+      "DisplayValue": "ea"
     }
   ],
-  "UserName": "Runolfsdottir, Crooks and Berge",
+  "UserName": "Gusikowski LLC",
   "TicketCategories": [
     {
-      "Id": 118,
-      "Name": "Grady-Hackett",
-      "ToolTip": "Reiciendis ipsa saepe sunt sed sunt facilis eos.",
+      "Id": 30,
+      "Name": "Kuhic, Price and Mayert",
+      "ToolTip": "Tenetur enim aut.",
       "Deleted": false,
-      "Rank": 984,
-      "Type": "quo",
+      "Rank": 349,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 832,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "ex",
-      "FullName": "Prof. Lois Robel III"
+      "IconHint": "eius",
+      "ColorBlock": 100,
+      "ExtraInfo": "vel",
+      "StyleHint": "voluptate",
+      "FullName": "Elinor Shields"
     }
   ],
-  "NickName": "Stracke, Lind and Deckow",
-  "WaitingForApproval": true,
+  "NickName": "Stracke-Gleason",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "eos"
+    "CustomFields1": "non",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Klocko-Skiles",
-      "DisplayName": "Schaden, Becker and Bergstrom",
-      "Description": "Innovative object-oriented archive",
-      "ToolTip": "Consequatur est ut excepturi a sed totam quisquam.",
+      "Name": "Kulas-Smith",
+      "DisplayName": "Mueller, Renner and Schumm",
+      "Description": "Polarised dynamic protocol",
+      "ToolTip": "Distinctio exercitationem veritatis occaecati et at.",
       "Actions": "Implicit",
-      "ActionData": "quasi"
+      "ActionData": "soluta"
     },
     {
-      "Name": "Klocko-Skiles",
-      "DisplayName": "Schaden, Becker and Bergstrom",
-      "Description": "Innovative object-oriented archive",
-      "ToolTip": "Consequatur est ut excepturi a sed totam quisquam.",
+      "Name": "Kulas-Smith",
+      "DisplayName": "Mueller, Renner and Schumm",
+      "Description": "Polarised dynamic protocol",
+      "ToolTip": "Distinctio exercitationem veritatis occaecati et at.",
       "Actions": "Implicit",
-      "ActionData": "quasi"
+      "ActionData": "soluta"
     }
   ]
 }

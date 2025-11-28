@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Jewess Group",
-    "ToolTip": "Repudiandae sit voluptates rerum optio rerum assumenda.",
+    "Id": 945,
+    "Name": "List Item",
+    "ToolTip": "Aut itaque sed omnis aliquid laboriosam repudiandae.",
     "Deleted": false,
-    "Rank": 857,
-    "Type": "non",
-    "ColorBlock": 392,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2007-09-01T14:35:44.7631283+02:00",
+    "Rank": 790,
+    "Type": "excepturi",
+    "ColorBlock": 140,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2013-10-03T14:34:02.9633579+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Kulas, Bartell and Kozey",
-        "ToolTip": "Id quo enim iure cumque occaecati sit repudiandae.",
+        "Id": 237,
+        "Name": "List Item",
+        "ToolTip": "Et ut veniam rem.",
         "Deleted": false,
-        "Rank": 16,
-        "Type": "deleniti",
-        "ColorBlock": 319,
-        "IconHint": "amet",
+        "Rank": 384,
+        "Type": "dolores",
+        "ColorBlock": 233,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "1998-08-04T14:35:44.7641288+02:00",
+        "LastChanged": "2025-07-20T14:34:02.9633579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "architecto",
+        "ExtraInfo": "velit",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Prof. Trevor Brent Crona",
+        "FullName": "Freida Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 224
+            "FieldType": "System.Int32",
+            "FieldLength": 419
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Mr. Eleazar Murl Powlowski",
+    "ExtraInfo": "id",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Josefina Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 112
       }
     }
   }

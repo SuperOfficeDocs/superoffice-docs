@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum, Borer and Boyle",
-    "DisplayName": "Yost, Abbott and Abshire",
-    "DisplayTooltip": "et",
+    "Name": "CompanyNameAndDepartment",
+    "DisplayName": "Company Name and Department",
+    "DisplayTooltip": "Finds companies with identical name and department",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
@@ -18,9 +18,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Bergnaum, Borer and Boyle",
-    "DisplayName": "Yost, Abbott and Abshire",
-    "DisplayTooltip": "et",
+    "Name": "EmailAddress",
+    "DisplayName": "Email Address",
+    "DisplayTooltip": "Finds persons with identical email addresses",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {

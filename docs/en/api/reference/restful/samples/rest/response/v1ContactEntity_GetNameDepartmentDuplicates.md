@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Berge Inc and Sons",
-    "SoPrimaryKey": 963,
-    "EntryName": "Mills LLC",
-    "EntryIdentifier": "dolor",
-    "RuleDisplayName": "Bosco, Hyatt and Watsica",
+    "RuleName": "Okuneva, Mosciski and Halvorson",
+    "SoPrimaryKey": 879,
+    "EntryName": "Gusikowski-Bernier",
+    "EntryIdentifier": "rerum",
+    "RuleDisplayName": "Jacobi, Leannon and Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldType": "System.String",
+        "FieldLength": 457
       }
     }
   }

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 786,
-    "Name": "Morissette, Collins and Lueilwitz",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "Rank": 986,
-    "UdListDefinitionId": 733,
+    "HeadingId": 286,
+    "Name": "Gorczany, McLaughlin and Donnelly",
+    "Tooltip": "Currency type",
+    "Deleted": false,
+    "Rank": 618,
+    "UdListDefinitionId": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

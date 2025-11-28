@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "et",
-  "Inserts": 736,
-  "Updates": 19,
-  "Deletes": 595,
+  "Success": true,
+  "Message": "Successfully deleted 2 rows from contact table",
+  "Inserts": 0,
+  "Updates": 0,
+  "Deletes": 2,
   "RowStatus": [
     {
-      "PrimaryKey": 31,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 123,
+      "Action": "Deleted",
       "RowKeys": [
-        "aut",
-        "iure"
+        "contact_id=123",
+        "name=Acme Corporation"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -26,11 +26,11 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "PrimaryKey": 31,
-      "Action": "ColumnsZeroed",
+      "PrimaryKey": 124,
+      "Action": "Deleted",
       "RowKeys": [
-        "aut",
-        "iure"
+        "contact_id=124",
+        "name=TechCorp Solutions"
       ],
       "TableRight": null,
       "FieldProperties": {

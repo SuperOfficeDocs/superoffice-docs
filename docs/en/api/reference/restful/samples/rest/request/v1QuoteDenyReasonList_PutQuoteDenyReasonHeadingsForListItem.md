@@ -2,47 +2,47 @@
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Pfannerstill, Hettinger and Wintheiser",
-    "ToolTip": "Adipisci sed exercitationem quo nobis expedita.",
+    "Id": 309,
+    "Name": "Jacobi-Larkin",
+    "ToolTip": "Voluptatem sed.",
     "Deleted": false,
-    "Rank": 782,
-    "Type": "ullam",
-    "ColorBlock": 765,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2014-10-11T14:35:45.2014687+02:00",
+    "Rank": 752,
+    "Type": "nihil",
+    "ColorBlock": 633,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2015-09-03T14:34:03.4247688+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Roob, Stokes and Cassin",
-        "ToolTip": "Sit temporibus consequuntur.",
-        "Deleted": true,
-        "Rank": 494,
-        "Type": "quis",
-        "ColorBlock": 273,
-        "IconHint": "quidem",
+        "Id": 906,
+        "Name": "Predovic-Hamill",
+        "ToolTip": "Suscipit sunt.",
+        "Deleted": false,
+        "Rank": 446,
+        "Type": "soluta",
+        "ColorBlock": 707,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2005-02-28T14:35:45.2014687+01:00",
+        "LastChanged": "2025-05-22T14:34:03.4247688+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "qui",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Ignacio Spinka"
+        "FullName": "Maegan Romaguera"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Mrs. Nat Modesto Spencer"
+    "FullName": "Dr. Lura Dejah Adams"
   }
 ]
 ```

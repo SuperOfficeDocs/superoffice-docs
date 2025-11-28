@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 7208.2,
-  "Wgs84Longitude": 676.944,
+  "Wgs84Latitude": 48.8566,
+  "Wgs84Longitude": 2.3522,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kulas, Reilly and Tremblay",
-        "Value": "harum",
-        "Tooltip": "non",
-        "Label": "commodi",
-        "ValueLength": 173,
-        "AddressType": "vel",
+        "Name": "Street Address",
+        "Value": "Avenue des Champs-Élysées",
+        "Tooltip": "Street address",
+        "Label": "Address",
+        "ValueLength": 25,
+        "AddressType": "Street",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -26,12 +26,12 @@ Content-Type: application/json; charset=utf-8
     ],
     [
       {
-        "Name": "Fahey-Skiles",
-        "Value": "dicta",
-        "Tooltip": "vero",
-        "Label": "facere",
-        "ValueLength": 219,
-        "AddressType": "aut",
+        "Name": "City",
+        "Value": "Paris",
+        "Tooltip": "City name",
+        "Label": "City",
+        "ValueLength": 5,
+        "AddressType": "City",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

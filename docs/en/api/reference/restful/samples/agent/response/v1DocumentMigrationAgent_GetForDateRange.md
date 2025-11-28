@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 189,
-  "NumDocumentsAlreadyMigrated": 471,
+  "NumDocumentsOmitted": 5,
+  "NumDocumentsAlreadyMigrated": 834,
   "Documents": [
     {
       "DocumentId": 989,
@@ -21,11 +21,11 @@ Content-Type: application/json; charset=utf-8
   "Associates": [
     {
       "AssociateId": 699,
-      "EmailAddress": "nicolas.macejkovic@gleasonstokes.co.uk"
+      "EmailAddress": "david.martinez@nordicsolutions.no"
     },
     {
-      "AssociateId": 699,
-      "EmailAddress": "nicolas.macejkovic@gleasonstokes.co.uk"
+      "AssociateId": 700,
+      "EmailAddress": "anna.berg@nordicsolutions.no"
     }
   ]
 }

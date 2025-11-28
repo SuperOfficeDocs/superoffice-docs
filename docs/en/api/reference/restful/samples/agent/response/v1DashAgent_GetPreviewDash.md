@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardId": 330,
-  "Name": "Oberbrunner LLC",
-  "Description": "Programmable needs-based intranet",
-  "OwnedByFullName": "Carlos Orn I",
+  "Name": "Analytics Dashboard Preview",
+  "Description": "Real-time analytics with sales trends, customer insights, and performance indicators",
+  "OwnedByFullName": "John Anderson",
   "Registered": "2001-01-22T10:10:59.615544+01:00",
   "Tiles": [
     {
-      "Name": "Grant, Walsh and Stiedemann",
+      "Name": "Sales Pipeline",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
@@ -22,8 +22,8 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Grant, Walsh and Stiedemann",
-      "TileType": "Area",
+      "Name": "Monthly Revenue",
+      "TileType": "Bignum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

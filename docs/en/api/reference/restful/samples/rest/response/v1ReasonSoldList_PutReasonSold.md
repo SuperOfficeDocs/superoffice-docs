@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Kozey-Kessler",
-  "Tooltip": "est",
+  "Id": 204,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "UdListDefinitionId": 703,
-  "Rank": 192,
+  "UdListDefinitionId": 687,
+  "Rank": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   }
 }

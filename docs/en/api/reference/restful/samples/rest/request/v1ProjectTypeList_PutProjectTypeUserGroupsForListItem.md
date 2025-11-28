@@ -2,47 +2,47 @@
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Lynch, Lynch and Kutch",
-    "ToolTip": "Et voluptas animi consectetur.",
+    "Id": 293,
+    "Name": "O'Kon-Herman",
+    "ToolTip": "Eligendi perspiciatis autem totam laboriosam dolore cumque optio.",
     "Deleted": false,
-    "Rank": 247,
-    "Type": "iure",
-    "ColorBlock": 225,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2019-09-26T14:35:45.1685065+02:00",
+    "Rank": 973,
+    "Type": "facilis",
+    "ColorBlock": 552,
+    "IconHint": "inventore",
+    "Selected": false,
+    "LastChanged": "2016-09-14T14:34:03.3932168+02:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Crona Inc and Sons",
-        "ToolTip": "Asperiores quidem vel iste sequi tempore.",
+        "Id": 877,
+        "Name": "Kautzer, Bode and Hegmann",
+        "ToolTip": "Tempora rerum.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "voluptate",
-        "ColorBlock": 374,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2021-09-03T14:35:45.1685065+02:00",
+        "Rank": 479,
+        "Type": "earum",
+        "ColorBlock": 673,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2006-06-21T14:34:03.3932168+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Twila Bogisich"
+        "ExtraInfo": "fuga",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Dr. Cecil Kristopher Jones"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Ms. Elva Schiller"
+    "ExtraInfo": "sint",
+    "StyleHint": "possimus",
+    "Hidden": true,
+    "FullName": "Prof. Brennan May Ankunding Sr."
   }
 ]
 ```

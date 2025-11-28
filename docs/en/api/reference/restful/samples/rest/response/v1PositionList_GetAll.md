@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Nolan-Corkery",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "UdListDefinitionId": 525,
-    "Rank": 933,
+    "Id": 137,
+    "Name": "Sales Manager",
+    "Tooltip": "Job position",
+    "Deleted": true,
+    "UdListDefinitionId": 283,
+    "Rank": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 189
       }
     }
   }

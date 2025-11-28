@@ -2,34 +2,34 @@
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 356,
-  "UniqueId": "et",
-  "Name": "Reichel, Erdman and Wiza",
-  "Description": "Synergistic zero administration adapter",
-  "AssociateId": 66,
-  "Columns": 128,
+  "DashboardId": 609,
+  "UniqueId": "labore",
+  "Name": "McGlynn LLC",
+  "Description": "Upgradable composite methodology",
+  "AssociateId": 940,
+  "Columns": 641,
   "Theme": null,
-  "VisibleForAll": 815,
+  "VisibleForAll": 166,
   "VisibleForAssociates": [
-    888,
-    228
+    524,
+    265
   ],
   "VisibleForGroups": [
-    404,
-    546
+    699,
+    833
   ],
-  "PinForAll": 837,
+  "PinForAll": 824,
   "PinForAssociates": [
-    712,
-    869
+    760,
+    864
   ],
   "PinForGroups": [
-    556,
-    524
+    481,
+    232
   ]
 }
 ```

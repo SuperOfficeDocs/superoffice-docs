@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Koelpin-Huels",
-    "ToolTip": "Quia aperiam corporis totam ut mollitia est.",
+    "Id": 21,
+    "Name": "Sales Team",
+    "ToolTip": "Qui quae recusandae voluptas aliquid expedita quibusdam.",
     "Deleted": false,
-    "Rank": 3,
-    "Type": "sint",
-    "ColorBlock": 56,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2012-09-22T14:35:44.9095249+02:00",
+    "Rank": 399,
+    "Type": "est",
+    "ColorBlock": 105,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2001-02-26T14:34:03.0970502+01:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Crist, Medhurst and Davis",
-        "ToolTip": "Voluptatem voluptatem distinctio reprehenderit ut perspiciatis itaque.",
-        "Deleted": true,
-        "Rank": 10,
-        "Type": "est",
-        "ColorBlock": 158,
-        "IconHint": "quas",
+        "Id": 460,
+        "Name": "Sales Team",
+        "ToolTip": "Animi voluptatem labore cum ex asperiores.",
+        "Deleted": false,
+        "Rank": 49,
+        "Type": "consectetur",
+        "ColorBlock": 777,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2021-01-11T14:35:44.9095249+01:00",
+        "LastChanged": "2020-12-07T14:34:03.0970502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Miss Adalberto Erdman",
+        "ExtraInfo": "quis",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Kenya Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldType": "System.String",
+            "FieldLength": 420
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "enim",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Dr. Elmira Fanny Stiedemann III",
+    "FullName": "Dr. Karen Stokes Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 815
       }
     }
   }

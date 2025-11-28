@@ -2,15 +2,15 @@
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 892,
-  "Name": "Connelly Group",
-  "Tooltip": "laudantium",
+  "HeadingId": 418,
+  "Name": "Schinner, Mohr and King",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 662,
-  "UdListDefinitionId": 927
+  "Rank": 160,
+  "UdListDefinitionId": 968
 }
 ```

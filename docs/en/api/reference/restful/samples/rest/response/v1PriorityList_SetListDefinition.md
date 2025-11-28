@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Davis, Sipes and Mitchell",
-  "Tooltip": "voluptatibus",
+  "Id": 231,
+  "Name": "High",
+  "Tooltip": "Priority level",
   "Deleted": false,
-  "Rank": 177,
-  "IsCustomList": false,
+  "Rank": 459,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 849
     }
   }
 }

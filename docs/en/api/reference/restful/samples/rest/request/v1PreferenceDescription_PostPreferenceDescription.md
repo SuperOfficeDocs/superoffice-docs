@@ -6,23 +6,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 476,
-  "Section": "qui",
-  "Key": "ab",
-  "Name": "Langworth Group",
+  "PrefDescId": 290,
+  "Section": "dolor",
+  "Key": "laudantium",
+  "Name": "Kautzer, Gottlieb and Zulauf",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed multi-tasking structure",
+  "Description": "Customizable explicit Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "Koss-Kassulke",
-  "UserDefinedListId": 80,
-  "Rank": 599,
-  "SubGroup": "qui",
-  "MinLevel": 25,
-  "MaxValue": 156,
-  "MinValue": 451,
-  "RequiredLicense": "illo"
+  "TableName": "Grimes-King",
+  "UserDefinedListId": 662,
+  "Rank": 94,
+  "SubGroup": "quis",
+  "MinLevel": 433,
+  "MaxValue": 239,
+  "MinValue": 681,
+  "RequiredLicense": "ex"
 }
 ```

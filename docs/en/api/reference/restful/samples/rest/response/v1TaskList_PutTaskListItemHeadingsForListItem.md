@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Gutkowski-Bogisich",
-    "ToolTip": "Officia esse quod natus aspernatur nihil minus.",
-    "Deleted": false,
-    "Rank": 613,
-    "Type": "deserunt",
-    "ColorBlock": 958,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2002-09-26T14:35:45.3497623+02:00",
+    "Id": 125,
+    "Name": "Meeting",
+    "ToolTip": "Ullam voluptas et fugiat et animi a dolor.",
+    "Deleted": true,
+    "Rank": 969,
+    "Type": "velit",
+    "ColorBlock": 228,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2008-06-03T14:34:03.5662523+02:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Kuvalis, Wehner and Collier",
-        "ToolTip": "Est vero qui ea quidem veniam molestias.",
+        "Id": 582,
+        "Name": "Meeting",
+        "ToolTip": "Voluptatem harum odio.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "dolore",
-        "ColorBlock": 611,
-        "IconHint": "perferendis",
+        "Rank": 917,
+        "Type": "itaque",
+        "ColorBlock": 33,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2003-03-29T14:35:45.3497623+01:00",
+        "LastChanged": "2004-04-20T14:34:03.5662523+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "non",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Veda Weber",
+        "FullName": "Jordan Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Iliana Hand",
+    "ExtraInfo": "fugit",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Daphne Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldType": "System.Int32",
+        "FieldLength": 448
       }
     }
   }

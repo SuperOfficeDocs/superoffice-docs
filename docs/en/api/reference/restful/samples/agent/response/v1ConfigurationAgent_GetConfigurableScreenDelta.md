@@ -3,22 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 357,
-  "Name": "Eichmann-Krajcik",
-  "Description": "Grass-roots value-added frame",
-  "DeltaJson": "sit",
+  "ConfigurableScreenDeltaId": 456,
+  "Name": "Contact Custom Fields",
+  "Description": "Additional fields for contact management",
+  "DeltaJson": "{\"fields\":[{\"name\":\"Industry\",\"type\":\"list\",\"required\":true},{\"name\":\"AnnualRevenue\",\"type\":\"decimal\",\"required\":false}]}",
   "DeltaType": "CustomFields",
-  "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "1999-11-25T10:10:59.2499157+01:00",
-  "CreatedDate": "2009-12-02T10:10:59.2499157+01:00",
+  "DeltaState": "Published",
+  "RecipeId": "contact-extra-fields-v2",
+  "UpdatedDate": "2024-11-20T09:15:00+01:00",
+  "CreatedDate": "2024-10-15T14:30:00+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    370,
-    162
+    1,
+    2,
+    3
   ],
-  "AppliesToKey": "tenetur",
+  "AppliesToKey": "contact-card",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

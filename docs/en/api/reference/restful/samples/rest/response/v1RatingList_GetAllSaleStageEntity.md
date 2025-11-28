@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 163,
-    "Value": "est",
-    "Tooltip": "laboriosam",
-    "Probability": 118,
+    "SaleStageId": 429,
+    "Value": "cupiditate",
+    "Tooltip": "Rating level",
+    "Probability": 648,
     "Deleted": false,
-    "Rank": 566,
+    "Rank": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 593
       }
     }
   }

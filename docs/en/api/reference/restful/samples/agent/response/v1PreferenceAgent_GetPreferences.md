@@ -5,15 +5,15 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "voluptas",
+    "RawValue": "24",
     "Specification": null,
-    "DisplayValue": "tempora",
-    "DisplayTooltip": "est",
+    "DisplayValue": "24 hours",
+    "DisplayTooltip": "Default duration for appointments",
     "DisplayType": "Bool",
     "TabOrder": null,
     "TargetId": 766,
     "PrefDescId": 367,
-    "TableName": "Nikolaus-Crooks",
+    "TableName": "UserPreference",
     "UserPreferenceId": 489,
     "TableRight": null,
     "FieldProperties": {

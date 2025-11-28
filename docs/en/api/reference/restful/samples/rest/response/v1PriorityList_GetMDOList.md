@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Upton, Wunsch and Schultz",
-    "ToolTip": "Dicta voluptas nobis beatae sunt in quaerat magnam.",
-    "Deleted": false,
-    "Rank": 165,
-    "Type": "ipsam",
+    "Id": 105,
+    "Name": "High",
+    "ToolTip": "Amet officia voluptate commodi sit.",
+    "Deleted": true,
+    "Rank": 304,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Ratke Group",
-        "ToolTip": "Qui neque corrupti exercitationem soluta ut id.",
+        "Id": 924,
+        "Name": "Medium",
+        "ToolTip": "Ipsa ea nesciunt et excepturi qui sit.",
         "Deleted": true,
-        "Rank": 483,
-        "Type": "ratione",
+        "Rank": 858,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 207,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "voluptas",
-        "FullName": "Johnny Sipes",
+        "IconHint": "id",
+        "ColorBlock": 733,
+        "ExtraInfo": "ut",
+        "StyleHint": "repellendus",
+        "FullName": "Solon Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 224
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 369,
-    "ExtraInfo": "dolor",
-    "StyleHint": "consectetur",
-    "FullName": "Sherman Ally Waters V",
+    "IconHint": "pariatur",
+    "ColorBlock": 655,
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "FullName": "Tanner Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

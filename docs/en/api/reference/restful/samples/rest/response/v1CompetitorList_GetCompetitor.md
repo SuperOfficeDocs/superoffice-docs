@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Larkin, Maggio and Dickinson",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 642,
-  "Rank": 179,
+  "Id": 75,
+  "Name": "Kub Inc and Sons",
+  "Tooltip": "Competitor company",
+  "Deleted": true,
+  "UdListDefinitionId": 814,
+  "Rank": 955,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

@@ -2,15 +2,15 @@
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Green Group",
-  "Tooltip": "ab",
+  "Id": 686,
+  "Name": "Turcotte-Rohan",
+  "Tooltip": "earum",
   "Deleted": false,
-  "UdListDefinitionId": 146,
-  "Rank": 12
+  "UdListDefinitionId": 125,
+  "Rank": 630
 }
 ```

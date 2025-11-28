@@ -2,15 +2,15 @@
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 178,
-  "Name": "Pfannerstill Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 95,
-  "UdListDefinitionId": 238
+  "HeadingId": 86,
+  "Name": "Steuber LLC",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 520,
+  "UdListDefinitionId": 51
 }
 ```

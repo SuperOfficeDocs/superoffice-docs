@@ -3,36 +3,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 97,
-  "ParentId": 724,
-  "Name": "White-Gibson",
-  "Fullname": "dolores",
-  "CategoryMaster": 802,
+  "TicketCategoryId": 637,
+  "ParentId": 517,
+  "Name": "Technical Support",
+  "Fullname": "aperiam",
+  "CategoryMaster": 473,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dibbert Inc and Sons",
+  "ExternalName": "Shanahan Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 659,
-  "ReplyTemplate": 753,
-  "NotificationEmail": "alisa_kuvalis@mantehyatt.info",
+  "AssignmentLag": 765,
+  "ReplyTemplate": 17,
+  "NotificationEmail": "jensen@starkkozey.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 265,
+  "EffectiveReplyTemplateId": 245,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "neque",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

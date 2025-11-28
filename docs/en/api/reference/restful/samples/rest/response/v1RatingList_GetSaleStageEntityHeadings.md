@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 626,
-    "Name": "Wolf-Cole",
-    "Tooltip": "at",
+    "HeadingId": 561,
+    "Name": "Good",
+    "Tooltip": "Rating level",
     "Deleted": true,
-    "Rank": 57,
-    "UdListDefinitionId": 923,
+    "Rank": 586,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldType": "System.Int32",
+        "FieldLength": 701
       }
     }
   }

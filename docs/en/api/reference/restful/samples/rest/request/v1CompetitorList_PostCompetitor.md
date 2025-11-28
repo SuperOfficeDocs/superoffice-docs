@@ -2,15 +2,15 @@
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "Name": "Gottlieb, Nicolas and Walter",
-  "Tooltip": "velit",
+  "Id": 366,
+  "Name": "Lynch Group",
+  "Tooltip": "modi",
   "Deleted": false,
-  "UdListDefinitionId": 860,
-  "Rank": 874
+  "UdListDefinitionId": 752,
+  "Rank": 449
 }
 ```

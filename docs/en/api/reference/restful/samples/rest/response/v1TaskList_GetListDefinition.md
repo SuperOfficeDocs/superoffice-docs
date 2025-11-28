@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Johns, Reinger and West",
-  "Tooltip": "eaque",
+  "Id": 102,
+  "Name": "Phone Call",
+  "Tooltip": "Task type",
   "Deleted": false,
-  "Rank": 997,
+  "Rank": 526,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "error",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 239
     }
   },
   "_Links": {

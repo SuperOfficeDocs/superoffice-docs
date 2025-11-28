@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cole-Dickinson",
-    "DisplayName": "Prosacco LLC",
-    "Description": "Sharable neutral data-warehouse",
-    "ShortLabel": "culpa",
+    "FieldName": "Schmidt-Ryan",
+    "DisplayName": "Cassin-Collier",
+    "Description": "Project implementation details",
+    "ShortLabel": "et",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 444,
-    "TemplateVariableName": "West-Sporer"
+    "Rank": 987,
+    "TemplateVariableName": "O'Hara, McClure and Rau"
   }
 ]
 ```

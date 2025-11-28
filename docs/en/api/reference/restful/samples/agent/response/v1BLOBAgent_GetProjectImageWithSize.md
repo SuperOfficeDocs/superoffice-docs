@@ -2,5 +2,5 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"GIF89....File contents as raw bytes..."
+"iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFUlEQVR42mNk+M9Qz0AEYBxVSF+FADhYAwXQ3hQkAAAAAElFTkSuQmCC"
 ```

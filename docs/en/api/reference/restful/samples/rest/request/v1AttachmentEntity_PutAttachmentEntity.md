@@ -2,17 +2,17 @@
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 287,
-  "Name": "Bode, Anderson and Hackett",
-  "ContentType": "sed",
-  "AttSize": 147,
+  "AttachmentId": 936,
+  "Name": "Welch, Hackett and Welch",
+  "ContentType": "repellendus",
+  "AttSize": 718,
   "InlineImage": false,
-  "ContentId": "rem",
-  "AuthKey": "rerum",
+  "ContentId": "enim",
+  "AuthKey": "quam",
   "IsSafeFileExtension": false
 }
 ```

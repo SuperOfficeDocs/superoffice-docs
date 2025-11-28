@@ -3,30 +3,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 726,
-  "Section": "et",
-  "Key": "porro",
-  "Name": "Weimann LLC",
+  "PrefDescId": 741,
+  "Section": "architecto",
+  "Key": "enim",
+  "Name": "Bosco Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered client-server solution",
+  "Description": "Customer-focused fresh-thinking adapter",
   "IsBuiltin": false,
-  "TableName": "Hessel-Stoltenberg",
-  "UserDefinedListId": 544,
-  "Rank": 501,
-  "SubGroup": "beatae",
-  "MinLevel": 35,
-  "MaxValue": 493,
-  "MinValue": 225,
-  "RequiredLicense": "voluptatem",
+  "TableName": "Dickinson, Robel and Kertzmann",
+  "UserDefinedListId": 187,
+  "Rank": 412,
+  "SubGroup": "similique",
+  "MinLevel": 483,
+  "MaxValue": 60,
+  "MinValue": 936,
+  "RequiredLicense": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   },
   "_Links": {

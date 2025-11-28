@@ -1,91 +1,91 @@
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 02 Oct 2002 14:35:43 G10T
+Last-Modified: Tue, 29 May 2001 14:34:01 G5T
 
 {
-  "DocumentId": 395,
+  "DocumentId": 802,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "commodi",
-  "Name": "Lehner-O'Hara",
-  "OurRef": "hic",
-  "YourRef": "voluptates",
-  "CreatedDate": "2009-07-09T14:35:43.6200136+02:00",
-  "UpdatedDate": "2002-10-02T14:35:43.6200136+02:00",
-  "Description": "Optimized next generation focus group",
+  "Attention": "sint",
+  "Header": "Quarterly Sales Report Q4 2024",
+  "Name": "Sales Proposal",
+  "OurRef": "SO-2024-001",
+  "YourRef": "CUST-REF-123",
+  "CreatedDate": "2019-08-03T14:34:01.8618138+02:00",
+  "UpdatedDate": "2001-05-29T14:34:01.8618138+02:00",
+  "Description": "Total 4th generation moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-08-18T14:35:43.6230127+02:00",
-  "ExternalRef": "occaecati",
+  "Date": "2008-12-26T14:34:01.877291+01:00",
+  "ExternalRef": "quam",
   "Completed": "Completed",
-  "ActiveLinks": 415,
+  "ActiveLinks": 88,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jerde-Moen",
-      "Id": 212,
-      "Description": "Sharable intangible hardware",
-      "ExtraInfo": "asperiores",
-      "LinkId": 25,
+      "EntityName": "Gerlach-Wolff",
+      "Id": 446,
+      "Description": "Focused user-facing artificial intelligence",
+      "ExtraInfo": "minus",
+      "LinkId": 304,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 554
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 509,
-  "Snum": 644,
+  "SuggestedDocumentId": 447,
+  "Snum": 233,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Virgie Koelpin"
+    "SuperOffice:1": "Ms. Zachariah Deckow III",
+    "SuperOffice:2": "Miss Samson Luis Emard DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "omnis"
+    "CustomFields1": "architecto",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2011-09-17T14:35:43.624013+02:00",
-  "PublishTo": "2020-05-09T14:35:43.624013+02:00",
-  "PublishFrom": "2008-08-26T14:35:43.624013+02:00",
+  "PublishEventDate": "2002-09-22T14:34:01.877291+02:00",
+  "PublishTo": "2004-07-20T14:34:01.877291+02:00",
+  "PublishFrom": "2011-11-13T14:34:01.877291+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 609,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     },
     {
-      "VisibleId": 609,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
@@ -94,8 +94,8 @@ Last-Modified: Wed, 02 Oct 2002 14:35:43 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

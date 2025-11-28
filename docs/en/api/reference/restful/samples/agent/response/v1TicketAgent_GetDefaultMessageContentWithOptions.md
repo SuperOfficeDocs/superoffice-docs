@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "aut",
+  "Body": "Dear customer, thank you for your inquiry. We will review your request and get back to you as soon as possible.",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 831,
-      "Name": "Bednar, Raynor and Gerhold",
-      "ContentType": "corrupti",
-      "AttSize": 822,
+      "AttachmentId": 0,
+      "Name": "",
+      "ContentType": "",
+      "AttSize": 0,
       "InlineImage": false,
-      "ContentId": "impedit",
-      "AuthKey": "error",
-      "IsSafeFileExtension": true,
+      "ContentId": "",
+      "AuthKey": "",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

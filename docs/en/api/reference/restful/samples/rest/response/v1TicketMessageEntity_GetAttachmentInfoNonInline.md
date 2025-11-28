@@ -4,20 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 258,
-    "Name": "Mante-Lakin",
-    "ContentType": "sequi",
-    "AttSize": 620,
+    "AttachmentId": 583,
+    "Name": "Williamson-Stroman",
+    "ContentType": "corporis",
+    "AttSize": 500,
     "InlineImage": false,
-    "ContentId": "sit",
-    "AuthKey": "nostrum",
+    "ContentId": "dignissimos",
+    "AuthKey": "quas",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

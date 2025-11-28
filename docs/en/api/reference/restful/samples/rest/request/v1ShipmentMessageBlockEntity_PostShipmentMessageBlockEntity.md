@@ -6,13 +6,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 905,
-  "AssociateId": 392,
-  "Block": "ipsa",
-  "Registered": "2016-06-11T14:35:44.302167+02:00",
-  "RegisteredAssociateId": 518,
-  "Updated": "2004-10-23T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 127,
-  "UpdatedCount": 334
+  "ShipmentMessageBlockId": 94,
+  "AssociateId": 218,
+  "Block": "occaecati",
+  "Registered": "2017-05-21T14:34:02.4234834+02:00",
+  "RegisteredAssociateId": 750,
+  "Updated": "2010-11-16T14:34:02.4234834+01:00",
+  "UpdatedAssociateId": 814,
+  "UpdatedCount": 550
 }
 ```

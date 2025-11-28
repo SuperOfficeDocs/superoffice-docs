@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 700,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "sint",
-  "SaveInDb": 298,
-  "Filename": "quibusdam",
-  "DefaultOref": "unde",
+  "DocumentTemplateId": 731,
+  "Name": "Standard Letter",
+  "Tooltip": "Document template",
+  "SaveInDb": 144,
+  "Filename": "unde",
+  "DefaultOref": "eaque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 332,
-  "IntentId": 489,
+  "AutoeventId": 262,
+  "IntentId": 704,
   "IsDefaultPublished": true,
-  "Rank": 795,
-  "LoadTemplateFromPlugin": 375,
-  "MimeType": "recusandae",
+  "Rank": 777,
+  "LoadTemplateFromPlugin": 1001,
+  "MimeType": "ea",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 725,
+  "DocumentTypeKey": 241,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alexandria.parker@connjohnson.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "hayley@adams.biz",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lenore.reinger@ankunding.ca",
+  "SenderEmailAddress": "corbin_gusikowski@spencer.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldLength": 268
     }
   }
 }

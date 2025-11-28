@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Schuppe-Lind",
-    "ToolTip": "Non expedita soluta et asperiores vel eveniet est.",
+    "Id": 684,
+    "Name": "New Business",
+    "ToolTip": "Dignissimos rerum sequi consequatur non.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "ducimus",
-    "ColorBlock": 833,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2016-11-13T14:35:45.2774859+01:00",
+    "Rank": 804,
+    "Type": "cum",
+    "ColorBlock": 963,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2023-08-17T14:34:03.5006479+02:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Gibson Group",
-        "ToolTip": "Quidem enim praesentium id.",
-        "Deleted": false,
-        "Rank": 471,
-        "Type": "quis",
-        "ColorBlock": 55,
-        "IconHint": "maiores",
+        "Id": 245,
+        "Name": "New Business",
+        "ToolTip": "Aut totam cum exercitationem minima repellendus ad et.",
+        "Deleted": true,
+        "Rank": 805,
+        "Type": "dolores",
+        "ColorBlock": 298,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2017-02-05T14:35:45.2774859+01:00",
+        "LastChanged": "2024-10-10T14:34:03.5021832+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Devante Medhurst",
+        "ExtraInfo": "dolor",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Dejuan Ciara Sawayn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 445
+            "FieldType": "System.Int32",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "alias",
+    "ExtraInfo": "hic",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Miss Leonor Danielle Weber MD",
+    "FullName": "Mazie Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   }

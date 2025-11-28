@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 107,
-  "AssociateId": 964,
-  "Block": "consequatur",
-  "Registered": "2001-08-21T14:35:44.302167+02:00",
-  "RegisteredAssociateId": 836,
-  "Updated": "2011-08-31T14:35:44.302167+02:00",
-  "UpdatedAssociateId": 158,
-  "UpdatedCount": 51,
+  "ShipmentMessageBlockId": 912,
+  "AssociateId": 477,
+  "Block": "quas",
+  "Registered": "2015-05-16T14:34:02.4234834+02:00",
+  "RegisteredAssociateId": 547,
+  "Updated": "2004-11-06T14:34:02.4234834+01:00",
+  "UpdatedAssociateId": 790,
+  "UpdatedCount": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   }
 }

@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Legros, Wiegand and Bogan",
-    "Operator": "culpa",
+    "Name": "VIP Customers",
+    "Operator": "fuga",
     "Values": [
-      "ut",
-      "nemo"
+      "atque",
+      "cumque"
     ],
     "DisplayValues": [
       "enim",
-      "cumque"
+      "pariatur"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Stracke-Kerluke",
-        "Operator": "aut",
+        "Name": "VIP Customers",
+        "Operator": "ducimus",
         "Values": [
-          "excepturi",
-          "sed"
+          "numquam",
+          "totam"
         ],
         "DisplayValues": [
-          "delectus",
-          "quis"
+          "eos",
+          "ullam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -34,14 +34,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 634,
+        "InterParenthesis": 528,
         "InterOperator": "And",
-        "UniqueHash": 607
+        "UniqueHash": 614
       }
     ],
-    "InterParenthesis": 586,
+    "InterParenthesis": 645,
     "InterOperator": "And",
-    "UniqueHash": 834
+    "UniqueHash": 849
   }
 ]
 ```

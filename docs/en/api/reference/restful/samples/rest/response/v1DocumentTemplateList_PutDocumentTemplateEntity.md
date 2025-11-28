@@ -3,37 +3,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 906,
-  "Name": "Bosco LLC",
-  "Tooltip": "est",
-  "SaveInDb": 605,
-  "Filename": "fugiat",
-  "DefaultOref": "optio",
+  "DocumentTemplateId": 377,
+  "Name": "Standard Letter",
+  "Tooltip": "Document template",
+  "SaveInDb": 20,
+  "Filename": "praesentium",
+  "DefaultOref": "sit",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 472,
-  "IntentId": 876,
+  "AutoeventId": 832,
+  "IntentId": 849,
   "IsDefaultPublished": false,
-  "Rank": 861,
-  "LoadTemplateFromPlugin": 592,
-  "MimeType": "non",
+  "Rank": 202,
+  "LoadTemplateFromPlugin": 952,
+  "MimeType": "consequatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 7,
+  "DocumentTypeKey": 586,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cory@yostglover.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "courtney_schmitt@baileyheidenreich.us",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jabari@auer.biz",
+  "SenderEmailAddress": "cleora.brakus@fay.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 859
     }
   }
 }

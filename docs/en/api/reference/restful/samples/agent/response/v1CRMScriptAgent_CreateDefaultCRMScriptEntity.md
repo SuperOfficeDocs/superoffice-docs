@@ -3,30 +3,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 785,
-  "UniqueIdentifier": "esse",
-  "Name": "Schultz Inc and Sons",
-  "Description": "De-engineered global ability",
-  "IncludeId": "explicabo",
-  "AccessKey": "et",
-  "HierarchyId": 461,
-  "Source": "aut",
-  "SourceCode": "ea",
+  "EjscriptId": 0,
+  "UniqueIdentifier": "",
+  "Name": "",
+  "Description": "",
+  "IncludeId": "",
+  "AccessKey": "",
+  "HierarchyId": 0,
+  "Source": "",
+  "SourceCode": "",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 373,
+  "HtmlOutput": 0,
   "Includes": [
-    282,
-    165
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 967,
-      "LineNumberTo": 653,
-      "Delta": 674,
-      "IncludeId": "excepturi",
+      "LineNumberFrom": 0,
+      "LineNumberTo": 0,
+      "Delta": 0,
+      "IncludeId": "",
       "IncludedFrom": [
-        "explicabo",
-        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -39,10 +35,10 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-06-25T10:10:59.5487386+02:00",
-  "RegisteredAssociateId": 305,
-  "Updated": "2023-02-11T10:10:59.5487386+01:00",
-  "UpdatedAssociateId": 480,
+  "Registered": "2024-01-01T00:00:00+01:00",
+  "RegisteredAssociateId": 0,
+  "Updated": "2024-01-01T00:00:00+01:00",
+  "UpdatedAssociateId": 0,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {

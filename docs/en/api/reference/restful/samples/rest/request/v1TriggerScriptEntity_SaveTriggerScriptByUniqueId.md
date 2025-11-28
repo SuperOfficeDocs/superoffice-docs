@@ -2,19 +2,19 @@
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 827,
-  "Name": "Mosciski, Leannon and Skiles",
+  "ScreenChooserId": 536,
+  "Name": "Jakubowski-Johnson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consequatur",
-  "Source": "sint",
-  "Registered": "2002-05-28T14:35:44.5065066+02:00",
-  "RegisteredAssociateId": 892,
-  "Updated": "2013-03-13T14:35:44.5065066+01:00",
-  "UpdatedAssociateId": 115
+  "UniqueIdentifier": "expedita",
+  "Source": "fugiat",
+  "Registered": "2010-08-21T14:34:02.7102092+02:00",
+  "RegisteredAssociateId": 384,
+  "Updated": "2005-08-04T14:34:02.7102092+02:00",
+  "UpdatedAssociateId": 598
 }
 ```

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Gerlach-Romaguera",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 319,
-  "IsCustomList": false,
+  "Id": 309,
+  "Name": "Partner Dashboard",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 88,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 318
     }
   },
   "_Links": {

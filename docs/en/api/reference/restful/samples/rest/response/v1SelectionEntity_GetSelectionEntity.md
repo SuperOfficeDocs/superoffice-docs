@@ -1,73 +1,73 @@
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 07 Dec 2019 14:35:44 G12T
+Last-Modified: Tue, 10 May 2005 14:34:02 G5T
 
 {
-  "Description": "Operative well-modulated leverage",
-  "Postit": "magni",
+  "Description": "Proactive well-modulated alliance",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 660,
-  "IncludePerson": 725,
+  "GroupIdx": 318,
+  "IncludePerson": 133,
   "MemberCount": 99.99,
-  "Name": "Casper, Nitzsche and White",
-  "PostitTextId": 874,
-  "CreatedDate": "2012-07-21T14:35:44.2833899+02:00",
-  "SelectionId": 915,
-  "SoundEx": "eum",
-  "Source": 242,
-  "TextId": 399,
-  "UpdatedDate": "2019-12-07T14:35:44.2833899+01:00",
-  "UpdatedCount": 907,
-  "Visibility": 337,
+  "Name": "VIP Customers",
+  "PostitTextId": 547,
+  "CreatedDate": "2017-10-08T14:34:02.3943037+02:00",
+  "SelectionId": 127,
+  "SoundEx": "aut",
+  "Source": 239,
+  "TextId": 401,
+  "UpdatedDate": "2005-05-10T14:34:02.3943037+02:00",
+  "UpdatedCount": 532,
+  "Visibility": 510,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 13,
-  "TargetTableName": "Baumbach, Murphy and Welch",
-  "Completed": false,
-  "LeftSelectionId": 412,
-  "RightSelectionId": 667,
+  "TargetTableNumber": 522,
+  "TargetTableName": "Schaefer LLC",
+  "Completed": true,
+  "LeftSelectionId": 756,
+  "RightSelectionId": 606,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Predovic-Hirthe",
-  "ShadowProviderName": "Green Inc and Sons",
-  "ChartKey": "quae",
-  "LastLoaded": "2025-04-02T14:35:44.2833899+02:00",
-  "LastLoadedBy": 361,
+  "MainProviderName": "Watsica-Kub",
+  "ShadowProviderName": "Wunsch Group",
+  "ChartKey": "perspiciatis",
+  "LastLoaded": "2021-11-01T14:34:02.3943037+01:00",
+  "LastLoadedBy": 209,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-12-22T14:35:44.2843897+01:00",
-  "LastMembershipChangeBy": 733,
+  "LastMembershipChange": "1998-11-08T14:34:02.3943037+01:00",
+  "LastMembershipChangeBy": 867,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "magni",
-  "MailingsProviderName": "Olson Inc and Sons",
-  "DashboardTileDefinitionId": 779,
+  "MainHeading": "sit",
+  "MemberTabHeading": "perferendis",
+  "MailingsProviderName": "Tremblay Group",
+  "DashboardTileDefinitionId": 640,
   "VisibleFor": [
     {
-      "VisibleId": 117,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     },
     {
-      "VisibleId": 117,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     }
@@ -77,7 +77,7 @@ Last-Modified: Sat, 07 Dec 2019 14:35:44 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 710
     }
   },
   "_Links": {

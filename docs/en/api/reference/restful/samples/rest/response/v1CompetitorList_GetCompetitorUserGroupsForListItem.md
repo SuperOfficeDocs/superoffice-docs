@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Jacobson-Walker",
-    "ToolTip": "Est quas quis voluptas.",
-    "Deleted": false,
-    "Rank": 212,
-    "Type": "molestias",
-    "ColorBlock": 363,
-    "IconHint": "et",
+    "Id": 463,
+    "Name": "Windler, O'Conner and Huel",
+    "ToolTip": "Eaque neque non ipsam corporis eligendi quasi quo.",
+    "Deleted": true,
+    "Rank": 285,
+    "Type": "Competitor",
+    "ColorBlock": 758,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2018-11-15T14:35:44.815733+01:00",
+    "LastChanged": "2010-03-21T14:34:03.0038304+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Miller LLC",
-        "ToolTip": "Eius vel dolor animi.",
+        "Id": 730,
+        "Name": "Enterprise Systems",
+        "ToolTip": "Doloribus quibusdam.",
         "Deleted": false,
-        "Rank": 484,
-        "Type": "dolore",
-        "ColorBlock": 932,
-        "IconHint": "rerum",
+        "Rank": 506,
+        "Type": "Competitor",
+        "ColorBlock": 628,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2021-06-15T14:35:44.815733+02:00",
+        "LastChanged": "1998-06-28T14:34:03.0038304+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sunt",
+        "ExtraInfo": "qui",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Garth Quigley",
+        "FullName": "Prof. Ollie Angelo Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 850
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "tempora",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Elaina Swaniawski",
+    "FullName": "Dr. Edythe Abbie Gusikowski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldType": "System.Int32",
+        "FieldLength": 498
       }
     }
   }

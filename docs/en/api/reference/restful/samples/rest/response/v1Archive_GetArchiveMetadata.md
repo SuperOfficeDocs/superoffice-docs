@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 6772,
+      "PrimaryKey": 6477,
       "EntityName": "person",
-      "personId": 6772,
-      "fullName": "Mr. Jedidiah Janet Tremblay V"
+      "personId": 6477,
+      "fullName": "Sarah Johnson"
     },
     {
-      "PrimaryKey": 5728,
+      "PrimaryKey": 3803,
       "EntityName": "person",
-      "personId": 5728,
-      "fullName": "Tyshawn Stokes"
+      "personId": 3803,
+      "fullName": "Michael Chen"
     }
   ]
 }

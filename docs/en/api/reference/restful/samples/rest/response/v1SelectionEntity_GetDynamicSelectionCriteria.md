@@ -4,29 +4,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes, Goldner and Bartell",
-    "Operator": "minima",
+    "Name": "Q4 Prospects",
+    "Operator": "facere",
     "Values": [
-      "et",
-      "ratione"
+      "laborum",
+      "dolor"
     ],
     "DisplayValues": [
-      "nemo",
-      "necessitatibus"
+      "dolor",
+      "quo"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ledner, Gerhold and Weber",
-        "Operator": "soluta",
+        "Name": "Q4 Prospects",
+        "Operator": "blanditiis",
         "Values": [
-          "consequatur",
-          "architecto"
+          "totam",
+          "ut"
         ],
         "DisplayValues": [
-          "et",
-          "nihil"
+          "eveniet",
+          "quidem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -34,14 +34,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 11,
+        "InterParenthesis": 461,
         "InterOperator": "And",
-        "UniqueHash": 394
+        "UniqueHash": 921
       }
     ],
-    "InterParenthesis": 274,
+    "InterParenthesis": 774,
     "InterOperator": "And",
-    "UniqueHash": 281
+    "UniqueHash": 446
   }
 ]
 ```

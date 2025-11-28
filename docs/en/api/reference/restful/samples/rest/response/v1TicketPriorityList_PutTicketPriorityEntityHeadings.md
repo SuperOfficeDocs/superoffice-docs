@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 216,
-    "Name": "West-Stanton",
-    "Tooltip": "rem",
+    "HeadingId": 925,
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
-    "Rank": 181,
-    "UdListDefinitionId": 74,
+    "Rank": 457,
+    "UdListDefinitionId": 988,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldLength": 237
       }
     }
   }

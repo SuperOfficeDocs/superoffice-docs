@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Koelpin Inc and Sons",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 646,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 228,
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
+  "Deleted": false,
+  "Rank": 852,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequuntur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

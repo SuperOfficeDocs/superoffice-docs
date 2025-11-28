@@ -2,25 +2,25 @@
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 543,
-    "Name": "Legros Group",
-    "Tooltip": "quia",
+    "HeadingId": 191,
+    "Name": "Mayer Inc and Sons",
+    "Tooltip": "enim",
     "Deleted": true,
-    "Rank": 964,
-    "UdListDefinitionId": 696
+    "Rank": 426,
+    "UdListDefinitionId": 739
   },
   {
-    "HeadingId": 543,
-    "Name": "Legros Group",
-    "Tooltip": "quia",
+    "HeadingId": 191,
+    "Name": "Mayer Inc and Sons",
+    "Tooltip": "enim",
     "Deleted": true,
-    "Rank": 964,
-    "UdListDefinitionId": 696
+    "Rank": 426,
+    "UdListDefinitionId": 739
   }
 ]
 ```

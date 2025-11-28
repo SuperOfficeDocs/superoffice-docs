@@ -3,53 +3,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 240,
-  "UniqueIdentifier": "occaecati",
-  "Name": "Barrows Group",
-  "Description": "Centralized regional synergy",
-  "IncludeId": "ea",
-  "AccessKey": "laborum",
-  "HierarchyId": 280,
-  "Source": "rerum",
-  "SourceCode": "delectus",
+  "EjscriptId": 107,
+  "UniqueIdentifier": "contact-validation-001",
+  "Name": "Contact Validation Script",
+  "Description": "Validates contact data before saving to database",
+  "IncludeId": "common-functions",
+  "AccessKey": "script-access-key-001",
+  "HierarchyId": 124,
+  "Source": "scripts/contact/validation.crmscript",
+  "SourceCode": "// Contact validation script\nfunction validate() { return true; }",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 459,
+  "HtmlOutput": 92,
   "Includes": [
-    728,
-    420
+    575,
+    233
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 723,
-      "LineNumberTo": 507,
-      "Delta": 421,
-      "IncludeId": "expedita",
+      "LineNumberFrom": 680,
+      "LineNumberTo": 531,
+      "Delta": 763,
+      "IncludeId": "utility-module",
       "IncludedFrom": [
-        "qui",
-        "eveniet"
+        "common-lib.crmscript",
+        "utils.crmscript"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 127
+          "FieldType": "System.Int32",
+          "FieldLength": 69
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-01-23T14:35:43.6009786+01:00",
-  "RegisteredAssociateId": 945,
-  "Updated": "2022-10-31T14:35:43.6009786+01:00",
-  "UpdatedAssociateId": 936,
+  "Registered": "2006-04-26T14:34:01.8459763+02:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2014-06-23T14:34:01.8459763+02:00",
+  "UpdatedAssociateId": 528,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 821
     }
   }
 }

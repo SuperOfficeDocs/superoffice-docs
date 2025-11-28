@@ -2,25 +2,25 @@
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 996,
-    "Name": "Leannon-Kautzer",
-    "Tooltip": "eos",
+    "HeadingId": 436,
+    "Name": "Upton, Stiedemann and Zemlak",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 72,
-    "UdListDefinitionId": 198
+    "Rank": 261,
+    "UdListDefinitionId": 766
   },
   {
-    "HeadingId": 996,
-    "Name": "Leannon-Kautzer",
-    "Tooltip": "eos",
+    "HeadingId": 436,
+    "Name": "Upton, Stiedemann and Zemlak",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 72,
-    "UdListDefinitionId": 198
+    "Rank": 261,
+    "UdListDefinitionId": 766
   }
 ]
 ```

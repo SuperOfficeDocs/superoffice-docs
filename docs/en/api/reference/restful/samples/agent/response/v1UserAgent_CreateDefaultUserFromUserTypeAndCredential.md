@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 826,
-  "Name": "Simonis, Macejkovic and Sanford",
-  "Rank": 520,
-  "Tooltip": "repudiandae",
+  "AssociateId": 0,
+  "Name": "",
+  "Rank": 0,
+  "Tooltip": "",
   "LicenseOwners": [
     {
       "Name": "Mante LLC",
@@ -69,12 +69,12 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1999-06-24T10:11:01.6939042+02:00",
-  "Lastlogout": "2004-10-31T10:11:01.6939042+01:00",
-  "EjUserId": 814,
-  "RequestSignature": "enim",
-  "Type": "AnonymousAssociate",
+  "Deleted": false,
+  "Lastlogin": "2024-01-01T00:00:00+01:00",
+  "Lastlogout": "2024-01-01T00:00:00+01:00",
+  "EjUserId": 0,
+  "RequestSignature": "",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [

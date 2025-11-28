@@ -2,33 +2,33 @@
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 739,
-  "TopicId": 914,
+  "ChatSessionId": 277,
+  "TopicId": 663,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quam",
-  "CustomerHost": "quibusdam",
-  "CustomerName": "Dare, Gutkowski and Mohr",
-  "CustomerEmail": "matt_heathcote@boehm.biz",
-  "CustomerPhone": "(884)074-6616 x05802",
+  "CustomerAlias": "distinctio",
+  "CustomerHost": "deserunt",
+  "CustomerName": "Mosciski-Kemmer",
+  "CustomerEmail": "mandy.schaden@jast.co.uk",
+  "CustomerPhone": "101.072.7186 x9363",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Anderson Inc and Sons",
+  "CustomerCompanyName": "Hilpert, Bins and Rippin",
   "Status": "Closed",
-  "FirstMessage": "deleniti",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2012-05-16T14:35:43.1619675+02:00",
-  "WhenStarted": "2009-05-30T14:35:43.1619675+02:00",
-  "WhenEnded": "1999-08-07T14:35:43.1619675+02:00",
-  "WhenIdle": "1998-06-15T14:35:43.1619675+02:00",
-  "WhenFetched": "2016-06-24T14:35:43.1619675+02:00",
-  "SessionKey": "fugit",
-  "InitialQueuePos": 942,
-  "AlertLevel": 881,
-  "Rank": 1000,
+  "FirstMessage": "in",
+  "LastMessage": "corporis",
+  "WhenRequested": "2024-08-25T14:34:01.5340836+02:00",
+  "WhenStarted": "2021-09-04T14:34:01.5340836+02:00",
+  "WhenEnded": "2005-07-27T14:34:01.5340836+02:00",
+  "WhenIdle": "2018-09-22T14:34:01.5340836+02:00",
+  "WhenFetched": "2006-06-12T14:34:01.5340836+02:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 587,
+  "AlertLevel": 80,
+  "Rank": 81,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -36,6 +36,6 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 156
+  "Rating": 879
 }
 ```

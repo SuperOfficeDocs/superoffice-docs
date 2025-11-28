@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReportLabelLayoutId": 1000,
-  "Name": "D'Amore, Botsford and Hahn",
-  "Description": "Profound dedicated customer loyalty",
-  "Orientation": "Landscape",
-  "PaperWidth": 800,
-  "PaperHeight": 439,
-  "LeftMargin": 244,
-  "RightMargin": 286,
-  "TopMargin": 520,
-  "BottomMargin": 206,
-  "CountColumns": 318,
-  "CountRows": 983,
+  "Name": "New Label Layout",
+  "Description": "Custom label layout",
+  "Orientation": "Portrait",
+  "PaperWidth": 8500,
+  "PaperHeight": 11000,
+  "LeftMargin": 250,
+  "RightMargin": 250,
+  "TopMargin": 500,
+  "BottomMargin": 500,
+  "CountColumns": 2,
+  "CountRows": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -3,29 +3,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 385,
-  "Name": "O'Kon, Lubowitz and Paucek",
-  "CreatedDate": "2000-07-05T14:35:43.764652+02:00",
-  "UpdatedDate": "2015-12-12T14:35:43.764652+01:00",
+  "ForeignAppId": 525,
+  "Name": "Osinski LLC",
+  "CreatedDate": "1999-09-04T14:34:01.9870942+02:00",
+  "UpdatedDate": "2000-03-23T14:34:01.9870942+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 631,
-      "Name": "Tremblay, Raynor and Kautzer",
-      "CreatedDate": "2023-07-28T14:35:43.764652+02:00",
-      "UpdatedDate": "2011-06-08T14:35:43.764652+02:00",
-      "AssociateFullName": "Stone Shields",
-      "CreatedBy": "sunt",
-      "UpdatedBy": "voluptatibus",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 609,
+      "ForeignDeviceId": 955,
+      "Name": "Google Sync",
+      "CreatedDate": "2015-01-03T14:34:01.9870942+01:00",
+      "UpdatedDate": "2007-06-01T14:34:01.9870942+02:00",
+      "AssociateFullName": "Prof. Joan Marquardt IV",
+      "CreatedBy": "eum",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 798,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 85
         }
       }
     }
@@ -35,7 +35,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 335
     }
   },
   "_Links": {

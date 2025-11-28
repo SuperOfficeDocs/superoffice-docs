@@ -3,19 +3,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 47,
-  "BlobSize": 797,
-  "Description": "Innovative bifurcated archive",
-  "ExtraInfo": "velit",
+  "BlobId": 0,
+  "BlobSize": 0,
+  "Description": "",
+  "ExtraInfo": "",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "cumque",
-  "OriginalSize": 75,
-  "CreatedDate": "2004-03-01T10:10:59.0372797+01:00",
-  "UpdatedDate": "2016-08-29T10:10:59.0372797+02:00",
+  "MimeType": "application/octet-stream",
+  "OriginalSize": 0,
+  "CreatedDate": "2024-11-27T00:00:00+01:00",
+  "UpdatedDate": "2024-11-27T00:00:00+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "default",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

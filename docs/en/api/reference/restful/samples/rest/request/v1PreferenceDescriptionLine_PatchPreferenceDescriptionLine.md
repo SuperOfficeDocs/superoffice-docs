@@ -8,12 +8,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "earum",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "earum",
+    "path": "deleniti",
     "value": {}
   }
 ]

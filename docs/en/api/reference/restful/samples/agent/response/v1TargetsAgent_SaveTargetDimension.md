@@ -3,17 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 991,
+  "TargetDimensionId": 9,
   "AssignmentLevel": "Associate",
-  "EntityType": "None",
-  "MeasurementUnit": "Amount",
-  "DimensionListField": "vel",
-  "DimensionListName": "Crona LLC",
-  "DimensionListId": 712,
-  "DimensionListLabel": "eveniet",
+  "EntityType": "Sale",
+  "MeasurementUnit": "Count",
+  "DimensionListField": "status",
+  "DimensionListName": "Sale Status",
+  "DimensionListId": 126,
+  "DimensionListLabel": "Status",
   "SelectedDimensions": [
-    296,
-    822
+    1,
+    2,
+    3
   ],
   "TableRight": null,
   "FieldProperties": {

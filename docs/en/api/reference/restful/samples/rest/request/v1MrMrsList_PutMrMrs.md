@@ -2,15 +2,15 @@
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 715,
-  "Name": "Swaniawski, Anderson and Zieme",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "UdListDefinitionId": 257,
-  "Rank": 855
+  "Id": 968,
+  "Name": "Stokes, Schulist and Zieme",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 256,
+  "Rank": 790
 }
 ```

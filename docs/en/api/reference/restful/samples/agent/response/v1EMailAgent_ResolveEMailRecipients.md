@@ -5,17 +5,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ContactId": 941,
-    "ContactName": "Funk-Kiehn",
+    "ContactName": "TechCorp Solutions",
     "PersonId": 41,
-    "PersonName": "Terry, Jewess and Buckridge",
+    "PersonName": "Emily Wilson",
     "AssociateId": 664,
-    "Address": "magni",
+    "Address": "emily.wilson@techcorp.com",
     "EmailId": 628,
     "DuplicatePersonIds": [
       577,
       526
     ],
-    "Name": "Brekke-Hermiston",
+    "Name": "Emily Wilson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

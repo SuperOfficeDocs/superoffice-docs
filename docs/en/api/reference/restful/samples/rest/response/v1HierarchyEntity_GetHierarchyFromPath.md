@@ -3,46 +3,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 621,
+  "HierarchyId": 609,
   "Domain": "Dashboards",
-  "Name": "Reichert-Rosenbaum",
-  "Fullname": "perferendis",
-  "ParentId": 67,
+  "Name": "Hilpert Inc and Sons",
+  "Fullname": "est",
+  "ParentId": 953,
   "Children": [
     {
-      "HierarchyId": 206,
+      "HierarchyId": 339,
       "Domain": "Dashboards",
-      "Name": "Dooley LLC",
-      "Fullname": "aliquid",
-      "ParentId": 319,
+      "Name": "Jones LLC",
+      "Fullname": "enim",
+      "ParentId": 362,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-05-15T14:35:43.7873563+02:00",
-      "RegisteredAssociateId": 30,
-      "Updated": "2014-12-17T14:35:43.7873563+01:00",
-      "UpdatedAssociateId": 589,
+      "Registered": "2003-12-22T14:34:02.0290941+01:00",
+      "RegisteredAssociateId": 83,
+      "Updated": "2022-09-07T14:34:02.0290941+02:00",
+      "UpdatedAssociateId": 552,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 591
+          "FieldType": "System.Int32",
+          "FieldLength": 138
         }
       }
     }
   ],
-  "Registered": "2002-12-08T14:35:43.7873563+01:00",
-  "RegisteredAssociateId": 180,
-  "Updated": "2020-02-24T14:35:43.7873563+01:00",
-  "UpdatedAssociateId": 721,
+  "Registered": "2022-05-16T14:34:02.0290941+02:00",
+  "RegisteredAssociateId": 1001,
+  "Updated": "2022-06-26T14:34:02.0290941+02:00",
+  "UpdatedAssociateId": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 803
     }
   }
 }

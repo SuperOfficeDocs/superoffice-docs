@@ -3,53 +3,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 636,
-  "Name": "Adams Inc and Sons",
-  "Tooltip": "omnis",
-  "Rank": 915,
+  "SaleTypeId": 776,
+  "Name": "New Business",
+  "Tooltip": "Sale type",
+  "Rank": 654,
   "DurationUnit": "Century",
-  "SaleDuration": 998,
-  "SaleTypeCatId": 448,
+  "SaleDuration": 412,
+  "SaleTypeCatId": 353,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 534,
-  "QuoteLinesTemplate": 398,
-  "ConfirmationLinesTemplate": 151,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 83,
+  "QuoteLinesTemplate": 459,
+  "ConfirmationLinesTemplate": 367,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 651,
-  "MinEarningPercent": 841,
-  "GroupQuoteLinesBy": 159,
-  "SortGroupLinesBy": 188,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 897,
+  "MinEarningPercent": 434,
+  "GroupQuoteLinesBy": 547,
+  "SortGroupLinesBy": 772,
   "Stages": [
     {
-      "Id": 563,
-      "Name": "Parisian, Hackett and Oberbrunner",
-      "ToolTip": "Ut at tenetur quia ea.",
+      "Id": 576,
+      "Name": "Renewal",
+      "ToolTip": "Facilis adipisci aspernatur aliquam.",
       "Deleted": false,
-      "Rank": 156,
-      "Type": "possimus",
-      "ColorBlock": 137,
-      "IconHint": "nostrum",
+      "Rank": 323,
+      "Type": "quaerat",
+      "ColorBlock": 480,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2000-10-16T14:35:45.2734855+02:00",
+      "LastChanged": "2012-01-06T14:34:03.4976486+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "sit",
+      "ExtraInfo": "nobis",
+      "StyleHint": "numquam",
       "Hidden": false,
-      "FullName": "Irma Huel",
+      "FullName": "Hazel Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -58,8 +58,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

@@ -3,26 +3,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 207,
-  "Name": "Nitzsche, Lockman and Gusikowski",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 604,
+  "WebPanelId": 681,
+  "Name": "Herzog Group",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 852,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Douglas-Jacobs",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Bins, Skiles and Erdman",
   "Url": "http://www.example.com/",
-  "ProgId": "quis",
-  "Icon": 791,
+  "ProgId": "minima",
+  "Icon": 320,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -30,7 +30,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 743
     }
   }
 }

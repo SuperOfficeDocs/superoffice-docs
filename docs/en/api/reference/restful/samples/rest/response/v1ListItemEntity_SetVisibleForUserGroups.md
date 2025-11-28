@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Klocko Inc and Sons",
-    "ToolTip": "Sit eius sunt eaque molestias laborum possimus est.",
+    "Id": 58,
+    "Name": "Custom Item",
+    "ToolTip": "Delectus ut sint.",
     "Deleted": false,
-    "Rank": 1001,
-    "Type": "consectetur",
-    "ColorBlock": 499,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2003-11-04T14:35:44.7417168+01:00",
+    "Rank": 973,
+    "Type": "eum",
+    "ColorBlock": 500,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2004-10-05T14:34:02.9543199+02:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Purdy LLC",
-        "ToolTip": "Sint consequatur dolorum et rerum explicabo.",
-        "Deleted": false,
-        "Rank": 228,
-        "Type": "autem",
-        "ColorBlock": 288,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2023-06-09T14:35:44.7417168+02:00",
+        "Id": 573,
+        "Name": "List Item",
+        "ToolTip": "Culpa optio.",
+        "Deleted": true,
+        "Rank": 608,
+        "Type": "perferendis",
+        "ColorBlock": 122,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2019-10-25T14:34:02.9543199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Winnifred Price",
+        "ExtraInfo": "labore",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Fidel Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 703
+            "FieldType": "System.Int32",
+            "FieldLength": 491
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Prof. Stone Dianna Ryan",
+    "ExtraInfo": "quia",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Miss Nina Orn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldLength": 597
       }
     }
   }

@@ -2,47 +2,47 @@
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Schmeler, Ortiz and Gerlach",
-    "ToolTip": "Ducimus neque ducimus eos est sit eos.",
-    "Deleted": false,
-    "Rank": 394,
-    "Type": "eaque",
-    "ColorBlock": 916,
-    "IconHint": "autem",
+    "Id": 677,
+    "Name": "Reichel, Ritchie and Hermann",
+    "ToolTip": "Blanditiis illum placeat commodi suscipit et quod.",
+    "Deleted": true,
+    "Rank": 743,
+    "Type": "quo",
+    "ColorBlock": 281,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2008-02-03T14:35:44.7886974+01:00",
+    "LastChanged": "2016-02-07T14:34:02.9882513+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Schowalter-Lehner",
-        "ToolTip": "Sunt excepturi ullam qui ratione tempora fuga.",
+        "Id": 147,
+        "Name": "Beahan-Pfeffer",
+        "ToolTip": "Officiis autem.",
         "Deleted": true,
-        "Rank": 946,
-        "Type": "cupiditate",
-        "ColorBlock": 818,
-        "IconHint": "aut",
+        "Rank": 88,
+        "Type": "facilis",
+        "ColorBlock": 729,
+        "IconHint": "eius",
         "Selected": true,
-        "LastChanged": "2011-11-02T14:35:44.7896996+01:00",
+        "LastChanged": "1999-12-25T14:34:02.9882513+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "at",
+        "ExtraInfo": "dolore",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Mrs. April Mills"
+        "FullName": "Opal Fay"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Prof. Jamie Kristin Schuppe"
+    "ExtraInfo": "alias",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Esperanza Frami"
   }
 ]
 ```

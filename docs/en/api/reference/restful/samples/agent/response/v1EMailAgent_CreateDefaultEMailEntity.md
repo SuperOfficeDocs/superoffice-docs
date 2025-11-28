@@ -6,17 +6,17 @@ Content-Type: application/json; charset=utf-8
   "To": [
     {
       "ContactId": 852,
-      "ContactName": "Gusikowski, Feest and McLaughlin",
+      "ContactName": "Acme Corporation",
       "PersonId": 414,
-      "PersonName": "Bode-Denesik",
+      "PersonName": "John Anderson",
       "AssociateId": 437,
-      "Address": "non",
+      "Address": "john.anderson@acmecorp.com",
       "EmailId": 759,
       "DuplicatePersonIds": [
         354,
         446
       ],
-      "Name": "Rolfson-Kilback",
+      "Name": "John Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -30,17 +30,17 @@ Content-Type: application/json; charset=utf-8
   "Cc": [
     {
       "ContactId": 536,
-      "ContactName": "Jaskolski-Koss",
+      "ContactName": "TechCorp Solutions",
       "PersonId": 444,
-      "PersonName": "Klein-Casper",
+      "PersonName": "Sarah Johnson",
       "AssociateId": 716,
-      "Address": "eos",
+      "Address": "sarah.johnson@techcorp.com",
       "EmailId": 716,
       "DuplicatePersonIds": [
         668,
         79
       ],
-      "Name": "Hirthe, Herzog and Crooks",
+      "Name": "Sarah Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -54,17 +54,17 @@ Content-Type: application/json; charset=utf-8
   "Bcc": [
     {
       "ContactId": 36,
-      "ContactName": "Wolf-Hickle",
+      "ContactName": "GlobalCorp Industries",
       "PersonId": 815,
-      "PersonName": "Lemke-McCullough",
+      "PersonName": "Michael Thompson",
       "AssociateId": 382,
-      "Address": "voluptatem",
+      "Address": "michael.thompson@globalcorp.com",
       "EmailId": 858,
       "DuplicatePersonIds": [
         39,
         151
       ],
-      "Name": "Lakin, Ebert and Hahn",
+      "Name": "Michael Thompson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "numquam",
-  "HTMLBody": "voluptas",
+  "Subject": "RE: Q1 Sales Proposal - Acme Corporation",
+  "HTMLBody": "<p>Hi Team,</p><p>Thank you for sending the Q1 sales proposal. I've reviewed the document and have a few questions about the pricing structure.</p><p>Best regards,<br>John</p>",
   "From": null,
   "Sent": "2020-03-23T10:11:00.0373793+01:00",
   "Size": 260,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "ducimus",
+  "MessageID": "<20200323101100.12345@acmecorp.com>",
+  "PlainBody": "Hi Team,\n\nThank you for sending the Q1 sales proposal. I've reviewed the document and have a few questions about the pricing structure.\n\nBest regards,\nJohn",
   "IsSent": false,
   "EMailSOInfo": null,
   "ServerId": 627,
   "Attachments": [
     {
-      "Description": "Versatile background workforce",
-      "Filename": "adipisci",
+      "Description": "Q1 Sales Proposal Document",
+      "Filename": "Sales_Proposal_Q1_2024.pdf",
       "Size": 760,
-      "Type": "neque",
-      "Encoding": "molestias",
-      "Id": "voluptatum",
-      "Disposition": "doloremque",
+      "Type": "application/pdf",
+      "Encoding": "base64",
+      "Id": "att_20240323_001",
+      "Disposition": "attachment",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kohler-Kilback",
+      "Name": "X-Priority",
       "Values": [
-        "harum",
-        "beatae"
+        "1",
+        "High"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Kohler-Kilback",
+      "Name": "X-Mailer",
       "Values": [
-        "harum",
-        "beatae"
+        "SuperOffice CRM 10.3",
+        "WebMail"
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "FolderName": "Balistreri, Johns and Beier",
+  "FolderName": "Inbox",
   "EmailItemId": 236,
   "AccountId": 647,
   "ReceivedAt": "2005-08-22T10:11:00.0373793+02:00",

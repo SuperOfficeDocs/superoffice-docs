@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "sit",
+    "Id": 416,
+    "Name": "Custom Item",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 769,
-    "Rank": 55,
+    "UdListDefinitionId": 245,
+    "Rank": 451,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 989
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   }

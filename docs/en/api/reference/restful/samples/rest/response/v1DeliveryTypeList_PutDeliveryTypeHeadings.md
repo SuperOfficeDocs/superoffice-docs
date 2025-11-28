@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 205,
-    "Name": "Hartmann, Hilpert and Mertz",
-    "Tooltip": "nobis",
+    "HeadingId": 244,
+    "Name": "Hand Inc and Sons",
+    "Tooltip": "Delivery type",
     "Deleted": false,
-    "Rank": 793,
-    "UdListDefinitionId": 910,
+    "Rank": 320,
+    "UdListDefinitionId": 956,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

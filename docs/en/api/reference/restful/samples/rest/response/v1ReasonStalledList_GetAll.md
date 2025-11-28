@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Towne Inc and Sons",
-    "Tooltip": "nulla",
+    "Id": 477,
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
-    "UdListDefinitionId": 77,
-    "Rank": 295,
+    "UdListDefinitionId": 129,
+    "Rank": 496,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldLength": 241
       }
     }
   }

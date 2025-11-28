@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 446,
-  "Name": "McKenzie Group",
-  "Config": "quaerat",
-  "Rank": 789,
-  "Client": "reiciendis",
-  "Style": "incidunt",
+  "DashboardThemeId": 120,
+  "Name": "Corporate Blue",
+  "Config": "accusamus",
+  "Rank": 879,
+  "Client": "quasi",
+  "Style": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 470
     }
   },
   "_Links": {

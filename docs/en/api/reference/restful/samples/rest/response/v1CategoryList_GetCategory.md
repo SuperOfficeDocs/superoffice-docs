@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Graham Group",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "UdListDefinitionId": 190,
-  "Rank": 558,
+  "Id": 210,
+  "Name": "Prospect",
+  "Tooltip": "Contact category classification",
+  "Deleted": true,
+  "UdListDefinitionId": 897,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

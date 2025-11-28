@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerTable": 658,
-  "Enabled": false,
-  "Period1": 379,
-  "Period2": 237,
-  "Period3": 416,
-  "GenerationStart": "2021-08-30T10:11:01.0310702+02:00",
-  "GenerationEnd": "2007-12-28T10:11:01.0310702+01:00",
-  "RowsGenerated": 714,
+  "Enabled": true,
+  "Period1": 30,
+  "Period2": 60,
+  "Period3": 90,
+  "GenerationStart": "2024-11-28T05:00:00+01:00",
+  "GenerationEnd": "2024-11-28T05:00:00+01:00",
+  "RowsGenerated": 0,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

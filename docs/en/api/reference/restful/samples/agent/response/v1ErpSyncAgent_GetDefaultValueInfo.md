@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ErpFieldId": 146,
-  "DefaultValue": "neque",
+  "DefaultValue": "Active",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "dolores",
-  "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "odio",
-  "FieldType": "Checkbox",
-  "ListName": "Blick-Roob",
+  "FirstSyncDefaultValue": "New Customer",
+  "PromptUser": false,
+  "Mandatory": true,
+  "ErpFieldKey": "customer_status",
+  "FieldType": "List",
+  "ListName": "CustomerStatus",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {

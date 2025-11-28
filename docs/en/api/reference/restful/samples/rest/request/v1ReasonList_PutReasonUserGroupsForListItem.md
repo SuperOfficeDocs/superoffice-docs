@@ -2,47 +2,47 @@
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Stamm Inc and Sons",
-    "ToolTip": "Similique quisquam illum laborum aliquam.",
-    "Deleted": false,
-    "Rank": 656,
-    "Type": "optio",
-    "ColorBlock": 824,
-    "IconHint": "quia",
+    "Id": 205,
+    "Name": "Gottlieb, Predovic and Nader",
+    "ToolTip": "Id suscipit accusamus quibusdam dolorem animi.",
+    "Deleted": true,
+    "Rank": 869,
+    "Type": "tempore",
+    "ColorBlock": 312,
+    "IconHint": "modi",
     "Selected": true,
-    "LastChanged": "1999-10-30T14:35:45.2247869+02:00",
+    "LastChanged": "2004-01-18T14:34:03.4541019+01:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Kessler, Hayes and Considine",
-        "ToolTip": "Aut ut fuga praesentium nam.",
-        "Deleted": false,
-        "Rank": 896,
-        "Type": "nam",
-        "ColorBlock": 520,
-        "IconHint": "porro",
+        "Id": 21,
+        "Name": "Morar Group",
+        "ToolTip": "Provident excepturi reiciendis.",
+        "Deleted": true,
+        "Rank": 777,
+        "Type": "nemo",
+        "ColorBlock": 115,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2020-09-30T14:35:45.2247869+02:00",
+        "LastChanged": "2005-05-31T14:34:03.4541019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "quasi",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Holly Spencer"
+        "FullName": "Vinnie Dietrich"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Dorothy Toy"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Terrance McLaughlin III"
   }
 ]
 ```

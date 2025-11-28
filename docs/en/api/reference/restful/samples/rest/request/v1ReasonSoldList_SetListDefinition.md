@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Parisian, Beahan and Denesik",
-  "Tooltip": "eos",
+  "Id": 646,
+  "Name": "Herman Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 586,
+  "Rank": 232,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false
 }
 ```

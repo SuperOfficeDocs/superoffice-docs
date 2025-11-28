@@ -6,11 +6,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Bradtke LLC",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 23,
-  "Rank": 979
+  "Id": 424,
+  "Name": "Corkery, Ondricka and Franecki",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "UdListDefinitionId": 965,
+  "Rank": 664
 }
 ```

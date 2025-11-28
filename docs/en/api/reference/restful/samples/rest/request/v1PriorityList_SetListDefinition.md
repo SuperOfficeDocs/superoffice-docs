@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Wolff-Lueilwitz",
-  "Tooltip": "quis",
+  "Id": 99,
+  "Name": "Emard-White",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": false,
+  "Rank": 300,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```

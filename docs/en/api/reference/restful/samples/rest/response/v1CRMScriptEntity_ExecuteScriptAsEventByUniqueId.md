@@ -5,34 +5,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aliquam",
-    "InputValues2": "assumenda"
+    "InputValues1": "iste",
+    "InputValues2": "blanditiis"
   },
   "BlockExecution": false,
-  "NavigateTo": "dolor",
-  "Message": "neque",
-  "ShowDialog": "quis",
+  "NavigateTo": "nesciunt",
+  "Message": "est",
+  "ShowDialog": "est",
   "OutputValues": {
-    "OutputValues1": "enim",
-    "OutputValues2": "libero"
+    "OutputValues1": "ut",
+    "OutputValues2": "accusantium"
   },
   "StateValues": {
-    "StateValues1": "labore",
-    "StateValues2": "provident"
+    "StateValues1": "atque",
+    "StateValues2": "esse"
   },
-  "Exception": "fugit",
+  "Exception": "tenetur",
   "ParserValues": {
-    "ParserValues1": "libero",
-    "ParserValues2": "placeat"
+    "ParserValues1": "consectetur",
+    "ParserValues2": "utils.crmscript"
   },
   "CgiVariables": {
     "CgiVariables1": "laboriosam",
-    "CgiVariables2": "eius"
+    "CgiVariables2": "veniam"
   },
-  "CgiContent": "ipsam",
+  "CgiContent": "commodi",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "dignissimos"
+    "Headers1": "mollitia",
+    "Headers2": "cumque"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -40,7 +40,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldLength": 512
     }
   }
 }

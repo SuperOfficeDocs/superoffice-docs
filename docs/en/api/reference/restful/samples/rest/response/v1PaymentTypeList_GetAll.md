@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Reichert-Konopelski",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 436,
-    "Rank": 139,
+    "Id": 946,
+    "Name": "Rutherford Inc and Sons",
+    "Tooltip": "Payment method",
+    "Deleted": true,
+    "UdListDefinitionId": 526,
+    "Rank": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 771
       }
     }
   }

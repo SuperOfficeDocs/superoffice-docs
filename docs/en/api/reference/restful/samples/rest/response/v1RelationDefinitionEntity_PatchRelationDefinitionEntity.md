@@ -3,12 +3,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 810,
-  "Name": "Predovic LLC",
-  "Tooltip": "iure",
-  "PassiveText": "placeat",
+  "ReldefId": 168,
+  "Name": "Torphy Inc and Sons",
+  "Tooltip": "magni",
+  "PassiveText": "voluptatum",
   "Deleted": false,
-  "Rank": 582,
+  "Rank": 919,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -16,7 +16,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 490
     }
   },
   "_Links": {

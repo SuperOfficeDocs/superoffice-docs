@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koch, Runte and Gleichner",
+    "Name": "name",
     "Direction": "ASC"
   },
   {
-    "Name": "Koch, Runte and Gleichner",
+    "Name": "contactAssociate/company",
     "Direction": "ASC"
   }
 ]

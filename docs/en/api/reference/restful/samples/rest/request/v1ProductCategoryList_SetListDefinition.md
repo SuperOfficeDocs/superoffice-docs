@@ -2,19 +2,19 @@
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Grady Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 281,
+  "Name": "Hessel-Franecki",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 634,
-  "IsCustomList": false,
+  "Rank": 139,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false
 }
 ```

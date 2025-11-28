@@ -3,32 +3,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 10,
-  "Name": "Abbott LLC",
-  "Tooltip": "doloribus",
-  "VisibleColumns": 515,
-  "Rank": 604,
-  "AssocId": 146,
+  "DiaryViewId": 0,
+  "Name": "",
+  "Tooltip": "",
+  "VisibleColumns": 0,
+  "Rank": 0,
+  "AssocId": 0,
   "AssociateList": [
     {
-      "Id": 985,
-      "Name": "Ratke Inc and Sons",
-      "ToolTip": "Ut dignissimos modi et sequi ut ea rerum.",
+      "Id": 0,
+      "Name": "",
+      "ToolTip": "",
       "Deleted": false,
-      "Rank": 877,
-      "Type": "minima",
-      "ColorBlock": 181,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2003-07-10T10:10:59.2641912+02:00",
+      "Rank": 0,
+      "Type": "",
+      "ColorBlock": 0,
+      "IconHint": "",
+      "Selected": false,
+      "LastChanged": "1753-01-01T00:00:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vero",
-      "StyleHint": "aperiam",
+      "ExtraInfo": "",
+      "StyleHint": "",
       "Hidden": false,
-      "FullName": "Jeanette Bergnaum",
+      "FullName": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -39,7 +39,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "TzLocationId": 391,
+  "TzLocationId": 0,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

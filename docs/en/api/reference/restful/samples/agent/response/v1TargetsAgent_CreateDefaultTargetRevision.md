@@ -5,12 +5,12 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2016-10-03T10:11:01.2950954+02:00",
+  "When": "2025-01-15T10:00:00+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "vel",
-      "ValueChangeFrom": 30559.634,
-      "ValueChangeTo": 9314.248,
+      "FieldIdentifier": "Q1",
+      "ValueChangeFrom": 0,
+      "ValueChangeTo": 450000,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -21,9 +21,9 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "FieldIdentifier": "vel",
-      "ValueChangeFrom": 30559.634,
-      "ValueChangeTo": 9314.248,
+      "FieldIdentifier": "Q2",
+      "ValueChangeFrom": 0,
+      "ValueChangeTo": 500000,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

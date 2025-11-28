@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 920,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 929,
-  "IsCustomList": true,
+  "Id": 101,
+  "Name": "Rau Group",
+  "Tooltip": "Payment method",
+  "Deleted": true,
+  "Rank": 998,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

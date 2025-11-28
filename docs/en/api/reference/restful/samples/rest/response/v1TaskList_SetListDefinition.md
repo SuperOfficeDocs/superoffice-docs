@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Pfannerstill LLC",
-  "Tooltip": "consectetur",
+  "Id": 515,
+  "Name": "Meeting",
+  "Tooltip": "Task type",
   "Deleted": false,
-  "Rank": 753,
+  "Rank": 584,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 423
     }
   }
 }

@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 146,
-  "TZLocationId": 230,
-  "LocationCode": "labore",
-  "Description": "Monitored mobile alliance",
-  "Country": "Sokovia",
-  "Bias": 386
+  "PreferenceId": 1,
+  "TZLocationId": 85,
+  "LocationCode": "Europe/Oslo",
+  "Description": "(GMT+01:00) Central European Time - Oslo, Stockholm, Copenhagen",
+  "Country": "Norway",
+  "Bias": -60
 }
 ```

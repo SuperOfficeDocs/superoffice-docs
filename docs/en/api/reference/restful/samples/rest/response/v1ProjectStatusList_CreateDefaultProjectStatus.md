@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Parisian-Gislason",
-  "Tooltip": "expedita",
+  "Id": 72,
+  "Name": "In Progress",
+  "Tooltip": "Project status",
   "Deleted": true,
-  "UdListDefinitionId": 126,
-  "Rank": 775,
+  "UdListDefinitionId": 847,
+  "Rank": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 830
     }
   }
 }

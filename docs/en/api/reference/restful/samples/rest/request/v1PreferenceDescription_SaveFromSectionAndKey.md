@@ -6,23 +6,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 676,
-  "Section": "adipisci",
-  "Key": "impedit",
-  "Name": "Willms, Emard and Pagac",
+  "PrefDescId": 702,
+  "Section": "quae",
+  "Key": "laborum",
+  "Name": "Hamill LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound local concept",
+  "Description": "Enterprise-wide multi-tasking migration",
   "IsBuiltin": true,
-  "TableName": "Hills-Howe",
-  "UserDefinedListId": 36,
-  "Rank": 819,
-  "SubGroup": "nostrum",
-  "MinLevel": 481,
-  "MaxValue": 74,
-  "MinValue": 600,
-  "RequiredLicense": "voluptas"
+  "TableName": "Windler LLC",
+  "UserDefinedListId": 375,
+  "Rank": 22,
+  "SubGroup": "repudiandae",
+  "MinLevel": 565,
+  "MaxValue": 520,
+  "MinValue": 933,
+  "RequiredLicense": "aut"
 }
 ```

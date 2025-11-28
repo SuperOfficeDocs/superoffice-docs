@@ -2,18 +2,18 @@
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perferendis",
+    "path": "neque",
     "value": {}
   }
 ]

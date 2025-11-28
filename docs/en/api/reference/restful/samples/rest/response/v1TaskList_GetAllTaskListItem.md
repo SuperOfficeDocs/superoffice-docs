@@ -4,16 +4,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 42,
-    "Value": "repellendus",
+    "TaskListItemId": 191,
+    "Value": "aspernatur",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "et",
+    "Tooltip": "Task type",
     "Deleted": false,
-    "IntentId": 190,
-    "Rank": 794,
+    "IntentId": 282,
+    "Rank": 170,
     "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -21,8 +21,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 84
       }
     }
   }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Stracke Inc and Sons",
-  "Tooltip": "doloribus",
+  "Id": 555,
+  "Name": "Marketing Lists",
+  "Tooltip": "Selection category",
   "Deleted": false,
-  "Rank": 986,
+  "Rank": 852,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 567
     }
   }
 }

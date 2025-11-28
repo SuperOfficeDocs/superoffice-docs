@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "aut",
+    "Label": "Open Tickets",
     "Values": [
       {
-        "Label": "qui",
-        "Value": 6850.924,
-        "Description": "Right-sized multimedia groupware",
+        "Label": "Today",
+        "Value": 42,
+        "Description": "Number of tickets opened today",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -44,12 +44,12 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Label": "aut",
+    "Label": "Resolved Tickets",
     "Values": [
       {
-        "Label": "qui",
-        "Value": 6850.924,
-        "Description": "Right-sized multimedia groupware",
+        "Label": "Today",
+        "Value": 38,
+        "Description": "Number of tickets resolved today",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -60,9 +60,9 @@ Content-Type: application/json; charset=utf-8
         }
       },
       {
-        "Label": "qui",
-        "Value": 6850.924,
-        "Description": "Right-sized multimedia groupware",
+        "Label": "This Week",
+        "Value": 265,
+        "Description": "Number of tickets resolved this week",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "Description": "Exclusive heuristic Graphic Interface",
+    "Description": "Statistics for tickets resolved by support team",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

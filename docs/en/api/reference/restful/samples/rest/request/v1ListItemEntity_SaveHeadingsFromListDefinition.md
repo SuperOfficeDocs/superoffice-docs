@@ -2,25 +2,25 @@
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 866,
-    "Name": "Von Inc and Sons",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 226,
-    "UdListDefinitionId": 125
+    "HeadingId": 32,
+    "Name": "Turner Inc and Sons",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 472,
+    "UdListDefinitionId": 883
   },
   {
-    "HeadingId": 866,
-    "Name": "Von Inc and Sons",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 226,
-    "UdListDefinitionId": 125
+    "HeadingId": 32,
+    "Name": "Turner Inc and Sons",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 472,
+    "UdListDefinitionId": 883
   }
 ]
 ```

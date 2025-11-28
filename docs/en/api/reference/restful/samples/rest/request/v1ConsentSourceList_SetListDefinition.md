@@ -2,19 +2,19 @@
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Heathcote LLC",
-  "Tooltip": "numquam",
+  "Id": 905,
+  "Name": "Watsica-Leannon",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 990,
+  "Rank": 865,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false
 }
 ```

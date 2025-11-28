@@ -7,15 +7,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eaque",
+  "RawValue": "enim",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "ex",
+  "DisplayValue": "explicabo",
+  "DisplayTooltip": "rerum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 66,
-  "PrefDescId": 570,
-  "TableName": "Conroy-Bahringer",
-  "UserPreferenceId": 733
+  "TargetId": 443,
+  "PrefDescId": 242,
+  "TableName": "Jacobi, Howe and Stamm",
+  "UserPreferenceId": 228
 }
 ```

@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 953,
-    "Name": "Kozey, Cartwright and Stark",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "Rank": 204,
-    "UdListDefinitionId": 843,
+    "HeadingId": 45,
+    "Name": "Bank Transfer",
+    "Tooltip": "Payment method",
+    "Deleted": true,
+    "Rank": 856,
+    "UdListDefinitionId": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 481
       }
     }
   }

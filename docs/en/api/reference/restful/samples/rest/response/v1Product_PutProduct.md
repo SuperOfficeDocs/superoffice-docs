@@ -3,73 +3,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 340,
-  "ERPProductKey": "architecto",
-  "ERPPriceListKey": "eius",
-  "Name": "Schmitt Group",
-  "Description": "Ameliorated logistical moderator",
-  "Code": "in",
-  "PriceUnit": "porro",
-  "QuantityUnit": "fugit",
+  "ProductId": 448,
+  "ERPProductKey": "nobis",
+  "ERPPriceListKey": "nulla",
+  "Name": "Howe LLC",
+  "Description": "Fully-configurable local support",
+  "Code": "ab",
+  "PriceUnit": "voluptatem",
+  "QuantityUnit": "dolor",
   "IsSubscription": false,
-  "SubscriptionUnit": "mollitia",
-  "DefaultSubscriptionQuantity": 908.86,
-  "ItemNumber": "1152008",
+  "SubscriptionUnit": "tempore",
+  "DefaultSubscriptionQuantity": 30988.992,
+  "ItemNumber": "1329048",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "a",
-  "ProductTypeKey": "rem",
-  "VAT": 22593.005999999998,
-  "VATInfo": "et",
-  "UnitCost": 12181.858,
-  "UnitMinimumPrice": 23094.446,
-  "UnitListPrice": 11044.216,
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "occaecati",
+  "VAT": 24501.612,
+  "VATInfo": "libero",
+  "UnitCost": 15970.864,
+  "UnitMinimumPrice": 24887.094,
+  "UnitListPrice": 9859.564,
   "InAssortment": false,
-  "Supplier": "vel",
-  "SupplierCode": "nobis",
-  "Rights": "occaecati",
-  "Rule": "dolores",
+  "Supplier": "voluptates",
+  "SupplierCode": "consectetur",
+  "Rights": "aut",
+  "Rule": "enim",
   "ExtraInfo": [
     {
-      "Name": "Bergnaum, Cremin and Koch",
-      "Value": "facere",
+      "Name": "Romaguera Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 568
+          "FieldLength": 626
         }
       }
     },
     {
-      "Name": "Bergnaum, Cremin and Koch",
-      "Value": "facere",
+      "Name": "Romaguera Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 568
+          "FieldLength": 626
         }
       }
     }
   ],
-  "RawExtraInfo": "incidunt",
-  "ExtraField1": "esse",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "earum",
-  "ExtraField4": "qui",
-  "ExtraField5": "neque",
-  "InStock": 7487.126,
+  "RawExtraInfo": "omnis",
+  "ExtraField1": "nam",
+  "ExtraField2": "vel",
+  "ExtraField3": "rerum",
+  "ExtraField4": "dolores",
+  "ExtraField5": "veritatis",
+  "InStock": 24072.254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

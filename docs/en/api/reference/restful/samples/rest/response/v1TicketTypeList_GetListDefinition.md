@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 60,
+  "Id": 555,
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
+  "Deleted": false,
+  "Rank": 363,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "suscipit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 980
     }
   },
   "_Links": {

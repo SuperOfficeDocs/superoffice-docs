@@ -3,19 +3,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 92,
-  "Name": "Reinger, Simonis and Stehr",
-  "Tooltip": "tenetur",
-  "Rank": 172,
-  "Rate": 22088.432,
-  "Units": 28306.288,
-  "Deleted": false,
+  "CurrencyId": 701,
+  "Name": "Euro",
+  "Tooltip": "Currency type",
+  "Rank": 845,
+  "Rate": 12172.456,
+  "Units": 22091.566,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 738
     }
   }
 }

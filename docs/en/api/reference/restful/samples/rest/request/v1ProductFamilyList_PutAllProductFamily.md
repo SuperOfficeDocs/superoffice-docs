@@ -2,25 +2,25 @@
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Hauck, Fritsch and Cronin",
-    "Tooltip": "voluptatem",
+    "Id": 853,
+    "Name": "Morar-Paucek",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "UdListDefinitionId": 289,
-    "Rank": 862
+    "UdListDefinitionId": 881,
+    "Rank": 542
   },
   {
-    "Id": 60,
-    "Name": "Hauck, Fritsch and Cronin",
-    "Tooltip": "voluptatem",
+    "Id": 853,
+    "Name": "Morar-Paucek",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "UdListDefinitionId": 289,
-    "Rank": 862
+    "UdListDefinitionId": 881,
+    "Rank": 542
   }
 ]
 ```

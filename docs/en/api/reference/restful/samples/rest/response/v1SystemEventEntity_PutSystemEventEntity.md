@@ -3,27 +3,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 1000,
+  "SystemEventId": 863,
   "Scope": "Database",
-  "Eta": "2007-01-30T14:35:44.3187618+01:00",
-  "Eventkey": "nobis",
-  "Eventmess": "enim",
-  "ExtraInfo": 305,
-  "Owner": 492,
-  "UpdatedCount": 936,
-  "Registered": "2001-03-02T14:35:44.3187618+01:00",
+  "Eta": "2001-10-08T14:34:02.426041+02:00",
+  "Eventkey": "quas",
+  "Eventmess": "nulla",
+  "ExtraInfo": 625,
+  "Owner": 623,
+  "UpdatedCount": 655,
+  "Registered": "2010-01-21T14:34:02.426041+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 319
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

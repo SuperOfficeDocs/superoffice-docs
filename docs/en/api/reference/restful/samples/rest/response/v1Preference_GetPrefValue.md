@@ -4,22 +4,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "molestiae",
   "Specification": null,
-  "DisplayValue": "velit",
-  "DisplayTooltip": "asperiores",
+  "DisplayValue": "odit",
+  "DisplayTooltip": "fugiat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 266,
-  "PrefDescId": 855,
-  "TableName": "Powlowski, Bahringer and Herman",
-  "UserPreferenceId": 792,
+  "TargetId": 82,
+  "PrefDescId": 673,
+  "TableName": "Daniel-Sawayn",
+  "UserPreferenceId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldLength": 401
     }
   }
 }

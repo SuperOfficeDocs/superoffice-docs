@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Kohler, VonRueden and Mayert",
-  "Tooltip": "rerum",
+  "Id": 116,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "Sale reason",
   "Deleted": true,
-  "Rank": 882,
+  "Rank": 126,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 846
     }
   },
   "_Links": {

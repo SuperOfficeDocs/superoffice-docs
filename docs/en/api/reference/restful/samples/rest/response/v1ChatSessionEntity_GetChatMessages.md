@@ -4,15 +4,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 312,
-    "ChatSessionId": 56,
+    "ChatMessageId": 34,
+    "ChatSessionId": 568,
     "Type": "Invalid",
-    "Message": "pariatur",
-    "Author": "dolorum",
-    "ReadByCustomer": 866,
+    "Message": "How can I help you today?",
+    "Author": "Support Agent",
+    "ReadByCustomer": 32,
     "SpecialType": "Block",
-    "SpecialParam": "magni",
-    "WhenPosted": "2025-02-11T14:35:43.3862721+01:00"
+    "SpecialParam": "priority=high",
+    "WhenPosted": "2003-06-14T14:34:01.664492+02:00"
   }
 ]
 ```

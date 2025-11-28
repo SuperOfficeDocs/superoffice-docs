@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Harris LLC",
-  "Tooltip": "blanditiis",
+  "Id": 888,
+  "Name": "Jast, Carroll and Kshlerin",
+  "Tooltip": "totam",
   "Deleted": true,
-  "Rank": 486,
-  "IsCustomList": true,
+  "Rank": 878,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aperiam",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```

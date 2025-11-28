@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 971,
-  "Name": "Murazik, Kiehn and Ullrich",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "Rank": 871,
-  "IsCustomList": true,
+  "Name": "Business",
+  "Tooltip": "Business type classification",
+  "Deleted": false,
+  "Rank": 1,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "Business",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

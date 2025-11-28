@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Turcotte LLC",
-    "Records": 633,
+    "EntityName": "Contact",
+    "Records": 1247,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -16,8 +16,8 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "EntityName": "Turcotte LLC",
-    "Records": 633,
+    "EntityName": "Sale",
+    "Records": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

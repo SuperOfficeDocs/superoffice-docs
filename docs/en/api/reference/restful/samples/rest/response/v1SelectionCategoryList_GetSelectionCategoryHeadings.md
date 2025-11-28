@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 39,
-    "Name": "O'Conner-Stokes",
-    "Tooltip": "dicta",
+    "HeadingId": 38,
+    "Name": "Sales Targets",
+    "Tooltip": "Selection category",
     "Deleted": false,
-    "Rank": 494,
-    "UdListDefinitionId": 455,
+    "Rank": 3,
+    "UdListDefinitionId": 749,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 71
       }
     }
   }

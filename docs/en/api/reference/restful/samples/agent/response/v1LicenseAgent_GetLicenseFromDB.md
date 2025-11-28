@@ -4,21 +4,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 395,
-      "NumberOfLicensesFree": 671,
-      "NumberOfLicensesAdded": 749,
-      "NumberOfLicensesNewTotal": 644,
-      "NumberOfLicensesNewFree": 393,
-      "NumberOfLicensesTotal": 675
+      "NumberOfLicensesInUse": 45,
+      "NumberOfLicensesFree": 5,
+      "NumberOfLicensesAdded": 0,
+      "NumberOfLicensesNewTotal": 50,
+      "NumberOfLicensesNewFree": 5,
+      "NumberOfLicensesTotal": 50
     }
   ],
-  "AccumulatedNextCheckDate": "2015-09-01T10:11:00.228653+02:00"
+  "AccumulatedNextCheckDate": "2025-12-27T10:11:00.228653+01:00"
 }
 ```

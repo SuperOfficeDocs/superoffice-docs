@@ -4,31 +4,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 463,
-    "Name": "Gibson-Wuckert",
-    "TZLocationCode": "eum",
-    "TZLocationCities": "voluptas",
-    "IsoNumber": 405,
+    "TZLocationID": 85,
+    "Name": "Central European Time",
+    "TZLocationCode": "Europe/Oslo",
+    "TZLocationCities": "Oslo, Stockholm, Copenhagen, Berlin, Paris",
+    "IsoNumber": 578,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 474,
-        "StartMonth": 421,
-        "EndDay": 166,
-        "EndMonth": 927,
-        "TZOffset": 522,
-        "StartRulePattern": "aliquam",
-        "EndRulePattern": "ipsa"
+        "StartDay": 1,
+        "StartMonth": 1,
+        "EndDay": 31,
+        "EndMonth": 12,
+        "TZOffset": 60,
+        "StartRulePattern": "StandardTime",
+        "EndRulePattern": "StandardTime"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 888,
-        "StartMonth": 1000,
-        "EndDay": 376,
-        "EndMonth": 342,
-        "TZOffset": 689,
-        "StartRulePattern": "excepturi",
-        "EndRulePattern": "temporibus"
+        "StartDay": 25,
+        "StartMonth": 3,
+        "EndDay": 29,
+        "EndMonth": 10,
+        "TZOffset": 120,
+        "StartRulePattern": "LastSundayInMarch",
+        "EndRulePattern": "LastSundayInOctober"
       }
     }
   }

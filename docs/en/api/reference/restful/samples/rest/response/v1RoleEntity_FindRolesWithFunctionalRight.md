@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Douglas-Walsh",
-    "ToolTip": "Velit itaque maxime rem architecto.",
-    "Deleted": true,
-    "Rank": 899,
-    "Type": "voluptas",
+    "Id": 677,
+    "Name": "Administrator",
+    "ToolTip": "Facilis earum.",
+    "Deleted": false,
+    "Rank": 11,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Ward-Herman",
-        "ToolTip": "Dolor aut repellendus atque sit.",
+        "Id": 491,
+        "Name": "Schmidt Inc and Sons",
+        "ToolTip": "Et nulla consequatur eaque eius dolore incidunt.",
         "Deleted": false,
-        "Rank": 713,
-        "Type": "quia",
+        "Rank": 830,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 518,
-        "ExtraInfo": "dicta",
-        "StyleHint": "quis",
-        "FullName": "Miss Marley Dakota O'Reilly",
+        "IconHint": "sunt",
+        "ColorBlock": 455,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "adipisci",
+        "FullName": "Dr. Claudie Gleichner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 735
+            "FieldLength": 559
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 169,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "dolores",
-    "FullName": "Mrs. Wilhelm Langosh",
+    "IconHint": "exercitationem",
+    "ColorBlock": 736,
+    "ExtraInfo": "laborum",
+    "StyleHint": "commodi",
+    "FullName": "Mr. Oda Cloyd Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

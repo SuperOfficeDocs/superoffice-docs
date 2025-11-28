@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 319,
-  "Value": "dicta",
+  "TaskListItemId": 188,
+  "Value": "incidunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "odit",
+  "Tooltip": "Task type",
   "Deleted": false,
-  "IntentId": 302,
-  "Rank": 951,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
+  "IntentId": 7,
+  "Rank": 619,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -21,7 +21,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 367
     }
   }
 }

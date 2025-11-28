@@ -2,54 +2,54 @@
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 618,
-  "ERPProductKey": "voluptates",
-  "ERPPriceListKey": "autem",
-  "Name": "Haag LLC",
-  "Description": "Re-engineered eco-centric local area network",
-  "Code": "placeat",
-  "PriceUnit": "quae",
-  "QuantityUnit": "dolore",
-  "IsSubscription": true,
-  "SubscriptionUnit": "libero",
-  "DefaultSubscriptionQuantity": 15068.271999999999,
-  "ItemNumber": "1042188",
+  "ProductId": 678,
+  "ERPProductKey": "harum",
+  "ERPPriceListKey": "cupiditate",
+  "Name": "Kris LLC",
+  "Description": "Fundamental tangible framework",
+  "Code": "nesciunt",
+  "PriceUnit": "culpa",
+  "QuantityUnit": "commodi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "doloremque",
+  "DefaultSubscriptionQuantity": 15682.536,
+  "ItemNumber": "613378",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "qui",
-  "VAT": 9270.372,
-  "VATInfo": "ut",
-  "UnitCost": 10292.056,
-  "UnitMinimumPrice": 1353.888,
-  "UnitListPrice": 28923.685999999998,
-  "InAssortment": false,
-  "Supplier": "eius",
-  "SupplierCode": "repudiandae",
-  "Rights": "officia",
-  "Rule": "voluptas",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "autem",
+  "VAT": 4259.106,
+  "VATInfo": "in",
+  "UnitCost": 4679.062,
+  "UnitMinimumPrice": 15638.66,
+  "UnitListPrice": 14331.782,
+  "InAssortment": true,
+  "Supplier": "saepe",
+  "SupplierCode": "consectetur",
+  "Rights": "error",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Von Group",
-      "Value": "necessitatibus",
+      "Name": "Howell, Johnson and Schmitt",
+      "Value": "pariatur",
       "Type": "Image"
     },
     {
-      "Name": "Von Group",
-      "Value": "necessitatibus",
+      "Name": "Howell, Johnson and Schmitt",
+      "Value": "pariatur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "dolorem",
-  "ExtraField2": "minus",
-  "ExtraField3": "eos",
-  "ExtraField4": "eius",
-  "ExtraField5": "voluptatem",
-  "InStock": 30484.417999999998
+  "RawExtraInfo": "sint",
+  "ExtraField1": "praesentium",
+  "ExtraField2": "est",
+  "ExtraField3": "inventore",
+  "ExtraField4": "iusto",
+  "ExtraField5": "illum",
+  "InStock": 12420.042
 }
 ```

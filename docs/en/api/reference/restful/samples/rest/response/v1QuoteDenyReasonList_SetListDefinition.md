@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 671,
-  "Name": "Cummings Group",
-  "Tooltip": "temporibus",
+  "Id": 403,
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": false,
-  "Rank": 586,
+  "Rank": 809,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 939
     }
   }
 }

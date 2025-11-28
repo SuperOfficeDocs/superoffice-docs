@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Welch-Beer",
-  "Tooltip": "numquam",
+  "Id": 887,
+  "Name": "User Defined List",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 938,
+  "Rank": 491,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 584
     }
   }
 }

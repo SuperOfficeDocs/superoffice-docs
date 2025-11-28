@@ -5,10 +5,10 @@ Content-Type: application/json; charset=utf-8
 {
   "PrefDescLineId": 941,
   "PrefDescId": 253,
-  "PrefValue": "nemo",
-  "PrefShowValue": "consectetur",
-  "Description": "Reduced empowering attitude",
-  "IsBuiltin": false,
+  "PrefValue": "light",
+  "PrefShowValue": "Light Theme",
+  "Description": "Light color scheme for the application interface",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

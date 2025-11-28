@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 880,
-  "Name": "Ryan-Schroeder",
-  "Tooltip": "tempora",
+  "HeadingId": 972,
+  "Name": "Sales Inquiry",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
-  "Rank": 271,
-  "UdListDefinitionId": 94,
+  "Rank": 986,
+  "UdListDefinitionId": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 868
     }
   }
 }

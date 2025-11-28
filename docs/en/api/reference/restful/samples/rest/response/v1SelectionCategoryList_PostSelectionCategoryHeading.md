@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 737,
-  "Name": "Gorczany-Schuppe",
-  "Tooltip": "labore",
+  "HeadingId": 373,
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
-  "Rank": 279,
-  "UdListDefinitionId": 785,
+  "Rank": 282,
+  "UdListDefinitionId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

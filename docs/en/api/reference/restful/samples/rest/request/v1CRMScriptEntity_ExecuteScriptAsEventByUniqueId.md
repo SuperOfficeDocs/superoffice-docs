@@ -2,41 +2,41 @@
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "autem",
-    "InputValues2": "voluptatem"
+    "InputValues1": "itaque",
+    "InputValues2": "architecto"
   },
   "BlockExecution": false,
-  "NavigateTo": "inventore",
-  "Message": "vel",
-  "ShowDialog": "maiores",
+  "NavigateTo": "eius",
+  "Message": "veritatis",
+  "ShowDialog": "expedita",
   "OutputValues": {
-    "OutputValues1": "suscipit",
-    "OutputValues2": "ut"
+    "OutputValues1": "est",
+    "OutputValues2": "numquam"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "fugiat"
+    "StateValues1": "voluptatem",
+    "StateValues2": "architecto"
   },
-  "Exception": "sapiente",
+  "Exception": "temporibus",
   "ParserValues": {
-    "ParserValues1": "enim",
-    "ParserValues2": "culpa"
+    "ParserValues1": "impedit",
+    "ParserValues2": "vero"
   },
   "CgiVariables": {
-    "CgiVariables1": "cumque",
-    "CgiVariables2": "qui"
+    "CgiVariables1": "numquam",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "similique",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "a",
-    "Headers2": "dicta"
+    "Headers1": "et",
+    "Headers2": "consequatur"
   },
-  "TraceExecution": false
+  "TraceExecution": true
 }
 ```

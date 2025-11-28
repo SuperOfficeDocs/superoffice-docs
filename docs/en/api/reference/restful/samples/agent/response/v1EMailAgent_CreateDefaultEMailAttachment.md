@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent solution-oriented data-warehouse",
-  "Filename": "corporis",
+  "Description": "Contract Agreement Document",
+  "Filename": "Service_Agreement_2024.pdf",
   "Size": 711,
-  "Type": "asperiores",
-  "Encoding": "tempora",
-  "Id": "eveniet",
-  "Disposition": "distinctio",
+  "Type": "application/pdf",
+  "Encoding": "base64",
+  "Id": "att_20240315_004",
+  "Disposition": "attachment",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,

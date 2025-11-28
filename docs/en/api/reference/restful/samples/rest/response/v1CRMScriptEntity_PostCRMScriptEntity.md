@@ -3,58 +3,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 974,
-  "UniqueIdentifier": "id",
-  "Name": "Schamberger-Gleichner",
-  "Description": "Multi-channelled neutral help-desk",
-  "IncludeId": "sunt",
-  "AccessKey": "maxime",
-  "HierarchyId": 974,
-  "Source": "rem",
-  "SourceCode": "voluptatibus",
+  "EjscriptId": 212,
+  "UniqueIdentifier": "corrupti",
+  "Name": "Kiehn Inc and Sons",
+  "Description": "Triple-buffered cohesive flexibility",
+  "IncludeId": "nisi",
+  "AccessKey": "common-lib.crmscript",
+  "HierarchyId": 926,
+  "Source": "corporis",
+  "SourceCode": "possimus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 11,
+  "HtmlOutput": 172,
   "Includes": [
-    50,
-    28
+    543,
+    371
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 179,
-      "LineNumberTo": 556,
-      "Delta": 65,
-      "IncludeId": "consequatur",
+      "LineNumberFrom": 850,
+      "LineNumberTo": 924,
+      "Delta": 708,
+      "IncludeId": "quis",
       "IncludedFrom": [
-        "et",
-        "praesentium"
+        "ut",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 666
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-01-14T14:35:43.6029786+01:00",
-  "RegisteredAssociateId": 700,
-  "Updated": "2014-02-18T14:35:43.6029786+01:00",
-  "UpdatedAssociateId": 18,
+  "Registered": "2011-04-05T14:34:01.8459763+02:00",
+  "RegisteredAssociateId": 310,
+  "Updated": "2017-02-25T14:34:01.8459763+01:00",
+  "UpdatedAssociateId": 721,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

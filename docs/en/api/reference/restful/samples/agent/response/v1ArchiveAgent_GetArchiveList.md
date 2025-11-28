@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bartell-Erdman",
+    "EntityName": "contact",
     "PrimaryKey": 272,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "eum",
-        "TooltipHint": "illum",
-        "LinkHint": "fuga"
+      "name": {
+        "DisplayValue": "Acme Corporation",
+        "TooltipHint": "Leading provider of enterprise solutions",
+        "LinkHint": "contact.main?contact_id=272"
       }
     },
-    "LinkHint": "numquam",
-    "StyleHint": "esse",
+    "LinkHint": "view-contact",
+    "StyleHint": "active-customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

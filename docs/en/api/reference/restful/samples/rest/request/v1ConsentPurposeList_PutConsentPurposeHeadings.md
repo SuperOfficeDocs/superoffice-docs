@@ -7,20 +7,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Tromp Group",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 509
+    "HeadingId": 292,
+    "Name": "Nitzsche Group",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 487,
+    "UdListDefinitionId": 777
   },
   {
-    "HeadingId": 48,
-    "Name": "Tromp Group",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 509
+    "HeadingId": 292,
+    "Name": "Nitzsche Group",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 487,
+    "UdListDefinitionId": 777
   }
 ]
 ```

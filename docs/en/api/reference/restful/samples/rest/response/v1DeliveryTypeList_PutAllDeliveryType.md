@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Renner, Purdy and Bergstrom",
-    "Tooltip": "et",
+    "Id": 943,
+    "Name": "Express Delivery",
+    "Tooltip": "Delivery type",
     "Deleted": true,
-    "UdListDefinitionId": 250,
-    "Rank": 489,
+    "UdListDefinitionId": 860,
+    "Rank": 900,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

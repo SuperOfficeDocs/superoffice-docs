@@ -4,28 +4,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 818,
-    "Name": "Wilderman, Windler and King",
+    "WebhookId": 3,
+    "Name": "Ticket System Integration",
     "Events": [
-      "voluptatem",
-      "officiis"
+      "ticket.created",
+      "ticket.changed"
     ],
-    "TargetUrl": "http://www.example.com/",
-    "Secret": "ipsum",
+    "TargetUrl": "https://support.example.com/api/webhooks/tickets",
+    "Secret": "sk_live_a1b2c3d4e5f6g7h8i9j0",
     "State": "Active",
-    "Type": "odio",
+    "Type": "webhook",
     "Headers": {
-      "Headers1": "perferendis",
-      "Headers2": "nihil"
+      "X-Service-Key": "support_integration_v2",
+      "X-Webhook-Version": "1.0"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2006-06-25T10:11:01.8819209+02:00",
+    "Registered": "2024-06-10T08:30:00+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2018-06-02T10:11:01.8819209+02:00",
+    "Updated": "2024-11-28T09:45:00+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "spencer_lesch@huelsrunolfsson.biz"
+    "ErrorsEmail": "support-admin@example.com"
   }
 ]
 ```

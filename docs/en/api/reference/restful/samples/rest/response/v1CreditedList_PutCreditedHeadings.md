@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 703,
-    "Name": "Bartoletti-Howell",
-    "Tooltip": "expedita",
+    "HeadingId": 781,
+    "Name": "Sales Team",
+    "Tooltip": "Credit attribution",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 118,
+    "Rank": 901,
+    "UdListDefinitionId": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 686
       }
     }
   }

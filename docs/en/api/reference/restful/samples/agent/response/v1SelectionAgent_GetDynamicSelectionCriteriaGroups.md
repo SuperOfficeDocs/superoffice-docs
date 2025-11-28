@@ -4,48 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tremblay, Labadie and Quitzon",
-    "Description": "Adaptive human-resource pricing structure",
-    "Rank": 987,
+    "Name": "Geographic Filter",
+    "Description": "Filter by Nordic countries",
+    "Rank": 1,
     "Restrictions": [
       {
-        "Name": "Pagac LLC",
-        "Operator": "adipisci",
+        "Name": "Country",
+        "Operator": "oneOf",
         "Values": [
-          "consectetur",
-          "tempora"
+          "Norway",
+          "Sweden",
+          "Denmark"
         ],
         "DisplayValues": [
-          "dolores",
-          "reprehenderit"
+          "Norway",
+          "Sweden",
+          "Denmark"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 264,
+        "InterParenthesis": 0,
         "InterOperator": "And",
-        "UniqueHash": 130
+        "UniqueHash": 1024
       }
     ]
   },
   {
-    "Name": "Tremblay, Labadie and Quitzon",
-    "Description": "Adaptive human-resource pricing structure",
-    "Rank": 987,
+    "Name": "Business Criteria",
+    "Description": "Filter by customer category and revenue",
+    "Rank": 2,
     "Restrictions": [
       {
-        "Name": "Pagac LLC",
-        "Operator": "adipisci",
+        "Name": "Category",
+        "Operator": "oneOf",
         "Values": [
-          "consectetur",
-          "tempora"
+          "Customer",
+          "Prospect"
         ],
         "DisplayValues": [
-          "dolores",
-          "reprehenderit"
+          "Customer",
+          "Prospect"
         ],
         "ColumnInfo": null,
         "IsActive": false,

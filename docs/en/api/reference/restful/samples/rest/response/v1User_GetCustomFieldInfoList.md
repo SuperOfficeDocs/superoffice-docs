@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Thompson-Orn",
-    "DisplayName": "Kessler-Baumbach",
-    "Description": "Synergized stable model",
-    "ShortLabel": "sunt",
+    "FieldName": "Bins Group",
+    "DisplayName": "Morar-Wolf",
+    "Description": "Reduced heuristic concept",
+    "ShortLabel": "iste",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 651,
-    "TemplateVariableName": "Herzog, Sawayn and Harvey"
+    "Rank": 777,
+    "TemplateVariableName": "Kuphal, Wolf and Kemmer"
   }
 ]
 ```

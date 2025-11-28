@@ -2,47 +2,47 @@
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Krajcik Group",
-    "ToolTip": "Consequatur et fugiat et.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "occaecati",
-    "ColorBlock": 195,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "1999-12-23T14:35:45.1475521+01:00",
+    "Id": 165,
+    "Name": "Kautzer-Hegmann",
+    "ToolTip": "Unde sit error.",
+    "Deleted": false,
+    "Rank": 145,
+    "Type": "voluptas",
+    "ColorBlock": 652,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2023-09-18T14:34:03.3773315+02:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Heller LLC",
-        "ToolTip": "Repellat quisquam quisquam reiciendis vel minus.",
+        "Id": 882,
+        "Name": "Balistreri-Veum",
+        "ToolTip": "Aperiam a.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "et",
-        "ColorBlock": 890,
-        "IconHint": "facilis",
+        "Rank": 801,
+        "Type": "qui",
+        "ColorBlock": 296,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2012-03-09T14:35:45.1475521+01:00",
+        "LastChanged": "2019-02-18T14:34:03.3773315+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Breanna Parisian"
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Amelie Roob"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Cortney Rodriguez IV"
+    "ExtraInfo": "atque",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Vanessa Jacobson"
   }
 ]
 ```

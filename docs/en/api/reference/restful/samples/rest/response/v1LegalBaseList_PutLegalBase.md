@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 417,
-  "Name": "Zboncak-Hickle",
-  "Tooltip": "impedit",
-  "Rank": 451,
-  "Key": "aut",
-  "Deleted": false,
+  "LegalBaseId": 819,
+  "Name": "Koepp Group",
+  "Tooltip": "Legal basis for data processing",
+  "Rank": 689,
+  "Key": "qui",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldLength": 370
     }
   }
 }

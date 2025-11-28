@@ -3,60 +3,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 971,
-  "Name": "Kertzmann, Nicolas and Fahey",
+  "TicketPriorityId": 253,
+  "Name": "Sales Inquiry",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 159,
+  "SortOrder": 366,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 418,
-  "MonStart": "2000-04-28T14:35:45.3654202+02:00",
-  "MonStop": "2021-02-22T14:35:45.3654202+01:00",
-  "TueStart": "2001-01-15T14:35:45.3654202+01:00",
-  "TueStop": "2000-05-01T14:35:45.3654202+02:00",
-  "WedStart": "2003-07-02T14:35:45.3654202+02:00",
-  "WedStop": "2021-07-30T14:35:45.3654202+02:00",
-  "ThuStart": "2013-11-14T14:35:45.3654202+01:00",
-  "ThuStop": "2012-04-23T14:35:45.3654202+02:00",
-  "FriStart": "2020-09-28T14:35:45.3654202+02:00",
-  "FriStop": "2022-12-09T14:35:45.3654202+01:00",
-  "SatStart": "2016-11-04T14:35:45.3654202+01:00",
-  "SatStop": "2022-03-02T14:35:45.3654202+01:00",
-  "SunStart": "2005-01-10T14:35:45.3654202+01:00",
-  "SunStop": "2005-06-14T14:35:45.3654202+02:00",
+  "Deadline": 150,
+  "MonStart": "2024-08-16T14:34:03.6131895+02:00",
+  "MonStop": "2019-01-23T14:34:03.6131895+01:00",
+  "TueStart": "2019-05-09T14:34:03.6131895+02:00",
+  "TueStop": "2025-04-19T14:34:03.6131895+02:00",
+  "WedStart": "2013-07-09T14:34:03.6131895+02:00",
+  "WedStop": "2002-10-23T14:34:03.6131895+02:00",
+  "ThuStart": "2000-07-10T14:34:03.6131895+02:00",
+  "ThuStop": "2017-09-24T14:34:03.6131895+02:00",
+  "FriStart": "1998-12-17T14:34:03.6131895+01:00",
+  "FriStop": "2010-09-08T14:34:03.6131895+02:00",
+  "SatStart": "2004-02-20T14:34:03.6131895+01:00",
+  "SatStop": "2007-05-12T14:34:03.6131895+02:00",
+  "SunStart": "2020-07-19T14:34:03.6131895+02:00",
+  "SunStop": "2010-09-08T14:34:03.6131895+02:00",
   "NonDates": [
-    "similique",
-    "repudiandae"
+    "recusandae",
+    "voluptatem"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 442,
-      "AlertLevel": 971,
-      "AlertTimeout": 776,
-      "Action": 782,
-      "DelegateTo": 661,
-      "ScriptId": 932,
-      "EmailTo": "autumn@homenick.co.uk",
-      "SmsTo": "sit",
-      "ReplyTemplateIdCustomer": 852,
-      "ReplyTemplateIdUser": 813,
-      "ReplyTemplateIdCatmast": 187,
-      "ReplyTemplateIdEmail": 561,
-      "RtiCustomerSms": 806,
-      "ReplyTemplateIdUserSms": 545,
-      "ReplyTemplateIdCatmastSms": 880,
-      "ReplyTemplateIdSms": 773,
+      "TicketAlertId": 1001,
+      "AlertLevel": 919,
+      "AlertTimeout": 942,
+      "Action": 651,
+      "DelegateTo": 452,
+      "ScriptId": 693,
+      "EmailTo": "kathleen.wyman@hayes.us",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 23,
+      "ReplyTemplateIdUser": 793,
+      "ReplyTemplateIdCatmast": 115,
+      "ReplyTemplateIdEmail": 768,
+      "RtiCustomerSms": 540,
+      "ReplyTemplateIdUserSms": 362,
+      "ReplyTemplateIdCatmastSms": 797,
+      "ReplyTemplateIdSms": 792,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldLength": 685
         }
       }
     }
@@ -66,7 +66,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 153
     }
   }
 }

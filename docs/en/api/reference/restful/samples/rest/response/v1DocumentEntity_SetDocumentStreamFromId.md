@@ -3,88 +3,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 884,
+  "DocumentId": 829,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "facere",
-  "Name": "Haag-Beahan",
-  "OurRef": "aliquam",
-  "YourRef": "modi",
-  "CreatedDate": "2012-10-28T14:35:43.7091429+01:00",
-  "UpdatedDate": "2025-10-08T14:35:43.7091429+02:00",
-  "Description": "Re-contextualized client-driven function",
+  "Attention": "temporibus",
+  "Header": "Quarterly Sales Report Q4 2024",
+  "Name": "Baumbach Group",
+  "OurRef": "SO-2024-001",
+  "YourRef": "CUST-REF-123",
+  "CreatedDate": "2014-06-15T14:34:01.9502637+02:00",
+  "UpdatedDate": "2021-07-07T14:34:01.9502637+02:00",
+  "Description": "Pre-emptive asynchronous parallelism",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-05-29T14:35:43.7091429+02:00",
-  "ExternalRef": "dolor",
+  "Date": "1998-07-03T14:34:01.9542634+02:00",
+  "ExternalRef": "esse",
   "Completed": "Completed",
-  "ActiveLinks": 206,
+  "ActiveLinks": 89,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Weber Inc and Sons",
-      "Id": 945,
-      "Description": "Synchronised intermediate circuit",
-      "ExtraInfo": "assumenda",
-      "LinkId": 424,
+      "EntityName": "Sauer, Lebsack and Borer",
+      "Id": 118,
+      "Description": "Grass-roots modular core",
+      "ExtraInfo": "labore",
+      "LinkId": 912,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 73
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 429,
-  "Snum": 891,
+  "SuggestedDocumentId": 797,
+  "Snum": 481,
   "UserDefinedFields": {
-    "SuperOffice:1": "112244530",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Carley Ortiz",
+    "SuperOffice:2": "2024131916"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "2019-12-18T14:35:43.7091429+01:00",
-  "PublishTo": "2016-03-17T14:35:43.7091429+01:00",
-  "PublishFrom": "2012-03-26T14:35:43.7091429+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-03-20T14:34:01.9542634+01:00",
+  "PublishTo": "2008-03-24T14:34:01.9542634+01:00",
+  "PublishFrom": "2016-02-07T14:34:01.9542634+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 310,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 33
         }
       }
     },
     {
-      "VisibleId": 310,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 33
         }
       }
     }
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldType": "System.String",
+      "FieldLength": 425
     }
   }
 }

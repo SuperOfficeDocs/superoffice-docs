@@ -2,21 +2,21 @@
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogisich Inc and Sons",
-    "DisplayName": "Stoltenberg, Skiles and Ruecker",
-    "DisplayTooltip": "reiciendis",
-    "IsActive": false
+    "Name": "Stehr-Kuhic",
+    "DisplayName": "Larkin Group",
+    "DisplayTooltip": "earum",
+    "IsActive": true
   },
   {
-    "Name": "Bogisich Inc and Sons",
-    "DisplayName": "Stoltenberg, Skiles and Ruecker",
-    "DisplayTooltip": "reiciendis",
-    "IsActive": false
+    "Name": "Stehr-Kuhic",
+    "DisplayName": "Larkin Group",
+    "DisplayTooltip": "earum",
+    "IsActive": true
   }
 ]
 ```

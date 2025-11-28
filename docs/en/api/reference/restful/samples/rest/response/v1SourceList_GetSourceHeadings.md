@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Reilly Inc and Sons",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "Rank": 197,
-    "UdListDefinitionId": 805,
+    "HeadingId": 188,
+    "Name": "Trade Show",
+    "Tooltip": "Lead source",
+    "Deleted": false,
+    "Rank": 492,
+    "UdListDefinitionId": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

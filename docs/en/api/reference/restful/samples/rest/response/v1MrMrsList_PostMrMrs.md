@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Jenkins, Torp and Koepp",
-  "Tooltip": "at",
-  "Deleted": true,
-  "UdListDefinitionId": 159,
-  "Rank": 258,
+  "Id": 936,
+  "Name": "Feeney Inc and Sons",
+  "Tooltip": "Title or salutation",
+  "Deleted": false,
+  "UdListDefinitionId": 606,
+  "Rank": 83,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   }
 }

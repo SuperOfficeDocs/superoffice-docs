@@ -2,19 +2,19 @@
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Littel-Pfeffer",
-  "Tooltip": "tenetur",
+  "Id": 150,
+  "Name": "Howell-Prohaska",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 127,
+  "Rank": 817,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```

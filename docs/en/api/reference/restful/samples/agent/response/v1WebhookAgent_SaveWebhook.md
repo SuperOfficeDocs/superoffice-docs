@@ -3,27 +3,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 90,
-  "Name": "Balistreri Group",
+  "WebhookId": 2,
+  "Name": "Sale Won Notification",
   "Events": [
-    "eum",
-    "ut"
+    "sale.sold",
+    "sale.lost"
   ],
-  "TargetUrl": "http://www.example.com/",
-  "Secret": "eius",
+  "TargetUrl": "https://crm.example.com/api/webhooks/sales",
+  "Secret": "sk_live_9z8y7x6w5v4u3t2s1r0q",
   "State": "Active",
-  "Type": "reiciendis",
+  "Type": "webhook",
   "Headers": {
-    "Headers1": "saepe",
-    "Headers2": "aut"
+    "X-API-Key": "prod_api_key_12345",
+    "Content-Type": "application/json"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-05-02T10:11:01.880618+02:00",
+  "Registered": "2024-03-20T14:15:00+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-07-14T10:11:01.8810408+02:00",
+  "Updated": "2024-11-28T11:00:00+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "bernadette_will@kerluke.com"
+  "ErrorsEmail": "sales-team@example.com"
 }
 ```

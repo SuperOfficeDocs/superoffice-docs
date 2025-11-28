@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "page=2",
   "value": [
     {
-      "PrimaryKey": 9252,
-      "EntityName": "person",
-      "personId": 9252,
-      "fullName": "Cleveland Cordell Green II"
+      "PrimaryKey": 3235,
+      "EntityName": "appointment",
+      "appointmentId": 3235,
+      "title": "Quarterly Business Review"
     },
     {
-      "PrimaryKey": 8737,
-      "EntityName": "person",
-      "personId": 8737,
-      "fullName": "Amalia Sporer"
+      "PrimaryKey": 3003,
+      "EntityName": "appointment",
+      "appointmentId": 3003,
+      "title": "Product Demo - Enterprise CRM"
     }
   ]
 }

@@ -23,7 +23,7 @@ Content-Type: application/json; charset=utf-8
   "PrintTicketTemplateId": 656,
   "WeekStatTemplateId": 821,
   "TicketAlarmHotlistTemplateId": 561,
-  "EmailAddresses": "kaitlin_reichert@macejkovic.co.uk",
+  "EmailAddresses": "support@acmecorp.com, alerts@acmecorp.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

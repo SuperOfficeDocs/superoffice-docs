@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Nicolas Group",
-    "ToolTip": "Nesciunt totam recusandae reiciendis itaque quaerat sint exercitationem.",
+    "Id": 138,
+    "Name": "Customer",
+    "ToolTip": "Eum beatae.",
     "Deleted": false,
-    "Rank": 894,
-    "Type": "sit",
+    "Rank": 13,
+    "Type": "Category",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Breitenberg Group",
-        "ToolTip": "Sed quam quo qui.",
-        "Deleted": true,
-        "Rank": 196,
-        "Type": "quaerat",
+        "Id": 224,
+        "Name": "Prospect",
+        "ToolTip": "Esse impedit.",
+        "Deleted": false,
+        "Rank": 669,
+        "Type": "Category",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 769,
-        "ExtraInfo": "animi",
-        "StyleHint": "optio",
-        "FullName": "Mrs. Una Valentin Rowe",
+        "IconHint": "architecto",
+        "ColorBlock": 680,
+        "ExtraInfo": "et",
+        "StyleHint": "atque",
+        "FullName": "Eda Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldType": "System.String",
+            "FieldLength": 440
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 150,
-    "ExtraInfo": "aut",
-    "StyleHint": "ex",
-    "FullName": "Dana Schneider",
+    "IconHint": "tempore",
+    "ColorBlock": 144,
+    "ExtraInfo": "maxime",
+    "StyleHint": "dolor",
+    "FullName": "Damon Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldType": "System.Int32",
+        "FieldLength": 492
       }
     }
   }

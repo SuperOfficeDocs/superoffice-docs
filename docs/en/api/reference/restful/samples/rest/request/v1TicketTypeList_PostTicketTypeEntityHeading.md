@@ -6,11 +6,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 917,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "Rank": 137,
-  "UdListDefinitionId": 289
+  "HeadingId": 127,
+  "Name": "Casper-Klein",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 712,
+  "UdListDefinitionId": 468
 }
 ```

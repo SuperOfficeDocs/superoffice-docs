@@ -3,25 +3,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 409,
-  "Name": "Hane-Stroman",
-  "ContentType": "expedita",
-  "AttSize": 893,
-  "InlineImage": true,
-  "ContentId": "voluptas",
-  "AuthKey": "nulla",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 482,
+  "Name": "Contract_Proposal_2024.docx",
+  "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "AttSize": 524288,
+  "InlineImage": false,
+  "ContentId": "attachment-002",
+  "AuthKey": "x7y8z9w0v1u2",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,15 +2,15 @@
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Halvorson, Sporer and Bartoletti",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 9,
-  "Rank": 361
+  "Id": 499,
+  "Name": "Okuneva Group",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "UdListDefinitionId": 213,
+  "Rank": 902
 }
 ```

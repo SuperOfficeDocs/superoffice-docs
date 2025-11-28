@@ -4,36 +4,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Eveniet sapiente.",
-    "Deleted": true,
-    "Rank": 585,
-    "Type": "iure",
+    "Id": 1,
+    "Name": "Low",
+    "ToolTip": "Low priority",
+    "Deleted": false,
+    "Rank": 1,
+    "Type": "Priority",
     "ColorBlock": 123,
-    "IconHint": "consequuntur",
+    "IconHint": "priority-low",
     "Selected": false,
-    "LastChanged": "2015-05-25T10:11:00.4592627+02:00",
+    "LastChanged": "2024-11-20T10:11:00.4592627+01:00",
     "ChildItems": [
       {
         "Id": 257,
-        "Name": "Luettgen, Prohaska and Durgan",
-        "ToolTip": "Aut sunt consequatur.",
+        "Name": "Low - Internal",
+        "ToolTip": "Low priority for internal requests",
         "Deleted": false,
-        "Rank": 786,
-        "Type": "reiciendis",
+        "Rank": 1,
+        "Type": "SubPriority",
         "ColorBlock": 283,
-        "IconHint": "sint",
+        "IconHint": "priority-low-internal",
         "Selected": false,
-        "LastChanged": "2019-04-15T10:11:00.4592627+02:00",
+        "LastChanged": "2024-11-20T10:11:00.4592627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "ut",
+        "ExtraInfo": "priority_id=257",
+        "StyleHint": "default",
         "Hidden": false,
-        "FullName": "Trystan Murphy",
+        "FullName": "Low - Internal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -44,10 +44,10 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Samara Bauch",
+    "ExtraInfo": "priority_id=1",
+    "StyleHint": "default",
+    "Hidden": false,
+    "FullName": "Low",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

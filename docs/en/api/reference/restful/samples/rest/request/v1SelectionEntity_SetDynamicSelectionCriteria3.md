@@ -7,44 +7,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bernier, Abernathy and Roberts",
-    "Operator": "est",
+    "Name": "Moore Inc and Sons",
+    "Operator": "id",
     "Values": [
-      "optio",
-      "illo"
+      "qui",
+      "aliquid"
     ],
     "DisplayValues": [
-      "sed",
-      "et"
+      "adipisci",
+      "excepturi"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hilpert-Kub",
-        "Operator": "illum",
+        "Name": "Balistreri-Barton",
+        "Operator": "accusamus",
         "Values": [
-          "commodi",
-          "illo"
+          "fugiat",
+          "odio"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "velit"
+          "iste",
+          "repellat"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 548,
+        "InterParenthesis": 331,
         "InterOperator": "And",
-        "UniqueHash": 755
+        "UniqueHash": 765
       }
     ],
-    "InterParenthesis": 912,
+    "InterParenthesis": 714,
     "InterOperator": "And",
-    "UniqueHash": 437
+    "UniqueHash": 472
   }
 ]
 ```

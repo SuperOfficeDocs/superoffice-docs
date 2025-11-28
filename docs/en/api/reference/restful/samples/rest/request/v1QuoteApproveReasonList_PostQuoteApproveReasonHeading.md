@@ -2,15 +2,15 @@
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 980,
-  "Name": "Bergnaum, Stanton and Zemlak",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 411,
-  "UdListDefinitionId": 325
+  "HeadingId": 313,
+  "Name": "Balistreri-Bechtelar",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "Rank": 363,
+  "UdListDefinitionId": 180
 }
 ```

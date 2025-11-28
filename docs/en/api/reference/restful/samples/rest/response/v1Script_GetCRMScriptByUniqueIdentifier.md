@@ -3,23 +3,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quo",
-  "Name": "Nicolas LLC",
-  "Description": "Mandatory content-based infrastructure",
-  "IncludeId": "perspiciatis",
-  "Source": "aut",
-  "Registered": "2012-02-18T14:35:44.6207383+01:00",
-  "RegisteredBy": "neque",
-  "Updated": "2009-10-06T14:35:44.6207383+02:00",
-  "UpdatedBy": "qui",
-  "Path": "eum",
+  "UniqueIdentifier": "natus",
+  "Name": "Jerde, Barrows and Mills",
+  "Description": "Custom validation logic",
+  "IncludeId": "voluptatibus",
+  "Source": "consequuntur",
+  "Registered": "2004-05-04T14:34:02.8482798+02:00",
+  "RegisteredBy": "debitis",
+  "Updated": "2019-08-27T14:34:02.8482798+02:00",
+  "UpdatedBy": "at",
+  "Path": "eius",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

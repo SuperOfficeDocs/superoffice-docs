@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 686,
-    "Name": "Bogan, Farrell and Wyman",
-    "Tooltip": "tenetur",
-    "Rank": 328,
-    "Rate": 1723.7,
-    "Units": 3510.08,
+    "CurrencyId": 67,
+    "Name": "Morar LLC",
+    "Tooltip": "Currency type",
+    "Rank": 706,
+    "Rate": 25150.35,
+    "Units": 17374.896,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldLength": 66
       }
     }
   }

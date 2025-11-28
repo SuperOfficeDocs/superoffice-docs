@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Paucek, Satterfield and Walker",
-    "ToolTip": "Iste natus qui qui deserunt rerum cum deserunt.",
-    "Deleted": false,
-    "Rank": 291,
-    "Type": "exercitationem",
-    "ColorBlock": 428,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2020-05-20T14:35:45.1715065+02:00",
+    "Id": 809,
+    "Name": "Keebler Inc and Sons",
+    "ToolTip": "Et commodi aut non nobis.",
+    "Deleted": true,
+    "Rank": 319,
+    "Type": "minima",
+    "ColorBlock": 553,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "2016-12-12T14:34:03.3932168+01:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Dickens, Kub and Kessler",
-        "ToolTip": "Ab facilis ad corrupti quod.",
+        "Id": 186,
+        "Name": "Customer",
+        "ToolTip": "Modi voluptatum sed aut rem.",
         "Deleted": true,
-        "Rank": 698,
-        "Type": "nostrum",
-        "ColorBlock": 892,
-        "IconHint": "nostrum",
-        "Selected": true,
-        "LastChanged": "2000-12-04T14:35:45.1715065+01:00",
+        "Rank": 915,
+        "Type": "similique",
+        "ColorBlock": 859,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2010-09-19T14:34:03.3932168+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "autem",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Cesar Erdman",
+        "FullName": "Norbert Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 180
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "beatae",
+    "ExtraInfo": "ut",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Kenya Ebert",
+    "FullName": "Kenny Orlo Hermann PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

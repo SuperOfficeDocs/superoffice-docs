@@ -9,12 +9,12 @@ Content-Type: application/json; charset=utf-8
   "UpdatedBy": null,
   "CreatedDate": "2022-11-12T10:10:58.5331949+01:00",
   "AppointmentId": 746,
-  "Description": "Right-sized encompassing functionalities",
-  "Title": "iste",
-  "Agenda": "commodi",
-  "InternalNotes": "a",
-  "StartDate": "2021-05-27T10:10:58.5331949+02:00",
-  "EndDate": "2017-11-20T10:10:58.5331949+01:00",
+  "Description": "Initial sales presentation for Enterprise CRM package. Demonstrate key features, pricing, and implementation timeline.",
+  "Title": "Sales Demo - Enterprise CRM",
+  "Agenda": "1. Company intro\n2. Product demo\n3. Pricing options\n4. Implementation timeline\n5. Next steps",
+  "InternalNotes": "Prospect is evaluating 3 vendors. Emphasize our superior customer support.",
+  "StartDate": "2024-12-10T10:00:00+01:00",
+  "EndDate": "2024-12-10T11:30:00+01:00",
   "InvitedPerson": null,
   "Person": null,
   "MotherId": 871,
@@ -49,8 +49,8 @@ Content-Type: application/json; charset=utf-8
   "IsAlldayEvent": false,
   "LagTime": "vero",
   "LeadTime": "architecto",
-  "Location": "officia",
-  "RejectCounter": 318,
+  "Location": "Microsoft Teams Meeting",
+  "RejectCounter": 0,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
@@ -61,8 +61,8 @@ Content-Type: application/json; charset=utf-8
       "EmailId": 584,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rigoberto@kuvalis.ca",
-      "Description": "Managed global matrices"
+      "EmailAddress": "michael.chen@prospectcorp.com",
+      "Description": "IT Director at Prospect Corporation"
     }
   ],
   "AssignmentStatus": "Assigning",
@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "velit",
+  "JoinVideomeetUrl": "https://teams.microsoft.com/l/meetup-join/def456uvw",
+  "CentralserviceVideomeetId": "def456uvw",
   "UserDefinedFields": {
     "SuperOffice:1": "Ms. Dagmar Toy Sawayn",
     "SuperOffice:2": "332834773"

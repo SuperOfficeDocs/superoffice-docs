@@ -3,42 +3,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 62,
-  "UniqueId": "id",
-  "Name": "Larkin, Roob and Will",
-  "Description": "Robust needs-based extranet",
-  "AssociateId": 700,
-  "Columns": 208,
+  "DashboardId": 79,
+  "UniqueId": "exercitationem",
+  "Name": "Sales Dashboard",
+  "Description": "User-friendly zero defect ability",
+  "AssociateId": 828,
+  "Columns": 610,
   "Theme": null,
-  "VisibleForAll": 738,
+  "VisibleForAll": 11,
   "VisibleForAssociates": [
-    774,
-    560
+    537,
+    516
   ],
   "VisibleForGroups": [
-    891,
-    158
+    646,
+    163
   ],
-  "PinForAll": 51,
+  "PinForAll": 554,
   "PinForAssociates": [
-    134,
-    91
+    374,
+    985
   ],
   "PinForGroups": [
-    397,
-    107
+    325,
+    742
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 775
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

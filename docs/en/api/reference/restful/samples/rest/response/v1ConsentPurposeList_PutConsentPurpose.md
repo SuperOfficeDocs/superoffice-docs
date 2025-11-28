@@ -3,25 +3,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 405,
-  "Name": "Marquardt Inc and Sons",
-  "ConsentText": "eius",
-  "FormText": "ea",
-  "Key": "maxime",
-  "Tooltip": "occaecati",
-  "Active": 53,
-  "UpdatedDate": "2025-03-09T14:35:44.8183947+01:00",
+  "ConsentPurposeId": 670,
+  "Name": "Marketing Communications",
+  "ConsentText": "cum",
+  "FormText": "esse",
+  "Key": "dolorum",
+  "Tooltip": "Consent purpose for GDPR compliance",
+  "Active": 589,
+  "UpdatedDate": "2012-09-23T14:34:03.0336501+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 20,
-  "PrivacyStatementDesc": "commodi",
+  "Deleted": true,
+  "Rank": 83,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

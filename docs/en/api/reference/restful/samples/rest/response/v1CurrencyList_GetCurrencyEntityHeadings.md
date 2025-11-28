@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Kirlin-Daniel",
-    "Tooltip": "molestias",
-    "Deleted": false,
-    "Rank": 746,
-    "UdListDefinitionId": 779,
+    "HeadingId": 111,
+    "Name": "Euro",
+    "Tooltip": "Currency type",
+    "Deleted": true,
+    "Rank": 582,
+    "UdListDefinitionId": 95,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

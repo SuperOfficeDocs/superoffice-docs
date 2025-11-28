@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 348,
-  "Name": "Legros LLC",
-  "Tooltip": "quia",
+  "Id": 336,
+  "Name": "Hodkiewicz LLC",
+  "Tooltip": "Sale reason",
   "Deleted": false,
-  "UdListDefinitionId": 178,
-  "Rank": 886,
+  "UdListDefinitionId": 668,
+  "Rank": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 87,
-  "Name": "Hettinger, Bode and Wisoky",
-  "Tooltip": "vitae",
+  "HeadingId": 701,
+  "Name": "Collins, O'Hara and Braun",
+  "Tooltip": "Currency type",
   "Deleted": true,
-  "Rank": 951,
-  "UdListDefinitionId": 602,
+  "Rank": 799,
+  "UdListDefinitionId": 612,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

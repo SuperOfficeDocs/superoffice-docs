@@ -6,15 +6,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 605,
-  "Name": "O'Kon, Bartoletti and Murray",
-  "Tooltip": "ipsa",
+  "Id": 364,
+  "Name": "Deckow, Little and Lemke",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 299,
+  "Rank": 880,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "ListType": "odit",
   "InUseByUserDefinedFields": false
 }
 ```

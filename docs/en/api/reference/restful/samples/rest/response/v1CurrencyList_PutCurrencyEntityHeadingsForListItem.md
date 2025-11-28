@@ -4,56 +4,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Collier-Cremin",
-    "ToolTip": "Totam quibusdam veniam rerum esse recusandae.",
-    "Deleted": true,
-    "Rank": 257,
-    "Type": "ex",
-    "ColorBlock": 759,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "2024-10-31T14:35:44.9131982+01:00",
+    "Id": 423,
+    "Name": "US Dollar",
+    "ToolTip": "Autem cum est sunt necessitatibus reiciendis.",
+    "Deleted": false,
+    "Rank": 819,
+    "Type": "consequuntur",
+    "ColorBlock": 432,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "2016-03-08T14:34:03.1356479+01:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Heidenreich-O'Conner",
-        "ToolTip": "Sequi commodi.",
-        "Deleted": true,
-        "Rank": 169,
-        "Type": "consequatur",
-        "ColorBlock": 843,
-        "IconHint": "nobis",
-        "Selected": true,
-        "LastChanged": "1998-06-13T14:35:44.9131982+02:00",
+        "Id": 625,
+        "Name": "Euro",
+        "ToolTip": "Ut libero aut sequi consequuntur cum aliquam dolorem.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "dolorum",
+        "ColorBlock": 53,
+        "IconHint": "nisi",
+        "Selected": false,
+        "LastChanged": "2009-04-04T14:34:03.1356479+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Jazlyn Turcotte",
+        "ExtraInfo": "provident",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Mr. Lorna Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 238
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Wilford Thiel",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quaerat",
+    "Hidden": true,
+    "FullName": "Prof. Pablo Reynolds I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

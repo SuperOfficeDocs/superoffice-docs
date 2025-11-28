@@ -2,47 +2,47 @@
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Veum Group",
-    "ToolTip": "Dolorum et ullam magnam impedit doloremque quaerat et.",
+    "Id": 258,
+    "Name": "Paucek Inc and Sons",
+    "ToolTip": "Possimus ullam ad vel aut voluptatem.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "eum",
-    "ColorBlock": 702,
-    "IconHint": "illo",
-    "Selected": true,
-    "LastChanged": "2017-02-15T14:35:45.1215559+01:00",
+    "Rank": 343,
+    "Type": "aliquid",
+    "ColorBlock": 129,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2020-01-31T14:34:03.3542927+01:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Dach LLC",
-        "ToolTip": "Quibusdam libero.",
-        "Deleted": true,
-        "Rank": 638,
-        "Type": "et",
-        "ColorBlock": 488,
-        "IconHint": "ducimus",
+        "Id": 224,
+        "Name": "Lueilwitz, Hackett and Ward",
+        "ToolTip": "Fuga consequatur debitis vitae.",
+        "Deleted": false,
+        "Rank": 780,
+        "Type": "perferendis",
+        "ColorBlock": 325,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2005-10-30T14:35:45.1215559+01:00",
+        "LastChanged": "2007-06-14T14:34:03.3542927+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "ut",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Mr. Pasquale Runolfsdottir"
+        "FullName": "Ms. Theresia Renner"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ima Kerluke"
+    "ExtraInfo": "incidunt",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Eldridge Smith"
   }
 ]
 ```

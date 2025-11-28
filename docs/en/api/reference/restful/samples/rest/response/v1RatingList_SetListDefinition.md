@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 464,
-  "Name": "Jacobi Inc and Sons",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "Rank": 465,
-  "IsCustomList": true,
+  "Id": 414,
+  "Name": "Collins Group",
+  "Tooltip": "Rating level",
+  "Deleted": false,
+  "Rank": 318,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "et",
+    "Field": "contactId",
     "FieldValue": null
   },
   {
-    "Field": "et",
+    "Field": "personId",
     "FieldValue": null
   }
 ]

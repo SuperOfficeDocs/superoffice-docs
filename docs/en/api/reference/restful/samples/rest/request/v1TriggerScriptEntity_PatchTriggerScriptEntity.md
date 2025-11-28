@@ -2,18 +2,18 @@
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sequi",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sequi",
+    "path": "quis",
     "value": {}
   }
 ]

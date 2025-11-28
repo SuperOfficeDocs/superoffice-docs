@@ -2,18 +2,18 @@
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 422,
-  "Name": "Mosciski-Kautzer",
-  "Rank": 177,
-  "Tooltip": "tenetur",
+  "AssociateId": 146,
+  "Name": "Schumm-Schmidt",
+  "Rank": 624,
+  "Tooltip": "libero",
   "LicenseOwners": [
     {
-      "Name": "Ritchie-Mitchell",
-      "Description": "Pre-emptive 3rd generation ability",
+      "Name": "Weimann, Kuhn and Hansen",
+      "Description": "Enterprise-wide 24 hour toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -24,8 +24,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ritchie-Mitchell",
-      "Description": "Pre-emptive 3rd generation ability",
+      "Name": "Weimann, Kuhn and Hansen",
+      "Description": "Enterprise-wide 24 hour toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -40,87 +40,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatum",
-      "Tooltip": "repudiandae",
-      "Id": 495,
-      "Rank": 358,
+      "Value": "eum",
+      "Tooltip": "illo",
+      "Id": 194,
+      "Rank": 25,
       "Deleted": false
     },
     {
-      "Value": "voluptatum",
-      "Tooltip": "repudiandae",
-      "Id": 495,
-      "Rank": 358,
+      "Value": "eum",
+      "Tooltip": "illo",
+      "Id": 194,
+      "Rank": 25,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1999-07-17T14:35:44.6932893+02:00",
-  "Lastlogout": "2014-09-06T14:35:44.6932893+02:00",
-  "EjUserId": 458,
-  "RequestSignature": "voluptatem",
+  "Deleted": true,
+  "Lastlogin": "2002-07-07T14:34:02.89351+02:00",
+  "Lastlogout": "2009-03-11T14:34:02.89351+01:00",
+  "EjUserId": 704,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "illum",
-      "DisplayValue": "quia"
+      "Value": "voluptate",
+      "DisplayValue": "dolor"
     },
     {
       "Type": null,
-      "Value": "illum",
-      "DisplayValue": "quia"
+      "Value": "voluptate",
+      "DisplayValue": "dolor"
     }
   ],
-  "UserName": "Mante LLC",
+  "UserName": "Parisian Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 601,
-      "Name": "Bauch, Prosacco and Spencer",
-      "ToolTip": "Amet praesentium iusto nesciunt iusto qui deserunt voluptatem.",
-      "Deleted": false,
-      "Rank": 729,
-      "Type": "dolore",
+      "Id": 720,
+      "Name": "Hilpert-Sporer",
+      "ToolTip": "Repellendus doloremque blanditiis corporis omnis dignissimos rerum.",
+      "Deleted": true,
+      "Rank": 690,
+      "Type": "quasi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maiores",
-      "ColorBlock": 748,
-      "ExtraInfo": "ipsam",
-      "StyleHint": "culpa",
-      "FullName": "Shaylee Collins"
+      "IconHint": "et",
+      "ColorBlock": 277,
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "nobis",
+      "FullName": "Federico O'Reilly"
     }
   ],
-  "NickName": "Oberbrunner LLC",
+  "NickName": "Frami Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "numquam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rosenbaum-Pfeffer",
-      "DisplayName": "Kohler LLC",
-      "Description": "Right-sized needs-based parallelism",
-      "ToolTip": "Architecto blanditiis.",
+      "Name": "Harris-Champlin",
+      "DisplayName": "Wolf Inc and Sons",
+      "Description": "Vision-oriented upward-trending instruction set",
+      "ToolTip": "Iste velit cum aspernatur non mollitia nulla.",
       "Actions": "Implicit",
-      "ActionData": "nam"
+      "ActionData": "error"
     },
     {
-      "Name": "Rosenbaum-Pfeffer",
-      "DisplayName": "Kohler LLC",
-      "Description": "Right-sized needs-based parallelism",
-      "ToolTip": "Architecto blanditiis.",
+      "Name": "Harris-Champlin",
+      "DisplayName": "Wolf Inc and Sons",
+      "Description": "Vision-oriented upward-trending instruction set",
+      "ToolTip": "Iste velit cum aspernatur non mollitia nulla.",
       "Actions": "Implicit",
-      "ActionData": "nam"
+      "ActionData": "error"
     }
   ]
 }

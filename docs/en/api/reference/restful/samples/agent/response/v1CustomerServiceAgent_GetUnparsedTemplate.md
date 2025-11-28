@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReplyTemplateId": 591,
-  "PlainParsed": "veniam",
-  "HtmlParsed": "nihil",
+  "PlainParsed": "Dear [[customer.name]],\n\nThank you for contacting us regarding [[ticket.title]]. Your ticket number is [[ticket.id]].\n\nBest regards,\n[[user.name]]",
+  "HtmlParsed": "<p>Dear [[customer.name]],</p><p>Thank you for contacting us regarding [[ticket.title]]. Your ticket number is [[ticket.id]].</p><p>Best regards,<br/>[[user.name]]</p>",
   "Attachments": [
     {
       "AttachmentId": 795,
-      "Name": "Hammes, Feeney and Abshire",
+      "Name": "company-signature.png",
       "ContentType": "ab",
       "AttSize": 168,
       "InlineImage": false,
@@ -26,7 +26,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "provident",
+  "Subject": "Re: [[ticket.title]] - Ticket #[[ticket.id]]",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

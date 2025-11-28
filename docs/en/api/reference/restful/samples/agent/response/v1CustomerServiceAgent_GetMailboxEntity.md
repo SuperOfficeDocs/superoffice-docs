@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "MailInFilterId": 279,
-  "ServerType": "Facebook",
-  "Address": "ipsum",
-  "Username": "dolores",
-  "Password": "quia",
-  "Server": "nobis",
-  "Port": 378,
+  "ServerType": "IMAP",
+  "Address": "support@acmecorp.com",
+  "Username": "support.team",
+  "Password": "encrypted_password",
+  "Server": "mail.acmecorp.com",
+  "Port": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

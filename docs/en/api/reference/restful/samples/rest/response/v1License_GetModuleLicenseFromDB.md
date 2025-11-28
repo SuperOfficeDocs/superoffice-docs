@@ -3,20 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kilback LLC",
-  "ModuleName": "Monahan, Kerluke and Ratke",
-  "ModuleDescription": "Triple-buffered mobile strategy",
+  "OwnerName": "Howell Group",
+  "ModuleName": "Eichmann LLC",
+  "ModuleDescription": "Streamlined contextually-based success",
   "ModuleTooltip": "aut",
-  "ModuleVersion": "eveniet",
+  "ModuleVersion": "maxime",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 142,
-  "ExtraFlags": 963,
-  "ExtraInfo": "quo",
-  "SortOrder": 849,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Hayes-Osinski",
-  "Signature": "quis"
+  "NumberOfLicenses": 303,
+  "ExtraFlags": 260,
+  "ExtraInfo": "quia",
+  "SortOrder": 682,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Kuvalis-Graham",
+  "Signature": "beatae"
 }
 ```

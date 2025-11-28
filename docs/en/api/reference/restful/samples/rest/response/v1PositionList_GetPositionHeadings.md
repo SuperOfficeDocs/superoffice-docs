@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Huel Inc and Sons",
-    "Tooltip": "debitis",
+    "HeadingId": 129,
+    "Name": "Dicki LLC",
+    "Tooltip": "Job position",
     "Deleted": false,
-    "Rank": 754,
-    "UdListDefinitionId": 269,
+    "Rank": 738,
+    "UdListDefinitionId": 950,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

@@ -3,22 +3,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Lebsack, Stehr and O'Connell",
-  "Tooltip": "libero",
+  "Id": 116,
+  "Name": "Business",
+  "Tooltip": "Business classification list",
   "Deleted": false,
-  "Rank": 201,
+  "Rank": 292,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "Business",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 968
     }
   }
 }

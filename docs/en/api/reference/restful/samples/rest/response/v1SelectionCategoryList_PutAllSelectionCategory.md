@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Wehner-Stracke",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "UdListDefinitionId": 785,
-    "Rank": 162,
+    "Id": 643,
+    "Name": "Ward Group",
+    "Tooltip": "Selection category",
+    "Deleted": false,
+    "UdListDefinitionId": 715,
+    "Rank": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 412
       }
     }
   }

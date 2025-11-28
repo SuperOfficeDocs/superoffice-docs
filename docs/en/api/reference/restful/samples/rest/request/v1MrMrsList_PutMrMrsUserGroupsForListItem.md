@@ -2,47 +2,47 @@
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Wilkinson-Cummerata",
-    "ToolTip": "Pariatur dicta voluptas assumenda facere et sit sed.",
+    "Id": 548,
+    "Name": "Metz Inc and Sons",
+    "ToolTip": "Et repellat rerum molestiae harum.",
     "Deleted": false,
-    "Rank": 538,
-    "Type": "harum",
-    "ColorBlock": 286,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-08-03T14:35:45.0019928+02:00",
+    "Rank": 620,
+    "Type": "perspiciatis",
+    "ColorBlock": 204,
+    "IconHint": "quisquam",
+    "Selected": false,
+    "LastChanged": "2001-05-09T14:34:03.2066363+02:00",
     "ChildItems": [
       {
-        "Id": 661,
-        "Name": "Walter Group",
-        "ToolTip": "Aut in.",
-        "Deleted": false,
-        "Rank": 735,
-        "Type": "placeat",
-        "ColorBlock": 916,
-        "IconHint": "numquam",
+        "Id": 741,
+        "Name": "Gerlach, Denesik and Hane",
+        "ToolTip": "Placeat eos unde.",
+        "Deleted": true,
+        "Rank": 832,
+        "Type": "velit",
+        "ColorBlock": 884,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2017-08-03T14:35:45.0019928+02:00",
+        "LastChanged": "2016-07-16T14:34:03.2066363+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Sim Rau"
+        "ExtraInfo": "assumenda",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Prof. Vita Towne V"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Ms. Maximilian Laverna Wisozk MD"
+    "ExtraInfo": "eos",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Terrill Cormier"
   }
 ]
 ```

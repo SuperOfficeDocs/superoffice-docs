@@ -2,51 +2,51 @@
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 210,
-  "Name": "Streich, Kuvalis and Rau",
-  "Tooltip": "facilis",
-  "Rank": 955,
+  "SaleTypeId": 445,
+  "Name": "Pfannerstill LLC",
+  "Tooltip": "id",
+  "Rank": 394,
   "DurationUnit": "Century",
-  "SaleDuration": 338,
-  "SaleTypeCatId": 949,
+  "SaleDuration": 485,
+  "SaleTypeCatId": 894,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 264,
-  "QuoteLinesTemplate": 305,
-  "ConfirmationLinesTemplate": 659,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 738,
-  "MinEarningPercent": 392,
-  "GroupQuoteLinesBy": 319,
-  "SortGroupLinesBy": 862,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 295,
+  "QuoteLinesTemplate": 754,
+  "ConfirmationLinesTemplate": 322,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 287,
+  "MinEarningPercent": 9,
+  "GroupQuoteLinesBy": 832,
+  "SortGroupLinesBy": 685,
   "Stages": [
     {
-      "Id": 612,
-      "Name": "Lakin LLC",
-      "ToolTip": "Placeat eos adipisci quia vitae.",
-      "Deleted": true,
-      "Rank": 541,
-      "Type": "impedit",
-      "ColorBlock": 567,
-      "IconHint": "dolorem",
+      "Id": 810,
+      "Name": "Hettinger LLC",
+      "ToolTip": "Corporis nesciunt mollitia temporibus ullam.",
+      "Deleted": false,
+      "Rank": 595,
+      "Type": "maxime",
+      "ColorBlock": 106,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2001-02-12T14:35:45.274485+01:00",
+      "LastChanged": "1999-05-13T14:34:03.4976486+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "nihil",
+      "ExtraInfo": "optio",
+      "StyleHint": "sit",
       "Hidden": true,
-      "FullName": "Ricardo Glover"
+      "FullName": "Mrs. Genesis Ciara Schmitt"
     }
   ]
 }

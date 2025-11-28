@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Witting, Bogisich and Schowalter",
-    "Tooltip": "ea",
+    "Id": 349,
+    "Name": "Konopelski Group",
+    "Tooltip": "Sale reason",
     "Deleted": false,
-    "UdListDefinitionId": 535,
-    "Rank": 971,
+    "UdListDefinitionId": 719,
+    "Rank": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 106
       }
     }
   }

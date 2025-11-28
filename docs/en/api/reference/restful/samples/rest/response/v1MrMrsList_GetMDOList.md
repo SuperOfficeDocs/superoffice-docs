@@ -4,50 +4,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Huel Group",
-    "ToolTip": "Sunt cupiditate magni tenetur ea ut aut asperiores.",
-    "Deleted": false,
-    "Rank": 787,
-    "Type": "cum",
+    "Id": 115,
+    "Name": "Ms.",
+    "ToolTip": "Impedit eligendi quibusdam rem aut eum eos velit.",
+    "Deleted": true,
+    "Rank": 816,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Wisoky-Hermann",
-        "ToolTip": "Odit vitae.",
-        "Deleted": false,
-        "Rank": 496,
-        "Type": "excepturi",
+        "Id": 823,
+        "Name": "Bruen Inc and Sons",
+        "ToolTip": "Sed et temporibus qui vero et qui delectus.",
+        "Deleted": true,
+        "Rank": 606,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 808,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "possimus",
-        "FullName": "Rosalyn Adrienne Cole II",
+        "IconHint": "voluptates",
+        "ColorBlock": 124,
+        "ExtraInfo": "sit",
+        "StyleHint": "sapiente",
+        "FullName": "Landen Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "porro",
-    "ColorBlock": 988,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "assumenda",
-    "FullName": "Gregg Fritsch",
+    "IconHint": "dolor",
+    "ColorBlock": 522,
+    "ExtraInfo": "dolor",
+    "StyleHint": "quia",
+    "FullName": "Johnathon Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 395
       }
     }
   }

@@ -3,18 +3,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "Schinner-Mertz",
-  "Tooltip": "quia",
+  "Id": 231,
+  "Name": "Medium",
+  "Tooltip": "Priority level",
   "Deleted": false,
-  "UdListDefinitionId": 85,
-  "Rank": 659,
+  "UdListDefinitionId": 42,
+  "Rank": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }
