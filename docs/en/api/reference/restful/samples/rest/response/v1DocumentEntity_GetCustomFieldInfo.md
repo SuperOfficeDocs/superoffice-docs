@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "FieldType": "Attachment",
   "FieldName": "Crona LLC",
   "DisplayName": "Pfeffer-Skiles",
-  "Description": "Phased stable leverage",
+  "Description": "Sales proposal document",
   "ShortLabel": "voluptas",
   "HideLabel": false,
   "HideField": false,
