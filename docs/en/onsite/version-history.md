@@ -13,7 +13,7 @@ deployment: onsite
 
 An overview of Release names, with Release number, Date, and Build number.
 
-It does not contain Red Alerts or [CRM Online release versions][1].
+It does not contain Red Alerts or CRM Online release versions.
 
 | Onsite Release Name | Release number | Date | Build number |
 |-----|-----|-----|-----|
@@ -168,6 +168,3 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 10.5.2 | (Onsite skipped) | | |
 | 10.5.3 | (Onsite skipped) | | |
 | 10.5.4 | | 30.04.2025 | 2025.04.29-03 |
-
-<!-- Referenced links -->
-[1]: ../online/version-history.md
