@@ -3,19 +3,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldType": "Attachment",
-  "FieldName": "Rowe Inc and Sons",
-  "DisplayName": "Johns-Conn",
-  "Description": "Synchronised bottom-line migration",
-  "ShortLabel": "eum",
-  "HideLabel": true,
+  "FieldType": "Text",
+  "FieldName": "x_industry",
+  "DisplayName": "Industry Sector",
+  "Description": "Company industry classification",
+  "ShortLabel": "Industry",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 436,
-  "TemplateVariableName": "Blanda-Auer"
+  "IsExternal": false,
+  "IsDisplayField": true,
+  "Rank": 1,
+  "TemplateVariableName": "udef_industrySector"
 }
 ```
