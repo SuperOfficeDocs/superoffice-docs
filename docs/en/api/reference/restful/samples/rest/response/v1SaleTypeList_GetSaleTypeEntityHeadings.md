@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 491,
-    "Name": "Effertz-Koch",
-    "Tooltip": "consequatur",
+    "Name": "New Business",
+    "Tooltip": "Sale type",
     "Deleted": true,
     "Rank": 649,
     "UdListDefinitionId": 319,

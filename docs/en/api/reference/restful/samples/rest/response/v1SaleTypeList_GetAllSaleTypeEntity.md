@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "SaleTypeId": 763,
-    "Name": "Schulist, Luettgen and Beahan",
-    "Tooltip": "molestiae",
+    "Name": "Renewal",
+    "Tooltip": "Sale type",
     "Rank": 694,
     "DurationUnit": "Century",
     "SaleDuration": 879,

@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
     {
       "EntityName": "Hintz-Jast",
       "Id": 466,
-      "Description": "Sharable intangible software",
+      "Description": "Enterprise software sale",
       "ExtraInfo": "explicabo",
       "LinkId": 864,
       "TableRight": null,

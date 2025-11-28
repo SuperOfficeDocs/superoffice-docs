@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReldefId": 16,
-  "Name": "Stokes, Quitzon and Armstrong",
+  "Name": "Standard User",
   "Tooltip": "doloribus",
   "PassiveText": "unde",
   "Deleted": false,

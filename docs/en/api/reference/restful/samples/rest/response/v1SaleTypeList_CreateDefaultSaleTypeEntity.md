@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SaleTypeId": 647,
   "Name": "Quitzon Group",
-  "Tooltip": "quis",
+  "Tooltip": "Sale type",
   "Rank": 191,
   "DurationUnit": "Century",
   "SaleDuration": 198,
@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
   "Stages": [
     {
       "Id": 72,
-      "Name": "Satterfield-Muller",
+      "Name": "New Business",
       "ToolTip": "Tempora porro distinctio.",
       "Deleted": true,
       "Rank": 768,

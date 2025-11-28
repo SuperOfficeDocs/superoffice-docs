@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReldefId": 639,
-  "Name": "Greenholt, Hyatt and Pouros",
+  "Name": "Standard User",
   "Tooltip": "autem",
   "PassiveText": "repellendus",
   "Deleted": true,

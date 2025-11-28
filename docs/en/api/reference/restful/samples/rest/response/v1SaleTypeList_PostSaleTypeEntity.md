@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleTypeId": 251,
-  "Name": "Sipes, Larson and Veum",
-  "Tooltip": "modi",
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
   "Rank": 853,
   "DurationUnit": "Century",
   "SaleDuration": 580,
@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
   "Stages": [
     {
       "Id": 201,
-      "Name": "Bergnaum-Kuhn",
+      "Name": "New Business",
       "ToolTip": "Dignissimos pariatur quo aut hic voluptates omnis et.",
       "Deleted": false,
       "Rank": 514,
