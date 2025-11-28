@@ -8,14 +8,14 @@ Content-Type: application/json; charset=utf-8
     {
       "TicketId": 387,
       "TicketStatus": 254,
-      "Title": "velit",
+      "Title": "Sales Manager",
       "Registered": "2014-06-15T14:34:02.1426809+02:00",
       "IconHint": "sit"
     },
     {
       "TicketId": 387,
       "TicketStatus": 254,
-      "Title": "velit",
+      "Title": "Sales Manager",
       "Registered": "2014-06-15T14:34:02.1426809+02:00",
       "IconHint": "sit"
     }
@@ -43,7 +43,7 @@ Content-Type: application/json; charset=utf-8
       "AppointmentId": 888,
       "DocumentId": 923,
       "Date": "2024-03-07T14:34:02.1426809+01:00",
-      "Description": "Advanced holistic initiative",
+      "Description": "Primary contact",
       "Completed": "Completed",
       "Registered": "2004-06-20T14:34:02.1426809+02:00"
     },
@@ -51,7 +51,7 @@ Content-Type: application/json; charset=utf-8
       "AppointmentId": 888,
       "DocumentId": 923,
       "Date": "2024-03-07T14:34:02.1426809+01:00",
-      "Description": "Advanced holistic initiative",
+      "Description": "Primary contact",
       "Completed": "Completed",
       "Registered": "2004-06-20T14:34:02.1426809+02:00"
     }

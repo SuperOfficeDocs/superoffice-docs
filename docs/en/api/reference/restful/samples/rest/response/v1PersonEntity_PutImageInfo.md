@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "BlobId": 763,
   "BlobSize": 664,
-  "Description": "Visionary composite database",
+  "Description": "Primary contact",
   "ExtraInfo": "sit",
   "IsEncrypted": false,
   "IsZipped": true,
