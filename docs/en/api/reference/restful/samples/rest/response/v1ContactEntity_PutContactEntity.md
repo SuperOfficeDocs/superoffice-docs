@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 558,
-  "Name": "Greenfelder-Rice",
-  "Department": "",
+  "Name": "TechCorp Solutions",
+  "Department": "Sales",
   "OrgNr": "1374228",
   "Number1": "1433050",
   "Number2": "986517",
@@ -42,7 +42,7 @@ Content-Type: application/json; charset=utf-8
   "Interests": [
     {
       "Id": 559,
-      "Name": "Conroy LLC",
+      "Name": "Innovation Systems",
       "ToolTip": "Sunt enim et et sint sit.",
       "Deleted": false,
       "Rank": 307,
@@ -72,7 +72,7 @@ Content-Type: application/json; charset=utf-8
   "Urls": [
     {
       "Value": "aut",
-      "StrippedValue": "est",
+      "StrippedValue": "info@acmecorp.com",
       "Description": "Robust actuating approach",
       "TableRight": null,
       "FieldProperties": {
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "Value": "aut",
-      "StrippedValue": "est",
+      "StrippedValue": "info@acmecorp.com",
       "Description": "Robust actuating approach",
       "TableRight": null,
       "FieldProperties": {
@@ -229,7 +229,7 @@ Content-Type: application/json; charset=utf-8
   "DbiLastModified": "2020-03-13T14:34:01.7844179+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 446,
+  "Source": 1,
   "ActiveErpLinks": 174,
   "BounceEmails": [
     "michaela@maggiobode.name",

@@ -5,8 +5,8 @@ Last-Modified: Sat, 15 Apr 2023 14:34:01 G4T
 
 {
   "ContactId": 650,
-  "Name": "McGlynn-Bernhard",
-  "Department": "",
+  "Name": "Acme Corporation",
+  "Department": "Sales",
   "OrgNr": "1723426",
   "Number1": "940164",
   "Number2": "1415848",
@@ -14,9 +14,9 @@ Last-Modified: Sat, 15 Apr 2023 14:34:01 G4T
   "CreatedDate": "2019-06-05T14:34:01.7211602+02:00",
   "Emails": [
     {
-      "Value": "temporibus",
-      "StrippedValue": "est",
-      "Description": "Optional directional implementation",
+      "Value": "info@acmecorp.com",
+      "StrippedValue": "info@acmecorp.com",
+      "Description": "Main company email",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -27,9 +27,9 @@ Last-Modified: Sat, 15 Apr 2023 14:34:01 G4T
       }
     },
     {
-      "Value": "temporibus",
-      "StrippedValue": "est",
-      "Description": "Optional directional implementation",
+      "Value": "info@acmecorp.com",
+      "StrippedValue": "info@acmecorp.com",
+      "Description": "Main company email",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -43,11 +43,11 @@ Last-Modified: Sat, 15 Apr 2023 14:34:01 G4T
   "Interests": [
     {
       "Id": 885,
-      "Name": "Bernier-Hoppe",
-      "ToolTip": "Ipsa suscipit magnam laudantium neque amet iure eum.",
+      "Name": "TechCorp Solutions",
+      "ToolTip": "Company interest area",
       "Deleted": true,
       "Rank": 37,
-      "Type": "facere",
+      "Type": "Interest",
       "ColorBlock": 96,
       "IconHint": "labore",
       "Selected": false,
@@ -230,7 +230,7 @@ Last-Modified: Sat, 15 Apr 2023 14:34:01 G4T
   "DbiLastModified": "2003-12-31T14:34:01.725019+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 169,
+  "Source": 1,
   "ActiveErpLinks": 655,
   "BounceEmails": [
     "laurianne@gusikowski.name",

@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
   "Chats": [
     {
       "ChatSessionId": 296,
-      "Name": "Waters, Schowalter and Rau",
+      "Name": "Global Industries Ltd",
       "CompanyName": "Hegmann-Kuphal",
       "FirstMessage": "blanditiis",
       "LastMessage": "omnis",
