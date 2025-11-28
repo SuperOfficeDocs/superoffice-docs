@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketPriorityId": 253,
-  "Name": "Lindgren, Reynolds and Roberts",
+  "Name": "Sales Inquiry",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
   "SortOrder": 366,

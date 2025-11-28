@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 344,
-  "Name": "West, Gutkowski and Borer",
-  "Tooltip": "est",
+  "Name": "Meeting",
+  "Tooltip": "Task type",
   "Deleted": false,
   "Rank": 429,
   "UdListDefinitionId": 538,

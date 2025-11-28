@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 923,
     "Name": "Quitzon Inc and Sons",
-    "Tooltip": "quas",
+    "Tooltip": "Ticket classification",
     "Deleted": true,
     "Rank": 855,
     "UdListDefinitionId": 970,

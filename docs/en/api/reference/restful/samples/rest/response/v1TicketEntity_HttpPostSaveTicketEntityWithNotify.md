@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 973,
-  "Title": "ea",
+  "Title": "Customer Support Request",
   "CreatedAt": "2008-09-20T14:34:02.4660862+02:00",
   "LastChanged": "2020-12-30T14:34:02.4660862+01:00",
   "ReadByOwner": "2009-08-06T14:34:02.4660862+02:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Elinor",
       "Lastname": "Douglas",
       "MiddleName": "Gleason, Bartell and Dooley",
-      "Title": "qui",
+      "Title": "Customer Support Request",
       "Description": "Horizontal neutral leverage",
       "Email": "aditya@dach.ca",
       "FullName": "Delmer Howell",

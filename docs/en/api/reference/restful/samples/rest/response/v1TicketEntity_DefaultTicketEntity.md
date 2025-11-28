@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 49,
-  "Title": "sapiente",
+  "Title": "Customer Support Request",
   "CreatedAt": "2012-06-05T14:34:02.447051+02:00",
   "LastChanged": "2020-02-11T14:34:02.447051+01:00",
   "ReadByOwner": "2010-12-07T14:34:02.447051+01:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Danika",
       "Lastname": "Shanahan",
       "MiddleName": "Leffler Inc and Sons",
-      "Title": "dolores",
+      "Title": "Customer Support Request",
       "Description": "Self-enabling responsive extranet",
       "Email": "katherine@heller.biz",
       "FullName": "Hannah Grady",
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
   "Tags": [
     {
       "Id": 587,
-      "Name": "Schamberger-Abbott",
+      "Name": "Support Ticket",
       "ToolTip": "Tempore suscipit possimus impedit doloremque.",
       "TableRight": null,
       "FieldProperties": {
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "Id": 587,
-      "Name": "Schamberger-Abbott",
+      "Name": "Support Ticket",
       "ToolTip": "Tempore suscipit possimus impedit doloremque.",
       "TableRight": null,
       "FieldProperties": {

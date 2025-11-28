@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 440,
-  "Title": "ea",
+  "Title": "Customer Support Request",
   "CreatedAt": "2004-06-05T14:34:02.4710869+02:00",
   "LastChanged": "2025-10-08T14:34:02.4710869+02:00",
   "ReadByOwner": "2005-01-22T14:34:02.4710869+01:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Serena",
       "Lastname": "Herzog",
       "MiddleName": "Christiansen-Rath",
-      "Title": "et",
+      "Title": "Customer Support Request",
       "Description": "Multi-layered background functionalities",
       "Email": "loren@okunevaframi.ca",
       "FullName": "Stan Price",

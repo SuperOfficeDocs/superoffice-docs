@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Type": "Html",
   "MessageId": "laudantium",
   "TimeSpent": 412,
-  "Body": "et",
+  "Body": "Thank you for contacting support. We will review your request.",
   "HtmlBody": "ut",
   "EmailHeader": "eveline@cremin.uk",
   "DebugInfo": "velit",

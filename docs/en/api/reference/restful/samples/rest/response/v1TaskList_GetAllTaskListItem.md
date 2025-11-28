@@ -8,7 +8,7 @@ Content-Type: application/json; charset=utf-8
     "Value": "aspernatur",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "eum",
+    "Tooltip": "Task type",
     "Deleted": false,
     "IntentId": 282,
     "Rank": 170,

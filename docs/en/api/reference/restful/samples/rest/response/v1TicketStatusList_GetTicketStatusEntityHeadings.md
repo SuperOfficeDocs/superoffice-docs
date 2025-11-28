@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 550,
     "Name": "Sipes Inc and Sons",
-    "Tooltip": "dicta",
+    "Tooltip": "Ticket classification",
     "Deleted": true,
     "Rank": 312,
     "UdListDefinitionId": 795,

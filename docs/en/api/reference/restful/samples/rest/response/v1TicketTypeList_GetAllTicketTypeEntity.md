@@ -5,9 +5,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "TicketTypeId": 719,
-    "Name": "Frami, Franecki and Hand",
+    "Name": "Sales Inquiry",
     "Rank": 558,
-    "Tooltip": "sequi",
+    "Tooltip": "Ticket classification",
     "Icon": "repudiandae",
     "DefaultTicketStatus": 258,
     "TicketStatuses": [

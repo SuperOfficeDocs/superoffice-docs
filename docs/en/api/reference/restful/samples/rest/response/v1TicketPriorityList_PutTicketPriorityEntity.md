@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketPriorityId": 250,
-  "Name": "Raynor, Deckow and Goyette",
+  "Name": "Sales Inquiry",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
   "SortOrder": 188,

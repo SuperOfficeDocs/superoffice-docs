@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "Value": "eos",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ratione",
+  "Tooltip": "Task type",
   "Deleted": false,
   "IntentId": 366,
   "Rank": 605,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 366,
-  "Name": "Wilderman-Baumbach",
-  "Tooltip": "fugiat",
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
   "Deleted": true,
   "Rank": 875,
   "IsCustomList": false,

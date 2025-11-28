@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 836,
-    "Name": "Koch, Reynolds and Johns",
+    "Name": "Meeting",
     "ToolTip": "Ut sapiente ut autem in non ad.",
     "Deleted": false,
     "Rank": 650,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 844,
-        "Name": "Ward, Effertz and Thiel",
+        "Name": "Meeting",
         "ToolTip": "Velit qui vel fugiat nihil quas blanditiis atque.",
         "Deleted": false,
         "Rank": 168,

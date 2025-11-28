@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 515,
-  "Name": "Schimmel, Lang and Stiedemann",
-  "Tooltip": "quod",
+  "Name": "Meeting",
+  "Tooltip": "Task type",
   "Deleted": false,
   "Rank": 584,
   "IsCustomList": false,

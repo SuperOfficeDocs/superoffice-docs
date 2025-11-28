@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketStatusId": 459,
-  "Name": "Herman-Jaskolski",
+  "Name": "Technical Support",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,

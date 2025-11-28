@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 713,
-  "Name": "Ondricka-Langosh",
+  "Name": "Technical Support",
   "Rank": 53,
-  "Tooltip": "facilis",
+  "Tooltip": "Ticket classification",
   "Icon": "saepe",
   "DefaultTicketStatus": 381,
   "TicketStatuses": [

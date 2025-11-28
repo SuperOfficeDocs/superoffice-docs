@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 925,
-    "Name": "Wehner-Rath",
-    "Tooltip": "et",
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
     "Rank": 457,
     "UdListDefinitionId": 988,

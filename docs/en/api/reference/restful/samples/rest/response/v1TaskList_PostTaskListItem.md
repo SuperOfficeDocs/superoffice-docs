@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "Value": "iure",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dolore",
+  "Tooltip": "Task type",
   "Deleted": false,
   "IntentId": 674,
   "Rank": 442,

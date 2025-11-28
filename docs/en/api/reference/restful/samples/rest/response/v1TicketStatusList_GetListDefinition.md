@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 881,
   "Name": "Heller, Pollich and O'Connell",
-  "Tooltip": "nulla",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 848,
   "IsCustomList": false,

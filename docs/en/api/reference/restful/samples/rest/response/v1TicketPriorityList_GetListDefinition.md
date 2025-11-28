@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 72,
   "Name": "Bashirian Group",
-  "Tooltip": "commodi",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 790,
   "IsCustomList": false,

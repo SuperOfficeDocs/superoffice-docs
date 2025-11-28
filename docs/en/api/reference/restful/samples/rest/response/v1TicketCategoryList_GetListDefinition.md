@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 540,
   "Name": "Wisoky Inc and Sons",
-  "Tooltip": "voluptas",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 948,
   "IsCustomList": true,

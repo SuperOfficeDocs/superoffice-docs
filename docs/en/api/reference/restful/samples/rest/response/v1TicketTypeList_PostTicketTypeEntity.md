@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 34,
-  "Name": "Borer-Cole",
+  "Name": "Technical Support",
   "Rank": 136,
-  "Tooltip": "natus",
+  "Tooltip": "Ticket classification",
   "Icon": "maxime",
   "DefaultTicketStatus": 707,
   "TicketStatuses": [

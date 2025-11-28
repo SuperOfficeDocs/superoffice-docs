@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 555,
-  "Name": "Anderson-Thompson",
-  "Tooltip": "libero",
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 363,
   "IsCustomList": false,

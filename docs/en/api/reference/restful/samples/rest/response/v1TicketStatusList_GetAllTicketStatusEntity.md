@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "TicketStatusId": 425,
-    "Name": "Becker-Olson",
+    "Name": "Technical Support",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,

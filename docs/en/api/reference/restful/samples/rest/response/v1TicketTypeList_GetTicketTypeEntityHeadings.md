@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 510,
-    "Name": "Johnston-Kemmer",
-    "Tooltip": "voluptatem",
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
     "Rank": 650,
     "UdListDefinitionId": 220,

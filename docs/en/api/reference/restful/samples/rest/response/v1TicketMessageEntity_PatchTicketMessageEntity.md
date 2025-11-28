@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Type": "Html",
   "MessageId": "tenetur",
   "TimeSpent": 675,
-  "Body": "rerum",
+  "Body": "Thank you for contacting support. We will review your request.",
   "HtmlBody": "eius",
   "EmailHeader": "jaquelin@sawayn.biz",
   "DebugInfo": "eum",
