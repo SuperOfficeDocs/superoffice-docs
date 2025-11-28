@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 781,
-    "Name": "Lebsack-Mosciski",
-    "Tooltip": "maxime",
+    "Name": "Sales Team",
+    "Tooltip": "Credit attribution",
     "Deleted": true,
     "Rank": 901,
     "UdListDefinitionId": 663,

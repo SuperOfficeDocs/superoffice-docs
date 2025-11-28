@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 837,
   "Name": "O'Conner, Donnelly and Goyette",
-  "Tooltip": "et",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
   "Rank": 60,
   "IsCustomList": false,

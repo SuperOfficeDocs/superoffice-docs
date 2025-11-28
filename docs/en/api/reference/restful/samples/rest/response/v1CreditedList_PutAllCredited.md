@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 373,
-    "Name": "Lind, Emard and Johnson",
-    "Tooltip": "occaecati",
+    "Name": "Marketing Team",
+    "Tooltip": "Credit attribution",
     "Deleted": true,
     "UdListDefinitionId": 120,
     "Rank": 166,

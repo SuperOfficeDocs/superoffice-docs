@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 933,
   "Name": "Turner, Considine and McLaughlin",
-  "Tooltip": "incidunt",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
   "UdListDefinitionId": 288,
   "Rank": 96,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 549,
   "Name": "Bins Inc and Sons",
-  "Tooltip": "qui",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
   "UdListDefinitionId": 515,
   "Rank": 138,
