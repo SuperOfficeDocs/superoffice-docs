@@ -23,7 +23,7 @@ Content-Type: application/json; charset=utf-8
   "Exception": "beatae",
   "ParserValues": {
     "ParserValues1": "doloremque",
-    "ParserValues2": "et"
+    "ParserValues2": "Script executed successfully"
   },
   "CgiVariables": {
     "CgiVariables1": "quis",
@@ -31,7 +31,7 @@ Content-Type: application/json; charset=utf-8
   },
   "CgiContent": "maiores",
   "Headers": {
-    "Headers1": "et",
+    "Headers1": "Script executed successfully",
     "Headers2": "veritatis"
   },
   "TraceExecution": false,
