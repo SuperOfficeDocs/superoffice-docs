@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 888,
-  "Name": "Gislason, Witting and Streich",
-  "ContentType": "ipsum",
-  "AttSize": 517,
+  "AttachmentId": 0,
+  "Name": "",
+  "ContentType": "",
+  "AttSize": 0,
   "InlineImage": false,
-  "ContentId": "velit",
-  "AuthKey": "aliquid",
+  "ContentId": "",
+  "AuthKey": "",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {

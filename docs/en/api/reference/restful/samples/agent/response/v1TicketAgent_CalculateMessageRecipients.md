@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Type": "BCC",
-    "Value": "autem",
-    "DisplayValue": "nihil"
+    "Type": "To",
+    "Value": "customer@acmecorp.com",
+    "DisplayValue": "John Anderson"
   },
   {
-    "Type": "BCC",
-    "Value": "autem",
-    "DisplayValue": "nihil"
+    "Type": "CC",
+    "Value": "support@company.com",
+    "DisplayValue": "Support Team"
   }
 ]
 ```

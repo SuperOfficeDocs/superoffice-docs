@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 828,
-  "Name": "Schumm-Mertz",
-  "ContentType": "dolorem",
-  "AttSize": 516,
+  "AttachmentId": 1001,
+  "Name": "clear_cache_instructions.pdf",
+  "ContentType": "application/pdf",
+  "AttSize": 245760,
   "InlineImage": false,
-  "ContentId": "maiores",
-  "AuthKey": "provident",
-  "IsSafeFileExtension": false,
+  "ContentId": "attach-1001",
+  "AuthKey": "auth-key-1001",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 472,
-  "Name": "Langworth, Feil and Stanton",
-  "ContentType": "et",
-  "AttSize": 58,
+  "AttachmentId": 1003,
+  "Name": "error_log.txt",
+  "ContentType": "text/plain",
+  "AttSize": 2048,
   "InlineImage": false,
-  "ContentId": "iure",
-  "AuthKey": "exercitationem",
-  "IsSafeFileExtension": false,
+  "ContentId": "attach-1003",
+  "AuthKey": "auth-key-1003",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

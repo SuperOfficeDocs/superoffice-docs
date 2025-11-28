@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "in",
+  "Body": "Thank you for contacting our support team. We have received your request and will respond shortly. Our typical response time is within 24 hours during business days.",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 618,
-      "Name": "Tremblay-Collins",
-      "ContentType": "accusamus",
-      "AttSize": 191,
+      "AttachmentId": 0,
+      "Name": "",
+      "ContentType": "",
+      "AttSize": 0,
       "InlineImage": false,
-      "ContentId": "sit",
-      "AuthKey": "aperiam",
-      "IsSafeFileExtension": true,
+      "ContentId": "",
+      "AuthKey": "",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

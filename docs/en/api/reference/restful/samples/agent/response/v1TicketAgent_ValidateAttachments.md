@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 766,
-    "IsValid": false,
-    "ErrorMessage": "error"
+    "AttachmentId": 1001,
+    "IsValid": true,
+    "ErrorMessage": ""
   },
   {
-    "AttachmentId": 766,
-    "IsValid": false,
-    "ErrorMessage": "error"
+    "AttachmentId": 1002,
+    "IsValid": true,
+    "ErrorMessage": ""
   }
 ]
 ```
