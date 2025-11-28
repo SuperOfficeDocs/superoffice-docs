@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 286,
-  "Name": "Waelchi, Larson and Shields",
+  "Name": "User Defined List",
   "Tooltip": "dignissimos",
   "Deleted": true,
   "Rank": 2,

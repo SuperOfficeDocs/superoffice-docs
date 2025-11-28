@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 887,
-  "Name": "Corkery, Rau and Dietrich",
+  "Name": "User Defined List",
   "Tooltip": "et",
   "Deleted": false,
   "Rank": 491,

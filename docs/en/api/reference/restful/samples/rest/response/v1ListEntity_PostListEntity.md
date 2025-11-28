@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 589,
-  "Name": "Parisian, Schamberger and Labadie",
+  "Name": "User Defined List",
   "Tooltip": "nobis",
   "Deleted": false,
   "Rank": 335,

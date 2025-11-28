@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "IsHidden": true,
     "Assigned": false,
     "ModuleLicenseId": 954,
-    "Name": "Little, Zboncak and Pfannerstill",
+    "Name": "Professional License",
     "Description": "Object-based 24 hour approach",
     "PrerequisiteModuleName": "Roberts-Grady",
     "SortOrder": 685,

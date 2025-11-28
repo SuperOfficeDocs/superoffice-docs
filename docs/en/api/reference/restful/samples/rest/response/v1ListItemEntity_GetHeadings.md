@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 446,
-    "Name": "Schamberger, Harber and Kris",
+    "Name": "Custom Item",
     "ToolTip": "Et reprehenderit voluptas.",
     "Deleted": false,
     "Rank": 792,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 170,
-        "Name": "Larson, Eichmann and Zieme",
+        "Name": "Custom Item",
         "ToolTip": "Blanditiis quibusdam quas quis ipsa.",
         "Deleted": true,
         "Rank": 394,

@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "IsHidden": false,
     "Assigned": false,
     "ModuleLicenseId": 81,
-    "Name": "Lebsack, Gleichner and Witting",
+    "Name": "Professional License",
     "Description": "Organic intangible synergy",
     "PrerequisiteModuleName": "Flatley Inc and Sons",
     "SortOrder": 684,

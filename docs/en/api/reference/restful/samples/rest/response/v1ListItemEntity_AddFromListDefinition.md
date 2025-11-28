@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 474,
-  "Name": "Hegmann, Wilderman and Toy",
+  "Name": "Custom Item",
   "Tooltip": "iure",
   "Deleted": true,
   "UdListDefinitionId": 745,

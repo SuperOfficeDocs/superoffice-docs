@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leffler, Cartwright and Considine",
+    "Name": "Professional License",
     "Description": "Expanded attitude-oriented interface",
     "RestrictedModuleLicenses": [
       {
@@ -43,7 +43,7 @@ Content-Type: application/json; charset=utf-8
         "IsHidden": false,
         "Assigned": false,
         "ModuleLicenseId": 733,
-        "Name": "Schmidt, Schuster and Bahringer",
+        "Name": "Professional License",
         "Description": "Pre-emptive dedicated interface",
         "PrerequisiteModuleName": "Ratke, Price and Dach",
         "SortOrder": 515,
@@ -68,7 +68,7 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Leffler, Cartwright and Considine",
+    "Name": "Professional License",
     "Description": "Expanded attitude-oriented interface",
     "RestrictedModuleLicenses": [
       {
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "IsHidden": false,
         "Assigned": false,
         "ModuleLicenseId": 733,
-        "Name": "Schmidt, Schuster and Bahringer",
+        "Name": "Professional License",
         "Description": "Pre-emptive dedicated interface",
         "PrerequisiteModuleName": "Ratke, Price and Dach",
         "SortOrder": 515,
