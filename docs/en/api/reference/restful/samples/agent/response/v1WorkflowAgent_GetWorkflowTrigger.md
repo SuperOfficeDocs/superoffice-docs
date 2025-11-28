@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 45,
-  "WorkflowId": 784,
-  "TriggerType": "AddedMessage",
+  "WorkflowTriggerId": 1,
+  "WorkflowId": 1,
+  "TriggerType": "ContactCreated",
   "RestrictionGroups": [
     {
-      "Name": "Boehm-Kuphal",
-      "Description": "Innovative reciprocal benchmark",
-      "Rank": 542,
+      "Name": "New Contact Filter",
+      "Description": "Trigger when new contact is created with specific criteria",
+      "Rank": 1,
       "Restrictions": [
         {},
         {}

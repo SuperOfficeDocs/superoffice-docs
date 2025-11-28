@@ -3,16 +3,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 117,
-  "WorkflowStepId": 250,
-  "WorkflowId": 973,
-  "Rank": 150,
+  "WorkflowWaitForActionId": 1,
+  "WorkflowStepId": 2,
+  "WorkflowId": 1,
+  "Rank": 1,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Abernathy-Russel",
-      "Description": "Diverse actuating application",
-      "Rank": 154,
+      "Name": "Interest Form Submitted",
+      "Description": "Wait for customer to submit interest form",
+      "Rank": 1,
       "Restrictions": [
         {},
         {}

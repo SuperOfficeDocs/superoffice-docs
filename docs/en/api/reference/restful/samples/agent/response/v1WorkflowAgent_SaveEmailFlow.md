@@ -3,34 +3,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 424,
-  "Name": "Jacobson LLC",
-  "Description": "Expanded radical challenge",
-  "Status": "None",
+  "EmailFlowId": 2,
+  "Name": "Customer Re-engagement Campaign",
+  "Description": "Win back inactive customers with special offers and product updates",
+  "Status": "Active",
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Schimmel, Batz and Kuphal",
-  "FromAddr": "placeat",
-  "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "eum",
-  "ReplyToName": "Ruecker-Bogisich",
-  "SmsSender": "est",
-  "UseGoogleAnalytics": false,
-  "GaSource": "quis",
-  "GaCampaign": "aperiam",
+  "FromName": "Marketing Team",
+  "FromAddr": "marketing@acmecorp.com",
+  "ReplyToType": "ReplyToOnlySpecified",
+  "ReplyToAddr": "marketing@acmecorp.com",
+  "ReplyToName": "Acme Marketing",
+  "SmsSender": "AcmeCorp",
+  "UseGoogleAnalytics": true,
+  "GaSource": "email_campaign",
+  "GaCampaign": "reengagement_q4_2024",
   "UseTimeframe": true,
-  "SelectedDays": "Friday",
-  "TimeframeStart": "veniam",
-  "TimeframeEnd": "rerum",
+  "SelectedDays": "Tuesday,Wednesday,Thursday",
+  "TimeframeStart": "10:00",
+  "TimeframeEnd": "16:00",
   "UseWorkflowStart": true,
-  "WorkflowStart": "architecto",
-  "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "ut",
+  "WorkflowStart": "2024-10-01T00:00:00",
+  "UseEnrollmentEnd": true,
+  "EnrollmentEnd": "2024-12-31T23:59:59",
   "RemoveFromFlows": [
-    562,
-    180
+    1,
+    3
   ],
   "TzLocation": null,
   "Folder": null,
@@ -38,23 +38,23 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 542,
-      "WorkflowId": 815,
-      "StepType": "AddToList",
-      "Rank": 189
+      "WorkflowStepId": 3,
+      "WorkflowId": 2,
+      "StepType": "SendEmail",
+      "Rank": 1
     },
     {
-      "WorkflowStepId": 542,
-      "WorkflowId": 815,
+      "WorkflowStepId": 4,
+      "WorkflowId": 2,
       "StepType": "AddToList",
-      "Rank": 189
+      "Rank": 2
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 243,
-      "WorkflowId": 844,
-      "TriggerType": "AddedMessage",
+      "WorkflowTriggerId": 2,
+      "WorkflowId": 2,
+      "TriggerType": "AddedToSelection",
       "RestrictionGroups": [
         {},
         {}
@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 189,
-      "WorkflowId": 525,
-      "GoalType": "AddedToProject",
+      "WorkflowGoalId": 2,
+      "WorkflowId": 2,
+      "GoalType": "SaleCreated",
       "RestrictionGroups": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
   "ExitSuccessFlowId": 663,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-05-23T10:11:01.8975487+02:00",
-  "UpdatedDate": "2005-09-03T10:11:01.8975487+02:00",
+  "CreatedDate": "2024-10-01T09:00:00+02:00",
+  "UpdatedDate": "2024-11-28T15:00:00+01:00",
   "VisibleFor": [
     {
       "VisibleId": 888,

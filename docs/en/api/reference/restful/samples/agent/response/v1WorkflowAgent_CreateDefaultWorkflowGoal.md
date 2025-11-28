@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 611,
-  "WorkflowId": 532,
+  "WorkflowGoalId": 0,
+  "WorkflowId": 0,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Schoen-Barrows",
-      "Description": "Assimilated optimal protocol",
-      "Rank": 457,
+      "Name": "",
+      "Description": "",
+      "Rank": 0,
       "Restrictions": [
         {},
         {}

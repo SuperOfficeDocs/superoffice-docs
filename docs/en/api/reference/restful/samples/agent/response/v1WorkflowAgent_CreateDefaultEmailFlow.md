@@ -3,34 +3,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 407,
-  "Name": "Gerlach, Weimann and Hills",
-  "Description": "Reduced homogeneous superstructure",
+  "EmailFlowId": 0,
+  "Name": "",
+  "Description": "",
   "Status": "None",
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Ondricka, Quitzon and Muller",
-  "FromAddr": "vitae",
+  "FromName": "",
+  "FromAddr": "",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "ipsa",
-  "ReplyToName": "Streich, Walter and Collier",
-  "SmsSender": "dolores",
-  "UseGoogleAnalytics": true,
-  "GaSource": "quam",
-  "GaCampaign": "ad",
+  "ReplyToAddr": "",
+  "ReplyToName": "",
+  "SmsSender": "",
+  "UseGoogleAnalytics": false,
+  "GaSource": "",
+  "GaCampaign": "",
   "UseTimeframe": false,
-  "SelectedDays": "Friday",
-  "TimeframeStart": "non",
-  "TimeframeEnd": "ipsam",
+  "SelectedDays": "Monday",
+  "TimeframeStart": "",
+  "TimeframeEnd": "",
   "UseWorkflowStart": false,
-  "WorkflowStart": "deleniti",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "aliquid",
+  "WorkflowStart": "",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "",
   "RemoveFromFlows": [
-    58,
-    751
+    0
   ],
   "TzLocation": null,
   "Folder": null,
@@ -38,22 +37,16 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 253,
-      "WorkflowId": 7,
+      "WorkflowStepId": 0,
+      "WorkflowId": 0,
       "StepType": "AddToList",
-      "Rank": 170
-    },
-    {
-      "WorkflowStepId": 253,
-      "WorkflowId": 7,
-      "StepType": "AddToList",
-      "Rank": 170
+      "Rank": 0
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 919,
-      "WorkflowId": 629,
+      "WorkflowTriggerId": 0,
+      "WorkflowId": 0,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -88,8 +81,8 @@ Content-Type: application/json; charset=utf-8
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 537,
-      "WorkflowId": 21,
+      "WorkflowGoalId": 0,
+      "WorkflowId": 0,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -129,9 +122,9 @@ Content-Type: application/json; charset=utf-8
   ],
   "ContentInfo": [
     {
-      "WorkflowContentType": "Form",
-      "Id": 337,
-      "Actions": true,
+      "WorkflowContentType": "Email",
+      "Id": 0,
+      "Actions": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -155,12 +148,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "ExitFlowId": 522,
-  "ExitSuccessFlowId": 149,
+  "ExitFlowId": 0,
+  "ExitSuccessFlowId": 0,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-02-25T10:11:01.8975487+01:00",
-  "UpdatedDate": "2006-11-16T10:11:01.8975487+01:00",
+  "CreatedDate": "2024-11-28T12:00:00+01:00",
+  "UpdatedDate": "2024-11-28T12:00:00+01:00",
   "VisibleFor": [
     {
       "VisibleId": 110,
