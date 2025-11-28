@@ -9,7 +9,7 @@ Last-Modified: Sun, 08 May 2011 14:34:01 G5T
   "DestinationContactId": 752,
   "DestinationPersonId": 466,
   "RelationId": 580,
-  "Comment": "rem",
+  "Comment": "Main business relationship",
   "RelationDefinitionId": 70,
   "Reversed": 187,
   "UpdatedDate": "2011-05-08T14:34:01.8459763+02:00",
