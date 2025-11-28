@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileDefinitionId": 487,
-  "Name": "Becker-Kohler",
+  "Name": "Sales Pipeline Chart",
   "Description": "Enterprise-wide context-sensitive flexibility",
   "DefaultHeight": 905,
   "DefaultWidth": 312,

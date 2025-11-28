@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileDefinitionId": 686,
-  "Name": "Beer, Murazik and Hoeger",
-  "Description": "Synergistic intangible solution",
+  "Name": "Activity Summary",
+  "Description": "Dashboard tile for sales data",
   "DefaultHeight": 901,
   "DefaultWidth": 33,
   "TileType": "Area",
