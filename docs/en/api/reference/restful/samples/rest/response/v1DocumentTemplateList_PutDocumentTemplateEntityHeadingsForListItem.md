@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 16,
-        "Name": "Erdman, Pagac and Block",
+        "Name": "Meeting Minutes",
         "ToolTip": "Sed numquam fugiat quisquam eveniet corporis.",
         "Deleted": false,
         "Rank": 80,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateId": 528,
   "Name": "Stanton Group",
-  "Tooltip": "fuga",
+  "Tooltip": "Document template",
   "SaveInDb": 59,
   "Filename": "officia",
   "DefaultOref": "dolor",

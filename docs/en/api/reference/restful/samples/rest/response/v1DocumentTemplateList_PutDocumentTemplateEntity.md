@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateId": 377,
-  "Name": "Brakus-Wyman",
-  "Tooltip": "vel",
+  "Name": "Standard Letter",
+  "Tooltip": "Document template",
   "SaveInDb": 20,
   "Filename": "praesentium",
   "DefaultOref": "sit",

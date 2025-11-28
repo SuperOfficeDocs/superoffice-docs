@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 722,
-  "Name": "Stiedemann, Rosenbaum and Nienow",
-  "Tooltip": "quia",
+  "Name": "Meeting Minutes",
+  "Tooltip": "Document template",
   "Deleted": true,
   "Rank": 101,
   "IsCustomList": true,
