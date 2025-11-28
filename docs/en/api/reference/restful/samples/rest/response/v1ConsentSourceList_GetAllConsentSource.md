@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ConsentSourceId": 726,
-    "Name": "Johns, Fritsch and Kuphal",
-    "Tooltip": "distinctio",
+    "Name": "Email Campaign",
+    "Tooltip": "Source of consent collection",
     "Rank": 953,
     "Key": "amet",
     "MailTemplateId": 672,

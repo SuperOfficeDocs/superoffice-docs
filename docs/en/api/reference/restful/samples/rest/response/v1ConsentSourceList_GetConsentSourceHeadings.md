@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 674,
-    "Name": "Becker LLC",
-    "Tooltip": "aut",
+    "Name": "Phone Call",
+    "Tooltip": "Source of consent collection",
     "Deleted": false,
     "Rank": 737,
     "UdListDefinitionId": 591,

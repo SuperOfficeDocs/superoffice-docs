@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 244,
-  "Name": "Doyle Group",
-  "Tooltip": "est",
+  "Name": "In-Person Meeting",
+  "Tooltip": "Source of consent collection",
   "Deleted": true,
   "Rank": 512,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
+  "ListType": "ConsentSource",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {

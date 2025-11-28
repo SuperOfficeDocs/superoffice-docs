@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 550,
-  "Name": "Nitzsche LLC",
-  "Tooltip": "error",
+  "Name": "Phone Call",
+  "Tooltip": "Source of consent collection",
   "Deleted": true,
   "Rank": 836,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
+  "ListType": "ConsentSource",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 129,
   "Name": "Altenwerth Inc and Sons",
-  "Tooltip": "illo",
+  "Tooltip": "Source of consent collection",
   "Deleted": true,
   "Rank": 83,
   "UdListDefinitionId": 908,

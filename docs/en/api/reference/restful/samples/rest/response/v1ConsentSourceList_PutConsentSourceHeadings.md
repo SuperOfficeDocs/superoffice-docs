@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 238,
-    "Name": "Nitzsche-Lowe",
-    "Tooltip": "aut",
+    "Name": "Web Form",
+    "Tooltip": "Source of consent collection",
     "Deleted": true,
     "Rank": 888,
     "UdListDefinitionId": 850,

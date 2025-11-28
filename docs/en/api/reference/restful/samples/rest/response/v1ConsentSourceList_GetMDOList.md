@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 455,
-    "Name": "Franecki-Stiedemann",
+    "Name": "Web Form",
     "ToolTip": "Est quis consequatur et.",
     "Deleted": true,
     "Rank": 969,
-    "Type": "qui",
+    "Type": "ConsentSource",
     "ChildItems": [
       {
         "Id": 785,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
         "ToolTip": "Excepturi ut est harum illum dolorem quia quia.",
         "Deleted": true,
         "Rank": 960,
-        "Type": "voluptatem",
+        "Type": "ConsentSource",
         "ChildItems": [
           {},
           {}

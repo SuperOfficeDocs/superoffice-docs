@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 240,
-    "Name": "Labadie, Maggio and Botsford",
+    "Name": "Email Campaign",
     "ToolTip": "Aut est et eius non placeat facilis cum.",
     "Deleted": true,
     "Rank": 154,
-    "Type": "ut",
+    "Type": "ConsentSource",
     "ColorBlock": 505,
     "IconHint": "ut",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 153,
-        "Name": "Deckow-Zemlak",
+        "Name": "Web Form",
         "ToolTip": "Quisquam modi consectetur delectus.",
         "Deleted": false,
         "Rank": 877,
-        "Type": "voluptatem",
+        "Type": "ConsentSource",
         "ColorBlock": 798,
         "IconHint": "aut",
         "Selected": false,
