@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "FieldType": "Attachment",
   "FieldName": "Block-Schamberger",
   "DisplayName": "Keeling, Predovic and Nikolaus",
-  "Description": "Robust holistic ability",
+  "Description": "Primary contact",
   "ShortLabel": "sit",
   "HideLabel": false,
   "HideField": false,
