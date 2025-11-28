@@ -4,19 +4,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "page=2",
   "value": [
     {
       "PrimaryKey": 9700,
-      "EntityName": "person",
-      "personId": 9700,
-      "fullName": "Mrs. Garry Ramiro Reichert"
+      "EntityName": "batchTask",
+      "batchTaskId": 9700,
+      "name": "Weekly Report Generation"
     },
     {
       "PrimaryKey": 1337,
-      "EntityName": "person",
-      "personId": 1337,
-      "fullName": "Kyra Aufderhar"
+      "EntityName": "batchTask",
+      "batchTaskId": 1337,
+      "name": "Contact Sync Task"
     }
   ]
 }
