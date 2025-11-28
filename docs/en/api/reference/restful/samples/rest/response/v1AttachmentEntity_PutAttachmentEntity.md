@@ -4,13 +4,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 875,
-  "Name": "Bashirian, Fisher and Hickle",
-  "ContentType": "et",
-  "AttSize": 449,
+  "Name": "Presentation_Slides.pptx",
+  "ContentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "AttSize": 2097152,
   "InlineImage": false,
-  "ContentId": "tenetur",
-  "AuthKey": "consequatur",
-  "IsSafeFileExtension": false,
+  "ContentId": "attachment-006",
+  "AuthKey": "e1f2g3h4i5j6",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

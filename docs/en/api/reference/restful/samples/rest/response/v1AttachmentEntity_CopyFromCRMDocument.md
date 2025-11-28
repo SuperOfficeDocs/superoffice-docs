@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 604,
-  "Name": "Bartoletti LLC",
-  "ContentType": "ea",
-  "AttSize": 880,
+  "Name": "Meeting_Minutes.pdf",
+  "ContentType": "application/pdf",
+  "AttSize": 102400,
   "InlineImage": false,
-  "ContentId": "impedit",
-  "AuthKey": "ex",
+  "ContentId": "attachment-003",
+  "AuthKey": "m3n4o5p6q7r8",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
