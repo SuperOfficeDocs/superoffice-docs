@@ -4,25 +4,25 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RefCountsId": 883,
-  "Field": "est",
+  "Field": "project_number",
   "RecordId": 708,
   "SuggestedRecords": [
     {
       "Id": 808,
-      "Name": "O'Conner, Kshlerin and Feeney",
-      "ToolTip": "Earum id velit ut.",
+      "Name": "P-2024-001",
+      "ToolTip": "Next available project number",
       "Deleted": false,
-      "Rank": 850,
-      "Type": "corporis",
+      "Rank": 1,
+      "Type": "ProjectNumber",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fuga",
+      "IconHint": "project",
       "ColorBlock": 11,
-      "ExtraInfo": "vitae",
-      "StyleHint": "et",
-      "FullName": "Hilma Bode",
+      "ExtraInfo": "format: P-YYYY-###",
+      "StyleHint": "default",
+      "FullName": "Project Number: P-2024-001",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -33,9 +33,9 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "CurrentValue": 857,
-  "TravelPrefix": 916,
-  "SatPrefix": 498,
+  "CurrentValue": 1,
+  "TravelPrefix": 0,
+  "SatPrefix": 0,
   "Allocate": true,
   "Unique": true,
   "ReadOnly": false,
