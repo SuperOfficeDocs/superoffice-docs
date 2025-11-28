@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 307,
-    "Name": "Ondricka-Koepp",
+    "Name": "Marketing Communications",
     "ToolTip": "Reiciendis repudiandae autem officia tempora dolorum.",
     "Deleted": false,
     "Rank": 653,
-    "Type": "voluptatem",
+    "Type": "ConsentPurpose",
     "ColorBlock": 412,
     "IconHint": "libero",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 523,
-        "Name": "Haag Group",
+        "Name": "Product Updates",
         "ToolTip": "Asperiores tempore accusamus inventore velit rerum sint aspernatur.",
         "Deleted": false,
         "Rank": 905,
-        "Type": "delectus",
+        "Type": "ConsentPurpose",
         "ColorBlock": 55,
         "IconHint": "consectetur",
         "Selected": false,

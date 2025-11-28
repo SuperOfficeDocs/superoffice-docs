@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "ConsentText": "ab",
     "FormText": "cupiditate",
     "Key": "minima",
-    "Tooltip": "ut",
+    "Tooltip": "Consent purpose for GDPR compliance",
     "Active": 187,
     "UpdatedDate": "2014-02-01T14:34:03.0251061+01:00",
     "UpdatedBy": null,

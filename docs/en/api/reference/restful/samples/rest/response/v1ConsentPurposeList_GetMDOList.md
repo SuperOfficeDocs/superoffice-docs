@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 471,
-    "Name": "Klein, Upton and Kling",
+    "Name": "Sales Follow-up",
     "ToolTip": "Molestias sequi.",
     "Deleted": true,
     "Rank": 862,
-    "Type": "accusamus",
+    "Type": "ConsentPurpose",
     "ChildItems": [
       {
         "Id": 764,
-        "Name": "Mayer, Leffler and Murazik",
+        "Name": "Sales Follow-up",
         "ToolTip": "Nihil vel quos dolor qui.",
         "Deleted": false,
         "Rank": 298,
-        "Type": "qui",
+        "Type": "ConsentPurpose",
         "ChildItems": [
           {},
           {}

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 831,
-    "Name": "Daniel LLC",
-    "Tooltip": "voluptatem",
+    "Name": "Newsletter Subscription",
+    "Tooltip": "Consent purpose for GDPR compliance",
     "Deleted": false,
     "Rank": 637,
     "UdListDefinitionId": 483,

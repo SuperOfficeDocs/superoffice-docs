@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 482,
-    "Name": "Kuhlman-Larkin",
-    "Tooltip": "qui",
+    "Name": "Marketing Communications",
+    "Tooltip": "Consent purpose for GDPR compliance",
     "Deleted": true,
     "Rank": 185,
     "UdListDefinitionId": 198,

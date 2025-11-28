@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "ToolTip": "Enim rerum voluptatem iste consequatur repellendus enim.",
     "Deleted": false,
     "Rank": 194,
-    "Type": "mollitia",
+    "Type": "ConsentPurpose",
     "ColorBlock": 333,
     "IconHint": "cupiditate",
     "Selected": true,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 952,
-        "Name": "Bahringer, Borer and Ferry",
-        "ToolTip": "Accusamus quod voluptatem.",
+        "Name": "Sales Follow-up",
+        "ToolTip": "Consent purpose",
         "Deleted": false,
         "Rank": 147,
-        "Type": "magnam",
+        "Type": "ConsentPurpose",
         "ColorBlock": 710,
         "IconHint": "tenetur",
         "Selected": false,

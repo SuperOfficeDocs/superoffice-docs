@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentPurposeId": 670,
-  "Name": "Brown-Bednar",
+  "Name": "Marketing Communications",
   "ConsentText": "cum",
   "FormText": "esse",
   "Key": "dolorum",
-  "Tooltip": "minima",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Active": 589,
   "UpdatedDate": "2012-09-23T14:34:03.0336501+02:00",
   "UpdatedBy": null,

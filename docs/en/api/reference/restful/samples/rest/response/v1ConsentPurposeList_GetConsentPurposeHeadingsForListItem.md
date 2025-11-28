@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 452,
-    "Name": "Kuphal, Denesik and Hirthe",
+    "Name": "Sales Follow-up",
     "ToolTip": "Placeat sapiente eligendi et doloribus aut enim ut.",
     "Deleted": false,
     "Rank": 468,
-    "Type": "debitis",
+    "Type": "ConsentPurpose",
     "ColorBlock": 795,
     "IconHint": "voluptas",
     "Selected": true,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 298,
-        "Name": "Oberbrunner Group",
+        "Name": "Product Updates",
         "ToolTip": "Tempora repellat ea distinctio.",
         "Deleted": true,
         "Rank": 463,
-        "Type": "est",
+        "Type": "ConsentPurpose",
         "ColorBlock": 279,
         "IconHint": "qui",
         "Selected": true,
