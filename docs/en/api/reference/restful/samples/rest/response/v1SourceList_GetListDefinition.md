@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 308,
   "Name": "Lemke-VonRueden",
-  "Tooltip": "aut",
+  "Tooltip": "Lead source",
   "Deleted": true,
   "Rank": 719,
   "IsCustomList": true,

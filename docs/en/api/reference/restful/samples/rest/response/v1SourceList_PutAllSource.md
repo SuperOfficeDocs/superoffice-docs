@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 213,
     "Name": "Zulauf LLC",
-    "Tooltip": "ullam",
+    "Tooltip": "Lead source",
     "Deleted": true,
     "UdListDefinitionId": 1001,
     "Rank": 134,

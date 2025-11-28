@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 606,
   "Name": "Marquardt Inc and Sons",
-  "Tooltip": "accusamus",
+  "Tooltip": "Lead source",
   "Deleted": false,
   "Rank": 353,
   "IsCustomList": false,

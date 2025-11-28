@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 452,
   "Name": "O'Reilly Inc and Sons",
-  "Tooltip": "et",
+  "Tooltip": "Lead source",
   "Deleted": false,
   "UdListDefinitionId": 184,
   "Rank": 409,
