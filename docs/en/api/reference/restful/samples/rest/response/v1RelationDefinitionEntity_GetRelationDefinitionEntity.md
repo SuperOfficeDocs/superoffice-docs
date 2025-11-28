@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReldefId": 903,
-  "Name": "Frami, Braun and Schowalter",
+  "Name": "Standard User",
   "Tooltip": "voluptatem",
   "PassiveText": "est",
   "Deleted": true,

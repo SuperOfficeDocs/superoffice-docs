@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleTypeId": 28,
-  "Name": "Bartell, Kuphal and Sporer",
-  "Tooltip": "illum",
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
   "Rank": 499,
   "DurationUnit": "Century",
   "SaleDuration": 28,
@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
   "Stages": [
     {
       "Id": 643,
-      "Name": "Quitzon, Jakubowski and Murray",
+      "Name": "Renewal",
       "ToolTip": "Quia vitae dolore consequatur et perspiciatis.",
       "Deleted": false,
       "Rank": 33,

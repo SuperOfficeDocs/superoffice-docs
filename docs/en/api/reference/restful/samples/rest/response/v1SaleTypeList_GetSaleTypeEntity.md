@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleTypeId": 776,
-  "Name": "Harvey-Monahan",
-  "Tooltip": "consequatur",
+  "Name": "New Business",
+  "Tooltip": "Sale type",
   "Rank": 654,
   "DurationUnit": "Century",
   "SaleDuration": 412,
@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
   "Stages": [
     {
       "Id": 576,
-      "Name": "Grant, Breitenberg and Aufderhar",
+      "Name": "Renewal",
       "ToolTip": "Facilis adipisci aspernatur aliquam.",
       "Deleted": false,
       "Rank": 323,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 868,
     "Name": "Auer Group",
-    "Tooltip": "officiis",
+    "Tooltip": "Sale type",
     "Deleted": false,
     "Rank": 838,
     "UdListDefinitionId": 311,

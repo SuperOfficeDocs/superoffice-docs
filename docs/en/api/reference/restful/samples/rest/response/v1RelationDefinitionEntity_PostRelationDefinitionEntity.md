@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReldefId": 994,
-  "Name": "Kassulke-Powlowski",
+  "Name": "Administrator",
   "Tooltip": "molestiae",
   "PassiveText": "et",
   "Deleted": false,

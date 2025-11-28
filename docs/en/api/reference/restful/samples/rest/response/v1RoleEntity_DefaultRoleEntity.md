@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RoleId": 742,
-  "Name": "Kunde, Lakin and Hessel",
+  "Name": "Standard User",
   "Tooltip": "maxime",
   "RoleType": "Anonymous",
   "Deleted": 868,

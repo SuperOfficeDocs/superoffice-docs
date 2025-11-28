@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 911,
   "Name": "Miller Group",
-  "Tooltip": "in",
+  "Tooltip": "Sale type",
   "Deleted": false,
   "Rank": 902,
   "IsCustomList": true,

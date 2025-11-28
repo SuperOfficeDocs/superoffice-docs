@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 800,
-  "Name": "Sanford-Hyatt",
-  "Tooltip": "et",
+  "Name": "New Business",
+  "Tooltip": "Sale type",
   "Deleted": false,
   "Rank": 770,
   "IsCustomList": false,

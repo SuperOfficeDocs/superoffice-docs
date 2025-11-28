@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 379,
-  "Name": "Schuster, Powlowski and Baumbach",
-  "Tooltip": "facilis",
+  "Name": "Renewal",
+  "Tooltip": "Sale type",
   "Deleted": true,
   "Rank": 1002,
   "UdListDefinitionId": 849,
