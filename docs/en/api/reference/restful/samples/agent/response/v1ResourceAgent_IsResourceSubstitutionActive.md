@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Boyle-Ledner",
-    "ResourceValue": "temporibus",
-    "Culture": "culpa",
+    "ResourceName": "SR_SALE_SINGULAR",
+    "ResourceValue": "Opportunity",
+    "Culture": "en-US",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
@@ -18,9 +18,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "ResourceName": "Boyle-Ledner",
-    "ResourceValue": "temporibus",
-    "Culture": "culpa",
+    "ResourceName": "SR_SALE_PLURAL",
+    "ResourceValue": "Opportunities",
+    "Culture": "en-US",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
