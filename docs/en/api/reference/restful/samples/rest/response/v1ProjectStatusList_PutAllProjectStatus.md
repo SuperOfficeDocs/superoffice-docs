@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 793,
-    "Name": "Heidenreich, Willms and Lakin",
-    "Tooltip": "culpa",
+    "Name": "Completed",
+    "Tooltip": "Project status",
     "Deleted": false,
     "UdListDefinitionId": 959,
     "Rank": 110,

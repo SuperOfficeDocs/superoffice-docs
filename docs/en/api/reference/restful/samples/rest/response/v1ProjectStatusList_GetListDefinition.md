@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 65,
   "Name": "O'Hara Inc and Sons",
-  "Tooltip": "hic",
+  "Tooltip": "Project status",
   "Deleted": false,
   "Rank": 954,
   "IsCustomList": true,

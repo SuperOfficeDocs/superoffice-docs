@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectId": 414,
-  "Name": "Graham, Kuvalis and Murray",
+  "Name": "Website Redesign",
   "ProjectNumber": "794026",
   "ProjectMembers": [
     {
@@ -71,7 +71,7 @@ Content-Type: application/json; charset=utf-8
   ],
   "CreatedDate": "2003-12-04T14:34:02.1900489+01:00",
   "UpdatedDate": "2021-02-10T14:34:02.1900489+01:00",
-  "Description": "Decentralized holistic architecture",
+  "Description": "Project implementation details",
   "Postit": "ad",
   "CreatedBy": null,
   "UpdatedBy": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     {
       "EntityName": "Grimes Inc and Sons",
       "Id": 871,
-      "Description": "Customizable global paradigm",
+      "Description": "Project implementation details",
       "ExtraInfo": "vitae",
       "LinkId": 53,
       "TableRight": null,

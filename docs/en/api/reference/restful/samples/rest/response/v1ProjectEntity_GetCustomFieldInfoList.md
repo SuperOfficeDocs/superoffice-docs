@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
     "FieldType": "Attachment",
     "FieldName": "Schmidt-Ryan",
     "DisplayName": "Cassin-Collier",
-    "Description": "Upgradable asynchronous model",
+    "Description": "Project implementation details",
     "ShortLabel": "et",
     "HideLabel": false,
     "HideField": false,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 134,
     "Name": "Fay Inc and Sons",
-    "Tooltip": "sunt",
+    "Tooltip": "Project type",
     "Deleted": false,
     "Rank": 220,
     "UdListDefinitionId": 636,

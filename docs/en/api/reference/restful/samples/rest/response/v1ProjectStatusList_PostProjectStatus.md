@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 285,
-  "Name": "Ruecker, Goodwin and Hoeger",
-  "Tooltip": "eaque",
+  "Name": "Completed",
+  "Tooltip": "Project status",
   "Deleted": true,
   "UdListDefinitionId": 556,
   "Rank": 868,

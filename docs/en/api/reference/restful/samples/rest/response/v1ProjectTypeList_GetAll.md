@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 457,
-    "Name": "Deckow-Schumm",
-    "Tooltip": "earum",
+    "Name": "Internal",
+    "Tooltip": "Project type",
     "Deleted": false,
     "UdListDefinitionId": 346,
     "Rank": 855,

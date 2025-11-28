@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill-Weber",
+    "Name": "CRM Implementation",
     "DisplayName": "Morissette, Thompson and White",
     "DisplayTooltip": "omnis",
     "IsActive": false,
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Pfannerstill-Weber",
+    "Name": "CRM Implementation",
     "DisplayName": "Morissette, Thompson and White",
     "DisplayTooltip": "omnis",
     "IsActive": false,

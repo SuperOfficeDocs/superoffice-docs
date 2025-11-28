@@ -10,7 +10,7 @@ Content-Type: application/json; charset=utf-8
   "Task": "et",
   "AssociateFullName": "Ms. Devin Ferry III",
   "ContactName": "Jacobs, Hyatt and Blick",
-  "Description": "Innovative executive conglomeration",
+  "Description": "Project implementation details",
   "PersonFullName": "Veronica Bechtelar DDS",
   "PersonId": 883,
   "ContactId": 24,

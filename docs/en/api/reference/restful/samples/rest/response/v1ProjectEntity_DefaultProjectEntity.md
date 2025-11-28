@@ -5,7 +5,7 @@ Last-Modified: Mon, 06 Jul 2009 14:34:02 G7T
 
 {
   "ProjectId": 906,
-  "Name": "Krajcik, Wuckert and Sipes",
+  "Name": "Website Redesign",
   "ProjectNumber": "540626",
   "ProjectMembers": [
     {
@@ -46,7 +46,7 @@ Last-Modified: Mon, 06 Jul 2009 14:34:02 G7T
     {
       "Value": "porro",
       "StrippedValue": "voluptatem",
-      "Description": "Horizontal modular solution",
+      "Description": "Project implementation details",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -59,7 +59,7 @@ Last-Modified: Mon, 06 Jul 2009 14:34:02 G7T
     {
       "Value": "porro",
       "StrippedValue": "voluptatem",
-      "Description": "Horizontal modular solution",
+      "Description": "Project implementation details",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 836,
-    "Name": "Romaguera, Dietrich and Runolfsson",
-    "Tooltip": "tempore",
+    "Name": "Completed",
+    "Tooltip": "Project status",
     "Deleted": true,
     "UdListDefinitionId": 267,
     "Rank": 410,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 247,
-  "Name": "Marquardt-Haag",
-  "Tooltip": "sunt",
+  "Name": "Internal",
+  "Tooltip": "Project type",
   "Deleted": false,
   "Rank": 894,
   "UdListDefinitionId": 886,

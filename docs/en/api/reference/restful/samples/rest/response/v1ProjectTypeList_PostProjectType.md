@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 223,
-  "Name": "Schoen-Erdman",
-  "Tooltip": "sed",
+  "Name": "Internal",
+  "Tooltip": "Project type",
   "Deleted": false,
   "UdListDefinitionId": 346,
   "Rank": 516,

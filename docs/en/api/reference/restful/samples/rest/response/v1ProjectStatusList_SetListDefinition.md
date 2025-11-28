@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 246,
-  "Name": "Fadel-Douglas",
-  "Tooltip": "et",
+  "Name": "In Progress",
+  "Tooltip": "Project status",
   "Deleted": false,
   "Rank": 291,
   "IsCustomList": true,

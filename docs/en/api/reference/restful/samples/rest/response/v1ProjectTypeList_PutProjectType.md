@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 353,
   "Name": "Kuvalis Group",
-  "Tooltip": "et",
+  "Tooltip": "Project type",
   "Deleted": false,
   "UdListDefinitionId": 687,
   "Rank": 584,
