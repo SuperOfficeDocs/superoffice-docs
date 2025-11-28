@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 522,
-    "Name": "Schneider-Wunsch",
-    "Tooltip": "eos",
+    "Name": "Budget Approved",
+    "Tooltip": "Quote reason",
     "Deleted": false,
     "Rank": 62,
     "UdListDefinitionId": 754,

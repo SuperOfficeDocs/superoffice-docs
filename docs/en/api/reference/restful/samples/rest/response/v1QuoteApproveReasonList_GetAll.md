@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 473,
-    "Name": "Sporer, Stokes and Harvey",
-    "Tooltip": "non",
+    "Name": "Price Too High",
+    "Tooltip": "Quote reason",
     "Deleted": false,
     "UdListDefinitionId": 23,
     "Rank": 360,

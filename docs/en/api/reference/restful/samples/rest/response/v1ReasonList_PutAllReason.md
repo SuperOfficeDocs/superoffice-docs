@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 323,
     "Name": "Barton Group",
-    "Tooltip": "eveniet",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "UdListDefinitionId": 112,
     "Rank": 212,

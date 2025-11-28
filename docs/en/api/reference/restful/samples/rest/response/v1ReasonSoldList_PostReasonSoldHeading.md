@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 366,
-  "Name": "Bode, Rice and Lind",
-  "Tooltip": "fugiat",
+  "Name": "Better Features",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 378,
   "UdListDefinitionId": 405,

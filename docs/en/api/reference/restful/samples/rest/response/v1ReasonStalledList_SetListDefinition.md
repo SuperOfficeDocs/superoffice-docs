@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 63,
-  "Name": "Muller-Langosh",
-  "Tooltip": "corporis",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 387,
   "IsCustomList": false,

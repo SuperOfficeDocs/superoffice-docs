@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 386,
     "Name": "Waelchi Inc and Sons",
-    "Tooltip": "adipisci",
+    "Tooltip": "Sale reason",
     "Deleted": true,
     "Rank": 562,
     "UdListDefinitionId": 496,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 789,
-  "Name": "Heidenreich-Wintheiser",
-  "Tooltip": "in",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 66,
   "Rank": 952,

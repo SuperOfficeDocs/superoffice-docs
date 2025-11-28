@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 353,
-    "Name": "Swaniawski-Hane",
-    "Tooltip": "aut",
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "Rank": 607,
     "UdListDefinitionId": 692,

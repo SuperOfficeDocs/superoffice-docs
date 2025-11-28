@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 736,
-    "Name": "Bogan-Turner",
-    "Tooltip": "qui",
+    "Name": "Budget Approved",
+    "Tooltip": "Quote reason",
     "Deleted": true,
     "UdListDefinitionId": 602,
     "Rank": 866,

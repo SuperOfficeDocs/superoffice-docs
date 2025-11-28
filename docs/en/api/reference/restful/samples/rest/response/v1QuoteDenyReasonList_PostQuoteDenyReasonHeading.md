@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 406,
-  "Name": "Schiller-Cartwright",
-  "Tooltip": "nulla",
+  "Name": "Budget Approved",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "Rank": 48,
   "UdListDefinitionId": 232,

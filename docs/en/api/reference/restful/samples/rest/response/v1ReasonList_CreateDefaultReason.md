@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 514,
-  "Name": "Klein-Morissette",
-  "Tooltip": "harum",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "UdListDefinitionId": 746,
   "Rank": 163,

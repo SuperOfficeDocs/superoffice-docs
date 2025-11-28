@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 822,
   "Name": "Harvey Inc and Sons",
-  "Tooltip": "rerum",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "Rank": 653,
   "IsCustomList": true,

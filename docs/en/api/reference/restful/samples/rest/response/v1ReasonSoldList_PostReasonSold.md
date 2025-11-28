@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 336,
   "Name": "Hodkiewicz LLC",
-  "Tooltip": "numquam",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 668,
   "Rank": 573,

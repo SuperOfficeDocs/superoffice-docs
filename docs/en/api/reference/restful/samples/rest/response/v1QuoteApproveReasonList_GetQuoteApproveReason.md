@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 57,
-  "Name": "Larkin, Conroy and Murazik",
-  "Tooltip": "ut",
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "UdListDefinitionId": 438,
   "Rank": 773,

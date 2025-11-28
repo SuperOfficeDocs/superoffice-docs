@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 514,
-        "Name": "Simonis-Bernier",
+        "Name": "Competitive Price",
         "ToolTip": "Numquam debitis.",
         "Deleted": true,
         "Rank": 191,

@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 742,
-        "Name": "Kris-Gislason",
+        "Name": "Competitive Price",
         "ToolTip": "Atque laudantium officiis est quos in dolore.",
         "Deleted": false,
         "Rank": 560,

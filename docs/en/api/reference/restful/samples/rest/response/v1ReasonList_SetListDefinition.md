@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 458,
   "Name": "Hudson Group",
-  "Tooltip": "debitis",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "Rank": 789,
   "IsCustomList": false,

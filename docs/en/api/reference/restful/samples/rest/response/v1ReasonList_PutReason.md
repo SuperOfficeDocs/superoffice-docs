@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 385,
   "Name": "Brown Group",
-  "Tooltip": "totam",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 36,
   "Rank": 672,

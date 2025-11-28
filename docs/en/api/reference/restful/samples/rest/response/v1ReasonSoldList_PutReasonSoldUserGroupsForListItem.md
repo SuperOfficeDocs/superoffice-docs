@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 38,
-    "Name": "Halvorson-Schroeder",
+    "Name": "Competitive Price",
     "ToolTip": "Autem necessitatibus non.",
     "Deleted": false,
     "Rank": 957,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 223,
-        "Name": "Lakin-Heidenreich",
+        "Name": "Competitive Price",
         "ToolTip": "Vitae unde.",
         "Deleted": true,
         "Rank": 318,

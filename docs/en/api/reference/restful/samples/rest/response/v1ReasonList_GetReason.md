@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 76,
-  "Name": "Ernser-Marks",
-  "Tooltip": "quidem",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 950,
   "Rank": 219,

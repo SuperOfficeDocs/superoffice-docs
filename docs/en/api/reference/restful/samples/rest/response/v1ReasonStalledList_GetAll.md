@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 477,
-    "Name": "Goodwin-Labadie",
-    "Tooltip": "unde",
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "UdListDefinitionId": 129,
     "Rank": 496,

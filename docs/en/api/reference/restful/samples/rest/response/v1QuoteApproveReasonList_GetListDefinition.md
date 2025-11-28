@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 613,
   "Name": "Wunsch Group",
-  "Tooltip": "nisi",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "Rank": 877,
   "IsCustomList": false,

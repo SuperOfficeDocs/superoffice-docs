@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 694,
   "Name": "Torphy LLC",
-  "Tooltip": "totam",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 141,
   "IsCustomList": true,

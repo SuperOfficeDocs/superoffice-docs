@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 286,
-  "Name": "Pfannerstill, Deckow and Kunde",
-  "Tooltip": "quidem",
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "UdListDefinitionId": 753,
   "Rank": 830,

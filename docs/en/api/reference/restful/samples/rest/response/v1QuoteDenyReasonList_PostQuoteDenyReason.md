@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 424,
   "Name": "Gislason Group",
-  "Tooltip": "beatae",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "UdListDefinitionId": 773,
   "Rank": 426,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 225,
-    "Name": "Gulgowski, Beer and Kessler",
-    "Tooltip": "ut",
+    "Name": "Better Features",
+    "Tooltip": "Sale reason",
     "Deleted": true,
     "UdListDefinitionId": 859,
     "Rank": 641,

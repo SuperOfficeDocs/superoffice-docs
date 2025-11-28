@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 928,
-  "Name": "Grimes, Connelly and Okuneva",
-  "Tooltip": "blanditiis",
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "Rank": 97,
   "IsCustomList": false,

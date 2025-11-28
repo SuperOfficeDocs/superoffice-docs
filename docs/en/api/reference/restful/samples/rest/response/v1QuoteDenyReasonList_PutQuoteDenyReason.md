@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 783,
   "Name": "Witting, O'Hara and Block",
-  "Tooltip": "doloribus",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "UdListDefinitionId": 241,
   "Rank": 805,

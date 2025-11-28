@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 264,
-    "Name": "Breitenberg-Leffler",
-    "Tooltip": "possimus",
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "Rank": 520,
     "UdListDefinitionId": 205,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 507,
-  "Name": "Olson, Wisoky and Leuschke",
-  "Tooltip": "itaque",
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "UdListDefinitionId": 330,
   "Rank": 342,
