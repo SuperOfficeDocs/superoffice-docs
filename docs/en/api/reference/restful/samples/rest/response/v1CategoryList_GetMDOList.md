@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 138,
-    "Name": "Cummerata-Berge",
+    "Name": "Customer",
     "ToolTip": "Eum beatae.",
     "Deleted": false,
     "Rank": 13,
-    "Type": "dolores",
+    "Type": "Category",
     "ChildItems": [
       {
         "Id": 224,
-        "Name": "Trantow, Turcotte and Eichmann",
+        "Name": "Prospect",
         "ToolTip": "Esse impedit.",
         "Deleted": false,
         "Rank": 669,
-        "Type": "ut",
+        "Type": "Category",
         "ChildItems": [
           {},
           {}

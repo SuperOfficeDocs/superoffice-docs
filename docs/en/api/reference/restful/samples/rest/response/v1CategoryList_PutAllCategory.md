@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 789,
-    "Name": "Steuber, Schumm and Daugherty",
-    "Tooltip": "laudantium",
+    "Name": "Prospect",
+    "Tooltip": "Contact category classification",
     "Deleted": false,
     "UdListDefinitionId": 738,
     "Rank": 538,

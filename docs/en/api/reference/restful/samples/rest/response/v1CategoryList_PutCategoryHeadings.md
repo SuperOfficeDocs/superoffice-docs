@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 533,
-    "Name": "Flatley, Connelly and Walker",
-    "Tooltip": "aut",
+    "Name": "Prospect",
+    "Tooltip": "Contact category classification",
     "Deleted": false,
     "Rank": 950,
     "UdListDefinitionId": 798,

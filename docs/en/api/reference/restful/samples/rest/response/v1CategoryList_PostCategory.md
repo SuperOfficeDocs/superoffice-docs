@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 90,
-  "Name": "Ritchie Group",
-  "Tooltip": "impedit",
+  "Name": "Supplier",
+  "Tooltip": "Contact category classification",
   "Deleted": true,
   "UdListDefinitionId": 759,
   "Rank": 938,

@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 210,
-  "Name": "Bins-Shanahan",
-  "Tooltip": "ut",
+  "Name": "Customer",
+  "Tooltip": "Contact category classification",
   "Deleted": false,
   "Rank": 567,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "Category",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

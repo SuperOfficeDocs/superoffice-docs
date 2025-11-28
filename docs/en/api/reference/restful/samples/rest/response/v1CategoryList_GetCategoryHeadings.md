@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 450,
     "Name": "Kemmer-O'Kon",
-    "Tooltip": "totam",
+    "Tooltip": "Contact category classification",
     "Deleted": false,
     "Rank": 520,
     "UdListDefinitionId": 255,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 791,
-  "Name": "Borer LLC",
-  "Tooltip": "nobis",
+  "Name": "Partner",
+  "Tooltip": "Contact category classification",
   "Deleted": true,
   "UdListDefinitionId": 208,
   "Rank": 934,

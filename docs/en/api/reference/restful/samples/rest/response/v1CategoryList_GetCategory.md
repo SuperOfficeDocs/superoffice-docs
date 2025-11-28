@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 210,
-  "Name": "Kemmer, Jenkins and Bins",
-  "Tooltip": "ducimus",
+  "Name": "Prospect",
+  "Tooltip": "Contact category classification",
   "Deleted": true,
   "UdListDefinitionId": 897,
   "Rank": 190,

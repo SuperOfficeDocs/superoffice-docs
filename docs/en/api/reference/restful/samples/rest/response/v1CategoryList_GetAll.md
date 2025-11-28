@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 762,
-    "Name": "Gleichner-Donnelly",
-    "Tooltip": "iste",
+    "Name": "Customer",
+    "Tooltip": "Contact category classification",
     "Deleted": false,
     "UdListDefinitionId": 835,
     "Rank": 499,
