@@ -28,8 +28,6 @@ items:
       href: sandbox/replace.md
     - name: Clone to production sandbox
       href: sandbox/clone-to.md
-  - name: Version history
-    href: version-history.md
   - name: Identity Management
     href: identity/toc.yml
     topicHref: identity/index.yml
