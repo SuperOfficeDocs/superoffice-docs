@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 724,
     "Name": "Larkin Inc and Sons",
-    "Tooltip": "qui",
+    "Tooltip": "Product type",
     "Deleted": false,
     "UdListDefinitionId": 854,
     "Rank": 573,

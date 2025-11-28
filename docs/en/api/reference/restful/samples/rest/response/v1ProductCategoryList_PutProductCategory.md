@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 631,
   "Name": "Spinka LLC",
-  "Tooltip": "dolorum",
+  "Tooltip": "Product category",
   "Deleted": true,
   "UdListDefinitionId": 362,
   "Rank": 504,

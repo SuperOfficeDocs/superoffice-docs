@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 913,
-    "Name": "Robel-Herman",
-    "Tooltip": "expedita",
+    "Name": "Software",
+    "Tooltip": "Product category",
     "Deleted": false,
     "UdListDefinitionId": 593,
     "Rank": 87,

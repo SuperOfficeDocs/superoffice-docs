@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 849,
-    "Name": "Orn, Aufderhar and Klocko",
+    "Name": "One-time Purchase",
     "ToolTip": "Esse facere laudantium ducimus eaque.",
     "Deleted": false,
     "Rank": 514,

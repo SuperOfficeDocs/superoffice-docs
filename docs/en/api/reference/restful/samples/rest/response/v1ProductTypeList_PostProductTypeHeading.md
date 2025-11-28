@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 32,
   "Name": "Purdy LLC",
-  "Tooltip": "rerum",
+  "Tooltip": "Product type",
   "Deleted": false,
   "Rank": 636,
   "UdListDefinitionId": 282,

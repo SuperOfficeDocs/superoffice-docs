@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 24,
     "Name": "O'Kon, Marquardt and Green",
-    "Tooltip": "asperiores",
+    "Tooltip": "Product type",
     "Deleted": false,
     "Rank": 111,
     "UdListDefinitionId": 650,

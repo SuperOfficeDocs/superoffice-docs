@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 956,
   "Name": "Herzog Group",
-  "Tooltip": "est",
+  "Tooltip": "Product family",
   "Deleted": true,
   "Rank": 358,
   "IsCustomList": false,

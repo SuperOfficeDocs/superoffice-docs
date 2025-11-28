@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 648,
     "Name": "Torphy Inc and Sons",
-    "Tooltip": "eos",
+    "Tooltip": "Product type",
     "Deleted": false,
     "UdListDefinitionId": 422,
     "Rank": 988,

@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 556,
-        "Name": "Ernser-Schuster",
+        "Name": "Subscription",
         "ToolTip": "Dolorem sapiente et illo adipisci non esse.",
         "Deleted": false,
         "Rank": 798,

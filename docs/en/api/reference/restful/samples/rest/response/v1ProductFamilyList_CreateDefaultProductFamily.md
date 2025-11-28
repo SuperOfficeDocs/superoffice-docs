@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 862,
-  "Name": "Breitenberg, Hartmann and Gusikowski",
-  "Tooltip": "minima",
+  "Name": "Marketing Tools",
+  "Tooltip": "Product family",
   "Deleted": false,
   "UdListDefinitionId": 732,
   "Rank": 119,

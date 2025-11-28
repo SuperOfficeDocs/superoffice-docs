@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 257,
-    "Name": "Klocko-Bartell",
+    "Name": "Subscription",
     "ToolTip": "Voluptatem iste quasi consequatur tempora culpa aut.",
     "Deleted": false,
     "Rank": 151,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 380,
-    "Name": "Trantow, Feeney and Ryan",
-    "Tooltip": "enim",
+    "Name": "One-time Purchase",
+    "Tooltip": "Product type",
     "Deleted": false,
     "Rank": 652,
     "UdListDefinitionId": 399,

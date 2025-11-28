@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 762,
   "Name": "Schaden LLC",
-  "Tooltip": "quod",
+  "Tooltip": "Product type",
   "Deleted": true,
   "Rank": 646,
   "IsCustomList": false,

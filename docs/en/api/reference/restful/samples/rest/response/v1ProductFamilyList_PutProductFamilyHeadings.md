@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 467,
     "Name": "Doyle Inc and Sons",
-    "Tooltip": "eos",
+    "Tooltip": "Product family",
     "Deleted": true,
     "Rank": 259,
     "UdListDefinitionId": 46,

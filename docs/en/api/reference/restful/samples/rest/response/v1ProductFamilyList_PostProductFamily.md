@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 728,
-  "Name": "Kirlin-Kuhlman",
-  "Tooltip": "aut",
+  "Name": "CRM Products",
+  "Tooltip": "Product family",
   "Deleted": true,
   "UdListDefinitionId": 276,
   "Rank": 863,

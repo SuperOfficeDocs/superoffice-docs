@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 105,
   "Name": "Bechtelar Inc and Sons",
-  "Tooltip": "expedita",
+  "Tooltip": "Product category",
   "Deleted": false,
   "UdListDefinitionId": 462,
   "Rank": 219,
