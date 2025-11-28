@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardId": 79,
   "UniqueId": "exercitationem",
-  "Name": "Kunde-Hauck",
+  "Name": "Sales Dashboard",
   "Description": "User-friendly zero defect ability",
   "AssociateId": 828,
   "Columns": 610,

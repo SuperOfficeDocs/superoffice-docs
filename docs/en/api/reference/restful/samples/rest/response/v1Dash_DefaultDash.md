@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardId": 57,
   "UniqueId": "quasi",
-  "Name": "Mohr, Anderson and Cartwright",
+  "Name": "Marketing Overview",
   "Description": "Versatile 24 hour alliance",
   "AssociateId": 414,
   "Columns": 828,
