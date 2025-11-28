@@ -4,18 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "facere",
-    "modi"
+    "person",
+    "appointment"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 123,
-  "NotificationsCount": 161,
+  "OverdueSalesCount": 3,
+  "NotificationsCount": 12,
   "SystemWebPanels": [
     {
       "WebPanelId": 847,
-      "Name": "Klein-Mann",
-      "Tooltip": "sit",
+      "Name": "Customer Portal",
+      "Tooltip": "Access customer portal from mobile device",
       "Deleted": false,
       "Rank": 929,
       "UrlEncoding": "ANSI",
@@ -29,9 +29,9 @@ Content-Type: application/json; charset=utf-8
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Volkman, Leannon and D'Amore",
-      "Url": "http://www.example.com/",
-      "ProgId": "similique",
+      "WindowName": "Customer Portal Window",
+      "Url": "https://portal.acmecorp.com/",
+      "ProgId": "customer_portal",
       "Icon": 29,
       "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": true,
@@ -48,10 +48,10 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "magni",
+      "RawValue": "true",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "sed",
+      "DisplayValue": "Enabled",
+      "DisplayTooltip": "Push notifications are enabled for this device",
       "DisplayType": "Bool",
       "TabOrder": null,
       "TargetId": 40,
@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "voluptate",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "{\"lastSync\":\"2024-11-27T16:30:00Z\",\"syncInterval\":300}",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
