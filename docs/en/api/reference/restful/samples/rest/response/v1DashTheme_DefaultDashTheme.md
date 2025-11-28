@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardThemeId": 643,
-  "Name": "Windler-Kautzer",
+  "Name": "Corporate Blue",
   "Config": "vitae",
   "Rank": 54,
   "Client": "enim",
