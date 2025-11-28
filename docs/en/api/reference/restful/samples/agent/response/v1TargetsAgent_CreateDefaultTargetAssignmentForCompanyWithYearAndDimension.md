@@ -4,18 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 569,
+    "TargetAssignmentInfoId": 0,
     "Values": [
-      747,
-      63
+      0,
+      0,
+      0,
+      0
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 851,
-    "DimensionListItemDisplayName": "Weissnat LLC",
+    "DimensionListItem": 0,
+    "DimensionListItemDisplayName": "Sales Revenue",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

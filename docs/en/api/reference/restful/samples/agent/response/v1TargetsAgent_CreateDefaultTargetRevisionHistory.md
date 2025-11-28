@@ -3,13 +3,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 172,
-  "Year": 295,
+  "TargetGroupId": 0,
+  "Year": 2025,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2023-03-11T10:11:01.2960968+01:00",
+      "When": "2025-01-01T00:00:00+01:00",
       "Changes": [
         {},
         {}
@@ -26,7 +26,7 @@ Content-Type: application/json; charset=utf-8
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2023-03-11T10:11:01.2960968+01:00",
+      "When": "2025-01-01T00:00:00+01:00",
       "Changes": [
         {},
         {}

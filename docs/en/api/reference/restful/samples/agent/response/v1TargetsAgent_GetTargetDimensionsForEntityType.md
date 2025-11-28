@@ -4,17 +4,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 447,
+    "TargetDimensionId": 8,
     "AssignmentLevel": "Associate",
-    "EntityType": "None",
+    "EntityType": "Sale",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "dolore",
-    "DimensionListName": "Beer, Johns and Carter",
-    "DimensionListId": 784,
-    "DimensionListLabel": "in",
+    "DimensionListField": "category",
+    "DimensionListName": "Sale Categories",
+    "DimensionListId": 125,
+    "DimensionListLabel": "Category",
     "SelectedDimensions": [
-      893,
-      220
+      1,
+      2,
+      3
     ],
     "TableRight": null,
     "FieldProperties": {

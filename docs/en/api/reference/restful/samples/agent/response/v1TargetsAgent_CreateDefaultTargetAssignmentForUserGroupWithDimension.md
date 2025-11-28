@@ -4,18 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 716,
+    "TargetAssignmentInfoId": 0,
     "Values": [
-      528,
-      667
+      0,
+      0,
+      0,
+      0
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 510,
-    "DimensionListItemDisplayName": "Torphy, Moore and O'Conner",
+    "DimensionListItem": 0,
+    "DimensionListItemDisplayName": "Sales Revenue",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

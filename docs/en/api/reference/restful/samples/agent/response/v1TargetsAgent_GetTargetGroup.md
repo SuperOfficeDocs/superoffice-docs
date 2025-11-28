@@ -3,24 +3,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 397,
-  "Year": 40,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
+  "TargetGroupId": 42,
+  "Year": 2025,
+  "EntityType": "Sale",
+  "PeriodType": "Quarter",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 895,
+      "TargetAssignmentInfoId": 156,
       "Values": [
-        552,
-        531
+        450000,
+        520000,
+        480000,
+        550000
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 814,
-      "DimensionListItemDisplayName": "Gleichner-Streich",
+      "DimensionListItem": 15,
+      "DimensionListItemDisplayName": "Sales Revenue",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

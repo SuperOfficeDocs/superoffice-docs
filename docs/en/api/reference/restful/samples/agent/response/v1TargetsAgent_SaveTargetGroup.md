@@ -3,24 +3,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 108,
-  "Year": 717,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
+  "TargetGroupId": 43,
+  "Year": 2025,
+  "EntityType": "Sale",
+  "PeriodType": "Quarter",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 743,
+      "TargetAssignmentInfoId": 157,
       "Values": [
-        188,
-        860
+        500000,
+        550000,
+        525000,
+        600000
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 385,
-      "DimensionListItemDisplayName": "Champlin Group",
+      "DimensionListItem": 15,
+      "DimensionListItemDisplayName": "Sales Revenue",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

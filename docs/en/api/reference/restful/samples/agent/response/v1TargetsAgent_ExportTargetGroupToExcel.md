@@ -3,9 +3,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 297,
-  "FileName": "Waelchi-Schulist",
-  "Message": "similique",
+  "BatchTaskId": 89,
+  "FileName": "Sales_Targets_2025_Q1-Q4.xlsx",
+  "Message": "Export completed successfully",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

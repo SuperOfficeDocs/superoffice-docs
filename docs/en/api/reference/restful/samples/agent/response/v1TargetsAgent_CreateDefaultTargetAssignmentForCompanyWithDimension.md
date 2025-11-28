@@ -4,18 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 824,
+    "TargetAssignmentInfoId": 0,
     "Values": [
-      568,
-      227
+      0,
+      0,
+      0,
+      0
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 312,
-    "DimensionListItemDisplayName": "Weimann LLC",
+    "DimensionListItem": 0,
+    "DimensionListItemDisplayName": "Sales Revenue",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

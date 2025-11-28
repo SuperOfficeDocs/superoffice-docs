@@ -3,24 +3,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 223,
-  "Year": 930,
-  "EntityType": "None",
-  "PeriodType": "HalfYear",
+  "TargetGroupId": 0,
+  "Year": 2025,
+  "EntityType": "Sale",
+  "PeriodType": "Quarter",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 93,
+      "TargetAssignmentInfoId": 0,
       "Values": [
-        600,
-        271
+        0,
+        0,
+        0,
+        0
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 130,
-      "DimensionListItemDisplayName": "Kulas, Howell and Dietrich",
+      "DimensionListItem": 0,
+      "DimensionListItemDisplayName": "",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

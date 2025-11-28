@@ -3,18 +3,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 517,
+  "TargetAssignmentInfoId": 0,
   "Values": [
-    773,
-    496
+    0,
+    0,
+    0,
+    0
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 233,
-  "DimensionListItemDisplayName": "Herman LLC",
+  "DimensionListItem": 0,
+  "DimensionListItemDisplayName": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

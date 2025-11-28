@@ -4,18 +4,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 466,
+    "TargetAssignmentInfoId": 0,
     "Values": [
-      291,
-      483
+      0,
+      0,
+      0,
+      0
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 879,
-    "DimensionListItemDisplayName": "Kuhic Group",
+    "DimensionListItem": 0,
+    "DimensionListItemDisplayName": "",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

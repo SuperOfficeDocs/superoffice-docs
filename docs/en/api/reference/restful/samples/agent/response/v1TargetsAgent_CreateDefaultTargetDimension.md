@@ -3,17 +3,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 878,
+  "TargetDimensionId": 0,
   "AssignmentLevel": "Associate",
-  "EntityType": "None",
+  "EntityType": "Sale",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "illum",
-  "DimensionListName": "Bartell Group",
-  "DimensionListId": 10,
-  "DimensionListLabel": "illum",
+  "DimensionListField": "category",
+  "DimensionListName": "Sale Categories",
+  "DimensionListId": 125,
+  "DimensionListLabel": "Category",
   "SelectedDimensions": [
-    146,
-    178
   ],
   "TableRight": null,
   "FieldProperties": {
