@@ -3,7 +3,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "ut",
-  "Reason": "innovate scalable deliverables"
+  "Mask": "CR",
+  "Reason": "User can create and read contacts they own or belong to their group"
 }
 ```
