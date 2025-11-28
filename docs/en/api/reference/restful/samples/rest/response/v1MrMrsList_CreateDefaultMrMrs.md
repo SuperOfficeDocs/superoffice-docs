@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 436,
   "Name": "Farrell LLC",
-  "Tooltip": "omnis",
+  "Tooltip": "Title or salutation",
   "Deleted": false,
   "UdListDefinitionId": 19,
   "Rank": 978,

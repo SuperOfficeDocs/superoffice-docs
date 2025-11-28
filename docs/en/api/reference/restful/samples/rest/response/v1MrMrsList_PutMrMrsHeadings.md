@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 553,
     "Name": "Luettgen Inc and Sons",
-    "Tooltip": "natus",
+    "Tooltip": "Title or salutation",
     "Deleted": false,
     "Rank": 629,
     "UdListDefinitionId": 86,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 521,
-    "Name": "Gulgowski-Jacobson",
-    "Tooltip": "nihil",
+    "Name": "Mr.",
+    "Tooltip": "Title or salutation",
     "Deleted": true,
     "UdListDefinitionId": 373,
     "Rank": 3,

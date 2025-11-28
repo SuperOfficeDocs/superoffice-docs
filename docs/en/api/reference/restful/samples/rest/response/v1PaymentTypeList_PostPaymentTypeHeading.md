@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 665,
-  "Name": "Ondricka-Kutch",
-  "Tooltip": "aperiam",
+  "Name": "Credit Card",
+  "Tooltip": "Payment method",
   "Deleted": true,
   "Rank": 26,
   "UdListDefinitionId": 104,

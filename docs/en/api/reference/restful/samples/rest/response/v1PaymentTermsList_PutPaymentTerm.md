@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 654,
-  "Name": "Schaden-Rowe",
-  "Tooltip": "quo",
+  "Name": "Net 30",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "UdListDefinitionId": 109,
   "Rank": 302,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 907,
   "Name": "Goldner Inc and Sons",
-  "Tooltip": "in",
+  "Tooltip": "Title or salutation",
   "Deleted": true,
   "UdListDefinitionId": 745,
   "Rank": 932,

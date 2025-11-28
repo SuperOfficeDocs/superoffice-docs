@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 45,
-    "Name": "Ruecker, Bartoletti and Grady",
-    "Tooltip": "nam",
+    "Name": "Bank Transfer",
+    "Tooltip": "Payment method",
     "Deleted": true,
     "Rank": 856,
     "UdListDefinitionId": 931,

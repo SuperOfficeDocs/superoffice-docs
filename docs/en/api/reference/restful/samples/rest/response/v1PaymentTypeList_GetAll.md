@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 946,
     "Name": "Rutherford Inc and Sons",
-    "Tooltip": "inventore",
+    "Tooltip": "Payment method",
     "Deleted": true,
     "UdListDefinitionId": 526,
     "Rank": 63,

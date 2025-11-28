@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 999,
-    "Name": "Fritsch-Kozey",
-    "Tooltip": "ut",
+    "Name": "Credit Card",
+    "Tooltip": "Payment method",
     "Deleted": false,
     "Rank": 499,
     "UdListDefinitionId": 651,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 303,
     "Name": "Wisozk LLC",
-    "Tooltip": "ut",
+    "Tooltip": "Payment terms",
     "Deleted": false,
     "UdListDefinitionId": 409,
     "Rank": 447,

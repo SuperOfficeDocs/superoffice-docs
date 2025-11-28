@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 695,
-        "Name": "Friesen, Sawayn and Little",
+        "Name": "Bank Transfer",
         "ToolTip": "Voluptate quidem quae.",
         "Deleted": false,
         "Rank": 429,

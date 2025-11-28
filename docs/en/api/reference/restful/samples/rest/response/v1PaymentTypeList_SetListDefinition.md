@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 101,
   "Name": "Rau Group",
-  "Tooltip": "similique",
+  "Tooltip": "Payment method",
   "Deleted": true,
   "Rank": 998,
   "IsCustomList": false,

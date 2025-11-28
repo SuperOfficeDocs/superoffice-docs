@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 668,
     "Name": "Kunze Group",
-    "Tooltip": "voluptatum",
+    "Tooltip": "Payment terms",
     "Deleted": false,
     "Rank": 332,
     "UdListDefinitionId": 467,
