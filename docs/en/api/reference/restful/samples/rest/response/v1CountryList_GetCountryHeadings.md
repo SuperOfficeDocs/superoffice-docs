@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 216,
-    "Name": "Strosin, Abernathy and Padberg",
-    "Tooltip": "est",
+    "Name": "United States",
+    "Tooltip": "Country entry",
     "Deleted": true,
     "Rank": 143,
     "UdListDefinitionId": 460,

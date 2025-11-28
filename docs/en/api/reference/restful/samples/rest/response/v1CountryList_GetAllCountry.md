@@ -20,7 +20,7 @@ Content-Type: application/json; charset=utf-8
     "DomesticAddressLayoutId": 719,
     "ForeignAddressLayoutId": 709,
     "Rank": 482,
-    "Tooltip": "consequatur",
+    "Tooltip": "Country entry",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {

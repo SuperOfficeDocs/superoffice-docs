@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 627,
   "Name": "Nienow Inc and Sons",
-  "Tooltip": "deleniti",
+  "Tooltip": "Country entry",
   "Deleted": false,
   "Rank": 278,
   "IsCustomList": true,

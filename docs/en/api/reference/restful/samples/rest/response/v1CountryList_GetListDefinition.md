@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 333,
   "Name": "Marks Inc and Sons",
-  "Tooltip": "voluptatem",
+  "Tooltip": "Country entry",
   "Deleted": false,
   "Rank": 439,
   "IsCustomList": false,
