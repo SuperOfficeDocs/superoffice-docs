@@ -9,7 +9,7 @@ Last-Modified: Tue, 18 Jan 2022 14:34:01 G1T
   "DestinationContactId": 857,
   "DestinationPersonId": 100,
   "RelationId": 124,
-  "Comment": "libero",
+  "Comment": "Main business relationship",
   "RelationDefinitionId": 629,
   "Reversed": 325,
   "UpdatedDate": "2022-01-18T14:34:01.839437+01:00",

@@ -8,7 +8,7 @@ Content-Type: application/json; charset=utf-8
   "DestinationContactId": 686,
   "DestinationPersonId": 682,
   "RelationId": 289,
-  "Comment": "vel",
+  "Comment": "Main business relationship",
   "RelationDefinitionId": 247,
   "Reversed": 674,
   "UpdatedDate": "2004-01-30T14:34:01.8434402+01:00",
