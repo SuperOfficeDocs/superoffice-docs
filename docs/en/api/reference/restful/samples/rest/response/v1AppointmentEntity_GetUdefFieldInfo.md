@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
   "IsMandatory": false,
   "Type": "Appointment",
   "Page1LineNo": 647,
-  "ProgId": "SuperOffice:Billable",
+  "ProgId": "SuperOffice:1",
   "IsReadOnly": true,
   "ShortLabel": "Bill",
   "TabOrder": 438,

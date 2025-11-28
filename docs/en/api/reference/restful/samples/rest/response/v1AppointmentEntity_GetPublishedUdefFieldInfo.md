@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
   "IsMandatory": false,
   "Type": "Appointment",
   "Page1LineNo": 299,
-  "ProgId": "SuperOffice:ExternalAttendees",
+  "ProgId": "SuperOffice:1",
   "IsReadOnly": false,
   "ShortLabel": "External",
   "TabOrder": 576,

@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
   "IsMandatory": true,
   "Type": "Appointment",
   "Page1LineNo": 748,
-  "ProgId": "SuperOffice:MeetingType",
+  "ProgId": "SuperOffice:1",
   "IsReadOnly": true,
   "ShortLabel": "Type",
   "TabOrder": 101,
