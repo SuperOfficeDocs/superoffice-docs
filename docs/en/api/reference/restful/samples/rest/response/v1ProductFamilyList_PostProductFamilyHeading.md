@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 681,
-  "Name": "Walter-Turner",
-  "Tooltip": "consectetur",
+  "Name": "CRM Products",
+  "Tooltip": "Product family",
   "Deleted": true,
   "Rank": 98,
   "UdListDefinitionId": 229,

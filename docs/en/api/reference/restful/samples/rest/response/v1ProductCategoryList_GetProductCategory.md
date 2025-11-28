@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 607,
-  "Name": "Langworth-Okuneva",
-  "Tooltip": "velit",
+  "Name": "Software",
+  "Tooltip": "Product category",
   "Deleted": false,
   "UdListDefinitionId": 993,
   "Rank": 954,

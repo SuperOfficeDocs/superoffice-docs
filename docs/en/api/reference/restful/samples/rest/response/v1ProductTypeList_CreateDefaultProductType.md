@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 811,
-  "Name": "Fay-Kertzmann",
-  "Tooltip": "et",
+  "Name": "Subscription",
+  "Tooltip": "Product type",
   "Deleted": false,
   "UdListDefinitionId": 274,
   "Rank": 662,

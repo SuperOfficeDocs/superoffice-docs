@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 600,
   "Name": "Bahringer-O'Keefe",
-  "Tooltip": "sunt",
+  "Tooltip": "Product family",
   "Deleted": false,
   "Rank": 209,
   "IsCustomList": false,

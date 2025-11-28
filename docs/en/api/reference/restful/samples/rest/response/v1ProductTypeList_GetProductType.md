@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 479,
-  "Name": "Farrell, Carter and Considine",
-  "Tooltip": "ipsa",
+  "Name": "One-time Purchase",
+  "Tooltip": "Product type",
   "Deleted": false,
   "UdListDefinitionId": 128,
   "Rank": 479,

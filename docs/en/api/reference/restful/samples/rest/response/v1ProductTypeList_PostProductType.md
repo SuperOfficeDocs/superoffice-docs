@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 921,
-  "Name": "Predovic, Schuppe and Gulgowski",
-  "Tooltip": "quia",
+  "Name": "One-time Purchase",
+  "Tooltip": "Product type",
   "Deleted": false,
   "UdListDefinitionId": 348,
   "Rank": 272,

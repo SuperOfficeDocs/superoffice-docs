@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 659,
-    "Name": "Lind-Miller",
-    "Tooltip": "qui",
+    "Name": "Software",
+    "Tooltip": "Product category",
     "Deleted": false,
     "Rank": 846,
     "UdListDefinitionId": 255,

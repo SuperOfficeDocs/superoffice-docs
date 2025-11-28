@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 687,
   "Name": "Toy Group",
-  "Tooltip": "eaque",
+  "Tooltip": "Product category",
   "Deleted": false,
   "Rank": 259,
   "IsCustomList": false,

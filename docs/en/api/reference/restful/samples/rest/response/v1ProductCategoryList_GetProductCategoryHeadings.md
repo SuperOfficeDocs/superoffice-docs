@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 838,
-    "Name": "Gottlieb-Jacobi",
-    "Tooltip": "aut",
+    "Name": "Software",
+    "Tooltip": "Product category",
     "Deleted": false,
     "Rank": 291,
     "UdListDefinitionId": 710,

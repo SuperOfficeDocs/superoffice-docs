@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 197,
-  "Name": "Gottlieb, Hartmann and Brown",
-  "Tooltip": "ullam",
+  "Name": "One-time Purchase",
+  "Tooltip": "Product type",
   "Deleted": false,
   "UdListDefinitionId": 445,
   "Rank": 540,

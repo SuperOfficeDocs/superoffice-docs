@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 60,
     "Name": "Grady Group",
-    "Tooltip": "qui",
+    "Tooltip": "Product category",
     "Deleted": true,
     "UdListDefinitionId": 313,
     "Rank": 337,

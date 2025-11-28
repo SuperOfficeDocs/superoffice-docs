@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 194,
-    "Name": "Powlowski-Renner",
-    "Tooltip": "quis",
+    "Name": "CRM Products",
+    "Tooltip": "Product family",
     "Deleted": false,
     "Rank": 126,
     "UdListDefinitionId": 695,

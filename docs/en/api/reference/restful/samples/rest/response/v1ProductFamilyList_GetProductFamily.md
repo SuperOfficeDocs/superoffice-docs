@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 640,
-  "Name": "Carter-Cormier",
-  "Tooltip": "in",
+  "Name": "CRM Products",
+  "Tooltip": "Product family",
   "Deleted": false,
   "UdListDefinitionId": 64,
   "Rank": 683,

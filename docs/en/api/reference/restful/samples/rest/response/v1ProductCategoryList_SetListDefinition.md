@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 67,
-  "Name": "Corwin, Streich and Homenick",
-  "Tooltip": "omnis",
+  "Name": "Services",
+  "Tooltip": "Product category",
   "Deleted": false,
   "Rank": 372,
   "IsCustomList": true,

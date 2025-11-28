@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 726,
-  "Name": "Volkman-Ratke",
-  "Tooltip": "voluptatibus",
+  "Name": "Subscription",
+  "Tooltip": "Product type",
   "Deleted": false,
   "Rank": 276,
   "IsCustomList": false,

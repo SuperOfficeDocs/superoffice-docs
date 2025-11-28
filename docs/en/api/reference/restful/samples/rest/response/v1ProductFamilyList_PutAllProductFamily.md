@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 448,
-    "Name": "Gottlieb-Reilly",
-    "Tooltip": "ea",
+    "Name": "CRM Products",
+    "Tooltip": "Product family",
     "Deleted": false,
     "UdListDefinitionId": 485,
     "Rank": 382,

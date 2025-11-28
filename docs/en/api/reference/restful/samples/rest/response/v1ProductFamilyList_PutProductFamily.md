@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 250,
-  "Name": "Kuphal, Friesen and Bartoletti",
-  "Tooltip": "sunt",
+  "Name": "Marketing Tools",
+  "Tooltip": "Product family",
   "Deleted": false,
   "UdListDefinitionId": 332,
   "Rank": 637,
