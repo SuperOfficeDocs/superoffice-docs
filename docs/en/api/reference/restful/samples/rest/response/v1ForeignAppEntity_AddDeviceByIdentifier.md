@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDeviceId": 897,
-  "Name": "Larkin, Blick and Bradtke",
+  "Name": "Google Sync",
   "CreatedDate": "2004-07-16T14:34:02.0200617+02:00",
   "UpdatedDate": "2005-05-12T14:34:02.0200617+02:00",
   "AssociateFullName": "Elias Price",

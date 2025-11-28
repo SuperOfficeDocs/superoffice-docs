@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Devices": [
     {
       "ForeignDeviceId": 955,
-      "Name": "Swaniawski, Dooley and Jerde",
+      "Name": "Google Sync",
       "CreatedDate": "2015-01-03T14:34:01.9870942+01:00",
       "UpdatedDate": "2007-06-01T14:34:01.9870942+02:00",
       "AssociateFullName": "Prof. Joan Marquardt IV",

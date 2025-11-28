@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Devices": [
     {
       "ForeignDeviceId": 364,
-      "Name": "Hansen, Blanda and Pfannerstill",
+      "Name": "Google Sync",
       "CreatedDate": "2013-11-16T14:34:02.0027636+01:00",
       "UpdatedDate": "1998-10-02T14:34:02.0027636+02:00",
       "AssociateFullName": "Tanner Eichmann",
