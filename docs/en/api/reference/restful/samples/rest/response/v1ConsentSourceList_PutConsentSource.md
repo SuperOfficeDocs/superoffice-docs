@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentSourceId": 79,
-  "Name": "Mayer-Lynch",
-  "Tooltip": "reprehenderit",
+  "Name": "Web Form",
+  "Tooltip": "Source of consent collection",
   "Rank": 935,
   "Key": "consequuntur",
   "MailTemplateId": 52,

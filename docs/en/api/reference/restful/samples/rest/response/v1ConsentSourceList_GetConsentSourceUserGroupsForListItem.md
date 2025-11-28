@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 63,
-    "Name": "Stokes, Dietrich and Gleichner",
+    "Name": "Email Campaign",
     "ToolTip": "Quisquam in ab quod doloremque doloremque.",
     "Deleted": false,
     "Rank": 50,
-    "Type": "quam",
+    "Type": "ConsentSource",
     "ColorBlock": 10,
     "IconHint": "dolor",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 989,
-        "Name": "Towne Group",
+        "Name": "In-Person Meeting",
         "ToolTip": "Et culpa esse est eos.",
         "Deleted": true,
         "Rank": 26,
-        "Type": "tempore",
+        "Type": "ConsentSource",
         "ColorBlock": 82,
         "IconHint": "qui",
         "Selected": false,

@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "ToolTip": "Error enim omnis voluptas eveniet.",
     "Deleted": false,
     "Rank": 523,
-    "Type": "reprehenderit",
+    "Type": "ConsentSource",
     "ColorBlock": 582,
     "IconHint": "voluptatem",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 435,
-        "Name": "Ruecker Group",
+        "Name": "In-Person Meeting",
         "ToolTip": "Odit pariatur.",
         "Deleted": true,
         "Rank": 24,
-        "Type": "inventore",
+        "Type": "ConsentSource",
         "ColorBlock": 55,
         "IconHint": "dolores",
         "Selected": true,

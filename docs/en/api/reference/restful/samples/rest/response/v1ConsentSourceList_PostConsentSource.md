@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentSourceId": 930,
-  "Name": "Haag-Pagac",
-  "Tooltip": "velit",
+  "Name": "Web Form",
+  "Tooltip": "Source of consent collection",
   "Rank": 134,
   "Key": "dolores",
   "MailTemplateId": 221,

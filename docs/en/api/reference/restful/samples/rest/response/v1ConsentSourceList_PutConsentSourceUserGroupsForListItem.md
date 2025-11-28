@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 193,
-    "Name": "Hudson-Feil",
+    "Name": "Web Form",
     "ToolTip": "Odio inventore in qui quidem deleniti debitis culpa.",
     "Deleted": false,
     "Rank": 866,
-    "Type": "minus",
+    "Type": "ConsentSource",
     "ColorBlock": 314,
     "IconHint": "sint",
     "Selected": true,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 875,
-        "Name": "Shields-Ratke",
+        "Name": "Web Form",
         "ToolTip": "Magnam reprehenderit consequuntur illum eum nisi suscipit.",
         "Deleted": false,
         "Rank": 958,
-        "Type": "odio",
+        "Type": "ConsentSource",
         "ColorBlock": 938,
         "IconHint": "sed",
         "Selected": false,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentSourceId": 952,
-  "Name": "Lehner Group",
-  "Tooltip": "rem",
+  "Name": "In-Person Meeting",
+  "Tooltip": "Source of consent collection",
   "Rank": 562,
   "Key": "vero",
   "MailTemplateId": 653,
