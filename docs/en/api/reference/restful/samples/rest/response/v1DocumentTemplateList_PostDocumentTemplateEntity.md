@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateId": 731,
-  "Name": "Hintz-Dach",
-  "Tooltip": "dignissimos",
+  "Name": "Standard Letter",
+  "Tooltip": "Document template",
   "SaveInDb": 144,
   "Filename": "unde",
   "DefaultOref": "eaque",

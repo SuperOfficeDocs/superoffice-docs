@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 575,
-  "Name": "Tromp, Boyer and Shanahan",
-  "Tooltip": "voluptatem",
+  "Name": "Meeting Minutes",
+  "Tooltip": "Document template",
   "Deleted": true,
   "Rank": 638,
   "UdListDefinitionId": 644,

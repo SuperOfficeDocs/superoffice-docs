@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateId": 953,
   "Name": "Cremin Inc and Sons",
-  "Tooltip": "omnis",
+  "Tooltip": "Document template",
   "SaveInDb": 97,
   "Filename": "ut",
   "DefaultOref": "facere",

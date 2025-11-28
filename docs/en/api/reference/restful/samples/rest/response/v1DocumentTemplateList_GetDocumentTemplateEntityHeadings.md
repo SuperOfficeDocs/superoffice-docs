@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 59,
-    "Name": "Kassulke, Konopelski and Robel",
-    "Tooltip": "sed",
+    "Name": "Meeting Minutes",
+    "Tooltip": "Document template",
     "Deleted": false,
     "Rank": 504,
     "UdListDefinitionId": 23,

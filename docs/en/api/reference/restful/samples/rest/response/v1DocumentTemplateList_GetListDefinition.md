@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 545,
-  "Name": "Kerluke, Davis and Murray",
-  "Tooltip": "sed",
+  "Name": "Meeting Minutes",
+  "Tooltip": "Document template",
   "Deleted": false,
   "Rank": 395,
   "IsCustomList": false,

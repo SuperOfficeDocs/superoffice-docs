@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "DocumentTemplateId": 354,
     "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "et",
+    "Tooltip": "Document template",
     "SaveInDb": 124,
     "Filename": "pariatur",
     "DefaultOref": "iusto",

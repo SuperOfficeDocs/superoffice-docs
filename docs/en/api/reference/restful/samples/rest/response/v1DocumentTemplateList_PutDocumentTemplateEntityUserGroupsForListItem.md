@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 112,
-    "Name": "Boyle, Labadie and Dicki",
+    "Name": "Meeting Minutes",
     "ToolTip": "Eos veritatis.",
     "Deleted": true,
     "Rank": 120,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 740,
-        "Name": "Senger, Leuschke and Lesch",
+        "Name": "Meeting Minutes",
         "ToolTip": "Magnam voluptatem non adipisci nostrum dolores et.",
         "Deleted": false,
         "Rank": 198,
