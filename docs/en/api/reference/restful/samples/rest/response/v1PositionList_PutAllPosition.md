@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 943,
-    "Name": "Abernathy, Lindgren and Schaefer",
-    "Tooltip": "sed",
+    "Name": "Marketing Director",
+    "Tooltip": "Job position",
     "Deleted": true,
     "UdListDefinitionId": 990,
     "Rank": 350,

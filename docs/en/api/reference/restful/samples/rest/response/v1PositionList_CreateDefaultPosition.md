@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 533,
-  "Name": "Howell-Stracke",
-  "Tooltip": "nesciunt",
+  "Name": "Sales Manager",
+  "Tooltip": "Job position",
   "Deleted": false,
   "UdListDefinitionId": 945,
   "Rank": 125,

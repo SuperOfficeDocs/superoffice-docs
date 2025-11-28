@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 422,
-    "Name": "Wunsch-Wyman",
-    "Tooltip": "voluptas",
+    "Name": "Sales Manager",
+    "Tooltip": "Job position",
     "Deleted": false,
     "Rank": 978,
     "UdListDefinitionId": 509,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 457,
   "Section": "facilis",
   "Key": "temporibus",
-  "Name": "Daniel, Dickens and Reichel",
+  "Name": "Default Language",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",

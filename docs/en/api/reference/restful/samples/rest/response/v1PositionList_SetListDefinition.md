@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 161,
-  "Name": "Labadie-Gutmann",
-  "Tooltip": "ut",
+  "Name": "Sales Manager",
+  "Tooltip": "Job position",
   "Deleted": false,
   "Rank": 479,
   "IsCustomList": false,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 129,
     "Name": "Dicki LLC",
-    "Tooltip": "et",
+    "Tooltip": "Job position",
     "Deleted": false,
     "Rank": 738,
     "UdListDefinitionId": 950,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 84,
   "Section": "ut",
   "Key": "sint",
-  "Name": "Stehr, Kuhlman and Lueilwitz",
+  "Name": "Default Language",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",

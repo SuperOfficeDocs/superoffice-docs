@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 923,
-  "Name": "Crist-Abshire",
-  "Tooltip": "voluptatibus",
+  "Name": "Sales Manager",
+  "Tooltip": "Job position",
   "Deleted": false,
   "Rank": 691,
   "IsCustomList": false,

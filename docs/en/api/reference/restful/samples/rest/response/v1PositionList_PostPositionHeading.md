@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 830,
-  "Name": "Kohler, Graham and Hirthe",
-  "Tooltip": "repellat",
+  "Name": "Marketing Director",
+  "Tooltip": "Job position",
   "Deleted": true,
   "Rank": 433,
   "UdListDefinitionId": 952,
