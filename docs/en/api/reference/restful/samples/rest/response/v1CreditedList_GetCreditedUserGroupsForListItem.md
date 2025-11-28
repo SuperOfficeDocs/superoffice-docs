@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 21,
-    "Name": "Shields-Crist",
+    "Name": "Sales Team",
     "ToolTip": "Qui quae recusandae voluptas aliquid expedita quibusdam.",
     "Deleted": false,
     "Rank": 399,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 460,
-        "Name": "Bartell-Parker",
+        "Name": "Sales Team",
         "ToolTip": "Animi voluptatem labore cum ex asperiores.",
         "Deleted": false,
         "Rank": 49,

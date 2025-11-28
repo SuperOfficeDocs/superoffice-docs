@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 918,
-  "Name": "Stoltenberg-Jerde",
-  "Tooltip": "quia",
+  "Name": "Sales Team",
+  "Tooltip": "Credit attribution",
   "Deleted": false,
   "Rank": 629,
   "IsCustomList": true,

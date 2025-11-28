@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 638,
-  "Name": "Bergstrom, Weimann and Rosenbaum",
-  "Tooltip": "iure",
+  "Name": "Marketing Team",
+  "Tooltip": "Credit attribution",
   "Deleted": true,
   "Rank": 960,
   "UdListDefinitionId": 367,

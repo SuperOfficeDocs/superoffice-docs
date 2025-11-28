@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 553,
     "Name": "Fisher Group",
-    "Tooltip": "id",
+    "Tooltip": "Credit attribution",
     "Deleted": true,
     "Rank": 212,
     "UdListDefinitionId": 543,
