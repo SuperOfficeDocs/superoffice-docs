@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "CustomerAlias": "vitae",
   "CustomerHost": "rerum",
-  "CustomerName": "Mosciski, Ledner and Mayer",
+  "CustomerName": "Customer Name",
   "CustomerEmail": "ramon@heathcoteschultz.ca",
   "CustomerPhone": "(314)205-7173",
   "CustomerConsented": false,
