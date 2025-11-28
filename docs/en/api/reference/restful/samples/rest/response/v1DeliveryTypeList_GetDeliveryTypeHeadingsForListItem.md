@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 391,
-        "Name": "Stroman, Lemke and Kub",
+        "Name": "Standard Shipping",
         "ToolTip": "Voluptatem dolore est ipsum error ut iure quia.",
         "Deleted": true,
         "Rank": 557,

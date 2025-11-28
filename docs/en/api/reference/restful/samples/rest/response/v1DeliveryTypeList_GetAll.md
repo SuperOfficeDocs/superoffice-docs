@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 493,
-    "Name": "Blanda, Block and Bartoletti",
-    "Tooltip": "aut",
+    "Name": "Standard Shipping",
+    "Tooltip": "Delivery type",
     "Deleted": false,
     "UdListDefinitionId": 606,
     "Rank": 974,

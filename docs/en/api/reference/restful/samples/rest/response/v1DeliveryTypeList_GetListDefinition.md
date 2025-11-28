@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 845,
-  "Name": "Nienow, Lemke and Cormier",
-  "Tooltip": "voluptatem",
+  "Name": "Standard Shipping",
+  "Tooltip": "Delivery type",
   "Deleted": false,
   "Rank": 361,
   "IsCustomList": false,

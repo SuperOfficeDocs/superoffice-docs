@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 244,
     "Name": "Hand Inc and Sons",
-    "Tooltip": "qui",
+    "Tooltip": "Delivery type",
     "Deleted": false,
     "Rank": 320,
     "UdListDefinitionId": 956,

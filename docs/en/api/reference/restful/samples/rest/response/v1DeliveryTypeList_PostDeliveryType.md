@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 659,
-  "Name": "Hagenes-Ritchie",
-  "Tooltip": "voluptas",
+  "Name": "Express Delivery",
+  "Tooltip": "Delivery type",
   "Deleted": false,
   "UdListDefinitionId": 642,
   "Rank": 527,

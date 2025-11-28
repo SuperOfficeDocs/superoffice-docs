@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 589,
   "Name": "Hodkiewicz Group",
-  "Tooltip": "sapiente",
+  "Tooltip": "Delivery type",
   "Deleted": false,
   "UdListDefinitionId": 566,
   "Rank": 258,
