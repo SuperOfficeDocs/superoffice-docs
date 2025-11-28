@@ -3,9 +3,9 @@ uid: help-no-request-message-flag
 title: Holde oversikt over meldinger
 description: Holde oversikt over meldinger
 keywords: sak, melding, flagg
-author: Hanne Gunnarsson
-date: 02.04.2025
-version: 10.5.1
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
@@ -32,6 +32,8 @@ For å gjøre det enklere å finne og sortere flere meldinger i en sak, kan du f
 1. Klikk på fanen **Meldinger**.
 1. I øvre høyre hjørne klikker du på filterlisten og velger et filter. Meldingene filtreres.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Relatert innhold
 
 * [Opprette sak][2]
@@ -43,3 +45,6 @@ For å gjøre det enklere å finne og sortere flere meldinger i en sak, kan du f
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png

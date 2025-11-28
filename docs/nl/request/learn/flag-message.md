@@ -3,10 +3,11 @@ uid: help-nl-request-message-flag
 title: Berichten bijhouden
 description: Hoe u berichten in een verzoek kunt markeren en filteren
 keywords: verzoek, bericht, markeren, vlag
-author: Hanne Gunnarsson
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -31,6 +32,8 @@ Om het gemakkelijker te maken om meerdere berichten in een verzoek te vinden en 
 1. Klik op het tabblad **Berichten**.
 1. Klik in de rechterbovenhoek op de filterlijst en selecteer een filter. De berichten worden gefilterd.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Gerelateerde inhoud
 
 * [Verzoek maken][2]
@@ -42,3 +45,6 @@ Om het gemakkelijker te maken om meerdere berichten in een verzoek te vinden en 
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png

@@ -3,9 +3,9 @@ uid: help-sv-request-message-flag
 title: Hålla koll på meddelanden
 description: Hålla koll på meddelanden
 keywords: filtrera meddelanden, flaggknappen, ärende, meddelande, flaggat, flagga
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
@@ -32,6 +32,8 @@ För att göra det enklare att hitta och sortera flera meddelanden i ett ärende
 1. Klicka på fliken **Meddelanden**.
 1. Klicka på filterlistan i det övre högra hörnet och välj ett filter. Meddelandena filtreras.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Relaterat innehåll
 
 * [Skapa ärende][2]
@@ -43,3 +45,6 @@ För att göra det enklare att hitta och sortera flera meddelanden i ett ärende
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png
