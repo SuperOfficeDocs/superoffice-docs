@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 107,
-  "UniqueIdentifier": "sint",
-  "Name": "Runte, Kohler and Boyle",
-  "Description": "Switchable explicit superstructure",
-  "IncludeId": "non",
-  "AccessKey": "error",
+  "UniqueIdentifier": "contact-validation-001",
+  "Name": "Contact Validation Script",
+  "Description": "Validates contact data before saving to database",
+  "IncludeId": "common-functions",
+  "AccessKey": "script-access-key-001",
   "HierarchyId": 124,
-  "Source": "voluptas",
-  "SourceCode": "eveniet",
+  "Source": "scripts/contact/validation.crmscript",
+  "SourceCode": "// Contact validation script\nfunction validate() { return true; }",
   "ScriptType": "CRMScript",
   "HtmlOutput": 92,
   "Includes": [
@@ -23,10 +23,10 @@ Content-Type: application/json; charset=utf-8
       "LineNumberFrom": 680,
       "LineNumberTo": 531,
       "Delta": 763,
-      "IncludeId": "beatae",
+      "IncludeId": "utility-module",
       "IncludedFrom": [
-        "dignissimos",
-        "qui"
+        "common-lib.crmscript",
+        "utils.crmscript"
       ],
       "TableRight": null,
       "FieldProperties": {
