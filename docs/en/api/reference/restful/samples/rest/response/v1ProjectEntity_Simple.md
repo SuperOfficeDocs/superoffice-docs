@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectId": 70,
-  "Name": "Labadie, Considine and Okuneva",
+  "Name": "Website Redesign",
   "Description": "Synergistic empowering instruction set",
   "URL": "http://www.example.com/",
   "Type": "iste",

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 447,
-    "Name": "Hane-Hilpert",
-    "Tooltip": "minima",
+    "Name": "Internal",
+    "Tooltip": "Project type",
     "Deleted": false,
     "Rank": 1000,
     "UdListDefinitionId": 849,

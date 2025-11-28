@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 981,
-  "Name": "Kulas, Howell and Bashirian",
-  "Tooltip": "dicta",
+  "Name": "Completed",
+  "Tooltip": "Project status",
   "Deleted": false,
   "UdListDefinitionId": 536,
   "Rank": 890,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 920,
   "Name": "Mayer Inc and Sons",
-  "Tooltip": "repellat",
+  "Tooltip": "Project type",
   "Deleted": false,
   "UdListDefinitionId": 223,
   "Rank": 466,

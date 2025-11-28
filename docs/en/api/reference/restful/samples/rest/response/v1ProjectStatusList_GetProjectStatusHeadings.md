@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 250,
     "Name": "Bins Group",
-    "Tooltip": "ipsa",
+    "Tooltip": "Project status",
     "Deleted": false,
     "Rank": 329,
     "UdListDefinitionId": 276,

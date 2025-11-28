@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 559,
-    "Name": "Buckridge, Deckow and Gulgowski",
-    "Tooltip": "nesciunt",
+    "Name": "Customer",
+    "Tooltip": "Project type",
     "Deleted": false,
     "UdListDefinitionId": 214,
     "Rank": 535,

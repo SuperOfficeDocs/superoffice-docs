@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 673,
-  "Name": "Gaylord-Blick",
-  "Tooltip": "ut",
+  "Name": "Internal",
+  "Tooltip": "Project type",
   "Deleted": true,
   "UdListDefinitionId": 154,
   "Rank": 641,

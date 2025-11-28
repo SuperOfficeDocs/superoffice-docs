@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 72,
-  "Name": "Batz-Christiansen",
-  "Tooltip": "vero",
+  "Name": "In Progress",
+  "Tooltip": "Project status",
   "Deleted": true,
   "UdListDefinitionId": 847,
   "Rank": 963,

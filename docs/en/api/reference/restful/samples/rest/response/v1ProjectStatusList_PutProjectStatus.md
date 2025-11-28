@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 622,
   "Name": "Kunze Inc and Sons",
-  "Tooltip": "iure",
+  "Tooltip": "Project status",
   "Deleted": true,
   "UdListDefinitionId": 361,
   "Rank": 551,

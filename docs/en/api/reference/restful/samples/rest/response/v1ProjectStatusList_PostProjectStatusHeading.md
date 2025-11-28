@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 59,
-  "Name": "Schamberger, Krajcik and Fritsch",
-  "Tooltip": "qui",
+  "Name": "Completed",
+  "Tooltip": "Project status",
   "Deleted": false,
   "Rank": 529,
   "UdListDefinitionId": 26,

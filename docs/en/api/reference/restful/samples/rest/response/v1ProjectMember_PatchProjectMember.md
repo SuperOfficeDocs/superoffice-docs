@@ -23,7 +23,7 @@ Content-Type: application/json; charset=utf-8
   "ProjectMemberTypeId": 53,
   "EmailAddressName": "jettie.schultz@schuster.co.uk",
   "Comment": "voluptatem",
-  "FullName": "Thomas Nienow",
+  "FullName": "Sarah Johnson",
   "Registered": "2016-05-20T14:34:02.8309951+02:00",
   "Updated": "2017-12-21T14:34:02.8309951+01:00",
   "TableRight": null,

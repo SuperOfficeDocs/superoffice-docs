@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 280,
-        "Name": "Hickle-Moen",
+        "Name": "Internal",
         "ToolTip": "Ut fugiat qui.",
         "Deleted": false,
         "Rank": 290,

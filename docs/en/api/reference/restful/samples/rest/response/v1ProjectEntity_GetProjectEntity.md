@@ -5,7 +5,7 @@ Last-Modified: Fri, 27 May 2022 14:34:02 G5T
 
 {
   "ProjectId": 559,
-  "Name": "Goyette, Shields and Wolf",
+  "Name": "Website Redesign",
   "ProjectNumber": "1200066",
   "ProjectMembers": [
     {
@@ -46,7 +46,7 @@ Last-Modified: Fri, 27 May 2022 14:34:02 G5T
     {
       "Value": "deleniti",
       "StrippedValue": "magni",
-      "Description": "Cloned tertiary conglomeration",
+      "Description": "Project implementation details",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -59,7 +59,7 @@ Last-Modified: Fri, 27 May 2022 14:34:02 G5T
     {
       "Value": "deleniti",
       "StrippedValue": "magni",
-      "Description": "Cloned tertiary conglomeration",
+      "Description": "Project implementation details",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -72,7 +72,7 @@ Last-Modified: Fri, 27 May 2022 14:34:02 G5T
   ],
   "CreatedDate": "1999-02-27T14:34:02.1747799+01:00",
   "UpdatedDate": "2022-05-27T14:34:02.1747799+02:00",
-  "Description": "Switchable uniform utilisation",
+  "Description": "Project implementation details",
   "Postit": "culpa",
   "CreatedBy": null,
   "UpdatedBy": null,

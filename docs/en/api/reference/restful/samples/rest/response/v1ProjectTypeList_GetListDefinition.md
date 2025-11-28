@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 427,
-  "Name": "Hickle, Effertz and Dooley",
-  "Tooltip": "illo",
+  "Name": "Customer",
+  "Tooltip": "Project type",
   "Deleted": false,
   "Rank": 612,
   "IsCustomList": false,

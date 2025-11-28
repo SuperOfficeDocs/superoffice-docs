@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 230,
-    "Name": "Bergstrom-Shanahan",
-    "Tooltip": "quia",
+    "Name": "In Progress",
+    "Tooltip": "Project status",
     "Deleted": false,
     "Rank": 708,
     "UdListDefinitionId": 732,

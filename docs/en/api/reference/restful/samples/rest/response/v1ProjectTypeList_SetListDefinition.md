@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 710,
   "Name": "Harvey Group",
-  "Tooltip": "dolorum",
+  "Tooltip": "Project type",
   "Deleted": false,
   "Rank": 456,
   "IsCustomList": false,
