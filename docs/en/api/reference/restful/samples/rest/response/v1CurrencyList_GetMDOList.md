@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 713,
-    "Name": "Lindgren, Waters and Okuneva",
+    "Name": "Euro",
     "ToolTip": "Error a quidem omnis.",
     "Deleted": false,
     "Rank": 948,

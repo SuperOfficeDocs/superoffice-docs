@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CurrencyId": 701,
-  "Name": "Collier, Wilderman and Gusikowski",
-  "Tooltip": "velit",
+  "Name": "Euro",
+  "Tooltip": "Currency type",
   "Rank": 845,
   "Rate": 12172.456,
   "Units": 22091.566,

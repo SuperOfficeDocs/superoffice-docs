@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CurrencyId": 253,
-  "Name": "Leannon-Harris",
-  "Tooltip": "dolorum",
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
   "Rank": 686,
   "Rate": 13579.622,
   "Units": 6186.516,

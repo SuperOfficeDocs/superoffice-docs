@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 303,
-        "Name": "Crona-Tremblay",
+        "Name": "US Dollar",
         "ToolTip": "Optio est commodi id.",
         "Deleted": true,
         "Rank": 563,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 111,
-    "Name": "Parisian, Dicki and Kautzer",
-    "Tooltip": "iste",
+    "Name": "Euro",
+    "Tooltip": "Currency type",
     "Deleted": true,
     "Rank": 582,
     "UdListDefinitionId": 95,

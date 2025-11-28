@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 423,
-    "Name": "Zieme-Klein",
+    "Name": "US Dollar",
     "ToolTip": "Autem cum est sunt necessitatibus reiciendis.",
     "Deleted": false,
     "Rank": 819,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 625,
-        "Name": "Rippin, Gaylord and Stark",
+        "Name": "Euro",
         "ToolTip": "Ut libero aut sequi consequuntur cum aliquam dolorem.",
         "Deleted": false,
         "Rank": 119,

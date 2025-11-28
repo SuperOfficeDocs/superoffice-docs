@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 920,
-  "Name": "King-Bayer",
-  "Tooltip": "at",
+  "Name": "US Dollar",
+  "Tooltip": "Currency type",
   "Deleted": false,
   "Rank": 27,
   "IsCustomList": false,

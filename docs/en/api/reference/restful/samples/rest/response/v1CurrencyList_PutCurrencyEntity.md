@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "CurrencyId": 765,
   "Name": "Greenholt, Pagac and DuBuque",
-  "Tooltip": "a",
+  "Tooltip": "Currency type",
   "Rank": 114,
   "Rate": 24319.84,
   "Units": 21659.074,

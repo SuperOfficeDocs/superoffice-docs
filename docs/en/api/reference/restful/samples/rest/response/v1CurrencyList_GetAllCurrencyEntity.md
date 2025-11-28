@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "CurrencyId": 67,
     "Name": "Morar LLC",
-    "Tooltip": "aut",
+    "Tooltip": "Currency type",
     "Rank": 706,
     "Rate": 25150.35,
     "Units": 17374.896,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 708,
-    "Name": "Waters-Olson",
+    "Name": "US Dollar",
     "ToolTip": "Voluptate atque esse.",
     "Deleted": false,
     "Rank": 128,
