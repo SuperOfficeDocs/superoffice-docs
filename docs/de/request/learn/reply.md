@@ -3,9 +3,9 @@ uid: help-de-request-reply
 title: Einer Person antworten
 description: In dieser Anleitung lernen Sie, wie Sie alle eingehenden Anfragen in SuperOffice beantworten können.
 keywords: Anfrage, Antwortvorlage, Antwort, Antworten, Kommentar, intern, extern
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person

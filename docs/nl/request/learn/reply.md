@@ -3,9 +3,9 @@ uid: help-nl-request-reply
 title: Antwoorden aan contact
 description: In deze gids staat hoe u alle binnenkomende verzoeken in SuperOffice kunt beantwoorden.
 keywords: verzoek, antwoordsjabloon
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
