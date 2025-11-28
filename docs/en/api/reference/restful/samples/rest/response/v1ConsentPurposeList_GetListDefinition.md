@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 702,
-  "Name": "Halvorson, Gerlach and Greenholt",
-  "Tooltip": "sequi",
+  "Name": "Sales Follow-up",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Deleted": false,
   "Rank": 991,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "numquam",
+  "ListType": "ConsentPurpose",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

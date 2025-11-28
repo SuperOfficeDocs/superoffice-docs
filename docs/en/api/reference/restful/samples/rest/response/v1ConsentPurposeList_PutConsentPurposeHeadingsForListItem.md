@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 1002,
-    "Name": "Jacobs-Hintz",
+    "Name": "Marketing Communications",
     "ToolTip": "Distinctio et sint omnis iste esse quo.",
     "Deleted": false,
     "Rank": 209,
-    "Type": "in",
+    "Type": "ConsentPurpose",
     "ColorBlock": 71,
     "IconHint": "itaque",
     "Selected": true,
@@ -21,7 +21,7 @@ Content-Type: application/json; charset=utf-8
         "ToolTip": "Autem qui.",
         "Deleted": true,
         "Rank": 86,
-        "Type": "aut",
+        "Type": "ConsentPurpose",
         "ColorBlock": 141,
         "IconHint": "facere",
         "Selected": false,

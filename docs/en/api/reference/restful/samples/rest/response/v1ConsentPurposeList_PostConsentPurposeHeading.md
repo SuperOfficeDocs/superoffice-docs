@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 619,
   "Name": "McClure-Predovic",
-  "Tooltip": "minima",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Deleted": false,
   "Rank": 308,
   "UdListDefinitionId": 185,

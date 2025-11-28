@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentPurposeId": 619,
-  "Name": "Becker Group",
+  "Name": "Product Updates",
   "ConsentText": "voluptatem",
   "FormText": "eius",
   "Key": "neque",
-  "Tooltip": "voluptates",
+  "Tooltip": "Consent purpose for GDPR compliance",
   "Active": 632,
   "UpdatedDate": "2017-10-23T14:34:03.0251061+02:00",
   "UpdatedBy": null,
