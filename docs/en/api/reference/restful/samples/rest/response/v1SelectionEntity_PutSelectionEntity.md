@@ -3,7 +3,7 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse modular interface",
+  "Description": "Selection of contacts",
   "Postit": "necessitatibus",
   "Associate": null,
   "CreatedBy": null,

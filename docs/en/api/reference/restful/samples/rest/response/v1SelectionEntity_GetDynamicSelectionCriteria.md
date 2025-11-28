@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zemlak-Gulgowski",
+    "Name": "Q4 Prospects",
     "Operator": "facere",
     "Values": [
       "laborum",
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Jerde-Bechtelar",
+        "Name": "Q4 Prospects",
         "Operator": "blanditiis",
         "Values": [
           "totam",

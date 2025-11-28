@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 373,
-  "Name": "Schmidt, Graham and Barton",
-  "Tooltip": "et",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
   "Rank": 282,
   "UdListDefinitionId": 856,

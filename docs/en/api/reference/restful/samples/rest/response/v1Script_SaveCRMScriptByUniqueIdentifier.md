@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UniqueIdentifier": "facere",
-  "Name": "Wiza-Leuschke",
-  "Description": "Enhanced didactic extranet",
+  "Name": "Validation Script",
+  "Description": "Custom validation logic",
   "IncludeId": "possimus",
   "Source": "porro",
   "Registered": "2008-10-27T14:34:02.8492791+01:00",

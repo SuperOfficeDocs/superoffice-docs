@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 538,
-  "Name": "Luettgen, Sporer and Dach",
-  "Tooltip": "qui",
+  "Name": "Sales Targets",
+  "Tooltip": "Selection category",
   "Deleted": false,
   "UdListDefinitionId": 841,
   "Rank": 773,

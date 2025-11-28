@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 614,
     "Name": "Grimes LLC",
-    "Tooltip": "quia",
+    "Tooltip": "Selection category",
     "Deleted": false,
     "Rank": 755,
     "UdListDefinitionId": 488,
