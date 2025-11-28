@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
     {
       "HierarchyId": 781,
       "Domain": "Dashboards",
-      "Name": "Abernathy-Gleichner",
+      "Name": "Sales Department",
       "Fullname": "voluptatem",
       "ParentId": 50,
       "Children": [
