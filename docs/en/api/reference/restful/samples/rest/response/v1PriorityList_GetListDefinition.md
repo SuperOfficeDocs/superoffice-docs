@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 286,
-  "Name": "Wisozk-Lind",
-  "Tooltip": "nam",
+  "Name": "High",
+  "Tooltip": "Priority level",
   "Deleted": false,
   "Rank": 617,
   "IsCustomList": false,

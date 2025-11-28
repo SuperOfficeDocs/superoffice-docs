@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "ERPProductKey": "et",
   "ERPPriceListKey": "sunt",
   "Name": "Purdy Inc and Sons",
-  "Description": "Inverse neutral hub",
+  "Description": "Complete CRM solution",
   "Code": "deserunt",
   "PriceUnit": "ea",
   "QuantityUnit": "omnis",

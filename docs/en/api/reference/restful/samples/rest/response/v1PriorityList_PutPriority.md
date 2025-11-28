@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 215,
-  "Name": "Crist, Schoen and Stokes",
-  "Tooltip": "magni",
+  "Name": "Medium",
+  "Tooltip": "Priority level",
   "Deleted": false,
   "UdListDefinitionId": 717,
   "Rank": 209,

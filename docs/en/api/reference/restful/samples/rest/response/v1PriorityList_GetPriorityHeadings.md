@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 289,
     "Name": "Thompson Group",
-    "Tooltip": "consequuntur",
+    "Tooltip": "Priority level",
     "Deleted": true,
     "Rank": 23,
     "UdListDefinitionId": 413,

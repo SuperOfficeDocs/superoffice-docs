@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 306,
     "Name": "Wuckert Inc and Sons",
-    "Tooltip": "aperiam",
+    "Tooltip": "Priority level",
     "Deleted": true,
     "UdListDefinitionId": 482,
     "Rank": 317,

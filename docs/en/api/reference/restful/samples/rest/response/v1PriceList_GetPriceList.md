@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "ERPPriceListKey": "est",
   "QuoteConnectionId": 507,
   "Name": "Huel Group",
-  "Description": "Digitized radical model",
+  "Description": "Standard pricing for products",
   "Currency": "explicabo",
   "CurrencyName": "Kertzmann-Kozey",
   "ValidFrom": "2024-04-13T14:34:03.2674693+02:00",

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 71,
-  "Name": "Yost, Osinski and Nitzsche",
-  "Tooltip": "qui",
+  "Name": "Medium",
+  "Tooltip": "Priority level",
   "Deleted": false,
   "Rank": 372,
   "UdListDefinitionId": 776,
