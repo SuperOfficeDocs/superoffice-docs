@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatTopicId": 634,
-  "Name": "Blanda, Nienow and Mayer",
+  "Name": "Sales Inquiries",
   "Description": "Robust contextually-based protocol",
-  "WelcomeMessage": "iste",
+  "WelcomeMessage": "Welcome! How can we help you today?",
   "Language": null,
   "LastAccept": "2000-11-05T14:34:01.6805288+01:00",
   "SecondsPrAccept": 456,

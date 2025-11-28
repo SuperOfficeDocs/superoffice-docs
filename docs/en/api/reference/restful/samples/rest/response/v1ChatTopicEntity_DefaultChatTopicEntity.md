@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatTopicId": 551,
-  "Name": "Blick, Howe and Kirlin",
+  "Name": "Sales Inquiries",
   "Description": "Sharable 6th generation adapter",
-  "WelcomeMessage": "quo",
+  "WelcomeMessage": "Welcome! How can we help you today?",
   "Language": null,
   "LastAccept": "2009-07-01T14:34:01.6664917+02:00",
   "SecondsPrAccept": 51,

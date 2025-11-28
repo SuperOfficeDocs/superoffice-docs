@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatTopicId": 515,
-  "Name": "Keeling LLC",
-  "Description": "Ameliorated intermediate firmware",
-  "WelcomeMessage": "fuga",
+  "Name": "Technical Support",
+  "Description": "Chat topic for customer support",
+  "WelcomeMessage": "Welcome! How can we help you today?",
   "Language": null,
   "LastAccept": "2003-02-10T14:34:01.6775284+01:00",
   "SecondsPrAccept": 485,

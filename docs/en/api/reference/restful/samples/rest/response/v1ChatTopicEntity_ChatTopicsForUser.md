@@ -5,9 +5,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ChatTopicId": 520,
-    "Name": "Gottlieb-Durgan",
+    "Name": "General Support",
     "Description": "Grass-roots assymetric flexibility",
-    "WelcomeMessage": "doloribus",
+    "WelcomeMessage": "Welcome! How can we help you today?",
     "Language": null,
     "LastAccept": "2013-11-20T14:34:01.6845298+01:00",
     "SecondsPrAccept": 392,

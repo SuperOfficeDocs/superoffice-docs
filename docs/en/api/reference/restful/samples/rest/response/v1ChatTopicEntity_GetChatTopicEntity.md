@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatTopicId": 736,
-  "Name": "Turner-Heidenreich",
+  "Name": "General Support",
   "Description": "User-centric foreground complexity",
-  "WelcomeMessage": "harum",
+  "WelcomeMessage": "Welcome! How can we help you today?",
   "Language": null,
   "LastAccept": "2014-05-13T14:34:01.6734926+02:00",
   "SecondsPrAccept": 712,
