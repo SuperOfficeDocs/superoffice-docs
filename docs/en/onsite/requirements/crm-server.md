@@ -3,7 +3,7 @@ title: Requirements
 uid: crm_server_requirements
 description: System requirements for SuperOffice server
 author: SuperOffice Product and Engineering
-date: 28.11.2025
+date: 11.28.2025
 keywords:
 content_type: reference
 deployment: onsite
