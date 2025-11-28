@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HierarchyId": 509,
     "Domain": "Dashboards",
-    "Name": "Gislason-Lakin",
+    "Name": "Sales Department",
     "Fullname": "repellat",
     "ParentId": 509,
     "Children": [

@@ -5,14 +5,14 @@ Content-Type: application/json; charset=utf-8
 {
   "HierarchyId": 956,
   "Domain": "Dashboards",
-  "Name": "Smith-Parisian",
+  "Name": "Sales Department",
   "Fullname": "ut",
   "ParentId": 896,
   "Children": [
     {
       "HierarchyId": 193,
       "Domain": "Dashboards",
-      "Name": "Heller-Gorczany",
+      "Name": "Sales Department",
       "Fullname": "totam",
       "ParentId": 134,
       "Children": [
