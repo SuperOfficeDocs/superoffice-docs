@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 965,
   "Name": "Aufderhar Group",
-  "Tooltip": "velit",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "UdListDefinitionId": 687,
   "Rank": 611,

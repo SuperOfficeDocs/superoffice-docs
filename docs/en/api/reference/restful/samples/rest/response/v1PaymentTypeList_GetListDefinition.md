@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 701,
   "Name": "Hintz Group",
-  "Tooltip": "consequatur",
+  "Tooltip": "Payment method",
   "Deleted": false,
   "Rank": 20,
   "IsCustomList": true,

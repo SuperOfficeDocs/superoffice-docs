@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 201,
-  "Name": "Stehr-Hahn",
-  "Tooltip": "quasi",
+  "Name": "Mr.",
+  "Tooltip": "Title or salutation",
   "Deleted": false,
   "Rank": 506,
   "IsCustomList": false,

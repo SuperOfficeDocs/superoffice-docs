@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 26,
   "Name": "Bednar Inc and Sons",
-  "Tooltip": "aliquam",
+  "Tooltip": "Payment terms",
   "Deleted": true,
   "Rank": 661,
   "UdListDefinitionId": 551,

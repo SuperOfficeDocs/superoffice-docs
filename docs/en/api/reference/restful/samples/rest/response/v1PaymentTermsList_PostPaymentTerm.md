@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 491,
   "Name": "Emmerich, McCullough and Balistreri",
-  "Tooltip": "suscipit",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "UdListDefinitionId": 740,
   "Rank": 643,

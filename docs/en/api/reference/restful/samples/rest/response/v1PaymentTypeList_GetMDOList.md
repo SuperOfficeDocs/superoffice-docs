@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 610,
-    "Name": "Swaniawski, Weber and Dicki",
+    "Name": "Bank Transfer",
     "ToolTip": "Aut a et voluptas.",
     "Deleted": false,
     "Rank": 800,

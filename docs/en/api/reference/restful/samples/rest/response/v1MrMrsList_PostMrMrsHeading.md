@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 99,
-  "Name": "Nader, Dibbert and Fadel",
-  "Tooltip": "quibusdam",
+  "Name": "Ms.",
+  "Tooltip": "Title or salutation",
   "Deleted": false,
   "Rank": 715,
   "UdListDefinitionId": 272,

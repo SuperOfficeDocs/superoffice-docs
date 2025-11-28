@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 410,
   "Name": "Wintheiser LLC",
-  "Tooltip": "facilis",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "UdListDefinitionId": 342,
   "Rank": 957,

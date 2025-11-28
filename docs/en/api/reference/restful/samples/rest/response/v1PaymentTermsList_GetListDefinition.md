@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 333,
   "Name": "Schowalter Group",
-  "Tooltip": "consequatur",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "Rank": 275,
   "IsCustomList": false,

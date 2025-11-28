@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 675,
-        "Name": "Krajcik-Hoppe",
+        "Name": "Net 30",
         "ToolTip": "Reiciendis ipsum quia mollitia aperiam nesciunt dolores.",
         "Deleted": false,
         "Rank": 630,

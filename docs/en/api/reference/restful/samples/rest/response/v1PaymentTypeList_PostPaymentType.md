@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 980,
   "Name": "Goyette Group",
-  "Tooltip": "ut",
+  "Tooltip": "Payment method",
   "Deleted": false,
   "UdListDefinitionId": 141,
   "Rank": 436,

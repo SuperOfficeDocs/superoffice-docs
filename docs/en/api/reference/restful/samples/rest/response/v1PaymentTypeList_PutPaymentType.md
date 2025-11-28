@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 204,
   "Name": "Greenfelder LLC",
-  "Tooltip": "ut",
+  "Tooltip": "Payment method",
   "Deleted": false,
   "UdListDefinitionId": 207,
   "Rank": 649,

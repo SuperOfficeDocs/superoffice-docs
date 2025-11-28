@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 147,
     "Name": "Hodkiewicz Inc and Sons",
-    "Tooltip": "molestiae",
+    "Tooltip": "Payment method",
     "Deleted": true,
     "UdListDefinitionId": 396,
     "Rank": 807,

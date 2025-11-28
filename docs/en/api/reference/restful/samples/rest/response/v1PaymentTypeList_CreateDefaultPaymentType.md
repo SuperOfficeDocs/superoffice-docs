@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 316,
-  "Name": "Johnson-Rosenbaum",
-  "Tooltip": "odit",
+  "Name": "Credit Card",
+  "Tooltip": "Payment method",
   "Deleted": true,
   "UdListDefinitionId": 851,
   "Rank": 982,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 796,
   "Name": "Hammes Group",
-  "Tooltip": "consequatur",
+  "Tooltip": "Payment method",
   "Deleted": true,
   "UdListDefinitionId": 354,
   "Rank": 866,

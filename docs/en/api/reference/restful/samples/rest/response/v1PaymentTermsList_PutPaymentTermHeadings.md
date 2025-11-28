@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 484,
     "Name": "Kessler Group",
-    "Tooltip": "rem",
+    "Tooltip": "Payment terms",
     "Deleted": true,
     "Rank": 230,
     "UdListDefinitionId": 556,

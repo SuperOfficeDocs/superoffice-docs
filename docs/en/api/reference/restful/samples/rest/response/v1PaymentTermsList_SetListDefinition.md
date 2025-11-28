@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 616,
   "Name": "Cruickshank Inc and Sons",
-  "Tooltip": "autem",
+  "Tooltip": "Payment terms",
   "Deleted": false,
   "Rank": 200,
   "IsCustomList": false,

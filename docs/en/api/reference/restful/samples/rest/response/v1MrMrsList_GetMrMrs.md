@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 666,
   "Name": "Heathcote Group",
-  "Tooltip": "voluptatem",
+  "Tooltip": "Title or salutation",
   "Deleted": false,
   "UdListDefinitionId": 471,
   "Rank": 968,

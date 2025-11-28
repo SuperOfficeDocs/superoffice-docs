@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 12,
-    "Name": "Aufderhar-Lindgren",
-    "Tooltip": "est",
+    "Name": "Net 30",
+    "Tooltip": "Payment terms",
     "Deleted": false,
     "UdListDefinitionId": 368,
     "Rank": 31,
