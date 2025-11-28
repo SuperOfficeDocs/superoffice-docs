@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 268,
-    "Name": "Lang-Ortiz",
+    "Name": "Tech Giants Inc",
     "ToolTip": "Omnis placeat consequatur numquam aut.",
     "Deleted": false,
     "Rank": 539,
-    "Type": "praesentium",
+    "Type": "Competitor",
     "ColorBlock": 548,
     "IconHint": "unde",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 749,
-        "Name": "Price, Stoltenberg and Goyette",
+        "Name": "Global Solutions Ltd",
         "ToolTip": "Quia iusto.",
         "Deleted": true,
         "Rank": 455,
-        "Type": "est",
+        "Type": "Competitor",
         "ColorBlock": 730,
         "IconHint": "explicabo",
         "Selected": false,

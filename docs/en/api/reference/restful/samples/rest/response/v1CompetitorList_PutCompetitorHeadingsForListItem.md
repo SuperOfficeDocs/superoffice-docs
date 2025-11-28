@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 945,
-    "Name": "Boyle-Wolf",
+    "Name": "Tech Giants Inc",
     "ToolTip": "Rem eos.",
     "Deleted": true,
     "Rank": 947,
-    "Type": "a",
+    "Type": "Competitor",
     "ColorBlock": 114,
     "IconHint": "natus",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 325,
-        "Name": "Kozey-Schmeler",
+        "Name": "Tech Giants Inc",
         "ToolTip": "Maiores qui.",
         "Deleted": true,
         "Rank": 266,
-        "Type": "odio",
+        "Type": "Competitor",
         "ColorBlock": 170,
         "IconHint": "dignissimos",
         "Selected": false,

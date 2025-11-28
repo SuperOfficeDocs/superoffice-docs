@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 17,
-    "Name": "Lemke-Littel",
-    "Tooltip": "quia",
+    "Name": "Tech Giants Inc",
+    "Tooltip": "Competitor company",
     "Deleted": true,
     "Rank": 879,
     "UdListDefinitionId": 91,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 805,
-  "Name": "Wisoky-Kshlerin",
-  "Tooltip": "impedit",
+  "Name": "Tech Giants Inc",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "UdListDefinitionId": 801,
   "Rank": 710,

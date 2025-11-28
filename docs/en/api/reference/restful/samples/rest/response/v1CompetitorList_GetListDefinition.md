@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 996,
-  "Name": "Reichert-Yost",
-  "Tooltip": "totam",
+  "Name": "Tech Giants Inc",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "Rank": 251,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "Competitor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

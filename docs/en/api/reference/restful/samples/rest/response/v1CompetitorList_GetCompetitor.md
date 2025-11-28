@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 75,
   "Name": "Kub Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Tooltip": "Competitor company",
   "Deleted": true,
   "UdListDefinitionId": 814,
   "Rank": 955,

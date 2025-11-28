@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 745,
     "Name": "Gottlieb Inc and Sons",
-    "Tooltip": "dolorum",
+    "Tooltip": "Competitor company",
     "Deleted": false,
     "UdListDefinitionId": 899,
     "Rank": 543,

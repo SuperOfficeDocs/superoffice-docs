@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 133,
-  "Name": "Cormier, Konopelski and Boyer",
-  "Tooltip": "et",
+  "Name": "Global Solutions Ltd",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "Rank": 345,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
+  "ListType": "Competitor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
