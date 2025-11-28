@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 145,
-    "Name": "Jerde-Will",
-    "Tooltip": "consectetur",
+    "Name": "Express Delivery",
+    "Tooltip": "Delivery type",
     "Deleted": false,
     "Rank": 476,
     "UdListDefinitionId": 441,

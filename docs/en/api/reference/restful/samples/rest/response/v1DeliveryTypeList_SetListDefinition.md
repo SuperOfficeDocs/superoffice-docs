@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 672,
   "Name": "D'Amore-Jaskolski",
-  "Tooltip": "sint",
+  "Tooltip": "Delivery type",
   "Deleted": true,
   "Rank": 187,
   "IsCustomList": true,

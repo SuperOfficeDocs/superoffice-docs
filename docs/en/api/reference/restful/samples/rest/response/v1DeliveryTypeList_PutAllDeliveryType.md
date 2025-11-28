@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 943,
-    "Name": "Botsford-Shields",
-    "Tooltip": "minus",
+    "Name": "Express Delivery",
+    "Tooltip": "Delivery type",
     "Deleted": true,
     "UdListDefinitionId": 860,
     "Rank": 900,

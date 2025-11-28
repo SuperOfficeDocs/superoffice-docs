@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 854,
   "Name": "Heathcote Inc and Sons",
-  "Tooltip": "sunt",
+  "Tooltip": "Delivery type",
   "Deleted": true,
   "UdListDefinitionId": 568,
   "Rank": 478,

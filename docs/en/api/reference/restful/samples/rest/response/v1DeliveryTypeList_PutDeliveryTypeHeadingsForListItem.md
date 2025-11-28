@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 478,
-    "Name": "Hyatt, Bradtke and Carroll",
+    "Name": "Standard Shipping",
     "ToolTip": "Doloribus et aliquam sit veritatis.",
     "Deleted": false,
     "Rank": 191,

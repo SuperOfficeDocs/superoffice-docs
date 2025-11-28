@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 996,
   "Name": "Parisian Group",
-  "Tooltip": "sint",
+  "Tooltip": "Delivery type",
   "Deleted": true,
   "UdListDefinitionId": 675,
   "Rank": 549,
