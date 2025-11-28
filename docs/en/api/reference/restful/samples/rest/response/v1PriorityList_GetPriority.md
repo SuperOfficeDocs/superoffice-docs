@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 538,
-  "Name": "Wisoky, Rolfson and Jewess",
-  "Tooltip": "in",
+  "Name": "Medium",
+  "Tooltip": "Priority level",
   "Deleted": true,
   "UdListDefinitionId": 718,
   "Rank": 761,

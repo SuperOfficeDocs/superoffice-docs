@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PriceListId": 535,
   "ERPPriceListKey": "et",
   "QuoteConnectionId": 78,
-  "Name": "Hamill, Abshire and Hoeger",
+  "Name": "Volume Discount List",
   "Description": "Reverse-engineered analyzing secured line",
   "Currency": "consectetur",
   "CurrencyName": "Stiedemann-Quigley",

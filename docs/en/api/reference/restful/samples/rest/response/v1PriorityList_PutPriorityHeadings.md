@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 734,
     "Name": "Fahey LLC",
-    "Tooltip": "a",
+    "Tooltip": "Priority level",
     "Deleted": false,
     "Rank": 17,
     "UdListDefinitionId": 936,

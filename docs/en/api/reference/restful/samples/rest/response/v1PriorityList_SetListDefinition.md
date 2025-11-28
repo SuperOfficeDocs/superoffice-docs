@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 231,
-  "Name": "Littel-Wiegand",
-  "Tooltip": "voluptatem",
+  "Name": "High",
+  "Tooltip": "Priority level",
   "Deleted": false,
   "Rank": 459,
   "IsCustomList": true,

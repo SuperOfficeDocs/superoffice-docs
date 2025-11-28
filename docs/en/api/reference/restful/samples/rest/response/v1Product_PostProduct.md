@@ -6,8 +6,8 @@ Content-Type: application/json; charset=utf-8
   "ProductId": 546,
   "ERPProductKey": "fuga",
   "ERPPriceListKey": "sit",
-  "Name": "King, Runte and Carroll",
-  "Description": "Fundamental executive interface",
+  "Name": "Enterprise Package",
+  "Description": "Complete CRM solution",
   "Code": "rem",
   "PriceUnit": "velit",
   "QuantityUnit": "occaecati",
@@ -31,7 +31,7 @@ Content-Type: application/json; charset=utf-8
   "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Waters-Lehner",
+      "Name": "CRM Suite",
       "Value": "repellat",
       "Type": "Image",
       "TableRight": null,
@@ -44,7 +44,7 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Waters-Lehner",
+      "Name": "CRM Suite",
       "Value": "repellat",
       "Type": "Image",
       "TableRight": null,

@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 483,
   "Name": "Strosin Inc and Sons",
-  "Tooltip": "sit",
+  "Tooltip": "Priority level",
   "Deleted": false,
   "UdListDefinitionId": 46,
   "Rank": 73,

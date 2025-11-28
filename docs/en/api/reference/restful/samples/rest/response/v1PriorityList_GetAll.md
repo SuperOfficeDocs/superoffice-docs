@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 254,
     "Name": "Weber LLC",
-    "Tooltip": "vel",
+    "Tooltip": "Priority level",
     "Deleted": true,
     "UdListDefinitionId": 278,
     "Rank": 452,
