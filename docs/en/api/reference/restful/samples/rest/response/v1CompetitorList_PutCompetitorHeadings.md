@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 379,
-    "Name": "Thiel, Swaniawski and Halvorson",
-    "Tooltip": "quo",
+    "Name": "Global Solutions Ltd",
+    "Tooltip": "Competitor company",
     "Deleted": false,
     "Rank": 564,
     "UdListDefinitionId": 210,

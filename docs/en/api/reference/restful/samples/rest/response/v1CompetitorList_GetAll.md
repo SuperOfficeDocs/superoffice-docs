@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 905,
     "Name": "Windler Inc and Sons",
-    "Tooltip": "voluptatum",
+    "Tooltip": "Competitor company",
     "Deleted": true,
     "UdListDefinitionId": 145,
     "Rank": 535,

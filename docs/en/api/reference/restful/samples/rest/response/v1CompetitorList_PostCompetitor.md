@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 591,
   "Name": "Lindgren, Padberg and O'Keefe",
-  "Tooltip": "esse",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "UdListDefinitionId": 233,
   "Rank": 174,

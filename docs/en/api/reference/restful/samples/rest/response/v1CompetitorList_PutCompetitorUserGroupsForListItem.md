@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 52,
-    "Name": "Schuppe, Ondricka and Durgan",
+    "Name": "Global Solutions Ltd",
     "ToolTip": "Consequuntur aliquid illo ratione ea.",
     "Deleted": false,
     "Rank": 318,
-    "Type": "animi",
+    "Type": "Competitor",
     "ColorBlock": 281,
     "IconHint": "similique",
     "Selected": false,
@@ -21,7 +21,7 @@ Content-Type: application/json; charset=utf-8
         "ToolTip": "Aliquam et facilis sit assumenda.",
         "Deleted": true,
         "Rank": 388,
-        "Type": "voluptatem",
+        "Type": "Competitor",
         "ColorBlock": 189,
         "IconHint": "necessitatibus",
         "Selected": false,

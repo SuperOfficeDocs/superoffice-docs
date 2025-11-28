@@ -5,19 +5,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 228,
-    "Name": "Gibson-Kulas",
+    "Name": "Tech Giants Inc",
     "ToolTip": "Autem tempora commodi cum voluptatem provident.",
     "Deleted": false,
     "Rank": 805,
-    "Type": "ipsum",
+    "Type": "Competitor",
     "ChildItems": [
       {
         "Id": 898,
-        "Name": "Shanahan LLC",
+        "Name": "Innovation Corp",
         "ToolTip": "Non inventore exercitationem voluptatibus ex accusamus.",
         "Deleted": false,
         "Rank": 154,
-        "Type": "aliquam",
+        "Type": "Competitor",
         "ChildItems": [
           {},
           {}

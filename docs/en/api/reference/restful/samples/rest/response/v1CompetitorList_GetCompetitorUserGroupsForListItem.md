@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "ToolTip": "Eaque neque non ipsam corporis eligendi quasi quo.",
     "Deleted": true,
     "Rank": 285,
-    "Type": "ipsum",
+    "Type": "Competitor",
     "ColorBlock": 758,
     "IconHint": "corporis",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 730,
-        "Name": "Toy Group",
+        "Name": "Enterprise Systems",
         "ToolTip": "Doloribus quibusdam.",
         "Deleted": false,
         "Rank": 506,
-        "Type": "sequi",
+        "Type": "Competitor",
         "ColorBlock": 628,
         "IconHint": "non",
         "Selected": false,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 845,
-  "Name": "Romaguera, Wolf and Gorczany",
-  "Tooltip": "dolores",
+  "Name": "Global Solutions Ltd",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "Rank": 175,
   "UdListDefinitionId": 599,

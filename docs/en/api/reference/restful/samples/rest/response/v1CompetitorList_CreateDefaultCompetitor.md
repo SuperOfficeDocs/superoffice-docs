@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 100,
-  "Name": "Abbott-Boehm",
-  "Tooltip": "quisquam",
+  "Name": "Tech Giants Inc",
+  "Tooltip": "Competitor company",
   "Deleted": false,
   "UdListDefinitionId": 737,
   "Rank": 157,
