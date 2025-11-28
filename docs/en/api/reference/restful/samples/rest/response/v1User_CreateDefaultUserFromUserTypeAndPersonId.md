@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 474,
       "ExtraInfo": "quasi",
       "StyleHint": "corporis",
-      "FullName": "Claudia Boehm",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

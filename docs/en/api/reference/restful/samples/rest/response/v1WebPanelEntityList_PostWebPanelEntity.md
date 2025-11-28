@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "WebPanelId": 388,
-  "Name": "Gerlach-Swift",
+  "Name": "Customer Portal",
   "Tooltip": "quasi",
   "Deleted": false,
   "Rank": 520,

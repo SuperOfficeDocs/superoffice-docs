@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 435,
     "Name": "Baumbach Inc and Sons",
-    "Tooltip": "rerum",
+    "Tooltip": "User group",
     "Deleted": false,
     "Rank": 62,
     "UdListDefinitionId": 430,

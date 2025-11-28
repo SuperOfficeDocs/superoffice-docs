@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 437,
       "ExtraInfo": "voluptates",
       "StyleHint": "ut",
-      "FullName": "Malachi Johns",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

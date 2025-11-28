@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 491,
   "Name": "Blick LLC",
-  "Tooltip": "doloribus",
+  "Tooltip": "User group",
   "Deleted": false,
   "Rank": 971,
   "IsCustomList": false,

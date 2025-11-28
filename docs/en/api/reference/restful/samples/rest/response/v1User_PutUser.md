@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 457,
       "ExtraInfo": "sunt",
       "StyleHint": "quo",
-      "FullName": "Earnest Klocko",
+      "FullName": "John Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

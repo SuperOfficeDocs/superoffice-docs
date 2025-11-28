@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 853,
-    "Name": "Yundt-Hayes",
+    "Name": "Customer Portal",
     "Tooltip": "nostrum",
     "Deleted": false,
     "Rank": 798,

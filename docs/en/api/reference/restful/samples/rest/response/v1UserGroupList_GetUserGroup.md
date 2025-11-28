@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Value": "enim",
-  "Tooltip": "officiis",
+  "Tooltip": "User group",
   "Id": 326,
   "Rank": 581,
   "Deleted": false,

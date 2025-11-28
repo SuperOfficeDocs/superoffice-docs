@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Value": "cum",
-    "Tooltip": "dolore",
+    "Tooltip": "User group",
     "Id": 892,
     "Rank": 305,
     "Deleted": false,
