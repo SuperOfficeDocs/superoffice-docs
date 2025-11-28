@@ -291,6 +291,18 @@ public string Sign(string nonce, string privateKey)
 
 Once the `AuthenticateResponse` is sent back to SuperOffice and validated, the data flow cycle begins. See the [Mirroring Task][1] article for more details about the mirroring processing.
 
+## Message: Could not establish trust relationship
+
+Message: Could not establish trust relationship for the SSL/TLS secure channel with authority 'website of their mirror client'.
+
+This error indicates that the SuperOffice mirroring service is unable to validate the SSL certificate presented by the mirror client website. This is often due to one of the following reasons:
+
+* The mirror client website is using a self-signed certificate. In this case, the certificate must be installed in the Trusted Root Certification Authorities store on the SuperOffice mirroring server.
+
+* The mirror client website is using a certificate issued by a Certificate Authority (CA) that is not trusted by the SuperOffice mirroring server. In this case, the CA's root certificate must be installed in the Trusted Root Certification Authorities store on the SuperOffice mirroring server.
+
+* The mirror client website's certificate has expired or is not yet valid. In this case, the certificate must be renewed or replaced with a valid certificate.
+
 <!-- reference links -->
 [0]: ../../api/authentication/online/certificates/index.md
 [1]: mirroring-task.md
