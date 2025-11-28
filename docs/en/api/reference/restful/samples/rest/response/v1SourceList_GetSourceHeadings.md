@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 188,
-    "Name": "Aufderhar, Metz and Stanton",
-    "Tooltip": "explicabo",
+    "Name": "Trade Show",
+    "Tooltip": "Lead source",
     "Deleted": false,
     "Rank": 492,
     "UdListDefinitionId": 332,

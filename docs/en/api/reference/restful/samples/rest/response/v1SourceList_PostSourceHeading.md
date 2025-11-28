@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 476,
   "Name": "Hessel Inc and Sons",
-  "Tooltip": "dolores",
+  "Tooltip": "Lead source",
   "Deleted": false,
   "Rank": 61,
   "UdListDefinitionId": 669,

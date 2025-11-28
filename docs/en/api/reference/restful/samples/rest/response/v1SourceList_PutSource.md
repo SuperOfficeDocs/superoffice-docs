@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 579,
   "Name": "Pagac Inc and Sons",
-  "Tooltip": "possimus",
+  "Tooltip": "Lead source",
   "Deleted": true,
   "UdListDefinitionId": 767,
   "Rank": 419,

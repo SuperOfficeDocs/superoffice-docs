@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 454,
   "Name": "D'Amore Inc and Sons",
-  "Tooltip": "facere",
+  "Tooltip": "Lead source",
   "Deleted": true,
   "UdListDefinitionId": 960,
   "Rank": 638,

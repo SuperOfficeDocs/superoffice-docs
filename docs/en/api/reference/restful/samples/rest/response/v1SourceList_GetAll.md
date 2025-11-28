@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 229,
-    "Name": "Streich-Barrows",
-    "Tooltip": "ipsa",
+    "Name": "Website",
+    "Tooltip": "Lead source",
     "Deleted": true,
     "UdListDefinitionId": 831,
     "Rank": 156,

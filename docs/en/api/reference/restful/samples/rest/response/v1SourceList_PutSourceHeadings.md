@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 819,
     "Name": "Dooley Group",
-    "Tooltip": "ex",
+    "Tooltip": "Lead source",
     "Deleted": false,
     "Rank": 66,
     "UdListDefinitionId": 280,
