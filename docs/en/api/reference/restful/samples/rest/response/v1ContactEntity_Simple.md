@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 876,
-  "Name": "Johnson-Gorczany",
+  "Name": "TechCorp Solutions",
   "OrgNr": "1073848",
-  "Department": "",
+  "Department": "Sales",
   "URL": "http://www.example.com/",
   "City": "qui",
   "DirectPhone": "1-809-523-9005 x6723",

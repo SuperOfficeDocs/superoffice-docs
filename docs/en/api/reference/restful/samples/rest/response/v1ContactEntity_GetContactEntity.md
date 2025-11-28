@@ -5,8 +5,8 @@ Last-Modified: Sun, 02 Feb 2003 14:34:01 G2T
 
 {
   "ContactId": 912,
-  "Name": "Hills-Schuster",
-  "Department": "",
+  "Name": "TechCorp Solutions",
+  "Department": "Sales",
   "OrgNr": "608698",
   "Number1": "1158970",
   "Number2": "553902",
@@ -43,7 +43,7 @@ Last-Modified: Sun, 02 Feb 2003 14:34:01 G2T
   "Interests": [
     {
       "Id": 53,
-      "Name": "Johnson LLC",
+      "Name": "Innovation Systems",
       "ToolTip": "Vel doloremque excepturi.",
       "Deleted": false,
       "Rank": 566,
@@ -129,7 +129,7 @@ Last-Modified: Sun, 02 Feb 2003 14:34:01 G2T
   "Faxes": [
     {
       "Value": "totam",
-      "StrippedValue": "quia",
+      "StrippedValue": "www.acmecorp.com",
       "Description": "Sharable fault-tolerant solution",
       "TableRight": null,
       "FieldProperties": {
@@ -142,7 +142,7 @@ Last-Modified: Sun, 02 Feb 2003 14:34:01 G2T
     },
     {
       "Value": "totam",
-      "StrippedValue": "quia",
+      "StrippedValue": "www.acmecorp.com",
       "Description": "Sharable fault-tolerant solution",
       "TableRight": null,
       "FieldProperties": {
@@ -230,7 +230,7 @@ Last-Modified: Sun, 02 Feb 2003 14:34:01 G2T
   "DbiLastModified": "2016-07-26T14:34:01.7525885+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 301,
+  "Source": 1,
   "ActiveErpLinks": 470,
   "BounceEmails": [
     "jettie@nicolas.info",

@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herman, Mueller and Kuhn",
+    "Name": "Global Industries Ltd",
     "DisplayName": "Dare, Blanda and Klocko",
     "DisplayTooltip": "voluptate",
     "IsActive": true,
@@ -18,7 +18,7 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Name": "Herman, Mueller and Kuhn",
+    "Name": "Global Industries Ltd",
     "DisplayName": "Dare, Blanda and Klocko",
     "DisplayTooltip": "voluptate",
     "IsActive": true,
