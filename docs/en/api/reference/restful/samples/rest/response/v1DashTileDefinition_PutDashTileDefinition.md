@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardTileDefinitionId": 84,
   "Name": "Goodwin Group",
-  "Description": "Advanced bifurcated collaboration",
+  "Description": "Dashboard tile for sales data",
   "DefaultHeight": 101,
   "DefaultWidth": 151,
   "TileType": "Area",

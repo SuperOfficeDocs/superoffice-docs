@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileDefinitionId": 167,
-  "Name": "Stanton, Volkman and Hilpert",
+  "Name": "Activity Summary",
   "Description": "Monitored systematic knowledge base",
   "DefaultHeight": 546,
   "DefaultWidth": 846,
