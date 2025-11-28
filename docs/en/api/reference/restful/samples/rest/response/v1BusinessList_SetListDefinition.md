@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 116,
-  "Name": "Buckridge, Leuschke and Witting",
-  "Tooltip": "et",
+  "Name": "Business",
+  "Tooltip": "Business classification list",
   "Deleted": false,
   "Rank": 292,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "Business",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

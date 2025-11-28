@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 150,
-    "Name": "Upton, Erdman and Jacobs",
-    "ToolTip": "Unde non quae.",
+    "Name": "Enterprise",
+    "ToolTip": "Enterprise level businesses",
     "Deleted": false,
     "Rank": 20,
-    "Type": "et",
+    "Type": "Business",
     "ColorBlock": 936,
     "IconHint": "ipsa",
     "Selected": false,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 736,
-        "Name": "Labadie-Schaden",
+        "Name": "Small Business",
         "ToolTip": "Deleniti reprehenderit sint quia et.",
         "Deleted": false,
         "Rank": 275,

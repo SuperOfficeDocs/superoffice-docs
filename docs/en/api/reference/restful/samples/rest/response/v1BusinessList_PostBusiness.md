@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 665,
-  "Name": "Wuckert-Bauch",
-  "Tooltip": "accusamus",
+  "Name": "Healthcare",
+  "Tooltip": "Healthcare and medical services",
   "Deleted": false,
   "UdListDefinitionId": 38,
   "Rank": 1002,

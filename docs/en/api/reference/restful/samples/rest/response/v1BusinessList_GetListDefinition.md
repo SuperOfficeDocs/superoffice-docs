@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 634,
-  "Name": "Beier-Braun",
-  "Tooltip": "unde",
+  "Name": "Business",
+  "Tooltip": "Business type classification list",
   "Deleted": false,
   "Rank": 331,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "Business",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
