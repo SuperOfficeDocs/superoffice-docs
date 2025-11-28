@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "LegalBaseId": 881,
   "Name": "Hand LLC",
-  "Tooltip": "hic",
+  "Tooltip": "Legal basis for data processing",
   "Rank": 23,
   "Key": "in",
   "Deleted": true,

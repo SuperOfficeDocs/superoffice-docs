@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "LegalBaseId": 588,
-    "Name": "Johns-Greenfelder",
-    "Tooltip": "quae",
+    "Name": "Consent Given",
+    "Tooltip": "Legal basis for data processing",
     "Rank": 614,
     "Key": "temporibus",
     "Deleted": false,

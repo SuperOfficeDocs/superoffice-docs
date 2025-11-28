@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 730,
-    "Name": "Kuhic, Boehm and Steuber",
+    "Name": "Legitimate Interest",
     "ToolTip": "Nam voluptatum voluptas.",
     "Deleted": false,
     "Rank": 928,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 653,
-        "Name": "Donnelly-Schneider",
+        "Name": "Consent Given",
         "ToolTip": "Amet et ducimus asperiores et et voluptatem assumenda.",
         "Deleted": true,
         "Rank": 789,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 781,
-  "Name": "Heaney, Keeling and Miller",
-  "Tooltip": "minima",
+  "Name": "Legitimate Interest",
+  "Tooltip": "Legal basis for data processing",
   "Deleted": true,
   "Rank": 394,
   "IsCustomList": false,

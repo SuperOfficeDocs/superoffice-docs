@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "LegalBaseId": 819,
   "Name": "Koepp Group",
-  "Tooltip": "voluptate",
+  "Tooltip": "Legal basis for data processing",
   "Rank": 689,
   "Key": "qui",
   "Deleted": true,
