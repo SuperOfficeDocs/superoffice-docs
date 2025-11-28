@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ut",
-  "Tooltip": "doloremque",
-  "Id": 525,
-  "Rank": 346,
-  "Deleted": true,
+  "Value": "Project Team",
+  "Tooltip": "Project management team group",
+  "Id": 4,
+  "Rank": 4,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

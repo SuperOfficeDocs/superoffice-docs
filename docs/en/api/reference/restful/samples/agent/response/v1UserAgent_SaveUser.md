@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 194,
-  "Name": "Gusikowski, Stoltenberg and Goldner",
-  "Rank": 300,
-  "Tooltip": "est",
+  "AssociateId": 16,
+  "Name": "Sarah Johnson",
+  "Rank": 2,
+  "Tooltip": "Support Agent - Tech Corporation",
   "LicenseOwners": [
     {
-      "Name": "Prohaska-Romaguera",
-      "Description": "Synergized modular service-desk",
+      "Name": "Tech Corporation",
+      "Description": "Support and service licenses",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -29,8 +29,8 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Prohaska-Romaguera",
-      "Description": "Synergized modular service-desk",
+      "Name": "Tech Corporation",
+      "Description": "Support and service licenses",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-01-12T10:11:01.7631089+01:00",
-  "Lastlogout": "2015-02-17T10:11:01.7631089+01:00",
-  "EjUserId": 409,
-  "RequestSignature": "tenetur",
-  "Type": "AnonymousAssociate",
+  "Lastlogin": "2024-11-20T09:15:00+01:00",
+  "Lastlogout": "2024-11-19T17:30:00+01:00",
+  "EjUserId": 16,
+  "RequestSignature": "SJ-2024",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "numquam",
-      "DisplayValue": "fuga",
+      "Value": "sarah.johnson",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "Type": null,
-      "Value": "numquam",
-      "DisplayValue": "fuga",
+      "Value": "sarah.johnson",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -105,12 +105,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "UserName": "Stanton Inc and Sons",
+  "UserName": "sarah.johnson",
   "TicketCategories": [
     {
-      "Id": 573,
-      "Name": "Schmeler-Heaney",
-      "ToolTip": "Ea ad ipsum.",
+      "Id": 2,
+      "Name": "Customer Service",
+      "ToolTip": "General customer service requests",
       "Deleted": false,
       "Rank": 73,
       "Type": "quia",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 261,
       "ExtraInfo": "explicabo",
       "StyleHint": "velit",
-      "FullName": "Mrs. Vergie Runolfsdottir Sr.",
+      "FullName": "Customer Service",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "NickName": "Dickinson Group",
-  "WaitingForApproval": true,
+  "NickName": "SarahJ",
+  "WaitingForApproval": false,
   "ExtraFields": {
     "ExtraFields1": "et",
     "ExtraFields2": "nihil"

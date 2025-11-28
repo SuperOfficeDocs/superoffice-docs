@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "officia",
-    "Type": "illum",
-    "Description": "Versatile empowering emulation",
+    "DisplayType": "ActiveDirectory",
+    "Type": "ActiveDirectory",
+    "Description": "Windows Active Directory authentication",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

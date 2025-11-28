@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 707,
-  "Name": "Gutmann, Runte and O'Keefe",
-  "Rank": 481,
-  "Tooltip": "harum",
+  "AssociateId": 18,
+  "Name": "Lisa Martinez",
+  "Rank": 4,
+  "Tooltip": "Marketing Manager - Tech Corporation",
   "LicenseOwners": [
     {
       "Name": "O'Conner-Pollich",
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-01-04T10:11:01.787424+01:00",
-  "Lastlogout": "2009-02-13T10:11:01.787424+01:00",
-  "EjUserId": 25,
-  "RequestSignature": "sint",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "Lastlogin": "2024-11-18T10:00:00+01:00",
+  "Lastlogout": "2024-11-15T18:00:00+01:00",
+  "EjUserId": 18,
+  "RequestSignature": "LM-2024",
+  "Type": "InternalAssociate",
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iure",
-      "DisplayValue": "quod",
+      "Value": "lisa.martinez",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

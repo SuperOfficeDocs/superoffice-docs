@@ -3,11 +3,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "aut",
-  "Tooltip": "et",
-  "Id": 939,
-  "Rank": 297,
-  "Deleted": true,
+  "Value": "Sales Team",
+  "Tooltip": "Sales department group",
+  "Id": 1,
+  "Rank": 1,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

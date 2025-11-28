@@ -3,14 +3,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 73,
-  "Name": "Stokes-Jacobs",
-  "Rank": 333,
-  "Tooltip": "sint",
+  "AssociateId": 17,
+  "Name": "Michael Brown",
+  "Rank": 3,
+  "Tooltip": "Manager - Acme Corporation",
   "LicenseOwners": [
     {
-      "Name": "Kassulke-Armstrong",
-      "Description": "Synergistic grid-enabled artificial intelligence",
+      "Name": "Acme Corporation",
+      "Description": "Sales and management licenses",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -29,8 +29,8 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "Name": "Kassulke-Armstrong",
-      "Description": "Synergistic grid-enabled artificial intelligence",
+      "Name": "Acme Corporation",
+      "Description": "Sales and management licenses",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -69,19 +69,19 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2004-05-10T10:11:01.787424+02:00",
-  "Lastlogout": "2011-07-16T10:11:01.787424+02:00",
-  "EjUserId": 103,
-  "RequestSignature": "eligendi",
-  "Type": "AnonymousAssociate",
+  "Deleted": false,
+  "Lastlogin": "2024-11-19T16:45:00+01:00",
+  "Lastlogout": "2024-11-18T18:30:00+01:00",
+  "EjUserId": 17,
+  "RequestSignature": "MB-2024",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "perspiciatis",
-      "DisplayValue": "necessitatibus",
+      "Value": "michael.brown",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

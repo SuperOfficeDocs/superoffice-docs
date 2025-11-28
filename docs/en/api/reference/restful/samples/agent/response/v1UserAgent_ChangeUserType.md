@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 35,
-  "Name": "Carroll Group",
-  "Rank": 244,
-  "Tooltip": "et",
+  "AssociateId": 19,
+  "Name": "David Wilson",
+  "Rank": 5,
+  "Tooltip": "System Administrator",
   "LicenseOwners": [
     {
       "Name": "Cummerata Group",
@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-04-28T10:11:01.6939042+02:00",
-  "Lastlogout": "2003-09-01T10:11:01.6939042+02:00",
-  "EjUserId": 922,
-  "RequestSignature": "numquam",
-  "Type": "AnonymousAssociate",
+  "Lastlogin": "2024-11-20T08:00:00+01:00",
+  "Lastlogout": "2024-11-19T19:00:00+01:00",
+  "EjUserId": 19,
+  "RequestSignature": "DW-2024",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [

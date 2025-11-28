@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 120,
-    "Name": "Weimann-Reichel",
-    "Rank": 854,
-    "Tooltip": "omnis",
+    "AssociateId": 15,
+    "Name": "John Anderson",
+    "Rank": 1,
+    "Tooltip": "Sales Representative - Acme Corporation",
     "LicenseOwners": [
       {
         "Name": "Mertz, Conroy and Johnson",
@@ -71,18 +71,18 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2000-02-25T10:11:01.8378455+01:00",
-    "Lastlogout": "2012-03-25T10:11:01.8378455+02:00",
-    "EjUserId": 720,
-    "RequestSignature": "veniam",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": true,
+    "Lastlogin": "2024-11-20T14:30:00+01:00",
+    "Lastlogout": "2024-11-20T18:45:00+01:00",
+    "EjUserId": 15,
+    "RequestSignature": "JA-2024",
+    "Type": "InternalAssociate",
+    "IsPersonRetired": false,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "sint",
-        "DisplayValue": "aut",
+        "Value": "john.anderson",
+        "DisplayValue": "SuperOffice Password",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {

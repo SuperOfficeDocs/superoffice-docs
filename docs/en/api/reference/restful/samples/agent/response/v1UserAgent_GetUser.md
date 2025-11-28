@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 508,
-  "Name": "Keebler LLC",
-  "Rank": 456,
-  "Tooltip": "excepturi",
+  "AssociateId": 15,
+  "Name": "John Anderson",
+  "Rank": 1,
+  "Tooltip": "Sales Representative - Acme Corporation",
   "LicenseOwners": [
     {
       "Name": "Baumbach, Turcotte and Gusikowski",
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2025-06-07T10:11:01.7813211+02:00",
-  "Lastlogout": "2019-12-23T10:11:01.7813211+01:00",
-  "EjUserId": 103,
-  "RequestSignature": "voluptatem",
-  "Type": "AnonymousAssociate",
+  "Lastlogin": "2024-11-20T14:30:00+01:00",
+  "Lastlogout": "2024-11-20T18:45:00+01:00",
+  "EjUserId": 15,
+  "RequestSignature": "JA-2024",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "error",
+      "Value": "john.anderson",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     },
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "error",
+      "Value": "john.anderson",
+      "DisplayValue": "SuperOffice Password",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -105,12 +105,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "UserName": "Upton Inc and Sons",
+  "UserName": "john.anderson",
   "TicketCategories": [
     {
       "Id": 661,
-      "Name": "Carter, O'Keefe and Cronin",
-      "ToolTip": "Id vel aut.",
+      "Name": "Technical Support",
+      "ToolTip": "Support ticket category",
       "Deleted": true,
       "Rank": 503,
       "Type": "est",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "ColorBlock": 539,
       "ExtraInfo": "velit",
       "StyleHint": "neque",
-      "FullName": "Robyn Fadel",
+      "FullName": "Technical Support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "NickName": "VonRueden Inc and Sons",
+  "NickName": "JohnA",
   "WaitingForApproval": false,
   "ExtraFields": {
     "ExtraFields1": "repudiandae",

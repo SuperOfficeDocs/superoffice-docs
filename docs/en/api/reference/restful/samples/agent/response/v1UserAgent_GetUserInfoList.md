@@ -5,23 +5,23 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 16,
-    "UserName": "Schneider, Ledner and Ortiz",
-    "PersonId": 589,
-    "Rank": 916,
-    "Tooltip": "iste",
-    "UserGroupId": 714,
-    "EjUserId": 716,
-    "UserType": "AnonymousAssociate",
+    "UserInfoId": 15,
+    "UserName": "john.anderson",
+    "PersonId": 15,
+    "Rank": 1,
+    "Tooltip": "Sales Representative",
+    "UserGroupId": 1,
+    "EjUserId": 15,
+    "UserType": "InternalAssociate",
     "GrantedLicenses": [
-      "sit",
-      "odit"
+      "Sales",
+      "Marketing"
     ],
-    "CanLogon": false,
-    "RoleName": "Connelly-Ratke",
-    "RoleTooltip": "quos",
-    "UserGroupName": "Windler, Thiel and Schumm",
-    "UserGroupTooltip": "ducimus",
+    "CanLogon": true,
+    "RoleName": "Sales Representative",
+    "RoleTooltip": "Standard sales user role",
+    "UserGroupName": "Sales Team",
+    "UserGroupTooltip": "Sales department group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

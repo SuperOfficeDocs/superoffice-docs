@@ -4,10 +4,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quia",
-    "Tooltip": "quia",
-    "Id": 183,
-    "Rank": 585,
+    "Value": "Support Team",
+    "Tooltip": "Customer support team group",
+    "Id": 2,
+    "Rank": 2,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {

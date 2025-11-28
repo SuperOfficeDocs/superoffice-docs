@@ -3,12 +3,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 818,
-  "Server": "qui",
-  "Port": 869,
-  "AuthType": "reiciendis",
-  "Username": "libero",
-  "Password": "eveniet",
+  "ServiceAuthId": 0,
+  "Server": "",
+  "Port": 0,
+  "AuthType": "",
+  "Username": "",
+  "Password": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

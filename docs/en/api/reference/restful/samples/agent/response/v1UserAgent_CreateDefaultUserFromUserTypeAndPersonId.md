@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 781,
-  "Name": "Schneider-Will",
-  "Rank": 830,
-  "Tooltip": "sequi",
+  "AssociateId": 0,
+  "Name": "",
+  "Rank": 0,
+  "Tooltip": "",
   "LicenseOwners": [
     {
       "Name": "Cummerata-Metz",
@@ -70,13 +70,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2000-10-30T10:11:01.8198399+01:00",
-  "Lastlogout": "2009-11-08T10:11:01.8198399+01:00",
-  "EjUserId": 220,
-  "RequestSignature": "fugit",
-  "Type": "AnonymousAssociate",
+  "Lastlogin": "2024-01-01T00:00:00+01:00",
+  "Lastlogout": "2024-01-01T00:00:00+01:00",
+  "EjUserId": 0,
+  "RequestSignature": "",
+  "Type": "InternalAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,

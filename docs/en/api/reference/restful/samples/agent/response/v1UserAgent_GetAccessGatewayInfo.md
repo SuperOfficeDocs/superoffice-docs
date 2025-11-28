@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "molestias",
-  "RedirectUri": "quasi",
+  "ClientId": "superoffice-client-app",
+  "RedirectUri": "https://app.superoffice.com/oauth/callback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "excepturi",
-    "Type": "officiis",
-    "Description": "Versatile global access",
+    "DisplayType": "SuperOffice",
+    "Type": "SuperOffice",
+    "Description": "SuperOffice password authentication",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

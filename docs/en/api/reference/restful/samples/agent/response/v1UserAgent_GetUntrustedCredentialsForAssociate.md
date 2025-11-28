@@ -4,12 +4,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2004-04-09T10:11:01.787424+02:00",
-    "ValidTo": "1999-04-04T10:11:01.787424+02:00",
-    "Comment": "et",
-    "SecretValue": "ratione",
-    "PublicValue": "sapiente",
-    "IsActive": false,
+    "ValidFrom": "2024-06-01T00:00:00+02:00",
+    "ValidTo": "2025-06-01T00:00:00+02:00",
+    "Comment": "External API integration",
+    "SecretValue": "********",
+    "PublicValue": "ext-api-key-xyz789",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

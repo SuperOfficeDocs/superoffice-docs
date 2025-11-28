@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "temporibus",
-  "Result": "Cancel",
+  "Message": "Export completed successfully",
+  "Result": "Success",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

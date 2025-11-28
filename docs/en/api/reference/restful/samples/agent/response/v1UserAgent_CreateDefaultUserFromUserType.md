@@ -3,10 +3,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 714,
-  "Name": "Hansen, Dickens and Heidenreich",
-  "Rank": 474,
-  "Tooltip": "ducimus",
+  "AssociateId": 0,
+  "Name": "",
+  "Rank": 0,
+  "Tooltip": "",
   "LicenseOwners": [
     {
       "Name": "Langosh, Miller and Smitham",
@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-11-28T10:11:01.8298392+01:00",
-  "Lastlogout": "2004-11-15T10:11:01.8298392+01:00",
-  "EjUserId": 283,
-  "RequestSignature": "corrupti",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "Deleted": false,
+  "Lastlogin": "2024-01-01T00:00:00+01:00",
+  "Lastlogout": "2024-01-01T00:00:00+01:00",
+  "EjUserId": 0,
+  "RequestSignature": "",
+  "Type": "InternalAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
