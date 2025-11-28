@@ -182,11 +182,13 @@ Kun **ejeren** af et dashboard kan slette det.
 
 * [Opret et nyt dashboard eller dupliker et eksisterende][1]
 * [Rediger et dashboard][3]
+* [Overfør et dashboard til en medarbejder][4]
 * [Tilføj ruder / rediger layout][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

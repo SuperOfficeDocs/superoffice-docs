@@ -4,8 +4,8 @@ title: Een dashboard aanpassen
 description: Leer hoe u dashboards in SuperOffice CRM hernoemt, instelt of verwijdert. Pas de lay-out, kolommen en zichtbaarheid aan uw wensen aan.
 keywords: dashboard bewerken, dashboard verwijderen, dashboard kolommen, dashboard, tegel, opmaak
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,13 +33,22 @@ U kunt de naam, beschrijving, lay-out of zichtbaarheid van een bestaand dashboar
     * Pas het aantal **kolommen** aan
     * Als u de juiste rechten hebt, werk de velden **Zichtbaar voor** en **Vastmaken aan** bij
 
-    > [!NOTE]
-    > Degene die het dashboard heeft gemaakt, is de **eigenaar**. Eigenaarschap kan later niet worden gewijzigd.
-
 1. Klik op **Opslaan**.
 
 > [!NOTE]
 > Als u het aantal kolommen wijzigt, worden de tegels automatisch herschikt. Er worden geen tegels verwijderd, maar het raster kan anders worden ingedeeld, wat lege plekken kan veroorzaken. U kunt de tegels daarna handmatig verplaatsen of aanpassen.
+
+## <a id="owner"></a>Eigenaarschap overdragen
+
+Als eigenaar of beheerder kunt u het eigenaarschap van een dashboard overdragen aan een andere gebruiker.
+
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Dashboarddetails bewerken**.
+
+1. Selecteer in **Eigenaar** de nieuwe eigenaar.
+
+    ![Het dialoogvenster Dashboarddetails bewerken met de Eigenaar-lijst uitgeklapt om beschikbare gebruikers te tonen -screenshot][img1]
+
+1. Klik op **Opslaan**.
 
 ## Tegels en opmaak bewerken
 
@@ -51,7 +60,7 @@ Zo voegt u tegels toe, verplaatst u ze of verwijdert u ze:
 
 ## <a id="delete"></a>Een dashboard verwijderen
 
-Alleen de **eigenaar** van een dashboard kan het verwijderen. Zelfs beheerders kunnen geen dashboards van anderen verwijderen. Eigenaarschap kan niet worden overgedragen.
+Alleen de **eigenaar** van een dashboard, een algemene beheerder of een dashboardbeheerder kan een dashboard verwijderen.
 
 1. Open het scherm **Dashboard**.
 1. Selecteer het dashboard dat u wilt verwijderen.
@@ -69,3 +78,6 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen. Zelfs beheerders k
 <!-- Referenced links -->
 [1]: create.md
 [2]: working-with-tiles.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/transfer-dashboard-to-new-owner.png

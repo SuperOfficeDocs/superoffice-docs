@@ -183,10 +183,12 @@ Only the **owner** of a dashboard can delete it.
 * [Create a new dashboard or duplicate an existing one][1]
 * [Edit dashboard settings][3]
 * [Edit dashboard tiles][6]
+* [Transfer a dashboard to an associate][4]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

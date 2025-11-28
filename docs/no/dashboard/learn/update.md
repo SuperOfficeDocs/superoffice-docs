@@ -4,8 +4,8 @@ title: Tilpass dashbordet ditt
 description: Lær hvordan du omdøper, konfigurerer og sletter dashbord i SuperOffice CRM. Tilpass layout, kolonner og synlighetsinnstillinger etter dine behov.
 keywords: rediger dashbord, slett dashbord, dashbordkolonner, dashbord, figur, flis, layout
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 12.02.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,13 +33,22 @@ Du kan endre navn, beskrivelse, layout eller synlighet for et eksisterende dashb
     * Juster antall **kolonner**
     * Hvis du har de nødvendige funksjonelle rettighetene, kan du oppdatere feltene **Synlig for** og **Fest til**
 
-    > [!NOTE]
-    > Personen som oppretter dashbordet er **eier**. Eierforholdet kan ikke endres senere.
-
 1. Klikk på **Lagre**.
 
 > [!NOTE]
 > Hvis du endrer antall kolonner, blir figurene automatisk justert for det nye oppsettet. Ingen figurer blir slettet, men layouten kan få tomme mellomrom. Du kan flytte eller endre størrelsen på figurene etterpå for å forbedre visningen.
+
+## <a id="owner"></a>Overføre eierforhold
+
+Som eier eller administrator kan du overføre eierskapet til et dashbord til en annen bruker.
+
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Rediger dashborddetaljer**.
+
+1. I **Eier** velger du den nye eieren.
+
+    ![Dialogboksen Rediger dashborddetaljer med Eier-listen utvidet for å vise tilgjengelige brukere -screenshot][img1]
+
+1. Klikk på **Lagre**.
 
 ## Rediger figurer og layout
 
@@ -51,7 +60,7 @@ Slik legger du til, flytter, redigerer eller fjerner figurer:
 
 ## <a id="delete"></a>Slett et dashbord
 
-Bare **eieren** av et dashbord kan slette det. Selv administratorer kan ikke slette dashbord de ikke eier. Eierforholdet kan ikke overføres.
+Bare **eieren** av et dashbord, en generell administrator eller en dashbordadministrator kan slette et dashbord.
 
 1. Åpne skjermbildet **Dashbord**.
 1. Velg dashbordet du vil slette.
@@ -69,3 +78,6 @@ Bare **eieren** av et dashbord kan slette det. Selv administratorer kan ikke sle
 <!-- Referenced links -->
 [1]: create.md
 [2]: working-with-tiles.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/transfer-dashboard-to-new-owner.png

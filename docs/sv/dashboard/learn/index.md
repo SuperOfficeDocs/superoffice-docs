@@ -182,11 +182,13 @@ Endast **ägaren** av ett dashboard kan ta bort det.
 
 * [Skapa ett nytt dashboard eller duplicera ett befintlig][1]
 * [Redigera ett dashboard][3]
+* [Överför ett dashboard till en medarbetare][4]
 * [Redigera paneler][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
+[4]: update.md#owner
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
