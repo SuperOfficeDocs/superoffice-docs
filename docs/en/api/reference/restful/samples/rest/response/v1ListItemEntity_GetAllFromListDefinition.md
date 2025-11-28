@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 978,
-    "Name": "Wilderman-Heller",
+    "Name": "List Item",
     "Tooltip": "nesciunt",
     "Deleted": false,
     "UdListDefinitionId": 518,

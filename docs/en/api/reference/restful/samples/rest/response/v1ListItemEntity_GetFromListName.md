@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 941,
-  "Name": "Mante, Donnelly and Nader",
+  "Name": "Custom Item",
   "Tooltip": "repellendus",
   "Deleted": true,
   "UdListDefinitionId": 19,

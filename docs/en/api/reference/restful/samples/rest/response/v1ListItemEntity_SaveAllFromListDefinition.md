@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 416,
-    "Name": "Metz, Little and Rippin",
+    "Name": "Custom Item",
     "Tooltip": "non",
     "Deleted": false,
     "UdListDefinitionId": 245,

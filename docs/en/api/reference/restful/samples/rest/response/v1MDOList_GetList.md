@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 509,
-        "Name": "Cassin, Lindgren and Schimmel",
+        "Name": "MDO Entry",
         "ToolTip": "Sed assumenda qui voluptates consequatur est enim molestias.",
         "Deleted": true,
         "Rank": 626,

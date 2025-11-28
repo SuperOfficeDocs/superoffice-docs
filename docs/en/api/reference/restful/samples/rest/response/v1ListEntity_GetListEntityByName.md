@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 638,
-  "Name": "Reichert, Doyle and Treutel",
+  "Name": "User Defined List",
   "Tooltip": "deserunt",
   "Deleted": false,
   "Rank": 564,

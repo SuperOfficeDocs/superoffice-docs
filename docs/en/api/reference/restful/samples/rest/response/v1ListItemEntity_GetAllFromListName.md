@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 524,
-    "Name": "Lakin, Leuschke and Jacobson",
+    "Name": "Custom Item",
     "Tooltip": "eum",
     "Deleted": false,
     "UdListDefinitionId": 853,

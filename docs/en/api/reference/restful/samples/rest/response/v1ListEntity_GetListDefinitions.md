@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 642,
-    "Name": "Beahan-Bayer",
+    "Name": "Custom List",
     "Tooltip": "animi",
     "Deleted": false,
     "Rank": 108,

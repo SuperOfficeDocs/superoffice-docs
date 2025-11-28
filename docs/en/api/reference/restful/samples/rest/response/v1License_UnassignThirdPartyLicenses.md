@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "IsHidden": false,
     "Assigned": false,
     "ModuleLicenseId": 534,
-    "Name": "Willms, Runte and Beer",
+    "Name": "Professional License",
     "Description": "User-centric stable monitoring",
     "PrerequisiteModuleName": "Medhurst, Beahan and Mann",
     "SortOrder": 735,

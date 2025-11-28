@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 182,
-  "Name": "Armstrong-Bayer",
+  "Name": "List Item",
   "Tooltip": "amet",
   "Deleted": false,
   "UdListDefinitionId": 6,

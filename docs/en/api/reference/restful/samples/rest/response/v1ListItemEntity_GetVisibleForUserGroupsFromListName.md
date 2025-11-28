@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 532,
-        "Name": "Marks, Kunze and Bednar",
+        "Name": "Custom Item",
         "ToolTip": "Sint maxime doloremque quis aut.",
         "Deleted": false,
         "Rank": 170,
