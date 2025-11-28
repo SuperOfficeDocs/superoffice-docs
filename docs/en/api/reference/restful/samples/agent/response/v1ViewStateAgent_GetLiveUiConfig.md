@@ -3,8 +3,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsEnabled": false,
-  "PollingInterval": 960,
+  "IsEnabled": true,
+  "PollingInterval": 30000,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
