@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 39,
   "Name": "Bauch Group",
-  "Tooltip": "et",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 537,
   "UdListDefinitionId": 141,

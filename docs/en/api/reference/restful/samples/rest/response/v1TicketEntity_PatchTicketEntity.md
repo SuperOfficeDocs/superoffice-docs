@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 393,
-  "Title": "et",
+  "Title": "Customer Support Request",
   "CreatedAt": "1999-11-25T14:34:02.5084956+01:00",
   "LastChanged": "2011-09-28T14:34:02.5084956+02:00",
   "ReadByOwner": "2023-09-28T14:34:02.5084956+02:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Orpha",
       "Lastname": "Glover",
       "MiddleName": "Fritsch-Berge",
-      "Title": "rerum",
+      "Title": "Customer Support Request",
       "Description": "Networked 4th generation system engine",
       "Email": "alanna@batz.info",
       "FullName": "Ms. Chloe Amya Reichel MD",

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 139,
-  "Name": "Skiles-Gulgowski",
-  "Tooltip": "dolor",
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 249,
   "IsCustomList": true,

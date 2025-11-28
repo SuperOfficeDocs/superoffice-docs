@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Type": "Html",
   "MessageId": "autem",
   "TimeSpent": 550,
-  "Body": "debitis",
+  "Body": "Thank you for contacting support. We will review your request.",
   "HtmlBody": "unde",
   "EmailHeader": "ethyl@anderson.info",
   "DebugInfo": "ut",

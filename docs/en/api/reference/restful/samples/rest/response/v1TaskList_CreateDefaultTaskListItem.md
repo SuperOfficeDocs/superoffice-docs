@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "Value": "incidunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "omnis",
+  "Tooltip": "Task type",
   "Deleted": false,
   "IntentId": 7,
   "Rank": 619,

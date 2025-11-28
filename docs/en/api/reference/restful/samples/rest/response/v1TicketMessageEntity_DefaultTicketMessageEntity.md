@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Type": "Html",
   "MessageId": "esse",
   "TimeSpent": 762,
-  "Body": "ad",
+  "Body": "Thank you for contacting support. We will review your request.",
   "HtmlBody": "cupiditate",
   "EmailHeader": "billie_ohara@runtefarrell.us",
   "DebugInfo": "repellat",

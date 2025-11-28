@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 218,
-  "Name": "Weber-Rempel",
+  "Name": "Service Request",
   "Rank": 241,
   "Tooltip": "laboriosam",
   "Icon": "asperiores",

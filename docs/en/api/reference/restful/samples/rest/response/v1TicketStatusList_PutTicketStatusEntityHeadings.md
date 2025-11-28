@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 161,
     "Name": "Kozey Inc and Sons",
-    "Tooltip": "quidem",
+    "Tooltip": "Ticket classification",
     "Deleted": true,
     "Rank": 83,
     "UdListDefinitionId": 693,

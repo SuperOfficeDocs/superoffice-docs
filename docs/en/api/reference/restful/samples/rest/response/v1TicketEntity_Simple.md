@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 123,
-  "Title": "sint",
+  "Title": "Customer Support Request",
   "CreatedAt": "2004-04-27T14:34:02.5380049+02:00",
   "LastChanged": "2002-03-14T14:34:02.5380049+01:00",
   "ReadByOwner": "2024-01-11T14:34:02.5380049+01:00",

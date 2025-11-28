@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 831,
-    "Name": "Mueller, Kohler and Zulauf",
+    "Name": "Meeting",
     "ToolTip": "Tenetur dolore aut exercitationem.",
     "Deleted": false,
     "Rank": 590,

@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 661,
-  "Name": "Kris-Kling",
+  "Name": "Service Request",
   "Rank": 131,
   "Tooltip": "facere",
   "Icon": "labore",

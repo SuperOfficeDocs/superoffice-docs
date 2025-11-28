@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 389,
-  "Name": "Haag, Jacobi and Stamm",
+  "Name": "Sales Inquiry",
   "Rank": 230,
-  "Tooltip": "recusandae",
+  "Tooltip": "Ticket classification",
   "Icon": "reprehenderit",
   "DefaultTicketStatus": 587,
   "TicketStatuses": [

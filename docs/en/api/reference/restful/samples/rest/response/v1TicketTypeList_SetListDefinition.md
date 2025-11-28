@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 125,
   "Name": "Hagenes Inc and Sons",
-  "Tooltip": "qui",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 515,
   "IsCustomList": true,

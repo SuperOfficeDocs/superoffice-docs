@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 148,
-    "Name": "Roob, Moore and Cartwright",
-    "Tooltip": "qui",
+    "Name": "Sales Inquiry",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
     "Rank": 486,
     "UdListDefinitionId": 429,

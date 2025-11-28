@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 600,
-  "Title": "voluptatem",
+  "Title": "Customer Support Request",
   "CreatedAt": "2012-05-16T14:34:02.4868327+02:00",
   "LastChanged": "2002-03-15T14:34:02.4868327+01:00",
   "ReadByOwner": "2008-02-01T14:34:02.4868327+01:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Houston",
       "Lastname": "Roberts",
       "MiddleName": "Bayer-Stoltenberg",
-      "Title": "ea",
+      "Title": "Customer Support Request",
       "Description": "Reactive scalable info-mediaries",
       "Email": "cordia@russel.com",
       "FullName": "Bernadine Miller",

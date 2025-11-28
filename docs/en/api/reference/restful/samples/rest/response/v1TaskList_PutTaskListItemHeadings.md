@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 863,
     "Name": "Beer Group",
-    "Tooltip": "nulla",
+    "Tooltip": "Task type",
     "Deleted": false,
     "Rank": 897,
     "UdListDefinitionId": 267,

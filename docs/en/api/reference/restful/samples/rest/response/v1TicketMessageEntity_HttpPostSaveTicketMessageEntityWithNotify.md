@@ -12,7 +12,7 @@ Content-Type: application/json; charset=utf-8
   "Type": "Html",
   "MessageId": "quia",
   "TimeSpent": 166,
-  "Body": "sit",
+  "Body": "Thank you for contacting support. We will review your request.",
   "HtmlBody": "molestiae",
   "EmailHeader": "sylvia@nicolas.name",
   "DebugInfo": "perspiciatis",

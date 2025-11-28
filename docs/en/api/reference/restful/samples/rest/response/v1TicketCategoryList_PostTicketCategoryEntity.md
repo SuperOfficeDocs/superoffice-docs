@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "TicketCategoryId": 637,
   "ParentId": 517,
-  "Name": "Lebsack-Weimann",
+  "Name": "Technical Support",
   "Fullname": "aperiam",
   "CategoryMaster": 473,
   "Flags": "AcceptWhenReplying",

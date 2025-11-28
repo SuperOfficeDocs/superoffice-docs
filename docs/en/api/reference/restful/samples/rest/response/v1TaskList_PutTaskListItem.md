@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "Value": "dolorem",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "facere",
+  "Tooltip": "Task type",
   "Deleted": true,
   "IntentId": 802,
   "Rank": 514,

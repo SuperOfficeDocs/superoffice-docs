@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketPriorityId": 250,
-  "Name": "Jaskolski-Larson",
+  "Name": "Technical Support",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
   "SortOrder": 801,

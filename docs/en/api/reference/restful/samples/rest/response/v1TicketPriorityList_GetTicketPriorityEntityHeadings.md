@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 68,
     "Name": "Ortiz LLC",
-    "Tooltip": "et",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
     "Rank": 552,
     "UdListDefinitionId": 824,

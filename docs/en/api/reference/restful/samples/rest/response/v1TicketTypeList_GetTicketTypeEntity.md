@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketTypeId": 233,
-  "Name": "Carter, Bartoletti and Thiel",
+  "Name": "Sales Inquiry",
   "Rank": 748,
-  "Tooltip": "et",
+  "Tooltip": "Ticket classification",
   "Icon": "qui",
   "DefaultTicketStatus": 895,
   "TicketStatuses": [

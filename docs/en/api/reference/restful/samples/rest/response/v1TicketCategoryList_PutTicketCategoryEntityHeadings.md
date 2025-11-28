@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 876,
-    "Name": "Champlin-Greenfelder",
-    "Tooltip": "molestias",
+    "Name": "Technical Support",
+    "Tooltip": "Ticket classification",
     "Deleted": false,
     "Rank": 878,
     "UdListDefinitionId": 994,

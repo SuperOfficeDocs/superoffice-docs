@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketStatusId": 908,
-  "Name": "Oberbrunner-Kutch",
+  "Name": "Technical Support",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,

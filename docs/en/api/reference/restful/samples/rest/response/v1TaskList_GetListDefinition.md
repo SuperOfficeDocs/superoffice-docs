@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 102,
-  "Name": "Gutmann-Oberbrunner",
-  "Tooltip": "fuga",
+  "Name": "Phone Call",
+  "Tooltip": "Task type",
   "Deleted": false,
   "Rank": 526,
   "IsCustomList": false,

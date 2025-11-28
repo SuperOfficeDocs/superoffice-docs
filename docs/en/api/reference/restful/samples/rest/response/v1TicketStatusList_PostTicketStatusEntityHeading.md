@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 837,
-  "Name": "Schneider, Barton and Williamson",
-  "Tooltip": "ut",
+  "Name": "Sales Inquiry",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 336,
   "UdListDefinitionId": 667,

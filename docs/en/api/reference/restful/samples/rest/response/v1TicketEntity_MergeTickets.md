@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketId": 569,
-  "Title": "quidem",
+  "Title": "Customer Support Request",
   "CreatedAt": "1999-03-14T14:34:02.5246655+01:00",
   "LastChanged": "2025-05-25T14:34:02.5246655+02:00",
   "ReadByOwner": "2004-11-12T14:34:02.5246655+01:00",
@@ -34,7 +34,7 @@ Content-Type: application/json; charset=utf-8
       "Firstname": "Abdiel",
       "Lastname": "Walsh",
       "MiddleName": "Rice, Simonis and Schumm",
-      "Title": "excepturi",
+      "Title": "Customer Support Request",
       "Description": "Proactive multi-state workforce",
       "Email": "flavio_maggio@marksmclaughlin.com",
       "FullName": "Dr. Lera Libbie Bergnaum PhD",

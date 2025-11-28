@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 228,
-  "Name": "Nicolas-Ankunding",
-  "Tooltip": "provident",
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 852,
   "IsCustomList": true,

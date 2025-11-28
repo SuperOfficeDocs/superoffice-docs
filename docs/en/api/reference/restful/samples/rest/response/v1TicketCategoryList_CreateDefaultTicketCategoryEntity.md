@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "TicketCategoryId": 765,
   "ParentId": 409,
-  "Name": "Beier, Jast and Predovic",
+  "Name": "Sales Inquiry",
   "Fullname": "minima",
   "CategoryMaster": 154,
   "Flags": "AcceptWhenReplying",

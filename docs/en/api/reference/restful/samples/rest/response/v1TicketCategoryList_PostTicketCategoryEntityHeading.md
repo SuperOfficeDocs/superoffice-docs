@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 549,
-  "Name": "Jacobs-Hartmann",
-  "Tooltip": "autem",
+  "Name": "Technical Support",
+  "Tooltip": "Ticket classification",
   "Deleted": false,
   "Rank": 585,
   "UdListDefinitionId": 756,
