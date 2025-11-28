@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignAppId": 672,
-  "Name": "Harris, Hauck and Volkman",
+  "Name": "Google Sync",
   "CreatedDate": "2025-09-13T14:34:02.0027636+02:00",
   "UpdatedDate": "2019-12-24T14:34:02.0027636+01:00",
   "CreatedBy": null,
