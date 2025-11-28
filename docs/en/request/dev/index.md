@@ -3,17 +3,15 @@ uid: request-overview
 title: Requests
 description: How to manage requests and enquiries in SuperOffice - create internal and external requests; respond to incoming enquiries; obtain an overview of the statuses of all requests in the CRM system.
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation, reply template, parse
-author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: concept
 index: true
 redirect_from: /en/request/overview
 ---
 
 # Requests
-
-![Request screen -screenshot][img1]
 
 [!include[License requirement](../../../../common/includes/req-service-essentials.md)]
 
@@ -237,6 +235,3 @@ Some parser variables that exist will not be described. These are present only f
 [23]: ../../knowledge-base/learn/reply-templates/template-variables.md#user
 [24]: ../../knowledge-base/learn/reply-templates/template-variables.md#ticket
 [25]: ../../knowledge-base/learn/reply-templates/template-variables.md#config
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-screen.png

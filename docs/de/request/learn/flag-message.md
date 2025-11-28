@@ -3,9 +3,9 @@ uid: help-de-request-message-flag
 title: Nachrichten nachverfolgen
 description: So behalten Sie den Überblick über Nachrichten in einer Anfrage
 keywords: Anfrage, Nachricht, Markierung, Kennzeichnung, Flagge
-author: Hanne Gunnarsson
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
@@ -32,6 +32,8 @@ Um das Auffinden und Sortieren mehrerer Nachrichten in einer Anfrage zu erleicht
 1. Wechseln Sie zur Registerkarte **Nachrichten**.
 1. Klicken Sie oben rechts auf die **Filterliste** und wählen Sie einen Filter aus. Die Nachrichten werden entsprechend gefiltert.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Verwandte Inhalte
 
 * [Anfrage erstellen][2]
@@ -43,3 +45,6 @@ Um das Auffinden und Sortieren mehrerer Nachrichten in einer Anfrage zu erleicht
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png

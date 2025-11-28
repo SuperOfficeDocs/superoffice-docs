@@ -3,9 +3,9 @@ uid: help-en-request-reply
 title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
 keywords: reply to request, reply, reply all, add message, add comment, comment, internal, external
-author: Bergfrid Dias, Kirsti Aakerholt
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person

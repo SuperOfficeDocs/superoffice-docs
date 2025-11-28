@@ -3,9 +3,9 @@ uid: help-da-request-message-flag
 title: Hold styr på meddelelser
 description: Hold styr på meddelelser
 keywords: sag, meddelelse, flag
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
@@ -32,6 +32,8 @@ Hvis du vil gøre det nemmere at finde og sortere flere meddelelser i en sag, ka
 1. Klik på fanen **Meddelelser**.
 1. Klik på filterlisten i øverste højre hjørne, og vælg et filter. Meddelelserne filtreres.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Relateret indhold
 
 * [Opret sag][2]
@@ -43,3 +45,6 @@ Hvis du vil gøre det nemmere at finde og sortere flere meddelelser i en sag, ka
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png

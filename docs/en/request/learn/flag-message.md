@@ -3,9 +3,9 @@ uid: help-en-request-message-flag
 title: Keep track of messages
 description: Keep track of messages
 keywords: request, message, flag
-author: Hanne Gunnarsson
-date: 01.15.2025
-version: 10.5.1
+author: digitaldiina
+date: 11.28.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: person
@@ -32,6 +32,8 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 1. Click the **Messages** tab.
 1. In the upper right corner, click the filter list and select a filter. The messages are filtered.
 
+![Options to filter list of messages on a request -screenshot][img1]
+
 ## Related content
 
 * [Create request][2]
@@ -43,3 +45,6 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/filter-messages.png
