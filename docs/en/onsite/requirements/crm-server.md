@@ -3,7 +3,7 @@ title: Requirements
 uid: crm_server_requirements
 description: System requirements for SuperOffice server
 author: SuperOffice Product and Engineering
-date: 09.12.2023
+date: 28.11.2025
 keywords:
 content_type: reference
 deployment: onsite
@@ -17,6 +17,7 @@ See also requirements for [IIS][2].
 
 ## Server Operating System
 
+* Microsoft Windows Server 2025
 * Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
@@ -35,7 +36,7 @@ See also requirements for [IIS][2].
 
 ## Distribution
 
-* All windows client files (MSI) are installed on the server along with the database configuration tool *dbsetup.exe*.
+* All Windows client files (MSI) are installed on the server along with the database configuration tool *dbsetup.exe*.
 
 ## Disk space
 
