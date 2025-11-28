@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 222,
     "Name": "Kirlin Group",
-    "Tooltip": "illo",
+    "Tooltip": "Legal basis for data processing",
     "Deleted": false,
     "Rank": 675,
     "UdListDefinitionId": 17,

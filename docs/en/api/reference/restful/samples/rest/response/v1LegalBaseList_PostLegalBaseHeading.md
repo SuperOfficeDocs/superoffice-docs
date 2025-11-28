@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 509,
   "Name": "Kling Inc and Sons",
-  "Tooltip": "debitis",
+  "Tooltip": "Legal basis for data processing",
   "Deleted": true,
   "Rank": 129,
   "UdListDefinitionId": 968,

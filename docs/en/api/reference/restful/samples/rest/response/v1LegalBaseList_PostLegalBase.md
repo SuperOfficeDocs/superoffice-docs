@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "LegalBaseId": 237,
   "Name": "Spinka Inc and Sons",
-  "Tooltip": "non",
+  "Tooltip": "Legal basis for data processing",
   "Rank": 93,
   "Key": "corporis",
   "Deleted": false,

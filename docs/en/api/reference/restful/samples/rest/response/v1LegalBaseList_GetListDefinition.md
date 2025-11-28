@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 353,
-  "Name": "Hudson-Eichmann",
-  "Tooltip": "soluta",
+  "Name": "Consent Given",
+  "Tooltip": "Legal basis for data processing",
   "Deleted": false,
   "Rank": 54,
   "IsCustomList": false,

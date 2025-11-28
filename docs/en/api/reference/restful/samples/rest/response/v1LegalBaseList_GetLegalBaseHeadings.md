@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 115,
-    "Name": "Watsica-Price",
-    "Tooltip": "qui",
+    "Name": "Consent Given",
+    "Tooltip": "Legal basis for data processing",
     "Deleted": false,
     "Rank": 591,
     "UdListDefinitionId": 772,
