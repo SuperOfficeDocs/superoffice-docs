@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
   "CustomerEmail": "alden_kertzmann@bradtke.uk",
   "CustomerPhone": "199.086.6755 x73848",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Kirlin, Koepp and Carroll",
+  "CustomerCompanyName": "Customer Company",
   "Status": "Closed",
   "FirstMessage": "dolorum",
   "LastMessage": "sapiente",

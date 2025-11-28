@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
   "CustomerEmail": "margaret@windlergaylord.ca",
   "CustomerPhone": "867-995-7771",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Denesik, Weber and Ortiz",
+  "CustomerCompanyName": "Customer Company",
   "Status": "Closed",
   "FirstMessage": "ut",
   "LastMessage": "impedit",

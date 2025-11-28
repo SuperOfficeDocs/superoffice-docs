@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
   "CustomerEmail": "yessenia@sengerking.biz",
   "CustomerPhone": "1-978-564-1247 x261",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Altenwerth, Runolfsson and Gorczany",
+  "CustomerCompanyName": "Customer Company",
   "Status": "Closed",
   "FirstMessage": "aut",
   "LastMessage": "nihil",

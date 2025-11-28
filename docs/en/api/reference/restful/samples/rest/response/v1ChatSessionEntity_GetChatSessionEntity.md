@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "CustomerAlias": "voluptates",
   "CustomerHost": "aperiam",
-  "CustomerName": "Frami, Effertz and Murray",
+  "CustomerName": "Customer Name",
   "CustomerEmail": "maximo@brakus.com",
   "CustomerPhone": "456.951.3506 x848",
   "CustomerConsented": true,
