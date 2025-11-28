@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 21,
-  "Name": "Upton, Jerde and Berge",
-  "Tooltip": "delectus",
+  "Name": "Manufacturing",
+  "Tooltip": "Manufacturing and production",
   "Deleted": false,
   "UdListDefinitionId": 947,
   "Rank": 968,

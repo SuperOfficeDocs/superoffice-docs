@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 985,
-  "Name": "Swift Group",
-  "Tooltip": "dolor",
+  "Name": "Technology",
+  "Tooltip": "Technology sector businesses",
   "Deleted": false,
   "UdListDefinitionId": 21,
   "Rank": 353,

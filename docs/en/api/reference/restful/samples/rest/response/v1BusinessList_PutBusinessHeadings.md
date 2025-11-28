@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 527,
-    "Name": "Abbott, Windler and Schiller",
-    "Tooltip": "molestias",
+    "Name": "Corporate",
+    "Tooltip": "Corporate business type",
     "Deleted": false,
     "Rank": 651,
     "UdListDefinitionId": 278,

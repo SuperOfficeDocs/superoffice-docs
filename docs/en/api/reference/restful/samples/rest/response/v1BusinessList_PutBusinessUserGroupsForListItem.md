@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 777,
-    "Name": "Goldner, Murphy and Johnson",
-    "ToolTip": "Nihil animi dolorem ea.",
+    "Name": "Support Team",
+    "ToolTip": "Support team access group",
     "Deleted": false,
     "Rank": 117,
-    "Type": "et",
+    "Type": "Business",
     "ColorBlock": 218,
     "IconHint": "praesentium",
     "Selected": false,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 148,
-        "Name": "Stamm Group",
+        "Name": "Development Team",
         "ToolTip": "Voluptas iusto.",
         "Deleted": false,
         "Rank": 612,

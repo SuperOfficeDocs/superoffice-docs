@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 503,
-    "Name": "Bins-Wunsch",
-    "Tooltip": "aliquam",
+    "Name": "Consulting",
+    "Tooltip": "Consulting and advisory services",
     "Deleted": false,
     "UdListDefinitionId": 758,
     "Rank": 518,

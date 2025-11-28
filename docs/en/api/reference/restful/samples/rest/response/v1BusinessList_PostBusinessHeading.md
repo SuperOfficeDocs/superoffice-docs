@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 571,
-  "Name": "Crist-Schamberger",
-  "Tooltip": "illum",
+  "Name": "Services",
+  "Tooltip": "Professional services",
   "Deleted": true,
   "Rank": 624,
   "UdListDefinitionId": 702,

@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 700,
-    "Name": "Reichert, Okuneva and Hane",
-    "ToolTip": "Voluptate deserunt possimus minus rerum.",
+    "Name": "Sales Team",
+    "ToolTip": "Sales team access group",
     "Deleted": true,
     "Rank": 543,
-    "Type": "quos",
+    "Type": "UserGroup",
     "ColorBlock": 832,
     "IconHint": "sed",
     "Selected": false,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 10,
-        "Name": "Barrows Inc and Sons",
+        "Name": "Marketing Team",
         "ToolTip": "Enim sit itaque ad.",
         "Deleted": false,
         "Rank": 597,

@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 19,
-    "Name": "Fritsch Group",
-    "Tooltip": "explicabo",
+    "Name": "Finance",
+    "Tooltip": "Financial services sector",
     "Deleted": true,
     "UdListDefinitionId": 200,
     "Rank": 112,

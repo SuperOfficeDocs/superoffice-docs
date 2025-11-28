@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 714,
-  "Name": "Jenkins LLC",
-  "Tooltip": "quia",
+  "Name": "Real Estate",
+  "Tooltip": "Real estate and property",
   "Deleted": true,
   "UdListDefinitionId": 518,
   "Rank": 54,

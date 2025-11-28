@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 261,
-    "Name": "Spinka-Kshlerin",
-    "Tooltip": "fugiat",
+    "Name": "Industry Sector",
+    "Tooltip": "Industry sector classification",
     "Deleted": true,
     "Rank": 516,
     "UdListDefinitionId": 874,
