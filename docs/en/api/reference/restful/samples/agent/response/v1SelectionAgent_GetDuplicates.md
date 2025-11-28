@@ -4,11 +4,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bode Inc and Sons",
+    "RuleName": "CompanyNameAndDepartment",
     "SoPrimaryKey": 529,
-    "EntryName": "Schultz, Kuphal and Feest",
-    "EntryIdentifier": "impedit",
-    "RuleDisplayName": "Wunsch Group",
+    "EntryName": "Acme Corporation",
+    "EntryIdentifier": "acme-corp",
+    "RuleDisplayName": "Company Name and Department",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -4,48 +4,48 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pagac LLC",
-    "Description": "Front-line real-time budgetary management",
-    "Rank": 747,
+    "Name": "Geographic and Business Filters",
+    "Description": "Combined geographic and business criteria",
+    "Rank": 1,
     "Restrictions": [
       {
-        "Name": "Bergnaum, Treutel and Hand",
-        "Operator": "voluptas",
+        "Name": "Country",
+        "Operator": "oneOf",
         "Values": [
-          "qui",
-          "sed"
+          "Norway",
+          "Sweden",
+          "Denmark"
         ],
         "DisplayValues": [
-          "ea",
-          "voluptas"
+          "Norway",
+          "Sweden",
+          "Denmark"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 160,
+        "InterParenthesis": 0,
         "InterOperator": "And",
-        "UniqueHash": 765
+        "UniqueHash": 1024
       }
     ]
   },
   {
-    "Name": "Pagac LLC",
-    "Description": "Front-line real-time budgetary management",
-    "Rank": 747,
+    "Name": "Revenue Criteria",
+    "Description": "Filter by company revenue",
+    "Rank": 2,
     "Restrictions": [
       {
-        "Name": "Bergnaum, Treutel and Hand",
-        "Operator": "voluptas",
+        "Name": "Revenue",
+        "Operator": "greaterThan",
         "Values": [
-          "qui",
-          "sed"
+          "50000"
         ],
         "DisplayValues": [
-          "ea",
-          "voluptas"
+          "$50,000"
         ],
         "ColumnInfo": null,
         "IsActive": false,

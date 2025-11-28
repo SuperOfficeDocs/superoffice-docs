@@ -3,17 +3,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 581,
-  "EntityType": "None",
-  "AssociateId": 293,
-  "SelectionId": 235,
+  "BoardViewSettingsId": 45,
+  "EntityType": "Sale",
+  "AssociateId": 12,
+  "SelectionId": 127,
   "HideEmptyGroups": true,
-  "GroupBy": "cum",
-  "SubGroupBy": "natus",
-  "SortBy": "fuga",
-  "SortDesc": false,
-  "SumBy": "inventore",
-  "ColorBy": "eveniet",
-  "Filters": "distinctio"
+  "GroupBy": "stage",
+  "SubGroupBy": "probability",
+  "SortBy": "amount",
+  "SortDesc": true,
+  "SumBy": "amount",
+  "ColorBy": "probability",
+  "Filters": ""
 }
 ```

@@ -4,44 +4,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stamm, Waters and Kunze",
-    "Operator": "quidem",
+    "Name": "Industry",
+    "Operator": "oneOf",
     "Values": [
-      "harum",
-      "et"
+      "Technology",
+      "Manufacturing"
     ],
     "DisplayValues": [
-      "enim",
-      "est"
+      "Technology",
+      "Manufacturing"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Kutch, Kuhn and Erdman",
-        "Operator": "non",
+        "Name": "LastActivity",
+        "Operator": "lessThan",
         "Values": [
-          "corrupti",
-          "omnis"
+          "90"
         ],
         "DisplayValues": [
-          "explicabo",
-          "rerum"
+          "Last 90 days"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 21,
+        "InterParenthesis": 0,
         "InterOperator": "And",
-        "UniqueHash": 353
+        "UniqueHash": 3072
       }
     ],
-    "InterParenthesis": 882,
+    "InterParenthesis": 0,
     "InterOperator": "And",
-    "UniqueHash": 661
+    "UniqueHash": 2560
   }
 ]
 ```

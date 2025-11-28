@@ -4,29 +4,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jaskolski Group",
-    "Operator": "ab",
+    "Name": "Revenue",
+    "Operator": "greaterThan",
     "Values": [
-      "nam",
-      "voluptate"
+      "50000"
     ],
     "DisplayValues": [
-      "sapiente",
-      "qui"
+      "$50,000"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Okuneva, Kilback and Huel",
-        "Operator": "deserunt",
+        "Name": "EmployeeCount",
+        "Operator": "greaterThan",
         "Values": [
-          "sit",
-          "rerum"
+          "10"
         ],
         "DisplayValues": [
-          "rerum",
-          "occaecati"
+          "10 employees"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -34,14 +30,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 583,
+        "InterParenthesis": 0,
         "InterOperator": "And",
-        "UniqueHash": 382
+        "UniqueHash": 2048
       }
     ],
-    "InterParenthesis": 927,
+    "InterParenthesis": 0,
     "InterOperator": "And",
-    "UniqueHash": 396
+    "UniqueHash": 1024
   }
 ]
 ```

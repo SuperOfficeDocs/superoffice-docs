@@ -4,17 +4,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Medhurst-Trantow",
+    "EntityName": "contact",
     "PrimaryKey": 117,
     "ColumnData": {
-      "fieldName": {
-        "DisplayValue": "ab",
-        "TooltipHint": "sint",
-        "LinkHint": "rerum"
+      "name": {
+        "DisplayValue": "Acme Corporation",
+        "TooltipHint": "Leading technology solutions provider",
+        "LinkHint": "/company/117"
       }
     },
-    "LinkHint": "optio",
-    "StyleHint": "amet",
+    "LinkHint": "/company/117",
+    "StyleHint": "normal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
