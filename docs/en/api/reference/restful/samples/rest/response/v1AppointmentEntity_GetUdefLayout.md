@@ -25,7 +25,7 @@ Content-Type: application/json; charset=utf-8
     "IsMandatory": false,
     "Type": "Appointment",
     "Page1LineNo": 42,
-    "ProgId": "SuperOffice:PriorityLevel",
+    "ProgId": "SuperOffice:1",
     "IsReadOnly": false,
     "ShortLabel": "Priority",
     "TabOrder": 197,

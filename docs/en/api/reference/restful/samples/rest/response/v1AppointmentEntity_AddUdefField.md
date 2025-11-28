@@ -24,7 +24,7 @@ Content-Type: application/json; charset=utf-8
   "IsMandatory": true,
   "Type": "Appointment",
   "Page1LineNo": 833,
-  "ProgId": "SuperOffice:RequiresFollowUp",
+  "ProgId": "SuperOffice:1",
   "IsReadOnly": false,
   "ShortLabel": "Follow-up",
   "TabOrder": 664,

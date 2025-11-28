@@ -25,7 +25,7 @@ Content-Type: application/json; charset=utf-8
     "IsMandatory": false,
     "Type": "Appointment",
     "Page1LineNo": 335,
-    "ProgId": "SuperOffice:CustomerSegment",
+    "ProgId": "SuperOffice:1",
     "IsReadOnly": true,
     "ShortLabel": "Segment",
     "TabOrder": 64,
