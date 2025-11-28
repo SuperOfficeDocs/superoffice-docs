@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 753,
-  "Name": "Senger-Botsford",
-  "Tooltip": "aut",
+  "Name": "Customer",
+  "Tooltip": "Contact category classification",
   "Deleted": false,
   "Rank": 719,
   "UdListDefinitionId": 777,

@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 679,
-    "Name": "Jerde, Toy and Koss",
+    "Name": "Prospect",
     "ToolTip": "A eum eius sapiente nostrum.",
     "Deleted": false,
     "Rank": 834,
-    "Type": "sed",
+    "Type": "Category",
     "ColorBlock": 744,
     "IconHint": "nisi",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 325,
-        "Name": "Tillman, Connelly and Carroll",
+        "Name": "Prospect",
         "ToolTip": "Et mollitia.",
         "Deleted": false,
         "Rank": 379,
-        "Type": "molestiae",
+        "Type": "Category",
         "ColorBlock": 228,
         "IconHint": "voluptatem",
         "Selected": true,

@@ -9,7 +9,7 @@ Content-Type: application/json; charset=utf-8
     "ToolTip": "Voluptas ea est id harum aut ut.",
     "Deleted": false,
     "Rank": 104,
-    "Type": "rem",
+    "Type": "Category",
     "ColorBlock": 391,
     "IconHint": "qui",
     "Selected": true,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 994,
-        "Name": "Mante Inc and Sons",
+        "Name": "Competitor",
         "ToolTip": "Laborum et iste qui.",
         "Deleted": false,
         "Rank": 355,
-        "Type": "quo",
+        "Type": "Category",
         "ColorBlock": 868,
         "IconHint": "culpa",
         "Selected": false,

@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 616,
-  "Name": "Walker, Lueilwitz and Koss",
-  "Tooltip": "enim",
+  "Name": "Prospect",
+  "Tooltip": "Contact category classification",
   "Deleted": false,
   "UdListDefinitionId": 386,
   "Rank": 615,

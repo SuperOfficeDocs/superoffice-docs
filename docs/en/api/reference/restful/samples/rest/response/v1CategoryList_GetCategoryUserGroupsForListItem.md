@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 208,
-    "Name": "Gleichner-Luettgen",
+    "Name": "Customer",
     "ToolTip": "Odio maiores non cum vel dolores.",
     "Deleted": false,
     "Rank": 911,
-    "Type": "deleniti",
+    "Type": "Category",
     "ColorBlock": 16,
     "IconHint": "officia",
     "Selected": true,
@@ -21,7 +21,7 @@ Content-Type: application/json; charset=utf-8
         "ToolTip": "Itaque voluptatum.",
         "Deleted": false,
         "Rank": 222,
-        "Type": "nihil",
+        "Type": "Category",
         "ColorBlock": 422,
         "IconHint": "eaque",
         "Selected": false,

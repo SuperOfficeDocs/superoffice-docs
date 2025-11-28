@@ -4,14 +4,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 288,
-  "Name": "Erdman Group",
-  "Tooltip": "dolorem",
+  "Name": "Supplier",
+  "Tooltip": "Contact category classification",
   "Deleted": true,
   "Rank": 698,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
+  "ListType": "Category",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {

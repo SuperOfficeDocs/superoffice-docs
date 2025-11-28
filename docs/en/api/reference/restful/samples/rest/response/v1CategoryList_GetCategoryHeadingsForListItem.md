@@ -5,11 +5,11 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 190,
-    "Name": "Zieme Inc and Sons",
+    "Name": "Competitor",
     "ToolTip": "Quia adipisci at aut eum ullam in.",
     "Deleted": false,
     "Rank": 914,
-    "Type": "repellat",
+    "Type": "Category",
     "ColorBlock": 894,
     "IconHint": "ex",
     "Selected": false,
@@ -17,11 +17,11 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 126,
-        "Name": "Skiles, Kulas and Schultz",
+        "Name": "Prospect",
         "ToolTip": "Magnam perferendis at sed molestiae.",
         "Deleted": false,
         "Rank": 933,
-        "Type": "fuga",
+        "Type": "Category",
         "ColorBlock": 104,
         "IconHint": "nihil",
         "Selected": true,
