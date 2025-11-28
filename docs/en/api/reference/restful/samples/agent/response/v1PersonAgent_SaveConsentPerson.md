@@ -8,7 +8,7 @@ Content-Type: application/json; charset=utf-8
   "LegalBase": null,
   "PersonId": 375,
   "ConsentPurpose": null,
-  "Comment": "earum",
+  "Comment": "Updated consent preferences for marketing communications",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

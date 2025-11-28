@@ -4,9 +4,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "omnis",
-    "StrippedValue": "delectus",
-    "Description": "Enterprise-wide content-based open system",
+    "Value": "+1 555-0123",
+    "StrippedValue": "+1 555-0123",
+    "Description": "Mobile Phone",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -17,9 +17,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Value": "omnis",
-    "StrippedValue": "delectus",
-    "Description": "Enterprise-wide content-based open system",
+    "Value": "+1 555-0100",
+    "StrippedValue": "+1 555-0100",
+    "Description": "Office Phone",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

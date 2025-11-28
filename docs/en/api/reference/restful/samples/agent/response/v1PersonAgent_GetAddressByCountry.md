@@ -45,7 +45,7 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "porro",
+  "Formatted": "123 Main Street, New York, NY 10001, USA",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
