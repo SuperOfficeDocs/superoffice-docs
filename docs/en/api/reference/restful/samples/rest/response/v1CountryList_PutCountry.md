@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CountryId": 988,
-  "Name": "Gulgowski, Swift and Thompson",
+  "Name": "United States",
   "CurrencyId": 677,
   "EnglishName": "Mertz LLC",
   "TwoLetterISOCountry": "Sokovia",
@@ -19,7 +19,7 @@ Content-Type: application/json; charset=utf-8
   "DomesticAddressLayoutId": 846,
   "ForeignAddressLayoutId": 590,
   "Rank": 524,
-  "Tooltip": "voluptatem",
+  "Tooltip": "Country entry",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {

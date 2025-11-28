@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 539,
-  "Name": "Bergnaum, Lehner and Graham",
-  "Tooltip": "adipisci",
+  "Name": "United States",
+  "Tooltip": "Country entry",
   "Deleted": false,
   "Rank": 141,
   "UdListDefinitionId": 478,

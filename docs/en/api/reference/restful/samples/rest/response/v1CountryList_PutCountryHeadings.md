@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 602,
-    "Name": "Lang-Ledner",
-    "Tooltip": "nemo",
+    "Name": "Norway",
+    "Tooltip": "Country entry",
     "Deleted": true,
     "Rank": 516,
     "UdListDefinitionId": 860,

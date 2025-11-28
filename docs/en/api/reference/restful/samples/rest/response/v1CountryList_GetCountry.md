@@ -4,7 +4,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CountryId": 69,
-  "Name": "Wyman-Green",
+  "Name": "Norway",
   "CurrencyId": 889,
   "EnglishName": "Kub, Heaney and Stiedemann",
   "TwoLetterISOCountry": "Sokovia",
@@ -19,7 +19,7 @@ Content-Type: application/json; charset=utf-8
   "DomesticAddressLayoutId": 732,
   "ForeignAddressLayoutId": 242,
   "Rank": 515,
-  "Tooltip": "fugit",
+  "Tooltip": "Country entry",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
