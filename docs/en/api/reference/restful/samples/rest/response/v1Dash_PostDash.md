@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardId": 673,
   "UniqueId": "aut",
-  "Name": "Jenkins, Gislason and Morar",
+  "Name": "Marketing Overview",
   "Description": "Multi-channelled foreground throughput",
   "AssociateId": 209,
   "Columns": 697,

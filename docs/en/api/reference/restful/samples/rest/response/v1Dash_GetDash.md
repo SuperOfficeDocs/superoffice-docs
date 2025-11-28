@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DashboardId": 391,
   "UniqueId": "ut",
-  "Name": "Welch-Durgan",
-  "Description": "Digitized optimal interface",
+  "Name": "Sales Dashboard",
+  "Description": "Dashboard for sales metrics",
   "AssociateId": 233,
   "Columns": 477,
   "Theme": null,
