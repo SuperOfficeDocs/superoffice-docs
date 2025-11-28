@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 442,
-    "Name": "Fadel-Wyman",
-    "Tooltip": "ipsa",
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "Rank": 774,
     "UdListDefinitionId": 89,

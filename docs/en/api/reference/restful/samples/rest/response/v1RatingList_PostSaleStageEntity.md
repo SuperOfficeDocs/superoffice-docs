@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SaleStageId": 327,
   "Value": "repellat",
-  "Tooltip": "velit",
+  "Tooltip": "Rating level",
   "Probability": 323,
   "Deleted": false,
   "Rank": 517,

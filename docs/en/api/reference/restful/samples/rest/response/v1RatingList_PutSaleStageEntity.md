@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SaleStageId": 977,
   "Value": "voluptatum",
-  "Tooltip": "saepe",
+  "Tooltip": "Rating level",
   "Probability": 11,
   "Deleted": false,
   "Rank": 721,

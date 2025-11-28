@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 171,
     "Name": "Muller Group",
-    "Tooltip": "quam",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "UdListDefinitionId": 359,
     "Rank": 517,

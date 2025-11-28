@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 1001,
   "Name": "Turcotte-VonRueden",
-  "Tooltip": "ullam",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "UdListDefinitionId": 159,
   "Rank": 638,

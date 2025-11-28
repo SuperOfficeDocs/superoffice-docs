@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 403,
-  "Name": "Wisozk, Halvorson and Reilly",
-  "Tooltip": "tempore",
+  "Name": "Price Too High",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "Rank": 809,
   "IsCustomList": false,

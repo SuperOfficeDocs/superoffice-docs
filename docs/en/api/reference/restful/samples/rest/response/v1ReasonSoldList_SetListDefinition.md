@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 572,
   "Name": "Stiedemann LLC",
-  "Tooltip": "quia",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 487,
   "IsCustomList": false,

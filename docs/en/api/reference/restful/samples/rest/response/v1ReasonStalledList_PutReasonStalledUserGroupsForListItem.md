@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 129,
-    "Name": "Kohler-Sanford",
+    "Name": "Competitive Price",
     "ToolTip": "Dolores consequatur qui optio.",
     "Deleted": true,
     "Rank": 544,
@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 83,
-        "Name": "Bernier-Larson",
+        "Name": "Competitive Price",
         "ToolTip": "Facilis labore eos alias nihil aut velit.",
         "Deleted": true,
         "Rank": 201,

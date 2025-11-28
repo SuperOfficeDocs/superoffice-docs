@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 777,
-  "Name": "Powlowski-Zulauf",
-  "Tooltip": "ut",
+  "Name": "Excellent",
+  "Tooltip": "Rating level",
   "Deleted": true,
   "Rank": 903,
   "UdListDefinitionId": 443,

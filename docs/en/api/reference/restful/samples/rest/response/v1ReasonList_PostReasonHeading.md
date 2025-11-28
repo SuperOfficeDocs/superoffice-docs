@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 594,
-  "Name": "Dooley, Cormier and Hayes",
-  "Tooltip": "architecto",
+  "Name": "Better Features",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 501,
   "UdListDefinitionId": 911,

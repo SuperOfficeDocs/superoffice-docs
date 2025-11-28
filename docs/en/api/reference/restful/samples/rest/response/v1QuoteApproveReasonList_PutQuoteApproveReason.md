@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 678,
-  "Name": "Hermann-Yundt",
-  "Tooltip": "eligendi",
+  "Name": "Budget Approved",
+  "Tooltip": "Quote reason",
   "Deleted": false,
   "UdListDefinitionId": 327,
   "Rank": 909,

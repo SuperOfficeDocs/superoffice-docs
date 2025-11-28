@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 556,
   "Name": "Kub Inc and Sons",
-  "Tooltip": "nulla",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "UdListDefinitionId": 216,
   "Rank": 782,

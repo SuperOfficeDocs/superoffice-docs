@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "SaleStageId": 429,
     "Value": "cupiditate",
-    "Tooltip": "libero",
+    "Tooltip": "Rating level",
     "Probability": 648,
     "Deleted": false,
     "Rank": 583,

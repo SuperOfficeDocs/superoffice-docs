@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 950,
-  "Name": "Mills-Goldner",
-  "Tooltip": "laboriosam",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "UdListDefinitionId": 596,
   "Rank": 812,

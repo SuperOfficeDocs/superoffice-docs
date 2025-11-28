@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 655,
   "Name": "Koelpin Group",
-  "Tooltip": "nesciunt",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 214,
   "UdListDefinitionId": 267,

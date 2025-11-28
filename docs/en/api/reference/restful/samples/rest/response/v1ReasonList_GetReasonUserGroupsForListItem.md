@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 786,
-        "Name": "Friesen-Wilderman",
+        "Name": "Competitive Price",
         "ToolTip": "Tenetur eveniet fugiat voluptatem est quidem.",
         "Deleted": false,
         "Rank": 356,

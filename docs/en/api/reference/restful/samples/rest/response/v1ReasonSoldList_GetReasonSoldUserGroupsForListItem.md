@@ -17,7 +17,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 853,
-        "Name": "Schiller, Schinner and Runolfsdottir",
+        "Name": "Better Features",
         "ToolTip": "Sint expedita sapiente veniam excepturi sint.",
         "Deleted": true,
         "Rank": 463,

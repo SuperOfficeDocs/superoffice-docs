@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SaleStageId": 908,
   "Value": "quibusdam",
-  "Tooltip": "eos",
+  "Tooltip": "Rating level",
   "Probability": 160,
   "Deleted": false,
   "Rank": 834,

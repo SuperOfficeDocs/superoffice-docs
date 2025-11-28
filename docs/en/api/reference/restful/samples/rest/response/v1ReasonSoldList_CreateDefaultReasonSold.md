@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 953,
-  "Name": "Mitchell-Quigley",
-  "Tooltip": "optio",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 398,
   "Rank": 634,

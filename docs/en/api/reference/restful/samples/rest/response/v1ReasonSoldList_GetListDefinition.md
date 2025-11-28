@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 240,
   "Name": "Koelpin LLC",
-  "Tooltip": "dolor",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "Rank": 484,
   "IsCustomList": false,

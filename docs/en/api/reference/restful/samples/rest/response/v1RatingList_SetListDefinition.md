@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 414,
   "Name": "Collins Group",
-  "Tooltip": "ut",
+  "Tooltip": "Rating level",
   "Deleted": false,
   "Rank": 318,
   "IsCustomList": false,

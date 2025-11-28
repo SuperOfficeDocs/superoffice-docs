@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 32,
     "Name": "Rolfson LLC",
-    "Tooltip": "repudiandae",
+    "Tooltip": "Rating level",
     "Deleted": false,
     "Rank": 108,
     "UdListDefinitionId": 898,

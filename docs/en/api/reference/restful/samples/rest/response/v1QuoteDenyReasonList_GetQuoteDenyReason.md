@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 548,
   "Name": "Wuckert Group",
-  "Tooltip": "minima",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "UdListDefinitionId": 234,
   "Rank": 107,

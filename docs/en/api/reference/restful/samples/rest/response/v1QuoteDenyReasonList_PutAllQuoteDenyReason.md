@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 705,
     "Name": "Waelchi Group",
-    "Tooltip": "cupiditate",
+    "Tooltip": "Quote reason",
     "Deleted": true,
     "UdListDefinitionId": 248,
     "Rank": 541,

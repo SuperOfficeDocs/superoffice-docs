@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 226,
   "Name": "Gutmann LLC",
-  "Tooltip": "dolorem",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 1002,
   "Rank": 647,

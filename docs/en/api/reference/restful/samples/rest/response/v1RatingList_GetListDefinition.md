@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 929,
-  "Name": "Olson-Haley",
-  "Tooltip": "facilis",
+  "Name": "Excellent",
+  "Tooltip": "Rating level",
   "Deleted": false,
   "Rank": 851,
   "IsCustomList": false,

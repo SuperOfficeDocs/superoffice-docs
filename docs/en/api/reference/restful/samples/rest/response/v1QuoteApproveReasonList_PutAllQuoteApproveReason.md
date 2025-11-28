@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "Id": 296,
     "Name": "Harber Inc and Sons",
-    "Tooltip": "in",
+    "Tooltip": "Quote reason",
     "Deleted": false,
     "UdListDefinitionId": 166,
     "Rank": 198,

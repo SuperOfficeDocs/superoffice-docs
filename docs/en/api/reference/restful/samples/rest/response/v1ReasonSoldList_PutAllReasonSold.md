@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 117,
-    "Name": "Funk-Wintheiser",
-    "Tooltip": "quisquam",
+    "Name": "Competitive Price",
+    "Tooltip": "Sale reason",
     "Deleted": false,
     "UdListDefinitionId": 903,
     "Rank": 332,

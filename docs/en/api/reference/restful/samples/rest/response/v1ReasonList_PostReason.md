@@ -4,8 +4,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 351,
-  "Name": "Grant-Friesen",
-  "Tooltip": "sed",
+  "Name": "Competitive Price",
+  "Tooltip": "Sale reason",
   "Deleted": false,
   "UdListDefinitionId": 95,
   "Rank": 756,

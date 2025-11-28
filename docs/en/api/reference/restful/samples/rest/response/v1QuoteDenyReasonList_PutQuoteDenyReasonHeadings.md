@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 320,
-    "Name": "Grimes, Kub and Mann",
-    "Tooltip": "et",
+    "Name": "Price Too High",
+    "Tooltip": "Quote reason",
     "Deleted": false,
     "Rank": 254,
     "UdListDefinitionId": 60,

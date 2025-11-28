@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 116,
   "Name": "Rodriguez LLC",
-  "Tooltip": "est",
+  "Tooltip": "Sale reason",
   "Deleted": true,
   "Rank": 126,
   "IsCustomList": false,

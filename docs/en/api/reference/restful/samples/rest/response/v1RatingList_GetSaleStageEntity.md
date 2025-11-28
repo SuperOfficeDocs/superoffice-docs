@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SaleStageId": 998,
   "Value": "quos",
-  "Tooltip": "consequuntur",
+  "Tooltip": "Rating level",
   "Probability": 359,
   "Deleted": false,
   "Rank": 576,

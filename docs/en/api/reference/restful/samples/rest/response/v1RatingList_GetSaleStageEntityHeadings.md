@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 561,
-    "Name": "Cummings, Dickens and Beatty",
-    "Tooltip": "magnam",
+    "Name": "Good",
+    "Tooltip": "Rating level",
     "Deleted": true,
     "Rank": 586,
     "UdListDefinitionId": 237,

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   {
     "HeadingId": 211,
     "Name": "Boyle Group",
-    "Tooltip": "pariatur",
+    "Tooltip": "Quote reason",
     "Deleted": false,
     "Rank": 454,
     "UdListDefinitionId": 33,

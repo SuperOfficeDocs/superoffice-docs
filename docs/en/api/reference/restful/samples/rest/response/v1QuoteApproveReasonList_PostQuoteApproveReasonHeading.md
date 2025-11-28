@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "HeadingId": 551,
   "Name": "Kertzmann Group",
-  "Tooltip": "mollitia",
+  "Tooltip": "Quote reason",
   "Deleted": true,
   "Rank": 364,
   "UdListDefinitionId": 585,
