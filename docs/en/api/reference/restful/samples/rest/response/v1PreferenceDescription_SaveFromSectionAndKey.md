@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 330,
   "Section": "libero",
   "Key": "nostrum",
-  "Name": "Wilkinson-Fritsch",
+  "Name": "Email Notifications",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",

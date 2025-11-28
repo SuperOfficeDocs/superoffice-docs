@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 497,
   "PrefValue": "eum",
   "PrefShowValue": "ad",
-  "Description": "Distributed stable attitude",
+  "Description": "User preference setting",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {

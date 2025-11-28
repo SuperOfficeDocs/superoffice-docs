@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 670,
-    "Name": "Kulas-Hamill",
+    "Name": "Email Notifications",
     "ToolTip": "Reiciendis ut.",
     "Deleted": false,
     "Rank": 577,
@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 572,
-        "Name": "Mohr, Hickle and Mayert",
+        "Name": "Default Language",
         "ToolTip": "Voluptatum officia debitis.",
         "Deleted": false,
         "Rank": 305,

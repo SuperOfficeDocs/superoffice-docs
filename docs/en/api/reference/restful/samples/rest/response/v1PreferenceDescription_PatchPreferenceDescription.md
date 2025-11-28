@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 224,
   "Section": "dolorem",
   "Key": "voluptatum",
-  "Name": "Pfeffer-Olson",
+  "Name": "Email Notifications",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",

@@ -6,7 +6,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 873,
   "Section": "rerum",
   "Key": "voluptas",
-  "Name": "Spinka-Feil",
+  "Name": "Email Notifications",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",

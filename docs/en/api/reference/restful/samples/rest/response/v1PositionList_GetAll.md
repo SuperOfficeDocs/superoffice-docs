@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 137,
-    "Name": "Hagenes-Crona",
-    "Tooltip": "nihil",
+    "Name": "Sales Manager",
+    "Tooltip": "Job position",
     "Deleted": true,
     "UdListDefinitionId": 283,
     "Rank": 81,

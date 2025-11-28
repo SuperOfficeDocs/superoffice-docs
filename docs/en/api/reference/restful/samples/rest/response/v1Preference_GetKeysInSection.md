@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 697,
-    "Name": "Muller, Bahringer and Heaney",
+    "Name": "Default Language",
     "ToolTip": "Consectetur eveniet ad occaecati omnis dolorem blanditiis.",
     "Deleted": false,
     "Rank": 559,
@@ -13,7 +13,7 @@ Content-Type: application/json; charset=utf-8
     "ChildItems": [
       {
         "Id": 619,
-        "Name": "Rogahn, Klein and Rohan",
+        "Name": "Default Language",
         "ToolTip": "Ut quisquam error est et inventore dolorem.",
         "Deleted": false,
         "Rank": 379,

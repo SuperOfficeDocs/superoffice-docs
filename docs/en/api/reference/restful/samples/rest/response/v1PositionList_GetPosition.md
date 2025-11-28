@@ -5,7 +5,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Id": 832,
   "Name": "Rippin LLC",
-  "Tooltip": "ut",
+  "Tooltip": "Job position",
   "Deleted": false,
   "UdListDefinitionId": 902,
   "Rank": 129,

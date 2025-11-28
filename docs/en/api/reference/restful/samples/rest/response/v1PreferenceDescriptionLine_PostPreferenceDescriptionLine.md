@@ -7,7 +7,7 @@ Content-Type: application/json; charset=utf-8
   "PrefDescId": 409,
   "PrefValue": "fuga",
   "PrefShowValue": "dignissimos",
-  "Description": "Operative coherent attitude",
+  "Description": "User preference setting",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
