@@ -55,7 +55,7 @@ items:
         href: install/server/prepare.md
         items:
         - name: Prepare for SuperOffice 8 - 10
-          href: install/server/prepare-v10.md       
+          href: install/server/prepare-10.md       
       - name: IIS web server
         href: install/iis/index.md
         items:
@@ -112,6 +112,21 @@ items:
         href: install/netserver/wcf-primer.md
   - name: Upgrade Onsite
     items:
+    - name: To version 11
+      href: upgrade/to-11/index.md   
+    - name: To version 9 or 10
+      href: upgrade/to-9/index.md
+    - name: To version 8.1 - 8.5
+      href: upgrade/to-81/index.md
+      items:
+      - name: Using old Service domain
+        href: upgrade/to-81/using-old-service-domain.md
+      - name: Using old Sales domain
+        href: upgrade/to-81/using-old-sales-domain.md
+      - name: Using new domains
+        href: upgrade/to-81/using-new-domains.md
+      - name: Move CRM Server
+        href: upgrade/to-81/move-crm-server.md
     - name: To version 8.0
       href: upgrade/75-to-8/index.md
       items:
@@ -125,21 +140,6 @@ items:
         href: upgrade/75-to-8/netserver.md
       - name: Windows client
         href: upgrade/75-to-8/win-client.md
-    - name: To version 8.1 - 8.5
-      href: upgrade/to-81/index.md
-      items:
-      - name: Using old Service domain
-        href: upgrade/to-81/using-old-service-domain.md
-      - name: Using old Sales domain
-        href: upgrade/to-81/using-old-sales-domain.md
-      - name: Using new domains
-        href: upgrade/to-81/using-new-domains.md
-      - name: Move CRM Server
-        href: upgrade/to-81/move-crm-server.md
-    - name: To version 9 or 10
-      href: upgrade/to-9/index.md
-    - name: To version 11
-      href: upgrade/to-11/index.md      
   - name: Configuration
     href: config/index.md
     items:

@@ -101,14 +101,10 @@ conceptualContent:
             itemType: list
             typeDesc: how-to-guide
             text: Create MS SQL Server database
-          - url: install/database/create-oracle-db.md
+          - url: install/server/index.md
             itemType: list
             typeDesc: how-to-guide
-            text: Create Oracle database
-          - url: install/server/silent-serversetup.md
-            itemType: list
-            typeDesc: how-to-guide
-            text: Install SuperOffice server (silent)
+            text: Install SuperOffice server
           - url: install/web-client/index.md
             itemType: list
             typeDesc: how-to-guide
