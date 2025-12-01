@@ -10,6 +10,8 @@ deployment: onsite
 
 # DBSetup.exe - Database maintenance
 
+[!include[DBSetup](../../includes/warn-dbsetup-discontinued.md)]
+
 Earlier versions of DBSetup may differ a bit in the user interface, but the basic functionality is still the same. Please note the warning - there is no turning back once you have started the different operations.
 
 See also the [SoTables.ini info][1] - but with CDD note that the priming data provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature.

@@ -13,7 +13,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 12.01.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -121,6 +121,9 @@ conceptualContent:
       - title: Upgrade
         summary: Upgrade your onsite SuperOffice installation
         links:
+          - url: upgrade/to-11/index.md
+            itemType: list
+            typeDesc: how-to-guide
           - url: upgrade/to-9/index.md
             itemType: list
             typeDesc: how-to-guide

@@ -10,6 +10,8 @@ content_type: reference
 
 # SoTables.ini
 
+[!include[DBSetup](../../includes/warn-dbsetup-discontinued.md)]
+
 Used by [DBSetup.exe][1]
 
 * This file is up until 8.1 used during the setup phase - it describes which prime data files are to be loaded into the newly created or upgraded database.

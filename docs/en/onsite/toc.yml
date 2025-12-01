@@ -53,6 +53,9 @@ items:
       items:
       - name: Prepare CRM Server
         href: install/server/prepare.md
+        items:
+        - name: Prepare for SuperOffice 8 - 10
+          href: install/server/prepare-v10.md       
       - name: IIS web server
         href: install/iis/index.md
         items:
@@ -110,6 +113,7 @@ items:
   - name: Upgrade Onsite
     items:
     - name: To version 8.0
+      href: upgrade/75-to-8/index.md
       items:
       - name: Upgrade scenarios 7.5 to 8
         href: upgrade/75-to-8/index.md
@@ -134,8 +138,8 @@ items:
         href: upgrade/to-81/move-crm-server.md
     - name: To version 9 or 10
       href: upgrade/to-9/index.md
-    - name: Upgrade Service
-      href: upgrade/service/index.md
+    - name: To version 11
+      href: upgrade/to-11/index.md      
   - name: Configuration
     href: config/index.md
     items:
