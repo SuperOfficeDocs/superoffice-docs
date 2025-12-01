@@ -9,7 +9,7 @@ deployment: onsite
 version: 8, 9, 10
 ---
 
-# Prepare CRM Server computer
+# Prepare CRM Server computer for SuperOffice 8 - 10
 
 1. Prepare the program files folder
 

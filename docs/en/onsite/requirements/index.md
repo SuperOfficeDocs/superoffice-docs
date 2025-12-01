@@ -61,6 +61,7 @@ See: [.NET system requirements][13]
 
 | Versions | Web client | Service client |
 |----------|------------|----------------|
+| 11 | services88 | services88 |
 | 10 | services88 | services88 |
 | 9 | services88 | services88 |
 | 8.5 R09 - R15 | services88 | services88 |

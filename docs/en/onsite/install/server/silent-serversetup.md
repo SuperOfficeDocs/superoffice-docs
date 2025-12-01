@@ -10,6 +10,8 @@ deployment: onsite
 
 # Silent install of ServerSetup
 
+[!include[DBSetup](../../includes/warn-dbsetup-discontinued.md)]
+
 ServerSetup can be installed silently without using the user interface. All functionality is covered by the available arguments. Error messages or ServerSetups user interface will be displayed on error.
 
 ## Examples

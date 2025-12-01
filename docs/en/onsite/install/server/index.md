@@ -3,12 +3,14 @@ title: Install SuperOffice Win Server
 uid: install_crm_server
 description: Install SuperOffice Win Server
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+keywords: install, server
 content_type: howto
 deployment: onsite
+version: 11
 ---
 
-# Install CRM Server
+# Install CRM Server 11 and newer
 
 ## Prerequisites
 
