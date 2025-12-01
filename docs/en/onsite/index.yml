@@ -120,6 +120,7 @@ conceptualContent:
           - url: upgrade/to-11/index.md
             itemType: list
             typeDesc: how-to-guide
+            text: To version 11            
           - url: upgrade/to-9/index.md
             itemType: list
             typeDesc: how-to-guide
