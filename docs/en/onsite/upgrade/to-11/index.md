@@ -12,6 +12,8 @@ version: 11
 
 # Upgrade to SuperOffice 11
 
+# TO BE FINISHED
+
 You can upgrade to SuperOffice 11 from SuperOffice 8.0 or newer. The recommended installation scenarios and setup requirements are the same as from SuperOffice 8.1.
 
 [!include[ALT](../../includes/warn-win-client-discontinued.md)]
