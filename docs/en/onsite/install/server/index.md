@@ -12,6 +12,8 @@ version: 11
 
 # Install CRM Server 11 and newer
 
+# TO BE FINISHED
+
 ## Prerequisites
 
 Prerequisites are available in the installation package.
@@ -28,34 +30,7 @@ The server where you install SuperOffice CRM Server needs to have an internet co
 
 ## Install
 
-Choose one of:
 
-* [Silent install][2]
-* [Install on Citrix or Terminal server][3]
-
-### Automatic update of clients (for SuperOffice Windows client only)
-
-In the last screen of ServerSetup, **Installation is complete**, you can select to use an automated update for client installations.
-
-The client setup file will be run from the location selected in ServerSetup, so this location must be available for the user and sufficient rights must have been granted.
-
-If Active Directory is to be used for updates, the automatic update should not be selected in ServerSetup.
-
-The automatic client update feature replaces the use of SoLoader in earlier versions.
-
-Automated updates for client installations will ask the user if she wants to update SuperOffice CRM client if the client setup files have been updated by ServerSetup. The check is done by comparing the version of SuperOffice CRM client with the highest version of ServerSetup installation on this database.
-
-The user can select to not update, the question will then be asked again next time she starts SuperOffice CRM client.
-
-If the user selects to update, the SuperOffice CRM client will exit and the client setup file will be run. When the installation is finished, SuperOffice CRM client must be started again.
-
-### Install with several languages
-
-You can choose to install SuperOffice CRM  in one or more languages.
-
-In a new installation, only the main language is used for most of the translated texts that are installed in the database. This will remain the same even if you install with several languages, and later select to run SuperOffice CRM in another language than the main language. This will cause some of the text in the application to be in the main language and most in the selected language. (Seen in dropdown lists for example.)
-
-If you are upgrading from an earlier version of SuperOffice, make sure to select the same main language as in the last installation, or you risk getting a mix of languages in the database/program.
 
 ***
 

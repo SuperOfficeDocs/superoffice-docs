@@ -74,9 +74,10 @@ items:
         href: install/server/index.md
         items:
         - name: Install CRM Server 8 - 10
-          href: install/server/install-10.md        
-        - name: Silent install
-          href: install/server/silent-serversetup.md
+          href: install/server/install-10.md
+          items:
+          - name: Silent install
+            href: install/server/silent-serversetup.md
         - name: Install on Citrix or Terminal server
           href: install/server/install-on-citrix.md
           items:
