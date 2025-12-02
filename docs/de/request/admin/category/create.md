@@ -4,8 +4,8 @@ title: Anfragekategorie erstellen
 description: Anfragekategorie erstellen
 keywords: Anfragekategorie hinzufügen, Anfragekategorie erstellen, neue Anfragekategorie, Anfragekategorie, Kategorien-Registerkarte, Anfrage, Kategorie
 author: Hanne Gunnarsson
-date: 02.14.2025
-version: 10.5.2
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: settings
@@ -21,7 +21,7 @@ index: true
 
 1. Klicken Sie auf die Schaltfläche **Hinzufügen**.
 
-1. Geben Sie einen beschreibenden Namen für die Kategorie im Feld **Neue Kategorie** über den Registerkarten ein.
+1. Geben Sie einen beschreibenden Namen für die Kategorie im Feld **Kategoriename** über den Registerkarten ein.
 
 1. Geben Sie auf der Registerkarte **Eigenschaften** folgende Informationen ein:
 
@@ -66,7 +66,7 @@ index: true
         * **An Benutzer mit den wenigsten unbearbeiteten Anfragen**: Neue Anfragen werden dem Benutzer mit den wenigsten offenen Anfragen zugewiesen.
         * **Keine Zuordnung**: Die Anfragen werden keinen bestimmten Benutzern zugeordnet, sondern standardmäßig in eine Warteschlange gestellt. Sie können dies unter **Anfragen** > **Nicht zugeordnete Anfragen** (Standard) oder im Warteschlangensystem **Nächste Anfrage in der Warteschlange** anzeigen.
 
-    * **Zuordnung nur an angemeldete Benutzer**: Anfragen werden nur angemeldeten Benutzern zugewiesen.
+    * **Zuordnung nur an aktive Benutzer**: Anfragen werden nur angemeldeten Benutzern zugewiesen.
 
     * **Bei Bedarf an Kategorienadministrator zuordnen**: Falls aktiviert, werden Anfragen dem Kategorienadministrator zugewiesen, wenn keine anderen Mitglieder verfügbar sind.
 

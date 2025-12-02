@@ -3,9 +3,9 @@ uid: help-no-request-category-create
 title: Opprett sakskategori
 description: Opprett sakskategori
 keywords: legg til sakskategori, opprett sakskategori, ny sakskategori, sakskategori, fanen Kategorier, sak, kategori
-author: Hanne Gunnarsson
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: settings
@@ -66,7 +66,7 @@ index: true
         * **Til saksbehandleren med færrest aktive saker**: Fordeler nye saker til det kategorimedlemmet som har færrest aktive saker.
         * **Ikke fordel**: Fordeler ikke saker til bestemte brukere, men legger som standard alle saker i en kø. Under **Saker** > **Ufordelte saker** (standard) eller i køsystemet **Hent neste sak i køen**.
 
-    * **Fordel bare til innloggede brukere**: Fordeler saker bare til brukere som er logget inn i SuperOffice Service.
+    * **Fordel bare til aktive brukere**: Fordeler saker bare til brukere som er logget inn i SuperOffice Service.
 
     * **Fordel til kategorisjef hvis ingen er tilgjengelige**: Fordeler saker til kategorisjefen hvis ingen andre brukere er tilgjengelige.
 

@@ -2,11 +2,11 @@
 uid: help-da-request-category-create
 title: Opret sagskategori
 description: Opret sagskategori
-keywords: sag, kategori
+keywords: tilføj sagskategori, opret sagskategori, ny sagskategori, sagskategori, fanen Kategorier, sag, kategori
 author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
-content_type: concept
+date: 12.02.2025
+version: 11.7
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -21,7 +21,7 @@ index: true
 
 1. Klik på knappen **Tilføj**.
 
-1. Indtast et beskrivende navn til kategorien i feltet **Kategorinavn** over fanerne.
+1. Indtast et beskrivende navn for kategorien i feltet **Kategorinavn** over fanerne.
 
 1. På fanen **Egenskaber** kan du angive følgende oplysninger:
 
@@ -66,7 +66,7 @@ index: true
         * **Til sagsbehandleren med færrest aktive sager**: Fordeler nye sager til det kategorimedlem, der har færrest aktive sager.
         * **Fordel ikke**: Fordeler ikke sager til bestemte brugere, men sætter som standard alle sager i kø. Enten under **Sager** > **Ikke-tildelte sager** (standard) eller i køsystemet **Få næste sag i køen**.
 
-    * **Fordel kun til sagsbehandlere, der er logget ind**: Fordeler kun sager til brugere, der er logget ind i SuperOffice Service.
+    * **Fordel kun til aktive brugere**: Fordeler kun sager til brugere, der er logget ind i SuperOffice Service.
 
     * **Fordel til kategoriansvarlig, hvis ingen er tilgængelige**: Fordeler sager til den kategoriansvarlige, hvis ingen andre brugere er tilgængelige.
 
