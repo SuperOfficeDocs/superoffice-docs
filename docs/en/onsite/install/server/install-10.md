@@ -1,10 +1,10 @@
 ---
-title: Install SuperOffice Win Server
-uid: install_crm_server
-description: Install SuperOffice Win Server
+uid: install-crm-server-10
+title: CRM Server 8-10
+description: Install SuperOffice Server versions 8-10
+keywords: install SuperOffice 10, install SuperOffice 9, install SuperOffice 8
 author: SuperOffice Product and Engineering
 date: 12.01.2025
-keywords: install, server
 content_type: howto
 deployment: onsite
 version: 8, 9, 10
