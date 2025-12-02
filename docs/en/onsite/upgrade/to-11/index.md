@@ -25,7 +25,7 @@ You can upgrade to SuperOffice 11 from SuperOffice 8.0 or newer. The recommended
 
 ## Upgrade from SuperOffice 8.0
 
-If you are running SuperOffice 8.0 you need to make sure the full stack of SuperOffice applications (SuperOffice Server, SuperOffice Web, and SuperOffice Service) is installed. You also need to [move all products under one domain][1], as seen from the browser. It might be beneficial to [upgrade to SuperOffice 8.1][1] first and follow the corresponding guides for different installation scenarios.
+If you are running SuperOffice 8.0, you need to make sure the full stack of SuperOffice applications (SuperOffice Server, SuperOffice Web, and SuperOffice Service) is installed. You also need to [move all products under one domain][1], as seen from the browser. It might be beneficial to [upgrade to SuperOffice 8.1][1] first and follow the corresponding guides for different installation scenarios.
 
 ## Upgrade from SuperOffice 8.1 or newer
 
