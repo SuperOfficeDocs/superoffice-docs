@@ -32,7 +32,7 @@ If you are running SuperOffice 8.0, you need to make sure the full stack of Supe
 A SuperOffice 8.1 or newer installation already has the full stack of SuperOffice applications installed, and it is running under one domain, which makes it easier to upgrade.
 
 ### 1. Upgrade SuperOffice Server
-```
+
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgrade.txt
 2025-11-18 12:40:44 [Info] Found a SuperOfficeCdd database
 2025-11-18 12:40:44 [Info] Validating license for KalleOnsite with serial number 1010000006
