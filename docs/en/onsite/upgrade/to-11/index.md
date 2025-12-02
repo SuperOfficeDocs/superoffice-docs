@@ -29,7 +29,7 @@ If you are running SuperOffice 8.0, you need to make sure the full stack of Supe
 
 ## Upgrade from SuperOffice 8.1 or newer
 
-SuperOffice 8.1 or newer installation has already the full stack of SuperOffice applications installed and it is running under one domain which makes it easier to upgrade.
+A SuperOffice 8.1 or newer installation already has the full stack of SuperOffice applications installed, and it is running under one domain, which makes it easier to upgrade.
 
 ### 1. Upgrade SuperOffice Server
 ```
