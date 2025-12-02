@@ -106,64 +106,6 @@ new-installation
 --country NO  
 ```
 
-### Inspect database
-
-The inspect-database option is useful for testing how to use CRMSetup without changing the database.
-
-```dos
-D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe inspect-database --arg-file CRMSetupInspect.txt
-2025-11-13 08:57:13 [Info] Found a SuperOfficeCdd database
-2025-11-13 08:57:13 [Info] Found 269 pending upgrades
-Database inspection completed successfully
-```
-
-```dos
-# crmsetup --arg-file CRMSetupInspect.txt
-# replace the values
-inspect-database
---database-server SQL-server
---database-name SO85 
---db-user crm7 
---db-password xxx 
---table-prefix crm7
-```
-
-### Export database
-
-During export, .sdb file is created in the same folder as CrmSetup.exe. Other path can be used but the folder has to be created first.
-
-```dos
-# crmsetup --arg-file CRMSetupExport.txt
-# replace the values
-export-database
---database-server SQL-server
---database-name SO_10
---db-user crm7 
---db-password xxx 
---table-prefix crm7
---target-file ExportDB.sdb
-```
-
-### Transfer database
-
-This option transfers data from a source to a destination database.
-
-```dos
-# crmsetup --arg-file CRMSetupTransfer.txt
-# replace the values
-transfer-database
---source-database-server SQL-server 
---source-database-name SO10
---source-db-user crm7 
---source-db-password xxx 
---source-table-prefix crm7
---target-database-server SQL-server
---target-database-name SOTransfer
---target-db-user crm7 
---target-db-password xxx 
---target-table-prefix crm7
-```
-
 ### Upgrade existing database
 
 Upgrade existing installation.
@@ -199,36 +141,26 @@ upgrade-existing
 --country NO 
 ```
 
-### Database import
+### Inspect database
 
-Import a database from a file, overwriting any existing database.
+The inspect-database option is useful for testing how to use CRMSetup without changing the database.
 
 ```dos
-# crmsetup --arg-file CRMSetupImport.txt
-# replace the values
-import-database
---database-server SQL-server 
---database-name SO10_import 
---db-user crm7 
---db-password xxx 
---table-prefix crm7
---source-file ImportDB.sdb
+D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe inspect-database --arg-file CRMSetupInspect.txt
+2025-11-13 08:57:13 [Info] Found a SuperOfficeCdd database
+2025-11-13 08:57:13 [Info] Found 269 pending upgrades
+Database inspection completed successfully
 ```
 
-### Import IMP file
-
-Import an IMP data file to the database.
-
 ```dos
-# crmsetup --arg-file CRMSetupImportFile.txt
+# crmsetup --arg-file CRMSetupInspect.txt
 # replace the values
-import-file
---database-server SQL-server 
---database-name SO_11
+inspect-database
+--database-server SQL-server
+--database-name SO85 
 --db-user crm7 
 --db-password xxx 
 --table-prefix crm7
---import-filename I_TestCurrency.imp
 ```
 
 ### Kill database
@@ -247,10 +179,80 @@ kill-database
 --table-prefix crm7
 ```
 
+### Import IMP file
+
+Import an IMP data file to the database.
+
+```dos
+# crmsetup --arg-file CRMSetupImportFile.txt
+# replace the values
+import-file
+--database-server SQL-server 
+--database-name SO_11
+--db-user crm7 
+--db-password xxx 
+--table-prefix crm7
+--import-filename I_TestCurrency.imp
+```
+
+### Database export
+
+During export, .sdb file is created in the same folder as CrmSetup.exe. Other path can be used but the folder has to be created first.
+
+```dos
+# crmsetup --arg-file CRMSetupExport.txt
+# replace the values
+export-database
+--database-server SQL-server
+--database-name SO_10
+--db-user crm7 
+--db-password xxx 
+--table-prefix crm7
+--target-file ExportDB.sdb
+```
+
+### Database import
+
+Import a database from a file, overwriting any existing database.
+
+```dos
+# crmsetup --arg-file CRMSetupImport.txt
+# replace the values
+import-database
+--database-server SQL-server 
+--database-name SO10_import 
+--db-user crm7 
+--db-password xxx 
+--table-prefix crm7
+--source-file ImportDB.sdb
+```
+
+### Transfer database
+
+This option transfers data from a source to a destination database.
+
+```dos
+# crmsetup --arg-file CRMSetupTransfer.txt
+# replace the values
+transfer-database
+--source-database-server SQL-server 
+--source-database-name SO10
+--source-db-user crm7 
+--source-db-password xxx 
+--source-table-prefix crm7
+--target-database-server SQL-server
+--target-database-name SOTransfer
+--target-db-user crm7 
+--target-db-password xxx 
+--target-table-prefix crm7
+```
+
 ## CrmTask
 
-CrmTask is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
+TO BE FINISHED 
 
+
+CrmTask is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
 
 ```dos
 # crmtask --arg-file CRMTaskRegenerateSaint.txt

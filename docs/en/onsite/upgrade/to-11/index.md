@@ -35,7 +35,7 @@ A SuperOffice 8.1 or newer installation already has the full stack of SuperOffic
 
 From SuperOffice 11, the SuperOffice server and database are upgraded with [CrmSetup][2] utility. 
 
-Run CrmSetup.exe with upgrade-existing option and supply the corresponding argument file. See examples below. This will upgrade the database to the current version.
+Run CrmSetup.exe with `upgrade-existing` option and supply the corresponding argument file, see an example below. This will upgrade the database to the current version.
 
 ```dos
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgrade.txt
@@ -47,6 +47,8 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgr
 2025-11-18 12:40:48 [Info] Perform tasks after upgrade
 Upgrade completed successfully
 ```
+
+Example argument file for upgrade:
 
 ```dos
 # crmsetup --arg-file CRMSetupUpgrade.txt
