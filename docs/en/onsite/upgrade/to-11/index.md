@@ -1,13 +1,13 @@
 ---
+uid: upgrade-to-11
 title: Upgrade to 11
-uid: upgrade_to_11
 description: Upgrade to 11
-author: Martin Pavlas
-date: 12.01.2025
 keywords: upgrade
+author: pavlas
+date: 12.01.2025
+version: 11
 content_type: howto
 deployment: onsite
-version: 11
 ---
 
 # Upgrade to SuperOffice 11
