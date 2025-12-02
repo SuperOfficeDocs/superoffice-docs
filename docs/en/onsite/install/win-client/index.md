@@ -11,7 +11,7 @@ platform: win
 
 # Install SuperOffice 9 or 10 Windows client
 
-From SuperOffice 9 the SuperOffice Windows client is not available. The *SuperOffice9.exe* (or *SuperOffice10.exe* for SuperOffice 10) installer contains SuperOffice Admin client, Reporter Studio and Travel Gateway. From SuperOffice 11 the client installer is discontinued.
+From SuperOffice 9, the SuperOffice Windows client is not available. The *SuperOffice9.exe* (or *SuperOffice10.exe* for SuperOffice 10) installer contains the SuperOffice Admin client, Reporter Studio and Travel Gateway. From SuperOffice 11, the client installer is discontinued.
 
 The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
