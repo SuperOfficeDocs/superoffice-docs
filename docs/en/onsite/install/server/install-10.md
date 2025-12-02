@@ -10,7 +10,7 @@ deployment: onsite
 version: 10
 ---
 
-# Install CRM Server 8 - 10
+# Install CRM Server 8-10
 
 ## Prerequisites
 

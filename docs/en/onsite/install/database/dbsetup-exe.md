@@ -3,9 +3,11 @@ title: DbSetup.exe
 uid: dbsetup_exe
 description: DBSetup.exe - Database maintenance
 author: SuperOffice Product and Engineering
+date: 12.01.2025
 keywords:
 content_type: concept
 deployment: onsite
+version: 10
 ---
 
 # DBSetup.exe - Database maintenance

@@ -3,7 +3,8 @@ title: Requirements
 uid: onsite_system_requirements
 description: System requirements - onsite
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+keywords: system requirements onsite
 content_type: reference
 deployment: onsite
 ---

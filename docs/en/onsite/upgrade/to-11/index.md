@@ -18,6 +18,8 @@ You can upgrade to SuperOffice 11 from SuperOffice 8.0 or newer. The recommended
 
 [!include[ALT](../../includes/warn-win-client-discontinued.md)]
 
+## Prerequisites
+
 > [!NOTE]
 > Microsoft .NET 4.8 is required for SuperOffice 9 or newer.
 >
@@ -32,7 +34,8 @@ If you are running SuperOffice 8.0 you need to make sure the full stack of Super
 SuperOffice 8.1 or newer installation has already the full stack of SuperOffice applications installed and it is running under one domain which makes it easier to upgrade.
 
 ### 1. Upgrade SuperOffice Server
-```
+
+```text
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgrade.txt
 2025-11-18 12:40:44 [Info] Found a SuperOfficeCdd database
 2025-11-18 12:40:44 [Info] Validating license for KalleOnsite with serial number 1010000006
@@ -42,7 +45,8 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgr
 2025-11-18 12:40:48 [Info] Perform tasks after upgrade
 Upgrade completed successfully
 ```
-```
+
+```text
 # crmsetup --arg-file CRMSetupUpgrade.txt
 # replace the values
 upgrade-existing
@@ -64,13 +68,13 @@ upgrade-existing
 
 ### 2. Upgrade SuperOffice Web
 
-SuperOffice Web is upgraded by running *Setup.exe* from *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
+To upgrade SuperOffice Web, run *Setup.exe* from *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
 
 [!include[Remote NetServer](../../includes/remote-netserver-web.md)]
 
 ### 3. Upgrade SuperOffice Service
 
-SuperOffice Service is upgraded by running the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
+To upgrade SuperOffice Service, run the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
 
 
 
