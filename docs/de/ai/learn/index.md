@@ -4,12 +4,14 @@ title: KI-Services
 description: Übersicht über Künstliche Intelligenz-Services in SuperOffice CRM
 keywords: KI, künstliche Intelligenz, KI-Plattform, maschinelles Lernen, Automatisierung
 author: digitaldiina
-date: 10.15.2025
-version: 11.5
+date: 12.02.2025
+version: 11.7
 content_type: concept
 license: aiplatform
 category: automation
 topic: ai
+deployment: online
+platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -32,7 +34,7 @@ Diese Funktionen ermöglichen es Ihrem Team, sich auf sinnvolle Arbeit zu konzen
 | [Kategorisierung][2] | Schlägt eine Kategorie für neue Anfragen basierend auf dem Nachrichteninhalt vor. | Categorization |
 | [Übersetzung, Spracherkennung, Stimmungserkennung][1] | Analysiert Text zur Spracherkennung, Übersetzung und Sentiment-Bestimmung. | Text Services |
 | [Chatbot Connector][3] | Ermöglicht die Integration mit externen Chatbots zur automatischen Bearbeitung eingehender Chats. | Chatbot |
-| [SuperOffice Copilot][4] | Nutzt generative KI zur Unterstützung von Benutzern bei der Inhaltserstellung und Aufgabenführung. | Nur im Pilotbetrieb, nur auf Einladung |
+| [SuperOffice Copilot][4] | Nutzt generative KI zur Unterstützung von Benutzern bei der Inhaltserstellung und Aufgabenführung. | AI Lab (An-/Abmeldung in Einstellungen und Verwaltung) |
 
 ![Übersicht KI-Services -screenshot][img1]
 

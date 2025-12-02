@@ -4,8 +4,8 @@ title: AI services
 description: Overview of artificial intelligence services in SuperOffice CRM
 keywords: AI, artificial intelligence, AI Platform, machine learning, automation
 author: digitaldiina
-date: 10.15.2025
-version: 11.5
+date: 12.02.2025
+version: 11.7
 content_type: concept
 license: aiplatform
 category: automation
@@ -33,8 +33,8 @@ These features allow your team to focus on meaningful work, while AI handles rep
 |---|---|---|
 | [Categorization][2] | Suggests a category for new requests based on the message content. | Categorization |
 | [Translation, language detection, mood detection][1] | Analyzes text to detect language, translate it, and determine sentiment. | Text Services |
-| [Chatbot Connector][3] | Enables integration with external chatbots to handle incoming chats automatically. | Chatbot |
-| [SuperOffice Copilot][4] | Uses generative AI to assist users with content creation and task guidance. | In pilot only, by invite |
+| [Chatbot Connector][3] | Enables integration with external chat bots to handle incoming chats automatically. | Chatbot |
+| [SuperOffice Copilot][4] | Uses generative AI to assist users with content creation and task guidance. | AI Lab (opt in/opt out in Settings and maintenance) |
 
 ![AI services overview -screenshot][img1]
 

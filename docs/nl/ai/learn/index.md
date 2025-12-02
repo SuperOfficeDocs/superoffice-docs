@@ -4,12 +4,14 @@ title: AI-diensten
 description: Overzicht van kunstmatige intelligentie-diensten in SuperOffice CRM
 keywords: AI, kunstmatige intelligentie, AI Platform, machine learning, automatisering
 author: digitaldiina
-date: 10.15.2025
-version: 11.5
+date: 12.02.2025
+version: 11.7
 content_type: concept
 license: aiplatform
 category: automation
 topic: ai
+deployment: online
+platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -32,7 +34,7 @@ Deze functies stellen uw team in staat om zich te concentreren op zinvol werk, t
 | [Categorisatie][2] | Stelt een categorie voor nieuwe verzoeken voor op basis van de berichtinhoud. | Categorization |
 | [Vertaling, taaldetectie, stemmingsdetectie][1] | Analyseert tekst om taal te detecteren, te vertalen en sentiment te bepalen. | Text Services |
 | [Chatbot Connector][3] | Maakt integratie met externe chatbots mogelijk om inkomende chats automatisch af te handelen. | Chatbot |
-| [SuperOffice Copilot][4] | Gebruikt generatieve AI om gebruikers te helpen bij het maken van content en taakbegeleiding. | Alleen in pilot, alleen op uitnodiging |
+| [SuperOffice Copilot][4] | Gebruikt generatieve AI om gebruikers te helpen bij het maken van content en taakbegeleiding. | AI Lab (aan-/afmelden in Instellingen en onderhoud) |
 
 ![Overzicht AI-diensten -screenshot][img1]
 
