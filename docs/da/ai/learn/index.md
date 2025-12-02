@@ -4,12 +4,14 @@ title: AI-tjenester
 description: Oversigt over kunstig intelligens-tjenester i SuperOffice CRM
 keywords: AI, kunstig intelligens, AI Platform, maskinlæring, automatisering
 author: digitaldiina
-date: 10.15.2025
-version: 11.5
+date: 12.02.2025
+version: 11.7
 content_type: concept
 license: aiplatform
 category: automation
 topic: ai
+deployment: online
+platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -32,7 +34,7 @@ Disse funktioner giver dit team mulighed for at fokusere på meningsfuldt arbejd
 | [Kategorisering][2] | Foreslår en kategori for nye sager baseret på beskedindholdet. | Categorization |
 | [Oversættelse, sprogregistrering, stemningsregistrering][1] | Analyserer tekst for at registrere sprog, oversætte det og bestemme sentiment. | Text Services |
 | [Chatbot Connector][3] | Muliggør integration med eksterne chatbots til automatisk håndtering af indgående chats. | Chatbot |
-| [SuperOffice Copilot][4] | Bruger generativ AI til at hjælpe brugere med indholdsoprettelse og opgavevejledning. | Kun i pilot, kun efter invitation |
+| [SuperOffice Copilot][4] | Bruger generativ AI til at hjælpe brugere med indholdsoprettelse og opgavevejledning. | AI Lab (tilmelding/framelding i Indstillinger og vedligeholdelse) |
 
 ![Oversigt over AI-tjenester -screenshot][img1]
 
