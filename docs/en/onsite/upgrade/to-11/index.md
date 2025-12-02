@@ -64,7 +64,7 @@ upgrade-existing
 
 ### 2. Upgrade SuperOffice Web
 
-SuperOffice Web is upgraded by running *Setup.exe* from *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
+SuperOffice Web is upgraded by running *Setup.exe* from the *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
 
 [!include[Remote NetServer](../../includes/remote-netserver-web.md)]
 
