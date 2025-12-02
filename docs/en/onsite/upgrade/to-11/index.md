@@ -76,7 +76,7 @@ SuperOffice Service is upgraded by running the *SuperOffice.CustomerService.exe*
 
 ### 4. Uninstall SuperOffice 8 Win clients
 
-If you used SuperOffice 8 Win app, it needs to be uninstalled from all clients. SuperOffice Win app has been discontinued since SuperOffice 9.
+The SuperOffice Win app has been discontinued since SuperOffice 9. If you used the SuperOffice 8 Win app, it needs to be uninstalled from all clients.
 
 <!-- Referenced links -->
 [1]: ../to-81/index.md
