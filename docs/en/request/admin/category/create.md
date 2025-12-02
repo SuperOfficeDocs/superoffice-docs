@@ -3,9 +3,9 @@ uid: help-en-request-category-create
 title: Create request category
 description: Create request category
 keywords: add request category, create request category, new request category, request category, Categories tab, request, category
-author: Hanne Gunnarsson
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: settings
@@ -66,7 +66,7 @@ index: true
         * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
         * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests** > **Unassigned requests** (default) or in the queue system **Get next request in queue**.
 
-    * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
+    * **Only assign to active users**: Assigns requests only to users who are logged in to SuperOffice Service.
 
     * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
 

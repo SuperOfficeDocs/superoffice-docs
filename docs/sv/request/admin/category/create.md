@@ -3,10 +3,11 @@ uid: help-sv-request-category-create
 title: Skapa ärendekategori
 description: Skapa ärendekategori
 keywords: lägg till ärendekategori, skapa ärendekategori, ny ärendekategori, ärendekategori, Kategoriflik, ärende, kategori
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 12.02.2025
+version: 11.7
 content_type: howto
+license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -63,9 +64,9 @@ index: true
            Exempel: Om kontakt A har vikt 1, B har vikt 2 och C har vikt 5 så kommer, under ett lopp av 8 ärenden, var och en av dessa kontakter att tilldelas lika många ärenden som deras vikttal anger.
 
         * **Till användare med minst aktiva ärenden**: Nya ärenden tilldelas till den kategorimedlem som har minst antal aktiva ärenden.
-        * **Tilldela inte**: Ärenden tilldelas inte till specifika användare, utan alla ärenden placeras i en kö som standard. Antingen under **Ärenden** > **Otilldelade ärenden** (standard) eller i kösystemet **Hämta nästa ärende i kön** (se [Hur du konfigurerar Hämta nästa ärende i kön][3]).
+        * **Tilldela inte**: Ärenden tilldelas inte till specifika användare, utan alla ärenden placeras i en kö som standard. Antingen under **Ärenden** > **Otilldelade ärenden** (standard) eller i kösystemet **Hämta nästa ärende i kön**.
 
-    * **Tilldela bara till inloggade användare**: Tilldelar bara ärenden till användare som är inloggade i SuperOffice Service.
+    * **Tilldela bara till aktiva användare**: Tilldelar bara ärenden till användare som är inloggade i SuperOffice Service.
 
     * **Tilldela till kategoriansvarig om ingen är tillgänglig**: Tilldelar ärenden till kategoriansvarig om inga andra användare är tillgängliga.
 

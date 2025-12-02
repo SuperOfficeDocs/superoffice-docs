@@ -2,10 +2,10 @@
 uid: help-nl-request-category-create
 title: Verzoekcategorie aanmaken
 description: Verzoekcategorie aanmaken
-keywords: verzoekcategorie, categorie, verzoek
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+keywords: verzoekcategorie toevoegen, verzoekcategorie aanmaken, nieuwe verzoekcategorie, verzoekcategorie, tabblad Categorieën, verzoek, categorie
+author: digitaldiina
+date: 12.02.2025
+version: 11.7
 content_type: howto
 license: serviceessentials
 audience: settings
@@ -64,9 +64,9 @@ index: true
            Bijvoorbeeld: wanneer persoon A een weging van 1 heeft, persoon B een weging van 2 en persoon C een weging van 5, krijgt elk van deze personen bij een bereik van 8 verzoeken hetzelfde aantal verzoeken toegewezen als door hun weging wordt aangegeven.
 
         * **Aan gebruiker met minste aantal openstaande verzoeken**: nieuwe verzoeken worden toegewezen aan het lid van de categorie met het minste aantal openstaande verzoeken.
-        * **Niet toewijzen**: de verzoeken worden niet toegewezen aan specifieke gebruikers, maar worden standaard in een wachtrij geplaatst. Onder **Verzoeken** > **Niet-toegewezen verzoeken** (standaard) of in het wachtrijsysteem **Volgend verzoek in wachtrij ophalen** (zie [Hoe 'Volgend verzoek in wachtrij ophalen' instellen][3]).
+        * **Niet toewijzen**: de verzoeken worden niet toegewezen aan specifieke gebruikers, maar worden standaard in een wachtrij geplaatst. Onder **Verzoeken** > **Niet-toegewezen verzoeken** (standaard) of in het wachtrijsysteem **Volgend verzoek in wachtrij ophalen**.
 
-    * **Alleen toewijzen aan aangemelde gebruikers**: Verzoeken worden alleen toegewezen aan gebruikers die bij SuperOffice Service zijn aangemeld.
+    * **Alleen toewijzen aan actieve gebruikers**: Verzoeken worden alleen toegewezen aan gebruikers die bij SuperOffice Service zijn aangemeld.
 
     * **Toewijzen aan categoriebeheerder als niemand beschikbaar is**: verzoeken worden aan de categoriebeheerder toegewezen wanneer er geen andere gebruikers beschikbaar zijn.
 
