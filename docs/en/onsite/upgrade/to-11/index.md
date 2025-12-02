@@ -70,7 +70,7 @@ SuperOffice Web is upgraded by running *Setup.exe* from the *SnMWeb* installatio
 
 ### 3. Upgrade SuperOffice Service
 
-SuperOffice Service is upgraded by running the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
+SuperOffice Service is upgraded by running the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded, you need to run *upgrade.exe* to upgrade Service's database values.
 
 
 
