@@ -7,7 +7,7 @@ author: SuperOffice Product and Engineering
 date: 12.01.2025
 content_type: howto
 deployment: onsite
-version: 8, 9, 10
+version: 10
 ---
 
 # Install CRM Server 8 - 10
