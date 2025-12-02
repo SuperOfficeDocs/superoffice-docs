@@ -28,50 +28,7 @@ The server where you install SuperOffice CRM Server needs to have an internet co
 
 ## Install
 
-SuperOffice 11.6 Onsite has two tools to replace ServerSetup and DBSetup.
-
-CRMSetup is for installation and maintenance of database and document templates. Installation, upgrade, inspect, import, export and transfer of database.
-Document templates are installed when creating new and upgrading.
-
-CRMTask is for scheduling regeneration of freetext index, Saint counters and Status monitors. And run ERP sync.
-
-CRMSetup and CRMTask are commandline tools:  Argument files can be made and reused to make the work easier, copy them into the CRMSetup folder.
-
-Run command prompt as administrator, --help gives possible options, and arguments for the different options:
-...>crmsetup --help
-
-...>crmsetup new-installation --help
-
-```dos
-D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe --help
-Usage: CrmSetup [command]
-
-CrmSetup is a command-line utility designed to manage SuperOffice CRM installations. It is a replacement
-for the traditional SuperOffice CRM Setup tool and it provides commands for creating new installations,
-upgrading existing setups, and inspecting databases.
-
-Commands:
-  new-installation      Create a new installation
-  upgrade-existing      Upgrade existing installation
-  inspect-database      Inspect existing database
-  kill-database         Kill existing superoffice database
-  import-file           Import an IMP data file to the database.
-  export-database       Export a database to a file
-  import-database       Import a database from a file, overwriting any existing database
-  transfer-database     Transfer data from a source to a destination database
-
-Options:
-  --arg-file            Use arguments from argument file
-  -h, --help            Show help message
-  --version             Show version
-```
-
-Example for new database:
-...\CrmSetup>crmsetup --arg-file CRMSetup.txt
-The first out-commented line have the full command for copy-paste into cmd.
-Remember to change all necessary values.
-
-The inspect option is useful for testing how to use CRMSetup without changing the database.
+FILL IN INSTALL PRODECURE
 
 ***
 

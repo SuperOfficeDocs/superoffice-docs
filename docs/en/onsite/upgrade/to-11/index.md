@@ -33,10 +33,14 @@ A SuperOffice 8.1 or newer installation already has the full stack of SuperOffic
 
 ### 1. Upgrade SuperOffice Server
 
-```text
+From SuperOffice 11, the SuperOffice server and database are upgraded with [CrmSetup][2] utility. 
+
+Run CrmSetup.exe with upgrade-existing option and supply the corresponding argument file. See examples below. This will upgrade the database to the current version.
+
+```dos
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgrade.txt
 2025-11-18 12:40:44 [Info] Found a SuperOfficeCdd database
-2025-11-18 12:40:44 [Info] Validating license for KalleOnsite with serial number 1010000006
+2025-11-18 12:40:44 [Info] Validating license for Super 85 with serial number 1010000006
 2025-11-18 12:40:45 [Info] No pending upgrades
 2025-11-18 12:40:45 [Info] Copying embedded document template resources
 2025-11-18 12:40:45 [Info] Starting NetServer
@@ -44,24 +48,24 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgr
 Upgrade completed successfully
 ```
 
-```text
+```dos
 # crmsetup --arg-file CRMSetupUpgrade.txt
 # replace the values
 upgrade-existing
 --database-server SQL-server
---database-name SO10
---db-user crm7
---db-password xxx
---table-prefix crm7
---so-arc D:\server\so_arc
+--database-name SO85
+--db-user crm7 
+--db-password xxx 
+--table-prefix crm7 
+--so-arc C:\soserver\SO_ARC
 --email-client Outlook2007
---company-name SO_for_upgrade
---serial-number 151xxxxxxx
---license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc
---system-user sysuser
---system-password xxx
+--company-name Super 85 
+--serial-number 161xxxxxxx
+--license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc 
+--system-user crm8 
+--system-password xxx 
 --language NO
---country NO
+--country NO 
 ```
 
 ### 2. Upgrade SuperOffice Web
@@ -80,3 +84,4 @@ The SuperOffice Win app has been discontinued since SuperOffice 9. If you used t
 
 <!-- Referenced links -->
 [1]: ../to-81/index.md
+[2]: ../../install/database/crmsetup-and-crmtask.md
