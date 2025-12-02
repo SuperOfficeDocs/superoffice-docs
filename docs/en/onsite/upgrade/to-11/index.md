@@ -12,8 +12,6 @@ deployment: onsite
 
 # Upgrade to SuperOffice 11
 
-# TO BE FINISHED
-
 You can upgrade to SuperOffice 11 from SuperOffice 8.0 or newer. The recommended installation scenarios and setup requirements are the same as from SuperOffice 8.1.
 
 [!include[ALT](../../includes/warn-win-client-discontinued.md)]
@@ -35,10 +33,7 @@ A SuperOffice 8.1 or newer installation already has the full stack of SuperOffic
 
 ### 1. Upgrade SuperOffice Server
 
-<<<<<<< HEAD
 ```text
-=======
->>>>>>> e728325b7845b9f65e1db7582a1d828139af702d
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgrade.txt
 2025-11-18 12:40:44 [Info] Found a SuperOfficeCdd database
 2025-11-18 12:40:44 [Info] Validating license for KalleOnsite with serial number 1010000006
@@ -71,23 +66,13 @@ upgrade-existing
 
 ### 2. Upgrade SuperOffice Web
 
-<<<<<<< HEAD
 To upgrade SuperOffice Web, run *Setup.exe* from *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
-=======
-SuperOffice Web is upgraded by running *Setup.exe* from the *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
->>>>>>> e728325b7845b9f65e1db7582a1d828139af702d
 
 [!include[Remote NetServer](../../includes/remote-netserver-web.md)]
 
 ### 3. Upgrade SuperOffice Service
 
-<<<<<<< HEAD
 To upgrade SuperOffice Service, run the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
-=======
-SuperOffice Service is upgraded by running the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded, you need to run *upgrade.exe* to upgrade Service's database values.
->>>>>>> e728325b7845b9f65e1db7582a1d828139af702d
-
-
 
 ### 4. Uninstall SuperOffice 8 Win clients
 

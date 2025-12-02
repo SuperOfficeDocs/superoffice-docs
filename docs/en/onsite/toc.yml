@@ -54,7 +54,7 @@ items:
       - name: Prepare CRM Server
         href: install/server/prepare.md
         items:
-        - name: Prepare for SuperOffice 8 - 10
+        - name: Prepare for SuperOffice 8-10
           href: install/server/prepare-10.md       
       - name: IIS web server
         href: install/iis/index.md
@@ -73,7 +73,7 @@ items:
       - name: Install SuperOffice server
         href: install/server/index.md
         items:
-        - name: Install CRM Server 8 - 10
+        - name: Install CRM Server 8-10
           href: install/server/install-10.md
           items:
           - name: Silent install
@@ -148,6 +148,8 @@ items:
     items:
     - name: Feature toggles
       href: feature-toggles.md
+    - name: CrmSetup and CrmTask
+      href: install/database/crmsetup-and-crmtask.md
     - name: DBSetup
       href: install/database/dbsetup-exe.md
     - name: SoTables.ini
