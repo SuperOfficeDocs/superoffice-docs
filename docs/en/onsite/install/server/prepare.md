@@ -14,7 +14,7 @@ deployment: onsite
 
 1. Prepare the program files folder:
 
-    *Program Files* is where the server software will be installed. By default, we put this in *C:\Program Files\SuperOffice\SuperOffice Server*. Here you will find the tools for database maintenance and running scheduled tasks.
+    We recommend to unzip the content of the **CrmServer.zip** file into *C:\Program Files\SuperOffice\CrmSetup* folder. Here you will find the tools for database maintenance and running scheduled tasks.
 
 2. Prepare the document archive folder:
 

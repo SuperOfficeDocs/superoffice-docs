@@ -78,6 +78,8 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe --arg-file CRMSetupNew.txt
 Installation completed successfully
 ```
 
+Example argument file for a new installation.
+
 ```dos
 # crmsetup --arg-file CRMSetupNew.txt
 # replace the values
@@ -121,6 +123,8 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe upgrade-existing --arg-file CRMSetupUpgr
 Upgrade completed successfully
 ```
 
+Example argument file for a database upgrade.
+
 ```dos
 # crmsetup --arg-file CRMSetupUpgrade.txt
 # replace the values
@@ -151,6 +155,8 @@ D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe inspect-database --arg-file CRMSetupInsp
 2025-11-13 08:57:13 [Info] Found 269 pending upgrades
 Database inspection completed successfully
 ```
+
+Example argument file for a database inspection.
 
 ```dos
 # crmsetup --arg-file CRMSetupInspect.txt
