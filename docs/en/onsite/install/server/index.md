@@ -14,16 +14,6 @@ deployment: onsite
 
 ## Prerequisites
 
-Prerequisites are available in the installation package.
-
-After you start the SuperOffice CRM Server installer, you will find the **Install prerequisites**. Here you can click the **Advanced** button to see what will be installed and select or unselect if you want to do it another way.
-
-To install the .NET Framework, an internet connection is required. If the server where the installation is done doesn't have an internet connection, the [correct .NET framework][1] must be installed from another source.
-
-A warning will be given when installing prerequisites if the installation of the .NET Framework fails, and ServerSetup will not start if .NET is not installed on the server.
-
-The reason is the prerequisites installation program on the installation package contains only the boot-strapper for the .NET installation and not the entire setup program (approx 2.5 MB versus 250 MB).
-
 The server where you install SuperOffice CRM Server needs to have an internet connection and access to our License server on [https://license.superoffice.com][4].
 
 ## Install

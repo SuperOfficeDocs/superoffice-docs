@@ -249,10 +249,32 @@ transfer-database
 
 ## CrmTask
 
-TO BE FINISHED 
+CrmTask is for scheduling regeneration of freetext index, Saint counters and status monitors, and running ERP sync.
+
+```dos
+C:\SuperOffice\CrmSetup>crmtask --help
+Usage: CrmTask [command]
+
+CrmTask is a command-line utility designed to manage various CRM-related operations efficiently.
+It provides functionalities to regenerate critical CRM components such as Saint counters, status monitors,
+free-text indexes, and ERP sync, ensuring that your CRM data is up-to-date and optimized for performance.
+
+More information about each command can be found by referencing the command's specific help section.
 
 
-CrmTask is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
+Commands:
+  regenerate-saint-counters     Regenerate Saint counters
+  regenerate-status-monitors    Regenerate status monitors
+  regenerate-free-text-index    Regenerate free text index
+  erp-sync-all                  Run ERP sync process
+
+Options:
+  --arg-file    Use arguments from argument file
+  -h, --help    Show help message
+  --version     Show version
+```
+
+Example argument file for Saint counters regeneration:
 
 ```dos
 # crmtask --arg-file CRMTaskRegenerateSaint.txt
@@ -267,11 +289,16 @@ regenerate-saint-counters
 --system-password xxx
 ```
 
-### CRMtask as scheduled task
+### CrmTask as scheduled task
 
+To run the CrmTask automatically, you can use Windows task scheduler to schedule it to run e.g. every night. As arguments, use --arg-file and add the corresponding argument file for the given task. If you do not specify the CrmTask command on the command line, you need to have it on the first line in the argument file (e.g. regenerate-saint-counters).
 
+![Scheduled Task][img1]
+
+![Scheduled Task][img2]
 
 <!-- Referenced links -->
 
-
 <!-- Referenced images -->
+[img1]: media/scheduledcrmtask1.jpg
+[img2]: media/scheduledcrmtask2.jpg
