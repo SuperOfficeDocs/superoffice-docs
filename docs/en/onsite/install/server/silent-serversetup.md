@@ -1,9 +1,11 @@
 ---
+uid: silent-serversetup
 title: Silent install of ServerSetup
-uid: silent_serversetup
 description: Silent install of ServerSetup
+keywords: ServerSetup
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+version: 10
 content_type: reference
 deployment: onsite
 ---

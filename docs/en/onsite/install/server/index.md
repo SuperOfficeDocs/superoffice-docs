@@ -1,13 +1,13 @@
 ---
+uid: install-crm-server
 title: Install SuperOffice Win Server
-uid: install_crm_server
 description: Install SuperOffice Win Server
+keywords: install, server
 author: SuperOffice Product and Engineering
 date: 12.01.2025
-keywords: install, server
+version: 11
 content_type: howto
 deployment: onsite
-version: 11
 ---
 
 # Install CRM Server 11 and newer
@@ -16,11 +16,11 @@ version: 11
 
 Prerequisites are available in the installation package.
 
-After you start the SuperOffice CRM Server installer you will find the **Install prerequisites**. Here you can click the Advanced button to see what will be installed and select or unselect if you want to do it another way.
+After you start the SuperOffice CRM Server installer, you will find the **Install prerequisites**. Here you can click the **Advanced** button to see what will be installed and select or unselect if you want to do it another way.
 
-To install the .NET Framework an internet connection is required. If the server where the installation is done doesn't have an internet connection, the [correct][1] .NET framework must be installed from another source.
+To install the .NET Framework, an internet connection is required. If the server where the installation is done doesn't have an internet connection, the [correct .NET framework][1] must be installed from another source.
 
-A warning will be given when installing prerequisites if the installation of the .NET Framework fails, and ServerSetup will not start if .Net is not installed on the server.
+A warning will be given when installing prerequisites if the installation of the .NET Framework fails, and ServerSetup will not start if .NET is not installed on the server.
 
 The reason is the prerequisites installation program on the installation package contains only the boot-strapper for the .NET installation and not the entire setup program (approx 2.5 MB versus 250 MB).
 
@@ -30,7 +30,7 @@ The server where you install SuperOffice CRM Server needs to have an internet co
 
 From SuperOffice 11, the SuperOffice server and database are installed with [CrmSetup][2] utility.
 
-Run CrmSetup.exe with `new-installation` option and supply the corresponding argument file, see an example below. This will prime the database with all necessary data and the license.
+Run **CrmSetup.exe** with the `new-installation` option and supply the corresponding argument file, see an example below. This will prime the database with all necessary data and the license.
 
 ```dos
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe --arg-file CRMSetupNew.txt

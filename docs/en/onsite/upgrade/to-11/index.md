@@ -3,7 +3,7 @@ uid: upgrade-to-11
 title: Upgrade to 11
 description: Upgrade to 11
 keywords: upgrade
-author: pavlas
+author: pavlas77
 date: 12.01.2025
 version: 11
 content_type: howto
@@ -33,7 +33,7 @@ A SuperOffice 8.1 or newer installation already has the full stack of SuperOffic
 
 ### 1. Upgrade SuperOffice Server
 
-From SuperOffice 11, the SuperOffice server and database are upgraded with [CrmSetup][2] utility. 
+From SuperOffice 11, the SuperOffice server and database are upgraded with [CrmSetup][2] utility.
 
 Run CrmSetup.exe with `upgrade-existing` option and supply the corresponding argument file, see an example below. This will upgrade the database to the current version.
 

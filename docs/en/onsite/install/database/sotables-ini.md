@@ -1,10 +1,11 @@
 ---
+uid: sotables-ini
 title: SoTables.ini
-uid: sotables_ini
 description: SoTables.ini
-author: Bergfrid Dias
-date: 12.10.2021
 keywords: database, DBSetup, SoTables.ini
+author: digitaldiina
+date: 12.01.2025
+version: 10
 content_type: reference
 ---
 
