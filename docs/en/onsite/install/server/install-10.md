@@ -57,16 +57,8 @@ In a new installation, only the main language is used for most of the translated
 
 If you are upgrading from an earlier version of SuperOffice, make sure to select the same main language as in the last installation, or you risk getting a mix of languages in the database/program.
 
-***
-
-[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
-
 <!-- Referenced links -->
 [1]: ../../requirements/crm-server.md
 [2]: silent-serversetup.md
 [3]: install-on-citrix.md
 [4]: https://license.superoffice.com
-[11]: ../service/prepare.md
-[12]: ../service/index.md
-[13]: ../guide.md
-[14]: ../win-client/index.md

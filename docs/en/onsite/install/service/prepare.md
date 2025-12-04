@@ -62,12 +62,11 @@ In MSSQL, create a user, which has **dbowner** access (and not sysadmin access
 
 ***
 
-[Previous][11] | [Next (CRM server)][12] | [Next (Win)][14] |  [Back to guide][13]
+[Previous][11] | [Next][12] | [Back to guide][13]
 
 <!-- Referenced links -->
 [11]: ../iis/index.md
 [12]: ../server/index.md
 [13]: ../guide.md
-[14]: ../win-client/prepare-client.md
 
 <!-- Referenced images -->

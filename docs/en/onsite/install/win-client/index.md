@@ -54,19 +54,12 @@ After the installation is completed all components are installed.
 * [Tested Microsoft SQL Server versions][3]
 * [Tested Oracle versions][4]
 
-***
-
-[Previous][11] | [Next][12] | [Back to guide][13]
-
 <!-- Referenced links -->
 [1]: ../../compatibility/server-os.md
 [2]: ../../compatibility/browser.md
 [3]: ../../compatibility/ms-sql-server.md
 [4]: ../../compatibility/oracle.md
 [5]: prepare-client.md
-[11]: ../server/index.md
-[12]: ../service/index.md
-[13]: ../guide.md
 
 <!-- Referenced images -->
 [img1]: media/crm-9-win-install1.png
