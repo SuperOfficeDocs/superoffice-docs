@@ -1,31 +1,31 @@
 ---
-title: CrmSetup and CrmTask utilities
 uid: crmsetup-crmtask-utils
+title: CrmSetup and CrmTask utilities
 description: CrmSetup.exe and CrmTask.exe utilities
-author: SuperOffice Product and Engineering
-date: 12.01.2025
 keywords: crmsetup, crmsetup.exe, crmtask, crmtask.exe
+author: pavlas77
+date: 12.01.2025
+version: 11
 content_type: concept
 deployment: onsite
-version: 11
 ---
 
 # CrmSetup and CrmTask utilities
 
-SuperOffice 11.6 Onsite has two tools to replace ServerSetup and DBSetup.
+SuperOffice 11.6 Onsite has two tools to replace **ServerSetup** and **DBSetup**.
 
-CrmSetup is for installation and maintenance of database and document templates. It covers tasks like installation, upgrade, inspection, import, export and transfer of the database.
+**CrmSetup** is for installation and maintenance of database and document templates. It covers tasks like installation, upgrade, inspection, import, export, and transfer of the database.
 Document templates are installed when creating new and upgrading current installation.
 
-CrmTask is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
+**CrmTask** is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
 
-CrmSetup and CrmTask are commandline tools - argument files can be made and reused to make the work easier, just copy them into the CrmSetup folder. You can <a href="../../../assets/downloads/so11config_example_argument_files.zip" download>download example argument files</a>. The first commented-out line in the example file has the full command for copy-paste into cmd. Remember to change all necessary values.
+*CrmSetup* and *CrmTask* are commandline tools - argument files can be made and reused to make the work easier, just copy them into the CrmSetup folder. You can <a href="../../../assets/downloads/so11config_example_argument_files.zip" download>download example argument files</a>. The first commented-out line in the example file has the full command for copy-paste into cmd. Remember to change all necessary values.
 
-You can also use <a href="../../../assets/downloads/so11config_generators.zip" download>html based argument generators</a>. The zip file contains two html files, each for one utility. Just unzip them and run locally.
+You can also use <a href="../../../assets/downloads/so11config_generators.zip" download>HTML-based argument generators</a>. The zip file contains two HTML files, each for one utility. Just unzip them and run locally.
 
 ## CrmSetup
 
-Run command prompt as administrator, --help gives possible options and arguments for the different options:
+Run the command prompt as administrator, `--help` gives possible options and arguments for the different options:
 
 ```dos
 ...>crmsetup --help
@@ -54,11 +54,9 @@ Options:
   --version             Show version
 ```
 
-
-
 ### New installation
 
-New-installation option is used to prime an empty database and set it up for use.
+The `new-installation` option is used to prime an empty database and set it up for use.
 
 ```dos
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe --arg-file CRMSetupNew.txt
@@ -147,7 +145,7 @@ upgrade-existing
 
 ### Inspect database
 
-The inspect-database option is useful for testing how to use CRMSetup without changing the database.
+The `inspect-database` option is useful for testing how to use **CRMSetup** without changing the database.
 
 ```dos
 D:\SO Onsite 11.6\CrmSetup>CrmSetup.exe inspect-database --arg-file CRMSetupInspect.txt
@@ -171,7 +169,7 @@ inspect-database
 
 ### Kill database
 
-Kill existing SuperOffice database. It will remove the database content, not the database itself.
+Kills an existing SuperOffice database. It will remove the database content, not the database itself.
 
 ```dos
 # crmsetup --arg-file CRMSetup.txt
@@ -187,7 +185,7 @@ kill-database
 
 ### Import IMP file
 
-Import an IMP data file to the database.
+The `import-file` option imports an IMP data file to the database.
 
 ```dos
 # crmsetup --arg-file CRMSetupImportFile.txt
@@ -203,7 +201,7 @@ import-file
 
 ### Database export
 
-During export, .sdb file is created in the same folder as CrmSetup.exe. Other path can be used but the folder has to be created first.
+During export, an *.sdb* file is created in the same folder as **CrmSetup.exe**. Other path can be used but the folder has to be created first.
 
 ```dos
 # crmsetup --arg-file CRMSetupExport.txt
@@ -219,7 +217,7 @@ export-database
 
 ### Database import
 
-Import a database from a file, overwriting any existing database.
+The `import-database` option imports a database from a file, overwriting any existing database.
 
 ```dos
 # crmsetup --arg-file CRMSetupImport.txt
@@ -235,7 +233,7 @@ import-database
 
 ### Transfer database
 
-This option transfers data from a source to a destination database.
+The `transfer-database` option transfers data from a source to a destination database.
 
 ```dos
 # crmsetup --arg-file CRMSetupTransfer.txt
@@ -255,7 +253,7 @@ transfer-database
 
 ## CrmTask
 
-CrmTask is for scheduling regeneration of freetext index, Saint counters and status monitors, and running ERP sync.
+**CrmTask** is for scheduling regeneration of the freetext index, SAINT counters and status monitors, and running ERP sync.
 
 ```dos
 C:\SuperOffice\CrmSetup>crmtask --help
@@ -297,11 +295,11 @@ regenerate-saint-counters
 
 ### CrmTask as scheduled task
 
-To run the CrmTask automatically, you can use Windows task scheduler to schedule it to run e.g. every night. As arguments, use --arg-file and add the corresponding argument file for the given task. If you do not specify the CrmTask command on the command line, you need to have it on the first line in the argument file (e.g. regenerate-saint-counters).
+To run **CrmTask** automatically, you can use the Windows task scheduler to schedule it to run for example every night. As arguments, use `--arg-file` and add the corresponding argument file for the given task. If you do not specify the **CrmTask** command on the command line, you need to have it on the first line in the argument file (for example, regenerate-saint-counters).
 
-![Scheduled Task][img1]
+![Scheduled Task -screenshot][img1]
 
-![Scheduled Task][img2]
+![Scheduled Task -screenshot][img2]
 
 <!-- Referenced links -->
 

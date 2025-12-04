@@ -75,7 +75,6 @@ new-installation
 [Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
 
 <!-- Referenced links -->
-[1]: ../../requirements/crm-server.md
 [2]: ../../install/database/crmsetup-and-crmtask.md
 [4]: https://license.superoffice.com
 [11]: ../service/prepare.md
