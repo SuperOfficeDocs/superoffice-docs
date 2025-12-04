@@ -7,8 +7,6 @@ items:
     href: configure-faq.md
   - name: Templates
     href: templates.md
-  - name: Inline CRMSCript
-    href: inline-crmscript.md
   - name: Access script
     href: access-script.md
   - name: Create web forms with special templates
