@@ -3,8 +3,10 @@ items:
   href: index.yml
   items:
   - name: Install Onsite
+    topicHref: requirements/index.md
     items:
     - name: Pre-requisites
+      topicHref: requirements/index.md
       items:
       - name: System requirements
         href: requirements/index.md
@@ -55,7 +57,7 @@ items:
         href: install/server/prepare.md
         items:
         - name: Prepare for SuperOffice 8-10
-          href: install/server/prepare-10.md       
+          href: install/server/prepare-10.md
       - name: IIS web server
         href: install/iis/index.md
         items:
@@ -114,9 +116,10 @@ items:
       - name: WCF primer
         href: install/netserver/wcf-primer.md
   - name: Upgrade Onsite
+    topicHref: upgrade/to-11/index.md
     items:
     - name: To version 11
-      href: upgrade/to-11/index.md   
+      href: upgrade/to-11/index.md
     - name: To version 9 or 10
       href: upgrade/to-9/index.md
     - name: To version 8.1 - 8.5
@@ -174,6 +177,7 @@ items:
       - name: Report parameters
         href: config/service/report-parameters.md
   - name: Integrate
+    topicHref: integrate/web-client/index.md
     items:
     - name: With the Web client
       href: integrate/web-client/index.md
