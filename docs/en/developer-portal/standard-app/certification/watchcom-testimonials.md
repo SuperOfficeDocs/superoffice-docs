@@ -1,10 +1,10 @@
 ---
+uid: security-audit-testimonials
 title: Testimonials
-uid: watchcom-testimonials
 description: What our published partners say about the security audit
+keywords: Telenor Cyberdefense, Watchcom
 author: Margrethe Romnes
 date: 09.07.2023
-keywords: Watchcom
 content_type: reference
 deployment: online
 platform: web
@@ -14,7 +14,7 @@ platform: web
 
 # Testimonials
 
-Read what our published partners say about the security audit.
+Read what our published partners say about the security audit by Telenor Cyberdefense (formerly Watchcom)
 
 > "Security was not high on our agenda before we were introduced to Watchcom. We thought we did okay, but the advice and thinking we got from Watchcom has been invaluable for us"<br>**Søren Hartig, Development Manager CRM, Adwiza**
 

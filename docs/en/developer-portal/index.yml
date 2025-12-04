@@ -8,7 +8,7 @@ metadata:
   title: Developer Portal
   description: Presents the Developer Portal and describes how to use it to manage online integrations and application.
   so.topic: landing-page
-  so.date: 09.18.2024
+  so.date: 12.04.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -99,8 +99,8 @@ landingContent:
           url: standard-app/index.md
         - text: The SuperOffice app store
           url: standard-app/app-store/index.md
-        - text: Initial Watchcom evaluation
-          url: standard-app/certification/initial-watchcom-eval.md
+        - text: Initial Telenor Cyberdefense evaluation
+          url: standard-app/certification/initial-security-eval
       - itemType: list
         typeDesc: how-to-guide
         links:

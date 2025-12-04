@@ -123,10 +123,10 @@ conceptualContent:
         itemType: explore
         typeDesc: concept
         url: ../developer-portal/standard-app/certification/index.md
-      - text: Watchcom evaluation
+      - text: Telenor Cyberdefense evaluation
         itemType: explore
         typeDesc: concept
-        url: ../developer-portal/standard-app/certification/initial-watchcom-eval.md
+        url: ../developer-portal/standard-app/certification/initial-security-eval
       - text: Obtain consent to access a customer's tenant
         itemType: list
         typeDesc: how-to-guide

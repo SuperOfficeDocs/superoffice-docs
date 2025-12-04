@@ -3,7 +3,7 @@ title: Custom applications
 uid: custom-app
 description: About custom apps for SuperOffice CRM Online
 author: Margrethe Romnes
-date: 09.07.2023
+date: 12.04.2025
 keywords: private app, custom app
 content_type: concept
 deployment: online
@@ -44,7 +44,7 @@ When it is time to develop your application idea, you have 3 options:
 
 ## <a id="validate"></a>About our validation process for custom apps
 
-Unlike standard applications, custom applications don't have to go through certification and Watchcom security testing. Instead, we do light-weight testing called **validation**.
+Unlike standard applications, custom applications don't have to go through certification and Telenor Cyberdefense security testing. Instead, we do light-weight testing called **validation**.
 
 We run the validation tests in [SOD][4] before we deploy your application to a production environment. These tests are **free of charge**.
 

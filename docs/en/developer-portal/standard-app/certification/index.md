@@ -1,17 +1,17 @@
 ---
-title: Certification
 uid: app-certification
+title: Certification
 description: About our certification process for standard apps
-author: Margrethe Romnes
-date: 09.07.2023
 keywords: certification
+author: Margrethe Romnes
+date: 12.04.2025
 ---
 
 # About our certification process for standard apps
 
 We require all standard applications to comply with our requirements before they are launched in the App Store.
 
-All [standard applications][3] have to go through certification and Watchcom security testing. If your application is one-off customization, we offer a simplified, lightweight testing program called [validation][2]. We run the initial certification tests in SOD before we move your application to Stage. In the [stage environment][1], we repeat the tests and also [bring in Watchcom to evaluate your security][8]. Only when your application is secure and conforms to our requirements is it transferred to the production environment and marketplace.
+All [standard applications][3] have to go through certification and Telenor Cyberdefense security testing. If your application is one-off customization, we offer a simplified, lightweight testing program called [validation][2]. We run the initial certification tests in SOD before we move your application to Stage. In the [stage environment][1], we repeat the tests and also [bring in Telenor Cyberdefense to evaluate your security][8]. Only when your application is secure and conforms to our requirements is it transferred to the production environment and marketplace.
 
 ## Why do you test my application?
 
@@ -32,7 +32,7 @@ We are checking logs in Application Insight and our Operation Center.
 
 ## Do I have to pay to get certified?
 
-The certification is free of charge except for a [fee billed by Watchcom][7] for their services.
+The certification is free of charge except for a [fee billed by Telenor Cyberdefense][7] for their services.
 
 ## I'm ready - what do I do?
 
@@ -44,5 +44,5 @@ Follow our [step-by-step guide][6], started by sending a request to publish in t
 [3]: ../index.md
 [5]: ../requirements/index.md
 [6]: certify-app.md
-[7]: initial-watchcom-eval.md#does-it-cost-anything
-[8]: initial-watchcom-eval.md
+[7]: initial-security-eval#does-it-cost-anything
+[8]: initial-security-eval
