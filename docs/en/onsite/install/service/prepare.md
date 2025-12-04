@@ -62,7 +62,7 @@ In MSSQL, create a user, which has **dbowner** access (and not sysadmin access
 
 ***
 
-[Previous][11] | [Next (Web)][12] | [Next (Win)][14] |  [Back to guide][13]
+[Previous][11] | [Next (CRM server)][12] | [Next (Win)][14] |  [Back to guide][13]
 
 <!-- Referenced links -->
 [11]: ../iis/index.md

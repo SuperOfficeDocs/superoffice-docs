@@ -72,7 +72,7 @@ new-installation
 
 ***
 
-[Previous][11] | [Next (Web)][12] | [Back to guide][13]
+[Previous][11] | [Next][12] | [Back to guide][13]
 
 <!-- Referenced links -->
 [2]: ../../install/database/crmsetup-and-crmtask.md

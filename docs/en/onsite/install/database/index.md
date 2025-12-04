@@ -15,7 +15,7 @@ The central database may be running on either Microsoft SQL Server or Oracle bef
 
 ## Supported databases
 
-The latest versions are MS SQL Server 2019 and Oracle 18c. Also, check out the [complete list of supported databases][4] and our [compatibility reports][1].
+For the list of supported database versions, check out the [complete list of supported databases][4] and our [compatibility reports][1].
 
 ## Unicode and ANSI database?
 
