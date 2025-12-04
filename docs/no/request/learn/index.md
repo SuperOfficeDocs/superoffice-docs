@@ -225,7 +225,6 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 * [Svar][2]
 * [Automatisk tildeling][6]
 * [7 tips for å tilby kundeservice i verdensklasse med SuperOffice Service][20] - blogg
-* [Hvorfor masseoppdatering bør være din favorittfunksjon][21] - blogg
 
 <!-- Referenced links -->
 [1]: accept.md
@@ -252,7 +251,6 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
 
 <!-- Referenced images -->

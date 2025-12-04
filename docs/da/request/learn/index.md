@@ -224,7 +224,6 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 * [Svar][2]
 * [Tildel automatisk][6]
 * [7 tips til bedre kundeservice med SuperOffice Service][20] - blog
-* [Derfor bør masseredigering være din yndlingsfunktion][21] - blog
 
 <!-- Referenced links -->
 [1]: accept.md
@@ -251,7 +250,6 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
 
 <!-- Referenced images -->
