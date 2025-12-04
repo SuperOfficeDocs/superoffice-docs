@@ -96,9 +96,11 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 ## Verwandte Inhalte
 
 * [Postfächer löschen][1]
+* [E-Mail in Service und Marketing][5]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
+[5]: ../../../../en/email/service/index.md

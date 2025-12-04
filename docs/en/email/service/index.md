@@ -1,11 +1,15 @@
 ---
-title: Service and Marketing
+uid: email-curl-and-oauth
+title: Email in Service and Marketing
 description: Email in Service and Marketing
-author: Frode B
-date: 01.15.2024
 keywords: email, cURL, OAuth
+author: Frode B
+date: 12.04.2025
+version: 11
 content_type: concept
+category: email
 index: true
+language: en
 ---
 
 # Email in Service and Marketing

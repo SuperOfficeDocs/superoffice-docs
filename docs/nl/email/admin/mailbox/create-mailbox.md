@@ -96,9 +96,11 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 ## Gerelateerde inhoud
 
 * [Postbussen verwijderen][1]
+* [E-mail in Service en Marketing][5]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
+[5]: ../../../../en/email/service/index.md
