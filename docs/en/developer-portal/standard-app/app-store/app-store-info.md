@@ -3,8 +3,8 @@ uid: dp-app-store-info
 title: App Store information
 description: Updating App Store information in the SuperOffice Developer Portal.
 keywords: Developer Portal, App Store
-author: Bergfrid Dias
-date: 10.16.2024
+author: digitaldiina
+date: 12.04.2025
 version_devportal: 1.27
 content_type: howto
 deployment: online
@@ -21,7 +21,7 @@ As a partner that offers one or more applications through the [SuperOffice App S
 
 Before a new application gets listed in the App Store:
 
-* Your standard application has [passed certification][5], including Watchcom's security evaluation.
+* Your standard application has [passed certification][5], including Telenor Cyberdefense's security evaluation.
 * You have appointed a designated commercial contact to help us get your application ready for production, this user need [App store rights][15].
 * Your commercial contact has [completed the application listing][3] for the App Store.
 

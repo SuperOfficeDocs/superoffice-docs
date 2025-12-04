@@ -1,9 +1,10 @@
 ---
+uid: start-app-certification
 title: Start certification
-uid: start_certification
 description: Submit standard app for certification
+keywords: certify
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.04.2025
 content_type: howto
 deployment: online
 platform: web
@@ -25,7 +26,7 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 
     [!include[List of info](../../includes/list-of-test-period-info.md)]
 
-3. [Pass Watchcom security test][3].
+3. [Pass Telenor Cyberdefense security test][3].
 4. Fix issues if necessary.
 
 After certification, your application is ready to be published in the App Store!
@@ -34,6 +35,6 @@ After certification, your application is ready to be published in the App Store!
 
 <!-- Referenced links -->
 [1]: checklist.md
-[3]: initial-watchcom-eval.md
+[3]: initial-security-eval
 [4]: ../publish.md
 [5]: ../../create-app/request-to-publish.md

@@ -4,7 +4,7 @@ title: Security requirements
 description: Security requirements
 keywords: certification
 author: Margrethe Romnes, Tony Yates
-date: 03.22.2024
+date: 12.04.2025
 content_type: reference
 deployment: online
 platform: web
@@ -19,8 +19,8 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 ## Requirements
 
 * [Standard applications][1] must pass [certification by SuperOffice][2].
-* Standard applications must pass a [security audit by Watchcom][3].
-* All red flags reported by Watchcom must be fixed before the application is published as a [beta][4].
+* Standard applications must pass a [security audit by Telenor Cyberdefense][3].
+* All red flags reported by Telenor Cyberdefense must be fixed before the application is published as a [beta][4].
 * [Custom applications][5] must pass [validation by SuperOffice][6]
 
 ### Credentials and authentication
@@ -72,7 +72,7 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: ../certification/certify-app.md
-[3]: ../certification/initial-watchcom-eval.md
+[3]: ../certification/initial-security-eval
 [4]: ../publish.md#beta
 [5]: ../../custom-app/index.md
 [6]: ../../custom-app/validate.md

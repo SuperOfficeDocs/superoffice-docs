@@ -2,9 +2,10 @@
 uid: online-development-introduction
 title: Introduction to online development
 description: Comprehensive guide to developing applications for SuperOffice CRM Online, covering environments, authentication, APIs, and best practices.
+keywords: online development, SOD, SuperOffice Developer Portal, OAuth, REST API, SOAP API, app lifecycle
 author: AnthonyYates
 date: 15.10.2025
-keywords: online development, SOD, SuperOffice Developer Portal, OAuth, REST API, SOAP API, app lifecycle
+version: 11
 content_type: concept
 deployment: online
 platform: web
@@ -183,7 +184,7 @@ Before your app goes live, it needs a check-up.
 ### Standard apps
 
 * Go through [full certification][10].
-* Includes a security review by Watchcom.
+* Includes a security review by [Telenor Cyberdefense][27].
 
 ### Custom apps
 
@@ -265,7 +266,6 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [15]: ../web-services/endpoints/rest-webapi/index.md
 [16]: ../web-services/endpoints/soap/index.md
 [17]: ../../developer-portal/create-app/config/redirects.md
-[18]: https://community.superoffice.com/en/forums
 [19]: https://appstore.superoffice.com
 [20]: ../../developer-portal/tenants/index.md
 [21]: ../../developer-portal/best-practices/index.md
@@ -274,6 +274,8 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [24]: ../authentication/online/index.md
 [25]: https://community.superoffice.com
 [26]: ../../online/sandbox/index.md
+[27]: https://www.telenorcyberdefence.com/
 
-<!-- Referenced images -->
+<!-- Referenced images 
 [img1]: media/online-app-development.png
+-->

@@ -20,12 +20,12 @@ items:
     href: certification/index.md
     items:
     - name: About the security evaluation
-      href: certification/initial-watchcom-eval.md
+      href: certification/initial-security-eval.md
     - name: Checklist
       href: certification/checklist.md
     - name: Certify app
       href: certification/certify-app.md
-    - name: Watchcom testimonials
+    - name: Telenor Cyberdefense testimonials
       href: certification/watchcom-testimonials.md
   - name: App store
     href: app-store/index.md

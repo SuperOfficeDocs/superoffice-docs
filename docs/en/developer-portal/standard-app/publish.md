@@ -3,7 +3,7 @@ title: Publish app
 uid: standard-app-publish
 description: Publish standard app in CRM Online environment
 author: Margrethe Romnes
-date: 09.07.2023
+date: 12.04.2025
 keywords: App Store
 content_type: howto
 deployment: online
@@ -16,7 +16,7 @@ Congratulations, your standard application is ready!
 
 **Pre-requisites:**
 
-* Your standard application has [passed certification][1], including Watchcom's security evaluation.
+* Your standard application has [passed certification][1], including Telenor Cyberdefense's security evaluation.
 * Your commercial contact has [completed the application listing][2] for the App Store.
 
 **Process:**
