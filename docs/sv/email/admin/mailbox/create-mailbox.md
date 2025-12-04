@@ -96,9 +96,11 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 ## Relaterat innehåll
 
 * [Ta bort brevlådor][1]
+* [E-post i Service och Marketing][5]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
+[5]: ../../../../en/email/service/index.md

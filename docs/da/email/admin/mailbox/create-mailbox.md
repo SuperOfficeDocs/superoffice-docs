@@ -96,9 +96,11 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 ## Relateret indhold
 
 * [Sletning af e-mail-konti][1]
+* [E-mail i Service og Marketing][5]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
+[5]: ../../../../en/email/service/index.md
