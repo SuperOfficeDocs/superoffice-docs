@@ -321,6 +321,8 @@ items:
         href: howto/sale/lost-or-sold.md
       - name: Samples
         href: howto/sale/samples.md
+  - name: Inline CRMScript
+    href: howto/inline-crmscript.md
 - name: Tutorials
   href: tutorials/index.md
   items:
