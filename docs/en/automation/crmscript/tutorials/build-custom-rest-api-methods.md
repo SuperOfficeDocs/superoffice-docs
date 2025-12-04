@@ -10,7 +10,7 @@ content_type: howto
 # Building custom REST API methods using CRMScript
 
 > [!NOTE]
-> The original version of this article appears on the community website and was written by [Frode Lillerud](https://community.superoffice.com/en/system/profile-page/?pid=UShYbWFUWI9MDA). The docs team thanks Frode for sharing this content with us. 
+> The original version of this article appears on the community website and was written by [Frode Lillerud](https://community.superoffice.com/en/system/profile-page/?pid=UShYbWFUWI9MDA). The docs team thanks Frode for sharing this content with us.
 
 When doing programming for SuperOffice you'll encounter a plethora of APIs that you can use. There is the old COM-based API that only works with the Windows client, you've got the NetServer web services which are extensively used by the product itself, but is somewhat .NET focused, there is the SOAP based API that Ejournal had for working with Requests, and there is the new REST API which is recently released.
 

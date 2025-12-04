@@ -224,7 +224,6 @@ Några inställningar som påverkar supportagenter inkluderar:
 * [Svara på ett ärende][2]
 * [Automatisk tilldelning av ärenden][6]
 * [7 tips för att ge förstklassig kundservice med SuperOffice Service][20] – blogg
-* [Varför massuppdatering bör vara din favoritfunktion][21] - blogg
 
 <!-- Referenced links -->
 [1]: accept.md
@@ -251,7 +250,6 @@ Några inställningar som påverkar supportagenter inkluderar:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
 
 <!-- Referenced images -->

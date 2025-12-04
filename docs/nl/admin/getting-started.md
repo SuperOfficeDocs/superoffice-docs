@@ -146,7 +146,7 @@ Door WebTools te installeren, krijgt u uw e-mail en documenten geïntegreerd met
 [8]: ../security/privacy/admin/index.md
 [9]: preferences/index.md
 [12]: ../../../integrations/webtools/install.md
-[13]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/web-tools-work-faster-with-email-and-documents/
+[13]: ../../../integrations/webtools/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/admin/project-guide.png

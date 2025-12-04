@@ -224,7 +224,6 @@ Some settings that affect support agents include:
 * [Reply][2]
 * [Automatic assignment][6]
 * [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
-* [Why bulk update should be your favorite feature][21] - blog
 
 <!-- Referenced links -->
 [1]: accept.md
@@ -253,7 +252,6 @@ Some settings that affect support agents include:
 [26]: ../../admin/preferences/service-settings.md
 
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

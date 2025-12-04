@@ -223,7 +223,6 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 * [Antwort an Kunden senden][2]
 * [Automatische Zuweisung von Anfragen][6]
 * [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
-* [Warum der Massenabgleich Ihr Lieblingsfeature sein sollte][21] – Blog
 
 <!-- Referenced links -->
 [1]: accept.md
@@ -250,7 +249,6 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
 
 <!-- Referenced images -->
