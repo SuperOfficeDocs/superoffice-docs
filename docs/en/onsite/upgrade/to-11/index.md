@@ -16,13 +16,6 @@ You can upgrade to SuperOffice 11 from SuperOffice 8.0 or newer. The recommended
 
 [!include[ALT](../../includes/warn-win-client-discontinued.md)]
 
-## Prerequisites
-
-> [!NOTE]
-> Microsoft .NET 4.8 is required for SuperOffice 9 or newer.
->
-> The installer will handle the installation of .NET 4.8 for you, but some clients may like to pre-install it themselves.
-
 ## Upgrade from SuperOffice 8.0
 
 If you are running SuperOffice 8.0, you need to make sure the full stack of SuperOffice applications (SuperOffice Server, SuperOffice Web, and SuperOffice Service) is installed. You also need to [move all products under one domain][1], as seen from the browser. It might be beneficial to [upgrade to SuperOffice 8.1][1] first and follow the corresponding guides for different installation scenarios.

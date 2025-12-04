@@ -304,5 +304,5 @@ To run **CrmTask** automatically, you can use the Windows task scheduler to sche
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/scheduledcrmtask1.jpg
-[img2]: media/scheduledcrmtask2.jpg
+[img1]: media/scheduledcrmtask1.png
+[img2]: media/scheduledcrmtask2.png

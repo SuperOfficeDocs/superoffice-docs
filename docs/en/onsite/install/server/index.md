@@ -72,7 +72,7 @@ new-installation
 
 ***
 
-[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
+[Previous][11] | [Next (Web)][12] | [Back to guide][13]
 
 <!-- Referenced links -->
 [2]: ../../install/database/crmsetup-and-crmtask.md
@@ -80,4 +80,3 @@ new-installation
 [11]: ../service/prepare.md
 [12]: ../service/index.md
 [13]: ../guide.md
-[14]: ../win-client/index.md

@@ -4,8 +4,8 @@ title: Set-up guide
 description: SuperOffice set-up guide
 keywords: onsite installation
 author: SuperOffice Product and Engineering
-date: 11.25.2025
-version: 10
+date: 12.04.2025
+version: 11
 content_type: howto
 deployment: onsite
 ---
