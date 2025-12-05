@@ -3,9 +3,9 @@ uid: help-en-search-criteria
 title: Working with search criteria
 description: How to add and modify search criteria
 keywords: search, criteria, find
-author: Bergfrid Dias
-date: 05.25.2023
-version: 10.5.2
+author: digitaldiina
+date: 12.05.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,11 +19,6 @@ You use search criteria to define what you are looking for, for example "compani
 Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
 Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you would like to use again, you can save it as a selection.
-
-Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
 ## Add search criteria
 
@@ -47,6 +42,10 @@ Watch this video to learn how to do a typical search and modify it by adding new
 1. Select values for the search criteria in the various fields on the line.
 
 1. Click **Add** to add a new line, or click **Or** to add a new set of criteria.
+
+### Using OR groups
+
+You can broaden a search by grouping criteria with the OR operator. An OR group matches records that satisfy any of the criteria inside the group. This is useful when you want to include multiple independent conditions in a single search, such as customers located in different cities or customers matching alternative product criteria.
 
 ## Field types
 

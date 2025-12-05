@@ -1,11 +1,11 @@
 ---
 uid: help-de-search-criteria
 title: Suchkriterien verwenden
-description: Suchkriterien verwenden
-keywords: Suchen, Kriterien
-author: Bergfrid Dias
-date: 05.25.2023
-version: 10.5.2
+description: Suchkriterien hinzufügen und ändern
+keywords: Suchen, Kriterien, finden
+author: digitaldiina
+date: 12.05.2025
+version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,13 +19,6 @@ Suchkriterien werden verwendet, um Suchanfragen zu definieren, wie zum Beispiel 
 Überall dort, wo Sie Suchkriterien eingeben können, finden Sie eine Kriterienliste mit den ausgewählten Suchkriterien.
 
 Typische Suchanfragen sollen Ihnen den Einstieg und die Erstellung Ihrer eigenen Suche nach CRM-Daten erleichtern. Nachdem Sie eine typische Suchanfrage ausgewählt haben, können Sie die Suchkriterien hinzufügen und bearbeiten. Und nachdem Sie eine nützliche Suche erstellt haben, die Sie erneut verwenden möchten, können Sie diese als Selektion speichern.
-
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(Videolänge – 3:01)
 
 ## Suchkriterien hinzufügen
 
@@ -49,6 +42,10 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
 1. Wählen Sie die Werte für die Suchkriterien in den verschiedenen Feldern der Zeile aus.
 
 1. Klicken Sie auf **Hinzufügen**, um eine neue Zeile hinzuzufügen, oder klicken Sie auf **Oder**, um einen neuen Kriteriensatz hinzuzufügen.
+
+### ODER-Gruppen verwenden
+
+Sie können eine Suche erweitern, indem Sie Kriterien mit dem ODER-Operator gruppieren. Eine ODER-Gruppe entspricht Datensätzen, die eines der Kriterien innerhalb der Gruppe erfüllen. Dies ist nützlich, wenn Sie mehrere unabhängige Bedingungen in eine einzelne Suche einschließen möchten, wie z. B. Kunden in verschiedenen Städten oder Kunden, die alternative Produktkriterien erfüllen.
 
 ## Feldtypen
 
