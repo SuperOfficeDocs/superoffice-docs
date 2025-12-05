@@ -1,12 +1,12 @@
 ---
 uid: help-no-search-criteria
 title: Bruke søkekriterier
-description: Bruke søkekriterier
+description: Slik legger du til og endrer søkekriterier
 keywords: søk, kriterier, finn
-author: Bergfrid Dias
-date: 03.28.2023
-version: 10.5.2
-content_type: howto
+author: digitaldiina
+date: 12.05.2025
+version: 11.7
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -19,13 +19,6 @@ Du bruker søkekriterier for å definere hva du leter etter, for eksempel "firma
 Overalt der du kan legge inn søkekriterier, finner du en liste over kriterier som inneholder de valgte søkekriteriene.
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
-
-Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(videolengde – 3:01)
 
 ## Legg til søkekriterier
 
@@ -49,6 +42,10 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 1. Velg verdier for søkekriteriene i de ulike feltene på linjen.
 
 1. Klikk på **Legg til** for å legge til en ny linje, eller klikk på **Eller** for å legge til et nytt sett med kriterier.
+
+### Bruke ELLER-grupper
+
+Du kan utvide et søk ved å gruppere kriterier med ELLER-operatoren. En ELLER-gruppe matcher oppføringer som oppfyller ett av kriteriene i gruppen. Dette er nyttig når du vil inkludere flere uavhengige betingelser i ett enkelt søk, for eksempel kunder i forskjellige byer eller kunder som matcher alternative produktkriterier.
 
 ## Felttyper
 
