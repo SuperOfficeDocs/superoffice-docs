@@ -3,9 +3,9 @@ uid: help-nl-contact-dial
 title: Contactpersonen bellen
 description: Contactpersonen bellen en telefoonvoorkeuren instellen
 keywords: agenda, vervolgactiviteit, telefoon, bellen, oproep, IP-telefoon
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -56,6 +56,18 @@ Als IP-telefoon, Skype of Facetime is geïnstalleerd, kunt u telefoneren vanuit 
 * **FaceTime**: `facetime:%p`
 
 Er kunnen ook [sjabloonvariabelen][2] worden gebruikt in de telefoonparameters.
+
+### Technische opmerking voor ISV's
+
+ISV's kunnen de voorkeur **Telefoonlinkopmaak** gebruiken om een aangepast belprotocol te definiëren in plaats van de standaard `tel:%p`. U kunt bijvoorbeeld de waarde instellen op `domycall:%p` om belverzoeken door te sturen naar een lokale listener-applicatie.
+
+Om dit mogelijk te maken, moet de clientcomputer een protocolhandler registreren in het Windows-register:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+De registervermelding moet verwijzen naar het uitvoerbare bestand dat het binnenkomende belverzoek verwerkt. Het argument `%1` bevat het telefoonnummer dat SuperOffice CRM doorgeeft via het aangepaste protocol.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md

@@ -3,9 +3,9 @@ uid: help-sv-contact-dial
 title: Ringa till kontakter
 description: Ringa till kontakter; Telefoninställningar
 keywords: kalender, händelse, telefon, ringa upp, ringa
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -56,6 +56,18 @@ Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOff
 * **FaceTime**: `facetime:%p`
 
 Du kan också använda [mallvariabler][2] i telefoninställningarna.
+
+### Teknisk notering för ISV:er
+
+ISV:er kan använda inställningen **Telefonlänkformat** för att definiera ett anpassat samtalsprotokoll istället för standardvärdet `tel:%p`. Du kan till exempel ställa in värdet till `domycall:%p` för att vidarebefordra samtalsförfrågningar till en lokal lyssnarapplikation.
+
+För att aktivera detta måste klientmaskinen registrera en protokollhanterare i Windows-registret:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+Registerposten måste peka på den körbara filen som bearbetar den inkommande samtalsförfrågan. Argumentet `%1` innehåller telefonnumret som SuperOffice CRM skickar genom det anpassade protokollet.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md

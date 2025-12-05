@@ -2,10 +2,13 @@
 uid: help-en-contact-dial
 title: Dialling contacts
 description: Dialling contacts; Phone preferences
-author: SuperOffice RnD
-date: 09.22.2023
 keywords: diary, follow-up, phone, call, dial
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -53,6 +56,18 @@ If IP phone, Skype or FaceTime is installed, you can make phone calls from Super
 * **FaceTime**: `facetime:%p`
 
 [Template variables][2] can also be used in the phone parameters.
+
+### Technical note for ISVs
+
+ISVs can use the **Phone-link format** preference to define a custom call protocol instead of the default `tel:%p`. For example, you can set the value to `domycall:%p` to forward call requests to a local listener application.
+
+To enable this, the client machine must register a protocol handler in the Windows registry:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+The registry entry must point to the executable that processes the incoming call request. The `%1` argument contains the phone number that SuperOffice CRM passes through the custom protocol.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md

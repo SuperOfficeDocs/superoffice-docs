@@ -2,10 +2,13 @@
 uid: help-no-contact-dial
 title: Ringe personer
 description: Ringe personer; Telefonpreferanser
-author: SuperOffice RnD
-date: 09.22.2023
 keywords: dagbok, oppfølging, telefon, samtale, ringe
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -53,6 +56,18 @@ Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffic
 * **FaceTime**: `facetime:%p`
 
 Det er også mulig å bruke [malvariabler][2] i telefonparameterne.
+
+### Teknisk merknad for ISV-er
+
+ISV-er kan bruke preferansen **Telefonforbindelsesformat** til å definere en egendefinert anropsprotokoll i stedet for standardverdien `tel:%p`. Du kan for eksempel sette verdien til `domycall:%p` for å videresende anropsforespørsler til en lokal lytterapplikasjon.
+
+For å aktivere dette må klientmaskinen registrere en protokollbehandler i Windows-registeret:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+Registeroppføringen må peke til den kjørbare filen som behandler den innkommende anropsforespørselen. Argumentet `%1` inneholder telefonnummeret som SuperOffice CRM sender gjennom den egendefinerte protokollen.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md

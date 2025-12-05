@@ -3,9 +3,9 @@ uid: help-da-contact-dial
 title: Ring til personer
 description: Sådan ringer du til personer i SuperOffice CRM.
 keywords: dagbog, opfølgning, telefon, ring til, ring op, telefonegenskaber
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -56,6 +56,18 @@ Hvis IP-telefon, Skype eller FaceTime er installeret, kan du foretage opkald fra
 * **FaceTime**: `facetime:%p`
 
 Det er også muligt at anvende [skabelonvariabler][2] i telefonparametrene.
+
+### Teknisk note til ISV'er
+
+ISV'er kan bruge præferencen **Telefonforbindelsesformat** til at definere en brugerdefineret opkaldsprotokol i stedet for standardværdien `tel:%p`. Du kan f.eks. indstille værdien til `domycall:%p` for at videresende opkaldsanmodninger til en lokal lytterapplikation.
+
+For at aktivere dette skal klientmaskinen registrere en protokolhåndtering i Windows-registreringsdatabasen:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+Registreringsposten skal pege på den eksekverbare fil, der behandler den indgående opkaldsanmodning. Argumentet `%1` indeholder det telefonnummer, som SuperOffice CRM sender gennem den brugerdefinerede protokol.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
