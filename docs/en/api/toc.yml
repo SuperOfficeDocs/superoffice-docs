@@ -779,8 +779,6 @@ items:
             href: search/find-selection/operators.md
           - name: Date range as criteria
             href: search/find-selection/date-range-as-criteria.md
-          - name: Convert legacy operators
-            href: search/find-selection/convert-to-new-date-range-operators.md
           - name: Typical search
             href: search/find-selection/typical-search.md
       - name: Archive provider fundamentals
