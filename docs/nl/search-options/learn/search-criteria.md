@@ -1,11 +1,11 @@
 ---
 uid: help-nl-search-criteria
 title: Zoekcriteria gebruiken
-description: Zoekcriteria gebruiken
-keywords: zoeken, criteria
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+description: Zoekcriteria toevoegen en wijzigen
+keywords: zoeken, criteria, vinden
+author: digitaldiina
+date: 12.05.2025
+version: 11.7
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,13 +19,6 @@ U gebruikt zoekcriteria om te bepalen waar u naar zoekt, bijvoorbeeld "bedrijven
 Overal waar u zoekcriteria kunt invoeren, vindt u een criterialijst met de geselecteerde zoekcriteria.
 
 Frequente zoekacties zijn er om u te helpen aan de slag te gaan en uw eigen zoekopdracht voor CRM-gegevens te maken. Nadat u een frequente zoekactie hebt geselecteerd, kunt u de zoekcriteria toevoegen en bewerken. En nadat u een nuttige zoekopdracht hebt gemaakt die u opnieuw wilt gebruiken, kunt u deze opslaan als een selectie.
-
-Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wijzigt door nieuwe zoekcriteria toe te voegen of volg de stapsgewijze handleiding hieronder:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(duur van de video - 3:01)
 
 ## Zoekcriteria toevoegen
 
@@ -49,6 +42,10 @@ Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wij
 4. Selecteer waarden voor de zoekcriteria in de verschillende velden op de regel.
 
 5. Klik op **Toevoegen** om een nieuwe regel toe te voegen of klik op **Of** om een nieuwe set criteria toe te voegen.
+
+### OF-groepen gebruiken
+
+U kunt een zoekopdracht verbreden door criteria te groeperen met de OF-operator. Een OF-groep komt overeen met records die aan een van de criteria binnen de groep voldoen. Dit is handig wanneer u meerdere onafhankelijke voorwaarden in één zoekopdracht wilt opnemen, zoals klanten in verschillende steden of klanten die aan alternatieve productcriteria voldoen.
 
 ## Veldtypen
 
@@ -125,7 +122,7 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 | Zoekcriteria (een regel) verplaatsen | Klik en sleep met <i class="ph ph-equals" aria-label="="></i>. |
 | Zoekcriteria wijzigen | Klikt u erop en selecteert u een ander criterium in de lijst die wordt weergegeven. |
 | Een of meer zoekcriteria deactiveren | Geen waarde op te geven voor het veld. |
-| Inaktivera alla sökkriterierna | Klik op **Alles deactiverena**. |
+| Alle zoekcriteria deactiveren | Klik op **Alles wissen**. |
 | Zoekcriteria verwijderen | Klik op <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Standaardzoekcriteria opnieuw instellen | Klikt u op **Standaardwaarde opnieuw instellen**. |
 
@@ -137,8 +134,10 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 ## Gerelateerde inhoud
 
 * [Het scherm Zoeken gebruiken][1]
+* [Selecties][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md

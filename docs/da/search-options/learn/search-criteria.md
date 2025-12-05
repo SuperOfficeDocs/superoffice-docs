@@ -1,11 +1,11 @@
 ---
 uid: help-da-search-criteria
 title: Brug af søgekriterier
-description: Brug af søgekriterier
+description: Sådan tilføjes og redigeres søgekriterier
 keywords: søge, kriterier, finde
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 12.05.2025
+version: 11.7
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,13 +19,6 @@ Søgekriterier bruger du til at fortælle, hvad du leder efter, for eksempel "fi
 Overalt, hvor du kan tilføje søgekriterier, finder du en lis kriterieliste med de valgte søgekriterier.
 
 Typiske søgninger er der for at hjælpe dig med at komme i gang og oprette din egen søgning efter CRM-data. Når du har valgt en typisk søgning, kan du tilføje og redigere søgekriterierne. Og når du har oprettet en nyttig søgning, som du gerne vil bruge igen, kan du gemme den som et udvalg.
-
-Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(videolængde – 3:01)
 
 ## Tilføjelse af søgekriterier
 
@@ -49,6 +42,10 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 4. Vælg værdier for søgekriterierne i de forskellige felter på linjen.
 
 5. Klik på **Tilføj** for at tilføje en ny linje, eller klik på **Eller** for at tilføje et nyt sæt kriterier.
+
+### Brug af ELLER-grupper
+
+Du kan udvide en søgning ved at gruppere kriterier med ELLER-operatoren. En ELLER-gruppe matcher poster, der opfylder et hvilket som helst af kriterierne i gruppen. Dette er nyttigt, når du vil inkludere flere uafhængige betingelser i en enkelt søgning, såsom kunder placeret i forskellige byer eller kunder, der matcher alternative produktkriterier.
 
 ## Typer af felter
 
@@ -139,8 +136,10 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 ## Relateret indhold
 
 * [Brug skærmbilledet Søg][1]
+* [Udvalg][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md
