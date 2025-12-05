@@ -6,7 +6,7 @@ keywords: søge, kriterier, finde
 author: digitaldiina
 date: 12.05.2025
 version: 11.7
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
