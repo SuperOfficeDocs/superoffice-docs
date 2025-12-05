@@ -1,9 +1,11 @@
 ---
+uid: prepare-win-client
 title: Prepare Win client computer
-uid: prepare_win_client
 description: Prepare Win client computer
+keywords: Win client
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.04.2025
+version: 10
 content_type: howto
 deployment: onsite
 platform: win

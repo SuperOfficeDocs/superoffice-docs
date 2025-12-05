@@ -3,8 +3,9 @@ uid: prepare-service
 title: Prepare to install Service
 description: From SuperOffice 8 you also need to install Service. Here's what you need to do before you start the installation.
 keywords: install
-author: SuperOffice Product and Engineering
-date: 11.21.2025
+author: pavlas77
+date: 12.04.2025
+version: 11
 content_type: howto
 deployment: onsite
 redirect_from: /en/service/install/prepare
