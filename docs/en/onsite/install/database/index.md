@@ -1,10 +1,11 @@
 ---
+uid: install-database
 title: Install database
-uid: install_database
-description: "How to prepare and install the SuperOffice database."
-author: SuperOffice Product and Engineering
-date: 09.12.2023
+description: How to prepare and install the SuperOffice database.
 keywords: install, database, Oracle, MSQL
+author: pavlas77
+date: 12.01.2025
+version: 11
 content_type: howto
 deployment: onsite
 ---
@@ -15,7 +16,7 @@ The central database may be running on either Microsoft SQL Server or Oracle bef
 
 ## Supported databases
 
-The latest versions are MS SQL Server 2019 and Oracle 18c. Also, check out the [complete list of supported databases][4] and our [compatibility reports][1].
+For the list of supported database versions, check out the [complete list of supported databases][4] and our [compatibility reports][1].
 
 ## Unicode and ANSI database?
 

@@ -1,9 +1,11 @@
 ---
+uid: prepare-win-client
 title: Prepare Win client computer
-uid: prepare_win_client
 description: Prepare Win client computer
+keywords: Win client
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.04.2025
+version: 10
 content_type: howto
 deployment: onsite
 platform: win
@@ -55,15 +57,6 @@ Service uses both ODBC and NetServer connection.
 Migration Tool uses ADO.NET to connect to the database. It also uses Win client to read some information from the SuperOffice database. If Win client is not installed a user will get the following dialog and will have to type in the answers manually.
 
 ![Migration Tool -screenshot][img1]
-
-***
-
-[Previous][11] | [Next][12] | [Back to guide][13]
-
-<!-- Referenced links -->
-[11]: ../service/prepare.md
-[12]: ../server/index.md
-[13]: ../guide.md
 
 <!-- Referenced images -->
 [img1]: media/dd952b42-6d72-454f-a4de-8af1e500b04d.png

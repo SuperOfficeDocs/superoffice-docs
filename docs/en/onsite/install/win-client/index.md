@@ -1,9 +1,11 @@
 ---
+uid: install-win9-client
 title: Install SuperOffice 9 or 10 Windows client
-uid: install_win9_client
 description: Install SuperOffice 9 or 10 Windows client
-author: SuperOffice Product and Engineering
 keywords: install, win, client
+author: SuperOffice Product and Engineering
+date: 12.01.2025
+version: 10
 content_type: howto
 deployment: onsite
 platform: win
@@ -11,7 +13,7 @@ platform: win
 
 # Install SuperOffice 9 or 10 Windows client
 
-From SuperOffice 9 the SuperOffice Windows client is not available. The *SuperOffice9.exe* (or *SuperOffice10.exe* for SuperOffice 10) installer contains SuperOffice Admin client, Reporter Studio and Travel Gateway.
+From SuperOffice 9, the SuperOffice Windows client is not available. The *SuperOffice9.exe* (or *SuperOffice10.exe* for SuperOffice 10) installer contains the SuperOffice Admin client, Reporter Studio and Travel Gateway. **From SuperOffice 11, the client installer is discontinued.**
 
 The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
@@ -52,19 +54,12 @@ After the installation is completed all components are installed.
 * [Tested Microsoft SQL Server versions][3]
 * [Tested Oracle versions][4]
 
-***
-
-[Previous][11] | [Next][12] | [Back to guide][13]
-
 <!-- Referenced links -->
 [1]: ../../compatibility/server-os.md
 [2]: ../../compatibility/browser.md
 [3]: ../../compatibility/ms-sql-server.md
 [4]: ../../compatibility/oracle.md
 [5]: prepare-client.md
-[11]: ../server/index.md
-[12]: ../service/index.md
-[13]: ../guide.md
 
 <!-- Referenced images -->
 [img1]: media/crm-9-win-install1.png

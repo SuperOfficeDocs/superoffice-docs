@@ -3,8 +3,10 @@ items:
   href: index.yml
   items:
   - name: Install Onsite
+    topicHref: requirements/index.md
     items:
     - name: Pre-requisites
+      topicHref: requirements/index.md
       items:
       - name: System requirements
         href: requirements/index.md
@@ -53,6 +55,9 @@ items:
       items:
       - name: Prepare CRM Server
         href: install/server/prepare.md
+        items:
+        - name: Prepare for SuperOffice 8-10
+          href: install/server/prepare-10.md
       - name: IIS web server
         href: install/iis/index.md
         items:
@@ -70,8 +75,11 @@ items:
       - name: Install SuperOffice server
         href: install/server/index.md
         items:
-        - name: Silent install
-          href: install/server/silent-serversetup.md
+        - name: Install CRM Server 8-10
+          href: install/server/install-10.md
+          items:
+          - name: Silent install
+            href: install/server/silent-serversetup.md
         - name: Install on Citrix or Terminal server
           href: install/server/install-on-citrix.md
           items:
@@ -108,19 +116,12 @@ items:
       - name: WCF primer
         href: install/netserver/wcf-primer.md
   - name: Upgrade Onsite
+    topicHref: upgrade/to-11/index.md
     items:
-    - name: To version 8.0
-      items:
-      - name: Upgrade scenarios 7.5 to 8
-        href: upgrade/75-to-8/index.md
-      - name: CRM Server
-        href: upgrade/75-to-8/crm-server.md
-      - name: Web client
-        href: upgrade/75-to-8/web-client.md
-      - name: NetServer
-        href: upgrade/75-to-8/netserver.md
-      - name: Windows client
-        href: upgrade/75-to-8/win-client.md
+    - name: To version 11
+      href: upgrade/to-11/index.md
+    - name: To version 9 or 10
+      href: upgrade/to-9/index.md
     - name: To version 8.1 - 8.5
       href: upgrade/to-81/index.md
       items:
@@ -132,15 +133,26 @@ items:
         href: upgrade/to-81/using-new-domains.md
       - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
-    - name: To version 9 or 10
-      href: upgrade/to-9/index.md
-    - name: Upgrade Service
-      href: upgrade/service/index.md
+    - name: To version 8.0
+      href: upgrade/75-to-8/index.md
+      items:
+      - name: Upgrade scenarios 7.5 to 8
+        href: upgrade/75-to-8/index.md
+      - name: CRM Server
+        href: upgrade/75-to-8/crm-server.md
+      - name: Web client
+        href: upgrade/75-to-8/web-client.md
+      - name: NetServer
+        href: upgrade/75-to-8/netserver.md
+      - name: Windows client
+        href: upgrade/75-to-8/win-client.md
   - name: Configuration
     href: config/index.md
     items:
     - name: Feature toggles
       href: feature-toggles.md
+    - name: CrmSetup and CrmTask
+      href: install/database/crmsetup-and-crmtask.md
     - name: DBSetup
       href: install/database/dbsetup-exe.md
     - name: SoTables.ini
@@ -165,6 +177,7 @@ items:
       - name: Report parameters
         href: config/service/report-parameters.md
   - name: Integrate
+    topicHref: integrate/web-client/index.md
     items:
     - name: With the Web client
       href: integrate/web-client/index.md

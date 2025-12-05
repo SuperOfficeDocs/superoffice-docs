@@ -1,14 +1,18 @@
 ---
+uid: dbsetup-exe
 title: DbSetup.exe
-uid: dbsetup_exe
 description: DBSetup.exe - Database maintenance
+keywords: DBSetup
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+version: 10
 content_type: concept
 deployment: onsite
 ---
 
 # DBSetup.exe - Database maintenance
+
+[!include[DBSetup](../../includes/warn-dbsetup-discontinued.md)]
 
 Earlier versions of DBSetup may differ a bit in the user interface, but the basic functionality is still the same. Please note the warning - there is no turning back once you have started the different operations.
 

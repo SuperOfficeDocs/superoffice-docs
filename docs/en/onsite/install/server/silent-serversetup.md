@@ -1,14 +1,18 @@
 ---
+uid: silent-serversetup
 title: Silent install of ServerSetup
-uid: silent_serversetup
 description: Silent install of ServerSetup
+keywords: ServerSetup
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+version: 10
 content_type: reference
 deployment: onsite
 ---
 
 # Silent install of ServerSetup
+
+[!include[DBSetup](../../includes/warn-dbsetup-discontinued.md)]
 
 ServerSetup can be installed silently without using the user interface. All functionality is covered by the available arguments. Error messages or ServerSetups user interface will be displayed on error.
 

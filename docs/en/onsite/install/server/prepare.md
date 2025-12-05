@@ -1,22 +1,22 @@
 ---
+uid: prepare-crm-server
 title: Prepare CRM Server computer
-uid: prepare_crm_server
 description: Prepare CRM Server computer
-author: SuperOffice Product and Engineering
 keywords: install
+author: SuperOffice Product and Engineering
+date: 12.01.2025
+version: 11
 content_type: howto
 deployment: onsite
 ---
 
-# Prepare CRM Server computer
+# Prepare CRM Server computer for SuperOffice 11
 
-1. Prepare the program files folder
+1. Prepare the program files folder:
 
-    This is where the server software will be installed. By default, we put this in *C:\Program Files\SuperOffice\SuperOffice Server*. Here you will find the tools for database maintenance (*Dbsetup.exe*) and create and edit the install files (*SoCreateMST.exe*).
+    We recommend to unzip the content of the **CrmServer.zip** file into *C:\Program Files\SuperOffice\CrmSetup* folder. Here you will find the tools for database maintenance and running scheduled tasks.
 
-    In *SuperOffice Server* we also create a subfolder called *Client*, which must be available for all users who want to install the Win client. We recommend you share the Client folder and not the SuperOffice Server folder.
-
-2. Prepare the document archive folder
+2. Prepare the document archive folder:
 
     This folder is the central document archive, and all users must have access to this location via the application. For Win client users, this folder must be shared, the user must be able to create and edit folders and files.
 

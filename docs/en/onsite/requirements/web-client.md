@@ -1,10 +1,11 @@
 ---
+uid: client-requirements
 title: Client requirements
-uid: client_requirements
 description: Client requirements for SuperOffice Web and Win
+keywords: requirement, processor, memory, operating system
 author: SuperOffice Product and Engineering
-date: 09.12.2023
-keywords:
+date: 12.04.2025
+version: 11
 content_type: reference
 deployment: onsite
 platform: web

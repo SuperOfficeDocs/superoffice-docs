@@ -1,9 +1,11 @@
 ---
+uid: onsite-system-requirements
 title: Requirements
-uid: onsite_system_requirements
 description: System requirements - onsite
+keywords: system requirements onsite
 author: SuperOffice Product and Engineering
-keywords:
+date: 12.01.2025
+version: 11
 content_type: reference
 deployment: onsite
 ---
@@ -61,6 +63,7 @@ See: [.NET system requirements][13]
 
 | Versions | Web client | Service client |
 |----------|------------|----------------|
+| 11 | services88 | services88 |
 | 10 | services88 | services88 |
 | 9 | services88 | services88 |
 | 8.5 R09 - R15 | services88 | services88 |

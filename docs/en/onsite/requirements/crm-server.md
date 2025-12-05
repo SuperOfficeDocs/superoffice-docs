@@ -1,10 +1,11 @@
 ---
+uid: crm-server-requirements
 title: Requirements
-uid: crm_server_requirements
 description: System requirements for SuperOffice server
+keywords: system requirement, SuperOffice server, server OS
 author: SuperOffice Product and Engineering
-date: 11.28.2025
-keywords:
+date: 12.04.2025
+version: 11
 content_type: reference
 deployment: onsite
 ---

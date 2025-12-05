@@ -13,7 +13,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 12.01.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -101,14 +101,10 @@ conceptualContent:
             itemType: list
             typeDesc: how-to-guide
             text: Create MS SQL Server database
-          - url: install/database/create-oracle-db.md
+          - url: install/server/index.md
             itemType: list
             typeDesc: how-to-guide
-            text: Create Oracle database
-          - url: install/server/silent-serversetup.md
-            itemType: list
-            typeDesc: how-to-guide
-            text: Install SuperOffice server (silent)
+            text: Install SuperOffice server
           - url: install/web-client/index.md
             itemType: list
             typeDesc: how-to-guide
@@ -121,6 +117,10 @@ conceptualContent:
       - title: Upgrade
         summary: Upgrade your onsite SuperOffice installation
         links:
+          - url: upgrade/to-11/index.md
+            itemType: list
+            typeDesc: how-to-guide
+            text: To version 11            
           - url: upgrade/to-9/index.md
             itemType: list
             typeDesc: how-to-guide
