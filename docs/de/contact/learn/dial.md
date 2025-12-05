@@ -2,10 +2,13 @@
 uid: help-de-contact-dial
 title: Personen anrufen
 description: Personen anrufen; Telefoneinstellungen
-author: SuperOffice RnD
-date: 09.22.2023
 keywords: Kalender, Folgeaufgabe, Telefon, Anruf, Anrufen
+author: digitaldiina
+date: 12.05.2025
+version: 11
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -54,6 +57,18 @@ Wenn ein IP-Telefon, Skype oder FaceTime installiert ist, können Sie aus SuperO
 * **FaceTime**: `facetime:%p`
 
 [Vorlagenvariablen][2] können ebenfalls in den Telefonparametern verwendet werden.
+
+### Technischer Hinweis für ISVs
+
+ISVs können die Einstellung **Telefon-Link Format** verwenden, um ein benutzerdefiniertes Anrufprotokoll anstelle des Standardwerts `tel:%p` zu definieren. Sie können beispielsweise den Wert auf `domycall:%p` setzen, um Anrufanforderungen an eine lokale Listener-Anwendung weiterzuleiten.
+
+Um dies zu aktivieren, muss die Client-Maschine einen Protokollhandler in der Windows-Registrierung registrieren:
+
+```sh
+Computer\HKEY_CLASSES_ROOT\domycall\shell\open\command
+```
+
+Der Registrierungseintrag muss auf die ausführbare Datei zeigen, die die eingehende Anrufanforderung verarbeitet. Das Argument `%1` enthält die Telefonnummer, die SuperOffice CRM über das benutzerdefinierte Protokoll übergibt.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
