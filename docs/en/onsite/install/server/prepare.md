@@ -18,7 +18,7 @@ deployment: onsite
 
 2. Prepare the document archive folder:
 
-    This folder is the central document archive, and all users must have access to this location via the application. For Win client users, this folder must be shared, the user must be able to create and edit folders and files.
+    This folder is the central document archive, and all users must have access to this location via the application.
 
 ***
 
