@@ -29,39 +29,43 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * [SharePoint Documents][25] 3.5 (11.09.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024
-* [SuperOffice for Outlook][23] 6.1.4 (23.10.2025)
+* [SuperOffice for Outlook][23] 6.1.5 (09.12.2025)
 * [Video Meetings][22] 2.9 (21.08.2025)
-* [WebTools for Mac][21] 13.1 (24.03.2025))
-* [WebTools for Windows][21] 13.0 (04.03.2024)
-* [Zapier][20] 3.5 (24.10.2025)
+* [WebTools for Mac][21] 13.2 (30.11.2025)
+* [WebTools for Windows][21] 13.1 (30.11.2025)
+* [Zapier][20] 3.5.4 (10.12.2025)
 
 ## SuperOffice App Store
 
 See all the [new or updated apps][2]
 
-* [Harmoniser (16.10.2025)][28] from Synergy Technology Ltd
-* [Panels for SuperOffice (03.10.2025)][29] from SuperOffice AS
-* [ConnectERP for Tripletex (17.09.2025)][19] from SuperOffice AS
-* [Book My Calendar (29.08.2025)][14] from SuperOffice AS
-* [findProspects (08.08.2025)][12] from Cloud Connection AS
-* [D&B Data Blocks (03.07.2025)][18] from i-Centrum AB
-* [ConnectERP for Business NXT (31.07.2025)][17] from SuperOffice AS
-* [Connect ERP for Visma Net (31.07.2025)][16] from SuperOffice AS
-* [SuperOffice Mobile CRM (10.06.2025)][7] from SuperOffice AS
-* [Online Signature (10.06.2025)][8] from Beezy365 A/S
-* [NPS For SuperOffice (05.06.2025)][9] from Beezy365 A/S
-* [Trale (01.06.2025)][11] from Supercompany AS
-* [Scrive for SuperOffice (20.05.2025)][10] from Scrive AB
-* [ezSync (16.05.2025)][3] from Schneider & Wulf EDV-Beratung GmbH & Co KG
-* [ezSync - Dynamics 365 Business Central (16.05.2025)][4] from Schneider & Wulf EDV-Beratung GmbH & Co KG
-* [Activity folders for SuperOffice (02.10.2024)][5] from SuperOffice AS
+* [SalesScreen Integration][34] from SalesScreen (12.12.2025)
+* [Oneflow for SuperOffice][33] from Oneflow AB (09.12.2025)
+* [Panels for SuperOffice][35] from SuperOffice AS (01.12.2025)
+* [Exact for SuperOffice][31] from All-CRM (25.11.2025)
+* [Contract Manager][30] from SuperOffice AS (28.10.2025)
+* [Harmoniser][28] from Synergy Technology Ltd (16.10.2025)
+* [Panels for SuperOffice][29] from SuperOffice AS (03.10.2025)
+* [GetAccept for SuperOffice][32] from i-Centrum AB (23.09.2025)
+* [ConnectERP for Tripletex][19] from SuperOffice AS (17.09.2025)
+* [Book My Calendar][14] from SuperOffice AS (29.08.2025)
+* [findProspects][12] from Cloud Connection AS (08.08.2025)
+* [D&B Data Blocks][18] from i-Centrum AB (03.07.2025)
+* [ConnectERP for Business NXT][17] from SuperOffice AS (31.07.2025)
+* [Connect ERP for Visma Net][16] from SuperOffice AS (31.07.2025)
+* [SuperOffice Mobile CRM][7] from SuperOffice AS (10.06.2025)
+* [Online Signature][8] from Beezy365 A/S (10.06.2025)
+* [NPS For SuperOffice][9] from Beezy365 A/S (05.06.2025)
+* [Trale][11] from Supercompany AS (01.06.2025)
+* [Scrive for SuperOffice][10] from Scrive AB (20.05.2025)
+* [ezSync][3] from Schneider & Wulf EDV-Beratung GmbH & Co KG (16.05.2025)
+* [ezSync - Dynamics 365 Business Central][4] from Schneider & Wulf EDV-Beratung GmbH & Co KG (16.05.2025)
 
 <!-- Referenced links -->
 [1]: sofo/6.0-update.md
 [2]: https://appstore.superoffice.com/Category/new-and-updated
 [3]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync
 [4]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync-dynamics-365-business-central
-[5]: https://appstore.superoffice.com/superoffice-as/activity-folders-for-superoffice
 [6]: https://community.superoffice.com/en/product-releases/release-notes/
 [7]: https://appstore.superoffice.com/superoffice-as/superoffice-mobile-crm
 [8]: https://appstore.superoffice.com/beezy365-a-s/online-signature
@@ -86,5 +90,11 @@ See all the [new or updated apps][2]
 [27]: ../../docs/en/ai/learn/copilot.md
 [28]: https://appstore.superoffice.com/synergy-technology-ltd/harmoniser?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
 [29]: https://appstore.superoffice.com/superoffice-as/panels-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
+[30]: https://appstore.superoffice.com/superoffice-as/contract-manager?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[31]: https://appstore.superoffice.com/all-crm/exact-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[32]: https://appstore.superoffice.com/i-centrum-ab/getaccept-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[33]: https://appstore.superoffice.com/oneflow-ab/oneflow-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[34]: https://appstore.superoffice.com/salesscreen/salesscreen-integration?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[35]: https://appstore.superoffice.com/superoffice-as/panels-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
 
 <!-- Referenced images -->
