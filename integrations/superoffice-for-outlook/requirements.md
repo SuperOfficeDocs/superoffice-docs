@@ -69,6 +69,3 @@ If an add-in update significantly increases the scope of data access, you must r
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
 [5]: https://aka.ms/centralized-deployment-guidance
-
-<!-- Referenced images -->
-[img1]: media/outlook-api-limitation.png
