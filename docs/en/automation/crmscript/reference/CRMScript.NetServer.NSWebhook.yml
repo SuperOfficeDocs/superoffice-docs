@@ -8,6 +8,7 @@ items:
   - crmscript
   children:
   - CRMScript.NetServer.NSWebhook.#ctor
+  - CRMScript.NetServer.NSWebhook.GetErrorsEmail()
   - CRMScript.NetServer.NSWebhook.GetEvents()
   - CRMScript.NetServer.NSWebhook.GetHeaders()
   - CRMScript.NetServer.NSWebhook.GetName()
@@ -21,6 +22,7 @@ items:
   - CRMScript.NetServer.NSWebhook.GetUpdated()
   - CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
   - CRMScript.NetServer.NSWebhook.GetWebhookId()
+  - CRMScript.NetServer.NSWebhook.SetErrorsEmail()
   - CRMScript.NetServer.NSWebhook.SetEvents(String[])
   - CRMScript.NetServer.NSWebhook.SetHeaders(Map)
   - CRMScript.NetServer.NSWebhook.SetName(String)
@@ -54,7 +56,29 @@ items:
   remarks: 
   syntax: 
     content: NSWebhook
+  example:
+- uid: CRMScript.NetServer.NSWebhook.GetErrorsEmail()
+  commentId: CRMScript.NetServer.NSWebhook.GetErrorsEmail()
+  id: 'GetErrorsEmail()'
+  so.intellisense: NSWebhook.GetErrorsEmail
+  so.version: 11.0
+  langs:
+  - crmscript
+  name: 'GetErrorsEmail()'
+  nameWithType: NSWebhook.GetErrorsEmail()
+  fullName: CRMScript.NetServer.NSWebhook.GetErrorsEmail()
+  type: Method
+  summary: Email address to send error message to when this webhook state changes to too-many errors.
+  remarks: Only one email address.
+  syntax: 
+    content: String[] GetErrorsEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "The email address error messages are sent to when this webhook state changes to too-many errors."
   example: 
+  - "\n<pre><code>NSWebhook webhook;\nString emailAddress = webhook.GetErrorsEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetHeaders()
 - uid: CRMScript.NetServer.NSWebhook.GetEvents()
   commentId: M:CRMScript.NetServer.NSWebhook.GetEvents()
   id: 'GetEvents()'
@@ -328,6 +352,29 @@ items:
       description: "Primary Key. Unique id for this webhook."
   example: 
   - "\n<pre><code>NSWebhook thing;\nInteger webhookId = thing.GetWebhookId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetErrorsEmail(String)
+  commentId: CRMScript.NetServer.NSWebhook.SetErrorsEmail(String)
+  id: 'SetErrorsEmail(String)'
+  so.intellisense: NSWebhook.SetErrorsEmail
+  so.version: 11.0
+  langs:
+  - crmscript
+  name: 'SetErrorsEmail(String)'
+  nameWithType: NSWebhook.SetErrorsEmail(String)
+  fullName: CRMScript.NetServer.NSWebhook.SetErrorsEmail(String)
+  type: Method
+  summary: Email address to send error message to when this webhook state changes to too-many errors.
+  remarks: Only one email address.
+  syntax: 
+    content: String[] SetErrorsEmail(String emailAddress)
+    parameters: 
+    - id: emailAddress
+      type: CRMScript.Global.String
+      description: "Email address to send error message to when this webhook state changes to too-many errors."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook webhook;\nwebhook.SetErrorsEmail('your@email.com');</code></pre>\n"
 - uid: CRMScript.NetServer.NSWebhook.SetEvents(String[])
   commentId: M:CRMScript.NetServer.NSWebhook.SetEvents(String[])
   id: 'SetEvents(String[])'
