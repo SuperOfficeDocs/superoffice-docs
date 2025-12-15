@@ -1,0 +1,16 @@
+- name: Overview
+  href: index.md
+- name: Getting Started
+  href: getting-started.md
+- name: Workspaces
+  href: workspaces.md
+- name: Teams
+  href: teams.md
+- name: Before Meeting
+  href: before-meeting.md
+- name: Summaries
+  href: summaries.md
+- name: Settings
+  href: settings.md
+- name: Privacy & Security
+  href: privacy-security.md
