@@ -43,7 +43,7 @@ redirect_from:
 
 * Outlook on the web
 * Classic Outlook
-* new Outlook
+* New Outlook
 * Outlook for Mac
 * [Microsoft Outlook for iOS][2]
 * [Microsoft Outlook for Android][3]
