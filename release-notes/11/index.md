@@ -3,8 +3,8 @@ uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
-author: SuperOffice AS – Product and Engineering
-date: 12.02.2025
+author: kirstiaa
+date: 01.13.2026
 version: 11
 content_type: release-note
 audience: person
@@ -22,6 +22,12 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
 ## Feature updates
+
+### 11.8 (13.01.2026)
+
+* [Find - Search for Category group][23] in Core CRM and Sales
+* [Time zones - Agents with multiple time zones][24] in Service
+* [Workflow - Lead category automation][25] in Settings and maintenance
 
 ### 11.7 (25.11.2025)
 
@@ -125,6 +131,9 @@ Some features are available to selected customers as part of ongoing pilots. See
 [20]: admin/11.6-update.md
 [21]: core-crm/11.7-update.md
 [22]: service/11.7-update.md
+[23]: core-crm/11.8-update.md
+[24]: service/11.8-update.md
+[25]: admin/11.8-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

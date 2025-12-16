@@ -4,6 +4,8 @@ items:
 - name: Core CRM
   href: core-crm/index.md
   items:
+  - name: 11.8 update
+    href: core-crm/11.8-update.md
   - name: 11.7 update
     href: core-crm/11.7-update.md
   - name: 11.6 update
@@ -22,6 +24,8 @@ items:
 - name: Settings and Maintenance
   href: admin/index.md
   items:
+  - name: 11.8 update
+    href: admin/11.8-update.md
   - name: 11.6 update
     href: admin/11.6-update.md
   - name: 11.3 update
@@ -31,6 +35,8 @@ items:
 - name: Service
   href: service/index.md
   items:
+  - name: 11.8 update
+    href: service/11.8-update.md
   - name: 11.7 update
     href: service/11.7-update.md
   - name: 11.5 update

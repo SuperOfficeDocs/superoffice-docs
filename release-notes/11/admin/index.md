@@ -3,7 +3,7 @@ uid: news-admin-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Settings and maintenance 11
 author: kirstiaa
-date: 11.06.2025
+date: 01.13.2026
 version: 11
 content_type: release-note
 category: Settings and maintenance
@@ -13,6 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [Workflow - Lead category automation (11.8)][8]
 * [Marketing - Conversion tracking with UTM data (11.6)][6]
 * [Lists - Company category with category group (11.6)][6]
 * [Lists - Contact - Lead status (11.6)][6]
@@ -27,3 +28,4 @@ audience_tooltip: Settings and maintenance
 [1]: 11.1-update.md
 [3]: 11.3-update.md
 [6]: 11.6-update.md
+[8]: 11.8-update.md
