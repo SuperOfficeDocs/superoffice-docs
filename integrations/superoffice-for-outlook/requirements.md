@@ -57,7 +57,7 @@ The latest version of the following browsers are supported for Outlook on the we
 
 ## Limitations
 
-SuperOffice for Outlook works only with main account. Shared mailboxes are not supported.
+SuperOffice for Outlook works only with the main account. Shared mailboxes are not supported.
 
 ## Requirements for centralized deployment
 
