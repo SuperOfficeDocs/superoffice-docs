@@ -9,5 +9,7 @@ items:
   href: pagebuilder.md
 - name: Reports
   href: reports.md
+- name: Service CompactMode
+  href: service-compact-mode.md
 - name: SOAP web services
   href: soap.md

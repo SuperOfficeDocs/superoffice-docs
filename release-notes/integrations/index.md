@@ -26,7 +26,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 ### [Current released versions][6]
 
-* [SharePoint Documents][25] 3.5 (11.09.2025)
+* [SharePoint Documents][25] 3.5 (12.02.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024
 * [SuperOffice for Outlook][23] 6.1.5 (09.12.2025)
