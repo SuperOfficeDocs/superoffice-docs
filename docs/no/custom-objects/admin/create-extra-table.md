@@ -4,7 +4,7 @@ title: Legge til ekstratabeller
 description: Legge til ekstratabeller
 keywords: ekstratabell, tredjepartstabell, systemdesign, tabelleegenskaper
 author: Bergfrid Dias, Eivind Fasting
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 content_type: howto
 audience: settings
@@ -62,7 +62,7 @@ Du kan nå åpne tabellen i brukergrensesnittet for å legge til innhold i den *
 | Fullstendig navn |  Hvis dette er en hierarkisk organisert tabell, kan dette feltet angi et felt som automatisk oppdateres med postens fullstendige navn basert på navnefeltet for denne posten, og alle overordnede poster. |
 | Skjul ID-felt | Hvis du merker av for dette alternativet, vises ikke ID-feltet når poster føres opp i tabellen. |
 | Skjul tabellen | Hvis denne er merket, vil ikke tabellen være synlig fra **Systemdesign** > **Tabeller**. |
-| Aktiver batch-webhook i Service | Hvis valgt, vil batchoppdateringer på denne tabellen utløse [webhooks][2] |
+| Aktiver batch-webhook i Service | Hvis valgt, aktiverer batchoppdateringer på denne tabellen [webhooks][2]. |
 
 ## Vis tabell i nettleserfane
 
@@ -70,7 +70,7 @@ I SuperOffice CRM kan du opprette nettleserfaner som kan inneholde tabellinforma
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../../en/automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

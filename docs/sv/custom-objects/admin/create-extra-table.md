@@ -3,7 +3,7 @@ uid: help-sv-extra-table-create
 title: Lägg till extratabell
 description: Lägg till extratabell
 author: Bergfrid Dias, Eivind Fasting
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 keywords: extratabell
 content_type: howto
@@ -62,7 +62,7 @@ Du kan nu öppna tabellen i användargränssnittet för att lägga till innehål
 | Fullständigt namn |  Om detta är en hierarkiskt organiserad tabell kan detta fält ange ett fält som automatiskt uppdateras med postens fullständiga namn baserat på namnfältet för posten och alla överordnade poster. |
 | Dölj ID-fält | Om du markerar detta alternativ visas inte ID-fältet när posterna i tabellen visas. |
 | Dölj tabellen | Om du markerar det här alternativet är tabellen inte synlig från **Systemdesign** > **Tabeller**. |
-| Aktivera batch-webhook i Service | Om valt kommer batchuppdateringar på den här tabellen att utlösa [webhooks][2] |
+| Aktivera batch-webhook i Service | Om valt aktiverar batchuppdateringar på den här tabellen [webhooks][2]. |
 
 ## Visa tabell i webbpanel
 
@@ -70,7 +70,7 @@ I SuperOffice CRM kan du skapa webbpaneler som kan innehålla tabellinformation.
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../en/automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

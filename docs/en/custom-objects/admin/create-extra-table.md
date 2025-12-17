@@ -4,7 +4,7 @@ title:  Add extra table
 description: How to define extra tables in SuperOffice
 keywords: extra table, custom object, 3rd-party table, System design
 author: Bergfrid Dias, Eivind Fasting
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 content_type: howto
 audience: settings
@@ -62,7 +62,7 @@ You can now open the table in the UI to add content to it **or** populate it via
 | Full name |  If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries. |
 | Hide ID field | If selected, the ID field will not be shown when listing entries in the table. |
 | Hide the table | If selected, the table will not be visible from **System design** > **Tables**. |
-| Enable batch webhook in Service | If selected, batch updates on this table will trigger [webhooks][2] |
+| Enable batch webhook in Service | If selected, batch updates on this table will trigger [webhooks][2]. |
 
 ## Show table in a web panel
 

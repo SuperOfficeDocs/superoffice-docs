@@ -4,7 +4,7 @@ title: Extra tabellen toevoegen
 description: Extra tabellen toevoegen
 keywords: extra tabellen, databasetabel, tabel, tabeleigenschappen
 author: Bergfrid Dias, Eivind Fasting
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 content_type: howto
 audience: settings
@@ -62,7 +62,7 @@ U kunt nu de tabel in de gebruikersinterface openen om er inhoud aan toe te voeg
 | Volledige naam | Wanneer dit een hiërarchische tabel betreft, kunt u in dit veld een veld opgeven dat automatisch wordt bijgewerkt met de volledige naam van het item, op basis van het naamveld voor dit item en alle bovenliggende items. |
 | Veld ID verbergen | Wanneer deze optie is ingeschakeld, wordt het veld ID niet weergegeven wanneer een gebruiker de items in de tabel bekijkt. |
 | De tabel verbergen | Als deze optie is ingeschakeld, is de tabel niet zichtbaar via **Systeemontwerp** > **Tabellen**. |
-| Batch-webhook inschakelen in Service | Indien geselecteerd, zullen batchupdates op deze tabel [webhooks][2] activeren |
+| Batch-webhook inschakelen in Service | Indien geselecteerd, activeren batchupdates op deze tabel [webhooks][2]. |
 
 ## Tabelinformatie in webvensters bevatten
 
@@ -70,7 +70,7 @@ In SuperOffice CRM kunt u webvensters maken die tabelinformatie bevatten. Als u 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../en/automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

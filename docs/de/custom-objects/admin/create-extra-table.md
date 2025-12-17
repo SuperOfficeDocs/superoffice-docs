@@ -4,7 +4,7 @@ title: Zusatztabellen hinzufügen
 description: Zusatztabellen hinzufügen
 author: Bergfrid Dias, Eivind Fasting
 keywords: Zusatztabelle, Tabelle, Datentypen, Datenbanktabelle, Systemdesign
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 content_type: howto
 audience: settings
@@ -62,7 +62,7 @@ Sie können nun die Tabelle in der Benutzeroberfläche öffnen, um Inhalte hinzu
 | Vollständiger Name | Für hierarchisch strukturierte Tabellen können Sie hier ein Feld angeben, in das automatisch der vollständige Name des Eintrags eingefügt wird. Der Name wird aus dem Namensfeld des Eintrags und aller übergeordneten Einträge abgeleitet. |
 | ID-Feld ausblenden | Wenn diese Option ausgewählt ist, wird das ID-Feld bei der Auflistung von Einträgen in der Tabelle nicht angezeigt. |
 | Tabelle ausblenden | Wenn diese Option aktiviert ist, ist die Tabelle nicht über das **Systemdesign** > **Tabellen** sichtbar. |
-| Batch-Webhook in Service aktivieren | Wenn ausgewählt, lösen Batch-Updates auf dieser Tabelle [Webhooks][2] aus |
+| Batch-Webhook in Service aktivieren | Wenn ausgewählt, aktivieren Batch-Updates auf dieser Tabelle [Webhooks][2]. |
 
 ## Tabelleninformation in Web-Bildschirme erstellen
 
@@ -70,7 +70,7 @@ In SuperOffice können Sie Web-Bildschirme erstellen, die Tabelleninformationen 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../en/automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

@@ -3,7 +3,7 @@ uid: help-da-extra-table-create
 title: Tilføj ekstra tabeller
 description: Tilføj ekstra tabeller
 author: Bergfrid Dias, Eivind Fasting
-date: 10.12.2025
+date: 12.10.2025
 version: 11
 keywords: ekstratabel, systemdesign
 content_type: howto
@@ -62,7 +62,7 @@ Du kan nu åbne tabellen i brugergrænsefladen for at tilføje indhold til det *
 | Fuldt navn |  Hvis dette er en hierarkisk organiseret tabel, kan dette felt angive et felt, der automatisk opdateres med postens fuldstændige navn baseret på navnefeltet for denne post og alle overordnede poster. |
 | Skjul id-felt | Hvis denne valgmulighed er markeret, vil id-feltet ikke være synligt ved visning af tabeller eller underposter. |
 | Skjul tabellen | Hvis afkrydsningsfeltet er markeret, vil tabellen ikke være synlig fra **Systemdesign** > **Tabeller**. |
-| Aktivér batch-webhook i Service | Hvis valgt, vil batchopdateringer på denne tabel udløse [webhooks][2] |
+| Aktivér batch-webhook i Service | Hvis valgt, aktiverer batchopdateringer på denne tabel [webhooks][2]. |
 
 ## Vise tabel i webpanel
 
@@ -70,7 +70,7 @@ SuperOffice kan du oprette webpaneler, der kan indeholde tabelinformation. Hvis 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../en/automation/webhook/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
