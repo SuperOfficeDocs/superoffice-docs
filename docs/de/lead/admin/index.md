@@ -53,22 +53,22 @@ Detaillierte Schritte finden Sie unter [Lead-Status verwalten][2].
 Wenn Sie Marketing Premium verwenden, können Sie zusätzliche Nachverfolgungs- und Automatisierungsfunktionen in Ihrem Lead-Prozess nutzen:
 
 * **UTM-Tracking:** Erfassen Sie die Quelle neuer Leads aus Onlineformularen.
-  Siehe [UTM-Daten aus Formularen verfolgen][3].
+  Siehe [UTM-Daten aus Formularen verfolgen][5].
 * **Lead-Nurturing-Flow:** Neue Leads automatisch an Benutzer verteilen.
   Siehe [Neue Leads verteilen][4].
 
 ## Verwandte Inhalte
 
-* [Übersicht über das Lead-Management][5]
+* [Übersicht über das Lead-Management][3]
 * [Firmenkategorie und Kategoriengruppe][1]
 * [Lead-Status verwalten][2]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png

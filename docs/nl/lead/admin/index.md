@@ -53,22 +53,22 @@ Zie [Leadstatus beheren][2] voor gedetailleerde stappen.
 Als u Marketing Premium gebruikt, kunt u extra tracking- en automatiseringsfuncties benutten in uw leadproces:
 
 * **UTM-tracking:** Leg de bron van nieuwe leads vast via online formulieren.
-  Zie [Formulier-UTM-gegevens volgen][3].
+  Zie [Formulier-UTM-gegevens volgen][5].
 * **Lead-nurturingflow:** Verdeel nieuwe leads automatisch over gebruikers.
   Zie [Nieuwe leads verdelen][4].
 
 ## Gerelateerde inhoud
 
-* [Overzicht van leadbeheer][5]
+* [Overzicht van leadbeheer][3]
 * [Bedrijfscategorie en categoriegroep][1]
 * [Leadstatus beheren][2]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
