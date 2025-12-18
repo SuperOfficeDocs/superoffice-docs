@@ -53,13 +53,13 @@ For detaljerede trin, se [Administrér leadstatusser][2].
 Hvis du bruger Marketing Premium, kan du drage fordel af yderligere sporings- og automatiseringsfunktioner i din leadproces:
 
 * **UTM-sporing:** Indfang kilden til nye leads fra onlineformularer.
-  Se [Spor formular-UTM-data][3].
+  Se [Spor formular-UTM-data][5].
 * **Lead-nurturing-flow:** Fordel nye leads automatisk til brugere.
   Se [Fordel nye leads][4].
 
 ## Relateret indhold
 
-* [Oversigt over leadhåndtering][5]
+* [Oversigt over leadhåndtering][3]
 * [Firmakategori og kategorigruppe][1]
 * [Administrér leadstatusser][2]
 

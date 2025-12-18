@@ -55,14 +55,14 @@ For detailed steps, see [Manage lead statuses][2].
 If you use Marketing Premium, you can leverage additional tracking and automation features in your lead process:
 
 * **UTM tracking:** Capture the source of new leads from online forms.
-  See [Track form UTM data][3].
+  See [Track form UTM data][5].
 
 * **Lead nurturing flow:** Distribute new leads automatically to associates.
   See [Distribute new leads][4].
 
 ## Related content
 
-* [Lead management overview][5]
+* [Lead management overview][3]
 * [Company category and category group][1]
 * [Manage lead statuses][2]
 

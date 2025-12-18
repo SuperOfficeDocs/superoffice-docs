@@ -53,22 +53,22 @@ För detaljerade steg, se [Hantera leadstatusar][2].
 Om du använder Marketing Premium kan du dra nytta av ytterligare spårnings- och automationsfunktioner i leadprocessen:
 
 * **UTM-spårning:** Fånga källan till nya leads från onlineformulär.
-  Se [Spåra formulär-UTM-data][3].
+  Se [Spåra formulär-UTM-data][5].
 * **Lead-nurturingflöde:** Fördela nya leads automatiskt till användare.
   Se [Fördela nya leads][4].
 
 ## Relaterat innehåll
 
-* [Översikt över leadhantering][5]
+* [Översikt över leadhantering][3]
 * [Företagskategori och kategorigrupp][1]
 * [Hantera leadstatusar][2]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png

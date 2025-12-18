@@ -53,22 +53,22 @@ For detaljerte trinn, se [Administrer leadstatuser][2].
 Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
 
 * **UTM-sporing:** Fange kilden til nye leads fra nettskjemaer.
-  Se [Spor skjema-UTM-data][3].
+  Se [Spor skjema-UTM-data][5].
 * **Lead-nurturing-flyt:** Fordel nye leads automatisk til brukere.
   Se [Fordel nye leads][4].
 
 ## Relatert innhold
 
-* [Oversikt over leadhåndtering][5]
+* [Oversikt over leadhåndtering][3]
 * [Firmakategori og kategorigruppe][1]
 * [Administrer leadstatuser][2]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/lead/enable-lead-status.png
 [3]: ../learn/index.md
 [5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/lead/enable-lead-status.png
