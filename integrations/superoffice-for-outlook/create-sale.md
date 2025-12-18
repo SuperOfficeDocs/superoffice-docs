@@ -4,7 +4,7 @@ title: Create sale
 description: Create sale
 keywords: SuperOffice for Outlook, Outlook, email, create sale, SOFO
 author: Erik Lebiko, Bergfrid Dias
-date: 10.29.2024
+date: 12.18.2025
 version_sofo: 2024.8.12
 content_type: howto
 category: integration
