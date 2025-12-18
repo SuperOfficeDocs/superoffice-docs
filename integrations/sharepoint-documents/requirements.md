@@ -19,7 +19,7 @@ index: true
 
 ## VisibleFor - confidential documents: Too many confidential documents
 
-CRM Online tenants with over 25000 confidential documents cannot migrate automatically due to SharePoint Online restrictions. Please contact SuperOffice Support for assistance.
+CRM Online tenants with over 25000 confidential documents cannot migrate automatically due to [SharePoint Online restrictions (ref. 'Unique security scopes per list or library')][3]. Please contact SuperOffice Support for assistance.
 
 # Requirements
 
@@ -54,5 +54,5 @@ CRM Online tenants with over 25000 confidential documents cannot migrate automat
 
 <!-- Referenced links -->
 [2]: ../../docs/en/online/identity/federated-id-and-identity-providers.md
-
+[3]: https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#unique-security-scopes-per-list-or-library
 <!-- Referenced images -->
