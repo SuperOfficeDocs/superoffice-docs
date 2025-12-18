@@ -19,6 +19,11 @@ The starting point for all these look-ups is the **Tenant listing** page.
 
 ![Tenants page in SuperOffice Developer portal -screenshot][img1]
 
+A new **Excel Export** button is now available on the tenant list page. This feature allows you to download the list of tenants currently displayed in the view.
+The list may be filtered, so you can export either all tenants who have authorized one or more of your apps, or only those who have authorized a specific app.
+In this first version, the export is limited to a maximum of 50 tenants per page.
+
+
 ## <a id="state" ></a>Tenant status
 
 The [state of a tenant][5] (running, stopped) indicates if it's available to receive requests from an API and whether users can log in.
