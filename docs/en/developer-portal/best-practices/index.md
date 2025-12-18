@@ -4,7 +4,7 @@ title: Best practices
 description: Best practices for SuperOffice CRM Online apps
 keywords: apps, best practices, 3rd-party
 author: Margrethe Romnes, Anthony Yates
-date: 10.31.2024
+date: 12.18.2025
 version: 10
 content_type: howto
 deployment: online
@@ -93,7 +93,7 @@ Using `Default` will calculate some of the needed values for you, similar to cli
 For the REST APIs, that means sending a GET request to the appropriate entity to create a default endpoint. The following example demonstrates what you should do.
 
 <!-- markdownlint-disable MD051 -->
-### [RESTful REST API](#tab/create-rest)
+#### [RESTful REST API](#tab/create-rest)
 
 Proper creation invocation:
 
@@ -116,7 +116,7 @@ PostRequest(person, "/api/v1/Agent/Person");
 ...
 ```
 
-### [AGENT REST API](#tab/create-soap)
+#### [AGENT REST API](#tab/create-soap)
 
 Proper creation invocation:
 
@@ -144,6 +144,12 @@ PostRequest(person, "/api/v1/Agent/Person/SavePersonEntity​");
 
 ***
 <!-- markdownlint-restore -->
+
+#### Handle duplicates
+
+When creating new entities, always check whether the record already exists to avoid creating duplicates. This applies especially to contacts and persons. Before creating a new record, search for potential matches and present them to the user so they can choose an existing record or explicitly create a new one. This approach helps maintain data quality and reduces duplicate data in the database.
+
+For contacts, you can use the [name and department duplicate check provided by the REST API][27] to identify possible existing records before creation.
 
 ### Provisioning
 
@@ -337,6 +343,7 @@ Read about [effective visual design][6].
 [23]: ../../api/web-services/webapi/index.md#soticket
 [25]: ../../api/security/sentry/index.md
 [26]: ../../api/archive-providers/data-aggregation.md
+[27]: ../../api/reference/restful/rest/Contact/v1ContactEntity_GetNameDepartmentDuplicates.md
 
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
