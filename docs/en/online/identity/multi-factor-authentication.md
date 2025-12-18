@@ -1,10 +1,10 @@
 ---
+uid: multi-factor-authentication
 title: MFA
-uid: multi_factor_authentication
-description:  Multi-factor authentication
-author: SuperOffice Product and Engineering
-date:
+description: Multi-factor authentication
 keywords: MFA,2FA
+author: SuperOffice Product and Engineering
+date: 12.18.2025
 content_type: concept
 platform: web
 index: true
@@ -29,11 +29,8 @@ Multi-factor authentication is a feature offered by some [identity providers][1]
 
 In the SuperOffice sphere, this means that yes - you can use MFA **if you register your IDP and your registered IDP supports MFA.**
 
-If you use the [built-in standard password-based sign-in service][2], you can **not** get MFA!
-
-But: if your organization has an identity provider that offers MFA and switching to federated sign-in is a viable option for you, simply follow this [guide to federated identity management][3].
+[Guide to federated identity management][3]
 
 <!-- Referenced links -->
 [1]: federated-id-and-identity-providers.md
-[2]: superid/sign-in-services.md
 [3]: superid/howto/federated-sign-in-guide.md
