@@ -20,6 +20,9 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [New company - With company completion (11.1.5)][42]
+* [Company and Contact - Lead status (11.1.5)][42]
+* [Follow-up - Complete follow-up by long press (11.1.5)][42]
 * [Scan business card from the Create menu (11.1.3)][41]
 * [Follow-up - Create video meeting link (11.1.2)][40]
 * [Project - Display links (11.1.2)][40]
@@ -99,6 +102,7 @@ audience_tooltip: SuperOffice Mobile CRM
 [39]: 11.1.0-update.md
 [40]: 11.1.2-update.md
 [41]: 11.1.3-update.md
+[42]: 11.1.5-update.md
 [50]: ../../docs/en/mobile/overview.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md

@@ -34,7 +34,7 @@ The latest onsite release is **10.5**. See the [version history][19] for details
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.4**][7] - 05.11.2025.
+The latest release is [**version 11.1.5**][7] - 07.01.2026.
 
 ## Product integrations
 
