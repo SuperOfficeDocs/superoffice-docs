@@ -45,12 +45,13 @@ To create a [sale][1] in SuperOffice directly from Outlook, follow these steps:
 
 > [!NOTE]
 > The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**](https://docs.superoffice.com/en/admin/user-management/index.html#visible).
+> For more details, see [**Admin - User Management - Visibility**][2].
 
 > [!TIP]
 > You can also create a follow-up or request directly from the email. If it is part of an ongoing issue, you can attach the message to a specific request.
 
 <!-- Referenced links -->
 [1]: ../../docs/en/sale/learn/create.md
+[2]: ../../docs/en/admin/user-management/index.md#visible
 
 <!-- Referenced images -->
