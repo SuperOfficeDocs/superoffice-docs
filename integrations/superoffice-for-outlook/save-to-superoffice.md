@@ -62,9 +62,9 @@ You can also save email attachments directly to SuperOffice by following these s
 1. To save another attachment, repeat steps 1-4.
 
 > [!NOTE]
->  - Previously saved attachments will be marked as "Attachment already saved."
+>  * Previously saved attachments will be marked as "Attachment already saved."
 > 
->  - The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
+>  * The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
 > For more details, see [**Admin - User Management - Visibility**](https://docs.superoffice.com/en/admin/user-management/index.html#visible).
 
 
