@@ -6,9 +6,7 @@ items:
   parent: SuperOffice.WebApi
   children:
   - SuperOffice.WebApi.HttpContextItem.#ctor
-  - SuperOffice.WebApi.HttpContextItem.AccountId
   - SuperOffice.WebApi.HttpContextItem.ContextIdentifier
-  - SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
   - SuperOffice.WebApi.HttpContextItem.SuccessOverride
   - SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
   langs:
@@ -22,7 +20,7 @@ items:
   - SoCore
   namespace: SuperOffice.WebApi
   summary: >-
-    Names of HttpContext.Items processed by TelemetryInitializer.
+    Names of HttpContext.Items processed by TelemetryInitializers/&gt;.
 
     Added to context to improve telemetry.
   example: []
@@ -44,25 +42,6 @@ items:
   - SuperOffice.WebApi.HttpContextItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.WebApi.HttpContextItem)
   - SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-- uid: SuperOffice.WebApi.HttpContextItem.AccountId
-  commentId: F:SuperOffice.WebApi.HttpContextItem.AccountId
-  id: AccountId
-  parent: SuperOffice.WebApi.HttpContextItem
-  langs:
-  - csharp
-  - vb
-  name: AccountId
-  nameWithType: HttpContextItem.AccountId
-  fullName: SuperOffice.WebApi.HttpContextItem.AccountId
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.WebApi
-  syntax:
-    content: public const string AccountId = "accountId"
-    return:
-      type: System.String
-    content.vb: Public Const AccountId As String = "accountId"
 - uid: SuperOffice.WebApi.HttpContextItem.SuccessOverride
   commentId: F:SuperOffice.WebApi.HttpContextItem.SuccessOverride
   id: SuccessOverride
@@ -77,13 +56,13 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: Tell telemetry that success/failure state of operation is overridden with bool value
+  summary: Used to override (the SDK generated) RequestTelemetry.Success
   example: []
   syntax:
-    content: public const string SuccessOverride = "isSuccess"
+    content: public const string SuccessOverride = "SuccessOverride"
     return:
       type: System.String
-    content.vb: Public Const SuccessOverride As String = "isSuccess"
+    content.vb: Public Const SuccessOverride As String = "SuccessOverride"
 - uid: SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
   commentId: F:SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
   id: TelemetryOperationName
@@ -98,7 +77,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: Override automatically generated operation name in telemetry
+  summary: Used to override (the SDK generated) telemetry.Context.Operation.Name
   example: []
   syntax:
     content: public const string TelemetryOperationName = "TelemetryOperationName"
@@ -119,30 +98,13 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
+  summary: Used when setting (the empty standard field) ITelemetry.Context.User.AccountId
+  example: []
   syntax:
     content: public const string ContextIdentifier = "ContextIdentifier"
     return:
       type: System.String
     content.vb: Public Const ContextIdentifier As String = "ContextIdentifier"
-- uid: SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
-  commentId: F:SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
-  id: SoClaimsPrincipal
-  parent: SuperOffice.WebApi.HttpContextItem
-  langs:
-  - csharp
-  - vb
-  name: SoClaimsPrincipal
-  nameWithType: HttpContextItem.SoClaimsPrincipal
-  fullName: SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.WebApi
-  syntax:
-    content: public const string SoClaimsPrincipal = "SoClaimsPrincipal"
-    return:
-      type: System.String
-    content.vb: Public Const SoClaimsPrincipal As String = "SoClaimsPrincipal"
 - uid: SuperOffice.WebApi.HttpContextItem.#ctor
   commentId: M:SuperOffice.WebApi.HttpContextItem.#ctor
   id: '#ctor'

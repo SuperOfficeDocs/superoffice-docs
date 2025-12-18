@@ -5,8 +5,8 @@ items:
   id: TicketAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.TicketAgent.AcceptTicketsAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.BatchForwardAsync(System.Int32[],System.String[],System.String[],System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
@@ -19,9 +19,11 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketTypeAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.DeleteMessageHeadersAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.DeleteTicketEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.DoEscalatingAsync(System.Int32,SuperOffice.Data.TicketPriorityEscalateAction,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentInfoAsync(System.Int32,System.Threading.CancellationToken)
@@ -62,6 +64,7 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.SaveTicketMessageEntityWithNotifyAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.SaveTicketMessageEntityWithOptionsAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Boolean,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.SendTicketMessageSmsAsync(System.Int32,System.Int32,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TicketAgent.SetDeletedStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
@@ -108,22 +111,22 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  commentId: M:SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+- uid: SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.TicketAgent
   langs:
   - csharp
   - vb
-  name: TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
-  nameWithType: TicketAgent.TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
-  fullName: SuperOffice.CRM.Services.TicketAgent.TicketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name: TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
+  nameWithType: TicketAgent.TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.TicketAgent.TicketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public TicketAgent(IAttachmentEntityImplementation attachmentEntityImplementation, ITicketImplementation ticketImplementation, ITicketEntityImplementation ticketEntityImplementation, ITicketMessageImplementation ticketMessageImplementation, ITicketMessageEntityImplementation ticketMessageEntityImplementation, ITicketSummaryItemImplementation ticketSummaryItemImplementation, ISoRequestItemsAccessor accessor)
+    content: public TicketAgent(IAttachmentEntityImplementation attachmentEntityImplementation, ITicketImplementation ticketImplementation, ITicketEntityImplementation ticketEntityImplementation, ITicketMessageImplementation ticketMessageImplementation, ITicketMessageEntityImplementation ticketMessageEntityImplementation, ITicketRelationEntityImplementation ticketRelationEntityImplementation, ITicketSummaryItemImplementation ticketSummaryItemImplementation, ISoRequestItemsAccessor accessor)
     parameters:
     - id: attachmentEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation
@@ -135,31 +138,33 @@ items:
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation
     - id: ticketMessageEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation
+    - id: ticketRelationEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation
     - id: ticketSummaryItemImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation
     - id: accessor
       type: SuperOffice.Factory.ISoRequestItemsAccessor
-    content.vb: Public Sub New(attachmentEntityImplementation As IAttachmentEntityImplementation, ticketImplementation As ITicketImplementation, ticketEntityImplementation As ITicketEntityImplementation, ticketMessageImplementation As ITicketMessageImplementation, ticketMessageEntityImplementation As ITicketMessageEntityImplementation, ticketSummaryItemImplementation As ITicketSummaryItemImplementation, accessor As ISoRequestItemsAccessor)
+    content.vb: Public Sub New(attachmentEntityImplementation As IAttachmentEntityImplementation, ticketImplementation As ITicketImplementation, ticketEntityImplementation As ITicketEntityImplementation, ticketMessageImplementation As ITicketMessageImplementation, ticketMessageEntityImplementation As ITicketMessageEntityImplementation, ticketRelationEntityImplementation As ITicketRelationEntityImplementation, ticketSummaryItemImplementation As ITicketSummaryItemImplementation, accessor As ISoRequestItemsAccessor)
   overload: SuperOffice.CRM.Services.TicketAgent.#ctor*
-  nameWithType.vb: TicketAgent.New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
-  fullName.vb: SuperOffice.CRM.Services.TicketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
-  name.vb: New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+  nameWithType.vb: TicketAgent.New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.TicketAgent
   langs:
   - csharp
   - vb
-  name: TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: TicketAgent.TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.TicketAgent.TicketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: TicketAgent.TicketAgent(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.TicketAgent.TicketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public TicketAgent(IAttachmentEntityImplementation attachmentEntityImplementation, ITicketImplementation ticketImplementation, ITicketEntityImplementation ticketEntityImplementation, ITicketMessageImplementation ticketMessageImplementation, ITicketMessageEntityImplementation ticketMessageEntityImplementation, ITicketSummaryItemImplementation ticketSummaryItemImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public TicketAgent(IAttachmentEntityImplementation attachmentEntityImplementation, ITicketImplementation ticketImplementation, ITicketEntityImplementation ticketEntityImplementation, ITicketMessageImplementation ticketMessageImplementation, ITicketMessageEntityImplementation ticketMessageEntityImplementation, ITicketRelationEntityImplementation ticketRelationEntityImplementation, ITicketSummaryItemImplementation ticketSummaryItemImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: attachmentEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation
@@ -171,6 +176,8 @@ items:
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation
     - id: ticketMessageEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation
+    - id: ticketRelationEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation
     - id: ticketSummaryItemImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation
     - id: accessor
@@ -183,11 +190,11 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
     - id: onlineConfiguration
       type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(attachmentEntityImplementation As IAttachmentEntityImplementation, ticketImplementation As ITicketImplementation, ticketEntityImplementation As ITicketEntityImplementation, ticketMessageImplementation As ITicketMessageImplementation, ticketMessageEntityImplementation As ITicketMessageEntityImplementation, ticketSummaryItemImplementation As ITicketSummaryItemImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(attachmentEntityImplementation As IAttachmentEntityImplementation, ticketImplementation As ITicketImplementation, ticketEntityImplementation As ITicketEntityImplementation, ticketMessageImplementation As ITicketMessageImplementation, ticketMessageEntityImplementation As ITicketMessageEntityImplementation, ticketRelationEntityImplementation As ITicketRelationEntityImplementation, ticketSummaryItemImplementation As ITicketSummaryItemImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.TicketAgent.#ctor*
-  nameWithType.vb: TicketAgent.New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.TicketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: TicketAgent.New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAttachmentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IAttachmentEntityImplementation, ITicketImplementation, ITicketEntityImplementation, ITicketMessageImplementation, ITicketMessageEntityImplementation, ITicketRelationEntityImplementation, ITicketSummaryItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.TicketAgent.CreateDefaultAttachmentEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.CreateDefaultAttachmentEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultAttachmentEntityAsync(System.Threading.CancellationToken)
@@ -1752,7 +1759,10 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Delete a ticket message
+  summary: >-
+    Delete a ticket message
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSSystem</p>
   example: []
   syntax:
     content: public Task DeleteTicketMessageEntityAsync(int ticketMessageEntityId, CancellationToken cancellationToken = default)
@@ -2038,7 +2048,10 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Removes attachments from the message as specified in the collection of entity ids. The ids are attachment ids (attachment primary key)
+  summary: >-
+    Removes attachments from the message as specified in the collection of entity ids. The ids are attachment ids (attachment primary key)
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSSystem</p>
   example: []
   syntax:
     content: public Task RemoveMessageAttachmentsAsync(int ticketMessageEntityId, int[] attachmentIds, CancellationToken cancellationToken = default)
@@ -2668,6 +2681,102 @@ items:
   nameWithType.vb: TicketAgent.GetTicketMessageWithOptionsAsync(Integer, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetTicketMessageWithOptionsAsync(Integer, Boolean, System.Threading.CancellationToken)
   name.vb: GetTicketMessageWithOptionsAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketRelationEntityAsync(CancellationToken)
+  nameWithType: TicketAgent.CreateDefaultTicketRelationEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TicketRelationEntity.
+  example: []
+  syntax:
+    content: public Task<TicketRelationEntity> CreateDefaultTicketRelationEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationEntity}
+      description: New TicketRelationEntity with default values
+    content.vb: Public Function CreateDefaultTicketRelationEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationEntity)
+  overload: SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+  id: SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketRelationEntityAsync(TicketRelationEntity, CancellationToken)
+  nameWithType: TicketAgent.SaveTicketRelationEntityAsync(TicketRelationEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TicketRelationEntity or creates a new TicketRelationEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<TicketRelationEntity> SaveTicketRelationEntityAsync(TicketRelationEntity ticketRelationEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationEntity
+      type: SuperOffice.CRM.Services.TicketRelationEntity
+      description: The TicketRelationEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationEntity}
+      description: New or updated TicketRelationEntity
+    content.vb: Public Function SaveTicketRelationEntityAsync(ticketRelationEntity As TicketRelationEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationEntity)
+  overload: SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketRelationEntityAsync(int, CancellationToken)
+  nameWithType: TicketAgent.DeleteTicketRelationEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the TicketRelationEntity
+  example: []
+  syntax:
+    content: public Task DeleteTicketRelationEntityAsync(int ticketRelationEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationEntityId
+      type: System.Int32
+      description: The identity of the TicketRelationEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteTicketRelationEntityAsync(ticketRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: TicketAgent.DeleteTicketRelationEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTicketRelationEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketSummariesAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.GetTicketSummariesAsync(System.Int32[],System.Threading.CancellationToken)
   id: GetTicketSummariesAsync(System.Int32[],System.Threading.CancellationToken)
@@ -2997,7 +3106,7 @@ references:
 - uid: SuperOffice.CRM.Services.TicketAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAttachmentEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketMessageImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketMessageEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketSummaryItemImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAttachmentEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketMessageImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketMessageEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketRelationEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITicketSummaryItemImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
   name: TicketAgent
   nameWithType: TicketAgent.TicketAgent
   fullName: SuperOffice.CRM.Services.TicketAgent.TicketAgent
@@ -3044,6 +3153,14 @@ references:
   name: ITicketMessageEntityImplementation
   nameWithType: ITicketMessageEntityImplementation
   fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketMessageEntityImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation.html
+  name: ITicketRelationEntityImplementation
+  nameWithType: ITicketRelationEntityImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketRelationEntityImplementation
 - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation
   commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ITicketSummaryItemImplementation
   parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
@@ -8133,6 +8250,179 @@ references:
     name: Boolean
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_CreateDefaultTicketRelationEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTicketRelationEntityAsync
+  nameWithType: TicketAgent.CreateDefaultTicketRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketRelationEntityAsync
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultTicketRelationEntityAsync(CancellationToken)
+  nameWithType: ITicketAgent.CreateDefaultTicketRelationEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketRelationEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationEntity>
+  nameWithType: Task<TicketRelationEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketRelationEntity>
+  nameWithType.vb: Task(Of TicketRelationEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketRelationEntity)
+  name.vb: Task(Of TicketRelationEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TicketRelationEntity
+    name: TicketRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TicketRelationEntity
+    name: TicketRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_SaveTicketRelationEntityAsync_SuperOffice_CRM_Services_TicketRelationEntity_System_Threading_CancellationToken_
+  name: SaveTicketRelationEntityAsync
+  nameWithType: TicketAgent.SaveTicketRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.TicketAgent.SaveTicketRelationEntityAsync
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveTicketRelationEntityAsync(TicketRelationEntity, CancellationToken)
+  nameWithType: ITicketAgent.SaveTicketRelationEntityAsync(TicketRelationEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+    name: SaveTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.TicketRelationEntity
+    name: TicketRelationEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketRelationEntityAsync(SuperOffice.CRM.Services.TicketRelationEntity,System.Threading.CancellationToken)
+    name: SaveTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.TicketRelationEntity
+    name: TicketRelationEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.TicketRelationEntity
+  commentId: T:SuperOffice.CRM.Services.TicketRelationEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationEntity.html
+  name: TicketRelationEntity
+  nameWithType: TicketRelationEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationEntity
+- uid: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_DeleteTicketRelationEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTicketRelationEntityAsync
+  nameWithType: TicketAgent.DeleteTicketRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.TicketAgent.DeleteTicketRelationEntityAsync
+- uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteTicketRelationEntityAsync(int, CancellationToken)
+  nameWithType: ITicketAgent.DeleteTicketRelationEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: ITicketAgent.DeleteTicketRelationEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTicketRelationEntityAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteTicketRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken

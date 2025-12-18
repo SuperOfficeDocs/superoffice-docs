@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  id: TicketRelationDefinitionEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Ticket relation definition entity
+
+    <p></p>
+
+    Carrier object for TicketRelationDefinitionEntity.
+
+    Services for the TicketRelationDefinitionEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    Get TicketRelationDefinitionEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var ticketRelationDefinitionEntity = agent.GetTicketRelationDefinitionEntity( 123 );
+    }</code></pre>
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+
+      public class TicketRelationDefinitionEntity : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+
+      Public Class TicketRelationDefinitionEntity Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionEntity()
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefinitionEntity()
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefinitionEntity()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public TicketRelationDefinitionEntity()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor*
+  nameWithType.vb: TicketRelationDefinitionEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketRelationDefinitionEntity.ToString()
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString*
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: TicketRelationDefinitionEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString*
+  nameWithType.vb: TicketRelationDefinitionEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+  id: TicketRelationDefId
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefId
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TicketRelationDefId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketRelationDefId As Integer
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketRelationDefinitionEntity.Name
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The name of this Ticket relation
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TicketRelationDefinitionEntity.Description
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Tooltip or other description
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TicketRelationDefinitionEntity.Rank
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Rank order
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+  id: RelationType
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationType
+  nameWithType: TicketRelationDefinitionEntity.RelationType
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Type of the relation (Related, Parent, Child)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual TicketRelationType RelationType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketRelationType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RelationType As TicketRelationType
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: TicketRelationDefinitionEntity.IsBuiltIn
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Is this row part of SuperOffice priming data
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsBuiltIn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsBuiltIn As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+  id: IsParentMandatory
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsParentMandatory
+  nameWithType: TicketRelationDefinitionEntity.IsParentMandatory
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Parent relation is mandatory when a new request is created
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsParentMandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsParentMandatory As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  id: IsCloseParentWithChild
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsCloseParentWithChild
+  nameWithType: TicketRelationDefinitionEntity.IsCloseParentWithChild
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Close parent when all children are closed
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsCloseParentWithChild { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsCloseParentWithChild As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+  id: IsPreventClosingParent
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsPreventClosingParent
+  nameWithType: TicketRelationDefinitionEntity.IsPreventClosingParent
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Prevent closing parent until all children are closed
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsPreventClosingParent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsPreventClosingParent As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+  id: IsCloseWithParent
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsCloseWithParent
+  nameWithType: TicketRelationDefinitionEntity.IsCloseWithParent
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Offer to close all related when parent is closed
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsCloseWithParent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsCloseWithParent As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+  id: SourceTicketTypes
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.SourceTicketTypes
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Source ticket type(s) for this relation
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int[] SourceTicketTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceTicketTypes As Integer()
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes
+  id: DestinationTicketTypes
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.DestinationTicketTypes
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Destination ticket type(s) for this relation
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int[] DestinationTicketTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DestinationTicketTypes As Integer()
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity__ctor
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefinitionEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefinitionEntity
+  nameWithType.vb: TicketRelationDefinitionEntity.New
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_ToString
+  name: ToString
+  nameWithType: TicketRelationDefinitionEntity.ToString
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_TicketRelationDefId
+  name: TicketRelationDefId
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.TicketRelationDefId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_Name
+  name: Name
+  nameWithType: TicketRelationDefinitionEntity.Name
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Name
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_Description
+  name: Description
+  nameWithType: TicketRelationDefinitionEntity.Description
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Description
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_Rank
+  name: Rank
+  nameWithType: TicketRelationDefinitionEntity.Rank
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_RelationType
+  name: RelationType
+  nameWithType: TicketRelationDefinitionEntity.RelationType
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.RelationType
+- uid: SuperOffice.Data.TicketRelationType
+  isExternal: true
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.Data.TicketRelationType
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_IsBuiltIn
+  name: IsBuiltIn
+  nameWithType: TicketRelationDefinitionEntity.IsBuiltIn
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsBuiltIn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_IsParentMandatory
+  name: IsParentMandatory
+  nameWithType: TicketRelationDefinitionEntity.IsParentMandatory
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsParentMandatory
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_IsCloseParentWithChild
+  name: IsCloseParentWithChild
+  nameWithType: TicketRelationDefinitionEntity.IsCloseParentWithChild
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseParentWithChild
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_IsPreventClosingParent
+  name: IsPreventClosingParent
+  nameWithType: TicketRelationDefinitionEntity.IsPreventClosingParent
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsPreventClosingParent
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_IsCloseWithParent
+  name: IsCloseWithParent
+  nameWithType: TicketRelationDefinitionEntity.IsCloseWithParent
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.IsCloseWithParent
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_SourceTicketTypes
+  name: SourceTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.SourceTicketTypes
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.SourceTicketTypes
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html#SuperOffice_CRM_Services_TicketRelationDefinitionEntity_DestinationTicketTypes
+  name: DestinationTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.DestinationTicketTypes
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.DestinationTicketTypes

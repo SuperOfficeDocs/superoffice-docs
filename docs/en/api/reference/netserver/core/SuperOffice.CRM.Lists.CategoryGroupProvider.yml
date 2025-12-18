@@ -18,7 +18,7 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: MDO provider for the WorkflowGoalType enum
+  summary: MDO provider for the CategoryGroup enum.
   example: []
   syntax:
     content: >-

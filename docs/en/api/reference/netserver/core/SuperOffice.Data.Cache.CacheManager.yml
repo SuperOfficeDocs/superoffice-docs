@@ -114,7 +114,12 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
-  summary: Get a cache given its' type, or create it if a instance is not found.
+  summary: >-
+    This method is declare sync, but returns a ValueTask<code class="typeparamref">T</code>. It contains a private
+
+    async method that does any needed async/await work, but this happens rarely and we avoid having
+
+    the whole async state machine (and async "contagion" to outside clients.
   example: []
   syntax:
     content: >-
@@ -124,12 +129,13 @@ items:
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: ''
     typeParameters:
     - id: T
-      description: Type of the cache
+      description: ''
     return:
       type: System.Threading.Tasks.ValueTask{{T}}
-      description: Instance of the given cache
+      description: ''
     content.vb: >-
       <CreateSyncVersion(OmitNullableDirective:=True)>
 
@@ -512,16 +518,21 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
-  summary: Get a cache given its' type, or create it if a instance is not found.
+  summary: >-
+    This method is declare sync, but returns a ValueTask<code class="typeparamref">T</code>. It contains a private
+
+    async method that does any needed async/await work, but this happens rarely and we avoid having
+
+    the whole async state machine (and async "contagion" to outside clients.
   example: []
   syntax:
     content: 'public T GetOrCreate<T>() where T : CacheBaseV2'
     typeParameters:
     - id: T
-      description: Type of the cache
+      description: ''
     return:
       type: '{T}'
-      description: Instance of the given cache
+      description: ''
     content.vb: Public Function GetOrCreate(Of T As CacheBaseV2)() As T
   overload: SuperOffice.Data.Cache.CacheManager.GetOrCreate*
   implements:

@@ -5,8 +5,8 @@ items:
   id: DiagnosticsAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
@@ -32,6 +33,7 @@ items:
   - SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -66,23 +68,25 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.DiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: DiagnosticsAgent(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
-  nameWithType: DiagnosticsAgent.DiagnosticsAgent(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name: DiagnosticsAgent(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
+  nameWithType: DiagnosticsAgent.DiagnosticsAgent(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DiagnosticsAgent(ICacheImplementation cacheImplementation, ICacheInvalidationImplementation cacheInvalidationImplementation, IEntityCountsImplementation entityCountsImplementation, ILoggingImplementation loggingImplementation, IUsageStatsImplementation usageStatsImplementation, ISystemMessageListImplementation systemMessageListImplementation, ITableManagerImplementation tableManagerImplementation, IInstallationImplementation installationImplementation, IWebAppUsageImplementation webAppUsageImplementation, ISoRequestItemsAccessor accessor)
+    content: public DiagnosticsAgent(IAnalyticsDataImplementation analyticsDataImplementation, ICacheImplementation cacheImplementation, ICacheInvalidationImplementation cacheInvalidationImplementation, IEntityCountsImplementation entityCountsImplementation, ILoggingImplementation loggingImplementation, IUsageStatsImplementation usageStatsImplementation, ISystemMessageListImplementation systemMessageListImplementation, ITableManagerImplementation tableManagerImplementation, IInstallationImplementation installationImplementation, IWebAppUsageImplementation webAppUsageImplementation, ISoRequestItemsAccessor accessor)
     parameters:
+    - id: analyticsDataImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation
     - id: cacheImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation
     - id: cacheInvalidationImplementation
@@ -103,28 +107,30 @@ items:
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation
     - id: accessor
       type: SuperOffice.Factory.ISoRequestItemsAccessor
-    content.vb: Public Sub New(cacheImplementation As ICacheImplementation, cacheInvalidationImplementation As ICacheInvalidationImplementation, entityCountsImplementation As IEntityCountsImplementation, loggingImplementation As ILoggingImplementation, usageStatsImplementation As IUsageStatsImplementation, systemMessageListImplementation As ISystemMessageListImplementation, tableManagerImplementation As ITableManagerImplementation, installationImplementation As IInstallationImplementation, webAppUsageImplementation As IWebAppUsageImplementation, accessor As ISoRequestItemsAccessor)
+    content.vb: Public Sub New(analyticsDataImplementation As IAnalyticsDataImplementation, cacheImplementation As ICacheImplementation, cacheInvalidationImplementation As ICacheInvalidationImplementation, entityCountsImplementation As IEntityCountsImplementation, loggingImplementation As ILoggingImplementation, usageStatsImplementation As IUsageStatsImplementation, systemMessageListImplementation As ISystemMessageListImplementation, tableManagerImplementation As ITableManagerImplementation, installationImplementation As IInstallationImplementation, webAppUsageImplementation As IWebAppUsageImplementation, accessor As ISoRequestItemsAccessor)
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor*
-  nameWithType.vb: DiagnosticsAgent.New(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
-  name.vb: New(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+  nameWithType.vb: DiagnosticsAgent.New(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.DiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: DiagnosticsAgent(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: DiagnosticsAgent.DiagnosticsAgent(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: DiagnosticsAgent(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: DiagnosticsAgent.DiagnosticsAgent(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DiagnosticsAgent(ICacheImplementation cacheImplementation, ICacheInvalidationImplementation cacheInvalidationImplementation, IEntityCountsImplementation entityCountsImplementation, ILoggingImplementation loggingImplementation, IUsageStatsImplementation usageStatsImplementation, ISystemMessageListImplementation systemMessageListImplementation, ITableManagerImplementation tableManagerImplementation, IInstallationImplementation installationImplementation, IWebAppUsageImplementation webAppUsageImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public DiagnosticsAgent(IAnalyticsDataImplementation analyticsDataImplementation, ICacheImplementation cacheImplementation, ICacheInvalidationImplementation cacheInvalidationImplementation, IEntityCountsImplementation entityCountsImplementation, ILoggingImplementation loggingImplementation, IUsageStatsImplementation usageStatsImplementation, ISystemMessageListImplementation systemMessageListImplementation, ITableManagerImplementation tableManagerImplementation, IInstallationImplementation installationImplementation, IWebAppUsageImplementation webAppUsageImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
+    - id: analyticsDataImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation
     - id: cacheImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation
     - id: cacheInvalidationImplementation
@@ -153,11 +159,40 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
     - id: onlineConfiguration
       type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(cacheImplementation As ICacheImplementation, cacheInvalidationImplementation As ICacheInvalidationImplementation, entityCountsImplementation As IEntityCountsImplementation, loggingImplementation As ILoggingImplementation, usageStatsImplementation As IUsageStatsImplementation, systemMessageListImplementation As ISystemMessageListImplementation, tableManagerImplementation As ITableManagerImplementation, installationImplementation As IInstallationImplementation, webAppUsageImplementation As IWebAppUsageImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(analyticsDataImplementation As IAnalyticsDataImplementation, cacheImplementation As ICacheImplementation, cacheInvalidationImplementation As ICacheInvalidationImplementation, entityCountsImplementation As IEntityCountsImplementation, loggingImplementation As ILoggingImplementation, usageStatsImplementation As IUsageStatsImplementation, systemMessageListImplementation As ISystemMessageListImplementation, tableManagerImplementation As ITableManagerImplementation, installationImplementation As IInstallationImplementation, webAppUsageImplementation As IWebAppUsageImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor*
-  nameWithType.vb: DiagnosticsAgent.New(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: DiagnosticsAgent.New(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheInvalidationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IEntityCountsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ILoggingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUsageStatsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISystemMessageListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableManagerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IInstallationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWebAppUsageImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IAnalyticsDataImplementation, ICacheImplementation, ICacheInvalidationImplementation, IEntityCountsImplementation, ILoggingImplementation, IUsageStatsImplementation, ISystemMessageListImplementation, ITableManagerImplementation, IInstallationImplementation, IWebAppUsageImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  id: GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAnalyticsDataAsync(CancellationToken)
+  nameWithType: DiagnosticsAgent.GetAnalyticsDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve analytics properties to be included in usage tracking.
+  example: []
+  syntax:
+    content: public Task<AnalyticsData> GetAnalyticsDataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
+      description: Description Analytics Data
+    content.vb: Public Function GetAnalyticsDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AnalyticsData)
+  overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   id: FlushCachesAsync(System.Threading.CancellationToken)
@@ -470,6 +505,44 @@ items:
   nameWithType.vb: DiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
   name.vb: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: TrackEventAsync(string, StringDictionary, CancellationToken)
+  nameWithType: DiagnosticsAgent.TrackEventAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Sends events to Amplitude and Userflow.
+  example: []
+  syntax:
+    content: public Task TrackEventAsync(string trackEventName, StringDictionary eventProperties, CancellationToken cancellationToken = default)
+    parameters:
+    - id: trackEventName
+      type: System.String
+      description: "\"sale-completed\" or \"sale-sold\" etc"
+    - id: eventProperties
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: key-value pairs of event properties
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function TrackEventAsync(trackEventName As String, eventProperties As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  nameWithType.vb: DiagnosticsAgent.TrackEventAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: TrackEventAsync(String, StringDictionary, CancellationToken)
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
   id: CollectDataAdditionsAsync(System.Threading.CancellationToken)
@@ -1344,13 +1417,21 @@ references:
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICacheImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICacheInvalidationImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IEntityCountsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ILoggingImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IUsageStatsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISystemMessageListImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITableManagerImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IInstallationImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IWebAppUsageImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAnalyticsDataImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICacheImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICacheInvalidationImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IEntityCountsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ILoggingImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IUsageStatsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISystemMessageListImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITableManagerImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IInstallationImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IWebAppUsageImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
   name: DiagnosticsAgent
   nameWithType: DiagnosticsAgent.DiagnosticsAgent
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent
   nameWithType.vb: DiagnosticsAgent.New
   fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New
   name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation.html
+  name: IAnalyticsDataImplementation
+  nameWithType: IAnalyticsDataImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAnalyticsDataImplementation
 - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation
   commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ICacheImplementation
   parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
@@ -1515,24 +1596,24 @@ references:
   name: IOnlineConfiguration
   nameWithType: ConfigFile.IOnlineConfiguration
   fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-- uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_FlushCachesAsync_System_Threading_CancellationToken_
-  name: FlushCachesAsync
-  nameWithType: DiagnosticsAgent.FlushCachesAsync
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetAnalyticsDataAsync_System_Threading_CancellationToken_
+  name: GetAnalyticsDataAsync
+  nameWithType: DiagnosticsAgent.GetAnalyticsDataAsync
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetAnalyticsDataAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: FlushCachesAsync(CancellationToken)
-  nameWithType: IDiagnosticsAgent.FlushCachesAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  name: GetAnalyticsDataAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetAnalyticsDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
-    name: FlushCachesAsync
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+    name: GetAnalyticsDataAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -1541,8 +1622,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
-    name: FlushCachesAsync
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+    name: GetAnalyticsDataAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -1558,14 +1639,41 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
   parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AnalyticsData>
+  nameWithType: Task<AnalyticsData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AnalyticsData>
+  nameWithType.vb: Task(Of AnalyticsData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AnalyticsData)
+  name.vb: Task(Of AnalyticsData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.AnalyticsData
+    name: AnalyticsData
+    isExternal: true
+    href: SuperOffice.CRM.Services.AnalyticsData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.AnalyticsData
+    name: AnalyticsData
+    isExternal: true
+    href: SuperOffice.CRM.Services.AnalyticsData.html
+  - name: )
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -1593,6 +1701,34 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: System.Threading.Tasks
   commentId: N:System.Threading.Tasks
   isExternal: true
@@ -1630,6 +1766,49 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_FlushCachesAsync_System_Threading_CancellationToken_
+  name: FlushCachesAsync
+  nameWithType: DiagnosticsAgent.FlushCachesAsync
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: FlushCachesAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.FlushCachesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+    name: FlushCachesAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+    name: FlushCachesAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNamesAsync*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNamesAsync
   isExternal: true
@@ -1703,34 +1882,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
-  - name: )
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
   - name: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByNameAsync*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByNameAsync
@@ -2306,6 +2457,71 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_TrackEventAsync_System_String_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: TrackEventAsync
+  nameWithType: DiagnosticsAgent.TrackEventAsync
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.TrackEventAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: TrackEventAsync(string, StringDictionary, CancellationToken)
+  nameWithType: IDiagnosticsAgent.TrackEventAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  nameWithType.vb: IDiagnosticsAgent.TrackEventAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: TrackEventAsync(String, StringDictionary, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: TrackEventAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: TrackEventAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditionsAsync*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditionsAsync
   isExternal: true

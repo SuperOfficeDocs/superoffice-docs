@@ -10,6 +10,7 @@ items:
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier``1
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor``1
@@ -171,24 +172,49 @@ items:
   langs:
   - csharp
   - vb
-  name: UseRequestItemsAccessor<TRequestContextAccessor>()
-  nameWithType: NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestContextAccessor>()
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestContextAccessor>()
+  name: UseRequestItemsAccessor<TRequestItemsAccessor>()
+  nameWithType: NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestItemsAccessor>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestItemsAccessor>()
   type: Method
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public NetServerCoreOptionsBuilder UseRequestItemsAccessor<TRequestContextAccessor>() where TRequestContextAccessor : SoRequestItemsAccessorBase'
+    content: 'public NetServerCoreOptionsBuilder UseRequestItemsAccessor<TRequestItemsAccessor>() where TRequestItemsAccessor : SoRequestItemsAccessorBase'
     typeParameters:
-    - id: TRequestContextAccessor
+    - id: TRequestItemsAccessor
     return:
       type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
-    content.vb: Public Function UseRequestItemsAccessor(Of TRequestContextAccessor As SoRequestItemsAccessorBase)() As NetServerCoreOptionsBuilder
+    content.vb: Public Function UseRequestItemsAccessor(Of TRequestItemsAccessor As SoRequestItemsAccessorBase)() As NetServerCoreOptionsBuilder
   overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor*
-  nameWithType.vb: NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestContextAccessor)()
-  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestContextAccessor)()
-  name.vb: UseRequestItemsAccessor(Of TRequestContextAccessor)()
+  nameWithType.vb: NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestItemsAccessor)()
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestItemsAccessor)()
+  name.vb: UseRequestItemsAccessor(Of TRequestItemsAccessor)()
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+  id: UseHttpContextItemsAccessor``1
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseHttpContextItemsAccessor<T>()
+  nameWithType: NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor<T>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor<T>()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public NetServerCoreOptionsBuilder UseHttpContextItemsAccessor<T>() where T : class, ISoHttpContextItemsAccessor'
+    typeParameters:
+    - id: T
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function UseHttpContextItemsAccessor(Of T As {Class, ISoHttpContextItemsAccessor})() As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor*
+  nameWithType.vb: NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor(Of T)()
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor(Of T)()
+  name.vb: UseHttpContextItemsAccessor(Of T)()
 - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
   id: UseFileAccess``1
@@ -821,6 +847,13 @@ references:
   name: UseRequestItemsAccessor
   nameWithType: NetServerCoreOptionsBuilder.UseRequestItemsAccessor
   fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder_UseHttpContextItemsAccessor__1
+  name: UseHttpContextItemsAccessor
+  nameWithType: NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor
 - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess
   isExternal: true

@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
   - SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
-  - SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Boolean)
   langs:
   - csharp
   - vb
@@ -67,16 +67,16 @@ items:
       description: ''
     content.vb: Public Shared Function GetVisibleForRestriction(v As VisibleForTableInfo) As Restriction
   overload: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction*
-- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
-  id: JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Boolean)
+  id: JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Boolean)
   parent: SuperOffice.CRM.Security.VisibleForSentryHelper
   langs:
   - csharp
   - vb
-  name: JoinVisibleFor(Select, TableInfo)
-  nameWithType: VisibleForSentryHelper.JoinVisibleFor(Select, TableInfo)
-  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
+  name: JoinVisibleFor(Select, TableInfo, bool)
+  nameWithType: VisibleForSentryHelper.JoinVisibleFor(Select, TableInfo, bool)
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo, bool)
   type: Method
   assemblies:
   - SoDataBase
@@ -98,7 +98,7 @@ items:
     the original left outer join and make it behave like an inner. Sorry, that is how SQL works.
   example: []
   syntax:
-    content: public static void JoinVisibleFor(Select sql, TableInfo mainTable)
+    content: public static void JoinVisibleFor(Select sql, TableInfo mainTable, bool dropFilteringInJoin = false)
     parameters:
     - id: sql
       type: SuperOffice.Data.SQL.Select
@@ -106,8 +106,16 @@ items:
     - id: mainTable
       type: SuperOffice.Data.SQL.TableInfo
       description: Main table of query
-    content.vb: Public Shared Sub JoinVisibleFor(sql As [Select], mainTable As TableInfo)
+    - id: dropFilteringInJoin
+      type: System.Boolean
+      description: >-
+        If true, then use an OUTER JOIN regardless of other rules.
+                    Used by transitive sentries (Quote) to allow the physical data fetch
+    content.vb: Public Shared Sub JoinVisibleFor(sql As [Select], mainTable As TableInfo, dropFilteringInJoin As Boolean = False)
   overload: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
+  nameWithType.vb: VisibleForSentryHelper.JoinVisibleFor(Select, TableInfo, Boolean)
+  fullName.vb: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo, Boolean)
+  name.vb: JoinVisibleFor(Select, TableInfo, Boolean)
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
   commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
   id: AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
@@ -521,7 +529,7 @@ references:
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
   commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
   isExternal: true
-  href: SuperOffice.CRM.Security.VisibleForSentryHelper.html#SuperOffice_CRM_Security_VisibleForSentryHelper_JoinVisibleFor_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_TableInfo_
+  href: SuperOffice.CRM.Security.VisibleForSentryHelper.html#SuperOffice_CRM_Security_VisibleForSentryHelper_JoinVisibleFor_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_TableInfo_System_Boolean_
   name: JoinVisibleFor
   nameWithType: VisibleForSentryHelper.JoinVisibleFor
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
@@ -541,6 +549,17 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction*
   commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction
   isExternal: true

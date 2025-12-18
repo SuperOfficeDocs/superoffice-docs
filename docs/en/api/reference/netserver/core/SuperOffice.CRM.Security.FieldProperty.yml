@@ -26,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public sealed class FieldProperty : ICloneable
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public NotInheritable Class FieldProperty Implements ICloneable
   inheritance:
@@ -55,7 +55,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.CRM.Security.FieldProperty.Clone
   commentId: M:SuperOffice.CRM.Security.FieldProperty.Clone
   id: Clone

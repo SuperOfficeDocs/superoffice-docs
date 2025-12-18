@@ -46,6 +46,7 @@ items:
   - SuperOffice.WebApi.Data.AiTextStyle
   - SuperOffice.WebApi.Data.AlarmData
   - SuperOffice.WebApi.Data.AmountClassEntity
+  - SuperOffice.WebApi.Data.AnalyticsData
   - SuperOffice.WebApi.Data.Appointment
   - SuperOffice.WebApi.Data.AppointmentCautionWarning
   - SuperOffice.WebApi.Data.AppointmentEntity
@@ -586,6 +587,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_CollectWinUsageRequest
   - SuperOffice.WebApi.Data.Diagnostics_FlushCachesByNameRequest
   - SuperOffice.WebApi.Data.Diagnostics_FlushCachesRequest
+  - SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheNamesRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
@@ -603,6 +605,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
   - SuperOffice.WebApi.Data.Diagnostics_ResyncUsersRequest
   - SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
+  - SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest
   - SuperOffice.WebApi.Data.Diagnostics_WebAppUsageExistsInPeriodRequest
   - SuperOffice.WebApi.Data.DiaryViewEntity
   - SuperOffice.WebApi.Data.DictionaryStepInformation
@@ -1179,6 +1182,7 @@ items:
   - SuperOffice.WebApi.Data.List_GlobalChangeTicketTypeRequest
   - SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
   - SuperOffice.WebApi.Data.List_MoveListItemRequest
+  - SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest
   - SuperOffice.WebApi.Data.List_RebuildFullnamesRequest
   - SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
   - SuperOffice.WebApi.Data.List_SaveAllFromListDefinitionRequest
@@ -1215,6 +1219,7 @@ items:
   - SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
   - SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
   - SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  - SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest
   - SuperOffice.WebApi.Data.List_SetTicketStatusSortOrderRequest
   - SuperOffice.WebApi.Data.List_SetTicketTypeSortOrderRequest
   - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
@@ -1879,6 +1884,9 @@ items:
   - SuperOffice.WebApi.Data.TicketPriorityFlags
   - SuperOffice.WebApi.Data.TicketPriorityStatus
   - SuperOffice.WebApi.Data.TicketReadStatus
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  - SuperOffice.WebApi.Data.TicketRelationEntity
+  - SuperOffice.WebApi.Data.TicketRelationType
   - SuperOffice.WebApi.Data.TicketSecurityLevel
   - SuperOffice.WebApi.Data.TicketStatusEntity
   - SuperOffice.WebApi.Data.TicketStatusTimeCounter
@@ -2514,6 +2522,7 @@ references:
   fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier
 - uid: SuperOffice.WebApi.Data.StringBoolDictionary
   commentId: T:SuperOffice.WebApi.Data.StringBoolDictionary
+  parent: SuperOffice.WebApi.Data
   isExternal: true
   href: SuperOffice.WebApi.Data.StringBoolDictionary.html
   name: StringBoolDictionary
@@ -6817,6 +6826,7 @@ references:
   fullName: SuperOffice.WebApi.Data.AmountClassEntity
 - uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
   commentId: T:SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  parent: SuperOffice.WebApi.Data
   isExternal: true
   href: SuperOffice.WebApi.Data.AutomatedCategoryUpdate.html
   name: AutomatedCategoryUpdate
@@ -6850,6 +6860,13 @@ references:
   name: List_GetNeedCategoryUpdateForPersonRequest
   nameWithType: List_GetNeedCategoryUpdateForPersonRequest
   fullName: SuperOffice.WebApi.Data.List_GetNeedCategoryUpdateForPersonRequest
+- uid: SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest
+  commentId: T:SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest.html
+  name: List_PerformNeededCategoryUpdateRequest
+  nameWithType: List_PerformNeededCategoryUpdateRequest
+  fullName: SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest
 - uid: SuperOffice.WebApi.Data.Business
   commentId: T:SuperOffice.WebApi.Data.Business
   parent: SuperOffice.WebApi.Data
@@ -8326,6 +8343,21 @@ references:
   name: List_GetAllTicketPrioritiesRequest
   nameWithType: List_GetAllTicketPrioritiesRequest
   fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+- uid: SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest.html
+  name: List_SetTicketRelationDefinitionSortOrderRequest
+  nameWithType: List_SetTicketRelationDefinitionSortOrderRequest
+  fullName: SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest
 - uid: SuperOffice.WebApi.Data.TicketStatusEntity
   commentId: T:SuperOffice.WebApi.Data.TicketStatusEntity
   parent: SuperOffice.WebApi.Data
@@ -9277,6 +9309,20 @@ references:
   name: Associate_LogOffWindowsUsersRequest
   nameWithType: Associate_LogOffWindowsUsersRequest
   fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+- uid: SuperOffice.WebApi.Data.AnalyticsData
+  commentId: T:SuperOffice.WebApi.Data.AnalyticsData
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AnalyticsData.html
+  name: AnalyticsData
+  nameWithType: AnalyticsData
+  fullName: SuperOffice.WebApi.Data.AnalyticsData
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest.html
+  name: Diagnostics_GetAnalyticsDataRequest
+  nameWithType: Diagnostics_GetAnalyticsDataRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest
 - uid: SuperOffice.WebApi.Data.Cache
   commentId: T:SuperOffice.WebApi.Data.Cache
   isExternal: true
@@ -9368,6 +9414,13 @@ references:
   name: Diagnostics_ChangeLogSettingsRequest
   nameWithType: Diagnostics_ChangeLogSettingsRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest.html
+  name: Diagnostics_TrackEventRequest
+  nameWithType: Diagnostics_TrackEventRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest
 - uid: SuperOffice.WebApi.Data.UsageStats
   commentId: T:SuperOffice.WebApi.Data.UsageStats
   isExternal: true
@@ -12427,6 +12480,7 @@ references:
   fullName: SuperOffice.WebApi.Data.SignedPublicKey
 - uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
   commentId: T:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  parent: SuperOffice.WebApi.Data
   isExternal: true
   href: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.html
   name: UserAndInstallationLicenceStatus
@@ -15277,6 +15331,14 @@ references:
   name: Ticket_GetTicketMessageWithOptionsRequest
   nameWithType: Ticket_GetTicketMessageWithOptionsRequest
   fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+- uid: SuperOffice.WebApi.Data.TicketRelationEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationEntity.html
+  name: TicketRelationEntity
+  nameWithType: TicketRelationEntity
+  fullName: SuperOffice.WebApi.Data.TicketRelationEntity
 - uid: SuperOffice.WebApi.Data.TicketSummaryItem
   commentId: T:SuperOffice.WebApi.Data.TicketSummaryItem
   isExternal: true
@@ -17856,6 +17918,14 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.WebApi.Data.BadgeType
+- uid: SuperOffice.WebApi.Data.TicketRelationType
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationType.html
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationType
 - uid: SuperOffice.WebApi.Data.NotifyType
   commentId: T:SuperOffice.WebApi.Data.NotifyType
   parent: SuperOffice.WebApi.Data

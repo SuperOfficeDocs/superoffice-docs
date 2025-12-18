@@ -352,6 +352,8 @@ items:
   - SuperOffice.WebApi.Data.TicketPriority
   - SuperOffice.WebApi.Data.TicketPriorityEntity
   - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  - SuperOffice.WebApi.Data.TicketRelationEntity
   - SuperOffice.WebApi.Data.TicketStatusEntity
   - SuperOffice.WebApi.Data.TicketType
   - SuperOffice.WebApi.Data.TicketTypeEntity

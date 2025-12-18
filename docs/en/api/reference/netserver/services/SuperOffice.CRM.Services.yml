@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Services.AddressSyncData
   - SuperOffice.CRM.Services.AlarmData
   - SuperOffice.CRM.Services.AmountClassEntity
+  - SuperOffice.CRM.Services.AnalyticsData
   - SuperOffice.CRM.Services.Appointment
   - SuperOffice.CRM.Services.AppointmentAgent
   - SuperOffice.CRM.Services.AppointmentEntity
@@ -511,6 +512,8 @@ items:
   - SuperOffice.CRM.Services.TicketPriority
   - SuperOffice.CRM.Services.TicketPriorityEntity
   - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  - SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  - SuperOffice.CRM.Services.TicketRelationEntity
   - SuperOffice.CRM.Services.TicketStatusEntity
   - SuperOffice.CRM.Services.TicketSummaryItem
   - SuperOffice.CRM.Services.TicketType
@@ -1130,6 +1133,13 @@ references:
   name: AmountClassEntity
   nameWithType: AmountClassEntity
   fullName: SuperOffice.CRM.Services.AmountClassEntity
+- uid: SuperOffice.CRM.Services.AnalyticsData
+  commentId: T:SuperOffice.CRM.Services.AnalyticsData
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html
+  name: AnalyticsData
+  nameWithType: AnalyticsData
+  fullName: SuperOffice.CRM.Services.AnalyticsData
 - uid: SuperOffice.CRM.Services.Appointment
   commentId: T:SuperOffice.CRM.Services.Appointment
   parent: SuperOffice.CRM.Services
@@ -1241,6 +1251,7 @@ references:
   fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
 - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
   commentId: T:SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  parent: SuperOffice.CRM.Services
   isExternal: true
   href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
   name: AutomatedCategoryUpdate
@@ -4048,6 +4059,22 @@ references:
   name: TicketPriorityEscalationLevelEntity
   nameWithType: TicketPriorityEscalationLevelEntity
   fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+- uid: SuperOffice.CRM.Services.TicketRelationEntity
+  commentId: T:SuperOffice.CRM.Services.TicketRelationEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationEntity.html
+  name: TicketRelationEntity
+  nameWithType: TicketRelationEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationEntity
 - uid: SuperOffice.CRM.Services.TicketStatusEntity
   commentId: T:SuperOffice.CRM.Services.TicketStatusEntity
   parent: SuperOffice.CRM.Services
@@ -4149,6 +4176,7 @@ references:
   fullName: SuperOffice.CRM.Services.User
 - uid: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
   commentId: T:SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  parent: SuperOffice.CRM.Services
   isExternal: true
   href: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus.html
   name: UserAndInstallationLicenceStatus

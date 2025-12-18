@@ -271,6 +271,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Cache
+  summary: Actual cache loading method, to be implemented by derived class. Sentry is Ignored when this method is called
+  example: []
   syntax:
     content: protected abstract void OnLoad()
     content.vb: Protected MustOverride Sub OnLoad()
@@ -289,13 +291,17 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Cache
+  summary: Actual cache loading method, to be implemented by derived class. Sentry is Ignored when this method is called
+  example: []
   syntax:
     content: protected abstract Task OnLoadAsync(CancellationToken cancellationToken)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: ''
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Protected MustOverride Function OnLoadAsync(cancellationToken As CancellationToken) As Task
   overload: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync*
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Load

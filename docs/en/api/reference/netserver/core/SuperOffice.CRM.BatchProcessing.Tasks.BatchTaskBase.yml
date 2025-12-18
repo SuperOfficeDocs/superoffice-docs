@@ -53,6 +53,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
+  - SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
   - SuperOffice.ExportArchive.TicketBatchPluginBase
   implements:
   - SuperOffice.CRM.BatchProcessing.IBatchTask

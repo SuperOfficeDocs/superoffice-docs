@@ -35,6 +35,7 @@ items:
   - SuperOffice.Util.FileNameHelper
   - SuperOffice.Util.GlobalTestFlag
   - SuperOffice.Util.HtmlHelper
+  - SuperOffice.Util.Http11EnforcingHandler
   - SuperOffice.Util.HttpHelper
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   - SuperOffice.Util.HttpHelper.RequestType
@@ -95,6 +96,8 @@ items:
   - SuperOffice.Util.TimeZoneUtility
   - SuperOffice.Util.TrackEvent
   - SuperOffice.Util.TrackEventDispatcher
+  - SuperOffice.Util.TrackEventItem
+  - SuperOffice.Util.TrackEventNames
   - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
@@ -1152,6 +1155,13 @@ references:
   name: DocumentSaveChangeAnalyzer
   nameWithType: DocumentSaveChangeAnalyzer
   fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
+- uid: SuperOffice.Util.Http11EnforcingHandler
+  commentId: T:SuperOffice.Util.Http11EnforcingHandler
+  isExternal: true
+  href: SuperOffice.Util.Http11EnforcingHandler.html
+  name: Http11EnforcingHandler
+  nameWithType: Http11EnforcingHandler
+  fullName: SuperOffice.Util.Http11EnforcingHandler
 - uid: SuperOffice.Util.NSWinContactHelper
   commentId: T:SuperOffice.Util.NSWinContactHelper
   isExternal: true
@@ -1535,11 +1545,19 @@ references:
   fullName: SuperOffice.Util.TargetHelper
 - uid: SuperOffice.Util.TrackEvent
   commentId: T:SuperOffice.Util.TrackEvent
+  parent: SuperOffice.Util
   isExternal: true
   href: SuperOffice.Util.TrackEvent.html
   name: TrackEvent
   nameWithType: TrackEvent
   fullName: SuperOffice.Util.TrackEvent
+- uid: SuperOffice.Util.TrackEventItem
+  commentId: T:SuperOffice.Util.TrackEventItem
+  isExternal: true
+  href: SuperOffice.Util.TrackEventItem.html
+  name: TrackEventItem
+  nameWithType: TrackEventItem
+  fullName: SuperOffice.Util.TrackEventItem
 - uid: SuperOffice.Util.ITrackEventDispatcher
   commentId: T:SuperOffice.Util.ITrackEventDispatcher
   parent: SuperOffice.Util
@@ -1555,6 +1573,13 @@ references:
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventNames
+  commentId: T:SuperOffice.Util.TrackEventNames
+  isExternal: true
+  href: SuperOffice.Util.TrackEventNames.html
+  name: TrackEventNames
+  nameWithType: TrackEventNames
+  fullName: SuperOffice.Util.TrackEventNames
 - uid: SuperOffice.Util.TrackEventSender
   commentId: T:SuperOffice.Util.TrackEventSender
   isExternal: true

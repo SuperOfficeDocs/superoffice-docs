@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultTaskMenuAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketCategoryEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketPriorityEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketTypeEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.CreateDefaultWebPanelEntityAsync(System.Threading.CancellationToken)
@@ -50,6 +51,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteTicketCategoryEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteTicketPriorityEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteTicketStatusEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteTicketTypeEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.DeleteWebPanelAsync(System.Int32,System.Threading.CancellationToken)
@@ -232,6 +234,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.GetTicketPriorityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetTicketPriorityEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetTicketPriorityListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetTicketStatusEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetTicketStatusListAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.GetTicketStatusesAsync(System.Threading.CancellationToken)
@@ -247,6 +250,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.GlobalChangeTicketTypeAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.MoveAllTicketsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.MoveListItemAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Services.AutomatedCategoryUpdate,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.RebuildFullnamesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.CRM.Services.AutomatedCategoryUpdate[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveAllFromListDefinitionAsync(System.Int32,SuperOffice.CRM.Services.ListItemEntity[],System.Threading.CancellationToken)
@@ -283,6 +287,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.SaveTaskMenuAsync(SuperOffice.CRM.Services.TaskMenu,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveTicketCategoryEntityAsync(SuperOffice.CRM.Services.TicketCategoryEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveTicketPriorityEntityAsync(SuperOffice.CRM.Services.TicketPriorityEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.CRM.Services.TicketRelationDefinitionEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveTicketStatusEntityAsync(SuperOffice.CRM.Services.TicketStatusEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveTicketTypeEntityAsync(SuperOffice.CRM.Services.TicketTypeEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntityAsync(SuperOffice.CRM.Services.WebPanelEntity,System.Threading.CancellationToken)
@@ -302,6 +307,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.SetRankOnSaleDocumentAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SetTicketCategoriesForUserGroupAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SetTicketPrioritySortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SetTicketStatusSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SetTicketTypeSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IListAgent.SetVisibleForUserGroupAsync(System.Int32,System.Int32,System.Int32[],System.Boolean,System.Threading.CancellationToken)
@@ -515,14 +521,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the settings for an update when saving a sale
+  summary: Before saving a sale, call this to see if the current changes on the sale should result in a userconfirmation dialog asking to automatically update category on contact or person
   example: []
   syntax:
     content: Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForSaleAsync(SaleStatus saleStatus, int saleId, int contactId, int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStatus
       type: SuperOffice.Data.SaleStatus
-      description: The saleEntity that might trigger the category update
+      description: The new salestatus that might trigger the category update
     - id: saleId
       type: System.Int32
       description: The sale id that might trigger the category update
@@ -556,14 +562,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the settings for an update when saving a sale
+  summary: Before saving a person with changed leadstatus, call this to see if we should ask for a userconfirmation to automatically update category on contact or person
   example: []
   syntax:
     content: Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForPersonAsync(int leadStatus, int personId, int contactId, int categoryId, CancellationToken cancellationToken = default)
     parameters:
     - id: leadStatus
       type: System.Int32
-      description: The leadstatus that might trigger the category update
+      description: The new leadstatus that might trigger the category update
     - id: personId
       type: System.Int32
       description: The person id that might trigger the category update
@@ -583,6 +589,47 @@ items:
   nameWithType.vb: IListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Services.AutomatedCategoryUpdate,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Services.AutomatedCategoryUpdate,System.Threading.CancellationToken)
+  id: PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Services.AutomatedCategoryUpdate,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, CancellationToken)
+  nameWithType: IListAgent.PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync(int, int, int, SuperOffice.CRM.Services.AutomatedCategoryUpdate, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Does the actual update of the category. Ask the user first, if user confirmed yes, do automatically update category, this call will do that actual update
+  example: []
+  syntax:
+    content: Task PerformNeededCategoryUpdateAsync(int personId, int contactId, int categoryId, AutomatedCategoryUpdate setting, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id that will get the resulting update
+    - id: contactId
+      type: System.Int32
+      description: The contact id that will get the resulting update
+    - id: categoryId
+      type: System.Int32
+      description: The category id person and contact will be updated to
+    - id: setting
+      type: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+      description: The setting that triggered the update
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function PerformNeededCategoryUpdateAsync(personId As Integer, contactId As Integer, categoryId As Integer, setting As AutomatedCategoryUpdate, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync*
+  nameWithType.vb: IListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, SuperOffice.CRM.Services.AutomatedCategoryUpdate, System.Threading.CancellationToken)
+  name.vb: PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, CancellationToken)
 - uid: SuperOffice.CRM.Services.IListAgent.GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
   id: GetBusinessAsync(System.Int32,System.Threading.CancellationToken)
@@ -9133,6 +9180,160 @@ items:
   nameWithType.vb: IListAgent.GetAllTicketPrioritiesAsync(Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IListAgent.GetAllTicketPrioritiesAsync(Boolean, System.Threading.CancellationToken)
   name.vb: GetAllTicketPrioritiesAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTicketRelationDefinitionEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketRelationDefinitionEntityAsync(CancellationToken)
+  nameWithType: IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TicketRelationDefinitionEntity.
+  example: []
+  syntax:
+    content: Task<TicketRelationDefinitionEntity> CreateDefaultTicketRelationDefinitionEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionEntity}
+      description: New TicketRelationDefinitionEntity with default values
+    content.vb: Function CreateDefaultTicketRelationDefinitionEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.CRM.Services.TicketRelationDefinitionEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.CRM.Services.TicketRelationDefinitionEntity,System.Threading.CancellationToken)
+  id: SaveTicketRelationDefinitionEntityAsync(SuperOffice.CRM.Services.TicketRelationDefinitionEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, CancellationToken)
+  nameWithType: IListAgent.SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.CRM.Services.TicketRelationDefinitionEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TicketRelationDefinitionEntity or creates a new TicketRelationDefinitionEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<TicketRelationDefinitionEntity> SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity ticketRelationDefinitionEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationDefinitionEntity
+      type: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+      description: The TicketRelationDefinitionEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionEntity}
+      description: New or updated TicketRelationDefinitionEntity
+    content.vb: Function SaveTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntity As TicketRelationDefinitionEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync*
+- uid: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketRelationDefinitionEntityAsync(int, CancellationToken)
+  nameWithType: IListAgent.DeleteTicketRelationDefinitionEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the TicketRelationDefinitionEntity
+  example: []
+  syntax:
+    content: Task DeleteTicketRelationDefinitionEntityAsync(int ticketRelationDefinitionEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationDefinitionEntityId
+      type: System.Int32
+      description: The identity of the TicketRelationDefinitionEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync*
+  nameWithType.vb: IListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTicketRelationDefinitionEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketRelationDefinitionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationDefinitionEntityAsync(int, CancellationToken)
+  nameWithType: IListAgent.GetTicketRelationDefinitionEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a TicketRelationDefinitionEntity object.
+  example: []
+  syntax:
+    content: Task<TicketRelationDefinitionEntity> GetTicketRelationDefinitionEntityAsync(int ticketRelationDefinitionEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationDefinitionEntityId
+      type: System.Int32
+      description: The identifier of the TicketRelationDefinitionEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionEntity}
+      description: A single TicketRelationDefinitionEntity
+    content.vb: Function GetTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync*
+  nameWithType.vb: IListAgent.GetTicketRelationDefinitionEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTicketRelationDefinitionEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTicketRelationDefinitionSortOrderAsync(int, int, CancellationToken)
+  nameWithType: IListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: This method will set sort order of ticket relation definition in a list
+  example: []
+  syntax:
+    content: Task SetTicketRelationDefinitionSortOrderAsync(int ticketRelationDefId, int sortOrder, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationDefId
+      type: System.Int32
+      description: Id of ticket relation definition
+    - id: sortOrder
+      type: System.Int32
+      description: Indicates the sort order for this relation definition. 1 is first. Any records following this one will be renumbered automatically
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetTicketRelationDefinitionSortOrderAsync(ticketRelationDefId As Integer, sortOrder As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync*
+  nameWithType.vb: IListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
@@ -10241,6 +10442,29 @@ references:
   name: GetNeedCategoryUpdateForPersonAsync
   nameWithType: IListAgent.GetNeedCategoryUpdateForPersonAsync
   fullName: SuperOffice.CRM.Services.IListAgent.GetNeedCategoryUpdateForPersonAsync
+- uid: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_PerformNeededCategoryUpdateAsync_System_Int32_System_Int32_System_Int32_SuperOffice_CRM_Services_AutomatedCategoryUpdate_System_Threading_CancellationToken_
+  name: PerformNeededCategoryUpdateAsync
+  nameWithType: IListAgent.PerformNeededCategoryUpdateAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.PerformNeededCategoryUpdateAsync
+- uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  commentId: T:SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AutomatedCategoryUpdate.html
+  name: AutomatedCategoryUpdate
+  nameWithType: AutomatedCategoryUpdate
+  fullName: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IListAgent.GetBusinessAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetBusinessAsync
   isExternal: true
@@ -10677,14 +10901,6 @@ references:
   name: DeleteTaskMenuAsync
   nameWithType: IListAgent.DeleteTaskMenuAsync
   fullName: SuperOffice.CRM.Services.IListAgent.DeleteTaskMenuAsync
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetTaskMenuAsync
   isExternal: true
@@ -16886,6 +17102,84 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_CreateDefaultTicketRelationDefinitionEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTicketRelationDefinitionEntityAsync
+  nameWithType: IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationDefinitionEntity>
+  nameWithType: Task<TicketRelationDefinitionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketRelationDefinitionEntity>
+  nameWithType.vb: Task(Of TicketRelationDefinitionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketRelationDefinitionEntity)
+  name.vb: Task(Of TicketRelationDefinitionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_SaveTicketRelationDefinitionEntityAsync_SuperOffice_CRM_Services_TicketRelationDefinitionEntity_System_Threading_CancellationToken_
+  name: SaveTicketRelationDefinitionEntityAsync
+  nameWithType: IListAgent.SaveTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.SaveTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionEntity.html
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+- uid: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_DeleteTicketRelationDefinitionEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTicketRelationDefinitionEntityAsync
+  nameWithType: IListAgent.DeleteTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.DeleteTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_GetTicketRelationDefinitionEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTicketRelationDefinitionEntityAsync
+  nameWithType: IListAgent.GetTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.GetTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html#SuperOffice_CRM_Services_IListAgent_SetTicketRelationDefinitionSortOrderAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: SetTicketRelationDefinitionSortOrderAsync
+  nameWithType: IListAgent.SetTicketRelationDefinitionSortOrderAsync
+  fullName: SuperOffice.CRM.Services.IListAgent.SetTicketRelationDefinitionSortOrderAsync
 - uid: SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketStatusEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketStatusEntityAsync
   isExternal: true

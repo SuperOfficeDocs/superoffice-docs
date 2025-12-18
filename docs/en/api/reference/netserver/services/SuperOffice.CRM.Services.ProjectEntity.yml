@@ -91,11 +91,11 @@ items:
     var links = archive.GetArchiveListByColumns2("Links", "...", null, "sourceProjectRestrictionId eq 123", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public class ProjectEntity : Carrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public Class ProjectEntity Inherits Carrier Implements IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier
   seealso:
@@ -114,7 +114,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.CRM.Services.ProjectEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ProjectEntity.#ctor
   id: '#ctor'

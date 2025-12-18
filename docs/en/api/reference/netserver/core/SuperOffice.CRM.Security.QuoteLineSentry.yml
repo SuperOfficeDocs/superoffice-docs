@@ -15,13 +15,10 @@ items:
   - SuperOffice.CRM.Security.QuoteLineSentry.GroupId
   - SuperOffice.CRM.Security.QuoteLineSentry.IsGhostRow
   - SuperOffice.CRM.Security.QuoteLineSentry.IsNew
-  - SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-  - SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-  - SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
   - SuperOffice.CRM.Security.QuoteLineSentry.RegisteredAssociateIdField
   - SuperOffice.CRM.Security.QuoteLineSentry.RegisteredField
   - SuperOffice.CRM.Security.QuoteLineSentry.RowId
-  - SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
+  - SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
   langs:
   - csharp
   - vb
@@ -48,6 +45,7 @@ items:
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.SuperComputeDerivedTableRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.SuperComputeTableRights
+  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeGhostTableRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeLicenseExpiration
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.SuperComputeFieldRights
@@ -68,7 +66,7 @@ items:
   - SuperOffice.CRM.Security.Sentry._lookups
   - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
   - SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
@@ -191,6 +189,29 @@ items:
   nameWithType.vb: QuoteLineSentry.New(QuoteLineSentryQueryInfo)
   fullName.vb: SuperOffice.CRM.Security.QuoteLineSentry.New(SuperOffice.CRM.Security.QuoteLineSentryQueryInfo)
   name.vb: New(QuoteLineSentryQueryInfo)
+- uid: SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  id: SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Security.QuoteLineSentry
+  langs:
+  - csharp
+  - vb
+  name: SetParentSentryLookups(ISoDataLookup)
+  nameWithType: QuoteLineSentry.SetParentSentryLookups(ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  example: []
+  syntax:
+    content: public override void SetParentSentryLookups(ISoDataLookup lookup)
+    parameters:
+    - id: lookup
+      type: SuperOffice.CRM.Security.ISoDataLookup
+    content.vb: Public Overrides Sub SetParentSentryLookups(lookup As ISoDataLookup)
+  overridden: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  overload: SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups*
 - uid: SuperOffice.CRM.Security.QuoteLineSentry.GetRowSentry
   commentId: M:SuperOffice.CRM.Security.QuoteLineSentry.GetRowSentry
   id: GetRowSentry
@@ -485,98 +506,6 @@ items:
     content.vb: Public Overrides ReadOnly Property AssociateId As Integer
   overridden: SuperOffice.CRM.Security.Sentry.AssociateId
   overload: SuperOffice.CRM.Security.QuoteLineSentry.AssociateId*
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
-  commentId: P:SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
-  id: SaleTableInfo
-  parent: SuperOffice.CRM.Security.QuoteLineSentry
-  langs:
-  - csharp
-  - vb
-  name: SaleTableInfo
-  nameWithType: QuoteLineSentry.SaleTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: TableInfo for the contact table related to the person's contactId.
-  example: []
-  syntax:
-    content: public SaleTableInfo SaleTableInfo { get; set; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.SaleTableInfo
-    content.vb: Public Property SaleTableInfo As SaleTableInfo
-  overload: SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo*
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-  commentId: P:SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-  id: QuoteTableInfo
-  parent: SuperOffice.CRM.Security.QuoteLineSentry
-  langs:
-  - csharp
-  - vb
-  name: QuoteTableInfo
-  nameWithType: QuoteLineSentry.QuoteTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: TableInfo for the contact table related to the person's contactId.
-  example: []
-  syntax:
-    content: public QuoteTableInfo QuoteTableInfo { get; set; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.QuoteTableInfo
-    content.vb: Public Property QuoteTableInfo As QuoteTableInfo
-  overload: SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo*
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
-  commentId: P:SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
-  id: QuoteVersionTableInfo
-  parent: SuperOffice.CRM.Security.QuoteLineSentry
-  langs:
-  - csharp
-  - vb
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteLineSentry.QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: TableInfo for the contact table related to the person's contactId.
-  example: []
-  syntax:
-    content: public QuoteVersionTableInfo QuoteVersionTableInfo { get; set; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.QuoteVersionTableInfo
-    content.vb: Public Property QuoteVersionTableInfo As QuoteVersionTableInfo
-  overload: SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo*
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-  commentId: P:SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-  id: QuoteAlternativeTableInfo
-  parent: SuperOffice.CRM.Security.QuoteLineSentry
-  langs:
-  - csharp
-  - vb
-  name: QuoteAlternativeTableInfo
-  nameWithType: QuoteLineSentry.QuoteAlternativeTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: TableInfo for the contact table related to the person's contactId.
-  example: []
-  syntax:
-    content: public QuoteAlternativeTableInfo QuoteAlternativeTableInfo { get; set; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    content.vb: Public Property QuoteAlternativeTableInfo As QuoteAlternativeTableInfo
-  overload: SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo*
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
@@ -842,6 +771,30 @@ references:
     name: SuperComputeTableRights
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeTableRights
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeGhostTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeGhostTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}
+  definition: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  name: ComputeGhostTableRights()
+  nameWithType: Sentry<QuoteLineTableInfo>.ComputeGhostTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.QuoteLineTableInfo>.ComputeGhostTableRights()
+  nameWithType.vb: Sentry(Of QuoteLineTableInfo).ComputeGhostTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.QuoteLineTableInfo).ComputeGhostTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
   - name: (
   - name: )
 - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.QuoteLineTableInfo}.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
@@ -1266,35 +1219,47 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
-  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   parent: SuperOffice.CRM.Security.Sentry
   isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
-  name: CreateSentries(Select)
-  nameWithType: Sentry.CreateSentries(Select)
-  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
+  name: CreateSentries(Select, SoCommand)
+  nameWithType: Sentry.CreateSentries(Select, SoCommand)
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select, SuperOffice.Data.SoCommand)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
     name: CreateSentries
     isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
   - name: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
     isExternal: true
     href: SuperOffice.Data.SQL.Select.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
     name: CreateSentries
     isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
   - name: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
     isExternal: true
     href: SuperOffice.Data.SQL.Select.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
 - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
@@ -2845,6 +2810,29 @@ references:
     href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_SuperComputeTableRights
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  name: ComputeGhostTableRights()
+  nameWithType: Sentry<TMainTable>.ComputeGhostTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeGhostTableRights()
+  nameWithType.vb: Sentry(Of TMainTable).ComputeGhostTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeGhostTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Security.Sentry`1.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
   commentId: M:SuperOffice.CRM.Security.Sentry`1.AddInterestingTables(SuperOffice.Data.SQL.TableInfo[])
   isExternal: true
@@ -3365,6 +3353,43 @@ references:
   name: QuoteLineSentryQueryInfo
   nameWithType: QuoteLineSentryQueryInfo
   fullName: SuperOffice.CRM.Security.QuoteLineSentryQueryInfo
+- uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  name: SetParentSentryLookups(ISoDataLookup)
+  nameWithType: Sentry.SetParentSentryLookups(ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
+  - name: )
+- uid: SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups*
+  commentId: Overload:SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups
+  isExternal: true
+  href: SuperOffice.CRM.Security.QuoteLineSentry.html#SuperOffice_CRM_Security_QuoteLineSentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  name: SetParentSentryLookups
+  nameWithType: QuoteLineSentry.SetParentSentryLookups
+  fullName: SuperOffice.CRM.Security.QuoteLineSentry.SetParentSentryLookups
 - uid: SuperOffice.CRM.Security.Sentry.GetRowSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.GetRowSentry
   parent: SuperOffice.CRM.Security.Sentry
@@ -3718,63 +3743,3 @@ references:
   name: AssociateId
   nameWithType: QuoteLineSentry.AssociateId
   fullName: SuperOffice.CRM.Security.QuoteLineSentry.AssociateId
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.QuoteLineSentry.html#SuperOffice_CRM_Security_QuoteLineSentry_SaleTableInfo
-  name: SaleTableInfo
-  nameWithType: QuoteLineSentry.SaleTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.SaleTableInfo
-- uid: SuperOffice.CRM.Data.SaleTableInfo
-  commentId: T:SuperOffice.CRM.Data.SaleTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SaleTableInfo.html
-  name: SaleTableInfo
-  nameWithType: SaleTableInfo
-  fullName: SuperOffice.CRM.Data.SaleTableInfo
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.QuoteLineSentry.html#SuperOffice_CRM_Security_QuoteLineSentry_QuoteTableInfo
-  name: QuoteTableInfo
-  nameWithType: QuoteLineSentry.QuoteTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteTableInfo
-- uid: SuperOffice.CRM.Data.QuoteTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteTableInfo.html
-  name: QuoteTableInfo
-  nameWithType: QuoteTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteTableInfo
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.QuoteLineSentry.html#SuperOffice_CRM_Security_QuoteLineSentry_QuoteVersionTableInfo
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteLineSentry.QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteVersionTableInfo
-- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteVersionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
-- uid: SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo*
-  commentId: Overload:SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Security.QuoteLineSentry.html#SuperOffice_CRM_Security_QuoteLineSentry_QuoteAlternativeTableInfo
-  name: QuoteAlternativeTableInfo
-  nameWithType: QuoteLineSentry.QuoteAlternativeTableInfo
-  fullName: SuperOffice.CRM.Security.QuoteLineSentry.QuoteAlternativeTableInfo
-- uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  name: QuoteAlternativeTableInfo
-  nameWithType: QuoteAlternativeTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo

@@ -7,6 +7,7 @@ items:
   - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
   - SuperOffice.Data.Cache.CacheBaseV2
   - SuperOffice.Data.Cache.CacheBlockInformationCollector
+  - SuperOffice.Data.Cache.CacheBlockLogger
   - SuperOffice.Data.Cache.CacheFlusher
   - SuperOffice.Data.Cache.CacheInvalidationOperations
   - SuperOffice.Data.Cache.CacheManager
@@ -63,6 +64,13 @@ references:
   name: CacheBlockInformationCollector
   nameWithType: CacheBlockInformationCollector
   fullName: SuperOffice.Data.Cache.CacheBlockInformationCollector
+- uid: SuperOffice.Data.Cache.CacheBlockLogger
+  commentId: T:SuperOffice.Data.Cache.CacheBlockLogger
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockLogger.html
+  name: CacheBlockLogger
+  nameWithType: CacheBlockLogger
+  fullName: SuperOffice.Data.Cache.CacheBlockLogger
 - uid: SuperOffice.Data.Cache.CacheInvalidationOperations
   commentId: T:SuperOffice.Data.Cache.CacheInvalidationOperations
   isExternal: true

@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Security.SaleSentry.AssociateId
   - SuperOffice.CRM.Security.SaleSentry.ComputeDerivedTableRights
   - SuperOffice.CRM.Security.SaleSentry.ComputeFieldRights
+  - SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights
   - SuperOffice.CRM.Security.SaleSentry.ComputeTableRights
   - SuperOffice.CRM.Security.SaleSentry.GetRowSentry
   - SuperOffice.CRM.Security.SaleSentry.GetTableInfoFromQuery``1
@@ -92,7 +93,7 @@ items:
   - SuperOffice.CRM.Security.Sentry._lookups
   - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
   - SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
@@ -110,6 +111,7 @@ items:
   - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
   - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight,SuperOffice.Data.ETableRight)
   - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
   - SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
@@ -276,6 +278,27 @@ items:
   nameWithType.vb: SaleSentry.New(SaleTableInfo, QuoteTableInfo)
   fullName.vb: SuperOffice.CRM.Security.SaleSentry.New(SuperOffice.CRM.Data.SaleTableInfo, SuperOffice.CRM.Data.QuoteTableInfo)
   name.vb: New(SaleTableInfo, QuoteTableInfo)
+- uid: SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights
+  commentId: M:SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights
+  id: ComputeGhostTableRights
+  parent: SuperOffice.CRM.Security.SaleSentry
+  langs:
+  - csharp
+  - vb
+  name: ComputeGhostTableRights()
+  nameWithType: SaleSentry.ComputeGhostTableRights()
+  fullName: SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: A ghost row is simply inaccessible - rather than having the R right but no content, since VisibleFor filtering happens in the database
+  example: []
+  syntax:
+    content: protected override void ComputeGhostTableRights()
+    content.vb: Protected Overrides Sub ComputeGhostTableRights()
+  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeGhostTableRights
+  overload: SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights*
 - uid: SuperOffice.CRM.Security.SaleSentry.ComputeTableRights
   commentId: M:SuperOffice.CRM.Security.SaleSentry.ComputeTableRights
   id: ComputeTableRights
@@ -1364,35 +1387,47 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
-  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   parent: SuperOffice.CRM.Security.Sentry
   isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
-  name: CreateSentries(Select)
-  nameWithType: Sentry.CreateSentries(Select)
-  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
+  name: CreateSentries(Select, SoCommand)
+  nameWithType: Sentry.CreateSentries(Select, SoCommand)
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select, SuperOffice.Data.SoCommand)
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
     name: CreateSentries
     isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
   - name: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
     isExternal: true
     href: SuperOffice.Data.SQL.Select.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
     name: CreateSentries
     isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_CreateSentries_SuperOffice_Data_SQL_Select_SuperOffice_Data_SoCommand_
   - name: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
     isExternal: true
     href: SuperOffice.Data.SQL.Select.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    isExternal: true
+    href: SuperOffice.Data.SoCommand.html
   - name: )
 - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
@@ -1925,6 +1960,36 @@ references:
   - uid: SuperOffice.Data.ETableRight
     name: ETableRight
     isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  name: SetParentSentryLookups(ISoDataLookup)
+  nameWithType: Sentry.SetParentSentryLookups(ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
   - name: )
 - uid: SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
@@ -3485,6 +3550,60 @@ references:
   name: QuoteTableInfo
   nameWithType: QuoteTableInfo
   fullName: SuperOffice.CRM.Data.QuoteTableInfo
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeGhostTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeGhostTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}
+  definition: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  name: ComputeGhostTableRights()
+  nameWithType: Sentry<SaleTableInfo>.ComputeGhostTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.SaleTableInfo>.ComputeGhostTableRights()
+  nameWithType.vb: Sentry(Of SaleTableInfo).ComputeGhostTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.SaleTableInfo).ComputeGhostTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights
+  isExternal: true
+  href: SuperOffice.CRM.Security.SaleSentry.html#SuperOffice_CRM_Security_SaleSentry_ComputeGhostTableRights
+  name: ComputeGhostTableRights
+  nameWithType: SaleSentry.ComputeGhostTableRights
+  fullName: SuperOffice.CRM.Security.SaleSentry.ComputeGhostTableRights
+- uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  name: ComputeGhostTableRights()
+  nameWithType: Sentry<TMainTable>.ComputeGhostTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeGhostTableRights()
+  nameWithType.vb: Sentry(Of TMainTable).ComputeGhostTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeGhostTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeGhostTableRights
+    name: ComputeGhostTableRights
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry-1.html#SuperOffice_CRM_Security_Sentry_1_ComputeGhostTableRights
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeTableRights
   commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}.ComputeTableRights
   parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.SaleTableInfo}
