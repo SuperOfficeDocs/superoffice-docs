@@ -44,7 +44,7 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 > [!NOTE]
 > The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**](https://docs.superoffice.com/en/admin/user-management/index.html#visible).
+> For more details, see [**Admin - User Management - Visibility**][2].
 
 
 ## Save attachments to SuperOffice
@@ -65,7 +65,7 @@ You can also save email attachments directly to SuperOffice by following these s
 >  * Previously saved attachments will be marked as "Attachment already saved."
 > 
 >  * The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**](https://docs.superoffice.com/en/admin/user-management/index.html#visible).
+> For more details, see [**Admin - User Management - Visibility**][2].
 
 
 ## Send and archive
@@ -91,10 +91,11 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 
 > [!NOTE]
 > The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**](https://docs.superoffice.com/en/admin/user-management/index.html#visible).
+> For more details, see [**Admin - User Management - Visibility**][2].
 
 <!-- Referenced links -->
 [1]: get.md#open
+[2]: ../../docs/en/admin/user-management/index.md#visible
 
 <!-- Referenced images -->
 [img1]: media/outlook-save-to-superoffice.png
