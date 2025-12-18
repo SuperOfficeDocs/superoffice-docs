@@ -1,10 +1,11 @@
 ---
+uid: superid-complete-user-transition
 title: Complete user account transition
-uid: complete_user_transition
 description: Complete user account transition from password to federated login
-author: SuperOffice Product and Engineering
-keywords:
-content_type: tutorial
+keywords: federated login
+author: digitaldiina
+date: 12.18.2025
+content_type: howto
 index: true
 ---
 
@@ -26,20 +27,12 @@ The 1st time an existing password user tries to sign in after an [identity provi
 
 1. The user must **sign in with the old SuperOffice password** to prove their identity.
 
-    ![Sign in -screenshot][img1]
-
-    ![Use the old password -screenshot][img2]
-
 2. The user is prompted to **sign in using the identity provider**.
-
-    ![Sign in using identity provider -screenshot][img3]
 
 3. The **user gives consent** to sign in with the identity provider and authenticates. Does the user's browser have an active session from the identity provider?
 
-    * If no – the user must sign in to the selected IdP account
-    * If yes – the user continues with the selected IdP account
-
-    ![Sign in with Google -screenshot][img4]
+    * If no, the user must sign in to the selected IdP account
+    * If yes, the user continues with the selected IdP account
 
 4. The user is signed in and **redirected** to the SuperOffice CRM Online tenant.
 
@@ -49,8 +42,3 @@ The 1st time an existing password user tries to sign in after an [identity provi
 [1]: ../../federated-id-and-identity-providers.md
 [2]: map-idp-usernames.md
 [3]: register-idp.md
-
-[img1]: media/sign-in-old.png
-[img2]: media/sign-in-old-password.png
-[img3]: media/authenticate-identityprovider.png
-[img4]: media/sign-in-idp.png
