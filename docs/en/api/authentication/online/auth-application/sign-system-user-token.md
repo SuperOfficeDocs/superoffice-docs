@@ -4,7 +4,7 @@ uid: sign_system_user_token
 description: How to sign system user token
 author: SuperOffice Product and Engineering
 keywords: authentication, system user
-date: 10.28.2025
+date: 12.18.2025
 content_type: howto
 category: api
 deployment: online
@@ -101,7 +101,7 @@ $privateKey = openssl_pkey_get_private(file_get_contents($private_key_file), "PA
 
 // create the content that will be signed.
 
-$signThis = $systemUserToken.".".date("YmdHi");
+$signThis = $systemUserToken.".".(new DateTime())->setTimezone(new DateTimeZone("UTC"))->format("YmdHi");"
 
 //sign the system token using private key of the application, returns $signature
 
